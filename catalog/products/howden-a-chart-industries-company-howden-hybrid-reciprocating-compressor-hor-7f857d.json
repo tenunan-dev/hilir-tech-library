@@ -27,6 +27,48 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "value": 450
+    },
+    {
+      "metric": "Number of compression stages",
+      "unit": " stages (up to)",
+      "basis": "Howden: 'The Howden hybrid reciprocating compressor is available in horizontal or vertical configurations of up to five compression stages'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Pressure increase",
+      "unit": "bar (up to)",
+      "basis": "Howden: 'offering pressures increases of to 450 bar while providing inter-stage cooling and purging of condensates'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 450
+    },
+    {
+      "metric": "Example wet hydrogen duty",
+      "unit": "text",
+      "basis": "Howden case figure: 'Flow: 21.000 Nm3/hr of wet hydrogen at 1.2 bara; Final pressure 55 bara'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      }
+    },
+    {
+      "metric": "Gas suitability",
+      "unit": "text",
+      "basis": "Howden: 'suitable for virtually all dry gases including helium, hydrogen and nitrogen'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      }
+    },
+    {
+      "metric": "Configuration / auxiliary systems",
+      "unit": "text",
+      "basis": "Howden: 'inter-stage cooling and purging of condensates'; 'fully integrated skid incorporates control systems, regulation equipment and any other additional modules and utility packages'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      }
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
@@ -35,6 +77,6 @@
       "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
-  "notes": "Peter Brotherhood reciprocating compressors rated to 20MW and operating between 260 and 1,000 rpm also described on this page (text as printed).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Peter Brotherhood reciprocating compressors rated to 20MW and operating between 260 and 1,000 rpm also described on this page (text as printed). Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

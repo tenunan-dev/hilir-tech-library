@@ -47,6 +47,105 @@
       },
       "unit": "scope of supply",
       "value": "Proprietary igniters, flame scanners, optional instrumentation packages"
+    },
+    {
+      "metric": "Flame holder models",
+      "unit": "n/a",
+      "basis": "We offer a suite of flame holder designs ... LDRW (Low Draft Reverse Wing), VC (V-Cone Tip Wing), Coen Castings",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "LDRW (Low Draft Reverse Wing), VC (V-Cone Tip Wing), Coen Castings"
+    },
+    {
+      "metric": "Coen Castings configurations",
+      "unit": "n/a",
+      "basis": "Coen Castings represent the most rugged solution with single and double-wing (PowerPlus) configurations",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "single and double-wing (PowerPlus)"
+    },
+    {
+      "metric": "LDRW design",
+      "unit": "n/a",
+      "basis": "The LDRW (Low Draft Reverse Wing) model is crafted for versatility and reliability in retrofit or modular projects",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "modular construction; accommodates thermal growth; variable draft conditions"
+    },
+    {
+      "metric": "VC design",
+      "unit": "n/a",
+      "basis": "The VC (V-Cone Tip Wing) flame holder specializes in enhanced flame shaping and robust mixing",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "V-cone tip, optimized flow characteristics, enhanced flame shaping and mixing"
+    },
+    {
+      "metric": "HRSG optimisation",
+      "unit": "n/a",
+      "basis": "Our duct burners are engineered specifically for HRSGs, delivering reliable, high-efficiency performance in combined cycle, dual cycle, and cogeneration applications",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "purpose-built for HRSG systems in combined cycle and cogeneration"
+    },
+    {
+      "metric": "Hydrogen readiness",
+      "unit": "n/a",
+      "basis": "Hydrogen-Ready Capabilities: Designed to operate with hydrogen and alternative fuels",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "Designed to operate with hydrogen and alternative fuels"
+    },
+    {
+      "metric": "CFD",
+      "unit": "n/a",
+      "basis": "Advanced CFD Modeling: Precision-engineered flow, flame stability, and temperature uniformity",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "Advanced CFD Modeling for flow, flame stability and temperature uniformity"
+    },
+    {
+      "metric": "Integrated options",
+      "unit": "n/a",
+      "basis": "Includes proprietary igniters, flame scanners, and optional instrumentation packages",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "proprietary igniters, flame scanners, optional instrumentation packages"
+    },
+    {
+      "metric": "Installations",
+      "unit": "n/a",
+      "basis": "With more than 1,000 installations worldwide, we are the global leader in industrial duct burner solutions",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "more than 1,000 installations worldwide"
+    },
+    {
+      "metric": "OEM heritage",
+      "unit": "n/a",
+      "basis": "including experience as the OEM behind technologies such as Coen and Hamworthy Combustion",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "experience as the OEM behind technologies such as Coen and Hamworthy Combustion"
+    },
+    {
+      "metric": "Emissions compliance",
+      "unit": "n/a",
+      "basis": "Reliable Compliance: Meets strict NOx, CO, and other emissions standards",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "Meets strict NOx, CO, and other emissions standards"
     }
   ],
   "url": "https://www.johnzink.com/products/powerburners/duct-burner",
@@ -55,6 +154,6 @@
       "url": "https://www.johnzink.com/products/powerburners/duct-burner"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown). No numeric heat-input or emissions figure printed on this page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). No numeric heat-input or emissions figure printed on this page. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

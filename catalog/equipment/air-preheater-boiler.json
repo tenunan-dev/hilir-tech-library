@@ -43,6 +43,24 @@
       },
       "unit": "qualitative",
       "value": "Clean air contact with products and high efficiency in heat transfer"
+    },
+    {
+      "metric": "Product description",
+      "unit": "n/a",
+      "basis": "John Zink's air heaters and recuperators are advanced combustion solutions designed for indirect-fired process gas heating applications, ensuring clean air contact with products and high efficiency in heat transfer.",
+      "source": {
+        "url": "https://www.johnzink.com/products"
+      },
+      "value": "advanced combustion solutions designed for indirect-fired process gas heating applications, ensuring clean air contact with products and high efficiency in heat transfer"
+    },
+    {
+      "metric": "Related waste gas destruction efficiency",
+      "unit": "%",
+      "basis": "John Zink provides a range of solutions for destroying waste gases, including methane and non-methane organic compounds (NMOCs), with up to 98% destruction efficiencies.",
+      "source": {
+        "url": "https://www.johnzink.com/products"
+      },
+      "high": 98
     }
   ],
   "vendors": [
@@ -54,7 +72,7 @@
       "source_id": "bw-air-heaters"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

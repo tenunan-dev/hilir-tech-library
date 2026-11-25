@@ -27,6 +27,96 @@
         "source_id": "eew-group-com-eew-group-com-offshore-wind"
       },
       "value": ">80"
+    },
+    {
+      "metric": "Experience in offshore wind",
+      "unit": "years",
+      "basis": "Key Facts: > 15 years of experience in offshore wind",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 15
+    },
+    {
+      "metric": "Monopiles produced",
+      "unit": "count",
+      "basis": "Key Facts: > 2200 monopiles already produced",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 2200
+    },
+    {
+      "metric": "Offshore wind projects supplied",
+      "unit": "count",
+      "basis": "Key Facts: > 80 offshore wind projects supplied with EEW foundations and components",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 80
+    },
+    {
+      "metric": "USA monopile plant capacity",
+      "unit": "monopiles/year",
+      "basis": "100 monopiles a year will be manufactured in 2024 at full production capacity",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Atlantic Shores Offshore Wind Project 1",
+      "unit": "GW",
+      "basis": "EEW has already been awarded the 1.5 GW Atlantic Shores Offshore Wind Project 1",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 1.5
+    },
+    {
+      "metric": "US wind target by 2030",
+      "unit": "GW",
+      "basis": "By 2030, the USA wants to cover 20% of the national energy demand with clean wind energy. For this purpose, 300 GW of wind energy will be generated.",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Wind share of European electricity generation",
+      "unit": "%",
+      "basis": "Wind energy already accounts for 15% of electricity generation in Europe",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 15
+    },
+    {
+      "metric": "Asian offshore wind planned capacity to 2030",
+      "unit": "GW",
+      "basis": "The planned capacity of Asian offshore wind energy is approximately 30 GW until 2030",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Products",
+      "unit": "n/a",
+      "basis": "Product Portfolio for Offshore Wind list",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": "Monopiles; pipes for jacket components; piles for offshore wind; components for floating structures"
+    },
+    {
+      "metric": "Facilities",
+      "unit": "n/a",
+      "basis": "Our Facilities list (EEW Group, EEW SPC, EEW PPE, EEW Korea, EEW KHPC, EEW Malaysia)",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": "Erndtebrueck, Rostock, Sacheon, Gwangyang, Pasir Gudang"
     }
   ],
   "url": "https://eew-group.com/offshore-wind",
@@ -35,6 +125,6 @@
       "url": "https://eew-group.com/offshore-wind"
     }
   ],
-  "notes": "Korea and Malaysia plants serve Asian offshore wind.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Korea and Malaysia plants serve Asian offshore wind. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

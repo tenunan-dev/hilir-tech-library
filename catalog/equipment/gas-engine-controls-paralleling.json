@@ -134,6 +134,191 @@
         "source_id": "comap-control-com-inteligen-inteligen-1000"
       },
       "value": "262 x 182 x 47"
+    },
+    {
+      "metric": "Gensets in isochronous parallel operation",
+      "unit": "gensets",
+      "basis": "\"Isochronous operation of 1 to 32 gensets\"",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
+      },
+      "low": 1,
+      "high": 32
+    },
+    {
+      "metric": "Measurement accuracy",
+      "unit": "Class I",
+      "basis": "\"Precise measurements with Class I accuracy for true RMS power sensing\"",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
+      }
+    },
+    {
+      "metric": "Standard languages",
+      "unit": "languages",
+      "basis": "\"Globally standardized control (e.g. with 14 standard languages and customizable language options)\"",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
+      },
+      "value": 14
+    },
+    {
+      "metric": "Communication / load sharing",
+      "unit": "n/a",
+      "basis": "\"CAN network load sharing and J-1939 engine control\"; \"Multi-mastering, redundant communication, and redundancy functionality\"",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
+      }
+    },
+    {
+      "metric": "Integrated functions",
+      "unit": "n/a",
+      "basis": "\"Combines multiple functions (synchronization, protection, AVR, configurable PIDs for process control, genset automation, load and power factor control) into one controller\"",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "\"Emergency stand-by, AMF; CHP; Marine ship/shore power; Islanded prime power; Utility paralleling with peak shaving and import/export control\"",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
+      }
+    },
+    {
+      "metric": "Robustness",
+      "unit": "n/a",
+      "basis": "\"Robust design with conformal coating and galvanic isolation for harsh environments\"",
+      "source": {
+        "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
+      }
+    },
+    {
+      "metric": "Additional gen-sets/mains/tie controllers",
+      "unit": "count",
+      "basis": "New CAN FD inter-controller communication standard enabling cooperation with up to 64 additional gen-sets/mains/tie controllers",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "high": 64
+    },
+    {
+      "metric": "Cyber security level",
+      "unit": "n/a",
+      "basis": "meeting the ISA 62443 level 2 - level 3 security requirements",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": "ISA 62443 level 2 - level 3"
+    },
+    {
+      "metric": "Ethernet ports",
+      "unit": "count",
+      "basis": "External communication options: 3x Ethernet (Modbus TCP, SNMP), 1x RS-485 (Modbus RTU)",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": 3
+    },
+    {
+      "metric": "RS-485 ports",
+      "unit": "count",
+      "basis": "1x RS-485 (Modbus RTU)",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Enclosure dimensions",
+      "unit": "mm",
+      "basis": "Dimensions: Enclosure : 262 x 182 x 47 mm (10.3 x 7.2 x 1.85 inch.)",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": "262 x 182 x 47 mm"
+    },
+    {
+      "metric": "Cutout dimensions",
+      "unit": "mm",
+      "basis": "Cutout : 225 x 165 x 47 (10 x 6.5 x 1.85 inch.)",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": "225 x 165 x 47 mm"
+    },
+    {
+      "metric": "Ingress protection",
+      "unit": "n/a",
+      "basis": "EN 60529 (IP20)",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": "IP20"
+    },
+    {
+      "metric": "Operating low temperature",
+      "unit": "degC",
+      "basis": "EN 60068-2-1 (-40 °C/16 h)",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": -40
+    },
+    {
+      "metric": "Operating high temperature",
+      "unit": "degC",
+      "basis": "EN 60068-2-2 (70 °C/16 h)",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": 70
+    },
+    {
+      "metric": "Vibration",
+      "unit": "n/a",
+      "basis": "EN 60068-2-6 (2÷25 Hz / ±1,6 mm; 25÷100 Hz / 4,0 g)",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": "2÷25 Hz / ±1,6 mm; 25÷100 Hz / 4,0 g"
+    },
+    {
+      "metric": "Shock",
+      "unit": "m/s2",
+      "basis": "EN 60068-2-27 (a=500 m/s 2 ; T=6 ms)",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Damp heat",
+      "unit": "n/a",
+      "basis": "EN 60068-2-30 (25/55 °C, RH 95%, 48 h)",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": "25/55 °C, RH 95%, 48 h"
+    },
+    {
+      "metric": "Grid code compliance",
+      "unit": "n/a",
+      "basis": "Compliant with international grid codes: European EN 50549, including national implementations as VDE-AR-N 4110:2018, VDE-AR-N 4105:2019, G99, TOR, American IEEE 1547 and others.",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": "EN 50549, VDE-AR-N 4110:2018, VDE-AR-N 4105:2019, G99, TOR, IEEE 1547"
+    },
+    {
+      "metric": "Bank controller units",
+      "unit": "count",
+      "basis": "allowing for a theoretical maximum of 4032 control units to be efficiently managed within a single ComAp system",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
+      },
+      "value": 4032
     }
   ],
   "vendors": [
@@ -185,5 +370,5 @@
     }
   ],
   "notes": "Merged from 2 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

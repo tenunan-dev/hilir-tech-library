@@ -29,14 +29,83 @@
       },
       "low": 49.9,
       "high": 50.0
+    },
+    {
+      "metric": "Data-centre selector output 50/60 Hz",
+      "unit": "MW",
+      "basis": "Data center power solutions selector: 'Wartsila 50SG gas engine 18.4 MW (50 Hz) / 18.9 MW (60 Hz), 49.9% efficiency / 50.0% efficiency | 30 sec power to grid'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
+      },
+      "value": "18.4 MW / 18.9 MW"
+    },
+    {
+      "metric": "Up to 54% efficiency with Flexicycle",
+      "unit": "% (up to)",
+      "basis": "'Up to 54% efficiency with Flexicycle solution' on the 50SG selector card.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
+      },
+      "value": 54
+    },
+    {
+      "metric": "24 x 50SG order",
+      "unit": "MW",
+      "basis": "POWER article: 'an order for 24 Wartsila 50SG engines delivering 429 MW of output for an American power plant serving a data center'.",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
+      },
+      "value": "24 engines delivering 429 MW"
+    },
+    {
+      "metric": "Kentucky 50SG order",
+      "unit": "MW",
+      "basis": "POWER article: 'The Kentucky Municipal Energy Agency has selected four Wartsila 50SG engines for its 75-MW Energy Center I facility'.",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
+      },
+      "value": "four Wartsila 50SG engines for 75-MW Energy Center I"
+    },
+    {
+      "metric": "Fast start / grid synchronisation",
+      "unit": "n/a",
+      "basis": "Data centre selector '30 sec power to grid' and 50SG technical table 'Fast start time ... Full load < 2'. Conflicting frame preserved as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "30 sec power to grid (selector); < 2 min fast start to full load (product page)"
+    },
+    {
+      "metric": "50SG efficiency / heat rate 50 Hz & 60 Hz",
+      "unit": "% / kJ/kWh",
+      "basis": "50SG product page performance table as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "50.2%/50.0%; 7 165/7 207 kJ/kWh"
+    },
+    {
+      "metric": "50SG bore / stroke / speed / cylinders",
+      "unit": "n/a",
+      "basis": "50SG product page technical data table.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "500 mm / 580 mm / 500 rpm (50 Hz), 514 rpm (60 Hz) / 18V"
     }
   ],
   "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
   "sources": [
     {
       "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+    },
+    {
+      "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     }
   ],
-  "notes": "Used in several US data-centre orders (search-verified snippets).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Used in several US data-centre orders (search-verified snippets). Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -83,6 +83,186 @@
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
         "source_id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
       }
+    },
+    {
+      "metric": "ISO 29461 grades",
+      "unit": "n/a",
+      "basis": "Type: Std T7/T8/T9/T10; ISO 29461 T7, T8, T9, T10",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": "T7/T8/T9/T10"
+    },
+    {
+      "metric": "EN779 grades",
+      "unit": "n/a",
+      "basis": "EN779: F7 (T7), F8 (T8), F9 (T9)",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": "F7/F8/F9"
+    },
+    {
+      "metric": "EN1822 grade",
+      "unit": "n/a",
+      "basis": "EN1822: E10 (T10)",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": "E10"
+    },
+    {
+      "metric": "Filter dimensions",
+      "unit": "mm",
+      "basis": "Dimensions WxHxD (mm): 592x592x315",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": "592x592x315"
+    },
+    {
+      "metric": "Nominal airflow",
+      "unit": "m3/h",
+      "basis": "Airflow/pressure drop (m³/h/Pa): 4250/...",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": 4250
+    },
+    {
+      "metric": "Initial pressure drop T7",
+      "unit": "Pa",
+      "basis": "Std T7: 4250/115",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": 115
+    },
+    {
+      "metric": "Initial pressure drop T8",
+      "unit": "Pa",
+      "basis": "Std T8: 4250/140",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": 140
+    },
+    {
+      "metric": "Initial pressure drop T9",
+      "unit": "Pa",
+      "basis": "Std T9: 4250/145",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": 145
+    },
+    {
+      "metric": "Initial pressure drop T10",
+      "unit": "Pa",
+      "basis": "Std T10: 4250/215",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": 215
+    },
+    {
+      "metric": "Filter area",
+      "unit": "m2",
+      "basis": "Area (m²): 19",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": 19
+    },
+    {
+      "metric": "Weight",
+      "unit": "kg",
+      "basis": "Weight (kg): 7.6",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": 7.6
+    },
+    {
+      "metric": "Recommended final pressure drop",
+      "unit": "Pa",
+      "basis": "Rec. final pressure drop: 600 Pa",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": 600
+    },
+    {
+      "metric": "Maximum airflow",
+      "unit": "x nominal flow",
+      "basis": "Max airflow: 1.3 x nominal flow",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "high": 1.3
+    },
+    {
+      "metric": "Maximum temperature",
+      "unit": "degC",
+      "basis": "Max Temperature (°C): 70°C",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "high": 70
+    },
+    {
+      "metric": "Relative humidity max",
+      "unit": "%",
+      "basis": "Relative Humidity max: 100%",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "high": 100
+    },
+    {
+      "metric": "Frame material",
+      "unit": "n/a",
+      "basis": "Frame: Plastic molded;ABS",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": "Plastic molded; ABS"
+    },
+    {
+      "metric": "Gasket material",
+      "unit": "n/a",
+      "basis": "Gasket: Polyurethane, endless foamed",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": "Polyurethane, endless foamed"
+    },
+    {
+      "metric": "Media",
+      "unit": "n/a",
+      "basis": "Media: Glass fiber",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": "Glass fiber"
+    },
+    {
+      "metric": "Separator",
+      "unit": "n/a",
+      "basis": "Separator: Hot-melt Separator Technology",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": "Hot-melt Separator Technology"
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "Application: Pre- or final filter for gas turbines, large industrial air compressors, diesel & gas engines, generators & enclosures, wind turbines",
+      "source": {
+        "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
+      },
+      "value": "Pre- or final filter for gas turbines, large industrial air compressors, diesel & gas engines, generators & enclosures, wind turbines"
     }
   ],
   "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
@@ -92,6 +272,6 @@
       "source_id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 20 new printed parameters."
 }

@@ -116,6 +116,62 @@
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
       }
+    },
+    {
+      "metric": "capacity",
+      "unit": "tonnes",
+      "basis": "Specifications: Capacity 1T - 100T+; light to medium duty 1T-20T; heavy duty 5T-100T+",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "low": 1,
+      "high": 100
+    },
+    {
+      "metric": "span",
+      "unit": "m",
+      "basis": "Specifications: Span Up to 35m; single girder spans up to 25m, double girder up to 35m",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "high": 35
+    },
+    {
+      "metric": "lift_height",
+      "unit": "n/a",
+      "basis": "Specifications: Lift Height Custom",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "value": "Custom"
+    },
+    {
+      "metric": "duty_class",
+      "unit": "n/a",
+      "basis": "Specifications: Duty Class A3 - A7",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "value": "A3 - A7"
+    },
+    {
+      "metric": "certification",
+      "unit": "n/a",
+      "basis": "Specifications: Certification JKKP / DOSH; JKKP load testing and certification handled in-house",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "value": "JKKP / DOSH"
+    },
+    {
+      "metric": "installation_duration",
+      "unit": "working days",
+      "basis": "A standard overhead crane installation typically takes 3 to 7 working days depending on span, capacity, and site conditions",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "low": 3,
+      "high": 7
     }
   ],
   "url": "https://vibrantengineering.com.my/products/overhead-crane",
@@ -125,6 +181,6 @@
       "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 6 new printed parameters."
 }

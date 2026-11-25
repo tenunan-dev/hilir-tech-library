@@ -27,6 +27,78 @@
         "source_id": "specoilandgas-com-produced-water-treatment-nutshell-filters"
       },
       "value": "2 (one online, one regenerating/standby)"
+    },
+    {
+      "metric": "Typical outlet quality",
+      "unit": "ppm oil in water",
+      "basis": "Typical outlet quality: As low as 5 ppm oil in water, depending on inlet conditions",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "As low as 5"
+    },
+    {
+      "metric": "Filter media",
+      "unit": "n/a",
+      "basis": "Filter media: Pecan and walnut shell blend",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "Pecan and walnut shell blend"
+    },
+    {
+      "metric": "Minimum filters",
+      "unit": "filters",
+      "basis": "Minimum filters: Two: one online, one regenerating or on standby",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Backwash water",
+      "unit": "n/a",
+      "basis": "Backwash water: Process water used, eliminating the need for a clean water source",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "Process water used, eliminating need for clean water source"
+    },
+    {
+      "metric": "Solids removal",
+      "unit": "n/a",
+      "basis": "Solids removal: High solids removal efficiency",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "High solids removal efficiency"
+    },
+    {
+      "metric": "Vessel code",
+      "unit": "n/a",
+      "basis": "Vessel code: ASME Section VIII",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "ASME Section VIII"
+    },
+    {
+      "metric": "Delivery",
+      "unit": "n/a",
+      "basis": "Delivery: Skid-mounted units",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "Skid-mounted units"
+    },
+    {
+      "metric": "Backwash steps",
+      "unit": "n/a",
+      "basis": "Backwash step table",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "1 Fluidise the bed; 2 Remove contaminated water; 3 Allow filter to settle; 4 Rinse filters"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters",
@@ -35,6 +107,6 @@
       "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

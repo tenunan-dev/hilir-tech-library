@@ -18,6 +18,42 @@
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
       }
+    },
+    {
+      "metric": "Shell Mysella S5 N 40 SAE grade",
+      "unit": "SAE",
+      "basis": "Shell International Petroleum Company Shell Mysella S5 N 40 40 X X",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Shell Mysella S3 N 40 SAE grade",
+      "unit": "SAE",
+      "basis": "Shell International Petroleum Company Shell Mysella S3 N 40 40 X X *",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Approved engine family",
+      "unit": "n/a",
+      "basis": "Fluids and Lubricants Specifications — Gas engines and gas engine-generator sets Series 4000 gas engine – marine application Series 4000 gas engine – generator application and engine-generator set Series 400 gas engine – engine-generator set",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "MTU gas engines / gas engine-generator sets (Series 4000 marine and generator application; Series 400 engine-generator set)"
+    },
+    {
+      "metric": "Publication reference",
+      "unit": "n/a",
+      "basis": "A001072/02E © 2020 Copyright MTU",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "A001072/02E"
     }
   ],
   "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
@@ -27,6 +63,6 @@
       "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 4 new printed parameters."
 }

@@ -83,6 +83,128 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
       }
+    },
+    {
+      "metric": "User memory",
+      "unit": "MU (Memory Units)",
+      "basis": "Honeywell C300 Specifications: 'User Memory 32,768 MU (Memory Units)'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 32768
+    },
+    {
+      "metric": "Execution units",
+      "unit": "XUs",
+      "basis": "Honeywell: 'Execution Units (XUs) 9000 XUs'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 9000
+    },
+    {
+      "metric": "Execution period",
+      "unit": "ms (Standard)",
+      "basis": "Honeywell: 'Execution Period 20 ms not supported for PCNT05; 50 ms (Standard)'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Temperature rating",
+      "unit": "deg C",
+      "basis": "Honeywell: 'Temperature Rating –40 to +70°C'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "low": -40,
+      "high": 70
+    },
+    {
+      "metric": "Tagged blocks",
+      "unit": " blocks (up to)",
+      "basis": "Honeywell: 'Tagged Blocks Up to 4095'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 4095
+    },
+    {
+      "metric": "Switchover time",
+      "unit": "ms (approximately)",
+      "basis": "Honeywell: 'Switchover Time ~500 ms'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Synchronization time",
+      "unit": "sec (approximately)",
+      "basis": "Honeywell: 'Synchronization Time ~240 sec'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 240
+    },
+    {
+      "metric": "I/O HIVE parameter references",
+      "unit": "references",
+      "basis": "Honeywell: 'I/O HIVE Capacity 1500 IO HIVE Parameter References'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "CN100 connections",
+      "unit": " connections (up to)",
+      "basis": "Honeywell: 'Up to 15 CN100 Connections'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 15
+    },
+    {
+      "metric": "Redundancy",
+      "unit": "text",
+      "basis": "Honeywell: 'Supports 1:1 redundancy with dedicated IOTA and redundancy cable'; 'C300v5 (PCNT05)... supports traditional 1:1 redundant and Control HIVE deployment'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      }
+    },
+    {
+      "metric": "Supported protocols",
+      "unit": "text",
+      "basis": "Honeywell: 'EtherNet/IP, Profinet, FOUNDATION Fieldbus, HART, IEC61850, OPC UA, Profibus and Modbus'; spec table: 'CDA peer-to-peer, EtherNet/IP via EIM, Foundation Fieldbus via FIM4/FIM8, Modbus/TCP via PCDI, Profibus via PGM, Profinet via EIM, VLAN-based IO HIVE'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      }
+    },
+    {
+      "metric": "Security certifications",
+      "unit": "text",
+      "basis": "Honeywell: 'Embedded Firewall; ISA Secure CSA L2 Certified'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      }
+    },
+    {
+      "metric": "Time sources / update periods",
+      "unit": "text",
+      "basis": "Honeywell: 'Time Sources NTP | PTPv2'; 'SNTP Update Period 1 min'; 'PTP Update Period 30 sec'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      }
+    },
+    {
+      "metric": "Models / form factor",
+      "unit": "text",
+      "basis": "Honeywell: 'Models C300 (PCNT05)'; 'Form Factor Series C'; 'Mounting Type On Input Output Termination Assembly (IOTA)'; 'Memory Backup CC-SCMB05 Module for Power-Loss Recovery'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      }
     }
   ],
   "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
@@ -92,6 +214,6 @@
       "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 14 new printed parameters."
 }

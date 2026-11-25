@@ -173,6 +173,721 @@
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
       "value": "320-3,500"
+    },
+    {
+      "metric": "CGS concept first developed year",
+      "unit": "year",
+      "basis": "'Arup dry-build Concrete Gravity Substructure (CGS) concept was originally developed by Arup in 1989 for Hamilton Brothers' Ravenspurn North'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 1989
+    },
+    {
+      "metric": "Installation technique",
+      "unit": "n/a",
+      "basis": "'Typical for the Arup CGS is the inclined installation technique'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      }
+    },
+    {
+      "metric": "Removability",
+      "unit": "n/a",
+      "basis": "'The Arup CGS are designed to be simple to install, and are fully removable'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      }
+    },
+    {
+      "metric": "Construction attributes",
+      "unit": "n/a",
+      "basis": "'low reinforcement and pre-stress densities as well as the use of normal density concrete'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      }
+    },
+    {
+      "metric": "Economic water depth threshold",
+      "unit": "m",
+      "basis": "'economical for water depths larger than 150 m' (offshore concrete structures generally)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 150
+    },
+    {
+      "metric": "N. Ravenspurn CGS (Arup) water depth",
+      "unit": "m",
+      "basis": "Table: 1989, CGS 3 shafts, North Sea (UK), design by Arup",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 42
+    },
+    {
+      "metric": "Wandoo CGS (Arup) water depth",
+      "unit": "m",
+      "basis": "Table: 1996, CGS 4 shafts, Australia, design by Arup",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 54
+    },
+    {
+      "metric": "Malampaya CGS (Arup) water depth",
+      "unit": "m",
+      "basis": "Table: 2000, CGS 4 shafts, Philippines, design by Arup",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 43
+    },
+    {
+      "metric": "West White Rose GBS Monotower (Arup) water depth",
+      "unit": "m",
+      "basis": "Table: 2025, Cenovus Energy, Canada, design by Arup",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 118
+    },
+    {
+      "metric": "Vessel type",
+      "unit": "n/a",
+      "basis": "'Fast-sailing Heavy Lift Vessel Aegir is a monohull vessel'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      }
+    },
+    {
+      "metric": "Features",
+      "unit": "n/a",
+      "basis": "'retractable thrusters, shallow draft, and extensive clear deck space' enabling 'load-out directly from the quayside and transport on deck'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      }
+    },
+    {
+      "metric": "Fleet: Sleipnir crane capacity",
+      "unit": "metric tons",
+      "basis": "'a pair of revolving cranes that can lift 20,000 metric tons' (fleet context)",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Fleet: Thialf tandem lift",
+      "unit": "metric tons",
+      "basis": "'capable of a tandem lift of 14,200 metric tons ... built in 1985 ... class III dynamic positioning system'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 14200
+    },
+    {
+      "metric": "Fleet: Balder tandem lift",
+      "unit": "metric tons",
+      "basis": "'tandem lift of 6,300 metric tons when in guyed mode'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 6300
+    },
+    {
+      "metric": "Fleet: Bylgia/Kolga length",
+      "unit": "m",
+      "basis": "'Both tugs are 72 meters long and 18 meters wide with bollard pulls of 200 and 212 metric tons'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 72
+    },
+    {
+      "metric": "Fleet: Bylgia/Kolga bollard pull",
+      "unit": "Heerema Marine Contractors fleet page, no print date stated tugs",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 200,
+      "low": 212,
+      "high": "metric tons"
+    },
+    {
+      "metric": "Recommended oil flow",
+      "unit": "L/min",
+      "basis": "'Recommended oil flow 5800 L/min' (3500S)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 5800
+    },
+    {
+      "metric": "Average operating pressure",
+      "unit": "bar",
+      "basis": "'Average operating pressure 240 bar' (3500S)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 240
+    },
+    {
+      "metric": "Blow rate",
+      "unit": "bl/min",
+      "basis": "'Blow rate at recommended oil flow 32 bl/min' (3500S)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 32
+    },
+    {
+      "metric": "Weight above water - 4 m foot",
+      "unit": "t",
+      "basis": "'MHU3500S - 4 m Foot 341 t'",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 341
+    },
+    {
+      "metric": "Weight above water - 102in-4m OD UW",
+      "unit": "t",
+      "basis": "'MHU3500S - 4 m: 102\" - 4 m OD UW 564 t'",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 564
+    },
+    {
+      "metric": "Weight submerged - 102in-4m OD UW",
+      "unit": "t",
+      "basis": "Acteon hydraulic hammers page, Menck 3500S block; announcement of sale to Cadeler 11 Aug 2026 same row",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 433
+    },
+    {
+      "metric": "Weight above water - 6.5-8 m OD AW",
+      "unit": "t",
+      "basis": "'MHU3500S - 4 m: 6.5 - 8 m OD AW 673 t' (Renewables configuration)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 673
+    },
+    {
+      "metric": "Weight above water - 3 m 5-7.5 m OD AW",
+      "unit": "t",
+      "basis": "'MHU3500S - 3 m: 5 m - 7.5 m OD AW 621 t' (Renewables configuration)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 621
+    },
+    {
+      "metric": "Full hammer spread energy range",
+      "unit": "'double-acting hydraulic hammers (100 kJ to 6,250 kJ)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 100,
+      "low": 6250,
+      "high": "kJ"
+    },
+    {
+      "metric": "Wind turbine foundations driven",
+      "unit": "foundations",
+      "basis": "'2,500+ Wind turbine foundations driven'",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 2500
+    },
+    {
+      "metric": "Maximum single hammer energy",
+      "unit": "kJ",
+      "basis": "'Energy range up to 6,250 kJ' (6000W model)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 6250
+    },
+    {
+      "metric": "Tandem lift capacity (guyed mode)",
+      "unit": "metric tons",
+      "basis": "\"Balder is capable to execute a tandem lift of 6,300 metric tons when in guyed mode\"",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 6300
+    },
+    {
+      "metric": "Crane capability",
+      "unit": "n/a",
+      "basis": "\"The vessel's cranes provide for a depth reach lowering capability as well as a heavy lift capacity to install topsides, jackets, and other structures\"",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      }
+    },
+    {
+      "metric": "FPSO hull length (Skarv, Aker Solutions Tentech975 design)",
+      "unit": "m",
+      "basis": "Wikipedia, 'Skarv FPSO' record vessel section: 'The FPSO has a length of 292m, beam of 50.6m and is 29m deep' — hull is an Aker Solutions proprietary Tentech975 design (secondary source)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 292
+    },
+    {
+      "metric": "FPSO hull beam (Skarv, Tentech975)",
+      "unit": "m",
+      "basis": "Wikipedia: 'beam of 50.6m'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 50.6
+    },
+    {
+      "metric": "FPSO hull depth (Skarv, Tentech975)",
+      "unit": "m",
+      "basis": "Wikipedia: 'and is 29m deep'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 29
+    },
+    {
+      "metric": "Accommodation (Skarv FPSO)",
+      "unit": "persons in single cabins",
+      "basis": "Wikipedia: 'accommodates about 100 people in single cabins'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Process plant gas handling capacity (Skarv FPSO)",
+      "unit": "m3/day",
+      "basis": "Wikipedia: 'The process plant on the vessel can handle about 19,000,000 cubic metres per day (670,000,000 cu ft/d) of gas'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 19000000
+    },
+    {
+      "metric": "Process plant oil handling capacity (Skarv FPSO)",
+      "unit": "m3/day",
+      "basis": "Wikipedia: 'and 13,500 cubic metres per day (480,000 cu ft/d) of oil'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 13500
+    },
+    {
+      "metric": "Gas export pipe length (Skarv)",
+      "unit": "km",
+      "basis": "Wikipedia: 'An 80 km gas export pipe ties into Asgard transport system'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Hull delivery date (Skarv)",
+      "unit": "date",
+      "basis": "Wikipedia: 'The hull was delivered in January 2010'; production started August 2011",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      }
+    },
+    {
+      "metric": "Qingdao yard area",
+      "unit": "m2",
+      "basis": "COOEC Yards page, Qingdao Yard: 'Yard area: 1,200,000 m2'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 1200000
+    },
+    {
+      "metric": "Qingdao wharf shoreline",
+      "unit": "m",
+      "basis": "COOEC: 'Wharf shoreline: 1645 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 1645
+    },
+    {
+      "metric": "Qingdao wharf water depth",
+      "unit": "m",
+      "basis": "COOEC: 'Wharf water depth: 10-12 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "low": 10,
+      "high": 12
+    },
+    {
+      "metric": "Qingdao dry dock",
+      "unit": "m",
+      "basis": "COOEC: 'Dry Dock: 420 m×110 m×13.9 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      }
+    },
+    {
+      "metric": "Qingdao annual production capacity",
+      "unit": "t/year",
+      "basis": "COOEC: 'The yard has 300,000 tons of annual production and 50,000 tons and 300,000 tons of single onshore and floating units construction capacities with up to 15,000 tons of large single structures onshore transportation ability.'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 300000
+    },
+    {
+      "metric": "Qingdao slideway capacity",
+      "unit": "T load bearing",
+      "basis": "COOEC: 'five slideways with 4,000-50,000 T load bearing capacity'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "low": 4000,
+      "high": 50000
+    },
+    {
+      "metric": "Qingdao cranes and SPMTs",
+      "unit": "text",
+      "basis": "COOEC: 'two 800 T gantry crane and one 600 T gantry crane; 24 sets of 70 to 750 T crawler cranes; 324-axis SPMTs with total capacity of 15,000 T'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      }
+    },
+    {
+      "metric": "Tianjin yard area",
+      "unit": "m2",
+      "basis": "COOEC Tianjin: 'Yard area: 575,000 m2'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 575000
+    },
+    {
+      "metric": "Tianjin wharf shoreline",
+      "unit": "m",
+      "basis": "COOEC Tianjin: 'Wharf shoreline: 1631 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 1631
+    },
+    {
+      "metric": "Tianjin wharf water depth",
+      "unit": "m",
+      "basis": "COOEC Tianjin: 'Wharf water depth: 12 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Tianjin annual production",
+      "unit": "t/year",
+      "basis": "COOEC: 'Tianjin Intelligent Manufacturing Base has 150,000 tons annual production'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 150000
+    },
+    {
+      "metric": "Tianjin equipment",
+      "unit": "text",
+      "basis": "COOEC: 'one 900 T gantry crane; two PPU 48-axis SPMTs; four 8.5 T forklifts; two 3.5 T forklifts powered by lithium batteries; two 2 T forklifts powered by lithium batteries two 60 T tractors'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      }
+    },
+    {
+      "metric": "Zhuhai yard area",
+      "unit": "m2",
+      "basis": "COOEC Zhuhai: 'Yard area: 2,072,000 m2'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 2072000
+    },
+    {
+      "metric": "Zhuhai wharf shoreline",
+      "unit": "m",
+      "basis": "COOEC Zhuhai: 'Wharf shoreline: 2149 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 2149
+    },
+    {
+      "metric": "Zhuhai wharf water depth",
+      "unit": "m",
+      "basis": "COOEC Zhuhai: 'Wharf water depth: 10-14 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "low": 10,
+      "high": 14
+    },
+    {
+      "metric": "Zhuhai slideways / equipment",
+      "unit": "text",
+      "basis": "COOEC: 'slideway 1# (35,000 T); slideway 3# (12,000 T)'; '120 sets of 5 to 150 T overhead cranes in workshops; 12 sets of 150 to 750 T crawler cranes; 108-axis SPMTs; one 380 T transport trailer; two 250 T flatcars'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      }
+    },
+    {
+      "metric": "Barge distinction",
+      "unit": "text",
+      "basis": "Heerema fleet: 'Including the H-851, the world's largest barge.' Used for 'transportation, jacket launch, and floatover use.'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      }
+    },
+    {
+      "metric": "Full-scale tested compression load",
+      "unit": "MT (up to)",
+      "basis": "Trelleborg LMU Benefits: 'Full-scale testing compression loads up to 18,300 MT'",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
+      },
+      "value": 18300
+    },
+    {
+      "metric": "Construction",
+      "unit": "text",
+      "basis": "Trelleborg: 'LMUs feature a robust steel structure with high-performance elastomeric pads ... absorb substantial loads and minimize the risk of damage during weight transfer'",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
+      }
+    },
+    {
+      "metric": "Function",
+      "unit": "text",
+      "basis": "Trelleborg: 'Assist in the transfer of static & dynamic load from the barge transporting the topside to the substructure during float-over operation'; 'Install large platform topside without the use of a heavy lift crane vessel'",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "text",
+      "basis": "Trelleborg: 'Oil & gas topside; Mining and LNG terminal construction; Offshore Wind HVDC; Decommissioning topside'",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
+      }
+    },
+    {
+      "metric": "water_depth_range",
+      "unit": "m",
+      "basis": "Proprietary versions include the Seastar and MOSES mini TLPs; relatively low cost, used in water depths between 180 and 1,300 metres (590 and 4,270 ft)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "low": 180,
+      "high": 1300
+    },
+    {
+      "metric": "water_depth_range_ft",
+      "unit": "ft",
+      "basis": "between 180 and 1,300 metres (590 and 4,270 ft)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "low": 590,
+      "high": 4270
+    },
+    {
+      "metric": "platform_type",
+      "unit": "n/a",
+      "basis": "Types of offshore oil and gas structures: Vertically moored tension leg and mini-tension leg platform; TLPs tethered to seabed eliminating most vertical movement, used in water depths up to about 2,000 m",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "value": "vertically moored mini tension leg platform"
+    },
+    {
+      "metric": "MOSES mini-TLP - water depth range",
+      "unit": "m (590 to 4,270 ft)",
+      "basis": "Wikipedia 'Oil platform' article, Tension-leg platform section (secondary source)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "low": 180,
+      "high": 1300
+    },
+    {
+      "metric": "MOSES mini-TLP - type",
+      "unit": "n/a",
+      "basis": "Wikipedia 'Oil platform' article, Tension-leg platform section (secondary source)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "value": "Proprietary mini TLP (with Seastar); relatively low cost"
+    },
+    {
+      "metric": "MOSES mini-TLP - use cases",
+      "unit": "n/a",
+      "basis": "Wikipedia 'Oil platform' article, Tension-leg platform section (secondary source)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "value": "Utility, satellite or early production platforms for larger deepwater discoveries"
+    },
+    {
+      "metric": "Topsides single-lift capacity",
+      "unit": "tonnes",
+      "basis": "installation or removal of platform topsides up to 60,000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "high": 60000
+    },
+    {
+      "metric": "Jacket single-lift capacity",
+      "unit": "tonnes",
+      "basis": "jackets up to 20,000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "high": 20000
+    },
+    {
+      "metric": "S-lay tension capacity",
+      "unit": "tonnes",
+      "basis": "unmatched S-lay tension capacity of 2000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Azimuth thrusters",
+      "unit": "count",
+      "basis": "precision positioning enabled by 12 azimuth thrusters",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Pipe-holding capacity",
+      "unit": "tonnes",
+      "basis": "2000-tonne pipe-holding capacity, double that of any rival pipelay vessel",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Length",
+      "unit": "m",
+      "basis": "Vessel specifications PDF: 382 m",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "value": 382
+    },
+    {
+      "metric": "Breadth",
+      "unit": "m",
+      "basis": "Vessel specifications PDF: 124 m",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "value": 124
+    },
+    {
+      "metric": "Total installed power",
+      "unit": "kW",
+      "basis": "Vessel specifications PDF: 95,000 kW",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "value": 95000
+    },
+    {
+      "metric": "Accommodation",
+      "unit": "persons",
+      "basis": "Vessel specifications PDF: 571 persons",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "value": 571
+    },
+    {
+      "metric": "Dynamic positioning",
+      "unit": "n/a",
+      "basis": "Vessel specifications PDF: DP3, K-Pos DP-22, 2x cJoy system",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "value": "DP3, K-Pos DP-22, 2x cJoy system"
+    },
+    {
+      "metric": "Pipeline installation water depth",
+      "unit": "m",
+      "basis": "to approx. 3,000 m water depth (vessel specifications PDF)",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "high": 3000
+    },
+    {
+      "metric": "Product type",
+      "unit": "n/a",
+      "basis": "An optional sand jack can be manufactured to release the loads on rubber elements",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/"
+      },
+      "value": "Leg Mating Unit with optional sand jack"
+    },
+    {
+      "metric": "Load capacity basis",
+      "unit": "n/a",
+      "basis": "Custom designed to take immense loads of topsides",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/"
+      },
+      "value": "Custom designed to take immense loads of topsides"
+    },
+    {
+      "metric": "Elastomer construction",
+      "unit": "n/a",
+      "basis": "LMU consists of vertical and horizontal rubber elements, especially those formulated to take immense loads with low creep",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/"
+      },
+      "value": "vertical and horizontal rubber elements formulated to take immense loads with low creep"
+    },
+    {
+      "metric": "Load release mechanism",
+      "unit": "n/a",
+      "basis": "Sand can be released from the sand release valve, which leads to the plunger assembly being lower, and loads on the rubber element are released.",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/"
+      },
+      "value": "Sand can be released from the sand release valve, which leads to the plunger assembly being lower, and loads on the rubber element are released"
+    },
+    {
+      "metric": "Application",
+      "unit": "n/a",
+      "basis": "Applications: Float-over operation; Installation of heavy topsides",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/"
+      },
+      "value": "Float-over operation; Installation of heavy topsides"
     }
   ],
   "vendors": [
@@ -204,5 +919,5 @@
     "Bottom-founded tubular steel lattice that transfers deck, drilling and environmental loads to the seabed, normally via driven piles through the jacket legs."
   ],
   "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

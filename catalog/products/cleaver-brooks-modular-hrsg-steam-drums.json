@@ -27,6 +27,116 @@
       },
       "unit": "design feature",
       "value": "Vertical tube natural circulation; hydraulically matched downcomers and risers"
+    },
+    {
+      "metric": "Gas turbine size",
+      "unit": "MW",
+      "basis": "Custom designed to recover heat from 25 to 60 MW gas turbine-generators",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "low": 25,
+      "high": 60
+    },
+    {
+      "metric": "Turbine exhaust gas flow",
+      "unit": "lb/hr",
+      "basis": "Turbine exhaust gas flows from 500,000 to 1,000,000 lbs/hr",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "low": 500000,
+      "high": 1000000
+    },
+    {
+      "metric": "Steam generation",
+      "unit": "lb/hr",
+      "basis": "Steam generation to 500,000+ lbs/hr",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "low": 500000
+    },
+    {
+      "metric": "Design pressure",
+      "unit": "psig",
+      "basis": "Design pressure up to 1,800 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "high": 1800
+    },
+    {
+      "metric": "Superheater outlet temperature",
+      "unit": "degF",
+      "basis": "superheater outlet temperature of 1,050°F",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "high": 1050
+    },
+    {
+      "metric": "Duct firing temperature",
+      "unit": "degF",
+      "basis": "Duct Firing Temperature: Up to 2,800 deg F",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "high": 2800
+    },
+    {
+      "metric": "Stack emissions NOx",
+      "unit": "ppm",
+      "basis": "Stack emissions available to less than 2 ppm NOx with SCR",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "high": 2
+    },
+    {
+      "metric": "HRSG efficiency",
+      "unit": "%",
+      "basis": "The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies.",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "low": 80
+    },
+    {
+      "metric": "Fuel reduction",
+      "unit": "MMBtu/hr",
+      "basis": "It reduces up to 7.0 MMBtu/hr of fuel in conventional boilers",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "high": 7.0
+    },
+    {
+      "metric": "CO2 elimination",
+      "unit": "tons/yr per MWe GT output",
+      "basis": "eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "high": 2870
+    },
+    {
+      "metric": "Circulation",
+      "unit": "n/a",
+      "basis": "Circulation: Natural Circulation",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": "Natural Circulation"
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "Construction: Vertical Tube with Steam Drum",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": "Vertical Tube with Steam Drum"
     }
   ],
   "url": "https://cleaverbrooks.com/product/modular-hrsg",
@@ -35,6 +145,6 @@
       "url": "https://cleaverbrooks.com/product/modular-hrsg"
     }
   ],
-  "notes": "Fetched Modular HRSG product page directly with WebFetch (markdown). Steam drum is a subsystem; no standalone steam-drum product line found.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Modular HRSG product page directly with WebFetch (markdown). Steam drum is a subsystem; no standalone steam-drum product line found. Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

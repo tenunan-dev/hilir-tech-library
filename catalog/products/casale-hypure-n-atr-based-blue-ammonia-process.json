@@ -38,6 +38,34 @@
         "source_id": "casale-ch-ammonia"
       },
       "value": 3500
+    },
+    {
+      "metric": "HyPURE-N - energy consumption",
+      "unit": "Gcal/MT LHV basis (including utilities and final CO2 compression at Battery Limits)",
+      "basis": "Casale 'Technologies > Ammonia' page, HyPURE-N(TM) 'Performance' section (casale.ch); no print date stated; page footer (c) 2024 Casale SA",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/"
+      },
+      "low": 7.4,
+      "high": 7.6
+    },
+    {
+      "metric": "HyPURE-N - CO2 recovery",
+      "unit": "% (as high as)",
+      "basis": "Casale 'Technologies > Ammonia' page, HyPURE-N(TM) 'Performance' section (casale.ch); no print date stated; page footer (c) 2024 Casale SA",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/"
+      },
+      "value": 99
+    },
+    {
+      "metric": "HyPURE-N - capacity",
+      "unit": "n/a",
+      "basis": "Casale 'Technologies > Ammonia' page, HyPURE-N(TM) 'Performance' section (casale.ch); no print date stated; page footer (c) 2024 Casale SA",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/"
+      },
+      "value": "Best suited from 3,500 MTD and above; can be applied for lower capacities"
     }
   ],
   "url": "https://casale.ch/technologies/ammonia/",
@@ -46,6 +74,13 @@
       "url": "https://casale.ch/technologies/ammonia/"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Casale_HyPURE-N.pdf technical brochure",
+      "why": "Linked technical brochure not transcribed",
+      "next_action": "Fetch and transcribe brochure for further process parameters"
+    }
+  ]
 }

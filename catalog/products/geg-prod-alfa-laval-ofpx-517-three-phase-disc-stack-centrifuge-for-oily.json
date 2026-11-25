@@ -207,6 +207,189 @@
         "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf",
         "source_id": "geg-alfalaval-my-product-leaflet-of-500-separato-fdf2cd7"
       }
+    },
+    {
+      "metric": "throughput_capacity_max",
+      "unit": "m3/h",
+      "basis": "Technical specifications, throughput capacity max. 60 m3/h (9,000 bpd) 1) - maximum recommended operation flow rate depends on feed characteristics and OiW requirement at outlet",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 60
+    },
+    {
+      "metric": "throughput_capacity_max_bpd",
+      "unit": "bpd",
+      "basis": "Technical specifications, throughput capacity max. 60 m3/h (9,000 bpd) 1)",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 9000
+    },
+    {
+      "metric": "discharge_volume_min_max",
+      "unit": "l",
+      "basis": "Technical specifications, discharge volyme min /max. 15/35 l",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "low": 15,
+      "high": 35
+    },
+    {
+      "metric": "feed_temperature",
+      "unit": "degC",
+      "basis": "Technical specifications, Feed temp 0-100 oC",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "bowl_speed",
+      "unit": "rpm",
+      "basis": "Technical specifications, Bowl speed 4,136 rpm",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 4136
+    },
+    {
+      "metric": "bowl_volume",
+      "unit": "l",
+      "basis": "Technical specifications, Bowl volume 59 l",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 59
+    },
+    {
+      "metric": "motor_power_installed_max",
+      "unit": "kW",
+      "basis": "Technical specifications, Motor power installed max. 45 kW (60 HP)",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 45
+    },
+    {
+      "metric": "motor_power_installed_max_hp",
+      "unit": "HP",
+      "basis": "Technical specifications, Motor power installed max. 45 kW (60 HP)",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 60
+    },
+    {
+      "metric": "sound_pressure",
+      "unit": "dB(A)",
+      "basis": "Technical specifications, Sound pressure 80 dB(A)",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 80
+    },
+    {
+      "metric": "separated_oil_droplet_size_min",
+      "unit": "um",
+      "basis": "The OFPX 517 separates oil droplet sizes as low as 2um",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "oil_in_water_output",
+      "unit": "ppm",
+      "basis": "proven to separate oil from water to levels of less than 15ppm",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "high": 15
+    },
+    {
+      "metric": "skid_width",
+      "unit": "mm",
+      "basis": "Skid weight and dimensions (approximate): Width 2,900 mm",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 2900
+    },
+    {
+      "metric": "skid_depth",
+      "unit": "mm",
+      "basis": "Skid weight and dimensions (approximate): Depth 2,600 mm",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 2600
+    },
+    {
+      "metric": "skid_height",
+      "unit": "mm",
+      "basis": "Skid weight and dimensions (approximate): Height 2,700 mm",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 2700
+    },
+    {
+      "metric": "skid_weight_in_operation",
+      "unit": "kg",
+      "basis": "Skid weight and dimensions (approximate): Weight (in operation) 5,500 kg",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 5500
+    },
+    {
+      "metric": "backup_water_consumption",
+      "unit": "m3/h",
+      "basis": "Utilities consumption: Back-up water 5m3/h (intermittent supply only)",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 5
+    },
+    {
+      "metric": "operating_water_consumption",
+      "unit": "l/day",
+      "basis": "Utilities consumption: Operating water 200 l/day",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 200
+    },
+    {
+      "metric": "cooling_water_consumption",
+      "unit": "l/h",
+      "basis": "Utilities consumption: Cooling water 300 l/h",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": 300
+    },
+    {
+      "metric": "inert_gas_consumption",
+      "unit": "Nl/h",
+      "basis": "Utilities consumption: Inert gas 100-400 Nl/h, 20 Nm3/h for 3 min. at start-up",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "low": 100,
+      "high": 400
+    },
+    {
+      "metric": "design_standard_ATEX",
+      "unit": "n/a",
+      "basis": "Design standards: ATEX zone 1 or 2; Class I div I or Class I div II; complies to EC ATEX directive category 2, hence hazardous area zone 1 and 2",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      },
+      "value": "ATEX zone 1 or 2 / Class I div I or Class I div II"
     }
   ],
   "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf",
@@ -216,6 +399,6 @@
       "source_id": "geg-alfalaval-my-product-leaflet-of-500-separato-fdf2cd7"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 20 new printed parameters."
 }

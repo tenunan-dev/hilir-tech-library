@@ -37,6 +37,117 @@
         "source_id": "cometto-com-modular-systems-spmt-self-propelled-modular-transporte"
       },
       "value": "7250 / 9400"
+    },
+    {
+      "metric": "Axle line capacities",
+      "unit": "'up to 70 t per axle line'; families MSPE 48T, 60T, EVO3 70T",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      },
+      "value": 48,
+      "low": 70,
+      "high": "t per axle line"
+    },
+    {
+      "metric": "Module families",
+      "unit": "n/a",
+      "basis": "'MSPE 48T, MSPE 60T and MSPE EVO3 70T', each Standard and Heavy Duty",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      }
+    },
+    {
+      "metric": "Axle lines per module",
+      "unit": "'2, 3, 4, 5 or 6 axle lines'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      },
+      "value": 2,
+      "low": 6,
+      "high": "axle lines"
+    },
+    {
+      "metric": "Module width",
+      "unit": "'2,430 or 3,000 mm wide' / 'up to 3 meters wide'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      },
+      "value": 2430,
+      "low": 3000,
+      "high": "mm"
+    },
+    {
+      "metric": "Electronic steering angle",
+      "unit": "deg (+/-)",
+      "basis": "'±135° electronic steering'",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      },
+      "value": 135
+    },
+    {
+      "metric": "Suspension stroke",
+      "unit": "mm",
+      "basis": "'700 mm suspension stroke'",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      },
+      "value": 700
+    },
+    {
+      "metric": "Bending moment standard",
+      "unit": "kN.m",
+      "basis": "'Bending moment: 7,250 kN.m Standard'",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      },
+      "value": 7250
+    },
+    {
+      "metric": "Bending moment heavy duty",
+      "unit": "kN.m",
+      "basis": "'9,400 kN.m Heavy Duty'",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      },
+      "value": 9400
+    },
+    {
+      "metric": "Lifting rings",
+      "unit": "t",
+      "basis": "'16 tons lifting rings as standard'",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      },
+      "value": 16
+    },
+    {
+      "metric": "Power pack types",
+      "unit": "n/a",
+      "basis": "'diesel, hybrid and electric Power Packs'; several can be synchronised in one convoy",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      }
+    },
+    {
+      "metric": "Convoy payload ceiling",
+      "unit": "t",
+      "basis": "'from a single module to combinations for the heaviest project cargo up to 25,000 tons ... and beyond'",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      },
+      "value": 25000
+    },
+    {
+      "metric": "Tyres",
+      "unit": "n/a",
+      "basis": "'the only real tubeless tyres in the SPMT market, on aluminium rims'",
+      "source": {
+        "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
+      }
     }
   ],
   "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter",
@@ -45,6 +156,6 @@
       "url": "https://www.cometto.com/products/modular-systems/spmt-self-propelled-modular-transporter"
     }
   ],
-  "notes": "Page read",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

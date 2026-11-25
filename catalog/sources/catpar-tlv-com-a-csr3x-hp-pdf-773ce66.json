@@ -1,0 +1,25 @@
+{
+  "id": "catpar-tlv-com-a-csr3x-hp-pdf-773ce66",
+  "name": "tlv.com",
+  "url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-csr3x-hp.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Tlv.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. TLV product_v2 PDF a-csr3x-hp.pdf"
+}

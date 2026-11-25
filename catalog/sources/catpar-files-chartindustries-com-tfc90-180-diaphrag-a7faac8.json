@@ -1,0 +1,25 @@
+{
+  "id": "catpar-files-chartindustries-com-tfc90-180-diaphrag-a7faac8",
+  "name": "files.chartindustries.com",
+  "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Files.Chartindustries.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Technical Data for Dry Hydrogen: Ambient temperature (min/max) -20 / +40 degC"
+}

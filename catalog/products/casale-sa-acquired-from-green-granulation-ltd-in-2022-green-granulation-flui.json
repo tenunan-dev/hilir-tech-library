@@ -17,6 +17,32 @@
         "source_id": "casale-ch-urea"
       },
       "value": "minimum or no use"
+    },
+    {
+      "metric": "Urea plant capacity (GRANULATION reference)",
+      "unit": "metres tonnes per day (MTD)",
+      "basis": "News reference title on the Urea technology page: \"New 2200 MTD Urea plant successfully commissioned\" (reference to a Casale urea plant, not explicitly to GREEN GRANULATION)",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/"
+      },
+      "value": 2200
+    },
+    {
+      "metric": "Acquisition year of GREEN GRANULATION Ltd by Casale",
+      "unit": "year",
+      "basis": "\"renown GREEN GRANULATION™ technology developed by GREEN GRANULATION™ Limited, which has been fully acquired by Casale in 2022\"",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/"
+      },
+      "value": 2022
+    },
+    {
+      "metric": "Formaldehyde use",
+      "unit": "n/a",
+      "basis": "Benefit: \"Minimum or no use of formaldehyde\"",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/"
+      }
     }
   ],
   "url": "https://www.casale.ch/technologies/urea/",
@@ -25,6 +51,13 @@
       "url": "https://www.casale.ch/technologies/urea/"
     }
   ],
-  "notes": "For urea and ammonium nitrate.",
-  "last_reviewed": "2026-11-24"
+  "notes": "For urea and ammonium nitrate. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Numeric granulation process parameters (capacity, energy consumption, product size)",
+      "why": "Technical brochure PDF not read; page lists benefits qualitatively only",
+      "next_action": "Fetch GREEN GRANULATION technical brochure via Jina for printed figures"
+    }
+  ]
 }

@@ -59,6 +59,70 @@
         "source_id": "cat-slb-com-dl-annular-bop"
       },
       "value": "High-performance CAMULAR annular elastomer technology"
+    },
+    {
+      "metric": "DL annular BOP - bore sizes",
+      "unit": "n/a",
+      "basis": "SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
+      },
+      "value": "7 1/16 in to 21 1/4 in"
+    },
+    {
+      "metric": "DL annular BOP - working pressures",
+      "unit": "psi",
+      "basis": "SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
+      },
+      "low": 2000,
+      "high": 10000
+    },
+    {
+      "metric": "DL annular BOP - application",
+      "unit": "n/a",
+      "basis": "SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
+      },
+      "value": "Offshore (subsea and surface) and onshore"
+    },
+    {
+      "metric": "DL annular BOP - body styles",
+      "unit": "n/a",
+      "basis": "SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
+      },
+      "value": "Single and dual"
+    },
+    {
+      "metric": "DL annular BOP - packer",
+      "unit": "n/a",
+      "basis": "SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
+      },
+      "value": "High-performance CAMULAR annular elastomer technology"
+    },
+    {
+      "metric": "DL annular BOP - optional gas bleed port",
+      "unit": "n/a",
+      "basis": "SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
+      },
+      "value": "Optional 3-in gas bleed port from ID to OD"
+    },
+    {
+      "metric": "DL annular BOP - H2S compliance",
+      "unit": "n/a",
+      "basis": "SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
+      },
+      "value": "Compliance with NACE MR0175 for H2S service"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
@@ -67,6 +131,6 @@
       "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     }
   ],
-  "notes": "NACE MR0175 H2S service compliance stated on page. A 'DL High-Pressure Annular BOP' brochure PDF is linked on the page (https://www.slb.com/-/media/files/cam-drlg-pc/brochure/dl-bop-br.pdf) but was not fetched; no figures from the PDF are asserted.",
-  "last_reviewed": "2026-11-24"
+  "notes": "NACE MR0175 H2S service compliance stated on page. A 'DL High-Pressure Annular BOP' brochure PDF is linked on the page (https://www.slb.com/-/media/files/cam-drlg-pc/brochure/dl-bop-br.pdf) but was not fetched; no figures from the PDF are asserted. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

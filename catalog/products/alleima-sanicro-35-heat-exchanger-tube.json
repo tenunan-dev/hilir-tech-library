@@ -17,6 +17,15 @@
         "source_id": "ureaknowhow-com-ureaknowhow-com"
       },
       "value": "19.05 mm and 25.4 mm"
+    },
+    {
+      "metric": "Sanicro 35 heat exchanger tube - stocked outside diameters",
+      "unit": "n/a",
+      "basis": "UreaKnowHow.com homepage, Solution Providers News item 'ALLEIMA - One-Week delivery for critical Heat Exchanger needs' (news dated November 2026 on retrieved page)",
+      "source": {
+        "url": "https://ureaknowhow.com/"
+      },
+      "value": "19.05 mm and 25.4 mm OD (Sanicro(R) 35 heat exchanger tubes now stocked)"
     }
   ],
   "url": "https://ureaknowhow.com/",
@@ -25,6 +34,13 @@
       "url": "https://ureaknowhow.com/"
     }
   ],
-  "notes": "Product claim read on UreaKnowHow news listing only; Alleima own page not fetched.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Product claim read on UreaKnowHow news listing only; Alleima own page not fetched. Full-parameter pass 2026-11-26: 1 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Full Alleima Sanicro 35 product datasheet",
+      "why": "The assigned URL is the UreaKnowHow portal homepage (current_specs=1); only a one-line news snippet mentions Sanicro 35 tube outside diameters; no full product parameter table on page",
+      "next_action": "Fetch the linked Alleima article or an Alleima Sanicro 35 datasheet to capture alloy composition, mechanical and corrosion properties"
+    }
+  ]
 }

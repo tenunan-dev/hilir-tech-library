@@ -27,6 +27,34 @@
         "source_id": "fosroc-com-show-conbextra-gp"
       },
       "value": 125
+    },
+    {
+      "metric": "standard_compliance",
+      "unit": "n/a",
+      "basis": "High-flow, non-shrink, cementitious grout conforming to the requirements of BS EN 1504-3 Class R4 and BS EN 1504-6",
+      "source": {
+        "url": "https://www.fosroc.com/product/show/conbextra-gp"
+      },
+      "value": "BS EN 1504-3 Class R4 and BS EN 1504-6: Anchoring of reinforcing steel bar"
+    },
+    {
+      "metric": "gap_thickness",
+      "unit": "mm",
+      "basis": "Main uses: free flow, non-shrink, cementitious grouting of gap thicknesses 10 to 75 mm",
+      "source": {
+        "url": "https://www.fosroc.com/product/show/conbextra-gp"
+      },
+      "low": 10,
+      "high": 75
+    },
+    {
+      "metric": "properties",
+      "unit": "n/a",
+      "basis": "Advantages list (printed verbatim)",
+      "source": {
+        "url": "https://www.fosroc.com/product/show/conbextra-gp"
+      },
+      "value": "Non-shrink; High strength; Chloride free; Can be used at flowable or trowelable consistency"
     }
   ],
   "url": "https://www.fosroc.com/product/show/conbextra-gp",
@@ -35,6 +63,13 @@
       "url": "https://www.fosroc.com/product/show/conbextra-gp"
     }
   ],
-  "notes": "Page read for GP product page; strengths from search-verified TDS",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read for GP product page; strengths from search-verified TDS Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Full property data for Conbextra GP/HF/HES/EP65 Plus (compressive strength, flow, setting time)",
+      "why": "Datasheets are country-selector downloads and were not retrieved",
+      "next_action": "Download the country-specific Product Datasheet PDFs"
+    }
+  ]
 }

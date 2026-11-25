@@ -28,6 +28,43 @@
         "source_id": "cummins-com-generators-alternators"
       },
       "value": 116
+    },
+    {
+      "metric": "Alternator rating range",
+      "unit": "kVA",
+      "basis": "Our STAMFORD® and AvK® alternators ... from 7.5 - 11,200 kVA.",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators"
+      },
+      "low": 7.5,
+      "high": 11200
+    },
+    {
+      "metric": "Countries of operation",
+      "unit": "countries",
+      "basis": "Operating in over 116 countries",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators"
+      },
+      "high": 116
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "Peace of mind is guaranteed in a range of applications including marine, telecoms, standby and critical protection, CHP, rail and prime power.",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators"
+      },
+      "value": "marine, telecoms, standby and critical protection, CHP, rail and prime power"
+    },
+    {
+      "metric": "Established",
+      "unit": "year",
+      "basis": "Established in 1904",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators"
+      },
+      "value": 1904
     }
   ],
   "url": "https://www.cummins.com/generators/alternators",
@@ -36,6 +73,6 @@
       "url": "https://www.cummins.com/generators/alternators"
     }
   ],
-  "notes": "Wire-wound STAMFORD and bar-wound AvK",
-  "last_reviewed": "2026-11-24"
+  "notes": "Wire-wound STAMFORD and bar-wound AvK Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

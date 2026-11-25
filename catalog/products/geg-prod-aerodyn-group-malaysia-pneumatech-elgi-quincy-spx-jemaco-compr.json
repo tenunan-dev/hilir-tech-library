@@ -50,6 +50,70 @@
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
       }
+    },
+    {
+      "metric": "Refrigerant dryer pressure dew point",
+      "unit": "degC (+37.4 degF)",
+      "basis": "\"Refrigerant dryers ... typically maintain a PDP of +3 °C/37.4 °F, suitable for most applications\"",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Adsorption/desiccant dryer pressure dew point range",
+      "unit": "degC",
+      "basis": "\"These dryers achieve a PDP from -10 °C/14 °F to -70 °C/-94 °F\"",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "low": -70,
+      "high": -10
+    },
+    {
+      "metric": "Membrane dryer pressure dew point",
+      "unit": "degC (+37.4 degF)",
+      "basis": "\"Membrane dryers ... achieving standard PDP levels of +3 °C/37.4 °F\"",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": 3
+    },
+    {
+      "metric": "ISO 8573-1 class 1 pressure dew point",
+      "unit": "degC (-94 degF)",
+      "basis": "\"ISO 8537-1 class 1 requires a PDP of -70 °C/-94 °F, while class 4 indicates +3 °C/37.4 °F\" [sic – printed as ISO 8537-1 on page]",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": -70
+    },
+    {
+      "metric": "ISO 8573-1 class 4 pressure dew point",
+      "unit": "degC (+37.4 degF)",
+      "basis": "\"class 4 indicates +3 °C/37.4 °F\" (printed as ISO 8537-1 class 4 on page)",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Dryer types",
+      "unit": "types",
+      "basis": "\"There are three types of dryers to consider, refrigerant (fridge), adsorption, and membrane\"",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Desiccant regeneration methods",
+      "unit": "methods",
+      "basis": "\"There are three types of regeneration methods our dryers use: purge regeneration ('heatless-type dryers'), heated purge, and blower\"",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": 3
     }
   ],
   "url": "https://aerodyngroup.com/pneumatech",
@@ -59,6 +123,13 @@
       "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Individual Pneumatech/ELGI/Quincy/SPX Jemaco model capacities and ratings",
+      "why": "Distributor page describes dryer types and PDP ranges only; no model tables",
+      "next_action": "Fetch linked brand pages for model-level specs"
+    }
+  ]
 }

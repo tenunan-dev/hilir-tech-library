@@ -194,6 +194,182 @@
       },
       "low": 15.01,
       "high": 15.41
+    },
+    {
+      "metric": "Global floating PV application",
+      "unit": "GW (>4 GW)",
+      "basis": "\"With Over 4GW of Floating PV Application, We Set the Standard\"; counter \">4 GW Global Application\"",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Patents",
+      "unit": "patents (290+)",
+      "basis": "Counter \"290 + Patents\"",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 290
+    },
+    {
+      "metric": "Market share",
+      "unit": "No. 1 global",
+      "basis": "Counter \"NO.1 Global Market Share\"",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      }
+    },
+    {
+      "metric": "Reference project capacity",
+      "unit": "MW",
+      "basis": "Cases: 192 MW Indonesia (reservoir, world's largest floating PV project at a hydroelectric power station); 200 MW Anhui Province (subsidence area, former coal mines); 4.99 MW Philippines; 5 MW France",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      }
+    },
+    {
+      "metric": "Product lines",
+      "unit": "n/a",
+      "basis": "Products for Utility Scale: TS30M (Truss Structure Product), PT60 (Pontoon Product), Floating Barge (Equipment Support System)",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      }
+    },
+    {
+      "metric": "Service network",
+      "unit": "n/a",
+      "basis": "\"400 + Authorized Distributors; 520 + Service Outlets; 1000 + Technical Experts; 110,000 m2 Warehouse total area\"",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      }
+    },
+    {
+      "metric": "Maximum module power (headline)",
+      "unit": "W",
+      "basis": "LONGi Hi-MO 9 page header: 'Up to 670 <W> Module Power'; also 'Maximum power boasts up to 670W'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 670
+    },
+    {
+      "metric": "Maximum module efficiency",
+      "unit": "% (up to)",
+      "basis": "LONGi: 'Up to 24.80 <%> Module Efficiency'; 'Module efficiency of up to 24.8%'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 24.8
+    },
+    {
+      "metric": "Cell technology",
+      "unit": "text",
+      "basis": "LONGi: 'HPBC 2.0 Technology — Tairay silicon wafers + HPBC 2.0 cell technology'; '0BB design on the front'; 'Soft Breakdown Design — Anti-Shading, Prevent Localized overheating'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Module layout",
+      "unit": "cells",
+      "basis": "LONGi Mechanical Parameters: 'Layout 144 (6×24)'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Junction box",
+      "unit": "text",
+      "basis": "LONGi: 'Split junction box, IP68, 3 diodes'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Weight",
+      "unit": "kg",
+      "basis": "LONGi Mechanical Parameters: 'Weight 33.5kg'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 33.5
+    },
+    {
+      "metric": "Module dimensions",
+      "unit": "mm",
+      "basis": "LONGi: 'Size 2382×1134×30mm'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Packaging",
+      "unit": "text",
+      "basis": "LONGi: '36pcs./pallet; 144pcs./20GP; 720pcs./40 HC'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Pmax, LR7-72HYD-635M to 660M (STC)",
+      "unit": "W",
+      "basis": "LONGi Electrical Performance Parameters (STC Test): models 635M/640M/645M/650M/655M/660M; Pmax 635/640/645/650/655/660 W",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 635,
+      "high": 660
+    },
+    {
+      "metric": "Open-circuit voltage Voc, 635M to 660M (STC)",
+      "unit": "V",
+      "basis": "LONGi table: Voc 53.50/53.60/53.70/53.80/53.90/54.00 V",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 53.5,
+      "high": 54
+    },
+    {
+      "metric": "Short-circuit current Isc, 635M to 660M (STC)",
+      "unit": "A",
+      "basis": "LONGi table: Isc 15.01/15.09/15.17/15.25/15.33/15.41 A",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 15.01,
+      "high": 15.41
+    },
+    {
+      "metric": "Peak power voltage Vmp, 635M to 660M (STC)",
+      "unit": "V",
+      "basis": "LONGi table: Vmp 44.36/44.46/44.56/44.65/44.75/44.85 V",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 44.36,
+      "high": 44.85
+    },
+    {
+      "metric": "Peak power current Imp, 635M to 660M (STC)",
+      "unit": "A (values continue past 14.64 for higher models)",
+      "basis": "LONGi table: Imp 14.32/14.40/14.48/14.56/14.64/... A",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 14.32,
+      "high": 14.64
+    },
+    {
+      "metric": "30-year linear degradation advantage",
+      "unit": "percentage points lower than conventional N-type",
+      "basis": "LONGi: '30-year full lifecycle linear degradation is 0.05 percentage points lower than conventional N-type products'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 0.05
     }
   ],
   "vendors": [
@@ -228,5 +404,5 @@
     "Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and st"
   ],
   "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

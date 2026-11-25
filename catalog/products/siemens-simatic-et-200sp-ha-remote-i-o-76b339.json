@@ -17,6 +17,42 @@
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
       "value": "compact robust remote I/O for high availability"
+    },
+    {
+      "metric": "SIMATIC ET 200SP HA - description",
+      "unit": "n/a",
+      "basis": "Siemens SIMATIC PCS 7 distributed control system page (V10.0), published 25 Nov 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "Compact robust remote I/O designed for high availability"
+    },
+    {
+      "metric": "SIMATIC PCS 7 - version",
+      "unit": "n/a",
+      "basis": "Siemens SIMATIC PCS 7 distributed control system page (V10.0), published 25 Nov 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "V10.0"
+    },
+    {
+      "metric": "SIMATIC PCS 7 - cybersecurity compliance",
+      "unit": "n/a",
+      "basis": "Siemens SIMATIC PCS 7 distributed control system page (V10.0), published 25 Nov 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "NIS2-compliant; IEC 62443-4-1 and IEC 62443-3-3 compliance"
+    },
+    {
+      "metric": "SIMATIC PCS 7 - MTP integration startup improvement",
+      "unit": "% (up to faster startup)",
+      "basis": "Siemens SIMATIC PCS 7 distributed control system page (V10.0), published 25 Nov 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": 75
     }
   ],
   "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
@@ -25,6 +61,13 @@
       "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "SIMATIC ET 200SP HA detailed specifications",
+      "why": "Assigned URL is the PCS 7 system page; ET 200SP HA is mentioned but no module-level ratings are printed",
+      "next_action": "Fetch a dedicated ET 200SP HA datasheet for I/O counts, power and environmental ratings"
+    }
+  ]
 }

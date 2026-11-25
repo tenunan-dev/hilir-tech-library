@@ -77,6 +77,114 @@
       },
       "unit": "n/a",
       "value": "steam or compressed air; no electricity required"
+    },
+    {
+      "metric": "GP5C - PMO / TMO",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "75 psig / 365 degF"
+    },
+    {
+      "metric": "GP5C - motive medium pressure range / recovery",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "5-75 psig; 320 lb/h"
+    },
+    {
+      "metric": "GP10 - PMO / TMO",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "150 psig / 365 degF"
+    },
+    {
+      "metric": "GP10 - motive medium pressure range / recovery",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "5-150 psig; 18,600 lb/h"
+    },
+    {
+      "metric": "GP10L - PMO / TMO / recovery",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "150 psig / 365 degF; 3,640 lb/h"
+    },
+    {
+      "metric": "GP10M - PMO / TMO / recovery",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "150 psig / 365 degF; 5,070 lb/h"
+    },
+    {
+      "metric": "GP10F - PMO / TMO / recovery",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "150 psig / 428 degF; 18,600 lb/h"
+    },
+    {
+      "metric": "GP14 - PMO / TMO / recovery",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "200 psig / 392 degF; 13,000 lb/h"
+    },
+    {
+      "metric": "GP14-B - PMO / TMO / recovery",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "200 psig / 392 degF; 16,000 lb/h"
+    },
+    {
+      "metric": "GP14L - PMO / TMO / recovery",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "200 psig / 428 degF; 4,850 lb/h"
+    },
+    {
+      "metric": "GP14M - PMO / TMO / recovery",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "200 psig / 428 degF; 7,200 lb/h"
+    },
+    {
+      "metric": "PowerTrap GP - motive medium / operation",
+      "unit": "n/a",
+      "basis": "TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
+      },
+      "value": "Powered by steam or compressed air (no electricity); snap-action mechanism; for open systems; suitable for explosion-proof installations"
     }
   ],
   "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
@@ -85,6 +193,6 @@
       "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     }
   ],
-  "notes": "Read in full: TLV en-us PowerTrap (Mechanical Pump) GP Series page with full model table.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: TLV en-us PowerTrap (Mechanical Pump) GP Series page with full model table. Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

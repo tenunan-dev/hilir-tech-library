@@ -27,6 +27,47 @@
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
       },
       "value": "two-wire twisted pair; IS/non-incendive power"
+    },
+    {
+      "metric": "Registered products",
+      "unit": "products (over 1,000)",
+      "basis": "\"a rich software platform that allows for the over 1,000 registered products to interoperate between various manufacturers of devices and control systems\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Physical medium",
+      "unit": "n/a",
+      "basis": "\"Fieldbus-based control systems employ two-wire twisted pair cable and provide intrinsically safe or non-incendive device power suitable for all hazardous areas\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
+      }
+    },
+    {
+      "metric": "Control in the field",
+      "unit": "n/a",
+      "basis": "\"FOUNDATION Fieldbus was designed from the ground up to enable control-in-the-field (CIF) strategies across the plant. This means that during a host system failure, field instruments can communicate directly with one another to maintain continued safe operations\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
+      }
+    },
+    {
+      "metric": "Specification set",
+      "unit": "n/a",
+      "basis": "\"FOUNDATION Fieldbus Technical Specifications ... includes the latest FOUNDATION Fieldbus H1, High Speed Ethernet (HSE) and Physical Layer technical specifications\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
+      }
+    },
+    {
+      "metric": "Deployment history",
+      "unit": "n/a",
+      "basis": "\"Since the early '90s, FOUNDATION Fieldbus has been installed and running process plants across the globe\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
+      }
     }
   ],
   "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
@@ -35,6 +76,13 @@
       "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     }
   ],
-  "notes": "No specific model asserted.",
-  "last_reviewed": "2026-11-24"
+  "notes": "No specific model asserted. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "H1 data rate (31.25 kbit/s), segment length and device counts",
+      "why": "Not printed on the overview page",
+      "next_action": "Fetch the H1 specification PDF for numeric protocol parameters"
+    }
+  ]
 }

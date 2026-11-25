@@ -27,6 +27,69 @@
         "source_id": "powermag-com-engine-power-plants-surge-as-data-centers-drive-unpre"
       },
       "high": 10606
+    },
+    {
+      "metric": "INNIO/VoltaGrid order size",
+      "unit": "GW / MW",
+      "basis": "'INNIO Group announced ... a 2.3 GW power infrastructure project with VoltaGrid featuring 92 power packs, each delivering 25 MW of output.'",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
+      },
+      "value": "2.3 GW, 92 power packs each delivering 25 MW"
+    },
+    {
+      "metric": "VoltaGrid ambient capability",
+      "unit": "deg C (122 F)",
+      "basis": "'maintains full power and efficiency even at ambient temperatures up to 122F (50C)'.",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
+      },
+      "value": 50
+    },
+    {
+      "metric": "J920 FleXtra full-load time",
+      "unit": "minutes",
+      "basis": "'INNIO's Jenbacher J920 FleXtra engine, the largest in the company's gas engine portfolio, achieves full load within two minutes.'",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Greenville Texas plant",
+      "unit": "n/a",
+      "basis": "POWER article, 'Fast-Start Technology Becomes Standard Requirement' section.",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
+      },
+      "value": "104 MW, 11 engines, >17,200 customers; groundbreaking Dec 2025, commissioning summer 2027"
+    },
+    {
+      "metric": "Thurrock UK plant",
+      "unit": "MW / minutes",
+      "basis": "'The 450-MW flexible generation facility ... expected to achieve full operations by late 2026 ... rapid start-up in less than five minutes ... Ready for H2'. Conflicting start times vs J920 2 minutes preserved as printed.",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
+      },
+      "value": "450 MW; Jenbacher engines start in less than five minutes; 'Ready for H2'"
+    },
+    {
+      "metric": "KMW NOx reduction",
+      "unit": "% lower (claimed)",
+      "basis": "'up to 95% lower nitrogen oxide emissions' for the KMW (Kraftwerke Mainz-Wiesbaden AG) energy systems.",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
+      },
+      "value": 95
+    },
+    {
+      "metric": "Companion fast-start figures (other OEMs, as printed)",
+      "unit": "n/a",
+      "basis": "POWER article prints these alongside Jenbacher; transcribed as published context, not J920 ratings.",
+      "source": {
+        "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
+      },
+      "value": "Cat G3516 zero-to-full in ~7 s; mtu 20V4000 L64 2.8 MW in 45 s (60 Hz); Wartsila 31SG 2.5 min; Wartsila 24 x 50SG = 429 MW"
     }
   ],
   "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
@@ -35,6 +98,13 @@
       "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     }
   ],
-  "notes": "Deployed in the 104 MW Greenville, Texas peaking plant with 11 engines (POWER article, page_read:true).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Deployed in the 104 MW Greenville, Texas peaking plant with 11 engines (POWER article, page_read:true). Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "J920 primary datasheet",
+      "why": "Trade press article only; no OEM spec table for J920 was on this page.",
+      "next_action": "Use the dedicated Jenbacher J920 page specs for design values."
+    }
+  ]
 }

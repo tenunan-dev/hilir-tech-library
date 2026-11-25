@@ -37,6 +37,68 @@
         "source_id": "sys-nexans-com"
       },
       "value": 30
+    },
+    {
+      "metric": "Rated voltage",
+      "unit": "kV HVAC",
+      "basis": "Nexans news 20 November 2026: 'turnkey design, manufacturing and installation of a 145 kV HVAC dynamic cable'",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 145
+    },
+    {
+      "metric": "Route length",
+      "unit": "km (about)",
+      "basis": "Nexans: 'Route: about 135 km, Barrow Island to a floating Field Control Station, in one continuous length'",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 135
+    },
+    {
+      "metric": "Trenched cable length",
+      "unit": "km",
+      "basis": "Nexans: 'trenching 30 km of cable'",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Buoyancy modules installed",
+      "unit": "modules",
+      "basis": "Nexans: 'after installing 26 buoyancy modules and trenching 30 km of cable'",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 26
+    },
+    {
+      "metric": "VIV strakes length",
+      "unit": "m (about)",
+      "basis": "Nexans: 'Installation of about 200 meters of VIV (vortex-induced vibration) strakes in the Scarp section'",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Rock stabilization remaining",
+      "unit": "km",
+      "basis": "Nexans: 'Rock stabilization along the last 28 km of the route'",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 28
+    },
+    {
+      "metric": "Project / client / status",
+      "unit": "text",
+      "basis": "Nexans: 'Jansz-Io Compression (J-IC), Gorgon Project, Western Australia; Client: Chevron Australia; Status: offshore installation and trenching completed in October 2026; final soak test February 2027'",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      }
     }
   ],
   "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
@@ -45,6 +107,6 @@
       "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     }
   ],
-  "notes": "Power cable for subsea gas compression; not a hydraulic umbilical.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Power cable for subsea gas compression; not a hydraulic umbilical. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

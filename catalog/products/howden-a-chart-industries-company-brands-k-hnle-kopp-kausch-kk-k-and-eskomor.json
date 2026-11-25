@@ -147,6 +147,130 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "value": 2240
+    },
+    {
+      "metric": "Maximum flow (Howden range)",
+      "unit": "m3/h (up to)",
+      "basis": "\"comprehensive range of Industrial Centrifugal Turbo Compressors up to 600,000 m3/h\"",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 600000
+    },
+    {
+      "metric": "Installed base",
+      "unit": "installations (over)",
+      "basis": "\"Customizable Centrifugal Turbo Compressors proven over 100 years and 4000 installations\"",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Single stage flow range",
+      "unit": "m3/h",
+      "basis": "\"model range serves applications requiring flows of between 3,000 m3/h and 600,000 m3/h with pressure ratios up to 3.5\"",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 3000,
+      "high": 600000
+    },
+    {
+      "metric": "Multistage flow range",
+      "unit": "m3/h",
+      "basis": "\"flows of between 400 m3/h and 200,000 m3/h with pressure ratios up to 10.0\"",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 400,
+      "high": 200000
+    },
+    {
+      "metric": "CKD maximum flow / discharge pressure",
+      "unit": "n/a",
+      "basis": "\"CKD compressors ... flow requirements up to 1700,000 m3/h and discharge pressures of up to 20 MPa\" [sic – printed as 1700,000]",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "SFO/SFP/SFN pressure and flow",
+      "unit": "n/a",
+      "basis": "\"SFO, SFP and SFN series ... pressures up to 50 bar and flow rates up to 200,000 m3/hr\"",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "SF model",
+      "unit": "m3/h",
+      "basis": "Single stage table: SF flow 15,000-600,000 m3/h, pressure ratio up to 3.5, impeller dia up to 2240 mm, electric or turbine drive",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 15000,
+      "high": 600000
+    },
+    {
+      "metric": "SFG model",
+      "unit": "m3/h",
+      "basis": "Single stage table: SFG flow 5,000-300,000 m3/h, ratio up to 3.5, impeller dia up to 1120 mm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 5000,
+      "high": 300000
+    },
+    {
+      "metric": "ST model",
+      "unit": "m3/h",
+      "basis": "Single stage table: ST flow 1,500-150,000 m3/h, ratio up to 3.5, impeller dia up to 900 mm, integrated steam turbine drive",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 1500,
+      "high": 150000
+    },
+    {
+      "metric": "SL model",
+      "unit": "m3/h",
+      "basis": "Single stage table: SL flow 15,000-450,000 m3/h, ratio up to 1.45, impeller dia up to 1800 mm, coke oven gas",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 15000,
+      "high": 450000
+    },
+    {
+      "metric": "RS model",
+      "unit": "m3/h",
+      "basis": "Multistage table: RS flow 400-65,000 m3/h, pressure ratio up to 10.0, impeller dia up to 700 mm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 400,
+      "high": 65000
+    },
+    {
+      "metric": "RV model",
+      "unit": "m3/h",
+      "basis": "Multistage table: RV flow 400-85,000 m3/h (400-170,000 back-to-back), ratio up to 10.0, impeller dia up to 780 mm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 400,
+      "high": 170000
+    },
+    {
+      "metric": "SFG Twin / Back-to-Back",
+      "unit": "m3/h",
+      "basis": "Multistage table: SFG Back-to-Back 3,000-75,000 m3/h (ratio up to 6.0, impeller up to 560 mm); SFG Twin 3,000-200,000 m3/h (ratio up to 6.0, impeller up to 900 mm)",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 3000,
+      "high": 200000
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
@@ -155,6 +279,6 @@
       "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     }
   ],
-  "notes": "Page states proven over 100 years and 4000 installations; standardized modular units; drivers electric motor or steam/gas turbine; controls via variable inlet guide vanes, variable diffuser guide vanes or speed control. Linked downloadable brochures are PDFs (not read).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page states proven over 100 years and 4000 installations; standardized modular units; drivers electric motor or steam/gas turbine; controls via variable inlet guide vanes, variable diffuser guide vanes or speed control. Linked downloadable brochures are PDFs (not read). Full-parameter pass 2026-11-26: 13 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

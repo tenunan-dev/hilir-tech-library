@@ -37,6 +37,40 @@
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
       "value": 100
+    },
+    {
+      "metric": "Destruction efficiency",
+      "unit": "% (typically greater than)",
+      "basis": "\"This system has demonstrated the highest destruction efficiency (typically > 99.5%) of any flare type\"",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "value": 99.5
+    },
+    {
+      "metric": "Smokeless operation",
+      "unit": "% (at high flow rates)",
+      "basis": "\"Design is capable of producing 100% smokeless operation at high flow rates\"",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Standard",
+      "unit": "n/a",
+      "basis": "\"Available API 537 Compliance: Ensures compliance with the latest Industry flare standards\"",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      }
+    },
+    {
+      "metric": "Turndown / staging",
+      "unit": "n/a",
+      "basis": "\"High pressure technology with staging allows smokeless operation for the full range of flows\"; \"Staging System: Allows exceptional turndown capabilities\"",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      }
     }
   ],
   "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
@@ -45,6 +79,13 @@
       "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     }
   ],
-  "notes": "High pressure technology with staging for full-range smokeless turndown; turnkey supply available through Koch Specialty Plant Services. No numeric flow capacity printed on the page read.",
-  "last_reviewed": "2026-11-24"
+  "notes": "High pressure technology with staging for full-range smokeless turndown; turnkey supply available through Koch Specialty Plant Services. No numeric flow capacity printed on the page read. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Numerical smokeless flow rate and turndown ratio",
+      "why": "Page says 'industry-leading flow rates' and 'widest range of smokeless turndown' without numbers",
+      "next_action": "Fetch brochure PDF for flow tables"
+    }
+  ]
 }

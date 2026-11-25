@@ -27,6 +27,101 @@
       },
       "unit": "capability",
       "value": "Custom fuel skids for various applications worldwide; any required dimension and specified feature"
+    },
+    {
+      "metric": "Free Jet turndown",
+      "unit": "ratio",
+      "basis": "'High turndown of 20:1 on a per burner basis'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Free Jet tip exposure",
+      "unit": "in",
+      "basis": "'tip mass is small and exposed into firebox less than 1\" (25 mm)'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Free Jet tip exposure",
+      "unit": "mm",
+      "basis": "same parenthetical",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Free Jet materials",
+      "unit": "n/a",
+      "basis": "'304 Stainless Steel fuel gas risers'; '310 Stainless Steel (Type HK) secondary gas tips'; '310 Stainless Steel (Type HK) primary gas tip'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "GB heat input",
+      "unit": "MMBtu/hr",
+      "basis": "'GB burners can be designed with heat inputs in excess of 360 MMBtu/hr per burner'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": 360
+    },
+    {
+      "metric": "GB fuels",
+      "unit": "n/a",
+      "basis": "'natural gas, #6/#2 fuel oils, low Btu gases (blast furnace gas/ coke oven gas), opportunity fuels, waste streams'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "PDH air heater heat release",
+      "unit": "Btu/hr",
+      "basis": "'high heat releases of up to one billion Btu/hr'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": 1000000000
+    },
+    {
+      "metric": "Installed burners",
+      "unit": "burners",
+      "basis": "'an ever-growing installation list of more than 1,000 burners'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Average staff experience",
+      "unit": "years",
+      "basis": "'an average industry experience of 30+ years'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Quality system",
+      "unit": "n/a",
+      "basis": "'Zeeco's ISO 9001 accredited quality management system'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "Total scope",
+      "unit": "n/a",
+      "basis": "'Full Scope of supply with BMS/combustion controls/valve trains/installation/commissioning'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
     }
   ],
   "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
@@ -35,6 +130,6 @@
       "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     }
   ],
-  "notes": "Fetched Zeeco pages directly with WebFetch (markdown). Valve train is described as part of scope, not a standalone named product line with printed specs.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Zeeco pages directly with WebFetch (markdown). Valve train is described as part of scope, not a standalone named product line with printed specs. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

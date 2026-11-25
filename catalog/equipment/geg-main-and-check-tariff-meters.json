@@ -269,6 +269,318 @@
         "url": "https://theedgemalaysia.com/node/684572",
         "source_id": "gef-theedgemalaysia-com-684572-c43c045"
       }
+    },
+    {
+      "metric": "Type 1 Metering Installation threshold",
+      "unit": "GWh per annum (greater than)",
+      "basis": "Table 2: \"Accuracy Requirements of Type 1 Metering Installation – Annual Energy Throughput Greater Than 60GWh\"; MCA.1.4 Table Type 1 \"Larger than 60GWh -> Check Metering Installation\"",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Type 1 maximum allowable overall error, active at full load",
+      "unit": "% (+/-)",
+      "basis": "Table 1: More than 7.5MW or 60GWh per annum -> Active 0.6, Reactive 1.0",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 0.6
+    },
+    {
+      "metric": "Type 1 maximum allowable overall error, reactive at full load",
+      "unit": "% (+/-)",
+      "basis": "Table 1: More than 7.5MW or 60GWh per annum -> Reactive 1.0",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 1.0
+    },
+    {
+      "metric": "Type 1 minimum component accuracy classes",
+      "unit": "n/a",
+      "basis": "Table 1: \"0.2 CT Burden 30 VA if ../1A, 15 VA if ../5A, 0.2 VT Min Burden 100VA, 0.2 Wh Meter, 0.5 VARh meter\"",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Meter clock error",
+      "unit": "ppm relative to Malaysian Standard Time",
+      "basis": "Table 1: Meter Clock Error (Seconds) with reference to Malaysian Standard Time: ±5ppm for both metering types; MC11: \"The Metering Database must be set within an accuracy of ±1 second of Malaysian Standard Time\"",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Type 1 accuracy - unity PF active at 10% rated load",
+      "unit": "%",
+      "basis": "Table 2 row 10% rated load, Power Factor Unity, Active 0.7%",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 0.7
+    },
+    {
+      "metric": "Type 1 accuracy - unity PF active at 50% and 100% rated load",
+      "unit": "%",
+      "basis": "Table 2 rows 50% and 100% rated load, Power Factor Unity, Active 0.6%",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 0.6
+    },
+    {
+      "metric": "Type 1 accuracy - 0.5 lag active / reactive at 50% and 100% load",
+      "unit": "%",
+      "basis": "Table 2: at 0.5 Lag, Active 1.0%, Reactive 0.5% for 50% and 100% rated load",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Type 1 accuracy - zero power factor reactive at 10% load",
+      "unit": "%",
+      "basis": "Table 2 row 10% rated load, Power Factor Zero, Reactive 1.4%",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 1.4
+    },
+    {
+      "metric": "Type 2 threshold and overall error",
+      "unit": "n/a",
+      "basis": "Table 1: Less than 7.5MW or 60GWh per annum -> Active 1.0%, Reactive 2.0%; 0.2 CT burden 15VA, 0.5 VT min burden 75VA, 0.5 Wh Meter, 1.0 VARh meter, ±5ppm",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Check metering requirement",
+      "unit": "n/a",
+      "basis": "MCA.1.4: Type 1 (>60GWh) requires a Check Metering Installation with separate CT cores and secondary windings; \"The accuracy of Check Metering Installation shall be the same as the Main Metering Installation\"; check meter accuracy \"shall not exceed twice the level prescribed\"",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Energy registration resolution",
+      "unit": "% (better than)",
+      "basis": "MCA.1.5: \"resolution of the energy registration of 0.5S class Meters shall be better than 0.2 % and the resolution of the energy registration of 0.2S class Meters shall be better than 0.1 %\"",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Target availability",
+      "unit": "% per annum",
+      "basis": "MC6.1: \"The target availability of measurement transformers and Metering Installations shall be 99% per annum and the target availability of the communication link shall be 95% per annum\"",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Historical metering data retention",
+      "unit": "n/a",
+      "basis": "MC4(m): six (6) months on-line; thirteen (13) months in accessible format; seven (7) years in archive",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Type 1 laboratory/field test uncertainties",
+      "unit": "n/a",
+      "basis": "Appendix 2 table: Type 1 In Laboratory CTs/VTs ±0.05%, Wh Meter ±(0.05/cos θ)%, Varh Meter ±(0.2/sin θ)%; In Field Use CTs/VTs ±0.1%, Wh Meter ±(0.1/cos θ)%, Varh Meter ±(0.3/sin θ)%",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Maximum allowable period between tests",
+      "unit": "years",
+      "basis": "Appendix 2: CT 10 years; VT 10 years; CT Connected Meter (Electronic Type) 5 years; burden tests whenever meters tested or modifications made; maximum period between inspections 2.5 years",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Measurement reference temperature",
+      "unit": "degC",
+      "basis": "Note under Table 2A: \"All measurements in Tables 2 and 3 are to be referred to 25degrees Celsius under Meter laboratory conditions\"",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Import/export power-factor labelling convention",
+      "unit": "n/a",
+      "basis": "Appendix 2 final table: Active Import + Reactive Import = Lagging; Active Import + Reactive Export = Leading; Active Import + Zero Reactive = Unity; Active Export + Reactive Export = Lagging; Active Export + Reactive Import = Leading; Active Export + Zero Reactive = Unity",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Publication",
+      "unit": "n/a",
+      "basis": "Sabah Grid Code, Annex 1, 224 pages; hosted under /attachments/2024-01/; Jina reported published-time 2024-01-05; defines the Electricity Supply Enactment 2024",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Voltage rating",
+      "unit": "n/a",
+      "basis": "Technical Specifications Ratings Voltage: 3*57.7/100V up to 3*277/480V auto ranging",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "3*57.7/100V up to 3*277/480V auto ranging"
+    },
+    {
+      "metric": "Direct current",
+      "unit": "n/a",
+      "basis": "Direct Current: In 5A, Imax 120A",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "In 5A, Imax 120A"
+    },
+    {
+      "metric": "CT connection",
+      "unit": "n/a",
+      "basis": "CT Connection: Ib 1A, Imax 10A",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "Ib 1A, Imax 10A"
+    },
+    {
+      "metric": "Accuracy - direct connected",
+      "unit": "n/a",
+      "basis": "Accuracy Direct Connected: Class 1 or Class B",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "Class 1 or Class B"
+    },
+    {
+      "metric": "Accuracy - transformer connected",
+      "unit": "n/a",
+      "basis": "Transformer Connected: Class 0.2S, Class 0.5S or Class C",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "Class 0.2S, Class 0.5S or Class C"
+    },
+    {
+      "metric": "Accuracy - reactive energy",
+      "unit": "n/a",
+      "basis": "Reactive energy: Class 1 or Class 2",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "Class 1 or Class 2"
+    },
+    {
+      "metric": "Frequency",
+      "unit": "Hz",
+      "basis": "Frequency 50 / 60 Hz",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "50 / 60"
+    },
+    {
+      "metric": "Standards",
+      "unit": "n/a",
+      "basis": "Full compliance with IEC 62052, IEC 62053, MID standard EN50470-1 and EN50470-3 and CE marking standards",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "IEC 62052, IEC 62053, EN50470-1, EN50470-3, CE marking"
+    },
+    {
+      "metric": "Communications",
+      "unit": "n/a",
+      "basis": "Communications IR-port (IEC 61107), optional RS232C and/or RS485 DLMS-Cosem Protocol (IEC 62056)",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "IR-port (IEC 61107), optional RS232C and/or RS485, DLMS-Cosem Protocol (IEC 62056)"
+    },
+    {
+      "metric": "Communication channels",
+      "unit": "n/a",
+      "basis": "Up to three communication channels (2 electrical & 1 optical) depending on the meter version. Two channels can be used simultaneously",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "Up to three (2 electrical & 1 optical); two used simultaneously"
+    },
+    {
+      "metric": "Load profile channels",
+      "unit": "channels",
+      "basis": "Storage of up to 16 channels for various quantities in two independent banks",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 16
+    },
+    {
+      "metric": "Energy-rate registers",
+      "unit": "registers",
+      "basis": "32 energy-rate registers and 24 demand-rate registers are available",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 32
+    },
+    {
+      "metric": "Demand-rate registers",
+      "unit": "registers",
+      "basis": "32 energy-rate registers and 24 demand-rate registers are available",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 24
+    },
+    {
+      "metric": "Pulse inputs",
+      "unit": "inputs",
+      "basis": "Four pulse inputs provide additional metering information (versions with I/O lines)",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Auxiliary power supply isolation",
+      "unit": "kV",
+      "basis": "From IEC7 versions, the optional APS is isolated (2KV) from measurement voltages",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 2
+    },
+    {
+      "metric": "External modem power",
+      "unit": "W",
+      "basis": "in IEC7 versions, the meter now provides up to 3W",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Dimensions",
+      "unit": "n/a",
+      "basis": "Dimensions > 180 325 mm with standard terminal cover 358 mm with extended terminal cover 85 251 97 62 150 201 230 239",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "180 x 325 mm with standard terminal cover; 358 mm with extended terminal cover; 85 x 251 x 97 x 62 x 150 x 201 x 230 x 239"
     }
   ],
   "vendor_models": [
@@ -370,5 +682,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

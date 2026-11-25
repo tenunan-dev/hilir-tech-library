@@ -57,6 +57,204 @@
         "source_id": "cat-longi-com"
       },
       "value": -0.26
+    },
+    {
+      "metric": "Module power (headline maximum)",
+      "unit": "W (up to)",
+      "basis": "\"Up to 670 W Module Power\" (headline) and \"Maximum power boasts up to 670W\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 670
+    },
+    {
+      "metric": "Module power (printed STC table maximum)",
+      "unit": "W",
+      "basis": "Electrical Performance Parameters (STC Test) table lists LR7-72HYD-635M to LR7-72HYD-660M, Pmax 635-660 W — keep as separate printed value from headline 670 W",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 660
+    },
+    {
+      "metric": "Module efficiency",
+      "unit": "% (up to)",
+      "basis": "\"Up to 24.80 % Module Efficiency\" / \"Module efficiency of up to 24.8%\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 24.8
+    },
+    {
+      "metric": "Product warranty",
+      "unit": "years",
+      "basis": "\"12 Years Product Warranty\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Power warranty",
+      "unit": "years",
+      "basis": "\"30 Years Power Warranty\"; \"30-year full lifecycle linear degradation is 0.05 percentage points lower than conventional N-type products, Power increase 1.5% after 30 years\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Open-circuit voltage at STC",
+      "unit": "V",
+      "basis": "STC table LR7-72HYD-635M to -660M: Voc 53.50-54.00 V",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 53.5,
+      "high": 54.0
+    },
+    {
+      "metric": "Short-circuit current at STC",
+      "unit": "A",
+      "basis": "STC table: Isc 15.01-15.41 A",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 15.01,
+      "high": 15.41
+    },
+    {
+      "metric": "Peak power voltage at STC",
+      "unit": "V",
+      "basis": "STC table: Vmp 44.36-44.85 V",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 44.36,
+      "high": 44.85
+    },
+    {
+      "metric": "Peak power current at STC",
+      "unit": "A",
+      "basis": "STC table: Imp 14.32-14.72 A",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 14.32,
+      "high": 14.72
+    },
+    {
+      "metric": "NOCT maximum power",
+      "unit": "W",
+      "basis": "Electrical Performance Parameters (NOCT Test) table: Pmax 483.4-502.4 W",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 483.4,
+      "high": 502.4
+    },
+    {
+      "metric": "Module weight",
+      "unit": "kg",
+      "basis": "Mechanical Parameters: Weight 33.5kg",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 33.5
+    },
+    {
+      "metric": "Module dimensions",
+      "unit": "mm",
+      "basis": "Mechanical Parameters: Size 2382×1134×30mm",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Cell layout",
+      "unit": "cells (6x24)",
+      "basis": "Mechanical Parameters: Layout 144（6×24）",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 144
+    },
+    {
+      "metric": "Junction box",
+      "unit": "n/a",
+      "basis": "Mechanical Parameters: \"Split junction box, IP68, 3 diodes\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Packaging",
+      "unit": "pieces",
+      "basis": "Mechanical Parameters: \"36pcs./pallet 144pcs./20GP 720pcs./40 HC\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Maximum static load front",
+      "unit": "Pa",
+      "basis": "Mechanical Load Capacity: \"Maximum static load on the front (such as snow and wind) 5400Pa\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 5400
+    },
+    {
+      "metric": "Maximum static load back",
+      "unit": "Pa",
+      "basis": "Mechanical Load Capacity: \"Maximum static load on the back (such as wind) 2400Pa\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 2400
+    },
+    {
+      "metric": "Hail test",
+      "unit": "n/a",
+      "basis": "Mechanical Load Capacity: \"Hail test Diameter 25 mm, impact speed 23 m/s\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Temperature coefficient Isc",
+      "unit": "%/degC (+ value)",
+      "basis": "Temperature Coefficient (STC test): \"Temperature coefficient of short circuit current (Isc) +0.05%/℃\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 0.05
+    },
+    {
+      "metric": "Temperature coefficient Voc",
+      "unit": "%/degC",
+      "basis": "Temperature Coefficient (STC test): \"Temperature coefficient of open circuit voltage (Voc) -0.200%/℃\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": -0.2
+    },
+    {
+      "metric": "Temperature coefficient Pmax",
+      "unit": "%/degC",
+      "basis": "Temperature Coefficient (STC test): \"Temperature coefficient of peak power (Pmax) -0.260%/℃\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": -0.26
+    },
+    {
+      "metric": "Cell technology",
+      "unit": "n/a",
+      "basis": "\"HPBC 2.0 Technology; Tairay silicon wafers + HPBC 2.0 cell technology\"; \"0BB design on the front\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
     }
   ],
   "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
@@ -65,6 +263,6 @@
       "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     }
   ],
-  "notes": "HPBC 2.0; 30-year power warranty",
-  "last_reviewed": "2026-11-24"
+  "notes": "HPBC 2.0; 30-year power warranty Full-parameter pass 2026-11-26: 22 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

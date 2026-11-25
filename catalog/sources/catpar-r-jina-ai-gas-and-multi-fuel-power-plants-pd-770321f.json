@@ -1,0 +1,25 @@
+{
+  "id": "catpar-r-jina-ai-gas-and-multi-fuel-power-plants-pd-770321f",
+  "name": "r.jina.ai",
+  "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "R.Jina.Ai",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. 'Closed-circuit radiator cooling with only 0.2 l/MWh water consumption'; 'The engine cooling arrangement using closed-loop radiator cooling reduces the plant process water consumption to a mere 0.2 l/MWh, minimising the effect on local water resources.' Brochure printed 08.2017."
+}

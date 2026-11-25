@@ -87,6 +87,147 @@
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
       }
+    },
+    {
+      "metric": "Meter size range",
+      "unit": "G65 to G1000",
+      "basis": "\"Meter sizes G65 to G1.000\"",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      }
+    },
+    {
+      "metric": "Maximum measuring range",
+      "unit": "m3/h",
+      "basis": "\"Max. measuring range 5 to 1.600 m3/h\"",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      },
+      "low": 5,
+      "high": 1600
+    },
+    {
+      "metric": "Nominal diameters",
+      "unit": "DN (2\" to 6\")",
+      "basis": "\"Nominal diameters DN 50 to 150 (2” to 6”)\"",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      },
+      "low": 50,
+      "high": 150
+    },
+    {
+      "metric": "Operating pressure",
+      "unit": "barg",
+      "basis": "\"Operating pressure from 0 to 100 barg\"",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "Flange rating",
+      "unit": "PN / ANSI class",
+      "basis": "\"Flange rating in PN 10-100 and ANSI 150-600\"; table: PN 10, 16, 25, 40, 64, 100 / ANSI 150, 300, 600",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      }
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degC (acc. MID)",
+      "basis": "\"Temperature range: -25 °C to +70 °C (acc. MID)\"",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      },
+      "low": -25,
+      "high": 70
+    },
+    {
+      "metric": "Minimum inlet pipe length",
+      "unit": "DN",
+      "basis": "\"Compact installation with inlet pipe length L ≥ 2 DN\" / \"≥2 DN independent of flow disturbance for DN 80 – 150 and ≥5 DN for DN 50\"",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Measurement uncertainty (high flow)",
+      "unit": "% (+/-) for 0.2 Qmax to Qmax",
+      "basis": "\"± 1 % for 0.2 Qmax to Qmax\" (EN12261 error limits)",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Measurement uncertainty (low flow)",
+      "unit": "% (+/-) for Qmin to 0.2 Qmax",
+      "basis": "\"± 2 % for Qmin to 0.2 Qmax\" (EN12261 error limits)",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Standard measuring range ratio",
+      "unit": "ratio (1:20)",
+      "basis": "\"Standard measurement range is 1:20. Depending on the operating pressure MID allows for higher measuring ranges\"",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Alternative measuring range ratio",
+      "unit": "ratio (1:30)",
+      "basis": "Table footnote: \"* Meter also available with measuring range 1:30\" (G250, G400, G650, G1000 models)",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Materials",
+      "unit": "n/a",
+      "basis": "\"Meter bodies: ductile iron (GGG-40) or forged steel. Turbine wheel: Aluminum\"; \"TRZ2 are fire-proof (HTB)\"",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      }
+    },
+    {
+      "metric": "Standards / approvals",
+      "unit": "n/a",
+      "basis": "\"MID approval for fiscal measurement; Conformity to EN12261, PED, ASME, ATEX and IECEx\"; OIML R137-1; EC directives 2014/32/EU (MID), 2014/34/EU (ATEX), 2014/68/EU (PED); ISO 9001:2008 / ISO 14001",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      }
+    },
+    {
+      "metric": "Pulse outputs",
+      "unit": "n/a",
+      "basis": "\"Low frequency (standard): 2x LF outputs (type E1) with maximum frequency of 0.5 Hz – 1x manipulation contact\"; \"High frequency (optional): up to 4x HF outputs\"",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      }
+    },
+    {
+      "metric": "Index head",
+      "unit": "n/a",
+      "basis": "\"IP67 certified\"; 8-digit mechanical index; index head rotatable by 350°",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      }
+    },
+    {
+      "metric": "Publication",
+      "unit": "n/a",
+      "basis": "Datasheet BR-17-06-ENG '# 3032 01/17', © 2017 Honeywell International Inc.; Jina published-time 2021-04-12 (host upload)",
+      "source": {
+        "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
+      }
     }
   ],
   "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
@@ -96,6 +237,6 @@
       "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 16 new printed parameters."
 }

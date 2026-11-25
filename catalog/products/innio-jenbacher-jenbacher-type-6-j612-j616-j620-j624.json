@@ -47,6 +47,186 @@
         "source_id": "jenbacher-com-type-6"
       },
       "value": 60000
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm",
+      "basis": "'The 1,500-rpm engine speed results in a high power density with low installation costs'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Engines delivered",
+      "unit": "engines since 1989 (J624 since 2007)",
+      "basis": "Type 6 page headline statistic.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "> 7,000"
+    },
+    {
+      "metric": "J612 maximum power",
+      "unit": "kW/engine",
+      "basis": "Discover models: 'j612 / up to 2,092 kW'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": 2092
+    },
+    {
+      "metric": "J616 maximum power",
+      "unit": "kW/engine",
+      "basis": "Discover models: 'j616 / up to 2,797 kW'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": 2797
+    },
+    {
+      "metric": "J620 fast start power",
+      "unit": "kW",
+      "basis": "Discover models: 'j620 fast start / 3,114 kW'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": 3114
+    },
+    {
+      "metric": "J620 maximum power",
+      "unit": "kW/engine",
+      "basis": "Discover models: 'j620 / up to 3,509 kW'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": 3509
+    },
+    {
+      "metric": "J624 maximum power",
+      "unit": "kW/engine",
+      "basis": "Discover models: 'j624 / up to 4,499 kW'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": 4499
+    },
+    {
+      "metric": "50 Hz any fuel type - electrical output",
+      "unit": "kW",
+      "basis": "Genset table, 50 Hz, '- Any Fuel Type -': 'Electrical Output up to 4,499 kW; Thermal Output up to 4,706 kW; Voltage 400V, 6.3kV, 10.5kV; Electrical Efficiency up to 47.0%; Thermal Efficiency up to 47.3%'. Technical data for information only; output and efficiency at generator terminals, DIN ISO 3046 / DIN 6271 +5%, full load; NOx 250 and 500 mg/Nm3 at 5% O2 dry; biogas/sewage 65% CH4/35% CO2; landfill 55% CH4/40% CO2/rest N2.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 4,499"
+    },
+    {
+      "metric": "50 Hz natural gas - electrical output",
+      "unit": "kW",
+      "basis": "Genset table, 50 Hz, Natural Gas column: 'Electrical Output up to 4,499 kW; Thermal Output up to 4,706 kW; Electrical Efficiency up to 47.1%; Thermal Efficiency up to 47.1%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 4,499"
+    },
+    {
+      "metric": "50 Hz coal mine gas - electrical output",
+      "unit": "kW",
+      "basis": "Genset table 50 Hz, Coal Mine Gas: 'Electrical Output up to 3,349 kW; Thermal Output up to 3,488 kW; Electrical Efficiency up to 43.7%; Thermal Efficiency up to 44.7%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 3,349"
+    },
+    {
+      "metric": "50 Hz bio/sewage/landfill gas - electrical output",
+      "unit": "kW",
+      "basis": "Genset table 50 Hz, Bio-/Sewage-/Landfill Gas: 'Electrical Output up to 3,349 kW; Thermal Output up to 3,042 kW; Electrical Efficiency up to 44.8%; Thermal Efficiency up to 41.4%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 3,349"
+    },
+    {
+      "metric": "50 Hz associated petroleum gas (flare gas) - electrical output",
+      "unit": "kW",
+      "basis": "Genset table 50 Hz, Associated Petroleum Gas: 'Electrical Output up to 3,043 kW; Thermal Output up to 3,402 kW; Electrical Efficiency up to 43.3%; Thermal Efficiency up to 47.3%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 3,043"
+    },
+    {
+      "metric": "60 Hz any fuel type - electrical output",
+      "unit": "kW",
+      "basis": "Genset table 60 Hz, Any Fuel Type: 'Electrical Output up to 4,477 kW; Thermal Output up to 4,706 kW; Voltage 480V - 13.8kV; Electrical Efficiency up to 46.8%; Thermal Efficiency up to 47.1%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 4,477"
+    },
+    {
+      "metric": "60 Hz natural gas - electrical output",
+      "unit": "kW",
+      "basis": "Genset table 60 Hz, Natural Gas: 'Electrical Output up to 4,477 kW; Electrical Efficiency up to 46.8%; Thermal Efficiency up to 47.1%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 4,477"
+    },
+    {
+      "metric": "60 Hz coal mine gas - electrical output",
+      "unit": "kW",
+      "basis": "Genset table 60 Hz, Coal Mine Gas: 'Electrical Output up to 3,349 kW; Thermal Output up to 3,488 kW; Electrical Efficiency up to 43.7%; Thermal Efficiency up to 44.7%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 3,349"
+    },
+    {
+      "metric": "60 Hz bio/sewage/landfill gas - electrical output",
+      "unit": "kW",
+      "basis": "Genset table 60 Hz, Bio-/Sewage-/Landfill Gas: 'Electrical Output up to 3,328 kW; Thermal Output up to 3,042 kW; Electrical Efficiency up to 44.5%; Thermal Efficiency up to 41.4%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 3,328"
+    },
+    {
+      "metric": "60 Hz associated petroleum gas - electrical output",
+      "unit": "kW",
+      "basis": "Genset table 60 Hz, Associated Petroleum Gas: 'Electrical Output up to 3,036 kW; Thermal Output up to 3,402 kW; Electrical Efficiency up to 43.2%; Thermal Efficiency up to 47.3%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 3,036"
+    },
+    {
+      "metric": "Service life",
+      "unit": "hours",
+      "basis": "'Type 6 engines' enhanced components and 60,000-hour service life continue Jenbacher's legacy of quality and reliability.'",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": 60000
+    },
+    {
+      "metric": "CHP module total efficiency",
+      "unit": "%",
+      "basis": "'Combined Heat and Power Module (CHP Module) solutions allow customers to generate power and heat simultaneously at a high total efficiencies, reaching up to 95%.'",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "up to 95"
+    },
+    {
+      "metric": "Emissions control",
+      "unit": "n/a",
+      "basis": "Highlights and 'Lowered emissions' sections.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
+      },
+      "value": "LEANOX lean burn control; enhanced steel piston; centrally located purged pre-combustion chamber; Miller valve timing"
     }
   ],
   "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
@@ -55,6 +235,6 @@
       "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     }
   ],
-  "notes": "Pre-combustion chamber; Miller valve timing; LEANOX lean-burn; >7,000 engines since 1989",
-  "last_reviewed": "2026-11-24"
+  "notes": "Pre-combustion chamber; Miller valve timing; LEANOX lean-burn; >7,000 engines since 1989 Full-parameter pass 2026-11-26: 20 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

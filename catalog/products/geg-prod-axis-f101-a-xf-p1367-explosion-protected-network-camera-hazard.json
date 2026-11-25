@@ -67,6 +67,125 @@
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
         "source_id": "geg-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
       }
+    },
+    {
+      "metric": "Camera - image sensor",
+      "unit": "n/a",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": "1/2.9\" progressive scan RGB CMOS"
+    },
+    {
+      "metric": "Camera - lens",
+      "unit": "n/a",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": "IR corrected i-CS lens, varifocal 2.8-8.5 mm, F1.2; horizontal FOV 104-36 deg, vertical 55-20 deg"
+    },
+    {
+      "metric": "Camera - minimum illumination",
+      "unit": "n/a",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": "Color 0.15 lux; B/W 0.03 lux at 50 IRE, F1.2"
+    },
+    {
+      "metric": "Camera - resolution",
+      "unit": "n/a",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": "3072x1728 (5 MP) to 160x90"
+    },
+    {
+      "metric": "Camera - frame rate",
+      "unit": "n/a",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": "25/30 fps (50/60 Hz) in all resolutions"
+    },
+    {
+      "metric": "Camera - WDR forensic capture",
+      "unit": "dB (up to, depending on scene)",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": 120
+    },
+    {
+      "metric": "Camera - SoC",
+      "unit": "n/a",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": "ARTPEC-6; 1 GB RAM, 512 MB Flash"
+    },
+    {
+      "metric": "Camera - power",
+      "unit": "n/a",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": "PoE IEEE 802.3af/802.3at Type 1 Class 3, typical 5.0 W, max 9.1 W; heater 12-30 V AC/DC, 26 W"
+    },
+    {
+      "metric": "Camera - operating temperature (Zone system)",
+      "unit": "degC (-58 to 140 degF)",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "low": -50,
+      "high": 60
+    },
+    {
+      "metric": "Camera - operating temperature (Class/Division system)",
+      "unit": "degC (-40 to 140 degF)",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "low": -40,
+      "high": 60
+    },
+    {
+      "metric": "Camera - ingress protection / enclosure",
+      "unit": "n/a",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": "IP66-rated powder-coated aluminum chassis; ANSI/NEMA 250 4X"
+    },
+    {
+      "metric": "Camera - hazardous location certification",
+      "unit": "n/a",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": "Class I/II/III, Division 1 and Zone 1 certified; FM Class 3600:2018, 3615:2018, 3616:2011; IEC/EN 60079-0/-1/-31"
+    },
+    {
+      "metric": "Camera - storage",
+      "unit": "n/a",
+      "basis": "Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
+      },
+      "value": "Pre-installed AXIS Surveillance microSDXC 128 GB"
     }
   ],
   "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
@@ -76,6 +195,6 @@
       "source_id": "geg-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 13 new printed parameters."
 }

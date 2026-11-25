@@ -27,6 +27,89 @@
       },
       "unit": "styles",
       "value": "D-type and O-type"
+    },
+    {
+      "metric": "CBCW - steam flow range",
+      "unit": "lb/hr",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "low": 10000,
+      "high": 225000
+    },
+    {
+      "metric": "CBCW - steam pressure range",
+      "unit": "psig on steam",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "low": 100,
+      "high": 550
+    },
+    {
+      "metric": "CBCW - steam temperature",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Saturated"
+    },
+    {
+      "metric": "CBCW - NOx emissions",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "<9 ppm (available); <2 ppm with ultra-low NOx burner and SCR"
+    },
+    {
+      "metric": "CBCW - fuels",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Natural Gas, Propane, Digester, #2 Light Oil"
+    },
+    {
+      "metric": "CBCW - assembly",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction"
+    },
+    {
+      "metric": "CBCW - style",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "D-type, O-type; 100% membrane water-cooled furnace, refractory-free"
+    },
+    {
+      "metric": "CBCW - control system",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Cleaver-Brooks Hawk 4500 control"
+    },
+    {
+      "metric": "CBCW - delivery lead-time reduction",
+      "unit": "weeks (up to)",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": 12
     }
   ],
   "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
@@ -35,6 +118,13 @@
       "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     }
   ],
-  "notes": "Fetched CBCW product page directly with WebFetch (markdown). Waterwalls are a subsystem of the boiler, not a standalone product line.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched CBCW product page directly with WebFetch (markdown). Waterwalls are a subsystem of the boiler, not a standalone product line. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "CBCW Brochure / Technical Data sheet",
+      "why": "Linked brochure and technical data not transcribed",
+      "next_action": "Fetch the linked brochure for full dimensional and performance data"
+    }
+  ]
 }

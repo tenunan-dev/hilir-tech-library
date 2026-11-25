@@ -118,6 +118,82 @@
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
       }
+    },
+    {
+      "metric": "discharge_pressure_range_option_1",
+      "unit": "barg",
+      "basis": "Integrated compressor solutions table: Discharge Pressure (Barg) 8 to 10 / 8 to 16",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 8,
+      "high": 10
+    },
+    {
+      "metric": "discharge_pressure_range_option_2",
+      "unit": "barg",
+      "basis": "Integrated compressor solutions table: Discharge Pressure (Barg) 8 to 16",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 8,
+      "high": 16
+    },
+    {
+      "metric": "flow_rate_option_1",
+      "unit": "m3/min FAD",
+      "basis": "Integrated compressor solutions table: Flow Rate (m3/min) FAD up to 85 / up to 80",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "high": 85
+    },
+    {
+      "metric": "flow_rate_option_2",
+      "unit": "m3/min FAD",
+      "basis": "Integrated compressor solutions table: Flow Rate (m3/min) FAD up to 80",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "high": 80
+    },
+    {
+      "metric": "power_option_1",
+      "unit": "kW",
+      "basis": "Integrated compressor solutions table: Power (kW) 37 ~ 600",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 37,
+      "high": 600
+    },
+    {
+      "metric": "power_option_2",
+      "unit": "kW",
+      "basis": "Integrated compressor solutions table: Power (kW) 2.2 ~ 500",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 2.2,
+      "high": 500
+    },
+    {
+      "metric": "dryer_dew_point",
+      "unit": "degC",
+      "basis": "Heatless or heated air dryers for low dew points up to -90 degC",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "high": -90
+    },
+    {
+      "metric": "air_quality_class",
+      "unit": "n/a",
+      "basis": "Oil-free air design (ISO 8573-1 Class 0) in combination with HADETEC's filter & dryer package",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": "ISO 8573-1 Class 0"
     }
   ],
   "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
@@ -127,6 +203,6 @@
       "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 8 new printed parameters."
 }

@@ -40,14 +40,279 @@
       },
       "low": 18000,
       "high": 20000
+    },
+    {
+      "metric": "Rated power JGN 1 throw",
+      "unit": "hp",
+      "basis": "Table 1 throw: JGN Rated Power 126",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 126
+    },
+    {
+      "metric": "Rated power JGQ 1 throw",
+      "unit": "hp",
+      "basis": "Table 1 throw: JGQ Rated Power 140",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 140
+    },
+    {
+      "metric": "Rated power JGN 2 throw",
+      "unit": "hp",
+      "basis": "Table 2 throw: JGN Rated Power 252",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 252
+    },
+    {
+      "metric": "Rated power JGQ 2 throw",
+      "unit": "hp",
+      "basis": "Table 2 throw: JGQ Rated Power 280",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 280
+    },
+    {
+      "metric": "Rated power JGN 1 throw (kW)",
+      "unit": "kW",
+      "basis": "Product sheet: Rated Power (kW) JGN 1 throw 94 / JGQ 1 throw 104",
+      "source": {
+        "url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/JGNQ_Product_Sheet.pdf.coredownload.pdf",
+        "source_id": "catpar-arielcorp-com-jgnq-product-sheet-pdf-coredow-61e7270"
+      },
+      "value": 94
+    },
+    {
+      "metric": "Rated power JGQ 1 throw (kW)",
+      "unit": "kW",
+      "basis": "Product sheet: Rated Power (kW) 104",
+      "source": {
+        "url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/JGNQ_Product_Sheet.pdf.coredownload.pdf"
+      },
+      "value": 104
+    },
+    {
+      "metric": "Stroke JGN",
+      "unit": "in",
+      "basis": "Stroke (in): JGN 3.5",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "Stroke JGQ",
+      "unit": "in",
+      "basis": "Stroke (in): JGQ 3.0",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 3.0
+    },
+    {
+      "metric": "Max RPM JGN",
+      "unit": "rpm",
+      "basis": "Max RPM: JGN 1,500",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Max RPM JGQ",
+      "unit": "rpm",
+      "basis": "Max RPM: JGQ 1,800",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "Piston speed JGN",
+      "unit": "FPM",
+      "basis": "Piston Speed: JGN 875",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 875
+    },
+    {
+      "metric": "Piston speed JGQ",
+      "unit": "FPM",
+      "basis": "Piston Speed: JGQ 900",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 900
+    },
+    {
+      "metric": "Rod diameter",
+      "unit": "in",
+      "basis": "Rod Diameter (in): 1.125 (both frames)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1.125
+    },
+    {
+      "metric": "Total rod load JGN",
+      "unit": "lbs",
+      "basis": "Total Rod Load (lbs): JGN 18,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 18000
+    },
+    {
+      "metric": "Total rod load JGQ",
+      "unit": "lbs",
+      "basis": "Total Rod Load (lbs): JGQ 20,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Tension load JGN",
+      "unit": "lbs",
+      "basis": "Tension (lbs): JGN 9,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 9000
+    },
+    {
+      "metric": "Tension load JGQ",
+      "unit": "lbs",
+      "basis": "Tension (lbs): JGQ 10,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Compression load JGN",
+      "unit": "lbs",
+      "basis": "Compression (lbs): JGN 10,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Compression load JGQ",
+      "unit": "lbs",
+      "basis": "Compression (lbs): JGQ 11,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 11000
+    },
+    {
+      "metric": "Average weight 1 throw",
+      "unit": "lbs",
+      "basis": "Average Weight (lbs): 1,400 (1 throw, both frames)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1400
+    },
+    {
+      "metric": "Average weight 2 throw",
+      "unit": "lbs",
+      "basis": "Average Weight (lbs): 2,200 (2 throw, both frames)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 2200
+    },
+    {
+      "metric": "Max length 1 throw",
+      "unit": "in",
+      "basis": "Max Length (in): 37 (1 throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 37
+    },
+    {
+      "metric": "Max length 2 throw",
+      "unit": "in",
+      "basis": "Max Length (in): 34 (2 throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 34
+    },
+    {
+      "metric": "Nominal width 1 throw",
+      "unit": "in",
+      "basis": "Nominal Width (in): 62 (1 throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 62
+    },
+    {
+      "metric": "Nominal width 2 throw",
+      "unit": "in",
+      "basis": "Nominal Width (in): 83 (2 throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 83
+    },
+    {
+      "metric": "Crankshaft centerline",
+      "unit": "in",
+      "basis": "Crankshaft Centerline (in): 9.25 (both frames)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 9.25
+    },
+    {
+      "metric": "Frame material",
+      "unit": "n/a",
+      "basis": "Materials: Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing"
+    },
+    {
+      "metric": "Crosshead material",
+      "unit": "n/a",
+      "basis": "Materials: Ductile Iron Crosshead: Alloy steel crosshead pin",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Ductile Iron Crosshead: Alloy steel crosshead pin"
+    },
+    {
+      "metric": "Connecting rod material",
+      "unit": "n/a",
+      "basis": "Materials: Forged Steel Connecting Rod ... grade 8 stress bolts",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts"
     }
   ],
   "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
   "sources": [
     {
       "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+    },
+    {
+      "url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/JGNQ_Product_Sheet.pdf.coredownload.pdf"
     }
   ],
-  "notes": "Gas lift and CNG duty",
-  "last_reviewed": "2026-11-24"
+  "notes": "Gas lift and CNG duty Full-parameter pass 2026-11-26: 29 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

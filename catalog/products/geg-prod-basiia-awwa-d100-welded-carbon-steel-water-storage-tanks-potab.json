@@ -37,6 +37,46 @@
         "url": "https://basiia.com/products/api-650-tanks",
         "source_id": "geg-basiia-com-api-650-tanks-28cf110"
       }
+    },
+    {
+      "metric": "Applicable standards",
+      "unit": "n/a",
+      "basis": "Applicable Standards listed: API 650, API 620, API 653, AWWA D100 (Welded Carbon Steel Tanks for Water Storage), NSF/ANSI 61 (Potable Water Contact), ASME B16.5, NFPA 30, ISO 9001",
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks"
+      }
+    },
+    {
+      "metric": "AWWA D100 tank construction",
+      "unit": "n/a",
+      "basis": "\"Welded carbon steel tanks to AWWA D100 for potable water, fire suppression, and industrial water storage — including NSF/ANSI 61 lining systems where potable water contact is required\"",
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks"
+      }
+    },
+    {
+      "metric": "AWWA D100 services",
+      "unit": "n/a",
+      "basis": "\"Potable water, fire water, and municipal water storage (AWWA D100)\"",
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks"
+      }
+    },
+    {
+      "metric": "Roof configurations",
+      "unit": "n/a",
+      "basis": "\"Fixed cone, external floating roof (EFR), and internal floating roof (IFR) configurations engineered to product vapour pressure, site conditions, and environmental requirements\"",
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks"
+      }
+    },
+    {
+      "metric": "Inspection and testing",
+      "unit": "n/a",
+      "basis": "\"Hydrostatic testing, weld inspection, NDE, and third-party verification in accordance with the applicable standard (API 650, API 620, or AWWA D100)\"",
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks"
+      }
     }
   ],
   "url": "https://basiia.com/products/api-650-tanks",
@@ -46,6 +86,13 @@
       "source_id": "geg-basiia-com-api-650-tanks-28cf110"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Tank capacity, diameter and wall-thickness schedule for AWWA D100 tanks",
+      "why": "Page gives standards and features only; linked AWWA-D100.pdf is the standard document, not a sizing table",
+      "next_action": "Request a project-specific tank data sheet if sizes needed"
+    }
+  ]
 }

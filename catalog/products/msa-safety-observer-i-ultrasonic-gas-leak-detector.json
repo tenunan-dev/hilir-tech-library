@@ -28,6 +28,70 @@
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
       "value": 2
+    },
+    {
+      "metric": "Document reference",
+      "unit": "n/a",
+      "basis": "0700-222-EU-EN / 10.2026",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "0700-222-EU-EN / 10.2026"
+    },
+    {
+      "metric": "Observer i sensing technology",
+      "unit": "n/a",
+      "basis": "Technical Guide: Sensor Technologies for Ammonia Detection — ultrasonic gas leak detection section",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Ultrasonic gas leak detection"
+    },
+    {
+      "metric": "UV/IR typical field of view",
+      "unit": "deg",
+      "basis": "Typical 90° - 125° field of view",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "low": 90,
+      "high": 125
+    },
+    {
+      "metric": "UV/IR output signal",
+      "unit": "n/a",
+      "basis": "Independent output notification – typically UV – 12 mA & IR – 8 mA",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "UV – 12 mA & IR – 8 mA"
+    },
+    {
+      "metric": "Optical path monitoring interval",
+      "unit": "minutes",
+      "basis": "Continuous Optical Path Monitoring (COPM) checks optical path integrity every 2 minutes.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "MSIR typical field of view",
+      "unit": "deg",
+      "basis": "Typical 90° field of view",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 90
+    },
+    {
+      "metric": "Sampling points",
+      "unit": "count",
+      "basis": "Maximum 16 points useful for areas requiring sampling at multiple, difficult-to-access locations.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "high": 16
     }
   ],
   "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
@@ -36,6 +100,13 @@
       "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     }
   ],
-  "notes": "Does not indicate gas concentration; used for ammonia synthesis reactors, compressors, exchangers and tank farms.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Does not indicate gas concentration; used for ammonia synthesis reactors, compressors, exchangers and tank farms. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Observer i detection range and sensitivity",
+      "why": "The assigned PDF is a general ammonia-detection sensor guide; it does not print Observer i range, sensitivity or frequency band.",
+      "next_action": "Find the dedicated MSA Observer i datasheet."
+    }
+  ]
 }

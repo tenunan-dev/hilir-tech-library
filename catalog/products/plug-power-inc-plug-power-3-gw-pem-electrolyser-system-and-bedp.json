@@ -27,6 +27,69 @@
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
       "value": 174500
+    },
+    {
+      "metric": "electrolyzer_capacity",
+      "unit": "MW",
+      "basis": "Electrolyzer Capacity: 3,000 MW (project facts)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "BEDP_cost",
+      "unit": "US$ million",
+      "basis": "US$82 million - Basic Engineering Design Package (BEDP) (FEED studies)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 82
+    },
+    {
+      "metric": "solar_capacity",
+      "unit": "MW",
+      "basis": "Solar Energy Capacity: 4,750 MW",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 4750
+    },
+    {
+      "metric": "battery_storage",
+      "unit": "MWh",
+      "basis": "Battery Energy Storage System: 1600 MWh",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 1600
+    },
+    {
+      "metric": "hydrogen_production",
+      "unit": "tonnes/yr",
+      "basis": "Annual (renewables-based) hydrogen production: 174,500 tonnes per annum",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 174500
+    },
+    {
+      "metric": "ammonia_production",
+      "unit": "tonnes/yr",
+      "basis": "Annual (renewables-based) ammonia production: 958,500 tonnes per annum",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 958500
+    },
+    {
+      "metric": "purchase_agreement",
+      "unit": "n/a",
+      "basis": "Project timeline entry",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "January 2025: Plug Power Inc. - Purchase agreement for 3 GW electrolysers and Basic Engineering Design Package (BEDP)"
     }
   ],
   "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
@@ -35,6 +98,13 @@
       "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     }
   ],
-  "notes": "Project development stage; not an installed operating plant.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Project development stage; not an installed operating plant. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "PEM electrolyser stack-level parameters (cell count, current density, specific energy, pressure)",
+      "why": "CSIRO project page reports system-scale capacities only, not electrolyser technical data",
+      "next_action": "Fetch Plug Power 3 GW PEM electrolyser datasheet"
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "catpar-slb-com-gas-treatment-a471dfd",
+  "name": "slb.com",
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Slb.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Gas Treatment overview card: \"Remove solids and liquid from gas containing moderate amounts of liquid, with a removal efficiency of 99.9% down to 10 um\""
+}

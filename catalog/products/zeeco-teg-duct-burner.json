@@ -37,6 +37,38 @@
       },
       "unit": "application",
       "value": "HRSG and Turbine Exhaust Gas (TEG) supplementary firing"
+    },
+    {
+      "metric": "Burner design",
+      "unit": "text",
+      "basis": "Zeeco: 'TEG+ burners use flame stabilizers featuring an optimized drilled wing orifice pattern to create a short, compact flame. The nozzle design features pilot flame propagation drilling and varying orifice sizes throughout the runner'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "Support structure",
+      "unit": "text",
+      "basis": "Zeeco: 'Our self-supporting burners eliminate the need for internal fixed structural support, which can cause binding and overall deformation – dramatically reducing installation time and material costs.'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "text",
+      "basis": "Zeeco: 'supplementary firing for heat recovery steam generators (HRSG), Flue Gas preheat for Selective Catalytic Reduction (SCR), Combined Cycle / Co-Gen, or other air heating applications'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "Register-style option",
+      "unit": "text",
+      "basis": "Zeeco: 'register-style duct burner ... delivers high efficiency and excellent reliability across a wide range of both gaseous and liquid fuels'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
     }
   ],
   "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
@@ -45,6 +77,13 @@
       "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     }
   ],
-  "notes": "Fetched Zeeco Power Burners page directly with WebFetch (markdown). Same page also describes register-style and PDH air heater duct burners.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Zeeco Power Burners page directly with WebFetch (markdown). Same page also describes register-style and PDH air heater duct burners. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "teg+ heat input range, fuel pressure, flame dimensions, emissions",
+      "why": "Power burners landing page gives descriptive text only; the numeric figures on the page refer to other burner models (GB, FREE JET) and were not attributed to teg+",
+      "next_action": "Fetch the dedicated TEG+ Duct Burner data sheet"
+    }
+  ]
 }

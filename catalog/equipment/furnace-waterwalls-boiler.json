@@ -83,6 +83,209 @@
       },
       "unit": "styles",
       "value": "D-type and O-type"
+    },
+    {
+      "metric": "Exhaust gas flow",
+      "unit": "'Exhaust Gas Flows (lb/hr) Up to 1,000,000'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "low": 1000000,
+      "high": "lb/hr"
+    },
+    {
+      "metric": "Steam flow",
+      "unit": "'Steam Generation from 10,000 to 500,000 lb/hr'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 10000,
+      "low": 500000,
+      "high": "lb/hr"
+    },
+    {
+      "metric": "Design pressure",
+      "unit": "psig",
+      "basis": "'Design pressure up to 1,800 psig'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "Steam temperature",
+      "unit": "deg F",
+      "basis": "'Steam temperature to 1,050 deg F'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 1050
+    },
+    {
+      "metric": "Duct firing temperature",
+      "unit": "deg F",
+      "basis": "'fired up to 2800 deg F' / 'Duct Firing Temperature Up to 2,800 deg F'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 2800
+    },
+    {
+      "metric": "Gas turbine size range",
+      "unit": "'Gas Turbine Size 3 MW - 25 MW'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 3,
+      "low": 25,
+      "high": "MW"
+    },
+    {
+      "metric": "Efficiency",
+      "unit": "%",
+      "basis": "'The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Traditional technology efficiency",
+      "unit": "%",
+      "basis": "same comparative statement",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 56
+    },
+    {
+      "metric": "Fuel reduction",
+      "unit": "MMBtu/hr",
+      "basis": "'It reduces up to 7.0 MMBtu/hr of fuel in conventional boilers'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 7.0
+    },
+    {
+      "metric": "CO2 avoidance",
+      "unit": "tons per year",
+      "basis": "'eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 2870
+    },
+    {
+      "metric": "NOx with SCR",
+      "unit": "ppm",
+      "basis": "'Supplemental firing with stack emissions available to less than 2 ppm NOx with SCR'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Models",
+      "unit": "n/a",
+      "basis": "'MF (O-style) and MFA (A-style)' with furnace; 'VL (O-style) and VLA (A-style)' without furnace",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      }
+    },
+    {
+      "metric": "Assembly/circulation",
+      "unit": "n/a",
+      "basis": "'Shop Assembled', 'Natural Circulation', 'Membrane Wall Construction'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      }
+    },
+    {
+      "metric": "CBCW - steam flow range",
+      "unit": "lb/hr",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "low": 10000,
+      "high": 225000
+    },
+    {
+      "metric": "CBCW - steam pressure range",
+      "unit": "psig on steam",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "low": 100,
+      "high": 550
+    },
+    {
+      "metric": "CBCW - steam temperature",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Saturated"
+    },
+    {
+      "metric": "CBCW - NOx emissions",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "<9 ppm (available); <2 ppm with ultra-low NOx burner and SCR"
+    },
+    {
+      "metric": "CBCW - fuels",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Natural Gas, Propane, Digester, #2 Light Oil"
+    },
+    {
+      "metric": "CBCW - assembly",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction"
+    },
+    {
+      "metric": "CBCW - style",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "D-type, O-type; 100% membrane water-cooled furnace, refractory-free"
+    },
+    {
+      "metric": "CBCW - control system",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Cleaver-Brooks Hawk 4500 control"
+    },
+    {
+      "metric": "CBCW - delivery lead-time reduction",
+      "unit": "weeks (up to)",
+      "basis": "Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": 12
     }
   ],
   "vendors": [
@@ -103,7 +306,7 @@
       "source_id": "bw-boiler-cycling"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

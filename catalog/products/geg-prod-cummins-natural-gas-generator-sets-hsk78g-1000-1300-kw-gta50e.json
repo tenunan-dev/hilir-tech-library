@@ -31,6 +31,177 @@
         "url": "https://www.cummins.com/en-na/generators/natural-gas",
         "source_id": "geg-cummins-com-natural-gas-8d24901"
       }
+    },
+    {
+      "metric": "Natural gas genset overall range",
+      "unit": "kW / kVA",
+      "basis": "'These fully integrated generator sets, ranging from 13-2000 kW (16.25-2500 kVA) ...' Cummins natural gas page.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/natural-gas"
+      },
+      "value": "13 - 2000 kW (16.25 - 2500 kVA)"
+    },
+    {
+      "metric": "HSK78G frequency",
+      "unit": "Hz",
+      "basis": "HSK78G product page: 'Frequency 50, 60 Hz'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series",
+        "source_id": "catpar-cummins-com-hsk78g-gas-generator-series-fb795c2"
+      },
+      "value": "50, 60"
+    },
+    {
+      "metric": "HSK78G continuous rating",
+      "unit": "kW",
+      "basis": "HSK78G: Continuous 1550-2000 kW / 1938-2500 kVA; Data Center Continuous 1550 kW / 1938 kVA.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "1550 - 2000",
+      "low": 1550,
+      "high": 2000
+    },
+    {
+      "metric": "HSK78G peak electrical efficiency 50 Hz",
+      "unit": "%",
+      "basis": "'Peak electrical efficiency up to 44.2% (50 Hz) and 43.5% (60 Hz)' - ISO basis; per-model table 43.8/44.3/44.2 (50 Hz) and 43.2/43.6/43.5 (60 Hz).",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": 44.2
+    },
+    {
+      "metric": "HSK78G peak electrical efficiency 60 Hz",
+      "unit": "%",
+      "basis": "As above, HSK78G product highlights.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": 43.5
+    },
+    {
+      "metric": "HSK78G minimum methane number",
+      "unit": "MN",
+      "basis": "'Operates on pipeline natural gas down to 70 methane number (MN) at rated load'; 'High power density down to 40MN fuels'; table min MN 55/60/70 per model. Conflicting variants preserved.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "70 (pipeline NG at rated load); down to 40 MN high power density; table 55/60/70"
+    },
+    {
+      "metric": "HSK78G NOx emissions",
+      "unit": "mg/Nm3",
+      "basis": "'NOx emissions as low as 250 mg/Nm3 (0.5 g/hp-hr) without aftertreatment'; table NOx 250-500 mg/Nm3 (50 Hz) / 0.5-1.0 (60 Hz).",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "250 (0.5 g/hp-hr)"
+    },
+    {
+      "metric": "HSK78G thermal efficiency CHP",
+      "unit": "%",
+      "basis": "'Thermal efficiency up to 47.1% for CHP/cogeneration applications'; table usable heat 1740/1901/2077 kW (50 Hz), 1752/1912/2088 kW (60 Hz).",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": 47.1
+    },
+    {
+      "metric": "HSK78G overhaul interval",
+      "unit": "hours",
+      "basis": "'Industry-leading overhaul intervals up to 80,000 hours' / 'Industry's longest major overhaul service cycle of 80,000 hours'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": 80000
+    },
+    {
+      "metric": "HSK78G ambient capability",
+      "unit": "deg C",
+      "basis": "'Up to 55 C (131 F) ambient capability with high-ambient turbo option'; 'Full power capability up to 40 C (104 F) with standard turbo ... up to blistering 55 C (131 F) with high ambient turbo'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "40 C standard / 55 C high-ambient turbo"
+    },
+    {
+      "metric": "HSK78G dimensions 50 Hz",
+      "unit": "m (L x W x H)",
+      "basis": "HSK78G specifications table (C1600N5CD/C1800N5CD/C2000N5CD): 'Dimensions (m) (L X W X H) 6.9 x 2.2 x 2.8'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "6.9 x 2.2 x 2.8"
+    },
+    {
+      "metric": "HSK78G dimensions 60 Hz",
+      "unit": "m (L x W x H)",
+      "basis": "HSK78G specifications table (C1600N6CD/C1800N6CD/C2000N6CD): 'Dimensions (m) (L X W X H) 7.6 x 2.1 x 2.8'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "7.6 x 2.1 x 2.8"
+    },
+    {
+      "metric": "HSK78G temperature rise",
+      "unit": "deg C",
+      "basis": "HSK78G specifications table: 'Temperature Rise (Deg. C) 80 - 105'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "80 - 105"
+    },
+    {
+      "metric": "1000/1300 kW QSK60G standby rating",
+      "unit": "kW",
+      "basis": "1000 kW and 1300 kW Natural Gas Gensets: Standby 1000-1300 kW / 1250-1625 kVA; Continuous 1100-1540 kW / 1375-1925 kVA; 50/60 Hz.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets",
+        "source_id": "catpar-cummins-com-1000kw-and-1300kw-natural-gas-ge-48dbc69"
+      },
+      "value": "1000 - 1300",
+      "low": 1000,
+      "high": 1300
+    },
+    {
+      "metric": "QSK60G start time",
+      "unit": "seconds",
+      "basis": "'Gensets meet 10-second start with UL2200 and CSA22.2 listings.'",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
+      },
+      "value": 10
+    },
+    {
+      "metric": "QSK60G cooling capability",
+      "unit": "deg C",
+      "basis": "'Cooling capability up to 45C (Radiator)' and 'NFPA 110 type 10 capable; Single step load acceptance'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
+      },
+      "value": 45
+    },
+    {
+      "metric": "GTA50e standby rating",
+      "unit": "kW (750-937 kVA)",
+      "basis": "GTA50e: 'Frequency 60 Hz; Standby 600-750 kW / 750-937 kVA'; models C600N6 600/750, C650N6 650/813, C750N6 750/937.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/gta50e",
+        "source_id": "catpar-cummins-com-gta50e-005dc86"
+      },
+      "value": "600 - 750",
+      "low": 600,
+      "high": 750
+    },
+    {
+      "metric": "GTA50e load acceptance",
+      "unit": "n/a",
+      "basis": "GTA50e product highlights; 'Capable of meeting NFPA 110 Type 10 ...' EPA SI NSPS Certified, UL 2200, CSA 22.2 No. 100.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/gta50e"
+      },
+      "value": "Accepts 100% rated load in a single step"
     }
   ],
   "url": "https://www.cummins.com/en-na/generators/natural-gas",
@@ -38,8 +209,17 @@
     {
       "url": "https://www.cummins.com/en-na/generators/natural-gas",
       "source_id": "geg-cummins-com-natural-gas-8d24901"
+    },
+    {
+      "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+    },
+    {
+      "url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
+    },
+    {
+      "url": "https://www.cummins.com/en-na/generators/products/gta50e"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 18 new printed parameters."
 }

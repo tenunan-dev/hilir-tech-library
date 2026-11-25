@@ -58,6 +58,52 @@
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "value": "Horizontal, wellhead vertical, and tubing head spool vertical trees"
+    },
+    {
+      "metric": "temperature_range",
+      "unit": "degC",
+      "basis": "We design trees that can work in extreme temperature ranging from minus 18 degrees Celsius to plus 176 degrees Celsius",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
+      },
+      "low": -18,
+      "high": 176
+    },
+    {
+      "metric": "pressure_rating",
+      "unit": "psi",
+      "basis": "and at pressures of up to 15,000 pounds per square inch, or more than 1,000 bar",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "pressure_rating_bar",
+      "unit": "bar",
+      "basis": "more than 1,000 bar",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
+      },
+      "low": 1000
+    },
+    {
+      "metric": "tree_types",
+      "unit": "n/a",
+      "basis": "Product page bullet list",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
+      },
+      "value": "Horizontal, wellhead vertical, and tubing head spool vertical trees offered"
+    },
+    {
+      "metric": "production_bore",
+      "unit": "in",
+      "basis": "Full deep-water capability and 7-inch production bore size for wellhead vertical trees",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
+      },
+      "value": 7
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
@@ -66,6 +112,6 @@
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     }
   ],
-  "notes": "A 'Standard Vertical Subsea Trees' brochure URL was found in search but the PDF was not fetched; no figures from that brochure are asserted.",
-  "last_reviewed": "2026-11-24"
+  "notes": "A 'Standard Vertical Subsea Trees' brochure URL was found in search but the PDF was not fetched; no figures from that brochure are asserted. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

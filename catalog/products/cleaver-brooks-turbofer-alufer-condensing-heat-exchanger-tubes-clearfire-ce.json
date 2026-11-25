@@ -27,6 +27,106 @@
       },
       "unit": "times greater than stainless steel alone",
       "value": 10
+    },
+    {
+      "metric": "ClearFire-CE - number of models",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 11
+    },
+    {
+      "metric": "ClearFire-CE - input capacity",
+      "unit": "MBH",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "low": 500,
+      "high": 6000
+    },
+    {
+      "metric": "ClearFire-CE - AHRI combustion efficiency",
+      "unit": "%",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 94.7
+    },
+    {
+      "metric": "ClearFire-CE - AHRI thermal efficiency",
+      "unit": "%",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 96
+    },
+    {
+      "metric": "ClearFire-CE - design temperature",
+      "unit": "degF",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 210
+    },
+    {
+      "metric": "ClearFire-CE - NOx emissions",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": "<20 ppm standard; sub 7 ppm available"
+    },
+    {
+      "metric": "ClearFire-CE - turndown",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": "10:1 fully modulating"
+    },
+    {
+      "metric": "ClearFire-CE - number of passes",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 1
+    },
+    {
+      "metric": "ClearFire-CE - vessel design / fluid",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": "Firetube; Hot Water"
+    },
+    {
+      "metric": "ClearFire-CE - fuels",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": "Natural Gas, Propane, Combination firing"
+    },
+    {
+      "metric": "ClearFire-CE - heat exchanger technology",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": "Patented TurboFer heat exchanger with integrated Ember controls; fully condensing high-mass design"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cfce",
@@ -35,6 +135,13 @@
       "url": "https://cleaverbrooks.com/product/cfce"
     }
   ],
-  "notes": "Fetched ClearFire-CE product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched ClearFire-CE product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "AluFer heat exchanger tube parameters",
+      "why": "The assigned ClearFire-CE page names TurboFer technology; no separate AluFer tube parameter table is printed on the page",
+      "next_action": "Fetch a dedicated AluFer/TurboFer heat exchanger tube datasheet if tube-specific parameters are required"
+    }
+  ]
 }

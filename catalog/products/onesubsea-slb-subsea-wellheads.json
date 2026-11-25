@@ -17,6 +17,42 @@
         "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
       },
       "value": "API 6A, 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 F3/D/C1"
+    },
+    {
+      "metric": "Subsea wellheads - water depth suitability",
+      "unit": "n/a",
+      "basis": "OneSubsea 'Subsea wellheads' product page; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "value": "All water depths"
+    },
+    {
+      "metric": "Subsea wellheads - conditions",
+      "unit": "n/a",
+      "basis": "OneSubsea 'Subsea wellheads' product page; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "value": "Suitable for exploration and production in extreme conditions"
+    },
+    {
+      "metric": "Subsea wellheads - function",
+      "unit": "n/a",
+      "basis": "OneSubsea 'Subsea wellheads' product page; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "value": "Primary pressure barrier; anchor and suspension point and seal element for casing strings; safety barrier for use with BOPs and subsea trees"
+    },
+    {
+      "metric": "Subsea wellheads - compatibility",
+      "unit": "n/a",
+      "basis": "OneSubsea 'Subsea wellheads' product page; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "value": "Compatible with vertical or horizontal trees, blowout preventers, workover systems and downhole well casings"
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
@@ -25,6 +61,6 @@
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     }
   ],
-  "notes": "Primary pressure barrier; compatible with vertical/horizontal trees and BOPs.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Primary pressure barrier; compatible with vertical/horizontal trees and BOPs. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

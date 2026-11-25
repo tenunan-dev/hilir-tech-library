@@ -60,6 +60,88 @@
         "source_id": "cra-energy-product-knockout-drums"
       },
       "value": ">800 in >25 countries since 1993"
+    },
+    {
+      "metric": "function",
+      "unit": "n/a",
+      "basis": "Overview table: Function - Liquid-gas separation",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums"
+      },
+      "value": "Liquid-gas separation"
+    },
+    {
+      "metric": "application",
+      "unit": "n/a",
+      "basis": "Overview table: Application - Upstream of flare stack",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums"
+      },
+      "value": "Upstream of flare stack"
+    },
+    {
+      "metric": "duty",
+      "unit": "n/a",
+      "basis": "Overview table: Duty - Emergency relief & blowdown",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums"
+      },
+      "value": "Emergency relief & blowdown"
+    },
+    {
+      "metric": "standard_sizes",
+      "unit": "n/a",
+      "basis": "Each knock-out drum is sized from actual process data rather than generic templates; technical datasheet downloads present on page but no size table printed",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums"
+      },
+      "value": "no printed sizes"
+    },
+    {
+      "metric": "volume_range",
+      "unit": "BBL",
+      "basis": "we have designed and manufactured Flare Knockout Drums from small 2 Barrels (BBL) to large 600BBL volumes",
+      "source": {
+        "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
+      },
+      "low": 2,
+      "high": 600
+    },
+    {
+      "metric": "configuration_options",
+      "unit": "n/a",
+      "basis": "Our knockouts can be produced complete with ... (printed list)",
+      "source": {
+        "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
+      },
+      "value": "fully enclosed heated buildings, partially enclosed heated buildings, heated enclosures between the saddles, or heat traced and insulated"
+    },
+    {
+      "metric": "quality_certification",
+      "unit": "n/a",
+      "basis": "Certifications: Certified Company ISO 9001:2008",
+      "source": {
+        "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
+      },
+      "value": "ISO 9001:2008"
+    },
+    {
+      "metric": "high_pressure_operation",
+      "unit": "n/a",
+      "basis": "Benefit bullet: improve separation effectiveness at very high operating pressures (no numeric value printed)",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
+      },
+      "value": "improve separation effectiveness at very high operating pressures"
+    },
+    {
+      "metric": "vessel_size_weight_reduction",
+      "unit": "n/a",
+      "basis": "Benefit bullet (qualitative; no numeric value printed)",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
+      },
+      "value": "enable reductions in pressure vessel size and weight, and hence required floor space"
     }
   ],
   "vendors": [
@@ -79,5 +161,5 @@
     "Safely dispose of relief/blowdown/start-up gas by controlled combustion; knock out entrained liquid upstream to prevent flaming rain; recover gas where feasible"
   ],
   "notes": "Page-read evidence from the 2026-11-24 topside-process.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

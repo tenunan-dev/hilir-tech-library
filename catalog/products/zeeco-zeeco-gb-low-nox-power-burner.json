@@ -47,14 +47,81 @@
       },
       "unit": "applicability",
       "value": "Package, industrial, utility, fluidized bed, stoker"
+    },
+    {
+      "metric": "Heat input",
+      "unit": "MMBtu/hr per burner",
+      "basis": "GB burners can be designed with heat inputs in excess of 360 MMBtu/hr per burner",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "high": 360
+    },
+    {
+      "metric": "Fuel flexibility",
+      "unit": "n/a",
+      "basis": "natural gas, #6/#2 fuel oils, to low-Btu gases (blast ...)",
+      "source": {
+        "url": "https://www.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/GB-Low-NOx-Power-Burner-RGB.pdf?hsLang=en",
+        "source_id": "catpar-zeeco-com-gb-low-nox-power-burner-rgb-pdf-0dda622"
+      },
+      "value": "natural gas, #6/#2 fuel oils, to low-Btu gases (blast furnace gas)"
+    },
+    {
+      "metric": "Application",
+      "unit": "n/a",
+      "basis": "The ZEECO GB low-NOx burner is used for boiler applications.",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": "boiler applications"
+    },
+    {
+      "metric": "Retrofit",
+      "unit": "n/a",
+      "basis": "Retrofit boiler applications: The GB burner installation can be recognized with little to no pressure part modifications",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": "The GB burner installation can be recognized with little to no pressure part modifications"
+    },
+    {
+      "metric": "Turndown",
+      "unit": ":1",
+      "basis": "High turndown of 20:1 on a per burner basis",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "high": 20
+    },
+    {
+      "metric": "Tip exposure",
+      "unit": "inch",
+      "basis": "Low maintenance cost since tip mass is small and exposed into firebox less than 1\" (25 mm)",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "high": 1
+    },
+    {
+      "metric": "Quality system",
+      "unit": "n/a",
+      "basis": "ISO 9001: 2015; Zeeco's ISO 9001 accredited quality management system",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": "ISO 9001: 2015 / ISO 9001 accredited"
     }
   ],
   "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",
   "sources": [
     {
       "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+    },
+    {
+      "url": "https://www.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/GB-Low-NOx-Power-Burner-RGB.pdf?hsLang=en"
     }
   ],
-  "notes": "Fetched Zeeco Power Burners page directly with WebFetch (markdown); linked GB PDF brochure not opened.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Zeeco Power Burners page directly with WebFetch (markdown); linked GB PDF brochure not opened. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

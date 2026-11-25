@@ -50,6 +50,92 @@
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
       }
+    },
+    {
+      "metric": "Nominal frequency",
+      "unit": "Hz",
+      "basis": "'AC alternating current (nominally 50 Hz)' in glossary",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "CDGU threshold synchronous",
+      "unit": "MW",
+      "basis": "'generating unit equal to or greater than 30MW if it is a synchronous unit'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 30
+    },
+    {
+      "metric": "CDGU threshold power park",
+      "unit": "MW",
+      "basis": "'total on-site generation capacity equal to or greater than 5 MW'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Distribution network voltage ceiling",
+      "unit": "kV",
+      "basis": "'Distribution Network The system operating at a nominal phase voltage of 33 kV or below'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 33
+    },
+    {
+      "metric": "Time basis",
+      "unit": "hours offset",
+      "basis": "'Malaysian Standard Time (UTC/GMT + 8 hours)'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 8
+    },
+    {
+      "metric": "Grid Code document sections",
+      "unit": "n/a",
+      "basis": "'General Conditions; Planning Code; Connection Conditions; Operating Codes Nos. 1 to 11; Scheduling and Dispatch Codes Nos. 1 to 3; Metering Code'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Metering Code appendix",
+      "unit": "n/a",
+      "basis": "'Metering Code Appendix 1 – Type and Accuracy of Revenue Metering Installations'; 'Metering Code Appendix 2 - Commissioning, Inspection, Calibration and Testing Requirements'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Single Buyer function",
+      "unit": "n/a",
+      "basis": "'The Single Buyer is a department in SESB that is responsible for overseeing the commercial arrangements entered into with the IPPs'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Grid System Operator function",
+      "unit": "n/a",
+      "basis": "'GSO is the person inSESB responsible for the overall coordination of the operation, maintenance and control of the interconnected Grid System'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Document page count",
+      "unit": "pages",
+      "basis": "PDF metadata: Number of Pages 224",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 224
     }
   ],
   "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
@@ -59,6 +145,13 @@
       "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Metering accuracy classes, data collection intervals and billing formulas",
+      "why": "Only the preamble/contents and early glossary pages were read from the 224-page PDF",
+      "next_action": "Read Metering Code chapters MC4-MC9 and Appendix 1 in the full PDF"
+    }
+  ]
 }

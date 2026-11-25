@@ -27,6 +27,96 @@
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
       "value": 192
+    },
+    {
+      "metric": "Global FPV application",
+      "unit": "GW",
+      "basis": "With Over 4GW of Floating PV Application, We Set the Standard. >4GW Global Application",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": ">4"
+    },
+    {
+      "metric": "Patents",
+      "unit": "+",
+      "basis": "290+ Patents",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 290
+    },
+    {
+      "metric": "Global market share",
+      "unit": "n/a",
+      "basis": "NO.1 Global Market Share",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": "NO.1"
+    },
+    {
+      "metric": "Reference capacity - Indonesia",
+      "unit": "MW",
+      "basis": "Cases & Stories: Capacity 192 MW, Location Indonesia, Application Scenario Reservoir",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 192
+    },
+    {
+      "metric": "Reference capacity - Anhui coal mines",
+      "unit": "MW",
+      "basis": "Major 200MW Floating Solar Plant Launched on Anhui's Former Coal Mines; Capacity 200 MW",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Reference capacity - Philippines",
+      "unit": "MW",
+      "basis": "Philippines' First Megawatt-Scale Floating Solar Plant; Capacity 4.99 MW",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 4.99
+    },
+    {
+      "metric": "Reference capacity - France",
+      "unit": "MW",
+      "basis": "Capacity 5 MW, Location France, Application Scenario Reservoir",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Products",
+      "unit": "n/a",
+      "basis": "Products for Utility Scale list",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": "Truss Structure Product TS30M; Pontoon Product PT60; Floating Barge"
+    },
+    {
+      "metric": "Service network",
+      "unit": "n/a",
+      "basis": "Global Excellence In Service figures",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": "400+ Authorized Distributors; 520+ Service Outlets; 1000+ Technical Experts; 110,000 m2 warehouse total area"
+    },
+    {
+      "metric": "Deep-water claim",
+      "unit": "n/a",
+      "basis": "Breaking the 100-Meter Barrier: Floating Solar in Ultra Deep Water",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": "Breaking the 100-Meter Barrier: Floating Solar in Ultra Deep Water"
     }
   ],
   "url": "https://www.sungrowpower.com/en/floating-pv-system",
@@ -35,6 +125,6 @@
       "url": "https://www.sungrowpower.com/en/floating-pv-system"
     }
   ],
-  "notes": "Truss, pontoon and barge structures",
-  "last_reviewed": "2026-11-24"
+  "notes": "Truss, pontoon and barge structures Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

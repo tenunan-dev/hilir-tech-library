@@ -162,6 +162,101 @@
         "source_id": "cat-slb-com-3-phase-separator"
       },
       "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments"
+    },
+    {
+      "metric": "Service and mounting",
+      "unit": "n/a",
+      "basis": "\"Skid-mounted or trailer-integrated designs\"; \"Sweet or sour service rated\"; \"On-skid piping and instrumentation\"; \"Dedicated measurement for gas, oil, and water\"; \"Electronic flowmeter (EFM) for accurate real-time reporting capability\"",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
+      }
+    },
+    {
+      "metric": "Publication date",
+      "unit": "n/a",
+      "basis": "SLB product detail page 'Published: 10/22/2022'",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
+      }
+    },
+    {
+      "metric": "Vessel orientation / service",
+      "unit": "text",
+      "basis": "SLB Cameron: 'Horizontal or vertical orientation of vessels'; 'Sweet or sour service rated'; 'Skid-mounted or trailer-integrated designs'",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
+      }
+    },
+    {
+      "metric": "Separated streams / measurement",
+      "unit": "text",
+      "basis": "SLB Cameron: 'separate oil, water, gas, and sometimes solids (sand) into individual streams for more accurate measurement and discharge control'; 'Dedicated measurement for gas, oil, and water'; 'Electronic flowmeter (EFM)'",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
+      }
+    },
+    {
+      "metric": "Function",
+      "unit": "n/a",
+      "basis": "Separate well effluent into three phases—oil, gas, and water—for well testing",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "Separates well effluent into three phases—oil, gas, and water—for well testing"
+    },
+    {
+      "metric": "Vessel type",
+      "unit": "n/a",
+      "basis": "The 3-phase separator is an instrumented vessel that separates well effluent into three phases",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "instrumented vessel"
+    },
+    {
+      "metric": "Development application",
+      "unit": "n/a",
+      "basis": "It was developed for land fracturing flowback and well test operations",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "land fracturing flowback and well test operations"
+    },
+    {
+      "metric": "Design code",
+      "unit": "n/a",
+      "basis": "built in compliance with ASME Section VIII, Division 1 and NACE MR0175 for H2S environments",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "ASME Section VIII, Division 1"
+    },
+    {
+      "metric": "Sour service",
+      "unit": "n/a",
+      "basis": "NACE MR0175 for H2S environments",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "NACE MR0175 for H2S environments"
+    },
+    {
+      "metric": "Safety",
+      "unit": "n/a",
+      "basis": "Multiple pressure safety valves contain and direct flow to a designed safe area in the event of vessel overpressurization",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "Multiple pressure safety valves contain and direct flow to a designed safe area on overpressurization"
+    },
+    {
+      "metric": "Bypass valves",
+      "unit": "n/a",
+      "basis": "Bypass valves, a unique offering from M-I SWACO in a three-phase separator unit, enable operators to move effluent into containment areas for maintenance without shutting in the well",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "unique offering from M-I SWACO in a three-phase separator unit"
     }
   ],
   "vendors": [
@@ -183,5 +278,5 @@
     "Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection."
   ],
   "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

@@ -64,6 +64,51 @@
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
         "source_id": "geg-cidb-gov-my-7ada474"
       }
+    },
+    {
+      "metric": "Act enactment year",
+      "unit": "year",
+      "basis": "'Akta 520 adalah satu tindakan untuk membentuk Lembaga Pembangunan Industri Pembinaan Malaysia (CIDB) pada tahun 1994'",
+      "source": {
+        "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
+      },
+      "value": 1994
+    },
+    {
+      "metric": "Principal matters",
+      "unit": "matters",
+      "basis": "'Akta 520 melibatkan tiga perkara utama' (quality via registration; material standards; safety responsibility)",
+      "source": {
+        "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
+      },
+      "value": 3
+    },
+    {
+      "metric": "SKKP certification standard",
+      "unit": "n/a",
+      "basis": "'SKKP CIDB Diiktiraf Di Bawah ISO/IEC 17024:2012'",
+      "source": {
+        "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
+      }
+    },
+    {
+      "metric": "Construction action plan period",
+      "unit": "'Pelan Tindakan Pembinaan 2026-2030 (CAP30)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
+      },
+      "value": 2026,
+      "low": 2030,
+      "high": "years"
+    },
+    {
+      "metric": "Act PDF editions listed",
+      "unit": "n/a",
+      "basis": "2020 (Act 520 as at 1 October 2015); 2021 (Pindaan Jadual Keempat); 2024 (Amendment of Third Schedule); 2026 (Pua 277.2026)",
+      "source": {
+        "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
+      }
     }
   ],
   "vendor_models": [
@@ -101,5 +146,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

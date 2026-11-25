@@ -113,6 +113,34 @@
         "source_id": "casale-ch-ammonia"
       },
       "value": 3500
+    },
+    {
+      "metric": "HyPURE-N - energy consumption",
+      "unit": "Gcal/MT LHV basis (including utilities and final CO2 compression at Battery Limits)",
+      "basis": "Casale 'Technologies > Ammonia' page, HyPURE-N(TM) 'Performance' section (casale.ch); no print date stated; page footer (c) 2024 Casale SA",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/"
+      },
+      "low": 7.4,
+      "high": 7.6
+    },
+    {
+      "metric": "HyPURE-N - CO2 recovery",
+      "unit": "% (as high as)",
+      "basis": "Casale 'Technologies > Ammonia' page, HyPURE-N(TM) 'Performance' section (casale.ch); no print date stated; page footer (c) 2024 Casale SA",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/"
+      },
+      "value": 99
+    },
+    {
+      "metric": "HyPURE-N - capacity",
+      "unit": "n/a",
+      "basis": "Casale 'Technologies > Ammonia' page, HyPURE-N(TM) 'Performance' section (casale.ch); no print date stated; page footer (c) 2024 Casale SA",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/"
+      },
+      "value": "Best suited from 3,500 MTD and above; can be applied for lower capacities"
     }
   ],
   "vendors": [
@@ -150,5 +178,5 @@
     }
   ],
   "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

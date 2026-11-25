@@ -230,6 +230,257 @@
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
       "value": 12800
+    },
+    {
+      "metric": "Recommended oil flow",
+      "unit": "L/min",
+      "basis": "6000W card: \"Recommended oil flow 12800 L/min\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 12800
+    },
+    {
+      "metric": "Average operating pressure",
+      "unit": "bar",
+      "basis": "6000W card: \"Average operating pressure 210 bar\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 210
+    },
+    {
+      "metric": "Blow rate at recommended oil flow",
+      "unit": "bl/min",
+      "basis": "6000W card: \"Blow rate at recommended oil flow 30 bl/min\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Weight above water (5 m foot)",
+      "unit": "t",
+      "basis": "6000W most-popular specifications table: \"MHU6000W - 5 m Foot: Weight above 700 t\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 700
+    },
+    {
+      "metric": "Weight above / submerged (5 m, 8-9 m OD UW)",
+      "unit": "t",
+      "basis": "6000W table: \"MHU6000W - 5 m: 8 - 9 m OD UW: 1319 t above / 1020 t submerged; Supporting R\" (renewables)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      }
+    },
+    {
+      "metric": "Wind turbine foundations driven (range)",
+      "unit": "foundations (2500+)",
+      "basis": "Page counter: \"2500+ Wind turbine foundations driven\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 2500
+    },
+    {
+      "metric": "Displacement (heavy lift)",
+      "unit": "t",
+      "basis": "Wikipedia infobox: \"Displacement 172,000 t (169,000 long tons) (heavy lift)\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 172000
+    },
+    {
+      "metric": "Length overall",
+      "unit": "m",
+      "basis": "Wikipedia infobox: \"Length 198 m (649 ft 7 in) (overall)\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 198
+    },
+    {
+      "metric": "Beam",
+      "unit": "m",
+      "basis": "Wikipedia infobox: \"Beam 87 m (285 ft 5 in)\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 87
+    },
+    {
+      "metric": "Height keel to deck",
+      "unit": "m",
+      "basis": "Wikipedia infobox: \"Height 43.5 m (142 ft 9 in) (keel to deck)\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 43.5
+    },
+    {
+      "metric": "Installed power",
+      "unit": "kW (94,000 hp)",
+      "basis": "Wikipedia infobox: \"Installed power 70,000 kW (94,000 hp)\"; power upgraded in 1999/2000 refit",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 70000
+    },
+    {
+      "metric": "Propulsion thrusters",
+      "unit": "thrusters",
+      "basis": "Wikipedia infobox: \"Propulsion 12 thrusters\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Speed",
+      "unit": "knots",
+      "basis": "Wikipedia infobox: \"Speed 9.5 knots (17.6 km/h; 10.9 mph)\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 9.5
+    },
+    {
+      "metric": "Crane main hook capacity",
+      "unit": "t at 40 m radius (each crane)",
+      "basis": "\"Each crane is capable of lifting up to 7,000 tonnes at 40 m lift radius using the main hook\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 7000
+    },
+    {
+      "metric": "Tandem lift capacity",
+      "unit": "t",
+      "basis": "\"The two cranes are capable of a tandem lift of 14,000 tonnes\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 14000
+    },
+    {
+      "metric": "J-lay pipe diameter",
+      "unit": "in",
+      "basis": "\"The J-lay tower can lay pipe from 4\" to 32\" diameter\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "low": 4,
+      "high": 32
+    },
+    {
+      "metric": "J-lay tension",
+      "unit": "tonnes",
+      "basis": "\"with a tension of up to 525 tonnes (5.15 MN) using the tensioners and up to 2,000 tonnes (20 MN) when using friction clamps\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      }
+    },
+    {
+      "metric": "World offshore lifting record",
+      "unit": "tons (Sabratha deck)",
+      "basis": "\"The Saipem 7000 set the world offshore lifting record of 12,150 tons for the Sabratha deck\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 12150
+    },
+    {
+      "metric": "Crew",
+      "unit": "persons (up to)",
+      "basis": "Wikipedia infobox: \"Crew Up to 700 persons\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 700
+    },
+    {
+      "metric": "S-series - max blow energy by model",
+      "unit": "n/a",
+      "basis": "IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
+      },
+      "value": "S-30:30, S-90:90, S-150:150, S-280:280, S-350:350, S-500:500, S-800:800, S-1400:1400, S-2000:2000"
+    },
+    {
+      "metric": "S-series - min blow energy by model",
+      "unit": "n/a",
+      "basis": "IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
+      },
+      "value": "S-30:3, S-90:9, S-150:15, S-280:31, S-350:39, S-500:50, S-800:88, S-1400:154, S-2000:220"
+    },
+    {
+      "metric": "S-series - blowrate by model",
+      "unit": "n/a",
+      "basis": "IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
+      },
+      "value": "S-30:65, S-90:46, S-150:44, S-280:45, S-350:40, S-500:45, S-800:45, S-1400:35, S-2000:35"
+    },
+    {
+      "metric": "S-series - weight of ram by model",
+      "unit": "n/a",
+      "basis": "IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
+      },
+      "value": "S-30:1.5, S-90:4.5, S-150:7.5, S-280:14, S-350:18, S-500:25, S-800:40, S-1400:70, S-2000:100"
+    },
+    {
+      "metric": "S-series - weight of hammer by model",
+      "unit": "n/a",
+      "basis": "IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
+      },
+      "value": "S-30:4, S-90:10, S-150:16.5, S-280:31, S-350:36, S-500:60, S-800:85, S-1400:150, S-2000:230"
+    },
+    {
+      "metric": "S-series - length of hammer by model",
+      "unit": "n/a",
+      "basis": "IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
+      },
+      "value": "S-30:6100, S-90:8168, S-150:8986, S-280:10390, S-350:11384, S-500:11943, S-800:14535, S-1400:14945, S-2000:17370"
+    },
+    {
+      "metric": "S-series - oil flow by model",
+      "unit": "n/a",
+      "basis": "IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
+      },
+      "value": "S-30:175, S-90:250, S-150:460, S-280:700, S-350:700, S-500:1600, S-800:2200, S-1400:3300, S-2000:4400"
+    },
+    {
+      "metric": "S-series - preferred power pack type",
+      "unit": "n/a",
+      "basis": "IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
+      },
+      "value": "S-30/S-90: P 250; S-150: P 460; S-280/S-350: P 700; S-500 to S-2000: O.R."
+    },
+    {
+      "metric": "S-series - minimum energy setting",
+      "unit": "n/a",
+      "basis": "IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
+      },
+      "value": "Standard minimum ~10% of maximum energy; high frequency/low energy mode can reduce to 2-5%"
     }
   ],
   "vendors": [
@@ -260,5 +511,5 @@
     "Drive tubular piles/conductors/monopiles to target penetration using controlled high-energy blows; hydraulic double-acting hammers give higher frequency and con"
   ],
   "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

@@ -17,6 +17,106 @@
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
       "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and operating costs"
+    },
+    {
+      "metric": "Blow energy range",
+      "unit": "kJ (up to more than 7,500)",
+      "basis": "The Hydrohammer® range includes solutions from 30 kJ up to more than 7,500 kJ of blow energy",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "low": 30,
+      "high": 7500
+    },
+    {
+      "metric": "IQ8 blow energy",
+      "unit": "kJ",
+      "basis": "IQ8, the strongest hydraulic impact hammer in the world, with a blow energy exceeding 7,500 kJ",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": "exceeding 7,500"
+    },
+    {
+      "metric": "Continuous energy capacity",
+      "unit": "%",
+      "basis": "drive piles with 100% energy capacity",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Boost power",
+      "unit": "%",
+      "basis": "Unleash up to 120% power for challenging conditions",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": 120
+    },
+    {
+      "metric": "SW-series water depth",
+      "unit": "m",
+      "basis": "engineered for depths of up to 2000 meters",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Piles installed",
+      "unit": "n/a",
+      "basis": "INSTALLED OVER 5,5 Million piles globally",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": "5.5 Million"
+    },
+    {
+      "metric": "Experience",
+      "unit": "Years",
+      "basis": "INDUSTRY EXPERIENCE 40+ Years",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": "40+"
+    },
+    {
+      "metric": "Countries active",
+      "unit": "n/a",
+      "basis": "ACTIVE IN 50+ Countries",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": "50+"
+    },
+    {
+      "metric": "Operational availability",
+      "unit": "%",
+      "basis": "high operational availability (>97%)",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": ">97"
+    },
+    {
+      "metric": "PULSE function",
+      "unit": "n/a",
+      "basis": "PULSE® technology, which extends the hammer impact duration to reduce underwater noise, pile fatigue, and environmental disturbance",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and environmental disturbance"
+    },
+    {
+      "metric": "Series",
+      "unit": "n/a",
+      "basis": "product family includes the IQ-series, S-series, and SW-series",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": "IQ-series, S-series, SW-series"
     }
   ],
   "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
@@ -25,6 +125,6 @@
       "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

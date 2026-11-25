@@ -27,6 +27,60 @@
         "source_id": "layher-com-products-allroundscaffolding"
       },
       "value": "Z-8.22-64 / Z-8.22-939 / EN 12811"
+    },
+    {
+      "metric": "Allround Scaffolding - system introduction",
+      "unit": "n/a",
+      "basis": "Layher 'Allround Scaffolding' product page (layher.com); no print date stated",
+      "source": {
+        "url": "https://www.layher.com/en/products/allroundscaffolding"
+      },
+      "value": "Launched 1974; original system continuously developed"
+    },
+    {
+      "metric": "Allround Scaffolding - connector capacity",
+      "unit": "n/a",
+      "basis": "Layher 'Allround Scaffolding' product page (layher.com); no print date stated",
+      "source": {
+        "url": "https://www.layher.com/en/products/allroundscaffolding"
+      },
+      "value": "Up to eight connections in one Allround Connector, on one level and at various angles"
+    },
+    {
+      "metric": "Allround Scaffolding - connection types",
+      "unit": "n/a",
+      "basis": "Layher 'Allround Scaffolding' product page (layher.com); no print date stated",
+      "source": {
+        "url": "https://www.layher.com/en/products/allroundscaffolding"
+      },
+      "value": "Positive and non-positive connections with AutoLock function; automatically right-angled, obtuse- and acute-angled"
+    },
+    {
+      "metric": "Allround Scaffolding - materials",
+      "unit": "n/a",
+      "basis": "Layher 'Allround Scaffolding' product page (layher.com); no print date stated",
+      "source": {
+        "url": "https://www.layher.com/en/products/allroundscaffolding"
+      },
+      "value": "Steel or aluminium"
+    },
+    {
+      "metric": "Allround Scaffolding - standard",
+      "unit": "n/a",
+      "basis": "Layher 'Allround Scaffolding' product page (layher.com); no print date stated",
+      "source": {
+        "url": "https://www.layher.com/en/products/allroundscaffolding"
+      },
+      "value": "One standard for supported and suspended scaffolding with integrated spigots"
+    },
+    {
+      "metric": "Allround Scaffolding - listed system variants",
+      "unit": "n/a",
+      "basis": "Layher 'Allround Scaffolding' product page (layher.com); no print date stated",
+      "source": {
+        "url": "https://www.layher.com/en/products/allroundscaffolding"
+      },
+      "value": "Allround Scaffolding Lightweight Z-8.22-939; Allround Scaffolding Aluminium Z-8.22-26.1"
     }
   ],
   "url": "https://www.layher.com/en/products/allroundscaffolding",
@@ -35,6 +89,6 @@
       "url": "https://www.layher.com/en/products/allroundscaffolding"
     }
   ],
-  "notes": "Page read",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

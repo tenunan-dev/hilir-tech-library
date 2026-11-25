@@ -63,6 +63,160 @@
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
         "source_id": "geg-r-jina-ai-k-series-html-955b0f5"
       }
+    },
+    {
+      "metric": "G3512K continuous rating (web page, 1.0 pf)",
+      "unit": "ekW @ 1.0pf",
+      "basis": "Cat K-series page product card: 'Continuous Rating 1530 ekW @ 1.0pf ... Maximum Electrical Efficiency 45.3%'. No print date on page.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 1530
+    },
+    {
+      "metric": "G3520K continuous rating (web page, 1.0 pf)",
+      "unit": "ekW @ 1.0pf",
+      "basis": "Cat K-series page product card: 'Continuous Rating 2567 / 2552 ekW @ 1.0pf ... Maximum Electrical Efficiency 46.0%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": "2567 / 2552"
+    },
+    {
+      "metric": "G3512K continuous rating (leaflet, 0.8 pf)",
+      "unit": "ekW @ 0.8pf",
+      "basis": "Leaflet p.8: 'G3520K Continuous Rating 2536/2520 ekW @ 0.8pf | G3512K Continuous Rating 1530/1502 ekW @ 0.8pf' - conflicting power-factor basis vs web card; preserved separately. LEYE23176-02 (11-2025).",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee",
+        "source_id": "catpar-r-jina-ai-cm20250331-8a14c-8edee-5cbe8a0"
+      },
+      "value": "1530 / 1502"
+    },
+    {
+      "metric": "G3520K continuous rating (leaflet, 0.8 pf)",
+      "unit": "ekW @ 0.8pf",
+      "basis": "Leaflet p.8, same line as G3512K; preserved as separate variant from web 2567/2552 @1.0pf. LEYE23176-02 (11-2025).",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": "2536 / 2520"
+    },
+    {
+      "metric": "Maximum electrical efficiency - G3512K",
+      "unit": "%",
+      "basis": "Cat K-series web page product card 'Maximum Electrical Efficiency 45.3%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 45.3
+    },
+    {
+      "metric": "Maximum electrical efficiency - G3520K",
+      "unit": "%",
+      "basis": "Cat K-series web page product card 'Maximum Electrical Efficiency 46.0%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 46.0
+    },
+    {
+      "metric": "Total efficiency in CHP (web page)",
+      "unit": "% (approaches)",
+      "basis": "'approach 90% total efficiency in Combined Heat and Power (CHP) applications'; thermal efficiency improvement 2.8%.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 90
+    },
+    {
+      "metric": "Total generator set efficiency (leaflet)",
+      "unit": "%",
+      "basis": "Leaflet p.4-5: 'total efficiency of up to 89.6%'; footnote '* Total generator set efficiency of 89.6% running at 500 mg Nox, 50 Hz, JW 88C'.",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": 89.6
+    },
+    {
+      "metric": "Methane number without derate",
+      "unit": "MN",
+      "basis": "'can run down to methane NR 60 without derate' (web); leaflet p.3 'can run down to 60 methane number without derate'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Hydrogen blending",
+      "unit": "% by volume",
+      "basis": "'25% hydrogen blends*' ... '* These fuels will be available later in 2026.' (web and leaflet p.3).",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Start to 100% load time",
+      "unit": "minutes",
+      "basis": "'They start and accept 100% load in 4.5 minutes' (web); leaflet p.8: 'G3512K 4.5 MINUTES / G3520K 4.5 MINUTES' * Start and 100% full load time.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 4.5
+    },
+    {
+      "metric": "Application power band",
+      "unit": "eMW",
+      "basis": "'For 1.5 - 2.5 eMW Applications' (web and leaflet cover).",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": "1.5 - 2.5 eMW"
+    },
+    {
+      "metric": "Thermal efficiency improvement",
+      "unit": "% (web) / 2.8 %-p (leaflet G3520K 60Hz)",
+      "basis": "Web: 'increased thermal efficiency (a 2.8% improvement)'; leaflet p.9: '2.8 %-p THERMAL EFFICIENCY G3520K 60 HZ'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 2.8
+    },
+    {
+      "metric": "Higher altitude capability",
+      "unit": "% (leaflet)",
+      "basis": "Leaflet p.7: '70% HIGHER ALTITUDE CAPABILITY READY FOR EXTREMES'. Web: 'perform at higher altitudes ... than previous models'.",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": 70
+    },
+    {
+      "metric": "Higher ambient temperature capability",
+      "unit": "% (leaflet)",
+      "basis": "Leaflet p.7: '10% HIGHER AMBIENT TEMPERATURE CAPABILITY'; web: 'higher ambient temperatures than previous models'.",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Faster load acceptance",
+      "unit": "% (leaflet)",
+      "basis": "Leaflet p.6/8: 'reach full load capacity 40% faster, with G2 transient capability' / '40% MORE RESPONSIVE FASTER STARTUP AND LOAD ACCEPTANCE'.",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Grid code fault ride-through tests",
+      "unit": "tests (over)",
+      "basis": "Leaflet p.5: 'we have performed over 700 fault ride through tests' to confirm compliance with main grid codes worldwide.",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": 700
     }
   ],
   "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
@@ -70,8 +224,15 @@
     {
       "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
       "source_id": "geg-r-jina-ai-k-series-html-955b0f5"
+    },
+    {
+      "url": "https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+      "source_id": "catpar-cat-com-k-series-html-845ef10"
+    },
+    {
+      "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 17 new printed parameters."
 }

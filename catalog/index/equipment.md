@@ -91,6 +91,12 @@ Vendors: SPG Steiner GmbH (0 model lines recorded).
 | Reaction heat recovery per tonne ammonia | 600000 Kcal/t NH3 (more than) | Value as printed in the cited source; no further qualifier stated. |
 | Plant turndown | 10-100 % | Value as printed in the cited source; no further qualifier stated. |
 | Ramp-up/down rate | ?-3 %/min | Value as printed in the cited source; no further qualifier stated. |
+| clean_syngas_consumption_per_ton_ammonia | ?-2650 Nm3/t NH3 | Performance: Clean Syngas consumption, per ton of ammonia produced: ~2650Nm3 (equivalent to less than 2000 Nm3 of H2) |
+| hydrogen_equivalent_per_ton_ammonia | ?-2000 Nm3 H2/t NH3 | Performance: equivalent to less than 2000 Nm3 of H2 |
+| reaction_heat_recovery_per_ton_ammonia | 600000-? Kcal/t NH3 | Performance: Reaction heat recovery, per ton of ammonia produced: more than 600'000 Kcal |
+| plant_turndown_range | 10-100 % | Performance: Plant turndown range: 10-100% |
+| ramp_up_down_rate | ?-3 %/min | Performance: Ramp-up/down rate: up to 3%/min |
+| feedstock | hydrogen derived from water electrolysis with renewable energy and pure nitrogen from an air separation unit n/a | It utilizes hydrogen derived from water electrolysis with renewable energy and pure nitrogen from an air separation unit |
 
 
 Recorded gaps:
@@ -170,6 +176,113 @@ Vendors: Topsoe, thyssenkrupp Uhde, KBR, Casale, thyssenkrupp Industrial Solutio
 | Scope | process licence and ammonia plant engineering scope | Allied Green Ammonia May 2024 entry; Oct 2023 first Australian green ammonia contract |
 | Project capacity linked | 958500 t/y ammonia | Allied Green Ammonia project design capacity |
 | Steam-to-carbon ratio | 0.6 mol/mol | Value as printed in the cited source; no further qualifier stated. |
+| Solar energy capacity | 4750 MW | CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet |
+| Battery energy storage capacity | 1600 MWh | CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet |
+| Electrolyzer capacity | 3000 MW | CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet |
+| Annual renewables-based hydrogen production | 174500 tonnes per annum | CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet |
+| Annual renewables-based ammonia production | 958500 tonnes per annum | CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet |
+| Annual renewables generation | 9750 GWh per annum | CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet |
+| Cryogenic ammonia storage tank capacity (each of two) | 40000 tonnes | CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet |
+| Total project cost | 6.8 billion USD | CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet |
+| Anticipated operations date | 2030 year | CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet |
+| Plant capacity | 1200 MTD (metric tonnes per day) | 'the 1200 MTD coal-based ammonia plant' owned by Jiangsu Debang Xinghua Chemical Technology Co., Ltd. |
+| Capacity reached shortly after start-up | 110 % of capacity | Casale news release 'Casale Technology Sets New Performance Standard for Ammonia Plants in China', 25 July 2025 |
+| Stable operating load | 130 % load | Casale news release 'Casale Technology Sets New Performance Standard for Ammonia Plants in China', 25 July 2025 |
+| Commissioning date | 'Commissioned in June 2024' | 'Commissioned in June 2024' |
+| Synthesis loop performance | 'No bottlenecks encountered in the synthesis loop'; Casale proprietary N-LOOP... | 'No bottlenecks encountered in the synthesis loop'; Casale proprietary N-LOOP ammonia synthesis loop |
+| Catalytic bead measuring range | 0 'Typical measuring range: 0-100 %LEL'; MSA products ULTIMA X5000, General Monitors S5000, | As printed on the cited catalogue page. |
+| Catalytic bead sensor life | 5 years | 'XCell® sensor with extra-large beads, supported by mechanical posts offering > 5-year life' |
+| Electrochemical measuring range | 0 'Typical measuring range: 0-100 ppm and 0-1,000 ppm' | As printed on the cited catalogue page. |
+| Electrochemical sensor life | 1 '1-2 year sensor life' | As printed on the cited catalogue page. |
+| Ammonia electrochemical sensor life | 5 years | '>5-year sensor life for XCell® ammonia sensor due to non-consuming electrolyte design' |
+| Dual sensor configuration | 'Dual sensor configuration (local or remote) available with ULTIMA X5000 / Ge... | 'Dual sensor configuration (local or remote) available with ULTIMA X5000 / General Monitors S5000 for catalytic bead and electrochemical sensors' |
+| Ultrasonic detection range | 17 'Typical detection ranges: 17-28m, depending on microphone technology'; 28 m with long-lif | As printed on the cited catalogue page. |
+| Ultrasonic minimum pressure | 2 bar | 'Only suitable for pressurized installations from 2 bar (29 psi) or more' |
+| Open path measuring range | 0 'Measuring range: up to 0-15000 ppm.m' (Senscient ELDS) | As printed on the cited catalogue page. |
+| Open path lengths | 5 'Path lengths: 5-40m, 40-120m' | As printed on the cited catalogue page. |
+| Photoacoustic measuring range | 0 'Measuring range: 0-1,000 ppm' (Chillgard 5000 Ammonia Monitor) | As printed on the cited catalogue page. |
+| Photoacoustic sampling points | 16 points | 'Maximum 16 points useful for areas requiring sampling at multiple, difficult-to-access locations' |
+| UV/IR field of view | 90 'Typical 90° - 125° field of view' (FL500-H2) | As printed on the cited catalogue page. |
+| MSIR field of view | 90 deg | 'Typical 90° field of view' (FL5000) |
+| Optical path monitoring interval | 2 minutes | 'Continuous Optical Path Monitoring (COPM) checks optical path integrity every 2 minutes' |
+| Tank count and capacity | 40000 t per tank (two tanks) | "SPG Steiner GmbH (Germany) – BEDP for two 40,000-tonne cryogenic ammonia tanks" (July 2024) |
+| Annual renewable ammonia production (project) | 958500 tonnes per annum | Production details table: "Annual (renewables-based) ammonia production: 958,500 tonnes per annum" |
+| Annual renewable hydrogen production (project) | 174500 tonnes per annum | Production details table: "Annual (renewables-based) hydrogen production: 174,500 tonnes per annum" |
+| Electrolyzer capacity (project) | 3000 MW | Production details table: "Electrolyzer Capacity: 3,000 MW"; January 2025 Plug Power purchase agreement for 3 GW electrolysers |
+| Solar capacity / BESS (project) | Production details: "Solar Energy Capacity: 4,750 MW; Battery Energy Storage ... | Production details: "Solar Energy Capacity: 4,750 MW; Battery Energy Storage System: 1600 MWh" |
+| Page date / review | CSIRO HyResource project page dated 'October 20th, 2025'; 'Reviewed (reviewed... | CSIRO HyResource project page dated 'October 20th, 2025'; 'Reviewed (reviewed by the project proponent): April 2026' |
+| Catalyst type | "KM1 is an iron-based ammonia synthesis catalyst" | "KM1 is an iron-based ammonia synthesis catalyst" |
+| Application | "used in the majority of the world's ammonia converters to convert synthesis ... | "used in the majority of the world's ammonia converters to convert synthesis gas containing hydrogen and nitrogen into ammonia" |
+| Share of world ammonia production | 50 % (over half) | Leaflet highlight: "Used to produce over half of the world's ammonia, the KM1 catalyst is a masterpiece of high performance, efficiency and dependability" |
+| Company experience in ammonia synthesis | 80 years (more than) | "More than 80 years of experience with ammonia synthesis enables us to provide the best solutions for the ammonia industry" |
+| Related catalyst family | KM 111 (magnetite-based, lower bed), KM1R (pre-reduced iron-based with promot... | KM 111 (magnetite-based, lower bed), KM1R (pre-reduced iron-based with promoters, reduced activation time), KMR 111 (pre-reduced lower bed) |
+| Urea plant capacity (Fakfak project) | 1150000 tonnes per annum | "The facility is designed to produce 1.15 million tonnes of urea annually" using TOYO's ACES21 process |
+| Ammonia plant capacity (integrated complex) | 825000 tonnes per annum (approximately) | "a planned ammonia plant with an annual production capacity of approximately 825,000 tonnes" |
+| TOYO urea plant experience | 110 plants (more than 110) | "having designed, engineered, constructed and commissioned more than 110 urea plants using its technologies" |
+| ACES21 stated benefits | "TOYO's ACES21TM process, designed to improve energy efficiency and reduce ca... | "TOYO's ACES21TM process, designed to improve energy efficiency and reduce capital investment costs" |
+| Basic engineering design completion | "With completion targeted for May 2027, the BED represents a significant mile... | "With completion targeted for May 2027, the BED represents a significant milestone" |
+| Publication date | Pupuk Indonesia news article posted 19 November 2026 17:20 WIB; dateline Toky... | Pupuk Indonesia news article posted 19 November 2026 17:20 WIB; dateline Tokyo, 17 November 2026 |
+| electrolyzer_capacity | 3000 MW | Electrolyzer Capacity: 3,000 MW (project facts) |
+| BEDP_cost | 82 US$ million | US$82 million - Basic Engineering Design Package (BEDP) (FEED studies) |
+| solar_capacity | 4750 MW | Solar Energy Capacity: 4,750 MW |
+| battery_storage | 1600 MWh | Battery Energy Storage System: 1600 MWh |
+| hydrogen_production | 174500 tonnes/yr | Annual (renewables-based) hydrogen production: 174,500 tonnes per annum |
+| ammonia_production | 958500 tonnes/yr | Annual (renewables-based) ammonia production: 958,500 tonnes per annum |
+| purchase_agreement | January 2025: Plug Power Inc. - Purchase agreement for 3 GW electrolysers and Basic Engineering Design Package (BEDP) n/a | Project timeline entry |
+| converter_type | two-bed radial flow converter with indirect cooling between the catalyst beds n/a | Ammonia converter basket S-200: The S-200 ammonia synthesis converter is a two-bed radial flow converter with indirect cooling between the catalyst beds |
+| number_of_catalyst_beds | 2 beds | The S-200 ammonia synthesis converter is a two-bed radial flow converter; S-300 has three catalyst beds for comparison |
+| catalyst_family | KM catalyst family (KM1 iron-based, KM111 magnetite-based, KM1R pre-reduced, KMR111 pre-reduced) n/a | Our well-known radial flow converters (S-200, S-300 or S-50) and our KM catalyst family will ensure optimal and stable performance; catalyst descriptions on page |
+| SynCOR Ammonia - steam-to-carbon ratio | 0.6 (vs 3.0 for conventional NH3 plant) | Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated |
+| SynCOR Ammonia - relative energy consumption | 97 (conventional = 100) | Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated |
+| SynCOR Ammonia - relative make-up water consumption | 40-50 % (conventional = 100) | Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated |
+| SynCOR Ammonia - steam throughput reduction | 80 % | Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated |
+| SynCOR Ammonia - max referenced single-train capacity | 4,000 MTPD (equivalent production) / >6,000 MTPD for other industries n/a | Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated |
+| SynCOR Ammonia - reforming section | Pre-reformer and oxygen-blown SynCOR ATR n/a | Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated |
+| SynCOR Ammonia - synthesis | Inert-free synthesis loop with no purge; nitrogen wash with purge and nitrogen addition n/a | Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated |
+| Ammonia flare tip - upper tip length | 10 ft (upper 10 ft of flare system commonly referred to as the flare tip) | Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017 |
+| Ammonia flare - exit velocity criterion | Restrict exit velocity of waste gas to ensure adequate residence time for high destruction efficiency; maximum design exit velocity depends on flare tip diameter n/a | Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017 |
+| Ammonia flare tip - flow distribution | Include flow distribution devices to disperse waste gas, expose stream to ignition sources and increase access to combustion air n/a | Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017 |
+| Ammonia combustion - challenges | Low flame propagation speed, low heating value and low flame temperatures; nitrogen is chemically inactive n/a | Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017 |
+| Document reference | 0700-222-EU-EN / 10.2026 n/a | 0700-222-EU-EN / 10.2026 |
+| Observer i sensing technology | Ultrasonic gas leak detection n/a | Technical Guide: Sensor Technologies for Ammonia Detection — ultrasonic gas leak detection section |
+| UV/IR typical field of view | 90-125 deg | Typical 90° - 125° field of view |
+| UV/IR output signal | UV – 12 mA & IR – 8 mA n/a | Independent output notification – typically UV – 12 mA & IR – 8 mA |
+| MSIR typical field of view | 90 deg | Typical 90° field of view |
+| Sampling points | ?-16 count | Maximum 16 points useful for areas requiring sampling at multiple, difficult-to-access locations. |
+| HTZ-5 absorbent | high-purity, large-surface-area zinc oxide absorbent for feedstocks with low sulfur concentrations, or for operation at low temperatures n/a | The HTZ-5 is a high-purity, large-surface-area zinc oxide absorbent for feedstocks with low sulfur concentrations, or for operation at low temperatures. |
+| HTZ-51 absorbent | state-of-the-art zinc oxide absorbent for feedstocks with low sulfur concentrations or for operation at low temperatures n/a | The HTZ-51 is a state-of-the-art zinc oxide absorbent for feedstocks with low sulfur concentrations or for operation at low temperatures. |
+| Reactor benefit | Maximize profitability and obtain a lower pressure drop in your adiabatic reactors such as the high, medium, low-temperature shift or the methanator n/a | Maximize profitability and obtain a lower pressure drop in your adiabatic reactors such as the high, medium, low-temperature shift or the methanator. |
+| Laser open path measuring range | 0-15000 ppm.m | Measuring range: up to 0-15000 ppm.m (parts per million meters) |
+| Path lengths | 5-40m, 40-120m m | Path lengths: 5-40m, 40-120m |
+| Detection technology | Enhanced Laser Diode Spectroscopy (ELDS) - patented, multi-point harmonic verification n/a | Enhanced Laser Diode Spectroscopy (ELDS) - patented detection technology that uses multi-point harmonic verification to eliminate false alarms |
+| Specificity | Very specific to ammonia; immune to cross-interferents n/a | Very specific to ammonia; Immune to cross-interferents |
+| Source life | Long laser source life; non-consuming n/a | Long laser source life; Non-consuming |
+| Calibration | No need for calibration n/a | No need for calibration |
+| Weather immunity | Unaffected by rain, fog, and snow n/a | Unaffected by rain, fog, and snow |
+| Cons | Limited use for areas with dense installations; does not measure point concentration n/a | Limited use for areas with dense installations; Does not measure point concentration |
+| Applications | Large industrial sites incl. fertilizer and chemical manufacturing plants; ammonia production units with downstream storage or bunkering; green ammonia energy export hubs and maritime fuel terminals n/a | Applications column of Laser Open Path row |
+| MSA product | Senscient ELDS TM n/a | MSA Products: Senscient ELDS TM |
+| Protection layers | Layer 1 ultrasonic leak detection; Layer 2 gas detection; Layer 3 flame detection n/a | Protection Layers for Ammonia Leaks section |
+| Future plant capacities | 4000-5000 Tagestonnen | Es bildet auch die Grundlage für noch größere Anlagen (z. B. 4.000 bis 5.000 Tagestonnen) |
+| First plant | SAFCO IV, Al-Jubail, Saudi-Arabien, in operation 2006 n/a | Die erste auf diesem Verfahren basierende Anlage ist die SAFCO IV Ammoniakanlage in Al-Jubail, Saudi-Arabien, die 2006 in Betrieb gegangen ist |
+| LP compressor suction pressure | 110 bar (ca.) | Der Druck am Ansaugflansch des Kompressors beträgt ca. 110 bar |
+| HP synthesis loop pressure | 210 bar (up to) | auf den Betriebsdruck des Ammoniaksynthesekreislaufs (bis zu 210 bar) |
+| Once-through converter share | about one third of total ammonia output n/a | der zwischengekühlte Einmal-Konverter mit drei Katalysatorbetten ungefähr ein Drittel des gesamten Ammoniakausstoßes |
+| Ammonia condensed after once-through | 85 % | wobei 85 % des hergestellten Ammoniaks als Flüssigkeit vom Gas getrennt wird |
+| Once-through converter catalyst beds | 3 n/a | der zwischengekühlte Einmal-Konverter mit drei Katalysatorbetten |
+| HP loop share | remaining two thirds of total ammonia n/a | Bei diesem herkömmlichen Ammoniaksynthese-Kreislauf werden die verbleibenden zwei Drittel des Gesamtammoniaks produziert |
+| Compressor size comparison | same size as conventional plant for 2,200 tonnes/day n/a | Der Synthesegaskompressor einer Zweidruckanlage mit 3.300 Tagestonnen hat dieselbe Größe wie in herkömmlichen Ammoniakanlagen für 2.200 Tagestonnen |
+| Catalyst | proven magnetite-based catalysts in all phases n/a | Bewährte Katalysatoren auf Magnetit-Basis in allen Phasen des neuen Prozesses |
+| Battery energy storage | 1600 MWh | Battery Energy Storage System: 1600 MWh |
+| Annual hydrogen production | 174500 tonnes per annum | Annual (renewables-based) hydrogen production: 174,500 tonnes per annum |
+| Annual ammonia production | 958500 tonnes per annum | Annual (renewables-based) ammonia production: 958,500 tonnes per annum |
+| Renewables generation | 9750 GWh per annum | The project is planned to generate approximately 9,750 GWh per annum |
+| Estimated total project cost | US$6.8 billion n/a | Estimated cost: US$6.8 billion (total project cost) |
+| Feasibility/pre-FEED cost | US$15 million n/a | US$15 million (feasibility and pre-FEED studies) |
+| BEDP cost | US$82 million n/a | US$82 million – Basic Engineering Design Package (BEDP) (FEED studies) |
+| Cryogenic ammonia tanks | two 40,000-tonne tanks n/a | SPG Steiner GmbH (Germany) – BEDP for two 40,000-tonne cryogenic ammonia tanks |
+| TOPSOE scope | Process licence for ammonia technology (Oct 2023) and process licence + ammonia plant engineering (May 2024) n/a | May 2024: TOPSOE A/S (Denmark) – Process licence and ammonia plant engineering; October 2023: TOPSOE A/S (Denmark) – Process licence for ammonia technology |
+| Status | Under development – FEED studies n/a | Status: Under development – FEED studies |
 
 - **Topsoe** S-200 ammonia converter basket: two-bed radial flow with indirect cooling between beds; more than 130 units since 1976
 - **Topsoe** S-300 ammonia converter basket: three-bed radial flow; higher conversion and production efficiency than S-200; more than 50 installations
@@ -321,6 +434,66 @@ Vendors: Cummins, H&C Diesel Generator Manufacture (H&C Import & Export Co., Ltd
 | Black start diesel generator syste — Total standby rated power | 23000 kW | H&C Oman IBRI case page: 'Rated Power (Standby) 23,000 kW (23 MW) Total'; eight units of 2,875 kW each; year delivered 2019; page read 2026-11-25. |
 | Black start diesel generator syste — Generator voltage | 11 kV | Same H&C case page, technical specifications table: 'Voltage / Frequency 11 kV' (frequency not printed as a value), rated speed 1500 RPM. |
 | Black start diesel generator syste — Engine model per unit | H&C case page: 'Engine MTU 20V4000G63 (per unit)', 'Alternator Leroy-Somer LS... | H&C case page: 'Engine MTU 20V4000G63 (per unit)', 'Alternator Leroy-Somer LSA 53', 'Controller ComAp InteliSys'. Text value, no numeric figure. |
+| Model count on 50 Hz international rating card | 92 models | Counted rows in 'International model range / 50 Hz range / COMMERCIAL DIESEL GENERATOR SETS' table. Bulletin 6614069 Rev. 8/25. |
+| Overall model rating span | C17D5 16.5 kVA standby ... C3750D5 3750 kVA standby kVA | First and last rows of the 50 Hz range table; 'Specifications may change without notice. All ratings include radiator fan losses. DCC available at standby power subject to Cummins' site-specific assessment.' |
+| Rating row - C17D5 | C17D5 16.5 13 15 12 X2.5-G2 S0L1-P1 PS0600 Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C17D5 16.5 13 15 12 X2.5-G2 S0L1-P1 PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C22D5 | C22D5 18 17 20 16 X2.5-G2 S0L2-G1 PS0600 Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C22D5 18 17 20 16 X2.5-G2 S0L2-G1 PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C28D5 | C28D5 27.5 22 25 20 X2.5-G2 S0L2-M1 PS0600 Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C28D5 27.5 22 25 20 X2.5-G2 S0L2-M1 PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C33D5 | C33D5 33 26 30 24 X3.3-G1 S0L2-P1 PS0600 Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C33D5 33 26 30 24 X3.3-G1 S0L2-P1 PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C38D5 | C38D5 38 30 35 28 X3.3-G1 S1L2J1 PS0600 Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C38D5 38 30 35 28 X3.3-G1 S1L2J1 PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C44D5L | C44D5L 44 35 40 32 4BTAA3.3-G14 UCI224C PS0600 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C44D5L 44 35 40 32 4BTAA3.3-G14 UCI224C PS0600 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C44D5I | C44D5I 44 35 40 32 4BTAA3.3-G13 UCI224C PS0600 UR No kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C44D5I 44 35 40 32 4BTAA3.3-G13 UCI224C PS0600 UR No'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C44D5E | C44D5E 44 35 40 32 B3.3-G14 UCI224C PS0600 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C44D5E 44 35 40 32 B3.3-G14 UCI224C PS0600 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C55D5L | C55D5L 55 44 50 40 4BTAA3.3-G13 UCI224C PS0600 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C55D5L 55 44 50 40 4BTAA3.3-G13 UCI224C PS0600 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C55D5I | C55D5I 55 44 50 40 4BTAA3.3-G13 PS0600 UR kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C55D5I 55 44 50 40 4BTAA3.3-G13 PS0600 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C55D5E | C55D5E 55 44 50 40 B3.3-G14 UCI224 D PS0600 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C55D5E 55 44 50 40 B3.3-G14 UCI224 D PS0600 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C66D5L | C66D5L 66 53 60 48 4BTAA3.3-G13 UCI224F PS0600 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C66D5L 66 53 60 48 4BTAA3.3-G13 UCI224F PS0600 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C66D5I | C66D5I 66 53 60 48 4BTAA3.3-G13 UR kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C66D5I 66 53 60 48 4BTAA3.3-G13 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C66D5E | C66D5E 66 53 60 48 B3.3-G14 UCI224F PS0600 Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C66D5E 66 53 60 48 B3.3-G14 UCI224F PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C90D5 | C90D5 90 72 82 65 6BTA5.9-G5 UCI224G PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C90D5 90 72 82 65 6BTA5.9-G5 UCI224G PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C90D5I | C90D5I 90 72 82 65 6BTA5.9-G5 UR kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C90D5I 90 72 82 65 6BTA5.9-G5 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C110D5 | C110D5 110 88 100 80 6BTA5.9-G5 UCI274C PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C110D5 110 88 100 80 6BTA5.9-G5 UCI274C PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C110D5I | C110D5I 110 88 100 80 6BTA5.9-G5 UR kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C110D5I 110 88 100 80 6BTA5.9-G5 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C150D5 | C150D5 150 120 136 109 6BTAA5.9-G6 UCI274E PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C150D5 150 120 136 109 6BTAA5.9-G6 UCI274E PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C150D5I | C150D5I 150 120 136 109 6BTAA5.9-G6 UR kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C150D5I 150 120 136 109 6BTAA5.9-G6 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C170D5 | C170D5 170 136 155 124 6BTAA5.9-G7 UCI274F PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C170D5 170 136 155 124 6BTAA5.9-G7 UCI274F PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C170D5I | C170D5I 170 136 155 124 6BTAA5.9-G7 UR kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C170D5I 170 136 155 124 6BTAA5.9-G7 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C175D5E | C175D5E 175 140 160 128 QSB7-G5 UCI274F PC 1.2 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C175D5E 175 140 160 128 QSB7-G5 UCI274F PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C175D5I | C175D5I 175 140 160 128 QSB7-G18 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C175D5I 175 140 160 128 QSB7-G18 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C200D5E | C200D5E 200 160 182 146 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C200D5E 200 160 182 146 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C200D5I | C200D5I 200 160 182 146 QSB7-G18 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C200D5I 200 160 182 146 QSB7-G18 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C220D5 | C220D5 220 176 200 160 6CTAA8.3-G7 UCI274H PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C220D5 220 176 200 160 6CTAA8.3-G7 UCI274H PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C220D5E | C220D5E 220 176 200 160 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C220D5E 220 176 200 160 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C220D5I | C220D5I 220 176 200 160 QSB7-G18 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C220D5I 220 176 200 160 QSB7-G18 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C250D5 | C250D5 250 200 227 182 6CTAA8.3-G9 UCDI274J PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C250D5 250 200 227 182 6CTAA8.3-G9 UCDI274J PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C250D5E | C250D5E 250 200 230 184 QSL9-G7 UCDI274K PC 1.2 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C250D5E 250 200 230 184 QSL9-G7 UCDI274K PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C250D5I | C250D5I 250 200 227 182 QSB7-G19 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C250D5I 250 200 227 182 QSB7-G19 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C275D5 | C275D5 275 220 250 200 QSL9-G5 UCDI274K PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C275D5 275 220 250 200 QSL9-G5 UCDI274K PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C275D5E | C275D5E 275 220 250 200 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C275D5E 275 220 250 200 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C275D5B | C275D5B 275 220 250 200 6LTAA9.5-G3 UCDI274K PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C275D5B 275 220 250 200 6LTAA9.5-G3 UCDI274K PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C275D5I | C275D5I 275 220 250 200 6LTAA8.9-G4 UR kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C275D5I 275 220 250 200 6LTAA8.9-G4 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C300D5B | C300D5B 300 240 275 220 6LTAA9.5-G3 HC4D PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C300D5B 300 240 275 220 6LTAA9.5-G3 HC4D PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C300D5 | C300D5 300 240 275 220 QSL9-G5 HC4D PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C300D5 300 240 275 220 QSL9-G5 HC4D PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C300D5E | C300D5E 300 240 275 220 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C300D5E 300 240 275 220 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C300D5I | C300D5I 300 240 270 216 QSL9-G5 UR kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C300D5I 300 240 270 216 QSL9-G5 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C330D5 | C330D5 330 264 300 240 QSL9-G5 HC4D PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C330D5 330 264 300 240 QSL9-G5 HC4D PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C330D5E | C330D5E 330 264 300 240 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C330D5E 330 264 300 240 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C330D5B | C330D5B 330 264 300 240 6LTAA9.5-G1 HC4D PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C330D5B 330 264 300 240 6LTAA9.5-G1 HC4D PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C330D5I | C330D5I 330 264 300 240 QSL9-G5 HC4E PS0602 UR kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C330D5I 330 264 300 240 QSL9-G5 HC4E PS0602 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C350D5B | C350D5B 350 280 320 256 6LTAA9.5-G1 HC4S PC 1.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C350D5B 350 280 320 256 6LTAA9.5-G1 HC4S PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C400D5 | C400D5 400 320 360 288 QSG12-G1 HC4F PC 2.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C400D5 400 320 360 288 QSG12-G1 HC4F PC 2.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C400D5EB | C400D5EB 400 320 360 288 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C400D5EB 400 320 360 288 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C450D5 | C450D5 450 360 409 327 QSG12-G1 HC5C PC 2.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C450D5 450 360 409 327 QSG12-G1 HC5C PC 2.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C450D5EB | C450D5EB 450 360 409 327 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C450D5EB 450 360 409 327 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C500D5E | C500D5E 500 400 455 364 455 364 QSX15-G8 HC5C PC 2.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C500D5E 500 400 455 364 455 364 QSX15-G8 HC5C PC 2.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C500D5 | C500D5 500 400 455 364 QSZ13-G5 S5L1D-D41 PC 2.2 EU Stage II Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C500D5 500 400 455 364 QSZ13-G5 S5L1D-D41 PC 2.2 EU Stage II Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C550D5E | C550D5E 550 440 500 400 500 400 QSX15-G8 HC5D PC 2.2 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C550D5E 550 440 500 400 500 400 QSX15-G8 HC5D PC 2.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C550D5 | C550D5 550 440 500 400 QSZ13-G10 S5L1D-D41 PC 2.2 Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C550D5 550 440 500 400 QSZ13-G10 S5L1D-D41 PC 2.2 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C640D5 | C640D5 640 512 582 466 KTA19-G6 HC5E PC 1.1 UR No kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C640D5 640 512 582 466 KTA19-G6 HC5E PC 1.1 UR No'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C700D5 | C700D5 706 565 640 512 640 512 VTA28-G5 HC5F PC 3.3 UR No kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C700D5 706 565 640 512 640 512 VTA28-G5 HC5F PC 3.3 UR No'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C825D5 | C825D5 825 660 750 600 750 600 QSK23-G3 S6L1C4 PC 3.3 UR Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C825D5 825 660 750 600 750 600 QSK23-G3 S6L1C4 PC 3.3 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C825D5E | C825D5E 825 660 750 600 750 600 QSK23-G9 S6L1C4 PC 3.3 EPA Tier 2 Yes kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C825D5E 825 660 750 600 750 600 QSK23-G9 S6L1C4 PC 3.3 EPA Tier 2 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
+| Rating row - C825D5A | C825D5A 825 660 750 600 750 600 VTA28-G6 S6L1C4 PC 3.3 UR No kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure | Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C825D5A 825 660 750 600 750 600 VTA28-G6 S6L1C4 PC 3.3 UR No'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure. |
 
 - **Cummins** Cummins commercial diesel generator sets, International 50 Hz range: diesel generator set (standby / prime / DCC rated)
 
@@ -397,6 +570,12 @@ Vendors: Babcock & Wilcox, Valmet, ANDRITZ, Zeeco (0 model lines recorded).
 | Steam parameters | High steam parameters without severe corrosion qualitative | Product page: enabled by fluidized bed heat exchangers located in the loop seal; dedicated superheaters for corrosive fuels |
 | Low-load operation | Partial bed operation available operating mode | Product page section 'Low-load operation available for CFB boilers' |
 | Fuels | Biomass, agricultural waste streams, recovered fuels, coals, solid petrochemical residues (pet coke, asphaltene, solidified pitch), any combination fuel flexibility | Product page 'High fuel flexibility'; more than 100 references worldwide, mostly multifuel boilers |
+| References | 100 references | 'Most of the over 100 references around the world are multifuel boilers' |
+| Fuel flexibility | 'Biomasses, including fuels derived from agricultural waste streams; Recovere... | 'Biomasses, including fuels derived from agricultural waste streams; Recovered fuels; Various type of coals; Solid petrochemical residues, eg. pet coke, asphaltene, solidified pitch; Any combination of the above-mentioned fuels' |
+| Turbogenerator output rating range (ANDRITZ thermal power portfolio) | 10-350 MVA | ANDRITZ Thermal power page: 'Turbogenerators for thermal power plants with output ratings from 10 MVA to 350 MVA.' (portfolio-level, not CFB-specific) |
+| CFB fluidization / solids behaviour | 'With CFB technology, the flue gas velocity in the furnace is higher and the ... | 'With CFB technology, the flue gas velocity in the furnace is higher and the bed is expanded and entrained with the flow. The bed material flows with the flue gas through the furnace, after which the material is separated by cyclones and returned to the lower furnace.' |
+| CFB combustion temperature characteristic | 'The efficient mixing and relatively low combustion temperatures contribute t... | 'The efficient mixing and relatively low combustion temperatures contribute to low emissions of carbon monoxide, hydrocarbons, and nitric oxides.' |
+| CFB fuel range | 'CFB technology also allows an extremely wide range of fuels to be fired in t... | 'CFB technology also allows an extremely wide range of fuels to be fired in the same unit.'; BFB EcoFluid: 'a variety of clean biomass fuels (bark, agricultural, forestry, and sawmill residuals) ... demolition wood, refuse-derived fuels, peat, various sludges, etc.' |
 
 
 Recorded gaps:
@@ -432,6 +611,26 @@ Vendors: Cleaver-Brooks, Fulton (2 model lines recorded).
 | Input capacity | 399000-6000000 BTU/hr | Product page Size Range: 399,000-6,000,000 BTU/HR; model table EXE-399 to EXE-6000 MBH |
 | Thermal efficiency | 96.2-98.0 % AHRI Thermal Efficiency | Specifications & Dimensions table, model-by-model values 96.2-98.0%; page headline 'Efficiency up to 99%' |
 | Turndown ratio | 8-15 :1 | Specifications table by model (8:1 EXE-399, 10:1 EXE-500, 13:1 EXE-650, 15:1 EXE-750 through EXE-3000 etc.) |
+| Number of models | 11 models | '11 models from 500 MBH to 6,000 MBH' |
+| Marketing efficiency statement | 99 % | 'The CFC-E is up to 99% efficient due to its high-mass firetube construction' (conflicts with AHRI 94.7/96 figures - kept separate) |
+| NOx emissions standard | 20 ppm | 'Emissions (ppm NOx) <20 ppm standard, lower emission optional'; 'sub 7 ppm NOx available' |
+| NOx emissions optional | 7 ppm | 'sub 7 ppm NOx available' (Option/feature list) |
+| Hydrogen blend capability | 20 volumetric % | 'support renewable natural gas and up to 20% volumetric mix hydrogen-natural gas blends' |
+| Fuel | 'Fuel: Natural Gas, Propane, Combination firing' | 'Fuel: Natural Gas, Propane, Combination firing' |
+| Vessel design / passes / medium | 'Vessel Design: Firetube'; 'Number Of Passes: 1'; 'Steam Or Hot Water: Hot Wa... | 'Vessel Design: Firetube'; 'Number Of Passes: 1'; 'Steam Or Hot Water: Hot Water' |
+| Construction | 'Duplex stainless steel construction'; TurboFer heat exchanger with integrate... | 'Duplex stainless steel construction'; TurboFer heat exchanger with integrated Ember controls; AluFer tube technology |
+| Side clearance | 3 in | 'Boiler room space savings with 3 inch side clearance' |
+| Size range | 399000-6000000 BTU/HR | Size Range: 399,000 - 6,000,000 BTU/HR |
+| Efficiency | ?-99 % | Efficiency up to 99% |
+| Fuel options | Natural Gas, Propane n/a | Fuel Options: Natural Gas, Propane |
+| Heat exchanger material | Type 439 stainless steel n/a | Type 439 stainless steel features 68% greater strength than 316L. |
+| Fuel saving | 15 % | reduce fossil fuel use by 15% |
+| NOx reduction | 80 % | and NOx emissions by 80% compared to conventional boilers |
+| Input capacity range | 399-6000 MBH | Input Capacity (MBH): 399 ... 6000 across EXE-399 ... EXE-6000 |
+| AHRI thermal efficiency range | 96.0-98.0 % | AHRI Thermal Efficiency (%): 98.0 (EXE-399) ... 96.2 (EXE-6000) |
+| Operating weight range | 537-5740 lbs | Operating Weight (LBS): 537 ... 5,740 |
+| Height range | 73.7-79.3 in | Height (IN): 73.7 ... 79.3 |
+| Water content range | 17.9-166 GAL | Water Content (GAL): 17.9 ... 166 |
 
 - **Cleaver-Brooks** ClearFire-CE: 500-6,000 MBH, AHRI thermal 96%, 10:1 turndown, duplex stainless with TurboFer/AluFer tubes
 - **Cleaver-Brooks** SwitchFire: 6,000-12,000 MBH, gas-only premix to 15:1 turndown or dual-fuel Weishaupt burner to 6:1
@@ -467,6 +666,39 @@ Vendors: Babcock & Wilcox, Cleaver-Brooks, Miura Boiler (1 model lines recorded)
 | Boiler horsepower | 36-600 HP | Technical Data table |
 | Thermal efficiency | 81-85 % | Product narrative: efficiency ratings up to 81% (steam) and 85% (hot water); 5-pass bent water-tube design |
 | NOx emissions | 9 ppm NOx (option, less than) | Product bullet 'Available to <9 ppm NOx'; table lists Standard, <30, <20, <9 |
+| steam_flows | 10000-225000 lb/hr | Product page header: Saturated Steam 10,000 to 225,000 lb/hr; Attributes: Steam Flows 10,000 - 225,000 |
+| steam_pressure | 100-550 psig | Product page header: 100 to 550 psig on steam |
+| steam_temperature | Saturated n/a | Product page header: Saturated Steam; Attributes: Steam Temperature Saturated |
+| NOx_emissions | ?-9 ppm | Product page: Available to less than 9 ppm NOx; Attributes: Emissions (ppm NOx) <9 |
+| NOx_with_ultra_low_burner_and_SCR | ?-2 ppm | IWT boilers can fire renewable natural gas, biogas and hydrogen. They achieve <2 ppm NOx with an ultra-low NOx burner and SCR equipment |
+| boiler_efficiency_option Gain | 5 % average | options are available to increase boiler efficiency by 5% on average |
+| fuels | Natural Gas, Propane, Digester, #2 Light Oil n/a | Product page header and Attributes: Fuel Natural Gas, Propane, Digester, #2 Light Oil |
+| boiler_style | D-type, O-type n/a | Attributes: Style D-type, O-type |
+| assembly | Shop Assembled n/a | Attributes: Assembly Shop Assembled |
+| circulation | Natural Circulation n/a | Attributes: Circulation Natural Circulation |
+| construction | Membrane Wall Construction n/a | Attributes: Construction Membrane Wall Construction; furnace construction utilizes welded-membrane wall design; 100% water cooled and refractory free |
+| delivery_time_reduction | ?-12 weeks | These pre-engineered boiler packages can shorten delivery time by up to 12 weeks |
+| applications | Process Steam, Industrial Process, Building Heat, Institutional, Hospital and Healthcare, Pharmaceutical, Pulp and Paper n/a | Applications tab (printed list) |
+| FLX - input capacity | 1500-25000 MBH | Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated |
+| FLX - boiler horsepower | 36-600 BHP | Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated |
+| FLX - design pressure | 15-250 psig | Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated |
+| FLX - thermal efficiency | 81 % (steam); 85% (hot water), up to | Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated |
+| FLX - number of passes | 5 n/a | Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated |
+| FLX - NOx emissions options | Standard, <30, <20, <9 ppm n/a | Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated |
+| FLX - turndown | Up to 15:1 (standard emissions); 10:1 (controlled emissions) n/a | Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated |
+| FLX - steam or hot water | Both n/a | Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated |
+| FLX - fuels | Natural Gas, #2 Light Oil, Propane, Digester Gas, Combination Firing n/a | Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Input | 2000-6000 MBH | 2,000-6,000 MBH Input; Input Capacity 2,000 - 6,000 |
+| Fuel | Natural Gas, Propane n/a | Natural Gas, Propane |
+| Design temperature | 235, 340, 355, 380, 410 deg F | Design Temperature (deg F) 235, 340, 355, 380, 410 |
+| NOx | <20 ppm | Standard sub-20 ppm NOx; <20 ppm NOx without FGR |
+| CO | <10 ppm | <10 CO as standard on natural gas |
+| Number of passes | 2 pass | Number Of Passes 2 |
+| Steam or hot water | Both n/a | Steam Or Hot Water Both |
+| Vessel design | Watertube (membrane wall) n/a | Vessel Design Watertube; The M5M is a membrane wall watertube boiler |
+| Floor space reduction | 50 % | Increases boiler room floor space by 50%; reduces floor space by 50% |
+| Weight savings | 40 % | weight savings of 40% |
+| Burner technology | Premix burner technology, linkageless n/a | Premix Burner Technology; The linkageless burner provides fully modulating turndown |
 
 - **Miura Boiler** LX once-through vertical water-tube: 50-300 HP, 9 ppm NOx at 3% O2 on natural gas or propane
 
@@ -502,6 +734,26 @@ Vendors: Cleaver-Brooks, Fulton, Miura Boiler (2 model lines recorded).
 | Boiler horsepower | 50-800 HP | Product page bullet and Technical Data table |
 | Steam design pressure | 300 psig | Product page bullet: 'Steam up to 300 psig' |
 | Hot water design pressure | 125 psig | Product page bullet: 'Hot water up to 125 psig' |
+| Steam pressure | ?-300 psig | Steam up to 300 psig |
+| Hot water pressure | ?-125 psig | Hot water up to 125 psig |
+| Fuels | Natural gas/propane, #2 light oil, combination n/a | Natural gas/propane, #2 light oil, combination |
+| NOx | ?-30 ppm | Offers 30 ppm NOx with 3% O2 across the 10:1 turndown range |
+| NOx sub-5 ppm | ?-5 ppm | Sub 5 ppm NOx without SCR available on most models |
+| CO requirement | ?-10 ppm | Meets 10 ppm CO requirement |
+| CBEX-2W boiler horsepower | 100-2500 HP | Boiler Horsepower: 100 - 2,500 (CBEX-2W) |
+| CBEX-2D boiler horsepower | 250-800 HP | Boiler Horsepower: 250 - 800 (CBEX-2D) |
+| CBEX-3W boiler horsepower | 250-800 HP | Boiler Horsepower: 250 - 800 (CBEX-3W) |
+| NOx by model | <5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800) ppm | Emissions (ppm NOx): <5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800) |
+| Heat transfer improvement | 85 % | increase heat transfer by 85% |
+| Vessel design | Firetube n/a | Vessel Design: Firetube |
+| Fuel | Natural gas/propane, #2 and #6 oil, combination n/a | Natural gas/propane, #2 and #6 oil, combination |
+| NOx emission rates available | 60 ppm, 30 ppm, 9 ppm and 5 ppm n/a | 60 ppm, 30 ppm, 9 ppm and 5 ppm NOx emission rates are available |
+| Emissions table value | <9 ppm NOx | Attributes table: Emissions (ppm NOx) <9 |
+| Burner NOx claim | <7 ppm NOx n/a | The burner design also helps meet emissions reduction goals, down to <7 ppm NOx |
+| Heat transfer area | 5 sq ft / BHP | 5 sq ft / BHP |
+| Design | Firetube; Waterback or Dryback design n/a | Vessel Design Firetube; Waterback or Dryback design |
+| Steam or hot water | Steam, Hot Water n/a | Steam Or Hot Water: Steam, Hot Water |
+| Vessel design feature | integral head burner with air-cooled front head n/a | Exclusive Cleaver-Brooks integral head burner with air-cooled front head |
 
 - **Cleaver-Brooks** CBEX: 100-2,500 HP, 2/3-pass, extended heat-transfer tubes
 - **Cleaver-Brooks** CBLE: 50-800 HP, 4-pass, NOx options to 5 ppm
@@ -535,6 +787,29 @@ Vendors: Babcock & Wilcox, Cleaver-Brooks, Doosan Enerbility, IHI Corporation, S
 | Design pressure | 1800 psig (up to) | Product bullet: Design pressure up to 1,800 psig |
 | Steam temperature | 1050 deg F (up to) | Product bullet and Technical Data table |
 | Duct firing temperature | 2800 deg F (up to) | Technical Data table; membrane/water-cooled furnace allows firing up to 2800 F without high-maintenance refractory |
+| exhaust_gas_flows | ?-1000000 lb/hr | Product page: Gas flows up to 1,000,000 lb/hr; Attributes: Exhaust Gas Flows (lb/hr) Up to 1,000,000 |
+| steam_generation | 10000-500000 lb/hr | Product page: Steam Generation from 10,000 to 500,000 lb/hr; Attributes: Steam Flows Up to 500,000 |
+| design_pressure | 1800 psig | Product page: Design pressure up to 1,800 psig |
+| steam_temperature | 1050 degF | Product page: Steam temperature to 1,050 degF; Attributes: Steam Temperature Up to 1,050 deg F |
+| duct_firing_temperature | 2800 degF | Membrane/water-cooled furnace technology allows it to be fired up to 2800 degF; Attributes: Duct Firing Temperature Up to 2,800 deg F |
+| NOx_with_SCR | ?-2 ppm | Supplemental firing with stack emissions available to less than 2 ppm NOx with SCR |
+| gas_turbine_size | 3-25 MW | Attributes: Gas Turbine Size 3 MW - 25 MW |
+| thermal_efficiency | 80-? % | The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies |
+| fuel_reduction | ?-7.0 MMBtu/hr | It reduces up to 7.0 MMBtu/hr of fuel in conventional boilers |
+| CO2_emissions_eliminated | 2870 tons/yr per 1 MWe GT output | eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output |
+| assembly_circulation_construction | Shop Assembled; Natural Circulation; Membrane Wall Construction n/a | Attributes: Assembly Shop Assembled; Circulation Natural Circulation; Construction Membrane Wall Construction |
+| models | MF (O-style), MFA (A-style), VL (O-style), VLA (A-style) n/a | The MF (O-style) and MFA (A-style) models combine waterwall combustion chamber with evaporator; VL and VLA offer evaporator section without a furnace |
+| Modular HRSG - gas turbine-generator range | 25-60 MW | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Modular HRSG - turbine exhaust gas flow | 500000-1000000 lb/hr | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Modular HRSG - steam generation | 500000 lb/hr (to 500,000+) | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Modular HRSG - design pressure | 1800 psig (up to) | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Modular HRSG - superheater outlet temperature | 1050 degF (up to) | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Modular HRSG - duct firing temperature | 2800 degF (up to) | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Modular HRSG - stack NOx with SCR | 2 ppm (less than, with SCR) | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Modular HRSG - efficiency | 80 % (>80% compared to 56% for traditional technologies) | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Modular HRSG - fuel reduction | 7.0 MMBtu/hr (up to, vs conventional boilers) | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Modular HRSG - CO2 emissions reduction | 2870 tons/yr per 1 MWe GT output (eliminated) | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Modular HRSG - construction | Vertical Tube with Steam Drum n/a | Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated |
 
 - **Babcock & Wilcox** HRSG systems, upgrades and components: reliable HRSG systems plus upgrades and replacement components — HARPs (high pressure evaporators), headers, finned tubing and other pressure parts — suitable for a wide range of combustion turbine applications
 - **Cleaver-Brooks** packaged HRSG for small turbines: state-of-the-art customized packaged heat-recovery steam generators for gas-fired turbines from 1 to 60 MW
@@ -675,6 +950,19 @@ Vendors: John Zink (Koch Engineered Solutions), Cleaver-Brooks, Entech Products 
 | Support design | Self-supporting; eliminates internal fixed structural support design feature | Power Burners page teg+ section: reduces installation time and material costs |
 | Flame stabilizer | Optimized drilled wing orifice pattern producing short, compact flame design feature | Power Burners page teg+ section; nozzle design uses pilot flame propagation drilling and varying orifice sizes |
 | Application | HRSG and Turbine Exhaust Gas (TEG) supplementary firing application | Power Burners page Duct burners and teg+ sections |
+| Burner design | Zeeco: 'TEG+ burners use flame stabilizers featuring an optimized drilled win... | Zeeco: 'TEG+ burners use flame stabilizers featuring an optimized drilled wing orifice pattern to create a short, compact flame. The nozzle design features pilot flame propagation drilling and varying orifice sizes throughout the runner' |
+| Support structure | Zeeco: 'Our self-supporting burners eliminate the need for internal fixed str... | Zeeco: 'Our self-supporting burners eliminate the need for internal fixed structural support, which can cause binding and overall deformation – dramatically reducing installation time and material costs.' |
+| Applications | Zeeco: 'supplementary firing for heat recovery steam generators (HRSG), Flue ... | Zeeco: 'supplementary firing for heat recovery steam generators (HRSG), Flue Gas preheat for Selective Catalytic Reduction (SCR), Combined Cycle / Co-Gen, or other air heating applications' |
+| Register-style option | Zeeco: 'register-style duct burner ... delivers high efficiency and excellent... | Zeeco: 'register-style duct burner ... delivers high efficiency and excellent reliability across a wide range of both gaseous and liquid fuels' |
+| Coen Castings configurations | single and double-wing (PowerPlus) n/a | Coen Castings represent the most rugged solution with single and double-wing (PowerPlus) configurations |
+| LDRW design | modular construction; accommodates thermal growth; variable draft conditions n/a | The LDRW (Low Draft Reverse Wing) model is crafted for versatility and reliability in retrofit or modular projects |
+| VC design | V-cone tip, optimized flow characteristics, enhanced flame shaping and mixing n/a | The VC (V-Cone Tip Wing) flame holder specializes in enhanced flame shaping and robust mixing |
+| HRSG optimisation | purpose-built for HRSG systems in combined cycle and cogeneration n/a | Our duct burners are engineered specifically for HRSGs, delivering reliable, high-efficiency performance in combined cycle, dual cycle, and cogeneration applications |
+| CFD | Advanced CFD Modeling for flow, flame stability and temperature uniformity n/a | Advanced CFD Modeling: Precision-engineered flow, flame stability, and temperature uniformity |
+| Integrated options | proprietary igniters, flame scanners, optional instrumentation packages n/a | Includes proprietary igniters, flame scanners, and optional instrumentation packages |
+| Installations | more than 1,000 installations worldwide n/a | With more than 1,000 installations worldwide, we are the global leader in industrial duct burner solutions |
+| OEM heritage | experience as the OEM behind technologies such as Coen and Hamworthy Combustion n/a | including experience as the OEM behind technologies such as Coen and Hamworthy Combustion |
+| Emissions compliance | Meets strict NOx, CO, and other emissions standards n/a | Reliable Compliance: Meets strict NOx, CO, and other emissions standards |
 
 - **John Zink (Koch Engineered Solutions)** ProLine in-line duct burner: 0.03 lb/MMBtu NOx and CO, to 5 MMBtu/hr/ft, 20:1 turndown
 - **John Zink (Koch Engineered Solutions)** Duct-burner flame holders: LDRW low-draft reverse wing, VC V-cone tip wing and Coen castings, with igniters and flame scanners
@@ -714,6 +1002,19 @@ Vendors: Cleaver-Brooks, Zeeco, John Zink (Koch Engineered Solutions), ALZETA, M
 | Furnace pressure | 3.6-5.6 inches water column (unit not printed in table) | Technical Data table value 3.6-5.6; unit not stated on page, so not asserted as a named unit |
 | Minimum gas pressure | 5 table value (unit not printed) | Technical Data table |
 | Mode of operation | Full modulation; parallel positioning standard control mode | Technical Data table |
+| O2 level | 3 % | '~3% O2 across a wide load range' |
+| Turndown ratio | 10 ratio | 'Up to 10:1 turndown ratio when firing gas' |
+| Gas input | 16.8 'natural gas fuel option from 16.8 to 54.6 MMBTU/hr' / 'Input Capacity 16,800 - 54,600' | As printed on the cited catalogue page. |
+| Backup fuel | 'Can fire #2 fuel oil as back up fuel'; 'Fuel: Gas, Oil' | 'Can fire #2 fuel oil as back up fuel'; 'Fuel: Gas, Oil' |
+| QLN burner - firing capacity | 450 MMBTU/HR HHV (up to) | John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated |
+| QLN burner - fuels | Gas and #2/light oil firing n/a | John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated |
+| QLN burner - NOx reduction method | Advanced air/fuel premixing, fuel staging and internal flue gas recirculation (FGR) n/a | John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated |
+| QLN burner - applications | Once-through steam generators (OTSGs) and heaters; diffuse flame for process heaters n/a | John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated |
+| Heat input | ?-360 MMBtu/hr per burner | GB burners can be designed with heat inputs in excess of 360 MMBtu/hr per burner |
+| Fuel flexibility | natural gas, #6/#2 fuel oils, to low-Btu gases (blast furnace gas) n/a | natural gas, #6/#2 fuel oils, to low-Btu gases (blast ...) |
+| Retrofit | The GB burner installation can be recognized with little to no pressure part modifications n/a | Retrofit boiler applications: The GB burner installation can be recognized with little to no pressure part modifications |
+| Tip exposure | ?-1 inch | Low maintenance cost since tip mass is small and exposed into firebox less than 1" (25 mm) |
+| Quality system | ISO 9001: 2015 / ISO 9001 accredited n/a | ISO 9001: 2015; Zeeco's ISO 9001 accredited quality management system |
 
 - **Cleaver-Brooks** ProFire SBR-30 / SBR-5: 16.8-54.6 and 10.5-42 MMBtu/hr; 10:1; 30 ppm without FGR / 5 ppm with FGR
 - **Zeeco** PLN / GO: 2.5-63 MMBtu/hr; 10:1; 9-40 ppm versus excess air (PLN), 30 ppm at 15% excess air (GO)
@@ -876,6 +1177,27 @@ Vendors: Supplier not identified in sources read (WBS line item), Southern Cable
 | Nexans 33 kV single-core 630 mm2 XLPE  — current carrying capacity, copper, laid in trefoil, in air | 1160 A | Powerandcables.com Nexans 33kV 1C 630sqmm BS7870 table: 'Current Carrying Capacity (cables laid in trefoil) In Air A' copper 1160, aluminium 940. Ampacity basis printed on page: depth of cover 800 mm, soil thermal resistivity 1.2 K.m/W, soil temperature 15 deg C, ambient air 25 deg C, max conductor temperature 90 deg C. |
 | Nexans 33 kV single-core 630 mm2 XLPE  — current carrying capacity, copper, laid in trefoil, direct buried | 850 A | Powerandcables.com Nexans 33kV 1C 630sqmm BS7870 table: 'Direct Buried A' copper 850, aluminium 690; single way ducts copper 780, aluminium 650; same ampacity conditions as stated on page. |
 | Underground power cables and condu — Largest certified underground transmission cable conductor size | 1800 sq. mm | Southern Cable press release, 2 July 2026: 'product certification for its high-capacity underground transmission cable with conductor sizes of up to 1,800 sq. mm.' |
+| Rated voltage | "Rated voltage 19/33kV" / "suitable for rated voltage 19/33KV according to IE... | "Rated voltage 19/33kV" / "suitable for rated voltage 19/33KV according to IEC 60502-2" |
+| Standards | "International Standards: IEC 60502-2"; "National Standards: BS 7870-4.10" | "International Standards: IEC 60502-2"; "National Standards: BS 7870-4.10" |
+| Nominal cross-sectional area | 630 sqmm | Technical specification table: nominal cross-sectional area 630 (copper) / 630 (aluminium) |
+| Approximate diameter over conductor (copper) | 30.3 mm | Table, 'Cables with Copper Conductors' column |
+| Approximate diameter over conductor (aluminium) | 32 mm | Table, 'Cables with Aluminium Conductors' column |
+| Approximate diameter over insulation (copper / aluminium) | Table: 48.3 mm (copper conductor cable) / 48 mm (aluminium conductor cable) | Table: 48.3 mm (copper conductor cable) / 48 mm (aluminium conductor cable) |
+| Approximate overall diameter | Table: 58 mm (copper) / 57.6 mm (aluminium) | Table: 58 mm (copper) / 57.6 mm (aluminium) |
+| Approximate cable weight | Table: 7740 (copper column) / 3770 (aluminium column), labelled kg/m | Table: 7740 (copper column) / 3770 (aluminium column), labelled kg/m |
+| Minimum bending radius (static) | 580 mm | Table: 580 mm for both copper and aluminium; note 'Values for minimum bending radius are multiplied by two for cables being laid (dynamic)' |
+| Maximum pulling tension | Table: 3150 (copper) / 1890 (aluminium) | Table: 3150 (copper) / 1890 (aluminium) |
+| Maximum DC resistance at 20 C | Table: 0.0283 (copper) / 0.0469 (aluminium) | Table: 0.0283 (copper) / 0.0469 (aluminium) |
+| Maximum AC resistance at 90 C | Table: 0.042 (copper) / 0.064 (aluminium) | Table: 0.042 (copper) / 0.064 (aluminium) |
+| Inductance at 50 Hz and 90 C | 0.31 mH/km | Table: 0.31 for both conductors |
+| Approximate capacitance | 0.32 microF/km | Table: 0.32 for both conductors |
+| 1-second short-circuit rating of conductor (90 to 250 C) | Table: 90.7 (copper) / 60.2 (aluminium) | Table: 90.7 (copper) / 60.2 (aluminium) |
+| 1-second short-circuit rating of 35 sqmm copper wire screen (80 to 250 C) | 4.8 kA | Table: 4.8 for both conductor options |
+| 1-second short-circuit rating of 50 sqmm copper wire screen (80 to 250 C) | 8.2 kA | Table: 8.2 for both conductor options |
+| Current carrying capacity, direct buried (trefoil) | Table: 850 (copper) / 690 (aluminium) | Table: 850 (copper) / 690 (aluminium) |
+| Current carrying capacity, single way ducts (trefoil) | Table: 780 (copper) / 650 (aluminium) | Table: 780 (copper) / 650 (aluminium) |
+| Current carrying capacity, in air (trefoil) | Table: 1160 (copper) / 940 (aluminium) | Table: 1160 (copper) / 940 (aluminium) |
+| Ampacity basis (assumptions) | "Ampacity Values based on: Depth of cover = 800mm; Thermal resistivity of soi... | "Ampacity Values based on: Depth of cover = 800mm; Thermal resistivity of soil = 1.2K.m/W; Soil temperature = 15°C; Ambient Air temperature = 25°C; Maximum conductor temperature = 90°C" |
 
 
 Recorded gaps:
@@ -902,6 +1224,7 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale, Saipem (ex-Mi
 | condenser pressure regime (stripping process) | full system pressure n/a | Wikipedia: stripped ammonia carried directly to a carbamate condenser 'also under full system pressure' |
 | condenser type (conventional recycle) | falling-film n/a | Wikipedia: recombining CO2 and NH3 in a falling-film carbamate condenser before pumping carbamate solution back to reactor |
 | outside diameter stocked | 19.05 mm and 25.4 mm mm | UreaKnowHow news item: one-week delivery for critical heat exchanger needs |
+| Sanicro 35 heat exchanger tube - stocked outside diameters | 19.05 mm and 25.4 mm OD (Sanicro(R) 35 heat exchanger tubes now stocked) n/a | UreaKnowHow.com homepage, Solution Providers News item 'ALLEIMA - One-Week delivery for critical Heat Exchanger needs' (news dated November 2026 on retrieved page) |
 
 - **Stamicarbon** LAUNCH MELT pool condenser design: capacities from about 2,500 up to 6,000 mtpd
 - **thyssenkrupp Uhde** Urea 2000plus pool condenser: horizontal high-pressure carbamate condenser with submerged U-tube bundle
@@ -929,6 +1252,27 @@ Vendors: Axis Communications AB, Siemens, Yokogawa (2 model lines recorded).
 | Axis F101-A XF P1367 explosion-protect — network video standards | Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'ONVIF® Profile G, ONVIF®... | Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'ONVIF® Profile G, ONVIF® Profile S, and ONVIF® Profile T' and supported protocol list. (value: ONVIF Profile G, S and T; H.264 and Motion JPEG; RTSP/RTP/SRTP; IEEE 802.1X) |
 | Axis F101-A XF P1367 explosion-protect — operating temperature in hazardous zone | -50-60 °C (Zone system), -40 to 60 °C Class/Division system | Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'Hazardous location operating temperature: Zone system: -50 °C to 60 °C ... Class/Division system: -40 °C to 60 °C'. |
 | Siemens RUGGEDCOM RST2228P PoE switch  — use case shown in manufacturer brochure | Siemens RUGGEDCOM 19” Layer 2 Ethernet Switches brochure, Edition 09/2018, re... | Siemens RUGGEDCOM 19” Layer 2 Ethernet Switches brochure, Edition 09/2018, read via r.jina.ai: figure caption 'Fully redundant communication network based on the RUGGEDCOM RST2228P is suitable for oil & gas applications ... CCTV Client PC ... PoE Cameras'. (value: CCTV Client PC, Recording Server (Fail Over), PoE Cameras in oil & gas applicati) |
+| Camera - image sensor | 1/2.9" progressive scan RGB CMOS n/a | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - lens | IR corrected i-CS lens, varifocal 2.8-8.5 mm, F1.2; horizontal FOV 104-36 deg, vertical 55-20 deg n/a | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - minimum illumination | Color 0.15 lux; B/W 0.03 lux at 50 IRE, F1.2 n/a | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - resolution | 3072x1728 (5 MP) to 160x90 n/a | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - frame rate | 25/30 fps (50/60 Hz) in all resolutions n/a | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - WDR forensic capture | 120 dB (up to, depending on scene) | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - SoC | ARTPEC-6; 1 GB RAM, 512 MB Flash n/a | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - power | PoE IEEE 802.3af/802.3at Type 1 Class 3, typical 5.0 W, max 9.1 W; heater 12-30 V AC/DC, 26 W n/a | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - operating temperature (Zone system) | -50-60 degC (-58 to 140 degF) | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - operating temperature (Class/Division system) | -40-60 degC (-40 to 140 degF) | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - ingress protection / enclosure | IP66-rated powder-coated aluminum chassis; ANSI/NEMA 250 4X n/a | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - hazardous location certification | Class I/II/III, Division 1 and Zone 1 certified; FM Class 3600:2018, 3615:2018, 3616:2011; IEC/EN 60079-0/-1/-31 n/a | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| Camera - storage | Pre-installed AXIS Surveillance microSDXC 128 GB n/a | Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet (3 pages), published 22 May 2026 (jina metadata) |
+| RST2228P - switch type | High port density field modular Power-over-Ethernet (PoE) enabled 19-inch Layer 2 rack switch n/a | Siemens RUGGEDCOM 19" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section |
+| RST2228P - uplinks | 10 Gbit/s uplinks; support for IEEE 1588 n/a | Siemens RUGGEDCOM 19" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section |
+| RST2228P - module slots | 6 slots for various media modules n/a | Siemens RUGGEDCOM 19" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section |
+| RUGGEDCOM - operating temperature | -40-85 degC (no fans, passive cooling) | Siemens RUGGEDCOM 19" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section |
+| RUGGEDCOM - universal high-voltage supply | 88-300 VDC or 85-264 VAC n/a | Siemens RUGGEDCOM 19" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section |
+| RUGGEDCOM - low-voltage supply options | 12 VDC, 24 VDC or 48 VDC n/a | Siemens RUGGEDCOM 19" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section |
+| RUGGEDCOM - standards compliance | IEC 61850-3, IEEE 1613 Class 2 (error-free), NEMA TS 2; CSA/UL 60950 approved to +85 degC n/a | Siemens RUGGEDCOM 19" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section |
+| RST2228P - CCTV use case | Fully redundant communication network suitable for oil & gas applications; connects PoE cameras, IP phones and other devices n/a | Siemens RUGGEDCOM 19" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section |
 
 - **Axis Communications AB** Axis F101-A XF P1367 explosion-protected network camera: hazardous-area fixed IP camera
 - **Siemens** Siemens RUGGEDCOM RST2228P PoE switch (CCTV network use case): PoE network switch for cameras
@@ -1009,6 +1353,32 @@ Vendors: Cummins Inc., Rolls-Royce Power Systems (mtu), Caterpillar, INNIO / War
 | Portfolio maximum (50 Hz) | 4000 kVA | Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz) |
 | Series 4000 power range | 1600-4000 kVA (50 Hz); 1,125-3,250 kWe (60 Hz) | mtu Series 4000 POWER RANGE: 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe |
 | Series 2000 power range | 770-1400 kVA (50 Hz); 680-1,250 kWe (60 Hz) | mtu Series 2000 POWER RANGE: 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe |
+| Commercial genset start and load acceptance | Able to start and assume load in less than 10 seconds, and rated load in a single step seconds | 'Able to start and assume load in less than 10 seconds, and rated load in a single step, Cummins commercial generators are the epitome of rugged dependability.' |
+| Quiet Diesel series frequency | 60, 50 Hz | Cummins Quiet Diesel Generators product card: 'Frequency (Hz) 60, 50'; Certification EPA Tier 4. |
+| Quiet Diesel noise reduction | 15 dB(A) (up to, quieter than other diesel generators) | 'their revolutionary design makes these generator sets up to 15 dB(A) quieter than other diesel-powered generators, and quieter than most gasoline sets.' |
+| Quiet Diesel full-load ambient capability | 120 F (50 C) deg F / deg C | 'Meets full load capability at 120 F (50 C) ambient conditions.' |
+| Quiet Diesel construction and mounting | Totally enclosed incl. cooling, muffler and intake; 4-point mounting system n/a | 'The units are totally enclosed, including cooling, muffler and intake systems' and '4-point mounting system Designed to provide clean, quiet power with low vibration'. |
+| Standard Diesel series frequency | 50, 60 Hz | Cummins Standard Diesel Generators product card: 'Frequency (Hz) 50, 60'; Certification EPA Tier 4. |
+| Standard Diesel full-load ambient capability | 120 F (50 C) deg F / deg C | 'Meets full load capability at 120 F (50 C) ambient conditions*'; '*Does not apply to 20 HDKDB'. |
+| Standard Diesel application note | Open and compartment-type applications; low speed for long life n/a | 'All standard diesel generators operate at low speed for long life, and can be used in both open and compartment-type applications.' |
+| Portfolio maximum 60 Hz | 3250 kWe | 'Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz).' |
+| Portfolio maximum 50 Hz | 4000 kVA | As above. |
+| Load factor standby / prime | 85% / 75% % | '85% load factor for standby applications and 75% for prime power'. |
+| Transient operation claim | Superior transient operation, industry leading load factors in extreme ambient conditions n/a | Wide range of applications / transient operation bullets. |
+| Sustainable fuel approval | Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO n/a | 'mtu Series 4000 and Series 1600 engines for power generation are approved to run on synthetic paraffinic diesel fuels in accordance with EN 15940, which includes the biofuel HVO'. |
+| Power range - mtu Series 4000 | 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 4000 POWER RANGE: 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe'. |
+| Power range - mtu Series 2000 | 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 2000 POWER RANGE: 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe'. |
+| Power range - mtu Series 1600 | 50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 1600 POWER RANGE: 50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe'. |
+| Power range - mtu Series 0080 - mtu Series 0225 | 50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 0080 - mtu Series 0225 POWER RANGE: 50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe'. |
+| Lowest power series noted | Series 0080 - Series 0225: 50 Hz 30-94 kVA; 60 Hz 27-400 kWe n/a | Output range section, fourth portfolio block. |
+| Sunny Boy power classes | 3 / 3.6 / 4 / 5 / 6 kW kW | 3 kW / 3.6 kW / 4 kW / 5 kW / 6 kW |
+| Sunny Tripower power classes | 8 / 10 / 12 / 15 / 20 / 25 kW kW | 8 kW / 10 kW; 12 kW / 15 kW / 20 kW / 25 kW |
+| Sunny Tripower X power classes | 50 / 60 kW kW | 50 kW / 60 kW |
+| Sunny Highpower PEAK3 | 125 kW | 125 kW |
+| Sunny Central UP power classes | 100 / 150 / 172 / 180 kW kW | 100 kW / 150 kW / 172 kW / 180 kW |
+| Maximum central inverter power | ?-4600 kW | maximum 4,600 kW |
+| Single-phase inverter limit in Germany | 4.6 kVA | single-phase inverters may be used up to a system size with an apparent power of 4.6 kilovolt-amperes (kVA) |
+| Grid code | VDE-AR-N 4105 n/a | In 2012, the legislative authority in Germany passed a so-called code of practice (VDE-AR-N 4105) |
 
 
 Recorded gaps:
@@ -1077,6 +1447,22 @@ Vendors: John Zink (Koch Engineered Solutions), FlareTech, Zeto (0 model lines r
 | Instantaneous turndown | 10:1 ratio (up to) | this system provides up to 10:1 instantaneous turndown from maximum design without the need for external adjustments |
 | Capacity | 6000 SCFM | Features: Exceptional Capacity - Processes up to 6,000 SCFM at 50% methane concentration |
 | Methane concentration basis | 50 % | Processes up to 6,000 SCFM at 50% methane concentration |
+| Standard | "Available API 537 Compliance: Ensures compliance with the latest Industry fl... | "Available API 537 Compliance: Ensures compliance with the latest Industry flare standards" |
+| Turndown / staging | "High pressure technology with staging allows smokeless operation for the ful... | "High pressure technology with staging allows smokeless operation for the full range of flows"; "Staging System: Allows exceptional turndown capabilities" |
+| Power / utility requirement | John Zink: 'an advanced, electric-powered flare ignition solution that elimin... | John Zink: 'an advanced, electric-powered flare ignition solution that eliminates the need for pilot fuel gas and instrument air'; '100% Electric Operation – No need for pilot fuel gas or instrument air' |
+| Applicable flare types | John Zink: 'Designed for vertical and horizontal flare applications'; 'includ... | John Zink: 'Designed for vertical and horizontal flare applications'; 'including burn pits' |
+| Construction | John Zink: 'no moving parts, no consumable pilot components, and high-quality... | John Zink: 'no moving parts, no consumable pilot components, and high-quality stainless-steel construction, built to withstand high temperatures' |
+| turndown | 10 to 1 | High Turndown Capability: Supports up to 10:1 instantaneous turndown from maximum design without manual adjustments |
+| capacity | 6000 SCFM at 50% methane | Exceptional Capacity: Processes up to 6,000 SCFM at 50% methane concentration |
+| destruction_rate_efficiency | 98-? % | Efficient Combustion: Achieves greater than 98% destruction rate efficiencies |
+| combustion_configuration | Dual-Pressure Combustion: simultaneously handles high and low-pressure gas streams n/a | Product feature list |
+| gas_compatibility | raw biogas, off-spec RNG, or mixed gas streams n/a | Biogas and RNG Compatibility feature |
+| Pressure-assisted flare - flare tip models | Indair, KMI (Kaldair Multipoint Indair), JZ Hydra, JZ Poseidon, KSP n/a | John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated |
+| Pressure-assisted flare - smokeless operation | Operate smokelessly at almost all waste gas flow rates without supplemental steam or air n/a | John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated |
+| Pressure-assisted flare - turndown | Unlimited turndown offered by some systems n/a | John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated |
+| Pressure-assisted flare - assist medium | No assist medium required; uses pressure inherent in waste stream n/a | John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated |
+| Pressure-assisted flare - tip technology | Proprietary high-pressure burner technology; variable slot Coanda flare tip; stiff low-emissivity flames for low thermal radiation n/a | John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated |
+| Pressure-assisted flare - service history | Successfully used in a wide range of applications for over 30 years n/a | John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated |
 
 
 Recorded gaps:
@@ -1155,6 +1541,87 @@ Vendors: Howden (a Chart Industries company; KK&K, CKD brands), Siemens Energy (
 | RV model flow | 400-85000 m3/h | Multistage model table: RV, Flow (m3/h) 400-85,000; 400-170,000 (back-to-back); Pressure Ratio up to 10.0; Impeller Dia. (mm) up to 780 |
 | CKD multistage discharge pressure | 20 MPa | CKD compressors serve flow requirements up to 1700,000 m3/h (as printed) and discharge pressures of up to 20 MPa |
 | SFO/SFP/SFN pressure | 50 bar | SFO, SFP and SFN series formerly branded as Kühnle, Kopp & Kausch. Single and multi-stage turbo compressors for the chemical and petrochemical industries with pressures up to 50 bar and flow rates up to 200,000 m3/hr |
+| Applications | 'engineered for a wide variety of applications, from petroleum refineries to ... | 'engineered for a wide variety of applications, from petroleum refineries to FPSO offshore platforms' |
+| Liquid seal design | 'We use deep liquid seals that provide the necessary hydrostatic head' to 'pr... | 'We use deep liquid seals that provide the necessary hydrostatic head' to 'prevent air backflow and ensure stable operation of the compressor and flare system' |
+| Compression technologies | 'Ejectors ... particularly useful in applications requiring a simple, mainten... | 'Ejectors ... particularly useful in applications requiring a simple, maintenance-free solution' |
+| Emissions reduced | 'designed to significantly reduce emissions, including NOx, CO, CO2, and SOx' | 'designed to significantly reduce emissions, including NOx, CO, CO2, and SOx' |
+| Flare gas sweetening | 'Flare gas often contains impurities like H2S that need to be removed' | 'Flare gas often contains impurities like H2S that need to be removed' |
+| Maximum flow (Howden range) | 600000 m3/h (up to) | "comprehensive range of Industrial Centrifugal Turbo Compressors up to 600,000 m3/h" |
+| Installed base | 4000 installations (over) | "Customizable Centrifugal Turbo Compressors proven over 100 years and 4000 installations" |
+| Single stage flow range | 3000-600000 m3/h | "model range serves applications requiring flows of between 3,000 m3/h and 600,000 m3/h with pressure ratios up to 3.5" |
+| CKD maximum flow / discharge pressure | "CKD compressors ... flow requirements up to 1700,000 m3/h and discharge pres... | "CKD compressors ... flow requirements up to 1700,000 m3/h and discharge pressures of up to 20 MPa" [sic – printed as 1700,000] |
+| SFO/SFP/SFN pressure and flow | "SFO, SFP and SFN series ... pressures up to 50 bar and flow rates up to 200,... | "SFO, SFP and SFN series ... pressures up to 50 bar and flow rates up to 200,000 m3/hr" |
+| SF model | 15000-600000 m3/h | Single stage table: SF flow 15,000-600,000 m3/h, pressure ratio up to 3.5, impeller dia up to 2240 mm, electric or turbine drive |
+| SFG model | 5000-300000 m3/h | Single stage table: SFG flow 5,000-300,000 m3/h, ratio up to 3.5, impeller dia up to 1120 mm |
+| ST model | 1500-150000 m3/h | Single stage table: ST flow 1,500-150,000 m3/h, ratio up to 3.5, impeller dia up to 900 mm, integrated steam turbine drive |
+| SL model | 15000-450000 m3/h | Single stage table: SL flow 15,000-450,000 m3/h, ratio up to 1.45, impeller dia up to 1800 mm, coke oven gas |
+| RS model | 400-65000 m3/h | Multistage table: RS flow 400-65,000 m3/h, pressure ratio up to 10.0, impeller dia up to 700 mm |
+| RV model | 400-170000 m3/h | Multistage table: RV flow 400-85,000 m3/h (400-170,000 back-to-back), ratio up to 10.0, impeller dia up to 780 mm |
+| SFG Twin / Back-to-Back | 3000-200000 m3/h | Multistage table: SFG Back-to-Back 3,000-75,000 m3/h (ratio up to 6.0, impeller up to 560 mm); SFG Twin 3,000-200,000 m3/h (ratio up to 6.0, impeller up to 900 mm) |
+| Overall flow range of turbo compressors | 600000 m3/h (up to) | Howden: 'comprehensive range of Industrial Centrifugal Turbo Compressors up to 600,000 m3/h' |
+| Single-stage range (KK&K) | 3000-600000 m3/h | Howden: 'model range serves applications requiring flows of between 3,000 m3/h and 600,000 m3/h with pressure ratios up to 3.5' |
+| Multistage range (KK&K / CKD) | 400-200000 m3/h | Howden: 'model range serves applications requiring flows of between 400 m3/h and 200,000 m3/h with pressure ratios up to 10.0' |
+| CKD discharge pressure | 20 MPa (up to) | Howden CKD: 'flow requirements up to 1700,000 m3/h and discharge pressures of up to 20 MPa' |
+| SF model flow / pressure ratio / impeller | Howden table: SF '15,000-600,000 m3/h; up to 3.5; impeller dia up to 2240 mm;... | Howden table: SF '15,000-600,000 m3/h; up to 3.5; impeller dia up to 2240 mm; electric or turbine' |
+| SFG model flow / pressure ratio / impeller | Howden table: SFG '5,000-300,000 m3/h; up to 3.5; impeller dia up to 1120 mm' | Howden table: SFG '5,000-300,000 m3/h; up to 3.5; impeller dia up to 1120 mm' |
+| ST model (integrated steam turbine) | Howden table: ST '1,500-150,000 m3/h; up to 3.5; impeller dia up to 900 mm; s... | Howden table: ST '1,500-150,000 m3/h; up to 3.5; impeller dia up to 900 mm; steam turbine (integrated)' |
+| RS multistage model | Howden table: RS '400-65,000 m3/h; up to 10.0; impeller dia up to 700 mm' | Howden table: RS '400-65,000 m3/h; up to 10.0; impeller dia up to 700 mm' |
+| RV multistage model | Howden table: RV '400-85,000 m3/h; 400-170,000 (back-to-back)' | Howden table: RV '400-85,000 m3/h; 400-170,000 (back-to-back)' |
+| SFG Back-to-Back / Twin models | Howden table: SFG Back-to-Back '3,000-75,000 m3/h; up to 6.0; impeller up to ... | Howden table: SFG Back-to-Back '3,000-75,000 m3/h; up to 6.0; impeller up to 560 mm'; SFG Twin '3,000-200,000 m3/h; up to 6.0; impeller up to 900 mm' |
+| rated_power_1_throw_JGN | 126 BHP | Spec Sheet 1 Throw table: JGN Rated Power 126 (JGQ 140) |
+| rated_power_1_throw_JGQ | 140 BHP | Spec Sheet 1 Throw table: JGQ Rated Power 140 |
+| rated_power_2_throw_JGN | 252 BHP | Spec Sheet 2 Throw table: JGN Rated Power 252 (JGQ 280) |
+| rated_power_2_throw_JGQ | 280 BHP | Spec Sheet 2 Throw table: JGQ Rated Power 280 |
+| stroke_JGN | 3.5 in | Spec Sheet, Stroke (in) JGN 3.5; JGQ 3.0 |
+| stroke_JGQ | 3 in | Spec Sheet, Stroke (in) JGQ 3.0 |
+| max_rpm_JGN | 1500 rpm | Spec Sheet, Max RPM JGN 1,500; JGQ 1,800 |
+| max_rpm_JGQ | 1800 rpm | Spec Sheet, Max RPM JGQ 1,800 |
+| piston_speed_JGN | 875 not stated | Spec Sheet, Piston Speed 875 (JGN) / 900 (JGQ) - unit not printed |
+| piston_speed_JGQ | 900 not stated | Spec Sheet, Piston Speed 900 (JGQ) - unit not printed |
+| rod_diameter | 1.125 in | Spec Sheet, Rod Diameter (in) 1.125 (both frames and throws) |
+| total_rod_load_1_throw | 18000-20000 lbs | Spec Sheet 1 Throw, Total Rod Load (lbs) JGN 18,000 / JGQ 20,000 |
+| total_rod_load_2_throw | 18000-20000 lbs | Spec Sheet 2 Throw, Total Rod Load (lbs) JGN 18,000 / JGQ 20,000 |
+| tension_rod_load_1_throw | 9000-10000 lbs | Spec Sheet 1 Throw, Tension (lbs) 9,000 / 10,000 |
+| compression_rod_load_1_throw | 10000-11000 lbs | Spec Sheet 1 Throw, Compression (lbs) 10,000 / 11,000 |
+| average_weight_1_throw | 1400 lbs | Spec Sheet 1 Throw, Average Weight (lbs) 1,400 |
+| average_weight_2_throw | 2200 lbs | Spec Sheet 2 Throw, Average Weight (lbs) 2,200 |
+| max_length_1_throw | 37 in | Spec Sheet 1 Throw, Max Length (in) 37 |
+| max_length_2_throw | 34 in | Spec Sheet 2 Throw, Max Length (in) 34 |
+| nominal_width_1_throw | 62 in | Spec Sheet 1 Throw, Nominal Width (in) 62 |
+| nominal_width_2_throw | 83 in | Spec Sheet 2 Throw, Nominal Width (in) 83 |
+| crankshaft_centerline | 9.25 in | Spec Sheet, Crankshaft Centerline (in) 9.25 (all configurations) |
+| frame_horsepower_range | 250-280 BHP | The rugged characteristics in these two frames (250-280 BHP) |
+| crankcase_material | Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing n/a | Materials section (printed verbatim) |
+| crosshead_material | Ductile Iron Crosshead: Alloy steel crosshead pin n/a | Materials section (printed verbatim) |
+| connecting_rod_material | Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts n/a | Materials section (printed verbatim) |
+| applications | field-gas applications; gas-lift and CNG vehicle-fueling; three-stage configurations rental fleets n/a | Product description: workhorse in field-gas applications; high-pressure cylinders; gas-lift and CNG vehicle-fueling applications |
+| JGN 1-throw - rated power | 126 BHP | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGQ 1-throw - rated power | 140 BHP | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN 1-throw - stroke | 3.5 in | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGQ 1-throw - stroke | 3.0 in | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN 1-throw - max RPM | 1500 rpm | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGQ 1-throw - max RPM | 1800 rpm | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN 1-throw - piston speed | 875 n/a | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGQ 1-throw - piston speed | 900 n/a | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ 1-throw - rod diameter | 1.125 in | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN 1-throw - total rod load | 18000 lbs | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGQ 1-throw - total rod load | 20000 lbs | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN 1-throw - tension load | 9000 lbs | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGQ 1-throw - tension load | 10000 lbs | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN 1-throw - compression load | 10000 lbs | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGQ 1-throw - compression load | 11000 lbs | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ 1-throw - average weight | 1400 lbs | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ 1-throw - max length | 37 in | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ 1-throw - nominal width | 62 in | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ - crankshaft centerline | 9.25 in | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN 2-throw - rated power | 252 BHP | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGQ 2-throw - rated power | 280 BHP | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ 2-throw - average weight | 2200 lbs | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ 2-throw - max length | 34 in | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ 2-throw - nominal width | 83 in | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ - frame horsepower range | 250-280 BHP n/a | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ - crankcase material | Gray iron crankcase; forged steel crankshaft; gray iron crosshead guide; tri-metal main bearing n/a | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
+| JGN/JGQ - crosshead and connecting rod material | Ductile iron crosshead; alloy steel crosshead pin; forged steel connecting rod; bronze crosshead pin bushing; tri-metal connecting rod bearing; grade 8 stress bolts n/a | Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation |
 
 
 Recorded gaps:
@@ -1237,6 +1704,16 @@ Vendors: ASME, API (0 model lines recorded).
 | Flange adapter standards families | ANSI / DIN / EN / Lap Joint flange families (as printed) | Flange Adapters categories listed: ANSI Flanges, DIN Flanges, EN Flanges, Lap Joint Flanges |
 | Pipe joining product families | Rigid / Flexible / Transition / Reducing / Outlet / Plain End / Flange Adapters / Expansion Joints / Press families (as printed) | Pipe Joining category listing on the Products page |
 | Fitting materials | carbon steel, stainless steel, copper, HDPE, PVC/CPVC and other pipe materials materials (as printed) | Fittings section: hundreds of pipe fittings and a range of adapters and outlets in carbon steel, stainless steel, copper, HDPE, PVC/CPVC and other pipe materials |
+| flow_control_valve_configurations | level-control, pressure-reducing and pressure-release configurations n/a | Our hydraulic control valves are available in level-control, pressure-reducing and pressure-release configurations to be paired with a variety of piping material and joining systems |
+| Swagelok medium/high pressure fittings - temperature | 1000 degF (537 degC), up to | Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated |
+| Swagelok medium/high pressure fittings - pressure rating | 60000 psig (4134 bar), up to | Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated |
+| Swagelok medium/high pressure fittings - sizes | 1/4 to 1 in medium pressure; 1/4 to 9/16 in high pressure n/a | Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated |
+| Swagelok medium/high pressure fittings - compliance | NACE MR0175/ISO 15156 compliance available n/a | Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated |
+| VCR metal gasket face seal fittings - sizes | 1/16 to 1 in and 6 to 18 mm; high-purity stainless steels n/a | Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated |
+| VCO O-ring face seal fittings | Designed for easy assembly in pipe, tube and welded systems n/a | Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated |
+| Flange adapters | Threadless, weldless transition from flanged piping to tubing; flange types meet ASME, DIN, EN and JIS; tube fitting ends up to 50 mm and 2 in n/a | Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated |
+| Ultra-Torr vacuum fittings | Stainless steel construction; fluorocarbon FKM O-ring; tube sizes 1/16 to 1 1/2 in n/a | Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated |
+| Swagelok tube fitting design | Two-ferrule stainless-steel tube fitting n/a | Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated |
 
 
 Recorded gaps:
@@ -1332,6 +1809,26 @@ Vendors: LONGi, Sungrow, SolarEdge, Trina Solar (0 model lines recorded).
 | Pmax STC (LR7-72HYD-635M to 660M) | 635-660 W | Electrical Performance Parameters (STC Test) table: Maximum power (Pmax/W) 635 / 640 / 645 / 650 / 655 / 660 |
 | Voc STC | 53.5-54.0 V | Electrical Performance Parameters (STC Test) table: Open-circuit voltage (Voc/V) 53.50 to 54.00 |
 | Isc STC | 15.01-15.41 A | Electrical Performance Parameters (STC Test) table: Short circuit current (Isc/A) 15.01 to 15.41 |
+| Global floating PV application | 4 GW (>4 GW) | "With Over 4GW of Floating PV Application, We Set the Standard"; counter ">4 GW Global Application" |
+| Patents | 290 patents (290+) | Counter "290 + Patents" |
+| Market share | Counter "NO.1 Global Market Share" | Counter "NO.1 Global Market Share" |
+| Reference project capacity | Cases: 192 MW Indonesia (reservoir, world's largest floating PV project at a ... | Cases: 192 MW Indonesia (reservoir, world's largest floating PV project at a hydroelectric power station); 200 MW Anhui Province (subsidence area, former coal mines); 4.99 MW Philippines; 5 MW France |
+| Product lines | Products for Utility Scale: TS30M (Truss Structure Product), PT60 (Pontoon Pr... | Products for Utility Scale: TS30M (Truss Structure Product), PT60 (Pontoon Product), Floating Barge (Equipment Support System) |
+| Service network | "400 + Authorized Distributors; 520 + Service Outlets; 1000 + Technical Exper... | "400 + Authorized Distributors; 520 + Service Outlets; 1000 + Technical Experts; 110,000 m2 Warehouse total area" |
+| Maximum module power (headline) | 670 W | LONGi Hi-MO 9 page header: 'Up to 670 <W> Module Power'; also 'Maximum power boasts up to 670W' |
+| Maximum module efficiency | 24.8 % (up to) | LONGi: 'Up to 24.80 <%> Module Efficiency'; 'Module efficiency of up to 24.8%' |
+| Cell technology | LONGi: 'HPBC 2.0 Technology — Tairay silicon wafers + HPBC 2.0 cell technolog... | LONGi: 'HPBC 2.0 Technology — Tairay silicon wafers + HPBC 2.0 cell technology'; '0BB design on the front'; 'Soft Breakdown Design — Anti-Shading, Prevent Localized overheating' |
+| Module layout | LONGi Mechanical Parameters: 'Layout 144 (6×24)' | LONGi Mechanical Parameters: 'Layout 144 (6×24)' |
+| Junction box | LONGi: 'Split junction box, IP68, 3 diodes' | LONGi: 'Split junction box, IP68, 3 diodes' |
+| Weight | 33.5 kg | LONGi Mechanical Parameters: 'Weight 33.5kg' |
+| Module dimensions | LONGi: 'Size 2382×1134×30mm' | LONGi: 'Size 2382×1134×30mm' |
+| Packaging | LONGi: '36pcs./pallet; 144pcs./20GP; 720pcs./40 HC' | LONGi: '36pcs./pallet; 144pcs./20GP; 720pcs./40 HC' |
+| Pmax, LR7-72HYD-635M to 660M (STC) | 635-660 W | LONGi Electrical Performance Parameters (STC Test): models 635M/640M/645M/650M/655M/660M; Pmax 635/640/645/650/655/660 W |
+| Open-circuit voltage Voc, 635M to 660M (STC) | 53.5-54 V | LONGi table: Voc 53.50/53.60/53.70/53.80/53.90/54.00 V |
+| Short-circuit current Isc, 635M to 660M (STC) | 15.01-15.41 A | LONGi table: Isc 15.01/15.09/15.17/15.25/15.33/15.41 A |
+| Peak power voltage Vmp, 635M to 660M (STC) | 44.36-44.85 V | LONGi table: Vmp 44.36/44.46/44.56/44.65/44.75/44.85 V |
+| Peak power current Imp, 635M to 660M (STC) | 14.32-14.64 A (values continue past 14.64 for higher models) | LONGi table: Imp 14.32/14.40/14.48/14.56/14.64/... A |
+| 30-year linear degradation advantage | 0.05 percentage points lower than conventional N-type | LONGi: '30-year full lifecycle linear degradation is 0.05 percentage points lower than conventional N-type products' |
 
 
 Recorded gaps:
@@ -1370,6 +1867,12 @@ Vendors: Veolia Water Technologies & Solutions, Wilhelmsen, LANXESS (0 model lin
 | Pump types | solenoid, peristaltic or hydraulically driven n/a | Printed under Chemical Feed Skid Capabilities |
 | Frame materials | painted carbon steel; stainless steel; non-metallic n/a | Printed under Chemical Feed Skid Capabilities |
 | Piping materials | PVC; CPVC; stainless steel (tubing or welded); Alloy 20; PVDF n/a | Printed under Chemical Feed Skid Capabilities |
+| feed_pressure_max | 3600 psi | Up to 3,600 psi feed pressures |
+| feed_rate_max | 2200 gallon/hour | Up to 2,200 gallon/hour feed rate |
+| frame_materials | not specified in extracted page text n/a | Frame Materials heading present with no value printed in extracted text |
+| piping_materials | Alloy 20; wide range of manufacturers offered n/a | Piping Materials: Alloy 20; Wide range of manufacturers offered |
+| integrated_accessories | strainer, pressure gauge, flow switch and check valve; optional corrosion coupon racks, water meters, or tanks mounted on PVC back plate n/a | Additional equipment description |
+| certifications | UL/CSA/API certifications n/a | Integrated Controls: Backpressure valves, Pressure relief valves, UL/CSA/API certifications |
 
 
 Recorded gaps:
@@ -1397,6 +1900,15 @@ Vendors: Concord Environmental, Fuel Tech, John Zink (Koch Engineered Solutions)
 | Structural steel assembly code | AWS D1.1 n/a | Printed under Industry Standards |
 | System design standard | API RP 550 & K61.1 n/a | Printed under Industry Standards |
 | Hazardous location option | Class 1, Div 2 n/a | Printed under Optional Features |
+| storage_capacity_max | 65000 gal | Storage System Module: Vessel storage up to 65,000 gallons |
+| vessel_standard | ASME Section VIII & National Board Registered n/a | Industry Standards: Vessels code stamped ASME Section VIII & National Board Registered |
+| piping_standard | ANSI B31.1/ANSI B31.3; fabrication ASME Section IX n/a | Industry Standards: Piping designed to ANSI B31.1/ANSI B31.3; Pipe fabrication to ASME Section IX |
+| structural_standard | AWS D1.1 n/a | Industry Standards: Structural Steel Assembly Designed to AWS D1.1 |
+| system_standard | API RP 550 & K61.1 n/a | Complete system designed to API RP 550 & K61.1 |
+| hazardous_location_option | Class 1, Div 2 Hazardous Locations n/a | Optional Features: Class 1, Div 2 Hazardous Locations |
+| vessel_material | Single & Double wall carbon steel vessels n/a | Storage System Module: Single & Double wall carbon steel vessels |
+| cold_AFCU | Integraheat Electric Process Air Heater and Steam Heat Exchanger n/a | Vaporization System Module (Cold AFCU) |
+| hot_AFCU | Hot Flue Gas n/a | Vaporization System Module (Hot AFCU): Hot Flue Gas |
 
 
 Recorded gaps:
@@ -1443,6 +1955,20 @@ Vendors: Thermax, Johnson Controls (YORK, Silent-Aire), Carrier (0 model lines r
 | Capacity | 50-3000 TR (table); header states 30-3000 TR | Value as printed in the cited source; no further qualifier stated. |
 | Cooling COP | 1.53 up to | Value as printed in the cited source; no further qualifier stated. |
 | Exhaust temperature | 250-600 deg C | Value as printed in the cited source; no further qualifier stated. |
+| Construction | 'Standard primed carbon steel construction'; 'Fully welded construction'; 'Cy... | 'Standard primed carbon steel construction'; 'Fully welded construction'; 'Cylindrical design'; 'Self-supported on discharge pipe' |
+| Materials | 'Materials: Carbon steel ASTM/ASME' | 'Materials: Carbon steel ASTM/ASME' |
+| Connections | 'supplied with either a butt-weld or flanged inlet connection' | 'supplied with either a butt-weld or flanged inlet connection' |
+| Design codes | 'Design Codes: None'; 'Certifications: None' | 'Design Codes: None'; 'Certifications: None' |
+| Temporary vent down usage | 'Steam', 'Air' | 'Steam', 'Air' |
+| Chiller-heater - capacity range | 50-3000 TR (product capacity/performance range) | Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated |
+| Chiller-heater - exhaust gas temperature | 250-600 degC (from engines, turbines or industrial furnaces) | Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated |
+| Chiller-heater - chilled water temperature | -5-35 degC | Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated |
+| Chiller-heater - hot water temperature | 110 degC (up to) | Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated |
+| Chiller-heater - cooling COP | 1.53 (up to) | Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated |
+| Chiller-heater - heating energy savings | 40 % (up to) | Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated |
+| Chiller-heater - water savings | 20 % (up to) | Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated |
+| Chiller-heater - working fluid | Lithium bromide-water solutions; double effect design based on exhaust temperature n/a | Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated |
+| Chiller-heater - process fluid options | Water, water-glycol mixtures (customisable) n/a | Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated |
 
 
 Recorded gaps:
@@ -1542,6 +2068,75 @@ Vendors: Yokogawa Electric, Emerson (duplex stainless steel option on Roxar 2600
 | Design approvals | EN 10204-3.1, NACE MR0175, NACE MR0103 approval | 'Design approvals' field in specification table |
 | Reference accuracy | up to 0.05 (Standard) / up to 0.025 (Platinum) % | 'Reference Accuracy: Standard: up to 0.05 %; Platinum: up to 0.025 %' |
 | Pressure measuring range / measuring cell | 400 mbar-700 bar mbar / bar (6 psi...10,500 psi) | 'Measuring cell: 400 mbar...700 bar (6 psi...10,500 psi)' |
+| Supply voltage Ex d / Ex e / non-Ex | 10.5-35 V DC | Endress+Hauser Cerabar PMP51B specification tab: 'Ex d, Ex e, non-Ex: 10.5...35V DC' |
+| Supply voltage Ex i | 10.5-30 V DC | Endress+Hauser: 'Ex i: 10.5...30V DC' |
+| Reference accuracy standard | 0.075 % (up to) | Endress+Hauser: 'Reference Accuracy Standard: up to 0.075 %' |
+| Reference accuracy platinum | 0.055 % (up to) | Endress+Hauser: 'Platinum: up to 0.055 %' |
+| Long term stability 1 year | 0.1 % of URL/year | Endress+Hauser: '0.1% of URL/year' |
+| Long term stability 5 years | 0.2 % of URL/5 years | Endress+Hauser: '0.2% of URL/ 5 years' |
+| Long term stability 10 years | 0.25 % of URL/10 years | Endress+Hauser: '0.25% of URL/ 10 years' |
+| Process temperature standard | -40-125 deg C | Endress+Hauser: 'Process temperature Standard: -40°C…+125°C (-40°F…+257°F)' |
+| Process temperature diaphragm seal (table 1) | -70-400 deg C | Endress+Hauser first specification block: 'Diaphragm seal: -70°C...+400°C (-x°F...+752°F)' |
+| Process temperature diaphragm seal (table 2 - conflicting) | -40-400 deg C | Endress+Hauser second specification block: 'Diaphragm seal: -40°C...+400°C (-40°F...+752°F)' — preserved as a conflict with the -70°C low end printed in the first block |
+| Measuring cell range | 0.4-400 bar | Endress+Hauser: 'Measuring cell 400 mbar...400 bar (6psi...6,000psi)' |
+| Vacuum resistance standard | 10 mbar | Endress+Hauser: 'Vacuum resistance Standard:10 mbar (0.145 psi)' |
+| Vacuum resistance diaphragm seal | 50 mbar | Endress+Hauser: 'Diaphragm seal: 50 mbar (0.725 psi)' |
+| Maximum turn down | 100 :1 | Endress+Hauser: 'Max. Turn down 100:1' |
+| Max overpressure limit (table 1) | 600 bar | Endress+Hauser first block: 'Max. overpressure limit 600 bar (9,000 psi)' |
+| Max overpressure limit (table 2 - conflicting) | 700 bar | Endress+Hauser second block: 'Process pressure / max. overpressure limit 700 bar (10,500 psi)' — preserved as a conflict, not reconciled |
+| Max measurement distance | 4000 m H2O | Endress+Hauser: 'Max. measurement distance 4000 m (13,123 ft) H2O' |
+| Process connection | Endress+Hauser: 'Thread: G1/2...G2, R1/2, MNPT3/4...MNPT2, FNPT1/2; Flange: D... | Endress+Hauser: 'Thread: G1/2...G2, R1/2, MNPT3/4...MNPT2, FNPT1/2; Flange: DN25...DN80, NPS 1"...3"' |
+| Wetted materials | Endress+Hauser: '316L, AlloyC, Tantal, Monel, PTFE' | Endress+Hauser: '316L, AlloyC, Tantal, Monel, PTFE' |
+| Housing material | Endress+Hauser: 'Material housing Aluminium' | Endress+Hauser: 'Material housing Aluminium' |
+| Fill fluid | Endress+Hauser: 'Silicone oil, Inert oil, Vegetable oil, High/ low temperatur... | Endress+Hauser: 'Silicone oil, Inert oil, Vegetable oil, High/ low temperature oil' |
+| Approvals | Endress+Hauser: 'ATEX, IEC Ex, CSA C/US, NEPSI'; 'Safety approvals SIL'; desi... | Endress+Hauser: 'ATEX, IEC Ex, CSA C/US, NEPSI'; 'Safety approvals SIL'; design approvals 'EN10204-3.1, NACE MR0175, NACE MR0103'; drinking water 'NSF' |
+| accuracy_standard | ?-0.05 % | Specs at a glance: Accuracy Standard up to 0.05 % |
+| accuracy_platinum | ?-0.025 % | Specs at a glance: Accuracy Platinum up to 0.025 %; Field of application: Accuracy up to +/- 0.025% |
+| process_temperature_standard | -40-125 degC | Specs at a glance: Process temperature Standard -40 degC...+125 degC (-40 degF...+257 degF) |
+| process_temperature_diaphragm_seal | -40-400 degC | Specs at a glance: Diaphragm seal -40 degC...+400 degC (-40 degF...+752 degF) |
+| pressure_measuring_range | 400-700 mbar...bar | Specs at a glance: Pressure measuring range 400 mbar...700 bar (1.5 psi...10,500 psi) |
+| pressure_measuring_range_psi | 1.5-10500 psi | Specs at a glance: 1.5 psi...10,500 psi |
+| measuring_cell_range | 400-700 mbar...bar | Specs at a glance: Measuring cell 400 mbar...700 bar (6 psi...10,500 psi) |
+| main_wetted_parts | 316L, AlloyC, Tantal, Monel, PTFE, Gold n/a | Specs at a glance: Main wetted parts 316L, AlloyC, Tantal, Monel, PTFE, Gold |
+| process_membrane_material | 316L, AlloyC, Tantal, Monel, PTFE, Gold n/a | Specs at a glance: Material process membrane 316L, AlloyC, Tantal, Monel, PTFE, Gold |
+| remote_control | Bluetooth SmartBlue App n/a | robust and can be remotely controlled via app on a mobile device using a secure Bluetooth connection; Wireless control of the device in the process area with SmartBlue App |
+| diagnostics | Heartbeat Technology verification and monitoring n/a | Heartbeat Technology offers verification and monitoring functions to detect unwanted anomalies e.g. changes in loop characteristics; verification of a pressure transmitter within 3 minutes while process is running |
+| functional_safety | error free SIL commissioning and instrument guided proof testing n/a | Reduce systematic failures - error free SIL commissioning and instrument guided proof testing |
+| Safety Manager - Safety Integrity Level | SIL 1-3 certified safety platform n/a | Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated |
+| Safety Manager - architecture | Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture n/a | Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated |
+| Safety Manager - platform | Second generation safety platform; part of Experion Process Knowledge System (PKS) n/a | Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated |
+| Safety Manager - cyber security certification | Certified by Embedded Device Security Assurance program as defined by ISA Security Compliance Institute n/a | Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated |
+| Safety Manager - I/O technology | Universal Safety I/O (USIO) based on Universal Channel technology; each channel configurable for a different I/O type n/a | Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated |
+| Safety Manager - remote I/O | Remote IO can be placed in hazardous locations n/a | Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated |
+| Safety Manager - hardware documentation | Installation Instructions / technical specification PDF, 17.43 MB, dated 12/22/2023 n/a | Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated |
+| Barrel diameter S70X/S80X models | 1.48 in | S702, S702PF, S706 and S706PF models are 1.48 barrel diameter and are made of aluminum; S802 and S806 models are 1.14 barrel diameter and are made of stainless steel |
+| Barrel diameter S802/S806 models | 1.14 in | S802 and S806 models are 1.14 barrel diameter and are made of stainless steel |
+| Environmental rating | IP64 n/a | IP64 when connector ring is properly tightened and cable shielded. |
+| Purge air | 5 SCFM | Purge Air Requirement: 5 SCFM at ~1 in. above burner pressure to cool lens and clear viewing path. |
+| Field of view IR | 1 deg | IR Models: 1 deg angle of view (1.45 in at 6 ft) |
+| Field of view UV | 5 deg | UV Models: 5 deg angle of view (1 in per foot) |
+| IR spectral response | 950-1710 nm | IR Models: Germanium photodiode, spectral response 950-1710 nm, peak at 1400 nm; high-pass filter at 33 Hz |
+| IR peak response | 1400 nm | peak at 1400 nm |
+| UV spectral response | 185-260 nm | UV Models: UVTron sensor, spectral response 185-260 nm, peak at 210 nm |
+| UV peak response | 210 nm | peak at 210 nm |
+| UV tube lifetime | 10000-50000 hrs | For UV models: UV tube lifetime 10,000-50,000 hrs depending on conditions |
+| Hazardous location approvals | CSA Class I, Div 2, Groups A, B, C, D, T4A; IECEx Ex nA IIC T4/T5 Gc; NCC/Inmetro Ex ec IIC T4 Gc n/a | Hazardous Location Approvals: CSA Class I, Div 2, Groups A, B, C, D, T4A; IECEx Ex nA IIC T4/T5 Gc; NCC/Inmetro Ex ec IIC T4 Gc. |
+| Safety integrity | SIL 3 Capable n/a | SIL 3 Capable (S702/S802 and S706/S806 families). |
+| Compatible signal processors | Model 700ACSP, 700DCSP, 800, P531/P532 n/a | Compatible Signal Processors: Model 700ACSP, 700DCSP, 800, P531/P532. |
+| Mounting connections | 1/2 in NPT-F for sighting pipe; 1/4 in NPT-F for purge air n/a | Mounting Connection: 1/2 in NPT-F for sighting pipe; 1/4 in NPT-F for purge air |
+| Available sizes | 6 sizes | Roxar™ 2600 MPFM is available in 6 sizes |
+| Materials | duplex stainless steel to Inconel n/a | material options ranging from duplex stainless steel to Inconel |
+| Enclosure materials | SS316 or painted aluminum n/a | enclosures in SS316 or painted aluminum |
+| Flanges | choice of flange types and pressure ratings n/a | a choice of flange types and pressure ratings |
+| Measurement range GVF | 0-100 % GVF | within the full range of flowing conditions, 0-100% GVF |
+| Measurement range WLR | 0-100 % WLR | within the full range of flowing conditions, ... 0-100% WLR |
+| Installation | vertical; limited straight pipe lengths n/a | The meter shall be installed vertically, requiring limited straight pipe lengths |
+| Sour service | NACE MR0175/ISO 15156 n/a | including extreme sour service in accordance with NACE MR0175/ISO 15156, where required |
+| Communication protocols | Modbus, OPC UA, HTTPS; DCS/SCADA integration n/a | digital protocols such as Modbus and OPC UA ... and HTTPS for secure data access |
+| Maintenance/calibration | typical recommendation yearly checks and verification n/a | a typical recommendation being yearly checks and verification |
+| Mechanical design | no moving parts; robust materials n/a | The meter has no moving parts, reducing wear and maintenance needs |
+| Transmitter | Roxar 5726 Multiphase Transmitter mounted directly onto the flow meter n/a | Roxar 5726 Multiphase Transmitter mounted directly onto the flow meter |
+| Salinity option | Roxar Multiphase Salinity System (RMSS) additional module n/a | The Roxar Multiphase Salinity System (RMSS) available as an additional module |
 
 
 ### FOUNDATION Fieldbus (ci-foundation-fieldbus)
@@ -1823,6 +2418,21 @@ Vendors: FieldComm Group (specification owner), Yokogawa Electric (0 model lines
 | WirelessHART radio technology | self-organizing, self-healing mesh; each device can route for other devices  qualitative | As printed on the page: 'By design, WirelessHART using mesh networking technology' and 'a device doesn't have to communicate directly to a gateway, but just forward its message to the next closest device' |
 | WirelessHART mesh installation cost saving vs wired instruments | 30-60 % lower installation costs | Quoted on the WirelessHART technology page from the 'WirelessHART User Case Studies - web publishing' brochure: 'WirelessHART offers 30%-60% lower installation costs than adding traditional wired instruments' |
 | WirelessHART radio technology | self-organizing, self-healing mesh; each device can route for other devices  qualitative | As printed on the page: 'By design, WirelessHART using mesh networking technology' and 'a device doesn't have to communicate directly to a gateway, but just forward its message to the next closest device' |
+| Products listed | 56 products | '1-15 of 56 results for Products' |
+| Gateway remote antenna distance | 1300 ft | 'supports remote antenna placement up to 1300 ft (400 m)' |
+| Asset View inputs | 10 inputs | 'up to 10 inputs for better monitoring' |
+| Installation cost saving | 60 % | 'Up to 60% lower installation costs vs. traditional wired instrumentation' |
+| Certification areas | 'FM, CSA, ATEX, and IECEx standards' for intrinsically safe / explosion-proof... | 'FM, CSA, ATEX, and IECEx standards' for intrinsically safe / explosion-proof areas |
+| Network elements | 3 main elements | "Each WirelessHART network includes three main elements: Wireless field devices ... Gateways ... A Network Manager" |
+| HART specification documents | 17 documents | "The HART Protocol Specifications kit is a collection of 17 documents" |
+| Network topology | "By design, WirelessHART using mesh networking technology. Each device in a m... | "By design, WirelessHART using mesh networking technology. Each device in a mesh network can serve as a router for messages from other devices" |
+| Installation cost saving vs wired instruments | 30-60 % lower installation costs | FieldComm Group: 'WirelessHART offers 30%-60% lower installation costs than adding traditional wired instruments.' |
+| Messaging modes | 'supports multiple messaging modes including one-way publishing of process an... | 'supports multiple messaging modes including one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers of large data sets' |
+| Specification kit size | 17 documents | 'The HART Protocol Specifications kit is a collection of 17 documents that specify the different aspects of the protocol and test procedures for field devices.' |
+| Network protocol | WirelessHART n/a | The Rosemount Synchros Wireless Repeater extends WirelessHART network range and reliability. |
+| Hazardous area rating | hazardous rated n/a | is hazardous rated, allowing for quick and hassle-free installation without extensive reconfiguration |
+| Mounting | Directly mounts to process piping without cutting or changing pipe configurations n/a | Directly mounts to process piping without cutting or changing pipe configurations for flexible, simple installation |
+| Power | low power consumption, long battery life n/a | Designed for low power consumption, maximizing the battery life and reducing maintenance requirements |
 
 
 ### WirelessHART (ci-wirelesshart-industrial-wireless-mesh)
@@ -1899,6 +2509,39 @@ Vendors: Liebherr, BAUER Maschinen GmbH (0 model lines recorded).
 | diameter classes | 5-6 / 6-8 / 8-13 m (regular/XL/XXL) | Value as printed in the cited source; no further qualifier stated. |
 | length | 20 to >120 m | Value as printed in the cited source; no further qualifier stated. |
 | weight | 1,000-3,500 t | Value as printed in the cited source; no further qualifier stated. |
+| Monopile length | 120 m (up to) | Sif: 'tubular steel structures reach up to 120 metres in length'; 'Monopiles until 120 metres in length' |
+| Monopile diameter | 11 m | Sif: 'measure 11 metres in diameter'; 'Monopiles until 11 metres in diameter' |
+| Maximum wall thickness | 160 mm | Sif: 'Maximum wall thickness 160 mm' |
+| Maximum weight (paragraph) | 2000 tonnes (maximum each, as printed in paragraph) | Sif paragraph: 'weigh a maximum of 2,000 tonnes each' |
+| Maximum weight (statistic block - conflicting) | 2500 tonnes (> as printed in statistics block) | Sif statistics block: 'Maximum weight > 2500 tonnes' — preserved as a conflict with the 2,000 tonne paragraph figure |
+| Variants | Sif: 'We supply both traditional monopiles with transition pieces and TP-less... | Sif: 'We supply both traditional monopiles with transition pieces and TP-less monopiles.' |
+| Track record | Sif: 'over 2,600 monopiles produced ... contracts for more than 2,900 foundat... | Sif: 'over 2,600 monopiles produced ... contracts for more than 2,900 foundations ... 55 wind farms ... 22.7 GW of installed offshore capacity' |
+| Monopile - steel pipe diameter | 5-13 m (approximately 5-6 m and up to 13+ m) | CS WIND Offshore 'Monopiles' solutions page; no print date stated |
+| Monopile - length | 20-120 m (20 m to more than 120 m) | CS WIND Offshore 'Monopiles' solutions page; no print date stated |
+| Monopile - weight | 1000-3500 tonnes | CS WIND Offshore 'Monopiles' solutions page; no print date stated |
+| Regular monopile diameter | 5-6 m | CS WIND Offshore 'Monopiles' solutions page; no print date stated |
+| XL monopile diameter | 6-8 m | CS WIND Offshore 'Monopiles' solutions page; no print date stated |
+| XXL monopile diameter | 8-13 m | CS WIND Offshore 'Monopiles' solutions page; no print date stated |
+| IQ2 blow energy | 3600 kJ | IQ-series leaflet: blow energy kJ 3600 (IQ2) |
+| IQ4 blow energy | 4800 kJ | IQ-series leaflet: blow energy kJ 4800 (IQ4) |
+| IQ6 blow energy | 6600 kJ | The IQ6 was until recently the world's most powerful impact hammer with a maximum blow energy of 6,600 kJ. |
+| IQ-series models | IQ2, IQ4, IQ6, IQ8 n/a | The IQ-series comes in 4 models: the IQ2, IQ4, IQ6 and IQ8. |
+| Continuous operation | 100% energy capacity n/a | The IQ-series can be used continuously with a 100% capacity. |
+| Power boost | 120 % | Unleash up to 120% power for challenging conditions. |
+| Operating angle | 0-90 deg | Full energy output in nearly all positions (0–90 degrees) |
+| Sleeve size | ?-9.3 m | Sleeves available up to 9.3 m for the largest monopiles. |
+| Installed piles | 5,5 Million piles globally n/a | INSTALLED OVER 5,5 Million piles globally |
+| Industry experience | 40 years | INDUSTRY EXPERIENCE 40+ Years |
+| Experience in offshore wind | 15 years | Key Facts: > 15 years of experience in offshore wind |
+| Monopiles produced | 2200 count | Key Facts: > 2200 monopiles already produced |
+| Offshore wind projects supplied | 80 count | Key Facts: > 80 offshore wind projects supplied with EEW foundations and components |
+| USA monopile plant capacity | 100 monopiles/year | 100 monopiles a year will be manufactured in 2024 at full production capacity |
+| Atlantic Shores Offshore Wind Project 1 | 1.5 GW | EEW has already been awarded the 1.5 GW Atlantic Shores Offshore Wind Project 1 |
+| US wind target by 2030 | 300 GW | By 2030, the USA wants to cover 20% of the national energy demand with clean wind energy. For this purpose, 300 GW of wind energy will be generated. |
+| Wind share of European electricity generation | 15 % | Wind energy already accounts for 15% of electricity generation in Europe |
+| Asian offshore wind planned capacity to 2030 | 30 GW | The planned capacity of Asian offshore wind energy is approximately 30 GW until 2030 |
+| Products | Monopiles; pipes for jacket components; piles for offshore wind; components for floating structures n/a | Product Portfolio for Offshore Wind list |
+| Facilities | Erndtebrueck, Rostock, Sacheon, Gwangyang, Pasir Gudang n/a | Our Facilities list (EEW Group, EEW SPC, EEW PPE, EEW Korea, EEW KHPC, EEW Malaysia) |
 
 
 Recorded gaps:
@@ -1958,6 +2601,27 @@ Vendors: TII SCHEUERLE, Cometto, Goldhofer AG, Barnhart Crane & Rigging (0 model
 | Axle load | 60 t | Value as printed in the cited source; no further qualifier stated. |
 | Axle compensation | 700 mm | Value as printed in the cited source; no further qualifier stated. |
 | Positioning accuracy | ±1–2 mm | Value as printed in the cited source; no further qualifier stated. |
+| Axle line capacities | 48 'up to 70 t per axle line'; families MSPE 48T, 60T, EVO3 70T | As printed on the cited catalogue page. |
+| Module families | 'MSPE 48T, MSPE 60T and MSPE EVO3 70T', each Standard and Heavy Duty | 'MSPE 48T, MSPE 60T and MSPE EVO3 70T', each Standard and Heavy Duty |
+| Axle lines per module | 2 '2, 3, 4, 5 or 6 axle lines' | As printed on the cited catalogue page. |
+| Module width | 2430 '2,430 or 3,000 mm wide' / 'up to 3 meters wide' | As printed on the cited catalogue page. |
+| Electronic steering angle | 135 deg (+/-) | '±135° electronic steering' |
+| Suspension stroke | 700 mm | '700 mm suspension stroke' |
+| Bending moment standard | 7250 kN.m | 'Bending moment: 7,250 kN.m Standard' |
+| Bending moment heavy duty | 9400 kN.m | '9,400 kN.m Heavy Duty' |
+| Lifting rings | 16 t | '16 tons lifting rings as standard' |
+| Power pack types | 'diesel, hybrid and electric Power Packs'; several can be synchronised in one... | 'diesel, hybrid and electric Power Packs'; several can be synchronised in one convoy |
+| Convoy payload ceiling | 25000 t | 'from a single module to combinations for the heaviest project cargo up to 25,000 tons ... and beyond' |
+| Tyres | 'the only real tubeless tyres in the SPMT market, on aluminium rims' | 'the only real tubeless tyres in the SPMT market, on aluminium rims' |
+| Power | 530 HP | '530 HP power' |
+| Axle line options | 3 'platforms with 3, 4, 5, or 6 axle lines' | As printed on the cited catalogue page. |
+| Market launch year | 1983 year | 'revolutionizing the transport industry since its market launch in 1983' |
+| Global fleet | 30000 axle lines | 'Over 30,000 axle lines in the market' |
+| Outer width | 2430 mm | 'The outer width of the SCHEUERLE SPMT of 2430 mm allows ... standard flat-deck containers' |
+| Remote control weight | 3.5 kg | 'radio remote control ... weighs only 3.5 kg' |
+| Remote control display | 35 inch | '35-inch TFT display' |
+| Coupling steps | 3 steps | 'modules can be connected or separated in just 3 simple process steps' |
+| New features | 'COG Easy Mode', 'Tire Pressure Monitoring System (TPMS)', 'Over the air upda... | 'COG Easy Mode', 'Tire Pressure Monitoring System (TPMS)', 'Over the air updates' |
 
 
 Recorded gaps:
@@ -2057,6 +2721,12 @@ Vendors: Layher, PERI (0 model lines recorded).
 | Layher approvals | Z-8.22-64 / Z-8.22-939 / Z-8.22-26.1 approval nos. | Layher: Allround Scaffolding Steel Z-8.22-64 on basis of EN 12811; Lightweight Z-8.22-939; Aluminium Z-8.22-26.1 |
 | Connections per rosette | 8 count | Value as printed in the cited source; no further qualifier stated. |
 | Approvals | Z-8.22-64 / Z-8.22-939 / EN 12811 standard | Value as printed in the cited source; no further qualifier stated. |
+| Allround Scaffolding - system introduction | Launched 1974; original system continuously developed n/a | Layher 'Allround Scaffolding' product page (layher.com); no print date stated |
+| Allround Scaffolding - connector capacity | Up to eight connections in one Allround Connector, on one level and at various angles n/a | Layher 'Allround Scaffolding' product page (layher.com); no print date stated |
+| Allround Scaffolding - connection types | Positive and non-positive connections with AutoLock function; automatically right-angled, obtuse- and acute-angled n/a | Layher 'Allround Scaffolding' product page (layher.com); no print date stated |
+| Allround Scaffolding - materials | Steel or aluminium n/a | Layher 'Allround Scaffolding' product page (layher.com); no print date stated |
+| Allround Scaffolding - standard | One standard for supported and suspended scaffolding with integrated spigots n/a | Layher 'Allround Scaffolding' product page (layher.com); no print date stated |
+| Allround Scaffolding - listed system variants | Allround Scaffolding Lightweight Z-8.22-939; Allround Scaffolding Aluminium Z-8.22-26.1 n/a | Layher 'Allround Scaffolding' product page (layher.com); no print date stated |
 
 
 Recorded gaps:
@@ -2102,6 +2772,148 @@ Vendors: BAUER Spezialtiefbau GmbH (0 model lines recorded).
 | stock thickness | 1/4-4 in | Value as printed in the cited source; no further qualifier stated. |
 | condition | normalized n/a | Value as printed in the cited source; no further qualifier stated. |
 | material | needle-punched nonwoven geotextile filled with sand n/a | Value as printed in the cited source; no further qualifier stated. |
+| Container material | 'made of highly robust, staple fibre, specially needle-punched nonwoven Secut... | 'made of highly robust, staple fibre, specially needle-punched nonwoven Secutex® geotextile and are filled with sand' |
+| Adaptability | 'The container is flexible and can adapt to variable seabeds. They can be pla... | 'The container is flexible and can adapt to variable seabeds. They can be placed before piling' |
+| Reference project | 'Their solution has been used on the German Amrumbank West offshore wind farm' | 'Their solution has been used on the German Amrumbank West offshore wind farm' |
+| West of Duddon Sands armour rock size | 8 'installed 8-18" (20-45cm) armour rock around the 108 turbines' (context) | As printed on the cited catalogue page. |
+| Meerwind filter material size | 1 'placement of 1-5" filter material for 80 monopile locations' (context) | As printed on the cited catalogue page. |
+| Meerwind armour rock grading | 100 'armour rock (grading 100-700kg) was installed at 80 wind turbine locations' (context) | As printed on the cited catalogue page. |
+| Anholt filter layer | 1 '1-4" filter layer with an armour layer of 2-8" rock on top' (42 WTG foundations, context) | As printed on the cited catalogue page. |
+| Ridgeway filter bag recycled content | 61 % | 'a polyester filter bag, made from 61% recycled bottles' (context) |
+| Ridgeway filter bag lifetime | 50 years | 'a lifetime of 50 years in saline water' (context) |
+| ContiTech mat thickness | 12 'mats made up of a conveyer belt type material, 12mm to 15mm thick' (context) | As printed on the cited catalogue page. |
+| ContiTech mat diameter | 52 m | 'anchored mats with a diameter of up to 52m' (context) |
+| T-head bollards supplied | 37 bollards | '37 T-head Bollards with a rated mooring capacity of 80 tonnes' |
+| Rated mooring capacity | 80 tonnes | same statement |
+| New berth length | 396 m | 'a new 396 m long berth' |
+| Cone fender systems supplied | 36 systems | '36 Cone Fender Systems (SPC 1200, G1.0)' |
+| Fender panel size | 'each equipped with a 2000x4320 mm closed-box steel panel' | 'each equipped with a 2000x4320 mm closed-box steel panel' |
+| Original tender fender spacing | 6.5 m | 'The initial specification was based on a FE Leg Fender System with a fender spacing of 6.5 m' |
+| Optimized fender spacing | 12.5 m | 'together with an optimized fender spacing of 12.5 m' |
+| Chain coating | 'the chain assemblies were therefore supplied with a duplex coating system' | 'the chain assemblies were therefore supplied with a duplex coating system' |
+| Fire rating duration | 1-4 hours | Carboline Features & Benefits: 'Provides a flexible fire protection solution to structural steelwork, process vessels, divisions and electrical raceways for 1 through 4 hours.' |
+| NFPA 290 fire testing extension | 150 minutes | 'NFPA 290 (extended to 150 minutes)' |
+| Listed/standard test compliance | 'extensively and independently tested in accordance with: UL 1709, UL 2431 Ca... | 'extensively and independently tested in accordance with: UL 1709, UL 2431 Category I-A, ISO 834-3, IMO FTP Code (IMO A.754(18) for H-0, H-60 & H-120 Divisions, ASTM E84, ASTM E119, ISO 20340, and NFPA 290 (extended to 150 minutes).' |
+| Product chemistry/type | 'Thermo-Lag 3000-P is a flexible, two-component epoxy Intumescent Fireproofin... | 'Thermo-Lag 3000-P is a flexible, two-component epoxy Intumescent Fireproofing coating'; in service 'Since 1999' |
+| Thickness relative to competitors | 'Lowest thickness per fire rating of any competitive epoxy intumescent coating.' | 'Lowest thickness per fire rating of any competitive epoxy intumescent coating.' |
+| standard_compliance | BS EN 1504-3 Class R4 and BS EN 1504-6: Anchoring of reinforcing steel bar n/a | High-flow, non-shrink, cementitious grout conforming to the requirements of BS EN 1504-3 Class R4 and BS EN 1504-6 |
+| gap_thickness | 10-75 mm | Main uses: free flow, non-shrink, cementitious grouting of gap thicknesses 10 to 75 mm |
+| properties | Non-shrink; High strength; Chloride free; Can be used at flowable or trowelable consistency n/a | Advantages list (printed verbatim) |
+| standard | ASTM C260/AASHTO M 154 n/a | Sika AIR meets the requirements of ASTM C260/AASHTO M 154 |
+| dosage_rate | 0.1-6.0 fl oz / 100 lb cement (7-400 mL / 100 kg) | typical dosage rate of Sika AIR will vary between 0.1-6.0 fl oz / 100 lb. (7-400 mL / 100 kg) of cement or cementitious materials |
+| specific_gravity | 1.01 n/a | Specific gravity 1.010 (product data) |
+| storage_temperature | 5-27 degC | Shelf life when stored in original packaging in dry warehouse conditions between 40 degF and 80 degF (5-27 degC) is one year from date of manufacture |
+| shelf_life | 1 year | one year from the date of manufacture when stored in original packaging in dry warehouse conditions |
+| appearance | Clear Orange-Brown Liquid n/a | Product data: Clear Orange-Brown Liquid |
+| packaging | 55-gallon (208-liter) drums, 275-gallon (1040-liter) totes, bulk delivery n/a | Available in 55-gallon (208-liter) drums, 275-gallon (1040-liter) totes and bulk delivery |
+| DNV-RP-C203 - edition / amendment | Edition 2024-10 - Amended 2025-10 n/a | DNV-RP-C203 'Fatigue design of offshore steel structures' recommended practice page, Edition 2024-10 - Amended 2025-10; copyright DNV AS 2026 |
+| DNV-RP-C203 - objective | Methods for fatigue assessment of offshore steel structures and structural components, ensuring safe fatigue design n/a | DNV-RP-C203 'Fatigue design of offshore steel structures' recommended practice page, Edition 2024-10 - Amended 2025-10; copyright DNV AS 2026 |
+| Elios 3 UT - inspection time (drone) | 2-4 hours (vs 3 to 7 days manual) | Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links |
+| Elios 3 - offshore downtime reduction | 80 % (up to) | Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links |
+| Elios 3 - data delivered | 4K visuals, localized UTMs and 3D model n/a | Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links |
+| Elios 3 - BP confined-space hours saved | 1700 hours of confined space work saved since 2023 (BP case study) | Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links |
+| Elios 3 - TotalEnergies cost reduction | 45 % vs traditional human inspections (FPSO hull digitalization case study) | Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links |
+| Elios 3 - SAIPEM inspection speed-up | 80-90% faster, class-approved COT and WBT inspections n/a | Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links |
+| Trimble S9 - angular accuracy | 0.5 sec or 1 sec n/a | Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated |
+| Trimble S9 - EDM technology | DR PLUS n/a | Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated |
+| Trimble S9 - EDM accuracy | 1.0 mm + 2 ppm (Prism) / 2.0 mm + 2 ppm (DR) n/a | Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated |
+| Trimble S9 - maximum range | 5500 m | Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated |
+| Trimble S9 HP - angular accuracy | 0.5 sec or 1 sec n/a | Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated |
+| Trimble S9 HP - EDM accuracy | 0.8 mm + 1 ppm (Prism) / 3.0 mm + 2 ppm (DR) n/a | Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated |
+| Trimble S9 HP - maximum range | 7000 m | Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated |
+| Trimble S9 - standard technology | Autolock, Magdrive, SurePoint, FineLock, Active Tracking n/a | Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated |
+| Trimble S9 - model-dependent features | Long Range FineLock, Tracklight, VISION, SureScan n/a | Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated |
+| VIKING Norsafe free-fall lifeboat - approved drop height | 50 m (world record free-fall performance, up to) | VIKING Life-Saving Equipment 'Product insights' page, Offshore free-fall lifeboat and davit systems section; no print date stated |
+| VIKING Norsafe - heritage | Dating back to 1903 n/a | VIKING Life-Saving Equipment 'Product insights' page, Offshore free-fall lifeboat and davit systems section; no print date stated |
+| VIKING Norsafe free-fall lifeboat - design | Fast-boarding and robust, extensively tested for harshest conditions; designed for rapid evacuation n/a | VIKING Life-Saving Equipment 'Product insights' page, Offshore free-fall lifeboat and davit systems section; no print date stated |
+| Zinc anode composition | 99.9% High-purity zinc n/a | Composition: 99.9% High-purity zinc |
+| Zinc anode standard | ASTM B-6 n/a | Purity: ASTM B-6 compliance |
+| Zinc anode weight range | 5-500 kg | Weight range: 5 kg to 500 kg |
+| Zinc anode current capacity | 25-30 A/m2 | Current capacity: 25-30 A/m² |
+| Zinc anode design life | 15-25 years | Design life: 15-25 years in seawater |
+| Aluminium anode composition | Aluminum-Zinc-Indium alloy n/a | Composition: Aluminum-Zinc-Indium alloy |
+| Aluminium anode standard | ASTM B-521 n/a | Purity: ASTM B-521 compliance |
+| Aluminium anode weight range | 3-300 kg | Weight range: 3 kg to 300 kg |
+| Aluminium anode current capacity | 30-40 A/m2 | Current capacity: 30-40 A/m² |
+| Aluminium anode design life | 18-28 years | Design life: 18-28 years in seawater |
+| Magnesium anode standard | ASTM B-843 n/a | Purity: ASTM B-843 compliance |
+| Magnesium anode weight range | 2-100 kg | Weight range: 2 kg to 100 kg |
+| Magnesium anode current capacity | 35-45 A/m2 | Current capacity: 35-45 A/m² |
+| Magnesium anode design life | 12-20 years | Design life: 12-20 years (freshwater preferred) |
+| Quality system | ISO 9001:2008 Certified n/a | 30+ Years Experience | ISO 9001:2008 Certified |
+| Classification approvals | DNV, ABS, Lloyd's, Bureau Veritas, ClassNK n/a | DNV, ABS, Lloyd's, Bureau Veritas, ClassNK certified |
+| Document designation | DNV-ST-0126 n/a | DNV-ST-0126 Support structures for wind turbines |
+| Edition | 2021-12 n/a | Standard — Edition 2021-12 |
+| Scope | general principles and guidelines for the structural design of wind turbine support structures n/a | The standard (ST) specifies general principles and guidelines for the structural design of wind turbine support structures. |
+| Certification basis | support structures subject to DNV certification n/a | specify procedures and requirements for support structures subject to DNV certification |
+| Grade | API 2H Grade 50 n/a | API 2H is an intermediate-strength and normalized structural steel plate developed for the welded construction of offshore structures. |
+| Stocked thickness | 0.25-4 in | Universal Steel America stocks API 2H steel plate with thicknesses from 1/4 to 4 inches in the normalized condition. |
+| Condition | Normalized n/a | in the normalized condition |
+| Specification | API Specification 2H n/a | typically manufactured and tested to conform to specific standards and specifications, such as the American Petroleum Institute (API) Specification 2H |
+| Applications | tubular joints, stiffened plate construction, and intersections where parts of the plates will experience tension in the through-thickness direction; piling material n/a | The primary applications of API 2H Grade 50 include tubular joints, stiffened plate construction, and intersections where parts of the plates will experience tension in the through-thickness direction. |
+| Impact toughness | high impact toughness n/a | API 2H Grade 50 is known for its high impact toughness. |
+| Free-fall approved drop height | ?-50 m | have a world record free-fall performance of up to 50 m approved drop height |
+| Product scope | VIKING Norsafe free-fall lifeboats; VIKING YouSafe™ Vanguard for the Offshore industry n/a | Designed for rapid evacuation, our VIKING Norsafe free-fall lifeboats ... |
+| HDR certification | MVBR-0468(X0.4R), MVBR-0430(X0.6R) n/a | HDR | High Damping Rubber Bearing [Certifications(Minister of Land, Infrastructure and Transportation)] |
+| LRB certification | MVBR-0447 n/a | LRB | Lead Rubber Bearing [Certifications ...] MVBR-0447 |
+| NRB certification | MVBR-0295(N3,G3,G5), MVBR-0446(G4) n/a | NRB | Natural Rubber Bearing [Certifications ...] |
+| Elastic Sliding Bearing certification | MVBR-0349(SL series), MVBR-0469(SP series), MVBR-0479(SK series) n/a | Elastic Sliding Bearing [Certifications ...] |
+| NRB equivalent damping factor | 2-3 % | It has low damping performance (about 2~3% at equivalent damping factor) |
+| NRB rubber material grades | G0.30, G0.35, G0.40, G0.45 n/a | Rubber material has four different kinds of elastic modulus (referred as G0.30,G0.35,G0.40, G0.45) |
+| LRB rubber material grade | G0.40 n/a | Only one kind of rubber material is used. (referred as G0.40) |
+| HDR elastic modulus types | E0.4, X0.6R n/a | Rubber material has two different kinds of elastic modulus (refer red as E0.4, X0.6R) |
+| Elastic Sliding friction coefficient types | 3 types | There are three different type of friction coefficient, which type to be used is based on necessity of damping |
+| Bearing construction | alternating laminations of thin rubber layers and steel plates (shims), bonded n/a | The Seismic Isolating Rubber Bearing consists of alternating laminations of thin rubber layers and steel plates (shims) |
+| Catalogue update | Updated on October, 2026 n/a | Seismic isolation product line-up (Updated on October, 2026 / 2.9MB); Seismic Isolation Bearing (Updated on October, 2026) |
+| Product system type | Tyfo SCH Systems are unidirectional CFRP n/a | The Tyfo SCH Systems are unidirectional CFRP and the Tyfo SEH Systems are unidirectional GFRP |
+| Design life | 50-100 years | This is typically assumed to be 50 to100 years, as is typical for other building materials such as steel and concrete |
+| In-service since | 1991 year | Tyfo FRP composites have been in service since 1991 |
+| Design approach | linear-elastic tension members; ultimate tension 'strength' not used in design n/a | FRP materials are linear-elastic tension members and we do not use the ultimate tension "strength" in design |
+| Strengthenable elements | concrete columns, beams, walls and slabs, masonry walls, some wood and steel elements; pipes, silos, tanks, piers/waterfront structures n/a | What structural elements can be strengthened with FRP? |
+| Fire rating | do not reduce existing fire-rating; Class 1/Class A flame and smoke rating per ASTM E84 may be required n/a | Tyfo FRP products do not reduce the existing fire-rating ... may require a Class 1/Class A flame and smoke rating as per ASTM E84 |
+| Anchor type | embedded Tyfo SCH anchor saturated with Tyfo S epoxy; splice/through anchors n/a | What is an FRP anchor? |
+| Twin tires | 215/75 R 17.5 n/a | Twin tires 215/75 R 17.5 |
+| Dead weight (4-axles) | 13.85 t | Dead weight (4-axles) 13.85 t |
+| Vehicle width | 3000 mm | Vehicle width 3,000 mm |
+| Axle spacing | 1,500 / 1,800 mm | Axle spacing 1,500 mm / 1,800 mm |
+| Max steering angle | ±55 deg | Max. steering angle ± 55° |
+| Number of axles | 2-8 axles | Number of axles 2-8 |
+| Hydraulic power pack | Hatz 10 kW / 13.6 PS; Kohler 17.9 kW / 24.3 PS n/a | Hydraulic power pack Hatz 10 kW / 13.6 PS; Kohler 17.9 kW / 24.3 PS |
+| Turntable capacity | 100 t / 200 t; 300 t / 400 t; 600 t n/a | Turntable 100 t / 200 t [1]; 300 t / 400 t [1]; 600 t [1] (capacity per turntable) |
+| Flatbed deck construction height | 250 / 300 mm | Flatbed deck Construction height 250 mm / 300 mm |
+| Flatbed deck length | 7000-12000 mm | Length 7,000-12,000 mm [2] |
+| Vessel deck construction height | 450 / 500 / 650 mm | Vessel deck Construction height 450 mm, 500 mm or 650 mm |
+| Vessel deck length | 7000-13000 mm | Length 7,000-13,000 mm [2] |
+| Vessel deck width | 3000-6000 mm | Width 3,000-6,000 mm |
+| Excavator deck construction height | 350 / 450 / 500 mm | Excavator deck Construction height 350 mm, 450 mm or 500 mm |
+| Spacer length | 8000-15000 mm | Spacer 8,000-15,000 mm (depending on version extendable up to 40,000 mm) |
+| Spacer extension stages | 1-4 stages | Extension stages 1-4 |
+| Intermediate deck length | 3000-9000 mm | Intermediate deck Length 3,000 mm-9,000 mm |
+| Blow energy range | 30-7500 kJ (up to more than 7,500) | The Hydrohammer® range includes solutions from 30 kJ up to more than 7,500 kJ of blow energy |
+| IQ8 blow energy | exceeding 7,500 kJ | IQ8, the strongest hydraulic impact hammer in the world, with a blow energy exceeding 7,500 kJ |
+| Continuous energy capacity | 100 % | drive piles with 100% energy capacity |
+| Boost power | 120 % | Unleash up to 120% power for challenging conditions |
+| SW-series water depth | 2000 m | engineered for depths of up to 2000 meters |
+| Piles installed | 5.5 Million n/a | INSTALLED OVER 5,5 Million piles globally |
+| Experience | 40+ Years | INDUSTRY EXPERIENCE 40+ Years |
+| Countries active | 50+ n/a | ACTIVE IN 50+ Countries |
+| Operational availability | >97 % | high operational availability (>97%) |
+| PULSE function | extends hammer impact duration to reduce underwater noise, pile fatigue and environmental disturbance n/a | PULSE® technology, which extends the hammer impact duration to reduce underwater noise, pile fatigue, and environmental disturbance |
+| Series | IQ-series, S-series, SW-series n/a | product family includes the IQ-series, S-series, and SW-series |
+| Operating weight | 72.6-78.5 t | Operating weight - 72.6 - 78.5 t |
+| Max. torque | 300 kNm | Max. torque - 300 kNm |
+| Max. crowd force | 320 kN | Max. crowd force - 320 kN |
+| Engine power | 600 kW | Engine power - 600 kW |
+| Max. pile length with vibrator, slim design | 22.0 m | Pile driving with vibrator slim design, max. pile length - 22.0 m |
+| Position in range | closes the gap between the LRB 16 and the LRB 355 n/a | The compact piling and drilling rig type LRB 23 closes the gap between the LRB 16 and the long-proven LRB 355 |
+| Assistant systems | Automatic shake-off, drilling assistant, radio remote control, ground pressure indication, leader adjustment, obstacle recognition, winch automation, display of auger filling level, Kelly visualizatio n/a | Technology > Assistent systems list |
+| Recycled content | 61 % (recycled bottles) | consisting of a polyester filter bag, made from 61% recycled bottles, and filled with stones |
+| Lifetime in saline water | 50 years | The filter unit is a robust bespoke net which has a lifetime of 50 years in saline water |
+| Deployment | one point lifting ring for fast and accurate deployment n/a | and a one point lifting ring for fast and accurate deployment |
+| Bag material | polyester filter bag filled with stones n/a | a polyester filter bag, made from 61% recycled bottles, and filled with stones |
+| Manufacturer of bags | Japanese Sumisho Kyowa Limited n/a | Their filter bags are produced by Japanese Sumisho Kyowa Limited |
+| Project reference | used by MSS Engineering at the EDF Teesside Offshore Wind Farm n/a | has been used by MSS Engineering at the EDF Teesside Offshore Wind Farm |
+| Failure behaviour | spilled rocks provide almost same protection as rock dumping, but rocks smaller and more easily moved n/a | if they do break and spill their contents in time, the material provides almost the same protection as would be afforded by rock dumping |
 
 
 Recorded gaps:
@@ -2152,6 +2964,10 @@ Vendors: ArcelorMittal Europe, SSAB, American Steel & Aluminum (0 model lines re
 | ASTM A992 yield strength | 50-65 ksi (345–450 MPa) | ASTM A992 preferred grade for W-shapes: 50 ksi min / 65 ksi max yield, 65 ksi min tensile, Fy/Fu <=0.85, CE <=0.45 (0.47 for flanges >2 in); AISC 341 expected yield = 1.1 x specified min |
 | edition | 25th edition, 2025 with 2026 amendment n/a | Value as printed in the cited source; no further qualifier stated. |
 | annexes | 8 normative + 11 informative count | Value as printed in the cited source; no further qualifier stated. |
+| Standard designation | AWS D1.1/D1.1M:2025-AMD1 - Structural Welding Code-Steel, also called D1.1 | AWS D1.1/D1.1M:2025-AMD1 - Structural Welding Code-Steel, also called D1.1 |
+| Original publication year | 1928 year | AWS D1.1/D1.1M:2025-AMD1 standard landing page, 'originally published in 1928 as the Code for Fusion Welding and Gas Cutting in Building Construction and called Code 1 Part A' |
+| Available formats | 'Available in print and digital formats' | 'Available in print and digital formats' |
+| Code scope | 'the premier welding code of the American Welding Society' ... 'worldwide sta... | 'the premier welding code of the American Welding Society' ... 'worldwide standard for welding structural steel' |
 
 
 Recorded gaps:
@@ -2345,6 +3161,9 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale SA, Yara (3 mo
 | HYPER-U benefit | medium-high pressure (MHP) carbamate decomposition step reduces steam and cooling water demand n/a | Casale HYPER-U self-stripping process description |
 | CO2 conversion in reactor | 62 percent (as high as) | Casale performance claim |
 | sections | HP synthesis + LP purification/carbamate recovery; optional MP section for high capacity n/a | Casale technology page |
+| CO2_conversion_in_reactor | ?-62 % | Performance: CO2 conversion in the reactor as high as 62% |
+| stripping_efficiency | High stripping efficiency n/a | Performance: High stripping efficiency (no numeric value printed) |
+| process_configuration | High-pressure synthesis section followed by a low-pressure purification and carbamate recovery section; optionally for high capacity a medium-pressure section is installed n/a | Casale Urea process based on CO2 stripping technology - process description |
 
 - **Stamicarbon** High-pressure CO2 stripper: CO2 stripping; no medium-pressure recirculation stage downstream
 - **Casale** SPLIT FLOW LOOP: best suited up to 2,300 MTD, or 3,500 MTD with medium-pressure stage
@@ -2377,6 +3196,30 @@ Vendors: Shell (operator, 35%), Castrol Ltd., Exxon Mobil Corporation, Rolls-Roy
 | MAN 175D commissioning and post-co — mechanical package contents | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'filters for lubricatio... | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'filters for lubrication oil, fuel and air', relevant gaskets for valve clearance adjustment, plus a spare fuel injector. |
 | MAN 175D commissioning and post-co — after-treatment package contents | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'urea filters, spare ur... | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'urea filters, spare urea injectors and the important NOx sensors'. |
 | MAN 175D commissioning and post-co — automation package contents | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'a selection of differe... | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'a selection of different sensors - speed, pressure, float switch and temperature'. |
+| Approved engine oil - Castrol Duratec L | Castrol Duratec L SAE 40 | Table 6 'Alternative engine oils for Series 4000 gas engines': Castrol Ltd. Castrol Duratec L, SAE viscosity class 40, X (approval) for model types 4000L61/L62/L63 and 4000L32/L33/L32FNER; asterisk note: 'The use of these engine oils shortens the service life.'; A001072/02E 2020-06, p.15 |
+| Approved engine oil - ExxonMobil Mobil Pegasus 705 | Mobil Pegasus 705 SAE 40 | Table 6: Exxon Mobil Corporation Mobil Pegasus 705, SAE 40, X for 4000L61/L62/L63 and 4000L32/L33/L32FNER; * shortens service life. Table 10/12 also list Pegasus 705 for Series 400 naturally-aspirated/turbo engines. A001072/02E 2020-06, pp.15,18-20 |
+| Approved engine oil - ExxonMobil Mobil Pegasus 805 | Mobil Pegasus 805 (55 gallons: 23538056) SAE 40 | Table 6: Mobil Pegasus 805, SAE 40, X for 4000L61/L62/L63 and 4000L32/L33/L32FNER; * shortens service life. Also Tables 10/12. A001072/02E 2020-06, pp.15,18-20 |
+| Approved engine oil - ExxonMobil Mobil Pegasus 1005 | Mobil Pegasus 1005 (55 gallon drum: 800019) SAE 40 | Table 6: Mobil Pegasus 1005, SAE 40, X for 4000L61/L62/L63, 4000L32/L33/L32FNER and 4000Mx5xN (no asterisk); A001072/02E 2020-06, p.15 |
+| Approved engine oil - MTU GEO NG Power X2L | MTU Friedrichshafen GEO NG Power X2L SAE 40 | Table 5: GEO NG Power X2L, SAE 40, approved for 4000Mx5xN; 20 l X00072874 / 205 l X00072875 / IBC X00072876. Table 9: Series 400 naturally-aspirated, SAE 40, conditional on ambient temperature > +10 C, mineral, natural gas + propane. A001072/02E 2020-06, pp.14,18-19 |
+| Approved engine oil - MTU GEO NG Power X3L | MTU Friedrichshafen GEO NG Power X3L SAE 40 | Table 5: GEO NG Power X3L, SAE 40, X for 4000L61/L62/L63, 4000L32/L33/L32FNER, 4000L32FB and 4000L62FB; 20 l X00072877 / 205 l X00072878 / IBC X00072879. A001072/02E 2020-06, p.14 |
+| Engine oil viscosity grade stipulation | Viscosity grade SAE 40 is stipulated for gas engines. Multigrade oils are not permitted. SAE grade | 'Viscosity grade SAE 40 is stipulated for gas engines. Multigrade oils are not permitted.' Also 'Mixing different engine oils is strictly prohibited.' A001072/02E 2020-06, p.7 |
+| Oil sample frequency for change-interval determination | 250 operating hours | 'To determine the engine oil change intervals, oil samples must be taken every 250 op. hrs. and analyzed. The limit values must be observed.' A001072/02E 2020-06, pp.14-15 |
+| Used gas engine oil viscosity at 100 C - Series 4000 | 17.5 mm2/s (max) | Table 2 'Limit values for used gas engine oils SAE 40': viscosity at 100 C ASTM D445/DIN 51562, Series 4000 Max. 17.5; also Min. 11.5 and 'New oil value +30 %'. A001072/02E 2020-06, p.8 |
+| Used gas engine oil total base number (TBN) - Series 4000 | 2.5 mgKOH/g (min) | Table 2: TBN ASTM D2896/ISO 3771, Series 4000 Min. 2.5 and TBN > TAN; 'New oil value -60 %'. A001072/02E 2020-06, p.8 |
+| Used gas engine oil water - both series | 0.2 % by vol. (max) | Table 2: Water ASTM D6304/EN 12937/ISO 6296, Max. 0.2 for Series 4000 and Series 400. A001072/02E 2020-06, p.8 |
+| Used gas engine oil wear metals - iron | 30-50 mg/kg (max S4000 / max S400) | Table 2: Iron (Fe) DIN 51399-1/-2 Max. 30 (Series 4000) / Max. 50 (Series 400); Pb 20/30; Al 10/20; Cu 20*/50; Sn 5/15; Si 15*/10. *Si only for natural gas; first oil change (max 3000 op.hrs) Cu limit 50 ppm. A001072/02E 2020-06, p.8 |
+| Silicon operational limit SiBG - with catalytic exhaust gas cleaning | 0 mg Si/m3 NTP CH4 | Section 2.1.3: 'Operation SiBG: With catalytic exhaust gas cleaning 0; Without catalytic exhaust gas cleaning < 0.01 (Series 4000); < 0.02 (Series 400).' SiB = Delta Si [ppm] x (Oil fill + top-up)[l] / generated electrical work [kWh]. A001072/02E 2020-06, p.10 |
+| Post-commissioning package - contents | Filters for lubrication oil, fuel and air; relevant gaskets for valve-clearance adjustment; spare fuel injector n/a | MAN Energy Solutions 'Prepare for MAN 175D' (MAN PrimeServ) brochure, page 18 engine description and page 6-7 spare parts packages; PDF published 14 Aug 2024 |
+| Exhaust gas after treatment package - contents | Urea filters, spare urea injectors and NOx reduction components n/a | MAN Energy Solutions 'Prepare for MAN 175D' (MAN PrimeServ) brochure, page 18 engine description and page 6-7 spare parts packages; PDF published 14 Aug 2024 |
+| Automation package - contents | Selection of sensors: speed, pressure, float switch and temperature n/a | MAN Energy Solutions 'Prepare for MAN 175D' (MAN PrimeServ) brochure, page 18 engine description and page 6-7 spare parts packages; PDF published 14 Aug 2024 |
+| MAN 175D engine - configuration | V type, available with 12, 16 or 20 cylinders; 175 mm bore n/a | MAN Energy Solutions 'Prepare for MAN 175D' (MAN PrimeServ) brochure, page 18 engine description and page 6-7 spare parts packages; PDF published 14 Aug 2024 |
+| MAN 175D engine - speed range | 1500-2000 rpm | MAN Energy Solutions 'Prepare for MAN 175D' (MAN PrimeServ) brochure, page 18 engine description and page 6-7 spare parts packages; PDF published 14 Aug 2024 |
+| MAN 175D engine - power ratings | 1440-4400 kW | MAN Energy Solutions 'Prepare for MAN 175D' (MAN PrimeServ) brochure, page 18 engine description and page 6-7 spare parts packages; PDF published 14 Aug 2024 |
+| MAN 175D - service network | Over 100 service centers worldwide; 24/7 service n/a | MAN Energy Solutions 'Prepare for MAN 175D' (MAN PrimeServ) brochure, page 18 engine description and page 6-7 spare parts packages; PDF published 14 Aug 2024 |
+| Shell Mysella S5 N 40 SAE grade | 40 SAE | Shell International Petroleum Company Shell Mysella S5 N 40 40 X X |
+| Shell Mysella S3 N 40 SAE grade | 40 SAE | Shell International Petroleum Company Shell Mysella S3 N 40 40 X X * |
+| Approved engine family | MTU gas engines / gas engine-generator sets (Series 4000 marine and generator application; Series 400 engine-generator set) n/a | Fluids and Lubricants Specifications — Gas engines and gas engine-generator sets Series 4000 gas engine – marine application Series 4000 gas engine – generator application and engine-generator set Series 400 gas engine – engine-generator set |
+| Publication reference | A001072/02E n/a | A001072/02E © 2020 Copyright MTU |
 
 - **Shell (operator, 35%)** Shell Mysella S5 N 40 / Shell Mysella S3 N 40 gas engine oils: gas engine lubricating oil (consumable)
 - **Castrol Ltd.** Castrol Duratec L / ExxonMobil Mobil Pegasus 705, 805, 1005 / MTU GEO NG Power X2L: approved gas engine oils (alternative consumables)
@@ -2411,6 +3254,35 @@ Vendors: Everllence, Rolls-Royce Power Systems (mtu), Wärtsilä (3 model lines 
 | Operator training before taking ov — training as condition of taking over | Malakoff Employer's Contract Terms for Works - RFQ cl.2.15.1 (6 Mar 2025): co... | Malakoff Employer's Contract Terms for Works - RFQ cl.2.15.1 (6 Mar 2025): contractor shall train Employer's personnel in operation and maintenance; where training is specified before taking over, 'the Works shall not be considered to be completed for the purposes of taking over until this training(s) has been completed'. |
 | Operator training before taking ov — MAN PrimeServ standard / advanced training course duration | 4 days | MAN PrimeServ 'Prepare for MAN 175D', printed June 2022, p.13: 'Four-day training for Standard and Advanced courses, and four weeks training for the Expert course at the MAN PrimeServ Academies in Denmark.' |
 | Operator training before taking ov — MAN PrimeServ expert training course duration | 4 weeks | Same MAN PrimeServ 'Prepare for MAN 175D' brochure, printed June 2022, p.13. |
+| Oil sample extraction point and condition | Engine at operation temperature; extraction nozzle on oil filter housing n/a | 'The oil samples must always be taken under the same site conditions (engine at operation temperature) and at the designated point (extraction nozzle on oil filter housing).' A001072/02E 2020-06, p.8. |
+| Used oil viscosity at 100 C - Series 4000 | Max. 17.5 / Min. 11.5 / New oil value +30 % mm2/s | Table 2, ASTM D445 / DIN 51562, Series 4000. A001072/02E 2020-06, p.8. |
+| Used oil TBN - Series 4000 | Min. 2.5 and TBN > TAN; New oil value -60 % mgKOH/g | Table 2, ASTM D2896 / ISO 3771, Series 4000. A001072/02E 2020-06, p.8. |
+| Used oil TAN | max. new oil value +2.5 mgKOH/g | Table 2, ASTM D664; 'On request from factory' for Series 400. A001072/02E 2020-06, p.8. |
+| Used oil iph value | Min. 4 (Series 4000) / Min. 4 (Series 400) n/a | Table 2, ASTM D7946. A001072/02E 2020-06, p.8. |
+| Used oil water | Max. 0.2 (both series) % by vol. | Table 2, ASTM D6304 / EN 12937 / ISO 6296. A001072/02E 2020-06, p.8. |
+| Used oil glycol | Max. 100 (Series 4000); on request from factory (Series 400) mg/kg | Table 2, ASTM D2982. A001072/02E 2020-06, p.8. |
+| Used oil oxidation | Max. 20 (S4000) / Max. 30 (S400) A/cm | Table 2, DIN 51453. A001072/02E 2020-06, p.8. |
+| Used oil nitration | Max. 20 (S4000) / Max. 30 (S400) A/cm | Table 2, IR method. A001072/02E 2020-06, p.8. |
+| Wear metals - iron | Max. 30 (S4000) / Max. 50 (S400) mg/kg | Table 2, DIN 51399-1/-2. A001072/02E 2020-06, p.8. |
+| Wear metals - lead | Max. 20 (S4000) / Max. 30 (S400) mg/kg | Table 2, DIN 51399-1/-2. A001072/02E 2020-06, p.8. |
+| Wear metals - aluminium | Max. 10 (S4000) / Max. 20 (S400) mg/kg | Table 2, DIN 51399-1/-2. A001072/02E 2020-06, p.8. |
+| Wear metals - copper | Max. 20 (first oil change max 3000 op.hrs: 50 ppm) / Max. 50 mg/kg | Table 2 footnotes *** 'During the 1st oil change (max. 3000 op. hrs.), the limit value is 50 ppm.' A001072/02E 2020-06, p.8. |
+| Wear metals - tin | Max. 5 (S4000) / Max. 15 (S400) mg/kg | Table 2, DIN 51399-1/-2. A001072/02E 2020-06, p.8. |
+| Wear metals - silicon | Max. 15 (S4000) / Max. 10 (S400) mg/kg | Table 2: '* The limit value for the wear element Si only refers to natural gas operation.' A001072/02E 2020-06, p.8. |
+| Extended oil volume wear-element reduction | 50 % (max) of table limit value % | 'When using an extended volume of oil, the limit values for wear elements must be reduced inversely proportional to the volume enlargement. The maximum permissible reduction of limit values for the wear elements is 50% of the limit value from the table.' |
+| Silicon operational value SiB limit - with catalyst / without | 0 / < 0.01 (Series 4000) / < 0.02 (Series 400) mg Si/m3 NTP CH4 | Section 2.1.3: SiB = Delta Si oil analysis [ppm] x (Oil fill quantity + top-up quantity)[l] / generated electrical work [kWh]. A001072/02E 2020-06, p.10. |
+| Oil analysis records | The results of the oil analyses must be archived n/a | 'Used-oil analysis - The results of the oil analyses must be archived.' A001072/02E 2020-06, p.9. |
+| Malaysia office established | 1996 year | 'Wartsila in Malaysia was set up in 1996 in Kuala Lumpur'. |
+| Local staff | over 15 professionals people | 'today it has over 15 professionals in 2 different locations in Kuala Lumpur and Pasir Gudang, Johor to serve our customers in the East and West Malaysia.' |
+| Kuala Lumpur office address | Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia n/a | Contact us block on wartsila.com/mys, © 2026 Wartsila. |
+| Kuala Lumpur phone / fax | +603 2148 5072 / +603 2148 5071 n/a | Contact us block on wartsila.com/mys. |
+| Engine type | MAN 175D, V type, 12/16/20 cylinders, 175 mm bore n/a | The MAN 175D engine is a V type, available with 12, 16 or 20 cylinders, with 175 mm bore |
+| Engine speed | 1500-2000 rpm | Running from 1,500 to 2,000 rpm |
+| Engine rating | 1440-4400 kW | it features ratings from 1,440 to 4,400 kW |
+| Service levels | L1 to L5 n/a | individual service levels (L1 to L5). L1 and L2 e.g. covering the basic tasks – and L5 the most advanced expert tasks. |
+| Training duration | Four-day training for Standard and Advanced courses, and four weeks training for the Expert course n/a | Training type: Four-day training for Standard and Advanced courses, and four weeks training for the Expert course at the MAN PrimeServ Academies in Denmark. |
+| Service centres | 100 count | Via a network of over 100 service centers worldwide |
+| Spare parts delivery | ?-24 hours | Prompt delivery of high-demand OEM spare parts within 24 hours |
 
 - **Everllence** MAN PrimeServ commissioning and after-sales service: OEM commissioning / start-up management service
 - **Rolls-Royce Power Systems (mtu)** MTU used-gas-engine-oil analysis (laboratory limit values and sampling): lube-oil laboratory test / calibration basis
@@ -2454,6 +3326,12 @@ Vendors: Atlas Copco, CS Instruments, E+E Elektronik (0 model lines recorded).
 | Standards compliance | ISO 9001, ISO 14001, ISO 1217 n/a | Printed under 'Designed for efficiency' |
 | Energy recovery from motor and element oil circuit | ?-up to 78 % | Printed under 'Recover energy' on GA series page |
 | VSD average energy savings claim | 50 % | Printed vendor claim: 'GA VSD+ achieves average energy savings of 50%' |
+| Capacity FAD (litres/sec) | 8-1410 l/s | "Capacity FAD l/s 8 l/s - 1,410 l/s 133 l/s - 22,349 l/s" |
+| VSD energy savings | 35 % (up to) | "Variable Speed Drive (VSD) technology ... results in energy savings of up to 35%" |
+| GA VSD+ average energy savings (iPM IE4 motor) | 50 % (average) | "Combined with the innovative patented iPM (interior Permanent Magnet) motor (IE4), the GA VSD+ achieves average energy savings of 50%" |
+| FAD increase | 12 % (up to) | "The GA VSD+ realizes a Free Air Delivery (FAD) increase of up to 12%" |
+| Energy recovery | 78 % (up to) | "It recovers up to 78% of the energy from the motor and the element oil circuit" |
+| Compliance standards | "GA series is ISO 9001, ISO 14001 and ISO 1217 compliant" | "GA series is ISO 9001, ISO 14001 and ISO 1217 compliant" |
 
 
 Recorded gaps:
@@ -2497,6 +3375,12 @@ Vendors: Eclipse Combustion (BoostPak; spec sheets hosted on Kromschroeder docut
 | Stage configuration | 1 or 2 stage design n/a | Printed in product description |
 | Shaft sealing | magnetic coupling n/a | Printed under 'advantages at a glance': low-maintenance sealing system with magnetic coupling |
 | Rotor design | robust two-lobe rotor design (gas-tight sealed) n/a | Printed under 'advantages at a glance' |
+| Type of technology | Positive Displacement Blowers n/a | Technical data: Type of technology: Positive Displacement Blowers |
+| Differential pressure | 150-2000 mbar | Differential pressure (Δp): 150 to 2,000 mbar |
+| Design stages | 1 or 2 stage design n/a | The direct-drive GM-HP blowers ... 1 or 2 stage design, with separate pressurised oil lubrication for the oil-free transport and compression of air, neutral gases, and gas mixtures. |
+| Sealing system | magnetic coupling n/a | Low-maintenance sealing system with magnetic coupling for low operating costs |
+| Design pressure (explosive gases) | 25 bar g | For explosive gases, the design pressure of 25 bar g offers the corresponding pressure shock resistance (inner EX zone). |
+| Differential pressure (brochure) | 150-2000 mbar | Blower package GM-HP ... Differential pressure dp 150 to 2,000 mbar |
 
 
 Recorded gaps:
@@ -2587,6 +3471,18 @@ Vendors: Cleaver-Brooks, Honeywell, Zeeco (0 model lines recorded).
 | Fuel train compatibility | Standard or compact fuel trains such as the Siemens valve assembly compatibility | Product Overview bullet |
 | Hawk Boiler Controls features | Touchscreen HMI, economizer and O2-trim options, burner sequencing, fault history, lead/lag operation feature set | Boiler Controls catalog listing |
 | Hawk 4500 features | Complete control system for new or retrofit industrial watertube boilers/burners; economizer control, draft control, full metering options feature set | Boiler Controls catalog listing |
+| Products listed | 4 count | 4 Items Found |
+| Hawk 4500 application | Industrial Watertube Conversions n/a | Hawk 4500 — Industrial Watertube Conversions |
+| Hawk 4500 capabilities | Complete boiler control system for new or retrofit industrial watertube boilers and burners; economizer control, draft control, and full metering options n/a | The Hawk 4500 is a complete boiler control system for new or retrofit industrial watertube boilers and burners. Advanced features include economizer control, draft control, and full metering options. |
+| EOS 500 display | 7 inch | the burner control comes with a standard 7" touchscreen |
+| Accu-Trim function | Stand Alone O2 Trim Control n/a | Accu-Trim — Stand Alone O2 Trim Control |
+| Hawk boiler controls options | touchscreen HMI, economizer & O2-trim options, burner sequencing, fault history & lead/lag operation n/a | Upgrade to Cleaver-Brooks Hawk Boiler Controls with touchscreen HMI, economizer & O₂-trim options, burner sequencing, fault history & lead/lag operation for retrofits or new installs |
+| Boiler applicability | Steam or hot water boiler control n/a | Steam or hot water boiler control |
+| Trim mode | Air or fuel trim n/a | Air or fuel trim; an actuator or VSD system, which trims either the fuel or airflow |
+| Drive option | Variable-speed drive option n/a | Variable-speed drive option; A variable-speed drive is used to provide fuel or air trim |
+| O2 probe options | custom C-B O2 Probe and industrial O2 probes such as Yokogawa n/a | Design options include the custom C-B O2 Probe and industrial O2 probes such as Yokogawa |
+| Setup | user-friendly HMI n/a | Setup and operation are easy with the user-friendly HMI |
+| Applications | Process Steam; Industrial Process; Building Heat; Sterilization; Humidification; Waste Heat Recovery; Hospital and Healthcare; Power and Utilities; Refineries and Petrochemical; Laundry and Dry Cleani n/a | Applications list on the product page |
 
 
 Recorded gaps:
@@ -2614,6 +3510,17 @@ Vendors: Honeywell, Zeeco (0 model lines recorded).
 | Positioning | High-performance industrial and commercial burner control system product class | Boiler Controls catalog listing |
 | Components | PLCs, HMIs, complex relay logic, transmitters for all measurements scope of supply | Industrial Burners page Burner management systems section |
 | Panel certifications | UL certified panel shop; ATEX, CSA and UL certifications; IEC and NEC standards certifications | Industrial Burners page Burner management systems section |
+| DCS programming location | Forney or the DCS supplier's location n/a | The physical programming of the BMS can occur at Forney or the DCS suppliers location. |
+| PLC programming and FAT location | Forney facility n/a | The physical programming of the BMS is done at the Forney facility as well as the Factory Acceptance Test. |
+| Industry experience | over 40 years n/a | Zeeco has manufactured reliable, technically advanced control systems for the combustion industry for over 40 years |
+| Certifications | UL certified panel shop; ATEX, CSA, UL, IEC and NEC standards n/a | Our panel shop is UL certified and capable of complying with most worldwide standards, such as ATEX, CSA, and UL certifications. Not only can we conform to IEC and NEC standards |
+| Package burner turndown | 10:1 or greater n/a | turndown capabilities of 10:1 or greater |
+| Package burner NOx (standard) | <30 ppm | Standard configuration offers less than 30ppm NOx without external flue gas recirculation (FGR) |
+| Package burner NOx (with FGR) | <9 ppm | Capable of less than 9ppm NOx with less than 20% FGR |
+| FGR fraction | <20 % | Capable of less than 9ppm NOx with less than 20% FGR |
+| O2 level | 3-4 % | 10:1 turndown with constant 3-4% O2 levels throughout the firing rate |
+| Package burner models | PLN Ultra-Low NOx, FREE JET Ultra-Low NOx, GO Ultra-Low NOx, GB-ZS/ZR n/a | PackageD Burners product list |
+| GO burner | staged flame combustion and Internal Flue Gas Recirculation (IFGR) to achieve 30ppm NOx without FGR n/a | Zeeco's GO Ultra-Low NOx Package Burner utilizes staged flame combustion and Internal Flue Gas Recirculation (IFGR) combustion to achieve 30ppm NOx emissions without the use of FGR |
 
 
 Recorded gaps:
@@ -2640,6 +3547,27 @@ Vendors: ComAp, Woodward, Basler Electric, Deep Sea Electronics, DEIF, Schneider
 | Cooperating controllers | 64 additional units | Value as printed in the cited source; no further qualifier stated. |
 | Cybersecurity | ISA 62443 level 2-3 compliance claim | Value as printed in the cited source; no further qualifier stated. |
 | Enclosure | 262 x 182 x 47 mm | Value as printed in the cited source; no further qualifier stated. |
+| Gensets in isochronous parallel operation | 1-32 gensets | "Isochronous operation of 1 to 32 gensets" |
+| Measurement accuracy | "Precise measurements with Class I accuracy for true RMS power sensing" | "Precise measurements with Class I accuracy for true RMS power sensing" |
+| Standard languages | 14 languages | "Globally standardized control (e.g. with 14 standard languages and customizable language options)" |
+| Communication / load sharing | "CAN network load sharing and J-1939 engine control"; "Multi-mastering, redun... | "CAN network load sharing and J-1939 engine control"; "Multi-mastering, redundant communication, and redundancy functionality" |
+| Integrated functions | "Combines multiple functions (synchronization, protection, AVR, configurable ... | "Combines multiple functions (synchronization, protection, AVR, configurable PIDs for process control, genset automation, load and power factor control) into one controller" |
+| Applications | "Emergency stand-by, AMF; CHP; Marine ship/shore power; Islanded prime power;... | "Emergency stand-by, AMF; CHP; Marine ship/shore power; Islanded prime power; Utility paralleling with peak shaving and import/export control" |
+| Robustness | "Robust design with conformal coating and galvanic isolation for harsh enviro... | "Robust design with conformal coating and galvanic isolation for harsh environments" |
+| Additional gen-sets/mains/tie controllers | ?-64 count | New CAN FD inter-controller communication standard enabling cooperation with up to 64 additional gen-sets/mains/tie controllers |
+| Cyber security level | ISA 62443 level 2 - level 3 n/a | meeting the ISA 62443 level 2 - level 3 security requirements |
+| Ethernet ports | 3 count | External communication options: 3x Ethernet (Modbus TCP, SNMP), 1x RS-485 (Modbus RTU) |
+| RS-485 ports | 1 count | 1x RS-485 (Modbus RTU) |
+| Enclosure dimensions | 262 x 182 x 47 mm mm | Dimensions: Enclosure : 262 x 182 x 47 mm (10.3 x 7.2 x 1.85 inch.) |
+| Cutout dimensions | 225 x 165 x 47 mm mm | Cutout : 225 x 165 x 47 (10 x 6.5 x 1.85 inch.) |
+| Ingress protection | IP20 n/a | EN 60529 (IP20) |
+| Operating low temperature | -40 degC | EN 60068-2-1 (-40 °C/16 h) |
+| Operating high temperature | 70 degC | EN 60068-2-2 (70 °C/16 h) |
+| Vibration | 2÷25 Hz / ±1,6 mm; 25÷100 Hz / 4,0 g n/a | EN 60068-2-6 (2÷25 Hz / ±1,6 mm; 25÷100 Hz / 4,0 g) |
+| Shock | 500 m/s2 | EN 60068-2-27 (a=500 m/s 2 ; T=6 ms) |
+| Damp heat | 25/55 °C, RH 95%, 48 h n/a | EN 60068-2-30 (25/55 °C, RH 95%, 48 h) |
+| Grid code compliance | EN 50549, VDE-AR-N 4110:2018, VDE-AR-N 4105:2019, G99, TOR, IEEE 1547 n/a | Compliant with international grid codes: European EN 50549, including national implementations as VDE-AR-N 4110:2018, VDE-AR-N 4105:2019, G99, TOR, American IEEE 1547 and others. |
+| Bank controller units | 4032 count | allowing for a theoretical maximum of 4032 control units to be efficiently managed within a single ComAp system |
 
 
 Recorded gaps:
@@ -2725,6 +3653,44 @@ Vendors: Rolls-Royce / mtu solutions, Wärtsilä, Kohler Power Systems (Kohler E
 | Kohler Power Systems remote radiator / — Typical CAC intake-air temperature rise over ambient specified by EPA engine certification | 20 °C (typically 20°C, but it varies by engine) | Kohler white paper 'Remote Cooling Design Factors for Standby Generators', Power Systems Topics 144, RADIATOR CIRCUIT DESIGN; print date not stated on page read, r.jina.ai retrieval 2024-06-20. |
 | Closed-loop radiator cooling syste — Water consumption with closed loop radiator cooling | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.6 '... | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.6 'Water consumption': 'Combustion engine power plants equipped with a closed loop cooling system using radiators, consume a negligible amount of water'; read via r.jina.ai fallback 25 Nov 2026 |
 | Closed-loop radiator cooling syste — Engine cooling arrangement, Flexicycle reference | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.14:... | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.14: 'the combustion engines are cooled with closed loop radiators, and the steam cycle with cooling towers' |
+| Closed-loop radiator cooling water consumption | 0.2 l/MWh | 'Closed-circuit radiator cooling with only 0.2 l/MWh water consumption'; 'The engine cooling arrangement using closed-loop radiator cooling reduces the plant process water consumption to a mere 0.2 l/MWh, minimising the effect on local water resources.' Brochure printed 08.2017. |
+| Fast start-up from hot standby | 2 - 10 minutes to full load, regardless of plant size minutes | 'Fast start-up: only 2-10 minutes from hot standby to full load, regardless of plant size'; 'Wartsila ICE power plants can start and reach full load in less than 10 minutes'. |
+| Plant electrical efficiency | > 54 % | 'Plant electrical efficiency up to more than 54%'; 'Wartsila gas engines with modern lean-burn technology reach over 50% electrical efficiency'. |
+| Typical engine unit size | 4 - 19 MW MW | 'typically based on modular 4-19 MW internal combustion engine (ICE) units'. |
+| CHP total efficiency | 95 % (can reach) | 'In CHP applications for hot water production, the total efficiency can reach 95%.' |
+| Flexicycle power increase | 10 % (almost) | 'This combined cycle solution increases the power production by almost 10%.' |
+| Fleet track record | 176 countries, more than 11,000 engines, combined capacity 63 GW n/a | 'Wartsila has supplied 176 countries with more than 11,000 engines having a combined capacity of 63 GW'; 'some 5000 projects in 176 countries'. |
+| Plant process water / cooling claim | No water consumed for plant cooling = arid area suitability n/a | 'No water consumed for plant cooling = arid area suitability!' and 'minimal derating of the heat rate and output at high altitudes and in hot temperatures'. |
+| Fuel choices | natural gas, or multi-fuel mode gaseous + liquid (LFO, HFO, crude oil, liquid biofuel); switching during operation n/a | 'Wartsila gas engines operate on a wide selection of gas types ... capable of operating on both natural gas and liquid fuel (light fuel oil, heavy fuel oil, crude oil or liquid biofuel) ... possible to switch from gas to liquid fuel, and vice versa, even during operation.' |
+| 34SG LPG capability | first medium-speed engine capable of running on LPG; also ethane n/a | 'The Wartsila 34SG engine can run on a wide range of gases, including liquefied petroleum gas (LPG) and ethane. It is the first medium-speed engine capable of running on LPG.' |
+| Generator set rating | 400 kWe / 60 Hz / Standby / 208 - 600 V n/a | Spec sheet title: 'mtu 12V1600 GS400 Gas Generator Set 400 kWe/60 Hz/Standby/208-600V'. 231296 | 2026-03. |
+| Engine model / type | 12V1600L80S; 4-cycle; turbocharged, intercooled; 12-V n/a | Application data table 'Engine'. |
+| Displacement | 21.0 (1,281) L (cu in) | Application data table 'Displacement: L (cu in) 21.0 (1,281)'. |
+| Bore / stroke | 12 cm (4.72 in) / 15 cm (5.91 in) cm (in) | Application data table 'Bore: cm (in) 12 (4.72); Stroke: cm (in) 15 (5.91)'. |
+| Compression ratio | 11:1 n/a | Application data table 'Compression ratio 11:1'. |
+| Rated speed | 1800 rpm | Application data table 'Rated rpm 1,800'. |
+| Maximum power NG / LPG | 565 (758) / 397 (532) kWm (bhp) | Application data table 'Maximum power (NG): kWm (bhp) 565 (758); Maximum power (LPG) 397 (532)'. |
+| Gas fuel consumption NG at 100% / 75% / 50% | 143.5 (5,067) / 115.7 (4,087) / 86.7 (3,063) m3/hr (ft3/hr) | Fuel consumption table (NG-1000 BTU/ft3): 'At 100% of power rating: m3/hr (ft3/hr) 143.5 (5,067)' etc. |
+| LPG fuel consumption at 100% / 75% / 50% | 46.8 (1,654) / 38 (1,341) / 28.7 (1,015) m3/hr (ft3/hr) | Fuel consumption table (LP-2500 BTU/ft3). |
+| Steady state frequency band | ± 0.5 % % | Application data table 'Steady state frequency band ± 0.5%'. |
+| Emissions certification | EPA Part 60 Subpart JJJJ Stationary Non-Emergency; EPA Part 1048 Mobile; EPA Blue Sky Series certified; 3-way catalyst n/a | Certifications and standards / Standard features sections; 'Emissions data ... values provided ... are typical and intended for limited design reference only. Refer to Emission Data Sheet (EDS)'. |
+| Standby rating definition | 85% average load factor; no overload capability; ISO 8528-1, ISO 3046-1, BS 5514, AS 2789 n/a | Rating definitions and conditions; 'Nominal ratings at standard conditions: 25 C and 300 meters (77 F and 1,000 feet).' |
+| Radiator ambient capacity | 50 deg C (122 F) | Cooling - radiator system table: 'Ambient capacity of radiator: C (F) 50 (122)'. |
+| Maximum cooling air restriction | 0.20 (0.8) kPa (in. H2O) | Cooling table: 'Maximum restriction of cooling air: intake and discharge side of radiator: kPa (in. H2O) 0.20 (0.8)'. |
+| Water pump capacity | 517 (137) L/min (gpm) | Cooling table 'Water pump capacity: L/min (gpm) 517 (137)'. |
+| Heat rejection to coolant | 294 (16,739) kW (BTUM) | Cooling table 'Heat rejection to coolant: kW (BTUM) 294 (16,739)'. |
+| Heat rejection to after cooler | 132 (7,517) kW (BTUM) | Cooling table as printed. |
+| Heat radiated to ambient | 42 (2,366) kW (BTUM) | Cooling table as printed. |
+| Fan power | 29 (39) kW (hp) | Cooling table as printed. |
+| Liquid capacities - oil / jacket water / system coolant | 73 (19.3) / 65 (17.2) / 156 (41.3) L (gal) | Liquid capacity table as printed. |
+| Open power unit dimensions | 3,720 x 1,865 x 2,247 mm (146.5 x 73.5 x 88.5 in) | Weights and dimensions: 'Open Power Unit (OPU) 3,720 x 1,865 x 2,247 mm (146.5 x 73.5 x 88.5 in)'. |
+| Open power unit weight | 4,545 - 6,746 kg (10,020 - 14,872 lb) | Weights and dimensions table; 'Weights and dimensions are based on open power units and are estimates only.' |
+| Sound level at 7 m - standby full load NG / LP | 90.5 / 90.8 dB(A) | Sound data: 'provided at 7 m (23 ft). Generator set tested in accordance with ISO 8528-10 ... Unit type Standby full load (NG) Level 0 (OPU): dB(A) 90.5; (LP) 90.8'. |
+| CAC temperature rise over ambient (typical) | 20 degC | "EPA emission certifications for an engine are dependent on a specific temperature rise of the intake air over ambient temperature (typically 20°C, but it varies by engine)" |
+| Remote cooling system types considered | "There are a few options for remote cooling systems such as cooling towers, c... | "There are a few options for remote cooling systems such as cooling towers, city or pond water cooling, and remote radiators" |
+| Cooling circuits on large generators | 2 distinct circuits | "Most large generators will have two distinct cooling circuits ... the engine jacket water cooling and the charge air cooling" |
+| Head limits source | "To determine how far away the radiator can be from the generator, two things... | "To determine how far away the radiator can be from the generator, two things must be considered: static head and dynamic head. These limits can be found on manufacturer spec sheets" – no numeric head limits printed |
+| Publication | "POWER SYSTEMS TOPICS 144", white paper 'Remote Cooling Design Factors for St... | "POWER SYSTEMS TOPICS 144", white paper 'Remote Cooling Design Factors for Standby Generators' by Alex Hischke, Senior Project Engineer, Kohler Power Systems; 8 pages; Jina published-time 2024-06-20 |
 
 - **Rolls-Royce / mtu solutions** mtu 12V1600 GS400 set-mounted radiator / cooling system (NG and LPG): engine cooling radiator
 - **Wärtsilä** Wärtsilä closed-loop radiator cooling (gas/multi-fuel power plants): closed-circuit radiator cooling arrangement
@@ -2785,6 +3751,21 @@ Vendors: Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Sel
 | LH top running double girder overh — Span | 22.5 m | Same KSCRANE Case 2, priced example |
 | LH top running double girder overh — Lifting height | 9 m | Same KSCRANE Case 2, priced example |
 | LH top running double girder overh — Working duty | Same KSCRANE Case 2, priced example; FEM standard duty classes A3-A6 listed e... | Same KSCRANE Case 2, priced example; FEM standard duty classes A3-A6 listed elsewhere on the page (value: A4) |
+| capacity | 1-100 tonnes | Specifications: Capacity 1T - 100T+; light to medium duty 1T-20T; heavy duty 5T-100T+ |
+| span | ?-35 m | Specifications: Span Up to 35m; single girder spans up to 25m, double girder up to 35m |
+| lift_height | Custom n/a | Specifications: Lift Height Custom |
+| duty_class | A3 - A7 n/a | Specifications: Duty Class A3 - A7 |
+| certification | JKKP / DOSH n/a | Specifications: Certification JKKP / DOSH; JKKP load testing and certification handled in-house |
+| installation_duration | 3-7 working days | A standard overhead crane installation typically takes 3 to 7 working days depending on span, capacity, and site conditions |
+| LH/QD double girder crane - capacity range | 5-600 t (5t to 600t/150t listed) | Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables |
+| LH/QD double girder crane - span | 10.5-34 m (10.5-31.5 m typical; 13-31 m and 34 m for large models) | Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables |
+| LH 5t double girder - total power | 22.8-27.8 kW | Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables |
+| LH 100t/20t double girder - total power | 136-174 kW | Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables |
+| LH 600t/150t double girder - total power | 466 kW | Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables |
+| LH/QD - working duty | A5, A6 (A5 for 200t and above) n/a | Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables |
+| Single girder overhead crane - power supply | 220V-660V, 50-60Hz, 3ph AC n/a | Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables |
+| Single girder overhead crane - span | 7.5-31.5 m | Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables |
+| Single girder overhead crane - lifting height | 6-30 m | Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables |
 
 - **Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Selangor, Malaysia** Vibrant Engineering Services single/double girder EOT crane, wire rope hoist, chain hoist, gantry and jib crane: electric overhead travelling crane and hoists, JKKP/DOSH certified
 - **Dafang Crane (dgcrane.com)** Dafang Crane LH-type / QD-type double girder overhead crane with hoist trolley: double girder EOT crane with hoist/winch trolley
@@ -2835,6 +3816,10 @@ Vendors: Forney Corporation, NEM Energy, GSD (Genel Sistem Dizaynı), Boldrocchi
 | Sealing | dual set of seals; seal air system interlocked if pressure falls indicating a leak n/a | Printed under Safety System |
 | Claimed advantages | soft start flow distribution; control capability; reduced time to open; eliminates guillotine damper; smaller actuators n/a | Printed under Features & Benefits; no numeric performance figures printed |
 | Independent actuation | independent actuator on each damper n/a | Printed in product overview |
+| Damper configuration | 2 BiPlane dampers | "Forney utilizes two BiPlane Dampers for superior isolation and control. One damper on the inlet to the HRSG and the other damper isolating the stack" |
+| Actuation | "The two BiPlane Dampers allow for soft start and better control capabilities... | "The two BiPlane Dampers allow for soft start and better control capabilities with an independent actuator on each damper" |
+| Safety interlocks | "Mechanical interlock – Prevents both Dampers from closing at the same time –... | "Mechanical interlock – Prevents both Dampers from closing at the same time – Allows both to be open at the same time"; "Dual set of seals – two layers of protection"; "Seal air system – interlocked if pressure falls indicating a leak" |
+| Benefits | "Better: Soft start flow distribution, Control capability, Safety, Sealing pe... | "Better: Soft start flow distribution, Control capability, Safety, Sealing performance; Faster: Reduced time to open; Cheaper: Eliminate the need for the Guillotine Damper, Smaller actuators" |
 
 
 Recorded gaps:
@@ -2902,6 +3887,52 @@ Vendors: Preferred Utilities Manufacturing Corp., Danbury, CT, USA, Preferred Ut
 | Liquid fuel (diesel/LFO) backup sy — Fuel changeover | Same white paper p.7: 'The engines can transfer from gas to liquid fuel oil o... | Same white paper p.7: 'The engines can transfer from gas to liquid fuel oil operation, or vice versa. This can be done at any load, instantaneously and automatically, for example in the event of an interruption to the gas supply' |
 | Liquid fuel (diesel/LFO) backup sy — Conventional liquid fuel for oil-fired engines | Same white paper p.7: 'The traditional fuel for oil fired engines is LFO. Oil... | Same white paper p.7: 'The traditional fuel for oil fired engines is LFO. Oil fired engines are also able to operate on HFO, crude oil (CRO), fuel water emulsions (FWE) and liquid biofuels (LBF) with minor on-site pre-treatment' |
 | Liquid fuel (diesel/LFO) backup sy — Fuel switching, 18V51/60DF engines | Everllence press release 4 December 2025: 'The 18V51/60DF engines allow seaml... | Everllence press release 4 December 2025: 'The 18V51/60DF engines allow seamless switching between gaseous and liquid fuels during operation' |
+| Capacity range | 20 'Available from 20 to 620 gallon capacities' | As printed on the cited catalogue page. |
+| Construction standard | 'Built to U.L. 142 or 2085 standards' | 'Built to U.L. 142 or 2085 standards' |
+| Containment | 160 % of day tank capacity | 'Containment – 160% of Day Tank Capacity' / rupture basin '160% of tank capacity standard' |
+| Metal thickness | 10 gauge | 'Metal Thickness: 10 gauge' |
+| Manual fill port | 2 in NPT | 'Manual Fill Port: 2” NPT' |
+| Inspection port | 6 in square | 'Inspection Port: 6” square gasketed plate' |
+| Pipe connections | 1 in NPT | '1” NPT Pipe Connections: Tank fill, engine fuel return, overflow to storage tank, engine fuel supply, plugged drain' |
+| Vent size 20-60 gal | 2 in | 'Vent Connections: 2” -- 20-60 gallon' |
+| Vent size 80-190 gal | 3 in | '3” -- 80-190 gallons' |
+| Vent size 220 gal and over | 4 in | '4” -- 220 gallons and over' |
+| Approvals | 'Approvals/Compliance: UL approved, NFPA 30 compliant' | 'Approvals/Compliance: UL approved, NFPA 30 compliant' |
+| Dimension table DT-020 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=22, C=21.5, vent=2", basin AA=18, BB=30, CC=17.5, tank WGT=79 lb, basin WGT=85 lb |
+| Dimension table DT-030 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=31, C=21.5, vent=2", basin AA=18, BB=41, CC=17.5, tank WGT=136 lb, basin WGT=130 lb |
+| Dimension table DT-040 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=26, C=33.5, vent=2", basin AA=18, BB=34, CC=29.5, tank WGT=166 lb, basin WGT=159 lb |
+| Dimension table DT-060 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=37, C=33.5, vent=2", basin AA=18, BB=47, CC=29.5, tank WGT=245 lb, basin WGT=205 lb |
+| Dimension table DT-080 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=22, C=45.5, vent=3", basin AA=29.5, BB=30, CC=41.5, tank WGT=317 lb, basin WGT=276 lb |
+| Dimension table DT-100 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=27, C=45.5, vent=3", basin AA=29.5, BB=35, CC=41.5, tank WGT=366 lb, basin WGT=343 lb |
+| Dimension table DT-130 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=33, C=45.5, vent=3", basin AA=29.5, BB=45, CC=41.5, tank WGT=361 lb, basin WGT=420 lb |
+| Dimension table DT-160 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=40, C=45.5, vent=3", basin AA=29.5, BB=53, CC=41.5, tank WGT=405 lb, basin WGT=415 lb |
+| Dimension table DT-190 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=47, C=45.5, vent=3", basin AA=29.5, BB=63, CC=41.5, tank WGT=483 lb, basin WGT=466 lb |
+| Dimension table DT-220 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=53, C=45.5, vent=4", basin AA=29.5, BB=72, CC=41.5, tank WGT=524 lb, basin WGT=557 lb |
+| Dimension table DT-260 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=61, C=45.5, vent=4", basin AA=29.5, BB=85, CC=41.5, tank WGT=584 lb, basin WGT=661 lb |
+| Dimension table DT-275 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=64, C=45.5, vent=4", basin AA=29.5, BB=89, CC=41.5, tank WGT=620 lb, basin WGT=668 lb |
+| Dimension table DT-290 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=68, C=45.5, vent=4", basin AA=29.5, BB=94, CC=41.5, tank WGT=656 lb, basin WGT=674 lb |
+| Dimension table DT-360 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=45, C=45.5, vent=4", basin AA=50, BB=73, CC=41.5, tank WGT=689 lb, basin WGT=676 lb |
+| Dimension table DT-460 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=57, C=45.5, vent=4", basin AA=51, BB=87, CC=41.5, tank WGT=805 lb, basin WGT=784 lb |
+| Dimension table DT-560 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=69, C=45.5, vent=4", basin AA=57, BB=94, CC=41.5, tank WGT=964 lb, basin WGT=880 lb |
+| Dimension table DT-620 (A x B x C tank) | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26,... | Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=76, C=45.5, vent=4", basin AA=60, BB=99, CC=41.5, tank WGT=1041 lb, basin WGT=932 lb |
+| Flow range | 23-1600 GPH | Flows from 23 to 1600 GPH |
+| Fluid | No. 2 or No. 4 fuel oil n/a | No. 2 or No. 4 fuel oil; Fluid: No. 2 or No. 4 fuel oil is standard |
+| Power | 120 VAC (external) n/a | Specifications > Power: 120 VAC (external) |
+| Motor supply | 115V 60 Hz single phase n/a | Note: all pumps are 115V 60 Hz single phase |
+| Pump type | Positive displacement type with cast iron housings and self-adjusting mechanical seals n/a | Pump: Positive displacement type with cast iron housings and self-adjusting mechanical seals |
+| Motors | Base mounted, TEFC n/a | Motors: Base mounted, TEFC |
+| Pump catalog 11871 | 180 GPH @ 15 PSI, 1725 RPM, 1/4 HP n/a | G.P.H. Oil #2 / P.S.I. / Motor R.P.M. / H.P.: 180 / 15 / 1725 / ¼ (catalog 11871) |
+| Pump catalog 11872 | 480 GPH @ 15 PSI, 3450 RPM, 1/3 HP n/a | 480 / 15 / 3450 / ⅓ |
+| Pump catalog 11873 | 600 GPH @ 30 PSI, 1725 RPM, 1/2 HP n/a | 600 / 30 / 1725 / ½ |
+| Pump catalog 11874 | 900 GPH @ 30 PSI, 1725 RPM, 3/4 HP n/a | 900 / 30 / 1725 / ¾ |
+| Pump catalog 11815 | 1200 GPH @ 25 PSI, 1725 RPM, 3/4 HP n/a | 1200 / 25 / 1725 / ¾ |
+| Day tank | UL 142 labeled, reinforced 10 gauge steel, Model DT-S-R-UL n/a | one (1) ___ gallon, UL 142 labeled day tank constructed of reinforced 10 gauge steel ... Model DT-S-R-UL |
+| Rupture basin capacity | 160 % of tank capacity (minimum) | sized a minimum of 160% capacity of tank capacity |
+| Level switches | 4 float operated switches rated at 100 watts n/a | Level Controls shall have four (4) float operated switches rated at 100 watts |
+| Level control points | 90% high alarm/shutdown; 80% pump off; 50% pump on; 40% low n/a | emergency high-level alarm and total pump shutdown (90% capacity), pump off (80% capacity), pump on (50% capacity), and emergency low-level secondary pump on (40% capacity) |
+| Suitability pressure | 150 PSIG | Unit shall be suitable for pressures to 150 PSIG |
+| Control cabinet | NEMA 12/13; UL 508A n/a | control system enclosure shall be constructed to NEMA 12/13 standards; must be labeled as conforming to UL 508A |
+| Hydrostatic test pressure | 5 PSIG minimum | The minimum pressure for testing the tank shall be five (5) PSIG ... in no case for less than one-half hour |
 
 - **Preferred Utilities Manufacturing Corp., Danbury, CT, USA** Preferred Utilities Model DT fuel oil day tank: diesel/fuel oil day tank
 - **Preferred Utilities Manufacturing Corp.** Preferred Utilities fuel oil transfer pump and day tank set: fuel oil transfer pump / day tank package
@@ -3089,6 +4120,48 @@ Vendors: Umicore, Johnson Matthey Catalysts Germany GmbH (2 model lines recorded
 | Selective catalytic reduction (SCR — Permitted ammonia slip, US | 2-10 ppm | US EPA fact sheet EPA-452/F-03-032: 'In the U.S., permitted ammonia slip levels are typically 2 to 10 ppm' |
 | Selective catalytic reduction (SCR — NOx level attainable with SCR, gas engine | 5 ppm vol, dry at 15% O2 | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.7: 'With SCR technology NOx levels of 5 ppm, vol, dry at 15% O2 can be attained' |
 | Selective catalytic reduction (SCR — Engine-out NOx, lean-burn gas engine (optimised / efficiency-optimised) | 45-90 ppm vol, dry at 15% O2 | Wartsila white paper (copyright 2011), p.7: engines can be optimised to max 45 ppm; efficiency-optimised engines reach max 90 ppm |
+| Engine power range | 500 '500 to 4500 Kilowatt (kW) engines' in patent title and claims | As printed on the cited catalogue page. |
+| Subrange 1 | 500 'between about 500 kW and about 1000 kW (1 MW)' | As printed on the cited catalogue page. |
+| Subrange 2 | 1000 'from about 1000 kW (1 MW) to about 2000 kW (2 MW)' | As printed on the cited catalogue page. |
+| Subrange 3 | 2000 'from about 2000 kW (2 MW) to about 4500 kW (4.5 MW)' | As printed on the cited catalogue page. |
+| NSR range | 0.1 'the NSR can range from about 0.1 to about 2' | As printed on the cited catalogue page. |
+| Preferred NSR | 0.6 'preferably is within the range from 0.6 to 1.2, inclusive' | As printed on the cited catalogue page. |
+| Urea concentration range | 5 'concentration of urea in the aqueous solution can range from about 5 to 70%' | As printed on the cited catalogue page. |
+| Preferred urea concentration | 15 'preferably from about 15 to about 60%' | As printed on the cited catalogue page. |
+| More preferred urea concentration | 30 'more preferably from about 30 to about 40%' | As printed on the cited catalogue page. |
+| Urea decomposition temperature | 140 degC | 'an aqueous urea solution decomposes at temperatures above 140°C to form ammonia and isocyanic acid' |
+| Catalyst cell density | 45 '45 to 400 cells per square inch (cpsi), more preferable 70 to 300 cpsi and even more pref | As printed on the cited catalogue page. |
+| Preferred catalyst brick cross section | 150 mm x mm | 'a cross section of about 150 x 150 mm2' |
+| Exhaust gas temperature minimum | 100 degC | 'the temperature of the combustion gases ... should be at least about 100 °C' |
+| Typical exhaust gas temperature | 180 'typically between about 180° and about 650 °C, and preferably above at least about 250 °C | As printed on the cited catalogue page. |
+| Test engine displacement | 16 L | 'Mercedes OM512 engine (16 L displacement) 430kW' |
+| Test engine power | 430 kW | same test-bench statement |
+| Test exhaust temperature | 430 'The exhaust temperatures, post turbo, were from 430-510°C' | As printed on the cited catalogue page. |
+| Test ANR values | 0.8 'tested with ammonia:nitrogen oxide ratios (ANR) of 0.8, 0.9, 1.0 and 1.1' | As printed on the cited catalogue page. |
+| Test exhaust mass flow | 1200 kg/h | 'with a mass flow of the exhaust of 1200 kg/h' |
+| Raw NOx concentration | 1500 ppm | 'concentration of NOx raw was 1500 ppm' |
+| Vaporization air pressure | 4 bar | 'used air at 4 bars and consumption of approximately 1 Nm3/h' |
+| DNX catalyst | V/T/W SCR for high-efficiency NOx removal; sulfur resistant n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| DNU catalyst | CuSCR for NOx removal with lowest possible volume n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| DNO catalyst | Oxidation of VOC & CO; dual functionality oxidation and SCR; sulfur resistant n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| DNA catalyst | Ammonia slip catalyst for NH3 removal n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| DOC catalyst | Diesel oxidation catalyst for VOC oxidation n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| DOX catalyst | Oxidation of VOC & CO; Pt or Pt/Pd based formulations n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| Catalyst combination - backup/continuous diesel and gas engines | DNX + DNO for high NOx/NH3/VOC efficiency and endurance, high sulfur resistance n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| Catalyst combination - particles and NOx | cDPF + DNU for particles and NOx removal with low catalyst volume n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| Catalyst combination - ammonia engines | DNX + DNA + DNZ for combined NOx, NH3 and N2O abatement n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| Catalyst combination - methanol engines | DNX + DNO for NOx, methanol, formaldehyde and HCN abatement n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| Umicore - catalytic emission control experience | More than 40 years; over 10,000 industrial references n/a | Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations |
+| SCRT system functions | Reduces NOx, PM, VOC, CO, and noise n/a | SCRT® System: Reduces NOx, PM, VOC, CO, and noise |
+| SCRT emission tier | Tier 4 or better n/a | Achieves Tier 4 or better |
+| SCRT configuration | Single-box or modular configuration for any location n/a | Single-box or modular configuration for any location |
+| SCR catalyst | Made entirely of catalytically active materials; sulfur-tolerant, wide temperature window n/a | SINOx® Extruded SCR Catalyst: Made entirely of catalytically active materials; Sulfur-tolerant, wide temperature window |
+| Catalyst cell densities | Low cpsi for bio and waste gases; medium cpsi for HFO; high cpsi for ULSD, natural gas n/a | Cell densities for range of fuels: Low cpsi for bio and waste gases; Medium cpsi for HFO; High cpsi for ULSD, natural gas |
+| ASC function | Converts NH3 slip to nitrogen; delivers CO, VOC conversion n/a | Ammonia Slip Catalyst (ASC): Converts NH3 slip to nitrogen; Delivers CO, VOC conversion |
+| NOx permit example | 0.06 g/bhp-hr | emissions are maintained within the permit limit of 0.06 g/bhp-hr |
+| PA DEP limit | 0.5 g/bhp-hr | a fraction of the PA DEP limit (0.50 g/bhp-hr) |
+| Federal limit | 1.0 g/bhp-hr | and the federal limit (1.0 g/bhp-hr) |
+| CRT PM reduction | ?-85 % | the CRT systems reduced PM by more than 85%, without plugging |
 
 - **Umicore** Umicore DNX® / DNU / DNO / DNA / DOC / MOC / DNZ catalyst families and combinations: SCR / oxidation / ammonia-slip catalysts
 - **Johnson Matthey Catalysts Germany GmbH** Compact SCR system for 500–4500 kW engines (patent EP3137745B1, Johnson Matthey Catalysts Germany GmbH): compact urea-SCR system
@@ -3121,6 +4194,9 @@ Vendors: Cleaver-Brooks, Zeeco (0 model lines recorded).
 | Reductant options | Aqueous ammonia, anhydrous ammonia, urea reductants | Product page: 'multiple ammonia solutions (Aqueous, Anhydrous, Urea, etc.)' |
 | Additional catalyst | CO or VOC catalyst available for lowest stack emissions option | Product page first paragraph |
 | Applications | Power plants, refineries, chemical plants applications | Product page Features: Versatile Applications |
+| Reductants | Aqueous ammonia, Anhydrous ammonia, Urea, etc. n/a | offer multiple ammonia solutions (Aqueous, Anhydrous, Urea, etc.) |
+| Additional catalysts | CO or VOC catalyst are also available for the lowest emissions out the stack n/a | CO or VOC catalyst are also available for the lowest emissions out the stack. |
+| Process | catalyst facilitates a chemical reaction between NOx and a reductant, typically ammonia or urea, converting harmful NOx into harmless nitrogen and water vapor n/a | Our SCR technology utilizes a catalyst to facilitate a chemical reaction between NOx and a reductant, typically ammonia or urea, converting harmful NOx into harmless nitrogen and water vapor. |
 
 
 Recorded gaps:
@@ -3148,6 +4224,34 @@ Vendors: SESB Single Buyer (system owner/operator per Sabah Grid Code), Landis+G
 | Landis+Gyr E850 grid meter — accuracy class | Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: 'Accuracy cl... | Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: 'Accuracy class 0.2S / 0.5S for active energy and 0.5S / 1 for reactive energy'. (value: 0.2S / 0.5S (active), 0.5S / 1 (reactive)) |
 | Landis+Gyr E850 grid meter — low-load accuracy guarantee | 2 % load (stated as 'lowest load of 2% in a single phase operation') | Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: 'the precision is guaranteed even at the lowest load of 2% in a singe phase operation, unbalanced or cos φ below 1'. |
 | Landis+Gyr E850 grid meter — deployment base | 70 countries (stated as '70 countries worldwide' / '70+ countries') | Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: 'track record of successful deployments across 70 countries worldwide'. |
+| Nominal frequency | 50 Hz | 'AC alternating current (nominally 50 Hz)' in glossary |
+| CDGU threshold synchronous | 30 MW | 'generating unit equal to or greater than 30MW if it is a synchronous unit' |
+| CDGU threshold power park | 5 MW | 'total on-site generation capacity equal to or greater than 5 MW' |
+| Distribution network voltage ceiling | 33 kV | 'Distribution Network The system operating at a nominal phase voltage of 33 kV or below' |
+| Time basis | 8 hours offset | 'Malaysian Standard Time (UTC/GMT + 8 hours)' |
+| Grid Code document sections | 'General Conditions; Planning Code; Connection Conditions; Operating Codes No... | 'General Conditions; Planning Code; Connection Conditions; Operating Codes Nos. 1 to 11; Scheduling and Dispatch Codes Nos. 1 to 3; Metering Code' |
+| Metering Code appendix | 'Metering Code Appendix 1 – Type and Accuracy of Revenue Metering Installatio... | 'Metering Code Appendix 1 – Type and Accuracy of Revenue Metering Installations'; 'Metering Code Appendix 2 - Commissioning, Inspection, Calibration and Testing Requirements' |
+| Single Buyer function | 'The Single Buyer is a department in SESB that is responsible for overseeing ... | 'The Single Buyer is a department in SESB that is responsible for overseeing the commercial arrangements entered into with the IPPs' |
+| Grid System Operator function | 'GSO is the person inSESB responsible for the overall coordination of the ope... | 'GSO is the person inSESB responsible for the overall coordination of the operation, maintenance and control of the interconnected Grid System' |
+| Document page count | 224 pages | PDF metadata: Number of Pages 224 |
+| Accuracy classes | Landis+Gyr E660 Variations: 'Accuracy classes C, B (MID) or 0.2s, 0.5s, 1 (IE... | Landis+Gyr E660 Variations: 'Accuracy classes C, B (MID) or 0.2s, 0.5s, 1 (IEC) (for active energy)' |
+| Power quality standards | 'Continuous power quality measurement integrated (EN50160, IEC61000-4-30 Cl. ... | 'Continuous power quality measurement integrated (EN50160, IEC61000-4-30 Cl. S)'; 'Power quality according EN50160 and IEC 61000-4-30 Cl. S or according IDIS' |
+| Safety standard | 'The E660 supports new safety standards in full (IEC62052-31)'; 'Fulfils IEC6... | 'The E660 supports new safety standards in full (IEC62052-31)'; 'Fulfils IEC62052-31 safety standard' |
+| Communication module E66C | 'The communication module E66C supports state of the art IP-communication LTE... | 'The communication module E66C supports state of the art IP-communication LTE CAT-M1 and Ethernet' |
+| Security | 'High Level DLMS security with encryption and authentication, role based acce... | 'High Level DLMS security with encryption and authentication, role based access (RBAC), TLS'; 'DLMS security suite 0 as default, upgrade path to suite 1 and 2 and TLS' |
+| Overvoltage category | 'For use in overvoltage category III or IV environment' | 'For use in overvoltage category III or IV environment' |
+| Energy measurement | 'Active, reactive and apparent energy (4-quadrant)'; 'Transformer connection ... | 'Active, reactive and apparent energy (4-quadrant)'; 'Transformer connection (CT; CT/VT)' |
+| Expansion module | 'The expansion module E66E with digital inputs and outputs and electro-mechan... | 'The expansion module E66E with digital inputs and outputs and electro-mechanical relay' |
+| accuracy_class_active | 0.2S / 0.5S class | Accuracy class 0.2S / 0.5S for active energy and 0.5S / 1 for reactive energy |
+| accuracy_class_reactive | 0.5S / 1 class | Accuracy class 0.5S / 1 for reactive energy |
+| frequency | 50/60 Hz and 16 2/3 Hz (for railway infrastructure) n/a | Product page feature list: 50/60Hz and 16 2/3 Hz (for railway infrastructure) |
+| display | 8 digits | 8-digit liquid crystal display (LCD) for local reading of data |
+| communication_interfaces | RS 232 / RS 485 / Ethernet / GSM / GRPS / UMTS (3G) n/a | Exchangeable communication modules (RS 232 / RS 485 / Ethernet / GSM / GRPS / UMTS (3G)); integrated optical interface and RS485 with DLMS |
+| transmitting_contacts | ?-8 contacts | Up to 8 transmitting contacts (for energy flow, load supervision (Pmax, Qmax), capture period) |
+| measurement_quadrants | 4 quadrants | 4-quadrant measurement (+P -P, +Q -Q, Q1..Q4) |
+| capture_period | 1-5 minutes | Accurately records short capture periods (as low as 1-5 minutes) |
+| low_load_accuracy | 2 % | Maintains accuracy even at very low loads (2%) and under unbalanced or low power factor (cos phi < 1) conditions |
+| versions | E850 f6 wall mounted; E850 f9 rack mounted n/a | The E850 grid meter is available in two main versions |
 
 - **SESB Single Buyer (system owner/operator per Sabah Grid Code)** SESB Single Buyer revenue-metering data collection and billing chain: energy billing / metering data collection system
 - **Landis+Gyr** Landis+Gyr E660 high-end metering and analysis device: billing / power-quality grid-edge meter
@@ -3195,6 +4299,165 @@ Vendors: Wartsila Energy, INNIO Jenbacher, Everllence, MAN Engines, Rolls-Royce 
 | Engine portfolio rating (Jenbacher Type 9 page navigation) | ?-10606 kW/engine | Jenbacher data-centre page navigation labels 'Jenbacher Type 9 Up to 10606 kW/engine' |
 | Full-load start time | <2 min (fast start) | Value as printed in the cited source; no further qualifier stated. |
 | Efficiency | >51 % with two-stage turbocharging | Value as printed in the cited source; no further qualifier stated. |
+| Frequency | 60 / 50 Hz | 'Frequency: 60/50 Hz' for 35/44G (TS). |
+| Maximum power | 12900 kWm (up to) | 'Up to 12,900 kWm' for 35/44G (TS). |
+| Hot-condition ramp-up rate | > 14 MW/min | '> 14 MW/min - The dynamic and powerful 35/44G can ramp-up in hot condition very powerful.' |
+| Reference CHP plant (EnBW Stuttgart) | 3 x 20V35/44G; 31.2 MW electricity, up to 30 MW district heating; 60,000 metric tons CO2/yr saved; commercial operation 2018; 10-year service contract n/a | Customer table on Everllence gas fuel engines page; print date not stated, © 2026. |
+| Mechanical efficiency (two-stage turbocharging) | > 51 % | 'Our 51/60G engine with two-stage turbocharging boasts over 51% efficiency - making it ideal for use in power plants'. Header: 'Outstanding mechanical efficiency even more than >50 %'. |
+| Gibraltar reference plant | 3 x 14V51/60G + 3 x 14V51/60DF; commercial operations 2019 n/a | Customer table: Gibelec, base-load power plant & LNG terminal, Gibraltar; scope gensets and mechanical auxiliaries. |
+| INNIO/VoltaGrid order size | 2.3 GW, 92 power packs each delivering 25 MW GW / MW | 'INNIO Group announced ... a 2.3 GW power infrastructure project with VoltaGrid featuring 92 power packs, each delivering 25 MW of output.' |
+| VoltaGrid ambient capability | 50 deg C (122 F) | 'maintains full power and efficiency even at ambient temperatures up to 122F (50C)'. |
+| J920 FleXtra full-load time | 2 minutes | 'INNIO's Jenbacher J920 FleXtra engine, the largest in the company's gas engine portfolio, achieves full load within two minutes.' |
+| Greenville Texas plant | 104 MW, 11 engines, >17,200 customers; groundbreaking Dec 2025, commissioning summer 2027 n/a | POWER article, 'Fast-Start Technology Becomes Standard Requirement' section. |
+| Thurrock UK plant | 450 MW; Jenbacher engines start in less than five minutes; 'Ready for H2' MW / minutes | 'The 450-MW flexible generation facility ... expected to achieve full operations by late 2026 ... rapid start-up in less than five minutes ... Ready for H2'. Conflicting start times vs J920 2 minutes preserved as printed. |
+| KMW NOx reduction | 95 % lower (claimed) | 'up to 95% lower nitrogen oxide emissions' for the KMW (Kraftwerke Mainz-Wiesbaden AG) energy systems. |
+| Companion fast-start figures (other OEMs, as printed) | Cat G3516 zero-to-full in ~7 s; mtu 20V4000 L64 2.8 MW in 45 s (60 Hz); Wartsila 31SG 2.5 min; Wartsila 24 x 50SG = 429 MW n/a | POWER article prints these alongside Jenbacher; transcribed as published context, not J920 ratings. |
+| Electrical output 50 Hz genset | 10606 kW | J920 GenSet 50 Hz table: 'Electrical Output 10,606 kW'; * Provided technical data is for information only ... Output and efficiency at generator terminals. Energy input is according to DIN ISO 3046 and DIN 6271, respectively, with a tolerance of + 5%. All data according to full load ... Based on emission values of 250 and 500 mg/Nm3 NOx at 5% O2 at dry exhaust gas. Base for biogas and sewage gas versions: 65% CH4 / 35% CO2. Base for landfill gas version: 55% CH4 / 40% CO2 / Rest N2. |
+| Thermal output 50 Hz genset | 10300 kW | J920 GenSet 50 Hz table: 'Thermal Output 10,300 kW'. |
+| Voltage 50 Hz | 10.5 kV, 11 kV kV | J920 GenSet 50 Hz table: 'Voltage 10.5kV, 11KV'. |
+| Electrical efficiency 50 Hz | 48.7 % (up to) | J920 GenSet 50 Hz table: 'Electrical Efficiency up to 48.7 %'; footnote DIN ISO 3046 / DIN 6271 +5%. |
+| Thermal efficiency 50 Hz | 47.0 % (up to) | J920 GenSet 50 Hz table: 'Thermal Efficiency up to 47.0 %'. |
+| Electrical output 60 Hz genset | 9542 kW | J920 GenSet 60 Hz table: 'Electrical Output 9,542 kW'. |
+| Thermal output 60 Hz genset | 9300 kW | J920 GenSet 60 Hz table: 'Thermal Output 9,300 kW'. |
+| Voltage 60 Hz | 480 V - 13.8 kV V | J920 GenSet 60 Hz table: 'Voltage 480V - 13.8kV'. |
+| Electrical efficiency 60 Hz | 48.7 % (up to) | J920 GenSet 60 Hz table: 'Electrical Efficiency up to 48.7 %'. |
+| Thermal efficiency 60 Hz | 47.0 % (up to) | J920 GenSet 60 Hz table: 'Thermal Efficiency up to 47.0 %'. |
+| Fuel type | Natural Gas n/a | J920 table 'Fuel Type Natural Gas' (50 and 60 Hz). |
+| NOx reference emission basis | 250 and 500 mg/Nm3 at 5% O2, dry exhaust gas mg/Nm3 | * Provided technical data is for information only ... Output and efficiency at generator terminals. Energy input is according to DIN ISO 3046 and DIN 6271, respectively, with a tolerance of + 5%. All data according to full load ... Based on emission values of 250 and 500 mg/Nm3 NOx at 5% O2 at dry exhaust gas. Base for biogas and sewage gas versions: 65% CH4 / 35% CO2. Base for landfill gas version: 55% CH4 / 40% CO2 / Rest N2. |
+| Biogas/sewage gas reference composition | 65% CH4 / 35% CO2 % by vol. | * Provided technical data is for information only ... Output and efficiency at generator terminals. Energy input is according to DIN ISO 3046 and DIN 6271, respectively, with a tolerance of + 5%. All data according to full load ... Based on emission values of 250 and 500 mg/Nm3 NOx at 5% O2 at dry exhaust gas. Base for biogas and sewage gas versions: 65% CH4 / 35% CO2. Base for landfill gas version: 55% CH4 / 40% CO2 / Rest N2. |
+| Landfill gas reference composition | 55% CH4 / 40% CO2 / rest N2 % by vol. | * Provided technical data is for information only ... Output and efficiency at generator terminals. Energy input is according to DIN ISO 3046 and DIN 6271, respectively, with a tolerance of + 5%. All data according to full load ... Based on emission values of 250 and 500 mg/Nm3 NOx at 5% O2 at dry exhaust gas. Base for biogas and sewage gas versions: 65% CH4 / 35% CO2. Base for landfill gas version: 55% CH4 / 40% CO2 / Rest N2. |
+| Total efficiency (CHP) | about 94 % | 'Operating a Jenbacher J920 FleXtra at about 94% of total efficiency and 48.7% of electrical efficiency'; case study Stapelfeld: '>95%' total efficiency - conflicting variants preserved. |
+| Engine construction | three modules (generator, engine, turbocharger module); segmented camshaft; exchangeable power unit; 2-stage turbocharger (no deration at higher altitudes/higher cooling-water temperatures) n/a | J920 Features / 2-stage technology sections. |
+| Case study - Fernwaerme Ulm electrical efficiency | 48.8 % | Case study card: 2 x J920 FleXtra, 2 x 10 MW electrical, thermal 2 x 9.6 MW, electrical efficiency 48.8%, pipeline gas, commissioned 2022. |
+| Engines delivered | > 7,000 engines since 1989 (J624 since 2007) | Type 6 page headline statistic. |
+| J612 maximum power | 2092 kW/engine | Discover models: 'j612 / up to 2,092 kW'. |
+| J616 maximum power | 2797 kW/engine | Discover models: 'j616 / up to 2,797 kW'. |
+| J620 fast start power | 3114 kW | Discover models: 'j620 fast start / 3,114 kW'. |
+| J620 maximum power | 3509 kW/engine | Discover models: 'j620 / up to 3,509 kW'. |
+| J624 maximum power | 4499 kW/engine | Discover models: 'j624 / up to 4,499 kW'. |
+| 50 Hz any fuel type - electrical output | up to 4,499 kW | Genset table, 50 Hz, '- Any Fuel Type -': 'Electrical Output up to 4,499 kW; Thermal Output up to 4,706 kW; Voltage 400V, 6.3kV, 10.5kV; Electrical Efficiency up to 47.0%; Thermal Efficiency up to 47.3%'. Technical data for information only; output and efficiency at generator terminals, DIN ISO 3046 / DIN 6271 +5%, full load; NOx 250 and 500 mg/Nm3 at 5% O2 dry; biogas/sewage 65% CH4/35% CO2; landfill 55% CH4/40% CO2/rest N2. |
+| 50 Hz natural gas - electrical output | up to 4,499 kW | Genset table, 50 Hz, Natural Gas column: 'Electrical Output up to 4,499 kW; Thermal Output up to 4,706 kW; Electrical Efficiency up to 47.1%; Thermal Efficiency up to 47.1%'. |
+| 50 Hz coal mine gas - electrical output | up to 3,349 kW | Genset table 50 Hz, Coal Mine Gas: 'Electrical Output up to 3,349 kW; Thermal Output up to 3,488 kW; Electrical Efficiency up to 43.7%; Thermal Efficiency up to 44.7%'. |
+| 50 Hz bio/sewage/landfill gas - electrical output | up to 3,349 kW | Genset table 50 Hz, Bio-/Sewage-/Landfill Gas: 'Electrical Output up to 3,349 kW; Thermal Output up to 3,042 kW; Electrical Efficiency up to 44.8%; Thermal Efficiency up to 41.4%'. |
+| 50 Hz associated petroleum gas (flare gas) - electrical output | up to 3,043 kW | Genset table 50 Hz, Associated Petroleum Gas: 'Electrical Output up to 3,043 kW; Thermal Output up to 3,402 kW; Electrical Efficiency up to 43.3%; Thermal Efficiency up to 47.3%'. |
+| 60 Hz any fuel type - electrical output | up to 4,477 kW | Genset table 60 Hz, Any Fuel Type: 'Electrical Output up to 4,477 kW; Thermal Output up to 4,706 kW; Voltage 480V - 13.8kV; Electrical Efficiency up to 46.8%; Thermal Efficiency up to 47.1%'. |
+| 60 Hz natural gas - electrical output | up to 4,477 kW | Genset table 60 Hz, Natural Gas: 'Electrical Output up to 4,477 kW; Electrical Efficiency up to 46.8%; Thermal Efficiency up to 47.1%'. |
+| 60 Hz coal mine gas - electrical output | up to 3,349 kW | Genset table 60 Hz, Coal Mine Gas: 'Electrical Output up to 3,349 kW; Thermal Output up to 3,488 kW; Electrical Efficiency up to 43.7%; Thermal Efficiency up to 44.7%'. |
+| 60 Hz bio/sewage/landfill gas - electrical output | up to 3,328 kW | Genset table 60 Hz, Bio-/Sewage-/Landfill Gas: 'Electrical Output up to 3,328 kW; Thermal Output up to 3,042 kW; Electrical Efficiency up to 44.5%; Thermal Efficiency up to 41.4%'. |
+| 60 Hz associated petroleum gas - electrical output | up to 3,036 kW | Genset table 60 Hz, Associated Petroleum Gas: 'Electrical Output up to 3,036 kW; Thermal Output up to 3,402 kW; Electrical Efficiency up to 43.2%; Thermal Efficiency up to 47.3%'. |
+| CHP module total efficiency | up to 95 % | 'Combined Heat and Power Module (CHP Module) solutions allow customers to generate power and heat simultaneously at a high total efficiencies, reaching up to 95%.' |
+| Emissions control | LEANOX lean burn control; enhanced steel piston; centrally located purged pre-combustion chamber; Miller valve timing n/a | Highlights and 'Lowered emissions' sections. |
+| Cylinders / arrangement | V12 cylinders | MAN E3872 preliminary technical data table: 'Arrangement/number of cylinders V12'. |
+| Bore | 138 mm | 'bore of 138 mm and a stroke of 165 mm'; technical table 'Bore mm 138'. |
+| Stroke | 165 mm | 'bore of 138 mm and a stroke of 165 mm'; technical table 'Stroke mm 165'. |
+| Displacement | 29.6 litres | Technical table 'Displacement l 29.6'. |
+| Effective rated power | 735 kWmech | 'maximum power of 735 kWmech'; technical table 'Effective rated power kWmech 735'. |
+| Nominal speed | 1500 rpm at 50 Hz | Technical table 'Nominal speed rpm 1,500 (50 Hz)'; 'A version for markets requiring speeds of 1,800 rpm (60 Hz) is also planned'. |
+| Effective mechanical efficiency | 44 / 43.7 % | Page headline '44 % efficiency ...'; technical table 'Effective mechanical efficiency (at NOx =250 mg/Nm3; 5 % O2) % 43,7' - both printed variants preserved. Last updated 12/03/2024. |
+| Mean effective pressure | 19.85 bar | Technical table 'Mean effective pressure bar 19.85'. |
+| NOx emission | 250 mg/Nm3 at 5 ref. vol. % O2 | Table heading 'Operation with natural gas with NOx emissions = 250 mg/Nm3 (5 ref. vol. % O2)' and 'Exhaust status NOx (with 5 % residual oxygen) mg/Nm3 250'. |
+| Engine length | 1805 mm | Technical table 'Engine length mm 1805'. |
+| Engine width | 1243 mm | Technical table 'Engine width mm 1243'. |
+| Engine height | 1407 mm | Technical table 'Engine height mm 1407'. |
+| Dry weight | 2159 kg | Technical table 'Weight (dry) kg 2159'. |
+| Air/fuel ratio lambda (natural gas) | 1.77 - 1.78 lambda | MAN gas programme technical data: E3872 natural gas row '735 | 1.77 - 1.78 | E3872 | 12 | V 90° | 29,6'. |
+| Hydrogen readiness | designed to accommodate a hydrogen (H2) admixture when operated with natural gas n/a | 'As part of the process of converting our stationary natural gas engine range to hydrogen readiness, the new MAN E3872 will be designed to accommodate a hydrogen (H2) admixture when operated with natural gas.' |
+| Key design features | Highly efficient single turbocharger; M18 prechamber spark plugs; camshaft with Atkinson cycle; steel pistons n/a | 'KEY NEW FEATURES OF THE MAN E3872 STATIONARY GAS ENGINE' list. |
+| Cylinder configurations | 12, 16, 20V n/a | 'Cylinder configurations 12, 16, 20V'. |
+| Cylinder bore | 340 mm | 'Cylinder bore 340 mm'. |
+| Piston stroke | 400 mm | 'Piston stroke 400 mm'. |
+| 20V34SG rated electrical power 50 Hz | 9795 kW | Performance table: 20V34SG 'Rated electrical power (kW) 9 795 (50Hz) 9 388 (60Hz)'. Wartsila product page, © 2026 Wartsila; technical data stated at 100 kPa, 25 C suction air, 30% RH, PF 1.0, 5% tolerance. |
+| 20V34SG rated electrical power 60 Hz | 9388 kW | Performance table as above. |
+| 16V34SG rated electrical power 50 Hz | 7830 kW | Performance table: 16V34SG '7 830 (50Hz) 7 491 (60Hz)'. |
+| 16V34SG rated electrical power 60 Hz | 7491 kW | Performance table as above. |
+| 12V34SG rated electrical power 50 Hz | 5840 kW | Performance table: 12V34SG '5 840 (50Hz) 5 580 (60Hz)'. |
+| 12V34SG rated electrical power 60 Hz | 5580 kW | Performance table as above. |
+| 20V34SG electrical efficiency 50 Hz | 48.9 % | Performance table: 'Electrical efficiency (%) 48.9 (50Hz) 48.8 (60Hz)' for 20V34SG. |
+| 20V34SG electrical efficiency 60 Hz | 48.8 % | Performance table as above. |
+| 16V34SG electrical efficiency 50/60 Hz | 48.9 (50Hz) / 48.7 (60Hz) % | Performance table row as printed. |
+| 12V34SG electrical efficiency 50/60 Hz | 48.0 (50Hz) / 47.8 (60Hz) % | Performance table row as printed. |
+| Heat rate 20V34SG | 7 363 (50Hz) / 7 374 (60Hz) kJ/kWh | Performance table row as printed. |
+| Heat rate 16V34SG | 7367 (50Hz) / 7396 (60Hz) kJ/kWh | Performance table row as printed. |
+| Heat rate 12V34SG | 7 501 (50Hz) / 7 538 (60Hz) kJ/kWh | Performance table row as printed. |
+| Connected-to-grid regular start time | 00:30 min:sec | Loading and unloading table: Regular start time / Fast start time, Connected to grid 00:30. |
+| Regular start to full load | < 5 min | Loading and unloading table: 'Regular start time ... Full load < 5'. |
+| Fast start to full load | < 2 min | Loading and unloading table: 'Fast start time ... Full load < 2'. |
+| Stop time | 1 min | Loading and unloading table 'Stop time (min) 1'. |
+| Ramp rate hot | > 100 % load/min | Loading and unloading table 'Ramp rate (hot, load/min) > 100%'. |
+| Minimum load unit / plant | 10% / 1% % | Minimum Load table: 'Unit level 10%; Plant level 1%'. |
+| Fast-start headline | 2 min to full load; 48.9% electrical efficiency; 1 000 generating sets delivered n/a | 'Our proudest numbers' block. |
+| Fuels / hydrogen blending | natural gas, biogas, synthetic methane; capable of hydrogen blending n/a | Key benefits: 'Runs on natural gas, biogas, synthetic methane and is capable of hydrogen blending'. |
+| Cylinder configuration / bore / stroke | 18V; 500 mm bore; 580 mm stroke n/a | Technical data: 'Cylinder configurations 18V; Cylinder bore 500 mm; Piston stroke 580 mm'. |
+| Rated electrical power 50 Hz | 18434 kW | Performance table: 18V50SG 'Rated electrical power (kW) 18 434 (50Hz) 18 875 (60Hz)'. |
+| Rated electrical power 60 Hz | 18875 kW | Performance table as above. |
+| Heat rate | 7 165 (50Hz) / 7 207 (60Hz) kJ/kWh | Performance table row as printed. |
+| Regular / fast start to full load | < 5 / < 2 min | Loading and unloading table, Full load column. |
+| Connected to grid start time | 00:30 min:sec | Loading and unloading table, Connected to grid column. |
+| Installed capacity | 5 000+ MW | 'Our proudest numbers: 2min to full load; 50.2% Electrical efficiency; 5 000+ MW installed capacity'. |
+| 31SG electrical output (data centre page 50/60 Hz) | 11.8 MW / 11.4 MW MW | Data center power solutions product selector: 'Wartsila 31SG gas engine 11.8 MW (50 Hz) / 11.4 MW (60 Hz), 51.5% efficiency / 51.6% efficiency | 90% CHP efficiency'. Conflicting with dedicated page figures preserved separately. |
+| 31SG rated electrical power (dedicated page, standard) | 11 777 (50 Hz) / 11 377 (60 Hz) kW | Dedicated 31SG technical table, WARTSILA 31SG column. Wartsila product page, © 2026 Wartsila; technical data stated at 100 kPa, 25 C suction air, 30% RH, PF 1.0, 5% tolerance. |
+| 31SG efficiency optimised rated power | 10 790 (50 Hz) / 10 389 (60 Hz) kW | Dedicated 31SG technical table, Efficiency optimised column. |
+| 31SG power optimised rated power | 12 762 (50 Hz) / 12 372 (60 Hz) kW | Dedicated 31SG technical table, Power optimised column. |
+| 31SG electrical efficiency standard | 51.5 (50 Hz) / 51.6 (60 Hz) % | Dedicated 31SG technical table, standard column. |
+| 31SG electrical efficiency optimised | 52.0 (50 Hz) / 52.1 (60 Hz) % | Dedicated 31SG technical table, Efficiency optimised column. Data centre page lists 52.1%/52.2% for 31SG efficiency optimised - conflicting variant preserved. |
+| 31SG electrical efficiency power optimised | 50.2 (50 Hz) / 50.4 (60 Hz) % | Dedicated 31SG technical table, Power optimised column. |
+| 31SG heat rate standard / optimised / power | 6 986/6 971; 6 922/6 907; 7 165/7 142 kJ/kWh (50/60 Hz) | Dedicated 31SG technical table, three variants as printed. |
+| 31SG bore / stroke / speed | 310 mm / 430 mm / 750 rpm (50 Hz), 720 rpm (60 Hz) n/a | Dedicated 31SG technical data table. |
+| 31SG power to grid / full load | 30 sec / < 2 min (fast), < 5 min (regular) n/a | 'Synchronises with the grid within 30 seconds from start command'; 'Our proudest numbers: 30 sec Power to grid'; loading table Regular <5, Fast <2; stop time <2; ramp >100%/min. |
+| 31SG full output time (POWER article) | 2.5 minutes | POWER article: 'The Wartsila 31SG power-optimized engine reaches full output in two and a half minutes' - conflicting variant preserved. |
+| 31SG minimum load | Unit level 10%; Plant level 1% % | Dedicated 31SG Minimum Load table. |
+| Data centre plant temperature/altitude envelope | -45 C to 50 C; 100% output above 1,200 m (4,000 ft) n/a | 'Our engines deliver full power at temperatures ranging from -45C (-49F) to 50C (113F) and the output at over 1,200 meters (4000 feet) is 100%'. |
+| Data centre plant water consumption | less than 5 liters (1.3 gallons) per hour; near-zero process water litres/hour | 'The water consumption of our closed-loop cooling system with water-to-air radiators keeps process water consumption near zero. Wartsila engine power plants consume less than 5 liters (1.3 gallons) of water per hour.' |
+| Data centre plant build time | 12 months after manufacturing completion | 'Large scale plants can be operational in 12 months after manufacturing completion.' |
+| Data centre CAPEX / fuel advantage | 20-30% lower CAPEX; 20-35% less fuel than gas turbines; efficiency can exceed 50% % | Data center power solutions page sections 4 'The most cost-efficient solution for data centers'. |
+| Data centre engine size / plant output | 10-23 MW engines; over 450 MW plants MW | 'Our power plants consist of 10-23 MW engines that can provide over 450 MW.' |
+| 46TS-SG rated electrical power 16V / 18V | 20.38 / 22.93 MWe (50 and 60 Hz) | 46TS technical data table: W46TS-SG 'Rated electrical power (MWe) 20.38 (16V) | 22.93 (18V)' for 50Hz and 60Hz. Wartsila product page, © 2026 Wartsila; technical data stated at 100 kPa, 25 C suction air, 30% RH, PF 1.0, 5% tolerance. |
+| 46TS-SG electrical efficiency | 51.3 (16V) / 51.3 (18V) % | 46TS technical data table, W46TS-SG row. |
+| 46TS-SG heat rate | 7020 (16V) / 7060 (18V) kJ/kWh | 46TS technical data table, W46TS-SG row. |
+| 46TS-DF (gas) efficiency / heat rate | 50.7 (16V/18V) / 7105 (16V/18V) % / kJ/kWh | 46TS technical data table, W46TS-DF (Gas) row. |
+| 46TS-DF (LFO) efficiency / heat rate | 49.0 (16V/18V) / 7354 (16V/18V) % / kJ/kWh | 46TS technical data table, W46TS-DF (LFO) row. |
+| Mechanical output per unit | 23.4 MW/unit | 'High mechanical output (23.4 MW/unit) means fewer engines are needed to meet demand.' |
+| Ramp-up time | 2 minutes | 'Rapid response to fluctuations with fast ramp-up time (2 minutes), plus no minimum up or downtime requirements.' |
+| Full power ambient envelope | -55 C/-67 F to +55 C/131 F deg C/F | 'Its two-stage turbocharger system ensures full power at -55C/-67F to +55C/131F'. |
+| Hydrogen blending | 25 % (up to) | 'including natural gas, biogas and hydrogen blends up to 25%'. |
+| Data-centre page 46TS-SG figures | 20.4 MW - 22.9 MW; 51.3 electrical efficiency; 2 min start-up n/a | Data center power solutions selector: 'Wartsila 46TS-SG gas engine 20.4 MW-22.9 MW, 51.3 electrical efficiency | 2 min start-up time'. |
+| Data-centre selector output 50/60 Hz | 18.4 MW / 18.9 MW MW | Data center power solutions selector: 'Wartsila 50SG gas engine 18.4 MW (50 Hz) / 18.9 MW (60 Hz), 49.9% efficiency / 50.0% efficiency | 30 sec power to grid'. |
+| Up to 54% efficiency with Flexicycle | 54 % (up to) | 'Up to 54% efficiency with Flexicycle solution' on the 50SG selector card. |
+| 24 x 50SG order | 24 engines delivering 429 MW MW | POWER article: 'an order for 24 Wartsila 50SG engines delivering 429 MW of output for an American power plant serving a data center'. |
+| Kentucky 50SG order | four Wartsila 50SG engines for 75-MW Energy Center I MW | POWER article: 'The Kentucky Municipal Energy Agency has selected four Wartsila 50SG engines for its 75-MW Energy Center I facility'. |
+| Fast start / grid synchronisation | 30 sec power to grid (selector); < 2 min fast start to full load (product page) n/a | Data centre selector '30 sec power to grid' and 50SG technical table 'Fast start time ... Full load < 2'. Conflicting frame preserved as printed. |
+| 50SG efficiency / heat rate 50 Hz & 60 Hz | 50.2%/50.0%; 7 165/7 207 kJ/kWh % / kJ/kWh | 50SG product page performance table as printed. |
+| 50SG bore / stroke / speed / cylinders | 500 mm / 580 mm / 500 rpm (50 Hz), 514 rpm (60 Hz) / 18V n/a | 50SG product page technical data table. |
+| Maximum excitation current | 10000 Adc | Basler DECS-2100 page: 'wide range of applications that require excitation currents up to 10,000 Adc.' |
+| Redundancy / supervisory channel | 'Optional supervisory channel increases system security by avoiding inadverte... | 'Optional supervisory channel increases system security by avoiding inadvertent tripping with two-out-of-three controller comparison technique.' |
+| Power system stabilizer method | 'integrated Power System Stabilizer (optional) that utilizes the "integral of... | 'integrated Power System Stabilizer (optional) that utilizes the "integral of accelerating power" to safely dampen local mode, inter-area and inter-unit power oscillations.' |
+| Company range | 1-5000 kVA | The World's Largest Independent Producer of Alternators 1 - 5,000kVA |
+| ECO43 rating | 800-1300 kVA | Ratings from 800 kVA up to 1300 kVA (* @ 50Hz / cl.H / 40°C /PF0.8, referred to a 11kV unit) |
+| ECO46 rating | 1300-2500 kVA | Ratings from 1300 kVA up to 2500 kVA (* @ 50Hz / cl.H / 40°C /PF0.8, referred to a 11kV unit) |
+| ECO47 rating | 2500-4000 kVA | Ratings from 2500 kVA up to 4000 kVA (* @ 50Hz / cl.H / 40°C /PF0.8, referred to a 11kV unit) |
+| ECO49 rating | 4000-5000 kVA | Ratings from 4000 kVA up to 5000 kVA (* @ 50Hz / cl.H / 40°C /PF0.8, referred to a 11kV unit) |
+| Speed | 1500 / 1800 rpm | 50/60Hz - 1500 / 1800 rpm |
+| Frequency (400 Hz variant) | 400 Hz | 400 Hz |
+| Insulation | Class H+ n/a | pioneers of true Class H+ Insulation system |
+| AVR | Digital voltage regulator DER2 as standard n/a | Digital voltage regulator DER2 as standard (different AVRs upon request) |
+| Axle height ECO43 | 400 mm | Axle height 400mm (800-1300 kVA range) |
+| Axle height ECO46 | 500 mm | Axle height 500mm (1300-2500 kVA range) |
+| Axle height ECO47 | 560 mm | Axle height 560mm (2500-4000 kVA range) |
+| Axle height ECO49 | 630 mm | Axle height 630mm (4000-5000 kVA range) |
+| Product family | InteliSys (3 models: InteliSys 2000, InteliSys NTC BaseBox, InteliSys Gas) n/a | InteliSys — Show all 3 |
+| Application | gas gensets and cogeneration heat-power (CHP) setups n/a | Tailored for various power generation applications, including gas gensets and cogeneration heat-power setups |
+| Capabilities | unrivalled PLC resources, modular expandability, control algorithm flexibility, extensive communication capabilities n/a | ensures cutting-edge performance with unrivalled PLC resources, modular expandability, and control algorithm flexibility |
+| Compliance | developed in line with the latest market trends, grid code standards, and security protocols n/a | developed in line with the latest market trends, grid code standards, and security protocols |
+| Controller function | paralleling control: synchronises voltage, frequency and phase; kW and kVAr load sharing; island-to-parallel transitions n/a | What Is a Paralleling Gen-set Controller? section |
+| Remote monitoring | WebSupervisor cloud-based online management service n/a | Remote control and monitoring with WebSupervisor |
+| Overall size | 245 mm x 184 mm x 51 mm mm | OVERALL SIZE 245 mm x 184 mm x 51 mm (9.6" x 7.2" x 2.0") |
+| Panel cutout size | 220 mm x 160 mm mm | PANEL CUTOUT SIZE 220 mm x 160 mm (8.7" x 6.3") |
+| Maximum panel thickness | 8.0 mm | MAXIMUM PANEL THICKNESS 8.0 mm (0.3") |
+| Communications ports | USB, RS232 and RS485 ports plus dedicated DSENet terminals n/a | The module include USB, RS232 and RS485 ports as well as dedicated DSENet® terminals for system expansion |
+| Engine compatibility | electronic (CAN) and non-electronic (magnetic pick-up/alternator sensing) n/a | compatible with electronic (CAN) and non-electronic (magnetic pick-up/alternator sensing) engines |
+| Display | back-lit LCD screen, illuminated LEDs n/a | display warnings, shutdown and engine status information on the back-lit LCD screen, illuminated LEDs and remote PC |
+| Function | Auto Mains (Utility) Failure Control Module for single diesel or gas gen-set applications n/a | suitable for a wide variety of single, diesel or gas, gen-set applications |
+| Features | enhanced event and performance monitoring, remote communications & PLC functionality n/a | The extensive list of features includes enhanced event and performance monitoring, remote communications & PLC functionality |
 
 
 Recorded gaps:
@@ -3217,6 +4480,11 @@ Vendors: CIDB Malaysia (1 model lines recorded).
 | Stamp duty on bonds, performance guara — fixed duty for general stamping (insurance policies, guarantees, construction agreements) | 10 RM (fixed) | Same HASiL guideline printed 30 June 2026, section G: instruments outside the specific categories are stamped generally at RM10; printed examples include Polisi Insurans / Cargo Insurance Policy, Performance Bond, Performance Guarantee, Insurance Guarantee, Takaful Guarantee, Letter of Guarantee and Indemnity, and Factoring Agreement (section F 4.22 / 4.14 / G 4.11). |
 | Stamp duty on bonds, performance guara — fixed duty for office/tenancy instruments not otherwise chargeable | 10 RM (fixed) | Same guideline printed 30 June 2026, section A 2.2 items 49(d)-49(f): RM10.00 fixed for share-of-produce leases, duplicate lease instruments and other lease instruments; section G general fixed duty RM10. |
 | CIDB contractor registration (Act 520) — year Act 520 was enacted | 1994 year | CIDB Malaysia web page read 25 Nov 2026: 'Akta 520 adalah satu tindakan untuk membentuk Lembaga Pembangunan Industri Pembinaan Malaysia (CIDB) pada tahun 1994'; scope includes contractor registration, material standards and responsibility for construction safety. No registration fee/levy rate is printed on the page read. |
+| Act enactment year | 1994 year | 'Akta 520 adalah satu tindakan untuk membentuk Lembaga Pembangunan Industri Pembinaan Malaysia (CIDB) pada tahun 1994' |
+| Principal matters | 3 matters | 'Akta 520 melibatkan tiga perkara utama' (quality via registration; material standards; safety responsibility) |
+| SKKP certification standard | 'SKKP CIDB Diiktiraf Di Bawah ISO/IEC 17024:2012' | 'SKKP CIDB Diiktiraf Di Bawah ISO/IEC 17024:2012' |
+| Construction action plan period | 2026 'Pelan Tindakan Pembinaan 2026-2030 (CAP30)' | As printed on the cited catalogue page. |
+| Act PDF editions listed | 2020 (Act 520 as at 1 October 2015); 2021 (Pindaan Jadual Keempat); 2024 (Ame... | 2020 (Act 520 as at 1 October 2015); 2021 (Pindaan Jadual Keempat); 2024 (Amendment of Third Schedule); 2026 (Pua 277.2026) |
 
 - **CIDB Malaysia** CIDB contractor registration (Act 520): statutory registration / levy framework
 
@@ -3377,6 +4645,13 @@ Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems),
 | Connection diameter | 30 ft | TechnipFMC manifolds up to 30 ft connection diameter |
 | Pressure | 20000 psi | Value as printed in the cited source; no further qualifier stated. |
 | Temperature | 350 deg F | Value as printed in the cited source; no further qualifier stated. |
+| Pressure rating | Up to 20K psi | Up to 20K psi |
+| Temperature rating | Up to 350 F | Up to 350F |
+| Equipment types | traditional pipe, template, sleds, pipeline end manifolds (PLEM), pipeline end terminations (PLET), jumpers n/a | high-performance manifold and tie-in systems, including traditional pipe, template, sleds, pipeline end manifolds (PLEM), pipeline end terminations (PLET), and jumpers |
+| Connection options | vertical or horizontal connections n/a | options ranging from traditional pipe to template designs with vertical or horizontal connections |
+| Foundation options | foundations or mudmats, pigging loops, flow meters, mounted controls n/a | We also offer options for foundations or mudmats, pigging loops, flow meters, and mounted controls |
+| Valve options | robotic valve control, electric actuators or manual valves n/a | Provides option for robotic valve control, electric actuators or manual valves |
+| Installation | inline design for installation with flowline; eliminates need for heavy lift vessel; eliminates pipe and welding n/a | Allows installation flexibility and eliminates need for heavy lift vessel. Offers inline design for installation with flowline. Eliminates pipe and welding |
 
 
 ### Subsea multiphase pumping and boosting (ex-subsea-multiphase-pumping-and-boosting)
@@ -3422,6 +4697,10 @@ Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems),
 | Depth | 10000 ft | Value as printed in the cited source; no further qualifier stated. |
 | Pressure | 15000 psi | Value as printed in the cited source; no further qualifier stated. |
 | Temperature | 175 deg C | Value as printed in the cited source; no further qualifier stated. |
+| water_depth_capability | 10000 ft | Capability up to depths of 10,000 ft, pressures of 15,000 psi and temperatures of 175 degrees Celsius |
+| pressure_capability | 15000 psi | Capability up to ... pressures of 15,000 psi |
+| temperature_capability | 175 degC | Capability up to ... temperatures of 175 degrees Celsius |
+| structure_types | cluster manifolds with two or more well slots, pipeline-end manifolds and terminations, tie-in structures; integrated template structure (ITS) provides protected foundation for subsea trees and manifo n/a | Why OneSubsea manifolds? bullet list |
 
 
 ### Subsea umbilicals (ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr)
@@ -3467,6 +4746,17 @@ Vendors: INNIO Jenbacher, Johnson Matthey, Burgess-Manning (CECO Environmental),
 | Burgess-Manning preset vent silencer sizes | inlet diameter 2-12 in; casing diameter 8-24 in; standard design temperature 250 deg C; enhanced noise attenuation up to 50+ dB (typical, no guaranteed attenuation) inch / deg C / dB | Burgess-Manning Preset Vent Silencers product page, Technical Data / Design sections |
 | Engine power | 50-500 / 250-2250 / >=2000 HP for Modulex C / Modulex B / DualOx | Value as printed in the cited source; no further qualifier stated. |
 | Service interval | 15000 hours before maintenance, stated | Value as printed in the cited source; no further qualifier stated. |
+| MODULEX C engine power | 50 'MODULEX C 50-500 HP Stainless steel' | As printed on the cited catalogue page. |
+| MODULEX B engine power | 250 'MODULEX B 250-2250 HP Carbon steel, stainless steel' | As printed on the cited catalogue page. |
+| DUALOX engine power | 2000 'DUALOX 2000 HP and larger Carbon steel, stainless steel' | As printed on the cited catalogue page. |
+| Catalyst types | 'designed to accommodate oxidation and three-way catalyst elements' | 'designed to accommodate oxidation and three-way catalyst elements' |
+| Engine cycles | '4-cycle engines and 2-cycle engines' | '4-cycle engines and 2-cycle engines' |
+| Fuels | 'natural gas, LPG, propane, diesel, biodiesel, dual fuel' | 'natural gas, LPG, propane, diesel, biodiesel, dual fuel' |
+| Applications | gas compression, gas transmission, power generation, irrigation and pumping, ... | gas compression, gas transmission, power generation, irrigation and pumping, standby equipment |
+| Monitoring | 'HAPGuard Monitor helps engine operators comply with RICE NESHAP requirements' | 'HAPGuard Monitor helps engine operators comply with RICE NESHAP requirements' |
+| Operating hours before maintenance | 15000 hours (15,000-plus) | "JM's SCR technology has achieved an impressive 15,000-plus hours of operation before maintenance is required" |
+| Key components | "SINOx honeycomb catalysts; Durable stainless steel catalyst housings; Stainl... | "SINOx honeycomb catalysts; Durable stainless steel catalyst housings; Stainless steel reagent injection lance; Stainless steel reagent mixing duct; System control panel and reagent dosing pump; Silencers for additional sound attenuation" |
+| Additional pollutant control | "can be coupled with ammonia slip or oxidation catalyst technology for optima... | "can be coupled with ammonia slip or oxidation catalyst technology for optimal reductions of CO, hydrocarbons, ammonia and other VOCs" |
 
 
 Recorded gaps:
@@ -3504,6 +4794,34 @@ Vendors: IAC Acoustics (UK Ltd / IAC World), Rolls-Royce / mtu solutions, Johnso
 | Cylindrical exhaust silencer, comm — Exhaust gas mass flow, 10 MW combustion engine | 15.4 kg/s | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3 exhaust gas flow 15.4 kg/s (34 lb/s) for a typical 10 MW combustion engine |
 | Annular flow intake/exhaust silenc — Engine power range | 500-5000 hp | Maxim Silencers 2020 Exhaust Silencer Catalog, Rev M-ESCS-003, AFS3-AFSE3 critical grade annular flow silencer designed for 500-5000 hp or mass flow 2.5 thru 65 lbs/sec; read via r.jina.ai fallback |
 | Annular flow intake/exhaust silenc — Mass flow range | 2.5-65 lbs/sec | Maxim Silencers 2020 Exhaust Silencer Catalog, Rev M-ESCS-003, AFS3-AFSE3, 'mass flow of 2.5 thru 65 lbs/sec' |
+| Generator set rating | 400 kWe / 60 Hz / Standby / 208 - 600 V n/a | Spec sheet title: 'mtu 12V1600 GS400 Gas Generator Set 400 kWe/60 Hz/Standby/208-600V'. 231296 | 2026-03. |
+| Engine model / type | 12V1600L80S; 4-cycle; turbocharged, intercooled; 12-V n/a | Application data table 'Engine'. |
+| Displacement | 21.0 (1,281) L (cu in) | Application data table 'Displacement: L (cu in) 21.0 (1,281)'. |
+| Bore / stroke | 12 cm (4.72 in) / 15 cm (5.91 in) cm (in) | Application data table 'Bore: cm (in) 12 (4.72); Stroke: cm (in) 15 (5.91)'. |
+| Compression ratio | 11:1 n/a | Application data table 'Compression ratio 11:1'. |
+| Rated speed | 1800 rpm | Application data table 'Rated rpm 1,800'. |
+| Maximum power NG / LPG | 565 (758) / 397 (532) kWm (bhp) | Application data table 'Maximum power (NG): kWm (bhp) 565 (758); Maximum power (LPG) 397 (532)'. |
+| Gas fuel consumption NG at 100% / 75% / 50% | 143.5 (5,067) / 115.7 (4,087) / 86.7 (3,063) m3/hr (ft3/hr) | Fuel consumption table (NG-1000 BTU/ft3): 'At 100% of power rating: m3/hr (ft3/hr) 143.5 (5,067)' etc. |
+| LPG fuel consumption at 100% / 75% / 50% | 46.8 (1,654) / 38 (1,341) / 28.7 (1,015) m3/hr (ft3/hr) | Fuel consumption table (LP-2500 BTU/ft3). |
+| Steady state frequency band | ± 0.5 % % | Application data table 'Steady state frequency band ± 0.5%'. |
+| Emissions certification | EPA Part 60 Subpart JJJJ Stationary Non-Emergency; EPA Part 1048 Mobile; EPA Blue Sky Series certified; 3-way catalyst n/a | Certifications and standards / Standard features sections; 'Emissions data ... values provided ... are typical and intended for limited design reference only. Refer to Emission Data Sheet (EDS)'. |
+| Standby rating definition | 85% average load factor; no overload capability; ISO 8528-1, ISO 3046-1, BS 5514, AS 2789 n/a | Rating definitions and conditions; 'Nominal ratings at standard conditions: 25 C and 300 meters (77 F and 1,000 feet).' |
+| Exhaust gas temperature (stack) | 716 deg C (1,321 F) | Exhaust system table, NG and LPG: 'Gas temperature (stack): C (F) 716 (1,321)'. |
+| Exhaust gas volume at stack temperature | 84.6 (2,988) m3/min (CFM) | Exhaust system table: 'Gas volume at stack temperature: m3/min (CFM) 84.6 (2,988)'. |
+| Maximum allowable back pressure | 10 (40) kPa (in. H2O) | Exhaust system table: 'Maximum allowable back pressure at outlet of engine, before piping: kPa (in. H2O) 10 (40)'. |
+| NOx reduction | 95 % (greater than) | Johnson Matthey: "JM's SCR systems are designed to reduce >95% of NOx emissions for stationary diesel and gas engines." |
+| Operating hours before maintenance | 15000 hours (15,000-plus) | Johnson Matthey: "JM's SCR technology has achieved an impressive 15,000-plus hours of operation before maintenance is required." |
+| Complementary catalyst functions | Johnson Matthey: 'Our SCR systems can be coupled with ammonia slip or oxidati... | Johnson Matthey: 'Our SCR systems can be coupled with ammonia slip or oxidation catalyst technology for optimal reductions of CO, hydrocarbons, ammonia and other VOCs.' |
+| System components | Johnson Matthey: 'SINOx honeycomb catalysts; Durable stainless steel catalyst... | Johnson Matthey: 'SINOx honeycomb catalysts; Durable stainless steel catalyst housings; Stainless steel reagent injection lance; Stainless steel reagent mixing duct; System control panel and reagent dosing pump; Silencers for additional sound attenuation' |
+| Absorptive silencer attenuation | 15-25 dB(A) | Absorptive silencer: 15dB(A) to 25dB(A) |
+| Reactive silencer attenuation | 30-50 dB(A) | Reactive silencer: 30dB(A) to 50dB(A) |
+| Performance range | 10-50 dB(A) | Performance range 10-50 dB(A) |
+| Single-unit noise reduction | 15-50 dB(A) | offer a noise reduction of 15dB(A) to 50dB(A) using single units |
+| Working temperature | ?-450 degC | products have a working temperature range of up to 450°c |
+| Pressure level | ?-5000 Pa | and approximately 5000Pa pressure level |
+| Silencer shapes | Cylindrical, box and other shapes available; circular, rectangular, or oval design n/a | Cylindrical, box and other shapes available; Circular, rectangular, or oval design |
+| Materials | carbon steel; stainless steel and corten steel available n/a | Silencer components are generally constructed from carbon steel ... Materials such as stainless steel and corten steel can be specified |
+| Catalyst/SCR option | all silencers can be supplied with catalysts or selective catalytic reduction (SCR) systems n/a | To satisfy the current environmental requirement, all silencers can be supplied with catalysts or selective catalytic reduction (SCR) systems |
 
 - **IAC Acoustics (UK Ltd / IAC World)** IAC Acoustics engine exhaust silencers (absorptive / reactive / catalytic / SCR-integrated): exhaust gas silencer
 - **Rolls-Royce / mtu solutions** mtu 12V1600 GS400 gas generator set — exhaust system data (NG and LPG): gas engine exhaust interface
@@ -3534,6 +4852,20 @@ Vendors: Halgo Power (0 model lines recorded).
 | Scope | Each package burner system comes complete with automatic flame monitoring and shut-off, rotary air dampers, and a combustion air fan scope | Zeeco Industrial Burners page Packaged Burners section |
 | Air fan design | Advanced combustion air fan wheel using less horsepower and less noise; silent operation design feature | SBR-30 product page Product Overview bullet 'Silent operation with an advanced combustion air fan wheel using less horsepower and less noise' |
 | Air housing | Easy access air housing for internal components design feature | SBR-30 Product Overview bullet |
+| NOx emissions | 30 ppm (less than, without FGR) | "Available to <30 ppm NOx without FGR" |
+| Excess oxygen | 3 % O2 (approx) | "~3% O2 across a wide load range" |
+| Turndown ratio | 10 ratio (up to, gas) | "Up to 10:1 turndown ratio when firing gas" |
+| Natural gas input | 16.8-54.6 MMBTU/hr | "natural gas fuel option from 16.8 to 54.6 MMBTU/hr"; attribute "Input Capacity 16,800 - 54,600" |
+| Boiler horsepower range | 400-1300 HP | Attribute table: "Boiler Horsepower 400 - 1,300" |
+| Furnace pressure | 3.6-5.6 (unit not stated in table) | Attribute table: "Furnace Pressure 3.6 - 5.6" |
+| Minimum gas pressure | 5 (unit not stated in table) | Attribute table: "Min Gas Pressure 5" |
+| Oil input | 120-390 US GPH | Attribute table: "Oil Input (US GPH) 120 - 390"; "Can fire #2 fuel oil as back up fuel" |
+| Mode of operation | Attribute table: "Mode of Operation Full Modulation"; "Parallel Positioning S... | Attribute table: "Mode of Operation Full Modulation"; "Parallel Positioning Standard" |
+| NOx without FGR | 30 ppm (less than) | "Standard configuration offers less than 30ppm NOx without external flue gas recirculation (FGR)" |
+| NOx with FGR | 9 ppm (less than, with less than 20% FGR) | "Capable of less than 9ppm NOx with less than 20% FGR" |
+| Turndown | 10 ratio (10:1 or greater) | "turndown capabilities of 10:1 or greater"; "10:1 turndown with constant 3-4% O2 levels throughout the firing rate" |
+| Combustion air fan design | "High efficiency backward curve blade design"; "Hinged blower housing design ... | "High efficiency backward curve blade design"; "Hinged blower housing design for ease of use and service"; "Each burner system comes complete with automatic flame monitoring and shut-off, rotary air dampers for precise low torque air control, and a combustion air fan" |
+| O2 level across firing range | 3-4 % | "10:1 turndown with constant 3-4% O2 levels throughout the firing rate" |
 
 
 Recorded gaps:
@@ -3610,6 +4942,11 @@ Vendors: Veolia Water Technologies, LANXESS, SUEZ Water Technologies (0 model li
 | Applications | clarification, lime softening, silica reduction, organics reduction n/a | Printed on Raw Water Pretreatment page |
 | Filter type | heavy duty, high rate gravity filter n/a | Printed on Raw Water Pretreatment page |
 | Design duty | treating high turbidity loads and sticky particulates following polymer/coagulant treatment n/a | Printed on Raw Water Pretreatment page; no filtration rate printed |
+| Clarifier design principle | Graver Raw Water Pretreatment: 'Inclined Plate Clarification – The Graver Lam... | Graver Raw Water Pretreatment: 'Inclined Plate Clarification – The Graver Lamella design assures laminar flow conditions that result in hydraulic uniformity and high effluent quality.' |
+| Installation / footprint | Graver: 'It permits great reduction in the space needed for clarification equ... | Graver: 'It permits great reduction in the space needed for clarification equipment, and allows the compact equipment to be located indoors if desired, or to be easily relocated at a later date.' |
+| filter_type | heavy duty, high rate gravity filter n/a | Graver's Monoscour is a heavy duty, high rate gravity filter designed for treating high turbidity loads and sticky particulates |
+| applications | wastewater applications, lime softening applications, cooling tower side stream filtration and all other gravity filter applications where high filtering rates are desirable n/a | Product description on pretreatment page |
+| Functions in single unit | chemical addition and mixing, flocculation, and upflow clarification n/a | provides a means for chemical addition and mixing, flocculation, and upflow clarification in a single unit |
 
 
 Recorded gaps:
@@ -3676,6 +5013,17 @@ Vendors: Spirax Sarco, TLV, Cleaver-Brooks (0 model lines recorded).
 | Type | Pressurized packed column deaerator type | Product bullets and narrative |
 | Storage capacity | 10-30 minutes | Product Overview attribute: 'Storage capacities from 10 to 30 minutes' |
 | Pumping | On/off or variable speed pumping configuration | Product bullets and Product Overview |
+| Feedwater capacity | 1500-135000 lbs/hr | "1,500 - 135,000 lbs/hr" |
+| Pumping options | "On/off and variable speed pumping"; "On/off or variable speed pumping" | "On/off and variable speed pumping"; "On/off or variable speed pumping" |
+| Design type | "a pressurized packed column design where water is cascaded through a unique ... | "a pressurized packed column design where water is cascaded through a unique column design removing dissolved oxygen in boiler feed water and eliminating carbon dioxide" |
+| capacity_TMV | 30000-500000 lb/hr | Product page: Model TMV: 30,000 - 500,000 lb/hr |
+| capacity_TMH | 500000-1000000 lb/hr | Product page: Model TMH: 500,000 - 1,000,000 lb/hr |
+| dissolved_oxygen_residual | ?-0.005 cc/liter | reducing dissolved oxygen content in boiler feedwater to levels less than .005 cc/liter (7 ppb) |
+| dissolved_oxygen_residual_ppb | ?-7 ppb | levels less than .005 cc/liter (7 ppb) |
+| configuration | Vertical or horizontal tray column design n/a | Product page: Vertical or horizontal tray column design; offered in vertical and horizontal tray configurations |
+| deaeration_stages | 2 stages | Two-stage deaeration in a common vessel |
+| oxygen_standard | Exceeds ASME recommendations for oxygen level n/a | Product overview bullet: Exceeds ASME recommendations for oxygen level |
+| materials | corrosion-resistant alloys n/a | Built of corrosion-resistant alloys for lifetime service |
 
 
 Recorded gaps:
@@ -3702,6 +5050,42 @@ Vendors: Emerson (duplex stainless steel option on Roxar 2600, page read), Yokog
 | Yokogawa Plant Resource Manager (PRM)  — supported field protocols | Yokogawa CENTUM VP General Specifications GS 33K01A10-50E, 12th Edition Sep. ... | Yokogawa CENTUM VP General Specifications GS 33K01A10-50E, 12th Edition Sep. 1, 2014, read via r.jina.ai: 'PRM communicates with devices with digital communication functions such as Foundation fieldbus, HART, and field wireless (complies with ISA 100.11a) devices'. (value: FOUNDATION fieldbus, HART, field wireless (ISA 100.11a), conventional analogue d) |
 | ABB System 800xA S880 / Select I/O saf — safety I/O module types | ABB System 800xA Safety Overview, copyright © 2025 ABB, read via r.jina.ai: '... | ABB System 800xA Safety Overview, copyright © 2025 ABB, read via r.jina.ai: 'Within the S880 I/O family, there are SIL3 compliant modules for safety critical applications including 4 - 20 mA analog inputs, 24 Vdc digital inputs and 24 Vdc digital outputs ... Analog inputs support HART routing'. (value: SIL3 compliant 4-20 mA analogue inputs, 24 Vdc digital inputs and 24 Vdc digital) |
 | Yokogawa Plant Resource Manager (P — FOUNDATION Fieldbus devices connected to CENTUM CS 3000 DCS | 1000 devices (nearly 1,000) | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), Qatar Petroleum PS-2 & PS-3 entry: 'Nearly 1,000 FF-enabled devices were connected to the CENTUM CS 3000 DCS'. Order November 2006, completion March 2009. Read via r.jina.ai proxy 25 Nov 2026. |
+| Safety integrity level certification | 3 SIL 3 | "TÜV certified for SIL 3 operation according to IEC 61508 and IEC 61511" |
+| First release year | 2005 year | "The ABB Ability™ System 800xA High Integrity safety system was released in 2005" |
+| Experience in process safety systems | 40 years (over) | "ABB has over 40 years of experience in the design, manufacture and implementation of process safety systems" |
+| Countries with installed safety systems | 55 countries (more than) | "For over 40 years, ABB has successfully delivered and installed safety systems in more than 55 countries worldwide" |
+| Applicable standards | "designed, delivered and supported in accordance with ... IEC 61508, IEC 6151... | "designed, delivered and supported in accordance with ... IEC 61508, IEC 61511, IEC 62061, EN ISO 13849, NFPA 85 and NFPA 72"; certified to IEC 61508 Edition 2 and IEC 61511-1 |
+| PM857 controller I/O capacity | 128 I/O points (up to) | "The PM857 for up to 128 I/O points and the PM863 and PM867 when larger applications and more I/O is needed" |
+| Controller redundancy | 4 Quad configuration (up to) | "flexible redundancy schemes are available enable up to and including Quad configuration" |
+| Controller modules | "combining a processor module with a safety module (i.e. PM857, PM863 and PM8... | "combining a processor module with a safety module (i.e. PM857, PM863 and PM867 with a SM812 module)" |
+| S880 I/O signal types | "SIL3 compliant modules for safety critical applications including 4 - 20 mA ... | "SIL3 compliant modules for safety critical applications including 4 - 20 mA analog inputs, 24 Vdc digital inputs and 24 Vdc digital outputs" |
+| Select I/O Signal Conditioning Module field power | 1.2 A | "A SIL3 certified analog Input Signal Conditioning Module for 2/3/4-wire devices, capable of supplying 1.2 A field power is also available" |
+| Select I/O 3 A digital output | 3 A | "To reduce the need for ancillary hardware, a 3 A DO is available" |
+| SCM hazardous-area rating and temperature range | -40-70 degC | "rated for Zone 2/Class 1 Division 2 environments with extended temperature ranges (-40 - +70°C)" |
+| ISASecure SSA level | 1 Level 1 | "ABB has achieved ISASecure® System Security Assurance (SSA™) Level 1 certification for System 800xA version according to the IEC 62443 international cyber security standard" (System 800xA 6.1.1 LTS versions) |
+| Sequence-of-events time stamping | 1 millisecond accuracy | "Time tagging events to millisecond accuracy for Sequence of Events (SOE)" |
+| TÜV Select I/O certificate | Certificate No. Z10 029902 0017 Rev.00, holder ABB AB Industrial Automation, ... | Certificate No. Z10 029902 0017 Rev.00, holder ABB AB Industrial Automation, dated 2020-01-27, valid until 2025-01-26, test report AV94025C (as printed in the overview) |
+| Publication date | Datasheet PDF 'System 800xA Safety - Overview', document 3BSE038820 en P, Cop... | Datasheet PDF 'System 800xA Safety - Overview', document 3BSE038820 en P, Copyright © 2025 ABB; Jina reported published time 2025-11-03 |
+| reference_accuracy | 0.04 % of span | Product Data Sheet February 2017 00813-0100-4001 Rev TA: Reference accuracy 0.04 percent of span |
+| installed_total_performance | 0.14 % of span | Installed total performance of 0.14 percent of span |
+| ten_year_stability | 0.2 % of URL | 10-year stability of 0.2 percent of URL |
+| safety_certification | SIL2/3 certified (IEC 61508) n/a | SIL2/3 certified (IEC 61508); option QT Safety certified to IEC 61508 with certificate of FMEDA |
+| range_3051CD_differential | -25-2000 inH2O / psi | Table 1 ordering info pressure range: range 1 -25 to 25 inH2O; range 5 -2000 to 2000 psi; range 0 -3 to 3 inH2O |
+| range_3051TG_gage | -14.7-20000 psi | Table 2 pressure range 3051TG gage: range 1 -14.7 to 30 psi; range 6 -14.7 to 20000 psi |
+| max_static_line_pressure_option | 4500 psig | Option P9 4500 psig (310,26 bar) static pressure limit (Rosemount 3051CD Ranges 2-5 only) |
+| output_protocols | 4-20 mA HART; FOUNDATION Fieldbus; PROFIBUS PA; WirelessHART (IEC 62591); low-power 1-5 Vdc HART n/a | Table 1/2 transmitter output codes A, F, W, X, M |
+| wireless_frequency | 2.4 GHz | Wireless options WA3 user configurable transmit rate, 2.4GHz Wireless HART |
+| wireless_installation_cost_saving | 40-60 % | Wireless eliminates wiring design and construction complexities to lower costs by 40-60 percent; deploy in 70 percent less time |
+| DP_flow_accuracy | ?-1.65 % volumetric flow accuracy at 8:1 turndown | Up to 1.65 percent volumetric flow accuracy at 8:1 turndown |
+| Annubar_line_size_range | 2-96 in | Rosemount 3051CFA Annubar available in 2 to 96-in. (50 to 2400 mm) line; up to 1.8 percent of flow rate accuracy |
+| cold_temperature_options | -60--50 degC | Cold temperature option BR5 -58 degF (-50 degC); BR6 -76 degF (-60 degC) |
+| materials_of_construction | 316L SST, Alloy C-276, Alloy 400, Tantalum, gold-plated Alloy 400, gold-plated 316 SST isolating diaphragms; silicone or inert fill fluid; glass/graphite-filled PTFO O-rings n/a | Table 1 Materials of construction: isolating diaphragm codes 2-7; sensor fill fluid 1 silicone, 2 inert; O-ring A glass-filled PTFE, B graphite-filled PTFE |
+| hazardous_area_certifications | ATEX, FM, CSA, IECEx, INMETRO, TIIS, EAC, China approvals; NACE MR0175/ISO 15156 and MR0103 n/a | Product certifications list in Tables 1 and 2; NACE certificate Q15/Q25 |
+| Document number | GS 33K01A10-50E n/a | GS 33K01A10-50E |
+| Edition | 12th Edition Sep. 1, 2014 n/a | 12th Edition Sep. 1, 2014 (YK) |
+| Operating systems | Windows 7 Professional Edition; Windows Server 2008 Standard Edition; Windows Server 2008 R2 Standard Edition n/a | Windows 7 Professional Edition; Windows Server 2008 Standard Edition; Windows Server 2008 R2 Standard Edition |
+| FDA compliance | FDA:21 CFR Part 11 compliant n/a | LHS5170 Access Administrator Package (FDA:21 CFR Part 11 compliant) |
+| Package example | LHS4000 Million Tag Handling Package n/a | LHS4000 Million Tag Handling Package |
 
 - **Emerson (duplex stainless steel option on Roxar 2600, page read)** Emerson Rosemount 3051 pressure transmitter family: pressure/differential pressure transmitter
 - **Yokogawa Electric Corporation** Yokogawa Plant Resource Manager (PRM) field device management: field device management software
@@ -3759,6 +5143,32 @@ Vendors: Ruhrpumpen Group, Tornatech (controllers), Clarke (C18 diesel engine) (
 | Ruhrpumpen integrated fire protection  — corrosion protection | Ruhrpumpen article; page read 2026-11-25. | Ruhrpumpen article; page read 2026-11-25. |
 | Horizontal split-case diesel-engin — Pump description | Aurora/Clarke fire pump List Prices, Section 913, 'Horizontal Split Case Fire... | Aurora/Clarke fire pump List Prices, Section 913, 'Horizontal Split Case Fire Pumps, Diesel Engine Drive', Dated January 1, 2020; fetched via r.jina.ai fallback 25 Nov 2026 (value: UL Listed and FM Approved horizontal split-case, bronze-fitted pump with packing) |
 | Horizontal split-case diesel-engin — Driver scope included in standard diesel package | Same Aurora/Clarke Section 913 list price, Dated 01/01/20 (value: UL Listed a... | Same Aurora/Clarke Section 913 list price, Dated 01/01/20 (value: UL Listed and FM Approved diesel engine with lead acid batteries, battery cables) |
+| Overall NFPA-20 range | 20-10000 GPM | ROTAMAC: 'Per NFPA-20, we are able to supply ranges from 20 GPM up to 10000 GPM with net pressures of 50 to 700 PSI or more' |
+| Split casing fire pump flow | 250-4000 GPM | ROTAMAC Characteristics: split casing 'Flows from 250 to 4000 GPM'; pressures '50 to 700 PSI' |
+| End suction fire pump flow / pressure | 50-750 GPM / 84-230 PSI | ROTAMAC: end suction 'Flows from 50 to 750 GPM'; 'Pressures from 84 to 230 PSI' |
+| In-line fire pump flow / pressure | 20-220 GPM / 40-210 PSI | ROTAMAC: in-line 'Flows from 20 to 220 GPM'; 'Pressures from 40 to 210 PSI' |
+| Two stage fire pump flow / pressure | 500-2500 GPM / 50-500 PSI | ROTAMAC: two stage 'Flows from 500 to 2500 GPM'; 'Pressures from 50 to 500 PSI' |
+| Vertical turbine fire pump flow / pressure | 250-5500 GPM / 50-300 PSI | ROTAMAC: vertical turbine 'Flows from 250 to 5500 GPM'; 'Pressures from 50 to 300 PSI' |
+| FPSO & FSO fire pump flow / pressure | 1320-10000 GPM / 120-227 PSI | ROTAMAC: 'FIRE PUMP FOR FPSO & FSO ... Flows from 1320 to 10000 GPM; Pressures from 120 to 227 PSI' |
+| Multistage fire pump flow / pressure | 160-4400 GPM / 700-1530 PSI | ROTAMAC: multistage 'Flows from 160 to 4400 GPM'; 'Pressures from 700 to 1530 PSI' |
+| Jockey pump sizing | 1 % of fire pump flow | ROTAMAC: 'Jockey pumps are normally sized for 1% flow and a 10 to 20 PSI higher pressure of the fire pump.' |
+| Complete package flow / pressure | 50-10000 GPM / 50-1530 PSI | ROTAMAC: complete package 'Flows from 50 to 10000 GPM; Pressures from 50 to 1530 PSI' |
+| Standard construction materials | ROTAMAC: 'Standard materials include: Cast iron, Ductile cast iron, Carbon st... | ROTAMAC: 'Standard materials include: Cast iron, Ductile cast iron, Carbon steel' |
+| Sea/brackish water metallurgies | ROTAMAC: 'Stainless steel, Duplex stainless steel, Super duplex, Nickel-Alumi... | ROTAMAC: 'Stainless steel, Duplex stainless steel, Super duplex, Nickel-Aluminum-Bronze' |
+| Pump standards | ROTAMAC: 'Standardized End Suction Pumps EN733/DIN24255, ISO2858/ISO5199; ASM... | ROTAMAC: 'Standardized End Suction Pumps EN733/DIN24255, ISO2858/ISO5199; ASME B73.1, API610' |
+| design_standard | NFPA 20 n/a | fully integrated fire protection pumping system engineered in accordance with NFPA 20 standards for heavy industrial service |
+| fire_pump_design | Ruhrpumpen ZW series horizontal split-case fire pumps (BB1 design), single-stage, between-bearings, UL/FM certified n/a | Scope of supply description |
+| casings_materials | ductile iron or cast iron casings with 316 stainless steel fitted internals (impellers, shaft sleeves, wear rings) n/a | Scope of supply description |
+| electric_motor_rating | 350 HP | electric-driven unit utilizes medium-voltage TEFC induction motor rated approximately 350 HP at 6600 V / 50 Hz |
+| electric_motor_voltage | 6600 V | rated approximately 350 HP at 6600 V / 50 Hz |
+| electric_motor_frequency | 50 Hz | rated approximately 350 HP at 6600 V / 50 Hz |
+| diesel_engine_rating | 510 HP | diesel-driven package incorporates a UL/FM-certified Clarke C18 engine rated approximately 510 HP at 1760 rpm |
+| diesel_engine_speed | 1760 rpm | Clarke C18 engine rated approximately 510 HP at 1760 rpm |
+| diesel_starting_system | 24 VDC | complete with 24 VDC starting system, jacket water heater, industrial exhaust silencer, freshwater cooling loop |
+| controller_electric | Tornatech MPA UL/FM-listed controller with Modbus TCP/IP n/a | controlled through a Tornatech MPA UL/FM-listed controller with Modbus TCP/IP communication capability |
+| controller_diesel | Tornatech GPD diesel controller n/a | The Tornatech GPD diesel controller provides comprehensive engine and pump supervision with alarms for overspeed, low oil pressure, high temperature, low fuel level, leak detection, failed start |
+| jockey_pump | vertical in-line OH4 construction, cast iron and stainless steel, mechanical seal, vertical rigid coupling, UL-listed controller per NFPA 20 n/a | system also includes a vertical in-line jockey pump designed to maintain system pressure stability during standby conditions |
+| pumphouse_lighting | 500 lux | Supporting infrastructure: 500 lux lighting system, NFPA 20 suction/discharge piping, NFPA 13 overhead-supported piping, ASME-rated hydropneumatic tank, C5 anticorrosion coating SSPC-SP10 |
 
 - **Ruhrpumpen Group** Ruhrpumpen integrated fire protection pumping system (ZW series electric + diesel pumps, jockey pump, controllers, pumph: packaged NFPA 20 fire pump system for heavy industrial service
 
@@ -3813,6 +5223,57 @@ Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 | Bore size / working pressure (26 3/4 in) | 3,000 psi | Bore sizes and working pressures | 26 3/4 in: 3,000 psi |
 | Body styles | Single, double, triple, or quad - | Specifications | Body styles | Single, double, triple, or quad |
 | Lock types | Standard: Manual; Optional: Hydraulic - | Specifications | Lock types | Standard: Manual Optional: Hydraulic |
+| Annular BOP vertical bore range | 4.063-21.25 in | Annular BOP table: vertical bore 4.063 in (Shaffer bolted 10M) to 21.250 in (Shaffer bolted 2M) |
+| Annular BOP pressure ratings | Annular BOP table: 1M, 2M, 5M, 10M, 15M (e.g. Cameron T90 7.063 in 5M, Shaffe... | Annular BOP table: 1M, 2M, 5M, 10M, 15M (e.g. Cameron T90 7.063 in 5M, Shaffer wedge 11 in 10M, Hydril GK 7.063 in 10M) |
+| Annular BOP maximum hydraulic pressure | 1500 psi | Annular BOP table column 'MAX HYDRAULIC PRESSURE (PSI)' = 1,500 for every listed model |
+| Example annular BOP Cameron T90 11 in 5M | Vertical bore 11.000 in, pressure 5M, height 41.500 in, weight 9,550 lbs, cle... | Vertical bore 11.000 in, pressure 5M, height 41.500 in, weight 9,550 lbs, clearance diameter 44.750 in, NPT 1.250 in x 2 ports, open 14.59 gal, close 18.670 gal, gasket RX-54 |
+| Example annular BOP Hydril GK 13.625 in 5M | Height 54.130 in, weight 13,800 lbs, clearance 52.250 in, open 14.16 gal, clo... | Height 54.130 in, weight 13,800 lbs, clearance 52.250 in, open 14.16 gal, close 17.980 gal, gasket BX-160 |
+| Example annular BOP Shaffer wedge 13.625 in 10M | Height 58.750 in, weight 32,475 lbs, clearance 64.500 in, NPT 2.000 in x 4 po... | Height 58.750 in, weight 32,475 lbs, clearance 64.500 in, NPT 2.000 in x 4 ports, open 32.64 gal, close 40.16 gal, gasket BX-159 |
+| Single ram BOP maximum hydraulic pressure | 3000 psi | Single ram table column 'MAX HYDRAULIC PRESSURE (PSI)' = 3,000 for every listed Type U BOP |
+| Single ram BOP pressure ratings | Single ram table: 3M, 5M, 10M, 15M (e.g. 7.063 in 15M Type U standard height ... | Single ram table: 3M, 5M, 10M, 15M (e.g. 7.063 in 15M Type U standard height 31.810 in, weight 5,557 lbs, BX-156 gasket) |
+| Single ram BOP vertical bore range | 7.063-26.75 in | Single ram table vertical bore 7.063 in to 26.750 in (3M) |
+| Double ram BOP example 13.625 in 15M Type U | Double ram table: height 81.750 in, weight 47,886 lbs, max hydraulic pressure... | Double ram table: height 81.750 in, weight 47,886 lbs, max hydraulic pressure 3,000 psi, gasket BX-159, outlet 4-1/16 in 15M, bonnets open/unlocked 206.890 in, closed/locked 132.370 in, open 10.400 gal, close 10.600 gal, open ratio 3.700, close ratio 10.300 |
+| Source basis and caveat | "All values are from OEM's most current operation / maintenance / user's manu... | "All values are from OEM's most current operation / maintenance / user's manual, as of spec binders published date"; "Drawings and information contained herein are for general purposes only and is not intended to replace OEM data" |
+| Cameron T90 annular 7-1/16 in 5M — dimensions | Quail Tools BOP spec sheet, ANNULAR TYPE table row: vertical bore 7.063 in, p... | Quail Tools BOP spec sheet, ANNULAR TYPE table row: vertical bore 7.063 in, pressure rating 5M, manufacturer Cameron, type T90, height 30.875 in, weight approx 3,175 lbs |
+| Cameron T90 annular 7-1/16 in 5M — hydraulics | Quail Tools row: clearance diameter 29.000 in, max hydraulic pressure 1,500 p... | Quail Tools row: clearance diameter 29.000 in, max hydraulic pressure 1,500 psi, NPT port 1.000 in, number of ports 2, to open 3.43 gal, to close 4.920 gal, studded/flange ring gasket RX-46 |
+| Cameron T90 annular 11 in 5M | Quail Tools row: vertical bore 11.000 in, 5M, Cameron T90, height 41.500 in, ... | Quail Tools row: vertical bore 11.000 in, 5M, Cameron T90, height 41.500 in, weight approx 9,550 lbs, clearance 44.750 in, max hydraulic 1,500 psi, NPT 1.250 in ×2, open 14.59 gal, close 18.670 gal, gasket RX-54 |
+| Cameron T90 annular 11 in 10M | Quail Tools row: 11.000 in, 10M, Cameron T90 w/ 11" 10M flanged bottom, heigh... | Quail Tools row: 11.000 in, 10M, Cameron T90 w/ 11" 10M flanged bottom, height 41.500 in, weight approx 9,550 lbs, clearance 44.750 in, max hydraulic 1,500 psi, NPT 1.250 in ×2, open 14.59 gal, close 18.670 gal, gasket RX-54 |
+| Cameron DL annular 13-5/8 in 15M | Quail Tools row: 13.625 in, 10M, Cameron DL w/ 13-5/8" 15M flanged bottom, he... | Quail Tools row: 13.625 in, 10M, Cameron DL w/ 13-5/8" 15M flanged bottom, height 49.094 in, weight approx 27,262 lbs, clearance 61.000 in, max hydraulic 1,500 psi, NPT 1.250 in ×4, open 16.15 gal, close 18.100 gal, gasket BX158/BX-159 |
+| Hydril GK annular 7-1/16 in 5M | Quail Tools row: 7.063 in, 5M, Hydril GK Screwed, height 36.880 in, weight ap... | Quail Tools row: 7.063 in, 5M, Hydril GK Screwed, height 36.880 in, weight approx 4,000 lbs, clearance 35.750 in, max hydraulic 1,500 psi, NPT 1.000 in ×2, open 3.30 gal, close 3.860 gal, gasket BX-159/RX-46 |
+| Hydril GK annular 11 in 10M | Quail Tools row: 11.000 in, 10M, Hydril GK Screwed, height 63.500 in, weight ... | Quail Tools row: 11.000 in, 10M, Hydril GK Screwed, height 63.500 in, weight approx 26,140 lbs, clearance 61.500 in, max hydraulic 1,500 psi, NPT 1.000 in ×2, open 18.97 gal, close 25.100 gal, gasket BX-158 |
+| Provenance / caveat | Quail Tools: 'Drawings and information contained herein are for general purpo... | Quail Tools: 'Drawings and information contained herein are for general purposes only and is not intended to replace OEM data. ... All values are from OEM's most current operation / maintenance / user's manual, as of spec binders published date.' |
+| 25K BOP - working pressure | 25000 psi | SLB Cameron '25,000-psi Ram-Type BOP' product page, Specifications table; no print date stated |
+| 25K BOP - close ratio | 9:1 n/a | SLB Cameron '25,000-psi Ram-Type BOP' product page, Specifications table; no print date stated |
+| 25K BOP - hydraulic operating system | 5000 psi | SLB Cameron '25,000-psi Ram-Type BOP' product page, Specifications table; no print date stated |
+| 25K BOP - operation | EVO BOP-style system with wedge lock technology n/a | SLB Cameron '25,000-psi Ram-Type BOP' product page, Specifications table; no print date stated |
+| 25K BOP - qualification | API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition n/a | SLB Cameron '25,000-psi Ram-Type BOP' product page, Specifications table; no print date stated |
+| 25K BOP - first delivery | Industry's first 25,000-psi large-bore drilling BOP stack delivered 2010 (second in 2014) n/a | SLB Cameron '25,000-psi Ram-Type BOP' product page, Specifications table; no print date stated |
+| DL annular BOP - bore sizes | 7 1/16 in to 21 1/4 in n/a | SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated |
+| DL annular BOP - working pressures | 2000-10000 psi | SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated |
+| DL annular BOP - application | Offshore (subsea and surface) and onshore n/a | SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated |
+| DL annular BOP - body styles | Single and dual n/a | SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated |
+| DL annular BOP - packer | High-performance CAMULAR annular elastomer technology n/a | SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated |
+| DL annular BOP - optional gas bleed port | Optional 3-in gas bleed port from ID to OD n/a | SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated |
+| DL annular BOP - H2S compliance | Compliance with NACE MR0175 for H2S service n/a | SLB Cameron 'DL Annular BOP' product page, Specifications table; no print date stated |
+| U BOP - bore sizes / working pressures | 7 1/16, 11, 13 5/8 in: 3,000-15,000 psi; 16 3/4 in: 3,000-10,000 psi; 20 3/4 in: 3,000 psi; 21 1/4 in: 2,000/5,000/10,000 psi; 26 3/4 in: 3,000 psi n/a | SLB Cameron 'U Ram-Type BOP' product page, Specifications section; no print date stated |
+| U BOP - application | Offshore (surface) and onshore n/a | SLB Cameron 'U Ram-Type BOP' product page, Specifications section; no print date stated |
+| U BOP - body styles | Single, double, triple, or quad n/a | SLB Cameron 'U Ram-Type BOP' product page, Specifications section; no print date stated |
+| U BOP - rams | Pressure-energized n/a | SLB Cameron 'U Ram-Type BOP' product page, Specifications section; no print date stated |
+| U BOP - lock types | Standard: Manual; Optional: Hydraulic n/a | SLB Cameron 'U Ram-Type BOP' product page, Specifications section; no print date stated |
+| U BOP - bonnet features | Hydraulic stud tensioning on larger sizes; bonnet seal carriers; hydraulically opening bonnets; forged body n/a | SLB Cameron 'U Ram-Type BOP' product page, Specifications section; no print date stated |
+| Test pressure | 5000 psi | 5,000 psi (as printed on page) |
+| Design standards | API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition n/a | API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition |
+| Control system standard | API Spec 16D n/a | Meet API Spec 16D requirements with high quality standards. |
+| Technology history | first 25,000-psi large-bore drilling BOP stack in 2010; second in 2014 n/a | Building on Cameron's leading high-pressure technology, Cameron delivered the industry's first 25,000-psi large-bore drilling BOP stack in 2010 and a second one in 2014. |
+| Working pressures | 2000-10000 psi | Working pressures 2,000 to 10,000 psi |
+| BOP type | DL High-Pressure Annular BOP n/a | DL High-Pressure Annular BOP |
+| Bore size 7 1/16 / 11 / 13 5/8 in working pressures | 3000-15000 psi | 7 1/16, 11, and 13 5/8 in: 3,000 to 15,000 psi |
+| Bore size 16 3/4 in working pressures | 3000-10000 psi | 16 3/4 in: 3,000 to 10,000 psi |
+| Bore size 20 3/4 in working pressure | 3000 psi | 20 3/4 in: 3,000 psi |
+| Bore size 21 1/4 in working pressures | 2,000 / 5,000 / 10,000 psi | 21 1/4 in: 2,000, 5000, and 10,000 psi |
+| Bore size 26 3/4 in working pressure | 3000 psi | 26 3/4 in: 3,000 psi |
+| Sealing | Pressure-energized n/a | Pressure-energized |
+| High-temperature variable-bore rams | H2S and high-temperature applications; suited for H2S service per NACE MR0175 n/a | High-Temperature Variable-Bore Rams — H2S and high-temperature applications ... suited for H2S service per NACE MR0175 |
 
 
 ### Blowout preventers (fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s)
@@ -3869,6 +5330,17 @@ Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFM
 | Design pressure (metric equivalent) | 1,000 bar (more than) | or more than 1,000 bar |
 | Production bore - wellhead vertical trees | 7 in | Features | Full deep-water capability and 7-inch production bore size for wellhead vertical trees |
 | Tree configurations offered | Horizontal, wellhead vertical, and tubing head spool vertical trees - | Application | Horizontal, wellhead vertical, and tubing head spool vertical trees offered |
+| Design temperature range | -18-176 deg C | OneSubsea: 'We design trees that can work in extreme temperature ranging from minus 18 degrees Celsius to plus 176 degrees Celsius' |
+| Pressure rating | 15000 psi (up to, or more than 1,000 bar) | OneSubsea: 'and at pressures of up to 15,000 pounds per square inch, or more than 1,000 bar' |
+| Pressure rating metric | 1000 bar (more than) | OneSubsea: 'more than 1,000 bar' |
+| Tree configurations | OneSubsea: 'Horizontal, wellhead vertical, and tubing head spool vertical tre... | OneSubsea: 'Horizontal, wellhead vertical, and tubing head spool vertical trees offered' |
+| Production bore, wellhead vertical tree | 7 inches | OneSubsea: 'Full deep-water capability and 7-inch production bore size for wellhead vertical trees' |
+| Water depth capability | OneSubsea: 'Operate in ultra-deep waters under extreme pressures and temperat... | OneSubsea: 'Operate in ultra-deep waters under extreme pressures and temperatures'; 'Full deep-water capability' |
+| temperature_range | -18-176 degC | We design trees that can work in extreme temperature ranging from minus 18 degrees Celsius to plus 176 degrees Celsius |
+| pressure_rating | 15000 psi | and at pressures of up to 15,000 pounds per square inch, or more than 1,000 bar |
+| pressure_rating_bar | 1000-? bar | more than 1,000 bar |
+| tree_types | Horizontal, wellhead vertical, and tubing head spool vertical trees offered n/a | Product page bullet list |
+| production_bore | 7 in | Full deep-water capability and 7-inch production bore size for wellhead vertical trees |
 
 
 ### Connectors (fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246)
@@ -3896,6 +5368,44 @@ Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFM
 | Service voltage | 3,6/6 (7,2) kV | Main Characteristics: 'Service voltage: 3,6/6 (7,2) kV' |
 | Pressure | ?-300 bar | Main Characteristics: 'Pressure: up to 300 bar' |
 | Temperature | -5-40 degC | Main Characteristics: 'Temperature: -5°C to 40°C' |
+| IE2-BC contacts / voltage / pressure | Table: 2-8 contacts, 300 VDC, bulkhead thread 7/16"-20, mated pressure rating... | Table: 2-8 contacts, 300 VDC, bulkhead thread 7/16"-20, mated pressure rating 10,000 psi |
+| IERD2-BC contacts / voltage / pressure | Table: 2-8 contacts, 300 VDC, bulkhead thread 3/8"-24, mated pressure rating ... | Table: 2-8 contacts, 300 VDC, bulkhead thread 3/8"-24, mated pressure rating 10,000 psi |
+| IESQ4-BC contacts / voltage / pressure | Table: 2-8 contacts, 300 VDC, bulkhead thread 7/16"-20, mated pressure rating... | Table: 2-8 contacts, 300 VDC, bulkhead thread 7/16"-20, mated pressure rating 5,000 psi |
+| IE4-BC contacts / voltage / pressure | Table: 4 contacts, 300 VDC, bulkhead thread 7/16"-20, mated pressure rating 1... | Table: 4 contacts, 300 VDC, bulkhead thread 7/16"-20, mated pressure rating 10,000 psi |
+| IE6/8 BC contacts / voltage / pressure | Table: 6 or 8 contacts, 300 VDC, bulkhead thread 1/2"-20, mated pressure rati... | Table: 6 or 8 contacts, 300 VDC, bulkhead thread 1/2"-20, mated pressure rating 10,000 psi |
+| IEB2 / IEB6/8 contacts / voltage / pressure | Table: IEB2 1 contact, IEB6/8 6 or 8 contacts, both 300 VDC and 10,000 psi ma... | Table: IEB2 1 contact, IEB6/8 6 or 8 contacts, both 300 VDC and 10,000 psi mated rating |
+| IE Underwater Pluggable Series 3 voltage | 600 VDC | Series 3 table: IE31-BC (1 contact, 600 VDC, 7/16"-20, 10,000 psi); IE32/33-BC (2 or 3 contacts, 600 VDC, 7/16"-20, 10,000 psi); IE34-BC (4 contacts, 600 VDC, 1/2"-20, 10,000 psi); IEB34 (4 contacts, 600 VDC, 20,000 psi); IESQ32-BC (1 or 2 contacts, 600 VDC, 7/16"-20, 5,000 psi) |
+| Mated pressure rating range (all models) | 5000-20000 psi | Table mated pressure ratings: 5,000 psi (IESQ4-BC, IESQ32-BC), 10,000 psi (most models), 20,000 psi (IEB34) |
+| Pressure rating | 300 bar (up to) | SCM: 'Pressure: up to 300 bar' |
+| Temperature range | -5-40 deg C | SCM: 'Temperature: -5°C to 40°C' |
+| Standards | SCM: 'IEC 61886-1; API 17F' | SCM: 'IEC 61886-1; API 17F' |
+| Applications / functions | SCM: 'Sea electrical network; Small Power distribution; long step out communi... | SCM: 'Sea electrical network; Small Power distribution; long step out communication; small power connection; pipeline & riser heating' |
+| IE2-BC contacts / voltage / mated pressure | Teledyne Impulse Wet Mate table: IE2-BC — 2-8 contacts, 300 VDC, 7/16"-20 bul... | Teledyne Impulse Wet Mate table: IE2-BC — 2-8 contacts, 300 VDC, 7/16"-20 bulkhead thread, 10,000 PSI |
+| IERD2-BC contacts / voltage / mated pressure | Teledyne table: IERD2-BC — 2-8 contacts, 300 VDC, 3/8"-24 thread, 10,000 PSI | Teledyne table: IERD2-BC — 2-8 contacts, 300 VDC, 3/8"-24 thread, 10,000 PSI |
+| IESQ4-BC contacts / voltage / mated pressure | Teledyne table: IESQ4-BC — 2-8 contacts, 300 VDC, 7/16"-20 thread, 5,000 PSI | Teledyne table: IESQ4-BC — 2-8 contacts, 300 VDC, 7/16"-20 thread, 5,000 PSI |
+| IE4-BC contacts / voltage / mated pressure | Teledyne table: IE4-BC — 4 contacts, 300 VDC, 7/16"-20 thread, 10,000 PSI | Teledyne table: IE4-BC — 4 contacts, 300 VDC, 7/16"-20 thread, 10,000 PSI |
+| IE6/8 BC contacts / voltage / mated pressure | Teledyne table: IE6/8 BC — 6,8 contacts, 300 VDC, ½"-20 thread, 10,000 PSI | Teledyne table: IE6/8 BC — 6,8 contacts, 300 VDC, ½"-20 thread, 10,000 PSI |
+| IE31-BC / IE32-33-BC / IE34-BC (Series 3) | Teledyne table: IE31-BC 1 contact, 600 VDC, 7/16"-20, 10,000 PSI; IE32/33-BC ... | Teledyne table: IE31-BC 1 contact, 600 VDC, 7/16"-20, 10,000 PSI; IE32/33-BC 2,3 contacts, 600 VDC, 7/16"-20, 10,000 PSI; IE34-BC 4 contacts, 600 VDC, ½"-20, 10,000 PSI |
+| IEB34 / IESQ32-BC | Teledyne table: IEB34 — 4 contacts, 600 VDC, 20,000 PSI; IESQ32-BC — 1,2 cont... | Teledyne table: IEB34 — 4 contacts, 600 VDC, 20,000 PSI; IESQ32-BC — 1,2 contacts, 600 VDC, 7/16"-20, 5,000 PSI |
+| connection_size_range | 0.25-1 in | Valves available with these specifications: 1/4 to 1 in. (6 mm) |
+| temperature_range | -45-260 degC | -50 degF (-45 degC) to 500 degF (260 degC) |
+| body_materials | 316 stainless steel, brass n/a | Valves available with these specifications: 316 stainless steel, brass |
+| pressure_rating_range | 150-6000 psig | 150 psig (10.3 bar) to 6000 psig (413 bar) |
+| pressure_rating_range_bar | 10.3-413 bar | 150 psig (10.3 bar) to 6000 psig (413 bar) |
+| pressure_rating_coupled_room_temp | 6000 PSIG @ 70 F / 413 BAR @ 21 C; 4000 PSIG @ 70 F / 275 BAR @ 21 C; 3000 PSIG @ 70 F / 206 BAR @ 21 C; 2000 PSIG @ 70 F / 137 BAR @ 21 C n/a | Filter option list: Pressure Rating Coupled at Room Temp (all four printed values) |
+| pressure_rating_coupled_max_temp | 100 PSIG @ 400 F / 6.8 BAR @ 204 C; 100 PSIG @ 250 F / 6.8 BAR @ 121 C; 400 PSIG @ 400 F / 27.5 BAR @ 204 C n/a | Filter option list: Pressure Rating Coupled at Max Temp |
+| O_ring_materials | Fluorocarbon FKM; Buna N (Standard) n/a | O-Ring Material filter options (FKM 45 products, Buna N 8 products) |
+| series_models | QF4 (22 products), QF8 (17), QF12 (8), QF16 (6) n/a | Model filter list counts |
+| Electrical circuits | 4, 7 or 12 n/a | Modular construction with 4, 7 or 12 electrical circuits |
+| Water depth qualification | ?-4000 m | Qualified for use at 4,000m water depth |
+| Design standards | ISO 13628-6 and API 17F; SEAFOM TSD-02; Statoil and Total requirements n/a | Designed in accordance with ISO 13628-6 and API 17F - SEAFOM TSD-02, Statoil and Total requirements |
+| Hose interface | SEACON MKII Pressure Balanced Oil Filled (PBOF) hose interface as standard n/a | SEACON MKII Pressure Balanced Oil Filled (PBOF) hose interface as standard |
+| Design features | Dual barriers oil-filled, pressure compensated design; corrosion resistant without cathodic protection n/a | Dual barriers oil-filled, pressure compensated design; Corrosion resistant without cathodic protection |
+| Configurations | ROV, manual and stab plate configurations with industry standard panel interfaces n/a | Remotely Operated Vehicle (ROV), manual and stab plate configurations with industry standard panel interfaces |
+| Ethernet data rate | ?-100 Mbit/s | Up to 100 Mbit/s |
+| Ethernet contacts | 12 n/a | 12 contacts |
+| Ethernet voltage | 1500 VDC and 1000 VAC pin to pin n/a | Qualified for both 1500 VDC and 1000 VAC pin to pin |
+| Ethernet qualification | SEAFOM TSD-02 / API 17F n/a | Qualified in accordance to SEAFOM TSD-02/ API 17F |
 
 
 ### Connectors (fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri)
@@ -3936,6 +5446,71 @@ Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solution
 | Chemical hose temperature range | -30-100 degC | Code 951 / 952 / 969 product blocks: 'Temperature Range: -30ºC to +100ºC' |
 | Hot bitumen hose temperature range | -30-180 degC | Code 966 block: 'Temperature Range: -30ºC to +180ºC' |
 | Kind 1 electrical resistance | ?-1.0 ohm/m | Petrol hose range overview: 'Kind 1 hose has an electrical resistance not greater than 1.0 ohm/m.' |
+| Size range | 1 'Between 1 to 10 inches' / 'Available Sizes' | As printed on the cited catalogue page. |
+| Material stated in header | 'Material: Aluminium' (printed header field) | 'Material: Aluminium' (printed header field) |
+| Construction | 'multiple polypropylene layers and reinforced with inner and outer helixes'; ... | 'multiple polypropylene layers and reinforced with inner and outer helixes'; inner helix 316 stainless steel or polypropylene-coated steel; outer helix 316 stainless or galvanised steel |
+| Configurations | 8 configurations | 'Available in eight configurations' |
+| Connections | 'Threaded Connections; Flanged Connections; Couplings; More available on requ... | 'Threaded Connections; Flanged Connections; Couplings; More available on request' |
+| Minimum temperature | -196 degC | 'extreme temperatures of up to -196ºC' / 'Temperature range: -196 °C to +45 °C' |
+| Maximum temperature | 45 degC | 'Temperature range: -196 °C to +45 °C' |
+| Working pressure | 14 bar | 'working pressures of up to 14 bar' |
+| Standard | 'Standard EN 13766:2010' | 'Standard EN 13766:2010' |
+| Safety factor | 5 ratio | 'Safety factor 5:1' |
+| Vacuum | 0.9 bar | 'Vacuum 0.9 bar' |
+| Roll length | 30 m | 'Roll length 30 m. ask for other lengths' |
+| Materials | 'Inner coil: 316L (S) stainless steel; Outer Spiral: 316L Stainless Steel (S)... | 'Inner coil: 316L (S) stainless steel; Outer Spiral: 316L Stainless Steel (S); Inner lining: Polyamide / Polyester; Cover: Polyamide fabric' |
+| Applications | 'loading and unloading of Liquefied Natural Gas in trucks, railcars and even ... | 'loading and unloading of Liquefied Natural Gas in trucks, railcars and even marine applications. Including ship-to-ship bunkering operations' |
+| KX E-Box dimensions | 'KX E-Box, WHD: 200x300x155 mm, stainless steel 1.4401, with mounting plate, ... | 'KX E-Box, WHD: 200x300x155 mm, stainless steel 1.4401, with mounting plate, single-door, with cam lock' (article 1301000) |
+| KX E-Box material grade | 'stainless steel 1.4401' | 'stainless steel 1.4401' |
+| KX terminal box carbon steel sizes | Listed WHD: 150x150x120; 300x150x120; 200x200x120; 300x200x120; 400x200x120; ... | Listed WHD: 150x150x120; 300x150x120; 200x200x120; 300x200x120; 400x200x120; 500x200x120; 600x200x120; 300x300x120; 400x300x120; 500x300x120; 600x300x120; 400x400x120; 600x400x120; 800x400x120; 150x150x80; 300x150x80; 200x200x80; 300x200x80; 400x200x80; 800x200x120; 200x150x80; 200x150x120; 300x150x120 with gland plate |
+| KX terminal box construction | 'sheet steel, without mounting plate, with cover, without gland plate' (stand... | 'sheet steel, without mounting plate, with cover, without gland plate' (standard variants) |
+| Code 1000 standard petrol hose working pressure | 700 kPa at 20 deg C | Plascorp table: Petrol Hose STD, Code 1000, Type 1/Grade 3/Kind 1, AS 2683-2000, working pressure 700 kPa across sizes 1-6 in |
+| Code 901 heavy duty petrol hose working pressure | 1000-1400 kPa at ambient temperature | Plascorp table: Petrol Hose HD Code 901 — 1400 kPa for 3/4-1 1/2 in, 1000 kPa for 2-6 in |
+| Code 1003 lightweight petrol hose working pressure | 400-600 kPa at ambient temperature | Plascorp table: Petrol Hose LW Code 1003 — 600 kPa (2 1/2 in), 500 kPa (3 in), 400 kPa (4 in) |
+| Code VRH vapour recovery hose working pressure | 400 kPa at ambient temperature | Plascorp table: Vapour Recovery Hose Code VRH — 400 kPa at 4 in |
+| Code 966 hot bitumen hose working pressure | 500-700 kPa at ambient temperature | Plascorp table: Hot Bitumen Hose Code 966, AS 2475 — 700 kPa for 3/4-1 1/2 in, 600 kPa 2 in, 500 kPa 2 1/2 in |
+| Temperature range (code 1000) | -30-80 deg C | Plascorp: 'Code 1000 ... Temperature Range: -30ºC to +80ºC'; Code 901 same range |
+| Grade aromatic hydrocarbon limits | Plascorp: 'Grade 1 hose is suitable for fuels containing up to 30% aromatic h... | Plascorp: 'Grade 1 hose is suitable for fuels containing up to 30% aromatic hydrocarbon content; Grade 2 ... up to 50%; Grade 3 ... over 50%' |
+| Electrical resistance kind 1 | 1 ohm/m (not greater than) | Plascorp: 'Kind 1 hose has an electrical resistance not greater than 1.0 ohm/m' |
+| Type definitions | Plascorp: 'Type 1 hose is designed for suction and discharge and to be non-co... | Plascorp: 'Type 1 hose is designed for suction and discharge and to be non-collapsible. Type 2 hose is designed for discharge only and to be non-collapsible.' |
+| Code 1000 construction | Plascorp: 'Internal wire: Galvanised steel; External wire: Galvanised steel';... | Plascorp: 'Internal wire: Galvanised steel; External wire: Galvanised steel'; 'Colour: Green with yellow stripe'; 'suitable for road and rail tankers' |
+| Conforming standards | Plascorp petrol hose range: 'AS 2683-2000'; hot bitumen hose: 'AS 2475' | Plascorp petrol hose range: 'AS 2683-2000'; hot bitumen hose: 'AS 2475' |
+| Temperature rating A | -20-82 deg C | Ruker: 'Rating A: -4 °F to +180 °F (-20°C to +82°C)' |
+| Temperature rating B | -20-100 deg C | Ruker: 'Rating B: -4 °F to +212 °F (-20°C to +100°C)' |
+| Temperature rating K | -60-82 deg C | Ruker: 'Rating K: -75 °F to +180 °F (-60°C to +82°C)' |
+| FSL range | 0-3 FSL | Ruker: 'FSLs: FSL 0~3' |
+| JLG-FB-51X35 bore / OD | Ruker table: JLG-FB-51X35 — ID 51 mm (2 in), OD 164 mm (6.46 in) | Ruker table: JLG-FB-51X35 — ID 51 mm (2 in), OD 164 mm (6.46 in) |
+| JLG-FB-51X35 working / test pressure | Ruker table: WP 5000 psi (35 MPa), TP 7500 psi (52.5 MPa) | Ruker table: WP 5000 psi (35 MPa), TP 7500 psi (52.5 MPa) |
+| JLG-FB-51X35 safety / fire / bend / weight / length | Ruker table: Fire-Resistant Yes; Safety Factor 2.25; FSL3; Min Bending Radius... | Ruker table: Fire-Resistant Yes; Safety Factor 2.25; FSL3; Min Bending Radius 1.2 m; Weight 46.8 kg/m; Max length 45 m |
+| Construction materials | Ruker: 'Tube: Modified NBR or HNBR Black resisting abrasion, corrosion, oil, ... | Ruker: 'Tube: Modified NBR or HNBR Black resisting abrasion, corrosion, oil, drilling muds and H2S'; 'Reinforcement: Multiple layers of steel cable and adhesion fabric'; 'Cover: Modified Nitrile Black'; 'Couplings: Build-in-meets NACE MR0175' |
+| Application | Ruker: 'Choke and kill line hose is used as flexible connection in the choke ... | Ruker: 'Choke and kill line hose is used as flexible connection in the choke manifold and kill manifold system (or BOP system) to control well pressure during the drilling process.' |
+| working_pressure | 16 bar | Attributes table: Working Pressure 16 bar |
+| burst_pressure | 128 bar | Attributes table: Burst Pressure 128 bar |
+| temperature_range | -200-80 degC | Attributes table: Temperature Range -200 degC to +80 degC |
+| inside_diameter | 50 mm | Attributes table: ID 50 mm |
+| bend_radius | 180 mm | Attributes table: Bend Radius 180 mm |
+| length | ?-40 m | Attributes table: Length up to 40m |
+| unit_weight | 2.5 kg | Attributes table: Unit weight 2.5 kg |
+| colour | White n/a | Attributes table: Color White |
+| applications | Suction & Delivery; designed for handling LNG Liquefied Natural Gas, Liquid Methane and Liquid Nitrogen @ -200 degC n/a | Details - Applications (printed verbatim) |
+| construction | Reinforcement/Lining: Stainless steel inner wire, high strength polypropylene films and fabrics, high density polyethylene film reinforcements; Cover: Polyvinyl coated polyester fibre cover with outer n/a | Details - Construction (printed verbatim) |
+| S6S6_wire_spec | S6S6 denotes stainless (S), grade 316 (6), inner and outer wires n/a | Details - Available Options (printed verbatim) |
+| Series 0933 - specified temperature range | -200-80 degC | Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated |
+| Series 0933 - main liquids | LNG (-162 degC); Ethylene (-103 degC) n/a | Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated |
+| Series 0940 - specified temperature range | -110-80 degC | Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated |
+| Series 0940 - main liquids | FUEL; VCM n/a | Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated |
+| Series 0957 - specified temperature range | -200-80 degC | Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated |
+| Series 0957 - main liquids | Dedicated to liquefied carbon dioxide n/a | Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated |
+| Cryogenic hose - general temperature range | -200-80 degC | Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated |
+| Cryogenic hose - regular pressure | 1-2.2 MPa (10 to 22 kgf/cm2; varies with fluid and temperature) | Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated |
+| Compliance | EN 13766 / 2018 Class A Type 2 and Class B type 2 n/a | Cryogenic hoses are manufactured in accordance to EN 13766 / 2018 Class A Type 2 and Class B type 2 |
+| Class A Type 2 working pressure | 13 bar / PSI | Working Pressure: Class A Type 2 – 13 Bar (185 PSI) |
+| Class B Type 2 working pressure | 10.5 bar / PSI | Class B Type 2 – 10.5 Bar (149 PSI) |
+| Vacuum rating | 0.9 Bar Vacuum | Suitable for 0.9 Bar Vacuum rating. |
+| Proof test | 1.5 times the rated working pressure n/a | Reliability - Tested to industry standards 1.5 times the rated working pressure. |
+| Inner wire | Stainless steel 316/304 n/a | Inner wire - Stainless steel 316/ 304 |
+| Outer wire | Stainless steel 316/ 304 n/a | Outer wire Stainless steel 316/ 304 |
+| Service | LNG and liquid nitrogen transfer; refrigerated transport; industrial gas plants n/a | facilitate the secure and efficient conveyance of cryogenic fluids, including substances like liquefied natural gas (LNG) and liquid nitrogen |
 
 
 ### Hoses (fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading)
@@ -3976,6 +5551,89 @@ Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Baker Hug
 | Flow rate range | 5 ml/h-180 m3/h ml/h to m3/h | Our portfolio includes systems featuring a flow rate between 5 ml/h and 180 m3/h at discharge pressure levels of up to 3500 bar |
 | Discharge pressure - diaphragm pumps | 1,200 bar (up to) | With diaphragm pumps, the system is able to operate pressure levels of up to 1200 bar. |
 | Discharge pressure - plunger pumps | 3,500 bar (up to) | Plunger pumps, meanwhile, enable discharge pressure levels of as much as 3500 bar to be achieved. |
+| Maximum compression stages | 5 stages (up to) | "available in horizontal or vertical configurations of up to five compression stages" |
+| Maximum pressure increase | 450 bar (up to) | "offering pressures increases of to 450 bar" (as printed) |
+| Features | "providing inter-stage cooling and purging of condensates" | "providing inter-stage cooling and purging of condensates" |
+| Suitable gases | "suitable for virtually all dry gases including helium, hydrogen and nitrogen" | "suitable for virtually all dry gases including helium, hydrogen and nitrogen" |
+| Pressure range | 10000 psi (up to) | "Pressure ranges available up to 10,000 psi and flow rates up to 1,500 gpm" |
+| Flow rate | 1500 gpm (up to) | "flow rates up to 1,500 gpm" |
+| Experience | 80 years (more than) | "With more than 80 years of experience designing oil production systems" |
+| Offering scope | "We offer a diverse line of pumps customized according to the application"; "... | "We offer a diverse line of pumps customized according to the application"; "complete skid solutions from design consultation through startup and commissioning" |
+| Number of compression stages | 5  stages (up to) | Howden: 'The Howden hybrid reciprocating compressor is available in horizontal or vertical configurations of up to five compression stages' |
+| Example wet hydrogen duty | Howden case figure: 'Flow: 21.000 Nm3/hr of wet hydrogen at 1.2 bara; Final p... | Howden case figure: 'Flow: 21.000 Nm3/hr of wet hydrogen at 1.2 bara; Final pressure 55 bara' |
+| Gas suitability | Howden: 'suitable for virtually all dry gases including helium, hydrogen and ... | Howden: 'suitable for virtually all dry gases including helium, hydrogen and nitrogen' |
+| Configuration / auxiliary systems | Howden: 'inter-stage cooling and purging of condensates'; 'fully integrated s... | Howden: 'inter-stage cooling and purging of condensates'; 'fully integrated skid incorporates control systems, regulation equipment and any other additional modules and utility packages' |
+| Capacity | 290 gph (up to) | Milton Roy MAXROY: 'applications up to 290 gph (1,100 l/h) at pressures up to 406 psi (28 bar)'; 'Capacity ranges up to 290 gph (1100 l/hr)' |
+| Capacity metric | 1100 l/h (up to) | Milton Roy: '290 gph (1,100 l/h)' |
+| Maximum pressure | 406 psi (up to) | Milton Roy: 'pressures up to 406 psi (28 bar)' |
+| Maximum pressure metric | 28 bar (up to) | Milton Roy: '406 psi (28 bar)' |
+| Turndown ratio | 10 :1 standard | Milton Roy: 'Standard turndown ratio of 10:1 expandable with various options' |
+| Steady state accuracy | 1 % (±) | Milton Roy: 'Steady state accuracy ±1%' |
+| Construction | Milton Roy: 'cast iron housing with chemical resistant coating'; 'Dust-tight ... | Milton Roy: 'cast iron housing with chemical resistant coating'; 'Dust-tight cast iron housing'; 'Internal adjustable pressure relief valve protects the pump from over pressure' |
+| discharge_pressure | ?-350 bar | Periflow Compressors: Up to 350 bar |
+| capacity_flow | 10-20000 m3/hr | Periflow Compressors: 10 to 20,000 m3/hr capacity flow |
+| speed_range | 1000-6000 rpm | Periflow Compressors: Variable speed from 1000 to 6000 rpm |
+| characteristics | Low vibration, pulsation-free operation; high tolerance of gases containing liquid or solid particulates; minimal maintenance n/a | Periflow compressor feature list |
+| ambient_temperature | -20-40 degC | Technical Data for Dry Hydrogen: Ambient temperature (min/max) -20 / +40 degC |
+| hazardous_area | ATEX II 3G Zone 2 IIC T2 n/a | Technical Data for Dry Hydrogen: Hazardous area ATEX II 3G Zone 2 IIC T2 |
+| suction_pressure_range | 20-35 bara | Suction pressure range (bara) 20 to 35 |
+| max_discharge_pressure | 550 bara | Maximum discharge pressure (bara) up to 550 (adjustable) |
+| flow_capacity_TFC90 | 90 kg/hr | Flow capacity (kg/hr) TFC90 90 / TFC180 180 |
+| flow_capacity_TFC180 | 180 kg/hr | Flow capacity (kg/hr) TFC180 180 |
+| turndown | 0-100 % | Turndown capability 0 to 100% |
+| discharge_temperature | 5-40 degC | Discharge temperature (min/max) degC 5 / 40 |
+| suction_temperature | 50-60 degC | Suction temperature degC 50 to 60 |
+| absorbed_power_TFC90 | 160 kW | Absorbed power (kW) TFC90 160 / TFC180 295 |
+| absorbed_power_TFC180 | 295 kW | Absorbed power (kW) TFC180 295 |
+| power_supply_TFC90 | 400V, 3ph, 50Hz n/a | Power supply: TFC90 400V, 3ph, 50Hz; TFC180 690V, 3ph, 50Hz |
+| power_supply_TFC180 | 690V, 3ph, 50Hz n/a | Power supply: TFC180 690V, 3ph, 50Hz |
+| MTBM | 8400 hr | MTBM (hr) 8400 |
+| availability | 97 % | Availability 97% |
+| standards_compliance | CE Marked, Machinery Directive 2006/42/EU, EMC Directive 2014/30/EU, ATEX Directive 2014/34/EU, LVD Directive 2014/35/EU, PED Directive 2014/68/EU n/a | Standards & compliance (printed verbatim) |
+| electrolyzer_module_design | Designed for 5 MW and 10 MW electrolyzer modules MW | Howden's TFC90 and TFC180 standardized diaphragm compressor packages designed for hydrogen; designed for 5 MW and 10 MW electrolyzer modules |
+| Howden piston compressor - Europe's largest renewable H2 plant case | 200 MW electrolyzer | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated |
+| Howden piston compressor - configuration | 5-stage piston reciprocating compressors n/a | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated |
+| Howden piston compressor - drive | 4250 kW induction motors | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated |
+| Howden piston compressor - flow | 21,000 Nm3/hr of wet hydrogen at 1.2 bara n/a | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated |
+| Howden piston compressor - final pressure | 55 bara | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated |
+| Howden hybrid reciprocating compressor - stages / pressure rise | Up to 5 compression stages; pressure increases up to 450 bar n/a | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated |
+| Periflow compressor - discharge pressure | 350 bar (up to) | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated |
+| Periflow compressor - capacity flow range | 10-20000 m3/hr | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated |
+| Periflow compressor - operating principle | Profiled impeller wheel revolving in an annular channel; swirling helical gas flow through blades several times; smooth steady flow; API compliant n/a | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated |
+| Howden diaphragm compressor - invention | Invented in 1916 by Henri Corblin (Burton Corblin name part of Howden) n/a | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page, Diaphragm Compressors section; no print date stated |
+| Howden hybrid reciprocuting compressor - configuration | Horizontal or vertical; up to five compression stages n/a | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page, Diaphragm Compressors section; no print date stated |
+| Howden hybrid reciprocating compressor - pressure increase | 450 bar (up to), with inter-stage cooling and condensate purging | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page, Diaphragm Compressors section; no print date stated |
+| Howden diaphragm compressor - gas suitability | Rare, toxic, flammable, explosive or radioactive gases; complete hermetic separation and high-pressure sealing n/a | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page, Diaphragm Compressors section; no print date stated |
+| Howden diaphragm compressor - typical service | Medium capacity fully integrated skid with control systems, regulation equipment and utility packages; suited to hydrogen processes n/a | Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page, Diaphragm Compressors section; no print date stated |
+| Valve types offered | Injection pressure and production pressure-operated valves; tubing retrievable valves; wireline-retrievable orifice, dummy, circulating, and chemical injection valves n/a | Injection pressure and production pressure-operated valves; Tubing retrievable valves; Wireline-retrievable orifice, dummy, circulating, and chemical injection valves |
+| Mandrel compatibility | Any Baker Hughes side pocket and tubing retrievable mandrel; fully compatible with mandrels from other manufacturers n/a | Our gas lift valves are designed for installation in any Baker Hughes side pocket and tubing retrievable mandrel. They are also fully compatible with mandrels provided from other manufacturers |
+| Reverse flow check | Integral reverse flow check valve n/a | An integral reverse flow check valve to prevent reverse flow communication |
+| Maximum discharge pressure | ?-3500 bar | at discharge pressure levels of up to 3500 bar |
+| Diaphragm pump pressure | ?-1200 bar | With diaphragm pumps, the system is able to operate pressure levels of up to 1200 bar. |
+| Plunger pump pressure | ?-3500 bar | Plunger pumps, meanwhile, enable discharge pressure levels of as much as 3500 bar to be achieved. |
+| Tubing pressure limit | ?-20000 psi | Up to a pressure of 20,000 psi, we use tubing for the supply and the outflow of liquids if required. |
+| Max storage volume | ?-50 m3 | The injection system can store a maximum volume of 50 m 3 . |
+| Pump standards | API 675 (metering pumps); API 674 (plunger pumps) n/a | The metering pumps used in our Chemical Injection Packages are all API 675-compliant and our plunger pumps all meet API 674 standards. |
+| Package standards | ASME, API, and ATEX n/a | comply with both your specifications and international standards (such as ASME, API, and ATEX) |
+| Materials | Incoloy, monel, titanium, and Hastelloy n/a | we use high alloy materials such as Incoloy, monel, titanium, and Hastelloy. |
+| Largest package example | 715 ton; 21 x 21 x 11 meters; over 40 diaphragm pumps, 120 injection points, over 3,000 valves and instruments, 18 chemical storage tanks n/a | Over 40 diaphragm pumps, 120 chemical injection points, over 3,000 valves and instruments, 18 chemical storage tanks ... 715 ton weighing package ... dimensions of 21 x 21 x 11 meters |
+| Suction pressure | 370 psig | KBH Specifications Suction Pressure 370 psig (25 bar) |
+| Suction pressure (metric) | 25 bar | 370 psig (25 bar) |
+| Discharge pressure (metric) | 500 bar | 7,250 psig (500 bar) |
+| Flow at design point | 250 kg/hr | Flow at design point 250 kg/hr |
+| Number of stages | 4 count | Number of Stages 4 |
+| Stroke | 4.25 in | Stroke 4.25 in (108 mm) |
+| Stroke (metric) | 108 mm | 4.25 in (108 mm) |
+| Max RPM | 1000 rpm | Max RPM 1,000 |
+| Orientation | vertically oriented n/a | vertically oriented reciprocating compressor designed for the hydrogen mobility market |
+| Lubrication | non-lubricated cylinders n/a | designed to be non-lubricated to maintain high gas purity; Non-lubricated Cylinders |
+| Load capability | Capable of full non-reversing loads n/a | Capable of full non-reversing loads |
+| Productivity claim | 1 KBH Compressor does the work of 5-6 leading diaphragm style compressors n/a | 500 bar discharge at 250 kg/h means less infrastructure & environmental impact. 1 KBH Compressor does the work of 5-6 leading diaphram style compressors. |
+| Temperature rating (standard) | 250 degF | A standard temperature rating of up to 250°F (121°C) |
+| Temperature rating (metric) | 121 degC | up to 250°F (121°C) |
+| Packing | Standard neoprene packing, with other materials available n/a | Standard neoprene packing, with other materials available |
+| Check valve | integral reverse flow check valve n/a | An integral reverse flow check valve to prevent reverse flow communication |
+| Valve types | Injection pressure and production pressure-operated; tubing retrievable; wireline-retrievable orifice, dummy, circulating, and chemical injection valves n/a | Valve type list under Overview |
 
 
 ### Injectors and injection systems (fl-injectors-and-injection-systems-water-injection-gas-injection)
@@ -4029,6 +5687,89 @@ Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB /
 | Rated power (4 throw / 6 throw) | 6668-10000 BHP | Product tables: Rated Power 6,668 (4 Throw) and 10,000 (6 Throw); page text: rated up to 10,000 BHP |
 | Stroke | 7.25-8.5 in (KBB 7.25 / KBV 8.50) | Product table: Stroke (in) KBB 7.25, KBV 8.50 |
 | Max RPM | 750-900 rpm (KBB 900 / KBV 750) | Product table: Max RPM KBB 900, KBV 750 |
+| 4 Throw Rated Power | 6668 BHP | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Stroke | 7.25 in | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Max RPM | 900 rpm | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Piston Speed | 1088 printed without unit in source | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Rod Diameter | 3.125 in | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Total Rod Load | 190000 lbs | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Tension | 95000 lbs | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Compression | 100000 lbs | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Average Weight | 79000 lbs | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Max Length | 144 in | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Nominal Width | 228 in | 4 Throw table (Ariel KBB/KBV) |
+| 4 Throw Crankshaft Centerline | 27 in | 4 Throw table (Ariel KBB/KBV) |
+| 6 Throw Rated Power | 10000-BHP n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Stroke | 8.5-in n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Max RPM | 750-rpm n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Piston Speed | 1063-printed without unit in source n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Rod Diameter | 3.125-in n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Total Rod Load | 190000-lbs n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Tension | 95000-lbs n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Compression | 100000-lbs n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Average Weight | 115000-lbs n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Max Length | 188-in n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Nominal Width | 228-in n/a | 6 Throw table (Ariel KBB/KBV) |
+| 6 Throw Crankshaft Centerline | 27-in n/a | 6 Throw table (Ariel KBB/KBV) |
+| Frame rating statement | 10000 BHP | 'The KBB and KBV, Ariel's largest compressor frames, are rated up to 10,000 BHP' |
+| Applications | 'recommended for use in pipeline transmission and high-pressure injection app... | 'recommended for use in pipeline transmission and high-pressure injection applications'; N+1 station design gives 100% compression capacity |
+| Crankcase/crosshead materials | Gray iron crankcase; forged steel crankshaft; gray iron crosshead guide; bron... | Gray iron crankcase; forged steel crankshaft; gray iron crosshead guide; bronze thrust bearing; tri-metal main bearing; ductile iron crosshead; alloy steel crosshead pin; forged steel connecting rod; grade 8 stress bolts |
+| Valves | 'Plate-type valves ... utilizing non-metallic sealing elements as standard' | 'Plate-type valves ... utilizing non-metallic sealing elements as standard' |
+| Rated power (4 throw KBB/KBV) | 6668 BHP | 4 Throw table: Rated Power 6,668 (KBB and KBV) |
+| Rated power (6 throw KBB/KBV) | 10000 BHP | 6 Throw table: Rated Power 10,000 (KBB and KBV); intro also says "rated up to 10,000 BHP" |
+| Stroke KBB | 7.25 in | Both 4-throw and 6-throw tables: Stroke (in) KBB 7.25 |
+| Stroke KBV | 8.5 in | Both tables: Stroke (in) KBV 8.50 |
+| Max RPM KBB | 900 rpm | Both tables: Max RPM KBB 900 |
+| Max RPM KBV | 750 rpm | Both tables: Max RPM KBV 750 |
+| Piston speed KBB | 1088 (printed, unit not stated in table) | Both tables: Piston Speed KBB 1,088 |
+| Piston speed KBV | 1063 (printed, unit not stated in table) | Both tables: Piston Speed KBV 1,063 |
+| Rod diameter | 3.125 in | Both tables: Rod Diameter (in) 3.125 KBB and KBV |
+| Total rod load | 190000 lbs | Both tables: Total Rod Load (lbs) 190,000 |
+| Tension rod load | 95000 lbs | Both tables: Tension (lbs) 95,000 |
+| Compression rod load | 100000 lbs | Both tables: Compression (lbs) 100,000 |
+| Average weight (4 throw) | 79000 lbs | 4 Throw table: Average Weight (lbs) 79,000 |
+| Average weight (6 throw) | 115000 lbs | 6 Throw table: Average Weight (lbs) 115,000 |
+| Max length (4 throw) | 144 in | 4 Throw table: Max Length (in) 144 |
+| Max length (6 throw) | 188 in | 6 Throw table: Max Length (in) 188 |
+| Nominal width | 228 in | Both tables: Nominal Width (in) 228 |
+| Crankshaft centerline height | 27 in | Both tables: Crankshaft Centerline (in) 27 |
+| nominal_pressure_rating | 500 psi | 500 psi (3.45 MPa) API 15S Nominal Pressure Rating (NPR) |
+| nominal_pressure_rating_MPa | 3.45 MPa | 500 psi (3.45 MPa) API 15S Nominal Pressure Rating (NPR) |
+| max_temperature | 60 degC | Max Temp 140 degF (60 degC) |
+| sizes | 3 in., 4 in., and 6 in. n/a | Size 3 in., 4 in., and 6 in. |
+| inside_diameter_3in | 2.82 in | Series 500 Product Properties table: Inside Pipe Diameter DF 3" 500 = 2.82 in (72 mm) |
+| inside_diameter_4in | 3.57 in | Series 500 table: DF 4" 500 ID 3.57 in (91 mm) |
+| inside_diameter_6in | 5.6 in | Series 500 table: DF 6" 500 ID 5.60 in (142 mm) |
+| outside_diameter_3in | 3.65 in | Series 500 table: DF 3" 500 OD 3.65 in (93 mm) |
+| outside_diameter_4in | 4.55 in | Series 500 table: DF 4" 500 OD 4.55 in (116 mm) |
+| outside_diameter_6in | 6.82 in | Series 500 table: DF 6" 500 OD 6.82 in (173 mm) |
+| wall_thickness | 0.42-0.61 in | Series 500 table: Overall Pipe Wall Thickness 0.42 / 0.49 / 0.61 in (11 / 12 / 15 mm) |
+| pipe_weight | 2-5.72 lbs/ft | Series 500 table pipe weight 2.00 / 3.06 / 5.72 lbs/ft (2.98 / 4.56 / 8.53 kg/m) |
+| reel_capacity | 1175-3000 ft | Series 500 table reel capacity 3,000/1,700 ft (3"); 2,400 ft (4"); 1,175/525 ft (6") |
+| spool_length_max | 4000 ft | The flexibility of DuraFlex enables the pipe to be spooled with lengths up to 4,000 ft |
+| factory_hydrotest | 1.5 x nominal pressure rating | 100% hydrotested at the factory to 1.5x the nominal pressure rating; produced in API Q1 ISO9001 facility licensed to produce API 15S pipe |
+| DuraFlex Series 500 - nominal pressure rating | 500 psi (3.45 MPa) API 15S NPR | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| DuraFlex Series 500 - maximum temperature | 140-? degF (60 degC) | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| DuraFlex Series 500 - sizes | 3 in., 4 in., 6 in. n/a | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| DuraFlex DF 3" 500 - inside/outside diameter | ID 2.82 in (72 mm); OD 3.65 in (93 mm) n/a | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| DuraFlex DF 4" 500 - inside/outside diameter | ID 3.57 in (91 mm); OD 4.55 in (116 mm) n/a | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| DuraFlex DF 6" 500 - inside/outside diameter | ID 5.60 in (142 mm); OD 6.82 in (173 mm) n/a | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| DuraFlex DF 3"/4"/6" - wall thickness | 0.42 / 0.49 / 0.61 in (11 / 12 / 15 mm) n/a | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| DuraFlex DF 3"/4"/6" - pipe weight | 2.00 / 3.06 / 5.72 lbs/ft (2.98 / 4.56 / 8.53 kg/m) n/a | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| DuraFlex DF 3"/4"/6" - reel capacity | 3,000/1,700 / 2,400 / 1,175/525 ft (915/518 / 732 / 358/160 m) n/a | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| DuraFlex - spoolable length | 4000 ft (up to) | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| DuraFlex - factory hydrotest | 100% hydrotested to 1.5x nominal pressure rating; API 15S licensed, API Q1 ISO9001 facility n/a | NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated |
+| Primary pipe size range | 2- to 4-in. in | Size range: 2- to 4-in. UL listed |
+| Primary pressure rating | ?-250 psig | Pressure ratings: Up to 250 psig |
+| Secondary pipe size range | 3- to 6-in. in | Size range: 3- to 6-in. UL listed |
+| Secondary pressure rating | ?-50 psig | Pressure ratings: Up to 50 psig |
+| Temperature range | ?-150 degF | Temperature range: Up to 150 °F (65 °C) |
+| Temperature range metric | ?-65 degC | Up to 150 °F (65 °C) |
+| Construction | Filament wound with amine-cured epoxy resins and fiberglass roving n/a | Construction: Filament wound with amine-cured epoxy resins and fiberglass roving |
+| Inner corrosion barrier | Resin-rich n/a | Inner corrosion barrier: Resin-rich |
+| Fittings | Threaded and bonded (TAB) or bell and spigot n/a | Fittings: Threaded and bonded (TAB) or bell and spigot |
+| Chemical service | Petroleum products, alcohols, alcohol-gasoline mixtures, ethanol, methanol, MTBE, diesel exhaust fluid n/a | Chemical service: Petroleum products, alcohols, alcohol-gasoline mixtures, ethanol, methanol, MTBE, diesel exhaust fluid |
+| Approval | UL listed (UL 971) approval for underground fuel handling n/a | The first composite pipe to receive UL listed (UL 971) approval for underground fuel handling. |
 
 
 ### Risers (fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e)
@@ -4056,6 +5797,201 @@ Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB /
 | Pmax temp coefficient | -0.26 %/degC | Value as printed in the cited source; no further qualifier stated. |
 | RF physical layer | 2.4 GHz DSSS O-QPSK (IEEE 802.15.4-2006) GHz | Value as printed in the cited source; no further qualifier stated. |
 | MAC | TDMA data-link layer protocol | Value as printed in the cited source; no further qualifier stated. |
+| Generator set power range | 15 - 3750 kVA kVA | 'We offer a diverse range of generator sets from 15 - 3750 kVA.' Cummins en-apac generators/diesel page, © 2026. |
+| Commercial genset start and load acceptance | Able to start and assume load in less than 10 seconds, and rated load in a single step seconds | 'Able to start and assume load in less than 10 seconds, and rated load in a single step, Cummins commercial generators are the epitome of rugged dependability.' |
+| Quiet Diesel series frequency | 60, 50 Hz | Cummins Quiet Diesel Generators product card: 'Frequency (Hz) 60, 50'; Certification EPA Tier 4. |
+| Quiet Diesel noise reduction | 15 dB(A) (up to, quieter than other diesel generators) | 'their revolutionary design makes these generator sets up to 15 dB(A) quieter than other diesel-powered generators, and quieter than most gasoline sets.' |
+| Quiet Diesel full-load ambient capability | 120 F (50 C) deg F / deg C | 'Meets full load capability at 120 F (50 C) ambient conditions.' |
+| Quiet Diesel construction and mounting | Totally enclosed incl. cooling, muffler and intake; 4-point mounting system n/a | 'The units are totally enclosed, including cooling, muffler and intake systems' and '4-point mounting system Designed to provide clean, quiet power with low vibration'. |
+| Portfolio maximum 60 Hz | 3250 kWe | 'Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz).' |
+| Portfolio maximum 50 Hz | 4000 kVA | As above. |
+| Load factor standby / prime | 85% / 75% % | '85% load factor for standby applications and 75% for prime power'. |
+| Transient operation claim | Superior transient operation, industry leading load factors in extreme ambient conditions n/a | Wide range of applications / transient operation bullets. |
+| Sustainable fuel approval | Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO n/a | 'mtu Series 4000 and Series 1600 engines for power generation are approved to run on synthetic paraffinic diesel fuels in accordance with EN 15940, which includes the biofuel HVO'. |
+| Power range - mtu Series 4000 | 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 4000 POWER RANGE: 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe'. |
+| Power range - mtu Series 2000 | 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 2000 POWER RANGE: 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe'. |
+| Power range - mtu Series 1600 | 50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 1600 POWER RANGE: 50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe'. |
+| Power range - mtu Series 0080 - mtu Series 0225 | 50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 0080 - mtu Series 0225 POWER RANGE: 50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe'. |
+| Series 4000 brochure link | 16120753_PowerGeneration_S4000_Diesel_brochure.pdf n/a | 'Ensure a Constant Flow of Power. And Peace of Mind - Our Series 4000' brochure listed under Download Brochures (PDF 5 MB). |
+| Applications | 'engineered for a wide variety of applications, from petroleum refineries to ... | 'engineered for a wide variety of applications, from petroleum refineries to FPSO offshore platforms' |
+| Liquid seal design | 'We use deep liquid seals that provide the necessary hydrostatic head' to 'pr... | 'We use deep liquid seals that provide the necessary hydrostatic head' to 'prevent air backflow and ensure stable operation of the compressor and flare system' |
+| Compression technologies | 'Ejectors ... particularly useful in applications requiring a simple, mainten... | 'Ejectors ... particularly useful in applications requiring a simple, maintenance-free solution' |
+| Emissions reduced | 'designed to significantly reduce emissions, including NOx, CO, CO2, and SOx' | 'designed to significantly reduce emissions, including NOx, CO, CO2, and SOx' |
+| Flare gas sweetening | 'Flare gas often contains impurities like H2S that need to be removed' | 'Flare gas often contains impurities like H2S that need to be removed' |
+| Module power | 670 W | 'Up to 670 <W> Module Power' / 'Maximum power boasts up to 670W' |
+| Product warranty | 12 years | '12 <Years> Product Warranty' |
+| Power warranty | 30 years | '30 <Years> Power Warranty' |
+| 30-year degradation advantage | 0.05 percentage points | '30-year full lifecycle linear degradation is 0.05 percentage points lower than conventional N-type products' |
+| 30-year power increase | 1.5 % | 'Power increase 1.5% after 30 years' |
+| Cell technology | 'Tairay silicon wafers + HPBC 2.0 cell technology'; '0BB design on the front' | 'Tairay silicon wafers + HPBC 2.0 cell technology'; '0BB design on the front' |
+| Design features | 'Soft Breakdown Design' for anti-shading and preventing localized overheating | 'Soft Breakdown Design' for anti-shading and preventing localized overheating |
+| Construction | 'flexible pipe is made up of several different layers. The main components ar... | 'flexible pipe is made up of several different layers. The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires' |
+| Structure | 'The helically wound steel wires give the structure its high-pressure resista... | 'The helically wound steel wires give the structure its high-pressure resistance and excellent bending characteristics' |
+| Attributes | 'Leak-proof', 'Corrosion resistant', 'High-pressure resistant', 'Bendable', '... | 'Leak-proof', 'Corrosion resistant', 'High-pressure resistant', 'Bendable', 'Flexible', 'Adjustable', 'Retrievable', 'Fit for purpose', 'Interactive layers', 'Dynamic execution' |
+| Pioneered year | 1970 decade | 'We pioneered flexible pipe technology in the early 1970s' |
+| IPB technology | 'an innovative and proprietary technology' for 'high-level flow assurance of ... | 'an innovative and proprietary technology' for 'high-level flow assurance of hydrocarbon fluids in difficult conditions from well heads to surface treatment units' |
+| IPB features | 'thermal insulation layers, additional hoses for gas lift or other services, ... | 'thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers' |
+| FSHR design | 'vertical steel pipe tensioned by a near-surface buoyancy can' with flexible ... | 'vertical steel pipe tensioned by a near-surface buoyancy can' with flexible jumper and rigid base jumper |
+| Overall compressor range | 600000-m3/h 'Industrial Centrifugal Turbo Compressors up to 600,000 m3/h' | As printed on the cited catalogue page. |
+| KK&K single-stage pressure rise | 3.5 ratio | 'pressure rise of up to 3.5 within a single stage or 6 for multistage' |
+| KK&K multistage pressure rise | 6 ratio | Howden / KK&K / CKD centrifugal compressors page, 'proven over 100 years and 4000 installations' KK&K description |
+| CKD flow requirement | 1700000 m3/h | 'flow requirements up to 1700,000 m3/h' (printed verbatim) |
+| CKD discharge pressure | 20 MPa | 'discharge pressures of up to 20 MPa' |
+| Single-stage model flow range | 3000 'flows of between 3,000 m3/h and 600,000 m3/h with pressure ratios up to 3.5' | As printed on the cited catalogue page. |
+| Multistage model flow range | 400 'flows of between 400 m3/h and 200,000 m3/h with pressure ratios up to 10.0' | As printed on the cited catalogue page. |
+| SF flow | 15000 'SF 15,000-600,000 | up to 3.5 | impeller up to 2240 mm | Electric or turbine' | As printed on the cited catalogue page. |
+| SFG flow | 5000 'SFG 5,000-300,000 | up to 3.5 | impeller up to 1120 mm' | As printed on the cited catalogue page. |
+| ST flow | 1500 'ST 1,500-150,000 | up to 3.5 | impeller up to 900 mm | Steam turbine (integrated)' | As printed on the cited catalogue page. |
+| SL flow | 15000 'SL 15,000-450,000 | up to 1.45 | impeller up to 1800 mm | Coke oven gas' | As printed on the cited catalogue page. |
+| SFG Back-to-Back flow | 3000 'SFG Back-to-Back 3,000-75,000 | up to 6.0 | impeller up to 560 mm' | As printed on the cited catalogue page. |
+| SFG Twin flow | 3000 'SFG Twin 3,000-200,000 | up to 6.0 | impeller up to 900 mm' | As printed on the cited catalogue page. |
+| RS flow | 400 'RS 400-65,000 | up to 10.0 | impeller up to 700 mm' | As printed on the cited catalogue page. |
+| RV flow | 400 'RV 400-85,000 400-170,000 (back-to-back) | up to 10.0 | impeller up to 780 mm' | As printed on the cited catalogue page. |
+| SFO/SFP/SFN pressure | 50 bar | 'Single and multi-stage turbo compressors ... with pressures up to 50 bar and flow rates up to 200,000 m3/hr' |
+| Maximum discharge pressure | 350 bar (up to) | Performance: "Up to 350 bar" |
+| Capacity flow | 10-20000 m3/hr | Performance: "10 to 20,000 m3/hr capacity flow" |
+| Speed range | 1000-6000 rpm | Performance: "Variable speed from 1000 to 6000 rpm" |
+| Compliance | "Fully compliant with API, area protection requirements and site specifications" | "Fully compliant with API, area protection requirements and site specifications" |
+| WHIRLYSCRUB I liquid removal efficiency | 99.99 % down to 10 um | "provides excellent liquid removal, with a removal efficiency of 99.99% down to 10 um" |
+| WHIRLYSCRUB I liquid loading limit | 3 bbl/MMcf or less | "gas-dominant streams containing low amounts of liquid (3 bbl/MMcf or less)" |
+| WHIRLYSCRUB I gas sidestream | 10 % of gas | "the liquids and a 10% sidestream of gas are drawn through a small opening in the vortex tube" |
+| WHIRLYSCRUB V removal efficiency | 99.9 % down to 10 um | Gas Treatment overview card: "Remove solids and liquid from gas containing moderate amounts of liquid, with a removal efficiency of 99.9% down to 10 um" |
+| WHIRLYSCRUB I publication date | SLB product detail page 'Published: 08/02/2016' | SLB product detail page 'Published: 08/02/2016' |
+| Integrated Production Bundle (IPB) features | "thermal insulation layers, additional hoses for gas lift or other services, ... | "thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers" |
+| Technology origin | "We pioneered flexible pipe technology in the early 1970s" | "We pioneered flexible pipe technology in the early 1970s" |
+| Frame rated power (4 throw) | 6668 BHP | Ariel KBB/KBV table, 4 Throw: Rated Power 6,668 |
+| Frame rated power (6 throw) | 10000 BHP | Ariel KBB/KBV table, 6 Throw: Rated Power 10,000; intro: 'rated up to 10,000 BHP' |
+| Stroke (KBB / KBV) | 7.25-8.5 in | Ariel table both throws: KBB 7.25 in, KBV 8.50 in |
+| Max RPM (KBB / KBV) | 750-900 rpm | Ariel table: KBB Max RPM 900, KBV Max RPM 750 |
+| Piston speed (KBB / KBV) | 1063-1088 ft/min (printed 'Piston Speed 1,088 / 1,063', unit not printed in table) | Ariel table: KBB 1,088, KBV 1,063 |
+| Rod diameter | 3.125 in | Ariel table: Rod Diameter (in) 3.125 for both KBB and KBV, both throws |
+| Total rod load | 190000 lbs | Ariel table: Total Rod Load (lbs) 190,000 |
+| Tension rod load | 95000 lbs | Ariel table: Tension (lbs) 95,000 |
+| Compression rod load | 100000 lbs | Ariel table: Compression (lbs) 100,000 |
+| Average weight (4 throw) | 79000 lbs | Ariel 4 Throw table: Average Weight (lbs) 79,000 |
+| Average weight (6 throw) | 115000 lbs | Ariel 6 Throw table: Average Weight (lbs) 115,000 |
+| Max length (4 throw) | 144 in | Ariel 4 Throw table: Max Length (in) 144 |
+| Max length (6 throw) | 188 in | Ariel 6 Throw table: Max Length (in) 188 |
+| Nominal width | 228 in | Ariel table: Nominal Width (in) 228 |
+| Crankshaft centerline height | 27 in | Ariel table: Crankshaft Centerline (in) 27 |
+| Crankcase / running gear materials | Ariel Materials: 'Gray Iron Crankcase: Forged steel crankshaft, gray iron cro... | Ariel Materials: 'Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, bronze thrust bearing, tri-metal main bearing'; 'Ductile Iron Crosshead: Alloy steel crosshead pin'; 'Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts' |
+| Lubrication system | Ariel: 'A frame-driven lube oil pump provides cooled oil through a full-flow ... | Ariel: 'A frame-driven lube oil pump provides cooled oil through a full-flow oil filter to all the frame's moving components. A divider-block system also supplies metered oil to cylinder bores and rod packings.' |
+| Destruction efficiency | 99.5 % (typically >) | John Zink LRGO: 'This system has demonstrated the highest destruction efficiency (typically > 99.5%) of any flare type.' |
+| Smokeless operation | 100 % at high flow rates | John Zink: 'Design is capable of producing 100% smokeless operation at high flow rates'; 'High pressure technology with staging allows smokeless operation for the full range of flows' |
+| Standard | John Zink: 'Available API 537 Compliance: Ensures compliance with the latest ... | John Zink: 'Available API 537 Compliance: Ensures compliance with the latest Industry flare standards.' |
+| Turndown / flow claim | John Zink: 'highest total smokeless rate of any flare while providing the wid... | John Zink: 'highest total smokeless rate of any flare while providing the widest range of smokeless turndown ... industry-leading maximum waste gas flow rates' |
+| Physical medium | FieldComm Group: 'Fieldbus-based control systems employ two-wire twisted pair... | FieldComm Group: 'Fieldbus-based control systems employ two-wire twisted pair cable and provide intrinsically safe or non-incendive device power suitable for all hazardous areas.' |
+| Architecture | FieldComm Group: 'FOUNDATION Fieldbus provides an all-digital communication i... | FieldComm Group: 'FOUNDATION Fieldbus provides an all-digital communication infrastructure for process automation, with powerful multivariable measurement capabilities, robust device diagnostics'; 'designed from the ground up to enable control-in-the-field (CIF) strategies ... during a host system failure, field instruments can communicate directly' |
+| Registered products | 1000  products (over) | FieldComm Group: 'over 1,000 registered products to interoperate between various manufacturers of devices and control systems' |
+| Specification package contents | FieldComm Group: 'FOUNDATION Fieldbus Technical Specifications ... includes t... | FieldComm Group: 'FOUNDATION Fieldbus Technical Specifications ... includes the latest FOUNDATION Fieldbus H1, High Speed Ethernet (HSE) and Physical Layer technical specifications' |
+| Rated voltage | 145 kV HVAC | Nexans news 20 November 2026: 'turnkey design, manufacturing and installation of a 145 kV HVAC dynamic cable' |
+| Route length | 135 km (about) | Nexans: 'Route: about 135 km, Barrow Island to a floating Field Control Station, in one continuous length' |
+| Trenched cable length | 30 km | Nexans: 'trenching 30 km of cable' |
+| Buoyancy modules installed | 26 modules | Nexans: 'after installing 26 buoyancy modules and trenching 30 km of cable' |
+| VIV strakes length | 200 m (about) | Nexans: 'Installation of about 200 meters of VIV (vortex-induced vibration) strakes in the Scarp section' |
+| Rock stabilization remaining | 28 km | Nexans: 'Rock stabilization along the last 28 km of the route' |
+| Project / client / status | Nexans: 'Jansz-Io Compression (J-IC), Gorgon Project, Western Australia; Clie... | Nexans: 'Jansz-Io Compression (J-IC), Gorgon Project, Western Australia; Client: Chevron Australia; Status: offshore installation and trenching completed in October 2026; final soak test February 2027' |
+| System description | Oil States: 'Top tension risers (TTR) provide surface access to subsea wells.... | Oil States: 'Top tension risers (TTR) provide surface access to subsea wells. They consist of sections of riser joints supported at the vessel by individual tensioner systems and connected to the subsea wellhead via an external tieback connector.' |
+| Connection | Oil States: 'The riser joints, stress joint and tension joint all incorporate... | Oil States: 'The riser joints, stress joint and tension joint all incorporate Oil States’ Merlin® connections, providing high-pressure, metal-to-metal sealing, load capacities exceeding those of the pipe and excellent fatigue properties.' |
+| Flexible pipe construction | TechnipFMC: 'A flexible pipe is made up of several different layers. The main... | TechnipFMC: 'A flexible pipe is made up of several different layers. The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires. The helically wound steel wires give the structure its high-pressure resistance and excellent bending characteristics' |
+| Design philosophy | TechnipFMC: 'modular construction where the layers are independent but design... | TechnipFMC: 'modular construction where the layers are independent but designed to interact with one another ... each layer can be made fit-for-purpose'; 'flexible pipe can be easily retrieved to be reused on another field development or for decommissioning' |
+| Product families listed | Yokogawa page navigation: 'Distributed Control System (DCS)', 'Safety Instrum... | Yokogawa page navigation: 'Distributed Control System (DCS)', 'Safety Instrumented System (SIS)', '920 MHz Wireless Data Acquisition', 'Field Wireless' |
+| KBH - suction pressure | 370 psig (25 bar) | Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation |
+| KBH - discharge pressure | 7250 psig (500 bar) | Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation |
+| KBH - flow at design point | 250 kg/hr | Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation |
+| KBH - number of stages | 4 n/a | Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation |
+| KBH - stroke | 4.25 in (108 mm) | Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation |
+| KBH - max RPM | 1000 rpm | Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation |
+| KBH - cylinder lubrication | Non-lubricated cylinders (designed for high gas purity) n/a | Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation |
+| KBH - orientation | Vertically oriented n/a | Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation |
+| HART - installed base | Over 40 million field instruments installed worldwide n/a | FieldComm Group 'HART' technology page; no print date stated |
+| HART - physical layer | Digital information over 4-20 mA analog current loops n/a | FieldComm Group 'HART' technology page; no print date stated |
+| HART - standard status | IEC standard; three major revisions since 1990s release; backward compatible with all prior releases n/a | FieldComm Group 'HART' technology page; no print date stated |
+| HART - specification documents | 17 documents in the HART Communication Protocol Specifications kit n/a | FieldComm Group 'HART' technology page; no print date stated |
+| HART - communication | Bi-directional protocol between intelligent field instruments and host systems n/a | FieldComm Group 'HART' technology page; no print date stated |
+| SIMATIC ET 200SP HA - description | Compact robust remote I/O designed for high availability n/a | Siemens SIMATIC PCS 7 distributed control system page (V10.0), published 25 Nov 2026 (jina metadata) |
+| SIMATIC PCS 7 - version | V10.0 n/a | Siemens SIMATIC PCS 7 distributed control system page (V10.0), published 25 Nov 2026 (jina metadata) |
+| SIMATIC PCS 7 - cybersecurity compliance | NIS2-compliant; IEC 62443-4-1 and IEC 62443-3-3 compliance n/a | Siemens SIMATIC PCS 7 distributed control system page (V10.0), published 25 Nov 2026 (jina metadata) |
+| SIMATIC PCS 7 - MTP integration startup improvement | 75 % (up to faster startup) | Siemens SIMATIC PCS 7 distributed control system page (V10.0), published 25 Nov 2026 (jina metadata) |
+| Diamould wet connectors - application | Subsea controls, distribution and instrumentation applications n/a | OneSubsea 'Subsea wet connectors' page, Diamould wet connectors section; no print date stated |
+| Diamould wet connectors - environment | Suitable for deepwater and high-pressure, high-temperature wellhead and downhole applications n/a | OneSubsea 'Subsea wet connectors' page, Diamould wet connectors section; no print date stated |
+| Diamould wet connectors - sealing | Dual-barrier system for mechanical and electrical sealing; unique male pin system gives immediate corrosion protection on de-mating n/a | OneSubsea 'Subsea wet connectors' page, Diamould wet connectors section; no print date stated |
+| Diamould wet connectors - sour/sand resistance | Many dry- and wet-mateable connectors resistant to sour environments and ingress of sand and silt n/a | OneSubsea 'Subsea wet connectors' page, Diamould wet connectors section; no print date stated |
+| FSHR - riser concept | Deepwater riser solution: vertical steel pipe tensioned by a near-surface buoyancy can n/a | TechnipFMC 'Flexible pipes / Freestanding Hybrid Riser' page; no print date stated |
+| FSHR - top connection | Flexible jumper connects riser top to production platform n/a | TechnipFMC 'Flexible pipes / Freestanding Hybrid Riser' page; no print date stated |
+| FSHR - seabed connection | Attached to seabed via a foundation; rigid base jumper connects FSHR to pipeline end termination n/a | TechnipFMC 'Flexible pipes / Freestanding Hybrid Riser' page; no print date stated |
+| Flexible pipe - construction | Leakproof thermoplastic barriers and corrosion-resistant steel wires; helically wound steel wires give high-pressure resistance and bending characteristics n/a | TechnipFMC 'Flexible pipes / Freestanding Hybrid Riser' page; no print date stated |
+| Rated power JGN 1 throw | 126 hp | Table 1 throw: JGN Rated Power 126 |
+| Rated power JGQ 1 throw | 140 hp | Table 1 throw: JGQ Rated Power 140 |
+| Rated power JGN 2 throw | 252 hp | Table 2 throw: JGN Rated Power 252 |
+| Rated power JGQ 2 throw | 280 hp | Table 2 throw: JGQ Rated Power 280 |
+| Rated power JGN 1 throw (kW) | 94 kW | Product sheet: Rated Power (kW) JGN 1 throw 94 / JGQ 1 throw 104 |
+| Rated power JGQ 1 throw (kW) | 104 kW | Product sheet: Rated Power (kW) 104 |
+| Stroke JGN | 3.5 in | Stroke (in): JGN 3.5 |
+| Stroke JGQ | 3.0 in | Stroke (in): JGQ 3.0 |
+| Max RPM JGN | 1500 rpm | Max RPM: JGN 1,500 |
+| Max RPM JGQ | 1800 rpm | Max RPM: JGQ 1,800 |
+| Piston speed JGN | 875 FPM | Piston Speed: JGN 875 |
+| Piston speed JGQ | 900 FPM | Piston Speed: JGQ 900 |
+| Total rod load JGN | 18000 lbs | Total Rod Load (lbs): JGN 18,000 |
+| Total rod load JGQ | 20000 lbs | Total Rod Load (lbs): JGQ 20,000 |
+| Tension load JGN | 9000 lbs | Tension (lbs): JGN 9,000 |
+| Tension load JGQ | 10000 lbs | Tension (lbs): JGQ 10,000 |
+| Compression load JGN | 10000 lbs | Compression (lbs): JGN 10,000 |
+| Compression load JGQ | 11000 lbs | Compression (lbs): JGQ 11,000 |
+| Average weight 1 throw | 1400 lbs | Average Weight (lbs): 1,400 (1 throw, both frames) |
+| Average weight 2 throw | 2200 lbs | Average Weight (lbs): 2,200 (2 throw, both frames) |
+| Max length 1 throw | 37 in | Max Length (in): 37 (1 throw) |
+| Max length 2 throw | 34 in | Max Length (in): 34 (2 throw) |
+| Nominal width 1 throw | 62 in | Nominal Width (in): 62 (1 throw) |
+| Nominal width 2 throw | 83 in | Nominal Width (in): 83 (2 throw) |
+| Crankshaft centerline | 9.25 in | Crankshaft Centerline (in): 9.25 (both frames) |
+| Frame material | Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing n/a | Materials: Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing |
+| Crosshead material | Ductile Iron Crosshead: Alloy steel crosshead pin n/a | Materials: Ductile Iron Crosshead: Alloy steel crosshead pin |
+| Connecting rod material | Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts n/a | Materials: Forged Steel Connecting Rod ... grade 8 stress bolts |
+| Electrolyzer module design | 5 MW and 10 MW n/a | Designed for 5 MW and 10 MW electrolyzer modules |
+| Package configuration | Skid-mounted compressors including all process equipment, piping and auxiliary systems in a single package n/a | These skid-mounted compressors include all process equipment, piping and auxiliary systems in a single package |
+| Diaphragm compressor pressure | ?-3000 bar | Pressure up to 3,000 bar (43,500 psi) |
+| Diaphragm compressor pressure (psi) | ?-43500 psi | 43, 500 psi |
+| Diaphragm compressor flow | ?-1200 m3/hr | Flow up to 1,200 m3/hr (706 cfm) |
+| Diaphragm compressor power | ?-1300 kW | Power up to 1,300 Kw (1,740 hp) |
+| Diaphragm compressor speed | 200-750 rpm | Speed from 200 – 750 rpm |
+| Noise | ?-85 dBA | Low noise operation, typically below 85dBA |
+| Gas purity | Absolute cleanliness of compressed hydrogen; Zero leakage of process gas to the environment n/a | Absolute cleanliness of compressed hydrogen; Zero leakage of process gas to the environment |
+| Network elements | Wireless field devices; Gateways; Network Manager n/a | Each WirelessHART network includes three main elements: Wireless field devices ... Gateways ... A Network Manager |
+| Messaging modes | one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers of large data sets n/a | the WirelessHART standard supports multiple messaging modes including one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers of large data sets |
+| Installation cost saving | 30-60 % | WirelessHART offers 30%-60% lower installation costs than adding traditional wired instruments |
+| HART specification kit | 17 documents | The HART Protocol Specifications kit is a collection of 17 documents |
+| Security | robust security measures ... latest security techniques n/a | WirelessHART employs robust security measures to protect the network and secure data at all times. |
+| Product description | Integrated Production Bundle (IPB) — flexible production riser featuring thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid t n/a | The IPB allows for high-level flow assurance of hydrocarbon fluids in difficult conditions from well heads to surface treatment units. The IPB is a flexible production riser that features thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers. |
+| Product type | Distributed Control System & Process Automation n/a | Experion® PKS: Distributed Control System & Process Automation |
+| Solution suites | Experion Solution Suites n/a | Experion Solution Suites listed in page navigation content |
+| Services | Cybersecurity Services; Industrial Services; Training n/a | Services section: Highly skilled OT cybersecurity consultants ... Modernize systems, optimize performance ... Honeywell Academy offers a variety of courses |
+| Industries | Oil and Gas; Refining and Petrochemicals; Onshore Production; Offshore Production; Gas Processing; LNG; Power; Water & Wastewater n/a | Industries navigation read from the page |
+| Version | V10.0 n/a | SIMATIC PCS 7 V10.0 boosts plant performance and security |
+| MTP startup improvement | 75 % faster startup | MTP integration for up to 75% faster startup |
+| Cybersecurity compliance | NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance n/a | NIS2-compliant cybersecurity; with full IEC 62443-4-1 and IEC 62443-3-3 compliance |
+| GMP features | GMP-ready audit trails and eSignatures n/a | GMP-ready audit trails and eSignatures |
+| I/O design | flexible I/O design; SIMATIC ET 200SP HA compact robust remote I/O n/a | flexible I/O design; A key solution is SIMATIC ET 200SP HA, a compact robust remote I/O designed for high availability |
+| Service | fast service via system ID n/a | fast service via system ID |
+| Supplementary features | TeleControl and Advanced Process Graphics n/a | Supplementary features, e.g. TeleControl and Advanced Process Graphics |
+| Installed base | in use in thousands of installations worldwide n/a | It is already in use in thousands of installations worldwide |
+| Digital assistants | SIMATIC eaSie voice/chatbot; Concept & Design Tool for cost estimation and BOMs n/a | SIMATIC eaSie enables intuitive interaction via voice or chatbot. Concept & Design Tool enables fast cost estimation and BOMs |
+| Product name | EPCON Dual Compact Flotation Unit n/a | Produced water treatment technology list: EPCON Dual Compact Flotation Unit |
+| Technology category | Compacted flotation for produced water treatment n/a | Achieve next-generation water treatment; produced water treatment technologies list |
+| Reference | EPCON CFU Compact Flotation Unit Technology Achieves Successful Oil-in-Water Separation, Oman n/a | Case study title printed on the Processing and Separation page |
+| Related technologies | VORTOILdeoiling hydrocyclone; WEMCO DEPURATOR Unit; WEMCO ISF Hydraulically Induced Gas Flotation System; WEMCO PACESETTER Separator; WEMCO SILVER BAND Separator; MOZLEY Desanding Hydrocyclone Separat n/a | Technology list under Produced water treatment and Solids Management |
+| Value proposition | separate and treat oil, water, and gas using minimal chemicals and energy n/a | Plan for the future with technologies that separate and treat oil, water, and gas using minimal chemicals and energy |
+| Global FPV application | >4 GW | With Over 4GW of Floating PV Application, We Set the Standard. >4GW Global Application |
+| Patents | 290 + | 290+ Patents |
+| Global market share | NO.1 n/a | NO.1 Global Market Share |
+| Reference capacity - Indonesia | 192 MW | Cases & Stories: Capacity 192 MW, Location Indonesia, Application Scenario Reservoir |
+| Reference capacity - Anhui coal mines | 200 MW | Major 200MW Floating Solar Plant Launched on Anhui's Former Coal Mines; Capacity 200 MW |
+| Reference capacity - Philippines | 4.99 MW | Philippines' First Megawatt-Scale Floating Solar Plant; Capacity 4.99 MW |
+| Reference capacity - France | 5 MW | Capacity 5 MW, Location France, Application Scenario Reservoir |
+| Products | Truss Structure Product TS30M; Pontoon Product PT60; Floating Barge n/a | Products for Utility Scale list |
+| Service network | 400+ Authorized Distributors; 520+ Service Outlets; 1000+ Technical Experts; 110,000 m2 warehouse total area n/a | Global Excellence In Service figures |
+| Deep-water claim | Breaking the 100-Meter Barrier: Floating Solar in Ultra Deep Water n/a | Breaking the 100-Meter Barrier: Floating Solar in Ultra Deep Water |
 
 
 ### Risers (fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing)
@@ -4083,6 +6019,202 @@ Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB /
 | Example project | 192 MW (Cirata, Indonesia) | Value as printed in the cited source; no further qualifier stated. |
 | installed base - refineries | 45 % | Value as printed in the cited source; no further qualifier stated. |
 | O&G processing plants | 500 plants (over) | Value as printed in the cited source; no further qualifier stated. |
+| Generator set power range | 15 - 3750 kVA kVA | 'We offer a diverse range of generator sets from 15 - 3750 kVA.' Cummins en-apac generators/diesel page, © 2026. |
+| Commercial genset start and load acceptance | Able to start and assume load in less than 10 seconds, and rated load in a single step seconds | 'Able to start and assume load in less than 10 seconds, and rated load in a single step, Cummins commercial generators are the epitome of rugged dependability.' |
+| Portfolio maximum 60 Hz | 3250 kWe | 'Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz).' |
+| Portfolio maximum 50 Hz | 4000 kVA | As above. |
+| Load factor standby / prime | 85% / 75% % | '85% load factor for standby applications and 75% for prime power'. |
+| Transient operation claim | Superior transient operation, industry leading load factors in extreme ambient conditions n/a | Wide range of applications / transient operation bullets. |
+| Sustainable fuel approval | Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO n/a | 'mtu Series 4000 and Series 1600 engines for power generation are approved to run on synthetic paraffinic diesel fuels in accordance with EN 15940, which includes the biofuel HVO'. |
+| Power range - mtu Series 4000 | 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 4000 POWER RANGE: 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe'. |
+| Power range - mtu Series 2000 | 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 2000 POWER RANGE: 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe'. |
+| Power range - mtu Series 1600 | 50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 1600 POWER RANGE: 50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe'. |
+| Power range - mtu Series 0080 - mtu Series 0225 | 50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe kVA / kWe | mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 0080 - mtu Series 0225 POWER RANGE: 50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe'. |
+| Version | 'SIMATIC PCS 7 V10.0 boosts plant performance and security' | 'SIMATIC PCS 7 V10.0 boosts plant performance and security' |
+| MTP integration startup improvement | 75 % | 'MTP integration for up to 75% faster startup' |
+| Cybersecurity compliance | 'full IEC 62443-4-1 and IEC 62443-3-3 compliance'; 'NIS2-compliant cybersecur... | 'full IEC 62443-4-1 and IEC 62443-3-3 compliance'; 'NIS2-compliant cybersecurity' |
+| GMP features | 'GMP-ready audit trails and eSignatures' | 'GMP-ready audit trails and eSignatures' |
+| Remote I/O | 'SIMATIC ET 200SP HA, a compact robust remote I/O designed for high availabil... | 'SIMATIC ET 200SP HA, a compact robust remote I/O designed for high availability' |
+| Installed base | 'already in use in thousands of installations worldwide' | 'already in use in thousands of installations worldwide' |
+| Case: vaccine production start-up | 5 months | 'BioNTech launches vaccine production in just 5 months with paperless, MES-integrated automation' |
+| Indonesia project capacity | 192 MW | 'Capacity 192 MW, Location Indonesia, Application Scenario Reservoir' (hydroelectric power station floating PV) |
+| Anhui project capacity | 200 MW | 'Major 200MW Floating Solar Plant Launched on Anhui's Former Coal Mines' |
+| Philippines project capacity | 4.99 MW | 'Capacity 4.99 MW, Location Philippines' |
+| France project capacity | 5 MW | 'Capacity 5 MW, Location France' |
+| Global floating PV application | 4 GW | 'With Over 4GW of Floating PV Application, We Set the Standard' |
+| Patents | 290 patents | '290 + Patents' |
+| Products listed | 'TS30M' (Truss Structure Product), 'PT60' (Pontoon Product), 'Floating Barge'... | 'TS30M' (Truss Structure Product), 'PT60' (Pontoon Product), 'Floating Barge' (Equipment Support System) |
+| Authorized distributors | 400 distributors | '400 + Authorized Distributors' |
+| Service outlets | 520 outlets | '520 + Service Outlets' |
+| Technical experts | 1000 experts | '1000 + Technical Experts' |
+| Warehouse area | 110000 m2 | '110,000 ㎡ Warehouse total area' |
+| Emissions reduced | "designed to significantly reduce emissions, including NOx, CO, CO2, and SOx"... | "designed to significantly reduce emissions, including NOx, CO, CO2, and SOx" (no percentages printed) |
+| Compression technologies considered | "Ejectors are one of the compression technologies we often consider" (also li... | "Ejectors are one of the compression technologies we often consider" (also liquid seal vessel, flare gas sweetening) |
+| Liquid seal design | "We use deep liquid seals that provide the necessary hydrostatic head, ensuri... | "We use deep liquid seals that provide the necessary hydrostatic head, ensuring reliable performance even under fluctuating conditions" |
+| Applications | "engineered for a wide variety of applications, from petroleum refineries to ... | "engineered for a wide variety of applications, from petroleum refineries to FPSO offshore platforms" |
+| Module power (headline maximum) | 670 W (up to) | "Up to 670 W Module Power" (headline) and "Maximum power boasts up to 670W" |
+| Module power (printed STC table maximum) | 660 W | Electrical Performance Parameters (STC Test) table lists LR7-72HYD-635M to LR7-72HYD-660M, Pmax 635-660 W — keep as separate printed value from headline 670 W |
+| Module efficiency | 24.8 % (up to) | "Up to 24.80 % Module Efficiency" / "Module efficiency of up to 24.8%" |
+| Product warranty | 12 years | "12 Years Product Warranty" |
+| Power warranty | 30 years | "30 Years Power Warranty"; "30-year full lifecycle linear degradation is 0.05 percentage points lower than conventional N-type products, Power increase 1.5% after 30 years" |
+| Open-circuit voltage at STC | 53.5-54.0 V | STC table LR7-72HYD-635M to -660M: Voc 53.50-54.00 V |
+| Short-circuit current at STC | 15.01-15.41 A | STC table: Isc 15.01-15.41 A |
+| Peak power voltage at STC | 44.36-44.85 V | STC table: Vmp 44.36-44.85 V |
+| Peak power current at STC | 14.32-14.72 A | STC table: Imp 14.32-14.72 A |
+| NOCT maximum power | 483.4-502.4 W | Electrical Performance Parameters (NOCT Test) table: Pmax 483.4-502.4 W |
+| Module weight | 33.5 kg | Mechanical Parameters: Weight 33.5kg |
+| Module dimensions | Mechanical Parameters: Size 2382×1134×30mm | Mechanical Parameters: Size 2382×1134×30mm |
+| Cell layout | 144 cells (6x24) | Mechanical Parameters: Layout 144（6×24） |
+| Junction box | Mechanical Parameters: "Split junction box, IP68, 3 diodes" | Mechanical Parameters: "Split junction box, IP68, 3 diodes" |
+| Packaging | Mechanical Parameters: "36pcs./pallet 144pcs./20GP 720pcs./40 HC" | Mechanical Parameters: "36pcs./pallet 144pcs./20GP 720pcs./40 HC" |
+| Maximum static load front | 5400 Pa | Mechanical Load Capacity: "Maximum static load on the front (such as snow and wind) 5400Pa" |
+| Maximum static load back | 2400 Pa | Mechanical Load Capacity: "Maximum static load on the back (such as wind) 2400Pa" |
+| Hail test | Mechanical Load Capacity: "Hail test Diameter 25 mm, impact speed 23 m/s" | Mechanical Load Capacity: "Hail test Diameter 25 mm, impact speed 23 m/s" |
+| Temperature coefficient Isc | 0.05 %/degC (+ value) | Temperature Coefficient (STC test): "Temperature coefficient of short circuit current (Isc) +0.05%/℃" |
+| Temperature coefficient Voc | -0.2 %/degC | Temperature Coefficient (STC test): "Temperature coefficient of open circuit voltage (Voc) -0.200%/℃" |
+| Temperature coefficient Pmax | -0.26 %/degC | Temperature Coefficient (STC test): "Temperature coefficient of peak power (Pmax) -0.260%/℃" |
+| Cell technology | "HPBC 2.0 Technology; Tairay silicon wafers + HPBC 2.0 cell technology"; "0BB... | "HPBC 2.0 Technology; Tairay silicon wafers + HPBC 2.0 cell technology"; "0BB design on the front" |
+| Registered products | 1000 products (over 1,000) | "a rich software platform that allows for the over 1,000 registered products to interoperate between various manufacturers of devices and control systems" |
+| Physical medium | "Fieldbus-based control systems employ two-wire twisted pair cable and provid... | "Fieldbus-based control systems employ two-wire twisted pair cable and provide intrinsically safe or non-incendive device power suitable for all hazardous areas" |
+| Control in the field | "FOUNDATION Fieldbus was designed from the ground up to enable control-in-the... | "FOUNDATION Fieldbus was designed from the ground up to enable control-in-the-field (CIF) strategies across the plant. This means that during a host system failure, field instruments can communicate directly with one another to maintain continued safe operations" |
+| Specification set | "FOUNDATION Fieldbus Technical Specifications ... includes the latest FOUNDAT... | "FOUNDATION Fieldbus Technical Specifications ... includes the latest FOUNDATION Fieldbus H1, High Speed Ethernet (HSE) and Physical Layer technical specifications" |
+| Deployment history | "Since the early '90s, FOUNDATION Fieldbus has been installed and running pro... | "Since the early '90s, FOUNDATION Fieldbus has been installed and running process plants across the globe" |
+| Cable voltage and type | 145 kV HVAC dynamic cable | "Nexans scope: turnkey design, manufacturing and installation of a 145 kV HVAC dynamic cable" |
+| Route length | 135 km (about) | "Route: about 135 km, Barrow Island to a floating Field Control Station, in one continuous length" |
+| Trenched cable length | 30 km | "Trenching of 30 km of cable"; "after installing 26 buoyancy modules and trenching 30 km of cable" |
+| Buoyancy modules installed | 26 modules | "Installation of 26 buoyancy modules, using a horizontal method developed by Nexans" |
+| VIV strakes installed | 200 m (about) | "Installation of about 200 meters of VIV (vortex-induced vibration) strakes in the Scarp section" |
+| Rock stabilization remaining | 28 km | "Rock stabilization along the last 28 km of the route" |
+| Project and publication date | News item 'Jansz-Io: Nexans Aurora completes subsea cable installation', date... | News item 'Jansz-Io: Nexans Aurora completes subsea cable installation', dated 20 November 2026; vessel left Australia 23 October 2026; final soak test planned February 2027 |
+| Maximum discharge pressure | 350 bar | Howden Periflow Performance: 'Up to 350 bar' |
+| Capacity flow | 10-20000 m3/hr | Howden Periflow: '10 to 20,000 m3/hr capacity flow' |
+| Variable speed range | 1000-6000 rpm | Howden Periflow: 'Variable speed from 1000 to 6000 rpm' |
+| Working principle | Howden: 'Periflow compressors use a profiled impeller wheel revolving in an a... | Howden: 'Periflow compressors use a profiled impeller wheel revolving in an annular channel to move the process gas in a swirling, helical pattern... Fully compliant with API, area protection requirements and site specifications' |
+| System identification | SLB page lists 'PureMEG MEG Reclamation and Regeneration System' and 'Mechani... | SLB page lists 'PureMEG MEG Reclamation and Regeneration System' and 'Mechanical Vapor Recompression for PureMEG System' among processing solutions |
+| rated_power_up_to | 10000 BHP | The KBB and KBV, Ariel's largest compressor frames, are rated up to 10,000 BHP |
+| rated_power_4_throw | 6668 BHP | Spec Sheet 4 Throw table: KBB/KBV Rated Power 6,668 |
+| rated_power_6_throw | 10000 BHP | Spec Sheet 6 Throw table: KBB/KBV Rated Power 10,000 |
+| stroke_KBB | 7.25 in | Spec Sheet, Stroke (in) KBB 7.25 / KBV 8.50 |
+| stroke_KBV | 8.5 in | Spec Sheet, Stroke (in) KBV 8.50 |
+| max_rpm_KBB | 900 rpm | Spec Sheet, Max RPM KBB 900 / KBV 750 |
+| max_rpm_KBV | 750 rpm | Spec Sheet, Max RPM KBV 750 |
+| piston_speed_KBB | 1088 not stated | Spec Sheet, Piston Speed 1,088 (KBB) / 1,063 (KBV), unit not printed |
+| piston_speed_KBV | 1063 not stated | Spec Sheet, Piston Speed 1,063 (KBV), unit not printed |
+| rod_diameter | 3.125 in | Spec Sheet, Rod Diameter (in) 3.125 |
+| total_rod_load | 190000 lbs | Spec Sheet, Total Rod Load (lbs) 190,000 |
+| tension_rod_load | 95000 lbs | Spec Sheet, Tension (lbs) 95,000 |
+| compression_rod_load | 100000 lbs | Spec Sheet, Compression (lbs) 100,000 |
+| average_weight_4_throw | 79000 lbs | Spec Sheet 4 Throw, Average Weight (lbs) 79,000 |
+| average_weight_6_throw | 115000 lbs | Spec Sheet 6 Throw, Average Weight (lbs) 115,000 |
+| max_length_4_throw | 144 in | Spec Sheet 4 Throw, Max Length (in) 144 |
+| max_length_6_throw | 188 in | Spec Sheet 6 Throw, Max Length (in) 188 |
+| nominal_width | 228 in | Spec Sheet, Nominal Width (in) 228 |
+| crankshaft_centerline | 27 in | Spec Sheet, Crankshaft Centerline (in) 27 |
+| crankcase_material | Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, bronze thrust bearing, tri-metal main bearing n/a | Materials section (printed verbatim) |
+| crosshead_material | Ductile Iron Crosshead: Alloy steel crosshead pin n/a | Materials section (printed verbatim) |
+| connecting_rod_material | Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts n/a | Materials section (printed verbatim) |
+| applications | pipeline transmission and high-pressure injection; N+1 station design with 100% compression capacity n/a | Product description: recommended for pipeline transmission and high-pressure injection applications; N+1 station design |
+| destruction_efficiency | 99.5-? % | Low Emissions: This system has demonstrated the highest destruction efficiency (typically > 99.5%) of any flare type |
+| smokeless_operation | 100% smokeless operation at high flow rates n/a | Smokeless Performance: Design is capable of producing 100% smokeless operation at high flow rates |
+| standard | Available API 537 Compliance n/a | Available API 537 Compliance: Ensures compliance with the latest Industry flare standards |
+| technology | High pressure technology with staging allows smokeless operation for the full range of flows n/a | Smokeless Performance feature |
+| installed_device_count | 40000000 devices | HART is by far the largest digital communications technology deployed in the process industries with over 40 million field instruments supporting HART technology installed worldwide |
+| specification_documents | 17 documents | The HART Protocol Specifications kit is a collection of 17 documents that specify the different aspects of the protocol and test procedures for field devices |
+| application_environment | hostile environments, both subsea and downhole; suitable for deepwater and high-pressure, high-temperature wellhead and downhole applications n/a | Our connectors are designed and manufactured primarily for use in hostile environments... Suitable for deepwater and high-pressure, high-temperature wellhead, and downhole applications |
+| sealing_system | Dual-barrier system provides best-in-class mechanical and electrical sealing n/a | Product feature bullet |
+| design_experience | 20 years | Over 20 years, our highly skilled engineers have provided leading-edge design and development expertise |
+| characteristic | High-pressure resistant n/a | Page bullet: High-pressure resistant (no numeric ratings printed) |
+| Suction pressure | 25 bar / psig | Suction Pressure: 370 psig (25 bar) |
+| Discharge pressure | 500 bar / psig | Discharge Pressure: 7,250 psig (500 bar) |
+| Flow at design point | 250 kg/hr | Flow at design point: 250 kg/hr |
+| Number of stages | 4 n/a | Number of Stages: 4 |
+| Stroke | 4.25 in | Stroke: 4.25 in (108 mm) |
+| Stroke (metric) | 108 mm | Stroke: 4.25 in (108 mm) |
+| Max RPM | 1000 rpm | Max RPM: 1,000 |
+| Lubrication | Non-lubricated Cylinders n/a | The compressor is designed to be non-lubricated to maintain high gas purity |
+| Orientation | Vertical Orientation n/a | vertically oriented reciprocating compressor designed for the hydrogen mobility market |
+| Discharge pressure (product sheet) | 500 barg | 7,250 psig (500 barg) for trailer filling, hydrogen mobility, and other ... |
+| System version | SIMATIC PCS 7 V10.0 n/a | SIMATIC PCS 7 V10.0 boosts plant performance and security with NIS2-compliant cybersecurity |
+| Startup time improvement | ?-75 % | MTP integration for up to 75% faster startup |
+| Rated power, 1 throw JGN | 126 BHP | Spec Sheet: 1 Throw JGN Rated Power 126 |
+| Rated power, 1 throw JGQ | 140 BHP | Spec Sheet: 1 Throw JGQ Rated Power 140 |
+| Stroke, 1 throw JGN / JGQ | 3.5 / 3.0 in | Stroke (in) 3.5 / 3.0 (1 throw) |
+| Max RPM, 1 throw JGN / JGQ | 1,500 / 1,800 rpm | Max RPM 1,500 / 1,800 (1 throw) |
+| Piston speed, 1 throw | 875 / 900 ft/min (printed as Piston Speed) | Piston Speed 875 / 900 (1 throw) |
+| Rod diameter, 1 throw | 1.125 in | Rod Diameter (in) 1.125 |
+| Total rod load, 1 throw | 18,000 / 20,000 lbs | Total Rod Load (lbs) 18,000 / 20,000 (JGN/JGQ) |
+| Tension load, 1 throw | 9,000 / 10,000 lbs | Tension (lbs) 9,000 / 10,000 |
+| Compression load, 1 throw | 10,000 / 11,000 lbs | Compression (lbs) 10,000 / 11,000 |
+| Average weight, 1 throw | 1400 lbs | Average Weight (lbs) 1,400 |
+| Max length, 1 throw | 37 in | Max Length (in) 37 |
+| Nominal width, 1 throw | 62 in | Nominal Width (in) 62 |
+| Crankshaft centerline, 1 throw | 9.25 in | Crankshaft Centerline (in) 9.25 |
+| Rated power, 2 throw JGN / JGQ | 252 / 280 BHP | Spec Sheet: 2 Throw Rated Power 252 / 280 |
+| Stroke, 2 throw JGN / JGQ | 3.5 / 3.0 in | Stroke (in) 3.5 / 3.0 (2 throw) |
+| Max RPM, 2 throw JGN / JGQ | 1,500 / 1,800 rpm | Max RPM 1,500 / 1,800 (2 throw) |
+| Total rod load, 2 throw | 18,000 / 20,000 lbs | Total Rod Load (lbs) 18,000 / 20,000 (2 throw) |
+| Average weight, 2 throw | 2200 lbs | Average Weight (lbs) 2,200 |
+| Max length, 2 throw | 34 in | Max Length (in) 34 |
+| Nominal width, 2 throw | 83 in | Nominal Width (in) 83 |
+| Frame horsepower range | 250-280 BHP | The rugged characteristics in these two frames (250-280 BHP) |
+| Materials - crankcase | Gray Iron; forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing n/a | Materials: Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing |
+| Materials - crosshead | Ductile Iron; alloy steel crosshead pin n/a | Materials: Ductile Iron Crosshead: Alloy steel crosshead pin |
+| Materials - connecting rod | Forged Steel; bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts n/a | Materials: Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts |
+| Overall flow envelope | up to 600,000 m3/h n/a | Howden offers a comprehensive range of Industrial Centrifugal Turbo Compressors up to 600,000 m3/h |
+| Experience | over 100 years and 4000 installations n/a | Customizable Centrifugal Turbo Compressors proven over 100 years and 4000 installations |
+| SF model flow | 15000-600000 m3/h | Single stage table: SF Flow 15,000-600,000 |
+| SF pressure ratio | up to 3.5 n/a | SF Pressure Ratio up to 3.5 |
+| SF impeller diameter | up to 2240 mm | SF Impeller Dia. (mm) up to 2240 |
+| SFG model flow | 5000-300000 m3/h | SFG Flow 5,000-300,000 |
+| SFG pressure ratio | up to 3.5 n/a | SFG Pressure Ratio up to 3.5 |
+| SFG impeller diameter | up to 1120 mm | SFG Impeller Dia. up to 1120 |
+| ST model flow | 1500-150000 m3/h | ST Flow 1,500-150,000 |
+| ST pressure ratio | up to 3.5 n/a | ST Pressure Ratio up to 3.5 |
+| ST impeller diameter | up to 900 mm | ST Impeller Dia. up to 900 |
+| ST drive | Steam turbine (integrated) n/a | ST Drive: Steam turbine (integrated) |
+| SL model flow | 15000-450000 m3/h | SL Flow 15,000-450,000 |
+| SL pressure ratio | up to 1.45 n/a | SL Pressure Ratio up to 1.45 |
+| SL impeller diameter | up to 1800 mm | SL Impeller Dia. up to 1800 |
+| SFG Back-to-Back flow | 3000-75000 m3/h | SFG Back-to-Back Flow 3,000-75,000 |
+| SFG Back-to-Back pressure ratio | up to 6.0 n/a | SFG Back-to-Back Pressure Ratio up to 6.0 |
+| SFG Twin flow | 3000-200000 m3/h | SFG Twin Flow 3,000-200,000 |
+| SFG Twin pressure ratio | up to 6.0 n/a | SFG Twin Pressure Ratio up to 6.0 |
+| RS flow | 400-65000 m3/h | RS Flow 400-65,000 |
+| RS pressure ratio | up to 10.0 n/a | RS Pressure Ratio up to 10.0 |
+| RV flow | 400-85,000; 400-170,000 (back-to-back) m3/h | RV Flow 400-85,000 / 400-170,000 (back-to-back) |
+| RV pressure ratio | up to 10.0 n/a | RV Pressure Ratio up to 10.0 |
+| RV impeller diameter | up to 780 mm | RV Impeller Dia. up to 780 |
+| KK&K pressure rise | up to 3.5 single stage; 6 multistage; flows up to 600,000 m3/h n/a | Available as single stage and multistage the compressors can serve high flow requirements up to 600,000 m3/h and pressure rise of up to 3.5 within a single stage or 6 for multistage |
+| CKD flow and discharge | up to 1,700,000 m3/h; discharge pressures up to 20 MPa n/a | the compressors can serve flow requirements up to 1700,000 m3/h and discharge pressures of up to 20 MPa |
+| SFO/SFP/SFN pressure | up to 50 bar; flow rates up to 200,000 m3/hr n/a | Single and multi-stage turbo compressors ... with pressures up to 50 bar and flow rates up to 200,000 m3/hr |
+| Models | TFC90 and TFC180 n/a | Howden's TFC90 and TFC180 are standardized diaphragm compressor packages specifically designed for hydrogen applications |
+| Electrolyzer module compatibility | 5 MW and 10 MW n/a | Designed for 5 MW and 10 MW electrolyzer modules |
+| Package configuration | skid-mounted; all process equipment, piping and auxiliary systems in a single package n/a | These skid-mounted compressors include all process equipment, piping and auxiliary systems in a single package |
+| Gas purity | Absolute cleanliness of compressed hydrogen n/a | Key Features: Absolute cleanliness of compressed hydrogen |
+| Leakage | Zero leakage of process gas to the environment n/a | Zero leakage of process gas to the environment |
+| Reliability | Proven performance and guaranteed high reliability n/a | Proven performance and guaranteed high reliability |
+| Diaphragm compressor invention | 1916 year | The Howden diaphragm compressor was invented in 1916 by Henri Corblin |
+| Hybrid compressor stages | up to five compression stages; pressure increases up to 450 bar n/a | available in horizontal or vertical configurations of up to five compression stages, offering pressures increases of to 450 bar |
+| Reciprocating compressor rating | rated to 20 MW and operating between 260 and 1,000 rpm n/a | Reciprocating gas compressors rated to 20MW and operating between 260 and 1,000 rpm |
+| Hydrogen Holland project compressor | 5-stage piston reciprocating, 4250 kW induction motors, 21,000 Nm3/hr wet H2 at 1.2 bara, final pressure 55 bara n/a | 5-stage piston reciprocating compressors; Drive: 4250 kW induction motors; Flow: 21.000 Nm3/hr of wet hydrogen at 1.2 bara; Final pressure 55 bara |
+| Installation cost saving | 30-60 % lower than wired instruments | WirelessHART offers 30%-60% lower installation costs than adding traditional wired instruments |
+| Network topology | mesh networking; each device can serve as a router n/a | WirelessHART using mesh networking technology. Each device in a mesh network can serve as a router for messages from other devices |
+| Network elements | Wireless field devices, gateways, Network Manager n/a | Each WirelessHART network includes three main elements |
+| Network Manager functions | configures network, schedules communications, manages message routes, monitors network health n/a | A Network Manager is responsible for configuring the network, scheduling communications between devices, managing message routes, and monitoring network health |
+| Messaging modes | one-way publishing, spontaneous exception notification, ad-hoc request/response, auto-segmented block transfers n/a | the WirelessHART standard supports multiple messaging modes including one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers |
+| Security | robust security measures; latest security techniques n/a | WirelessHART employs robust security measures to protect the network and secure data at all times |
+| Compatibility | adds wireless to HART while maintaining compatibility with existing HART devices, commands, and tools n/a | It adds wireless capabilities to HART technology while maintaining compatibility with existing HART devices, commands, and tools |
+| Registration | FieldComm Group Product Registry tests conformance to standards for interoperability and functionality n/a | Products that carry the registration mark(s) have been tested in our lab to ensure conformance to the standards |
+| Product names | WEMCO PACESETTER Separator; WEMCO SILVER BAND Separator; MOZLEY Desanding Hydrocyclone Separator n/a | Technology list printed under produced water / solids management on the Processing and Separation page |
+| Related WEMCO equipment | WEMCO DEPURATOR Unit; WEMCO ISF Hydraulically Induced Gas Flotation System n/a | Produced water treatment technology list |
+| Related MOZLEY equipment | MOZLEY FLUIDIZER Settled Solids Remover; MOZLEY Wellhead Desander Solids Removal System n/a | Solids Management technology list |
+| Process positioning | separate and treat oil, water, and gas using minimal chemicals and energy n/a | Plan for the future with technologies that separate and treat oil, water, and gas using minimal chemicals and energy |
+| Product type | proprietary flexible production riser n/a | The IPB allows for high-level flow assurance of hydrocarbon fluids in difficult conditions from well heads to surface treatment units. The IPB is a flexible production riser |
+| Features | thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, fluid temperature monitoring with optical fibers n/a | features thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers |
+| Flexible pipe construction | leakproof thermoplastic barriers and corrosion-resistant steel wires, helically wound n/a | The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires. The helically wound steel wires give the structure its high-pressure resistance |
+| Performance | high-pressure resistance, excellent bending characteristics, flexibility, superior dynamic performance n/a | providing flexibility and superior dynamic performance |
+| Retrievability | can be easily retrieved to be reused on another field development or for decommissioning n/a | flexible pipe can be easily retrieved to be reused on another field development or for decommissioning |
+| Related riser | Freestanding Hybrid Riser (FSHR): vertical steel pipe tensioned by near-surface buoyancy can, flexible jumper, rigid base jumper n/a | Freestanding Hybrid Riser section |
 
 
 ### Separators (fl-separators-2-3-phase-horizontal-vertical-spherical-compact-in-46519c)
@@ -4108,6 +6240,17 @@ Vendors: SLB (Cameron pressure control equipment), SLB OneSubsea (SLB / Aker Sol
 | Vessel orientation | Horizontal or vertical - | Product specifications | Horizontal or vertical orientation of vessels |
 | Service rating | Sweet or sour service rated - | Product specifications | Sweet or sour service rated |
 | Design code / sour service | ASME Section VIII, Division 1 and NACE MR0175 for H2S environments - | The 3-phase separator is built in compliance with ASME Section VIII, Division 1 and NACE MR0175 for H2S environments. |
+| Service and mounting | "Skid-mounted or trailer-integrated designs"; "Sweet or sour service rated"; ... | "Skid-mounted or trailer-integrated designs"; "Sweet or sour service rated"; "On-skid piping and instrumentation"; "Dedicated measurement for gas, oil, and water"; "Electronic flowmeter (EFM) for accurate real-time reporting capability" |
+| Publication date | SLB product detail page 'Published: 10/22/2022' | SLB product detail page 'Published: 10/22/2022' |
+| Vessel orientation / service | SLB Cameron: 'Horizontal or vertical orientation of vessels'; 'Sweet or sour ... | SLB Cameron: 'Horizontal or vertical orientation of vessels'; 'Sweet or sour service rated'; 'Skid-mounted or trailer-integrated designs' |
+| Separated streams / measurement | SLB Cameron: 'separate oil, water, gas, and sometimes solids (sand) into indi... | SLB Cameron: 'separate oil, water, gas, and sometimes solids (sand) into individual streams for more accurate measurement and discharge control'; 'Dedicated measurement for gas, oil, and water'; 'Electronic flowmeter (EFM)' |
+| Function | Separates well effluent into three phases—oil, gas, and water—for well testing n/a | Separate well effluent into three phases—oil, gas, and water—for well testing |
+| Vessel type | instrumented vessel n/a | The 3-phase separator is an instrumented vessel that separates well effluent into three phases |
+| Development application | land fracturing flowback and well test operations n/a | It was developed for land fracturing flowback and well test operations |
+| Design code | ASME Section VIII, Division 1 n/a | built in compliance with ASME Section VIII, Division 1 and NACE MR0175 for H2S environments |
+| Sour service | NACE MR0175 for H2S environments n/a | NACE MR0175 for H2S environments |
+| Safety | Multiple pressure safety valves contain and direct flow to a designed safe area on overpressurization n/a | Multiple pressure safety valves contain and direct flow to a designed safe area in the event of vessel overpressurization |
+| Bypass valves | unique offering from M-I SWACO in a three-phase separator unit n/a | Bypass valves, a unique offering from M-I SWACO in a three-phase separator unit, enable operators to move effluent into containment areas for maintenance without shutting in the well |
 
 
 ### Separators (fl-separators-2-3-phase-horizontal-vertical-spherical-compact-in)
@@ -4163,6 +6306,23 @@ Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solution
 | Maintenance-free life | 30 yr | Benefits callout: '30 yrs / Maintenance-free life' |
 | Water depth | ?-1500 m | Benefits callout: '↓ 1500m / Water depth' |
 | Mating | Wet-mate-only cable connections; seabed-resident, reconnection without retrieval n/a | Overview: 'Subsea junction boxes offer versatile, wet-mate-only cable connections on the seafloor.' |
+| Umbilical length delivered (as printed) | 0 km | 'We have delivered more than 0 km of subsea umbilical control systems' - figure printed as 0; retained verbatim as a conflict/likely placeholder |
+| Product families | 'Steel Tube umbilical', 'Thermoplastic umbilical', 'Power umbilical', 'IWOCS ... | 'Steel Tube umbilical', 'Thermoplastic umbilical', 'Power umbilical', 'IWOCS umbilical' |
+| Junction plates | 'M Series junction plates with fixed, configurable, and removable assemblies' | 'M Series junction plates with fixed, configurable, and removable assemblies' |
+| Flying leads | 'Modular designs for hydraulic, electro-hydraulic, and hybrid applications'; ... | 'Modular designs for hydraulic, electro-hydraulic, and hybrid applications'; 'primary conduit section—typically steel tubes or thermoplastic hoses' |
+| UTA features | 'Configurable side panels offer hydraulic, electrical, and fiber optic connec... | 'Configurable side panels offer hydraulic, electrical, and fiber optic connectivity solutions' |
+| Applications | 'designed to support global deepwater applications'; 'array and export cables... | 'designed to support global deepwater applications'; 'array and export cables for the renewable energy market' |
+| Connection type | 'versatile, wet-mate-only cable connections on the seafloor'; 'Seabed-residen... | 'versatile, wet-mate-only cable connections on the seafloor'; 'Seabed-resident wet-mate technology for reconnections without retrieval' |
+| Topology | 'can enable radial connections of turbines' avoiding daisy-chain topology cha... | 'can enable radial connections of turbines' avoiding daisy-chain topology challenges |
+| Umbilical product types | 4 families | Steel Tube Umbilicals, Thermoplastic Hose Umbilicals, Power Umbilicals, IWOCS Umbilicals listed |
+| Steel tube umbilical function | "Inherently strong solutions for hydraulic control and chemical injection" | "Inherently strong solutions for hydraulic control and chemical injection" |
+| Power umbilical function | "Integrated solutions providing electric power and communications to subsea i... | "Integrated solutions providing electric power and communications to subsea infrastructure" |
+| IWOCS umbilical function | "Providing temporary hydraulic connections, electrical power/control, and che... | "Providing temporary hydraulic connections, electrical power/control, and chemical supply" |
+| M Series junction plates | "fixed, configurable, and removable assemblies ... support chemical injection... | "fixed, configurable, and removable assemblies ... support chemical injection by preventing well blockage, supply hydraulic power to open and close subsea mounted valves, and facilitate well annulus pressure monitoring"; "patented, and pre-threaded latch mating system" |
+| Hydraulic flying leads | "Modular designs for hydraulic, electro-hydraulic, and hybrid applications; B... | "Modular designs for hydraulic, electro-hydraulic, and hybrid applications; Bundled or extruded conduit sections; ROV-friendly" |
+| Configuration | Modular and self-contained; scalable in length to accommodate desired number of connection points n/a | Modular and self-contained, our subsea junction boxes are scalable in length |
+| Reconnection | Seabed-resident wet-mate technology for reconnections without retrieval of the junction box n/a | Seabed-resident wet-mate technology for reconnections without retrieval of the junction box |
+| Topology benefit | enables radial connections of turbines; solves daisy-chain topology challenges n/a | The subsea junction box can enable radial connections of turbines. This solves the daisy chain topology challenges |
 
 
 ## flare
@@ -4221,6 +6381,9 @@ Vendors: GE (Prelude compressor trains, secondary source not read) (1 model line
 | --- | --- | --- |
 | Marine cargo insurance certificate / p — fixed stamp duty for cargo insurance documents | 10 RM (fixed) | HASiL Guideline LHDN.AG.600-1/10/3 printed 30 June 2026, section G: 'dikenakan duti secara amnya RM10' with section 4.11 listing Cargo Insurance Certificate, Cargo Insurance Policy, Certificate of Insurance Marine Cargo Policy (Export), Marine Cargo Insurance Certificate and Marine Declaration Cum Certificate of Insurance. |
 | GE Frame 6FA gas turbines and generato — number of gas turbines supplied | 3 units | GE press release 14 June 2011: three Frame 6FA gas turbines, associated generators and services for 300 MW CCGT in Sabah; 'expected to be shipped in the first quarter of 2012, with commercial operation scheduled to begin in the fourth quarter of 2013'. No freight cost printed. |
+| project_capacity | 300 MW | Kimanis Power Project to Add 300 Megawatts of Electricity for the State of Sabah (press release subheading) |
+| service_agreement_duration | 18 years | CSA to Provide 18 Years of Service Support for the Plant |
+| turbine_model | Frame 6FA n/a | GE's Frame 6FA gas turbine technology previously was applied to the Ranhill Powertron II plant, also located in Sabah |
 
 - **GE (Prelude compressor trains, secondary source not read)** GE Frame 6FA gas turbines and generators (shipped to Kimanis): GEG freight/installation reference
 
@@ -4253,6 +6416,15 @@ Vendors: INNIO Jenbacher, Everllence, Woodward, AERZEN (Aerzener Maschinenfabrik
 | Volume flow | 50-38000 m³/h | Product page Technical data; positive displacement blower, 1 or 2 stage |
 | Differential pressure | 150-2000 mbar | Product page Technical data |
 | Conveying | oil-free; medium process gases; magnetic-coupling sealing; two-lobe gas-tight rotors qualitative | Product page advantages/technical data |
+| Differential pressure (delta p) | 150-2000 mbar | Differential pressure (Δp): 150 to 2,000 mbar |
+| Number of stages | 1 or 2 stage design n/a | 1 or 2 stage design, with separate pressurised oil lubrication |
+| Medium | Process Gases n/a | Medium: Process Gases |
+| Lubrication | separate pressurised oil lubrication, oil-free gas transport n/a | separate pressurised oil lubrication for the oil-free transport and compression of air, neutral gases, and gas mixtures |
+| Drive | direct-drive n/a | The direct-drive GM-HP blowers from AERZEN are high-performance machines |
+| Sealing system | low-maintenance magnetic coupling n/a | Low-maintenance sealing system with magnetic coupling for low operating costs |
+| Rotor design | robust two-lobe rotor, gas-tight sealed n/a | Robust two-lobe rotor design (gas-tight sealed) for maximum durability |
+| Materials | Variety of materials for compatibility with almost all gases n/a | Variety of materials for compatibility with almost all gases |
+| Applications | Compression of H2 and CH mixtures; acetylene; ethylene; lime kiln gas; rich gas; synthesis raw gas; butadiene; vinyl chloride; hydrogen sulphide; hydrogen; hydrocracking; hydrosulphurisation; fraction n/a | Applications list printed on the product page |
 
 
 Recorded gaps:
@@ -4318,6 +6490,98 @@ Vendors: Wärtsilä, PT Pembangunan Perumahan (Persero) Tbk (PT PP), EPV Energy 
 | Cummins natural gas generator sets (HS — Generator set power range | 13-2000 kW (16.25-2500 kVA) | Cummins 'Natural gas generators' page: 'ranging from 13-2000 kW (16.25-2500 kVA)'. Page footer (c) 2026 Cummins Inc.; accessed 2026-11-25. |
 | Cummins natural gas generator sets (HS — Standby rating, 1000kW and 1300kW natural gas gensets | 1000-1300 kW (1250-1625 kVA) | Cummins product card on the page actually read: '1000-1300 kW / 1250-1625 kVA / Frequency 50, 60 / Standby'. Page footer (c) 2026 Cummins Inc.; accessed 2026-11-25. |
 | GE (historical Jenbacher gas engine br — GE Energy Jenbacher J920 electrical efficiency (archived GE claim cited by Wikipedia) | 48.7 % | Wikipedia 'Jenbacher' article states 48.7% and cites archived GE Energy pages (gepower.com/prod_serv/products/recip_engines/en/j920.htm archived 2011-01-02; ge-j920gasengine.com archived 2011-03-14). Only the Wikipedia page was read; archived GE pages were not fetched. Page last edited 15 June 2026. |
+| G3512K continuous rating (web page, 1.0 pf) | 1530 ekW @ 1.0pf | Cat K-series page product card: 'Continuous Rating 1530 ekW @ 1.0pf ... Maximum Electrical Efficiency 45.3%'. No print date on page. |
+| G3520K continuous rating (web page, 1.0 pf) | 2567 / 2552 ekW @ 1.0pf | Cat K-series page product card: 'Continuous Rating 2567 / 2552 ekW @ 1.0pf ... Maximum Electrical Efficiency 46.0%'. |
+| G3512K continuous rating (leaflet, 0.8 pf) | 1530 / 1502 ekW @ 0.8pf | Leaflet p.8: 'G3520K Continuous Rating 2536/2520 ekW @ 0.8pf | G3512K Continuous Rating 1530/1502 ekW @ 0.8pf' - conflicting power-factor basis vs web card; preserved separately. LEYE23176-02 (11-2025). |
+| G3520K continuous rating (leaflet, 0.8 pf) | 2536 / 2520 ekW @ 0.8pf | Leaflet p.8, same line as G3512K; preserved as separate variant from web 2567/2552 @1.0pf. LEYE23176-02 (11-2025). |
+| Maximum electrical efficiency - G3512K | 45.3 % | Cat K-series web page product card 'Maximum Electrical Efficiency 45.3%'. |
+| Maximum electrical efficiency - G3520K | 46.0 % | Cat K-series web page product card 'Maximum Electrical Efficiency 46.0%'. |
+| Total efficiency in CHP (web page) | 90 % (approaches) | 'approach 90% total efficiency in Combined Heat and Power (CHP) applications'; thermal efficiency improvement 2.8%. |
+| Total generator set efficiency (leaflet) | 89.6 % | Leaflet p.4-5: 'total efficiency of up to 89.6%'; footnote '* Total generator set efficiency of 89.6% running at 500 mg Nox, 50 Hz, JW 88C'. |
+| Methane number without derate | 60 MN | 'can run down to methane NR 60 without derate' (web); leaflet p.3 'can run down to 60 methane number without derate'. |
+| Hydrogen blending | 25 % by volume | '25% hydrogen blends*' ... '* These fuels will be available later in 2026.' (web and leaflet p.3). |
+| Start to 100% load time | 4.5 minutes | 'They start and accept 100% load in 4.5 minutes' (web); leaflet p.8: 'G3512K 4.5 MINUTES / G3520K 4.5 MINUTES' * Start and 100% full load time. |
+| Application power band | 1.5 - 2.5 eMW eMW | 'For 1.5 - 2.5 eMW Applications' (web and leaflet cover). |
+| Thermal efficiency improvement | 2.8 % (web) / 2.8 %-p (leaflet G3520K 60Hz) | Web: 'increased thermal efficiency (a 2.8% improvement)'; leaflet p.9: '2.8 %-p THERMAL EFFICIENCY G3520K 60 HZ'. |
+| Higher altitude capability | 70 % (leaflet) | Leaflet p.7: '70% HIGHER ALTITUDE CAPABILITY READY FOR EXTREMES'. Web: 'perform at higher altitudes ... than previous models'. |
+| Higher ambient temperature capability | 10 % (leaflet) | Leaflet p.7: '10% HIGHER AMBIENT TEMPERATURE CAPABILITY'; web: 'higher ambient temperatures than previous models'. |
+| Faster load acceptance | 40 % (leaflet) | Leaflet p.6/8: 'reach full load capacity 40% faster, with G2 transient capability' / '40% MORE RESPONSIVE FASTER STARTUP AND LOAD ACCEPTANCE'. |
+| Grid code fault ride-through tests | 700 tests (over) | Leaflet p.5: 'we have performed over 700 fault ride through tests' to confirm compliance with main grid codes worldwide. |
+| Natural gas genset overall range | 13 - 2000 kW (16.25 - 2500 kVA) kW / kVA | 'These fully integrated generator sets, ranging from 13-2000 kW (16.25-2500 kVA) ...' Cummins natural gas page. |
+| HSK78G frequency | 50, 60 Hz | HSK78G product page: 'Frequency 50, 60 Hz'. |
+| HSK78G continuous rating | 1550 - 2000 kW | HSK78G: Continuous 1550-2000 kW / 1938-2500 kVA; Data Center Continuous 1550 kW / 1938 kVA. |
+| HSK78G peak electrical efficiency 50 Hz | 44.2 % | 'Peak electrical efficiency up to 44.2% (50 Hz) and 43.5% (60 Hz)' - ISO basis; per-model table 43.8/44.3/44.2 (50 Hz) and 43.2/43.6/43.5 (60 Hz). |
+| HSK78G peak electrical efficiency 60 Hz | 43.5 % | As above, HSK78G product highlights. |
+| HSK78G minimum methane number | 70 (pipeline NG at rated load); down to 40 MN high power density; table 55/60/70 MN | 'Operates on pipeline natural gas down to 70 methane number (MN) at rated load'; 'High power density down to 40MN fuels'; table min MN 55/60/70 per model. Conflicting variants preserved. |
+| HSK78G NOx emissions | 250 (0.5 g/hp-hr) mg/Nm3 | 'NOx emissions as low as 250 mg/Nm3 (0.5 g/hp-hr) without aftertreatment'; table NOx 250-500 mg/Nm3 (50 Hz) / 0.5-1.0 (60 Hz). |
+| HSK78G thermal efficiency CHP | 47.1 % | 'Thermal efficiency up to 47.1% for CHP/cogeneration applications'; table usable heat 1740/1901/2077 kW (50 Hz), 1752/1912/2088 kW (60 Hz). |
+| HSK78G overhaul interval | 80000 hours | 'Industry-leading overhaul intervals up to 80,000 hours' / 'Industry's longest major overhaul service cycle of 80,000 hours'. |
+| HSK78G ambient capability | 40 C standard / 55 C high-ambient turbo deg C | 'Up to 55 C (131 F) ambient capability with high-ambient turbo option'; 'Full power capability up to 40 C (104 F) with standard turbo ... up to blistering 55 C (131 F) with high ambient turbo'. |
+| HSK78G dimensions 50 Hz | 6.9 x 2.2 x 2.8 m (L x W x H) | HSK78G specifications table (C1600N5CD/C1800N5CD/C2000N5CD): 'Dimensions (m) (L X W X H) 6.9 x 2.2 x 2.8'. |
+| HSK78G dimensions 60 Hz | 7.6 x 2.1 x 2.8 m (L x W x H) | HSK78G specifications table (C1600N6CD/C1800N6CD/C2000N6CD): 'Dimensions (m) (L X W X H) 7.6 x 2.1 x 2.8'. |
+| HSK78G temperature rise | 80 - 105 deg C | HSK78G specifications table: 'Temperature Rise (Deg. C) 80 - 105'. |
+| 1000/1300 kW QSK60G standby rating | 1000 - 1300 kW | 1000 kW and 1300 kW Natural Gas Gensets: Standby 1000-1300 kW / 1250-1625 kVA; Continuous 1100-1540 kW / 1375-1925 kVA; 50/60 Hz. |
+| QSK60G start time | 10 seconds | 'Gensets meet 10-second start with UL2200 and CSA22.2 listings.' |
+| QSK60G cooling capability | 45 deg C | 'Cooling capability up to 45C (Radiator)' and 'NFPA 110 type 10 capable; Single step load acceptance'. |
+| GTA50e standby rating | 600 - 750 kW (750-937 kVA) | GTA50e: 'Frequency 60 Hz; Standby 600-750 kW / 750-937 kVA'; models C600N6 600/750, C650N6 650/813, C750N6 750/937. |
+| GTA50e load acceptance | Accepts 100% rated load in a single step n/a | GTA50e product highlights; 'Capable of meeting NFPA 110 Type 10 ...' EPA SI NSPS Certified, UL 2200, CSA 22.2 No. 100. |
+| J920 FleXtra power | up to 9.5 MW (12,915 PS) MW / PS | Wikipedia: 'a V20 gas engine delivering up to 9.5 MW (12,915 PS)'. Secondary source; cited to archived GE page. |
+| J920 FleXtra electrical efficiency | 48.7 % | 'When it is put into production it will be Jenbachers most efficient gas engine available with an electrical efficiency of 48.7%'. |
+| J920 FleXtra CHP thermal efficiency | > 90 % | 'and a combined heat and power (CHP) thermal efficiency of over 90%'. |
+| Ownership timeline | Founded 1959; acquired by General Electric 2003; became part of INNIO Nov 2018 n/a | Wikipedia company history; 'GE (historical Jenbacher gas engine brand, 2003-2018)' corresponds to the GE ownership period. |
+| Combustion technology | Otto cycle, industrial spark plugs; smaller models stoichiometric, larger lean-burn with prechamber ignition; Miller cycle and two-stage turbocharging on J920 n/a | Wikipedia 'Company profile and products' and 'Jenbacher J920 FleXtra' sections (some statements carry citation-needed tags). |
+| Fuels | natural gas, landfill gas, sewage gas, biogas, mine gas, coal gas, syngas and hydrogen n/a | Wikipedia: 'Jenbacher engines run on natural gas, landfill gas, sewage gas, biogas, mine gas, coal gas, syngas and hydrogen.' |
+| Electrical efficiency range of Jenbacher gas engines | 40 - 50 % | 'Jenbacher reciprocating gas engines with electrical efficiency usually ranging between 40% and 50%'. |
+| Application power range | less than 1 MW to up to 100 MW; 190 MW CHP project (Stadtwerke Kiel) MW | 'from food and beverage applications that use less than 1 MW to industrial segments of up to 100 MW. And then there are even bigger projects ... 190 MW project for the Stadtwerke Kiel in Germany ... Jenbacher J920 FleXtra gas engines.' |
+| Type 2 maximum power | 361 kW/engine | Site navigation: 'Jenbacher Type 2 Up to 361 kW/engine'. |
+| Type 3 maximum power | 1208 kW/engine | Site navigation: 'Jenbacher Type 3 Up to 1208 kW/engine'. |
+| Type 4 maximum power | 1694 kW/engine | Site navigation: 'Jenbacher Type 4 Up to 1694 kW/engine'. |
+| Type 6 maximum power | 4499 kW/engine | Site navigation: 'Jenbacher Type 6 Up to 4499 kW/engine'. |
+| Type 9 / J920 maximum power | 10606 kW/engine | Site navigation: 'Jenbacher Type 9 Up to 10606 kW/engine'. |
+| Selection factors listed | CAPEX; electrical and overall solution efficiency; production/commissioning timeline; modularity; OPEX; start/stop event frequency limits; time to full power; partial-load efficiency; power output tol n/a | 'Important aspects to consider when selecting power generation equipment' list, verbatim wording. |
+| Natural gas power range | 37 - 750 kW | 'The power range ranges from 37 kW to 750 kW with natural gas and from 68 kW to 750 kW with special gas (biogas, landfill gas, sewage gas).' |
+| Special gas power range | 68 - 750 kW | As above, MAN gas programme page. |
+| Overall efficiency | > 90 % | 'achieve the best overall efficiencies of over 90 per cent thanks to their optimum combustion process'. |
+| Natural gas table row - E0834 | Output 37 - 68 kW; lambda 1.0 - 1.6; 4 cylinders in-line; 4.6 litres; bore 108 mm; stroke 125 mm; power 37 - 68 kW kW / lambda / cylinders / litres / mm | MAN 'Engines for natural gas combustion' technical table row: '37 - 68 | 1.0 - 1.6 | E0834 | 4 | in-line | 4.6'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026. |
+| Natural gas table row - E0836 | Output 56 - 110 kW; lambda 1.0 - 1.68; 6 cylinders in-line; 6.9 litres; bore 108 mm; stroke 125 mm; power 56 - 110 kW kW / lambda / cylinders / litres / mm | MAN 'Engines for natural gas combustion' technical table row: '56 - 110 | 1.0 - 1.68 | E0836 | 6 | in-line | 6.9'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026. |
+| Natural gas table row - E2876 | Output 150 - 210 kW; lambda 1.0 - 1.61; 6 cylinders in-line; 12.8 litres; bore 128 mm; stroke 166 mm; power 130 - 220 kW kW / lambda / cylinders / litres / mm | MAN 'Engines for natural gas combustion' technical table row: '150 - 210 | 1.0 - 1.61 | E2876 | 6 | in-line | 12.8'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026. |
+| Natural gas table row - E3268 | Output 320 - 390 kW; lambda 1.69; 8 cylinders V 90°; 17.2 litres; bore 132 mm; stroke 157 mm; power 320 - 390 kW kW / lambda / cylinders / litres / mm | MAN 'Engines for natural gas combustion' technical table row: '320 - 390 | 1.69 | E3268 | 8 | V 90° | 17.2'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026. |
+| Natural gas table row - E3262 | Output 275 - 580 kW; lambda 1.0 - 1.7; 12 cylinders V 90°; 25.8 litres; bore 132 mm; stroke 157 mm; power 275 - 580 kW kW / lambda / cylinders / litres / mm | MAN 'Engines for natural gas combustion' technical table row: '275 - 580 | 1.0 - 1.7 | E3262 | 12 | V 90° | 25.8'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026. |
+| Natural gas table row - E3872 | Output 735 kW; lambda 1.77 - 1.78; 12 cylinders V 90°; 29,6 litres; bore 138 mm; stroke 165 mm; power 735 kW kW / lambda / cylinders / litres / mm | MAN 'Engines for natural gas combustion' technical table row: '735 | 1.77 - 1.78 | E3872 | 12 | V 90° | 29,6'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026. |
+| Special gas table row - E0834 | Output 68 kW; lambda 1.4/1.5; 4 cylinders in-line; 4.6 litres kW / lambda / cylinders / litres | MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '68 | 1.4/1.5 | E0834 | 4 | in-line | 4.6'. © MAN 2026. |
+| Special gas table row - E0836 | Output 110 kW; lambda 1.4 - 1.49; 6 cylinders in-line; 6.9 litres kW / lambda / cylinders / litres | MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '110 | 1.4 - 1.49 | E0836 | 6 | in-line | 6.9'. © MAN 2026. |
+| Special gas table row - E2876 | Output 130 - 220 kW; lambda 1.40; 6 cylinders in-line; 12.8 litres kW / lambda / cylinders / litres | MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '130 - 220 | 1.40 | E2876 | 6 | in-line | 12.8'. © MAN 2026. |
+| Special gas table row - E3268 | Output 320 - 390 kW; lambda 1.46 - 1.52; 8 cylinders V 90°; 17.2 litres kW / lambda / cylinders / litres | MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '320 - 390 | 1.46 - 1.52 | E3268 | 8 | V 90° | 17.2'. © MAN 2026. |
+| Special gas table row - E3262 | Output 450 - 580 kW; lambda 1.44 - 1.6; 12 cylinders V 90°; 25.8 litres kW / lambda / cylinders / litres | MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '450 - 580 | 1.44 - 1.6 | E3262 | 12 | V 90° | 25.8'. © MAN 2026. |
+| Special gas table row - E3872 | Output 735 kW; lambda 1.61; 12 cylinders V 90°; 29.6 litres kW / lambda / cylinders / litres | MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '735 | 1.61 | E3872 | 12 | V 90° | 29.6'. © MAN 2026. |
+| Large-bore gas engines from Everllence | 10 to 18 MW; displacement in excess of 30 litres MW | 'Large-bore gas engines from 10 to 18 MW. High-speed, medium-speed and low-speed engines with a displacement in excess of 30 litres are offered by Everllence.' |
+| Power range | 250 - 550 kW | 'With a power range of 250 to 550 kilowatts and peak efficiencies of up to 42.6 percent ...'. Press release 10 December 2020. |
+| Peak electrical efficiency | 42.6 % (up to) | 'Top efficiency: Gas units enable efficiencies of up to 42.6%'. |
+| Engine variants | 6R in-line, 8V and 12V n/a | '6R, 8V, 12V versions deliver outputs from 250 to 550 kilowatts' and 'Gas gensets and cogeneration plants can be ordered on the basis of 6-cylinder in-line engines as well as 8 and 12-cylinder V-engines for the 50 Hz market'. |
+| Cogeneration efficiency | 90 % (around) | 'In cogeneration, when electricity and heat are generated, efficiencies of around 90 percent can be achieved.' |
+| 60 Hz market introduction | from mid 2021 n/a | 'In the 60 Hz market, the units will be introduced from mid 2021.' |
+| Efficiency improvement vs Series 400 | 3 % (about) | 'increases efficiency by about three percent and available power by over 30 percent' vs Series 400. |
+| Power increase vs Series 400 | 30 % (over) | As above. |
+| Microgrid energy cost reduction | 40 % (over, claimed) | 'can cut energy costs by over 40 percent compared to a conventional system' for gas genset + PV + battery microgrid. |
+| Power plant capacity delivered | 81 GW | '81 GW of power plant capacity delivered to 180 countries around the world.' |
+| Engine generating sets delivered | 11000 sets | '11 000 engine generating sets delivered.' |
+| Start-up to full load | as little as two minutes n/a | 'From start-up to full load in as little as two minutes without minimum uptime or downtime. Unlimited starts and stops have no impact on maintenance.' |
+| Simple cycle efficiency | 50% or more (highest available of current technologies) % | Benefits 'High performance' section. |
+| Flexicycle efficiency | > 54 % | 'With the efficiency exceeding 54%, this unique combination is perfect for reliable baseload operation where high efficiency is needed.' |
+| Selector entry - Wartsila 46TS-SG gas engine | 20.4 MW - 22.9 MW / 51.3 electrical efficiency / 2 min start-up MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '20.4 MW - 22.9 MW / 51.3 electrical efficiency / 2 min start-up'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 46TS-DF dual fuel engine | 20.4 MW - 22.9 MW / 50.7 electrical efficiency / 2 min start-up MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '20.4 MW - 22.9 MW / 50.7 electrical efficiency / 2 min start-up'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 31SG gas engine | 11.8 MW / 51.5% efficiency / 90% CHP efficiency MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '11.8 MW / 51.5% efficiency / 90% CHP efficiency'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 31SG power optimised | 12.7 MW / 50.4% electrical efficiency / 2.5 min to full load MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '12.7 MW / 50.4% electrical efficiency / 2.5 min to full load'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 31SG efficiency optimised | 10.8 MW / 52.1% electrical efficiency / 2.5 min to full load MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '10.8 MW / 52.1% electrical efficiency / 2.5 min to full load'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 31DF dual fuel engine | 11.8 MW / 49.9% electrical efficiency / 2.5 min to full load MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '11.8 MW / 49.9% electrical efficiency / 2.5 min to full load'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 34SG gas engine | 5.8 MW - 9.8 MW / 48.9% efficiency / Over 80% CHP efficiency MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '5.8 MW - 9.8 MW / 48.9% efficiency / Over 80% CHP efficiency'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 34SG power optimised | 10.8 MW / 47.6% electrical efficiency / 2 min to full load MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '10.8 MW / 47.6% electrical efficiency / 2 min to full load'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 34DF dual fuel engine | 5.8 MW - 9.8 MW / 48.5% efficiency / 2 min to full load MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '5.8 MW - 9.8 MW / 48.5% efficiency / 2 min to full load'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 34SG LPG optimised | 4.4 MW - 7.3 MW / 45.8% electrical efficiency / For propane MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '4.4 MW - 7.3 MW / 45.8% electrical efficiency / For propane'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 50SG gas engine | 18.4 MW / 49.9% efficiency / 30 sec power to grid MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '18.4 MW / 49.9% efficiency / 30 sec power to grid'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 50DF dual fuel engine | 17.6 MW / 49.4% efficiency / 30 sec power to grid MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '17.6 MW / 49.4% efficiency / 30 sec power to grid'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 50 liquid fuel engine | 18.4 MW / 49.4% efficiency / 30 sec power to grid MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '18.4 MW / 49.4% efficiency / 30 sec power to grid'. 50 Hz / 60 Hz variants shown as printed. |
+| Selector entry - Wartsila 32 liquid fuel engine | 5.8 MW - 9.8 MW / 47.4% efficiency / 2 000+ installed engines MW / % / start time as printed | Wartsila 'Engine power plant products' selector card, verbatim: '5.8 MW - 9.8 MW / 47.4% efficiency / 2 000+ installed engines'. 50 Hz / 60 Hz variants shown as printed. |
 
 - **Wärtsilä** Wärtsilä 34SG / 31SG / 50SG / 46TS-SG gas engine generator sets: reciprocating gas engine generator set (lean-burn, spark-ignited)
 - **MAN Engines** MAN gas engine programme E0834 / E0836 / E2876 / E3268 / E3262 / E3872: gas engine for power generation (natural and special gas)
@@ -4382,6 +6646,46 @@ Vendors: Honeywell, Emerson (duplex stainless steel option on Roxar 2600, page r
 | T.D. Williamson hot tapping machines a — ANSI Class filter options shown | 150-2500 ANSI Class 150 / 300 / 600 / 900 / 1500 / 2500, as printed | TDW 'Tapping Machines' product listing filter, read directly 2026-11-25. |
 | Gas supply and fuel gas supply sys — Gas pressure required at gas engine | 5 bar(a) (73 PSI) | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.6 'Combustion engines, gas operation': 'A gas pressure of just 5 bar(a) (73 PSI) is required, enabling the power plant to be located even where the pipeline gas pressure is low'; read via r.jina.ai fallback 25 Nov 2026 |
 | Gas supply and fuel gas supply sys — Charge air pressure, lean-burn gas engine | 3 bar | Same white paper p.6: 'pressurising air with turbo chargers to around 3 bar, after which the air is intercooled before being fed to the cylinders' |
+| Installed base | 2800 large-scale skids (over) | "With an installed base of over 2800 large-scale skids around the world" |
+| Meter rangeability | 100 ratio (>100:1) | "high rangeability of >100:1" (four-path gas ultrasonic meters with chordal design) |
+| Ultrasonic meter paths | 4 paths | "Multiple four-path gas ultrasonic meters with chordal design" |
+| Flow computer | "FloBoss S600+ flow computer", panel mounted, Metering Suite | "FloBoss S600+ flow computer", panel mounted, Metering Suite |
+| Meter models | "Rosemount gas ultrasonic meters • Model 3414 • Model 3417, with dual electro... | "Rosemount gas ultrasonic meters • Model 3414 • Model 3417, with dual electronics" |
+| Analyzer models | "Rosemount gas chromatograph • 370XA • 770XA"; moisture, hydrocarbon dew poin... | "Rosemount gas chromatograph • 370XA • 770XA"; moisture, hydrocarbon dew point and sulfur analyzers |
+| Standards compliance | "Compliance with AGA9 and ISO 17089 standards"; "Quality management backed by... | "Compliance with AGA9 and ISO 17089 standards"; "Quality management backed by ISO 9000, ISO 14000. ISO 18000, ISO 29000" |
+| Flow configuration | "N x 100% flow configuration" | "N x 100% flow configuration" |
+| Meter velocity options (questionnaire printed values) | 10-20 m/s | Questionnaire checkboxes: "Max Normal Min … 10 m/s … 15 m/s … 20 m/s Other" (printed options, not a performance rating) |
+| Pressure rating options (questionnaire printed values) | Questionnaire: "300# 600# 900# Other" | Questionnaire: "300# 600# 900# Other" |
+| Publication date | Datasheet header 'DAN-GAS-TQ-GUSM-0213 February 2022'; ©2022 Emerson | Datasheet header 'DAN-GAS-TQ-GUSM-0213 February 2022'; ©2022 Emerson |
+| Meter size range | "Meter sizes G65 to G1.000" | "Meter sizes G65 to G1.000" |
+| Maximum measuring range | 5-1600 m3/h | "Max. measuring range 5 to 1.600 m3/h" |
+| Nominal diameters | 50-150 DN (2" to 6") | "Nominal diameters DN 50 to 150 (2” to 6”)" |
+| Operating pressure | 0-100 barg | "Operating pressure from 0 to 100 barg" |
+| Flange rating | "Flange rating in PN 10-100 and ANSI 150-600"; table: PN 10, 16, 25, 40, 64, ... | "Flange rating in PN 10-100 and ANSI 150-600"; table: PN 10, 16, 25, 40, 64, 100 / ANSI 150, 300, 600 |
+| Temperature range | -25-70 degC (acc. MID) | "Temperature range: -25 °C to +70 °C (acc. MID)" |
+| Minimum inlet pipe length | 2 DN | "Compact installation with inlet pipe length L ≥ 2 DN" / "≥2 DN independent of flow disturbance for DN 80 – 150 and ≥5 DN for DN 50" |
+| Measurement uncertainty (high flow) | 1 % (+/-) for 0.2 Qmax to Qmax | "± 1 % for 0.2 Qmax to Qmax" (EN12261 error limits) |
+| Measurement uncertainty (low flow) | 2 % (+/-) for Qmin to 0.2 Qmax | "± 2 % for Qmin to 0.2 Qmax" (EN12261 error limits) |
+| Standard measuring range ratio | 20 ratio (1:20) | "Standard measurement range is 1:20. Depending on the operating pressure MID allows for higher measuring ranges" |
+| Alternative measuring range ratio | 30 ratio (1:30) | Table footnote: "* Meter also available with measuring range 1:30" (G250, G400, G650, G1000 models) |
+| Materials | "Meter bodies: ductile iron (GGG-40) or forged steel. Turbine wheel: Aluminum... | "Meter bodies: ductile iron (GGG-40) or forged steel. Turbine wheel: Aluminum"; "TRZ2 are fire-proof (HTB)" |
+| Standards / approvals | "MID approval for fiscal measurement; Conformity to EN12261, PED, ASME, ATEX ... | "MID approval for fiscal measurement; Conformity to EN12261, PED, ASME, ATEX and IECEx"; OIML R137-1; EC directives 2014/32/EU (MID), 2014/34/EU (ATEX), 2014/68/EU (PED); ISO 9001:2008 / ISO 14001 |
+| Pulse outputs | "Low frequency (standard): 2x LF outputs (type E1) with maximum frequency of ... | "Low frequency (standard): 2x LF outputs (type E1) with maximum frequency of 0.5 Hz – 1x manipulation contact"; "High frequency (optional): up to 4x HF outputs" |
+| Index head | "IP67 certified"; 8-digit mechanical index; index head rotatable by 350° | "IP67 certified"; 8-digit mechanical index; index head rotatable by 350° |
+| Publication | Datasheet BR-17-06-ENG '# 3032 01/17', © 2017 Honeywell International Inc.; J... | Datasheet BR-17-06-ENG '# 3032 01/17', © 2017 Honeywell International Inc.; Jina published-time 2021-04-12 (host upload) |
+| Transmission pipeline pressure | 150-1000 psig (150 to over 1000) | Emerson white paper D353412X012 August 2024: 'transmission pipeline that may operate at pressures from 150 to over 1000 psig' |
+| Gas turbine fuel gas pressure | 450-600 psig | Emerson: 'The gas turbines in power plants typically need fuel gas at pressures from 450 to 600 psig.' |
+| Set pressure accuracy | 0.5-2.5 % | Emerson: 'Pilot-operated regulators can maintain a set pressure accuracy of 0.5% to 2.5%, even when flow rates and transmission line pressures vary.' |
+| Primary/standby example pressures | 420-800 psig | Emerson Figure 4: 'reduce the pressure from an upstream pressure of 800 psig to a downstream pressure of 440 psig. The regulator on the standby run will stay closed unless the downstream pressure decreases to 420 psig' |
+| Station noise benchmark | 85 dBA (about) | Emerson: 'Specifications of these stations vary but a common benchmark is about 85 dBA.' |
+| Shutoff class | Emerson: 'Ensuring regulators within the station have ANSI Class VIII shutoff... | Emerson: 'Ensuring regulators within the station have ANSI Class VIII shutoff rating' |
+| Governing code | Emerson: 'Piping systems in electric power generation stations are governed b... | Emerson: 'Piping systems in electric power generation stations are governed by ASME 31.1.' |
+| Methane emissions equivalence | Emerson: '1 Kg of methane emitted into atmosphere is equivalent to emitting 2... | Emerson: '1 Kg of methane emitted into atmosphere is equivalent to emitting 25 Kg of carbon dioxide' |
+| Regulator styles / models | Emerson: 'Two styles ... 1) two-path, loading style and 2) boot, unloading st... | Emerson: 'Two styles ... 1) two-path, loading style and 2) boot, unloading style'; figure 'Tartarini™ Type FL - Axial Flow, Two-Path Style Pilot-Operated Regulator' |
+| pipeline_diameter_ranges | 1/2"-4"; 4"-12"; 12"-20"; 20"-60"; 60"+ in | Hot tapping machines page printed diameter range options |
+| special_diameters | 18"; 28"; 36"; 42"; 66"; 108"; 130"; 150" in | Page printed size list (18 inch through 150 inch) |
+| pressure_ratings | 150; 300; 600; 900; 1500; 2500 ANSI class | Page printed pressure class list 150, 300, 600, 900, 1500, 2500 (unit label not printed on page) |
+| application | Used to make a new connection into a live pipeline, wide array of pipeline diameters, pressures and compositions in any environment n/a | Product page description |
 
 - **Honeywell** Honeywell Elster TRZ2 turbine gas meter: turbine gas meter
 - **Emerson (duplex stainless steel option on Roxar 2600, page read)** Emerson Gas Ultrasonic Metering System (skid, Rosemount 3414/3417 meters, FloBoss S600+): custody-transfer gas metering skid
@@ -4424,6 +6728,33 @@ Vendors: APZEM India Engineering, Chennai, India, Sly Inc., Strongsville, OH, US
 | Sly Impinjet® impingement plate, Ventu — maximum shell velocity for sizing | 500 feet per minute | Sly Wet Scrubber Application Guide, 'Basic Criteria for Sizing A Wet Scrubber': 'For Impinjet scrubbers, the maximum capacity is based on shell velocity of 500 feet per minute'; ©2009 Sly Inc.; read via r.jina.ai 2026-11-25. |
 | Sly Impinjet® impingement plate, Ventu — gas velocity through impingement plate holes | 60-75 feet/second | Sly Wet Scrubber Application Guide, 'Operating Principles'; ©2009 Sly Inc.; read via r.jina.ai 2026-11-25. |
 | Sly Impinjet® impingement plate, Ventu — droplet size generated | 100 microns (printed 'on the order of 100 microns in diameter') | Sly Wet Scrubber Application Guide, 'Operating Principles'; ©2009 Sly Inc.; read via r.jina.ai 2026-11-25. |
+| Air flow | 70000 CFM (up to) | APZEM SOX Scrubber technical specification: 'Air Flow: upto 70,000 CFM' |
+| Capturing efficiency | 99.99 % (up to) | APZEM: 'Efficiency : upto 99.99% capturing efficiency' |
+| Materials of construction | APZEM: 'MOC: Mild Steel / SS 304 / SS316 / FRP / PP / PVC' | APZEM: 'MOC: Mild Steel / SS 304 / SS316 / FRP / PP / PVC' |
+| Finish | APZEM: 'Finish: Powder coated / Matt finish' | APZEM: 'Finish: Powder coated / Matt finish' |
+| Power option | APZEM: 'Power option : 3 Phase.' | APZEM: 'Power option : 3 Phase.' |
+| Operating modes | APZEM: 'This scrubber system can operate in a continuous open loop, closed lo... | APZEM: 'This scrubber system can operate in a continuous open loop, closed loop and during a predetermined period, be switched to operate as a zero-discharge system. Seawater is used to cool the scrubber water in circulation.' |
+| Standards / certification | APZEM: 'All Apzem Products are designed to comply with ACGIH and OSHA standar... | APZEM: 'All Apzem Products are designed to comply with ACGIH and OSHA standards as well as local PCB Standards.' |
+| Contaminants removed | APZEM: 'H2S, HCl, HF, HBr; HCN, HNO3, NH3; Formic acid, Chromic acid; SO2, Cl... | APZEM: 'H2S, HCl, HF, HBr; HCN, HNO3, NH3; Formic acid, Chromic acid; SO2, Cl2, F2, Br2, BCl3, BF3; Formaldehyde, Ethylene compounds; Soluble alcohols, acids; VOCs' |
+| Impinjet capacity range | 500-100000 CFM (over) | Sly Wet Scrubber Application Guide: 'Capacities range from 500 to over 100,000 CFM.' |
+| Impinjet water requirement | 1.5-3 GPM per 1,000 ACFM | Sly: 'water requirements vary from less than 1-1/2 GPM per 1,000 ACFM to a typical 3 GPM per 1,000 ACFM' |
+| Impinjet particulate efficiency | 98-99 % | Sly: '98+% collection efficiency for particles 5 microns in size or larger'; 'efficiencies in excess of 99% on many types of dust or gases' |
+| Gas velocity through plate holes | 60-75 feet/second | Sly: 'Gas velocities of 60 to 75 feet/second through the holes result in thousands of jets which atomize the liquid into droplets on the order of 100 microns in diameter' |
+| Maximum Impinjet shell velocity for sizing | 500 feet/minute | Sly: 'For Impinjet scrubbers, the maximum capacity is based on shell velocity of 500 feet per minute.' |
+| Outlet gas cooling | Sly: 'The outlet gas can be cooled to less than 5°F above the temperature of ... | Sly: 'The outlet gas can be cooled to less than 5°F above the temperature of the incoming liquid.' |
+| Documented case: hazardous vapours | Sly case study: 'The system handles 2,500 CFM. Efficiencies exceeding 95% are... | Sly case study: 'The system handles 2,500 CFM. Efficiencies exceeding 95% are reported.' |
+| Documented case: medical waste incinerator | Sly: '7258 CFM of gas at 1800°F from a 100 lb. per hour incinerator is handle... | Sly: '7258 CFM of gas at 1800°F from a 100 lb. per hour incinerator is handled by this skid-mounted wet gas scrubber' |
+| Documented case: eductor/packed tower | Sly: 'stainless steel construction, designed for 500 CFM' | Sly: 'stainless steel construction, designed for 500 CFM' |
+| Volume correction example | Sly: '10,000 ACFM @ 450°F containing 0.15# H2O/# dry air. The chart shows a c... | Sly: '10,000 ACFM @ 450°F containing 0.15# H2O/# dry air. The chart shows a correction factor of 0.75... 7500 ACFM ... Diameter = 4.37 ft' |
+| Scrubber types | Sly: 'Three Types of Wet Scrubbers To Remove Vapors, Gases and Particulate: I... | Sly: 'Three Types of Wet Scrubbers To Remove Vapors, Gases and Particulate: Impingement Plate, Venturi, Eductor Venturi' |
+| SULFURIX - single-stage sulfide removal | 80-95 % (in general, about 80-95%) | GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated |
+| SULFURIX - two-stage combined removal efficiency | 99 % (more than 99% in many cases) | GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated |
+| SULFURIX - feed H2S concentration suitability | 1 % (particularly suitable for H2S rich biogas >1%) | GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated |
+| SULFURIX - standard tower heights | 6-9 m (approximately 20-30 ft) | GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated |
+| SULFURIX - biogas flow range | 100-1000 m3/h (100 to >1000 m3/h; about 60 to >600 scfm) | GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated |
+| SULFURIX - assumed wash liquid conditions | Activated sludge at pH 7.3 and 30 degC (standard conditions) n/a | GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated |
+| SULFURIX - construction materials | Corrosion-proof anti-static HDPE and polyester n/a | GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated |
+| SULFURIX - pressure loss / blower requirement | Minimal pressure loss; typically no biogas blowers required n/a | GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated |
 
 - **APZEM India Engineering, Chennai, India** APZEM SOX Scrubber (wet engine-exhaust scrubber): wet packed/venturi-type SOx and acid-gas scrubber
 - **Sly Inc., Strongsville, OH, USA** Sly Impinjet® impingement plate, Venturi and eductor Venturi wet scrubbers: wet gas scrubber (particulate and gas absorption)
@@ -4457,6 +6788,17 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 | Protective site hoarding and acces — minimum hoarding height | 1800 mm (printed '1800mm') | DOSH Guidelines for Public Safety and Health at Construction Sites, 1st Revision 2007, cl.11.2: 'The hoarding should not be less than 1800mm in height and continuous down to the ground'; cl.11.1: hoarding acts as barrier or security to prevent trespass; cl.11.6: entrance/exit located to prevent danger and proper security against unauthorised entry; cl.11.12: 'Gates should be of suitable design and |
 | Protective site hoarding and acces — site hoarding, 2.1 to 2.4 m high metal deck sheeting on steel posts with concrete footing, incl. maintenance and removal | 280-380 RM per m (printed rate RM 280-380; unit 'm') | WE Quantity Surveyor 'Preliminaries rates, Malaysia', Klang Valley, UPDATED NOVEMBER 2026, Site establishment table. All-in at trade level (material, labour, plant, wastage); excludes main contractor's profit and attendance, preliminaries and SST. Low end residential, high end factory/warehouse. |
 | Protective site hoarding and acces — extra over hoarding for a double-leaf site access gate | 3000-6000 RM per no. (printed rate RM 3,000-6,000; unit 'no.') | WE Quantity Surveyor, Klang Valley, November 2026, Site establishment table. All-in at trade level; excludes main contractor's profit and attendance, preliminaries and SST. |
+| maximum_clear_width | ?-40000 mm | Technical Specification: Maximum Clear Width Up to 40000mm Single Leaf / 80000mm Double leaf (Bi-Parting) |
+| maximum_clear_width_double_leaf | 80000 mm | Maximum Clear Width Up to 80000mm Double leaf (Bi-Parting) |
+| maximum_height | 3000 mm | Maximum Height Up to 3000 mm (Larger dimensions available on request) |
+| telescopic_systems | 2, 3, 4 & 5 systems | Number of Telescopic System 2, 3, 4 & 5 (greater the number, lesser the back room space required) |
+| drive_opening_speed | ?-0.16 m/s | Drive Opening Speed Up to 0.16 m/s (up to 0.3 m/s on request) |
+| drive_closing_speed | ?-0.16 m/s | Drive Closing Speed Up to 0.16 m/s (up to 0.3 m/s on request) |
+| capacity | 300-25000 kg | Capacity 300Kg to 25000Kg |
+| connecting_voltage | 230V-1ph, N / 415V-3ph, N n/a | Connecting Voltage 230V-1ph, N / 415V-3ph, N |
+| protection_category | IP 44 n/a | Protection Category Operator: IP 44 (higher IP rating on request) |
+| bottom_rollers | min 120mm dia galvanised wheels with ball bearings and axle with lubrication point mm | Bottom Rollers: Italian make Galvanised Wheels min 120mm dia with ball bearings |
+| standards | CE marking, Machine Directive 2006/42/EC, EMC Directive 2004/108/EC, Low Voltage Directive 2006/95/EC; type tested EN 13241-1; hot dip galvanizing ISO 1461:2022; marine paint ISO 12944 n/a | Technical specification and standards printed on page |
 
 
 Recorded gaps:
@@ -4500,6 +6842,9 @@ Vendors: Mecc Alte, Cummins Generator Technologies, Basler Electric (0 model lin
 | Generator voltage | 10.5 / 11 kV | Jenbacher J920 FleXtra 50Hz genset scope of supply; 60Hz 480V-13.8kV |
 | Combined range | 7.5-11200 kVA | Value as printed in the cited source; no further qualifier stated. |
 | Global coverage | 116 countries | Value as printed in the cited source; no further qualifier stated. |
+| Countries of operation | ?-116 countries | Operating in over 116 countries |
+| Applications | marine, telecoms, standby and critical protection, CHP, rail and prime power n/a | Peace of mind is guaranteed in a range of applications including marine, telecoms, standby and critical protection, CHP, rail and prime power. |
+| Established | 1904 year | Established in 1904 |
 
 
 Recorded gaps:
@@ -4538,6 +6883,56 @@ Vendors: ABB, Siemens (2 model lines recorded).
 | Siemens 3AK7 generator circuit-breaker — Rated operating sequence (generator circuit-breaker) | Siemens Catalog HG 11.06 Edition 2017, generator circuit-breaker technical da... | Siemens Catalog HG 11.06 Edition 2017, generator circuit-breaker technical data table; read 2026-11-25 via r.jina.ai (value: CO - 30 min - CO) |
 | Generator circuit breaker (11 kV g — Specified generator switchgear short-circuit rating | 40 kA / 3 s | Design note published 12 Aug 2026: 'the switchgear is specified at 40 kA / 3 s minimum, with 50 kA reserved as a fallback pending the detailed study'. Article explicitly calls the fault level preliminary; it is a design specification, not an equipment purchase. |
 | Generator circuit breaker (11 kV g — Generator circuit breaker short-circuit test current disclosed in patent | 210 kA (rms) | US12651896B2 (granted 9 June 2026) states a prototype 'passed a disconnection test on short-circuit current of 210 kA at Xi'an High Voltage Apparatus Research Institute'; peak stated as 576 kA. This is a patent disclosure, not a plant rating. |
+| Rated voltage range | 7.2-17.5 kV | "Vacuum Circuit-Breaker 3AK7 from 7.2 to 17.5 kV"; technical data table 7.2 / 12 / 15 / 17.5 kV |
+| Rated normal current | 1250-4000 A (4000 A with forced cooling) | Technical data: "Rated normal current Ir A 1250; 2000; 2500; 3150; 4000 (with forced cooling)" |
+| Rated short-circuit breaking current (standard breaker) | 50 kA (also 40 kA variant) | "capable to break short-circuit currents up to 50 kA"; technical data 50/40 kA |
+| Rated short-circuit making current | Selection tables: 125/130 kA peak (standard breakers); 110 kA (40 kA generato... | Selection tables: 125/130 kA peak (standard breakers); 110 kA (40 kA generator), 137 kA (50 kA generator) |
+| Pole-center distance | 210 mm (or 280 mm) | "lean pole-shell design with a pole-center distance of 210 mm"; tables list PCD 210/280 mm |
+| Maintenance-free operating cycles | 10000 cycles | "The 3AK7 is maintenance-free up to 10,000 operating cycles. 30,000 operating cycles on request" |
+| Extended operating cycles option | 30000 cycles (on request) | "30,000 operating cycles on request"; order code -Z M30 |
+| Rated lightning impulse withstand voltage | 60-95 kV | Technical data table: 60 kV (7.2 kV), 75 kV (12 kV), 95 kV (17.5 kV) |
+| Rated short-duration power-frequency withstand voltage | 20-38 kV | Technical data table: 20 kV (7.2 kV), 28 kV (12 kV), 38 kV (17.5 kV) |
+| Standards | "conform to IEC 62271-100, IEC 62271-1, IEC 60265-1 and IEC / IEEE 62271-37-0... | "conform to IEC 62271-100, IEC 62271-1, IEC 60265-1 and IEC / IEEE 62271-37-013:2015 (marked accordingly)"; endurance classes E2, M2, S1 and C2 |
+| Ambient reference current basis | 40 degC | "rated normal currents ... defined according to IEC 62271-100 for an ambient air temperature of +40 °C and apply to open switchgear" |
+| Publication | Catalog HG 11.06, Edition 2017 (supersedes HG 11.06 edition 2014); 'Medium-Vo... | Catalog HG 11.06, Edition 2017 (supersedes HG 11.06 edition 2014); 'Medium-Voltage Equipment 3AK7 Vacuum Circuit-Breakers' |
+| standard | Type tested according to the latest Standards IEC/IEEE 62271-37-013; first co... | Type tested according to the latest Standards IEC/IEEE 62271-37-013; first complete product line developed in accordance with the most recent Dual Logo IEC/IEEE 62271-37-013 Standard |
+| generator_classes | G1 and G2 n/a | IEC/IEEE 62271-37-013 introduces generator classes for the CB: G1 and G2 |
+| rated_voltage_Ur | 15 kV | Technical data, 15 kV, 3150 A / 4000 A, 63 kA - acc. to Dual Logo IEC / IEEE 62271-37-013 |
+| rated_normal_current_Ir_VD4G-25 | 1250 A | Technical data rated normal current (40 degrees C) Ir, VD4G-25 |
+| rated_normal_current_Ir_VD4G-40 | 2000 A | Technical data rated normal current (40 degrees C) Ir, VD4G-40 |
+| rated_normal_current_Ir_VD4G-50 | 3150 A | Technical data rated normal current (40 degrees C) Ir, VD4G-50: 3150 A / 4000 A |
+| rated_normal_current_Ir_VD4G-63 | 3150 A | Technical data rated normal current (40 degrees C) Ir, VD4G-63: 3150 A / 4000 A |
+| rated_frequency_fr | 50-60 Hz | Technical data, rated frequency fr 50/60 Hz |
+| power_frequency_withstand_voltage_Ud | 38 kV | Technical data, withstand voltage at 50 Hz Ud - common value 38 kV |
+| impulse_withstand_voltage_Up | 95 kV | Technical data, impulse withstand voltage Up - common value 95 kV |
+| making_current_Ip_VD4G-25 | 68.5 kA | Technical data making current Ip |
+| making_current_Ip_VD4G-40 | 115 kA | Technical data making current Ip |
+| making_current_Ip_VD4G-50 | 137 kA | Technical data making current Ip |
+| making_current_Ip_VD4G-63 | 173 kA | Technical data making current Ip |
+| rated_system_source_short_circuit_breaking_current | 25-63 kA | Technical data symmetrical short-circuit current Isc: 25 / 40 / 50 / 63 kA for VD4G-25 / -40 / -50 / -63 |
+| dc_component_system_source_breaking_current | 75 % | Technical data, DC component of the rated short circuit breaking current 75 % |
+| asymmetrical_system_source_short_circuit_current | 36.5-92 kA | Technical data asymmetrical system source short-circuit current: 36.5 / 58.5 / 73 / 92 kA |
+| generator_source_symmetrical_short_circuit_current_G1 | 16-50 kA | Technical data symmetrical short-circuit current Iscg Class G1: 16 / 25 / 50 / 50 kA |
+| generator_source_dc_component_G1 | 110 % | Technical data, DC component of generator-source short-circuit breaking current Class G1 110 % |
+| generator_source_symmetrical_short_circuit_current_G2 | 16-37 kA | Technical data symmetrical short-circuit current Iscg Class G2: 16 / 25 / 37 / 37 kA |
+| generator_source_dc_component_G2 | 130 % | Technical data, DC component of generator-source short-circuit breaking current Class G2 130 % |
+| out_of_phase_breaking_current | 12.5-31.5 kA | Technical data, rated breaking current under out-of-phase conditions symmetrical short-circuit current Isc: 12.5 / 20 / 25 / 31.5 kA |
+| out_of_phase_dc_component | 75 % | Technical data, DC component of rated short circuit breaking current under out-of-phase conditions 75 % |
+| rated_operating_sequence | CO-10 min-CO n/a | Technical data, rated operating sequence during short-circuit interruption CO-10 min-CO |
+| rated_short_time_withstand_current | 25-63 kA | Technical data, rated short-time withstand current Ik: 25 kA (3 s), 40 kA (3 s), 50 kA (4s fixed version), 63 kA (2s) |
+| pole_center_distance | 150-275 mm | Technical data dimensions, pole center distance 150 / 210/275 / 275 / 275 mm |
+| height_fixed | 461-636 mm | Technical data dimensions, height fixed 461 / 610 / 636 mm across ratings |
+| height_withdrawable | 632-735 mm | Technical data dimensions, height withdrawable 632 / 691 / 730 / 735 mm |
+| depth_fixed | 424-459 mm | Technical data dimensions, depth fixed 424 / 459 mm |
+| depth_withdrawable | 643-664 mm | Technical data dimensions, depth withdrawable 664 / 643 / 650 mm |
+| width_fixed | 450-750 mm | Technical data dimensions, width fixed 450 / 600-750 / 750 mm |
+| width_withdrawable | 503-853 mm | Technical data dimensions, width withdrawable 503 / 681-853 / 851-853 mm |
+| weight_fixed | 73-210 kg | Technical data dimensions, weight fixed 73 / 146-158 / 177 / 210 kg |
+| weight_withdrawable | 116-270 kg | Technical data dimensions, weight withdrawable 116 / 190-205 / 221 / 270 kg |
+| system_short_circuit_dc_time_constant | 133 ms | IEC 62271-37-013 short-circuit current d.c. time constant 133 ms (IEC 62271-100: 45 ms) |
+| trv_rate_of_rise_terminal_faults | ?-6 kV/us | IEC 62271-37-013 TRV rate of rise - terminal faults up to 6 kV/us (IEC 62271-100 up to 3.5 kV/us) |
+| out_of_phase_breaking_current_fraction | 50 % of system-source short-circuit current | IEC/IEEE 62271-37-013 out-of-phase breaking current 50 % of system-source short-circuit current (IEC 62271-100: 25 % of rated short-circuit current) |
+| generation_power_up_to | 100 MVA | Unique product family ranging from the lowest ratings up to 100 MVA generation power level; 25 kA at 1250 A = 30 MVA, 2000 A = 50 MVA, 3150 A = 80 MVA, 4000 A = 100 MVA |
 
 - **ABB** ABB VD4G vacuum circuit breakers for generator switching applications: generator circuit breaker
 - **Siemens** Siemens 3AK7 generator circuit-breaker (7.2 to 17.5 kV): generator circuit breaker / vacuum circuit breaker
@@ -4570,6 +6965,18 @@ Vendors: INNIO Jenbacher, Rehlko, Rolls-Royce Power Systems (mtu), Burgess-Manni
 | Power | 249-1562 / 1634-4507 kW for Type 2/3/4 / Type 6 | Value as printed in the cited source; no further qualifier stated. |
 | Sound | 65 dB(A) at 10 m, DIN 45635 (Type 2/3/4); 65/70/75/80 for Type 6 | Value as printed in the cited source; no further qualifier stated. |
 | Ambient | -25 to +34 / -25 to +40 degC, Type 2/3/4 / Type 6 standard ventilation | Value as printed in the cited source; no further qualifier stated. |
+| Containerized Type 2/3/4 power range | 249 - 1562 kW | 'Containerized solutions for Type 2, 3 and 4 (249 - 1562 kW)'. |
+| Containerized Type 6 power range | 1634 - 4507 kW | 'Containerized solutions for Type 6 (1634 - 4507 kW)'. |
+| Type 2/3/4 container length | 12,192 mm (40 ft) mm | Container dimension table, Type 2 and 3 / Type 2,3,4 / Type 4 columns all '12,192 mm 40 ft'. |
+| Type 2/3/4 container width | 2,438 mm (8 ft) / ~3,000 mm (10 ft) mm | Container dimension table: Type 2 and 3 '2,438 mm 8 ft'; Type 2,3,4 and Type 4 '~3,000 mm 10 ft'. |
+| Type 2/3/4 container height | 2,591 mm (8 ft 6 in) / 2,591-2,700 mm / 2,896 mm (9 ft 6 in) mm | Container dimension table, three columns as printed. |
+| Type 2/3/4 sound attenuation | 65 dB(A) in 10 m | 'designed to meet 65 dB(A) in 10m (surface sound pressure level according to DIN 45635). Lower sound pressure levels are available on request.' |
+| Type 2/3/4 ambient temperature | -25 C to +34 C; option -40 C and +45 C deg C | 'The standard ventilation is designed for ambient temperatures from -25C to +34C. All genset containers are also available with an option for -40C and most variants can be upgraded for +45C.' |
+| Type 6 single-bank container dimensions | 13,500-20,500 mm (~44-67 ft) L x 3,000-4,000 mm (~10-13 ft) W x ~7,500 mm (~25 ft) H mm | Type 6 dimension table, Single Bank (J612-GS, J616-GS, J620-GS, power generation): as printed; '*Main unit dimensions without roof-mounted equipment'. |
+| Type 6 multi-bank container dimensions | 12,000-19,500 mm (~41-64 ft) L x 6,000 mm (~20 ft) W x ~7,500 mm (~25 ft) H mm | Type 6 dimension table, Multi Bank (J624-GS and heat & power variants): as printed. |
+| Type 6 sound attenuation options | 65, 70, 75 and 80 dB(A) in 10 m | 'available for 65, 70, 75 and 80 dB(A) in 10m (surface sound pressure level according to DIN 45635).' |
+| Type 6 ambient temperature | -25 C to +40 C deg C | 'The standard ventilation is designed for ambient temperatures from -25C to +40C.' |
+| Hydrogen container | 100% hydrogen Jenbacher containerized energy system n/a | 'Tour of our 100% hydrogen Jenbacher container ... designed for 100% hydrogen operation.' |
 
 
 Recorded gaps:
@@ -4612,6 +7019,24 @@ Vendors: thyssenkrupp Uhde, Stamicarbon, Toyo Engineering, Casale, Casale, UreaK
 | steam | 0.01 MT/MT | typical consumption |
 | power | 24 kWh/MT | typical, fluidizing product cooler |
 | urea dust | 30 mg/Nm3-Air (less than) | scrubber design target |
+| Total nitrogen | 46.3 wt.% | 'Total Nitrogen 46.3 wt.%' (product quality table) |
+| Biuret | 0.8 wt.% | Toyo Engineering Spout Fluid Bed Granulation Process page; 'Typical standard figure depending on the design conditions of each plant' product quality table |
+| Moisture | 0.2 wt.% | Toyo Engineering Spout Fluid Bed Granulation Process page; 'Typical standard figure depending on the design conditions of each plant' product quality table |
+| Formaldehyde | 0.45 wt.% | Toyo Engineering Spout Fluid Bed Granulation Process page; 'Typical standard figure depending on the design conditions of each plant' product quality table |
+| Size 2-4 mm fraction | 95 wt.% | 'Size 2 - 4 mm 95 wt.%' |
+| Hardness | 3.5 kg/granule | 'Hardness 3.5kg/granule for 3 mm' |
+| Steam consumption | 0.01 MT/MT | 'Steam 0.01 MT/MT' (consumption per unit of service) |
+| Power consumption | 24 kWh/MT | 'Power 24 kWh/MT' |
+| Power with bulk flow cooler | 19 kW/MT | 'In case of bulk flow cooler by cooling water, power consumption becomes 19kW/MT' |
+| Cooling water consumption | 'CoolingWater Nil' | 'CoolingWater Nil' |
+| Urea dust emission | 30 mg/Nm3-Air | 'reduce urea dust to less than 30 mg/Nm3-Air' |
+| Development period | 'since the late 1970s' for spouted bed; 'In the 1980s ... applying the Spout-... | 'since the late 1970s' for spouted bed; 'In the 1980s ... applying the Spout-Fluid Beds' |
+| Urea plant capacity (GRANULATION reference) | 2200 metres tonnes per day (MTD) | News reference title on the Urea technology page: "New 2200 MTD Urea plant successfully commissioned" (reference to a Casale urea plant, not explicitly to GREEN GRANULATION) |
+| Acquisition year of GREEN GRANULATION Ltd by Casale | 2022 year | "renown GREEN GRANULATION™ technology developed by GREEN GRANULATION™ Limited, which has been fully acquired by Casale in 2022" |
+| Formaldehyde use | Benefit: "Minimum or no use of formaldehyde" | Benefit: "Minimum or no use of formaldehyde" |
+| Services | Training Programs Sessions; Desk Studies; Online Q&A Sessions; Site Visits; Troubleshooting and Optimization Suggestions; Revamp Proposals; Dynamic Simulator; Fluid Bed Granulation Pilot Plant n/a | UreaKnowHow.com's team ... offering the following services list |
+| Solved issues | Increase of on-stream times; lower wet recycle (less dust formation in granulator); granulator sprayer issues; reduction of moisture content in final product; proper settings of the crusher; optimum g n/a | The following issues has been solved already by our services at other clients |
+| Company location | Maastricht, The Netherlands n/a | 2025 © UREAKNOWHOW B.V. Maastricht, The Netherlands |
 
 - **thyssenkrupp Uhde** UFT Fluid Bed Granulation: 2-8 mm product sizes from one plant; more than 20 plants at 3,000 mt/d or more
 - **Toyo Engineering** Spout-Fluid Bed Granulation: scaled from 50 to 3,250 MTPD; designed to 4,500 MTPD
@@ -4639,6 +7064,8 @@ Vendors: Babcock & Wilcox (0 model lines recorded).
 | product scope | tubular and regenerative air heaters qualitative | B&W air-heater product page read during the sweep; no performance table was given |
 | Function | Advanced combustion solutions for indirect-fired process gas heating applications qualitative | John Zink Products page product card for Air Heaters & Recuperators |
 | Characteristics | Clean air contact with products and high efficiency in heat transfer qualitative | John Zink Products page product card |
+| Product description | advanced combustion solutions designed for indirect-fired process gas heating applications, ensuring clean air contact with products and high efficiency in heat transfer n/a | John Zink's air heaters and recuperators are advanced combustion solutions designed for indirect-fired process gas heating applications, ensuring clean air contact with products and high efficiency in heat transfer. |
+| Related waste gas destruction efficiency | ?-98 % | John Zink provides a range of solutions for destroying waste gases, including methane and non-methane organic compounds (NMOCs), with up to 98% destruction efficiencies. |
 
 
 Recorded gaps:
@@ -4664,6 +7091,13 @@ Vendors: Babcock & Wilcox, Cleaver-Brooks, Spirax Sarco (0 model lines recorded)
 | Condensing fuel basis | Condenses on natural gas only; near-condensing mode on #2 oil fuel basis | Product Overview bullet and narrative |
 | Efficiency boost | 3-5 % | Economizers catalog listing: 'Boost efficiency 3-5% with the ClearFire Economizer (ECF)' |
 | Applicable boilers | ClearFire-H and CBT boilers from 10-80 HP, high or low pressure steam applicability | Economizers catalog listing |
+| Compatible boiler horsepower | 10-80 HP | "ideal for ClearFire-H and CBT boilers from 10–80 HP, in high or low pressure steam applications" |
+| Boiler size applicability | 2500 HP | Cleaver-Brooks C2X page: 'Can be utilized on boilers up to 2,500 HP.' |
+| Economizer stages | 2 stages | 'Two-stage condensing economizer' — captures heat through a traditional stack economizer section and a condensing section |
+| Design pressure applicability | 'Accommodates all boiler design pressures' | 'Accommodates all boiler design pressures' |
+| Tube core material | 'Tube core assemblies are individually removable and made from 316 stainless ... | 'Tube core assemblies are individually removable and made from 316 stainless steel tube with aluminum fins (Al-Fuse)' |
+| Gas-side surfaces material | '316 stainless steel exhaust gas bypass, interior shell, condensate drain, an... | '316 stainless steel exhaust gas bypass, interior shell, condensate drain, and transition connections'; 'All gas side surfaces are 316 stainless steel to eliminate corrosion' |
+| Fuel for condensing operation | 'Condenses on natural gas only'; switches to near-condensing mode when firing... | 'Condenses on natural gas only'; switches to near-condensing mode when firing #2 oil |
 
 
 Recorded gaps:
@@ -4684,6 +7118,21 @@ Vendors: Babcock & Wilcox (0 model lines recorded).
 | Superheater outlet temperature | 1050 deg F (up to) | Max-Fire Technical Data table: Steam Temperature up to 1,050 deg F; narrative: furnace and evaporator and superheater, if applicable |
 | Superheater design | Dedicated superheaters for corrosive fuels; easily replaceable superheaters in back pass design feature | Valmet CFB Boiler page bullets and 'High steam parameters' section |
 | High steam parameters | Possible without severe corrosion even with recovered fuels qualitative | Valmet CFB Boiler page: fluidized bed heat exchangers in loop seal |
+| Boiler size range | 30-1200 MWth | "The wide size range covers boilers from 30 to 1200 MWth" |
+| Installed references | 100 references (over 100) | "Most of the over 100 references around the world are multifuel boilers" |
+| Superheaters for corrosive fuels | "Well-proven design, including dedicated superheaters for corrosive fuels" | "Well-proven design, including dedicated superheaters for corrosive fuels" |
+| Superheater arrangement for recycled fuel | "For recycled fuel combustion, the Valmet CFB Boiler is equipped with a speci... | "For recycled fuel combustion, the Valmet CFB Boiler is equipped with a special grid design for effective debris removal and a back pass, including an empty pass and easily replaceable superheaters" |
+| Cyclone construction | "high-efficiency cylindrical cyclones constructed of membrane walls covered b... | "high-efficiency cylindrical cyclones constructed of membrane walls covered by a light refractory for erosion protection. No hot expansion joints between the furnace and the cyclone are needed" |
+| Steam parameters | "High steam parameters are possible without severe corrosion, even with recov... | "High steam parameters are possible without severe corrosion, even with recovered fuels, thanks to fluidized bed heat exchangers located in the loop seal" (no numeric steam pressure/temperature printed) |
+| Exhaust gas flow | 1000000 lb/hr (up to) | Cleaver-Brooks Max-Fire page: 'Gas flows up to 1,000,000 lb/hr' / 'Exhaust Gas Flows (lb/hr) Up to 1,000,000' |
+| Steam generation | 10000-500000 lb/hr | 'Steam Generation from 10,000 to 500,000 lb/hr' / 'Steam Flows Up to 500,000' |
+| Design pressure | 1800 psig (up to) | 'Design pressure up to 1,800 psig' |
+| Steam temperature | 1050 deg F (up to) | 'Steam temperature to 1,050 °F' / 'Steam Temperature Up to 1,050 deg F' |
+| Duct firing temperature | 2800 deg F (up to) | 'fired up to 2800°F while avoiding the use of high-maintenance refractory' / 'Duct Firing Temperature Up to 2,800 deg F' |
+| Matched gas turbine size | 3-25 MW | Attributes table: 'Gas Turbine Size 3 MW - 25 MW' |
+| NOx with SCR | 2 ppm (less than) | 'Supplemental firing with stack emissions available to less than 2 ppm NOx with SCR' |
+| Efficiency / CO2 reduction claims | 'The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditi... | 'The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies. It reduces up to 7.0 MMBtu/hr of fuel in conventional boilers and eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output.' |
+| Models / circulation / construction | 'MF (O-style) and MFA (A-style)' with integral furnace; 'VL (O-style) and VLA... | 'MF (O-style) and MFA (A-style)' with integral furnace; 'VL (O-style) and VLA (A-style)' evaporator without furnace; 'Natural Circulation'; 'Membrane Wall Construction'; 'Completely shop-assembled boiler' |
 
 
 Recorded gaps:
@@ -4720,6 +7169,7 @@ Vendors: Spirax Sarco, TLV, Veolia Water Technologies & Solutions (0 model lines
 | Maximum steam flow rate SR-3 | 660 lb/h | Printed in Product Details table; row also printed an unlabelled '212' in an adjacent cell whose metric is not resolvable from the markdown table, so it is not recorded as a spec |
 | Maximum steam flow rate SR-8 | 1,760 lb/h | Printed in Product Details table |
 | Body / heat transfer coil material | Stainless (SUS304) n/a | Printed in Product Details table |
+| Application guidance | Spirax Sarco: 'Blowdown heat recovery works best when the blowdown source and... | Spirax Sarco: 'Blowdown heat recovery works best when the blowdown source and feedwater destination are stable. Pair the recovery package with TDS blowdown controls when automatic blowdown creates the upstream stream, and connect the recovered energy into deaerators on the feedwater side.' |
 
 
 Recorded gaps:
@@ -4746,6 +7196,13 @@ Vendors: Department of Occupational Safety and Health (DOSH) (1 model lines reco
 | Environmental Impact Assessment fo — capacity threshold for prescribed fossil-fuel steam power station | 10 MW (printed '10 megawatts or more') | Environmental Quality (Prescribed Activities) (EIA) Order 2015, P.U. (A) 195, made 5 August 2015, First Schedule item 11(a): 'Construction of steam generated power station using fossil fuels (other than coal) and having the capacity of 10 megawatts or more, with or without transmission line'; clause 4(2)(a) applies subitems 11(a) and (b) to Sabah. |
 | Environmental Impact Assessment fo — Sabah application of the EIA Order | EIA Order 2015 clause 4(2): applies to Sabah for First Schedule items 2, 6, 9... | EIA Order 2015 clause 4(2): applies to Sabah for First Schedule items 2, 6, 9 and 14 and subitems 11(a) and (b), and Second Schedule items 2, 6, 9, 11, 14 and 17; clause 2 defines 'environmentally sensitive area' to include areas specified under any Enactment in the State of Sabah. |
 | Environmental Impact Assessment fo — site hoarding minimum height (public safety) | 1800 mm | DOSH Guidelines 2007 cl.11.2, cross-listed here as public-safety control: hoarding not less than 1800 mm and continuous to the ground; cl.11.6 requires security against unauthorised entry. |
+| Mandatory SHO appointment threshold | 20 RM million (total project contract price) | The appointment of an SHO is encouraged among client companies and designers, but mandatory for builders if the construction work has a total project contract price exceeding RM20 million |
+| Legal basis | Occupational Safety and Health Act (OSHA); Occupational Safety and Health (Safety and Health Officer) Regulations n/a | safety and health officers (SHOs) were established by the Occupational Safety and Health Act (OSHA). The specific responsibilities of an SHO are set out in the Occupational Safety and Health (Safety and Health Officer) Regulations |
+| Enforcement | Regulation 12, Occupational Safety and Health (Safety and Health Officers) Regulations 1997 - Director General may refuse to renew registration if duties not carried out n/a | Regulation 12, Occupational Safety and Health (Safety and Health Officers) Regulations 1997 states that the Director General of DOSH may refuse to renew the registration of an SHO if he fails to carry out his duties |
+| Performance indicators | leading indicators of employer commitment, legal compliance, employee involvement, and effectiveness of control measures n/a | These SHO Performance Indicators ... are leading indicators of: employer commitment; legal compliance; employee involvement; and the effectiveness of control measures |
+| Reporting | SHO fills total indicators achieved each month except Total Notices Received (items 23-25), which cover the whole project period n/a | SHO must fill in the total indicators achieved for each performance in a given month, except for the Total Notices Received (items 23 – 25) |
+| Consultation legal basis | Occupational Safety and Health (Safety and Health Committee) Regulations; Factories and Machinery (Building Operations and Engineering Construction Works) (Safety) Regulations n/a | Consultation is a legal requirement. Workers should be consulted ... |
+| Page updated | 16 / 03 / 2026 n/a | Updated Date: 16 / 03 / 2026 |
 
 - **Department of Occupational Safety and Health (DOSH)** Safety and Health Officer (SHO) statutory appointment: statutory HSSE personnel requirement
 
@@ -4796,6 +7253,23 @@ Vendors: Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia, D
 | Dunham-Bush water-cooled chillers, air — Water-cooled chiller model lines | Dunham-Bush 'Our Products' webpage, Water Cooled Chiller section; page read 2... | Dunham-Bush 'Our Products' webpage, Water Cooled Chiller section; page read 2026-11-25; site footer ©2022 Dunham Bush; no article publication date printed. |
 | Dunham-Bush water-cooled chillers, air — Air-cooled chiller model lines | Dunham-Bush 'Our Products' webpage, Air Cooled Chiller section; page read 202... | Dunham-Bush 'Our Products' webpage, Air Cooled Chiller section; page read 2026-11-25; no article date printed. |
 | Dunham-Bush water-cooled chillers, air — Airside equipment certification | Dunham-Bush 'Our Products' webpage, Airside section, 'comprehensive range of ... | Dunham-Bush 'Our Products' webpage, Airside section, 'comprehensive range of AHRI certified airside equipment'; page read 2026-11-25. |
+| Water-cooled chiller model series | Listed DCLC, WCM, WCFX, WCHX, WCS ("screw, centrifugal and scroll range") | Listed DCLC, WCM, WCFX, WCHX, WCS ("screw, centrifugal and scroll range") |
+| Air-cooled chiller model series | Listed ACM, AVX, ACHX, ACDS ("screw and scroll range") | Listed ACM, AVX, ACHX, ACDS ("screw and scroll range") |
+| Heat pump model series | Listed WCFXE-HP, ACX-HP, WCS-HP, ACDS-HP | Listed WCFXE-HP, ACX-HP, WCS-HP, ACDS-HP |
+| Airside products | "Air Handling Unit" and "Fan Coil Unit" listed under Airside; "comprehensive ... | "Air Handling Unit" and "Fan Coil Unit" listed under Airside; "comprehensive range of AHRI certified airside equipment" |
+| Company founding year | 1894 year | "Founded in the USA in 1894, Dunham-Bush is one of the oldest global commercial air conditioning products manufacturers" |
+| Air flow range | 1800-5900 CFM | AIR FLOW RANGE : 1800 ~ 5900 CFM |
+| Model DS-0707 airflow variants | 1838 / 2327 / 2989 CFM | AHU Model DS-0707 three variants: Airflow CFM 1838, 2327, 2989 |
+| Model DS0709 / DS0810 / DS-0912 airflow | 3536 / 4443 / 5910 CFM | DS0709 3536; DS0810 4443; DS-0912 5910 CFM |
+| Second-stage DX cooling air off coil | 7-8 degC | utilize second stage DX cooling to achieve the air off coil of 7-8 degoC |
+| Traditional CHW entering temperature | 5.0-5.5 degC | Low CHW Ent : 5.0-5.5 ºC |
+| New CHW entering temperature | 7.0 degC | Normal CHW Ent : 7.0 ºC |
+| Room condition RH | 50 % | Room RH = 50%±5 |
+| Room condition temperature | 18 degC | Room Temp = 18ºC±2 |
+| Energy savings | 27% n/a | 27% kW savings (Hybrid AHU vs traditional method) |
+| Potential energy savings | 25-40 % | Potential savings of 25-40% on energy on a 3000 CFM OT room AHU |
+| Unit dimensions DS-0912 | 5480 x 2120 x 1440 mm | Dimensions LxWxH, mm: 5480 x 2120 x 1440 (DS-0912) |
+| Insulation | ODP=0 PU insulation n/a | Environmental friendly ODP=0 PU insulation |
 
 - **Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia** Daikin Hybrid AHU DDS series (Daikin Refrigeration Malaysia Sdn. Bhd.): air handling unit with heat recovery
 - **Dunham-Bush (Malaysia and regional operations)** Dunham-Bush water-cooled chillers, air-cooled chillers and airside AHUs: HVAC chiller / air handling unit product lines
@@ -4836,6 +7310,28 @@ Vendors: John Zink (Koch Engineered Solutions), Zeeco, Forney Corporation, Sieme
 | Model 140 capacity | 5.0-25 MBtu/hr | Printed in Specifications table |
 | Model 150 capacity | 10-50 MBtu/hr | Printed in Specifications table |
 | Fuel | Natural gas or propane n/a | Printed in Specifications table |
+| Approvals | 'The Standard HESI is FM approved and the CE Version meets the Low Voltage D.... | 'The Standard HESI is FM approved and the CE Version meets the Low Voltage D...' (text truncated in retrieved page) |
+| MaxFire 100 Series capacities | 5 capacities | 'incorporates the "protected primary combustion zone" design in each of the 5 capacities available' |
+| Q87 fuel capability | 'best choice when dual fuel (natural gas and No. 2 oil) is required' | 'best choice when dual fuel (natural gas and No. 2 oil) is required' |
+| DURAFire fuel | 'air atomized No. 2 oil igniter' with 'protected primary combustion zone' design | 'air atomized No. 2 oil igniter' with 'protected primary combustion zone' design |
+| Horn igniter | 'direct replacement for the OEM igniter on tangentially fired boilers' featur... | 'direct replacement for the OEM igniter on tangentially fired boilers' featuring 'high energy spark igniter (HESI)' |
+| Capacity range (nominal, all models) | 1-50 mmBtu/hr | Forney: 'Capacities (nominal) range from 1 mmBtu/hr to 50 mmBtu/hr.'; Features: 'Capacity range from 0.3 to 50 MBtu/hr.' |
+| Minimum length | 14 inches | Forney: 'Minimum Length: 14 inches' |
+| Guide tube OD by model | Forney table: 110 = 1 7/8", 130 = 2 7/8", 135 = 3 1/2", 140 = 4", 150 = 5" | Forney table: 110 = 1 7/8", 130 = 2 7/8", 135 = 3 1/2", 140 = 4", 150 = 5" |
+| Connections NPT (gas / air) by model | Forney table: 110 = 1/2" / 3/4"; 130 = 3/4" / 3/4"; 135 = 1 1/2" / 1 1/2"; 14... | Forney table: 110 = 1/2" / 3/4"; 130 = 3/4" / 3/4"; 135 = 1 1/2" / 1 1/2"; 140 = 1 1/2" / 1 1/2"; 150 = TBD / TBD |
+| Cooling air requirement by model | Forney table: 110 = 23 @ 3; 130 = 45 @ 3; 135 = 50 @ 6; 140 = 80 @ 6; 150 = 1... | Forney table: 110 = 23 @ 3; 130 = 45 @ 3; 135 = 50 @ 6; 140 = 80 @ 6; 150 = 120 @ 6; footnote '*scfm@inches w.c. above windbox' |
+| Typical fuel pressure by model | Forney table: 110 = 5-12; 130 = 5-12; 135 = 5-25; 140 = 5-25; 150 = 5-25 | Forney table: 110 = 5-12; 130 = 5-12; 135 = 5-25; 140 = 5-25; 150 = 5-25 |
+| Nozzle type | Forney table: 110 = Straight; 130/135/140/150 = Straight or wide | Forney table: 110 = Straight; 130/135/140/150 = Straight or wide |
+| Guide tube material | Forney: 'Guide Tube Material: 10 & 30 – Stainless steel; 35, 40 & 50 – Carbon... | Forney: 'Guide Tube Material: 10 & 30 – Stainless steel; 35, 40 & 50 – Carbon steel with 12” stainless steel at furnace end' |
+| HESI input voltage / power | Forney HESI Specifications: 'Input Voltage:120 to 240 VAC, 50/60 Hz; Input Po... | Forney HESI Specifications: 'Input Voltage:120 to 240 VAC, 50/60 Hz; Input Power:120 VAC @ 1.5 A (2-A fuse); 240 VAC @ 0.75A (1-A fuse)' |
+| HESI output voltage / energy / spark rate | Forney HESI: 'Output Voltage:2000 VDC; Output Energy:12 joules per spark; Spa... | Forney HESI: 'Output Voltage:2000 VDC; Output Energy:12 joules per spark; Spark Rate:3 per second (approximately)' |
+| HESI duty cycle / ambient | 0-135 deg F | Forney HESI: 'Duty Cycle:50% at temp 0°F to 135°F (-18°C to 57°C) Ambient' |
+| HTSI specifications | Forney HTSI: 'Amperage:20 mA; Input Voltage:120 to 240 VAC 50/60 HZ; Output V... | Forney HTSI: 'Amperage:20 mA; Input Voltage:120 to 240 VAC 50/60 HZ; Output Voltage:6000 VAC; Duty Cycle:100% at temperature rating' |
+| Igniter class and ignition rate | Forney: 'can be used as a Class 1, Class 2, or Class 3 igniter, depending on ... | Forney: 'can be used as a Class 1, Class 2, or Class 3 igniter, depending on burner capacity'; '99% ignition rate in most applications' |
+| Atomization | air atomized n/a | air atomized No. 2 oil igniter |
+| Performance claim | self-stabilized, highly reliable n/a | As a result this igniter is self-stabilized, highly reliable |
+| Service | for utility and large industrial steam generators n/a | Igniters provide the ignition energy to ignite the main fuel for utility and large industrial steam generators |
+| Related igniter capacities (MAXFire 100 Series) | 5 capacities | The MAXFire® 100 Series gas igniter incorporates the ... design in each of the 5 capacities available |
 
 
 Recorded gaps:
@@ -4871,6 +7367,11 @@ Vendors: Trelleborg Marine and Infrastructure, Mammoet, Orca Offshore, Hi-Tech E
 | Float-over hardware set | LMU + Sway and Surge Fenders (SSF) + Deck Support Units (DSU) list | Trelleborg LMU page, Overview |
 | Topsides weight where crane-free float-over is advantageous | >10,000 t (many topsides now exceed this) t | Mammoet topside load-out page |
 | Innovation | direct welding after set-down; no sand-jack lowering phase mechanism | Value as printed in the cited source; no further qualifier stated. |
+| Design feature | allows direct welding of the topside to the jacket after set down n/a | Different from existing designs, this design® allows for direct welding of the topside to the jacket after set down |
+| Eliminated operation | phase whereby topside is lowered by sand-jacks or equivalent equipment n/a | The phase whereby the topside is lowered by sand-jacks or equivalent equipment has been eliminated saving valuable installation time |
+| Construction | standard rubber elements, standard steel pipe and flush steel plates n/a | The LMU is built up with standard rubber elements, standard steel pipe and flush steel plates |
+| Commercial features | short lead time; competitive price n/a | As a result, the LMU has a short lead time and can be supplied at a competitive price |
+| Developer | Orca Offshore together with SeaCamel, for the LAM-E topside float-over n/a | Together with SeaCamel, we developed a new type of LMU for the float-over of the LAM-E topside |
 
 
 ### Floating platform installation — semi-submersible ballasting/mooring (ins-floating-platform-installation-semi-submersible-ballasting-moo)
@@ -4953,6 +7454,34 @@ Vendors: IQIP, Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2
 | Energy range | 200-6,250 kJ | Value as printed in the cited source; no further qualifier stated. |
 | Blow rate | 30 bl/min | Value as printed in the cited source; no further qualifier stated. |
 | Oil flow | 12800 L/min | Value as printed in the cited source; no further qualifier stated. |
+| Recommended oil flow | 12800 L/min | 6000W card: "Recommended oil flow 12800 L/min" |
+| Average operating pressure | 210 bar | 6000W card: "Average operating pressure 210 bar" |
+| Blow rate at recommended oil flow | 30 bl/min | 6000W card: "Blow rate at recommended oil flow 30 bl/min" |
+| Weight above water (5 m foot) | 700 t | 6000W most-popular specifications table: "MHU6000W - 5 m Foot: Weight above 700 t" |
+| Weight above / submerged (5 m, 8-9 m OD UW) | 6000W table: "MHU6000W - 5 m: 8 - 9 m OD UW: 1319 t above / 1020 t submerged;... | 6000W table: "MHU6000W - 5 m: 8 - 9 m OD UW: 1319 t above / 1020 t submerged; Supporting R" (renewables) |
+| Wind turbine foundations driven (range) | 2500 foundations (2500+) | Page counter: "2500+ Wind turbine foundations driven" |
+| Displacement (heavy lift) | 172000 t | Wikipedia infobox: "Displacement 172,000 t (169,000 long tons) (heavy lift)" |
+| Length overall | 198 m | Wikipedia infobox: "Length 198 m (649 ft 7 in) (overall)" |
+| Beam | 87 m | Wikipedia infobox: "Beam 87 m (285 ft 5 in)" |
+| Height keel to deck | 43.5 m | Wikipedia infobox: "Height 43.5 m (142 ft 9 in) (keel to deck)" |
+| Installed power | 70000 kW (94,000 hp) | Wikipedia infobox: "Installed power 70,000 kW (94,000 hp)"; power upgraded in 1999/2000 refit |
+| Propulsion thrusters | 12 thrusters | Wikipedia infobox: "Propulsion 12 thrusters" |
+| Speed | 9.5 knots | Wikipedia infobox: "Speed 9.5 knots (17.6 km/h; 10.9 mph)" |
+| Crane main hook capacity | 7000 t at 40 m radius (each crane) | "Each crane is capable of lifting up to 7,000 tonnes at 40 m lift radius using the main hook" |
+| Tandem lift capacity | 14000 t | "The two cranes are capable of a tandem lift of 14,000 tonnes" |
+| J-lay pipe diameter | 4-32 in | "The J-lay tower can lay pipe from 4" to 32" diameter" |
+| J-lay tension | "with a tension of up to 525 tonnes (5.15 MN) using the tensioners and up to ... | "with a tension of up to 525 tonnes (5.15 MN) using the tensioners and up to 2,000 tonnes (20 MN) when using friction clamps" |
+| World offshore lifting record | 12150 tons (Sabratha deck) | "The Saipem 7000 set the world offshore lifting record of 12,150 tons for the Sabratha deck" |
+| Crew | 700 persons (up to) | Wikipedia infobox: "Crew Up to 700 persons" |
+| S-series - max blow energy by model | S-30:30, S-90:90, S-150:150, S-280:280, S-350:350, S-500:500, S-800:800, S-1400:1400, S-2000:2000 n/a | IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated |
+| S-series - min blow energy by model | S-30:3, S-90:9, S-150:15, S-280:31, S-350:39, S-500:50, S-800:88, S-1400:154, S-2000:220 n/a | IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated |
+| S-series - blowrate by model | S-30:65, S-90:46, S-150:44, S-280:45, S-350:40, S-500:45, S-800:45, S-1400:35, S-2000:35 n/a | IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated |
+| S-series - weight of ram by model | S-30:1.5, S-90:4.5, S-150:7.5, S-280:14, S-350:18, S-500:25, S-800:40, S-1400:70, S-2000:100 n/a | IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated |
+| S-series - weight of hammer by model | S-30:4, S-90:10, S-150:16.5, S-280:31, S-350:36, S-500:60, S-800:85, S-1400:150, S-2000:230 n/a | IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated |
+| S-series - length of hammer by model | S-30:6100, S-90:8168, S-150:8986, S-280:10390, S-350:11384, S-500:11943, S-800:14535, S-1400:14945, S-2000:17370 n/a | IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated |
+| S-series - oil flow by model | S-30:175, S-90:250, S-150:460, S-280:700, S-350:700, S-500:1600, S-800:2200, S-1400:3300, S-2000:4400 n/a | IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated |
+| S-series - preferred power pack type | S-30/S-90: P 250; S-150: P 460; S-280/S-350: P 700; S-500 to S-2000: O.R. n/a | IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated |
+| S-series - minimum energy setting | Standard minimum ~10% of maximum energy; high frequency/low energy mode can reduce to 2-5% n/a | IQIP Hydrohammer S-series product page, specification tables (S-30 to S-350 and S-500 to S-2000); no print date stated |
 
 
 ### Jack-up installation (ins-jack-up-installation-self-elevating-units)
@@ -5082,6 +7611,23 @@ Vendors: Heerema Marine Contractors, Allseas (OEM design), Saipem (ex-Micoperi 7
 | Auxiliary hoist | 2500 t | Value as printed in the cited source; no further qualifier stated. |
 | design weight range | 2000-40000 tonnes | facility design range, from simple wellhead platforms to large integrated facilities |
 | substructure types served | jacket, GBS, semi-submersible, FPSO, drilling rig, TLP list | Stord yard topside projects |
+| Facility design topside weight range | 2000-40000 tonnes | "Our facility designs range from 2,000 to over 40,000 tonnes, covering the full spectrum of offshore developments." (page footer ©2026 Aker Solutions; no print date for the figure) |
+| Experience managing large complex projects | 50 years | "With more than 50 years of experience managing large and complex projects from concept through to operation" |
+| Company employees | 11700 employees | Site-wide footer figure "11,700 Employees" (current at read) |
+| Company locations | 38 locations | Site-wide footer figure "38 Locations" (current at read) |
+| Sleipnir - Huisman main crane capacity (each) | 10000 t (11,000 short tons) | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - tandem lift capacity | 20000 t (22,000 short tons) | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - displacement | 273700 t (301,700 short tons) | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - length / beam | 220 m (720 ft) / 102 m (335 ft) n/a | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - draft | 12-32 m (39 to 105 ft) | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - main hoist capacity vs radius | 10,000 t at 27-48 m radius; 7,000 t up to 62 m; 4,000 t at 82 m; max radius 102 m n/a | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - auxiliary hoist | 2,500 t at 33-60 m radius n/a | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - whip hoist | 200 t at 37-153 m radius n/a | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - third crane | 70 t at up to 12 m radius to 2,000 m below waterline n/a | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - installed power | 12 x 8 MW dual-fuel (MGO or LNG) engines n/a | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - propulsion | 8 Wartsila azimuth thrusters, 5.5 MW each n/a | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - LNG fuel capacity | 8000 m3 | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
+| Sleipnir - boom length | 144 m (472 ft) | Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine |
 
 
 ### Single-lift topsides/jacket installation by catamaran ballast-lift vessel (ins-single-lift-topsides-jacket-installation-by-catamaran-ballast)
@@ -5110,6 +7656,36 @@ Vendors: Allseas (OEM design), Huisman Equipment (0 model lines recorded).
 | Deck | 165 x 43 m | Value as printed in the cited source; no further qualifier stated. |
 | Tandem lift | 14200 t | Value as printed in the cited source; no further qualifier stated. |
 | DP class | III class | Value as printed in the cited source; no further qualifier stated. |
+| tandem_lift_capacity | 14200 metric tons | Thialf is capable of a tandem lift of 14,200 metric tons |
+| year_built | 1985 year | The vessel was built in 1985 |
+| dynamic_positioning | class III dynamic positioning system n/a | equipped with a class III dynamic positioning system |
+| Bokalift 1 - crane lifting capacity | 3000 ton | Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated |
+| Bokalift 1 - available deck space | 165 m x 43 m n/a | Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated |
+| Bokalift 1 - accommodation | 150 persons | Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated |
+| Bokalift 1 - dynamic positioning class | DP2 self-propelled crane vessel (converted 2017) n/a | Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated |
+| Bokalift 1 - helicopter deck | Available for offshore transfers n/a | Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated |
+| Crane lifting capacity (fleet page) | 4000 tons | revolving crane with a lifting capacity of 4,000 tons |
+| Accommodation (fleet page) | 150 persons | can accommodate 150 persons |
+| Accommodation (factsheet) | 146 persons | Maximum 146 persons (Bokalift 2 factsheet 06-2026) |
+| Dynamic positioning | Kongsberg DP-2 / Kongsberg DPSI 5 n/a | Kongsberg DP-2; Kongsberg DPSI 5; 1x HiPAP, Taut wire |
+| Length | 231 m | 231 m (factsheet) |
+| Breadth | 49 m | 49 m (factsheet) |
+| Draught | 8.5-9.5 m | 8.5 - 9.5 m (factsheet) |
+| Main hoist capacity at 28 m radius | 4000 t | 4,000 t up to 28 m radius (factsheet) |
+| Main hoist capacity at 91/110 m radius | 200 t | 800 t up to 91 m radius; 200 t up to 110 m radius (factsheet) |
+| Monopile installation equipment limit | 3000 mt | both designed for monopiles weighing up to 3,000mt |
+| Max structure height lifted | ?-100 m | capable of lifting structures more than 100 meters high |
+| Propulsion power | 8 x 4,320 kW + 1 x 1,100 kW n/a | 8 x 4,320 kW; 1 x 1,100 kW (factsheet) |
+| Topsides single-lift installation/removal | 60000 tonnes | installation or removal of platform topsides up to 60,000 tonnes |
+| Jacket single-lift installation/removal | 20000 tonnes | jackets up to 20,000 tonnes |
+| Pipe-holding capacity | 2000 tonne | 2000-tonne pipe-holding capacity, double that of any rival pipelay vessel |
+| Welding stations | 6 count | six welding stations |
+| Double-joint factory | yes n/a | A double-joint factory, six welding stations, and extensive pipe storage |
+| DolWin Kappa converter station | 900 MW | Transport and installation of the 900-megawatt DolWin Kappa offshore converter station (2022) |
+| Ninian Northern platform removal | 23000 tonne | Single-lift removal of the complete 23,000-tonne Ninian Northern platform (2020) |
+| Gyda platform removal | 30000 tonne | Single-lift removal of the complete 30,000-tonne Gyda platform (2022) |
+| Yme MOPU removal | 13500 t | single-lift removal ... of the complete 13,500 t Yme mobile offshore production unit (2016) |
+| Lift technology | unique motion compensated, single-lift technology n/a | Specials list on the vessel page |
 
 
 ### SPAR platform installation — upending, ballasting and spread mooring (ins-spar-platform-installation-upending-ballasting-and-spread-moor)
@@ -5244,6 +7820,32 @@ Vendors: HADETEC (Nijkerk, Netherlands; Rootselaar Group), Comair (Shanghai, Chi
 | Instrument air compressor, dryer a — ISO 8573-1 class 3 total oil | 1 mg/m3 max | Same CAGI guide Table 1: class 3 oil (liquid, aerosol and vapour) < 1 mg/m3 |
 | Instrument air compressor, dryer a — Desiccant dryer achievable dew point | -40 deg F (-40 deg C) | SKF Separator Filter Dryer (SFD) brochure attached to Staab change order PDF: 'Low dew points to -40 deg F (-40 deg C)'; read via r.jina.ai fallback 25 Nov 2026 |
 | Instrument air compressor, dryer a — Compressor package rating (example quoted unit) | 17.4 CFM at 175 PSIG | Staab change order no. 8, 6 May 2024: Quincy QT-Series oil-lubricated reciprocating air compressor package rated 17.4 CFM at 175 PSIG, 5 HP motor, mounted on 80-gallon ASME vertical receiver tank |
+| Continuous running proven | 8000 hours | "designed and proved to be of reliable performance for over 8,000 hours continuous running" |
+| Motor protection | 55 IP55 | "Our compressors are all IP55 protection grade fully preventing any dust from damaging motors" |
+| Maximum delivery pressure | 40 bar (over) | "oil free and dusts free air of over 40 bar and 100,000 Nm3/hr" |
+| Maximum flow | 100000 Nm3/hr (over) | "oil free and dusts free air of over 40 bar and 100,000 Nm3/hr" |
+| Pressure dew point | -70 degC (as low as) | "the pressure dew point could reach to -70℃, driest possible in the industry" |
+| VSD running cost saving | 30 % (as much as) | "VSD type could save as much as 30% running cost" / "save as much as 30% electricity" |
+| Oil-free air quality class | "Discharging ISO 8573-1 class 0 certified oil free air with 24/7 continuous o... | "Discharging ISO 8573-1 class 0 certified oil free air with 24/7 continuous operation" |
+| Typical instrument air pressure | 7-10 bar | "Normally the instrument air compressors are required to discharge around 7-10 bar" |
+| Instrument air compressor types | 6 types listed | Six types listed: oil free screw, oil free centrifugal, oil free piston, oil free scroll, diesel portable oil free, integrated screw |
+| discharge_pressure_range_option_1 | 8-10 barg | Integrated compressor solutions table: Discharge Pressure (Barg) 8 to 10 / 8 to 16 |
+| discharge_pressure_range_option_2 | 8-16 barg | Integrated compressor solutions table: Discharge Pressure (Barg) 8 to 16 |
+| flow_rate_option_1 | ?-85 m3/min FAD | Integrated compressor solutions table: Flow Rate (m3/min) FAD up to 85 / up to 80 |
+| flow_rate_option_2 | ?-80 m3/min FAD | Integrated compressor solutions table: Flow Rate (m3/min) FAD up to 80 |
+| power_option_1 | 37-600 kW | Integrated compressor solutions table: Power (kW) 37 ~ 600 |
+| power_option_2 | 2.2-500 kW | Integrated compressor solutions table: Power (kW) 2.2 ~ 500 |
+| dryer_dew_point | ?--90 degC | Heatless or heated air dryers for low dew points up to -90 degC |
+| air_quality_class | ISO 8573-1 Class 0 n/a | Oil-free air design (ISO 8573-1 Class 0) in combination with HADETEC's filter & dryer package |
+| ISO 8573 moisture Class 1 - dew point | -100 degF (or less; <= -100 degF) | nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026 |
+| ISO 8573 moisture Class 2 - dew point | -40 degF (or less; <= -40 degF) | nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026 |
+| ISO 8573 moisture Class 3 - dew point | 14 degF (or less; <= 14 degF) | nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026 |
+| Refrigerated dryer typical achievable class | Class 4 or 5 (dew point ~37 to 45 degF) n/a | nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026 |
+| Desiccant dryer achievable dew point | -40 degF or lower (Class 2 or better) | nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026 |
+| nano dryers with multi-stage filtration | ISO 8573 Class 1.2.1 or better n/a | nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026 |
+| Class 2 typical application | Instrument air in colder climates or offshore platforms n/a | nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026 |
+| Class 1 typical application | Ultra-critical electronics, cryogenics n/a | nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026 |
+| Class 3 typical application | General industrial pneumatic applications n/a | nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026 |
 
 - **HADETEC (Nijkerk, Netherlands; Rootselaar Group)** HADETEC instrument air package (compressors, dryers, filtration, receivers, optionally nitrogen generation): skid-mounted / containerised instrument air package
 - **Comair (Shanghai, China)** Comair oil-free instrument air compressors and packages: oil-free screw / centrifugal / piston / scroll instrument air compressors
@@ -5288,6 +7890,25 @@ Vendors: Spirax Sarco, Veolia Water Technologies & Solutions (0 model lines reco
 | Performance example: cooling-water flow | 0.3 l/s | Worked selection example, explicitly NOT an unconditional rating |
 | Performance example: temperature approach | 4 deg C | Worked selection example, explicitly NOT an unconditional rating |
 | Performance example: sample outlet with 15 deg C cooling water | approximately 19 deg C | Worked selection example, explicitly NOT an unconditional rating |
+| body_coil_material | austenitic stainless steel 316L n/a | SC20 Sample Cooler - Technical Information: Body and coil: austenitic stainless steel, 316L |
+| cooling_water_connections | 1/2 in BSP or 1/2 in NPT n/a | Cooling-water connections: 1/2 in BSP or 1/2 in NPT |
+| sample_connections | 6 mm outside-diameter tube; clamp versions with 1/2 in adaptor n/a | Sample connections: 6 mm outside-diameter tube. Clamp versions available with 1/2 in adaptor |
+| dimension_A | 410 mm | Approximate dimensions and weights table: A 410 mm |
+| dimension_B | 350 mm | Approximate dimensions and weights table: B 350 mm |
+| dimension_C | 300 mm | Approximate dimensions and weights table: C 300 mm |
+| dimension_D | 90 mm | Approximate dimensions and weights table: D 90 mm |
+| dimension_E | 27 mm | Approximate dimensions and weights table: E 27 mm |
+| dimension_F | 23.5 mm | Approximate dimensions and weights table: F 23.5 mm |
+| dimension_G | 13 mm | Approximate dimensions and weights table: G 13 mm |
+| dimension_H | 450 mm | Approximate dimensions and weights table: H 450 mm |
+| dimension_J | 55 mm | Approximate dimensions and weights table: J 55 mm |
+| SC20_weight | 3.1 kg | Approximate dimensions and weights: SC20 cooler weight 3.1 kg |
+| SCS20_assembly_weight | 4.2 kg | Approximate dimensions and weights: SCS20 assembly weight 4.2 kg |
+| worked_example_boiler_pressure | 10 barg | Selection table worked example: Boiler operating pressure 10 barg; sample flow 30 l/h; cooling-water flow 0.3 l/s; temperature approach 4 degC; cooling-water inlet 15 degC; approximate sample outlet 19 degC. This is a worked selection example, not an unconditional SC20 rating |
+| worked_example_sample_flow | 30 l/h | Worked selection example: Sample flow 30 l/h |
+| worked_example_cooling_water_flow | 0.3 l/s | Worked selection example: Cooling-water flow 0.3 l/s |
+| worked_example_temperature_approach | 4 degC | Worked selection example: Temperature approach 4 degC; cooling water inlet 15 degC; approximate sample outlet 19 degC |
+| outlet_elbow_engagement_limit | 15 mm | Installation guide: outlet elbow thread must not project into the body; observe documented 15 mm engagement limit |
 
 
 Recorded gaps:
@@ -5316,6 +7937,12 @@ Vendors: SVI BREMCO (0 model lines recorded).
 | Warranty | 5 year years | Printed: 'come with a 5 year warranty' and '5 year guarantee' |
 | Closure system | velcro and D-rings n/a | Printed under Convenient |
 | Equipment covered | Boiler Access Doors; Steam Drum Covers; Mud Drum Covers n/a | Printed under 'Types of boiler doors and covers we regularly encounter' |
+| Standard insulation thickness | 1 in | We typically utilize 1” fiberglass for boiler insulation |
+| Fire door surface temperature | ?-350 degF | Surface temperatures may reach around 350°F in fire doors |
+| Mud drum cover surface temperature | ?-200 degF | 200°F in mud drum covers |
+| Compatible boiler materials | steel, iron, copper or brass n/a | Boilers ... often steel, iron, copper or brass |
+| Customisation | made to exact fit; custom boiler insulation panels available n/a | We produce covers to exact fit for your specific boiler door and cover needs. In addition, we can design custom boiler insulation “panels” |
+| Excluded Cleaver-Brooks models | CBR, CBLE, CB, CBEX, CBEXDP should not be insulated; 4WI, ICB, CBEXE, CBEXP are OK to insulate n/a | additional insulation should not be installed on the following models from Cleaver-Brooks: Model numbers starting with CBR, CBLE, CB, CBEX, CBEXDP ... 4WI, ICB, CBEXE, and CBEXP are OK to insulate. |
 
 
 Recorded gaps:
@@ -5350,6 +7977,59 @@ Vendors: Camfil, Donaldson Company, Inc., Rolls-Royce / mtu solutions, GT Silex 
 | Air intake filtration and silencin — Air receiver conditions | 40 deg C | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3: air receiver 40 deg C (104 deg F), 4 bar (58 psi) |
 | Air intake filtration and silencin — Charge air ratio, lean-burn gas engine | 2.2 lambda | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.6: optimal air to fuel ratio (lambda) around 2.2 |
 | Air intake filtration and silencin — Noise reduction, A205-5100 residential and critical grade intake silencer | 0 dBA | GT Silex Silencer Catalogue 2026 lists A205-5100 'Residential & Critical Grade Intake Silencer' for 500-5000 hp, mass flow 2.5-65 lbs/sec; no numeric attenuation range printed for the intake series in the text read (r.jina.ai fallback) |
+| Generator set rating | 400 kWe / 60 Hz / Standby / 208 - 600 V n/a | Spec sheet title: 'mtu 12V1600 GS400 Gas Generator Set 400 kWe/60 Hz/Standby/208-600V'. 231296 | 2026-03. |
+| Engine model / type | 12V1600L80S; 4-cycle; turbocharged, intercooled; 12-V n/a | Application data table 'Engine'. |
+| Displacement | 21.0 (1,281) L (cu in) | Application data table 'Displacement: L (cu in) 21.0 (1,281)'. |
+| Bore / stroke | 12 cm (4.72 in) / 15 cm (5.91 in) cm (in) | Application data table 'Bore: cm (in) 12 (4.72); Stroke: cm (in) 15 (5.91)'. |
+| Compression ratio | 11:1 n/a | Application data table 'Compression ratio 11:1'. |
+| Rated speed | 1800 rpm | Application data table 'Rated rpm 1,800'. |
+| Maximum power NG / LPG | 565 (758) / 397 (532) kWm (bhp) | Application data table 'Maximum power (NG): kWm (bhp) 565 (758); Maximum power (LPG) 397 (532)'. |
+| Gas fuel consumption NG at 100% / 75% / 50% | 143.5 (5,067) / 115.7 (4,087) / 86.7 (3,063) m3/hr (ft3/hr) | Fuel consumption table (NG-1000 BTU/ft3): 'At 100% of power rating: m3/hr (ft3/hr) 143.5 (5,067)' etc. |
+| LPG fuel consumption at 100% / 75% / 50% | 46.8 (1,654) / 38 (1,341) / 28.7 (1,015) m3/hr (ft3/hr) | Fuel consumption table (LP-2500 BTU/ft3). |
+| Steady state frequency band | ± 0.5 % % | Application data table 'Steady state frequency band ± 0.5%'. |
+| Emissions certification | EPA Part 60 Subpart JJJJ Stationary Non-Emergency; EPA Part 1048 Mobile; EPA Blue Sky Series certified; 3-way catalyst n/a | Certifications and standards / Standard features sections; 'Emissions data ... values provided ... are typical and intended for limited design reference only. Refer to Emission Data Sheet (EDS)'. |
+| Standby rating definition | 85% average load factor; no overload capability; ISO 8528-1, ISO 3046-1, BS 5514, AS 2789 n/a | Rating definitions and conditions; 'Nominal ratings at standard conditions: 25 C and 300 meters (77 F and 1,000 feet).' |
+| Air cleaner type | dry n/a | Application data table 'Air cleaner dry'. |
+| Aspirating air | 22.4 (791) m3/min (SCFM) | Air requirements table, NG and LPG: 'Aspirating: *m3/min (SCFM) 22.4 (791)'. |
+| Air flow for radiator cooled unit | 960 (33,902) m3/min (SCFM) | Air requirements table: 'Air flow required for radiator cooled unit: 960 (33,902)'. |
+| Remote-cooled dissipated heat air flow | 628 (22,304) m3/min (SCFM) | Air requirements table: 'Remote cooled applications; air flow required for dissipation of radiated generator set heat for a maximum of 25 F rise: 628 (22,304)'. |
+| Pre-cleaner separation efficiency: Strata Cap | 96 % | Pre-cleaner Technology table: Strata Cap (Plastic) |
+| Pre-cleaner separation efficiency: Donaspin | 90 % | Pre-cleaner Technology table: Donaspin (Steel) |
+| Pre-cleaner separation efficiency: TopSpin | 85 % | Pre-cleaner Technology table: TopSpin (Plastic) |
+| Pre-cleaner separation efficiency: TopSpin HD | 80 % | Pre-cleaner Technology table: TopSpin HD (Aluminum/Stainless Steel) |
+| Pre-cleaner separation efficiency: In-Line Separator | 70 % | Pre-cleaner Technology table: In-Line Separator (Steel) |
+| Pre-cleaner separation efficiency: Full-View | 75 % | Pre-cleaner Technology table: Full-View (Steel/Plastic) |
+| Strata tubes contaminant removal | 99 % | 'Strata Tubes offer low airflow restriction with efficient contaminant removal of up to 99%' |
+| Natural airflow specific airflow (English) | 2.0 'Airflow (CFM) = HP (SAE) x SA'; 4-stroke naturally aspirated diesel 2.0; turbo charged 2. | As printed on the cited catalogue page. |
+| 2-stroke SA values (English) | 2.0 '2-stroke naturally aspirated 2.0; scavenge blower 3.3; turbo charged 3.6' | As printed on the cited catalogue page. |
+| Metric specific airflow | 0.057 '4-stroke naturally aspirated diesel 0.057; turbo 0.065; 2-stroke scavenge blower 0.093; 2 | As printed on the cited catalogue page. |
+| Volumetric efficiency 4-stroke | 0.9 'VE 4-Stroke: 0.90 naturally aspirated gas/diesel; 1.60 turbo diesel; 1.85 turbo after coo | As printed on the cited catalogue page. |
+| Volumetric efficiency 2-stroke | 0.9 'VE 2-Stroke: 0.90 naturally aspirated diesel; 1.40 scavenge blower; 1.90 turbo charged' | As printed on the cited catalogue page. |
+| Pre-configured system lead time | 8 'avoid manufacturing lead times (8 – 12 weeks)' | As printed on the cited catalogue page. |
+| Test cell capability | 600 kW | 'Up to 600 kW / 800 hp capability' |
+| Polymer coating life vs paint | 5 'This polymer coating lasts five to 10 times longer than traditional paint' | As printed on the cited catalogue page. |
+| Polymer coating hardness vs solvent paint | 17 times | 'Polymer coating is up to 17 times harder than most solvent-based paint' |
+| Product guide page count | 324 pages | PDF metadata: Number of Pages 324 |
+| ISO 29461 grades | T7/T8/T9/T10 n/a | Type: Std T7/T8/T9/T10; ISO 29461 T7, T8, T9, T10 |
+| EN779 grades | F7/F8/F9 n/a | EN779: F7 (T7), F8 (T8), F9 (T9) |
+| EN1822 grade | E10 n/a | EN1822: E10 (T10) |
+| Filter dimensions | 592x592x315 mm | Dimensions WxHxD (mm): 592x592x315 |
+| Nominal airflow | 4250 m3/h | Airflow/pressure drop (m³/h/Pa): 4250/... |
+| Initial pressure drop T7 | 115 Pa | Std T7: 4250/115 |
+| Initial pressure drop T8 | 140 Pa | Std T8: 4250/140 |
+| Initial pressure drop T9 | 145 Pa | Std T9: 4250/145 |
+| Initial pressure drop T10 | 215 Pa | Std T10: 4250/215 |
+| Filter area | 19 m2 | Area (m²): 19 |
+| Weight | 7.6 kg | Weight (kg): 7.6 |
+| Recommended final pressure drop | 600 Pa | Rec. final pressure drop: 600 Pa |
+| Maximum airflow | ?-1.3 x nominal flow | Max airflow: 1.3 x nominal flow |
+| Maximum temperature | ?-70 degC | Max Temperature (°C): 70°C |
+| Relative humidity max | ?-100 % | Relative Humidity max: 100% |
+| Frame material | Plastic molded; ABS n/a | Frame: Plastic molded;ABS |
+| Gasket material | Polyurethane, endless foamed n/a | Gasket: Polyurethane, endless foamed |
+| Media | Glass fiber n/a | Media: Glass fiber |
+| Separator | Hot-melt Separator Technology n/a | Separator: Hot-melt Separator Technology |
+| Applications | Pre- or final filter for gas turbines, large industrial air compressors, diesel & gas engines, generators & enclosures, wind turbines n/a | Application: Pre- or final filter for gas turbines, large industrial air compressors, diesel & gas engines, generators & enclosures, wind turbines |
 
 - **Camfil** Camfil CAMGT Box Type G II (T7/T8/T9/T10) gas-engine/compressor intake filter: air intake filter
 - **Donaldson Company, Inc.** Donaldson Air Intake Systems / PowerCore®, PowerPleat™, RadialSeal™ and Strata™ pre-cleaners: engine air filtration system
@@ -5417,6 +8097,21 @@ Vendors: Technip Energies, Flowtork Technologies Corporation, TBG Technologies (
 | patents | 57 count | Value as printed in the cited source; no further qualifier stated. |
 | diameter | 6-24 inches | Value as printed in the cited source; no further qualifier stated. |
 | design pressure | 50 bar (up to) | Value as printed in the cited source; no further qualifier stated. |
+| diameter_range | 6-24 in | Diameter 6 to 24 inches, design pressure up to 50 bar |
+| design_pressure | 50 bar | design pressure up to 50 bar |
+| LNG_transfer_size_range | 6-20 in | Small to large-scale LNG transfer from 6 to 20 inches |
+| high_pressure_gas_classes | ANSI 600 and ANSI 900 classes n/a | High-pressure gas transfer with in-house ERS and QC/DC design across ANSI 600 and ANSI 900 classes |
+| rigid_LNG_line | 20 inch full-bore product lines n/a | Rigid transfer system for LNG transfer with high-flow performance and 20 inch full-bore product lines |
+| Patents | 57 n/a | 57 patents |
+| Experience | 70+ years | 70+ years of experience |
+| Installed loading arms | +15,000 n/a | +15K installed loading arms |
+| Employees worldwide | 300 + | 300+ employees worldwide |
+| Shore-to-ship product range | ChemConnect, GasConnect, CO2Connect by T.EN™, PrimeConnect, H2Connect n/a | Rethinking onshore operations with shore-to-ship transfer solutions and our product range of ChemConnect, GasConnect, CO2Connect by T.EN™, PrimeConnect and H2Connect |
+| Ship-to-ship product range | DynaConnect, ARCOS, OLAF, ATOL n/a | Customized solutions for offshore transfer systems with our ship-to-ship transfer solutions and our product range of DynaConnect, ARCOS, OLAF and ATOL |
+| eMAX | eMAX Series loading arms n/a | Unlock the future by elevating your loading arm experience with our eMAX series |
+| CO2Connect | world's first liquefied marine loading arm, designed to transfer CO₂ from point of capture to destination for utilization or storage n/a | CO₂Connect by T.EN™ is the world's first liquefied marine loading arm |
+| Transfer capability | fluids and gases at normal, high and very low temperatures and different operating pressures n/a | manage a variety of fluids and gases at normal, high and very low temperatures and at different levels of operating pressures |
+| History | supplying marine loading arms since the 1950s n/a | One of our main activities since the 1950s has been supplying marine loading arms for onshore and offshore use |
 
 
 ### Marine utility and navigation systems (jetty-marine-utility-and-navigation-systems-fire-water-foam-draina)
@@ -5456,6 +8151,15 @@ Vendors: Ampelmann Operations B.V. (0 model lines recorded).
 | gangway length | 30 m | Value as printed in the cited source; no further qualifier stated. |
 | footprint | 8.4 x 9.5 m | Value as printed in the cited source; no further qualifier stated. |
 | system weight | 105 metric tonnes | Value as printed in the cited source; no further qualifier stated. |
+| Maximum significant wave height for personnel transfer | 4.5 m Hs | "The E-type is the system for safely transferring personnel in sea states up to 4.5m Hs" / "4.5m Hs Compensation" |
+| Gangway length | 30 m | "30m Gangway length" |
+| Footprint | "8.4 x 9.5m Footprint" | "8.4 x 9.5m Footprint" |
+| Weight | 105 metric tonnes (mt) | "105mt Weight" |
+| Motion compensation degrees of freedom | 6 degrees of freedom | "fully motion compensated in all six degrees of freedom, resulting in zero movement of the gangway" |
+| System mobilisation time | 24 hours | "Plug and play – System mobilisation within 24 hours" |
+| Certification | "Lloyd's certified. Sea fastening: DNV approved" | "Lloyd's certified. Sea fastening: DNV approved" |
+| Power requirements / included containers | "Two (E)HPUs (2 x 20ft), tool container (20ft) and hydraulics container (10ft... | "Two (E)HPUs (2 x 20ft), tool container (20ft) and hydraulics container (10ft) included" |
+| Minimum vessel length | 70 m | "Vessel requirements: Larger than 70m" |
 
 
 ### Oil spill response — containment booms, skimmers and recovery (jetty-oil-spill-response-containment-booms-skimmers-and-recovery)
@@ -5469,6 +8173,16 @@ Vendors: Vikoma International Ltd, DESMI (Ro-Clean) (0 model lines recorded).
 | Boom materials and deployment characteristics | Neoprene (vulcanised) or polyurethane; air or foam filled material/configuration | Vikoma Information Hub article (page fetched): neoprene gives wave-following flexibility; polyurethane is lower cost but less robust; foam-filled needs no inflation but more storage; air-filled inflation time depends on design |
 | inflated height (catalogue range) | 750-1500 mm | Value as printed in the cited source; no further qualifier stated. |
 | freeboard | 335-600 mm | Value as printed in the cited source; no further qualifier stated. |
+| Hi Sprint inflation | single-point inflation for the fastest inflation n/a | The Hi Sprint boom offers single-point inflation for the fastest inflation |
+| Bulkhead inflation | chamber boom where each chamber is inflated separately n/a | Bulkhead, which is a chamber boom where each chamber is inflated separately |
+| Boom materials | Neoprene (rubber) or thermoplastic (such as polyurethane) n/a | Boom can be made from either a rubber material or a thermoplastic (such as polyurethane) |
+| Hi Sprint material | only made in Neoprene n/a | Other such as Hi Sprint, due to it use and design are only made in Neoprene |
+| Neoprene manufacturing | vulcanising, which provides greater strength n/a | Neoprene booms are manufactured using vulcanising, which provides greater strength than other techniques |
+| Fill options | air filled or foam filled n/a | Booms can be air filled or foam filled |
+| Other boom types | Shore Guardian (shore sealing), Sentinel (curtain containment boom), Pod, Weir, Vikoflex, Super HI Sprint n/a | Products > Booms navigation list and article text |
+| Service | booms and reels can be refurbished, extending the life further n/a | Booms and reels can be refurbished, extending the life further |
+| Quality | ISO 9001:2015 Certificate n/a | ISO 9001:2015 Certificate shown in page footer |
+| Article date | 2nd Jun 2026 n/a | Information Hub > Exploring the Essential Types of Oil Spill Booms, 2nd Jun 2026 |
 
 
 ### Rubber fenders — cone, cell, element and V/arch types (jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett)
@@ -5492,6 +8206,32 @@ Vendors: ShibataFenderTeam Group, Trelleborg Marine & Infrastructure, The Yokoha
 | SX standard heights | 250-1000 mm | Value as printed in the cited source; no further qualifier stated. |
 | standard lengths | 1000-3500 mm | Value as printed in the cited source; no further qualifier stated. |
 | SX 1000 width | 1800 mm | Value as printed in the cited source; no further qualifier stated. |
+| Standard height range | 250-1000 mm | "Both V Fenders (SX and SH) are available in standard heights from 250 to 1,000 mm" |
+| Standard length range | 1000-3500 mm | "in standard length ranging from 1,000 to 3,500 mm, each in 3 different main rubber grades" |
+| Model variants | 4 types | SX (standard one-piece), SX-P (embedded steel plate), SH (wider frontal face, lower surface load), SH-P (embedded steel plate) |
+| SX fender sizes (H x W) | Dimensions SX table: SX 250 (H 250, W 500, w 200, t 18, C 178, PW 400, anchor... | Dimensions SX table: SX 250 (H 250, W 500, w 200, t 18, C 178, PW 400, anchors M24) through SX 1000 (H 1000, W 1800, w 800, t 47, C 610, PW 1550, anchors M48) |
+| SH fender sizes (H x W) | Dimensions SH table: SH 250 (H 250, W 625, w 280, t 18, C 203, PW 530, M24) t... | Dimensions SH table: SH 250 (H 250, W 625, w 280, t 18, C 203, PW 530, M24) through SH 1000 (H 1000, W 2200, w 1125, t 40, C 663, PW 2000, M48) |
+| SX-P embedded plate thickness K | 40-80 mm | Dimensions SX-P table: K 40 mm for SX-P 250/300/400, 50 mm for 500/600, 60 mm for 800, 80 mm for SX-P 1000 |
+| Applications | "SX Fenders: General Cargo Terminals, Berth for tug boats; SH Fenders: Genera... | "SX Fenders: General Cargo Terminals, Berth for tug boats; SH Fenders: General Cargo Terminals, Berth for tug boats with the need for low hull pressure; SX and SH: Multi-Purpose-Terminals, RoRo ramps, Passenger Vessel Terminals, Barge" |
+| standard | ISO 17357-1:2014 certified; all Yokohama fenders in full compliance n/a | ISO17357-1:2014 Certified / Compliance with ISO17357-1:2014 |
+| initial_internal_pressure_Pneumatic_50 | 50 kPa | Pneumatic 50 Standard Sizes table: Initial Internal Pressure 50 kPa |
+| initial_internal_pressure_Pneumatic_80 | 80 kPa | Pneumatic 80 Standard Sizes table: Initial Internal Pressure 80 kPa |
+| initial_internal_pressure_Low_Pressure | 10 kPa | Low-Pressure table: Initial Internal Pressure 10 kPa |
+| GEA_range_Pneumatic_50 | 6-6473 kNm | Pneumatic 50 table guaranteed energy absorption from 6 kNm (500x1000) to 6,473 kNm (4500x12000) |
+| GEA_range_Pneumatic_80 | 8-9037 kNm | Pneumatic 80 table GEA from 8 kNm (500x1000) to 9,037 kNm (4500x12000) |
+| reaction_force_range_Pneumatic_50 | 64-7984 kN | Pneumatic 50 table Reaction Force at GEA 64 kN (500x1000) to 7,984 kN (4500x12000) |
+| hull_pressure_range_Pneumatic_50 | 122-158 kPa | Pneumatic 50 table Hull Pressure at GEA 122-158 kPa across listed sizes |
+| testing_pressure_Pneumatic_50 | 200-250 kPa | Pneumatic 50 table Testing Pressure 200 kPa (small sizes) / 250 kPa (2500x4000 and above) |
+| safety_valve_setting_Pneumatic_50 | 175 kPa | Pneumatic 50 table Safety Valve Setting pressure 175 kPa for sizes 2500x4000 and above (dash for smaller sizes) |
+| size_range_sling_type | Phi 500x1000L - Phi 4500x9000L mm | Sling-type fenders (Type II) 500x1000L - 4500x9000L have an attachment eye on each end |
+| inclined_compression_limit | 15 degrees | energy absorption does not decrease at inclined compression up to 15 degrees |
+| Fender height range | 300-2000 mm | SPC Cone Fenders are available in heights between 300 and 2,000 mm |
+| Rubber grades | 3 main rubber grades | each in 3 different main rubber grades* |
+| Overload stoppers | optional, to avoid over compression n/a | optional: overload stoppers to avoid over compression |
+| Contact angle performance | 10 deg (no loss of performance up to) | No loss of performance up to 10° contact angle |
+| Energy absorption / reaction force | Exceptionally good E/R ratio; outstanding energy absorption per fender weight n/a | SPC Cone Fender Characteristics list |
+| Shear stability | High shear stability n/a | SPC Cone Fender Characteristics list |
+| Construction | conical body and fully rubber-embedded mounting flanges n/a | It has a conical body and fully rubber-embedded mounting flanges |
 
 
 ### Storage tanks, bunds and tank-farm equipment (jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620)
@@ -5579,6 +8319,41 @@ Vendors: Roben Mfg., Inc. (Lakewood, NJ, USA), Atlantic Containment LLC (McGahey
 | Prismecs dry-sump turbine lubrication  — varnish potential test | Prismecs article, 'Varnish: The Modern Problem'; published 11 February 2024. | Prismecs article, 'Varnish: The Modern Problem'; published 11 February 2024. |
 | Prismecs dry-sump turbine lubrication  — rotary screw pump pressure differential | 90 % of manufacturer's rating (printed: 'not greater than 90 percent') | Prismecs article citing API 614 sixth edition pump sizing; published 11 February 2024. |
 | Lubricating oil system (generic OE — Routine checks including lubricating oil | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.9 m... | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.9 maintenance table: 'Routine checks - Checking of filters, lubricating oil, cooling water - During operation'; read via r.jina.ai fallback 25 Nov 2026 |
+| Governing standard | "API Standard 614, Sixth Edition, February 2022 governs its design in petrole... | "API Standard 614, Sixth Edition, February 2022 governs its design in petroleum, chemical and gas service" |
+| ISO turbine oil viscosity grades | "ISO grades 32, 46 and 68 are the products of interest in the turbine industr... | "ISO grades 32, 46 and 68 are the products of interest in the turbine industry, with grades 46, 68 or 77 used where the turbine manufacturer specifies higher viscosity" |
+| Oil specification standard | "ISO 8068 governs turbine oil specification, alongside the turbine OEM's own ... | "ISO 8068 governs turbine oil specification, alongside the turbine OEM's own requirements" |
+| ISO 4406 cleanliness target (typical OEM) | "most turbine OEMs target between ISO 15/13/10 and ISO 17/15/12" | "most turbine OEMs target between ISO 15/13/10 and ISO 17/15/12" |
+| New oil cleanliness (published OEM tables) | "new oil specified at ISO 4406 16/14/12 for both ISO VG 32 and ISO VG 46 on s... | "new oil specified at ISO 4406 16/14/12 for both ISO VG 32 and ISO VG 46 on several industrial gas turbine platforms, with some specifications setting a minimum standard of 20/17/14" |
+| Particle count size thresholds | "ISO 4406 defines cleanliness codes based on particle counts per millilitre a... | "ISO 4406 defines cleanliness codes based on particle counts per millilitre at 4, 6 and 14 microns" |
+| Recommended pre-service filtration | 10 micron | "Some OEMs additionally require that oil be filtered through a 10 micron filter before entering service" |
+| Rotary screw pump differential pressure limit | 90 % of manufacturer rating | "Rotary screw pumps must be sized so that the pressure differential through the pump is not greater than 90 percent of the manufacturer's rating at rated capacity and minimum viscosity" |
+| Viscosity at 40 C acceptable deviation | -10-25 % against new oil | Table: "Viscosity at 40°C ... Commonly minus 10 to plus 25 percent against new oil" |
+| Varnish test standard | "Membrane patch colorimetry (MPC), ASTM D7843, is the standard test" | "Membrane patch colorimetry (MPC), ASTM D7843, is the standard test" |
+| Supplementary specification | "IOGP S-744 is a supplementary specification to API 614 Sixth Edition" | "IOGP S-744 is a supplementary specification to API 614 Sixth Edition" |
+| Article date | Blog post dated February 11, 2024 (25 minutes read) | Blog post dated February 11, 2024 (25 minutes read) |
+| Capacity | Roben: 'Capacity Range: Custom — sized to facility throughput and inventory n... | Roben: 'Capacity Range: Custom — sized to facility throughput and inventory needs'; FAQ: 'capacities ranging from a few hundred gallons to several million gallons' |
+| Maximum tank diameter | 60 feet | Roben FAQ: 'with diameters up to 60 feet and heights customized to site constraints' |
+| Construction standard | Roben: 'Construction Standard: API 650, API 620, AWWA D100, or ASME Section V... | Roben: 'Construction Standard: API 650, API 620, AWWA D100, or ASME Section VIII per service' |
+| Materials | Roben: 'Materials: Selected per product compatibility — carbon steel through ... | Roben: 'Materials: Selected per product compatibility — carbon steel through specialty alloys'; FAQ: 'carbon steel, stainless steel, duplex, super duplex, Hastelloy, Inconel, and other specialty alloys' |
+| Internal coating | Roben: 'Internal Coating: Phenolic, epoxy, glass-lined, rubber-lined per serv... | Roben: 'Internal Coating: Phenolic, epoxy, glass-lined, rubber-lined per service' |
+| Roof type | Roben: 'Roof Type: Cone, dome, internal floating, external floating per vapor... | Roben: 'Roof Type: Cone, dome, internal floating, external floating per vapor pressure' |
+| Accessories | Roben: 'Vents, gauges, mixers, heating coils, fire protection, vapor recovery... | Roben: 'Vents, gauges, mixers, heating coils, fire protection, vapor recovery as required' |
+| Certifications | Roben: 'ASME Section VIII Division 1 and Division 2 — "U" and "U2" Stamps; Na... | Roben: 'ASME Section VIII Division 1 and Division 2 — "U" and "U2" Stamps; National Board "R" Stamp; API 650; API 620; API 653; PED; CRN; NFPA 30; EPA SPCC compliance' |
+| Documentation | Roben: 'Full U-1A, MTRs, and NDE documentation supporting facility audits and... | Roben: 'Full U-1A, MTRs, and NDE documentation supporting facility audits and inspections'; 'ASME data books, API filings, NDE reports, regulatory submittals' |
+| air_pressure_test | 5 psi | Air pressure tested to ensure a 100% leak-proof tank @ 5psi |
+| supports_height | 3 in | 3-inch high supports for ease of cleaning and inspection |
+| outer_bung | 1/2 inch NPT outer bung w/ monitoring sight glass for easy leak detection n/a | Standard features: New 1/2" NPT outer bung w/ monitoring sight glass for easy leak detection |
+| construction | welded steel; phosphated steel to extend tank life n/a | Tough welded-steel construction; Phosphated steel to extend tank life, eliminate corrosion |
+| UL_certification | UL142 & UL142A (MH15058) certified w/ serial label n/a | Compliance specifications: UL142 & UL142A (MH15058) certified w/ serial label |
+| compliance | ANSI/NPA 1, 30, 30A, 31, 37 Compliant; meets all requirements of IFC (International Fire Code) n/a | Compliance specifications (printed verbatim) |
+| containment_option | Optional 110% DW containment designs n/a | Standard features: Optional 110% DW containment designs available |
+| capacity_range_SL_models | 120-2000 gal | Tank Part # table single wall: AC120SL 120 GAL to AC2KSL 2000 GAL |
+| capacity_range_DL_models | 120-2000 gal | Tank Part # table double wall: AC120DL 120 GAL to AC2KDL 2000 GAL |
+| SL_weights | 212-2045 lbs | SW models weights: 212 lbs (120 GAL) to 2,045 lbs (2000 GAL) |
+| DL_weights | 425-3625 lbs | DW models weights: 425 lbs (120 GAL) to 3,625 lbs (2000 GAL) |
+| SL_dimensions | AC120SL 30x26x36 in; AC1KSL 120x32x60 in; AC2KSL 240x32x60 in in (L x W x H) | Tank Part # table length/width/height for single wall models |
+| DL_dimensions | AC120DL 31x27x37 in; AC1KDL 121x33x61 in; AC2KDL 241x33x61 in in (L x W x H) | Tank Part # table length/width/height for double wall models |
+| contained_fluids | Unused Class IIIB Combustible Motor Oils or Fluids; Lube Motor Oil; Hydraulic Oil; Transmission Oil; Machine Oil; Cutting Oil n/a | Fluid containment specifications (printed verbatim) |
 
 - **Roben Mfg., Inc. (Lakewood, NJ, USA)** Roben Manufacturing custom lubricating-oil storage tank: field/shop-fabricated atmospheric lube oil storage tank
 - **Atlantic Containment LLC (McGaheysville, VA, USA)** Atlantic Containment AC series single-wall (SL) and double-wall (DL) lube oil tanks: shop-fabricated welded-steel lube oil storage tank
@@ -5649,6 +8424,53 @@ Vendors: Siemens, Shandong Jiahe Intelligent Technology Co., Ltd, Powerwell Hold
 | Low voltage switchgear / main swit — GGD fixed LV panel rating | 2500 A (up to) | JIAHE Malaysia price matrix, 2025-2026: GGD Fixed LV Panel, 415 V, up to 2500 A, Form 2b / Form 3b. |
 | Low voltage switchgear / main swit — MNS/GCS withdrawable LV panel rating | 6300 A (up to) | Same JIAHE page: MNS / GCS Withdrawable LV, 415 V, up to 6300 A, Form 4b. |
 | Low voltage switchgear / main swit — LV switchgear equipment benchmark | 800-8000 USD per section | HTYEL guide dated 8 October 2026: LV (<1 kV) $800-$8,000/section, $1.50-$6.00/A, $500-$3,500/breaker; 2026 US market data. |
+| Standard | IEC 61439-1 / IEC 61439-2 n/a | In conformance to the IEC 61439-...; IEC 61439-2 also guarantees maximum ... |
+| Main busbar rated current | ?-7000 A | Rated currents up to 7,000 A |
+| Rated impulse withstand current | ?-330 kA | Rated impulse withstand current (Ipk) up to 330 kA |
+| Rated short-time withstand current | ?-150 kA | Rated short-time withstand current (Icw) up to 150 kA |
+| Frame height | 2,000 / 2,200 mm | Frame height 2,000 • 2,200 mm |
+| Base height add-on | 100 / 200 mm | Base height add-on 100 • 200 mm |
+| Degree of protection | IP30, IP31, IP40, IP41, IP42, IP54 n/a | in accordance with IEC 60529: IP30 • IP31 • IP40 • IP41 • IP42 • IP54 |
+| Branch busbar rated current | ?-6300 A | Variable busbar positions, top up to 6,300 A |
+| Single withdrawable unit rating | ?-630 A | Normal withdrawable units up to 630 A and small withdrawable units up to 63A |
+| Small withdrawable units per section | ?-48 count | up to 48 small withdrawable units per section |
+| Capacitor compensation | ?-600 kvar | unchoked up to 600 kvar; choked up to 500 kvar |
+| Arc fault test | IEC 61641 n/a | in accordance with IEC 61641 and ... |
+| Door opening angle | 125° / 180° with stand-alone design n/a | Door opening angle 125 ° • 180 ° with stand-alone design |
+| Rated insulation voltage Ui | 1000 V AC | Rated insulation voltage Ui up to 1000V AC, 3 P, 1500V DC* |
+| Rated insulation voltage (DC) | 1500 V DC | 1500V DC* (*Depending on the electrical equipment) |
+| Rated operating voltage Ue | 690 V AC | Rated operating voltage Ue up to 690V AC, 3 P, 750V DC* |
+| Rated impulse withstand voltage Uimp | 6/8/12 kV | Rated impulse withstand voltage Uimp 6/8/12 kV* |
+| Overvoltage category | II/III/IV n/a | Overvoltage category II/III/IV* |
+| Degree of pollution | 3 n/a | Degree of pollution 3 |
+| Rated frequency | 60 Hz | Rated frequency up to 60 Hz |
+| Copper busbar rated current Ie | 6300 A | Copper Busbars Rated current Ie up to 6300 A |
+| Rated peak withstand current Ipk | 220 kA | Rated peak withstand current Ipk up to 220 kA |
+| Rated short-time withstand current Icw | 100 kA | Rated short-time withstand current Icw up to 100 kA |
+| Distribution bar rated current | 2000 A | Distribution bars Rated current Ie up to 2000 A |
+| Arc proof operating voltage | 690 V | Arc proof Rated operating current up to 690 V |
+| Arc proof prospective short-circuit current | 100 kA | Prospective short-circuit current up to 100 kA |
+| Arc proof duration | 300 ms | Duration of short-circuit 300 ms; Criterion (IEC 61641) 1 to 7 |
+| Standard height | 2200 mm | Standard height 2200 mm |
+| Standard widths | 400, 600, 800, 1000, 1200 mm | Standard width 400, 600, 800, 1000, 1200 mm |
+| Standard depths | 800, 1000, 1200 mm | Standard depth 800, 1000, 1200 mm |
+| Basic grid size | 25 mm | Basic grid size E=25 mm acc. to DIN 43660 |
+| Internal subdivision | up to Form 4 n/a | Internal subdivision up to Form 4 |
+| Maximum ambient temperature | 40 deg C | Highest temperature in short-term +40 ℃ |
+| 24-hour average temperature | 35 deg C | The highest average temperature in 24 hours +35 ℃ |
+| Minimum temperature | -5 deg C | The lowest temperature -5 ℃ |
+| Ambient relative humidity | 50 % at 40 ℃ | The ambient relative humidity is 50% at 40 ℃ |
+| Altitude derating threshold | 2000 m | In case that the switchgear is installed at elevation higher than 2,000 m, derating use of the equipment is needed |
+| Seismic/shock resistance | 0.63/6.3; marine standard resistance against shock of 5-100 Hz n/a | shock resistance value is 0.63/6.3; passed the test for marine standards of German Lloyd's Register of Shipping with resistance against shock of 5-100 Hz |
+| Main busbar cross-sections | 20x10, 30x10, 40x10, 60x10 mm | The cross-section area is 20x10 mm, 30x10 mm, 40x10 mm and 60x10 mm |
+| Primary connector life cycle | 1000 insertions | Operational life cycle up to 1000 insertions (independently certified) |
+| Reactive power compensation | 450 kvar maximum | maximum compensation capacity of 450 kvar |
+| Smallest withdrawable module | 8E/4 (up to 36 modules in equipment compartment) n/a | with the smallest 8E/4 module it is possible to physically define a maximum of 36 modules |
+| Module sizes | 8E/4, 8E/2, 4E, 6E, 8E, 12E, 16E, 20E, 24E n/a | Size of the modules: 8E/4, 8E/2, 4E, 6E, 8E, 12E, 16E, 20E, 24E |
+| Isolated position draw-out | 30 mm | ISOLATED position-The module is 30 mm drawn out of the section |
+| Module exchange time | less than 1 minute n/a | replacing a module takes less than a minute; MTTR ~1 min |
+| Standards | GB/T 7251.1/12-2013, IEC 61439-1/2, EN 61439-1/2, DIN_VDE 0660 Part 500, BS 5486, UTE 63-412, IEC 61641 n/a | Standards Design verified and Type-tested switchgear assemblies |
+| Installed base | over 1.5 million MNS switchgears delivered worldwide since 1973 n/a | over 1.5 million MNS® switchgears delivered worldwide since the inception of this system in 1973 |
 
 - **Siemens** Siemens SIVACON S8 low-voltage power distribution switchboard: low-voltage switchgear assembly / MCC
 
@@ -5689,6 +8511,13 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 | Everllence 18V51/60DF and 20V35/44G ga — Potential output, Sipitang 20V35/44G engines | 70 MW | Everllence press release 4 Dec 2025 prints 'potential output of more than 70 MW'; value is the printed threshold, not an exact rating |
 | AC metal-enclosed MV switchgear assemb — Rated voltage range | IEC 62271-200:2021 scope, IEC Webstore page read 2026-11-25 (value: above 1 k... | IEC 62271-200:2021 scope, IEC Webstore page read 2026-11-25 (value: above 1 kV and up to and including 52 kV) |
 | AC metal-enclosed MV switchgear assemb — Service frequency | IEC 62271-200:2021 scope (value: up to and including 60 Hz) | IEC 62271-200:2021 scope (value: up to and including 60 Hz) |
+| Total engines supplied to three Malaysian projects | 14 engines | 'Everllence is set to supply a total of 14 large engines with a combined output of over 240 MW to three new power-plant projects on the Malaysian part of the island of Borneo.' Press release 4 Dec 2025. |
+| 18V51/60DF GenSet for Kibing Solar | > 18 MW | '... supply with a new 18V51/60DF GenSet that will provide more than 18 MW' (adds to existing installation of more than 64 MW). Commissioning Q1 2026. Conflicting plant/engine figures as printed. |
+| KAB Energy seven 18V51/60DF engines | seven engines, total output 120 MW MW | 'signed a contract with KAB Energy Holdings to supply seven 18V51/60DF engines with a total output of 120 MW' (Labuan Island); commissioning planned end 2026. |
+| Sipitang seven 20V35/44G gas engines | seven engines, potential output > 70 MW for 52 MW power plant MW | 'seven 20V35/44G gas engines from Everllence with a potential output of more than 70 MW will cover the demand of the 52 MW power plant' - conflicting ratings preserved. |
+| Kimanis six 18V51/60DF engines | six engines, total output around 100 MW MW | 'supplying six 18V51/60DF engines for a power plant in Kimanis, Sabah. With a total output of around 100 MW'. |
+| 18V51/60DF dual-fuel switching | seamless switching between gaseous and liquid fuels during operation n/a | 'The 18V51/60DF engines allow seamless switching between gaseous and liquid fuels during operation.' |
+| Sabah renewable energy target | 35 % by 2035 | 'The State of Sabah alone aims to increase its share of renewable energy to 35% by 2035.' |
 
 
 Recorded gaps:
@@ -5734,6 +8563,10 @@ Vendors: Topsoe (0 model lines recorded).
 | Typical methanation section pressure | 25-35 bar absolute | Steam reforming, shift, CO2 removal and methanation each operate at about 25-35 bar absolute |
 | SynCOR syngas cleaning | nitrogen wash with purge and nitrogen addition qualitative | Topsoe comparison: conventional uses methanation; SynCOR uses nitrogen wash, enabling inert-free synthesis loop with no purge |
 | Pressure drop reduction vs sphere/cylinder catalysts | 30-70 % | Value as printed in the cited source; no further qualifier stated. |
+| Pressure drop reduction vs conventional shapes | 30-70 % lower | Topsoe Ammonia methanation: 'Compared to conventional sphere- or cylindrical-shaped methanation catalysts, the ring-shaped PK-5 enables 30-70% lower pressure drop.' |
+| Function | Topsoe: 'PK-5 catalyst — A catalyst for conversion of carbon oxides to methane.' | Topsoe: 'PK-5 catalyst — A catalyst for conversion of carbon oxides to methane.' |
+| Form | Topsoe: 'ring-shaped PK-5' | Topsoe: 'ring-shaped PK-5' |
+| Related catalyst PK-7R | Topsoe: 'PK-7R catalyst — A pre-reduced methanation catalyst used for convers... | Topsoe: 'PK-7R catalyst — A pre-reduced methanation catalyst used for conversion of carbon oxides to methane in ammonia plants, hydrogen plants and SNG plants.' |
 
 
 Recorded gaps:
@@ -5817,6 +8650,18 @@ Vendors: PALFINGER, Liebherr, Huisman Equipment (0 model lines recorded).
 | jib radius | up to 50 m | Value as printed in the cited source; no further qualifier stated. |
 | wire capacity | 3000 m | Value as printed in the cited source; no further qualifier stated. |
 | winterization | -50 °C | Value as printed in the cited source; no further qualifier stated. |
+| Hoisting capacity | 250 metric tons | 'Hoisting capacity up to 250 metric tons' |
+| Jib radius | 50 m | 'Jib radius up to 50 meters (engineering to order)' |
+| Main winch wire capacity standard | 3000 m | '3,000-meter wire capacity for standard range' |
+| Design standard | 'Design according to latest DNV-ST-0378'; class rules DNV, BV, LRS, ABS | 'Design according to latest DNV-ST-0378'; class rules DNV, BV, LRS, ABS |
+| Winterization temperature | -50 degC | 'reliable performance at temperatures as low as -50 °C' |
+| SWL range | 5 'AHC cranes with SWL ranging from 5 to 250 tons' | As printed on the cited catalogue page. |
+| Overload/operator systems | 'Overload protection systems: AOPS / MOPS'; 'Constant Tensioning / Suction Li... | 'Overload protection systems: AOPS / MOPS'; 'Constant Tensioning / Suction Lift-Off'; optional energy recuperation |
+| DKF1600C-100T main winch SWL | 100 t | PALFINGER AHC cranes product page, values stated approximate and subject to detailed configuration harbour load 100t@15m / 35t@35m; wire 3000m; aux SWL 10t (10t@35m, 1000m wire); power 900kW; total moment 3200Tm; operating weight 279t |
+| DKF1600C-150T main winch SWL | 150 t | PALFINGER AHC cranes product page, values stated approximate and subject to detailed configuration harbour load 150t@13m / 35t@35m; wire 3000m; aux SWL 15t (15t@35m, 1000m wire); power 900kW; total moment 3400Tm; operating weight 325t |
+| DKF2500C-150T main winch SWL | 150 t | PALFINGER AHC cranes product page, values stated approximate and subject to detailed configuration harbour load 150t@17m / 40t@35m; wire 3000m; aux SWL 15t (15t@35m, 1000m wire); power 1150kW; total moment 4000Tm; operating weight 372t |
+| DKF2500C-200T main winch SWL | 200 t | PALFINGER AHC cranes product page, values stated approximate and subject to detailed configuration harbour load 200t@14m / 45t@35m; wire 3000m; aux SWL 20t (20t@35m, 1000m wire); power 1150kW; total moment 5000Tm; operating weight 435t |
+| DKF2500C-250T main winch SWL | 250 t | PALFINGER AHC cranes product page, values stated approximate and subject to detailed configuration harbour load 250t@13m / 45t@37m; wire 3000m; aux SWL 25t (25t@37m, 1000m wire); power 1550kW; total moment 5000Tm; operating weight 505t |
 
 
 ### Drilling, grouting and seabed preparation (near-drilling-grouting-and-seabed-preparation)
@@ -5874,6 +8719,25 @@ Vendors: Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2026), 
 | Hydrohammer total range / operating history | 30 kJ to >7,500 kJ; >5.5 million piles installed; >97% availability kJ / count / % | IQIP Hydrohammer FAQ |
 | energy range (spread) | 100-6,250 kJ | Value as printed in the cited source; no further qualifier stated. |
 | MHU6000W | 200-6,250 kJ; 12,800 L/min; 210 bar; 30 bl/min kJ / L/min / bar / bl/min | Value as printed in the cited source; no further qualifier stated. |
+| Range energy | 100-6250 kJ | Our hammer spread unites double-acting hydraulic hammers (100 kJ to 6,250 kJ); Energy range up to 6,250 kJ |
+| Wind turbine foundations driven | 2500+ n/a | 2500+ Wind turbine foundations driven |
+| MHU100C energy range | 10-100 kJ | 100C Energy range 10-100 kJ |
+| MHU100C oil flow | 240 L/min | Recommended oil flow 240 L/min |
+| MHU100C operating pressure | 275 bar | Average operating pressure 275 bar |
+| MHU100C blow rate | 45 bl/min | Blow rate at recommended oil flow 45 bl/min |
+| MHU150S energy range | 15-150 kJ | 150S Energy range 15-150 kJ; oil flow 380 L/min; pressure 260 bar; blow rate 38 bl/min |
+| MHU300S energy range | 27-300 kJ | 300S Energy range 27-300 kJ; oil flow 650 L/min; pressure 270 bar; blow rate 40 bl/min |
+| MHU550S energy range | 50-550 kJ | 550S Energy range 50-550 kJ; oil flow 1150 L/min; pressure 225 bar; blow rate 38 bl/min |
+| MHU800S energy range | 75-820 kJ | 800S Energy range 75-820 kJ; oil flow 1600 L/min; pressure 250 bar; blow rate 38 bl/min |
+| MHU1200S energy range | 110-1200 kJ | 1200S Energy range 110-1200 kJ; oil flow 2400 L/min; pressure 245 bar; blow rate 38 bl/min |
+| MHU1900S energy range | 190-1900 kJ | 1900S Energy range 190-1900 kJ; oil flow 3200 L/min; pressure 250 bar; blow rate 32 bl/min |
+| MHU2400S energy range | 240-2400 kJ | 2400S Energy range 240-2400 kJ; oil flow 4000 L/min; pressure 250 bar; blow rate 32 bl/min |
+| MHU3500S energy range | 320-3500 kJ | 3500S Energy range 320-3500 kJ; oil flow 5800 L/min; pressure 240 bar; blow rate 32 bl/min |
+| MHU100C weight above (1.6 m foot) | 10.5 t | MHU100C - 1.6 m Foot 10.5 t |
+| MHU150S weight above (1.6 m foot) | 21.1 t | MHU150S - 1.6 m Foot 21.1 t |
+| MHU1200S weight above (84" foot) | 119 t | MHU1200S - 84" Foot 119 t |
+| MHU1900S weight above (84" foot) | 158 t | MHU1900S - 84" Foot 158 t |
+| MHU2400S weight above (3 m foot) | 251 t | MH2400S - 3 m Foot 251 t |
 
 
 ### Inspection: ROV, AUV and drone-based remote inspection (near-inspection-rov-auv-and-drone-based-remote-inspection)
@@ -6182,6 +9046,26 @@ Vendors: Alfa Laval, Chongqing Gathering Marine Equipment Co., Ltd. (1 model lin
 | YWC series 15 ppm bilge/oily water — Oil content in effluent | 15 ppm (maximum, as printed: less than or equal to 15 ppm) | Same product page: 'the oil content in effluent water <= 15ppm', compliant with IMO MEPC.107(49) |
 | YWC series 15 ppm bilge/oily water — Power of pump, model range | 0.37-2.2 kW | Same page, technical specification table YWC-0.25 to YWC-5.00 |
 | YWC series 15 ppm bilge/oily water — 15 ppm bilge alarm | Same page: '15ppm Bilge Alarm included' for all YWC-0.25 to YWC-5.00 models | Same page: '15ppm Bilge Alarm included' for all YWC-0.25 to YWC-5.00 models |
+| throughput_capacity_max | 60 m3/h | Technical specifications, throughput capacity max. 60 m3/h (9,000 bpd) 1) - maximum recommended operation flow rate depends on feed characteristics and OiW requirement at outlet |
+| throughput_capacity_max_bpd | 9000 bpd | Technical specifications, throughput capacity max. 60 m3/h (9,000 bpd) 1) |
+| discharge_volume_min_max | 15-35 l | Technical specifications, discharge volyme min /max. 15/35 l |
+| feed_temperature | 0-100 degC | Technical specifications, Feed temp 0-100 oC |
+| bowl_speed | 4136 rpm | Technical specifications, Bowl speed 4,136 rpm |
+| bowl_volume | 59 l | Technical specifications, Bowl volume 59 l |
+| motor_power_installed_max | 45 kW | Technical specifications, Motor power installed max. 45 kW (60 HP) |
+| motor_power_installed_max_hp | 60 HP | Technical specifications, Motor power installed max. 45 kW (60 HP) |
+| sound_pressure | 80 dB(A) | Technical specifications, Sound pressure 80 dB(A) |
+| separated_oil_droplet_size_min | 2 um | The OFPX 517 separates oil droplet sizes as low as 2um |
+| oil_in_water_output | ?-15 ppm | proven to separate oil from water to levels of less than 15ppm |
+| skid_width | 2900 mm | Skid weight and dimensions (approximate): Width 2,900 mm |
+| skid_depth | 2600 mm | Skid weight and dimensions (approximate): Depth 2,600 mm |
+| skid_height | 2700 mm | Skid weight and dimensions (approximate): Height 2,700 mm |
+| skid_weight_in_operation | 5500 kg | Skid weight and dimensions (approximate): Weight (in operation) 5,500 kg |
+| backup_water_consumption | 5 m3/h | Utilities consumption: Back-up water 5m3/h (intermittent supply only) |
+| operating_water_consumption | 200 l/day | Utilities consumption: Operating water 200 l/day |
+| cooling_water_consumption | 300 l/h | Utilities consumption: Cooling water 300 l/h |
+| inert_gas_consumption | 100-400 Nl/h | Utilities consumption: Inert gas 100-400 Nl/h, 20 Nm3/h for 3 min. at start-up |
+| design_standard_ATEX | ATEX zone 1 or 2 / Class I div I or Class I div II n/a | Design standards: ATEX zone 1 or 2; Class I div I or Class I div II; complies to EC ATEX directive category 2, hence hazardous area zone 1 and 2 |
 
 - **Alfa Laval** Alfa Laval OFPX 517 three-phase disc-stack centrifuge for oily water treatment: skid-mounted centrifugal oily-water separator
 
@@ -6212,6 +9096,22 @@ Vendors: Everllence, GE / GE Energy, Wärtsilä (3 model lines recorded).
 | MAN 175D standardised spare parts  — prompt delivery target for high-demand OEM spare parts | 24 hours | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.15: 'Prompt delivery of high-demand OEM spare parts within 24 hours'; same page notes a network of over 100 service centres worldwide and 24/7 service. |
 | MAN 175D standardised spare parts  — local stock of consumable parts | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.2: 'Local stocks of consum... | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.2: 'Local stocks of consumable parts can be provided upon request'; original spare parts supplied from main stock and warehouse facilities in Denmark. |
 | Reconditioned exchange components — components offered as reconditioned units on exchange basis | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.8: 'Components offered as ... | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.8: 'Components offered as reconditioned units on exchange basis are cylinder heads, turbochargers, fuel injectors and cooling water pumps'; re-manufactured at the MAN 175D production centre in Frederikshavn, Denmark, with the same warranty terms and quality as new units at lower cost. |
+| Local staff | over 15 professionals people | 'today it has over 15 professionals in 2 different locations in Kuala Lumpur and Pasir Gudang, Johor to serve our customers in the East and West Malaysia.' |
+| Kuala Lumpur office address | Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia n/a | Contact us block on wartsila.com/mys, © 2026 Wartsila. |
+| CSA service term (Kimanis Power) | 18 years | GE press release 14 June 2011: 'GE has signed a contractual service agreement (CSA) with Kimanis Power Sdn Bhd to support the plant for 18 years.' |
+| Plant capacity | 300 MW | GE: 'the 300-megawatt combined cycle gas-fired power plant project in Sabah, Malaysia'; 'three combined-cycle blocks of approximately 100 megawatts each' |
+| Equipment supplied | 3 Frame 6FA gas turbines | GE: 'will supply three Frame 6FA gas turbines, associated generators and services' |
+| GE long-term service agreements installed base | 700 sites (more than) | GE: 'To date, GE has long-term service agreements in place at more than 700 sites worldwide.' |
+| 6FA fleet experience | GE: 'More than 100 units have been installed worldwide and have completed mor... | GE: 'More than 100 units have been installed worldwide and have completed more than three million hours of service' |
+| Engine type | V type, 12, 16 or 20 cylinders n/a | The MAN 175D engine is a V type, available with 12, 16 or 20 cylinders |
+| Bore | 175 mm | with 175 mm bore for mechanical or electric propulsion and onboard power generation |
+| Speed range | 1500-2000 rpm | Running from 1,500 to 2,000 rpm |
+| Ratings | 1440-4400 kW | it features ratings from 1,440 to 4,400 kW |
+| Service levels | L1 to L5 n/a | Maintenance, operational checks and overhaul tasks are seen as five individual service levels (L1 to L5) |
+| Service centres | 100 worldwide | Via a network of over 100 service centers worldwide, MAN PrimeServ provides 24/7 service |
+| Spare parts delivery | within 24 hours n/a | Prompt delivery of high-demand OEM spare parts within 24 hours |
+| Training duration | Four-day training for Standard and Advanced courses, and four weeks training for the Expert course n/a | Training type: Four-day training for Standard and Advanced courses, and four weeks training for the Expert course |
+| Standard spare parts packages | Post-commissioning, Mechanical, After-treatment, Automation n/a | This package includes ... four standardized spare parts packages |
 
 - **Everllence** MAN PrimeServ spare parts packages (EXCLUDED by the line item - context only): OEM spare parts packages - out of scope for this line item
 - **GE / GE Energy** GE contractual service agreement (long-term service support): OEM long-term service / spare-parts availability arrangement (non-MAN)
@@ -6317,6 +9217,39 @@ Vendors: ABB, Honeywell, Emerson (duplex stainless steel option on Roxar 2600, p
 | Yokogawa CENTUM VP integrated prod — serial I/O points, BP Sharjah DCS | 2500 serial I/O points | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), BP Sharjah System Details: 'Number of serial I/O: 2,500, 32 subsystems'. Read via r.jina.ai proxy 25 Nov 2026. |
 | Yokogawa CENTUM VP integrated prod — subsystems integrated, BP Sharjah DCS | 32 subsystems | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), BP Sharjah System Details: '2,500, 32 subsystems' and 'The need to integrate 32 subsystems spanning a variety of communication protocols'. Read via r.jina.ai proxy 25 Nov 2026. |
 | Yokogawa CENTUM VP integrated prod — cabinets, BP Sharjah DCS | 14 cabinets | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), BP Sharjah System Details: 'Number of cabinets: 14 (including 8 extensions to existing cabinets)'. Read via r.jina.ai proxy 25 Nov 2026. |
+| Target industries | Emerson: 'The Ovation Distributed Control System is purposely designed for th... | Emerson: 'The Ovation Distributed Control System is purposely designed for the power generation and water/wastewater industries.' |
+| Platform version | Ovation Automation Platform 4.0 text | Emerson: 'Ovation Automation Platform 4.0 — Purposeful, software-defined automation'; 'Ovation 4.0 Controllers and I/O' |
+| Controller / I/O model lines | Emerson lists 'OCR3000 Controller, OCC100 Controller, OMC100 Controller, SDC1... | Emerson lists 'OCR3000 Controller, OCC100 Controller, OMC100 Controller, SDC100 Controller, Ovation I/O, Machinery Health Monitor' |
+| I/O construction | Emerson: 'Ovation I/O features modular, plug-in components ... Fast DIN rail ... | Emerson: 'Ovation I/O features modular, plug-in components ... Fast DIN rail installation, built-in connectors, and electronic ID ... With hot-swappable modules, standardized diagnostics' |
+| Market positioning | 'According to ARC Advisory Group's Distributed Control Systems for Power Gene... | 'According to ARC Advisory Group's Distributed Control Systems for Power Generation Global Market Research 2024–2029, Emerson's Ovation is positioned as the leading distributed control system for power generation globally and across North America.' |
+| User memory | 32768 MU (Memory Units) | Honeywell C300 Specifications: 'User Memory 32,768 MU (Memory Units)' |
+| Execution units | 9000 XUs | Honeywell: 'Execution Units (XUs) 9000 XUs' |
+| Execution period | 50 ms (Standard) | Honeywell: 'Execution Period 20 ms not supported for PCNT05; 50 ms (Standard)' |
+| Temperature rating | -40-70 deg C | Honeywell: 'Temperature Rating –40 to +70°C' |
+| Tagged blocks | 4095  blocks (up to) | Honeywell: 'Tagged Blocks Up to 4095' |
+| Switchover time | 500 ms (approximately) | Honeywell: 'Switchover Time ~500 ms' |
+| Synchronization time | 240 sec (approximately) | Honeywell: 'Synchronization Time ~240 sec' |
+| I/O HIVE parameter references | 1500 references | Honeywell: 'I/O HIVE Capacity 1500 IO HIVE Parameter References' |
+| CN100 connections | 15  connections (up to) | Honeywell: 'Up to 15 CN100 Connections' |
+| Redundancy | Honeywell: 'Supports 1:1 redundancy with dedicated IOTA and redundancy cable'... | Honeywell: 'Supports 1:1 redundancy with dedicated IOTA and redundancy cable'; 'C300v5 (PCNT05)... supports traditional 1:1 redundant and Control HIVE deployment' |
+| Supported protocols | Honeywell: 'EtherNet/IP, Profinet, FOUNDATION Fieldbus, HART, IEC61850, OPC U... | Honeywell: 'EtherNet/IP, Profinet, FOUNDATION Fieldbus, HART, IEC61850, OPC UA, Profibus and Modbus'; spec table: 'CDA peer-to-peer, EtherNet/IP via EIM, Foundation Fieldbus via FIM4/FIM8, Modbus/TCP via PCDI, Profibus via PGM, Profinet via EIM, VLAN-based IO HIVE' |
+| Security certifications | Honeywell: 'Embedded Firewall; ISA Secure CSA L2 Certified' | Honeywell: 'Embedded Firewall; ISA Secure CSA L2 Certified' |
+| Time sources / update periods | Honeywell: 'Time Sources NTP | PTPv2'; 'SNTP Update Period 1 min'; 'PTP Updat... | Honeywell: 'Time Sources NTP | PTPv2'; 'SNTP Update Period 1 min'; 'PTP Update Period 30 sec' |
+| Models / form factor | Honeywell: 'Models C300 (PCNT05)'; 'Form Factor Series C'; 'Mounting Type On ... | Honeywell: 'Models C300 (PCNT05)'; 'Form Factor Series C'; 'Mounting Type On Input Output Termination Assembly (IOTA)'; 'Memory Backup CC-SCMB05 Module for Power-Loss Recovery' |
+| Plant generating capacity (Patau-Patau) | 112 MWe | Valmet press release 1 July 2016: 'generating set includes three gas turbines and one steam turbine, featuring a total generating capacity of 112 megawatts electric (MWe)' |
+| Automation scope | Valmet: 'integrates boiler, feedwater and turbine control into one Valmet DNA... | Valmet: 'integrates boiler, feedwater and turbine control into one Valmet DNA automation platform'; delivery 'includes a Valmet DNA automation system, an information management application, a turbine controller for an AEG Kanis steam turbine, integration of two existing GE F6 gas turbine controllers into Valmet DNA, engineering and commissioning' |
+| Startup date | Valmet: 'The new automation system will be started up in July 2016.' | Valmet: 'The new automation system will be started up in July 2016.' |
+| Typical automation delivery order value | 1-3 EUR million (below 1 to 3, typical range; actual not disclosed) | Valmet: 'The value of the order will not be disclosed. Typically the order value of automation system deliveries ranges from below EUR one million to EUR three million.' |
+| ProSafe-RS - SIL certification | TUV certified as a safety system satisfying SIL 3 of IEC 61508 n/a | Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00 |
+| CENTUM VP - Vnet/IP communication speed | 1 Gbps (L2SW in Vnet/IP domain) | Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00 |
+| CENTUM VP - Vnet/IP devices per domain | 64 n/a | Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00 |
+| CENTUM VP - domains per system | 16 n/a | Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00 |
+| CENTUM VP - stations per system | 256 n/a | Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00 |
+| CENTUM VP - operation/monitoring tags | 100000 maximum; up to 1,000,000 per system with LHS4000 | Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00 |
+| CENTUM VP - domain layers via Vnet routers | 3 layers (2 layers for bus converter, 3 layers for Vnet) n/a | Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00 |
+| CENTUM VP - minimum system configuration | HIS x 1, ENG x 1, FCS x 1 (HIS and ENG can be consolidated in one computer) n/a | Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00 |
+| CENTUM VP - supported OS | Windows Vista Business, Windows 7 Professional, Windows Server 2008 Standard, Windows Server 2008 R2 Standard n/a | Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00 |
+| CENTUM VP - subsystem communication protocols | Serial (ALR111/ALR121), Ethernet (ALE111), PROFIBUS-DP (ALP121/ALP111), Modbus, EtherNet/IP, OPC DA, IEC 61850 IED, FOUNDATION fieldbus, HART, field wireless ISA 100.11a n/a | Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00 |
 
 - **ABB** ABB Ability System 800xA (DCS with High Integrity SIS): integrated control and safety system (ICSS)
 - **Honeywell** Honeywell Experion PKS C300 controller: DCS controller
@@ -6385,6 +9318,20 @@ Vendors: CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group a
 | Power transformer (oil-immersed, g — First 132/11 kV power transformer rating | 45 MVA | MTM achievements: '2001 : First 132/11 kV Power Transformer (45 MVA)'. Printed milestone dated 2001. |
 | Power transformer (oil-immersed, g — 33/11 kV power transformer rating in service with TNB | 30 MVA | MTM achievements: 'More than 250 units of 30 MVA 33/11 kV successfully manufactured and put to service since 1994' and '8 x 30 MVA 132/11 kV ... since 2001'. Printed dates 1994/2001. |
 | Power transformer (oil-immersed, g — 240 MVA 275/132/33 kV transformer retrofit (unit size) | 240 MVA | MTM services list: '2007 : 240 MVA 275/132/33 kV for PMU Ayer Tawar, Perak Malaysia'. Printed year 2007. |
+| Manufacturing capacity | 75000 MVA annually | manufacturing capacity of 75,000 MVA annually across 10 plants on three continents |
+| India production | 30000 MVA annually | produces over 30,000 MVA annually in India alone |
+| Plants | 10 count | across 10 plants on three continents |
+| Countries served | 135 countries | network of sales agents and customers in over 135 countries |
+| Transformer range | 5 kVA to 575,000 kVA (1.5 M kVA in a bank) n/a | capability to produce transformers from 5kVA to 575,000 kVA (1.5M kVA in a bank) |
+| Voltage class | 3.3 kV to 765 kV n/a | 3.3kV to 765 kV class for various applications |
+| UHV reference | 750 kV transformers supplied in 1977; 800 kV class n/a | Having supplied 750 kV transformers as early as in 1977, CG Electric Systems Hungary has been one of the early manufacturers of 800kV class transformers |
+| 765 kV unit | 260 MVA, 765 kV, single phase generator transformer n/a | 260 MVA, 765 kV, Single Phase Generator Transformer supplied by CG India to NTPC was the first 765 kV transformer manufactured in India |
+| Standards | IS, IEC, EN, AS, BS, ANSI, CSA n/a | adheres to international standards such as IS, IEC, EN, AS, BS, ANSI, and CSA |
+| Certifications | ISO 9001, ISO 14001, OSHAS 18001 n/a | certified with ISO 9001, ISO 14001, and OSHAS 18001 |
+| Installed base | over 600 units installed in 75 countries n/a | over 600 units installed in 75 countries |
+| Company sales | over INR 138.5 Billion (US$3 Billion approx) n/a | current sales of over INR 138.5 Billion (US$3 Billion approx) |
+| Core construction | CRGO low loss silicon steel; Hi-B grade and laser scribed laminations; five-limb core n/a | Transformer Cores are built with CRGO, low loss silicon steel laminations ... five-limb core construction for reduced height |
+| Winding conductor | electrolytic grade copper or epoxy bonded continuously transposed conductors (CTC) n/a | winding process uses electrolytic grade copper or epoxy bonded continuously transposed conductors (CTC) |
 
 - **CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group and Ganz)** CG Power Systems (Crompton Greaves) Power Transformers product range: power transformer
 
@@ -6463,6 +9410,28 @@ Vendors: Babcock & Wilcox, Cleaver-Brooks (0 model lines recorded).
 | Furnace firing temperature | 2800 deg F (up to) | Max-Fire Product Overview: 'integral water-cooled furnace utilizing membrane-wall construction for firing temperatures up to 2800 F', avoiding high-maintenance refractory |
 | Furnace construction | 100% membrane water-cooled, refractory free; welded front and rear walls also water cooled construction | CBCW Product narrative and Product Overview |
 | Styles | D-type and O-type styles | CBCW Technical Data table |
+| Exhaust gas flow | 1000000-lb/hr 'Exhaust Gas Flows (lb/hr) Up to 1,000,000' | As printed on the cited catalogue page. |
+| Steam flow | 10000 'Steam Generation from 10,000 to 500,000 lb/hr' | As printed on the cited catalogue page. |
+| Design pressure | 1800 psig | 'Design pressure up to 1,800 psig' |
+| Steam temperature | 1050 deg F | 'Steam temperature to 1,050 deg F' |
+| Duct firing temperature | 2800 deg F | 'fired up to 2800 deg F' / 'Duct Firing Temperature Up to 2,800 deg F' |
+| Gas turbine size range | 3 'Gas Turbine Size 3 MW - 25 MW' | As printed on the cited catalogue page. |
+| Efficiency | 80 % | 'The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies' |
+| Traditional technology efficiency | 56 % | same comparative statement |
+| Fuel reduction | 7.0 MMBtu/hr | 'It reduces up to 7.0 MMBtu/hr of fuel in conventional boilers' |
+| CO2 avoidance | 2870 tons per year | 'eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output' |
+| NOx with SCR | 2 ppm | 'Supplemental firing with stack emissions available to less than 2 ppm NOx with SCR' |
+| Models | 'MF (O-style) and MFA (A-style)' with furnace; 'VL (O-style) and VLA (A-style... | 'MF (O-style) and MFA (A-style)' with furnace; 'VL (O-style) and VLA (A-style)' without furnace |
+| Assembly/circulation | 'Shop Assembled', 'Natural Circulation', 'Membrane Wall Construction' | 'Shop Assembled', 'Natural Circulation', 'Membrane Wall Construction' |
+| CBCW - steam flow range | 10000-225000 lb/hr | Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated |
+| CBCW - steam pressure range | 100-550 psig on steam | Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated |
+| CBCW - steam temperature | Saturated n/a | Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated |
+| CBCW - NOx emissions | <9 ppm (available); <2 ppm with ultra-low NOx burner and SCR n/a | Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated |
+| CBCW - fuels | Natural Gas, Propane, Digester, #2 Light Oil n/a | Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated |
+| CBCW - assembly | Shop Assembled; Natural Circulation; Membrane Wall Construction n/a | Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated |
+| CBCW - style | D-type, O-type; 100% membrane water-cooled furnace, refractory-free n/a | Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated |
+| CBCW - control system | Cleaver-Brooks Hawk 4500 control n/a | Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated |
+| CBCW - delivery lead-time reduction | 12 weeks (up to) | Cleaver-Brooks CBCW Integrated Watertube Boiler product page, product overview and Technical Data attribute table; no print date stated |
 
 
 Recorded gaps:
@@ -6493,6 +9462,40 @@ Vendors: Cleaver-Brooks, Babcock & Wilcox (0 model lines recorded).
 | Heat transfer increase | 85 % | CBEX Product Overview: extended heat transfer tubes with CFD-optimized geometry increase heat transfer by 85% |
 | Effective heat transfer surface | 5 times greater than other condensing boilers | ClearFire-CE Product Overview: AluFer tube technology increases effective heat transfer surface area up to five times |
 | Thermal conductivity | 10 times greater than stainless steel alone | ClearFire-CE Product Overview |
+| steam_pressure_max | 300 psig | Product page header: Steam up to 300 psig |
+| hot_water_pressure_max | 125 psig | Product page header: Hot water up to 125 psig |
+| boiler_horsepower | 100-2500 HP | Product page header: 100 to 2,500 HP; Attributes: Boiler Horsepower 100 - 2,500 (CBEX-2W), 250 - 800 (CBEX-2D), 250 - 800 (CBEX-3W) |
+| input_capacity | 4000-102000 not stated | Attributes: Input Capacity 4,000 - 102,000 (unit not printed on page) |
+| number_of_passes | 2 and 3 n/a | Product page header: 2 Pass and 3 Pass; Attributes: Number Of Passes 2 and 3 |
+| fuel | Natural gas/propane, #2 light oil, combination n/a | Product page header and Attributes: Fuel Gas, #2 Oil, Combination |
+| NOx_emissions_by_model | <5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800) ppm | Attributes: Emissions (ppm NOx) - printed per model |
+| NOx_without_SCR | ?-5 ppm | Sub 5 ppm NOx without SCR available on most models; can burn renewable fuels and meets lowest possible emissions of <5 ppm NOx, <10 ppm CO without SCR |
+| CO_emission | ?-10 ppm | Meets 10 ppm CO requirement; <10 ppm CO without SCR |
+| turndown_ratio | 10 to 1 | Offers 30 ppm NOx with 3% O2 across the 10:1 turndown range |
+| heat_transfer_increase | 85 % | Extended heat transfer tubes only found in EX systems uses CFD calculations to optimize the geometry of the tube and increase heat transfer by 85% |
+| vessel_design | Firetube n/a | Attributes: Vessel Design Firetube |
+| waterback_dryback | Waterback or Dryback design n/a | Product page header: Waterback or Dryback design; two-pass waterback or dryback design |
+| ClearFire-CE - number of models | 11 n/a | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| ClearFire-CE - input capacity | 500-6000 MBH | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| ClearFire-CE - AHRI combustion efficiency | 94.7 % | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| ClearFire-CE - AHRI thermal efficiency | 96 % | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| ClearFire-CE - design temperature | 210 degF | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| ClearFire-CE - NOx emissions | <20 ppm standard; sub 7 ppm available n/a | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| ClearFire-CE - turndown | 10:1 fully modulating n/a | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| ClearFire-CE - number of passes | 1 n/a | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| ClearFire-CE - vessel design / fluid | Firetube; Hot Water n/a | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| ClearFire-CE - fuels | Natural Gas, Propane, Combination firing n/a | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| ClearFire-CE - heat exchanger technology | Patented TurboFer heat exchanger with integrated Ember controls; fully condensing high-mass design n/a | Cleaver-Brooks ClearFire-CE Boiler product page, overview and Technical Data attribute table; no print date stated |
+| Wall thicknesses | Multiple wall thicknesses n/a | Multiple wall thicknesses |
+| Tube material | premium ERW SA178 steel n/a | Our boiler tubes are manufactured using premium ERW SA178 steel |
+| Standard | ASME Boiler & Pressure Vessel Code n/a | produced to meet ASME Boiler & Pressure Vessel Code requirements; ASME compliance |
+| Heat exchanger bending OD | 0.75-1.5 in | Bending capabilities include ¾” to 1 ½” OD tubes |
+| Heat exchanger bending radius | 2-15.5 in | radius sizes ranging from 2” to 15 ½” |
+| Tube replacement bending OD | 1.5-4 in | Hot and cold bending capabilities include 1 ½” up to 4” OD |
+| Bending techniques | Boost, mandrel or hot bending n/a | Boost, mandrel or hot bending techniques are used to ensure constant uniform tube wall thickness |
+| Other tube types | Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging n/a | Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging |
+| Materials for heat exchangers | stainless and mild steel n/a | We use a variety of materials including stainless and mild steel |
+| Tube types | Standard straight, rifled (XID), bent, custom n/a | Types of Boiler Tubes list |
 
 
 Recorded gaps:
@@ -6513,6 +9516,24 @@ Vendors: Babcock & Wilcox (0 model lines recorded).
 | Drum arrangement | Large separate steam drums with high efficiency drum internals design feature | Modular HRSG Product Overview bullets |
 | Circulation | Vertical tube natural circulation; hydraulically matched downcomers and risers design feature | Modular HRSG Product Overview bullets and Technical Data table 'Vertical Tube with Steam Drum' |
 | Drum design | Large steam drums to assure ample steaming area; downcomers on both ends of boiler design feature | Max-Fire Product Overview bullets |
+| Gas flow | 1000000 lb/hr (up to) | "Gas flows up to 1,000,000 lb/hr" |
+| Steam generation | 10000-500000 lb/hr | "Steam Generation from 10,000 to 500,000 lb/hr" |
+| Design pressure | 1800 psig (up to) | "Design pressure up to 1,800 psig" |
+| Steam temperature | 1050 degF (up to) | "Steam temperature to 1,050 °F"; attribute table "Steam Temperature Up to 1,050 deg F" |
+| Duct firing temperature | 2800 degF (up to) | "membrane/water-cooled furnace technology allows it to be fired up to 2800°F" |
+| NOx with SCR | 2 ppm (less than) | "Supplemental firing with stack emissions available to less than 2 ppm NOx with SCR" |
+| Gas turbine size range | 3-25 MW | Attribute table: "Gas Turbine Size 3 MW - 25 MW" |
+| Thermal efficiency | 80 % (greater than) | "The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies" |
+| Fuel reduction | 7 MMBtu/hr (up to) | "It reduces up to 7.0 MMBtu/hr of fuel in conventional boilers" |
+| CO2 emissions avoided | 2870 tons per year per 1 MWe GT output | "eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output" |
+| Models | "The MF (O-style) and MFA (A-style) models ... The VL (O-style) and VLA (A-st... | "The MF (O-style) and MFA (A-style) models ... The VL (O-style) and VLA (A-style) models offer an evaporator section without a furnace" |
+| Gas turbine size | 25-60 MW | Custom designed to recover heat from 25 to 60 MW gas turbine-generators |
+| Turbine exhaust gas flow | 500000-1000000 lb/hr | Turbine exhaust gas flows from 500,000 to 1,000,000 lbs/hr |
+| Superheater outlet temperature | ?-1050 degF | superheater outlet temperature of 1,050°F |
+| Stack emissions NOx | ?-2 ppm | Stack emissions available to less than 2 ppm NOx with SCR |
+| HRSG efficiency | 80-? % | The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies. |
+| CO2 elimination | ?-2870 tons/yr per MWe GT output | eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output |
+| Construction | Vertical Tube with Steam Drum n/a | Construction: Vertical Tube with Steam Drum |
 
 
 Recorded gaps:
@@ -6590,6 +9611,11 @@ Vendors: SensoTech GmbH, Stamicarbon, LESER, Badotherm, AMMO (0 model lines reco
 | concentration range | 0-100 m% | typical measuring range |
 | temperature range | -10-140 degC | typical measuring range |
 | sensors per Controller 30 | 4 count | controller specification |
+| Nitric acid mono-pressure capacity | ?-600 MTPD | mono- and dual-pressure nitric acid production processes for a wide range of plant capacities up to 600 MTPD (mono-pressure) |
+| Nitric acid dual-pressure capacity | 2000-? MTPD | or 2000 MTPD and above (dual-pressure) |
+| Market position | technology used in half of the world's urea plants n/a | our knowledge and technology are already being used in half of the world's urea plants |
+| Product lines | STAMI UREA; STAMI DIGITAL; STAMI GREEN AMMONIA; STAMI NITRIC ACID; STAMI SPECIALTIES n/a | Sections of the solution-provider page |
+| Solution provider since | 2014 year | Solution Provider since 2014 |
 
 
 Recorded gaps:
@@ -6663,6 +9689,32 @@ Vendors: Bosch Industriekessel (1 model lines recorded).
 | Bosch Praesideo digital public address — emergency standard certification | Bosch Praesideo databook certifications table, read via r.jina.ai: 'EVAC (TÜV... | Bosch Praesideo databook certifications table, read via r.jina.ai: 'EVAC (TÜV certified) acc. to IEC 60849 / BS 5839-8'; 'Praesideo is the first system to be certified according to the IEC 60849 standard'. (value: IEC 60849 / BS 5839-8 (TÜV certified), controller and amplifiers) |
 | Bosch Praesideo digital public address — backup supply | 48 VDC backup battery input | Bosch Praesideo databook PRS-NCO-B, read via r.jina.ai: 'The controller operates both on mains power and on a 48 V battery power supply for emergency back up, with automatic switchover.' |
 | Bosch Praesideo digital public address — network controller node capacity | 60 nodes | Bosch Praesideo databook PRS-NCO-B, read via r.jina.ai: 'The network controller can control up to 60 nodes.' |
+| emergency_standard_certification | IEC 60849 certified (first system certified); EVAC TUV certified acc. to IEC 60849 / BS 5839-8 n/a | IEC 60849 Certified; Certifications and Approvals: EVAC (TUV certified) acc. to IEC 60849 / BS 5839-8 |
+| simultaneous_audio_channels | 28 channels | PRS-NCO-B Network Controller: Control and routing of 28 audio channels; routes up to 28 simultaneous audio channels |
+| audio_inputs_outputs | 4 each | Fully digital with four audio inputs and four audio outputs (network controller) |
+| control_inputs_outputs | 8-5 inputs / outputs | Eight supervised control inputs and five control outputs (network controller) |
+| max_system_nodes | 60 nodes | The network controller can control up to 60 nodes |
+| fault_message_memory | 200 messages | Stores the last 200 fault events / fault messages |
+| priorities | 256 n/a | The system can handle 256 priorities, for calls to hundreds of zones |
+| mains_supply_voltage | 115-230 VAC | Technical Specifications Electrical, Mains power supply voltage 115/230 VAC +/-10%, 50/60 Hz |
+| mains_frequency | 50-60 Hz | Technical Specifications Electrical, mains power supply 50/60 Hz |
+| mains_power_consumption | 14-150 W | Power consumption 14 W with no load; 150 W with maximum load (network controller) |
+| battery_backup_voltage | 48 VDC | Battery power supply voltage 48 VDC -10% to +20% (network controller); supervised 48 VDC backup on amplifiers |
+| frequency_response | 20-20000 Hz | Performance, frequency response 20 Hz to 20 kHz (-3 dB) |
+| operating_temperature | -10-55 degC | Environmental, operating temperature -10 degC to +55 degC (14 degF to +131 degF) |
+| storage_temperature | -40-70 degC | Environmental, storage temperature -40 degC to +70 degC |
+| humidity | 15-90 % | Environmental, humidity 15% to 90% |
+| air_pressure | 600-1100 hPa | Environmental, air pressure 600 to 1100 hPa |
+| network_controller_dimensions_HxWxD | 92 x 440 x 400 mm | Mechanical, dimensions (H x W x D) for tabletop use with feet 92 x 440 x 400 mm (3.6 x 17.3 x 15.7 in) |
+| network_controller_weight | 7 kg | Mechanical, weight 7 kg (15.4 lb) |
+| amplifier_total_power_rating | 500 W | The overall power rating is 500 watts for all of the amplifiers |
+| amplifier_channel_configurations | 1 x 500 W; 2 x 250 W; 4 x 125 W; 8 x 60 W n/a | LBB 4421/10 1x500 W, LBB 4422/10 2x250 W, LBB 4424/10 4x125 W, LBB 4428/00 8x60 W |
+| loudspeaker_output_voltages | 100 / 70 / 50 V | Power amplifiers can be selected for 100 V, 70 V and 50 V output tapping |
+| amplifier_mains_supply | 100-240 VAC | LBB 442x/xx mains power supply voltage 100 to 240 VAC +/-10%, 50/60 Hz |
+| multichannel_interface_outputs | 16 channels | PRS-16MCI provides 16 configurable output channels (14 main outputs and two spare outputs); 32 control inputs and 16 control outputs |
+| plastic_fiber_segment_length | ?-50 m | Plastic fiber is used to interconnect nodes, which are less than 50 meters apart; for more than 50 meters multi-mode glass fiber is used |
+| remote_call_station_cat5_max_length | 1000 m | Remote call station connects via CAT 5 cable with a maximum length of 1000 meters |
+| safety_emissions_standards | IEC 60065-98; EN 55103-2; EN 55103-1 / FCC-47 part 15B n/a | Certifications and Approvals: Safety acc. to IEC 60065-98; Immunity acc. to EN 55103-2; Emissions acc. to EN 55103-1 / FCC-47 part 15B |
 
 - **Bosch Industriekessel** Bosch Praesideo digital public address and emergency sound system: public address / voice evacuation system
 
@@ -6757,6 +9809,19 @@ Vendors: Grundfos, Cleaver-Brooks, Atlantic Feedwater Systems, Changyu Pump (0 m
 | Guardian-Plus motor voltage | 115/208-230 V | Printed in Product Details table; single/three phase |
 | Guardian-Plus tank capacity | 15-110 gal (cast iron); 21-110 rectangular; 49-1000 cylindrical | Printed in Product Details table |
 | Water temperature capability | 250 deg F | Printed under Benefits and Features: 'Versatile compatibility of handling 250˚F water' |
+| Guardian_pump_capacity | 10-18 GPM | Product table: Guardian Pump Capacity (GPM) 10 - 18 |
+| Guardian_discharge_pressure | 20 psig | Product table: Guardian Discharge Pressure (psig) 20 |
+| Guardian_motor_power | 0.333 HP | Product table: Guardian Motor Power 1/3 HP |
+| Guardian_motor_speed | 3450 RPM | Product table: Guardian Motor Speed 3450 RPM |
+| Guardian_motor_voltage | 115/208-230 V | Product table: Guardian Motor Voltage 115/208-230 V, Single phase |
+| Guardian_tank_capacity | 6-21 gal | Product table: Guardian Tank Capacity 6-21 gal, Cast Iron |
+| GuardianPlus_pump_capacity | 1.5-150 GPM | Product table: Guardian-Plus Pump Capacity (GPM) 1.5 - 150 |
+| GuardianPlus_discharge_pressure | 10-70 psig | Product table: Guardian-Plus Discharge Pressure (psig) 10-70 |
+| GuardianPlus_motor_power | 0.333-10 HP | Product table: Guardian-Plus Motor Power 1/3 to 10 HP |
+| GuardianPlus_motor_speed | 1750 or 3450 RPM | Product table: Guardian-Plus Motor Speed 1750 or 3450 RPM |
+| GuardianPlus_motor_voltage | 115/208-230 V | Product table: Guardian-Plus Motor Voltage 115/208-230 V, Single/Three phase |
+| GuardianPlus_tank_capacity | 15-110 gal | Product table: Guardian-Plus Tank Capacity 15-110 gal, Cast Iron |
+| water_temperature_capability | 250 degF | Versatile compatibility of handling 250 degF water |
 
 
 Recorded gaps:
@@ -6825,6 +9890,9 @@ Vendors: Spirax Sarco, TLV (0 model lines recorded).
 | water level indicators | 2 count | Boilers rated 100 kW or more have at least two water level indicators |
 | recommended maximum TDS | 2000-10000 ppm | Engineering ToolBox: normally 2,000-10,000 ppm depending on boiler type |
 | Method | Safe, proven, economical flash purification process for blowdown effectiveness and disposal process | Blowdown Systems catalog listing: 'Cleaver-Brooks model BDS blowdown separators and model BDT tanks use a safe, proven, economical flash purification process' |
+| Model designations | 'Cleaver-Brooks model BDS blowdown separators and model BDT tanks' | 'Cleaver-Brooks model BDS blowdown separators and model BDT tanks' |
+| Process | 'use a safe, proven, economical flash purification process for facilitating b... | 'use a safe, proven, economical flash purification process for facilitating blowdown effectiveness and disposal' |
+| Catalog items found | 3 items | '3 Items Found': Blowdown Heat Recovery; Blowdown Systems; Flash Tank Heat Recovery |
 
 
 Recorded gaps:
@@ -6867,6 +9935,66 @@ Vendors: ABB, MRU Instruments (as listed by Instrumart) (1 model lines recorded)
 | ABB system components for sample gas s — modular probe system regulatory applicability | ABB Data Sheet 10/23-5.10 EN, November 2006, read via r.jina.ai: 'Usable in e... | ABB Data Sheet 10/23-5.10 EN, November 2006, read via r.jina.ai: 'Usable in emission measuring systems conforming to 13th BImSchV and 17th BImSchV (German Federal Immissions Protection Law)'. (value: usable in emission measuring systems conforming to 13th BImSchV and 17th BImSchV) |
 | MRU OPTIMAX Biogas Analyzer (catal — gas components measurable | 7 gas components (up to) | Instrumart Emission Analyzers catalogue page read 25 Nov 2026: 'Biogas, Landfill & Engine Exhaust systems for measurements of up to 7 gas components with up to 32,000 point data storage.' No dollar year printed. |
 | MRU OPTIMAX Biogas Analyzer (catal — data point storage | 32000 points (up to) | Instrumart Emission Analyzers catalogue page read 25 Nov 2026: 'with up to 32,000 point data storage'. No dollar year printed. |
+| FE2 filter - process gas pressure (p_abs) | 50-600 kPa | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - process gas temperature max | 200 degC | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - coated temperature max | 180 degC | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - flow rate (relative to 100 kPa, 0 degC) | 30-500 l/h | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - pressure drop | 0.6 hPa at 100 l/h (approx.) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - dust content application recommendation max | 3 g/m3 | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - dust content max with probe tube type 40 + purge-back | 40 g/m3 | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - dust content max with probe tube type 60 | 2000 g/m3 | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - instrument air pressure max for purge-back | 600 kPa | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - filter fineness | 0.3 um | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - retention rate | 99.98 % | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - seal integrity | 10^-4 hPa l/s n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - dead volume | 280 ml | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - casing and connections material | Special steel Mat. No. 1.4571 n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - flange material | Special steel Mat. No. 1.4541 n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - filter element | Aluminum oxide surface filter n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - coating | Thermoset plastic, resistant up to 180 degC n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - mounting flange | DN 65, PN 6, Form B to DIN 2573 n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - weight | 8.0 kg (approx.) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| FE2 filter - connection ports | Sample/test gas G 1/4; compressed air G 1/2; probe tube G 3/4 internal thread to DIN ISO 228/1 n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Annular heating element - power supply | 115 VAC or 230 VAC, 50 to 60 Hz n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Annular heating element - heater output | 50-200 W (200/100/50 depending on setting) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Annular heating element - heater temperature unregulated | 120-180 degC (approx., at 20 degC still air) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Annular heating element - ambient temperature | 0-55 degC (still air) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Annular heating element - degree of protection | IP50 n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Annular heating element - weight | 1.7 kg (approx.) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Heating sleeve - holding temperature max | 350 degC | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Heating sleeve - temperature control max | 200 degC (Pt 100) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Heating sleeve - power supply / consumption | 115 VAC or 230 VAC; 250 VA n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Heating sleeve - ambient temperature | -20-45 degC | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Heating sleeve - degree of protection | IP54 n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE2 - protective case dimensions (H x W x D) | 450 x 450 x 400 mm n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE2 - protective case material | Special steel Mat. No. 1.4301 n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE2 - protective case degree of protection | IP54 n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE2 - protective case weight | 18 kg (approx.) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE2 - pneumatic valve operating/control pressure | 600 kPa (6 bar) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE2 - pneumatic valve nominal diameter | DN 12 n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE2 - control solenoid valve pressure range | 600 kPa (6 bar) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE2 - control solenoid valve nominal diameter | DN 2.0 n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE2 - control solenoid valve power consumption | 8 VA | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - process gas pressure (p_abs) | 50-600 kPa | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - process gas temperature max | 200 degC | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - flow rate | 30-500 l/h (relative to 100 kPa, 0 degC) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - filter fineness | 0.3 um | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - dead volume | 280 ml | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - filter element dimensions | 50 / 20 x 135 mm n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - heater type and output | Self-regulating heater (400 W) n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - heater temperature | 180 degC (ambient 20 degC) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - temperature alarm | 150 degC (approx.) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - gas-carrying parts material | Special steel Mat. No. 1.4571; seals FPM n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - protective case dimensions (H x W x D) | 270 x 203 x 330 mm n/a | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| PFE3 - protective case weight | 17 kg incl. FE2 filter unit (approx.) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Type 40/40W probe tube - process gas pressure (p_abs) | 50-500 kPa (0.5 to 5 bar) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Type 40 probe tube - temperature max SS 1.4571 | 450 degC | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Type 40 probe tube - temperature max SS 1.4893 | 900 degC | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Type 40 probe tube - temperature max silicon carbide | 1300 degC (max length 1000 mm) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Type 40W probe tube - temperature max SS 1.4571 heated | 300 degC | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Type 40 probe tube - flow rate max | 300 l/h | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Type 40 probe tube - pressure drop | 10 hPa (approx., at 30 to 90 l/h) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
+| Type 42 heated probe tube - process gas pressure (p_abs) | 200 kPa (2 bar) | ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024) |
 
 - **ABB** ABB system components for sample gas sampling (FE2/PFE2/PFE3 filters, probes, heated lines): gas sampling and sample conditioning system components
 
@@ -6898,6 +10026,25 @@ Vendors: SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC), Siemens 
 | Yokogawa FAST/TOOLS centralized SC — RTUs integrated into centralized SCADA | 400 RTUs (approximately) | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), GAIL (India) Limited entry, customer quote: 'This work included the integration of approximately 400 RTUs of eight different makes.' Plant information: order April 2011, completion July 2012, multiple locations India. Read via r.jina.ai proxy 25 Nov 2026. |
 | Yokogawa FAST/TOOLS centralized SC — system availability for the GAIL pipeline network | 99.5 % | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), GAIL entry: 'System availability for the entire GAIL pipeline network has been increased to 99.5%'. No price in document. |
 | Yokogawa FAST/TOOLS centralized SC — natural gas pipeline network length monitored | 10700 km (over) | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), GAIL entry: 'GAIL also presently has seven natural gas pipeline networks across the country, with a total length of over 10,700 km.' No price in document. |
+| Installations worldwide | 4000 installations (nearly/more than) | "decades of operational experience across nearly 4,000 installations"; "With more than 4,000 installations worldwide" |
+| Plants supported by services | 900 plants (more than) | "We support customers from more than 900 plants worldwide with high-quality remote and local services" |
+| Remote Expert Centers experts | 50 experts (more than 50) | "Our Remote Expert Centers (REC) are home to more than 50 trained experts worldwide" |
+| Cybersecurity certification | "Omnivise T3000 is certified by TÜV SÜD according to IEC 62443 ... and is bui... | "Omnivise T3000 is certified by TÜV SÜD according to IEC 62443 ... and is built for Security Level 3 (SL 3) readiness" |
+| Release | 10.2 Release 10.2 | "with Release 10.2 toward the EU Cyber Resilience Act (CRA)" |
+| Simulator standard | "The fully integrated, ANSI compliant T3000 Simulator expands the system's po... | "The fully integrated, ANSI compliant T3000 Simulator expands the system's possibilities" |
+| Integration standards | "incorporates standards like IEC 61850 to integrate third-party systems and e... | "incorporates standards like IEC 61850 to integrate third-party systems and ensures secure operations through VPNs and data encryption" |
+| SCADA functionality | "a scalable SCADA system enables you to prepare for future opportunities and ... | "a scalable SCADA system enables you to prepare for future opportunities and requirements like direct marketing or integration of hydropower" |
+| Nominal AC frequency | 50 Hz | AC alternating current (nominally 50 Hz) |
+| CDGU threshold - synchronous | 30 MW | where reference is made to CDGU, it applies to generating unit equal to or greater than 30MW if it is a synchronous unit |
+| CDGU threshold - power park module | 5 MW | in the case of Power Park Module, it applies to total on-site generation capacity equal to or greater than 5 MW |
+| Distribution network voltage | 33 kV or below n/a | Distribution Network The system operating at a nominal phase voltage of 33 kV or below |
+| Standard time | Malaysian Standard Time (UTC/GMT + 8 hours) n/a | all references to specific dates shall be to the day commencing on such date at 00:00 hours, such time being Malaysian Standard Time (UTC/GMT + 8 hours) |
+| AGC | Automatic Generation Control n/a | AGC Automatic Generation Control (abbreviations list) |
+| GSO responsibility | overall coordination of operation, maintenance and control; generation Dispatch; monitoring and control n/a | The Grid System Operator or GSO is the person in SESB responsible for the overall coordination ... and is also responsible for generation Dispatch |
+| Scheduling codes | SDC1 Generation Scheduling; SDC2 Control, Scheduling and Dispatch; SDC3 Frequency and Transfer Control n/a | Scheduling and Dispatch Codes Nos. 1 to 3 in Overview of Grid Code |
+| Operating codes | OC1 to OC11 (demand forecasting, operational planning, operating reserve, demand control, liaison, incident reporting, restoration, safety, numbering, testing/monitoring, system tests) n/a | Operating Codes Nos. 1 to 11 listed in section 3.5 and abbreviation table |
+| Enactment | Electricity Supply Enactment 2024 and regulations made thereunder n/a | Enactment The Electricity Supply Enactment 2024 and regulations made thereunder |
+| Grid Code sections | General Conditions; Planning Code; Connection Conditions; Operating Codes 1-11; Scheduling and Dispatch Codes 1-3; Metering Code n/a | 3.1 GENERAL: The Grid Code is divided into the following codes of practice |
 
 - **SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC)** SESB SLDC Automatic Generation Control / load following interface: grid dispatch and AGC interface
 - **Siemens Gamesa** Omterra (formerly Siemens Energy) Omnivise T3000 SCADA functionality: power plant SCADA / centralized fleet control
@@ -6944,6 +10091,17 @@ Vendors: Topsoe (0 model lines recorded).
 | Reciprocating compressor speed | 260-1000 rpm | Value as printed in the cited source; no further qualifier stated. |
 | Steam turbine electrical output range | 75-40000 kW | Value as printed in the cited source; no further qualifier stated. |
 | Steam turbine mechanical drive range | 10-40 MW | Value as printed in the cited source; no further qualifier stated. |
+| Steam turbine power range | 75 kW | 'heat and power generation from 75kW up to 40MWe' |
+| Steam turbine max power | 40 MWe | same statement; 'mechanical drive ... from 10kW to 40MW' |
+| Steam turbine inlet pressure | 70 bar | 'inlet pressures to 70 bar; condensing, mixed pressure and back-pressure' |
+| Waste-to-energy installed power | 1000 MW | 'over 1000 MW of installed power in Waste to Energy Power Plants' |
+| Cane sugar machines | 500 machines | 'in excess of 500 machines installed in the cane sugar industry' |
+| Reciprocating compressor rating | 20 MW | 'Reciprocating gas compressors rated to 20MW and operating between 260 and 1,000 rpm' |
+| Reciprocating speed | 260 Howden brand page, part of Chart Industries (acquired 2023); >160 years, >100 countries re | As printed on the cited catalogue page. |
+| Peter Brotherhood turbine build | 22 MW | 'a 22MW unit' built and tested at Peterborough, UK |
+| EmissionGuard gas prevented | 20173000 Nm3 | '20,173,000 Nm³ (693,144,000 scf) of gas from leaking through the vents' |
+| EmissionGuard CO2 equivalent | 60500 metric tons | 'equivalent to 60,500 metric tons of CO₂' |
+| Screw compressors | 'Rotary twin-screw compressors for gas compression applications within oil & ... | 'Rotary twin-screw compressors for gas compression applications within oil & gas, power and industrial refrigeration' |
 
 
 Recorded gaps:
@@ -6971,6 +10129,9 @@ Vendors: Topsoe, Casale (0 model lines recorded).
 | Energy consumption | 7.4-7.6 Gcal/MT LHV basis, including utilities and final CO2 compression at battery limits | Value as printed in the cited source; no further qualifier stated. |
 | CO2 recovery | ?-99 % | Value as printed in the cited source; no further qualifier stated. |
 | Best-suited capacity | 3500 MTD and above | Value as printed in the cited source; no further qualifier stated. |
+| HyPURE-N - energy consumption | 7.4-7.6 Gcal/MT LHV basis (including utilities and final CO2 compression at Battery Limits) | Casale 'Technologies > Ammonia' page, HyPURE-N(TM) 'Performance' section (casale.ch); no print date stated; page footer (c) 2024 Casale SA |
+| HyPURE-N - CO2 recovery | 99 % (as high as) | Casale 'Technologies > Ammonia' page, HyPURE-N(TM) 'Performance' section (casale.ch); no print date stated; page footer (c) 2024 Casale SA |
+| HyPURE-N - capacity | Best suited from 3,500 MTD and above; can be applied for lower capacities n/a | Casale 'Technologies > Ammonia' page, HyPURE-N(TM) 'Performance' section (casale.ch); no print date stated; page footer (c) 2024 Casale SA |
 
 
 Recorded gaps:
@@ -7056,6 +10217,31 @@ Vendors: HADETEC (Nijkerk, Netherlands; Rootselaar Group), Comair (Shanghai, Chi
 | Plant/service air compressor packa — Plant air ISO 8573-1 classification | CAGI Compressed Air Purity Guide, Plant Air section: 'An ISO 8573-1 air purit... | CAGI Compressed Air Purity Guide, Plant Air section: 'An ISO 8573-1 air purity specification of [-:4-5:-] with a minimum point of 45 deg F satisfies the Plant Air classification'; read via r.jina.ai fallback 25 Nov 2026 (value: [-:4-5:-]) |
 | Plant/service air compressor packa — Compressor package rating (example quoted unit) | 17.4 CFM at 175 PSIG | Staab change order no. 8 (6 May 2024): Quincy QT-Series oil-lubricated reciprocating air compressor rated 17.4 CFM at 175 PSIG with 5 HP motor and 80-gallon ASME vertical receiver tank; read via r.jina.ai fallback 25 Nov 2026 |
 | Plant/service air compressor packa — Air compressor aftercooler bulk water removal (typical) | 70 % (approximately, of bulk water) | CAGI Compressed Air Purity Guide, Plant Air section: 'Compressors frequently have integrated aftercoolers that will effectively remove a significant amount (~70%) of the bulk water present in the compressed air stream' |
+| Refrigerant dryer pressure dew point | 3 degC (+37.4 degF) | "Refrigerant dryers ... typically maintain a PDP of +3 °C/37.4 °F, suitable for most applications" |
+| Adsorption/desiccant dryer pressure dew point range | -70--10 degC | "These dryers achieve a PDP from -10 °C/14 °F to -70 °C/-94 °F" |
+| Membrane dryer pressure dew point | 3 degC (+37.4 degF) | "Membrane dryers ... achieving standard PDP levels of +3 °C/37.4 °F" |
+| ISO 8573-1 class 1 pressure dew point | -70 degC (-94 degF) | "ISO 8537-1 class 1 requires a PDP of -70 °C/-94 °F, while class 4 indicates +3 °C/37.4 °F" [sic – printed as ISO 8537-1 on page] |
+| ISO 8573-1 class 4 pressure dew point | 3 degC (+37.4 degF) | "class 4 indicates +3 °C/37.4 °F" (printed as ISO 8537-1 class 4 on page) |
+| Dryer types | 3 types | "There are three types of dryers to consider, refrigerant (fridge), adsorption, and membrane" |
+| Desiccant regeneration methods | 3 methods | "There are three types of regeneration methods our dryers use: purge regeneration ('heatless-type dryers'), heated purge, and blower" |
+| Achievable air pressure | 40 bar (over) | Comair: 'instrument air compressor solutions offer completely oil free and dusts free air of over 40 bar and 100,000 Nm3/hr' |
+| Achievable air flow | 100000 Nm3/hr (over) | Comair: 'over 40 bar and 100,000 Nm3/hr' |
+| Continuous running duty | 8000 hours per year (over) | Comair: 'reliable performance for over 8,000 hours continuous running'; centrifugal type 'continuous yearly running of over 8,000 hours' |
+| Motor protection | IP55 IP grade | Comair: 'Our compressors are all IP55 protection grade fully preventing any dust from damaging motors and all the air filters are of three layers' |
+| Pressure dew point | -70 deg C | Comair: 'the pressure dew point could reach to -70℃, driest possible in the industry'; desiccant dryer 'as low as -70℃' |
+| Oil-free air class | Comair: 'Discharging ISO 8573-1 class 0 certified oil free air with 24/7 cont... | Comair: 'Discharging ISO 8573-1 class 0 certified oil free air with 24/7 continuous operation'; 'technical oil free to be ISO 8573 Class 1 level' for oil-injected with dryer/filters |
+| VSD running cost saving | 30 % (as much as) | Comair: 'VSD type could save as much as 30% running cost'; 'save as much as 30% electricity' |
+| Typical instrument air discharge pressure | 7-10 bar | Comair FAQ: 'Normally the instrument air compressors are required to discharge around 7-10 bar.' |
+| Compressor types | Comair lists oil free screw, oil free centrifugal and oil free piston compres... | Comair lists oil free screw, oil free centrifugal and oil free piston compressors for instrument air |
+| Oil-free screw compressor - discharge pressure | 8-10 Barg | HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated |
+| Oil-injected screw compressor - discharge pressure | 8-16 Barg | HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated |
+| Oil-free screw compressor - flow rate (FAD) up to | 85 m3/min | HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated |
+| Oil-injected screw compressor - flow rate (FAD) up to | 80 m3/min | HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated |
+| Oil-free screw compressor - power | 37-600 kW | HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated |
+| Oil-injected screw compressor - power | 2.2-500 kW | HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated |
+| Air dryer - low dew point up to | -90 degC | HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated |
+| Oil-free air quality | ISO 8573-1 Class 0 with filter & dryer package n/a | HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated |
+| Pressure vessels - design standard | ASME VIII Div.1 and U STAMP or PED n/a | HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated |
 
 - **HADETEC (Nijkerk, Netherlands; Rootselaar Group)** HADETEC oil-injected / oil-free screw air compressor packages (onshore and offshore): plant/service air compressor package
 - **Comair (Shanghai, China)** Comair plant/service compressed air and dryer/filtration packages: general plant air (utility air) compressor packages
@@ -7286,6 +10472,19 @@ Vendors: Topsoe, KBR, thyssenkrupp Uhde, AMEC (topsides design/fabrication/integ
 | NOx | 110 mg/Nm3 standard scheme | Value as printed in the cited source; no further qualifier stated. |
 | CO2 emissions | 0.1-0.15 t CO2/t NH3 | Value as printed in the cited source; no further qualifier stated. |
 | Energy consumption | 7.9 Gcal/MT LHV basis | Value as printed in the cited source; no further qualifier stated. |
+| Process basis | SMR-based traditional ammonia process n/a | N-ELEVA™ is Casale process for traditional ammonia plants, based on steam-methane reforming (SMR) of natural gas. |
+| Plant capacity range | 500-3500 MTD | From 500 up to 3500+ MTD (N-ELEVA brochure) |
+| Energy consumption (grey configuration) | ?-6.5 Gcal/MT | Energy consumption up to 6.5 Gcal/MT (grey configuration) |
+| Energy consumption (brochure) | ?-6.5 Gcal/MT | Energy consumption up to 6.5 Gcal/MT (brochure, LHV basis) |
+| Energy consumption (blue configuration) | 7.9-? Gcal/MT | Blue configuration has energy consumption from 7.9 Gcal/MT |
+| Flue gas NOx | 110 mg/Nm3 | 110 mg/Nm3 of NOx, well below the allowable limits, at 3% oxygen excess (brochure) |
+| Sulfur after ZnO | ?-0.1 ppm | reduce its sulfur content to less than 0.1 ppm (brochure) |
+| H2/N2 ratio | 3:1 n/a | The air flow rate is adjusted to obtain a 3:1 H2/N2 ration in the final synthesis gas mixture. |
+| CO2 after removal | ?-1000 ppmv | CO2content of <1'000 ppmv (brochure) |
+| Combined water and CO2 after ammonia wash | ?-0.1 ppmv | The expected combined water and CO2 content after the ammonia wash is less than 0.1 ppmv. |
+| NOx emissions | 110 mg/Nm3 | About 110 mg/Nm³ of NOx as per standard scheme. Lower concentrations are possible with proper burner design |
+| Blue configuration energy consumption (other entry on same page) | 7.9 Gcal/MT | Blue configuration has energy consumption from 7.9 Gcal/MT (printed elsewhere on the same ammonia page) |
+| Grey configuration energy consumption (other entry on same page) | 6.5 Gcal/MT | Energy consumption up to 6.5 Gcal/MT (grey configuration) (printed elsewhere on the same page) |
 
 - **Topsoe** Tubular radiant wall steam reformer: more than 250 units designed over 50+ years; low steam-to-carbon, high heat flux, high outlet temperature
 - **KBR** KRES (KBR Reforming Exchanger): installed in parallel with the existing SMR and secondary reformer; up to 130% of SMR capacity
@@ -7330,6 +10529,44 @@ Vendors: Spirax Sarco, Armstrong International (0 model lines recorded).
 | Recommended maximum operating pressure | 42 bar g | Printed under 'Pressure, temperature and backpressure envelope' and in pressure/temperature limits note |
 | Minimum allowable / operating temperature | 0 deg C | Printed under 'Pressure, temperature and backpressure envelope'; consult manufacturer below this |
 | Minimum operating differential pressure | 0.25 bar g | Printed under 'Pressure, temperature and backpressure envelope' |
+| Maximum operating pressure PMO | 230 psig | 'PMO (psig) 230' (A3N product details table) |
+| Maximum operating temperature TMO | 428 deg F | 'TMO (°F) 428' |
+| Predecessor launch year | 1958 year | 'The predecessor of the A3N, the A3, appeared in 1958' |
+| Durability claim | 10 times | 'Ten times more durable than conventional traps in its day' |
+| Condensate load range | TLV: 'The series covers a wide range of condensate loads, from the 100's of k... | TLV: 'The series covers a wide range of condensate loads, from the 100's of kg/h to several 10's of tons/h' |
+| J3S-X PMO / TMO / discharge capacity | TLV Product Details: J3S-X — screwed, cast stainless steel ASTM A351 Gr.CF8, ... | TLV Product Details: J3S-X — screwed, cast stainless steel ASTM A351 Gr.CF8, PMO 300 psig, TMO 428°F, discharge 1,700 lb/h |
+| J5S-X PMO / TMO / discharge capacity | TLV: J5S-X — cast stainless steel CF8, PMO 300 psig, TMO 428°F, discharge 2,2... | TLV: J5S-X — cast stainless steel CF8, PMO 300 psig, TMO 428°F, discharge 2,200 lb/h |
+| J6S-X PMO / TMO / discharge capacity | TLV: J6S-X — cast stainless steel CF8, PMO 300 psig, TMO 428°F, discharge 7,5... | TLV: J6S-X — cast stainless steel CF8, PMO 300 psig, TMO 428°F, discharge 7,500 lb/h |
+| J7X / JS7X PMO / TMO / discharge capacity | TLV: J7X — flanged cast iron FCV400, PMO 250 psig, TMO 428°F, discharge 8,000... | TLV: J7X — flanged cast iron FCV400, PMO 250 psig, TMO 428°F, discharge 8,000 lb/h |
+| J7.2X PMO / TMO / discharge capacity | TLV: J7.2X — flanged cast iron FCV400, PMO 250 psig, TMO 428°F, discharge 18,... | TLV: J7.2X — flanged cast iron FCV400, PMO 250 psig, TMO 428°F, discharge 18,000 lb/h |
+| J7.5X PMO / TMO / discharge capacity | TLV: J7.5X — flanged cast iron FC250, PMO 250 psig, TMO 428°F, discharge 35,0... | TLV: J7.5X — flanged cast iron FC250, PMO 250 psig, TMO 428°F, discharge 35,000 lb/h |
+| J8X PMO / TMO / discharge capacity | TLV: J8X — flanged cast iron FC250, PMO 250 psig, TMO 428°F, discharge 47,000... | TLV: J8X — flanged cast iron FC250, PMO 250 psig, TMO 428°F, discharge 47,000 lb/h |
+| FJ32-X QuickTrap PMO / TMO / discharge | TLV: FJ32-X QuickTrap — universal flange, stainless steel, PMO 450 psig, TMO ... | TLV: FJ32-X QuickTrap — universal flange, stainless steel, PMO 450 psig, TMO 662°F, discharge 1,500 lb/h |
+| SJ3 PMO / TMO / discharge | TLV: SJ3 — screwed cast iron, PMO 200 psig, TMO 428°F, discharge 1,380 lb/h | TLV: SJ3 — screwed cast iron, PMO 200 psig, TMO 428°F, discharge 1,380 lb/h |
+| X-element air vent / fail-open | TLV: 'The built-in X-element (model names including 'X') functions as an air ... | TLV: 'The built-in X-element (model names including 'X') functions as an air vent, discharging both cool and hot air'; 'The X-element is designed to fail open so that the valve remains open even in the event of failure.' |
+| TD42 - body design condition | PN63 n/a | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| TD42 - maximum allowable pressure | 63 bar g at 100 degC | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| TD42 - maximum allowable / operating temperature | 400 degC at 42 bar g | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| TD42 - recommended maximum operating pressure | 42 bar g | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| TD42 - minimum allowable / operating temperature | 0 degC | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| TD42 - minimum operating differential pressure | 0.25 bar g | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| TD42 - maximum operating backpressure | 80 % of upstream pressure (max, under any operating condition) | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| TD42 - maximum cold hydraulic test pressure | 95 bar g | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| TD42 - nominal sizes | 3/8, 1/2 and 3/4 in; screwed BSP Rp (ISO 7-1) or NPT n/a | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| TD42 - materials | Body ASTM A743 Gr CA 40; cap and strainer cap AISI 416; disc BS 1449 420 S45; strainer screen ASTM A240 316L; strainer cap gasket BS 1449 304 S16 n/a | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| TD42 - vacuum service | Safe for use under full vacuum conditions n/a | Spirax Sarco 'TD42 Thermodynamic Steam Trap' product page (spiraxsteam.com); no print date stated |
+| GP5C - PMO / TMO | 75 psig / 365 degF n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| GP5C - motive medium pressure range / recovery | 5-75 psig; 320 lb/h n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| GP10 - PMO / TMO | 150 psig / 365 degF n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| GP10 - motive medium pressure range / recovery | 5-150 psig; 18,600 lb/h n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| GP10L - PMO / TMO / recovery | 150 psig / 365 degF; 3,640 lb/h n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| GP10M - PMO / TMO / recovery | 150 psig / 365 degF; 5,070 lb/h n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| GP10F - PMO / TMO / recovery | 150 psig / 428 degF; 18,600 lb/h n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| GP14 - PMO / TMO / recovery | 200 psig / 392 degF; 13,000 lb/h n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| GP14-B - PMO / TMO / recovery | 200 psig / 392 degF; 16,000 lb/h n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| GP14L - PMO / TMO / recovery | 200 psig / 428 degF; 4,850 lb/h n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| GP14M - PMO / TMO / recovery | 200 psig / 428 degF; 7,200 lb/h n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
+| PowerTrap GP - motive medium / operation | Powered by steam or compressed air (no electricity); snap-action mechanism; for open systems; suitable for explosion-proof installations n/a | TLV 'PowerTrap (Mechanical Pump)' product page, GP Series model table; no print date stated |
 
 
 Recorded gaps:
@@ -7393,6 +10630,10 @@ Vendors: Aquaterra Energy (0 model lines recorded).
 | --- | --- | --- |
 | generic use | bottom-founded drilling rigs include jackup barges and swamp barges; MODUs include jackups, semi-submersibles, drillships and barges description | Wikipedia Oil platform intro; Wikipedia Offshore drilling |
 | turbine rating, WindFloat Atlantic | 8.4 MW | Wikipedia Floating offshore wind operational table |
+| WindFloat WF1 - turbine rating | 2 MW (Vestas 2 MW turbine) | Wikipedia 'Floating offshore wind' article (secondary source), WindFloat/Principle Power entries |
+| WindFloat WF1 - electricity produced | Over 17 GWh over 5 years (2011-2016) n/a | Wikipedia 'Floating offshore wind' article (secondary source), WindFloat/Principle Power entries |
+| WindFloat WF1 - location | About 5 km offshore of Agucadoura, Portugal; installed September 2011 n/a | Wikipedia 'Floating offshore wind' article (secondary source), WindFloat/Principle Power entries |
+| WindFloat WF1 - installation method | Installed without use of heavy-lift vessels n/a | Wikipedia 'Floating offshore wind' article (secondary source), WindFloat/Principle Power entries |
 
 
 ### Braced templates (sub-braced-templates-subsea-drilling-templates)
@@ -7489,6 +10730,86 @@ Vendors: Aker Solutions, Saipem (ex-Micoperi 7000), Sif Group, Heerema Marine Co
 | Zhuhai slideway 1 | 35000 T | slideway 3 is 12,000 T |
 | Ranking | world's largest barge (Heerema claim) description | Value as printed in the cited source; no further qualifier stated. |
 | Energy range | 320-3,500 kJ | Value as printed in the cited source; no further qualifier stated. |
+| CGS concept first developed year | 1989 year | 'Arup dry-build Concrete Gravity Substructure (CGS) concept was originally developed by Arup in 1989 for Hamilton Brothers' Ravenspurn North' |
+| Installation technique | 'Typical for the Arup CGS is the inclined installation technique' | 'Typical for the Arup CGS is the inclined installation technique' |
+| Removability | 'The Arup CGS are designed to be simple to install, and are fully removable' | 'The Arup CGS are designed to be simple to install, and are fully removable' |
+| Construction attributes | 'low reinforcement and pre-stress densities as well as the use of normal dens... | 'low reinforcement and pre-stress densities as well as the use of normal density concrete' |
+| Economic water depth threshold | 150 m | 'economical for water depths larger than 150 m' (offshore concrete structures generally) |
+| N. Ravenspurn CGS (Arup) water depth | 42 m | Table: 1989, CGS 3 shafts, North Sea (UK), design by Arup |
+| Wandoo CGS (Arup) water depth | 54 m | Table: 1996, CGS 4 shafts, Australia, design by Arup |
+| Malampaya CGS (Arup) water depth | 43 m | Table: 2000, CGS 4 shafts, Philippines, design by Arup |
+| West White Rose GBS Monotower (Arup) water depth | 118 m | Table: 2025, Cenovus Energy, Canada, design by Arup |
+| Vessel type | 'Fast-sailing Heavy Lift Vessel Aegir is a monohull vessel' | 'Fast-sailing Heavy Lift Vessel Aegir is a monohull vessel' |
+| Features | 'retractable thrusters, shallow draft, and extensive clear deck space' enabli... | 'retractable thrusters, shallow draft, and extensive clear deck space' enabling 'load-out directly from the quayside and transport on deck' |
+| Fleet: Sleipnir crane capacity | 20000 metric tons | 'a pair of revolving cranes that can lift 20,000 metric tons' (fleet context) |
+| Fleet: Thialf tandem lift | 14200 metric tons | 'capable of a tandem lift of 14,200 metric tons ... built in 1985 ... class III dynamic positioning system' |
+| Fleet: Balder tandem lift | 6300 metric tons | 'tandem lift of 6,300 metric tons when in guyed mode' |
+| Fleet: Bylgia/Kolga length | 72 m | 'Both tugs are 72 meters long and 18 meters wide with bollard pulls of 200 and 212 metric tons' |
+| Fleet: Bylgia/Kolga bollard pull | 200 Heerema Marine Contractors fleet page, no print date stated tugs | As printed on the cited catalogue page. |
+| Recommended oil flow | 5800 L/min | 'Recommended oil flow 5800 L/min' (3500S) |
+| Average operating pressure | 240 bar | 'Average operating pressure 240 bar' (3500S) |
+| Blow rate | 32 bl/min | 'Blow rate at recommended oil flow 32 bl/min' (3500S) |
+| Weight above water - 4 m foot | 341 t | 'MHU3500S - 4 m Foot 341 t' |
+| Weight above water - 102in-4m OD UW | 564 t | 'MHU3500S - 4 m: 102" - 4 m OD UW 564 t' |
+| Weight submerged - 102in-4m OD UW | 433 t | Acteon hydraulic hammers page, Menck 3500S block; announcement of sale to Cadeler 11 Aug 2026 same row |
+| Weight above water - 6.5-8 m OD AW | 673 t | 'MHU3500S - 4 m: 6.5 - 8 m OD AW 673 t' (Renewables configuration) |
+| Weight above water - 3 m 5-7.5 m OD AW | 621 t | 'MHU3500S - 3 m: 5 m - 7.5 m OD AW 621 t' (Renewables configuration) |
+| Full hammer spread energy range | 100 'double-acting hydraulic hammers (100 kJ to 6,250 kJ)' | As printed on the cited catalogue page. |
+| Wind turbine foundations driven | 2500 foundations | '2,500+ Wind turbine foundations driven' |
+| Maximum single hammer energy | 6250 kJ | 'Energy range up to 6,250 kJ' (6000W model) |
+| Tandem lift capacity (guyed mode) | 6300 metric tons | "Balder is capable to execute a tandem lift of 6,300 metric tons when in guyed mode" |
+| Crane capability | "The vessel's cranes provide for a depth reach lowering capability as well as... | "The vessel's cranes provide for a depth reach lowering capability as well as a heavy lift capacity to install topsides, jackets, and other structures" |
+| FPSO hull length (Skarv, Aker Solutions Tentech975 design) | 292 m | Wikipedia, 'Skarv FPSO' record vessel section: 'The FPSO has a length of 292m, beam of 50.6m and is 29m deep' — hull is an Aker Solutions proprietary Tentech975 design (secondary source) |
+| FPSO hull beam (Skarv, Tentech975) | 50.6 m | Wikipedia: 'beam of 50.6m' |
+| FPSO hull depth (Skarv, Tentech975) | 29 m | Wikipedia: 'and is 29m deep' |
+| Accommodation (Skarv FPSO) | 100 persons in single cabins | Wikipedia: 'accommodates about 100 people in single cabins' |
+| Process plant gas handling capacity (Skarv FPSO) | 19000000 m3/day | Wikipedia: 'The process plant on the vessel can handle about 19,000,000 cubic metres per day (670,000,000 cu ft/d) of gas' |
+| Process plant oil handling capacity (Skarv FPSO) | 13500 m3/day | Wikipedia: 'and 13,500 cubic metres per day (480,000 cu ft/d) of oil' |
+| Gas export pipe length (Skarv) | 80 km | Wikipedia: 'An 80 km gas export pipe ties into Asgard transport system' |
+| Hull delivery date (Skarv) | Wikipedia: 'The hull was delivered in January 2010'; production started Augus... | Wikipedia: 'The hull was delivered in January 2010'; production started August 2011 |
+| Qingdao yard area | 1200000 m2 | COOEC Yards page, Qingdao Yard: 'Yard area: 1,200,000 m2' |
+| Qingdao wharf shoreline | 1645 m | COOEC: 'Wharf shoreline: 1645 m' |
+| Qingdao wharf water depth | 10-12 m | COOEC: 'Wharf water depth: 10-12 m' |
+| Qingdao dry dock | COOEC: 'Dry Dock: 420 m×110 m×13.9 m' | COOEC: 'Dry Dock: 420 m×110 m×13.9 m' |
+| Qingdao annual production capacity | 300000 t/year | COOEC: 'The yard has 300,000 tons of annual production and 50,000 tons and 300,000 tons of single onshore and floating units construction capacities with up to 15,000 tons of large single structures onshore transportation ability.' |
+| Qingdao slideway capacity | 4000-50000 T load bearing | COOEC: 'five slideways with 4,000-50,000 T load bearing capacity' |
+| Qingdao cranes and SPMTs | COOEC: 'two 800 T gantry crane and one 600 T gantry crane; 24 sets of 70 to 7... | COOEC: 'two 800 T gantry crane and one 600 T gantry crane; 24 sets of 70 to 750 T crawler cranes; 324-axis SPMTs with total capacity of 15,000 T' |
+| Tianjin yard area | 575000 m2 | COOEC Tianjin: 'Yard area: 575,000 m2' |
+| Tianjin wharf shoreline | 1631 m | COOEC Tianjin: 'Wharf shoreline: 1631 m' |
+| Tianjin wharf water depth | 12 m | COOEC Tianjin: 'Wharf water depth: 12 m' |
+| Tianjin annual production | 150000 t/year | COOEC: 'Tianjin Intelligent Manufacturing Base has 150,000 tons annual production' |
+| Tianjin equipment | COOEC: 'one 900 T gantry crane; two PPU 48-axis SPMTs; four 8.5 T forklifts; ... | COOEC: 'one 900 T gantry crane; two PPU 48-axis SPMTs; four 8.5 T forklifts; two 3.5 T forklifts powered by lithium batteries; two 2 T forklifts powered by lithium batteries two 60 T tractors' |
+| Zhuhai yard area | 2072000 m2 | COOEC Zhuhai: 'Yard area: 2,072,000 m2' |
+| Zhuhai wharf shoreline | 2149 m | COOEC Zhuhai: 'Wharf shoreline: 2149 m' |
+| Zhuhai wharf water depth | 10-14 m | COOEC Zhuhai: 'Wharf water depth: 10-14 m' |
+| Zhuhai slideways / equipment | COOEC: 'slideway 1# (35,000 T); slideway 3# (12,000 T)'; '120 sets of 5 to 15... | COOEC: 'slideway 1# (35,000 T); slideway 3# (12,000 T)'; '120 sets of 5 to 150 T overhead cranes in workshops; 12 sets of 150 to 750 T crawler cranes; 108-axis SPMTs; one 380 T transport trailer; two 250 T flatcars' |
+| Barge distinction | Heerema fleet: 'Including the H-851, the world's largest barge.' Used for 'tr... | Heerema fleet: 'Including the H-851, the world's largest barge.' Used for 'transportation, jacket launch, and floatover use.' |
+| Full-scale tested compression load | 18300 MT (up to) | Trelleborg LMU Benefits: 'Full-scale testing compression loads up to 18,300 MT' |
+| Construction | Trelleborg: 'LMUs feature a robust steel structure with high-performance elas... | Trelleborg: 'LMUs feature a robust steel structure with high-performance elastomeric pads ... absorb substantial loads and minimize the risk of damage during weight transfer' |
+| Function | Trelleborg: 'Assist in the transfer of static & dynamic load from the barge t... | Trelleborg: 'Assist in the transfer of static & dynamic load from the barge transporting the topside to the substructure during float-over operation'; 'Install large platform topside without the use of a heavy lift crane vessel' |
+| Applications | Trelleborg: 'Oil & gas topside; Mining and LNG terminal construction; Offshor... | Trelleborg: 'Oil & gas topside; Mining and LNG terminal construction; Offshore Wind HVDC; Decommissioning topside' |
+| water_depth_range | 180-1300 m | Proprietary versions include the Seastar and MOSES mini TLPs; relatively low cost, used in water depths between 180 and 1,300 metres (590 and 4,270 ft) |
+| water_depth_range_ft | 590-4270 ft | between 180 and 1,300 metres (590 and 4,270 ft) |
+| platform_type | vertically moored mini tension leg platform n/a | Types of offshore oil and gas structures: Vertically moored tension leg and mini-tension leg platform; TLPs tethered to seabed eliminating most vertical movement, used in water depths up to about 2,000 m |
+| MOSES mini-TLP - water depth range | 180-1300 m (590 to 4,270 ft) | Wikipedia 'Oil platform' article, Tension-leg platform section (secondary source) |
+| MOSES mini-TLP - type | Proprietary mini TLP (with Seastar); relatively low cost n/a | Wikipedia 'Oil platform' article, Tension-leg platform section (secondary source) |
+| MOSES mini-TLP - use cases | Utility, satellite or early production platforms for larger deepwater discoveries n/a | Wikipedia 'Oil platform' article, Tension-leg platform section (secondary source) |
+| Topsides single-lift capacity | ?-60000 tonnes | installation or removal of platform topsides up to 60,000 tonnes |
+| Jacket single-lift capacity | ?-20000 tonnes | jackets up to 20,000 tonnes |
+| S-lay tension capacity | 2000 tonnes | unmatched S-lay tension capacity of 2000 tonnes |
+| Azimuth thrusters | 12 count | precision positioning enabled by 12 azimuth thrusters |
+| Pipe-holding capacity | 2000 tonnes | 2000-tonne pipe-holding capacity, double that of any rival pipelay vessel |
+| Length | 382 m | Vessel specifications PDF: 382 m |
+| Breadth | 124 m | Vessel specifications PDF: 124 m |
+| Total installed power | 95000 kW | Vessel specifications PDF: 95,000 kW |
+| Accommodation | 571 persons | Vessel specifications PDF: 571 persons |
+| Dynamic positioning | DP3, K-Pos DP-22, 2x cJoy system n/a | Vessel specifications PDF: DP3, K-Pos DP-22, 2x cJoy system |
+| Pipeline installation water depth | ?-3000 m | to approx. 3,000 m water depth (vessel specifications PDF) |
+| Product type | Leg Mating Unit with optional sand jack n/a | An optional sand jack can be manufactured to release the loads on rubber elements |
+| Load capacity basis | Custom designed to take immense loads of topsides n/a | Custom designed to take immense loads of topsides |
+| Elastomer construction | vertical and horizontal rubber elements formulated to take immense loads with low creep n/a | LMU consists of vertical and horizontal rubber elements, especially those formulated to take immense loads with low creep |
+| Load release mechanism | Sand can be released from the sand release valve, which leads to the plunger assembly being lower, and loads on the rubber element are released n/a | Sand can be released from the sand release valve, which leads to the plunger assembly being lower, and loads on the rubber element are released. |
+| Application | Float-over operation; Installation of heavy topsides n/a | Applications: Float-over operation; Installation of heavy topsides |
 
 
 ### FLNG (sub-flng-floating-liquefied-natural-gas-facility)
@@ -7745,6 +11066,21 @@ Vendors: Heerema (0 model lines recorded).
 | --- | --- | --- |
 | structural concept | small unmanned platform with well bay and small process plant, connected to a static production platform by flowlines/umbilical description | Wikipedia Oil platform, Conductor support systems |
 | Diana caisson | 30 m high × 6.5 m diameter m | Wikipedia Suction caisson |
+| Example chart dimension - top caisson | 8 m x diameter 1 m n/a | The dimension for the top suctions caisson is 8 m × ⌀1 m |
+| Example chart dimension - bottom caisson | 1 m x diameter 5 m n/a | for the bottom suctions caisson is 1 m × ⌀5 m |
+| Installed caissons (2002 statistics) | 485 caissons | Statistics from 2002 revealed that 485 suction caissons had been installed in more than 50 different localities |
+| Localities | 50 localities | in more than 50 different localities around the world |
+| Maximum installation depth | 2000 m | in depths to about 2000 m |
+| Gorm field caissons | 12 caissons | The twelve suction caissons on the Gorm field ... at a depth of 40 metres |
+| Gorm field water depth | 40 m | at a depth of 40 metres |
+| Diana platform caisson height | 30 m | The height of the Diana suction caissons is 30 metres, their diameter 6.5 metres, and they were installed at a depth of about 1500 m |
+| Diana platform caisson diameter | 6.5 m | their diameter 6.5 metres |
+| Diana installation depth | 1500 m | installed at a depth of about 1500 m on soft clay deposits |
+| Snorre A caisson length | 12 m | the platform could be safely secured by suction caissons of only 12 m in length |
+| Snorre A conventional pile alternative | 90 m | would in other parts of the world have been founded with up to 90 metres long piles |
+| Troll A skirt length | 30 m | The Troll A platform is founded in 330 m depth with 30 m long skirts |
+| Troll A water depth | 330 m | founded in 330 m depth |
+| Gullfaks C skirt length | 22 m | The oil platform at the Gullfaks C field was equipped with 22 m long skirts |
 
 
 ## substation-132kv
@@ -7772,6 +11108,30 @@ Vendors: Supplier not identified in sources read (WBS line item), Pestech Sdn Bh
 | ABB ELK-04 C, 145 kV gas-insulated swi — Total harmonic distortion limit at 132 kV | 2 % THD with no individual harmonic greater than 1.5% | Planning and Connection Codes for Sabah and Labuan Grid Codes, 16 June 2014, slide 51: 'at 132 kV, a total harmonic distortion of 2% with no individual harmonic greater than 1.5%'; read via r.jina.ai 2026-11-25 |
 | 132/33 kV main intake substation ( — Transformer capacity of named 132/33 kV PMU | 90 MVA | MN Holdings/Bursa filing report: Blue Valley PMU 132/33 kV 'with a capacity of two times 45 mega-volt amperes' (2 x 45 MVA = 90 MVA stated basis, not a separate printed figure). Report published 13 Aug 2026. |
 | 132/33 kV main intake substation ( — 132 kV mobile substation voltage class | 132 kV | Sieyuan case page: seven 132 kV mobile high-voltage substations, 40 MVA transformer capacity, dual 33 kV and 13.8 kV output; page read 2026-11-25, no year stated. |
+| Product ID | 2GHV010550M0001 n/a | Product ID 2GHV010550M0001 |
+| Rated voltage | 145 kV | Rated voltage kV 145 |
+| Power-frequency withstand voltage | 275 kV | Rated short-duration power-frequency withstand voltage kV 275 |
+| Power-frequency withstand across isolating distance | 315 kV | Rated short-duration power-frequency withstand voltage across isolating distance kV 315 |
+| Lightning impulse withstand voltage | 650 kV | Rated lightning impulse withstand voltage kV 650 |
+| Lightning impulse across isolating distance | 750 kV | Rated lightning impulse withstand voltage across isolating distance kV 750 |
+| Rated frequency | 50/60 Hz | Rated frequency Hz 50/60 |
+| Rated normal current | 3150 A | Rated normal current 3150 |
+| Rated short-time withstand current | 40 kA | Rated short-time withstand current kA 40 |
+| Rated duration of short-circuit | 3 s | Rated duration of short-circuit 3 |
+| Rated peak withstand current | 108 kA | Rated peak withstand current kA 108 |
+| Installation | Indoor/outdoor n/a | Installation: Indoor/outdoor |
+| Filling pressure / min functional pressure | 0.68/0.60 MPa abs at 20 °C | Rated filling pressure / minimum functional pressure (abs. at 20 °C) MPa 0.68/0.60 |
+| Short-circuit breaking current | 40 kA | Rated short-circuit breaking current, 50/60 Hz kA 40 |
+| Short-circuit making current peak | 108 kA | Rated short-circuit making current, peak value kA 108 |
+| Opening time | 26-35 ms | Rated opening time ms 26 ... 35 |
+| Closing time | 45-55 ms | Rated closing time ms 45 ... 55 |
+| Reclosing time | ?-300 ms | Reclosing time ms < 300 |
+| Rated operating sequence | O - 0.3s - CO - 3min - CO n/a | Rated operating sequence O - 0.3s - CO - 3min - CO |
+| Mechanical operations class | M2 n/a | Number of mechanical operations class M2 |
+| Capacitive switching class | C2 n/a | Rated capacitive switching currents class C2 |
+| Capacitive current switching capability | 500 mA | Capacitive current switching capability mA 500 |
+| Bus-transfer current / voltage | 1600/30 A / kV | Rated bus-transfer current / rated bus-transfer voltage 1600/30 |
+| Electrical endurance class | E1 n/a | Classification for electrical endurance class E1 |
 
 
 Recorded gaps:
@@ -7802,6 +11162,26 @@ Vendors: Supplier not identified in sources read (WBS line item), NEECO Sdn Bhd,
 | ABB UniGear ZS1 (double busbar variant — 33 kV classification under the Sabah Distribution Code | Sabah Distribution Code clause 1.2.2; read via r.jina.ai 2026-11-25 (value: D... | Sabah Distribution Code clause 1.2.2; read via r.jina.ai 2026-11-25 (value: Distribution System (below 66 kV: 33 kV, 11 kV, 230 V and 400 V)) |
 | 33/11 kV indoor AIS/GIS substation — 33 kV GIS switchgear scope | 33 kV | PESTECH reference table, 2011 row: 'Supply and Delivery of 33kV GIS Switchgear for PMU Pasir Gudang Town Centre'; page read 2026-11-25. |
 | 33/11 kV indoor AIS/GIS substation — 33 kV feeder protection and metering panels supplied | 34 panels | PESTECH reference table, 2009 row: '34 units of 33kV Feeder Protection and Metering Panels, 10 units of 33kV Transformer Protection and Metering Panels to Ghana'. |
+| Rated voltage | 12 kV | 'Rated voltage [kV] 12 / 17.5 / 24' (separate columns) |
+| Insulation level 12 kV | 12 kV | 'Insulation levels / power frequency / lightning impulse [kV] 12 / 28 / 75' |
+| Insulation level 17.5 kV | 17.5 kV | '17.5 / 38 / 95' |
+| Insulation level 24 kV | 24 kV | '24 / 50 / 125' |
+| Rated frequency | 50 'Rated frequency [Hz] 50 / 60' | As printed on the cited catalogue page. |
+| Rated main busbar current 12/17.5 kV | 4000-A 'Rated main busbar current (40°C) [A] ...4 000 ...4 000 ...2 500' | As printed on the cited catalogue page. |
+| Rated main busbar current 24 kV | 2500-A ABB UniGear ZS1 Double Busbar leaflet 1VCP000156 Rev C 2024, published Mon 5 Aug 2024, 2 p | As printed on the cited catalogue page. |
+| Rated feeder current 12/17.5 kV | 4000-A 'Rated feeder current (40°C) [A] ...4 000 ...4 000 ...2 500' | As printed on the cited catalogue page. |
+| Rated short-time current 12/17.5 kV | 31.5-kA x 3 s 'Rated short-time current ...31.5 ...31.5 ...25' | As printed on the cited catalogue page. |
+| Rated short-time current 24 kV | 25-kA x 3 s ABB UniGear ZS1 Double Busbar leaflet 1VCP000156 Rev C 2024, published Mon 5 Aug 2024, 2 p | As printed on the cited catalogue page. |
+| Arc proof withstand current | 31.5-kA x 1 s 'Arc proof withstand current (IEC 62271-200) ...31.5 ...31.5 ...25' | As printed on the cited catalogue page. |
+| Height 12/17.5 kV | 2200 'Height [mm] 2 200 ... 2 595' (LV compartment 705 / 1 100 mm) | As printed on the cited catalogue page. |
+| Height 24 kV | 2400 '2400 ... 2 720' | As printed on the cited catalogue page. |
+| Width | 650 'Width [mm] 650 / 800 / 1 000' (24 kV: 800 / 1 000) | As printed on the cited catalogue page. |
+| Depth 12/17.5 kV | 2021 mm | 'Depth [mm] 2021 2021 2 570' |
+| Depth 24 kV | 2570 mm | ABB UniGear ZS1 Double Busbar leaflet 1VCP000156 Rev C 2024, published Mon 5 Aug 2024, 2 pages 24 kV column |
+| Internal arc classification | 'Internal arc class: FLR'; table 'AFLR AFLR AFLR' | 'Internal arc class: FLR'; table 'AFLR AFLR AFLR' |
+| Design classification | 'Design: LSC-2B, PM'; 'Accessibility type: A' | 'Design: LSC-2B, PM'; 'Accessibility type: A' |
+| Type test standard | 'Fully type tested according to IEC 62271-200'; standards IEC; Relion relays ... | 'Fully type tested according to IEC 62271-200'; standards IEC; Relion relays with IEC 61850 |
+| Switching devices | 'Vacuum circuit breaker with spring actuator; Vacuum circuit breaker with mag... | 'Vacuum circuit breaker with spring actuator; Vacuum circuit breaker with magnetic actuator; SF6 circuit breaker with spring actuator' |
 
 
 Recorded gaps:
@@ -7890,6 +11270,30 @@ Vendors: ABB, Siemens, Tenaga Switchgear Sdn Bhd, Tamco Switchgear (Malaysia) Sd
 | 11 kV metalclad / metal-enclosed v — Interrupting symmetrical current | 25 kA | Same bid specification, section 5.0: interrupting symmetrical current 25 kA; maximum RMS momentary 29 kA; closing and latching 65 kA. |
 | 11 kV metalclad / metal-enclosed v — Rated maximum voltage / BIL | 15 kV | Same bid specification, section 5.0: Rated Maximum Voltage 15 kV; BIL 95 kV; bus voltage 11,000 V delta, 60 Hz. |
 | 11 kV metalclad / metal-enclosed v — KYN28-12 metal-clad MV panel rating | 31.5 kA / 3 s | JIAHE Malaysia market page: KYN28-12 metal-clad MV, 11 kV-12 kV, 1250 A-3150 A, 'IAC AFLR 31.5kA / 3s'. Page read 2026-11-25; vendor literature, 2025-2026 price matrix. |
+| Rated voltage variants | 12-24 kV | ABB UniGear ZS1 Double Busbar leaflet 1VCP000156 Rev C 2024, technical table: 'Rated voltage [kV] 12 17.5 24' |
+| Rated voltage variant 2 | 17.5 kV | ABB leaflet table: 12 / 17.5 / 24 kV |
+| Internal arc classification | ABB leaflet table: 'Internal Arc Classification (IAC) AFLR AFLR AFLR' for 12/... | ABB leaflet table: 'Internal Arc Classification (IAC) AFLR AFLR AFLR' for 12/17.5/24 kV; Features: 'Internal arc class: FLR' |
+| Insulation level - power frequency / lightning impulse (12 kV) | ABB leaflet: 'Insulation levels / power frequency / lightning impulse [kV] 12... | ABB leaflet: 'Insulation levels / power frequency / lightning impulse [kV] 12 / 28 / 75 17.5 / 38 / 95 24 / 50 / 125' |
+| Insulation level - power frequency / lightning impulse (24 kV) | ABB leaflet: '24 / 50 / 125' | ABB leaflet: '24 / 50 / 125' |
+| Rated frequency | 50-60 Hz | ABB leaflet: 'Rated frequency [Hz] 50 / 60 50 / 60 50 / 60' |
+| Rated main busbar current at 40 degC | 2500-4000 A | ABB leaflet: 'Rated main busbar current (40°C) [A] ...4 000 ...4 000 ...2 500' |
+| Rated feeder current at 40 degC | 2500-4000 A | ABB leaflet: 'Rated feeder current (40°C) [A] ...4 000 ...4 000 ...2 500' |
+| Rated short-time current | 25-31.5 kA x 3 s | ABB leaflet: 'Rated short-time current 1) [kA x 3 s] ...31.5 ...31.5 ...25'; footnote: duplex back to back configuration can cover 40/50 kA |
+| Arc proof withstand current (IEC 62271-200) | 25-31.5 kA x 1 s | ABB leaflet: 'Arc proof withstand current (IEC 62271-200) 1) [kA x 1 s] ...31.5 ...31.5 ...25' |
+| Panel height | 2200-2720 mm | ABB leaflet: 'Height [mm] 2 200 ... 2 595 2) 2 200 ... 2 595 2) 2400 ... 2 720 2)'; footnote: height of low voltage compartment 705 / 1 100 mm |
+| Panel width | 650-1000 mm | ABB leaflet: 'Width [mm] 650 / 800 / 1 000 3) 650 / 800 / 1 000 3) 800 / 1 000 3)' |
+| Panel depth | 2021-2570 mm | ABB leaflet: 'Depth [mm] 2021 2021 2 570' |
+| Design classification | ABB leaflet: 'Standards: IEC • Design: LSC-2B, PM • Accessibility type: A • I... | ABB leaflet: 'Standards: IEC • Design: LSC-2B, PM • Accessibility type: A • Internal arc class: FLR'; 'Fully type tested according to IEC 62271-200' |
+| Switching devices | ABB leaflet: 'Vacuum circuit breaker with spring actuator • Vacuum circuit br... | ABB leaflet: 'Vacuum circuit breaker with spring actuator • Vacuum circuit breaker with magnetic actuator • SF6 circuit breaker with spring actuator' |
+| Rated voltage range | 7.2-17.5 kV | Siemens catalog HG 11.06 (2017): 'Vacuum Circuit-Breaker 3AK7 from 7.2 to 17.5 kV'; technical data table 'Rated voltage Ur (kV) 7.2 12 17.5 / 7.2 12 15 17.5' |
+| Rated normal current | 1250-4000 A (with forced cooling for 4000) | Siemens: 'rated for load currents up to 4000 A'; 'Rated normal current Ir A 1250; 2000; 2500; 3150; 4000 (with forced cooling)' |
+| Short-circuit breaking current | 50 kA (up to) | Siemens: 'capable to break short-circuit currents up to 50 kA'; table 'Rated short-circuit breaking current Isc kA 50 40 50 40 50 40 50' |
+| Pole-center distance | 210 mm | Siemens: 'lean pole-shell design with a pole-center distance of 210 mm'; technical data '210 / 280' |
+| Maintenance-free operating cycles | 10000 cycles | Siemens: 'The 3AK7 is maintenance-free up to 10,000 operating cycles. 30,000 operating cycles on request.' |
+| Lightning impulse withstand voltage | 60-95 kV | Siemens technical data: 'Rated lightning impulse withstand voltage Up kV 60 75 95 60 60 75 75 95 95' |
+| Power-frequency withstand voltage | 20-38 kV | Siemens: 'Rated short-duration power-frequency withstand voltage Ud kV 20 28 38 20 20 28 28 38 38' |
+| Standards | Siemens: 'IEC 62271-100; IEC 62271-1; IEC 60265-1; IEC/IEEE 62271-37-013:2015... | Siemens: 'IEC 62271-100; IEC 62271-1; IEC 60265-1; IEC/IEEE 62271-37-013:2015 (marked accordingly)'; endurance classes E2, M2, S1, C2 |
+| Ambient / altitude conditions | Siemens: climatic class 3K4 (24-hour mean +35°C), 3K6; rated currents defined... | Siemens: climatic class 3K4 (24-hour mean +35°C), 3K6; rated currents defined at +40°C ambient; withstand voltages apply to site altitude 1000 m; altitude correction factor Ka |
 
 - **ABB** ABB UniGear ZS1 air-insulated medium-voltage switchgear: 11 kV class air-insulated metal-enclosed switchgear
 - **Siemens** Siemens 3AK7 vacuum circuit breaker (switching device for 11 kV switchgear): medium-voltage vacuum circuit breaker
@@ -7975,6 +11379,42 @@ Vendors: SESB Single Buyer (system owner/operator per Sabah Grid Code), Itron SA
 | Single-phase and three-phase radio — NCM digits, single-phase meter (SESB T.9468) | 7 digits | SESB Tender T.9468 page read 25 Nov 2026: title '1PH Elec. Energy Meter With NCM 7 Digits ...', closing date 09-12-2026. This is a specification printed in the tender title, not a price. |
 | Single-phase and three-phase radio — NCM digits, three-phase meter (SESB T.9468) | 8 digits | SESB Tender T.9468 page read 25 Nov 2026: title '3PH Elec. Energy Meter With NCM 8 Digit', closing date 09-12-2026. This is a specification printed in the tender title, not a price. |
 | Single-phase and three-phase radio — cumulative smart-meter units ordered from TNB by Pestech group since 2019 | 643455 units | The Edge Malaysia, 2 Oct 2023: 'since 2019 till to-date ... a total of RM139.8 million smart meters order from TNB ... consisted of a total of 643,455 units of smart meters'. |
+| Type 1 Metering Installation threshold | 60 GWh per annum (greater than) | Table 2: "Accuracy Requirements of Type 1 Metering Installation – Annual Energy Throughput Greater Than 60GWh"; MCA.1.4 Table Type 1 "Larger than 60GWh -> Check Metering Installation" |
+| Type 1 maximum allowable overall error, active at full load | 0.6 % (+/-) | Table 1: More than 7.5MW or 60GWh per annum -> Active 0.6, Reactive 1.0 |
+| Type 1 maximum allowable overall error, reactive at full load | 1.0 % (+/-) | Table 1: More than 7.5MW or 60GWh per annum -> Reactive 1.0 |
+| Type 1 minimum component accuracy classes | Table 1: "0.2 CT Burden 30 VA if ../1A, 15 VA if ../5A, 0.2 VT Min Burden 100... | Table 1: "0.2 CT Burden 30 VA if ../1A, 15 VA if ../5A, 0.2 VT Min Burden 100VA, 0.2 Wh Meter, 0.5 VARh meter" |
+| Meter clock error | Table 1: Meter Clock Error (Seconds) with reference to Malaysian Standard Tim... | Table 1: Meter Clock Error (Seconds) with reference to Malaysian Standard Time: ±5ppm for both metering types; MC11: "The Metering Database must be set within an accuracy of ±1 second of Malaysian Standard Time" |
+| Type 1 accuracy - unity PF active at 10% rated load | 0.7 % | Table 2 row 10% rated load, Power Factor Unity, Active 0.7% |
+| Type 1 accuracy - unity PF active at 50% and 100% rated load | 0.6 % | Table 2 rows 50% and 100% rated load, Power Factor Unity, Active 0.6% |
+| Type 1 accuracy - 0.5 lag active / reactive at 50% and 100% load | Table 2: at 0.5 Lag, Active 1.0%, Reactive 0.5% for 50% and 100% rated load | Table 2: at 0.5 Lag, Active 1.0%, Reactive 0.5% for 50% and 100% rated load |
+| Type 1 accuracy - zero power factor reactive at 10% load | 1.4 % | Table 2 row 10% rated load, Power Factor Zero, Reactive 1.4% |
+| Type 2 threshold and overall error | Table 1: Less than 7.5MW or 60GWh per annum -> Active 1.0%, Reactive 2.0%; 0.... | Table 1: Less than 7.5MW or 60GWh per annum -> Active 1.0%, Reactive 2.0%; 0.2 CT burden 15VA, 0.5 VT min burden 75VA, 0.5 Wh Meter, 1.0 VARh meter, ±5ppm |
+| Check metering requirement | MCA.1.4: Type 1 (>60GWh) requires a Check Metering Installation with separate... | MCA.1.4: Type 1 (>60GWh) requires a Check Metering Installation with separate CT cores and secondary windings; "The accuracy of Check Metering Installation shall be the same as the Main Metering Installation"; check meter accuracy "shall not exceed twice the level prescribed" |
+| Energy registration resolution | MCA.1.5: "resolution of the energy registration of 0.5S class Meters shall be... | MCA.1.5: "resolution of the energy registration of 0.5S class Meters shall be better than 0.2 % and the resolution of the energy registration of 0.2S class Meters shall be better than 0.1 %" |
+| Target availability | MC6.1: "The target availability of measurement transformers and Metering Inst... | MC6.1: "The target availability of measurement transformers and Metering Installations shall be 99% per annum and the target availability of the communication link shall be 95% per annum" |
+| Historical metering data retention | MC4(m): six (6) months on-line; thirteen (13) months in accessible format; se... | MC4(m): six (6) months on-line; thirteen (13) months in accessible format; seven (7) years in archive |
+| Type 1 laboratory/field test uncertainties | Appendix 2 table: Type 1 In Laboratory CTs/VTs ±0.05%, Wh Meter ±(0.05/cos θ)... | Appendix 2 table: Type 1 In Laboratory CTs/VTs ±0.05%, Wh Meter ±(0.05/cos θ)%, Varh Meter ±(0.2/sin θ)%; In Field Use CTs/VTs ±0.1%, Wh Meter ±(0.1/cos θ)%, Varh Meter ±(0.3/sin θ)% |
+| Maximum allowable period between tests | Appendix 2: CT 10 years; VT 10 years; CT Connected Meter (Electronic Type) 5 ... | Appendix 2: CT 10 years; VT 10 years; CT Connected Meter (Electronic Type) 5 years; burden tests whenever meters tested or modifications made; maximum period between inspections 2.5 years |
+| Measurement reference temperature | 25 degC | Note under Table 2A: "All measurements in Tables 2 and 3 are to be referred to 25degrees Celsius under Meter laboratory conditions" |
+| Import/export power-factor labelling convention | Appendix 2 final table: Active Import + Reactive Import = Lagging; Active Imp... | Appendix 2 final table: Active Import + Reactive Import = Lagging; Active Import + Reactive Export = Leading; Active Import + Zero Reactive = Unity; Active Export + Reactive Export = Lagging; Active Export + Reactive Import = Leading; Active Export + Zero Reactive = Unity |
+| Publication | Sabah Grid Code, Annex 1, 224 pages; hosted under /attachments/2024-01/; Jina... | Sabah Grid Code, Annex 1, 224 pages; hosted under /attachments/2024-01/; Jina reported published-time 2024-01-05; defines the Electricity Supply Enactment 2024 |
+| Voltage rating | 3*57.7/100V up to 3*277/480V auto ranging n/a | Technical Specifications Ratings Voltage: 3*57.7/100V up to 3*277/480V auto ranging |
+| Direct current | In 5A, Imax 120A n/a | Direct Current: In 5A, Imax 120A |
+| CT connection | Ib 1A, Imax 10A n/a | CT Connection: Ib 1A, Imax 10A |
+| Accuracy - direct connected | Class 1 or Class B n/a | Accuracy Direct Connected: Class 1 or Class B |
+| Accuracy - transformer connected | Class 0.2S, Class 0.5S or Class C n/a | Transformer Connected: Class 0.2S, Class 0.5S or Class C |
+| Accuracy - reactive energy | Class 1 or Class 2 n/a | Reactive energy: Class 1 or Class 2 |
+| Frequency | 50 / 60 Hz | Frequency 50 / 60 Hz |
+| Standards | IEC 62052, IEC 62053, EN50470-1, EN50470-3, CE marking n/a | Full compliance with IEC 62052, IEC 62053, MID standard EN50470-1 and EN50470-3 and CE marking standards |
+| Communications | IR-port (IEC 61107), optional RS232C and/or RS485, DLMS-Cosem Protocol (IEC 62056) n/a | Communications IR-port (IEC 61107), optional RS232C and/or RS485 DLMS-Cosem Protocol (IEC 62056) |
+| Communication channels | Up to three (2 electrical & 1 optical); two used simultaneously n/a | Up to three communication channels (2 electrical & 1 optical) depending on the meter version. Two channels can be used simultaneously |
+| Load profile channels | 16 channels | Storage of up to 16 channels for various quantities in two independent banks |
+| Energy-rate registers | 32 registers | 32 energy-rate registers and 24 demand-rate registers are available |
+| Demand-rate registers | 24 registers | 32 energy-rate registers and 24 demand-rate registers are available |
+| Pulse inputs | 4 inputs | Four pulse inputs provide additional metering information (versions with I/O lines) |
+| Auxiliary power supply isolation | 2 kV | From IEC7 versions, the optional APS is isolated (2KV) from measurement voltages |
+| External modem power | 3 W | in IEC7 versions, the meter now provides up to 3W |
+| Dimensions | 180 x 325 mm with standard terminal cover; 358 mm with extended terminal cover; 85 x 251 x 97 x 62 x 150 x 201 x 230 x 239 n/a | Dimensions > 180 325 mm with standard terminal cover 358 mm with extended terminal cover 85 251 97 62 150 201 230 239 |
 
 - **SESB Single Buyer (system owner/operator per Sabah Grid Code)** SESB revenue metering installation - Main Meter and Check Meter (Type 1 metering): tariff/revenue metering installation with main and check meters, CT/VT and data logger
 - **Itron SAS** Itron ACE SL7000 industrial & substation meter range: transformer-connected tariff meter
@@ -8009,6 +11449,17 @@ Vendors: Siemens (1 model lines recorded).
 | Siemens RUGGEDCOM 19-inch Layer 2 Ethe — PoE capability (RST2228P) | 24 PoE ports, max 60 W per port, 500 W shared budget | Siemens RUGGEDCOM brochure, Edition 09/2018, read via r.jina.ai: 'Up to 24 PoE Ports ... Maximum power per port is 60 Watt ... 500 Watt shared power budget per device'. |
 | SESB communication link for revenue me — communication link availability target | 95 % per annum | Sabah Grid Code MC6.1 (published 2024, read via r.jina.ai): 'target availability of the communication link shall be 95% per annum unless otherwise agreed between the Single Buyer and the User'. |
 | SESB communication link for revenue me — regulatory approval of telecom equipment | Sabah Grid Code MC6.2 (published 2024, read via r.jina.ai): 'the communicatio... | Sabah Grid Code MC6.2 (published 2024, read via r.jina.ai): 'the communication link and the associated equipment procured is approved under the relevant telecommunication laws and regulations'. (value: communication link and associated equipment procured must be approved under rele) |
+| operating_temperature | -40-85 degC | Operation in industrial temperature range: -40 degC to +85 degC normal operation; passive cooling - no fans |
+| high_voltage_power_supply | 88-300 VDC | Universal high-voltage range: 88-300 VDC or 85-264 VAC |
+| high_voltage_power_supply_AC | 85-264 VAC | Universal high-voltage range: 88-300 VDC or 85-264 VAC |
+| low_voltage_options | 12 VDC, 24 VDC or 48 VDC n/a | Low voltage: 12 VDC, 24 VDC or 48 VDC |
+| RSG2100_ports | 19 ports | RUGGEDCOM RSG2100: Up to 19 ports: 3 x 10/100/1000BASE-X; 16 x 10/100BASE-X; 2 port modules |
+| RSG2300_ports | 32 ports | RUGGEDCOM RSG2300: Up to 32 ports: 4 x optional 10/100/1000BASE-X; 4 x optional 10/100BASE-X; 24 x fixed 10/100BASE-TX |
+| RST2228_ports | 24 ports | RUGGEDCOM RST2228: 4 x 1000BASE-X/10GBASE-X uplinks; up to 24 x 10/100/1000BASE-X ports; IEEE 1588 v2 hardware time stamping |
+| RSG2488_ports | 28 ports | RUGGEDCOM RSG2488: 28 x 10/100/1000BASE-X ports; 4 port field replaceable modules; IEEE 1588, SNTP, IRIG-B and GPS conversion |
+| PoE_power_per_port | 60 W | RST2228P: Up to 24 PoE ports; maximum power per port is 60 Watt; 500 Watt shared power budget per device |
+| PoE_shared_power_budget | 500 W | 500 Watt shared power budget per device (RST2228P) |
+| safety_approval | CSA/UL 60950 safety approved to +85 degC n/a | RSG2100P / RSG2300P universal power supply options: CSA/UL 60950 safety approved to +85 degC |
 
 - **Siemens** Siemens RUGGEDCOM 19-inch Layer 2 Ethernet switches (RSG2100 / RSG2300 / RST2228 / RSG2488): substation/industrial Ethernet switch family
 
@@ -8435,6 +11886,15 @@ Vendors: FlareTech Inc., CRA (Combustion Research Associates), NAO Inc., Allmarc
 | PORTA-TEST REVOLUTION installations | >500 worldwide installations | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
 | configuration | horizontal or vertical configuration | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
 | company installations | >800 in >25 countries since 1993 count | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
+| function | Liquid-gas separation n/a | Overview table: Function - Liquid-gas separation |
+| application | Upstream of flare stack n/a | Overview table: Application - Upstream of flare stack |
+| duty | Emergency relief & blowdown n/a | Overview table: Duty - Emergency relief & blowdown |
+| standard_sizes | no printed sizes n/a | Each knock-out drum is sized from actual process data rather than generic templates; technical datasheet downloads present on page but no size table printed |
+| volume_range | 2-600 BBL | we have designed and manufactured Flare Knockout Drums from small 2 Barrels (BBL) to large 600BBL volumes |
+| configuration_options | fully enclosed heated buildings, partially enclosed heated buildings, heated enclosures between the saddles, or heat traced and insulated n/a | Our knockouts can be produced complete with ... (printed list) |
+| quality_certification | ISO 9001:2008 n/a | Certifications: Certified Company ISO 9001:2008 |
+| high_pressure_operation | improve separation effectiveness at very high operating pressures n/a | Benefit bullet: improve separation effectiveness at very high operating pressures (no numeric value printed) |
+| vessel_size_weight_reduction | enable reductions in pressure vessel size and weight, and hence required floor space n/a | Benefit bullet (qualitative; no numeric value printed) |
 
 
 ### Free-water knockout (tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones)
@@ -8529,6 +11989,15 @@ Vendors: SLB (Cameron pressure control equipment), Emerson (duplex stainless ste
 | GVF / WLR | 0-100% / 0-100% % | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
 | sizes | 6 sizes; 1.5-8 in in | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
 | design pressure | 3,750 psi ANSI / 5,000 psi hub psi | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
+| Available meter sizes | 6 sizes | "Roxar™ 2600 MPFM is available in 6 sizes" |
+| Gas volume fraction range | 0-100 % GVF | "high accuracy multiphase flow measurement for all phases within the full range of flowing conditions, 0-100% GVF and 0-100% WLR" |
+| Water liquid ratio range | 0-100 % WLR | "0-100% GVF and 0-100% WLR" |
+| Material options | "material options ranging from duplex stainless steel to Inconel, a choice of... | "material options ranging from duplex stainless steel to Inconel, a choice of flange types and pressure ratings, and enclosures in SS316 or painted aluminum" |
+| Sour service standard | "extreme sour service in accordance with NACE MR0175/ISO 15156, where required" | "extreme sour service in accordance with NACE MR0175/ISO 15156, where required" |
+| Transmitter | "Roxar 5726 Multiphase Transmitter mounted directly onto the flow meter" | "Roxar 5726 Multiphase Transmitter mounted directly onto the flow meter" |
+| Communication protocols | "interfaces with DCS, SCADA and digital protocols such as Modbus and OPC UA .... | "interfaces with DCS, SCADA and digital protocols such as Modbus and OPC UA ... and HTTPS for secure data access" |
+| Typical calibration/verification interval | 1 year (typical recommendation) | "a typical recommendation being yearly checks and verification" |
+| Installation orientation | "The meter shall be installed vertically, requiring limited straight pipe len... | "The meter shall be installed vertically, requiring limited straight pipe lengths" |
 
 
 ### Molecular sieve dehydration and solid desiccants (tp-molecular-sieve-dehydration-and-solid-desiccants)
@@ -8574,6 +12043,28 @@ Vendors: SPEC Oil & Gas Technologies (fabricator), SLB (Cameron pressure control
 | reference facility | 50,000 BOPD; 2 dehydrators + 2 cross exchangers BOPD | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
 | reference trains | 2 x 30 MMSCFD MMSCFD | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
 | TEG outlet spec (Fiorentini) | 3-7 lb water/MMSCF lb/MMSCF | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
+| Reference facility capacity | 50000 BOPD | 'Two electrostatic dehydrators and two crude cross exchangers for a 50,000 BOPD production facility' (TAQA Atrush, Kurdistan Region of Iraq, 2019) |
+| Reference equipment count | 2 dehydrators | same project reference (plus two crude cross exchangers) |
+| Heating section | 'gas fired firetubes' with heat shroud | 'gas fired firetubes' with heat shroud |
+| Coalescing section | 'electrostatic grid generated by electric transformers'; polarises water drop... | 'electrostatic grid generated by electric transformers'; polarises water droplets to coalesce and settle |
+| Footprint comparison | 'Smaller than a comparable mechanical unit' (comparison table) | 'Smaller than a comparable mechanical unit' (comparison table) |
+| Treated oil BS&W | 'Lower' than mechanical treater (comparison table) | 'Lower' than mechanical treater (comparison table) |
+| Salt content | 'Lower' than mechanical treater (comparison table) | 'Lower' than mechanical treater (comparison table) |
+| Design parameters | 'Grid voltage, treating temperature, vessel size and the achievable BS&W and ... | 'Grid voltage, treating temperature, vessel size and the achievable BS&W and salt figures are set by SPEC engineering against your crude properties and target specification' |
+| Heater treater - treating capacity | Sized to duty, including above 20,000 BLPD (barrels of liquid per day) n/a | SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated |
+| Heater treater - orientation | Horizontal, skid-mounted n/a | SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated |
+| Heater treater - crude range | Including low-API crude n/a | SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated |
+| Heater treater - heat source | Firetubes within the heating section n/a | SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated |
+| Heater treater - control | Fully automated burner management system n/a | SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated |
+| Heater treater - sections | Two main sections: heating section and coalescing section n/a | SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated |
+| Project scope example | Two 30 MMSCFD triethylene glycol dehydration trains for a 60 MMSCFD sour gas plant n/a | Scope Two 30 MMSCFD triethylene glycol dehydration trains for a 60 MMSCFD sour gas plant. |
+| Reference plant capacity | ?-35 MMSCFD | SPEC designed, engineered and supplied a 2 × 35 MMSCFD triethylene glycol dehydration plant, with commissioning support. |
+| Glycol type | Triethylene glycol (TEG) n/a | Triethylene glycol (TEG) is the glycol most widely used in contactor dehydration. |
+| Process equipment | inlet scrubber, contactor tower, glycol/gas heat exchanger, flash tank, rich/lean glycol exchanger, glycol reboiler and still column, glycol pump, glycol filters n/a | Process description sections of the page |
+| Reference scope | Molecular sieve dehydration unit within a 100 tonne a day LPG production facility n/a | Scope Molecular sieve dehydration unit within a 100 tonne a day LPG production facility. |
+| Regeneration gas temperature | 290 degC / degF | For regeneration, gas is heated to around 550 °F (290 °C) and sent to the tower being regenerated |
+| Regeneration temperature (table) | ?-290 degC | Regeneration gas temperature: Approximately 550 °F (290 °C) |
+| Bed configuration | two towers switching between adsorbing and regenerating on a fixed cycle n/a | The two towers switch between adsorbing and regenerating on a fixed cycle. |
 
 
 ### Power generation — gas turbines and diesel (tp-power-generation-gas-turbines-and-diesel)
@@ -8857,6 +12348,8 @@ Vendors: Stamicarbon, thyssenkrupp Uhde, Casale, Toyo Engineering, Saipem (ex-Mi
 | corrosion mitigation | continuous small oxygen (air) injection; duplex stainless (1990s); zirconium or zirconium-clad titanium tubing (2000s) n/a | ammonium carbamate highly corrosive even to resistant stainless; passive oxide layer maintained by oxygen injection |
 | synthesis pressure / temperature (vendor description) | 200 C, 130-200 bar n/a | SensoTech application note: thermal conversion of ammonium carbamate at a temperature of 200 C and pressure 130 to 200 bar |
 | process type | self-stripping with MHP carbamate decomposition n/a | Casale Urea technology page |
+| Process configuration | Casale Urea page: 'HYPER-U is an improved self-stripping urea process which e... | Casale Urea page: 'HYPER-U is an improved self-stripping urea process which enhances efficiency by incorporating a Medium-High Pressure (MHP) carbamate decomposition step' |
+| Stated benefits | 'Enhanced thermal efficiency; Reduced demand for medium-pressure steam and co... | 'Enhanced thermal efficiency; Reduced demand for medium-pressure steam and cooling water; Improved operational cost (OPEX); Smaller carbon footprint; Compatibility with new plants and revamps' |
 
 - **Stamicarbon** LAUNCH MELT pool reactor design: suited to capacities up to about 2,500 mtpd; about 30 m plant height
 - **Toyo Engineering** ACES21 process: reactor at N/C 3.7, 182 C and 152 bar
@@ -8886,6 +12379,12 @@ Vendors: SESB Grid System Operator (GSO) (1 model lines recorded).
 | CAT-1 remote monitor / CATMaster s — nominal radio range | 20 km | Google Patents US8738191B2 page read 25 Nov 2026; description as printed: 'Radio range is nominally 20 km, but varies with local conditions (e.g. terrain). Solar powered spread spectrum radio repeaters are available for longer communication distances.' Publication date 2014-05-27, priority 2010-09-17. No price in document. |
 | CAT-1 remote monitor / CATMaster s — data points per CAT-1 programmed into SCADA | 12 data points | Google Patents US8738191B2 page read 25 Nov 2026: 'Data point definitions (12 per CAT-1) are then programmed into SCADA. Radio path and signal strengths are then verified. Receipt of 12 bi-polar analog data points per CAT-1 is also verified.' No price in document. |
 | CAT-1 remote monitor / CATMaster s — remote monitors handled per CATMaster | 4 CAT-1 remote monitors | Google Patents US8738191B2 page read 25 Nov 2026: 'The CATMaster is a 19 inch (483 mm) rack-mount unit that acquires data from up to four CAT-1 Remote Monitors via a spread spectrum radio transceiver.' No price in document. |
+| Operating Code | OC5.5 Procedures for Operational Liaison n/a | Operating Code No. 5: Operational Liaison — OC5.5 PROCEDURES FOR OPERATIONAL LIAISON |
+| OC5.4 | Operational Liaison Terms n/a | OC5.4 OPERATIONAL LIAISON TERMS |
+| Communication requirement | GSO and User shall use communication channels in accordance with the Connection Conditions (CC) n/a | communication channels to be used in accordance with the Connection Conditions (CC) |
+| SCADA/RTU communication | SCADA equipment, remote terminal units or other means of communication specified in ... n/a | SCADA equipment, remote terminal units or other means of communication specified in [the agreement] ... information to and from the GSO. |
+| Nominated contacts | The GSO and User shall nominate persons, contact locations and communication channels n/a | The GSO and User shall nominate persons, contact locations and communication channels to ensure the effectiveness of OC6 |
+| Communication equipment criteria | CC5.5 TECHNICAL CRITERIA FOR COMMUNICATION EQUIPMENT n/a | CC5.5 TECHNICAL CRITERIA FOR COMMUNICATION EQUIPMENT — technical criteria concerning voice and data communication equipment |
 
 - **SESB Grid System Operator (GSO)** SESB GSO/User operational liaison and communication channels (OC5.5): utility-to-plant operational communication interface
 
@@ -8959,6 +12458,16 @@ Vendors: Cleaver-Brooks, Zeeco (0 model lines recorded).
 | pilot train components | regulator + solenoid + manual valve qualitative | Pilot train has its own regulator, solenoid valve and manual valve |
 | Scope | BMS / combustion controls / valve trains / installation / commissioning scope of supply | Zeeco Power Burners page GB burner bullet 'Total system approach: Full Scope of supply with BMS/combustion controls/valve trains/installation/commissioning' |
 | Fuel skid customization | Custom fuel skids for various applications worldwide; any required dimension and specified feature capability | Zeeco Industrial Burners page Burner management systems section |
+| Free Jet turndown | 20 ratio | 'High turndown of 20:1 on a per burner basis' |
+| Free Jet tip exposure | 1 in | 'tip mass is small and exposed into firebox less than 1" (25 mm)' |
+| Free Jet materials | '304 Stainless Steel fuel gas risers'; '310 Stainless Steel (Type HK) seconda... | '304 Stainless Steel fuel gas risers'; '310 Stainless Steel (Type HK) secondary gas tips'; '310 Stainless Steel (Type HK) primary gas tip' |
+| GB heat input | 360 MMBtu/hr | 'GB burners can be designed with heat inputs in excess of 360 MMBtu/hr per burner' |
+| GB fuels | 'natural gas, #6/#2 fuel oils, low Btu gases (blast furnace gas/ coke oven ga... | 'natural gas, #6/#2 fuel oils, low Btu gases (blast furnace gas/ coke oven gas), opportunity fuels, waste streams' |
+| PDH air heater heat release | 1000000000 Btu/hr | 'high heat releases of up to one billion Btu/hr' |
+| Installed burners | 1000 burners | 'an ever-growing installation list of more than 1,000 burners' |
+| Average staff experience | 30 years | 'an average industry experience of 30+ years' |
+| Quality system | 'Zeeco's ISO 9001 accredited quality management system' | 'Zeeco's ISO 9001 accredited quality management system' |
+| Total scope | 'Full Scope of supply with BMS/combustion controls/valve trains/installation/... | 'Full Scope of supply with BMS/combustion controls/valve trains/installation/commissioning' |
 
 
 Recorded gaps:
@@ -9077,6 +12586,25 @@ Vendors: PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia), POTAGLAS M
 | GRP sectional panel water tank — Bending strength, panel | 167 MN/m2 | PIPECO GRP tank panel performance table: 167 MN/m2 vs SS 245:2014 acceptance criteria >100 (min) |
 | GRP sectional panel water tank — Glass content, panel | 33 % | PIPECO GRP tank panel performance table: 33% vs SS 245:2014 acceptance criteria >25 (min) |
 | GRP sectional panel water tank — Water absorption, panel | 0.2 % | PIPECO GRP tank panel performance table: 0.2% vs SS 245:2014 acceptance criteria 0.5 (max) |
+| Applicable standards | Applicable Standards listed: API 650, API 620, API 653, AWWA D100 (Welded Car... | Applicable Standards listed: API 650, API 620, API 653, AWWA D100 (Welded Carbon Steel Tanks for Water Storage), NSF/ANSI 61 (Potable Water Contact), ASME B16.5, NFPA 30, ISO 9001 |
+| AWWA D100 tank construction | "Welded carbon steel tanks to AWWA D100 for potable water, fire suppression, ... | "Welded carbon steel tanks to AWWA D100 for potable water, fire suppression, and industrial water storage — including NSF/ANSI 61 lining systems where potable water contact is required" |
+| AWWA D100 services | "Potable water, fire water, and municipal water storage (AWWA D100)" | "Potable water, fire water, and municipal water storage (AWWA D100)" |
+| Roof configurations | "Fixed cone, external floating roof (EFR), and internal floating roof (IFR) c... | "Fixed cone, external floating roof (EFR), and internal floating roof (IFR) configurations engineered to product vapour pressure, site conditions, and environmental requirements" |
+| Inspection and testing | "Hydrostatic testing, weld inspection, NDE, and third-party verification in a... | "Hydrostatic testing, weld inspection, NDE, and third-party verification in accordance with the applicable standard (API 650, API 620, or AWWA D100)" |
+| Standards | Singapore Standard SS245: 2014, MS 1390 : 2010 similar to British Standard BS 7491 Part 3:1994 and BS EN 13280:2001 n/a | Standard : Singapore Standard SS245: 2014, MS 1390 : 2010 similar to British Standard BS 7491 Part 3:1994 and BS EN 13280:2001 |
+| Resin | Isophthalic unsaturated polyester resin conforming to BS 3532 or JISK 6919 n/a | Resin – Isophthalic unsaturated polyester resin conforming to BS 3532 or JISK 6919 specification |
+| Fibre glass | Type E Glass, alumino-borosilicate or alumino-calco-silicate, conforming to BS 3496 and BS 3749 n/a | Fiber Glass – Type “E” Glass comprises of alumino-borosilicate or alumino- calco-silicate, conforming to BS 3496 and BS 3749 specifications |
+| Manufacturing process | Hot pressed SMC compression moulding n/a | Manufacturing Process: Hot pressed SMC compression moulding |
+| Tie-rod internal material | SS304 Tie-rod, Optional SS316 n/a | Tie-rod System: Internal: SS304 Tie-rod, Optional SS316 |
+| Tensile strength | 107 MN/m2 | Tensile Strength (MN/m²): 107; Acceptance Criteria >70 (min) |
+| Bending strength | 167 MN/m2 | Bending Strength (MN/m²): 167; Acceptance Criteria > 100 (min) |
+| Elastic modulus in bend | 11953 MN/m2 | Elastic Modulus in Bend (MN/m²): 11953; Acceptance Criteria > 6000 (min) |
+| Glass content | 33 % | Glass Content (%): 33; Acceptance Criteria > 25 (min) |
+| Barcol hardness | 59 n/a | Barcol Hardness: 59; Acceptance Criteria >30 (min) |
+| Water absorption | 0.2 % | Water Absorption (%): 0.2; Acceptance Criteria 0.5 (max) |
+| Concrete plinth recommendation | 300mm (W) x 500mm (H), max height variance 2mm n/a | PIPECO recommends an ideal concrete plinth size of 300mm (W) x 500mm (H), with maximum variance in height of not more than 2mm |
+| Skid base beams | Hollow Section 50mm x 50mm x 3mm (1.5-3.0 m tank heights); 50mm x 50mm x 4mm (3.5-4.0 m) n/a | Skid Base Specification table for tank heights 1.0m to 4.0m |
+| Pre-insulated panel | 50mm layer of rigid polyurethane foam n/a | By encapsulating a 50mm layer of rigid polyurethane foam, PIPECO pre-insulated panel could maintain the desired water temperature |
 
 - **PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia)** PIPECO GRP Sectional Water Tank (SMC panel, internal tie-rod or external braced designs): modular glass-reinforced-plastic sectional water storage tank
 
@@ -9111,6 +12639,11 @@ Vendors: Graver Technologies, WOG Technologies Limited, Kurita Water Industries 
 | Regeneration design | two-vessel SepraEight external regeneration n/a | Printed in page description |
 | Resin | Gravex Bead Resin n/a | Printed under Resin Optimization |
 | Contaminants removed | iron, copper, silica, salts, suspended solids n/a | Printed in page description |
+| Cation:anion resin ratio AVT | 2 ratio | 'when "All Volatile Treatment" (AVT) is used ... a high cation exchange to anion exchange resin ratio (2:1)' |
+| BWR resin blend | 'in a neutral pH environment, as would be seen in a boiling water reactor (BW... | 'in a neutral pH environment, as would be seen in a boiling water reactor (BWR) a stoichiometric blend of the ion exchange media would be employed' |
+| Removed species | 'Both Deep Bed and Precoat type Polishers remove iron, copper, silica and sal... | 'Both Deep Bed and Precoat type Polishers remove iron, copper, silica and salts, and suspended solids' |
+| Regeneration | 'two-vessel SepraEight® regeneration design results in a smaller footprint fo... | 'two-vessel SepraEight® regeneration design results in a smaller footprint for regeneration equipment' |
+| Regeneration options | 'sent off-site for regeneration or disposal, or ... regenerated on-site using... | 'sent off-site for regeneration or disposal, or ... regenerated on-site using Graver's SepraEight technology' |
 
 
 Recorded gaps:
@@ -9152,6 +12685,20 @@ Vendors: Veolia Water Technologies, LANXESS, SUEZ Water Technologies (0 model li
 | Motor supply | 460/60/3, TEFC V / Hz / phase | Printed under Standard Design Features as '460V/60HZ/3PH, TEFC motor' |
 | Pump type | stainless steel vertical centrifugal pump n/a | Printed under Standard Design Features |
 | Typical application | Boiler Water Make-Up n/a | Printed under Typical Applications |
+| Operating cost saving vs mixed bed DI | 40-50 % lower | "provide continuous quality as well as 40-50% lower operating costs when compared to mixed bed DI" |
+| Floorspace vs ion exchange demineralization | 50-75 % less | "50-75% less floorspace than ion exchange based demineralization" |
+| Water recovery | 100 % (can be recycled upstream to RO feed) | "Can be recycled upstream to the RO feed for 100% recovery, zero waste production" |
+| Technology | "combination of selective ion exchange membranes, ion exchange conductive res... | "combination of selective ion exchange membranes, ion exchange conductive resins, and electricity to remove ions from water rather than costly hazardous chemicals" |
+| Applications | "Power Generation: Steam makeup water; Petrochemical: Steam makeup water; All... | "Power Generation: Steam makeup water; Petrochemical: Steam makeup water; All Industrial applications where demineralized or deionized water is needed for ultrapure processes" |
+| ROFlex - membrane type | TFC 8 inch x 40 inch high rejection brackish-water (BW) membranes n/a | Graver Water (Marmon Industrial Water) ROFlex Reverse Osmosis Systems product page; no print date stated |
+| ROFlex - membrane vessels | FRP, side-ported n/a | Graver Water (Marmon Industrial Water) ROFlex Reverse Osmosis Systems product page; no print date stated |
+| ROFlex - high pressure piping | 316L stainless steel, schedule 40 n/a | Graver Water (Marmon Industrial Water) ROFlex Reverse Osmosis Systems product page; no print date stated |
+| ROFlex - low pressure piping | PVC schedule 80 n/a | Graver Water (Marmon Industrial Water) ROFlex Reverse Osmosis Systems product page; no print date stated |
+| ROFlex - motor | 460 V / 60 Hz / 3 phase, TEFC n/a | Graver Water (Marmon Industrial Water) ROFlex Reverse Osmosis Systems product page; no print date stated |
+| ROFlex - pump | Stainless steel vertical centrifugal pump n/a | Graver Water (Marmon Industrial Water) ROFlex Reverse Osmosis Systems product page; no print date stated |
+| ROFlex - instrumentation | Permeate TDS meter, digital display flow meters, liquid-filled stainless steel pressure gauges n/a | Graver Water (Marmon Industrial Water) ROFlex Reverse Osmosis Systems product page; no print date stated |
+| ROFlex - optional features | Nanofiltration membranes, cold water membranes, pH meter, ORP meter, high TDS diversion, 50 Hz system, CIP n/a | Graver Water (Marmon Industrial Water) ROFlex Reverse Osmosis Systems product page; no print date stated |
+| ROFlex - typical applications | Boiler water make-up, cooling tower make-up/blow down/side stream, wastewater treatment n/a | Graver Water (Marmon Industrial Water) ROFlex Reverse Osmosis Systems product page; no print date stated |
 
 
 Recorded gaps:
@@ -9241,6 +12788,36 @@ Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems),
 | Temperature | 400 deg F | Value as printed in the cited source; no further qualifier stated. |
 | Water depth | 10000 ft | Value as printed in the cited source; no further qualifier stated. |
 | standards for welding | API 6A, 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 F3/D/C1 standard list | Application section of fetched page |
+| Pressure rating | 20000 psi | 'pressures up to 20,000 psi' |
+| Temperature rating | 400 deg F | 'temperatures to 400 o F' |
+| Water depth rating | 10000 feet | 'water depths up to 10,000 feet' |
+| EVDT deepest completion record | 9627 feet | 'Our EVDT subsea tree holds the deepest subsea completion record at 9,627 feet' |
+| Tree configurations | 'wide range of vertical and horizontal subsea tree solutions' | 'wide range of vertical and horizontal subsea tree solutions' |
+| Experience | 40 years | 'For more than 40 years, TechnipFMC has engineered well control solutions' |
+| Operating temperature range | -18-176 degC | "We design trees that can work in extreme temperature ranging from minus 18 degrees Celsius to plus 176 degrees Celsius" |
+| Maximum working pressure | 15000 psi (up to, or more than 1,000 bar) | "at pressures of up to 15,000 pounds per square inch, or more than 1,000 bar" |
+| Production bore (wellhead vertical trees) | 7 in | "Full deep-water capability and 7-inch production bore size for wellhead vertical trees" |
+| Water depth capability | "Operate in ultra-deep waters under extreme pressures and temperatures"; "Ful... | "Operate in ultra-deep waters under extreme pressures and temperatures"; "Full deep-water capability" (no numeric depth printed) |
+| pressure_rating | 20000 psi | wide range of vertical and horizontal subsea tree solutions for all subsea conditions: Up to 20,000 psi |
+| temperature_rating | 400 degF | Up to 400F |
+| water_depth_rating | 10000 ft | Up to 10,000 feet |
+| EVDT_record_depth | 9627 ft | in 2011, the EVDT set the world's record for deepest installed tree at 9,627 feet in Shell's Silvertip field in the Perdido development in the Gulf of Mexico |
+| tree_types | vertical and horizontal subsea tree solutions; Subsea 2.0 tree systems n/a | extensive and reliable subsea tree capabilities offer a wide range of vertical and horizontal subsea tree solutions |
+| HPHT tree - production pressure up to | 15000 psi | Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated |
+| HPHT tree - flowing temperature up to | 350 degF | Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated |
+| HPHT tree - subsea HPHT field experience | Over 20 years n/a | Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated |
+| Subsea tree systems - system sizes | 5-inch and 7-inch systems n/a | Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated |
+| Subsea tree systems - water depth up to | 10000 ft | Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated |
+| Aptara framework - pressure | 10,000 psi (690 bar) n/a | Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated |
+| Aptara framework - temperature | 300 degF (149 degC) n/a | Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated |
+| Subsea trees - temperature range | -18-176 degC (extreme temperature) | OneSubsea 'Subsea trees' product page; no print date stated |
+| Subsea trees - pressure rating | 15000 psi (up to; more than 1,000 bar) | OneSubsea 'Subsea trees' product page; no print date stated |
+| Subsea trees - offered configurations | Horizontal, wellhead vertical, and tubing head spool vertical trees n/a | OneSubsea 'Subsea trees' product page; no print date stated |
+| Subsea trees - wellhead vertical production bore | 7 inch; full deep-water capability | OneSubsea 'Subsea trees' product page; no print date stated |
+| Subsea wellheads - water depth suitability | All water depths n/a | OneSubsea 'Subsea wellheads' product page; no print date stated |
+| Subsea wellheads - conditions | Suitable for exploration and production in extreme conditions n/a | OneSubsea 'Subsea wellheads' product page; no print date stated |
+| Subsea wellheads - function | Primary pressure barrier; anchor and suspension point and seal element for casing strings; safety barrier for use with BOPs and subsea trees n/a | OneSubsea 'Subsea wellheads' product page; no print date stated |
+| Subsea wellheads - compatibility | Compatible with vertical or horizontal trees, blowout preventers, workover systems and downhole well casings n/a | OneSubsea 'Subsea wellheads' product page; no print date stated |
 
 
 Recorded gaps:
@@ -9321,6 +12898,84 @@ Vendors: TechnipFMC (CDS Separation Systems), Aquaterra Energy, OneSubsea (SLB/A
 | supply voltage | 110/48/24 VDC VDC | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
 | AMP1500 product diameter | 1500 mm | Value as printed in the cited source; no further qualifier stated. |
 | ACP2 product diameter | 300 mm | Value as printed in the cited source; no further qualifier stated. |
+| T1500+ water depth rating | 500 m | 'suitable for deployment in water depths to 500 m' |
+| T1500+ power | 1500 hp | 'the 1500 hp (1125 kW) subsea power system' |
+| T1500+ power (kW) | 1125 kW | same parenthetical |
+| T1500+ current performance | 3.5 knots | 'up to 3.5 knots current performance' |
+| T1500+ maximum burial | 3 m | '3 m maximum burial capacity' |
+| UT-1 total power | 2.1 MW | 'the world's most powerful jetting ROV with 2.1MW of total power' |
+| AMP1500 product handling diameter | 1500 mm | 'capable of safely handling product up to 1500 mm' |
+| ACP2 minimum bend radius | 5 m | 'with a 5 m minimum bend radius' |
+| IMF function | 'cost-effective solution for mattress installation without the need for ROV o... | 'cost-effective solution for mattress installation without the need for ROV or diver intervention' |
+| Design code | 'Design code: ASME Section VIII, Division 1' | 'Design code: ASME Section VIII, Division 1' |
+| Sour service | 'H2S service additionally requires NACE compliance'; 'materials selected for ... | 'H2S service additionally requires NACE compliance'; 'materials selected for applicable sour-service requirements' |
+| Reference facility capacity | 100000 BOPD | 'For the 100,000 BOPD West Qurna-1 wet crude treatment system in Iraq' |
+| Module weight | 100 tonnes | 'Each assembled module weighed over 100 tonnes and stood higher than two storeys' |
+| Separation principles | 'Momentum', 'Gravity settling', 'Coalescing' | 'Momentum', 'Gravity settling', 'Coalescing' |
+| Orientations/phases | 'vertical and horizontal, and as either two or three phase units' | 'vertical and horizontal, and as either two or three phase units' |
+| Inlet devices | 'diverter plates, half pipe, vane and cyclonic' | 'diverter plates, half pipe, vane and cyclonic' |
+| Retention time basis | 'set from fluid properties, separation duty and required outlet quality' | 'set from fluid properties, separation duty and required outlet quality' |
+| Maximum deployment water depth | 500 m | "The T1500+ is an advanced Jet Trenching ROV suitable for deployment in water depths to 500 m" |
+| Subsea power system | 1500 hp | "The system is the 1500 hp (1125 kW) subsea power system" |
+| Subsea power system (kW) | 1125 kW | "1500 hp (1125 kW) subsea power system" |
+| Current performance | 3.5 knots (up to) | "up to 3.5 knots current performance" |
+| Maximum burial capacity | 3 m | "3 m maximum burial capacity" |
+| Typical inlet mercury concentration | 1-10 micrograms/Nm3 (approx 0.1 to 10 ppbv) | "It is not unusual for gas streams to contain 1 to 10 micrograms/Nm3 (approx. 0.1 to 10 ppbv) of mercury" |
+| Designed outlet mercury concentration | 0.001 micrograms/Nm3 | "Typically, mercury removal units are designed to remove the mercury to 0.001 micrograms/Nm3" |
+| Trapping chemistry | "uses a sulfur based trapping material which reacts with the element to form ... | "uses a sulfur based trapping material which reacts with the element to form cinnabar (HgS) on the bed" |
+| Trapping material carriers | "The trapping material is carried on activated carbon, zeolite or alumina" | "The trapping material is carried on activated carbon, zeolite or alumina" |
+| Downstream equipment protected | "Mercury can attack aluminum in downstream brazed aluminium plate fin heat ex... | "Mercury can attack aluminum in downstream brazed aluminium plate fin heat exchangers used in most modern cryogenic hydrocarbon recovery plants or liquefaction plants" |
+| Standard design pressure | 1440 psi (99 bar) | Specifications table: "Standard design pressure 1440 psi (99 bar)"; non-stock pressures engineered to process conditions |
+| Design temperature (stock vessels) | -29-54 degC (-20 F to 130 F) | Specifications table: "Design temperature (stock vessels) -20 °F to 130 °F (-29 °C to 54 °C)" |
+| Configurations | Orientation table: horizontal double barrel (gas flow maximised in upper barr... | Orientation table: horizontal double barrel (gas flow maximised in upper barrel without re-entrainment; liquid drops into lower barrel) and vertical (gravity removal; only lower portion of element saturates; smaller hardware at same flow rate) |
+| Separation stages | 2 stages | "The coalescer filter section removes bulk liquid and solid particles, and coalesces fine droplets into larger ones. Those larger droplets are then removed in a second double pocket (DP) vane section" |
+| Reference project | 2 gas filter separator skids | Project reference: "Gas Lift Compression Station Skids for Tonmoor, Jones Creek, Nigeria 2019 — Two gas filter separator skids" |
+| Total installed power | 2.1 MW | DeepOcean: 'The UT-1 is the world's most powerful jetting ROV with 2.1MW of total power.' |
+| Drive/pressure-flow control | 'It is also fitted with sophisticated drive motors, which allows precise cont... | 'It is also fitted with sophisticated drive motors, which allows precise control of pressure and flow, giving a high degree of flexibility when undertaking workshops in varied environmental conditions' |
+| Typical outlet oil-in-water | 25 ppm (as low as) | SPEC Typical Design Data: 'As low as 25 ppm oil in water, depending on inlet water quality and droplet size' |
+| Vessel code | SPEC: 'Vessel code ASME Section VIII' | SPEC: 'Vessel code ASME Section VIII' |
+| Moving parts | 0 None | SPEC: 'Moving parts: None'; 'Separation is driven by the pressure drop across the liner, not by rotating equipment.' |
+| Vessel sizing / materials | SPEC: 'Vessel sizes: Configured around process requirements, operating condit... | SPEC: 'Vessel sizes: Configured around process requirements, operating conditions and project scope'; 'Materials: A range of materials and sizes depending on application' |
+| Delivery / position | SPEC: 'Delivery: Skid-mounted units'; 'Typical position: Upstream of IGF, whe... | SPEC: 'Delivery: Skid-mounted units'; 'Typical position: Upstream of IGF, where process pressure allows' |
+| safety_integrity_level | SIL 1-3 SIL | Safety Manager is part of Experion PKS, providing a Safety Integrity Level (SIL) 1-3 certified safety platform |
+| architecture | Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture n/a | Based on the same Quadruple Modular Redundant (QMR) architecture as its FSC predecessor; executes SIL-defined safety application logic in a fully redundant (2oo4D) architecture |
+| cyber_security_certification | Embedded Device Security Assurance program as defined by ISA Security Compliance Institute n/a | Its cyber secure architecture is certified by the Embedded Device Security Assurance program as defined by the ISA Security Compliance Institute |
+| IO_technology | Universal Safety I/O; each channel individually configurable for a different I/O type; remote IO usable in hazardous locations n/a | Universal Safety IO (USIO) technology allows Safety Manager remote IO to be placed in hazardous locations; based on Universal Channel technology |
+| typical_outlet_quality | ?-10 ppm oil in water | Specifications: Typical outlet quality - As low as 10 ppm oil in water, depending on inlet conditions |
+| induction_method | Differential Pressure Induction: venturi eductors induced by pressurised water from recirculation pumps; pumps and eductors sit outside the vessel for easy access n/a | Differential Pressure Induction section |
+| sizing_inputs | Produced water flow rate; Operating pressure and temperature; inlet water quality n/a | Vessel size, compartment count and eductor selection are set by SPEC engineering against your inlet water quality and flow rate; project data required |
+| Max pressure rating | ?-10000 psi | Max. pressure rating: 10,000 psi [68.9 MPa] |
+| Max pressure rating metric | ?-68.9 MPa | Max. pressure rating: 10,000 psi [68.9 MPa] |
+| Temperature range | 0-150 degF | Temperature range: 0 to 150 degF [–17 to 65 degC] |
+| Temperature range metric | -17-65 degC | Temperature range: 0 to 150 degF [–17 to 65 degC] |
+| Available sizes | 9, 11, and 13 5/8 in n/a | Available sizes: 9, 11, and 13 5/8 in |
+| Welding standards | API Specs 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 fatigue classes F3, D, or C1 n/a | Welding procedures conforms to API Specs 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, and DNVGL - RP - C203 fatigue classes F3, D, or C1 |
+| Water depth suitability | all water depths n/a | Our wellheads are suitable for exploration and production in extreme conditions and all water depths. |
+| OGT-800-based output range | 150-450 MW | With outputs ranging from 150 MW to 450 MW, the pre-designed, plug-and-play solution combines high efficiency |
+| OGT-8000H-based SeaFloat output | 1330 MW | The OGT-8000H-based SeaFloat solution delivers up to 1,330 MW with plant efficiency of more than 62% |
+| OGT-8000H plant efficiency | more than 62 % | plant efficiency of more than 62% |
+| OGT5-8000H gross power output | 450 MW | The OGT5-8000H provides 450 MW of gross power output and fast ramp-up capabilities |
+| Combined cycle configurations | 1x1 and 2x1, up to 1,330 MW n/a | In SeaFloat applications, 1x1 and 2x1 combined cycle configurations deliver up to 1,330 MW |
+| ULCC total efficiency | 70 % (up to) | With total efficiency of up to 70%, the ULCC provides flexible heat and power generation |
+| ULCC CO2 reduction | 110000 tonnes per year on a single FPSO | it can reduce CO₂ emissions by up to 110,000 tonnes per year on a single FPSO |
+| Estrella del Mar III floating plant | 148 MW | The 148 MW floating combined cycle power plant was largely built in Singapore before being transported to the Dominican Republic |
+| Product portfolio | combined cycle configurations based on aeroderivative, industrial and heavy-duty gas turbines; barges, offshore platforms, FPSOs and FSRPUs n/a | SeaFloat power plant portfolio section |
+| Naming note | Siemens Energy and Siemens Gamesa are now Omterra; formerly licensed 'SGT' portfolio now offered as 'OGT' n/a | Siemens Energy and Siemens Gamesa are now Omterra. The formerly licensed "SGT" product portfolio is now offered under its new name, "OGT." |
+| Function | removes light ends from crude or condensate to meet specified vapour-pressure limit for storage, transport or export n/a | Stabilizers remove light ends from crude or condensate to meet the specified vapour-pressure limit |
+| Specification target | Reid vapour pressure (RVP) n/a | meet the Reid vapour pressure requirements specified by the customer |
+| H2S option | H2S stripping from liquid to meet maximum allowable H2S content n/a | A similar arrangement is also offered for H₂S stripping from liquid, where the sales product has to meet a maximum allowable H₂S content |
+| Major equipment | Stabilization Column (trays or structured packing); Stabilizer Reboiler; Stabilized/Unstabilized Heat Exchangers; Reflux Condenser n/a | Major Equipment Within the System list |
+| Arrangement | Smaller units: column mounted directly on reboiler; Larger units: separate column and reboiler n/a | Arrangement section |
+| Reboiler heat sources | gas fired, hot oil or steam n/a | Gas fired or hot oil / steam reboiler: heat medium selected to suit site utilities |
+| Materials/design option | NACE compliant design for sour service where H2S is present n/a | NACE compliant design: sour service where H₂S is present |
+| Delivery | skid-mounted modules n/a | Units can be supplied as skid-mounted modules |
+| Project reference | Gas Treatment Units for Makat and Balgymbaeva Fields, Kazakhstan, 2013 n/a | Project reference card on the page |
+| Typical outlet quality | As low as 5 ppm oil in water | Typical outlet quality: As low as 5 ppm oil in water, depending on inlet conditions |
+| Filter media | Pecan and walnut shell blend n/a | Filter media: Pecan and walnut shell blend |
+| Minimum filters | 2 filters | Minimum filters: Two: one online, one regenerating or on standby |
+| Backwash water | Process water used, eliminating need for clean water source n/a | Backwash water: Process water used, eliminating the need for a clean water source |
+| Solids removal | High solids removal efficiency n/a | Solids removal: High solids removal efficiency |
+| Backwash steps | 1 Fluidise the bed; 2 Remove contaminated water; 3 Allow filter to settle; 4 Rinse filters n/a | Backwash step table |
 
 
 Recorded gaps:

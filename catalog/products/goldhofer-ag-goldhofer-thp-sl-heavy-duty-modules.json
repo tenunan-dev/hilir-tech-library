@@ -37,6 +37,184 @@
         "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
       },
       "value": 3000
+    },
+    {
+      "metric": "Twin tires",
+      "unit": "n/a",
+      "basis": "Twin tires 215/75 R 17.5",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": "215/75 R 17.5"
+    },
+    {
+      "metric": "Axle load",
+      "unit": "t at 1 km/h",
+      "basis": "Axle load 45 t at 1 km/h",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": 45
+    },
+    {
+      "metric": "Dead weight (4-axles)",
+      "unit": "t",
+      "basis": "Dead weight (4-axles) 13.85 t",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": 13.85
+    },
+    {
+      "metric": "Axle compensation",
+      "unit": "mm",
+      "basis": "Axle compensation 600 mm",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": 600
+    },
+    {
+      "metric": "Vehicle width",
+      "unit": "mm",
+      "basis": "Vehicle width 3,000 mm",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Axle spacing",
+      "unit": "mm",
+      "basis": "Axle spacing 1,500 mm / 1,800 mm",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": "1,500 / 1,800"
+    },
+    {
+      "metric": "Max steering angle",
+      "unit": "deg",
+      "basis": "Max. steering angle ± 55°",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": "±55"
+    },
+    {
+      "metric": "Number of axles",
+      "unit": "axles",
+      "basis": "Number of axles 2-8",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "low": 2,
+      "high": 8
+    },
+    {
+      "metric": "Hydraulic power pack",
+      "unit": "n/a",
+      "basis": "Hydraulic power pack Hatz 10 kW / 13.6 PS; Kohler 17.9 kW / 24.3 PS",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": "Hatz 10 kW / 13.6 PS; Kohler 17.9 kW / 24.3 PS"
+    },
+    {
+      "metric": "Turntable capacity",
+      "unit": "n/a",
+      "basis": "Turntable 100 t / 200 t [1]; 300 t / 400 t [1]; 600 t [1] (capacity per turntable)",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": "100 t / 200 t; 300 t / 400 t; 600 t"
+    },
+    {
+      "metric": "Flatbed deck construction height",
+      "unit": "mm",
+      "basis": "Flatbed deck Construction height 250 mm / 300 mm",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": "250 / 300"
+    },
+    {
+      "metric": "Flatbed deck length",
+      "unit": "mm",
+      "basis": "Length 7,000-12,000 mm [2]",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "low": 7000,
+      "high": 12000
+    },
+    {
+      "metric": "Vessel deck construction height",
+      "unit": "mm",
+      "basis": "Vessel deck Construction height 450 mm, 500 mm or 650 mm",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": "450 / 500 / 650"
+    },
+    {
+      "metric": "Vessel deck length",
+      "unit": "mm",
+      "basis": "Length 7,000-13,000 mm [2]",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "low": 7000,
+      "high": 13000
+    },
+    {
+      "metric": "Vessel deck width",
+      "unit": "mm",
+      "basis": "Width 3,000-6,000 mm",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "low": 3000,
+      "high": 6000
+    },
+    {
+      "metric": "Excavator deck construction height",
+      "unit": "mm",
+      "basis": "Excavator deck Construction height 350 mm, 450 mm or 500 mm",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "value": "350 / 450 / 500"
+    },
+    {
+      "metric": "Spacer length",
+      "unit": "mm",
+      "basis": "Spacer 8,000-15,000 mm (depending on version extendable up to 40,000 mm)",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "low": 8000,
+      "high": 15000
+    },
+    {
+      "metric": "Spacer extension stages",
+      "unit": "stages",
+      "basis": "Extension stages 1-4",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "low": 1,
+      "high": 4
+    },
+    {
+      "metric": "Intermediate deck length",
+      "unit": "mm",
+      "basis": "Intermediate deck Length 3,000 mm-9,000 mm",
+      "source": {
+        "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
+      },
+      "low": 3000,
+      "high": 9000
     }
   ],
   "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
@@ -45,6 +223,6 @@
       "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     }
   ],
-  "notes": "Page read",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read Full-parameter pass 2026-11-26: 19 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -115,6 +115,249 @@
         "source_id": "cat-arielcorp-com-jgn-jgq-html"
       },
       "value": 9.25
+    },
+    {
+      "metric": "JGN 1-throw - rated power",
+      "unit": "BHP",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 126
+    },
+    {
+      "metric": "JGQ 1-throw - rated power",
+      "unit": "BHP",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 140
+    },
+    {
+      "metric": "JGN 1-throw - stroke",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "JGQ 1-throw - stroke",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 3.0
+    },
+    {
+      "metric": "JGN 1-throw - max RPM",
+      "unit": "rpm",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "JGQ 1-throw - max RPM",
+      "unit": "rpm",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "JGN 1-throw - piston speed",
+      "unit": "n/a",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 875
+    },
+    {
+      "metric": "JGQ 1-throw - piston speed",
+      "unit": "n/a",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 900
+    },
+    {
+      "metric": "JGN/JGQ 1-throw - rod diameter",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1.125
+    },
+    {
+      "metric": "JGN 1-throw - total rod load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 18000
+    },
+    {
+      "metric": "JGQ 1-throw - total rod load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "JGN 1-throw - tension load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 9000
+    },
+    {
+      "metric": "JGQ 1-throw - tension load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "JGN 1-throw - compression load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "JGQ 1-throw - compression load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 11000
+    },
+    {
+      "metric": "JGN/JGQ 1-throw - average weight",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1400
+    },
+    {
+      "metric": "JGN/JGQ 1-throw - max length",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 37
+    },
+    {
+      "metric": "JGN/JGQ 1-throw - nominal width",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 62
+    },
+    {
+      "metric": "JGN/JGQ - crankshaft centerline",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 9.25
+    },
+    {
+      "metric": "JGN 2-throw - rated power",
+      "unit": "BHP",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 252
+    },
+    {
+      "metric": "JGQ 2-throw - rated power",
+      "unit": "BHP",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 280
+    },
+    {
+      "metric": "JGN/JGQ 2-throw - average weight",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 2200
+    },
+    {
+      "metric": "JGN/JGQ 2-throw - max length",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 34
+    },
+    {
+      "metric": "JGN/JGQ 2-throw - nominal width",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 83
+    },
+    {
+      "metric": "JGN/JGQ - frame horsepower range",
+      "unit": "n/a",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "250-280 BHP"
+    },
+    {
+      "metric": "JGN/JGQ - crankcase material",
+      "unit": "n/a",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Gray iron crankcase; forged steel crankshaft; gray iron crosshead guide; tri-metal main bearing"
+    },
+    {
+      "metric": "JGN/JGQ - crosshead and connecting rod material",
+      "unit": "n/a",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Ductile iron crosshead; alloy steel crosshead pin; forged steel connecting rod; bronze crosshead pin bushing; tri-metal connecting rod bearing; grade 8 stress bolts"
     }
   ],
   "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
@@ -123,6 +366,13 @@
       "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     }
   ],
-  "notes": "Materials as printed: gray iron crankcase, forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing, ductile iron crosshead, alloy steel crosshead pin, forged steel connecting rod with bronze pin bushing and grade 8 stress bolts. Linked JGNQ product spec sheet is a PDF (not read).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Materials as printed: gray iron crankcase, forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing, ductile iron crosshead, alloy steel crosshead pin, forged steel connecting rod with bronze pin bushing and grade 8 stress bolts. Linked JGNQ product spec sheet is a PDF (not read). Full-parameter pass 2026-11-26: 27 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "JGNQ_Product_Sheet.pdf spec sheet",
+      "why": "Linked PDF specification sheet not transcribed",
+      "next_action": "Fetch and transcribe linked spec sheet if additional parameters needed"
+    }
+  ]
 }

@@ -83,6 +83,106 @@
       },
       "low": 10,
       "high": 40
+    },
+    {
+      "metric": "Steam turbine power range",
+      "unit": "kW",
+      "basis": "'heat and power generation from 75kW up to 40MWe'",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      },
+      "value": 75
+    },
+    {
+      "metric": "Steam turbine max power",
+      "unit": "MWe",
+      "basis": "same statement; 'mechanical drive ... from 10kW to 40MW'",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Steam turbine inlet pressure",
+      "unit": "bar",
+      "basis": "'inlet pressures to 70 bar; condensing, mixed pressure and back-pressure'",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      },
+      "value": 70
+    },
+    {
+      "metric": "Waste-to-energy installed power",
+      "unit": "MW",
+      "basis": "'over 1000 MW of installed power in Waste to Energy Power Plants'",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Cane sugar machines",
+      "unit": "machines",
+      "basis": "'in excess of 500 machines installed in the cane sugar industry'",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Reciprocating compressor rating",
+      "unit": "MW",
+      "basis": "'Reciprocating gas compressors rated to 20MW and operating between 260 and 1,000 rpm'",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Reciprocating speed",
+      "unit": "Howden brand page, part of Chart Industries (acquired 2023); >160 years, >100 countries re",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      },
+      "value": 260,
+      "low": 1000,
+      "high": "rpm"
+    },
+    {
+      "metric": "Peter Brotherhood turbine build",
+      "unit": "MW",
+      "basis": "'a 22MW unit' built and tested at Peterborough, UK",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      },
+      "value": 22
+    },
+    {
+      "metric": "EmissionGuard gas prevented",
+      "unit": "Nm3",
+      "basis": "'20,173,000 Nm³ (693,144,000 scf) of gas from leaking through the vents'",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      },
+      "value": 20173000
+    },
+    {
+      "metric": "EmissionGuard CO2 equivalent",
+      "unit": "metric tons",
+      "basis": "'equivalent to 60,500 metric tons of CO₂'",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      },
+      "value": 60500
+    },
+    {
+      "metric": "Screw compressors",
+      "unit": "n/a",
+      "basis": "'Rotary twin-screw compressors for gas compression applications within oil & gas, power and industrial refrigeration'",
+      "source": {
+        "url": "https://www.chartindustries.com/Howden"
+      }
     }
   ],
   "vendors": [
@@ -107,5 +207,5 @@
     }
   ],
   "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

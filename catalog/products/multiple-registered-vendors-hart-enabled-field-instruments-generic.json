@@ -17,6 +17,24 @@
         "source_id": "sys-fieldcommgroup-org-hart"
       },
       "value": 40000000
+    },
+    {
+      "metric": "installed_device_count",
+      "unit": "devices",
+      "basis": "HART is by far the largest digital communications technology deployed in the process industries with over 40 million field instruments supporting HART technology installed worldwide",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart"
+      },
+      "value": 40000000
+    },
+    {
+      "metric": "specification_documents",
+      "unit": "documents",
+      "basis": "The HART Protocol Specifications kit is a collection of 17 documents that specify the different aspects of the protocol and test procedures for field devices",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart"
+      },
+      "value": 17
     }
   ],
   "url": "https://www.fieldcommgroup.org/technologies/hart",
@@ -25,6 +43,13 @@
       "url": "https://www.fieldcommgroup.org/technologies/hart"
     }
   ],
-  "notes": "No specific model asserted.",
-  "last_reviewed": "2026-11-24"
+  "notes": "No specific model asserted. Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "HART physical-layer/protocol numeric parameters (baud rate, loop voltage, etc.)",
+      "why": "Technology overview page does not print them; linked Specifications pages not fetched",
+      "next_action": "Fetch linked HART specifications pages"
+    }
+  ]
 }

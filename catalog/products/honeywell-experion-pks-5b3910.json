@@ -27,6 +27,42 @@
         "source_id": "sys-process-honeywell-com-experion-pks"
       },
       "value": 500
+    },
+    {
+      "metric": "Product type",
+      "unit": "n/a",
+      "basis": "Experion® PKS: Distributed Control System & Process Automation",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
+      },
+      "value": "Distributed Control System & Process Automation"
+    },
+    {
+      "metric": "Solution suites",
+      "unit": "n/a",
+      "basis": "Experion Solution Suites listed in page navigation content",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
+      },
+      "value": "Experion Solution Suites"
+    },
+    {
+      "metric": "Services",
+      "unit": "n/a",
+      "basis": "Services section: Highly skilled OT cybersecurity consultants ... Modernize systems, optimize performance ... Honeywell Academy offers a variety of courses",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
+      },
+      "value": "Cybersecurity Services; Industrial Services; Training"
+    },
+    {
+      "metric": "Industries",
+      "unit": "n/a",
+      "basis": "Industries navigation read from the page",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
+      },
+      "value": "Oil and Gas; Refining and Petrochemicals; Onshore Production; Offshore Production; Gas Processing; LNG; Power; Water & Wastewater"
     }
   ],
   "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
@@ -35,6 +71,13 @@
       "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     }
   ],
-  "notes": "DCS; statistics sourced from Honeywell process automation overview page (also fetched).",
-  "last_reviewed": "2026-11-24"
+  "notes": "DCS; statistics sourced from Honeywell process automation overview page (also fetched). Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Numeric Experion PKS specifications (I/O capacity, controller count, redundancy, cycle time)",
+      "why": "Product page content body was largely navigation/marketing; no numeric ratings printed in readable text",
+      "next_action": "Fetch the Experion PKS data sheet or system technical specification from Honeywell's document library"
+    }
+  ]
 }

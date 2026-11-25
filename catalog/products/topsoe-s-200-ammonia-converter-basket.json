@@ -17,6 +17,33 @@
         "source_id": "topsoe-com-ammonia-synthesis"
       },
       "value": 2
+    },
+    {
+      "metric": "converter_type",
+      "unit": "n/a",
+      "basis": "Ammonia converter basket S-200: The S-200 ammonia synthesis converter is a two-bed radial flow converter with indirect cooling between the catalyst beds",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      },
+      "value": "two-bed radial flow converter with indirect cooling between the catalyst beds"
+    },
+    {
+      "metric": "number_of_catalyst_beds",
+      "unit": "beds",
+      "basis": "The S-200 ammonia synthesis converter is a two-bed radial flow converter; S-300 has three catalyst beds for comparison",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      },
+      "value": 2
+    },
+    {
+      "metric": "catalyst_family",
+      "unit": "n/a",
+      "basis": "Our well-known radial flow converters (S-200, S-300 or S-50) and our KM catalyst family will ensure optimal and stable performance; catalyst descriptions on page",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      },
+      "value": "KM catalyst family (KM1 iron-based, KM111 magnetite-based, KM1R pre-reduced, KMR111 pre-reduced)"
     }
   ],
   "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
@@ -25,6 +52,13 @@
       "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     }
   ],
-  "notes": "S-300 has three beds for higher conversion; S-50 is single-bed radial-flow added downstream, hot- and cold-shell versions.",
-  "last_reviewed": "2026-11-24"
+  "notes": "S-300 has three beds for higher conversion; S-50 is single-bed radial-flow added downstream, hot- and cold-shell versions. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "S-200 converter pressure, temperature, capacity and dimensions",
+      "why": "Page describes converter architecture only; no numerical ratings printed",
+      "next_action": "Fetch Topsoe S-200 converter basket datasheet"
+    }
+  ]
 }

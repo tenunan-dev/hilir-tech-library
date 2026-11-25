@@ -169,6 +169,546 @@
         "url": "https://generatordieselchina.com/projects/oman-ibri-bsdg",
         "source_id": "gef-generatordieselchina-com-oman-ibri-bsdg-749f7a2"
       }
+    },
+    {
+      "metric": "Model count on 50 Hz international rating card",
+      "unit": "models",
+      "basis": "Counted rows in 'International model range / 50 Hz range / COMMERCIAL DIESEL GENERATOR SETS' table. Bulletin 6614069 Rev. 8/25.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": 92
+    },
+    {
+      "metric": "Overall model rating span",
+      "unit": "kVA",
+      "basis": "First and last rows of the 50 Hz range table; 'Specifications may change without notice. All ratings include radiator fan losses. DCC available at standby power subject to Cummins' site-specific assessment.'",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C17D5 16.5 kVA standby ... C3750D5 3750 kVA standby"
+    },
+    {
+      "metric": "Rating row - C17D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C17D5 16.5 13 15 12 X2.5-G2 S0L1-P1 PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C17D5 16.5 13 15 12 X2.5-G2 S0L1-P1 PS0600 Yes"
+    },
+    {
+      "metric": "Rating row - C22D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C22D5 18 17 20 16 X2.5-G2 S0L2-G1 PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C22D5 18 17 20 16 X2.5-G2 S0L2-G1 PS0600 Yes"
+    },
+    {
+      "metric": "Rating row - C28D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C28D5 27.5 22 25 20 X2.5-G2 S0L2-M1 PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C28D5 27.5 22 25 20 X2.5-G2 S0L2-M1 PS0600 Yes"
+    },
+    {
+      "metric": "Rating row - C33D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C33D5 33 26 30 24 X3.3-G1 S0L2-P1 PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C33D5 33 26 30 24 X3.3-G1 S0L2-P1 PS0600 Yes"
+    },
+    {
+      "metric": "Rating row - C38D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C38D5 38 30 35 28 X3.3-G1 S1L2J1 PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C38D5 38 30 35 28 X3.3-G1 S1L2J1 PS0600 Yes"
+    },
+    {
+      "metric": "Rating row - C44D5L",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C44D5L 44 35 40 32 4BTAA3.3-G14 UCI224C PS0600 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C44D5L 44 35 40 32 4BTAA3.3-G14 UCI224C PS0600 UR Yes"
+    },
+    {
+      "metric": "Rating row - C44D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C44D5I 44 35 40 32 4BTAA3.3-G13 UCI224C PS0600 UR No'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C44D5I 44 35 40 32 4BTAA3.3-G13 UCI224C PS0600 UR No"
+    },
+    {
+      "metric": "Rating row - C44D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C44D5E 44 35 40 32 B3.3-G14 UCI224C PS0600 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C44D5E 44 35 40 32 B3.3-G14 UCI224C PS0600 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C55D5L",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C55D5L 55 44 50 40 4BTAA3.3-G13 UCI224C PS0600 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C55D5L 55 44 50 40 4BTAA3.3-G13 UCI224C PS0600 UR Yes"
+    },
+    {
+      "metric": "Rating row - C55D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C55D5I 55 44 50 40 4BTAA3.3-G13 PS0600 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C55D5I 55 44 50 40 4BTAA3.3-G13 PS0600 UR"
+    },
+    {
+      "metric": "Rating row - C55D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C55D5E 55 44 50 40 B3.3-G14 UCI224 D PS0600 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C55D5E 55 44 50 40 B3.3-G14 UCI224 D PS0600 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C66D5L",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C66D5L 66 53 60 48 4BTAA3.3-G13 UCI224F PS0600 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C66D5L 66 53 60 48 4BTAA3.3-G13 UCI224F PS0600 UR Yes"
+    },
+    {
+      "metric": "Rating row - C66D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C66D5I 66 53 60 48 4BTAA3.3-G13 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C66D5I 66 53 60 48 4BTAA3.3-G13 UR"
+    },
+    {
+      "metric": "Rating row - C66D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C66D5E 66 53 60 48 B3.3-G14 UCI224F PS0600 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C66D5E 66 53 60 48 B3.3-G14 UCI224F PS0600 Yes"
+    },
+    {
+      "metric": "Rating row - C90D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C90D5 90 72 82 65 6BTA5.9-G5 UCI224G PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C90D5 90 72 82 65 6BTA5.9-G5 UCI224G PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C90D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C90D5I 90 72 82 65 6BTA5.9-G5 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C90D5I 90 72 82 65 6BTA5.9-G5 UR"
+    },
+    {
+      "metric": "Rating row - C110D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C110D5 110 88 100 80 6BTA5.9-G5 UCI274C PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C110D5 110 88 100 80 6BTA5.9-G5 UCI274C PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C110D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C110D5I 110 88 100 80 6BTA5.9-G5 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C110D5I 110 88 100 80 6BTA5.9-G5 UR"
+    },
+    {
+      "metric": "Rating row - C150D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C150D5 150 120 136 109 6BTAA5.9-G6 UCI274E PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C150D5 150 120 136 109 6BTAA5.9-G6 UCI274E PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C150D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C150D5I 150 120 136 109 6BTAA5.9-G6 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C150D5I 150 120 136 109 6BTAA5.9-G6 UR"
+    },
+    {
+      "metric": "Rating row - C170D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C170D5 170 136 155 124 6BTAA5.9-G7 UCI274F PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C170D5 170 136 155 124 6BTAA5.9-G7 UCI274F PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C170D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C170D5I 170 136 155 124 6BTAA5.9-G7 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C170D5I 170 136 155 124 6BTAA5.9-G7 UR"
+    },
+    {
+      "metric": "Rating row - C175D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C175D5E 175 140 160 128 QSB7-G5 UCI274F PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C175D5E 175 140 160 128 QSB7-G5 UCI274F PC 1.2 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C175D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C175D5I 175 140 160 128 QSB7-G18 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C175D5I 175 140 160 128 QSB7-G18 UR Yes"
+    },
+    {
+      "metric": "Rating row - C200D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C200D5E 200 160 182 146 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C200D5E 200 160 182 146 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C200D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C200D5I 200 160 182 146 QSB7-G18 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C200D5I 200 160 182 146 QSB7-G18 UR Yes"
+    },
+    {
+      "metric": "Rating row - C220D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C220D5 220 176 200 160 6CTAA8.3-G7 UCI274H PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C220D5 220 176 200 160 6CTAA8.3-G7 UCI274H PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C220D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C220D5E 220 176 200 160 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C220D5E 220 176 200 160 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C220D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C220D5I 220 176 200 160 QSB7-G18 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C220D5I 220 176 200 160 QSB7-G18 UR Yes"
+    },
+    {
+      "metric": "Rating row - C250D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C250D5 250 200 227 182 6CTAA8.3-G9 UCDI274J PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C250D5 250 200 227 182 6CTAA8.3-G9 UCDI274J PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C250D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C250D5E 250 200 230 184 QSL9-G7 UCDI274K PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C250D5E 250 200 230 184 QSL9-G7 UCDI274K PC 1.2 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C250D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C250D5I 250 200 227 182 QSB7-G19 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C250D5I 250 200 227 182 QSB7-G19 UR Yes"
+    },
+    {
+      "metric": "Rating row - C275D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C275D5 275 220 250 200 QSL9-G5 UCDI274K PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C275D5 275 220 250 200 QSL9-G5 UCDI274K PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C275D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C275D5E 275 220 250 200 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C275D5E 275 220 250 200 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C275D5B",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C275D5B 275 220 250 200 6LTAA9.5-G3 UCDI274K PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C275D5B 275 220 250 200 6LTAA9.5-G3 UCDI274K PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C275D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C275D5I 275 220 250 200 6LTAA8.9-G4 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C275D5I 275 220 250 200 6LTAA8.9-G4 UR"
+    },
+    {
+      "metric": "Rating row - C300D5B",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C300D5B 300 240 275 220 6LTAA9.5-G3 HC4D PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C300D5B 300 240 275 220 6LTAA9.5-G3 HC4D PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C300D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C300D5 300 240 275 220 QSL9-G5 HC4D PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C300D5 300 240 275 220 QSL9-G5 HC4D PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C300D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C300D5E 300 240 275 220 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C300D5E 300 240 275 220 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C300D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C300D5I 300 240 270 216 QSL9-G5 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C300D5I 300 240 270 216 QSL9-G5 UR"
+    },
+    {
+      "metric": "Rating row - C330D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C330D5 330 264 300 240 QSL9-G5 HC4D PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C330D5 330 264 300 240 QSL9-G5 HC4D PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C330D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C330D5E 330 264 300 240 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C330D5E 330 264 300 240 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C330D5B",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C330D5B 330 264 300 240 6LTAA9.5-G1 HC4D PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C330D5B 330 264 300 240 6LTAA9.5-G1 HC4D PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C330D5I",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C330D5I 330 264 300 240 QSL9-G5 HC4E PS0602 UR'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C330D5I 330 264 300 240 QSL9-G5 HC4E PS0602 UR"
+    },
+    {
+      "metric": "Rating row - C350D5B",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C350D5B 350 280 320 256 6LTAA9.5-G1 HC4S PC 1.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C350D5B 350 280 320 256 6LTAA9.5-G1 HC4S PC 1.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C400D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C400D5 400 320 360 288 QSG12-G1 HC4F PC 2.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C400D5 400 320 360 288 QSG12-G1 HC4F PC 2.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C400D5EB",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C400D5EB 400 320 360 288 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C400D5EB 400 320 360 288 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C450D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C450D5 450 360 409 327 QSG12-G1 HC5C PC 2.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C450D5 450 360 409 327 QSG12-G1 HC5C PC 2.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C450D5EB",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C450D5EB 450 360 409 327 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C450D5EB 450 360 409 327 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes"
+    },
+    {
+      "metric": "Rating row - C500D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C500D5E 500 400 455 364 455 364 QSX15-G8 HC5C PC 2.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C500D5E 500 400 455 364 455 364 QSX15-G8 HC5C PC 2.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C500D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C500D5 500 400 455 364 QSZ13-G5 S5L1D-D41 PC 2.2 EU Stage II Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C500D5 500 400 455 364 QSZ13-G5 S5L1D-D41 PC 2.2 EU Stage II Yes"
+    },
+    {
+      "metric": "Rating row - C550D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C550D5E 550 440 500 400 500 400 QSX15-G8 HC5D PC 2.2 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C550D5E 550 440 500 400 500 400 QSX15-G8 HC5D PC 2.2 UR Yes"
+    },
+    {
+      "metric": "Rating row - C550D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C550D5 550 440 500 400 QSZ13-G10 S5L1D-D41 PC 2.2 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C550D5 550 440 500 400 QSZ13-G10 S5L1D-D41 PC 2.2 Yes"
+    },
+    {
+      "metric": "Rating row - C640D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C640D5 640 512 582 466 KTA19-G6 HC5E PC 1.1 UR No'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C640D5 640 512 582 466 KTA19-G6 HC5E PC 1.1 UR No"
+    },
+    {
+      "metric": "Rating row - C700D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C700D5 706 565 640 512 640 512 VTA28-G5 HC5F PC 3.3 UR No'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C700D5 706 565 640 512 640 512 VTA28-G5 HC5F PC 3.3 UR No"
+    },
+    {
+      "metric": "Rating row - C825D5",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C825D5 825 660 750 600 750 600 QSK23-G3 S6L1C4 PC 3.3 UR Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C825D5 825 660 750 600 750 600 QSK23-G3 S6L1C4 PC 3.3 UR Yes"
+    },
+    {
+      "metric": "Rating row - C825D5E",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C825D5E 825 660 750 600 750 600 QSK23-G9 S6L1C4 PC 3.3 EPA Tier 2 Yes'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C825D5E 825 660 750 600 750 600 QSK23-G9 S6L1C4 PC 3.3 EPA Tier 2 Yes"
+    },
+    {
+      "metric": "Rating row - C825D5A",
+      "unit": "kVA / kWe (standby, prime, DCC) + engine/alternator/controller/emissions/enclosure",
+      "basis": "Exact printed table row from Cummins Bulletin 6614069 Rev. 8/25: 'C825D5A 825 660 750 600 750 600 VTA28-G6 S6L1C4 PC 3.3 UR No'. Columns: Standby kVA, Standby kWe, Prime kVA, Prime kWe, DCC kVA, DCC kWe, Engine model, Standard alternator, Standard controller, Emissions certification, Sound enclosure.",
+      "source": {
+        "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
+      },
+      "value": "C825D5A 825 660 750 600 750 600 VTA28-G6 S6L1C4 PC 3.3 UR No"
     }
   ],
   "vendor_models": [
@@ -242,5 +782,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

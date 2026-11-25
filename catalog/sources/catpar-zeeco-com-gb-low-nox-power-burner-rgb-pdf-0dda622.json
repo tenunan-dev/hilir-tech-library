@@ -1,0 +1,25 @@
+{
+  "id": "catpar-zeeco-com-gb-low-nox-power-burner-rgb-pdf-0dda622",
+  "name": "zeeco.com",
+  "url": "https://www.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/GB-Low-NOx-Power-Burner-RGB.pdf?hsLang=en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Zeeco.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. natural gas, #6/#2 fuel oils, to low-Btu gases (blast ...)"
+}

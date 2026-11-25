@@ -97,6 +97,105 @@
         "source_id": "cat-nov-com-duraflex"
       },
       "value": "Flange and pipe to pipe"
+    },
+    {
+      "metric": "DuraFlex Series 500 - nominal pressure rating",
+      "unit": "psi (3.45 MPa) API 15S NPR",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 500
+    },
+    {
+      "metric": "DuraFlex Series 500 - maximum temperature",
+      "unit": "degF (60 degC)",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "low": 140
+    },
+    {
+      "metric": "DuraFlex Series 500 - sizes",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "3 in., 4 in., 6 in."
+    },
+    {
+      "metric": "DuraFlex DF 3\" 500 - inside/outside diameter",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "ID 2.82 in (72 mm); OD 3.65 in (93 mm)"
+    },
+    {
+      "metric": "DuraFlex DF 4\" 500 - inside/outside diameter",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "ID 3.57 in (91 mm); OD 4.55 in (116 mm)"
+    },
+    {
+      "metric": "DuraFlex DF 6\" 500 - inside/outside diameter",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "ID 5.60 in (142 mm); OD 6.82 in (173 mm)"
+    },
+    {
+      "metric": "DuraFlex DF 3\"/4\"/6\" - wall thickness",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "0.42 / 0.49 / 0.61 in (11 / 12 / 15 mm)"
+    },
+    {
+      "metric": "DuraFlex DF 3\"/4\"/6\" - pipe weight",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "2.00 / 3.06 / 5.72 lbs/ft (2.98 / 4.56 / 8.53 kg/m)"
+    },
+    {
+      "metric": "DuraFlex DF 3\"/4\"/6\" - reel capacity",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "3,000/1,700 / 2,400 / 1,175/525 ft (915/518 / 732 / 358/160 m)"
+    },
+    {
+      "metric": "DuraFlex - spoolable length",
+      "unit": "ft (up to)",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "DuraFlex - factory hydrotest",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "100% hydrotested to 1.5x nominal pressure rating; API 15S licensed, API Q1 ISO9001 facility"
     }
   ],
   "url": "https://www.nov.com/products/duraflex",
@@ -105,6 +204,6 @@
       "url": "https://www.nov.com/products/duraflex"
     }
   ],
-  "notes": "API 15S licensed facility per printed page. Sizes 3, 4 and 6 in on this page; a linked 2021 flyer mentions 8 in and 750 psi but that PDF was not WebFetch-verified.",
-  "last_reviewed": "2026-11-24"
+  "notes": "API 15S licensed facility per printed page. Sizes 3, 4 and 6 in on this page; a linked 2021 flyer mentions 8 in and 750 psi but that PDF was not WebFetch-verified. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

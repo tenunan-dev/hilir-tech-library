@@ -156,6 +156,119 @@
       },
       "unit": "application",
       "value": "HRSG and Turbine Exhaust Gas (TEG) supplementary firing"
+    },
+    {
+      "metric": "Burner design",
+      "unit": "text",
+      "basis": "Zeeco: 'TEG+ burners use flame stabilizers featuring an optimized drilled wing orifice pattern to create a short, compact flame. The nozzle design features pilot flame propagation drilling and varying orifice sizes throughout the runner'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "Support structure",
+      "unit": "text",
+      "basis": "Zeeco: 'Our self-supporting burners eliminate the need for internal fixed structural support, which can cause binding and overall deformation – dramatically reducing installation time and material costs.'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "text",
+      "basis": "Zeeco: 'supplementary firing for heat recovery steam generators (HRSG), Flue Gas preheat for Selective Catalytic Reduction (SCR), Combined Cycle / Co-Gen, or other air heating applications'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "Register-style option",
+      "unit": "text",
+      "basis": "Zeeco: 'register-style duct burner ... delivers high efficiency and excellent reliability across a wide range of both gaseous and liquid fuels'",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "Coen Castings configurations",
+      "unit": "n/a",
+      "basis": "Coen Castings represent the most rugged solution with single and double-wing (PowerPlus) configurations",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "single and double-wing (PowerPlus)"
+    },
+    {
+      "metric": "LDRW design",
+      "unit": "n/a",
+      "basis": "The LDRW (Low Draft Reverse Wing) model is crafted for versatility and reliability in retrofit or modular projects",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "modular construction; accommodates thermal growth; variable draft conditions"
+    },
+    {
+      "metric": "VC design",
+      "unit": "n/a",
+      "basis": "The VC (V-Cone Tip Wing) flame holder specializes in enhanced flame shaping and robust mixing",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "V-cone tip, optimized flow characteristics, enhanced flame shaping and mixing"
+    },
+    {
+      "metric": "HRSG optimisation",
+      "unit": "n/a",
+      "basis": "Our duct burners are engineered specifically for HRSGs, delivering reliable, high-efficiency performance in combined cycle, dual cycle, and cogeneration applications",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "purpose-built for HRSG systems in combined cycle and cogeneration"
+    },
+    {
+      "metric": "CFD",
+      "unit": "n/a",
+      "basis": "Advanced CFD Modeling: Precision-engineered flow, flame stability, and temperature uniformity",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "Advanced CFD Modeling for flow, flame stability and temperature uniformity"
+    },
+    {
+      "metric": "Integrated options",
+      "unit": "n/a",
+      "basis": "Includes proprietary igniters, flame scanners, and optional instrumentation packages",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "proprietary igniters, flame scanners, optional instrumentation packages"
+    },
+    {
+      "metric": "Installations",
+      "unit": "n/a",
+      "basis": "With more than 1,000 installations worldwide, we are the global leader in industrial duct burner solutions",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "more than 1,000 installations worldwide"
+    },
+    {
+      "metric": "OEM heritage",
+      "unit": "n/a",
+      "basis": "including experience as the OEM behind technologies such as Coen and Hamworthy Combustion",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "experience as the OEM behind technologies such as Coen and Hamworthy Combustion"
+    },
+    {
+      "metric": "Emissions compliance",
+      "unit": "n/a",
+      "basis": "Reliable Compliance: Meets strict NOx, CO, and other emissions standards",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/duct-burner"
+      },
+      "value": "Meets strict NOx, CO, and other emissions standards"
     }
   ],
   "vendors": [
@@ -185,7 +298,7 @@
       "source_id": "eia-duct-burners"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

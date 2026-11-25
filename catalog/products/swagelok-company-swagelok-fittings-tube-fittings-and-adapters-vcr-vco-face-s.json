@@ -27,6 +27,87 @@
         "source_id": "cat-products-swagelok-com-100"
       },
       "value": "ANSI / DIN / EN / Lap Joint"
+    },
+    {
+      "metric": "Swagelok medium/high pressure fittings - temperature",
+      "unit": "degF (537 degC), up to",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Swagelok medium/high pressure fittings - pressure rating",
+      "unit": "psig (4134 bar), up to",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": 60000
+    },
+    {
+      "metric": "Swagelok medium/high pressure fittings - sizes",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "1/4 to 1 in medium pressure; 1/4 to 9/16 in high pressure"
+    },
+    {
+      "metric": "Swagelok medium/high pressure fittings - compliance",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "NACE MR0175/ISO 15156 compliance available"
+    },
+    {
+      "metric": "VCR metal gasket face seal fittings - sizes",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "1/16 to 1 in and 6 to 18 mm; high-purity stainless steels"
+    },
+    {
+      "metric": "VCO O-ring face seal fittings",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "Designed for easy assembly in pipe, tube and welded systems"
+    },
+    {
+      "metric": "Flange adapters",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "Threadless, weldless transition from flanged piping to tubing; flange types meet ASME, DIN, EN and JIS; tube fitting ends up to 50 mm and 2 in"
+    },
+    {
+      "metric": "Ultra-Torr vacuum fittings",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "Stainless steel construction; fluorocarbon FKM O-ring; tube sizes 1/16 to 1 1/2 in"
+    },
+    {
+      "metric": "Swagelok tube fitting design",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "Two-ferrule stainless-steel tube fitting"
     }
   ],
   "url": "https://products.swagelok.com/en/all-products/fittings/c/100",
@@ -35,6 +116,13 @@
       "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     }
   ],
-  "notes": "Product families on page: Tube Fittings and Adapters, Cone and Thread Fittings (incl. Sno-Trik high-pressure), Medium-Pressure Tube Fittings, VCO O-Ring Face Seal, VCR Metal Gasket Face Seal, Flange Adapters, Pipe Fittings, Weld Fittings. No numeric pressure/temperature ratings printed on the page read; detailed specs are in the linked catalog library (PDFs not read).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Product families on page: Tube Fittings and Adapters, Cone and Thread Fittings (incl. Sno-Trik high-pressure), Medium-Pressure Tube Fittings, VCO O-Ring Face Seal, VCR Metal Gasket Face Seal, Flange Adapters, Pipe Fittings, Weld Fittings. No numeric pressure/temperature ratings printed on the page read; detailed specs are in the linked catalog library (PDFs not read). Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Per-fitting pressure/temperature ratings",
+      "why": "The catalog category page prints headline ranges and feature blurbs, not per-fitting ratings",
+      "next_action": "Fetch the individual Swagelok catalog PDFs linked on the page"
+    }
+  ]
 }

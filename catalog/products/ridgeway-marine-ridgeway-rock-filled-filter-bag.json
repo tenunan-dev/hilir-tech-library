@@ -27,14 +27,81 @@
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
       "value": 61
+    },
+    {
+      "metric": "Recycled content",
+      "unit": "% (recycled bottles)",
+      "basis": "consisting of a polyester filter bag, made from 61% recycled bottles, and filled with stones",
+      "source": {
+        "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/",
+        "source_id": "catpar-r-jina-ai-3c6a62c"
+      },
+      "value": 61
+    },
+    {
+      "metric": "Lifetime in saline water",
+      "unit": "years",
+      "basis": "The filter unit is a robust bespoke net which has a lifetime of 50 years in saline water",
+      "source": {
+        "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Deployment",
+      "unit": "n/a",
+      "basis": "and a one point lifting ring for fast and accurate deployment",
+      "source": {
+        "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
+      },
+      "value": "one point lifting ring for fast and accurate deployment"
+    },
+    {
+      "metric": "Bag material",
+      "unit": "n/a",
+      "basis": "a polyester filter bag, made from 61% recycled bottles, and filled with stones",
+      "source": {
+        "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
+      },
+      "value": "polyester filter bag filled with stones"
+    },
+    {
+      "metric": "Manufacturer of bags",
+      "unit": "n/a",
+      "basis": "Their filter bags are produced by Japanese Sumisho Kyowa Limited",
+      "source": {
+        "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
+      },
+      "value": "Japanese Sumisho Kyowa Limited"
+    },
+    {
+      "metric": "Project reference",
+      "unit": "n/a",
+      "basis": "has been used by MSS Engineering at the EDF Teesside Offshore Wind Farm",
+      "source": {
+        "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
+      },
+      "value": "used by MSS Engineering at the EDF Teesside Offshore Wind Farm"
+    },
+    {
+      "metric": "Failure behaviour",
+      "unit": "n/a",
+      "basis": "if they do break and spill their contents in time, the material provides almost the same protection as would be afforded by rock dumping",
+      "source": {
+        "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
+      },
+      "value": "spilled rocks provide almost same protection as rock dumping, but rocks smaller and more easily moved"
     }
   ],
   "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
   "sources": [
     {
       "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     }
   ],
-  "notes": "Bags produced by Sumisho Kyowa; used at EDF Teesside.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Bags produced by Sumisho Kyowa; used at EDF Teesside. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -37,14 +37,109 @@
         "source_id": "casale-ch-ammonia"
       },
       "value": 7.9
+    },
+    {
+      "metric": "Process basis",
+      "unit": "n/a",
+      "basis": "N-ELEVA™ is Casale process for traditional ammonia plants, based on steam-methane reforming (SMR) of natural gas.",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/"
+      },
+      "value": "SMR-based traditional ammonia process"
+    },
+    {
+      "metric": "Plant capacity range",
+      "unit": "MTD",
+      "basis": "From 500 up to 3500+ MTD (N-ELEVA brochure)",
+      "source": {
+        "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf",
+        "source_id": "catpar-casale-ch-casale-n-eleva-pdf-b11a49c"
+      },
+      "low": 500,
+      "high": 3500
+    },
+    {
+      "metric": "Energy consumption (grey configuration)",
+      "unit": "Gcal/MT",
+      "basis": "Energy consumption up to 6.5 Gcal/MT (grey configuration)",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/"
+      },
+      "high": 6.5
+    },
+    {
+      "metric": "Energy consumption (brochure)",
+      "unit": "Gcal/MT",
+      "basis": "Energy consumption up to 6.5 Gcal/MT (brochure, LHV basis)",
+      "source": {
+        "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
+      },
+      "high": 6.5
+    },
+    {
+      "metric": "Energy consumption (blue configuration)",
+      "unit": "Gcal/MT",
+      "basis": "Blue configuration has energy consumption from 7.9 Gcal/MT",
+      "source": {
+        "url": "https://casale.ch/technologies/ammonia/"
+      },
+      "low": 7.9
+    },
+    {
+      "metric": "Flue gas NOx",
+      "unit": "mg/Nm3",
+      "basis": "110 mg/Nm3 of NOx, well below the allowable limits, at 3% oxygen excess (brochure)",
+      "source": {
+        "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
+      },
+      "value": 110
+    },
+    {
+      "metric": "Sulfur after ZnO",
+      "unit": "ppm",
+      "basis": "reduce its sulfur content to less than 0.1 ppm (brochure)",
+      "source": {
+        "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
+      },
+      "high": 0.1
+    },
+    {
+      "metric": "H2/N2 ratio",
+      "unit": "n/a",
+      "basis": "The air flow rate is adjusted to obtain a 3:1 H2/N2 ration in the final synthesis gas mixture.",
+      "source": {
+        "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
+      },
+      "value": "3:1"
+    },
+    {
+      "metric": "CO2 after removal",
+      "unit": "ppmv",
+      "basis": "CO2content of <1'000 ppmv (brochure)",
+      "source": {
+        "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
+      },
+      "high": 1000
+    },
+    {
+      "metric": "Combined water and CO2 after ammonia wash",
+      "unit": "ppmv",
+      "basis": "The expected combined water and CO2 content after the ammonia wash is less than 0.1 ppmv.",
+      "source": {
+        "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
+      },
+      "high": 0.1
     }
   ],
   "url": "https://casale.ch/technologies/ammonia/",
   "sources": [
     {
       "url": "https://casale.ch/technologies/ammonia/"
+    },
+    {
+      "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     }
   ],
-  "notes": "Technical brochure link on page; brochure itself not fetched.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Technical brochure link on page; brochure itself not fetched. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

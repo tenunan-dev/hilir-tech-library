@@ -17,6 +17,51 @@
         "source_id": "sys-fieldcommgroup-org-hart"
       },
       "value": 40000000
+    },
+    {
+      "metric": "HART - installed base",
+      "unit": "n/a",
+      "basis": "FieldComm Group 'HART' technology page; no print date stated",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart"
+      },
+      "value": "Over 40 million field instruments installed worldwide"
+    },
+    {
+      "metric": "HART - physical layer",
+      "unit": "n/a",
+      "basis": "FieldComm Group 'HART' technology page; no print date stated",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart"
+      },
+      "value": "Digital information over 4-20 mA analog current loops"
+    },
+    {
+      "metric": "HART - standard status",
+      "unit": "n/a",
+      "basis": "FieldComm Group 'HART' technology page; no print date stated",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart"
+      },
+      "value": "IEC standard; three major revisions since 1990s release; backward compatible with all prior releases"
+    },
+    {
+      "metric": "HART - specification documents",
+      "unit": "n/a",
+      "basis": "FieldComm Group 'HART' technology page; no print date stated",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart"
+      },
+      "value": "17 documents in the HART Communication Protocol Specifications kit"
+    },
+    {
+      "metric": "HART - communication",
+      "unit": "n/a",
+      "basis": "FieldComm Group 'HART' technology page; no print date stated",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart"
+      },
+      "value": "Bi-directional protocol between intelligent field instruments and host systems"
     }
   ],
   "url": "https://www.fieldcommgroup.org/technologies/hart",
@@ -25,6 +70,6 @@
       "url": "https://www.fieldcommgroup.org/technologies/hart"
     }
   ],
-  "notes": "No specific model asserted.",
-  "last_reviewed": "2026-11-24"
+  "notes": "No specific model asserted. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

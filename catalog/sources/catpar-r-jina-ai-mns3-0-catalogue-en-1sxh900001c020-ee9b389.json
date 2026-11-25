@@ -1,0 +1,25 @@
+{
+  "id": "catpar-r-jina-ai-mns3-0-catalogue-en-1sxh900001c020-ee9b389",
+  "name": "r.jina.ai",
+  "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "R.Jina.Ai",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Rated insulation voltage Ui up to 1000V AC, 3 P, 1500V DC*"
+}

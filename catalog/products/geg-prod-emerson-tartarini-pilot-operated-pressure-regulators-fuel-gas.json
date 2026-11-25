@@ -64,6 +64,87 @@
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
       }
+    },
+    {
+      "metric": "Transmission pipeline pressure",
+      "unit": "psig (150 to over 1000)",
+      "basis": "Emerson white paper D353412X012 August 2024: 'transmission pipeline that may operate at pressures from 150 to over 1000 psig'",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
+      },
+      "low": 150,
+      "high": 1000
+    },
+    {
+      "metric": "Gas turbine fuel gas pressure",
+      "unit": "psig",
+      "basis": "Emerson: 'The gas turbines in power plants typically need fuel gas at pressures from 450 to 600 psig.'",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
+      },
+      "low": 450,
+      "high": 600
+    },
+    {
+      "metric": "Set pressure accuracy",
+      "unit": "%",
+      "basis": "Emerson: 'Pilot-operated regulators can maintain a set pressure accuracy of 0.5% to 2.5%, even when flow rates and transmission line pressures vary.'",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
+      },
+      "low": 0.5,
+      "high": 2.5
+    },
+    {
+      "metric": "Primary/standby example pressures",
+      "unit": "psig",
+      "basis": "Emerson Figure 4: 'reduce the pressure from an upstream pressure of 800 psig to a downstream pressure of 440 psig. The regulator on the standby run will stay closed unless the downstream pressure decreases to 420 psig'",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
+      },
+      "low": 420,
+      "high": 800
+    },
+    {
+      "metric": "Station noise benchmark",
+      "unit": "dBA (about)",
+      "basis": "Emerson: 'Specifications of these stations vary but a common benchmark is about 85 dBA.'",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
+      },
+      "value": 85
+    },
+    {
+      "metric": "Shutoff class",
+      "unit": "text",
+      "basis": "Emerson: 'Ensuring regulators within the station have ANSI Class VIII shutoff rating'",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
+      }
+    },
+    {
+      "metric": "Governing code",
+      "unit": "text",
+      "basis": "Emerson: 'Piping systems in electric power generation stations are governed by ASME 31.1.'",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
+      }
+    },
+    {
+      "metric": "Methane emissions equivalence",
+      "unit": "text",
+      "basis": "Emerson: '1 Kg of methane emitted into atmosphere is equivalent to emitting 25 Kg of carbon dioxide'",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
+      }
+    },
+    {
+      "metric": "Regulator styles / models",
+      "unit": "text",
+      "basis": "Emerson: 'Two styles ... 1) two-path, loading style and 2) boot, unloading style'; figure 'Tartarini™ Type FL - Axial Flow, Two-Path Style Pilot-Operated Regulator'",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
+      }
     }
   ],
   "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
@@ -73,6 +154,6 @@
       "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 9 new printed parameters."
 }

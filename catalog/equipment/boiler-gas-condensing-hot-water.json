@@ -212,6 +212,189 @@
       "unit": ":1",
       "low": 8,
       "high": 15
+    },
+    {
+      "metric": "Number of models",
+      "unit": "models",
+      "basis": "'11 models from 500 MBH to 6,000 MBH'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 11
+    },
+    {
+      "metric": "Marketing efficiency statement",
+      "unit": "%",
+      "basis": "'The CFC-E is up to 99% efficient due to its high-mass firetube construction' (conflicts with AHRI 94.7/96 figures - kept separate)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 99
+    },
+    {
+      "metric": "NOx emissions standard",
+      "unit": "ppm",
+      "basis": "'Emissions (ppm NOx) <20 ppm standard, lower emission optional'; 'sub 7 ppm NOx available'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 20
+    },
+    {
+      "metric": "NOx emissions optional",
+      "unit": "ppm",
+      "basis": "'sub 7 ppm NOx available' (Option/feature list)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 7
+    },
+    {
+      "metric": "Hydrogen blend capability",
+      "unit": "volumetric %",
+      "basis": "'support renewable natural gas and up to 20% volumetric mix hydrogen-natural gas blends'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Fuel",
+      "unit": "n/a",
+      "basis": "'Fuel: Natural Gas, Propane, Combination firing'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      }
+    },
+    {
+      "metric": "Vessel design / passes / medium",
+      "unit": "n/a",
+      "basis": "'Vessel Design: Firetube'; 'Number Of Passes: 1'; 'Steam Or Hot Water: Hot Water'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      }
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "'Duplex stainless steel construction'; TurboFer heat exchanger with integrated Ember controls; AluFer tube technology",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      }
+    },
+    {
+      "metric": "Side clearance",
+      "unit": "in",
+      "basis": "'Boiler room space savings with 3 inch side clearance'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Size range",
+      "unit": "BTU/HR",
+      "basis": "Size Range: 399,000 - 6,000,000 BTU/HR",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "low": 399000,
+      "high": 6000000
+    },
+    {
+      "metric": "Efficiency",
+      "unit": "%",
+      "basis": "Efficiency up to 99%",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "high": 99
+    },
+    {
+      "metric": "Fuel options",
+      "unit": "n/a",
+      "basis": "Fuel Options: Natural Gas, Propane",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "value": "Natural Gas, Propane"
+    },
+    {
+      "metric": "Heat exchanger material",
+      "unit": "n/a",
+      "basis": "Type 439 stainless steel features 68% greater strength than 316L.",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "value": "Type 439 stainless steel"
+    },
+    {
+      "metric": "Fuel saving",
+      "unit": "%",
+      "basis": "reduce fossil fuel use by 15%",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "value": 15
+    },
+    {
+      "metric": "NOx reduction",
+      "unit": "%",
+      "basis": "and NOx emissions by 80% compared to conventional boilers",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Input capacity range",
+      "unit": "MBH",
+      "basis": "Input Capacity (MBH): 399 ... 6000 across EXE-399 ... EXE-6000",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "low": 399,
+      "high": 6000
+    },
+    {
+      "metric": "AHRI thermal efficiency range",
+      "unit": "%",
+      "basis": "AHRI Thermal Efficiency (%): 98.0 (EXE-399) ... 96.2 (EXE-6000)",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "low": 96.0,
+      "high": 98.0
+    },
+    {
+      "metric": "Operating weight range",
+      "unit": "lbs",
+      "basis": "Operating Weight (LBS): 537 ... 5,740",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "low": 537,
+      "high": 5740
+    },
+    {
+      "metric": "Height range",
+      "unit": "in",
+      "basis": "Height (IN): 73.7 ... 79.3",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "low": 73.7,
+      "high": 79.3
+    },
+    {
+      "metric": "Water content range",
+      "unit": "GAL",
+      "basis": "Water Content (GAL): 17.9 ... 166",
+      "source": {
+        "url": "https://fulton.com/exe"
+      },
+      "low": 17.9,
+      "high": 166
     }
   ],
   "vendors": [
@@ -232,7 +415,7 @@
       "source_id": "cb-switchfire"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

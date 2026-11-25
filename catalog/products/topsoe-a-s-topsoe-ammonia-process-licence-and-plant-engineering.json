@@ -27,6 +27,123 @@
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
       "value": 958500
+    },
+    {
+      "metric": "Solar energy capacity",
+      "unit": "MW",
+      "basis": "Solar Energy Capacity: 4,750 MW",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 4750
+    },
+    {
+      "metric": "Battery energy storage",
+      "unit": "MWh",
+      "basis": "Battery Energy Storage System: 1600 MWh",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 1600
+    },
+    {
+      "metric": "Electrolyzer capacity",
+      "unit": "MW",
+      "basis": "Electrolyzer Capacity: 3,000 MW",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Annual hydrogen production",
+      "unit": "tonnes per annum",
+      "basis": "Annual (renewables-based) hydrogen production: 174,500 tonnes per annum",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 174500
+    },
+    {
+      "metric": "Annual ammonia production",
+      "unit": "tonnes per annum",
+      "basis": "Annual (renewables-based) ammonia production: 958,500 tonnes per annum",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 958500
+    },
+    {
+      "metric": "Renewables generation",
+      "unit": "GWh per annum",
+      "basis": "The project is planned to generate approximately 9,750 GWh per annum",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 9750
+    },
+    {
+      "metric": "Estimated total project cost",
+      "unit": "n/a",
+      "basis": "Estimated cost: US$6.8 billion (total project cost)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "US$6.8 billion"
+    },
+    {
+      "metric": "Feasibility/pre-FEED cost",
+      "unit": "n/a",
+      "basis": "US$15 million (feasibility and pre-FEED studies)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "US$15 million"
+    },
+    {
+      "metric": "BEDP cost",
+      "unit": "n/a",
+      "basis": "US$82 million – Basic Engineering Design Package (BEDP) (FEED studies)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "US$82 million"
+    },
+    {
+      "metric": "Cryogenic ammonia tanks",
+      "unit": "n/a",
+      "basis": "SPG Steiner GmbH (Germany) – BEDP for two 40,000-tonne cryogenic ammonia tanks",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "two 40,000-tonne tanks"
+    },
+    {
+      "metric": "TOPSOE scope",
+      "unit": "n/a",
+      "basis": "May 2024: TOPSOE A/S (Denmark) – Process licence and ammonia plant engineering; October 2023: TOPSOE A/S (Denmark) – Process licence for ammonia technology",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "Process licence for ammonia technology (Oct 2023) and process licence + ammonia plant engineering (May 2024)"
+    },
+    {
+      "metric": "Anticipated operations date",
+      "unit": "year",
+      "basis": "The project proponent has indicated an anticipated operations date of 2030",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 2030
+    },
+    {
+      "metric": "Status",
+      "unit": "n/a",
+      "basis": "Status: Under development – FEED studies",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "Under development – FEED studies"
     }
   ],
   "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
@@ -35,6 +152,6 @@
       "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     }
   ],
-  "notes": "Also selected for Fakfak ammonia plant BED (13 Nov 2026) per Pupuk Indonesia release.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Also selected for Fakfak ammonia plant BED (13 Nov 2026) per Pupuk Indonesia release. Full-parameter pass 2026-11-26: 13 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

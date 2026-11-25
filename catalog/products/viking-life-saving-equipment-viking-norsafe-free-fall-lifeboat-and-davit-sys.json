@@ -17,6 +17,33 @@
         "source_id": "viking-life-com-www-viking-life-com-product-insights"
       },
       "value": 50
+    },
+    {
+      "metric": "VIKING Norsafe free-fall lifeboat - approved drop height",
+      "unit": "m (world record free-fall performance, up to)",
+      "basis": "VIKING Life-Saving Equipment 'Product insights' page, Offshore free-fall lifeboat and davit systems section; no print date stated",
+      "source": {
+        "url": "https://www.viking-life.com/product-insights"
+      },
+      "value": 50
+    },
+    {
+      "metric": "VIKING Norsafe - heritage",
+      "unit": "n/a",
+      "basis": "VIKING Life-Saving Equipment 'Product insights' page, Offshore free-fall lifeboat and davit systems section; no print date stated",
+      "source": {
+        "url": "https://www.viking-life.com/product-insights"
+      },
+      "value": "Dating back to 1903"
+    },
+    {
+      "metric": "VIKING Norsafe free-fall lifeboat - design",
+      "unit": "n/a",
+      "basis": "VIKING Life-Saving Equipment 'Product insights' page, Offshore free-fall lifeboat and davit systems section; no print date stated",
+      "source": {
+        "url": "https://www.viking-life.com/product-insights"
+      },
+      "value": "Fast-boarding and robust, extensively tested for harshest conditions; designed for rapid evacuation"
     }
   ],
   "url": "https://www.viking-life.com/product-insights",
@@ -25,6 +52,6 @@
       "url": "https://www.viking-life.com/product-insights"
     }
   ],
-  "notes": "Also VNJY 40/52-person compact enclosed lifeboats.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Also VNJY 40/52-person compact enclosed lifeboats. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -27,6 +27,96 @@
       },
       "unit": "certifications",
       "value": "UL certified panel shop; ATEX, CSA and UL certifications; IEC and NEC standards"
+    },
+    {
+      "metric": "Industry experience",
+      "unit": "n/a",
+      "basis": "Zeeco has manufactured reliable, technically advanced control systems for the combustion industry for over 40 years",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": "over 40 years"
+    },
+    {
+      "metric": "Components",
+      "unit": "n/a",
+      "basis": "We utilize a wide variety of industry-standard components to meet customer specifications, including PLC's, HMI's, complex relay logic, transmitters for all measurements",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": "PLCs, HMIs, complex relay logic, transmitters for all measurements, optional instruments"
+    },
+    {
+      "metric": "Certifications",
+      "unit": "n/a",
+      "basis": "Our panel shop is UL certified and capable of complying with most worldwide standards, such as ATEX, CSA, and UL certifications. Not only can we conform to IEC and NEC standards",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": "UL certified panel shop; ATEX, CSA, UL, IEC and NEC standards"
+    },
+    {
+      "metric": "Package burner turndown",
+      "unit": "n/a",
+      "basis": "turndown capabilities of 10:1 or greater",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": "10:1 or greater"
+    },
+    {
+      "metric": "Package burner NOx (standard)",
+      "unit": "ppm",
+      "basis": "Standard configuration offers less than 30ppm NOx without external flue gas recirculation (FGR)",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": "<30"
+    },
+    {
+      "metric": "Package burner NOx (with FGR)",
+      "unit": "ppm",
+      "basis": "Capable of less than 9ppm NOx with less than 20% FGR",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": "<9"
+    },
+    {
+      "metric": "FGR fraction",
+      "unit": "%",
+      "basis": "Capable of less than 9ppm NOx with less than 20% FGR",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": "<20"
+    },
+    {
+      "metric": "O2 level",
+      "unit": "%",
+      "basis": "10:1 turndown with constant 3-4% O2 levels throughout the firing rate",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": "3-4"
+    },
+    {
+      "metric": "Package burner models",
+      "unit": "n/a",
+      "basis": "PackageD Burners product list",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": "PLN Ultra-Low NOx, FREE JET Ultra-Low NOx, GO Ultra-Low NOx, GB-ZS/ZR"
+    },
+    {
+      "metric": "GO burner",
+      "unit": "n/a",
+      "basis": "Zeeco's GO Ultra-Low NOx Package Burner utilizes staged flame combustion and Internal Flue Gas Recirculation (IFGR) combustion to achieve 30ppm NOx emissions without the use of FGR",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": "staged flame combustion and Internal Flue Gas Recirculation (IFGR) to achieve 30ppm NOx without FGR"
     }
   ],
   "url": "https://www.zeeco.com/products/burners?hsLang=en",
@@ -35,6 +125,6 @@
       "url": "https://www.zeeco.com/products/burners?hsLang=en"
     }
   ],
-  "notes": "Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). Linked BMS PDF brochure not opened.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). Linked BMS PDF brochure not opened. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

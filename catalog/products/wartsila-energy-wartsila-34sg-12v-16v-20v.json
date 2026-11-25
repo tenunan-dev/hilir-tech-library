@@ -39,6 +39,231 @@
         "source_id": "wartsila-com-engine-power-plants-wartsila-34sg-gas-engine"
       },
       "value": 750
+    },
+    {
+      "metric": "Cylinder configurations",
+      "unit": "n/a",
+      "basis": "'Cylinder configurations 12, 16, 20V'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "12, 16, 20V"
+    },
+    {
+      "metric": "Cylinder bore",
+      "unit": "mm",
+      "basis": "'Cylinder bore 340 mm'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 340
+    },
+    {
+      "metric": "Piston stroke",
+      "unit": "mm",
+      "basis": "'Piston stroke 400 mm'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm",
+      "basis": "'Engine speed 750 rpm (50 Hz), 720 rpm (60 Hz)'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "750 rpm (50 Hz), 720 rpm (60 Hz)"
+    },
+    {
+      "metric": "20V34SG rated electrical power 50 Hz",
+      "unit": "kW",
+      "basis": "Performance table: 20V34SG 'Rated electrical power (kW) 9 795 (50Hz) 9 388 (60Hz)'. Wartsila product page, © 2026 Wartsila; technical data stated at 100 kPa, 25 C suction air, 30% RH, PF 1.0, 5% tolerance.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 9795
+    },
+    {
+      "metric": "20V34SG rated electrical power 60 Hz",
+      "unit": "kW",
+      "basis": "Performance table as above.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 9388
+    },
+    {
+      "metric": "16V34SG rated electrical power 50 Hz",
+      "unit": "kW",
+      "basis": "Performance table: 16V34SG '7 830 (50Hz) 7 491 (60Hz)'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 7830
+    },
+    {
+      "metric": "16V34SG rated electrical power 60 Hz",
+      "unit": "kW",
+      "basis": "Performance table as above.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 7491
+    },
+    {
+      "metric": "12V34SG rated electrical power 50 Hz",
+      "unit": "kW",
+      "basis": "Performance table: 12V34SG '5 840 (50Hz) 5 580 (60Hz)'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 5840
+    },
+    {
+      "metric": "12V34SG rated electrical power 60 Hz",
+      "unit": "kW",
+      "basis": "Performance table as above.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 5580
+    },
+    {
+      "metric": "20V34SG electrical efficiency 50 Hz",
+      "unit": "%",
+      "basis": "Performance table: 'Electrical efficiency (%) 48.9 (50Hz) 48.8 (60Hz)' for 20V34SG.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 48.9
+    },
+    {
+      "metric": "20V34SG electrical efficiency 60 Hz",
+      "unit": "%",
+      "basis": "Performance table as above.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 48.8
+    },
+    {
+      "metric": "16V34SG electrical efficiency 50/60 Hz",
+      "unit": "%",
+      "basis": "Performance table row as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "48.9 (50Hz) / 48.7 (60Hz)"
+    },
+    {
+      "metric": "12V34SG electrical efficiency 50/60 Hz",
+      "unit": "%",
+      "basis": "Performance table row as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "48.0 (50Hz) / 47.8 (60Hz)"
+    },
+    {
+      "metric": "Heat rate 20V34SG",
+      "unit": "kJ/kWh",
+      "basis": "Performance table row as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "7 363 (50Hz) / 7 374 (60Hz)"
+    },
+    {
+      "metric": "Heat rate 16V34SG",
+      "unit": "kJ/kWh",
+      "basis": "Performance table row as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "7367 (50Hz) / 7396 (60Hz)"
+    },
+    {
+      "metric": "Heat rate 12V34SG",
+      "unit": "kJ/kWh",
+      "basis": "Performance table row as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "7 501 (50Hz) / 7 538 (60Hz)"
+    },
+    {
+      "metric": "Connected-to-grid regular start time",
+      "unit": "min:sec",
+      "basis": "Loading and unloading table: Regular start time / Fast start time, Connected to grid 00:30.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "00:30"
+    },
+    {
+      "metric": "Regular start to full load",
+      "unit": "min",
+      "basis": "Loading and unloading table: 'Regular start time ... Full load < 5'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "< 5"
+    },
+    {
+      "metric": "Fast start to full load",
+      "unit": "min",
+      "basis": "Loading and unloading table: 'Fast start time ... Full load < 2'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "< 2"
+    },
+    {
+      "metric": "Stop time",
+      "unit": "min",
+      "basis": "Loading and unloading table 'Stop time (min) 1'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Ramp rate hot",
+      "unit": "% load/min",
+      "basis": "Loading and unloading table 'Ramp rate (hot, load/min) > 100%'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "> 100"
+    },
+    {
+      "metric": "Minimum load unit / plant",
+      "unit": "%",
+      "basis": "Minimum Load table: 'Unit level 10%; Plant level 1%'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "10% / 1%"
+    },
+    {
+      "metric": "Fast-start headline",
+      "unit": "n/a",
+      "basis": "'Our proudest numbers' block.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "2 min to full load; 48.9% electrical efficiency; 1 000 generating sets delivered"
+    },
+    {
+      "metric": "Fuels / hydrogen blending",
+      "unit": "n/a",
+      "basis": "Key benefits: 'Runs on natural gas, biogas, synthetic methane and is capable of hydrogen blending'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
+      },
+      "value": "natural gas, biogas, synthetic methane; capable of hydrogen blending"
     }
   ],
   "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine",
@@ -47,6 +272,13 @@
       "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-34sg-gas-engine"
     }
   ],
-  "notes": "Four-stroke spark-ignited lean-burn; based on Wartsila 32; 1,000 generating sets delivered",
-  "last_reviewed": "2026-11-24"
+  "notes": "Four-stroke spark-ignited lean-burn; based on Wartsila 32; 1,000 generating sets delivered Full-parameter pass 2026-11-26: 25 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "34SG leaflet detailed tables",
+      "why": "The linked leaflet (wartsi.ly/3MaxEkV) was not fetched; page tables above are complete for the published parameters.",
+      "next_action": "Fetch the leaflet if fuel gas specification limits or dimensions are required."
+    }
+  ]
 }

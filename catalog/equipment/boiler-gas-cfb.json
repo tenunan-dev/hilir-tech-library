@@ -167,6 +167,57 @@
       },
       "unit": "fuel flexibility",
       "value": "Biomass, agricultural waste streams, recovered fuels, coals, solid petrochemical residues (pet coke, asphaltene, solidified pitch), any combination"
+    },
+    {
+      "metric": "References",
+      "unit": "references",
+      "basis": "'Most of the over 100 references around the world are multifuel boilers'",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Fuel flexibility",
+      "unit": "n/a",
+      "basis": "'Biomasses, including fuels derived from agricultural waste streams; Recovered fuels; Various type of coals; Solid petrochemical residues, eg. pet coke, asphaltene, solidified pitch; Any combination of the above-mentioned fuels'",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      }
+    },
+    {
+      "metric": "Turbogenerator output rating range (ANDRITZ thermal power portfolio)",
+      "unit": "MVA",
+      "basis": "ANDRITZ Thermal power page: 'Turbogenerators for thermal power plants with output ratings from 10 MVA to 350 MVA.' (portfolio-level, not CFB-specific)",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en"
+      },
+      "low": 10,
+      "high": 350
+    },
+    {
+      "metric": "CFB fluidization / solids behaviour",
+      "unit": "text",
+      "basis": "'With CFB technology, the flue gas velocity in the furnace is higher and the bed is expanded and entrained with the flow. The bed material flows with the flue gas through the furnace, after which the material is separated by cyclones and returned to the lower furnace.'",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en"
+      }
+    },
+    {
+      "metric": "CFB combustion temperature characteristic",
+      "unit": "text",
+      "basis": "'The efficient mixing and relatively low combustion temperatures contribute to low emissions of carbon monoxide, hydrocarbons, and nitric oxides.'",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en"
+      }
+    },
+    {
+      "metric": "CFB fuel range",
+      "unit": "text",
+      "basis": "'CFB technology also allows an extremely wide range of fuels to be fired in the same unit.'; BFB EcoFluid: 'a variety of clean biomass fuels (bark, agricultural, forestry, and sawmill residuals) ... demolition wood, refuse-derived fuels, peat, various sludges, etc.'",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en"
+      }
     }
   ],
   "vendors": [
@@ -197,7 +248,7 @@
       "source_id": "zeeco-cfb-gas-conversion"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

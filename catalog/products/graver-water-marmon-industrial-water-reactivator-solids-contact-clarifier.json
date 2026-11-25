@@ -37,6 +37,33 @@
       },
       "unit": "n/a",
       "value": "clarification, lime softening, silica reduction, organics reduction"
+    },
+    {
+      "metric": "Clarifier type",
+      "unit": "n/a",
+      "basis": "The Graver Reactivator® is a high rate, solids contact, sludge recirculation type clarifier",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      },
+      "value": "high rate, solids contact, sludge recirculation type clarifier"
+    },
+    {
+      "metric": "Functions in single unit",
+      "unit": "n/a",
+      "basis": "provides a means for chemical addition and mixing, flocculation, and upflow clarification in a single unit",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      },
+      "value": "chemical addition and mixing, flocculation, and upflow clarification"
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "It is used principally for clarification, lime softening, silica reduction, or organics reduction of water and wastewater containing suspended solids, color and organic impurities",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      },
+      "value": "clarification, lime softening, silica reduction, or organics reduction of water and wastewater containing suspended solids, color and organic impurities"
     }
   ],
   "url": "https://graver.com/pretreatment/",
@@ -45,6 +72,6 @@
       "url": "https://graver.com/pretreatment/"
     }
   ],
-  "notes": "Read in full: Graver 'Raw Water Pretreatment' page. Product line named in narrative text; no numeric specification table on this page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: Graver 'Raw Water Pretreatment' page. Product line named in narrative text; no numeric specification table on this page. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

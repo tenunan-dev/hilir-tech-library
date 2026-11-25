@@ -78,6 +78,79 @@
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
       }
+    },
+    {
+      "metric": "Capacity",
+      "unit": "text",
+      "basis": "Roben: 'Capacity Range: Custom — sized to facility throughput and inventory needs'; FAQ: 'capacities ranging from a few hundred gallons to several million gallons'",
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application"
+      }
+    },
+    {
+      "metric": "Maximum tank diameter",
+      "unit": "feet",
+      "basis": "Roben FAQ: 'with diameters up to 60 feet and heights customized to site constraints'",
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Construction standard",
+      "unit": "text",
+      "basis": "Roben: 'Construction Standard: API 650, API 620, AWWA D100, or ASME Section VIII per service'",
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application"
+      }
+    },
+    {
+      "metric": "Materials",
+      "unit": "text",
+      "basis": "Roben: 'Materials: Selected per product compatibility — carbon steel through specialty alloys'; FAQ: 'carbon steel, stainless steel, duplex, super duplex, Hastelloy, Inconel, and other specialty alloys'",
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application"
+      }
+    },
+    {
+      "metric": "Internal coating",
+      "unit": "text",
+      "basis": "Roben: 'Internal Coating: Phenolic, epoxy, glass-lined, rubber-lined per service'",
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application"
+      }
+    },
+    {
+      "metric": "Roof type",
+      "unit": "text",
+      "basis": "Roben: 'Roof Type: Cone, dome, internal floating, external floating per vapor pressure'",
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application"
+      }
+    },
+    {
+      "metric": "Accessories",
+      "unit": "text",
+      "basis": "Roben: 'Vents, gauges, mixers, heating coils, fire protection, vapor recovery as required'",
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application"
+      }
+    },
+    {
+      "metric": "Certifications",
+      "unit": "text",
+      "basis": "Roben: 'ASME Section VIII Division 1 and Division 2 — \"U\" and \"U2\" Stamps; National Board \"R\" Stamp; API 650; API 620; API 653; PED; CRN; NFPA 30; EPA SPCC compliance'",
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application"
+      }
+    },
+    {
+      "metric": "Documentation",
+      "unit": "text",
+      "basis": "Roben: 'Full U-1A, MTRs, and NDE documentation supporting facility audits and inspections'; 'ASME data books, API filings, NDE reports, regulatory submittals'",
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application"
+      }
     }
   ],
   "url": "https://robenmfg.com/lubricating-oil-storage-application",
@@ -87,6 +160,6 @@
       "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 9 new printed parameters."
 }

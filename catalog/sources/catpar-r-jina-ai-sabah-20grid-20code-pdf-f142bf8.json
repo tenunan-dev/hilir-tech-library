@@ -1,0 +1,25 @@
+{
+  "id": "catpar-r-jina-ai-sabah-20grid-20code-pdf-f142bf8",
+  "name": "r.jina.ai",
+  "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "R.Jina.Ai",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. AC alternating current (nominally 50 Hz)"
+}

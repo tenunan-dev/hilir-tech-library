@@ -49,6 +49,42 @@
       },
       "unit": "configuration",
       "value": "On/off or variable speed pumping"
+    },
+    {
+      "metric": "Feedwater capacity",
+      "unit": "lbs/hr",
+      "basis": "\"1,500 - 135,000 lbs/hr\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate"
+      },
+      "low": 1500,
+      "high": 135000
+    },
+    {
+      "metric": "Storage capacity",
+      "unit": "minutes",
+      "basis": "\"Storage capacities from 10 to 30 minutes\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate"
+      },
+      "low": 10,
+      "high": 30
+    },
+    {
+      "metric": "Pumping options",
+      "unit": "n/a",
+      "basis": "\"On/off and variable speed pumping\"; \"On/off or variable speed pumping\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate"
+      }
+    },
+    {
+      "metric": "Design type",
+      "unit": "n/a",
+      "basis": "\"a pressurized packed column design where water is cascaded through a unique column design removing dissolved oxygen in boiler feed water and eliminating carbon dioxide\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/boilermate"
+      }
     }
   ],
   "url": "https://cleaverbrooks.com/product/boilermate",
@@ -57,6 +93,13 @@
       "url": "https://cleaverbrooks.com/product/boilermate"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Full BoilerMate specification values (design pressure, temperature, shell sizes)",
+      "why": "Linked specification brochure (SharePoint) not read",
+      "next_action": "Fetch the SharePoint spec brochure if full ratings needed"
+    }
+  ]
 }

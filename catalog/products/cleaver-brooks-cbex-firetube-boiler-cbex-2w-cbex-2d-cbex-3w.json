@@ -100,6 +100,146 @@
       },
       "unit": "% increase in heat transfer",
       "value": 85
+    },
+    {
+      "metric": "Steam pressure",
+      "unit": "psig",
+      "basis": "Steam up to 300 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 300
+    },
+    {
+      "metric": "Hot water pressure",
+      "unit": "psig",
+      "basis": "Hot water up to 125 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 125
+    },
+    {
+      "metric": "Boiler horsepower range",
+      "unit": "HP",
+      "basis": "100 to 2,500 HP",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "low": 100,
+      "high": 2500
+    },
+    {
+      "metric": "Number of passes",
+      "unit": "n/a",
+      "basis": "2 Pass and 3 Pass",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "2 Pass and 3 Pass"
+    },
+    {
+      "metric": "Fuels",
+      "unit": "n/a",
+      "basis": "Natural gas/propane, #2 light oil, combination",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "Natural gas/propane, #2 light oil, combination"
+    },
+    {
+      "metric": "NOx",
+      "unit": "ppm",
+      "basis": "Offers 30 ppm NOx with 3% O2 across the 10:1 turndown range",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 30
+    },
+    {
+      "metric": "NOx sub-5 ppm",
+      "unit": "ppm",
+      "basis": "Sub 5 ppm NOx without SCR available on most models",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 5
+    },
+    {
+      "metric": "CO requirement",
+      "unit": "ppm",
+      "basis": "Meets 10 ppm CO requirement",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 10
+    },
+    {
+      "metric": "Input capacity",
+      "unit": "MBH (printed as 4,000 - 102,000)",
+      "basis": "Input Capacity 4,000 - 102,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "low": 4000,
+      "high": 102000
+    },
+    {
+      "metric": "CBEX-2W boiler horsepower",
+      "unit": "HP",
+      "basis": "Boiler Horsepower: 100 - 2,500 (CBEX-2W)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "low": 100,
+      "high": 2500
+    },
+    {
+      "metric": "CBEX-2D boiler horsepower",
+      "unit": "HP",
+      "basis": "Boiler Horsepower: 250 - 800 (CBEX-2D)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "low": 250,
+      "high": 800
+    },
+    {
+      "metric": "CBEX-3W boiler horsepower",
+      "unit": "HP",
+      "basis": "Boiler Horsepower: 250 - 800 (CBEX-3W)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "low": 250,
+      "high": 800
+    },
+    {
+      "metric": "NOx by model",
+      "unit": "ppm",
+      "basis": "Emissions (ppm NOx): <5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "<5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)"
+    },
+    {
+      "metric": "Heat transfer improvement",
+      "unit": "%",
+      "basis": "increase heat transfer by 85%",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": 85
+    },
+    {
+      "metric": "Vessel design",
+      "unit": "n/a",
+      "basis": "Vessel Design: Firetube",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "Firetube"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cbex",
@@ -108,6 +248,6 @@
       "url": "https://cleaverbrooks.com/product/cbex"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown). Includes a printed Technical Data table, brochure links (SharePoint PDFs not opened).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Includes a printed Technical Data table, brochure links (SharePoint PDFs not opened). Full-parameter pass 2026-11-26: 15 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

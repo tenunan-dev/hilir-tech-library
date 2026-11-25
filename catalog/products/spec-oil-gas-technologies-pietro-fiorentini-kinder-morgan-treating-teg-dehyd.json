@@ -27,6 +27,42 @@
         "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
       },
       "value": "3-7 lb water/MMSCF"
+    },
+    {
+      "metric": "Project scope example",
+      "unit": "n/a",
+      "basis": "Scope Two 30 MMSCFD triethylene glycol dehydration trains for a 60 MMSCFD sour gas plant.",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
+      },
+      "value": "Two 30 MMSCFD triethylene glycol dehydration trains for a 60 MMSCFD sour gas plant"
+    },
+    {
+      "metric": "Reference plant capacity",
+      "unit": "MMSCFD",
+      "basis": "SPEC designed, engineered and supplied a 2 × 35 MMSCFD triethylene glycol dehydration plant, with commissioning support.",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
+      },
+      "high": 35
+    },
+    {
+      "metric": "Glycol type",
+      "unit": "n/a",
+      "basis": "Triethylene glycol (TEG) is the glycol most widely used in contactor dehydration.",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
+      },
+      "value": "Triethylene glycol (TEG)"
+    },
+    {
+      "metric": "Process equipment",
+      "unit": "n/a",
+      "basis": "Process description sections of the page",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
+      },
+      "value": "inlet scrubber, contactor tower, glycol/gas heat exchanger, flash tank, rich/lean glycol exchanger, glycol reboiler and still column, glycol pump, glycol filters"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
@@ -35,6 +71,13 @@
       "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Design pressure, temperature and capacity envelope",
+      "why": "Page explicitly states these are to be confirmed by SPEC engineering and does not print values.",
+      "next_action": "Request a project-specific data sheet."
+    }
+  ]
 }

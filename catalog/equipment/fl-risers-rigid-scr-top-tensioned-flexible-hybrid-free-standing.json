@@ -183,6 +183,1766 @@
         "source_id": "sys-process-honeywell-com-experion-pks"
       },
       "value": 500
+    },
+    {
+      "metric": "Generator set power range",
+      "unit": "kVA",
+      "basis": "'We offer a diverse range of generator sets from 15 - 3750 kVA.' Cummins en-apac generators/diesel page, © 2026.",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel"
+      },
+      "value": "15 - 3750 kVA"
+    },
+    {
+      "metric": "Commercial genset start and load acceptance",
+      "unit": "seconds",
+      "basis": "'Able to start and assume load in less than 10 seconds, and rated load in a single step, Cummins commercial generators are the epitome of rugged dependability.'",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel"
+      },
+      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step"
+    },
+    {
+      "metric": "Portfolio maximum 60 Hz",
+      "unit": "kWe",
+      "basis": "'Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz).'",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": 3250
+    },
+    {
+      "metric": "Portfolio maximum 50 Hz",
+      "unit": "kVA",
+      "basis": "As above.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Load factor standby / prime",
+      "unit": "%",
+      "basis": "'85% load factor for standby applications and 75% for prime power'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "85% / 75%"
+    },
+    {
+      "metric": "Transient operation claim",
+      "unit": "n/a",
+      "basis": "Wide range of applications / transient operation bullets.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "Superior transient operation, industry leading load factors in extreme ambient conditions"
+    },
+    {
+      "metric": "Sustainable fuel approval",
+      "unit": "n/a",
+      "basis": "'mtu Series 4000 and Series 1600 engines for power generation are approved to run on synthetic paraffinic diesel fuels in accordance with EN 15940, which includes the biofuel HVO'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO"
+    },
+    {
+      "metric": "Power range - mtu Series 4000",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 4000 POWER RANGE: 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe"
+    },
+    {
+      "metric": "Power range - mtu Series 2000",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 2000 POWER RANGE: 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe"
+    },
+    {
+      "metric": "Power range - mtu Series 1600",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 1600 POWER RANGE: 50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe"
+    },
+    {
+      "metric": "Power range - mtu Series 0080 - mtu Series 0225",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 0080 - mtu Series 0225 POWER RANGE: 50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe"
+    },
+    {
+      "metric": "Version",
+      "unit": "n/a",
+      "basis": "'SIMATIC PCS 7 V10.0 boosts plant performance and security'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      }
+    },
+    {
+      "metric": "MTP integration startup improvement",
+      "unit": "%",
+      "basis": "'MTP integration for up to 75% faster startup'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": 75
+    },
+    {
+      "metric": "Cybersecurity compliance",
+      "unit": "n/a",
+      "basis": "'full IEC 62443-4-1 and IEC 62443-3-3 compliance'; 'NIS2-compliant cybersecurity'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      }
+    },
+    {
+      "metric": "GMP features",
+      "unit": "n/a",
+      "basis": "'GMP-ready audit trails and eSignatures'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      }
+    },
+    {
+      "metric": "Remote I/O",
+      "unit": "n/a",
+      "basis": "'SIMATIC ET 200SP HA, a compact robust remote I/O designed for high availability'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      }
+    },
+    {
+      "metric": "Installed base",
+      "unit": "n/a",
+      "basis": "'already in use in thousands of installations worldwide'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      }
+    },
+    {
+      "metric": "Case: vaccine production start-up",
+      "unit": "months",
+      "basis": "'BioNTech launches vaccine production in just 5 months with paperless, MES-integrated automation'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Indonesia project capacity",
+      "unit": "MW",
+      "basis": "'Capacity 192 MW, Location Indonesia, Application Scenario Reservoir' (hydroelectric power station floating PV)",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 192
+    },
+    {
+      "metric": "Anhui project capacity",
+      "unit": "MW",
+      "basis": "'Major 200MW Floating Solar Plant Launched on Anhui's Former Coal Mines'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Philippines project capacity",
+      "unit": "MW",
+      "basis": "'Capacity 4.99 MW, Location Philippines'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 4.99
+    },
+    {
+      "metric": "France project capacity",
+      "unit": "MW",
+      "basis": "'Capacity 5 MW, Location France'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Global floating PV application",
+      "unit": "GW",
+      "basis": "'With Over 4GW of Floating PV Application, We Set the Standard'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Patents",
+      "unit": "patents",
+      "basis": "'290 + Patents'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 290
+    },
+    {
+      "metric": "Products listed",
+      "unit": "n/a",
+      "basis": "'TS30M' (Truss Structure Product), 'PT60' (Pontoon Product), 'Floating Barge' (Equipment Support System)",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      }
+    },
+    {
+      "metric": "Authorized distributors",
+      "unit": "distributors",
+      "basis": "'400 + Authorized Distributors'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Service outlets",
+      "unit": "outlets",
+      "basis": "'520 + Service Outlets'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 520
+    },
+    {
+      "metric": "Technical experts",
+      "unit": "experts",
+      "basis": "'1000 + Technical Experts'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Warehouse area",
+      "unit": "m2",
+      "basis": "'110,000 ㎡ Warehouse total area'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 110000
+    },
+    {
+      "metric": "Emissions reduced",
+      "unit": "n/a",
+      "basis": "\"designed to significantly reduce emissions, including NOx, CO, CO2, and SOx\" (no percentages printed)",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Compression technologies considered",
+      "unit": "n/a",
+      "basis": "\"Ejectors are one of the compression technologies we often consider\" (also liquid seal vessel, flare gas sweetening)",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Liquid seal design",
+      "unit": "n/a",
+      "basis": "\"We use deep liquid seals that provide the necessary hydrostatic head, ensuring reliable performance even under fluctuating conditions\"",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "\"engineered for a wide variety of applications, from petroleum refineries to FPSO offshore platforms\"",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Module power (headline maximum)",
+      "unit": "W (up to)",
+      "basis": "\"Up to 670 W Module Power\" (headline) and \"Maximum power boasts up to 670W\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 670
+    },
+    {
+      "metric": "Module power (printed STC table maximum)",
+      "unit": "W",
+      "basis": "Electrical Performance Parameters (STC Test) table lists LR7-72HYD-635M to LR7-72HYD-660M, Pmax 635-660 W — keep as separate printed value from headline 670 W",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 660
+    },
+    {
+      "metric": "Module efficiency",
+      "unit": "% (up to)",
+      "basis": "\"Up to 24.80 % Module Efficiency\" / \"Module efficiency of up to 24.8%\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 24.8
+    },
+    {
+      "metric": "Product warranty",
+      "unit": "years",
+      "basis": "\"12 Years Product Warranty\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Power warranty",
+      "unit": "years",
+      "basis": "\"30 Years Power Warranty\"; \"30-year full lifecycle linear degradation is 0.05 percentage points lower than conventional N-type products, Power increase 1.5% after 30 years\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Open-circuit voltage at STC",
+      "unit": "V",
+      "basis": "STC table LR7-72HYD-635M to -660M: Voc 53.50-54.00 V",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 53.5,
+      "high": 54.0
+    },
+    {
+      "metric": "Short-circuit current at STC",
+      "unit": "A",
+      "basis": "STC table: Isc 15.01-15.41 A",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 15.01,
+      "high": 15.41
+    },
+    {
+      "metric": "Peak power voltage at STC",
+      "unit": "V",
+      "basis": "STC table: Vmp 44.36-44.85 V",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 44.36,
+      "high": 44.85
+    },
+    {
+      "metric": "Peak power current at STC",
+      "unit": "A",
+      "basis": "STC table: Imp 14.32-14.72 A",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 14.32,
+      "high": 14.72
+    },
+    {
+      "metric": "NOCT maximum power",
+      "unit": "W",
+      "basis": "Electrical Performance Parameters (NOCT Test) table: Pmax 483.4-502.4 W",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "low": 483.4,
+      "high": 502.4
+    },
+    {
+      "metric": "Module weight",
+      "unit": "kg",
+      "basis": "Mechanical Parameters: Weight 33.5kg",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 33.5
+    },
+    {
+      "metric": "Module dimensions",
+      "unit": "mm",
+      "basis": "Mechanical Parameters: Size 2382×1134×30mm",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Cell layout",
+      "unit": "cells (6x24)",
+      "basis": "Mechanical Parameters: Layout 144（6×24）",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 144
+    },
+    {
+      "metric": "Junction box",
+      "unit": "n/a",
+      "basis": "Mechanical Parameters: \"Split junction box, IP68, 3 diodes\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Packaging",
+      "unit": "pieces",
+      "basis": "Mechanical Parameters: \"36pcs./pallet 144pcs./20GP 720pcs./40 HC\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Maximum static load front",
+      "unit": "Pa",
+      "basis": "Mechanical Load Capacity: \"Maximum static load on the front (such as snow and wind) 5400Pa\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 5400
+    },
+    {
+      "metric": "Maximum static load back",
+      "unit": "Pa",
+      "basis": "Mechanical Load Capacity: \"Maximum static load on the back (such as wind) 2400Pa\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 2400
+    },
+    {
+      "metric": "Hail test",
+      "unit": "n/a",
+      "basis": "Mechanical Load Capacity: \"Hail test Diameter 25 mm, impact speed 23 m/s\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Temperature coefficient Isc",
+      "unit": "%/degC (+ value)",
+      "basis": "Temperature Coefficient (STC test): \"Temperature coefficient of short circuit current (Isc) +0.05%/℃\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 0.05
+    },
+    {
+      "metric": "Temperature coefficient Voc",
+      "unit": "%/degC",
+      "basis": "Temperature Coefficient (STC test): \"Temperature coefficient of open circuit voltage (Voc) -0.200%/℃\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": -0.2
+    },
+    {
+      "metric": "Temperature coefficient Pmax",
+      "unit": "%/degC",
+      "basis": "Temperature Coefficient (STC test): \"Temperature coefficient of peak power (Pmax) -0.260%/℃\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": -0.26
+    },
+    {
+      "metric": "Cell technology",
+      "unit": "n/a",
+      "basis": "\"HPBC 2.0 Technology; Tairay silicon wafers + HPBC 2.0 cell technology\"; \"0BB design on the front\"",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Registered products",
+      "unit": "products (over 1,000)",
+      "basis": "\"a rich software platform that allows for the over 1,000 registered products to interoperate between various manufacturers of devices and control systems\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Physical medium",
+      "unit": "n/a",
+      "basis": "\"Fieldbus-based control systems employ two-wire twisted pair cable and provide intrinsically safe or non-incendive device power suitable for all hazardous areas\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
+      }
+    },
+    {
+      "metric": "Control in the field",
+      "unit": "n/a",
+      "basis": "\"FOUNDATION Fieldbus was designed from the ground up to enable control-in-the-field (CIF) strategies across the plant. This means that during a host system failure, field instruments can communicate directly with one another to maintain continued safe operations\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
+      }
+    },
+    {
+      "metric": "Specification set",
+      "unit": "n/a",
+      "basis": "\"FOUNDATION Fieldbus Technical Specifications ... includes the latest FOUNDATION Fieldbus H1, High Speed Ethernet (HSE) and Physical Layer technical specifications\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
+      }
+    },
+    {
+      "metric": "Deployment history",
+      "unit": "n/a",
+      "basis": "\"Since the early '90s, FOUNDATION Fieldbus has been installed and running process plants across the globe\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
+      }
+    },
+    {
+      "metric": "Cable voltage and type",
+      "unit": "kV HVAC dynamic cable",
+      "basis": "\"Nexans scope: turnkey design, manufacturing and installation of a 145 kV HVAC dynamic cable\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 145
+    },
+    {
+      "metric": "Route length",
+      "unit": "km (about)",
+      "basis": "\"Route: about 135 km, Barrow Island to a floating Field Control Station, in one continuous length\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 135
+    },
+    {
+      "metric": "Trenched cable length",
+      "unit": "km",
+      "basis": "\"Trenching of 30 km of cable\"; \"after installing 26 buoyancy modules and trenching 30 km of cable\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Buoyancy modules installed",
+      "unit": "modules",
+      "basis": "\"Installation of 26 buoyancy modules, using a horizontal method developed by Nexans\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 26
+    },
+    {
+      "metric": "VIV strakes installed",
+      "unit": "m (about)",
+      "basis": "\"Installation of about 200 meters of VIV (vortex-induced vibration) strakes in the Scarp section\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Rock stabilization remaining",
+      "unit": "km",
+      "basis": "\"Rock stabilization along the last 28 km of the route\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 28
+    },
+    {
+      "metric": "Project and publication date",
+      "unit": "n/a",
+      "basis": "News item 'Jansz-Io: Nexans Aurora completes subsea cable installation', dated 20 November 2026; vessel left Australia 23 October 2026; final soak test planned February 2027",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      }
+    },
+    {
+      "metric": "Maximum discharge pressure",
+      "unit": "bar",
+      "basis": "Howden Periflow Performance: 'Up to 350 bar'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 350
+    },
+    {
+      "metric": "Capacity flow",
+      "unit": "m3/hr",
+      "basis": "Howden Periflow: '10 to 20,000 m3/hr capacity flow'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "low": 10,
+      "high": 20000
+    },
+    {
+      "metric": "Variable speed range",
+      "unit": "rpm",
+      "basis": "Howden Periflow: 'Variable speed from 1000 to 6000 rpm'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "low": 1000,
+      "high": 6000
+    },
+    {
+      "metric": "Working principle",
+      "unit": "text",
+      "basis": "Howden: 'Periflow compressors use a profiled impeller wheel revolving in an annular channel to move the process gas in a swirling, helical pattern... Fully compliant with API, area protection requirements and site specifications'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      }
+    },
+    {
+      "metric": "System identification",
+      "unit": "text",
+      "basis": "SLB page lists 'PureMEG MEG Reclamation and Regeneration System' and 'Mechanical Vapor Recompression for PureMEG System' among processing solutions",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      }
+    },
+    {
+      "metric": "rated_power_up_to",
+      "unit": "BHP",
+      "basis": "The KBB and KBV, Ariel's largest compressor frames, are rated up to 10,000 BHP",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "rated_power_4_throw",
+      "unit": "BHP",
+      "basis": "Spec Sheet 4 Throw table: KBB/KBV Rated Power 6,668",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 6668
+    },
+    {
+      "metric": "rated_power_6_throw",
+      "unit": "BHP",
+      "basis": "Spec Sheet 6 Throw table: KBB/KBV Rated Power 10,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "stroke_KBB",
+      "unit": "in",
+      "basis": "Spec Sheet, Stroke (in) KBB 7.25 / KBV 8.50",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 7.25
+    },
+    {
+      "metric": "stroke_KBV",
+      "unit": "in",
+      "basis": "Spec Sheet, Stroke (in) KBV 8.50",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 8.5
+    },
+    {
+      "metric": "max_rpm_KBB",
+      "unit": "rpm",
+      "basis": "Spec Sheet, Max RPM KBB 900 / KBV 750",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 900
+    },
+    {
+      "metric": "max_rpm_KBV",
+      "unit": "rpm",
+      "basis": "Spec Sheet, Max RPM KBV 750",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 750
+    },
+    {
+      "metric": "piston_speed_KBB",
+      "unit": "not stated",
+      "basis": "Spec Sheet, Piston Speed 1,088 (KBB) / 1,063 (KBV), unit not printed",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 1088
+    },
+    {
+      "metric": "piston_speed_KBV",
+      "unit": "not stated",
+      "basis": "Spec Sheet, Piston Speed 1,063 (KBV), unit not printed",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 1063
+    },
+    {
+      "metric": "rod_diameter",
+      "unit": "in",
+      "basis": "Spec Sheet, Rod Diameter (in) 3.125",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 3.125
+    },
+    {
+      "metric": "total_rod_load",
+      "unit": "lbs",
+      "basis": "Spec Sheet, Total Rod Load (lbs) 190,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 190000
+    },
+    {
+      "metric": "tension_rod_load",
+      "unit": "lbs",
+      "basis": "Spec Sheet, Tension (lbs) 95,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 95000
+    },
+    {
+      "metric": "compression_rod_load",
+      "unit": "lbs",
+      "basis": "Spec Sheet, Compression (lbs) 100,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "average_weight_4_throw",
+      "unit": "lbs",
+      "basis": "Spec Sheet 4 Throw, Average Weight (lbs) 79,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 79000
+    },
+    {
+      "metric": "average_weight_6_throw",
+      "unit": "lbs",
+      "basis": "Spec Sheet 6 Throw, Average Weight (lbs) 115,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 115000
+    },
+    {
+      "metric": "max_length_4_throw",
+      "unit": "in",
+      "basis": "Spec Sheet 4 Throw, Max Length (in) 144",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 144
+    },
+    {
+      "metric": "max_length_6_throw",
+      "unit": "in",
+      "basis": "Spec Sheet 6 Throw, Max Length (in) 188",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 188
+    },
+    {
+      "metric": "nominal_width",
+      "unit": "in",
+      "basis": "Spec Sheet, Nominal Width (in) 228",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 228
+    },
+    {
+      "metric": "crankshaft_centerline",
+      "unit": "in",
+      "basis": "Spec Sheet, Crankshaft Centerline (in) 27",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 27
+    },
+    {
+      "metric": "crankcase_material",
+      "unit": "n/a",
+      "basis": "Materials section (printed verbatim)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": "Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, bronze thrust bearing, tri-metal main bearing"
+    },
+    {
+      "metric": "crosshead_material",
+      "unit": "n/a",
+      "basis": "Materials section (printed verbatim)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": "Ductile Iron Crosshead: Alloy steel crosshead pin"
+    },
+    {
+      "metric": "connecting_rod_material",
+      "unit": "n/a",
+      "basis": "Materials section (printed verbatim)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": "Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts"
+    },
+    {
+      "metric": "applications",
+      "unit": "n/a",
+      "basis": "Product description: recommended for pipeline transmission and high-pressure injection applications; N+1 station design",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": "pipeline transmission and high-pressure injection; N+1 station design with 100% compression capacity"
+    },
+    {
+      "metric": "destruction_efficiency",
+      "unit": "%",
+      "basis": "Low Emissions: This system has demonstrated the highest destruction efficiency (typically > 99.5%) of any flare type",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "low": 99.5
+    },
+    {
+      "metric": "smokeless_operation",
+      "unit": "n/a",
+      "basis": "Smokeless Performance: Design is capable of producing 100% smokeless operation at high flow rates",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "value": "100% smokeless operation at high flow rates"
+    },
+    {
+      "metric": "standard",
+      "unit": "n/a",
+      "basis": "Available API 537 Compliance: Ensures compliance with the latest Industry flare standards",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "value": "Available API 537 Compliance"
+    },
+    {
+      "metric": "technology",
+      "unit": "n/a",
+      "basis": "Smokeless Performance feature",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "value": "High pressure technology with staging allows smokeless operation for the full range of flows"
+    },
+    {
+      "metric": "installed_device_count",
+      "unit": "devices",
+      "basis": "HART is by far the largest digital communications technology deployed in the process industries with over 40 million field instruments supporting HART technology installed worldwide",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart"
+      },
+      "value": 40000000
+    },
+    {
+      "metric": "specification_documents",
+      "unit": "documents",
+      "basis": "The HART Protocol Specifications kit is a collection of 17 documents that specify the different aspects of the protocol and test procedures for field devices",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/hart"
+      },
+      "value": 17
+    },
+    {
+      "metric": "application_environment",
+      "unit": "n/a",
+      "basis": "Our connectors are designed and manufactured primarily for use in hostile environments... Suitable for deepwater and high-pressure, high-temperature wellhead, and downhole applications",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
+      },
+      "value": "hostile environments, both subsea and downhole; suitable for deepwater and high-pressure, high-temperature wellhead and downhole applications"
+    },
+    {
+      "metric": "sealing_system",
+      "unit": "n/a",
+      "basis": "Product feature bullet",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
+      },
+      "value": "Dual-barrier system provides best-in-class mechanical and electrical sealing"
+    },
+    {
+      "metric": "design_experience",
+      "unit": "years",
+      "basis": "Over 20 years, our highly skilled engineers have provided leading-edge design and development expertise",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
+      },
+      "value": 20
+    },
+    {
+      "metric": "characteristic",
+      "unit": "n/a",
+      "basis": "Page bullet: High-pressure resistant (no numeric ratings printed)",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "High-pressure resistant"
+    },
+    {
+      "metric": "Suction pressure",
+      "unit": "bar / psig",
+      "basis": "Suction Pressure: 370 psig (25 bar)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 25,
+      "low": 370
+    },
+    {
+      "metric": "Discharge pressure",
+      "unit": "bar / psig",
+      "basis": "Discharge Pressure: 7,250 psig (500 bar)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 500,
+      "low": 7250
+    },
+    {
+      "metric": "Flow at design point",
+      "unit": "kg/hr",
+      "basis": "Flow at design point: 250 kg/hr",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Number of stages",
+      "unit": "n/a",
+      "basis": "Number of Stages: 4",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Stroke",
+      "unit": "in",
+      "basis": "Stroke: 4.25 in (108 mm)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 4.25
+    },
+    {
+      "metric": "Stroke (metric)",
+      "unit": "mm",
+      "basis": "Stroke: 4.25 in (108 mm)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 108
+    },
+    {
+      "metric": "Max RPM",
+      "unit": "rpm",
+      "basis": "Max RPM: 1,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Lubrication",
+      "unit": "n/a",
+      "basis": "The compressor is designed to be non-lubricated to maintain high gas purity",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": "Non-lubricated Cylinders"
+    },
+    {
+      "metric": "Orientation",
+      "unit": "n/a",
+      "basis": "vertically oriented reciprocating compressor designed for the hydrogen mobility market",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": "Vertical Orientation"
+    },
+    {
+      "metric": "Discharge pressure (product sheet)",
+      "unit": "barg",
+      "basis": "7,250 psig (500 barg) for trailer filling, hydrogen mobility, and other ...",
+      "source": {
+        "url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/KBH_Product_Sheet_09.28.pdf.coredownload.pdf"
+      },
+      "value": 500
+    },
+    {
+      "metric": "System version",
+      "unit": "n/a",
+      "basis": "SIMATIC PCS 7 V10.0 boosts plant performance and security with NIS2-compliant cybersecurity",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "SIMATIC PCS 7 V10.0"
+    },
+    {
+      "metric": "Startup time improvement",
+      "unit": "%",
+      "basis": "MTP integration for up to 75% faster startup",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "high": 75
+    },
+    {
+      "metric": "Rated power, 1 throw JGN",
+      "unit": "BHP",
+      "basis": "Spec Sheet: 1 Throw JGN Rated Power 126",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 126
+    },
+    {
+      "metric": "Rated power, 1 throw JGQ",
+      "unit": "BHP",
+      "basis": "Spec Sheet: 1 Throw JGQ Rated Power 140",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 140
+    },
+    {
+      "metric": "Stroke, 1 throw JGN / JGQ",
+      "unit": "in",
+      "basis": "Stroke (in) 3.5 / 3.0 (1 throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "3.5 / 3.0"
+    },
+    {
+      "metric": "Max RPM, 1 throw JGN / JGQ",
+      "unit": "rpm",
+      "basis": "Max RPM 1,500 / 1,800 (1 throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "1,500 / 1,800"
+    },
+    {
+      "metric": "Piston speed, 1 throw",
+      "unit": "ft/min (printed as Piston Speed)",
+      "basis": "Piston Speed 875 / 900 (1 throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "875 / 900"
+    },
+    {
+      "metric": "Rod diameter, 1 throw",
+      "unit": "in",
+      "basis": "Rod Diameter (in) 1.125",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1.125
+    },
+    {
+      "metric": "Total rod load, 1 throw",
+      "unit": "lbs",
+      "basis": "Total Rod Load (lbs) 18,000 / 20,000 (JGN/JGQ)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "18,000 / 20,000"
+    },
+    {
+      "metric": "Tension load, 1 throw",
+      "unit": "lbs",
+      "basis": "Tension (lbs) 9,000 / 10,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "9,000 / 10,000"
+    },
+    {
+      "metric": "Compression load, 1 throw",
+      "unit": "lbs",
+      "basis": "Compression (lbs) 10,000 / 11,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "10,000 / 11,000"
+    },
+    {
+      "metric": "Average weight, 1 throw",
+      "unit": "lbs",
+      "basis": "Average Weight (lbs) 1,400",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1400
+    },
+    {
+      "metric": "Max length, 1 throw",
+      "unit": "in",
+      "basis": "Max Length (in) 37",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 37
+    },
+    {
+      "metric": "Nominal width, 1 throw",
+      "unit": "in",
+      "basis": "Nominal Width (in) 62",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 62
+    },
+    {
+      "metric": "Crankshaft centerline, 1 throw",
+      "unit": "in",
+      "basis": "Crankshaft Centerline (in) 9.25",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 9.25
+    },
+    {
+      "metric": "Rated power, 2 throw JGN / JGQ",
+      "unit": "BHP",
+      "basis": "Spec Sheet: 2 Throw Rated Power 252 / 280",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "252 / 280"
+    },
+    {
+      "metric": "Stroke, 2 throw JGN / JGQ",
+      "unit": "in",
+      "basis": "Stroke (in) 3.5 / 3.0 (2 throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "3.5 / 3.0"
+    },
+    {
+      "metric": "Max RPM, 2 throw JGN / JGQ",
+      "unit": "rpm",
+      "basis": "Max RPM 1,500 / 1,800 (2 throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "1,500 / 1,800"
+    },
+    {
+      "metric": "Total rod load, 2 throw",
+      "unit": "lbs",
+      "basis": "Total Rod Load (lbs) 18,000 / 20,000 (2 throw)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "18,000 / 20,000"
+    },
+    {
+      "metric": "Average weight, 2 throw",
+      "unit": "lbs",
+      "basis": "Average Weight (lbs) 2,200",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 2200
+    },
+    {
+      "metric": "Max length, 2 throw",
+      "unit": "in",
+      "basis": "Max Length (in) 34",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 34
+    },
+    {
+      "metric": "Nominal width, 2 throw",
+      "unit": "in",
+      "basis": "Nominal Width (in) 83",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 83
+    },
+    {
+      "metric": "Frame horsepower range",
+      "unit": "BHP",
+      "basis": "The rugged characteristics in these two frames (250-280 BHP)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "low": 250,
+      "high": 280
+    },
+    {
+      "metric": "Materials - crankcase",
+      "unit": "n/a",
+      "basis": "Materials: Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Gray Iron; forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing"
+    },
+    {
+      "metric": "Materials - crosshead",
+      "unit": "n/a",
+      "basis": "Materials: Ductile Iron Crosshead: Alloy steel crosshead pin",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Ductile Iron; alloy steel crosshead pin"
+    },
+    {
+      "metric": "Materials - connecting rod",
+      "unit": "n/a",
+      "basis": "Materials: Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Forged Steel; bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts"
+    },
+    {
+      "metric": "Overall flow envelope",
+      "unit": "n/a",
+      "basis": "Howden offers a comprehensive range of Industrial Centrifugal Turbo Compressors up to 600,000 m3/h",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 600,000 m3/h"
+    },
+    {
+      "metric": "Experience",
+      "unit": "n/a",
+      "basis": "Customizable Centrifugal Turbo Compressors proven over 100 years and 4000 installations",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "over 100 years and 4000 installations"
+    },
+    {
+      "metric": "SF model flow",
+      "unit": "m3/h",
+      "basis": "Single stage table: SF Flow 15,000-600,000",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 15000,
+      "high": 600000
+    },
+    {
+      "metric": "SF pressure ratio",
+      "unit": "n/a",
+      "basis": "SF Pressure Ratio up to 3.5",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 3.5"
+    },
+    {
+      "metric": "SF impeller diameter",
+      "unit": "mm",
+      "basis": "SF Impeller Dia. (mm) up to 2240",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 2240"
+    },
+    {
+      "metric": "SFG model flow",
+      "unit": "m3/h",
+      "basis": "SFG Flow 5,000-300,000",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 5000,
+      "high": 300000
+    },
+    {
+      "metric": "SFG pressure ratio",
+      "unit": "n/a",
+      "basis": "SFG Pressure Ratio up to 3.5",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 3.5"
+    },
+    {
+      "metric": "SFG impeller diameter",
+      "unit": "mm",
+      "basis": "SFG Impeller Dia. up to 1120",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 1120"
+    },
+    {
+      "metric": "ST model flow",
+      "unit": "m3/h",
+      "basis": "ST Flow 1,500-150,000",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 1500,
+      "high": 150000
+    },
+    {
+      "metric": "ST pressure ratio",
+      "unit": "n/a",
+      "basis": "ST Pressure Ratio up to 3.5",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 3.5"
+    },
+    {
+      "metric": "ST impeller diameter",
+      "unit": "mm",
+      "basis": "ST Impeller Dia. up to 900",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 900"
+    },
+    {
+      "metric": "ST drive",
+      "unit": "n/a",
+      "basis": "ST Drive: Steam turbine (integrated)",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "Steam turbine (integrated)"
+    },
+    {
+      "metric": "SL model flow",
+      "unit": "m3/h",
+      "basis": "SL Flow 15,000-450,000",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 15000,
+      "high": 450000
+    },
+    {
+      "metric": "SL pressure ratio",
+      "unit": "n/a",
+      "basis": "SL Pressure Ratio up to 1.45",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 1.45"
+    },
+    {
+      "metric": "SL impeller diameter",
+      "unit": "mm",
+      "basis": "SL Impeller Dia. up to 1800",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 1800"
+    },
+    {
+      "metric": "SFG Back-to-Back flow",
+      "unit": "m3/h",
+      "basis": "SFG Back-to-Back Flow 3,000-75,000",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 3000,
+      "high": 75000
+    },
+    {
+      "metric": "SFG Back-to-Back pressure ratio",
+      "unit": "n/a",
+      "basis": "SFG Back-to-Back Pressure Ratio up to 6.0",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 6.0"
+    },
+    {
+      "metric": "SFG Twin flow",
+      "unit": "m3/h",
+      "basis": "SFG Twin Flow 3,000-200,000",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 3000,
+      "high": 200000
+    },
+    {
+      "metric": "SFG Twin pressure ratio",
+      "unit": "n/a",
+      "basis": "SFG Twin Pressure Ratio up to 6.0",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 6.0"
+    },
+    {
+      "metric": "RS flow",
+      "unit": "m3/h",
+      "basis": "RS Flow 400-65,000",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 400,
+      "high": 65000
+    },
+    {
+      "metric": "RS pressure ratio",
+      "unit": "n/a",
+      "basis": "RS Pressure Ratio up to 10.0",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 10.0"
+    },
+    {
+      "metric": "RV flow",
+      "unit": "m3/h",
+      "basis": "RV Flow 400-85,000 / 400-170,000 (back-to-back)",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "400-85,000; 400-170,000 (back-to-back)"
+    },
+    {
+      "metric": "RV pressure ratio",
+      "unit": "n/a",
+      "basis": "RV Pressure Ratio up to 10.0",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 10.0"
+    },
+    {
+      "metric": "RV impeller diameter",
+      "unit": "mm",
+      "basis": "RV Impeller Dia. up to 780",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 780"
+    },
+    {
+      "metric": "KK&K pressure rise",
+      "unit": "n/a",
+      "basis": "Available as single stage and multistage the compressors can serve high flow requirements up to 600,000 m3/h and pressure rise of up to 3.5 within a single stage or 6 for multistage",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 3.5 single stage; 6 multistage; flows up to 600,000 m3/h"
+    },
+    {
+      "metric": "CKD flow and discharge",
+      "unit": "n/a",
+      "basis": "the compressors can serve flow requirements up to 1700,000 m3/h and discharge pressures of up to 20 MPa",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 1,700,000 m3/h; discharge pressures up to 20 MPa"
+    },
+    {
+      "metric": "SFO/SFP/SFN pressure",
+      "unit": "n/a",
+      "basis": "Single and multi-stage turbo compressors ... with pressures up to 50 bar and flow rates up to 200,000 m3/hr",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": "up to 50 bar; flow rates up to 200,000 m3/hr"
+    },
+    {
+      "metric": "Models",
+      "unit": "n/a",
+      "basis": "Howden's TFC90 and TFC180 are standardized diaphragm compressor packages specifically designed for hydrogen applications",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "TFC90 and TFC180"
+    },
+    {
+      "metric": "Electrolyzer module compatibility",
+      "unit": "n/a",
+      "basis": "Designed for 5 MW and 10 MW electrolyzer modules",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "5 MW and 10 MW"
+    },
+    {
+      "metric": "Package configuration",
+      "unit": "n/a",
+      "basis": "These skid-mounted compressors include all process equipment, piping and auxiliary systems in a single package",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "skid-mounted; all process equipment, piping and auxiliary systems in a single package"
+    },
+    {
+      "metric": "Gas purity",
+      "unit": "n/a",
+      "basis": "Key Features: Absolute cleanliness of compressed hydrogen",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Absolute cleanliness of compressed hydrogen"
+    },
+    {
+      "metric": "Leakage",
+      "unit": "n/a",
+      "basis": "Zero leakage of process gas to the environment",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Zero leakage of process gas to the environment"
+    },
+    {
+      "metric": "Reliability",
+      "unit": "n/a",
+      "basis": "Proven performance and guaranteed high reliability",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Proven performance and guaranteed high reliability"
+    },
+    {
+      "metric": "Diaphragm compressor invention",
+      "unit": "year",
+      "basis": "The Howden diaphragm compressor was invented in 1916 by Henri Corblin",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 1916
+    },
+    {
+      "metric": "Hybrid compressor stages",
+      "unit": "n/a",
+      "basis": "available in horizontal or vertical configurations of up to five compression stages, offering pressures increases of to 450 bar",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "up to five compression stages; pressure increases up to 450 bar"
+    },
+    {
+      "metric": "Reciprocating compressor rating",
+      "unit": "n/a",
+      "basis": "Reciprocating gas compressors rated to 20MW and operating between 260 and 1,000 rpm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "rated to 20 MW and operating between 260 and 1,000 rpm"
+    },
+    {
+      "metric": "Hydrogen Holland project compressor",
+      "unit": "n/a",
+      "basis": "5-stage piston reciprocating compressors; Drive: 4250 kW induction motors; Flow: 21.000 Nm3/hr of wet hydrogen at 1.2 bara; Final pressure 55 bara",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "5-stage piston reciprocating, 4250 kW induction motors, 21,000 Nm3/hr wet H2 at 1.2 bara, final pressure 55 bara"
+    },
+    {
+      "metric": "Installation cost saving",
+      "unit": "% lower than wired instruments",
+      "basis": "WirelessHART offers 30%-60% lower installation costs than adding traditional wired instruments",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "low": 30,
+      "high": 60
+    },
+    {
+      "metric": "Network topology",
+      "unit": "n/a",
+      "basis": "WirelessHART using mesh networking technology. Each device in a mesh network can serve as a router for messages from other devices",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": "mesh networking; each device can serve as a router"
+    },
+    {
+      "metric": "Network elements",
+      "unit": "n/a",
+      "basis": "Each WirelessHART network includes three main elements",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": "Wireless field devices, gateways, Network Manager"
+    },
+    {
+      "metric": "Network Manager functions",
+      "unit": "n/a",
+      "basis": "A Network Manager is responsible for configuring the network, scheduling communications between devices, managing message routes, and monitoring network health",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": "configures network, schedules communications, manages message routes, monitors network health"
+    },
+    {
+      "metric": "Messaging modes",
+      "unit": "n/a",
+      "basis": "the WirelessHART standard supports multiple messaging modes including one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": "one-way publishing, spontaneous exception notification, ad-hoc request/response, auto-segmented block transfers"
+    },
+    {
+      "metric": "Security",
+      "unit": "n/a",
+      "basis": "WirelessHART employs robust security measures to protect the network and secure data at all times",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": "robust security measures; latest security techniques"
+    },
+    {
+      "metric": "Compatibility",
+      "unit": "n/a",
+      "basis": "It adds wireless capabilities to HART technology while maintaining compatibility with existing HART devices, commands, and tools",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": "adds wireless to HART while maintaining compatibility with existing HART devices, commands, and tools"
+    },
+    {
+      "metric": "Registration",
+      "unit": "n/a",
+      "basis": "Products that carry the registration mark(s) have been tested in our lab to ensure conformance to the standards",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": "FieldComm Group Product Registry tests conformance to standards for interoperability and functionality"
+    },
+    {
+      "metric": "Product names",
+      "unit": "n/a",
+      "basis": "Technology list printed under produced water / solids management on the Processing and Separation page",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "WEMCO PACESETTER Separator; WEMCO SILVER BAND Separator; MOZLEY Desanding Hydrocyclone Separator"
+    },
+    {
+      "metric": "Related WEMCO equipment",
+      "unit": "n/a",
+      "basis": "Produced water treatment technology list",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "WEMCO DEPURATOR Unit; WEMCO ISF Hydraulically Induced Gas Flotation System"
+    },
+    {
+      "metric": "Related MOZLEY equipment",
+      "unit": "n/a",
+      "basis": "Solids Management technology list",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "MOZLEY FLUIDIZER Settled Solids Remover; MOZLEY Wellhead Desander Solids Removal System"
+    },
+    {
+      "metric": "Process positioning",
+      "unit": "n/a",
+      "basis": "Plan for the future with technologies that separate and treat oil, water, and gas using minimal chemicals and energy",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "separate and treat oil, water, and gas using minimal chemicals and energy"
+    },
+    {
+      "metric": "Product type",
+      "unit": "n/a",
+      "basis": "The IPB allows for high-level flow assurance of hydrocarbon fluids in difficult conditions from well heads to surface treatment units. The IPB is a flexible production riser",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "proprietary flexible production riser"
+    },
+    {
+      "metric": "Features",
+      "unit": "n/a",
+      "basis": "features thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, fluid temperature monitoring with optical fibers"
+    },
+    {
+      "metric": "Flexible pipe construction",
+      "unit": "n/a",
+      "basis": "The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires. The helically wound steel wires give the structure its high-pressure resistance",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "leakproof thermoplastic barriers and corrosion-resistant steel wires, helically wound"
+    },
+    {
+      "metric": "Performance",
+      "unit": "n/a",
+      "basis": "providing flexibility and superior dynamic performance",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "high-pressure resistance, excellent bending characteristics, flexibility, superior dynamic performance"
+    },
+    {
+      "metric": "Retrievability",
+      "unit": "n/a",
+      "basis": "flexible pipe can be easily retrieved to be reused on another field development or for decommissioning",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "can be easily retrieved to be reused on another field development or for decommissioning"
+    },
+    {
+      "metric": "Related riser",
+      "unit": "n/a",
+      "basis": "Freestanding Hybrid Riser section",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "Freestanding Hybrid Riser (FSHR): vertical steel pipe tensioned by near-surface buoyancy can, flexible jumper, rigid base jumper"
     }
   ],
   "vendors": [
@@ -209,5 +1969,5 @@
     "Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure an"
   ],
   "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

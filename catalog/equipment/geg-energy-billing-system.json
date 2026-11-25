@@ -123,6 +123,247 @@
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
       }
+    },
+    {
+      "metric": "Nominal frequency",
+      "unit": "Hz",
+      "basis": "'AC alternating current (nominally 50 Hz)' in glossary",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "CDGU threshold synchronous",
+      "unit": "MW",
+      "basis": "'generating unit equal to or greater than 30MW if it is a synchronous unit'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 30
+    },
+    {
+      "metric": "CDGU threshold power park",
+      "unit": "MW",
+      "basis": "'total on-site generation capacity equal to or greater than 5 MW'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Distribution network voltage ceiling",
+      "unit": "kV",
+      "basis": "'Distribution Network The system operating at a nominal phase voltage of 33 kV or below'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 33
+    },
+    {
+      "metric": "Time basis",
+      "unit": "hours offset",
+      "basis": "'Malaysian Standard Time (UTC/GMT + 8 hours)'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 8
+    },
+    {
+      "metric": "Grid Code document sections",
+      "unit": "n/a",
+      "basis": "'General Conditions; Planning Code; Connection Conditions; Operating Codes Nos. 1 to 11; Scheduling and Dispatch Codes Nos. 1 to 3; Metering Code'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Metering Code appendix",
+      "unit": "n/a",
+      "basis": "'Metering Code Appendix 1 – Type and Accuracy of Revenue Metering Installations'; 'Metering Code Appendix 2 - Commissioning, Inspection, Calibration and Testing Requirements'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Single Buyer function",
+      "unit": "n/a",
+      "basis": "'The Single Buyer is a department in SESB that is responsible for overseeing the commercial arrangements entered into with the IPPs'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Grid System Operator function",
+      "unit": "n/a",
+      "basis": "'GSO is the person inSESB responsible for the overall coordination of the operation, maintenance and control of the interconnected Grid System'",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Document page count",
+      "unit": "pages",
+      "basis": "PDF metadata: Number of Pages 224",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 224
+    },
+    {
+      "metric": "Accuracy classes",
+      "unit": "text",
+      "basis": "Landis+Gyr E660 Variations: 'Accuracy classes C, B (MID) or 0.2s, 0.5s, 1 (IEC) (for active energy)'",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
+      }
+    },
+    {
+      "metric": "Power quality standards",
+      "unit": "text",
+      "basis": "'Continuous power quality measurement integrated (EN50160, IEC61000-4-30 Cl. S)'; 'Power quality according EN50160 and IEC 61000-4-30 Cl. S or according IDIS'",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
+      }
+    },
+    {
+      "metric": "Safety standard",
+      "unit": "text",
+      "basis": "'The E660 supports new safety standards in full (IEC62052-31)'; 'Fulfils IEC62052-31 safety standard'",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
+      }
+    },
+    {
+      "metric": "Communication module E66C",
+      "unit": "text",
+      "basis": "'The communication module E66C supports state of the art IP-communication LTE CAT-M1 and Ethernet'",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
+      }
+    },
+    {
+      "metric": "Security",
+      "unit": "text",
+      "basis": "'High Level DLMS security with encryption and authentication, role based access (RBAC), TLS'; 'DLMS security suite 0 as default, upgrade path to suite 1 and 2 and TLS'",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
+      }
+    },
+    {
+      "metric": "Overvoltage category",
+      "unit": "text",
+      "basis": "'For use in overvoltage category III or IV environment'",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
+      }
+    },
+    {
+      "metric": "Energy measurement",
+      "unit": "text",
+      "basis": "'Active, reactive and apparent energy (4-quadrant)'; 'Transformer connection (CT; CT/VT)'",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
+      }
+    },
+    {
+      "metric": "Expansion module",
+      "unit": "text",
+      "basis": "'The expansion module E66E with digital inputs and outputs and electro-mechanical relay'",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
+      }
+    },
+    {
+      "metric": "accuracy_class_active",
+      "unit": "class",
+      "basis": "Accuracy class 0.2S / 0.5S for active energy and 0.5S / 1 for reactive energy",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": "0.2S / 0.5S"
+    },
+    {
+      "metric": "accuracy_class_reactive",
+      "unit": "class",
+      "basis": "Accuracy class 0.5S / 1 for reactive energy",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": "0.5S / 1"
+    },
+    {
+      "metric": "frequency",
+      "unit": "n/a",
+      "basis": "Product page feature list: 50/60Hz and 16 2/3 Hz (for railway infrastructure)",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": "50/60 Hz and 16 2/3 Hz (for railway infrastructure)"
+    },
+    {
+      "metric": "display",
+      "unit": "digits",
+      "basis": "8-digit liquid crystal display (LCD) for local reading of data",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": 8
+    },
+    {
+      "metric": "communication_interfaces",
+      "unit": "n/a",
+      "basis": "Exchangeable communication modules (RS 232 / RS 485 / Ethernet / GSM / GRPS / UMTS (3G)); integrated optical interface and RS485 with DLMS",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": "RS 232 / RS 485 / Ethernet / GSM / GRPS / UMTS (3G)"
+    },
+    {
+      "metric": "transmitting_contacts",
+      "unit": "contacts",
+      "basis": "Up to 8 transmitting contacts (for energy flow, load supervision (Pmax, Qmax), capture period)",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "high": 8
+    },
+    {
+      "metric": "measurement_quadrants",
+      "unit": "quadrants",
+      "basis": "4-quadrant measurement (+P -P, +Q -Q, Q1..Q4)",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": 4
+    },
+    {
+      "metric": "capture_period",
+      "unit": "minutes",
+      "basis": "Accurately records short capture periods (as low as 1-5 minutes)",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "low": 1,
+      "high": 5
+    },
+    {
+      "metric": "low_load_accuracy",
+      "unit": "%",
+      "basis": "Maintains accuracy even at very low loads (2%) and under unbalanced or low power factor (cos phi < 1) conditions",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": 2
+    },
+    {
+      "metric": "versions",
+      "unit": "n/a",
+      "basis": "The E850 grid meter is available in two main versions",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": "E850 f6 wall mounted; E850 f9 rack mounted"
     }
   ],
   "vendor_models": [
@@ -211,5 +452,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

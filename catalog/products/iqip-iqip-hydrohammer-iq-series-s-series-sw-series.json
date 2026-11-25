@@ -37,14 +37,127 @@
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
       "value": "up to 2,000"
+    },
+    {
+      "metric": "IQ2 blow energy",
+      "unit": "kJ",
+      "basis": "IQ-series leaflet: blow energy kJ 3600 (IQ2)",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf",
+        "source_id": "catpar-26117396-fs1-hubspotusercontent-eu1-net-iq-s-5d219be"
+      },
+      "value": 3600
+    },
+    {
+      "metric": "IQ4 blow energy",
+      "unit": "kJ",
+      "basis": "IQ-series leaflet: blow energy kJ 4800 (IQ4)",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "value": 4800
+    },
+    {
+      "metric": "IQ6 blow energy",
+      "unit": "kJ",
+      "basis": "The IQ6 was until recently the world's most powerful impact hammer with a maximum blow energy of 6,600 kJ.",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "value": 6600
+    },
+    {
+      "metric": "IQ8 blow energy",
+      "unit": "kJ",
+      "basis": "The IQ8 has now claimed the title of the world's most powerful hammer — delivering a blow energy exceeding 7,500 kJ.",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "low": 7500
+    },
+    {
+      "metric": "IQ-series models",
+      "unit": "n/a",
+      "basis": "The IQ-series comes in 4 models: the IQ2, IQ4, IQ6 and IQ8.",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "value": "IQ2, IQ4, IQ6, IQ8"
+    },
+    {
+      "metric": "Continuous operation",
+      "unit": "n/a",
+      "basis": "The IQ-series can be used continuously with a 100% capacity.",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "value": "100% energy capacity"
+    },
+    {
+      "metric": "Power boost",
+      "unit": "%",
+      "basis": "Unleash up to 120% power for challenging conditions.",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": 120
+    },
+    {
+      "metric": "Operating angle",
+      "unit": "deg",
+      "basis": "Full energy output in nearly all positions (0–90 degrees)",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "low": 0,
+      "high": 90
+    },
+    {
+      "metric": "Sleeve size",
+      "unit": "m",
+      "basis": "Sleeves available up to 9.3 m for the largest monopiles.",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "high": 9.3
+    },
+    {
+      "metric": "SW-series water depth",
+      "unit": "m",
+      "basis": "Deep-water capability: engineered for depths of up to 2000 meters",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "high": 2000
+    },
+    {
+      "metric": "Installed piles",
+      "unit": "n/a",
+      "basis": "INSTALLED OVER 5,5 Million piles globally",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": "5,5 Million piles globally"
+    },
+    {
+      "metric": "Industry experience",
+      "unit": "years",
+      "basis": "INDUSTRY EXPERIENCE 40+ Years",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": 40
     }
   ],
   "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
   "sources": [
     {
       "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+    },
+    {
+      "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     }
   ],
-  "notes": ">5.5 million piles installed; >97% availability stated.",
-  "last_reviewed": "2026-11-24"
+  "notes": ">5.5 million piles installed; >97% availability stated. Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

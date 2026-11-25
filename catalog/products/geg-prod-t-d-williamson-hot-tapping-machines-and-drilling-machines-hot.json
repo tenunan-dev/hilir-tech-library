@@ -55,6 +55,44 @@
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
         "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
       }
+    },
+    {
+      "metric": "pipeline_diameter_ranges",
+      "unit": "in",
+      "basis": "Hot tapping machines page printed diameter range options",
+      "source": {
+        "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
+      },
+      "value": "1/2\"-4\"; 4\"-12\"; 12\"-20\"; 20\"-60\"; 60\"+"
+    },
+    {
+      "metric": "special_diameters",
+      "unit": "in",
+      "basis": "Page printed size list (18 inch through 150 inch)",
+      "source": {
+        "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
+      },
+      "value": "18\"; 28\"; 36\"; 42\"; 66\"; 108\"; 130\"; 150\""
+    },
+    {
+      "metric": "pressure_ratings",
+      "unit": "ANSI class",
+      "basis": "Page printed pressure class list 150, 300, 600, 900, 1500, 2500 (unit label not printed on page)",
+      "source": {
+        "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
+      },
+      "value": "150; 300; 600; 900; 1500; 2500",
+      "low": 150,
+      "high": 2500
+    },
+    {
+      "metric": "application",
+      "unit": "n/a",
+      "basis": "Product page description",
+      "source": {
+        "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
+      },
+      "value": "Used to make a new connection into a live pipeline, wide array of pipeline diameters, pressures and compositions in any environment"
     }
   ],
   "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
@@ -64,6 +102,6 @@
       "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 4 new printed parameters."
 }

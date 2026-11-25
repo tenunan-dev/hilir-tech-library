@@ -47,6 +47,55 @@
         "source_id": "cat-oceaneering-com"
       },
       "value": "Umbilical I- and J-Tube Seals; Pull-In and Hang Off Systems; Subsea Umbilical Termination Interfaces; Tie Back or Tie Down Collars; Subsea Umbilical Weak Links"
+    },
+    {
+      "metric": "Umbilical product types",
+      "unit": "families",
+      "basis": "Steel Tube Umbilicals, Thermoplastic Hose Umbilicals, Power Umbilicals, IWOCS Umbilicals listed",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Steel tube umbilical function",
+      "unit": "n/a",
+      "basis": "\"Inherently strong solutions for hydraulic control and chemical injection\"",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      }
+    },
+    {
+      "metric": "Power umbilical function",
+      "unit": "n/a",
+      "basis": "\"Integrated solutions providing electric power and communications to subsea infrastructure\"",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      }
+    },
+    {
+      "metric": "IWOCS umbilical function",
+      "unit": "n/a",
+      "basis": "\"Providing temporary hydraulic connections, electrical power/control, and chemical supply\"",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      }
+    },
+    {
+      "metric": "M Series junction plates",
+      "unit": "n/a",
+      "basis": "\"fixed, configurable, and removable assemblies ... support chemical injection by preventing well blockage, supply hydraulic power to open and close subsea mounted valves, and facilitate well annulus pressure monitoring\"; \"patented, and pre-threaded latch mating system\"",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      }
+    },
+    {
+      "metric": "Hydraulic flying leads",
+      "unit": "n/a",
+      "basis": "\"Modular designs for hydraulic, electro-hydraulic, and hybrid applications; Bundled or extruded conduit sections; ROV-friendly\"",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      }
     }
   ],
   "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
@@ -55,6 +104,13 @@
       "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     }
   ],
-  "notes": "HTML index page read; each item links to a separate PDF datasheet (not WebFetch-readable). The page's 'more than 0 km' counter is a rendering artifact and is not reported as a figure.",
-  "last_reviewed": "2026-11-24"
+  "notes": "HTML index page read; each item links to a separate PDF datasheet (not WebFetch-readable). The page's 'more than 0 km' counter is a rendering artifact and is not reported as a figure. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Umbilical diameters, water depth ratings, tube counts and electrical ratings",
+      "why": "Product overview page publishes no numeric ratings; the km counter rendered as 0 and is not evidence",
+      "next_action": "Fetch the linked product PDFs for dimensional and pressure ratings"
+    }
+  ]
 }

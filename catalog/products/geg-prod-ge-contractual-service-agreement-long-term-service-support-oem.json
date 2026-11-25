@@ -18,6 +18,50 @@
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
         "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
       }
+    },
+    {
+      "metric": "CSA service term (Kimanis Power)",
+      "unit": "years",
+      "basis": "GE press release 14 June 2011: 'GE has signed a contractual service agreement (CSA) with Kimanis Power Sdn Bhd to support the plant for 18 years.'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": 18
+    },
+    {
+      "metric": "Plant capacity",
+      "unit": "MW",
+      "basis": "GE: 'the 300-megawatt combined cycle gas-fired power plant project in Sabah, Malaysia'; 'three combined-cycle blocks of approximately 100 megawatts each'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Equipment supplied",
+      "unit": "Frame 6FA gas turbines",
+      "basis": "GE: 'will supply three Frame 6FA gas turbines, associated generators and services'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": 3
+    },
+    {
+      "metric": "GE long-term service agreements installed base",
+      "unit": "sites (more than)",
+      "basis": "GE: 'To date, GE has long-term service agreements in place at more than 700 sites worldwide.'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": 700
+    },
+    {
+      "metric": "6FA fleet experience",
+      "unit": "text",
+      "basis": "GE: 'More than 100 units have been installed worldwide and have completed more than three million hours of service'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      }
     }
   ],
   "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
@@ -27,6 +71,6 @@
       "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 5 new printed parameters."
 }

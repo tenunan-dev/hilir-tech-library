@@ -110,6 +110,99 @@
         "source_id": "cat-composite-hose-com-lng"
       },
       "value": "1.5 x rated working pressure"
+    },
+    {
+      "metric": "Compliance",
+      "unit": "n/a",
+      "basis": "Cryogenic hoses are manufactured in accordance to EN 13766 / 2018 Class A Type 2 and Class B type 2",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng"
+      },
+      "value": "EN 13766 / 2018 Class A Type 2 and Class B type 2"
+    },
+    {
+      "metric": "Class A Type 2 working pressure",
+      "unit": "bar / PSI",
+      "basis": "Working Pressure: Class A Type 2 – 13 Bar (185 PSI)",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng"
+      },
+      "value": 13,
+      "low": 185
+    },
+    {
+      "metric": "Class B Type 2 working pressure",
+      "unit": "bar / PSI",
+      "basis": "Class B Type 2 – 10.5 Bar (149 PSI)",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng"
+      },
+      "value": 10.5,
+      "low": 149
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degC",
+      "basis": "Temperature Range for this hose is -196° C to +50° C",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng"
+      },
+      "low": -196,
+      "high": 50
+    },
+    {
+      "metric": "Vacuum rating",
+      "unit": "Bar Vacuum",
+      "basis": "Suitable for 0.9 Bar Vacuum rating.",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng"
+      },
+      "value": 0.9
+    },
+    {
+      "metric": "Safety factor",
+      "unit": "n/a",
+      "basis": "Safety factor 4:1 as per EN 13766 / 2018 (can be achieved higher if required)",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng"
+      },
+      "value": "4:1"
+    },
+    {
+      "metric": "Proof test",
+      "unit": "n/a",
+      "basis": "Reliability - Tested to industry standards 1.5 times the rated working pressure.",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng"
+      },
+      "value": "1.5 times the rated working pressure"
+    },
+    {
+      "metric": "Inner wire",
+      "unit": "n/a",
+      "basis": "Inner wire - Stainless steel 316/ 304",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng"
+      },
+      "value": "Stainless steel 316/304"
+    },
+    {
+      "metric": "Outer wire",
+      "unit": "n/a",
+      "basis": "Outer wire Stainless steel 316/ 304",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng"
+      },
+      "value": "Stainless steel 316/ 304"
+    },
+    {
+      "metric": "Service",
+      "unit": "n/a",
+      "basis": "facilitate the secure and efficient conveyance of cryogenic fluids, including substances like liquefied natural gas (LNG) and liquid nitrogen",
+      "source": {
+        "url": "https://composite-hose.com/cryogenic/lng"
+      },
+      "value": "LNG and liquid nitrogen transfer; refrigerated transport; industrial gas plants"
     }
   ],
   "url": "https://composite-hose.com/cryogenic/lng",
@@ -118,6 +211,6 @@
       "url": "https://composite-hose.com/cryogenic/lng"
     }
   ],
-  "notes": "APAC supplier. Construction: 316/304 SS inner and outer wires, polyamide fabric/polyester barrier linings, polyamide fabric cover.",
-  "last_reviewed": "2026-11-24"
+  "notes": "APAC supplier. Construction: 316/304 SS inner and outer wires, polyamide fabric/polyester barrier linings, polyamide fabric cover. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

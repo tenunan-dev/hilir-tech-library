@@ -27,6 +27,61 @@
         "source_id": "flyability-com-blog-offshore-drone-inspections"
       },
       "value": "100+"
+    },
+    {
+      "metric": "Elios 3 UT - inspection time (drone)",
+      "unit": "hours (vs 3 to 7 days manual)",
+      "basis": "Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections"
+      },
+      "low": 2,
+      "high": 4
+    },
+    {
+      "metric": "Elios 3 - offshore downtime reduction",
+      "unit": "% (up to)",
+      "basis": "Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Elios 3 - data delivered",
+      "unit": "n/a",
+      "basis": "Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections"
+      },
+      "value": "4K visuals, localized UTMs and 3D model"
+    },
+    {
+      "metric": "Elios 3 - BP confined-space hours saved",
+      "unit": "hours of confined space work saved since 2023 (BP case study)",
+      "basis": "Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections"
+      },
+      "value": 1700
+    },
+    {
+      "metric": "Elios 3 - TotalEnergies cost reduction",
+      "unit": "% vs traditional human inspections (FPSO hull digitalization case study)",
+      "basis": "Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections"
+      },
+      "value": 45
+    },
+    {
+      "metric": "Elios 3 - SAIPEM inspection speed-up",
+      "unit": "n/a",
+      "basis": "Flyability '2026 Guide to Offshore Drone Inspections' blog (published 2026-08-06), comparison table and case-study figures; Elios 3 UT product links",
+      "source": {
+        "url": "https://www.flyability.com/blog/offshore-drone-inspections"
+      },
+      "value": "80-90% faster, class-approved COT and WBT inspections"
     }
   ],
   "url": "https://www.flyability.com/blog/offshore-drone-inspections",
@@ -35,6 +90,13 @@
       "url": "https://www.flyability.com/blog/offshore-drone-inspections"
     }
   ],
-  "notes": "Used by Shell, BP, TotalEnergies, Saipem and other operators per cited case studies.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Used by Shell, BP, TotalEnergies, Saipem and other operators per cited case studies. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Elios 3 UT hardware specifications",
+      "why": "The assigned URL is a blog article; no formal hardware spec table (weight, dimensions, IP rating, flight time, UT payload specs) is printed",
+      "next_action": "Fetch the dedicated Elios 3 UT payload/product datasheet for hardware parameters"
+    }
+  ]
 }

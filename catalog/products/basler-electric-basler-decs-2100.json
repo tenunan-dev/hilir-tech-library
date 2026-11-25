@@ -27,6 +27,31 @@
         "source_id": "basler-com-product-decs-2100-digital-excitation-control-system"
       },
       "value": "Power System Stabilizer"
+    },
+    {
+      "metric": "Maximum excitation current",
+      "unit": "Adc",
+      "basis": "Basler DECS-2100 page: 'wide range of applications that require excitation currents up to 10,000 Adc.'",
+      "source": {
+        "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Redundancy / supervisory channel",
+      "unit": "text",
+      "basis": "'Optional supervisory channel increases system security by avoiding inadvertent tripping with two-out-of-three controller comparison technique.'",
+      "source": {
+        "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
+      }
+    },
+    {
+      "metric": "Power system stabilizer method",
+      "unit": "text",
+      "basis": "'integrated Power System Stabilizer (optional) that utilizes the \"integral of accelerating power\" to safely dampen local mode, inter-area and inter-unit power oscillations.'",
+      "source": {
+        "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
+      }
     }
   ],
   "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system",
@@ -35,6 +60,13 @@
       "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
     }
   ],
-  "notes": "Synchronous generator/motor excitation, protection and monitoring",
-  "last_reviewed": "2026-11-24"
+  "notes": "Synchronous generator/motor excitation, protection and monitoring Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Electrical input/output ratings, supply voltage, burden, operating temperature and enclosure details",
+      "why": "Product overview page lists features only; detailed specs are in manuals not read",
+      "next_action": "Fetch DECS-2100 datasheet/manual from Basler resource hub"
+    }
+  ]
 }

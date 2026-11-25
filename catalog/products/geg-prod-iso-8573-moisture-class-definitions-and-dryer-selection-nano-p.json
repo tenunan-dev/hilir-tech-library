@@ -107,6 +107,87 @@
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
       }
+    },
+    {
+      "metric": "ISO 8573 moisture Class 1 - dew point",
+      "unit": "degF (or less; <= -100 degF)",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": -100
+    },
+    {
+      "metric": "ISO 8573 moisture Class 2 - dew point",
+      "unit": "degF (or less; <= -40 degF)",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": -40
+    },
+    {
+      "metric": "ISO 8573 moisture Class 3 - dew point",
+      "unit": "degF (or less; <= 14 degF)",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": 14
+    },
+    {
+      "metric": "Refrigerated dryer typical achievable class",
+      "unit": "n/a",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": "Class 4 or 5 (dew point ~37 to 45 degF)"
+    },
+    {
+      "metric": "Desiccant dryer achievable dew point",
+      "unit": "degF or lower (Class 2 or better)",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": -40
+    },
+    {
+      "metric": "nano dryers with multi-stage filtration",
+      "unit": "n/a",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": "ISO 8573 Class 1.2.1 or better"
+    },
+    {
+      "metric": "Class 2 typical application",
+      "unit": "n/a",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": "Instrument air in colder climates or offshore platforms"
+    },
+    {
+      "metric": "Class 1 typical application",
+      "unit": "n/a",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": "Ultra-critical electronics, cryogenics"
+    },
+    {
+      "metric": "Class 3 typical application",
+      "unit": "n/a",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": "General industrial pneumatic applications"
     }
   ],
   "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
@@ -116,6 +197,6 @@
       "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 9 new printed parameters."
 }

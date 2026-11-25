@@ -28,14 +28,108 @@
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
       },
       "value": 51.3
+    },
+    {
+      "metric": "46TS-SG rated electrical power 16V / 18V",
+      "unit": "MWe (50 and 60 Hz)",
+      "basis": "46TS technical data table: W46TS-SG 'Rated electrical power (MWe) 20.38 (16V) | 22.93 (18V)' for 50Hz and 60Hz. Wartsila product page, © 2026 Wartsila; technical data stated at 100 kPa, 25 C suction air, 30% RH, PF 1.0, 5% tolerance.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS",
+        "source_id": "catpar-wartsila-com-46ts-fcdba5f"
+      },
+      "value": "20.38 / 22.93"
+    },
+    {
+      "metric": "46TS-SG electrical efficiency",
+      "unit": "%",
+      "basis": "46TS technical data table, W46TS-SG row.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
+      },
+      "value": "51.3 (16V) / 51.3 (18V)"
+    },
+    {
+      "metric": "46TS-SG heat rate",
+      "unit": "kJ/kWh",
+      "basis": "46TS technical data table, W46TS-SG row.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
+      },
+      "value": "7020 (16V) / 7060 (18V)"
+    },
+    {
+      "metric": "46TS-DF (gas) efficiency / heat rate",
+      "unit": "% / kJ/kWh",
+      "basis": "46TS technical data table, W46TS-DF (Gas) row.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
+      },
+      "value": "50.7 (16V/18V) / 7105 (16V/18V)"
+    },
+    {
+      "metric": "46TS-DF (LFO) efficiency / heat rate",
+      "unit": "% / kJ/kWh",
+      "basis": "46TS technical data table, W46TS-DF (LFO) row.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
+      },
+      "value": "49.0 (16V/18V) / 7354 (16V/18V)"
+    },
+    {
+      "metric": "Mechanical output per unit",
+      "unit": "MW/unit",
+      "basis": "'High mechanical output (23.4 MW/unit) means fewer engines are needed to meet demand.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
+      },
+      "value": 23.4
+    },
+    {
+      "metric": "Ramp-up time",
+      "unit": "minutes",
+      "basis": "'Rapid response to fluctuations with fast ramp-up time (2 minutes), plus no minimum up or downtime requirements.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Full power ambient envelope",
+      "unit": "deg C/F",
+      "basis": "'Its two-stage turbocharger system ensures full power at -55C/-67F to +55C/131F'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
+      },
+      "value": "-55 C/-67 F to +55 C/131 F"
+    },
+    {
+      "metric": "Hydrogen blending",
+      "unit": "% (up to)",
+      "basis": "'including natural gas, biogas and hydrogen blends up to 25%'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Data-centre page 46TS-SG figures",
+      "unit": "n/a",
+      "basis": "Data center power solutions selector: 'Wartsila 46TS-SG gas engine 20.4 MW-22.9 MW, 51.3 electrical efficiency | 2 min start-up time'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
+      },
+      "value": "20.4 MW - 22.9 MW; 51.3 electrical efficiency; 2 min start-up"
     }
   ],
   "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
   "sources": [
     {
       "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
     }
   ],
-  "notes": "Selected for the 300 MW / 13-engine Australian plant (press release page_read:true).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Selected for the 300 MW / 13-engine Australian plant (press release page_read:true). Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

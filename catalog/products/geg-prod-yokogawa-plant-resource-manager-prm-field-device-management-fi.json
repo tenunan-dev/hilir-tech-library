@@ -17,6 +17,51 @@
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
       }
+    },
+    {
+      "metric": "Document number",
+      "unit": "n/a",
+      "basis": "GS 33K01A10-50E",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": "GS 33K01A10-50E"
+    },
+    {
+      "metric": "Edition",
+      "unit": "n/a",
+      "basis": "12th Edition Sep. 1, 2014 (YK)",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": "12th Edition Sep. 1, 2014"
+    },
+    {
+      "metric": "Operating systems",
+      "unit": "n/a",
+      "basis": "Windows 7 Professional Edition; Windows Server 2008 Standard Edition; Windows Server 2008 R2 Standard Edition",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": "Windows 7 Professional Edition; Windows Server 2008 Standard Edition; Windows Server 2008 R2 Standard Edition"
+    },
+    {
+      "metric": "FDA compliance",
+      "unit": "n/a",
+      "basis": "LHS5170 Access Administrator Package (FDA:21 CFR Part 11 compliant)",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": "FDA:21 CFR Part 11 compliant"
+    },
+    {
+      "metric": "Package example",
+      "unit": "n/a",
+      "basis": "LHS4000 Million Tag Handling Package",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": "LHS4000 Million Tag Handling Package"
     }
   ],
   "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
@@ -26,6 +71,6 @@
       "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 5 new printed parameters."
 }

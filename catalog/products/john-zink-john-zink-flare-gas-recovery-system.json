@@ -27,6 +27,38 @@
         "source_id": "cat-johnzink-com-flare-gas-recovery"
       },
       "value": "ejectors / evaluated technologies"
+    },
+    {
+      "metric": "Emissions reduced",
+      "unit": "n/a",
+      "basis": "\"designed to significantly reduce emissions, including NOx, CO, CO2, and SOx\" (no percentages printed)",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Compression technologies considered",
+      "unit": "n/a",
+      "basis": "\"Ejectors are one of the compression technologies we often consider\" (also liquid seal vessel, flare gas sweetening)",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Liquid seal design",
+      "unit": "n/a",
+      "basis": "\"We use deep liquid seals that provide the necessary hydrostatic head, ensuring reliable performance even under fluctuating conditions\"",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "\"engineered for a wide variety of applications, from petroleum refineries to FPSO offshore platforms\"",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
     }
   ],
   "url": "https://www.johnzink.com/products/flare-gas-recovery",
@@ -35,6 +67,13 @@
       "url": "https://www.johnzink.com/products/flare-gas-recovery"
     }
   ],
-  "notes": "Deep liquid seals, back-pressure control, H2S sweetening",
-  "last_reviewed": "2026-11-24"
+  "notes": "Deep liquid seals, back-pressure control, H2S sweetening Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Flow/pressure ratings and recovery percentages of FGR packages",
+      "why": "Custom-engineered systems; no numeric ratings on product page",
+      "next_action": "Request a project-specific FGR data sheet if figures needed"
+    }
+  ]
 }

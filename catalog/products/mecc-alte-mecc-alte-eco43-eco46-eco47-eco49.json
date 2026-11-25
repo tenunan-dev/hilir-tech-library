@@ -38,6 +38,137 @@
         "source_id": "meccalte-com-alternators-power-products-mvhv"
       },
       "value": "1500 / 1800"
+    },
+    {
+      "metric": "Company range",
+      "unit": "kVA",
+      "basis": "The World's Largest Independent Producer of Alternators 1 - 5,000kVA",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "low": 1,
+      "high": 5000
+    },
+    {
+      "metric": "ECO43 rating",
+      "unit": "kVA",
+      "basis": "Ratings from 800 kVA up to 1300 kVA (* @ 50Hz / cl.H / 40°C /PF0.8, referred to a 11kV unit)",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "low": 800,
+      "high": 1300
+    },
+    {
+      "metric": "ECO46 rating",
+      "unit": "kVA",
+      "basis": "Ratings from 1300 kVA up to 2500 kVA (* @ 50Hz / cl.H / 40°C /PF0.8, referred to a 11kV unit)",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "low": 1300,
+      "high": 2500
+    },
+    {
+      "metric": "ECO47 rating",
+      "unit": "kVA",
+      "basis": "Ratings from 2500 kVA up to 4000 kVA (* @ 50Hz / cl.H / 40°C /PF0.8, referred to a 11kV unit)",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "low": 2500,
+      "high": 4000
+    },
+    {
+      "metric": "ECO49 rating",
+      "unit": "kVA",
+      "basis": "Ratings from 4000 kVA up to 5000 kVA (* @ 50Hz / cl.H / 40°C /PF0.8, referred to a 11kV unit)",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "low": 4000,
+      "high": 5000
+    },
+    {
+      "metric": "Frequency",
+      "unit": "n/a",
+      "basis": "50/60Hz - 1500 / 1800 rpm",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "value": "50/60Hz"
+    },
+    {
+      "metric": "Speed",
+      "unit": "rpm",
+      "basis": "50/60Hz - 1500 / 1800 rpm",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "value": "1500 / 1800"
+    },
+    {
+      "metric": "Frequency (400 Hz variant)",
+      "unit": "Hz",
+      "basis": "400 Hz",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Insulation",
+      "unit": "n/a",
+      "basis": "pioneers of true Class H+ Insulation system",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "value": "Class H+"
+    },
+    {
+      "metric": "AVR",
+      "unit": "n/a",
+      "basis": "Digital voltage regulator DER2 as standard (different AVRs upon request)",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "value": "Digital voltage regulator DER2 as standard"
+    },
+    {
+      "metric": "Axle height ECO43",
+      "unit": "mm",
+      "basis": "Axle height 400mm (800-1300 kVA range)",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Axle height ECO46",
+      "unit": "mm",
+      "basis": "Axle height 500mm (1300-2500 kVA range)",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Axle height ECO47",
+      "unit": "mm",
+      "basis": "Axle height 560mm (2500-4000 kVA range)",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "value": 560
+    },
+    {
+      "metric": "Axle height ECO49",
+      "unit": "mm",
+      "basis": "Axle height 630mm (4000-5000 kVA range)",
+      "source": {
+        "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
+      },
+      "value": 630
     }
   ],
   "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
@@ -46,6 +177,6 @@
       "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
     }
   ],
-  "notes": "Brushless synchronous, DER2 digital AVR, class H insulation, IC01 cooling",
-  "last_reviewed": "2026-11-24"
+  "notes": "Brushless synchronous, DER2 digital AVR, class H insulation, IC01 cooling Full-parameter pass 2026-11-26: 14 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

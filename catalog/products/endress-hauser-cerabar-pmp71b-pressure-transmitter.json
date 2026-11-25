@@ -141,6 +141,119 @@
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp71b"
       },
       "value": 7000
+    },
+    {
+      "metric": "accuracy_standard",
+      "unit": "%",
+      "basis": "Specs at a glance: Accuracy Standard up to 0.05 %",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "high": 0.05
+    },
+    {
+      "metric": "accuracy_platinum",
+      "unit": "%",
+      "basis": "Specs at a glance: Accuracy Platinum up to 0.025 %; Field of application: Accuracy up to +/- 0.025%",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "high": 0.025
+    },
+    {
+      "metric": "process_temperature_standard",
+      "unit": "degC",
+      "basis": "Specs at a glance: Process temperature Standard -40 degC...+125 degC (-40 degF...+257 degF)",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "low": -40,
+      "high": 125
+    },
+    {
+      "metric": "process_temperature_diaphragm_seal",
+      "unit": "degC",
+      "basis": "Specs at a glance: Diaphragm seal -40 degC...+400 degC (-40 degF...+752 degF)",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "low": -40,
+      "high": 400
+    },
+    {
+      "metric": "pressure_measuring_range",
+      "unit": "mbar...bar",
+      "basis": "Specs at a glance: Pressure measuring range 400 mbar...700 bar (1.5 psi...10,500 psi)",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "low": 400,
+      "high": 700
+    },
+    {
+      "metric": "pressure_measuring_range_psi",
+      "unit": "psi",
+      "basis": "Specs at a glance: 1.5 psi...10,500 psi",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "low": 1.5,
+      "high": 10500
+    },
+    {
+      "metric": "measuring_cell_range",
+      "unit": "mbar...bar",
+      "basis": "Specs at a glance: Measuring cell 400 mbar...700 bar (6 psi...10,500 psi)",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "low": 400,
+      "high": 700
+    },
+    {
+      "metric": "main_wetted_parts",
+      "unit": "n/a",
+      "basis": "Specs at a glance: Main wetted parts 316L, AlloyC, Tantal, Monel, PTFE, Gold",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "value": "316L, AlloyC, Tantal, Monel, PTFE, Gold"
+    },
+    {
+      "metric": "process_membrane_material",
+      "unit": "n/a",
+      "basis": "Specs at a glance: Material process membrane 316L, AlloyC, Tantal, Monel, PTFE, Gold",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "value": "316L, AlloyC, Tantal, Monel, PTFE, Gold"
+    },
+    {
+      "metric": "remote_control",
+      "unit": "n/a",
+      "basis": "robust and can be remotely controlled via app on a mobile device using a secure Bluetooth connection; Wireless control of the device in the process area with SmartBlue App",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "value": "Bluetooth SmartBlue App"
+    },
+    {
+      "metric": "diagnostics",
+      "unit": "n/a",
+      "basis": "Heartbeat Technology offers verification and monitoring functions to detect unwanted anomalies e.g. changes in loop characteristics; verification of a pressure transmitter within 3 minutes while process is running",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "value": "Heartbeat Technology verification and monitoring"
+    },
+    {
+      "metric": "functional_safety",
+      "unit": "n/a",
+      "basis": "Reduce systematic failures - error free SIL commissioning and instrument guided proof testing",
+      "source": {
+        "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
+      },
+      "value": "error free SIL commissioning and instrument guided proof testing"
     }
   ],
   "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification",
@@ -149,6 +262,6 @@
       "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     }
   ],
-  "notes": "Page read in full including Specifications tab. Cerabar PMP71B combines metal process diaphragm with Heartbeat Technology verification.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read in full including Specifications tab. Cerabar PMP71B combines metal process diaphragm with Heartbeat Technology verification. Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

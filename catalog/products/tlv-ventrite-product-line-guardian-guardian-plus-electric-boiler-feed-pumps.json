@@ -133,6 +133,129 @@
       },
       "unit": "deg F",
       "value": "250"
+    },
+    {
+      "metric": "Guardian_pump_capacity",
+      "unit": "GPM",
+      "basis": "Product table: Guardian Pump Capacity (GPM) 10 - 18",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "low": 10,
+      "high": 18
+    },
+    {
+      "metric": "Guardian_discharge_pressure",
+      "unit": "psig",
+      "basis": "Product table: Guardian Discharge Pressure (psig) 20",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Guardian_motor_power",
+      "unit": "HP",
+      "basis": "Product table: Guardian Motor Power 1/3 HP",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "value": 0.333
+    },
+    {
+      "metric": "Guardian_motor_speed",
+      "unit": "RPM",
+      "basis": "Product table: Guardian Motor Speed 3450 RPM",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "value": 3450
+    },
+    {
+      "metric": "Guardian_motor_voltage",
+      "unit": "V",
+      "basis": "Product table: Guardian Motor Voltage 115/208-230 V, Single phase",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "value": "115/208-230"
+    },
+    {
+      "metric": "Guardian_tank_capacity",
+      "unit": "gal",
+      "basis": "Product table: Guardian Tank Capacity 6-21 gal, Cast Iron",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "low": 6,
+      "high": 21
+    },
+    {
+      "metric": "GuardianPlus_pump_capacity",
+      "unit": "GPM",
+      "basis": "Product table: Guardian-Plus Pump Capacity (GPM) 1.5 - 150",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "low": 1.5,
+      "high": 150
+    },
+    {
+      "metric": "GuardianPlus_discharge_pressure",
+      "unit": "psig",
+      "basis": "Product table: Guardian-Plus Discharge Pressure (psig) 10-70",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "low": 10,
+      "high": 70
+    },
+    {
+      "metric": "GuardianPlus_motor_power",
+      "unit": "HP",
+      "basis": "Product table: Guardian-Plus Motor Power 1/3 to 10 HP",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "low": 0.333,
+      "high": 10
+    },
+    {
+      "metric": "GuardianPlus_motor_speed",
+      "unit": "RPM",
+      "basis": "Product table: Guardian-Plus Motor Speed 1750 or 3450 RPM",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "value": "1750 or 3450"
+    },
+    {
+      "metric": "GuardianPlus_motor_voltage",
+      "unit": "V",
+      "basis": "Product table: Guardian-Plus Motor Voltage 115/208-230 V, Single/Three phase",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "value": "115/208-230"
+    },
+    {
+      "metric": "GuardianPlus_tank_capacity",
+      "unit": "gal",
+      "basis": "Product table: Guardian-Plus Tank Capacity 15-110 gal, Cast Iron",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "low": 15,
+      "high": 110
+    },
+    {
+      "metric": "water_temperature_capability",
+      "unit": "degF",
+      "basis": "Versatile compatibility of handling 250 degF water",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
+      },
+      "value": 250
     }
   ],
   "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps",
@@ -141,6 +264,6 @@
       "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     }
   ],
-  "notes": "Read in full: TLV en-us Electric Boiler Feed Pumps page (Guardian and Guardian-Plus series), including the linked condensate return & boiler feed water skid systems pamphlet reference. Same pump data also appears on the TLV Electric Condensate Return Pumps page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: TLV en-us Electric Boiler Feed Pumps page (Guardian and Guardian-Plus series), including the linked condensate return & boiler feed water skid systems pamphlet reference. Same pump data also appears on the TLV Electric Condensate Return Pumps page. Full-parameter pass 2026-11-26: 13 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

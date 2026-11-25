@@ -47,6 +47,50 @@
         "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
       },
       "value": "Wet-mate-only cable connections; seabed-resident, reconnection without retrieval"
+    },
+    {
+      "metric": "Power rating per connection",
+      "unit": "kV",
+      "basis": "'66kV Power rating per connection'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "value": 66
+    },
+    {
+      "metric": "Maintenance-free life",
+      "unit": "years",
+      "basis": "'30 yrs Maintenance-free life'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Water depth",
+      "unit": "'↓ 1500m Water depth'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "low": 1500,
+      "high": "m"
+    },
+    {
+      "metric": "Connection type",
+      "unit": "n/a",
+      "basis": "'versatile, wet-mate-only cable connections on the seafloor'; 'Seabed-resident wet-mate technology for reconnections without retrieval'",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      }
+    },
+    {
+      "metric": "Topology",
+      "unit": "n/a",
+      "basis": "'can enable radial connections of turbines' avoiding daisy-chain topology challenges",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      }
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
@@ -55,6 +99,6 @@
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     }
   ],
-  "notes": "Printed figures are callouts on the product page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Printed figures are callouts on the product page. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

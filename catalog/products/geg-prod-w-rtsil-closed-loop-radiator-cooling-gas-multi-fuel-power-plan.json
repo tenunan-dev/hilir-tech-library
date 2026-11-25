@@ -18,6 +18,97 @@
         "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
         "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
       }
+    },
+    {
+      "metric": "Closed-loop radiator cooling water consumption",
+      "unit": "l/MWh",
+      "basis": "'Closed-circuit radiator cooling with only 0.2 l/MWh water consumption'; 'The engine cooling arrangement using closed-loop radiator cooling reduces the plant process water consumption to a mere 0.2 l/MWh, minimising the effect on local water resources.' Brochure printed 08.2017.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+        "source_id": "catpar-r-jina-ai-gas-and-multi-fuel-power-plants-pd-770321f"
+      },
+      "value": 0.2
+    },
+    {
+      "metric": "Fast start-up from hot standby",
+      "unit": "minutes",
+      "basis": "'Fast start-up: only 2-10 minutes from hot standby to full load, regardless of plant size'; 'Wartsila ICE power plants can start and reach full load in less than 10 minutes'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "2 - 10 minutes to full load, regardless of plant size"
+    },
+    {
+      "metric": "Plant electrical efficiency",
+      "unit": "%",
+      "basis": "'Plant electrical efficiency up to more than 54%'; 'Wartsila gas engines with modern lean-burn technology reach over 50% electrical efficiency'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "> 54"
+    },
+    {
+      "metric": "Typical engine unit size",
+      "unit": "MW",
+      "basis": "'typically based on modular 4-19 MW internal combustion engine (ICE) units'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "4 - 19 MW"
+    },
+    {
+      "metric": "CHP total efficiency",
+      "unit": "% (can reach)",
+      "basis": "'In CHP applications for hot water production, the total efficiency can reach 95%.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": 95
+    },
+    {
+      "metric": "Flexicycle power increase",
+      "unit": "% (almost)",
+      "basis": "'This combined cycle solution increases the power production by almost 10%.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Fleet track record",
+      "unit": "n/a",
+      "basis": "'Wartsila has supplied 176 countries with more than 11,000 engines having a combined capacity of 63 GW'; 'some 5000 projects in 176 countries'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "176 countries, more than 11,000 engines, combined capacity 63 GW"
+    },
+    {
+      "metric": "Plant process water / cooling claim",
+      "unit": "n/a",
+      "basis": "'No water consumed for plant cooling = arid area suitability!' and 'minimal derating of the heat rate and output at high altitudes and in hot temperatures'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "No water consumed for plant cooling = arid area suitability"
+    },
+    {
+      "metric": "Fuel choices",
+      "unit": "n/a",
+      "basis": "'Wartsila gas engines operate on a wide selection of gas types ... capable of operating on both natural gas and liquid fuel (light fuel oil, heavy fuel oil, crude oil or liquid biofuel) ... possible to switch from gas to liquid fuel, and vice versa, even during operation.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "natural gas, or multi-fuel mode gaseous + liquid (LFO, HFO, crude oil, liquid biofuel); switching during operation"
+    },
+    {
+      "metric": "34SG LPG capability",
+      "unit": "n/a",
+      "basis": "'The Wartsila 34SG engine can run on a wide range of gases, including liquefied petroleum gas (LPG) and ethane. It is the first medium-speed engine capable of running on LPG.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "first medium-speed engine capable of running on LPG; also ethane"
     }
   ],
   "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
@@ -25,8 +116,11 @@
     {
       "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
       "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 10 new printed parameters."
 }

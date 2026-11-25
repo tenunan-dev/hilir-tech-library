@@ -83,6 +83,146 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
       }
+    },
+    {
+      "metric": "reference_accuracy",
+      "unit": "% of span",
+      "basis": "Product Data Sheet February 2017 00813-0100-4001 Rev TA: Reference accuracy 0.04 percent of span",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "value": 0.04
+    },
+    {
+      "metric": "installed_total_performance",
+      "unit": "% of span",
+      "basis": "Installed total performance of 0.14 percent of span",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "value": 0.14
+    },
+    {
+      "metric": "ten_year_stability",
+      "unit": "% of URL",
+      "basis": "10-year stability of 0.2 percent of URL",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "value": 0.2
+    },
+    {
+      "metric": "safety_certification",
+      "unit": "n/a",
+      "basis": "SIL2/3 certified (IEC 61508); option QT Safety certified to IEC 61508 with certificate of FMEDA",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "value": "SIL2/3 certified (IEC 61508)"
+    },
+    {
+      "metric": "range_3051CD_differential",
+      "unit": "inH2O / psi",
+      "basis": "Table 1 ordering info pressure range: range 1 -25 to 25 inH2O; range 5 -2000 to 2000 psi; range 0 -3 to 3 inH2O",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "low": -25,
+      "high": 2000
+    },
+    {
+      "metric": "range_3051TG_gage",
+      "unit": "psi",
+      "basis": "Table 2 pressure range 3051TG gage: range 1 -14.7 to 30 psi; range 6 -14.7 to 20000 psi",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "low": -14.7,
+      "high": 20000
+    },
+    {
+      "metric": "max_static_line_pressure_option",
+      "unit": "psig",
+      "basis": "Option P9 4500 psig (310,26 bar) static pressure limit (Rosemount 3051CD Ranges 2-5 only)",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "value": 4500
+    },
+    {
+      "metric": "output_protocols",
+      "unit": "n/a",
+      "basis": "Table 1/2 transmitter output codes A, F, W, X, M",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "value": "4-20 mA HART; FOUNDATION Fieldbus; PROFIBUS PA; WirelessHART (IEC 62591); low-power 1-5 Vdc HART"
+    },
+    {
+      "metric": "wireless_frequency",
+      "unit": "GHz",
+      "basis": "Wireless options WA3 user configurable transmit rate, 2.4GHz Wireless HART",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "value": 2.4
+    },
+    {
+      "metric": "wireless_installation_cost_saving",
+      "unit": "%",
+      "basis": "Wireless eliminates wiring design and construction complexities to lower costs by 40-60 percent; deploy in 70 percent less time",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "low": 40,
+      "high": 60
+    },
+    {
+      "metric": "DP_flow_accuracy",
+      "unit": "% volumetric flow accuracy at 8:1 turndown",
+      "basis": "Up to 1.65 percent volumetric flow accuracy at 8:1 turndown",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "high": 1.65
+    },
+    {
+      "metric": "Annubar_line_size_range",
+      "unit": "in",
+      "basis": "Rosemount 3051CFA Annubar available in 2 to 96-in. (50 to 2400 mm) line; up to 1.8 percent of flow rate accuracy",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "low": 2,
+      "high": 96
+    },
+    {
+      "metric": "cold_temperature_options",
+      "unit": "degC",
+      "basis": "Cold temperature option BR5 -58 degF (-50 degC); BR6 -76 degF (-60 degC)",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "low": -60,
+      "high": -50
+    },
+    {
+      "metric": "materials_of_construction",
+      "unit": "n/a",
+      "basis": "Table 1 Materials of construction: isolating diaphragm codes 2-7; sensor fill fluid 1 silicone, 2 inert; O-ring A glass-filled PTFE, B graphite-filled PTFE",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "value": "316L SST, Alloy C-276, Alloy 400, Tantalum, gold-plated Alloy 400, gold-plated 316 SST isolating diaphragms; silicone or inert fill fluid; glass/graphite-filled PTFO O-rings"
+    },
+    {
+      "metric": "hazardous_area_certifications",
+      "unit": "n/a",
+      "basis": "Product certifications list in Tables 1 and 2; NACE certificate Q15/Q25",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "value": "ATEX, FM, CSA, IECEx, INMETRO, TIIS, EAC, China approvals; NACE MR0175/ISO 15156 and MR0103"
     }
   ],
   "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
@@ -92,6 +232,6 @@
       "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 15 new printed parameters."
 }

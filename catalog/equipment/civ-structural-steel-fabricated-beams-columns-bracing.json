@@ -41,6 +41,39 @@
         "source_id": "aws-org-d1-1"
       },
       "value": "8 normative + 11 informative"
+    },
+    {
+      "metric": "Standard designation",
+      "unit": "n/a",
+      "basis": "AWS D1.1/D1.1M:2025-AMD1 - Structural Welding Code-Steel, also called D1.1",
+      "source": {
+        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
+      }
+    },
+    {
+      "metric": "Original publication year",
+      "unit": "year",
+      "basis": "AWS D1.1/D1.1M:2025-AMD1 standard landing page, 'originally published in 1928 as the Code for Fusion Welding and Gas Cutting in Building Construction and called Code 1 Part A'",
+      "source": {
+        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
+      },
+      "value": 1928
+    },
+    {
+      "metric": "Available formats",
+      "unit": "n/a",
+      "basis": "'Available in print and digital formats'",
+      "source": {
+        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
+      }
+    },
+    {
+      "metric": "Code scope",
+      "unit": "n/a",
+      "basis": "'the premier welding code of the American Welding Society' ... 'worldwide standard for welding structural steel'",
+      "source": {
+        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
+      }
     }
   ],
   "vendors": [
@@ -65,5 +98,5 @@
     "Primary gravity and lateral load-resisting frame for process structures, pipe racks, equipment supports and buildings; fabricated from rolled or welded sections"
   ],
   "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

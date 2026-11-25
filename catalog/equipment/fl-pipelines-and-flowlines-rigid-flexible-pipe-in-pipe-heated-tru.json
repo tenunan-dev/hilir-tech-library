@@ -163,6 +163,765 @@
       },
       "low": 750,
       "high": 900
+    },
+    {
+      "metric": "4 Throw Rated Power",
+      "unit": "BHP",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 6668
+    },
+    {
+      "metric": "4 Throw Stroke",
+      "unit": "in",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 7.25
+    },
+    {
+      "metric": "4 Throw Max RPM",
+      "unit": "rpm",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 900
+    },
+    {
+      "metric": "4 Throw Piston Speed",
+      "unit": "printed without unit in source",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 1088
+    },
+    {
+      "metric": "4 Throw Rod Diameter",
+      "unit": "in",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 3.125
+    },
+    {
+      "metric": "4 Throw Total Rod Load",
+      "unit": "lbs",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 190000
+    },
+    {
+      "metric": "4 Throw Tension",
+      "unit": "lbs",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 95000
+    },
+    {
+      "metric": "4 Throw Compression",
+      "unit": "lbs",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "4 Throw Average Weight",
+      "unit": "lbs",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 79000
+    },
+    {
+      "metric": "4 Throw Max Length",
+      "unit": "in",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 144
+    },
+    {
+      "metric": "4 Throw Nominal Width",
+      "unit": "in",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 228
+    },
+    {
+      "metric": "4 Throw Crankshaft Centerline",
+      "unit": "in",
+      "basis": "4 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 27
+    },
+    {
+      "metric": "6 Throw Rated Power",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 10000,
+      "high": "BHP"
+    },
+    {
+      "metric": "6 Throw Stroke",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 8.5,
+      "high": "in"
+    },
+    {
+      "metric": "6 Throw Max RPM",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 750,
+      "high": "rpm"
+    },
+    {
+      "metric": "6 Throw Piston Speed",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 1063,
+      "high": "printed without unit in source"
+    },
+    {
+      "metric": "6 Throw Rod Diameter",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 3.125,
+      "high": "in"
+    },
+    {
+      "metric": "6 Throw Total Rod Load",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 190000,
+      "high": "lbs"
+    },
+    {
+      "metric": "6 Throw Tension",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 95000,
+      "high": "lbs"
+    },
+    {
+      "metric": "6 Throw Compression",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 100000,
+      "high": "lbs"
+    },
+    {
+      "metric": "6 Throw Average Weight",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 115000,
+      "high": "lbs"
+    },
+    {
+      "metric": "6 Throw Max Length",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 188,
+      "high": "in"
+    },
+    {
+      "metric": "6 Throw Nominal Width",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 228,
+      "high": "in"
+    },
+    {
+      "metric": "6 Throw Crankshaft Centerline",
+      "unit": "n/a",
+      "basis": "6 Throw table (Ariel KBB/KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 27,
+      "high": "in"
+    },
+    {
+      "metric": "Frame rating statement",
+      "unit": "BHP",
+      "basis": "'The KBB and KBV, Ariel's largest compressor frames, are rated up to 10,000 BHP'",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "'recommended for use in pipeline transmission and high-pressure injection applications'; N+1 station design gives 100% compression capacity",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      }
+    },
+    {
+      "metric": "Crankcase/crosshead materials",
+      "unit": "n/a",
+      "basis": "Gray iron crankcase; forged steel crankshaft; gray iron crosshead guide; bronze thrust bearing; tri-metal main bearing; ductile iron crosshead; alloy steel crosshead pin; forged steel connecting rod; grade 8 stress bolts",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      }
+    },
+    {
+      "metric": "Valves",
+      "unit": "n/a",
+      "basis": "'Plate-type valves ... utilizing non-metallic sealing elements as standard'",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      }
+    },
+    {
+      "metric": "Rated power (4 throw KBB/KBV)",
+      "unit": "BHP",
+      "basis": "4 Throw table: Rated Power 6,668 (KBB and KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 6668
+    },
+    {
+      "metric": "Rated power (6 throw KBB/KBV)",
+      "unit": "BHP",
+      "basis": "6 Throw table: Rated Power 10,000 (KBB and KBV); intro also says \"rated up to 10,000 BHP\"",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Stroke KBB",
+      "unit": "in",
+      "basis": "Both 4-throw and 6-throw tables: Stroke (in) KBB 7.25",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 7.25
+    },
+    {
+      "metric": "Stroke KBV",
+      "unit": "in",
+      "basis": "Both tables: Stroke (in) KBV 8.50",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 8.5
+    },
+    {
+      "metric": "Max RPM KBB",
+      "unit": "rpm",
+      "basis": "Both tables: Max RPM KBB 900",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 900
+    },
+    {
+      "metric": "Max RPM KBV",
+      "unit": "rpm",
+      "basis": "Both tables: Max RPM KBV 750",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 750
+    },
+    {
+      "metric": "Piston speed KBB",
+      "unit": "(printed, unit not stated in table)",
+      "basis": "Both tables: Piston Speed KBB 1,088",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 1088
+    },
+    {
+      "metric": "Piston speed KBV",
+      "unit": "(printed, unit not stated in table)",
+      "basis": "Both tables: Piston Speed KBV 1,063",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 1063
+    },
+    {
+      "metric": "Rod diameter",
+      "unit": "in",
+      "basis": "Both tables: Rod Diameter (in) 3.125 KBB and KBV",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 3.125
+    },
+    {
+      "metric": "Total rod load",
+      "unit": "lbs",
+      "basis": "Both tables: Total Rod Load (lbs) 190,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 190000
+    },
+    {
+      "metric": "Tension rod load",
+      "unit": "lbs",
+      "basis": "Both tables: Tension (lbs) 95,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 95000
+    },
+    {
+      "metric": "Compression rod load",
+      "unit": "lbs",
+      "basis": "Both tables: Compression (lbs) 100,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "Average weight (4 throw)",
+      "unit": "lbs",
+      "basis": "4 Throw table: Average Weight (lbs) 79,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 79000
+    },
+    {
+      "metric": "Average weight (6 throw)",
+      "unit": "lbs",
+      "basis": "6 Throw table: Average Weight (lbs) 115,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 115000
+    },
+    {
+      "metric": "Max length (4 throw)",
+      "unit": "in",
+      "basis": "4 Throw table: Max Length (in) 144",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 144
+    },
+    {
+      "metric": "Max length (6 throw)",
+      "unit": "in",
+      "basis": "6 Throw table: Max Length (in) 188",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 188
+    },
+    {
+      "metric": "Nominal width",
+      "unit": "in",
+      "basis": "Both tables: Nominal Width (in) 228",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 228
+    },
+    {
+      "metric": "Crankshaft centerline height",
+      "unit": "in",
+      "basis": "Both tables: Crankshaft Centerline (in) 27",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 27
+    },
+    {
+      "metric": "nominal_pressure_rating",
+      "unit": "psi",
+      "basis": "500 psi (3.45 MPa) API 15S Nominal Pressure Rating (NPR)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 500
+    },
+    {
+      "metric": "nominal_pressure_rating_MPa",
+      "unit": "MPa",
+      "basis": "500 psi (3.45 MPa) API 15S Nominal Pressure Rating (NPR)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 3.45
+    },
+    {
+      "metric": "max_temperature",
+      "unit": "degC",
+      "basis": "Max Temp 140 degF (60 degC)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 60
+    },
+    {
+      "metric": "sizes",
+      "unit": "n/a",
+      "basis": "Size 3 in., 4 in., and 6 in.",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "3 in., 4 in., and 6 in."
+    },
+    {
+      "metric": "inside_diameter_3in",
+      "unit": "in",
+      "basis": "Series 500 Product Properties table: Inside Pipe Diameter DF 3\" 500 = 2.82 in (72 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 2.82
+    },
+    {
+      "metric": "inside_diameter_4in",
+      "unit": "in",
+      "basis": "Series 500 table: DF 4\" 500 ID 3.57 in (91 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 3.57
+    },
+    {
+      "metric": "inside_diameter_6in",
+      "unit": "in",
+      "basis": "Series 500 table: DF 6\" 500 ID 5.60 in (142 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 5.6
+    },
+    {
+      "metric": "outside_diameter_3in",
+      "unit": "in",
+      "basis": "Series 500 table: DF 3\" 500 OD 3.65 in (93 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 3.65
+    },
+    {
+      "metric": "outside_diameter_4in",
+      "unit": "in",
+      "basis": "Series 500 table: DF 4\" 500 OD 4.55 in (116 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 4.55
+    },
+    {
+      "metric": "outside_diameter_6in",
+      "unit": "in",
+      "basis": "Series 500 table: DF 6\" 500 OD 6.82 in (173 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 6.82
+    },
+    {
+      "metric": "wall_thickness",
+      "unit": "in",
+      "basis": "Series 500 table: Overall Pipe Wall Thickness 0.42 / 0.49 / 0.61 in (11 / 12 / 15 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "low": 0.42,
+      "high": 0.61
+    },
+    {
+      "metric": "pipe_weight",
+      "unit": "lbs/ft",
+      "basis": "Series 500 table pipe weight 2.00 / 3.06 / 5.72 lbs/ft (2.98 / 4.56 / 8.53 kg/m)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "low": 2,
+      "high": 5.72
+    },
+    {
+      "metric": "reel_capacity",
+      "unit": "ft",
+      "basis": "Series 500 table reel capacity 3,000/1,700 ft (3\"); 2,400 ft (4\"); 1,175/525 ft (6\")",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "low": 1175,
+      "high": 3000
+    },
+    {
+      "metric": "spool_length_max",
+      "unit": "ft",
+      "basis": "The flexibility of DuraFlex enables the pipe to be spooled with lengths up to 4,000 ft",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "factory_hydrotest",
+      "unit": "x nominal pressure rating",
+      "basis": "100% hydrotested at the factory to 1.5x the nominal pressure rating; produced in API Q1 ISO9001 facility licensed to produce API 15S pipe",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 1.5
+    },
+    {
+      "metric": "DuraFlex Series 500 - nominal pressure rating",
+      "unit": "psi (3.45 MPa) API 15S NPR",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 500
+    },
+    {
+      "metric": "DuraFlex Series 500 - maximum temperature",
+      "unit": "degF (60 degC)",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "low": 140
+    },
+    {
+      "metric": "DuraFlex Series 500 - sizes",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "3 in., 4 in., 6 in."
+    },
+    {
+      "metric": "DuraFlex DF 3\" 500 - inside/outside diameter",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "ID 2.82 in (72 mm); OD 3.65 in (93 mm)"
+    },
+    {
+      "metric": "DuraFlex DF 4\" 500 - inside/outside diameter",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "ID 3.57 in (91 mm); OD 4.55 in (116 mm)"
+    },
+    {
+      "metric": "DuraFlex DF 6\" 500 - inside/outside diameter",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "ID 5.60 in (142 mm); OD 6.82 in (173 mm)"
+    },
+    {
+      "metric": "DuraFlex DF 3\"/4\"/6\" - wall thickness",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "0.42 / 0.49 / 0.61 in (11 / 12 / 15 mm)"
+    },
+    {
+      "metric": "DuraFlex DF 3\"/4\"/6\" - pipe weight",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "2.00 / 3.06 / 5.72 lbs/ft (2.98 / 4.56 / 8.53 kg/m)"
+    },
+    {
+      "metric": "DuraFlex DF 3\"/4\"/6\" - reel capacity",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "3,000/1,700 / 2,400 / 1,175/525 ft (915/518 / 732 / 358/160 m)"
+    },
+    {
+      "metric": "DuraFlex - spoolable length",
+      "unit": "ft (up to)",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "DuraFlex - factory hydrotest",
+      "unit": "n/a",
+      "basis": "NOV 'DuraFlex Composite Spoolable Pipe' product page, Series 500 Product Properties table; no print date stated",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "100% hydrotested to 1.5x nominal pressure rating; API 15S licensed, API Q1 ISO9001 facility"
+    },
+    {
+      "metric": "Primary pipe size range",
+      "unit": "in",
+      "basis": "Size range: 2- to 4-in. UL listed",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "2- to 4-in."
+    },
+    {
+      "metric": "Primary pressure rating",
+      "unit": "psig",
+      "basis": "Pressure ratings: Up to 250 psig",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "high": 250
+    },
+    {
+      "metric": "Secondary pipe size range",
+      "unit": "in",
+      "basis": "Size range: 3- to 6-in. UL listed",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "3- to 6-in."
+    },
+    {
+      "metric": "Secondary pressure rating",
+      "unit": "psig",
+      "basis": "Pressure ratings: Up to 50 psig",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "high": 50
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degF",
+      "basis": "Temperature range: Up to 150 °F (65 °C)",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "high": 150
+    },
+    {
+      "metric": "Temperature range metric",
+      "unit": "degC",
+      "basis": "Up to 150 °F (65 °C)",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "high": 65
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "Construction: Filament wound with amine-cured epoxy resins and fiberglass roving",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "Filament wound with amine-cured epoxy resins and fiberglass roving"
+    },
+    {
+      "metric": "Inner corrosion barrier",
+      "unit": "n/a",
+      "basis": "Inner corrosion barrier: Resin-rich",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "Resin-rich"
+    },
+    {
+      "metric": "Fittings",
+      "unit": "n/a",
+      "basis": "Fittings: Threaded and bonded (TAB) or bell and spigot",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "Threaded and bonded (TAB) or bell and spigot"
+    },
+    {
+      "metric": "Chemical service",
+      "unit": "n/a",
+      "basis": "Chemical service: Petroleum products, alcohols, alcohol-gasoline mixtures, ethanol, methanol, MTBE, diesel exhaust fluid",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "Petroleum products, alcohols, alcohol-gasoline mixtures, ethanol, methanol, MTBE, diesel exhaust fluid"
+    },
+    {
+      "metric": "Approval",
+      "unit": "n/a",
+      "basis": "The first composite pipe to receive UL listed (UL 971) approval for underground fuel handling.",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "UL listed (UL 971) approval for underground fuel handling"
     }
   ],
   "vendors": [
@@ -185,5 +944,5 @@
     "Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required."
   ],
   "notes": "Page-read evidence from the 2026-11-24 flow-well-equipment.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

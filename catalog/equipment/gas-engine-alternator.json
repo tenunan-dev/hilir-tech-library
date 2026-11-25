@@ -72,6 +72,33 @@
         "source_id": "cummins-com-generators-alternators"
       },
       "value": 116
+    },
+    {
+      "metric": "Countries of operation",
+      "unit": "countries",
+      "basis": "Operating in over 116 countries",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators"
+      },
+      "high": 116
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "Peace of mind is guaranteed in a range of applications including marine, telecoms, standby and critical protection, CHP, rail and prime power.",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators"
+      },
+      "value": "marine, telecoms, standby and critical protection, CHP, rail and prime power"
+    },
+    {
+      "metric": "Established",
+      "unit": "year",
+      "basis": "Established in 1904",
+      "source": {
+        "url": "https://www.cummins.com/generators/alternators"
+      },
+      "value": 1904
     }
   ],
   "vendors": [
@@ -106,5 +133,5 @@
     }
   ],
   "notes": "Merged from 1 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

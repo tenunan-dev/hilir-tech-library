@@ -28,14 +28,107 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "value": 0
+    },
+    {
+      "metric": "Electrolyzer module design",
+      "unit": "n/a",
+      "basis": "Designed for 5 MW and 10 MW electrolyzer modules",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "5 MW and 10 MW"
+    },
+    {
+      "metric": "Package configuration",
+      "unit": "n/a",
+      "basis": "These skid-mounted compressors include all process equipment, piping and auxiliary systems in a single package",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Skid-mounted compressors including all process equipment, piping and auxiliary systems in a single package"
+    },
+    {
+      "metric": "Diaphragm compressor pressure",
+      "unit": "bar",
+      "basis": "Pressure up to 3,000 bar (43,500 psi)",
+      "source": {
+        "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf",
+        "source_id": "catpar-files-chartindustries-com-howden-diaphragmco-104794a"
+      },
+      "high": 3000
+    },
+    {
+      "metric": "Diaphragm compressor pressure (psi)",
+      "unit": "psi",
+      "basis": "43, 500 psi",
+      "source": {
+        "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
+      },
+      "high": 43500
+    },
+    {
+      "metric": "Diaphragm compressor flow",
+      "unit": "m3/hr",
+      "basis": "Flow up to 1,200 m3/hr (706 cfm)",
+      "source": {
+        "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
+      },
+      "high": 1200
+    },
+    {
+      "metric": "Diaphragm compressor power",
+      "unit": "kW",
+      "basis": "Power up to 1,300 Kw (1,740 hp)",
+      "source": {
+        "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
+      },
+      "high": 1300
+    },
+    {
+      "metric": "Diaphragm compressor speed",
+      "unit": "rpm",
+      "basis": "Speed from 200 – 750 rpm",
+      "source": {
+        "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
+      },
+      "low": 200,
+      "high": 750
+    },
+    {
+      "metric": "Noise",
+      "unit": "dBA",
+      "basis": "Low noise operation, typically below 85dBA",
+      "source": {
+        "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
+      },
+      "high": 85
+    },
+    {
+      "metric": "Gas purity",
+      "unit": "n/a",
+      "basis": "Absolute cleanliness of compressed hydrogen; Zero leakage of process gas to the environment",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Absolute cleanliness of compressed hydrogen; Zero leakage of process gas to the environment"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
   "sources": [
     {
       "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+    },
+    {
+      "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     }
   ],
-  "notes": "Skid mounted; H2 service",
-  "last_reviewed": "2026-11-24"
+  "notes": "Skid mounted; H2 service Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "TFC90 / TFC180 model-specific pressure, flow and power",
+      "why": "The page gives only the 5 MW / 10 MW electrolyzer design basis; the brochure figures are for the general Howden diaphragm compressor range, not the TFC models specifically.",
+      "next_action": "Obtain the TFC90/TFC180 datasheet linked as 'Brochure & Specifications' on the page."
+    }
+  ]
 }

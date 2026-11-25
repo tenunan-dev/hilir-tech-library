@@ -90,6 +90,69 @@
         "source_id": "technipfmc-com-manifolds"
       },
       "value": 350
+    },
+    {
+      "metric": "Pressure rating",
+      "unit": "psi",
+      "basis": "Up to 20K psi",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
+      },
+      "value": "Up to 20K"
+    },
+    {
+      "metric": "Temperature rating",
+      "unit": "F",
+      "basis": "Up to 350F",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
+      },
+      "value": "Up to 350"
+    },
+    {
+      "metric": "Equipment types",
+      "unit": "n/a",
+      "basis": "high-performance manifold and tie-in systems, including traditional pipe, template, sleds, pipeline end manifolds (PLEM), pipeline end terminations (PLET), and jumpers",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
+      },
+      "value": "traditional pipe, template, sleds, pipeline end manifolds (PLEM), pipeline end terminations (PLET), jumpers"
+    },
+    {
+      "metric": "Connection options",
+      "unit": "n/a",
+      "basis": "options ranging from traditional pipe to template designs with vertical or horizontal connections",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
+      },
+      "value": "vertical or horizontal connections"
+    },
+    {
+      "metric": "Foundation options",
+      "unit": "n/a",
+      "basis": "We also offer options for foundations or mudmats, pigging loops, flow meters, and mounted controls",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
+      },
+      "value": "foundations or mudmats, pigging loops, flow meters, mounted controls"
+    },
+    {
+      "metric": "Valve options",
+      "unit": "n/a",
+      "basis": "Provides option for robotic valve control, electric actuators or manual valves",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
+      },
+      "value": "robotic valve control, electric actuators or manual valves"
+    },
+    {
+      "metric": "Installation",
+      "unit": "n/a",
+      "basis": "Allows installation flexibility and eliminates need for heavy lift vessel. Offers inline design for installation with flowline. Eliminates pipe and welding",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
+      },
+      "value": "inline design for installation with flowline; eliminates need for heavy lift vessel; eliminates pipe and welding"
     }
   ],
   "vendors": [
@@ -112,5 +175,5 @@
     "Gather and distribute production/injection flows, enable testing, isolation, sampling, metering and allocation; provide tie-in termination of flowlines and rise"
   ],
   "notes": "Page-read evidence from the 2026-11-24 subsea-export.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

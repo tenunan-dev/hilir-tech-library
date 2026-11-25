@@ -17,6 +17,42 @@
         "source_id": "sys-technipfmc-com"
       },
       "value": "vertical steel pipe tensioned by near-surface buoyancy can; flexible jumper to platform; seabed foundation and rigid base jumper to PLET"
+    },
+    {
+      "metric": "FSHR - riser concept",
+      "unit": "n/a",
+      "basis": "TechnipFMC 'Flexible pipes / Freestanding Hybrid Riser' page; no print date stated",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "Deepwater riser solution: vertical steel pipe tensioned by a near-surface buoyancy can"
+    },
+    {
+      "metric": "FSHR - top connection",
+      "unit": "n/a",
+      "basis": "TechnipFMC 'Flexible pipes / Freestanding Hybrid Riser' page; no print date stated",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "Flexible jumper connects riser top to production platform"
+    },
+    {
+      "metric": "FSHR - seabed connection",
+      "unit": "n/a",
+      "basis": "TechnipFMC 'Flexible pipes / Freestanding Hybrid Riser' page; no print date stated",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "Attached to seabed via a foundation; rigid base jumper connects FSHR to pipeline end termination"
+    },
+    {
+      "metric": "Flexible pipe - construction",
+      "unit": "n/a",
+      "basis": "TechnipFMC 'Flexible pipes / Freestanding Hybrid Riser' page; no print date stated",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "Leakproof thermoplastic barriers and corrosion-resistant steel wires; helically wound steel wires give high-pressure resistance and bending characteristics"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
@@ -25,6 +61,6 @@
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     }
   ],
-  "notes": "Deepwater riser solution described on the fetched TechnipFMC flexible pipes page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Deepwater riser solution described on the fetched TechnipFMC flexible pipes page. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

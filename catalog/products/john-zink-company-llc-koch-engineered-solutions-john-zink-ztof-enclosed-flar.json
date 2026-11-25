@@ -47,6 +47,51 @@
         "source_id": "cat-johnzink-com-ztof-enclosed-flare"
       },
       "value": 50
+    },
+    {
+      "metric": "turndown",
+      "unit": "to 1",
+      "basis": "High Turndown Capability: Supports up to 10:1 instantaneous turndown from maximum design without manual adjustments",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
+      },
+      "value": 10
+    },
+    {
+      "metric": "capacity",
+      "unit": "SCFM at 50% methane",
+      "basis": "Exceptional Capacity: Processes up to 6,000 SCFM at 50% methane concentration",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
+      },
+      "value": 6000
+    },
+    {
+      "metric": "destruction_rate_efficiency",
+      "unit": "%",
+      "basis": "Efficient Combustion: Achieves greater than 98% destruction rate efficiencies",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
+      },
+      "low": 98
+    },
+    {
+      "metric": "combustion_configuration",
+      "unit": "n/a",
+      "basis": "Product feature list",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
+      },
+      "value": "Dual-Pressure Combustion: simultaneously handles high and low-pressure gas streams"
+    },
+    {
+      "metric": "gas_compatibility",
+      "unit": "n/a",
+      "basis": "Biogas and RNG Compatibility feature",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
+      },
+      "value": "raw biogas, off-spec RNG, or mixed gas streams"
     }
   ],
   "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
@@ -55,6 +100,6 @@
       "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     }
   ],
-  "notes": "Field-proven since the 1970s; handles high and low pressure streams simultaneously; mobile configurations available. Related page text states near-zero CO emissions and NOx as low as 3-4 ppm for ZBRID/ZULE biogas equipment (not for this ZTOF unit).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Field-proven since the 1970s; handles high and low pressure streams simultaneously; mobile configurations available. Related page text states near-zero CO emissions and NOx as low as 3-4 ppm for ZBRID/ZULE biogas equipment (not for this ZTOF unit). Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

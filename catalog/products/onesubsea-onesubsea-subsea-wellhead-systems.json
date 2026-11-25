@@ -17,6 +17,71 @@
         "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
       },
       "value": "API 6A/17D, ASME IX, NACE MR0175/ISO 15156, DNVGL-RP-C203"
+    },
+    {
+      "metric": "Max pressure rating",
+      "unit": "psi",
+      "basis": "Max. pressure rating: 10,000 psi [68.9 MPa]",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "high": 10000
+    },
+    {
+      "metric": "Max pressure rating metric",
+      "unit": "MPa",
+      "basis": "Max. pressure rating: 10,000 psi [68.9 MPa]",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "high": 68.9
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degF",
+      "basis": "Temperature range: 0 to 150 degF [–17 to 65 degC]",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "low": 0,
+      "high": 150
+    },
+    {
+      "metric": "Temperature range metric",
+      "unit": "degC",
+      "basis": "Temperature range: 0 to 150 degF [–17 to 65 degC]",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "low": -17,
+      "high": 65
+    },
+    {
+      "metric": "Available sizes",
+      "unit": "n/a",
+      "basis": "Available sizes: 9, 11, and 13 5/8 in",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "value": "9, 11, and 13 5/8 in"
+    },
+    {
+      "metric": "Welding standards",
+      "unit": "n/a",
+      "basis": "Welding procedures conforms to API Specs 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, and DNVGL - RP - C203 fatigue classes F3, D, or C1",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "value": "API Specs 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 fatigue classes F3, D, or C1"
+    },
+    {
+      "metric": "Water depth suitability",
+      "unit": "n/a",
+      "basis": "Our wellheads are suitable for exploration and production in extreme conditions and all water depths.",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "value": "all water depths"
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
@@ -25,6 +90,6 @@
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     }
   ],
-  "notes": "fetched",
-  "last_reviewed": "2026-11-24"
+  "notes": "fetched Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

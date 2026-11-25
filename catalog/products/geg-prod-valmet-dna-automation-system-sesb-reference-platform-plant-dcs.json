@@ -17,6 +17,41 @@
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
         "source_id": "geg-valmet-com-65ff972"
       }
+    },
+    {
+      "metric": "Plant generating capacity (Patau-Patau)",
+      "unit": "MWe",
+      "basis": "Valmet press release 1 July 2016: 'generating set includes three gas turbines and one steam turbine, featuring a total generating capacity of 112 megawatts electric (MWe)'",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      },
+      "value": 112
+    },
+    {
+      "metric": "Automation scope",
+      "unit": "text",
+      "basis": "Valmet: 'integrates boiler, feedwater and turbine control into one Valmet DNA automation platform'; delivery 'includes a Valmet DNA automation system, an information management application, a turbine controller for an AEG Kanis steam turbine, integration of two existing GE F6 gas turbine controllers into Valmet DNA, engineering and commissioning'",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      }
+    },
+    {
+      "metric": "Startup date",
+      "unit": "date",
+      "basis": "Valmet: 'The new automation system will be started up in July 2016.'",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      }
+    },
+    {
+      "metric": "Typical automation delivery order value",
+      "unit": "EUR million (below 1 to 3, typical range; actual not disclosed)",
+      "basis": "Valmet: 'The value of the order will not be disclosed. Typically the order value of automation system deliveries ranges from below EUR one million to EUR three million.'",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      },
+      "low": 1,
+      "high": 3
     }
   ],
   "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
@@ -26,6 +61,6 @@
       "source_id": "geg-valmet-com-65ff972"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 4 new printed parameters."
 }

@@ -57,6 +57,69 @@
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
       "value": 700
+    },
+    {
+      "metric": "Energy range",
+      "unit": "kJ",
+      "basis": "6000W card: \"Energy range 200-6250 kJ\"; page headline \"Energy range up to 6,250 kJ\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 200,
+      "high": 6250
+    },
+    {
+      "metric": "Recommended oil flow",
+      "unit": "L/min",
+      "basis": "6000W card: \"Recommended oil flow 12800 L/min\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 12800
+    },
+    {
+      "metric": "Average operating pressure",
+      "unit": "bar",
+      "basis": "6000W card: \"Average operating pressure 210 bar\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 210
+    },
+    {
+      "metric": "Blow rate at recommended oil flow",
+      "unit": "bl/min",
+      "basis": "6000W card: \"Blow rate at recommended oil flow 30 bl/min\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Weight above water (5 m foot)",
+      "unit": "t",
+      "basis": "6000W most-popular specifications table: \"MHU6000W - 5 m Foot: Weight above 700 t\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 700
+    },
+    {
+      "metric": "Weight above / submerged (5 m, 8-9 m OD UW)",
+      "unit": "t",
+      "basis": "6000W table: \"MHU6000W - 5 m: 8 - 9 m OD UW: 1319 t above / 1020 t submerged; Supporting R\" (renewables)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      }
+    },
+    {
+      "metric": "Wind turbine foundations driven (range)",
+      "unit": "foundations (2500+)",
+      "basis": "Page counter: \"2500+ Wind turbine foundations driven\"",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 2500
     }
   ],
   "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
@@ -65,6 +128,13 @@
       "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     }
   ],
-  "notes": "Largest hammer in the printed range; 8-9 m OD UW variant 1,319 t above / 1,020 t submerged.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Largest hammer in the printed range; 8-9 m OD UW variant 1,319 t above / 1,020 t submerged. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Full MHU6000W data-sheet rows (dimensions, stroke, hammer mass details)",
+      "why": "Linked data sheet PDF not read",
+      "next_action": "Fetch the MHU6000W data sheet PDF via Jina for complete table"
+    }
+  ]
 }

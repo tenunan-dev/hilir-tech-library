@@ -27,6 +27,42 @@
         "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
       },
       "value": "deepwater, HPHT wellhead and downhole; sour-resistant options"
+    },
+    {
+      "metric": "Diamould wet connectors - application",
+      "unit": "n/a",
+      "basis": "OneSubsea 'Subsea wet connectors' page, Diamould wet connectors section; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
+      },
+      "value": "Subsea controls, distribution and instrumentation applications"
+    },
+    {
+      "metric": "Diamould wet connectors - environment",
+      "unit": "n/a",
+      "basis": "OneSubsea 'Subsea wet connectors' page, Diamould wet connectors section; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
+      },
+      "value": "Suitable for deepwater and high-pressure, high-temperature wellhead and downhole applications"
+    },
+    {
+      "metric": "Diamould wet connectors - sealing",
+      "unit": "n/a",
+      "basis": "OneSubsea 'Subsea wet connectors' page, Diamould wet connectors section; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
+      },
+      "value": "Dual-barrier system for mechanical and electrical sealing; unique male pin system gives immediate corrosion protection on de-mating"
+    },
+    {
+      "metric": "Diamould wet connectors - sour/sand resistance",
+      "unit": "n/a",
+      "basis": "OneSubsea 'Subsea wet connectors' page, Diamould wet connectors section; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
+      },
+      "value": "Many dry- and wet-mateable connectors resistant to sour environments and ingress of sand and silt"
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
@@ -35,6 +71,6 @@
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     }
   ],
-  "notes": "Dry- and wet-mateable variants.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Dry- and wet-mateable variants. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

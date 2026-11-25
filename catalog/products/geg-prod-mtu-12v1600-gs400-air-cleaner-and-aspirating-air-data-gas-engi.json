@@ -28,6 +28,150 @@
         "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
         "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
       }
+    },
+    {
+      "metric": "Generator set rating",
+      "unit": "n/a",
+      "basis": "Spec sheet title: 'mtu 12V1600 GS400 Gas Generator Set 400 kWe/60 Hz/Standby/208-600V'. 231296 | 2026-03.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "400 kWe / 60 Hz / Standby / 208 - 600 V"
+    },
+    {
+      "metric": "Engine model / type",
+      "unit": "n/a",
+      "basis": "Application data table 'Engine'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "12V1600L80S; 4-cycle; turbocharged, intercooled; 12-V"
+    },
+    {
+      "metric": "Displacement",
+      "unit": "L (cu in)",
+      "basis": "Application data table 'Displacement: L (cu in) 21.0 (1,281)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "21.0 (1,281)"
+    },
+    {
+      "metric": "Bore / stroke",
+      "unit": "cm (in)",
+      "basis": "Application data table 'Bore: cm (in) 12 (4.72); Stroke: cm (in) 15 (5.91)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "12 cm (4.72 in) / 15 cm (5.91 in)"
+    },
+    {
+      "metric": "Compression ratio",
+      "unit": "n/a",
+      "basis": "Application data table 'Compression ratio 11:1'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "11:1"
+    },
+    {
+      "metric": "Rated speed",
+      "unit": "rpm",
+      "basis": "Application data table 'Rated rpm 1,800'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "Maximum power NG / LPG",
+      "unit": "kWm (bhp)",
+      "basis": "Application data table 'Maximum power (NG): kWm (bhp) 565 (758); Maximum power (LPG) 397 (532)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "565 (758) / 397 (532)"
+    },
+    {
+      "metric": "Gas fuel consumption NG at 100% / 75% / 50%",
+      "unit": "m3/hr (ft3/hr)",
+      "basis": "Fuel consumption table (NG-1000 BTU/ft3): 'At 100% of power rating: m3/hr (ft3/hr) 143.5 (5,067)' etc.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "143.5 (5,067) / 115.7 (4,087) / 86.7 (3,063)"
+    },
+    {
+      "metric": "LPG fuel consumption at 100% / 75% / 50%",
+      "unit": "m3/hr (ft3/hr)",
+      "basis": "Fuel consumption table (LP-2500 BTU/ft3).",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "46.8 (1,654) / 38 (1,341) / 28.7 (1,015)"
+    },
+    {
+      "metric": "Steady state frequency band",
+      "unit": "%",
+      "basis": "Application data table 'Steady state frequency band ± 0.5%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "± 0.5 %"
+    },
+    {
+      "metric": "Emissions certification",
+      "unit": "n/a",
+      "basis": "Certifications and standards / Standard features sections; 'Emissions data ... values provided ... are typical and intended for limited design reference only. Refer to Emission Data Sheet (EDS)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "EPA Part 60 Subpart JJJJ Stationary Non-Emergency; EPA Part 1048 Mobile; EPA Blue Sky Series certified; 3-way catalyst"
+    },
+    {
+      "metric": "Standby rating definition",
+      "unit": "n/a",
+      "basis": "Rating definitions and conditions; 'Nominal ratings at standard conditions: 25 C and 300 meters (77 F and 1,000 feet).'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "85% average load factor; no overload capability; ISO 8528-1, ISO 3046-1, BS 5514, AS 2789"
+    },
+    {
+      "metric": "Air cleaner type",
+      "unit": "n/a",
+      "basis": "Application data table 'Air cleaner dry'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "dry"
+    },
+    {
+      "metric": "Aspirating air",
+      "unit": "m3/min (SCFM)",
+      "basis": "Air requirements table, NG and LPG: 'Aspirating: *m3/min (SCFM) 22.4 (791)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "22.4 (791)"
+    },
+    {
+      "metric": "Air flow for radiator cooled unit",
+      "unit": "m3/min (SCFM)",
+      "basis": "Air requirements table: 'Air flow required for radiator cooled unit: 960 (33,902)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "960 (33,902)"
+    },
+    {
+      "metric": "Remote-cooled dissipated heat air flow",
+      "unit": "m3/min (SCFM)",
+      "basis": "Air requirements table: 'Remote cooled applications; air flow required for dissipation of radiated generator set heat for a maximum of 25 F rise: 628 (22,304)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "628 (22,304)"
     }
   ],
   "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
@@ -35,8 +179,11 @@
     {
       "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
       "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 16 new printed parameters."
 }

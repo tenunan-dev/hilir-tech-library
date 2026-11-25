@@ -181,6 +181,700 @@
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
       "value": 300
+    },
+    {
+      "metric": "T1500+ water depth rating",
+      "unit": "m",
+      "basis": "'suitable for deployment in water depths to 500 m'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 500
+    },
+    {
+      "metric": "T1500+ power",
+      "unit": "hp",
+      "basis": "'the 1500 hp (1125 kW) subsea power system'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "T1500+ power (kW)",
+      "unit": "kW",
+      "basis": "same parenthetical",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 1125
+    },
+    {
+      "metric": "T1500+ current performance",
+      "unit": "knots",
+      "basis": "'up to 3.5 knots current performance'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "T1500+ maximum burial",
+      "unit": "m",
+      "basis": "'3 m maximum burial capacity'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 3
+    },
+    {
+      "metric": "UT-1 total power",
+      "unit": "MW",
+      "basis": "'the world's most powerful jetting ROV with 2.1MW of total power'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 2.1
+    },
+    {
+      "metric": "AMP1500 product handling diameter",
+      "unit": "mm",
+      "basis": "'capable of safely handling product up to 1500 mm'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "ACP2 minimum bend radius",
+      "unit": "m",
+      "basis": "'with a 5 m minimum bend radius'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 5
+    },
+    {
+      "metric": "IMF function",
+      "unit": "n/a",
+      "basis": "'cost-effective solution for mattress installation without the need for ROV or diver intervention'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      }
+    },
+    {
+      "metric": "Design code",
+      "unit": "n/a",
+      "basis": "'Design code: ASME Section VIII, Division 1'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Sour service",
+      "unit": "n/a",
+      "basis": "'H2S service additionally requires NACE compliance'; 'materials selected for applicable sour-service requirements'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Reference facility capacity",
+      "unit": "BOPD",
+      "basis": "'For the 100,000 BOPD West Qurna-1 wet crude treatment system in Iraq'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "Module weight",
+      "unit": "tonnes",
+      "basis": "'Each assembled module weighed over 100 tonnes and stood higher than two storeys'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Separation principles",
+      "unit": "n/a",
+      "basis": "'Momentum', 'Gravity settling', 'Coalescing'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Orientations/phases",
+      "unit": "n/a",
+      "basis": "'vertical and horizontal, and as either two or three phase units'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Inlet devices",
+      "unit": "n/a",
+      "basis": "'diverter plates, half pipe, vane and cyclonic'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Retention time basis",
+      "unit": "n/a",
+      "basis": "'set from fluid properties, separation duty and required outlet quality'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Maximum deployment water depth",
+      "unit": "m",
+      "basis": "\"The T1500+ is an advanced Jet Trenching ROV suitable for deployment in water depths to 500 m\"",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Subsea power system",
+      "unit": "hp",
+      "basis": "\"The system is the 1500 hp (1125 kW) subsea power system\"",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Subsea power system (kW)",
+      "unit": "kW",
+      "basis": "\"1500 hp (1125 kW) subsea power system\"",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 1125
+    },
+    {
+      "metric": "Current performance",
+      "unit": "knots (up to)",
+      "basis": "\"up to 3.5 knots current performance\"",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "Maximum burial capacity",
+      "unit": "m",
+      "basis": "\"3 m maximum burial capacity\"",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Typical inlet mercury concentration",
+      "unit": "micrograms/Nm3 (approx 0.1 to 10 ppbv)",
+      "basis": "\"It is not unusual for gas streams to contain 1 to 10 micrograms/Nm3 (approx. 0.1 to 10 ppbv) of mercury\"",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
+      },
+      "low": 1,
+      "high": 10
+    },
+    {
+      "metric": "Designed outlet mercury concentration",
+      "unit": "micrograms/Nm3",
+      "basis": "\"Typically, mercury removal units are designed to remove the mercury to 0.001 micrograms/Nm3\"",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
+      },
+      "value": 0.001
+    },
+    {
+      "metric": "Trapping chemistry",
+      "unit": "n/a",
+      "basis": "\"uses a sulfur based trapping material which reacts with the element to form cinnabar (HgS) on the bed\"",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
+      }
+    },
+    {
+      "metric": "Trapping material carriers",
+      "unit": "n/a",
+      "basis": "\"The trapping material is carried on activated carbon, zeolite or alumina\"",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
+      }
+    },
+    {
+      "metric": "Downstream equipment protected",
+      "unit": "n/a",
+      "basis": "\"Mercury can attack aluminum in downstream brazed aluminium plate fin heat exchangers used in most modern cryogenic hydrocarbon recovery plants or liquefaction plants\"",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
+      }
+    },
+    {
+      "metric": "Standard design pressure",
+      "unit": "psi (99 bar)",
+      "basis": "Specifications table: \"Standard design pressure 1440 psi (99 bar)\"; non-stock pressures engineered to process conditions",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      },
+      "value": 1440
+    },
+    {
+      "metric": "Design temperature (stock vessels)",
+      "unit": "degC (-20 F to 130 F)",
+      "basis": "Specifications table: \"Design temperature (stock vessels) -20 °F to 130 °F (-29 °C to 54 °C)\"",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      },
+      "low": -29,
+      "high": 54
+    },
+    {
+      "metric": "Configurations",
+      "unit": "n/a",
+      "basis": "Orientation table: horizontal double barrel (gas flow maximised in upper barrel without re-entrainment; liquid drops into lower barrel) and vertical (gravity removal; only lower portion of element saturates; smaller hardware at same flow rate)",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      }
+    },
+    {
+      "metric": "Separation stages",
+      "unit": "stages",
+      "basis": "\"The coalescer filter section removes bulk liquid and solid particles, and coalesces fine droplets into larger ones. Those larger droplets are then removed in a second double pocket (DP) vane section\"",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Reference project",
+      "unit": "gas filter separator skids",
+      "basis": "Project reference: \"Gas Lift Compression Station Skids for Tonmoor, Jones Creek, Nigeria 2019 — Two gas filter separator skids\"",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Total installed power",
+      "unit": "MW",
+      "basis": "DeepOcean: 'The UT-1 is the world's most powerful jetting ROV with 2.1MW of total power.'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 2.1
+    },
+    {
+      "metric": "Drive/pressure-flow control",
+      "unit": "text",
+      "basis": "'It is also fitted with sophisticated drive motors, which allows precise control of pressure and flow, giving a high degree of flexibility when undertaking workshops in varied environmental conditions'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      }
+    },
+    {
+      "metric": "Typical outlet oil-in-water",
+      "unit": "ppm (as low as)",
+      "basis": "SPEC Typical Design Data: 'As low as 25 ppm oil in water, depending on inlet water quality and droplet size'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Vessel code",
+      "unit": "text",
+      "basis": "SPEC: 'Vessel code ASME Section VIII'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
+      }
+    },
+    {
+      "metric": "Moving parts",
+      "unit": "None",
+      "basis": "SPEC: 'Moving parts: None'; 'Separation is driven by the pressure drop across the liner, not by rotating equipment.'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
+      },
+      "value": 0
+    },
+    {
+      "metric": "Vessel sizing / materials",
+      "unit": "text",
+      "basis": "SPEC: 'Vessel sizes: Configured around process requirements, operating conditions and project scope'; 'Materials: A range of materials and sizes depending on application'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
+      }
+    },
+    {
+      "metric": "Delivery / position",
+      "unit": "text",
+      "basis": "SPEC: 'Delivery: Skid-mounted units'; 'Typical position: Upstream of IGF, where process pressure allows'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
+      }
+    },
+    {
+      "metric": "safety_integrity_level",
+      "unit": "SIL",
+      "basis": "Safety Manager is part of Experion PKS, providing a Safety Integrity Level (SIL) 1-3 certified safety platform",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "SIL 1-3",
+      "low": 1,
+      "high": 3
+    },
+    {
+      "metric": "architecture",
+      "unit": "n/a",
+      "basis": "Based on the same Quadruple Modular Redundant (QMR) architecture as its FSC predecessor; executes SIL-defined safety application logic in a fully redundant (2oo4D) architecture",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture"
+    },
+    {
+      "metric": "cyber_security_certification",
+      "unit": "n/a",
+      "basis": "Its cyber secure architecture is certified by the Embedded Device Security Assurance program as defined by the ISA Security Compliance Institute",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Embedded Device Security Assurance program as defined by ISA Security Compliance Institute"
+    },
+    {
+      "metric": "IO_technology",
+      "unit": "n/a",
+      "basis": "Universal Safety IO (USIO) technology allows Safety Manager remote IO to be placed in hazardous locations; based on Universal Channel technology",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Universal Safety I/O; each channel individually configurable for a different I/O type; remote IO usable in hazardous locations"
+    },
+    {
+      "metric": "typical_outlet_quality",
+      "unit": "ppm oil in water",
+      "basis": "Specifications: Typical outlet quality - As low as 10 ppm oil in water, depending on inlet conditions",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
+      },
+      "high": 10
+    },
+    {
+      "metric": "induction_method",
+      "unit": "n/a",
+      "basis": "Differential Pressure Induction section",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
+      },
+      "value": "Differential Pressure Induction: venturi eductors induced by pressurised water from recirculation pumps; pumps and eductors sit outside the vessel for easy access"
+    },
+    {
+      "metric": "sizing_inputs",
+      "unit": "n/a",
+      "basis": "Vessel size, compartment count and eductor selection are set by SPEC engineering against your inlet water quality and flow rate; project data required",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
+      },
+      "value": "Produced water flow rate; Operating pressure and temperature; inlet water quality"
+    },
+    {
+      "metric": "Max pressure rating",
+      "unit": "psi",
+      "basis": "Max. pressure rating: 10,000 psi [68.9 MPa]",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "high": 10000
+    },
+    {
+      "metric": "Max pressure rating metric",
+      "unit": "MPa",
+      "basis": "Max. pressure rating: 10,000 psi [68.9 MPa]",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "high": 68.9
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degF",
+      "basis": "Temperature range: 0 to 150 degF [–17 to 65 degC]",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "low": 0,
+      "high": 150
+    },
+    {
+      "metric": "Temperature range metric",
+      "unit": "degC",
+      "basis": "Temperature range: 0 to 150 degF [–17 to 65 degC]",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "low": -17,
+      "high": 65
+    },
+    {
+      "metric": "Available sizes",
+      "unit": "n/a",
+      "basis": "Available sizes: 9, 11, and 13 5/8 in",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "value": "9, 11, and 13 5/8 in"
+    },
+    {
+      "metric": "Welding standards",
+      "unit": "n/a",
+      "basis": "Welding procedures conforms to API Specs 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, and DNVGL - RP - C203 fatigue classes F3, D, or C1",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "value": "API Specs 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 fatigue classes F3, D, or C1"
+    },
+    {
+      "metric": "Water depth suitability",
+      "unit": "n/a",
+      "basis": "Our wellheads are suitable for exploration and production in extreme conditions and all water depths.",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
+      },
+      "value": "all water depths"
+    },
+    {
+      "metric": "OGT-800-based output range",
+      "unit": "MW",
+      "basis": "With outputs ranging from 150 MW to 450 MW, the pre-designed, plug-and-play solution combines high efficiency",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "low": 150,
+      "high": 450
+    },
+    {
+      "metric": "OGT-8000H-based SeaFloat output",
+      "unit": "MW",
+      "basis": "The OGT-8000H-based SeaFloat solution delivers up to 1,330 MW with plant efficiency of more than 62%",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": 1330
+    },
+    {
+      "metric": "OGT-8000H plant efficiency",
+      "unit": "%",
+      "basis": "plant efficiency of more than 62%",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": "more than 62"
+    },
+    {
+      "metric": "OGT5-8000H gross power output",
+      "unit": "MW",
+      "basis": "The OGT5-8000H provides 450 MW of gross power output and fast ramp-up capabilities",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": 450
+    },
+    {
+      "metric": "Combined cycle configurations",
+      "unit": "n/a",
+      "basis": "In SeaFloat applications, 1x1 and 2x1 combined cycle configurations deliver up to 1,330 MW",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": "1x1 and 2x1, up to 1,330 MW"
+    },
+    {
+      "metric": "ULCC total efficiency",
+      "unit": "% (up to)",
+      "basis": "With total efficiency of up to 70%, the ULCC provides flexible heat and power generation",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": 70
+    },
+    {
+      "metric": "ULCC CO2 reduction",
+      "unit": "tonnes per year on a single FPSO",
+      "basis": "it can reduce CO₂ emissions by up to 110,000 tonnes per year on a single FPSO",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": 110000
+    },
+    {
+      "metric": "Estrella del Mar III floating plant",
+      "unit": "MW",
+      "basis": "The 148 MW floating combined cycle power plant was largely built in Singapore before being transported to the Dominican Republic",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": 148
+    },
+    {
+      "metric": "Product portfolio",
+      "unit": "n/a",
+      "basis": "SeaFloat power plant portfolio section",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": "combined cycle configurations based on aeroderivative, industrial and heavy-duty gas turbines; barges, offshore platforms, FPSOs and FSRPUs"
+    },
+    {
+      "metric": "Naming note",
+      "unit": "n/a",
+      "basis": "Siemens Energy and Siemens Gamesa are now Omterra. The formerly licensed \"SGT\" product portfolio is now offered under its new name, \"OGT.\"",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": "Siemens Energy and Siemens Gamesa are now Omterra; formerly licensed 'SGT' portfolio now offered as 'OGT'"
+    },
+    {
+      "metric": "Function",
+      "unit": "n/a",
+      "basis": "Stabilizers remove light ends from crude or condensate to meet the specified vapour-pressure limit",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
+      },
+      "value": "removes light ends from crude or condensate to meet specified vapour-pressure limit for storage, transport or export"
+    },
+    {
+      "metric": "Specification target",
+      "unit": "n/a",
+      "basis": "meet the Reid vapour pressure requirements specified by the customer",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
+      },
+      "value": "Reid vapour pressure (RVP)"
+    },
+    {
+      "metric": "H2S option",
+      "unit": "n/a",
+      "basis": "A similar arrangement is also offered for H₂S stripping from liquid, where the sales product has to meet a maximum allowable H₂S content",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
+      },
+      "value": "H2S stripping from liquid to meet maximum allowable H2S content"
+    },
+    {
+      "metric": "Major equipment",
+      "unit": "n/a",
+      "basis": "Major Equipment Within the System list",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
+      },
+      "value": "Stabilization Column (trays or structured packing); Stabilizer Reboiler; Stabilized/Unstabilized Heat Exchangers; Reflux Condenser"
+    },
+    {
+      "metric": "Arrangement",
+      "unit": "n/a",
+      "basis": "Arrangement section",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
+      },
+      "value": "Smaller units: column mounted directly on reboiler; Larger units: separate column and reboiler"
+    },
+    {
+      "metric": "Reboiler heat sources",
+      "unit": "n/a",
+      "basis": "Gas fired or hot oil / steam reboiler: heat medium selected to suit site utilities",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
+      },
+      "value": "gas fired, hot oil or steam"
+    },
+    {
+      "metric": "Materials/design option",
+      "unit": "n/a",
+      "basis": "NACE compliant design: sour service where H₂S is present",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
+      },
+      "value": "NACE compliant design for sour service where H2S is present"
+    },
+    {
+      "metric": "Delivery",
+      "unit": "n/a",
+      "basis": "Units can be supplied as skid-mounted modules",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
+      },
+      "value": "skid-mounted modules"
+    },
+    {
+      "metric": "Project reference",
+      "unit": "n/a",
+      "basis": "Project reference card on the page",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
+      },
+      "value": "Gas Treatment Units for Makat and Balgymbaeva Fields, Kazakhstan, 2013"
+    },
+    {
+      "metric": "Typical outlet quality",
+      "unit": "ppm oil in water",
+      "basis": "Typical outlet quality: As low as 5 ppm oil in water, depending on inlet conditions",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "As low as 5"
+    },
+    {
+      "metric": "Filter media",
+      "unit": "n/a",
+      "basis": "Filter media: Pecan and walnut shell blend",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "Pecan and walnut shell blend"
+    },
+    {
+      "metric": "Minimum filters",
+      "unit": "filters",
+      "basis": "Minimum filters: Two: one online, one regenerating or on standby",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Backwash water",
+      "unit": "n/a",
+      "basis": "Backwash water: Process water used, eliminating the need for a clean water source",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "Process water used, eliminating need for clean water source"
+    },
+    {
+      "metric": "Solids removal",
+      "unit": "n/a",
+      "basis": "Solids removal: High solids removal efficiency",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "High solids removal efficiency"
+    },
+    {
+      "metric": "Backwash steps",
+      "unit": "n/a",
+      "basis": "Backwash step table",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
+      },
+      "value": "1 Fluidise the bed; 2 Remove contaminated water; 3 Allow filter to settle; 4 Rinse filters"
     }
   ],
   "vendors": [
@@ -209,5 +903,5 @@
     "A fixed, pile-founded tubular steel substructure supporting a topside that houses wellheads, Christmas trees, well control and minimum processing; the wells are"
   ],
   "notes": "Page-read evidence from the 2026-11-24 wellhead-platform.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

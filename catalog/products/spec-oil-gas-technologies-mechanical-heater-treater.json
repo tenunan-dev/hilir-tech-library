@@ -17,6 +17,60 @@
         "source_id": "specoilandgas-com-oil-processing-mechanical-heater-treater"
       },
       "value": ">20,000 BLPD, including low-API crude"
+    },
+    {
+      "metric": "Heater treater - treating capacity",
+      "unit": "n/a",
+      "basis": "SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
+      },
+      "value": "Sized to duty, including above 20,000 BLPD (barrels of liquid per day)"
+    },
+    {
+      "metric": "Heater treater - orientation",
+      "unit": "n/a",
+      "basis": "SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
+      },
+      "value": "Horizontal, skid-mounted"
+    },
+    {
+      "metric": "Heater treater - crude range",
+      "unit": "n/a",
+      "basis": "SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
+      },
+      "value": "Including low-API crude"
+    },
+    {
+      "metric": "Heater treater - heat source",
+      "unit": "n/a",
+      "basis": "SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
+      },
+      "value": "Firetubes within the heating section"
+    },
+    {
+      "metric": "Heater treater - control",
+      "unit": "n/a",
+      "basis": "SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
+      },
+      "value": "Fully automated burner management system"
+    },
+    {
+      "metric": "Heater treater - sections",
+      "unit": "n/a",
+      "basis": "SPEC Oil & Gas Technologies 'Mechanical Heater Treater' page, Typical Design Data table; no print date stated",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
+      },
+      "value": "Two main sections: heating section and coalescing section"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
@@ -25,6 +79,6 @@
       "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

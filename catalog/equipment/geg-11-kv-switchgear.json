@@ -148,6 +148,228 @@
         "url": "https://www.jiahotech.com/switchgear-type-price-suppliers-in-malaysia",
         "source_id": "gef-jiahotech-com-switchgear-type-price-supplier-3564305"
       }
+    },
+    {
+      "metric": "Rated voltage variants",
+      "unit": "kV",
+      "basis": "ABB UniGear ZS1 Double Busbar leaflet 1VCP000156 Rev C 2024, technical table: 'Rated voltage [kV] 12 17.5 24'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      },
+      "low": 12,
+      "high": 24
+    },
+    {
+      "metric": "Rated voltage variant 2",
+      "unit": "kV",
+      "basis": "ABB leaflet table: 12 / 17.5 / 24 kV",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      },
+      "value": 17.5
+    },
+    {
+      "metric": "Internal arc classification",
+      "unit": "AFLR",
+      "basis": "ABB leaflet table: 'Internal Arc Classification (IAC) AFLR AFLR AFLR' for 12/17.5/24 kV; Features: 'Internal arc class: FLR'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      }
+    },
+    {
+      "metric": "Insulation level - power frequency / lightning impulse (12 kV)",
+      "unit": "kV",
+      "basis": "ABB leaflet: 'Insulation levels / power frequency / lightning impulse [kV] 12 / 28 / 75 17.5 / 38 / 95 24 / 50 / 125'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      }
+    },
+    {
+      "metric": "Insulation level - power frequency / lightning impulse (24 kV)",
+      "unit": "kV",
+      "basis": "ABB leaflet: '24 / 50 / 125'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      }
+    },
+    {
+      "metric": "Rated frequency",
+      "unit": "Hz",
+      "basis": "ABB leaflet: 'Rated frequency [Hz] 50 / 60 50 / 60 50 / 60'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      },
+      "low": 50,
+      "high": 60
+    },
+    {
+      "metric": "Rated main busbar current at 40 degC",
+      "unit": "A",
+      "basis": "ABB leaflet: 'Rated main busbar current (40°C) [A] ...4 000 ...4 000 ...2 500'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      },
+      "low": 2500,
+      "high": 4000
+    },
+    {
+      "metric": "Rated feeder current at 40 degC",
+      "unit": "A",
+      "basis": "ABB leaflet: 'Rated feeder current (40°C) [A] ...4 000 ...4 000 ...2 500'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      },
+      "low": 2500,
+      "high": 4000
+    },
+    {
+      "metric": "Rated short-time current",
+      "unit": "kA x 3 s",
+      "basis": "ABB leaflet: 'Rated short-time current 1) [kA x 3 s] ...31.5 ...31.5 ...25'; footnote: duplex back to back configuration can cover 40/50 kA",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      },
+      "low": 25,
+      "high": 31.5
+    },
+    {
+      "metric": "Arc proof withstand current (IEC 62271-200)",
+      "unit": "kA x 1 s",
+      "basis": "ABB leaflet: 'Arc proof withstand current (IEC 62271-200) 1) [kA x 1 s] ...31.5 ...31.5 ...25'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      },
+      "low": 25,
+      "high": 31.5
+    },
+    {
+      "metric": "Panel height",
+      "unit": "mm",
+      "basis": "ABB leaflet: 'Height [mm] 2 200 ... 2 595 2) 2 200 ... 2 595 2) 2400 ... 2 720 2)'; footnote: height of low voltage compartment 705 / 1 100 mm",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      },
+      "low": 2200,
+      "high": 2720
+    },
+    {
+      "metric": "Panel width",
+      "unit": "mm",
+      "basis": "ABB leaflet: 'Width [mm] 650 / 800 / 1 000 3) 650 / 800 / 1 000 3) 800 / 1 000 3)'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      },
+      "low": 650,
+      "high": 1000
+    },
+    {
+      "metric": "Panel depth",
+      "unit": "mm",
+      "basis": "ABB leaflet: 'Depth [mm] 2021 2021 2 570'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      },
+      "low": 2021,
+      "high": 2570
+    },
+    {
+      "metric": "Design classification",
+      "unit": "text",
+      "basis": "ABB leaflet: 'Standards: IEC • Design: LSC-2B, PM • Accessibility type: A • Internal arc class: FLR'; 'Fully type tested according to IEC 62271-200'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      }
+    },
+    {
+      "metric": "Switching devices",
+      "unit": "text",
+      "basis": "ABB leaflet: 'Vacuum circuit breaker with spring actuator • Vacuum circuit breaker with magnetic actuator • SF6 circuit breaker with spring actuator'",
+      "source": {
+        "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf"
+      }
+    },
+    {
+      "metric": "Rated voltage range",
+      "unit": "kV",
+      "basis": "Siemens catalog HG 11.06 (2017): 'Vacuum Circuit-Breaker 3AK7 from 7.2 to 17.5 kV'; technical data table 'Rated voltage Ur (kV) 7.2 12 17.5 / 7.2 12 15 17.5'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 7.2,
+      "high": 17.5
+    },
+    {
+      "metric": "Rated normal current",
+      "unit": "A (with forced cooling for 4000)",
+      "basis": "Siemens: 'rated for load currents up to 4000 A'; 'Rated normal current Ir A 1250; 2000; 2500; 3150; 4000 (with forced cooling)'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 1250,
+      "high": 4000
+    },
+    {
+      "metric": "Short-circuit breaking current",
+      "unit": "kA (up to)",
+      "basis": "Siemens: 'capable to break short-circuit currents up to 50 kA'; table 'Rated short-circuit breaking current Isc kA 50 40 50 40 50 40 50'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Pole-center distance",
+      "unit": "mm",
+      "basis": "Siemens: 'lean pole-shell design with a pole-center distance of 210 mm'; technical data '210 / 280'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 210
+    },
+    {
+      "metric": "Maintenance-free operating cycles",
+      "unit": "cycles",
+      "basis": "Siemens: 'The 3AK7 is maintenance-free up to 10,000 operating cycles. 30,000 operating cycles on request.'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Lightning impulse withstand voltage",
+      "unit": "kV",
+      "basis": "Siemens technical data: 'Rated lightning impulse withstand voltage Up kV 60 75 95 60 60 75 75 95 95'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 60,
+      "high": 95
+    },
+    {
+      "metric": "Power-frequency withstand voltage",
+      "unit": "kV",
+      "basis": "Siemens: 'Rated short-duration power-frequency withstand voltage Ud kV 20 28 38 20 20 28 28 38 38'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 20,
+      "high": 38
+    },
+    {
+      "metric": "Standards",
+      "unit": "text",
+      "basis": "Siemens: 'IEC 62271-100; IEC 62271-1; IEC 60265-1; IEC/IEEE 62271-37-013:2015 (marked accordingly)'; endurance classes E2, M2, S1, C2",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      }
+    },
+    {
+      "metric": "Ambient / altitude conditions",
+      "unit": "text",
+      "basis": "Siemens: climatic class 3K4 (24-hour mean +35°C), 3K6; rated currents defined at +40°C ambient; withstand voltages apply to site altitude 1000 m; altitude correction factor Ka",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      }
     }
   ],
   "vendor_models": [
@@ -238,5 +460,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

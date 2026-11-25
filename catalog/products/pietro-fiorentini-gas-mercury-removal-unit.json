@@ -27,14 +27,68 @@
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
       },
       "value": "0.001 ug/Nm3"
+    },
+    {
+      "metric": "Typical inlet mercury concentration",
+      "unit": "micrograms/Nm3 (approx 0.1 to 10 ppbv)",
+      "basis": "\"It is not unusual for gas streams to contain 1 to 10 micrograms/Nm3 (approx. 0.1 to 10 ppbv) of mercury\"",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/",
+        "source_id": "catpar-fiorentini-iberia-com-be8bb5b"
+      },
+      "low": 1,
+      "high": 10
+    },
+    {
+      "metric": "Designed outlet mercury concentration",
+      "unit": "micrograms/Nm3",
+      "basis": "\"Typically, mercury removal units are designed to remove the mercury to 0.001 micrograms/Nm3\"",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
+      },
+      "value": 0.001
+    },
+    {
+      "metric": "Trapping chemistry",
+      "unit": "n/a",
+      "basis": "\"uses a sulfur based trapping material which reacts with the element to form cinnabar (HgS) on the bed\"",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
+      }
+    },
+    {
+      "metric": "Trapping material carriers",
+      "unit": "n/a",
+      "basis": "\"The trapping material is carried on activated carbon, zeolite or alumina\"",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
+      }
+    },
+    {
+      "metric": "Downstream equipment protected",
+      "unit": "n/a",
+      "basis": "\"Mercury can attack aluminum in downstream brazed aluminium plate fin heat exchangers used in most modern cryogenic hydrocarbon recovery plants or liquefaction plants\"",
+      "source": {
+        "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
+      }
     }
   ],
   "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
   "sources": [
     {
       "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal"
+    },
+    {
+      "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Bed size, flow capacity and design pressure of mercury removal units",
+      "why": "Not printed on the system overview page",
+      "next_action": "Request a unit datasheet from the vendor if sizing figures needed"
+    }
+  ]
 }

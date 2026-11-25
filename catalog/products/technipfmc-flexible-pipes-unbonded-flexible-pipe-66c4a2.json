@@ -17,6 +17,39 @@
         "source_id": "cat-technipfmc-com-flexible-pipes"
       },
       "value": "Leakproof thermoplastic barriers + corrosion-resistant steel wires, helically wound; modular independent layers"
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "'flexible pipe is made up of several different layers. The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
+      }
+    },
+    {
+      "metric": "Structure",
+      "unit": "n/a",
+      "basis": "'The helically wound steel wires give the structure its high-pressure resistance and excellent bending characteristics'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
+      }
+    },
+    {
+      "metric": "Attributes",
+      "unit": "n/a",
+      "basis": "'Leak-proof', 'Corrosion resistant', 'High-pressure resistant', 'Bendable', 'Flexible', 'Adjustable', 'Retrievable', 'Fit for purpose', 'Interactive layers', 'Dynamic execution'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
+      }
+    },
+    {
+      "metric": "Pioneered year",
+      "unit": "decade",
+      "basis": "'We pioneered flexible pipe technology in the early 1970s'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
+      },
+      "value": 1970
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
@@ -25,6 +58,13 @@
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     }
   ],
-  "notes": "HTML page read successfully; it is descriptive and prints no numeric performance table. Linked 210x270 PDF brochure was not WebFetch-readable.",
-  "last_reviewed": "2026-11-24"
+  "notes": "HTML page read successfully; it is descriptive and prints no numeric performance table. Linked 210x270 PDF brochure was not WebFetch-readable. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Pressure/temperature/bore/size ratings for flexible pipe and IPB",
+      "why": "Page descriptive only; no ratings printed",
+      "next_action": "Consult TechnipFMC flexible pipe product datasheets"
+    }
+  ]
 }

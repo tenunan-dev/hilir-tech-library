@@ -30,6 +30,42 @@
         "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
       },
       "value": 8.4
+    },
+    {
+      "metric": "WindFloat WF1 - turbine rating",
+      "unit": "MW (Vestas 2 MW turbine)",
+      "basis": "Wikipedia 'Floating offshore wind' article (secondary source), WindFloat/Principle Power entries",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
+      },
+      "value": 2
+    },
+    {
+      "metric": "WindFloat WF1 - electricity produced",
+      "unit": "n/a",
+      "basis": "Wikipedia 'Floating offshore wind' article (secondary source), WindFloat/Principle Power entries",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
+      },
+      "value": "Over 17 GWh over 5 years (2011-2016)"
+    },
+    {
+      "metric": "WindFloat WF1 - location",
+      "unit": "n/a",
+      "basis": "Wikipedia 'Floating offshore wind' article (secondary source), WindFloat/Principle Power entries",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
+      },
+      "value": "About 5 km offshore of Agucadoura, Portugal; installed September 2011"
+    },
+    {
+      "metric": "WindFloat WF1 - installation method",
+      "unit": "n/a",
+      "basis": "Wikipedia 'Floating offshore wind' article (secondary source), WindFloat/Principle Power entries",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
+      },
+      "value": "Installed without use of heavy-lift vessels"
     }
   ],
   "vendors": [
@@ -46,5 +82,5 @@
     "Shallow-draft buoyant hulls used as drilling/production/support bases; spud barges, swamp barges and deck barges can be moored or jack-up supported."
   ],
   "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

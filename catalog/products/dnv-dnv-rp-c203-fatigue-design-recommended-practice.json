@@ -17,6 +17,24 @@
         "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
       },
       "value": "2024-10, amended 2025-10"
+    },
+    {
+      "metric": "DNV-RP-C203 - edition / amendment",
+      "unit": "n/a",
+      "basis": "DNV-RP-C203 'Fatigue design of offshore steel structures' recommended practice page, Edition 2024-10 - Amended 2025-10; copyright DNV AS 2026",
+      "source": {
+        "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
+      },
+      "value": "Edition 2024-10 - Amended 2025-10"
+    },
+    {
+      "metric": "DNV-RP-C203 - objective",
+      "unit": "n/a",
+      "basis": "DNV-RP-C203 'Fatigue design of offshore steel structures' recommended practice page, Edition 2024-10 - Amended 2025-10; copyright DNV AS 2026",
+      "source": {
+        "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
+      },
+      "value": "Methods for fatigue assessment of offshore steel structures and structural components, ensuring safe fatigue design"
     }
   ],
   "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
@@ -25,6 +43,13 @@
       "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
     }
   ],
-  "notes": "Subscription document; scope verified.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Subscription document; scope verified. Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Full DNV-RP-C203 technical content (S-N curves, fatigue design factors)",
+      "why": "The public page gives only the edition and objective; the complete recommended practice is behind a Veracity subscription",
+      "next_action": "Obtain the standard via subscription; do not infer S-N curves from the landing page"
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "catpar-cat-com-k-series-html-845ef10",
+  "name": "Cat K Series campaign page",
+  "url": "https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Caterpillar Inc.",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Cat K-series page, no print date stated; r.jina.ai proxy used."
+}

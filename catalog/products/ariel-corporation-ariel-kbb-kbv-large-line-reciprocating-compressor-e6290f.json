@@ -111,6 +111,168 @@
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
       "value": 27
+    },
+    {
+      "metric": "Rated power (4 throw KBB/KBV)",
+      "unit": "BHP",
+      "basis": "4 Throw table: Rated Power 6,668 (KBB and KBV)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 6668
+    },
+    {
+      "metric": "Rated power (6 throw KBB/KBV)",
+      "unit": "BHP",
+      "basis": "6 Throw table: Rated Power 10,000 (KBB and KBV); intro also says \"rated up to 10,000 BHP\"",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Stroke KBB",
+      "unit": "in",
+      "basis": "Both 4-throw and 6-throw tables: Stroke (in) KBB 7.25",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 7.25
+    },
+    {
+      "metric": "Stroke KBV",
+      "unit": "in",
+      "basis": "Both tables: Stroke (in) KBV 8.50",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 8.5
+    },
+    {
+      "metric": "Max RPM KBB",
+      "unit": "rpm",
+      "basis": "Both tables: Max RPM KBB 900",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 900
+    },
+    {
+      "metric": "Max RPM KBV",
+      "unit": "rpm",
+      "basis": "Both tables: Max RPM KBV 750",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 750
+    },
+    {
+      "metric": "Piston speed KBB",
+      "unit": "(printed, unit not stated in table)",
+      "basis": "Both tables: Piston Speed KBB 1,088",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 1088
+    },
+    {
+      "metric": "Piston speed KBV",
+      "unit": "(printed, unit not stated in table)",
+      "basis": "Both tables: Piston Speed KBV 1,063",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 1063
+    },
+    {
+      "metric": "Rod diameter",
+      "unit": "in",
+      "basis": "Both tables: Rod Diameter (in) 3.125 KBB and KBV",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 3.125
+    },
+    {
+      "metric": "Total rod load",
+      "unit": "lbs",
+      "basis": "Both tables: Total Rod Load (lbs) 190,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 190000
+    },
+    {
+      "metric": "Tension rod load",
+      "unit": "lbs",
+      "basis": "Both tables: Tension (lbs) 95,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 95000
+    },
+    {
+      "metric": "Compression rod load",
+      "unit": "lbs",
+      "basis": "Both tables: Compression (lbs) 100,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "Average weight (4 throw)",
+      "unit": "lbs",
+      "basis": "4 Throw table: Average Weight (lbs) 79,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 79000
+    },
+    {
+      "metric": "Average weight (6 throw)",
+      "unit": "lbs",
+      "basis": "6 Throw table: Average Weight (lbs) 115,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 115000
+    },
+    {
+      "metric": "Max length (4 throw)",
+      "unit": "in",
+      "basis": "4 Throw table: Max Length (in) 144",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 144
+    },
+    {
+      "metric": "Max length (6 throw)",
+      "unit": "in",
+      "basis": "6 Throw table: Max Length (in) 188",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 188
+    },
+    {
+      "metric": "Nominal width",
+      "unit": "in",
+      "basis": "Both tables: Nominal Width (in) 228",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 228
+    },
+    {
+      "metric": "Crankshaft centerline height",
+      "unit": "in",
+      "basis": "Both tables: Crankshaft Centerline (in) 27",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 27
     }
   ],
   "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
@@ -119,6 +281,13 @@
       "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     }
   ],
-  "notes": "Full pressure lubrication with frame-driven lube oil pump and divider-block cylinder/packing lubrication. Linked KBBV product spec sheet is a PDF (not read).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Full pressure lubrication with frame-driven lube oil pump and divider-block cylinder/packing lubrication. Linked KBBV product spec sheet is a PDF (not read). Full-parameter pass 2026-11-26: 18 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Linked KBBV_Product_Sheet.pdf detailed cylinder/frame data",
+      "why": "Linked PDF not read in this pass",
+      "next_action": "Fetch PDF via Jina for additional printed ratings if needed"
+    }
+  ]
 }

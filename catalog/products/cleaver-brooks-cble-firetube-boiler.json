@@ -80,6 +80,125 @@
       },
       "unit": "sq ft per BHP",
       "value": 5
+    },
+    {
+      "metric": "Steam pressure",
+      "unit": "psig",
+      "basis": "Steam up to 300 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Hot water pressure",
+      "unit": "psig",
+      "basis": "Hot water up to 125 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": 125
+    },
+    {
+      "metric": "Boiler horsepower",
+      "unit": "HP",
+      "basis": "50 to 800 HP; Boiler Horsepower 50 - 800",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "low": 50,
+      "high": 800
+    },
+    {
+      "metric": "Number of passes",
+      "unit": "pass",
+      "basis": "4 Pass; Number Of Passes 4",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Fuel",
+      "unit": "n/a",
+      "basis": "Natural gas/propane, #2 and #6 oil, combination",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "Natural gas/propane, #2 and #6 oil, combination"
+    },
+    {
+      "metric": "NOx emission rates available",
+      "unit": "n/a",
+      "basis": "60 ppm, 30 ppm, 9 ppm and 5 ppm NOx emission rates are available",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "60 ppm, 30 ppm, 9 ppm and 5 ppm"
+    },
+    {
+      "metric": "Emissions table value",
+      "unit": "ppm NOx",
+      "basis": "Attributes table: Emissions (ppm NOx) <9",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "<9"
+    },
+    {
+      "metric": "Burner NOx claim",
+      "unit": "n/a",
+      "basis": "The burner design also helps meet emissions reduction goals, down to <7 ppm NOx",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "<7 ppm NOx"
+    },
+    {
+      "metric": "Input capacity",
+      "unit": "(as printed, no unit)",
+      "basis": "Input Capacity 2,000 - 32,660 (Attributes table)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "low": 2000,
+      "high": 32660
+    },
+    {
+      "metric": "Heat transfer area",
+      "unit": "sq ft / BHP",
+      "basis": "5 sq ft / BHP",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Design",
+      "unit": "n/a",
+      "basis": "Vessel Design Firetube; Waterback or Dryback design",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "Firetube; Waterback or Dryback design"
+    },
+    {
+      "metric": "Steam or hot water",
+      "unit": "n/a",
+      "basis": "Steam Or Hot Water: Steam, Hot Water",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "Steam, Hot Water"
+    },
+    {
+      "metric": "Vessel design feature",
+      "unit": "n/a",
+      "basis": "Exclusive Cleaver-Brooks integral head burner with air-cooled front head",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "integral head burner with air-cooled front head"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cble",
@@ -88,6 +207,6 @@
       "url": "https://cleaverbrooks.com/product/cble"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 13 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -27,6 +27,58 @@
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
       "value": 2
+    },
+    {
+      "metric": "Tank count and capacity",
+      "unit": "t per tank (two tanks)",
+      "basis": "\"SPG Steiner GmbH (Germany) – BEDP for two 40,000-tonne cryogenic ammonia tanks\" (July 2024)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 40000
+    },
+    {
+      "metric": "Annual renewable ammonia production (project)",
+      "unit": "tonnes per annum",
+      "basis": "Production details table: \"Annual (renewables-based) ammonia production: 958,500 tonnes per annum\"",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 958500
+    },
+    {
+      "metric": "Annual renewable hydrogen production (project)",
+      "unit": "tonnes per annum",
+      "basis": "Production details table: \"Annual (renewables-based) hydrogen production: 174,500 tonnes per annum\"",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 174500
+    },
+    {
+      "metric": "Electrolyzer capacity (project)",
+      "unit": "MW",
+      "basis": "Production details table: \"Electrolyzer Capacity: 3,000 MW\"; January 2025 Plug Power purchase agreement for 3 GW electrolysers",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Solar capacity / BESS (project)",
+      "unit": "n/a",
+      "basis": "Production details: \"Solar Energy Capacity: 4,750 MW; Battery Energy Storage System: 1600 MWh\"",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      }
+    },
+    {
+      "metric": "Page date / review",
+      "unit": "n/a",
+      "basis": "CSIRO HyResource project page dated 'October 20th, 2025'; 'Reviewed (reviewed by the project proponent): April 2026'",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      }
     }
   ],
   "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
@@ -35,6 +87,13 @@
       "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     }
   ],
-  "notes": "Development-stage contract.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Development-stage contract. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Tank dimensions, design pressure/temperature and insulation specification",
+      "why": "CSIRO project page only states tank capacity and scope",
+      "next_action": "Fetch the SPG Steiner source link for tank-level specifications"
+    }
+  ]
 }

@@ -37,6 +37,68 @@
         "source_id": "sys-nexans-com"
       },
       "value": 30
+    },
+    {
+      "metric": "Cable voltage and type",
+      "unit": "kV HVAC dynamic cable",
+      "basis": "\"Nexans scope: turnkey design, manufacturing and installation of a 145 kV HVAC dynamic cable\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 145
+    },
+    {
+      "metric": "Route length",
+      "unit": "km (about)",
+      "basis": "\"Route: about 135 km, Barrow Island to a floating Field Control Station, in one continuous length\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 135
+    },
+    {
+      "metric": "Trenched cable length",
+      "unit": "km",
+      "basis": "\"Trenching of 30 km of cable\"; \"after installing 26 buoyancy modules and trenching 30 km of cable\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Buoyancy modules installed",
+      "unit": "modules",
+      "basis": "\"Installation of 26 buoyancy modules, using a horizontal method developed by Nexans\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 26
+    },
+    {
+      "metric": "VIV strakes installed",
+      "unit": "m (about)",
+      "basis": "\"Installation of about 200 meters of VIV (vortex-induced vibration) strakes in the Scarp section\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Rock stabilization remaining",
+      "unit": "km",
+      "basis": "\"Rock stabilization along the last 28 km of the route\"",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      },
+      "value": 28
+    },
+    {
+      "metric": "Project and publication date",
+      "unit": "n/a",
+      "basis": "News item 'Jansz-Io: Nexans Aurora completes subsea cable installation', dated 20 November 2026; vessel left Australia 23 October 2026; final soak test planned February 2027",
+      "source": {
+        "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
+      }
     }
   ],
   "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
@@ -45,6 +107,13 @@
       "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     }
   ],
-  "notes": "Power cable for subsea gas compression; not a hydraulic umbilical.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Power cable for subsea gas compression; not a hydraulic umbilical. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Cable conductor size, insulation thickness, current rating and design water depth",
+      "why": "Project news article gives installed lengths but no cable construction ratings",
+      "next_action": "Fetch a Nexans 145 kV dynamic cable datasheet if ratings needed"
+    }
+  ]
 }

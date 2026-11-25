@@ -17,14 +17,129 @@
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
       "value": "SPMT-equipped deck with ballast system (no capacity figure printed)"
+    },
+    {
+      "metric": "Topsides single-lift capacity",
+      "unit": "tonnes",
+      "basis": "installation or removal of platform topsides up to 60,000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "high": 60000
+    },
+    {
+      "metric": "Jacket single-lift capacity",
+      "unit": "tonnes",
+      "basis": "jackets up to 20,000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "high": 20000
+    },
+    {
+      "metric": "S-lay tension capacity",
+      "unit": "tonnes",
+      "basis": "unmatched S-lay tension capacity of 2000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Azimuth thrusters",
+      "unit": "count",
+      "basis": "precision positioning enabled by 12 azimuth thrusters",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Pipe-holding capacity",
+      "unit": "tonnes",
+      "basis": "2000-tonne pipe-holding capacity, double that of any rival pipelay vessel",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Length",
+      "unit": "m",
+      "basis": "Vessel specifications PDF: 382 m",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf",
+        "source_id": "catpar-allseas-com-pioneering-spirit-vessel-specs-2-82c5e58"
+      },
+      "value": 382
+    },
+    {
+      "metric": "Breadth",
+      "unit": "m",
+      "basis": "Vessel specifications PDF: 124 m",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "value": 124
+    },
+    {
+      "metric": "Total installed power",
+      "unit": "kW",
+      "basis": "Vessel specifications PDF: 95,000 kW",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "value": 95000
+    },
+    {
+      "metric": "Accommodation",
+      "unit": "persons",
+      "basis": "Vessel specifications PDF: 571 persons",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "value": 571
+    },
+    {
+      "metric": "Dynamic positioning",
+      "unit": "n/a",
+      "basis": "Vessel specifications PDF: DP3, K-Pos DP-22, 2x cJoy system",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "value": "DP3, K-Pos DP-22, 2x cJoy system"
+    },
+    {
+      "metric": "Pipeline installation water depth",
+      "unit": "m",
+      "basis": "to approx. 3,000 m water depth (vessel specifications PDF)",
+      "source": {
+        "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
+      },
+      "high": 3000
     }
   ],
   "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
   "sources": [
     {
       "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+    },
+    {
+      "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     }
   ],
-  "notes": "Braveheart due late 2025 with electric ballast system and tidal compensation (Allseas page).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Braveheart due late 2025 with electric ballast system and tidal compensation (Allseas page). Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Iron Lady / Braveheart barge capacities and dimensions",
+      "why": "Page describes these barges qualitatively only (ballast system, SMPT-equipped deck, electric ballast, tidal compensation); no numbers printed.",
+      "next_action": "Find the dedicated Iron Lady / Braveheart vessel specification sheets on allseas.com."
+    },
+    {
+      "what": "Product URL / page-content mismatch",
+      "why": "The assigned URL resolves to the Pioneering Spirit page, not the Iron Lady / Braveheart page; the figures above are Pioneering Spirit figures and are kept separate, not reconciled with the two barges.",
+      "next_action": "Re-point this product to the Allseas Iron Lady / Braveheart pages before reuse."
+    }
+  ]
 }

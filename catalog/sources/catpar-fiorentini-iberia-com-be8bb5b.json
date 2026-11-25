@@ -1,0 +1,25 @@
+{
+  "id": "catpar-fiorentini-iberia-com-be8bb5b",
+  "name": "fiorentini-iberia.com",
+  "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Fiorentini Iberia.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. \"It is not unusual for gas streams to contain 1 to 10 micrograms/Nm3 (approx. 0.1 to 10 ppbv) of mercury\""
+}

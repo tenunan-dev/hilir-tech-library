@@ -83,6 +83,107 @@
         "url": "https://www.geapl.com/telescopic-sliding-gates",
         "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
       }
+    },
+    {
+      "metric": "maximum_clear_width",
+      "unit": "mm",
+      "basis": "Technical Specification: Maximum Clear Width Up to 40000mm Single Leaf / 80000mm Double leaf (Bi-Parting)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "high": 40000
+    },
+    {
+      "metric": "maximum_clear_width_double_leaf",
+      "unit": "mm",
+      "basis": "Maximum Clear Width Up to 80000mm Double leaf (Bi-Parting)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "value": 80000
+    },
+    {
+      "metric": "maximum_height",
+      "unit": "mm",
+      "basis": "Maximum Height Up to 3000 mm (Larger dimensions available on request)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "telescopic_systems",
+      "unit": "systems",
+      "basis": "Number of Telescopic System 2, 3, 4 & 5 (greater the number, lesser the back room space required)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "value": "2, 3, 4 & 5"
+    },
+    {
+      "metric": "drive_opening_speed",
+      "unit": "m/s",
+      "basis": "Drive Opening Speed Up to 0.16 m/s (up to 0.3 m/s on request)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "high": 0.16
+    },
+    {
+      "metric": "drive_closing_speed",
+      "unit": "m/s",
+      "basis": "Drive Closing Speed Up to 0.16 m/s (up to 0.3 m/s on request)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "high": 0.16
+    },
+    {
+      "metric": "capacity",
+      "unit": "kg",
+      "basis": "Capacity 300Kg to 25000Kg",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "low": 300,
+      "high": 25000
+    },
+    {
+      "metric": "connecting_voltage",
+      "unit": "n/a",
+      "basis": "Connecting Voltage 230V-1ph, N / 415V-3ph, N",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "value": "230V-1ph, N / 415V-3ph, N"
+    },
+    {
+      "metric": "protection_category",
+      "unit": "n/a",
+      "basis": "Protection Category Operator: IP 44 (higher IP rating on request)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "value": "IP 44"
+    },
+    {
+      "metric": "bottom_rollers",
+      "unit": "mm",
+      "basis": "Bottom Rollers: Italian make Galvanised Wheels min 120mm dia with ball bearings",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "value": "min 120mm dia galvanised wheels with ball bearings and axle with lubrication point",
+      "low": 120
+    },
+    {
+      "metric": "standards",
+      "unit": "n/a",
+      "basis": "Technical specification and standards printed on page",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates"
+      },
+      "value": "CE marking, Machine Directive 2006/42/EC, EMC Directive 2004/108/EC, Low Voltage Directive 2006/95/EC; type tested EN 13241-1; hot dip galvanizing ISO 1461:2022; marine paint ISO 12944"
     }
   ],
   "url": "https://www.geapl.com/telescopic-sliding-gates",
@@ -92,6 +193,6 @@
       "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 11 new printed parameters."
 }

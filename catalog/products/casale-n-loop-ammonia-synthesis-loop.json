@@ -37,6 +37,49 @@
         "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
       },
       "value": 130
+    },
+    {
+      "metric": "Plant capacity",
+      "unit": "MTD (metric tonnes per day)",
+      "basis": "'the 1200 MTD coal-based ammonia plant' owned by Jiangsu Debang Xinghua Chemical Technology Co., Ltd.",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+      },
+      "value": 1200
+    },
+    {
+      "metric": "Capacity reached shortly after start-up",
+      "unit": "% of capacity",
+      "basis": "Casale news release 'Casale Technology Sets New Performance Standard for Ammonia Plants in China', 25 July 2025",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+      },
+      "value": 110
+    },
+    {
+      "metric": "Stable operating load",
+      "unit": "% load",
+      "basis": "Casale news release 'Casale Technology Sets New Performance Standard for Ammonia Plants in China', 25 July 2025",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+      },
+      "value": 130
+    },
+    {
+      "metric": "Commissioning date",
+      "unit": "n/a",
+      "basis": "'Commissioned in June 2024'",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+      }
+    },
+    {
+      "metric": "Synthesis loop performance",
+      "unit": "n/a",
+      "basis": "'No bottlenecks encountered in the synthesis loop'; Casale proprietary N-LOOP ammonia synthesis loop",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+      }
     }
   ],
   "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
@@ -45,6 +88,13 @@
       "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
     }
   ],
-  "notes": "Jiangsu Debang Xinghua Chemical Technology Co., commissioned June 2024, no bottlenecks in synthesis loop.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Jiangsu Debang Xinghua Chemical Technology Co., commissioned June 2024, no bottlenecks in synthesis loop. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "N-LOOP equipment design parameters (pressure, temperature, converter size)",
+      "why": "News release reports performance only",
+      "next_action": "Request N-LOOP technical literature from Casale"
+    }
+  ]
 }

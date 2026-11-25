@@ -29,6 +29,40 @@
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "geg-matthey-com-nox-control-systems-af80333"
       }
+    },
+    {
+      "metric": "NOx reduction",
+      "unit": "% (greater than)",
+      "basis": "Johnson Matthey: \"JM's SCR systems are designed to reduce >95% of NOx emissions for stationary diesel and gas engines.\"",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
+      },
+      "value": 95
+    },
+    {
+      "metric": "Operating hours before maintenance",
+      "unit": "hours (15,000-plus)",
+      "basis": "Johnson Matthey: \"JM's SCR technology has achieved an impressive 15,000-plus hours of operation before maintenance is required.\"",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Complementary catalyst functions",
+      "unit": "text",
+      "basis": "Johnson Matthey: 'Our SCR systems can be coupled with ammonia slip or oxidation catalyst technology for optimal reductions of CO, hydrocarbons, ammonia and other VOCs.'",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
+      }
+    },
+    {
+      "metric": "System components",
+      "unit": "text",
+      "basis": "Johnson Matthey: 'SINOx honeycomb catalysts; Durable stainless steel catalyst housings; Stainless steel reagent injection lance; Stainless steel reagent mixing duct; System control panel and reagent dosing pump; Silencers for additional sound attenuation'",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
+      }
     }
   ],
   "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
@@ -38,6 +72,6 @@
       "source_id": "geg-matthey-com-nox-control-systems-af80333"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 4 new printed parameters."
 }

@@ -100,6 +100,96 @@
         "source_id": "cat-victaulic-com"
       },
       "value": "carbon steel, stainless steel, copper, HDPE, PVC/CPVC and other pipe materials"
+    },
+    {
+      "metric": "flow_control_valve_configurations",
+      "unit": "n/a",
+      "basis": "Our hydraulic control valves are available in level-control, pressure-reducing and pressure-release configurations to be paired with a variety of piping material and joining systems",
+      "source": {
+        "url": "https://www.victaulic.com/products/"
+      },
+      "value": "level-control, pressure-reducing and pressure-release configurations"
+    },
+    {
+      "metric": "Swagelok medium/high pressure fittings - temperature",
+      "unit": "degF (537 degC), up to",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Swagelok medium/high pressure fittings - pressure rating",
+      "unit": "psig (4134 bar), up to",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": 60000
+    },
+    {
+      "metric": "Swagelok medium/high pressure fittings - sizes",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "1/4 to 1 in medium pressure; 1/4 to 9/16 in high pressure"
+    },
+    {
+      "metric": "Swagelok medium/high pressure fittings - compliance",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "NACE MR0175/ISO 15156 compliance available"
+    },
+    {
+      "metric": "VCR metal gasket face seal fittings - sizes",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "1/16 to 1 in and 6 to 18 mm; high-purity stainless steels"
+    },
+    {
+      "metric": "VCO O-ring face seal fittings",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "Designed for easy assembly in pipe, tube and welded systems"
+    },
+    {
+      "metric": "Flange adapters",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "Threadless, weldless transition from flanged piping to tubing; flange types meet ASME, DIN, EN and JIS; tube fitting ends up to 50 mm and 2 in"
+    },
+    {
+      "metric": "Ultra-Torr vacuum fittings",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "Stainless steel construction; fluorocarbon FKM O-ring; tube sizes 1/16 to 1 1/2 in"
+    },
+    {
+      "metric": "Swagelok tube fitting design",
+      "unit": "n/a",
+      "basis": "Swagelok 'Industrial Fittings, Tube Fittings and Pressure Fittings' catalog category page; no print date stated",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
+      },
+      "value": "Two-ferrule stainless-steel tube fitting"
     }
   ],
   "vendors": [
@@ -151,5 +241,5 @@
     "Defines materials, design, fabrication, assembly, erection, examination, inspection and testing for piping. B31.3 governs plant process piping, B31.8 gas transm"
   ],
   "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

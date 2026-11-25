@@ -17,6 +17,33 @@
         "source_id": "ureaknowhow-com-fluid-bed-granulation-optimization"
       },
       "value": "training, desk studies, online Q&A, site visits, troubleshooting, revamp proposals, dynamic simulator"
+    },
+    {
+      "metric": "Services",
+      "unit": "n/a",
+      "basis": "UreaKnowHow.com's team ... offering the following services list",
+      "source": {
+        "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
+      },
+      "value": "Training Programs Sessions; Desk Studies; Online Q&A Sessions; Site Visits; Troubleshooting and Optimization Suggestions; Revamp Proposals; Dynamic Simulator; Fluid Bed Granulation Pilot Plant"
+    },
+    {
+      "metric": "Solved issues",
+      "unit": "n/a",
+      "basis": "The following issues has been solved already by our services at other clients",
+      "source": {
+        "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
+      },
+      "value": "Increase of on-stream times; lower wet recycle (less dust formation in granulator); granulator sprayer issues; reduction of moisture content in final product; proper settings of the crusher; optimum g"
+    },
+    {
+      "metric": "Company location",
+      "unit": "n/a",
+      "basis": "2025 © UREAKNOWHOW B.V. Maastricht, The Netherlands",
+      "source": {
+        "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
+      },
+      "value": "Maastricht, The Netherlands"
     }
   ],
   "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
@@ -25,6 +52,13 @@
       "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
     }
   ],
-  "notes": "Qualitative.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Qualitative. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Pilot plant capacity and granulation operating parameters",
+      "why": "No numeric ratings printed on the services page",
+      "next_action": "Request the fluid bed granulation pilot plant specification from UreaKnowHow"
+    }
+  ]
 }

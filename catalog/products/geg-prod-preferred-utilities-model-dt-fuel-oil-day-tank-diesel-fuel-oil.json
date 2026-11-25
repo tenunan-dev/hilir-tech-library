@@ -61,6 +61,241 @@
         "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf",
         "source_id": "geg-preferred-mfg-com-day-20tank-20-20model-20dt-d425970"
       }
+    },
+    {
+      "metric": "Capacity range",
+      "unit": "'Available from 20 to 620 gallon capacities'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 20,
+      "low": 620,
+      "high": "US gallons"
+    },
+    {
+      "metric": "Construction standard",
+      "unit": "n/a",
+      "basis": "'Built to U.L. 142 or 2085 standards'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Containment",
+      "unit": "% of day tank capacity",
+      "basis": "'Containment – 160% of Day Tank Capacity' / rupture basin '160% of tank capacity standard'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 160
+    },
+    {
+      "metric": "Metal thickness",
+      "unit": "gauge",
+      "basis": "'Metal Thickness: 10 gauge'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Manual fill port",
+      "unit": "in NPT",
+      "basis": "'Manual Fill Port: 2” NPT'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Inspection port",
+      "unit": "in square",
+      "basis": "'Inspection Port: 6” square gasketed plate'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 6
+    },
+    {
+      "metric": "Pipe connections",
+      "unit": "in NPT",
+      "basis": "'1” NPT Pipe Connections: Tank fill, engine fuel return, overflow to storage tank, engine fuel supply, plugged drain'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Vent size 20-60 gal",
+      "unit": "in",
+      "basis": "'Vent Connections: 2” -- 20-60 gallon'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Vent size 80-190 gal",
+      "unit": "in",
+      "basis": "'3” -- 80-190 gallons'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Vent size 220 gal and over",
+      "unit": "in",
+      "basis": "'4” -- 220 gallons and over'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Approvals",
+      "unit": "n/a",
+      "basis": "'Approvals/Compliance: UL approved, NFPA 30 compliant'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-020 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=22, C=21.5, vent=2\", basin AA=18, BB=30, CC=17.5, tank WGT=79 lb, basin WGT=85 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-030 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=31, C=21.5, vent=2\", basin AA=18, BB=41, CC=17.5, tank WGT=136 lb, basin WGT=130 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-040 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=26, C=33.5, vent=2\", basin AA=18, BB=34, CC=29.5, tank WGT=166 lb, basin WGT=159 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-060 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=37, C=33.5, vent=2\", basin AA=18, BB=47, CC=29.5, tank WGT=245 lb, basin WGT=205 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-080 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=22, C=45.5, vent=3\", basin AA=29.5, BB=30, CC=41.5, tank WGT=317 lb, basin WGT=276 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-100 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=27, C=45.5, vent=3\", basin AA=29.5, BB=35, CC=41.5, tank WGT=366 lb, basin WGT=343 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-130 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=33, C=45.5, vent=3\", basin AA=29.5, BB=45, CC=41.5, tank WGT=361 lb, basin WGT=420 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-160 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=40, C=45.5, vent=3\", basin AA=29.5, BB=53, CC=41.5, tank WGT=405 lb, basin WGT=415 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-190 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=47, C=45.5, vent=3\", basin AA=29.5, BB=63, CC=41.5, tank WGT=483 lb, basin WGT=466 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-220 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=53, C=45.5, vent=4\", basin AA=29.5, BB=72, CC=41.5, tank WGT=524 lb, basin WGT=557 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-260 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=61, C=45.5, vent=4\", basin AA=29.5, BB=85, CC=41.5, tank WGT=584 lb, basin WGT=661 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-275 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=64, C=45.5, vent=4\", basin AA=29.5, BB=89, CC=41.5, tank WGT=620 lb, basin WGT=668 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-290 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=68, C=45.5, vent=4\", basin AA=29.5, BB=94, CC=41.5, tank WGT=656 lb, basin WGT=674 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-360 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=45, C=45.5, vent=4\", basin AA=50, BB=73, CC=41.5, tank WGT=689 lb, basin WGT=676 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-460 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=57, C=45.5, vent=4\", basin AA=51, BB=87, CC=41.5, tank WGT=805 lb, basin WGT=784 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-560 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=69, C=45.5, vent=4\", basin AA=57, BB=94, CC=41.5, tank WGT=964 lb, basin WGT=880 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-620 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=76, C=45.5, vent=4\", basin AA=60, BB=99, CC=41.5, tank WGT=1041 lb, basin WGT=932 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
     }
   ],
   "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf",
@@ -70,6 +305,6 @@
       "source_id": "geg-preferred-mfg-com-day-20tank-20-20model-20dt-d425970"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 28 new printed parameters."
 }

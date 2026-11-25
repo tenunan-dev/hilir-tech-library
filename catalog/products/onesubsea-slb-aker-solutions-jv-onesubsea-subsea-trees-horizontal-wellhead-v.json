@@ -38,6 +38,43 @@
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "value": 7
+    },
+    {
+      "metric": "Subsea trees - temperature range",
+      "unit": "degC (extreme temperature)",
+      "basis": "OneSubsea 'Subsea trees' product page; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
+      },
+      "low": -18,
+      "high": 176
+    },
+    {
+      "metric": "Subsea trees - pressure rating",
+      "unit": "psi (up to; more than 1,000 bar)",
+      "basis": "OneSubsea 'Subsea trees' product page; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Subsea trees - offered configurations",
+      "unit": "n/a",
+      "basis": "OneSubsea 'Subsea trees' product page; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
+      },
+      "value": "Horizontal, wellhead vertical, and tubing head spool vertical trees"
+    },
+    {
+      "metric": "Subsea trees - wellhead vertical production bore",
+      "unit": "inch; full deep-water capability",
+      "basis": "OneSubsea 'Subsea trees' product page; no print date stated",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
+      },
+      "value": 7
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
@@ -46,6 +83,6 @@
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     }
   ],
-  "notes": "fetched",
-  "last_reviewed": "2026-11-24"
+  "notes": "fetched Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

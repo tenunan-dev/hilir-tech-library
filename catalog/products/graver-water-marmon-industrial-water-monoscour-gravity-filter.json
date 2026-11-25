@@ -27,6 +27,24 @@
       },
       "unit": "n/a",
       "value": "treating high turbidity loads and sticky particulates following polymer/coagulant treatment"
+    },
+    {
+      "metric": "filter_type",
+      "unit": "n/a",
+      "basis": "Graver's Monoscour is a heavy duty, high rate gravity filter designed for treating high turbidity loads and sticky particulates",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      },
+      "value": "heavy duty, high rate gravity filter"
+    },
+    {
+      "metric": "applications",
+      "unit": "n/a",
+      "basis": "Product description on pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      },
+      "value": "wastewater applications, lime softening applications, cooling tower side stream filtration and all other gravity filter applications where high filtering rates are desirable"
     }
   ],
   "url": "https://graver.com/pretreatment/",
@@ -35,6 +53,13 @@
       "url": "https://graver.com/pretreatment/"
     }
   ],
-  "notes": "Read in full: same Graver Raw Water Pretreatment page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: same Graver Raw Water Pretreatment page. Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Numerical Monoscour sizing and performance (filtration rate, backwash rate, bed depth)",
+      "why": "Pretreatment overview page gives qualitative description only; dedicated Monoscour link not fetched",
+      "next_action": "Fetch the dedicated Monoscour Gravity Filters product page"
+    }
+  ]
 }

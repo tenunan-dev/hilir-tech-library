@@ -18,6 +18,24 @@
         "url": "https://www.wartsila.com/mys",
         "source_id": "geg-wartsila-com-mys-1e8ef98"
       }
+    },
+    {
+      "metric": "Local staff",
+      "unit": "people",
+      "basis": "'today it has over 15 professionals in 2 different locations in Kuala Lumpur and Pasir Gudang, Johor to serve our customers in the East and West Malaysia.'",
+      "source": {
+        "url": "https://www.wartsila.com/mys"
+      },
+      "value": "over 15 professionals"
+    },
+    {
+      "metric": "Kuala Lumpur office address",
+      "unit": "n/a",
+      "basis": "Contact us block on wartsila.com/mys, © 2026 Wartsila.",
+      "source": {
+        "url": "https://www.wartsila.com/mys"
+      },
+      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia"
     }
   ],
   "url": "https://www.wartsila.com/mys",
@@ -27,6 +45,13 @@
       "source_id": "geg-wartsila-com-mys-1e8ef98"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Formal service-scope statement",
+      "why": "The page states staff numbers and locations but no formal service organisation scope/ISO certification or non-MAN-OEM comparison.",
+      "next_action": "Request a Wartsila Malaysia company profile if that evidence is required."
+    }
+  ]
 }

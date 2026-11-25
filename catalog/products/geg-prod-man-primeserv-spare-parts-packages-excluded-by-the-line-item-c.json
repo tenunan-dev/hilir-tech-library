@@ -29,6 +29,89 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
       }
+    },
+    {
+      "metric": "Engine type",
+      "unit": "n/a",
+      "basis": "The MAN 175D engine is a V type, available with 12, 16 or 20 cylinders",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "V type, 12, 16 or 20 cylinders"
+    },
+    {
+      "metric": "Bore",
+      "unit": "mm",
+      "basis": "with 175 mm bore for mechanical or electric propulsion and onboard power generation",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": 175
+    },
+    {
+      "metric": "Speed range",
+      "unit": "rpm",
+      "basis": "Running from 1,500 to 2,000 rpm",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "low": 1500,
+      "high": 2000
+    },
+    {
+      "metric": "Ratings",
+      "unit": "kW",
+      "basis": "it features ratings from 1,440 to 4,400 kW",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "low": 1440,
+      "high": 4400
+    },
+    {
+      "metric": "Service levels",
+      "unit": "n/a",
+      "basis": "Maintenance, operational checks and overhaul tasks are seen as five individual service levels (L1 to L5)",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "L1 to L5"
+    },
+    {
+      "metric": "Service centres",
+      "unit": "worldwide",
+      "basis": "Via a network of over 100 service centers worldwide, MAN PrimeServ provides 24/7 service",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Spare parts delivery",
+      "unit": "n/a",
+      "basis": "Prompt delivery of high-demand OEM spare parts within 24 hours",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "within 24 hours"
+    },
+    {
+      "metric": "Training duration",
+      "unit": "n/a",
+      "basis": "Training type: Four-day training for Standard and Advanced courses, and four weeks training for the Expert course",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "Four-day training for Standard and Advanced courses, and four weeks training for the Expert course"
+    },
+    {
+      "metric": "Standard spare parts packages",
+      "unit": "n/a",
+      "basis": "This package includes ... four standardized spare parts packages",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "Post-commissioning, Mechanical, After-treatment, Automation"
     }
   ],
   "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
@@ -38,6 +121,6 @@
       "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 9 new printed parameters."
 }

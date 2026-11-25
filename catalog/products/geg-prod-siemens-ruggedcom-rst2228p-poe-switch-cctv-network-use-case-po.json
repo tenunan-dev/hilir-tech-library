@@ -17,6 +17,79 @@
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
       }
+    },
+    {
+      "metric": "RST2228P - switch type",
+      "unit": "n/a",
+      "basis": "Siemens RUGGEDCOM 19\" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": "High port density field modular Power-over-Ethernet (PoE) enabled 19-inch Layer 2 rack switch"
+    },
+    {
+      "metric": "RST2228P - uplinks",
+      "unit": "n/a",
+      "basis": "Siemens RUGGEDCOM 19\" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": "10 Gbit/s uplinks; support for IEEE 1588"
+    },
+    {
+      "metric": "RST2228P - module slots",
+      "unit": "n/a",
+      "basis": "Siemens RUGGEDCOM 19\" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": "6 slots for various media modules"
+    },
+    {
+      "metric": "RUGGEDCOM - operating temperature",
+      "unit": "degC (no fans, passive cooling)",
+      "basis": "Siemens RUGGEDCOM 19\" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "low": -40,
+      "high": 85
+    },
+    {
+      "metric": "RUGGEDCOM - universal high-voltage supply",
+      "unit": "n/a",
+      "basis": "Siemens RUGGEDCOM 19\" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": "88-300 VDC or 85-264 VAC"
+    },
+    {
+      "metric": "RUGGEDCOM - low-voltage supply options",
+      "unit": "n/a",
+      "basis": "Siemens RUGGEDCOM 19\" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": "12 VDC, 24 VDC or 48 VDC"
+    },
+    {
+      "metric": "RUGGEDCOM - standards compliance",
+      "unit": "n/a",
+      "basis": "Siemens RUGGEDCOM 19\" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": "IEC 61850-3, IEEE 1613 Class 2 (error-free), NEMA TS 2; CSA/UL 60950 approved to +85 degC"
+    },
+    {
+      "metric": "RST2228P - CCTV use case",
+      "unit": "n/a",
+      "basis": "Siemens RUGGEDCOM 19\" Layer 2 Ethernet Switches brochure, Brochure Edition 09/2018, RST2228P section",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": "Fully redundant communication network suitable for oil & gas applications; connects PoE cameras, IP phones and other devices"
     }
   ],
   "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
@@ -26,6 +99,6 @@
       "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 8 new printed parameters."
 }

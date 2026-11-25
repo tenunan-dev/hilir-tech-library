@@ -37,6 +37,60 @@
         "source_id": "cat-johnzink-com-pressure-assisted-flare"
       },
       "value": 30
+    },
+    {
+      "metric": "Pressure-assisted flare - flare tip models",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "Indair, KMI (Kaldair Multipoint Indair), JZ Hydra, JZ Poseidon, KSP"
+    },
+    {
+      "metric": "Pressure-assisted flare - smokeless operation",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "Operate smokelessly at almost all waste gas flow rates without supplemental steam or air"
+    },
+    {
+      "metric": "Pressure-assisted flare - turndown",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "Unlimited turndown offered by some systems"
+    },
+    {
+      "metric": "Pressure-assisted flare - assist medium",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "No assist medium required; uses pressure inherent in waste stream"
+    },
+    {
+      "metric": "Pressure-assisted flare - tip technology",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "Proprietary high-pressure burner technology; variable slot Coanda flare tip; stiff low-emissivity flames for low thermal radiation"
+    },
+    {
+      "metric": "Pressure-assisted flare - service history",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "Successfully used in a wide range of applications for over 30 years"
     }
   ],
   "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
@@ -45,6 +99,6 @@
       "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
     }
   ],
-  "notes": "Proprietary high-pressure burner technology; variable slot Coanda flare tip custom designed to enable smokeless flaring using the Coanda effect. No numeric capacity printed on the page read.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Proprietary high-pressure burner technology; variable slot Coanda flare tip custom designed to enable smokeless flaring using the Coanda effect. No numeric capacity printed on the page read. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

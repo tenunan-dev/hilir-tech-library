@@ -17,6 +17,84 @@
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
       "value": "dry-build, fully removable, inclined installation technique"
+    },
+    {
+      "metric": "CGS concept first developed year",
+      "unit": "year",
+      "basis": "'Arup dry-build Concrete Gravity Substructure (CGS) concept was originally developed by Arup in 1989 for Hamilton Brothers' Ravenspurn North'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 1989
+    },
+    {
+      "metric": "Installation technique",
+      "unit": "n/a",
+      "basis": "'Typical for the Arup CGS is the inclined installation technique'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      }
+    },
+    {
+      "metric": "Removability",
+      "unit": "n/a",
+      "basis": "'The Arup CGS are designed to be simple to install, and are fully removable'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      }
+    },
+    {
+      "metric": "Construction attributes",
+      "unit": "n/a",
+      "basis": "'low reinforcement and pre-stress densities as well as the use of normal density concrete'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      }
+    },
+    {
+      "metric": "Economic water depth threshold",
+      "unit": "m",
+      "basis": "'economical for water depths larger than 150 m' (offshore concrete structures generally)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 150
+    },
+    {
+      "metric": "N. Ravenspurn CGS (Arup) water depth",
+      "unit": "m",
+      "basis": "Table: 1989, CGS 3 shafts, North Sea (UK), design by Arup",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 42
+    },
+    {
+      "metric": "Wandoo CGS (Arup) water depth",
+      "unit": "m",
+      "basis": "Table: 1996, CGS 4 shafts, Australia, design by Arup",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 54
+    },
+    {
+      "metric": "Malampaya CGS (Arup) water depth",
+      "unit": "m",
+      "basis": "Table: 2000, CGS 4 shafts, Philippines, design by Arup",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 43
+    },
+    {
+      "metric": "West White Rose GBS Monotower (Arup) water depth",
+      "unit": "m",
+      "basis": "Table: 2025, Cenovus Energy, Canada, design by Arup",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
+      },
+      "value": 118
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
@@ -25,6 +103,13 @@
       "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     }
   ],
-  "notes": "page_read=true",
-  "last_reviewed": "2026-11-24"
+  "notes": "page_read=true Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Arup CGS/Ace platform design dimensions and capacities",
+      "why": "Wikipedia article gives no dimensional or load ratings for the CGS/ACE platform",
+      "next_action": "Seek Arup primary CGS technical paper or project reference"
+    }
+  ]
 }

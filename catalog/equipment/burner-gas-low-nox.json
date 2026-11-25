@@ -231,6 +231,124 @@
       },
       "unit": "control mode",
       "value": "Full modulation; parallel positioning standard"
+    },
+    {
+      "metric": "O2 level",
+      "unit": "%",
+      "basis": "'~3% O2 across a wide load range'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Turndown ratio",
+      "unit": "ratio",
+      "basis": "'Up to 10:1 turndown ratio when firing gas'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Gas input",
+      "unit": "'natural gas fuel option from 16.8 to 54.6 MMBTU/hr' / 'Input Capacity 16,800 - 54,600'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "value": 16.8,
+      "low": 54.6,
+      "high": "MMBTU/hr"
+    },
+    {
+      "metric": "Backup fuel",
+      "unit": "n/a",
+      "basis": "'Can fire #2 fuel oil as back up fuel'; 'Fuel: Gas, Oil'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      }
+    },
+    {
+      "metric": "QLN burner - firing capacity",
+      "unit": "MMBTU/HR HHV (up to)",
+      "basis": "John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln"
+      },
+      "value": 450
+    },
+    {
+      "metric": "QLN burner - fuels",
+      "unit": "n/a",
+      "basis": "John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln"
+      },
+      "value": "Gas and #2/light oil firing"
+    },
+    {
+      "metric": "QLN burner - NOx reduction method",
+      "unit": "n/a",
+      "basis": "John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln"
+      },
+      "value": "Advanced air/fuel premixing, fuel staging and internal flue gas recirculation (FGR)"
+    },
+    {
+      "metric": "QLN burner - applications",
+      "unit": "n/a",
+      "basis": "John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln"
+      },
+      "value": "Once-through steam generators (OTSGs) and heaters; diffuse flame for process heaters"
+    },
+    {
+      "metric": "Heat input",
+      "unit": "MMBtu/hr per burner",
+      "basis": "GB burners can be designed with heat inputs in excess of 360 MMBtu/hr per burner",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "high": 360
+    },
+    {
+      "metric": "Fuel flexibility",
+      "unit": "n/a",
+      "basis": "natural gas, #6/#2 fuel oils, to low-Btu gases (blast ...)",
+      "source": {
+        "url": "https://www.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/GB-Low-NOx-Power-Burner-RGB.pdf?hsLang=en"
+      },
+      "value": "natural gas, #6/#2 fuel oils, to low-Btu gases (blast furnace gas)"
+    },
+    {
+      "metric": "Retrofit",
+      "unit": "n/a",
+      "basis": "Retrofit boiler applications: The GB burner installation can be recognized with little to no pressure part modifications",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": "The GB burner installation can be recognized with little to no pressure part modifications"
+    },
+    {
+      "metric": "Tip exposure",
+      "unit": "inch",
+      "basis": "Low maintenance cost since tip mass is small and exposed into firebox less than 1\" (25 mm)",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "high": 1
+    },
+    {
+      "metric": "Quality system",
+      "unit": "n/a",
+      "basis": "ISO 9001: 2015; Zeeco's ISO 9001 accredited quality management system",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
+      },
+      "value": "ISO 9001: 2015 / ISO 9001 accredited"
     }
   ],
   "vendors": [
@@ -262,7 +380,7 @@
       "source_id": "alzeta-ulnox"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

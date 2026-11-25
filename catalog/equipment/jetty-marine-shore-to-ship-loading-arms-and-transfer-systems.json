@@ -82,6 +82,143 @@
         "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
       },
       "value": 50
+    },
+    {
+      "metric": "diameter_range",
+      "unit": "in",
+      "basis": "Diameter 6 to 24 inches, design pressure up to 50 bar",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms"
+      },
+      "low": 6,
+      "high": 24
+    },
+    {
+      "metric": "design_pressure",
+      "unit": "bar",
+      "basis": "design pressure up to 50 bar",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms"
+      },
+      "value": 50
+    },
+    {
+      "metric": "LNG_transfer_size_range",
+      "unit": "in",
+      "basis": "Small to large-scale LNG transfer from 6 to 20 inches",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms"
+      },
+      "low": 6,
+      "high": 20
+    },
+    {
+      "metric": "high_pressure_gas_classes",
+      "unit": "n/a",
+      "basis": "High-pressure gas transfer with in-house ERS and QC/DC design across ANSI 600 and ANSI 900 classes",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms"
+      },
+      "value": "ANSI 600 and ANSI 900 classes"
+    },
+    {
+      "metric": "rigid_LNG_line",
+      "unit": "n/a",
+      "basis": "Rigid transfer system for LNG transfer with high-flow performance and 20 inch full-bore product lines",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms"
+      },
+      "value": "20 inch full-bore product lines"
+    },
+    {
+      "metric": "Patents",
+      "unit": "n/a",
+      "basis": "57 patents",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": 57
+    },
+    {
+      "metric": "Experience",
+      "unit": "years",
+      "basis": "70+ years of experience",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "70+"
+    },
+    {
+      "metric": "Installed loading arms",
+      "unit": "n/a",
+      "basis": "+15K installed loading arms",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "+15,000"
+    },
+    {
+      "metric": "Employees worldwide",
+      "unit": "+",
+      "basis": "300+ employees worldwide",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Shore-to-ship product range",
+      "unit": "n/a",
+      "basis": "Rethinking onshore operations with shore-to-ship transfer solutions and our product range of ChemConnect, GasConnect, CO2Connect by T.EN™, PrimeConnect and H2Connect",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "ChemConnect, GasConnect, CO2Connect by T.EN™, PrimeConnect, H2Connect"
+    },
+    {
+      "metric": "Ship-to-ship product range",
+      "unit": "n/a",
+      "basis": "Customized solutions for offshore transfer systems with our ship-to-ship transfer solutions and our product range of DynaConnect, ARCOS, OLAF and ATOL",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "DynaConnect, ARCOS, OLAF, ATOL"
+    },
+    {
+      "metric": "eMAX",
+      "unit": "n/a",
+      "basis": "Unlock the future by elevating your loading arm experience with our eMAX series",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "eMAX Series loading arms"
+    },
+    {
+      "metric": "CO2Connect",
+      "unit": "n/a",
+      "basis": "CO₂Connect by T.EN™ is the world's first liquefied marine loading arm",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "world's first liquefied marine loading arm, designed to transfer CO₂ from point of capture to destination for utilization or storage"
+    },
+    {
+      "metric": "Transfer capability",
+      "unit": "n/a",
+      "basis": "manage a variety of fluids and gases at normal, high and very low temperatures and at different levels of operating pressures",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "fluids and gases at normal, high and very low temperatures and different operating pressures"
+    },
+    {
+      "metric": "History",
+      "unit": "n/a",
+      "basis": "One of our main activities since the 1950s has been supplying marine loading arms for onshore and offshore use",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "supplying marine loading arms since the 1950s"
     }
   ],
   "vendors": [
@@ -104,5 +241,5 @@
     "Articulated pipework with swivel joints connecting shore or offshore facility to ship for transfer of oil, LNG, LPG, chemicals, high-pressure gas, CO2 and hydro"
   ],
   "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

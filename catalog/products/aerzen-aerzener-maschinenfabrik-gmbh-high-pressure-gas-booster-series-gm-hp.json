@@ -79,14 +79,102 @@
       },
       "unit": "n/a",
       "value": "robust two-lobe rotor design (gas-tight sealed)"
+    },
+    {
+      "metric": "Type of technology",
+      "unit": "n/a",
+      "basis": "Technical data: Type of technology: Positive Displacement Blowers",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "Positive Displacement Blowers"
+    },
+    {
+      "metric": "Volume flow",
+      "unit": "m3/h",
+      "basis": "Volume flow: 50 to 38,000 m3/h (Product page, Technical data)",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "low": 50,
+      "high": 38000
+    },
+    {
+      "metric": "Differential pressure",
+      "unit": "mbar",
+      "basis": "Differential pressure (Δp): 150 to 2,000 mbar",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "low": 150,
+      "high": 2000
+    },
+    {
+      "metric": "Medium",
+      "unit": "n/a",
+      "basis": "Technical data: Medium: Process Gases",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "Process Gases"
+    },
+    {
+      "metric": "Conveying",
+      "unit": "n/a",
+      "basis": "Technical data: Conveying: Oil-free",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "Oil-free"
+    },
+    {
+      "metric": "Design stages",
+      "unit": "n/a",
+      "basis": "The direct-drive GM-HP blowers ... 1 or 2 stage design, with separate pressurised oil lubrication for the oil-free transport and compression of air, neutral gases, and gas mixtures.",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "1 or 2 stage design"
+    },
+    {
+      "metric": "Sealing system",
+      "unit": "n/a",
+      "basis": "Low-maintenance sealing system with magnetic coupling for low operating costs",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "magnetic coupling"
+    },
+    {
+      "metric": "Design pressure (explosive gases)",
+      "unit": "bar g",
+      "basis": "For explosive gases, the design pressure of 25 bar g offers the corresponding pressure shock resistance (inner EX zone).",
+      "source": {
+        "url": "https://www.aerzen.com/fileadmin/user_upload/02_documents/02-02_applications/02-02-06_process_gas_technology/A1-008-08_EN.pdf",
+        "source_id": "catpar-aerzen-com-a1-008-08-en-pdf-195d4e7"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Differential pressure (brochure)",
+      "unit": "mbar",
+      "basis": "Blower package GM-HP ... Differential pressure dp 150 to 2,000 mbar",
+      "source": {
+        "url": "https://www.aerzen.com/fileadmin/user_upload/02_documents/02-02_applications/02-02-06_process_gas_technology/A1-008-08_EN.pdf"
+      },
+      "low": 150,
+      "high": 2000
     }
   ],
   "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
   "sources": [
     {
       "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+    },
+    {
+      "url": "https://www.aerzen.com/fileadmin/user_upload/02_documents/02-02_applications/02-02-06_process_gas_technology/A1-008-08_EN.pdf"
     }
   ],
-  "notes": "Read in full: AERZEN High Pressure Gas Booster GM-HP product page including the expandable Technical data section. Applications listed include natural gas compression, pipeline booster, gas turbine supply.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: AERZEN High Pressure Gas Booster GM-HP product page including the expandable Technical data section. Applications listed include natural gas compression, pipeline booster, gas turbine supply. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

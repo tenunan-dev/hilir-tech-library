@@ -168,6 +168,404 @@
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
         "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
       }
+    },
+    {
+      "metric": "Capacity range",
+      "unit": "'Available from 20 to 620 gallon capacities'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 20,
+      "low": 620,
+      "high": "US gallons"
+    },
+    {
+      "metric": "Construction standard",
+      "unit": "n/a",
+      "basis": "'Built to U.L. 142 or 2085 standards'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Containment",
+      "unit": "% of day tank capacity",
+      "basis": "'Containment – 160% of Day Tank Capacity' / rupture basin '160% of tank capacity standard'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 160
+    },
+    {
+      "metric": "Metal thickness",
+      "unit": "gauge",
+      "basis": "'Metal Thickness: 10 gauge'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Manual fill port",
+      "unit": "in NPT",
+      "basis": "'Manual Fill Port: 2” NPT'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Inspection port",
+      "unit": "in square",
+      "basis": "'Inspection Port: 6” square gasketed plate'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 6
+    },
+    {
+      "metric": "Pipe connections",
+      "unit": "in NPT",
+      "basis": "'1” NPT Pipe Connections: Tank fill, engine fuel return, overflow to storage tank, engine fuel supply, plugged drain'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Vent size 20-60 gal",
+      "unit": "in",
+      "basis": "'Vent Connections: 2” -- 20-60 gallon'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Vent size 80-190 gal",
+      "unit": "in",
+      "basis": "'3” -- 80-190 gallons'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Vent size 220 gal and over",
+      "unit": "in",
+      "basis": "'4” -- 220 gallons and over'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Approvals",
+      "unit": "n/a",
+      "basis": "'Approvals/Compliance: UL approved, NFPA 30 compliant'",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-020 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=22, C=21.5, vent=2\", basin AA=18, BB=30, CC=17.5, tank WGT=79 lb, basin WGT=85 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-030 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=31, C=21.5, vent=2\", basin AA=18, BB=41, CC=17.5, tank WGT=136 lb, basin WGT=130 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-040 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=26, C=33.5, vent=2\", basin AA=18, BB=34, CC=29.5, tank WGT=166 lb, basin WGT=159 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-060 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=13, B=37, C=33.5, vent=2\", basin AA=18, BB=47, CC=29.5, tank WGT=245 lb, basin WGT=205 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-080 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=22, C=45.5, vent=3\", basin AA=29.5, BB=30, CC=41.5, tank WGT=317 lb, basin WGT=276 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-100 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=27, C=45.5, vent=3\", basin AA=29.5, BB=35, CC=41.5, tank WGT=366 lb, basin WGT=343 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-130 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=33, C=45.5, vent=3\", basin AA=29.5, BB=45, CC=41.5, tank WGT=361 lb, basin WGT=420 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-160 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=40, C=45.5, vent=3\", basin AA=29.5, BB=53, CC=41.5, tank WGT=405 lb, basin WGT=415 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-190 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=47, C=45.5, vent=3\", basin AA=29.5, BB=63, CC=41.5, tank WGT=483 lb, basin WGT=466 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-220 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=53, C=45.5, vent=4\", basin AA=29.5, BB=72, CC=41.5, tank WGT=524 lb, basin WGT=557 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-260 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=61, C=45.5, vent=4\", basin AA=29.5, BB=85, CC=41.5, tank WGT=584 lb, basin WGT=661 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-275 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=64, C=45.5, vent=4\", basin AA=29.5, BB=89, CC=41.5, tank WGT=620 lb, basin WGT=668 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-290 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=24, B=68, C=45.5, vent=4\", basin AA=29.5, BB=94, CC=41.5, tank WGT=656 lb, basin WGT=674 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-360 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=45, C=45.5, vent=4\", basin AA=50, BB=73, CC=41.5, tank WGT=689 lb, basin WGT=676 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-460 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=57, C=45.5, vent=4\", basin AA=51, BB=87, CC=41.5, tank WGT=805 lb, basin WGT=784 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-560 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=69, C=45.5, vent=4\", basin AA=57, BB=94, CC=41.5, tank WGT=964 lb, basin WGT=880 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Dimension table DT-620 (A x B x C tank)",
+      "unit": "in",
+      "basis": "Preferred Utilities Model DT cutsheet, published Wed 23 Feb 2022, CATALOG 26, 2 pages A=45, B=76, C=45.5, vent=4\", basin AA=60, BB=99, CC=41.5, tank WGT=1041 lb, basin WGT=932 lb",
+      "source": {
+        "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf"
+      }
+    },
+    {
+      "metric": "Flow range",
+      "unit": "GPH",
+      "basis": "Flows from 23 to 1600 GPH",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "low": 23,
+      "high": 1600
+    },
+    {
+      "metric": "Fluid",
+      "unit": "n/a",
+      "basis": "No. 2 or No. 4 fuel oil; Fluid: No. 2 or No. 4 fuel oil is standard",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "No. 2 or No. 4 fuel oil"
+    },
+    {
+      "metric": "Power",
+      "unit": "n/a",
+      "basis": "Specifications > Power: 120 VAC (external)",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "120 VAC (external)"
+    },
+    {
+      "metric": "Motor supply",
+      "unit": "n/a",
+      "basis": "Note: all pumps are 115V 60 Hz single phase",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "115V 60 Hz single phase"
+    },
+    {
+      "metric": "Pump type",
+      "unit": "n/a",
+      "basis": "Pump: Positive displacement type with cast iron housings and self-adjusting mechanical seals",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "Positive displacement type with cast iron housings and self-adjusting mechanical seals"
+    },
+    {
+      "metric": "Motors",
+      "unit": "n/a",
+      "basis": "Motors: Base mounted, TEFC",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "Base mounted, TEFC"
+    },
+    {
+      "metric": "Pump catalog 11871",
+      "unit": "n/a",
+      "basis": "G.P.H. Oil #2 / P.S.I. / Motor R.P.M. / H.P.: 180 / 15 / 1725 / ¼ (catalog 11871)",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "180 GPH @ 15 PSI, 1725 RPM, 1/4 HP"
+    },
+    {
+      "metric": "Pump catalog 11872",
+      "unit": "n/a",
+      "basis": "480 / 15 / 3450 / ⅓",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "480 GPH @ 15 PSI, 3450 RPM, 1/3 HP"
+    },
+    {
+      "metric": "Pump catalog 11873",
+      "unit": "n/a",
+      "basis": "600 / 30 / 1725 / ½",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "600 GPH @ 30 PSI, 1725 RPM, 1/2 HP"
+    },
+    {
+      "metric": "Pump catalog 11874",
+      "unit": "n/a",
+      "basis": "900 / 30 / 1725 / ¾",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "900 GPH @ 30 PSI, 1725 RPM, 3/4 HP"
+    },
+    {
+      "metric": "Pump catalog 11815",
+      "unit": "n/a",
+      "basis": "1200 / 25 / 1725 / ¾",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "1200 GPH @ 25 PSI, 1725 RPM, 3/4 HP"
+    },
+    {
+      "metric": "Day tank",
+      "unit": "n/a",
+      "basis": "one (1) ___ gallon, UL 142 labeled day tank constructed of reinforced 10 gauge steel ... Model DT-S-R-UL",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "UL 142 labeled, reinforced 10 gauge steel, Model DT-S-R-UL"
+    },
+    {
+      "metric": "Rupture basin capacity",
+      "unit": "% of tank capacity (minimum)",
+      "basis": "sized a minimum of 160% capacity of tank capacity",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": 160
+    },
+    {
+      "metric": "Level switches",
+      "unit": "n/a",
+      "basis": "Level Controls shall have four (4) float operated switches rated at 100 watts",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "4 float operated switches rated at 100 watts"
+    },
+    {
+      "metric": "Level control points",
+      "unit": "n/a",
+      "basis": "emergency high-level alarm and total pump shutdown (90% capacity), pump off (80% capacity), pump on (50% capacity), and emergency low-level secondary pump on (40% capacity)",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "90% high alarm/shutdown; 80% pump off; 50% pump on; 40% low"
+    },
+    {
+      "metric": "Suitability pressure",
+      "unit": "PSIG",
+      "basis": "Unit shall be suitable for pressures to 150 PSIG",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": 150
+    },
+    {
+      "metric": "Control cabinet",
+      "unit": "n/a",
+      "basis": "control system enclosure shall be constructed to NEMA 12/13 standards; must be labeled as conforming to UL 508A",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "NEMA 12/13; UL 508A"
+    },
+    {
+      "metric": "Hydrostatic test pressure",
+      "unit": "PSIG minimum",
+      "basis": "The minimum pressure for testing the tank shall be five (5) PSIG ... in no case for less than one-half hour",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": 5
     }
   ],
   "vendor_models": [
@@ -247,5 +645,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

@@ -38,6 +38,89 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
       }
+    },
+    {
+      "metric": "Rated voltage range",
+      "unit": "kV",
+      "basis": "Siemens catalog HG 11.06 (2017): 'Vacuum Circuit-Breaker 3AK7 from 7.2 to 17.5 kV'; technical data table 'Rated voltage Ur (kV) 7.2 12 17.5 / 7.2 12 15 17.5'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 7.2,
+      "high": 17.5
+    },
+    {
+      "metric": "Rated normal current",
+      "unit": "A (with forced cooling for 4000)",
+      "basis": "Siemens: 'rated for load currents up to 4000 A'; 'Rated normal current Ir A 1250; 2000; 2500; 3150; 4000 (with forced cooling)'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 1250,
+      "high": 4000
+    },
+    {
+      "metric": "Short-circuit breaking current",
+      "unit": "kA (up to)",
+      "basis": "Siemens: 'capable to break short-circuit currents up to 50 kA'; table 'Rated short-circuit breaking current Isc kA 50 40 50 40 50 40 50'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Pole-center distance",
+      "unit": "mm",
+      "basis": "Siemens: 'lean pole-shell design with a pole-center distance of 210 mm'; technical data '210 / 280'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 210
+    },
+    {
+      "metric": "Maintenance-free operating cycles",
+      "unit": "cycles",
+      "basis": "Siemens: 'The 3AK7 is maintenance-free up to 10,000 operating cycles. 30,000 operating cycles on request.'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Lightning impulse withstand voltage",
+      "unit": "kV",
+      "basis": "Siemens technical data: 'Rated lightning impulse withstand voltage Up kV 60 75 95 60 60 75 75 95 95'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 60,
+      "high": 95
+    },
+    {
+      "metric": "Power-frequency withstand voltage",
+      "unit": "kV",
+      "basis": "Siemens: 'Rated short-duration power-frequency withstand voltage Ud kV 20 28 38 20 20 28 28 38 38'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 20,
+      "high": 38
+    },
+    {
+      "metric": "Standards",
+      "unit": "text",
+      "basis": "Siemens: 'IEC 62271-100; IEC 62271-1; IEC 60265-1; IEC/IEEE 62271-37-013:2015 (marked accordingly)'; endurance classes E2, M2, S1, C2",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      }
+    },
+    {
+      "metric": "Ambient / altitude conditions",
+      "unit": "text",
+      "basis": "Siemens: climatic class 3K4 (24-hour mean +35°C), 3K6; rated currents defined at +40°C ambient; withstand voltages apply to site altitude 1000 m; altitude correction factor Ka",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      }
     }
   ],
   "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
@@ -47,6 +130,6 @@
       "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 9 new printed parameters."
 }

@@ -38,14 +38,47 @@
         "source_id": "cat-cummins-com-diesel"
       },
       "value": "Tier 4F (rental)"
+    },
+    {
+      "metric": "Generator set power range",
+      "unit": "kVA",
+      "basis": "'We offer a diverse range of generator sets from 15 - 3750 kVA.' Cummins en-apac generators/diesel page, © 2026.",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel"
+      },
+      "value": "15 - 3750 kVA"
+    },
+    {
+      "metric": "Commercial genset start and load acceptance",
+      "unit": "seconds",
+      "basis": "'Able to start and assume load in less than 10 seconds, and rated load in a single step, Cummins commercial generators are the epitome of rugged dependability.'",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel"
+      },
+      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step"
     }
   ],
   "url": "https://www.cummins.com/en-apac/generators/diesel",
   "sources": [
     {
       "url": "https://www.cummins.com/en-apac/generators/diesel"
+    },
+    {
+      "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators",
+      "source_id": "catpar-cummins-com-cummins-quiet-diesel-generators-cc0a008"
+    },
+    {
+      "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators",
+      "source_id": "catpar-cummins-com-cummins-standard-diesel-generato-89c95c9"
     }
   ],
-  "notes": "50/60 Hz; Quiet and Standard ranges",
-  "last_reviewed": "2026-11-24"
+  "notes": "50/60 Hz; Quiet and Standard ranges Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Centum Series technical ratings",
+      "why": "The queue product name mentions Centum Series but the linked pages read only cover Quiet Diesel and Standard Diesel; a Centum news item was on the page without ratings.",
+      "next_action": "Fetch the Centum Series spec page if those figures are required."
+    }
+  ]
 }

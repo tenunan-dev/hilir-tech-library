@@ -17,6 +17,30 @@
         "source_id": "cat-oilstates-com-top-tension-riser"
       },
       "value": "Oil States Merlin connections; high-pressure metal-to-metal sealing; load capacities exceeding those of the pipe"
+    },
+    {
+      "metric": "System description",
+      "unit": "text",
+      "basis": "Oil States: 'Top tension risers (TTR) provide surface access to subsea wells. They consist of sections of riser joints supported at the vessel by individual tensioner systems and connected to the subsea wellhead via an external tieback connector.'",
+      "source": {
+        "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser"
+      }
+    },
+    {
+      "metric": "Connection",
+      "unit": "text",
+      "basis": "Oil States: 'The riser joints, stress joint and tension joint all incorporate Oil States’ Merlin® connections, providing high-pressure, metal-to-metal sealing, load capacities exceeding those of the pipe and excellent fatigue properties.'",
+      "source": {
+        "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "text",
+      "basis": "Oil States: 'TLP production riser; Completion riser'; 'developed for drilling risers and production risers with dry trees'",
+      "source": {
+        "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser"
+      }
     }
   ],
   "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser",
@@ -25,6 +49,13 @@
       "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser"
     }
   ],
-  "notes": "No numeric ratings printed on HTML product page; linked Merlin R Connector PDF not WebFetch-read.",
-  "last_reviewed": "2026-11-24"
+  "notes": "No numeric ratings printed on HTML product page; linked Merlin R Connector PDF not WebFetch-read. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Riser size, pressure rating, tension capacity, water depth",
+      "why": "Product page gives no numeric ratings; Merlin R Connector datasheet not read",
+      "next_action": "Fetch Merlin R Connector and TTR datasheets"
+    }
+  ]
 }

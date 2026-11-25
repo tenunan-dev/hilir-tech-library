@@ -1,0 +1,25 @@
+{
+  "id": "catpar-slb-com-porta-test-whirlyscrub-i-inline-sepa-7f38119",
+  "name": "slb.com",
+  "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Slb.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. \"provides excellent liquid removal, with a removal efficiency of 99.99% down to 10 um\""
+}

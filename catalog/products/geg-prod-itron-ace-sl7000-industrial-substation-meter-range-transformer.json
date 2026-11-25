@@ -70,6 +70,159 @@
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
       }
+    },
+    {
+      "metric": "Voltage rating",
+      "unit": "n/a",
+      "basis": "Technical Specifications Ratings Voltage: 3*57.7/100V up to 3*277/480V auto ranging",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "3*57.7/100V up to 3*277/480V auto ranging"
+    },
+    {
+      "metric": "Direct current",
+      "unit": "n/a",
+      "basis": "Direct Current: In 5A, Imax 120A",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "In 5A, Imax 120A"
+    },
+    {
+      "metric": "CT connection",
+      "unit": "n/a",
+      "basis": "CT Connection: Ib 1A, Imax 10A",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "Ib 1A, Imax 10A"
+    },
+    {
+      "metric": "Accuracy - direct connected",
+      "unit": "n/a",
+      "basis": "Accuracy Direct Connected: Class 1 or Class B",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "Class 1 or Class B"
+    },
+    {
+      "metric": "Accuracy - transformer connected",
+      "unit": "n/a",
+      "basis": "Transformer Connected: Class 0.2S, Class 0.5S or Class C",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "Class 0.2S, Class 0.5S or Class C"
+    },
+    {
+      "metric": "Accuracy - reactive energy",
+      "unit": "n/a",
+      "basis": "Reactive energy: Class 1 or Class 2",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "Class 1 or Class 2"
+    },
+    {
+      "metric": "Frequency",
+      "unit": "Hz",
+      "basis": "Frequency 50 / 60 Hz",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "50 / 60"
+    },
+    {
+      "metric": "Standards",
+      "unit": "n/a",
+      "basis": "Full compliance with IEC 62052, IEC 62053, MID standard EN50470-1 and EN50470-3 and CE marking standards",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "IEC 62052, IEC 62053, EN50470-1, EN50470-3, CE marking"
+    },
+    {
+      "metric": "Communications",
+      "unit": "n/a",
+      "basis": "Communications IR-port (IEC 61107), optional RS232C and/or RS485 DLMS-Cosem Protocol (IEC 62056)",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "IR-port (IEC 61107), optional RS232C and/or RS485, DLMS-Cosem Protocol (IEC 62056)"
+    },
+    {
+      "metric": "Communication channels",
+      "unit": "n/a",
+      "basis": "Up to three communication channels (2 electrical & 1 optical) depending on the meter version. Two channels can be used simultaneously",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "Up to three (2 electrical & 1 optical); two used simultaneously"
+    },
+    {
+      "metric": "Load profile channels",
+      "unit": "channels",
+      "basis": "Storage of up to 16 channels for various quantities in two independent banks",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 16
+    },
+    {
+      "metric": "Energy-rate registers",
+      "unit": "registers",
+      "basis": "32 energy-rate registers and 24 demand-rate registers are available",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 32
+    },
+    {
+      "metric": "Demand-rate registers",
+      "unit": "registers",
+      "basis": "32 energy-rate registers and 24 demand-rate registers are available",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 24
+    },
+    {
+      "metric": "Pulse inputs",
+      "unit": "inputs",
+      "basis": "Four pulse inputs provide additional metering information (versions with I/O lines)",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Auxiliary power supply isolation",
+      "unit": "kV",
+      "basis": "From IEC7 versions, the optional APS is isolated (2KV) from measurement voltages",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 2
+    },
+    {
+      "metric": "External modem power",
+      "unit": "W",
+      "basis": "in IEC7 versions, the meter now provides up to 3W",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Dimensions",
+      "unit": "n/a",
+      "basis": "Dimensions > 180 325 mm with standard terminal cover 358 mm with extended terminal cover 85 251 97 62 150 201 230 239",
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
+      },
+      "value": "180 x 325 mm with standard terminal cover; 358 mm with extended terminal cover; 85 x 251 x 97 x 62 x 150 x 201 x 230 x 239"
     }
   ],
   "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
@@ -79,6 +232,6 @@
       "source_id": "geg-pt-itron-com-3809712-f6b916f"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 17 new printed parameters."
 }

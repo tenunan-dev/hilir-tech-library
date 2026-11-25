@@ -1,0 +1,25 @@
+{
+  "id": "catpar-wartsila-com-46ts-fcdba5f",
+  "name": "wartsila.com",
+  "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Wartsila.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. 46TS technical data table: W46TS-SG 'Rated electrical power (MWe) 20.38 (16V) | 22.93 (18V)' for 50Hz and 60Hz. Wartsila product page, © 2026 Wartsila; technical data stated at 100 kPa, 25 C suction air, 30% RH, PF 1.0, 5% tolerance."
+}

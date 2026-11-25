@@ -75,6 +75,15 @@
         "source_id": "ureaknowhow-com-ureaknowhow-com"
       },
       "value": "19.05 mm and 25.4 mm"
+    },
+    {
+      "metric": "Sanicro 35 heat exchanger tube - stocked outside diameters",
+      "unit": "n/a",
+      "basis": "UreaKnowHow.com homepage, Solution Providers News item 'ALLEIMA - One-Week delivery for critical Heat Exchanger needs' (news dated November 2026 on retrieved page)",
+      "source": {
+        "url": "https://ureaknowhow.com/"
+      },
+      "value": "19.05 mm and 25.4 mm OD (Sanicro(R) 35 heat exchanger tubes now stocked)"
     }
   ],
   "vendors": [
@@ -103,7 +112,7 @@
       "source_id": "en-wikipedia-org-w-index-php"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "notes": "The pressure and temperature are from Saipem's NH3-stripping flowsheet; the 60% approach figure is for a pool condenser and is not a universal condenser specification. Enriched 2026-11-24 with page-read ammonia/urea sweep sources. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
   "vendor_models": [
     {

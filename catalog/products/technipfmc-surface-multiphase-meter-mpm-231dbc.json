@@ -16,6 +16,61 @@
       },
       "low": "0",
       "high": "100"
+    },
+    {
+      "metric": "MPM - gas volume fraction range",
+      "unit": "% (full GVF spectrum)",
+      "basis": "TechnipFMC 'Production' page, Production measurement and optimization / MPM section; no print date stated",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "MPM - operating modes",
+      "unit": "n/a",
+      "basis": "TechnipFMC 'Production' page, Production measurement and optimization / MPM section; no print date stated",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
+      },
+      "value": "Dual Mode: combined multiphase and wet gas meter"
+    },
+    {
+      "metric": "MPM - functionalities",
+      "unit": "n/a",
+      "basis": "TechnipFMC 'Production' page, Production measurement and optimization / MPM section; no print date stated",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
+      },
+      "value": "3D Broadband, water salinity correction, in-situ verification, scale correction, droplet count mode, KBC Multiflash PVT software built into every meter"
+    },
+    {
+      "metric": "MPM - data delivery",
+      "unit": "n/a",
+      "basis": "TechnipFMC 'Production' page, Production measurement and optimization / MPM section; no print date stated",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
+      },
+      "value": "Real-time data to central facility or cloud portal for production reporting, remote troubleshooting and email/text alerts"
+    },
+    {
+      "metric": "TechnipFMC surface pumps - pressure range",
+      "unit": "psi (up to)",
+      "basis": "TechnipFMC 'Production' page, Production measurement and optimization / MPM section; no print date stated",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "TechnipFMC surface pumps - flow rate",
+      "unit": "gpm (up to)",
+      "basis": "TechnipFMC 'Production' page, Production measurement and optimization / MPM section; no print date stated",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
+      },
+      "value": 1500
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/surface/production/",
@@ -24,6 +79,6 @@
       "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
     }
   ],
-  "notes": "Other listed features (no numeric basis printed): 3D Broadband, dual-mode combined multiphase and wet-gas meter, water salinity correction, in-situ verification, KBC Multiflash PVT built in.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Other listed features (no numeric basis printed): 3D Broadband, dual-mode combined multiphase and wet-gas meter, water salinity correction, in-situ verification, KBC Multiflash PVT built in. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

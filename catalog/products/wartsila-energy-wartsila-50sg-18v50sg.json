@@ -47,6 +47,132 @@
         "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
       },
       "value": "<2"
+    },
+    {
+      "metric": "Cylinder configuration / bore / stroke",
+      "unit": "n/a",
+      "basis": "Technical data: 'Cylinder configurations 18V; Cylinder bore 500 mm; Piston stroke 580 mm'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "18V; 500 mm bore; 580 mm stroke"
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm",
+      "basis": "'Engine speed 500 rpm (50 Hz), 514 rpm (60 Hz)'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "500 rpm (50 Hz), 514 rpm (60 Hz)"
+    },
+    {
+      "metric": "Rated electrical power 50 Hz",
+      "unit": "kW",
+      "basis": "Performance table: 18V50SG 'Rated electrical power (kW) 18 434 (50Hz) 18 875 (60Hz)'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": 18434
+    },
+    {
+      "metric": "Rated electrical power 60 Hz",
+      "unit": "kW",
+      "basis": "Performance table as above.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": 18875
+    },
+    {
+      "metric": "Electrical efficiency 50 Hz",
+      "unit": "%",
+      "basis": "Performance table: 'Electrical efficiency (%) 50.2 (50Hz) 50.0 (60Hz)'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": 50.2
+    },
+    {
+      "metric": "Electrical efficiency 60 Hz",
+      "unit": "%",
+      "basis": "Performance table as above.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": 50.0
+    },
+    {
+      "metric": "Heat rate",
+      "unit": "kJ/kWh",
+      "basis": "Performance table row as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "7 165 (50Hz) / 7 207 (60Hz)"
+    },
+    {
+      "metric": "Regular / fast start to full load",
+      "unit": "min",
+      "basis": "Loading and unloading table, Full load column.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "< 5 / < 2"
+    },
+    {
+      "metric": "Connected to grid start time",
+      "unit": "min:sec",
+      "basis": "Loading and unloading table, Connected to grid column.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "00:30"
+    },
+    {
+      "metric": "Stop time",
+      "unit": "min",
+      "basis": "Loading and unloading table 'Stop time (min) 1'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Ramp rate hot",
+      "unit": "% load/min",
+      "basis": "Loading and unloading table 'Ramp rate (hot, load/min) > 100%'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "> 100"
+    },
+    {
+      "metric": "Minimum load unit / plant",
+      "unit": "%",
+      "basis": "Minimum Load table.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "10% / 1%"
+    },
+    {
+      "metric": "Installed capacity",
+      "unit": "MW",
+      "basis": "'Our proudest numbers: 2min to full load; 50.2% Electrical efficiency; 5 000+ MW installed capacity'.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "5 000+"
+    },
+    {
+      "metric": "Fuels / hydrogen blending",
+      "unit": "n/a",
+      "basis": "Key benefits block.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
+      },
+      "value": "natural gas, biogas, synthetic methane; capable of hydrogen blending; low GHG emissions"
     }
   ],
   "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
@@ -55,6 +181,13 @@
       "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
     }
   ],
-  "notes": "18V, bore 500 mm, stroke 580 mm; natural gas/biogas/synthetic methane, H2 blending",
-  "last_reviewed": "2026-11-24"
+  "notes": "18V, bore 500 mm, stroke 580 mm; natural gas/biogas/synthetic methane, H2 blending Full-parameter pass 2026-11-26: 14 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "50SG leaflet detailed tables",
+      "why": "The linked leaflet (wartsi.ly/41mQHgo) was not fetched; page tables above are complete for published parameters.",
+      "next_action": "Fetch the leaflet if fuel gas specification limits or dimensions are required."
+    }
+  ]
 }

@@ -37,6 +37,42 @@
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
       "value": 175
+    },
+    {
+      "metric": "water_depth_capability",
+      "unit": "ft",
+      "basis": "Capability up to depths of 10,000 ft, pressures of 15,000 psi and temperatures of 175 degrees Celsius",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "pressure_capability",
+      "unit": "psi",
+      "basis": "Capability up to ... pressures of 15,000 psi",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "temperature_capability",
+      "unit": "degC",
+      "basis": "Capability up to ... temperatures of 175 degrees Celsius",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
+      },
+      "value": 175
+    },
+    {
+      "metric": "structure_types",
+      "unit": "n/a",
+      "basis": "Why OneSubsea manifolds? bullet list",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
+      },
+      "value": "cluster manifolds with two or more well slots, pipeline-end manifolds and terminations, tie-in structures; integrated template structure (ITS) provides protected foundation for subsea trees and manifo"
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
@@ -45,6 +81,6 @@
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     }
   ],
-  "notes": "fetched",
-  "last_reviewed": "2026-11-24"
+  "notes": "fetched Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

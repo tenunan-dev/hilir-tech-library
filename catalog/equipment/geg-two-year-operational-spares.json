@@ -104,6 +104,151 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
       }
+    },
+    {
+      "metric": "Local staff",
+      "unit": "people",
+      "basis": "'today it has over 15 professionals in 2 different locations in Kuala Lumpur and Pasir Gudang, Johor to serve our customers in the East and West Malaysia.'",
+      "source": {
+        "url": "https://www.wartsila.com/mys"
+      },
+      "value": "over 15 professionals"
+    },
+    {
+      "metric": "Kuala Lumpur office address",
+      "unit": "n/a",
+      "basis": "Contact us block on wartsila.com/mys, © 2026 Wartsila.",
+      "source": {
+        "url": "https://www.wartsila.com/mys"
+      },
+      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia"
+    },
+    {
+      "metric": "CSA service term (Kimanis Power)",
+      "unit": "years",
+      "basis": "GE press release 14 June 2011: 'GE has signed a contractual service agreement (CSA) with Kimanis Power Sdn Bhd to support the plant for 18 years.'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": 18
+    },
+    {
+      "metric": "Plant capacity",
+      "unit": "MW",
+      "basis": "GE: 'the 300-megawatt combined cycle gas-fired power plant project in Sabah, Malaysia'; 'three combined-cycle blocks of approximately 100 megawatts each'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Equipment supplied",
+      "unit": "Frame 6FA gas turbines",
+      "basis": "GE: 'will supply three Frame 6FA gas turbines, associated generators and services'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": 3
+    },
+    {
+      "metric": "GE long-term service agreements installed base",
+      "unit": "sites (more than)",
+      "basis": "GE: 'To date, GE has long-term service agreements in place at more than 700 sites worldwide.'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": 700
+    },
+    {
+      "metric": "6FA fleet experience",
+      "unit": "text",
+      "basis": "GE: 'More than 100 units have been installed worldwide and have completed more than three million hours of service'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      }
+    },
+    {
+      "metric": "Engine type",
+      "unit": "n/a",
+      "basis": "The MAN 175D engine is a V type, available with 12, 16 or 20 cylinders",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "V type, 12, 16 or 20 cylinders"
+    },
+    {
+      "metric": "Bore",
+      "unit": "mm",
+      "basis": "with 175 mm bore for mechanical or electric propulsion and onboard power generation",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": 175
+    },
+    {
+      "metric": "Speed range",
+      "unit": "rpm",
+      "basis": "Running from 1,500 to 2,000 rpm",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "low": 1500,
+      "high": 2000
+    },
+    {
+      "metric": "Ratings",
+      "unit": "kW",
+      "basis": "it features ratings from 1,440 to 4,400 kW",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "low": 1440,
+      "high": 4400
+    },
+    {
+      "metric": "Service levels",
+      "unit": "n/a",
+      "basis": "Maintenance, operational checks and overhaul tasks are seen as five individual service levels (L1 to L5)",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "L1 to L5"
+    },
+    {
+      "metric": "Service centres",
+      "unit": "worldwide",
+      "basis": "Via a network of over 100 service centers worldwide, MAN PrimeServ provides 24/7 service",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Spare parts delivery",
+      "unit": "n/a",
+      "basis": "Prompt delivery of high-demand OEM spare parts within 24 hours",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "within 24 hours"
+    },
+    {
+      "metric": "Training duration",
+      "unit": "n/a",
+      "basis": "Training type: Four-day training for Standard and Advanced courses, and four weeks training for the Expert course",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "Four-day training for Standard and Advanced courses, and four weeks training for the Expert course"
+    },
+    {
+      "metric": "Standard spare parts packages",
+      "unit": "n/a",
+      "basis": "This package includes ... four standardized spare parts packages",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "Post-commissioning, Mechanical, After-treatment, Automation"
     }
   ],
   "vendor_models": [
@@ -163,5 +308,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

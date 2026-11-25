@@ -1,0 +1,25 @@
+{
+  "id": "catpar-cummins-com-gta50e-005dc86",
+  "name": "cummins.com",
+  "url": "https://www.cummins.com/en-na/generators/products/gta50e",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Cummins.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. GTA50e: 'Frequency 60 Hz; Standby 600-750 kW / 750-937 kVA'; models C600N6 600/750, C650N6 650/813, C750N6 750/937."
+}

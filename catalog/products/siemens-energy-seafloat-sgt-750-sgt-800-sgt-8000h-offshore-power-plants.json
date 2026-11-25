@@ -27,6 +27,97 @@
         "source_id": "siemens-energy-com-product-seafloat-html"
       },
       "value": "41.0/108.4/163.3 MWe; 40.5/54.1/54.4% efficiency"
+    },
+    {
+      "metric": "OGT-800-based output range",
+      "unit": "MW",
+      "basis": "With outputs ranging from 150 MW to 450 MW, the pre-designed, plug-and-play solution combines high efficiency",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "low": 150,
+      "high": 450
+    },
+    {
+      "metric": "OGT-8000H-based SeaFloat output",
+      "unit": "MW",
+      "basis": "The OGT-8000H-based SeaFloat solution delivers up to 1,330 MW with plant efficiency of more than 62%",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": 1330
+    },
+    {
+      "metric": "OGT-8000H plant efficiency",
+      "unit": "%",
+      "basis": "plant efficiency of more than 62%",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": "more than 62"
+    },
+    {
+      "metric": "OGT5-8000H gross power output",
+      "unit": "MW",
+      "basis": "The OGT5-8000H provides 450 MW of gross power output and fast ramp-up capabilities",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": 450
+    },
+    {
+      "metric": "Combined cycle configurations",
+      "unit": "n/a",
+      "basis": "In SeaFloat applications, 1x1 and 2x1 combined cycle configurations deliver up to 1,330 MW",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": "1x1 and 2x1, up to 1,330 MW"
+    },
+    {
+      "metric": "ULCC total efficiency",
+      "unit": "% (up to)",
+      "basis": "With total efficiency of up to 70%, the ULCC provides flexible heat and power generation",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": 70
+    },
+    {
+      "metric": "ULCC CO2 reduction",
+      "unit": "tonnes per year on a single FPSO",
+      "basis": "it can reduce CO₂ emissions by up to 110,000 tonnes per year on a single FPSO",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": 110000
+    },
+    {
+      "metric": "Estrella del Mar III floating plant",
+      "unit": "MW",
+      "basis": "The 148 MW floating combined cycle power plant was largely built in Singapore before being transported to the Dominican Republic",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": 148
+    },
+    {
+      "metric": "Product portfolio",
+      "unit": "n/a",
+      "basis": "SeaFloat power plant portfolio section",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": "combined cycle configurations based on aeroderivative, industrial and heavy-duty gas turbines; barges, offshore platforms, FPSOs and FSRPUs"
+    },
+    {
+      "metric": "Naming note",
+      "unit": "n/a",
+      "basis": "Siemens Energy and Siemens Gamesa are now Omterra. The formerly licensed \"SGT\" product portfolio is now offered under its new name, \"OGT.\"",
+      "source": {
+        "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
+      },
+      "value": "Siemens Energy and Siemens Gamesa are now Omterra; formerly licensed 'SGT' portfolio now offered as 'OGT'"
     }
   ],
   "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
@@ -35,6 +126,6 @@
       "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     }
   ],
-  "notes": "CCPP figures search-verified PDF.",
-  "last_reviewed": "2026-11-24"
+  "notes": "CCPP figures search-verified PDF. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

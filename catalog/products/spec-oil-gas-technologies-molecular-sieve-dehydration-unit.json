@@ -27,6 +27,43 @@
         "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
       },
       "value": "minimum 2, fixed switching cycle"
+    },
+    {
+      "metric": "Reference scope",
+      "unit": "n/a",
+      "basis": "Scope Molecular sieve dehydration unit within a 100 tonne a day LPG production facility.",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
+      },
+      "value": "Molecular sieve dehydration unit within a 100 tonne a day LPG production facility"
+    },
+    {
+      "metric": "Regeneration gas temperature",
+      "unit": "degC / degF",
+      "basis": "For regeneration, gas is heated to around 550 °F (290 °C) and sent to the tower being regenerated",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
+      },
+      "value": 290,
+      "low": 550
+    },
+    {
+      "metric": "Regeneration temperature (table)",
+      "unit": "degC",
+      "basis": "Regeneration gas temperature: Approximately 550 °F (290 °C)",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
+      },
+      "high": 290
+    },
+    {
+      "metric": "Bed configuration",
+      "unit": "n/a",
+      "basis": "The two towers switch between adsorbing and regenerating on a fixed cycle.",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
+      },
+      "value": "two towers switching between adsorbing and regenerating on a fixed cycle"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
@@ -35,6 +72,13 @@
       "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Design pressure, capacity and cycle time",
+      "why": "Page states these are to be confirmed by SPEC engineering; no values printed.",
+      "next_action": "Request a project-specific data sheet."
+    }
+  ]
 }

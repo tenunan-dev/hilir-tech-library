@@ -1,0 +1,25 @@
+{
+  "id": "catpar-r-jina-ai-diesel-gen-set-rating-cards-intern-abb7faf",
+  "name": "r.jina.ai",
+  "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "R.Jina.Ai",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Counted rows in 'International model range / 50 Hz range / COMMERCIAL DIESEL GENERATOR SETS' table. Bulletin 6614069 Rev. 8/25."
+}

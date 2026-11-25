@@ -17,6 +17,30 @@
         "source_id": "cat-technipfmc-com-flexible-pipes"
       },
       "value": "Thermal insulation layers; additional hoses for gas lift or other services; active heating through electric cables; fluid temperature monitoring with optical fibers"
+    },
+    {
+      "metric": "IPB technology",
+      "unit": "n/a",
+      "basis": "'an innovative and proprietary technology' for 'high-level flow assurance of hydrocarbon fluids in difficult conditions from well heads to surface treatment units'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
+      }
+    },
+    {
+      "metric": "IPB features",
+      "unit": "n/a",
+      "basis": "'thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
+      }
+    },
+    {
+      "metric": "FSHR design",
+      "unit": "n/a",
+      "basis": "'vertical steel pipe tensioned by a near-surface buoyancy can' with flexible jumper and rigid base jumper",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
+      }
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
@@ -25,6 +49,13 @@
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     }
   ],
-  "notes": "Proprietary technology; no numeric rating printed on the HTML page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Proprietary technology; no numeric rating printed on the HTML page. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Pressure/temperature/bore/size ratings for flexible pipe and IPB",
+      "why": "Page descriptive only; no ratings printed",
+      "next_action": "Consult TechnipFMC flexible pipe product datasheets"
+    }
+  ]
 }

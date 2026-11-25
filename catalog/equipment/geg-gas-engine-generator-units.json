@@ -387,6 +387,848 @@
         "url": "https://en.wikipedia.org/wiki/Jenbacher",
         "source_id": "geg-en-wikipedia-org-jenbacher-436766f"
       }
+    },
+    {
+      "metric": "G3512K continuous rating (web page, 1.0 pf)",
+      "unit": "ekW @ 1.0pf",
+      "basis": "Cat K-series page product card: 'Continuous Rating 1530 ekW @ 1.0pf ... Maximum Electrical Efficiency 45.3%'. No print date on page.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 1530
+    },
+    {
+      "metric": "G3520K continuous rating (web page, 1.0 pf)",
+      "unit": "ekW @ 1.0pf",
+      "basis": "Cat K-series page product card: 'Continuous Rating 2567 / 2552 ekW @ 1.0pf ... Maximum Electrical Efficiency 46.0%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": "2567 / 2552"
+    },
+    {
+      "metric": "G3512K continuous rating (leaflet, 0.8 pf)",
+      "unit": "ekW @ 0.8pf",
+      "basis": "Leaflet p.8: 'G3520K Continuous Rating 2536/2520 ekW @ 0.8pf | G3512K Continuous Rating 1530/1502 ekW @ 0.8pf' - conflicting power-factor basis vs web card; preserved separately. LEYE23176-02 (11-2025).",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": "1530 / 1502"
+    },
+    {
+      "metric": "G3520K continuous rating (leaflet, 0.8 pf)",
+      "unit": "ekW @ 0.8pf",
+      "basis": "Leaflet p.8, same line as G3512K; preserved as separate variant from web 2567/2552 @1.0pf. LEYE23176-02 (11-2025).",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": "2536 / 2520"
+    },
+    {
+      "metric": "Maximum electrical efficiency - G3512K",
+      "unit": "%",
+      "basis": "Cat K-series web page product card 'Maximum Electrical Efficiency 45.3%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 45.3
+    },
+    {
+      "metric": "Maximum electrical efficiency - G3520K",
+      "unit": "%",
+      "basis": "Cat K-series web page product card 'Maximum Electrical Efficiency 46.0%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 46.0
+    },
+    {
+      "metric": "Total efficiency in CHP (web page)",
+      "unit": "% (approaches)",
+      "basis": "'approach 90% total efficiency in Combined Heat and Power (CHP) applications'; thermal efficiency improvement 2.8%.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 90
+    },
+    {
+      "metric": "Total generator set efficiency (leaflet)",
+      "unit": "%",
+      "basis": "Leaflet p.4-5: 'total efficiency of up to 89.6%'; footnote '* Total generator set efficiency of 89.6% running at 500 mg Nox, 50 Hz, JW 88C'.",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": 89.6
+    },
+    {
+      "metric": "Methane number without derate",
+      "unit": "MN",
+      "basis": "'can run down to methane NR 60 without derate' (web); leaflet p.3 'can run down to 60 methane number without derate'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Hydrogen blending",
+      "unit": "% by volume",
+      "basis": "'25% hydrogen blends*' ... '* These fuels will be available later in 2026.' (web and leaflet p.3).",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Start to 100% load time",
+      "unit": "minutes",
+      "basis": "'They start and accept 100% load in 4.5 minutes' (web); leaflet p.8: 'G3512K 4.5 MINUTES / G3520K 4.5 MINUTES' * Start and 100% full load time.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 4.5
+    },
+    {
+      "metric": "Application power band",
+      "unit": "eMW",
+      "basis": "'For 1.5 - 2.5 eMW Applications' (web and leaflet cover).",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": "1.5 - 2.5 eMW"
+    },
+    {
+      "metric": "Thermal efficiency improvement",
+      "unit": "% (web) / 2.8 %-p (leaflet G3520K 60Hz)",
+      "basis": "Web: 'increased thermal efficiency (a 2.8% improvement)'; leaflet p.9: '2.8 %-p THERMAL EFFICIENCY G3520K 60 HZ'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
+      },
+      "value": 2.8
+    },
+    {
+      "metric": "Higher altitude capability",
+      "unit": "% (leaflet)",
+      "basis": "Leaflet p.7: '70% HIGHER ALTITUDE CAPABILITY READY FOR EXTREMES'. Web: 'perform at higher altitudes ... than previous models'.",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": 70
+    },
+    {
+      "metric": "Higher ambient temperature capability",
+      "unit": "% (leaflet)",
+      "basis": "Leaflet p.7: '10% HIGHER AMBIENT TEMPERATURE CAPABILITY'; web: 'higher ambient temperatures than previous models'.",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Faster load acceptance",
+      "unit": "% (leaflet)",
+      "basis": "Leaflet p.6/8: 'reach full load capacity 40% faster, with G2 transient capability' / '40% MORE RESPONSIVE FASTER STARTUP AND LOAD ACCEPTANCE'.",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Grid code fault ride-through tests",
+      "unit": "tests (over)",
+      "basis": "Leaflet p.5: 'we have performed over 700 fault ride through tests' to confirm compliance with main grid codes worldwide.",
+      "source": {
+        "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
+      },
+      "value": 700
+    },
+    {
+      "metric": "Natural gas genset overall range",
+      "unit": "kW / kVA",
+      "basis": "'These fully integrated generator sets, ranging from 13-2000 kW (16.25-2500 kVA) ...' Cummins natural gas page.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/natural-gas"
+      },
+      "value": "13 - 2000 kW (16.25 - 2500 kVA)"
+    },
+    {
+      "metric": "HSK78G frequency",
+      "unit": "Hz",
+      "basis": "HSK78G product page: 'Frequency 50, 60 Hz'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "50, 60"
+    },
+    {
+      "metric": "HSK78G continuous rating",
+      "unit": "kW",
+      "basis": "HSK78G: Continuous 1550-2000 kW / 1938-2500 kVA; Data Center Continuous 1550 kW / 1938 kVA.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "1550 - 2000",
+      "low": 1550,
+      "high": 2000
+    },
+    {
+      "metric": "HSK78G peak electrical efficiency 50 Hz",
+      "unit": "%",
+      "basis": "'Peak electrical efficiency up to 44.2% (50 Hz) and 43.5% (60 Hz)' - ISO basis; per-model table 43.8/44.3/44.2 (50 Hz) and 43.2/43.6/43.5 (60 Hz).",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": 44.2
+    },
+    {
+      "metric": "HSK78G peak electrical efficiency 60 Hz",
+      "unit": "%",
+      "basis": "As above, HSK78G product highlights.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": 43.5
+    },
+    {
+      "metric": "HSK78G minimum methane number",
+      "unit": "MN",
+      "basis": "'Operates on pipeline natural gas down to 70 methane number (MN) at rated load'; 'High power density down to 40MN fuels'; table min MN 55/60/70 per model. Conflicting variants preserved.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "70 (pipeline NG at rated load); down to 40 MN high power density; table 55/60/70"
+    },
+    {
+      "metric": "HSK78G NOx emissions",
+      "unit": "mg/Nm3",
+      "basis": "'NOx emissions as low as 250 mg/Nm3 (0.5 g/hp-hr) without aftertreatment'; table NOx 250-500 mg/Nm3 (50 Hz) / 0.5-1.0 (60 Hz).",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "250 (0.5 g/hp-hr)"
+    },
+    {
+      "metric": "HSK78G thermal efficiency CHP",
+      "unit": "%",
+      "basis": "'Thermal efficiency up to 47.1% for CHP/cogeneration applications'; table usable heat 1740/1901/2077 kW (50 Hz), 1752/1912/2088 kW (60 Hz).",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": 47.1
+    },
+    {
+      "metric": "HSK78G overhaul interval",
+      "unit": "hours",
+      "basis": "'Industry-leading overhaul intervals up to 80,000 hours' / 'Industry's longest major overhaul service cycle of 80,000 hours'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": 80000
+    },
+    {
+      "metric": "HSK78G ambient capability",
+      "unit": "deg C",
+      "basis": "'Up to 55 C (131 F) ambient capability with high-ambient turbo option'; 'Full power capability up to 40 C (104 F) with standard turbo ... up to blistering 55 C (131 F) with high ambient turbo'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "40 C standard / 55 C high-ambient turbo"
+    },
+    {
+      "metric": "HSK78G dimensions 50 Hz",
+      "unit": "m (L x W x H)",
+      "basis": "HSK78G specifications table (C1600N5CD/C1800N5CD/C2000N5CD): 'Dimensions (m) (L X W X H) 6.9 x 2.2 x 2.8'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "6.9 x 2.2 x 2.8"
+    },
+    {
+      "metric": "HSK78G dimensions 60 Hz",
+      "unit": "m (L x W x H)",
+      "basis": "HSK78G specifications table (C1600N6CD/C1800N6CD/C2000N6CD): 'Dimensions (m) (L X W X H) 7.6 x 2.1 x 2.8'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "7.6 x 2.1 x 2.8"
+    },
+    {
+      "metric": "HSK78G temperature rise",
+      "unit": "deg C",
+      "basis": "HSK78G specifications table: 'Temperature Rise (Deg. C) 80 - 105'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
+      },
+      "value": "80 - 105"
+    },
+    {
+      "metric": "1000/1300 kW QSK60G standby rating",
+      "unit": "kW",
+      "basis": "1000 kW and 1300 kW Natural Gas Gensets: Standby 1000-1300 kW / 1250-1625 kVA; Continuous 1100-1540 kW / 1375-1925 kVA; 50/60 Hz.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
+      },
+      "value": "1000 - 1300",
+      "low": 1000,
+      "high": 1300
+    },
+    {
+      "metric": "QSK60G start time",
+      "unit": "seconds",
+      "basis": "'Gensets meet 10-second start with UL2200 and CSA22.2 listings.'",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
+      },
+      "value": 10
+    },
+    {
+      "metric": "QSK60G cooling capability",
+      "unit": "deg C",
+      "basis": "'Cooling capability up to 45C (Radiator)' and 'NFPA 110 type 10 capable; Single step load acceptance'.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
+      },
+      "value": 45
+    },
+    {
+      "metric": "GTA50e standby rating",
+      "unit": "kW (750-937 kVA)",
+      "basis": "GTA50e: 'Frequency 60 Hz; Standby 600-750 kW / 750-937 kVA'; models C600N6 600/750, C650N6 650/813, C750N6 750/937.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/gta50e"
+      },
+      "value": "600 - 750",
+      "low": 600,
+      "high": 750
+    },
+    {
+      "metric": "GTA50e load acceptance",
+      "unit": "n/a",
+      "basis": "GTA50e product highlights; 'Capable of meeting NFPA 110 Type 10 ...' EPA SI NSPS Certified, UL 2200, CSA 22.2 No. 100.",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/products/gta50e"
+      },
+      "value": "Accepts 100% rated load in a single step"
+    },
+    {
+      "metric": "J920 FleXtra power",
+      "unit": "MW / PS",
+      "basis": "Wikipedia: 'a V20 gas engine delivering up to 9.5 MW (12,915 PS)'. Secondary source; cited to archived GE page.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": "up to 9.5 MW (12,915 PS)"
+    },
+    {
+      "metric": "J920 FleXtra electrical efficiency",
+      "unit": "%",
+      "basis": "'When it is put into production it will be Jenbachers most efficient gas engine available with an electrical efficiency of 48.7%'.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": 48.7
+    },
+    {
+      "metric": "J920 FleXtra CHP thermal efficiency",
+      "unit": "%",
+      "basis": "'and a combined heat and power (CHP) thermal efficiency of over 90%'.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": "> 90"
+    },
+    {
+      "metric": "Ownership timeline",
+      "unit": "n/a",
+      "basis": "Wikipedia company history; 'GE (historical Jenbacher gas engine brand, 2003-2018)' corresponds to the GE ownership period.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": "Founded 1959; acquired by General Electric 2003; became part of INNIO Nov 2018"
+    },
+    {
+      "metric": "Combustion technology",
+      "unit": "n/a",
+      "basis": "Wikipedia 'Company profile and products' and 'Jenbacher J920 FleXtra' sections (some statements carry citation-needed tags).",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": "Otto cycle, industrial spark plugs; smaller models stoichiometric, larger lean-burn with prechamber ignition; Miller cycle and two-stage turbocharging on J920"
+    },
+    {
+      "metric": "Fuels",
+      "unit": "n/a",
+      "basis": "Wikipedia: 'Jenbacher engines run on natural gas, landfill gas, sewage gas, biogas, mine gas, coal gas, syngas and hydrogen.'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": "natural gas, landfill gas, sewage gas, biogas, mine gas, coal gas, syngas and hydrogen"
+    },
+    {
+      "metric": "Electrical efficiency range of Jenbacher gas engines",
+      "unit": "%",
+      "basis": "'Jenbacher reciprocating gas engines with electrical efficiency usually ranging between 40% and 50%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": "40 - 50",
+      "low": 40,
+      "high": 50
+    },
+    {
+      "metric": "Application power range",
+      "unit": "MW",
+      "basis": "'from food and beverage applications that use less than 1 MW to industrial segments of up to 100 MW. And then there are even bigger projects ... 190 MW project for the Stadtwerke Kiel in Germany ... Jenbacher J920 FleXtra gas engines.'",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": "less than 1 MW to up to 100 MW; 190 MW CHP project (Stadtwerke Kiel)"
+    },
+    {
+      "metric": "Type 2 maximum power",
+      "unit": "kW/engine",
+      "basis": "Site navigation: 'Jenbacher Type 2 Up to 361 kW/engine'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": 361
+    },
+    {
+      "metric": "Type 3 maximum power",
+      "unit": "kW/engine",
+      "basis": "Site navigation: 'Jenbacher Type 3 Up to 1208 kW/engine'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": 1208
+    },
+    {
+      "metric": "Type 4 maximum power",
+      "unit": "kW/engine",
+      "basis": "Site navigation: 'Jenbacher Type 4 Up to 1694 kW/engine'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": 1694
+    },
+    {
+      "metric": "Type 6 maximum power",
+      "unit": "kW/engine",
+      "basis": "Site navigation: 'Jenbacher Type 6 Up to 4499 kW/engine'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": 4499
+    },
+    {
+      "metric": "Type 9 / J920 maximum power",
+      "unit": "kW/engine",
+      "basis": "Site navigation: 'Jenbacher Type 9 Up to 10606 kW/engine'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": 10606
+    },
+    {
+      "metric": "Selection factors listed",
+      "unit": "n/a",
+      "basis": "'Important aspects to consider when selecting power generation equipment' list, verbatim wording.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": "CAPEX; electrical and overall solution efficiency; production/commissioning timeline; modularity; OPEX; start/stop event frequency limits; time to full power; partial-load efficiency; power output tol"
+    },
+    {
+      "metric": "Natural gas power range",
+      "unit": "kW",
+      "basis": "'The power range ranges from 37 kW to 750 kW with natural gas and from 68 kW to 750 kW with special gas (biogas, landfill gas, sewage gas).'",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "37 - 750",
+      "low": 37,
+      "high": 750
+    },
+    {
+      "metric": "Special gas power range",
+      "unit": "kW",
+      "basis": "As above, MAN gas programme page.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "68 - 750",
+      "low": 68,
+      "high": 750
+    },
+    {
+      "metric": "Overall efficiency",
+      "unit": "%",
+      "basis": "'achieve the best overall efficiencies of over 90 per cent thanks to their optimum combustion process'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "> 90"
+    },
+    {
+      "metric": "Natural gas table row - E0834",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '37 - 68 | 1.0 - 1.6 | E0834 | 4 | in-line | 4.6'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 37 - 68 kW; lambda 1.0 - 1.6; 4 cylinders in-line; 4.6 litres; bore 108 mm; stroke 125 mm; power 37 - 68 kW"
+    },
+    {
+      "metric": "Natural gas table row - E0836",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '56 - 110 | 1.0 - 1.68 | E0836 | 6 | in-line | 6.9'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 56 - 110 kW; lambda 1.0 - 1.68; 6 cylinders in-line; 6.9 litres; bore 108 mm; stroke 125 mm; power 56 - 110 kW"
+    },
+    {
+      "metric": "Natural gas table row - E2876",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '150 - 210 | 1.0 - 1.61 | E2876 | 6 | in-line | 12.8'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 150 - 210 kW; lambda 1.0 - 1.61; 6 cylinders in-line; 12.8 litres; bore 128 mm; stroke 166 mm; power 130 - 220 kW"
+    },
+    {
+      "metric": "Natural gas table row - E3268",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '320 - 390 | 1.69 | E3268 | 8 | V 90° | 17.2'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 320 - 390 kW; lambda 1.69; 8 cylinders V 90°; 17.2 litres; bore 132 mm; stroke 157 mm; power 320 - 390 kW"
+    },
+    {
+      "metric": "Natural gas table row - E3262",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '275 - 580 | 1.0 - 1.7 | E3262 | 12 | V 90° | 25.8'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 275 - 580 kW; lambda 1.0 - 1.7; 12 cylinders V 90°; 25.8 litres; bore 132 mm; stroke 157 mm; power 275 - 580 kW"
+    },
+    {
+      "metric": "Natural gas table row - E3872",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '735 | 1.77 - 1.78 | E3872 | 12 | V 90° | 29,6'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 735 kW; lambda 1.77 - 1.78; 12 cylinders V 90°; 29,6 litres; bore 138 mm; stroke 165 mm; power 735 kW"
+    },
+    {
+      "metric": "Special gas table row - E0834",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '68 | 1.4/1.5 | E0834 | 4 | in-line | 4.6'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 68 kW; lambda 1.4/1.5; 4 cylinders in-line; 4.6 litres"
+    },
+    {
+      "metric": "Special gas table row - E0836",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '110 | 1.4 - 1.49 | E0836 | 6 | in-line | 6.9'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 110 kW; lambda 1.4 - 1.49; 6 cylinders in-line; 6.9 litres"
+    },
+    {
+      "metric": "Special gas table row - E2876",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '130 - 220 | 1.40 | E2876 | 6 | in-line | 12.8'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 130 - 220 kW; lambda 1.40; 6 cylinders in-line; 12.8 litres"
+    },
+    {
+      "metric": "Special gas table row - E3268",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '320 - 390 | 1.46 - 1.52 | E3268 | 8 | V 90° | 17.2'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 320 - 390 kW; lambda 1.46 - 1.52; 8 cylinders V 90°; 17.2 litres"
+    },
+    {
+      "metric": "Special gas table row - E3262",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '450 - 580 | 1.44 - 1.6 | E3262 | 12 | V 90° | 25.8'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 450 - 580 kW; lambda 1.44 - 1.6; 12 cylinders V 90°; 25.8 litres"
+    },
+    {
+      "metric": "Special gas table row - E3872",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '735 | 1.61 | E3872 | 12 | V 90° | 29.6'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 735 kW; lambda 1.61; 12 cylinders V 90°; 29.6 litres"
+    },
+    {
+      "metric": "Large-bore gas engines from Everllence",
+      "unit": "MW",
+      "basis": "'Large-bore gas engines from 10 to 18 MW. High-speed, medium-speed and low-speed engines with a displacement in excess of 30 litres are offered by Everllence.'",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "10 to 18 MW; displacement in excess of 30 litres"
+    },
+    {
+      "metric": "Power range",
+      "unit": "kW",
+      "basis": "'With a power range of 250 to 550 kilowatts and peak efficiencies of up to 42.6 percent ...'. Press release 10 December 2020.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": "250 - 550",
+      "low": 250,
+      "high": 550
+    },
+    {
+      "metric": "Peak electrical efficiency",
+      "unit": "% (up to)",
+      "basis": "'Top efficiency: Gas units enable efficiencies of up to 42.6%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": 42.6
+    },
+    {
+      "metric": "Engine variants",
+      "unit": "n/a",
+      "basis": "'6R, 8V, 12V versions deliver outputs from 250 to 550 kilowatts' and 'Gas gensets and cogeneration plants can be ordered on the basis of 6-cylinder in-line engines as well as 8 and 12-cylinder V-engines for the 50 Hz market'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": "6R in-line, 8V and 12V"
+    },
+    {
+      "metric": "Cogeneration efficiency",
+      "unit": "% (around)",
+      "basis": "'In cogeneration, when electricity and heat are generated, efficiencies of around 90 percent can be achieved.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": 90
+    },
+    {
+      "metric": "60 Hz market introduction",
+      "unit": "n/a",
+      "basis": "'In the 60 Hz market, the units will be introduced from mid 2021.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": "from mid 2021"
+    },
+    {
+      "metric": "Efficiency improvement vs Series 400",
+      "unit": "% (about)",
+      "basis": "'increases efficiency by about three percent and available power by over 30 percent' vs Series 400.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Power increase vs Series 400",
+      "unit": "% (over)",
+      "basis": "As above.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Microgrid energy cost reduction",
+      "unit": "% (over, claimed)",
+      "basis": "'can cut energy costs by over 40 percent compared to a conventional system' for gas genset + PV + battery microgrid.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Power plant capacity delivered",
+      "unit": "GW",
+      "basis": "'81 GW of power plant capacity delivered to 180 countries around the world.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": 81
+    },
+    {
+      "metric": "Engine generating sets delivered",
+      "unit": "sets",
+      "basis": "'11 000 engine generating sets delivered.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": 11000
+    },
+    {
+      "metric": "Start-up to full load",
+      "unit": "n/a",
+      "basis": "'From start-up to full load in as little as two minutes without minimum uptime or downtime. Unlimited starts and stops have no impact on maintenance.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "as little as two minutes"
+    },
+    {
+      "metric": "Simple cycle efficiency",
+      "unit": "%",
+      "basis": "Benefits 'High performance' section.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "50% or more (highest available of current technologies)"
+    },
+    {
+      "metric": "Flexicycle efficiency",
+      "unit": "%",
+      "basis": "'With the efficiency exceeding 54%, this unique combination is perfect for reliable baseload operation where high efficiency is needed.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "> 54"
+    },
+    {
+      "metric": "Selector entry - Wartsila 46TS-SG gas engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '20.4 MW - 22.9 MW / 51.3 electrical efficiency / 2 min start-up'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "20.4 MW - 22.9 MW / 51.3 electrical efficiency / 2 min start-up"
+    },
+    {
+      "metric": "Selector entry - Wartsila 46TS-DF dual fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '20.4 MW - 22.9 MW / 50.7 electrical efficiency / 2 min start-up'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "20.4 MW - 22.9 MW / 50.7 electrical efficiency / 2 min start-up"
+    },
+    {
+      "metric": "Selector entry - Wartsila 31SG gas engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '11.8 MW / 51.5% efficiency / 90% CHP efficiency'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "11.8 MW / 51.5% efficiency / 90% CHP efficiency"
+    },
+    {
+      "metric": "Selector entry - Wartsila 31SG power optimised",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '12.7 MW / 50.4% electrical efficiency / 2.5 min to full load'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "12.7 MW / 50.4% electrical efficiency / 2.5 min to full load"
+    },
+    {
+      "metric": "Selector entry - Wartsila 31SG efficiency optimised",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '10.8 MW / 52.1% electrical efficiency / 2.5 min to full load'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "10.8 MW / 52.1% electrical efficiency / 2.5 min to full load"
+    },
+    {
+      "metric": "Selector entry - Wartsila 31DF dual fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '11.8 MW / 49.9% electrical efficiency / 2.5 min to full load'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "11.8 MW / 49.9% electrical efficiency / 2.5 min to full load"
+    },
+    {
+      "metric": "Selector entry - Wartsila 34SG gas engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '5.8 MW - 9.8 MW / 48.9% efficiency / Over 80% CHP efficiency'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "5.8 MW - 9.8 MW / 48.9% efficiency / Over 80% CHP efficiency"
+    },
+    {
+      "metric": "Selector entry - Wartsila 34SG power optimised",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '10.8 MW / 47.6% electrical efficiency / 2 min to full load'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "10.8 MW / 47.6% electrical efficiency / 2 min to full load"
+    },
+    {
+      "metric": "Selector entry - Wartsila 34DF dual fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '5.8 MW - 9.8 MW / 48.5% efficiency / 2 min to full load'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "5.8 MW - 9.8 MW / 48.5% efficiency / 2 min to full load"
+    },
+    {
+      "metric": "Selector entry - Wartsila 34SG LPG optimised",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '4.4 MW - 7.3 MW / 45.8% electrical efficiency / For propane'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "4.4 MW - 7.3 MW / 45.8% electrical efficiency / For propane"
+    },
+    {
+      "metric": "Selector entry - Wartsila 50SG gas engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '18.4 MW / 49.9% efficiency / 30 sec power to grid'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "18.4 MW / 49.9% efficiency / 30 sec power to grid"
+    },
+    {
+      "metric": "Selector entry - Wartsila 50DF dual fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '17.6 MW / 49.4% efficiency / 30 sec power to grid'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "17.6 MW / 49.4% efficiency / 30 sec power to grid"
+    },
+    {
+      "metric": "Selector entry - Wartsila 50 liquid fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '18.4 MW / 49.4% efficiency / 30 sec power to grid'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "18.4 MW / 49.4% efficiency / 30 sec power to grid"
+    },
+    {
+      "metric": "Selector entry - Wartsila 32 liquid fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '5.8 MW - 9.8 MW / 47.4% efficiency / 2 000+ installed engines'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "5.8 MW - 9.8 MW / 47.4% efficiency / 2 000+ installed engines"
     }
   ],
   "vendor_models": [
@@ -571,5 +1413,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

@@ -266,6 +266,476 @@
         "url": "https://patents.google.com/patent/US12651896B2/en",
         "source_id": "gef-patents-google-com-en-56dee13"
       }
+    },
+    {
+      "metric": "Rated voltage range",
+      "unit": "kV",
+      "basis": "\"Vacuum Circuit-Breaker 3AK7 from 7.2 to 17.5 kV\"; technical data table 7.2 / 12 / 15 / 17.5 kV",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 7.2,
+      "high": 17.5
+    },
+    {
+      "metric": "Rated normal current",
+      "unit": "A (4000 A with forced cooling)",
+      "basis": "Technical data: \"Rated normal current Ir A 1250; 2000; 2500; 3150; 4000 (with forced cooling)\"",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 1250,
+      "high": 4000
+    },
+    {
+      "metric": "Rated short-circuit breaking current (standard breaker)",
+      "unit": "kA (also 40 kA variant)",
+      "basis": "\"capable to break short-circuit currents up to 50 kA\"; technical data 50/40 kA",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Rated short-circuit making current",
+      "unit": "kA peak",
+      "basis": "Selection tables: 125/130 kA peak (standard breakers); 110 kA (40 kA generator), 137 kA (50 kA generator)",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      }
+    },
+    {
+      "metric": "Pole-center distance",
+      "unit": "mm (or 280 mm)",
+      "basis": "\"lean pole-shell design with a pole-center distance of 210 mm\"; tables list PCD 210/280 mm",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 210
+    },
+    {
+      "metric": "Maintenance-free operating cycles",
+      "unit": "cycles",
+      "basis": "\"The 3AK7 is maintenance-free up to 10,000 operating cycles. 30,000 operating cycles on request\"",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Extended operating cycles option",
+      "unit": "cycles (on request)",
+      "basis": "\"30,000 operating cycles on request\"; order code -Z M30",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 30000
+    },
+    {
+      "metric": "Rated lightning impulse withstand voltage",
+      "unit": "kV",
+      "basis": "Technical data table: 60 kV (7.2 kV), 75 kV (12 kV), 95 kV (17.5 kV)",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 60,
+      "high": 95
+    },
+    {
+      "metric": "Rated short-duration power-frequency withstand voltage",
+      "unit": "kV",
+      "basis": "Technical data table: 20 kV (7.2 kV), 28 kV (12 kV), 38 kV (17.5 kV)",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 20,
+      "high": 38
+    },
+    {
+      "metric": "Standards",
+      "unit": "n/a",
+      "basis": "\"conform to IEC 62271-100, IEC 62271-1, IEC 60265-1 and IEC / IEEE 62271-37-013:2015 (marked accordingly)\"; endurance classes E2, M2, S1 and C2",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      }
+    },
+    {
+      "metric": "Ambient reference current basis",
+      "unit": "degC",
+      "basis": "\"rated normal currents ... defined according to IEC 62271-100 for an ambient air temperature of +40 °C and apply to open switchgear\"",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Publication",
+      "unit": "n/a",
+      "basis": "Catalog HG 11.06, Edition 2017 (supersedes HG 11.06 edition 2014); 'Medium-Voltage Equipment 3AK7 Vacuum Circuit-Breakers'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      }
+    },
+    {
+      "metric": "standard",
+      "unit": "n/a",
+      "basis": "Type tested according to the latest Standards IEC/IEEE 62271-37-013; first complete product line developed in accordance with the most recent Dual Logo IEC/IEEE 62271-37-013 Standard",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      }
+    },
+    {
+      "metric": "generator_classes",
+      "unit": "n/a",
+      "basis": "IEC/IEEE 62271-37-013 introduces generator classes for the CB: G1 and G2",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": "G1 and G2"
+    },
+    {
+      "metric": "rated_voltage_Ur",
+      "unit": "kV",
+      "basis": "Technical data, 15 kV, 3150 A / 4000 A, 63 kA - acc. to Dual Logo IEC / IEEE 62271-37-013",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 15
+    },
+    {
+      "metric": "rated_normal_current_Ir_VD4G-25",
+      "unit": "A",
+      "basis": "Technical data rated normal current (40 degrees C) Ir, VD4G-25",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 1250
+    },
+    {
+      "metric": "rated_normal_current_Ir_VD4G-40",
+      "unit": "A",
+      "basis": "Technical data rated normal current (40 degrees C) Ir, VD4G-40",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "rated_normal_current_Ir_VD4G-50",
+      "unit": "A",
+      "basis": "Technical data rated normal current (40 degrees C) Ir, VD4G-50: 3150 A / 4000 A",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 3150,
+      "low": 4000,
+      "high": 4000
+    },
+    {
+      "metric": "rated_normal_current_Ir_VD4G-63",
+      "unit": "A",
+      "basis": "Technical data rated normal current (40 degrees C) Ir, VD4G-63: 3150 A / 4000 A",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 3150,
+      "low": 3150,
+      "high": 4000
+    },
+    {
+      "metric": "rated_frequency_fr",
+      "unit": "Hz",
+      "basis": "Technical data, rated frequency fr 50/60 Hz",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 50,
+      "high": 60
+    },
+    {
+      "metric": "power_frequency_withstand_voltage_Ud",
+      "unit": "kV",
+      "basis": "Technical data, withstand voltage at 50 Hz Ud - common value 38 kV",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 38
+    },
+    {
+      "metric": "impulse_withstand_voltage_Up",
+      "unit": "kV",
+      "basis": "Technical data, impulse withstand voltage Up - common value 95 kV",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 95
+    },
+    {
+      "metric": "making_current_Ip_VD4G-25",
+      "unit": "kA",
+      "basis": "Technical data making current Ip",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 68.5
+    },
+    {
+      "metric": "making_current_Ip_VD4G-40",
+      "unit": "kA",
+      "basis": "Technical data making current Ip",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 115
+    },
+    {
+      "metric": "making_current_Ip_VD4G-50",
+      "unit": "kA",
+      "basis": "Technical data making current Ip",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 137
+    },
+    {
+      "metric": "making_current_Ip_VD4G-63",
+      "unit": "kA",
+      "basis": "Technical data making current Ip",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 173
+    },
+    {
+      "metric": "rated_system_source_short_circuit_breaking_current",
+      "unit": "kA",
+      "basis": "Technical data symmetrical short-circuit current Isc: 25 / 40 / 50 / 63 kA for VD4G-25 / -40 / -50 / -63",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 25,
+      "high": 63
+    },
+    {
+      "metric": "dc_component_system_source_breaking_current",
+      "unit": "%",
+      "basis": "Technical data, DC component of the rated short circuit breaking current 75 %",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 75
+    },
+    {
+      "metric": "asymmetrical_system_source_short_circuit_current",
+      "unit": "kA",
+      "basis": "Technical data asymmetrical system source short-circuit current: 36.5 / 58.5 / 73 / 92 kA",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 36.5,
+      "high": 92
+    },
+    {
+      "metric": "generator_source_symmetrical_short_circuit_current_G1",
+      "unit": "kA",
+      "basis": "Technical data symmetrical short-circuit current Iscg Class G1: 16 / 25 / 50 / 50 kA",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 16,
+      "high": 50
+    },
+    {
+      "metric": "generator_source_dc_component_G1",
+      "unit": "%",
+      "basis": "Technical data, DC component of generator-source short-circuit breaking current Class G1 110 %",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 110
+    },
+    {
+      "metric": "generator_source_symmetrical_short_circuit_current_G2",
+      "unit": "kA",
+      "basis": "Technical data symmetrical short-circuit current Iscg Class G2: 16 / 25 / 37 / 37 kA",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 16,
+      "high": 37
+    },
+    {
+      "metric": "generator_source_dc_component_G2",
+      "unit": "%",
+      "basis": "Technical data, DC component of generator-source short-circuit breaking current Class G2 130 %",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 130
+    },
+    {
+      "metric": "out_of_phase_breaking_current",
+      "unit": "kA",
+      "basis": "Technical data, rated breaking current under out-of-phase conditions symmetrical short-circuit current Isc: 12.5 / 20 / 25 / 31.5 kA",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 12.5,
+      "high": 31.5
+    },
+    {
+      "metric": "out_of_phase_dc_component",
+      "unit": "%",
+      "basis": "Technical data, DC component of rated short circuit breaking current under out-of-phase conditions 75 %",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 75
+    },
+    {
+      "metric": "rated_operating_sequence",
+      "unit": "n/a",
+      "basis": "Technical data, rated operating sequence during short-circuit interruption CO-10 min-CO",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": "CO-10 min-CO"
+    },
+    {
+      "metric": "rated_short_time_withstand_current",
+      "unit": "kA",
+      "basis": "Technical data, rated short-time withstand current Ik: 25 kA (3 s), 40 kA (3 s), 50 kA (4s fixed version), 63 kA (2s)",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 25,
+      "high": 63
+    },
+    {
+      "metric": "pole_center_distance",
+      "unit": "mm",
+      "basis": "Technical data dimensions, pole center distance 150 / 210/275 / 275 / 275 mm",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 150,
+      "high": 275
+    },
+    {
+      "metric": "height_fixed",
+      "unit": "mm",
+      "basis": "Technical data dimensions, height fixed 461 / 610 / 636 mm across ratings",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 461,
+      "high": 636
+    },
+    {
+      "metric": "height_withdrawable",
+      "unit": "mm",
+      "basis": "Technical data dimensions, height withdrawable 632 / 691 / 730 / 735 mm",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 632,
+      "high": 735
+    },
+    {
+      "metric": "depth_fixed",
+      "unit": "mm",
+      "basis": "Technical data dimensions, depth fixed 424 / 459 mm",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 424,
+      "high": 459
+    },
+    {
+      "metric": "depth_withdrawable",
+      "unit": "mm",
+      "basis": "Technical data dimensions, depth withdrawable 664 / 643 / 650 mm",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 643,
+      "high": 664
+    },
+    {
+      "metric": "width_fixed",
+      "unit": "mm",
+      "basis": "Technical data dimensions, width fixed 450 / 600-750 / 750 mm",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 450,
+      "high": 750
+    },
+    {
+      "metric": "width_withdrawable",
+      "unit": "mm",
+      "basis": "Technical data dimensions, width withdrawable 503 / 681-853 / 851-853 mm",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 503,
+      "high": 853
+    },
+    {
+      "metric": "weight_fixed",
+      "unit": "kg",
+      "basis": "Technical data dimensions, weight fixed 73 / 146-158 / 177 / 210 kg",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 73,
+      "high": 210
+    },
+    {
+      "metric": "weight_withdrawable",
+      "unit": "kg",
+      "basis": "Technical data dimensions, weight withdrawable 116 / 190-205 / 221 / 270 kg",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "low": 116,
+      "high": 270
+    },
+    {
+      "metric": "system_short_circuit_dc_time_constant",
+      "unit": "ms",
+      "basis": "IEC 62271-37-013 short-circuit current d.c. time constant 133 ms (IEC 62271-100: 45 ms)",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 133
+    },
+    {
+      "metric": "trv_rate_of_rise_terminal_faults",
+      "unit": "kV/us",
+      "basis": "IEC 62271-37-013 TRV rate of rise - terminal faults up to 6 kV/us (IEC 62271-100 up to 3.5 kV/us)",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "high": 6
+    },
+    {
+      "metric": "out_of_phase_breaking_current_fraction",
+      "unit": "% of system-source short-circuit current",
+      "basis": "IEC/IEEE 62271-37-013 out-of-phase breaking current 50 % of system-source short-circuit current (IEC 62271-100: 25 % of rated short-circuit current)",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "generation_power_up_to",
+      "unit": "MVA",
+      "basis": "Unique product family ranging from the lowest ratings up to 100 MVA generation power level; 25 kA at 1250 A = 30 MVA, 2000 A = 50 MVA, 3150 A = 80 MVA, 4000 A = 100 MVA",
+      "source": {
+        "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
+      },
+      "value": 100
     }
   ],
   "vendor_models": [
@@ -353,5 +823,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

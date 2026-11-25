@@ -47,6 +47,60 @@
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
       }
+    },
+    {
+      "metric": "Operating Code",
+      "unit": "n/a",
+      "basis": "Operating Code No. 5: Operational Liaison — OC5.5 PROCEDURES FOR OPERATIONAL LIAISON",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "OC5.5 Procedures for Operational Liaison"
+    },
+    {
+      "metric": "OC5.4",
+      "unit": "n/a",
+      "basis": "OC5.4 OPERATIONAL LIAISON TERMS",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "Operational Liaison Terms"
+    },
+    {
+      "metric": "Communication requirement",
+      "unit": "n/a",
+      "basis": "communication channels to be used in accordance with the Connection Conditions (CC)",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "GSO and User shall use communication channels in accordance with the Connection Conditions (CC)"
+    },
+    {
+      "metric": "SCADA/RTU communication",
+      "unit": "n/a",
+      "basis": "SCADA equipment, remote terminal units or other means of communication specified in [the agreement] ... information to and from the GSO.",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "SCADA equipment, remote terminal units or other means of communication specified in ..."
+    },
+    {
+      "metric": "Nominated contacts",
+      "unit": "n/a",
+      "basis": "The GSO and User shall nominate persons, contact locations and communication channels to ensure the effectiveness of OC6",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "The GSO and User shall nominate persons, contact locations and communication channels"
+    },
+    {
+      "metric": "Communication equipment criteria",
+      "unit": "n/a",
+      "basis": "CC5.5 TECHNICAL CRITERIA FOR COMMUNICATION EQUIPMENT — technical criteria concerning voice and data communication equipment",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "CC5.5 TECHNICAL CRITERIA FOR COMMUNICATION EQUIPMENT"
     }
   ],
   "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
@@ -56,6 +110,6 @@
       "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 6 new printed parameters."
 }

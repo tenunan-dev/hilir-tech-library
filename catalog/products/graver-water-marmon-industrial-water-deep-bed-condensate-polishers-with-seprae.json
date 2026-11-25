@@ -67,6 +67,65 @@
       },
       "unit": "n/a",
       "value": "iron, copper, silica, salts, suspended solids"
+    },
+    {
+      "metric": "Service pressure",
+      "unit": "psi",
+      "basis": "'designed to handle service pressures of up to 800psi' / 'Up to 800psi service pressure'",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/"
+      },
+      "value": 800
+    },
+    {
+      "metric": "Flow rate",
+      "unit": "gpm/sq ft",
+      "basis": "'Up to 50 gpm/sq. ft. flowrate'",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Cation:anion resin ratio AVT",
+      "unit": "ratio",
+      "basis": "'when \"All Volatile Treatment\" (AVT) is used ... a high cation exchange to anion exchange resin ratio (2:1)'",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/"
+      },
+      "value": 2
+    },
+    {
+      "metric": "BWR resin blend",
+      "unit": "n/a",
+      "basis": "'in a neutral pH environment, as would be seen in a boiling water reactor (BWR) a stoichiometric blend of the ion exchange media would be employed'",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/"
+      }
+    },
+    {
+      "metric": "Removed species",
+      "unit": "n/a",
+      "basis": "'Both Deep Bed and Precoat type Polishers remove iron, copper, silica and salts, and suspended solids'",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/"
+      }
+    },
+    {
+      "metric": "Regeneration",
+      "unit": "n/a",
+      "basis": "'two-vessel SepraEight® regeneration design results in a smaller footprint for regeneration equipment'",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/"
+      }
+    },
+    {
+      "metric": "Regeneration options",
+      "unit": "n/a",
+      "basis": "'sent off-site for regeneration or disposal, or ... regenerated on-site using Graver's SepraEight technology'",
+      "source": {
+        "url": "https://graver.com/condensate-polishers/deepbed/"
+      }
     }
   ],
   "url": "https://graver.com/condensate-polishers/deepbed/",
@@ -75,6 +134,6 @@
       "url": "https://graver.com/condensate-polishers/deepbed/"
     }
   ],
-  "notes": "Read in full: Graver Deep Bed Condensate Polishers page. Related products Powdex, GRF, AFA, TurboGuard listed on page but not read.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: Graver Deep Bed Condensate Polishers page. Related products Powdex, GRF, AFA, TurboGuard listed on page but not read. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -37,6 +37,55 @@
       },
       "unit": "n/a",
       "value": "Standard HESI is FM approved; CE Version meets Low Voltage Directive"
+    },
+    {
+      "metric": "Igniter class",
+      "unit": "n/a",
+      "basis": "'The HESI is a Class 3 Igniter used for direct spark ignition of oil or gas igniters, small burners, and combustion turbines'",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      }
+    },
+    {
+      "metric": "Approvals",
+      "unit": "n/a",
+      "basis": "'The Standard HESI is FM approved and the CE Version meets the Low Voltage D...' (text truncated in retrieved page)",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      }
+    },
+    {
+      "metric": "MaxFire 100 Series capacities",
+      "unit": "capacities",
+      "basis": "'incorporates the \"protected primary combustion zone\" design in each of the 5 capacities available'",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Q87 fuel capability",
+      "unit": "n/a",
+      "basis": "'best choice when dual fuel (natural gas and No. 2 oil) is required'",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      }
+    },
+    {
+      "metric": "DURAFire fuel",
+      "unit": "n/a",
+      "basis": "'air atomized No. 2 oil igniter' with 'protected primary combustion zone' design",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      }
+    },
+    {
+      "metric": "Horn igniter",
+      "unit": "n/a",
+      "basis": "'direct replacement for the OEM igniter on tangentially fired boilers' featuring 'high energy spark igniter (HESI)'",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      }
     }
   ],
   "url": "https://www.forneycorp.com/igniters",
@@ -45,6 +94,13 @@
       "url": "https://www.forneycorp.com/igniters"
     }
   ],
-  "notes": "Read in full: Forney igniters list page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: Forney igniters list page. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "HESI electrical ratings (energy, voltage, spark frequency)",
+      "why": "Page text truncated mid-sentence and links to individual product pages not expanded",
+      "next_action": "Open the HESI product page and datasheet on forneycorp.com"
+    }
+  ]
 }

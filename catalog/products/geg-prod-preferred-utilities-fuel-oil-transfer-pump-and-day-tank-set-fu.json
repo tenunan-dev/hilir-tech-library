@@ -64,6 +64,170 @@
         "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf",
         "source_id": "geg-preferred-mfg-com-fuel-20oil-20transfer-20pu-ce2c1c5"
       }
+    },
+    {
+      "metric": "Flow range",
+      "unit": "GPH",
+      "basis": "Flows from 23 to 1600 GPH",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf",
+        "source_id": "catpar-r-jina-ai-fuel-20oil-20transfer-20pump-20and-42557b5"
+      },
+      "low": 23,
+      "high": 1600
+    },
+    {
+      "metric": "Fluid",
+      "unit": "n/a",
+      "basis": "No. 2 or No. 4 fuel oil; Fluid: No. 2 or No. 4 fuel oil is standard",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "No. 2 or No. 4 fuel oil"
+    },
+    {
+      "metric": "Power",
+      "unit": "n/a",
+      "basis": "Specifications > Power: 120 VAC (external)",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "120 VAC (external)"
+    },
+    {
+      "metric": "Motor supply",
+      "unit": "n/a",
+      "basis": "Note: all pumps are 115V 60 Hz single phase",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "115V 60 Hz single phase"
+    },
+    {
+      "metric": "Pump type",
+      "unit": "n/a",
+      "basis": "Pump: Positive displacement type with cast iron housings and self-adjusting mechanical seals",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "Positive displacement type with cast iron housings and self-adjusting mechanical seals"
+    },
+    {
+      "metric": "Motors",
+      "unit": "n/a",
+      "basis": "Motors: Base mounted, TEFC",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "Base mounted, TEFC"
+    },
+    {
+      "metric": "Pump catalog 11871",
+      "unit": "n/a",
+      "basis": "G.P.H. Oil #2 / P.S.I. / Motor R.P.M. / H.P.: 180 / 15 / 1725 / ¼ (catalog 11871)",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "180 GPH @ 15 PSI, 1725 RPM, 1/4 HP"
+    },
+    {
+      "metric": "Pump catalog 11872",
+      "unit": "n/a",
+      "basis": "480 / 15 / 3450 / ⅓",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "480 GPH @ 15 PSI, 3450 RPM, 1/3 HP"
+    },
+    {
+      "metric": "Pump catalog 11873",
+      "unit": "n/a",
+      "basis": "600 / 30 / 1725 / ½",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "600 GPH @ 30 PSI, 1725 RPM, 1/2 HP"
+    },
+    {
+      "metric": "Pump catalog 11874",
+      "unit": "n/a",
+      "basis": "900 / 30 / 1725 / ¾",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "900 GPH @ 30 PSI, 1725 RPM, 3/4 HP"
+    },
+    {
+      "metric": "Pump catalog 11815",
+      "unit": "n/a",
+      "basis": "1200 / 25 / 1725 / ¾",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "1200 GPH @ 25 PSI, 1725 RPM, 3/4 HP"
+    },
+    {
+      "metric": "Day tank",
+      "unit": "n/a",
+      "basis": "one (1) ___ gallon, UL 142 labeled day tank constructed of reinforced 10 gauge steel ... Model DT-S-R-UL",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "UL 142 labeled, reinforced 10 gauge steel, Model DT-S-R-UL"
+    },
+    {
+      "metric": "Rupture basin capacity",
+      "unit": "% of tank capacity (minimum)",
+      "basis": "sized a minimum of 160% capacity of tank capacity",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": 160
+    },
+    {
+      "metric": "Level switches",
+      "unit": "n/a",
+      "basis": "Level Controls shall have four (4) float operated switches rated at 100 watts",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "4 float operated switches rated at 100 watts"
+    },
+    {
+      "metric": "Level control points",
+      "unit": "n/a",
+      "basis": "emergency high-level alarm and total pump shutdown (90% capacity), pump off (80% capacity), pump on (50% capacity), and emergency low-level secondary pump on (40% capacity)",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "90% high alarm/shutdown; 80% pump off; 50% pump on; 40% low"
+    },
+    {
+      "metric": "Suitability pressure",
+      "unit": "PSIG",
+      "basis": "Unit shall be suitable for pressures to 150 PSIG",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": 150
+    },
+    {
+      "metric": "Control cabinet",
+      "unit": "n/a",
+      "basis": "control system enclosure shall be constructed to NEMA 12/13 standards; must be labeled as conforming to UL 508A",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": "NEMA 12/13; UL 508A"
+    },
+    {
+      "metric": "Hydrostatic test pressure",
+      "unit": "PSIG minimum",
+      "basis": "The minimum pressure for testing the tank shall be five (5) PSIG ... in no case for less than one-half hour",
+      "source": {
+        "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
+      },
+      "value": 5
     }
   ],
   "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf",
@@ -71,8 +235,11 @@
     {
       "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf",
       "source_id": "geg-preferred-mfg-com-fuel-20oil-20transfer-20pu-ce2c1c5"
+    },
+    {
+      "url": "https://r.jina.ai/https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 18 new printed parameters."
 }

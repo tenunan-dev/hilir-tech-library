@@ -78,6 +78,106 @@
         "source_id": "cat-europe-dixonvalve-com-a9661-s6s6-n-050"
       },
       "value": 2.5
+    },
+    {
+      "metric": "working_pressure",
+      "unit": "bar",
+      "basis": "Attributes table: Working Pressure 16 bar",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "value": 16
+    },
+    {
+      "metric": "burst_pressure",
+      "unit": "bar",
+      "basis": "Attributes table: Burst Pressure 128 bar",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "value": 128
+    },
+    {
+      "metric": "temperature_range",
+      "unit": "degC",
+      "basis": "Attributes table: Temperature Range -200 degC to +80 degC",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "low": -200,
+      "high": 80
+    },
+    {
+      "metric": "inside_diameter",
+      "unit": "mm",
+      "basis": "Attributes table: ID 50 mm",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "value": 50
+    },
+    {
+      "metric": "bend_radius",
+      "unit": "mm",
+      "basis": "Attributes table: Bend Radius 180 mm",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "value": 180
+    },
+    {
+      "metric": "length",
+      "unit": "m",
+      "basis": "Attributes table: Length up to 40m",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "high": 40
+    },
+    {
+      "metric": "unit_weight",
+      "unit": "kg",
+      "basis": "Attributes table: Unit weight 2.5 kg",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "value": 2.5
+    },
+    {
+      "metric": "colour",
+      "unit": "n/a",
+      "basis": "Attributes table: Color White",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "value": "White"
+    },
+    {
+      "metric": "applications",
+      "unit": "n/a",
+      "basis": "Details - Applications (printed verbatim)",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "value": "Suction & Delivery; designed for handling LNG Liquefied Natural Gas, Liquid Methane and Liquid Nitrogen @ -200 degC"
+    },
+    {
+      "metric": "construction",
+      "unit": "n/a",
+      "basis": "Details - Construction (printed verbatim)",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "value": "Reinforcement/Lining: Stainless steel inner wire, high strength polypropylene films and fabrics, high density polyethylene film reinforcements; Cover: Polyvinyl coated polyester fibre cover with outer"
+    },
+    {
+      "metric": "S6S6_wire_spec",
+      "unit": "n/a",
+      "basis": "Details - Available Options (printed verbatim)",
+      "source": {
+        "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
+      },
+      "value": "S6S6 denotes stainless (S), grade 316 (6), inner and outer wires"
     }
   ],
   "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050",
@@ -86,6 +186,6 @@
       "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     }
   ],
-  "notes": "Page note states: 'Hose pressures are indicative only, please confirm with customer service.' S6S6 denotes 316 stainless inner and outer wires.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page note states: 'Hose pressures are indicative only, please confirm with customer service.' S6S6 denotes 316 stainless inner and outer wires. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -191,6 +191,737 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "value": 50
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "'engineered for a wide variety of applications, from petroleum refineries to FPSO offshore platforms'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Liquid seal design",
+      "unit": "n/a",
+      "basis": "'We use deep liquid seals that provide the necessary hydrostatic head' to 'prevent air backflow and ensure stable operation of the compressor and flare system'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Compression technologies",
+      "unit": "n/a",
+      "basis": "'Ejectors ... particularly useful in applications requiring a simple, maintenance-free solution'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Emissions reduced",
+      "unit": "n/a",
+      "basis": "'designed to significantly reduce emissions, including NOx, CO, CO2, and SOx'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Flare gas sweetening",
+      "unit": "n/a",
+      "basis": "'Flare gas often contains impurities like H2S that need to be removed'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-gas-recovery"
+      }
+    },
+    {
+      "metric": "Maximum flow (Howden range)",
+      "unit": "m3/h (up to)",
+      "basis": "\"comprehensive range of Industrial Centrifugal Turbo Compressors up to 600,000 m3/h\"",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 600000
+    },
+    {
+      "metric": "Installed base",
+      "unit": "installations (over)",
+      "basis": "\"Customizable Centrifugal Turbo Compressors proven over 100 years and 4000 installations\"",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Single stage flow range",
+      "unit": "m3/h",
+      "basis": "\"model range serves applications requiring flows of between 3,000 m3/h and 600,000 m3/h with pressure ratios up to 3.5\"",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 3000,
+      "high": 600000
+    },
+    {
+      "metric": "CKD maximum flow / discharge pressure",
+      "unit": "n/a",
+      "basis": "\"CKD compressors ... flow requirements up to 1700,000 m3/h and discharge pressures of up to 20 MPa\" [sic – printed as 1700,000]",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "SFO/SFP/SFN pressure and flow",
+      "unit": "n/a",
+      "basis": "\"SFO, SFP and SFN series ... pressures up to 50 bar and flow rates up to 200,000 m3/hr\"",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "SF model",
+      "unit": "m3/h",
+      "basis": "Single stage table: SF flow 15,000-600,000 m3/h, pressure ratio up to 3.5, impeller dia up to 2240 mm, electric or turbine drive",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 15000,
+      "high": 600000
+    },
+    {
+      "metric": "SFG model",
+      "unit": "m3/h",
+      "basis": "Single stage table: SFG flow 5,000-300,000 m3/h, ratio up to 3.5, impeller dia up to 1120 mm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 5000,
+      "high": 300000
+    },
+    {
+      "metric": "ST model",
+      "unit": "m3/h",
+      "basis": "Single stage table: ST flow 1,500-150,000 m3/h, ratio up to 3.5, impeller dia up to 900 mm, integrated steam turbine drive",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 1500,
+      "high": 150000
+    },
+    {
+      "metric": "SL model",
+      "unit": "m3/h",
+      "basis": "Single stage table: SL flow 15,000-450,000 m3/h, ratio up to 1.45, impeller dia up to 1800 mm, coke oven gas",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 15000,
+      "high": 450000
+    },
+    {
+      "metric": "RS model",
+      "unit": "m3/h",
+      "basis": "Multistage table: RS flow 400-65,000 m3/h, pressure ratio up to 10.0, impeller dia up to 700 mm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 400,
+      "high": 65000
+    },
+    {
+      "metric": "RV model",
+      "unit": "m3/h",
+      "basis": "Multistage table: RV flow 400-85,000 m3/h (400-170,000 back-to-back), ratio up to 10.0, impeller dia up to 780 mm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 400,
+      "high": 170000
+    },
+    {
+      "metric": "SFG Twin / Back-to-Back",
+      "unit": "m3/h",
+      "basis": "Multistage table: SFG Back-to-Back 3,000-75,000 m3/h (ratio up to 6.0, impeller up to 560 mm); SFG Twin 3,000-200,000 m3/h (ratio up to 6.0, impeller up to 900 mm)",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 3000,
+      "high": 200000
+    },
+    {
+      "metric": "Overall flow range of turbo compressors",
+      "unit": "m3/h (up to)",
+      "basis": "Howden: 'comprehensive range of Industrial Centrifugal Turbo Compressors up to 600,000 m3/h'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 600000
+    },
+    {
+      "metric": "Single-stage range (KK&K)",
+      "unit": "m3/h",
+      "basis": "Howden: 'model range serves applications requiring flows of between 3,000 m3/h and 600,000 m3/h with pressure ratios up to 3.5'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 3000,
+      "high": 600000
+    },
+    {
+      "metric": "Multistage range (KK&K / CKD)",
+      "unit": "m3/h",
+      "basis": "Howden: 'model range serves applications requiring flows of between 400 m3/h and 200,000 m3/h with pressure ratios up to 10.0'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 400,
+      "high": 200000
+    },
+    {
+      "metric": "CKD discharge pressure",
+      "unit": "MPa (up to)",
+      "basis": "Howden CKD: 'flow requirements up to 1700,000 m3/h and discharge pressures of up to 20 MPa'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 20
+    },
+    {
+      "metric": "SF model flow / pressure ratio / impeller",
+      "unit": "text",
+      "basis": "Howden table: SF '15,000-600,000 m3/h; up to 3.5; impeller dia up to 2240 mm; electric or turbine'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "SFG model flow / pressure ratio / impeller",
+      "unit": "text",
+      "basis": "Howden table: SFG '5,000-300,000 m3/h; up to 3.5; impeller dia up to 1120 mm'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "ST model (integrated steam turbine)",
+      "unit": "text",
+      "basis": "Howden table: ST '1,500-150,000 m3/h; up to 3.5; impeller dia up to 900 mm; steam turbine (integrated)'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "RS multistage model",
+      "unit": "text",
+      "basis": "Howden table: RS '400-65,000 m3/h; up to 10.0; impeller dia up to 700 mm'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "RV multistage model",
+      "unit": "text",
+      "basis": "Howden table: RV '400-85,000 m3/h; 400-170,000 (back-to-back)'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "SFG Back-to-Back / Twin models",
+      "unit": "text",
+      "basis": "Howden table: SFG Back-to-Back '3,000-75,000 m3/h; up to 6.0; impeller up to 560 mm'; SFG Twin '3,000-200,000 m3/h; up to 6.0; impeller up to 900 mm'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "rated_power_1_throw_JGN",
+      "unit": "BHP",
+      "basis": "Spec Sheet 1 Throw table: JGN Rated Power 126 (JGQ 140)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 126
+    },
+    {
+      "metric": "rated_power_1_throw_JGQ",
+      "unit": "BHP",
+      "basis": "Spec Sheet 1 Throw table: JGQ Rated Power 140",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 140
+    },
+    {
+      "metric": "rated_power_2_throw_JGN",
+      "unit": "BHP",
+      "basis": "Spec Sheet 2 Throw table: JGN Rated Power 252 (JGQ 280)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 252
+    },
+    {
+      "metric": "rated_power_2_throw_JGQ",
+      "unit": "BHP",
+      "basis": "Spec Sheet 2 Throw table: JGQ Rated Power 280",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 280
+    },
+    {
+      "metric": "stroke_JGN",
+      "unit": "in",
+      "basis": "Spec Sheet, Stroke (in) JGN 3.5; JGQ 3.0",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "stroke_JGQ",
+      "unit": "in",
+      "basis": "Spec Sheet, Stroke (in) JGQ 3.0",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 3
+    },
+    {
+      "metric": "max_rpm_JGN",
+      "unit": "rpm",
+      "basis": "Spec Sheet, Max RPM JGN 1,500; JGQ 1,800",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "max_rpm_JGQ",
+      "unit": "rpm",
+      "basis": "Spec Sheet, Max RPM JGQ 1,800",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "piston_speed_JGN",
+      "unit": "not stated",
+      "basis": "Spec Sheet, Piston Speed 875 (JGN) / 900 (JGQ) - unit not printed",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 875
+    },
+    {
+      "metric": "piston_speed_JGQ",
+      "unit": "not stated",
+      "basis": "Spec Sheet, Piston Speed 900 (JGQ) - unit not printed",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 900
+    },
+    {
+      "metric": "rod_diameter",
+      "unit": "in",
+      "basis": "Spec Sheet, Rod Diameter (in) 1.125 (both frames and throws)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1.125
+    },
+    {
+      "metric": "total_rod_load_1_throw",
+      "unit": "lbs",
+      "basis": "Spec Sheet 1 Throw, Total Rod Load (lbs) JGN 18,000 / JGQ 20,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "low": 18000,
+      "high": 20000
+    },
+    {
+      "metric": "total_rod_load_2_throw",
+      "unit": "lbs",
+      "basis": "Spec Sheet 2 Throw, Total Rod Load (lbs) JGN 18,000 / JGQ 20,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "low": 18000,
+      "high": 20000
+    },
+    {
+      "metric": "tension_rod_load_1_throw",
+      "unit": "lbs",
+      "basis": "Spec Sheet 1 Throw, Tension (lbs) 9,000 / 10,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "low": 9000,
+      "high": 10000
+    },
+    {
+      "metric": "compression_rod_load_1_throw",
+      "unit": "lbs",
+      "basis": "Spec Sheet 1 Throw, Compression (lbs) 10,000 / 11,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "low": 10000,
+      "high": 11000
+    },
+    {
+      "metric": "average_weight_1_throw",
+      "unit": "lbs",
+      "basis": "Spec Sheet 1 Throw, Average Weight (lbs) 1,400",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1400
+    },
+    {
+      "metric": "average_weight_2_throw",
+      "unit": "lbs",
+      "basis": "Spec Sheet 2 Throw, Average Weight (lbs) 2,200",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 2200
+    },
+    {
+      "metric": "max_length_1_throw",
+      "unit": "in",
+      "basis": "Spec Sheet 1 Throw, Max Length (in) 37",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 37
+    },
+    {
+      "metric": "max_length_2_throw",
+      "unit": "in",
+      "basis": "Spec Sheet 2 Throw, Max Length (in) 34",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 34
+    },
+    {
+      "metric": "nominal_width_1_throw",
+      "unit": "in",
+      "basis": "Spec Sheet 1 Throw, Nominal Width (in) 62",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 62
+    },
+    {
+      "metric": "nominal_width_2_throw",
+      "unit": "in",
+      "basis": "Spec Sheet 2 Throw, Nominal Width (in) 83",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 83
+    },
+    {
+      "metric": "crankshaft_centerline",
+      "unit": "in",
+      "basis": "Spec Sheet, Crankshaft Centerline (in) 9.25 (all configurations)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 9.25
+    },
+    {
+      "metric": "frame_horsepower_range",
+      "unit": "BHP",
+      "basis": "The rugged characteristics in these two frames (250-280 BHP)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "low": 250,
+      "high": 280
+    },
+    {
+      "metric": "crankcase_material",
+      "unit": "n/a",
+      "basis": "Materials section (printed verbatim)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing"
+    },
+    {
+      "metric": "crosshead_material",
+      "unit": "n/a",
+      "basis": "Materials section (printed verbatim)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Ductile Iron Crosshead: Alloy steel crosshead pin"
+    },
+    {
+      "metric": "connecting_rod_material",
+      "unit": "n/a",
+      "basis": "Materials section (printed verbatim)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts"
+    },
+    {
+      "metric": "applications",
+      "unit": "n/a",
+      "basis": "Product description: workhorse in field-gas applications; high-pressure cylinders; gas-lift and CNG vehicle-fueling applications",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "field-gas applications; gas-lift and CNG vehicle-fueling; three-stage configurations rental fleets"
+    },
+    {
+      "metric": "JGN 1-throw - rated power",
+      "unit": "BHP",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 126
+    },
+    {
+      "metric": "JGQ 1-throw - rated power",
+      "unit": "BHP",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 140
+    },
+    {
+      "metric": "JGN 1-throw - stroke",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "JGQ 1-throw - stroke",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 3.0
+    },
+    {
+      "metric": "JGN 1-throw - max RPM",
+      "unit": "rpm",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "JGQ 1-throw - max RPM",
+      "unit": "rpm",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "JGN 1-throw - piston speed",
+      "unit": "n/a",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 875
+    },
+    {
+      "metric": "JGQ 1-throw - piston speed",
+      "unit": "n/a",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 900
+    },
+    {
+      "metric": "JGN/JGQ 1-throw - rod diameter",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1.125
+    },
+    {
+      "metric": "JGN 1-throw - total rod load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 18000
+    },
+    {
+      "metric": "JGQ 1-throw - total rod load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "JGN 1-throw - tension load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 9000
+    },
+    {
+      "metric": "JGQ 1-throw - tension load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "JGN 1-throw - compression load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "JGQ 1-throw - compression load",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 11000
+    },
+    {
+      "metric": "JGN/JGQ 1-throw - average weight",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 1400
+    },
+    {
+      "metric": "JGN/JGQ 1-throw - max length",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 37
+    },
+    {
+      "metric": "JGN/JGQ 1-throw - nominal width",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 62
+    },
+    {
+      "metric": "JGN/JGQ - crankshaft centerline",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 9.25
+    },
+    {
+      "metric": "JGN 2-throw - rated power",
+      "unit": "BHP",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 252
+    },
+    {
+      "metric": "JGQ 2-throw - rated power",
+      "unit": "BHP",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 280
+    },
+    {
+      "metric": "JGN/JGQ 2-throw - average weight",
+      "unit": "lbs",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 2200
+    },
+    {
+      "metric": "JGN/JGQ 2-throw - max length",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 34
+    },
+    {
+      "metric": "JGN/JGQ 2-throw - nominal width",
+      "unit": "in",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": 83
+    },
+    {
+      "metric": "JGN/JGQ - frame horsepower range",
+      "unit": "n/a",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "250-280 BHP"
+    },
+    {
+      "metric": "JGN/JGQ - crankcase material",
+      "unit": "n/a",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Gray iron crankcase; forged steel crankshaft; gray iron crosshead guide; tri-metal main bearing"
+    },
+    {
+      "metric": "JGN/JGQ - crosshead and connecting rod material",
+      "unit": "n/a",
+      "basis": "Ariel Corporation 'The Ariel JGN / JGQ' product page, specification tables for 1 throw and 2 throw (JGN and JGQ); page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
+      },
+      "value": "Ductile iron crosshead; alloy steel crosshead pin; forged steel connecting rod; bronze crosshead pin bushing; tri-metal connecting rod bearing; grade 8 stress bolts"
     }
   ],
   "vendors": [
@@ -228,5 +959,5 @@
     "Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty;"
   ],
   "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

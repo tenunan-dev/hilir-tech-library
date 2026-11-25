@@ -27,6 +27,57 @@
       },
       "unit": "qualitative",
       "value": "Possible without severe corrosion even with recovered fuels"
+    },
+    {
+      "metric": "Boiler size range",
+      "unit": "MWth",
+      "basis": "\"The wide size range covers boilers from 30 to 1200 MWth\"",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      },
+      "low": 30,
+      "high": 1200
+    },
+    {
+      "metric": "Installed references",
+      "unit": "references (over 100)",
+      "basis": "\"Most of the over 100 references around the world are multifuel boilers\"",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Superheaters for corrosive fuels",
+      "unit": "n/a",
+      "basis": "\"Well-proven design, including dedicated superheaters for corrosive fuels\"",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      }
+    },
+    {
+      "metric": "Superheater arrangement for recycled fuel",
+      "unit": "n/a",
+      "basis": "\"For recycled fuel combustion, the Valmet CFB Boiler is equipped with a special grid design for effective debris removal and a back pass, including an empty pass and easily replaceable superheaters\"",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      }
+    },
+    {
+      "metric": "Cyclone construction",
+      "unit": "n/a",
+      "basis": "\"high-efficiency cylindrical cyclones constructed of membrane walls covered by a light refractory for erosion protection. No hot expansion joints between the furnace and the cyclone are needed\"",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      }
+    },
+    {
+      "metric": "Steam parameters",
+      "unit": "n/a",
+      "basis": "\"High steam parameters are possible without severe corrosion, even with recovered fuels, thanks to fluidized bed heat exchangers located in the loop seal\" (no numeric steam pressure/temperature printed)",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      }
     }
   ],
   "url": "https://www.valmet.com/energyproduction/cfb-boilers/",
@@ -35,6 +86,13 @@
       "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     }
   ],
-  "notes": "Fetched Valmet CFB Boiler page directly with WebFetch (markdown). Superheaters are a subsystem of the CFB boiler, not a standalone named product line.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Valmet CFB Boiler page directly with WebFetch (markdown). Superheaters are a subsystem of the CFB boiler, not a standalone named product line. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Superheater outlet steam pressure/temperature and tube material specifications",
+      "why": "Page gives only qualitative descriptions and boiler MWth range",
+      "next_action": "Fetch brochure for steam data sheets"
+    }
+  ]
 }

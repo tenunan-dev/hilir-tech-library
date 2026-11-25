@@ -17,6 +17,33 @@
         "source_id": "topsoe-com-ammonia-ammonia-purification"
       },
       "high": 3500
+    },
+    {
+      "metric": "HTZ-5 absorbent",
+      "unit": "n/a",
+      "basis": "The HTZ-5 is a high-purity, large-surface-area zinc oxide absorbent for feedstocks with low sulfur concentrations, or for operation at low temperatures.",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
+      },
+      "value": "high-purity, large-surface-area zinc oxide absorbent for feedstocks with low sulfur concentrations, or for operation at low temperatures"
+    },
+    {
+      "metric": "HTZ-51 absorbent",
+      "unit": "n/a",
+      "basis": "The HTZ-51 is a state-of-the-art zinc oxide absorbent for feedstocks with low sulfur concentrations or for operation at low temperatures.",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
+      },
+      "value": "state-of-the-art zinc oxide absorbent for feedstocks with low sulfur concentrations or for operation at low temperatures"
+    },
+    {
+      "metric": "Reactor benefit",
+      "unit": "n/a",
+      "basis": "Maximize profitability and obtain a lower pressure drop in your adiabatic reactors such as the high, medium, low-temperature shift or the methanator.",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
+      },
+      "value": "Maximize profitability and obtain a lower pressure drop in your adiabatic reactors such as the high, medium, low-temperature shift or the methanator"
     }
   ],
   "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification",
@@ -25,6 +52,13 @@
       "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
     }
   ],
-  "notes": "Uses steam and air reforming; applicable small and large scale.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Uses steam and air reforming; applicable small and large scale. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Two-step reformer energy consumption and capacity figures",
+      "why": "The assigned URL resolves to an ammonia purification page, which does not print the two-step reformer process figures.",
+      "next_action": "Locate the Topsoe two-step reforming / low-energy ammonia process page."
+    }
+  ]
 }

@@ -59,6 +59,72 @@
         "url": "https://wet-scrubber.com/sox-scrubber",
         "source_id": "geg-wet-scrubber-com-sox-scrubber-774d0ac"
       }
+    },
+    {
+      "metric": "Air flow",
+      "unit": "CFM (up to)",
+      "basis": "APZEM SOX Scrubber technical specification: 'Air Flow: upto 70,000 CFM'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      },
+      "value": 70000
+    },
+    {
+      "metric": "Capturing efficiency",
+      "unit": "% (up to)",
+      "basis": "APZEM: 'Efficiency : upto 99.99% capturing efficiency'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      },
+      "value": 99.99
+    },
+    {
+      "metric": "Materials of construction",
+      "unit": "text",
+      "basis": "APZEM: 'MOC: Mild Steel / SS 304 / SS316 / FRP / PP / PVC'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Finish",
+      "unit": "text",
+      "basis": "APZEM: 'Finish: Powder coated / Matt finish'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Power option",
+      "unit": "text",
+      "basis": "APZEM: 'Power option : 3 Phase.'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Operating modes",
+      "unit": "text",
+      "basis": "APZEM: 'This scrubber system can operate in a continuous open loop, closed loop and during a predetermined period, be switched to operate as a zero-discharge system. Seawater is used to cool the scrubber water in circulation.'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Standards / certification",
+      "unit": "text",
+      "basis": "APZEM: 'All Apzem Products are designed to comply with ACGIH and OSHA standards as well as local PCB Standards.'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Contaminants removed",
+      "unit": "text",
+      "basis": "APZEM: 'H2S, HCl, HF, HBr; HCN, HNO3, NH3; Formic acid, Chromic acid; SO2, Cl2, F2, Br2, BCl3, BF3; Formaldehyde, Ethylene compounds; Soluble alcohols, acids; VOCs'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
     }
   ],
   "url": "https://wet-scrubber.com/sox-scrubber",
@@ -68,6 +134,6 @@
       "source_id": "geg-wet-scrubber-com-sox-scrubber-774d0ac"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 8 new printed parameters."
 }

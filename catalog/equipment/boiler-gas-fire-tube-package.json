@@ -210,6 +210,189 @@
       },
       "unit": "psig",
       "value": 125
+    },
+    {
+      "metric": "Steam pressure",
+      "unit": "psig",
+      "basis": "Steam up to 300 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 300
+    },
+    {
+      "metric": "Hot water pressure",
+      "unit": "psig",
+      "basis": "Hot water up to 125 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 125
+    },
+    {
+      "metric": "Fuels",
+      "unit": "n/a",
+      "basis": "Natural gas/propane, #2 light oil, combination",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "Natural gas/propane, #2 light oil, combination"
+    },
+    {
+      "metric": "NOx",
+      "unit": "ppm",
+      "basis": "Offers 30 ppm NOx with 3% O2 across the 10:1 turndown range",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 30
+    },
+    {
+      "metric": "NOx sub-5 ppm",
+      "unit": "ppm",
+      "basis": "Sub 5 ppm NOx without SCR available on most models",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 5
+    },
+    {
+      "metric": "CO requirement",
+      "unit": "ppm",
+      "basis": "Meets 10 ppm CO requirement",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 10
+    },
+    {
+      "metric": "CBEX-2W boiler horsepower",
+      "unit": "HP",
+      "basis": "Boiler Horsepower: 100 - 2,500 (CBEX-2W)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "low": 100,
+      "high": 2500
+    },
+    {
+      "metric": "CBEX-2D boiler horsepower",
+      "unit": "HP",
+      "basis": "Boiler Horsepower: 250 - 800 (CBEX-2D)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "low": 250,
+      "high": 800
+    },
+    {
+      "metric": "CBEX-3W boiler horsepower",
+      "unit": "HP",
+      "basis": "Boiler Horsepower: 250 - 800 (CBEX-3W)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "low": 250,
+      "high": 800
+    },
+    {
+      "metric": "NOx by model",
+      "unit": "ppm",
+      "basis": "Emissions (ppm NOx): <5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "<5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)"
+    },
+    {
+      "metric": "Heat transfer improvement",
+      "unit": "%",
+      "basis": "increase heat transfer by 85%",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": 85
+    },
+    {
+      "metric": "Vessel design",
+      "unit": "n/a",
+      "basis": "Vessel Design: Firetube",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "Firetube"
+    },
+    {
+      "metric": "Fuel",
+      "unit": "n/a",
+      "basis": "Natural gas/propane, #2 and #6 oil, combination",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "Natural gas/propane, #2 and #6 oil, combination"
+    },
+    {
+      "metric": "NOx emission rates available",
+      "unit": "n/a",
+      "basis": "60 ppm, 30 ppm, 9 ppm and 5 ppm NOx emission rates are available",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "60 ppm, 30 ppm, 9 ppm and 5 ppm"
+    },
+    {
+      "metric": "Emissions table value",
+      "unit": "ppm NOx",
+      "basis": "Attributes table: Emissions (ppm NOx) <9",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "<9"
+    },
+    {
+      "metric": "Burner NOx claim",
+      "unit": "n/a",
+      "basis": "The burner design also helps meet emissions reduction goals, down to <7 ppm NOx",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "<7 ppm NOx"
+    },
+    {
+      "metric": "Heat transfer area",
+      "unit": "sq ft / BHP",
+      "basis": "5 sq ft / BHP",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Design",
+      "unit": "n/a",
+      "basis": "Vessel Design Firetube; Waterback or Dryback design",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "Firetube; Waterback or Dryback design"
+    },
+    {
+      "metric": "Steam or hot water",
+      "unit": "n/a",
+      "basis": "Steam Or Hot Water: Steam, Hot Water",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "Steam, Hot Water"
+    },
+    {
+      "metric": "Vessel design feature",
+      "unit": "n/a",
+      "basis": "Exclusive Cleaver-Brooks integral head burner with air-cooled front head",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cble"
+      },
+      "value": "integral head burner with air-cooled front head"
     }
   ],
   "vendors": [
@@ -235,7 +418,7 @@
       "source_id": "miura-all-products"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

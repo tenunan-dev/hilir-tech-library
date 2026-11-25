@@ -126,6 +126,22 @@
         "source_id": "casale-ch-urea"
       },
       "value": "self-stripping with MHP carbamate decomposition"
+    },
+    {
+      "metric": "Process configuration",
+      "unit": "text",
+      "basis": "Casale Urea page: 'HYPER-U is an improved self-stripping urea process which enhances efficiency by incorporating a Medium-High Pressure (MHP) carbamate decomposition step'",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/"
+      }
+    },
+    {
+      "metric": "Stated benefits",
+      "unit": "text",
+      "basis": "'Enhanced thermal efficiency; Reduced demand for medium-pressure steam and cooling water; Improved operational cost (OPEX); Smaller carbon footprint; Compatibility with new plants and revamps'",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/"
+      }
     }
   ],
   "vendors": [
@@ -157,7 +173,7 @@
       "source_id": "sensotech-com-en-urea-production"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "notes": "The Saipem numbers describe its NH3-stripping flowsheet; CO2-stripping licensors run comparable HP-loop conditions (about 140 bar and 185-190 °C in the patents read) but the figures are not interchangeable. Enriched 2026-11-24 with page-read ammonia/urea sweep sources. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
   "vendor_models": [
     {

@@ -27,6 +27,106 @@
         "source_id": "bridgestone-com-antiseismic-rubber-product-html"
       },
       "value": "G0.40"
+    },
+    {
+      "metric": "HDR certification",
+      "unit": "n/a",
+      "basis": "HDR | High Damping Rubber Bearing [Certifications(Minister of Land, Infrastructure and Transportation)]",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "value": "MVBR-0468(X0.4R), MVBR-0430(X0.6R)"
+    },
+    {
+      "metric": "LRB certification",
+      "unit": "n/a",
+      "basis": "LRB | Lead Rubber Bearing [Certifications ...] MVBR-0447",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "value": "MVBR-0447"
+    },
+    {
+      "metric": "NRB certification",
+      "unit": "n/a",
+      "basis": "NRB | Natural Rubber Bearing [Certifications ...]",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "value": "MVBR-0295(N3,G3,G5), MVBR-0446(G4)"
+    },
+    {
+      "metric": "Elastic Sliding Bearing certification",
+      "unit": "n/a",
+      "basis": "Elastic Sliding Bearing [Certifications ...]",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "value": "MVBR-0349(SL series), MVBR-0469(SP series), MVBR-0479(SK series)"
+    },
+    {
+      "metric": "NRB equivalent damping factor",
+      "unit": "%",
+      "basis": "It has low damping performance (about 2~3% at equivalent damping factor)",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "low": 2,
+      "high": 3
+    },
+    {
+      "metric": "NRB rubber material grades",
+      "unit": "n/a",
+      "basis": "Rubber material has four different kinds of elastic modulus (referred as G0.30,G0.35,G0.40, G0.45)",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "value": "G0.30, G0.35, G0.40, G0.45"
+    },
+    {
+      "metric": "LRB rubber material grade",
+      "unit": "n/a",
+      "basis": "Only one kind of rubber material is used. (referred as G0.40)",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "value": "G0.40"
+    },
+    {
+      "metric": "HDR elastic modulus types",
+      "unit": "n/a",
+      "basis": "Rubber material has two different kinds of elastic modulus (refer red as E0.4, X0.6R)",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "value": "E0.4, X0.6R"
+    },
+    {
+      "metric": "Elastic Sliding friction coefficient types",
+      "unit": "types",
+      "basis": "There are three different type of friction coefficient, which type to be used is based on necessity of damping",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Bearing construction",
+      "unit": "n/a",
+      "basis": "The Seismic Isolating Rubber Bearing consists of alternating laminations of thin rubber layers and steel plates (shims)",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "value": "alternating laminations of thin rubber layers and steel plates (shims), bonded"
+    },
+    {
+      "metric": "Catalogue update",
+      "unit": "n/a",
+      "basis": "Seismic isolation product line-up (Updated on October, 2026 / 2.9MB); Seismic Isolation Bearing (Updated on October, 2026)",
+      "source": {
+        "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
+      },
+      "value": "Updated on October, 2026"
     }
   ],
   "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
@@ -35,6 +135,6 @@
       "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     }
   ],
-  "notes": "Page read; APAC (Japan)",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read; APAC (Japan) Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

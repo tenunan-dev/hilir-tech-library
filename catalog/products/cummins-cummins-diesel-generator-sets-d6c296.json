@@ -38,14 +38,81 @@
         "source_id": "cat-cummins-com-diesel"
       },
       "value": "Tier 4F (rental)"
+    },
+    {
+      "metric": "Generator set power range",
+      "unit": "kVA",
+      "basis": "'We offer a diverse range of generator sets from 15 - 3750 kVA.' Cummins en-apac generators/diesel page, © 2026.",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel"
+      },
+      "value": "15 - 3750 kVA"
+    },
+    {
+      "metric": "Commercial genset start and load acceptance",
+      "unit": "seconds",
+      "basis": "'Able to start and assume load in less than 10 seconds, and rated load in a single step, Cummins commercial generators are the epitome of rugged dependability.'",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel"
+      },
+      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step"
+    },
+    {
+      "metric": "Quiet Diesel series frequency",
+      "unit": "Hz",
+      "basis": "Cummins Quiet Diesel Generators product card: 'Frequency (Hz) 60, 50'; Certification EPA Tier 4.",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
+      },
+      "value": "60, 50"
+    },
+    {
+      "metric": "Quiet Diesel noise reduction",
+      "unit": "dB(A) (up to, quieter than other diesel generators)",
+      "basis": "'their revolutionary design makes these generator sets up to 15 dB(A) quieter than other diesel-powered generators, and quieter than most gasoline sets.'",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
+      },
+      "value": 15
+    },
+    {
+      "metric": "Quiet Diesel full-load ambient capability",
+      "unit": "deg F / deg C",
+      "basis": "'Meets full load capability at 120 F (50 C) ambient conditions.'",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
+      },
+      "value": "120 F (50 C)"
+    },
+    {
+      "metric": "Quiet Diesel construction and mounting",
+      "unit": "n/a",
+      "basis": "'The units are totally enclosed, including cooling, muffler and intake systems' and '4-point mounting system Designed to provide clean, quiet power with low vibration'.",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
+      },
+      "value": "Totally enclosed incl. cooling, muffler and intake; 4-point mounting system"
     }
   ],
   "url": "https://www.cummins.com/en-apac/generators/diesel",
   "sources": [
     {
       "url": "https://www.cummins.com/en-apac/generators/diesel"
+    },
+    {
+      "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
+    },
+    {
+      "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
     }
   ],
-  "notes": "50/60 Hz; Quiet and Standard ranges",
-  "last_reviewed": "2026-11-24"
+  "notes": "50/60 Hz; Quiet and Standard ranges Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Centum Series technical ratings",
+      "why": "The queue product name mentions Centum Series but the linked pages read only cover Quiet Diesel and Standard Diesel; a Centum news item was on the page without ratings.",
+      "next_action": "Fetch the Centum Series spec page if those figures are required."
+    }
+  ]
 }

@@ -70,6 +70,114 @@
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
       },
       "value": -50
+    },
+    {
+      "metric": "Hoisting capacity",
+      "unit": "metric tons",
+      "basis": "'Hoisting capacity up to 250 metric tons'",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Jib radius",
+      "unit": "m",
+      "basis": "'Jib radius up to 50 meters (engineering to order)'",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Main winch wire capacity standard",
+      "unit": "m",
+      "basis": "'3,000-meter wire capacity for standard range'",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Design standard",
+      "unit": "n/a",
+      "basis": "'Design according to latest DNV-ST-0378'; class rules DNV, BV, LRS, ABS",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      }
+    },
+    {
+      "metric": "Winterization temperature",
+      "unit": "degC",
+      "basis": "'reliable performance at temperatures as low as -50 °C'",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      },
+      "value": -50
+    },
+    {
+      "metric": "SWL range",
+      "unit": "'AHC cranes with SWL ranging from 5 to 250 tons'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      },
+      "value": 5,
+      "low": 250,
+      "high": "tons"
+    },
+    {
+      "metric": "Overload/operator systems",
+      "unit": "n/a",
+      "basis": "'Overload protection systems: AOPS / MOPS'; 'Constant Tensioning / Suction Lift-Off'; optional energy recuperation",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      }
+    },
+    {
+      "metric": "DKF1600C-100T main winch SWL",
+      "unit": "t",
+      "basis": "PALFINGER AHC cranes product page, values stated approximate and subject to detailed configuration harbour load 100t@15m / 35t@35m; wire 3000m; aux SWL 10t (10t@35m, 1000m wire); power 900kW; total moment 3200Tm; operating weight 279t",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      },
+      "value": 100
+    },
+    {
+      "metric": "DKF1600C-150T main winch SWL",
+      "unit": "t",
+      "basis": "PALFINGER AHC cranes product page, values stated approximate and subject to detailed configuration harbour load 150t@13m / 35t@35m; wire 3000m; aux SWL 15t (15t@35m, 1000m wire); power 900kW; total moment 3400Tm; operating weight 325t",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      },
+      "value": 150
+    },
+    {
+      "metric": "DKF2500C-150T main winch SWL",
+      "unit": "t",
+      "basis": "PALFINGER AHC cranes product page, values stated approximate and subject to detailed configuration harbour load 150t@17m / 40t@35m; wire 3000m; aux SWL 15t (15t@35m, 1000m wire); power 1150kW; total moment 4000Tm; operating weight 372t",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      },
+      "value": 150
+    },
+    {
+      "metric": "DKF2500C-200T main winch SWL",
+      "unit": "t",
+      "basis": "PALFINGER AHC cranes product page, values stated approximate and subject to detailed configuration harbour load 200t@14m / 45t@35m; wire 3000m; aux SWL 20t (20t@35m, 1000m wire); power 1150kW; total moment 5000Tm; operating weight 435t",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      },
+      "value": 200
+    },
+    {
+      "metric": "DKF2500C-250T main winch SWL",
+      "unit": "t",
+      "basis": "PALFINGER AHC cranes product page, values stated approximate and subject to detailed configuration harbour load 250t@13m / 45t@37m; wire 3000m; aux SWL 25t (25t@37m, 1000m wire); power 1550kW; total moment 5000Tm; operating weight 505t",
+      "source": {
+        "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
+      },
+      "value": 250
     }
   ],
   "vendors": [
@@ -88,5 +196,5 @@
     "Pedestal/knuckle-boom and active-heave-compensated cranes for supply vessel transfers, subsea lifts and module handling."
   ],
   "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

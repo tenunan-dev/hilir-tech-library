@@ -1,0 +1,25 @@
+{
+  "id": "catpar-r-jina-ai-technical-guide-sensor-technologie-21ddd3c",
+  "name": "r.jina.ai",
+  "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "R.Jina.Ai",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Measuring range: up to 0-15000 ppm.m (parts per million meters)"
+}

@@ -37,6 +37,51 @@
         "source_id": "technipfmc-com-well-control-subsea-trees"
       },
       "high": 10000
+    },
+    {
+      "metric": "pressure_rating",
+      "unit": "psi",
+      "basis": "wide range of vertical and horizontal subsea tree solutions for all subsea conditions: Up to 20,000 psi",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "temperature_rating",
+      "unit": "degF",
+      "basis": "Up to 400F",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
+      },
+      "value": 400
+    },
+    {
+      "metric": "water_depth_rating",
+      "unit": "ft",
+      "basis": "Up to 10,000 feet",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "EVDT_record_depth",
+      "unit": "ft",
+      "basis": "in 2011, the EVDT set the world's record for deepest installed tree at 9,627 feet in Shell's Silvertip field in the Perdido development in the Gulf of Mexico",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
+      },
+      "value": 9627
+    },
+    {
+      "metric": "tree_types",
+      "unit": "n/a",
+      "basis": "extensive and reliable subsea tree capabilities offer a wide range of vertical and horizontal subsea tree solutions",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
+      },
+      "value": "vertical and horizontal subsea tree solutions; Subsea 2.0 tree systems"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
@@ -45,6 +90,6 @@
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
     }
   ],
-  "notes": "EVDT record 9,627 ft installed depth at Shell Silvertip/Perdido (2011).",
-  "last_reviewed": "2026-11-24"
+  "notes": "EVDT record 9,627 ft installed depth at Shell Silvertip/Perdido (2011). Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

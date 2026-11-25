@@ -27,6 +27,64 @@
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
       "value": 75
+    },
+    {
+      "metric": "Version",
+      "unit": "n/a",
+      "basis": "'SIMATIC PCS 7 V10.0 boosts plant performance and security'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      }
+    },
+    {
+      "metric": "MTP integration startup improvement",
+      "unit": "%",
+      "basis": "'MTP integration for up to 75% faster startup'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": 75
+    },
+    {
+      "metric": "Cybersecurity compliance",
+      "unit": "n/a",
+      "basis": "'full IEC 62443-4-1 and IEC 62443-3-3 compliance'; 'NIS2-compliant cybersecurity'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      }
+    },
+    {
+      "metric": "GMP features",
+      "unit": "n/a",
+      "basis": "'GMP-ready audit trails and eSignatures'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      }
+    },
+    {
+      "metric": "Remote I/O",
+      "unit": "n/a",
+      "basis": "'SIMATIC ET 200SP HA, a compact robust remote I/O designed for high availability'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      }
+    },
+    {
+      "metric": "Installed base",
+      "unit": "n/a",
+      "basis": "'already in use in thousands of installations worldwide'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      }
+    },
+    {
+      "metric": "Case: vaccine production start-up",
+      "unit": "months",
+      "basis": "'BioNTech launches vaccine production in just 5 months with paperless, MES-integrated automation'",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": 5
     }
   ],
   "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
@@ -35,6 +93,6 @@
       "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -67,6 +67,76 @@
       },
       "unit": "n/a",
       "value": "Screwed"
+    },
+    {
+      "metric": "Maximum operating pressure PMO",
+      "unit": "psig",
+      "basis": "'PMO (psig) 230' (A3N product details table)",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
+      },
+      "value": 230
+    },
+    {
+      "metric": "Minimum operating pressure",
+      "unit": "psig",
+      "basis": "'Minimum Operating Pressure (psig) 0.03'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
+      },
+      "value": 0.03
+    },
+    {
+      "metric": "Maximum operating temperature TMO",
+      "unit": "deg F",
+      "basis": "'TMO (°F) 428'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
+      },
+      "value": 428
+    },
+    {
+      "metric": "Discharge capacity",
+      "unit": "lb/h",
+      "basis": "'Discharge Capacity (lb/h) 1660'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
+      },
+      "value": 1660
+    },
+    {
+      "metric": "Connection",
+      "unit": "n/a",
+      "basis": "'Connection: Screwed'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
+      }
+    },
+    {
+      "metric": "Body material",
+      "unit": "n/a",
+      "basis": "'Body Material: Ductile Cast Iron (FCD450)'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
+      }
+    },
+    {
+      "metric": "Predecessor launch year",
+      "unit": "year",
+      "basis": "'The predecessor of the A3N, the A3, appeared in 1958'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
+      },
+      "value": 1958
+    },
+    {
+      "metric": "Durability claim",
+      "unit": "times",
+      "basis": "'Ten times more durable than conventional traps in its day'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
+      },
+      "value": 10
     }
   ],
   "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne",
@@ -75,6 +145,6 @@
       "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     }
   ],
-  "notes": "Read in full: TLV en-us ThermoDyne A3N page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: TLV en-us ThermoDyne A3N page. Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

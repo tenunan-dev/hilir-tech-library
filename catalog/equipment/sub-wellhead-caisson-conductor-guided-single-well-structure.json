@@ -30,6 +30,141 @@
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
       "value": "30 m high × 6.5 m diameter"
+    },
+    {
+      "metric": "Example chart dimension - top caisson",
+      "unit": "n/a",
+      "basis": "The dimension for the top suctions caisson is 8 m × ⌀1 m",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": "8 m x diameter 1 m"
+    },
+    {
+      "metric": "Example chart dimension - bottom caisson",
+      "unit": "n/a",
+      "basis": "for the bottom suctions caisson is 1 m × ⌀5 m",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": "1 m x diameter 5 m"
+    },
+    {
+      "metric": "Installed caissons (2002 statistics)",
+      "unit": "caissons",
+      "basis": "Statistics from 2002 revealed that 485 suction caissons had been installed in more than 50 different localities",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 485
+    },
+    {
+      "metric": "Localities",
+      "unit": "localities",
+      "basis": "in more than 50 different localities around the world",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Maximum installation depth",
+      "unit": "m",
+      "basis": "in depths to about 2000 m",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Gorm field caissons",
+      "unit": "caissons",
+      "basis": "The twelve suction caissons on the Gorm field ... at a depth of 40 metres",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Gorm field water depth",
+      "unit": "m",
+      "basis": "at a depth of 40 metres",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Diana platform caisson height",
+      "unit": "m",
+      "basis": "The height of the Diana suction caissons is 30 metres, their diameter 6.5 metres, and they were installed at a depth of about 1500 m",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Diana platform caisson diameter",
+      "unit": "m",
+      "basis": "their diameter 6.5 metres",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 6.5
+    },
+    {
+      "metric": "Diana installation depth",
+      "unit": "m",
+      "basis": "installed at a depth of about 1500 m on soft clay deposits",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Snorre A caisson length",
+      "unit": "m",
+      "basis": "the platform could be safely secured by suction caissons of only 12 m in length",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Snorre A conventional pile alternative",
+      "unit": "m",
+      "basis": "would in other parts of the world have been founded with up to 90 metres long piles",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 90
+    },
+    {
+      "metric": "Troll A skirt length",
+      "unit": "m",
+      "basis": "The Troll A platform is founded in 330 m depth with 30 m long skirts",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Troll A water depth",
+      "unit": "m",
+      "basis": "founded in 330 m depth",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 330
+    },
+    {
+      "metric": "Gullfaks C skirt length",
+      "unit": "m",
+      "basis": "The oil platform at the Gullfaks C field was equipped with 22 m long skirts",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Suction_caisson"
+      },
+      "value": 22
     }
   ],
   "vendors": [
@@ -46,5 +181,5 @@
     "Single- or few-well structure in which the conductor(s) provide primary lateral support for a small wellhead deck."
   ],
   "notes": "Page-read evidence from the 2026-11-24 substructure-types.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

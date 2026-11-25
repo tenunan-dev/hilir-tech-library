@@ -28,6 +28,96 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "value": 0
+    },
+    {
+      "metric": "Models",
+      "unit": "n/a",
+      "basis": "Howden's TFC90 and TFC180 are standardized diaphragm compressor packages specifically designed for hydrogen applications",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "TFC90 and TFC180"
+    },
+    {
+      "metric": "Electrolyzer module compatibility",
+      "unit": "n/a",
+      "basis": "Designed for 5 MW and 10 MW electrolyzer modules",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "5 MW and 10 MW"
+    },
+    {
+      "metric": "Package configuration",
+      "unit": "n/a",
+      "basis": "These skid-mounted compressors include all process equipment, piping and auxiliary systems in a single package",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "skid-mounted; all process equipment, piping and auxiliary systems in a single package"
+    },
+    {
+      "metric": "Gas purity",
+      "unit": "n/a",
+      "basis": "Key Features: Absolute cleanliness of compressed hydrogen",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Absolute cleanliness of compressed hydrogen"
+    },
+    {
+      "metric": "Leakage",
+      "unit": "n/a",
+      "basis": "Zero leakage of process gas to the environment",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Zero leakage of process gas to the environment"
+    },
+    {
+      "metric": "Reliability",
+      "unit": "n/a",
+      "basis": "Proven performance and guaranteed high reliability",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Proven performance and guaranteed high reliability"
+    },
+    {
+      "metric": "Diaphragm compressor invention",
+      "unit": "year",
+      "basis": "The Howden diaphragm compressor was invented in 1916 by Henri Corblin",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 1916
+    },
+    {
+      "metric": "Hybrid compressor stages",
+      "unit": "n/a",
+      "basis": "available in horizontal or vertical configurations of up to five compression stages, offering pressures increases of to 450 bar",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "up to five compression stages; pressure increases up to 450 bar"
+    },
+    {
+      "metric": "Reciprocating compressor rating",
+      "unit": "n/a",
+      "basis": "Reciprocating gas compressors rated to 20MW and operating between 260 and 1,000 rpm",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "rated to 20 MW and operating between 260 and 1,000 rpm"
+    },
+    {
+      "metric": "Hydrogen Holland project compressor",
+      "unit": "n/a",
+      "basis": "5-stage piston reciprocating compressors; Drive: 4250 kW induction motors; Flow: 21.000 Nm3/hr of wet hydrogen at 1.2 bara; Final pressure 55 bara",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "5-stage piston reciprocating, 4250 kW induction motors, 21,000 Nm3/hr wet H2 at 1.2 bara, final pressure 55 bara"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
@@ -36,6 +126,6 @@
       "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
-  "notes": "Skid mounted; H2 service",
-  "last_reviewed": "2026-11-24"
+  "notes": "Skid mounted; H2 service Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

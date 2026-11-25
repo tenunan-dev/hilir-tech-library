@@ -162,6 +162,152 @@
         "source_id": "cat-process-honeywell-com-viewing-heads-s70x-s80x"
       },
       "value": "700ACSP, 700DCSP, 800, P531/P532"
+    },
+    {
+      "metric": "Barrel diameter S70X/S80X models",
+      "unit": "in",
+      "basis": "S702, S702PF, S706 and S706PF models are 1.48 barrel diameter and are made of aluminum; S802 and S806 models are 1.14 barrel diameter and are made of stainless steel",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": "1.48"
+    },
+    {
+      "metric": "Barrel diameter S802/S806 models",
+      "unit": "in",
+      "basis": "S802 and S806 models are 1.14 barrel diameter and are made of stainless steel",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": "1.14"
+    },
+    {
+      "metric": "Ambient temperature",
+      "unit": "degC",
+      "basis": "Ambient Temperature Range: -40 to +185 deg F (-40 to +85 deg C) for standard models.",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "low": -40,
+      "high": 85
+    },
+    {
+      "metric": "Environmental rating",
+      "unit": "n/a",
+      "basis": "IP64 when connector ring is properly tightened and cable shielded.",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": "IP64"
+    },
+    {
+      "metric": "Purge air",
+      "unit": "SCFM",
+      "basis": "Purge Air Requirement: 5 SCFM at ~1 in. above burner pressure to cool lens and clear viewing path.",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Field of view IR",
+      "unit": "deg",
+      "basis": "IR Models: 1 deg angle of view (1.45 in at 6 ft)",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Field of view UV",
+      "unit": "deg",
+      "basis": "UV Models: 5 deg angle of view (1 in per foot)",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": 5
+    },
+    {
+      "metric": "IR spectral response",
+      "unit": "nm",
+      "basis": "IR Models: Germanium photodiode, spectral response 950-1710 nm, peak at 1400 nm; high-pass filter at 33 Hz",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": "950-1710"
+    },
+    {
+      "metric": "IR peak response",
+      "unit": "nm",
+      "basis": "peak at 1400 nm",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": 1400
+    },
+    {
+      "metric": "UV spectral response",
+      "unit": "nm",
+      "basis": "UV Models: UVTron sensor, spectral response 185-260 nm, peak at 210 nm",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": "185-260"
+    },
+    {
+      "metric": "UV peak response",
+      "unit": "nm",
+      "basis": "peak at 210 nm",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": 210
+    },
+    {
+      "metric": "UV tube lifetime",
+      "unit": "hrs",
+      "basis": "For UV models: UV tube lifetime 10,000-50,000 hrs depending on conditions",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "low": 10000,
+      "high": 50000
+    },
+    {
+      "metric": "Hazardous location approvals",
+      "unit": "n/a",
+      "basis": "Hazardous Location Approvals: CSA Class I, Div 2, Groups A, B, C, D, T4A; IECEx Ex nA IIC T4/T5 Gc; NCC/Inmetro Ex ec IIC T4 Gc.",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": "CSA Class I, Div 2, Groups A, B, C, D, T4A; IECEx Ex nA IIC T4/T5 Gc; NCC/Inmetro Ex ec IIC T4 Gc"
+    },
+    {
+      "metric": "Safety integrity",
+      "unit": "n/a",
+      "basis": "SIL 3 Capable (S702/S802 and S706/S806 families).",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": "SIL 3 Capable"
+    },
+    {
+      "metric": "Compatible signal processors",
+      "unit": "n/a",
+      "basis": "Compatible Signal Processors: Model 700ACSP, 700DCSP, 800, P531/P532.",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": "Model 700ACSP, 700DCSP, 800, P531/P532"
+    },
+    {
+      "metric": "Mounting connections",
+      "unit": "n/a",
+      "basis": "Mounting Connection: 1/2 in NPT-F for sighting pipe; 1/4 in NPT-F for purge air",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
+      },
+      "value": "1/2 in NPT-F for sighting pipe; 1/4 in NPT-F for purge air"
     }
   ],
   "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
@@ -170,6 +316,6 @@
       "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     }
   ],
-  "notes": "Page read in full including both Specifications renderings. Single-channel viewing heads used with 700/P531/P532 signal processors.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read in full including both Specifications renderings. Single-channel viewing heads used with 700/P531/P532 signal processors. Full-parameter pass 2026-11-26: 16 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

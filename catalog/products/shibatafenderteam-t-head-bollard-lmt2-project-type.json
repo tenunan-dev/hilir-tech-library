@@ -17,6 +17,76 @@
         "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
       },
       "value": 80
+    },
+    {
+      "metric": "T-head bollards supplied",
+      "unit": "bollards",
+      "basis": "'37 T-head Bollards with a rated mooring capacity of 80 tonnes'",
+      "source": {
+        "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
+      },
+      "value": 37
+    },
+    {
+      "metric": "Rated mooring capacity",
+      "unit": "tonnes",
+      "basis": "same statement",
+      "source": {
+        "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
+      },
+      "value": 80
+    },
+    {
+      "metric": "New berth length",
+      "unit": "m",
+      "basis": "'a new 396 m long berth'",
+      "source": {
+        "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
+      },
+      "value": 396
+    },
+    {
+      "metric": "Cone fender systems supplied",
+      "unit": "systems",
+      "basis": "'36 Cone Fender Systems (SPC 1200, G1.0)'",
+      "source": {
+        "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
+      },
+      "value": 36
+    },
+    {
+      "metric": "Fender panel size",
+      "unit": "mm",
+      "basis": "'each equipped with a 2000x4320 mm closed-box steel panel'",
+      "source": {
+        "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
+      }
+    },
+    {
+      "metric": "Original tender fender spacing",
+      "unit": "m",
+      "basis": "'The initial specification was based on a FE Leg Fender System with a fender spacing of 6.5 m'",
+      "source": {
+        "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
+      },
+      "value": 6.5
+    },
+    {
+      "metric": "Optimized fender spacing",
+      "unit": "m",
+      "basis": "'together with an optimized fender spacing of 12.5 m'",
+      "source": {
+        "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
+      },
+      "value": 12.5
+    },
+    {
+      "metric": "Chain coating",
+      "unit": "n/a",
+      "basis": "'the chain assemblies were therefore supplied with a duplex coating system'",
+      "source": {
+        "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
+      }
     }
   ],
   "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
@@ -25,6 +95,6 @@
       "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     }
   ],
-  "notes": "Project-specific 37 units at Lumut LMT2; not a generic product range.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Project-specific 37 units at Lumut LMT2; not a generic product range. Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

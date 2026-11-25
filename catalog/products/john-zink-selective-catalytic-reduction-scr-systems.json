@@ -47,6 +47,42 @@
       },
       "unit": "applications",
       "value": "Power plants, refineries, chemical plants"
+    },
+    {
+      "metric": "NOx reduction",
+      "unit": "%",
+      "basis": "Our SCR systems are designed to deliver up to 95% post-combustion NOx reduction",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
+      },
+      "high": 95
+    },
+    {
+      "metric": "Reductants",
+      "unit": "n/a",
+      "basis": "offer multiple ammonia solutions (Aqueous, Anhydrous, Urea, etc.)",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
+      },
+      "value": "Aqueous ammonia, Anhydrous ammonia, Urea, etc."
+    },
+    {
+      "metric": "Additional catalysts",
+      "unit": "n/a",
+      "basis": "CO or VOC catalyst are also available for the lowest emissions out the stack.",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
+      },
+      "value": "CO or VOC catalyst are also available for the lowest emissions out the stack"
+    },
+    {
+      "metric": "Process",
+      "unit": "n/a",
+      "basis": "Our SCR technology utilizes a catalyst to facilitate a chemical reaction between NOx and a reductant, typically ammonia or urea, converting harmful NOx into harmless nitrogen and water vapor.",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
+      },
+      "value": "catalyst facilitates a chemical reaction between NOx and a reductant, typically ammonia or urea, converting harmful NOx into harmless nitrogen and water vapor"
     }
   ],
   "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems",
@@ -55,6 +91,6 @@
       "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -17,6 +17,60 @@
         "source_id": "sys-technipfmc-com"
       },
       "value": "flexible production riser with thermal insulation layers, additional hoses for gas lift/other services, active heating through electric cables, fluid temperature monitoring with optical fibres"
+    },
+    {
+      "metric": "Product type",
+      "unit": "n/a",
+      "basis": "The IPB allows for high-level flow assurance of hydrocarbon fluids in difficult conditions from well heads to surface treatment units. The IPB is a flexible production riser",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "proprietary flexible production riser"
+    },
+    {
+      "metric": "Features",
+      "unit": "n/a",
+      "basis": "features thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, fluid temperature monitoring with optical fibers"
+    },
+    {
+      "metric": "Flexible pipe construction",
+      "unit": "n/a",
+      "basis": "The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires. The helically wound steel wires give the structure its high-pressure resistance",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "leakproof thermoplastic barriers and corrosion-resistant steel wires, helically wound"
+    },
+    {
+      "metric": "Performance",
+      "unit": "n/a",
+      "basis": "providing flexibility and superior dynamic performance",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "high-pressure resistance, excellent bending characteristics, flexibility, superior dynamic performance"
+    },
+    {
+      "metric": "Retrievability",
+      "unit": "n/a",
+      "basis": "flexible pipe can be easily retrieved to be reused on another field development or for decommissioning",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "can be easily retrieved to be reused on another field development or for decommissioning"
+    },
+    {
+      "metric": "Related riser",
+      "unit": "n/a",
+      "basis": "Freestanding Hybrid Riser section",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "Freestanding Hybrid Riser (FSHR): vertical steel pipe tensioned by near-surface buoyancy can, flexible jumper, rigid base jumper"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
@@ -25,6 +79,13 @@
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     }
   ],
-  "notes": "Proprietary flexible pipe product for flow assurance in viscous oil, deepwater and pressure-constrained conditions.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Proprietary flexible pipe product for flow assurance in viscous oil, deepwater and pressure-constrained conditions. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "IPB design pressure, temperature and diameter ratings",
+      "why": "No numeric ratings printed on the flexible pipes page",
+      "next_action": "Fetch the IPB technical datasheet from TechnipFMC"
+    }
+  ]
 }

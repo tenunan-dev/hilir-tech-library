@@ -18,6 +18,48 @@
         "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf",
         "source_id": "geg-techcomm-kohler-com-remote-cooling-design-fa-28f631c"
       }
+    },
+    {
+      "metric": "CAC temperature rise over ambient (typical)",
+      "unit": "degC",
+      "basis": "\"EPA emission certifications for an engine are dependent on a specific temperature rise of the intake air over ambient temperature (typically 20°C, but it varies by engine)\"",
+      "source": {
+        "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Remote cooling system types considered",
+      "unit": "n/a",
+      "basis": "\"There are a few options for remote cooling systems such as cooling towers, city or pond water cooling, and remote radiators\"",
+      "source": {
+        "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf"
+      }
+    },
+    {
+      "metric": "Cooling circuits on large generators",
+      "unit": "distinct circuits",
+      "basis": "\"Most large generators will have two distinct cooling circuits ... the engine jacket water cooling and the charge air cooling\"",
+      "source": {
+        "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Head limits source",
+      "unit": "n/a",
+      "basis": "\"To determine how far away the radiator can be from the generator, two things must be considered: static head and dynamic head. These limits can be found on manufacturer spec sheets\" – no numeric head limits printed",
+      "source": {
+        "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf"
+      }
+    },
+    {
+      "metric": "Publication",
+      "unit": "n/a",
+      "basis": "\"POWER SYSTEMS TOPICS 144\", white paper 'Remote Cooling Design Factors for Standby Generators' by Alex Hischke, Senior Project Engineer, Kohler Power Systems; 8 pages; Jina published-time 2024-06-20",
+      "source": {
+        "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf"
+      }
     }
   ],
   "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf",
@@ -27,6 +69,13 @@
       "source_id": "geg-techcomm-kohler-com-remote-cooling-design-fa-28f631c"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Numeric static head, dynamic head and coolant flow limits",
+      "why": "White paper explicitly says limits are on manufacturer spec sheets and prints none",
+      "next_action": "Use genset-specific spec sheet for head/flow numbers"
+    }
+  ]
 }

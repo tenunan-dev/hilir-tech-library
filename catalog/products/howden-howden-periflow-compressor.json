@@ -39,6 +39,51 @@
       },
       "low": 1000,
       "high": 6000
+    },
+    {
+      "metric": "Maximum discharge pressure",
+      "unit": "bar",
+      "basis": "Howden Periflow Performance: 'Up to 350 bar'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 350
+    },
+    {
+      "metric": "Capacity flow",
+      "unit": "m3/hr",
+      "basis": "Howden Periflow: '10 to 20,000 m3/hr capacity flow'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "low": 10,
+      "high": 20000
+    },
+    {
+      "metric": "Variable speed range",
+      "unit": "rpm",
+      "basis": "Howden Periflow: 'Variable speed from 1000 to 6000 rpm'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "low": 1000,
+      "high": 6000
+    },
+    {
+      "metric": "Working principle",
+      "unit": "text",
+      "basis": "Howden: 'Periflow compressors use a profiled impeller wheel revolving in an annular channel to move the process gas in a swirling, helical pattern... Fully compliant with API, area protection requirements and site specifications'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "text",
+      "basis": "Howden Periflow: 'FPSO and offshore installations; Boil Off Gas (BOG)'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      }
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
@@ -47,6 +92,6 @@
       "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
-  "notes": "Explicit FPSO/offshore and BOG application; low vibration, pulsation-free",
-  "last_reviewed": "2026-11-24"
+  "notes": "Explicit FPSO/offshore and BOG application; low vibration, pulsation-free Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

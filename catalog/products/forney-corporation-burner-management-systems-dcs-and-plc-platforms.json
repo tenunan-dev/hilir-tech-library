@@ -27,6 +27,33 @@
       },
       "unit": "scope",
       "value": "Forney designs and engineers BMS logic; physical programming at Forney or DCS supplier location; PLC programming and Factory Acceptance Test at Forney facility"
+    },
+    {
+      "metric": "Platform types",
+      "unit": "n/a",
+      "basis": "Burner Management Systems are implemented in two general types of platforms. The most common for utilities is in a plant wide Distributive Control System (DCS). Less common but just as reliable is a Programmable Logic Controller (PLC).",
+      "source": {
+        "url": "https://www.forneycorp.com/burner-management-systems"
+      },
+      "value": "DCS Platform; PLC Platform"
+    },
+    {
+      "metric": "DCS programming location",
+      "unit": "n/a",
+      "basis": "The physical programming of the BMS can occur at Forney or the DCS suppliers location.",
+      "source": {
+        "url": "https://www.forneycorp.com/burner-management-systems"
+      },
+      "value": "Forney or the DCS supplier's location"
+    },
+    {
+      "metric": "PLC programming and FAT location",
+      "unit": "n/a",
+      "basis": "The physical programming of the BMS is done at the Forney facility as well as the Factory Acceptance Test.",
+      "source": {
+        "url": "https://www.forneycorp.com/burner-management-systems"
+      },
+      "value": "Forney facility"
     }
   ],
   "url": "https://www.forneycorp.com/burner-management-systems",
@@ -35,6 +62,6 @@
       "url": "https://www.forneycorp.com/burner-management-systems"
     }
   ],
-  "notes": "Fetched BMS page directly with WebFetch (markdown). Linked BMS brochure PDF not opened.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched BMS page directly with WebFetch (markdown). Linked BMS brochure PDF not opened. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

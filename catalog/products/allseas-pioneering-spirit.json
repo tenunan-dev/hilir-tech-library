@@ -47,6 +47,114 @@
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
       "value": 12
+    },
+    {
+      "metric": "Topsides single-lift installation/removal",
+      "unit": "tonnes",
+      "basis": "installation or removal of platform topsides up to 60,000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 60000
+    },
+    {
+      "metric": "Jacket single-lift installation/removal",
+      "unit": "tonnes",
+      "basis": "jackets up to 20,000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "S-lay tension capacity",
+      "unit": "tonnes",
+      "basis": "unmatched S-lay tension capacity of 2000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Pipe-holding capacity",
+      "unit": "tonne",
+      "basis": "2000-tonne pipe-holding capacity, double that of any rival pipelay vessel",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Azimuth thrusters",
+      "unit": "count",
+      "basis": "precision positioning enabled by 12 azimuth thrusters",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Welding stations",
+      "unit": "count",
+      "basis": "six welding stations",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 6
+    },
+    {
+      "metric": "Double-joint factory",
+      "unit": "n/a",
+      "basis": "A double-joint factory, six welding stations, and extensive pipe storage",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": "yes"
+    },
+    {
+      "metric": "DolWin Kappa converter station",
+      "unit": "MW",
+      "basis": "Transport and installation of the 900-megawatt DolWin Kappa offshore converter station (2022)",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 900
+    },
+    {
+      "metric": "Ninian Northern platform removal",
+      "unit": "tonne",
+      "basis": "Single-lift removal of the complete 23,000-tonne Ninian Northern platform (2020)",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 23000
+    },
+    {
+      "metric": "Gyda platform removal",
+      "unit": "tonne",
+      "basis": "Single-lift removal of the complete 30,000-tonne Gyda platform (2022)",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 30000
+    },
+    {
+      "metric": "Yme MOPU removal",
+      "unit": "t",
+      "basis": "single-lift removal ... of the complete 13,500 t Yme mobile offshore production unit (2016)",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 13500
+    },
+    {
+      "metric": "Lift technology",
+      "unit": "n/a",
+      "basis": "Specials list on the vessel page",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": "unique motion compensated, single-lift technology"
     }
   ],
   "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
@@ -55,6 +163,6 @@
       "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     }
   ],
-  "notes": "OEM page; motion-compensated single-lift.",
-  "last_reviewed": "2026-11-24"
+  "notes": "OEM page; motion-compensated single-lift. Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

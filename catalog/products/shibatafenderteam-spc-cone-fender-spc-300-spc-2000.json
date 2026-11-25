@@ -38,6 +38,79 @@
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
       },
       "value": "10 x M56"
+    },
+    {
+      "metric": "Fender height range",
+      "unit": "mm",
+      "basis": "SPC Cone Fenders are available in heights between 300 and 2,000 mm",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
+      },
+      "low": 300,
+      "high": 2000
+    },
+    {
+      "metric": "Rubber grades",
+      "unit": "main rubber grades",
+      "basis": "each in 3 different main rubber grades*",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Overload stoppers",
+      "unit": "n/a",
+      "basis": "optional: overload stoppers to avoid over compression",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
+      },
+      "value": "optional, to avoid over compression"
+    },
+    {
+      "metric": "Contact angle performance",
+      "unit": "deg (no loss of performance up to)",
+      "basis": "No loss of performance up to 10° contact angle",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Energy absorption / reaction force",
+      "unit": "n/a",
+      "basis": "SPC Cone Fender Characteristics list",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
+      },
+      "value": "Exceptionally good E/R ratio; outstanding energy absorption per fender weight"
+    },
+    {
+      "metric": "Shear stability",
+      "unit": "n/a",
+      "basis": "SPC Cone Fender Characteristics list",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
+      },
+      "value": "High shear stability"
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "It has a conical body and fully rubber-embedded mounting flanges",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
+      },
+      "value": "conical body and fully rubber-embedded mounting flanges"
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "SPC Cone Fender Applications list",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
+      },
+      "value": "Container & Bulk Terminals; Oil & Gas Terminals; General Cargo Terminals; Cruise Terminals; Ferry & RoRo Terminals; Navy"
     }
   ],
   "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
@@ -46,6 +119,13 @@
       "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     }
   ],
-  "notes": "No energy/reaction performance table on the HTML page; see downloadable Product Information SPC Fenders PDF.",
-  "last_reviewed": "2026-11-24"
+  "notes": "No energy/reaction performance table on the HTML page; see downloadable Product Information SPC Fenders PDF. Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Per-size SPC fender dimensions and energy/reaction ratings (SPC 300 to SPC 2000)",
+      "why": "Dimension table headers (H, ØD, Ød, t, E, ØPD) were present but numeric rows were not captured in the readable text",
+      "next_action": "Fetch the SPC Cone Fender datasheet or the SFT Product Catalogue pages 10-11"
+    }
+  ]
 }

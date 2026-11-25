@@ -27,6 +27,51 @@
         "source_id": "cra-energy-product-knockout-drums"
       },
       "value": ">800 in >25 countries since 1993"
+    },
+    {
+      "metric": "function",
+      "unit": "n/a",
+      "basis": "Overview table: Function - Liquid-gas separation",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums"
+      },
+      "value": "Liquid-gas separation"
+    },
+    {
+      "metric": "configuration",
+      "unit": "n/a",
+      "basis": "Overview table: Configuration - Horizontal or vertical; horizontal vessels handle high flow rates and large liquid volumes, vertical suit constrained plot space",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums"
+      },
+      "value": "Horizontal or vertical"
+    },
+    {
+      "metric": "application",
+      "unit": "n/a",
+      "basis": "Overview table: Application - Upstream of flare stack",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums"
+      },
+      "value": "Upstream of flare stack"
+    },
+    {
+      "metric": "duty",
+      "unit": "n/a",
+      "basis": "Overview table: Duty - Emergency relief & blowdown",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums"
+      },
+      "value": "Emergency relief & blowdown"
+    },
+    {
+      "metric": "standard_sizes",
+      "unit": "n/a",
+      "basis": "Each knock-out drum is sized from actual process data rather than generic templates; technical datasheet downloads present on page but no size table printed",
+      "source": {
+        "url": "https://www.cra.energy/product/knockout-drums"
+      },
+      "value": "no printed sizes"
     }
   ],
   "url": "https://www.cra.energy/product/knockout-drums",
@@ -35,6 +80,13 @@
       "url": "https://www.cra.energy/product/knockout-drums"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Sizing and performance figures (vessel diameter/length, design pressure, flow capacity)",
+      "why": "Datasheets are download links only; no printed figures on the page",
+      "next_action": "Open the linked Technical Datasheet PDFs"
+    }
+  ]
 }

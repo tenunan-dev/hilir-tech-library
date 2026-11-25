@@ -102,6 +102,322 @@
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1"
       }
+    },
+    {
+      "metric": "Rated insulation voltage Ui",
+      "unit": "V AC",
+      "basis": "Rated insulation voltage Ui up to 1000V AC, 3 P, 1500V DC*",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "catpar-r-jina-ai-mns3-0-catalogue-en-1sxh900001c020-ee9b389"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Rated insulation voltage (DC)",
+      "unit": "V DC",
+      "basis": "1500V DC* (*Depending on the electrical equipment)",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Rated operating voltage Ue",
+      "unit": "V AC",
+      "basis": "Rated operating voltage Ue up to 690V AC, 3 P, 750V DC*",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 690
+    },
+    {
+      "metric": "Rated impulse withstand voltage Uimp",
+      "unit": "kV",
+      "basis": "Rated impulse withstand voltage Uimp 6/8/12 kV*",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "6/8/12"
+    },
+    {
+      "metric": "Overvoltage category",
+      "unit": "n/a",
+      "basis": "Overvoltage category II/III/IV*",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "II/III/IV"
+    },
+    {
+      "metric": "Degree of pollution",
+      "unit": "n/a",
+      "basis": "Degree of pollution 3",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Rated frequency",
+      "unit": "Hz",
+      "basis": "Rated frequency up to 60 Hz",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Copper busbar rated current Ie",
+      "unit": "A",
+      "basis": "Copper Busbars Rated current Ie up to 6300 A",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 6300
+    },
+    {
+      "metric": "Rated peak withstand current Ipk",
+      "unit": "kA",
+      "basis": "Rated peak withstand current Ipk up to 220 kA",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 220
+    },
+    {
+      "metric": "Rated short-time withstand current Icw",
+      "unit": "kA",
+      "basis": "Rated short-time withstand current Icw up to 100 kA",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Distribution bar rated current",
+      "unit": "A",
+      "basis": "Distribution bars Rated current Ie up to 2000 A",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Arc proof operating voltage",
+      "unit": "V",
+      "basis": "Arc proof Rated operating current up to 690 V",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 690
+    },
+    {
+      "metric": "Arc proof prospective short-circuit current",
+      "unit": "kA",
+      "basis": "Prospective short-circuit current up to 100 kA",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Arc proof duration",
+      "unit": "ms",
+      "basis": "Duration of short-circuit 300 ms; Criterion (IEC 61641) 1 to 7",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Standard height",
+      "unit": "mm",
+      "basis": "Standard height 2200 mm",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 2200
+    },
+    {
+      "metric": "Standard widths",
+      "unit": "mm",
+      "basis": "Standard width 400, 600, 800, 1000, 1200 mm",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "400, 600, 800, 1000, 1200"
+    },
+    {
+      "metric": "Standard depths",
+      "unit": "mm",
+      "basis": "Standard depth 800, 1000, 1200 mm",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "800, 1000, 1200"
+    },
+    {
+      "metric": "Basic grid size",
+      "unit": "mm",
+      "basis": "Basic grid size E=25 mm acc. to DIN 43660",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Degree of protection",
+      "unit": "n/a",
+      "basis": "Degrees of protection of plastic components IEC 529 up to IP54; protection degree of the assemblies can be as high as IP54",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "up to IP54"
+    },
+    {
+      "metric": "Internal subdivision",
+      "unit": "n/a",
+      "basis": "Internal subdivision up to Form 4",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "up to Form 4"
+    },
+    {
+      "metric": "Maximum ambient temperature",
+      "unit": "deg C",
+      "basis": "Highest temperature in short-term +40 ℃",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "24-hour average temperature",
+      "unit": "deg C",
+      "basis": "The highest average temperature in 24 hours +35 ℃",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 35
+    },
+    {
+      "metric": "Minimum temperature",
+      "unit": "deg C",
+      "basis": "The lowest temperature -5 ℃",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": -5
+    },
+    {
+      "metric": "Ambient relative humidity",
+      "unit": "% at 40 ℃",
+      "basis": "The ambient relative humidity is 50% at 40 ℃",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Altitude derating threshold",
+      "unit": "m",
+      "basis": "In case that the switchgear is installed at elevation higher than 2,000 m, derating use of the equipment is needed",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Seismic/shock resistance",
+      "unit": "n/a",
+      "basis": "shock resistance value is 0.63/6.3; passed the test for marine standards of German Lloyd's Register of Shipping with resistance against shock of 5-100 Hz",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "0.63/6.3; marine standard resistance against shock of 5-100 Hz"
+    },
+    {
+      "metric": "Main busbar cross-sections",
+      "unit": "mm",
+      "basis": "The cross-section area is 20x10 mm, 30x10 mm, 40x10 mm and 60x10 mm",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "20x10, 30x10, 40x10, 60x10"
+    },
+    {
+      "metric": "Primary connector life cycle",
+      "unit": "insertions",
+      "basis": "Operational life cycle up to 1000 insertions (independently certified)",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Reactive power compensation",
+      "unit": "kvar maximum",
+      "basis": "maximum compensation capacity of 450 kvar",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 450
+    },
+    {
+      "metric": "Smallest withdrawable module",
+      "unit": "n/a",
+      "basis": "with the smallest 8E/4 module it is possible to physically define a maximum of 36 modules",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "8E/4 (up to 36 modules in equipment compartment)"
+    },
+    {
+      "metric": "Module sizes",
+      "unit": "n/a",
+      "basis": "Size of the modules: 8E/4, 8E/2, 4E, 6E, 8E, 12E, 16E, 20E, 24E",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "8E/4, 8E/2, 4E, 6E, 8E, 12E, 16E, 20E, 24E"
+    },
+    {
+      "metric": "Isolated position draw-out",
+      "unit": "mm",
+      "basis": "ISOLATED position-The module is 30 mm drawn out of the section",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Module exchange time",
+      "unit": "n/a",
+      "basis": "replacing a module takes less than a minute; MTTR ~1 min",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "less than 1 minute"
+    },
+    {
+      "metric": "Standards",
+      "unit": "n/a",
+      "basis": "Standards Design verified and Type-tested switchgear assemblies",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "GB/T 7251.1/12-2013, IEC 61439-1/2, EN 61439-1/2, DIN_VDE 0660 Part 500, BS 5486, UTE 63-412, IEC 61641"
+    },
+    {
+      "metric": "Installed base",
+      "unit": "n/a",
+      "basis": "over 1.5 million MNS® switchgears delivered worldwide since the inception of this system in 1973",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "value": "over 1.5 million MNS switchgears delivered worldwide since 1973"
     }
   ],
   "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
@@ -109,8 +425,11 @@
     {
       "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
       "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+    },
+    {
+      "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 35 new printed parameters."
 }

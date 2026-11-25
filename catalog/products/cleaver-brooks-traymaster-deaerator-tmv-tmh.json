@@ -59,6 +59,80 @@
       },
       "unit": "standard",
       "value": "Exceeds ASME recommendations for oxygen level"
+    },
+    {
+      "metric": "capacity_TMV",
+      "unit": "lb/hr",
+      "basis": "Product page: Model TMV: 30,000 - 500,000 lb/hr",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster"
+      },
+      "low": 30000,
+      "high": 500000
+    },
+    {
+      "metric": "capacity_TMH",
+      "unit": "lb/hr",
+      "basis": "Product page: Model TMH: 500,000 - 1,000,000 lb/hr",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster"
+      },
+      "low": 500000,
+      "high": 1000000
+    },
+    {
+      "metric": "dissolved_oxygen_residual",
+      "unit": "cc/liter",
+      "basis": "reducing dissolved oxygen content in boiler feedwater to levels less than .005 cc/liter (7 ppb)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster"
+      },
+      "high": 0.005
+    },
+    {
+      "metric": "dissolved_oxygen_residual_ppb",
+      "unit": "ppb",
+      "basis": "levels less than .005 cc/liter (7 ppb)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster"
+      },
+      "high": 7
+    },
+    {
+      "metric": "configuration",
+      "unit": "n/a",
+      "basis": "Product page: Vertical or horizontal tray column design; offered in vertical and horizontal tray configurations",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster"
+      },
+      "value": "Vertical or horizontal tray column design"
+    },
+    {
+      "metric": "deaeration_stages",
+      "unit": "stages",
+      "basis": "Two-stage deaeration in a common vessel",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster"
+      },
+      "value": 2
+    },
+    {
+      "metric": "oxygen_standard",
+      "unit": "n/a",
+      "basis": "Product overview bullet: Exceeds ASME recommendations for oxygen level",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster"
+      },
+      "value": "Exceeds ASME recommendations for oxygen level"
+    },
+    {
+      "metric": "materials",
+      "unit": "n/a",
+      "basis": "Built of corrosion-resistant alloys for lifetime service",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/traymaster"
+      },
+      "value": "corrosion-resistant alloys"
     }
   ],
   "url": "https://cleaverbrooks.com/product/traymaster",
@@ -67,6 +141,6 @@
       "url": "https://cleaverbrooks.com/product/traymaster"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

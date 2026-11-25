@@ -39,6 +39,98 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "value": "oil-free; medium process gases; magnetic-coupling sealing; two-lobe gas-tight rotors"
+    },
+    {
+      "metric": "Volume flow",
+      "unit": "m3/h",
+      "basis": "Volume flow: 50 to 38,000 m3/h (GM-HP data block)",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "low": 50,
+      "high": 38000
+    },
+    {
+      "metric": "Differential pressure (delta p)",
+      "unit": "mbar",
+      "basis": "Differential pressure (Δp): 150 to 2,000 mbar",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "low": 150,
+      "high": 2000
+    },
+    {
+      "metric": "Number of stages",
+      "unit": "n/a",
+      "basis": "1 or 2 stage design, with separate pressurised oil lubrication",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "1 or 2 stage design"
+    },
+    {
+      "metric": "Medium",
+      "unit": "n/a",
+      "basis": "Medium: Process Gases",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "Process Gases"
+    },
+    {
+      "metric": "Lubrication",
+      "unit": "n/a",
+      "basis": "separate pressurised oil lubrication for the oil-free transport and compression of air, neutral gases, and gas mixtures",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "separate pressurised oil lubrication, oil-free gas transport"
+    },
+    {
+      "metric": "Drive",
+      "unit": "n/a",
+      "basis": "The direct-drive GM-HP blowers from AERZEN are high-performance machines",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "direct-drive"
+    },
+    {
+      "metric": "Sealing system",
+      "unit": "n/a",
+      "basis": "Low-maintenance sealing system with magnetic coupling for low operating costs",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "low-maintenance magnetic coupling"
+    },
+    {
+      "metric": "Rotor design",
+      "unit": "n/a",
+      "basis": "Robust two-lobe rotor design (gas-tight sealed) for maximum durability",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "robust two-lobe rotor, gas-tight sealed"
+    },
+    {
+      "metric": "Materials",
+      "unit": "n/a",
+      "basis": "Variety of materials for compatibility with almost all gases",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "Variety of materials for compatibility with almost all gases"
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "Applications list printed on the product page",
+      "source": {
+        "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
+      },
+      "value": "Compression of H2 and CH mixtures; acetylene; ethylene; lime kiln gas; rich gas; synthesis raw gas; butadiene; vinyl chloride; hydrogen sulphide; hydrogen; hydrocracking; hydrosulphurisation; fraction"
     }
   ],
   "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
@@ -47,6 +139,6 @@
       "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     }
   ],
-  "notes": "Applications listed include natural gas compression, pipeline booster and gas turbine supply. Read in full this session.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Applications listed include natural gas compression, pipeline booster and gas turbine supply. Read in full this session. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

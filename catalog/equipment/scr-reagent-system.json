@@ -121,6 +121,87 @@
       },
       "unit": "n/a",
       "value": "Class 1, Div 2"
+    },
+    {
+      "metric": "storage_capacity_max",
+      "unit": "gal",
+      "basis": "Storage System Module: Vessel storage up to 65,000 gallons",
+      "source": {
+        "url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
+      },
+      "value": 65000
+    },
+    {
+      "metric": "vessel_standard",
+      "unit": "n/a",
+      "basis": "Industry Standards: Vessels code stamped ASME Section VIII & National Board Registered",
+      "source": {
+        "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
+      },
+      "value": "ASME Section VIII & National Board Registered"
+    },
+    {
+      "metric": "piping_standard",
+      "unit": "n/a",
+      "basis": "Industry Standards: Piping designed to ANSI B31.1/ANSI B31.3; Pipe fabrication to ASME Section IX",
+      "source": {
+        "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
+      },
+      "value": "ANSI B31.1/ANSI B31.3; fabrication ASME Section IX"
+    },
+    {
+      "metric": "structural_standard",
+      "unit": "n/a",
+      "basis": "Industry Standards: Structural Steel Assembly Designed to AWS D1.1",
+      "source": {
+        "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
+      },
+      "value": "AWS D1.1"
+    },
+    {
+      "metric": "system_standard",
+      "unit": "n/a",
+      "basis": "Complete system designed to API RP 550 & K61.1",
+      "source": {
+        "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
+      },
+      "value": "API RP 550 & K61.1"
+    },
+    {
+      "metric": "hazardous_location_option",
+      "unit": "n/a",
+      "basis": "Optional Features: Class 1, Div 2 Hazardous Locations",
+      "source": {
+        "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
+      },
+      "value": "Class 1, Div 2 Hazardous Locations"
+    },
+    {
+      "metric": "vessel_material",
+      "unit": "n/a",
+      "basis": "Storage System Module: Single & Double wall carbon steel vessels",
+      "source": {
+        "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
+      },
+      "value": "Single & Double wall carbon steel vessels"
+    },
+    {
+      "metric": "cold_AFCU",
+      "unit": "n/a",
+      "basis": "Vaporization System Module (Cold AFCU)",
+      "source": {
+        "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
+      },
+      "value": "Integraheat Electric Process Air Heater and Steam Heat Exchanger"
+    },
+    {
+      "metric": "hot_AFCU",
+      "unit": "n/a",
+      "basis": "Vaporization System Module (Hot AFCU): Hot Flue Gas",
+      "source": {
+        "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
+      },
+      "value": "Hot Flue Gas"
     }
   ],
   "vendors": [
@@ -154,5 +235,5 @@
     }
   ],
   "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

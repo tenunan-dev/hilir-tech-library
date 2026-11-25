@@ -16,6 +16,33 @@
       },
       "low": "0",
       "high": "100"
+    },
+    {
+      "metric": "Product category",
+      "unit": "n/a",
+      "basis": "We supply control components and safety systems designed to safely and efficiently run a production facility.",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
+      },
+      "value": "Measurement and automation solutions for surface production"
+    },
+    {
+      "metric": "Pump pressure range",
+      "unit": "psi",
+      "basis": "Pressure ranges available up to 10,000 psi and flow rates up to 1,500 gpm",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
+      },
+      "high": 10000
+    },
+    {
+      "metric": "Pump flow rate",
+      "unit": "gpm",
+      "basis": "flow rates up to 1,500 gpm",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
+      },
+      "high": 1500
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/surface/production/",
@@ -24,6 +51,6 @@
       "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
     }
   ],
-  "notes": "Other listed features (no numeric basis printed): 3D Broadband, dual-mode combined multiphase and wet-gas meter, water salinity correction, in-situ verification, KBC Multiflash PVT built in.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Other listed features (no numeric basis printed): 3D Broadband, dual-mode combined multiphase and wet-gas meter, water salinity correction, in-situ verification, KBC Multiflash PVT built in. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

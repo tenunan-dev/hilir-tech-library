@@ -1,0 +1,25 @@
+{
+  "id": "catpar-r-jina-ai-231296-pg-spec-12v1600gs400-400kw-0d87809",
+  "name": "r.jina.ai",
+  "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "R.Jina.Ai",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Spec sheet title: 'mtu 12V1600 GS400 Gas Generator Set 400 kWe/60 Hz/Standby/208-600V'. 231296 | 2026-03."
+}

@@ -59,6 +59,91 @@
         "source_id": "cat-products-swagelok-com-241"
       },
       "value": "316 stainless steel, brass"
+    },
+    {
+      "metric": "connection_size_range",
+      "unit": "in",
+      "basis": "Valves available with these specifications: 1/4 to 1 in. (6 mm)",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
+      },
+      "low": 0.25,
+      "high": 1
+    },
+    {
+      "metric": "temperature_range",
+      "unit": "degC",
+      "basis": "-50 degF (-45 degC) to 500 degF (260 degC)",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
+      },
+      "low": -45,
+      "high": 260
+    },
+    {
+      "metric": "body_materials",
+      "unit": "n/a",
+      "basis": "Valves available with these specifications: 316 stainless steel, brass",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
+      },
+      "value": "316 stainless steel, brass"
+    },
+    {
+      "metric": "pressure_rating_range",
+      "unit": "psig",
+      "basis": "150 psig (10.3 bar) to 6000 psig (413 bar)",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
+      },
+      "low": 150,
+      "high": 6000
+    },
+    {
+      "metric": "pressure_rating_range_bar",
+      "unit": "bar",
+      "basis": "150 psig (10.3 bar) to 6000 psig (413 bar)",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
+      },
+      "low": 10.3,
+      "high": 413
+    },
+    {
+      "metric": "pressure_rating_coupled_room_temp",
+      "unit": "n/a",
+      "basis": "Filter option list: Pressure Rating Coupled at Room Temp (all four printed values)",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
+      },
+      "value": "6000 PSIG @ 70 F / 413 BAR @ 21 C; 4000 PSIG @ 70 F / 275 BAR @ 21 C; 3000 PSIG @ 70 F / 206 BAR @ 21 C; 2000 PSIG @ 70 F / 137 BAR @ 21 C"
+    },
+    {
+      "metric": "pressure_rating_coupled_max_temp",
+      "unit": "n/a",
+      "basis": "Filter option list: Pressure Rating Coupled at Max Temp",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
+      },
+      "value": "100 PSIG @ 400 F / 6.8 BAR @ 204 C; 100 PSIG @ 250 F / 6.8 BAR @ 121 C; 400 PSIG @ 400 F / 27.5 BAR @ 204 C"
+    },
+    {
+      "metric": "O_ring_materials",
+      "unit": "n/a",
+      "basis": "O-Ring Material filter options (FKM 45 products, Buna N 8 products)",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
+      },
+      "value": "Fluorocarbon FKM; Buna N (Standard)"
+    },
+    {
+      "metric": "series_models",
+      "unit": "n/a",
+      "basis": "Model filter list counts",
+      "source": {
+        "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
+      },
+      "value": "QF4 (22 products), QF8 (17), QF12 (8), QF16 (6)"
     }
   ],
   "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
@@ -67,6 +152,6 @@
       "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     }
   ],
-  "notes": "Range values and filter facets printed on the HTML catalogue page; full pressure-temperature tables are in the linked PDF (not WebFetch-read).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Range values and filter facets printed on the HTML catalogue page; full pressure-temperature tables are in the linked PDF (not WebFetch-read). Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

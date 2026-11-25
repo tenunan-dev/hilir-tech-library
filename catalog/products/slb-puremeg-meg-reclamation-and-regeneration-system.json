@@ -17,6 +17,14 @@
         "source_id": "sys-slb-com-processing-and-separation"
       },
       "value": "MEG reclamation and regeneration (gas treatment)"
+    },
+    {
+      "metric": "System identification",
+      "unit": "text",
+      "basis": "SLB page lists 'PureMEG MEG Reclamation and Regeneration System' and 'Mechanical Vapor Recompression for PureMEG System' among processing solutions",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      }
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
@@ -25,6 +33,13 @@
       "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     }
   ],
-  "notes": "Not an injection pump/valve; relevant to glycol loop chemistry.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Not an injection pump/valve; relevant to glycol loop chemistry. Full-parameter pass 2026-11-26: 1 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "All PureMEG numeric parameters (MEG purity, recovery rate, capacity, energy consumption, recompression duty)",
+      "why": "Fetched URL is a broad processing-and-separation hub that lists the product name only",
+      "next_action": "Find the dedicated PureMEG product datasheet or brochure"
+    }
+  ]
 }

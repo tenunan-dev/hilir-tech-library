@@ -17,6 +17,42 @@
         "source_id": "sys-slb-com-processing-and-separation"
       },
       "value": "produced-water treatment / desanding"
+    },
+    {
+      "metric": "Product names",
+      "unit": "n/a",
+      "basis": "Technology list printed under produced water / solids management on the Processing and Separation page",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "WEMCO PACESETTER Separator; WEMCO SILVER BAND Separator; MOZLEY Desanding Hydrocyclone Separator"
+    },
+    {
+      "metric": "Related WEMCO equipment",
+      "unit": "n/a",
+      "basis": "Produced water treatment technology list",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "WEMCO DEPURATOR Unit; WEMCO ISF Hydraulically Induced Gas Flotation System"
+    },
+    {
+      "metric": "Related MOZLEY equipment",
+      "unit": "n/a",
+      "basis": "Solids Management technology list",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "MOZLEY FLUIDIZER Settled Solids Remover; MOZLEY Wellhead Desander Solids Removal System"
+    },
+    {
+      "metric": "Process positioning",
+      "unit": "n/a",
+      "basis": "Plan for the future with technologies that separate and treat oil, water, and gas using minimal chemicals and energy",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "separate and treat oil, water, and gas using minimal chemicals and energy"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
@@ -25,6 +61,13 @@
       "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     }
   ],
-  "notes": "Names only; no numeric data on the page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Names only; no numeric data on the page. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "PACESETTER / SILVER BAND / MOZLEY desander capacities and efficiencies",
+      "why": "Category page lists product names but no performance figures",
+      "next_action": "Fetch each dedicated product datasheet from SLB"
+    }
+  ]
 }

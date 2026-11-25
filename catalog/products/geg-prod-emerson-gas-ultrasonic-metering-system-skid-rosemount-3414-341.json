@@ -39,6 +39,99 @@
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
         "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
       }
+    },
+    {
+      "metric": "Installed base",
+      "unit": "large-scale skids (over)",
+      "basis": "\"With an installed base of over 2800 large-scale skids around the world\"",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      },
+      "value": 2800
+    },
+    {
+      "metric": "Meter rangeability",
+      "unit": "ratio (>100:1)",
+      "basis": "\"high rangeability of >100:1\" (four-path gas ultrasonic meters with chordal design)",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Ultrasonic meter paths",
+      "unit": "paths",
+      "basis": "\"Multiple four-path gas ultrasonic meters with chordal design\"",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Flow computer",
+      "unit": "n/a",
+      "basis": "\"FloBoss S600+ flow computer\", panel mounted, Metering Suite",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      }
+    },
+    {
+      "metric": "Meter models",
+      "unit": "n/a",
+      "basis": "\"Rosemount gas ultrasonic meters • Model 3414 • Model 3417, with dual electronics\"",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      }
+    },
+    {
+      "metric": "Analyzer models",
+      "unit": "n/a",
+      "basis": "\"Rosemount gas chromatograph • 370XA • 770XA\"; moisture, hydrocarbon dew point and sulfur analyzers",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      }
+    },
+    {
+      "metric": "Standards compliance",
+      "unit": "n/a",
+      "basis": "\"Compliance with AGA9 and ISO 17089 standards\"; \"Quality management backed by ISO 9000, ISO 14000. ISO 18000, ISO 29000\"",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      }
+    },
+    {
+      "metric": "Flow configuration",
+      "unit": "n/a",
+      "basis": "\"N x 100% flow configuration\"",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      }
+    },
+    {
+      "metric": "Meter velocity options (questionnaire printed values)",
+      "unit": "m/s",
+      "basis": "Questionnaire checkboxes: \"Max Normal Min … 10 m/s … 15 m/s … 20 m/s Other\" (printed options, not a performance rating)",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      },
+      "low": 10,
+      "high": 20
+    },
+    {
+      "metric": "Pressure rating options (questionnaire printed values)",
+      "unit": "ANSI class",
+      "basis": "Questionnaire: \"300# 600# 900# Other\"",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      }
+    },
+    {
+      "metric": "Publication date",
+      "unit": "n/a",
+      "basis": "Datasheet header 'DAN-GAS-TQ-GUSM-0213 February 2022'; ©2022 Emerson",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      }
     }
   ],
   "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
@@ -48,6 +141,6 @@
       "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 11 new printed parameters."
 }

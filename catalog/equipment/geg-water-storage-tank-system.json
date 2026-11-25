@@ -254,6 +254,172 @@
         "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
         "source_id": "gef-pipeco-com-my-3234b71"
       }
+    },
+    {
+      "metric": "Applicable standards",
+      "unit": "n/a",
+      "basis": "Applicable Standards listed: API 650, API 620, API 653, AWWA D100 (Welded Carbon Steel Tanks for Water Storage), NSF/ANSI 61 (Potable Water Contact), ASME B16.5, NFPA 30, ISO 9001",
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks"
+      }
+    },
+    {
+      "metric": "AWWA D100 tank construction",
+      "unit": "n/a",
+      "basis": "\"Welded carbon steel tanks to AWWA D100 for potable water, fire suppression, and industrial water storage — including NSF/ANSI 61 lining systems where potable water contact is required\"",
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks"
+      }
+    },
+    {
+      "metric": "AWWA D100 services",
+      "unit": "n/a",
+      "basis": "\"Potable water, fire water, and municipal water storage (AWWA D100)\"",
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks"
+      }
+    },
+    {
+      "metric": "Roof configurations",
+      "unit": "n/a",
+      "basis": "\"Fixed cone, external floating roof (EFR), and internal floating roof (IFR) configurations engineered to product vapour pressure, site conditions, and environmental requirements\"",
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks"
+      }
+    },
+    {
+      "metric": "Inspection and testing",
+      "unit": "n/a",
+      "basis": "\"Hydrostatic testing, weld inspection, NDE, and third-party verification in accordance with the applicable standard (API 650, API 620, or AWWA D100)\"",
+      "source": {
+        "url": "https://basiia.com/products/api-650-tanks"
+      }
+    },
+    {
+      "metric": "Standards",
+      "unit": "n/a",
+      "basis": "Standard : Singapore Standard SS245: 2014, MS 1390 : 2010 similar to British Standard BS 7491 Part 3:1994 and BS EN 13280:2001",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": "Singapore Standard SS245: 2014, MS 1390 : 2010 similar to British Standard BS 7491 Part 3:1994 and BS EN 13280:2001"
+    },
+    {
+      "metric": "Resin",
+      "unit": "n/a",
+      "basis": "Resin – Isophthalic unsaturated polyester resin conforming to BS 3532 or JISK 6919 specification",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": "Isophthalic unsaturated polyester resin conforming to BS 3532 or JISK 6919"
+    },
+    {
+      "metric": "Fibre glass",
+      "unit": "n/a",
+      "basis": "Fiber Glass – Type “E” Glass comprises of alumino-borosilicate or alumino- calco-silicate, conforming to BS 3496 and BS 3749 specifications",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": "Type E Glass, alumino-borosilicate or alumino-calco-silicate, conforming to BS 3496 and BS 3749"
+    },
+    {
+      "metric": "Manufacturing process",
+      "unit": "n/a",
+      "basis": "Manufacturing Process: Hot pressed SMC compression moulding",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": "Hot pressed SMC compression moulding"
+    },
+    {
+      "metric": "Tie-rod internal material",
+      "unit": "n/a",
+      "basis": "Tie-rod System: Internal: SS304 Tie-rod, Optional SS316",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": "SS304 Tie-rod, Optional SS316"
+    },
+    {
+      "metric": "Tensile strength",
+      "unit": "MN/m2",
+      "basis": "Tensile Strength (MN/m²): 107; Acceptance Criteria >70 (min)",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": 107
+    },
+    {
+      "metric": "Bending strength",
+      "unit": "MN/m2",
+      "basis": "Bending Strength (MN/m²): 167; Acceptance Criteria > 100 (min)",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": 167
+    },
+    {
+      "metric": "Elastic modulus in bend",
+      "unit": "MN/m2",
+      "basis": "Elastic Modulus in Bend (MN/m²): 11953; Acceptance Criteria > 6000 (min)",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": 11953
+    },
+    {
+      "metric": "Glass content",
+      "unit": "%",
+      "basis": "Glass Content (%): 33; Acceptance Criteria > 25 (min)",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": 33
+    },
+    {
+      "metric": "Barcol hardness",
+      "unit": "n/a",
+      "basis": "Barcol Hardness: 59; Acceptance Criteria >30 (min)",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": 59
+    },
+    {
+      "metric": "Water absorption",
+      "unit": "%",
+      "basis": "Water Absorption (%): 0.2; Acceptance Criteria 0.5 (max)",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": 0.2
+    },
+    {
+      "metric": "Concrete plinth recommendation",
+      "unit": "n/a",
+      "basis": "PIPECO recommends an ideal concrete plinth size of 300mm (W) x 500mm (H), with maximum variance in height of not more than 2mm",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": "300mm (W) x 500mm (H), max height variance 2mm"
+    },
+    {
+      "metric": "Skid base beams",
+      "unit": "n/a",
+      "basis": "Skid Base Specification table for tank heights 1.0m to 4.0m",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": "Hollow Section 50mm x 50mm x 3mm (1.5-3.0 m tank heights); 50mm x 50mm x 4mm (3.5-4.0 m)"
+    },
+    {
+      "metric": "Pre-insulated panel",
+      "unit": "n/a",
+      "basis": "By encapsulating a 50mm layer of rigid polyurethane foam, PIPECO pre-insulated panel could maintain the desired water temperature",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      },
+      "value": "50mm layer of rigid polyurethane foam"
     }
   ],
   "vendor_models": [
@@ -333,5 +499,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

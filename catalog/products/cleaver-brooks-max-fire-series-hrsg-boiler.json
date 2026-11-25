@@ -99,6 +99,116 @@
       },
       "unit": "model designations",
       "value": "MF (O-style), MFA (A-style), VL (O-style), VLA (A-style)"
+    },
+    {
+      "metric": "exhaust_gas_flows",
+      "unit": "lb/hr",
+      "basis": "Product page: Gas flows up to 1,000,000 lb/hr; Attributes: Exhaust Gas Flows (lb/hr) Up to 1,000,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "high": 1000000
+    },
+    {
+      "metric": "steam_generation",
+      "unit": "lb/hr",
+      "basis": "Product page: Steam Generation from 10,000 to 500,000 lb/hr; Attributes: Steam Flows Up to 500,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "low": 10000,
+      "high": 500000
+    },
+    {
+      "metric": "design_pressure",
+      "unit": "psig",
+      "basis": "Product page: Design pressure up to 1,800 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "steam_temperature",
+      "unit": "degF",
+      "basis": "Product page: Steam temperature to 1,050 degF; Attributes: Steam Temperature Up to 1,050 deg F",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 1050
+    },
+    {
+      "metric": "duct_firing_temperature",
+      "unit": "degF",
+      "basis": "Membrane/water-cooled furnace technology allows it to be fired up to 2800 degF; Attributes: Duct Firing Temperature Up to 2,800 deg F",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 2800
+    },
+    {
+      "metric": "NOx_with_SCR",
+      "unit": "ppm",
+      "basis": "Supplemental firing with stack emissions available to less than 2 ppm NOx with SCR",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "high": 2
+    },
+    {
+      "metric": "gas_turbine_size",
+      "unit": "MW",
+      "basis": "Attributes: Gas Turbine Size 3 MW - 25 MW",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "low": 3,
+      "high": 25
+    },
+    {
+      "metric": "thermal_efficiency",
+      "unit": "%",
+      "basis": "The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "low": 80
+    },
+    {
+      "metric": "fuel_reduction",
+      "unit": "MMBtu/hr",
+      "basis": "It reduces up to 7.0 MMBtu/hr of fuel in conventional boilers",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "high": 7.0
+    },
+    {
+      "metric": "CO2_emissions_eliminated",
+      "unit": "tons/yr per 1 MWe GT output",
+      "basis": "eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 2870
+    },
+    {
+      "metric": "assembly_circulation_construction",
+      "unit": "n/a",
+      "basis": "Attributes: Assembly Shop Assembled; Circulation Natural Circulation; Construction Membrane Wall Construction",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction"
+    },
+    {
+      "metric": "models",
+      "unit": "n/a",
+      "basis": "The MF (O-style) and MFA (A-style) models combine waterwall combustion chamber with evaporator; VL and VLA offer evaporator section without a furnace",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": "MF (O-style), MFA (A-style), VL (O-style), VLA (A-style)"
     }
   ],
   "url": "https://cleaverbrooks.com/product/max-fire-series",
@@ -107,6 +217,6 @@
       "url": "https://cleaverbrooks.com/product/max-fire-series"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

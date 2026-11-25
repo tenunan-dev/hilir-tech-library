@@ -27,6 +27,38 @@
         "source_id": "cat-johnzink-com-stella-flare-ignition-system"
       },
       "value": "grid, battery, or solar charging"
+    },
+    {
+      "metric": "Power / utility requirement",
+      "unit": "text",
+      "basis": "John Zink: 'an advanced, electric-powered flare ignition solution that eliminates the need for pilot fuel gas and instrument air'; '100% Electric Operation – No need for pilot fuel gas or instrument air'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
+      }
+    },
+    {
+      "metric": "Power options",
+      "unit": "text",
+      "basis": "John Zink: 'STELLA operates on-grid, battery, or solar power'; 'Flexible Power Options – grid power, battery, or solar charging'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
+      }
+    },
+    {
+      "metric": "Applicable flare types",
+      "unit": "text",
+      "basis": "John Zink: 'Designed for vertical and horizontal flare applications'; 'including burn pits'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
+      }
+    },
+    {
+      "metric": "Construction",
+      "unit": "text",
+      "basis": "John Zink: 'no moving parts, no consumable pilot components, and high-quality stainless-steel construction, built to withstand high temperatures'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
+      }
     }
   ],
   "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system",
@@ -35,6 +67,13 @@
       "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
     }
   ],
-  "notes": "No moving parts, no consumable pilot components, high-quality stainless-steel construction; eliminates pilot gas piping, pilot racks and auxiliary air systems. Linked STELLA brochure is hosted as scene7 content (not read).",
-  "last_reviewed": "2026-11-24"
+  "notes": "No moving parts, no consumable pilot components, high-quality stainless-steel construction; eliminates pilot gas piping, pilot racks and auxiliary air systems. Linked STELLA brochure is hosted as scene7 content (not read). Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Ignition energy, spark rate, voltage and temperature rating",
+      "why": "Product page is qualitative; STELLA brochure linked but not read",
+      "next_action": "Fetch STELLA Brochure"
+    }
+  ]
 }

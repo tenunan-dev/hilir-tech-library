@@ -1,0 +1,25 @@
+{
+  "id": "catpar-cummins-com-cummins-quiet-diesel-generators-cc0a008",
+  "name": "Cummins Quiet Diesel Generators",
+  "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Cummins Inc.",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Cummins en-apac diesel generator page, © 2026 Cummins Inc.; no print date stated."
+}

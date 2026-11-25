@@ -81,6 +81,145 @@
       },
       "unit": "deg F",
       "value": "235, 340, 355, 380, 410"
+    },
+    {
+      "metric": "Input",
+      "unit": "MBH",
+      "basis": "2,000-6,000 MBH Input; Input Capacity 2,000 - 6,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "low": 2000,
+      "high": 6000
+    },
+    {
+      "metric": "Fuel",
+      "unit": "n/a",
+      "basis": "Natural Gas, Propane",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "Natural Gas, Propane"
+    },
+    {
+      "metric": "Design pressure (steam)",
+      "unit": "psig",
+      "basis": "15-500 psig Design Pressure (Steam)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "low": 15,
+      "high": 500
+    },
+    {
+      "metric": "Design pressure (hot water)",
+      "unit": "psig",
+      "basis": "160-250 psig Design Pressure (Hot Water)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "low": 160,
+      "high": 250
+    },
+    {
+      "metric": "Design temperature",
+      "unit": "deg F",
+      "basis": "Design Temperature (deg F) 235, 340, 355, 380, 410",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "235, 340, 355, 380, 410"
+    },
+    {
+      "metric": "NOx",
+      "unit": "ppm",
+      "basis": "Standard sub-20 ppm NOx; <20 ppm NOx without FGR",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "<20"
+    },
+    {
+      "metric": "CO",
+      "unit": "ppm",
+      "basis": "<10 CO as standard on natural gas",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "<10"
+    },
+    {
+      "metric": "Turndown",
+      "unit": "n/a",
+      "basis": "Up to 5:1 turndown",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "Up to 5:1"
+    },
+    {
+      "metric": "Boiler horsepower",
+      "unit": "HP",
+      "basis": "Boiler Horsepower 48 - 143",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "low": 48,
+      "high": 143
+    },
+    {
+      "metric": "Number of passes",
+      "unit": "pass",
+      "basis": "Number Of Passes 2",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Steam or hot water",
+      "unit": "n/a",
+      "basis": "Steam Or Hot Water Both",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "Both"
+    },
+    {
+      "metric": "Vessel design",
+      "unit": "n/a",
+      "basis": "Vessel Design Watertube; The M5M is a membrane wall watertube boiler",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "Watertube (membrane wall)"
+    },
+    {
+      "metric": "Floor space reduction",
+      "unit": "%",
+      "basis": "Increases boiler room floor space by 50%; reduces floor space by 50%",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Weight savings",
+      "unit": "%",
+      "basis": "weight savings of 40%",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Burner technology",
+      "unit": "n/a",
+      "basis": "Premix Burner Technology; The linkageless burner provides fully modulating turndown",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "Premix burner technology, linkageless"
     }
   ],
   "url": "https://cleaverbrooks.com/product/m5m",
@@ -89,6 +228,6 @@
       "url": "https://cleaverbrooks.com/product/m5m"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 15 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

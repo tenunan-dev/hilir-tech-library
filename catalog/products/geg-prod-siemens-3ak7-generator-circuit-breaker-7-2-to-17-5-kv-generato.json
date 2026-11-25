@@ -106,6 +106,115 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
       }
+    },
+    {
+      "metric": "Rated voltage range",
+      "unit": "kV",
+      "basis": "\"Vacuum Circuit-Breaker 3AK7 from 7.2 to 17.5 kV\"; technical data table 7.2 / 12 / 15 / 17.5 kV",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 7.2,
+      "high": 17.5
+    },
+    {
+      "metric": "Rated normal current",
+      "unit": "A (4000 A with forced cooling)",
+      "basis": "Technical data: \"Rated normal current Ir A 1250; 2000; 2500; 3150; 4000 (with forced cooling)\"",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 1250,
+      "high": 4000
+    },
+    {
+      "metric": "Rated short-circuit breaking current (standard breaker)",
+      "unit": "kA (also 40 kA variant)",
+      "basis": "\"capable to break short-circuit currents up to 50 kA\"; technical data 50/40 kA",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Rated short-circuit making current",
+      "unit": "kA peak",
+      "basis": "Selection tables: 125/130 kA peak (standard breakers); 110 kA (40 kA generator), 137 kA (50 kA generator)",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      }
+    },
+    {
+      "metric": "Pole-center distance",
+      "unit": "mm (or 280 mm)",
+      "basis": "\"lean pole-shell design with a pole-center distance of 210 mm\"; tables list PCD 210/280 mm",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 210
+    },
+    {
+      "metric": "Maintenance-free operating cycles",
+      "unit": "cycles",
+      "basis": "\"The 3AK7 is maintenance-free up to 10,000 operating cycles. 30,000 operating cycles on request\"",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Extended operating cycles option",
+      "unit": "cycles (on request)",
+      "basis": "\"30,000 operating cycles on request\"; order code -Z M30",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 30000
+    },
+    {
+      "metric": "Rated lightning impulse withstand voltage",
+      "unit": "kV",
+      "basis": "Technical data table: 60 kV (7.2 kV), 75 kV (12 kV), 95 kV (17.5 kV)",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 60,
+      "high": 95
+    },
+    {
+      "metric": "Rated short-duration power-frequency withstand voltage",
+      "unit": "kV",
+      "basis": "Technical data table: 20 kV (7.2 kV), 28 kV (12 kV), 38 kV (17.5 kV)",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 20,
+      "high": 38
+    },
+    {
+      "metric": "Standards",
+      "unit": "n/a",
+      "basis": "\"conform to IEC 62271-100, IEC 62271-1, IEC 60265-1 and IEC / IEEE 62271-37-013:2015 (marked accordingly)\"; endurance classes E2, M2, S1 and C2",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      }
+    },
+    {
+      "metric": "Ambient reference current basis",
+      "unit": "degC",
+      "basis": "\"rated normal currents ... defined according to IEC 62271-100 for an ambient air temperature of +40 °C and apply to open switchgear\"",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Publication",
+      "unit": "n/a",
+      "basis": "Catalog HG 11.06, Edition 2017 (supersedes HG 11.06 edition 2014); 'Medium-Voltage Equipment 3AK7 Vacuum Circuit-Breakers'",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      }
     }
   ],
   "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
@@ -115,6 +224,6 @@
       "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 12 new printed parameters."
 }

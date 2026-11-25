@@ -57,6 +57,76 @@
         "source_id": "cat-longi-com"
       },
       "value": -0.26
+    },
+    {
+      "metric": "Module power",
+      "unit": "W",
+      "basis": "'Up to 670 <W> Module Power' / 'Maximum power boasts up to 670W'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 670
+    },
+    {
+      "metric": "Module efficiency",
+      "unit": "%",
+      "basis": "'Up to 24.80 <%> Module Efficiency'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 24.8
+    },
+    {
+      "metric": "Product warranty",
+      "unit": "years",
+      "basis": "'12 <Years> Product Warranty'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Power warranty",
+      "unit": "years",
+      "basis": "'30 <Years> Power Warranty'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 30
+    },
+    {
+      "metric": "30-year degradation advantage",
+      "unit": "percentage points",
+      "basis": "'30-year full lifecycle linear degradation is 0.05 percentage points lower than conventional N-type products'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 0.05
+    },
+    {
+      "metric": "30-year power increase",
+      "unit": "%",
+      "basis": "'Power increase 1.5% after 30 years'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      },
+      "value": 1.5
+    },
+    {
+      "metric": "Cell technology",
+      "unit": "n/a",
+      "basis": "'Tairay silicon wafers + HPBC 2.0 cell technology'; '0BB design on the front'",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
+    },
+    {
+      "metric": "Design features",
+      "unit": "n/a",
+      "basis": "'Soft Breakdown Design' for anti-shading and preventing localized overheating",
+      "source": {
+        "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
+      }
     }
   ],
   "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
@@ -65,6 +135,13 @@
       "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     }
   ],
-  "notes": "HPBC 2.0; 30-year power warranty",
-  "last_reviewed": "2026-11-24"
+  "notes": "HPBC 2.0; 30-year power warranty Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Electrical specifications (Voc, Isc, Vmp, Imp, temperature coefficients, dimensions, weight)",
+      "why": "Product landing page gives headline figures only; linked datasheet not read",
+      "next_action": "Download the Hi-MO 9 datasheet from the LONGi download centre"
+    }
+  ]
 }

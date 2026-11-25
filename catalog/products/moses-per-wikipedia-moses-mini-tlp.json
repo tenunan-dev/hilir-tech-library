@@ -18,6 +18,34 @@
       },
       "low": 180,
       "high": 1300
+    },
+    {
+      "metric": "MOSES mini-TLP - water depth range",
+      "unit": "m (590 to 4,270 ft)",
+      "basis": "Wikipedia 'Oil platform' article, Tension-leg platform section (secondary source)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "low": 180,
+      "high": 1300
+    },
+    {
+      "metric": "MOSES mini-TLP - type",
+      "unit": "n/a",
+      "basis": "Wikipedia 'Oil platform' article, Tension-leg platform section (secondary source)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "value": "Proprietary mini TLP (with Seastar); relatively low cost"
+    },
+    {
+      "metric": "MOSES mini-TLP - use cases",
+      "unit": "n/a",
+      "basis": "Wikipedia 'Oil platform' article, Tension-leg platform section (secondary source)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "value": "Utility, satellite or early production platforms for larger deepwater discoveries"
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Oil_platform",
@@ -26,6 +54,6 @@
       "url": "https://en.wikipedia.org/wiki/Oil_platform"
     }
   ],
-  "notes": "No vendor page fetched",
-  "last_reviewed": "2026-11-24"
+  "notes": "No vendor page fetched Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

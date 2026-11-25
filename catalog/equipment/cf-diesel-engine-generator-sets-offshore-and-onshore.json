@@ -199,6 +199,240 @@
       },
       "low": 770,
       "high": 1400
+    },
+    {
+      "metric": "Commercial genset start and load acceptance",
+      "unit": "seconds",
+      "basis": "'Able to start and assume load in less than 10 seconds, and rated load in a single step, Cummins commercial generators are the epitome of rugged dependability.'",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/diesel"
+      },
+      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step"
+    },
+    {
+      "metric": "Quiet Diesel series frequency",
+      "unit": "Hz",
+      "basis": "Cummins Quiet Diesel Generators product card: 'Frequency (Hz) 60, 50'; Certification EPA Tier 4.",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
+      },
+      "value": "60, 50"
+    },
+    {
+      "metric": "Quiet Diesel noise reduction",
+      "unit": "dB(A) (up to, quieter than other diesel generators)",
+      "basis": "'their revolutionary design makes these generator sets up to 15 dB(A) quieter than other diesel-powered generators, and quieter than most gasoline sets.'",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
+      },
+      "value": 15
+    },
+    {
+      "metric": "Quiet Diesel full-load ambient capability",
+      "unit": "deg F / deg C",
+      "basis": "'Meets full load capability at 120 F (50 C) ambient conditions.'",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
+      },
+      "value": "120 F (50 C)"
+    },
+    {
+      "metric": "Quiet Diesel construction and mounting",
+      "unit": "n/a",
+      "basis": "'The units are totally enclosed, including cooling, muffler and intake systems' and '4-point mounting system Designed to provide clean, quiet power with low vibration'.",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
+      },
+      "value": "Totally enclosed incl. cooling, muffler and intake; 4-point mounting system"
+    },
+    {
+      "metric": "Standard Diesel series frequency",
+      "unit": "Hz",
+      "basis": "Cummins Standard Diesel Generators product card: 'Frequency (Hz) 50, 60'; Certification EPA Tier 4.",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
+      },
+      "value": "50, 60"
+    },
+    {
+      "metric": "Standard Diesel full-load ambient capability",
+      "unit": "deg F / deg C",
+      "basis": "'Meets full load capability at 120 F (50 C) ambient conditions*'; '*Does not apply to 20 HDKDB'.",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
+      },
+      "value": "120 F (50 C)"
+    },
+    {
+      "metric": "Standard Diesel application note",
+      "unit": "n/a",
+      "basis": "'All standard diesel generators operate at low speed for long life, and can be used in both open and compartment-type applications.'",
+      "source": {
+        "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
+      },
+      "value": "Open and compartment-type applications; low speed for long life"
+    },
+    {
+      "metric": "Portfolio maximum 60 Hz",
+      "unit": "kWe",
+      "basis": "'Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz).'",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": 3250
+    },
+    {
+      "metric": "Portfolio maximum 50 Hz",
+      "unit": "kVA",
+      "basis": "As above.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Load factor standby / prime",
+      "unit": "%",
+      "basis": "'85% load factor for standby applications and 75% for prime power'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "85% / 75%"
+    },
+    {
+      "metric": "Transient operation claim",
+      "unit": "n/a",
+      "basis": "Wide range of applications / transient operation bullets.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "Superior transient operation, industry leading load factors in extreme ambient conditions"
+    },
+    {
+      "metric": "Sustainable fuel approval",
+      "unit": "n/a",
+      "basis": "'mtu Series 4000 and Series 1600 engines for power generation are approved to run on synthetic paraffinic diesel fuels in accordance with EN 15940, which includes the biofuel HVO'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO"
+    },
+    {
+      "metric": "Power range - mtu Series 4000",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 4000 POWER RANGE: 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe"
+    },
+    {
+      "metric": "Power range - mtu Series 2000",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 2000 POWER RANGE: 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe"
+    },
+    {
+      "metric": "Power range - mtu Series 1600",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 1600 POWER RANGE: 50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe"
+    },
+    {
+      "metric": "Power range - mtu Series 0080 - mtu Series 0225",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 0080 - mtu Series 0225 POWER RANGE: 50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe"
+    },
+    {
+      "metric": "Lowest power series noted",
+      "unit": "n/a",
+      "basis": "Output range section, fourth portfolio block.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "Series 0080 - Series 0225: 50 Hz 30-94 kVA; 60 Hz 27-400 kWe"
+    },
+    {
+      "metric": "Sunny Boy power classes",
+      "unit": "kW",
+      "basis": "3 kW / 3.6 kW / 4 kW / 5 kW / 6 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters"
+      },
+      "value": "3 / 3.6 / 4 / 5 / 6 kW"
+    },
+    {
+      "metric": "Sunny Tripower power classes",
+      "unit": "kW",
+      "basis": "8 kW / 10 kW; 12 kW / 15 kW / 20 kW / 25 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters"
+      },
+      "value": "8 / 10 / 12 / 15 / 20 / 25 kW"
+    },
+    {
+      "metric": "Sunny Tripower X power classes",
+      "unit": "kW",
+      "basis": "50 kW / 60 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters"
+      },
+      "value": "50 / 60 kW"
+    },
+    {
+      "metric": "Sunny Highpower PEAK3",
+      "unit": "kW",
+      "basis": "125 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters"
+      },
+      "value": 125
+    },
+    {
+      "metric": "Sunny Central UP power classes",
+      "unit": "kW",
+      "basis": "100 kW / 150 kW / 172 kW / 180 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters"
+      },
+      "value": "100 / 150 / 172 / 180 kW"
+    },
+    {
+      "metric": "Maximum central inverter power",
+      "unit": "kW",
+      "basis": "maximum 4,600 kW",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters"
+      },
+      "high": 4600
+    },
+    {
+      "metric": "Single-phase inverter limit in Germany",
+      "unit": "kVA",
+      "basis": "single-phase inverters may be used up to a system size with an apparent power of 4.6 kilovolt-amperes (kVA)",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters"
+      },
+      "value": 4.6
+    },
+    {
+      "metric": "Grid code",
+      "unit": "n/a",
+      "basis": "In 2012, the legislative authority in Germany passed a so-called code of practice (VDE-AR-N 4105)",
+      "source": {
+        "url": "https://www.sma.de/en/products/solar-inverters"
+      },
+      "value": "VDE-AR-N 4105"
     }
   ],
   "vendors": [
@@ -246,5 +480,5 @@
     "Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-po"
   ],
   "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

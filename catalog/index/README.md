@@ -1,13 +1,13 @@
 # Catalog summary
 
-2334 sources in total.
+2369 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
-| PRC | 1881 |
-| PWR | 1411 |
+| PRC | 1916 |
+| PWR | 1446 |
 | ROT | 1263 |
 | UPS | 1127 |
 | MID | 866 |
@@ -29,9 +29,9 @@
 
 | Value | Sources |
 | --- | --- |
-| global | 2117 |
-| sea | 1208 |
-| apac | 1098 |
+| global | 2152 |
+| sea | 1243 |
+| apac | 1133 |
 | na | 957 |
 | eu | 507 |
 | me | 20 |
@@ -41,7 +41,7 @@
 
 | Value | Sources |
 | --- | --- |
-| oem-supplier | 1562 |
+| oem-supplier | 1597 |
 | agency-data | 177 |
 | research-institute | 139 |
 | trade-media | 113 |
@@ -57,7 +57,7 @@
 
 | Value | Sources |
 | --- | --- |
-| summary-only | 1952 |
+| summary-only | 1987 |
 | full-text-restricted | 161 |
 | full-text-open | 110 |
 | catalog-only | 107 |
@@ -67,5 +67,5 @@
 
 | Value | Sources |
 | --- | --- |
-| verified | 2000 |
+| verified | 2035 |
 | unverified | 334 |

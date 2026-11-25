@@ -37,6 +37,44 @@
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "value": "110/48/24 VDC"
+    },
+    {
+      "metric": "safety_integrity_level",
+      "unit": "SIL",
+      "basis": "Safety Manager is part of Experion PKS, providing a Safety Integrity Level (SIL) 1-3 certified safety platform",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "SIL 1-3",
+      "low": 1,
+      "high": 3
+    },
+    {
+      "metric": "architecture",
+      "unit": "n/a",
+      "basis": "Based on the same Quadruple Modular Redundant (QMR) architecture as its FSC predecessor; executes SIL-defined safety application logic in a fully redundant (2oo4D) architecture",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture"
+    },
+    {
+      "metric": "cyber_security_certification",
+      "unit": "n/a",
+      "basis": "Its cyber secure architecture is certified by the Embedded Device Security Assurance program as defined by the ISA Security Compliance Institute",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Embedded Device Security Assurance program as defined by ISA Security Compliance Institute"
+    },
+    {
+      "metric": "IO_technology",
+      "unit": "n/a",
+      "basis": "Universal Safety IO (USIO) technology allows Safety Manager remote IO to be placed in hazardous locations; based on Universal Channel technology",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Universal Safety I/O; each channel individually configurable for a different I/O type; remote IO usable in hazardous locations"
     }
   ],
   "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
@@ -45,6 +83,6 @@
       "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

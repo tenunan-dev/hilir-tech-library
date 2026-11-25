@@ -192,6 +192,49 @@
       },
       "unit": "n/a",
       "value": "treating high turbidity loads and sticky particulates following polymer/coagulant treatment"
+    },
+    {
+      "metric": "Clarifier design principle",
+      "unit": "text",
+      "basis": "Graver Raw Water Pretreatment: 'Inclined Plate Clarification – The Graver Lamella design assures laminar flow conditions that result in hydraulic uniformity and high effluent quality.'",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      }
+    },
+    {
+      "metric": "Installation / footprint",
+      "unit": "text",
+      "basis": "Graver: 'It permits great reduction in the space needed for clarification equipment, and allows the compact equipment to be located indoors if desired, or to be easily relocated at a later date.'",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      }
+    },
+    {
+      "metric": "filter_type",
+      "unit": "n/a",
+      "basis": "Graver's Monoscour is a heavy duty, high rate gravity filter designed for treating high turbidity loads and sticky particulates",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      },
+      "value": "heavy duty, high rate gravity filter"
+    },
+    {
+      "metric": "applications",
+      "unit": "n/a",
+      "basis": "Product description on pretreatment page",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      },
+      "value": "wastewater applications, lime softening applications, cooling tower side stream filtration and all other gravity filter applications where high filtering rates are desirable"
+    },
+    {
+      "metric": "Functions in single unit",
+      "unit": "n/a",
+      "basis": "provides a means for chemical addition and mixing, flocculation, and upflow clarification in a single unit",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      },
+      "value": "chemical addition and mixing, flocculation, and upflow clarification"
     }
   ],
   "vendors": [
@@ -227,5 +270,5 @@
     }
   ],
   "notes": "Generated from the 2026-11-24 supporting-feedwater.json evidence sweep; every spec cites a page read that day.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

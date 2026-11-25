@@ -90,6 +90,39 @@
       },
       "unit": "n/a",
       "value": "independent actuator on each damper"
+    },
+    {
+      "metric": "Damper configuration",
+      "unit": "BiPlane dampers",
+      "basis": "\"Forney utilizes two BiPlane Dampers for superior isolation and control. One damper on the inlet to the HRSG and the other damper isolating the stack\"",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Actuation",
+      "unit": "n/a",
+      "basis": "\"The two BiPlane Dampers allow for soft start and better control capabilities with an independent actuator on each damper\"",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
+      }
+    },
+    {
+      "metric": "Safety interlocks",
+      "unit": "n/a",
+      "basis": "\"Mechanical interlock – Prevents both Dampers from closing at the same time – Allows both to be open at the same time\"; \"Dual set of seals – two layers of protection\"; \"Seal air system – interlocked if pressure falls indicating a leak\"",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
+      }
+    },
+    {
+      "metric": "Benefits",
+      "unit": "n/a",
+      "basis": "\"Better: Soft start flow distribution, Control capability, Safety, Sealing performance; Faster: Reduced time to open; Cheaper: Eliminate the need for the Guillotine Damper, Smaller actuators\"",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
+      }
     }
   ],
   "vendors": [
@@ -126,5 +159,5 @@
     }
   ],
   "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

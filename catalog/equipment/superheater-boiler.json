@@ -63,6 +63,138 @@
       },
       "unit": "qualitative",
       "value": "Possible without severe corrosion even with recovered fuels"
+    },
+    {
+      "metric": "Boiler size range",
+      "unit": "MWth",
+      "basis": "\"The wide size range covers boilers from 30 to 1200 MWth\"",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      },
+      "low": 30,
+      "high": 1200
+    },
+    {
+      "metric": "Installed references",
+      "unit": "references (over 100)",
+      "basis": "\"Most of the over 100 references around the world are multifuel boilers\"",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Superheaters for corrosive fuels",
+      "unit": "n/a",
+      "basis": "\"Well-proven design, including dedicated superheaters for corrosive fuels\"",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      }
+    },
+    {
+      "metric": "Superheater arrangement for recycled fuel",
+      "unit": "n/a",
+      "basis": "\"For recycled fuel combustion, the Valmet CFB Boiler is equipped with a special grid design for effective debris removal and a back pass, including an empty pass and easily replaceable superheaters\"",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      }
+    },
+    {
+      "metric": "Cyclone construction",
+      "unit": "n/a",
+      "basis": "\"high-efficiency cylindrical cyclones constructed of membrane walls covered by a light refractory for erosion protection. No hot expansion joints between the furnace and the cyclone are needed\"",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      }
+    },
+    {
+      "metric": "Steam parameters",
+      "unit": "n/a",
+      "basis": "\"High steam parameters are possible without severe corrosion, even with recovered fuels, thanks to fluidized bed heat exchangers located in the loop seal\" (no numeric steam pressure/temperature printed)",
+      "source": {
+        "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
+      }
+    },
+    {
+      "metric": "Exhaust gas flow",
+      "unit": "lb/hr (up to)",
+      "basis": "Cleaver-Brooks Max-Fire page: 'Gas flows up to 1,000,000 lb/hr' / 'Exhaust Gas Flows (lb/hr) Up to 1,000,000'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 1000000
+    },
+    {
+      "metric": "Steam generation",
+      "unit": "lb/hr",
+      "basis": "'Steam Generation from 10,000 to 500,000 lb/hr' / 'Steam Flows Up to 500,000'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "low": 10000,
+      "high": 500000
+    },
+    {
+      "metric": "Design pressure",
+      "unit": "psig (up to)",
+      "basis": "'Design pressure up to 1,800 psig'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "Steam temperature",
+      "unit": "deg F (up to)",
+      "basis": "'Steam temperature to 1,050 °F' / 'Steam Temperature Up to 1,050 deg F'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 1050
+    },
+    {
+      "metric": "Duct firing temperature",
+      "unit": "deg F (up to)",
+      "basis": "'fired up to 2800°F while avoiding the use of high-maintenance refractory' / 'Duct Firing Temperature Up to 2,800 deg F'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 2800
+    },
+    {
+      "metric": "Matched gas turbine size",
+      "unit": "MW",
+      "basis": "Attributes table: 'Gas Turbine Size 3 MW - 25 MW'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "low": 3,
+      "high": 25
+    },
+    {
+      "metric": "NOx with SCR",
+      "unit": "ppm (less than)",
+      "basis": "'Supplemental firing with stack emissions available to less than 2 ppm NOx with SCR'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Efficiency / CO2 reduction claims",
+      "unit": "text",
+      "basis": "'The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies. It reduces up to 7.0 MMBtu/hr of fuel in conventional boilers and eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output.'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      }
+    },
+    {
+      "metric": "Models / circulation / construction",
+      "unit": "text",
+      "basis": "'MF (O-style) and MFA (A-style)' with integral furnace; 'VL (O-style) and VLA (A-style)' evaporator without furnace; 'Natural Circulation'; 'Membrane Wall Construction'; 'Completely shop-assembled boiler'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      }
     }
   ],
   "vendors": [
@@ -78,7 +210,7 @@
       "source_id": "bw-boiler-cycling"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

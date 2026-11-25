@@ -119,6 +119,103 @@
         "source_id": "matthey-com-emissions-control-nox-control-systems"
       },
       "value": 15000
+    },
+    {
+      "metric": "MODULEX C engine power",
+      "unit": "'MODULEX C 50-500 HP Stainless steel'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
+      },
+      "value": 50,
+      "low": 500,
+      "high": "HP"
+    },
+    {
+      "metric": "MODULEX B engine power",
+      "unit": "'MODULEX B 250-2250 HP Carbon steel, stainless steel'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
+      },
+      "value": 250,
+      "low": 2250,
+      "high": "HP"
+    },
+    {
+      "metric": "DUALOX engine power",
+      "unit": "'DUALOX 2000 HP and larger Carbon steel, stainless steel'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
+      },
+      "value": 2000,
+      "high": "HP"
+    },
+    {
+      "metric": "Catalyst types",
+      "unit": "n/a",
+      "basis": "'designed to accommodate oxidation and three-way catalyst elements'",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
+      }
+    },
+    {
+      "metric": "Engine cycles",
+      "unit": "n/a",
+      "basis": "'4-cycle engines and 2-cycle engines'",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
+      }
+    },
+    {
+      "metric": "Fuels",
+      "unit": "n/a",
+      "basis": "'natural gas, LPG, propane, diesel, biodiesel, dual fuel'",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "gas compression, gas transmission, power generation, irrigation and pumping, standby equipment",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
+      }
+    },
+    {
+      "metric": "Monitoring",
+      "unit": "n/a",
+      "basis": "'HAPGuard Monitor helps engine operators comply with RICE NESHAP requirements'",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
+      }
+    },
+    {
+      "metric": "Operating hours before maintenance",
+      "unit": "hours (15,000-plus)",
+      "basis": "\"JM's SCR technology has achieved an impressive 15,000-plus hours of operation before maintenance is required\"",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Key components",
+      "unit": "n/a",
+      "basis": "\"SINOx honeycomb catalysts; Durable stainless steel catalyst housings; Stainless steel reagent injection lance; Stainless steel reagent mixing duct; System control panel and reagent dosing pump; Silencers for additional sound attenuation\"",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
+      }
+    },
+    {
+      "metric": "Additional pollutant control",
+      "unit": "n/a",
+      "basis": "\"can be coupled with ammonia slip or oxidation catalyst technology for optimal reductions of CO, hydrocarbons, ammonia and other VOCs\"",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
+      }
     }
   ],
   "vendors": [
@@ -176,5 +273,5 @@
     }
   ],
   "notes": "Merged from 3 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

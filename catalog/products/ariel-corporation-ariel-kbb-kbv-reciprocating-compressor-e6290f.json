@@ -39,6 +39,160 @@
       },
       "low": 750,
       "high": 900
+    },
+    {
+      "metric": "Frame rated power (4 throw)",
+      "unit": "BHP",
+      "basis": "Ariel KBB/KBV table, 4 Throw: Rated Power 6,668",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 6668
+    },
+    {
+      "metric": "Frame rated power (6 throw)",
+      "unit": "BHP",
+      "basis": "Ariel KBB/KBV table, 6 Throw: Rated Power 10,000; intro: 'rated up to 10,000 BHP'",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Stroke (KBB / KBV)",
+      "unit": "in",
+      "basis": "Ariel table both throws: KBB 7.25 in, KBV 8.50 in",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 7.25,
+      "high": 8.5
+    },
+    {
+      "metric": "Max RPM (KBB / KBV)",
+      "unit": "rpm",
+      "basis": "Ariel table: KBB Max RPM 900, KBV Max RPM 750",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 750,
+      "high": 900
+    },
+    {
+      "metric": "Piston speed (KBB / KBV)",
+      "unit": "ft/min (printed 'Piston Speed 1,088 / 1,063', unit not printed in table)",
+      "basis": "Ariel table: KBB 1,088, KBV 1,063",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "low": 1063,
+      "high": 1088
+    },
+    {
+      "metric": "Rod diameter",
+      "unit": "in",
+      "basis": "Ariel table: Rod Diameter (in) 3.125 for both KBB and KBV, both throws",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 3.125
+    },
+    {
+      "metric": "Total rod load",
+      "unit": "lbs",
+      "basis": "Ariel table: Total Rod Load (lbs) 190,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 190000
+    },
+    {
+      "metric": "Tension rod load",
+      "unit": "lbs",
+      "basis": "Ariel table: Tension (lbs) 95,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 95000
+    },
+    {
+      "metric": "Compression rod load",
+      "unit": "lbs",
+      "basis": "Ariel table: Compression (lbs) 100,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "Average weight (4 throw)",
+      "unit": "lbs",
+      "basis": "Ariel 4 Throw table: Average Weight (lbs) 79,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 79000
+    },
+    {
+      "metric": "Average weight (6 throw)",
+      "unit": "lbs",
+      "basis": "Ariel 6 Throw table: Average Weight (lbs) 115,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 115000
+    },
+    {
+      "metric": "Max length (4 throw)",
+      "unit": "in",
+      "basis": "Ariel 4 Throw table: Max Length (in) 144",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 144
+    },
+    {
+      "metric": "Max length (6 throw)",
+      "unit": "in",
+      "basis": "Ariel 6 Throw table: Max Length (in) 188",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 188
+    },
+    {
+      "metric": "Nominal width",
+      "unit": "in",
+      "basis": "Ariel table: Nominal Width (in) 228",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 228
+    },
+    {
+      "metric": "Crankshaft centerline height",
+      "unit": "in",
+      "basis": "Ariel table: Crankshaft Centerline (in) 27",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      },
+      "value": 27
+    },
+    {
+      "metric": "Crankcase / running gear materials",
+      "unit": "text",
+      "basis": "Ariel Materials: 'Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, bronze thrust bearing, tri-metal main bearing'; 'Ductile Iron Crosshead: Alloy steel crosshead pin'; 'Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts'",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      }
+    },
+    {
+      "metric": "Lubrication system",
+      "unit": "text",
+      "basis": "Ariel: 'A frame-driven lube oil pump provides cooled oil through a full-flow oil filter to all the frame's moving components. A divider-block system also supplies metered oil to cylinder bores and rod packings.'",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
+      }
     }
   ],
   "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
@@ -47,6 +201,6 @@
       "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     }
   ],
-  "notes": "Pipeline transmission and high-pressure injection",
-  "last_reviewed": "2026-11-24"
+  "notes": "Pipeline transmission and high-pressure injection Full-parameter pass 2026-11-26: 17 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

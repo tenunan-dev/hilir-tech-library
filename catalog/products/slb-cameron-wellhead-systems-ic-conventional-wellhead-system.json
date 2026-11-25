@@ -57,6 +57,96 @@
         "source_id": "cat-slb-com-ic-conventional-wellhead-systems"
       },
       "value": "9, 11, and 13 5/8"
+    },
+    {
+      "metric": "Max pressure rating",
+      "unit": "psi [68.9 MPa]",
+      "basis": "Max. pressure rating: 10,000 psi [68.9 MPa]",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "n/a",
+      "basis": "Temperature range: 0 to 150 degF [–17 to 65 degC]",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+      },
+      "value": "0 to 150 degF [-17 to 65 degC]"
+    },
+    {
+      "metric": "Design",
+      "unit": "n/a",
+      "basis": "The IC wellhead system uses a straight-bore design with a 45° load shoulder",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+      },
+      "value": "straight-bore design with a 45° load shoulder"
+    },
+    {
+      "metric": "Casing head housings",
+      "unit": "n/a",
+      "basis": "Casing head housings: IC-2, IC-2-BP, and IC-2-L",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+      },
+      "value": "IC-2, IC-2-BP, and IC-2-L"
+    },
+    {
+      "metric": "Casing head spools",
+      "unit": "n/a",
+      "basis": "Casing head spools: IC-2, IC-2-BP, and IC-2-L",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+      },
+      "value": "IC-2, IC-2-BP, and IC-2-L"
+    },
+    {
+      "metric": "Casing hangers",
+      "unit": "n/a",
+      "basis": "Casing hangers: IC-1, IC-1P, and IC-2 slip and seal assemblies",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+      },
+      "value": "IC-1, IC-1P, and IC-2 slip and seal assemblies"
+    },
+    {
+      "metric": "C tubing spool hangers",
+      "unit": "n/a",
+      "basis": "C tubing spool: HT, HT-2, T, T-CL, C-SRL, and CXS hangers",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+      },
+      "value": "HT, HT-2, T, T-CL, C-SRL, and CXS"
+    },
+    {
+      "metric": "MTBS tubing spool hanger",
+      "unit": "n/a",
+      "basis": "MTBS tubing spool: MTBS hanger",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+      },
+      "value": "MTBS"
+    },
+    {
+      "metric": "CD-2 tubing spool hangers",
+      "unit": "n/a",
+      "basis": "CD-2 tubing spool: CD-2, CD-T, and CD-T-CL hangers",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+      },
+      "value": "CD-2, CD-T, and CD-T-CL"
+    },
+    {
+      "metric": "Hanger mechanism",
+      "unit": "n/a",
+      "basis": "incorporates a wide range of slip-type and mandrel casing hangers and packoffs, including the automatic slip-type hanger, which uses casing weight to energize the annular seal",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
+      },
+      "value": "slip-type and mandrel casing hangers and packoffs, including automatic slip-type hanger energised by casing weight"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
@@ -65,6 +155,6 @@
       "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
     }
   ],
-  "notes": "Straight-bore design with 45-degree load shoulder; casing head housings IC-2, IC-2-BP, IC-2-L; tubing spools C, MTBS, CD-2. Surface overview brochure linked but not fetched.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Straight-bore design with 45-degree load shoulder; casing head housings IC-2, IC-2-BP, IC-2-L; tubing spools C, MTBS, CD-2. Surface overview brochure linked but not fetched. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -37,6 +37,60 @@
         "source_id": "everllence-com-products-gas-fuel-engines"
       },
       "value": ">51"
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm",
+      "basis": "'Engine speed: 500/514 rpm' for 51/60G (TS).",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": "500 / 514"
+    },
+    {
+      "metric": "Frequency",
+      "unit": "Hz",
+      "basis": "'Frequency: 50/60 Hz' for 51/60G (TS).",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": "50 / 60"
+    },
+    {
+      "metric": "Maximum power",
+      "unit": "kWm (up to)",
+      "basis": "'Up to 20,700 kWm' for 51/60G (TS).",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": 20700
+    },
+    {
+      "metric": "Hydrogen admixture",
+      "unit": "% of gas mixture",
+      "basis": "'Our 51/60G engines can operate on a 25% hydrogen proportion of the gas mixture.'",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Mechanical efficiency (two-stage turbocharging)",
+      "unit": "%",
+      "basis": "'Our 51/60G engine with two-stage turbocharging boasts over 51% efficiency - making it ideal for use in power plants'. Header: 'Outstanding mechanical efficiency even more than >50 %'.",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": "> 51"
+    },
+    {
+      "metric": "Gibraltar reference plant",
+      "unit": "n/a",
+      "basis": "Customer table: Gibelec, base-load power plant & LNG terminal, Gibraltar; scope gensets and mechanical auxiliaries.",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": "3 x 14V51/60G + 3 x 14V51/60DF; commercial operations 2019"
     }
   ],
   "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
@@ -45,6 +99,13 @@
       "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     }
   ],
-  "notes": "25% hydrogen admixture",
-  "last_reviewed": "2026-11-24"
+  "notes": "25% hydrogen admixture Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "51/60G fact sheet detailed table",
+      "why": "The linked '51-60g-factsheet' resolves to a form/lead-capture landing page with no technical table in the fetched text.",
+      "next_action": "Submit the form or locate the PDF directly to transcribe the fact sheet rows."
+    }
+  ]
 }

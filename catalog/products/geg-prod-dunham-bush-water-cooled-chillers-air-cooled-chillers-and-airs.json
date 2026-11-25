@@ -37,6 +37,47 @@
         "url": "https://dunham-bush.com/our-products/",
         "source_id": "geg-dunham-bush-com-a2dd740"
       }
+    },
+    {
+      "metric": "Water-cooled chiller model series",
+      "unit": "n/a",
+      "basis": "Listed DCLC, WCM, WCFX, WCHX, WCS (\"screw, centrifugal and scroll range\")",
+      "source": {
+        "url": "https://dunham-bush.com/our-products/"
+      }
+    },
+    {
+      "metric": "Air-cooled chiller model series",
+      "unit": "n/a",
+      "basis": "Listed ACM, AVX, ACHX, ACDS (\"screw and scroll range\")",
+      "source": {
+        "url": "https://dunham-bush.com/our-products/"
+      }
+    },
+    {
+      "metric": "Heat pump model series",
+      "unit": "n/a",
+      "basis": "Listed WCFXE-HP, ACX-HP, WCS-HP, ACDS-HP",
+      "source": {
+        "url": "https://dunham-bush.com/our-products/"
+      }
+    },
+    {
+      "metric": "Airside products",
+      "unit": "n/a",
+      "basis": "\"Air Handling Unit\" and \"Fan Coil Unit\" listed under Airside; \"comprehensive range of AHRI certified airside equipment\"",
+      "source": {
+        "url": "https://dunham-bush.com/our-products/"
+      }
+    },
+    {
+      "metric": "Company founding year",
+      "unit": "year",
+      "basis": "\"Founded in the USA in 1894, Dunham-Bush is one of the oldest global commercial air conditioning products manufacturers\"",
+      "source": {
+        "url": "https://dunham-bush.com/our-products/"
+      },
+      "value": 1894
     }
   ],
   "url": "https://dunham-bush.com/our-products/",
@@ -46,6 +87,13 @@
       "source_id": "geg-dunham-bush-com-a2dd740"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Chiller capacity, COP, refrigerant and AHU airflow ratings",
+      "why": "Overview page lists model names only; per-series pages not read",
+      "next_action": "Fetch individual model pages for numeric ratings"
+    }
+  ]
 }

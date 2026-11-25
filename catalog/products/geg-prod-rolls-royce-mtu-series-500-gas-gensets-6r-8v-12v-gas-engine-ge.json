@@ -41,6 +41,89 @@
         "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
         "source_id": "geg-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
       }
+    },
+    {
+      "metric": "Power range",
+      "unit": "kW",
+      "basis": "'With a power range of 250 to 550 kilowatts and peak efficiencies of up to 42.6 percent ...'. Press release 10 December 2020.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": "250 - 550",
+      "low": 250,
+      "high": 550
+    },
+    {
+      "metric": "Peak electrical efficiency",
+      "unit": "% (up to)",
+      "basis": "'Top efficiency: Gas units enable efficiencies of up to 42.6%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": 42.6
+    },
+    {
+      "metric": "Engine variants",
+      "unit": "n/a",
+      "basis": "'6R, 8V, 12V versions deliver outputs from 250 to 550 kilowatts' and 'Gas gensets and cogeneration plants can be ordered on the basis of 6-cylinder in-line engines as well as 8 and 12-cylinder V-engines for the 50 Hz market'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": "6R in-line, 8V and 12V"
+    },
+    {
+      "metric": "Cogeneration efficiency",
+      "unit": "% (around)",
+      "basis": "'In cogeneration, when electricity and heat are generated, efficiencies of around 90 percent can be achieved.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": 90
+    },
+    {
+      "metric": "60 Hz market introduction",
+      "unit": "n/a",
+      "basis": "'In the 60 Hz market, the units will be introduced from mid 2021.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": "from mid 2021"
+    },
+    {
+      "metric": "Fuels",
+      "unit": "n/a",
+      "basis": "'The products will initially be offered for operation with natural gas, and from end 2021 also for biogas. In addition, the 500 series is H2-ready, which means that the engines can be converted to hydrogen operation at a later date.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": "natural gas initially; biogas from end 2021; H2-ready (convertible to hydrogen)"
+    },
+    {
+      "metric": "Efficiency improvement vs Series 400",
+      "unit": "% (about)",
+      "basis": "'increases efficiency by about three percent and available power by over 30 percent' vs Series 400.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Power increase vs Series 400",
+      "unit": "% (over)",
+      "basis": "As above.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Microgrid energy cost reduction",
+      "unit": "% (over, claimed)",
+      "basis": "'can cut energy costs by over 40 percent compared to a conventional system' for gas genset + PV + battery microgrid.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "value": 40
     }
   ],
   "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
@@ -50,6 +133,6 @@
       "source_id": "geg-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 9 new printed parameters."
 }

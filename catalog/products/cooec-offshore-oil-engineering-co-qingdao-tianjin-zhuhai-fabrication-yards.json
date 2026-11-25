@@ -47,6 +47,158 @@
         "source_id": "cnoocengineering-com-solutions-yards"
       },
       "value": 35000
+    },
+    {
+      "metric": "Qingdao yard area",
+      "unit": "m2",
+      "basis": "COOEC Yards page, Qingdao Yard: 'Yard area: 1,200,000 m2'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 1200000
+    },
+    {
+      "metric": "Qingdao wharf shoreline",
+      "unit": "m",
+      "basis": "COOEC: 'Wharf shoreline: 1645 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 1645
+    },
+    {
+      "metric": "Qingdao wharf water depth",
+      "unit": "m",
+      "basis": "COOEC: 'Wharf water depth: 10-12 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "low": 10,
+      "high": 12
+    },
+    {
+      "metric": "Qingdao dry dock",
+      "unit": "m",
+      "basis": "COOEC: 'Dry Dock: 420 m×110 m×13.9 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      }
+    },
+    {
+      "metric": "Qingdao annual production capacity",
+      "unit": "t/year",
+      "basis": "COOEC: 'The yard has 300,000 tons of annual production and 50,000 tons and 300,000 tons of single onshore and floating units construction capacities with up to 15,000 tons of large single structures onshore transportation ability.'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 300000
+    },
+    {
+      "metric": "Qingdao slideway capacity",
+      "unit": "T load bearing",
+      "basis": "COOEC: 'five slideways with 4,000-50,000 T load bearing capacity'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "low": 4000,
+      "high": 50000
+    },
+    {
+      "metric": "Qingdao cranes and SPMTs",
+      "unit": "text",
+      "basis": "COOEC: 'two 800 T gantry crane and one 600 T gantry crane; 24 sets of 70 to 750 T crawler cranes; 324-axis SPMTs with total capacity of 15,000 T'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      }
+    },
+    {
+      "metric": "Tianjin yard area",
+      "unit": "m2",
+      "basis": "COOEC Tianjin: 'Yard area: 575,000 m2'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 575000
+    },
+    {
+      "metric": "Tianjin wharf shoreline",
+      "unit": "m",
+      "basis": "COOEC Tianjin: 'Wharf shoreline: 1631 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 1631
+    },
+    {
+      "metric": "Tianjin wharf water depth",
+      "unit": "m",
+      "basis": "COOEC Tianjin: 'Wharf water depth: 12 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Tianjin annual production",
+      "unit": "t/year",
+      "basis": "COOEC: 'Tianjin Intelligent Manufacturing Base has 150,000 tons annual production'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 150000
+    },
+    {
+      "metric": "Tianjin equipment",
+      "unit": "text",
+      "basis": "COOEC: 'one 900 T gantry crane; two PPU 48-axis SPMTs; four 8.5 T forklifts; two 3.5 T forklifts powered by lithium batteries; two 2 T forklifts powered by lithium batteries two 60 T tractors'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      }
+    },
+    {
+      "metric": "Zhuhai yard area",
+      "unit": "m2",
+      "basis": "COOEC Zhuhai: 'Yard area: 2,072,000 m2'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 2072000
+    },
+    {
+      "metric": "Zhuhai wharf shoreline",
+      "unit": "m",
+      "basis": "COOEC Zhuhai: 'Wharf shoreline: 2149 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 2149
+    },
+    {
+      "metric": "Zhuhai wharf water depth",
+      "unit": "m",
+      "basis": "COOEC Zhuhai: 'Wharf water depth: 10-14 m'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "low": 10,
+      "high": 14
+    },
+    {
+      "metric": "Zhuhai annual production",
+      "unit": "t/year",
+      "basis": "COOEC: 'Zhuhai Yard has 250,000 tons annual production'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      },
+      "value": 250000
+    },
+    {
+      "metric": "Zhuhai slideways / equipment",
+      "unit": "text",
+      "basis": "COOEC: 'slideway 1# (35,000 T); slideway 3# (12,000 T)'; '120 sets of 5 to 150 T overhead cranes in workshops; 12 sets of 150 to 750 T crawler cranes; 108-axis SPMTs; one 380 T transport trailer; two 250 T flatcars'",
+      "source": {
+        "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
+      }
     }
   ],
   "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
@@ -55,6 +207,6 @@
       "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     }
   ],
-  "notes": "EPCI contractor controlled by CNOOC.",
-  "last_reviewed": "2026-11-24"
+  "notes": "EPCI contractor controlled by CNOOC. Full-parameter pass 2026-11-26: 17 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

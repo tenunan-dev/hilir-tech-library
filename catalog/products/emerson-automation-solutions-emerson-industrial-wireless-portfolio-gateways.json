@@ -88,6 +88,104 @@
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
       "value": "FM, CSA, ATEX, IECEx"
+    },
+    {
+      "metric": "Data reliability",
+      "unit": "%",
+      "basis": "'over 99% data reliability' (also for WirelessHART mesh)",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 99
+    },
+    {
+      "metric": "Products listed",
+      "unit": "products",
+      "basis": "'1-15 of 56 results for Products'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 56
+    },
+    {
+      "metric": "WirelessHART standard",
+      "unit": "n/a",
+      "basis": "'WirelessHART is the global industry standard (IEC 62591)'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      }
+    },
+    {
+      "metric": "Encryption",
+      "unit": "bit",
+      "basis": "'AES-128 encryption on every message'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 128
+    },
+    {
+      "metric": "Gateway remote antenna distance",
+      "unit": "ft",
+      "basis": "'supports remote antenna placement up to 1300 ft (400 m)'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 1300
+    },
+    {
+      "metric": "Gateway remote antenna distance",
+      "unit": "m",
+      "basis": "same parenthetical distance",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Host protocols",
+      "unit": "n/a",
+      "basis": "'HART-IP, OPC UA, and Modbus TCP'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      }
+    },
+    {
+      "metric": "Asset View inputs",
+      "unit": "inputs",
+      "basis": "'up to 10 inputs for better monitoring'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Installation cost saving",
+      "unit": "%",
+      "basis": "'Up to 60% lower installation costs vs. traditional wired instrumentation'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Payback period",
+      "unit": "'Most industrial wireless deployments deliver payback within 12 to 24 months'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 12,
+      "low": 24,
+      "high": "months"
+    },
+    {
+      "metric": "Certification areas",
+      "unit": "n/a",
+      "basis": "'FM, CSA, ATEX, and IECEx standards' for intrinsically safe / explosion-proof areas",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      }
     }
   ],
   "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
@@ -96,6 +194,6 @@
       "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     }
   ],
-  "notes": "Page read in full. Named gateways 1410S1/1410S2 and repeaters are product families; no electrical supply figures were printed on this catalogue page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read in full. Named gateways 1410S1/1410S2 and repeaters are product families; no electrical supply figures were printed on this catalogue page. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

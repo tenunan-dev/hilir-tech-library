@@ -175,6 +175,410 @@
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
       }
+    },
+    {
+      "metric": "Engine power range",
+      "unit": "'500 to 4500 Kilowatt (kW) engines' in patent title and claims",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 500,
+      "low": 4500,
+      "high": "kW"
+    },
+    {
+      "metric": "Subrange 1",
+      "unit": "'between about 500 kW and about 1000 kW (1 MW)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 500,
+      "low": 1000,
+      "high": "kW"
+    },
+    {
+      "metric": "Subrange 2",
+      "unit": "'from about 1000 kW (1 MW) to about 2000 kW (2 MW)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 1000,
+      "low": 2000,
+      "high": "kW"
+    },
+    {
+      "metric": "Subrange 3",
+      "unit": "'from about 2000 kW (2 MW) to about 4500 kW (4.5 MW)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 2000,
+      "low": 4500,
+      "high": "kW"
+    },
+    {
+      "metric": "NSR range",
+      "unit": "'the NSR can range from about 0.1 to about 2'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 0.1,
+      "low": 2,
+      "high": "ratio"
+    },
+    {
+      "metric": "Preferred NSR",
+      "unit": "'preferably is within the range from 0.6 to 1.2, inclusive'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 0.6,
+      "low": 1.2,
+      "high": "ratio"
+    },
+    {
+      "metric": "Urea concentration range",
+      "unit": "'concentration of urea in the aqueous solution can range from about 5 to 70%'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 5,
+      "low": 70,
+      "high": "%"
+    },
+    {
+      "metric": "Preferred urea concentration",
+      "unit": "'preferably from about 15 to about 60%'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 15,
+      "low": 60,
+      "high": "%"
+    },
+    {
+      "metric": "More preferred urea concentration",
+      "unit": "'more preferably from about 30 to about 40%'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 30,
+      "low": 40,
+      "high": "%"
+    },
+    {
+      "metric": "Urea decomposition temperature",
+      "unit": "degC",
+      "basis": "'an aqueous urea solution decomposes at temperatures above 140°C to form ammonia and isocyanic acid'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 140
+    },
+    {
+      "metric": "Catalyst cell density",
+      "unit": "'45 to 400 cells per square inch (cpsi), more preferable 70 to 300 cpsi and even more pref",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 45,
+      "low": 400,
+      "high": "cpsi"
+    },
+    {
+      "metric": "Preferred catalyst brick cross section",
+      "unit": "mm x mm",
+      "basis": "'a cross section of about 150 x 150 mm2'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 150
+    },
+    {
+      "metric": "Exhaust gas temperature minimum",
+      "unit": "degC",
+      "basis": "'the temperature of the combustion gases ... should be at least about 100 °C'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Typical exhaust gas temperature",
+      "unit": "'typically between about 180° and about 650 °C, and preferably above at least about 250 °C",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 180,
+      "low": 650,
+      "high": "degC"
+    },
+    {
+      "metric": "Test engine displacement",
+      "unit": "L",
+      "basis": "'Mercedes OM512 engine (16 L displacement) 430kW'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 16
+    },
+    {
+      "metric": "Test engine power",
+      "unit": "kW",
+      "basis": "same test-bench statement",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 430
+    },
+    {
+      "metric": "Test exhaust temperature",
+      "unit": "'The exhaust temperatures, post turbo, were from 430-510°C'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 430,
+      "low": 510,
+      "high": "degC"
+    },
+    {
+      "metric": "Test ANR values",
+      "unit": "'tested with ammonia:nitrogen oxide ratios (ANR) of 0.8, 0.9, 1.0 and 1.1'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 0.8,
+      "low": 1.1,
+      "high": "ratio"
+    },
+    {
+      "metric": "Test exhaust mass flow",
+      "unit": "kg/h",
+      "basis": "'with a mass flow of the exhaust of 1200 kg/h'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 1200
+    },
+    {
+      "metric": "Raw NOx concentration",
+      "unit": "ppm",
+      "basis": "'concentration of NOx raw was 1500 ppm'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Vaporization air pressure",
+      "unit": "bar",
+      "basis": "'used air at 4 bars and consumption of approximately 1 Nm3/h'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 4
+    },
+    {
+      "metric": "DNX catalyst",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "V/T/W SCR for high-efficiency NOx removal; sulfur resistant"
+    },
+    {
+      "metric": "DNU catalyst",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "CuSCR for NOx removal with lowest possible volume"
+    },
+    {
+      "metric": "DNO catalyst",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "Oxidation of VOC & CO; dual functionality oxidation and SCR; sulfur resistant"
+    },
+    {
+      "metric": "DNA catalyst",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "Ammonia slip catalyst for NH3 removal"
+    },
+    {
+      "metric": "DOC catalyst",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "Diesel oxidation catalyst for VOC oxidation"
+    },
+    {
+      "metric": "DOX catalyst",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "Oxidation of VOC & CO; Pt or Pt/Pd based formulations"
+    },
+    {
+      "metric": "Catalyst combination - backup/continuous diesel and gas engines",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "DNX + DNO for high NOx/NH3/VOC efficiency and endurance, high sulfur resistance"
+    },
+    {
+      "metric": "Catalyst combination - particles and NOx",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "cDPF + DNU for particles and NOx removal with low catalyst volume"
+    },
+    {
+      "metric": "Catalyst combination - ammonia engines",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "DNX + DNA + DNZ for combined NOx, NH3 and N2O abatement"
+    },
+    {
+      "metric": "Catalyst combination - methanol engines",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "DNX + DNO for NOx, methanol, formaldehyde and HCN abatement"
+    },
+    {
+      "metric": "Umicore - catalytic emission control experience",
+      "unit": "n/a",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure (umicore.com, jina published 02 Sep 2026, 2 pages); catalyst families and combinations",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      },
+      "value": "More than 40 years; over 10,000 industrial references"
+    },
+    {
+      "metric": "SCRT system functions",
+      "unit": "n/a",
+      "basis": "SCRT® System: Reduces NOx, PM, VOC, CO, and noise",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Reduces NOx, PM, VOC, CO, and noise"
+    },
+    {
+      "metric": "SCRT emission tier",
+      "unit": "n/a",
+      "basis": "Achieves Tier 4 or better",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Tier 4 or better"
+    },
+    {
+      "metric": "SCRT configuration",
+      "unit": "n/a",
+      "basis": "Single-box or modular configuration for any location",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Single-box or modular configuration for any location"
+    },
+    {
+      "metric": "SCR catalyst",
+      "unit": "n/a",
+      "basis": "SINOx® Extruded SCR Catalyst: Made entirely of catalytically active materials; Sulfur-tolerant, wide temperature window",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Made entirely of catalytically active materials; sulfur-tolerant, wide temperature window"
+    },
+    {
+      "metric": "Catalyst cell densities",
+      "unit": "n/a",
+      "basis": "Cell densities for range of fuels: Low cpsi for bio and waste gases; Medium cpsi for HFO; High cpsi for ULSD, natural gas",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Low cpsi for bio and waste gases; medium cpsi for HFO; high cpsi for ULSD, natural gas"
+    },
+    {
+      "metric": "ASC function",
+      "unit": "n/a",
+      "basis": "Ammonia Slip Catalyst (ASC): Converts NH3 slip to nitrogen; Delivers CO, VOC conversion",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Converts NH3 slip to nitrogen; delivers CO, VOC conversion"
+    },
+    {
+      "metric": "NOx permit example",
+      "unit": "g/bhp-hr",
+      "basis": "emissions are maintained within the permit limit of 0.06 g/bhp-hr",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": 0.06
+    },
+    {
+      "metric": "PA DEP limit",
+      "unit": "g/bhp-hr",
+      "basis": "a fraction of the PA DEP limit (0.50 g/bhp-hr)",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": 0.5
+    },
+    {
+      "metric": "Federal limit",
+      "unit": "g/bhp-hr",
+      "basis": "and the federal limit (1.0 g/bhp-hr)",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": 1.0
+    },
+    {
+      "metric": "CRT PM reduction",
+      "unit": "%",
+      "basis": "the CRT systems reduced PM by more than 85%, without plugging",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "high": 85
     }
   ],
   "vendor_models": [
@@ -287,5 +691,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

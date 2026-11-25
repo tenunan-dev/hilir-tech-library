@@ -28,6 +28,53 @@
         "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
       },
       "value": 50
+    },
+    {
+      "metric": "diameter_range",
+      "unit": "in",
+      "basis": "Diameter 6 to 24 inches, design pressure up to 50 bar",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms"
+      },
+      "low": 6,
+      "high": 24
+    },
+    {
+      "metric": "design_pressure",
+      "unit": "bar",
+      "basis": "design pressure up to 50 bar",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms"
+      },
+      "value": 50
+    },
+    {
+      "metric": "LNG_transfer_size_range",
+      "unit": "in",
+      "basis": "Small to large-scale LNG transfer from 6 to 20 inches",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms"
+      },
+      "low": 6,
+      "high": 20
+    },
+    {
+      "metric": "high_pressure_gas_classes",
+      "unit": "n/a",
+      "basis": "High-pressure gas transfer with in-house ERS and QC/DC design across ANSI 600 and ANSI 900 classes",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms"
+      },
+      "value": "ANSI 600 and ANSI 900 classes"
+    },
+    {
+      "metric": "rigid_LNG_line",
+      "unit": "n/a",
+      "basis": "Rigid transfer system for LNG transfer with high-flow performance and 20 inch full-bore product lines",
+      "source": {
+        "url": "https://flowtork.com/marine-loading-arms"
+      },
+      "value": "20 inch full-bore product lines"
     }
   ],
   "url": "https://flowtork.com/marine-loading-arms",
@@ -36,6 +83,6 @@
       "url": "https://flowtork.com/marine-loading-arms"
     }
   ],
-  "notes": "LNG 6-20 in; ATOL 20 in full bore; heat tracing/insulation/EasyDrive/automatic connection options.",
-  "last_reviewed": "2026-11-24"
+  "notes": "LNG 6-20 in; ATOL 20 in full bore; heat tracing/insulation/EasyDrive/automatic connection options. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

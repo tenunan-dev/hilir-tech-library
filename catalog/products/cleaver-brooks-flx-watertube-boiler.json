@@ -81,6 +81,90 @@
       },
       "unit": "passes",
       "value": 5
+    },
+    {
+      "metric": "FLX - input capacity",
+      "unit": "MBH",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "low": 1500,
+      "high": 25000
+    },
+    {
+      "metric": "FLX - boiler horsepower",
+      "unit": "BHP",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "low": 36,
+      "high": 600
+    },
+    {
+      "metric": "FLX - design pressure",
+      "unit": "psig",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "low": 15,
+      "high": 250
+    },
+    {
+      "metric": "FLX - thermal efficiency",
+      "unit": "% (steam); 85% (hot water), up to",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": 81
+    },
+    {
+      "metric": "FLX - number of passes",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": 5
+    },
+    {
+      "metric": "FLX - NOx emissions options",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": "Standard, <30, <20, <9 ppm"
+    },
+    {
+      "metric": "FLX - turndown",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": "Up to 15:1 (standard emissions); 10:1 (controlled emissions)"
+    },
+    {
+      "metric": "FLX - steam or hot water",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": "Both"
+    },
+    {
+      "metric": "FLX - fuels",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": "Natural Gas, #2 Light Oil, Propane, Digester Gas, Combination Firing"
     }
   ],
   "url": "https://cleaverbrooks.com/product/flx",
@@ -89,6 +173,6 @@
       "url": "https://cleaverbrooks.com/product/flx"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

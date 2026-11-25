@@ -17,6 +17,51 @@
         "source_id": "ureaknowhow-com-stamicarbon"
       },
       "value": "technology used in half of the world's urea plants"
+    },
+    {
+      "metric": "Nitric acid mono-pressure capacity",
+      "unit": "MTPD",
+      "basis": "mono- and dual-pressure nitric acid production processes for a wide range of plant capacities up to 600 MTPD (mono-pressure)",
+      "source": {
+        "url": "https://ureaknowhow.com/stamicarbon/"
+      },
+      "high": 600
+    },
+    {
+      "metric": "Nitric acid dual-pressure capacity",
+      "unit": "MTPD",
+      "basis": "or 2000 MTPD and above (dual-pressure)",
+      "source": {
+        "url": "https://ureaknowhow.com/stamicarbon/"
+      },
+      "low": 2000
+    },
+    {
+      "metric": "Market position",
+      "unit": "n/a",
+      "basis": "our knowledge and technology are already being used in half of the world's urea plants",
+      "source": {
+        "url": "https://ureaknowhow.com/stamicarbon/"
+      },
+      "value": "technology used in half of the world's urea plants"
+    },
+    {
+      "metric": "Product lines",
+      "unit": "n/a",
+      "basis": "Sections of the solution-provider page",
+      "source": {
+        "url": "https://ureaknowhow.com/stamicarbon/"
+      },
+      "value": "STAMI UREA; STAMI DIGITAL; STAMI GREEN AMMONIA; STAMI NITRIC ACID; STAMI SPECIALTIES"
+    },
+    {
+      "metric": "Solution provider since",
+      "unit": "year",
+      "basis": "Solution Provider since 2014",
+      "source": {
+        "url": "https://ureaknowhow.com/stamicarbon/"
+      },
+      "value": 2014
     }
   ],
   "url": "https://ureaknowhow.com/stamicarbon/",
@@ -25,6 +70,6 @@
       "url": "https://ureaknowhow.com/stamicarbon/"
     }
   ],
-  "notes": "Own site blocked by CAPTCHA; profile page is the evidence source.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Own site blocked by CAPTCHA; profile page is the evidence source. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -112,6 +112,118 @@
         "source_id": "jenbacher-com-containerized-solutions"
       },
       "value": "-25 to +34 / -25 to +40"
+    },
+    {
+      "metric": "Containerized Type 2/3/4 power range",
+      "unit": "kW",
+      "basis": "'Containerized solutions for Type 2, 3 and 4 (249 - 1562 kW)'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "249 - 1562",
+      "low": 249,
+      "high": 1562
+    },
+    {
+      "metric": "Containerized Type 6 power range",
+      "unit": "kW",
+      "basis": "'Containerized solutions for Type 6 (1634 - 4507 kW)'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "1634 - 4507",
+      "low": 1634,
+      "high": 4507
+    },
+    {
+      "metric": "Type 2/3/4 container length",
+      "unit": "mm",
+      "basis": "Container dimension table, Type 2 and 3 / Type 2,3,4 / Type 4 columns all '12,192 mm 40 ft'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "12,192 mm (40 ft)"
+    },
+    {
+      "metric": "Type 2/3/4 container width",
+      "unit": "mm",
+      "basis": "Container dimension table: Type 2 and 3 '2,438 mm 8 ft'; Type 2,3,4 and Type 4 '~3,000 mm 10 ft'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "2,438 mm (8 ft) / ~3,000 mm (10 ft)"
+    },
+    {
+      "metric": "Type 2/3/4 container height",
+      "unit": "mm",
+      "basis": "Container dimension table, three columns as printed.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "2,591 mm (8 ft 6 in) / 2,591-2,700 mm / 2,896 mm (9 ft 6 in)"
+    },
+    {
+      "metric": "Type 2/3/4 sound attenuation",
+      "unit": "dB(A) in 10 m",
+      "basis": "'designed to meet 65 dB(A) in 10m (surface sound pressure level according to DIN 45635). Lower sound pressure levels are available on request.'",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": 65
+    },
+    {
+      "metric": "Type 2/3/4 ambient temperature",
+      "unit": "deg C",
+      "basis": "'The standard ventilation is designed for ambient temperatures from -25C to +34C. All genset containers are also available with an option for -40C and most variants can be upgraded for +45C.'",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "-25 C to +34 C; option -40 C and +45 C"
+    },
+    {
+      "metric": "Type 6 single-bank container dimensions",
+      "unit": "mm",
+      "basis": "Type 6 dimension table, Single Bank (J612-GS, J616-GS, J620-GS, power generation): as printed; '*Main unit dimensions without roof-mounted equipment'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "13,500-20,500 mm (~44-67 ft) L x 3,000-4,000 mm (~10-13 ft) W x ~7,500 mm (~25 ft) H"
+    },
+    {
+      "metric": "Type 6 multi-bank container dimensions",
+      "unit": "mm",
+      "basis": "Type 6 dimension table, Multi Bank (J624-GS and heat & power variants): as printed.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "12,000-19,500 mm (~41-64 ft) L x 6,000 mm (~20 ft) W x ~7,500 mm (~25 ft) H"
+    },
+    {
+      "metric": "Type 6 sound attenuation options",
+      "unit": "dB(A) in 10 m",
+      "basis": "'available for 65, 70, 75 and 80 dB(A) in 10m (surface sound pressure level according to DIN 45635).'",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "65, 70, 75 and 80"
+    },
+    {
+      "metric": "Type 6 ambient temperature",
+      "unit": "deg C",
+      "basis": "'The standard ventilation is designed for ambient temperatures from -25C to +40C.'",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "-25 C to +40 C"
+    },
+    {
+      "metric": "Hydrogen container",
+      "unit": "n/a",
+      "basis": "'Tour of our 100% hydrogen Jenbacher container ... designed for 100% hydrogen operation.'",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
+      },
+      "value": "100% hydrogen Jenbacher containerized energy system"
     }
   ],
   "vendors": [
@@ -147,5 +259,5 @@
     }
   ],
   "notes": "Merged from 2 page-read component studies in the 2026-11-24 gas-engine/data-centre sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

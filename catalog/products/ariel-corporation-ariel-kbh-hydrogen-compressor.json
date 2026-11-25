@@ -47,14 +47,110 @@
         "source_id": "cat-arielcorp-com-kbh-html"
       },
       "value": 4
+    },
+    {
+      "metric": "Suction pressure",
+      "unit": "bar / psig",
+      "basis": "Suction Pressure: 370 psig (25 bar)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 25,
+      "low": 370
+    },
+    {
+      "metric": "Discharge pressure",
+      "unit": "bar / psig",
+      "basis": "Discharge Pressure: 7,250 psig (500 bar)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 500,
+      "low": 7250
+    },
+    {
+      "metric": "Flow at design point",
+      "unit": "kg/hr",
+      "basis": "Flow at design point: 250 kg/hr",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Number of stages",
+      "unit": "n/a",
+      "basis": "Number of Stages: 4",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Stroke",
+      "unit": "in",
+      "basis": "Stroke: 4.25 in (108 mm)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 4.25
+    },
+    {
+      "metric": "Stroke (metric)",
+      "unit": "mm",
+      "basis": "Stroke: 4.25 in (108 mm)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 108
+    },
+    {
+      "metric": "Max RPM",
+      "unit": "rpm",
+      "basis": "Max RPM: 1,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Lubrication",
+      "unit": "n/a",
+      "basis": "The compressor is designed to be non-lubricated to maintain high gas purity",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": "Non-lubricated Cylinders"
+    },
+    {
+      "metric": "Orientation",
+      "unit": "n/a",
+      "basis": "vertically oriented reciprocating compressor designed for the hydrogen mobility market",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": "Vertical Orientation"
+    },
+    {
+      "metric": "Discharge pressure (product sheet)",
+      "unit": "barg",
+      "basis": "7,250 psig (500 barg) for trailer filling, hydrogen mobility, and other ...",
+      "source": {
+        "url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/KBH_Product_Sheet_09.28.pdf.coredownload.pdf",
+        "source_id": "catpar-arielcorp-com-kbh-product-sheet-09-28-pdf-co-85b58ba"
+      },
+      "value": 500
     }
   ],
   "url": "https://www.arielcorp.com/compressors/kbh.html",
   "sources": [
     {
       "url": "https://www.arielcorp.com/compressors/kbh.html"
+    },
+    {
+      "url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/KBH_Product_Sheet_09.28.pdf.coredownload.pdf"
     }
   ],
-  "notes": "Non-lubricated, vertical",
-  "last_reviewed": "2026-11-24"
+  "notes": "Non-lubricated, vertical Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

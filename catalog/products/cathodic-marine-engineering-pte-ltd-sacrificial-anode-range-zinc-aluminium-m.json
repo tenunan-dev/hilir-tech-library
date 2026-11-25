@@ -40,6 +40,159 @@
       },
       "low": 18,
       "high": 28
+    },
+    {
+      "metric": "Zinc anode composition",
+      "unit": "n/a",
+      "basis": "Composition: 99.9% High-purity zinc",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "value": "99.9% High-purity zinc"
+    },
+    {
+      "metric": "Zinc anode standard",
+      "unit": "n/a",
+      "basis": "Purity: ASTM B-6 compliance",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "value": "ASTM B-6"
+    },
+    {
+      "metric": "Zinc anode weight range",
+      "unit": "kg",
+      "basis": "Weight range: 5 kg to 500 kg",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "low": 5,
+      "high": 500
+    },
+    {
+      "metric": "Zinc anode current capacity",
+      "unit": "A/m2",
+      "basis": "Current capacity: 25-30 A/m²",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "low": 25,
+      "high": 30
+    },
+    {
+      "metric": "Zinc anode design life",
+      "unit": "years",
+      "basis": "Design life: 15-25 years in seawater",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "low": 15,
+      "high": 25
+    },
+    {
+      "metric": "Aluminium anode composition",
+      "unit": "n/a",
+      "basis": "Composition: Aluminum-Zinc-Indium alloy",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "value": "Aluminum-Zinc-Indium alloy"
+    },
+    {
+      "metric": "Aluminium anode standard",
+      "unit": "n/a",
+      "basis": "Purity: ASTM B-521 compliance",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "value": "ASTM B-521"
+    },
+    {
+      "metric": "Aluminium anode weight range",
+      "unit": "kg",
+      "basis": "Weight range: 3 kg to 300 kg",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "low": 3,
+      "high": 300
+    },
+    {
+      "metric": "Aluminium anode current capacity",
+      "unit": "A/m2",
+      "basis": "Current capacity: 30-40 A/m²",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "low": 30,
+      "high": 40
+    },
+    {
+      "metric": "Aluminium anode design life",
+      "unit": "years",
+      "basis": "Design life: 18-28 years in seawater",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "low": 18,
+      "high": 28
+    },
+    {
+      "metric": "Magnesium anode standard",
+      "unit": "n/a",
+      "basis": "Purity: ASTM B-843 compliance",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "value": "ASTM B-843"
+    },
+    {
+      "metric": "Magnesium anode weight range",
+      "unit": "kg",
+      "basis": "Weight range: 2 kg to 100 kg",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "low": 2,
+      "high": 100
+    },
+    {
+      "metric": "Magnesium anode current capacity",
+      "unit": "A/m2",
+      "basis": "Current capacity: 35-45 A/m²",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "low": 35,
+      "high": 45
+    },
+    {
+      "metric": "Magnesium anode design life",
+      "unit": "years",
+      "basis": "Design life: 12-20 years (freshwater preferred)",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "low": 12,
+      "high": 20
+    },
+    {
+      "metric": "Quality system",
+      "unit": "n/a",
+      "basis": "30+ Years Experience | ISO 9001:2008 Certified",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "value": "ISO 9001:2008 Certified"
+    },
+    {
+      "metric": "Classification approvals",
+      "unit": "n/a",
+      "basis": "DNV, ABS, Lloyd's, Bureau Veritas, ClassNK certified",
+      "source": {
+        "url": "https://cathodicme.com/services/sacrificial-anodes-system"
+      },
+      "value": "DNV, ABS, Lloyd's, Bureau Veritas, ClassNK"
     }
   ],
   "url": "https://cathodicme.com/services/sacrificial-anodes-system",
@@ -48,6 +201,6 @@
       "url": "https://cathodicme.com/services/sacrificial-anodes-system"
     }
   ],
-  "notes": "ASTM B-6 / B-521 / B-843; supplier-stated class approvals.",
-  "last_reviewed": "2026-11-24"
+  "notes": "ASTM B-6 / B-521 / B-843; supplier-stated class approvals. Full-parameter pass 2026-11-26: 16 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

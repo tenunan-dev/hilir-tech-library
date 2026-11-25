@@ -50,6 +50,96 @@
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "geg-matthey-com-nox-control-systems-af80333"
       }
+    },
+    {
+      "metric": "SCRT system functions",
+      "unit": "n/a",
+      "basis": "SCRT® System: Reduces NOx, PM, VOC, CO, and noise",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Reduces NOx, PM, VOC, CO, and noise"
+    },
+    {
+      "metric": "SCRT emission tier",
+      "unit": "n/a",
+      "basis": "Achieves Tier 4 or better",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Tier 4 or better"
+    },
+    {
+      "metric": "SCRT configuration",
+      "unit": "n/a",
+      "basis": "Single-box or modular configuration for any location",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Single-box or modular configuration for any location"
+    },
+    {
+      "metric": "SCR catalyst",
+      "unit": "n/a",
+      "basis": "SINOx® Extruded SCR Catalyst: Made entirely of catalytically active materials; Sulfur-tolerant, wide temperature window",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Made entirely of catalytically active materials; sulfur-tolerant, wide temperature window"
+    },
+    {
+      "metric": "Catalyst cell densities",
+      "unit": "n/a",
+      "basis": "Cell densities for range of fuels: Low cpsi for bio and waste gases; Medium cpsi for HFO; High cpsi for ULSD, natural gas",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Low cpsi for bio and waste gases; medium cpsi for HFO; high cpsi for ULSD, natural gas"
+    },
+    {
+      "metric": "ASC function",
+      "unit": "n/a",
+      "basis": "Ammonia Slip Catalyst (ASC): Converts NH3 slip to nitrogen; Delivers CO, VOC conversion",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": "Converts NH3 slip to nitrogen; delivers CO, VOC conversion"
+    },
+    {
+      "metric": "NOx permit example",
+      "unit": "g/bhp-hr",
+      "basis": "emissions are maintained within the permit limit of 0.06 g/bhp-hr",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": 0.06
+    },
+    {
+      "metric": "PA DEP limit",
+      "unit": "g/bhp-hr",
+      "basis": "a fraction of the PA DEP limit (0.50 g/bhp-hr)",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": 0.5
+    },
+    {
+      "metric": "Federal limit",
+      "unit": "g/bhp-hr",
+      "basis": "and the federal limit (1.0 g/bhp-hr)",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "value": 1.0
+    },
+    {
+      "metric": "CRT PM reduction",
+      "unit": "%",
+      "basis": "the CRT systems reduced PM by more than 85%, without plugging",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "high": 85
     }
   ],
   "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
@@ -59,6 +149,6 @@
       "source_id": "geg-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 10 new printed parameters."
 }

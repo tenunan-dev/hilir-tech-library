@@ -27,6 +27,42 @@
         "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
       },
       "value": 4
+    },
+    {
+      "metric": "Ammonia flare tip - upper tip length",
+      "unit": "ft (upper 10 ft of flare system commonly referred to as the flare tip)",
+      "basis": "Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Ammonia flare - exit velocity criterion",
+      "unit": "n/a",
+      "basis": "Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
+      },
+      "value": "Restrict exit velocity of waste gas to ensure adequate residence time for high destruction efficiency; maximum design exit velocity depends on flare tip diameter"
+    },
+    {
+      "metric": "Ammonia flare tip - flow distribution",
+      "unit": "n/a",
+      "basis": "Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
+      },
+      "value": "Include flow distribution devices to disperse waste gas, expose stream to ignition sources and increase access to combustion air"
+    },
+    {
+      "metric": "Ammonia combustion - challenges",
+      "unit": "n/a",
+      "basis": "Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
+      },
+      "value": "Low flame propagation speed, low heating value and low flame temperatures; nitrogen is chemically inactive"
     }
   ],
   "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
@@ -35,6 +71,6 @@
       "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     }
   ],
-  "notes": "No numeric tip diameter or exit velocity published.",
-  "last_reviewed": "2026-11-24"
+  "notes": "No numeric tip diameter or exit velocity published. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

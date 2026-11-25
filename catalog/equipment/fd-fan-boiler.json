@@ -83,6 +83,135 @@
       },
       "unit": "design feature",
       "value": "Easy access air housing for internal components"
+    },
+    {
+      "metric": "NOx emissions",
+      "unit": "ppm (less than, without FGR)",
+      "basis": "\"Available to <30 ppm NOx without FGR\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Excess oxygen",
+      "unit": "% O2 (approx)",
+      "basis": "\"~3% O2 across a wide load range\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Turndown ratio",
+      "unit": "ratio (up to, gas)",
+      "basis": "\"Up to 10:1 turndown ratio when firing gas\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Natural gas input",
+      "unit": "MMBTU/hr",
+      "basis": "\"natural gas fuel option from 16.8 to 54.6 MMBTU/hr\"; attribute \"Input Capacity 16,800 - 54,600\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "low": 16.8,
+      "high": 54.6
+    },
+    {
+      "metric": "Boiler horsepower range",
+      "unit": "HP",
+      "basis": "Attribute table: \"Boiler Horsepower 400 - 1,300\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "low": 400,
+      "high": 1300
+    },
+    {
+      "metric": "Furnace pressure",
+      "unit": "(unit not stated in table)",
+      "basis": "Attribute table: \"Furnace Pressure 3.6 - 5.6\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "low": 3.6,
+      "high": 5.6
+    },
+    {
+      "metric": "Minimum gas pressure",
+      "unit": "(unit not stated in table)",
+      "basis": "Attribute table: \"Min Gas Pressure 5\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Oil input",
+      "unit": "US GPH",
+      "basis": "Attribute table: \"Oil Input (US GPH) 120 - 390\"; \"Can fire #2 fuel oil as back up fuel\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      },
+      "low": 120,
+      "high": 390
+    },
+    {
+      "metric": "Mode of operation",
+      "unit": "n/a",
+      "basis": "Attribute table: \"Mode of Operation Full Modulation\"; \"Parallel Positioning Standard\"",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/sbr30-burner"
+      }
+    },
+    {
+      "metric": "NOx without FGR",
+      "unit": "ppm (less than)",
+      "basis": "\"Standard configuration offers less than 30ppm NOx without external flue gas recirculation (FGR)\"",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": 30
+    },
+    {
+      "metric": "NOx with FGR",
+      "unit": "ppm (less than, with less than 20% FGR)",
+      "basis": "\"Capable of less than 9ppm NOx with less than 20% FGR\"",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": 9
+    },
+    {
+      "metric": "Turndown",
+      "unit": "ratio (10:1 or greater)",
+      "basis": "\"turndown capabilities of 10:1 or greater\"; \"10:1 turndown with constant 3-4% O2 levels throughout the firing rate\"",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Combustion air fan design",
+      "unit": "n/a",
+      "basis": "\"High efficiency backward curve blade design\"; \"Hinged blower housing design for ease of use and service\"; \"Each burner system comes complete with automatic flame monitoring and shut-off, rotary air dampers for precise low torque air control, and a combustion air fan\"",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "O2 level across firing range",
+      "unit": "%",
+      "basis": "\"10:1 turndown with constant 3-4% O2 levels throughout the firing rate\"",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "low": 3,
+      "high": 4
     }
   ],
   "vendors": [
@@ -94,7 +223,7 @@
       "source_id": "halgo-fd-fans"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

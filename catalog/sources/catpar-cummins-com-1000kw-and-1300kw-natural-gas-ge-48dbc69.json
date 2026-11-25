@@ -1,0 +1,25 @@
+{
+  "id": "catpar-cummins-com-1000kw-and-1300kw-natural-gas-ge-48dbc69",
+  "name": "cummins.com",
+  "url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Cummins.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. 1000 kW and 1300 kW Natural Gas Gensets: Standby 1000-1300 kW / 1250-1625 kVA; Continuous 1100-1540 kW / 1375-1925 kVA; 50/60 Hz."
+}

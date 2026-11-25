@@ -17,6 +17,69 @@
         "source_id": "cat-slb-com-3-phase-separator"
       },
       "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments"
+    },
+    {
+      "metric": "Function",
+      "unit": "n/a",
+      "basis": "Separate well effluent into three phases—oil, gas, and water—for well testing",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "Separates well effluent into three phases—oil, gas, and water—for well testing"
+    },
+    {
+      "metric": "Vessel type",
+      "unit": "n/a",
+      "basis": "The 3-phase separator is an instrumented vessel that separates well effluent into three phases",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "instrumented vessel"
+    },
+    {
+      "metric": "Development application",
+      "unit": "n/a",
+      "basis": "It was developed for land fracturing flowback and well test operations",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "land fracturing flowback and well test operations"
+    },
+    {
+      "metric": "Design code",
+      "unit": "n/a",
+      "basis": "built in compliance with ASME Section VIII, Division 1 and NACE MR0175 for H2S environments",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "ASME Section VIII, Division 1"
+    },
+    {
+      "metric": "Sour service",
+      "unit": "n/a",
+      "basis": "NACE MR0175 for H2S environments",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "NACE MR0175 for H2S environments"
+    },
+    {
+      "metric": "Safety",
+      "unit": "n/a",
+      "basis": "Multiple pressure safety valves contain and direct flow to a designed safe area in the event of vessel overpressurization",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "Multiple pressure safety valves contain and direct flow to a designed safe area on overpressurization"
+    },
+    {
+      "metric": "Bypass valves",
+      "unit": "n/a",
+      "basis": "Bypass valves, a unique offering from M-I SWACO in a three-phase separator unit, enable operators to move effluent into containment areas for maintenance without shutting in the well",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
+      },
+      "value": "unique offering from M-I SWACO in a three-phase separator unit"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",
@@ -25,6 +88,6 @@
       "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     }
   ],
-  "notes": "No numeric pressure, flow or size rating is printed on this page. Page states instrumented vessel separating well effluent into three phases; multiple pressure safety valves and bypass valves for maintenance without shutting in the well. A brochure PDF is linked but not fetched.",
-  "last_reviewed": "2026-11-24"
+  "notes": "No numeric pressure, flow or size rating is printed on this page. Page states instrumented vessel separating well effluent into three phases; multiple pressure safety valves and bypass valves for maintenance without shutting in the well. A brochure PDF is linked but not fetched. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

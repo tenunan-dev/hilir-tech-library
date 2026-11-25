@@ -17,6 +17,87 @@
       },
       "unit": "deg F (up to)",
       "value": 1050
+    },
+    {
+      "metric": "Exhaust gas flow",
+      "unit": "lb/hr (up to)",
+      "basis": "Cleaver-Brooks Max-Fire page: 'Gas flows up to 1,000,000 lb/hr' / 'Exhaust Gas Flows (lb/hr) Up to 1,000,000'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 1000000
+    },
+    {
+      "metric": "Steam generation",
+      "unit": "lb/hr",
+      "basis": "'Steam Generation from 10,000 to 500,000 lb/hr' / 'Steam Flows Up to 500,000'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "low": 10000,
+      "high": 500000
+    },
+    {
+      "metric": "Design pressure",
+      "unit": "psig (up to)",
+      "basis": "'Design pressure up to 1,800 psig'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "Steam temperature",
+      "unit": "deg F (up to)",
+      "basis": "'Steam temperature to 1,050 °F' / 'Steam Temperature Up to 1,050 deg F'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 1050
+    },
+    {
+      "metric": "Duct firing temperature",
+      "unit": "deg F (up to)",
+      "basis": "'fired up to 2800°F while avoiding the use of high-maintenance refractory' / 'Duct Firing Temperature Up to 2,800 deg F'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 2800
+    },
+    {
+      "metric": "Matched gas turbine size",
+      "unit": "MW",
+      "basis": "Attributes table: 'Gas Turbine Size 3 MW - 25 MW'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "low": 3,
+      "high": 25
+    },
+    {
+      "metric": "NOx with SCR",
+      "unit": "ppm (less than)",
+      "basis": "'Supplemental firing with stack emissions available to less than 2 ppm NOx with SCR'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Efficiency / CO2 reduction claims",
+      "unit": "text",
+      "basis": "'The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies. It reduces up to 7.0 MMBtu/hr of fuel in conventional boilers and eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output.'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      }
+    },
+    {
+      "metric": "Models / circulation / construction",
+      "unit": "text",
+      "basis": "'MF (O-style) and MFA (A-style)' with integral furnace; 'VL (O-style) and VLA (A-style)' evaporator without furnace; 'Natural Circulation'; 'Membrane Wall Construction'; 'Completely shop-assembled boiler'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/max-fire-series"
+      }
     }
   ],
   "url": "https://cleaverbrooks.com/product/max-fire-series",
@@ -25,6 +106,6 @@
       "url": "https://cleaverbrooks.com/product/max-fire-series"
     }
   ],
-  "notes": "Fetched Max-Fire product page directly with WebFetch (markdown). Superheater is listed as an applicable HRSG component, not a standalone product.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Max-Fire product page directly with WebFetch (markdown). Superheater is listed as an applicable HRSG component, not a standalone product. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

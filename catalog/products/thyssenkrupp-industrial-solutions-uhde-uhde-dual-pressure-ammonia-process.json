@@ -68,6 +68,106 @@
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
       "value": 85
+    },
+    {
+      "metric": "Plant capacity",
+      "unit": "Tagestonnen (tonnes/day)",
+      "basis": "Dieses neue Verfahren ... liefert eine Kapazität von 3.300 Tagestonnen",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": 3300
+    },
+    {
+      "metric": "Future plant capacities",
+      "unit": "Tagestonnen",
+      "basis": "Es bildet auch die Grundlage für noch größere Anlagen (z. B. 4.000 bis 5.000 Tagestonnen)",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "low": 4000,
+      "high": 5000
+    },
+    {
+      "metric": "First plant",
+      "unit": "n/a",
+      "basis": "Die erste auf diesem Verfahren basierende Anlage ist die SAFCO IV Ammoniakanlage in Al-Jubail, Saudi-Arabien, die 2006 in Betrieb gegangen ist",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": "SAFCO IV, Al-Jubail, Saudi-Arabien, in operation 2006"
+    },
+    {
+      "metric": "LP compressor suction pressure",
+      "unit": "bar (ca.)",
+      "basis": "Der Druck am Ansaugflansch des Kompressors beträgt ca. 110 bar",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": 110
+    },
+    {
+      "metric": "HP synthesis loop pressure",
+      "unit": "bar (up to)",
+      "basis": "auf den Betriebsdruck des Ammoniaksynthesekreislaufs (bis zu 210 bar)",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": 210
+    },
+    {
+      "metric": "Once-through converter share",
+      "unit": "n/a",
+      "basis": "der zwischengekühlte Einmal-Konverter mit drei Katalysatorbetten ungefähr ein Drittel des gesamten Ammoniakausstoßes",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": "about one third of total ammonia output"
+    },
+    {
+      "metric": "Ammonia condensed after once-through",
+      "unit": "%",
+      "basis": "wobei 85 % des hergestellten Ammoniaks als Flüssigkeit vom Gas getrennt wird",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": 85
+    },
+    {
+      "metric": "Once-through converter catalyst beds",
+      "unit": "n/a",
+      "basis": "der zwischengekühlte Einmal-Konverter mit drei Katalysatorbetten",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": 3
+    },
+    {
+      "metric": "HP loop share",
+      "unit": "n/a",
+      "basis": "Bei diesem herkömmlichen Ammoniaksynthese-Kreislauf werden die verbleibenden zwei Drittel des Gesamtammoniaks produziert",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": "remaining two thirds of total ammonia"
+    },
+    {
+      "metric": "Compressor size comparison",
+      "unit": "n/a",
+      "basis": "Der Synthesegaskompressor einer Zweidruckanlage mit 3.300 Tagestonnen hat dieselbe Größe wie in herkömmlichen Ammoniakanlagen für 2.200 Tagestonnen",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": "same size as conventional plant for 2,200 tonnes/day"
+    },
+    {
+      "metric": "Catalyst",
+      "unit": "n/a",
+      "basis": "Bewährte Katalysatoren auf Magnetit-Basis in allen Phasen des neuen Prozesses",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": "proven magnetite-based catalysts in all phases"
     }
   ],
   "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
@@ -76,6 +176,6 @@
       "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     }
   ],
-  "notes": "Reference: SAFCO IV, Al-Jubail, 2006. Magnetite-based catalysts co-developed with Johnson Matthey.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Reference: SAFCO IV, Al-Jubail, 2006. Magnetite-based catalysts co-developed with Johnson Matthey. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -146,6 +146,31 @@
       },
       "unit": "process",
       "value": "Safe, proven, economical flash purification process for blowdown effectiveness and disposal"
+    },
+    {
+      "metric": "Model designations",
+      "unit": "n/a",
+      "basis": "'Cleaver-Brooks model BDS blowdown separators and model BDT tanks'",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
+      }
+    },
+    {
+      "metric": "Process",
+      "unit": "n/a",
+      "basis": "'use a safe, proven, economical flash purification process for facilitating blowdown effectiveness and disposal'",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
+      }
+    },
+    {
+      "metric": "Catalog items found",
+      "unit": "items",
+      "basis": "'3 Items Found': Blowdown Heat Recovery; Blowdown Systems; Flash Tank Heat Recovery",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
+      },
+      "value": 3
     }
   ],
   "vendors": [
@@ -166,7 +191,7 @@
       "source_id": "etb-boiler-blowdown"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

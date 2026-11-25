@@ -27,6 +27,70 @@
         "source_id": "cs-nri-com-resources-frequently-asked-questions"
       },
       "value": 14.6
+    },
+    {
+      "metric": "Product system type",
+      "unit": "n/a",
+      "basis": "The Tyfo SCH Systems are unidirectional CFRP and the Tyfo SEH Systems are unidirectional GFRP",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
+      },
+      "value": "Tyfo SCH Systems are unidirectional CFRP"
+    },
+    {
+      "metric": "Design life",
+      "unit": "years",
+      "basis": "This is typically assumed to be 50 to100 years, as is typical for other building materials such as steel and concrete",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
+      },
+      "low": 50,
+      "high": 100
+    },
+    {
+      "metric": "In-service since",
+      "unit": "year",
+      "basis": "Tyfo FRP composites have been in service since 1991",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
+      },
+      "value": 1991
+    },
+    {
+      "metric": "Design approach",
+      "unit": "n/a",
+      "basis": "FRP materials are linear-elastic tension members and we do not use the ultimate tension \"strength\" in design",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
+      },
+      "value": "linear-elastic tension members; ultimate tension 'strength' not used in design"
+    },
+    {
+      "metric": "Strengthenable elements",
+      "unit": "n/a",
+      "basis": "What structural elements can be strengthened with FRP?",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
+      },
+      "value": "concrete columns, beams, walls and slabs, masonry walls, some wood and steel elements; pipes, silos, tanks, piers/waterfront structures"
+    },
+    {
+      "metric": "Fire rating",
+      "unit": "n/a",
+      "basis": "Tyfo FRP products do not reduce the existing fire-rating ... may require a Class 1/Class A flame and smoke rating as per ASTM E84",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
+      },
+      "value": "do not reduce existing fire-rating; Class 1/Class A flame and smoke rating per ASTM E84 may be required"
+    },
+    {
+      "metric": "Anchor type",
+      "unit": "n/a",
+      "basis": "What is an FRP anchor?",
+      "source": {
+        "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
+      },
+      "value": "embedded Tyfo SCH anchor saturated with Tyfo S epoxy; splice/through anchors"
     }
   ],
   "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
@@ -35,6 +99,13 @@
       "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     }
   ],
-  "notes": "Page read FAQ; strengths from search-verified selector PDF",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read FAQ; strengths from search-verified selector PDF Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "SCH-41 specific mechanical properties (tensile strength, modulus, thickness)",
+      "why": "FAQ describes the Tyfo SCH family only; no SCH-41 numeric properties printed",
+      "next_action": "Fetch the Tyfo SCH-41 product data sheet / brochure from Henkel or CS-NRI"
+    }
+  ]
 }

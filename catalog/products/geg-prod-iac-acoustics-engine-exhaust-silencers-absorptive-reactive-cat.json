@@ -65,6 +65,91 @@
         "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
         "source_id": "geg-iacacoustics-global-021ca23"
       }
+    },
+    {
+      "metric": "Absorptive silencer attenuation",
+      "unit": "dB(A)",
+      "basis": "Absorptive silencer: 15dB(A) to 25dB(A)",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "low": 15,
+      "high": 25
+    },
+    {
+      "metric": "Reactive silencer attenuation",
+      "unit": "dB(A)",
+      "basis": "Reactive silencer: 30dB(A) to 50dB(A)",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "low": 30,
+      "high": 50
+    },
+    {
+      "metric": "Performance range",
+      "unit": "dB(A)",
+      "basis": "Performance range 10-50 dB(A)",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "low": 10,
+      "high": 50
+    },
+    {
+      "metric": "Single-unit noise reduction",
+      "unit": "dB(A)",
+      "basis": "offer a noise reduction of 15dB(A) to 50dB(A) using single units",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "low": 15,
+      "high": 50
+    },
+    {
+      "metric": "Working temperature",
+      "unit": "degC",
+      "basis": "products have a working temperature range of up to 450°c",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "high": 450
+    },
+    {
+      "metric": "Pressure level",
+      "unit": "Pa",
+      "basis": "and approximately 5000Pa pressure level",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "high": 5000
+    },
+    {
+      "metric": "Silencer shapes",
+      "unit": "n/a",
+      "basis": "Cylindrical, box and other shapes available; Circular, rectangular, or oval design",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "value": "Cylindrical, box and other shapes available; circular, rectangular, or oval design"
+    },
+    {
+      "metric": "Materials",
+      "unit": "n/a",
+      "basis": "Silencer components are generally constructed from carbon steel ... Materials such as stainless steel and corten steel can be specified",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "value": "carbon steel; stainless steel and corten steel available"
+    },
+    {
+      "metric": "Catalyst/SCR option",
+      "unit": "n/a",
+      "basis": "To satisfy the current environmental requirement, all silencers can be supplied with catalysts or selective catalytic reduction (SCR) systems",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "value": "all silencers can be supplied with catalysts or selective catalytic reduction (SCR) systems"
     }
   ],
   "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
@@ -74,6 +159,6 @@
       "source_id": "geg-iacacoustics-global-021ca23"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 9 new printed parameters."
 }

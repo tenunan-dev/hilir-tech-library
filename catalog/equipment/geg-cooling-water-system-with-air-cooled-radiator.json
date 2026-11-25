@@ -158,6 +158,345 @@
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
       }
+    },
+    {
+      "metric": "Closed-loop radiator cooling water consumption",
+      "unit": "l/MWh",
+      "basis": "'Closed-circuit radiator cooling with only 0.2 l/MWh water consumption'; 'The engine cooling arrangement using closed-loop radiator cooling reduces the plant process water consumption to a mere 0.2 l/MWh, minimising the effect on local water resources.' Brochure printed 08.2017.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": 0.2
+    },
+    {
+      "metric": "Fast start-up from hot standby",
+      "unit": "minutes",
+      "basis": "'Fast start-up: only 2-10 minutes from hot standby to full load, regardless of plant size'; 'Wartsila ICE power plants can start and reach full load in less than 10 minutes'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "2 - 10 minutes to full load, regardless of plant size"
+    },
+    {
+      "metric": "Plant electrical efficiency",
+      "unit": "%",
+      "basis": "'Plant electrical efficiency up to more than 54%'; 'Wartsila gas engines with modern lean-burn technology reach over 50% electrical efficiency'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "> 54"
+    },
+    {
+      "metric": "Typical engine unit size",
+      "unit": "MW",
+      "basis": "'typically based on modular 4-19 MW internal combustion engine (ICE) units'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "4 - 19 MW"
+    },
+    {
+      "metric": "CHP total efficiency",
+      "unit": "% (can reach)",
+      "basis": "'In CHP applications for hot water production, the total efficiency can reach 95%.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": 95
+    },
+    {
+      "metric": "Flexicycle power increase",
+      "unit": "% (almost)",
+      "basis": "'This combined cycle solution increases the power production by almost 10%.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Fleet track record",
+      "unit": "n/a",
+      "basis": "'Wartsila has supplied 176 countries with more than 11,000 engines having a combined capacity of 63 GW'; 'some 5000 projects in 176 countries'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "176 countries, more than 11,000 engines, combined capacity 63 GW"
+    },
+    {
+      "metric": "Plant process water / cooling claim",
+      "unit": "n/a",
+      "basis": "'No water consumed for plant cooling = arid area suitability!' and 'minimal derating of the heat rate and output at high altitudes and in hot temperatures'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "No water consumed for plant cooling = arid area suitability"
+    },
+    {
+      "metric": "Fuel choices",
+      "unit": "n/a",
+      "basis": "'Wartsila gas engines operate on a wide selection of gas types ... capable of operating on both natural gas and liquid fuel (light fuel oil, heavy fuel oil, crude oil or liquid biofuel) ... possible to switch from gas to liquid fuel, and vice versa, even during operation.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "natural gas, or multi-fuel mode gaseous + liquid (LFO, HFO, crude oil, liquid biofuel); switching during operation"
+    },
+    {
+      "metric": "34SG LPG capability",
+      "unit": "n/a",
+      "basis": "'The Wartsila 34SG engine can run on a wide range of gases, including liquefied petroleum gas (LPG) and ethane. It is the first medium-speed engine capable of running on LPG.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "value": "first medium-speed engine capable of running on LPG; also ethane"
+    },
+    {
+      "metric": "Generator set rating",
+      "unit": "n/a",
+      "basis": "Spec sheet title: 'mtu 12V1600 GS400 Gas Generator Set 400 kWe/60 Hz/Standby/208-600V'. 231296 | 2026-03.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "400 kWe / 60 Hz / Standby / 208 - 600 V"
+    },
+    {
+      "metric": "Engine model / type",
+      "unit": "n/a",
+      "basis": "Application data table 'Engine'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "12V1600L80S; 4-cycle; turbocharged, intercooled; 12-V"
+    },
+    {
+      "metric": "Displacement",
+      "unit": "L (cu in)",
+      "basis": "Application data table 'Displacement: L (cu in) 21.0 (1,281)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "21.0 (1,281)"
+    },
+    {
+      "metric": "Bore / stroke",
+      "unit": "cm (in)",
+      "basis": "Application data table 'Bore: cm (in) 12 (4.72); Stroke: cm (in) 15 (5.91)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "12 cm (4.72 in) / 15 cm (5.91 in)"
+    },
+    {
+      "metric": "Compression ratio",
+      "unit": "n/a",
+      "basis": "Application data table 'Compression ratio 11:1'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "11:1"
+    },
+    {
+      "metric": "Rated speed",
+      "unit": "rpm",
+      "basis": "Application data table 'Rated rpm 1,800'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "Maximum power NG / LPG",
+      "unit": "kWm (bhp)",
+      "basis": "Application data table 'Maximum power (NG): kWm (bhp) 565 (758); Maximum power (LPG) 397 (532)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "565 (758) / 397 (532)"
+    },
+    {
+      "metric": "Gas fuel consumption NG at 100% / 75% / 50%",
+      "unit": "m3/hr (ft3/hr)",
+      "basis": "Fuel consumption table (NG-1000 BTU/ft3): 'At 100% of power rating: m3/hr (ft3/hr) 143.5 (5,067)' etc.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "143.5 (5,067) / 115.7 (4,087) / 86.7 (3,063)"
+    },
+    {
+      "metric": "LPG fuel consumption at 100% / 75% / 50%",
+      "unit": "m3/hr (ft3/hr)",
+      "basis": "Fuel consumption table (LP-2500 BTU/ft3).",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "46.8 (1,654) / 38 (1,341) / 28.7 (1,015)"
+    },
+    {
+      "metric": "Steady state frequency band",
+      "unit": "%",
+      "basis": "Application data table 'Steady state frequency band ± 0.5%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "± 0.5 %"
+    },
+    {
+      "metric": "Emissions certification",
+      "unit": "n/a",
+      "basis": "Certifications and standards / Standard features sections; 'Emissions data ... values provided ... are typical and intended for limited design reference only. Refer to Emission Data Sheet (EDS)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "EPA Part 60 Subpart JJJJ Stationary Non-Emergency; EPA Part 1048 Mobile; EPA Blue Sky Series certified; 3-way catalyst"
+    },
+    {
+      "metric": "Standby rating definition",
+      "unit": "n/a",
+      "basis": "Rating definitions and conditions; 'Nominal ratings at standard conditions: 25 C and 300 meters (77 F and 1,000 feet).'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "85% average load factor; no overload capability; ISO 8528-1, ISO 3046-1, BS 5514, AS 2789"
+    },
+    {
+      "metric": "Radiator ambient capacity",
+      "unit": "deg C (122 F)",
+      "basis": "Cooling - radiator system table: 'Ambient capacity of radiator: C (F) 50 (122)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Maximum cooling air restriction",
+      "unit": "kPa (in. H2O)",
+      "basis": "Cooling table: 'Maximum restriction of cooling air: intake and discharge side of radiator: kPa (in. H2O) 0.20 (0.8)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "0.20 (0.8)"
+    },
+    {
+      "metric": "Water pump capacity",
+      "unit": "L/min (gpm)",
+      "basis": "Cooling table 'Water pump capacity: L/min (gpm) 517 (137)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "517 (137)"
+    },
+    {
+      "metric": "Heat rejection to coolant",
+      "unit": "kW (BTUM)",
+      "basis": "Cooling table 'Heat rejection to coolant: kW (BTUM) 294 (16,739)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "294 (16,739)"
+    },
+    {
+      "metric": "Heat rejection to after cooler",
+      "unit": "kW (BTUM)",
+      "basis": "Cooling table as printed.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "132 (7,517)"
+    },
+    {
+      "metric": "Heat radiated to ambient",
+      "unit": "kW (BTUM)",
+      "basis": "Cooling table as printed.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "42 (2,366)"
+    },
+    {
+      "metric": "Fan power",
+      "unit": "kW (hp)",
+      "basis": "Cooling table as printed.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "29 (39)"
+    },
+    {
+      "metric": "Liquid capacities - oil / jacket water / system coolant",
+      "unit": "L (gal)",
+      "basis": "Liquid capacity table as printed.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "73 (19.3) / 65 (17.2) / 156 (41.3)"
+    },
+    {
+      "metric": "Open power unit dimensions",
+      "unit": "mm (146.5 x 73.5 x 88.5 in)",
+      "basis": "Weights and dimensions: 'Open Power Unit (OPU) 3,720 x 1,865 x 2,247 mm (146.5 x 73.5 x 88.5 in)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "3,720 x 1,865 x 2,247"
+    },
+    {
+      "metric": "Open power unit weight",
+      "unit": "kg (10,020 - 14,872 lb)",
+      "basis": "Weights and dimensions table; 'Weights and dimensions are based on open power units and are estimates only.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "4,545 - 6,746"
+    },
+    {
+      "metric": "Sound level at 7 m - standby full load NG / LP",
+      "unit": "dB(A)",
+      "basis": "Sound data: 'provided at 7 m (23 ft). Generator set tested in accordance with ISO 8528-10 ... Unit type Standby full load (NG) Level 0 (OPU): dB(A) 90.5; (LP) 90.8'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "90.5 / 90.8"
+    },
+    {
+      "metric": "CAC temperature rise over ambient (typical)",
+      "unit": "degC",
+      "basis": "\"EPA emission certifications for an engine are dependent on a specific temperature rise of the intake air over ambient temperature (typically 20°C, but it varies by engine)\"",
+      "source": {
+        "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Remote cooling system types considered",
+      "unit": "n/a",
+      "basis": "\"There are a few options for remote cooling systems such as cooling towers, city or pond water cooling, and remote radiators\"",
+      "source": {
+        "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf"
+      }
+    },
+    {
+      "metric": "Cooling circuits on large generators",
+      "unit": "distinct circuits",
+      "basis": "\"Most large generators will have two distinct cooling circuits ... the engine jacket water cooling and the charge air cooling\"",
+      "source": {
+        "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Head limits source",
+      "unit": "n/a",
+      "basis": "\"To determine how far away the radiator can be from the generator, two things must be considered: static head and dynamic head. These limits can be found on manufacturer spec sheets\" – no numeric head limits printed",
+      "source": {
+        "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf"
+      }
+    },
+    {
+      "metric": "Publication",
+      "unit": "n/a",
+      "basis": "\"POWER SYSTEMS TOPICS 144\", white paper 'Remote Cooling Design Factors for Standby Generators' by Alex Hischke, Senior Project Engineer, Kohler Power Systems; 8 pages; Jina published-time 2024-06-20",
+      "source": {
+        "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf"
+      }
     }
   ],
   "vendor_models": [
@@ -225,5 +564,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

@@ -117,6 +117,993 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
       }
+    },
+    {
+      "metric": "FE2 filter - process gas pressure (p_abs)",
+      "unit": "kPa",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 50,
+      "high": 600
+    },
+    {
+      "metric": "FE2 filter - process gas temperature max",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 200
+    },
+    {
+      "metric": "FE2 filter - coated temperature max",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 180
+    },
+    {
+      "metric": "FE2 filter - flow rate (relative to 100 kPa, 0 degC)",
+      "unit": "l/h",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 30,
+      "high": 500
+    },
+    {
+      "metric": "FE2 filter - pressure drop",
+      "unit": "hPa at 100 l/h (approx.)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 0.6
+    },
+    {
+      "metric": "FE2 filter - dust content application recommendation max",
+      "unit": "g/m3",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 3
+    },
+    {
+      "metric": "FE2 filter - dust content max with probe tube type 40 + purge-back",
+      "unit": "g/m3",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "FE2 filter - dust content max with probe tube type 60",
+      "unit": "g/m3",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "FE2 filter - instrument air pressure max for purge-back",
+      "unit": "kPa",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 600
+    },
+    {
+      "metric": "FE2 filter - filter fineness",
+      "unit": "um",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 0.3
+    },
+    {
+      "metric": "FE2 filter - retention rate",
+      "unit": "%",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 99.98
+    },
+    {
+      "metric": "FE2 filter - seal integrity",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "10^-4 hPa l/s"
+    },
+    {
+      "metric": "FE2 filter - dead volume",
+      "unit": "ml",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 280
+    },
+    {
+      "metric": "FE2 filter - casing and connections material",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "Special steel Mat. No. 1.4571"
+    },
+    {
+      "metric": "FE2 filter - flange material",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "Special steel Mat. No. 1.4541"
+    },
+    {
+      "metric": "FE2 filter - filter element",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "Aluminum oxide surface filter"
+    },
+    {
+      "metric": "FE2 filter - coating",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "Thermoset plastic, resistant up to 180 degC"
+    },
+    {
+      "metric": "FE2 filter - mounting flange",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "DN 65, PN 6, Form B to DIN 2573"
+    },
+    {
+      "metric": "FE2 filter - weight",
+      "unit": "kg (approx.)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 8.0
+    },
+    {
+      "metric": "FE2 filter - connection ports",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "Sample/test gas G 1/4; compressed air G 1/2; probe tube G 3/4 internal thread to DIN ISO 228/1"
+    },
+    {
+      "metric": "Annular heating element - power supply",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "115 VAC or 230 VAC, 50 to 60 Hz"
+    },
+    {
+      "metric": "Annular heating element - heater output",
+      "unit": "W (200/100/50 depending on setting)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 50,
+      "high": 200
+    },
+    {
+      "metric": "Annular heating element - heater temperature unregulated",
+      "unit": "degC (approx., at 20 degC still air)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 120,
+      "high": 180
+    },
+    {
+      "metric": "Annular heating element - ambient temperature",
+      "unit": "degC (still air)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 0,
+      "high": 55
+    },
+    {
+      "metric": "Annular heating element - degree of protection",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "IP50"
+    },
+    {
+      "metric": "Annular heating element - weight",
+      "unit": "kg (approx.)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 1.7
+    },
+    {
+      "metric": "Heating sleeve - holding temperature max",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 350
+    },
+    {
+      "metric": "Heating sleeve - temperature control max",
+      "unit": "degC (Pt 100)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Heating sleeve - power supply / consumption",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "115 VAC or 230 VAC; 250 VA"
+    },
+    {
+      "metric": "Heating sleeve - ambient temperature",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": -20,
+      "high": 45
+    },
+    {
+      "metric": "Heating sleeve - degree of protection",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "IP54"
+    },
+    {
+      "metric": "PFE2 - protective case dimensions (H x W x D)",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "450 x 450 x 400 mm"
+    },
+    {
+      "metric": "PFE2 - protective case material",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "Special steel Mat. No. 1.4301"
+    },
+    {
+      "metric": "PFE2 - protective case degree of protection",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "IP54"
+    },
+    {
+      "metric": "PFE2 - protective case weight",
+      "unit": "kg (approx.)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 18
+    },
+    {
+      "metric": "PFE2 - pneumatic valve operating/control pressure",
+      "unit": "kPa (6 bar)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 600
+    },
+    {
+      "metric": "PFE2 - pneumatic valve nominal diameter",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "DN 12"
+    },
+    {
+      "metric": "PFE2 - control solenoid valve pressure range",
+      "unit": "kPa (6 bar)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 600
+    },
+    {
+      "metric": "PFE2 - control solenoid valve nominal diameter",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "DN 2.0"
+    },
+    {
+      "metric": "PFE2 - control solenoid valve power consumption",
+      "unit": "VA",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 8
+    },
+    {
+      "metric": "PFE3 - process gas pressure (p_abs)",
+      "unit": "kPa",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 50,
+      "high": 600
+    },
+    {
+      "metric": "PFE3 - process gas temperature max",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 200
+    },
+    {
+      "metric": "PFE3 - flow rate",
+      "unit": "l/h (relative to 100 kPa, 0 degC)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 30,
+      "high": 500
+    },
+    {
+      "metric": "PFE3 - filter fineness",
+      "unit": "um",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 0.3
+    },
+    {
+      "metric": "PFE3 - dead volume",
+      "unit": "ml",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 280
+    },
+    {
+      "metric": "PFE3 - filter element dimensions",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "50 / 20 x 135 mm"
+    },
+    {
+      "metric": "PFE3 - heater type and output",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "Self-regulating heater (400 W)"
+    },
+    {
+      "metric": "PFE3 - heater temperature",
+      "unit": "degC (ambient 20 degC)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 180
+    },
+    {
+      "metric": "PFE3 - temperature alarm",
+      "unit": "degC (approx.)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 150
+    },
+    {
+      "metric": "PFE3 - gas-carrying parts material",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "Special steel Mat. No. 1.4571; seals FPM"
+    },
+    {
+      "metric": "PFE3 - protective case dimensions (H x W x D)",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "270 x 203 x 330 mm"
+    },
+    {
+      "metric": "PFE3 - protective case weight",
+      "unit": "kg incl. FE2 filter unit (approx.)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 17
+    },
+    {
+      "metric": "Type 40/40W probe tube - process gas pressure (p_abs)",
+      "unit": "kPa (0.5 to 5 bar)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 50,
+      "high": 500
+    },
+    {
+      "metric": "Type 40 probe tube - temperature max SS 1.4571",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 450
+    },
+    {
+      "metric": "Type 40 probe tube - temperature max SS 1.4893",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 900
+    },
+    {
+      "metric": "Type 40 probe tube - temperature max silicon carbide",
+      "unit": "degC (max length 1000 mm)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 1300
+    },
+    {
+      "metric": "Type 40W probe tube - temperature max SS 1.4571 heated",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Type 40 probe tube - flow rate max",
+      "unit": "l/h",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Type 40 probe tube - pressure drop",
+      "unit": "hPa (approx., at 30 to 90 l/h)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Type 42 heated probe tube - process gas pressure (p_abs)",
+      "unit": "kPa (2 bar)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Type 42 heated probe tube - temperature",
+      "unit": "degC max",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Type 42 heated probe tube - flow rate max",
+      "unit": "l/h",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Type 42 heated probe tube - flow velocity max",
+      "unit": "m/s (>1000 mm max 7 m/s)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Type 42 heated probe tube - T90 time",
+      "unit": "s (approx. at 250 l/h)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 0.4
+    },
+    {
+      "metric": "Type 42 heated probe tube - heat output (1000 mm)",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "2 x 200 W"
+    },
+    {
+      "metric": "Type 42 heated probe tube - heat output (1500 mm)",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "2 x 300 W"
+    },
+    {
+      "metric": "Type 42 heated probe tube - heat output (2000 mm)",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "2 x 400 W"
+    },
+    {
+      "metric": "Type 42 heated probe tube - control temperature max",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Type 60 probe tube - process gas pressure (p_abs) max",
+      "unit": "kPa (2 bar)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Type 60 probe tube - temperature max (by length)",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "1200 degC @3500 mm; 1250 @3000; 1300 @2500; 1350 @2000; 1400 @1500 mm"
+    },
+    {
+      "metric": "Type 60 probe tube - flow rate max",
+      "unit": "l/h",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Type 60 probe tube - dust content max",
+      "unit": "g/m3 (with periodical compressed air cleaning)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Type 60 probe tube - cooling water outlet temperature",
+      "unit": "degC (min 50 or >dew point, max 85)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 50,
+      "high": 85
+    },
+    {
+      "metric": "Type 60 probe tube - cooling water pressure (p_abs) max",
+      "unit": "kPa (4 bar)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Type 60 probe tube - cooling water quantity circulated",
+      "unit": "m3/h (approx., closed system)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Probe 2 - process gas pressure (p_abs) max",
+      "unit": "kPa (4 bar)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Probe 2 - temperature max partly heated / heated",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "450 degC (partly heated); 130 degC (heated)"
+    },
+    {
+      "metric": "Probe 2 - flow rate max",
+      "unit": "l/h",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Probe 2 - dust content max",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "20 g/m3 (application recommendation); 100 g/m3 with purging"
+    },
+    {
+      "metric": "Probe 2 - purging pressure max",
+      "unit": "kPa (6 bar)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 600
+    },
+    {
+      "metric": "Probe 2 - T90 time",
+      "unit": "s (< 2 s at 250 l/h)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Probe 2 - filter fineness",
+      "unit": "um",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 0.3
+    },
+    {
+      "metric": "Probe 2 - tube heating output",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "650 W (1200 mm); 255 W partially heated"
+    },
+    {
+      "metric": "Probe 11 - gas temperature",
+      "unit": "degC (dry)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": -25,
+      "high": 50
+    },
+    {
+      "metric": "Probe 11 - sample gas flow rate max",
+      "unit": "l/h",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 70
+    },
+    {
+      "metric": "Probe 11 - dust content max",
+      "unit": "mg/m3",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Probe 11 - pressure drop with new filter",
+      "unit": "hPa (mbar) max at 70 l/h",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Ceramic filter - flow rate (air) max",
+      "unit": "l/h",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Ceramic filter - gas pressure (p_abs)",
+      "unit": "kPa (0.2 to 17 bar) at 20 degC filter temp; max 200 kPa at 180 degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 20,
+      "high": 1700
+    },
+    {
+      "metric": "Ceramic filter - pressure drop",
+      "unit": "hPa at 30 to 250 l/h (air)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 0.1,
+      "high": 0.85
+    },
+    {
+      "metric": "Ceramic filter - filter fineness",
+      "unit": "um",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 0.3
+    },
+    {
+      "metric": "Ceramic filter - filter surface",
+      "unit": "cm2 (approx.)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 212
+    },
+    {
+      "metric": "Ceramic filter - weight",
+      "unit": "kg (approx.)",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 2.1
+    },
+    {
+      "metric": "Process pressure reducer - inlet pressure max",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "1.5 MPa (15 bar) / 3.5 MPa (35 bar)"
+    },
+    {
+      "metric": "Process pressure reducer - outlet pressure adjustable",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "0.8 to 10 kPa / 10 to 40 kPa / 10 to 70 kPa"
+    },
+    {
+      "metric": "Process pressure reducer - flow rate",
+      "unit": "l/h",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": 25,
+      "high": 250
+    },
+    {
+      "metric": "Process pressure reducer - gas and ambient temperature max",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Heated sample gas line CGWB 13 - heat output",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "16 W/m (frost), 30 W/m (self-regulating), 60 W/m (parallel regulated)"
+    },
+    {
+      "metric": "Heated sample gas line CGWB 13 - power supply",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "230 V or 115 V, 50 to 60 Hz"
+    },
+    {
+      "metric": "Heated sample gas line CGWB 13 - ambient temperature",
+      "unit": "degC",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "low": -30,
+      "high": 60
+    },
+    {
+      "metric": "Heated sample gas line CGWB 13 - maximum line length",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "130 m (frost), 90 m (self-reg), 60 m (parallel)"
+    },
+    {
+      "metric": "Heated sample gas line CGWB 13 - minimum bending radius",
+      "unit": "mm",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Heated sample gas line CGWB 13 - outer diameter",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "30 / 43 / 40 mm (frost/self-reg/parallel)"
+    },
+    {
+      "metric": "Heated sample gas line TBL 01 - heat output",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "30 W/m (self-reg), 90 W/m (fixed resistor), 47 W/m (TBL 01-C 120 degC)"
+    },
+    {
+      "metric": "Heated sample gas line TBL 01 - holding temperature",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "100 / 120 / 200 degC (depending on version)"
+    },
+    {
+      "metric": "Heated sample gas line TBL 01 - maximum line length",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "100 m (TBL 01-S), 70 m (TBL 01-C), 40 m (TBL 01-E)"
+    },
+    {
+      "metric": "Heated sample gas line TBL 01 - minimum bending radius",
+      "unit": "mm",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Heated sample gas line - medium-carrying pipe",
+      "unit": "n/a",
+      "basis": "ABB Data Sheet 10/23-5.10 EN, November 2006 (System Components for Sample Gas Sampling; published online 13 Mar 2024)",
+      "source": {
+        "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
+      },
+      "value": "PTFE 6 x 4 x 1 mm or 8 x 6 x 1 mm"
     }
   ],
   "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
@@ -126,6 +1113,13 @@
       "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 108 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Electronic Temperature Controller and Switching Relay (page 35) detailed specifications",
+      "why": "Not transcribed in detail from the extracted text",
+      "next_action": "Fetch and transcribe page 35 controller ratings if required"
+    }
+  ]
 }

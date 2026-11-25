@@ -182,6 +182,139 @@
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
       "value": "self-organizing, self-healing mesh; each device can route for other devices"
+    },
+    {
+      "metric": "Products listed",
+      "unit": "products",
+      "basis": "'1-15 of 56 results for Products'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 56
+    },
+    {
+      "metric": "Gateway remote antenna distance",
+      "unit": "ft",
+      "basis": "'supports remote antenna placement up to 1300 ft (400 m)'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 1300
+    },
+    {
+      "metric": "Asset View inputs",
+      "unit": "inputs",
+      "basis": "'up to 10 inputs for better monitoring'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Installation cost saving",
+      "unit": "%",
+      "basis": "'Up to 60% lower installation costs vs. traditional wired instrumentation'",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Certification areas",
+      "unit": "n/a",
+      "basis": "'FM, CSA, ATEX, and IECEx standards' for intrinsically safe / explosion-proof areas",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
+      }
+    },
+    {
+      "metric": "Network elements",
+      "unit": "main elements",
+      "basis": "\"Each WirelessHART network includes three main elements: Wireless field devices ... Gateways ... A Network Manager\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": 3
+    },
+    {
+      "metric": "HART specification documents",
+      "unit": "documents",
+      "basis": "\"The HART Protocol Specifications kit is a collection of 17 documents\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": 17
+    },
+    {
+      "metric": "Network topology",
+      "unit": "n/a",
+      "basis": "\"By design, WirelessHART using mesh networking technology. Each device in a mesh network can serve as a router for messages from other devices\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      }
+    },
+    {
+      "metric": "Installation cost saving vs wired instruments",
+      "unit": "% lower installation costs",
+      "basis": "FieldComm Group: 'WirelessHART offers 30%-60% lower installation costs than adding traditional wired instruments.'",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "low": 30,
+      "high": 60
+    },
+    {
+      "metric": "Messaging modes",
+      "unit": "text",
+      "basis": "'supports multiple messaging modes including one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers of large data sets'",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      }
+    },
+    {
+      "metric": "Specification kit size",
+      "unit": "documents",
+      "basis": "'The HART Protocol Specifications kit is a collection of 17 documents that specify the different aspects of the protocol and test procedures for field devices.'",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": 17
+    },
+    {
+      "metric": "Network protocol",
+      "unit": "n/a",
+      "basis": "The Rosemount Synchros Wireless Repeater extends WirelessHART network range and reliability.",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
+      },
+      "value": "WirelessHART"
+    },
+    {
+      "metric": "Hazardous area rating",
+      "unit": "n/a",
+      "basis": "is hazardous rated, allowing for quick and hassle-free installation without extensive reconfiguration",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
+      },
+      "value": "hazardous rated"
+    },
+    {
+      "metric": "Mounting",
+      "unit": "n/a",
+      "basis": "Directly mounts to process piping without cutting or changing pipe configurations for flexible, simple installation",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
+      },
+      "value": "Directly mounts to process piping without cutting or changing pipe configurations"
+    },
+    {
+      "metric": "Power",
+      "unit": "n/a",
+      "basis": "Designed for low power consumption, maximizing the battery life and reducing maintenance requirements",
+      "source": {
+        "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
+      },
+      "value": "low power consumption, long battery life"
     }
   ],
   "vendors": [
@@ -203,5 +336,5 @@
     "Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilitie"
   ],
   "notes": "Page-read evidence from the 2026-11-24 comms-instrumentation.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

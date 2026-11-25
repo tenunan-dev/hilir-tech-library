@@ -49,6 +49,51 @@
       },
       "unit": "n/a",
       "value": "Power Generation: Steam makeup water"
+    },
+    {
+      "metric": "Operating cost saving vs mixed bed DI",
+      "unit": "% lower",
+      "basis": "\"provide continuous quality as well as 40-50% lower operating costs when compared to mixed bed DI\"",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/"
+      },
+      "low": 40,
+      "high": 50
+    },
+    {
+      "metric": "Floorspace vs ion exchange demineralization",
+      "unit": "% less",
+      "basis": "\"50-75% less floorspace than ion exchange based demineralization\"",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/"
+      },
+      "low": 50,
+      "high": 75
+    },
+    {
+      "metric": "Water recovery",
+      "unit": "% (can be recycled upstream to RO feed)",
+      "basis": "\"Can be recycled upstream to the RO feed for 100% recovery, zero waste production\"",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Technology",
+      "unit": "n/a",
+      "basis": "\"combination of selective ion exchange membranes, ion exchange conductive resins, and electricity to remove ions from water rather than costly hazardous chemicals\"",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "\"Power Generation: Steam makeup water; Petrochemical: Steam makeup water; All Industrial applications where demineralized or deionized water is needed for ultrapure processes\"",
+      "source": {
+        "url": "https://graver.com/makeup/electroflex/"
+      }
     }
   ],
   "url": "https://graver.com/makeup/electroflex/",
@@ -57,6 +102,13 @@
       "url": "https://graver.com/makeup/electroflex/"
     }
   ],
-  "notes": "Read in full: Graver ElectroFlex EDI Systems page. Cost percentages are vendor claims with no dollar year or currency, so no USD figure is recorded.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: Graver ElectroFlex EDI Systems page. Cost percentages are vendor claims with no dollar year or currency, so no USD figure is recorded. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Flow rates, product water resistivity and operating pressure of ElectroFlex skids",
+      "why": "Printed tables are images (EDI-Table-1.jpg / EDI-Table-2.jpg) not readable as text; datasheet PDF not read",
+      "next_action": "Fetch the ElectroFlex 2020 datasheet PDF via Jina for model table"
+    }
+  ]
 }

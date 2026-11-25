@@ -47,6 +47,78 @@
         "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
       },
       "value": "Wet-mate-only cable connections; seabed-resident, reconnection without retrieval"
+    },
+    {
+      "metric": "Power rating per connection",
+      "unit": "kV",
+      "basis": "66kV Power rating per connection",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "value": 66
+    },
+    {
+      "metric": "Maintenance-free life",
+      "unit": "yrs",
+      "basis": "30 yrs Maintenance-free life",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Water depth",
+      "unit": "m",
+      "basis": "↓ 1500m Water depth",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Connection type",
+      "unit": "n/a",
+      "basis": "Subsea junction boxes offer versatile, wet-mate-only cable connections on the seafloor",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "value": "wet-mate-only cable connections on the seafloor"
+    },
+    {
+      "metric": "Configuration",
+      "unit": "n/a",
+      "basis": "Modular and self-contained, our subsea junction boxes are scalable in length",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "value": "Modular and self-contained; scalable in length to accommodate desired number of connection points"
+    },
+    {
+      "metric": "Reconnection",
+      "unit": "n/a",
+      "basis": "Seabed-resident wet-mate technology for reconnections without retrieval of the junction box",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "value": "Seabed-resident wet-mate technology for reconnections without retrieval of the junction box"
+    },
+    {
+      "metric": "Topology benefit",
+      "unit": "n/a",
+      "basis": "The subsea junction box can enable radial connections of turbines. This solves the daisy chain topology challenges",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "value": "enables radial connections of turbines; solves daisy-chain topology challenges"
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "APPLICATION section list",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
+      },
+      "value": "Streamline cabling for offshore wind farm; connect microgrids offshore; join cables from multiple sources"
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
@@ -55,6 +127,6 @@
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     }
   ],
-  "notes": "Printed figures are callouts on the product page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Printed figures are callouts on the product page. Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -18,6 +18,60 @@
         "url": "https://en.wikipedia.org/wiki/Jenbacher",
         "source_id": "geg-en-wikipedia-org-jenbacher-436766f"
       }
+    },
+    {
+      "metric": "J920 FleXtra power",
+      "unit": "MW / PS",
+      "basis": "Wikipedia: 'a V20 gas engine delivering up to 9.5 MW (12,915 PS)'. Secondary source; cited to archived GE page.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": "up to 9.5 MW (12,915 PS)"
+    },
+    {
+      "metric": "J920 FleXtra electrical efficiency",
+      "unit": "%",
+      "basis": "'When it is put into production it will be Jenbachers most efficient gas engine available with an electrical efficiency of 48.7%'.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": 48.7
+    },
+    {
+      "metric": "J920 FleXtra CHP thermal efficiency",
+      "unit": "%",
+      "basis": "'and a combined heat and power (CHP) thermal efficiency of over 90%'.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": "> 90"
+    },
+    {
+      "metric": "Ownership timeline",
+      "unit": "n/a",
+      "basis": "Wikipedia company history; 'GE (historical Jenbacher gas engine brand, 2003-2018)' corresponds to the GE ownership period.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": "Founded 1959; acquired by General Electric 2003; became part of INNIO Nov 2018"
+    },
+    {
+      "metric": "Combustion technology",
+      "unit": "n/a",
+      "basis": "Wikipedia 'Company profile and products' and 'Jenbacher J920 FleXtra' sections (some statements carry citation-needed tags).",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": "Otto cycle, industrial spark plugs; smaller models stoichiometric, larger lean-burn with prechamber ignition; Miller cycle and two-stage turbocharging on J920"
+    },
+    {
+      "metric": "Fuels",
+      "unit": "n/a",
+      "basis": "Wikipedia: 'Jenbacher engines run on natural gas, landfill gas, sewage gas, biogas, mine gas, coal gas, syngas and hydrogen.'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "value": "natural gas, landfill gas, sewage gas, biogas, mine gas, coal gas, syngas and hydrogen"
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Jenbacher",
@@ -27,6 +81,13 @@
       "source_id": "geg-en-wikipedia-org-jenbacher-436766f"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Primary GE-era datasheet figures",
+      "why": "Wikipedia is a secondary source and some statements are flagged citation-needed; no GE-era datasheet was read.",
+      "next_action": "Confirm ratings against archived GE primary datasheets before using in external publications."
+    }
+  ]
 }

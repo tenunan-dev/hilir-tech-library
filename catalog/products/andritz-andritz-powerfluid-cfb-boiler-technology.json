@@ -47,6 +47,40 @@
       },
       "unit": "product/technology name",
       "value": "EcoFluid"
+    },
+    {
+      "metric": "Turbogenerator output rating range (ANDRITZ thermal power portfolio)",
+      "unit": "MVA",
+      "basis": "ANDRITZ Thermal power page: 'Turbogenerators for thermal power plants with output ratings from 10 MVA to 350 MVA.' (portfolio-level, not CFB-specific)",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en"
+      },
+      "low": 10,
+      "high": 350
+    },
+    {
+      "metric": "CFB fluidization / solids behaviour",
+      "unit": "text",
+      "basis": "'With CFB technology, the flue gas velocity in the furnace is higher and the bed is expanded and entrained with the flow. The bed material flows with the flue gas through the furnace, after which the material is separated by cyclones and returned to the lower furnace.'",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en"
+      }
+    },
+    {
+      "metric": "CFB combustion temperature characteristic",
+      "unit": "text",
+      "basis": "'The efficient mixing and relatively low combustion temperatures contribute to low emissions of carbon monoxide, hydrocarbons, and nitric oxides.'",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en"
+      }
+    },
+    {
+      "metric": "CFB fuel range",
+      "unit": "text",
+      "basis": "'CFB technology also allows an extremely wide range of fuels to be fired in the same unit.'; BFB EcoFluid: 'a variety of clean biomass fuels (bark, agricultural, forestry, and sawmill residuals) ... demolition wood, refuse-derived fuels, peat, various sludges, etc.'",
+      "source": {
+        "url": "https://www.andritz.com/thermal-power-en"
+      }
     }
   ],
   "url": "https://www.andritz.com/thermal-power-en",
@@ -55,6 +89,13 @@
       "url": "https://www.andritz.com/thermal-power-en"
     }
   ],
-  "notes": "Fetched Thermal power page directly with WebFetch (markdown). No numeric capacity printed on this page; dedicated EcoFluid/PowerFluid product pages not opened.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Thermal power page directly with WebFetch (markdown). No numeric capacity printed on this page; dedicated EcoFluid/PowerFluid product pages not opened. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Numerical PowerFluid CFB ratings (steam output, pressure, temperature, furnace dimensions, emissions guarantees)",
+      "why": "Overview page gives only qualitative CFB description; no numeric table",
+      "next_action": "Fetch linked /products-en/thermal-power/environmental-solutions/powerfluid-boilers page and technical brochures"
+    }
+  ]
 }

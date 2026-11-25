@@ -162,6 +162,132 @@
         "url": "https://www.malaysiatransformer.com/about",
         "source_id": "gef-malaysiatransformer-com-about-c845fc2"
       }
+    },
+    {
+      "metric": "Manufacturing capacity",
+      "unit": "MVA annually",
+      "basis": "manufacturing capacity of 75,000 MVA annually across 10 plants on three continents",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": 75000
+    },
+    {
+      "metric": "India production",
+      "unit": "MVA annually",
+      "basis": "produces over 30,000 MVA annually in India alone",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": 30000
+    },
+    {
+      "metric": "Plants",
+      "unit": "count",
+      "basis": "across 10 plants on three continents",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Countries served",
+      "unit": "countries",
+      "basis": "network of sales agents and customers in over 135 countries",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": 135
+    },
+    {
+      "metric": "Transformer range",
+      "unit": "n/a",
+      "basis": "capability to produce transformers from 5kVA to 575,000 kVA (1.5M kVA in a bank)",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": "5 kVA to 575,000 kVA (1.5 M kVA in a bank)"
+    },
+    {
+      "metric": "Voltage class",
+      "unit": "n/a",
+      "basis": "3.3kV to 765 kV class for various applications",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": "3.3 kV to 765 kV"
+    },
+    {
+      "metric": "UHV reference",
+      "unit": "n/a",
+      "basis": "Having supplied 750 kV transformers as early as in 1977, CG Electric Systems Hungary has been one of the early manufacturers of 800kV class transformers",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": "750 kV transformers supplied in 1977; 800 kV class"
+    },
+    {
+      "metric": "765 kV unit",
+      "unit": "n/a",
+      "basis": "260 MVA, 765 kV, Single Phase Generator Transformer supplied by CG India to NTPC was the first 765 kV transformer manufactured in India",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": "260 MVA, 765 kV, single phase generator transformer"
+    },
+    {
+      "metric": "Standards",
+      "unit": "n/a",
+      "basis": "adheres to international standards such as IS, IEC, EN, AS, BS, ANSI, and CSA",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": "IS, IEC, EN, AS, BS, ANSI, CSA"
+    },
+    {
+      "metric": "Certifications",
+      "unit": "n/a",
+      "basis": "certified with ISO 9001, ISO 14001, and OSHAS 18001",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": "ISO 9001, ISO 14001, OSHAS 18001"
+    },
+    {
+      "metric": "Installed base",
+      "unit": "n/a",
+      "basis": "over 600 units installed in 75 countries",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": "over 600 units installed in 75 countries"
+    },
+    {
+      "metric": "Company sales",
+      "unit": "n/a",
+      "basis": "current sales of over INR 138.5 Billion (US$3 Billion approx)",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": "over INR 138.5 Billion (US$3 Billion approx)"
+    },
+    {
+      "metric": "Core construction",
+      "unit": "n/a",
+      "basis": "Transformer Cores are built with CRGO, low loss silicon steel laminations ... five-limb core construction for reduced height",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": "CRGO low loss silicon steel; Hi-B grade and laser scribed laminations; five-limb core"
+    },
+    {
+      "metric": "Winding conductor",
+      "unit": "n/a",
+      "basis": "winding process uses electrolytic grade copper or epoxy bonded continuously transposed conductors (CTC)",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "value": "electrolytic grade copper or epoxy bonded continuously transposed conductors (CTC)"
     }
   ],
   "vendor_models": [
@@ -231,5 +357,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

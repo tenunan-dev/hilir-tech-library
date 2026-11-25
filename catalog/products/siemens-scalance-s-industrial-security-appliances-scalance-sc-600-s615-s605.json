@@ -55,6 +55,60 @@
         "source_id": "cat-siemens-com-scalance-s-html"
       },
       "value": "IEC 62443"
+    },
+    {
+      "metric": "firewall_throughput",
+      "unit": "Mbit/s",
+      "basis": "Process up to 750 Mbit/s firewall throughput with up to 1,000 rules and support up to 200 VPN connections",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
+      },
+      "value": 750
+    },
+    {
+      "metric": "firewall_rules",
+      "unit": "rules",
+      "basis": "up to 1,000 rules",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "vpn_connections",
+      "unit": "connections",
+      "basis": "support up to 200 VPN connections",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
+      },
+      "value": 200
+    },
+    {
+      "metric": "security_standard",
+      "unit": "n/a",
+      "basis": "Connect industrial networks with IT systems while maintaining compliance with IEC 62443",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
+      },
+      "value": "IEC 62443 compliance"
+    },
+    {
+      "metric": "configuration_interfaces",
+      "unit": "n/a",
+      "basis": "Configure via TIA Portal, web interface, or CLI and integrate into network management systems",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
+      },
+      "value": "TIA Portal, web interface, CLI"
+    },
+    {
+      "metric": "models",
+      "unit": "n/a",
+      "basis": "When should I use SCALANCE SC-600 vs SCALANCE S615 comparison section",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
+      },
+      "value": "SCALANCE SC-600; SCALANCE S615 / S615 EEC"
     }
   ],
   "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
@@ -63,6 +117,13 @@
       "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     }
   ],
-  "notes": "Page read in full (WebFetch returned status 200, canonical https://www.siemens.com/en-us/products/scalance/s-industrial-security-appliance/). Linked Siemens ordering-overview PDF was not fetched.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read in full (WebFetch returned status 200, canonical https://www.siemens.com/en-us/products/scalance/s-industrial-security-appliance/). Linked Siemens ordering-overview PDF was not fetched. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Per-model parameters for SC622-2C / SC626-2C / S605 (ports, temperature, power supply)",
+      "why": "Product overview page gives family-level figures only",
+      "next_action": "Fetch individual SCALANCE device datasheets"
+    }
+  ]
 }

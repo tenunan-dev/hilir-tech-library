@@ -17,6 +17,22 @@
       },
       "unit": "n/a",
       "value": "Recover flash steam and heat from boiler blowdown"
+    },
+    {
+      "metric": "Function",
+      "unit": "text",
+      "basis": "Spirax Sarco: 'Recover flash steam and heat from boiler blowdown with Spirax Sarco systems that reduce make-up water, chemical use and avoidable energy loss.'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/"
+      }
+    },
+    {
+      "metric": "Application guidance",
+      "unit": "text",
+      "basis": "Spirax Sarco: 'Blowdown heat recovery works best when the blowdown source and feedwater destination are stable. Pair the recovery package with TDS blowdown controls when automatic blowdown creates the upstream stream, and connect the recovered energy into deaerators on the feedwater side.'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/"
+      }
     }
   ],
   "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/",
@@ -25,6 +41,13 @@
       "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/"
     }
   ],
-  "notes": "Page fetched but the product section stated 'No content available in this section'. Only the category description is usable. GAP: no model-level specs.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page fetched but the product section stated 'No content available in this section'. Only the category description is usable. GAP: no model-level specs. Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Heat recovery duty, flash steam rate, efficiency and dimensions",
+      "why": "Product page contains only descriptive text and navigation",
+      "next_action": "Fetch the heat recovery systems technical brochure"
+    }
+  ]
 }

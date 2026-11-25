@@ -1,0 +1,25 @@
+{
+  "id": "catpar-ifsolutions-com-scr-ammonia-for-injection-sy-af6cddd",
+  "name": "ifsolutions.com",
+  "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Ifsolutions.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Industry Standards: Vessels code stamped ASME Section VIII & National Board Registered"
+}

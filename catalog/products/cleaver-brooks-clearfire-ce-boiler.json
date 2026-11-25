@@ -99,6 +99,140 @@
       },
       "unit": "% volumetric hydrogen-natural gas blend",
       "value": 20
+    },
+    {
+      "metric": "Number of models",
+      "unit": "models",
+      "basis": "'11 models from 500 MBH to 6,000 MBH'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 11
+    },
+    {
+      "metric": "Input capacity",
+      "unit": "'Input Capacity 500 - 6,000'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 500,
+      "low": 6000,
+      "high": "MBH"
+    },
+    {
+      "metric": "AHRI combustion efficiency",
+      "unit": "%",
+      "basis": "'AHRI Combustion Efficiency (%) 94.7'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 94.7
+    },
+    {
+      "metric": "AHRI thermal efficiency",
+      "unit": "%",
+      "basis": "'AHRI Thermal Efficiency (%) 96'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 96
+    },
+    {
+      "metric": "Marketing efficiency statement",
+      "unit": "%",
+      "basis": "'The CFC-E is up to 99% efficient due to its high-mass firetube construction' (conflicts with AHRI 94.7/96 figures - kept separate)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 99
+    },
+    {
+      "metric": "Design temperature",
+      "unit": "deg F",
+      "basis": "'Design Temperature (deg F) 210'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 210
+    },
+    {
+      "metric": "NOx emissions standard",
+      "unit": "ppm",
+      "basis": "'Emissions (ppm NOx) <20 ppm standard, lower emission optional'; 'sub 7 ppm NOx available'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 20
+    },
+    {
+      "metric": "NOx emissions optional",
+      "unit": "ppm",
+      "basis": "'sub 7 ppm NOx available' (Option/feature list)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 7
+    },
+    {
+      "metric": "Turndown ratio",
+      "unit": "ratio",
+      "basis": "'10:1 fully modulating turndown'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Hydrogen blend capability",
+      "unit": "volumetric %",
+      "basis": "'support renewable natural gas and up to 20% volumetric mix hydrogen-natural gas blends'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Sound level",
+      "unit": "dBA at 3 feet",
+      "basis": "'Quiet operation, <70 dBA sound level at 3 feet'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 70
+    },
+    {
+      "metric": "Fuel",
+      "unit": "n/a",
+      "basis": "'Fuel: Natural Gas, Propane, Combination firing'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      }
+    },
+    {
+      "metric": "Vessel design / passes / medium",
+      "unit": "n/a",
+      "basis": "'Vessel Design: Firetube'; 'Number Of Passes: 1'; 'Steam Or Hot Water: Hot Water'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      }
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "'Duplex stainless steel construction'; TurboFer heat exchanger with integrated Ember controls; AluFer tube technology",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      }
+    },
+    {
+      "metric": "Side clearance",
+      "unit": "in",
+      "basis": "'Boiler room space savings with 3 inch side clearance'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cfce"
+      },
+      "value": 3
     }
   ],
   "url": "https://cleaverbrooks.com/product/cfce",
@@ -107,6 +241,6 @@
       "url": "https://cleaverbrooks.com/product/cfce"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 15 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

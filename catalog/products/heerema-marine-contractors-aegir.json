@@ -17,6 +17,78 @@
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
       "value": 5000
+    },
+    {
+      "metric": "Lifting capacity",
+      "unit": "metric tons",
+      "basis": "'Aegir is a monohull vessel with a lifting capacity of 5,000 metric tons'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 5000
+    },
+    {
+      "metric": "Vessel type",
+      "unit": "n/a",
+      "basis": "'Fast-sailing Heavy Lift Vessel Aegir is a monohull vessel'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      }
+    },
+    {
+      "metric": "Features",
+      "unit": "n/a",
+      "basis": "'retractable thrusters, shallow draft, and extensive clear deck space' enabling 'load-out directly from the quayside and transport on deck'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      }
+    },
+    {
+      "metric": "Fleet: Sleipnir crane capacity",
+      "unit": "metric tons",
+      "basis": "'a pair of revolving cranes that can lift 20,000 metric tons' (fleet context)",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Fleet: Thialf tandem lift",
+      "unit": "metric tons",
+      "basis": "'capable of a tandem lift of 14,200 metric tons ... built in 1985 ... class III dynamic positioning system'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 14200
+    },
+    {
+      "metric": "Fleet: Balder tandem lift",
+      "unit": "metric tons",
+      "basis": "'tandem lift of 6,300 metric tons when in guyed mode'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 6300
+    },
+    {
+      "metric": "Fleet: Bylgia/Kolga length",
+      "unit": "m",
+      "basis": "'Both tugs are 72 meters long and 18 meters wide with bollard pulls of 200 and 212 metric tons'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 72
+    },
+    {
+      "metric": "Fleet: Bylgia/Kolga bollard pull",
+      "unit": "Heerema Marine Contractors fleet page, no print date stated tugs",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 200,
+      "low": 212,
+      "high": "metric tons"
     }
   ],
   "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
@@ -25,6 +97,6 @@
       "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     }
   ],
-  "notes": "Monohull HLV, retractable thrusters, shallow draft.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Monohull HLV, retractable thrusters, shallow draft. Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

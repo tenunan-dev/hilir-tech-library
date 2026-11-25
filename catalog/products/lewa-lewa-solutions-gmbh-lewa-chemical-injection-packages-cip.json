@@ -68,6 +68,88 @@
         "source_id": "cat-lewa-com"
       },
       "value": "API 675 (metering), API 674 (plunger)"
+    },
+    {
+      "metric": "Flow rate range",
+      "unit": "ml/h to m3/h",
+      "basis": "systems featuring a flow rate between 5 ml/h and 180 m 3 /h",
+      "source": {
+        "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
+      },
+      "low": 5,
+      "high": 180
+    },
+    {
+      "metric": "Maximum discharge pressure",
+      "unit": "bar",
+      "basis": "at discharge pressure levels of up to 3500 bar",
+      "source": {
+        "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
+      },
+      "high": 3500
+    },
+    {
+      "metric": "Diaphragm pump pressure",
+      "unit": "bar",
+      "basis": "With diaphragm pumps, the system is able to operate pressure levels of up to 1200 bar.",
+      "source": {
+        "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
+      },
+      "high": 1200
+    },
+    {
+      "metric": "Plunger pump pressure",
+      "unit": "bar",
+      "basis": "Plunger pumps, meanwhile, enable discharge pressure levels of as much as 3500 bar to be achieved.",
+      "source": {
+        "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
+      },
+      "high": 3500
+    },
+    {
+      "metric": "Tubing pressure limit",
+      "unit": "psi",
+      "basis": "Up to a pressure of 20,000 psi, we use tubing for the supply and the outflow of liquids if required.",
+      "source": {
+        "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
+      },
+      "high": 20000
+    },
+    {
+      "metric": "Max storage volume",
+      "unit": "m3",
+      "basis": "The injection system can store a maximum volume of 50 m 3 .",
+      "source": {
+        "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
+      },
+      "high": 50
+    },
+    {
+      "metric": "Package standards",
+      "unit": "n/a",
+      "basis": "comply with both your specifications and international standards (such as ASME, API, and ATEX)",
+      "source": {
+        "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
+      },
+      "value": "ASME, API, and ATEX"
+    },
+    {
+      "metric": "Materials",
+      "unit": "n/a",
+      "basis": "we use high alloy materials such as Incoloy, monel, titanium, and Hastelloy.",
+      "source": {
+        "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
+      },
+      "value": "Incoloy, monel, titanium, and Hastelloy"
+    },
+    {
+      "metric": "Largest package example",
+      "unit": "n/a",
+      "basis": "Over 40 diaphragm pumps, 120 chemical injection points, over 3,000 valves and instruments, 18 chemical storage tanks ... 715 ton weighing package ... dimensions of 21 x 21 x 11 meters",
+      "source": {
+        "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
+      },
+      "value": "715 ton; 21 x 21 x 11 meters; over 40 diaphragm pumps, 120 injection points, over 3,000 valves and instruments, 18 chemical storage tanks"
     }
   ],
   "url": "https://www.lewa.com/en/systems/chemical-injection-packages/",
@@ -76,6 +158,6 @@
       "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     }
   ],
-  "notes": "Skids comply with ASME, API and ATEX as stated; high-alloy materials Incoloy, Monel, titanium and Hastelloy; drives electric/solar, compressed air, gas or diesel. A 4 MB English product brochure PDF is linked on the page but was NOT fetched.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Skids comply with ASME, API and ATEX as stated; high-alloy materials Incoloy, Monel, titanium and Hastelloy; drives electric/solar, compressed air, gas or diesel. A 4 MB English product brochure PDF is linked on the page but was NOT fetched. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

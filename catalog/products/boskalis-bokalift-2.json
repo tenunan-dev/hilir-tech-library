@@ -37,14 +37,145 @@
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
       "value": 3000
+    },
+    {
+      "metric": "Crane lifting capacity (fleet page)",
+      "unit": "tons",
+      "basis": "revolving crane with a lifting capacity of 4,000 tons",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Free deck space",
+      "unit": "m2",
+      "basis": "The vessel has 7,500 m2 of free deck space",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 7500
+    },
+    {
+      "metric": "Accommodation (fleet page)",
+      "unit": "persons",
+      "basis": "can accommodate 150 persons",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 150
+    },
+    {
+      "metric": "Accommodation (factsheet)",
+      "unit": "persons",
+      "basis": "Maximum 146 persons (Bokalift 2 factsheet 06-2026)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf",
+        "source_id": "catpar-boskalis-com-bokalift-2-062026-pdf-c7c90a3"
+      },
+      "value": 146
+    },
+    {
+      "metric": "Dynamic positioning",
+      "unit": "n/a",
+      "basis": "Kongsberg DP-2; Kongsberg DPSI 5; 1x HiPAP, Taut wire",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": "Kongsberg DP-2 / Kongsberg DPSI 5"
+    },
+    {
+      "metric": "Length",
+      "unit": "m",
+      "basis": "231 m (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": 231
+    },
+    {
+      "metric": "Breadth",
+      "unit": "m",
+      "basis": "49 m (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": 49
+    },
+    {
+      "metric": "Draught",
+      "unit": "m",
+      "basis": "8.5 - 9.5 m (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "low": 8.5,
+      "high": 9.5
+    },
+    {
+      "metric": "Main hoist capacity at 28 m radius",
+      "unit": "t",
+      "basis": "4,000 t up to 28 m radius (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Main hoist capacity at 91/110 m radius",
+      "unit": "t",
+      "basis": "800 t up to 91 m radius; 200 t up to 110 m radius (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": 200,
+      "low": 200,
+      "high": 800
+    },
+    {
+      "metric": "Monopile installation equipment limit",
+      "unit": "mt",
+      "basis": "both designed for monopiles weighing up to 3,000mt",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Max structure height lifted",
+      "unit": "m",
+      "basis": "capable of lifting structures more than 100 meters high",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "high": 100
+    },
+    {
+      "metric": "Propulsion power",
+      "unit": "n/a",
+      "basis": "8 x 4,320 kW; 1 x 1,100 kW (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": "8 x 4,320 kW + 1 x 1,100 kW"
     }
   ],
   "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
   "sources": [
     {
       "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+    },
+    {
+      "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     }
   ],
-  "notes": "DP2; commissioned 2022; MCPGF and upend hinge.",
-  "last_reviewed": "2026-11-24"
+  "notes": "DP2; commissioned 2022; MCPGF and upend hinge. Full-parameter pass 2026-11-26: 13 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Accommodation capacity",
+      "why": "Two printed values conflict: 150 persons on the fleet page, 146 persons on the 06-2026 factsheet; both retained as separate specs.",
+      "next_action": "Confirm with Boskalis which figure is current."
+    }
+  ]
 }

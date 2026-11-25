@@ -50,6 +50,96 @@
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "value": 85
+    },
+    {
+      "metric": "Portfolio maximum 60 Hz",
+      "unit": "kWe",
+      "basis": "'Our product portfolio covers diesel generator sets up to 3,250 kWe (60 Hz) and up to 4,000 kVA (50 Hz).'",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": 3250
+    },
+    {
+      "metric": "Portfolio maximum 50 Hz",
+      "unit": "kVA",
+      "basis": "As above.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Load factor standby / prime",
+      "unit": "%",
+      "basis": "'85% load factor for standby applications and 75% for prime power'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "85% / 75%"
+    },
+    {
+      "metric": "Transient operation claim",
+      "unit": "n/a",
+      "basis": "Wide range of applications / transient operation bullets.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "Superior transient operation, industry leading load factors in extreme ambient conditions"
+    },
+    {
+      "metric": "Sustainable fuel approval",
+      "unit": "n/a",
+      "basis": "'mtu Series 4000 and Series 1600 engines for power generation are approved to run on synthetic paraffinic diesel fuels in accordance with EN 15940, which includes the biofuel HVO'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO"
+    },
+    {
+      "metric": "Power range - mtu Series 4000",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 4000 POWER RANGE: 50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe"
+    },
+    {
+      "metric": "Power range - mtu Series 2000",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 2000 POWER RANGE: 50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe"
+    },
+    {
+      "metric": "Power range - mtu Series 1600",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 1600 POWER RANGE: 50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe"
+    },
+    {
+      "metric": "Power range - mtu Series 0080 - mtu Series 0225",
+      "unit": "kVA / kWe",
+      "basis": "mtu diesel generator sets 'Output range' portfolio section, verbatim: 'mtu Series 0080 - mtu Series 0225 POWER RANGE: 50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe'.",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe"
+    },
+    {
+      "metric": "Series 4000 brochure link",
+      "unit": "n/a",
+      "basis": "'Ensure a Constant Flow of Power. And Peace of Mind - Our Series 4000' brochure listed under Download Brochures (PDF 5 MB).",
+      "source": {
+        "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
+      },
+      "value": "16120753_PowerGeneration_S4000_Diesel_brochure.pdf"
     }
   ],
   "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
@@ -58,6 +148,13 @@
       "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     }
   ],
-  "notes": "HVO to EN 15940 approved on Series 4000/1600",
-  "last_reviewed": "2026-11-24"
+  "notes": "HVO to EN 15940 approved on Series 4000/1600 Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Per-model spec sheets",
+      "why": "Page gives series-level power ranges only and points to a product finder; individual models are not tabulated here.",
+      "next_action": "Fetch per-model PDF spec sheets if individual ratings/dimensions are required."
+    }
+  ]
 }

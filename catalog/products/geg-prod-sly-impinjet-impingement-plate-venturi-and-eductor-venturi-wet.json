@@ -87,6 +87,103 @@
         "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
         "source_id": "geg-slyinc-com-wetscrubber-pdf-4ffbda4"
       }
+    },
+    {
+      "metric": "Impinjet capacity range",
+      "unit": "CFM (over)",
+      "basis": "Sly Wet Scrubber Application Guide: 'Capacities range from 500 to over 100,000 CFM.'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      },
+      "low": 500,
+      "high": 100000
+    },
+    {
+      "metric": "Impinjet water requirement",
+      "unit": "GPM per 1,000 ACFM",
+      "basis": "Sly: 'water requirements vary from less than 1-1/2 GPM per 1,000 ACFM to a typical 3 GPM per 1,000 ACFM'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      },
+      "low": 1.5,
+      "high": 3
+    },
+    {
+      "metric": "Impinjet particulate efficiency",
+      "unit": "%",
+      "basis": "Sly: '98+% collection efficiency for particles 5 microns in size or larger'; 'efficiencies in excess of 99% on many types of dust or gases'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      },
+      "low": 98,
+      "high": 99
+    },
+    {
+      "metric": "Gas velocity through plate holes",
+      "unit": "feet/second",
+      "basis": "Sly: 'Gas velocities of 60 to 75 feet/second through the holes result in thousands of jets which atomize the liquid into droplets on the order of 100 microns in diameter'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      },
+      "low": 60,
+      "high": 75
+    },
+    {
+      "metric": "Maximum Impinjet shell velocity for sizing",
+      "unit": "feet/minute",
+      "basis": "Sly: 'For Impinjet scrubbers, the maximum capacity is based on shell velocity of 500 feet per minute.'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Outlet gas cooling",
+      "unit": "deg F above incoming liquid",
+      "basis": "Sly: 'The outlet gas can be cooled to less than 5°F above the temperature of the incoming liquid.'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Documented case: hazardous vapours",
+      "unit": "text",
+      "basis": "Sly case study: 'The system handles 2,500 CFM. Efficiencies exceeding 95% are reported.'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Documented case: medical waste incinerator",
+      "unit": "text",
+      "basis": "Sly: '7258 CFM of gas at 1800°F from a 100 lb. per hour incinerator is handled by this skid-mounted wet gas scrubber'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Documented case: eductor/packed tower",
+      "unit": "text",
+      "basis": "Sly: 'stainless steel construction, designed for 500 CFM'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Volume correction example",
+      "unit": "text",
+      "basis": "Sly: '10,000 ACFM @ 450°F containing 0.15# H2O/# dry air. The chart shows a correction factor of 0.75... 7500 ACFM ... Diameter = 4.37 ft'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Scrubber types",
+      "unit": "text",
+      "basis": "Sly: 'Three Types of Wet Scrubbers To Remove Vapors, Gases and Particulate: Impingement Plate, Venturi, Eductor Venturi'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
     }
   ],
   "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
@@ -96,6 +193,6 @@
       "source_id": "geg-slyinc-com-wetscrubber-pdf-4ffbda4"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 11 new printed parameters."
 }

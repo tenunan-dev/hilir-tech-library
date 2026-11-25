@@ -59,6 +59,25 @@
         "source_id": "cat-slb-com-dl-annular-bop"
       },
       "value": "High-performance CAMULAR annular elastomer technology"
+    },
+    {
+      "metric": "Working pressures",
+      "unit": "psi",
+      "basis": "Working pressures 2,000 to 10,000 psi",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
+      },
+      "low": 2000,
+      "high": 10000
+    },
+    {
+      "metric": "BOP type",
+      "unit": "n/a",
+      "basis": "DL High-Pressure Annular BOP",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
+      },
+      "value": "DL High-Pressure Annular BOP"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
@@ -67,6 +86,6 @@
       "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     }
   ],
-  "notes": "NACE MR0175 H2S service compliance stated on page. A 'DL High-Pressure Annular BOP' brochure PDF is linked on the page (https://www.slb.com/-/media/files/cam-drlg-pc/brochure/dl-bop-br.pdf) but was not fetched; no figures from the PDF are asserted.",
-  "last_reviewed": "2026-11-24"
+  "notes": "NACE MR0175 H2S service compliance stated on page. A 'DL High-Pressure Annular BOP' brochure PDF is linked on the page (https://www.slb.com/-/media/files/cam-drlg-pc/brochure/dl-bop-br.pdf) but was not fetched; no figures from the PDF are asserted. Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

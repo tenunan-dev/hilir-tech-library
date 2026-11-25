@@ -41,6 +41,182 @@
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",
         "source_id": "geg-donaldson-com-air-intake-systems-product-gui-8ce900e"
       }
+    },
+    {
+      "metric": "Pre-cleaner separation efficiency: Strata Cap",
+      "unit": "%",
+      "basis": "Pre-cleaner Technology table: Strata Cap (Plastic)",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 96
+    },
+    {
+      "metric": "Pre-cleaner separation efficiency: Donaspin",
+      "unit": "%",
+      "basis": "Pre-cleaner Technology table: Donaspin (Steel)",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 90
+    },
+    {
+      "metric": "Pre-cleaner separation efficiency: TopSpin",
+      "unit": "%",
+      "basis": "Pre-cleaner Technology table: TopSpin (Plastic)",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 85
+    },
+    {
+      "metric": "Pre-cleaner separation efficiency: TopSpin HD",
+      "unit": "%",
+      "basis": "Pre-cleaner Technology table: TopSpin HD (Aluminum/Stainless Steel)",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Pre-cleaner separation efficiency: In-Line Separator",
+      "unit": "%",
+      "basis": "Pre-cleaner Technology table: In-Line Separator (Steel)",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 70
+    },
+    {
+      "metric": "Pre-cleaner separation efficiency: Full-View",
+      "unit": "%",
+      "basis": "Pre-cleaner Technology table: Full-View (Steel/Plastic)",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 75
+    },
+    {
+      "metric": "Strata tubes contaminant removal",
+      "unit": "%",
+      "basis": "'Strata Tubes offer low airflow restriction with efficient contaminant removal of up to 99%'",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 99
+    },
+    {
+      "metric": "Natural airflow specific airflow (English)",
+      "unit": "'Airflow (CFM) = HP (SAE) x SA'; 4-stroke naturally aspirated diesel 2.0; turbo charged 2.",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 2.0,
+      "low": 2.3,
+      "high": "CFM per HP"
+    },
+    {
+      "metric": "2-stroke SA values (English)",
+      "unit": "'2-stroke naturally aspirated 2.0; scavenge blower 3.3; turbo charged 3.6'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 2.0,
+      "low": 3.6,
+      "high": "CFM per HP"
+    },
+    {
+      "metric": "Metric specific airflow",
+      "unit": "'4-stroke naturally aspirated diesel 0.057; turbo 0.065; 2-stroke scavenge blower 0.093; 2",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 0.057,
+      "low": 0.102,
+      "high": "m3/min per HP"
+    },
+    {
+      "metric": "Volumetric efficiency 4-stroke",
+      "unit": "'VE 4-Stroke: 0.90 naturally aspirated gas/diesel; 1.60 turbo diesel; 1.85 turbo after coo",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 0.9,
+      "low": 1.85,
+      "high": "ratio"
+    },
+    {
+      "metric": "Volumetric efficiency 2-stroke",
+      "unit": "'VE 2-Stroke: 0.90 naturally aspirated diesel; 1.40 scavenge blower; 1.90 turbo charged'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 0.9,
+      "low": 1.9,
+      "high": "ratio"
+    },
+    {
+      "metric": "Pre-configured system lead time",
+      "unit": "'avoid manufacturing lead times (8 – 12 weeks)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 8,
+      "low": 12,
+      "high": "weeks"
+    },
+    {
+      "metric": "Test cell capability",
+      "unit": "kW",
+      "basis": "'Up to 600 kW / 800 hp capability'",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 600
+    },
+    {
+      "metric": "Test cell capability",
+      "unit": "hp",
+      "basis": "same statement",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 800
+    },
+    {
+      "metric": "Polymer coating life vs paint",
+      "unit": "'This polymer coating lasts five to 10 times longer than traditional paint'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 5,
+      "low": 10,
+      "high": "times"
+    },
+    {
+      "metric": "Polymer coating hardness vs solvent paint",
+      "unit": "times",
+      "basis": "'Polymer coating is up to 17 times harder than most solvent-based paint'",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 17
+    },
+    {
+      "metric": "Product guide page count",
+      "unit": "pages",
+      "basis": "PDF metadata: Number of Pages 324",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "value": 324
     }
   ],
   "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",
@@ -50,6 +226,13 @@
       "source_id": "geg-donaldson-com-air-intake-systems-product-gui-8ce900e"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 18 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Full 324-page dimension and airflow tables",
+      "why": "Only the first portion of the 324-page PDF was read; the guide contains extensive per-model CFM/restriction tables",
+      "next_action": "Page through the full PDF for every model table"
+    }
+  ]
 }

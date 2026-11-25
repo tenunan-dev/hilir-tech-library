@@ -27,6 +27,33 @@
         "source_id": "cat-bakerhughes-com-gas-lift-valves"
       },
       "value": "121"
+    },
+    {
+      "metric": "Valve types offered",
+      "unit": "n/a",
+      "basis": "Injection pressure and production pressure-operated valves; Tubing retrievable valves; Wireline-retrievable orifice, dummy, circulating, and chemical injection valves",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
+      },
+      "value": "Injection pressure and production pressure-operated valves; tubing retrievable valves; wireline-retrievable orifice, dummy, circulating, and chemical injection valves"
+    },
+    {
+      "metric": "Mandrel compatibility",
+      "unit": "n/a",
+      "basis": "Our gas lift valves are designed for installation in any Baker Hughes side pocket and tubing retrievable mandrel. They are also fully compatible with mandrels provided from other manufacturers",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
+      },
+      "value": "Any Baker Hughes side pocket and tubing retrievable mandrel; fully compatible with mandrels from other manufacturers"
+    },
+    {
+      "metric": "Reverse flow check",
+      "unit": "n/a",
+      "basis": "An integral reverse flow check valve to prevent reverse flow communication",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
+      },
+      "value": "Integral reverse flow check valve"
     }
   ],
   "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
@@ -35,6 +62,6 @@
       "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     }
   ],
-  "notes": "Integral reverse-flow check valve; stainless steel construction with premium materials available; standard neoprene packing. Page references BOTipod gas lift software for valve placement. No pressure rating printed.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Integral reverse-flow check valve; stainless steel construction with premium materials available; standard neoprene packing. Page references BOTipod gas lift software for valve placement. No pressure rating printed. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -37,6 +37,118 @@
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
       "value": 5800
+    },
+    {
+      "metric": "Energy range",
+      "unit": "'3500S Energy range 320-3500 kJ'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 320,
+      "low": 3500,
+      "high": "kJ"
+    },
+    {
+      "metric": "Recommended oil flow",
+      "unit": "L/min",
+      "basis": "'Recommended oil flow 5800 L/min' (3500S)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 5800
+    },
+    {
+      "metric": "Average operating pressure",
+      "unit": "bar",
+      "basis": "'Average operating pressure 240 bar' (3500S)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 240
+    },
+    {
+      "metric": "Blow rate",
+      "unit": "bl/min",
+      "basis": "'Blow rate at recommended oil flow 32 bl/min' (3500S)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 32
+    },
+    {
+      "metric": "Weight above water - 4 m foot",
+      "unit": "t",
+      "basis": "'MHU3500S - 4 m Foot 341 t'",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 341
+    },
+    {
+      "metric": "Weight above water - 102in-4m OD UW",
+      "unit": "t",
+      "basis": "'MHU3500S - 4 m: 102\" - 4 m OD UW 564 t'",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 564
+    },
+    {
+      "metric": "Weight submerged - 102in-4m OD UW",
+      "unit": "t",
+      "basis": "Acteon hydraulic hammers page, Menck 3500S block; announcement of sale to Cadeler 11 Aug 2026 same row",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 433
+    },
+    {
+      "metric": "Weight above water - 6.5-8 m OD AW",
+      "unit": "t",
+      "basis": "'MHU3500S - 4 m: 6.5 - 8 m OD AW 673 t' (Renewables configuration)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 673
+    },
+    {
+      "metric": "Weight above water - 3 m 5-7.5 m OD AW",
+      "unit": "t",
+      "basis": "'MHU3500S - 3 m: 5 m - 7.5 m OD AW 621 t' (Renewables configuration)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 621
+    },
+    {
+      "metric": "Full hammer spread energy range",
+      "unit": "'double-acting hydraulic hammers (100 kJ to 6,250 kJ)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 100,
+      "low": 6250,
+      "high": "kJ"
+    },
+    {
+      "metric": "Wind turbine foundations driven",
+      "unit": "foundations",
+      "basis": "'2,500+ Wind turbine foundations driven'",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 2500
+    },
+    {
+      "metric": "Maximum single hammer energy",
+      "unit": "kJ",
+      "basis": "'Energy range up to 6,250 kJ' (6000W model)",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 6250
     }
   ],
   "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
@@ -45,6 +157,6 @@
       "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     }
   ],
-  "notes": "O&G and renewables.",
-  "last_reviewed": "2026-11-24"
+  "notes": "O&G and renewables. Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

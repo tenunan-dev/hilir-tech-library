@@ -27,6 +27,33 @@
         "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
       },
       "value": "deepwater, HPHT wellhead and downhole; sour-resistant options"
+    },
+    {
+      "metric": "application_environment",
+      "unit": "n/a",
+      "basis": "Our connectors are designed and manufactured primarily for use in hostile environments... Suitable for deepwater and high-pressure, high-temperature wellhead, and downhole applications",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
+      },
+      "value": "hostile environments, both subsea and downhole; suitable for deepwater and high-pressure, high-temperature wellhead and downhole applications"
+    },
+    {
+      "metric": "sealing_system",
+      "unit": "n/a",
+      "basis": "Product feature bullet",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
+      },
+      "value": "Dual-barrier system provides best-in-class mechanical and electrical sealing"
+    },
+    {
+      "metric": "design_experience",
+      "unit": "years",
+      "basis": "Over 20 years, our highly skilled engineers have provided leading-edge design and development expertise",
+      "source": {
+        "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
+      },
+      "value": 20
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
@@ -35,6 +62,13 @@
       "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     }
   ],
-  "notes": "Dry- and wet-mateable variants.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Dry- and wet-mateable variants. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Diamould connector voltage/current/pin-count/depth ratings",
+      "why": "Family page prints no numerical connector ratings and does not name Diamould explicitly",
+      "next_action": "Fetch the Diamould-specific datasheet from OneSubsea resource library"
+    }
+  ]
 }

@@ -47,6 +47,55 @@
         "source_id": "cat-oceaneering-com"
       },
       "value": "Umbilical I- and J-Tube Seals; Pull-In and Hang Off Systems; Subsea Umbilical Termination Interfaces; Tie Back or Tie Down Collars; Subsea Umbilical Weak Links"
+    },
+    {
+      "metric": "Umbilical length delivered (as printed)",
+      "unit": "km",
+      "basis": "'We have delivered more than 0 km of subsea umbilical control systems' - figure printed as 0; retained verbatim as a conflict/likely placeholder",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      },
+      "value": 0
+    },
+    {
+      "metric": "Product families",
+      "unit": "n/a",
+      "basis": "'Steel Tube umbilical', 'Thermoplastic umbilical', 'Power umbilical', 'IWOCS umbilical'",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      }
+    },
+    {
+      "metric": "Junction plates",
+      "unit": "n/a",
+      "basis": "'M Series junction plates with fixed, configurable, and removable assemblies'",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      }
+    },
+    {
+      "metric": "Flying leads",
+      "unit": "n/a",
+      "basis": "'Modular designs for hydraulic, electro-hydraulic, and hybrid applications'; 'primary conduit section—typically steel tubes or thermoplastic hoses'",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      }
+    },
+    {
+      "metric": "UTA features",
+      "unit": "n/a",
+      "basis": "'Configurable side panels offer hydraulic, electrical, and fiber optic connectivity solutions'",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "'designed to support global deepwater applications'; 'array and export cables for the renewable energy market'",
+      "source": {
+        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
+      }
     }
   ],
   "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
@@ -55,6 +104,13 @@
       "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     }
   ],
-  "notes": "HTML index page read; each item links to a separate PDF datasheet (not WebFetch-readable). The page's 'more than 0 km' counter is a rendering artifact and is not reported as a figure.",
-  "last_reviewed": "2026-11-24"
+  "notes": "HTML index page read; each item links to a separate PDF datasheet (not WebFetch-readable). The page's 'more than 0 km' counter is a rendering artifact and is not reported as a figure. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Umbilical delivered-length figure",
+      "why": "Page prints 'more than 0 km', evidently a placeholder not a real value; no pressure/depth ratings printed",
+      "next_action": "Consult the linked PDF datasheets for each umbilical type"
+    }
+  ]
 }

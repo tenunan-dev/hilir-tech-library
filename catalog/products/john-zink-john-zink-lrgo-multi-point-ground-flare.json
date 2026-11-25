@@ -27,6 +27,42 @@
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
       "value": "available"
+    },
+    {
+      "metric": "destruction_efficiency",
+      "unit": "%",
+      "basis": "Low Emissions: This system has demonstrated the highest destruction efficiency (typically > 99.5%) of any flare type",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "low": 99.5
+    },
+    {
+      "metric": "smokeless_operation",
+      "unit": "n/a",
+      "basis": "Smokeless Performance: Design is capable of producing 100% smokeless operation at high flow rates",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "value": "100% smokeless operation at high flow rates"
+    },
+    {
+      "metric": "standard",
+      "unit": "n/a",
+      "basis": "Available API 537 Compliance: Ensures compliance with the latest Industry flare standards",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "value": "Available API 537 Compliance"
+    },
+    {
+      "metric": "technology",
+      "unit": "n/a",
+      "basis": "Smokeless Performance feature",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "value": "High pressure technology with staging allows smokeless operation for the full range of flows"
     }
   ],
   "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
@@ -35,6 +71,6 @@
       "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     }
   ],
-  "notes": "Highest total smokeless rate claim; staging for turndown",
-  "last_reviewed": "2026-11-24"
+  "notes": "Highest total smokeless rate claim; staging for turndown Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

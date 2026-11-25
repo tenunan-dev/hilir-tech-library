@@ -95,6 +95,81 @@
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
         "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
       }
+    },
+    {
+      "metric": "SULFURIX - single-stage sulfide removal",
+      "unit": "% (in general, about 80-95%)",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "low": 80,
+      "high": 95
+    },
+    {
+      "metric": "SULFURIX - two-stage combined removal efficiency",
+      "unit": "% (more than 99% in many cases)",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "value": 99
+    },
+    {
+      "metric": "SULFURIX - feed H2S concentration suitability",
+      "unit": "% (particularly suitable for H2S rich biogas >1%)",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "value": 1
+    },
+    {
+      "metric": "SULFURIX - standard tower heights",
+      "unit": "m (approximately 20-30 ft)",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "low": 6,
+      "high": 9
+    },
+    {
+      "metric": "SULFURIX - biogas flow range",
+      "unit": "m3/h (100 to >1000 m3/h; about 60 to >600 scfm)",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "low": 100,
+      "high": 1000
+    },
+    {
+      "metric": "SULFURIX - assumed wash liquid conditions",
+      "unit": "n/a",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "value": "Activated sludge at pH 7.3 and 30 degC (standard conditions)"
+    },
+    {
+      "metric": "SULFURIX - construction materials",
+      "unit": "n/a",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "value": "Corrosion-proof anti-static HDPE and polyester"
+    },
+    {
+      "metric": "SULFURIX - pressure loss / blower requirement",
+      "unit": "n/a",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "value": "Minimal pressure loss; typically no biogas blowers required"
     }
   ],
   "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
@@ -104,6 +179,6 @@
       "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 8 new printed parameters."
 }

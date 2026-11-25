@@ -37,6 +37,117 @@
         "source_id": "tii-group-com-spmt-scheuerle-spmt"
       },
       "value": "±1–2"
+    },
+    {
+      "metric": "Axle load",
+      "unit": "t",
+      "basis": "'up to a maximum of 60 tons per axle line' / '60 t axle load'",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 60
+    },
+    {
+      "metric": "Power",
+      "unit": "HP",
+      "basis": "'530 HP power'",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 530
+    },
+    {
+      "metric": "Axle compensation",
+      "unit": "mm",
+      "basis": "'700 mm axle compensation'",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 700
+    },
+    {
+      "metric": "Axle line options",
+      "unit": "'platforms with 3, 4, 5, or 6 axle lines'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 3,
+      "low": 6,
+      "high": "axle lines"
+    },
+    {
+      "metric": "Market launch year",
+      "unit": "year",
+      "basis": "'revolutionizing the transport industry since its market launch in 1983'",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 1983
+    },
+    {
+      "metric": "Global fleet",
+      "unit": "axle lines",
+      "basis": "'Over 30,000 axle lines in the market'",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 30000
+    },
+    {
+      "metric": "Positioning accuracy",
+      "unit": "'high positioning accuracy of +/- 1-2 mm'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 1,
+      "low": 2,
+      "high": "mm"
+    },
+    {
+      "metric": "Outer width",
+      "unit": "mm",
+      "basis": "'The outer width of the SCHEUERLE SPMT of 2430 mm allows ... standard flat-deck containers'",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 2430
+    },
+    {
+      "metric": "Remote control weight",
+      "unit": "kg",
+      "basis": "'radio remote control ... weighs only 3.5 kg'",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "Remote control display",
+      "unit": "inch",
+      "basis": "'35-inch TFT display'",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 35
+    },
+    {
+      "metric": "Coupling steps",
+      "unit": "steps",
+      "basis": "'modules can be connected or separated in just 3 simple process steps'",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      },
+      "value": 3
+    },
+    {
+      "metric": "New features",
+      "unit": "n/a",
+      "basis": "'COG Easy Mode', 'Tire Pressure Monitoring System (TPMS)', 'Over the air updates'",
+      "source": {
+        "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
+      }
     }
   ],
   "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt",
@@ -45,6 +156,6 @@
       "url": "https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt"
     }
   ],
-  "notes": "Page read",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

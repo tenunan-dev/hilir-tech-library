@@ -17,6 +17,42 @@
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
       "value": "compact robust remote I/O for high availability"
+    },
+    {
+      "metric": "System version",
+      "unit": "n/a",
+      "basis": "SIMATIC PCS 7 V10.0 boosts plant performance and security with NIS2-compliant cybersecurity",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "SIMATIC PCS 7 V10.0"
+    },
+    {
+      "metric": "Remote I/O",
+      "unit": "n/a",
+      "basis": "A key solution is SIMATIC ET 200SP HA, a compact robust remote I/O designed for high availability today.",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "SIMATIC ET 200SP HA — compact robust remote I/O designed for high availability"
+    },
+    {
+      "metric": "Startup time improvement",
+      "unit": "%",
+      "basis": "MTP integration for up to 75% faster startup",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "high": 75
+    },
+    {
+      "metric": "Cybersecurity compliance",
+      "unit": "n/a",
+      "basis": "with full IEC 62443-4-1 and IEC 62443-3-3 compliance.",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "IEC 62443-4-1 and IEC 62443-3-3"
     }
   ],
   "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
@@ -25,6 +61,6 @@
       "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

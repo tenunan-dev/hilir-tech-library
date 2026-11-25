@@ -17,6 +17,51 @@
         "source_id": "sys-slb-com-processing-and-separation"
       },
       "value": "oil-in-water separation (Oman case study)"
+    },
+    {
+      "metric": "Product name",
+      "unit": "n/a",
+      "basis": "Produced water treatment technology list: EPCON Dual Compact Flotation Unit",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "EPCON Dual Compact Flotation Unit"
+    },
+    {
+      "metric": "Technology category",
+      "unit": "n/a",
+      "basis": "Achieve next-generation water treatment; produced water treatment technologies list",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "Compacted flotation for produced water treatment"
+    },
+    {
+      "metric": "Reference",
+      "unit": "n/a",
+      "basis": "Case study title printed on the Processing and Separation page",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "EPCON CFU Compact Flotation Unit Technology Achieves Successful Oil-in-Water Separation, Oman"
+    },
+    {
+      "metric": "Related technologies",
+      "unit": "n/a",
+      "basis": "Technology list under Produced water treatment and Solids Management",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "VORTOILdeoiling hydrocyclone; WEMCO DEPURATOR Unit; WEMCO ISF Hydraulically Induced Gas Flotation System; WEMCO PACESETTER Separator; WEMCO SILVER BAND Separator; MOZLEY Desanding Hydrocyclone Separat"
+    },
+    {
+      "metric": "Value proposition",
+      "unit": "n/a",
+      "basis": "Plan for the future with technologies that separate and treat oil, water, and gas using minimal chemicals and energy",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+      },
+      "value": "separate and treat oil, water, and gas using minimal chemicals and energy"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
@@ -25,6 +70,13 @@
       "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     }
   ],
-  "notes": "Case-study detail page not fetched.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Case-study detail page not fetched. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "EPCON CFU capacity, oil-in-water outlet quality, and footprint",
+      "why": "Category page lists product name only; no numeric specifications printed",
+      "next_action": "Fetch the dedicated EPCON CFU datasheet from SLB"
+    }
+  ]
 }

@@ -27,6 +27,96 @@
         "source_id": "ten-com-markets-loading-systems"
       },
       "value": 57
+    },
+    {
+      "metric": "Patents",
+      "unit": "n/a",
+      "basis": "57 patents",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": 57
+    },
+    {
+      "metric": "Experience",
+      "unit": "years",
+      "basis": "70+ years of experience",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "70+"
+    },
+    {
+      "metric": "Installed loading arms",
+      "unit": "n/a",
+      "basis": "+15K installed loading arms",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "+15,000"
+    },
+    {
+      "metric": "Employees worldwide",
+      "unit": "+",
+      "basis": "300+ employees worldwide",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Shore-to-ship product range",
+      "unit": "n/a",
+      "basis": "Rethinking onshore operations with shore-to-ship transfer solutions and our product range of ChemConnect, GasConnect, CO2Connect by T.EN™, PrimeConnect and H2Connect",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "ChemConnect, GasConnect, CO2Connect by T.EN™, PrimeConnect, H2Connect"
+    },
+    {
+      "metric": "Ship-to-ship product range",
+      "unit": "n/a",
+      "basis": "Customized solutions for offshore transfer systems with our ship-to-ship transfer solutions and our product range of DynaConnect, ARCOS, OLAF and ATOL",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "DynaConnect, ARCOS, OLAF, ATOL"
+    },
+    {
+      "metric": "eMAX",
+      "unit": "n/a",
+      "basis": "Unlock the future by elevating your loading arm experience with our eMAX series",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "eMAX Series loading arms"
+    },
+    {
+      "metric": "CO2Connect",
+      "unit": "n/a",
+      "basis": "CO₂Connect by T.EN™ is the world's first liquefied marine loading arm",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "world's first liquefied marine loading arm, designed to transfer CO₂ from point of capture to destination for utilization or storage"
+    },
+    {
+      "metric": "Transfer capability",
+      "unit": "n/a",
+      "basis": "manage a variety of fluids and gases at normal, high and very low temperatures and at different levels of operating pressures",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "fluids and gases at normal, high and very low temperatures and different operating pressures"
+    },
+    {
+      "metric": "History",
+      "unit": "n/a",
+      "basis": "One of our main activities since the 1950s has been supplying marine loading arms for onshore and offshore use",
+      "source": {
+        "url": "https://www.ten.com/en/markets/loading-systems"
+      },
+      "value": "supplying marine loading arms since the 1950s"
     }
   ],
   "url": "https://www.ten.com/en/markets/loading-systems",
@@ -35,6 +125,6 @@
       "url": "https://www.ten.com/en/markets/loading-systems"
     }
   ],
-  "notes": "Also available via Flowtork in the Philippines with size/pressure data.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Also available via Flowtork in the Philippines with size/pressure data. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

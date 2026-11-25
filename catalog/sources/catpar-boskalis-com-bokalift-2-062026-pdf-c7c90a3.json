@@ -1,0 +1,25 @@
+{
+  "id": "catpar-boskalis-com-bokalift-2-062026-pdf-c7c90a3",
+  "name": "boskalis.com",
+  "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Boskalis.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Maximum 146 persons (Bokalift 2 factsheet 06-2026)"
+}

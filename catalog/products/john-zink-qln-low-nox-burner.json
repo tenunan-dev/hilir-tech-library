@@ -47,6 +47,42 @@
       },
       "unit": "application",
       "value": "Once-through steam generators (OTSGs) and heaters"
+    },
+    {
+      "metric": "QLN burner - firing capacity",
+      "unit": "MMBTU/HR HHV (up to)",
+      "basis": "John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln"
+      },
+      "value": 450
+    },
+    {
+      "metric": "QLN burner - fuels",
+      "unit": "n/a",
+      "basis": "John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln"
+      },
+      "value": "Gas and #2/light oil firing"
+    },
+    {
+      "metric": "QLN burner - NOx reduction method",
+      "unit": "n/a",
+      "basis": "John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln"
+      },
+      "value": "Advanced air/fuel premixing, fuel staging and internal flue gas recirculation (FGR)"
+    },
+    {
+      "metric": "QLN burner - applications",
+      "unit": "n/a",
+      "basis": "John Zink 'QLN Low NOx Burners' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/powerburners/qln"
+      },
+      "value": "Once-through steam generators (OTSGs) and heaters; diffuse flame for process heaters"
     }
   ],
   "url": "https://www.johnzink.com/products/powerburners/qln",
@@ -55,6 +91,6 @@
       "url": "https://www.johnzink.com/products/powerburners/qln"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown). No numeric NOx ppm value printed on this page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). No numeric NOx ppm value printed on this page. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -27,6 +27,33 @@
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
       "value": "III"
+    },
+    {
+      "metric": "tandem_lift_capacity",
+      "unit": "metric tons",
+      "basis": "Thialf is capable of a tandem lift of 14,200 metric tons",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 14200
+    },
+    {
+      "metric": "year_built",
+      "unit": "year",
+      "basis": "The vessel was built in 1985",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 1985
+    },
+    {
+      "metric": "dynamic_positioning",
+      "unit": "n/a",
+      "basis": "equipped with a class III dynamic positioning system",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": "class III dynamic positioning system"
     }
   ],
   "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
@@ -35,6 +62,6 @@
       "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     }
   ],
-  "notes": "Built 1985; lifting draft 26.6 m.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Built 1985; lifting draft 26.6 m. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

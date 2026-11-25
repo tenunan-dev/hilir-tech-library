@@ -49,6 +49,86 @@
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
       "high": "50+"
+    },
+    {
+      "metric": "Inlet diameter",
+      "unit": "Burgess-Manning Preset Vent Silencers technical data tab; product sheet dated 2026/02, cap",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/"
+      },
+      "value": 2,
+      "low": 12,
+      "high": "in"
+    },
+    {
+      "metric": "Casing diameter",
+      "unit": "Burgess-Manning Preset Vent Silencers technical data tab; product sheet dated 2026/02, cap",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/"
+      },
+      "value": 8,
+      "low": 24,
+      "high": "in"
+    },
+    {
+      "metric": "Standard design temperature",
+      "unit": "degC",
+      "basis": "Burgess-Manning Preset Vent Silencers technical data tab; product sheet dated 2026/02, capabilities brochure 2026/09",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Enhanced noise attenuation",
+      "unit": "dB",
+      "basis": "'Up to 50+ dB' under 'Enhanced Noise Attenuation'; 'Typical acoustic performance (no guaranteed noise attenuation)'",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "'Standard primed carbon steel construction'; 'Fully welded construction'; 'Cylindrical design'; 'Self-supported on discharge pipe'",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/"
+      }
+    },
+    {
+      "metric": "Materials",
+      "unit": "n/a",
+      "basis": "'Materials: Carbon steel ASTM/ASME'",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/"
+      }
+    },
+    {
+      "metric": "Connections",
+      "unit": "n/a",
+      "basis": "'supplied with either a butt-weld or flanged inlet connection'",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/"
+      }
+    },
+    {
+      "metric": "Design codes",
+      "unit": "n/a",
+      "basis": "'Design Codes: None'; 'Certifications: None'",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/"
+      }
+    },
+    {
+      "metric": "Temporary vent down usage",
+      "unit": "n/a",
+      "basis": "'Steam', 'Air'",
+      "source": {
+        "url": "https://burgessmanning.com/preset-vent-silencers/"
+      }
     }
   ],
   "url": "https://burgessmanning.com/preset-vent-silencers/",
@@ -57,6 +137,6 @@
       "url": "https://burgessmanning.com/preset-vent-silencers/"
     }
   ],
-  "notes": "Self-supported on discharge pipe; transformative and absorptive acoustic principles. Read in full this session.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Self-supported on discharge pipe; transformative and absorptive acoustic principles. Read in full this session. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

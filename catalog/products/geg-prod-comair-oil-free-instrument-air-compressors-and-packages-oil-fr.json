@@ -94,6 +94,87 @@
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
       }
+    },
+    {
+      "metric": "Continuous running proven",
+      "unit": "hours",
+      "basis": "\"designed and proved to be of reliable performance for over 8,000 hours continuous running\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 8000
+    },
+    {
+      "metric": "Motor protection",
+      "unit": "IP55",
+      "basis": "\"Our compressors are all IP55 protection grade fully preventing any dust from damaging motors\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 55
+    },
+    {
+      "metric": "Maximum delivery pressure",
+      "unit": "bar (over)",
+      "basis": "\"oil free and dusts free air of over 40 bar and 100,000 Nm3/hr\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Maximum flow",
+      "unit": "Nm3/hr (over)",
+      "basis": "\"oil free and dusts free air of over 40 bar and 100,000 Nm3/hr\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "Pressure dew point",
+      "unit": "degC (as low as)",
+      "basis": "\"the pressure dew point could reach to -70℃, driest possible in the industry\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": -70
+    },
+    {
+      "metric": "VSD running cost saving",
+      "unit": "% (as much as)",
+      "basis": "\"VSD type could save as much as 30% running cost\" / \"save as much as 30% electricity\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Oil-free air quality class",
+      "unit": "ISO 8573-1 class 0",
+      "basis": "\"Discharging ISO 8573-1 class 0 certified oil free air with 24/7 continuous operation\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      }
+    },
+    {
+      "metric": "Typical instrument air pressure",
+      "unit": "bar",
+      "basis": "\"Normally the instrument air compressors are required to discharge around 7-10 bar\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "low": 7,
+      "high": 10
+    },
+    {
+      "metric": "Instrument air compressor types",
+      "unit": "types listed",
+      "basis": "Six types listed: oil free screw, oil free centrifugal, oil free piston, oil free scroll, diesel portable oil free, integrated screw",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 6
     }
   ],
   "url": "https://comairflow.com/instrument-air-compressor",
@@ -103,6 +184,13 @@
       "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Per-model flow, pressure and power tables for each compressor type",
+      "why": "Page gives portfolio-level maxima only",
+      "next_action": "Fetch individual model pages if model-level figures needed"
+    }
+  ]
 }

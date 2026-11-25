@@ -43,6 +43,221 @@
         "url": "https://patents.google.com/patent/EP3137745B1/en",
         "source_id": "geg-patents-google-com-en-70a2d76"
       }
+    },
+    {
+      "metric": "Engine power range",
+      "unit": "'500 to 4500 Kilowatt (kW) engines' in patent title and claims",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 500,
+      "low": 4500,
+      "high": "kW"
+    },
+    {
+      "metric": "Subrange 1",
+      "unit": "'between about 500 kW and about 1000 kW (1 MW)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 500,
+      "low": 1000,
+      "high": "kW"
+    },
+    {
+      "metric": "Subrange 2",
+      "unit": "'from about 1000 kW (1 MW) to about 2000 kW (2 MW)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 1000,
+      "low": 2000,
+      "high": "kW"
+    },
+    {
+      "metric": "Subrange 3",
+      "unit": "'from about 2000 kW (2 MW) to about 4500 kW (4.5 MW)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 2000,
+      "low": 4500,
+      "high": "kW"
+    },
+    {
+      "metric": "NSR range",
+      "unit": "'the NSR can range from about 0.1 to about 2'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 0.1,
+      "low": 2,
+      "high": "ratio"
+    },
+    {
+      "metric": "Preferred NSR",
+      "unit": "'preferably is within the range from 0.6 to 1.2, inclusive'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 0.6,
+      "low": 1.2,
+      "high": "ratio"
+    },
+    {
+      "metric": "Urea concentration range",
+      "unit": "'concentration of urea in the aqueous solution can range from about 5 to 70%'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 5,
+      "low": 70,
+      "high": "%"
+    },
+    {
+      "metric": "Preferred urea concentration",
+      "unit": "'preferably from about 15 to about 60%'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 15,
+      "low": 60,
+      "high": "%"
+    },
+    {
+      "metric": "More preferred urea concentration",
+      "unit": "'more preferably from about 30 to about 40%'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 30,
+      "low": 40,
+      "high": "%"
+    },
+    {
+      "metric": "Urea decomposition temperature",
+      "unit": "degC",
+      "basis": "'an aqueous urea solution decomposes at temperatures above 140°C to form ammonia and isocyanic acid'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 140
+    },
+    {
+      "metric": "Catalyst cell density",
+      "unit": "'45 to 400 cells per square inch (cpsi), more preferable 70 to 300 cpsi and even more pref",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 45,
+      "low": 400,
+      "high": "cpsi"
+    },
+    {
+      "metric": "Preferred catalyst brick cross section",
+      "unit": "mm x mm",
+      "basis": "'a cross section of about 150 x 150 mm2'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 150
+    },
+    {
+      "metric": "Exhaust gas temperature minimum",
+      "unit": "degC",
+      "basis": "'the temperature of the combustion gases ... should be at least about 100 °C'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Typical exhaust gas temperature",
+      "unit": "'typically between about 180° and about 650 °C, and preferably above at least about 250 °C",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 180,
+      "low": 650,
+      "high": "degC"
+    },
+    {
+      "metric": "Test engine displacement",
+      "unit": "L",
+      "basis": "'Mercedes OM512 engine (16 L displacement) 430kW'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 16
+    },
+    {
+      "metric": "Test engine power",
+      "unit": "kW",
+      "basis": "same test-bench statement",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 430
+    },
+    {
+      "metric": "Test exhaust temperature",
+      "unit": "'The exhaust temperatures, post turbo, were from 430-510°C'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 430,
+      "low": 510,
+      "high": "degC"
+    },
+    {
+      "metric": "Test ANR values",
+      "unit": "'tested with ammonia:nitrogen oxide ratios (ANR) of 0.8, 0.9, 1.0 and 1.1'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 0.8,
+      "low": 1.1,
+      "high": "ratio"
+    },
+    {
+      "metric": "Test exhaust mass flow",
+      "unit": "kg/h",
+      "basis": "'with a mass flow of the exhaust of 1200 kg/h'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 1200
+    },
+    {
+      "metric": "Raw NOx concentration",
+      "unit": "ppm",
+      "basis": "'concentration of NOx raw was 1500 ppm'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Vaporization air pressure",
+      "unit": "bar",
+      "basis": "'used air at 4 bars and consumption of approximately 1 Nm3/h'",
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en"
+      },
+      "value": 4
     }
   ],
   "url": "https://patents.google.com/patent/EP3137745B1/en",
@@ -52,6 +267,6 @@
       "source_id": "geg-patents-google-com-en-70a2d76"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 21 new printed parameters."
 }

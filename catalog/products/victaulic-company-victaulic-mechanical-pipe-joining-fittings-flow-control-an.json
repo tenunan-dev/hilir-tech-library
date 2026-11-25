@@ -27,6 +27,15 @@
         "source_id": "cat-victaulic-com"
       },
       "value": "carbon steel, stainless steel, copper, HDPE, PVC/CPVC and other pipe materials"
+    },
+    {
+      "metric": "flow_control_valve_configurations",
+      "unit": "n/a",
+      "basis": "Our hydraulic control valves are available in level-control, pressure-reducing and pressure-release configurations to be paired with a variety of piping material and joining systems",
+      "source": {
+        "url": "https://www.victaulic.com/products/"
+      },
+      "value": "level-control, pressure-reducing and pressure-release configurations"
     }
   ],
   "url": "https://www.victaulic.com/products/",
@@ -35,6 +44,13 @@
       "url": "https://www.victaulic.com/products/"
     }
   ],
-  "notes": "Markets include Oil & Gas, Energy, Infrastructure; systems listed include Dynamic Movement Joints, Advanced Groove System, StrengThin 100 for thin wall stainless, Vic-Press for Schedule 10S stainless, and High Performance System for Steam & Chemical Service. Numeric pressure ratings not printed on the page read; product specification sheets linked but not read.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Markets include Oil & Gas, Energy, Infrastructure; systems listed include Dynamic Movement Joints, Advanced Groove System, StrengThin 100 for thin wall stainless, Vic-Press for Schedule 10S stainless, and High Performance System for Steam & Chemical Service. Numeric pressure ratings not printed on the page read; product specification sheets linked but not read. Full-parameter pass 2026-11-26: 1 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Pipe joining, fitting, flow control and expansion joint ratings (pressure, size, temperature, materials)",
+      "why": "Overview page carries no technical parameter tables",
+      "next_action": "Fetch individual Victaulic product datasheets"
+    }
+  ]
 }

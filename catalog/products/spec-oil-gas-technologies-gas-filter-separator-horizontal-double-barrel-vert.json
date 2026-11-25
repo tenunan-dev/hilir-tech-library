@@ -37,6 +37,59 @@
         "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
       },
       "value": "ASME VIII Div 1"
+    },
+    {
+      "metric": "Design code",
+      "unit": "n/a",
+      "basis": "Specifications table: \"Design code: ASME Pressure Vessel Code, Section VIII, Division 1\"",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      }
+    },
+    {
+      "metric": "Standard design pressure",
+      "unit": "psi (99 bar)",
+      "basis": "Specifications table: \"Standard design pressure 1440 psi (99 bar)\"; non-stock pressures engineered to process conditions",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      },
+      "value": 1440
+    },
+    {
+      "metric": "Design temperature (stock vessels)",
+      "unit": "degC (-20 F to 130 F)",
+      "basis": "Specifications table: \"Design temperature (stock vessels) -20 °F to 130 °F (-29 °C to 54 °C)\"",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      },
+      "low": -29,
+      "high": 54
+    },
+    {
+      "metric": "Configurations",
+      "unit": "n/a",
+      "basis": "Orientation table: horizontal double barrel (gas flow maximised in upper barrel without re-entrainment; liquid drops into lower barrel) and vertical (gravity removal; only lower portion of element saturates; smaller hardware at same flow rate)",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      }
+    },
+    {
+      "metric": "Separation stages",
+      "unit": "stages",
+      "basis": "\"The coalescer filter section removes bulk liquid and solid particles, and coalesces fine droplets into larger ones. Those larger droplets are then removed in a second double pocket (DP) vane section\"",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Reference project",
+      "unit": "gas filter separator skids",
+      "basis": "Project reference: \"Gas Lift Compression Station Skids for Tonmoor, Jones Creek, Nigeria 2019 — Two gas filter separator skids\"",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
+      },
+      "value": 2
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
@@ -45,6 +98,6 @@
       "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -57,6 +57,68 @@
         "source_id": "cat-miltonroy-com-cn"
       },
       "value": "±1"
+    },
+    {
+      "metric": "Capacity",
+      "unit": "gph (up to)",
+      "basis": "Milton Roy MAXROY: 'applications up to 290 gph (1,100 l/h) at pressures up to 406 psi (28 bar)'; 'Capacity ranges up to 290 gph (1100 l/hr)'",
+      "source": {
+        "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
+      },
+      "value": 290
+    },
+    {
+      "metric": "Capacity metric",
+      "unit": "l/h (up to)",
+      "basis": "Milton Roy: '290 gph (1,100 l/h)'",
+      "source": {
+        "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
+      },
+      "value": 1100
+    },
+    {
+      "metric": "Maximum pressure",
+      "unit": "psi (up to)",
+      "basis": "Milton Roy: 'pressures up to 406 psi (28 bar)'",
+      "source": {
+        "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
+      },
+      "value": 406
+    },
+    {
+      "metric": "Maximum pressure metric",
+      "unit": "bar (up to)",
+      "basis": "Milton Roy: '406 psi (28 bar)'",
+      "source": {
+        "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
+      },
+      "value": 28
+    },
+    {
+      "metric": "Turndown ratio",
+      "unit": ":1 standard",
+      "basis": "Milton Roy: 'Standard turndown ratio of 10:1 expandable with various options'",
+      "source": {
+        "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Steady state accuracy",
+      "unit": "% (±)",
+      "basis": "Milton Roy: 'Steady state accuracy ±1%'",
+      "source": {
+        "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Construction",
+      "unit": "text",
+      "basis": "Milton Roy: 'cast iron housing with chemical resistant coating'; 'Dust-tight cast iron housing'; 'Internal adjustable pressure relief valve protects the pump from over pressure'",
+      "source": {
+        "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
+      }
     }
   ],
   "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/",
@@ -65,6 +127,6 @@
       "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     }
   ],
-  "notes": "Hydraulically balanced diaphragm; cast iron housing with chemical-resistant coating; internal adjustable pressure relief valve. Milton Roy product brochure MR-ACC PDF is linked but was not fetched.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Hydraulically balanced diaphragm; cast iron housing with chemical-resistant coating; internal adjustable pressure relief valve. Milton Roy product brochure MR-ACC PDF is linked but was not fetched. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

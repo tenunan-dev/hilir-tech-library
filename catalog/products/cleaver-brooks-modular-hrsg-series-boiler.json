@@ -79,6 +79,107 @@
       },
       "unit": "construction",
       "value": "Vertical tube natural circulation with steam drum; field erected; single or multiple pressure levels"
+    },
+    {
+      "metric": "Modular HRSG - gas turbine-generator range",
+      "unit": "MW",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "low": 25,
+      "high": 60
+    },
+    {
+      "metric": "Modular HRSG - turbine exhaust gas flow",
+      "unit": "lb/hr",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "low": 500000,
+      "high": 1000000
+    },
+    {
+      "metric": "Modular HRSG - steam generation",
+      "unit": "lb/hr (to 500,000+)",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": 500000
+    },
+    {
+      "metric": "Modular HRSG - design pressure",
+      "unit": "psig (up to)",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "Modular HRSG - superheater outlet temperature",
+      "unit": "degF (up to)",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": 1050
+    },
+    {
+      "metric": "Modular HRSG - duct firing temperature",
+      "unit": "degF (up to)",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": 2800
+    },
+    {
+      "metric": "Modular HRSG - stack NOx with SCR",
+      "unit": "ppm (less than, with SCR)",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Modular HRSG - efficiency",
+      "unit": "% (>80% compared to 56% for traditional technologies)",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Modular HRSG - fuel reduction",
+      "unit": "MMBtu/hr (up to, vs conventional boilers)",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": 7.0
+    },
+    {
+      "metric": "Modular HRSG - CO2 emissions reduction",
+      "unit": "tons/yr per 1 MWe GT output (eliminated)",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": 2870
+    },
+    {
+      "metric": "Modular HRSG - construction",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks Modular HRSG Series Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/modular-hrsg"
+      },
+      "value": "Vertical Tube with Steam Drum"
     }
   ],
   "url": "https://cleaverbrooks.com/product/modular-hrsg",
@@ -87,6 +188,6 @@
       "url": "https://cleaverbrooks.com/product/modular-hrsg"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

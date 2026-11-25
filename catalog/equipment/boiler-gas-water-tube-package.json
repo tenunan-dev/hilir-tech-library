@@ -203,6 +203,309 @@
       },
       "unit": "ppm NOx (option, less than)",
       "value": 9
+    },
+    {
+      "metric": "steam_flows",
+      "unit": "lb/hr",
+      "basis": "Product page header: Saturated Steam 10,000 to 225,000 lb/hr; Attributes: Steam Flows 10,000 - 225,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "low": 10000,
+      "high": 225000
+    },
+    {
+      "metric": "steam_pressure",
+      "unit": "psig",
+      "basis": "Product page header: 100 to 550 psig on steam",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "low": 100,
+      "high": 550
+    },
+    {
+      "metric": "steam_temperature",
+      "unit": "n/a",
+      "basis": "Product page header: Saturated Steam; Attributes: Steam Temperature Saturated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Saturated"
+    },
+    {
+      "metric": "NOx_emissions",
+      "unit": "ppm",
+      "basis": "Product page: Available to less than 9 ppm NOx; Attributes: Emissions (ppm NOx) <9",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "high": 9
+    },
+    {
+      "metric": "NOx_with_ultra_low_burner_and_SCR",
+      "unit": "ppm",
+      "basis": "IWT boilers can fire renewable natural gas, biogas and hydrogen. They achieve <2 ppm NOx with an ultra-low NOx burner and SCR equipment",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "high": 2
+    },
+    {
+      "metric": "boiler_efficiency_option Gain",
+      "unit": "% average",
+      "basis": "options are available to increase boiler efficiency by 5% on average",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": 5
+    },
+    {
+      "metric": "fuels",
+      "unit": "n/a",
+      "basis": "Product page header and Attributes: Fuel Natural Gas, Propane, Digester, #2 Light Oil",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Natural Gas, Propane, Digester, #2 Light Oil"
+    },
+    {
+      "metric": "boiler_style",
+      "unit": "n/a",
+      "basis": "Attributes: Style D-type, O-type",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "D-type, O-type"
+    },
+    {
+      "metric": "assembly",
+      "unit": "n/a",
+      "basis": "Attributes: Assembly Shop Assembled",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Shop Assembled"
+    },
+    {
+      "metric": "circulation",
+      "unit": "n/a",
+      "basis": "Attributes: Circulation Natural Circulation",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Natural Circulation"
+    },
+    {
+      "metric": "construction",
+      "unit": "n/a",
+      "basis": "Attributes: Construction Membrane Wall Construction; furnace construction utilizes welded-membrane wall design; 100% water cooled and refractory free",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Membrane Wall Construction"
+    },
+    {
+      "metric": "delivery_time_reduction",
+      "unit": "weeks",
+      "basis": "These pre-engineered boiler packages can shorten delivery time by up to 12 weeks",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "high": 12
+    },
+    {
+      "metric": "applications",
+      "unit": "n/a",
+      "basis": "Applications tab (printed list)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Process Steam, Industrial Process, Building Heat, Institutional, Hospital and Healthcare, Pharmaceutical, Pulp and Paper"
+    },
+    {
+      "metric": "FLX - input capacity",
+      "unit": "MBH",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "low": 1500,
+      "high": 25000
+    },
+    {
+      "metric": "FLX - boiler horsepower",
+      "unit": "BHP",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "low": 36,
+      "high": 600
+    },
+    {
+      "metric": "FLX - design pressure",
+      "unit": "psig",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "low": 15,
+      "high": 250
+    },
+    {
+      "metric": "FLX - thermal efficiency",
+      "unit": "% (steam); 85% (hot water), up to",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": 81
+    },
+    {
+      "metric": "FLX - number of passes",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": 5
+    },
+    {
+      "metric": "FLX - NOx emissions options",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": "Standard, <30, <20, <9 ppm"
+    },
+    {
+      "metric": "FLX - turndown",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": "Up to 15:1 (standard emissions); 10:1 (controlled emissions)"
+    },
+    {
+      "metric": "FLX - steam or hot water",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": "Both"
+    },
+    {
+      "metric": "FLX - fuels",
+      "unit": "n/a",
+      "basis": "Cleaver-Brooks FLX Watertube Boiler product page, overview and Technical Data attribute table; no print date stated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/flx"
+      },
+      "value": "Natural Gas, #2 Light Oil, Propane, Digester Gas, Combination Firing"
+    },
+    {
+      "metric": "Input",
+      "unit": "MBH",
+      "basis": "2,000-6,000 MBH Input; Input Capacity 2,000 - 6,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "low": 2000,
+      "high": 6000
+    },
+    {
+      "metric": "Fuel",
+      "unit": "n/a",
+      "basis": "Natural Gas, Propane",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "Natural Gas, Propane"
+    },
+    {
+      "metric": "Design temperature",
+      "unit": "deg F",
+      "basis": "Design Temperature (deg F) 235, 340, 355, 380, 410",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "235, 340, 355, 380, 410"
+    },
+    {
+      "metric": "NOx",
+      "unit": "ppm",
+      "basis": "Standard sub-20 ppm NOx; <20 ppm NOx without FGR",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "<20"
+    },
+    {
+      "metric": "CO",
+      "unit": "ppm",
+      "basis": "<10 CO as standard on natural gas",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "<10"
+    },
+    {
+      "metric": "Number of passes",
+      "unit": "pass",
+      "basis": "Number Of Passes 2",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Steam or hot water",
+      "unit": "n/a",
+      "basis": "Steam Or Hot Water Both",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "Both"
+    },
+    {
+      "metric": "Vessel design",
+      "unit": "n/a",
+      "basis": "Vessel Design Watertube; The M5M is a membrane wall watertube boiler",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "Watertube (membrane wall)"
+    },
+    {
+      "metric": "Floor space reduction",
+      "unit": "%",
+      "basis": "Increases boiler room floor space by 50%; reduces floor space by 50%",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Weight savings",
+      "unit": "%",
+      "basis": "weight savings of 40%",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Burner technology",
+      "unit": "n/a",
+      "basis": "Premix Burner Technology; The linkageless burner provides fully modulating turndown",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/m5m"
+      },
+      "value": "Premix burner technology, linkageless"
     }
   ],
   "vendors": [
@@ -224,7 +527,7 @@
       "source_id": "miura-lx"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

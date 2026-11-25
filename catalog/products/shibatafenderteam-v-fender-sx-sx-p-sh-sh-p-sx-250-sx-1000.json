@@ -39,6 +39,69 @@
         "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
       },
       "value": 1800
+    },
+    {
+      "metric": "Standard height range",
+      "unit": "mm",
+      "basis": "\"Both V Fenders (SX and SH) are available in standard heights from 250 to 1,000 mm\"",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
+      },
+      "low": 250,
+      "high": 1000
+    },
+    {
+      "metric": "Standard length range",
+      "unit": "mm",
+      "basis": "\"in standard length ranging from 1,000 to 3,500 mm, each in 3 different main rubber grades\"",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
+      },
+      "low": 1000,
+      "high": 3500
+    },
+    {
+      "metric": "Model variants",
+      "unit": "types",
+      "basis": "SX (standard one-piece), SX-P (embedded steel plate), SH (wider frontal face, lower surface load), SH-P (embedded steel plate)",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
+      },
+      "value": 4
+    },
+    {
+      "metric": "SX fender sizes (H x W)",
+      "unit": "mm",
+      "basis": "Dimensions SX table: SX 250 (H 250, W 500, w 200, t 18, C 178, PW 400, anchors M24) through SX 1000 (H 1000, W 1800, w 800, t 47, C 610, PW 1550, anchors M48)",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
+      }
+    },
+    {
+      "metric": "SH fender sizes (H x W)",
+      "unit": "mm",
+      "basis": "Dimensions SH table: SH 250 (H 250, W 625, w 280, t 18, C 203, PW 530, M24) through SH 1000 (H 1000, W 2200, w 1125, t 40, C 663, PW 2000, M48)",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
+      }
+    },
+    {
+      "metric": "SX-P embedded plate thickness K",
+      "unit": "mm",
+      "basis": "Dimensions SX-P table: K 40 mm for SX-P 250/300/400, 50 mm for 500/600, 60 mm for 800, 80 mm for SX-P 1000",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
+      },
+      "low": 40,
+      "high": 80
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "\"SX Fenders: General Cargo Terminals, Berth for tug boats; SH Fenders: General Cargo Terminals, Berth for tug boats with the need for low hull pressure; SX and SH: Multi-Purpose-Terminals, RoRo ramps, Passenger Vessel Terminals, Barge\"",
+      "source": {
+        "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
+      }
     }
   ],
   "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
@@ -47,6 +110,13 @@
       "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     }
   ],
-  "notes": "SX-P and SH-P embed a steel plate for UHMW-PE or steel panel mounting.",
-  "last_reviewed": "2026-11-24"
+  "notes": "SX-P and SH-P embed a steel plate for UHMW-PE or steel panel mounting. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Reaction force and energy absorption values per fender size",
+      "why": "Not printed on the web page; tables are in the linked PDF/catalogue",
+      "next_action": "Fetch linked PDF for energy/reaction ratings"
+    }
+  ]
 }

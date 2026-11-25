@@ -210,6 +210,192 @@
       },
       "unit": "n/a",
       "value": "Natural gas or propane"
+    },
+    {
+      "metric": "Approvals",
+      "unit": "n/a",
+      "basis": "'The Standard HESI is FM approved and the CE Version meets the Low Voltage D...' (text truncated in retrieved page)",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      }
+    },
+    {
+      "metric": "MaxFire 100 Series capacities",
+      "unit": "capacities",
+      "basis": "'incorporates the \"protected primary combustion zone\" design in each of the 5 capacities available'",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Q87 fuel capability",
+      "unit": "n/a",
+      "basis": "'best choice when dual fuel (natural gas and No. 2 oil) is required'",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      }
+    },
+    {
+      "metric": "DURAFire fuel",
+      "unit": "n/a",
+      "basis": "'air atomized No. 2 oil igniter' with 'protected primary combustion zone' design",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      }
+    },
+    {
+      "metric": "Horn igniter",
+      "unit": "n/a",
+      "basis": "'direct replacement for the OEM igniter on tangentially fired boilers' featuring 'high energy spark igniter (HESI)'",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      }
+    },
+    {
+      "metric": "Capacity range (nominal, all models)",
+      "unit": "mmBtu/hr",
+      "basis": "Forney: 'Capacities (nominal) range from 1 mmBtu/hr to 50 mmBtu/hr.'; Features: 'Capacity range from 0.3 to 50 MBtu/hr.'",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      },
+      "low": 1,
+      "high": 50
+    },
+    {
+      "metric": "Minimum length",
+      "unit": "inches",
+      "basis": "Forney: 'Minimum Length: 14 inches'",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      },
+      "value": 14
+    },
+    {
+      "metric": "Guide tube OD by model",
+      "unit": "inches",
+      "basis": "Forney table: 110 = 1 7/8\", 130 = 2 7/8\", 135 = 3 1/2\", 140 = 4\", 150 = 5\"",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      }
+    },
+    {
+      "metric": "Connections NPT (gas / air) by model",
+      "unit": "inches NPT",
+      "basis": "Forney table: 110 = 1/2\" / 3/4\"; 130 = 3/4\" / 3/4\"; 135 = 1 1/2\" / 1 1/2\"; 140 = 1 1/2\" / 1 1/2\"; 150 = TBD / TBD",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      }
+    },
+    {
+      "metric": "Cooling air requirement by model",
+      "unit": "scfm @ inches w.c. above windbox",
+      "basis": "Forney table: 110 = 23 @ 3; 130 = 45 @ 3; 135 = 50 @ 6; 140 = 80 @ 6; 150 = 120 @ 6; footnote '*scfm@inches w.c. above windbox'",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      }
+    },
+    {
+      "metric": "Typical fuel pressure by model",
+      "unit": "psig",
+      "basis": "Forney table: 110 = 5-12; 130 = 5-12; 135 = 5-25; 140 = 5-25; 150 = 5-25",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      }
+    },
+    {
+      "metric": "Nozzle type",
+      "unit": "text",
+      "basis": "Forney table: 110 = Straight; 130/135/140/150 = Straight or wide",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      }
+    },
+    {
+      "metric": "Guide tube material",
+      "unit": "text",
+      "basis": "Forney: 'Guide Tube Material: 10 & 30 – Stainless steel; 35, 40 & 50 – Carbon steel with 12” stainless steel at furnace end'",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      }
+    },
+    {
+      "metric": "HESI input voltage / power",
+      "unit": "VAC / A",
+      "basis": "Forney HESI Specifications: 'Input Voltage:120 to 240 VAC, 50/60 Hz; Input Power:120 VAC @ 1.5 A (2-A fuse); 240 VAC @ 0.75A (1-A fuse)'",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      }
+    },
+    {
+      "metric": "HESI output voltage / energy / spark rate",
+      "unit": "text",
+      "basis": "Forney HESI: 'Output Voltage:2000 VDC; Output Energy:12 joules per spark; Spark Rate:3 per second (approximately)'",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      }
+    },
+    {
+      "metric": "HESI duty cycle / ambient",
+      "unit": "deg F",
+      "basis": "Forney HESI: 'Duty Cycle:50% at temp 0°F to 135°F (-18°C to 57°C) Ambient'",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      },
+      "low": 0,
+      "high": 135
+    },
+    {
+      "metric": "HTSI specifications",
+      "unit": "text",
+      "basis": "Forney HTSI: 'Amperage:20 mA; Input Voltage:120 to 240 VAC 50/60 HZ; Output Voltage:6000 VAC; Duty Cycle:100% at temperature rating'",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      }
+    },
+    {
+      "metric": "Igniter class and ignition rate",
+      "unit": "text",
+      "basis": "Forney: 'can be used as a Class 1, Class 2, or Class 3 igniter, depending on burner capacity'; '99% ignition rate in most applications'",
+      "source": {
+        "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
+      }
+    },
+    {
+      "metric": "Atomization",
+      "unit": "n/a",
+      "basis": "air atomized No. 2 oil igniter",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": "air atomized"
+    },
+    {
+      "metric": "Performance claim",
+      "unit": "n/a",
+      "basis": "As a result this igniter is self-stabilized, highly reliable",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": "self-stabilized, highly reliable"
+    },
+    {
+      "metric": "Service",
+      "unit": "n/a",
+      "basis": "Igniters provide the ignition energy to ignite the main fuel for utility and large industrial steam generators",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": "for utility and large industrial steam generators"
+    },
+    {
+      "metric": "Related igniter capacities (MAXFire 100 Series)",
+      "unit": "capacities",
+      "basis": "The MAXFire® 100 Series gas igniter incorporates the ... design in each of the 5 capacities available",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": 5
     }
   ],
   "vendors": [
@@ -255,5 +441,5 @@
     }
   ],
   "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

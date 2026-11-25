@@ -27,6 +27,61 @@
         "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
       },
       "value": "normalized"
+    },
+    {
+      "metric": "Grade",
+      "unit": "n/a",
+      "basis": "API 2H is an intermediate-strength and normalized structural steel plate developed for the welded construction of offshore structures.",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
+      },
+      "value": "API 2H Grade 50"
+    },
+    {
+      "metric": "Stocked thickness",
+      "unit": "in",
+      "basis": "Universal Steel America stocks API 2H steel plate with thicknesses from 1/4 to 4 inches in the normalized condition.",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
+      },
+      "low": 0.25,
+      "high": 4
+    },
+    {
+      "metric": "Condition",
+      "unit": "n/a",
+      "basis": "in the normalized condition",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
+      },
+      "value": "Normalized"
+    },
+    {
+      "metric": "Specification",
+      "unit": "n/a",
+      "basis": "typically manufactured and tested to conform to specific standards and specifications, such as the American Petroleum Institute (API) Specification 2H",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
+      },
+      "value": "API Specification 2H"
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "The primary applications of API 2H Grade 50 include tubular joints, stiffened plate construction, and intersections where parts of the plates will experience tension in the through-thickness direction.",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
+      },
+      "value": "tubular joints, stiffened plate construction, and intersections where parts of the plates will experience tension in the through-thickness direction; piling material"
+    },
+    {
+      "metric": "Impact toughness",
+      "unit": "n/a",
+      "basis": "API 2H Grade 50 is known for its high impact toughness.",
+      "source": {
+        "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
+      },
+      "value": "high impact toughness"
     }
   ],
   "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
@@ -35,6 +90,6 @@
       "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     }
   ],
-  "notes": "Supplements S1-S5 in stock.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Supplements S1-S5 in stock. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

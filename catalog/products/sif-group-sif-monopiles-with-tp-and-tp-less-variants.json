@@ -47,6 +47,67 @@
         "source_id": "sif-group-com-products-services-monopiles"
       },
       "value": "2,000 (prose) / >2,500 (tile)"
+    },
+    {
+      "metric": "Monopile length",
+      "unit": "m (up to)",
+      "basis": "Sif: 'tubular steel structures reach up to 120 metres in length'; 'Monopiles until 120 metres in length'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      },
+      "value": 120
+    },
+    {
+      "metric": "Monopile diameter",
+      "unit": "m",
+      "basis": "Sif: 'measure 11 metres in diameter'; 'Monopiles until 11 metres in diameter'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      },
+      "value": 11
+    },
+    {
+      "metric": "Maximum wall thickness",
+      "unit": "mm",
+      "basis": "Sif: 'Maximum wall thickness 160 mm'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      },
+      "value": 160
+    },
+    {
+      "metric": "Maximum weight (paragraph)",
+      "unit": "tonnes (maximum each, as printed in paragraph)",
+      "basis": "Sif paragraph: 'weigh a maximum of 2,000 tonnes each'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Maximum weight (statistic block - conflicting)",
+      "unit": "tonnes (> as printed in statistics block)",
+      "basis": "Sif statistics block: 'Maximum weight > 2500 tonnes' — preserved as a conflict with the 2,000 tonne paragraph figure",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      },
+      "value": 2500
+    },
+    {
+      "metric": "Variants",
+      "unit": "text",
+      "basis": "Sif: 'We supply both traditional monopiles with transition pieces and TP-less monopiles.'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      }
+    },
+    {
+      "metric": "Track record",
+      "unit": "text",
+      "basis": "Sif: 'over 2,600 monopiles produced ... contracts for more than 2,900 foundations ... 55 wind farms ... 22.7 GW of installed offshore capacity'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      }
     }
   ],
   "url": "https://sif-group.com/products-services/monopiles",
@@ -55,6 +116,6 @@
       "url": "https://sif-group.com/products-services/monopiles"
     }
   ],
-  "notes": "Source page internally inconsistent on max weight; >2,600 produced by end 2024.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Source page internally inconsistent on max weight; >2,600 produced by end 2024. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

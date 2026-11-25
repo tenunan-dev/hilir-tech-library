@@ -68,6 +68,123 @@
         "source_id": "cat-arielcorp-com-kbh-html"
       },
       "value": 1000
+    },
+    {
+      "metric": "Suction pressure",
+      "unit": "psig",
+      "basis": "KBH Specifications Suction Pressure 370 psig (25 bar)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 370
+    },
+    {
+      "metric": "Suction pressure (metric)",
+      "unit": "bar",
+      "basis": "370 psig (25 bar)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Discharge pressure",
+      "unit": "psig",
+      "basis": "Discharge Pressure 7,250 psig (500 bar)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 7250
+    },
+    {
+      "metric": "Discharge pressure (metric)",
+      "unit": "bar",
+      "basis": "7,250 psig (500 bar)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Flow at design point",
+      "unit": "kg/hr",
+      "basis": "Flow at design point 250 kg/hr",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Number of stages",
+      "unit": "count",
+      "basis": "Number of Stages 4",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Stroke",
+      "unit": "in",
+      "basis": "Stroke 4.25 in (108 mm)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 4.25
+    },
+    {
+      "metric": "Stroke (metric)",
+      "unit": "mm",
+      "basis": "4.25 in (108 mm)",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 108
+    },
+    {
+      "metric": "Max RPM",
+      "unit": "rpm",
+      "basis": "Max RPM 1,000",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Orientation",
+      "unit": "n/a",
+      "basis": "vertically oriented reciprocating compressor designed for the hydrogen mobility market",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": "vertically oriented"
+    },
+    {
+      "metric": "Lubrication",
+      "unit": "n/a",
+      "basis": "designed to be non-lubricated to maintain high gas purity; Non-lubricated Cylinders",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": "non-lubricated cylinders"
+    },
+    {
+      "metric": "Load capability",
+      "unit": "n/a",
+      "basis": "Capable of full non-reversing loads",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": "Capable of full non-reversing loads"
+    },
+    {
+      "metric": "Productivity claim",
+      "unit": "n/a",
+      "basis": "500 bar discharge at 250 kg/h means less infrastructure & environmental impact. 1 KBH Compressor does the work of 5-6 leading diaphram style compressors.",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": "1 KBH Compressor does the work of 5-6 leading diaphragm style compressors"
     }
   ],
   "url": "https://www.arielcorp.com/compressors/kbh.html",
@@ -76,6 +193,6 @@
       "url": "https://www.arielcorp.com/compressors/kbh.html"
     }
   ],
-  "notes": "Vertically oriented, non-lubricated cylinders for gas purity; page claims 500 bar discharge at 250 kg/h means 1 KBH does the work of 5-6 leading diaphragm style compressors. Linked KBH product sheet is a PDF (not read).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Vertically oriented, non-lubricated cylinders for gas purity; page claims 500 bar discharge at 250 kg/h means 1 KBH does the work of 5-6 leading diaphragm style compressors. Linked KBH product sheet is a PDF (not read). Full-parameter pass 2026-11-26: 13 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

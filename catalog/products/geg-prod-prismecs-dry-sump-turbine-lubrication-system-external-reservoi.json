@@ -79,6 +79,106 @@
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
         "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
       }
+    },
+    {
+      "metric": "Governing standard",
+      "unit": "n/a",
+      "basis": "\"API Standard 614, Sixth Edition, February 2022 governs its design in petroleum, chemical and gas service\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "ISO turbine oil viscosity grades",
+      "unit": "ISO VG",
+      "basis": "\"ISO grades 32, 46 and 68 are the products of interest in the turbine industry, with grades 46, 68 or 77 used where the turbine manufacturer specifies higher viscosity\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "Oil specification standard",
+      "unit": "n/a",
+      "basis": "\"ISO 8068 governs turbine oil specification, alongside the turbine OEM's own requirements\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "ISO 4406 cleanliness target (typical OEM)",
+      "unit": "code",
+      "basis": "\"most turbine OEMs target between ISO 15/13/10 and ISO 17/15/12\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "New oil cleanliness (published OEM tables)",
+      "unit": "ISO 4406 code",
+      "basis": "\"new oil specified at ISO 4406 16/14/12 for both ISO VG 32 and ISO VG 46 on several industrial gas turbine platforms, with some specifications setting a minimum standard of 20/17/14\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "Particle count size thresholds",
+      "unit": "microns",
+      "basis": "\"ISO 4406 defines cleanliness codes based on particle counts per millilitre at 4, 6 and 14 microns\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "Recommended pre-service filtration",
+      "unit": "micron",
+      "basis": "\"Some OEMs additionally require that oil be filtered through a 10 micron filter before entering service\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Rotary screw pump differential pressure limit",
+      "unit": "% of manufacturer rating",
+      "basis": "\"Rotary screw pumps must be sized so that the pressure differential through the pump is not greater than 90 percent of the manufacturer's rating at rated capacity and minimum viscosity\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      },
+      "value": 90
+    },
+    {
+      "metric": "Viscosity at 40 C acceptable deviation",
+      "unit": "% against new oil",
+      "basis": "Table: \"Viscosity at 40°C ... Commonly minus 10 to plus 25 percent against new oil\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      },
+      "low": -10,
+      "high": 25
+    },
+    {
+      "metric": "Varnish test standard",
+      "unit": "n/a",
+      "basis": "\"Membrane patch colorimetry (MPC), ASTM D7843, is the standard test\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "Supplementary specification",
+      "unit": "n/a",
+      "basis": "\"IOGP S-744 is a supplementary specification to API 614 Sixth Edition\"",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "Article date",
+      "unit": "n/a",
+      "basis": "Blog post dated February 11, 2024 (25 minutes read)",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
     }
   ],
   "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
@@ -88,6 +188,13 @@
       "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Actual dry-sump system reservoir capacity, pump flows and cooler duty",
+      "why": "Article describes architecture and specification practice, not a specific packaged system",
+      "next_action": "Fetch a specific lube-oil-console datasheet if equipment ratings needed"
+    }
+  ]
 }

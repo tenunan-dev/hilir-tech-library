@@ -88,6 +88,94 @@
       "unit": "kg/h to tonnes/h",
       "low": "hundreds of kg/h",
       "high": "tens of tonnes/h"
+    },
+    {
+      "metric": "Condensate load range",
+      "unit": "text",
+      "basis": "TLV: 'The series covers a wide range of condensate loads, from the 100's of kg/h to several 10's of tons/h'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
+    },
+    {
+      "metric": "J3S-X PMO / TMO / discharge capacity",
+      "unit": "text",
+      "basis": "TLV Product Details: J3S-X — screwed, cast stainless steel ASTM A351 Gr.CF8, PMO 300 psig, TMO 428°F, discharge 1,700 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
+    },
+    {
+      "metric": "J5S-X PMO / TMO / discharge capacity",
+      "unit": "text",
+      "basis": "TLV: J5S-X — cast stainless steel CF8, PMO 300 psig, TMO 428°F, discharge 2,200 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
+    },
+    {
+      "metric": "J6S-X PMO / TMO / discharge capacity",
+      "unit": "text",
+      "basis": "TLV: J6S-X — cast stainless steel CF8, PMO 300 psig, TMO 428°F, discharge 7,500 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
+    },
+    {
+      "metric": "J7X / JS7X PMO / TMO / discharge capacity",
+      "unit": "text",
+      "basis": "TLV: J7X — flanged cast iron FCV400, PMO 250 psig, TMO 428°F, discharge 8,000 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
+    },
+    {
+      "metric": "J7.2X PMO / TMO / discharge capacity",
+      "unit": "text",
+      "basis": "TLV: J7.2X — flanged cast iron FCV400, PMO 250 psig, TMO 428°F, discharge 18,000 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
+    },
+    {
+      "metric": "J7.5X PMO / TMO / discharge capacity",
+      "unit": "text",
+      "basis": "TLV: J7.5X — flanged cast iron FC250, PMO 250 psig, TMO 428°F, discharge 35,000 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
+    },
+    {
+      "metric": "J8X PMO / TMO / discharge capacity",
+      "unit": "text",
+      "basis": "TLV: J8X — flanged cast iron FC250, PMO 250 psig, TMO 428°F, discharge 47,000 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
+    },
+    {
+      "metric": "FJ32-X QuickTrap PMO / TMO / discharge",
+      "unit": "text",
+      "basis": "TLV: FJ32-X QuickTrap — universal flange, stainless steel, PMO 450 psig, TMO 662°F, discharge 1,500 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
+    },
+    {
+      "metric": "SJ3 PMO / TMO / discharge",
+      "unit": "text",
+      "basis": "TLV: SJ3 — screwed cast iron, PMO 200 psig, TMO 428°F, discharge 1,380 lb/h",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
+    },
+    {
+      "metric": "X-element air vent / fail-open",
+      "unit": "text",
+      "basis": "TLV: 'The built-in X-element (model names including 'X') functions as an air vent, discharging both cool and hot air'; 'The X-element is designed to fail open so that the valve remains open even in the event of failure.'",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
+      }
     }
   ],
   "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process",
@@ -96,6 +184,6 @@
       "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     }
   ],
-  "notes": "Read in full: TLV en-us Free Float Steam Traps (Low Pressure) JX Series page with full model table. X-element air vent and fail-open design described.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: TLV en-us Free Float Steam Traps (Low Pressure) JX Series page with full model table. X-element air vent and fail-open design described. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

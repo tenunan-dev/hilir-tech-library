@@ -28,6 +28,49 @@
       },
       "low": 1,
       "high": 4
+    },
+    {
+      "metric": "Fire rating duration",
+      "unit": "hours",
+      "basis": "Carboline Features & Benefits: 'Provides a flexible fire protection solution to structural steelwork, process vessels, divisions and electrical raceways for 1 through 4 hours.'",
+      "source": {
+        "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
+      },
+      "low": 1,
+      "high": 4
+    },
+    {
+      "metric": "NFPA 290 fire testing extension",
+      "unit": "minutes",
+      "basis": "'NFPA 290 (extended to 150 minutes)'",
+      "source": {
+        "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
+      },
+      "value": 150
+    },
+    {
+      "metric": "Listed/standard test compliance",
+      "unit": "text",
+      "basis": "'extensively and independently tested in accordance with: UL 1709, UL 2431 Category I-A, ISO 834-3, IMO FTP Code (IMO A.754(18) for H-0, H-60 & H-120 Divisions, ASTM E84, ASTM E119, ISO 20340, and NFPA 290 (extended to 150 minutes).'",
+      "source": {
+        "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
+      }
+    },
+    {
+      "metric": "Product chemistry/type",
+      "unit": "text",
+      "basis": "'Thermo-Lag 3000-P is a flexible, two-component epoxy Intumescent Fireproofing coating'; in service 'Since 1999'",
+      "source": {
+        "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
+      }
+    },
+    {
+      "metric": "Thickness relative to competitors",
+      "unit": "text",
+      "basis": "'Lowest thickness per fire rating of any competitive epoxy intumescent coating.'",
+      "source": {
+        "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
+      }
     }
   ],
   "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
@@ -36,6 +79,13 @@
       "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     }
   ],
-  "notes": "Page read; film build 2–4 mm from search-verified PDS",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read; film build 2–4 mm from search-verified PDS Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Nominal dry film thickness per fire rating, coverage rate, cure time, service temperature",
+      "why": "Values are in the linked PDS PDF which was not read",
+      "next_action": "Fetch and extract the Thermo-Lag 3000-P PDS PDF"
+    }
+  ]
 }

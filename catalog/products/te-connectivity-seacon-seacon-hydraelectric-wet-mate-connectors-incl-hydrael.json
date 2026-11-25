@@ -77,6 +77,96 @@
         "source_id": "cat-te-com-electrical-wet-mate-html"
       },
       "value": "SEACON MKII Pressure Balanced Oil Filled (PBOF) hose interface as standard"
+    },
+    {
+      "metric": "Electrical circuits",
+      "unit": "n/a",
+      "basis": "Modular construction with 4, 7 or 12 electrical circuits",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
+      },
+      "value": "4, 7 or 12"
+    },
+    {
+      "metric": "Water depth qualification",
+      "unit": "m",
+      "basis": "Qualified for use at 4,000m water depth",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
+      },
+      "high": 4000
+    },
+    {
+      "metric": "Design standards",
+      "unit": "n/a",
+      "basis": "Designed in accordance with ISO 13628-6 and API 17F - SEAFOM TSD-02, Statoil and Total requirements",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
+      },
+      "value": "ISO 13628-6 and API 17F; SEAFOM TSD-02; Statoil and Total requirements"
+    },
+    {
+      "metric": "Hose interface",
+      "unit": "n/a",
+      "basis": "SEACON MKII Pressure Balanced Oil Filled (PBOF) hose interface as standard",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
+      },
+      "value": "SEACON MKII Pressure Balanced Oil Filled (PBOF) hose interface as standard"
+    },
+    {
+      "metric": "Design features",
+      "unit": "n/a",
+      "basis": "Dual barriers oil-filled, pressure compensated design; Corrosion resistant without cathodic protection",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
+      },
+      "value": "Dual barriers oil-filled, pressure compensated design; corrosion resistant without cathodic protection"
+    },
+    {
+      "metric": "Configurations",
+      "unit": "n/a",
+      "basis": "Remotely Operated Vehicle (ROV), manual and stab plate configurations with industry standard panel interfaces",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
+      },
+      "value": "ROV, manual and stab plate configurations with industry standard panel interfaces"
+    },
+    {
+      "metric": "Ethernet data rate",
+      "unit": "Mbit/s",
+      "basis": "Up to 100 Mbit/s",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
+      },
+      "high": 100
+    },
+    {
+      "metric": "Ethernet contacts",
+      "unit": "n/a",
+      "basis": "12 contacts",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Ethernet voltage",
+      "unit": "n/a",
+      "basis": "Qualified for both 1500 VDC and 1000 VAC pin to pin",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
+      },
+      "value": "1500 VDC and 1000 VAC pin to pin"
+    },
+    {
+      "metric": "Ethernet qualification",
+      "unit": "n/a",
+      "basis": "Qualified in accordance to SEAFOM TSD-02/ API 17F",
+      "source": {
+        "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
+      },
+      "value": "SEAFOM TSD-02 / API 17F"
     }
   ],
   "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
@@ -85,6 +175,6 @@
       "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     }
   ],
-  "notes": "HTML product-group page read; linked DDE datasheet not separately read.",
-  "last_reviewed": "2026-11-24"
+  "notes": "HTML product-group page read; linked DDE datasheet not separately read. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

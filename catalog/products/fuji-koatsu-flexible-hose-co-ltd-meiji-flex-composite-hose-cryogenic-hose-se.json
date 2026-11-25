@@ -51,6 +51,83 @@
       },
       "low": 1,
       "high": 2.2
+    },
+    {
+      "metric": "Series 0933 - specified temperature range",
+      "unit": "degC",
+      "basis": "Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79"
+      },
+      "low": -200,
+      "high": 80
+    },
+    {
+      "metric": "Series 0933 - main liquids",
+      "unit": "n/a",
+      "basis": "Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79"
+      },
+      "value": "LNG (-162 degC); Ethylene (-103 degC)"
+    },
+    {
+      "metric": "Series 0940 - specified temperature range",
+      "unit": "degC",
+      "basis": "Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79"
+      },
+      "low": -110,
+      "high": 80
+    },
+    {
+      "metric": "Series 0940 - main liquids",
+      "unit": "n/a",
+      "basis": "Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79"
+      },
+      "value": "FUEL; VCM"
+    },
+    {
+      "metric": "Series 0957 - specified temperature range",
+      "unit": "degC",
+      "basis": "Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79"
+      },
+      "low": -200,
+      "high": 80
+    },
+    {
+      "metric": "Series 0957 - main liquids",
+      "unit": "n/a",
+      "basis": "Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79"
+      },
+      "value": "Dedicated to liquefied carbon dioxide"
+    },
+    {
+      "metric": "Cryogenic hose - general temperature range",
+      "unit": "degC",
+      "basis": "Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79"
+      },
+      "low": -200,
+      "high": 80
+    },
+    {
+      "metric": "Cryogenic hose - regular pressure",
+      "unit": "MPa (10 to 22 kgf/cm2; varies with fluid and temperature)",
+      "basis": "Fuji Koatsu Flexible Hose Co., Ltd. 'Hose for Cryogenic Liquefied Gas (Cryogenic Hose)' English product page; no print date stated",
+      "source": {
+        "url": "https://fujikoatsu.jp/en/pages/79"
+      },
+      "low": 1,
+      "high": 2.2
     }
   ],
   "url": "https://fujikoatsu.jp/en/pages/79",
@@ -59,6 +136,6 @@
       "url": "https://fujikoatsu.jp/en/pages/79"
     }
   ],
-  "notes": "APAC supplier. Page states pressure varies with fluid and temperature; consult manufacturer.",
-  "last_reviewed": "2026-11-24"
+  "notes": "APAC supplier. Page states pressure varies with fluid and temperature; consult manufacturer. Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

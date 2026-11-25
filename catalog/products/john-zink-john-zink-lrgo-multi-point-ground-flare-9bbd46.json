@@ -27,6 +27,40 @@
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
       "value": "available"
+    },
+    {
+      "metric": "Destruction efficiency",
+      "unit": "% (typically >)",
+      "basis": "John Zink LRGO: 'This system has demonstrated the highest destruction efficiency (typically > 99.5%) of any flare type.'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "value": 99.5
+    },
+    {
+      "metric": "Smokeless operation",
+      "unit": "% at high flow rates",
+      "basis": "John Zink: 'Design is capable of producing 100% smokeless operation at high flow rates'; 'High pressure technology with staging allows smokeless operation for the full range of flows'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Standard",
+      "unit": "text",
+      "basis": "John Zink: 'Available API 537 Compliance: Ensures compliance with the latest Industry flare standards.'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      }
+    },
+    {
+      "metric": "Turndown / flow claim",
+      "unit": "text",
+      "basis": "John Zink: 'highest total smokeless rate of any flare while providing the widest range of smokeless turndown ... industry-leading maximum waste gas flow rates'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      }
     }
   ],
   "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
@@ -35,6 +69,13 @@
       "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     }
   ],
-  "notes": "Highest total smokeless rate claim; staging for turndown",
-  "last_reviewed": "2026-11-24"
+  "notes": "Highest total smokeless rate claim; staging for turndown Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Numeric maximum waste gas flow rate and turndown ratio",
+      "why": "Page uses superlatives only; no numeric table",
+      "next_action": "Fetch LRGO technical brochure"
+    }
+  ]
 }

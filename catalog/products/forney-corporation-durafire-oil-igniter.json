@@ -27,6 +27,60 @@
       },
       "unit": "n/a",
       "value": "protected primary combustion zone"
+    },
+    {
+      "metric": "Fuel",
+      "unit": "n/a",
+      "basis": "The DURAFire® air atomized No. 2 oil igniter",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": "No. 2 oil"
+    },
+    {
+      "metric": "Atomization",
+      "unit": "n/a",
+      "basis": "air atomized No. 2 oil igniter",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": "air atomized"
+    },
+    {
+      "metric": "Design feature",
+      "unit": "n/a",
+      "basis": "features the only \"protected primary combustion zone\" design on the market",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": "only 'protected primary combustion zone' design on the market"
+    },
+    {
+      "metric": "Performance claim",
+      "unit": "n/a",
+      "basis": "As a result this igniter is self-stabilized, highly reliable",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": "self-stabilized, highly reliable"
+    },
+    {
+      "metric": "Service",
+      "unit": "n/a",
+      "basis": "Igniters provide the ignition energy to ignite the main fuel for utility and large industrial steam generators",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": "for utility and large industrial steam generators"
+    },
+    {
+      "metric": "Related igniter capacities (MAXFire 100 Series)",
+      "unit": "capacities",
+      "basis": "The MAXFire® 100 Series gas igniter incorporates the ... design in each of the 5 capacities available",
+      "source": {
+        "url": "https://www.forneycorp.com/igniters"
+      },
+      "value": 5
     }
   ],
   "url": "https://www.forneycorp.com/igniters",
@@ -35,6 +89,13 @@
       "url": "https://www.forneycorp.com/igniters"
     }
   ],
-  "notes": "Read in full: Forney igniters list page. Descriptions are truncated on the list page; dedicated DURAFire page was not fetched. No numeric specs.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: Forney igniters list page. Descriptions are truncated on the list page; dedicated DURAFire page was not fetched. No numeric specs. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Numerical DURAFire capacity, pressure and dimensions",
+      "why": "Only qualitative description printed on the listing page",
+      "next_action": "Fetch the DURAFire product data sheet linked from the Forney site"
+    }
+  ]
 }

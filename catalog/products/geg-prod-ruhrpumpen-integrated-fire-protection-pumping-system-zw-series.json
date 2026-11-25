@@ -91,6 +91,123 @@
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
         "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
       }
+    },
+    {
+      "metric": "design_standard",
+      "unit": "n/a",
+      "basis": "fully integrated fire protection pumping system engineered in accordance with NFPA 20 standards for heavy industrial service",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "NFPA 20"
+    },
+    {
+      "metric": "fire_pump_design",
+      "unit": "n/a",
+      "basis": "Scope of supply description",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "Ruhrpumpen ZW series horizontal split-case fire pumps (BB1 design), single-stage, between-bearings, UL/FM certified"
+    },
+    {
+      "metric": "casings_materials",
+      "unit": "n/a",
+      "basis": "Scope of supply description",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "ductile iron or cast iron casings with 316 stainless steel fitted internals (impellers, shaft sleeves, wear rings)"
+    },
+    {
+      "metric": "electric_motor_rating",
+      "unit": "HP",
+      "basis": "electric-driven unit utilizes medium-voltage TEFC induction motor rated approximately 350 HP at 6600 V / 50 Hz",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 350
+    },
+    {
+      "metric": "electric_motor_voltage",
+      "unit": "V",
+      "basis": "rated approximately 350 HP at 6600 V / 50 Hz",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 6600
+    },
+    {
+      "metric": "electric_motor_frequency",
+      "unit": "Hz",
+      "basis": "rated approximately 350 HP at 6600 V / 50 Hz",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 50
+    },
+    {
+      "metric": "diesel_engine_rating",
+      "unit": "HP",
+      "basis": "diesel-driven package incorporates a UL/FM-certified Clarke C18 engine rated approximately 510 HP at 1760 rpm",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 510
+    },
+    {
+      "metric": "diesel_engine_speed",
+      "unit": "rpm",
+      "basis": "Clarke C18 engine rated approximately 510 HP at 1760 rpm",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 1760
+    },
+    {
+      "metric": "diesel_starting_system",
+      "unit": "VDC",
+      "basis": "complete with 24 VDC starting system, jacket water heater, industrial exhaust silencer, freshwater cooling loop",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 24
+    },
+    {
+      "metric": "controller_electric",
+      "unit": "n/a",
+      "basis": "controlled through a Tornatech MPA UL/FM-listed controller with Modbus TCP/IP communication capability",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "Tornatech MPA UL/FM-listed controller with Modbus TCP/IP"
+    },
+    {
+      "metric": "controller_diesel",
+      "unit": "n/a",
+      "basis": "The Tornatech GPD diesel controller provides comprehensive engine and pump supervision with alarms for overspeed, low oil pressure, high temperature, low fuel level, leak detection, failed start",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "Tornatech GPD diesel controller"
+    },
+    {
+      "metric": "jockey_pump",
+      "unit": "n/a",
+      "basis": "system also includes a vertical in-line jockey pump designed to maintain system pressure stability during standby conditions",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "vertical in-line OH4 construction, cast iron and stainless steel, mechanical seal, vertical rigid coupling, UL-listed controller per NFPA 20"
+    },
+    {
+      "metric": "pumphouse_lighting",
+      "unit": "lux",
+      "basis": "Supporting infrastructure: 500 lux lighting system, NFPA 20 suction/discharge piping, NFPA 13 overhead-supported piping, ASME-rated hydropneumatic tank, C5 anticorrosion coating SSPC-SP10",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 500
     }
   ],
   "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
@@ -100,6 +217,6 @@
       "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 13 new printed parameters."
 }

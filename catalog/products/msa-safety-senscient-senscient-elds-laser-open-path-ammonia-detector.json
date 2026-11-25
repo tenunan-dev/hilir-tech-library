@@ -37,14 +37,118 @@
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
       "value": "Enhanced Laser Diode Spectroscopy (ELDS)"
+    },
+    {
+      "metric": "Laser open path measuring range",
+      "unit": "ppm.m",
+      "basis": "Measuring range: up to 0-15000 ppm.m (parts per million meters)",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
+        "source_id": "catpar-r-jina-ai-technical-guide-sensor-technologie-21ddd3c"
+      },
+      "low": 0,
+      "high": 15000
+    },
+    {
+      "metric": "Path lengths",
+      "unit": "m",
+      "basis": "Path lengths: 5-40m, 40-120m",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "5-40m, 40-120m"
+    },
+    {
+      "metric": "Detection technology",
+      "unit": "n/a",
+      "basis": "Enhanced Laser Diode Spectroscopy (ELDS) - patented detection technology that uses multi-point harmonic verification to eliminate false alarms",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Enhanced Laser Diode Spectroscopy (ELDS) - patented, multi-point harmonic verification"
+    },
+    {
+      "metric": "Specificity",
+      "unit": "n/a",
+      "basis": "Very specific to ammonia; Immune to cross-interferents",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Very specific to ammonia; immune to cross-interferents"
+    },
+    {
+      "metric": "Source life",
+      "unit": "n/a",
+      "basis": "Long laser source life; Non-consuming",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Long laser source life; non-consuming"
+    },
+    {
+      "metric": "Calibration",
+      "unit": "n/a",
+      "basis": "No need for calibration",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "No need for calibration"
+    },
+    {
+      "metric": "Weather immunity",
+      "unit": "n/a",
+      "basis": "Unaffected by rain, fog, and snow",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Unaffected by rain, fog, and snow"
+    },
+    {
+      "metric": "Cons",
+      "unit": "n/a",
+      "basis": "Limited use for areas with dense installations; Does not measure point concentration",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Limited use for areas with dense installations; does not measure point concentration"
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "Applications column of Laser Open Path row",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Large industrial sites incl. fertilizer and chemical manufacturing plants; ammonia production units with downstream storage or bunkering; green ammonia energy export hubs and maritime fuel terminals"
+    },
+    {
+      "metric": "MSA product",
+      "unit": "n/a",
+      "basis": "MSA Products: Senscient ELDS TM",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Senscient ELDS TM"
+    },
+    {
+      "metric": "Protection layers",
+      "unit": "n/a",
+      "basis": "Protection Layers for Ammonia Leaks section",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Layer 1 ultrasonic leak detection; Layer 2 gas detection; Layer 3 flame detection"
     }
   ],
   "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
   "sources": [
     {
       "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+    },
+    {
+      "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     }
   ],
-  "notes": "Applications listed include fertilizer/chemical manufacturing plants, ammonia production units, green ammonia export hubs.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Applications listed include fertilizer/chemical manufacturing plants, ammonia production units, green ammonia export hubs. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

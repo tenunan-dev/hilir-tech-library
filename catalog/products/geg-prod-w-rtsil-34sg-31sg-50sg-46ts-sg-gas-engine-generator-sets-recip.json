@@ -137,6 +137,177 @@
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "geg-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
       }
+    },
+    {
+      "metric": "Power plant capacity delivered",
+      "unit": "GW",
+      "basis": "'81 GW of power plant capacity delivered to 180 countries around the world.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": 81
+    },
+    {
+      "metric": "Engine generating sets delivered",
+      "unit": "sets",
+      "basis": "'11 000 engine generating sets delivered.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": 11000
+    },
+    {
+      "metric": "Start-up to full load",
+      "unit": "n/a",
+      "basis": "'From start-up to full load in as little as two minutes without minimum uptime or downtime. Unlimited starts and stops have no impact on maintenance.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "as little as two minutes"
+    },
+    {
+      "metric": "Simple cycle efficiency",
+      "unit": "%",
+      "basis": "Benefits 'High performance' section.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "50% or more (highest available of current technologies)"
+    },
+    {
+      "metric": "Flexicycle efficiency",
+      "unit": "%",
+      "basis": "'With the efficiency exceeding 54%, this unique combination is perfect for reliable baseload operation where high efficiency is needed.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "> 54"
+    },
+    {
+      "metric": "Selector entry - Wartsila 46TS-SG gas engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '20.4 MW - 22.9 MW / 51.3 electrical efficiency / 2 min start-up'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "20.4 MW - 22.9 MW / 51.3 electrical efficiency / 2 min start-up"
+    },
+    {
+      "metric": "Selector entry - Wartsila 46TS-DF dual fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '20.4 MW - 22.9 MW / 50.7 electrical efficiency / 2 min start-up'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "20.4 MW - 22.9 MW / 50.7 electrical efficiency / 2 min start-up"
+    },
+    {
+      "metric": "Selector entry - Wartsila 31SG gas engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '11.8 MW / 51.5% efficiency / 90% CHP efficiency'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "11.8 MW / 51.5% efficiency / 90% CHP efficiency"
+    },
+    {
+      "metric": "Selector entry - Wartsila 31SG power optimised",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '12.7 MW / 50.4% electrical efficiency / 2.5 min to full load'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "12.7 MW / 50.4% electrical efficiency / 2.5 min to full load"
+    },
+    {
+      "metric": "Selector entry - Wartsila 31SG efficiency optimised",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '10.8 MW / 52.1% electrical efficiency / 2.5 min to full load'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "10.8 MW / 52.1% electrical efficiency / 2.5 min to full load"
+    },
+    {
+      "metric": "Selector entry - Wartsila 31DF dual fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '11.8 MW / 49.9% electrical efficiency / 2.5 min to full load'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "11.8 MW / 49.9% electrical efficiency / 2.5 min to full load"
+    },
+    {
+      "metric": "Selector entry - Wartsila 34SG gas engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '5.8 MW - 9.8 MW / 48.9% efficiency / Over 80% CHP efficiency'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "5.8 MW - 9.8 MW / 48.9% efficiency / Over 80% CHP efficiency"
+    },
+    {
+      "metric": "Selector entry - Wartsila 34SG power optimised",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '10.8 MW / 47.6% electrical efficiency / 2 min to full load'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "10.8 MW / 47.6% electrical efficiency / 2 min to full load"
+    },
+    {
+      "metric": "Selector entry - Wartsila 34DF dual fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '5.8 MW - 9.8 MW / 48.5% efficiency / 2 min to full load'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "5.8 MW - 9.8 MW / 48.5% efficiency / 2 min to full load"
+    },
+    {
+      "metric": "Selector entry - Wartsila 34SG LPG optimised",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '4.4 MW - 7.3 MW / 45.8% electrical efficiency / For propane'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "4.4 MW - 7.3 MW / 45.8% electrical efficiency / For propane"
+    },
+    {
+      "metric": "Selector entry - Wartsila 50SG gas engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '18.4 MW / 49.9% efficiency / 30 sec power to grid'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "18.4 MW / 49.9% efficiency / 30 sec power to grid"
+    },
+    {
+      "metric": "Selector entry - Wartsila 50DF dual fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '17.6 MW / 49.4% efficiency / 30 sec power to grid'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "17.6 MW / 49.4% efficiency / 30 sec power to grid"
+    },
+    {
+      "metric": "Selector entry - Wartsila 50 liquid fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '18.4 MW / 49.4% efficiency / 30 sec power to grid'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "18.4 MW / 49.4% efficiency / 30 sec power to grid"
+    },
+    {
+      "metric": "Selector entry - Wartsila 32 liquid fuel engine",
+      "unit": "MW / % / start time as printed",
+      "basis": "Wartsila 'Engine power plant products' selector card, verbatim: '5.8 MW - 9.8 MW / 47.4% efficiency / 2 000+ installed engines'. 50 Hz / 60 Hz variants shown as printed.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+      },
+      "value": "5.8 MW - 9.8 MW / 47.4% efficiency / 2 000+ installed engines"
     }
   ],
   "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
@@ -146,6 +317,6 @@
       "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 19 new printed parameters."
 }

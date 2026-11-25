@@ -47,6 +47,78 @@
         "source_id": "cat-arielcorp-com-kbh-html"
       },
       "value": 4
+    },
+    {
+      "metric": "KBH - suction pressure",
+      "unit": "psig (25 bar)",
+      "basis": "Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 370
+    },
+    {
+      "metric": "KBH - discharge pressure",
+      "unit": "psig (500 bar)",
+      "basis": "Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 7250
+    },
+    {
+      "metric": "KBH - flow at design point",
+      "unit": "kg/hr",
+      "basis": "Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 250
+    },
+    {
+      "metric": "KBH - number of stages",
+      "unit": "n/a",
+      "basis": "Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 4
+    },
+    {
+      "metric": "KBH - stroke",
+      "unit": "in (108 mm)",
+      "basis": "Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 4.25
+    },
+    {
+      "metric": "KBH - max RPM",
+      "unit": "rpm",
+      "basis": "Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "KBH - cylinder lubrication",
+      "unit": "n/a",
+      "basis": "Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": "Non-lubricated cylinders (designed for high gas purity)"
+    },
+    {
+      "metric": "KBH - orientation",
+      "unit": "n/a",
+      "basis": "Ariel Corporation KBH Hydrogen Compressor product page, 'KBH Specifications' table; page footer (c) 2026 Ariel Corporation",
+      "source": {
+        "url": "https://www.arielcorp.com/compressors/kbh.html"
+      },
+      "value": "Vertically oriented"
     }
   ],
   "url": "https://www.arielcorp.com/compressors/kbh.html",
@@ -55,6 +127,13 @@
       "url": "https://www.arielcorp.com/compressors/kbh.html"
     }
   ],
-  "notes": "Non-lubricated, vertical",
-  "last_reviewed": "2026-11-24"
+  "notes": "Non-lubricated, vertical Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "KBH_Product_Sheet_09.28.pdf",
+      "why": "Linked PDF specification sheet not transcribed",
+      "next_action": "Fetch and transcribe linked spec sheet if additional parameters needed"
+    }
+  ]
 }

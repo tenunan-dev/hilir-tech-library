@@ -27,6 +27,22 @@
       },
       "unit": "n/a",
       "value": "reduced space; can be located indoors or relocated"
+    },
+    {
+      "metric": "Clarifier design principle",
+      "unit": "text",
+      "basis": "Graver Raw Water Pretreatment: 'Inclined Plate Clarification – The Graver Lamella design assures laminar flow conditions that result in hydraulic uniformity and high effluent quality.'",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      }
+    },
+    {
+      "metric": "Installation / footprint",
+      "unit": "text",
+      "basis": "Graver: 'It permits great reduction in the space needed for clarification equipment, and allows the compact equipment to be located indoors if desired, or to be easily relocated at a later date.'",
+      "source": {
+        "url": "https://graver.com/pretreatment/"
+      }
     }
   ],
   "url": "https://graver.com/pretreatment/",
@@ -35,6 +51,13 @@
       "url": "https://graver.com/pretreatment/"
     }
   ],
-  "notes": "Read in full: same Graver Raw Water Pretreatment page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: same Graver Raw Water Pretreatment page. Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Numeric Lamella design parameters (surface loading rate, plate area, flow capacity, dimensions)",
+      "why": "The fetched URL is the Raw Water Pretreatment overview, which gives only a qualitative description; the dedicated Lamella page and brochure were not read",
+      "next_action": "Fetch the dedicated Lamella Clarifier page/brochure"
+    }
+  ]
 }

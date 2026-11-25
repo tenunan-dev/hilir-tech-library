@@ -262,6 +262,246 @@
         "url": "https://4260356.fs1.hubspotusercontent-na2.net/hubfs/4260356/web%20price%20pages/Aurora/913%20horz%20diesel%20price%20pages%20(1).pdf",
         "source_id": "gef-4260356-fs1-hubspotusercontent-na2-net-913-2-ab32bb5"
       }
+    },
+    {
+      "metric": "Overall NFPA-20 range",
+      "unit": "GPM",
+      "basis": "ROTAMAC: 'Per NFPA-20, we are able to supply ranges from 20 GPM up to 10000 GPM with net pressures of 50 to 700 PSI or more'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 20,
+      "high": 10000
+    },
+    {
+      "metric": "Split casing fire pump flow",
+      "unit": "GPM",
+      "basis": "ROTAMAC Characteristics: split casing 'Flows from 250 to 4000 GPM'; pressures '50 to 700 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 250,
+      "high": 4000
+    },
+    {
+      "metric": "End suction fire pump flow / pressure",
+      "unit": "GPM / 84-230 PSI",
+      "basis": "ROTAMAC: end suction 'Flows from 50 to 750 GPM'; 'Pressures from 84 to 230 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 50,
+      "high": 750
+    },
+    {
+      "metric": "In-line fire pump flow / pressure",
+      "unit": "GPM / 40-210 PSI",
+      "basis": "ROTAMAC: in-line 'Flows from 20 to 220 GPM'; 'Pressures from 40 to 210 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 20,
+      "high": 220
+    },
+    {
+      "metric": "Two stage fire pump flow / pressure",
+      "unit": "GPM / 50-500 PSI",
+      "basis": "ROTAMAC: two stage 'Flows from 500 to 2500 GPM'; 'Pressures from 50 to 500 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 500,
+      "high": 2500
+    },
+    {
+      "metric": "Vertical turbine fire pump flow / pressure",
+      "unit": "GPM / 50-300 PSI",
+      "basis": "ROTAMAC: vertical turbine 'Flows from 250 to 5500 GPM'; 'Pressures from 50 to 300 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 250,
+      "high": 5500
+    },
+    {
+      "metric": "FPSO & FSO fire pump flow / pressure",
+      "unit": "GPM / 120-227 PSI",
+      "basis": "ROTAMAC: 'FIRE PUMP FOR FPSO & FSO ... Flows from 1320 to 10000 GPM; Pressures from 120 to 227 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 1320,
+      "high": 10000
+    },
+    {
+      "metric": "Multistage fire pump flow / pressure",
+      "unit": "GPM / 700-1530 PSI",
+      "basis": "ROTAMAC: multistage 'Flows from 160 to 4400 GPM'; 'Pressures from 700 to 1530 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 160,
+      "high": 4400
+    },
+    {
+      "metric": "Jockey pump sizing",
+      "unit": "% of fire pump flow",
+      "basis": "ROTAMAC: 'Jockey pumps are normally sized for 1% flow and a 10 to 20 PSI higher pressure of the fire pump.'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Complete package flow / pressure",
+      "unit": "GPM / 50-1530 PSI",
+      "basis": "ROTAMAC: complete package 'Flows from 50 to 10000 GPM; Pressures from 50 to 1530 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 50,
+      "high": 10000
+    },
+    {
+      "metric": "Standard construction materials",
+      "unit": "text",
+      "basis": "ROTAMAC: 'Standard materials include: Cast iron, Ductile cast iron, Carbon steel'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      }
+    },
+    {
+      "metric": "Sea/brackish water metallurgies",
+      "unit": "text",
+      "basis": "ROTAMAC: 'Stainless steel, Duplex stainless steel, Super duplex, Nickel-Aluminum-Bronze'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      }
+    },
+    {
+      "metric": "Pump standards",
+      "unit": "text",
+      "basis": "ROTAMAC: 'Standardized End Suction Pumps EN733/DIN24255, ISO2858/ISO5199; ASME B73.1, API610'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      }
+    },
+    {
+      "metric": "design_standard",
+      "unit": "n/a",
+      "basis": "fully integrated fire protection pumping system engineered in accordance with NFPA 20 standards for heavy industrial service",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "NFPA 20"
+    },
+    {
+      "metric": "fire_pump_design",
+      "unit": "n/a",
+      "basis": "Scope of supply description",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "Ruhrpumpen ZW series horizontal split-case fire pumps (BB1 design), single-stage, between-bearings, UL/FM certified"
+    },
+    {
+      "metric": "casings_materials",
+      "unit": "n/a",
+      "basis": "Scope of supply description",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "ductile iron or cast iron casings with 316 stainless steel fitted internals (impellers, shaft sleeves, wear rings)"
+    },
+    {
+      "metric": "electric_motor_rating",
+      "unit": "HP",
+      "basis": "electric-driven unit utilizes medium-voltage TEFC induction motor rated approximately 350 HP at 6600 V / 50 Hz",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 350
+    },
+    {
+      "metric": "electric_motor_voltage",
+      "unit": "V",
+      "basis": "rated approximately 350 HP at 6600 V / 50 Hz",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 6600
+    },
+    {
+      "metric": "electric_motor_frequency",
+      "unit": "Hz",
+      "basis": "rated approximately 350 HP at 6600 V / 50 Hz",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 50
+    },
+    {
+      "metric": "diesel_engine_rating",
+      "unit": "HP",
+      "basis": "diesel-driven package incorporates a UL/FM-certified Clarke C18 engine rated approximately 510 HP at 1760 rpm",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 510
+    },
+    {
+      "metric": "diesel_engine_speed",
+      "unit": "rpm",
+      "basis": "Clarke C18 engine rated approximately 510 HP at 1760 rpm",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 1760
+    },
+    {
+      "metric": "diesel_starting_system",
+      "unit": "VDC",
+      "basis": "complete with 24 VDC starting system, jacket water heater, industrial exhaust silencer, freshwater cooling loop",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 24
+    },
+    {
+      "metric": "controller_electric",
+      "unit": "n/a",
+      "basis": "controlled through a Tornatech MPA UL/FM-listed controller with Modbus TCP/IP communication capability",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "Tornatech MPA UL/FM-listed controller with Modbus TCP/IP"
+    },
+    {
+      "metric": "controller_diesel",
+      "unit": "n/a",
+      "basis": "The Tornatech GPD diesel controller provides comprehensive engine and pump supervision with alarms for overspeed, low oil pressure, high temperature, low fuel level, leak detection, failed start",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "Tornatech GPD diesel controller"
+    },
+    {
+      "metric": "jockey_pump",
+      "unit": "n/a",
+      "basis": "system also includes a vertical in-line jockey pump designed to maintain system pressure stability during standby conditions",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": "vertical in-line OH4 construction, cast iron and stainless steel, mechanical seal, vertical rigid coupling, UL-listed controller per NFPA 20"
+    },
+    {
+      "metric": "pumphouse_lighting",
+      "unit": "lux",
+      "basis": "Supporting infrastructure: 500 lux lighting system, NFPA 20 suction/discharge piping, NFPA 13 overhead-supported piping, ASME-rated hydropneumatic tank, C5 anticorrosion coating SSPC-SP10",
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
+      },
+      "value": 500
     }
   ],
   "vendor_models": [
@@ -343,5 +583,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

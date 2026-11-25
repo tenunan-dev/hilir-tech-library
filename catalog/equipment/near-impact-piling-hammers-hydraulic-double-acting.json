@@ -91,6 +91,187 @@
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
       "value": "200-6,250 kJ; 12,800 L/min; 210 bar; 30 bl/min"
+    },
+    {
+      "metric": "Range energy",
+      "unit": "kJ",
+      "basis": "Our hammer spread unites double-acting hydraulic hammers (100 kJ to 6,250 kJ); Energy range up to 6,250 kJ",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 100,
+      "high": 6250
+    },
+    {
+      "metric": "Wind turbine foundations driven",
+      "unit": "n/a",
+      "basis": "2500+ Wind turbine foundations driven",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": "2500+"
+    },
+    {
+      "metric": "MHU100C energy range",
+      "unit": "kJ",
+      "basis": "100C Energy range 10-100 kJ",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 10,
+      "high": 100
+    },
+    {
+      "metric": "MHU100C oil flow",
+      "unit": "L/min",
+      "basis": "Recommended oil flow 240 L/min",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 240
+    },
+    {
+      "metric": "MHU100C operating pressure",
+      "unit": "bar",
+      "basis": "Average operating pressure 275 bar",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 275
+    },
+    {
+      "metric": "MHU100C blow rate",
+      "unit": "bl/min",
+      "basis": "Blow rate at recommended oil flow 45 bl/min",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 45
+    },
+    {
+      "metric": "MHU150S energy range",
+      "unit": "kJ",
+      "basis": "150S Energy range 15-150 kJ; oil flow 380 L/min; pressure 260 bar; blow rate 38 bl/min",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 15,
+      "high": 150
+    },
+    {
+      "metric": "MHU300S energy range",
+      "unit": "kJ",
+      "basis": "300S Energy range 27-300 kJ; oil flow 650 L/min; pressure 270 bar; blow rate 40 bl/min",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 27,
+      "high": 300
+    },
+    {
+      "metric": "MHU550S energy range",
+      "unit": "kJ",
+      "basis": "550S Energy range 50-550 kJ; oil flow 1150 L/min; pressure 225 bar; blow rate 38 bl/min",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 50,
+      "high": 550
+    },
+    {
+      "metric": "MHU800S energy range",
+      "unit": "kJ",
+      "basis": "800S Energy range 75-820 kJ; oil flow 1600 L/min; pressure 250 bar; blow rate 38 bl/min",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 75,
+      "high": 820
+    },
+    {
+      "metric": "MHU1200S energy range",
+      "unit": "kJ",
+      "basis": "1200S Energy range 110-1200 kJ; oil flow 2400 L/min; pressure 245 bar; blow rate 38 bl/min",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 110,
+      "high": 1200
+    },
+    {
+      "metric": "MHU1900S energy range",
+      "unit": "kJ",
+      "basis": "1900S Energy range 190-1900 kJ; oil flow 3200 L/min; pressure 250 bar; blow rate 32 bl/min",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 190,
+      "high": 1900
+    },
+    {
+      "metric": "MHU2400S energy range",
+      "unit": "kJ",
+      "basis": "2400S Energy range 240-2400 kJ; oil flow 4000 L/min; pressure 250 bar; blow rate 32 bl/min",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 240,
+      "high": 2400
+    },
+    {
+      "metric": "MHU3500S energy range",
+      "unit": "kJ",
+      "basis": "3500S Energy range 320-3500 kJ; oil flow 5800 L/min; pressure 240 bar; blow rate 32 bl/min",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "low": 320,
+      "high": 3500
+    },
+    {
+      "metric": "MHU100C weight above (1.6 m foot)",
+      "unit": "t",
+      "basis": "MHU100C - 1.6 m Foot 10.5 t",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 10.5
+    },
+    {
+      "metric": "MHU150S weight above (1.6 m foot)",
+      "unit": "t",
+      "basis": "MHU150S - 1.6 m Foot 21.1 t",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 21.1
+    },
+    {
+      "metric": "MHU1200S weight above (84\" foot)",
+      "unit": "t",
+      "basis": "MHU1200S - 84\" Foot 119 t",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 119
+    },
+    {
+      "metric": "MHU1900S weight above (84\" foot)",
+      "unit": "t",
+      "basis": "MHU1900S - 84\" Foot 158 t",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 158
+    },
+    {
+      "metric": "MHU2400S weight above (3 m foot)",
+      "unit": "t",
+      "basis": "MH2400S - 3 m Foot 251 t",
+      "source": {
+        "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
+      },
+      "value": 251
     }
   ],
   "vendors": [
@@ -112,5 +293,5 @@
     "Drive jacket piles, conductors and monopiles by controlled hydraulic blows; integrated with drivability analysis and noise mitigation."
   ],
   "notes": "Page-read evidence from the 2026-11-24 nearshore-platforms.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

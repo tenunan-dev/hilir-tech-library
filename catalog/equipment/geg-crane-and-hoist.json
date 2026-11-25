@@ -234,6 +234,149 @@
         "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
         "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
       }
+    },
+    {
+      "metric": "capacity",
+      "unit": "tonnes",
+      "basis": "Specifications: Capacity 1T - 100T+; light to medium duty 1T-20T; heavy duty 5T-100T+",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "low": 1,
+      "high": 100
+    },
+    {
+      "metric": "span",
+      "unit": "m",
+      "basis": "Specifications: Span Up to 35m; single girder spans up to 25m, double girder up to 35m",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "high": 35
+    },
+    {
+      "metric": "lift_height",
+      "unit": "n/a",
+      "basis": "Specifications: Lift Height Custom",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "value": "Custom"
+    },
+    {
+      "metric": "duty_class",
+      "unit": "n/a",
+      "basis": "Specifications: Duty Class A3 - A7",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "value": "A3 - A7"
+    },
+    {
+      "metric": "certification",
+      "unit": "n/a",
+      "basis": "Specifications: Certification JKKP / DOSH; JKKP load testing and certification handled in-house",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "value": "JKKP / DOSH"
+    },
+    {
+      "metric": "installation_duration",
+      "unit": "working days",
+      "basis": "A standard overhead crane installation typically takes 3 to 7 working days depending on span, capacity, and site conditions",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      },
+      "low": 3,
+      "high": 7
+    },
+    {
+      "metric": "LH/QD double girder crane - capacity range",
+      "unit": "t (5t to 600t/150t listed)",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 5,
+      "high": 600
+    },
+    {
+      "metric": "LH/QD double girder crane - span",
+      "unit": "m (10.5-31.5 m typical; 13-31 m and 34 m for large models)",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 10.5,
+      "high": 34
+    },
+    {
+      "metric": "LH 5t double girder - total power",
+      "unit": "kW",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 22.8,
+      "high": 27.8
+    },
+    {
+      "metric": "LH 100t/20t double girder - total power",
+      "unit": "kW",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 136,
+      "high": 174
+    },
+    {
+      "metric": "LH 600t/150t double girder - total power",
+      "unit": "kW",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "value": 466
+    },
+    {
+      "metric": "LH/QD - working duty",
+      "unit": "n/a",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "value": "A5, A6 (A5 for 200t and above)"
+    },
+    {
+      "metric": "Single girder overhead crane - power supply",
+      "unit": "n/a",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "value": "220V-660V, 50-60Hz, 3ph AC"
+    },
+    {
+      "metric": "Single girder overhead crane - span",
+      "unit": "m",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 7.5,
+      "high": 31.5
+    },
+    {
+      "metric": "Single girder overhead crane - lifting height",
+      "unit": "m",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF (dgcrane.com, uploaded 2025/07; jina metadata 31 Jan 2026), reference price lists incl. LH-type and QD-type double girder tables",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 6,
+      "high": 30
     }
   ],
   "vendor_models": [
@@ -316,5 +459,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

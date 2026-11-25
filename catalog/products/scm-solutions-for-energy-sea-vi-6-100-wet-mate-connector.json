@@ -68,6 +68,67 @@
         "source_id": "cat-scmlemans-com-sea-vi-6-100-serie"
       },
       "value": "IEC 61886-1; API 17F"
+    },
+    {
+      "metric": "Rated current",
+      "unit": "A",
+      "basis": "SCM SEA-VI 6-100: 'Rated current: 100 A'",
+      "source": {
+        "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Service voltage",
+      "unit": "kV",
+      "basis": "SCM: 'Service voltage: 3,6/6 (7,2) kV'",
+      "source": {
+        "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
+      }
+    },
+    {
+      "metric": "Pressure rating",
+      "unit": "bar (up to)",
+      "basis": "SCM: 'Pressure: up to 300 bar'",
+      "source": {
+        "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "deg C",
+      "basis": "SCM: 'Temperature: -5°C to 40°C'",
+      "source": {
+        "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
+      },
+      "low": -5,
+      "high": 40
+    },
+    {
+      "metric": "Contacts",
+      "unit": "contacts",
+      "basis": "SCM: '4 contacts'",
+      "source": {
+        "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Standards",
+      "unit": "text",
+      "basis": "SCM: 'IEC 61886-1; API 17F'",
+      "source": {
+        "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
+      }
+    },
+    {
+      "metric": "Applications / functions",
+      "unit": "text",
+      "basis": "SCM: 'Sea electrical network; Small Power distribution; long step out communication; small power connection; pipeline & riser heating'",
+      "source": {
+        "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
+      }
     }
   ],
   "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie",
@@ -76,6 +137,6 @@
       "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     }
   ],
-  "notes": "All figures from the printed Main Characteristics list on the HTML page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "All figures from the printed Main Characteristics list on the HTML page. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

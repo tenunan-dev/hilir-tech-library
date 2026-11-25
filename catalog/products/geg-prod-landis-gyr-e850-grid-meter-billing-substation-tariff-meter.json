@@ -39,6 +39,97 @@
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
       }
+    },
+    {
+      "metric": "accuracy_class_active",
+      "unit": "class",
+      "basis": "Accuracy class 0.2S / 0.5S for active energy and 0.5S / 1 for reactive energy",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": "0.2S / 0.5S"
+    },
+    {
+      "metric": "accuracy_class_reactive",
+      "unit": "class",
+      "basis": "Accuracy class 0.5S / 1 for reactive energy",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": "0.5S / 1"
+    },
+    {
+      "metric": "frequency",
+      "unit": "n/a",
+      "basis": "Product page feature list: 50/60Hz and 16 2/3 Hz (for railway infrastructure)",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": "50/60 Hz and 16 2/3 Hz (for railway infrastructure)"
+    },
+    {
+      "metric": "display",
+      "unit": "digits",
+      "basis": "8-digit liquid crystal display (LCD) for local reading of data",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": 8
+    },
+    {
+      "metric": "communication_interfaces",
+      "unit": "n/a",
+      "basis": "Exchangeable communication modules (RS 232 / RS 485 / Ethernet / GSM / GRPS / UMTS (3G)); integrated optical interface and RS485 with DLMS",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": "RS 232 / RS 485 / Ethernet / GSM / GRPS / UMTS (3G)"
+    },
+    {
+      "metric": "transmitting_contacts",
+      "unit": "contacts",
+      "basis": "Up to 8 transmitting contacts (for energy flow, load supervision (Pmax, Qmax), capture period)",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "high": 8
+    },
+    {
+      "metric": "measurement_quadrants",
+      "unit": "quadrants",
+      "basis": "4-quadrant measurement (+P -P, +Q -Q, Q1..Q4)",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": 4
+    },
+    {
+      "metric": "capture_period",
+      "unit": "minutes",
+      "basis": "Accurately records short capture periods (as low as 1-5 minutes)",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "low": 1,
+      "high": 5
+    },
+    {
+      "metric": "low_load_accuracy",
+      "unit": "%",
+      "basis": "Maintains accuracy even at very low loads (2%) and under unbalanced or low power factor (cos phi < 1) conditions",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": 2
+    },
+    {
+      "metric": "versions",
+      "unit": "n/a",
+      "basis": "The E850 grid meter is available in two main versions",
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
+      },
+      "value": "E850 f6 wall mounted; E850 f9 rack mounted"
     }
   ],
   "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
@@ -48,6 +139,6 @@
       "source_id": "geg-landisgyr-com-e850-873e563"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 10 new printed parameters."
 }

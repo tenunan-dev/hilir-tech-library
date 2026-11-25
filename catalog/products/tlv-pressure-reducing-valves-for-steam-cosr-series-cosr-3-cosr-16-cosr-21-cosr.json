@@ -76,14 +76,78 @@
       },
       "unit": "deg F",
       "value": "572"
+    },
+    {
+      "metric": "Product type",
+      "unit": "n/a",
+      "basis": "Pilot-operated pressure reducing valves for steam — COSR series",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
+      },
+      "value": "Pilot-operated pressure reducing valves for steam"
+    },
+    {
+      "metric": "Models",
+      "unit": "n/a",
+      "basis": "Product name: COSR Series (COSR-3, COSR-16, COSR-21, COSR-16HT)",
+      "source": {
+        "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
+      },
+      "value": "COSR-3, COSR-16, COSR-21, COSR-16HT"
+    },
+    {
+      "metric": "COSR-3 datasheet",
+      "unit": "n/a",
+      "basis": "TLV product_v2 PDF a-csr3x-hp.pdf",
+      "source": {
+        "url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-csr3x-hp.pdf",
+        "source_id": "catpar-tlv-com-a-csr3x-hp-pdf-773ce66"
+      },
+      "value": "A-CSR3X-HP"
+    },
+    {
+      "metric": "COSR-21 datasheet",
+      "unit": "n/a",
+      "basis": "TLV product_v2 PDF a-csr21-hp.pdf",
+      "source": {
+        "url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-csr21-hp.pdf",
+        "source_id": "catpar-tlv-com-a-csr21-hp-pdf-7effd17"
+      },
+      "value": "A-CSR21-HP"
+    },
+    {
+      "metric": "COSR-16HT datasheet",
+      "unit": "n/a",
+      "basis": "TLV product_v2 PDF a-crh16-hp.pdf",
+      "source": {
+        "url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-crh16-hp.pdf",
+        "source_id": "catpar-tlv-com-a-crh16-hp-pdf-29b6b08"
+      },
+      "value": "A-CRH16-HP"
     }
   ],
   "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
   "sources": [
     {
       "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
+    },
+    {
+      "url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-csr3x-hp.pdf"
+    },
+    {
+      "url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-csr21-hp.pdf"
+    },
+    {
+      "url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-crh16-hp.pdf"
     }
   ],
-  "notes": "Read in full: TLV en-us Pressure Reducing Valves for Steam (COSR Series) page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: TLV en-us Pressure Reducing Valves for Steam (COSR Series) page. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Numerical pressure, capacity and temperature ratings per COSR model",
+      "why": "PDFs were text-extracted but the rating tables are largely graphical/embedded; only the data-sheet identifiers were reliably legible.",
+      "next_action": "Read the TLV data-sheet tables visually or obtain the HTML specification tables."
+    }
+  ]
 }

@@ -379,6 +379,244 @@
         "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
         "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
       }
+    },
+    {
+      "metric": "Continuous running proven",
+      "unit": "hours",
+      "basis": "\"designed and proved to be of reliable performance for over 8,000 hours continuous running\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 8000
+    },
+    {
+      "metric": "Motor protection",
+      "unit": "IP55",
+      "basis": "\"Our compressors are all IP55 protection grade fully preventing any dust from damaging motors\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 55
+    },
+    {
+      "metric": "Maximum delivery pressure",
+      "unit": "bar (over)",
+      "basis": "\"oil free and dusts free air of over 40 bar and 100,000 Nm3/hr\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Maximum flow",
+      "unit": "Nm3/hr (over)",
+      "basis": "\"oil free and dusts free air of over 40 bar and 100,000 Nm3/hr\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "Pressure dew point",
+      "unit": "degC (as low as)",
+      "basis": "\"the pressure dew point could reach to -70℃, driest possible in the industry\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": -70
+    },
+    {
+      "metric": "VSD running cost saving",
+      "unit": "% (as much as)",
+      "basis": "\"VSD type could save as much as 30% running cost\" / \"save as much as 30% electricity\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Oil-free air quality class",
+      "unit": "ISO 8573-1 class 0",
+      "basis": "\"Discharging ISO 8573-1 class 0 certified oil free air with 24/7 continuous operation\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      }
+    },
+    {
+      "metric": "Typical instrument air pressure",
+      "unit": "bar",
+      "basis": "\"Normally the instrument air compressors are required to discharge around 7-10 bar\"",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "low": 7,
+      "high": 10
+    },
+    {
+      "metric": "Instrument air compressor types",
+      "unit": "types listed",
+      "basis": "Six types listed: oil free screw, oil free centrifugal, oil free piston, oil free scroll, diesel portable oil free, integrated screw",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 6
+    },
+    {
+      "metric": "discharge_pressure_range_option_1",
+      "unit": "barg",
+      "basis": "Integrated compressor solutions table: Discharge Pressure (Barg) 8 to 10 / 8 to 16",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 8,
+      "high": 10
+    },
+    {
+      "metric": "discharge_pressure_range_option_2",
+      "unit": "barg",
+      "basis": "Integrated compressor solutions table: Discharge Pressure (Barg) 8 to 16",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 8,
+      "high": 16
+    },
+    {
+      "metric": "flow_rate_option_1",
+      "unit": "m3/min FAD",
+      "basis": "Integrated compressor solutions table: Flow Rate (m3/min) FAD up to 85 / up to 80",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "high": 85
+    },
+    {
+      "metric": "flow_rate_option_2",
+      "unit": "m3/min FAD",
+      "basis": "Integrated compressor solutions table: Flow Rate (m3/min) FAD up to 80",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "high": 80
+    },
+    {
+      "metric": "power_option_1",
+      "unit": "kW",
+      "basis": "Integrated compressor solutions table: Power (kW) 37 ~ 600",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 37,
+      "high": 600
+    },
+    {
+      "metric": "power_option_2",
+      "unit": "kW",
+      "basis": "Integrated compressor solutions table: Power (kW) 2.2 ~ 500",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 2.2,
+      "high": 500
+    },
+    {
+      "metric": "dryer_dew_point",
+      "unit": "degC",
+      "basis": "Heatless or heated air dryers for low dew points up to -90 degC",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "high": -90
+    },
+    {
+      "metric": "air_quality_class",
+      "unit": "n/a",
+      "basis": "Oil-free air design (ISO 8573-1 Class 0) in combination with HADETEC's filter & dryer package",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": "ISO 8573-1 Class 0"
+    },
+    {
+      "metric": "ISO 8573 moisture Class 1 - dew point",
+      "unit": "degF (or less; <= -100 degF)",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": -100
+    },
+    {
+      "metric": "ISO 8573 moisture Class 2 - dew point",
+      "unit": "degF (or less; <= -40 degF)",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": -40
+    },
+    {
+      "metric": "ISO 8573 moisture Class 3 - dew point",
+      "unit": "degF (or less; <= 14 degF)",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": 14
+    },
+    {
+      "metric": "Refrigerated dryer typical achievable class",
+      "unit": "n/a",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": "Class 4 or 5 (dew point ~37 to 45 degF)"
+    },
+    {
+      "metric": "Desiccant dryer achievable dew point",
+      "unit": "degF or lower (Class 2 or better)",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": -40
+    },
+    {
+      "metric": "nano dryers with multi-stage filtration",
+      "unit": "n/a",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": "ISO 8573 Class 1.2.1 or better"
+    },
+    {
+      "metric": "Class 2 typical application",
+      "unit": "n/a",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": "Instrument air in colder climates or offshore platforms"
+    },
+    {
+      "metric": "Class 1 typical application",
+      "unit": "n/a",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": "Ultra-critical electronics, cryogenics"
+    },
+    {
+      "metric": "Class 3 typical application",
+      "unit": "n/a",
+      "basis": "nano-purification solutions blog 'Instrument Air Standards Oil & Gas ISO 8573 Compliance', published 22 Apr 2026",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      },
+      "value": "General industrial pneumatic applications"
     }
   ],
   "vendor_models": [
@@ -485,5 +723,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

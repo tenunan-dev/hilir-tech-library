@@ -171,6 +171,161 @@
         "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
       },
       "value": "jacket, GBS, semi-submersible, FPSO, drilling rig, TLP"
+    },
+    {
+      "metric": "Facility design topside weight range",
+      "unit": "tonnes",
+      "basis": "\"Our facility designs range from 2,000 to over 40,000 tonnes, covering the full spectrum of offshore developments.\" (page footer ©2026 Aker Solutions; no print date for the figure)",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
+      },
+      "low": 2000,
+      "high": 40000
+    },
+    {
+      "metric": "Experience managing large complex projects",
+      "unit": "years",
+      "basis": "\"With more than 50 years of experience managing large and complex projects from concept through to operation\"",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Company employees",
+      "unit": "employees",
+      "basis": "Site-wide footer figure \"11,700 Employees\" (current at read)",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
+      },
+      "value": 11700
+    },
+    {
+      "metric": "Company locations",
+      "unit": "locations",
+      "basis": "Site-wide footer figure \"38 Locations\" (current at read)",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
+      },
+      "value": 38
+    },
+    {
+      "metric": "Sleipnir - Huisman main crane capacity (each)",
+      "unit": "t (11,000 short tons)",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Sleipnir - tandem lift capacity",
+      "unit": "t (22,000 short tons)",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Sleipnir - displacement",
+      "unit": "t (301,700 short tons)",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": 273700
+    },
+    {
+      "metric": "Sleipnir - length / beam",
+      "unit": "n/a",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": "220 m (720 ft) / 102 m (335 ft)"
+    },
+    {
+      "metric": "Sleipnir - draft",
+      "unit": "m (39 to 105 ft)",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "low": 12,
+      "high": 32
+    },
+    {
+      "metric": "Sleipnir - main hoist capacity vs radius",
+      "unit": "n/a",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": "10,000 t at 27-48 m radius; 7,000 t up to 62 m; 4,000 t at 82 m; max radius 102 m"
+    },
+    {
+      "metric": "Sleipnir - auxiliary hoist",
+      "unit": "n/a",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": "2,500 t at 33-60 m radius"
+    },
+    {
+      "metric": "Sleipnir - whip hoist",
+      "unit": "n/a",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": "200 t at 37-153 m radius"
+    },
+    {
+      "metric": "Sleipnir - third crane",
+      "unit": "n/a",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": "70 t at up to 12 m radius to 2,000 m below waterline"
+    },
+    {
+      "metric": "Sleipnir - installed power",
+      "unit": "n/a",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": "12 x 8 MW dual-fuel (MGO or LNG) engines"
+    },
+    {
+      "metric": "Sleipnir - propulsion",
+      "unit": "n/a",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": "8 Wartsila azimuth thrusters, 5.5 MW each"
+    },
+    {
+      "metric": "Sleipnir - LNG fuel capacity",
+      "unit": "m3",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": 8000
+    },
+    {
+      "metric": "Sleipnir - boom length",
+      "unit": "m (472 ft)",
+      "basis": "Wikipedia 'SSCV Sleipnir' article (secondary source); figures cited there to Sembcorp fact sheet, Sembcorp press release and Offshore magazine",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
+      },
+      "value": 144
     }
   ],
   "vendors": [
@@ -213,5 +368,5 @@
     "Lift integrated topsides, jackets and large modules in a single lift or tandem lift; ballast down to submerge pontoons and reduce wave/swell motion; use revolvi"
   ],
   "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

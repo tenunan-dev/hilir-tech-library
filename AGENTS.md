@@ -33,7 +33,7 @@
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 2,334 valid, 2,334 unique ids |
+| Catalog sources | 2,369 valid, 2,369 unique ids |
 | Technology cards | 402 (417-entry register) |
 | Vendor records | 1,342 |
 | Equipment classes | 505 (75 Alaska GEG WBS line items; 41 WHP component classes from the Mistral-chat sweep, 58 boiler types/components from the first sweep, plus 23 supporting systems: feedwater pretreatment, RO/EDI, chemical dosing, sampling, blowdown recovery, cleaning, steam traps, condensate pumps/polishing, separators, PRV/desuperheating, expansion joints, silencers, insulation, gas boosters, pilots/ignition, instrument air, SCR reagent, circulation/feedwater pumps, MCC/VFD and HRSG bypass dampers) |

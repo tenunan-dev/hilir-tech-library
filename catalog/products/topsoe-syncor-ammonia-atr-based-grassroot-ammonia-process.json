@@ -58,6 +58,70 @@
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
       },
       "value": 4000
+    },
+    {
+      "metric": "SynCOR Ammonia - steam-to-carbon ratio",
+      "unit": "(vs 3.0 for conventional NH3 plant)",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": 0.6
+    },
+    {
+      "metric": "SynCOR Ammonia - relative energy consumption",
+      "unit": "(conventional = 100)",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": 97
+    },
+    {
+      "metric": "SynCOR Ammonia - relative make-up water consumption",
+      "unit": "% (conventional = 100)",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "low": 40,
+      "high": 50
+    },
+    {
+      "metric": "SynCOR Ammonia - steam throughput reduction",
+      "unit": "%",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": 80
+    },
+    {
+      "metric": "SynCOR Ammonia - max referenced single-train capacity",
+      "unit": "n/a",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": "4,000 MTPD (equivalent production) / >6,000 MTPD for other industries"
+    },
+    {
+      "metric": "SynCOR Ammonia - reforming section",
+      "unit": "n/a",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": "Pre-reformer and oxygen-blown SynCOR ATR"
+    },
+    {
+      "metric": "SynCOR Ammonia - synthesis",
+      "unit": "n/a",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": "Inert-free synthesis loop with no purge; nitrogen wash with purge and nitrogen addition"
     }
   ],
   "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
@@ -66,6 +130,6 @@
       "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     }
   ],
-  "notes": "Comparison table also states: two HT shifts in series; nitrogen wash; inert-free loop with no purge; no purge-gas treatment. Conventional reference S/C = 3.0, max 3500 MTPD.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Comparison table also states: two HT shifts in series; nitrogen wash; inert-free loop with no purge; no purge-gas treatment. Conventional reference S/C = 3.0, max 3500 MTPD. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

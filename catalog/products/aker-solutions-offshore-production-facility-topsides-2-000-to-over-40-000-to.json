@@ -28,6 +28,43 @@
         "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
       },
       "value": "jacket, GBS, semi-submersible, FPSO, drilling rig, TLP"
+    },
+    {
+      "metric": "Facility design topside weight range",
+      "unit": "tonnes",
+      "basis": "\"Our facility designs range from 2,000 to over 40,000 tonnes, covering the full spectrum of offshore developments.\" (page footer ©2026 Aker Solutions; no print date for the figure)",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
+      },
+      "low": 2000,
+      "high": 40000
+    },
+    {
+      "metric": "Experience managing large complex projects",
+      "unit": "years",
+      "basis": "\"With more than 50 years of experience managing large and complex projects from concept through to operation\"",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Company employees",
+      "unit": "employees",
+      "basis": "Site-wide footer figure \"11,700 Employees\" (current at read)",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
+      },
+      "value": 11700
+    },
+    {
+      "metric": "Company locations",
+      "unit": "locations",
+      "basis": "Site-wide footer figure \"38 Locations\" (current at read)",
+      "source": {
+        "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
+      },
+      "value": 38
     }
   ],
   "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
@@ -36,6 +73,13 @@
       "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     }
   ],
-  "notes": "Stord yard: 318,000 m2 facility with 'Storen' gantry crane, 1,050 t capacity, 115 m tall and 153 m wide.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Stord yard: 318,000 m2 facility with 'Storen' gantry crane, 1,050 t capacity, 115 m tall and 153 m wide. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Per-design detailed dimensional/weight breakdown of the 2,000–40,000 t topsides",
+      "why": "Not printed on the marketing page",
+      "next_action": "Collect a specific topsides datasheet if the owner wants model-level figures"
+    }
+  ]
 }

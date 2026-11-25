@@ -50,6 +50,86 @@
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
       }
+    },
+    {
+      "metric": "Achievable air pressure",
+      "unit": "bar (over)",
+      "basis": "Comair: 'instrument air compressor solutions offer completely oil free and dusts free air of over 40 bar and 100,000 Nm3/hr'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Achievable air flow",
+      "unit": "Nm3/hr (over)",
+      "basis": "Comair: 'over 40 bar and 100,000 Nm3/hr'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "Continuous running duty",
+      "unit": "hours per year (over)",
+      "basis": "Comair: 'reliable performance for over 8,000 hours continuous running'; centrifugal type 'continuous yearly running of over 8,000 hours'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 8000
+    },
+    {
+      "metric": "Motor protection",
+      "unit": "IP grade",
+      "basis": "Comair: 'Our compressors are all IP55 protection grade fully preventing any dust from damaging motors and all the air filters are of three layers'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": "IP55"
+    },
+    {
+      "metric": "Pressure dew point",
+      "unit": "deg C",
+      "basis": "Comair: 'the pressure dew point could reach to -70℃, driest possible in the industry'; desiccant dryer 'as low as -70℃'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": -70
+    },
+    {
+      "metric": "Oil-free air class",
+      "unit": "text",
+      "basis": "Comair: 'Discharging ISO 8573-1 class 0 certified oil free air with 24/7 continuous operation'; 'technical oil free to be ISO 8573 Class 1 level' for oil-injected with dryer/filters",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      }
+    },
+    {
+      "metric": "VSD running cost saving",
+      "unit": "% (as much as)",
+      "basis": "Comair: 'VSD type could save as much as 30% running cost'; 'save as much as 30% electricity'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Typical instrument air discharge pressure",
+      "unit": "bar",
+      "basis": "Comair FAQ: 'Normally the instrument air compressors are required to discharge around 7-10 bar.'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "low": 7,
+      "high": 10
+    },
+    {
+      "metric": "Compressor types",
+      "unit": "text",
+      "basis": "Comair lists oil free screw, oil free centrifugal and oil free piston compressors for instrument air",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      }
     }
   ],
   "url": "https://comairflow.com/instrument-air-compressor",
@@ -59,6 +139,6 @@
       "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 9 new printed parameters."
 }

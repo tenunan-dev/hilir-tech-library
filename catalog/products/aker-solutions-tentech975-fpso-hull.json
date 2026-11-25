@@ -17,6 +17,77 @@
         "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
       },
       "value": "292 m × 50.6 m × 29 m"
+    },
+    {
+      "metric": "FPSO hull length (Skarv, Aker Solutions Tentech975 design)",
+      "unit": "m",
+      "basis": "Wikipedia, 'Skarv FPSO' record vessel section: 'The FPSO has a length of 292m, beam of 50.6m and is 29m deep' — hull is an Aker Solutions proprietary Tentech975 design (secondary source)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 292
+    },
+    {
+      "metric": "FPSO hull beam (Skarv, Tentech975)",
+      "unit": "m",
+      "basis": "Wikipedia: 'beam of 50.6m'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 50.6
+    },
+    {
+      "metric": "FPSO hull depth (Skarv, Tentech975)",
+      "unit": "m",
+      "basis": "Wikipedia: 'and is 29m deep'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 29
+    },
+    {
+      "metric": "Accommodation (Skarv FPSO)",
+      "unit": "persons in single cabins",
+      "basis": "Wikipedia: 'accommodates about 100 people in single cabins'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Process plant gas handling capacity (Skarv FPSO)",
+      "unit": "m3/day",
+      "basis": "Wikipedia: 'The process plant on the vessel can handle about 19,000,000 cubic metres per day (670,000,000 cu ft/d) of gas'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 19000000
+    },
+    {
+      "metric": "Process plant oil handling capacity (Skarv FPSO)",
+      "unit": "m3/day",
+      "basis": "Wikipedia: 'and 13,500 cubic metres per day (480,000 cu ft/d) of oil'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 13500
+    },
+    {
+      "metric": "Gas export pipe length (Skarv)",
+      "unit": "km",
+      "basis": "Wikipedia: 'An 80 km gas export pipe ties into Asgard transport system'",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Hull delivery date (Skarv)",
+      "unit": "date",
+      "basis": "Wikipedia: 'The hull was delivered in January 2010'; production started August 2011",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
+      }
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
@@ -25,6 +96,13 @@
       "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     }
   ],
-  "notes": "page_read=true",
-  "last_reviewed": "2026-11-24"
+  "notes": "page_read=true Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Tentech975 hull design-specific technical parameters (steel weight, storage capacity, turret type, stability)",
+      "why": "Wikipedia only names the design; no OEM datasheet parameters on the page",
+      "next_action": "Find Aker Solutions/BW Offshore Tentech975 datasheet"
+    }
+  ]
 }

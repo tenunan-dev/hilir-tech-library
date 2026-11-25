@@ -1,0 +1,25 @@
+{
+  "id": "catpar-files-chartindustries-com-howden-diaphragmco-104794a",
+  "name": "files.chartindustries.com",
+  "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Files.Chartindustries.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. Pressure up to 3,000 bar (43,500 psi)"
+}

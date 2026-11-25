@@ -39,6 +39,88 @@
       },
       "low": 1000,
       "high": 6000
+    },
+    {
+      "metric": "Howden piston compressor - Europe's largest renewable H2 plant case",
+      "unit": "MW electrolyzer",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Howden piston compressor - configuration",
+      "unit": "n/a",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "5-stage piston reciprocating compressors"
+    },
+    {
+      "metric": "Howden piston compressor - drive",
+      "unit": "kW induction motors",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 4250
+    },
+    {
+      "metric": "Howden piston compressor - flow",
+      "unit": "n/a",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "21,000 Nm3/hr of wet hydrogen at 1.2 bara"
+    },
+    {
+      "metric": "Howden piston compressor - final pressure",
+      "unit": "bara",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 55
+    },
+    {
+      "metric": "Howden hybrid reciprocating compressor - stages / pressure rise",
+      "unit": "n/a",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Up to 5 compression stages; pressure increases up to 450 bar"
+    },
+    {
+      "metric": "Periflow compressor - discharge pressure",
+      "unit": "bar (up to)",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 350
+    },
+    {
+      "metric": "Periflow compressor - capacity flow range",
+      "unit": "m3/hr",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "low": 10,
+      "high": 20000
+    },
+    {
+      "metric": "Periflow compressor - operating principle",
+      "unit": "n/a",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Profiled impeller wheel revolving in an annular channel; swirling helical gas flow through blades several times; smooth steady flow; API compliant"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
@@ -47,6 +129,13 @@
       "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
-  "notes": "Page states fully compliant with API, area protection requirements and site specifications; low vibration and pulsation-free operation suited to elevated structures.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page states fully compliant with API, area protection requirements and site specifications; low vibration and pulsation-free operation suited to elevated structures. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Howden Periflow detailed model data",
+      "why": "The assigned page prints the Periflow operating principles and headline 350 bar / 10-20,000 m3/hr figures but no model-by-model ratings",
+      "next_action": "Fetch a dedicated Howden Periflow datasheet for detailed model ratings"
+    }
+  ]
 }

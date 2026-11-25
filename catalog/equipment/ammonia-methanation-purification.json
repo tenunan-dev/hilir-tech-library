@@ -63,6 +63,40 @@
       },
       "low": 30,
       "high": 70
+    },
+    {
+      "metric": "Pressure drop reduction vs conventional shapes",
+      "unit": "% lower",
+      "basis": "Topsoe Ammonia methanation: 'Compared to conventional sphere- or cylindrical-shaped methanation catalysts, the ring-shaped PK-5 enables 30-70% lower pressure drop.'",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
+      },
+      "low": 30,
+      "high": 70
+    },
+    {
+      "metric": "Function",
+      "unit": "text",
+      "basis": "Topsoe: 'PK-5 catalyst — A catalyst for conversion of carbon oxides to methane.'",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
+      }
+    },
+    {
+      "metric": "Form",
+      "unit": "text",
+      "basis": "Topsoe: 'ring-shaped PK-5'",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
+      }
+    },
+    {
+      "metric": "Related catalyst PK-7R",
+      "unit": "text",
+      "basis": "Topsoe: 'PK-7R catalyst — A pre-reduced methanation catalyst used for conversion of carbon oxides to methane in ammonia plants, hydrogen plants and SNG plants.'",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
+      }
     }
   ],
   "vendors": [
@@ -95,5 +129,5 @@
     }
   ],
   "notes": "Generated from page-read ammonia/urea sweep evidence 2026-11-24. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

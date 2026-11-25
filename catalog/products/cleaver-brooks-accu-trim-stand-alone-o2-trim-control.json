@@ -57,6 +57,87 @@
       },
       "unit": "compatibility",
       "value": "Standard or compact fuel trains such as the Siemens valve assembly"
+    },
+    {
+      "metric": "Control type",
+      "unit": "n/a",
+      "basis": "The Cleaver-Brooks Accu-Trim O2 Trim System is a stand-alone, PLC-based control system",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "stand-alone O2 trim control package, PLC-based"
+    },
+    {
+      "metric": "Boiler applicability",
+      "unit": "n/a",
+      "basis": "Steam or hot water boiler control",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "Steam or hot water boiler control"
+    },
+    {
+      "metric": "Trim mode",
+      "unit": "n/a",
+      "basis": "Air or fuel trim; an actuator or VSD system, which trims either the fuel or airflow",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "Air or fuel trim"
+    },
+    {
+      "metric": "Drive option",
+      "unit": "n/a",
+      "basis": "Variable-speed drive option; A variable-speed drive is used to provide fuel or air trim",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "Variable-speed drive option"
+    },
+    {
+      "metric": "Fuel train compatibility",
+      "unit": "n/a",
+      "basis": "Works with standard or Siemens gas trains",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "standard or compact fuel trains such as the Siemens valve assembly"
+    },
+    {
+      "metric": "O2 probe options",
+      "unit": "n/a",
+      "basis": "Design options include the custom C-B O2 Probe and industrial O2 probes such as Yokogawa",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "custom C-B O2 Probe and industrial O2 probes such as Yokogawa"
+    },
+    {
+      "metric": "Compensation",
+      "unit": "n/a",
+      "basis": "The system will automatically compensate for changes in temperature, barometric pressure, or fuel characteristics, as well as correcting for normal hysteresis",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "changes in temperature, barometric pressure, or fuel characteristics; normal hysteresis"
+    },
+    {
+      "metric": "Setup",
+      "unit": "n/a",
+      "basis": "Setup and operation are easy with the user-friendly HMI",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "user-friendly HMI"
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "Applications list on the product page",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "Process Steam; Industrial Process; Building Heat; Sterilization; Humidification; Waste Heat Recovery; Hospital and Healthcare; Power and Utilities; Refineries and Petrochemical; Laundry and Dry Cleani"
     }
   ],
   "url": "https://cleaverbrooks.com/product/accu-trim",
@@ -65,6 +146,6 @@
       "url": "https://cleaverbrooks.com/product/accu-trim"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown). No numeric O2 setpoint printed.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). No numeric O2 setpoint printed. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

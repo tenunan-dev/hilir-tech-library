@@ -17,6 +17,48 @@
         "source_id": "specoilandgas-com-produced-water-treatment-hydrocyclone-separators"
       },
       "value": "as low as 25 ppm OIW"
+    },
+    {
+      "metric": "Typical outlet oil-in-water",
+      "unit": "ppm (as low as)",
+      "basis": "SPEC Typical Design Data: 'As low as 25 ppm oil in water, depending on inlet water quality and droplet size'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
+      },
+      "value": 25
+    },
+    {
+      "metric": "Vessel code",
+      "unit": "text",
+      "basis": "SPEC: 'Vessel code ASME Section VIII'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
+      }
+    },
+    {
+      "metric": "Moving parts",
+      "unit": "None",
+      "basis": "SPEC: 'Moving parts: None'; 'Separation is driven by the pressure drop across the liner, not by rotating equipment.'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
+      },
+      "value": 0
+    },
+    {
+      "metric": "Vessel sizing / materials",
+      "unit": "text",
+      "basis": "SPEC: 'Vessel sizes: Configured around process requirements, operating conditions and project scope'; 'Materials: A range of materials and sizes depending on application'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
+      }
+    },
+    {
+      "metric": "Delivery / position",
+      "unit": "text",
+      "basis": "SPEC: 'Delivery: Skid-mounted units'; 'Typical position: Upstream of IGF, where process pressure allows'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
+      }
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
@@ -25,6 +67,13 @@
       "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Pressure drop, liner count, flow capacity per liner",
+      "why": "Page states these are set by SPEC engineering per project and not published",
+      "next_action": "Request project-specific proposal data"
+    }
+  ]
 }

@@ -64,6 +64,154 @@
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
       }
+    },
+    {
+      "metric": "Natural gas power range",
+      "unit": "kW",
+      "basis": "'The power range ranges from 37 kW to 750 kW with natural gas and from 68 kW to 750 kW with special gas (biogas, landfill gas, sewage gas).'",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "37 - 750",
+      "low": 37,
+      "high": 750
+    },
+    {
+      "metric": "Special gas power range",
+      "unit": "kW",
+      "basis": "As above, MAN gas programme page.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "68 - 750",
+      "low": 68,
+      "high": 750
+    },
+    {
+      "metric": "Overall efficiency",
+      "unit": "%",
+      "basis": "'achieve the best overall efficiencies of over 90 per cent thanks to their optimum combustion process'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "> 90"
+    },
+    {
+      "metric": "Natural gas table row - E0834",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '37 - 68 | 1.0 - 1.6 | E0834 | 4 | in-line | 4.6'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 37 - 68 kW; lambda 1.0 - 1.6; 4 cylinders in-line; 4.6 litres; bore 108 mm; stroke 125 mm; power 37 - 68 kW"
+    },
+    {
+      "metric": "Natural gas table row - E0836",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '56 - 110 | 1.0 - 1.68 | E0836 | 6 | in-line | 6.9'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 56 - 110 kW; lambda 1.0 - 1.68; 6 cylinders in-line; 6.9 litres; bore 108 mm; stroke 125 mm; power 56 - 110 kW"
+    },
+    {
+      "metric": "Natural gas table row - E2876",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '150 - 210 | 1.0 - 1.61 | E2876 | 6 | in-line | 12.8'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 150 - 210 kW; lambda 1.0 - 1.61; 6 cylinders in-line; 12.8 litres; bore 128 mm; stroke 166 mm; power 130 - 220 kW"
+    },
+    {
+      "metric": "Natural gas table row - E3268",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '320 - 390 | 1.69 | E3268 | 8 | V 90° | 17.2'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 320 - 390 kW; lambda 1.69; 8 cylinders V 90°; 17.2 litres; bore 132 mm; stroke 157 mm; power 320 - 390 kW"
+    },
+    {
+      "metric": "Natural gas table row - E3262",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '275 - 580 | 1.0 - 1.7 | E3262 | 12 | V 90° | 25.8'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 275 - 580 kW; lambda 1.0 - 1.7; 12 cylinders V 90°; 25.8 litres; bore 132 mm; stroke 157 mm; power 275 - 580 kW"
+    },
+    {
+      "metric": "Natural gas table row - E3872",
+      "unit": "kW / lambda / cylinders / litres / mm",
+      "basis": "MAN 'Engines for natural gas combustion' technical table row: '735 | 1.77 - 1.78 | E3872 | 12 | V 90° | 29,6'; bore/stroke from 'MAN gas engines at a glance' cards. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 735 kW; lambda 1.77 - 1.78; 12 cylinders V 90°; 29,6 litres; bore 138 mm; stroke 165 mm; power 735 kW"
+    },
+    {
+      "metric": "Special gas table row - E0834",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '68 | 1.4/1.5 | E0834 | 4 | in-line | 4.6'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 68 kW; lambda 1.4/1.5; 4 cylinders in-line; 4.6 litres"
+    },
+    {
+      "metric": "Special gas table row - E0836",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '110 | 1.4 - 1.49 | E0836 | 6 | in-line | 6.9'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 110 kW; lambda 1.4 - 1.49; 6 cylinders in-line; 6.9 litres"
+    },
+    {
+      "metric": "Special gas table row - E2876",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '130 - 220 | 1.40 | E2876 | 6 | in-line | 12.8'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 130 - 220 kW; lambda 1.40; 6 cylinders in-line; 12.8 litres"
+    },
+    {
+      "metric": "Special gas table row - E3268",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '320 - 390 | 1.46 - 1.52 | E3268 | 8 | V 90° | 17.2'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 320 - 390 kW; lambda 1.46 - 1.52; 8 cylinders V 90°; 17.2 litres"
+    },
+    {
+      "metric": "Special gas table row - E3262",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '450 - 580 | 1.44 - 1.6 | E3262 | 12 | V 90° | 25.8'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 450 - 580 kW; lambda 1.44 - 1.6; 12 cylinders V 90°; 25.8 litres"
+    },
+    {
+      "metric": "Special gas table row - E3872",
+      "unit": "kW / lambda / cylinders / litres",
+      "basis": "MAN 'Engines for special gas combustion' (biogas, landfill gas, sewage gas) technical table: '735 | 1.61 | E3872 | 12 | V 90° | 29.6'. © MAN 2026.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "Output 735 kW; lambda 1.61; 12 cylinders V 90°; 29.6 litres"
+    },
+    {
+      "metric": "Large-bore gas engines from Everllence",
+      "unit": "MW",
+      "basis": "'Large-bore gas engines from 10 to 18 MW. High-speed, medium-speed and low-speed engines with a displacement in excess of 30 litres are offered by Everllence.'",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "10 to 18 MW; displacement in excess of 30 litres"
     }
   ],
   "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
@@ -73,6 +221,6 @@
       "source_id": "man-eu-gas-power-generation-gas-html"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 16 new printed parameters."
 }

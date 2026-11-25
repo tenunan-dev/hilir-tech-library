@@ -123,6 +123,114 @@
       },
       "unit": "feature set",
       "value": "Complete control system for new or retrofit industrial watertube boilers/burners; economizer control, draft control, full metering options"
+    },
+    {
+      "metric": "Products listed",
+      "unit": "count",
+      "basis": "4 Items Found",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Hawk 4500 application",
+      "unit": "n/a",
+      "basis": "Hawk 4500 — Industrial Watertube Conversions",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": "Industrial Watertube Conversions"
+    },
+    {
+      "metric": "Hawk 4500 capabilities",
+      "unit": "n/a",
+      "basis": "The Hawk 4500 is a complete boiler control system for new or retrofit industrial watertube boilers and burners. Advanced features include economizer control, draft control, and full metering options.",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": "Complete boiler control system for new or retrofit industrial watertube boilers and burners; economizer control, draft control, and full metering options"
+    },
+    {
+      "metric": "EOS 500 display",
+      "unit": "inch",
+      "basis": "the burner control comes with a standard 7\" touchscreen",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": 7
+    },
+    {
+      "metric": "Accu-Trim function",
+      "unit": "n/a",
+      "basis": "Accu-Trim — Stand Alone O2 Trim Control",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": "Stand Alone O2 Trim Control"
+    },
+    {
+      "metric": "Hawk boiler controls options",
+      "unit": "n/a",
+      "basis": "Upgrade to Cleaver-Brooks Hawk Boiler Controls with touchscreen HMI, economizer & O₂-trim options, burner sequencing, fault history & lead/lag operation for retrofits or new installs",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": "touchscreen HMI, economizer & O2-trim options, burner sequencing, fault history & lead/lag operation"
+    },
+    {
+      "metric": "Boiler applicability",
+      "unit": "n/a",
+      "basis": "Steam or hot water boiler control",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "Steam or hot water boiler control"
+    },
+    {
+      "metric": "Trim mode",
+      "unit": "n/a",
+      "basis": "Air or fuel trim; an actuator or VSD system, which trims either the fuel or airflow",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "Air or fuel trim"
+    },
+    {
+      "metric": "Drive option",
+      "unit": "n/a",
+      "basis": "Variable-speed drive option; A variable-speed drive is used to provide fuel or air trim",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "Variable-speed drive option"
+    },
+    {
+      "metric": "O2 probe options",
+      "unit": "n/a",
+      "basis": "Design options include the custom C-B O2 Probe and industrial O2 probes such as Yokogawa",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "custom C-B O2 Probe and industrial O2 probes such as Yokogawa"
+    },
+    {
+      "metric": "Setup",
+      "unit": "n/a",
+      "basis": "Setup and operation are easy with the user-friendly HMI",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "user-friendly HMI"
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "Applications list on the product page",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/accu-trim"
+      },
+      "value": "Process Steam; Industrial Process; Building Heat; Sterilization; Humidification; Waste Heat Recovery; Hospital and Healthcare; Power and Utilities; Refineries and Petrochemical; Laundry and Dry Cleani"
     }
   ],
   "vendors": [
@@ -144,7 +252,7 @@
       "source_id": "honeywell-bms"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "sector": "PWR",
   "sector_codes": [
     "PWR",

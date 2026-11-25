@@ -27,6 +27,71 @@
         "source_id": "usa-sika-com-air-entrainers-sika-air-html"
       },
       "value": "7–400"
+    },
+    {
+      "metric": "standard",
+      "unit": "n/a",
+      "basis": "Sika AIR meets the requirements of ASTM C260/AASHTO M 154",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
+      },
+      "value": "ASTM C260/AASHTO M 154"
+    },
+    {
+      "metric": "dosage_rate",
+      "unit": "fl oz / 100 lb cement (7-400 mL / 100 kg)",
+      "basis": "typical dosage rate of Sika AIR will vary between 0.1-6.0 fl oz / 100 lb. (7-400 mL / 100 kg) of cement or cementitious materials",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
+      },
+      "low": 0.1,
+      "high": 6.0
+    },
+    {
+      "metric": "specific_gravity",
+      "unit": "n/a",
+      "basis": "Specific gravity 1.010 (product data)",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
+      },
+      "value": 1.01
+    },
+    {
+      "metric": "storage_temperature",
+      "unit": "degC",
+      "basis": "Shelf life when stored in original packaging in dry warehouse conditions between 40 degF and 80 degF (5-27 degC) is one year from date of manufacture",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
+      },
+      "low": 5,
+      "high": 27
+    },
+    {
+      "metric": "shelf_life",
+      "unit": "year",
+      "basis": "one year from the date of manufacture when stored in original packaging in dry warehouse conditions",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
+      },
+      "value": 1
+    },
+    {
+      "metric": "appearance",
+      "unit": "n/a",
+      "basis": "Product data: Clear Orange-Brown Liquid",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
+      },
+      "value": "Clear Orange-Brown Liquid"
+    },
+    {
+      "metric": "packaging",
+      "unit": "n/a",
+      "basis": "Available in 55-gallon (208-liter) drums, 275-gallon (1040-liter) totes and bulk delivery",
+      "source": {
+        "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
+      },
+      "value": "55-gallon (208-liter) drums, 275-gallon (1040-liter) totes, bulk delivery"
     }
   ],
   "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
@@ -35,6 +100,13 @@
       "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     }
   ],
-  "notes": "Page read for Sika AIR",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read for Sika AIR Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Parameters for Sika ViscoCrete-1000 and SikaPlast-210 VX",
+      "why": "The assigned URL is the Sika AIR page only; no printed data for the other two products",
+      "next_action": "Fetch the individual Sika ViscoCrete-1000 and SikaPlast-210 VX product pages"
+    }
+  ]
 }

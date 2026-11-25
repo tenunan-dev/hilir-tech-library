@@ -210,6 +210,14 @@
       },
       "unit": "n/a",
       "value": "Stainless (SUS304)"
+    },
+    {
+      "metric": "Application guidance",
+      "unit": "text",
+      "basis": "Spirax Sarco: 'Blowdown heat recovery works best when the blowdown source and feedwater destination are stable. Pair the recovery package with TDS blowdown controls when automatic blowdown creates the upstream stream, and connect the recovered energy into deaerators on the feedwater side.'",
+      "source": {
+        "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/"
+      }
     }
   ],
   "vendors": [
@@ -257,5 +265,5 @@
     }
   ],
   "notes": "Generated from the 2026-11-24 supporting-feedwater.json evidence sweep; every spec cites a page read that day.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

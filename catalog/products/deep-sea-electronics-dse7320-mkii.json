@@ -50,6 +50,78 @@
         "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
       },
       "value": "245 x 184 x 51"
+    },
+    {
+      "metric": "Overall size",
+      "unit": "mm",
+      "basis": "OVERALL SIZE 245 mm x 184 mm x 51 mm (9.6\" x 7.2\" x 2.0\")",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
+      },
+      "value": "245 mm x 184 mm x 51 mm"
+    },
+    {
+      "metric": "Panel cutout size",
+      "unit": "mm",
+      "basis": "PANEL CUTOUT SIZE 220 mm x 160 mm (8.7\" x 6.3\")",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
+      },
+      "value": "220 mm x 160 mm"
+    },
+    {
+      "metric": "Maximum panel thickness",
+      "unit": "mm",
+      "basis": "MAXIMUM PANEL THICKNESS 8.0 mm (0.3\")",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
+      },
+      "value": 8.0
+    },
+    {
+      "metric": "Communications ports",
+      "unit": "n/a",
+      "basis": "The module include USB, RS232 and RS485 ports as well as dedicated DSENet® terminals for system expansion",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
+      },
+      "value": "USB, RS232 and RS485 ports plus dedicated DSENet terminals"
+    },
+    {
+      "metric": "Engine compatibility",
+      "unit": "n/a",
+      "basis": "compatible with electronic (CAN) and non-electronic (magnetic pick-up/alternator sensing) engines",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
+      },
+      "value": "electronic (CAN) and non-electronic (magnetic pick-up/alternator sensing)"
+    },
+    {
+      "metric": "Display",
+      "unit": "n/a",
+      "basis": "display warnings, shutdown and engine status information on the back-lit LCD screen, illuminated LEDs and remote PC",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
+      },
+      "value": "back-lit LCD screen, illuminated LEDs"
+    },
+    {
+      "metric": "Function",
+      "unit": "n/a",
+      "basis": "suitable for a wide variety of single, diesel or gas, gen-set applications",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
+      },
+      "value": "Auto Mains (Utility) Failure Control Module for single diesel or gas gen-set applications"
+    },
+    {
+      "metric": "Features",
+      "unit": "n/a",
+      "basis": "The extensive list of features includes enhanced event and performance monitoring, remote communications & PLC functionality",
+      "source": {
+        "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
+      },
+      "value": "enhanced event and performance monitoring, remote communications & PLC functionality"
     }
   ],
   "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
@@ -58,6 +130,6 @@
       "url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
     }
   ],
-  "notes": "AMF, single diesel or gas genset, IP65 front with gasket",
-  "last_reviewed": "2026-11-24"
+  "notes": "AMF, single diesel or gas genset, IP65 front with gasket Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

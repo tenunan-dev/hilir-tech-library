@@ -28,6 +28,156 @@
       },
       "low": 0,
       "high": 100
+    },
+    {
+      "metric": "Catalytic bead measuring range",
+      "unit": "'Typical measuring range: 0-100 %LEL'; MSA products ULTIMA X5000, General Monitors S5000, ",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 0,
+      "low": 100,
+      "high": "%LEL"
+    },
+    {
+      "metric": "Catalytic bead sensor life",
+      "unit": "years",
+      "basis": "'XCell® sensor with extra-large beads, supported by mechanical posts offering > 5-year life'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Electrochemical measuring range",
+      "unit": "'Typical measuring range: 0-100 ppm and 0-1,000 ppm'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 0,
+      "low": 100,
+      "high": "ppm"
+    },
+    {
+      "metric": "Electrochemical sensor life",
+      "unit": "'1-2 year sensor life'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 1,
+      "low": 2,
+      "high": "years"
+    },
+    {
+      "metric": "Ammonia electrochemical sensor life",
+      "unit": "years",
+      "basis": "'>5-year sensor life for XCell® ammonia sensor due to non-consuming electrolyte design'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Dual sensor configuration",
+      "unit": "n/a",
+      "basis": "'Dual sensor configuration (local or remote) available with ULTIMA X5000 / General Monitors S5000 for catalytic bead and electrochemical sensors'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      }
+    },
+    {
+      "metric": "Ultrasonic detection range",
+      "unit": "'Typical detection ranges: 17-28m, depending on microphone technology'; 28 m with long-lif",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 17,
+      "low": 28,
+      "high": "m"
+    },
+    {
+      "metric": "Ultrasonic minimum pressure",
+      "unit": "bar",
+      "basis": "'Only suitable for pressurized installations from 2 bar (29 psi) or more'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Open path measuring range",
+      "unit": "'Measuring range: up to 0-15000 ppm.m' (Senscient ELDS)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 0,
+      "low": 15000,
+      "high": "ppm.m"
+    },
+    {
+      "metric": "Open path lengths",
+      "unit": "'Path lengths: 5-40m, 40-120m'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 5,
+      "low": 120,
+      "high": "m"
+    },
+    {
+      "metric": "Photoacoustic measuring range",
+      "unit": "'Measuring range: 0-1,000 ppm' (Chillgard 5000 Ammonia Monitor)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 0,
+      "low": 1000,
+      "high": "ppm"
+    },
+    {
+      "metric": "Photoacoustic sampling points",
+      "unit": "points",
+      "basis": "'Maximum 16 points useful for areas requiring sampling at multiple, difficult-to-access locations'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 16
+    },
+    {
+      "metric": "UV/IR field of view",
+      "unit": "'Typical 90° - 125° field of view' (FL500-H2)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 90,
+      "low": 125,
+      "high": "deg"
+    },
+    {
+      "metric": "MSIR field of view",
+      "unit": "deg",
+      "basis": "'Typical 90° field of view' (FL5000)",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 90
+    },
+    {
+      "metric": "Optical path monitoring interval",
+      "unit": "minutes",
+      "basis": "'Continuous Optical Path Monitoring (COPM) checks optical path integrity every 2 minutes'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 2
     }
   ],
   "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
@@ -36,6 +186,6 @@
       "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     }
   ],
-  "notes": "Dual sensor configuration available for both technologies; some models region-limited.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Dual sensor configuration available for both technologies; some models region-limited. Full-parameter pass 2026-11-26: 15 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

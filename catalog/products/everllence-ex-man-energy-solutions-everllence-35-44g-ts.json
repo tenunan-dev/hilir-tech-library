@@ -47,6 +47,51 @@
         "source_id": "everllence-com-products-gas-fuel-engines"
       },
       "value": 25
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm",
+      "basis": "Everllence gas fuel engines page: 'Engine speed: 720/750 rpm' for 35/44G (TS).",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": "720 / 750"
+    },
+    {
+      "metric": "Frequency",
+      "unit": "Hz",
+      "basis": "'Frequency: 60/50 Hz' for 35/44G (TS).",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": "60 / 50"
+    },
+    {
+      "metric": "Maximum power",
+      "unit": "kWm (up to)",
+      "basis": "'Up to 12,900 kWm' for 35/44G (TS).",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": 12900
+    },
+    {
+      "metric": "Hot-condition ramp-up rate",
+      "unit": "MW/min",
+      "basis": "'> 14 MW/min - The dynamic and powerful 35/44G can ramp-up in hot condition very powerful.'",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": "> 14"
+    },
+    {
+      "metric": "Reference CHP plant (EnBW Stuttgart)",
+      "unit": "n/a",
+      "basis": "Customer table on Everllence gas fuel engines page; print date not stated, © 2026.",
+      "source": {
+        "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
+      },
+      "value": "3 x 20V35/44G; 31.2 MW electricity, up to 30 MW district heating; 60,000 metric tons CO2/yr saved; commercial operation 2018; 10-year service contract"
     }
   ],
   "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
@@ -55,6 +100,13 @@
       "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     }
   ],
-  "notes": "Two-stage turbocharging option",
-  "last_reviewed": "2026-11-24"
+  "notes": "Two-stage turbocharging option Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "35/44G fact sheet detailed table",
+      "why": "The linked '35-44g-factsheet' resolves to a form/lead-capture landing page with no technical table in the fetched text.",
+      "next_action": "Submit the form or locate the PDF directly to transcribe the fact sheet rows."
+    }
+  ]
 }

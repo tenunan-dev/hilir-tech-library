@@ -120,6 +120,60 @@
       },
       "unit": "n/a",
       "value": "Boiler Access Doors; Steam Drum Covers; Mud Drum Covers"
+    },
+    {
+      "metric": "Standard insulation thickness",
+      "unit": "in",
+      "basis": "We typically utilize 1” fiberglass for boiler insulation",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Fire door surface temperature",
+      "unit": "degF",
+      "basis": "Surface temperatures may reach around 350°F in fire doors",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
+      },
+      "high": 350
+    },
+    {
+      "metric": "Mud drum cover surface temperature",
+      "unit": "degF",
+      "basis": "200°F in mud drum covers",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
+      },
+      "high": 200
+    },
+    {
+      "metric": "Compatible boiler materials",
+      "unit": "n/a",
+      "basis": "Boilers ... often steel, iron, copper or brass",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
+      },
+      "value": "steel, iron, copper or brass"
+    },
+    {
+      "metric": "Customisation",
+      "unit": "n/a",
+      "basis": "We produce covers to exact fit for your specific boiler door and cover needs. In addition, we can design custom boiler insulation “panels”",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
+      },
+      "value": "made to exact fit; custom boiler insulation panels available"
+    },
+    {
+      "metric": "Excluded Cleaver-Brooks models",
+      "unit": "n/a",
+      "basis": "additional insulation should not be installed on the following models from Cleaver-Brooks: Model numbers starting with CBR, CBLE, CB, CBEX, CBEXDP ... 4WI, ICB, CBEXE, and CBEXP are OK to insulate.",
+      "source": {
+        "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
+      },
+      "value": "CBR, CBLE, CB, CBEX, CBEXDP should not be insulated; 4WI, ICB, CBEXE, CBEXP are OK to insulate"
     }
   ],
   "vendors": [
@@ -156,5 +210,5 @@
     }
   ],
   "notes": "Generated from the 2026-11-24 supporting-steam-condensate.json evidence sweep; every spec cites a page read that day.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

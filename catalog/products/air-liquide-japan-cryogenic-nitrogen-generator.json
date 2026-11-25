@@ -17,6 +17,88 @@
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
       "value": "BEDP for cryogenic nitrogen generator"
+    },
+    {
+      "metric": "Solar energy capacity",
+      "unit": "MW",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 4750
+    },
+    {
+      "metric": "Battery energy storage capacity",
+      "unit": "MWh",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 1600
+    },
+    {
+      "metric": "Electrolyzer capacity",
+      "unit": "MW",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Annual renewables-based hydrogen production",
+      "unit": "tonnes per annum",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 174500
+    },
+    {
+      "metric": "Annual renewables-based ammonia production",
+      "unit": "tonnes per annum",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 958500
+    },
+    {
+      "metric": "Annual renewables generation",
+      "unit": "GWh per annum",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 9750
+    },
+    {
+      "metric": "Cryogenic ammonia storage tank capacity (each of two)",
+      "unit": "tonnes",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 40000
+    },
+    {
+      "metric": "Total project cost",
+      "unit": "billion USD",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 6.8,
+      "year": 2025
+    },
+    {
+      "metric": "Anticipated operations date",
+      "unit": "year",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 2030
     }
   ],
   "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
@@ -25,6 +107,13 @@
       "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     }
   ],
-  "notes": "No capacity published on the read page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "No capacity published on the read page. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Cryogenic nitrogen generator ratings (capacity, purity, pressure, temperature)",
+      "why": "CSIRO page names Air Liquide Japan's BEDP scope but prints no generator specifications",
+      "next_action": "Consult Air Liquide Japan project documentation or the BEDP for generator ratings"
+    }
+  ]
 }

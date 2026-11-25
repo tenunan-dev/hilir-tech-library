@@ -27,6 +27,60 @@
       },
       "unit": "feature set",
       "value": "Complete control system for new or retrofit industrial watertube boilers/burners; economizer control, draft control, full metering options"
+    },
+    {
+      "metric": "Products listed",
+      "unit": "count",
+      "basis": "4 Items Found",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Hawk 4500 application",
+      "unit": "n/a",
+      "basis": "Hawk 4500 — Industrial Watertube Conversions",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": "Industrial Watertube Conversions"
+    },
+    {
+      "metric": "Hawk 4500 capabilities",
+      "unit": "n/a",
+      "basis": "The Hawk 4500 is a complete boiler control system for new or retrofit industrial watertube boilers and burners. Advanced features include economizer control, draft control, and full metering options.",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": "Complete boiler control system for new or retrofit industrial watertube boilers and burners; economizer control, draft control, and full metering options"
+    },
+    {
+      "metric": "EOS 500 display",
+      "unit": "inch",
+      "basis": "the burner control comes with a standard 7\" touchscreen",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": 7
+    },
+    {
+      "metric": "Accu-Trim function",
+      "unit": "n/a",
+      "basis": "Accu-Trim — Stand Alone O2 Trim Control",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": "Stand Alone O2 Trim Control"
+    },
+    {
+      "metric": "Hawk boiler controls options",
+      "unit": "n/a",
+      "basis": "Upgrade to Cleaver-Brooks Hawk Boiler Controls with touchscreen HMI, economizer & O₂-trim options, burner sequencing, fault history & lead/lag operation for retrofits or new installs",
+      "source": {
+        "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
+      },
+      "value": "touchscreen HMI, economizer & O2-trim options, burner sequencing, fault history & lead/lag operation"
     }
   ],
   "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls",
@@ -35,6 +89,6 @@
       "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     }
   ],
-  "notes": "Fetched Boiler Controls catalog listing directly with WebFetch (text). Also printed: ClearFire-CE has 'Inherent O2 trim' (separate product page read).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Boiler Controls catalog listing directly with WebFetch (text). Also printed: ClearFire-CE has 'Inherent O2 trim' (separate product page read). Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

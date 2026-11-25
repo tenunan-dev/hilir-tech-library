@@ -47,6 +47,168 @@
         "source_id": "jenbacher-com-j920-flextra"
       },
       "value": 2
+    },
+    {
+      "metric": "Electrical output 50 Hz genset",
+      "unit": "kW",
+      "basis": "J920 GenSet 50 Hz table: 'Electrical Output 10,606 kW'; * Provided technical data is for information only ... Output and efficiency at generator terminals. Energy input is according to DIN ISO 3046 and DIN 6271, respectively, with a tolerance of + 5%. All data according to full load ... Based on emission values of 250 and 500 mg/Nm3 NOx at 5% O2 at dry exhaust gas. Base for biogas and sewage gas versions: 65% CH4 / 35% CO2. Base for landfill gas version: 55% CH4 / 40% CO2 / Rest N2.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": 10606
+    },
+    {
+      "metric": "Thermal output 50 Hz genset",
+      "unit": "kW",
+      "basis": "J920 GenSet 50 Hz table: 'Thermal Output 10,300 kW'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": 10300
+    },
+    {
+      "metric": "Voltage 50 Hz",
+      "unit": "kV",
+      "basis": "J920 GenSet 50 Hz table: 'Voltage 10.5kV, 11KV'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": "10.5 kV, 11 kV"
+    },
+    {
+      "metric": "Electrical efficiency 50 Hz",
+      "unit": "% (up to)",
+      "basis": "J920 GenSet 50 Hz table: 'Electrical Efficiency up to 48.7 %'; footnote DIN ISO 3046 / DIN 6271 +5%.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": 48.7
+    },
+    {
+      "metric": "Thermal efficiency 50 Hz",
+      "unit": "% (up to)",
+      "basis": "J920 GenSet 50 Hz table: 'Thermal Efficiency up to 47.0 %'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": 47.0
+    },
+    {
+      "metric": "Electrical output 60 Hz genset",
+      "unit": "kW",
+      "basis": "J920 GenSet 60 Hz table: 'Electrical Output 9,542 kW'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": 9542
+    },
+    {
+      "metric": "Thermal output 60 Hz genset",
+      "unit": "kW",
+      "basis": "J920 GenSet 60 Hz table: 'Thermal Output 9,300 kW'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": 9300
+    },
+    {
+      "metric": "Voltage 60 Hz",
+      "unit": "V",
+      "basis": "J920 GenSet 60 Hz table: 'Voltage 480V - 13.8kV'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": "480 V - 13.8 kV"
+    },
+    {
+      "metric": "Electrical efficiency 60 Hz",
+      "unit": "% (up to)",
+      "basis": "J920 GenSet 60 Hz table: 'Electrical Efficiency up to 48.7 %'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": 48.7
+    },
+    {
+      "metric": "Thermal efficiency 60 Hz",
+      "unit": "% (up to)",
+      "basis": "J920 GenSet 60 Hz table: 'Thermal Efficiency up to 47.0 %'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": 47.0
+    },
+    {
+      "metric": "Fuel type",
+      "unit": "n/a",
+      "basis": "J920 table 'Fuel Type Natural Gas' (50 and 60 Hz).",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": "Natural Gas"
+    },
+    {
+      "metric": "NOx reference emission basis",
+      "unit": "mg/Nm3",
+      "basis": "* Provided technical data is for information only ... Output and efficiency at generator terminals. Energy input is according to DIN ISO 3046 and DIN 6271, respectively, with a tolerance of + 5%. All data according to full load ... Based on emission values of 250 and 500 mg/Nm3 NOx at 5% O2 at dry exhaust gas. Base for biogas and sewage gas versions: 65% CH4 / 35% CO2. Base for landfill gas version: 55% CH4 / 40% CO2 / Rest N2.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": "250 and 500 mg/Nm3 at 5% O2, dry exhaust gas"
+    },
+    {
+      "metric": "Biogas/sewage gas reference composition",
+      "unit": "% by vol.",
+      "basis": "* Provided technical data is for information only ... Output and efficiency at generator terminals. Energy input is according to DIN ISO 3046 and DIN 6271, respectively, with a tolerance of + 5%. All data according to full load ... Based on emission values of 250 and 500 mg/Nm3 NOx at 5% O2 at dry exhaust gas. Base for biogas and sewage gas versions: 65% CH4 / 35% CO2. Base for landfill gas version: 55% CH4 / 40% CO2 / Rest N2.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": "65% CH4 / 35% CO2"
+    },
+    {
+      "metric": "Landfill gas reference composition",
+      "unit": "% by vol.",
+      "basis": "* Provided technical data is for information only ... Output and efficiency at generator terminals. Energy input is according to DIN ISO 3046 and DIN 6271, respectively, with a tolerance of + 5%. All data according to full load ... Based on emission values of 250 and 500 mg/Nm3 NOx at 5% O2 at dry exhaust gas. Base for biogas and sewage gas versions: 65% CH4 / 35% CO2. Base for landfill gas version: 55% CH4 / 40% CO2 / Rest N2.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": "55% CH4 / 40% CO2 / rest N2"
+    },
+    {
+      "metric": "Full-load start time",
+      "unit": "minutes",
+      "basis": "'10.6 MW of electric power can be provided from the start in 2 minutes, depending on site conditions and application parameters'; '2-minutes engine start-up time'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Total efficiency (CHP)",
+      "unit": "%",
+      "basis": "'Operating a Jenbacher J920 FleXtra at about 94% of total efficiency and 48.7% of electrical efficiency'; case study Stapelfeld: '>95%' total efficiency - conflicting variants preserved.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": "about 94"
+    },
+    {
+      "metric": "Engine construction",
+      "unit": "n/a",
+      "basis": "J920 Features / 2-stage technology sections.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": "three modules (generator, engine, turbocharger module); segmented camshaft; exchangeable power unit; 2-stage turbocharger (no deration at higher altitudes/higher cooling-water temperatures)"
+    },
+    {
+      "metric": "Case study - Fernwaerme Ulm electrical efficiency",
+      "unit": "%",
+      "basis": "Case study card: 2 x J920 FleXtra, 2 x 10 MW electrical, thermal 2 x 9.6 MW, electrical efficiency 48.8%, pipeline gas, commissioned 2022.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
+      },
+      "value": 48.8
     }
   ],
   "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
@@ -55,6 +217,6 @@
       "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     }
   ],
-  "notes": "Three factory-tested modules; 2-stage turbocharging; ~94% total efficiency CHP",
-  "last_reviewed": "2026-11-24"
+  "notes": "Three factory-tested modules; 2-stage turbocharging; ~94% total efficiency CHP Full-parameter pass 2026-11-26: 18 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

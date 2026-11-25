@@ -304,6 +304,294 @@
         "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
         "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
       }
+    },
+    {
+      "metric": "Target industries",
+      "unit": "text",
+      "basis": "Emerson: 'The Ovation Distributed Control System is purposely designed for the power generation and water/wastewater industries.'",
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+      }
+    },
+    {
+      "metric": "Platform version",
+      "unit": "text",
+      "basis": "Emerson: 'Ovation Automation Platform 4.0 — Purposeful, software-defined automation'; 'Ovation 4.0 Controllers and I/O'",
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+      },
+      "value": "Ovation Automation Platform 4.0"
+    },
+    {
+      "metric": "Controller / I/O model lines",
+      "unit": "text",
+      "basis": "Emerson lists 'OCR3000 Controller, OCC100 Controller, OMC100 Controller, SDC100 Controller, Ovation I/O, Machinery Health Monitor'",
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+      }
+    },
+    {
+      "metric": "I/O construction",
+      "unit": "text",
+      "basis": "Emerson: 'Ovation I/O features modular, plug-in components ... Fast DIN rail installation, built-in connectors, and electronic ID ... With hot-swappable modules, standardized diagnostics'",
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+      }
+    },
+    {
+      "metric": "Market positioning",
+      "unit": "text",
+      "basis": "'According to ARC Advisory Group's Distributed Control Systems for Power Generation Global Market Research 2024–2029, Emerson's Ovation is positioned as the leading distributed control system for power generation globally and across North America.'",
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+      }
+    },
+    {
+      "metric": "User memory",
+      "unit": "MU (Memory Units)",
+      "basis": "Honeywell C300 Specifications: 'User Memory 32,768 MU (Memory Units)'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 32768
+    },
+    {
+      "metric": "Execution units",
+      "unit": "XUs",
+      "basis": "Honeywell: 'Execution Units (XUs) 9000 XUs'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 9000
+    },
+    {
+      "metric": "Execution period",
+      "unit": "ms (Standard)",
+      "basis": "Honeywell: 'Execution Period 20 ms not supported for PCNT05; 50 ms (Standard)'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Temperature rating",
+      "unit": "deg C",
+      "basis": "Honeywell: 'Temperature Rating –40 to +70°C'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "low": -40,
+      "high": 70
+    },
+    {
+      "metric": "Tagged blocks",
+      "unit": " blocks (up to)",
+      "basis": "Honeywell: 'Tagged Blocks Up to 4095'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 4095
+    },
+    {
+      "metric": "Switchover time",
+      "unit": "ms (approximately)",
+      "basis": "Honeywell: 'Switchover Time ~500 ms'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Synchronization time",
+      "unit": "sec (approximately)",
+      "basis": "Honeywell: 'Synchronization Time ~240 sec'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 240
+    },
+    {
+      "metric": "I/O HIVE parameter references",
+      "unit": "references",
+      "basis": "Honeywell: 'I/O HIVE Capacity 1500 IO HIVE Parameter References'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "CN100 connections",
+      "unit": " connections (up to)",
+      "basis": "Honeywell: 'Up to 15 CN100 Connections'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "value": 15
+    },
+    {
+      "metric": "Redundancy",
+      "unit": "text",
+      "basis": "Honeywell: 'Supports 1:1 redundancy with dedicated IOTA and redundancy cable'; 'C300v5 (PCNT05)... supports traditional 1:1 redundant and Control HIVE deployment'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      }
+    },
+    {
+      "metric": "Supported protocols",
+      "unit": "text",
+      "basis": "Honeywell: 'EtherNet/IP, Profinet, FOUNDATION Fieldbus, HART, IEC61850, OPC UA, Profibus and Modbus'; spec table: 'CDA peer-to-peer, EtherNet/IP via EIM, Foundation Fieldbus via FIM4/FIM8, Modbus/TCP via PCDI, Profibus via PGM, Profinet via EIM, VLAN-based IO HIVE'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      }
+    },
+    {
+      "metric": "Security certifications",
+      "unit": "text",
+      "basis": "Honeywell: 'Embedded Firewall; ISA Secure CSA L2 Certified'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      }
+    },
+    {
+      "metric": "Time sources / update periods",
+      "unit": "text",
+      "basis": "Honeywell: 'Time Sources NTP | PTPv2'; 'SNTP Update Period 1 min'; 'PTP Update Period 30 sec'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      }
+    },
+    {
+      "metric": "Models / form factor",
+      "unit": "text",
+      "basis": "Honeywell: 'Models C300 (PCNT05)'; 'Form Factor Series C'; 'Mounting Type On Input Output Termination Assembly (IOTA)'; 'Memory Backup CC-SCMB05 Module for Power-Loss Recovery'",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      }
+    },
+    {
+      "metric": "Plant generating capacity (Patau-Patau)",
+      "unit": "MWe",
+      "basis": "Valmet press release 1 July 2016: 'generating set includes three gas turbines and one steam turbine, featuring a total generating capacity of 112 megawatts electric (MWe)'",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      },
+      "value": 112
+    },
+    {
+      "metric": "Automation scope",
+      "unit": "text",
+      "basis": "Valmet: 'integrates boiler, feedwater and turbine control into one Valmet DNA automation platform'; delivery 'includes a Valmet DNA automation system, an information management application, a turbine controller for an AEG Kanis steam turbine, integration of two existing GE F6 gas turbine controllers into Valmet DNA, engineering and commissioning'",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      }
+    },
+    {
+      "metric": "Startup date",
+      "unit": "date",
+      "basis": "Valmet: 'The new automation system will be started up in July 2016.'",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      }
+    },
+    {
+      "metric": "Typical automation delivery order value",
+      "unit": "EUR million (below 1 to 3, typical range; actual not disclosed)",
+      "basis": "Valmet: 'The value of the order will not be disclosed. Typically the order value of automation system deliveries ranges from below EUR one million to EUR three million.'",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      },
+      "low": 1,
+      "high": 3
+    },
+    {
+      "metric": "ProSafe-RS - SIL certification",
+      "unit": "n/a",
+      "basis": "Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": "TUV certified as a safety system satisfying SIL 3 of IEC 61508"
+    },
+    {
+      "metric": "CENTUM VP - Vnet/IP communication speed",
+      "unit": "Gbps (L2SW in Vnet/IP domain)",
+      "basis": "Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": 1
+    },
+    {
+      "metric": "CENTUM VP - Vnet/IP devices per domain",
+      "unit": "n/a",
+      "basis": "Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": 64
+    },
+    {
+      "metric": "CENTUM VP - domains per system",
+      "unit": "n/a",
+      "basis": "Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": 16
+    },
+    {
+      "metric": "CENTUM VP - stations per system",
+      "unit": "n/a",
+      "basis": "Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": 256
+    },
+    {
+      "metric": "CENTUM VP - operation/monitoring tags",
+      "unit": "maximum; up to 1,000,000 per system with LHS4000",
+      "basis": "Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "CENTUM VP - domain layers via Vnet routers",
+      "unit": "n/a",
+      "basis": "Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": "3 layers (2 layers for bus converter, 3 layers for Vnet)"
+    },
+    {
+      "metric": "CENTUM VP - minimum system configuration",
+      "unit": "n/a",
+      "basis": "Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": "HIS x 1, ENG x 1, FCS x 1 (HIS and ENG can be consolidated in one computer)"
+    },
+    {
+      "metric": "CENTUM VP - supported OS",
+      "unit": "n/a",
+      "basis": "Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": "Windows Vista Business, Windows 7 Professional, Windows Server 2008 Standard, Windows Server 2008 R2 Standard"
+    },
+    {
+      "metric": "CENTUM VP - subsystem communication protocols",
+      "unit": "n/a",
+      "basis": "Yokogawa 'Integrated Production Control System CENTUM VP System Overview (Vnet/IP Edition)', GS 33K01A10-50E; Copyright (c) 2011 Yokogawa Electric Corporation; revision mark Dec. 1, 2013-00",
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
+      },
+      "value": "Serial (ALR111/ALR121), Ethernet (ALE111), PROFIBUS-DP (ALP121/ALP111), Modbus, EtherNet/IP, OPC DA, IEC 61850 IED, FOUNDATION fieldbus, HART, field wireless ISA 100.11a"
     }
   ],
   "vendor_models": [
@@ -446,5 +734,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

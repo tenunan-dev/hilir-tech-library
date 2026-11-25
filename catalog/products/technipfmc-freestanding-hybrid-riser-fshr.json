@@ -17,6 +17,15 @@
         "source_id": "sys-technipfmc-com"
       },
       "value": "vertical steel pipe tensioned by near-surface buoyancy can; flexible jumper to platform; seabed foundation and rigid base jumper to PLET"
+    },
+    {
+      "metric": "characteristic",
+      "unit": "n/a",
+      "basis": "Page bullet: High-pressure resistant (no numeric ratings printed)",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "High-pressure resistant"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
@@ -25,6 +34,13 @@
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     }
   ],
-  "notes": "Deepwater riser solution described on the fetched TechnipFMC flexible pipes page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Deepwater riser solution described on the fetched TechnipFMC flexible pipes page. Full-parameter pass 2026-11-26: 1 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "FSHR pressure, diameter, water depth and material ratings",
+      "why": "Flexible pipes overview page gives one qualitative bullet only",
+      "next_action": "Fetch dedicated FSHR datasheet or brochure from TechnipFMC"
+    }
+  ]
 }

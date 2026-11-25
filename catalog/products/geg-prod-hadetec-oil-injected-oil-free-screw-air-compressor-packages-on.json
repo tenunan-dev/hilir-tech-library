@@ -75,6 +75,91 @@
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
       }
+    },
+    {
+      "metric": "Oil-free screw compressor - discharge pressure",
+      "unit": "Barg",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 8,
+      "high": 10
+    },
+    {
+      "metric": "Oil-injected screw compressor - discharge pressure",
+      "unit": "Barg",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 8,
+      "high": 16
+    },
+    {
+      "metric": "Oil-free screw compressor - flow rate (FAD) up to",
+      "unit": "m3/min",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": 85
+    },
+    {
+      "metric": "Oil-injected screw compressor - flow rate (FAD) up to",
+      "unit": "m3/min",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Oil-free screw compressor - power",
+      "unit": "kW",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 37,
+      "high": 600
+    },
+    {
+      "metric": "Oil-injected screw compressor - power",
+      "unit": "kW",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 2.2,
+      "high": 500
+    },
+    {
+      "metric": "Air dryer - low dew point up to",
+      "unit": "degC",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": -90
+    },
+    {
+      "metric": "Oil-free air quality",
+      "unit": "n/a",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": "ISO 8573-1 Class 0 with filter & dryer package"
+    },
+    {
+      "metric": "Pressure vessels - design standard",
+      "unit": "n/a",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": "ASME VIII Div.1 and U STAMP or PED"
     }
   ],
   "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
@@ -84,6 +169,6 @@
       "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 9 new printed parameters."
 }

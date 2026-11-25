@@ -57,6 +57,39 @@
       },
       "unit": "n/a",
       "value": "independent actuator on each damper"
+    },
+    {
+      "metric": "Damper configuration",
+      "unit": "BiPlane dampers",
+      "basis": "\"Forney utilizes two BiPlane Dampers for superior isolation and control. One damper on the inlet to the HRSG and the other damper isolating the stack\"",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Actuation",
+      "unit": "n/a",
+      "basis": "\"The two BiPlane Dampers allow for soft start and better control capabilities with an independent actuator on each damper\"",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
+      }
+    },
+    {
+      "metric": "Safety interlocks",
+      "unit": "n/a",
+      "basis": "\"Mechanical interlock – Prevents both Dampers from closing at the same time – Allows both to be open at the same time\"; \"Dual set of seals – two layers of protection\"; \"Seal air system – interlocked if pressure falls indicating a leak\"",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
+      }
+    },
+    {
+      "metric": "Benefits",
+      "unit": "n/a",
+      "basis": "\"Better: Soft start flow distribution, Control capability, Safety, Sealing performance; Faster: Reduced time to open; Cheaper: Eliminate the need for the Guillotine Damper, Smaller actuators\"",
+      "source": {
+        "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
+      }
     }
   ],
   "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers",
@@ -65,6 +98,13 @@
       "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
     }
   ],
-  "notes": "Read in full: Forney HRSG Bypass Dampers page. GAP: no numeric size, temperature, leakage or pressure-drop figures on the page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: Forney HRSG Bypass Dampers page. GAP: no numeric size, temperature, leakage or pressure-drop figures on the page. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Technical Data tab numeric ratings (duct size, leakage, pressure drop, actuation time)",
+      "why": "Tab content not rendered in fetched page; linked drawings/resources not read",
+      "next_action": "Fetch the technical data sheet/drawings from Forney literature library"
+    }
+  ]
 }

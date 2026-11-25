@@ -47,6 +47,123 @@
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
       "value": 2000
+    },
+    {
+      "metric": "Displacement (heavy lift)",
+      "unit": "t",
+      "basis": "Wikipedia infobox: \"Displacement 172,000 t (169,000 long tons) (heavy lift)\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 172000
+    },
+    {
+      "metric": "Length overall",
+      "unit": "m",
+      "basis": "Wikipedia infobox: \"Length 198 m (649 ft 7 in) (overall)\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 198
+    },
+    {
+      "metric": "Beam",
+      "unit": "m",
+      "basis": "Wikipedia infobox: \"Beam 87 m (285 ft 5 in)\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 87
+    },
+    {
+      "metric": "Height keel to deck",
+      "unit": "m",
+      "basis": "Wikipedia infobox: \"Height 43.5 m (142 ft 9 in) (keel to deck)\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 43.5
+    },
+    {
+      "metric": "Installed power",
+      "unit": "kW (94,000 hp)",
+      "basis": "Wikipedia infobox: \"Installed power 70,000 kW (94,000 hp)\"; power upgraded in 1999/2000 refit",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 70000
+    },
+    {
+      "metric": "Propulsion thrusters",
+      "unit": "thrusters",
+      "basis": "Wikipedia infobox: \"Propulsion 12 thrusters\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Speed",
+      "unit": "knots",
+      "basis": "Wikipedia infobox: \"Speed 9.5 knots (17.6 km/h; 10.9 mph)\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 9.5
+    },
+    {
+      "metric": "Crane main hook capacity",
+      "unit": "t at 40 m radius (each crane)",
+      "basis": "\"Each crane is capable of lifting up to 7,000 tonnes at 40 m lift radius using the main hook\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 7000
+    },
+    {
+      "metric": "Tandem lift capacity",
+      "unit": "t",
+      "basis": "\"The two cranes are capable of a tandem lift of 14,000 tonnes\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 14000
+    },
+    {
+      "metric": "J-lay pipe diameter",
+      "unit": "in",
+      "basis": "\"The J-lay tower can lay pipe from 4\" to 32\" diameter\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "low": 4,
+      "high": 32
+    },
+    {
+      "metric": "J-lay tension",
+      "unit": "tonnes",
+      "basis": "\"with a tension of up to 525 tonnes (5.15 MN) using the tensioners and up to 2,000 tonnes (20 MN) when using friction clamps\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      }
+    },
+    {
+      "metric": "World offshore lifting record",
+      "unit": "tons (Sabratha deck)",
+      "basis": "\"The Saipem 7000 set the world offshore lifting record of 12,150 tons for the Sabratha deck\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 12150
+    },
+    {
+      "metric": "Crew",
+      "unit": "persons (up to)",
+      "basis": "Wikipedia infobox: \"Crew Up to 700 persons\"",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Saipem_7000"
+      },
+      "value": 700
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Saipem_7000",
@@ -55,6 +172,13 @@
       "url": "https://en.wikipedia.org/wiki/Saipem_7000"
     }
   ],
-  "notes": "16 anchor lines usable to 450 m water depth; Menck hammer spread.",
-  "last_reviewed": "2026-11-24"
+  "notes": "16 anchor lines usable to 450 m water depth; Menck hammer spread. Full-parameter pass 2026-11-26: 13 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Verified OEM Saipem 7000 datasheet values",
+      "why": "Source is Wikipedia (secondary, flagged as lacking inline citations)",
+      "next_action": "Cross-check figures against an OEM Saipem source before using in external publication"
+    }
+  ]
 }

@@ -81,6 +81,119 @@
       },
       "unit": "quality",
       "value": "Material traceability, MTR documentation, non-destructive testing, ASME compliance"
+    },
+    {
+      "metric": "Standard straight tube length",
+      "unit": "in",
+      "basis": "Available from 50\"–510\" (Standard Straight Boiler Tubes)",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "low": 50,
+      "high": 510
+    },
+    {
+      "metric": "Rifled (XID) tube length",
+      "unit": "in",
+      "basis": "Available from 50\"–366\" (Rifled (XID) Boiler Tubes)",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "low": 50,
+      "high": 366
+    },
+    {
+      "metric": "Wall thicknesses",
+      "unit": "n/a",
+      "basis": "Multiple wall thicknesses",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "value": "Multiple wall thicknesses"
+    },
+    {
+      "metric": "Tube material",
+      "unit": "n/a",
+      "basis": "Our boiler tubes are manufactured using premium ERW SA178 steel",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "value": "premium ERW SA178 steel"
+    },
+    {
+      "metric": "Standard",
+      "unit": "n/a",
+      "basis": "produced to meet ASME Boiler & Pressure Vessel Code requirements; ASME compliance",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "value": "ASME Boiler & Pressure Vessel Code"
+    },
+    {
+      "metric": "Heat exchanger bending OD",
+      "unit": "in",
+      "basis": "Bending capabilities include ¾” to 1 ½” OD tubes",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "low": 0.75,
+      "high": 1.5
+    },
+    {
+      "metric": "Heat exchanger bending radius",
+      "unit": "in",
+      "basis": "radius sizes ranging from 2” to 15 ½”",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "low": 2,
+      "high": 15.5
+    },
+    {
+      "metric": "Tube replacement bending OD",
+      "unit": "in",
+      "basis": "Hot and cold bending capabilities include 1 ½” up to 4” OD",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "low": 1.5,
+      "high": 4
+    },
+    {
+      "metric": "Bending techniques",
+      "unit": "n/a",
+      "basis": "Boost, mandrel or hot bending techniques are used to ensure constant uniform tube wall thickness",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "value": "Boost, mandrel or hot bending"
+    },
+    {
+      "metric": "Other tube types",
+      "unit": "n/a",
+      "basis": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging"
+    },
+    {
+      "metric": "Materials for heat exchangers",
+      "unit": "n/a",
+      "basis": "We use a variety of materials including stainless and mild steel",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "value": "stainless and mild steel"
+    },
+    {
+      "metric": "Tube types",
+      "unit": "n/a",
+      "basis": "Types of Boiler Tubes list",
+      "source": {
+        "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
+      },
+      "value": "Standard straight, rifled (XID), bent, custom"
     }
   ],
   "url": "https://cleaverbrooks.com/solutions/boiler-tubes",
@@ -89,6 +202,6 @@
       "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     }
   ],
-  "notes": "Fetched Boiler Tubes page directly with WebFetch (text).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Boiler Tubes page directly with WebFetch (text). Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

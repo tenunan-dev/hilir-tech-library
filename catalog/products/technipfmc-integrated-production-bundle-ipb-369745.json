@@ -17,6 +17,24 @@
         "source_id": "sys-technipfmc-com"
       },
       "value": "flexible production riser with thermal insulation layers, additional hoses for gas lift/other services, active heating through electric cables, fluid temperature monitoring with optical fibres"
+    },
+    {
+      "metric": "Product description",
+      "unit": "n/a",
+      "basis": "The IPB allows for high-level flow assurance of hydrocarbon fluids in difficult conditions from well heads to surface treatment units. The IPB is a flexible production riser that features thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers.",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "Integrated Production Bundle (IPB) — flexible production riser featuring thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid t"
+    },
+    {
+      "metric": "Flexible pipe construction",
+      "unit": "n/a",
+      "basis": "The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires. The helically wound steel wires give the structure its high-pressure resistance and excellent bending characteristics",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
+      },
+      "value": "leakproof thermoplastic barriers and corrosion-resistant steel wires; helically wound steel wires give high-pressure resistance and bending characteristics"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
@@ -25,6 +43,6 @@
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     }
   ],
-  "notes": "Proprietary flexible pipe product for flow assurance in viscous oil, deepwater and pressure-constrained conditions.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Proprietary flexible pipe product for flow assurance in viscous oil, deepwater and pressure-constrained conditions. Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

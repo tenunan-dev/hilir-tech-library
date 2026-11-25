@@ -64,6 +64,80 @@
         "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
         "source_id": "geg-jenbacher-com-23aa945"
       }
+    },
+    {
+      "metric": "Electrical efficiency range of Jenbacher gas engines",
+      "unit": "%",
+      "basis": "'Jenbacher reciprocating gas engines with electrical efficiency usually ranging between 40% and 50%'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": "40 - 50",
+      "low": 40,
+      "high": 50
+    },
+    {
+      "metric": "Application power range",
+      "unit": "MW",
+      "basis": "'from food and beverage applications that use less than 1 MW to industrial segments of up to 100 MW. And then there are even bigger projects ... 190 MW project for the Stadtwerke Kiel in Germany ... Jenbacher J920 FleXtra gas engines.'",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": "less than 1 MW to up to 100 MW; 190 MW CHP project (Stadtwerke Kiel)"
+    },
+    {
+      "metric": "Type 2 maximum power",
+      "unit": "kW/engine",
+      "basis": "Site navigation: 'Jenbacher Type 2 Up to 361 kW/engine'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": 361
+    },
+    {
+      "metric": "Type 3 maximum power",
+      "unit": "kW/engine",
+      "basis": "Site navigation: 'Jenbacher Type 3 Up to 1208 kW/engine'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": 1208
+    },
+    {
+      "metric": "Type 4 maximum power",
+      "unit": "kW/engine",
+      "basis": "Site navigation: 'Jenbacher Type 4 Up to 1694 kW/engine'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": 1694
+    },
+    {
+      "metric": "Type 6 maximum power",
+      "unit": "kW/engine",
+      "basis": "Site navigation: 'Jenbacher Type 6 Up to 4499 kW/engine'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": 4499
+    },
+    {
+      "metric": "Type 9 / J920 maximum power",
+      "unit": "kW/engine",
+      "basis": "Site navigation: 'Jenbacher Type 9 Up to 10606 kW/engine'.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": 10606
+    },
+    {
+      "metric": "Selection factors listed",
+      "unit": "n/a",
+      "basis": "'Important aspects to consider when selecting power generation equipment' list, verbatim wording.",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
+      },
+      "value": "CAPEX; electrical and overall solution efficiency; production/commissioning timeline; modularity; OPEX; start/stop event frequency limits; time to full power; partial-load efficiency; power output tol"
     }
   ],
   "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
@@ -73,6 +147,6 @@
       "source_id": "geg-jenbacher-com-23aa945"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 8 new printed parameters."
 }

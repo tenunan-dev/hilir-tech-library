@@ -221,6 +221,260 @@
       "source": {
         "url": "http://davidsonsales.com/public/pdfs/Maxim%20Silencer%20Catalog.pdf"
       }
+    },
+    {
+      "metric": "Generator set rating",
+      "unit": "n/a",
+      "basis": "Spec sheet title: 'mtu 12V1600 GS400 Gas Generator Set 400 kWe/60 Hz/Standby/208-600V'. 231296 | 2026-03.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "400 kWe / 60 Hz / Standby / 208 - 600 V"
+    },
+    {
+      "metric": "Engine model / type",
+      "unit": "n/a",
+      "basis": "Application data table 'Engine'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "12V1600L80S; 4-cycle; turbocharged, intercooled; 12-V"
+    },
+    {
+      "metric": "Displacement",
+      "unit": "L (cu in)",
+      "basis": "Application data table 'Displacement: L (cu in) 21.0 (1,281)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "21.0 (1,281)"
+    },
+    {
+      "metric": "Bore / stroke",
+      "unit": "cm (in)",
+      "basis": "Application data table 'Bore: cm (in) 12 (4.72); Stroke: cm (in) 15 (5.91)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "12 cm (4.72 in) / 15 cm (5.91 in)"
+    },
+    {
+      "metric": "Compression ratio",
+      "unit": "n/a",
+      "basis": "Application data table 'Compression ratio 11:1'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "11:1"
+    },
+    {
+      "metric": "Rated speed",
+      "unit": "rpm",
+      "basis": "Application data table 'Rated rpm 1,800'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": 1800
+    },
+    {
+      "metric": "Maximum power NG / LPG",
+      "unit": "kWm (bhp)",
+      "basis": "Application data table 'Maximum power (NG): kWm (bhp) 565 (758); Maximum power (LPG) 397 (532)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "565 (758) / 397 (532)"
+    },
+    {
+      "metric": "Gas fuel consumption NG at 100% / 75% / 50%",
+      "unit": "m3/hr (ft3/hr)",
+      "basis": "Fuel consumption table (NG-1000 BTU/ft3): 'At 100% of power rating: m3/hr (ft3/hr) 143.5 (5,067)' etc.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "143.5 (5,067) / 115.7 (4,087) / 86.7 (3,063)"
+    },
+    {
+      "metric": "LPG fuel consumption at 100% / 75% / 50%",
+      "unit": "m3/hr (ft3/hr)",
+      "basis": "Fuel consumption table (LP-2500 BTU/ft3).",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "46.8 (1,654) / 38 (1,341) / 28.7 (1,015)"
+    },
+    {
+      "metric": "Steady state frequency band",
+      "unit": "%",
+      "basis": "Application data table 'Steady state frequency band ± 0.5%'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "± 0.5 %"
+    },
+    {
+      "metric": "Emissions certification",
+      "unit": "n/a",
+      "basis": "Certifications and standards / Standard features sections; 'Emissions data ... values provided ... are typical and intended for limited design reference only. Refer to Emission Data Sheet (EDS)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "EPA Part 60 Subpart JJJJ Stationary Non-Emergency; EPA Part 1048 Mobile; EPA Blue Sky Series certified; 3-way catalyst"
+    },
+    {
+      "metric": "Standby rating definition",
+      "unit": "n/a",
+      "basis": "Rating definitions and conditions; 'Nominal ratings at standard conditions: 25 C and 300 meters (77 F and 1,000 feet).'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "85% average load factor; no overload capability; ISO 8528-1, ISO 3046-1, BS 5514, AS 2789"
+    },
+    {
+      "metric": "Exhaust gas temperature (stack)",
+      "unit": "deg C (1,321 F)",
+      "basis": "Exhaust system table, NG and LPG: 'Gas temperature (stack): C (F) 716 (1,321)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": 716
+    },
+    {
+      "metric": "Exhaust gas volume at stack temperature",
+      "unit": "m3/min (CFM)",
+      "basis": "Exhaust system table: 'Gas volume at stack temperature: m3/min (CFM) 84.6 (2,988)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "84.6 (2,988)"
+    },
+    {
+      "metric": "Maximum allowable back pressure",
+      "unit": "kPa (in. H2O)",
+      "basis": "Exhaust system table: 'Maximum allowable back pressure at outlet of engine, before piping: kPa (in. H2O) 10 (40)'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
+      },
+      "value": "10 (40)"
+    },
+    {
+      "metric": "NOx reduction",
+      "unit": "% (greater than)",
+      "basis": "Johnson Matthey: \"JM's SCR systems are designed to reduce >95% of NOx emissions for stationary diesel and gas engines.\"",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
+      },
+      "value": 95
+    },
+    {
+      "metric": "Operating hours before maintenance",
+      "unit": "hours (15,000-plus)",
+      "basis": "Johnson Matthey: \"JM's SCR technology has achieved an impressive 15,000-plus hours of operation before maintenance is required.\"",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Complementary catalyst functions",
+      "unit": "text",
+      "basis": "Johnson Matthey: 'Our SCR systems can be coupled with ammonia slip or oxidation catalyst technology for optimal reductions of CO, hydrocarbons, ammonia and other VOCs.'",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
+      }
+    },
+    {
+      "metric": "System components",
+      "unit": "text",
+      "basis": "Johnson Matthey: 'SINOx honeycomb catalysts; Durable stainless steel catalyst housings; Stainless steel reagent injection lance; Stainless steel reagent mixing duct; System control panel and reagent dosing pump; Silencers for additional sound attenuation'",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
+      }
+    },
+    {
+      "metric": "Absorptive silencer attenuation",
+      "unit": "dB(A)",
+      "basis": "Absorptive silencer: 15dB(A) to 25dB(A)",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "low": 15,
+      "high": 25
+    },
+    {
+      "metric": "Reactive silencer attenuation",
+      "unit": "dB(A)",
+      "basis": "Reactive silencer: 30dB(A) to 50dB(A)",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "low": 30,
+      "high": 50
+    },
+    {
+      "metric": "Performance range",
+      "unit": "dB(A)",
+      "basis": "Performance range 10-50 dB(A)",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "low": 10,
+      "high": 50
+    },
+    {
+      "metric": "Single-unit noise reduction",
+      "unit": "dB(A)",
+      "basis": "offer a noise reduction of 15dB(A) to 50dB(A) using single units",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "low": 15,
+      "high": 50
+    },
+    {
+      "metric": "Working temperature",
+      "unit": "degC",
+      "basis": "products have a working temperature range of up to 450°c",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "high": 450
+    },
+    {
+      "metric": "Pressure level",
+      "unit": "Pa",
+      "basis": "and approximately 5000Pa pressure level",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "high": 5000
+    },
+    {
+      "metric": "Silencer shapes",
+      "unit": "n/a",
+      "basis": "Cylindrical, box and other shapes available; Circular, rectangular, or oval design",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "value": "Cylindrical, box and other shapes available; circular, rectangular, or oval design"
+    },
+    {
+      "metric": "Materials",
+      "unit": "n/a",
+      "basis": "Silencer components are generally constructed from carbon steel ... Materials such as stainless steel and corten steel can be specified",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "value": "carbon steel; stainless steel and corten steel available"
+    },
+    {
+      "metric": "Catalyst/SCR option",
+      "unit": "n/a",
+      "basis": "To satisfy the current environmental requirement, all silencers can be supplied with catalysts or selective catalytic reduction (SCR) systems",
+      "source": {
+        "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/"
+      },
+      "value": "all silencers can be supplied with catalysts or selective catalytic reduction (SCR) systems"
     }
   ],
   "vendor_models": [
@@ -320,5 +574,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

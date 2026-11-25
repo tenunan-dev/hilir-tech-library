@@ -127,6 +127,108 @@
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
       }
+    },
+    {
+      "metric": "operating_temperature",
+      "unit": "degC",
+      "basis": "Operation in industrial temperature range: -40 degC to +85 degC normal operation; passive cooling - no fans",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "low": -40,
+      "high": 85
+    },
+    {
+      "metric": "high_voltage_power_supply",
+      "unit": "VDC",
+      "basis": "Universal high-voltage range: 88-300 VDC or 85-264 VAC",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "low": 88,
+      "high": 300
+    },
+    {
+      "metric": "high_voltage_power_supply_AC",
+      "unit": "VAC",
+      "basis": "Universal high-voltage range: 88-300 VDC or 85-264 VAC",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "low": 85,
+      "high": 264
+    },
+    {
+      "metric": "low_voltage_options",
+      "unit": "n/a",
+      "basis": "Low voltage: 12 VDC, 24 VDC or 48 VDC",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": "12 VDC, 24 VDC or 48 VDC"
+    },
+    {
+      "metric": "RSG2100_ports",
+      "unit": "ports",
+      "basis": "RUGGEDCOM RSG2100: Up to 19 ports: 3 x 10/100/1000BASE-X; 16 x 10/100BASE-X; 2 port modules",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": 19
+    },
+    {
+      "metric": "RSG2300_ports",
+      "unit": "ports",
+      "basis": "RUGGEDCOM RSG2300: Up to 32 ports: 4 x optional 10/100/1000BASE-X; 4 x optional 10/100BASE-X; 24 x fixed 10/100BASE-TX",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": 32
+    },
+    {
+      "metric": "RST2228_ports",
+      "unit": "ports",
+      "basis": "RUGGEDCOM RST2228: 4 x 1000BASE-X/10GBASE-X uplinks; up to 24 x 10/100/1000BASE-X ports; IEEE 1588 v2 hardware time stamping",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": 24
+    },
+    {
+      "metric": "RSG2488_ports",
+      "unit": "ports",
+      "basis": "RUGGEDCOM RSG2488: 28 x 10/100/1000BASE-X ports; 4 port field replaceable modules; IEEE 1588, SNTP, IRIG-B and GPS conversion",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": 28
+    },
+    {
+      "metric": "PoE_power_per_port",
+      "unit": "W",
+      "basis": "RST2228P: Up to 24 PoE ports; maximum power per port is 60 Watt; 500 Watt shared power budget per device",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": 60
+    },
+    {
+      "metric": "PoE_shared_power_budget",
+      "unit": "W",
+      "basis": "500 Watt shared power budget per device (RST2228P)",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": 500
+    },
+    {
+      "metric": "safety_approval",
+      "unit": "n/a",
+      "basis": "RSG2100P / RSG2300P universal power supply options: CSA/UL 60950 safety approved to +85 degC",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      },
+      "value": "CSA/UL 60950 safety approved to +85 degC"
     }
   ],
   "vendor_models": [
@@ -190,5 +292,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

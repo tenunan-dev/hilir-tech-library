@@ -97,6 +97,144 @@
         "source_id": "cat-nov-com-duraflex"
       },
       "value": "Flange and pipe to pipe"
+    },
+    {
+      "metric": "nominal_pressure_rating",
+      "unit": "psi",
+      "basis": "500 psi (3.45 MPa) API 15S Nominal Pressure Rating (NPR)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 500
+    },
+    {
+      "metric": "nominal_pressure_rating_MPa",
+      "unit": "MPa",
+      "basis": "500 psi (3.45 MPa) API 15S Nominal Pressure Rating (NPR)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 3.45
+    },
+    {
+      "metric": "max_temperature",
+      "unit": "degC",
+      "basis": "Max Temp 140 degF (60 degC)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 60
+    },
+    {
+      "metric": "sizes",
+      "unit": "n/a",
+      "basis": "Size 3 in., 4 in., and 6 in.",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": "3 in., 4 in., and 6 in."
+    },
+    {
+      "metric": "inside_diameter_3in",
+      "unit": "in",
+      "basis": "Series 500 Product Properties table: Inside Pipe Diameter DF 3\" 500 = 2.82 in (72 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 2.82
+    },
+    {
+      "metric": "inside_diameter_4in",
+      "unit": "in",
+      "basis": "Series 500 table: DF 4\" 500 ID 3.57 in (91 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 3.57
+    },
+    {
+      "metric": "inside_diameter_6in",
+      "unit": "in",
+      "basis": "Series 500 table: DF 6\" 500 ID 5.60 in (142 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 5.6
+    },
+    {
+      "metric": "outside_diameter_3in",
+      "unit": "in",
+      "basis": "Series 500 table: DF 3\" 500 OD 3.65 in (93 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 3.65
+    },
+    {
+      "metric": "outside_diameter_4in",
+      "unit": "in",
+      "basis": "Series 500 table: DF 4\" 500 OD 4.55 in (116 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 4.55
+    },
+    {
+      "metric": "outside_diameter_6in",
+      "unit": "in",
+      "basis": "Series 500 table: DF 6\" 500 OD 6.82 in (173 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 6.82
+    },
+    {
+      "metric": "wall_thickness",
+      "unit": "in",
+      "basis": "Series 500 table: Overall Pipe Wall Thickness 0.42 / 0.49 / 0.61 in (11 / 12 / 15 mm)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "low": 0.42,
+      "high": 0.61
+    },
+    {
+      "metric": "pipe_weight",
+      "unit": "lbs/ft",
+      "basis": "Series 500 table pipe weight 2.00 / 3.06 / 5.72 lbs/ft (2.98 / 4.56 / 8.53 kg/m)",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "low": 2,
+      "high": 5.72
+    },
+    {
+      "metric": "reel_capacity",
+      "unit": "ft",
+      "basis": "Series 500 table reel capacity 3,000/1,700 ft (3\"); 2,400 ft (4\"); 1,175/525 ft (6\")",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "low": 1175,
+      "high": 3000
+    },
+    {
+      "metric": "spool_length_max",
+      "unit": "ft",
+      "basis": "The flexibility of DuraFlex enables the pipe to be spooled with lengths up to 4,000 ft",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "factory_hydrotest",
+      "unit": "x nominal pressure rating",
+      "basis": "100% hydrotested at the factory to 1.5x the nominal pressure rating; produced in API Q1 ISO9001 facility licensed to produce API 15S pipe",
+      "source": {
+        "url": "https://www.nov.com/products/duraflex"
+      },
+      "value": 1.5
     }
   ],
   "url": "https://www.nov.com/products/duraflex",
@@ -105,6 +243,6 @@
       "url": "https://www.nov.com/products/duraflex"
     }
   ],
-  "notes": "API 15S licensed facility per printed page. Sizes 3, 4 and 6 in on this page; a linked 2021 flyer mentions 8 in and 750 psi but that PDF was not WebFetch-verified.",
-  "last_reviewed": "2026-11-24"
+  "notes": "API 15S licensed facility per printed page. Sizes 3, 4 and 6 in on this page; a linked 2021 flyer mentions 8 in and 750 psi but that PDF was not WebFetch-verified. Full-parameter pass 2026-11-26: 15 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

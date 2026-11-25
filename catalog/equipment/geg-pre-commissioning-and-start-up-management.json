@@ -174,6 +174,269 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
       }
+    },
+    {
+      "metric": "Oil sample extraction point and condition",
+      "unit": "n/a",
+      "basis": "'The oil samples must always be taken under the same site conditions (engine at operation temperature) and at the designated point (extraction nozzle on oil filter housing).' A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Engine at operation temperature; extraction nozzle on oil filter housing"
+    },
+    {
+      "metric": "Used oil viscosity at 100 C - Series 4000",
+      "unit": "mm2/s",
+      "basis": "Table 2, ASTM D445 / DIN 51562, Series 4000. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 17.5 / Min. 11.5 / New oil value +30 %"
+    },
+    {
+      "metric": "Used oil TBN - Series 4000",
+      "unit": "mgKOH/g",
+      "basis": "Table 2, ASTM D2896 / ISO 3771, Series 4000. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Min. 2.5 and TBN > TAN; New oil value -60 %"
+    },
+    {
+      "metric": "Used oil TAN",
+      "unit": "mgKOH/g",
+      "basis": "Table 2, ASTM D664; 'On request from factory' for Series 400. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "max. new oil value +2.5"
+    },
+    {
+      "metric": "Used oil iph value",
+      "unit": "n/a",
+      "basis": "Table 2, ASTM D7946. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Min. 4 (Series 4000) / Min. 4 (Series 400)"
+    },
+    {
+      "metric": "Used oil water",
+      "unit": "% by vol.",
+      "basis": "Table 2, ASTM D6304 / EN 12937 / ISO 6296. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 0.2 (both series)"
+    },
+    {
+      "metric": "Used oil glycol",
+      "unit": "mg/kg",
+      "basis": "Table 2, ASTM D2982. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 100 (Series 4000); on request from factory (Series 400)"
+    },
+    {
+      "metric": "Used oil oxidation",
+      "unit": "A/cm",
+      "basis": "Table 2, DIN 51453. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 20 (S4000) / Max. 30 (S400)"
+    },
+    {
+      "metric": "Used oil nitration",
+      "unit": "A/cm",
+      "basis": "Table 2, IR method. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 20 (S4000) / Max. 30 (S400)"
+    },
+    {
+      "metric": "Wear metals - iron",
+      "unit": "mg/kg",
+      "basis": "Table 2, DIN 51399-1/-2. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 30 (S4000) / Max. 50 (S400)"
+    },
+    {
+      "metric": "Wear metals - lead",
+      "unit": "mg/kg",
+      "basis": "Table 2, DIN 51399-1/-2. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 20 (S4000) / Max. 30 (S400)"
+    },
+    {
+      "metric": "Wear metals - aluminium",
+      "unit": "mg/kg",
+      "basis": "Table 2, DIN 51399-1/-2. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 10 (S4000) / Max. 20 (S400)"
+    },
+    {
+      "metric": "Wear metals - copper",
+      "unit": "mg/kg",
+      "basis": "Table 2 footnotes *** 'During the 1st oil change (max. 3000 op. hrs.), the limit value is 50 ppm.' A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 20 (first oil change max 3000 op.hrs: 50 ppm) / Max. 50"
+    },
+    {
+      "metric": "Wear metals - tin",
+      "unit": "mg/kg",
+      "basis": "Table 2, DIN 51399-1/-2. A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 5 (S4000) / Max. 15 (S400)"
+    },
+    {
+      "metric": "Wear metals - silicon",
+      "unit": "mg/kg",
+      "basis": "Table 2: '* The limit value for the wear element Si only refers to natural gas operation.' A001072/02E 2020-06, p.8.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "Max. 15 (S4000) / Max. 10 (S400)"
+    },
+    {
+      "metric": "Extended oil volume wear-element reduction",
+      "unit": "%",
+      "basis": "'When using an extended volume of oil, the limit values for wear elements must be reduced inversely proportional to the volume enlargement. The maximum permissible reduction of limit values for the wear elements is 50% of the limit value from the table.'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "50 % (max) of table limit value"
+    },
+    {
+      "metric": "Silicon operational value SiB limit - with catalyst / without",
+      "unit": "mg Si/m3 NTP CH4",
+      "basis": "Section 2.1.3: SiB = Delta Si oil analysis [ppm] x (Oil fill quantity + top-up quantity)[l] / generated electrical work [kWh]. A001072/02E 2020-06, p.10.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "0 / < 0.01 (Series 4000) / < 0.02 (Series 400)"
+    },
+    {
+      "metric": "Oil analysis records",
+      "unit": "n/a",
+      "basis": "'Used-oil analysis - The results of the oil analyses must be archived.' A001072/02E 2020-06, p.9.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
+      },
+      "value": "The results of the oil analyses must be archived"
+    },
+    {
+      "metric": "Malaysia office established",
+      "unit": "year",
+      "basis": "'Wartsila in Malaysia was set up in 1996 in Kuala Lumpur'.",
+      "source": {
+        "url": "https://www.wartsila.com/mys"
+      },
+      "value": 1996
+    },
+    {
+      "metric": "Local staff",
+      "unit": "people",
+      "basis": "'today it has over 15 professionals in 2 different locations in Kuala Lumpur and Pasir Gudang, Johor to serve our customers in the East and West Malaysia.'",
+      "source": {
+        "url": "https://www.wartsila.com/mys"
+      },
+      "value": "over 15 professionals"
+    },
+    {
+      "metric": "Kuala Lumpur office address",
+      "unit": "n/a",
+      "basis": "Contact us block on wartsila.com/mys, © 2026 Wartsila.",
+      "source": {
+        "url": "https://www.wartsila.com/mys"
+      },
+      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia"
+    },
+    {
+      "metric": "Kuala Lumpur phone / fax",
+      "unit": "n/a",
+      "basis": "Contact us block on wartsila.com/mys.",
+      "source": {
+        "url": "https://www.wartsila.com/mys"
+      },
+      "value": "+603 2148 5072 / +603 2148 5071"
+    },
+    {
+      "metric": "Engine type",
+      "unit": "n/a",
+      "basis": "The MAN 175D engine is a V type, available with 12, 16 or 20 cylinders, with 175 mm bore",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "MAN 175D, V type, 12/16/20 cylinders, 175 mm bore"
+    },
+    {
+      "metric": "Engine speed",
+      "unit": "rpm",
+      "basis": "Running from 1,500 to 2,000 rpm",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "low": 1500,
+      "high": 2000
+    },
+    {
+      "metric": "Engine rating",
+      "unit": "kW",
+      "basis": "it features ratings from 1,440 to 4,400 kW",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "low": 1440,
+      "high": 4400
+    },
+    {
+      "metric": "Service levels",
+      "unit": "n/a",
+      "basis": "individual service levels (L1 to L5). L1 and L2 e.g. covering the basic tasks – and L5 the most advanced expert tasks.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "L1 to L5"
+    },
+    {
+      "metric": "Training duration",
+      "unit": "n/a",
+      "basis": "Training type: Four-day training for Standard and Advanced courses, and four weeks training for the Expert course at the MAN PrimeServ Academies in Denmark.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": "Four-day training for Standard and Advanced courses, and four weeks training for the Expert course"
+    },
+    {
+      "metric": "Service centres",
+      "unit": "count",
+      "basis": "Via a network of over 100 service centers worldwide",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Spare parts delivery",
+      "unit": "hours",
+      "basis": "Prompt delivery of high-demand OEM spare parts within 24 hours",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
+      },
+      "high": 24
     }
   ],
   "vendor_models": [
@@ -249,5 +512,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

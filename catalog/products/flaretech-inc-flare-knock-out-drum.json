@@ -17,6 +17,34 @@
         "source_id": "flaretechinc-com-products-flare-knockout-drums"
       },
       "value": "2-600 BBL"
+    },
+    {
+      "metric": "volume_range",
+      "unit": "BBL",
+      "basis": "we have designed and manufactured Flare Knockout Drums from small 2 Barrels (BBL) to large 600BBL volumes",
+      "source": {
+        "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
+      },
+      "low": 2,
+      "high": 600
+    },
+    {
+      "metric": "configuration_options",
+      "unit": "n/a",
+      "basis": "Our knockouts can be produced complete with ... (printed list)",
+      "source": {
+        "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
+      },
+      "value": "fully enclosed heated buildings, partially enclosed heated buildings, heated enclosures between the saddles, or heat traced and insulated"
+    },
+    {
+      "metric": "quality_certification",
+      "unit": "n/a",
+      "basis": "Certifications: Certified Company ISO 9001:2008",
+      "source": {
+        "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
+      },
+      "value": "ISO 9001:2008"
     }
   ],
   "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
@@ -25,6 +53,6 @@
       "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

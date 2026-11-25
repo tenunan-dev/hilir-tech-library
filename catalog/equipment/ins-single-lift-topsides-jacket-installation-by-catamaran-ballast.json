@@ -190,6 +190,279 @@
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
       "value": "III"
+    },
+    {
+      "metric": "tandem_lift_capacity",
+      "unit": "metric tons",
+      "basis": "Thialf is capable of a tandem lift of 14,200 metric tons",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 14200
+    },
+    {
+      "metric": "year_built",
+      "unit": "year",
+      "basis": "The vessel was built in 1985",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 1985
+    },
+    {
+      "metric": "dynamic_positioning",
+      "unit": "n/a",
+      "basis": "equipped with a class III dynamic positioning system",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": "class III dynamic positioning system"
+    },
+    {
+      "metric": "Bokalift 1 - crane lifting capacity",
+      "unit": "ton",
+      "basis": "Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Bokalift 1 - available deck space",
+      "unit": "n/a",
+      "basis": "Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": "165 m x 43 m"
+    },
+    {
+      "metric": "Bokalift 1 - accommodation",
+      "unit": "persons",
+      "basis": "Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 150
+    },
+    {
+      "metric": "Bokalift 1 - dynamic positioning class",
+      "unit": "n/a",
+      "basis": "Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": "DP2 self-propelled crane vessel (converted 2017)"
+    },
+    {
+      "metric": "Bokalift 1 - helicopter deck",
+      "unit": "n/a",
+      "basis": "Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": "Available for offshore transfers"
+    },
+    {
+      "metric": "Crane lifting capacity (fleet page)",
+      "unit": "tons",
+      "basis": "revolving crane with a lifting capacity of 4,000 tons",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Accommodation (fleet page)",
+      "unit": "persons",
+      "basis": "can accommodate 150 persons",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 150
+    },
+    {
+      "metric": "Accommodation (factsheet)",
+      "unit": "persons",
+      "basis": "Maximum 146 persons (Bokalift 2 factsheet 06-2026)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": 146
+    },
+    {
+      "metric": "Dynamic positioning",
+      "unit": "n/a",
+      "basis": "Kongsberg DP-2; Kongsberg DPSI 5; 1x HiPAP, Taut wire",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": "Kongsberg DP-2 / Kongsberg DPSI 5"
+    },
+    {
+      "metric": "Length",
+      "unit": "m",
+      "basis": "231 m (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": 231
+    },
+    {
+      "metric": "Breadth",
+      "unit": "m",
+      "basis": "49 m (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": 49
+    },
+    {
+      "metric": "Draught",
+      "unit": "m",
+      "basis": "8.5 - 9.5 m (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "low": 8.5,
+      "high": 9.5
+    },
+    {
+      "metric": "Main hoist capacity at 28 m radius",
+      "unit": "t",
+      "basis": "4,000 t up to 28 m radius (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Main hoist capacity at 91/110 m radius",
+      "unit": "t",
+      "basis": "800 t up to 91 m radius; 200 t up to 110 m radius (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": 200,
+      "low": 200,
+      "high": 800
+    },
+    {
+      "metric": "Monopile installation equipment limit",
+      "unit": "mt",
+      "basis": "both designed for monopiles weighing up to 3,000mt",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Max structure height lifted",
+      "unit": "m",
+      "basis": "capable of lifting structures more than 100 meters high",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "high": 100
+    },
+    {
+      "metric": "Propulsion power",
+      "unit": "n/a",
+      "basis": "8 x 4,320 kW; 1 x 1,100 kW (factsheet)",
+      "source": {
+        "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
+      },
+      "value": "8 x 4,320 kW + 1 x 1,100 kW"
+    },
+    {
+      "metric": "Topsides single-lift installation/removal",
+      "unit": "tonnes",
+      "basis": "installation or removal of platform topsides up to 60,000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 60000
+    },
+    {
+      "metric": "Jacket single-lift installation/removal",
+      "unit": "tonnes",
+      "basis": "jackets up to 20,000 tonnes",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 20000
+    },
+    {
+      "metric": "Pipe-holding capacity",
+      "unit": "tonne",
+      "basis": "2000-tonne pipe-holding capacity, double that of any rival pipelay vessel",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Welding stations",
+      "unit": "count",
+      "basis": "six welding stations",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 6
+    },
+    {
+      "metric": "Double-joint factory",
+      "unit": "n/a",
+      "basis": "A double-joint factory, six welding stations, and extensive pipe storage",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": "yes"
+    },
+    {
+      "metric": "DolWin Kappa converter station",
+      "unit": "MW",
+      "basis": "Transport and installation of the 900-megawatt DolWin Kappa offshore converter station (2022)",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 900
+    },
+    {
+      "metric": "Ninian Northern platform removal",
+      "unit": "tonne",
+      "basis": "Single-lift removal of the complete 23,000-tonne Ninian Northern platform (2020)",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 23000
+    },
+    {
+      "metric": "Gyda platform removal",
+      "unit": "tonne",
+      "basis": "Single-lift removal of the complete 30,000-tonne Gyda platform (2022)",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 30000
+    },
+    {
+      "metric": "Yme MOPU removal",
+      "unit": "t",
+      "basis": "single-lift removal ... of the complete 13,500 t Yme mobile offshore production unit (2016)",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": 13500
+    },
+    {
+      "metric": "Lift technology",
+      "unit": "n/a",
+      "basis": "Specials list on the vessel page",
+      "source": {
+        "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
+      },
+      "value": "unique motion compensated, single-lift technology"
     }
   ],
   "vendors": [
@@ -211,5 +484,5 @@
     "Straddle a platform with a bow slot, ballast down, extend motion-compensated lifting beams under the payload, de-ballast to transfer weight, then fast-lift clea"
   ],
   "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

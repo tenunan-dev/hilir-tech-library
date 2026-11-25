@@ -123,6 +123,173 @@
         "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
         "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
       }
+    },
+    {
+      "metric": "Installations worldwide",
+      "unit": "installations (nearly/more than)",
+      "basis": "\"decades of operational experience across nearly 4,000 installations\"; \"With more than 4,000 installations worldwide\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Plants supported by services",
+      "unit": "plants (more than)",
+      "basis": "\"We support customers from more than 900 plants worldwide with high-quality remote and local services\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      },
+      "value": 900
+    },
+    {
+      "metric": "Remote Expert Centers experts",
+      "unit": "experts (more than 50)",
+      "basis": "\"Our Remote Expert Centers (REC) are home to more than 50 trained experts worldwide\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Cybersecurity certification",
+      "unit": "n/a",
+      "basis": "\"Omnivise T3000 is certified by TÜV SÜD according to IEC 62443 ... and is built for Security Level 3 (SL 3) readiness\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      }
+    },
+    {
+      "metric": "Release",
+      "unit": "Release 10.2",
+      "basis": "\"with Release 10.2 toward the EU Cyber Resilience Act (CRA)\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      },
+      "value": 10.2
+    },
+    {
+      "metric": "Simulator standard",
+      "unit": "n/a",
+      "basis": "\"The fully integrated, ANSI compliant T3000 Simulator expands the system's possibilities\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      }
+    },
+    {
+      "metric": "Integration standards",
+      "unit": "n/a",
+      "basis": "\"incorporates standards like IEC 61850 to integrate third-party systems and ensures secure operations through VPNs and data encryption\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      }
+    },
+    {
+      "metric": "SCADA functionality",
+      "unit": "n/a",
+      "basis": "\"a scalable SCADA system enables you to prepare for future opportunities and requirements like direct marketing or integration of hydropower\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      }
+    },
+    {
+      "metric": "Nominal AC frequency",
+      "unit": "Hz",
+      "basis": "AC alternating current (nominally 50 Hz)",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "CDGU threshold - synchronous",
+      "unit": "MW",
+      "basis": "where reference is made to CDGU, it applies to generating unit equal to or greater than 30MW if it is a synchronous unit",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 30
+    },
+    {
+      "metric": "CDGU threshold - power park module",
+      "unit": "MW",
+      "basis": "in the case of Power Park Module, it applies to total on-site generation capacity equal to or greater than 5 MW",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Distribution network voltage",
+      "unit": "n/a",
+      "basis": "Distribution Network The system operating at a nominal phase voltage of 33 kV or below",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "33 kV or below"
+    },
+    {
+      "metric": "Standard time",
+      "unit": "n/a",
+      "basis": "all references to specific dates shall be to the day commencing on such date at 00:00 hours, such time being Malaysian Standard Time (UTC/GMT + 8 hours)",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "Malaysian Standard Time (UTC/GMT + 8 hours)"
+    },
+    {
+      "metric": "AGC",
+      "unit": "n/a",
+      "basis": "AGC Automatic Generation Control (abbreviations list)",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "Automatic Generation Control"
+    },
+    {
+      "metric": "GSO responsibility",
+      "unit": "n/a",
+      "basis": "The Grid System Operator or GSO is the person in SESB responsible for the overall coordination ... and is also responsible for generation Dispatch",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "overall coordination of operation, maintenance and control; generation Dispatch; monitoring and control"
+    },
+    {
+      "metric": "Scheduling codes",
+      "unit": "n/a",
+      "basis": "Scheduling and Dispatch Codes Nos. 1 to 3 in Overview of Grid Code",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "SDC1 Generation Scheduling; SDC2 Control, Scheduling and Dispatch; SDC3 Frequency and Transfer Control"
+    },
+    {
+      "metric": "Operating codes",
+      "unit": "n/a",
+      "basis": "Operating Codes Nos. 1 to 11 listed in section 3.5 and abbreviation table",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "OC1 to OC11 (demand forecasting, operational planning, operating reserve, demand control, liaison, incident reporting, restoration, safety, numbering, testing/monitoring, system tests)"
+    },
+    {
+      "metric": "Enactment",
+      "unit": "n/a",
+      "basis": "Enactment The Electricity Supply Enactment 2024 and regulations made thereunder",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "Electricity Supply Enactment 2024 and regulations made thereunder"
+    },
+    {
+      "metric": "Grid Code sections",
+      "unit": "n/a",
+      "basis": "3.1 GENERAL: The Grid Code is divided into the following codes of practice",
+      "source": {
+        "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "value": "General Conditions; Planning Code; Connection Conditions; Operating Codes 1-11; Scheduling and Dispatch Codes 1-3; Metering Code"
     }
   ],
   "vendor_models": [
@@ -219,5 +386,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

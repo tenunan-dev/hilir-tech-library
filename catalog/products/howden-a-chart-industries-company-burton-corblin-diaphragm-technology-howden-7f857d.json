@@ -27,14 +27,178 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "value": 0
+    },
+    {
+      "metric": "ambient_temperature",
+      "unit": "degC",
+      "basis": "Technical Data for Dry Hydrogen: Ambient temperature (min/max) -20 / +40 degC",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf",
+        "source_id": "catpar-files-chartindustries-com-tfc90-180-diaphrag-a7faac8"
+      },
+      "low": -20,
+      "high": 40
+    },
+    {
+      "metric": "hazardous_area",
+      "unit": "n/a",
+      "basis": "Technical Data for Dry Hydrogen: Hazardous area ATEX II 3G Zone 2 IIC T2",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": "ATEX II 3G Zone 2 IIC T2"
+    },
+    {
+      "metric": "suction_pressure_range",
+      "unit": "bara",
+      "basis": "Suction pressure range (bara) 20 to 35",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "low": 20,
+      "high": 35
+    },
+    {
+      "metric": "max_discharge_pressure",
+      "unit": "bara",
+      "basis": "Maximum discharge pressure (bara) up to 550 (adjustable)",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": 550
+    },
+    {
+      "metric": "flow_capacity_TFC90",
+      "unit": "kg/hr",
+      "basis": "Flow capacity (kg/hr) TFC90 90 / TFC180 180",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": 90
+    },
+    {
+      "metric": "flow_capacity_TFC180",
+      "unit": "kg/hr",
+      "basis": "Flow capacity (kg/hr) TFC180 180",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": 180
+    },
+    {
+      "metric": "turndown",
+      "unit": "%",
+      "basis": "Turndown capability 0 to 100%",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "low": 0,
+      "high": 100
+    },
+    {
+      "metric": "discharge_temperature",
+      "unit": "degC",
+      "basis": "Discharge temperature (min/max) degC 5 / 40",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "low": 5,
+      "high": 40
+    },
+    {
+      "metric": "suction_temperature",
+      "unit": "degC",
+      "basis": "Suction temperature degC 50 to 60",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "low": 50,
+      "high": 60
+    },
+    {
+      "metric": "absorbed_power_TFC90",
+      "unit": "kW",
+      "basis": "Absorbed power (kW) TFC90 160 / TFC180 295",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": 160
+    },
+    {
+      "metric": "absorbed_power_TFC180",
+      "unit": "kW",
+      "basis": "Absorbed power (kW) TFC180 295",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": 295
+    },
+    {
+      "metric": "power_supply_TFC90",
+      "unit": "n/a",
+      "basis": "Power supply: TFC90 400V, 3ph, 50Hz; TFC180 690V, 3ph, 50Hz",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": "400V, 3ph, 50Hz"
+    },
+    {
+      "metric": "power_supply_TFC180",
+      "unit": "n/a",
+      "basis": "Power supply: TFC180 690V, 3ph, 50Hz",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": "690V, 3ph, 50Hz"
+    },
+    {
+      "metric": "MTBM",
+      "unit": "hr",
+      "basis": "MTBM (hr) 8400",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": 8400
+    },
+    {
+      "metric": "availability",
+      "unit": "%",
+      "basis": "Availability 97%",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": 97
+    },
+    {
+      "metric": "standards_compliance",
+      "unit": "n/a",
+      "basis": "Standards & compliance (printed verbatim)",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": "CE Marked, Machinery Directive 2006/42/EU, EMC Directive 2014/30/EU, ATEX Directive 2014/34/EU, LVD Directive 2014/35/EU, PED Directive 2014/68/EU"
+    },
+    {
+      "metric": "electrolyzer_module_design",
+      "unit": "MW",
+      "basis": "Howden's TFC90 and TFC180 standardized diaphragm compressor packages designed for hydrogen; designed for 5 MW and 10 MW electrolyzer modules",
+      "source": {
+        "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
+      },
+      "value": "Designed for 5 MW and 10 MW electrolyzer modules",
+      "low": 5,
+      "high": 10
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
   "sources": [
     {
       "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+    },
+    {
+      "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     }
   ],
-  "notes": "Page describes diaphragm compression as technology of choice where complete hermetic separation and high pressure sealing are required (rare, toxic, flammable, explosive or radioactive gases). Linked TFC90_180_Diaphragm_Compressors.pdf is a PDF and was NOT read; no pressure figures asserted from it.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page describes diaphragm compression as technology of choice where complete hermetic separation and high pressure sealing are required (rare, toxic, flammable, explosive or radioactive gases). Linked TFC90_180_Diaphragm_Compressors.pdf is a PDF and was NOT read; no pressure figures asserted from it. Full-parameter pass 2026-11-26: 17 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

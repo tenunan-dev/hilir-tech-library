@@ -191,6 +191,145 @@
         "source_id": "cat-johnzink-com-ztof-enclosed-flare"
       },
       "value": 50
+    },
+    {
+      "metric": "Standard",
+      "unit": "n/a",
+      "basis": "\"Available API 537 Compliance: Ensures compliance with the latest Industry flare standards\"",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      }
+    },
+    {
+      "metric": "Turndown / staging",
+      "unit": "n/a",
+      "basis": "\"High pressure technology with staging allows smokeless operation for the full range of flows\"; \"Staging System: Allows exceptional turndown capabilities\"",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
+      }
+    },
+    {
+      "metric": "Power / utility requirement",
+      "unit": "text",
+      "basis": "John Zink: 'an advanced, electric-powered flare ignition solution that eliminates the need for pilot fuel gas and instrument air'; '100% Electric Operation – No need for pilot fuel gas or instrument air'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
+      }
+    },
+    {
+      "metric": "Applicable flare types",
+      "unit": "text",
+      "basis": "John Zink: 'Designed for vertical and horizontal flare applications'; 'including burn pits'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
+      }
+    },
+    {
+      "metric": "Construction",
+      "unit": "text",
+      "basis": "John Zink: 'no moving parts, no consumable pilot components, and high-quality stainless-steel construction, built to withstand high temperatures'",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
+      }
+    },
+    {
+      "metric": "turndown",
+      "unit": "to 1",
+      "basis": "High Turndown Capability: Supports up to 10:1 instantaneous turndown from maximum design without manual adjustments",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
+      },
+      "value": 10
+    },
+    {
+      "metric": "capacity",
+      "unit": "SCFM at 50% methane",
+      "basis": "Exceptional Capacity: Processes up to 6,000 SCFM at 50% methane concentration",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
+      },
+      "value": 6000
+    },
+    {
+      "metric": "destruction_rate_efficiency",
+      "unit": "%",
+      "basis": "Efficient Combustion: Achieves greater than 98% destruction rate efficiencies",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
+      },
+      "low": 98
+    },
+    {
+      "metric": "combustion_configuration",
+      "unit": "n/a",
+      "basis": "Product feature list",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
+      },
+      "value": "Dual-Pressure Combustion: simultaneously handles high and low-pressure gas streams"
+    },
+    {
+      "metric": "gas_compatibility",
+      "unit": "n/a",
+      "basis": "Biogas and RNG Compatibility feature",
+      "source": {
+        "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
+      },
+      "value": "raw biogas, off-spec RNG, or mixed gas streams"
+    },
+    {
+      "metric": "Pressure-assisted flare - flare tip models",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "Indair, KMI (Kaldair Multipoint Indair), JZ Hydra, JZ Poseidon, KSP"
+    },
+    {
+      "metric": "Pressure-assisted flare - smokeless operation",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "Operate smokelessly at almost all waste gas flow rates without supplemental steam or air"
+    },
+    {
+      "metric": "Pressure-assisted flare - turndown",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "Unlimited turndown offered by some systems"
+    },
+    {
+      "metric": "Pressure-assisted flare - assist medium",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "No assist medium required; uses pressure inherent in waste stream"
+    },
+    {
+      "metric": "Pressure-assisted flare - tip technology",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "Proprietary high-pressure burner technology; variable slot Coanda flare tip; stiff low-emissivity flames for low thermal radiation"
+    },
+    {
+      "metric": "Pressure-assisted flare - service history",
+      "unit": "n/a",
+      "basis": "John Zink 'Pressure Assisted Flare' product page (johnzink.com); no print date stated",
+      "source": {
+        "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
+      },
+      "value": "Successfully used in a wide range of applications for over 30 years"
     }
   ],
   "vendors": [
@@ -244,5 +383,5 @@
     "Safely disposes of relieved and waste gas from PSVs and shutdowns. Header routes gas to a KO (vapour-liquid separator) drum, then a water/liquid seal drum preve"
   ],
   "notes": "Page-read evidence from the 2026-11-24 compression-flare-power.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

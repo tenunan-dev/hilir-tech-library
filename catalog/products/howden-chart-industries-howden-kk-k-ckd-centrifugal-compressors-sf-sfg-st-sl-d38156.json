@@ -50,6 +50,171 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "value": 20
+    },
+    {
+      "metric": "Overall compressor range",
+      "unit": "'Industrial Centrifugal Turbo Compressors up to 600,000 m3/h'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 600000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "KK&K single-stage pressure rise",
+      "unit": "ratio",
+      "basis": "'pressure rise of up to 3.5 within a single stage or 6 for multistage'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "KK&K multistage pressure rise",
+      "unit": "ratio",
+      "basis": "Howden / KK&K / CKD centrifugal compressors page, 'proven over 100 years and 4000 installations' KK&K description",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 6
+    },
+    {
+      "metric": "CKD flow requirement",
+      "unit": "m3/h",
+      "basis": "'flow requirements up to 1700,000 m3/h' (printed verbatim)",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 1700000
+    },
+    {
+      "metric": "CKD discharge pressure",
+      "unit": "MPa",
+      "basis": "'discharge pressures of up to 20 MPa'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Single-stage model flow range",
+      "unit": "'flows of between 3,000 m3/h and 600,000 m3/h with pressure ratios up to 3.5'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 3000,
+      "low": 600000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "Multistage model flow range",
+      "unit": "'flows of between 400 m3/h and 200,000 m3/h with pressure ratios up to 10.0'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 400,
+      "low": 200000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "SF flow",
+      "unit": "'SF 15,000-600,000 | up to 3.5 | impeller up to 2240 mm | Electric or turbine'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 15000,
+      "low": 600000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "SFG flow",
+      "unit": "'SFG 5,000-300,000 | up to 3.5 | impeller up to 1120 mm'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 5000,
+      "low": 300000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "ST flow",
+      "unit": "'ST 1,500-150,000 | up to 3.5 | impeller up to 900 mm | Steam turbine (integrated)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 1500,
+      "low": 150000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "SL flow",
+      "unit": "'SL 15,000-450,000 | up to 1.45 | impeller up to 1800 mm | Coke oven gas'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 15000,
+      "low": 450000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "SFG Back-to-Back flow",
+      "unit": "'SFG Back-to-Back 3,000-75,000 | up to 6.0 | impeller up to 560 mm'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 3000,
+      "low": 75000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "SFG Twin flow",
+      "unit": "'SFG Twin 3,000-200,000 | up to 6.0 | impeller up to 900 mm'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 3000,
+      "low": 200000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "RS flow",
+      "unit": "'RS 400-65,000 | up to 10.0 | impeller up to 700 mm'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 400,
+      "low": 65000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "RV flow",
+      "unit": "'RV 400-85,000 400-170,000 (back-to-back) | up to 10.0 | impeller up to 780 mm'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 400,
+      "low": 85000,
+      "high": "m3/h"
+    },
+    {
+      "metric": "SFO/SFP/SFN pressure",
+      "unit": "bar",
+      "basis": "'Single and multi-stage turbo compressors ... with pressures up to 50 bar and flow rates up to 200,000 m3/hr'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 50
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
@@ -58,6 +223,6 @@
       "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     }
   ],
-  "notes": "Oil & gas, petrochemical, SAGD, CO2 capture applications listed",
-  "last_reviewed": "2026-11-24"
+  "notes": "Oil & gas, petrochemical, SAGD, CO2 capture applications listed Full-parameter pass 2026-11-26: 16 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

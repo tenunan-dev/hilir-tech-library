@@ -17,6 +17,48 @@
         "source_id": "topsoe-com-ammonia-synthesis"
       },
       "value": "over half of the world's ammonia"
+    },
+    {
+      "metric": "Catalyst type",
+      "unit": "n/a",
+      "basis": "\"KM1 is an iron-based ammonia synthesis catalyst\"",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      }
+    },
+    {
+      "metric": "Application",
+      "unit": "n/a",
+      "basis": "\"used in the majority of the world's ammonia converters to convert synthesis gas containing hydrogen and nitrogen into ammonia\"",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      }
+    },
+    {
+      "metric": "Share of world ammonia production",
+      "unit": "% (over half)",
+      "basis": "Leaflet highlight: \"Used to produce over half of the world's ammonia, the KM1 catalyst is a masterpiece of high performance, efficiency and dependability\"",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Company experience in ammonia synthesis",
+      "unit": "years (more than)",
+      "basis": "\"More than 80 years of experience with ammonia synthesis enables us to provide the best solutions for the ammonia industry\"",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Related catalyst family",
+      "unit": "n/a",
+      "basis": "KM 111 (magnetite-based, lower bed), KM1R (pre-reduced iron-based with promoters, reduced activation time), KMR 111 (pre-reduced lower bed)",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      }
     }
   ],
   "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
@@ -25,6 +67,13 @@
       "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     }
   ],
-  "notes": "KM111 optimized for lower converter bed; KM1R/KMR111 pre-reduced variants.",
-  "last_reviewed": "2026-11-24"
+  "notes": "KM111 optimized for lower converter bed; KM1R/KMR111 pre-reduced variants. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "KM1 physical/chemical specifications (particle size, promoters, activity, operating temperature)",
+      "why": "Only qualitative descriptions and share-of-market statement on the page",
+      "next_action": "Obtain KM1 datasheet from Topsoe if detailed catalyst properties needed"
+    }
+  ]
 }

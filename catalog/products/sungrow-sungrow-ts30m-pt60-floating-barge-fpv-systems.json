@@ -27,6 +27,104 @@
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
       "value": 192
+    },
+    {
+      "metric": "Indonesia project capacity",
+      "unit": "MW",
+      "basis": "'Capacity 192 MW, Location Indonesia, Application Scenario Reservoir' (hydroelectric power station floating PV)",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 192
+    },
+    {
+      "metric": "Anhui project capacity",
+      "unit": "MW",
+      "basis": "'Major 200MW Floating Solar Plant Launched on Anhui's Former Coal Mines'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 200
+    },
+    {
+      "metric": "Philippines project capacity",
+      "unit": "MW",
+      "basis": "'Capacity 4.99 MW, Location Philippines'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 4.99
+    },
+    {
+      "metric": "France project capacity",
+      "unit": "MW",
+      "basis": "'Capacity 5 MW, Location France'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Global floating PV application",
+      "unit": "GW",
+      "basis": "'With Over 4GW of Floating PV Application, We Set the Standard'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Patents",
+      "unit": "patents",
+      "basis": "'290 + Patents'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 290
+    },
+    {
+      "metric": "Products listed",
+      "unit": "n/a",
+      "basis": "'TS30M' (Truss Structure Product), 'PT60' (Pontoon Product), 'Floating Barge' (Equipment Support System)",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      }
+    },
+    {
+      "metric": "Authorized distributors",
+      "unit": "distributors",
+      "basis": "'400 + Authorized Distributors'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Service outlets",
+      "unit": "outlets",
+      "basis": "'520 + Service Outlets'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 520
+    },
+    {
+      "metric": "Technical experts",
+      "unit": "experts",
+      "basis": "'1000 + Technical Experts'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "Warehouse area",
+      "unit": "m2",
+      "basis": "'110,000 ㎡ Warehouse total area'",
+      "source": {
+        "url": "https://www.sungrowpower.com/en/floating-pv-system"
+      },
+      "value": 110000
     }
   ],
   "url": "https://www.sungrowpower.com/en/floating-pv-system",
@@ -35,6 +133,13 @@
       "url": "https://www.sungrowpower.com/en/floating-pv-system"
     }
   ],
-  "notes": "Truss, pontoon and barge structures",
-  "last_reviewed": "2026-11-24"
+  "notes": "Truss, pontoon and barge structures Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "TS30M / PT60 / Floating Barge structural ratings (span, buoyancy, wind/snow load, material)",
+      "why": "Landing page lists product names only; linked product subpages not read",
+      "next_action": "Fetch /en/products/floating-pv-system/sgf-ts30m and /sgf-pt60 product pages"
+    }
+  ]
 }

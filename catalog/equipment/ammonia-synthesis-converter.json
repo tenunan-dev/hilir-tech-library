@@ -287,6 +287,979 @@
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
       },
       "value": 0.6
+    },
+    {
+      "metric": "Solar energy capacity",
+      "unit": "MW",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 4750
+    },
+    {
+      "metric": "Battery energy storage capacity",
+      "unit": "MWh",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 1600
+    },
+    {
+      "metric": "Electrolyzer capacity",
+      "unit": "MW",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Annual renewables-based hydrogen production",
+      "unit": "tonnes per annum",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 174500
+    },
+    {
+      "metric": "Annual renewables-based ammonia production",
+      "unit": "tonnes per annum",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 958500
+    },
+    {
+      "metric": "Annual renewables generation",
+      "unit": "GWh per annum",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 9750
+    },
+    {
+      "metric": "Cryogenic ammonia storage tank capacity (each of two)",
+      "unit": "tonnes",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 40000
+    },
+    {
+      "metric": "Total project cost",
+      "unit": "billion USD",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 6.8,
+      "year": 2025
+    },
+    {
+      "metric": "Anticipated operations date",
+      "unit": "year",
+      "basis": "CSIRO HyResource 'Allied Green Ammonia' project profile, 20 Oct 2025, reviewed by proponent April 2026; project context, not generator datasheet",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 2030
+    },
+    {
+      "metric": "Plant capacity",
+      "unit": "MTD (metric tonnes per day)",
+      "basis": "'the 1200 MTD coal-based ammonia plant' owned by Jiangsu Debang Xinghua Chemical Technology Co., Ltd.",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+      },
+      "value": 1200
+    },
+    {
+      "metric": "Capacity reached shortly after start-up",
+      "unit": "% of capacity",
+      "basis": "Casale news release 'Casale Technology Sets New Performance Standard for Ammonia Plants in China', 25 July 2025",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+      },
+      "value": 110
+    },
+    {
+      "metric": "Stable operating load",
+      "unit": "% load",
+      "basis": "Casale news release 'Casale Technology Sets New Performance Standard for Ammonia Plants in China', 25 July 2025",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+      },
+      "value": 130
+    },
+    {
+      "metric": "Commissioning date",
+      "unit": "n/a",
+      "basis": "'Commissioned in June 2024'",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+      }
+    },
+    {
+      "metric": "Synthesis loop performance",
+      "unit": "n/a",
+      "basis": "'No bottlenecks encountered in the synthesis loop'; Casale proprietary N-LOOP ammonia synthesis loop",
+      "source": {
+        "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
+      }
+    },
+    {
+      "metric": "Catalytic bead measuring range",
+      "unit": "'Typical measuring range: 0-100 %LEL'; MSA products ULTIMA X5000, General Monitors S5000, ",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 0,
+      "low": 100,
+      "high": "%LEL"
+    },
+    {
+      "metric": "Catalytic bead sensor life",
+      "unit": "years",
+      "basis": "'XCell® sensor with extra-large beads, supported by mechanical posts offering > 5-year life'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Electrochemical measuring range",
+      "unit": "'Typical measuring range: 0-100 ppm and 0-1,000 ppm'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 0,
+      "low": 100,
+      "high": "ppm"
+    },
+    {
+      "metric": "Electrochemical sensor life",
+      "unit": "'1-2 year sensor life'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 1,
+      "low": 2,
+      "high": "years"
+    },
+    {
+      "metric": "Ammonia electrochemical sensor life",
+      "unit": "years",
+      "basis": "'>5-year sensor life for XCell® ammonia sensor due to non-consuming electrolyte design'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 5
+    },
+    {
+      "metric": "Dual sensor configuration",
+      "unit": "n/a",
+      "basis": "'Dual sensor configuration (local or remote) available with ULTIMA X5000 / General Monitors S5000 for catalytic bead and electrochemical sensors'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      }
+    },
+    {
+      "metric": "Ultrasonic detection range",
+      "unit": "'Typical detection ranges: 17-28m, depending on microphone technology'; 28 m with long-lif",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 17,
+      "low": 28,
+      "high": "m"
+    },
+    {
+      "metric": "Ultrasonic minimum pressure",
+      "unit": "bar",
+      "basis": "'Only suitable for pressurized installations from 2 bar (29 psi) or more'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Open path measuring range",
+      "unit": "'Measuring range: up to 0-15000 ppm.m' (Senscient ELDS)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 0,
+      "low": 15000,
+      "high": "ppm.m"
+    },
+    {
+      "metric": "Open path lengths",
+      "unit": "'Path lengths: 5-40m, 40-120m'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 5,
+      "low": 120,
+      "high": "m"
+    },
+    {
+      "metric": "Photoacoustic measuring range",
+      "unit": "'Measuring range: 0-1,000 ppm' (Chillgard 5000 Ammonia Monitor)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 0,
+      "low": 1000,
+      "high": "ppm"
+    },
+    {
+      "metric": "Photoacoustic sampling points",
+      "unit": "points",
+      "basis": "'Maximum 16 points useful for areas requiring sampling at multiple, difficult-to-access locations'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 16
+    },
+    {
+      "metric": "UV/IR field of view",
+      "unit": "'Typical 90° - 125° field of view' (FL500-H2)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 90,
+      "low": 125,
+      "high": "deg"
+    },
+    {
+      "metric": "MSIR field of view",
+      "unit": "deg",
+      "basis": "'Typical 90° field of view' (FL5000)",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 90
+    },
+    {
+      "metric": "Optical path monitoring interval",
+      "unit": "minutes",
+      "basis": "'Continuous Optical Path Monitoring (COPM) checks optical path integrity every 2 minutes'",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Tank count and capacity",
+      "unit": "t per tank (two tanks)",
+      "basis": "\"SPG Steiner GmbH (Germany) – BEDP for two 40,000-tonne cryogenic ammonia tanks\" (July 2024)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 40000
+    },
+    {
+      "metric": "Annual renewable ammonia production (project)",
+      "unit": "tonnes per annum",
+      "basis": "Production details table: \"Annual (renewables-based) ammonia production: 958,500 tonnes per annum\"",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 958500
+    },
+    {
+      "metric": "Annual renewable hydrogen production (project)",
+      "unit": "tonnes per annum",
+      "basis": "Production details table: \"Annual (renewables-based) hydrogen production: 174,500 tonnes per annum\"",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 174500
+    },
+    {
+      "metric": "Electrolyzer capacity (project)",
+      "unit": "MW",
+      "basis": "Production details table: \"Electrolyzer Capacity: 3,000 MW\"; January 2025 Plug Power purchase agreement for 3 GW electrolysers",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Solar capacity / BESS (project)",
+      "unit": "n/a",
+      "basis": "Production details: \"Solar Energy Capacity: 4,750 MW; Battery Energy Storage System: 1600 MWh\"",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      }
+    },
+    {
+      "metric": "Page date / review",
+      "unit": "n/a",
+      "basis": "CSIRO HyResource project page dated 'October 20th, 2025'; 'Reviewed (reviewed by the project proponent): April 2026'",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      }
+    },
+    {
+      "metric": "Catalyst type",
+      "unit": "n/a",
+      "basis": "\"KM1 is an iron-based ammonia synthesis catalyst\"",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      }
+    },
+    {
+      "metric": "Application",
+      "unit": "n/a",
+      "basis": "\"used in the majority of the world's ammonia converters to convert synthesis gas containing hydrogen and nitrogen into ammonia\"",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      }
+    },
+    {
+      "metric": "Share of world ammonia production",
+      "unit": "% (over half)",
+      "basis": "Leaflet highlight: \"Used to produce over half of the world's ammonia, the KM1 catalyst is a masterpiece of high performance, efficiency and dependability\"",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Company experience in ammonia synthesis",
+      "unit": "years (more than)",
+      "basis": "\"More than 80 years of experience with ammonia synthesis enables us to provide the best solutions for the ammonia industry\"",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Related catalyst family",
+      "unit": "n/a",
+      "basis": "KM 111 (magnetite-based, lower bed), KM1R (pre-reduced iron-based with promoters, reduced activation time), KMR 111 (pre-reduced lower bed)",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      }
+    },
+    {
+      "metric": "Urea plant capacity (Fakfak project)",
+      "unit": "tonnes per annum",
+      "basis": "\"The facility is designed to produce 1.15 million tonnes of urea annually\" using TOYO's ACES21 process",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      },
+      "value": 1150000
+    },
+    {
+      "metric": "Ammonia plant capacity (integrated complex)",
+      "unit": "tonnes per annum (approximately)",
+      "basis": "\"a planned ammonia plant with an annual production capacity of approximately 825,000 tonnes\"",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      },
+      "value": 825000
+    },
+    {
+      "metric": "TOYO urea plant experience",
+      "unit": "plants (more than 110)",
+      "basis": "\"having designed, engineered, constructed and commissioned more than 110 urea plants using its technologies\"",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      },
+      "value": 110
+    },
+    {
+      "metric": "ACES21 stated benefits",
+      "unit": "n/a",
+      "basis": "\"TOYO's ACES21TM process, designed to improve energy efficiency and reduce capital investment costs\"",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      }
+    },
+    {
+      "metric": "Basic engineering design completion",
+      "unit": "n/a",
+      "basis": "\"With completion targeted for May 2027, the BED represents a significant milestone\"",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      }
+    },
+    {
+      "metric": "Publication date",
+      "unit": "n/a",
+      "basis": "Pupuk Indonesia news article posted 19 November 2026 17:20 WIB; dateline Tokyo, 17 November 2026",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      }
+    },
+    {
+      "metric": "electrolyzer_capacity",
+      "unit": "MW",
+      "basis": "Electrolyzer Capacity: 3,000 MW (project facts)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "BEDP_cost",
+      "unit": "US$ million",
+      "basis": "US$82 million - Basic Engineering Design Package (BEDP) (FEED studies)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 82
+    },
+    {
+      "metric": "solar_capacity",
+      "unit": "MW",
+      "basis": "Solar Energy Capacity: 4,750 MW",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 4750
+    },
+    {
+      "metric": "battery_storage",
+      "unit": "MWh",
+      "basis": "Battery Energy Storage System: 1600 MWh",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 1600
+    },
+    {
+      "metric": "hydrogen_production",
+      "unit": "tonnes/yr",
+      "basis": "Annual (renewables-based) hydrogen production: 174,500 tonnes per annum",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 174500
+    },
+    {
+      "metric": "ammonia_production",
+      "unit": "tonnes/yr",
+      "basis": "Annual (renewables-based) ammonia production: 958,500 tonnes per annum",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 958500
+    },
+    {
+      "metric": "purchase_agreement",
+      "unit": "n/a",
+      "basis": "Project timeline entry",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "January 2025: Plug Power Inc. - Purchase agreement for 3 GW electrolysers and Basic Engineering Design Package (BEDP)"
+    },
+    {
+      "metric": "converter_type",
+      "unit": "n/a",
+      "basis": "Ammonia converter basket S-200: The S-200 ammonia synthesis converter is a two-bed radial flow converter with indirect cooling between the catalyst beds",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      },
+      "value": "two-bed radial flow converter with indirect cooling between the catalyst beds"
+    },
+    {
+      "metric": "number_of_catalyst_beds",
+      "unit": "beds",
+      "basis": "The S-200 ammonia synthesis converter is a two-bed radial flow converter; S-300 has three catalyst beds for comparison",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      },
+      "value": 2
+    },
+    {
+      "metric": "catalyst_family",
+      "unit": "n/a",
+      "basis": "Our well-known radial flow converters (S-200, S-300 or S-50) and our KM catalyst family will ensure optimal and stable performance; catalyst descriptions on page",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
+      },
+      "value": "KM catalyst family (KM1 iron-based, KM111 magnetite-based, KM1R pre-reduced, KMR111 pre-reduced)"
+    },
+    {
+      "metric": "SynCOR Ammonia - steam-to-carbon ratio",
+      "unit": "(vs 3.0 for conventional NH3 plant)",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": 0.6
+    },
+    {
+      "metric": "SynCOR Ammonia - relative energy consumption",
+      "unit": "(conventional = 100)",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": 97
+    },
+    {
+      "metric": "SynCOR Ammonia - relative make-up water consumption",
+      "unit": "% (conventional = 100)",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "low": 40,
+      "high": 50
+    },
+    {
+      "metric": "SynCOR Ammonia - steam throughput reduction",
+      "unit": "%",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": 80
+    },
+    {
+      "metric": "SynCOR Ammonia - max referenced single-train capacity",
+      "unit": "n/a",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": "4,000 MTPD (equivalent production) / >6,000 MTPD for other industries"
+    },
+    {
+      "metric": "SynCOR Ammonia - reforming section",
+      "unit": "n/a",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": "Pre-reformer and oxygen-blown SynCOR ATR"
+    },
+    {
+      "metric": "SynCOR Ammonia - synthesis",
+      "unit": "n/a",
+      "basis": "Topsoe 'SynCOR Ammonia - New process for grassroots plants' page, conventional vs SynCOR comparison table; no print date stated",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
+      },
+      "value": "Inert-free synthesis loop with no purge; nitrogen wash with purge and nitrogen addition"
+    },
+    {
+      "metric": "Ammonia flare tip - upper tip length",
+      "unit": "ft (upper 10 ft of flare system commonly referred to as the flare tip)",
+      "basis": "Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Ammonia flare - exit velocity criterion",
+      "unit": "n/a",
+      "basis": "Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
+      },
+      "value": "Restrict exit velocity of waste gas to ensure adequate residence time for high destruction efficiency; maximum design exit velocity depends on flare tip diameter"
+    },
+    {
+      "metric": "Ammonia flare tip - flow distribution",
+      "unit": "n/a",
+      "basis": "Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
+      },
+      "value": "Include flow distribution devices to disperse waste gas, expose stream to ignition sources and increase access to combustion air"
+    },
+    {
+      "metric": "Ammonia combustion - challenges",
+      "unit": "n/a",
+      "basis": "Zeeco article 'Ammonia Flare Tip Design' by Kirsten Berg, Zeeco Inc., World Fertilizer reprint July/August 2017",
+      "source": {
+        "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
+      },
+      "value": "Low flame propagation speed, low heating value and low flame temperatures; nitrogen is chemically inactive"
+    },
+    {
+      "metric": "Document reference",
+      "unit": "n/a",
+      "basis": "0700-222-EU-EN / 10.2026",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "0700-222-EU-EN / 10.2026"
+    },
+    {
+      "metric": "Observer i sensing technology",
+      "unit": "n/a",
+      "basis": "Technical Guide: Sensor Technologies for Ammonia Detection — ultrasonic gas leak detection section",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Ultrasonic gas leak detection"
+    },
+    {
+      "metric": "UV/IR typical field of view",
+      "unit": "deg",
+      "basis": "Typical 90° - 125° field of view",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "low": 90,
+      "high": 125
+    },
+    {
+      "metric": "UV/IR output signal",
+      "unit": "n/a",
+      "basis": "Independent output notification – typically UV – 12 mA & IR – 8 mA",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "UV – 12 mA & IR – 8 mA"
+    },
+    {
+      "metric": "MSIR typical field of view",
+      "unit": "deg",
+      "basis": "Typical 90° field of view",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": 90
+    },
+    {
+      "metric": "Sampling points",
+      "unit": "count",
+      "basis": "Maximum 16 points useful for areas requiring sampling at multiple, difficult-to-access locations.",
+      "source": {
+        "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "high": 16
+    },
+    {
+      "metric": "HTZ-5 absorbent",
+      "unit": "n/a",
+      "basis": "The HTZ-5 is a high-purity, large-surface-area zinc oxide absorbent for feedstocks with low sulfur concentrations, or for operation at low temperatures.",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
+      },
+      "value": "high-purity, large-surface-area zinc oxide absorbent for feedstocks with low sulfur concentrations, or for operation at low temperatures"
+    },
+    {
+      "metric": "HTZ-51 absorbent",
+      "unit": "n/a",
+      "basis": "The HTZ-51 is a state-of-the-art zinc oxide absorbent for feedstocks with low sulfur concentrations or for operation at low temperatures.",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
+      },
+      "value": "state-of-the-art zinc oxide absorbent for feedstocks with low sulfur concentrations or for operation at low temperatures"
+    },
+    {
+      "metric": "Reactor benefit",
+      "unit": "n/a",
+      "basis": "Maximize profitability and obtain a lower pressure drop in your adiabatic reactors such as the high, medium, low-temperature shift or the methanator.",
+      "source": {
+        "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
+      },
+      "value": "Maximize profitability and obtain a lower pressure drop in your adiabatic reactors such as the high, medium, low-temperature shift or the methanator"
+    },
+    {
+      "metric": "Laser open path measuring range",
+      "unit": "ppm.m",
+      "basis": "Measuring range: up to 0-15000 ppm.m (parts per million meters)",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "low": 0,
+      "high": 15000
+    },
+    {
+      "metric": "Path lengths",
+      "unit": "m",
+      "basis": "Path lengths: 5-40m, 40-120m",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "5-40m, 40-120m"
+    },
+    {
+      "metric": "Detection technology",
+      "unit": "n/a",
+      "basis": "Enhanced Laser Diode Spectroscopy (ELDS) - patented detection technology that uses multi-point harmonic verification to eliminate false alarms",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Enhanced Laser Diode Spectroscopy (ELDS) - patented, multi-point harmonic verification"
+    },
+    {
+      "metric": "Specificity",
+      "unit": "n/a",
+      "basis": "Very specific to ammonia; Immune to cross-interferents",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Very specific to ammonia; immune to cross-interferents"
+    },
+    {
+      "metric": "Source life",
+      "unit": "n/a",
+      "basis": "Long laser source life; Non-consuming",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Long laser source life; non-consuming"
+    },
+    {
+      "metric": "Calibration",
+      "unit": "n/a",
+      "basis": "No need for calibration",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "No need for calibration"
+    },
+    {
+      "metric": "Weather immunity",
+      "unit": "n/a",
+      "basis": "Unaffected by rain, fog, and snow",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Unaffected by rain, fog, and snow"
+    },
+    {
+      "metric": "Cons",
+      "unit": "n/a",
+      "basis": "Limited use for areas with dense installations; Does not measure point concentration",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Limited use for areas with dense installations; does not measure point concentration"
+    },
+    {
+      "metric": "Applications",
+      "unit": "n/a",
+      "basis": "Applications column of Laser Open Path row",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Large industrial sites incl. fertilizer and chemical manufacturing plants; ammonia production units with downstream storage or bunkering; green ammonia energy export hubs and maritime fuel terminals"
+    },
+    {
+      "metric": "MSA product",
+      "unit": "n/a",
+      "basis": "MSA Products: Senscient ELDS TM",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Senscient ELDS TM"
+    },
+    {
+      "metric": "Protection layers",
+      "unit": "n/a",
+      "basis": "Protection Layers for Ammonia Leaks section",
+      "source": {
+        "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      },
+      "value": "Layer 1 ultrasonic leak detection; Layer 2 gas detection; Layer 3 flame detection"
+    },
+    {
+      "metric": "Future plant capacities",
+      "unit": "Tagestonnen",
+      "basis": "Es bildet auch die Grundlage für noch größere Anlagen (z. B. 4.000 bis 5.000 Tagestonnen)",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "low": 4000,
+      "high": 5000
+    },
+    {
+      "metric": "First plant",
+      "unit": "n/a",
+      "basis": "Die erste auf diesem Verfahren basierende Anlage ist die SAFCO IV Ammoniakanlage in Al-Jubail, Saudi-Arabien, die 2006 in Betrieb gegangen ist",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": "SAFCO IV, Al-Jubail, Saudi-Arabien, in operation 2006"
+    },
+    {
+      "metric": "LP compressor suction pressure",
+      "unit": "bar (ca.)",
+      "basis": "Der Druck am Ansaugflansch des Kompressors beträgt ca. 110 bar",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": 110
+    },
+    {
+      "metric": "HP synthesis loop pressure",
+      "unit": "bar (up to)",
+      "basis": "auf den Betriebsdruck des Ammoniaksynthesekreislaufs (bis zu 210 bar)",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": 210
+    },
+    {
+      "metric": "Once-through converter share",
+      "unit": "n/a",
+      "basis": "der zwischengekühlte Einmal-Konverter mit drei Katalysatorbetten ungefähr ein Drittel des gesamten Ammoniakausstoßes",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": "about one third of total ammonia output"
+    },
+    {
+      "metric": "Ammonia condensed after once-through",
+      "unit": "%",
+      "basis": "wobei 85 % des hergestellten Ammoniaks als Flüssigkeit vom Gas getrennt wird",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": 85
+    },
+    {
+      "metric": "Once-through converter catalyst beds",
+      "unit": "n/a",
+      "basis": "der zwischengekühlte Einmal-Konverter mit drei Katalysatorbetten",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": 3
+    },
+    {
+      "metric": "HP loop share",
+      "unit": "n/a",
+      "basis": "Bei diesem herkömmlichen Ammoniaksynthese-Kreislauf werden die verbleibenden zwei Drittel des Gesamtammoniaks produziert",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": "remaining two thirds of total ammonia"
+    },
+    {
+      "metric": "Compressor size comparison",
+      "unit": "n/a",
+      "basis": "Der Synthesegaskompressor einer Zweidruckanlage mit 3.300 Tagestonnen hat dieselbe Größe wie in herkömmlichen Ammoniakanlagen für 2.200 Tagestonnen",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": "same size as conventional plant for 2,200 tonnes/day"
+    },
+    {
+      "metric": "Catalyst",
+      "unit": "n/a",
+      "basis": "Bewährte Katalysatoren auf Magnetit-Basis in allen Phasen des neuen Prozesses",
+      "source": {
+        "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
+      },
+      "value": "proven magnetite-based catalysts in all phases"
+    },
+    {
+      "metric": "Battery energy storage",
+      "unit": "MWh",
+      "basis": "Battery Energy Storage System: 1600 MWh",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 1600
+    },
+    {
+      "metric": "Annual hydrogen production",
+      "unit": "tonnes per annum",
+      "basis": "Annual (renewables-based) hydrogen production: 174,500 tonnes per annum",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 174500
+    },
+    {
+      "metric": "Annual ammonia production",
+      "unit": "tonnes per annum",
+      "basis": "Annual (renewables-based) ammonia production: 958,500 tonnes per annum",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 958500
+    },
+    {
+      "metric": "Renewables generation",
+      "unit": "GWh per annum",
+      "basis": "The project is planned to generate approximately 9,750 GWh per annum",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": 9750
+    },
+    {
+      "metric": "Estimated total project cost",
+      "unit": "n/a",
+      "basis": "Estimated cost: US$6.8 billion (total project cost)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "US$6.8 billion"
+    },
+    {
+      "metric": "Feasibility/pre-FEED cost",
+      "unit": "n/a",
+      "basis": "US$15 million (feasibility and pre-FEED studies)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "US$15 million"
+    },
+    {
+      "metric": "BEDP cost",
+      "unit": "n/a",
+      "basis": "US$82 million – Basic Engineering Design Package (BEDP) (FEED studies)",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "US$82 million"
+    },
+    {
+      "metric": "Cryogenic ammonia tanks",
+      "unit": "n/a",
+      "basis": "SPG Steiner GmbH (Germany) – BEDP for two 40,000-tonne cryogenic ammonia tanks",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "two 40,000-tonne tanks"
+    },
+    {
+      "metric": "TOPSOE scope",
+      "unit": "n/a",
+      "basis": "May 2024: TOPSOE A/S (Denmark) – Process licence and ammonia plant engineering; October 2023: TOPSOE A/S (Denmark) – Process licence for ammonia technology",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "Process licence for ammonia technology (Oct 2023) and process licence + ammonia plant engineering (May 2024)"
+    },
+    {
+      "metric": "Status",
+      "unit": "n/a",
+      "basis": "Status: Under development – FEED studies",
+      "source": {
+        "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
+      },
+      "value": "Under development – FEED studies"
     }
   ],
   "vendors": [
@@ -328,7 +1301,7 @@
       "source_id": "chartindustries-com-www-chartindustries-com-howden"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "gaps": [
     {
       "what": "per-vendor converter model lines with casing, catalyst basket and pressure-drop data",

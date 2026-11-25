@@ -67,6 +67,112 @@
         "source_id": "toyo-eng-com-urea-granulation"
       },
       "value": 30
+    },
+    {
+      "metric": "Total nitrogen",
+      "unit": "wt.%",
+      "basis": "'Total Nitrogen 46.3 wt.%' (product quality table)",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      },
+      "value": 46.3
+    },
+    {
+      "metric": "Biuret",
+      "unit": "wt.%",
+      "basis": "Toyo Engineering Spout Fluid Bed Granulation Process page; 'Typical standard figure depending on the design conditions of each plant' product quality table",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      },
+      "value": 0.8
+    },
+    {
+      "metric": "Moisture",
+      "unit": "wt.%",
+      "basis": "Toyo Engineering Spout Fluid Bed Granulation Process page; 'Typical standard figure depending on the design conditions of each plant' product quality table",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      },
+      "value": 0.2
+    },
+    {
+      "metric": "Formaldehyde",
+      "unit": "wt.%",
+      "basis": "Toyo Engineering Spout Fluid Bed Granulation Process page; 'Typical standard figure depending on the design conditions of each plant' product quality table",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      },
+      "value": 0.45
+    },
+    {
+      "metric": "Size 2-4 mm fraction",
+      "unit": "wt.%",
+      "basis": "'Size 2 - 4 mm 95 wt.%'",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      },
+      "value": 95
+    },
+    {
+      "metric": "Hardness",
+      "unit": "kg/granule",
+      "basis": "'Hardness 3.5kg/granule for 3 mm'",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "Steam consumption",
+      "unit": "MT/MT",
+      "basis": "'Steam 0.01 MT/MT' (consumption per unit of service)",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      },
+      "value": 0.01
+    },
+    {
+      "metric": "Power consumption",
+      "unit": "kWh/MT",
+      "basis": "'Power 24 kWh/MT'",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      },
+      "value": 24
+    },
+    {
+      "metric": "Power with bulk flow cooler",
+      "unit": "kW/MT",
+      "basis": "'In case of bulk flow cooler by cooling water, power consumption becomes 19kW/MT'",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      },
+      "value": 19
+    },
+    {
+      "metric": "Cooling water consumption",
+      "unit": "Nil",
+      "basis": "'CoolingWater Nil'",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      }
+    },
+    {
+      "metric": "Urea dust emission",
+      "unit": "mg/Nm3-Air",
+      "basis": "'reduce urea dust to less than 30 mg/Nm3-Air'",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Development period",
+      "unit": "n/a",
+      "basis": "'since the late 1970s' for spouted bed; 'In the 1980s ... applying the Spout-Fluid Beds'",
+      "source": {
+        "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
+      }
     }
   ],
   "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
@@ -75,6 +181,6 @@
       "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     }
   ],
-  "notes": "Multi-spray nozzles, double-deck screen, double-roller crusher, low-pressure-drop dust scrubber.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Multi-spray nozzles, double-deck screen, double-roller crusher, low-pressure-drop dust scrubber. Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -27,6 +27,72 @@
         "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
       },
       "value": "diverter plate, half pipe, vane, cyclonic"
+    },
+    {
+      "metric": "Design code",
+      "unit": "n/a",
+      "basis": "'Design code: ASME Section VIII, Division 1'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Sour service",
+      "unit": "n/a",
+      "basis": "'H2S service additionally requires NACE compliance'; 'materials selected for applicable sour-service requirements'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Reference facility capacity",
+      "unit": "BOPD",
+      "basis": "'For the 100,000 BOPD West Qurna-1 wet crude treatment system in Iraq'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "Module weight",
+      "unit": "tonnes",
+      "basis": "'Each assembled module weighed over 100 tonnes and stood higher than two storeys'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Separation principles",
+      "unit": "n/a",
+      "basis": "'Momentum', 'Gravity settling', 'Coalescing'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Orientations/phases",
+      "unit": "n/a",
+      "basis": "'vertical and horizontal, and as either two or three phase units'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Inlet devices",
+      "unit": "n/a",
+      "basis": "'diverter plates, half pipe, vane and cyclonic'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
+    },
+    {
+      "metric": "Retention time basis",
+      "unit": "n/a",
+      "basis": "'set from fluid properties, separation duty and required outlet quality'",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
+      }
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
@@ -35,6 +101,13 @@
       "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Vessel dimensions, design pressure and capacity",
+      "why": "Page states these are set against process conditions and not printed",
+      "next_action": "Request project-specific vessel data sheet"
+    }
+  ]
 }

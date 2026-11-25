@@ -107,6 +107,33 @@
         "source_id": "casale-ch-urea"
       },
       "value": "HP synthesis + LP purification/carbamate recovery; optional MP section for high capacity"
+    },
+    {
+      "metric": "CO2_conversion_in_reactor",
+      "unit": "%",
+      "basis": "Performance: CO2 conversion in the reactor as high as 62%",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/"
+      },
+      "high": 62
+    },
+    {
+      "metric": "stripping_efficiency",
+      "unit": "n/a",
+      "basis": "Performance: High stripping efficiency (no numeric value printed)",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/"
+      },
+      "value": "High stripping efficiency"
+    },
+    {
+      "metric": "process_configuration",
+      "unit": "n/a",
+      "basis": "Casale Urea process based on CO2 stripping technology - process description",
+      "source": {
+        "url": "https://www.casale.ch/technologies/urea/"
+      },
+      "value": "High-pressure synthesis section followed by a low-pressure purification and carbamate recovery section; optionally for high capacity a medium-pressure section is installed"
     }
   ],
   "vendors": [
@@ -137,7 +164,7 @@
       "source_id": "casale-ch-urea"
     }
   ],
-  "last_reviewed": "2026-11-24",
+  "last_reviewed": "2026-11-26",
   "notes": "Urea licensors use different stripping agents — CO2 stripping (Stamicarbon, Toyo ACES, Uhde), self-stripping (Casale) and NH3 stripping (Saipem) — so pressure, temperature and steam figures are not interchangeable across processes. Enriched 2026-11-24 with page-read ammonia/urea sweep sources. Enriched 2026-11-24 with page-read ammonia/urea sweep sources.",
   "vendor_models": [
     {

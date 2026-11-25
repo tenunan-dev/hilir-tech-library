@@ -27,6 +27,51 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "value": 0
+    },
+    {
+      "metric": "Howden diaphragm compressor - invention",
+      "unit": "n/a",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page, Diaphragm Compressors section; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Invented in 1916 by Henri Corblin (Burton Corblin name part of Howden)"
+    },
+    {
+      "metric": "Howden hybrid reciprocuting compressor - configuration",
+      "unit": "n/a",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page, Diaphragm Compressors section; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Horizontal or vertical; up to five compression stages"
+    },
+    {
+      "metric": "Howden hybrid reciprocating compressor - pressure increase",
+      "unit": "bar (up to), with inter-stage cooling and condensate purging",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page, Diaphragm Compressors section; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": 450
+    },
+    {
+      "metric": "Howden diaphragm compressor - gas suitability",
+      "unit": "n/a",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page, Diaphragm Compressors section; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Rare, toxic, flammable, explosive or radioactive gases; complete hermetic separation and high-pressure sealing"
+    },
+    {
+      "metric": "Howden diaphragm compressor - typical service",
+      "unit": "n/a",
+      "basis": "Chart Industries / Howden 'Reciprocating Compressors: Piston and Diaphragm' page, Diaphragm Compressors section; no print date stated",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
+      },
+      "value": "Medium capacity fully integrated skid with control systems, regulation equipment and utility packages; suited to hydrogen processes"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
@@ -35,6 +80,13 @@
       "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
-  "notes": "Page describes diaphragm compression as technology of choice where complete hermetic separation and high pressure sealing are required (rare, toxic, flammable, explosive or radioactive gases). Linked TFC90_180_Diaphragm_Compressors.pdf is a PDF and was NOT read; no pressure figures asserted from it.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page describes diaphragm compression as technology of choice where complete hermetic separation and high pressure sealing are required (rare, toxic, flammable, explosive or radioactive gases). Linked TFC90_180_Diaphragm_Compressors.pdf is a PDF and was NOT read; no pressure figures asserted from it. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "TFC90 / TFC180 standardized package specifications",
+      "why": "The assigned page describes diaphragm/hybrid technology but does not print TFC90 or TFC180 model ratings",
+      "next_action": "Fetch a dedicated Howden TFC90/TFC180 datasheet for pressure, flow and power ratings"
+    }
+  ]
 }

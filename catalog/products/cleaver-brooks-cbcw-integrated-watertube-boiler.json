@@ -69,6 +69,125 @@
       },
       "unit": "fuel options",
       "value": "Natural gas, propane, digester gas, #2 light oil"
+    },
+    {
+      "metric": "steam_flows",
+      "unit": "lb/hr",
+      "basis": "Product page header: Saturated Steam 10,000 to 225,000 lb/hr; Attributes: Steam Flows 10,000 - 225,000",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "low": 10000,
+      "high": 225000
+    },
+    {
+      "metric": "steam_pressure",
+      "unit": "psig",
+      "basis": "Product page header: 100 to 550 psig on steam",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "low": 100,
+      "high": 550
+    },
+    {
+      "metric": "steam_temperature",
+      "unit": "n/a",
+      "basis": "Product page header: Saturated Steam; Attributes: Steam Temperature Saturated",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Saturated"
+    },
+    {
+      "metric": "NOx_emissions",
+      "unit": "ppm",
+      "basis": "Product page: Available to less than 9 ppm NOx; Attributes: Emissions (ppm NOx) <9",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "high": 9
+    },
+    {
+      "metric": "NOx_with_ultra_low_burner_and_SCR",
+      "unit": "ppm",
+      "basis": "IWT boilers can fire renewable natural gas, biogas and hydrogen. They achieve <2 ppm NOx with an ultra-low NOx burner and SCR equipment",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "high": 2
+    },
+    {
+      "metric": "boiler_efficiency_option Gain",
+      "unit": "% average",
+      "basis": "options are available to increase boiler efficiency by 5% on average",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": 5
+    },
+    {
+      "metric": "fuels",
+      "unit": "n/a",
+      "basis": "Product page header and Attributes: Fuel Natural Gas, Propane, Digester, #2 Light Oil",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Natural Gas, Propane, Digester, #2 Light Oil"
+    },
+    {
+      "metric": "boiler_style",
+      "unit": "n/a",
+      "basis": "Attributes: Style D-type, O-type",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "D-type, O-type"
+    },
+    {
+      "metric": "assembly",
+      "unit": "n/a",
+      "basis": "Attributes: Assembly Shop Assembled",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Shop Assembled"
+    },
+    {
+      "metric": "circulation",
+      "unit": "n/a",
+      "basis": "Attributes: Circulation Natural Circulation",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Natural Circulation"
+    },
+    {
+      "metric": "construction",
+      "unit": "n/a",
+      "basis": "Attributes: Construction Membrane Wall Construction; furnace construction utilizes welded-membrane wall design; 100% water cooled and refractory free",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Membrane Wall Construction"
+    },
+    {
+      "metric": "delivery_time_reduction",
+      "unit": "weeks",
+      "basis": "These pre-engineered boiler packages can shorten delivery time by up to 12 weeks",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "high": 12
+    },
+    {
+      "metric": "applications",
+      "unit": "n/a",
+      "basis": "Applications tab (printed list)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
+      },
+      "value": "Process Steam, Industrial Process, Building Heat, Institutional, Hospital and Healthcare, Pharmaceutical, Pulp and Paper"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",
@@ -77,6 +196,6 @@
       "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 13 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -47,6 +47,56 @@
       },
       "unit": "fuel basis",
       "value": "Condenses on natural gas only; near-condensing mode on #2 oil"
+    },
+    {
+      "metric": "Boiler size applicability",
+      "unit": "HP",
+      "basis": "Cleaver-Brooks C2X page: 'Can be utilized on boilers up to 2,500 HP.'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x"
+      },
+      "value": 2500
+    },
+    {
+      "metric": "Economizer stages",
+      "unit": "stages",
+      "basis": "'Two-stage condensing economizer' — captures heat through a traditional stack economizer section and a condensing section",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x"
+      },
+      "value": 2
+    },
+    {
+      "metric": "Design pressure applicability",
+      "unit": "text",
+      "basis": "'Accommodates all boiler design pressures'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x"
+      }
+    },
+    {
+      "metric": "Tube core material",
+      "unit": "text",
+      "basis": "'Tube core assemblies are individually removable and made from 316 stainless steel tube with aluminum fins (Al-Fuse)'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x"
+      }
+    },
+    {
+      "metric": "Gas-side surfaces material",
+      "unit": "text",
+      "basis": "'316 stainless steel exhaust gas bypass, interior shell, condensate drain, and transition connections'; 'All gas side surfaces are 316 stainless steel to eliminate corrosion'",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x"
+      }
+    },
+    {
+      "metric": "Fuel for condensing operation",
+      "unit": "text",
+      "basis": "'Condenses on natural gas only'; switches to near-condensing mode when firing #2 oil",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/c2x"
+      }
     }
   ],
   "url": "https://cleaverbrooks.com/product/c2x",
@@ -55,6 +105,13 @@
       "url": "https://cleaverbrooks.com/product/c2x"
     }
   ],
-  "notes": "Fetched product page directly with WebFetch (markdown).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched product page directly with WebFetch (markdown). Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "C2X numeric specification table",
+      "why": "Linked 'C2X Specifications' document not read",
+      "next_action": "Fetch C2X Specifications document"
+    }
+  ]
 }

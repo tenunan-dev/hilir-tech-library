@@ -37,6 +37,66 @@
         "source_id": "cswoffshore-com-solutions-monopiles"
       },
       "value": "1,000-3,500"
+    },
+    {
+      "metric": "Monopile - steel pipe diameter",
+      "unit": "m (approximately 5-6 m and up to 13+ m)",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 5,
+      "high": 13
+    },
+    {
+      "metric": "Monopile - length",
+      "unit": "m (20 m to more than 120 m)",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 20,
+      "high": 120
+    },
+    {
+      "metric": "Monopile - weight",
+      "unit": "tonnes",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 1000,
+      "high": 3500
+    },
+    {
+      "metric": "Regular monopile diameter",
+      "unit": "m",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 5,
+      "high": 6
+    },
+    {
+      "metric": "XL monopile diameter",
+      "unit": "m",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 6,
+      "high": 8
+    },
+    {
+      "metric": "XXL monopile diameter",
+      "unit": "m",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 8,
+      "high": 13
     }
   ],
   "url": "https://www.cswoffshore.com/solutions/monopiles",
@@ -45,6 +105,13 @@
       "url": "https://www.cswoffshore.com/solutions/monopiles"
     }
   ],
-  "notes": "Also mounts external platforms, static anodes and dynamic ICCP.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Also mounts external platforms, static anodes and dynamic ICCP. Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Transition piece / jacket foundation parameters",
+      "why": "Assigned monopiles page prints monopile dimensions only, not transition-piece or jacket- foundation specs",
+      "next_action": "Fetch the separate transition-piece and jacket-foundation pages"
+    }
+  ]
 }

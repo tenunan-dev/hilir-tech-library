@@ -27,6 +27,69 @@
         "source_id": "cat-bakerhughes-com-gas-lift-valves"
       },
       "value": "121"
+    },
+    {
+      "metric": "Temperature rating (standard)",
+      "unit": "degF",
+      "basis": "A standard temperature rating of up to 250°F (121°C)",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Temperature rating (metric)",
+      "unit": "degC",
+      "basis": "up to 250°F (121°C)",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
+      },
+      "value": 121
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "Stainless steel construction, with other premium materials available for extreme downhole conditions",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
+      },
+      "value": "Stainless steel; other premium materials available for extreme downhole conditions"
+    },
+    {
+      "metric": "Packing",
+      "unit": "n/a",
+      "basis": "Standard neoprene packing, with other materials available",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
+      },
+      "value": "Standard neoprene packing, with other materials available"
+    },
+    {
+      "metric": "Check valve",
+      "unit": "n/a",
+      "basis": "An integral reverse flow check valve to prevent reverse flow communication",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
+      },
+      "value": "integral reverse flow check valve"
+    },
+    {
+      "metric": "Valve types",
+      "unit": "n/a",
+      "basis": "Valve type list under Overview",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
+      },
+      "value": "Injection pressure and production pressure-operated; tubing retrievable; wireline-retrievable orifice, dummy, circulating, and chemical injection valves"
+    },
+    {
+      "metric": "Mandrel compatibility",
+      "unit": "n/a",
+      "basis": "designed for installation in any Baker Hughes side pocket and tubing retrievable mandrel",
+      "source": {
+        "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
+      },
+      "value": "Any Baker Hughes side pocket and tubing retrievable mandrel; fully compatible with other manufacturers' mandrels"
     }
   ],
   "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
@@ -35,6 +98,6 @@
       "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     }
   ],
-  "notes": "Integral reverse-flow check valve; stainless steel construction with premium materials available; standard neoprene packing. Page references BOTipod gas lift software for valve placement. No pressure rating printed.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Integral reverse-flow check valve; stainless steel construction with premium materials available; standard neoprene packing. Page references BOTipod gas lift software for valve placement. No pressure rating printed. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

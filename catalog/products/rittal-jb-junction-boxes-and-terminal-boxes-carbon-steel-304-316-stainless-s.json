@@ -27,6 +27,38 @@
         "source_id": "cat-rittal-com-pg20231215sch201"
       },
       "value": "polycarbonate PK, cast aluminum GA, small enclosure KX, carbon steel, 304/316 stainless steel"
+    },
+    {
+      "metric": "KX E-Box dimensions",
+      "unit": "mm",
+      "basis": "'KX E-Box, WHD: 200x300x155 mm, stainless steel 1.4401, with mounting plate, single-door, with cam lock' (article 1301000)",
+      "source": {
+        "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
+      }
+    },
+    {
+      "metric": "KX E-Box material grade",
+      "unit": "n/a",
+      "basis": "'stainless steel 1.4401'",
+      "source": {
+        "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
+      }
+    },
+    {
+      "metric": "KX terminal box carbon steel sizes",
+      "unit": "mm",
+      "basis": "Listed WHD: 150x150x120; 300x150x120; 200x200x120; 300x200x120; 400x200x120; 500x200x120; 600x200x120; 300x300x120; 400x300x120; 500x300x120; 600x300x120; 400x400x120; 600x400x120; 800x400x120; 150x150x80; 300x150x80; 200x200x80; 300x200x80; 400x200x80; 800x200x120; 200x150x80; 200x150x120; 300x150x120 with gland plate",
+      "source": {
+        "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
+      }
+    },
+    {
+      "metric": "KX terminal box construction",
+      "unit": "n/a",
+      "basis": "'sheet steel, without mounting plate, with cover, without gland plate' (standard variants)",
+      "source": {
+        "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
+      }
     }
   ],
   "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
@@ -35,6 +67,13 @@
       "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     }
   ],
-  "notes": "Catalogue page read in full (232 variants listed). The linked JB & WM Specification Guide PDF (with UL/cUL Type 1/3R/12/4/4X and 16 ga/1.5 mm figures) was seen in search results but WebFetch returned 'Unsupported fetched file content type: application/pdf' — those figures are NOT asserted as page-read.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Catalogue page read in full (232 variants listed). The linked JB & WM Specification Guide PDF (with UL/cUL Type 1/3R/12/4/4X and 16 ga/1.5 mm figures) was seen in search results but WebFetch returned 'Unsupported fetched file content type: application/pdf' — those figures are NOT asserted as page-read. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Full JB/PK/GA enclosure tables (protection ratings, material 304/316, sizes beyond KX shown)",
+      "why": "Only first page of the Rittal listing was returned",
+      "next_action": "Page through the Rittal catalogue for the complete family tables"
+    }
+  ]
 }

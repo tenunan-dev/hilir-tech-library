@@ -97,6 +97,250 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
         "source_id": "geg-pagcanada-com-praesideo-ds-en-pdf-7444422"
       }
+    },
+    {
+      "metric": "emergency_standard_certification",
+      "unit": "n/a",
+      "basis": "IEC 60849 Certified; Certifications and Approvals: EVAC (TUV certified) acc. to IEC 60849 / BS 5839-8",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": "IEC 60849 certified (first system certified); EVAC TUV certified acc. to IEC 60849 / BS 5839-8"
+    },
+    {
+      "metric": "simultaneous_audio_channels",
+      "unit": "channels",
+      "basis": "PRS-NCO-B Network Controller: Control and routing of 28 audio channels; routes up to 28 simultaneous audio channels",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": 28
+    },
+    {
+      "metric": "audio_inputs_outputs",
+      "unit": "each",
+      "basis": "Fully digital with four audio inputs and four audio outputs (network controller)",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": 4
+    },
+    {
+      "metric": "control_inputs_outputs",
+      "unit": "inputs / outputs",
+      "basis": "Eight supervised control inputs and five control outputs (network controller)",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "low": 8,
+      "high": 5
+    },
+    {
+      "metric": "max_system_nodes",
+      "unit": "nodes",
+      "basis": "The network controller can control up to 60 nodes",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": 60
+    },
+    {
+      "metric": "fault_message_memory",
+      "unit": "messages",
+      "basis": "Stores the last 200 fault events / fault messages",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": 200
+    },
+    {
+      "metric": "priorities",
+      "unit": "n/a",
+      "basis": "The system can handle 256 priorities, for calls to hundreds of zones",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": 256
+    },
+    {
+      "metric": "mains_supply_voltage",
+      "unit": "VAC",
+      "basis": "Technical Specifications Electrical, Mains power supply voltage 115/230 VAC +/-10%, 50/60 Hz",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "low": 115,
+      "high": 230
+    },
+    {
+      "metric": "mains_frequency",
+      "unit": "Hz",
+      "basis": "Technical Specifications Electrical, mains power supply 50/60 Hz",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "low": 50,
+      "high": 60
+    },
+    {
+      "metric": "mains_power_consumption",
+      "unit": "W",
+      "basis": "Power consumption 14 W with no load; 150 W with maximum load (network controller)",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "low": 14,
+      "high": 150
+    },
+    {
+      "metric": "battery_backup_voltage",
+      "unit": "VDC",
+      "basis": "Battery power supply voltage 48 VDC -10% to +20% (network controller); supervised 48 VDC backup on amplifiers",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": 48
+    },
+    {
+      "metric": "frequency_response",
+      "unit": "Hz",
+      "basis": "Performance, frequency response 20 Hz to 20 kHz (-3 dB)",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "low": 20,
+      "high": 20000
+    },
+    {
+      "metric": "operating_temperature",
+      "unit": "degC",
+      "basis": "Environmental, operating temperature -10 degC to +55 degC (14 degF to +131 degF)",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "low": -10,
+      "high": 55
+    },
+    {
+      "metric": "storage_temperature",
+      "unit": "degC",
+      "basis": "Environmental, storage temperature -40 degC to +70 degC",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "low": -40,
+      "high": 70
+    },
+    {
+      "metric": "humidity",
+      "unit": "%",
+      "basis": "Environmental, humidity 15% to 90%",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "low": 15,
+      "high": 90
+    },
+    {
+      "metric": "air_pressure",
+      "unit": "hPa",
+      "basis": "Environmental, air pressure 600 to 1100 hPa",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "low": 600,
+      "high": 1100
+    },
+    {
+      "metric": "network_controller_dimensions_HxWxD",
+      "unit": "mm",
+      "basis": "Mechanical, dimensions (H x W x D) for tabletop use with feet 92 x 440 x 400 mm (3.6 x 17.3 x 15.7 in)",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": "92 x 440 x 400"
+    },
+    {
+      "metric": "network_controller_weight",
+      "unit": "kg",
+      "basis": "Mechanical, weight 7 kg (15.4 lb)",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": 7
+    },
+    {
+      "metric": "amplifier_total_power_rating",
+      "unit": "W",
+      "basis": "The overall power rating is 500 watts for all of the amplifiers",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": 500
+    },
+    {
+      "metric": "amplifier_channel_configurations",
+      "unit": "n/a",
+      "basis": "LBB 4421/10 1x500 W, LBB 4422/10 2x250 W, LBB 4424/10 4x125 W, LBB 4428/00 8x60 W",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": "1 x 500 W; 2 x 250 W; 4 x 125 W; 8 x 60 W"
+    },
+    {
+      "metric": "loudspeaker_output_voltages",
+      "unit": "V",
+      "basis": "Power amplifiers can be selected for 100 V, 70 V and 50 V output tapping",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": "100 / 70 / 50"
+    },
+    {
+      "metric": "amplifier_mains_supply",
+      "unit": "VAC",
+      "basis": "LBB 442x/xx mains power supply voltage 100 to 240 VAC +/-10%, 50/60 Hz",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "low": 100,
+      "high": 240
+    },
+    {
+      "metric": "multichannel_interface_outputs",
+      "unit": "channels",
+      "basis": "PRS-16MCI provides 16 configurable output channels (14 main outputs and two spare outputs); 32 control inputs and 16 control outputs",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": 16
+    },
+    {
+      "metric": "plastic_fiber_segment_length",
+      "unit": "m",
+      "basis": "Plastic fiber is used to interconnect nodes, which are less than 50 meters apart; for more than 50 meters multi-mode glass fiber is used",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "high": 50
+    },
+    {
+      "metric": "remote_call_station_cat5_max_length",
+      "unit": "m",
+      "basis": "Remote call station connects via CAT 5 cable with a maximum length of 1000 meters",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": 1000
+    },
+    {
+      "metric": "safety_emissions_standards",
+      "unit": "n/a",
+      "basis": "Certifications and Approvals: Safety acc. to IEC 60065-98; Immunity acc. to EN 55103-2; Emissions acc. to EN 55103-1 / FCC-47 part 15B",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      },
+      "value": "IEC 60065-98; EN 55103-2; EN 55103-1 / FCC-47 part 15B"
     }
   ],
   "vendor_models": [
@@ -154,5 +398,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

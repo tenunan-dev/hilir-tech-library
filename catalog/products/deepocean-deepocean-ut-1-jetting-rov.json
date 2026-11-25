@@ -17,6 +17,23 @@
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
       "value": 2.1
+    },
+    {
+      "metric": "Total installed power",
+      "unit": "MW",
+      "basis": "DeepOcean: 'The UT-1 is the world's most powerful jetting ROV with 2.1MW of total power.'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 2.1
+    },
+    {
+      "metric": "Drive/pressure-flow control",
+      "unit": "text",
+      "basis": "'It is also fitted with sophisticated drive motors, which allows precise control of pressure and flow, giving a high degree of flexibility when undertaking workshops in varied environmental conditions'",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      }
     }
   ],
   "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
@@ -25,6 +42,13 @@
       "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     }
   ],
-  "notes": "fetched",
-  "last_reviewed": "2026-11-24"
+  "notes": "fetched Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "UT-1 dimensions, water depth rating, jetting pressure/flow, thrust",
+      "why": "Only a short marketing paragraph printed; specification sheet linked but not read",
+      "next_action": "Fetch the linked UT-1 specification sheet PDF"
+    }
+  ]
 }

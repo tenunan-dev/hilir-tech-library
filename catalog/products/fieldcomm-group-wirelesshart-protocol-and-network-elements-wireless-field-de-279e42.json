@@ -27,6 +27,42 @@
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
       "value": "self-organizing, self-healing mesh; each device can route for other devices"
+    },
+    {
+      "metric": "Installation cost saving",
+      "unit": "% lower than wired instruments",
+      "basis": "\"WirelessHART offers 30%-60% lower installation costs than adding traditional wired instruments\" (User Case Studies link text)",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "low": 30,
+      "high": 60
+    },
+    {
+      "metric": "Network elements",
+      "unit": "main elements",
+      "basis": "\"Each WirelessHART network includes three main elements: Wireless field devices ... Gateways ... A Network Manager\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": 3
+    },
+    {
+      "metric": "HART specification documents",
+      "unit": "documents",
+      "basis": "\"The HART Protocol Specifications kit is a collection of 17 documents\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      },
+      "value": 17
+    },
+    {
+      "metric": "Network topology",
+      "unit": "n/a",
+      "basis": "\"By design, WirelessHART using mesh networking technology. Each device in a mesh network can serve as a router for messages from other devices\"",
+      "source": {
+        "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
+      }
     }
   ],
   "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
@@ -35,6 +71,13 @@
       "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     }
   ],
-  "notes": "Page read in full. Defines three network elements (wireless field devices, gateways, network manager) and four messaging modes. Registered-products subpage returned HTTP 403 to WebFetch and is not used as evidence.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read in full. Defines three network elements (wireless field devices, gateways, network manager) and four messaging modes. Registered-products subpage returned HTTP 403 to WebFetch and is not used as evidence. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Radio frequency, data rate, battery life and mesh network size limits",
+      "why": "Not printed on the technology overview page",
+      "next_action": "Fetch HART specification documents for numeric protocol parameters"
+    }
+  ]
 }

@@ -148,6 +148,129 @@
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
       }
+    },
+    {
+      "metric": "Overall NFPA-20 range",
+      "unit": "GPM",
+      "basis": "ROTAMAC: 'Per NFPA-20, we are able to supply ranges from 20 GPM up to 10000 GPM with net pressures of 50 to 700 PSI or more'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 20,
+      "high": 10000
+    },
+    {
+      "metric": "Split casing fire pump flow",
+      "unit": "GPM",
+      "basis": "ROTAMAC Characteristics: split casing 'Flows from 250 to 4000 GPM'; pressures '50 to 700 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 250,
+      "high": 4000
+    },
+    {
+      "metric": "End suction fire pump flow / pressure",
+      "unit": "GPM / 84-230 PSI",
+      "basis": "ROTAMAC: end suction 'Flows from 50 to 750 GPM'; 'Pressures from 84 to 230 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 50,
+      "high": 750
+    },
+    {
+      "metric": "In-line fire pump flow / pressure",
+      "unit": "GPM / 40-210 PSI",
+      "basis": "ROTAMAC: in-line 'Flows from 20 to 220 GPM'; 'Pressures from 40 to 210 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 20,
+      "high": 220
+    },
+    {
+      "metric": "Two stage fire pump flow / pressure",
+      "unit": "GPM / 50-500 PSI",
+      "basis": "ROTAMAC: two stage 'Flows from 500 to 2500 GPM'; 'Pressures from 50 to 500 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 500,
+      "high": 2500
+    },
+    {
+      "metric": "Vertical turbine fire pump flow / pressure",
+      "unit": "GPM / 50-300 PSI",
+      "basis": "ROTAMAC: vertical turbine 'Flows from 250 to 5500 GPM'; 'Pressures from 50 to 300 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 250,
+      "high": 5500
+    },
+    {
+      "metric": "FPSO & FSO fire pump flow / pressure",
+      "unit": "GPM / 120-227 PSI",
+      "basis": "ROTAMAC: 'FIRE PUMP FOR FPSO & FSO ... Flows from 1320 to 10000 GPM; Pressures from 120 to 227 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 1320,
+      "high": 10000
+    },
+    {
+      "metric": "Multistage fire pump flow / pressure",
+      "unit": "GPM / 700-1530 PSI",
+      "basis": "ROTAMAC: multistage 'Flows from 160 to 4400 GPM'; 'Pressures from 700 to 1530 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 160,
+      "high": 4400
+    },
+    {
+      "metric": "Jockey pump sizing",
+      "unit": "% of fire pump flow",
+      "basis": "ROTAMAC: 'Jockey pumps are normally sized for 1% flow and a 10 to 20 PSI higher pressure of the fire pump.'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Complete package flow / pressure",
+      "unit": "GPM / 50-1530 PSI",
+      "basis": "ROTAMAC: complete package 'Flows from 50 to 10000 GPM; Pressures from 50 to 1530 PSI'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      },
+      "low": 50,
+      "high": 10000
+    },
+    {
+      "metric": "Standard construction materials",
+      "unit": "text",
+      "basis": "ROTAMAC: 'Standard materials include: Cast iron, Ductile cast iron, Carbon steel'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      }
+    },
+    {
+      "metric": "Sea/brackish water metallurgies",
+      "unit": "text",
+      "basis": "ROTAMAC: 'Stainless steel, Duplex stainless steel, Super duplex, Nickel-Aluminum-Bronze'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      }
+    },
+    {
+      "metric": "Pump standards",
+      "unit": "text",
+      "basis": "ROTAMAC: 'Standardized End Suction Pumps EN733/DIN24255, ISO2858/ISO5199; ASME B73.1, API610'",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      }
     }
   ],
   "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
@@ -157,6 +280,6 @@
       "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 13 new printed parameters."
 }

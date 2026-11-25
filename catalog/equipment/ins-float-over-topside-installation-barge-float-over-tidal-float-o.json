@@ -40,6 +40,51 @@
         "source_id": "orca-offshore-com-leg-mating-unit"
       },
       "value": "direct welding after set-down; no sand-jack lowering phase"
+    },
+    {
+      "metric": "Design feature",
+      "unit": "n/a",
+      "basis": "Different from existing designs, this design® allows for direct welding of the topside to the jacket after set down",
+      "source": {
+        "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
+      },
+      "value": "allows direct welding of the topside to the jacket after set down"
+    },
+    {
+      "metric": "Eliminated operation",
+      "unit": "n/a",
+      "basis": "The phase whereby the topside is lowered by sand-jacks or equivalent equipment has been eliminated saving valuable installation time",
+      "source": {
+        "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
+      },
+      "value": "phase whereby topside is lowered by sand-jacks or equivalent equipment"
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "The LMU is built up with standard rubber elements, standard steel pipe and flush steel plates",
+      "source": {
+        "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
+      },
+      "value": "standard rubber elements, standard steel pipe and flush steel plates"
+    },
+    {
+      "metric": "Commercial features",
+      "unit": "n/a",
+      "basis": "As a result, the LMU has a short lead time and can be supplied at a competitive price",
+      "source": {
+        "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
+      },
+      "value": "short lead time; competitive price"
+    },
+    {
+      "metric": "Developer",
+      "unit": "n/a",
+      "basis": "Together with SeaCamel, we developed a new type of LMU for the float-over of the LAM-E topside",
+      "source": {
+        "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
+      },
+      "value": "Orca Offshore together with SeaCamel, for the LAM-E topside float-over"
     }
   ],
   "vendors": [
@@ -64,5 +109,5 @@
     "Transport an integrated topside on a heavy-lift/transport barge, maneuver the barge between pre-installed jacket legs, align deck legs with leg-mating units, ba"
   ],
   "notes": "Page-read evidence from the 2026-11-24 installation-technology.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

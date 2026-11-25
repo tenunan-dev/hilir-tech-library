@@ -123,6 +123,69 @@
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "value": "ANSI/ISA 71.04, CSA C22.2, FM 3600/3611, IEC, ISO 13849-1, NFPA 72/85/86, SIL 3, UL 508/508A (2001)"
+    },
+    {
+      "metric": "Safety Manager - Safety Integrity Level",
+      "unit": "n/a",
+      "basis": "Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "SIL 1-3 certified safety platform"
+    },
+    {
+      "metric": "Safety Manager - architecture",
+      "unit": "n/a",
+      "basis": "Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture"
+    },
+    {
+      "metric": "Safety Manager - platform",
+      "unit": "n/a",
+      "basis": "Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Second generation safety platform; part of Experion Process Knowledge System (PKS)"
+    },
+    {
+      "metric": "Safety Manager - cyber security certification",
+      "unit": "n/a",
+      "basis": "Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Certified by Embedded Device Security Assurance program as defined by ISA Security Compliance Institute"
+    },
+    {
+      "metric": "Safety Manager - I/O technology",
+      "unit": "n/a",
+      "basis": "Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Universal Safety I/O (USIO) based on Universal Channel technology; each channel configurable for a different I/O type"
+    },
+    {
+      "metric": "Safety Manager - remote I/O",
+      "unit": "n/a",
+      "basis": "Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Remote IO can be placed in hazardous locations"
+    },
+    {
+      "metric": "Safety Manager - hardware documentation",
+      "unit": "n/a",
+      "basis": "Honeywell Safety Manager product page (process.honeywell.com), Overview / What Is It / How Does It Work sections; no print date stated",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
+      },
+      "value": "Installation Instructions / technical specification PDF, 17.43 MB, dated 12/22/2023"
     }
   ],
   "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
@@ -131,6 +194,13 @@
       "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     }
   ],
-  "notes": "Page read in full including Specifications tab and part-number list. Universal Safety I/O allows remote I/O in hazardous locations, reducing marshalling cabinets/home-run cables/junction boxes.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read in full including Specifications tab and part-number list. Universal Safety I/O allows remote I/O in hazardous locations, reducing marshalling cabinets/home-run cables/junction boxes. Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Detailed Safety Manager hardware specifications",
+      "why": "The page describes architecture and certification but does not print detailed hardware ratings; a linked 17.43 MB technical specification PDF is not transcribed",
+      "next_action": "Fetch and transcribe the linked hardware technical specification PDF"
+    }
+  ]
 }

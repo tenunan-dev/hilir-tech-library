@@ -17,6 +17,112 @@
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
       "value": "needle-punched nonwoven geotextile filled with sand"
+    },
+    {
+      "metric": "Container material",
+      "unit": "n/a",
+      "basis": "'made of highly robust, staple fibre, specially needle-punched nonwoven Secutex® geotextile and are filled with sand'",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      }
+    },
+    {
+      "metric": "Adaptability",
+      "unit": "n/a",
+      "basis": "'The container is flexible and can adapt to variable seabeds. They can be placed before piling'",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      }
+    },
+    {
+      "metric": "Reference project",
+      "unit": "n/a",
+      "basis": "'Their solution has been used on the German Amrumbank West offshore wind farm'",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      }
+    },
+    {
+      "metric": "West of Duddon Sands armour rock size",
+      "unit": "'installed 8-18\" (20-45cm) armour rock around the 108 turbines' (context)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      },
+      "value": 8,
+      "low": 18,
+      "high": "in"
+    },
+    {
+      "metric": "Meerwind filter material size",
+      "unit": "'placement of 1-5\" filter material for 80 monopile locations' (context)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      },
+      "value": 1,
+      "low": 5,
+      "high": "in"
+    },
+    {
+      "metric": "Meerwind armour rock grading",
+      "unit": "'armour rock (grading 100-700kg) was installed at 80 wind turbine locations' (context)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      },
+      "value": 100,
+      "low": 700,
+      "high": "kg"
+    },
+    {
+      "metric": "Anholt filter layer",
+      "unit": "'1-4\" filter layer with an armour layer of 2-8\" rock on top' (42 WTG foundations, context)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      },
+      "value": 1,
+      "low": 4,
+      "high": "in"
+    },
+    {
+      "metric": "Ridgeway filter bag recycled content",
+      "unit": "%",
+      "basis": "'a polyester filter bag, made from 61% recycled bottles' (context)",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      },
+      "value": 61
+    },
+    {
+      "metric": "Ridgeway filter bag lifetime",
+      "unit": "years",
+      "basis": "'a lifetime of 50 years in saline water' (context)",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      },
+      "value": 50
+    },
+    {
+      "metric": "ContiTech mat thickness",
+      "unit": "'mats made up of a conveyer belt type material, 12mm to 15mm thick' (context)",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      },
+      "value": 12,
+      "low": 15,
+      "high": "mm"
+    },
+    {
+      "metric": "ContiTech mat diameter",
+      "unit": "m",
+      "basis": "'anchored mats with a diameter of up to 52m' (context)",
+      "source": {
+        "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
+      },
+      "value": 52
     }
   ],
   "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
@@ -25,6 +131,6 @@
       "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     }
   ],
-  "notes": "Used at Amrumbank West; can be placed before piling.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Used at Amrumbank West; can be placed before piling. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

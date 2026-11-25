@@ -17,6 +17,31 @@
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
       "value": 6300
+    },
+    {
+      "metric": "Tandem lift capacity (guyed mode)",
+      "unit": "metric tons",
+      "basis": "\"Balder is capable to execute a tandem lift of 6,300 metric tons when in guyed mode\"",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      },
+      "value": 6300
+    },
+    {
+      "metric": "Vessel type",
+      "unit": "n/a",
+      "basis": "Listed under 'Deepwater Construction Vessel'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      }
+    },
+    {
+      "metric": "Crane capability",
+      "unit": "n/a",
+      "basis": "\"The vessel's cranes provide for a depth reach lowering capability as well as a heavy lift capacity to install topsides, jackets, and other structures\"",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      }
     }
   ],
   "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
@@ -25,6 +50,13 @@
       "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     }
   ],
-  "notes": "Deepwater construction vessel.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Deepwater construction vessel. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Balder dimensions, crane heights, deck area and DP class",
+      "why": "Fleet overview gives lift capacity only; detail page and brochure not read",
+      "next_action": "Fetch Balder detail page/brochure for full specification"
+    }
+  ]
 }

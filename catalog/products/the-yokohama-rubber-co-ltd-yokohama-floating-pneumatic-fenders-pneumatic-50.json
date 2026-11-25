@@ -39,6 +39,120 @@
         "source_id": "y-yokohama-com-floating"
       },
       "value": "50 or 80"
+    },
+    {
+      "metric": "standard",
+      "unit": "n/a",
+      "basis": "ISO17357-1:2014 Certified / Compliance with ISO17357-1:2014",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "value": "ISO 17357-1:2014 certified; all Yokohama fenders in full compliance"
+    },
+    {
+      "metric": "initial_internal_pressure_Pneumatic_50",
+      "unit": "kPa",
+      "basis": "Pneumatic 50 Standard Sizes table: Initial Internal Pressure 50 kPa",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "value": 50
+    },
+    {
+      "metric": "initial_internal_pressure_Pneumatic_80",
+      "unit": "kPa",
+      "basis": "Pneumatic 80 Standard Sizes table: Initial Internal Pressure 80 kPa",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "value": 80
+    },
+    {
+      "metric": "initial_internal_pressure_Low_Pressure",
+      "unit": "kPa",
+      "basis": "Low-Pressure table: Initial Internal Pressure 10 kPa",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "value": 10
+    },
+    {
+      "metric": "GEA_range_Pneumatic_50",
+      "unit": "kNm",
+      "basis": "Pneumatic 50 table guaranteed energy absorption from 6 kNm (500x1000) to 6,473 kNm (4500x12000)",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "low": 6,
+      "high": 6473
+    },
+    {
+      "metric": "GEA_range_Pneumatic_80",
+      "unit": "kNm",
+      "basis": "Pneumatic 80 table GEA from 8 kNm (500x1000) to 9,037 kNm (4500x12000)",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "low": 8,
+      "high": 9037
+    },
+    {
+      "metric": "reaction_force_range_Pneumatic_50",
+      "unit": "kN",
+      "basis": "Pneumatic 50 table Reaction Force at GEA 64 kN (500x1000) to 7,984 kN (4500x12000)",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "low": 64,
+      "high": 7984
+    },
+    {
+      "metric": "hull_pressure_range_Pneumatic_50",
+      "unit": "kPa",
+      "basis": "Pneumatic 50 table Hull Pressure at GEA 122-158 kPa across listed sizes",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "low": 122,
+      "high": 158
+    },
+    {
+      "metric": "testing_pressure_Pneumatic_50",
+      "unit": "kPa",
+      "basis": "Pneumatic 50 table Testing Pressure 200 kPa (small sizes) / 250 kPa (2500x4000 and above)",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "low": 200,
+      "high": 250
+    },
+    {
+      "metric": "safety_valve_setting_Pneumatic_50",
+      "unit": "kPa",
+      "basis": "Pneumatic 50 table Safety Valve Setting pressure 175 kPa for sizes 2500x4000 and above (dash for smaller sizes)",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "low": 175,
+      "high": 175
+    },
+    {
+      "metric": "size_range_sling_type",
+      "unit": "mm",
+      "basis": "Sling-type fenders (Type II) 500x1000L - 4500x9000L have an attachment eye on each end",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "value": "Phi 500x1000L - Phi 4500x9000L"
+    },
+    {
+      "metric": "inclined_compression_limit",
+      "unit": "degrees",
+      "basis": "energy absorption does not decrease at inclined compression up to 15 degrees",
+      "source": {
+        "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
+      },
+      "value": 15
     }
   ],
   "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
@@ -47,6 +161,6 @@
       "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     }
   ],
-  "notes": "ISO 17357-1:2014 compliant. Type I net and Type II sling; vertical, low pressure and Mega special types.",
-  "last_reviewed": "2026-11-24"
+  "notes": "ISO 17357-1:2014 compliant. Type I net and Type II sling; vertical, low pressure and Mega special types. Full-parameter pass 2026-11-26: 12 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

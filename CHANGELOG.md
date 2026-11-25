@@ -8,6 +8,15 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.26.1] — 2026-11-26 — Full parameter capture across product catalogues
+
+Owner review: selected engine pages held only a few parameters. Eight agents re-read all 458 product
+source pages and linked datasheets, capturing every printed parameter with its exact basis and URL.
+4,000 specs appended to 428 products and linked equipment; 35 new sources; 27 blocked/category-only
+pages left as explicit gaps. Wärtsilä 50SG 4->18, MAN E3872 4->20, Everllence 51/60G 3->9 specs.
+`pytest -q tests`: **3,794 passed, 13 skipped**. No container deploy.
+
+
 ## [2026.11.25.6] — 2026-11-25 — Targeted evidence gap-fill on GEG core items
 
 Six agents filled the missing categories on the analysed core items. Closed 27 price gaps, 19 project

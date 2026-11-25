@@ -27,6 +27,87 @@
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
       "value": 75
+    },
+    {
+      "metric": "Version",
+      "unit": "n/a",
+      "basis": "SIMATIC PCS 7 V10.0 boosts plant performance and security",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "V10.0"
+    },
+    {
+      "metric": "MTP startup improvement",
+      "unit": "% faster startup",
+      "basis": "MTP integration for up to 75% faster startup",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": 75
+    },
+    {
+      "metric": "Cybersecurity compliance",
+      "unit": "n/a",
+      "basis": "NIS2-compliant cybersecurity; with full IEC 62443-4-1 and IEC 62443-3-3 compliance",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance"
+    },
+    {
+      "metric": "GMP features",
+      "unit": "n/a",
+      "basis": "GMP-ready audit trails and eSignatures",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "GMP-ready audit trails and eSignatures"
+    },
+    {
+      "metric": "I/O design",
+      "unit": "n/a",
+      "basis": "flexible I/O design; A key solution is SIMATIC ET 200SP HA, a compact robust remote I/O designed for high availability",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "flexible I/O design; SIMATIC ET 200SP HA compact robust remote I/O"
+    },
+    {
+      "metric": "Service",
+      "unit": "n/a",
+      "basis": "fast service via system ID",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "fast service via system ID"
+    },
+    {
+      "metric": "Supplementary features",
+      "unit": "n/a",
+      "basis": "Supplementary features, e.g. TeleControl and Advanced Process Graphics",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "TeleControl and Advanced Process Graphics"
+    },
+    {
+      "metric": "Installed base",
+      "unit": "n/a",
+      "basis": "It is already in use in thousands of installations worldwide",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "in use in thousands of installations worldwide"
+    },
+    {
+      "metric": "Digital assistants",
+      "unit": "n/a",
+      "basis": "SIMATIC eaSie enables intuitive interaction via voice or chatbot. Concept & Design Tool enables fast cost estimation and BOMs",
+      "source": {
+        "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
+      },
+      "value": "SIMATIC eaSie voice/chatbot; Concept & Design Tool for cost estimation and BOMs"
     }
   ],
   "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
@@ -35,6 +116,6 @@
       "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -27,6 +27,40 @@
         "source_id": "matthey-com-emissions-control-nox-control-systems"
       },
       "value": 15000
+    },
+    {
+      "metric": "NOx reduction",
+      "unit": "% (greater than)",
+      "basis": "\"JM's SCR systems are designed to reduce >95% of NOx emissions for stationary diesel and gas engines\"",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
+      },
+      "value": 95
+    },
+    {
+      "metric": "Operating hours before maintenance",
+      "unit": "hours (15,000-plus)",
+      "basis": "\"JM's SCR technology has achieved an impressive 15,000-plus hours of operation before maintenance is required\"",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "Key components",
+      "unit": "n/a",
+      "basis": "\"SINOx honeycomb catalysts; Durable stainless steel catalyst housings; Stainless steel reagent injection lance; Stainless steel reagent mixing duct; System control panel and reagent dosing pump; Silencers for additional sound attenuation\"",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
+      }
+    },
+    {
+      "metric": "Additional pollutant control",
+      "unit": "n/a",
+      "basis": "\"can be coupled with ammonia slip or oxidation catalyst technology for optimal reductions of CO, hydrocarbons, ammonia and other VOCs\"",
+      "source": {
+        "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
+      }
     }
   ],
   "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
@@ -35,6 +69,13 @@
       "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     }
   ],
-  "notes": "SINOx honeycomb catalyst, stainless housing, injection lance, dosing pump, silencer options",
-  "last_reviewed": "2026-11-24"
+  "notes": "SINOx honeycomb catalyst, stainless housing, injection lance, dosing pump, silencer options Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Catalyst dimensions, space velocity and ammonia slip figures",
+      "why": "Not printed on the overview page",
+      "next_action": "Fetch brochure PDF for catalyst specification tables"
+    }
+  ]
 }

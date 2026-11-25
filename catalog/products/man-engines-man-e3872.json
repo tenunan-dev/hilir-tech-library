@@ -47,14 +47,162 @@
         "source_id": "man-eu-gas-power-generation-gas-html"
       },
       "value": "1.77-1.78"
+    },
+    {
+      "metric": "Cylinders / arrangement",
+      "unit": "cylinders",
+      "basis": "MAN E3872 preliminary technical data table: 'Arrangement/number of cylinders V12'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html",
+        "source_id": "catpar-man-eu-man-motor-e3872-html-060f498"
+      },
+      "value": "V12"
+    },
+    {
+      "metric": "Bore",
+      "unit": "mm",
+      "basis": "'bore of 138 mm and a stroke of 165 mm'; technical table 'Bore mm 138'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 138
+    },
+    {
+      "metric": "Stroke",
+      "unit": "mm",
+      "basis": "'bore of 138 mm and a stroke of 165 mm'; technical table 'Stroke mm 165'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 165
+    },
+    {
+      "metric": "Displacement",
+      "unit": "litres",
+      "basis": "Technical table 'Displacement l 29.6'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 29.6
+    },
+    {
+      "metric": "Effective rated power",
+      "unit": "kWmech",
+      "basis": "'maximum power of 735 kWmech'; technical table 'Effective rated power kWmech 735'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 735
+    },
+    {
+      "metric": "Nominal speed",
+      "unit": "rpm at 50 Hz",
+      "basis": "Technical table 'Nominal speed rpm 1,500 (50 Hz)'; 'A version for markets requiring speeds of 1,800 rpm (60 Hz) is also planned'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Effective mechanical efficiency",
+      "unit": "%",
+      "basis": "Page headline '44 % efficiency ...'; technical table 'Effective mechanical efficiency (at NOx =250 mg/Nm3; 5 % O2) % 43,7' - both printed variants preserved. Last updated 12/03/2024.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": "44 / 43.7"
+    },
+    {
+      "metric": "Mean effective pressure",
+      "unit": "bar",
+      "basis": "Technical table 'Mean effective pressure bar 19.85'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 19.85
+    },
+    {
+      "metric": "NOx emission",
+      "unit": "mg/Nm3 at 5 ref. vol. % O2",
+      "basis": "Table heading 'Operation with natural gas with NOx emissions = 250 mg/Nm3 (5 ref. vol. % O2)' and 'Exhaust status NOx (with 5 % residual oxygen) mg/Nm3 250'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 250
+    },
+    {
+      "metric": "Engine length",
+      "unit": "mm",
+      "basis": "Technical table 'Engine length mm 1805'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 1805
+    },
+    {
+      "metric": "Engine width",
+      "unit": "mm",
+      "basis": "Technical table 'Engine width mm 1243'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 1243
+    },
+    {
+      "metric": "Engine height",
+      "unit": "mm",
+      "basis": "Technical table 'Engine height mm 1407'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 1407
+    },
+    {
+      "metric": "Dry weight",
+      "unit": "kg",
+      "basis": "Technical table 'Weight (dry) kg 2159'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": 2159
+    },
+    {
+      "metric": "Air/fuel ratio lambda (natural gas)",
+      "unit": "lambda",
+      "basis": "MAN gas programme technical data: E3872 natural gas row '735 | 1.77 - 1.78 | E3872 | 12 | V 90° | 29,6'.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+      },
+      "value": "1.77 - 1.78"
+    },
+    {
+      "metric": "Hydrogen readiness",
+      "unit": "n/a",
+      "basis": "'As part of the process of converting our stationary natural gas engine range to hydrogen readiness, the new MAN E3872 will be designed to accommodate a hydrogen (H2) admixture when operated with natural gas.'",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": "designed to accommodate a hydrogen (H2) admixture when operated with natural gas"
+    },
+    {
+      "metric": "Key design features",
+      "unit": "n/a",
+      "basis": "'KEY NEW FEATURES OF THE MAN E3872 STATIONARY GAS ENGINE' list.",
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
+      },
+      "value": "Highly efficient single turbocharger; M18 prechamber spark plugs; camshaft with Atkinson cycle; steel pistons"
     }
   ],
   "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
   "sources": [
     {
       "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
+    },
+    {
+      "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     }
   ],
-  "notes": "44.0% efficiency claim from MAN press release (search-verified only)",
-  "last_reviewed": "2026-11-24"
+  "notes": "44.0% efficiency claim from MAN press release (search-verified only) Full-parameter pass 2026-11-26: 16 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

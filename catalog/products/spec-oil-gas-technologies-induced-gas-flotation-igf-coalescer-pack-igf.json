@@ -17,6 +17,33 @@
         "source_id": "specoilandgas-com-produced-water-treatment-induced-gas-flotation"
       },
       "value": "as low as 10 ppm OIW"
+    },
+    {
+      "metric": "typical_outlet_quality",
+      "unit": "ppm oil in water",
+      "basis": "Specifications: Typical outlet quality - As low as 10 ppm oil in water, depending on inlet conditions",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
+      },
+      "high": 10
+    },
+    {
+      "metric": "induction_method",
+      "unit": "n/a",
+      "basis": "Differential Pressure Induction section",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
+      },
+      "value": "Differential Pressure Induction: venturi eductors induced by pressurised water from recirculation pumps; pumps and eductors sit outside the vessel for easy access"
+    },
+    {
+      "metric": "sizing_inputs",
+      "unit": "n/a",
+      "basis": "Vessel size, compartment count and eductor selection are set by SPEC engineering against your inlet water quality and flow rate; project data required",
+      "source": {
+        "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
+      },
+      "value": "Produced water flow rate; Operating pressure and temperature; inlet water quality"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation",
@@ -25,6 +52,6 @@
       "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -81,6 +81,90 @@
       },
       "unit": "%",
       "value": "50"
+    },
+    {
+      "metric": "Working pressure",
+      "unit": "bar(g)",
+      "basis": "\"Working Pressure 4 bar(g) - 13 bar(g) 109 psig - 189 psig\" (Key technical specifications and Specifications table)",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "low": 4,
+      "high": 13
+    },
+    {
+      "metric": "Capacity FAD",
+      "unit": "m3/h",
+      "basis": "\"Capacity FAD 30 m³/h - 5,082 m³/h 18 cfm - 2,988 cfm\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "low": 30,
+      "high": 5082
+    },
+    {
+      "metric": "Installed motor power",
+      "unit": "kW",
+      "basis": "\"Installed motor power 5.5 kW - 500 kW 7.5 HP - 670.5 HP\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "low": 5.5,
+      "high": 500
+    },
+    {
+      "metric": "Capacity FAD (litres/sec)",
+      "unit": "l/s",
+      "basis": "\"Capacity FAD l/s 8 l/s - 1,410 l/s 133 l/s - 22,349 l/s\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "low": 8,
+      "high": 1410
+    },
+    {
+      "metric": "VSD energy savings",
+      "unit": "% (up to)",
+      "basis": "\"Variable Speed Drive (VSD) technology ... results in energy savings of up to 35%\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "value": 35
+    },
+    {
+      "metric": "GA VSD+ average energy savings (iPM IE4 motor)",
+      "unit": "% (average)",
+      "basis": "\"Combined with the innovative patented iPM (interior Permanent Magnet) motor (IE4), the GA VSD+ achieves average energy savings of 50%\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "value": 50
+    },
+    {
+      "metric": "FAD increase",
+      "unit": "% (up to)",
+      "basis": "\"The GA VSD+ realizes a Free Air Delivery (FAD) increase of up to 12%\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Energy recovery",
+      "unit": "% (up to)",
+      "basis": "\"It recovers up to 78% of the energy from the motor and the element oil circuit\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "value": 78
+    },
+    {
+      "metric": "Compliance standards",
+      "unit": "n/a",
+      "basis": "\"GA series is ISO 9001, ISO 14001 and ISO 1217 compliant\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      }
     }
   ],
   "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series",
@@ -89,6 +173,13 @@
       "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
     }
   ],
-  "notes": "Read in full: Atlas Copco USA GA series page. Full Feature variants include integrated dryer and oil-water separator. Related G, GR (up to 20 bar), GA 90+-160 VSD+ and GA 180-315 VSD+ listed on page but not separately read.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: Atlas Copco USA GA series page. Full Feature variants include integrated dryer and oil-water separator. Related G, GR (up to 20 bar), GA 90+-160 VSD+ and GA 180-315 VSD+ listed on page but not separately read. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Per-model capacity/power table in linked PDF brochures",
+      "why": "Only range summary printed on the product page; brochures not read",
+      "next_action": "Fetch brochure PDFs if per-model rows are required"
+    }
+  ]
 }

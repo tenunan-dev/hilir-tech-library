@@ -17,6 +17,39 @@
         "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
       },
       "value": 18300
+    },
+    {
+      "metric": "Full-scale tested compression load",
+      "unit": "MT (up to)",
+      "basis": "Trelleborg LMU Benefits: 'Full-scale testing compression loads up to 18,300 MT'",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
+      },
+      "value": 18300
+    },
+    {
+      "metric": "Construction",
+      "unit": "text",
+      "basis": "Trelleborg: 'LMUs feature a robust steel structure with high-performance elastomeric pads ... absorb substantial loads and minimize the risk of damage during weight transfer'",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
+      }
+    },
+    {
+      "metric": "Function",
+      "unit": "text",
+      "basis": "Trelleborg: 'Assist in the transfer of static & dynamic load from the barge transporting the topside to the substructure during float-over operation'; 'Install large platform topside without the use of a heavy lift crane vessel'",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
+      }
+    },
+    {
+      "metric": "Applications",
+      "unit": "text",
+      "basis": "Trelleborg: 'Oil & gas topside; Mining and LNG terminal construction; Offshore Wind HVDC; Decommissioning topside'",
+      "source": {
+        "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
+      }
     }
   ],
   "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
@@ -25,6 +58,13 @@
       "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     }
   ],
-  "notes": "Steel structure + elastomeric pads; project-specific design and testing.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Steel structure + elastomeric pads; project-specific design and testing. Full-parameter pass 2026-11-26: 4 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Separate H-pad and V-pad load ratings and pad dimensions",
+      "why": "Page describes LMUs generically; H-pad/V-pad variants not given distinct figures",
+      "next_action": "Fetch Trelleborg LMU/H-pad/V-pad datasheet"
+    }
+  ]
 }

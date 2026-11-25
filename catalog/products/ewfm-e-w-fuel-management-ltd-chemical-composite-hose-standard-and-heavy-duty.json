@@ -48,6 +48,92 @@
         "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
       },
       "value": "4 in – 10 in (100 mm – 250 mm)"
+    },
+    {
+      "metric": "Size range",
+      "unit": "'Between 1 to 10 inches' / 'Available Sizes'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
+      },
+      "value": 1,
+      "low": 10,
+      "high": "in"
+    },
+    {
+      "metric": "Standard duty sizes",
+      "unit": "'Standard Duty: 1” – 4” (25MM – 100MM)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
+      },
+      "value": 1,
+      "low": 4,
+      "high": "in"
+    },
+    {
+      "metric": "Heavy duty sizes",
+      "unit": "'Heavy Duty: 4” – 10” (100MM – 250MM)'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
+      },
+      "value": 4,
+      "low": 10,
+      "high": "in"
+    },
+    {
+      "metric": "Maximum working pressure",
+      "unit": "bar",
+      "basis": "'Pressure 14 bar' / 'Maximum Working Pressure: 14 BAR'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
+      },
+      "value": 14
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "'Between -30°c to 100°c' / '-30°C to + 100°C'",
+      "basis": "As printed on the cited catalogue page.",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
+      },
+      "value": -30,
+      "low": 100,
+      "high": "degC"
+    },
+    {
+      "metric": "Material stated in header",
+      "unit": "n/a",
+      "basis": "'Material: Aluminium' (printed header field)",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
+      }
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "'multiple polypropylene layers and reinforced with inner and outer helixes'; inner helix 316 stainless steel or polypropylene-coated steel; outer helix 316 stainless or galvanised steel",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
+      }
+    },
+    {
+      "metric": "Configurations",
+      "unit": "configurations",
+      "basis": "'Available in eight configurations'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
+      },
+      "value": 8
+    },
+    {
+      "metric": "Connections",
+      "unit": "n/a",
+      "basis": "'Threaded Connections; Flanged Connections; Couplings; More available on request'",
+      "source": {
+        "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
+      }
     }
   ],
   "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
@@ -56,6 +142,6 @@
       "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
     }
   ],
-  "notes": "Eight configurations listed; inner helix 316 SS or PP-coated steel, outer helix 316 SS or galvanised steel.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Eight configurations listed; inner helix 316 SS or PP-coated steel, outer helix 316 SS or galvanised steel. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

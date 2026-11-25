@@ -18,6 +18,35 @@
       },
       "low": 180,
       "high": 1300
+    },
+    {
+      "metric": "water_depth_range",
+      "unit": "m",
+      "basis": "Proprietary versions include the Seastar and MOSES mini TLPs; relatively low cost, used in water depths between 180 and 1,300 metres (590 and 4,270 ft)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "low": 180,
+      "high": 1300
+    },
+    {
+      "metric": "water_depth_range_ft",
+      "unit": "ft",
+      "basis": "between 180 and 1,300 metres (590 and 4,270 ft)",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "low": 590,
+      "high": 4270
+    },
+    {
+      "metric": "platform_type",
+      "unit": "n/a",
+      "basis": "Types of offshore oil and gas structures: Vertically moored tension leg and mini-tension leg platform; TLPs tethered to seabed eliminating most vertical movement, used in water depths up to about 2,000 m",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Oil_platform"
+      },
+      "value": "vertically moored mini tension leg platform"
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Oil_platform",
@@ -26,6 +55,13 @@
       "url": "https://en.wikipedia.org/wiki/Oil_platform"
     }
   ],
-  "notes": "Manufacturer name as stated in Wikipedia; no vendor page fetched",
-  "last_reviewed": "2026-11-24"
+  "notes": "Manufacturer name as stated in Wikipedia; no vendor page fetched Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Seaastar mini-TLP OEM technical parameters (deck size, payload, tendon specifications)",
+      "why": "Wikipedia article gives only generic mini-TLP water depth range; no OEM datasheet read",
+      "next_action": "Find Deep Oil Technology / Seaastar mini-TLP datasheet"
+    }
+  ]
 }

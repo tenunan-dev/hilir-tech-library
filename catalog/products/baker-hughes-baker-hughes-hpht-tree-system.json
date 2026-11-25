@@ -27,6 +27,69 @@
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
       },
       "value": 350
+    },
+    {
+      "metric": "HPHT tree - production pressure up to",
+      "unit": "psi",
+      "basis": "Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
+      },
+      "value": 15000
+    },
+    {
+      "metric": "HPHT tree - flowing temperature up to",
+      "unit": "degF",
+      "basis": "Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
+      },
+      "value": 350
+    },
+    {
+      "metric": "HPHT tree - subsea HPHT field experience",
+      "unit": "n/a",
+      "basis": "Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
+      },
+      "value": "Over 20 years"
+    },
+    {
+      "metric": "Subsea tree systems - system sizes",
+      "unit": "n/a",
+      "basis": "Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
+      },
+      "value": "5-inch and 7-inch systems"
+    },
+    {
+      "metric": "Subsea tree systems - water depth up to",
+      "unit": "ft",
+      "basis": "Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
+      },
+      "value": 10000
+    },
+    {
+      "metric": "Aptara framework - pressure",
+      "unit": "n/a",
+      "basis": "Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
+      },
+      "value": "10,000 psi (690 bar)"
+    },
+    {
+      "metric": "Aptara framework - temperature",
+      "unit": "n/a",
+      "basis": "Baker Hughes 'Well system solutions' subsea production systems page, 'High Pressure High Temperature (HPHT)' and 'Subsea Tree Systems' sections; no print date stated",
+      "source": {
+        "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
+      },
+      "value": "300 degF (149 degC)"
     }
   ],
   "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
@@ -35,6 +98,13 @@
       "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     }
   ],
-  "notes": "fetched/search-verified",
-  "last_reviewed": "2026-11-24"
+  "notes": "fetched/search-verified Full-parameter pass 2026-11-26: 7 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Dedicated HPHT tree datasheet",
+      "why": "The assigned URL is a well-system-solutions overview; no dedicated HPHT tree spec table printed",
+      "next_action": "Fetch the dedicated HPHT tree page for a full spec table"
+    }
+  ]
 }

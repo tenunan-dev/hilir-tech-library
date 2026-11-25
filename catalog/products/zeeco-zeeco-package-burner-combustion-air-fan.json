@@ -27,6 +27,51 @@
       },
       "unit": "scope",
       "value": "Each package burner system comes complete with automatic flame monitoring and shut-off, rotary air dampers, and a combustion air fan"
+    },
+    {
+      "metric": "NOx without FGR",
+      "unit": "ppm (less than)",
+      "basis": "\"Standard configuration offers less than 30ppm NOx without external flue gas recirculation (FGR)\"",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": 30
+    },
+    {
+      "metric": "NOx with FGR",
+      "unit": "ppm (less than, with less than 20% FGR)",
+      "basis": "\"Capable of less than 9ppm NOx with less than 20% FGR\"",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": 9
+    },
+    {
+      "metric": "Turndown",
+      "unit": "ratio (10:1 or greater)",
+      "basis": "\"turndown capabilities of 10:1 or greater\"; \"10:1 turndown with constant 3-4% O2 levels throughout the firing rate\"",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "value": 10
+    },
+    {
+      "metric": "Combustion air fan design",
+      "unit": "n/a",
+      "basis": "\"High efficiency backward curve blade design\"; \"Hinged blower housing design for ease of use and service\"; \"Each burner system comes complete with automatic flame monitoring and shut-off, rotary air dampers for precise low torque air control, and a combustion air fan\"",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      }
+    },
+    {
+      "metric": "O2 level across firing range",
+      "unit": "%",
+      "basis": "\"10:1 turndown with constant 3-4% O2 levels throughout the firing rate\"",
+      "source": {
+        "url": "https://www.zeeco.com/products/burners?hsLang=en"
+      },
+      "low": 3,
+      "high": 4
     }
   ],
   "url": "https://www.zeeco.com/products/burners?hsLang=en",
@@ -35,6 +80,13 @@
       "url": "https://www.zeeco.com/products/burners?hsLang=en"
     }
   ],
-  "notes": "Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). No standalone fan model or fan curve printed.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). No standalone fan model or fan curve printed. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Fan capacity, motor HP and pressure ratings by burner model",
+      "why": "Page gives design features and emissions only; sizing tables are in linked brochures",
+      "next_action": "Fetch the package burner brochures for fan and capacity tables"
+    }
+  ]
 }

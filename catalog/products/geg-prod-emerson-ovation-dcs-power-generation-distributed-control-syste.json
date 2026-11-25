@@ -27,6 +27,47 @@
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
         "source_id": "geg-emerson-com-ovation-distributed-control-syst-006ffb7"
       }
+    },
+    {
+      "metric": "Target industries",
+      "unit": "text",
+      "basis": "Emerson: 'The Ovation Distributed Control System is purposely designed for the power generation and water/wastewater industries.'",
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+      }
+    },
+    {
+      "metric": "Platform version",
+      "unit": "text",
+      "basis": "Emerson: 'Ovation Automation Platform 4.0 — Purposeful, software-defined automation'; 'Ovation 4.0 Controllers and I/O'",
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+      },
+      "value": "Ovation Automation Platform 4.0"
+    },
+    {
+      "metric": "Controller / I/O model lines",
+      "unit": "text",
+      "basis": "Emerson lists 'OCR3000 Controller, OCC100 Controller, OMC100 Controller, SDC100 Controller, Ovation I/O, Machinery Health Monitor'",
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+      }
+    },
+    {
+      "metric": "I/O construction",
+      "unit": "text",
+      "basis": "Emerson: 'Ovation I/O features modular, plug-in components ... Fast DIN rail installation, built-in connectors, and electronic ID ... With hot-swappable modules, standardized diagnostics'",
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+      }
+    },
+    {
+      "metric": "Market positioning",
+      "unit": "text",
+      "basis": "'According to ARC Advisory Group's Distributed Control Systems for Power Generation Global Market Research 2024–2029, Emerson's Ovation is positioned as the leading distributed control system for power generation globally and across North America.'",
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
+      }
     }
   ],
   "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
@@ -36,6 +77,13 @@
       "source_id": "geg-emerson-com-ovation-distributed-control-syst-006ffb7"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Numeric Ovation controller/I/O performance ratings (scan time, I/O counts, redundancy, environmental ratings)",
+      "why": "Overview page only describes features and model names",
+      "next_action": "Fetch OCR3000/OCC100/OMC100/SDC100 controller datasheets"
+    }
+  ]
 }

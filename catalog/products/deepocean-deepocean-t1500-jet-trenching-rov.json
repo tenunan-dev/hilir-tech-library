@@ -37,6 +37,51 @@
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
       "value": 3
+    },
+    {
+      "metric": "Maximum deployment water depth",
+      "unit": "m",
+      "basis": "\"The T1500+ is an advanced Jet Trenching ROV suitable for deployment in water depths to 500 m\"",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Subsea power system",
+      "unit": "hp",
+      "basis": "\"The system is the 1500 hp (1125 kW) subsea power system\"",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 1500
+    },
+    {
+      "metric": "Subsea power system (kW)",
+      "unit": "kW",
+      "basis": "\"1500 hp (1125 kW) subsea power system\"",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 1125
+    },
+    {
+      "metric": "Current performance",
+      "unit": "knots (up to)",
+      "basis": "\"up to 3.5 knots current performance\"",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 3.5
+    },
+    {
+      "metric": "Maximum burial capacity",
+      "unit": "m",
+      "basis": "\"3 m maximum burial capacity\"",
+      "source": {
+        "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
+      },
+      "value": 3
     }
   ],
   "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
@@ -45,6 +90,13 @@
       "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     }
   ],
-  "notes": "fetched",
-  "last_reviewed": "2026-11-24"
+  "notes": "fetched Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Full T1500+ specification sheet rows (dimensions, jetting flow/pressure, weight)",
+      "why": "Linked PDF not read",
+      "next_action": "Fetch linked T1500+ PDF via Jina for complete table"
+    }
+  ]
 }

@@ -1,0 +1,25 @@
+{
+  "id": "catpar-arielcorp-com-kbh-product-sheet-09-28-pdf-co-85b58ba",
+  "name": "arielcorp.com",
+  "url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/KBH_Product_Sheet_09.28.pdf.coredownload.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Arielcorp.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. 7,250 psig (500 barg) for trailer filling, hydrogen mobility, and other ..."
+}

@@ -17,6 +17,51 @@
         "source_id": "hitechelastomers-com-leg-mating-unit"
       },
       "value": "sand release valve lowers plunger assembly"
+    },
+    {
+      "metric": "Product type",
+      "unit": "n/a",
+      "basis": "An optional sand jack can be manufactured to release the loads on rubber elements",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/"
+      },
+      "value": "Leg Mating Unit with optional sand jack"
+    },
+    {
+      "metric": "Load capacity basis",
+      "unit": "n/a",
+      "basis": "Custom designed to take immense loads of topsides",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/"
+      },
+      "value": "Custom designed to take immense loads of topsides"
+    },
+    {
+      "metric": "Elastomer construction",
+      "unit": "n/a",
+      "basis": "LMU consists of vertical and horizontal rubber elements, especially those formulated to take immense loads with low creep",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/"
+      },
+      "value": "vertical and horizontal rubber elements formulated to take immense loads with low creep"
+    },
+    {
+      "metric": "Load release mechanism",
+      "unit": "n/a",
+      "basis": "Sand can be released from the sand release valve, which leads to the plunger assembly being lower, and loads on the rubber element are released.",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/"
+      },
+      "value": "Sand can be released from the sand release valve, which leads to the plunger assembly being lower, and loads on the rubber element are released"
+    },
+    {
+      "metric": "Application",
+      "unit": "n/a",
+      "basis": "Applications: Float-over operation; Installation of heavy topsides",
+      "source": {
+        "url": "https://hitechelastomers.com/products/leg-mating-unit/"
+      },
+      "value": "Float-over operation; Installation of heavy topsides"
     }
   ],
   "url": "https://hitechelastomers.com/products/leg-mating-unit/",
@@ -25,6 +70,13 @@
       "url": "https://hitechelastomers.com/products/leg-mating-unit/"
     }
   ],
-  "notes": "Vertical and horizontal rubber elements; optional stabbing cone.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Vertical and horizontal rubber elements; optional stabbing cone. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Load rating and dimensions",
+      "why": "Size charts section carried no numeric values; brochure PDF is image-only (278 characters of text).",
+      "next_action": "Request the project-specific LMU data sheet from the vendor."
+    }
+  ]
 }

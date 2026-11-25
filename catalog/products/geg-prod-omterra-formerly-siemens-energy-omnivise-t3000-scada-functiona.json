@@ -17,6 +17,74 @@
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
         "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
       }
+    },
+    {
+      "metric": "Installations worldwide",
+      "unit": "installations (nearly/more than)",
+      "basis": "\"decades of operational experience across nearly 4,000 installations\"; \"With more than 4,000 installations worldwide\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      },
+      "value": 4000
+    },
+    {
+      "metric": "Plants supported by services",
+      "unit": "plants (more than)",
+      "basis": "\"We support customers from more than 900 plants worldwide with high-quality remote and local services\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      },
+      "value": 900
+    },
+    {
+      "metric": "Remote Expert Centers experts",
+      "unit": "experts (more than 50)",
+      "basis": "\"Our Remote Expert Centers (REC) are home to more than 50 trained experts worldwide\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Cybersecurity certification",
+      "unit": "n/a",
+      "basis": "\"Omnivise T3000 is certified by TÜV SÜD according to IEC 62443 ... and is built for Security Level 3 (SL 3) readiness\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      }
+    },
+    {
+      "metric": "Release",
+      "unit": "Release 10.2",
+      "basis": "\"with Release 10.2 toward the EU Cyber Resilience Act (CRA)\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      },
+      "value": 10.2
+    },
+    {
+      "metric": "Simulator standard",
+      "unit": "n/a",
+      "basis": "\"The fully integrated, ANSI compliant T3000 Simulator expands the system's possibilities\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      }
+    },
+    {
+      "metric": "Integration standards",
+      "unit": "n/a",
+      "basis": "\"incorporates standards like IEC 61850 to integrate third-party systems and ensures secure operations through VPNs and data encryption\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      }
+    },
+    {
+      "metric": "SCADA functionality",
+      "unit": "n/a",
+      "basis": "\"a scalable SCADA system enables you to prepare for future opportunities and requirements like direct marketing or integration of hydropower\"",
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
+      }
     }
   ],
   "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
@@ -26,6 +94,13 @@
       "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 8 new printed parameters.",
+  "gaps": [
+    {
+      "what": "Scan cycle times, I/O counts and SCADA point capacities",
+      "why": "Not printed on the marketing page",
+      "next_action": "Fetch T3000 technical documentation for performance figures"
+    }
+  ]
 }

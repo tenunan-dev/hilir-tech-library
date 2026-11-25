@@ -147,6 +147,100 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "value": 2240
+    },
+    {
+      "metric": "Overall flow range of turbo compressors",
+      "unit": "m3/h (up to)",
+      "basis": "Howden: 'comprehensive range of Industrial Centrifugal Turbo Compressors up to 600,000 m3/h'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 600000
+    },
+    {
+      "metric": "Single-stage range (KK&K)",
+      "unit": "m3/h",
+      "basis": "Howden: 'model range serves applications requiring flows of between 3,000 m3/h and 600,000 m3/h with pressure ratios up to 3.5'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 3000,
+      "high": 600000
+    },
+    {
+      "metric": "Multistage range (KK&K / CKD)",
+      "unit": "m3/h",
+      "basis": "Howden: 'model range serves applications requiring flows of between 400 m3/h and 200,000 m3/h with pressure ratios up to 10.0'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "low": 400,
+      "high": 200000
+    },
+    {
+      "metric": "CKD discharge pressure",
+      "unit": "MPa (up to)",
+      "basis": "Howden CKD: 'flow requirements up to 1700,000 m3/h and discharge pressures of up to 20 MPa'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      },
+      "value": 20
+    },
+    {
+      "metric": "SF model flow / pressure ratio / impeller",
+      "unit": "text",
+      "basis": "Howden table: SF '15,000-600,000 m3/h; up to 3.5; impeller dia up to 2240 mm; electric or turbine'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "SFG model flow / pressure ratio / impeller",
+      "unit": "text",
+      "basis": "Howden table: SFG '5,000-300,000 m3/h; up to 3.5; impeller dia up to 1120 mm'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "ST model (integrated steam turbine)",
+      "unit": "text",
+      "basis": "Howden table: ST '1,500-150,000 m3/h; up to 3.5; impeller dia up to 900 mm; steam turbine (integrated)'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "SL model",
+      "unit": "text",
+      "basis": "Howden table: SL '15,000-450,000 m3/h; up to 1.45; impeller dia up to 1800 mm; coke oven gas'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "RS multistage model",
+      "unit": "text",
+      "basis": "Howden table: RS '400-65,000 m3/h; up to 10.0; impeller dia up to 700 mm'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "RV multistage model",
+      "unit": "text",
+      "basis": "Howden table: RV '400-85,000 m3/h; 400-170,000 (back-to-back)'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
+    },
+    {
+      "metric": "SFG Back-to-Back / Twin models",
+      "unit": "text",
+      "basis": "Howden table: SFG Back-to-Back '3,000-75,000 m3/h; up to 6.0; impeller up to 560 mm'; SFG Twin '3,000-200,000 m3/h; up to 6.0; impeller up to 900 mm'",
+      "source": {
+        "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
+      }
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
@@ -155,6 +249,6 @@
       "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     }
   ],
-  "notes": "Page states proven over 100 years and 4000 installations; standardized modular units; drivers electric motor or steam/gas turbine; controls via variable inlet guide vanes, variable diffuser guide vanes or speed control. Linked downloadable brochures are PDFs (not read).",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page states proven over 100 years and 4000 installations; standardized modular units; drivers electric motor or steam/gas turbine; controls via variable inlet guide vanes, variable diffuser guide vanes or speed control. Linked downloadable brochures are PDFs (not read). Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

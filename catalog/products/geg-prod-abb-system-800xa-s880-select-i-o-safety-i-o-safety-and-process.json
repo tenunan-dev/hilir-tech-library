@@ -17,6 +17,146 @@
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
         "source_id": "geg-search-abb-com-download-aspx-583c22e"
       }
+    },
+    {
+      "metric": "Safety integrity level certification",
+      "unit": "SIL 3",
+      "basis": "\"TÜV certified for SIL 3 operation according to IEC 61508 and IEC 61511\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "value": 3
+    },
+    {
+      "metric": "First release year",
+      "unit": "year",
+      "basis": "\"The ABB Ability™ System 800xA High Integrity safety system was released in 2005\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "value": 2005
+    },
+    {
+      "metric": "Experience in process safety systems",
+      "unit": "years (over)",
+      "basis": "\"ABB has over 40 years of experience in the design, manufacture and implementation of process safety systems\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Countries with installed safety systems",
+      "unit": "countries (more than)",
+      "basis": "\"For over 40 years, ABB has successfully delivered and installed safety systems in more than 55 countries worldwide\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "value": 55
+    },
+    {
+      "metric": "Applicable standards",
+      "unit": "n/a",
+      "basis": "\"designed, delivered and supported in accordance with ... IEC 61508, IEC 61511, IEC 62061, EN ISO 13849, NFPA 85 and NFPA 72\"; certified to IEC 61508 Edition 2 and IEC 61511-1",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      }
+    },
+    {
+      "metric": "PM857 controller I/O capacity",
+      "unit": "I/O points (up to)",
+      "basis": "\"The PM857 for up to 128 I/O points and the PM863 and PM867 when larger applications and more I/O is needed\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "value": 128
+    },
+    {
+      "metric": "Controller redundancy",
+      "unit": "Quad configuration (up to)",
+      "basis": "\"flexible redundancy schemes are available enable up to and including Quad configuration\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "value": 4
+    },
+    {
+      "metric": "Controller modules",
+      "unit": "n/a",
+      "basis": "\"combining a processor module with a safety module (i.e. PM857, PM863 and PM867 with a SM812 module)\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      }
+    },
+    {
+      "metric": "S880 I/O signal types",
+      "unit": "n/a",
+      "basis": "\"SIL3 compliant modules for safety critical applications including 4 - 20 mA analog inputs, 24 Vdc digital inputs and 24 Vdc digital outputs\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      }
+    },
+    {
+      "metric": "Select I/O Signal Conditioning Module field power",
+      "unit": "A",
+      "basis": "\"A SIL3 certified analog Input Signal Conditioning Module for 2/3/4-wire devices, capable of supplying 1.2 A field power is also available\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "value": 1.2
+    },
+    {
+      "metric": "Select I/O 3 A digital output",
+      "unit": "A",
+      "basis": "\"To reduce the need for ancillary hardware, a 3 A DO is available\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "value": 3
+    },
+    {
+      "metric": "SCM hazardous-area rating and temperature range",
+      "unit": "degC",
+      "basis": "\"rated for Zone 2/Class 1 Division 2 environments with extended temperature ranges (-40 - +70°C)\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "low": -40,
+      "high": 70
+    },
+    {
+      "metric": "ISASecure SSA level",
+      "unit": "Level 1",
+      "basis": "\"ABB has achieved ISASecure® System Security Assurance (SSA™) Level 1 certification for System 800xA version according to the IEC 62443 international cyber security standard\" (System 800xA 6.1.1 LTS versions)",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Sequence-of-events time stamping",
+      "unit": "millisecond accuracy",
+      "basis": "\"Time tagging events to millisecond accuracy for Sequence of Events (SOE)\"",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "value": 1
+    },
+    {
+      "metric": "TÜV Select I/O certificate",
+      "unit": "n/a",
+      "basis": "Certificate No. Z10 029902 0017 Rev.00, holder ABB AB Industrial Automation, dated 2020-01-27, valid until 2025-01-26, test report AV94025C (as printed in the overview)",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      }
+    },
+    {
+      "metric": "Publication date",
+      "unit": "n/a",
+      "basis": "Datasheet PDF 'System 800xA Safety - Overview', document 3BSE038820 en P, Copyright © 2025 ABB; Jina reported published time 2025-11-03",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      }
     }
   ],
   "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
@@ -26,6 +166,6 @@
       "source_id": "geg-search-abb-com-download-aspx-583c22e"
     }
   ],
-  "last_reviewed": "2026-11-25",
-  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep."
+  "last_reviewed": "2026-11-26",
+  "notes": "Product/catalogue record from a page read in the GEG plant WBS sweep. Full-parameter pass 2026-11-26: 16 new printed parameters."
 }

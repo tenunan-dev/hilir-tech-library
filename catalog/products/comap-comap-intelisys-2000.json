@@ -27,6 +27,60 @@
         "source_id": "comap-control-com-controllers-paralleling-gen-set-controllers"
       },
       "value": "EN 50549-1/-2, VDE-AR-N 4105/4110, TOR A/B"
+    },
+    {
+      "metric": "Product family",
+      "unit": "n/a",
+      "basis": "InteliSys — Show all 3",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
+      },
+      "value": "InteliSys (3 models: InteliSys 2000, InteliSys NTC BaseBox, InteliSys Gas)"
+    },
+    {
+      "metric": "Application",
+      "unit": "n/a",
+      "basis": "Tailored for various power generation applications, including gas gensets and cogeneration heat-power setups",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
+      },
+      "value": "gas gensets and cogeneration heat-power (CHP) setups"
+    },
+    {
+      "metric": "Capabilities",
+      "unit": "n/a",
+      "basis": "ensures cutting-edge performance with unrivalled PLC resources, modular expandability, and control algorithm flexibility",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
+      },
+      "value": "unrivalled PLC resources, modular expandability, control algorithm flexibility, extensive communication capabilities"
+    },
+    {
+      "metric": "Compliance",
+      "unit": "n/a",
+      "basis": "developed in line with the latest market trends, grid code standards, and security protocols",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
+      },
+      "value": "developed in line with the latest market trends, grid code standards, and security protocols"
+    },
+    {
+      "metric": "Controller function",
+      "unit": "n/a",
+      "basis": "What Is a Paralleling Gen-set Controller? section",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
+      },
+      "value": "paralleling control: synchronises voltage, frequency and phase; kW and kVAr load sharing; island-to-parallel transitions"
+    },
+    {
+      "metric": "Remote monitoring",
+      "unit": "n/a",
+      "basis": "Remote control and monitoring with WebSupervisor",
+      "source": {
+        "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
+      },
+      "value": "WebSupervisor cloud-based online management service"
     }
   ],
   "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",
@@ -35,6 +89,13 @@
       "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
     }
   ],
-  "notes": "Multi-ECU, Modbus master, 3 voltage sensing points",
-  "last_reviewed": "2026-11-24"
+  "notes": "Multi-ECU, Modbus master, 3 voltage sensing points Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Electrical ratings (voltage/current/frequency) of InteliSys 2000",
+      "why": "Not printed on the category page read",
+      "next_action": "Fetch the dedicated InteliSys 2000 datasheet from ComAp documentation"
+    }
+  ]
 }

@@ -139,6 +139,308 @@
         "source_id": "cswoffshore-com-solutions-monopiles"
       },
       "value": "1,000-3,500"
+    },
+    {
+      "metric": "Monopile length",
+      "unit": "m (up to)",
+      "basis": "Sif: 'tubular steel structures reach up to 120 metres in length'; 'Monopiles until 120 metres in length'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      },
+      "value": 120
+    },
+    {
+      "metric": "Monopile diameter",
+      "unit": "m",
+      "basis": "Sif: 'measure 11 metres in diameter'; 'Monopiles until 11 metres in diameter'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      },
+      "value": 11
+    },
+    {
+      "metric": "Maximum wall thickness",
+      "unit": "mm",
+      "basis": "Sif: 'Maximum wall thickness 160 mm'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      },
+      "value": 160
+    },
+    {
+      "metric": "Maximum weight (paragraph)",
+      "unit": "tonnes (maximum each, as printed in paragraph)",
+      "basis": "Sif paragraph: 'weigh a maximum of 2,000 tonnes each'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      },
+      "value": 2000
+    },
+    {
+      "metric": "Maximum weight (statistic block - conflicting)",
+      "unit": "tonnes (> as printed in statistics block)",
+      "basis": "Sif statistics block: 'Maximum weight > 2500 tonnes' — preserved as a conflict with the 2,000 tonne paragraph figure",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      },
+      "value": 2500
+    },
+    {
+      "metric": "Variants",
+      "unit": "text",
+      "basis": "Sif: 'We supply both traditional monopiles with transition pieces and TP-less monopiles.'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      }
+    },
+    {
+      "metric": "Track record",
+      "unit": "text",
+      "basis": "Sif: 'over 2,600 monopiles produced ... contracts for more than 2,900 foundations ... 55 wind farms ... 22.7 GW of installed offshore capacity'",
+      "source": {
+        "url": "https://sif-group.com/products-services/monopiles"
+      }
+    },
+    {
+      "metric": "Monopile - steel pipe diameter",
+      "unit": "m (approximately 5-6 m and up to 13+ m)",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 5,
+      "high": 13
+    },
+    {
+      "metric": "Monopile - length",
+      "unit": "m (20 m to more than 120 m)",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 20,
+      "high": 120
+    },
+    {
+      "metric": "Monopile - weight",
+      "unit": "tonnes",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 1000,
+      "high": 3500
+    },
+    {
+      "metric": "Regular monopile diameter",
+      "unit": "m",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 5,
+      "high": 6
+    },
+    {
+      "metric": "XL monopile diameter",
+      "unit": "m",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 6,
+      "high": 8
+    },
+    {
+      "metric": "XXL monopile diameter",
+      "unit": "m",
+      "basis": "CS WIND Offshore 'Monopiles' solutions page; no print date stated",
+      "source": {
+        "url": "https://www.cswoffshore.com/solutions/monopiles"
+      },
+      "low": 8,
+      "high": 13
+    },
+    {
+      "metric": "IQ2 blow energy",
+      "unit": "kJ",
+      "basis": "IQ-series leaflet: blow energy kJ 3600 (IQ2)",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "value": 3600
+    },
+    {
+      "metric": "IQ4 blow energy",
+      "unit": "kJ",
+      "basis": "IQ-series leaflet: blow energy kJ 4800 (IQ4)",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "value": 4800
+    },
+    {
+      "metric": "IQ6 blow energy",
+      "unit": "kJ",
+      "basis": "The IQ6 was until recently the world's most powerful impact hammer with a maximum blow energy of 6,600 kJ.",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "value": 6600
+    },
+    {
+      "metric": "IQ-series models",
+      "unit": "n/a",
+      "basis": "The IQ-series comes in 4 models: the IQ2, IQ4, IQ6 and IQ8.",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "value": "IQ2, IQ4, IQ6, IQ8"
+    },
+    {
+      "metric": "Continuous operation",
+      "unit": "n/a",
+      "basis": "The IQ-series can be used continuously with a 100% capacity.",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "value": "100% energy capacity"
+    },
+    {
+      "metric": "Power boost",
+      "unit": "%",
+      "basis": "Unleash up to 120% power for challenging conditions.",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": 120
+    },
+    {
+      "metric": "Operating angle",
+      "unit": "deg",
+      "basis": "Full energy output in nearly all positions (0–90 degrees)",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "low": 0,
+      "high": 90
+    },
+    {
+      "metric": "Sleeve size",
+      "unit": "m",
+      "basis": "Sleeves available up to 9.3 m for the largest monopiles.",
+      "source": {
+        "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
+      },
+      "high": 9.3
+    },
+    {
+      "metric": "Installed piles",
+      "unit": "n/a",
+      "basis": "INSTALLED OVER 5,5 Million piles globally",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": "5,5 Million piles globally"
+    },
+    {
+      "metric": "Industry experience",
+      "unit": "years",
+      "basis": "INDUSTRY EXPERIENCE 40+ Years",
+      "source": {
+        "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Experience in offshore wind",
+      "unit": "years",
+      "basis": "Key Facts: > 15 years of experience in offshore wind",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 15
+    },
+    {
+      "metric": "Monopiles produced",
+      "unit": "count",
+      "basis": "Key Facts: > 2200 monopiles already produced",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 2200
+    },
+    {
+      "metric": "Offshore wind projects supplied",
+      "unit": "count",
+      "basis": "Key Facts: > 80 offshore wind projects supplied with EEW foundations and components",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 80
+    },
+    {
+      "metric": "USA monopile plant capacity",
+      "unit": "monopiles/year",
+      "basis": "100 monopiles a year will be manufactured in 2024 at full production capacity",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 100
+    },
+    {
+      "metric": "Atlantic Shores Offshore Wind Project 1",
+      "unit": "GW",
+      "basis": "EEW has already been awarded the 1.5 GW Atlantic Shores Offshore Wind Project 1",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 1.5
+    },
+    {
+      "metric": "US wind target by 2030",
+      "unit": "GW",
+      "basis": "By 2030, the USA wants to cover 20% of the national energy demand with clean wind energy. For this purpose, 300 GW of wind energy will be generated.",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 300
+    },
+    {
+      "metric": "Wind share of European electricity generation",
+      "unit": "%",
+      "basis": "Wind energy already accounts for 15% of electricity generation in Europe",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 15
+    },
+    {
+      "metric": "Asian offshore wind planned capacity to 2030",
+      "unit": "GW",
+      "basis": "The planned capacity of Asian offshore wind energy is approximately 30 GW until 2030",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Products",
+      "unit": "n/a",
+      "basis": "Product Portfolio for Offshore Wind list",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": "Monopiles; pipes for jacket components; piles for offshore wind; components for floating structures"
+    },
+    {
+      "metric": "Facilities",
+      "unit": "n/a",
+      "basis": "Our Facilities list (EEW Group, EEW SPC, EEW PPE, EEW Korea, EEW KHPC, EEW Malaysia)",
+      "source": {
+        "url": "https://eew-group.com/offshore-wind"
+      },
+      "value": "Erndtebrueck, Rostock, Sacheon, Gwangyang, Pasir Gudang"
     }
   ],
   "vendors": [
@@ -166,5 +468,5 @@
     "Displacement piles installed by hammer or vibrator, transferring load by end bearing and shaft friction to deeper competent strata; used where soft near-surface"
   ],
   "notes": "Page-read evidence from the 2026-11-24 civil-structural.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

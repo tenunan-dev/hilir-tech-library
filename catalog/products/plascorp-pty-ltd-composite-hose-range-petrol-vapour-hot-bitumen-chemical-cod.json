@@ -90,6 +90,105 @@
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
       "high": 1.0
+    },
+    {
+      "metric": "Code 1000 standard petrol hose working pressure",
+      "unit": "kPa at 20 deg C",
+      "basis": "Plascorp table: Petrol Hose STD, Code 1000, Type 1/Grade 3/Kind 1, AS 2683-2000, working pressure 700 kPa across sizes 1-6 in",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      },
+      "value": 700
+    },
+    {
+      "metric": "Code 901 heavy duty petrol hose working pressure",
+      "unit": "kPa at ambient temperature",
+      "basis": "Plascorp table: Petrol Hose HD Code 901 — 1400 kPa for 3/4-1 1/2 in, 1000 kPa for 2-6 in",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      },
+      "low": 1000,
+      "high": 1400
+    },
+    {
+      "metric": "Code 1003 lightweight petrol hose working pressure",
+      "unit": "kPa at ambient temperature",
+      "basis": "Plascorp table: Petrol Hose LW Code 1003 — 600 kPa (2 1/2 in), 500 kPa (3 in), 400 kPa (4 in)",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      },
+      "low": 400,
+      "high": 600
+    },
+    {
+      "metric": "Code VRH vapour recovery hose working pressure",
+      "unit": "kPa at ambient temperature",
+      "basis": "Plascorp table: Vapour Recovery Hose Code VRH — 400 kPa at 4 in",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      },
+      "value": 400
+    },
+    {
+      "metric": "Code 966 hot bitumen hose working pressure",
+      "unit": "kPa at ambient temperature",
+      "basis": "Plascorp table: Hot Bitumen Hose Code 966, AS 2475 — 700 kPa for 3/4-1 1/2 in, 600 kPa 2 in, 500 kPa 2 1/2 in",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      },
+      "low": 500,
+      "high": 700
+    },
+    {
+      "metric": "Temperature range (code 1000)",
+      "unit": "deg C",
+      "basis": "Plascorp: 'Code 1000 ... Temperature Range: -30ºC to +80ºC'; Code 901 same range",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      },
+      "low": -30,
+      "high": 80
+    },
+    {
+      "metric": "Grade aromatic hydrocarbon limits",
+      "unit": "text",
+      "basis": "Plascorp: 'Grade 1 hose is suitable for fuels containing up to 30% aromatic hydrocarbon content; Grade 2 ... up to 50%; Grade 3 ... over 50%'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      }
+    },
+    {
+      "metric": "Electrical resistance kind 1",
+      "unit": "ohm/m (not greater than)",
+      "basis": "Plascorp: 'Kind 1 hose has an electrical resistance not greater than 1.0 ohm/m'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      },
+      "value": 1
+    },
+    {
+      "metric": "Type definitions",
+      "unit": "text",
+      "basis": "Plascorp: 'Type 1 hose is designed for suction and discharge and to be non-collapsible. Type 2 hose is designed for discharge only and to be non-collapsible.'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      }
+    },
+    {
+      "metric": "Code 1000 construction",
+      "unit": "text",
+      "basis": "Plascorp: 'Internal wire: Galvanised steel; External wire: Galvanised steel'; 'Colour: Green with yellow stripe'; 'suitable for road and rail tankers'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      }
+    },
+    {
+      "metric": "Conforming standards",
+      "unit": "text",
+      "basis": "Plascorp petrol hose range: 'AS 2683-2000'; hot bitumen hose: 'AS 2475'",
+      "source": {
+        "url": "https://www.plascorp.com.au/products/composite-hoses"
+      }
     }
   ],
   "url": "https://www.plascorp.com.au/products/composite-hoses",
@@ -98,6 +197,13 @@
       "url": "https://www.plascorp.com.au/products/composite-hoses"
     }
   ],
-  "notes": "APAC supplier; AS 2683-2000 / AS 2594-1983 / AS 2475 standards as printed. Assembly testing per page: hydrostatic and electrical, AS 2683 / AS 2594 / AS 1180.",
-  "last_reviewed": "2026-11-24"
+  "notes": "APAC supplier; AS 2683-2000 / AS 2594-1983 / AS 2475 standards as printed. Assembly testing per page: hydrostatic and electrical, AS 2683 / AS 2594 / AS 1180. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Full pressure tables for chemical/bitumen codes 951/952/969/ASS/2200",
+      "why": "Only part of the multi-code table was transcribed from the fetched page; remaining rows not captured",
+      "next_action": "Re-read the full composite hose page and transcribe all remaining code rows"
+    }
+  ]
 }

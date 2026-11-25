@@ -17,6 +17,14 @@
         "source_id": "sys-yokogawa-com"
       },
       "value": 920
+    },
+    {
+      "metric": "Product families listed",
+      "unit": "text",
+      "basis": "Yokogawa page navigation: 'Distributed Control System (DCS)', 'Safety Instrumented System (SIS)', '920 MHz Wireless Data Acquisition', 'Field Wireless'",
+      "source": {
+        "url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
+      }
     }
   ],
   "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
@@ -25,6 +33,13 @@
       "url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
     }
   ],
-  "notes": "Catalogue-level confirmation of product families; individual model specifications not retrieved.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Catalogue-level confirmation of product families; individual model specifications not retrieved. Full-parameter pass 2026-11-26: 1 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "CENTUM VP/SIS/Field Wireless technical parameters",
+      "why": "Requested URL redirected to a generic Yokogawa solutions page (final URL https://www.yokogawa.com/solutions/solutions/); only product-family names appear in navigation",
+      "next_action": "Fetch the dedicated CENTUM VP, ProSafe-RS and 920 MHz wireless product pages"
+    }
+  ]
 }

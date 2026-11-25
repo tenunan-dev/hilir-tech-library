@@ -17,6 +17,14 @@
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
       "value": "world's largest barge (Heerema claim)"
+    },
+    {
+      "metric": "Barge distinction",
+      "unit": "text",
+      "basis": "Heerema fleet: 'Including the H-851, the world's largest barge.' Used for 'transportation, jacket launch, and floatover use.'",
+      "source": {
+        "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
+      }
     }
   ],
   "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
@@ -25,6 +33,13 @@
       "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     }
   ],
-  "notes": "Used for transportation, jacket launch and floatover; used for Wheatstone/Arkutun Dagi single-lift topsides load-in per Wikipedia.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Used for transportation, jacket launch and floatover; used for Wheatstone/Arkutun Dagi single-lift topsides load-in per Wikipedia. Full-parameter pass 2026-11-26: 1 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "H-851 dimensions, deck area, carrying capacity and hook capacity",
+      "why": "Fleet overview names the barge but gives no dimensions; equipment brochure not read",
+      "next_action": "Fetch Heerema equipment brochure or dedicated H-851 page"
+    }
+  ]
 }

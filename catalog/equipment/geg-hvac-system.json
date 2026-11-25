@@ -93,6 +93,159 @@
         "url": "https://dunham-bush.com/our-products/",
         "source_id": "geg-dunham-bush-com-a2dd740"
       }
+    },
+    {
+      "metric": "Water-cooled chiller model series",
+      "unit": "n/a",
+      "basis": "Listed DCLC, WCM, WCFX, WCHX, WCS (\"screw, centrifugal and scroll range\")",
+      "source": {
+        "url": "https://dunham-bush.com/our-products/"
+      }
+    },
+    {
+      "metric": "Air-cooled chiller model series",
+      "unit": "n/a",
+      "basis": "Listed ACM, AVX, ACHX, ACDS (\"screw and scroll range\")",
+      "source": {
+        "url": "https://dunham-bush.com/our-products/"
+      }
+    },
+    {
+      "metric": "Heat pump model series",
+      "unit": "n/a",
+      "basis": "Listed WCFXE-HP, ACX-HP, WCS-HP, ACDS-HP",
+      "source": {
+        "url": "https://dunham-bush.com/our-products/"
+      }
+    },
+    {
+      "metric": "Airside products",
+      "unit": "n/a",
+      "basis": "\"Air Handling Unit\" and \"Fan Coil Unit\" listed under Airside; \"comprehensive range of AHRI certified airside equipment\"",
+      "source": {
+        "url": "https://dunham-bush.com/our-products/"
+      }
+    },
+    {
+      "metric": "Company founding year",
+      "unit": "year",
+      "basis": "\"Founded in the USA in 1894, Dunham-Bush is one of the oldest global commercial air conditioning products manufacturers\"",
+      "source": {
+        "url": "https://dunham-bush.com/our-products/"
+      },
+      "value": 1894
+    },
+    {
+      "metric": "Air flow range",
+      "unit": "CFM",
+      "basis": "AIR FLOW RANGE : 1800 ~ 5900 CFM",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "low": 1800,
+      "high": 5900
+    },
+    {
+      "metric": "Model DS-0707 airflow variants",
+      "unit": "CFM",
+      "basis": "AHU Model DS-0707 three variants: Airflow CFM 1838, 2327, 2989",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "value": "1838 / 2327 / 2989"
+    },
+    {
+      "metric": "Model DS0709 / DS0810 / DS-0912 airflow",
+      "unit": "CFM",
+      "basis": "DS0709 3536; DS0810 4443; DS-0912 5910 CFM",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "value": "3536 / 4443 / 5910"
+    },
+    {
+      "metric": "Second-stage DX cooling air off coil",
+      "unit": "degC",
+      "basis": "utilize second stage DX cooling to achieve the air off coil of 7-8 degoC",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "low": 7,
+      "high": 8
+    },
+    {
+      "metric": "Traditional CHW entering temperature",
+      "unit": "degC",
+      "basis": "Low CHW Ent : 5.0-5.5 ºC",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "low": 5.0,
+      "high": 5.5
+    },
+    {
+      "metric": "New CHW entering temperature",
+      "unit": "degC",
+      "basis": "Normal CHW Ent : 7.0 ºC",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "value": 7.0
+    },
+    {
+      "metric": "Room condition RH",
+      "unit": "%",
+      "basis": "Room RH = 50%±5",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "value": 50
+    },
+    {
+      "metric": "Room condition temperature",
+      "unit": "degC",
+      "basis": "Room Temp = 18ºC±2",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "value": 18
+    },
+    {
+      "metric": "Energy savings",
+      "unit": "n/a",
+      "basis": "27% kW savings (Hybrid AHU vs traditional method)",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "value": "27%"
+    },
+    {
+      "metric": "Potential energy savings",
+      "unit": "%",
+      "basis": "Potential savings of 25-40% on energy on a 3000 CFM OT room AHU",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "low": 25,
+      "high": 40
+    },
+    {
+      "metric": "Unit dimensions DS-0912",
+      "unit": "mm",
+      "basis": "Dimensions LxWxH, mm: 5480 x 2120 x 1440 (DS-0912)",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "value": "5480 x 2120 x 1440"
+    },
+    {
+      "metric": "Insulation",
+      "unit": "n/a",
+      "basis": "Environmental friendly ODP=0 PU insulation",
+      "source": {
+        "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
+      },
+      "value": "ODP=0 PU insulation"
     }
   ],
   "vendor_models": [
@@ -159,5 +312,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

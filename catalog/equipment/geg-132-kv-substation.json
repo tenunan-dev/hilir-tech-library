@@ -185,6 +185,224 @@
         "url": "https://en.sieyuan.com/cases/saudi-sec-132kv-mobile-substation",
         "source_id": "gef-en-sieyuan-com-saudi-sec-132kv-mobile-substa-6bd1492"
       }
+    },
+    {
+      "metric": "Product ID",
+      "unit": "n/a",
+      "basis": "Product ID 2GHV010550M0001",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": "2GHV010550M0001"
+    },
+    {
+      "metric": "Rated voltage",
+      "unit": "kV",
+      "basis": "Rated voltage kV 145",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 145
+    },
+    {
+      "metric": "Power-frequency withstand voltage",
+      "unit": "kV",
+      "basis": "Rated short-duration power-frequency withstand voltage kV 275",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 275
+    },
+    {
+      "metric": "Power-frequency withstand across isolating distance",
+      "unit": "kV",
+      "basis": "Rated short-duration power-frequency withstand voltage across isolating distance kV 315",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 315
+    },
+    {
+      "metric": "Lightning impulse withstand voltage",
+      "unit": "kV",
+      "basis": "Rated lightning impulse withstand voltage kV 650",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 650
+    },
+    {
+      "metric": "Lightning impulse across isolating distance",
+      "unit": "kV",
+      "basis": "Rated lightning impulse withstand voltage across isolating distance kV 750",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 750
+    },
+    {
+      "metric": "Rated frequency",
+      "unit": "Hz",
+      "basis": "Rated frequency Hz 50/60",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": "50/60"
+    },
+    {
+      "metric": "Rated normal current",
+      "unit": "A",
+      "basis": "Rated normal current 3150",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 3150
+    },
+    {
+      "metric": "Rated short-time withstand current",
+      "unit": "kA",
+      "basis": "Rated short-time withstand current kA 40",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Rated duration of short-circuit",
+      "unit": "s",
+      "basis": "Rated duration of short-circuit 3",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Rated peak withstand current",
+      "unit": "kA",
+      "basis": "Rated peak withstand current kA 108",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 108
+    },
+    {
+      "metric": "Installation",
+      "unit": "n/a",
+      "basis": "Installation: Indoor/outdoor",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": "Indoor/outdoor"
+    },
+    {
+      "metric": "Filling pressure / min functional pressure",
+      "unit": "MPa abs at 20 °C",
+      "basis": "Rated filling pressure / minimum functional pressure (abs. at 20 °C) MPa 0.68/0.60",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": "0.68/0.60"
+    },
+    {
+      "metric": "Short-circuit breaking current",
+      "unit": "kA",
+      "basis": "Rated short-circuit breaking current, 50/60 Hz kA 40",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Short-circuit making current peak",
+      "unit": "kA",
+      "basis": "Rated short-circuit making current, peak value kA 108",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 108
+    },
+    {
+      "metric": "Opening time",
+      "unit": "ms",
+      "basis": "Rated opening time ms 26 ... 35",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "low": 26,
+      "high": 35
+    },
+    {
+      "metric": "Closing time",
+      "unit": "ms",
+      "basis": "Rated closing time ms 45 ... 55",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "low": 45,
+      "high": 55
+    },
+    {
+      "metric": "Reclosing time",
+      "unit": "ms",
+      "basis": "Reclosing time ms < 300",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "high": 300
+    },
+    {
+      "metric": "Rated operating sequence",
+      "unit": "n/a",
+      "basis": "Rated operating sequence O - 0.3s - CO - 3min - CO",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": "O - 0.3s - CO - 3min - CO"
+    },
+    {
+      "metric": "Mechanical operations class",
+      "unit": "n/a",
+      "basis": "Number of mechanical operations class M2",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": "M2"
+    },
+    {
+      "metric": "Capacitive switching class",
+      "unit": "n/a",
+      "basis": "Rated capacitive switching currents class C2",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": "C2"
+    },
+    {
+      "metric": "Capacitive current switching capability",
+      "unit": "mA",
+      "basis": "Capacitive current switching capability mA 500",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Bus-transfer current / voltage",
+      "unit": "A / kV",
+      "basis": "Rated bus-transfer current / rated bus-transfer voltage 1600/30",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": "1600/30"
+    },
+    {
+      "metric": "Electrical endurance class",
+      "unit": "n/a",
+      "basis": "Classification for electrical endurance class E1",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "value": "E1"
     }
   ],
   "vendor_models": [],
@@ -263,5 +481,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

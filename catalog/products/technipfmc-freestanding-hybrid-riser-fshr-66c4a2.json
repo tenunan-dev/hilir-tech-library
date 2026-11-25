@@ -17,6 +17,22 @@
         "source_id": "cat-technipfmc-com-flexible-pipes"
       },
       "value": "Vertical steel pipe tensioned by near-surface buoyancy can; flexible jumper to platform; seabed foundation; rigid base jumper to PLET"
+    },
+    {
+      "metric": "Flexible pipe construction",
+      "unit": "text",
+      "basis": "TechnipFMC: 'A flexible pipe is made up of several different layers. The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires. The helically wound steel wires give the structure its high-pressure resistance and excellent bending characteristics'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
+      }
+    },
+    {
+      "metric": "Design philosophy",
+      "unit": "text",
+      "basis": "TechnipFMC: 'modular construction where the layers are independent but designed to interact with one another ... each layer can be made fit-for-purpose'; 'flexible pipe can be easily retrieved to be reused on another field development or for decommissioning'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
+      }
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
@@ -25,6 +41,13 @@
       "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     }
   ],
-  "notes": "Descriptive HTML only; no numeric specification printed.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Descriptive HTML only; no numeric specification printed. Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "FSHR-specific dimensions, water depth, pressure and temperature ratings",
+      "why": "Fetched URL is the generic flexible-pipes page; no FSHR data table",
+      "next_action": "Find a dedicated Freestanding Hybrid Riser datasheet"
+    }
+  ]
 }

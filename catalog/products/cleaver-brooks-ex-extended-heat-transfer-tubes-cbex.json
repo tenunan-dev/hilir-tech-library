@@ -17,6 +17,125 @@
       },
       "unit": "%",
       "value": 85
+    },
+    {
+      "metric": "steam_pressure_max",
+      "unit": "psig",
+      "basis": "Product page header: Steam up to 300 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": 300
+    },
+    {
+      "metric": "hot_water_pressure_max",
+      "unit": "psig",
+      "basis": "Product page header: Hot water up to 125 psig",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": 125
+    },
+    {
+      "metric": "boiler_horsepower",
+      "unit": "HP",
+      "basis": "Product page header: 100 to 2,500 HP; Attributes: Boiler Horsepower 100 - 2,500 (CBEX-2W), 250 - 800 (CBEX-2D), 250 - 800 (CBEX-3W)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "low": 100,
+      "high": 2500
+    },
+    {
+      "metric": "input_capacity",
+      "unit": "not stated",
+      "basis": "Attributes: Input Capacity 4,000 - 102,000 (unit not printed on page)",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "low": 4000,
+      "high": 102000
+    },
+    {
+      "metric": "number_of_passes",
+      "unit": "n/a",
+      "basis": "Product page header: 2 Pass and 3 Pass; Attributes: Number Of Passes 2 and 3",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "2 and 3"
+    },
+    {
+      "metric": "fuel",
+      "unit": "n/a",
+      "basis": "Product page header and Attributes: Fuel Gas, #2 Oil, Combination",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "Natural gas/propane, #2 light oil, combination"
+    },
+    {
+      "metric": "NOx_emissions_by_model",
+      "unit": "ppm",
+      "basis": "Attributes: Emissions (ppm NOx) - printed per model",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "<5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)"
+    },
+    {
+      "metric": "NOx_without_SCR",
+      "unit": "ppm",
+      "basis": "Sub 5 ppm NOx without SCR available on most models; can burn renewable fuels and meets lowest possible emissions of <5 ppm NOx, <10 ppm CO without SCR",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 5
+    },
+    {
+      "metric": "CO_emission",
+      "unit": "ppm",
+      "basis": "Meets 10 ppm CO requirement; <10 ppm CO without SCR",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "high": 10
+    },
+    {
+      "metric": "turndown_ratio",
+      "unit": "to 1",
+      "basis": "Offers 30 ppm NOx with 3% O2 across the 10:1 turndown range",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": 10
+    },
+    {
+      "metric": "heat_transfer_increase",
+      "unit": "%",
+      "basis": "Extended heat transfer tubes only found in EX systems uses CFD calculations to optimize the geometry of the tube and increase heat transfer by 85%",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": 85
+    },
+    {
+      "metric": "vessel_design",
+      "unit": "n/a",
+      "basis": "Attributes: Vessel Design Firetube",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "Firetube"
+    },
+    {
+      "metric": "waterback_dryback",
+      "unit": "n/a",
+      "basis": "Product page header: Waterback or Dryback design; two-pass waterback or dryback design",
+      "source": {
+        "url": "https://cleaverbrooks.com/product/cbex"
+      },
+      "value": "Waterback or Dryback design"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cbex",
@@ -25,6 +144,6 @@
       "url": "https://cleaverbrooks.com/product/cbex"
     }
   ],
-  "notes": "Fetched CBEX product page directly with WebFetch (markdown). Tube design is described within the boiler page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Fetched CBEX product page directly with WebFetch (markdown). Tube design is described within the boiler page. Full-parameter pass 2026-11-26: 13 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

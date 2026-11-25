@@ -238,6 +238,244 @@
         "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
         "source_id": "geg-slyinc-com-wetscrubber-pdf-4ffbda4"
       }
+    },
+    {
+      "metric": "Air flow",
+      "unit": "CFM (up to)",
+      "basis": "APZEM SOX Scrubber technical specification: 'Air Flow: upto 70,000 CFM'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      },
+      "value": 70000
+    },
+    {
+      "metric": "Capturing efficiency",
+      "unit": "% (up to)",
+      "basis": "APZEM: 'Efficiency : upto 99.99% capturing efficiency'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      },
+      "value": 99.99
+    },
+    {
+      "metric": "Materials of construction",
+      "unit": "text",
+      "basis": "APZEM: 'MOC: Mild Steel / SS 304 / SS316 / FRP / PP / PVC'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Finish",
+      "unit": "text",
+      "basis": "APZEM: 'Finish: Powder coated / Matt finish'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Power option",
+      "unit": "text",
+      "basis": "APZEM: 'Power option : 3 Phase.'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Operating modes",
+      "unit": "text",
+      "basis": "APZEM: 'This scrubber system can operate in a continuous open loop, closed loop and during a predetermined period, be switched to operate as a zero-discharge system. Seawater is used to cool the scrubber water in circulation.'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Standards / certification",
+      "unit": "text",
+      "basis": "APZEM: 'All Apzem Products are designed to comply with ACGIH and OSHA standards as well as local PCB Standards.'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Contaminants removed",
+      "unit": "text",
+      "basis": "APZEM: 'H2S, HCl, HF, HBr; HCN, HNO3, NH3; Formic acid, Chromic acid; SO2, Cl2, F2, Br2, BCl3, BF3; Formaldehyde, Ethylene compounds; Soluble alcohols, acids; VOCs'",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Impinjet capacity range",
+      "unit": "CFM (over)",
+      "basis": "Sly Wet Scrubber Application Guide: 'Capacities range from 500 to over 100,000 CFM.'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      },
+      "low": 500,
+      "high": 100000
+    },
+    {
+      "metric": "Impinjet water requirement",
+      "unit": "GPM per 1,000 ACFM",
+      "basis": "Sly: 'water requirements vary from less than 1-1/2 GPM per 1,000 ACFM to a typical 3 GPM per 1,000 ACFM'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      },
+      "low": 1.5,
+      "high": 3
+    },
+    {
+      "metric": "Impinjet particulate efficiency",
+      "unit": "%",
+      "basis": "Sly: '98+% collection efficiency for particles 5 microns in size or larger'; 'efficiencies in excess of 99% on many types of dust or gases'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      },
+      "low": 98,
+      "high": 99
+    },
+    {
+      "metric": "Gas velocity through plate holes",
+      "unit": "feet/second",
+      "basis": "Sly: 'Gas velocities of 60 to 75 feet/second through the holes result in thousands of jets which atomize the liquid into droplets on the order of 100 microns in diameter'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      },
+      "low": 60,
+      "high": 75
+    },
+    {
+      "metric": "Maximum Impinjet shell velocity for sizing",
+      "unit": "feet/minute",
+      "basis": "Sly: 'For Impinjet scrubbers, the maximum capacity is based on shell velocity of 500 feet per minute.'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      },
+      "value": 500
+    },
+    {
+      "metric": "Outlet gas cooling",
+      "unit": "deg F above incoming liquid",
+      "basis": "Sly: 'The outlet gas can be cooled to less than 5°F above the temperature of the incoming liquid.'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Documented case: hazardous vapours",
+      "unit": "text",
+      "basis": "Sly case study: 'The system handles 2,500 CFM. Efficiencies exceeding 95% are reported.'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Documented case: medical waste incinerator",
+      "unit": "text",
+      "basis": "Sly: '7258 CFM of gas at 1800°F from a 100 lb. per hour incinerator is handled by this skid-mounted wet gas scrubber'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Documented case: eductor/packed tower",
+      "unit": "text",
+      "basis": "Sly: 'stainless steel construction, designed for 500 CFM'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Volume correction example",
+      "unit": "text",
+      "basis": "Sly: '10,000 ACFM @ 450°F containing 0.15# H2O/# dry air. The chart shows a correction factor of 0.75... 7500 ACFM ... Diameter = 4.37 ft'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Scrubber types",
+      "unit": "text",
+      "basis": "Sly: 'Three Types of Wet Scrubbers To Remove Vapors, Gases and Particulate: Impingement Plate, Venturi, Eductor Venturi'",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "SULFURIX - single-stage sulfide removal",
+      "unit": "% (in general, about 80-95%)",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "low": 80,
+      "high": 95
+    },
+    {
+      "metric": "SULFURIX - two-stage combined removal efficiency",
+      "unit": "% (more than 99% in many cases)",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "value": 99
+    },
+    {
+      "metric": "SULFURIX - feed H2S concentration suitability",
+      "unit": "% (particularly suitable for H2S rich biogas >1%)",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "value": 1
+    },
+    {
+      "metric": "SULFURIX - standard tower heights",
+      "unit": "m (approximately 20-30 ft)",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "low": 6,
+      "high": 9
+    },
+    {
+      "metric": "SULFURIX - biogas flow range",
+      "unit": "m3/h (100 to >1000 m3/h; about 60 to >600 scfm)",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "low": 100,
+      "high": 1000
+    },
+    {
+      "metric": "SULFURIX - assumed wash liquid conditions",
+      "unit": "n/a",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "value": "Activated sludge at pH 7.3 and 30 degC (standard conditions)"
+    },
+    {
+      "metric": "SULFURIX - construction materials",
+      "unit": "n/a",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "value": "Corrosion-proof anti-static HDPE and polyester"
+    },
+    {
+      "metric": "SULFURIX - pressure loss / blower requirement",
+      "unit": "n/a",
+      "basis": "GWE 'SULFURIX(TM) Wet Biogas Scrubber for H2S Removal' technology page; no print date stated",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      },
+      "value": "Minimal pressure loss; typically no biogas blowers required"
     }
   ],
   "vendor_models": [
@@ -310,5 +548,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

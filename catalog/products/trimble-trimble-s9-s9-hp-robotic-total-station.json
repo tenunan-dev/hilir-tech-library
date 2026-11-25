@@ -27,6 +27,87 @@
         "source_id": "geospatial-trimble-com-hardware-trimble-s9"
       },
       "value": 5500
+    },
+    {
+      "metric": "Trimble S9 - angular accuracy",
+      "unit": "n/a",
+      "basis": "Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
+      },
+      "value": "0.5 sec or 1 sec"
+    },
+    {
+      "metric": "Trimble S9 - EDM technology",
+      "unit": "n/a",
+      "basis": "Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
+      },
+      "value": "DR PLUS"
+    },
+    {
+      "metric": "Trimble S9 - EDM accuracy",
+      "unit": "n/a",
+      "basis": "Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
+      },
+      "value": "1.0 mm + 2 ppm (Prism) / 2.0 mm + 2 ppm (DR)"
+    },
+    {
+      "metric": "Trimble S9 - maximum range",
+      "unit": "m",
+      "basis": "Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
+      },
+      "value": 5500
+    },
+    {
+      "metric": "Trimble S9 HP - angular accuracy",
+      "unit": "n/a",
+      "basis": "Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
+      },
+      "value": "0.5 sec or 1 sec"
+    },
+    {
+      "metric": "Trimble S9 HP - EDM accuracy",
+      "unit": "n/a",
+      "basis": "Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
+      },
+      "value": "0.8 mm + 1 ppm (Prism) / 3.0 mm + 2 ppm (DR)"
+    },
+    {
+      "metric": "Trimble S9 HP - maximum range",
+      "unit": "m",
+      "basis": "Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
+      },
+      "value": 7000
+    },
+    {
+      "metric": "Trimble S9 - standard technology",
+      "unit": "n/a",
+      "basis": "Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
+      },
+      "value": "Autolock, Magdrive, SurePoint, FineLock, Active Tracking"
+    },
+    {
+      "metric": "Trimble S9 - model-dependent features",
+      "unit": "n/a",
+      "basis": "Trimble 'S9 Total Station' product page, product specification summary and comparison table; no print date stated",
+      "source": {
+        "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
+      },
+      "value": "Long Range FineLock, Tracklight, VISION, SureScan"
     }
   ],
   "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
@@ -35,6 +116,6 @@
       "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     }
   ],
-  "notes": "Page read",
-  "last_reviewed": "2026-11-24"
+  "notes": "Page read Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

@@ -39,6 +39,90 @@
       },
       "low": 250,
       "high": 600
+    },
+    {
+      "metric": "Chiller-heater - capacity range",
+      "unit": "TR (product capacity/performance range)",
+      "basis": "Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
+      },
+      "low": 50,
+      "high": 3000
+    },
+    {
+      "metric": "Chiller-heater - exhaust gas temperature",
+      "unit": "degC (from engines, turbines or industrial furnaces)",
+      "basis": "Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
+      },
+      "low": 250,
+      "high": 600
+    },
+    {
+      "metric": "Chiller-heater - chilled water temperature",
+      "unit": "degC",
+      "basis": "Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
+      },
+      "low": -5,
+      "high": 35
+    },
+    {
+      "metric": "Chiller-heater - hot water temperature",
+      "unit": "degC (up to)",
+      "basis": "Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
+      },
+      "value": 110
+    },
+    {
+      "metric": "Chiller-heater - cooling COP",
+      "unit": "(up to)",
+      "basis": "Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
+      },
+      "value": 1.53
+    },
+    {
+      "metric": "Chiller-heater - heating energy savings",
+      "unit": "% (up to)",
+      "basis": "Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Chiller-heater - water savings",
+      "unit": "% (up to)",
+      "basis": "Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
+      },
+      "value": 20
+    },
+    {
+      "metric": "Chiller-heater - working fluid",
+      "unit": "n/a",
+      "basis": "Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
+      },
+      "value": "Lithium bromide-water solutions; double effect design based on exhaust temperature"
+    },
+    {
+      "metric": "Chiller-heater - process fluid options",
+      "unit": "n/a",
+      "basis": "Thermax 'Exhaust Gas-Driven Absorption Chiller-Heater' product page; no print date stated",
+      "source": {
+        "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
+      },
+      "value": "Water, water-glycol mixtures (customisable)"
     }
   ],
   "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater",
@@ -47,6 +131,6 @@
       "url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
     }
   ],
-  "notes": "Read directly via WebFetch.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read directly via WebFetch. Full-parameter pass 2026-11-26: 9 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

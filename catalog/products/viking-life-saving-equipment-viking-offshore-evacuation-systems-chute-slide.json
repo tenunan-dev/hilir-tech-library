@@ -17,6 +17,24 @@
         "source_id": "viking-life-com-www-viking-life-com-product-insights"
       },
       "value": 81
+    },
+    {
+      "metric": "Free-fall approved drop height",
+      "unit": "m",
+      "basis": "have a world record free-fall performance of up to 50 m approved drop height",
+      "source": {
+        "url": "https://www.viking-life.com/product-insights"
+      },
+      "high": 50
+    },
+    {
+      "metric": "Product scope",
+      "unit": "n/a",
+      "basis": "Designed for rapid evacuation, our VIKING Norsafe free-fall lifeboats ...",
+      "source": {
+        "url": "https://www.viking-life.com/product-insights"
+      },
+      "value": "VIKING Norsafe free-fall lifeboats; VIKING YouSafe™ Vanguard for the Offshore industry"
     }
   ],
   "url": "https://www.viking-life.com/product-insights",
@@ -25,6 +43,6 @@
       "url": "https://www.viking-life.com/product-insights"
     }
   ],
-  "notes": "",
-  "last_reviewed": "2026-11-24"
+  "notes": " Full-parameter pass 2026-11-26: 2 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

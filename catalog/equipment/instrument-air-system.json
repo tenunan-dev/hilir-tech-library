@@ -104,6 +104,60 @@
       },
       "unit": "%",
       "value": "50"
+    },
+    {
+      "metric": "Capacity FAD (litres/sec)",
+      "unit": "l/s",
+      "basis": "\"Capacity FAD l/s 8 l/s - 1,410 l/s 133 l/s - 22,349 l/s\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "low": 8,
+      "high": 1410
+    },
+    {
+      "metric": "VSD energy savings",
+      "unit": "% (up to)",
+      "basis": "\"Variable Speed Drive (VSD) technology ... results in energy savings of up to 35%\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "value": 35
+    },
+    {
+      "metric": "GA VSD+ average energy savings (iPM IE4 motor)",
+      "unit": "% (average)",
+      "basis": "\"Combined with the innovative patented iPM (interior Permanent Magnet) motor (IE4), the GA VSD+ achieves average energy savings of 50%\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "value": 50
+    },
+    {
+      "metric": "FAD increase",
+      "unit": "% (up to)",
+      "basis": "\"The GA VSD+ realizes a Free Air Delivery (FAD) increase of up to 12%\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "value": 12
+    },
+    {
+      "metric": "Energy recovery",
+      "unit": "% (up to)",
+      "basis": "\"It recovers up to 78% of the energy from the motor and the element oil circuit\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      },
+      "value": 78
+    },
+    {
+      "metric": "Compliance standards",
+      "unit": "n/a",
+      "basis": "\"GA series is ISO 9001, ISO 14001 and ISO 1217 compliant\"",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series"
+      }
     }
   ],
   "vendors": [
@@ -135,5 +189,5 @@
     }
   ],
   "notes": "Generated from the 2026-11-24 supporting-auxiliaries.json evidence sweep; every spec cites a page read that day.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

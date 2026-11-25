@@ -67,6 +67,105 @@
         "source_id": "cat-nov-com-red-thread-iia-fiberglass-pipe"
       },
       "value": "Filament wound with amine-cured epoxy resins and fiberglass roving"
+    },
+    {
+      "metric": "Primary pipe size range",
+      "unit": "in",
+      "basis": "Size range: 2- to 4-in. UL listed",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "2- to 4-in."
+    },
+    {
+      "metric": "Primary pressure rating",
+      "unit": "psig",
+      "basis": "Pressure ratings: Up to 250 psig",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "high": 250
+    },
+    {
+      "metric": "Secondary pipe size range",
+      "unit": "in",
+      "basis": "Size range: 3- to 6-in. UL listed",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "3- to 6-in."
+    },
+    {
+      "metric": "Secondary pressure rating",
+      "unit": "psig",
+      "basis": "Pressure ratings: Up to 50 psig",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "high": 50
+    },
+    {
+      "metric": "Temperature range",
+      "unit": "degF",
+      "basis": "Temperature range: Up to 150 °F (65 °C)",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "high": 150
+    },
+    {
+      "metric": "Temperature range metric",
+      "unit": "degC",
+      "basis": "Up to 150 °F (65 °C)",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "high": 65
+    },
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "Construction: Filament wound with amine-cured epoxy resins and fiberglass roving",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "Filament wound with amine-cured epoxy resins and fiberglass roving"
+    },
+    {
+      "metric": "Inner corrosion barrier",
+      "unit": "n/a",
+      "basis": "Inner corrosion barrier: Resin-rich",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "Resin-rich"
+    },
+    {
+      "metric": "Fittings",
+      "unit": "n/a",
+      "basis": "Fittings: Threaded and bonded (TAB) or bell and spigot",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "Threaded and bonded (TAB) or bell and spigot"
+    },
+    {
+      "metric": "Chemical service",
+      "unit": "n/a",
+      "basis": "Chemical service: Petroleum products, alcohols, alcohol-gasoline mixtures, ethanol, methanol, MTBE, diesel exhaust fluid",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "Petroleum products, alcohols, alcohol-gasoline mixtures, ethanol, methanol, MTBE, diesel exhaust fluid"
+    },
+    {
+      "metric": "Approval",
+      "unit": "n/a",
+      "basis": "The first composite pipe to receive UL listed (UL 971) approval for underground fuel handling.",
+      "source": {
+        "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
+      },
+      "value": "UL listed (UL 971) approval for underground fuel handling"
     }
   ],
   "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe",
@@ -75,6 +174,6 @@
       "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     }
   ],
-  "notes": "UL 971 listed. Onshore/terminal piping rather than subsea; included for onshore piping family coverage.",
-  "last_reviewed": "2026-11-24"
+  "notes": "UL 971 listed. Onshore/terminal piping rather than subsea; included for onshore piping family coverage. Full-parameter pass 2026-11-26: 11 new printed parameters.",
+  "last_reviewed": "2026-11-26"
 }

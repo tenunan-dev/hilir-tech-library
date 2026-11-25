@@ -93,6 +93,69 @@
         "url": "https://webstore.iec.ch/en/publication/63466",
         "source_id": "geg-webstore-iec-ch-63466-a67c8c0"
       }
+    },
+    {
+      "metric": "Total engines supplied to three Malaysian projects",
+      "unit": "engines",
+      "basis": "'Everllence is set to supply a total of 14 large engines with a combined output of over 240 MW to three new power-plant projects on the Malaysian part of the island of Borneo.' Press release 4 Dec 2025.",
+      "source": {
+        "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
+      },
+      "value": 14
+    },
+    {
+      "metric": "18V51/60DF GenSet for Kibing Solar",
+      "unit": "MW",
+      "basis": "'... supply with a new 18V51/60DF GenSet that will provide more than 18 MW' (adds to existing installation of more than 64 MW). Commissioning Q1 2026. Conflicting plant/engine figures as printed.",
+      "source": {
+        "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
+      },
+      "value": "> 18"
+    },
+    {
+      "metric": "KAB Energy seven 18V51/60DF engines",
+      "unit": "MW",
+      "basis": "'signed a contract with KAB Energy Holdings to supply seven 18V51/60DF engines with a total output of 120 MW' (Labuan Island); commissioning planned end 2026.",
+      "source": {
+        "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
+      },
+      "value": "seven engines, total output 120 MW"
+    },
+    {
+      "metric": "Sipitang seven 20V35/44G gas engines",
+      "unit": "MW",
+      "basis": "'seven 20V35/44G gas engines from Everllence with a potential output of more than 70 MW will cover the demand of the 52 MW power plant' - conflicting ratings preserved.",
+      "source": {
+        "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
+      },
+      "value": "seven engines, potential output > 70 MW for 52 MW power plant"
+    },
+    {
+      "metric": "Kimanis six 18V51/60DF engines",
+      "unit": "MW",
+      "basis": "'supplying six 18V51/60DF engines for a power plant in Kimanis, Sabah. With a total output of around 100 MW'.",
+      "source": {
+        "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
+      },
+      "value": "six engines, total output around 100 MW"
+    },
+    {
+      "metric": "18V51/60DF dual-fuel switching",
+      "unit": "n/a",
+      "basis": "'The 18V51/60DF engines allow seamless switching between gaseous and liquid fuels during operation.'",
+      "source": {
+        "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
+      },
+      "value": "seamless switching between gaseous and liquid fuels during operation"
+    },
+    {
+      "metric": "Sabah renewable energy target",
+      "unit": "% by 2035",
+      "basis": "'The State of Sabah alone aims to increase its share of renewable energy to 35% by 2035.'",
+      "source": {
+        "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
+      },
+      "value": 35
     }
   ],
   "vendor_models": [],
@@ -183,5 +246,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

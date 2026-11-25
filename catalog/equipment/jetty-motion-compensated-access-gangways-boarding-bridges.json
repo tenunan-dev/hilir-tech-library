@@ -70,6 +70,84 @@
         "source_id": "ampelmann-nl-systems-e-type"
       },
       "value": 105
+    },
+    {
+      "metric": "Maximum significant wave height for personnel transfer",
+      "unit": "m Hs",
+      "basis": "\"The E-type is the system for safely transferring personnel in sea states up to 4.5m Hs\" / \"4.5m Hs Compensation\"",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type"
+      },
+      "value": 4.5
+    },
+    {
+      "metric": "Gangway length",
+      "unit": "m",
+      "basis": "\"30m Gangway length\"",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Footprint",
+      "unit": "m",
+      "basis": "\"8.4 x 9.5m Footprint\"",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type"
+      }
+    },
+    {
+      "metric": "Weight",
+      "unit": "metric tonnes (mt)",
+      "basis": "\"105mt Weight\"",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type"
+      },
+      "value": 105
+    },
+    {
+      "metric": "Motion compensation degrees of freedom",
+      "unit": "degrees of freedom",
+      "basis": "\"fully motion compensated in all six degrees of freedom, resulting in zero movement of the gangway\"",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type"
+      },
+      "value": 6
+    },
+    {
+      "metric": "System mobilisation time",
+      "unit": "hours",
+      "basis": "\"Plug and play – System mobilisation within 24 hours\"",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type"
+      },
+      "value": 24
+    },
+    {
+      "metric": "Certification",
+      "unit": "n/a",
+      "basis": "\"Lloyd's certified. Sea fastening: DNV approved\"",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type"
+      }
+    },
+    {
+      "metric": "Power requirements / included containers",
+      "unit": "n/a",
+      "basis": "\"Two (E)HPUs (2 x 20ft), tool container (20ft) and hydraulics container (10ft) included\"",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type"
+      }
+    },
+    {
+      "metric": "Minimum vessel length",
+      "unit": "m",
+      "basis": "\"Vessel requirements: Larger than 70m\"",
+      "source": {
+        "url": "https://www.ampelmann.nl/systems/e-type"
+      },
+      "value": 70
     }
   ],
   "vendors": [
@@ -86,5 +164,5 @@
     "Transfer personnel and cargo between vessel and fixed or floating structure with active compensation of vessel motions (6 degrees of freedom), extending the wea"
   ],
   "notes": "Page-read evidence from the 2026-11-24 jetty-terminal.json sweep.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

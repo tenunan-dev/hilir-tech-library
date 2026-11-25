@@ -110,6 +110,94 @@
       },
       "low": -20,
       "high": 82
+    },
+    {
+      "metric": "Standard",
+      "unit": "text",
+      "basis": "Ruker: 'Standards: API spec 16C / ISO'; 'API Monogram No.: 16C-0486'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
+      }
+    },
+    {
+      "metric": "Temperature rating A",
+      "unit": "deg C",
+      "basis": "Ruker: 'Rating A: -4 °F to +180 °F (-20°C to +82°C)'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
+      },
+      "low": -20,
+      "high": 82
+    },
+    {
+      "metric": "Temperature rating B",
+      "unit": "deg C",
+      "basis": "Ruker: 'Rating B: -4 °F to +212 °F (-20°C to +100°C)'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
+      },
+      "low": -20,
+      "high": 100
+    },
+    {
+      "metric": "Temperature rating K",
+      "unit": "deg C",
+      "basis": "Ruker: 'Rating K: -75 °F to +180 °F (-60°C to +82°C)'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
+      },
+      "low": -60,
+      "high": 82
+    },
+    {
+      "metric": "FSL range",
+      "unit": "FSL",
+      "basis": "Ruker: 'FSLs: FSL 0~3'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
+      },
+      "low": 0,
+      "high": 3
+    },
+    {
+      "metric": "JLG-FB-51X35 bore / OD",
+      "unit": "mm / in",
+      "basis": "Ruker table: JLG-FB-51X35 — ID 51 mm (2 in), OD 164 mm (6.46 in)",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
+      }
+    },
+    {
+      "metric": "JLG-FB-51X35 working / test pressure",
+      "unit": "psi / MPa",
+      "basis": "Ruker table: WP 5000 psi (35 MPa), TP 7500 psi (52.5 MPa)",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
+      }
+    },
+    {
+      "metric": "JLG-FB-51X35 safety / fire / bend / weight / length",
+      "unit": "text",
+      "basis": "Ruker table: Fire-Resistant Yes; Safety Factor 2.25; FSL3; Min Bending Radius 1.2 m; Weight 46.8 kg/m; Max length 45 m",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
+      }
+    },
+    {
+      "metric": "Construction materials",
+      "unit": "text",
+      "basis": "Ruker: 'Tube: Modified NBR or HNBR Black resisting abrasion, corrosion, oil, drilling muds and H2S'; 'Reinforcement: Multiple layers of steel cable and adhesion fabric'; 'Cover: Modified Nitrile Black'; 'Couplings: Build-in-meets NACE MR0175'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
+      }
+    },
+    {
+      "metric": "Application",
+      "unit": "text",
+      "basis": "Ruker: 'Choke and kill line hose is used as flexible connection in the choke manifold and kill manifold system (or BOP system) to control well pressure during the drilling process.'",
+      "source": {
+        "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
+      }
     }
   ],
   "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html",
@@ -118,6 +206,13 @@
       "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
     }
   ],
-  "notes": "APAC supplier. Nitrile/HNBR tube, multiple steel cable layers, modified nitrile cover, built-in couplings meet NACE MR0175.",
-  "last_reviewed": "2026-11-24"
+  "notes": "APAC supplier. Nitrile/HNBR tube, multiple steel cable layers, modified nitrile cover, built-in couplings meet NACE MR0175. Full-parameter pass 2026-11-26: 10 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Remaining JLG-FB model rows",
+      "why": "Only the first model row was captured from the fetched table",
+      "next_action": "Re-read the full table and transcribe all JLG-FB models"
+    }
+  ]
 }

@@ -35,6 +35,30 @@
       },
       "unit": "n/a",
       "value": "Power Generation (Simple/Open Cycle, Combined Cycle, Cogen, SCR/CO, Coal/Boiler, Biomass); Oil & Gas / Petrochemical"
+    },
+    {
+      "metric": "Solution scope",
+      "unit": "text",
+      "basis": "SVI BREMCO: engineered solutions include 'gas turbine silencers, stacks and ductwork, air intake systems, vent silencers, absorptive silencers, combination silencers, reactive silencers, acoustical panel systems, acoustical lagging systems'",
+      "source": {
+        "url": "https://svi-bremco.com/gas-path-solutions/"
+      }
+    },
+    {
+      "metric": "Inspection standard / intervals",
+      "unit": "text",
+      "basis": "SVI BREMCO: 'Inspections and Analysis (Steel Stack per ASCE, Acoustical Surveys, CFD Flow Modeling, Physical Flow Modeling, Structural and Mechanical analysis)'; 'inspect annually and every three years'",
+      "source": {
+        "url": "https://svi-bremco.com/gas-path-solutions/"
+      }
+    },
+    {
+      "metric": "Industries served",
+      "unit": "text",
+      "basis": "SVI BREMCO: 'Power Generation (Simple/Open Cycle, Combined Cycle, Cogen, SCR/CO, Coal/Boiler, Biomass)'; 'Industrial Process (Fertilizer, Cement, Agriculture, Chemical, Mining)'; 'Oil & Gas / Petrochemical – Upstream (FPSO, Platforms), Midstream (Compressor Stations), Downstream (Refinery, Processing)'",
+      "source": {
+        "url": "https://svi-bremco.com/gas-path-solutions/"
+      }
     }
   ],
   "url": "https://svi-bremco.com/gas-path-solutions/",
@@ -43,6 +67,13 @@
       "url": "https://svi-bremco.com/gas-path-solutions/"
     }
   ],
-  "notes": "Read in full: SVI BREMCO Gas Path Solutions page. GAP: this page did not print expansion-joint product specs; the SVI BREMCO exhaust expansion-joint association was only search-verified from a directory snippet.",
-  "last_reviewed": "2026-11-24"
+  "notes": "Read in full: SVI BREMCO Gas Path Solutions page. GAP: this page did not print expansion-joint product specs; the SVI BREMCO exhaust expansion-joint association was only search-verified from a directory snippet. Full-parameter pass 2026-11-26: 3 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Insertion loss, attenuation by octave band, pressure drop, temperature and material ratings",
+      "why": "No performance tables on the overview page",
+      "next_action": "Fetch individual silencer product data sheets"
+    }
+  ]
 }

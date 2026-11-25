@@ -17,14 +17,70 @@
         "source_id": "sys-slb-com-processing-and-separation"
       },
       "value": "inline separator / single-stage scrubber"
+    },
+    {
+      "metric": "WHIRLYSCRUB I liquid removal efficiency",
+      "unit": "% down to 10 um",
+      "basis": "\"provides excellent liquid removal, with a removal efficiency of 99.99% down to 10 um\"",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator",
+        "source_id": "catpar-slb-com-porta-test-whirlyscrub-i-inline-sepa-7f38119"
+      },
+      "value": 99.99
+    },
+    {
+      "metric": "WHIRLYSCRUB I liquid loading limit",
+      "unit": "bbl/MMcf or less",
+      "basis": "\"gas-dominant streams containing low amounts of liquid (3 bbl/MMcf or less)\"",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
+      },
+      "value": 3
+    },
+    {
+      "metric": "WHIRLYSCRUB I gas sidestream",
+      "unit": "% of gas",
+      "basis": "\"the liquids and a 10% sidestream of gas are drawn through a small opening in the vortex tube\"",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
+      },
+      "value": 10
+    },
+    {
+      "metric": "WHIRLYSCRUB V removal efficiency",
+      "unit": "% down to 10 um",
+      "basis": "Gas Treatment overview card: \"Remove solids and liquid from gas containing moderate amounts of liquid, with a removal efficiency of 99.9% down to 10 um\"",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment",
+        "source_id": "catpar-slb-com-gas-treatment-a471dfd"
+      },
+      "value": 99.9
+    },
+    {
+      "metric": "WHIRLYSCRUB I publication date",
+      "unit": "n/a",
+      "basis": "SLB product detail page 'Published: 08/02/2016'",
+      "source": {
+        "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
+      }
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
   "sources": [
     {
       "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
+    },
+    {
+      "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
     }
   ],
-  "notes": "No capacity/pressure data on the listing page.",
-  "last_reviewed": "2026-11-24"
+  "notes": "No capacity/pressure data on the listing page. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Sizing/pressure-drop tables and model dimensions for WHIRLYSCRUB I and V",
+      "why": "Only efficiency and duty statements printed on pages",
+      "next_action": "Fetch the linked product-sheet PDFs for dimensional and flow ratings"
+    }
+  ]
 }

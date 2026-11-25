@@ -40,6 +40,33 @@
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
         "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
       }
+    },
+    {
+      "metric": "project_capacity",
+      "unit": "MW",
+      "basis": "Kimanis Power Project to Add 300 Megawatts of Electricity for the State of Sabah (press release subheading)",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": 300
+    },
+    {
+      "metric": "service_agreement_duration",
+      "unit": "years",
+      "basis": "CSA to Provide 18 Years of Service Support for the Plant",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": 18
+    },
+    {
+      "metric": "turbine_model",
+      "unit": "n/a",
+      "basis": "GE's Frame 6FA gas turbine technology previously was applied to the Ranhill Powertron II plant, also located in Sabah",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "value": "Frame 6FA"
     }
   ],
   "vendor_models": [
@@ -82,5 +109,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

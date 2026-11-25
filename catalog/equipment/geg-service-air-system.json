@@ -203,6 +203,235 @@
         "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
         "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
       }
+    },
+    {
+      "metric": "Refrigerant dryer pressure dew point",
+      "unit": "degC (+37.4 degF)",
+      "basis": "\"Refrigerant dryers ... typically maintain a PDP of +3 °C/37.4 °F, suitable for most applications\"",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Adsorption/desiccant dryer pressure dew point range",
+      "unit": "degC",
+      "basis": "\"These dryers achieve a PDP from -10 °C/14 °F to -70 °C/-94 °F\"",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "low": -70,
+      "high": -10
+    },
+    {
+      "metric": "Membrane dryer pressure dew point",
+      "unit": "degC (+37.4 degF)",
+      "basis": "\"Membrane dryers ... achieving standard PDP levels of +3 °C/37.4 °F\"",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": 3
+    },
+    {
+      "metric": "ISO 8573-1 class 1 pressure dew point",
+      "unit": "degC (-94 degF)",
+      "basis": "\"ISO 8537-1 class 1 requires a PDP of -70 °C/-94 °F, while class 4 indicates +3 °C/37.4 °F\" [sic – printed as ISO 8537-1 on page]",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": -70
+    },
+    {
+      "metric": "ISO 8573-1 class 4 pressure dew point",
+      "unit": "degC (+37.4 degF)",
+      "basis": "\"class 4 indicates +3 °C/37.4 °F\" (printed as ISO 8537-1 class 4 on page)",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Dryer types",
+      "unit": "types",
+      "basis": "\"There are three types of dryers to consider, refrigerant (fridge), adsorption, and membrane\"",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Desiccant regeneration methods",
+      "unit": "methods",
+      "basis": "\"There are three types of regeneration methods our dryers use: purge regeneration ('heatless-type dryers'), heated purge, and blower\"",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      },
+      "value": 3
+    },
+    {
+      "metric": "Achievable air pressure",
+      "unit": "bar (over)",
+      "basis": "Comair: 'instrument air compressor solutions offer completely oil free and dusts free air of over 40 bar and 100,000 Nm3/hr'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 40
+    },
+    {
+      "metric": "Achievable air flow",
+      "unit": "Nm3/hr (over)",
+      "basis": "Comair: 'over 40 bar and 100,000 Nm3/hr'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 100000
+    },
+    {
+      "metric": "Continuous running duty",
+      "unit": "hours per year (over)",
+      "basis": "Comair: 'reliable performance for over 8,000 hours continuous running'; centrifugal type 'continuous yearly running of over 8,000 hours'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 8000
+    },
+    {
+      "metric": "Motor protection",
+      "unit": "IP grade",
+      "basis": "Comair: 'Our compressors are all IP55 protection grade fully preventing any dust from damaging motors and all the air filters are of three layers'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": "IP55"
+    },
+    {
+      "metric": "Pressure dew point",
+      "unit": "deg C",
+      "basis": "Comair: 'the pressure dew point could reach to -70℃, driest possible in the industry'; desiccant dryer 'as low as -70℃'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": -70
+    },
+    {
+      "metric": "Oil-free air class",
+      "unit": "text",
+      "basis": "Comair: 'Discharging ISO 8573-1 class 0 certified oil free air with 24/7 continuous operation'; 'technical oil free to be ISO 8573 Class 1 level' for oil-injected with dryer/filters",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      }
+    },
+    {
+      "metric": "VSD running cost saving",
+      "unit": "% (as much as)",
+      "basis": "Comair: 'VSD type could save as much as 30% running cost'; 'save as much as 30% electricity'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "value": 30
+    },
+    {
+      "metric": "Typical instrument air discharge pressure",
+      "unit": "bar",
+      "basis": "Comair FAQ: 'Normally the instrument air compressors are required to discharge around 7-10 bar.'",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "low": 7,
+      "high": 10
+    },
+    {
+      "metric": "Compressor types",
+      "unit": "text",
+      "basis": "Comair lists oil free screw, oil free centrifugal and oil free piston compressors for instrument air",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      }
+    },
+    {
+      "metric": "Oil-free screw compressor - discharge pressure",
+      "unit": "Barg",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 8,
+      "high": 10
+    },
+    {
+      "metric": "Oil-injected screw compressor - discharge pressure",
+      "unit": "Barg",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 8,
+      "high": 16
+    },
+    {
+      "metric": "Oil-free screw compressor - flow rate (FAD) up to",
+      "unit": "m3/min",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": 85
+    },
+    {
+      "metric": "Oil-injected screw compressor - flow rate (FAD) up to",
+      "unit": "m3/min",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": 80
+    },
+    {
+      "metric": "Oil-free screw compressor - power",
+      "unit": "kW",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 37,
+      "high": 600
+    },
+    {
+      "metric": "Oil-injected screw compressor - power",
+      "unit": "kW",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "low": 2.2,
+      "high": 500
+    },
+    {
+      "metric": "Air dryer - low dew point up to",
+      "unit": "degC",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": -90
+    },
+    {
+      "metric": "Oil-free air quality",
+      "unit": "n/a",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": "ISO 8573-1 Class 0 with filter & dryer package"
+    },
+    {
+      "metric": "Pressure vessels - design standard",
+      "unit": "n/a",
+      "basis": "HADETEC Instrument Air Packages / Integrated Compressor Solutions product page; no print date stated",
+      "source": {
+        "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
+      },
+      "value": "ASME VIII Div.1 and U STAMP or PED"
     }
   ],
   "vendor_models": [
@@ -307,5 +536,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

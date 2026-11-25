@@ -1,0 +1,25 @@
+{
+  "id": "catpar-aerzen-com-a1-008-08-en-pdf-195d4e7",
+  "name": "aerzen.com",
+  "url": "https://www.aerzen.com/fileadmin/user_upload/02_documents/02-02_applications/02-02-06_process_gas_technology/A1-008-08_EN.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Aerzen.Com",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-26",
+  "notes": "Catalogue/datasheet page read in the full-parameter sweep 2026-11-26. For explosive gases, the design pressure of 25 bar g offers the corresponding pressure shock resistance (inner EX zone)."
+}

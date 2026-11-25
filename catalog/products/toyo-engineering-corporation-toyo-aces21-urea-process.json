@@ -27,6 +27,57 @@
         "source_id": "pupuk-indonesia-com-913-pupuk-indonesia-dan-toyo-kembangkan-kapasi"
       },
       "value": 1.15
+    },
+    {
+      "metric": "Urea plant capacity (Fakfak project)",
+      "unit": "tonnes per annum",
+      "basis": "\"The facility is designed to produce 1.15 million tonnes of urea annually\" using TOYO's ACES21 process",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      },
+      "value": 1150000
+    },
+    {
+      "metric": "Ammonia plant capacity (integrated complex)",
+      "unit": "tonnes per annum (approximately)",
+      "basis": "\"a planned ammonia plant with an annual production capacity of approximately 825,000 tonnes\"",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      },
+      "value": 825000
+    },
+    {
+      "metric": "TOYO urea plant experience",
+      "unit": "plants (more than 110)",
+      "basis": "\"having designed, engineered, constructed and commissioned more than 110 urea plants using its technologies\"",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      },
+      "value": 110
+    },
+    {
+      "metric": "ACES21 stated benefits",
+      "unit": "n/a",
+      "basis": "\"TOYO's ACES21TM process, designed to improve energy efficiency and reduce capital investment costs\"",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      }
+    },
+    {
+      "metric": "Basic engineering design completion",
+      "unit": "n/a",
+      "basis": "\"With completion targeted for May 2027, the BED represents a significant milestone\"",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      }
+    },
+    {
+      "metric": "Publication date",
+      "unit": "n/a",
+      "basis": "Pupuk Indonesia news article posted 19 November 2026 17:20 WIB; dateline Tokyo, 17 November 2026",
+      "source": {
+        "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
+      }
     }
   ],
   "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
@@ -35,6 +86,13 @@
       "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
     }
   ],
-  "notes": "ACES21 process claimed to improve energy efficiency and reduce capital investment (owner press release).",
-  "last_reviewed": "2026-11-24"
+  "notes": "ACES21 process claimed to improve energy efficiency and reduce capital investment (owner press release). Full-parameter pass 2026-11-26: 6 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "ACES21 process steam/energy consumption and conversion figures",
+      "why": "Press release states qualitative energy-efficiency benefit only",
+      "next_action": "Fetch TOYO process documentation for numeric process parameters"
+    }
+  ]
 }

@@ -27,6 +27,51 @@
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
       "value": "165 x 43"
+    },
+    {
+      "metric": "Bokalift 1 - crane lifting capacity",
+      "unit": "ton",
+      "basis": "Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 3000
+    },
+    {
+      "metric": "Bokalift 1 - available deck space",
+      "unit": "n/a",
+      "basis": "Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": "165 m x 43 m"
+    },
+    {
+      "metric": "Bokalift 1 - accommodation",
+      "unit": "persons",
+      "basis": "Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": 150
+    },
+    {
+      "metric": "Bokalift 1 - dynamic positioning class",
+      "unit": "n/a",
+      "basis": "Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": "DP2 self-propelled crane vessel (converted 2017)"
+    },
+    {
+      "metric": "Bokalift 1 - helicopter deck",
+      "unit": "n/a",
+      "basis": "Boskalis heavy lift vessels fleet page, 'Bokalift 1' and 'Bokalift 2' sections (c) 2026 Boskalis; no print date stated",
+      "source": {
+        "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
+      },
+      "value": "Available for offshore transfers"
     }
   ],
   "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
@@ -35,6 +80,13 @@
       "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     }
   ],
-  "notes": "DP2; converted 2017; 150 persons.",
-  "last_reviewed": "2026-11-24"
+  "notes": "DP2; converted 2017; 150 persons. Full-parameter pass 2026-11-26: 5 new printed parameters.",
+  "last_reviewed": "2026-11-26",
+  "gaps": [
+    {
+      "what": "Bokalift 1 download sheet (bokalift-1.pdf)",
+      "why": "Linked PDF vessel data sheet not transcribed",
+      "next_action": "Fetch and transcribe the linked Bokalift 1 sheet for full vessel dimensions and capacities"
+    }
+  ]
 }
