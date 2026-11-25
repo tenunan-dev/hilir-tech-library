@@ -29,6 +29,81 @@
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
         "source_id": "geg-dosh-gov-my-cebaa79"
       }
+    },
+    {
+      "metric": "Safety and Health Officer / safety — maximum fine for contravention of Act 514 sections 15-18B",
+      "unit": "RM (printed 'five hundred thousand ringgit')",
+      "basis": "Act 514 Occupational Safety and Health Act 1994 reprint as at 1 June 2024 (latest amendment Act A1648 in operation 1 June 2024), section 19: fine not exceeding five hundred thousand ringgit or imprisonment not exceeding two years, or both.",
+      "value": 500000,
+      "year": 1994,
+      "source": {
+        "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
+        "source_id": "geg-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
+      }
+    },
+    {
+      "metric": "Safety and Health Officer / safety — contract price threshold requiring a Safety and Health Officer",
+      "unit": "RM (printed 'twenty million ringgit Malaysia')",
+      "basis": "DOSH Guidelines for Public Safety and Health at Construction Sites, 1st Revision 2007, cl.6.4: 'Every contractor of any building operation and works of engineering construction when the total contract price of the project exceeds twenty million ringgit Malaysia, they shall employ a safety and health officer' (section 29 Act 514; OSH (Safety and Health Officer) Order 1997).",
+      "value": 20000000,
+      "year": 2007,
+      "source": {
+        "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf",
+        "source_id": "gef-r-jina-ai-guidelines-for-public-safety-and-h-8861d53"
+      }
+    },
+    {
+      "metric": "Safety and Health Officer / safety — worker count triggering a safety and health committee",
+      "unit": "persons",
+      "basis": "DOSH Guidelines 2007 cl.6.2: main contractor of a worksite in which forty or more persons are employed (by him or other contractors) shall establish a safety and health committee (section 30 Act 514; Regulations 1997).",
+      "value": 40,
+      "year": 2007,
+      "source": {
+        "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf",
+        "source_id": "gef-r-jina-ai-guidelines-for-public-safety-and-h-8861d53"
+      }
+    },
+    {
+      "metric": "Safety and Health Officer / safety — principal's duty to allocate time, budget and resources for safety",
+      "unit": "printed statutory duty",
+      "basis": "Act 514 (as at 1 June 2024) section 18A(3)(b): measures necessary include 'the allocation of sufficient time, budget and other resources' for safety in construction work activities; section 18B requires risk assessment and implementation of controls.",
+      "year": 2024,
+      "source": {
+        "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
+        "source_id": "geg-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
+      }
+    },
+    {
+      "metric": "Environmental Impact Assessment fo — capacity threshold for prescribed fossil-fuel steam power station",
+      "unit": "MW (printed '10 megawatts or more')",
+      "basis": "Environmental Quality (Prescribed Activities) (EIA) Order 2015, P.U. (A) 195, made 5 August 2015, First Schedule item 11(a): 'Construction of steam generated power station using fossil fuels (other than coal) and having the capacity of 10 megawatts or more, with or without transmission line'; clause 4(2)(a) applies subitems 11(a) and (b) to Sabah.",
+      "value": 10,
+      "year": 2015,
+      "source": {
+        "url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf",
+        "source_id": "geg-r-jina-ai-perintah-kualiti-alam-sekeliling-a-1d5ada5"
+      }
+    },
+    {
+      "metric": "Environmental Impact Assessment fo — Sabah application of the EIA Order",
+      "unit": "printed scope",
+      "basis": "EIA Order 2015 clause 4(2): applies to Sabah for First Schedule items 2, 6, 9 and 14 and subitems 11(a) and (b), and Second Schedule items 2, 6, 9, 11, 14 and 17; clause 2 defines 'environmentally sensitive area' to include areas specified under any Enactment in the State of Sabah.",
+      "year": 2015,
+      "source": {
+        "url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf",
+        "source_id": "geg-r-jina-ai-perintah-kualiti-alam-sekeliling-a-1d5ada5"
+      }
+    },
+    {
+      "metric": "Environmental Impact Assessment fo — site hoarding minimum height (public safety)",
+      "unit": "mm",
+      "basis": "DOSH Guidelines 2007 cl.11.2, cross-listed here as public-safety control: hoarding not less than 1800 mm and continuous to the ground; cl.11.6 requires security against unauthorised entry.",
+      "value": 1800,
+      "year": 2007,
+      "source": {
+        "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf",
+        "source_id": "gef-r-jina-ai-guidelines-for-public-safety-and-h-8861d53"
+      }
     }
   ],
   "vendor_models": [
@@ -72,6 +147,22 @@
     {
       "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
       "source_id": "geg-cidb-gov-my-7ada474"
+    },
+    {
+      "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf",
+      "source_id": "gef-r-jina-ai-guidelines-for-public-safety-and-h-8861d53"
+    },
+    {
+      "url": "https://www.iso.org/standard/14001",
+      "source_id": "gef-iso-org-14001-d168453"
+    },
+    {
+      "url": "https://www.wequantitysurveyor.com/reference/preliminaries-rates.html",
+      "source_id": "gef-wequantitysurveyor-com-preliminaries-rates-h-91c646b"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.malakoff.com.my/wp-content/uploads/2025/03/Contract-Terms-for-Works-RFQFinal.pdf",
+      "source_id": "gef-r-jina-ai-contract-terms-for-works-rfqfinal-7f7aa38"
     }
   ],
   "gaps": [
@@ -79,6 +170,11 @@
       "what": "HSSE",
       "why": "No project-specific HSSE budget, incident statistics, HSE plan or ISO 45001/14001 certificate for the 7-unit plant was found. The EIA Order 2015 text read has no explicit gas-engine-plant entry, so its applicability to this plant is not established.",
       "next_action": "Confirm EIA classification with DOE Sabah, and obtain the contractor's HSSE plan and certification evidence before pricing."
+    },
+    {
+      "what": "Health, safety, security and environment",
+      "why": "No published HSSE budget, Malakoff 'Penalties for HSSE Offences Procedure (MCSS2-14)' penalty schedule, or project-specific EIA/HSSE cost for the 7-unit GEG plant was found. The Malakoff RFQ (6 Mar 2025) names the penalty procedure but its figures were not in the readable document; the printed rates",
+      "next_action": "Obtain MCSS2-14 and the priced HSSE preliminaries from the employer/bidder; keep the two ISO 14001 editions side by side and confirm which edition the contract requires."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

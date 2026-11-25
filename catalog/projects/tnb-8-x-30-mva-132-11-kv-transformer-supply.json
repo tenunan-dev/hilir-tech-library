@@ -1,0 +1,26 @@
+{
+  "id": "tnb-8-x-30-mva-132-11-kv-transformer-supply",
+  "name": "TNB 8 x 30 MVA 132/11 kV transformer supply",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "MTM: '8 x 30 MVA 132/11 kV successfully manufactured and put to service since 2001' for Tenaga Nasional Berhad. No price published.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.malaysiatransformer.com/about",
+      "source_id": "gef-malaysiatransformer-com-about-c845fc2",
+      "note": "MTM: '8 x 30 MVA 132/11 kV successfully manufactured and put to service since 20"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Power transformers."
+}

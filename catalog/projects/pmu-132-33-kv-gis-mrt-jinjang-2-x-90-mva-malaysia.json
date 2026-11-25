@@ -1,0 +1,26 @@
+{
+  "id": "pmu-132-33-kv-gis-mrt-jinjang-2-x-90-mva-malaysia",
+  "name": "PMU 132/33 kV GIS MRT Jinjang (2 x 90 MVA), Malaysia",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Design, engineering, supply, erect and commissioning plus 132 kV overhead line loop-in/loop-out and 132 kV underground cable to Bulk MRT Jinjang switching station.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "Design, engineering, supply, erect and commissioning plus 132 kV overhead line l"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 132 kV substation."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dbkl-kuala-lumpur-video-surveillance-additional-5-000-cc",
+  "name": "DBKL Kuala Lumpur video surveillance - additional 5,000 CCTV and VMS order",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "The Edge, 16 August 2024: ITMAX System Bhd additional order worth RM539.46 million from Kuala Lumpur City Hall. Named, dated, sized (5,000 cameras) and located (Kuala Lumpur).",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://theedgemalaysia.com/node/723069",
+      "source_id": "gef-theedgemalaysia-com-723069-a77216b",
+      "note": "The Edge, 16 August 2024: ITMAX System Bhd additional order worth RM539.46 milli"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for CCTV system."
+}

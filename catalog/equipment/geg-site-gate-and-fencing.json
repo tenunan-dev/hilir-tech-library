@@ -94,6 +94,41 @@
         "url": "https://www.geapl.com/telescopic-sliding-gates",
         "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
       }
+    },
+    {
+      "metric": "Protective site hoarding and acces — minimum hoarding height",
+      "unit": "mm (printed '1800mm')",
+      "basis": "DOSH Guidelines for Public Safety and Health at Construction Sites, 1st Revision 2007, cl.11.2: 'The hoarding should not be less than 1800mm in height and continuous down to the ground'; cl.11.1: hoarding acts as barrier or security to prevent trespass; cl.11.6: entrance/exit located to prevent danger and proper security against unauthorised entry; cl.11.12: 'Gates should be of suitable design and",
+      "value": 1800,
+      "year": 2007,
+      "source": {
+        "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf",
+        "source_id": "gef-r-jina-ai-guidelines-for-public-safety-and-h-8861d53"
+      }
+    },
+    {
+      "metric": "Protective site hoarding and acces — site hoarding, 2.1 to 2.4 m high metal deck sheeting on steel posts with concrete footing, incl. maintenance and removal",
+      "unit": "RM per m (printed rate RM 280-380; unit 'm')",
+      "basis": "WE Quantity Surveyor 'Preliminaries rates, Malaysia', Klang Valley, UPDATED NOVEMBER 2026, Site establishment table. All-in at trade level (material, labour, plant, wastage); excludes main contractor's profit and attendance, preliminaries and SST. Low end residential, high end factory/warehouse.",
+      "low": 280,
+      "high": 380,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wequantitysurveyor.com/reference/preliminaries-rates.html",
+        "source_id": "gef-wequantitysurveyor-com-preliminaries-rates-h-91c646b"
+      }
+    },
+    {
+      "metric": "Protective site hoarding and acces — extra over hoarding for a double-leaf site access gate",
+      "unit": "RM per no. (printed rate RM 3,000-6,000; unit 'no.')",
+      "basis": "WE Quantity Surveyor, Klang Valley, November 2026, Site establishment table. All-in at trade level; excludes main contractor's profit and attendance, preliminaries and SST.",
+      "low": 3000,
+      "high": 6000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wequantitysurveyor.com/reference/preliminaries-rates.html",
+        "source_id": "gef-wequantitysurveyor-com-preliminaries-rates-h-91c646b"
+      }
     }
   ],
   "vendor_models": [],
@@ -107,6 +142,18 @@
     {
       "url": "https://www.geapl.com/telescopic-sliding-gates",
       "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+    },
+    {
+      "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf",
+      "source_id": "gef-r-jina-ai-guidelines-for-public-safety-and-h-8861d53"
+    },
+    {
+      "url": "https://www.wequantitysurveyor.com/reference/preliminaries-rates.html",
+      "source_id": "gef-wequantitysurveyor-com-preliminaries-rates-h-91c646b"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
     }
   ],
   "gaps": [
@@ -119,6 +166,16 @@
       "what": "Gate and Fencing (820m x 2.5m; electric telescopic door 2x; fence gate 6x; 3.0m x 250m + 2.4m x 250m steel grating fence)",
       "why": "The 820 m, gate counts and 250 m grating lengths are bidder-supplied design figures, not evidence.",
       "next_action": "Do not present these figures as sourced facts."
+    },
+    {
+      "what": "Site gate and fencing",
+      "why": "No sized, located and dated site-gate/fencing BOQ or award for the 7-unit GEG plant or a Sabah 132/33/11 kV connection was found. The only printed prices are Klang Valley 2026 QS guidance rates, not a project quotation; the DOSH 2007 guideline gives a 1800 mm minimum but no price.",
+      "next_action": "Obtain the actual gate/fencing quantities and priced BOQ from the contractor; keep the Klang Valley 2026 guidance rates labelled as non-project rates."
+    },
+    {
+      "what": "Site gate and fencing",
+      "why": "No published RM/m rate for site fencing was read; the JKR 2025 schedule-of-rates page that prints fence rates could not be fetched by WebFetch (direct and r.jina.ai both failed), so its figures were not recorded.",
+      "next_action": "Fetch the JKR JKR20800-0246-25 schedule directly and record the dated security-fence RM/m rate"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

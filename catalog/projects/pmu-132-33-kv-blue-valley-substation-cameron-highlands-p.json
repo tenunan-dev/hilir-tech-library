@@ -1,0 +1,26 @@
+{
+  "id": "pmu-132-33-kv-blue-valley-substation-cameron-highlands-p",
+  "name": "PMU 132/33 kV Blue Valley substation, Cameron Highlands, Pahang (2 x 45 MVA)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "TNB to MN Power Transmission Sdn Bhd, RM71.02 million; double busbar arrangement, primary and secondary equipment and civil works.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://finance.biggo.com/news/d11b9a98-9228-4c7f-9346-c5e84a233c0f",
+      "source_id": "gef-finance-biggo-com-d11b9a98-9228-4c7f-9346-c5-0894601",
+      "note": "TNB to MN Power Transmission Sdn Bhd, RM71.02 million; double busbar arrangement"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 132 kV substation."
+}

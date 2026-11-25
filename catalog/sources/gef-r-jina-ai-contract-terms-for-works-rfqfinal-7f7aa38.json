@@ -1,0 +1,25 @@
+{
+  "id": "gef-r-jina-ai-contract-terms-for-works-rfqfinal-7f7aa38",
+  "name": "Employer's Contract Terms for Works - RFQ",
+  "url": "https://r.jina.ai/https://www.malakoff.com.my/wp-content/uploads/2025/03/Contract-Terms-for-Works-RFQFinal.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Malakoff Corporation Berhad",
+  "access": "open",
+  "licence": "not stated in source",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch via r.jina.ai 25 Nov 2026 (direct PDF WebFetch unsupported; proxy used). PDF dated 6 Mar 2025; 46 pages. No licence stated."
+}

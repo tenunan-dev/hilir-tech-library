@@ -1,0 +1,26 @@
+{
+  "id": "immigration-department-of-malaysia-ai-powered-cctv-at-na",
+  "name": "Immigration Department of Malaysia - AI-powered CCTV at national cross-border entry and exit points, Peninsular Malaysia",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "The Edge, 17 December 2025: ITMAX System Bhd, RM36 million contract from the Ministry of Home Affairs for installation and rental services for a closed-circuit camera system at key entry and exit points nationwide.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://theedgemalaysia.com/node/786327",
+      "source_id": "gef-theedgemalaysia-com-786327-c222f1b",
+      "note": "The Edge, 17 December 2025: ITMAX System Bhd, RM36 million contract from the Min"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for CCTV system."
+}

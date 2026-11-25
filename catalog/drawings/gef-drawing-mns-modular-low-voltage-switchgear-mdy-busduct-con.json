@@ -1,0 +1,27 @@
+{
+  "id": "gef-drawing-mns-modular-low-voltage-switchgear-mdy-busduct-con",
+  "title": "MNS modular low voltage switchgear – MDY busduct connection illustration",
+  "diagram_type": "schematic",
+  "description": "Brochure shows the phase-isolated, halogen-free MDY busduct as the link from a distribution transformer to MNS switchgear, optionally with a load-break switch and overcurrent relay near the LV transformer terminals. Read via r.jina.ai 2026-11-25.",
+  "publisher": "ABB Oy, Low Voltage Systems",
+  "url": "https://library.e.abb.com/public/1bd1718c1dcdf5e4c1257aaa003ab4da/MNS%20EN%201TFC902032N0201%20lowres_03102012.pdf?x-sign=qZodiPD5EoNr35O5ly6r2yTFfXwR6TyMrmBDCrU7ZKHZlbE2sLREknrVTZFhhh08",
+  "sectors": [
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "equipment": [
+    "geg-bus-duct"
+  ],
+  "sources": [
+    {
+      "url": "https://library.e.abb.com/public/1bd1718c1dcdf5e4c1257aaa003ab4da/MNS%20EN%201TFC902032N0201%20lowres_03102012.pdf?x-sign=qZodiPD5EoNr35O5ly6r2yTFfXwR6TyMrmBDCrU7ZKHZlbE2sLREknrVTZFhhh08",
+      "source_id": "gef-library-e-abb-com-mns-20en-201tfc902032n0201-d8e257f",
+      "note": "Brochure shows the phase-isolated, halogen-free MDY busduct as the link from a distribution transformer to MNS switchgear, optionally with a load-break switch and overcurrent relay near the LV transfo"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the GEG core-item gap-fill; drawing stays at publisher URL."
+}

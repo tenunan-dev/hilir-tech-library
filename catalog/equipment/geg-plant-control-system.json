@@ -260,6 +260,50 @@
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
         "source_id": "geg-valmet-com-65ff972"
       }
+    },
+    {
+      "metric": "Yokogawa CENTUM VP integrated prod — hardwired I/O points, BP Sharjah DCS",
+      "unit": "hardwired I/O points",
+      "basis": "Yokogawa Oil & Gas Success Story Collection, Bulletin 00A01A55-01EN, copyright 2016 Yokogawa Electric Corporation (Ed:03/d), BP Sharjah entry, System Details: 'Number of hardwired I/O: 1,500'. Project order date July 2007, completion October 2009. Read via r.jina.ai proxy 25 Nov 2026.",
+      "value": 1500,
+      "year": 2016,
+      "source": {
+        "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+        "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+      }
+    },
+    {
+      "metric": "Yokogawa CENTUM VP integrated prod — serial I/O points, BP Sharjah DCS",
+      "unit": "serial I/O points",
+      "basis": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016), BP Sharjah System Details: 'Number of serial I/O: 2,500, 32 subsystems'. Read via r.jina.ai proxy 25 Nov 2026.",
+      "value": 2500,
+      "year": 2016,
+      "source": {
+        "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+        "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+      }
+    },
+    {
+      "metric": "Yokogawa CENTUM VP integrated prod — subsystems integrated, BP Sharjah DCS",
+      "unit": "subsystems",
+      "basis": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016), BP Sharjah System Details: '2,500, 32 subsystems' and 'The need to integrate 32 subsystems spanning a variety of communication protocols'. Read via r.jina.ai proxy 25 Nov 2026.",
+      "value": 32,
+      "year": 2016,
+      "source": {
+        "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+        "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+      }
+    },
+    {
+      "metric": "Yokogawa CENTUM VP integrated prod — cabinets, BP Sharjah DCS",
+      "unit": "cabinets",
+      "basis": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016), BP Sharjah System Details: 'Number of cabinets: 14 (including 8 extensions to existing cabinets)'. Read via r.jina.ai proxy 25 Nov 2026.",
+      "value": 14,
+      "year": 2016,
+      "source": {
+        "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+        "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+      }
     }
   ],
   "vendor_models": [
@@ -301,7 +345,8 @@
     "geg-vendor-yokogawa-electric-corporation-31fff",
     "siemens-gamesa",
     "valmet",
-    "tenaga-nasional-berhad"
+    "tenaga-nasional-berhad",
+    "gef-vendor-yokogawa-saudi-arabia-edd08"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -355,6 +400,22 @@
     },
     {
       "url": "https://www.yokogawa.com/us/solutions/products-and-services/control/control-and-safety-system/distributed-control-systems-dcs/centum/"
+    },
+    {
+      "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+      "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.automation.com/article/yokogawa-to-supply-two-dcses-for-combined-cycle-po",
+      "source_id": "gef-r-jina-ai-yokogawa-to-supply-two-dcses-for-c-c033e63"
+    },
+    {
+      "url": "https://patents.google.com/patent/EP2896099B1/en",
+      "source_id": "gef-patents-google-com-en-8913099"
+    },
+    {
+      "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+      "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
     }
   ],
   "gaps": [
@@ -367,6 +428,21 @@
       "what": "Plant Control System",
       "why": "Vendor brochures describe generic capability only; none states suitability for this SESB connection or 7 x gas engine configuration.",
       "next_action": "Request a written conformance statement tying the proposed platform to the Sabah Grid Code CC5.3/OC10 requirements."
+    },
+    {
+      "what": "Plant control system",
+      "why": "No printed DCS/package price, $/I/O point rate or MYR contract value for a plant control system for a 7-unit gas-engine generator plant was found in any page read.",
+      "next_action": "Obtain the project BOQ or DCS package award/LOA and quote the exact dated value, I/O point count and currency as printed; do not derive a price from plant MW."
+    },
+    {
+      "what": "Plant control system",
+      "why": "No source read connects a plant control/DCS contract to the 7-unit plant with the SESB 132/33/11 kV connection.",
+      "next_action": "Locate the plant's control and instrumentation specification or EPC contract and record its named vendor, date and scope before adding it."
+    },
+    {
+      "what": "Plant control system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

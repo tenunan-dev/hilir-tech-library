@@ -1,0 +1,26 @@
+{
+  "id": "132-kv-33-kv-substation-selangor",
+  "name": "132 kV/33 kV substation, Selangor",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "HE Group Berhad / Hexatech Engineering Sdn Bhd, approx. US$20 M (RM86 M).",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://switchgear-magazine.com/news/business/he-group-wins-20-m-substation-deal",
+      "source_id": "gef-switchgear-magazine-com-he-group-wins-20-m-s-f4964a6",
+      "note": "HE Group Berhad / Hexatech Engineering Sdn Bhd, approx. US$20 M (RM86 M)."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 132 kV substation."
+}

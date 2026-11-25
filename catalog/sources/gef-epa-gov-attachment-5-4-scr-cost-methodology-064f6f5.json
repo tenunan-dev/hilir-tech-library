@@ -1,0 +1,26 @@
+{
+  "id": "gef-epa-gov-attachment-5-4-scr-cost-methodology-064f6f5",
+  "name": "IPM Model SCR Cost Development Methodology for Oil/Gas-fired Boilers, Final February 2023",
+  "url": "https://www.epa.gov/system/files/documents/2023-12/attachment-5-4-scr-cost-methodology-for-oil-gas-fired-boilers.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Sargent & Lundy / Eastern Research Group for US EPA",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Project No. 13527-002, Final February 2023; costs in 2021 dollars; example is a 500 MW oil/gas boiler retrofit, NOT a gas engine. Fetched via r.jina.ai fallback 25 Nov 2026."
+}

@@ -59,6 +59,18 @@
       "url": "https://jml.com.sg/what-we-do/construction/projects",
       "source_id": "geg-jml-com-sg-projects-18172e3",
       "note": "JML scope: task force work - piping, mechanical, structural and E&I; industrial plant; client Mitsubishi Heavy Industries, Ltd."
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf",
+      "source_id": "gef-r-jina-ai-s355j2-steel-datasheet-pdf-058ba23"
+    },
+    {
+      "url": "https://r.jina.ai/https://parksidesteel.co.uk/technical-library/datasheets/s355-j2.pdf",
+      "source_id": "gef-r-jina-ai-s355-j2-pdf-6a166f8"
     }
   ],
   "gaps": [
@@ -66,6 +78,11 @@
       "what": "Unloading Station (steel structure)",
       "why": "No unloading-station structure specification, supplier or published rate found (unloaded material not identified in the line item).",
       "next_action": "Confirm what is unloaded (urea, diesel, chemicals) and source a comparable unloading facility tender/rate."
+    },
+    {
+      "what": "Unloading station (steel structure)",
+      "why": "No published steel-structure rate, award value or sized reference project for a gas-engine unloading station.",
+      "next_action": "Obtain the unloading-station structural steel rate and the project award value"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

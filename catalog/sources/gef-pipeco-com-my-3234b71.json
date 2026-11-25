@@ -1,0 +1,26 @@
+{
+  "id": "gef-pipeco-com-my-3234b71",
+  "name": "PIPECO Tanks Malaysia - GRP Sectional Water Tank",
+  "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "PIPECO Tanks Malaysia",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Page read directly 25 Nov 2026; general specifications and panel performance table transcribed as printed. No price published."
+}

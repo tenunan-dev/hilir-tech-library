@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-yokogawa-58f2a",
+  "name": "Yokogawa",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Yokogawa named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
+      "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

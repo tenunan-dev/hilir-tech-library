@@ -316,6 +316,69 @@
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
       }
+    },
+    {
+      "metric": "Instrument air compressor, dryer a — Instrument air quality class (ISA interpretation per CAGI)",
+      "unit": "ISO 8573-1:2010 [particles:water:oil]",
+      "basis": "CAGI Compressed Air Purity Guide (2025 document), Instrument Air section: 'The Instrument Society of America's Quality Standard for Instrument Air can be interpreted as Class [2:<4:3] per ISO 8573-1 and it is a globally recognized specification for instrument-quality air'; read via r.jina.ai fallback 25 Nov 2026 (value: 2:<4:3)",
+      "year": 2025,
+      "source": {
+        "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
+        "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
+      }
+    },
+    {
+      "metric": "Instrument air compressor, dryer a — ISO 8573-1 class 2 particles, 0.1-0.5 micron",
+      "unit": "particles/m3 max",
+      "basis": "CAGI Compressed Air Purity Guide, Table 1 ISO 8573-1:2010 (reproduced with ANSI permission): class 2 particle limit 400,000 per m3 at 0.1-0.5 microns",
+      "value": 400000,
+      "year": 2010,
+      "source": {
+        "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
+        "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
+      }
+    },
+    {
+      "metric": "Instrument air compressor, dryer a — ISO 8573-1 class 3 pressure dew point",
+      "unit": "deg C (pressure dew point, less than)",
+      "basis": "Same CAGI guide Table 1: class 3 water vapour pressure dew point < -20 deg C (< -4 deg F)",
+      "value": -20,
+      "source": {
+        "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
+        "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
+      }
+    },
+    {
+      "metric": "Instrument air compressor, dryer a — ISO 8573-1 class 3 total oil",
+      "unit": "mg/m3 max",
+      "basis": "Same CAGI guide Table 1: class 3 oil (liquid, aerosol and vapour) < 1 mg/m3",
+      "value": 1,
+      "source": {
+        "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
+        "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
+      }
+    },
+    {
+      "metric": "Instrument air compressor, dryer a — Desiccant dryer achievable dew point",
+      "unit": "deg F (-40 deg C)",
+      "basis": "SKF Separator Filter Dryer (SFD) brochure attached to Staab change order PDF: 'Low dew points to -40 deg F (-40 deg C)'; read via r.jina.ai fallback 25 Nov 2026",
+      "value": -40,
+      "year": 2026,
+      "source": {
+        "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+        "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
+      }
+    },
+    {
+      "metric": "Instrument air compressor, dryer a — Compressor package rating (example quoted unit)",
+      "unit": "CFM at 175 PSIG",
+      "basis": "Staab change order no. 8, 6 May 2024: Quincy QT-Series oil-lubricated reciprocating air compressor package rated 17.4 CFM at 175 PSIG, 5 HP motor, mounted on 80-gallon ASME vertical receiver tank",
+      "value": 17.4,
+      "year": 2024,
+      "source": {
+        "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+        "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
+      }
     }
   ],
   "vendor_models": [
@@ -338,7 +401,9 @@
   "vendors": [
     "geg-vendor-hadetec-nijkerk-netherlands-rootselaar-group-24844",
     "geg-vendor-comair-shanghai-china-454ad",
-    "geg-vendor-nano-purification-solutions-asia-pacific-singapore-de333"
+    "geg-vendor-nano-purification-solutions-asia-pacific-singapore-de333",
+    "geg-vendor-quincy-d83ac",
+    "gef-vendor-skf-sfd-dryer-5bb8b"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -368,6 +433,18 @@
       "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
       "source_id": "geg-focusmalaysia-my-kinergy-secures-biggest-epc-2381482",
       "note": "LOA dated 13 May 2025 from Rancha Power (PETRONAS Gas / SESB / SEC Power JV formed 31 Dec 2024) to KAB Energy Holdings / Kinergy Advancement Bhd; nine acres adjacent Labuan Shipyard. Instrument-air pa"
+    },
+    {
+      "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
+      "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
+    },
+    {
+      "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+      "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
+    },
+    {
+      "url": "https://patents.google.com/patent/KR20140068181A/en",
+      "source_id": "gef-patents-google-com-en-aa783b6"
     }
   ],
   "gaps": [
@@ -390,6 +467,21 @@
       "what": "Instrument Air System Package",
       "why": "No named, dated, sized, located instrument-air reference project was printed in any source read.",
       "next_action": "Request reference lists from HADETEC, Comair or Aerodyn Group Malaysia."
+    },
+    {
+      "what": "Instrument air system",
+      "why": "No project-specific instrument air demand, purity class, compressor/drier configuration, receiver size, vendor or awarded price for the 7-unit SESB plant was found; the available priced example is a small US wastewater plant compressor package, not a plant instrument air package.",
+      "next_action": "Obtain the instrument air package BOQ, required ISO 8573-1 class, compressor/drier sizing and awarded quotation from project documents."
+    },
+    {
+      "what": "Instrument air system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Instrument air system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

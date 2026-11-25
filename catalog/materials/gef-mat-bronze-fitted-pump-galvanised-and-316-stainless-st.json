@@ -1,0 +1,36 @@
+{
+  "id": "gef-mat-bronze-fitted-pump-galvanised-and-316-stainless-st",
+  "name": "Bronze-fitted pump; galvanised and 316 stainless steel cooling loop options",
+  "material_category": "fire-pump-materials",
+  "description": "Bronze-fitted pump; galvanised and 316 stainless steel cooling loop options named on a page read in the GEG gap-fill for Fire fighting system.",
+  "specifications": [
+    {
+      "metric": "Pump fitting material",
+      "unit": "n/a",
+      "basis": "Aurora/Clarke fire pump price list Section 913, dated 01/01/20, PUMP description (value: Bronze-fitted)",
+      "source": {
+        "url": "https://4260356.fs1.hubspotusercontent-na2.net/hubfs/4260356/web%20price%20pages/Aurora/913%20horz%20diesel%20price%20pages%20(1).pdf",
+        "source_id": "gef-4260356-fs1-hubspotusercontent-na2-net-913-2-ab32bb5"
+      }
+    },
+    {
+      "metric": "Cooling loop material options",
+      "unit": "n/a",
+      "basis": "Same price list, Cooling Loop List Adders table (value: Standard 250 PSI cooling loop included; options include seawater cooling loop, 3)",
+      "source": {
+        "url": "https://4260356.fs1.hubspotusercontent-na2.net/hubfs/4260356/web%20price%20pages/Aurora/913%20horz%20diesel%20price%20pages%20(1).pdf",
+        "source_id": "gef-4260356-fs1-hubspotusercontent-na2-net-913-2-ab32bb5"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-fire-fighting-system"
+  ],
+  "sources": [
+    {
+      "url": "https://4260356.fs1.hubspotusercontent-na2.net/hubfs/4260356/web%20price%20pages/Aurora/913%20horz%20diesel%20price%20pages%20(1).pdf",
+      "source_id": "gef-4260356-fs1-hubspotusercontent-na2-net-913-2-ab32bb5"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

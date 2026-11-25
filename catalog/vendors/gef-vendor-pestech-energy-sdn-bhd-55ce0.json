@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-pestech-energy-sdn-bhd-55ce0",
+  "name": "Pestech Energy Sdn Bhd",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Pestech Energy Sdn Bhd named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

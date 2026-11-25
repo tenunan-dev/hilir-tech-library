@@ -1,0 +1,28 @@
+{
+  "id": "gef-mat-adss-fibre-optic-cable",
+  "name": "ADSS fibre optic cable",
+  "material_category": "telecommunication-cable",
+  "description": "ADSS fibre optic cable named on a page read in the GEG gap-fill for Telecommunication and network infrastructure.",
+  "specifications": [
+    {
+      "metric": "cable technology named in tender scope",
+      "unit": "n/a",
+      "basis": "SESB Tender T.9459 title read 25 Nov 2026: 'Tender For Schedule Rate For The Repair & Maintenance Works Of Sabah Electricity's Fiber Optic Cable (ADSS AND OPUG)'. No size, length or unit rate printed. (value: ADSS)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9459.aspx",
+        "source_id": "gef-sesb-com-my-tender-t-9459-aspx-d6cb7c7"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-telecommunication-and-network-infrastructure"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9459.aspx",
+      "source_id": "gef-sesb-com-my-tender-t-9459-aspx-d6cb7c7"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

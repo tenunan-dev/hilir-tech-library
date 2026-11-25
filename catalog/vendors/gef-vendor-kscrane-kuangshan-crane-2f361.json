@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-kscrane-kuangshan-crane-2f361",
+  "name": "KSCRANE (Kuangshan Crane)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "KSCRANE (Kuangshan Crane) named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://vibrantengineering.com.my/products/overhead-crane",
+      "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

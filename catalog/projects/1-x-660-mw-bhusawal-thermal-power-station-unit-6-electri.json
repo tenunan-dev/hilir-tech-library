@@ -1,0 +1,26 @@
+{
+  "id": "1-x-660-mw-bhusawal-thermal-power-station-unit-6-electri",
+  "name": "1 x 660 MW Bhusawal Thermal Power Station Unit-6 - Electric Lab Equipment package",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "India",
+  "location": "India",
+  "status": "operating",
+  "description": "Owner Maharashtra State Power Generation Company Ltd; BHEL Power Sector Project Engineering Management, Noida. Annexure-A is an explicitly UNPRICED schedule; quantities and technical parameters are printed, equipment prices are blank.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
+      "source_id": "gef-tenders-bhel-com-technical-specification-and-ef841fa",
+      "note": "Owner Maharashtra State Power Generation Company Ltd; BHEL Power Sector Project "
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Electrical laboratory test equipment."
+}

@@ -1,0 +1,37 @@
+{
+  "id": "gef-mat-isolated-phase-bus-duct-copper-conductor",
+  "name": "Isolated phase bus duct (copper conductor)",
+  "material_category": "bus-duct",
+  "description": "Isolated phase bus duct (copper conductor) named on a page read in the GEG gap-fill for Bus duct.",
+  "specifications": [
+    {
+      "metric": "Rated voltage as printed",
+      "unit": "V",
+      "basis": "Busway Electric India product page: Isolated Phase Bus Duct, material copper, rated voltage 690 V, bolted joints, high insulation. Page read 2026-11-25. (value: 690 V)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.buswayelectric.in/bus-ducts.html",
+        "source_id": "gef-buswayelectric-in-bus-ducts-html-9c241f5"
+      }
+    },
+    {
+      "metric": "Enclosure / surface finish",
+      "unit": "n/a",
+      "basis": "Same product entry: 'Surface Finish Powder coated', mounting wall/floor supported, rectangular segments. (value: Powder coated)",
+      "source": {
+        "url": "https://www.buswayelectric.in/bus-ducts.html",
+        "source_id": "gef-buswayelectric-in-bus-ducts-html-9c241f5"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-bus-duct"
+  ],
+  "sources": [
+    {
+      "url": "https://www.buswayelectric.in/bus-ducts.html",
+      "source_id": "gef-buswayelectric-in-bus-ducts-html-9c241f5"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

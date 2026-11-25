@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-nvent-f50b6",
+  "name": "nVent",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "nVent named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
+      "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

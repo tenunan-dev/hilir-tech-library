@@ -1,0 +1,26 @@
+{
+  "id": "132-kv-mss-kayu-madang-sepanggar-kota-kinabalu-sabah",
+  "name": "132 kV MSS Kayu Madang, Sepanggar, Kota Kinabalu, Sabah",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "One 90 MVA 132/33/11 kV and one 30 MVA 132/11 kV power transformer; BUMISEM / SESB",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008",
+      "note": "One 90 MVA 132/33/11 kV and one 30 MVA 132/11 kV power transformer; BUMISEM / SE"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 132 kV switchgear room."
+}

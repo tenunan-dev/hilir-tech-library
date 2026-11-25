@@ -1,0 +1,26 @@
+{
+  "id": "saudi-electricity-company-pp13-and-pp14-combined-cycle-p",
+  "name": "Saudi Electricity Company PP13 and PP14 combined-cycle power plants, Riyadh - CENTUM VP DCS and OTS orders",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Saudi Arabia",
+  "location": "Saudi Arabia",
+  "status": "operating",
+  "description": "Automation.com, 3 March 2015 (source Yokogawa Corporation of America), read via r.jina.ai: each plant has 'a combined net electric output of 1,980 MW'; PP13 blocks 1 and 2 scheduled May and October 2016, PP14 November 2016 and April 2017; CENTUM VP covers gas turbines, heat recovery boilers, steam turbines and electric systems (IEC 61850) plus a plant operator training simulator. Yokogawa Saudi Arabia also received a 2012 order for the 2,175 MW PP12 plant. No order value printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.automation.com/article/yokogawa-to-supply-two-dcses-for-combined-cycle-po",
+      "source_id": "gef-r-jina-ai-yokogawa-to-supply-two-dcses-for-c-c033e63",
+      "note": "Automation.com, 3 March 2015 (source Yokogawa Corporation of America), read via "
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Plant control system."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "gef-tenders-bhel-com-technical-specification-and-ef841fa",
+  "name": "BHEL - 1x660MW Bhusawal Unit-6 TPS, Electric Lab Equipment technical specification and unpriced schedule",
+  "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Bharat Heavy Electricals Limited, Power Sector Project Engineering Management, Noida",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Direct PDF fetch unsupported by WebFetch; PDF read via https://r.jina.ai/<url> (jina.ai proxy used). Spec Rev.0 dated 19 March 2026; hosted 26 March 2026; equipment prices blank, only demonstration charges priced."
+}

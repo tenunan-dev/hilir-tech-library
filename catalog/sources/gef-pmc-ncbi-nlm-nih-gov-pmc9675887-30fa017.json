@@ -1,0 +1,26 @@
+{
+  "id": "gef-pmc-ncbi-nlm-nih-gov-pmc9675887-30fa017",
+  "name": "Recent trends in vanadium-based SCR catalysts for NOx reduction in industrial applications: stationary sources",
+  "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9675887",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Nano Convergence / Korean Institute of Industrial Technology",
+  "access": "open",
+  "licence": "CC BY 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Published 19 Nov 2022; PMCID PMC9675887; read directly 25 Nov 2026."
+}

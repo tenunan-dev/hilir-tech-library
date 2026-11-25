@@ -8,6 +8,16 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.25.6] — 2026-11-25 — Targeted evidence gap-fill on GEG core items
+
+Six agents filled the missing categories on the analysed core items. Closed 27 price gaps, 19 project
+gaps, 33 patent gaps, 18 drawing gaps, 10 material gaps, 4 standards and 9 reliability figures.
+Only "Other commissioning items (bidder to specify)" remains with zero evidence.
+
+Sources 2,225 -> 2,334; vendors 1,306 -> 1,342; projects 1,046 -> 1,116; drawings 334 -> 345;
+materials 217 -> 249. `pytest -q tests`: **3,794 passed, 13 skipped**. Neon reloaded; no container deploy.
+
+
 ## [2026.11.25.5] — 2026-11-25 — GEG plant WBS entries re-mapped to core items
 
 Owner review: the project codename was not a location and the BOQ text had been quoted verbatim.

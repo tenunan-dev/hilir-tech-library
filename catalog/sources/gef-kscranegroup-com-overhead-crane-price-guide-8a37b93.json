@@ -1,0 +1,26 @@
+{
+  "id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93",
+  "name": "KSCRANE Overhead Crane Price Guide: A Realistic & Practical Cost Breakdown for You",
+  "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "KSCRANE (Kuangshan Crane)",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Dated 03 July 2025; read directly 25 Nov 2026. Vendor states prices are for general reference only, actual prices may vary; dollar year not stated on the price tables. Conflicting prices for similar 32 t cranes retained side by side."
+}

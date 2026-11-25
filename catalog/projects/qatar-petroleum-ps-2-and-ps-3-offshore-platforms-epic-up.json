@@ -1,0 +1,26 @@
+{
+  "id": "qatar-petroleum-ps-2-and-ps-3-offshore-platforms-epic-up",
+  "name": "Qatar Petroleum PS-2 and PS-3 offshore platforms - EPIC upgrade of instruments and control systems",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Qatar",
+  "location": "Qatar",
+  "status": "operating",
+  "description": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016): Yokogawa Middle East awarded the engineering, procurement, installation and commissioning contract for the control-system upgrade at PS-2 and PS-3 in the Maydan Mahzam and Bul Hanine fields; replacement of Honeywell DCS, GE Fanuc PLC and pneumatic controllers with a FOUNDATION Fieldbus-enabled CENTUM CS 3000 DCS; nearly 1,000 FF devices; Cutover within a 30-day shutdown. No contract value printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+      "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8",
+      "note": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016): Yokogawa Middle East awarded t"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Field instrumentation."
+}

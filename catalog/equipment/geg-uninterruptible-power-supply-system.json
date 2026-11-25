@@ -189,6 +189,10 @@
     {
       "url": "https://r.jina.ai/https://www.vertiv.com/48ea97/globalassets/products/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-apm-plus-brochure.pdf",
       "source_id": "geg-r-jina-ai-vertiv-liebert-apm-plus-brochure-p-deae68a"
+    },
+    {
+      "url": "https://patents.google.com/patent/KR101029249B1/en",
+      "source_id": "gef-patents-google-com-en-bff9241"
     }
   ],
   "gaps": [
@@ -206,6 +210,21 @@
       "what": "UPS System",
       "why": "Vertiv brochures mention 'patented Vector Control technology' but print no patent number, title, assignee or year.",
       "next_action": "Query a patent database only if patent evidence is required; do not infer a number."
+    },
+    {
+      "what": "Uninterruptible power supply system",
+      "why": "No UPS price or named, dated, sized, located reference project was recorded: the Bank Negara Malaysia UPS tender page returned HTTP 403 on direct fetch, and the Penang MBPP UPS award PDF could not be read through either WebFetch or r.jina.ai (422). Search results alone were not admitted as evidence.",
+      "next_action": "Read an accessible UPS award notice or power-plant UPS package document stating capacity (kVA), price and year."
+    },
+    {
+      "what": "Uninterruptible power supply system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Uninterruptible power supply system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

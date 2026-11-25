@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-powerwell-holdings-berhad-94ea2",
+  "name": "Powerwell Holdings Berhad",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Powerwell Holdings Berhad named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+      "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

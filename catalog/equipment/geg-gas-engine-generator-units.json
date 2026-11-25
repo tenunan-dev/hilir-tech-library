@@ -538,6 +538,14 @@
       "url": "https://patents.google.com/patent/US9249723B2/en",
       "source_id": "geg-patents-google-com-en-db1245d",
       "note": "Google Patents page read. Publication date 2016-02-02; priority 2014-06-13; inventor Seyfettin C. Gulens (printed Seyfettin C. Gülen). Page names Wärtsilä 18V50SG and GE Jenbacher J920 as example pist"
+    },
+    {
+      "url": "https://patents.google.com/patent/JPWO2011125976A1/en",
+      "source_id": "gef-patents-google-com-en-b433ba6"
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/downloads/w34sg-leaflet.pdf?sfvrsn=7c482542_1",
+      "source_id": "gef-wartsila-com-w34sg-leaflet-pdf-3852bf4"
     }
   ],
   "gaps": [
@@ -555,6 +563,11 @@
       "what": "GEG (7 units)",
       "why": "No dated contract specifically for a 7-unit gas-engine plant was found; dated contracts located cover four Wärtsilä 34SG engines (Mertaniemi, Q4 2026), 16 x 20V34SG (Brazil, 18 November 2021), seven W18V38 (2001) and seven W18V46 (2009/2011), the latter two being oil-fuel plants.",
       "next_action": "Locate and read the GEG supply or EPC contract award notice; record its exact date, parties, unit count and rating without reconciling it against the other projects."
+    },
+    {
+      "what": "Gas engine generator units",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

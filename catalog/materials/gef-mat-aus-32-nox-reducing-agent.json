@@ -1,0 +1,28 @@
+{
+  "id": "gef-mat-aus-32-nox-reducing-agent",
+  "name": "AUS 32 NOx reducing agent",
+  "material_category": "chemical",
+  "description": "AUS 32 NOx reducing agent named on a page read in the GEG gap-fill for Commissioning equipment and consumables.",
+  "specifications": [
+    {
+      "metric": "application",
+      "unit": "specification",
+      "basis": "MTU A001072/02E, 2020-06, contents section 5.2 'NOx reducing agent AUS 32 for SCR exhaust gas aftertreatment systems'. (value: AUS 32 for SCR exhaust gas aftertreatment systems)",
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-commissioning-equipment-and-consumables"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+      "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

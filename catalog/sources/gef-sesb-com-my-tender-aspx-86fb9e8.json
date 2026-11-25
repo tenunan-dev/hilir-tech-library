@@ -1,0 +1,25 @@
+{
+  "id": "gef-sesb-com-my-tender-aspx-86fb9e8",
+  "name": "SESB Tender / Quotation List",
+  "url": "https://www.sesb.com.my/Tender.aspx",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Sabah Electricity Sdn. Bhd.",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch 25 Nov 2026. Live listing; no publication date printed. Contains T.9073 RFP for Business Intelligent Solution and Platform with closing date 28/02/2024 and status In-Progress."
+}

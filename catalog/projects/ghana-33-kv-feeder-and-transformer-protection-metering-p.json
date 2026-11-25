@@ -1,0 +1,26 @@
+{
+  "id": "ghana-33-kv-feeder-and-transformer-protection-metering-p",
+  "name": "Ghana 33 kV feeder and transformer protection/metering panels",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Ghana",
+  "location": "Ghana",
+  "status": "operating",
+  "description": "Neeco Trading: 34 x 33 kV feeder panels and 10 x 33 kV transformer protection and metering panels, factory tested and delivered.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "Neeco Trading: 34 x 33 kV feeder panels and 10 x 33 kV transformer protection an"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 33 kV substation."
+}

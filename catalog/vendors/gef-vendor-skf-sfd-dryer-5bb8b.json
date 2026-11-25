@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-skf-sfd-dryer-5bb8b",
+  "name": "SKF (SFD dryer)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "SKF (SFD dryer) named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+      "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

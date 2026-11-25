@@ -1,0 +1,26 @@
+{
+  "id": "rfp-for-the-development-of-sesb-business-intelligent-sol",
+  "name": "RFP for the Development of SESB Business Intelligent Solution and Platform (T.9073)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "SESB tender-status listing gives the title and 'Closing Date: 28/02/2024', 'Award Date: In-Progress'. No scope detail, supplier or contract value is printed on the page.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sesb.com.my/Tender.aspx",
+      "source_id": "gef-sesb-com-my-tender-aspx-86fb9e8",
+      "note": "SESB tender-status listing gives the title and 'Closing Date: 28/02/2024', 'Awar"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Energy billing system."
+}

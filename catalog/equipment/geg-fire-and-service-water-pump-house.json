@@ -72,6 +72,18 @@
       "url": "https://jml.com.sg/what-we-do/construction/projects",
       "source_id": "geg-jml-com-sg-projects-18172e3",
       "note": "JML scope: steel structure/equipment erection, piping and painting for process area and boiler package; industrial plant; client Samsung Engineering (Malaysia) Sdn Bhd."
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://standards.ieee.org/ieee/979/7242",
+      "source_id": "geg-standards-ieee-org-7242-9cb8c7d"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
     }
   ],
   "gaps": [
@@ -79,6 +91,11 @@
       "what": "Fire/ Service Water Pump House (upper steel 9x28x6)",
       "why": "No fire/service water pump datasheet, pump count or pump-house unit rate was found; NFPA 20 is a design standard only, not a price source.",
       "next_action": "Obtain the fire pump schedule/datasheet and a Malaysian fire-pump-house tender rate."
+    },
+    {
+      "what": "Fire and service water pump house",
+      "why": "No published price for fire pumps or a fire/service water pump house; NFPA 20 and NFPA 22 pages returned no readable content to WebFetch, so no figures were taken from them. IEEE 979-2025 was read but addresses substation fire protection generally.",
+      "next_action": "Obtain the fire-pump package quote and a readable NFPA 20/22 source for inspection frequencies"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

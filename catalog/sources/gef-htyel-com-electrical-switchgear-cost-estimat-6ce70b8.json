@@ -1,0 +1,25 @@
+{
+  "id": "gef-htyel-com-electrical-switchgear-cost-estimat-6ce70b8",
+  "name": "HTYEL Electric - Electrical switchgear cost estimate: a practical pricing guide",
+  "url": "https://www.htyel.com/electrical-switchgear-cost-estimate-a-practical-pricing-guide",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Shenyang HTYEL Electric Co., Ltd.",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Page read 2026-11-25; article dated 8 October 2026; benchmarks attributed in text to RSMeans Electrical Cost Data, Gordian database and vendor surveys; not awards."
+}

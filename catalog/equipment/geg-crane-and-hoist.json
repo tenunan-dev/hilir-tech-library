@@ -194,6 +194,46 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
       }
+    },
+    {
+      "metric": "LH top running double girder overh — Capacity",
+      "unit": "ton",
+      "basis": "KSCRANE 'Overhead Crane Price Guide', 03 July 2025, Case 2: 'Capacity: 10 ton; Span 22.5 m; Lifting height 9 m; Lifting speed 7 m/min; Working Duty A4; Control Method Floor control; Price: 20,714 USD'. Page read directly 25 Nov 2026",
+      "value": 10,
+      "year": 2025,
+      "source": {
+        "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
+        "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
+      }
+    },
+    {
+      "metric": "LH top running double girder overh — Span",
+      "unit": "m",
+      "basis": "Same KSCRANE Case 2, priced example",
+      "value": 22.5,
+      "source": {
+        "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
+        "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
+      }
+    },
+    {
+      "metric": "LH top running double girder overh — Lifting height",
+      "unit": "m",
+      "basis": "Same KSCRANE Case 2, priced example",
+      "value": 9,
+      "source": {
+        "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
+        "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
+      }
+    },
+    {
+      "metric": "LH top running double girder overh — Working duty",
+      "unit": "FEM duty class",
+      "basis": "Same KSCRANE Case 2, priced example; FEM standard duty classes A3-A6 listed elsewhere on the page (value: A4)",
+      "source": {
+        "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
+        "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
+      }
     }
   ],
   "vendor_models": [
@@ -210,7 +250,8 @@
   ],
   "vendors": [
     "geg-vendor-vibrant-engineering-services-sdn-bhd-798115-t-pela-1f1a0",
-    "geg-vendor-dafang-crane-dgcrane-com-1e13a"
+    "geg-vendor-dafang-crane-dgcrane-com-1e13a",
+    "gef-vendor-kscrane-kuangshan-crane-2f361"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -232,6 +273,14 @@
       "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
       "source_id": "geg-focusmalaysia-my-kinergy-secures-biggest-epc-2381482",
       "note": "LOA dated 13 May 2025 from Rancha Power (PETRONAS Gas / SESB / SEC Power JV formed 31 Dec 2024) to KAB Energy Holdings / Kinergy Advancement Bhd; nine acres adjacent Labuan Shipyard. Crane/hoist packa"
+    },
+    {
+      "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
+      "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
+    },
+    {
+      "url": "https://patents.google.com/patent/JP2012126528A/en",
+      "source_id": "gef-patents-google-com-en-5f59bcf"
     }
   ],
   "gaps": [
@@ -249,6 +298,21 @@
       "what": "Crane & Hoist",
       "why": "Reference prices are vendor list prices in USD dated 2025/2026, not a Malaysian delivered-and-installed price including JKKP certification.",
       "next_action": "Obtain a local delivered-and-certified quotation for the required capacity and span."
+    },
+    {
+      "what": "Crane and hoist",
+      "why": "No project-specific crane/hoist capacity, span, duty class, quantity or awarded price for the 7-unit SESB powerhouse was found; printed vendor reference prices conflict for the same nominal 32 ton capacity (63,000 / 107,342 / 360,000 USD).",
+      "next_action": "Obtain the crane and hoist schedule (capacity, span, duty, quantity) and awarded quotation from project documents; treat the printed vendor guide prices as reference only."
+    },
+    {
+      "what": "Crane and hoist",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Crane and hoist",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

@@ -62,6 +62,48 @@
         "url": "https://www.wartsila.com/mys",
         "source_id": "geg-wartsila-com-mys-1e8ef98"
       }
+    },
+    {
+      "metric": "MAN 175D standardised spare parts  — number of standardised spare parts packages",
+      "unit": "packages",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D', printed June 2022, p.6: 'For the MAN 175D you can select four standardized spare parts packages' - post-commissioning, mechanical, after-treatment and automation packages.",
+      "value": 4,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    },
+    {
+      "metric": "MAN 175D standardised spare parts  — prompt delivery target for high-demand OEM spare parts",
+      "unit": "hours",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.15: 'Prompt delivery of high-demand OEM spare parts within 24 hours'; same page notes a network of over 100 service centres worldwide and 24/7 service.",
+      "value": 24,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    },
+    {
+      "metric": "MAN 175D standardised spare parts  — local stock of consumable parts",
+      "unit": "printed offer",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.2: 'Local stocks of consumable parts can be provided upon request'; original spare parts supplied from main stock and warehouse facilities in Denmark.",
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    },
+    {
+      "metric": "Reconditioned exchange components — components offered as reconditioned units on exchange basis",
+      "unit": "printed component list",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.8: 'Components offered as reconditioned units on exchange basis are cylinder heads, turbochargers, fuel injectors and cooling water pumps'; re-manufactured at the MAN 175D production centre in Frederikshavn, Denmark, with the same warranty terms and quality as new units at lower cost.",
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
     }
   ],
   "vendor_models": [
@@ -113,6 +155,11 @@
       "what": "2-Year Operational Spares (exclude MAN spare part)",
       "why": "No published 2-year operational spares list, quantity or price for non-MAN equipment for this plant was found. MAN's printed packages are expressly excluded by the BOQ wording.",
       "next_action": "Obtain the bidder's 2-year spares schedule with part numbers and prices, and keep MAN items out of this line item."
+    },
+    {
+      "what": "Two-year operational spares",
+      "why": "No two-year operating-spares list, quantity, unit price or awarded spares contract for a 7-unit gas engine generator plant was found. MAN PrimeServ's June 2022 brochure prints four standardised packages, a 24-hour delivery target and reconditioned exchange components, but no two-year scope or price,",
+      "next_action": "Obtain a priced two-year spares schedule from the bidder/OEM; do not treat the four generic MAN packages as the project's two-year spares."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

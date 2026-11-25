@@ -21,6 +21,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Administratrion Building (reinforced concrete 13x35x7.5) — Find a comparable Malaysian industrial administration-building tender or CIDB benchmark.
+- Administration building (reinforced concrete) — Obtain the priced BQ for the building or a dated Sabah industrial-building RM/m2 benchmark
 
 ## aeration
 
@@ -302,7 +303,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Black start diesel generator for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Cummins (1 model lines recorded).
+Vendors: Cummins, H&C Diesel Generator Manufacture (H&C Import & Export Co., Ltd), Rolls-Royce Power Systems (mtu), Leroy-Somer (alternator), ComAp (1 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -317,6 +318,9 @@ Vendors: Cummins (1 model lines recorded).
 | Black-start diesel generating package  — Diesel generator efficiency at full / half load | 42 % at full load / about 37% at half load, before auxiliary plant load | Electrical Engineering Portal article 2024-08-19, section 1.3 Fuel storage requirements; read 2026-11-25 |
 | Black-start diesel generating package  — Black Start definition under Sabah Distribution Code | Sabah Distribution Code glossary, 'Black Start'; PDF posted 2024-01-05; read ... | Sabah Distribution Code glossary, 'Black Start'; PDF posted 2024-01-05; read via r.jina.ai 2026-11-25 (value: the procedure necessary for a recovery from a Total Blackout or Partial Blackout) |
 | Black-start diesel generating package  — Distributed Generating Unit definition | Sabah Distribution Code glossary; read via r.jina.ai 2026-11-25 (value: a Gen... | Sabah Distribution Code glossary; read via r.jina.ai 2026-11-25 (value: a Generating Unit connected to the Distribution System identified as being capab) |
+| Black start diesel generator syste — Total standby rated power | 23000 kW | H&C Oman IBRI case page: 'Rated Power (Standby) 23,000 kW (23 MW) Total'; eight units of 2,875 kW each; year delivered 2019; page read 2026-11-25. |
+| Black start diesel generator syste — Generator voltage | 11 kV | Same H&C case page, technical specifications table: 'Voltage / Frequency 11 kV' (frequency not printed as a value), rated speed 1500 RPM. |
+| Black start diesel generator syste — Engine model per unit | H&C case page: 'Engine MTU 20V4000G63 (per unit)', 'Alternator Leroy-Somer LS... | H&C case page: 'Engine MTU 20V4000G63 (per unit)', 'Alternator Leroy-Somer LSA 53', 'Controller ComAp InteliSys'. Text value, no numeric figure. |
 
 - **Cummins** Cummins commercial diesel generator sets, International 50 Hz range: diesel generator set (standby / prime / DCC rated)
 
@@ -325,6 +329,8 @@ Recorded gaps:
 - Black Start Diesel Generator Package — Obtain the package datasheet and the SESB black-start service requirement before assigning a rating.
 - Black Start Diesel Generator Package — Add the rate with date and currency when sourced.
 - Black Start Diesel Generator Package — Keep patents empty until read.
+- Black start diesel generator — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Black start diesel generator — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## boiler
 
@@ -622,6 +628,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Building for BSDG (steel structure 10x3x5) — Confirm BSDG = black-start diesel generator from project documents; then source a comparable diesel-genset building tender.
+- Black start generator building — Obtain the black-start facility scope, priced BQ and a dated Malaysian reference project
 
 ## bucket
 
@@ -723,7 +730,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Bus duct for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
+Vendors: Supplier not identified in sources read (WBS line item), nVent, Busway Electric India Pvt Ltd, Daqo Group (QLFM isolated phase bus duct) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -745,6 +752,8 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 | ABB WavePro-R cast resin busway — rated short-time withstand current (Icw) | 30-100 kA | ABB WavePro Series Busway Leaflet 1SXH3432025 REV A 04-2022, copyright 2022 ABB: WavePro-R 'Rated short-time withstand current (Icw) 30kA - 100kA'. |
 | ABB WavePro-R cast resin busway — degree of protection | ABB WavePro Series Busway Leaflet 1SXH3432025 REV A 04-2022, copyright 2022 A... | ABB WavePro Series Busway Leaflet 1SXH3432025 REV A 04-2022, copyright 2022 ABB: 'The protection degree is up to IP68 for feeder busway which comply with the requirements of IEC 60529'. |
 | ABB WavePro-R cast resin busway — insulation class | ABB WavePro Series Busway Leaflet 1SXH3432025 REV A 04-2022, copyright 2022 A... | ABB WavePro Series Busway Leaflet 1SXH3432025 REV A 04-2022, copyright 2022 ABB: 'Insulation class Class B (130°C)'. |
+| Isolated phase bus duct / busbar t — Isolated phase bus current rating, air-cooled | 600 A | nVent isolated phase bus product page: 'Current: 600-25,000 (air-cooled), up to 50,000 amps (forced-air cooled)'. Page read 2026-11-25; undated. |
+| Isolated phase bus duct / busbar t — Isolated phase bus voltage range | 15-38 kV | Same nVent page: 'Voltage: 15kV-38kV'; insulation levels 110-200 kV BIL; momentary current up to 1,000,000+ A asymmetrical. |
 
 
 Recorded gaps:
@@ -752,6 +761,7 @@ Recorded gaps:
 - Bus Duct (between LV switchgear) — Obtain the LV switchgear/busway tender pricing and the awarded bus duct layout with quantities.
 - Bus Duct (between LV switchgear) — Retrieve the LV single-line diagram and busway schedule from the project design package.
 - Bus Duct (between LV switchgear) — Do not infer patent numbers; query a patent database only if required.
+- Bus duct — Find a dated generator bus duct supply contract with value, current rating and plant location.
 
 ## busbar-pt-132kv
 
@@ -779,6 +789,7 @@ Recorded gaps:
 - Busbar PT - 132KV 40kA (3s) — Obtain the substation package pricing, the PT/CVT manufacturer data sheet and the awarded project reference list.
 - Busbar PT - 132KV 40kA (3s) — Obtain the 132 kV switchgear short-time rating and the offered VT type-test certificate showing 40 kA/3 s.
 - Busbar PT - 132KV 40kA (3s) — Retrieve the SESB 132 kV interface specification and the vendor's VT data sheet/drawings.
+- 132 kV busbar potential transformer — Read an accessible OEM catalogue or tender page giving a 132 kV busbar VT rating, price and date.
 
 ## busbar-pt-33kv
 
@@ -806,6 +817,8 @@ Recorded gaps:
 - Busbar PT - 33kV 40kA (3s) — Obtain the substation package pricing, the VT manufacturer data sheet and the awarded project reference list.
 - Busbar PT - 33kV 40kA (3s) — Obtain the 33 kV switchgear short-time rating and the offered VT type-test certificate showing 40 kA/3 s.
 - Busbar PT - 33kV 40kA (3s) — Retrieve the SESB 33 kV interface specification and the vendor's VT data sheet/drawings.
+- 33 kV busbar potential transformer — Read an accessible 33 kV busbar VT tender or catalogue page with date and price.
+- 33 kV busbar potential transformer — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## busway
 
@@ -834,7 +847,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 HV and LV cables with cable trays and accessories for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
+Vendors: Supplier not identified in sources read (WBS line item), Southern Cable Group Berhad / Southern Cable Sdn Bhd, Master Tec Group Berhad / Sediacom Sdn Bhd (275 kV cable EPCC subcontract), Jati Tinggi Group Bhd (275 kV cable subcontract), National Energy Berhad (cable tray tender issuer) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -862,6 +875,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 | Nexans 33 kV single-core 630 mm2 XLPE  — 1 second short-circuit rating of 35 sqmm copper wire screen, 80 to 250 deg C | 4.8 kA | Powerandcables.com Nexans 33kV 1C 630sqmm BS7870 table: '1 Second Short Circuit Rating of a 35sqmm Copper wire screen (80 to 250°C) kA 4.8' (both conductor versions). |
 | Nexans 33 kV single-core 630 mm2 XLPE  — current carrying capacity, copper, laid in trefoil, in air | 1160 A | Powerandcables.com Nexans 33kV 1C 630sqmm BS7870 table: 'Current Carrying Capacity (cables laid in trefoil) In Air A' copper 1160, aluminium 940. Ampacity basis printed on page: depth of cover 800 mm, soil thermal resistivity 1.2 K.m/W, soil temperature 15 deg C, ambient air 25 deg C, max conductor temperature 90 deg C. |
 | Nexans 33 kV single-core 630 mm2 XLPE  — current carrying capacity, copper, laid in trefoil, direct buried | 850 A | Powerandcables.com Nexans 33kV 1C 630sqmm BS7870 table: 'Direct Buried A' copper 850, aluminium 690; single way ducts copper 780, aluminium 650; same ampacity conditions as stated on page. |
+| Underground power cables and condu — Largest certified underground transmission cable conductor size | 1800 sq. mm | Southern Cable press release, 2 July 2026: 'product certification for its high-capacity underground transmission cable with conductor sizes of up to 1,800 sq. mm.' |
 
 
 Recorded gaps:
@@ -870,6 +884,7 @@ Recorded gaps:
 - Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV) — Read the project cable accessory schedule and an LV cable datasheet before recording LV or tray facts.
 - Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV) — Re-read the PDF through an accessible text extraction route before recording any SESB charge figure.
 - Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV) — Do not infer patent numbers.
+- HV and LV cables with cable trays and accessories — Read an accessible SESB cable-laying award or a tender with a published rate schedule and price year.
 
 ## carbamate-condenser
 
@@ -903,7 +918,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 CCTV system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Axis Communications AB, Siemens (2 model lines recorded).
+Vendors: Axis Communications AB, Siemens, Yokogawa (2 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -921,6 +936,10 @@ Vendors: Axis Communications AB, Siemens (2 model lines recorded).
 Recorded gaps:
 
 - CCTV System — Obtain the CCTV camera schedule, zone drawings, recorder/VMS specification and priced BOQ.
+- CCTV system — Find the plant's security/CCTV package award or BOQ and record camera count, date and currency as printed; do not substitute the reference awards.
+- CCTV system — Obtain the plant ELV/security specification and record the exact printed camera schedule.
+- CCTV system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- CCTV system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## cf-system
 
@@ -1402,6 +1421,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Chemical /Urea Storage (reinforced concrete 15x9x7) — Confirm stored product and design code (e.g. bundled chemical storage) from the project specification; source a comparable chemical-storage building rate.
+- Chemical and urea storage building — Obtain the storage-building priced BQ and a dated chemical-containment cost benchmark
 
 ## chiller
 
@@ -2217,6 +2237,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Building (C&S) — Source a Malaysian QS cost benchmark (CIDB/JPPH or comparable tender) for industrial building C&S in Sabah.
+- Civil and structural buildings — Source a dated Malaysian QS cost benchmark or the priced BQ for industrial C&S buildings in Sabah
 
 ## clarifiers-thickeners
 
@@ -2348,6 +2369,14 @@ Vendors: Shell (operator, 35%), Castrol Ltd., Exxon Mobil Corporation, Rolls-Roy
 | Castrol Duratec L / ExxonMobil Mobil P — SAE viscosity class for listed approved/alternative oils | 40 SAE viscosity class | MTU A001072/02E printed 2020-06, Tables 5, 6, 10 and 12: Castrol Duratec L, Mobil Pegasus 705/805/1005 and MTU GEO NG Power X2L all listed at SAE viscosity class 40; some alternative oils noted '* The use of these engine oils shortens the service life.' |
 | ANTIFREEZE / corrosion inhibitor and A — permissible ethylene-glycol antifreeze concentration | 35-50 % by volume (min 35, max 50) | MTU A001072/02E printed 2020-06, Table 17: ethylene glycol antifreeze min 35% to max 50% by volume, with protection to -20 C / -25 C / -31 C / -37 C at 35/40/45/50%; above 50% impermissible. Section 5.2 of the same document covers 'NOx reducing agent AUS 32 for SCR exhaust gas aftertreatment systems'. |
 | MAN 175D post-commissioning filter pac — number of standardised spare parts packages | 4 packages | MAN PrimeServ 'Prepare for MAN 175D' printed June 2022: four packages - post-commissioning (filters for complete replacement after commissioning), mechanical (lube oil/fuel/air filters, gaskets, spare fuel injector), after-treatment (urea filters, injectors, NOx sensors), automation (speed/pressure/float/temperature sensors). |
+| Gas-engine lubricating oil and use — viscosity grade stipulated for gas engines | MTU Fluids and Lubricants Specifications A001072/02E, 2020-06, section 2.1.1:... | MTU Fluids and Lubricants Specifications A001072/02E, 2020-06, section 2.1.1: 'Viscosity grade SAE 40 is stipulated for gas engines. Multigrade oils are not permitted.' Mixing different engine oils is strictly prohibited. |
+| Gas-engine lubricating oil and use — oil sample interval, Series 4000 gas engines | 250 operating hours | MTU A001072/02E, 2020-06, sections 2.2.1/2.2.2: 'To determine the engine oil change intervals, oil samples must be taken every 250 op. hrs. and analyzed. The limit values must be observed.' Fixed intervals without oil analysis only after consultation with MTU. |
+| Gas-engine lubricating oil and use — used gas engine oil viscosity at 100 C, Series 4000 | 11.5-17.5 mm2/s | MTU A001072/02E, 2020-06, Table 2 'Limit values for used gas engine oils SAE 40': Viscosity at 100 °C (ASTM D445 / DIN 51562), Series 4000 Max. 17.5, Min. 11.5, with new-oil value condition. |
+| Gas-engine lubricating oil and use — water in used gas engine oil | ?-0.2 % by volume (printed 'Max. 0.2') | MTU A001072/02E, 2020-06, Table 2: Water (ASTM D6304 / EN 12937 / ISO 6296), Max. 0.2 % by vol. for both Series 4000 and Series 400. |
+| MAN 175D commissioning and post-co — post-commissioning package content | MAN PrimeServ 'Prepare for MAN 175D', printed June 2022, p.6: 'This package i... | MAN PrimeServ 'Prepare for MAN 175D', printed June 2022, p.6: 'This package includes various relevant filters for a complete replacement after the commissioning. The engine will start service with a fresh set of filters, which will ensure the best possible start.' |
+| MAN 175D commissioning and post-co — mechanical package contents | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'filters for lubricatio... | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'filters for lubrication oil, fuel and air', relevant gaskets for valve clearance adjustment, plus a spare fuel injector. |
+| MAN 175D commissioning and post-co — after-treatment package contents | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'urea filters, spare ur... | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'urea filters, spare urea injectors and the important NOx sensors'. |
+| MAN 175D commissioning and post-co — automation package contents | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'a selection of differe... | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'a selection of different sensors - speed, pressure, float switch and temperature'. |
 
 - **Shell (operator, 35%)** Shell Mysella S5 N 40 / Shell Mysella S3 N 40 gas engine oils: gas engine lubricating oil (consumable)
 - **Castrol Ltd.** Castrol Duratec L / ExxonMobil Mobil Pegasus 705, 805, 1005 / MTU GEO NG Power X2L: approved gas engine oils (alternative consumables)
@@ -2356,6 +2385,7 @@ Vendors: Shell (operator, 35%), Castrol Ltd., Exxon Mobil Corporation, Rolls-Roy
 Recorded gaps:
 
 - Commissioning Equipment & Consumables (Lube Oil,Diesel, Chemical) — Obtain priced consumables list and confirm which OEM oil approval applies to the actual engine make.
+- Commissioning equipment and consumables — Request priced consumables quantities from the bidder; keep the SAE 40, 250-hour sampling and package contents as specifications, not prices.
 
 ## commissioning-management
 
@@ -2376,6 +2406,11 @@ Vendors: Everllence, Rolls-Royce Power Systems (mtu), Wärtsilä (3 model lines 
 | MTU used-gas-engine-oil analysis (labo — used oil water content maximum | 0.2 % by volume (max) | MTU A001072/02E printed 2020-06, Table 2: water ASTM D6304 / EN 12937 / ISO 6296 max 0.2 vol% for both Series 4000 and Series 400. |
 | MTU used-gas-engine-oil analysis (labo — wear element iron limit | 30-50 mg/kg (Series 4000 max 30; Series 400 max 50) | MTU A001072/02E printed 2020-06, Table 2: Fe DIN 51399-1/-2 max 30 (Series 4000) / max 50 (Series 400); results of oil analyses must be archived. |
 | Wärtsilä Malaysia Sdn Bhd — years since Malaysia establishment | 1996 year established | Wartsila.com/mys page read 25 Nov 2026: 'Wärtsilä in Malaysia was set up in 1996 in Kuala Lumpur, and today it has over 15 professionals in 2 different locations in Kuala Lumpur and Pasir Gudang, Johor to serve our customers in the East and West Malaysia.' Page carries a 9 Feb 2022 news item. |
+| Commissioning test programme (dry  — duration of dry commissioning test | 2 months | JICA Feasibility Study for Expansion of Victoria Hydropower Station Final Report, Chapter 10.2.2(6): 'The dry test of Unit No. 4 will be started 45 months after starting of the construction works and take 2 months for the completion. The wet test will be conducted continuously and also scheduled for 2 months for the completion. The commercial operation will be started after all tests including the |
+| Commissioning test programme (dry  — start of dry test after commencement of construction | 45 months | Same JICA Chapter 10.2.2(6) commissioning schedule for the 2 x 122 MW Victoria Hydropower expansion; dry test starts at month 45. |
+| Operator training before taking ov — training as condition of taking over | Malakoff Employer's Contract Terms for Works - RFQ cl.2.15.1 (6 Mar 2025): co... | Malakoff Employer's Contract Terms for Works - RFQ cl.2.15.1 (6 Mar 2025): contractor shall train Employer's personnel in operation and maintenance; where training is specified before taking over, 'the Works shall not be considered to be completed for the purposes of taking over until this training(s) has been completed'. |
+| Operator training before taking ov — MAN PrimeServ standard / advanced training course duration | 4 days | MAN PrimeServ 'Prepare for MAN 175D', printed June 2022, p.13: 'Four-day training for Standard and Advanced courses, and four weeks training for the Expert course at the MAN PrimeServ Academies in Denmark.' |
+| Operator training before taking ov — MAN PrimeServ expert training course duration | 4 weeks | Same MAN PrimeServ 'Prepare for MAN 175D' brochure, printed June 2022, p.13. |
 
 - **Everllence** MAN PrimeServ commissioning and after-sales service: OEM commissioning / start-up management service
 - **Rolls-Royce Power Systems (mtu)** MTU used-gas-engine-oil analysis (laboratory limit values and sampling): lube-oil laboratory test / calibration basis
@@ -2384,6 +2419,7 @@ Vendors: Everllence, Rolls-Royce Power Systems (mtu), Wärtsilä (3 model lines 
 Recorded gaps:
 
 - Pre-Commissioning, Commissioning and Start Up Management incl calibration & lab test (lube oil) — Request priced commissioning-management and laboratory-test quotations; record MTU limits as technical basis only, not cost.
+- Pre-commissioning and start-up management — Obtain the bidder's commissioning-management man-hours, rates and milestone dates; do not convert the JICA schedule into a price.
 
 ## compressed
 
@@ -2485,6 +2521,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Compressor Room (reinforced concrete 15x12x5.7) — Seek an instrument-air/compressor-room building tender or published industrial building benchmark.
+- Compressor room (reinforced concrete) — Obtain the compressor-house priced BQ
 
 ## construction-management
 
@@ -2498,6 +2535,8 @@ Vendors: CTCI Corporation, Synerlitz Sdn Bhd, SCHB Engineering Services, Sabah E
 | --- | --- | --- |
 | CTCI Corporation / Synerlitz Sdn Bhd / — EPCC construction period | 32 months | Daily Express, published 24 May 2011: Kimanis Power Sdn Bhd 300 MW combined-cycle plant; EPCC contract signed with consortium CTCI Corporation (Taiwan), Synerlitz Sdn Bhd and SCHB Engineering Services (Suria Capital subsidiary); consortium to develop, construct and commission plant and related facilities/infrastructures; package within 32 months from 1 Apr 2011 to first commercial operation 1 Dec  |
 | Sabah Electricity Sdn Bhd / Energy Com — fast-track gas turbine capacity | 94 MW | Borneo Post, posted 25 September 2024: SESB received Letter of Notification from Energy Commission of Sabah for supply and installation of 94 MW gas turbine generators at Kimanis; injection point at Langsat Main Intake Substation (PMU); completion expected June 2025. |
+| Contractor's Representative / site — payment period from receipt of contractor invoice | 45 days | Malakoff Employer's Contract Terms for Works - RFQ cl.2.19.4(c) (PDF dated 6 Mar 2025): 'the Employer shall make payment within the period of 45 days from the date of receipt of the invoice by the Employer'. |
+| Contractor's Representative / site — foreman-in-charge / site supervisor, full time for contract period, medium project | 120000-150000 RM per item | WE Quantity Surveyor, Klang Valley, rates updated November 2026, Staff and supervision table: 'Foreman-in-charge / site supervisor, full time for the contract period, medium project' RM 120,000-150,000 per item (salary and on-costs); all-in trade level, excluding main contractor profit and attendance, preliminaries and SST. |
 
 - **CTCI Corporation** CTCI Corporation / Synerlitz Sdn Bhd / SCHB Engineering Services EPCC consortium: EPC/EPCC contractor and construction-management services
 - **Sabah Electricity Sdn Bhd** Sabah Electricity Sdn Bhd / Energy Commission of Sabah (owner and regulator): owner project management / grid-connection authority
@@ -2505,6 +2544,7 @@ Vendors: CTCI Corporation, Synerlitz Sdn Bhd, SCHB Engineering Services, Sabah E
 Recorded gaps:
 
 - Construction Management + Svc (Sub-con, Third Party Cost, Local Authorities etc) — Obtain the bidder's priced BOQ and the relevant Sabah local-authority fee schedule; do not derive an indirect percentage from the RM1.5 billion total.
+- Construction management and services — Request the priced management/supervision line from the bidder and keep the 2008 JICA 10% basis and the two Malaysian project values as dated reference points only.
 
 ## control-room
 
@@ -2523,6 +2563,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - LV Switchgear Room & Control Room (reinforced concrete 16.2x36.6x14.4) — Obtain the LV switchgear and control-room specification plus a comparable tender rate.
+- LV switchgear and control room — Obtain the LV package priced BQ or contract award
 
 ## controls
 
@@ -2667,7 +2708,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Cooling water system with air-cooled radiator for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Rolls-Royce / mtu solutions, Wärtsilä, Kohler Power Systems (Kohler Energy) (3 model lines recorded).
+Vendors: Rolls-Royce / mtu solutions, Wärtsilä, Kohler Power Systems (Kohler Energy), Wartsila (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2682,6 +2723,8 @@ Vendors: Rolls-Royce / mtu solutions, Wärtsilä, Kohler Power Systems (Kohler E
 | mtu 12V1600 GS400 set-mounted radiator — Open power unit dimensions L × W × H | mtu 12V1600 GS400 spec sheet, Weights and dimensions; sheet states dimensions... | mtu 12V1600 GS400 spec sheet, Weights and dimensions; sheet states dimensions/weights are for open power units and 'are estimates only'; document 231296 | 2026-03; read via r.jina.ai. |
 | Wärtsilä closed-loop radiator cooling  — Plant process water consumption with closed-loop radiator cooling | 0.2 l/MWh | Wärtsilä 'Gas and multi-fuel power plants' brochure, 'Closed-circuit radiator cooling with only 0.2 l/MWh water consumption'; printed imprint 08.2017; read via r.jina.ai 2023-08-18. |
 | Kohler Power Systems remote radiator / — Typical CAC intake-air temperature rise over ambient specified by EPA engine certification | 20 °C (typically 20°C, but it varies by engine) | Kohler white paper 'Remote Cooling Design Factors for Standby Generators', Power Systems Topics 144, RADIATOR CIRCUIT DESIGN; print date not stated on page read, r.jina.ai retrieval 2024-06-20. |
+| Closed-loop radiator cooling syste — Water consumption with closed loop radiator cooling | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.6 '... | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.6 'Water consumption': 'Combustion engine power plants equipped with a closed loop cooling system using radiators, consume a negligible amount of water'; read via r.jina.ai fallback 25 Nov 2026 |
+| Closed-loop radiator cooling syste — Engine cooling arrangement, Flexicycle reference | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.14:... | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.14: 'the combustion engines are cooled with closed loop radiators, and the steam cycle with cooling towers' |
 
 - **Rolls-Royce / mtu solutions** mtu 12V1600 GS400 set-mounted radiator / cooling system (NG and LPG): engine cooling radiator
 - **Wärtsilä** Wärtsilä closed-loop radiator cooling (gas/multi-fuel power plants): closed-circuit radiator cooling arrangement
@@ -2690,6 +2733,7 @@ Vendors: Rolls-Royce / mtu solutions, Wärtsilä, Kohler Power Systems (Kohler E
 Recorded gaps:
 
 - Cooling Water System Package / Air Cold Radiator — Obtain the project radiator/cooling-water datasheets and vendor quotes; do not scale the 400 kWe mtu figures up to the plant's engines as evidence.
+- Cooling water system with air-cooled radiator — Obtain the project radiator/cooling-water datasheets and vendor quotes; do not infer plant cooling duty from generic white-paper statements.
 
 ## crah
 
@@ -2717,7 +2761,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Crane and hoist for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Selangor, Malaysia, Dafang Crane (dgcrane.com) (2 model lines recorded).
+Vendors: Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Selangor, Malaysia, Dafang Crane (dgcrane.com), KSCRANE (Kuangshan Crane) (2 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2737,6 +2781,10 @@ Vendors: Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Sel
 | Dafang Crane LH-type / QD-type double  — LH-type 10t total power | 26.8-34.8 kW | Dafang Crane price PDF LH-type row 10t; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026. |
 | Dafang Crane LH-type / QD-type double  — working duty | Dafang Crane price PDF LH-type and QD-type tables; read via r.jina.ai; r.jina... | Dafang Crane price PDF LH-type and QD-type tables; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026. |
 | Dafang Crane LH-type / QD-type double  — single girder reference span/lift/power | Dafang Crane price PDF 'Single Girder Electric Overhead Travelling Crane Pric... | Dafang Crane price PDF 'Single Girder Electric Overhead Travelling Crane Price List (Reference)'; read via r.jina.ai; r.jina.ai Published Time 31 Jan 2026. |
+| LH top running double girder overh — Capacity | 10 ton | KSCRANE 'Overhead Crane Price Guide', 03 July 2025, Case 2: 'Capacity: 10 ton; Span 22.5 m; Lifting height 9 m; Lifting speed 7 m/min; Working Duty A4; Control Method Floor control; Price: 20,714 USD'. Page read directly 25 Nov 2026 |
+| LH top running double girder overh — Span | 22.5 m | Same KSCRANE Case 2, priced example |
+| LH top running double girder overh — Lifting height | 9 m | Same KSCRANE Case 2, priced example |
+| LH top running double girder overh — Working duty | Same KSCRANE Case 2, priced example; FEM standard duty classes A3-A6 listed e... | Same KSCRANE Case 2, priced example; FEM standard duty classes A3-A6 listed elsewhere on the page (value: A4) |
 
 - **Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Selangor, Malaysia** Vibrant Engineering Services single/double girder EOT crane, wire rope hoist, chain hoist, gantry and jib crane: electric overhead travelling crane and hoists, JKKP/DOSH certified
 - **Dafang Crane (dgcrane.com)** Dafang Crane LH-type / QD-type double girder overhead crane with hoist trolley: double girder EOT crane with hoist/winch trolley
@@ -2746,6 +2794,9 @@ Recorded gaps:
 - Crane & Hoist — Read official patent register pages before recording any patent.
 - Crane & Hoist — Request project reference list from Vibrant Engineering Services Sdn Bhd.
 - Crane & Hoist — Obtain a local delivered-and-certified quotation for the required capacity and span.
+- Crane and hoist — Obtain the crane and hoist schedule (capacity, span, duty, quantity) and awarded quotation from project documents; treat the printed vendor guide prices as reference only.
+- Crane and hoist — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Crane and hoist — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## daf-units
 
@@ -2833,7 +2884,7 @@ Vendors: Topsoe (0 model lines recorded).
 
 Primary code: PWR: Power and renewables
 Diesel fuel system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Preferred Utilities Manufacturing Corp., Danbury, CT, USA, Preferred Utilities Manufacturing Corp. (2 model lines recorded).
+Vendors: Preferred Utilities Manufacturing Corp., Danbury, CT, USA, Preferred Utilities Manufacturing Corp., Everllence (2 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -2847,6 +2898,10 @@ Vendors: Preferred Utilities Manufacturing Corp., Danbury, CT, USA, Preferred Ut
 | Preferred Utilities fuel oil transfer  — Fuel type | Preferred transfer pump/day tank set cutsheet, Specifications and Suggested S... | Preferred transfer pump/day tank set cutsheet, Specifications and Suggested Specifications; CATALOG 25; read via r.jina.ai 2019-07-08. |
 | Preferred Utilities fuel oil transfer  — Tank hydrostatic test pressure | 5 PSIG minimum, held no less than one-half hour | Preferred transfer pump/day tank set cutsheet, Suggested Specifications §16 Factory Testing; CATALOG 25; read via r.jina.ai 2019-07-08. |
 | Preferred Utilities fuel oil transfer  — Level switch setpoints | 40-90 % of tank capacity: 90% high alarm/shutdown; 80% pump off; 50% pump on; 40% low- | Preferred transfer pump/day tank set cutsheet, Suggested Specifications §5 Level controls; CATALOG 25; read via r.jina.ai 2019-07-08. |
+| Liquid fuel (diesel/LFO) backup sy — Pilot fuel quantity, dual-fuel engine at full load | 1 % of total fuel energy input (approximately) | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.7 'Combustion engines, dual fuel operation': 'The pilot fuel quantity is only approximately 1% of the total fuel energy input at full engine load'; read via r.jina.ai fallback 25 Nov 2026 |
+| Liquid fuel (diesel/LFO) backup sy — Fuel changeover | Same white paper p.7: 'The engines can transfer from gas to liquid fuel oil o... | Same white paper p.7: 'The engines can transfer from gas to liquid fuel oil operation, or vice versa. This can be done at any load, instantaneously and automatically, for example in the event of an interruption to the gas supply' |
+| Liquid fuel (diesel/LFO) backup sy — Conventional liquid fuel for oil-fired engines | Same white paper p.7: 'The traditional fuel for oil fired engines is LFO. Oil... | Same white paper p.7: 'The traditional fuel for oil fired engines is LFO. Oil fired engines are also able to operate on HFO, crude oil (CRO), fuel water emulsions (FWE) and liquid biofuels (LBF) with minor on-site pre-treatment' |
+| Liquid fuel (diesel/LFO) backup sy — Fuel switching, 18V51/60DF engines | Everllence press release 4 December 2025: 'The 18V51/60DF engines allow seaml... | Everllence press release 4 December 2025: 'The 18V51/60DF engines allow seamless switching between gaseous and liquid fuels during operation' |
 
 - **Preferred Utilities Manufacturing Corp., Danbury, CT, USA** Preferred Utilities Model DT fuel oil day tank: diesel/fuel oil day tank
 - **Preferred Utilities Manufacturing Corp.** Preferred Utilities fuel oil transfer pump and day tank set: fuel oil transfer pump / day tank package
@@ -2854,6 +2909,9 @@ Vendors: Preferred Utilities Manufacturing Corp., Danbury, CT, USA, Preferred Ut
 Recorded gaps:
 
 - Diesel Fuel System Package — Obtain the diesel fuel system BOQ, tank sizes, pump duties and vendor quotation from the project documents; do not apply the small US day-tank figures to the plant as evidence.
+- Diesel fuel system — Obtain the diesel fuel system BOQ, tank sizes, pump duties and vendor quotation from the project documents.
+- Diesel fuel system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Diesel fuel system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## drag
 
@@ -2937,6 +2995,7 @@ Recorded gaps:
 
 - Earthwork (Site Clearing and Land Levelling) - soil import 43200 m3 — Find a Sabah earthwork/import-fill rate (JKR Sabah Jadual Kadar Kerja or local tender BQ).
 - Earthwork (Site Clearing and Land Levelling) - soil import 43200 m3 — Keep as design input; do not cite as a sourced fact.
+- Earthworks and soil import — Find a dated Sabah earthwork/import-fill unit rate or the priced earthworks BQ
 
 ## electrical
 
@@ -2991,6 +3050,10 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 | Megger MRCT relay and current transfor — secondary voltage injection (configurable base unit) | 2 kV | Megger MRCT FAQ (read via r.jina.ai proxy): 'whether you need a simple 2kV CT tester or advanced DC testing methods, VT testing, single phase relay testing... the MRCT can be customised'. |
 | Megger MRCT relay and current transfor — minimum insulation resistance value generally accepted | 1 Mohm | Megger MRCT product page (read via r.jina.ai proxy): 'As outlined in IEEE C57.13.1, a generally accepted minimum insulation value is 1 Mohm'. |
 | Megger MRCT relay and current transfor — primary noise filtration accuracy penalty | 0.05 % (approximately, +/-) | Megger MRCT product page (read via r.jina.ai proxy): 'If used in a non-noisy environment, this can reduce the unit's accuracy by approximately +/- 0.05 %'. |
+| Electrical testing laboratory equi — Portable relay secondary injection testing set quantity | 2 Nos | BHEL 1x660 MW Bhusawal Unit-6 electric lab equipment unpriced schedule: code 556-0110146-00-A, quantity 2 Nos; spec rev 0 dated 19 March 2026. |
+| Electrical testing laboratory equi — Computerized relay test bench quantity | 1 No. | Same BHEL schedule: code 556-0110040-00-A, quantity 1 No.; detailed spec lists 6 x 0-12.5 A, 3 x 0-25 A, 1 x 0-75 A current outputs and 4 x 300 V / 1 x 600 V voltage outputs, 10-1000 Hz. |
+| Electrical testing laboratory equi — Automatic oil testing set quantity and range | 90 kV (range 0-90 kV) | Same BHEL spec: 'Automatic Oil testing set: 2 Nos', 'Range: 0 -90KV', single phase with middle of HV winding earthed, accuracy 1%, for dielectric strength of insulating oil in transformers. |
+| Electrical testing laboratory equi — Rheostats (660 V grade) quantity per range | 3 Nos of each range | Same BHEL schedule: rheostats 660 V grade, 3 Nos of each of six ranges (10 A/25 ohm; 18 A/6 ohm; 5 A/500 ohm; 2.5 A/500 ohm; 1 A/1000 ohm; 5 A/1000 ohm). |
 
 
 Recorded gaps:
@@ -2998,6 +3061,9 @@ Recorded gaps:
 - Electrical Laboratory Equipment Package — Obtain the laboratory package BOQ, supplier quotations and the equipment list for the 7-unit plant.
 - Electrical Laboratory Equipment Package — Retrieve the project electrical laboratory scope document and commissioning test schedule.
 - Electrical Laboratory Equipment Package — Obtain product data sheets with patent markings and project reference lists if these fields are required.
+- Electrical laboratory test equipment — Find a priced BoQ for a relay/oil test bench package stating unit prices and price year.
+- Electrical laboratory test equipment — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Electrical laboratory test equipment — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## emission-control-system
 
@@ -3018,6 +3084,11 @@ Vendors: Umicore, Johnson Matthey Catalysts Germany GmbH (2 model lines recorded
 | Compact SCR system for 500–4500 kW eng — Engine power range | 500-4500 kW | EP3137745B1 patent title and description; publication date 2018-11-28, priority 2014-03-11; page read 2026-11-25. |
 | Compact SCR system for 500–4500 kW eng — Aqueous urea concentration ranges | 5-70 % (5 to 70%; preferably 15 to 60%; more preferably 30 to 40%) | EP3137745B1 description, 'concentration of urea in the aqueous solution can range from about 5 to 70%, preferably from about 15 to about 60%, more preferably from about 30 to about 40%'; read 2026-11-25. |
 | Compact SCR system for 500–4500 kW eng — Preferred SCR catalyst cell density | 45-400 cpsi (45 to 400; more preferably 70 to 300; even more preferably 100 to 300) | EP3137745B1 description, 'SCR catalysts with relatively high cell densities ... 45 to 400 cells per square inch (cpsi), more preferable 70 to 300 cpsi and even more preferable 100 to 300 cpsi'; read 2026-11-25. |
+| Selective catalytic reduction (SCR — NOx reduction efficiency, SCR | 70-90 % | US EPA Air Pollution Control Technology Fact Sheet EPA-452/F-03-032 'Selective Catalytic Reduction (SCR)': 'SCR is capable of NOx reduction efficiencies in the range of 70% to 90% (ICAC, 2000)'; retrieved via r.jina.ai fallback 25 Nov 2026 |
+| Selective catalytic reduction (SCR — Optimum temperature range | 250-427 deg C | US EPA fact sheet EPA-452/F-03-032: optimum temperatures vary from 480 deg F to 800 deg F (250 deg C to 427 deg C) depending on catalyst type and flue gas composition |
+| Selective catalytic reduction (SCR — Permitted ammonia slip, US | 2-10 ppm | US EPA fact sheet EPA-452/F-03-032: 'In the U.S., permitted ammonia slip levels are typically 2 to 10 ppm' |
+| Selective catalytic reduction (SCR — NOx level attainable with SCR, gas engine | 5 ppm vol, dry at 15% O2 | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.7: 'With SCR technology NOx levels of 5 ppm, vol, dry at 15% O2 can be attained' |
+| Selective catalytic reduction (SCR — Engine-out NOx, lean-burn gas engine (optimised / efficiency-optimised) | 45-90 ppm vol, dry at 15% O2 | Wartsila white paper (copyright 2011), p.7: engines can be optimised to max 45 ppm; efficiency-optimised engines reach max 90 ppm |
 
 - **Umicore** Umicore DNX® / DNU / DNO / DNA / DOC / MOC / DNZ catalyst families and combinations: SCR / oxidation / ammonia-slip catalysts
 - **Johnson Matthey Catalysts Germany GmbH** Compact SCR system for 500–4500 kW engines (patent EP3137745B1, Johnson Matthey Catalysts Germany GmbH): compact urea-SCR system
@@ -3025,6 +3096,7 @@ Vendors: Umicore, Johnson Matthey Catalysts Germany GmbH (2 model lines recorded
 Recorded gaps:
 
 - DOC and SCR system Package — Obtain the project emissions guarantee, catalyst sizing report and DOC/SCR package quotation; retain both printed cost bases with their years and scopes.
+- Diesel oxidation catalyst and SCR emission control system — Obtain the project emissions guarantee, catalyst sizing report, CEMS scope and DOC/SCR package quotation; retain every printed cost basis with its year and scope.
 
 ## emissions-control
 
@@ -3084,6 +3156,10 @@ Vendors: SESB Single Buyer (system owner/operator per Sabah Grid Code), Landis+G
 Recorded gaps:
 
 - Energy Billing System — Request SESB metering/billing interface specification and the EPC billing-systemBOQ with named software and priced quantities.
+- Energy billing system — Obtain the SESB/TNB billing-system RFP award or contract notice and record its exact title, date, supplier, scope and value as printed.
+- Energy billing system — Find a utility billing-system case study with named client, location, go-live date and scale, and read its source page before recording it.
+- Energy billing system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Energy billing system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## engine
 
@@ -3406,7 +3482,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Exhaust gas system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: IAC Acoustics (UK Ltd / IAC World), Rolls-Royce / mtu solutions, Johnson Matthey (3 model lines recorded).
+Vendors: IAC Acoustics (UK Ltd / IAC World), Rolls-Royce / mtu solutions, Johnson Matthey, GT Silex (Nelson Global), Maxim Silencers (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -3420,6 +3496,14 @@ Vendors: IAC Acoustics (UK Ltd / IAC World), Rolls-Royce / mtu solutions, Johnso
 | mtu 12V1600 GS400 gas generator set —  — Maximum allowable back pressure at outlet of engine, before piping | 10 kPa (in. H₂O) 10 (40), as printed | mtu 12V1600 GS400 spec sheet, Exhaust system, NG and LPG, document 231296 | 2026-03, read via r.jina.ai 2026-04-16. |
 | Johnson Matthey SINOx® SCR / oxidation — NOx emissions reduction, SCR systems for stationary diesel and gas engines | ?-95 % (>95% as printed) | Johnson Matthey NOx control systems webpage, 'JM's SCR systems are designed to reduce >95% of NOx emissions for stationary diesel and gas engines'; ©Johnson Matthey 2026, page read 2026-11-25. |
 | Johnson Matthey SINOx® SCR / oxidation — Hours of operation before maintenance | 15000-? hours (15,000-plus as printed) | Johnson Matthey NOx control systems webpage, '15,000-plus hours of operation before maintenance is required'; ©Johnson Matthey 2026, page read 2026-11-25. |
+| Cylindrical exhaust silencer, comm — Noise reduction, A201-2100 commercial grade | 14-20 dBA | GT Silex Silencer Catalogue 2026, A201-2100 commercial grade, '14 to 20 dBA Noise Reduction', EGSA Class 1; catalogue read via r.jina.ai fallback; dollar year not stated (catalogue titled 2026) |
+| Cylindrical exhaust silencer, comm — Noise reduction, A201-5100 critical grade | 25-35 dBA | GT Silex Silencer Catalogue 2026, A201-5100 critical grade, '25 to 35 dBA Noise Reduction', EGSA Class 4; read via r.jina.ai fallback |
+| Cylindrical exhaust silencer, comm — Noise reduction, A201-6100 super critical grade | 32-42 dBA | GT Silex Silencer Catalogue 2026, A201-6100 super critical grade, '32 to 42 dBA Noise Reduction', EGSA Class 6; read via r.jina.ai fallback |
+| Cylindrical exhaust silencer, comm — Connection standard, inlet size 8 in and above | GT Silex Silencer Catalogue 2026: 'Sizes 8" and above come standard with ANSI... | GT Silex Silencer Catalogue 2026: 'Sizes 8" and above come standard with ANSI pattern flanged connections'; silencers available up to 60 in inlet; read via r.jina.ai fallback |
+| Cylindrical exhaust silencer, comm — Exhaust gas temperature, 10 MW combustion engine | 390 deg C | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3 typical 10 MW engine exhaust gas out temperature 390 deg C (734 deg F); read via r.jina.ai fallback |
+| Cylindrical exhaust silencer, comm — Exhaust gas mass flow, 10 MW combustion engine | 15.4 kg/s | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3 exhaust gas flow 15.4 kg/s (34 lb/s) for a typical 10 MW combustion engine |
+| Annular flow intake/exhaust silenc — Engine power range | 500-5000 hp | Maxim Silencers 2020 Exhaust Silencer Catalog, Rev M-ESCS-003, AFS3-AFSE3 critical grade annular flow silencer designed for 500-5000 hp or mass flow 2.5 thru 65 lbs/sec; read via r.jina.ai fallback |
+| Annular flow intake/exhaust silenc — Mass flow range | 2.5-65 lbs/sec | Maxim Silencers 2020 Exhaust Silencer Catalog, Rev M-ESCS-003, AFS3-AFSE3, 'mass flow of 2.5 thru 65 lbs/sec' |
 
 - **IAC Acoustics (UK Ltd / IAC World)** IAC Acoustics engine exhaust silencers (absorptive / reactive / catalytic / SCR-integrated): exhaust gas silencer
 - **Rolls-Royce / mtu solutions** mtu 12V1600 GS400 gas generator set — exhaust system data (NG and LPG): gas engine exhaust interface
@@ -3428,6 +3512,9 @@ Vendors: IAC Acoustics (UK Ltd / IAC World), Rolls-Royce / mtu solutions, Johnso
 Recorded gaps:
 
 - Exhaust Gas System Package — Obtain the exhaust package BOQ, silencer datasheets and vendor quotations from the project tender/EPC documents; do not infer a package price from generic $/kW data.
+- Exhaust gas system — Obtain the exhaust package BOQ, silencer datasheets, stack design and vendor quotation from the project tender/EPC documents; do not scale catalogue silencers to the plant engines as evidence.
+- Exhaust gas system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Exhaust gas system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## fan
 
@@ -3601,7 +3688,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Field instrumentation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Emerson (duplex stainless steel option on Roxar 2600, page read), Yokogawa Electric Corporation, ABB (3 model lines recorded).
+Vendors: Emerson (duplex stainless steel option on Roxar 2600, page read), Yokogawa Electric Corporation, ABB, Yokogawa (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -3614,6 +3701,7 @@ Vendors: Emerson (duplex stainless steel option on Roxar 2600, page read), Yokog
 | Emerson Rosemount 3051 pressure transm — pressure range example (3051TG range 5) | -14.7-10000 psi (-1,01 to 689,47 bar) | Rosemount 3051 PDS, February 2017, read via r.jina.ai: Rosemount 3051TG gage pressure range 5 '-14.7 to 10000 psi (-1,01 to 689,47 bar)'. |
 | Yokogawa Plant Resource Manager (PRM)  — supported field protocols | Yokogawa CENTUM VP General Specifications GS 33K01A10-50E, 12th Edition Sep. ... | Yokogawa CENTUM VP General Specifications GS 33K01A10-50E, 12th Edition Sep. 1, 2014, read via r.jina.ai: 'PRM communicates with devices with digital communication functions such as Foundation fieldbus, HART, and field wireless (complies with ISA 100.11a) devices'. (value: FOUNDATION fieldbus, HART, field wireless (ISA 100.11a), conventional analogue d) |
 | ABB System 800xA S880 / Select I/O saf — safety I/O module types | ABB System 800xA Safety Overview, copyright © 2025 ABB, read via r.jina.ai: '... | ABB System 800xA Safety Overview, copyright © 2025 ABB, read via r.jina.ai: 'Within the S880 I/O family, there are SIL3 compliant modules for safety critical applications including 4 - 20 mA analog inputs, 24 Vdc digital inputs and 24 Vdc digital outputs ... Analog inputs support HART routing'. (value: SIL3 compliant 4-20 mA analogue inputs, 24 Vdc digital inputs and 24 Vdc digital) |
+| Yokogawa Plant Resource Manager (P — FOUNDATION Fieldbus devices connected to CENTUM CS 3000 DCS | 1000 devices (nearly 1,000) | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), Qatar Petroleum PS-2 & PS-3 entry: 'Nearly 1,000 FF-enabled devices were connected to the CENTUM CS 3000 DCS'. Order November 2006, completion March 2009. Read via r.jina.ai proxy 25 Nov 2026. |
 
 - **Emerson (duplex stainless steel option on Roxar 2600, page read)** Emerson Rosemount 3051 pressure transmitter family: pressure/differential pressure transmitter
 - **Yokogawa Electric Corporation** Yokogawa Plant Resource Manager (PRM) field device management: field device management software
@@ -3622,6 +3710,9 @@ Vendors: Emerson (duplex stainless steel option on Roxar 2600, page read), Yokog
 Recorded gaps:
 
 - Field Instrumentation — Obtain the project instrument index, SIL verification report, datasheet set and priced instrumentation BOQ.
+- Field instrumentation — Obtain the plant instrument index/BOQ with dated unit rates and currency as printed before adding any price.
+- Field instrumentation — Locate the plant's instrument index, MIV/MAC contract or award notice and quote supplier, date, quantities and values exactly as printed.
+- Field instrumentation — Obtain the project equipment datasheet or vendor patent list, then read the identified patent page and record number, title, assignee and publication year.
 
 ## fire
 
@@ -3666,6 +3757,8 @@ Vendors: Ruhrpumpen Group, Tornatech (controllers), Clarke (C18 diesel engine) (
 | Ruhrpumpen integrated fire protection  — pump construction | Ruhrpumpen article scope of supply; page read 2026-11-25; site footer ©2026. | Ruhrpumpen article scope of supply; page read 2026-11-25; site footer ©2026. |
 | Ruhrpumpen integrated fire protection  — controllers and communications | Ruhrpumpen article; page read 2026-11-25. | Ruhrpumpen article; page read 2026-11-25. |
 | Ruhrpumpen integrated fire protection  — corrosion protection | Ruhrpumpen article; page read 2026-11-25. | Ruhrpumpen article; page read 2026-11-25. |
+| Horizontal split-case diesel-engin — Pump description | Aurora/Clarke fire pump List Prices, Section 913, 'Horizontal Split Case Fire... | Aurora/Clarke fire pump List Prices, Section 913, 'Horizontal Split Case Fire Pumps, Diesel Engine Drive', Dated January 1, 2020; fetched via r.jina.ai fallback 25 Nov 2026 (value: UL Listed and FM Approved horizontal split-case, bronze-fitted pump with packing) |
+| Horizontal split-case diesel-engin — Driver scope included in standard diesel package | Same Aurora/Clarke Section 913 list price, Dated 01/01/20 (value: UL Listed a... | Same Aurora/Clarke Section 913 list price, Dated 01/01/20 (value: UL Listed and FM Approved diesel engine with lead acid batteries, battery cables) |
 
 - **Ruhrpumpen Group** Ruhrpumpen integrated fire protection pumping system (ZW series electric + diesel pumps, jockey pump, controllers, pumph: packaged NFPA 20 fire pump system for heavy industrial service
 
@@ -3674,6 +3767,9 @@ Recorded gaps:
 - Fire Fighting System Package — Re-open the price page with a working fetch path and record the printed RM figures with the page's price year.
 - Fire Fighting System Package — Read official patent register pages before recording any patent.
 - Fire Fighting System Package — Request reference project list from Ruhrpumpen, ROTAMAC or their Malaysian agents.
+- Fire fighting system — Obtain the fire fighting package BOQ, hydraulic demand calculation and awarded quotation from project documents; do not apply US list prices to the plant without a stated basis.
+- Fire fighting system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Fire fighting system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## fire-water-pump-house
 
@@ -3691,6 +3787,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Fire/ Service Water Pump House (upper steel 9x28x6) — Obtain the fire pump schedule/datasheet and a Malaysian fire-pump-house tender rate.
+- Fire and service water pump house — Obtain the fire-pump package quote and a readable NFPA 20/22 source for inspection frequencies
 
 ## fl-system
 
@@ -4234,6 +4331,7 @@ Recorded gaps:
 - GEG (7 units) — Obtain the project EIA/EMF or tender document for the Sabah 7-unit GEG and quote the exact plant rating, OEM, connection voltage and date from that primary document before adding them.
 - GEG (7 units) — Source a dated Malaysian tender award, BOQ or contract value for the actual 7-unit GEG; keep the US generic $/kW figures side by side, never converted or substituted.
 - GEG (7 units) — Locate and read the GEG supply or EPC contract award notice; record its exact date, parties, unit count and rating without reconciling it against the other projects.
+- Gas engine generator units — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## gas-metering-foundation
 
@@ -4251,6 +4349,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Foundation for Gas Metering — Obtain the gas-metering station drawing and geotechnical report before pricing.
+- Gas metering foundation — Obtain the metering-skid foundation priced BQ and dimensions from the gas supplier interface document
 
 ## gas-receiving-metering
 
@@ -4281,6 +4380,8 @@ Vendors: Honeywell, Emerson (duplex stainless steel option on Roxar 2600, page r
 | T.D. Williamson hot tapping machines a — 1200 XL / 936 XL Tapping Machine tap range | 12-42 inch (12-inch through 42-inch, DN 300 to DN 1000), as printed | TDW 'Tapping Machines' product listing page, read directly 2026-11-25; site footer ©2020 T.D. Williamson, LLC. |
 | T.D. Williamson hot tapping machines a — T-2460 XXL Tapping Machine tap range | 30-60 inch (30-inch through 60-inch, DN 750 to DN 1500), as printed | TDW 'Tapping Machines' product listing page, read directly 2026-11-25; site footer ©2020 T.D. Williamson, LLC. |
 | T.D. Williamson hot tapping machines a — ANSI Class filter options shown | 150-2500 ANSI Class 150 / 300 / 600 / 900 / 1500 / 2500, as printed | TDW 'Tapping Machines' product listing filter, read directly 2026-11-25. |
+| Gas supply and fuel gas supply sys — Gas pressure required at gas engine | 5 bar(a) (73 PSI) | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.6 'Combustion engines, gas operation': 'A gas pressure of just 5 bar(a) (73 PSI) is required, enabling the power plant to be located even where the pipeline gas pressure is low'; read via r.jina.ai fallback 25 Nov 2026 |
+| Gas supply and fuel gas supply sys — Charge air pressure, lean-burn gas engine | 3 bar | Same white paper p.6: 'pressurising air with turbo chargers to around 3 bar, after which the air is intercooled before being fed to the cylinders' |
 
 - **Honeywell** Honeywell Elster TRZ2 turbine gas meter: turbine gas meter
 - **Emerson (duplex stainless steel option on Roxar 2600, page read)** Emerson Gas Ultrasonic Metering System (skid, Rosemount 3414/3417 meters, FloBoss S600+): custody-transfer gas metering skid
@@ -4289,6 +4390,9 @@ Vendors: Honeywell, Emerson (duplex stainless steel option on Roxar 2600, page r
 Recorded gaps:
 
 - Gas Receiving, metering station, hot tap, FG supply system — Obtain the gas-receiving/metering station P&IDs, gas composition and pressure basis, hot-tap design and vendor quotations from project documents; keep the turbine-scope pressure figures clearly labelled.
+- Gas receiving and metering station with hot tap and fuel gas supply — Obtain the gas-receiving/metering station P&IDs, gas composition and pressure basis, hot-tap design and vendor quotations from project documents; keep the turbine/boiler-scope figures clearly labelled.
+- Gas receiving and metering station with hot tap and fuel gas supply — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Gas receiving and metering station with hot tap and fuel gas supply — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## gas-scrubber
 
@@ -4330,6 +4434,7 @@ Recorded gaps:
 - Scrubber (Gas Treatment) — Read official patent register pages before recording any patent.
 - Scrubber (Gas Treatment) — Obtain a priced quotation for the specific gas composition and emission limit of the 7-unit plant.
 - Scrubber (Gas Treatment) — Request named gas-engine scrubber references from GWE, APZEM or a Malaysian air-pollution-control supplier.
+- Gas treatment scrubber — Obtain the gas treatment scrubber datasheet (vessel material, packing, duty, design code) and vendor quotation from the project documents.
 
 ## gate-fencing
 
@@ -4349,12 +4454,17 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 | GEAPL Telescopic Sliding Gates — Operator protection | GEAPL standard specification; higher IP on request (value: IP 44) | GEAPL standard specification; higher IP on request (value: IP 44) |
 | GEAPL Telescopic Sliding Gates — Supply voltage | GEAPL standard specification (value: 230V-1ph / 415V-3ph) | GEAPL standard specification (value: 230V-1ph / 415V-3ph) |
 | GEAPL Telescopic Sliding Gates — Safety / type testing | GEAPL technical specification, Security Features row (value: CE marked to Mac... | GEAPL technical specification, Security Features row (value: CE marked to Machinery Directive 2006/42/EC; type tested according to EN 13241-1) |
+| Protective site hoarding and acces — minimum hoarding height | 1800 mm (printed '1800mm') | DOSH Guidelines for Public Safety and Health at Construction Sites, 1st Revision 2007, cl.11.2: 'The hoarding should not be less than 1800mm in height and continuous down to the ground'; cl.11.1: hoarding acts as barrier or security to prevent trespass; cl.11.6: entrance/exit located to prevent danger and proper security against unauthorised entry; cl.11.12: 'Gates should be of suitable design and |
+| Protective site hoarding and acces — site hoarding, 2.1 to 2.4 m high metal deck sheeting on steel posts with concrete footing, incl. maintenance and removal | 280-380 RM per m (printed rate RM 280-380; unit 'm') | WE Quantity Surveyor 'Preliminaries rates, Malaysia', Klang Valley, UPDATED NOVEMBER 2026, Site establishment table. All-in at trade level (material, labour, plant, wastage); excludes main contractor's profit and attendance, preliminaries and SST. Low end residential, high end factory/warehouse. |
+| Protective site hoarding and acces — extra over hoarding for a double-leaf site access gate | 3000-6000 RM per no. (printed rate RM 3,000-6,000; unit 'no.') | WE Quantity Surveyor, Klang Valley, November 2026, Site establishment table. All-in at trade level; excludes main contractor's profit and attendance, preliminaries and SST. |
 
 
 Recorded gaps:
 
 - Gate and Fencing (820m x 2.5m; electric telescopic door 2x; fence gate 6x; 3.0m x 250m + 2.4m x 250m steel grating fence) — Source a Malaysian fence/grating supplier datasheet and a published RM/m rate for perimeter fencing and gates.
 - Gate and Fencing (820m x 2.5m; electric telescopic door 2x; fence gate 6x; 3.0m x 250m + 2.4m x 250m steel grating fence) — Do not present these figures as sourced facts.
+- Site gate and fencing — Obtain the actual gate/fencing quantities and priced BOQ from the contractor; keep the Klang Valley 2026 guidance rates labelled as non-project rates.
+- Site gate and fencing — Fetch the JKR JKR20800-0246-25 schedule directly and record the dated security-fence RM/m rate
 
 ## gatehouse
 
@@ -4372,6 +4482,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Security Room & Gate House (reinforced concrete 4x5x3.6) — Source a comparable small RC guardhouse/gatehouse BQ or JKR Sabah rate.
+- Security room and gatehouse — Obtain the gatehouse priced BQ and a dated gate supply/install quotation
 
 ## generator
 
@@ -4425,6 +4536,8 @@ Vendors: ABB, Siemens (2 model lines recorded).
 | Siemens 3AK7 generator circuit-breaker — Pole-centre distance | 210 mm | Siemens Catalog HG 11.06 Edition 2017, 3AK7 description and technical data: 210 mm / 280 mm; read 2026-11-25 via r.jina.ai |
 | Siemens 3AK7 generator circuit-breaker — Maintenance-free operating cycles | 10000 operating cycles (30,000 on request) | Siemens Catalog HG 11.06 Edition 2017, description: 'The 3AK7 is maintenance-free up to 10,000 operating cycles. 30,000 operating cycles on request'; read 2026-11-25 via r.jina.ai |
 | Siemens 3AK7 generator circuit-breaker — Rated operating sequence (generator circuit-breaker) | Siemens Catalog HG 11.06 Edition 2017, generator circuit-breaker technical da... | Siemens Catalog HG 11.06 Edition 2017, generator circuit-breaker technical data table; read 2026-11-25 via r.jina.ai (value: CO - 30 min - CO) |
+| Generator circuit breaker (11 kV g — Specified generator switchgear short-circuit rating | 40 kA / 3 s | Design note published 12 Aug 2026: 'the switchgear is specified at 40 kA / 3 s minimum, with 50 kA reserved as a fallback pending the detailed study'. Article explicitly calls the fault level preliminary; it is a design specification, not an equipment purchase. |
+| Generator circuit breaker (11 kV g — Generator circuit breaker short-circuit test current disclosed in patent | 210 kA (rms) | US12651896B2 (granted 9 June 2026) states a prototype 'passed a disconnection test on short-circuit current of 210 kA at Xi'an High Voltage Apparatus Research Institute'; peak stated as 576 kA. This is a patent disclosure, not a plant rating. |
 
 - **ABB** ABB VD4G vacuum circuit breakers for generator switching applications: generator circuit breaker
 - **Siemens** Siemens 3AK7 generator circuit-breaker (7.2 to 17.5 kV): generator circuit breaker / vacuum circuit breaker
@@ -4434,6 +4547,8 @@ Recorded gaps:
 - 11kV Generator Circuit Breakers (7 units) — Obtain the GCB suitability/application study for each engine before selecting a rating.
 - 11kV Generator Circuit Breakers (7 units) — Add the BOQ rate with date and currency when sourced.
 - 11kV Generator Circuit Breakers (7 units) — Keep patents empty unless a patent page is read.
+- 11 kV generator circuit breakers — Find a dated GCB supply contract with value and a named gas-engine plant.
+- 11 kV generator circuit breakers — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## genset
 
@@ -4624,12 +4739,20 @@ Vendors: Department of Occupational Safety and Health (DOSH) (1 model lines reco
 | Specification | Value | Basis |
 | --- | --- | --- |
 | Safety and Health Officer (SHO) statut — project contract price threshold making SHO appointment mandatory for builders | 20 RM million (exceeding) | DOSH 'Petunjuk Prestasi SHO / SHO Performance Indicators' page read 25 Nov 2026, 'Updated Date: 16/03/2026': 'The appointment of an SHO is encouraged among client companies and designers, but mandatory for builders if the construction work has a total project contract price exceeding RM20 million.' Regulation 12 of the Safety and Health Officer Regulations 1997 allows DOSH to refuse renewal of SHO |
+| Safety and Health Officer / safety — maximum fine for contravention of Act 514 sections 15-18B | 500000 RM (printed 'five hundred thousand ringgit') | Act 514 Occupational Safety and Health Act 1994 reprint as at 1 June 2024 (latest amendment Act A1648 in operation 1 June 2024), section 19: fine not exceeding five hundred thousand ringgit or imprisonment not exceeding two years, or both. |
+| Safety and Health Officer / safety — contract price threshold requiring a Safety and Health Officer | 20000000 RM (printed 'twenty million ringgit Malaysia') | DOSH Guidelines for Public Safety and Health at Construction Sites, 1st Revision 2007, cl.6.4: 'Every contractor of any building operation and works of engineering construction when the total contract price of the project exceeds twenty million ringgit Malaysia, they shall employ a safety and health officer' (section 29 Act 514; OSH (Safety and Health Officer) Order 1997). |
+| Safety and Health Officer / safety — worker count triggering a safety and health committee | 40 persons | DOSH Guidelines 2007 cl.6.2: main contractor of a worksite in which forty or more persons are employed (by him or other contractors) shall establish a safety and health committee (section 30 Act 514; Regulations 1997). |
+| Safety and Health Officer / safety — principal's duty to allocate time, budget and resources for safety | Act 514 (as at 1 June 2024) section 18A(3)(b): measures necessary include 'th... | Act 514 (as at 1 June 2024) section 18A(3)(b): measures necessary include 'the allocation of sufficient time, budget and other resources' for safety in construction work activities; section 18B requires risk assessment and implementation of controls. |
+| Environmental Impact Assessment fo — capacity threshold for prescribed fossil-fuel steam power station | 10 MW (printed '10 megawatts or more') | Environmental Quality (Prescribed Activities) (EIA) Order 2015, P.U. (A) 195, made 5 August 2015, First Schedule item 11(a): 'Construction of steam generated power station using fossil fuels (other than coal) and having the capacity of 10 megawatts or more, with or without transmission line'; clause 4(2)(a) applies subitems 11(a) and (b) to Sabah. |
+| Environmental Impact Assessment fo — Sabah application of the EIA Order | EIA Order 2015 clause 4(2): applies to Sabah for First Schedule items 2, 6, 9... | EIA Order 2015 clause 4(2): applies to Sabah for First Schedule items 2, 6, 9 and 14 and subitems 11(a) and (b), and Second Schedule items 2, 6, 9, 11, 14 and 17; clause 2 defines 'environmentally sensitive area' to include areas specified under any Enactment in the State of Sabah. |
+| Environmental Impact Assessment fo — site hoarding minimum height (public safety) | 1800 mm | DOSH Guidelines 2007 cl.11.2, cross-listed here as public-safety control: hoarding not less than 1800 mm and continuous to the ground; cl.11.6 requires security against unauthorised entry. |
 
 - **Department of Occupational Safety and Health (DOSH)** Safety and Health Officer (SHO) statutory appointment: statutory HSSE personnel requirement
 
 Recorded gaps:
 
 - HSSE — Confirm EIA classification with DOE Sabah, and obtain the contractor's HSSE plan and certification evidence before pricing.
+- Health, safety, security and environment — Obtain MCSS2-14 and the priced HSSE preliminaries from the employer/bidder; keep the two ISO 14001 editions side by side and confirm which edition the contract requires.
 
 ## hv-circuit-breakers
 
@@ -4680,6 +4803,9 @@ Vendors: Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia, D
 Recorded gaps:
 
 - HVAC System Package — Obtain the HVAC package BOQ, heat-load calculations and vendor quotation from the project documents; do not infer plant cooling capacity from either brochure.
+- HVAC system — Obtain the HVAC package BOQ, heat-load calculations and vendor quotation from the project documents.
+- HVAC system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- HVAC system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## ignition
 
@@ -5081,7 +5207,7 @@ Vendors: IQIP, Junttan (0 model lines recorded).
 
 Primary code: PWR: Power and renewables
 Instrument air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: HADETEC (Nijkerk, Netherlands; Rootselaar Group), Comair (Shanghai, China), nano-purification solutions Asia Pacific (Singapore) (3 model lines recorded).
+Vendors: HADETEC (Nijkerk, Netherlands; Rootselaar Group), Comair (Shanghai, China), nano-purification solutions Asia Pacific (Singapore), Quincy, SKF (SFD dryer) (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -5112,6 +5238,12 @@ Vendors: HADETEC (Nijkerk, Netherlands; Rootselaar Group), Comair (Shanghai, Chi
 | ISO 8573 moisture class definitions an — adsorption/desiccant dryer PDP | -10--70 °C / 14 °F to -70 °F/-94 °F | Aerodyn Group Malaysia Pneumatech page; page read 2026-11-25; footer ©2026. |
 | ISO 8573 moisture class definitions an — membrane dryer PDP | 3 °C / 37.4 °F | Aerodyn Group Malaysia Pneumatech page; page read 2026-11-25; footer ©2026. |
 | ISO 8573 moisture class definitions an — ISO 8573-1 class 1 PDP / class 4 PDP (as printed) | Aerodyn page states 'ISO 8537-1 class 1 requires a PDP of -70 °C/-94 °F, whil... | Aerodyn page states 'ISO 8537-1 class 1 requires a PDP of -70 °C/-94 °F, while class 4 indicates +3 °C/37.4 °F' (the page prints 'ISO 8537-1' in this sentence and 'ISO 8573-1' elsewhere; conflict preserved); page read 2026-11-25. |
+| Instrument air compressor, dryer a — Instrument air quality class (ISA interpretation per CAGI) | CAGI Compressed Air Purity Guide (2025 document), Instrument Air section: 'Th... | CAGI Compressed Air Purity Guide (2025 document), Instrument Air section: 'The Instrument Society of America's Quality Standard for Instrument Air can be interpreted as Class [2:<4:3] per ISO 8573-1 and it is a globally recognized specification for instrument-quality air'; read via r.jina.ai fallback 25 Nov 2026 (value: 2:<4:3) |
+| Instrument air compressor, dryer a — ISO 8573-1 class 2 particles, 0.1-0.5 micron | 400000 particles/m3 max | CAGI Compressed Air Purity Guide, Table 1 ISO 8573-1:2010 (reproduced with ANSI permission): class 2 particle limit 400,000 per m3 at 0.1-0.5 microns |
+| Instrument air compressor, dryer a — ISO 8573-1 class 3 pressure dew point | -20 deg C (pressure dew point, less than) | Same CAGI guide Table 1: class 3 water vapour pressure dew point < -20 deg C (< -4 deg F) |
+| Instrument air compressor, dryer a — ISO 8573-1 class 3 total oil | 1 mg/m3 max | Same CAGI guide Table 1: class 3 oil (liquid, aerosol and vapour) < 1 mg/m3 |
+| Instrument air compressor, dryer a — Desiccant dryer achievable dew point | -40 deg F (-40 deg C) | SKF Separator Filter Dryer (SFD) brochure attached to Staab change order PDF: 'Low dew points to -40 deg F (-40 deg C)'; read via r.jina.ai fallback 25 Nov 2026 |
+| Instrument air compressor, dryer a — Compressor package rating (example quoted unit) | 17.4 CFM at 175 PSIG | Staab change order no. 8, 6 May 2024: Quincy QT-Series oil-lubricated reciprocating air compressor package rated 17.4 CFM at 175 PSIG, 5 HP motor, mounted on 80-gallon ASME vertical receiver tank |
 
 - **HADETEC (Nijkerk, Netherlands; Rootselaar Group)** HADETEC instrument air package (compressors, dryers, filtration, receivers, optionally nitrogen generation): skid-mounted / containerised instrument air package
 - **Comair (Shanghai, China)** Comair oil-free instrument air compressors and packages: oil-free screw / centrifugal / piston / scroll instrument air compressors
@@ -5123,6 +5255,9 @@ Recorded gaps:
 - Instrument Air System Package — Obtain a priced quotation for the instrument air package sized for the 7-unit plant.
 - Instrument Air System Package — Read official patent register pages before recording any patent.
 - Instrument Air System Package — Request reference lists from HADETEC, Comair or Aerodyn Group Malaysia.
+- Instrument air system — Obtain the instrument air package BOQ, required ISO 8573-1 class, compressor/drier sizing and awarded quotation from project documents.
+- Instrument air system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Instrument air system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## instrumentation
 
@@ -5194,7 +5329,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Intake air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Camfil, Donaldson Company, Inc., Rolls-Royce / mtu solutions (3 model lines recorded).
+Vendors: Camfil, Donaldson Company, Inc., Rolls-Royce / mtu solutions, GT Silex (Nelson Global), Maxim Silencers (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -5210,6 +5345,11 @@ Vendors: Camfil, Donaldson Company, Inc., Rolls-Royce / mtu solutions (3 model l
 | Donaldson Air Intake Systems / PowerCo — Volumetric efficiency guideline, naturally aspirated gas engine (4-stroke) | 0.9 VE 0.90 (dimensionless, as printed) | Donaldson 'Air Intake Systems Product Guide', Air Cleaner Selection > Preferred Method Engine Displacement Formula: '0.90 for naturally aspirated gas engine'; print date not stated; r.jina.ai retrieval 2026-11-11. |
 | mtu 12V1600 GS400 — air cleaner and as — Aspirating air flow | 22.4 m³/min (SCFM) 22.4 (791), as printed | mtu 12V1600 GS400 spec sheet, Air requirements, 'Aspirating: *m³/min (SCFM) 22.4 (791)'; document 231296 | 2026-03; read via r.jina.ai 2026-04-16. |
 | mtu 12V1600 GS400 — air cleaner and as — Air cleaner type | mtu 12V1600 GS400 spec sheet, Application data > Engine, 'Air cleaner dry'; d... | mtu 12V1600 GS400 spec sheet, Application data > Engine, 'Air cleaner dry'; document 231296 | 2026-03; read via r.jina.ai 2026-04-16. |
+| Air intake filtration and silencin — Intake air mass flow, 10 MW combustion engine | 15.0 kg/s | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3: intake air flow 15.0 kg/s (33 lb/s), 25 deg C, 1 bar, typical 10 MW engine; read via r.jina.ai fallback |
+| Air intake filtration and silencin — Air after compressor | 200 deg C | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3: air after compressor 200 deg C (392 deg F), 4 bar (58 psi) |
+| Air intake filtration and silencin — Air receiver conditions | 40 deg C | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3: air receiver 40 deg C (104 deg F), 4 bar (58 psi) |
+| Air intake filtration and silencin — Charge air ratio, lean-burn gas engine | 2.2 lambda | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.6: optimal air to fuel ratio (lambda) around 2.2 |
+| Air intake filtration and silencin — Noise reduction, A205-5100 residential and critical grade intake silencer | 0 dBA | GT Silex Silencer Catalogue 2026 lists A205-5100 'Residential & Critical Grade Intake Silencer' for 500-5000 hp, mass flow 2.5-65 lbs/sec; no numeric attenuation range printed for the intake series in the text read (r.jina.ai fallback) |
 
 - **Camfil** Camfil CAMGT Box Type G II (T7/T8/T9/T10) gas-engine/compressor intake filter: air intake filter
 - **Donaldson Company, Inc.** Donaldson Air Intake Systems / PowerCore®, PowerPleat™, RadialSeal™ and Strata™ pre-cleaners: engine air filtration system
@@ -5218,6 +5358,10 @@ Vendors: Camfil, Donaldson Company, Inc., Rolls-Royce / mtu solutions (3 model l
 Recorded gaps:
 
 - Intake Air System Package — Request the project intake air package datasheets, air-filter schedule and vendor quotation; size filters from the engine OEM's printed airflow, not from a derived estimate.
+- Intake air system — Obtain the project intake air package datasheets, air-filter schedule and vendor quotation; size filters from the engine OEM printed airflow for the selected engine model.
+- Intake air system — Obtain the project equipment datasheet or vendor patent list, then read the identified patent page and record number, title, assignee and publication year.
+- Intake air system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Intake air system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## jetty-civil
 
@@ -5434,6 +5578,7 @@ Vendors: Roben Mfg., Inc. (Lakewood, NJ, USA), Atlantic Containment LLC (McGahey
 | Prismecs dry-sump turbine lubrication  — pre-service filtration | 10 micron | Prismecs article: 'Some OEMs additionally require that oil be filtered through a 10 micron filter before entering service'; published 11 February 2024. |
 | Prismecs dry-sump turbine lubrication  — varnish potential test | Prismecs article, 'Varnish: The Modern Problem'; published 11 February 2024. | Prismecs article, 'Varnish: The Modern Problem'; published 11 February 2024. |
 | Prismecs dry-sump turbine lubrication  — rotary screw pump pressure differential | 90 % of manufacturer's rating (printed: 'not greater than 90 percent') | Prismecs article citing API 614 sixth edition pump sizing; published 11 February 2024. |
+| Lubricating oil system (generic OE — Routine checks including lubricating oil | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.9 m... | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.9 maintenance table: 'Routine checks - Checking of filters, lubricating oil, cooling water - During operation'; read via r.jina.ai fallback 25 Nov 2026 |
 
 - **Roben Mfg., Inc. (Lakewood, NJ, USA)** Roben Manufacturing custom lubricating-oil storage tank: field/shop-fabricated atmospheric lube oil storage tank
 - **Atlantic Containment LLC (McGaheysville, VA, USA)** Atlantic Containment AC series single-wall (SL) and double-wall (DL) lube oil tanks: shop-fabricated welded-steel lube oil storage tank
@@ -5444,6 +5589,9 @@ Recorded gaps:
 - Lube Oil Tank System Package — Obtain a priced vendor quotation or the project tender BOQ for the 7-unit plant.
 - Lube Oil Tank System Package — Read official patent register pages (e.g. Espacenet/USPTO) before recording any patent.
 - Lube Oil Tank System Package — Open and read the linked ACxxxx drawing PDFs, then record drawing titles.
+- Lube oil storage and transfer system — Obtain the lube oil package BOQ, tank datasheets (API 650/620 or equivalent as actually specified) and vendor quotations from project documents.
+- Lube oil storage and transfer system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Lube oil storage and transfer system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## lv-switchboards
 
@@ -5480,7 +5628,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Low voltage switchgear for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Siemens (1 model lines recorded).
+Vendors: Siemens, Shandong Jiahe Intelligent Technology Co., Ltd, Powerwell Holdings Berhad, Shenyang HTYEL Electric Co., Ltd. (1 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -5498,6 +5646,9 @@ Vendors: Siemens (1 model lines recorded).
 | Siemens SIVACON S8 low-voltage power d — Rated short-time withstand current | 150 kA (Icw) | Siemens SIVACON S8 catalogue, Technical specifications - Main busbars: rated short-time withstand current up to 150 kA; read 2026-11-25 via r.jina.ai |
 | Siemens SIVACON S8 low-voltage power d — Frame height / degree of protection | Siemens SIVACON S8 catalogue, Technical specifications - Frame; read 2026-11-... | Siemens SIVACON S8 catalogue, Technical specifications - Frame; read 2026-11-25 via r.jina.ai (value: 2000 or 2200 mm; IP30, IP31, IP40, IP41, IP42, IP54 per IEC 60529) |
 | Siemens SIVACON S8 low-voltage power d — Circuit breaker design rated current | 6300 A (3WL/3VL circuit breaker sections) | Siemens SIVACON S8 catalogue, system overview: 'Rated current In up to 6,300 A' for circuit breaker design; read 2026-11-25 via r.jina.ai |
+| Low voltage switchgear / main swit — GGD fixed LV panel rating | 2500 A (up to) | JIAHE Malaysia price matrix, 2025-2026: GGD Fixed LV Panel, 415 V, up to 2500 A, Form 2b / Form 3b. |
+| Low voltage switchgear / main swit — MNS/GCS withdrawable LV panel rating | 6300 A (up to) | Same JIAHE page: MNS / GCS Withdrawable LV, 415 V, up to 6300 A, Form 4b. |
+| Low voltage switchgear / main swit — LV switchgear equipment benchmark | 800-8000 USD per section | HTYEL guide dated 8 October 2026: LV (<1 kV) $800-$8,000/section, $1.50-$6.00/A, $500-$3,500/breaker; 2026 US market data. |
 
 - **Siemens** Siemens SIVACON S8 low-voltage power distribution switchboard: low-voltage switchgear assembly / MCC
 
@@ -5506,6 +5657,7 @@ Recorded gaps:
 - Low Voltage Switchgear — Obtain the LV board schedule and fault study before selecting a system.
 - Low Voltage Switchgear — Add the BOQ rate with date and currency when sourced.
 - Low Voltage Switchgear — Read a patent page with a publication number before recording any patent.
+- Low voltage switchgear — Find a dated LV main switchboard package award with a stated value and scope.
 
 ## maintenance
 
@@ -5543,6 +5695,7 @@ Recorded gaps:
 
 - Equipment, Mech, Elec, C&I — Obtain the bidder's EPC price breakdown or a comparable Malaysian gas-engine EPCC contract with civil/mechanical/electrical splits.
 - Equipment, Mech, Elec, C&I — Search SESB tender awards or project EPC announcements for the named 7-unit plant.
+- Mechanical, electrical and C&I installation — Obtain the bidder EPC price breakdown for the ME&C&I package and the as-built inspection/test register
 
 ## membrane-systems
 
@@ -5919,7 +6072,7 @@ Vendors: Samkang (South Korea), Edgen Murray (yard manager) / Ming Rong Yuan (Ta
 
 Primary code: PWR: Power and renewables
 Neutral grounding resistor panels for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
+Vendors: Supplier not identified in sources read (WBS line item), National Resistors (Pune, India), Logica Engineering & Manufacturing India Private Limited, Tenaga Switchgear Sdn Bhd, VA Tech Malaysia Sdn Bhd (NER in 132 kV GIS Huntsman Tioxide project, 2005) (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -5932,6 +6085,9 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 | I-Gard Neutral Grounding Resistor (NGR — maximum resistance change over temperature range | 67 % | IEEE C57.32 quoted in I-Gard C-098EB brochure, April 2022: 'The resistance of the NGR should not change by more than 67% from the initial value over the temperature range.' |
 | I-Gard SIGMA 3 NGR monitor / ground fa — applicable voltage range | 480-69000 V | I-Gard C-098EB brochure, April 2022: 'The SIGMA 3 is the I-Gard ground fault relay... it can be used across the whole range of High and Low Resistance Grounding Systems, in voltages from 480V to 69 kV.' |
 | I-Gard SIGMA 3 NGR monitor / ground fa — neutral-ground monitoring requirement | I-Gard C-098EB brochure, April 2022: 'All Neutral Grounding Resistors from I-... | I-Gard C-098EB brochure, April 2022: 'All Neutral Grounding Resistors from I-Gard comply with CEC 2021 which requires complete neutral-to-ground path monitoring.' |
+| Neutral grounding resistor (NGR) w — 11 kV NGR with VC panel - neutral current | 50 A | National Resistors product page: 'Neutral Grounding Resistors With VC Panel', 11 kV, 50 A, 127 ohm, 10 s duty, IP55, IEEE 32, generators. Page read 2026-11-25; undated. |
+| Neutral grounding resistor (NGR) w — 11 kV NGR with VC panel - resistance | 127 ohm | Same National Resistors product entry: resistance 127 ohm, 11 kV, 50 A; vendor listing, no price year. |
+| Neutral grounding resistor (NGR) w — 33 kV NGR - neutral current | 400 A | Same page: '33 kV Neutral Grounding Resistors', 400 A, 47.63 ohm, 10 s, IP55, IEEE 32 / IEC 60529. |
 
 
 Recorded gaps:
@@ -5940,6 +6096,7 @@ Recorded gaps:
 - NGR panels — Retrieve the generator neutral grounding study and single-line diagram for the plant.
 - NGR panels — Read the IEC 60076-25:2023 text from an accessible source and obtain the SESB earthing specification before recording requirements.
 - NGR panels — Do not infer patent numbers.
+- Neutral grounding resistor panels — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
 
 ## nitrogen
 
@@ -5989,7 +6146,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Oily water treatment system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Alfa Laval (1 model lines recorded).
+Vendors: Alfa Laval, Chongqing Gathering Marine Equipment Co., Ltd. (1 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -6021,6 +6178,10 @@ Vendors: Alfa Laval (1 model lines recorded).
 | API 421 conventional rectangular-chann — design flow in API worked example | 4490 gallons per minute | API Publication 421, First Edition February 1990, Section 2.1.5 'Design Example' (illustrative design example, NOT a plant rating); PDF read via r.jina.ai. |
 | API 421 conventional rectangular-chann — resulting example separator configuration | API Publication 421, First Edition February 1990, Section 2.1.5.2.7 worked de... | API Publication 421, First Edition February 1990, Section 2.1.5.2.7 worked design example; PDF read via r.jina.ai. |
 | API 421 conventional rectangular-chann — emulsified oil droplet diameter | 1-20 microns (printed 'less than 20 microns (mostly in the 1-10-micron range)') | API Publication 421, First Edition February 1990, Section 1.2; PDF read via r.jina.ai. Note printed low 1-20 micron range conflicts with parenthetical 'mostly 1-10 micron'; both preserved. |
+| YWC series 15 ppm bilge/oily water — Capacity range | 0.25-5.0 m3/h | Made-in-China product page for YWC Series 15ppm Bilge Separator by Chongqing Gathering Marine Equipment Co., Ltd., read directly 25 Nov 2026: '9 types with the capacity from 0.25m3/h to 5.00 m3/h' |
+| YWC series 15 ppm bilge/oily water — Oil content in effluent | 15 ppm (maximum, as printed: less than or equal to 15 ppm) | Same product page: 'the oil content in effluent water <= 15ppm', compliant with IMO MEPC.107(49) |
+| YWC series 15 ppm bilge/oily water — Power of pump, model range | 0.37-2.2 kW | Same page, technical specification table YWC-0.25 to YWC-5.00 |
+| YWC series 15 ppm bilge/oily water — 15 ppm bilge alarm | Same page: '15ppm Bilge Alarm included' for all YWC-0.25 to YWC-5.00 models | Same page: '15ppm Bilge Alarm included' for all YWC-0.25 to YWC-5.00 models |
 
 - **Alfa Laval** Alfa Laval OFPX 517 three-phase disc-stack centrifuge for oily water treatment: skid-mounted centrifugal oily-water separator
 
@@ -6029,6 +6190,9 @@ Recorded gaps:
 - Oily Water Treatment System Package — Obtain a priced quotation from Alfa Laval or a local Malaysian EPC vendor for the specified effluent limit.
 - Oily Water Treatment System Package — Read official patent register pages before recording any patent.
 - Oily Water Treatment System Package — Request reference project list from Alfa Laval Malaysia or tender documentation.
+- Oily water treatment system — Obtain the project effluent limits, oily water treatment package schedule and awarded quotation; record the year of any quoted price.
+- Oily water treatment system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Oily water treatment system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## operational-spares
 
@@ -6044,6 +6208,10 @@ Vendors: Everllence, GE / GE Energy, Wärtsilä (3 model lines recorded).
 | MAN PrimeServ spare parts packages (EX — high-demand OEM spare parts delivery target | 24 hours | MAN brochure printed June 2022: 'Prompt delivery of high-demand OEM spare parts within 24 hours'; Singapore and Denmark stock referenced in MAN 'Essential spare parts' material - out-of-scope MAN parts, included only as market context. |
 | GE contractual service agreement (long — CSA duration at Kimanis Power plant | 18 years | GE press release 14 June 2011: GE signed a contractual service agreement with Kimanis Power Sdn Bhd to support the 300 MW plant for 18 years; CSAs described as providing predictable maintenance costs and high availability. |
 | Wärtsilä Malaysia Sdn Bhd local servic — professionals in Malaysia | 15 professionals (over), in 2 locations | Wartsila.com/mys read 25 Nov 2026: established 1996 in Kuala Lumpur; over 15 professionals in Kuala Lumpur and Pasir Gudang, Johor. |
+| MAN 175D standardised spare parts  — number of standardised spare parts packages | 4 packages | MAN PrimeServ 'Prepare for MAN 175D', printed June 2022, p.6: 'For the MAN 175D you can select four standardized spare parts packages' - post-commissioning, mechanical, after-treatment and automation packages. |
+| MAN 175D standardised spare parts  — prompt delivery target for high-demand OEM spare parts | 24 hours | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.15: 'Prompt delivery of high-demand OEM spare parts within 24 hours'; same page notes a network of over 100 service centres worldwide and 24/7 service. |
+| MAN 175D standardised spare parts  — local stock of consumable parts | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.2: 'Local stocks of consum... | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.2: 'Local stocks of consumable parts can be provided upon request'; original spare parts supplied from main stock and warehouse facilities in Denmark. |
+| Reconditioned exchange components — components offered as reconditioned units on exchange basis | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.8: 'Components offered as ... | MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.8: 'Components offered as reconditioned units on exchange basis are cylinder heads, turbochargers, fuel injectors and cooling water pumps'; re-manufactured at the MAN 175D production centre in Frederikshavn, Denmark, with the same warranty terms and quality as new units at lower cost. |
 
 - **Everllence** MAN PrimeServ spare parts packages (EXCLUDED by the line item - context only): OEM spare parts packages - out of scope for this line item
 - **GE / GE Energy** GE contractual service agreement (long-term service support): OEM long-term service / spare-parts availability arrangement (non-MAN)
@@ -6052,6 +6220,7 @@ Vendors: Everllence, GE / GE Energy, Wärtsilä (3 model lines recorded).
 Recorded gaps:
 
 - 2-Year Operational Spares (exclude MAN spare part) — Obtain the bidder's 2-year spares schedule with part numbers and prices, and keep MAN items out of this line item.
+- Two-year operational spares — Obtain a priced two-year spares schedule from the bidder/OEM; do not treat the four generic MAN packages as the project's two-year spares.
 
 ## ozone-generators
 
@@ -6109,6 +6278,7 @@ Recorded gaps:
 
 - Piling Works (All Areas) - 1100 piles, 600 dia x 15m depth — Obtain a site-specific piling quote or Sabah JKR/Kawasan D rate for 600 mm bored piles; confirm pile type (bored vs driven), which the line item does not state.
 - Piling Works (All Areas) - 1100 piles, 600 dia x 15m depth — Do not present these figures as evidence; seek a published project specification or tender drawing.
+- Bored piling works — Obtain a site-specific piling quote with the SI and the actual pile schedule
 
 ## plant-control-system
 
@@ -6116,7 +6286,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Plant control system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: ABB, Honeywell, Emerson (duplex stainless steel option on Roxar 2600, page read), Yokogawa Electric Corporation, Siemens Gamesa, Valmet, Tenaga Nasional Berhad (6 model lines recorded).
+Vendors: ABB, Honeywell, Emerson (duplex stainless steel option on Roxar 2600, page read), Yokogawa Electric Corporation, Siemens Gamesa, Valmet, Tenaga Nasional Berhad, Yokogawa Saudi Arabia (6 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -6143,6 +6313,10 @@ Vendors: ABB, Honeywell, Emerson (duplex stainless steel option on Roxar 2600, p
 | Omterra (formerly Siemens Energy) Omni — cybersecurity certification | Omterra Omnivise T3000 product page, © Omterra 2026, read directly: 'certifie... | Omterra Omnivise T3000 product page, © Omterra 2026, read directly: 'certified by TÜV SÜD according to IEC 62443 ... built for Security Level 3 (SL 3) readiness'. (value: TÜV SÜD certification to IEC 62443; built for Security Level 3 (SL 3) readiness) |
 | Omterra (formerly Siemens Energy) Omni — substation/third-party integration protocol | Omterra Omnivise T3000 product page, © Omterra 2026, read directly (FAQ): 'in... | Omterra Omnivise T3000 product page, © Omterra 2026, read directly (FAQ): 'incorporates standards like IEC 61850 to integrate third-party systems and ensures secure operations through VPNs and data encryption'. (value: IEC 61850 and VPN/data encryption) |
 | Valmet DNA automation system (SESB ref — integrated control scope | Valmet press release, 'Valmet to supply automation technology to Sabah Electr... | Valmet press release, 'Valmet to supply automation technology to Sabah Electricity's power plant in Malaysia', Valmet Oyj press release 1 July 2016 at 11:00 a.m. EET, read directly. (value: boiler, feedwater and turbine control integrated into one Valmet DNA platform) |
+| Yokogawa CENTUM VP integrated prod — hardwired I/O points, BP Sharjah DCS | 1500 hardwired I/O points | Yokogawa Oil & Gas Success Story Collection, Bulletin 00A01A55-01EN, copyright 2016 Yokogawa Electric Corporation (Ed:03/d), BP Sharjah entry, System Details: 'Number of hardwired I/O: 1,500'. Project order date July 2007, completion October 2009. Read via r.jina.ai proxy 25 Nov 2026. |
+| Yokogawa CENTUM VP integrated prod — serial I/O points, BP Sharjah DCS | 2500 serial I/O points | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), BP Sharjah System Details: 'Number of serial I/O: 2,500, 32 subsystems'. Read via r.jina.ai proxy 25 Nov 2026. |
+| Yokogawa CENTUM VP integrated prod — subsystems integrated, BP Sharjah DCS | 32 subsystems | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), BP Sharjah System Details: '2,500, 32 subsystems' and 'The need to integrate 32 subsystems spanning a variety of communication protocols'. Read via r.jina.ai proxy 25 Nov 2026. |
+| Yokogawa CENTUM VP integrated prod — cabinets, BP Sharjah DCS | 14 cabinets | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), BP Sharjah System Details: 'Number of cabinets: 14 (including 8 extensions to existing cabinets)'. Read via r.jina.ai proxy 25 Nov 2026. |
 
 - **ABB** ABB Ability System 800xA (DCS with High Integrity SIS): integrated control and safety system (ICSS)
 - **Honeywell** Honeywell Experion PKS C300 controller: DCS controller
@@ -6155,6 +6329,9 @@ Recorded gaps:
 
 - Plant Control System — Obtain the project I&C specification, vendor quotation and control-system architecture drawing from the tender/EPC package.
 - Plant Control System — Request a written conformance statement tying the proposed platform to the Sabah Grid Code CC5.3/OC10 requirements.
+- Plant control system — Obtain the project BOQ or DCS package award/LOA and quote the exact dated value, I/O point count and currency as printed; do not derive a price from plant MW.
+- Plant control system — Locate the plant's control and instrumentation specification or EPC contract and record its named vendor, date and scope before adding it.
+- Plant control system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## power-cables
 
@@ -6191,7 +6368,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Power transformers for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group and Ganz) (1 model lines recorded).
+Vendors: CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group and Ganz), PESTECH International Bhd (1 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -6203,6 +6380,11 @@ Vendors: CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group a
 | CG Power Systems (Crompton Greaves) Po — Highest voltage for equipment Um (definition) | IEC 60076-1 Edition 3.0 2011-04, clause 3.1.9; PDF blocked by WebFetch, read ... | IEC 60076-1 Edition 3.0 2011-04, clause 3.1.9; PDF blocked by WebFetch, read via r.jina.ai 2026-11-25 (value: highest r.m.s. phase-to-phase voltage in a three-phase system for which a transf) |
 | Power transformer standard scope - IEC — Standard scope | IEC 60076-1:2011 Edition 3.0, clause 1 Scope, page 7; read via r.jina.ai 2026... | IEC 60076-1:2011 Edition 3.0, clause 1 Scope, page 7; read via r.jina.ai 2026-11-25 (value: three-phase and single-phase power transformers including auto-transformers; exc) |
 | Power transformer standard scope - IEC — Normative reference for short-circuit capability | IEC 60076-1:2011 clause 2 Normative references; read via r.jina.ai 2026-11-25... | IEC 60076-1:2011 clause 2 Normative references; read via r.jina.ai 2026-11-25 (value: IEC 60076-5:2006 (Ability to withstand short circuit)) |
+| Power transformer (oil-immersed, g — Maximum power transformer rating offered | 100 MVA | MTM company page: 'Power Transformers up to 100 MVA (150 kV)'. Page undated; read 2026-11-25. No price year stated. |
+| Power transformer (oil-immersed, g — First 132/33 kV power transformer rating | 90 MVA | MTM achievements: '2001 : First 132/33 kV Power Transformer (90 MVA)'. Printed milestone dated 2001; page read 2026-11-25. |
+| Power transformer (oil-immersed, g — First 132/11 kV power transformer rating | 45 MVA | MTM achievements: '2001 : First 132/11 kV Power Transformer (45 MVA)'. Printed milestone dated 2001. |
+| Power transformer (oil-immersed, g — 33/11 kV power transformer rating in service with TNB | 30 MVA | MTM achievements: 'More than 250 units of 30 MVA 33/11 kV successfully manufactured and put to service since 1994' and '8 x 30 MVA 132/11 kV ... since 2001'. Printed dates 1994/2001. |
+| Power transformer (oil-immersed, g — 240 MVA 275/132/33 kV transformer retrofit (unit size) | 240 MVA | MTM services list: '2007 : 240 MVA 275/132/33 kV for PMU Ayer Tawar, Perak Malaysia'. Printed year 2007. |
 
 - **CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group and Ganz)** CG Power Systems (Crompton Greaves) Power Transformers product range: power transformer
 
@@ -6211,6 +6393,7 @@ Recorded gaps:
 - Transformers (4 units) — Obtain the four transformer datasheets and the SESB approval letters; do not infer MVA from the seven-engine plant rating.
 - Transformers (4 units) — Record the line-item BOQ rate with its printed year and currency when available.
 - Transformers (4 units) — Leave patents empty until a specific patent page is read.
+- Power transformers — Read a TNB/SESB or EPC transformer supply award that states a value and price year.
 
 ## power-transformers
 
@@ -6260,6 +6443,7 @@ Recorded gaps:
 
 - Powerhouse Building (steel structure 32x71x16) — Source a structural-steel fabrication/erection rate from a Malaysian published cost book or steel fabricator catalogue.
 - Powerhouse Building (steel structure 32x71x16) — Treat 32x71x16 as bidder design data, not evidence.
+- Powerhouse building (steel structure) — Source a dated structural-steel fabrication/erection rate and the powerhouse steel tonnage from the design
 
 ## pressure-part
 
@@ -6485,6 +6669,10 @@ Vendors: Bosch Industriekessel (1 model lines recorded).
 Recorded gaps:
 
 - PA System — Obtain the PA system specification, speaker layout drawing and priced BOQ from the EPC package.
+- Public address system — Obtain the plant PA/ELV package BOQ or award notice with dated rates, speaker counts and currency as printed.
+- Public address system — Source a vendor case study or tender BOQ that prints PA equipment counts, location and date, and read it before recording.
+- Public address system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Public address system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## pump
 
@@ -6593,6 +6781,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Pump Building (steel structure 22x12x5.7) — Find a comparable pump-house steel-building tender or fabricator rate.
+- Pump building (steel structure) — Obtain the pump-house structural steel rate and tonnage from the priced BQ
 
 ## rectifying
 
@@ -6662,7 +6851,7 @@ Vendors: Wärtsilä (0 model lines recorded).
 
 Primary code: PWR: Power and renewables
 Sampling system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: ABB (1 model lines recorded).
+Vendors: ABB, MRU Instruments (as listed by Instrumart) (1 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -6676,12 +6865,18 @@ Vendors: ABB (1 model lines recorded).
 | ABB system components for sample gas s — CGWB 13 heated sample line maximum length | 130 m (self-regulating 16 W/m antifreeze version; 90 m at 30 W/m; 60 m at 60 W/m reg | ABB Data Sheet 10/23-5.10 EN, November 2006, read via r.jina.ai: 'Maximum Line Length 130 m / 90 m / 60 m' in CGWB 13 technical data table. |
 | ABB system components for sample gas s — heated line holding temperature | 200 °C (regulated parallel strip heater) | ABB Data Sheet 10/23-5.10 EN, November 2006, read via r.jina.ai: CGWB 13 'Regulated parallel strip heater ... Holding Temperature 200 °C'. |
 | ABB system components for sample gas s — modular probe system regulatory applicability | ABB Data Sheet 10/23-5.10 EN, November 2006, read via r.jina.ai: 'Usable in e... | ABB Data Sheet 10/23-5.10 EN, November 2006, read via r.jina.ai: 'Usable in emission measuring systems conforming to 13th BImSchV and 17th BImSchV (German Federal Immissions Protection Law)'. (value: usable in emission measuring systems conforming to 13th BImSchV and 17th BImSchV) |
+| MRU OPTIMAX Biogas Analyzer (catal — gas components measurable | 7 gas components (up to) | Instrumart Emission Analyzers catalogue page read 25 Nov 2026: 'Biogas, Landfill & Engine Exhaust systems for measurements of up to 7 gas components with up to 32,000 point data storage.' No dollar year printed. |
+| MRU OPTIMAX Biogas Analyzer (catal — data point storage | 32000 points (up to) | Instrumart Emission Analyzers catalogue page read 25 Nov 2026: 'with up to 32,000 point data storage'. No dollar year printed. |
 
 - **ABB** ABB system components for sample gas sampling (FE2/PFE2/PFE3 filters, probes, heated lines): gas sampling and sample conditioning system components
 
 Recorded gaps:
 
 - Sampling System — Obtain the sampling system datasheet, analyser specification, sample point schedule and priced BOQ from the EPC package.
+- Sampling system — Obtain the plant's sampling-system BOQ or award with dated rates, sample points and currency as printed, and keep the catalogue prices as separate undated references.
+- Sampling system — Find an OEM or EPC case study that prints the plant name, location, date and number of sampling points, then read it before recording.
+- Sampling system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Sampling system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## scada-agc-integration
 
@@ -6689,7 +6884,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Utility SCADA and automatic generation control integration for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC), Siemens Gamesa (2 model lines recorded).
+Vendors: SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC), Siemens Gamesa, Yokogawa Electric Corporation (2 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -6700,6 +6895,9 @@ Vendors: SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC), Siemens 
 | SESB SLDC Automatic Generation Control — pre-COD AGC test requirement | Sabah Grid Code OC10 test list (published 2024, read via r.jina.ai): 'Before ... | Sabah Grid Code OC10 test list (published 2024, read via r.jina.ai): 'Before the Commercial Operation Date (COD), Generator and Power Park Module shall conduct the following tests ... x. Automatic Generation Control'. (value: Automatic Generation Control listed among tests before Commercial Operation Date) |
 | SESB SLDC Automatic Generation Control — operational metering to SCADA | Sabah Grid Code MC4.1.2 (published 2024, read via r.jina.ai): 'Operational Me... | Sabah Grid Code MC4.1.2 (published 2024, read via r.jina.ai): 'Operational Metering Data shall be collected by the Remote Terminal Units (RTUs) which are part of the GSO 's SCADA system.' (value: voltage, current, frequency, active/reactive power, plant status indications and) |
 | Omterra (formerly Siemens Energy) Omni — SCADA role | Omterra Omnivise T3000 product page, © 2026 Omterra, read directly: 'a scalab... | Omterra Omnivise T3000 product page, © 2026 Omterra, read directly: 'a scalable SCADA system ... combine all types of generation units by centralized process control' and FAQ 'The Omnivise T3000 system supports easy remote access for remote operation and maintenance.' (value: controls mixed fleet generation from single platform; supports centralized remot) |
+| Yokogawa FAST/TOOLS centralized SC — RTUs integrated into centralized SCADA | 400 RTUs (approximately) | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), GAIL (India) Limited entry, customer quote: 'This work included the integration of approximately 400 RTUs of eight different makes.' Plant information: order April 2011, completion July 2012, multiple locations India. Read via r.jina.ai proxy 25 Nov 2026. |
+| Yokogawa FAST/TOOLS centralized SC — system availability for the GAIL pipeline network | 99.5 % | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), GAIL entry: 'System availability for the entire GAIL pipeline network has been increased to 99.5%'. No price in document. |
+| Yokogawa FAST/TOOLS centralized SC — natural gas pipeline network length monitored | 10700 km (over) | Yokogawa Bulletin 00A01A55-01EN (copyright 2016), GAIL entry: 'GAIL also presently has seven natural gas pipeline networks across the country, with a total length of over 10,700 km.' No price in document. |
 
 - **SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC)** SESB SLDC Automatic Generation Control / load following interface: grid dispatch and AGC interface
 - **Siemens Gamesa** Omterra (formerly Siemens Energy) Omnivise T3000 SCADA functionality: power plant SCADA / centralized fleet control
@@ -6707,6 +6905,9 @@ Vendors: SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC), Siemens 
 Recorded gaps:
 
 - Integration to SESB SCADA System incl Auto Generation Control System — Obtain the SESB SCADA/AGC interface specification, RTU I/O list and AGC test report for the project.
+- Utility SCADA and automatic generation control integration — Obtain the SCADA/AGC package award, BOQ or tender evaluation with dated prices and per-point rates, and keep document fees separate from contract values.
+- Utility SCADA and automatic generation control integration — Find the plant's grid-interconnection or scheduling agreement with SESB/Single Buyer Sabah and quote any AGC interface clauses and dates.
+- Utility SCADA and automatic generation control integration — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## scheduled-waste-building
 
@@ -6724,6 +6925,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Schedule Waste Building (steel structure) — Check DOE Malaysia scheduled-waste storage requirements and source a comparable building rate.
+- Scheduled waste building (steel structure) — Obtain the scheduled-waste store priced BQ and the applicable Malaysian scheduled-waste design requirements
 
 ## screw
 
@@ -6851,6 +7053,9 @@ Vendors: HADETEC (Nijkerk, Netherlands; Rootselaar Group), Comair (Shanghai, Chi
 | Aerodyn Group Malaysia (Pneumatech / E — refrigerant dryer pressure dew point | 3 °C/37.4 °F | Aerodyn Group Pneumatech page; page read 2026-11-25; footer ©2026. |
 | Aerodyn Group Malaysia (Pneumatech / E — adsorption dryer pressure dew point | -10--70 °C / 14 °F to -70 °F/-94 °F | Aerodyn Group Pneumatech page; page read 2026-11-25; footer ©2026. |
 | Aerodyn Group Malaysia (Pneumatech / E — Malaysia presence | Aerodyn Group page footer contact addresses; page read 2026-11-25; footer ©2026. | Aerodyn Group page footer contact addresses; page read 2026-11-25; footer ©2026. |
+| Plant/service air compressor packa — Plant air ISO 8573-1 classification | CAGI Compressed Air Purity Guide, Plant Air section: 'An ISO 8573-1 air purit... | CAGI Compressed Air Purity Guide, Plant Air section: 'An ISO 8573-1 air purity specification of [-:4-5:-] with a minimum point of 45 deg F satisfies the Plant Air classification'; read via r.jina.ai fallback 25 Nov 2026 (value: [-:4-5:-]) |
+| Plant/service air compressor packa — Compressor package rating (example quoted unit) | 17.4 CFM at 175 PSIG | Staab change order no. 8 (6 May 2024): Quincy QT-Series oil-lubricated reciprocating air compressor rated 17.4 CFM at 175 PSIG with 5 HP motor and 80-gallon ASME vertical receiver tank; read via r.jina.ai fallback 25 Nov 2026 |
+| Plant/service air compressor packa — Air compressor aftercooler bulk water removal (typical) | 70 % (approximately, of bulk water) | CAGI Compressed Air Purity Guide, Plant Air section: 'Compressors frequently have integrated aftercoolers that will effectively remove a significant amount (~70%) of the bulk water present in the compressed air stream' |
 
 - **HADETEC (Nijkerk, Netherlands; Rootselaar Group)** HADETEC oil-injected / oil-free screw air compressor packages (onshore and offshore): plant/service air compressor package
 - **Comair (Shanghai, China)** Comair plant/service compressed air and dryer/filtration packages: general plant air (utility air) compressor packages
@@ -6862,6 +7067,9 @@ Recorded gaps:
 - Service Air System Package — Obtain a priced service-air package quotation.
 - Service Air System Package — Read official patent register pages before recording any patent.
 - Service Air System Package — Request reference lists from HADETEC or Aerodyn Group Malaysia.
+- Service air system — Obtain the service air package BOQ, demand schedule and awarded quotation from project documents.
+- Service air system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Service air system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## sewerage-water-system
 
@@ -6880,6 +7088,7 @@ Recorded gaps:
 
 - Sewerage System (Pipes:3980 m; Raw Water Tank (300m³), Fire / Service Water Tank (2x1500m³), SS potable Water Tank (15m³) — Source a sewerage BQ and tank unit rates (RM/m3 capacity or RM/m2) from a Malaysian tender or water-authority schedule.
 - Sewerage System (Pipes:3980 m; Raw Water Tank (300m³), Fire / Service Water Tank (2x1500m³), SS potable Water Tank (15m³) — Do not cite these quantities as sourced facts.
+- Sewerage and water storage system — Obtain the sewerage/water package priced BQ and a dated Malaysian benchmark
 
 ## shift
 
@@ -6984,6 +7193,7 @@ Recorded gaps:
 
 - Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2) — Source JKR Sabah road/pavement schedule of rates and a plant-floor BQ.
 - Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2) — Do not present as sourced facts.
+- Site roads and paving — Obtain a dated RM/m2 road/paving rate and confirm the exact DOSM Sabah region column from the original PDF
 
 ## sizing
 
@@ -7543,7 +7753,7 @@ Vendors: Heerema (0 model lines recorded).
 
 Primary code: PWR: Power and renewables
 132 kV substation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
+Vendors: Supplier not identified in sources read (WBS line item), Pestech Sdn Bhd, MN Power Transmission Sdn Bhd (subsidiary of MN Holdings Bhd), Hexatech Engineering Sdn. Bhd. (subsidiary of HE Group Berhad), Sieyuan Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -7560,6 +7770,8 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 | ABB ELK-04 C, 145 kV gas-insulated swi — BIL required at 132 kV by Sabah grid code (User Apparatus) | 550 kV | Planning and Connection Codes for Sabah and Labuan Grid Codes, 16 June 2014, slide 13: 'at 132 kV voltage level, the BIL is 550 kV'; read via r.jina.ai 2026-11-25. Manufacturer 145 kV BIL above is product data, not evidence of project compliance. |
 | ABB ELK-04 C, 145 kV gas-insulated swi — Overhead line fault clearance time at 132 kV | 6 cycles (120 to 140 ms) | Planning and Connection Codes for Sabah and Labuan Grid Codes, 16 June 2014, slide 11: 'for the 132 kV lines, 6 to 7 cycles (120 to 140 ms)'; read via r.jina.ai 2026-11-25 |
 | ABB ELK-04 C, 145 kV gas-insulated swi — Total harmonic distortion limit at 132 kV | 2 % THD with no individual harmonic greater than 1.5% | Planning and Connection Codes for Sabah and Labuan Grid Codes, 16 June 2014, slide 51: 'at 132 kV, a total harmonic distortion of 2% with no individual harmonic greater than 1.5%'; read via r.jina.ai 2026-11-25 |
+| 132/33 kV main intake substation ( — Transformer capacity of named 132/33 kV PMU | 90 MVA | MN Holdings/Bursa filing report: Blue Valley PMU 132/33 kV 'with a capacity of two times 45 mega-volt amperes' (2 x 45 MVA = 90 MVA stated basis, not a separate printed figure). Report published 13 Aug 2026. |
+| 132/33 kV main intake substation ( — 132 kV mobile substation voltage class | 132 kV | Sieyuan case page: seven 132 kV mobile high-voltage substations, 40 MVA transformer capacity, dual 33 kV and 13.8 kV output; page read 2026-11-25, no year stated. |
 
 
 Recorded gaps:
@@ -7567,6 +7779,7 @@ Recorded gaps:
 - 132kV Substation (3 busbar, 2 outgoing, 4 incoming) — Obtain the 132 kV SLD and bay schedule from the EPC/SESB interface documents before assigning an OEM.
 - 132kV Substation (3 busbar, 2 outgoing, 4 incoming) — Add the BOQ rate with date and currency when sourced.
 - 132kV Substation (3 busbar, 2 outgoing, 4 incoming) — Keep patents empty unless a patent page is actually read.
+- 132 kV substation — Locate an SESB 132 kV PMU award notice with a value and price year.
 
 ## substation-33kv
 
@@ -7574,7 +7787,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 33 kV substation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
+Vendors: Supplier not identified in sources read (WBS line item), NEECO Sdn Bhd, Tamco Switchgear (Malaysia) Sdn Bhd, Tenaga Switchgear Sdn Bhd, PESTECH International Bhd (0 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -7587,6 +7800,8 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 | ABB UniGear ZS1 (double busbar variant — BIL required at 33 kV in Sabah | 170 kV | Planning and Connection Codes for Sabah and Labuan Grid Codes, 16 June 2014, slide 13: 'at 33 kV voltage level, the BIL is 170 kV'; read via r.jina.ai 2026-11-25 |
 | ABB UniGear ZS1 (double busbar variant — Maximum fault level rule | 90 % of design short-circuit break and make capacity of switchgear, and within 90% | Sabah Distribution Code clause 5.4.9.1: maximum sub-transient three-phase symmetrical short circuit fault levels not greater than 90% of switchgear design break and make capacity; PDF posted 2024-01-05, read via r.jina.ai 2026-11-25 |
 | ABB UniGear ZS1 (double busbar variant — 33 kV classification under the Sabah Distribution Code | Sabah Distribution Code clause 1.2.2; read via r.jina.ai 2026-11-25 (value: D... | Sabah Distribution Code clause 1.2.2; read via r.jina.ai 2026-11-25 (value: Distribution System (below 66 kV: 33 kV, 11 kV, 230 V and 400 V)) |
+| 33/11 kV indoor AIS/GIS substation — 33 kV GIS switchgear scope | 33 kV | PESTECH reference table, 2011 row: 'Supply and Delivery of 33kV GIS Switchgear for PMU Pasir Gudang Town Centre'; page read 2026-11-25. |
+| 33/11 kV indoor AIS/GIS substation — 33 kV feeder protection and metering panels supplied | 34 panels | PESTECH reference table, 2009 row: '34 units of 33kV Feeder Protection and Metering Panels, 10 units of 33kV Transformer Protection and Metering Panels to Ghana'. |
 
 
 Recorded gaps:
@@ -7594,6 +7809,8 @@ Recorded gaps:
 - 33kV Substation (1 busbar, 7 outgoing, 2 incoming) — Record the as-specified configuration from the SLD; do not treat the ABB double-busbar leaflet as the project configuration.
 - 33kV Substation (1 busbar, 7 outgoing, 2 incoming) — Source the fault level from the Distributor under Sabah Distribution Code 5.4.9.4 and add the BOQ rate when available.
 - 33kV Substation (1 busbar, 7 outgoing, 2 incoming) — Leave patents empty until read.
+- 33 kV substation — Find a dated 33/11 kV substation award with its value and price year.
+- 33 kV substation — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## substation-room-33kv
 
@@ -7612,6 +7829,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - 33 kV substation and low voltage distribution room (reinforced concrete 27.2x7x5.3) — Source a comparable 33/11 kV substation building BQ or tender award.
+- 33 kV substation and LV distribution room — Obtain the 33 kV/LV package priced BQ and a dated Malaysian substation benchmark
 
 ## switchgear
 
@@ -7656,7 +7874,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 11 kV switchgear for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: ABB, Siemens (2 model lines recorded).
+Vendors: ABB, Siemens, Tenaga Switchgear Sdn Bhd, Tamco Switchgear (Malaysia) Sdn Bhd (2 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -7668,6 +7886,10 @@ Vendors: ABB, Siemens (2 model lines recorded).
 | Siemens 3AK7 vacuum circuit breaker (s — Rated voltage / impulse withstand at 12 kV | Siemens Catalog HG 11.06 Edition 2017, 3AK7 technical data table (12 kV: Up 7... | Siemens Catalog HG 11.06 Edition 2017, 3AK7 technical data table (12 kV: Up 75 kV, Ud 28 kV); read 2026-11-25 via r.jina.ai (value: 12 / 75 / 28) |
 | Siemens 3AK7 vacuum circuit breaker (s — Rated short-circuit breaking current at 12 kV | 50 kA (standard breaker, 36% DC component) | Siemens Catalog HG 11.06 Edition 2017, 3AK7 12 kV selection table; read 2026-11-25 via r.jina.ai |
 | Siemens 3AK7 vacuum circuit breaker (s — Standards met | Siemens Catalog HG 11.06 Edition 2017, 'Standards' section; read 2026-11-25 v... | Siemens Catalog HG 11.06 Edition 2017, 'Standards' section; read 2026-11-25 via r.jina.ai (value: IEC 62271-100, IEC 62271-1, IEC 60265-1 and IEC/IEEE 62271-37-013:2015 (marked a) |
+| 11 kV metalclad / metal-enclosed v — Bus continuous current | 1200 A | Petersburg Borough Scow Bay Gen #2 11 kV switchgear bid specification, section 5.0, dated 4 August 2025. |
+| 11 kV metalclad / metal-enclosed v — Interrupting symmetrical current | 25 kA | Same bid specification, section 5.0: interrupting symmetrical current 25 kA; maximum RMS momentary 29 kA; closing and latching 65 kA. |
+| 11 kV metalclad / metal-enclosed v — Rated maximum voltage / BIL | 15 kV | Same bid specification, section 5.0: Rated Maximum Voltage 15 kV; BIL 95 kV; bus voltage 11,000 V delta, 60 Hz. |
+| 11 kV metalclad / metal-enclosed v — KYN28-12 metal-clad MV panel rating | 31.5 kA / 3 s | JIAHE Malaysia market page: KYN28-12 metal-clad MV, 11 kV-12 kV, 1250 A-3150 A, 'IAC AFLR 31.5kA / 3s'. Page read 2026-11-25; vendor literature, 2025-2026 price matrix. |
 
 - **ABB** ABB UniGear ZS1 air-insulated medium-voltage switchgear: 11 kV class air-insulated metal-enclosed switchgear
 - **Siemens** Siemens 3AK7 vacuum circuit breaker (switching device for 11 kV switchgear): medium-voltage vacuum circuit breaker
@@ -7677,6 +7899,9 @@ Recorded gaps:
 - 11kV Switchgears (11 units) — Source the connection-point fault level under Sabah Distribution Code 5.4.9.4, then select equipment; do not infer panel duties from the unit count.
 - 11kV Switchgears (11 units) — Add the rate with date and currency when sourced.
 - 11kV Switchgears (11 units) — Keep patents empty until read.
+- 11 kV switchgear — Find an 11 kV VCB panel award with a stated Malaysian contract value and price year.
+- 11 kV switchgear — Obtain the project equipment datasheet or vendor patent list, then read the identified patent page and record number, title, assignee and publication year.
+- 11 kV switchgear — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## switchgear-room-132kv
 
@@ -7695,6 +7920,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - SESB_132kV Switchgear Room (reinforced concrete 10.8x35x13.2 + 10.8 x26x7.5) — Obtain the project's electrical specification and a comparable SESB 132 kV substation building tender.
+- 132 kV switchgear room — Obtain the 132 kV GIS/AIS package price and the applicable 132 kV equipment standard for the SESB connection
 
 ## switchgear-room-mv
 
@@ -7713,6 +7939,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - MV Switchgear Room (reinforced concrete 16.5x9.9x5.3) — Source the project 11 kV switchgear specification and an equivalent room-cost benchmark.
+- MV switchgear room — Obtain the 33 kV/11 kV switchgear package price and a dated Malaysian benchmark
 
 ## tariff-meter
 
@@ -7720,7 +7947,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Main and check tariff meters for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: SESB Single Buyer (system owner/operator per Sabah Grid Code), Itron SAS, Landis+Gyr (3 model lines recorded).
+Vendors: SESB Single Buyer (system owner/operator per Sabah Grid Code), Itron SAS, Landis+Gyr, Pestech Sdn Bhd, Pestech Energy Sdn Bhd, T7 Wenmax Sdn Bhd (3 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -7743,6 +7970,11 @@ Vendors: SESB Single Buyer (system owner/operator per Sabah Grid Code), Itron SA
 | Landis+Gyr E850 grid meter — accuracy class | Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: 'Accuracy cl... | Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: 'Accuracy class 0.2S / 0.5S for active energy and 0.5S / 1 for reactive energy'. (value: 0.2S / 0.5S (active); 0.5S / 1 (reactive)) |
 | Landis+Gyr E850 grid meter — measurement | Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: '4-quadrant ... | Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: '4-quadrant measurement' and 'CT/VT error correction' listed under features/variations. (value: 4-quadrant (+P -P, +Q -Q, Q1..Q4); CT/VT error correction; instantaneous phase v) |
 | Landis+Gyr E850 grid meter — capture period | 1-5 minutes (stated as 'capture periods under 15 minutes (1 to 5 minutes)') | Landis+Gyr E850 product page (© Landis+Gyr 2026), read directly: 'provides sufficient resolution for capture periods under 15 minutes (1 to 5 minutes)'. |
+| Single-phase and three-phase radio — single-phase RF smart meters supplied | 79800 units | The Edge Malaysia, KUALA LUMPUR (Oct 2), Bursa Malaysia filing Monday 2 Oct 2023: '79,800 units of single phase radio frequency smart meters'. Same figure in The Edge 9 Oct 2023 T7 Global report. |
+| Single-phase and three-phase radio — three-phase RF smart meters supplied | 19950 units | The Edge Malaysia, KUALA LUMPUR (Oct 2), Bursa Malaysia filing Monday 2 Oct 2023: '19,950 units of three phase radio frequency smart meters'. Same figure in The Edge 9 Oct 2023 T7 Global report. |
+| Single-phase and three-phase radio — NCM digits, single-phase meter (SESB T.9468) | 7 digits | SESB Tender T.9468 page read 25 Nov 2026: title '1PH Elec. Energy Meter With NCM 7 Digits ...', closing date 09-12-2026. This is a specification printed in the tender title, not a price. |
+| Single-phase and three-phase radio — NCM digits, three-phase meter (SESB T.9468) | 8 digits | SESB Tender T.9468 page read 25 Nov 2026: title '3PH Elec. Energy Meter With NCM 8 Digit', closing date 09-12-2026. This is a specification printed in the tender title, not a price. |
+| Single-phase and three-phase radio — cumulative smart-meter units ordered from TNB by Pestech group since 2019 | 643455 units | The Edge Malaysia, 2 Oct 2023: 'since 2019 till to-date ... a total of RM139.8 million smart meters order from TNB ... consisted of a total of 643,455 units of smart meters'. |
 
 - **SESB Single Buyer (system owner/operator per Sabah Grid Code)** SESB revenue metering installation - Main Meter and Check Meter (Type 1 metering): tariff/revenue metering installation with main and check meters, CT/VT and data logger
 - **Itron SAS** Itron ACE SL7000 industrial & substation meter range: transformer-connected tariff meter
@@ -7752,6 +7984,10 @@ Recorded gaps:
 
 - Main & Check tariff Meters at each SESB-IF 33kV incomers — Obtain the SESB metering specification/connection agreement and the priced meter and CT/VT schedule for the two 33 kV incomers.
 - Main & Check tariff Meters at each SESB-IF 33kV incomers — Read the PDF natively from an authorised source and extract the MS 62052/62053 approval clauses and approved-meter list.
+- Main and check tariff meters — Obtain a dated SESB metering tender BOQ or award with metre-by-metre rates and clearly separate main from check meter pricing.
+- Main and check tariff meters — Read the underlying Bursa Malaysia filings and keep each company's filing as a separate source before any reconciliation.
+- Main and check tariff meters — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Main and check tariff meters — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## telecom-network
 
@@ -7779,6 +8015,8 @@ Vendors: Siemens (1 model lines recorded).
 Recorded gaps:
 
 - Telecommunication and Network Infrastructure — Request SESB Grid Owner communication guidelines and the project telecom/network BOQ and single-line diagram.
+- Telecommunication and network infrastructure — Find the plant's ICT/network package BOQ or award notice and record its dated value, quantities and currency exactly as printed.
+- Telecommunication and network infrastructure — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## testing
 
@@ -8405,6 +8643,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Transformer Bay Area for LV Auxiliary (11/0.433kV) - blast wall & platform — Obtain the blast-wall design basis (fire rating, height, blast load) and a project-specific rate.
+- LV auxiliary transformer bay — Obtain the auxiliary transformer bay price from the substation package BQ
 
 ## transformer-bay-stepup
 
@@ -8422,6 +8661,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Transformer Bay Area for Step-Up Transfomer (132/11kV) - blast wall & platform — Source the 132/11 kV transformer bay civil design and a comparable substation fire-wall BQ.
+- Step-up transformer bay — Obtain dated award values for the step-up transformer bays from the project procurement records
 
 ## truck-rail
 
@@ -8484,6 +8724,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Unloading Station (steel structure) — Confirm what is unloaded (urea, diesel, chemicals) and source a comparable unloading facility tender/rate.
+- Unloading station (steel structure) — Obtain the unloading-station structural steel rate and the project award value
 
 ## ups
 
@@ -8551,6 +8792,9 @@ Recorded gaps:
 - UPS System — Obtain the project BOQ pricing schedule, awarded vendor quotation and the EPC interface specification for the 7-unit plant.
 - UPS System — Retrieve the SESB/plant electrical interface specification and generator-plant UPS load list.
 - UPS System — Query a patent database only if patent evidence is required; do not infer a number.
+- Uninterruptible power supply system — Read an accessible UPS award notice or power-plant UPS package document stating capacity (kVA), price and year.
+- Uninterruptible power supply system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Uninterruptible power supply system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## urea
 
@@ -8639,12 +8883,18 @@ Vendors: SESB Grid System Operator (GSO) (1 model lines recorded).
 | SESB GSO/User operational liaison and  — technical criteria source for voice and data communication | Sabah Grid Code CC5.5 'Technical Criteria for Communication Equipment' (publi... | Sabah Grid Code CC5.5 'Technical Criteria for Communication Equipment' (published 2024, read via r.jina.ai): 'The technical criteria concerning voice and data communication equipment for Power Stations is contained in the Grid Owner's guidelines document, which is available on request.' (value: Grid Owner's guidelines document, available on request) |
 | SESB GSO/User operational liaison and  — telecommunication signalling in fault clearance time | Sabah Grid Code CC5.6/protection criteria (published 2024, read via r.jina.ai... | Sabah Grid Code CC5.6/protection criteria (published 2024, read via r.jina.ai): 'Total fault clearance times include time for relay operation, circuit breaker operation, and telecommunication signaling ... for the 132 kV lines, 7.5 cycles (150 ms)'. |
 | SESB GSO/User operational liaison and  — metering communication equipment legal approval | Sabah Grid Code MC6.2 (published 2024, read via r.jina.ai). (value: must be a... | Sabah Grid Code MC6.2 (published 2024, read via r.jina.ai). (value: must be approved under relevant telecommunication laws and regulations) |
+| CAT-1 remote monitor / CATMaster s — nominal radio range | 20 km | Google Patents US8738191B2 page read 25 Nov 2026; description as printed: 'Radio range is nominally 20 km, but varies with local conditions (e.g. terrain). Solar powered spread spectrum radio repeaters are available for longer communication distances.' Publication date 2014-05-27, priority 2010-09-17. No price in document. |
+| CAT-1 remote monitor / CATMaster s — data points per CAT-1 programmed into SCADA | 12 data points | Google Patents US8738191B2 page read 25 Nov 2026: 'Data point definitions (12 per CAT-1) are then programmed into SCADA. Radio path and signal strengths are then verified. Receipt of 12 bi-polar analog data points per CAT-1 is also verified.' No price in document. |
+| CAT-1 remote monitor / CATMaster s — remote monitors handled per CATMaster | 4 CAT-1 remote monitors | Google Patents US8738191B2 page read 25 Nov 2026: 'The CATMaster is a 19 inch (483 mm) rack-mount unit that acquires data from up to four CAT-1 Remote Monitors via a spread spectrum radio transceiver.' No price in document. |
 
 - **SESB Grid System Operator (GSO)** SESB GSO/User operational liaison and communication channels (OC5.5): utility-to-plant operational communication interface
 
 Recorded gaps:
 
 - Communication System with Sabah Electricity S/B (SESB) — Obtain the Grid Owner communication guideline and the Connection Agreement interface schedule from SESB.
+- Utility communication system — Obtain the plant's communication-system package award or rate schedule and record the date, quantities and currency as printed.
+- Utility communication system — Source a utility-published communication network case study with named utility, location, date and scale, and read it before adding.
+- Utility communication system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## uv-reactors
 
@@ -8750,6 +9000,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Visitor/ Meeting Building (reinforced concrete 22x13x7.2) — Search Malaysian public building tender awards or JKR Sabah project lists for comparable RC visitor buildings.
+- Visitor and meeting building (reinforced concrete) — Obtain the priced BQ for the building or a dated Sabah industrial-building RM/m2 benchmark
 
 ## waste
 
@@ -8800,7 +9051,7 @@ Recorded gaps:
 
 Primary code: PWR: Power and renewables
 Water storage tank system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
-Vendors: PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia) (1 model lines recorded).
+Vendors: PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia), POTAGLAS Malaysia, Mui Fatt Marketing Sdn Bhd, G-FRP Venture Marketing Sdn Bhd (1 model lines recorded).
 
 | Specification | Value | Basis |
 | --- | --- | --- |
@@ -8821,6 +9072,11 @@ Vendors: PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia) (1 model li
 | Basiia AWWA D100 welded carbon steel w — applicable standard | Basiia 'Atmospheric Storage Tanks' page, Key Features 'AWWA D100 — Water Stor... | Basiia 'Atmospheric Storage Tanks' page, Key Features 'AWWA D100 — Water Storage Tanks'; page read 2026-11-25; site footer ©2026. |
 | Basiia AWWA D100 welded carbon steel w — potable water contact lining | Basiia page: 'including NSF/ANSI 61 lining systems where potable water contac... | Basiia page: 'including NSF/ANSI 61 lining systems where potable water contact is required'; page read 2026-11-25; footer ©2026. |
 | Basiia AWWA D100 welded carbon steel w — service scope | Basiia page Overview and Key Features; page read 2026-11-25; footer ©2026. | Basiia page Overview and Key Features; page read 2026-11-25; footer ©2026. |
+| GRP sectional panel water tank — Design standard | PIPECO Tanks Malaysia GRP Sectional Water Tank general specifications page, r... | PIPECO Tanks Malaysia GRP Sectional Water Tank general specifications page, read directly 25 Nov 2026 (value: Singapore Standard SS245:2014, MS 1390:2010 similar to BS 7491 Part 3:1994 and B) |
+| GRP sectional panel water tank — Tensile strength, panel | 107 MN/m2 | PIPECO GRP tank panel performance table: 107 MN/m2 vs SS 245:2014 acceptance criteria >70 (min); page read 25 Nov 2026 |
+| GRP sectional panel water tank — Bending strength, panel | 167 MN/m2 | PIPECO GRP tank panel performance table: 167 MN/m2 vs SS 245:2014 acceptance criteria >100 (min) |
+| GRP sectional panel water tank — Glass content, panel | 33 % | PIPECO GRP tank panel performance table: 33% vs SS 245:2014 acceptance criteria >25 (min) |
+| GRP sectional panel water tank — Water absorption, panel | 0.2 % | PIPECO GRP tank panel performance table: 0.2% vs SS 245:2014 acceptance criteria 0.5 (max) |
 
 - **PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia)** PIPECO GRP Sectional Water Tank (SMC panel, internal tie-rod or external braced designs): modular glass-reinforced-plastic sectional water storage tank
 
@@ -8829,6 +9085,10 @@ Recorded gaps:
 - Water Tank System Package — Obtain a priced quotation or the project BOQ for potable/fire/service water tankage.
 - Water Tank System Package — Read official patent register pages before recording any patent.
 - Water Tank System Package — Request PIPECO 'Our Works' reference list or project-specific vendor track record.
+- Water storage tank system — Obtain the project water storage BOQ, tank schedule and vendor quotation from project documents.
+- Water storage tank system — Obtain the project equipment datasheet or vendor patent list, then read the identified patent page and record number, title, assignee and publication year.
+- Water storage tank system — Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it.
+- Water storage tank system — Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value.
 
 ## water-treatment
 
@@ -10396,6 +10656,7 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 Recorded gaps:
 
 - Electrical & Mechanical Workshop (steel structure 38x20x9.6) — Source a Malaysian industrial workshop steel-building rate or comparable tender BQ.
+- Electrical and mechanical workshop building — Obtain the workshop building priced BQ or a dated Sabah industrial workshop benchmark
 
 ## workshop-equipment
 
@@ -10408,8 +10669,11 @@ Vendors: Supplier not identified in sources read (WBS line item) (0 model lines 
 | Specification | Value | Basis |
 | --- | --- | --- |
 | WBS line item | Mechanical Maintenance Workshop Equipment Package n/a | Line item from the GEG plant WBS/BOQ; no sourced numeric specification found. |
+| Standard workshop tools / inspecti — Tooling requirement for routine inspections | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.8 '... | Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.8 'Maintenance of combustion engines': 'Standard workshop tools are typically sufficient for inspections'; read via r.jina.ai fallback 25 Nov 2026 |
+| Standard workshop tools / inspecti — Inspection approach | Same white paper: 'most routine inspections and maintenance measures can be q... | Same white paper: 'most routine inspections and maintenance measures can be quickly performed by operating personnel while the engine is in operation'; condition based maintenance can extend inspection intervals |
 
 
 Recorded gaps:
 
 - Mechanical Maintenance Workshop Equipment Package — Obtain the workshop equipment schedule from the tender BOQ and the linked MAC Products catalogue PDF; record machine-by-machine specs and prices only from documents actually read.
+- Mechanical maintenance workshop equipment — Obtain the workshop equipment schedule from the tender BOQ and record machine-by-machine specs and prices only from documents actually read.

@@ -1,0 +1,26 @@
+{
+  "id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362",
+  "name": "GT Silex Silencer Catalogue 2026",
+  "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "GT Silex / Nelson Global",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Catalogue titled 2026; space dimensions in inches, weights in pounds; prices referenced to a separate price book. Fetched with r.jina.ai fallback on 25 Nov 2026. No printed price figures in the catalogue body."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "gef-mat-high-capacity-underground-transmission-cable-alumi",
+  "name": "High-capacity underground transmission cable (aluminium/copper conductor)",
+  "material_category": "cable",
+  "description": "High-capacity underground transmission cable (aluminium/copper conductor) named on a page read in the GEG gap-fill for HV and LV cables with cable trays and accessories.",
+  "specifications": [
+    {
+      "metric": "Certified maximum conductor size",
+      "unit": "sq. mm",
+      "basis": "Southern Cable press release 2 July 2026, page 2: product certification obtained for high-capacity underground transmission cable with conductor sizes up to 1,800 sq. mm. Company holds MS, IEC, BS, Energy Commission Malaysia, Fire and Rescue, SIRIM QAS, TÜV SÜD and UL certifications as stated. (value: up to 1,800 sq. mm)",
+      "year": 2026,
+      "source": {
+        "url": "https://southerncable.investor.net.my/wp-content/uploads/2026/07/SouthernCable_TNB-Contract_PressRelease_final_260702.pdf",
+        "source_id": "gef-southerncable-investor-net-my-southerncable-fe686b0"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-hv-and-lv-cables-with-cable-trays-and-accessories"
+  ],
+  "sources": [
+    {
+      "url": "https://southerncable.investor.net.my/wp-content/uploads/2026/07/SouthernCable_TNB-Contract_PressRelease_final_260702.pdf",
+      "source_id": "gef-southerncable-investor-net-my-southerncable-fe686b0"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

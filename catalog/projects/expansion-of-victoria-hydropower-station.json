@@ -1,0 +1,26 @@
+{
+  "id": "expansion-of-victoria-hydropower-station",
+  "name": "Expansion of Victoria Hydropower Station",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Sri Lanka - Mahaweli river basin",
+  "location": "Sri Lanka - Mahaweli river basin",
+  "status": "operating",
+  "description": "2 x 122 MW vertical Francis turbines, 140 MVA generators at 50 Hz; direct cost US$181,488,963 and administration/engineering fee US$18,148,896; cost estimate as of 31 October 2008.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf",
+      "source_id": "gef-r-jina-ai-11948841-09-pdf-6c3d822",
+      "note": "2 x 122 MW vertical Francis turbines, 140 MVA generators at 50 Hz; direct cost U"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Construction management and services."
+}

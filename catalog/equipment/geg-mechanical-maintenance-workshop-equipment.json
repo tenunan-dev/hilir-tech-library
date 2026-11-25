@@ -28,6 +28,25 @@
         "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
         "note": "Work package supplied by owner; not a technical source."
       }
+    },
+    {
+      "metric": "Standard workshop tools / inspecti — Tooling requirement for routine inspections",
+      "unit": "n/a",
+      "basis": "Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.8 'Maintenance of combustion engines': 'Standard workshop tools are typically sufficient for inspections'; read via r.jina.ai fallback 25 Nov 2026",
+      "year": 2011,
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+      }
+    },
+    {
+      "metric": "Standard workshop tools / inspecti — Inspection approach",
+      "unit": "n/a",
+      "basis": "Same white paper: 'most routine inspections and maintenance measures can be quickly performed by operating personnel while the engine is in operation'; condition based maintenance can extend inspection intervals",
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+      }
     }
   ],
   "vendor_models": [],
@@ -40,6 +59,10 @@
   "sources": [
     {
       "url": "http://www.mpmachinery.com.my/products.cfm?Show=13&Sub=26"
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+      "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
     }
   ],
   "gaps": [
@@ -47,6 +70,11 @@
       "what": "Mechanical Maintenance Workshop Equipment Package",
       "why": "No machine list, ratings, dimensions, OEMs, standards, project reference or price for the workshop equipment package was found in any page read. The only Sabah-based evidence is a distributor category page that lists a lathe-machine catalogue without printed specifications.",
       "next_action": "Obtain the workshop equipment schedule from the tender BOQ and the linked MAC Products catalogue PDF; record machine-by-machine specs and prices only from documents actually read."
+    },
+    {
+      "what": "Mechanical maintenance workshop equipment",
+      "why": "No machine list, ratings, dimensions, OEMs, standards, project reference or price for the workshop equipment package was found in any page read.",
+      "next_action": "Obtain the workshop equipment schedule from the tender BOQ and record machine-by-machine specs and prices only from documents actually read."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

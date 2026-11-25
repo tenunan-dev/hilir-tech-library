@@ -1,23 +1,23 @@
 # Catalog summary
 
-2225 sources in total.
+2334 sources in total.
 
 ## By sector and discipline code
 
 | Value | Sources |
 | --- | --- |
-| PRC | 1824 |
-| PWR | 1302 |
-| ROT | 1262 |
+| PRC | 1881 |
+| PWR | 1411 |
+| ROT | 1263 |
 | UPS | 1127 |
-| MID | 860 |
-| CIV | 704 |
-| MAT | 701 |
-| ELE | 649 |
-| INS | 629 |
+| MID | 866 |
+| CIV | 711 |
+| MAT | 711 |
+| ELE | 701 |
+| INS | 641 |
 | REF | 471 |
-| GAS | 283 |
-| HSE | 282 |
+| HSE | 289 |
+| GAS | 284 |
 | PCH | 247 |
 | H2 | 241 |
 | DIG | 203 |
@@ -29,11 +29,11 @@
 
 | Value | Sources |
 | --- | --- |
-| global | 2013 |
-| sea | 1147 |
-| apac | 1039 |
+| global | 2117 |
+| sea | 1208 |
+| apac | 1098 |
 | na | 957 |
-| eu | 505 |
+| eu | 507 |
 | me | 20 |
 | af | 1 |
 
@@ -41,11 +41,11 @@
 
 | Value | Sources |
 | --- | --- |
-| oem-supplier | 1454 |
+| oem-supplier | 1562 |
 | agency-data | 177 |
 | research-institute | 139 |
 | trade-media | 113 |
-| standards-body | 109 |
+| standards-body | 110 |
 | association | 58 |
 | journal | 49 |
 | licensor | 42 |
@@ -57,7 +57,7 @@
 
 | Value | Sources |
 | --- | --- |
-| summary-only | 1843 |
+| summary-only | 1952 |
 | full-text-restricted | 161 |
 | full-text-open | 110 |
 | catalog-only | 107 |
@@ -67,5 +67,5 @@
 
 | Value | Sources |
 | --- | --- |
-| verified | 1891 |
+| verified | 2000 |
 | unverified | 334 |

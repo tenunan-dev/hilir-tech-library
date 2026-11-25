@@ -1,0 +1,27 @@
+{
+  "id": "gef-drawing-uc-xlpe-cable-construction-diagrams-and-dimensiona",
+  "title": "UC XLPE cable construction diagrams and dimensional tables (0.6/1 kV to 132 kV)",
+  "diagram_type": "schematic",
+  "description": "Catalogue gives construction illustrations and dimension/weight tables for CU/XLPE/PVC, AL/XLPE/SCW/PVC, AL/XLPE/SCT/PVC/AWA/PVC cables up to 19/33 (36) kV and a 76/132 (145) kV cable to IEC 60840 and TNB specification. Read via r.jina.ai 2026-11-25.",
+  "publisher": "Universal Cable (M) Berhad",
+  "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+  "sectors": [
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "equipment": [
+    "geg-hv-and-lv-cables-with-cable-trays-and-accessories"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+      "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e",
+      "note": "Catalogue gives construction illustrations and dimension/weight tables for CU/XLPE/PVC, AL/XLPE/SCW/PVC, AL/XLPE/SCT/PVC/AWA/PVC cables up to 19/33 (36) kV and a 76/132 (145) kV cable to IEC 60840 and"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the GEG core-item gap-fill; drawing stays at publisher URL."
+}

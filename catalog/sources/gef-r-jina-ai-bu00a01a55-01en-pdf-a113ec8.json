@@ -1,0 +1,23 @@
+{
+  "id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8",
+  "name": "Yokogawa Oil & Gas Success Story Collection, Bulletin 00A01A55-01EN",
+  "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Yokogawa Electric Corporation",
+  "access": "open",
+  "licence": "Copyright 2016 Yokogawa Electric Corporation; Ed:03/d; printed in Japan",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch via r.jina.ai proxy 25 Nov 2026 (direct PDF WebFetch returned unsupported content type for other PDFs; proxy used here). Print date: copyright 2016, Ed:03/d. Named dated projects with I/O counts but no contract prices."
+}

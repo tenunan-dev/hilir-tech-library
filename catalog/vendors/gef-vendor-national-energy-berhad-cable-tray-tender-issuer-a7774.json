@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-national-energy-berhad-cable-tray-tender-issuer-a7774",
+  "name": "National Energy Berhad (cable tray tender issuer)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "National Energy Berhad (cable tray tender issuer) named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+      "source_id": "geg-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

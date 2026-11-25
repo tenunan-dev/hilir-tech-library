@@ -1,0 +1,26 @@
+{
+  "id": "pmu-132-33-kv-bukit-siput-extension-johor-2-x-90-mva",
+  "name": "PMU 132/33 kV Bukit Siput extension, Johor (2 x 90 MVA)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "PESTECH reference: 'Supply, Erect and Commissioning of 132kV and 33kV Switchgear, 2x45MVA 132/33kV Power Transformer and Ancillary Equipment ... PMU 132/33kV Bukit Siput Extension (2x90MVA), Johor.' (Note: PESTECH's 2014 row states 2x90MVA; the Jerantut row on the same page states 2x45MVA — both reproduced as printed.)",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "PESTECH reference: 'Supply, Erect and Commissioning of 132kV and 33kV Switchgear"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Power transformers."
+}

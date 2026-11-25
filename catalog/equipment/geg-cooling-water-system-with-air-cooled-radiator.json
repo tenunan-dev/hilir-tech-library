@@ -138,6 +138,26 @@
         "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf",
         "source_id": "geg-techcomm-kohler-com-remote-cooling-design-fa-28f631c"
       }
+    },
+    {
+      "metric": "Closed-loop radiator cooling syste — Water consumption with closed loop radiator cooling",
+      "unit": "n/a",
+      "basis": "Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.6 'Water consumption': 'Combustion engine power plants equipped with a closed loop cooling system using radiators, consume a negligible amount of water'; read via r.jina.ai fallback 25 Nov 2026",
+      "year": 2011,
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+      }
+    },
+    {
+      "metric": "Closed-loop radiator cooling syste — Engine cooling arrangement, Flexicycle reference",
+      "unit": "n/a",
+      "basis": "Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.14: 'the combustion engines are cooled with closed loop radiators, and the steam cycle with cooling towers'",
+      "year": 2011,
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+      }
     }
   ],
   "vendor_models": [
@@ -160,7 +180,8 @@
   "vendors": [
     "geg-vendor-rolls-royce-mtu-solutions-00b30",
     "wartsila",
-    "geg-vendor-kohler-power-systems-kohler-energy-d897e"
+    "geg-vendor-kohler-power-systems-kohler-energy-d897e",
+    "dcp-vendor-wartsila-ba044"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -177,6 +198,18 @@
     {
       "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf",
       "source_id": "geg-techcomm-kohler-com-remote-cooling-design-fa-28f631c"
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+      "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN105863812A/en",
+      "source_id": "gef-patents-google-com-en-43f19b3"
+    },
+    {
+      "url": "https://patents.google.com/patent/US8844504B2/en",
+      "source_id": "gef-patents-google-com-en-5504951"
     }
   ],
   "gaps": [
@@ -184,6 +217,11 @@
       "what": "Cooling Water System Package / Air Cold Radiator",
       "why": "No radiator OEM, model, heat-duty rating, number of cells/fans, cooling-water pipe schedule or package price for the 7-unit SESB plant was found in the pages read.",
       "next_action": "Obtain the project radiator/cooling-water datasheets and vendor quotes; do not scale the 400 kWe mtu figures up to the plant's engines as evidence."
+    },
+    {
+      "what": "Cooling water system with air-cooled radiator",
+      "why": "No radiator OEM, model, heat duty, number of cells/fans, cooling water pipe schedule or package price for the 7-unit SESB plant was found in any page read.",
+      "next_action": "Obtain the project radiator/cooling-water datasheets and vendor quotes; do not infer plant cooling duty from generic white-paper statements."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

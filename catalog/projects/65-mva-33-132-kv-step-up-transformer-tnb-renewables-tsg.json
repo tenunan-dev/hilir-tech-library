@@ -1,0 +1,26 @@
+{
+  "id": "65-mva-33-132-kv-step-up-transformer-tnb-renewables-tsg",
+  "name": "65 MVA 33/132 kV step-up transformer, TNB Renewables / TSG",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Supply, delivery, installation and commissioning of one 65 MVA 33/132 kV step-up transformer",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008",
+      "note": "Supply, delivery, installation and commissioning of one 65 MVA 33/132 kV step-up"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Step-up transformer bay."
+}

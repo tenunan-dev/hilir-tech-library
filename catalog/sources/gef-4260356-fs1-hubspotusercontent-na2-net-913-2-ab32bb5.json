@@ -1,0 +1,26 @@
+{
+  "id": "gef-4260356-fs1-hubspotusercontent-na2-net-913-2-ab32bb5",
+  "name": "Aurora/Clarke Fire Pump List Prices, Section 913: Horizontal Split Case Fire Pumps - Diesel Engine Drive",
+  "url": "https://4260356.fs1.hubspotusercontent-na2.net/hubfs/4260356/web%20price%20pages/Aurora/913%20horz%20diesel%20price%20pages%20(1).pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Clarke Fire Protection / Aurora",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. 15-page price sheet, 'Dated: January 1, 2020'. Fetched via r.jina.ai fallback 25 Nov 2026. Prices are suggested list prices for US market, not project awards; sheet warns prices subject to change without notice."
+}

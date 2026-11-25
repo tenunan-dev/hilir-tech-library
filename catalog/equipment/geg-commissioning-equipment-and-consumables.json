@@ -63,6 +63,90 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
       }
+    },
+    {
+      "metric": "Gas-engine lubricating oil and use — viscosity grade stipulated for gas engines",
+      "unit": "SAE grade (printed 'SAE 40')",
+      "basis": "MTU Fluids and Lubricants Specifications A001072/02E, 2020-06, section 2.1.1: 'Viscosity grade SAE 40 is stipulated for gas engines. Multigrade oils are not permitted.' Mixing different engine oils is strictly prohibited.",
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    },
+    {
+      "metric": "Gas-engine lubricating oil and use — oil sample interval, Series 4000 gas engines",
+      "unit": "operating hours",
+      "basis": "MTU A001072/02E, 2020-06, sections 2.2.1/2.2.2: 'To determine the engine oil change intervals, oil samples must be taken every 250 op. hrs. and analyzed. The limit values must be observed.' Fixed intervals without oil analysis only after consultation with MTU.",
+      "value": 250,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    },
+    {
+      "metric": "Gas-engine lubricating oil and use — used gas engine oil viscosity at 100 C, Series 4000",
+      "unit": "mm2/s",
+      "basis": "MTU A001072/02E, 2020-06, Table 2 'Limit values for used gas engine oils SAE 40': Viscosity at 100 °C (ASTM D445 / DIN 51562), Series 4000 Max. 17.5, Min. 11.5, with new-oil value condition.",
+      "low": 11.5,
+      "high": 17.5,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    },
+    {
+      "metric": "Gas-engine lubricating oil and use — water in used gas engine oil",
+      "unit": "% by volume (printed 'Max. 0.2')",
+      "basis": "MTU A001072/02E, 2020-06, Table 2: Water (ASTM D6304 / EN 12937 / ISO 6296), Max. 0.2 % by vol. for both Series 4000 and Series 400.",
+      "high": 0.2,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    },
+    {
+      "metric": "MAN 175D commissioning and post-co — post-commissioning package content",
+      "unit": "printed contents",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D', printed June 2022, p.6: 'This package includes various relevant filters for a complete replacement after the commissioning. The engine will start service with a fresh set of filters, which will ensure the best possible start.'",
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    },
+    {
+      "metric": "MAN 175D commissioning and post-co — mechanical package contents",
+      "unit": "printed contents",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'filters for lubrication oil, fuel and air', relevant gaskets for valve clearance adjustment, plus a spare fuel injector.",
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    },
+    {
+      "metric": "MAN 175D commissioning and post-co — after-treatment package contents",
+      "unit": "printed contents",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'urea filters, spare urea injectors and the important NOx sensors'.",
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    },
+    {
+      "metric": "MAN 175D commissioning and post-co — automation package contents",
+      "unit": "printed contents",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D', June 2022, p.6: 'a selection of different sensors - speed, pressure, float switch and temperature'.",
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
     }
   ],
   "vendor_models": [
@@ -100,6 +184,10 @@
     {
       "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
       "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.malakoff.com.my/wp-content/uploads/2025/03/Contract-Terms-for-Works-RFQFinal.pdf",
+      "source_id": "gef-r-jina-ai-contract-terms-for-works-rfqfinal-7f7aa38"
     }
   ],
   "gaps": [
@@ -107,6 +195,11 @@
       "what": "Commissioning Equipment & Consumables (Lube Oil,Diesel, Chemical)",
       "why": "No published prices, drum sizes for this site, diesel volume or chemical quantities for commissioning of the 7-unit plant were found. MTU and MAN print specifications only; Shell's product page did not render usable text through WebFetch, so no Shell-page figures are recorded.",
       "next_action": "Obtain priced consumables list and confirm which OEM oil approval applies to the actual engine make."
+    },
+    {
+      "what": "Commissioning equipment and consumables",
+      "why": "No printed price, RM amount or supplier quotation for commissioning lube oil, diesel, chemical, filters or NOx reducing agent was found. MTU A001072/02E (2020-06) and the MAN 175D brochure (June 2022) print specifications and package contents only; the data in the MAN brochure is stated non-binding.",
+      "next_action": "Request priced consumables quantities from the bidder; keep the SAE 40, 250-hour sampling and package contents as specifications, not prices."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

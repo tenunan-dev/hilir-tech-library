@@ -62,6 +62,14 @@
       "url": "https://jml.com.sg/what-we-do/construction/projects",
       "source_id": "geg-jml-com-sg-projects-18172e3",
       "note": "JML scope: task force work - piping, mechanical, structural and E&I; industrial plant; client Mitsubishi Heavy Industries, Ltd."
+    },
+    {
+      "url": "https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf",
+      "source_id": "gef-r-jina-ai-file-20260210094823-pdf-efc1d26"
+    },
+    {
+      "url": "https://r.jina.ai/https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "gef-r-jina-ai-standard-a925f8a"
     }
   ],
   "gaps": [
@@ -69,6 +77,11 @@
       "what": "Chemical /Urea Storage (reinforced concrete 15x9x7)",
       "why": "No urea-storage design specification, capacity or published cost found; BS EN 1992-3 excludes hazardous-material leakage-risk structures and gas tightness, so applicability to stored chemicals is unverified.",
       "next_action": "Confirm stored product and design code (e.g. bundled chemical storage) from the project specification; source a comparable chemical-storage building rate."
+    },
+    {
+      "what": "Chemical and urea storage building",
+      "why": "No published rate for a urea/chemical storage building or its containment lining; BSI page lists BS EN 1992-3:2006 for liquid-retaining structures but no construction rate.",
+      "next_action": "Obtain the storage-building priced BQ and a dated chemical-containment cost benchmark"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

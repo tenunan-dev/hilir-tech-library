@@ -139,6 +139,36 @@
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1"
       }
+    },
+    {
+      "metric": "Black start diesel generator syste — Total standby rated power",
+      "unit": "kW",
+      "basis": "H&C Oman IBRI case page: 'Rated Power (Standby) 23,000 kW (23 MW) Total'; eight units of 2,875 kW each; year delivered 2019; page read 2026-11-25.",
+      "value": 23000,
+      "year": 2019,
+      "source": {
+        "url": "https://generatordieselchina.com/projects/oman-ibri-bsdg",
+        "source_id": "gef-generatordieselchina-com-oman-ibri-bsdg-749f7a2"
+      }
+    },
+    {
+      "metric": "Black start diesel generator syste — Generator voltage",
+      "unit": "kV",
+      "basis": "Same H&C case page, technical specifications table: 'Voltage / Frequency 11 kV' (frequency not printed as a value), rated speed 1500 RPM.",
+      "value": 11,
+      "source": {
+        "url": "https://generatordieselchina.com/projects/oman-ibri-bsdg",
+        "source_id": "gef-generatordieselchina-com-oman-ibri-bsdg-749f7a2"
+      }
+    },
+    {
+      "metric": "Black start diesel generator syste — Engine model per unit",
+      "unit": "n/a",
+      "basis": "H&C case page: 'Engine MTU 20V4000G63 (per unit)', 'Alternator Leroy-Somer LSA 53', 'Controller ComAp InteliSys'. Text value, no numeric figure.",
+      "source": {
+        "url": "https://generatordieselchina.com/projects/oman-ibri-bsdg",
+        "source_id": "gef-generatordieselchina-com-oman-ibri-bsdg-749f7a2"
+      }
     }
   ],
   "vendor_models": [
@@ -149,7 +179,11 @@
     }
   ],
   "vendors": [
-    "cummins"
+    "cummins",
+    "gef-vendor-h-c-diesel-generator-manufacture-h-c-import-export-58359",
+    "rolls-royce-power-systems",
+    "gef-vendor-leroy-somer-alternator-e6def",
+    "comap"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -166,6 +200,18 @@
     {
       "url": "https://electrical-engineering-portal.com/design-engineering-and-the-black-start-of-a-power-plant",
       "source_id": "geg-electrical-engineering-portal-com-design-eng-d6ab123"
+    },
+    {
+      "url": "https://generatordieselchina.com/projects/oman-ibri-bsdg",
+      "source_id": "gef-generatordieselchina-com-oman-ibri-bsdg-749f7a2"
+    },
+    {
+      "url": "https://www.stgenset.com/diesel-generator-price-guide-what-to-expect-and-how-to-choose-in-2026",
+      "source_id": "gef-stgenset-com-diesel-generator-price-guide-wh-2554aaf"
+    },
+    {
+      "url": "https://patents.google.com/patent/US11489363B2/en",
+      "source_id": "gef-patents-google-com-en-b943629"
     }
   ],
   "gaps": [
@@ -183,6 +229,16 @@
       "what": "Black Start Diesel Generator Package",
       "why": "No patent page was read.",
       "next_action": "Keep patents empty until read."
+    },
+    {
+      "what": "Black start diesel generator",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Black start diesel generator",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

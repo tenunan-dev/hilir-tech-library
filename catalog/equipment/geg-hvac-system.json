@@ -130,6 +130,10 @@
     {
       "url": "https://dunham-bush.com/",
       "note": "Listed under featured projects, Green Buildings category; WebFetch 2026-11-25."
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2009061293A1/en",
+      "source_id": "gef-patents-google-com-en-0e36181"
     }
   ],
   "gaps": [
@@ -137,6 +141,21 @@
       "what": "HVAC System Package",
       "why": "No plant-specific HVAC load schedule, equipment list, capacities for the powerhouse/control room/electrical rooms, vendor or price was found in the pages read.",
       "next_action": "Obtain the HVAC package BOQ, heat-load calculations and vendor quotation from the project documents; do not infer plant cooling capacity from either brochure."
+    },
+    {
+      "what": "HVAC system",
+      "why": "No plant-specific HVAC load schedule, equipment list, capacities for powerhouse/control room/electrical rooms, vendor or price was found in any page read.",
+      "next_action": "Obtain the HVAC package BOQ, heat-load calculations and vendor quotation from the project documents."
+    },
+    {
+      "what": "HVAC system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "HVAC system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

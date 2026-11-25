@@ -1,6 +1,6 @@
 # HSE: Health, safety and environment
 
-282 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
+289 sources. Sub-topics: process-safety, methane, flaring, emissions, regulation, decommissioning.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -25,12 +25,16 @@
 | [DIALOG Group Berhad — Integrated Annual Report 2026 (PDF)](https://newsfile.futunn.com/public/NN-PersistNoticeAttachment/7781/20261020/910_MYX_3716449_en-us_1.pdf) | oem-supplier | sea | open | summary-only |
 | [ECOjet Edge+ low-NOx burner](https://johnzink.com/products/powerburners/ecojet-edge-plus) | oem-supplier | global, na, apac | open | summary-only |
 | [Egina: A Flagship Offshore Project in Nigeria](https://totalenergies.com/company/projects/oil/egina-deep-offshore-nigeria) | oem-supplier | global, sea | open | summary-only |
+| [Employer's Contract Terms for Works - RFQ](https://r.jina.ai/https://www.malakoff.com.my/wp-content/uploads/2025/03/Contract-Terms-for-Works-RFQFinal.pdf) | oem-supplier | global, sea, apac | open | summary-only |
+| [Energy Commission of Sabah - rescheduled integrated maintenance at SOGT Kimanis](https://ecos.gov.my/node/336) | oem-supplier | sea | open | summary-only |
 | [Environmental Quality (Prescribed Activities) (EIA) Order 2015](https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Fire Fighting Pumps and Package Solutions](https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [First oil for Turritella](https://www.sbmoffshore.com/newsroom/first-oil-turritella/) | oem-supplier | global, sea | open | summary-only |
 | [FPSOS: COVID-19, conversions, safety & the changing digital landscape (ABS Drydock 2021)](https://ww2.eagle.org/content/dam/eagle/articles/abs-fpso-conversions-drydock-magazine-march-21.pdf) | oem-supplier | global, sea | open | summary-only |
 | [GE Vernova heat recovery steam generators](https://www.gevernova.com/gas-power/products/hrsg) | oem-supplier | global, na, apac, sea, me, eu | open | summary-only |
+| [Guidelines for Public Safety and Health at Construction Sites (1st Revision, 2007)](https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [IEC 61511-1:2016+AMD1:2017 CSV](https://webstore.iec.ch/en/publication/61289) | standards-body | global, sea | paywalled | catalog-only |
+| [ISO 14001:2026 Environmental management systems - Requirements with guidance for use](https://www.iso.org/standard/14001) | oem-supplier | global, sea, apac | open | summary-only |
 | [Japanese Industrial Standards (JISC)](https://www.jisc.go.jp/eng/) | standards-body | apac | mixed | catalog-only (unverified) |
 | [Malaysian Standards (Department of Standards Malaysia)](https://www.jsm.gov.my/) | standards-body | apac, sea | paywalled | catalog-only (unverified) |
 | [Miura LX series steam boiler (Canada)](https://miuraboiler.ca/product/lx-steam-boiler) | oem-supplier | global, na, apac | open | summary-only |
@@ -52,6 +56,7 @@
 | [Standards Australia (AS 2885 pipelines, AS/NZS 60079)](https://www.standards.org.au/) | standards-body | apac | paywalled | catalog-only (unverified) |
 | [UKCS Decommissioning Cost and Performance Report 2023](https://www.nstauthority.co.uk/media/q0od4gta/decommissioning-cost-report.pdf) | oem-supplier | global, sea | open | summary-only |
 | [UKCS Decommissioning Cost and Performance Update 2024](https://www.nstauthority.co.uk/media/ppvlelgd/ukcs-decom-cost-and-performance-update-01.pdf) | oem-supplier | global, sea | open | summary-only |
+| [US EPA Air Pollution Control Technology Fact Sheet: Selective Catalytic Reduction (SCR), EPA-452/F-03-032](https://ptacts.uspto.gov/ptacts/public-informations/petitions/1554929/download-documents?artifactId=-hT6UcbS3XcKgNIbG490_B_-0V7oBM7JNPT4FaCk9eSn1NLxYJoZEzw) | oem-supplier | global, sea, apac | open | summary-only |
 | [Wet Scrubber Application Guide (catalogue WS-1003091)](https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Why you need an ultra-low-NOx steam boiler](https://miuraboiler.com/why-you-need-an-ultra-low-nox-steam-boiler/) | oem-supplier | global, na, apac | open | summary-only |
 | [Yanmar 400 kW 30% hydrogen CHP news release](https://www.yanmar.com/global/energy/news/2024/07/05/139269.html) | oem-supplier | apac, sea | open | summary-only |
@@ -102,6 +107,7 @@
 | [Decommissioning and Redeployment Costs of FPSOs](https://plantfce.com/blog/posts/decommissioning-and-redeployment-costs-of-fpso) | oem-supplier | global, sea | open | summary-only |
 | [Gohi Marine SOLAS TEMPSC product datasheet](https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html) | oem-supplier | global, sea | open | summary-only |
 | [Indus Hydraulics IH-OFE-SSV product page](https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a) | standards-body | global, sea | open | summary-only |
+| [Made-in-China: 15ppm Bilge Separator IMO Oily Water Separator (YWC series)](https://hangyumarine.en.made-in-china.com/product/zXsQHNCDnmhu/China-15ppm-Bilge-Separator-Imo-Oily-Water-Separator.html) | oem-supplier | global, sea, apac | open | summary-only |
 | [Malaysian Petrochemicals Association](https://www.mpa.org.my/) | association | sea | open | summary-only (unverified) |
 | [Mooring Line Failures, Evacuation at Gryphon Alpha FPSO](https://budsoffshoreenergy.com/2011/02/05/mooring-line-failures-evacuation-at-gryphon-alpha-fpso/) | oem-supplier | global, sea | open | summary-only |
 | [SurvivalAtSea USCG/SOLAS liferafts price list](https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx) | oem-supplier | global, sea | open | summary-only |
@@ -202,6 +208,7 @@
 | [Solid fuel to natural gas conversions for circulating fluid bed boilers](https://www.zeeco.com/resources/news/solid-fuel-to-natural-gas-conversions-for-circulating-fluid-bed-boilers) | oem-supplier | global, na | open | summary-only |
 | [Sustainability (MDPI)](https://www.mdpi.com/journal/sustainability) | journal | global | open | full-text-open |
 | [Synapse Data Center Power Generating Facilities Decommissioning and Reclamation Plan](https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf) | oem-supplier | global, na | open | summary-only |
+| [Titania supported vanadium oxide catalysts in the NH3-SCR reaction (Licentiate thesis 2023:09)](https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf) | oem-supplier | global, eu | open | summary-only |
 | [Transient Responses Evaluation of FPSO with Different Failure Scenarios of Mooring Lines](https://www.mdpi.com/2077-1312/9/2/103) | oem-supplier | global | open | summary-only |
 | [UK Health and Safety Executive (offshore and COMAH)](https://www.hse.gov.uk/) | agency-data | eu, global | open | full-text-open |
 | [Unmanned Wellhead Platforms - UWHP Summary Report (Ramboll/NPD, March 2016)](https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf) | oem-supplier | eu | open | summary-only |

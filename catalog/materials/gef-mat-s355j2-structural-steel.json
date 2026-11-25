@@ -1,0 +1,57 @@
+{
+  "id": "gef-mat-s355j2-structural-steel",
+  "name": "S355J2 structural steel",
+  "material_category": "metal",
+  "description": "S355J2 structural steel named on a page read in the GEG gap-fill for Civil and structural buildings.",
+  "specifications": [
+    {
+      "metric": "Minimum yield strength ReH, thickness <=16 mm",
+      "unit": "N/mm2",
+      "basis": "S355J2 datasheet, EN 10025-2:2019, hot-rolled, read via r.jina.ai (value: 355)",
+      "year": 2019,
+      "source": {
+        "url": "https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf",
+        "source_id": "gef-r-jina-ai-s355j2-steel-datasheet-pdf-058ba23"
+      }
+    },
+    {
+      "metric": "Tensile strength Rm, thickness <=16 mm",
+      "unit": "N/mm2",
+      "basis": "S355J2 datasheet, EN 10025-2:2019, read via r.jina.ai (value: 470-630)",
+      "year": 2019,
+      "source": {
+        "url": "https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf",
+        "source_id": "gef-r-jina-ai-s355j2-steel-datasheet-pdf-058ba23"
+      }
+    },
+    {
+      "metric": "Charpy V impact energy KV2 at -20 C",
+      "unit": "J",
+      "basis": "S355J2 datasheet, EN 10025-2:2019, minimum, average of 3 test pieces (value: 27)",
+      "year": 2019,
+      "source": {
+        "url": "https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf",
+        "source_id": "gef-r-jina-ai-s355j2-steel-datasheet-pdf-058ba23"
+      }
+    },
+    {
+      "metric": "Density",
+      "unit": "kg/dm3",
+      "basis": "Siderticino S355J2 datasheet, physical properties, 20 C (value: 7.85)",
+      "source": {
+        "url": "https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf",
+        "source_id": "gef-r-jina-ai-s355j2-steel-datasheet-pdf-058ba23"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-civil-and-structural-buildings"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf",
+      "source_id": "gef-r-jina-ai-s355j2-steel-datasheet-pdf-058ba23"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

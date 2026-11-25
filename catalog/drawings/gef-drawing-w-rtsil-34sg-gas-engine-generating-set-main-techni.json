@@ -1,0 +1,27 @@
+{
+  "id": "gef-drawing-w-rtsil-34sg-gas-engine-generating-set-main-techni",
+  "title": "Wärtsilä 34SG gas engine generating set – main technical data and maximum transportation dimensions",
+  "diagram_type": "schematic",
+  "description": "Leaflet's 'Main technical data' table gives maximum transportation dimensions: 12V34SG 10,454 x 3,350 x 4,511 mm, 102 t; 16V34SG 11,456 x 3,350 x 4,511 mm, 125 t; 20V34SG 13,142 x 3,350 x 4,573 mm, 136 t. Read via r.jina.ai 2026-11-25.",
+  "publisher": "Wärtsilä Corporation",
+  "url": "https://www.wartsila.com/docs/default-source/downloads/w34sg-leaflet.pdf?sfvrsn=7c482542_1",
+  "sectors": [
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "equipment": [
+    "geg-gas-engine-generator-units"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/docs/default-source/downloads/w34sg-leaflet.pdf?sfvrsn=7c482542_1",
+      "source_id": "gef-wartsila-com-w34sg-leaflet-pdf-3852bf4",
+      "note": "Leaflet's 'Main technical data' table gives maximum transportation dimensions: 12V34SG 10,454 x 3,350 x 4,511 mm, 102 t; 16V34SG 11,456 x 3,350 x 4,511 mm, 125 t; 20V34SG 13,142 x 3,350 x 4,573 mm, 13"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the GEG core-item gap-fill; drawing stays at publisher URL."
+}

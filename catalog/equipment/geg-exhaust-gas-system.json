@@ -131,6 +131,96 @@
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "geg-matthey-com-nox-control-systems-af80333"
       }
+    },
+    {
+      "metric": "Cylindrical exhaust silencer, comm — Noise reduction, A201-2100 commercial grade",
+      "unit": "dBA",
+      "basis": "GT Silex Silencer Catalogue 2026, A201-2100 commercial grade, '14 to 20 dBA Noise Reduction', EGSA Class 1; catalogue read via r.jina.ai fallback; dollar year not stated (catalogue titled 2026)",
+      "low": 14,
+      "high": 20,
+      "year": 2026,
+      "source": {
+        "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+        "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+      }
+    },
+    {
+      "metric": "Cylindrical exhaust silencer, comm — Noise reduction, A201-5100 critical grade",
+      "unit": "dBA",
+      "basis": "GT Silex Silencer Catalogue 2026, A201-5100 critical grade, '25 to 35 dBA Noise Reduction', EGSA Class 4; read via r.jina.ai fallback",
+      "low": 25,
+      "high": 35,
+      "year": 2026,
+      "source": {
+        "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+        "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+      }
+    },
+    {
+      "metric": "Cylindrical exhaust silencer, comm — Noise reduction, A201-6100 super critical grade",
+      "unit": "dBA",
+      "basis": "GT Silex Silencer Catalogue 2026, A201-6100 super critical grade, '32 to 42 dBA Noise Reduction', EGSA Class 6; read via r.jina.ai fallback",
+      "low": 32,
+      "high": 42,
+      "year": 2026,
+      "source": {
+        "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+        "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+      }
+    },
+    {
+      "metric": "Cylindrical exhaust silencer, comm — Connection standard, inlet size 8 in and above",
+      "unit": "n/a",
+      "basis": "GT Silex Silencer Catalogue 2026: 'Sizes 8\" and above come standard with ANSI pattern flanged connections'; silencers available up to 60 in inlet; read via r.jina.ai fallback",
+      "year": 2026,
+      "source": {
+        "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+        "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+      }
+    },
+    {
+      "metric": "Cylindrical exhaust silencer, comm — Exhaust gas temperature, 10 MW combustion engine",
+      "unit": "deg C",
+      "basis": "Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3 typical 10 MW engine exhaust gas out temperature 390 deg C (734 deg F); read via r.jina.ai fallback",
+      "value": 390,
+      "year": 2011,
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+      }
+    },
+    {
+      "metric": "Cylindrical exhaust silencer, comm — Exhaust gas mass flow, 10 MW combustion engine",
+      "unit": "kg/s",
+      "basis": "Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3 exhaust gas flow 15.4 kg/s (34 lb/s) for a typical 10 MW combustion engine",
+      "value": 15.4,
+      "year": 2011,
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+      }
+    },
+    {
+      "metric": "Annular flow intake/exhaust silenc — Engine power range",
+      "unit": "hp",
+      "basis": "Maxim Silencers 2020 Exhaust Silencer Catalog, Rev M-ESCS-003, AFS3-AFSE3 critical grade annular flow silencer designed for 500-5000 hp or mass flow 2.5 thru 65 lbs/sec; read via r.jina.ai fallback",
+      "low": 500,
+      "high": 5000,
+      "year": 2020,
+      "source": {
+        "url": "http://davidsonsales.com/public/pdfs/Maxim%20Silencer%20Catalog.pdf"
+      }
+    },
+    {
+      "metric": "Annular flow intake/exhaust silenc — Mass flow range",
+      "unit": "lbs/sec",
+      "basis": "Maxim Silencers 2020 Exhaust Silencer Catalog, Rev M-ESCS-003, AFS3-AFSE3, 'mass flow of 2.5 thru 65 lbs/sec'",
+      "low": 2.5,
+      "high": 65,
+      "year": 2020,
+      "source": {
+        "url": "http://davidsonsales.com/public/pdfs/Maxim%20Silencer%20Catalog.pdf"
+      }
     }
   ],
   "vendor_models": [
@@ -153,7 +243,9 @@
   "vendors": [
     "geg-vendor-iac-acoustics-uk-ltd-iac-world-8fd2a",
     "geg-vendor-rolls-royce-mtu-solutions-00b30",
-    "johnson-matthey"
+    "johnson-matthey",
+    "gef-vendor-gt-silex-nelson-global-26251",
+    "gef-vendor-maxim-silencers-c60d0"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -188,6 +280,21 @@
       "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
       "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3",
       "note": "11 x Wärtsilä 20V34SG gas gensets, 110 MW, natural gas, EEQ scope; printed in Wärtsilä gas/multi-fuel brochure (08.2017)."
+    },
+    {
+      "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+      "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+    },
+    {
+      "url": "http://davidsonsales.com/public/pdfs/Maxim%20Silencer%20Catalog.pdf"
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+      "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+    },
+    {
+      "url": "https://patents.google.com/patent/JP2010255520A/en",
+      "source_id": "gef-patents-google-com-en-f53f8c1"
     }
   ],
   "gaps": [
@@ -195,6 +302,21 @@
       "what": "Exhaust Gas System Package",
       "why": "No project-specific vendor list, ducting/silencer sizes, stack height, emission guarantee or quoted package price for the 7-unit SESB plant was found in any page read.",
       "next_action": "Obtain the exhaust package BOQ, silencer datasheets and vendor quotations from the project tender/EPC documents; do not infer a package price from generic $/kW data."
+    },
+    {
+      "what": "Exhaust gas system",
+      "why": "No project-specific exhaust package price, duct/silencer sizes, stack height, emission guarantee or named exhaust vendor for the 7-unit SESB plant was found in any page read.",
+      "next_action": "Obtain the exhaust package BOQ, silencer datasheets, stack design and vendor quotation from the project tender/EPC documents; do not scale catalogue silencers to the plant engines as evidence."
+    },
+    {
+      "what": "Exhaust gas system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Exhaust gas system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

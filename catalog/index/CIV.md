@@ -1,6 +1,6 @@
 # CIV: Civil and structural
 
-704 sources. Sub-topics: structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting.
+711 sources. Sub-topics: structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -122,6 +122,7 @@
 | [DNV — Stable-lift assessment methods](https://www.dnv.com/expert-story/maritime-impact/new-guidance-on-achieving-stable-lifting-operations/) | standards-body | global, apac, sea, eu, na | open | summary-only |
 | [DockGuard Ltd](https://www.dockguard.com/en/uhmw-pe-panel-fenders/) | oem-supplier | global, apac, sea | open | summary-only |
 | [Doowin Marine](https://doowinmarine.com/floating-yokohama-type-pneumatic-rubber-fenders) | oem-supplier | global, apac, sea | open | summary-only |
+| [DOSM Sabah & Sarawak Special Release for Civil Engineering Works, December 2025](https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf) | oem-supplier | sea | open | summary-only |
 | [DrillingFormulas.Com (references Applied Drilling Engineering SPE textbook, Azar, Australian Drilling Manual, Devereux)](https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Dynamic Isolation Systems (DIS)](https://dis-inc.com/products/base-isolators) | oem-supplier | global, apac, sea | open | summary-only |
 | [Ecomar Storage Solution FZC LLC / EPC contractor (ESD Philosophy Rev A, 15 Feb 2024)](https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
@@ -334,6 +335,7 @@
 | [Prysmian](https://www.prysmian.com/en/markets/transmission/submarine-power/offshore-specialties) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Prysmian — Sapinhoa pre-salt](https://www.prysmian.com/en/insight/construction-and-industries/subsea-umbilicals-risers-and-flowlines-surf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Qa Site.Mcdermott.Com — Kizomba A living quarters design](https://qa-site.mcdermott.com/projects/kizomba-tension-leg-platform) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [RAM Ratings - final AA1 rating to Kimanis Power Dua RM580 mil Sukuk Wakalah](https://www.ram.com.my/pressrelease?prviewid=7251) | oem-supplier | sea | open | summary-only |
 | [Referencebook.Iasp.Tgscloud.Net — Akpo field, Nigeria (subsea tree/manifold reference)](https://www.referencebook.iasp.tgscloud.net/TOTAL_Handbooks/Akpo-Handbook.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Rosetexwool](https://www.rosetexwool.net/news/offshore-fireproofing-passive-fire-protection-on-platforms) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Saipem](https://www.saipem.com/en/media/press-releases/2024-11-14/saipem-new-offshore-contract-totalenergies-suriname-19-billion-usd) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
@@ -530,6 +532,7 @@
 | [American Bureau of Shipping (Wikipedia)](https://en.wikipedia.org/wiki/American_Bureau_of_Shipping) | oem-supplier | global, sea | open | summary-only |
 | [AWT — Duyong Field Development Plan case study (PDF)](https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf) | oem-supplier | sea | open | summary-only |
 | [Bahagian 3.6 : Piling Work (Class H) - cost item averages/ranges](https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf) | agency-data | sea | open | summary-only |
+| [BigGo Finance - MN Holdings Secures RM71 Million TNB Substation Contract in Cameron Highlands](https://finance.biggo.com/news/d11b9a98-9228-4c7f-9346-c5e84a233c0f) | oem-supplier | global, sea, apac | open | summary-only |
 | [Bongkot and Erawan gas fields (G2/61 and G1/61) — cost](https://www.bangkokpost.com/business/general/2734825/pttep-to-hike-gas-output) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [Bongkot and Erawan gas fields (G2/61 and G1/61) — cost](https://www.offshore-mag.com/field-development/article/16790389/pttep-confirms-long-term-management-of-thai-gas-fields) | trade-media | global, apac, na, eu | open | summary-only |
 | [Bongkot and Erawan gas fields (G2/61 and G1/61) — cost](https://www.pttep.com/en/newsroom/press-releases/454/pttep-pushes-forward-investment-plan-in-bongkot-and-erawan-creating-long-term-value-to-the-country-thai-people-and-company-s-growth) | trade-media | global, apac, na, eu | open | summary-only |
@@ -538,6 +541,7 @@
 | [BW Offshore (Wikipedia)](https://en.wikipedia.org/wiki/BW_Offshore) | oem-supplier | global, sea | open | summary-only |
 | [China International Marine Containers (Wikipedia)](https://en.wikipedia.org/wiki/China_International_Marine_Containers) | oem-supplier | global, sea | open | summary-only |
 | [COSCO (Wikipedia)](https://en.wikipedia.org/wiki/COSCO) | oem-supplier | global, sea | open | summary-only |
+| [Daily Express - Second 100MW Kimanis power plant to boost grid electricity](https://www.dailyexpress.com.my/news/245913/second-100mw-kimanis-power-plant-to-boost-grid-electricity) | oem-supplier | sea | open | summary-only |
 | [DIALOG Tarpon — Balai/Bentara/Spaoh/West Acis project page](https://www.tarponsystems.com/wellhead-platforms-for-balai-bentara-spaoh-and-west-acis-fields) | oem-supplier | sea | open | summary-only |
 | [DIALOG Tarpon — What We Do (standards, capability, installations)](https://www.tarponsystems.com/what-we-do) | oem-supplier | global, sea | open | summary-only |
 | [DIALOG Tarpon — Zuhal East EPCIC project page](https://www.tarponsystems.com/epcic-for-zuhal-east-development-project) | oem-supplier | sea | open | summary-only |
@@ -660,6 +664,7 @@
 | [BS EN 1992-3:2006 - Eurocode 2: Design of concrete structures - Liquid retaining and containing structures](https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-liquid-retaining-and-containing-structures) | standards-body | eu, global | open | summary-only |
 | [BS EN 1993-1-1:2005+A1:2014 - Eurocode 3: Design of steel structures - General rules and rules for buildings](https://knowledge.bsigroup.com/products/eurocode-3-design-of-steel-structures-general-rules-and-rules-for-buildings/standard) | standards-body | eu, global | open | summary-only |
 | [BS EN 1997-1:2004+A1:2013 - Eurocode 7: Geotechnical design - General rules](https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard) | standards-body | eu, global | open | summary-only |
+| [BSI Knowledge - BS EN 1992-1-1:2004+A1:2014 Eurocode 2](https://r.jina.ai/https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard) | standards-body | global | open | summary-only |
 | [CN113162215B Emergency power supply system and control method for replacing offshore platform diesel generator system](https://patents.google.com/patent/CN113162215B/en) | patents | global | open | summary-only |
 | [Delivering Quality Potable Water to Offshore Installations, Issue 2, 18 July 2013](https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf) | standards-body | eu, global | open | summary-only |
 | [DNV Floating Production classification page](https://www.dnv.com/maritime/offshore-classification/floating-production/) | oem-supplier | global | open | summary-only |
@@ -705,6 +710,8 @@
 | [Epoch AI — total cost of ownership of a one-gigawatt AI data center](https://epoch.ai/data-insights/ai-datacenter-cost-breakdown) | oem-supplier | global, na | open | summary-only |
 | [Offshore Magazine — Tarpon monotower develops further from 37 field applications (1999)](https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications) | oem-supplier | global | open | summary-only |
 | [Oil platform (offshore platform)](https://en.wikipedia.org/wiki/Offshore_platform) | oem-supplier | global | open | full-text-open |
+| [Parkside Steel - S355 J2 material data sheet (BS EN 10025-2:2019)](https://r.jina.ai/https://parksidesteel.co.uk/technical-library/datasheets/s355-j2.pdf) | oem-supplier | global | open | summary-only |
+| [Siderticino - S355J2 structural steel technical datasheet (EN 10025-2:2019)](https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf) | oem-supplier | global | open | summary-only |
 | [UK Health and Safety Executive (HSE)](https://www.hse.gov.uk/electricity/) | agency-data | eu | open | summary-only |
 | [GEAPL Telescopic Sliding Gates - technical specification and catalogue](https://www.geapl.com/telescopic-sliding-gates) | oem-supplier | global | open | summary-only |
 | [SCAN Electromechanical - EPC 132/33/11 kV Star1 & Star2 Substation](https://scanelectromechanical.com/project/scan-project-03) | epc-contractor | me | open | summary-only |

@@ -1,0 +1,28 @@
+{
+  "id": "gef-mat-high-tensile-steel-reinforcement",
+  "name": "High tensile steel reinforcement",
+  "material_category": "metal",
+  "description": "High tensile steel reinforcement named on a page read in the GEG gap-fill for Gas metering foundation.",
+  "specifications": [
+    {
+      "metric": "JKR 2025 unit rate, high tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "JKR Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), KL-base rate as printed; source page accessed 25 Sep 2026; currency RM item B704B/7 (value: RM5.30/kg)",
+      "year": 2025,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-gas-metering-foundation"
+  ],
+  "sources": [
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

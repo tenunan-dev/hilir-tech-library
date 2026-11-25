@@ -1,0 +1,37 @@
+{
+  "id": "gef-mat-compressor-construction-materials",
+  "name": "Compressor construction materials",
+  "material_category": "instrument-air-compressor",
+  "description": "Compressor construction materials named on a page read in the GEG gap-fill for Instrument air system.",
+  "specifications": [
+    {
+      "metric": "Compressor construction",
+      "unit": "n/a",
+      "basis": "Quincy QT-Series brochure inside Staab change order PDF (quotation dated 29 April 2024); read via r.jina.ai fallback 25 Nov 2026 (value: Cast-iron crankcase, cylinders and flywheel; stainless-steel reed valves with va)",
+      "year": 2024,
+      "source": {
+        "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+        "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
+      }
+    },
+    {
+      "metric": "High-pressure filter material option",
+      "unit": "n/a",
+      "basis": "Quincy compressed air filtration brochure inside same PDF: 'Quincy's line of 316 grade Stainless Steel filters for pressure requirements of 750 PSIG through 5000 PSIG' (value: 316 grade stainless steel filters for 750, 1500 and 5000 PSIG ranges)",
+      "source": {
+        "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+        "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-instrument-air-system"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+      "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

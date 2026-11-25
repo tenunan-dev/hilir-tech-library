@@ -1,6 +1,6 @@
 # MAT: Materials and integrity
 
-701 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
+711 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -99,6 +99,7 @@
 | [DNV — Stable-lift assessment methods](https://www.dnv.com/expert-story/maritime-impact/new-guidance-on-achieving-stable-lifting-operations/) | standards-body | global, apac, sea, eu, na | open | summary-only |
 | [DockGuard Ltd](https://www.dockguard.com/en/uhmw-pe-panel-fenders/) | oem-supplier | global, apac, sea | open | summary-only |
 | [Doowin Marine](https://doowinmarine.com/floating-yokohama-type-pneumatic-rubber-fenders) | oem-supplier | global, apac, sea | open | summary-only |
+| [DOSM Sabah & Sarawak Special Release for Civil Engineering Works, December 2025](https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf) | oem-supplier | sea | open | summary-only |
 | [Dynaflow — Number of distinct cooling systems at one ammonia ](https://dynaflow.com/consulting/projects/design-review-of-cooling-water-systems-for-ammonia-plant/) | oem-supplier | global, apac, sea | open | summary-only |
 | [Dynamic Isolation Systems (DIS)](https://dis-inc.com/products/base-isolators) | oem-supplier | global, apac, sea | open | summary-only |
 | [EEW Group (EEW SPC / PPE / Korea / Malaysia)](https://eew-group.com/offshore-wind) | oem-supplier | global, apac, sea | open | summary-only |
@@ -541,11 +542,13 @@
 | [Malampaya Deep Water Gas-to-Power Project — cost](https://sarpn.org/documents/d0002569/7-WRI_Community_dev_May2007.pdf) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [MDPI JMSE](https://www.mdpi.com/2077-1312/9/11/1179) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [MNS 3.0 Low Voltage Switchgear catalogue 1SXH900001C0201 Rev C](https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf) | oem-supplier | global, apac | open | summary-only |
+| [MNS – modular low voltage switchgear system brochure 1TFC 902032N0201](https://library.e.abb.com/public/1bd1718c1dcdf5e4c1257aaa003ab4da/MNS%20EN%201TFC902032N0201%20lowres_03102012.pdf?x-sign=qZodiPD5EoNr35O5ly6r2yTFfXwR6TyMrmBDCrU7ZKHZlbE2sLREknrVTZFhhh08) | oem-supplier | global, apac | open | summary-only |
 | [Montanuniversität Leoben (review thesis)](https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [MSA](https://www.msasafety.com/fixed-gas-and-flame-detection/gas-detectors/ultima-x5000-gas-monitor) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Mtu Solutions.Com — MTU diesel genset portfolio ceiling](https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Mtu Solutions.Com — MTU offshore design basis](https://www.mtu-solutions.com/eu/en/applications/oil-and-gas/offshore-oil-and-gas-solutions.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [MyCite Malaysian Citation Centre](https://mycite.my/) | journal | sea | open | full-text-restricted (unverified) |
+| [National Resistors - Neutral Grounding Resistors product and price page](https://www.nationalresistors.net/neutral-grounding-resistors.html) | oem-supplier | global, sea, apac | open | summary-only |
 | [Nexans — Dynamic cable voltage (subsea compression power)](https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [NOAA](https://repository.library.noaa.gov/view/noaa/44523/noaa_44523_DS1.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [NOAA Office of Ocean Exploration and Research; graphic originally by Oil States Industries, Inc.](https://commons.wikimedia.org/wiki/File:Types_of_offshore_oil_and_gas_structures.jpg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -609,6 +612,7 @@
 | [TechnipFMC — Umbilical systems track record](https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Trina Solar](https://www.trinasolar.com/en/products) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [U.S. Nuclear Regulatory Commission / EPRI](https://www.nrc.gov/docs/ml0037/ml003767039.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [UC XLPE Catalogue – Universal Cable (M) Berhad](https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf) | oem-supplier | apac | open | summary-only |
 | [UPES (University of Petroleum and Energy Studies) institutional repository](https://dr.ddn.upes.ac.in/server/api/core/bitstreams/59de0bef-b4f8-4b11-933c-f2f5d744158d/content) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [US Government Publishing Office / eCFR (BSEE)](https://www.ecfr.gov/current/title-30/section-250.855) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [US patent by Melvyn F. Whitby and John T. Mangan (Cameron); copy on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cameron_EVO_BOP_Patent_(Stack).jpg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -640,6 +644,7 @@
 | [BS EN 1992-3:2006 - Eurocode 2: Design of concrete structures - Liquid retaining and containing structures](https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-liquid-retaining-and-containing-structures) | standards-body | eu, global | open | summary-only |
 | [BS EN 1993-1-1:2005+A1:2014 - Eurocode 3: Design of steel structures - General rules and rules for buildings](https://knowledge.bsigroup.com/products/eurocode-3-design-of-steel-structures-general-rules-and-rules-for-buildings/standard) | standards-body | eu, global | open | summary-only |
 | [BS EN 1997-1:2004+A1:2013 - Eurocode 7: Geotechnical design - General rules](https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard) | standards-body | eu, global | open | summary-only |
+| [BSI Knowledge - BS EN 1992-1-1:2004+A1:2014 Eurocode 2](https://r.jina.ai/https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard) | standards-body | global | open | summary-only |
 | [CEN/TC 12 Oil and gas industries](https://standards.cencenelec.eu/) | standards-body | eu | paywalled | catalog-only (unverified) |
 | [CORROSION journal (AMPP)](https://content.ampp.org/corrosion) | journal | global | paywalled | catalog-only (unverified) |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
@@ -668,6 +673,7 @@
 | [Pipeline Research Council International (PRCI)](https://www.prci.org/) | research-institute | global | mixed | catalog-only (unverified) |
 | [SINTEF Energy](https://www.sintef.no/en/energy/) | research-institute | eu, global | open | full-text-restricted (unverified) |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
+| [Titania supported vanadium oxide catalysts in the NH3-SCR reaction (Licentiate thesis 2023:09)](https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf) | oem-supplier | global, eu | open | summary-only |
 | [Transient Responses Evaluation of FPSO with Different Failure Scenarios of Mooring Lines](https://www.mdpi.com/2077-1312/9/2/103) | oem-supplier | global | open | summary-only |
 | [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
 | [US20150314835A1 - Buoyant turret mooring with porous receptor cage](https://patents.google.com/patent/US20150314835A1/en) | oem-supplier | global | open | summary-only |
@@ -685,11 +691,14 @@
 | [INGAA Interstate Natural Gas Association of America](https://ingaa.org/) | association | na | open | summary-only (unverified) |
 | [IOGP Library (reports, JIPs, specifications)](https://www.iogp.org/bookstore/) | association | global | free-registration | full-text-restricted |
 | [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
+| [Neutral Grounding Resistor Specification FNGR11kV-300A-21.1Ω-30s-23](https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf) | oem-supplier | global, eu | open | summary-only |
 | [Offshore Magazine — Tarpon monotower develops further from 37 field applications (1999)](https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications) | oem-supplier | global | open | summary-only |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
+| [Parkside Steel - S355 J2 material data sheet (BS EN 10025-2:2019)](https://r.jina.ai/https://parksidesteel.co.uk/technical-library/datasheets/s355-j2.pdf) | oem-supplier | global | open | summary-only |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [Sandmeyer Steel](https://www.sandmeyersteel.com) | oem-supplier | global | open | full-text-restricted |
 | [Saudi Aramco technology and research](https://www.aramco.com/en/what-we-do/technology-development) | licensor | me, global | open | summary-only (unverified) |
+| [Siderticino - S355J2 structural steel technical datasheet (EN 10025-2:2019)](https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf) | oem-supplier | global | open | summary-only |
 | [SOLAS LSA Code Section 4.2 - Inflatable liferafts (educational mirror)](https://solas-lsa-code.vercel.app/en/lsa/4.2/) | standards-body | global | open | summary-only |
 | [Tetra Engineering — Duct Burners white paper](https://www.tetra-eng.com/whitepaper/duct-burners) | trade-media | global | open | summary-only |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
@@ -697,6 +706,7 @@
 | [US DOE Hydrogen and Fuel Cell Technologies Office](https://www.energy.gov/eere/fuelcells/hydrogen-and-fuel-cell-technologies-office) | agency-data | na, global | open | full-text-open |
 | [US PHMSA pipeline safety data and regulations](https://www.phmsa.dot.gov/) | agency-data | na | open | full-text-open |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
+| [WIKA data sheet PE 81.61 – Pressure transmitter Model S-20](https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf) | oem-supplier | global | open | summary-only |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [World Hydrogen Energy Conference (WHEC)](https://www.iahe.org/) | conference | global | mixed | catalog-only (unverified) |
 | [ASME Boiler and Pressure Vessel Code summary (Engineering ToolBox)](https://engineeringtoolbox.com/asme-boiler-vessel-code-d_8.html) | trade-media | global | open | summary-only |

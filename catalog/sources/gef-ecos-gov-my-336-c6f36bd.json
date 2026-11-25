@@ -1,0 +1,25 @@
+{
+  "id": "gef-ecos-gov-my-336-c6f36bd",
+  "name": "Energy Commission of Sabah - rescheduled integrated maintenance at SOGT Kimanis",
+  "url": "https://ecos.gov.my/node/336",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "ELE",
+    "HSE"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "Energy Commission of Sabah",
+  "access": "open",
+  "licence": "copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. WebFetch read 2026-11-25. Release dated 31 July 2025. Prints Sabah grid reserve margin 17% at the time, <10% in 2023, 30% target, and 40 MW additional BESS."
+}

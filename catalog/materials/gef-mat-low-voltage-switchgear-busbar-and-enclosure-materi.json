@@ -1,0 +1,82 @@
+{
+  "id": "gef-mat-low-voltage-switchgear-busbar-and-enclosure-materi",
+  "name": "Low voltage switchgear busbar and enclosure materials",
+  "material_category": "busbar-enclosure",
+  "description": "Low voltage switchgear busbar and enclosure materials named on a page read in the GEG gap-fill for Low voltage switchgear.",
+  "specifications": [
+    {
+      "metric": "Main busbar material",
+      "unit": "standard",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11, 'Busbar System – Main Busbars'. Read via r.jina.ai 2026-11-25. (value: Copper conforming to DIN 40500; bare copper standard, tin plating, silver platin)",
+      "year": 2019,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Busbar cross sections",
+      "unit": "mm",
+      "basis": "ABB MNS 3.0 catalogue, 'Busbar System – Main Busbars'. Read via r.jina.ai 2026-11-25. (value: 20x10, 30x10, 40x10 and 60x10)",
+      "year": 2026,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Current rating",
+      "unit": "A / kA",
+      "basis": "ABB MNS 3.0 catalogue, 'Technical Data'. Read via r.jina.ai 2026-11-25. (value: Main busbars up to 6,300 A; distribution bars up to 2,000 A; Icw up to 100 kA)",
+      "year": 2026,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Surface protection",
+      "unit": "material",
+      "basis": "ABB MNS 3.0 catalogue, 'Mechanical characteristics – Surface protection'. Read via r.jina.ai 2026-11-25. (value: Frame alu-zinc coated; enclosure alu-zinc coated and powder coated RAL 7035; int)",
+      "year": 2026,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Insulating parts",
+      "unit": "material",
+      "basis": "ABB MNS 3.0 catalogue, 'Multifunction Separator'. Read via r.jina.ai 2026-11-25. (value: CFC-free and halogen-free, flame-retardant and self-extinguishing)",
+      "year": 2026,
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+        "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+      }
+    },
+    {
+      "metric": "Frame material (MNS brochure)",
+      "unit": "material",
+      "basis": "ABB MNS brochure 1TFC 902032N0201, 'High-quality materials'. Read via r.jina.ai 2026-11-25. (value: Zinc galvanized sheet steel; busbar material aluminium or copper depending on ra)",
+      "year": 2032,
+      "source": {
+        "url": "https://library.e.abb.com/public/1bd1718c1dcdf5e4c1257aaa003ab4da/MNS%20EN%201TFC902032N0201%20lowres_03102012.pdf?x-sign=qZodiPD5EoNr35O5ly6r2yTFfXwR6TyMrmBDCrU7ZKHZlbE2sLREknrVTZFhhh08",
+        "source_id": "gef-library-e-abb-com-mns-20en-201tfc902032n0201-d8e257f"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-low-voltage-switchgear"
+  ],
+  "sources": [
+    {
+      "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+      "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
+    },
+    {
+      "url": "https://library.e.abb.com/public/1bd1718c1dcdf5e4c1257aaa003ab4da/MNS%20EN%201TFC902032N0201%20lowres_03102012.pdf?x-sign=qZodiPD5EoNr35O5ly6r2yTFfXwR6TyMrmBDCrU7ZKHZlbE2sLREknrVTZFhhh08",
+      "source_id": "gef-library-e-abb-com-mns-20en-201tfc902032n0201-d8e257f"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

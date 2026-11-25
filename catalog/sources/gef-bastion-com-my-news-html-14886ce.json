@@ -1,0 +1,25 @@
+{
+  "id": "gef-bastion-com-my-news-html-14886ce",
+  "name": "Bastion Systems - News",
+  "url": "https://bastion.com.my/news.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Bastion Systems Sdn Bhd",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch 25 Nov 2026. Page has no explicit publication date for individual news items; entries reference FY2020, November 2020, 31 March 2021 and FY2023-2026 projects. Values as printed in RM."
+}

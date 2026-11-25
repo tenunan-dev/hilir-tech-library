@@ -104,7 +104,8 @@
   ],
   "vendors": [
     "geg-vendor-axis-communications-ab-4a631",
-    "siemens"
+    "siemens",
+    "gef-vendor-yokogawa-58f2a"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -117,6 +118,22 @@
     {
       "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
       "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+    },
+    {
+      "url": "https://theedgemalaysia.com/node/786327",
+      "source_id": "gef-theedgemalaysia-com-786327-c222f1b"
+    },
+    {
+      "url": "https://theedgemalaysia.com/node/723069",
+      "source_id": "gef-theedgemalaysia-com-723069-a77216b"
+    },
+    {
+      "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+      "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+    },
+    {
+      "url": "https://patents.google.com/patent/JP2008219452A/en",
+      "source_id": "gef-patents-google-com-en-e5b781b"
     }
   ],
   "gaps": [
@@ -124,6 +141,26 @@
       "what": "CCTV System",
       "why": "No project-specific camera count, locations, VMS vendor, storage retention, monitor wall or price was found in any page read.",
       "next_action": "Obtain the CCTV camera schedule, zone drawings, recorder/VMS specification and priced BOQ."
+    },
+    {
+      "what": "CCTV system",
+      "why": "No CCTV contract price for the 7-unit gas-engine plant was found. The four dated RM figures read are municipal/federal CCTV awards in Kuala Lumpur and at national border points, not this plant.",
+      "next_action": "Find the plant's security/CCTV package award or BOQ and record camera count, date and currency as printed; do not substitute the reference awards."
+    },
+    {
+      "what": "CCTV system",
+      "why": "No CCTV camera count, resolution or I/O schedule for the 7-unit plant was found in any source read.",
+      "next_action": "Obtain the plant ELV/security specification and record the exact printed camera schedule."
+    },
+    {
+      "what": "CCTV system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "CCTV system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

@@ -1,0 +1,25 @@
+{
+  "id": "gef-patents-google-com-en-e2b2854",
+  "name": "Google Patents - US20150116886A1",
+  "url": "https://patents.google.com/patent/US20150116886A1/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Google Patents (USPTO bibliographic data)",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Page read 2026-11-25; bibliographic dates and abstract quoted as printed."
+}

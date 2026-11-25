@@ -1,0 +1,26 @@
+{
+  "id": "bp-sharjah-gas-processing-plant-dcs-replacement-main-aut",
+  "name": "BP Sharjah gas processing plant DCS replacement (main automation contractor)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "United Arab Emirates",
+  "location": "United Arab Emirates",
+  "status": "operating",
+  "description": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016): replacement of Rosemount RS3 DCS with CENTUM VP at the Sharjah gas, condensate and LPG facility about 40 km outside Sharjah city; 1,500 hardwired I/O, 2,500 serial I/O over 32 subsystems, 14 cabinets, 100 graphics, 6 FCS, 1 ENGS, 4 HIS and 1 Exaquantum server. No contract value printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+      "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8",
+      "note": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016): replacement of Rosemount RS3 D"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Plant control system."
+}

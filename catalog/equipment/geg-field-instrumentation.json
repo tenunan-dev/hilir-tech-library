@@ -114,6 +114,17 @@
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
         "source_id": "geg-search-abb-com-download-aspx-583c22e"
       }
+    },
+    {
+      "metric": "Yokogawa Plant Resource Manager (P — FOUNDATION Fieldbus devices connected to CENTUM CS 3000 DCS",
+      "unit": "devices (nearly 1,000)",
+      "basis": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016), Qatar Petroleum PS-2 & PS-3 entry: 'Nearly 1,000 FF-enabled devices were connected to the CENTUM CS 3000 DCS'. Order November 2006, completion March 2009. Read via r.jina.ai proxy 25 Nov 2026.",
+      "value": 1000,
+      "year": 2016,
+      "source": {
+        "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+        "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+      }
     }
   ],
   "vendor_models": [
@@ -136,7 +147,8 @@
   "vendors": [
     "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
     "geg-vendor-yokogawa-electric-corporation-31fff",
-    "abb"
+    "abb",
+    "gef-vendor-yokogawa-58f2a"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -153,6 +165,18 @@
     {
       "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
       "source_id": "geg-search-abb-com-download-aspx-583c22e"
+    },
+    {
+      "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+      "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+    },
+    {
+      "url": "https://www.sesb.com.my/Tender.aspx",
+      "source_id": "gef-sesb-com-my-tender-aspx-86fb9e8"
+    },
+    {
+      "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf",
+      "source_id": "gef-wika-com-ds-pe8161-en-co-pdf-f7af99d"
     }
   ],
   "gaps": [
@@ -160,6 +184,21 @@
       "what": "Field Instrumentation",
       "why": "No project-specific instrument index, tag count, transmitter model selection, SIL allocation or price was found in any page read.",
       "next_action": "Obtain the project instrument index, SIL verification report, datasheet set and priced instrumentation BOQ."
+    },
+    {
+      "what": "Field instrumentation",
+      "why": "No printed field-instrumentation contract price, $/instrument or MYR rate for the 7-unit plant was found; the Yokogawa EPIC case study gives device counts but no value.",
+      "next_action": "Obtain the plant instrument index/BOQ with dated unit rates and currency as printed before adding any price."
+    },
+    {
+      "what": "Field instrumentation",
+      "why": "No named, dated field-instrumentation award to a supplier for the SESB-connected 7-unit plant was found, and no instrument schedule for that plant was read.",
+      "next_action": "Locate the plant's instrument index, MIV/MAC contract or award notice and quote supplier, date, quantities and values exactly as printed."
+    },
+    {
+      "what": "Field instrumentation",
+      "why": "No Google Patents / USPTO / Espacenet page was read that identifies a patent specifically for this plant item; recording one would require invention.",
+      "next_action": "Obtain the project equipment datasheet or vendor patent list, then read the identified patent page and record number, title, assignee and publication year."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

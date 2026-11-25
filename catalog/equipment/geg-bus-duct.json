@@ -219,11 +219,38 @@
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
       }
+    },
+    {
+      "metric": "Isolated phase bus duct / busbar t — Isolated phase bus current rating, air-cooled",
+      "unit": "A",
+      "basis": "nVent isolated phase bus product page: 'Current: 600-25,000 (air-cooled), up to 50,000 amps (forced-air cooled)'. Page read 2026-11-25; undated.",
+      "value": 600,
+      "low": 600,
+      "high": 25000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.nvent.com/en-us/isolated-phase-bus",
+        "source_id": "gef-nvent-com-isolated-phase-bus-e506d7c"
+      }
+    },
+    {
+      "metric": "Isolated phase bus duct / busbar t — Isolated phase bus voltage range",
+      "unit": "kV",
+      "basis": "Same nVent page: 'Voltage: 15kV-38kV'; insulation levels 110-200 kV BIL; momentary current up to 1,000,000+ A asymmetrical.",
+      "low": 15,
+      "high": 38,
+      "source": {
+        "url": "https://www.nvent.com/en-us/isolated-phase-bus",
+        "source_id": "gef-nvent-com-isolated-phase-bus-e506d7c"
+      }
     }
   ],
   "vendor_models": [],
   "vendors": [
-    "geg-vendor-unidentified"
+    "geg-vendor-unidentified",
+    "gef-vendor-nvent-f50b6",
+    "gef-vendor-busway-electric-india-pvt-ltd-e0988",
+    "gef-vendor-daqo-group-qlfm-isolated-phase-bus-duct-4f981"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -232,6 +259,30 @@
     {
       "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
       "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
+    },
+    {
+      "url": "https://www.buswayelectric.in/bus-ducts.html",
+      "source_id": "gef-buswayelectric-in-bus-ducts-html-9c241f5"
+    },
+    {
+      "url": "https://www.nvent.com/en-us/isolated-phase-bus",
+      "source_id": "gef-nvent-com-isolated-phase-bus-e506d7c"
+    },
+    {
+      "url": "https://patents.google.com/patent/US4339635A/en",
+      "source_id": "gef-patents-google-com-en-e1938e7"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN115152113A/en",
+      "source_id": "gef-patents-google-com-en-aa9cf98"
+    },
+    {
+      "url": "https://library.e.abb.com/public/1bd1718c1dcdf5e4c1257aaa003ab4da/MNS%20EN%201TFC902032N0201%20lowres_03102012.pdf?x-sign=qZodiPD5EoNr35O5ly6r2yTFfXwR6TyMrmBDCrU7ZKHZlbE2sLREknrVTZFhhh08",
+      "source_id": "gef-library-e-abb-com-mns-20en-201tfc902032n0201-d8e257f"
+    },
+    {
+      "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+      "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
     }
   ],
   "gaps": [
@@ -249,6 +300,11 @@
       "what": "Bus Duct (between LV switchgear)",
       "why": "No patent number printed in the ABB source read.",
       "next_action": "Do not infer patent numbers; query a patent database only if required."
+    },
+    {
+      "what": "Bus duct",
+      "why": "No dated MYR/USD isolated-phase bus duct award value or named, sized, located project was found in a directly read page; US solicitation estimates surfaced in search only and were not read.",
+      "next_action": "Find a dated generator bus duct supply contract with value, current rating and plant location."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

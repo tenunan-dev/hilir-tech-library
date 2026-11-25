@@ -1,0 +1,50 @@
+{
+  "id": "gef-mat-aluminized-steel-with-high-temperature-oven-cured",
+  "name": "Aluminized steel with high-temperature oven-cured black paint (standard); 304L / 316L stainless steel (optional)",
+  "material_category": "silencer-shell-construction",
+  "description": "Aluminized steel with high-temperature oven-cured black paint (standard); 304L / 316L stainless steel (optional) named on a page read in the GEG gap-fill for Exhaust gas system.",
+  "specifications": [
+    {
+      "metric": "Standard construction",
+      "unit": "n/a",
+      "basis": "GT Silex Silencer Catalogue 2026, A201/A202/A203 series 'FINISH AND OPTIONAL MATERIALS'; read via r.jina.ai fallback (value: Standard aluminized steel construction with high temperature, oven cured black p)",
+      "year": 2026,
+      "source": {
+        "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+        "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+      }
+    },
+    {
+      "metric": "Optional material grades",
+      "unit": "n/a",
+      "basis": "GT Silex Silencer Catalogue 2026, OPTIONS list on each silencer series (value: Aluminized steel, 304L or 316L stainless steel)",
+      "year": 2026,
+      "source": {
+        "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+        "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+      }
+    },
+    {
+      "metric": "Maxim material code letters",
+      "unit": "n/a",
+      "basis": "Maxim Silencers 2020 Exhaust Silencer Catalog, Rev M-ESCS-003, Cylindrical Silencers Nomenclature guide; read via r.jina.ai fallback (value: C = carbon steel; S = stainless steel 304; T = stainless steel 316; L = stainles)",
+      "year": 2020,
+      "source": {
+        "url": "http://davidsonsales.com/public/pdfs/Maxim%20Silencer%20Catalog.pdf"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-exhaust-gas-system"
+  ],
+  "sources": [
+    {
+      "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+      "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+    },
+    {
+      "url": "http://davidsonsales.com/public/pdfs/Maxim%20Silencer%20Catalog.pdf"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

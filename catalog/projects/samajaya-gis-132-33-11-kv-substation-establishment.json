@@ -1,0 +1,26 @@
+{
+  "id": "samajaya-gis-132-33-11-kv-substation-establishment",
+  "name": "Samajaya GIS 132/33/11 kV substation establishment",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sarawak)",
+  "location": "Malaysia (Sarawak)",
+  "status": "operating",
+  "description": "Client Sarawak Energy Berhad; design, engineering, supply, erect and commissioning",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "Client Sarawak Energy Berhad; design, engineering, supply, erect and commissioni"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Civil and structural buildings."
+}

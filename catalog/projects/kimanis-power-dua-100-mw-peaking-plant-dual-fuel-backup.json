@@ -1,0 +1,26 @@
+{
+  "id": "kimanis-power-dua-100-mw-peaking-plant-dual-fuel-backup",
+  "name": "Kimanis Power (Dua) 100 MW peaking plant - dual fuel backup",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "18V51/60DF dual-fuel engine sets manufactured by Everllence SE; availability-based PPA with full pass-through of fuel costs; Everllence long-term service agreement with performance-linked guarantees",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ram.com.my/pressrelease?prviewid=7207",
+      "source_id": "ram-com-my-www-ram-com-my-pressrelease",
+      "note": "18V51/60DF dual-fuel engine sets manufactured by Everllence SE; availability-bas"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Diesel fuel system."
+}

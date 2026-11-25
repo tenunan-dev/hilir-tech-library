@@ -59,6 +59,18 @@
       "url": "https://jml.com.sg/what-we-do/construction/projects",
       "source_id": "geg-jml-com-sg-projects-18172e3",
       "note": "JML scope: task force work - piping, mechanical, structural and E&I; industrial plant; client Mitsubishi Heavy Industries, Ltd."
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008"
     }
   ],
   "gaps": [
@@ -66,6 +78,11 @@
       "what": "Electrical & Mechanical Workshop (steel structure 38x20x9.6)",
       "why": "No published rate for a steel E&M workshop building and no project-specific workshop specification found.",
       "next_action": "Source a Malaysian industrial workshop steel-building rate or comparable tender BQ."
+    },
+    {
+      "what": "Electrical and mechanical workshop building",
+      "why": "No published all-in rate or award value for an E&M workshop building at a gas-engine plant; only generic element rates were found.",
+      "next_action": "Obtain the workshop building priced BQ or a dated Sabah industrial workshop benchmark"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

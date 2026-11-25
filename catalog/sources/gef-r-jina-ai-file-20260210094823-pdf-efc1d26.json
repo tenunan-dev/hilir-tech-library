@@ -1,0 +1,25 @@
+{
+  "id": "gef-r-jina-ai-file-20260210094823-pdf-efc1d26",
+  "name": "DOSM Sabah & Sarawak Special Release for Civil Engineering Works, December 2025",
+  "url": "https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "MAT",
+    "CIV"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "Department of Statistics Malaysia",
+  "access": "open",
+  "licence": "copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Fetched with WebFetch via https://r.jina.ai/<DOSM PDF> because WebFetch cannot read application/pdf directly; jina.ai reports Published Time 10 Feb 2026. Publication dated January 2026, data month December 2025, printed price RM5.00. Tables print six region columns; the extracted text groups the first three under Sabah and the last three under Sarawak, but the exact Sabah sub-region mapping was not resolvable - figures below are the FIRST printed Sabah value."
+}

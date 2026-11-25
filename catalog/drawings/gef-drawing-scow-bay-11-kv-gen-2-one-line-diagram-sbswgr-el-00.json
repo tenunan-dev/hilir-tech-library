@@ -1,0 +1,27 @@
+{
+  "id": "gef-drawing-scow-bay-11-kv-gen-2-one-line-diagram-sbswgr-el-00",
+  "title": "Scow Bay 11 kV Gen 2 One-Line Diagram SBSWGR-EL-0010 SH1",
+  "diagram_type": "schematic",
+  "description": "Listed in Appendix A of the August 2025 11 kV switchgear bid package (4 sheets total).",
+  "publisher": "Petersburg Borough / Electric Power Systems, Inc.",
+  "url": "https://www.petersburgak.gov/sites/default/files/fileattachments/power_amp_light/page/18954/petersburg_borough_scow_bay_generator_2_switchgear_bid_package_8.22.25.pdf",
+  "sectors": [
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "equipment": [
+    "geg-11-kv-switchgear"
+  ],
+  "sources": [
+    {
+      "url": "https://www.petersburgak.gov/sites/default/files/fileattachments/power_amp_light/page/18954/petersburg_borough_scow_bay_generator_2_switchgear_bid_package_8.22.25.pdf",
+      "source_id": "gef-petersburgak-gov-petersburg-borough-scow-bay-2641f5b",
+      "note": "Listed in Appendix A of the August 2025 11 kV switchgear bid package (4 sheets total)."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the GEG core-item gap-fill; drawing stays at publisher URL."
+}

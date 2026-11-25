@@ -1,0 +1,25 @@
+{
+  "id": "gef-sesb-com-my-tender-t-9468-aspx-d4fe03b",
+  "name": "SESB Tender T.9468",
+  "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9468.aspx",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Sabah Electricity Sdn. Bhd.",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch 25 Nov 2026. Live tender page; closing 09-12-2026; no print/publication date; fee 175.00 is a document fee."
+}

@@ -1,0 +1,88 @@
+{
+  "id": "gef-mat-neutral-grounding-resistor-element-and-cabinet-mat",
+  "name": "Neutral grounding resistor element and cabinet materials",
+  "material_category": "resistor-cabinet",
+  "description": "Neutral grounding resistor element and cabinet materials named on a page read in the GEG gap-fill for Neutral grounding resistor panels.",
+  "specifications": [
+    {
+      "metric": "Resistor element material",
+      "unit": "material",
+      "basis": "ESTS / Novo Electric NGR specification FNGR11kV-300A-21.1Ω-30s-23, §3.1 and parameter table, dated 28 February 2025. Read via r.jina.ai 2026-11-25. (value: Stainless steel 304 (metal fin resistor))",
+      "year": 2025,
+      "source": {
+        "url": "https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf",
+        "source_id": "gef-ests-uk-neutral-ground-resistant-specificati-f00927a"
+      }
+    },
+    {
+      "metric": "Rated resistance",
+      "unit": "ohm",
+      "basis": "ESTS NGR specification §3.1 and parameter table. Read via r.jina.ai 2026-11-25. (value: 21.1 ± 5 %)",
+      "year": 2026,
+      "source": {
+        "url": "https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf",
+        "source_id": "gef-ests-uk-neutral-ground-resistant-specificati-f00927a"
+      }
+    },
+    {
+      "metric": "Temperature coefficient",
+      "unit": "1/°C",
+      "basis": "ESTS NGR specification parameter table 'Temperature Coefficient of Resistor'. Read via r.jina.ai 2026-11-25. (value: 1.05 × 10 -4 per °C (as printed))",
+      "year": 2026,
+      "source": {
+        "url": "https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf",
+        "source_id": "gef-ests-uk-neutral-ground-resistant-specificati-f00927a"
+      }
+    },
+    {
+      "metric": "Melting point of resistance material",
+      "unit": "°C",
+      "basis": "ESTS NGR specification parameter table. Read via r.jina.ai 2026-11-25. (value: 1350~1500)",
+      "year": 2026,
+      "source": {
+        "url": "https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf",
+        "source_id": "gef-ests-uk-neutral-ground-resistant-specificati-f00927a"
+      }
+    },
+    {
+      "metric": "Short-time temperature rise",
+      "unit": "K",
+      "basis": "ESTS NGR specification §3.1 and parameter table. Read via r.jina.ai 2026-11-25. (value: 760 K / 30 s; 385 K / 2 h)",
+      "year": 2026,
+      "source": {
+        "url": "https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf",
+        "source_id": "gef-ests-uk-neutral-ground-resistant-specificati-f00927a"
+      }
+    },
+    {
+      "metric": "Cabinet",
+      "unit": "material",
+      "basis": "ESTS NGR specification §3.2 and parameter table. Read via r.jina.ai 2026-11-25. (value: Hot-dip galvanized sheet, sprayed RAL7035, IP23)",
+      "year": 2026,
+      "source": {
+        "url": "https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf",
+        "source_id": "gef-ests-uk-neutral-ground-resistant-specificati-f00927a"
+      }
+    },
+    {
+      "metric": "Insulation levels",
+      "unit": "kV",
+      "basis": "ESTS NGR specification §3.1 and parameter table. Read via r.jina.ai 2026-11-25. (value: Power frequency withstand 42 kV / 1 min; lightning impulse 75 kV (peak))",
+      "year": 2026,
+      "source": {
+        "url": "https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf",
+        "source_id": "gef-ests-uk-neutral-ground-resistant-specificati-f00927a"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-neutral-grounding-resistor-panels"
+  ],
+  "sources": [
+    {
+      "url": "https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf",
+      "source_id": "gef-ests-uk-neutral-ground-resistant-specificati-f00927a"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

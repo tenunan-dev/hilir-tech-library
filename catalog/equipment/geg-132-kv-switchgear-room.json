@@ -104,6 +104,10 @@
       "url": "https://www.dspecmy.com/projects/portfolio",
       "source_id": "geg-dspecmy-com-portfolio-d114008",
       "note": "Deltaspec portfolio item 6: one 90 MVA 132/33/11 kV and one 30 MVA 132/11 kV power transformer; client BUMISEM / SESB."
+    },
+    {
+      "url": "https://ecos.gov.my/node/336",
+      "source_id": "gef-ecos-gov-my-336-c6f36bd"
     }
   ],
   "gaps": [
@@ -111,6 +115,11 @@
       "what": "SESB_132kV Switchgear Room (reinforced concrete 10.8x35x13.2 + 10.8 x26x7.5)",
       "why": "No public evidence of this specific SESB 132 kV switchgear room: no contract value, no building rate and no 132 kV GIS/AIS specification for this plant.",
       "next_action": "Obtain the project's electrical specification and a comparable SESB 132 kV substation building tender."
+    },
+    {
+      "what": "132 kV switchgear room",
+      "why": "No published RM value for the 132 kV switchgear room itself; the AED contract value read is for a complete UAE substation, and IEC 62271-200 stops at 52 kV.",
+      "next_action": "Obtain the 132 kV GIS/AIS package price and the applicable 132 kV equipment standard for the SESB connection"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

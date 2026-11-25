@@ -1,0 +1,26 @@
+{
+  "id": "sibiyu-132-33-kv-substation-kemena-land-district-near-bi",
+  "name": "Sibiyu 132/33 kV substation, Kemena Land District near Bintulu Airport, Sarawak",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Pestech Sdn Bhd contract from Syarikat Sesco Bhd (Sarawak Energy unit), RM57.95 million; provides 132 kV power injection into Bintulu city centre. PESTECH's own reference table also lists 'Sibiyu 132/33kV GIS Substation Project (Contract No.: PLS-150129)' under 2021.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://theedgemalaysia.com/article/pestech-bags-rm58m-sibiyu-substation-job",
+      "source_id": "gef-theedgemalaysia-com-pestech-bags-rm58m-sibiy-c3ed7ab",
+      "note": "Pestech Sdn Bhd contract from Syarikat Sesco Bhd (Sarawak Energy unit), RM57.95 "
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 132 kV substation."
+}

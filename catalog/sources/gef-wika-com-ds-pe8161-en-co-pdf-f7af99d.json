@@ -1,0 +1,25 @@
+{
+  "id": "gef-wika-com-ds-pe8161-en-co-pdf-f7af99d",
+  "name": "WIKA data sheet PE 81.61 – Pressure transmitter Model S-20",
+  "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "INS",
+    "MAT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "WIKA Alexander Wiegand SE & Co. KG",
+  "access": "open",
+  "licence": "© 04/2013 WIKA Alexander Wiegand SE & Co. KG (stated in data sheet)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. 18-page data sheet PE 81.61, edition 02/2026; direct PDF WebFetch blocked; read via r.jina.ai 2026-11-25 (Jina Published Time 2026-11-24)."
+}

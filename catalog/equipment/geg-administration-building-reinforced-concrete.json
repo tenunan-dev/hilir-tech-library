@@ -58,6 +58,14 @@
       "url": "https://pestec-international.com/project-reference/electrical-substations",
       "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
       "note": "PESTEC reference: EPC, commissioning, testing, handover and 18-month defect liability for a new 132/33 kV substation; client NUR Distribution Sdn Bhd."
+    },
+    {
+      "url": "https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf",
+      "source_id": "gef-r-jina-ai-file-20260210094823-pdf-efc1d26"
+    },
+    {
+      "url": "https://r.jina.ai/https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "gef-r-jina-ai-standard-a925f8a"
     }
   ],
   "gaps": [
@@ -65,6 +73,11 @@
       "what": "Administratrion Building (reinforced concrete 13x35x7.5)",
       "why": "No public cost, contractor or reference project for this administration building; generic JKR rates are KL-base small-works rates and do not include preliminaries or insurance.",
       "next_action": "Find a comparable Malaysian industrial administration-building tender or CIDB benchmark."
+    },
+    {
+      "what": "Administration building (reinforced concrete)",
+      "why": "No published RM/m2 all-in rate for this specific RC building on a gas-engine plant in Sabah; JKR rates are KL-base element rates for small works.",
+      "next_action": "Obtain the priced BQ for the building or a dated Sabah industrial-building RM/m2 benchmark"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

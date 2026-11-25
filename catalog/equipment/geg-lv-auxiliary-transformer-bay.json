@@ -85,6 +85,14 @@
       "url": "https://www.dspecmy.com/projects/portfolio",
       "source_id": "geg-dspecmy-com-portfolio-d114008",
       "note": "Deltaspec portfolio item 4: two 60 MVA 132/33 kV transformers, supply/delivery/installation/commissioning; client Penulaju Sdn Bhd / SESB."
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/63466",
+      "source_id": "geg-webstore-iec-ch-63466-a67c8c0"
     }
   ],
   "gaps": [
@@ -92,6 +100,11 @@
       "what": "Transformer Bay Area for LV Auxiliary (11/0.433kV) - blast wall & platform",
       "why": "No published RM/m2 for a transformer blast wall and platform; the RC retaining-wall rates read are generic retained-earth walls, not fire/blast-rated barriers.",
       "next_action": "Obtain the blast-wall design basis (fire rating, height, blast load) and a project-specific rate."
+    },
+    {
+      "what": "LV auxiliary transformer bay",
+      "why": "No published RM rate or award value for an LV auxiliary transformer bay; only dated Malaysian substation references with no prices were found.",
+      "next_action": "Obtain the auxiliary transformer bay price from the substation package BQ"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

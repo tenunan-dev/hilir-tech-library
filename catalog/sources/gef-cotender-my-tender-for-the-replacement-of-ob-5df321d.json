@@ -1,0 +1,25 @@
+{
+  "id": "gef-cotender-my-tender-for-the-replacement-of-ob-5df321d",
+  "name": "CoTender listing for SESB T.9467",
+  "url": "https://cotender.my/t/tender-for-the-replacement-of-obsolete-scada-system-at-selected-33-11kv-distribu-1e7d261a-ab7c-4f41-905e-d690b2ddbc32",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "CoTender",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch 25 Nov 2026. Shows RM150 document price, 30 Dis 2026 close, G4/ME and E03/E04/E05 qualifications."
+}

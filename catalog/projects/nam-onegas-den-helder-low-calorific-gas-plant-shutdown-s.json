@@ -1,0 +1,26 @@
+{
+  "id": "nam-onegas-den-helder-low-calorific-gas-plant-shutdown-s",
+  "name": "NAM ONEgas Den Helder low-calorific gas plant shutdown-system migration",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "The Netherlands",
+  "location": "The Netherlands",
+  "status": "operating",
+  "description": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016): migration from Maglog 14 magnetic-logic ASD to ProSafe-RS integrated with the site CENTUM VP DCS through Vnet/IP; Yokogawa acted as main automation contractor and also performed the EPC role, stated to have sped completion by six months. No contract value printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+      "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8",
+      "note": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016): migration from Maglog 14 magne"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Plant control system."
+}

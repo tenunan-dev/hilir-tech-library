@@ -1,0 +1,26 @@
+{
+  "id": "separate-protection-control-building-for-tiwi-geothermal",
+  "name": "Separate protection/control building for Tiwi geothermal power plants A and C substations",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Philippines",
+  "location": "Philippines",
+  "status": "operating",
+  "description": "Client NGCP; upgrading of secondary devices and construction of a separate protection/control building for unmanned operation",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "Client NGCP; upgrading of secondary devices and construction of a separate prote"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Visitor and meeting building (reinforced concrete)."
+}

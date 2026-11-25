@@ -1,0 +1,26 @@
+{
+  "id": "gef-r-jina-ai-pwd-form-203a-panel-works-pdf-6aba3f8",
+  "name": "PWD Form 203A (Rev. 1/2010) - Standard Form of Contract where Bills of Quantities form part of the Contract",
+  "url": "https://r.jina.ai/https://content.airselangor.com/cmi-prod-blobstorageanon-001-sea/media/zv3lutuu/pwd-form-203a-panel-works.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Public Works Department Malaysia (copy hosted by Air Selangor)",
+  "access": "open",
+  "licence": "not stated in source",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch via r.jina.ai 25 Nov 2026 (direct PDF WebFetch unsupported; proxy used). Form revision 1/2010; hosted copy dated 26 Feb 2025. No licence stated."
+}

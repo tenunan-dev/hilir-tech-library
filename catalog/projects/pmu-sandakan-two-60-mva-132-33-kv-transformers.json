@@ -1,0 +1,26 @@
+{
+  "id": "pmu-sandakan-two-60-mva-132-33-kv-transformers",
+  "name": "PMU Sandakan, two 60 MVA 132/33 kV transformers",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "Supply, delivery, installation and commissioning; PENULAJU SDN BHD / SESB",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008",
+      "note": "Supply, delivery, installation and commissioning; PENULAJU SDN BHD / SESB"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for LV auxiliary transformer bay."
+}

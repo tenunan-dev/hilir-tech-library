@@ -1,0 +1,88 @@
+{
+  "id": "gef-mat-wika-s-20-pressure-transmitter-wetted-and-enclosur",
+  "name": "WIKA S-20 pressure transmitter wetted and enclosure materials",
+  "material_category": "instrument-materials",
+  "description": "WIKA S-20 pressure transmitter wetted and enclosure materials named on a page read in the GEG gap-fill for Field instrumentation.",
+  "specifications": [
+    {
+      "metric": "Wetted parts, ≤ 25 bar",
+      "unit": "material",
+      "basis": "WIKA data sheet PE 81.61, 02/2026, 'Material (wetted)'. Read via r.jina.ai 2026-11-25. (value: Stainless steel 316L)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf",
+        "source_id": "gef-wika-com-ds-pe8161-en-co-pdf-f7af99d"
+      }
+    },
+    {
+      "metric": "Wetted parts, > 25 bar",
+      "unit": "material",
+      "basis": "WIKA data sheet PE 81.61, 02/2026, 'Material (wetted)'. Read via r.jina.ai 2026-11-25. (value: Stainless steel 316L + PH grade steel)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf",
+        "source_id": "gef-wika-com-ds-pe8161-en-co-pdf-f7af99d"
+      }
+    },
+    {
+      "metric": "Wetted parts, > 1,000 bar",
+      "unit": "material",
+      "basis": "WIKA data sheet PE 81.61, 02/2026, 'Material (wetted)'. Read via r.jina.ai 2026-11-25. (value: ASTM 630 and PH grade steel)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf",
+        "source_id": "gef-wika-com-ds-pe8161-en-co-pdf-f7af99d"
+      }
+    },
+    {
+      "metric": "Case / connector materials",
+      "unit": "material",
+      "basis": "WIKA data sheet PE 81.61, 02/2026, 'Material (in contact with the environment)'. Read via r.jina.ai 2026-11-25. (value: Case 316Ti; PBT/PET GF30 connectors; metal M12 connector 316L; cable outlets 316)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf",
+        "source_id": "gef-wika-com-ds-pe8161-en-co-pdf-f7af99d"
+      }
+    },
+    {
+      "metric": "Seal temperature ranges",
+      "unit": "°C",
+      "basis": "WIKA data sheet PE 81.61, 02/2026, 'Possible restrictions'. Read via r.jina.ai 2026-11-25. (value: NBR -30…+100 °C; FPM/FKM -40…+200 °C; EPDM -40…+125 °C; copper and stainless ste)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf",
+        "source_id": "gef-wika-com-ds-pe8161-en-co-pdf-f7af99d"
+      }
+    },
+    {
+      "metric": "Measuring range",
+      "unit": "bar",
+      "basis": "WIKA data sheet PE 81.61, 02/2026, 'Description'. Read via r.jina.ai 2026-11-25. (value: 0 … 0.4 to 0 … 1,600 bar)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf",
+        "source_id": "gef-wika-com-ds-pe8161-en-co-pdf-f7af99d"
+      }
+    },
+    {
+      "metric": "Long-term drift",
+      "unit": "%",
+      "basis": "WIKA data sheet PE 81.61, 02/2026, 'Specifications'. Read via r.jina.ai 2026-11-25. (value: ≤ ±0.1 % of span)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf",
+        "source_id": "gef-wika-com-ds-pe8161-en-co-pdf-f7af99d"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-field-instrumentation"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf",
+      "source_id": "gef-wika-com-ds-pe8161-en-co-pdf-f7af99d"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

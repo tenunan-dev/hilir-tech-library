@@ -1,0 +1,26 @@
+{
+  "id": "cact-operators-group-hz21-1a-offshore-gas-platform-plc-t",
+  "name": "CACT Operators Group HZ21-1A offshore gas platform - PLC to CENTUM CS 3000 migration",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "China (South China Sea, 130 km south of Shenzhen)",
+  "location": "China (South China Sea, 130 km south of Shenzhen)",
+  "status": "operating",
+  "description": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016): four wells in the HZ21-1 field produce 54 million cubic feet of natural gas per day; water depth approximately 115 metres; Yokogawa Engineering Asia worked with Aker Kvaerner and COOEC. No price printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+      "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8",
+      "note": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016): four wells in the HZ21-1 field"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Field instrumentation."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sesb-tender-t-9068-strategic-spare-parts-for-33-kv-132-k",
+  "name": "SESB Tender T.9068 - strategic spare parts for 33 kV, 132 kV and 275 kV transmission substation current transformers",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "SESB tender-status listing read 25 Nov 2026: 'TENDER FOR SUPPLY, DELIVERY & GUARANTEE OF STRATEGIC SPARE PARTS FOR TRANSMISSION SUBSTATION OF 33kV, 132kV, and 275kV CURRENT TRANSFORMER TO SESB CENTRAL STORE, KOTA KINABALU'. No value printed; instrument-transformer spares relevant to field instrumentation but no award or price.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sesb.com.my/Tender.aspx",
+      "source_id": "gef-sesb-com-my-tender-aspx-86fb9e8",
+      "note": "SESB tender-status listing read 25 Nov 2026: 'TENDER FOR SUPPLY, DELIVERY & GUAR"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Field instrumentation."
+}

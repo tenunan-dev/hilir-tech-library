@@ -1,0 +1,58 @@
+{
+  "id": "gef-mat-power-transformer-core-winding-and-tank-materials",
+  "name": "Power transformer core, winding and tank materials",
+  "material_category": "transformer-materials",
+  "description": "Power transformer core, winding and tank materials named on a page read in the GEG gap-fill for Power transformers.",
+  "specifications": [
+    {
+      "metric": "Core steel",
+      "unit": "material",
+      "basis": "CG Power Systems 'Power Transformers' catalogue, OCR excerpt 'POWER TRANSFORMERS, CORE BUILDING'. Read 2026-11-25. (value: CRGO low-loss silicon steel laminations; Hi-B grade and laser scribed lamination)",
+      "year": 2026,
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+        "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+      }
+    },
+    {
+      "metric": "Winding conductor",
+      "unit": "material",
+      "basis": "CG Power Systems catalogue summary, 'Winding Process'. Read 2026-11-25. (value: Electrolytic grade copper or epoxy bonded continuously transposed conductor (CTC)",
+      "year": 2026,
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+        "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+      }
+    },
+    {
+      "metric": "Insulation paper",
+      "unit": "material",
+      "basis": "CG Power Systems catalogue summary, 'Winding Process'. Read 2026-11-25. (value: High-quality insulation and thermally upgraded paper for emergency overloading)",
+      "year": 2026,
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+        "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+      }
+    },
+    {
+      "metric": "Tank material and finish",
+      "unit": "material",
+      "basis": "CG Power Systems catalogue summary, 'Tanks and Construction' and 'Painting and Finishing'. Read 2026-11-25. (value: Mild steel tanks designed to withstand full vacuum; zinc-rich primer with option)",
+      "year": 2026,
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+        "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-power-transformers"
+  ],
+  "sources": [
+    {
+      "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+      "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

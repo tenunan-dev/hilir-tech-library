@@ -1,0 +1,26 @@
+{
+  "id": "conversion-of-contractors-site-office-and-quarters-to-se",
+  "name": "Conversion of contractors site office and quarters to SEB temporary staff quarters, Murum Junction 275/33 kV substation",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sarawak)",
+  "location": "Malaysia (Sarawak)",
+  "status": "operating",
+  "description": "Client Syarikat SESCO Berhad; conversion and refurbishment of site office/quarters building",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "Client Syarikat SESCO Berhad; conversion and refurbishment of site office/quarte"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Administration building (reinforced concrete)."
+}

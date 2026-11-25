@@ -97,6 +97,11 @@
       "what": "LV Switchgear Room & Control Room (reinforced concrete 16.2x36.6x14.4)",
       "why": "No published LV switchgear/control room building rate or control-system specification found; JKKE rates cover only small building wiring points.",
       "next_action": "Obtain the LV switchgear and control-room specification plus a comparable tender rate."
+    },
+    {
+      "what": "LV switchgear and control room",
+      "why": "No published award value for the LV switchgear/control room package; only JKKE small-work point rates and dated Malaysian substation references were found.",
+      "next_action": "Obtain the LV package priced BQ or contract award"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

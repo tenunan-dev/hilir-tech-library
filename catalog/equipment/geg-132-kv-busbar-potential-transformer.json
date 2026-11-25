@@ -127,6 +127,14 @@
     {
       "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
       "source_id": "geg-r-jina-ai-download-484bca2"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN106707126A/en",
+      "source_id": "gef-patents-google-com-en-7a32dfb"
+    },
+    {
+      "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+      "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
     }
   ],
   "gaps": [
@@ -144,6 +152,11 @@
       "what": "Busbar PT - 132KV 40kA (3s)",
       "why": "No OEM name, SESB requirement, patent number, operational-history record or drawing was found in a page read with WebFetch for this specific line item.",
       "next_action": "Retrieve the SESB 132 kV interface specification and the vendor's VT data sheet/drawings."
+    },
+    {
+      "what": "132 kV busbar potential transformer",
+      "why": "No page specifically about a 132 kV busbar potential/voltage transformer was successfully read with WebFetch. Search results mentioned an AEGCL 132 kV PT spares tender and a TNB 132 kV CVT spares tender, but those pages were not read and are not admitted as evidence.",
+      "next_action": "Read an accessible OEM catalogue or tender page giving a 132 kV busbar VT rating, price and date."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

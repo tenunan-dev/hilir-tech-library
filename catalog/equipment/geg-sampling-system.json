@@ -128,6 +128,28 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
       }
+    },
+    {
+      "metric": "MRU OPTIMAX Biogas Analyzer (catal — gas components measurable",
+      "unit": "gas components (up to)",
+      "basis": "Instrumart Emission Analyzers catalogue page read 25 Nov 2026: 'Biogas, Landfill & Engine Exhaust systems for measurements of up to 7 gas components with up to 32,000 point data storage.' No dollar year printed.",
+      "value": 7,
+      "year": 2026,
+      "source": {
+        "url": "https://www.instrumart.com/categories/6146/emission-analyzers",
+        "source_id": "gef-instrumart-com-emission-analyzers-211c2f9"
+      }
+    },
+    {
+      "metric": "MRU OPTIMAX Biogas Analyzer (catal — data point storage",
+      "unit": "points (up to)",
+      "basis": "Instrumart Emission Analyzers catalogue page read 25 Nov 2026: 'with up to 32,000 point data storage'. No dollar year printed.",
+      "value": 32000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.instrumart.com/categories/6146/emission-analyzers",
+        "source_id": "gef-instrumart-com-emission-analyzers-211c2f9"
+      }
     }
   ],
   "vendor_models": [
@@ -138,7 +160,8 @@
     }
   ],
   "vendors": [
-    "abb"
+    "abb",
+    "gef-vendor-mru-instruments-as-listed-by-instrumart-b0b30"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -147,6 +170,18 @@
     {
       "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
       "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
+    },
+    {
+      "url": "https://www.sesb.com.my/Tender.aspx",
+      "source_id": "gef-sesb-com-my-tender-aspx-86fb9e8"
+    },
+    {
+      "url": "https://www.instrumart.com/categories/6146/emission-analyzers",
+      "source_id": "gef-instrumart-com-emission-analyzers-211c2f9"
+    },
+    {
+      "url": "https://patents.google.com/patent/US10247643B1/en",
+      "source_id": "gef-patents-google-com-en-fefeb1d"
     }
   ],
   "gaps": [
@@ -154,6 +189,26 @@
       "what": "Sampling System",
       "why": "No evidence found for the actual sampling system supplier, sample points, analyser species/ranges, or price for this 7-unit plant; it is unknown whether sampling means fuel gas, exhaust/CEMS or both.",
       "next_action": "Obtain the sampling system datasheet, analyser specification, sample point schedule and priced BOQ from the EPC package."
+    },
+    {
+      "what": "Sampling system",
+      "why": "No contract price, sample-point rate or MYR/USD value for a sampling system for the 7-unit gas-engine plant was found; the Instrumart figures are catalogue prices for generic gas-engine emissions analysers with no stated dollar year.",
+      "next_action": "Obtain the plant's sampling-system BOQ or award with dated rates, sample points and currency as printed, and keep the catalogue prices as separate undated references."
+    },
+    {
+      "what": "Sampling system",
+      "why": "No named, dated, sized sampling-system reference project at a Malaysian gas-engine plant was found.",
+      "next_action": "Find an OEM or EPC case study that prints the plant name, location, date and number of sampling points, then read it before recording."
+    },
+    {
+      "what": "Sampling system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Sampling system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

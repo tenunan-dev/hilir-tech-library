@@ -1,0 +1,24 @@
+{
+  "id": "gef-wartsila-com-w34sg-leaflet-pdf-3852bf4",
+  "name": "Wärtsilä 34SG gas engine generating set leaflet",
+  "url": "https://www.wartsila.com/docs/default-source/downloads/w34sg-leaflet.pdf?sfvrsn=7c482542_1",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT",
+    "ELE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Wärtsilä Corporation",
+  "access": "open",
+  "licence": "Copyright © 2023 Wärtsilä Corporation (stated in leaflet)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. 2-page product leaflet, © 2023 Wärtsilä Corporation; direct PDF WebFetch blocked; read via r.jina.ai 2026-11-25 (Jina Published Time 2025-08-15)."
+}

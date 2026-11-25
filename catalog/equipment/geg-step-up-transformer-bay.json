@@ -101,6 +101,11 @@
       "what": "Transformer Bay Area for Step-Up Transfomer (132/11kV) - blast wall & platform",
       "why": "No published blast-wall rate, fire-rating requirement or transformer-bay platform cost for this plant; Deltaspec projects cover transformers, not bay civil works.",
       "next_action": "Source the 132/11 kV transformer bay civil design and a comparable substation fire-wall BQ."
+    },
+    {
+      "what": "Step-up transformer bay",
+      "why": "Named, sized and located step-up transformer references were found but with no dates or prices for the individual bays.",
+      "next_action": "Obtain dated award values for the step-up transformer bays from the project procurement records"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-mru-instruments-as-listed-by-instrumart-b0b30",
+  "name": "MRU Instruments (as listed by Instrumart)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "MRU Instruments (as listed by Instrumart) named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
+      "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

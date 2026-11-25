@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-1306 vendor records covering 327 technologies. One record per vendor in
+1342 vendor records covering 327 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -702,6 +702,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Brittania Industries | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Buckeye Power Sales | — | oem, supplier | Gas engines |
 | Burgess-Manning (CECO Environmental) | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Busway Electric India Pvt Ltd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [BWSC](https://www.bwsc.com) | Denmark | packager, epc | Powerships and power barges; Biomass and waste-to-energy |
 | [BWX Technologies](https://www.bwxt.com) | USA | oem, developer, supplier | Microreactors (transportable nuclear); Advanced reactors (high-temperature gas, molten salt) |
 | [BYD](https://www.fdbatt.com) | China | oem | Lithium-ion battery energy storage |
@@ -712,6 +713,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group and Ganz) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [CGN](https://www.cgn.com.cn) | China | operator, developer | Large light-water reactors |
 | Changyu Pump | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Chongqing Gathering Marine Equipment Co., Ltd. | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | CIDB Malaysia | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Ciel & Terre](https://www.ciel-et-terre.net) | France | developer, oem | Floating solar |
 | Clarke (C18 diesel engine) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
@@ -728,6 +730,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Cummins Inc. | — | oem, supplier | Gas engines |
 | Dafang Crane (dgcrane.com) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Daqo Group (QLFM isolated phase bus duct) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | dB Noise Reduction | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | dB Noise Reduction Inc. | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Deep Sea Electronics | — | oem, supplier | Gas engines |
@@ -763,6 +766,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Fuel Tech | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Fuji Electric](https://www.fujielectric.com) | Japan | oem | Geothermal (flash and binary cycle) |
 | [Fulton](https://fulton.com/product-categories/steam-boilers/) | United States | oem | Gas-fired steam and hot-water boilers |
+| G-FRP Venture Marketing Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | GE / GE Energy | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [GE Vernova](https://www.gevernova.com) | USA | oem, service | Mobile gas turbine power plants; Heavy-duty gas turbines (H and J class); Aeroderivative and industrial gas turbines; Combined cycle and HRSG; Cogeneration and combined heat and power; Hydropower; HVDC transmission and interconnectors |
 | [GE Vernova Hitachi Nuclear Energy](https://www.gevernova.com/nuclear) | USA | oem | Small modular reactors; Large light-water reactors |
@@ -772,9 +776,12 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Grundfos | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [GS E&C](https://www.gsenc.com) | South Korea | epc | Combined cycle and HRSG |
 | GSD (Genel Sistem Dizaynı) | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| GT Silex (Nelson Global) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| H&C Diesel Generator Manufacture (H&C Import & Export Co., Ltd) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | HADETEC (Nijkerk, Netherlands; Rootselaar Group) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Halgo Power](https://www.halgopower.com/products/forced-draft-fans) | United States | oem, supplier | Gas-fired steam and hot-water boilers; Combined cycle and HRSG |
 | Hangguo (HGTYBypass) | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Hexatech Engineering Sdn. Bhd. (subsidiary of HE Group Berhad) | — | epc | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Highview Power](https://highviewpower.com/) | United Kingdom | developer, oem | Compressed and liquid air energy storage |
 | [HiNa Battery](https://www.hinabattery.com/en/) | China | oem, supplier | Sodium-ion batteries |
 | [Hitachi Energy](https://www.hitachienergy.com/) | Switzerland | oem, integrator, service | HVDC transmission and interconnectors; Smart grids, microgrids and virtual power plants; Grid-forming inverters and synchronous condensers |
@@ -793,6 +800,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [ITER Organization](https://www.iter.org) | France | developer | Fusion |
 | Itron SAS | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [JA Solar](https://www.jasolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
+| Jati Tinggi Group Bhd (275 kV cable subcontract) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [JERA](https://www.jera.co.jp) | Japan | operator | Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines |
 | [JEREH](https://www.jereh.com) | China | oem, packager, epc, service, rental | Mobile gas turbine power plants; Aeroderivative and industrial gas turbines; Gas engines; Cogeneration and combined heat and power; Lithium-ion battery energy storage |
 | [JinkoSolar](https://www.jinkosolar.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT) |
@@ -805,32 +813,49 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | [KHNP](https://www.khnp.co.kr) | South Korea | operator | Large light-water reactors |
 | Kohler Power Systems (Kohler Energy) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Kraftblock](https://www.kraftblock.com/) | Germany | oem | Thermal energy storage (molten salt, sand, bricks) |
+| KSCRANE (Kuangshan Crane) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Kurita America Inc. | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Kurita Water Industries (Kurita ASEAN) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Landis+Gyr | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | LANXESS | — | oem, supplier | Gas-fired steam and hot-water boilers |
+| Leroy-Somer (alternator) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Logica Engineering & Manufacturing India Private Limited | — | epc | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [LONGi](https://www.longi.com) | China | oem | Crystalline silicon PV (PERC, TOPCon, HJT); Perovskite and tandem solar cells |
 | MAN Engines | — | oem, supplier | Gas engines |
+| Master Tec Group Berhad / Sediacom Sdn Bhd (275 kV cable EPCC subcontract) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Maxim Silencers | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [McDermott](https://www.mcdermott.com) | USA | epc, oem | HVDC transmission and interconnectors |
 | Mecc Alte | — | oem, supplier | Gas engines |
 | Megaflexon | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | METCO Technologies | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Mitsubishi Power](https://power.mhi.com) | Japan | oem | Heavy-duty gas turbines (H and J class); Combined cycle and HRSG; Hydrogen-capable and ammonia-fired gas turbines; Mobile gas turbine power plants |
 | [Miura Boiler](https://miuraboiler.com) | Japan | oem | Cogeneration and combined heat and power |
+| MN Power Transmission Sdn Bhd (subsidiary of MN Holdings Bhd) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| MRU Instruments (as listed by Instrumart) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Mui Fatt Marketing Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | MWM / Everllence | — | oem, supplier | Gas engines |
 | [NANO Nuclear Energy](https://www.nanonuclearenergy.com) | USA | developer | Microreactors (transportable nuclear) |
 | nano-purification solutions Asia Pacific (Singapore) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| National Energy Berhad (cable tray tender issuer) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| National Resistors (Pune, India) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| NEECO Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | NEM Energy | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [NuScale Power](https://www.nuscalepower.com) | USA | oem | Small modular reactors |
+| nVent | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Oklo](https://oklo.com) | USA | developer, operator | Microreactors (transportable nuclear); Advanced reactors (high-temperature gas, molten salt) |
 | [Orbital Marine Power](https://www.orbitalmarine.com) | United Kingdom | oem, developer | Tidal and wave energy |
 | [Ormat](https://www.ormat.com) | USA | oem, operator | Modular ORC units for waste heat and small geothermal; Geothermal (flash and binary cycle) |
 | Ovivo (Christ Water Technology / Kennicott) | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Oxford PV](https://www.oxfordpv.com) | UK | oem, supplier | Perovskite and tandem solar cells |
+| Pestech Energy Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| PESTECH International Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Pestech Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Pneumatech | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Polar Night Energy](https://polarnightenergy.com/) | Finland | oem | Thermal energy storage (molten salt, sand, bricks) |
+| POTAGLAS Malaysia | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Power Barge Corporation](https://powerbargecorp.com) | USA | packager | Powerships and power barges |
+| Powerwell Holdings Berhad | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [PR Power](https://www.prpower.com.au) | Australia | rental, supplier | Containerised hybrid power modules (solar, storage, gensets) |
 | Preferred Utilities Manufacturing Corp. | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Preferred Utilities Manufacturing Corp., Danbury, CT, USA | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
@@ -857,12 +882,17 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | SESB Grid System Operator (GSO) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | SESB Single Buyer (system owner/operator per Sabah Grid Code) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Shandong Jiahe Intelligent Technology Co., Ltd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Shenyang HTYEL Electric Co., Ltd. | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Siemens Gamesa](https://www.siemensgamesa.com) | Spain | oem, service | Offshore wind (fixed bottom); Onshore wind |
+| Sieyuan Electric | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| SKF (SFD dryer) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Sly Inc., Strongsville, OH, USA | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [SMA](https://www.sma.de/en/company) | Germany | oem | Grid-forming inverters and synchronous condensers; Crystalline silicon PV (PERC, TOPCon, HJT) |
 | [Solar Turbines](https://www.solarturbines.com) | USA | oem, service | Aeroderivative and industrial gas turbines |
 | [SolarContainer](https://www.solarcontainer.one) | Austria | oem, packager | Containerised hybrid power modules (solar, storage, gensets) |
 | [SolarReserve](https://www.solarreserve.com) | USA | developer, operator | Concentrated solar power with storage |
+| Southern Cable Group Berhad / Southern Cable Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Spirax Sarco](https://spiraxsarco.com/learn-about-steam/the-boiler-house/introduction) | United Kingdom | oem, service, supplier | Gas-fired steam and hot-water boilers |
 | SPX Jemaco | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Stadtwerke Kiel (190 MW J920 CHP project owner) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
@@ -873,6 +903,9 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | SynCraft (Jenbacher J412 customer/project partner) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Synerlitz Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | T.D. Williamson, LLC (Tulsa, OK, USA) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| T7 Wenmax Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Tamco Switchgear (Malaysia) Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Tenaga Switchgear Sdn Bhd | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [TerraPower](https://terrapower.com) | USA | developer | Advanced reactors (high-temperature gas, molten salt) |
 | [Tesla Energy](https://www.tesla.com/megapack) | USA | oem | Lithium-ion battery energy storage |
 | [Tetra Engineering Group](https://www.tetra-eng.com/whitepaper/duct-burners) | United Kingdom / United States | service, supplier | Combined cycle and HRSG; Gas-fired steam and hot-water boilers |
@@ -890,6 +923,7 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Umicore | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Unaflex / Kadant | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [USP&E Global](https://uspeglobal.com) | USA | epc, rental, operator, service | Modular reciprocating engine power plants; Mobile gas turbine power plants; Containerised hybrid power modules (solar, storage, gensets) |
+| VA Tech Malaysia Sdn Bhd (NER in 132 kV GIS Huntsman Tioxide project, 2005) | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Valmet](https://www.valmet.com/energyproduction/cfb-boilers/) | Finland | oem | Gas-fired steam and hot-water boilers; Biomass and waste-to-energy |
 | Veolia Australia & New Zealand — Industrial Services | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | Veolia Water Technologies | — | oem, supplier | Gas-fired steam and hot-water boilers |
@@ -907,7 +941,9 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | WOG Technologies Limited | — | oem, supplier | Gas-fired steam and hot-water boilers |
 | [Wärtsilä](https://www.wartsila.com/energy) | Finland | oem, packager | Modular reciprocating engine power plants; Gas engines; Powerships and power barges; Cogeneration and combined heat and power |
 | [X-energy](https://x-energy.com) | USA | developer, supplier | Advanced reactors (high-temperature gas, molten salt); Small modular reactors |
+| Yokogawa | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | Yokogawa Electric Corporation | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
+| Yokogawa Saudi Arabia | — | supplier | Gas engine generator power plant equipment and facilities — supply-chain evidence (7 units, SESB 132/33/11 kV) |
 | [Ørsted](https://orsted.com) | Denmark | developer, operator | Offshore wind (fixed bottom) |
 
 ## REF: Refining

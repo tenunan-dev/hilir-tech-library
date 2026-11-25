@@ -1,0 +1,64 @@
+{
+  "id": "gef-mat-telescopic-sliding-gate-steel-hollow-section-with",
+  "name": "Telescopic sliding gate steel hollow section with finishes",
+  "material_category": "metal",
+  "description": "Telescopic sliding gate steel hollow section with finishes named on a page read in the GEG gap-fill for Security room and gatehouse.",
+  "specifications": [
+    {
+      "metric": "Maximum clear width",
+      "unit": "mm",
+      "basis": "GEAPL telescopic sliding gate technical specification, read 2026-11-25 (value: 40000 (single leaf) / 80000 (double leaf))",
+      "year": 2026,
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Maximum height",
+      "unit": "mm",
+      "basis": "GEAPL telescopic sliding gate technical specification (value: 3000)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Drive opening/closing speed",
+      "unit": "m/s",
+      "basis": "GEAPL telescopic sliding gate technical specification (value: Up to 0.16)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Operator protection category",
+      "unit": "IP rating",
+      "basis": "GEAPL standard specifications; higher IP on request (value: IP 44)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "Optional surface finish",
+      "unit": "standard",
+      "basis": "GEAPL optional surface finish list (value: Hot Dip Galvanizing ISO 1461:2022; C5M marine paint ISO 12944)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-security-room-and-gatehouse"
+  ],
+  "sources": [
+    {
+      "url": "https://www.geapl.com/telescopic-sliding-gates",
+      "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "gef-mat-catalyst-configurations-epa",
+  "name": "Catalyst configurations (EPA)",
+  "material_category": "catalyst-substrate",
+  "description": "Catalyst configurations (EPA) named on a page read in the GEG gap-fill for Diesel oxidation catalyst and SCR emission control system.",
+  "specifications": [
+    {
+      "metric": "Catalyst configuration",
+      "unit": "n/a",
+      "basis": "US EPA fact sheet EPA-452/F-03-032, Cost Information/Theory of Operation; retrieved via r.jina.ai fallback 25 Nov 2026 (value: Ceramic honeycomb and pleated metal plate (monolith) designs)",
+      "year": 2026,
+      "source": {
+        "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1554929/download-documents?artifactId=-hT6UcbS3XcKgNIbG490_B_-0V7oBM7JNPT4FaCk9eSn1NLxYJoZEzw",
+        "source_id": "gef-ptacts-uspto-gov-download-documents-b9238df"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-diesel-oxidation-catalyst-and-scr-emission-control-system"
+  ],
+  "sources": [
+    {
+      "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1554929/download-documents?artifactId=-hT6UcbS3XcKgNIbG490_B_-0V7oBM7JNPT4FaCk9eSn1NLxYJoZEzw",
+      "source_id": "gef-ptacts-uspto-gov-download-documents-b9238df"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

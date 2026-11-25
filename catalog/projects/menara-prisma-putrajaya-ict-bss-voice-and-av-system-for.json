@@ -1,0 +1,26 @@
+{
+  "id": "menara-prisma-putrajaya-ict-bss-voice-and-av-system-for",
+  "name": "Menara Prisma, Putrajaya - ICT, BSS, Voice and AV system for Ministry of Economic Affairs; and Securities Commission Malaysia HQ/DRC enterpr",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Bastion Systems news page read 25 Nov 2026: two government-related contracts totalling RM7.8 million, with three years of maintenance support on the SC network upgrade. Named, sized only by contract value and maintenance term; located in Putrajaya, Malaysia.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://bastion.com.my/news.html",
+      "source_id": "gef-bastion-com-my-news-html-14886ce",
+      "note": "Bastion Systems news page read 25 Nov 2026: two government-related contracts tot"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Telecommunication and network infrastructure."
+}

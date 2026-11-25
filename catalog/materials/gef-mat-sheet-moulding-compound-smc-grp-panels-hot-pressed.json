@@ -1,0 +1,64 @@
+{
+  "id": "gef-mat-sheet-moulding-compound-smc-grp-panels-hot-pressed",
+  "name": "Sheet Moulding Compound (SMC) GRP panels, hot pressed",
+  "material_category": "water-tank-panels",
+  "description": "Sheet Moulding Compound (SMC) GRP panels, hot pressed named on a page read in the GEG gap-fill for Water storage tank system.",
+  "specifications": [
+    {
+      "metric": "Resin",
+      "unit": "n/a",
+      "basis": "PIPECO Tanks Malaysia GRP Sectional Water Tank general specifications, read directly 25 Nov 2026 (value: Isophthalic unsaturated polyester resin conforming to BS 3532 or JIS K 6919)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+        "source_id": "gef-pipeco-com-my-3234b71"
+      }
+    },
+    {
+      "metric": "Fibre glass",
+      "unit": "n/a",
+      "basis": "Same PIPECO specification page (value: Type E glass (alumino-borosilicate or alumino-calco-silicate) conforming to BS 3)",
+      "source": {
+        "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+        "source_id": "gef-pipeco-com-my-3234b71"
+      }
+    },
+    {
+      "metric": "Structural tie-rods / bolts",
+      "unit": "n/a",
+      "basis": "Same PIPECO specification page (value: External hot dipped galvanised steel; internal SS304 tie-rod, optional SS316; in)",
+      "source": {
+        "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+        "source_id": "gef-pipeco-com-my-3234b71"
+      }
+    },
+    {
+      "metric": "Sealant",
+      "unit": "n/a",
+      "basis": "Same PIPECO specification page (value: Non-toxic PVC foam / EPDM rubber)",
+      "source": {
+        "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+        "source_id": "gef-pipeco-com-my-3234b71"
+      }
+    },
+    {
+      "metric": "Pre-insulated panel",
+      "unit": "n/a",
+      "basis": "Same PIPECO specification page (value: 50 mm layer of rigid polyurethane foam encapsulation)",
+      "source": {
+        "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+        "source_id": "gef-pipeco-com-my-3234b71"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-water-storage-tank-system"
+  ],
+  "sources": [
+    {
+      "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+      "source_id": "gef-pipeco-com-my-3234b71"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

@@ -119,11 +119,37 @@
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1"
       }
+    },
+    {
+      "metric": "33/11 kV indoor AIS/GIS substation — 33 kV GIS switchgear scope",
+      "unit": "kV",
+      "basis": "PESTECH reference table, 2011 row: 'Supply and Delivery of 33kV GIS Switchgear for PMU Pasir Gudang Town Centre'; page read 2026-11-25.",
+      "value": 33,
+      "year": 2011,
+      "source": {
+        "url": "https://pestec-international.com/project-reference/electrical-substations",
+        "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
+      }
+    },
+    {
+      "metric": "33/11 kV indoor AIS/GIS substation — 33 kV feeder protection and metering panels supplied",
+      "unit": "panels",
+      "basis": "PESTECH reference table, 2009 row: '34 units of 33kV Feeder Protection and Metering Panels, 10 units of 33kV Transformer Protection and Metering Panels to Ghana'.",
+      "value": 34,
+      "year": 2009,
+      "source": {
+        "url": "https://pestec-international.com/project-reference/electrical-substations",
+        "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
+      }
     }
   ],
   "vendor_models": [],
   "vendors": [
-    "geg-vendor-unidentified"
+    "geg-vendor-unidentified",
+    "gef-vendor-neeco-sdn-bhd-d89c6",
+    "gef-vendor-tamco-switchgear-malaysia-sdn-bhd-19c11",
+    "gef-vendor-tenaga-switchgear-sdn-bhd-8ef1c",
+    "gef-vendor-pestech-international-bhd-cd1de"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -144,6 +170,14 @@
     {
       "url": "https://webstore.iec.ch/en/publication/62785",
       "source_id": "geg-webstore-iec-ch-62785-9cea2d9"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
+    },
+    {
+      "url": "https://patents.google.com/patent/US10587098B2/en",
+      "source_id": "gef-patents-google-com-en-fc1bf84"
     }
   ],
   "gaps": [
@@ -161,6 +195,16 @@
       "what": "33kV Substation (1 busbar, 7 outgoing, 2 incoming)",
       "why": "No patent page was read.",
       "next_action": "Leave patents empty until read."
+    },
+    {
+      "what": "33 kV substation",
+      "why": "No standalone 33/11 kV substation package price was found; the priced awards are 132/33 kV projects. No SESB 33 kV substation award value was read.",
+      "next_action": "Find a dated 33/11 kV substation award with its value and price year."
+    },
+    {
+      "what": "33 kV substation",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

@@ -58,6 +58,14 @@
       "url": "https://jml.com.sg/what-we-do/construction/projects",
       "source_id": "geg-jml-com-sg-projects-18172e3",
       "note": "JML scope: temporary facility, piling, civil and building work for an air separation unit; industrial plant; client Linde Engineering (Malaysia) Sdn Bhd."
+    },
+    {
+      "url": "https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf",
+      "source_id": "gef-r-jina-ai-file-20260210094823-pdf-efc1d26"
+    },
+    {
+      "url": "https://scanelectromechanical.com/project/scan-project-03",
+      "source_id": "geg-scanelectromechanical-com-scan-project-03-f8abca1"
     }
   ],
   "gaps": [
@@ -70,6 +78,11 @@
       "what": "Earthwork (Site Clearing and Land Levelling) - soil import 43200 m3",
       "why": "The 43,200 m3 soil-import quantity is a bidder-supplied design figure, not an evidence figure.",
       "next_action": "Keep as design input; do not cite as a sourced fact."
+    },
+    {
+      "what": "Earthworks and soil import",
+      "why": "No printed rate specifically for importing engineered fill/soil in Sabah; the only JKR rate read is for disposal of surplus soil, and the DOSM prices are material prices, not placed rates.",
+      "next_action": "Find a dated Sabah earthwork/import-fill unit rate or the priced earthworks BQ"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

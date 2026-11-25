@@ -1,0 +1,26 @@
+{
+  "id": "kimanis-power-plant",
+  "name": "Kimanis Power Plant",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia - Kimanis, Papar, Sabah",
+  "location": "Malaysia - Kimanis, Papar, Sabah",
+  "status": "operating",
+  "description": "300 MW gas-fired CCGT, three 100 MW blocks (GTG + HRSG + STG); RM1.5 billion; owner Kimanis Power Sdn Bhd (60:40 Petronas Gas / Yayasan Sabah-NRG Consortium); EPCC consortium CTCI Corporation, Synerlitz, SCHB Engineering Services; about 65 km from Kota Kinabalu.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+      "source_id": "geg-dailyexpress-com-my-76deb3e",
+      "note": "300 MW gas-fired CCGT, three 100 MW blocks (GTG + HRSG + STG); RM1.5 billion; ow"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Construction management and services."
+}

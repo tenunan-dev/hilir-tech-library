@@ -1,0 +1,25 @@
+{
+  "id": "gef-r-jina-ai-yokogawa-to-supply-two-dcses-for-c-c033e63",
+  "name": "Yokogawa to supply two DCSes for Combined Cycle Power Plants",
+  "url": "https://r.jina.ai/https://www.automation.com/article/yokogawa-to-supply-two-dcses-for-combined-cycle-po",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Automation.com (International Society of Automation); source Yokogawa Corporation of America",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch via r.jina.ai proxy 25 Nov 2026. Published 03 March 2015. Gives plant MW, schedule and DCS scope; no price."
+}

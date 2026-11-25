@@ -1,0 +1,26 @@
+{
+  "id": "pmu-132-11-kv-perak-carbide-rehabilitation-11-kv-and-132",
+  "name": "PMU 132/11 kV Perak Carbide rehabilitation - 11 kV and 132 kV switchgear",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Design, engineering, supply, erect and commissioning of 132 kV and 11 kV switchgears, 30 MVA 132/11 kV transformer and ancillary equipment.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "Design, engineering, supply, erect and commissioning of 132 kV and 11 kV switchg"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 11 kV switchgear."
+}

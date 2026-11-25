@@ -1,0 +1,26 @@
+{
+  "id": "sesb-quotation-p-6411-onsite-portable-lube-oil-analyser",
+  "name": "SESB Quotation P.6411 - onsite/portable lube oil analyser including MLA I & MLA II training and examination for Sandakan Power Station",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "SESB Tender/Quotation List read 25 Nov 2026: title 'Quotation For Supply And Delivery Onsite/ Portable Lube Oil Analyzer Including Machinery Lubricant Analyst Level (MLA I & MLA II) Training & Examination For Sandakan Power Station.' Named, dated, located and sized only by scope; no price printed. Detail page read had no fee or award information.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sesb.com.my/Tender.aspx",
+      "source_id": "gef-sesb-com-my-tender-aspx-86fb9e8",
+      "note": "SESB Tender/Quotation List read 25 Nov 2026: title 'Quotation For Supply And Del"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Sampling system."
+}

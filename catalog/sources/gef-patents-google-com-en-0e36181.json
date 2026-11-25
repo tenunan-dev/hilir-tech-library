@@ -1,0 +1,23 @@
+{
+  "id": "gef-patents-google-com-en-0e36181",
+  "name": "Google Patents — WO2009061293A1",
+  "url": "https://patents.google.com/patent/WO2009061293A1/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Google Patents (USPTO/EPO bibliographic data)",
+  "access": "open",
+  "licence": "Patent bibliographic text; Google Patents terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Google Patents patent page read 2026-11-25; publication date 2009-05-14 from page bibliographic metadata."
+}

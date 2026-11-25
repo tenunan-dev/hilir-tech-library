@@ -1,0 +1,38 @@
+{
+  "id": "gef-mat-gas-engine-oil-sae-40",
+  "name": "Gas engine oil SAE 40",
+  "material_category": "lubricant",
+  "description": "Gas engine oil SAE 40 named on a page read in the GEG gap-fill for Commissioning equipment and consumables.",
+  "specifications": [
+    {
+      "metric": "viscosity grade",
+      "unit": "SAE grade",
+      "basis": "MTU A001072/02E, 2020-06, section 2.1.1: SAE 40 stipulated for gas engines; multigrade oils not permitted. (value: SAE 40)",
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    },
+    {
+      "metric": "approved Series 4000 gas engine oils (printed brands)",
+      "unit": "product names",
+      "basis": "MTU A001072/02E, 2020-06, Table 5 p.14; alternative approved brands in Table 6 p.15; copyright 2020 MTU. (value: MTU GEO BG Power B2L, GEO NG Power X2L, GEO NG Power X3L (SAE 40))",
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-commissioning-equipment-and-consumables"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+      "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gail-india-limited-centralized-natural-gas-and-lpg-pipel",
+  "name": "GAIL (India) Limited centralized natural gas and LPG pipeline SCADA",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "India",
+  "location": "India",
+  "status": "operating",
+  "description": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016): FAST/TOOLS SCADA at NGMC Noida and hot backup BMS Jaipur, about 400 RTUs of eight makes, seven pipeline networks totalling over 10,700 km, availability increased to 99.5%, integrated with gas management system for allocation and billing. No contract value printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+      "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8",
+      "note": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016): FAST/TOOLS SCADA at NGMC Noida"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Utility SCADA and automatic generation control integration."
+}

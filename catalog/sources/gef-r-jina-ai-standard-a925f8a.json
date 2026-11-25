@@ -1,0 +1,25 @@
+{
+  "id": "gef-r-jina-ai-standard-a925f8a",
+  "name": "BSI Knowledge - BS EN 1992-1-1:2004+A1:2014 Eurocode 2",
+  "url": "https://r.jina.ai/https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+  "source_type": "standards-body",
+  "sectors": [
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "CIV",
+    "MAT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "British Standards Institution",
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Fetched with WebFetch via r.jina.ai because the direct BSI page returned only the title. BSI product page: published 23 Dec 2004; scope plain, reinforced and prestressed concrete buildings; liquid-retaining structures are listed separately as BS EN 1992-3:2006."
+}

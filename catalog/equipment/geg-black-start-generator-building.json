@@ -59,6 +59,18 @@
       "url": "https://jml.com.sg/what-we-do/construction/projects",
       "source_id": "geg-jml-com-sg-projects-18172e3",
       "note": "JML scope: task force work - piping, mechanical, structural and E&I; industrial plant; client Mitsubishi Heavy Industries, Ltd."
+    },
+    {
+      "url": "https://www.ram.com.my/pressrelease?prviewid=7251",
+      "source_id": "gef-ram-com-my-pressrelease-d66ba8e"
+    },
+    {
+      "url": "https://ecos.gov.my/node/336",
+      "source_id": "gef-ecos-gov-my-336-c6f36bd"
+    },
+    {
+      "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+      "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
     }
   ],
   "gaps": [
@@ -66,6 +78,11 @@
       "what": "Building for BSDG (steel structure 10x3x5)",
       "why": "No source read defines BSDG or gives a black-start diesel generator building cost/specification.",
       "next_action": "Confirm BSDG = black-start diesel generator from project documents; then source a comparable diesel-genset building tender."
+    },
+    {
+      "what": "Black start generator building",
+      "why": "No published rate, award value, reference project or material specification for a black-start generator building was found in the sources read.",
+      "next_action": "Obtain the black-start facility scope, priced BQ and a dated Malaysian reference project"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

@@ -149,6 +149,62 @@
         "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
         "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
       }
+    },
+    {
+      "metric": "Air intake filtration and silencin — Intake air mass flow, 10 MW combustion engine",
+      "unit": "kg/s",
+      "basis": "Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3: intake air flow 15.0 kg/s (33 lb/s), 25 deg C, 1 bar, typical 10 MW engine; read via r.jina.ai fallback",
+      "value": 15.0,
+      "year": 2011,
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+      }
+    },
+    {
+      "metric": "Air intake filtration and silencin — Air after compressor",
+      "unit": "deg C",
+      "basis": "Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3: air after compressor 200 deg C (392 deg F), 4 bar (58 psi)",
+      "value": 200,
+      "year": 2011,
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+      }
+    },
+    {
+      "metric": "Air intake filtration and silencin — Air receiver conditions",
+      "unit": "deg C",
+      "basis": "Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.3: air receiver 40 deg C (104 deg F), 4 bar (58 psi)",
+      "value": 40,
+      "year": 2011,
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+      }
+    },
+    {
+      "metric": "Air intake filtration and silencin — Charge air ratio, lean-burn gas engine",
+      "unit": "lambda",
+      "basis": "Wartsila white paper 'Combustion engine power plants' (copyright 2011), p.6: optimal air to fuel ratio (lambda) around 2.2",
+      "value": 2.2,
+      "year": 2011,
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+      }
+    },
+    {
+      "metric": "Air intake filtration and silencin — Noise reduction, A205-5100 residential and critical grade intake silencer",
+      "unit": "dBA",
+      "basis": "GT Silex Silencer Catalogue 2026 lists A205-5100 'Residential & Critical Grade Intake Silencer' for 500-5000 hp, mass flow 2.5-65 lbs/sec; no numeric attenuation range printed for the intake series in the text read (r.jina.ai fallback)",
+      "low": 0,
+      "high": 0,
+      "year": 2026,
+      "source": {
+        "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+        "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+      }
     }
   ],
   "vendor_models": [
@@ -171,7 +227,9 @@
   "vendors": [
     "geg-vendor-camfil-b695e",
     "geg-vendor-donaldson-company-inc-951f4",
-    "geg-vendor-rolls-royce-mtu-solutions-00b30"
+    "geg-vendor-rolls-royce-mtu-solutions-00b30",
+    "gef-vendor-gt-silex-nelson-global-26251",
+    "gef-vendor-maxim-silencers-c60d0"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -188,6 +246,14 @@
     {
       "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
       "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+      "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+      "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
     }
   ],
   "gaps": [
@@ -195,6 +261,26 @@
       "what": "Intake Air System Package",
       "why": "No intake airflow, filter count, pressure-drop budget, filter media specification, price or named vendor for the 7-unit SESB plant was found in pages read.",
       "next_action": "Request the project intake air package datasheets, air-filter schedule and vendor quotation; size filters from the engine OEM's printed airflow, not from a derived estimate."
+    },
+    {
+      "what": "Intake air system",
+      "why": "No intake airflow requirement, filter count, pressure-drop budget, filter media grade, price or named vendor for the 7-unit SESB plant was found in the pages read.",
+      "next_action": "Obtain the project intake air package datasheets, air-filter schedule and vendor quotation; size filters from the engine OEM printed airflow for the selected engine model."
+    },
+    {
+      "what": "Intake air system",
+      "why": "No Google Patents / USPTO / Espacenet page was read that identifies a patent specifically for this plant item; recording one would require invention.",
+      "next_action": "Obtain the project equipment datasheet or vendor patent list, then read the identified patent page and record number, title, assignee and publication year."
+    },
+    {
+      "what": "Intake air system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Intake air system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

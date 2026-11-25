@@ -1,0 +1,38 @@
+{
+  "id": "gef-mat-intake-silencer-construction",
+  "name": "Intake silencer construction",
+  "material_category": "intake-air",
+  "description": "Intake silencer construction named on a page read in the GEG gap-fill for Intake air system.",
+  "specifications": [
+    {
+      "metric": "Standard material",
+      "unit": "n/a",
+      "basis": "GT Silex Silencer Catalogue 2026, A205-5100 residential/critical grade intake silencer finish and optional materials; read via r.jina.ai fallback (value: Aluminized steel with high temperature oven cured black paint; optional 304L or )",
+      "year": 2026,
+      "source": {
+        "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+        "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+      }
+    },
+    {
+      "metric": "Internal construction",
+      "unit": "n/a",
+      "basis": "GT Silex Silencer Catalogue 2026, A205-5100 construction description (value: Special acoustical fiberglass packing adjacent to concentric perforated cylinder)",
+      "year": 2026,
+      "source": {
+        "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+        "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-intake-air-system"
+  ],
+  "sources": [
+    {
+      "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
+      "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

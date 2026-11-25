@@ -1,0 +1,26 @@
+{
+  "id": "saudi-electricity-company-132-kv-mobile-high-voltage-sub",
+  "name": "Saudi Electricity Company 132 kV mobile high-voltage substations",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Saudi Arabia",
+  "location": "Saudi Arabia",
+  "status": "operating",
+  "description": "Sieyuan: 7 sets, EPC scope covering supply, installation, civil construction and commissioning, plus up to ten years O&M; 40 MVA transformer capacity; dual 33 kV and 13.8 kV output. No price or explicit year on page.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://en.sieyuan.com/cases/saudi-sec-132kv-mobile-substation",
+      "source_id": "gef-en-sieyuan-com-saudi-sec-132kv-mobile-substa-6bd1492",
+      "note": "Sieyuan: 7 sets, EPC scope covering supply, installation, civil construction and"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 132 kV substation."
+}

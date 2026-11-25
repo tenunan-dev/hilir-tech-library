@@ -1,0 +1,26 @@
+{
+  "id": "sunway-pyramid-mall-sunway-giza-mall-and-sunway-velocity",
+  "name": "Sunway Pyramid Mall, Sunway Giza Mall and Sunway Velocity Hotel - CCTV, PA and SMATV system service maintenance",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Bastion Systems news page read 25 Nov 2026: 'Bastion also awarded 2 years maintenance contract for Sunway Pyramid Mall, Sunway Giza Mall and Sunway Velocity Hotel for CCTV, PA and SMATV System service maintenance.' Named and located; no contract value, PA equipment count or manufacturer printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://bastion.com.my/news.html",
+      "source_id": "gef-bastion-com-my-news-html-14886ce",
+      "note": "Bastion Systems news page read 25 Nov 2026: 'Bastion also awarded 2 years mainte"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Public address system."
+}

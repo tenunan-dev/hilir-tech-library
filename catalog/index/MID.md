@@ -1,6 +1,6 @@
 # MID: Midstream
 
-860 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
+866 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -119,6 +119,7 @@
 | [DNV — Stable-lift assessment methods](https://www.dnv.com/expert-story/maritime-impact/new-guidance-on-achieving-stable-lifting-operations/) | standards-body | global, apac, sea, eu, na | open | summary-only |
 | [DockGuard Ltd](https://www.dockguard.com/en/uhmw-pe-panel-fenders/) | oem-supplier | global, apac, sea | open | summary-only |
 | [Doowin Marine](https://doowinmarine.com/floating-yokohama-type-pneumatic-rubber-fenders) | oem-supplier | global, apac, sea | open | summary-only |
+| [DOSM Sabah & Sarawak Special Release for Civil Engineering Works, December 2025](https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf) | oem-supplier | sea | open | summary-only |
 | [DrillingFormulas.Com (references Applied Drilling Engineering SPE textbook, Azar, Australian Drilling Manual, Devereux)](https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Dynamic Isolation Systems (DIS)](https://dis-inc.com/products/base-isolators) | oem-supplier | global, apac, sea | open | summary-only |
 | [Ecomar Storage Solution FZC LLC / EPC contractor (ESD Philosophy Rev A, 15 Feb 2024)](https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf) | oem-supplier | global, apac, sea, na | open | summary-only (unverified) |
@@ -792,6 +793,7 @@
 | [BS EN 1992-3:2006 - Eurocode 2: Design of concrete structures - Liquid retaining and containing structures](https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-liquid-retaining-and-containing-structures) | standards-body | eu, global | open | summary-only |
 | [BS EN 1993-1-1:2005+A1:2014 - Eurocode 3: Design of steel structures - General rules and rules for buildings](https://knowledge.bsigroup.com/products/eurocode-3-design-of-steel-structures-general-rules-and-rules-for-buildings/standard) | standards-body | eu, global | open | summary-only |
 | [BS EN 1997-1:2004+A1:2013 - Eurocode 7: Geotechnical design - General rules](https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard) | standards-body | eu, global | open | summary-only |
+| [BSI Knowledge - BS EN 1992-1-1:2004+A1:2014 Eurocode 2](https://r.jina.ai/https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard) | standards-body | global | open | summary-only |
 | [CEN/TC 12 Oil and gas industries](https://standards.cencenelec.eu/) | standards-body | eu | paywalled | catalog-only (unverified) |
 | [CORROSION journal (AMPP)](https://content.ampp.org/corrosion) | journal | global | paywalled | catalog-only (unverified) |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
@@ -813,6 +815,7 @@
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [Pipeline Research Council International (PRCI)](https://www.prci.org/) | research-institute | global | mixed | catalog-only (unverified) |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
+| [Titania supported vanadium oxide catalysts in the NH3-SCR reaction (Licentiate thesis 2023:09)](https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf) | oem-supplier | global, eu | open | summary-only |
 | [Turbomachinery and Pump Symposia (Texas A&M)](https://tps.tamu.edu/) | conference | global | open | full-text-restricted |
 | [TWI The Welding Institute technical knowledge](https://www.twi-global.com/technical-knowledge) | research-institute | global | open | summary-only |
 | [Alberta Energy Regulator (AER)](https://www.aer.ca) | agency-data | na | open | full-text-open |
@@ -842,9 +845,11 @@
 | [OPEC Annual Statistical Bulletin](https://asb.opec.org/) | agency-data | global, me | open | full-text-restricted |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
 | [OSDU Data Platform (The Open Group)](https://www.opengroup.org/osdu-forum/) | association | global | open | full-text-open (unverified) |
+| [Parkside Steel - S355 J2 material data sheet (BS EN 10025-2:2019)](https://r.jina.ai/https://parksidesteel.co.uk/technical-library/datasheets/s355-j2.pdf) | oem-supplier | global | open | summary-only |
 | [Pipeline & Gas Journal](https://pgjonline.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [ROSAP (US DOT National Transportation Library)](https://rosap.ntl.bts.gov) | agency-data | global | open | full-text-open |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/products/) | oem-supplier | global | open | full-text-restricted |
+| [Siderticino - S355J2 structural steel technical datasheet (EN 10025-2:2019)](https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf) | oem-supplier | global | open | summary-only |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
 | [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
@@ -854,6 +859,7 @@
 | [US EPA Greenhouse Gas Reporting Program](https://www.epa.gov/ghgreporting) | agency-data | na | open | full-text-open |
 | [US PHMSA pipeline safety data and regulations](https://www.phmsa.dot.gov/) | agency-data | na | open | full-text-open |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
+| [WIKA data sheet PE 81.61 – Pressure transmitter Model S-20](https://www.wika.com/media/Data-sheets/Pressure/Pressure-sensors/ds_pe8161_en_co.pdf) | oem-supplier | global | open | summary-only |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Alfa Laval (separation and heat transfer)](https://www.alfalaval.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [gCaptain](https://gcaptain.com) | trade-media | global | open | catalog-only |

@@ -1,0 +1,26 @@
+{
+  "id": "sesb-tender-t-9468-supply-and-delivery-of-1ph-ncm-7-digi",
+  "name": "SESB Tender T.9468 - supply and delivery of 1PH NCM 7-digit and 3PH NCM 8-digit energy meters to SESB Central Store, Kota Kinabalu",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "SESB page read 25 Nov 2026. Tender fee printed as 175.00. Registered bidders under PUKONSA 200100/200200/200300/200399 or PMS/KKM 130201/130202/120299/140101/140102/140199/140301/140302/140399. No quantities, unit rates or award value printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9468.aspx",
+      "source_id": "gef-sesb-com-my-tender-t-9468-aspx-d4fe03b",
+      "note": "SESB page read 25 Nov 2026. Tender fee printed as 175.00. Registered bidders und"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Main and check tariff meters."
+}

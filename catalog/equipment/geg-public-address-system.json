@@ -116,6 +116,14 @@
     {
       "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
       "source_id": "geg-pagcanada-com-praesideo-ds-en-pdf-7444422"
+    },
+    {
+      "url": "https://bastion.com.my/news.html",
+      "source_id": "gef-bastion-com-my-news-html-14886ce"
+    },
+    {
+      "url": "https://patents.google.com/patent/US7218708B2/en",
+      "source_id": "gef-patents-google-com-en-34588bc"
     }
   ],
   "gaps": [
@@ -123,6 +131,26 @@
       "what": "PA System",
       "why": "No project-specific PA zone count, amplifier/loudspeaker quantities, fire-interface details or price was found; no Bosch (or alternative) PA award for this plant was read.",
       "next_action": "Obtain the PA system specification, speaker layout drawing and priced BOQ from the EPC package."
+    },
+    {
+      "what": "Public address system",
+      "why": "No printed price, $/speaker point, MYR rate or dated contract value for a public address system for the 7-unit plant or for SESB/TNB was found.",
+      "next_action": "Obtain the plant PA/ELV package BOQ or award notice with dated rates, speaker counts and currency as printed."
+    },
+    {
+      "what": "Public address system",
+      "why": "No sized (speaker count, amplifier rating) or plant-located public address reference project was found in the pages read.",
+      "next_action": "Source a vendor case study or tender BOQ that prints PA equipment counts, location and date, and read it before recording."
+    },
+    {
+      "what": "Public address system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Public address system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

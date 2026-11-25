@@ -90,6 +90,39 @@
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
         "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
       }
+    },
+    {
+      "metric": "Yokogawa FAST/TOOLS centralized SC — RTUs integrated into centralized SCADA",
+      "unit": "RTUs (approximately)",
+      "basis": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016), GAIL (India) Limited entry, customer quote: 'This work included the integration of approximately 400 RTUs of eight different makes.' Plant information: order April 2011, completion July 2012, multiple locations India. Read via r.jina.ai proxy 25 Nov 2026.",
+      "value": 400,
+      "year": 2016,
+      "source": {
+        "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+        "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+      }
+    },
+    {
+      "metric": "Yokogawa FAST/TOOLS centralized SC — system availability for the GAIL pipeline network",
+      "unit": "%",
+      "basis": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016), GAIL entry: 'System availability for the entire GAIL pipeline network has been increased to 99.5%'. No price in document.",
+      "value": 99.5,
+      "year": 2016,
+      "source": {
+        "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+        "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+      }
+    },
+    {
+      "metric": "Yokogawa FAST/TOOLS centralized SC — natural gas pipeline network length monitored",
+      "unit": "km (over)",
+      "basis": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016), GAIL entry: 'GAIL also presently has seven natural gas pipeline networks across the country, with a total length of over 10,700 km.' No price in document.",
+      "value": 10700,
+      "year": 2016,
+      "source": {
+        "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+        "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+      }
     }
   ],
   "vendor_models": [
@@ -106,7 +139,8 @@
   ],
   "vendors": [
     "geg-vendor-sesb-grid-system-operator-sabah-load-dispatch-cent-b06c8",
-    "siemens-gamesa"
+    "siemens-gamesa",
+    "geg-vendor-yokogawa-electric-corporation-31fff"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -132,6 +166,34 @@
       "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html",
       "source_id": "geg-siemens-energy-com-enecogen-power-plant-inte-d7aa54c",
       "note": "958 MW CCGT with Omnivise T3000; up to 200 starts per year stated; IEC 62443 compliance."
+    },
+    {
+      "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9467.aspx",
+      "source_id": "gef-sesb-com-my-tender-t-9467-aspx-90a85e7"
+    },
+    {
+      "url": "https://cotender.my/t/tender-for-the-replacement-of-obsolete-scada-system-at-selected-33-11kv-distribu-1e7d261a-ab7c-4f41-905e-d690b2ddbc32",
+      "source_id": "gef-cotender-my-tender-for-the-replacement-of-ob-5df321d"
+    },
+    {
+      "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+      "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
+    },
+    {
+      "url": "https://patents.google.com/patent/US8738191B2/en",
+      "source_id": "gef-patents-google-com-en-fdfe6a8"
+    },
+    {
+      "url": "https://www.sesb.com.my/Tender.aspx",
+      "source_id": "gef-sesb-com-my-tender-aspx-86fb9e8"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN107947239A/en",
+      "source_id": "gef-patents-google-com-en-22c74e2"
+    },
+    {
+      "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+      "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
     }
   ],
   "gaps": [
@@ -139,6 +201,21 @@
       "what": "Integration to SESB SCADA System incl Auto Generation Control System",
       "why": "No evidence found for the protocol actually used between this plant and SESB SLDC (IEC 60870-5-104, DNP3, IEC 61850 or proprietary), RTU model, point count, AGC test results, or integration price.",
       "next_action": "Obtain the SESB SCADA/AGC interface specification, RTU I/O list and AGC test report for the project."
+    },
+    {
+      "what": "Utility SCADA and automatic generation control integration",
+      "why": "No printed SCADA or AGC contract value, $/point rate or MYR rate for the 7-unit plant or its SESB 132/33/11 kV interface was found; the RM150 and RM45 figures read are tender document fees, expressly not works values.",
+      "next_action": "Obtain the SCADA/AGC package award, BOQ or tender evaluation with dated prices and per-point rates, and keep document fees separate from contract values."
+    },
+    {
+      "what": "Utility SCADA and automatic generation control integration",
+      "why": "No source read confirms an automatic generation control integration agreement between the 7-unit plant and SESB, or its technical interface specification.",
+      "next_action": "Find the plant's grid-interconnection or scheduling agreement with SESB/Single Buyer Sabah and quote any AGC interface clauses and dates."
+    },
+    {
+      "what": "Utility SCADA and automatic generation control integration",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

@@ -40,6 +40,29 @@
         "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
         "source_id": "geg-theborneopost-com-db0284b"
       }
+    },
+    {
+      "metric": "Contractor's Representative / site — payment period from receipt of contractor invoice",
+      "unit": "days",
+      "basis": "Malakoff Employer's Contract Terms for Works - RFQ cl.2.19.4(c) (PDF dated 6 Mar 2025): 'the Employer shall make payment within the period of 45 days from the date of receipt of the invoice by the Employer'.",
+      "value": 45,
+      "year": 2025,
+      "source": {
+        "url": "https://r.jina.ai/https://www.malakoff.com.my/wp-content/uploads/2025/03/Contract-Terms-for-Works-RFQFinal.pdf",
+        "source_id": "gef-r-jina-ai-contract-terms-for-works-rfqfinal-7f7aa38"
+      }
+    },
+    {
+      "metric": "Contractor's Representative / site — foreman-in-charge / site supervisor, full time for contract period, medium project",
+      "unit": "RM per item",
+      "basis": "WE Quantity Surveyor, Klang Valley, rates updated November 2026, Staff and supervision table: 'Foreman-in-charge / site supervisor, full time for the contract period, medium project' RM 120,000-150,000 per item (salary and on-costs); all-in trade level, excluding main contractor profit and attendance, preliminaries and SST.",
+      "low": 120000,
+      "high": 150000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wequantitysurveyor.com/reference/preliminaries-rates.html",
+        "source_id": "gef-wequantitysurveyor-com-preliminaries-rates-h-91c646b"
+      }
     }
   ],
   "vendor_models": [
@@ -94,6 +117,30 @@
       "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
       "source_id": "geg-theborneopost-com-db0284b",
       "note": "Connected to Sabah Grid at Langsat Main Intake Substation (PMU)."
+    },
+    {
+      "url": "https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf",
+      "source_id": "gef-r-jina-ai-11948841-09-pdf-6c3d822"
+    },
+    {
+      "url": "https://www.tnb.com.my/announcements/tnb-siemens-samsung-sign-agreements-for-the-rm2.47-billion-prai-power-plant",
+      "source_id": "gef-tnb-com-my-tnb-siemens-samsung-sign-agreemen-f1a07c2"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.malakoff.com.my/wp-content/uploads/2025/03/Contract-Terms-for-Works-RFQFinal.pdf",
+      "source_id": "gef-r-jina-ai-contract-terms-for-works-rfqfinal-7f7aa38"
+    },
+    {
+      "url": "https://www.wequantitysurveyor.com/reference/preliminaries-rates.html",
+      "source_id": "gef-wequantitysurveyor-com-preliminaries-rates-h-91c646b"
+    },
+    {
+      "url": "https://r.jina.ai/https://content.airselangor.com/cmi-prod-blobstorageanon-001-sea/media/zv3lutuu/pwd-form-203a-panel-works.pdf",
+      "source_id": "gef-r-jina-ai-pwd-form-203a-panel-works-pdf-6aba3f8"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.cidb.gov.my/wp-content/uploads/2024/10/GUIDE-FAQS-ON-THE-CIDB-SFOC-BUILDING-WORKS-2022-Edition-Published-October-2024.pdf",
+      "source_id": "gef-r-jina-ai-guide-faqs-on-the-cidb-sfoc-buildi-b3e60f2"
     }
   ],
   "gaps": [
@@ -101,6 +148,11 @@
       "what": "Construction Management + Svc (Sub-con, Third Party Cost, Local Authorities etc)",
       "why": "No public document publishes a construction-management fee, subcontract third-party cost schedule, or Sabah local-authority fee schedule for this 7-unit project. The RM1.5 billion figure is a whole-plant capital sum with no indirect breakdown.",
       "next_action": "Obtain the bidder's priced BOQ and the relevant Sabah local-authority fee schedule; do not derive an indirect percentage from the RM1.5 billion total."
+    },
+    {
+      "what": "Construction management and services",
+      "why": "No printed construction-management fee, supervision man-month rate or contract award for the 7-unit gas engine generator plant with SESB 132/33/11 kV connection was found. The 10% administration/engineering fee is a 2008 Sri Lankan hydropower feasibility estimate and the RM2.47bn/RM1.5bn figures are",
+      "next_action": "Request the priced management/supervision line from the bidder and keep the 2008 JICA 10% basis and the two Malaysian project values as dated reference points only."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

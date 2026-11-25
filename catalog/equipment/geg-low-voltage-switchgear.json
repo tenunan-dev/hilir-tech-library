@@ -167,6 +167,39 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
       }
+    },
+    {
+      "metric": "Low voltage switchgear / main swit — GGD fixed LV panel rating",
+      "unit": "A (up to)",
+      "basis": "JIAHE Malaysia price matrix, 2025-2026: GGD Fixed LV Panel, 415 V, up to 2500 A, Form 2b / Form 3b.",
+      "value": 2500,
+      "year": 2025,
+      "source": {
+        "url": "https://www.jiahotech.com/switchgear-type-price-suppliers-in-malaysia",
+        "source_id": "gef-jiahotech-com-switchgear-type-price-supplier-3564305"
+      }
+    },
+    {
+      "metric": "Low voltage switchgear / main swit — MNS/GCS withdrawable LV panel rating",
+      "unit": "A (up to)",
+      "basis": "Same JIAHE page: MNS / GCS Withdrawable LV, 415 V, up to 6300 A, Form 4b.",
+      "value": 6300,
+      "source": {
+        "url": "https://www.jiahotech.com/switchgear-type-price-suppliers-in-malaysia",
+        "source_id": "gef-jiahotech-com-switchgear-type-price-supplier-3564305"
+      }
+    },
+    {
+      "metric": "Low voltage switchgear / main swit — LV switchgear equipment benchmark",
+      "unit": "USD per section",
+      "basis": "HTYEL guide dated 8 October 2026: LV (<1 kV) $800-$8,000/section, $1.50-$6.00/A, $500-$3,500/breaker; 2026 US market data.",
+      "low": 800,
+      "high": 8000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.htyel.com/electrical-switchgear-cost-estimate-a-practical-pricing-guide",
+        "source_id": "gef-htyel-com-electrical-switchgear-cost-estimat-6ce70b8"
+      }
     }
   ],
   "vendor_models": [
@@ -177,7 +210,10 @@
     }
   ],
   "vendors": [
-    "siemens"
+    "siemens",
+    "gef-vendor-shandong-jiahe-intelligent-technology-co-ltd-e9473",
+    "gef-vendor-powerwell-holdings-berhad-94ea2",
+    "gef-vendor-shenyang-htyel-electric-co-ltd-2a6a6"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -194,6 +230,22 @@
     {
       "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
       "source_id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1"
+    },
+    {
+      "url": "https://www.jiahotech.com/switchgear-type-price-suppliers-in-malaysia",
+      "source_id": "gef-jiahotech-com-switchgear-type-price-supplier-3564305"
+    },
+    {
+      "url": "https://www.htyel.com/electrical-switchgear-cost-estimate-a-practical-pricing-guide",
+      "source_id": "gef-htyel-com-electrical-switchgear-cost-estimat-6ce70b8"
+    },
+    {
+      "url": "https://patents.google.com/patent/EP2485348B1/en",
+      "source_id": "gef-patents-google-com-en-aa1bd0f"
+    },
+    {
+      "url": "https://library.e.abb.com/public/1bd1718c1dcdf5e4c1257aaa003ab4da/MNS%20EN%201TFC902032N0201%20lowres_03102012.pdf?x-sign=qZodiPD5EoNr35O5ly6r2yTFfXwR6TyMrmBDCrU7ZKHZlbE2sLREknrVTZFhhh08",
+      "source_id": "gef-library-e-abb-com-mns-20en-201tfc902032n0201-d8e257f"
     }
   ],
   "gaps": [
@@ -211,6 +263,11 @@
       "what": "Low Voltage Switchgear",
       "why": "The Siemens catalogue asserts patented double-front PCCs, holeless connections and ventilation technique but gives no patent numbers, and no patent page was read; patents therefore remain empty.",
       "next_action": "Read a patent page with a publication number before recording any patent."
+    },
+    {
+      "what": "Low voltage switchgear",
+      "why": "No dated LV switchgear package award value or named, dated, sized, located reference project was found in directly read pages; only indicative vendor benchmarks are recorded.",
+      "next_action": "Find a dated LV main switchboard package award with a stated value and scope."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

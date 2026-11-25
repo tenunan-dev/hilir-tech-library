@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-va-tech-malaysia-sdn-bhd-ner-in-132-kv-gis-huntsma-f8048",
+  "name": "VA Tech Malaysia Sdn Bhd (NER in 132 kV GIS Huntsman Tioxide project, 2005)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "VA Tech Malaysia Sdn Bhd (NER in 132 kV GIS Huntsman Tioxide project, 2005) named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
+      "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sesb-p-6953-r1-relay-and-scada-facilities-at-pmu-mininto",
+  "name": "SESB P.6953(R1) - relay and SCADA facilities at PMU Minintod and PMU Kepayan",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "SESB Tender/Quotation List read 25 Nov 2026; named feeders 1T0 & 2T0 (Minintod) and 2T0, H01 & H02 (Kepayan). No value printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sesb.com.my/Tender.aspx",
+      "source_id": "gef-sesb-com-my-tender-aspx-86fb9e8",
+      "note": "SESB Tender/Quotation List read 25 Nov 2026; named feeders 1T0 & 2T0 (Minintod) "
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Utility SCADA and automatic generation control integration."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "gef-drawing-scr-catalyst-structure-standard-scr-mechanism-and",
+  "title": "SCR catalyst structure, standard SCR mechanism and VO x/TiO2 temperature-window figures",
+  "diagram_type": "schematic",
+  "description": "Figures 2.1 (monomeric/polymeric/crystalline vanadia on TiO2), 2.2 (standard SCR acid-redox mechanism after Topsøe), 2.3 (operating window vs temperature) and 3.4 (in situ DRIFTS setup). Read via r.jina.ai 2026-11-25.",
+  "publisher": "Chalmers University of Technology",
+  "url": "https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf",
+  "sectors": [
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "equipment": [
+    "geg-diesel-oxidation-catalyst-and-scr-emission-control-system"
+  ],
+  "sources": [
+    {
+      "url": "https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf",
+      "source_id": "gef-research-chalmers-se-537360-fulltext-pdf-d104f04",
+      "note": "Figures 2.1 (monomeric/polymeric/crystalline vanadia on TiO2), 2.2 (standard SCR acid-redox mechanism after Topsøe), 2.3 (operating window vs temperature) and 3.4 (in situ DRIFTS setup). Read via r.ji"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the GEG core-item gap-fill; drawing stays at publisher URL."
+}

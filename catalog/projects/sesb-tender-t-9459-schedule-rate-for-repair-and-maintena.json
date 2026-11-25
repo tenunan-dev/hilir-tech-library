@@ -1,0 +1,26 @@
+{
+  "id": "sesb-tender-t-9459-schedule-rate-for-repair-and-maintena",
+  "name": "SESB Tender T.9459 - schedule rate for repair and maintenance of Sabah Electricity's fibre optic cable (ADSS and OPUG)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "SESB page read 25 Nov 2026; fee 150.00; bidders CIDB G2-G7 ME/CE with E07/E08/CE31 or PUKONSA Classes A-D, Head VIII Sub 1/2. 'OPUG' spelling preserved as printed in the tender title. No schedule rates, lengths or award value printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9459.aspx",
+      "source_id": "gef-sesb-com-my-tender-t-9459-aspx-d6cb7c7",
+      "note": "SESB page read 25 Nov 2026; fee 150.00; bidders CIDB G2-G7 ME/CE with E07/E08/CE"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Telecommunication and network infrastructure."
+}

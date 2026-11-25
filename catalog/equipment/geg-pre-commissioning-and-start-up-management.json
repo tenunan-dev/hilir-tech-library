@@ -121,6 +121,59 @@
         "url": "https://www.wartsila.com/mys",
         "source_id": "geg-wartsila-com-mys-1e8ef98"
       }
+    },
+    {
+      "metric": "Commissioning test programme (dry  — duration of dry commissioning test",
+      "unit": "months",
+      "basis": "JICA Feasibility Study for Expansion of Victoria Hydropower Station Final Report, Chapter 10.2.2(6): 'The dry test of Unit No. 4 will be started 45 months after starting of the construction works and take 2 months for the completion. The wet test will be conducted continuously and also scheduled for 2 months for the completion. The commercial operation will be started after all tests including the",
+      "value": 2,
+      "year": 2008,
+      "source": {
+        "url": "https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf",
+        "source_id": "gef-r-jina-ai-11948841-09-pdf-6c3d822"
+      }
+    },
+    {
+      "metric": "Commissioning test programme (dry  — start of dry test after commencement of construction",
+      "unit": "months",
+      "basis": "Same JICA Chapter 10.2.2(6) commissioning schedule for the 2 x 122 MW Victoria Hydropower expansion; dry test starts at month 45.",
+      "value": 45,
+      "source": {
+        "url": "https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf",
+        "source_id": "gef-r-jina-ai-11948841-09-pdf-6c3d822"
+      }
+    },
+    {
+      "metric": "Operator training before taking ov — training as condition of taking over",
+      "unit": "printed condition",
+      "basis": "Malakoff Employer's Contract Terms for Works - RFQ cl.2.15.1 (6 Mar 2025): contractor shall train Employer's personnel in operation and maintenance; where training is specified before taking over, 'the Works shall not be considered to be completed for the purposes of taking over until this training(s) has been completed'.",
+      "year": 2025,
+      "source": {
+        "url": "https://r.jina.ai/https://www.malakoff.com.my/wp-content/uploads/2025/03/Contract-Terms-for-Works-RFQFinal.pdf",
+        "source_id": "gef-r-jina-ai-contract-terms-for-works-rfqfinal-7f7aa38"
+      }
+    },
+    {
+      "metric": "Operator training before taking ov — MAN PrimeServ standard / advanced training course duration",
+      "unit": "days",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D', printed June 2022, p.13: 'Four-day training for Standard and Advanced courses, and four weeks training for the Expert course at the MAN PrimeServ Academies in Denmark.'",
+      "value": 4,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    },
+    {
+      "metric": "Operator training before taking ov — MAN PrimeServ expert training course duration",
+      "unit": "weeks",
+      "basis": "Same MAN PrimeServ 'Prepare for MAN 175D' brochure, printed June 2022, p.13.",
+      "value": 4,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
     }
   ],
   "vendor_models": [
@@ -173,6 +226,14 @@
       "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/primeserv-digital-services-eng.pdf?sfvrsn=12967c97_4",
       "source_id": "geg-r-jina-ai-primeserv-digital-services-eng-pdf-0ccb3a5",
       "note": "Referenced as a MAN PrimeServ O&M case study, not a Sabah project."
+    },
+    {
+      "url": "https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf",
+      "source_id": "gef-r-jina-ai-11948841-09-pdf-6c3d822"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.malakoff.com.my/wp-content/uploads/2025/03/Contract-Terms-for-Works-RFQFinal.pdf",
+      "source_id": "gef-r-jina-ai-contract-terms-for-works-rfqfinal-7f7aa38"
     }
   ],
   "gaps": [
@@ -180,6 +241,11 @@
       "what": "Pre-Commissioning, Commissioning and Start Up Management incl calibration & lab test (lube oil)",
       "why": "No published man-day rate, commissioning-management fee, calibration fee or oil-analysis laboratory price list was found. MTU prints analytical limit values but no test price.",
       "next_action": "Request priced commissioning-management and laboratory-test quotations; record MTU limits as technical basis only, not cost."
+    },
+    {
+      "what": "Pre-commissioning and start-up management",
+      "why": "No published fee, day rate or named pre-commissioning/start-up management contract for the 7-unit GEG plant was found. The only printed durations are a 2008 JICA hydropower feasibility schedule (2-month dry test from month 45; 2-month wet test) and OEM training durations; the Malakoff RFQ makes trai",
+      "next_action": "Obtain the bidder's commissioning-management man-hours, rates and milestone dates; do not convert the JICA schedule into a price."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

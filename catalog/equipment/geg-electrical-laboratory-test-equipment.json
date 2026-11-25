@@ -127,6 +127,49 @@
         "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
         "source_id": "geg-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
       }
+    },
+    {
+      "metric": "Electrical testing laboratory equi — Portable relay secondary injection testing set quantity",
+      "unit": "Nos",
+      "basis": "BHEL 1x660 MW Bhusawal Unit-6 electric lab equipment unpriced schedule: code 556-0110146-00-A, quantity 2 Nos; spec rev 0 dated 19 March 2026.",
+      "value": 2,
+      "year": 2026,
+      "source": {
+        "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
+        "source_id": "gef-tenders-bhel-com-technical-specification-and-ef841fa"
+      }
+    },
+    {
+      "metric": "Electrical testing laboratory equi — Computerized relay test bench quantity",
+      "unit": "No.",
+      "basis": "Same BHEL schedule: code 556-0110040-00-A, quantity 1 No.; detailed spec lists 6 x 0-12.5 A, 3 x 0-25 A, 1 x 0-75 A current outputs and 4 x 300 V / 1 x 600 V voltage outputs, 10-1000 Hz.",
+      "value": 1,
+      "source": {
+        "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
+        "source_id": "gef-tenders-bhel-com-technical-specification-and-ef841fa"
+      }
+    },
+    {
+      "metric": "Electrical testing laboratory equi — Automatic oil testing set quantity and range",
+      "unit": "kV (range 0-90 kV)",
+      "basis": "Same BHEL spec: 'Automatic Oil testing set: 2 Nos', 'Range: 0 -90KV', single phase with middle of HV winding earthed, accuracy 1%, for dielectric strength of insulating oil in transformers.",
+      "value": 90,
+      "low": 0,
+      "high": 90,
+      "source": {
+        "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
+        "source_id": "gef-tenders-bhel-com-technical-specification-and-ef841fa"
+      }
+    },
+    {
+      "metric": "Electrical testing laboratory equi — Rheostats (660 V grade) quantity per range",
+      "unit": "Nos of each range",
+      "basis": "Same BHEL schedule: rheostats 660 V grade, 3 Nos of each of six ranges (10 A/25 ohm; 18 A/6 ohm; 5 A/500 ohm; 2.5 A/500 ohm; 1 A/1000 ohm; 5 A/1000 ohm).",
+      "value": 3,
+      "source": {
+        "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
+        "source_id": "gef-tenders-bhel-com-technical-specification-and-ef841fa"
+      }
     }
   ],
   "vendor_models": [],
@@ -148,6 +191,14 @@
     {
       "url": "https://www.tritanengineering.com.my/megger",
       "source_id": "geg-tritanengineering-com-my-megger-101eb8e"
+    },
+    {
+      "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
+      "source_id": "gef-tenders-bhel-com-technical-specification-and-ef841fa"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN109387802A/en",
+      "source_id": "gef-patents-google-com-en-bb1e7f1"
     }
   ],
   "gaps": [
@@ -165,6 +216,21 @@
       "what": "Electrical Laboratory Equipment Package",
       "why": "No patent number printed in the OMICRON/Megger pages read; no reliability, operational-history, price, project or drawing record was found.",
       "next_action": "Obtain product data sheets with patent markings and project reference lists if these fields are required."
+    },
+    {
+      "what": "Electrical laboratory test equipment",
+      "why": "No dated equipment price was found: the readable BHEL schedule is explicitly unpriced. Only demonstration/handing-over service charges are recorded as prices.",
+      "next_action": "Find a priced BoQ for a relay/oil test bench package stating unit prices and price year."
+    },
+    {
+      "what": "Electrical laboratory test equipment",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Electrical laboratory test equipment",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

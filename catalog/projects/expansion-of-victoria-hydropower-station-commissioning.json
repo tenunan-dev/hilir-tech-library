@@ -1,0 +1,26 @@
+{
+  "id": "expansion-of-victoria-hydropower-station-commissioning",
+  "name": "Expansion of Victoria Hydropower Station - commissioning",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Sri Lanka",
+  "location": "Sri Lanka",
+  "status": "operating",
+  "description": "Dry test 2 months from month 45; wet test 2 months; commercial operation after all tests including load rejection test.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf",
+      "source_id": "gef-r-jina-ai-11948841-09-pdf-6c3d822",
+      "note": "Dry test 2 months from month 45; wet test 2 months; commercial operation after a"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Pre-commissioning and start-up management."
+}

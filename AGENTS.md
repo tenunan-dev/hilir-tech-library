@@ -33,17 +33,15 @@
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 2,225 valid, 2,225 unique ids |
+| Catalog sources | 2,334 valid, 2,334 unique ids |
 | Technology cards | 402 (417-entry register) |
-| Vendor records | 1,306 |
+| Vendor records | 1,342 |
 | Equipment classes | 505 (75 Alaska GEG WBS line items; 41 WHP component classes from the Mistral-chat sweep, 58 boiler types/components from the first sweep, plus 23 supporting systems: feedwater pretreatment, RO/EDI, chemical dosing, sampling, blowdown recovery, cleaning, steam traps, condensate pumps/polishing, separators, PRV/desuperheating, expansion joints, silencers, insulation, gas boosters, pilots/ignition, instrument air, SCR reagent, circulation/feedwater pumps, MCC/VFD and HRSG bypass dampers) |
-| Projects and plants | 1,046 |
+| Projects and plants | 1,116 |
 | Product catalog | 458 vendor product lines with printed specifications (`schema/product.schema.json`, `catalog/products/`) |
-| Process drawings | 334 PFD/P&ID/schematic records (`schema/drawing.schema.json`, `catalog/drawings/`) — the diagrams stay at the publisher's url |
-| Engineering materials | 217 records with sourced properties (`schema/material.schema.json`, `catalog/materials/`) |
+| Process drawings | 345 PFD/P&ID/schematic records (`schema/drawing.schema.json`, `catalog/drawings/`) — the diagrams stay at the publisher's url |
+| Engineering materials | 249 records with sourced properties (`schema/material.schema.json`, `catalog/materials/`) |
 | Corpus documents | 253, **one per source url** (decision 40), each with a hand-written summary — 207 open, 46 full-text-restricted (13,192 chunks locally and in Neon) |
-
-NOT DEPLOYED (2026-11-25 Alaska GEG WBS sweep): catalog counts below are local build counts only; Neon and containers remain at the previous released state.
 
 Verified live 2026-11-25: Neon reloaded (2,090 sources / 1,250 vendors / 401 cards / 430 equipment /
 998 projects / 361 products / 333 drawings / 171 materials / 416 register entries / 253 documents /

@@ -1,0 +1,26 @@
+{
+  "id": "132-kv-gis-huntsman-tioxide-project-kemaman-terengganu-n",
+  "name": "132 kV GIS Huntsman Tioxide project, Kemaman, Terengganu - NER",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "VA Tech Malaysia Sdn Bhd: 132 kV control relay protection panels, NER, outdoor junction box and distribution board.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "VA Tech Malaysia Sdn Bhd: 132 kV control relay protection panels, NER, outdoor j"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Neutral grounding resistor panels."
+}

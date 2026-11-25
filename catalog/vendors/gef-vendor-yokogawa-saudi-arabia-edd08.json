@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-yokogawa-saudi-arabia-edd08",
+  "name": "Yokogawa Saudi Arabia",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Yokogawa Saudi Arabia named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

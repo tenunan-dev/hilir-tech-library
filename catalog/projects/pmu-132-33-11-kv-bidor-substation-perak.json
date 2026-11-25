@@ -1,0 +1,26 @@
+{
+  "id": "pmu-132-33-11-kv-bidor-substation-perak",
+  "name": "PMU 132/33/11 kV Bidor substation, Perak",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Perak)",
+  "location": "Malaysia (Perak)",
+  "status": "operating",
+  "description": "132 kV, 33 kV and 11 kV remote control/protection panels, NER and cabling; client Bras Ventures Sdn Bhd",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "132 kV, 33 kV and 11 kV remote control/protection panels, NER and cabling; clien"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for LV switchgear and control room."
+}

@@ -107,6 +107,61 @@
         "url": "https://electrical-engineering-portal.com/wp-content/uploads/2024/10/IEC-60076-1-Power-Transformers-General.pdf",
         "source_id": "geg-electrical-engineering-portal-com-iec-60076-cebdb0c"
       }
+    },
+    {
+      "metric": "Power transformer (oil-immersed, g — Maximum power transformer rating offered",
+      "unit": "MVA",
+      "basis": "MTM company page: 'Power Transformers up to 100 MVA (150 kV)'. Page undated; read 2026-11-25. No price year stated.",
+      "value": 100,
+      "year": 2026,
+      "source": {
+        "url": "https://www.malaysiatransformer.com/about",
+        "source_id": "gef-malaysiatransformer-com-about-c845fc2"
+      }
+    },
+    {
+      "metric": "Power transformer (oil-immersed, g — First 132/33 kV power transformer rating",
+      "unit": "MVA",
+      "basis": "MTM achievements: '2001 : First 132/33 kV Power Transformer (90 MVA)'. Printed milestone dated 2001; page read 2026-11-25.",
+      "value": 90,
+      "year": 2001,
+      "source": {
+        "url": "https://www.malaysiatransformer.com/about",
+        "source_id": "gef-malaysiatransformer-com-about-c845fc2"
+      }
+    },
+    {
+      "metric": "Power transformer (oil-immersed, g — First 132/11 kV power transformer rating",
+      "unit": "MVA",
+      "basis": "MTM achievements: '2001 : First 132/11 kV Power Transformer (45 MVA)'. Printed milestone dated 2001.",
+      "value": 45,
+      "year": 2001,
+      "source": {
+        "url": "https://www.malaysiatransformer.com/about",
+        "source_id": "gef-malaysiatransformer-com-about-c845fc2"
+      }
+    },
+    {
+      "metric": "Power transformer (oil-immersed, g — 33/11 kV power transformer rating in service with TNB",
+      "unit": "MVA",
+      "basis": "MTM achievements: 'More than 250 units of 30 MVA 33/11 kV successfully manufactured and put to service since 1994' and '8 x 30 MVA 132/11 kV ... since 2001'. Printed dates 1994/2001.",
+      "value": 30,
+      "year": 1994,
+      "source": {
+        "url": "https://www.malaysiatransformer.com/about",
+        "source_id": "gef-malaysiatransformer-com-about-c845fc2"
+      }
+    },
+    {
+      "metric": "Power transformer (oil-immersed, g — 240 MVA 275/132/33 kV transformer retrofit (unit size)",
+      "unit": "MVA",
+      "basis": "MTM services list: '2007 : 240 MVA 275/132/33 kV for PMU Ayer Tawar, Perak Malaysia'. Printed year 2007.",
+      "value": 240,
+      "year": 2007,
+      "source": {
+        "url": "https://www.malaysiatransformer.com/about",
+        "source_id": "gef-malaysiatransformer-com-about-c845fc2"
+      }
     }
   ],
   "vendor_models": [
@@ -117,7 +172,8 @@
     }
   ],
   "vendors": [
-    "geg-vendor-cg-power-systems-crompton-greaves-ltd-india-acquir-a6b6b"
+    "geg-vendor-cg-power-systems-crompton-greaves-ltd-india-acquir-a6b6b",
+    "gef-vendor-pestech-international-bhd-cd1de"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -138,6 +194,18 @@
     {
       "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
       "source_id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1"
+    },
+    {
+      "url": "https://www.malaysiatransformer.com/about",
+      "source_id": "gef-malaysiatransformer-com-about-c845fc2"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
+    },
+    {
+      "url": "https://patents.google.com/patent/JP5861805B2/en",
+      "source_id": "gef-patents-google-com-en-c8a09b2"
     }
   ],
   "gaps": [
@@ -155,6 +223,11 @@
       "what": "Transformers (4 units)",
       "why": "No patents on transformer design were read from a patent page; the IEC 60076-1 foreword only warns that some elements may be subject to patent rights.",
       "next_action": "Leave patents empty until a specific patent page is read."
+    },
+    {
+      "what": "Power transformers",
+      "why": "No dated power-transformer price (package award, MYR/USD per MVA or per unit) was found in a directly read page. A priced Delhi Transco transformer schedule surfaced in search but its PDF could not be read (r.jina.ai returned 422), so it was not recorded.",
+      "next_action": "Read a TNB/SESB or EPC transformer supply award that states a value and price year."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

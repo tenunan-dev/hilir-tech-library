@@ -1,0 +1,26 @@
+{
+  "id": "pmu-275-132-33-kv-ayer-tawar-perak-240-mva-transformer",
+  "name": "PMU 275/132/33 kV Ayer Tawar, Perak - 240 MVA transformer",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "MTM services list: 240 MVA 275/132/33 kV for PMU Ayer Tawar, Perak, 2007.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.malaysiatransformer.com/about",
+      "source_id": "gef-malaysiatransformer-com-about-c845fc2",
+      "note": "MTM services list: 240 MVA 275/132/33 kV for PMU Ayer Tawar, Perak, 2007."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Power transformers."
+}

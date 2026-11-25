@@ -1,0 +1,26 @@
+{
+  "id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40",
+  "name": "Staab change order no. 8 with Quincy/SKF compressed air quotation and brochures",
+  "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Staab Construction / Zorn Air / Quincy / SKF",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Dated 6 May 2024; supplier quote dated 29 April 2024; prices printed without an explicit dollar year. Fetched via r.jina.ai fallback 25 Nov 2026. This is a US wastewater plant example, NOT the SESB plant."
+}

@@ -214,6 +214,61 @@
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
       }
+    },
+    {
+      "metric": "Single-phase and three-phase radio — single-phase RF smart meters supplied",
+      "unit": "units",
+      "basis": "The Edge Malaysia, KUALA LUMPUR (Oct 2), Bursa Malaysia filing Monday 2 Oct 2023: '79,800 units of single phase radio frequency smart meters'. Same figure in The Edge 9 Oct 2023 T7 Global report.",
+      "value": 79800,
+      "year": 2023,
+      "source": {
+        "url": "https://theedgemalaysia.com/node/684572",
+        "source_id": "gef-theedgemalaysia-com-684572-c43c045"
+      }
+    },
+    {
+      "metric": "Single-phase and three-phase radio — three-phase RF smart meters supplied",
+      "unit": "units",
+      "basis": "The Edge Malaysia, KUALA LUMPUR (Oct 2), Bursa Malaysia filing Monday 2 Oct 2023: '19,950 units of three phase radio frequency smart meters'. Same figure in The Edge 9 Oct 2023 T7 Global report.",
+      "value": 19950,
+      "year": 2023,
+      "source": {
+        "url": "https://theedgemalaysia.com/node/684572",
+        "source_id": "gef-theedgemalaysia-com-684572-c43c045"
+      }
+    },
+    {
+      "metric": "Single-phase and three-phase radio — NCM digits, single-phase meter (SESB T.9468)",
+      "unit": "digits",
+      "basis": "SESB Tender T.9468 page read 25 Nov 2026: title '1PH Elec. Energy Meter With NCM 7 Digits ...', closing date 09-12-2026. This is a specification printed in the tender title, not a price.",
+      "value": 7,
+      "year": 2026,
+      "source": {
+        "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9468.aspx",
+        "source_id": "gef-sesb-com-my-tender-t-9468-aspx-d4fe03b"
+      }
+    },
+    {
+      "metric": "Single-phase and three-phase radio — NCM digits, three-phase meter (SESB T.9468)",
+      "unit": "digits",
+      "basis": "SESB Tender T.9468 page read 25 Nov 2026: title '3PH Elec. Energy Meter With NCM 8 Digit', closing date 09-12-2026. This is a specification printed in the tender title, not a price.",
+      "value": 8,
+      "year": 2026,
+      "source": {
+        "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9468.aspx",
+        "source_id": "gef-sesb-com-my-tender-t-9468-aspx-d4fe03b"
+      }
+    },
+    {
+      "metric": "Single-phase and three-phase radio — cumulative smart-meter units ordered from TNB by Pestech group since 2019",
+      "unit": "units",
+      "basis": "The Edge Malaysia, 2 Oct 2023: 'since 2019 till to-date ... a total of RM139.8 million smart meters order from TNB ... consisted of a total of 643,455 units of smart meters'.",
+      "value": 643455,
+      "year": 2023,
+      "source": {
+        "url": "https://theedgemalaysia.com/node/684572",
+        "source_id": "gef-theedgemalaysia-com-684572-c43c045"
+      }
     }
   ],
   "vendor_models": [
@@ -236,7 +291,10 @@
   "vendors": [
     "geg-vendor-sesb-single-buyer-system-owner-operator-per-sabah-41f25",
     "geg-vendor-itron-sas-916e3",
-    "geg-vendor-landis-gyr-b8b44"
+    "geg-vendor-landis-gyr-b8b44",
+    "gef-vendor-pestech-sdn-bhd-f89ae",
+    "gef-vendor-pestech-energy-sdn-bhd-55ce0",
+    "gef-vendor-t7-wenmax-sdn-bhd-6fa75"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -257,6 +315,26 @@
     {
       "url": "https://webstore.iec.ch/en/publication/28212",
       "source_id": "geg-webstore-iec-ch-28212-9619020"
+    },
+    {
+      "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9468.aspx",
+      "source_id": "gef-sesb-com-my-tender-t-9468-aspx-d4fe03b"
+    },
+    {
+      "url": "https://theedgemalaysia.com/node/684572",
+      "source_id": "gef-theedgemalaysia-com-684572-c43c045"
+    },
+    {
+      "url": "https://theedgemalaysia.com/node/685320",
+      "source_id": "gef-theedgemalaysia-com-685320-c24f250"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN105471107A/en",
+      "source_id": "gef-patents-google-com-en-ff8f600"
+    },
+    {
+      "url": "https://patents.google.com/patent/KR101203625B1/en",
+      "source_id": "gef-patents-google-com-en-1fd7e6a"
     }
   ],
   "gaps": [
@@ -269,6 +347,26 @@
       "what": "Main & Check tariff Meters at each SESB-IF 33kV incomers",
       "why": "The ST Malaysia 'Guideline for Electricity Meters Approval' PDF (st.gov.my, proxy reports 31 Mar 2026) returned no readable text through r.jina.ai; MS 62053 approval requirements could not be quoted.",
       "next_action": "Read the PDF natively from an authorised source and extract the MS 62052/62053 approval clauses and approved-meter list."
+    },
+    {
+      "what": "Main and check tariff meters",
+      "why": "No printed unit price ($/meter, RM/meter) or contract value for main-and-check tariff meters for the 7-unit SESB-connected plant was found; the RM21.17 million figures are TNB AMI contracts for a different utility and are recorded as references only.",
+      "next_action": "Obtain a dated SESB metering tender BOQ or award with metre-by-metre rates and clearly separate main from check meter pricing."
+    },
+    {
+      "what": "Main and check tariff meters",
+      "why": "The two dated TNB reports print the same RM21.17 million and same quantities but name different contractor subsidiaries; no source read resolves which entity won which package.",
+      "next_action": "Read the underlying Bursa Malaysia filings and keep each company's filing as a separate source before any reconciliation."
+    },
+    {
+      "what": "Main and check tariff meters",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Main and check tariff meters",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

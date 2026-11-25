@@ -1,0 +1,26 @@
+{
+  "id": "sesb-p-6953-r1-installation-testing-and-commissioning-of",
+  "name": "SESB P.6953(R1) - installation, testing and commissioning of relays and SCADA facilities at PMU Minintod (1T0 & 2T0) and PMU Kepayan (2T0, H",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "SESB Tender/Quotation List read 25 Nov 2026; Malay title printed as 'Kerja-Kerja Memasang, Menguji Dan Memula Tugas Relay & Fasiliti SCADA Serta Kerja-Kerja Berkaitan Di Penyuap PMU Minintod (1T0 & 2T0) Dan PMU Kepayan (2T0, H01 & H02)'; quotation fee shown as 45.00. No award value printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sesb.com.my/Tender.aspx",
+      "source_id": "gef-sesb-com-my-tender-aspx-86fb9e8",
+      "note": "SESB Tender/Quotation List read 25 Nov 2026; Malay title printed as 'Kerja-Kerja"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Utility communication system."
+}

@@ -1,0 +1,38 @@
+{
+  "id": "gef-mat-river-sand-sabah",
+  "name": "River sand, Sabah",
+  "material_category": "aggregate",
+  "description": "River sand, Sabah named on a page read in the GEG gap-fill for Earthworks and soil import.",
+  "specifications": [
+    {
+      "metric": "River sand, Sabah, December 2025",
+      "unit": "RM/metric ton",
+      "basis": "DOSM Sabah & Sarawak Special Release December 2025 (published 12 Jan 2026), Sabah first region column as printed; exact Sabah sub-region mapping not resolved from extracted text; currency RM Table 3 item 3.1.1; prices include transport for 30 km from outlet (value: 71.33)",
+      "year": 2025,
+      "source": {
+        "url": "https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf",
+        "source_id": "gef-r-jina-ai-file-20260210094823-pdf-efc1d26"
+      }
+    },
+    {
+      "metric": "Granite 20 mm aggregate, Sabah, December 2025",
+      "unit": "RM/metric ton",
+      "basis": "DOSM Sabah & Sarawak Special Release December 2025 (published 12 Jan 2026), Sabah first region column as printed; exact Sabah sub-region mapping not resolved from extracted text; currency RM Table 3 item 3.2.2 (value: 79.00)",
+      "year": 2025,
+      "source": {
+        "url": "https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf",
+        "source_id": "gef-r-jina-ai-file-20260210094823-pdf-efc1d26"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-earthworks-and-soil-import"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf",
+      "source_id": "gef-r-jina-ai-file-20260210094823-pdf-efc1d26"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

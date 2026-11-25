@@ -243,6 +243,25 @@
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
         "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
       }
+    },
+    {
+      "metric": "Horizontal split-case diesel-engin — Pump description",
+      "unit": "n/a",
+      "basis": "Aurora/Clarke fire pump List Prices, Section 913, 'Horizontal Split Case Fire Pumps, Diesel Engine Drive', Dated January 1, 2020; fetched via r.jina.ai fallback 25 Nov 2026 (value: UL Listed and FM Approved horizontal split-case, bronze-fitted pump with packing)",
+      "year": 2020,
+      "source": {
+        "url": "https://4260356.fs1.hubspotusercontent-na2.net/hubfs/4260356/web%20price%20pages/Aurora/913%20horz%20diesel%20price%20pages%20(1).pdf",
+        "source_id": "gef-4260356-fs1-hubspotusercontent-na2-net-913-2-ab32bb5"
+      }
+    },
+    {
+      "metric": "Horizontal split-case diesel-engin — Driver scope included in standard diesel package",
+      "unit": "n/a",
+      "basis": "Same Aurora/Clarke Section 913 list price, Dated 01/01/20 (value: UL Listed and FM Approved diesel engine with lead acid batteries, battery cables)",
+      "source": {
+        "url": "https://4260356.fs1.hubspotusercontent-na2.net/hubfs/4260356/web%20price%20pages/Aurora/913%20horz%20diesel%20price%20pages%20(1).pdf",
+        "source_id": "gef-4260356-fs1-hubspotusercontent-na2-net-913-2-ab32bb5"
+      }
     }
   ],
   "vendor_models": [
@@ -277,6 +296,18 @@
       "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
       "source_id": "geg-focusmalaysia-my-kinergy-secures-biggest-epc-2381482",
       "note": "LOA dated 13 May 2025 from Rancha Power (PETRONAS Gas / SESB / SEC Power JV formed 31 Dec 2024) to KAB Energy Holdings / Kinergy Advancement Bhd; nine acres adjacent Labuan Shipyard. Fire-fighting pac"
+    },
+    {
+      "url": "https://4260356.fs1.hubspotusercontent-na2.net/hubfs/4260356/web%20price%20pages/Aurora/913%20horz%20diesel%20price%20pages%20(1).pdf",
+      "source_id": "gef-4260356-fs1-hubspotusercontent-na2-net-913-2-ab32bb5"
+    },
+    {
+      "url": "https://patents.google.com/patent/RU2669298C2/en",
+      "source_id": "gef-patents-google-com-en-1a2c537"
+    },
+    {
+      "url": "https://patents.google.com/patent/US10864395B2/en",
+      "source_id": "gef-patents-google-com-en-553dfcf"
     }
   ],
   "gaps": [
@@ -294,6 +325,21 @@
       "what": "Fire Fighting System Package",
       "why": "No named, dated, sized, located fire-pump reference project was printed; Ruhrpumpen describes a package but names no site or date.",
       "next_action": "Request reference project list from Ruhrpumpen, ROTAMAC or their Malaysian agents."
+    },
+    {
+      "what": "Fire fighting system",
+      "why": "No project-specific fire pump duty (flow/head), number of pumps, diesel/electric driver selection, foam/water spray scope or awarded package price for the 7-unit SESB plant was found.",
+      "next_action": "Obtain the fire fighting package BOQ, hydraulic demand calculation and awarded quotation from project documents; do not apply US list prices to the plant without a stated basis."
+    },
+    {
+      "what": "Fire fighting system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Fire fighting system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

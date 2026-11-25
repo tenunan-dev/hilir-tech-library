@@ -1,0 +1,64 @@
+{
+  "id": "gef-mat-vanadium-based-scr-catalyst-v2o5-wo3-tio2-honeycom",
+  "name": "Vanadium-based SCR catalyst (V2O5-WO3/TiO2), honeycomb/plate/corrugated forms",
+  "material_category": "catalyst",
+  "description": "Vanadium-based SCR catalyst (V2O5-WO3/TiO2), honeycomb/plate/corrugated forms named on a page read in the GEG gap-fill for Diesel oxidation catalyst and SCR emission control system.",
+  "specifications": [
+    {
+      "metric": "Commercial catalyst composition",
+      "unit": "wt%",
+      "basis": "Ye et al., 'Recent trends in vanadium-based SCR catalysts for NOx reduction in industrial applications: stationary sources', Nano Convergence 2022 Nov 19;9:51, section on SCR catalysts; CC BY 4.0 (value: V2O5-WO3/TiO2, typically 0.5-3 wt% V2O5 and 5-10 wt% WO3)",
+      "year": 2022,
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9675887",
+        "source_id": "gef-pmc-ncbi-nlm-nih-gov-pmc9675887-30fa017"
+      }
+    },
+    {
+      "metric": "Medium-temperature VNX (V2O5/TiO2) operating range",
+      "unit": "n/a",
+      "basis": "Same review, Table 1 'Operating characteristics of different SCR catalysts' (value: 260-425 deg C; most broadly used; 10-15 years of experience; sulfur tolerant)",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9675887",
+        "source_id": "gef-pmc-ncbi-nlm-nih-gov-pmc9675887-30fa017"
+      }
+    },
+    {
+      "metric": "High-temperature zeolite (ZNX) operating range",
+      "unit": "n/a",
+      "basis": "Same review, Table 1 (value: 345-590 deg C; very high NOx conversion; very low NH3 slip; sulfur tolerant abov)",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9675887",
+        "source_id": "gef-pmc-ncbi-nlm-nih-gov-pmc9675887-30fa017"
+      }
+    },
+    {
+      "metric": "Low-temperature Pt-based catalyst operating range",
+      "unit": "n/a",
+      "basis": "Same review, Table 1 (value: 150-300 deg C; narrow temperature window; not sulfur tolerant)",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9675887",
+        "source_id": "gef-pmc-ncbi-nlm-nih-gov-pmc9675887-30fa017"
+      }
+    },
+    {
+      "metric": "Catalyst forms",
+      "unit": "n/a",
+      "basis": "Same review, paragraph 'The SCR catalysts are divided into the three types: honeycomb, plate, and corrugated' (value: Honeycomb, plate and corrugated)",
+      "source": {
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9675887",
+        "source_id": "gef-pmc-ncbi-nlm-nih-gov-pmc9675887-30fa017"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-diesel-oxidation-catalyst-and-scr-emission-control-system"
+  ],
+  "sources": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9675887",
+      "source_id": "gef-pmc-ncbi-nlm-nih-gov-pmc9675887-30fa017"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

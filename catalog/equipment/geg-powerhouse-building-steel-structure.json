@@ -82,6 +82,18 @@
       "url": "https://jml.com.sg/what-we-do/construction/projects",
       "source_id": "geg-jml-com-sg-projects-18172e3",
       "note": "JML scope: steel structure/equipment erection, piping and painting for process area and boiler package; industrial plant; client Samsung Engineering (Malaysia) Sdn Bhd."
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf",
+      "source_id": "gef-r-jina-ai-s355j2-steel-datasheet-pdf-058ba23"
+    },
+    {
+      "url": "https://r.jina.ai/https://parksidesteel.co.uk/technical-library/datasheets/s355-j2.pdf",
+      "source_id": "gef-r-jina-ai-s355-j2-pdf-6a166f8"
     }
   ],
   "gaps": [
@@ -94,6 +106,11 @@
       "what": "Powerhouse Building (steel structure 32x71x16)",
       "why": "No public source states the dimensions or structural form of this plant's powerhouse.",
       "next_action": "Treat 32x71x16 as bidder design data, not evidence."
+    },
+    {
+      "what": "Powerhouse building (steel structure)",
+      "why": "No published RM/tonne or RM/m2 rate for fabrication and erection of a gas-engine powerhouse steel frame; only generic JKR concrete/rebar rates and a steel grade datasheet were found.",
+      "next_action": "Source a dated structural-steel fabrication/erection rate and the powerhouse steel tonnage from the design"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

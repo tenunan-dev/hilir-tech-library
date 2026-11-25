@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-gt-silex-nelson-global-26251",
+  "name": "GT Silex (Nelson Global)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "GT Silex (Nelson Global) named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
+      "source_id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "pmu-pasir-gudang-town-centre-33-kv-gis-switchgear",
+  "name": "PMU Pasir Gudang Town Centre 33 kV GIS switchgear",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "NEECO Sdn Bhd supply and delivery of 33 kV GIS switchgear.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "NEECO Sdn Bhd supply and delivery of 33 kV GIS switchgear."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 33 kV substation."
+}

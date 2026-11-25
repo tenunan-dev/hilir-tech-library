@@ -1,0 +1,26 @@
+{
+  "id": "pmu-132-33-kv-kuala-krai-2-x-45-mva",
+  "name": "PMU 132/33 kV Kuala Krai (2 x 45 MVA)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "PESTECH: 'Supply, Erect and Commissioning of Power Transformer Mainhead A: 2 x 132/33kV 45MVA at PMU Kuala Krai.'",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "PESTECH: 'Supply, Erect and Commissioning of Power Transformer Mainhead A: 2 x 1"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Power transformers."
+}

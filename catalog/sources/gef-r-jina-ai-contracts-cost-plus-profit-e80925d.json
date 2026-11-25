@@ -1,0 +1,26 @@
+{
+  "id": "gef-r-jina-ai-contracts-cost-plus-profit-e80925d",
+  "name": "Cost Plus Profit - FIDICTerms contract terms wiki",
+  "url": "https://r.jina.ai/https://www.fidicterms.org/wiki/index.php/Contracts:Cost_Plus_Profit",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "FIDICterms.org (FIDIC contract terms reference)",
+  "access": "open",
+  "licence": "not stated in source",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Direct WebFetch failed with transport error; read with WebFetch via r.jina.ai 25 Nov 2026. Page states Last Edit Date 2017-11-17 and reproduces FIDIC 2nd edition 2017 definitions. No licence stated."
+}

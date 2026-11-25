@@ -331,6 +331,48 @@
         "url": "https://www.abpsoil.com/images/oil-waste-treatment/API-421.pdf",
         "source_id": "geg-abpsoil-com-api-421-pdf-1c5759a"
       }
+    },
+    {
+      "metric": "YWC series 15 ppm bilge/oily water — Capacity range",
+      "unit": "m3/h",
+      "basis": "Made-in-China product page for YWC Series 15ppm Bilge Separator by Chongqing Gathering Marine Equipment Co., Ltd., read directly 25 Nov 2026: '9 types with the capacity from 0.25m3/h to 5.00 m3/h'",
+      "low": 0.25,
+      "high": 5.0,
+      "year": 2026,
+      "source": {
+        "url": "https://hangyumarine.en.made-in-china.com/product/zXsQHNCDnmhu/China-15ppm-Bilge-Separator-Imo-Oily-Water-Separator.html",
+        "source_id": "gef-hangyumarine-en-made-in-china-com-china-15pp-d80a1a8"
+      }
+    },
+    {
+      "metric": "YWC series 15 ppm bilge/oily water — Oil content in effluent",
+      "unit": "ppm (maximum, as printed: less than or equal to 15 ppm)",
+      "basis": "Same product page: 'the oil content in effluent water <= 15ppm', compliant with IMO MEPC.107(49)",
+      "value": 15,
+      "source": {
+        "url": "https://hangyumarine.en.made-in-china.com/product/zXsQHNCDnmhu/China-15ppm-Bilge-Separator-Imo-Oily-Water-Separator.html",
+        "source_id": "gef-hangyumarine-en-made-in-china-com-china-15pp-d80a1a8"
+      }
+    },
+    {
+      "metric": "YWC series 15 ppm bilge/oily water — Power of pump, model range",
+      "unit": "kW",
+      "basis": "Same page, technical specification table YWC-0.25 to YWC-5.00",
+      "low": 0.37,
+      "high": 2.2,
+      "source": {
+        "url": "https://hangyumarine.en.made-in-china.com/product/zXsQHNCDnmhu/China-15ppm-Bilge-Separator-Imo-Oily-Water-Separator.html",
+        "source_id": "gef-hangyumarine-en-made-in-china-com-china-15pp-d80a1a8"
+      }
+    },
+    {
+      "metric": "YWC series 15 ppm bilge/oily water — 15 ppm bilge alarm",
+      "unit": "n/a",
+      "basis": "Same page: '15ppm Bilge Alarm included' for all YWC-0.25 to YWC-5.00 models",
+      "source": {
+        "url": "https://hangyumarine.en.made-in-china.com/product/zXsQHNCDnmhu/China-15ppm-Bilge-Separator-Imo-Oily-Water-Separator.html",
+        "source_id": "gef-hangyumarine-en-made-in-china-com-china-15pp-d80a1a8"
+      }
     }
   ],
   "vendor_models": [
@@ -341,7 +383,8 @@
     }
   ],
   "vendors": [
-    "alfalaval"
+    "alfalaval",
+    "gef-vendor-chongqing-gathering-marine-equipment-co-ltd-588b3"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -363,6 +406,14 @@
       "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
       "source_id": "geg-focusmalaysia-my-kinergy-secures-biggest-epc-2381482",
       "note": "LOA dated 13 May 2025 from Rancha Power (PETRONAS Gas / SESB / SEC Power JV formed 31 Dec 2024) to KAB Energy Holdings / Kinergy Advancement Bhd; nine acres adjacent Labuan Shipyard. Oily-water packag"
+    },
+    {
+      "url": "https://hangyumarine.en.made-in-china.com/product/zXsQHNCDnmhu/China-15ppm-Bilge-Separator-Imo-Oily-Water-Separator.html",
+      "source_id": "gef-hangyumarine-en-made-in-china-com-china-15pp-d80a1a8"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN114212853A/en",
+      "source_id": "gef-patents-google-com-en-eca0249"
     }
   ],
   "gaps": [
@@ -380,6 +431,21 @@
       "what": "Oily Water Treatment System Package",
       "why": "No named, dated, sized, located oily-water-treatment reference project for a gas engine plant was printed in any source read.",
       "next_action": "Request reference project list from Alfa Laval Malaysia or tender documentation."
+    },
+    {
+      "what": "Oily water treatment system",
+      "why": "No project-specific oily water treatment capacity, discharge consent, package vendor or awarded price for the 7-unit SESB plant was found; printed supplier prices carry no dollar year.",
+      "next_action": "Obtain the project effluent limits, oily water treatment package schedule and awarded quotation; record the year of any quoted price."
+    },
+    {
+      "what": "Oily water treatment system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Oily water treatment system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

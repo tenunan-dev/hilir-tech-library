@@ -1,0 +1,25 @@
+{
+  "id": "gef-library-e-abb-com-mns-20en-201tfc902032n0201-d8e257f",
+  "name": "MNS – modular low voltage switchgear system brochure 1TFC 902032N0201",
+  "url": "https://library.e.abb.com/public/1bd1718c1dcdf5e4c1257aaa003ab4da/MNS%20EN%201TFC902032N0201%20lowres_03102012.pdf?x-sign=qZodiPD5EoNr35O5ly6r2yTFfXwR6TyMrmBDCrU7ZKHZlbE2sLREknrVTZFhhh08",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "MAT"
+  ],
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "publisher_org": "ABB Oy, Low Voltage Systems",
+  "access": "open",
+  "licence": "© Copyright 2012 ABB. All rights reserved",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. 12-page PDF 1TFC 902032N0201, © 2012 ABB. Direct WebFetch blocked; read via r.jina.ai 2026-11-25 (Jina Published Time 2024-03-14)."
+}

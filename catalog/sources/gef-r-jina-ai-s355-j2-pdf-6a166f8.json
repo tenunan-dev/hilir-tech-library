@@ -1,0 +1,25 @@
+{
+  "id": "gef-r-jina-ai-s355-j2-pdf-6a166f8",
+  "name": "Parkside Steel - S355 J2 material data sheet (BS EN 10025-2:2019)",
+  "url": "https://r.jina.ai/https://parksidesteel.co.uk/technical-library/datasheets/s355-j2.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "MAT",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Parkside Steel (Stockholders) Ltd",
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Fetched with WebFetch via r.jina.ai (direct PDF blocked). Sheet states BS EN 10025-2:2019, S355J2 / 1.0577, Charpy at -20 C; values marked indicative by the publisher."
+}

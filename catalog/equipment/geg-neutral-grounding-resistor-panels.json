@@ -117,11 +117,46 @@
         "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
         "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
       }
+    },
+    {
+      "metric": "Neutral grounding resistor (NGR) w — 11 kV NGR with VC panel - neutral current",
+      "unit": "A",
+      "basis": "National Resistors product page: 'Neutral Grounding Resistors With VC Panel', 11 kV, 50 A, 127 ohm, 10 s duty, IP55, IEEE 32, generators. Page read 2026-11-25; undated.",
+      "value": 50,
+      "year": 2026,
+      "source": {
+        "url": "https://www.nationalresistors.net/neutral-grounding-resistors.html",
+        "source_id": "gef-nationalresistors-net-neutral-grounding-resi-666210e"
+      }
+    },
+    {
+      "metric": "Neutral grounding resistor (NGR) w — 11 kV NGR with VC panel - resistance",
+      "unit": "ohm",
+      "basis": "Same National Resistors product entry: resistance 127 ohm, 11 kV, 50 A; vendor listing, no price year.",
+      "value": 127,
+      "source": {
+        "url": "https://www.nationalresistors.net/neutral-grounding-resistors.html",
+        "source_id": "gef-nationalresistors-net-neutral-grounding-resi-666210e"
+      }
+    },
+    {
+      "metric": "Neutral grounding resistor (NGR) w — 33 kV NGR - neutral current",
+      "unit": "A",
+      "basis": "Same page: '33 kV Neutral Grounding Resistors', 400 A, 47.63 ohm, 10 s, IP55, IEEE 32 / IEC 60529.",
+      "value": 400,
+      "source": {
+        "url": "https://www.nationalresistors.net/neutral-grounding-resistors.html",
+        "source_id": "gef-nationalresistors-net-neutral-grounding-resi-666210e"
+      }
     }
   ],
   "vendor_models": [],
   "vendors": [
-    "geg-vendor-unidentified"
+    "geg-vendor-unidentified",
+    "gef-vendor-national-resistors-pune-india-88385",
+    "gef-vendor-logica-engineering-manufacturing-india-private-lim-f7c35",
+    "gef-vendor-tenaga-switchgear-sdn-bhd-8ef1c",
+    "gef-vendor-va-tech-malaysia-sdn-bhd-ner-in-132-kv-gis-huntsma-f8048"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -138,6 +173,22 @@
       "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
       "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4",
       "note": "3D drawing and typical configuration figures in the C-098EB Product Brochure, April 2022; dimensions stated for information only and subject to change."
+    },
+    {
+      "url": "https://www.nationalresistors.net/neutral-grounding-resistors.html",
+      "source_id": "gef-nationalresistors-net-neutral-grounding-resi-666210e"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
+    },
+    {
+      "url": "https://patents.google.com/patent/EP3268760B1/en",
+      "source_id": "gef-patents-google-com-en-f6e367a"
+    },
+    {
+      "url": "https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf",
+      "source_id": "gef-ests-uk-neutral-ground-resistant-specificati-f00927a"
     }
   ],
   "gaps": [
@@ -160,6 +211,11 @@
       "what": "NGR panels",
       "why": "No patent number printed in the I-Gard source read.",
       "next_action": "Do not infer patent numbers."
+    },
+    {
+      "what": "Neutral grounding resistor panels",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

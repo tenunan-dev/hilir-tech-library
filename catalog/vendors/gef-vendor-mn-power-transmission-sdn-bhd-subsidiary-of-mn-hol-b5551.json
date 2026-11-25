@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-mn-power-transmission-sdn-bhd-subsidiary-of-mn-hol-b5551",
+  "name": "MN Power Transmission Sdn Bhd (subsidiary of MN Holdings Bhd)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "MN Power Transmission Sdn Bhd (subsidiary of MN Holdings Bhd) named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+      "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

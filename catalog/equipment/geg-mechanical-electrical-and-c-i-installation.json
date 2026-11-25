@@ -151,6 +151,18 @@
       "url": "https://pestec-international.com/project-reference/electrical-substations",
       "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
       "note": "PESTEC reference: EPC, commissioning, testing, handover and 18-month defect liability for a new 132/33 kV substation; client NUR Distribution Sdn Bhd."
+    },
+    {
+      "url": "https://www.dailyexpress.com.my/news/245913/second-100mw-kimanis-power-plant-to-boost-grid-electricity",
+      "source_id": "gef-dailyexpress-com-my-second-100mw-kimanis-pow-0036119"
+    },
+    {
+      "url": "https://www.ram.com.my/pressrelease?prviewid=7251",
+      "source_id": "gef-ram-com-my-pressrelease-d66ba8e"
+    },
+    {
+      "url": "https://ecos.gov.my/node/336",
+      "source_id": "gef-ecos-gov-my-336-c6f36bd"
     }
   ],
   "gaps": [
@@ -163,6 +175,11 @@
       "what": "Equipment, Mech, Elec, C&I",
       "why": "EPC contractor for this specific line item is not identified in any source read.",
       "next_action": "Search SESB tender awards or project EPC announcements for the named 7-unit plant."
+    },
+    {
+      "what": "Mechanical, electrical and C&I installation",
+      "why": "No published unit rate or contract value for the mechanical/electrical/C&I installation package of a seven-unit gas-engine plant in Sabah; JKKE 2025 rates are for small building electrical works only.",
+      "next_action": "Obtain the bidder EPC price breakdown for the ME&C&I package and the as-built inspection/test register"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

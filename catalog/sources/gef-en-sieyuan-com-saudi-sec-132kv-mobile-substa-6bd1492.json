@@ -1,0 +1,25 @@
+{
+  "id": "gef-en-sieyuan-com-saudi-sec-132kv-mobile-substa-6bd1492",
+  "name": "Sieyuan Electric - Saudi Electricity Company 132kV Mobile High-Voltage Substation case",
+  "url": "https://en.sieyuan.com/cases/saudi-sec-132kv-mobile-substation",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Sieyuan Electric",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Page read 2026-11-25. No publication date or contract value stated; image paths carry 2025/2026 date strings only (not used as a project date)."
+}

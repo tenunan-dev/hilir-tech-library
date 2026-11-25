@@ -1,0 +1,28 @@
+{
+  "id": "gef-mat-high-yield-reinforcement",
+  "name": "High yield reinforcement",
+  "material_category": "metal",
+  "description": "High yield reinforcement named on a page read in the GEG gap-fill for Bored piling works.",
+  "specifications": [
+    {
+      "metric": "JKR average unit rate",
+      "unit": "RM/tonne",
+      "basis": "JKR Kos Item Kerja Bahagian 3.6 Piling Work (Class H), PURATA (average) / JULAT (range) table, Peninsular regions only; dollar year not stated in the PDF (posted 2013 per r.jina.ai); currency RM item 8 (value: RM3,436.27/tonne; range RM3,000.00-3,636.00)",
+      "year": 2013,
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf",
+        "source_id": "geg-r-jina-ai-3-6-20piling-20works-pdf-b482501"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-bored-piling-works"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf",
+      "source_id": "geg-r-jina-ai-3-6-20piling-20works-pdf-b482501"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

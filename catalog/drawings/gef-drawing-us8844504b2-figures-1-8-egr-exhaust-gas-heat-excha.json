@@ -1,0 +1,27 @@
+{
+  "id": "gef-drawing-us8844504b2-figures-1-8-egr-exhaust-gas-heat-excha",
+  "title": "US8844504B2 figures 1–8 – EGR/exhaust gas heat exchanger",
+  "diagram_type": "schematic",
+  "description": "Perspective view, partial sectional view, exhaust gas flow conduit, flow blocking plate and performance graph (FIG. 1–8); page read 2026-11-25.",
+  "publisher": "Google Patents / Modine Manufacturing Co",
+  "url": "https://patents.google.com/patent/US8844504B2/en",
+  "sectors": [
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "equipment": [
+    "geg-cooling-water-system-with-air-cooled-radiator"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US8844504B2/en",
+      "source_id": "gef-patents-google-com-en-5504951",
+      "note": "Perspective view, partial sectional view, exhaust gas flow conduit, flow blocking plate and performance graph (FIG. 1–8); page read 2026-11-25."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the GEG core-item gap-fill; drawing stays at publisher URL."
+}

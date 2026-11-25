@@ -58,6 +58,14 @@
       "url": "https://jml.com.sg/what-we-do/construction/projects",
       "source_id": "geg-jml-com-sg-projects-18172e3",
       "note": "JML scope: temporary facility, piling, civil and building work for an air separation unit; industrial plant; client Linde Engineering (Malaysia) Sdn Bhd."
+    },
+    {
+      "url": "https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf",
+      "source_id": "gef-r-jina-ai-file-20260210094823-pdf-efc1d26"
+    },
+    {
+      "url": "https://scanelectromechanical.com/project/scan-project-03",
+      "source_id": "geg-scanelectromechanical-com-scan-project-03-f8abca1"
     }
   ],
   "gaps": [
@@ -70,6 +78,11 @@
       "what": "Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2)",
       "why": "The 10,800 m2 road, 500 m2 slope, 17,000 m2 floor and 450 m2 walkway figures are bidder-supplied design data.",
       "next_action": "Do not present as sourced facts."
+    },
+    {
+      "what": "Site roads and paving",
+      "why": "DOSM material prices are per tonne and include 30 km transport; no printed RM/m2 paved-area rate for a plant site was found, and the six-column Sabah sub-region mapping was not resolvable in the extracted PDF.",
+      "next_action": "Obtain a dated RM/m2 road/paving rate and confirm the exact DOSM Sabah region column from the original PDF"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

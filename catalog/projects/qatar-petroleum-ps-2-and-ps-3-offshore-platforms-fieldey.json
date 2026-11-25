@@ -1,0 +1,26 @@
+{
+  "id": "qatar-petroleum-ps-2-and-ps-3-offshore-platforms-fieldey",
+  "name": "Qatar Petroleum PS-2 and PS-3 offshore platforms - FIELDEYE CCTV within ICSS upgrade",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Qatar",
+  "location": "Qatar",
+  "status": "operating",
+  "description": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016), Qatar Petroleum entry: customer quote lists 'Tharp multivariable transmitter, YTA temperature transmitter, CENTUM CS 3000, Exaquantum/SER, PRM, and the FIELDEYE CCTV system' among VigilantPlant solutions on the two platforms. No CCTV price printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
+      "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8",
+      "note": "Yokogawa Bulletin 00A01A55-01EN (copyright 2016), Qatar Petroleum entry: custome"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for CCTV system."
+}

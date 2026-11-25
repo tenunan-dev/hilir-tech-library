@@ -86,6 +86,10 @@
       "url": "https://www.dspecmy.com/projects/portfolio",
       "source_id": "geg-dspecmy-com-portfolio-d114008",
       "note": "Deltaspec portfolio item 17: one 30 MVA 11/132 kV generator transformer; client TNB REMACO / SESB. Portfolio also lists rehabilitation/upgrading of the 132 kV Tenom Pangi hydro power station (item 5)."
+    },
+    {
+      "url": "https://scanelectromechanical.com/project/scan-project-03",
+      "source_id": "geg-scanelectromechanical-com-scan-project-03-f8abca1"
     }
   ],
   "gaps": [
@@ -93,6 +97,11 @@
       "what": "MV Switchgear Room (reinforced concrete 16.5x9.9x5.3)",
       "why": "No MV switchgear room building cost or 11 kV panel schedule for this plant found.",
       "next_action": "Source the project 11 kV switchgear specification and an equivalent room-cost benchmark."
+    },
+    {
+      "what": "MV switchgear room",
+      "why": "No published RM rate for the MV switchgear room; IEC price is for the standard document, not equipment, and the AED value is for a whole substation.",
+      "next_action": "Obtain the 33 kV/11 kV switchgear package price and a dated Malaysian benchmark"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

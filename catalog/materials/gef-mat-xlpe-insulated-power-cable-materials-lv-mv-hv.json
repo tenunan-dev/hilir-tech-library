@@ -1,0 +1,108 @@
+{
+  "id": "gef-mat-xlpe-insulated-power-cable-materials-lv-mv-hv",
+  "name": "XLPE insulated power cable materials (LV/MV/HV)",
+  "material_category": "cable-insulation-and-sheath-materials",
+  "description": "XLPE insulated power cable materials (LV/MV/HV) named on a page read in the GEG gap-fill for HV and LV cables with cable trays and accessories.",
+  "specifications": [
+    {
+      "metric": "Insulation temperature rating",
+      "unit": "°C",
+      "basis": "UC XLPE catalogue, 'Characteristics and Advantages of XLPE': normal 90 °C, emergency 130 °C, short circuit 250 °C; construction sections state 'XLPE rated at 90 oC'. Read via r.jina.ai 2026-11-25. (value: XLPE (cross-linked polyethylene) rated at 90 °C)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+        "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
+      }
+    },
+    {
+      "metric": "Conductor",
+      "unit": "standard",
+      "basis": "UC XLPE catalogue, construction clauses for 0.6/1 kV and 6.6–33 kV cables. Read via r.jina.ai 2026-11-25. (value: Plain circular/compacted/shaped stranded copper or aluminium, IEC 60228 class 2)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+        "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
+      }
+    },
+    {
+      "metric": "Insulation thickness, 6.35/11 (12) kV",
+      "unit": "mm",
+      "basis": "UC XLPE catalogue table 'CU/XLPE/SCW/PVC, 6.35/11 (12) kV', nominal thickness of XLPE insulation. Read via r.jina.ai 2026-11-25. (value: 3.4)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+        "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
+      }
+    },
+    {
+      "metric": "Insulation thickness, 19/33 (36) kV",
+      "unit": "mm",
+      "basis": "UC XLPE catalogue table 'CU/XLPE/SCW/PVC, 19/33 (36) kV', nominal thickness of XLPE insulation. Read via r.jina.ai 2026-11-25. (value: 8.0)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+        "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
+      }
+    },
+    {
+      "metric": "Sheath",
+      "unit": "standard",
+      "basis": "UC XLPE catalogue construction clauses. Read via r.jina.ai 2026-11-25. (value: PVC type ST2 to IEC 60502, black; MDPE type ST 7 to IEC 60502 for PE-sheathed ve)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+        "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
+      }
+    },
+    {
+      "metric": "Armour",
+      "unit": "material",
+      "basis": "UC XLPE catalogue, 'XLPE INSULATED ARMOURED PVC SHEATHED CABLE' clause 5 Armour. Read via r.jina.ai 2026-11-25. (value: Single core: aluminium wire; multicore: galvanized steel wire)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+        "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
+      }
+    },
+    {
+      "metric": "Metallic screen",
+      "unit": "material",
+      "basis": "UC XLPE catalogue, structural design and 6.6–33 kV construction clauses. Read via r.jina.ai 2026-11-25. (value: Copper wire screen (SCW) or copper tape screen (SCT) extruded over semiconductiv)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+        "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
+      }
+    },
+    {
+      "metric": "Dielectric loss",
+      "unit": "qualitative",
+      "basis": "UC XLPE catalogue, 'What is XLPE?' section. Read via r.jina.ai 2026-11-25. (value: About one decimal power lower than paper-insulated and about two decimal powers )",
+      "year": 2026,
+      "source": {
+        "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+        "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
+      }
+    },
+    {
+      "metric": "132 kV cable construction",
+      "unit": "standard",
+      "basis": "UC XLPE catalogue contents part B, cable structural description 62–63. Read via r.jina.ai 2026-11-25. (value: XLPE insulated copper wire screened cable – 76/132 (145) kV to IEC 60840 and Ten)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+        "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-hv-and-lv-cables-with-cable-trays-and-accessories"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+      "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

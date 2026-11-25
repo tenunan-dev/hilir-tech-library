@@ -1,0 +1,25 @@
+{
+  "id": "gef-r-jina-ai-s355j2-steel-datasheet-pdf-058ba23",
+  "name": "Siderticino - S355J2 structural steel technical datasheet (EN 10025-2:2019)",
+  "url": "https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "MID",
+    "PWR"
+  ],
+  "disciplines": [
+    "MAT",
+    "CIV"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Siderticino S.r.l.",
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Fetched with WebFetch via r.jina.ai (direct PDF blocked); jina reports Published Time 25 Nov 2026. Datasheet states reference standard EN 10025-2:2019, W-Nr 1.0577."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "scow-bay-generator-2-11-kv-switchgear-procurement-peters",
+  "name": "Scow Bay Generator #2 11 kV switchgear procurement, Petersburg, Alaska",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Petersburg Municipal Power and Light sought a specification-compliant set of 11 kV metalclad switchgear shipped to Petersburg, Alaska; two-section, draw-out vacuum circuit breaker, 1200 A bus, 25 kA interrupting.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.petersburgak.gov/sites/default/files/fileattachments/power_amp_light/page/18954/petersburg_borough_scow_bay_generator_2_switchgear_bid_package_8.22.25.pdf",
+      "source_id": "gef-petersburgak-gov-petersburg-borough-scow-bay-2641f5b",
+      "note": "Petersburg Municipal Power and Light sought a specification-compliant set of 11 "
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 11 kV switchgear."
+}

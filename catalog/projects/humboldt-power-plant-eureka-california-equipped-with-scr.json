@@ -1,0 +1,26 @@
+{
+  "id": "humboldt-power-plant-eureka-california-equipped-with-scr",
+  "name": "Humboldt power plant, Eureka, California - equipped with SCRs",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "USA",
+  "location": "USA",
+  "status": "operating",
+  "description": "10 x Wartsila 18V50DF gas engines, total 162 MW; dual-fuel with light fuel oil backup; equipped with SCRs meeting strict Californian emission requirements in both gas and liquid fuel modes",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+      "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4",
+      "note": "10 x Wartsila 18V50DF gas engines, total 162 MW; dual-fuel with light fuel oil b"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Diesel oxidation catalyst and SCR emission control system."
+}

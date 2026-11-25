@@ -1,0 +1,28 @@
+{
+  "id": "gef-mat-service-air-compressor-materials",
+  "name": "Service air compressor materials",
+  "material_category": "compressor",
+  "description": "Service air compressor materials named on a page read in the GEG gap-fill for Service air system.",
+  "specifications": [
+    {
+      "metric": "Construction",
+      "unit": "n/a",
+      "basis": "Quincy QT-Series brochure inside Staab change order PDF, read via r.jina.ai fallback 25 Nov 2026 (value: Cast-iron crankcase, cylinders and flywheel; stainless-steel reed valves; two-pi)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+        "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-service-air-system"
+  ],
+  "sources": [
+    {
+      "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+      "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

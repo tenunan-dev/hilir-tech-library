@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-1824 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+1881 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -101,6 +101,7 @@
 | [BSEE / Minerals Management Service (Deepwater Riser Design, Fatigue Life and Standards Study, 2007); original credit API RP 2RD](https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf) | standards-body | global, apac, sea, na | open | summary-only (unverified) |
 | [Bumi Armada - Armada Sterling III specifications](https://www.bumiarmada.com/armada-sterling-iii) | oem-supplier | global, sea | open | summary-only |
 | [Bühler](https://www.buhlergroup.com/global/en/homepage.html) | oem-supplier | global, apac, sea | open | summary-only |
+| [CAGI Compressed Air Purity Guide](https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Cameron (SLB)](https://www.slb.com/-/media/files/sur/brochure/introduction-to-api-specification-6a.ashx) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [CAMTOP Oilfield Tools](https://www.camtop-oilfieldtools.com/product/wellhead-assembly-and-christmas-tree) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [CAPE Holland](https://capeholland.com/applications/pin-jacket-pile-installation) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -113,6 +114,7 @@
 | [CCME MCPS — protection criterion](https://www.ccme-mcps.com/services/impressed-current-cathodic-protection) | oem-supplier | global, apac, sea | open | summary-only |
 | [CDI Oil & Gas](https://www.cdiog.com/wellhead-production-equipment/christmas-tree) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [CECO Environmental (Peerless Separation & Filtration)](https://www.cecoenviro.com/products/deoiling-hydrocyclones) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [Chapter 10 Construction Plan and Cost for Construction - Feasibility Study for Expansion of Victoria Hydropower Station, Final Rep](https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Chart Industries (Howden) — Howden reciprocating gas compressor ratings](https://www.chartindustries.com/Howden) | oem-supplier | global, apac, sea | open | summary-only |
 | [Chemguide — A flow scheme for the Haber Process (haberflow.gif)](https://www.chemguide.co.uk/physical/equilibria/haber.html) | research-institute | global, apac, sea | open | summary-only |
 | [Chulalongkorn Petroleum and Petrochemical College](https://www.ppc.chula.ac.th/) | research-institute | sea | open | full-text-restricted |
@@ -218,6 +220,7 @@
 | [Goldhofer — Goldhofer THP/SL axle load](https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl) | oem-supplier | global, apac, sea | open | summary-only |
 | [Google Patents — Effluent quantity from urea synthesis reaction](https://patents.google.com/patent/US5096599A/en) | oem-supplier | global, apac, sea | open | summary-only |
 | [Gorgon Gas Project — cost](https://en.wikipedia.org/w/index.php?title=Gorgon_gas_project&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
+| [Guide / FAQs on the CIDB Standard Form of Contract for Building Works 2022 Edition](https://r.jina.ai/https://www.cidb.gov.my/wp-content/uploads/2024/10/GUIDE-FAQS-ON-THE-CIDB-SFOC-BUILDING-WORKS-2022-Edition-Published-October-2024.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Hai Nam](https://www.hainamsi.com/wp-content/uploads/2024/11/05.-Catalog-Cable-Tray-.pdf) | oem-supplier | global, apac, sea | open | summary-only |
 | [HAIL](https://hail.ltd/locations/overseas-storage-tank-contractor) | oem-supplier | global, apac, sea | open | summary-only |
 | [Halliburton](https://www.halliburton.com/en/completions/well-intervention-and-diagnostics/hydraulic-workover) | oem-supplier | global, apac, sea, na | open | summary-only |
@@ -271,6 +274,7 @@
 | [International Petroleum Technology Conference (IPTC)](https://www.iptcnet.org/) | conference | apac, me | mixed | catalog-only (unverified) |
 | [International Snubbing Services](https://iss-snub.com/) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [IPA Convention and Exhibition](https://convex.ipa.or.id/) | conference | sea | mixed | catalog-only (unverified) |
+| [IPM Model SCR Cost Development Methodology for Oil/Gas-fired Boilers, Final February 2023](https://www.epa.gov/system/files/documents/2023-12/attachment-5-4-scr-cost-methodology-for-oil-gas-fired-boilers.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [IPS Group BV](https://www.ipsgroupbv.com/products/turnkey-control-systems/wellhead-control-panel) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [IQIP](https://iqip.com/products/pile-driving-equipment/hydrohammer) | oem-supplier | global, apac, sea | open | summary-only |
 | [Iqip.Com — IQIP Hydrohammer S-series energy range](https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
@@ -451,7 +455,10 @@
 | [Prysmian — Sapinhoa pre-salt](https://www.prysmian.com/en/insight/construction-and-industries/subsea-umbilicals-risers-and-flowlines-surf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [PTTEP acquires Murphy Oil Corporation's business in Malaysia (21 Mar 2019)](https://www.pttep.com/en/newsroom/press-releases/460/pttep-acquires-murphy-oil-corporation-s-business-in-malaysia-strengthen-long-term-growth-in-southeast-asia) | oem-supplier | global, sea | open | summary-only |
 | [Pupukkaltim.Com — PT Pupuk Kalimantan Timur (Pupuk Kaltim), Bontang](https://www.pupukkaltim.com/en/p/tentang-perusahaan) | oem-supplier | global, apac, sea | open | summary-only |
+| [PWD Form 203A (Rev. 1/2010) - Standard Form of Contract where Bills of Quantities form part of the Contract](https://r.jina.ai/https://content.airselangor.com/cmi-prod-blobstorageanon-001-sea/media/zv3lutuu/pwd-form-203a-panel-works.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Qa Site.Mcdermott.Com — Kizomba A living quarters design](https://qa-site.mcdermott.com/projects/kizomba-tension-leg-platform) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [RAM Ratings press release 18 Nov 2026 (KPSB2 delayed commissioning)](https://www.ram.com.my/pressrelease?prviewid=7490) | oem-supplier | global, sea, apac | open | summary-only |
+| [Recent trends in vanadium-based SCR catalysts for NOx reduction in industrial applications: stationary sources](https://pmc.ncbi.nlm.nih.gov/articles/PMC9675887) | oem-supplier | global, sea, apac | open | summary-only |
 | [Referencebook.Iasp.Tgscloud.Net — Akpo field, Nigeria (subsea tree/manifold reference)](https://www.referencebook.iasp.tgscloud.net/TOTAL_Handbooks/Akpo-Handbook.pdf) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [Research.Csiro.Au — Cryogenic ammonia tank capacity (planned project)](https://research.csiro.au/hyresource/allied-green-ammonia/) | agency-data | global, apac, sea | open | summary-only |
 | [Research.Csiro.Au — Marine export facility (planned)](https://research.csiro.au/hyresource/murchison-green-hydrogen/) | agency-data | global, apac, sea | open | summary-only |
@@ -768,6 +775,7 @@
 | [American Bureau of Shipping (Wikipedia)](https://en.wikipedia.org/wiki/American_Bureau_of_Shipping) | oem-supplier | global, sea | open | summary-only |
 | [American Petroleum Institute, API RP 14C 8th ed (2017); preview on stdhive.com](https://www.stdhive.com/pdf_preview/api-rp-14c-pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [AmInvest Research - Potential sale of KAS III](https://klse.i3investor.com/web/blog/detail/AmInvestResearch/2024-03-07-story-h-186635527-Bumi_Armada_Potential_Sale_of_Karapan_Armada_Sterling_III) | oem-supplier | global, sea | open | summary-only |
+| [Apex Securities Initiating Coverage: Kinergy Advancement Bhd](https://ir2.chartnexus.com/kab/docs/analyst/2026/Kinergy%20Equity%20Research%20Initiation.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [ARENA Australian Renewable Energy Agency knowledge bank](https://arena.gov.au/knowledge-bank/) | agency-data | apac | open | full-text-open |
 | [Ariel Corporation (with Hoerbiger) — Ariel KBH hydrogen reciprocating compressor](https://www.arielcorp.com/compressors/kbh.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Ariel Corporation — Ariel JGN / JGQ separable reciprocating compressor (1-throw and 2-throw)](https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -783,6 +791,7 @@
 | [Asme.Org — B31.3 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Asme.Org — B31.8 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Atlantis PQ - Wikipedia](https://en.wikipedia.org/wiki/Atlantis_PQ) | oem-supplier | global, sea | open | summary-only |
+| [Aurora/Clarke Fire Pump List Prices, Section 913: Horizontal Split Case Fire Pumps - Diesel Engine Drive](https://4260356.fs1.hubspotusercontent-na2.net/hubfs/4260356/web%20price%20pages/Aurora/913%20horz%20diesel%20price%20pages%20(1).pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [AWT — Duyong Field Development Plan case study (PDF)](https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf) | oem-supplier | sea | open | summary-only |
 | [Baird Maritime - Marlin Natuna conversion](https://www.bairdmaritime.com/amp/story/offshore/refining-processing/offshore-processing-storage/vessel-conversion-marlin-natuna-large-floating-oil-and-gas-production-unit-for-deployment-off-western-indonesia) | oem-supplier | global, sea | open | summary-only |
 | [Baker Hughes](https://www.bakerhughes.com/completions/gas-lift-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -810,6 +819,7 @@
 | [China International Marine Containers (Wikipedia)](https://en.wikipedia.org/wiki/China_International_Marine_Containers) | oem-supplier | global, sea | open | summary-only |
 | [Chiyoda Corporation](https://www.chiyodacorp.com/en/) | epc-contractor | apac, global | open | full-text-restricted |
 | [CNIPA China National Intellectual Property Administration](https://english.cnipa.gov.cn/) | patents | apac | open | full-text-restricted |
+| [Cost Plus Profit - FIDICTerms contract terms wiki](https://r.jina.ai/https://www.fidicterms.org/wiki/index.php/Contracts:Cost_Plus_Profit) | oem-supplier | global, sea, apac | open | summary-only |
 | [Cummins Inc.](https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Cummins Inc. — Cummins diesel generator sets (Quiet Diesel, Standard Diesel, Centum Series)](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins — Cummins diesel genset rating range](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -876,6 +886,7 @@
 | [Gorgon LNG (Gorgon Gas Development) — cost](https://www.abc.net.au/news/2013-12-12/gorgon-gas-project-cost-blowout/5151982) | trade-media | global, apac, na, eu | open | summary-only |
 | [Gorgon LNG (Gorgon Gas Development) — cost](https://www.geos.ed.ac.uk/sccs/project-info/27) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [GRP Sectional Water Tank](https://pipeco.com.my/tank-product/grp-sectional-water-tank) | oem-supplier | global, sea, apac | open | summary-only |
+| [GT Silex Silencer Catalogue 2026](https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Gumusut-Kakap Deepwater Project](https://www.offshore-technology.com/projects/gumusut-kakap-deepwater-oil-gas/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Hanwha Ocean (Wikipedia)](https://en.wikipedia.org/wiki/Hanwha_Ocean) | oem-supplier | global, sea | open | summary-only |
 | [HD Hyundai Heavy Industries (Wikipedia)](https://en.wikipedia.org/wiki/HD_Hyundai_Heavy_Industries) | oem-supplier | global, sea | open | summary-only |
@@ -962,6 +973,7 @@
 | [LEWA (LEWA Solutions GmbH) — LEWA Chemical Injection Packages (CIP)](https://www.lewa.com/en/systems/chemical-injection-packages/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Liwan Gas Project (Liwan 3-1 / Liuhua 34-2 / Liuhua 29-1) — cost](https://www.offshore-mag.com/subsea/article/16757093/liwan-marks-first-ever-deepwater-gas-development-offshore-china) | trade-media | global, apac, na, eu | open | summary-only |
 | [Lloyd's Register (Wikipedia)](https://en.wikipedia.org/wiki/Lloyd%27s_Register) | oem-supplier | global, sea | open | summary-only |
+| [LNG Prime: Malaysia's Petronas hands out power plant contract for third FLNG](https://lngprime.com/asia/malaysias-petronas-hands-out-power-plant-contract-for-third-flng/70158/) | oem-supplier | global, sea, apac | open | summary-only |
 | [LONGi Green Energy Technology Co., Ltd. — LONGi Hi-MO 9 PV modules (LR7-72HYD, LR8-66HYD; LR7-72HYD-635M to 660M)](https://www.longi.com/en/products/modules/hi-mo-9/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [LONGi — LONGi Hi-MO 9 module maximum power](https://www.longi.com/en/products/modules/hi-mo-9/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Lube Oil Tanks (AC series specification table)](https://atlanticcontainment.com/lube-tanks) | oem-supplier | global, sea, apac | open | summary-only |
@@ -1035,6 +1047,7 @@
 | [PETRONAS Technology](https://www.petronas.com/) | licensor | sea, apac | open | full-text-restricted |
 | [Petronius platform — cost](https://www.offshore-technology.com/projects/petronius/) | trade-media | global, apac, na, eu | open | summary-only |
 | [PFLNG DUA (PETRONAS Floating LNG 2) — cost](https://lng2030.com/project/lng_223) | trade-media | global, apac, na, eu | open | summary-only |
+| [PIPECO Tanks Malaysia - GRP Sectional Water Tank](https://www.pipeco.com.my/products/grp-sectional-water-tank/) | oem-supplier | global, sea, apac | open | summary-only |
 | [Plascorp Pty Ltd — Composite hose range (petrol, vapour, hot bitumen, chemical; Codes 1000/901/1003/AVA/VRH/966/951/952/](https://www.plascorp.com.au/products/composite-hoses) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Pneumatech compressed air dryers](https://aerodyngroup.com/pneumatech) | oem-supplier | global, sea, apac | open | summary-only |
 | [PNG LNG Project — cost](https://chemanager-online.com/en/news/exxon-s-png-lng-project-costs-balloon-to-19-billion) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
@@ -1042,6 +1055,7 @@
 | [PNG LNG Project — cost](https://investor.exxonmobil.com/company-information/press-releases/detail/564/exxonmobil-starts-production-ahead-of-schedule-at-png-lng) | trade-media | global, apac, na, eu | open | summary-only |
 | [Preferred Utilities — Day Tank Model DT cutsheet (CATALOG 26)](https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Preferred Utilities — Fuel Oil Transfer Pump and Day Tank Set cutsheet (CATALOG 25)](https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf) | oem-supplier | global, sea, apac | open | summary-only |
+| [Preliminaries rates, Malaysia (Klang Valley)](https://www.wequantitysurveyor.com/reference/preliminaries-rates.html) | oem-supplier | global, sea, apac | open | summary-only |
 | [Prelude FLNG — cost](https://www.bbc.com/news/technology-25213845) | trade-media | global, apac, na, eu | open | summary-only |
 | [Prelude FLNG — cost](https://www.blackridgeresearch.com/project-profiles/all-about-prelude-shell-flng-floating-liquified-natural-gas-ship-project-australia-oceania) | trade-media | global, apac, na, eu | open | summary-only |
 | [Prelude FLNG — cost](https://www.businesskorea.co.kr/news/articleView.html?idxno=18504) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
@@ -1065,6 +1079,7 @@
 | [Seascape Energy Asia – Operations Malaysia](https://seascape-energy.com/operations-malaysia/) | oem-supplier | global, sea | open | summary-only |
 | [Seatrium (Wikipedia)](https://en.wikipedia.org/wiki/Seatrium) | oem-supplier | global, sea | open | summary-only |
 | [Seatrium secures $8.2bn FPSO newbuild contract from Petrobras](https://www.nsenergybusiness.com/news/seatrium-secures-fpso-contract-from-petrobras) | oem-supplier | global, sea | open | summary-only |
+| [Seetao: CNEEC wins bid for 100MW gas-fired peak shaving power station in Malaysia](https://www.seetaoe.com/details/278614.html) | oem-supplier | global, sea, apac | open | summary-only |
 | [Shah Deniz Stage Two (Full Field Development)](https://www.offshore-technology.com/projects/shah-deniz-stage-2-caspian-sea/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Sharda Industrial Corporation — COMPOHOSE LNG cryogenic composite hose (SNS type)](https://composite-hose.com/cryogenic/lng) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Shell Australia Pty Ltd / NOPSEMA](https://docs.nopsema.gov.au/A680618) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
@@ -1124,6 +1139,7 @@
 | [ThaiJO Thai Journals Online](https://www.tci-thaijo.org/) | journal | sea | open | full-text-restricted |
 | [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only |
 | [The Star — Brooke Holdings wins RM1bil oil and gas job (2026)](https://www.thestar.com.my/business/business-news/2026/06/01/brooke-holdings-wins-rm1bil-oil-and-gas-job) | oem-supplier | sea | open | summary-only |
+| [TNB - Siemens - Samsung sign agreements for the RM2.47 billion Prai Power Plant](https://www.tnb.com.my/announcements/tnb-siemens-samsung-sign-agreements-for-the-rm2.47-billion-prai-power-plant) | oem-supplier | global, sea, apac | open | summary-only |
 | [Toyo Engineering](https://www.toyo-eng.com/jp/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [Trina Solar](https://www.trinasolar.com/en/products) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [U.S. Nuclear Regulatory Commission / EPRI](https://www.nrc.gov/docs/ml0037/ml003767039.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
@@ -1133,6 +1149,7 @@
 | [US Government Publishing Office / eCFR (BSEE)](https://www.ecfr.gov/current/title-30/section-250.855) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [US patent by Melvyn F. Whitby and John T. Mangan (Cameron); copy on Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Cameron_EVO_BOP_Patent_(Stack).jpg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Victaulic Company — Victaulic mechanical pipe joining, fittings, flow control and expansion joints](https://www.victaulic.com/products/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Wartsila white paper: Combustion engine power plants](https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Westwood Insight - Offshore EPC contracting activity to remain buoyant in 2025](https://www.westwoodenergy.com/news/westwood-insight-offshore-epc-contracting-activity-to-remain-buoyant-in-2025) | oem-supplier | global, sea | open | summary-only |
 | [Wikimedia Commons; author 'Con-struct' (2012)](https://commons.wikimedia.org/wiki/File:Pump_with_tank_pid_en.svg) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Wikimedia Commons; author 'Ub' (2001)](https://commons.wikimedia.org/wiki/File:P%26ID.JPG) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -1159,6 +1176,7 @@
 | [JERA](https://www.jera.co.jp/en) | licensor | apac | open | summary-only (unverified) |
 | [Keppel Infrastructure and Energy](https://www.keppel.com/) | epc-contractor | sea | open | summary-only (unverified) |
 | [KOGAS Korea Gas Corporation](https://www.kogas.or.kr/site/eng/main.do) | licensor | apac | open | summary-only (unverified) |
+| [KSCRANE Overhead Crane Price Guide: A Realistic & Practical Cost Breakdown for You](https://www.kscranegroup.com/posts/overhead-crane-price-guide) | oem-supplier | global, sea, apac | open | summary-only |
 | [LONGi Hydrogen](https://www.longi.com/en/) | oem-supplier | apac, global | open | summary-only (unverified) |
 | [MSOSH Award — PETRONAS Carigali Duyong Platform profile](https://award39.msosh.org.my/petronas-duyong-platform) | oem-supplier | sea | open | summary-only |
 | [PERIC Hydrogen Technologies](https://www.peric718.com/) | oem-supplier | apac | open | summary-only (unverified) |
@@ -1168,6 +1186,7 @@
 | [Santos](https://www.santos.com/) | licensor | apac | open | summary-only (unverified) |
 | [Sarawak Gas Project (A Barrel Full wiki)](https://www.abarrelfull.co.uk/Sarawak_Gas_Project) | oem-supplier | global, sea | open | summary-only |
 | [Sinopec technology licensing](https://www.sinopecgroup.com/group/en/) | licensor | apac, global | open | summary-only (unverified) |
+| [Staab change order no. 8 with Quincy/SKF compressed air quotation and brochures](https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [The FPSO Cost Discussion](https://www.marinelink.com/news/discussion-fpso-cost396888) | oem-supplier | global, sea | open | summary-only |
 | [Tokyo Gas technology](https://www.tokyo-gas.co.jp/en/) | licensor | apac | open | summary-only (unverified) |
 | [Woodside Energy](https://www.woodside.com/) | licensor | apac | open | summary-only (unverified) |
@@ -1646,6 +1665,44 @@
 | [Global Syngas Technologies Council](https://globalsyngas.org) | association | global | open | catalog-only |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
 | [Google Patents WO2023227450A1 and CA3255249A1](https://patents.google.com/patent/WO2023227450A1/en) | patents | global | open | summary-only |
+| [Google Patents — CN105518284A](https://patents.google.com/patent/CN105518284A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — CN105863812A](https://patents.google.com/patent/CN105863812A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — CN106707126A](https://patents.google.com/patent/CN106707126A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — CN107947239A](https://patents.google.com/patent/CN107947239A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — CN109387802A](https://patents.google.com/patent/CN109387802A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — CN110610603A](https://patents.google.com/patent/CN110610603A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — CN114212853A](https://patents.google.com/patent/CN114212853A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — CN115152113A](https://patents.google.com/patent/CN115152113A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — CN1431665A](https://patents.google.com/patent/CN1431665A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — EP2485348B1](https://patents.google.com/patent/EP2485348B1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — EP2494170B1](https://patents.google.com/patent/EP2494170B1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — EP2652753B1](https://patents.google.com/patent/EP2652753B1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — EP2778620B1](https://patents.google.com/patent/EP2778620B1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — EP2896099B1](https://patents.google.com/patent/EP2896099B1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — EP3268760B1](https://patents.google.com/patent/EP3268760B1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — ES2908461T3](https://patents.google.com/patent/ES2908461T3/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — JP2008219452A](https://patents.google.com/patent/JP2008219452A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — JP2010255520A](https://patents.google.com/patent/JP2010255520A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — JP2012126528A](https://patents.google.com/patent/JP2012126528A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — JP5861805B2](https://patents.google.com/patent/JP5861805B2/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — JPWO2011125976A1](https://patents.google.com/patent/JPWO2011125976A1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — KR101029249B1](https://patents.google.com/patent/KR101029249B1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — KR101203625B1](https://patents.google.com/patent/KR101203625B1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — KR20100034303A](https://patents.google.com/patent/KR20100034303A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — KR20140068181A](https://patents.google.com/patent/KR20140068181A/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — RU2669298C2](https://patents.google.com/patent/RU2669298C2/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — TWI811966B](https://patents.google.com/patent/TWI811966B/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — US10247643B1](https://patents.google.com/patent/US10247643B1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — US10587098B2](https://patents.google.com/patent/US10587098B2/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — US10864395B2](https://patents.google.com/patent/US10864395B2/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — US11473470B2](https://patents.google.com/patent/US11473470B2/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — US11489363B2](https://patents.google.com/patent/US11489363B2/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — US20070240402A1](https://patents.google.com/patent/US20070240402A1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — US20220290589A1](https://patents.google.com/patent/US20220290589A1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — US7218708B2](https://patents.google.com/patent/US7218708B2/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — US8844504B2](https://patents.google.com/patent/US8844504B2/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — USRE42876E1](https://patents.google.com/patent/USRE42876E1/en) | oem-supplier | global | open | summary-only |
+| [Google Patents — WO2009061293A1](https://patents.google.com/patent/WO2009061293A1/en) | oem-supplier | global | open | summary-only |
 | [Honeywell UOP](https://uop.honeywell.com/) | licensor | global | open | catalog-only |
 | [Honeywell UOP Gas Treating (acid gas removal page)](https://uop.com/en/industry-solutions/gas-processing/gas-treating/acid-gas-removal) | oem-supplier | global | open | full-text-open (unverified) |
 | [Horizontal Drilling Engineering: Theory, Methods and Applications (Samuel & Gao, 2014)](https://id.scribd.com/document/241155713/Horizontal-Drilling-pdf) | association | global | mixed | full-text-restricted |

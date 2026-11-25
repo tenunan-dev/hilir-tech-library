@@ -154,6 +154,22 @@
     {
       "url": "https://syc-se.iec.ch/iec-63097-smart-energy-roadmap/der-management-system/",
       "source_id": "geg-syc-se-iec-ch-d5f39e2"
+    },
+    {
+      "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9459.aspx",
+      "source_id": "gef-sesb-com-my-tender-t-9459-aspx-d6cb7c7"
+    },
+    {
+      "url": "https://bastion.com.my/news.html",
+      "source_id": "gef-bastion-com-my-news-html-14886ce"
+    },
+    {
+      "url": "https://patents.google.com/patent/ES2908461T3/en",
+      "source_id": "gef-patents-google-com-en-f8c580e"
+    },
+    {
+      "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+      "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
     }
   ],
   "gaps": [
@@ -161,6 +177,16 @@
       "what": "Telecommunication and Network Infrastructure",
       "why": "No project-specific telecom network topology, fibre core count, radio links, switch quantities, bandwidth or price was found in any page read.",
       "next_action": "Request SESB Grid Owner communication guidelines and the project telecom/network BOQ and single-line diagram."
+    },
+    {
+      "what": "Telecommunication and network infrastructure",
+      "why": "No printed telecommunication/network infrastructure contract value or $/point, $/km or MYR rate for the 7-unit SESB-connected plant was found.",
+      "next_action": "Find the plant's ICT/network package BOQ or award notice and record its dated value, quantities and currency exactly as printed."
+    },
+    {
+      "what": "Telecommunication and network infrastructure",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

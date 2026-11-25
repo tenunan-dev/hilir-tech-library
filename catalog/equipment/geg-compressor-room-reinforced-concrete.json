@@ -58,6 +58,14 @@
       "url": "https://jml.com.sg/what-we-do/construction/projects",
       "source_id": "geg-jml-com-sg-projects-18172e3",
       "note": "JML scope: steel structure/equipment erection, piping and painting for process area and boiler package; industrial plant; client Samsung Engineering (Malaysia) Sdn Bhd."
+    },
+    {
+      "url": "https://scanelectromechanical.com/project/scan-project-03",
+      "source_id": "geg-scanelectromechanical-com-scan-project-03-f8abca1"
+    },
+    {
+      "url": "https://r.jina.ai/https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "gef-r-jina-ai-standard-a925f8a"
     }
   ],
   "gaps": [
@@ -65,6 +73,11 @@
       "what": "Compressor Room (reinforced concrete 15x12x5.7)",
       "why": "No named, dated compressor-room project or RC rate specific to a gas-engine plant compressor room found.",
       "next_action": "Seek an instrument-air/compressor-room building tender or published industrial building benchmark."
+    },
+    {
+      "what": "Compressor room (reinforced concrete)",
+      "why": "No published room-specific rate or award value found.",
+      "next_action": "Obtain the compressor-house priced BQ"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

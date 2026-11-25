@@ -165,6 +165,22 @@
     {
       "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
       "source_id": "geg-landisgyr-com-e850-873e563"
+    },
+    {
+      "url": "https://www.sesb.com.my/Tender.aspx",
+      "source_id": "gef-sesb-com-my-tender-aspx-86fb9e8"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN105471107A/en",
+      "source_id": "gef-patents-google-com-en-ff8f600"
+    },
+    {
+      "url": "https://theedgemalaysia.com/node/684572",
+      "source_id": "gef-theedgemalaysia-com-684572-c43c045"
+    },
+    {
+      "url": "https://patents.google.com/patent/EP2778620B1/en",
+      "source_id": "gef-patents-google-com-en-ad9e7b7"
     }
   ],
   "gaps": [
@@ -172,6 +188,26 @@
       "what": "Energy Billing System",
       "why": "Sabah Grid Code explicitly excludes billing-system technical/administrative requirements; no SESB billing software vendor, licence count or price was found in any page read.",
       "next_action": "Request SESB metering/billing interface specification and the EPC billing-systemBOQ with named software and priced quantities."
+    },
+    {
+      "what": "Energy billing system",
+      "why": "No real page read contains an energy-billing system contract value, rate, currency or named awarded supplier for this plant or for SESB/TNB.",
+      "next_action": "Obtain the SESB/TNB billing-system RFP award or contract notice and record its exact title, date, supplier, scope and value as printed."
+    },
+    {
+      "what": "Energy billing system",
+      "why": "No dated, sized, located reference project for an energy billing system specifically was found in the pages read.",
+      "next_action": "Find a utility billing-system case study with named client, location, go-live date and scale, and read its source page before recording it."
+    },
+    {
+      "what": "Energy billing system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Energy billing system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

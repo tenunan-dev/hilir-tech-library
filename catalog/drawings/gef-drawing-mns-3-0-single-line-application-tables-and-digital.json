@@ -1,0 +1,27 @@
+{
+  "id": "gef-drawing-mns-3-0-single-line-application-tables-and-digital",
+  "title": "MNS 3.0 single-line application tables and digital system diagram",
+  "diagram_type": "schematic",
+  "description": "Catalogue 'Primary circuit solutions' gives 'Singleline Application: Incomer, feeder, Bus tie' tables for Emax2 breakers, CTs and FC61x instruments; 'Digital solutions' shows a system diagram linking switchgear to process control system / power management system / emergency stop system, with Ethernet loop switches. Read via r.jina.ai 2026-11-25.",
+  "publisher": "ABB Xiamen Low Voltage Equipment Co., Ltd / ABB",
+  "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+  "sectors": [
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "equipment": [
+    "geg-low-voltage-switchgear"
+  ],
+  "sources": [
+    {
+      "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
+      "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c",
+      "note": "Catalogue 'Primary circuit solutions' gives 'Singleline Application: Incomer, feeder, Bus tie' tables for Emax2 breakers, CTs and FC61x instruments; 'Digital solutions' shows a system diagram linking "
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the GEG core-item gap-fill; drawing stays at publisher URL."
+}

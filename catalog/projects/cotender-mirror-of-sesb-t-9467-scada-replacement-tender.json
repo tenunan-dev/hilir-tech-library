@@ -1,0 +1,26 @@
+{
+  "id": "cotender-mirror-of-sesb-t-9467-scada-replacement-tender",
+  "name": "CoTender mirror of SESB T.9467 SCADA replacement tender",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "CoTender page read 25 Nov 2026: summarizes 'Tender For The Replacement Of Obsolete Scada System At Selected 33/11kV Distribution Substations', three packages PPU Manikar, PPU Kiansam, PPU Bangat; tender limited to Gred G4, ME, CIDB E03 (building automation), E04 (low voltage), E05 (high voltage up to 11kV); document price RM150. Kept as an independent report of the same tender; no award value.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://cotender.my/t/tender-for-the-replacement-of-obsolete-scada-system-at-selected-33-11kv-distribu-1e7d261a-ab7c-4f41-905e-d690b2ddbc32",
+      "source_id": "gef-cotender-my-tender-for-the-replacement-of-ob-5df321d",
+      "note": "CoTender page read 25 Nov 2026: summarizes 'Tender For The Replacement Of Obsole"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Utility SCADA and automatic generation control integration."
+}

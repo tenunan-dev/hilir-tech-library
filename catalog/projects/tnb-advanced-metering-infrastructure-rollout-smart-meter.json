@@ -1,0 +1,26 @@
+{
+  "id": "tnb-advanced-metering-infrastructure-rollout-smart-meter",
+  "name": "TNB advanced metering infrastructure rollout - smart meter supply contracts",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "The Edge reports of 2 and 9 October 2023 read 25 Nov 2026: TNB AMI implementation with daily consumption recording; both articles print RM21.17 million for 79,800 single-phase and 19,950 three-phase RF smart meters but attribute the award to different subsidiaries. Both kept side by side.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://theedgemalaysia.com/node/684572",
+      "source_id": "gef-theedgemalaysia-com-684572-c43c045",
+      "note": "The Edge reports of 2 and 9 October 2023 read 25 Nov 2026: TNB AMI implementatio"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Main and check tariff meters."
+}

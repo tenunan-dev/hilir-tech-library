@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-chongqing-gathering-marine-equipment-co-ltd-588b3",
+  "name": "Chongqing Gathering Marine Equipment Co., Ltd.",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Chongqing Gathering Marine Equipment Co., Ltd. named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf",
+      "source_id": "geg-alfalaval-my-product-leaflet-of-500-separato-fdf2cd7"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

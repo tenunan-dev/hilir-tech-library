@@ -1,0 +1,28 @@
+{
+  "id": "gef-mat-aisi-304-aisi-430-aisi-406-stainless-steel-resisto",
+  "name": "AISI 304 / AISI 430 / AISI-406 stainless steel resistor grid",
+  "material_category": "resistor-element-material",
+  "description": "AISI 304 / AISI 430 / AISI-406 stainless steel resistor grid named on a page read in the GEG gap-fill for Neutral grounding resistor panels.",
+  "specifications": [
+    {
+      "metric": "Resistor element material as printed",
+      "unit": "n/a",
+      "basis": "National Resistors NGR with VC panel entry: 'Corrosion-resistant construction with AISI 304 / AISI 430 / AISI-406 materials'; standard IEEE 32. Page read 2026-11-25. (value: AISI 304 / AISI 430 / AISI-406)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.nationalresistors.net/neutral-grounding-resistors.html",
+        "source_id": "gef-nationalresistors-net-neutral-grounding-resi-666210e"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-neutral-grounding-resistor-panels"
+  ],
+  "sources": [
+    {
+      "url": "https://www.nationalresistors.net/neutral-grounding-resistors.html",
+      "source_id": "gef-nationalresistors-net-neutral-grounding-resi-666210e"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

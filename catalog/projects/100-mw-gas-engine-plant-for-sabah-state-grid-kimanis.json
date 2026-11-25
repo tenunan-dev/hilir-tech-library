@@ -1,0 +1,26 @@
+{
+  "id": "100-mw-gas-engine-plant-for-sabah-state-grid-kimanis",
+  "name": "100 MW gas engine plant for Sabah state grid, Kimanis",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "Six Everllence 18V51/60DF engines, total output around 100 MW; customer valued fast delivery of main equipment",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+      "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan",
+      "note": "Six Everllence 18V51/60DF engines, total output around 100 MW; customer valued f"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Mechanical, electrical and C&I installation."
+}

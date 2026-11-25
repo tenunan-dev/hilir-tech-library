@@ -1,0 +1,26 @@
+{
+  "id": "gef-ram-com-my-pressrelease-0eba7bc",
+  "name": "RAM Ratings press release 18 Nov 2026 (KPSB2 delayed commissioning)",
+  "url": "https://www.ram.com.my/pressrelease?prviewid=7490",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "RAM Rating Services Berhad",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Published 18 November 2026; read directly 25 Nov 2026."
+}

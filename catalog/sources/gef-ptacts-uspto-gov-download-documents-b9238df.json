@@ -1,0 +1,25 @@
+{
+  "id": "gef-ptacts-uspto-gov-download-documents-b9238df",
+  "name": "US EPA Air Pollution Control Technology Fact Sheet: Selective Catalytic Reduction (SCR), EPA-452/F-03-032",
+  "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1554929/download-documents?artifactId=-hT6UcbS3XcKgNIbG490_B_-0V7oBM7JNPT4FaCk9eSn1NLxYJoZEzw",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "US EPA",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Document number EPA-452/F-03-032; docket exhibit dated 17 Aug 2023; cost basis explicitly 1999 dollars. Fetched via r.jina.ai fallback 25 Nov 2026."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "sesb-sabah-west-coast-project-transformer-package",
+  "name": "SESB Sabah West Coast project transformer package",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "MTM lists 2 x 90 MVA 132/66 kV, 4 x 45 MVA 132/33 kV, 2 x 30 MVA 132/11 kV and 4 x 30 MVA 132/11 kV. Page gives no year or price.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.malaysiatransformer.com/about",
+      "source_id": "gef-malaysiatransformer-com-about-c845fc2",
+      "note": "MTM lists 2 x 90 MVA 132/66 kV, 4 x 45 MVA 132/33 kV, 2 x 30 MVA 132/11 kV and 4"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Power transformers."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "gef-drawing-elk-04-c-145-kv-double-busbar-bay-technical-data-w",
+  "title": "ELK-04 C, 145 kV double busbar bay – technical data with dimension drawings",
+  "diagram_type": "schematic",
+  "description": "Brochure section 'Technical data' presents the 145 kV double busbar bay with 'Dimensions in mm'; also shows L-element, T-element, X-element, busduct with pressure relief device, SF6-air bushing, cable connection and transformer connection schematics. Read via r.jina.ai 2026-11-25.",
+  "publisher": "ABB AG High Voltage Products",
+  "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+  "sectors": [
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "equipment": [
+    "geg-132-kv-substation"
+  ],
+  "sources": [
+    {
+      "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+      "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9",
+      "note": "Brochure section 'Technical data' presents the 145 kV double busbar bay with 'Dimensions in mm'; also shows L-element, T-element, X-element, busduct with pressure relief device, SF6-air bushing, cable"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the GEG core-item gap-fill; drawing stays at publisher URL."
+}

@@ -59,6 +59,18 @@
       "url": "https://jml.com.sg/what-we-do/construction/projects",
       "source_id": "geg-jml-com-sg-projects-18172e3",
       "note": "JML scope: task force work - piping, mechanical, structural and E&I; industrial plant; client Mitsubishi Heavy Industries, Ltd."
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "geg-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://r.jina.ai/https://siderticino.it/files/en/s355j2-steel-datasheet.pdf",
+      "source_id": "gef-r-jina-ai-s355j2-steel-datasheet-pdf-058ba23"
+    },
+    {
+      "url": "https://r.jina.ai/https://parksidesteel.co.uk/technical-library/datasheets/s355-j2.pdf",
+      "source_id": "gef-r-jina-ai-s355-j2-pdf-6a166f8"
     }
   ],
   "gaps": [
@@ -66,6 +78,11 @@
       "what": "Pump Building (steel structure 22x12x5.7)",
       "why": "No public rate or named reference for a 22x12 m steel pump building at a gas-engine plant.",
       "next_action": "Find a comparable pump-house steel-building tender or fabricator rate."
+    },
+    {
+      "what": "Pump building (steel structure)",
+      "why": "No published rate or award value for a steel-structure pump building at a gas-engine plant; only generic element rates and a steel datasheet were found.",
+      "next_action": "Obtain the pump-house structural steel rate and tonnage from the priced BQ"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

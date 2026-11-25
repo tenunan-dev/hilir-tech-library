@@ -1,0 +1,26 @@
+{
+  "id": "sesb-tender-t-9459-fibre-optic-cable-adss-and-opug-repai",
+  "name": "SESB Tender T.9459 - fibre optic cable (ADSS and OPUG) repair and maintenance schedule rate",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "SESB page read 25 Nov 2026; utility communication carrier network referencing ADSS and OPUG cable; no schedule rates printed.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9459.aspx",
+      "source_id": "gef-sesb-com-my-tender-t-9459-aspx-d6cb7c7",
+      "note": "SESB page read 25 Nov 2026; utility communication carrier network referencing AD"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Utility communication system."
+}

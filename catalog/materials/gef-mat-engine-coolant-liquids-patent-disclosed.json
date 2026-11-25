@@ -1,0 +1,28 @@
+{
+  "id": "gef-mat-engine-coolant-liquids-patent-disclosed",
+  "name": "Engine coolant liquids (patent-disclosed)",
+  "material_category": "heat-transfer-fluid",
+  "description": "Engine coolant liquids (patent-disclosed) named on a page read in the GEG gap-fill for Cooling water system with air-cooled radiator.",
+  "specifications": [
+    {
+      "metric": "Coolant options",
+      "unit": "material",
+      "basis": "US8844504B2 (Modine Manufacturing Co, publication date 2014-09-30) description: 'the coolant may be a typical engine coolant such as ethylene glycol, propylene glycol, water, or some mixture thereof'. Page read 2026-11-25. (value: Ethylene glycol, propylene glycol, water, or mixtures thereof; in other embodime)",
+      "year": 2014,
+      "source": {
+        "url": "https://patents.google.com/patent/US8844504B2/en",
+        "source_id": "gef-patents-google-com-en-5504951"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-cooling-water-system-with-air-cooled-radiator"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US8844504B2/en",
+      "source_id": "gef-patents-google-com-en-5504951"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

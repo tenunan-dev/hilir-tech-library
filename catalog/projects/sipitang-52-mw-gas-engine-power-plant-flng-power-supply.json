@@ -1,0 +1,26 @@
+{
+  "id": "sipitang-52-mw-gas-engine-power-plant-flng-power-supply",
+  "name": "Sipitang 52 MW gas engine power plant (FLNG power supply)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Regas Terminal (Petronas Gas) awarded KAB Energy Holdings EPCC contract worth RM230 million (printed also as $52.2 million); located at Sipitang Oil and Gas Industrial Park; natural gas main fuel with distillate backup in the wider project set; seven Everllence 20V35/44G gas engines, >70 MW potential output for a 52 MW plant",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://lngprime.com/asia/malaysias-petronas-hands-out-power-plant-contract-for-third-flng/70158/",
+      "source_id": "gef-lngprime-com-c539cf7",
+      "note": "Regas Terminal (Petronas Gas) awarded KAB Energy Holdings EPCC contract worth RM"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Gas receiving and metering station with hot tap and fuel gas supply."
+}

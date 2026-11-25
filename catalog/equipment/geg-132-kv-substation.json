@@ -163,11 +163,37 @@
         "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
         "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
       }
+    },
+    {
+      "metric": "132/33 kV main intake substation ( — Transformer capacity of named 132/33 kV PMU",
+      "unit": "MVA",
+      "basis": "MN Holdings/Bursa filing report: Blue Valley PMU 132/33 kV 'with a capacity of two times 45 mega-volt amperes' (2 x 45 MVA = 90 MVA stated basis, not a separate printed figure). Report published 13 Aug 2026.",
+      "value": 90,
+      "year": 2026,
+      "source": {
+        "url": "https://finance.biggo.com/news/d11b9a98-9228-4c7f-9346-c5e84a233c0f",
+        "source_id": "gef-finance-biggo-com-d11b9a98-9228-4c7f-9346-c5-0894601"
+      }
+    },
+    {
+      "metric": "132/33 kV main intake substation ( — 132 kV mobile substation voltage class",
+      "unit": "kV",
+      "basis": "Sieyuan case page: seven 132 kV mobile high-voltage substations, 40 MVA transformer capacity, dual 33 kV and 13.8 kV output; page read 2026-11-25, no year stated.",
+      "value": 132,
+      "year": 2026,
+      "source": {
+        "url": "https://en.sieyuan.com/cases/saudi-sec-132kv-mobile-substation",
+        "source_id": "gef-en-sieyuan-com-saudi-sec-132kv-mobile-substa-6bd1492"
+      }
     }
   ],
   "vendor_models": [],
   "vendors": [
-    "geg-vendor-unidentified"
+    "geg-vendor-unidentified",
+    "gef-vendor-pestech-sdn-bhd-f89ae",
+    "gef-vendor-mn-power-transmission-sdn-bhd-subsidiary-of-mn-hol-b5551",
+    "gef-vendor-hexatech-engineering-sdn-bhd-subsidiary-of-he-grou-9af08",
+    "gef-vendor-sieyuan-electric-a6307"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -188,6 +214,30 @@
     {
       "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
       "source_id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1"
+    },
+    {
+      "url": "https://theedgemalaysia.com/article/pestech-bags-rm58m-sibiyu-substation-job",
+      "source_id": "gef-theedgemalaysia-com-pestech-bags-rm58m-sibiy-c3ed7ab"
+    },
+    {
+      "url": "https://finance.biggo.com/news/d11b9a98-9228-4c7f-9346-c5e84a233c0f",
+      "source_id": "gef-finance-biggo-com-d11b9a98-9228-4c7f-9346-c5-0894601"
+    },
+    {
+      "url": "https://switchgear-magazine.com/news/business/he-group-wins-20-m-substation-deal",
+      "source_id": "gef-switchgear-magazine-com-he-group-wins-20-m-s-f4964a6"
+    },
+    {
+      "url": "https://en.sieyuan.com/cases/saudi-sec-132kv-mobile-substation",
+      "source_id": "gef-en-sieyuan-com-saudi-sec-132kv-mobile-substa-6bd1492"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
+    },
+    {
+      "url": "https://patents.google.com/patent/EP2652753B1/en",
+      "source_id": "gef-patents-google-com-en-db720ff"
     }
   ],
   "gaps": [
@@ -205,6 +255,11 @@
       "what": "132kV Substation (3 busbar, 2 outgoing, 4 incoming)",
       "why": "No patent page was read for GIS technology; IEC 61850 is a standard, not a patent record.",
       "next_action": "Keep patents empty unless a patent page is actually read."
+    },
+    {
+      "what": "132 kV substation",
+      "why": "No dated 132 kV substation package award value was found for SESB/Sabah specifically; the three prices recorded are Sarawak/TNB/Selangor projects, not an SESB 132/33/11 kV connection.",
+      "next_action": "Locate an SESB 132 kV PMU award notice with a value and price year."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

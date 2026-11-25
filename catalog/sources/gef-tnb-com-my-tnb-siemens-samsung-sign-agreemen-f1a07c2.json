@@ -1,0 +1,26 @@
+{
+  "id": "gef-tnb-com-my-tnb-siemens-samsung-sign-agreemen-f1a07c2",
+  "name": "TNB - Siemens - Samsung sign agreements for the RM2.47 billion Prai Power Plant",
+  "url": "https://www.tnb.com.my/announcements/tnb-siemens-samsung-sign-agreements-for-the-rm2.47-billion-prai-power-plant",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Tenaga Nasional Berhad",
+  "access": "open",
+  "licence": "not stated in source",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch 25 Nov 2026. Announcement dated 22 Jan 2013; agreements signed 21 Jan 2013. No licence stated."
+}

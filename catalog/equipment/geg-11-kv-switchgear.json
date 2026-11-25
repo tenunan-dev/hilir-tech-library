@@ -106,6 +106,48 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
       }
+    },
+    {
+      "metric": "11 kV metalclad / metal-enclosed v — Bus continuous current",
+      "unit": "A",
+      "basis": "Petersburg Borough Scow Bay Gen #2 11 kV switchgear bid specification, section 5.0, dated 4 August 2025.",
+      "value": 1200,
+      "year": 2025,
+      "source": {
+        "url": "https://www.petersburgak.gov/sites/default/files/fileattachments/power_amp_light/page/18954/petersburg_borough_scow_bay_generator_2_switchgear_bid_package_8.22.25.pdf",
+        "source_id": "gef-petersburgak-gov-petersburg-borough-scow-bay-2641f5b"
+      }
+    },
+    {
+      "metric": "11 kV metalclad / metal-enclosed v — Interrupting symmetrical current",
+      "unit": "kA",
+      "basis": "Same bid specification, section 5.0: interrupting symmetrical current 25 kA; maximum RMS momentary 29 kA; closing and latching 65 kA.",
+      "value": 25,
+      "source": {
+        "url": "https://www.petersburgak.gov/sites/default/files/fileattachments/power_amp_light/page/18954/petersburg_borough_scow_bay_generator_2_switchgear_bid_package_8.22.25.pdf",
+        "source_id": "gef-petersburgak-gov-petersburg-borough-scow-bay-2641f5b"
+      }
+    },
+    {
+      "metric": "11 kV metalclad / metal-enclosed v — Rated maximum voltage / BIL",
+      "unit": "kV",
+      "basis": "Same bid specification, section 5.0: Rated Maximum Voltage 15 kV; BIL 95 kV; bus voltage 11,000 V delta, 60 Hz.",
+      "value": 15,
+      "source": {
+        "url": "https://www.petersburgak.gov/sites/default/files/fileattachments/power_amp_light/page/18954/petersburg_borough_scow_bay_generator_2_switchgear_bid_package_8.22.25.pdf",
+        "source_id": "gef-petersburgak-gov-petersburg-borough-scow-bay-2641f5b"
+      }
+    },
+    {
+      "metric": "11 kV metalclad / metal-enclosed v — KYN28-12 metal-clad MV panel rating",
+      "unit": "kA / 3 s",
+      "basis": "JIAHE Malaysia market page: KYN28-12 metal-clad MV, 11 kV-12 kV, 1250 A-3150 A, 'IAC AFLR 31.5kA / 3s'. Page read 2026-11-25; vendor literature, 2025-2026 price matrix.",
+      "value": 31.5,
+      "year": 2026,
+      "source": {
+        "url": "https://www.jiahotech.com/switchgear-type-price-suppliers-in-malaysia",
+        "source_id": "gef-jiahotech-com-switchgear-type-price-supplier-3564305"
+      }
     }
   ],
   "vendor_models": [
@@ -122,7 +164,9 @@
   ],
   "vendors": [
     "abb",
-    "siemens"
+    "siemens",
+    "gef-vendor-tenaga-switchgear-sdn-bhd-8ef1c",
+    "gef-vendor-tamco-switchgear-malaysia-sdn-bhd-19c11"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -143,6 +187,22 @@
     {
       "url": "https://webstore.iec.ch/en/publication/62785",
       "source_id": "geg-webstore-iec-ch-62785-9cea2d9"
+    },
+    {
+      "url": "https://www.petersburgak.gov/sites/default/files/fileattachments/power_amp_light/page/18954/petersburg_borough_scow_bay_generator_2_switchgear_bid_package_8.22.25.pdf",
+      "source_id": "gef-petersburgak-gov-petersburg-borough-scow-bay-2641f5b"
+    },
+    {
+      "url": "https://www.jiahotech.com/switchgear-type-price-suppliers-in-malaysia",
+      "source_id": "gef-jiahotech-com-switchgear-type-price-supplier-3564305"
+    },
+    {
+      "url": "https://www.htyel.com/electrical-switchgear-cost-estimate-a-practical-pricing-guide",
+      "source_id": "gef-htyel-com-electrical-switchgear-cost-estimat-6ce70b8"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e"
     }
   ],
   "gaps": [
@@ -160,6 +220,21 @@
       "what": "11kV Switchgears (11 units)",
       "why": "No patent page was read.",
       "next_action": "Keep patents empty until read."
+    },
+    {
+      "what": "11 kV switchgear",
+      "why": "No dated SESB/TNB 11 kV switchgear award value was found; only a US municipal owner's estimate and vendor benchmark prices were readable.",
+      "next_action": "Find an 11 kV VCB panel award with a stated Malaysian contract value and price year."
+    },
+    {
+      "what": "11 kV switchgear",
+      "why": "No Google Patents / USPTO / Espacenet page was read that identifies a patent specifically for this plant item; recording one would require invention.",
+      "next_action": "Obtain the project equipment datasheet or vendor patent list, then read the identified patent page and record number, title, assignee and publication year."
+    },
+    {
+      "what": "11 kV switchgear",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

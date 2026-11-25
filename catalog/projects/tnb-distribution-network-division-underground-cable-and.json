@@ -1,0 +1,26 @@
+{
+  "id": "tnb-distribution-network-division-underground-cable-and",
+  "name": "TNB Distribution Network Division underground cable and conductor supply (supplementary order), Malaysia",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Southern Cable Sdn Bhd, RM403.6 million; original contract awarded February 2025; total group orders in hand over RM1 billion; cables also supplied to SESB, TNB, TM and PETRONAS per press release.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://southerncable.investor.net.my/wp-content/uploads/2026/07/SouthernCable_TNB-Contract_PressRelease_final_260702.pdf",
+      "source_id": "gef-southerncable-investor-net-my-southerncable-fe686b0",
+      "note": "Southern Cable Sdn Bhd, RM403.6 million; original contract awarded February 2025"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for HV and LV cables with cable trays and accessories."
+}

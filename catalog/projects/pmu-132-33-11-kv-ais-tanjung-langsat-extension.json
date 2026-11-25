@@ -1,0 +1,26 @@
+{
+  "id": "pmu-132-33-11-kv-ais-tanjung-langsat-extension",
+  "name": "PMU 132/33/11 kV AIS Tanjung Langsat extension",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Johor)",
+  "location": "Malaysia (Johor)",
+  "status": "operating",
+  "description": "132 kV secondary switchyard, 132/33/11 kV control and relay panels, RTU, 11 kV switchgear, 11/33 kV NER system",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "geg-pestec-international-com-electrical-substati-bc9755e",
+      "note": "132 kV secondary switchyard, 132/33/11 kV control and relay panels, RTU, 11 kV s"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for 33 kV substation and LV distribution room."
+}

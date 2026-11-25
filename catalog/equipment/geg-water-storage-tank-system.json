@@ -200,6 +200,60 @@
         "url": "https://basiia.com/products/api-650-tanks",
         "source_id": "geg-basiia-com-api-650-tanks-28cf110"
       }
+    },
+    {
+      "metric": "GRP sectional panel water tank — Design standard",
+      "unit": "n/a",
+      "basis": "PIPECO Tanks Malaysia GRP Sectional Water Tank general specifications page, read directly 25 Nov 2026 (value: Singapore Standard SS245:2014, MS 1390:2010 similar to BS 7491 Part 3:1994 and B)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+        "source_id": "gef-pipeco-com-my-3234b71"
+      }
+    },
+    {
+      "metric": "GRP sectional panel water tank — Tensile strength, panel",
+      "unit": "MN/m2",
+      "basis": "PIPECO GRP tank panel performance table: 107 MN/m2 vs SS 245:2014 acceptance criteria >70 (min); page read 25 Nov 2026",
+      "value": 107,
+      "year": 2014,
+      "source": {
+        "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+        "source_id": "gef-pipeco-com-my-3234b71"
+      }
+    },
+    {
+      "metric": "GRP sectional panel water tank — Bending strength, panel",
+      "unit": "MN/m2",
+      "basis": "PIPECO GRP tank panel performance table: 167 MN/m2 vs SS 245:2014 acceptance criteria >100 (min)",
+      "value": 167,
+      "year": 2014,
+      "source": {
+        "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+        "source_id": "gef-pipeco-com-my-3234b71"
+      }
+    },
+    {
+      "metric": "GRP sectional panel water tank — Glass content, panel",
+      "unit": "%",
+      "basis": "PIPECO GRP tank panel performance table: 33% vs SS 245:2014 acceptance criteria >25 (min)",
+      "value": 33,
+      "year": 2014,
+      "source": {
+        "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+        "source_id": "gef-pipeco-com-my-3234b71"
+      }
+    },
+    {
+      "metric": "GRP sectional panel water tank — Water absorption, panel",
+      "unit": "%",
+      "basis": "PIPECO GRP tank panel performance table: 0.2% vs SS 245:2014 acceptance criteria 0.5 (max)",
+      "value": 0.2,
+      "year": 2014,
+      "source": {
+        "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+        "source_id": "gef-pipeco-com-my-3234b71"
+      }
     }
   ],
   "vendor_models": [
@@ -210,7 +264,10 @@
     }
   ],
   "vendors": [
-    "geg-vendor-pipeco-tanks-malaysia-pelabuhan-klang-selangor-mal-08cca"
+    "geg-vendor-pipeco-tanks-malaysia-pelabuhan-klang-selangor-mal-08cca",
+    "gef-vendor-potaglas-malaysia-be71f",
+    "gef-vendor-mui-fatt-marketing-sdn-bhd-7757a",
+    "gef-vendor-g-frp-venture-marketing-sdn-bhd-1e15a"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -232,6 +289,10 @@
       "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
       "source_id": "geg-focusmalaysia-my-kinergy-secures-biggest-epc-2381482",
       "note": "LOA dated 13 May 2025 from Rancha Power (PETRONAS Gas / SESB / SEC Power JV, formed 31 Dec 2024) to KAB Energy Holdings / Kinergy Advancement Bhd; nine acres adjacent to Labuan Shipyard. Water-tank pa"
+    },
+    {
+      "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
+      "source_id": "gef-pipeco-com-my-3234b71"
     }
   ],
   "gaps": [
@@ -249,6 +310,26 @@
       "what": "Water Tank System Package",
       "why": "No named, dated, sized, located water-tank reference project was printed on the pages read; only the unrelated plant EPCC context was available.",
       "next_action": "Request PIPECO 'Our Works' reference list or project-specific vendor track record."
+    },
+    {
+      "what": "Water storage tank system",
+      "why": "No project-specific water tank capacity, dimensions, location or package price for the 7-unit SESB plant was found in the pages read.",
+      "next_action": "Obtain the project water storage BOQ, tank schedule and vendor quotation from project documents."
+    },
+    {
+      "what": "Water storage tank system",
+      "why": "No Google Patents / USPTO / Espacenet page was read that identifies a patent specifically for this plant item; recording one would require invention.",
+      "next_action": "Obtain the project equipment datasheet or vendor patent list, then read the identified patent page and record number, title, assignee and publication year."
+    },
+    {
+      "what": "Water storage tank system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Water storage tank system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

@@ -1,0 +1,25 @@
+{
+  "id": "gef-nvent-com-isolated-phase-bus-e506d7c",
+  "name": "nVent - Isolated Phase Bus systems",
+  "url": "https://www.nvent.com/en-us/isolated-phase-bus",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "nVent",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Page read 2026-11-25; undated product page; ratings quoted as printed; no price."
+}

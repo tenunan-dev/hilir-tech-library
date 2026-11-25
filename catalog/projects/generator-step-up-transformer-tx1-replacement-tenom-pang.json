@@ -1,0 +1,26 @@
+{
+  "id": "generator-step-up-transformer-tx1-replacement-tenom-pang",
+  "name": "Generator step-up transformer Tx1 replacement, Tenom Pangi Hydro Power Station, Sabah",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "One 30 MVA 11/132 kV generator transformer; TNB REMACO / SESB",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008",
+      "note": "One 30 MVA 11/132 kV generator transformer; TNB REMACO / SESB"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Step-up transformer bay."
+}

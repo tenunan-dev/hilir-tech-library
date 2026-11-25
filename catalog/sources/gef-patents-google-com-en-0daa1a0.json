@@ -1,0 +1,23 @@
+{
+  "id": "gef-patents-google-com-en-0daa1a0",
+  "name": "Google Patents — TWI811966B",
+  "url": "https://patents.google.com/patent/TWI811966B/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Google Patents (USPTO/EPO bibliographic data)",
+  "access": "open",
+  "licence": "Patent bibliographic text; Google Patents terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Google Patents patent page read 2026-11-25; publication date 2023-08-11 (direct page returned HTTP 503; read via r.jina.ai)."
+}

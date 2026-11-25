@@ -1,0 +1,26 @@
+{
+  "id": "gef-nationalresistors-net-neutral-grounding-resi-666210e",
+  "name": "National Resistors - Neutral Grounding Resistors product and price page",
+  "url": "https://www.nationalresistors.net/neutral-grounding-resistors.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "MAT"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "National Resistors, Pune, Maharashtra, India",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Page read 2026-11-25. No publication or price year; INR prices as displayed; vendor listings, not awards. Product images carry a 2026/6 path string but that is not used as a price date."
+}

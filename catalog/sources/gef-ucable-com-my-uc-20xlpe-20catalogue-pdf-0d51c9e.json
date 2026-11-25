@@ -1,0 +1,24 @@
+{
+  "id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e",
+  "name": "UC XLPE Catalogue – Universal Cable (M) Berhad",
+  "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "MAT"
+  ],
+  "regions": [
+    "apac"
+  ],
+  "publisher_org": "Universal Cable (M) Berhad",
+  "access": "open",
+  "licence": "OEM catalogue; licence not stated in read text",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. 80-page XLPE cable catalogue; direct WebFetch blocked for application/pdf; read via r.jina.ai 2026-11-25 (Jina Published Time 2024-07-28). No print date in extracted text."
+}

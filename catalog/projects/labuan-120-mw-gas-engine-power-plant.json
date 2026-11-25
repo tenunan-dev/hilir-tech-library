@@ -1,0 +1,26 @@
+{
+  "id": "labuan-120-mw-gas-engine-power-plant",
+  "name": "Labuan 120 MW gas engine power plant",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "KINERGYEH-Sinohydro JV EPCC contract RM646.3m issued by Rancha Power Sdn Bhd (JV of PG Energia, Sustainable Power/SESB, SEC Power); seven Everllence 18V51/60DF engines",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://ir2.chartnexus.com/kab/docs/analyst/2026/Kinergy%20Equity%20Research%20Initiation.pdf",
+      "source_id": "gef-ir2-chartnexus-com-kinergy-20equity-20resear-b9da801",
+      "note": "KINERGYEH-Sinohydro JV EPCC contract RM646.3m issued by Rancha Power Sdn Bhd (JV"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Gas receiving and metering station with hot tap and fuel gas supply."
+}

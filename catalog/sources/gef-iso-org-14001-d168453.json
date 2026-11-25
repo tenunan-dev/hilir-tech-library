@@ -1,0 +1,25 @@
+{
+  "id": "gef-iso-org-14001-d168453",
+  "name": "ISO 14001:2026 Environmental management systems - Requirements with guidance for use",
+  "url": "https://www.iso.org/standard/14001",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "International Organization for Standardization (ISO)",
+  "access": "open",
+  "licence": "not stated in source",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch 25 Nov 2026. Edition 4, publication date 2026-04; stage 60.60 published 15 April 2026. No licence stated."
+}

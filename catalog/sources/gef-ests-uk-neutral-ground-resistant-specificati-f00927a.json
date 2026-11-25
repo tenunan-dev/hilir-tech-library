@@ -1,0 +1,25 @@
+{
+  "id": "gef-ests-uk-neutral-ground-resistant-specificati-f00927a",
+  "name": "Neutral Grounding Resistor Specification FNGR11kV-300A-21.1Ω-30s-23",
+  "url": "https://ests.uk/wp-content/uploads/2025/08/Neutral-Ground-Resistant-Specification.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "MAT"
+  ],
+  "regions": [
+    "global",
+    "eu"
+  ],
+  "publisher_org": "Novo Electric Technology UK Ltd / ESTS",
+  "access": "open",
+  "licence": "OEM specification; licence not stated in read text",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. 5-page specification dated 28 February 2025; direct PDF WebFetch blocked; read via r.jina.ai 2026-11-25 (Jina Published Time 2025-08-25)."
+}

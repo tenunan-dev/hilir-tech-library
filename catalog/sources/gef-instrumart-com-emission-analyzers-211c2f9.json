@@ -1,0 +1,25 @@
+{
+  "id": "gef-instrumart-com-emission-analyzers-211c2f9",
+  "name": "Instrumart Emission Analyzers catalogue",
+  "url": "https://www.instrumart.com/categories/6146/emission-analyzers",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "INS"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Instrumart",
+  "access": "open",
+  "licence": "not stated on page",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch 25 Nov 2026. No publication or price-year date on page (page footer '© Instrumart 2026'); dollar year not stated for any listed price. Prices as printed in US dollars."
+}

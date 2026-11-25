@@ -1,0 +1,26 @@
+{
+  "id": "ibri-independent-power-plant-black-start-diesel-generato",
+  "name": "IBRI Independent Power Plant black start diesel generator system, Ibri, Oman",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Oman",
+  "location": "Oman",
+  "status": "operating",
+  "description": "8 x 2,875 kW (23 MW total) HC-BSDG units, MTU 20V4000G63 engines, Leroy-Somer LSA 53 alternators, 11 kV, containerised, for restoring gas turbines and auxiliaries after total grid blackout. No contract value published.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://generatordieselchina.com/projects/oman-ibri-bsdg",
+      "source_id": "gef-generatordieselchina-com-oman-ibri-bsdg-749f7a2",
+      "note": "8 x 2,875 kW (23 MW total) HC-BSDG units, MTU 20V4000G63 engines, Leroy-Somer LS"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Black start diesel generator."
+}

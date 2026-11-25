@@ -1,0 +1,25 @@
+{
+  "id": "gef-petersburgak-gov-petersburg-borough-scow-bay-2641f5b",
+  "name": "Petersburg Borough - Scow Bay Gen #2 Switchgear Bid Documents & Specifications",
+  "url": "https://www.petersburgak.gov/sites/default/files/fileattachments/power_amp_light/page/18954/petersburg_borough_scow_bay_generator_2_switchgear_bid_package_8.22.25.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Petersburg Borough, dba Petersburg Municipal Power and Light",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Direct PDF fetch unsupported by WebFetch; PDF read through https://r.jina.ai/<url> (jina.ai proxy used). Bid documents dated August 2025; technical specification dated 4 August 2025; estimate US$200,000-$300,000. No award value."
+}

@@ -259,11 +259,26 @@
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
         "source_id": "geg-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
       }
+    },
+    {
+      "metric": "Underground power cables and condu — Largest certified underground transmission cable conductor size",
+      "unit": "sq. mm",
+      "basis": "Southern Cable press release, 2 July 2026: 'product certification for its high-capacity underground transmission cable with conductor sizes of up to 1,800 sq. mm.'",
+      "value": 1800,
+      "year": 2026,
+      "source": {
+        "url": "https://southerncable.investor.net.my/wp-content/uploads/2026/07/SouthernCable_TNB-Contract_PressRelease_final_260702.pdf",
+        "source_id": "gef-southerncable-investor-net-my-southerncable-fe686b0"
+      }
     }
   ],
   "vendor_models": [],
   "vendors": [
-    "geg-vendor-unidentified"
+    "geg-vendor-unidentified",
+    "gef-vendor-southern-cable-group-berhad-southern-cable-sdn-bhd-da4b3",
+    "gef-vendor-master-tec-group-berhad-sediacom-sdn-bhd-275-kv-ca-38313",
+    "gef-vendor-jati-tinggi-group-bhd-275-kv-cable-subcontract-ade8c",
+    "gef-vendor-national-energy-berhad-cable-tray-tender-issuer-a7774"
   ],
   "technologies": [
     "pwr-geg-plant-wbs-supply-chain"
@@ -284,6 +299,18 @@
     {
       "url": "https://www.st.gov.my/resources/guidelines-connection-charges-sabah-electricity-sdn-bhd-sesb",
       "source_id": "geg-st-gov-my-guidelines-connection-charges-saba-2ea0fcb"
+    },
+    {
+      "url": "https://southerncable.investor.net.my/wp-content/uploads/2026/07/SouthernCable_TNB-Contract_PressRelease_final_260702.pdf",
+      "source_id": "gef-southerncable-investor-net-my-southerncable-fe686b0"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN1431665A/en",
+      "source_id": "gef-patents-google-com-en-0de5a87"
+    },
+    {
+      "url": "https://www.ucable.com.my/images/products/UC%20XLPE%20Catalogue.pdf",
+      "source_id": "gef-ucable-com-my-uc-20xlpe-20catalogue-pdf-0d51c9e"
     }
   ],
   "gaps": [
@@ -306,6 +333,11 @@
       "what": "Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV)",
       "why": "No patent number printed in any source read for this item.",
       "next_action": "Do not infer patent numbers."
+    },
+    {
+      "what": "HV and LV cables with cable trays and accessories",
+      "why": "No priced cable-tray package or named, dated, sized cable-tray project was found in a directly read page; the SESB Sabah cable project list page was 404 on both direct fetch and r.jina.ai. One unverified cable figure is explicitly flagged with page_read:false and excluded from prices.",
+      "next_action": "Read an accessible SESB cable-laying award or a tender with a published rate schedule and price year."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

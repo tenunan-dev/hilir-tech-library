@@ -1,0 +1,68 @@
+{
+  "id": "gef-mat-sf6-insulating-gas-and-gis-enclosure-materials",
+  "name": "SF6 insulating gas and GIS enclosure materials",
+  "material_category": "insulating-gas-enclosure",
+  "description": "SF6 insulating gas and GIS enclosure materials named on a page read in the GEG gap-fill for 132 kV substation.",
+  "specifications": [
+    {
+      "metric": "Insulating / arc-quenching medium",
+      "unit": "qualitative",
+      "basis": "ABB ELK-04 C brochure, 'Technology' and 'ABB’s high-voltage circuit-breaker' sections. Read via r.jina.ai 2026-11-25. (value: SF 6 gas; ELK-04 C uses up to 60% less SF 6 than predecessor; circuit-breaker vo)",
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Rated filling / minimum functional pressure",
+      "unit": "MPa",
+      "basis": "ABB ELK-04 C brochure, 'Technical data' table, ELK-04 C 145 kV. Read via r.jina.ai 2026-11-25. (value: 0.68 / 0.60 MPa (absolute at 20 °C))",
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Leakage rate",
+      "unit": "%/year",
+      "basis": "ABB ELK-04 C brochure, 'Enhancing eco-efficiency over the life cycle'. Read via r.jina.ai 2026-11-25. (value: Type tested for 0.1 percent SF 6 gas leakage rate per year)",
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Bushing materials",
+      "unit": "material",
+      "basis": "ABB ELK-04 C brochure, 'The terminal connections'. Read via r.jina.ai 2026-11-25. (value: SF 6-air bushings with composite insulators and silicon sheds, or classical porc)",
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    },
+    {
+      "metric": "Surge arrester",
+      "unit": "material",
+      "basis": "ABB ELK-04 C brochure, 'The connecting elements'. Read via r.jina.ai 2026-11-25. (value: Gapless gas-insulated metal-oxide surge arresters)",
+      "year": 2026,
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+        "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-132-kv-substation"
+  ],
+  "sources": [
+    {
+      "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+      "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

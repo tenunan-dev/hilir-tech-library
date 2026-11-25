@@ -58,6 +58,39 @@
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
       }
+    },
+    {
+      "metric": "CAT-1 remote monitor / CATMaster s — nominal radio range",
+      "unit": "km",
+      "basis": "Google Patents US8738191B2 page read 25 Nov 2026; description as printed: 'Radio range is nominally 20 km, but varies with local conditions (e.g. terrain). Solar powered spread spectrum radio repeaters are available for longer communication distances.' Publication date 2014-05-27, priority 2010-09-17. No price in document.",
+      "value": 20,
+      "year": 2026,
+      "source": {
+        "url": "https://patents.google.com/patent/US8738191B2/en",
+        "source_id": "gef-patents-google-com-en-fdfe6a8"
+      }
+    },
+    {
+      "metric": "CAT-1 remote monitor / CATMaster s — data points per CAT-1 programmed into SCADA",
+      "unit": "data points",
+      "basis": "Google Patents US8738191B2 page read 25 Nov 2026: 'Data point definitions (12 per CAT-1) are then programmed into SCADA. Radio path and signal strengths are then verified. Receipt of 12 bi-polar analog data points per CAT-1 is also verified.' No price in document.",
+      "value": 12,
+      "year": 2026,
+      "source": {
+        "url": "https://patents.google.com/patent/US8738191B2/en",
+        "source_id": "gef-patents-google-com-en-fdfe6a8"
+      }
+    },
+    {
+      "metric": "CAT-1 remote monitor / CATMaster s — remote monitors handled per CATMaster",
+      "unit": "CAT-1 remote monitors",
+      "basis": "Google Patents US8738191B2 page read 25 Nov 2026: 'The CATMaster is a 19 inch (483 mm) rack-mount unit that acquires data from up to four CAT-1 Remote Monitors via a spread spectrum radio transceiver.' No price in document.",
+      "value": 4,
+      "year": 2026,
+      "source": {
+        "url": "https://patents.google.com/patent/US8738191B2/en",
+        "source_id": "gef-patents-google-com-en-fdfe6a8"
+      }
     }
   ],
   "vendor_models": [
@@ -81,6 +114,26 @@
     {
       "url": "https://syc-se.iec.ch/iec-63097-smart-energy-roadmap/der-management-system/",
       "source_id": "geg-syc-se-iec-ch-d5f39e2"
+    },
+    {
+      "url": "https://www.sesb.com.my/Tender.aspx",
+      "source_id": "gef-sesb-com-my-tender-aspx-86fb9e8"
+    },
+    {
+      "url": "https://patents.google.com/patent/US8738191B2/en",
+      "source_id": "gef-patents-google-com-en-fdfe6a8"
+    },
+    {
+      "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9459.aspx",
+      "source_id": "gef-sesb-com-my-tender-t-9459-aspx-d6cb7c7"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN110610603A/en",
+      "source_id": "gef-patents-google-com-en-0e0e244"
+    },
+    {
+      "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
+      "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
     }
   ],
   "gaps": [
@@ -88,6 +141,21 @@
       "what": "Communication System with Sabah Electricity S/B (SESB)",
       "why": "No evidence of the actual SESB communication media, protocol, vendor, or interface equipment for this plant; the Grid Owner guideline referenced by CC5.5 was not available in any page read.",
       "next_action": "Obtain the Grid Owner communication guideline and the Connection Agreement interface schedule from SESB."
+    },
+    {
+      "what": "Utility communication system",
+      "why": "No printed contract value, circuit rate or MYR/USD price for a utility communication system for the 7-unit plant was found.",
+      "next_action": "Obtain the plant's communication-system package award or rate schedule and record the date, quantities and currency as printed."
+    },
+    {
+      "what": "Utility communication system",
+      "why": "No named, dated, sized utility communication reference project tied to SESB or to a 132/33/11 kV gas-engine plant was found in the pages read.",
+      "next_action": "Source a utility-published communication network case study with named utility, location, date and scale, and read it before adding."
+    },
+    {
+      "what": "Utility communication system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

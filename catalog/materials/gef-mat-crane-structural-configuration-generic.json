@@ -1,0 +1,37 @@
+{
+  "id": "gef-mat-crane-structural-configuration-generic",
+  "name": "Crane structural configuration (generic)",
+  "material_category": "crane-steelwork",
+  "description": "Crane structural configuration (generic) named on a page read in the GEG gap-fill for Crane and hoist.",
+  "specifications": [
+    {
+      "metric": "LD single girder configuration",
+      "unit": "n/a",
+      "basis": "KSCRANE Overhead Crane Price Guide, 03 Jul 2025, LD single girder bridge crane standard specification (value: Box-type plus I-beam main beam; CD/MD hoist adaptable)",
+      "year": 2025,
+      "source": {
+        "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
+        "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
+      }
+    },
+    {
+      "metric": "Cost composition",
+      "unit": "n/a",
+      "basis": "Same KSCRANE price guide, section 4 'What Components Make Up The Price Of A Bridge Crane' (value: Overhead crane cost approximately equals steel price + motor + reducer + electri)",
+      "source": {
+        "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
+        "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-crane-and-hoist"
+  ],
+  "sources": [
+    {
+      "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
+      "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

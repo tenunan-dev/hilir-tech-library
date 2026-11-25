@@ -1,0 +1,25 @@
+{
+  "id": "gef-filipinoengineer-com-100mw-n2-gas-engine-gen-1e6d05a",
+  "name": "Filipino Engineer - 100MW N+2 Gas Engine Generator Configuration 11 kV Switchgear Design",
+  "url": "https://filipinoengineer.com/blog/2026/08/100mw-n2-gas-engine-generator-configuration-11-kv-switchgear-design.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Filipino Engineer (Ver Pangonilo, PEE, RPEQ)",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Page read 2026-11-25; posted 12 August 2026. Conceptual design note with explicitly preliminary fault-level figures; not a built project or award."
+}

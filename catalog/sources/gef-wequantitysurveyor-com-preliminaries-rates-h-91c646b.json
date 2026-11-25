@@ -1,0 +1,26 @@
+{
+  "id": "gef-wequantitysurveyor-com-preliminaries-rates-h-91c646b",
+  "name": "Preliminaries rates, Malaysia (Klang Valley)",
+  "url": "https://www.wequantitysurveyor.com/reference/preliminaries-rates.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "WE Quantity Surveyor (BQSM-registered)",
+  "access": "open",
+  "licence": "not stated in source",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch 25 Nov 2026. Page states UPDATED NOVEMBER 2026; rates compiled by the practice from its own tender pricing; all-in at trade level excluding main contractor profit and attendance, preliminaries and applicable SST. Reproduction with link welcome; no formal licence stated."
+}

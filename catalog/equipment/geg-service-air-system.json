@@ -172,6 +172,37 @@
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
       }
+    },
+    {
+      "metric": "Plant/service air compressor packa — Plant air ISO 8573-1 classification",
+      "unit": "ISO 8573-1:2010 [particles:water:oil]",
+      "basis": "CAGI Compressed Air Purity Guide, Plant Air section: 'An ISO 8573-1 air purity specification of [-:4-5:-] with a minimum point of 45 deg F satisfies the Plant Air classification'; read via r.jina.ai fallback 25 Nov 2026 (value: [-:4-5:-])",
+      "year": 2026,
+      "source": {
+        "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
+        "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
+      }
+    },
+    {
+      "metric": "Plant/service air compressor packa — Compressor package rating (example quoted unit)",
+      "unit": "CFM at 175 PSIG",
+      "basis": "Staab change order no. 8 (6 May 2024): Quincy QT-Series oil-lubricated reciprocating air compressor rated 17.4 CFM at 175 PSIG with 5 HP motor and 80-gallon ASME vertical receiver tank; read via r.jina.ai fallback 25 Nov 2026",
+      "value": 17.4,
+      "year": 2024,
+      "source": {
+        "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+        "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
+      }
+    },
+    {
+      "metric": "Plant/service air compressor packa — Air compressor aftercooler bulk water removal (typical)",
+      "unit": "% (approximately, of bulk water)",
+      "basis": "CAGI Compressed Air Purity Guide, Plant Air section: 'Compressors frequently have integrated aftercoolers that will effectively remove a significant amount (~70%) of the bulk water present in the compressed air stream'",
+      "value": 70,
+      "source": {
+        "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
+        "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
+      }
     }
   ],
   "vendor_models": [
@@ -224,6 +255,18 @@
       "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
       "source_id": "geg-focusmalaysia-my-kinergy-secures-biggest-epc-2381482",
       "note": "LOA dated 13 May 2025 from Rancha Power (PETRONAS Gas / SESB / SEC Power JV formed 31 Dec 2024) to KAB Energy Holdings / Kinergy Advancement Bhd; nine acres adjacent Labuan Shipyard. Service-air packa"
+    },
+    {
+      "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
+      "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
+    },
+    {
+      "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
+      "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
+    },
+    {
+      "url": "https://patents.google.com/patent/EP2494170B1/en",
+      "source_id": "gef-patents-google-com-en-e2ce724"
     }
   ],
   "gaps": [
@@ -246,6 +289,21 @@
       "what": "Service Air System Package",
       "why": "No named, dated, sized, located service-air reference project was printed in any source read.",
       "next_action": "Request reference lists from HADETEC or Aerodyn Group Malaysia."
+    },
+    {
+      "what": "Service air system",
+      "why": "No project-specific service air demand, receiver size, compressor configuration, vendor or awarded price for the 7-unit SESB plant was found.",
+      "next_action": "Obtain the service air package BOQ, demand schedule and awarded quotation from project documents."
+    },
+    {
+      "what": "Service air system",
+      "why": "No publisher page with a single-line diagram, P&ID, general arrangement or product schematic drawing for this item was actually read.",
+      "next_action": "Obtain the vendor's issued GA/P&ID/SLD drawing sheet and read its publisher page or PDF before recording it."
+    },
+    {
+      "what": "Service air system",
+      "why": "No publisher page with printed material properties (grade, alloy, insulation, coating or catalyst composition) for this item was actually read.",
+      "next_action": "Obtain the vendor material certificate or datasheet with printed properties and read it before recording any value."
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors, catalogue models. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

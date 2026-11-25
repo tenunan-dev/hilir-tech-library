@@ -1,0 +1,25 @@
+{
+  "id": "gef-r-jina-ai-guidelines-for-public-safety-and-h-8861d53",
+  "name": "Guidelines for Public Safety and Health at Construction Sites (1st Revision, 2007)",
+  "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Department of Occupational Safety and Health (DOSH), Malaysia",
+  "access": "open",
+  "licence": "not stated in source",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Read with WebFetch via r.jina.ai 25 Nov 2026 (direct PDF WebFetch unsupported; proxy used). Printed 2007, ISBN 978-983-2014-58-4; hosted copy posted Oct 2024. No licence stated."
+}

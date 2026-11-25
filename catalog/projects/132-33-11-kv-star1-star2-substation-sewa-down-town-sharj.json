@@ -1,0 +1,26 @@
+{
+  "id": "132-33-11-kv-star1-star2-substation-sewa-down-town-sharj",
+  "name": "132/33/11 kV Star1 & Star2 substation, SEWA, Down Town Sharjah",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "United Arab Emirates",
+  "location": "United Arab Emirates",
+  "status": "operating",
+  "description": "Contract value 183,000,000 AED; EPC included site development, GIS building, masonry control room, 12-cubicle 13 kV switchgear, 230/13 kV and 230/69 kV transformers, two 230 kV fluid-filled underground riser structures, three 69 kV XLPE risers",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://scanelectromechanical.com/project/scan-project-03",
+      "source_id": "geg-scanelectromechanical-com-scan-project-03-f8abca1",
+      "note": "Contract value 183,000,000 AED; EPC included site development, GIS building, mas"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Civil and structural buildings."
+}

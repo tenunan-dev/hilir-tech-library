@@ -1,6 +1,6 @@
 # ROT: Rotating and static equipment
 
-1262 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
+1263 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -1254,6 +1254,7 @@
 | [Weatherford](https://www.weatherford.com/) | oem-supplier | global | open | full-text-restricted |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [World Oil](https://www.worldoil.com/) | trade-media | global | mixed | summary-only (unverified) |
+| [Wärtsilä 34SG gas engine generating set leaflet](https://www.wartsila.com/docs/default-source/downloads/w34sg-leaflet.pdf?sfvrsn=7c482542_1) | oem-supplier | global | open | summary-only |
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |
 | [Boiler blowdown (Engineering ToolBox)](https://engineeringtoolbox.com/boiler-blowdown-d_908.html) | trade-media | global, na | open | summary-only |
 | [Engineering ToolBox — bare steam pipe heat loss](https://www.engineeringtoolbox.com/heat-loss-steam-pipes-d_255.html) | trade-media | global | open | summary-only |

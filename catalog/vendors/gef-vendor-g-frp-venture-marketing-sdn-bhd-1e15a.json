@@ -1,0 +1,23 @@
+{
+  "id": "gef-vendor-g-frp-venture-marketing-sdn-bhd-1e15a",
+  "name": "G-FRP Venture Marketing Sdn Bhd",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "G-FRP Venture Marketing Sdn Bhd named on a page read in the GEG core-item gap-fill.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
+      "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed gap-fill sweep."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "gef-mat-antifreeze-corrosion-inhibitor-coolant",
+  "name": "Antifreeze / corrosion inhibitor coolant",
+  "material_category": "coolant",
+  "description": "Antifreeze / corrosion inhibitor coolant named on a page read in the GEG gap-fill for Commissioning equipment and consumables.",
+  "specifications": [
+    {
+      "metric": "permissible ethylene glycol antifreeze concentration",
+      "unit": "% by volume",
+      "basis": "MTU A001072/02E, 2020-06, Table 17 and section 3.1.2: permissible 35-50% by volume (protection -20 C to -37 C); concentration above 50% impermissible, below 35% does not guarantee corrosion protection. (value: 35-50 % by volume)",
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-commissioning-equipment-and-consumables"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+      "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

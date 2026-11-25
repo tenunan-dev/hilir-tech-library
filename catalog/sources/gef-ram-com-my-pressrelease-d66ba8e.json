@@ -1,0 +1,24 @@
+{
+  "id": "gef-ram-com-my-pressrelease-d66ba8e",
+  "name": "RAM Ratings - final AA1 rating to Kimanis Power Dua RM580 mil Sukuk Wakalah",
+  "url": "https://www.ram.com.my/pressrelease?prviewid=7251",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "CIV"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "RAM Rating Services Berhad",
+  "access": "open",
+  "licence": "copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. WebFetch read 2026-11-25. Published 16 Apr 2026. Prints RM580 mil facility, 100 MW gas-fired peaking plant Kimanis Sabah, scheduled CO 1 June 2026, 21-year PPA with SESB, three-month construction-delay buffer, FSC above 1.50x."
+}

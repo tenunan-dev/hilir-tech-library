@@ -1,0 +1,26 @@
+{
+  "id": "prai-power-plant-combined-cycle-gas-turbine",
+  "name": "Prai Power Plant (combined cycle gas turbine)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia - Seberang Prai, Penang",
+  "location": "Malaysia - Seberang Prai, Penang",
+  "status": "operating",
+  "description": "1,071 MW CCGT; RM2.47 billion; EPC with Samsung E&C Malaysia, 20-year LTSA with Siemens AG, OMA with TNB REMACO; World Bank emission limits, efficiency over 60%.",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.tnb.com.my/announcements/tnb-siemens-samsung-sign-agreements-for-the-rm2.47-billion-prai-power-plant",
+      "source_id": "gef-tnb-com-my-tnb-siemens-samsung-sign-agreemen-f1a07c2",
+      "note": "1,071 MW CCGT; RM2.47 billion; EPC with Samsung E&C Malaysia, 20-year LTSA with "
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Construction management and services."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4",
+  "name": "Wartsila white paper: Combustion engine power plants",
+  "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Wartsila Corporation",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the GEG core-item gap-fill. Copyright 2011 Wartsila Corporation; read via r.jina.ai fallback on 25 Nov 2026. Figures quoted are for a representative 10 MW combustion engine, not the 7-unit SESB plant."
+}

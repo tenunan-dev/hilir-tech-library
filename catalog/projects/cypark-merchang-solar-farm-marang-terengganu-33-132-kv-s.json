@@ -1,0 +1,26 @@
+{
+  "id": "cypark-merchang-solar-farm-marang-terengganu-33-132-kv-s",
+  "name": "Cypark Merchang solar farm, Marang, Terengganu - 33/132 kV step-up transformer",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Terengganu)",
+  "location": "Malaysia (Terengganu)",
+  "status": "operating",
+  "description": "One 110/140 MVA 33/132 kV ONAN/ONAF step-up transformer; CYPARK RESOURCES BERHAD",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "geg-dspecmy-com-portfolio-d114008",
+      "note": "One 110/140 MVA 33/132 kV ONAN/ONAF step-up transformer; CYPARK RESOURCES BERHAD"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Step-up transformer bay."
+}

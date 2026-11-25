@@ -1,0 +1,26 @@
+{
+  "id": "kimanis-power-dua-100-mw-gas-fired-peaking-plant",
+  "name": "Kimanis Power (Dua) 100 MW gas-fired peaking plant",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Six Everllence 18V51/60DF dual-fuel engines; Malaysia's first large-scale gas engine facility; 21-year PPA with SESB; RM580 mil Sukuk Wakalah; EPCC consortium Synerlitz (Malaysia), China Energy Engineering Group Guangxi Electric Power Design Institute and CEEC Guangxi Electric Power (Malaysia)",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.ram.com.my/pressrelease?prviewid=7490",
+      "source_id": "gef-ram-com-my-pressrelease-0eba7bc",
+      "note": "Six Everllence 18V51/60DF dual-fuel engines; Malaysia's first large-scale gas en"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Gas receiving and metering station with hot tap and fuel gas supply."
+}

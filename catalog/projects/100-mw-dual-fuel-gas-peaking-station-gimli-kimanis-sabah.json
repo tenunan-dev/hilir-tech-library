@@ -1,0 +1,26 @@
+{
+  "id": "100-mw-dual-fuel-gas-peaking-station-gimli-kimanis-sabah",
+  "name": "100 MW dual-fuel gas peaking station, Gimli/Kimanis Sabah - CNEEC",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Natural gas main fuel and distillate fuel oil backup; new 132 kV switching station and underground cables connect to utility substation",
+  "technologies": [
+    "pwr-geg-plant-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.seetaoe.com/details/278614.html",
+      "source_id": "gef-seetaoe-com-278614-html-c1433de",
+      "note": "Natural gas main fuel and distillate fuel oil backup; new 132 kV switching stati"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project found in the GEG core-item gap-fill for Diesel fuel system."
+}

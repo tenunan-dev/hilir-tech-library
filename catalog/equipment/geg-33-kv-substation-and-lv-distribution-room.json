@@ -86,6 +86,10 @@
       "url": "https://www.dspecmy.com/projects/portfolio",
       "source_id": "geg-dspecmy-com-portfolio-d114008",
       "note": "Deltaspec portfolio item 6: one 90 MVA 132/33/11 kV and one 30 MVA 132/11 kV power transformer; client BUMISEM / SESB."
+    },
+    {
+      "url": "https://scanelectromechanical.com/project/scan-project-03",
+      "source_id": "geg-scanelectromechanical-com-scan-project-03-f8abca1"
     }
   ],
   "gaps": [
@@ -93,6 +97,11 @@
       "what": "33 kV substation and low voltage distribution room (reinforced concrete 27.2x7x5.3)",
       "why": "No published RM/m2 or project-specific cost for a combined 33 kV substation and LV distribution room in Sabah.",
       "next_action": "Source a comparable 33/11 kV substation building BQ or tender award."
+    },
+    {
+      "what": "33 kV substation and LV distribution room",
+      "why": "No published room-by-room rate; the only priced reference is a complete UAE 132/33/11 kV substation (AED, no dollar year stated).",
+      "next_action": "Obtain the 33 kV/LV package priced BQ and a dated Malaysian substation benchmark"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

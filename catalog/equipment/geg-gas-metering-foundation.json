@@ -66,6 +66,10 @@
       "url": "https://www.dspecmy.com/projects/portfolio",
       "source_id": "geg-dspecmy-com-portfolio-d114008",
       "note": "Deltaspec portfolio item 6: one 90 MVA 132/33/11 kV and one 30 MVA 132/11 kV power transformer; client BUMISEM / SESB."
+    },
+    {
+      "url": "https://r.jina.ai/https://www.dosm.gov.my/uploads/release-content/file_20260210094823.pdf",
+      "source_id": "gef-r-jina-ai-file-20260210094823-pdf-efc1d26"
     }
   ],
   "gaps": [
@@ -73,6 +77,11 @@
       "what": "Foundation for Gas Metering",
       "why": "No foundation design or cost for a gas-metering skid found; no site investigation report for this plant was read.",
       "next_action": "Obtain the gas-metering station drawing and geotechnical report before pricing."
+    },
+    {
+      "what": "Gas metering foundation",
+      "why": "No published rate or award value for a gas-metering foundation; only generic JKR concrete/rebar element rates were found.",
+      "next_action": "Obtain the metering-skid foundation priced BQ and dimensions from the gas supplier interface document"
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",

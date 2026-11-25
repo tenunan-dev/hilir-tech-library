@@ -1,0 +1,27 @@
+{
+  "id": "gef-drawing-cg-power-systems-power-transformers-catalogue-cons",
+  "title": "CG Power Systems Power Transformers catalogue – construction illustrations",
+  "diagram_type": "schematic",
+  "description": "14-page catalogue page images include 'Power Transformers, Core Building' (CRGO core, GEORG CNC slitting) and tank/winding construction views; page read 2026-11-25.",
+  "publisher": "CG Power Systems / DirectIndustry",
+  "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+  "sectors": [
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "equipment": [
+    "geg-power-transformers"
+  ],
+  "sources": [
+    {
+      "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+      "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a",
+      "note": "14-page catalogue page images include 'Power Transformers, Core Building' (CRGO core, GEORG CNC slitting) and tank/winding construction views; page read 2026-11-25."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the GEG core-item gap-fill; drawing stays at publisher URL."
+}

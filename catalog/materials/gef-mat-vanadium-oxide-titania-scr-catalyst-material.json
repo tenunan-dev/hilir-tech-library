@@ -1,0 +1,88 @@
+{
+  "id": "gef-mat-vanadium-oxide-titania-scr-catalyst-material",
+  "name": "Vanadium oxide / titania SCR catalyst material",
+  "material_category": "catalyst",
+  "description": "Vanadium oxide / titania SCR catalyst material named on a page read in the GEG gap-fill for Diesel oxidation catalyst and SCR emission control system.",
+  "specifications": [
+    {
+      "metric": "Active phase and support",
+      "unit": "material",
+      "basis": "Chalmers licentiate thesis 2023:09, §2.2 'Vanadium-based SCR catalysts' and Fig. 2.1. Printed 2023; read via r.jina.ai 2026-11-25. (value: VO x / TiO 2 (anatase TiO 2 support, monomeric/polymeric/crystalline V2O5 specie)",
+      "year": 2023,
+      "source": {
+        "url": "https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf",
+        "source_id": "gef-research-chalmers-se-537360-fulltext-pdf-d104f04"
+      }
+    },
+    {
+      "metric": "Vanadium loading, industrial",
+      "unit": "wt%",
+      "basis": "Chalmers thesis §2.2 and §4: 'Present industrial VO x-SCR catalysts contain around 1-3 wt% vanadium'; 'around 2 wt% vanadium as a good compromise'. Read via r.jina.ai 2026-11-25. (value: Around 1–3 wt% vanadium (≈2 wt% as compromise between activity and high-temperat)",
+      "year": 2026,
+      "source": {
+        "url": "https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf",
+        "source_id": "gef-research-chalmers-se-537360-fulltext-pdf-d104f04"
+      }
+    },
+    {
+      "metric": "High-efficiency temperature window",
+      "unit": "°C",
+      "basis": "Chalmers thesis §2.3 and Fig. 2.3. Read via r.jina.ai 2026-11-25. (value: Approximately 300–400 °C (exhaust range 150–650 °C))",
+      "year": 2026,
+      "source": {
+        "url": "https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf",
+        "source_id": "gef-research-chalmers-se-537360-fulltext-pdf-d104f04"
+      }
+    },
+    {
+      "metric": "Thermal stability limit",
+      "unit": "°C",
+      "basis": "Chalmers thesis §2.3. Read via r.jina.ai 2026-11-25. (value: Vanadium volatility/release starting from 500 °C; TiO 2 anatase-to-rutile transf)",
+      "year": 2026,
+      "source": {
+        "url": "https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf",
+        "source_id": "gef-research-chalmers-se-537360-fulltext-pdf-d104f04"
+      }
+    },
+    {
+      "metric": "V2O5 occupational exposure limit",
+      "unit": "mg/m3",
+      "basis": "Chalmers thesis §2.3: 'The Occupational Safety and Health Administration have declared V 2O5 as a contaminant with strict disposal limits (0.5 mg/m 3 for dust)'. Read via r.jina.ai 2026-11-25. (value: 0.5 mg/m 3 for dust (OSHA contaminant limit as cited))",
+      "year": 2026,
+      "source": {
+        "url": "https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf",
+        "source_id": "gef-research-chalmers-se-537360-fulltext-pdf-d104f04"
+      }
+    },
+    {
+      "metric": "Common promoters",
+      "unit": "material",
+      "basis": "Chalmers thesis §2.4 'Implementation of promoters'. Read via r.jina.ai 2026-11-25. (value: Tungsten and molybdenum (thermal/structural stability, sulfur resistance); Si, M)",
+      "year": 2026,
+      "source": {
+        "url": "https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf",
+        "source_id": "gef-research-chalmers-se-537360-fulltext-pdf-d104f04"
+      }
+    },
+    {
+      "metric": "Preparation and aging",
+      "unit": "°C / h",
+      "basis": "Chalmers thesis §3.1 and Table 3.1. Read via r.jina.ai 2026-11-25. (value: Incipient wetness impregnation on DT-51D TiO 2 (Tronox, 99 wt% anatase); calcine)",
+      "year": 2026,
+      "source": {
+        "url": "https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf",
+        "source_id": "gef-research-chalmers-se-537360-fulltext-pdf-d104f04"
+      }
+    }
+  ],
+  "equipment": [
+    "geg-diesel-oxidation-catalyst-and-scr-emission-control-system"
+  ],
+  "sources": [
+    {
+      "url": "https://research.chalmers.se/publication/537360/file/537360_Fulltext.pdf",
+      "source_id": "gef-research-chalmers-se-537360-fulltext-pdf-d104f04"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}
