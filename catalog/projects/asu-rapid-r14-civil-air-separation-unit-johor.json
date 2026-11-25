@@ -1,0 +1,155 @@
+{
+  "id": "asu-rapid-r14-civil-air-separation-unit-johor",
+  "name": "ASU RAPID (R14) - Civil, air separation unit, Johor",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Johor)",
+  "location": "Malaysia (Johor)",
+  "status": "operating",
+  "description": "JML scope: temporary facility, piling, civil and building work for an air separation unit; industrial plant; client Linde Engineering (Malaysia) Sdn Bhd.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "Reinforced concrete C16/20 in foundations and floor",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 492.1,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 in beams",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 634.4,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 in columns",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 663.6,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 floor slab, average 75 mm",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "value": 36.9,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "High tensile reinforcement 12 mm",
+      "year": 2025,
+      "unit": "RM/KG",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "value": 5.3,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "BRC A6 steel fabric",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B744B/7; KL base rate",
+      "value": 35.1,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Formwork to vertical faces (footings, ground beams)",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "value": 61.7,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Formwork to beam sides and soffit",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "value": 80.1,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Formwork to columns",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B824B/8; KL base rate",
+      "value": 69.3,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3",
+      "note": "JML scope: temporary facility, piling, civil and building work for an air separa"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-3-design-of-steel-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-ec3c86b"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-c9ea26f"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-steel-structures-and-aluminium-structures-technical-requirements-for-steel-structures/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-66d5e66"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Building (C&S)",
+      "why": "No public RM/m2 all-in building rate for a gas-engine plant C&S package in Sabah; JKR rates are KL-base daywork rates with location additions not printed.",
+      "next_action": "Source a Malaysian QS cost benchmark (CIDB/JPPH or comparable tender) for industrial building C&S in Sabah."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (4 Construction direct)."
+}

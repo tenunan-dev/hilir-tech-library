@@ -1,0 +1,27 @@
+{
+  "id": "alaska-preferred-mfg-com-day-20tank-20-20model-20dt-d425970",
+  "name": "Preferred Utilities — Day Tank Model DT cutsheet (CATALOG 26)",
+  "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "PRC",
+    "MAT"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Preferred Utilities Manufacturing Corp.",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Direct WebFetch unsupported for PDF; read via r.jina.ai fallback (retrieval 2022-02-23). No print date stated in the cutsheet; catalogue number 26 printed.. Exact printed figures are recorded in the linked records' basis fields."
+}

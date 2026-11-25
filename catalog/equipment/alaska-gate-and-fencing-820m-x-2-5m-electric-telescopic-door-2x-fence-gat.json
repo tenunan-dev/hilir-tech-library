@@ -1,0 +1,126 @@
+{
+  "id": "alaska-gate-and-fencing-820m-x-2-5m-electric-telescopic-door-2x-fence-gat",
+  "name": "Gate and Fencing (820m x 2.5m; electric telescopic door 2x; fence gate 6x; 3.0m x 250m + 2.4m x 250m steel grating fence)",
+  "equipment_type": "wbs-4-construction-direct",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Evidence: one readable manufacturer datasheet for motorised telescopic sliding gates with printed dimensions, speeds, duty, safety and coating standards. No published fencing rate, steel-grating datasheet or Malaysian supplier evidence found; bidder quantities are design data.",
+  "aliases": [
+    "Gate and Fencing (820m x 2.5m; electric telescopic door 2x; fence gate 6x; 3.0m x 250m + 2.4m x 250m steel grating fence)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "GEAPL Telescopic Sliding Gates — Maximum clear width",
+      "unit": "mm",
+      "basis": "GEAPL technical specification table; single leaf; double leaf (bi-parting) 80000 mm also printed",
+      "value": 40000,
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "alaska-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "GEAPL Telescopic Sliding Gates — Maximum height",
+      "unit": "mm",
+      "basis": "GEAPL technical specification table; 'larger dimensions available on request'",
+      "value": 3000,
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "alaska-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "GEAPL Telescopic Sliding Gates — Drive opening speed",
+      "unit": "m/s",
+      "basis": "GEAPL specification: 'Up to 0.16 m/s (up to 0.3 m/s on request)'",
+      "value": 0.16,
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "alaska-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "GEAPL Telescopic Sliding Gates — Gate capacity",
+      "unit": "kg",
+      "basis": "GEAPL standard specification: '300Kg to 25000Kg', duty class intensive use",
+      "value": 25000,
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "alaska-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "GEAPL Telescopic Sliding Gates — Number of telescopic systems",
+      "unit": "systems",
+      "basis": "GEAPL technical specification table (value: 2, 3, 4 & 5)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "alaska-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "GEAPL Telescopic Sliding Gates — Operator protection",
+      "unit": "IP rating",
+      "basis": "GEAPL standard specification; higher IP on request (value: IP 44)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "alaska-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "GEAPL Telescopic Sliding Gates — Supply voltage",
+      "unit": "V",
+      "basis": "GEAPL standard specification (value: 230V-1ph / 415V-3ph)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "alaska-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    },
+    {
+      "metric": "GEAPL Telescopic Sliding Gates — Safety / type testing",
+      "unit": "standard",
+      "basis": "GEAPL technical specification, Security Features row (value: CE marked to Machinery Directive 2006/42/EC; type tested according to EN 13241-1)",
+      "source": {
+        "url": "https://www.geapl.com/telescopic-sliding-gates",
+        "source_id": "alaska-geapl-com-telescopic-sliding-gates-c7838e4"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.geapl.com/telescopic-sliding-gates",
+      "source_id": "alaska-geapl-com-telescopic-sliding-gates-c7838e4"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Gate and Fencing (820m x 2.5m; electric telescopic door 2x; fence gate 6x; 3.0m x 250m + 2.4m x 250m steel grating fence)",
+      "why": "No published rate per metre for 2.5 m fencing or steel grating fence, and no datasheet for the specified steel grating fence; GEAPL is an Indian manufacturer and is not evidence of supply to this project.",
+      "next_action": "Source a Malaysian fence/grating supplier datasheet and a published RM/m rate for perimeter fencing and gates."
+    },
+    {
+      "what": "Gate and Fencing (820m x 2.5m; electric telescopic door 2x; fence gate 6x; 3.0m x 250m + 2.4m x 250m steel grating fence)",
+      "why": "The 820 m, gate counts and 250 m grating lengths are bidder-supplied design figures, not evidence.",
+      "next_action": "Do not present these figures as sourced facts."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (4 Construction direct).",
+  "last_reviewed": "2026-11-25"
+}

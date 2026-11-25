@@ -1,0 +1,201 @@
+{
+  "id": "alaska-doc-and-scr-system-package",
+  "name": "DOC and SCR system Package",
+  "equipment_type": "wbs-3-2-mechanical",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "DOC and SCR system Package",
+  "aliases": [
+    "DOC and SCR system Package"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Johnson Matthey SINOx® SCR, SCRT®, ASC — SINOx® SCR NOx reduction (power generation brochure)",
+      "unit": "% (up to 99%, as printed)",
+      "basis": "Johnson Matthey 'Emission control solutions for power generation', cover ©2018 Johnson Matthey (file titled May 2021), SINOx® SCR System section, 'Reduce NOx up to 99%'; read via r.jina.ai 2023-04-05.",
+      "high": 99,
+      "year": 2018,
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+        "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
+      }
+    },
+    {
+      "metric": "Johnson Matthey SINOx® SCR, SCRT®, ASC — SCR system durability before maintenance",
+      "unit": "hours (15,000-plus, as printed)",
+      "basis": "Johnson Matthey NOx control systems webpage, ©Johnson Matthey 2026, read 2026-11-25.",
+      "low": 15000,
+      "year": 2026,
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
+        "source_id": "alaska-matthey-com-nox-control-systems-af80333"
+      }
+    },
+    {
+      "metric": "Johnson Matthey SINOx® SCR, SCRT®, ASC — DPF (CRT®) reductions — PM",
+      "unit": "% (>85%, as printed)",
+      "basis": "Johnson Matthey power generation brochure, 'Diesel Particulate Filter (DPF) Systems: Reductions: PM > 85%, CO > 80%, VOC >70%'; cover ©2018 Johnson Matthey; read via r.jina.ai 2023-04-05.",
+      "high": 85,
+      "year": 2018,
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+        "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
+      }
+    },
+    {
+      "metric": "Johnson Matthey SINOx® SCR, SCRT®, ASC — SCR / oxidation catalyst system components",
+      "unit": "SINOx honeycomb catalysts; stainless steel catalyst housings; stainless steel re",
+      "basis": "Johnson Matthey NOx control systems webpage, 'JM's SCR systems include the following options as key components'; ©Johnson Matthey 2026, read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
+        "source_id": "alaska-matthey-com-nox-control-systems-af80333"
+      }
+    },
+    {
+      "metric": "Umicore DNX® / DNU / DNO / DNA / DOC / — Industrial references for catalytic oxidation, SCR, catalytic particulate filtration, ammonia oxidation and N2O reducti",
+      "unit": "references (over 10,000, as printed)",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure, 'Backed by over 10,000 industrial references...'; read via r.jina.ai 2026-09-02; print date not stated in the document read.",
+      "low": 10000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
+        "source_id": "alaska-umicore-com-data-center-emission-control-cat-a1abcab"
+      }
+    },
+    {
+      "metric": "Umicore DNX® / DNU / DNO / DNA / DOC / — Catalyst combinations for backup and continuous diesel/gas engines",
+      "unit": "DNX + DNO; cDPF + DNU; DNU + DNA",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure, catalyst combination list; read via r.jina.ai 2026-09-02; print date not stated.",
+      "year": 2026,
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
+        "source_id": "alaska-umicore-com-data-center-emission-control-cat-a1abcab"
+      }
+    },
+    {
+      "metric": "Compact SCR system for 500–4500 kW eng — Engine power range",
+      "unit": "kW",
+      "basis": "EP3137745B1 patent title and description; publication date 2018-11-28, priority 2014-03-11; page read 2026-11-25.",
+      "low": 500,
+      "high": 4500,
+      "year": 2018,
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en",
+        "source_id": "alaska-patents-google-com-en-70a2d76"
+      }
+    },
+    {
+      "metric": "Compact SCR system for 500–4500 kW eng — Aqueous urea concentration ranges",
+      "unit": "% (5 to 70%; preferably 15 to 60%; more preferably 30 to 40%)",
+      "basis": "EP3137745B1 description, 'concentration of urea in the aqueous solution can range from about 5 to 70%, preferably from about 15 to about 60%, more preferably from about 30 to about 40%'; read 2026-11-25.",
+      "low": 5,
+      "high": 70,
+      "year": 2026,
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en",
+        "source_id": "alaska-patents-google-com-en-70a2d76"
+      }
+    },
+    {
+      "metric": "Compact SCR system for 500–4500 kW eng — Preferred SCR catalyst cell density",
+      "unit": "cpsi (45 to 400; more preferably 70 to 300; even more preferably 100 to 300)",
+      "basis": "EP3137745B1 description, 'SCR catalysts with relatively high cell densities ... 45 to 400 cells per square inch (cpsi), more preferable 70 to 300 cpsi and even more preferable 100 to 300 cpsi'; read 2026-11-25.",
+      "low": 45,
+      "high": 400,
+      "year": 2026,
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en",
+        "source_id": "alaska-patents-google-com-en-70a2d76"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "alaska-vendor-umicore-593d7",
+      "line": "Umicore DNX® / DNU / DNO / DNA / DOC / MOC / DNZ catalyst families and combinations",
+      "note": "SCR / oxidation / ammonia-slip catalysts"
+    },
+    {
+      "vendor": "alaska-vendor-johnson-matthey-catalysts-germany-gmbh-19086",
+      "line": "Compact SCR system for 500–4500 kW engines (patent EP3137745B1, Johnson Matthey Catalysts Germany GmbH)",
+      "note": "compact urea-SCR system"
+    }
+  ],
+  "vendors": [
+    "alaska-vendor-umicore-593d7",
+    "alaska-vendor-johnson-matthey-catalysts-germany-gmbh-19086"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
+      "source_id": "alaska-matthey-com-nox-control-systems-af80333"
+    },
+    {
+      "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+      "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
+    },
+    {
+      "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
+      "source_id": "alaska-umicore-com-data-center-emission-control-cat-a1abcab"
+    },
+    {
+      "url": "https://patents.google.com/patent/EP3137745B1/en",
+      "source_id": "alaska-patents-google-com-en-70a2d76"
+    },
+    {
+      "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf",
+      "source_id": "alaska-epa-gov-catalog-of-chp-technologies-section-461c8db"
+    },
+    {
+      "url": "https://www.epa.gov/system/files/documents/2022-03/gas-fired-scr-cost-methodology.pdf",
+      "source_id": "alaska-epa-gov-gas-fired-scr-cost-methodology-pdf-a889d3a"
+    },
+    {
+      "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+      "source_id": "alaska-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+    },
+    {
+      "url": "https://patents.google.com/patent/EP3137745B1/en",
+      "source_id": "alaska-patents-google-com-en-70a2d76",
+      "note": "Publication date 2018-11-28; filing date 2015-03-10; priority date 2014-03-11; inventors Daniel Kuegel, Ilir Piluri, Dirk Reichert; status Active as displayed. Read on Google Patents 2026-11-25."
+    },
+    {
+      "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+      "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9",
+      "note": "Printed in JM power generation brochure, cover ©2018 Johnson Matthey."
+    },
+    {
+      "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+      "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9",
+      "note": "NOx maintained within 0.06 g/bhp-hr permit limit; PA DEP limit 0.50 g/bhp-hr; federal limit 1.0 g/bhp-hr, all as printed in brochure."
+    },
+    {
+      "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+      "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9",
+      "note": "JM brochure 'Power from digester gas', engines generate 70% of plant power; cover ©2018 Johnson Matthey."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "DOC and SCR system Package",
+      "why": "No DOC/SCR vendor, catalyst volume, urea consumption, guaranteed outlet NOx/CO, or quoted price for the 7-unit SESB plant was found in pages read. The two printed capital-cost figures have different scopes ($2013/kW for lean-burn engines vs $2021/kW for oil/gas boilers) and are kept side by side, no",
+      "next_action": "Obtain the project emissions guarantee, catalyst sizing report and DOC/SCR package quotation; retain both printed cost bases with their years and scopes."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.2 Mechanical).",
+  "last_reviewed": "2026-11-25"
+}

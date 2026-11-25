@@ -1,0 +1,92 @@
+{
+  "id": "alaska-prod-roben-manufacturing-custom-lubricating-oil-storage-tank-field",
+  "name": "Roben Manufacturing custom lubricating-oil storage tank",
+  "manufacturer": "alaska-vendor-roben-mfg-inc-lakewood-nj-usa-6050b",
+  "product_type": "field-shop-fabricated-atmospheric-lube-oil-storage",
+  "equipment": [
+    "alaska-lube-oil-tank-system-package"
+  ],
+  "description": "field/shop-fabricated atmospheric lube oil storage tank",
+  "specifications": [
+    {
+      "metric": "capacity range",
+      "unit": "custom (printed: 'a few hundred gallons to several million gallons')",
+      "basis": "Roben Manufacturing 'Lubricating Oil Storage: Custom Tank Fabrication' page, Specifications and FAQ; page read 2026-11-25; site footer ©2025; no article publication date printed.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "tank diameter (maximum)",
+      "unit": "feet",
+      "basis": "Roben Manufacturing FAQ: 'diameters up to 60 feet and heights customized to site constraints'; page read 2026-11-25; footer ©2025.",
+      "high": 60,
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "construction standard",
+      "unit": "API 650 / API 620 / AWWA D100 / ASME Section VIII per service",
+      "basis": "Roben Manufacturing 'Specifications and Technical Characteristics'; page read 2026-11-25; footer ©2025.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "internal coating options",
+      "unit": "phenolic / epoxy / glass-lined / rubber-lined per service",
+      "basis": "Roben Manufacturing specifications; page read 2026-11-25; footer ©2025.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "roof type options",
+      "unit": "cone / dome / internal floating / external floating per vapour pressure",
+      "basis": "Roben Manufacturing specifications; page read 2026-11-25; footer ©2025.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "metals of construction",
+      "unit": "carbon steel / stainless steel / duplex / super duplex / Hastelloy / Inconel",
+      "basis": "Roben Manufacturing FAQ on specialty service; page read 2026-11-25; footer ©2025.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "documentation",
+      "unit": "U-1A / MTRs / NDE reports / ASME data books / API filings",
+      "basis": "Roben Manufacturing 'Lifecycle Documentation' and specifications; page read 2026-11-25; footer ©2025.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    }
+  ],
+  "url": "https://robenmfg.com/lubricating-oil-storage-application",
+  "sources": [
+    {
+      "url": "https://robenmfg.com/lubricating-oil-storage-application",
+      "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

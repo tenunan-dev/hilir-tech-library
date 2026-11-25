@@ -1,0 +1,32 @@
+{
+  "id": "alaska-prod-w-rtsil-malaysia-sdn-bhd-local-oem-service-presence-commission",
+  "name": "Wärtsilä Malaysia Sdn Bhd",
+  "manufacturer": "wartsila",
+  "product_type": "local-oem-service-presence-commissioning-support",
+  "equipment": [
+    "alaska-pre-commissioning-commissioning-and-start-up-management-incl-calib"
+  ],
+  "description": "local OEM service presence (commissioning support)",
+  "specifications": [
+    {
+      "metric": "years since Malaysia establishment",
+      "unit": "year established",
+      "basis": "Wartsila.com/mys page read 25 Nov 2026: 'Wärtsilä in Malaysia was set up in 1996 in Kuala Lumpur, and today it has over 15 professionals in 2 different locations in Kuala Lumpur and Pasir Gudang, Johor to serve our customers in the East and West Malaysia.' Page carries a 9 Feb 2022 news item.",
+      "value": 1996,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/mys",
+        "source_id": "alaska-wartsila-com-mys-1e8ef98"
+      }
+    }
+  ],
+  "url": "https://www.wartsila.com/mys",
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/mys",
+      "source_id": "alaska-wartsila-com-mys-1e8ef98"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

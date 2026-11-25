@@ -1,0 +1,78 @@
+{
+  "id": "alaska-prod-innio-jenbacher-type-2-3-4-6-9-and-j920-flextra-lean-burn-gas",
+  "name": "INNIO Jenbacher Type 2/3/4/6/9 and J920 FleXtra",
+  "manufacturer": "innio-jenbacher",
+  "product_type": "lean-burn-gas-engine-generator-set-chp-module",
+  "equipment": [
+    "alaska-geg-7-units"
+  ],
+  "description": "lean-burn gas engine generator set / CHP module",
+  "specifications": [
+    {
+      "metric": "Electrical efficiency, Jenbacher gas engines (general range)",
+      "unit": "%",
+      "basis": "Jenbacher 'Selecting Power Generation Equipment' page: 'dependable Jenbacher reciprocating gas engines with electrical efficiency usually ranging between 40% and 50%'. Copyright (c) 2026; accessed 2026-11-25.",
+      "low": 40,
+      "high": 50,
+      "year": 2026,
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
+        "source_id": "alaska-jenbacher-com-23aa945"
+      }
+    },
+    {
+      "metric": "Jenbacher J920 FleXtra electrical output",
+      "unit": "MW",
+      "basis": "Wikipedia 'Jenbacher' article, section 'Jenbacher J920 FleXtra': 'a V20 gas engine delivering up to 9.5 MW'. Page last edited 15 June 2026; article is secondary, not OEM datasheet.",
+      "value": 9.5,
+      "year": 2026,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher",
+        "source_id": "alaska-en-wikipedia-org-jenbacher-436766f"
+      }
+    },
+    {
+      "metric": "Jenbacher J920 FleXtra electrical efficiency",
+      "unit": "%",
+      "basis": "Wikipedia 'Jenbacher' article: 'When it is put into production it will be Jenbachers most efficient gas engine available with an electrical efficiency of 48.7%, and a combined heat and power thermal efficiency of over 90%'. Page last edited 15 June 2026.",
+      "value": 48.7,
+      "year": 2026,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher",
+        "source_id": "alaska-en-wikipedia-org-jenbacher-436766f"
+      }
+    },
+    {
+      "metric": "Jenbacher portfolio output range",
+      "unit": "MW",
+      "basis": "Clarke Energy 'Jenbacher Gas Engines' page: 'High-efficiency, hydrogen-ready gas engines delivering reliable power from 250 kW to 10.6 MW'; page also states Type 6 1818-4507 kW. Site shows 2025/2026 content dates; accessed 2026-11-25.",
+      "low": 0.25,
+      "high": 10.6,
+      "year": 2025,
+      "source": {
+        "url": "https://www.clarke-energy.com/us/gas-engines/",
+        "source_id": "alaska-clarke-energy-com-36289e3"
+      }
+    },
+    {
+      "metric": "Type 4 rated power up to",
+      "unit": "kW/engine",
+      "basis": "Jenbacher product navigation on the page actually read: 'Jenbacher Type 4 Up to 1694 kW/engine'; Type 9 listed 'Up to 10606 kW/engine'. Copyright (c) 2026; accessed 2026-11-25.",
+      "value": 1694,
+      "year": 2026,
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
+        "source_id": "alaska-jenbacher-com-23aa945"
+      }
+    }
+  ],
+  "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
+      "source_id": "alaska-jenbacher-com-23aa945"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

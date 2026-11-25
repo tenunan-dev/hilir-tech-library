@@ -1,0 +1,55 @@
+{
+  "id": "alaska-prod-rolls-royce-mtu-series-500-gas-gensets-6r-8v-12v-gas-engine-ge",
+  "name": "Rolls-Royce mtu Series 500 gas gensets (6R, 8V, 12V)",
+  "manufacturer": "rolls-royce-power-systems",
+  "product_type": "gas-engine-generator-set-chp-module",
+  "equipment": [
+    "alaska-geg-7-units"
+  ],
+  "description": "gas engine generator set / CHP module",
+  "specifications": [
+    {
+      "metric": "Power range",
+      "unit": "kW",
+      "basis": "Rolls-Royce press release dated 10 December 2020: 'With a power range of 250 to 550 kilowatts and peak efficiencies of up to 42.6 percent'. Fetched via r.jina.ai.",
+      "low": 250,
+      "high": 550,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+        "source_id": "alaska-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
+      }
+    },
+    {
+      "metric": "Peak electrical efficiency",
+      "unit": "%",
+      "basis": "Rolls-Royce press release dated 10 December 2020: 'peak efficiencies of up to 42.6 percent'; 'Top efficiency: Gas units enable efficiencies of up to 42.6%'. Fetched via r.jina.ai.",
+      "value": 42.6,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+        "source_id": "alaska-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
+      }
+    },
+    {
+      "metric": "CHP total efficiency",
+      "unit": "% (approximately)",
+      "basis": "Rolls-Royce press release dated 10 December 2020: 'In cogeneration, when electricity and heat are generated, efficiencies of around 90 percent can be achieved.' Fetched via r.jina.ai.",
+      "value": 90,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+        "source_id": "alaska-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
+      }
+    }
+  ],
+  "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+      "source_id": "alaska-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

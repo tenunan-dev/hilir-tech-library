@@ -1,0 +1,100 @@
+{
+  "id": "alaska-mv-switchgear-room-reinforced-concrete-16-5x9-9x5-3",
+  "name": "MV Switchgear Room (reinforced concrete 16.5x9.9x5.3)",
+  "equipment_type": "wbs-4-construction-direct",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Evidence: IEC 62271-200 switchgear scope, RC standards/rates and named 11 kV/33 kV substation references; no plant-specific cost read.",
+  "aliases": [
+    "MV Switchgear Room (reinforced concrete 16.5x9.9x5.3)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "AC metal-enclosed MV switchgear assemb — Rated voltage range",
+      "unit": "kV",
+      "basis": "IEC 62271-200:2021 scope, IEC Webstore page read 2026-11-25 (value: above 1 kV and up to and including 52 kV)",
+      "year": 2021,
+      "source": {
+        "url": "https://webstore.iec.ch/en/publication/63466",
+        "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+      }
+    },
+    {
+      "metric": "AC metal-enclosed MV switchgear assemb — Service frequency",
+      "unit": "Hz",
+      "basis": "IEC 62271-200:2021 scope (value: up to and including 60 Hz)",
+      "year": 2021,
+      "source": {
+        "url": "https://webstore.iec.ch/en/publication/63466",
+        "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://webstore.iec.ch/en/publication/63466",
+      "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "alaska-pestec-international-com-electrical-substati-bc9755e"
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "alaska-dspecmy-com-portfolio-d114008"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "alaska-pestec-international-com-electrical-substati-bc9755e",
+      "note": "PESTEC reference: turnkey engineering, design, installation, testing, commissioning and warranty; client Metix Malaysia Sdn Bhd."
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "alaska-dspecmy-com-portfolio-d114008",
+      "note": "Deltaspec portfolio item 6: one 90 MVA 132/33/11 kV and one 30 MVA 132/11 kV power transformer; client BUMISEM / SESB."
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "alaska-dspecmy-com-portfolio-d114008",
+      "note": "Deltaspec portfolio item 17: one 30 MVA 11/132 kV generator transformer; client TNB REMACO / SESB. Portfolio also lists rehabilitation/upgrading of the 132 kV Tenom Pangi hydro power station (item 5)."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "MV Switchgear Room (reinforced concrete 16.5x9.9x5.3)",
+      "why": "No MV switchgear room building cost or 11 kV panel schedule for this plant found.",
+      "next_action": "Source the project 11 kV switchgear specification and an equivalent room-cost benchmark."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (4 Construction direct).",
+  "last_reviewed": "2026-11-25"
+}

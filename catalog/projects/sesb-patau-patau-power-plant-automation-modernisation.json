@@ -1,0 +1,90 @@
+{
+  "id": "sesb-patau-patau-power-plant-automation-modernisation",
+  "name": "SESB Patau-Patau power plant automation modernisation",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Labuan)",
+  "location": "Malaysia (Labuan)",
+  "status": "operating",
+  "description": "112 MWe combined cycle plant, three gas turbines plus one steam turbine; Valmet DNA replacing existing automation; local partner PESTECH Technology; TNB Remaco on GE gas turbine interface.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [
+    {
+      "event": "SESB Patau-Patau power plant automation replacement; value of order not disclosed; start-up planned July 2016",
+      "date": "2016",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
+        "source_id": "alaska-valmet-com-65ff972"
+      }
+    },
+    {
+      "event": "Enecogen gas-fired plant commissioned with Omnivise T3000 as digital backbone",
+      "date": "2011",
+      "source": {
+        "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html",
+        "source_id": "alaska-siemens-energy-com-enecogen-power-plant-inte-d7aa54c"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "typical automation system delivery order value (not the disclosed SESB order value)",
+      "year": 2016,
+      "unit": "EUR",
+      "basis": "Valmet press release 1 July 2016: 'The value of the order will not be disclosed. Typically the order value of automation system deliveries ranges from below EUR one million to EUR three million.' This is a company-stated typical range, NOT a price for the SESB project or for this 7-unit plant.",
+      "low": 1000000,
+      "high": 3000000,
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
+        "source_id": "alaska-valmet-com-65ff972"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
+      "source_id": "alaska-valmet-com-65ff972",
+      "note": "112 MWe combined cycle plant, three gas turbines plus one steam turbine; Valmet "
+    },
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    },
+    {
+      "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
+      "source_id": "alaska-valmet-com-65ff972"
+    },
+    {
+      "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "source_id": "alaska-search-abb-com-download-aspx-583c22e"
+    },
+    {
+      "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+      "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+    },
+    {
+      "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
+      "source_id": "alaska-emerson-com-ovation-distributed-control-syst-006ffb7"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Plant Control System",
+      "why": "No evidence found for the actual DCS/SIS vendor, I/O count, SIL target, redundancy architecture or panel count for this specific 7-unit gas engine plant.",
+      "next_action": "Obtain the project I&C specification, vendor quotation and control-system architecture drawing from the tender/EPC package."
+    },
+    {
+      "what": "Plant Control System",
+      "why": "Vendor brochures describe generic capability only; none states suitability for this SESB connection or 7 x gas engine configuration.",
+      "next_action": "Request a written conformance statement tying the proposed platform to the Sabah Grid Code CC5.3/OC10 requirements."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (3.4 I&C)."
+}

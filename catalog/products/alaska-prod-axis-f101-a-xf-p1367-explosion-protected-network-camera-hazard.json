@@ -1,0 +1,81 @@
+{
+  "id": "alaska-prod-axis-f101-a-xf-p1367-explosion-protected-network-camera-hazard",
+  "name": "Axis F101-A XF P1367 explosion-protected network camera",
+  "manufacturer": "alaska-vendor-axis-communications-ab-4a631",
+  "product_type": "hazardous-area-fixed-ip-camera",
+  "equipment": [
+    "alaska-cctv-system"
+  ],
+  "description": "hazardous-area fixed IP camera",
+  "specifications": [
+    {
+      "metric": "resolution",
+      "unit": "MP (3072x1728)",
+      "basis": "Axis F101-A XF P1367 datasheet (PDF read via r.jina.ai; proxy reports Published Time Fri, 22 May 2026): '5 MP resolution at 25/30 fps' and 'Resolution 3072x1728 (5 MP) to 160x90'.",
+      "value": 5,
+      "year": 2026,
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "frame rate",
+      "unit": "fps (50/60 Hz) in all resolutions",
+      "basis": "Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'Frame rate 25/30 fps (50/60 Hz) in all resolutions'.",
+      "low": 25,
+      "high": 30,
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "hazardous location certification",
+      "unit": "certification",
+      "basis": "Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'Class I/II/III, Division 1 and Zone 1 certifications'; certificates FM18US0262X, FM18CA0126X, FM18ATEX0073X, IECEx FMG 18.0029X. (value: Class I/II/III Division 1 and Zone 1; ATEX II 2G Ex db IIB+H2 T5 Gb; IECEx Ex db)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "minimum illumination",
+      "unit": "0.15 lux colour / 0.03 lux B/W at 50 IRE F1.2",
+      "basis": "Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'Minimum illumination Color: 0.15 lux; B/W: 0.03 lux, at 50 IRE F1.2'.",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "network video standards",
+      "unit": "protocol list",
+      "basis": "Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'ONVIF® Profile G, ONVIF® Profile S, and ONVIF® Profile T' and supported protocol list. (value: ONVIF Profile G, S and T; H.264 and Motion JPEG; RTSP/RTP/SRTP; IEEE 802.1X)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "operating temperature in hazardous zone",
+      "unit": "°C (Zone system), -40 to 60 °C Class/Division system",
+      "basis": "Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'Hazardous location operating temperature: Zone system: -50 °C to 60 °C ... Class/Division system: -40 °C to 60 °C'.",
+      "low": -50,
+      "high": 60,
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    }
+  ],
+  "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+  "sources": [
+    {
+      "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+      "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

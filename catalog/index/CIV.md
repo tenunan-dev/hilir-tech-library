@@ -1,6 +1,6 @@
 # CIV: Civil and structural
 
-682 sources. Sub-topics: structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting.
+704 sources. Sub-topics: structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -79,6 +79,7 @@
 | [Cameron (SLB)](https://www.slb.com/-/media/files/sur/brochure/introduction-to-api-specification-6a.ashx) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [CAMTOP Oilfield Tools](https://www.camtop-oilfieldtools.com/product/wellhead-assembly-and-christmas-tree) | oem-supplier | global, apac, sea, na | open | summary-only |
 | [CAPE Holland](https://capeholland.com/applications/pin-jacket-pile-installation) | oem-supplier | global, apac, sea, na | open | summary-only |
+| [Capital Cost and Performance Characteristic Estimates for Utility Scale Electric Power Generating Technologies (AEO2020)](https://r.jina.ai/https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_aeo2020.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Carboline](https://www.carboline.com/products/product-details/Thermo-Lag-3000-P) | oem-supplier | global, apac, sea | open | summary-only |
 | [Cathodic Protection Management — Cathodic Marine zinc anode specification](https://cathodicme.com/services/sacrificial-anodes-system) | oem-supplier | global, apac, sea | open | summary-only |
 | [CathPro](https://www.cathprocp.com/aluminum-sacrificial-anodes.html) | oem-supplier | global, apac, sea | open | summary-only |
@@ -528,6 +529,7 @@
 | [Aker Solutions (Wikipedia)](https://en.wikipedia.org/wiki/Aker_Solutions) | oem-supplier | global, sea | open | summary-only |
 | [American Bureau of Shipping (Wikipedia)](https://en.wikipedia.org/wiki/American_Bureau_of_Shipping) | oem-supplier | global, sea | open | summary-only |
 | [AWT — Duyong Field Development Plan case study (PDF)](https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf) | oem-supplier | sea | open | summary-only |
+| [Bahagian 3.6 : Piling Work (Class H) - cost item averages/ranges](https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf) | agency-data | sea | open | summary-only |
 | [Bongkot and Erawan gas fields (G2/61 and G1/61) — cost](https://www.bangkokpost.com/business/general/2734825/pttep-to-hike-gas-output) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [Bongkot and Erawan gas fields (G2/61 and G1/61) — cost](https://www.offshore-mag.com/field-development/article/16790389/pttep-confirms-long-term-management-of-thai-gas-fields) | trade-media | global, apac, na, eu | open | summary-only |
 | [Bongkot and Erawan gas fields (G2/61 and G1/61) — cost](https://www.pttep.com/en/newsroom/press-releases/454/pttep-pushes-forward-investment-plan-in-bongkot-and-erawan-creating-long-term-value-to-the-country-thai-people-and-company-s-growth) | trade-media | global, apac, na, eu | open | summary-only |
@@ -549,6 +551,7 @@
 | [First oil for West Patricia](https://www.energynewsbulletin.net/operations/news/1052674/oil-west-patricia) | oem-supplier | global, sea | open | summary-only |
 | [Floatel International home page](https://www.floatel.no/) | oem-supplier | global, sea | open | summary-only |
 | [FPSO Life Extension via Consortium Approach | Case Study](https://www.oceaneering.com/case-studies/delivering-fpso-life-extension-through-integrated-offshore-operations/) | oem-supplier | global, sea | open | summary-only |
+| [Gas Turbine - Completed Projects](https://www.aquathermindia.com/accordions/gas-turbine-completed-projects/) | oem-supplier | global, sea, apac | open | summary-only |
 | [Gorgon LNG (Gorgon Gas Development) — cost](https://www.abc.net.au/news/2013-12-12/gorgon-gas-project-cost-blowout/5151982) | trade-media | global, apac, na, eu | open | summary-only |
 | [Gorgon LNG (Gorgon Gas Development) — cost](https://www.geos.ed.ac.uk/sccs/project-info/27) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [Hanwha Ocean (Wikipedia)](https://en.wikipedia.org/wiki/Hanwha_Ocean) | oem-supplier | global, sea | open | summary-only |
@@ -634,29 +637,46 @@
 | [Yme field redevelopment (MOPUstor) and Yme New Development — cost](https://www.offshore-technology.com/projects/ymeegersundbasin/) | trade-media | global, apac, na, eu | open | summary-only |
 | [ZEEPod page and blog (ZEE Engineering)](https://zee-eng.com/zeepod) | oem-supplier | global, sea | open | summary-only |
 | [Compass International FPSO cost estimator book page](https://compassinternational.net/blog/floating-production-storage-and-offloading-facility) | oem-supplier | global, sea | open | summary-only |
+| [DELTASPEC (M) SDN BHD - Project Portfolio (transformer supply to SESB/TNB)](https://www.dspecmy.com/projects/portfolio) | epc-contractor | sea | open | summary-only |
+| [Geotechnical Cost & Programme Guide Malaysia - indicative unit rates 2025-2026](https://infraconcrete.co/cost-programme-guide) | epc-contractor | sea | open | summary-only |
 | [Gulf Oil and Gas — KKB/OceanMight Kinabalu WHP EPC (2015)](https://gulfoilandgas.com/webpro1/main/mainnews.asp?id=46930) | oem-supplier | sea | open | summary-only |
+| [Jadual Kadar Kerja JKR 2025 (JKR20800-0258-25) rates reproduced with worked example](https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025) | trade-media | sea | open | summary-only |
+| [JML (JEL Maintenance) - Projects list: power plant and industrial plant references](https://jml.com.sg/what-we-do/construction/projects) | epc-contractor | sea | open | summary-only |
 | [Mooring Line Failures, Evacuation at Gryphon Alpha FPSO](https://budsoffshoreenergy.com/2011/02/05/mooring-line-failures-evacuation-at-gryphon-alpha-fpso/) | oem-supplier | global, sea | open | summary-only |
 | [MSOSH Award — PETRONAS Carigali Duyong Platform profile](https://award39.msosh.org.my/petronas-duyong-platform) | oem-supplier | sea | open | summary-only |
+| [PESTEC International - Electrical Substations project reference table](https://pestec-international.com/project-reference/electrical-substations) | epc-contractor | sea, apac | open | summary-only |
 | [2H Offshore — Addressing Integrity Issues on Ageing Platform Conductors (webinar, 28 Oct 2020)](https://2hoffshore.com/knowledge/addressing-integrity-issues-on-ageing-platform-conductors) | oem-supplier | global | open | summary-only |
 | [API 17J 4th edition 'what's new' PDF](https://www.api.org/~/media/files/publications/whats%20new/17j%20e4%20pa.pdf) | oem-supplier | global | open | summary-only |
+| [API 620](https://basiia.com/products/api-650-tanks) | standards-body | global | open | summary-only |
 | [API RP 2A-WSD 22nd ed brochure and contents (PDF)](https://r.jina.ai/https://www.api.org/~/media/files/publications/whats%20new/2a-wsd_e22%20pa.pdf) | oem-supplier | global | open | summary-only |
 | [API RP 2A-WSD 22nd edition product/contents sheet (PDF)](https://www.api.org/~/media/files/publications/whats%20new/2a-wsd_e22%20pa.pdf) | standards-body | global | open | summary-only |
 | [API RP 2FPS (R2025) catalogue record](https://store.accuristech.com/standards/api-rp-2fps-r2025?product_id=1811406) | oem-supplier | global | open | summary-only |
 | [API RP 2SK catalogue record (Accuris)](https://store.accuristech.com/standards/api-rp-2sk?product_id=2580812) | oem-supplier | global | open | summary-only |
 | [API RP 2T (R2023) catalogue record](https://store.accuristech.com/standards/api-rp-2t-r2023?product_id=1730946) | oem-supplier | global | open | summary-only |
 | [AU2015261530B2 Subsea universal Xmas tree hang-off adapter](https://patents.google.com/patent/AU2015261530B2/en) | patents | global | open | summary-only |
+| [BS EN 1090-2:2008+A1:2011 - Execution of steel structures and aluminium structures - Technical requirements for steel structures](https://knowledge.bsigroup.com/products/execution-of-steel-structures-and-aluminium-structures-technical-requirements-for-steel-structures/standard) | standards-body | eu, global | open | summary-only |
+| [BS EN 13670:2009 - Execution of concrete structures](https://knowledge.bsigroup.com/products/execution-of-concrete-structures) | standards-body | eu, global | open | summary-only |
+| [BS EN 1992-1-1:2004+A1:2014 - Eurocode 2: Design of concrete structures - General rules and rules for buildings](https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard) | standards-body | eu, global | open | summary-only |
+| [BS EN 1992-3:2006 - Eurocode 2: Design of concrete structures - Liquid retaining and containing structures](https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-liquid-retaining-and-containing-structures) | standards-body | eu, global | open | summary-only |
+| [BS EN 1993-1-1:2005+A1:2014 - Eurocode 3: Design of steel structures - General rules and rules for buildings](https://knowledge.bsigroup.com/products/eurocode-3-design-of-steel-structures-general-rules-and-rules-for-buildings/standard) | standards-body | eu, global | open | summary-only |
+| [BS EN 1997-1:2004+A1:2013 - Eurocode 7: Geotechnical design - General rules](https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard) | standards-body | eu, global | open | summary-only |
 | [CN113162215B Emergency power supply system and control method for replacing offshore platform diesel generator system](https://patents.google.com/patent/CN113162215B/en) | patents | global | open | summary-only |
 | [Delivering Quality Potable Water to Offshore Installations, Issue 2, 18 July 2013](https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf) | standards-body | eu, global | open | summary-only |
 | [DNV Floating Production classification page](https://www.dnv.com/maritime/offshore-classification/floating-production/) | oem-supplier | global | open | summary-only |
 | [DNV offshore technical guidance documents for download](https://www.dnv.com/maritime/offshore-classification/technical-guidance-otg/) | oem-supplier | global | open | summary-only |
 | [Electrical Design Considerations for Offshore Installations (IEEE Houston PCIC seminar)](https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf) | standards-body | na, global | open | summary-only |
+| [EN 12261](https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf) | standards-body | global | open | summary-only |
 | [Global FPSO decommissioning insights 2024 (report 2023dfi)](https://idms.iogp.org/Documents/1274) | oem-supplier | global | open | summary-only |
 | [Google Patents — US7942611B2 Offshore structure support](https://patents.google.com/patent/US7942611B2/en) | oem-supplier | global | open | summary-only |
 | [IEC 61511](https://en.wikipedia.org/wiki/IEC_61511) | standards-body | global | open | summary-only |
+| [IEC 61850](https://syc-se.iec.ch/iec-63097-smart-energy-roadmap/der-management-system/) | standards-body | global | open | summary-only |
 | [ISO 10423:2009 (withdrawn)](https://www.iso.org/standard/42757.html) | standards-body | global | open | summary-only |
 | [ISO 13702](https://r.jina.ai/https://www.klmtechgroup.com/PDF/ess/PROJECT_STANDARD_AND_SPECIFICATIONS_offshore_technical_safety_Rev01.pdf) | standards-body | global | open | summary-only |
+| [ISO 45001:2018](https://www.iso.org/standard/63787.html) | standards-body | global | open | summary-only |
 | [LR Materials Rules Ch 10 Sec 3 - Offshore Mooring Chain Cables](https://www.imorules.com/LRMAT_CH10_3.html) | oem-supplier | global | open | summary-only |
 | [MDPI Sustainability - Environmental Sustainability and Efficiency of Offshore Platform Decommissioning: A Review](https://r.jina.ai/https://www.mdpi.com/2071-1050/15/17/12757) | oem-supplier | global | open | summary-only |
+| [NFPA 20 - Standard for the Installation of Stationary Pumps for Fire Protection (2025 edition)](https://www.nfpa.org/codes-and-standards/nfpa-20-standard-development/20) | standards-body | global | open | summary-only |
+| [NFPA 22 - Standard for Water Tanks for Private Fire Protection (2023 edition)](https://www.nfpa.org/codes-and-standards/nfpa-22-standard-development/22) | standards-body | global | open | summary-only |
 | [NFPA 30](https://www.pdhonline.com/courses/m332/m332content.pdf) | standards-body | global | open | summary-only |
 | [NFPA 37](https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf) | standards-body | global | open | summary-only |
 | [Transient Responses Evaluation of FPSO with Different Failure Scenarios of Mooring Lines](https://www.mdpi.com/2077-1312/9/2/103) | oem-supplier | global | open | summary-only |
@@ -686,3 +706,5 @@
 | [Offshore Magazine — Tarpon monotower develops further from 37 field applications (1999)](https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications) | oem-supplier | global | open | summary-only |
 | [Oil platform (offshore platform)](https://en.wikipedia.org/wiki/Offshore_platform) | oem-supplier | global | open | full-text-open |
 | [UK Health and Safety Executive (HSE)](https://www.hse.gov.uk/electricity/) | agency-data | eu | open | summary-only |
+| [GEAPL Telescopic Sliding Gates - technical specification and catalogue](https://www.geapl.com/telescopic-sliding-gates) | oem-supplier | global | open | summary-only |
+| [SCAN Electromechanical - EPC 132/33/11 kV Star1 & Star2 Substation](https://scanelectromechanical.com/project/scan-project-03) | epc-contractor | me | open | summary-only |

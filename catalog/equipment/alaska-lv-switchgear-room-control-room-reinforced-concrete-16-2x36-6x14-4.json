@@ -1,0 +1,104 @@
+{
+  "id": "alaska-lv-switchgear-room-control-room-reinforced-concrete-16-2x36-6x14-4",
+  "name": "LV Switchgear Room & Control Room (reinforced concrete 16.2x36.6x14.4)",
+  "equipment_type": "wbs-4-construction-direct",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Evidence: RC design/execution standards, IEC 62271-200, JKKE 2025 small-electrical rates, and named substation/transformer references; no plant-specific cost read.",
+  "aliases": [
+    "LV Switchgear Room & Control Room (reinforced concrete 16.2x36.6x14.4)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "AC metal-enclosed MV switchgear assemb — Rated voltage range",
+      "unit": "kV",
+      "basis": "IEC 62271-200:2021 scope, IEC Webstore page read 2026-11-25 (value: above 1 kV and up to and including 52 kV)",
+      "year": 2021,
+      "source": {
+        "url": "https://webstore.iec.ch/en/publication/63466",
+        "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+      }
+    },
+    {
+      "metric": "AC metal-enclosed MV switchgear assemb — Service frequency",
+      "unit": "Hz",
+      "basis": "IEC 62271-200:2021 scope (value: up to and including 60 Hz)",
+      "year": 2021,
+      "source": {
+        "url": "https://webstore.iec.ch/en/publication/63466",
+        "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/63466",
+      "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://scanelectromechanical.com/project/scan-project-03",
+      "source_id": "alaska-scanelectromechanical-com-scan-project-03-f8abca1"
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "alaska-dspecmy-com-portfolio-d114008"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "alaska-pestec-international-com-electrical-substati-bc9755e"
+    },
+    {
+      "url": "https://scanelectromechanical.com/project/scan-project-03",
+      "source_id": "alaska-scanelectromechanical-com-scan-project-03-f8abca1",
+      "note": "Client Sharjah Electricity & Water Authority; location Down Town, Sharjah; EPC scope included site development, a masonry GIS building with control room as second floor above GIS equipment, transforme"
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "alaska-dspecmy-com-portfolio-d114008",
+      "note": "Deltaspec portfolio item 6: one 90 MVA 132/33/11 kV and one 30 MVA 132/11 kV power transformer; client BUMISEM / SESB."
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "alaska-pestec-international-com-electrical-substati-bc9755e",
+      "note": "PESTEC reference: establishment of GIS substation plus 132 kV overhead line loop-in/loop-out and underground cable to MRT Jinjang switching station; client Tenaga Nasional Berhad."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "LV Switchgear Room & Control Room (reinforced concrete 16.2x36.6x14.4)",
+      "why": "No published LV switchgear/control room building rate or control-system specification found; JKKE rates cover only small building wiring points.",
+      "next_action": "Obtain the LV switchgear and control-room specification plus a comparable tender rate."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (4 Construction direct).",
+  "last_reviewed": "2026-11-25"
+}

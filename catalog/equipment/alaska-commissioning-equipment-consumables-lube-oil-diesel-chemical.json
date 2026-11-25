@@ -1,0 +1,114 @@
+{
+  "id": "alaska-commissioning-equipment-consumables-lube-oil-diesel-chemical",
+  "name": "Commissioning Equipment & Consumables (Lube Oil,Diesel, Chemical)",
+  "equipment_type": "wbs-5-6-7-construction-indir",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Printed OEM-approved gas-engine lubricants, viscosity grade and chemical/fluid specifications for commissioning consumables. No consumable prices or quantities for this project were published in the sources read.",
+  "aliases": [
+    "Commissioning Equipment & Consumables (Lube Oil,Diesel, Chemical)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Shell Mysella S5 N 40 / Shell Mysella  — SAE viscosity class (approved engine oil, Series 4000 and 400 gas engines)",
+      "unit": "SAE viscosity class",
+      "basis": "MTU Fluids and Lubricants Specifications A001072/02E printed 2020-06, Tables 5/6/10/12: Shell Mysella S5 N 40 and S3 N 40 listed with SAE viscosity class 40 for generator/marine gas-engine applications; general rule 'Viscosity grade SAE 40 is stipulated for gas engines. Multigrade oils are not permitted.'",
+      "value": 40,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    },
+    {
+      "metric": "Castrol Duratec L / ExxonMobil Mobil P — SAE viscosity class for listed approved/alternative oils",
+      "unit": "SAE viscosity class",
+      "basis": "MTU A001072/02E printed 2020-06, Tables 5, 6, 10 and 12: Castrol Duratec L, Mobil Pegasus 705/805/1005 and MTU GEO NG Power X2L all listed at SAE viscosity class 40; some alternative oils noted '* The use of these engine oils shortens the service life.'",
+      "value": 40,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    },
+    {
+      "metric": "ANTIFREEZE / corrosion inhibitor and A — permissible ethylene-glycol antifreeze concentration",
+      "unit": "% by volume (min 35, max 50)",
+      "basis": "MTU A001072/02E printed 2020-06, Table 17: ethylene glycol antifreeze min 35% to max 50% by volume, with protection to -20 C / -25 C / -31 C / -37 C at 35/40/45/50%; above 50% impermissible. Section 5.2 of the same document covers 'NOx reducing agent AUS 32 for SCR exhaust gas aftertreatment systems'.",
+      "low": 35,
+      "high": 50,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    },
+    {
+      "metric": "MAN 175D post-commissioning filter pac — number of standardised spare parts packages",
+      "unit": "packages",
+      "basis": "MAN PrimeServ 'Prepare for MAN 175D' printed June 2022: four packages - post-commissioning (filters for complete replacement after commissioning), mechanical (lube oil/fuel/air filters, gaskets, spare fuel injector), after-treatment (urea filters, injectors, NOx sensors), automation (speed/pressure/float/temperature sensors).",
+      "value": 4,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+        "source_id": "alaska-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "retro-vendor-shell-operator-35",
+      "line": "Shell Mysella S5 N 40 / Shell Mysella S3 N 40 gas engine oils",
+      "note": "gas engine lubricating oil (consumable)"
+    },
+    {
+      "vendor": "alaska-vendor-castrol-ltd-bf243",
+      "line": "Castrol Duratec L / ExxonMobil Mobil Pegasus 705, 805, 1005 / MTU GEO NG Power X2L",
+      "note": "approved gas engine oils (alternative consumables)"
+    },
+    {
+      "vendor": "everllence",
+      "line": "MAN 175D post-commissioning filter package",
+      "note": "commissioning consumables package"
+    }
+  ],
+  "vendors": [
+    "retro-vendor-shell-operator-35",
+    "alaska-vendor-castrol-ltd-bf243",
+    "alaska-vendor-exxon-mobil-corporation-fe7ed",
+    "rolls-royce-power-systems",
+    "everllence"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+      "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+      "source_id": "alaska-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Commissioning Equipment & Consumables (Lube Oil,Diesel, Chemical)",
+      "why": "No published prices, drum sizes for this site, diesel volume or chemical quantities for commissioning of the 7-unit plant were found. MTU and MAN print specifications only; Shell's product page did not render usable text through WebFetch, so no Shell-page figures are recorded.",
+      "next_action": "Obtain priced consumables list and confirm which OEM oil approval applies to the actual engine make."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (5/6/7 Construction indirect, commissioning, EPC indirect).",
+  "last_reviewed": "2026-11-25"
+}

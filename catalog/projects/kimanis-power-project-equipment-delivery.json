@@ -1,0 +1,73 @@
+{
+  "id": "kimanis-power-project-equipment-delivery",
+  "name": "Kimanis Power Project - equipment delivery",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah, Kimanis Bay)",
+  "location": "Malaysia (Sabah, Kimanis Bay)",
+  "status": "operating",
+  "description": "3 x Frame 6FA gas turbines plus generators; BOOT plant developed by Kimanis Power Sdn Bhd.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [
+    {
+      "event": "GE turbine shipment scheduled",
+      "date": "2012",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+        "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "fixed stamp duty for marine/cargo insurance documents",
+      "year": 2026,
+      "unit": "RM (FIXED)",
+      "basis": "HASiL guideline LHDN.AG.600-1/10/3 printed 30 June 2026, section G 4.11: Cargo Insurance Certificate, Cargo Insurance Policy, Certificate of Insurance Marine Cargo Policy (Export), Marine Cargo Insurance Certificate. This is a stamp duty, not an insurance premium.",
+      "value": 10,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+        "source_id": "alaska-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+      "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead",
+      "note": "3 x Frame 6FA gas turbines plus generators; BOOT plant developed by Kimanis Powe"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+      "source_id": "alaska-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+    },
+    {
+      "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+      "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+    },
+    {
+      "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
+      "source_id": "alaska-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
+    },
+    {
+      "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+      "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead",
+      "note": "3 x Frame 6FA gas turbines plus generators; BOOT plant developed by Kimanis Power Sdn Bhd."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Freight, Transportation, Cargo Insurance and Installation [Handling, Taxes and Insurances] - GEG & BOP",
+      "why": "No ocean freight rate, heavy-lift/handling charge, Malaysian import duty or sales-tax figure, cargo-insurance premium or installation price for GEG/BOP into Sabah was found in the sources read. Only the RM10 cargo-insurance stamp duty and a shipment date are printed.",
+      "next_action": "Obtain quoted freight/handling/insurance/tax amounts per shipment and keep them separate from the RM10 stamp duty."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (5/6/7 Construction indirect, commissioning, EPC indirect)."
+}

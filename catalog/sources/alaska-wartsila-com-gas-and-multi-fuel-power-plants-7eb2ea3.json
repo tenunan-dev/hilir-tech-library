@@ -1,0 +1,27 @@
+{
+  "id": "alaska-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3",
+  "name": "Wärtsilä Gas and multi-fuel power plants brochure (printed 08.2017)",
+  "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "GAS"
+  ],
+  "disciplines": [
+    "ROT",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Wärtsilä Corporation",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Direct WebFetch returned unsupported PDF content type; read via r.jina.ai fallback (retrieval 2023-08-18). Printed imprint '08.2017 / Bock's Office / Waasa Graphics'.. Exact printed figures are recorded in the linked records' basis fields."
+}

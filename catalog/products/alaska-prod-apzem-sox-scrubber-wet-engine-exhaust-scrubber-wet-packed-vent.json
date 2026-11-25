@@ -1,0 +1,73 @@
+{
+  "id": "alaska-prod-apzem-sox-scrubber-wet-engine-exhaust-scrubber-wet-packed-vent",
+  "name": "APZEM SOX Scrubber (wet engine-exhaust scrubber)",
+  "manufacturer": "alaska-vendor-apzem-india-engineering-chennai-india-a5618",
+  "product_type": "wet-packed-venturi-type-sox-and-acid-gas-scrubber",
+  "equipment": [
+    "alaska-scrubber-gas-treatment"
+  ],
+  "description": "wet packed/venturi-type SOx and acid-gas scrubber",
+  "specifications": [
+    {
+      "metric": "air flow",
+      "unit": "CFM (printed 'upto 70,000 CFM')",
+      "basis": "APZEM 'SOX Scrubber' page, Technical Specification; page read 2026-11-25; site footer ©2023.",
+      "high": 70000,
+      "year": 2026,
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber",
+        "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+      }
+    },
+    {
+      "metric": "capturing efficiency",
+      "unit": "% (printed 'upto 99.99% capturing efficiency')",
+      "basis": "APZEM SOX Scrubber page; page read 2026-11-25; footer ©2023.",
+      "high": 99.99,
+      "year": 2026,
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber",
+        "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+      }
+    },
+    {
+      "metric": "materials of construction",
+      "unit": "Mild Steel / SS 304 / SS316 / FRP / PP / PVC",
+      "basis": "APZEM SOX Scrubber page Technical Specification; page read 2026-11-25; footer ©2023.",
+      "year": 2026,
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber",
+        "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+      }
+    },
+    {
+      "metric": "power option",
+      "unit": "3 Phase",
+      "basis": "APZEM SOX Scrubber page Technical Specification; page read 2026-11-25; footer ©2023.",
+      "year": 2026,
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber",
+        "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+      }
+    },
+    {
+      "metric": "operating modes",
+      "unit": "continuous open loop, closed loop, and predetermined period as zero-discharge sy",
+      "basis": "APZEM SOX Scrubber page 'Working'; page read 2026-11-25; footer ©2023.",
+      "year": 2026,
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber",
+        "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+      }
+    }
+  ],
+  "url": "https://wet-scrubber.com/sox-scrubber",
+  "sources": [
+    {
+      "url": "https://wet-scrubber.com/sox-scrubber",
+      "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

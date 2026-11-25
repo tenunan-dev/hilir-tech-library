@@ -1,0 +1,51 @@
+{
+  "id": "alaska-prod-landis-gyr-e660-high-end-metering-and-analysis-device-billing",
+  "name": "Landis+Gyr E660 high-end metering and analysis device",
+  "manufacturer": "alaska-vendor-landis-gyr-b8b44",
+  "product_type": "billing-power-quality-grid-edge-meter",
+  "equipment": [
+    "alaska-energy-billing-system"
+  ],
+  "description": "billing / power-quality grid-edge meter",
+  "specifications": [
+    {
+      "metric": "accuracy classes for active energy",
+      "unit": "class as printed",
+      "basis": "Landis+Gyr E660 product page (© Landis+Gyr 2026), read directly: 'Accuracy classes C, B (MID) or 0.2s, 0.5s, 1 (IEC) (for active energy)'. (value: C, B (MID) or 0.2s, 0.5s, 1 (IEC))",
+      "year": 2026,
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
+        "source_id": "alaska-landisgyr-com-e660-f701920"
+      }
+    },
+    {
+      "metric": "functional scope",
+      "unit": "product description",
+      "basis": "Landis+Gyr E660 product page (© Landis+Gyr 2026), read directly: '3 in 1 approach: one device for billing, network monitoring and control and power quality supervision'. (value: 3 in 1: billing, network monitoring and control, power quality supervision)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
+        "source_id": "alaska-landisgyr-com-e660-f701920"
+      }
+    },
+    {
+      "metric": "security",
+      "unit": "protocol/security",
+      "basis": "Landis+Gyr E660 product page (© Landis+Gyr 2026), read directly: 'High Level DLMS security with encryption and authentication, role based access (RBAC), TLS' and 'DLMS security suite 0 as default, upgrade path to suite 1 and 2 and TLS'. (value: DLMS High Level Security suite 0 default, upgrade path suite 1/2 and TLS; role b)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
+        "source_id": "alaska-landisgyr-com-e660-f701920"
+      }
+    }
+  ],
+  "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
+  "sources": [
+    {
+      "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
+      "source_id": "alaska-landisgyr-com-e660-f701920"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

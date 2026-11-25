@@ -1,0 +1,23 @@
+{
+  "id": "alaska-iso-org-60857-html-01e01e4",
+  "name": "ISO 14001:2015 (withdrawn)",
+  "url": "https://www.iso.org/standard/60857.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "International Organization for Standardization",
+  "access": "open",
+  "licence": "ISO copyright; catalogue metadata open",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Read with WebFetch 25 Nov 2026. Page © ISO 2026; publication 2015-09; withdrawal stage 95.99 dated 2026-04-15; replaced by ISO 14001:2026.. Exact printed figures are recorded in the linked records' basis fields."
+}

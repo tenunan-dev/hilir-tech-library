@@ -1,0 +1,119 @@
+{
+  "id": "alaska-prod-mtu-12v1600-gs400-set-mounted-radiator-cooling-system-ng-and-l",
+  "name": "mtu 12V1600 GS400 set-mounted radiator / cooling system (NG and LPG)",
+  "manufacturer": "alaska-vendor-rolls-royce-mtu-solutions-00b30",
+  "product_type": "engine-cooling-radiator",
+  "equipment": [
+    "alaska-cooling-water-system-package-air-cold-radiator"
+  ],
+  "description": "engine cooling radiator",
+  "specifications": [
+    {
+      "metric": "Ambient capacity of radiator",
+      "unit": "°C (°F) 50 (122), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Cooling - radiator system, document 231296 | 2026-03; read via r.jina.ai 2026-04-16.",
+      "value": 50,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Maximum restriction of cooling air, intake and discharge side of radiator",
+      "unit": "kPa (in. H₂O) 0.20 (0.8), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Cooling - radiator system, document 231296 | 2026-03; read via r.jina.ai.",
+      "value": 0.2,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Water pump capacity",
+      "unit": "L/min (gpm) 517 (137), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Cooling - radiator system, document 231296 | 2026-03; read via r.jina.ai.",
+      "value": 517,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Heat rejection to coolant",
+      "unit": "kW (BTUM) 294 (16,739), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Cooling - radiator system, document 231296 | 2026-03; read via r.jina.ai.",
+      "value": 294,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Heat rejection to after cooler",
+      "unit": "kW (BTUM) 132 (7,517), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Cooling - radiator system, document 231296 | 2026-03; read via r.jina.ai.",
+      "value": 132,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Fan power",
+      "unit": "kW (hp) 29 (39), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Cooling - radiator system, document 231296 | 2026-03; read via r.jina.ai.",
+      "value": 29,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "System coolant capacity",
+      "unit": "L (gal) 156 (41.3), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Liquid capacity, document 231296 | 2026-03; read via r.jina.ai.",
+      "value": 156,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Air flow required for radiator cooled unit",
+      "unit": "m³/min (SCFM) 960 (33,902), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Air requirements, document 231296 | 2026-03; read via r.jina.ai.",
+      "value": 960,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Open power unit dimensions L × W × H",
+      "unit": "3,720 x 1,865 x 2,247 mm (146.5 x 73.5 x 88.5 in)",
+      "basis": "mtu 12V1600 GS400 spec sheet, Weights and dimensions; sheet states dimensions/weights are for open power units and 'are estimates only'; document 231296 | 2026-03; read via r.jina.ai.",
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    }
+  ],
+  "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+  "sources": [
+    {
+      "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+      "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "alaska-search-abb-com-download-aspx-583c22e",
+  "name": "ABB Ability System 800xA Safety Overview",
+  "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "INS",
+    "HSE",
+    "DIG"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "ABB",
+  "access": "open",
+  "licence": "© 2025 ABB; reproduction prohibited without permission (stated in document)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: 16-page brochure, copyright © 2025 ABB; r.jina.ai reports Published Time Mon, 03 Nov 2025. Read via r.jina.ai because WebFetch rejects application/pdf; short quotes only.. Exact printed figures are recorded in the linked records' basis fields."
+}

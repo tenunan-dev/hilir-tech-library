@@ -1,0 +1,22 @@
+{
+  "id": "alaska-vendor-vibrant-engineering-services-sdn-bhd-798115-t-pela-1f1a0",
+  "name": "Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Selangor, Malaysia",
+  "country": "—",
+  "roles": [
+    "epc"
+  ],
+  "categories": [
+    "plant-epc"
+  ],
+  "description": "Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Selangor, Malaysia named on a page read for the Alaska GEG WBS supply-chain sweep.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed WBS/BOQ sweep."
+}

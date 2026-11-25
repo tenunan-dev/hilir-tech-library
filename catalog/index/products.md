@@ -1,6 +1,48 @@
 # Product catalog
 
-361 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
+458 vendor product lines with printed specifications (schema `schema/product.schema.json`). Every figure cites the page it was read from.
+
+## 11-kv-class-air-insulated-metal-enclosed-switchgea
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [ABB UniGear ZS1 air-insulated medium-voltage switchgear](https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf) | ABB | 11kV Switchgears (11 units) | Rated voltage; Insulation level power frequency / lightning impulse at 12 kV; Rated main busbar and feeder current; Rated short-time current and internal arc withstand at 12/17.5 kV; Busbar configuration |
+
+## 11-kv-three-core-armoured-xlpe-cable
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Nexans 11 kV 3-core 50 mm2 Cu/XLPE/SC/SWA/PVC cable (BS 6622)](https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans) | Supplier not identified in sources read (WBS line item) | Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV) | rated voltage / voltage to neutral; nominal conductor cross-section; current carrying capacity in ground (20 deg C); current carrying capacity in air (30 deg C); nominal short-circuit current for 1 second, conductor; nominal short-circuit current for 1 second, screen; permissible operating temperature; conductor DC resistance at 20 deg C |
+
+## 132-kv-gis-substation-bay-circuit-breaker-disconne
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [ABB ELK-04 C, 145 kV gas-insulated switchgear (GIS)](https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf) | Supplier not identified in sources read (WBS line item) | 132kV Substation (3 busbar, 2 outgoing, 4 incoming) | Rated voltage; Rated normal current; Rated short-circuit breaking current 50/60 Hz; Rated short-time withstand current / duration; Rated peak withstand current / making current; Rated lightning impulse withstand voltage (to earth); Rated short-duration power-frequency withstand voltage; Operating times (opening / closing / reclosing); Rated operating sequence; SF6 filling pressure / minimum functional pressure absolute at 20 degrees C; BIL required at 132 kV by Sabah grid code (User Apparatus); Overhead line fault clearance time at 132 kV; Total harmonic distortion limit at 132 kV |
+
+## 33-kv-class-metal-enclosed-air-insulated-switchgea
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [ABB UniGear ZS1 (double busbar variant) air-insulated medium-voltage switchgear](https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf) | Supplier not identified in sources read (WBS line item) | 33kV Substation (1 busbar, 7 outgoing, 2 incoming) | Rated voltage variants; Insulation levels power frequency / lightning impulse; Rated main busbar current at 40 degrees C; Rated short-time current; Internal arc classification; Panel dimensions height / width / depth; BIL required at 33 kV in Sabah; Maximum fault level rule; 33 kV classification under the Sabah Distribution Code |
+
+## 33-kv-single-core-unarmoured-xlpe-cable
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Nexans 33 kV single-core 630 mm2 XLPE cable (BS 7870-4.10, 19/33 kV)](https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans) | Supplier not identified in sources read (WBS line item) | Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV) | rated voltage; nominal cross-sectional area; 1 second short-circuit rating of conductor (copper), 90 to 250 deg C; 1 second short-circuit rating of 35 sqmm copper wire screen, 80 to 250 deg C; current carrying capacity, copper, laid in trefoil, in air; current carrying capacity, copper, laid in trefoil, direct buried |
+
+## air-handling-unit-with-heat-recovery
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Daikin Hybrid AHU DDS series (Daikin Refrigeration Malaysia Sdn. Bhd.)](https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf) | Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia | HVAC System Package | Airflow range (brochure headline); Model DS-0707 airflow; Chilled-water outlet temperature, new method; AHU dimensions (model DS-0707) |
+
+## air-intake-filter
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Camfil CAMGT Box Type G II (T7/T8/T9/T10) gas-engine/compressor intake filter](https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf) | Camfil | Intake Air System Package | Filter dimensions W×H×D; Airflow/pressure drop, T7; Airflow/pressure drop, T10; Recommended final pressure drop; Maximum temperature; Maximum relative humidity; Filter area |
 
 ## ammonia
 
@@ -27,6 +69,30 @@
 | [Two-step reformer based Low Energy Ammonia Process](https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification) | Topsoe | Ammonia synthesis converter | Capacity |
 | [Uhde dual-pressure ammonia process](https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde) | thyssenkrupp Industrial Solutions (Uhde) | Ammonia synthesis converter | Capacity; Basis for larger plants; LP once-through converter suction pressure; HP loop operating pressure; Share of ammonia from once-through converter; Ammonia condensed from once-through effluent |
 | [ULTIMA X5000 / General Monitors S5000 (electrochemical and catalytic bead variants)](https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf) | MSA Safety | Ammonia synthesis converter | Electrochemical NH3 range; Catalytic bead range |
+
+## approved-gas-engine-oils-alternative-consumables
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Castrol Duratec L / ExxonMobil Mobil Pegasus 705, 805, 1005 / MTU GEO NG Power X2L](https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf) | Castrol Ltd. | Commissioning Equipment & Consumables (Lube Oil,Diesel, Chemical) | SAE viscosity class for listed approved/alternative oils |
+
+## atmospheric-steel-water-storage-tank-epc-scope
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Basiia AWWA D100 welded carbon steel water storage tanks (potable / fire water / industrial water)](https://basiia.com/products/api-650-tanks) | Supplier not identified in sources read (WBS line item) | Water Tank System Package | applicable standard; potable water contact lining; service scope |
+
+## billing-power-quality-grid-edge-meter
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Landis+Gyr E660 high-end metering and analysis device](https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660) | Landis+Gyr | Energy Billing System | accuracy classes for active energy; functional scope; security |
+
+## billing-substation-tariff-meter
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Landis+Gyr E850 grid meter](https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850) | Landis+Gyr | Energy Billing System | accuracy class; low-load accuracy guarantee; deployment base |
 
 ## boiler
 
@@ -149,17 +215,47 @@
 | [VIKING Norsafe free-fall lifeboat and davit systems](https://www.viking-life.com/product-insights) | VIKING Life-Saving Equipment | Shallow / raft / pad foundations | approved free-fall drop height |
 | [VIKING offshore evacuation systems (chute / slide)](https://www.viking-life.com/product-insights) | VIKING Life-Saving Equipment | Shallow / raft / pad foundations | embarkation height capability |
 
+## closed-circuit-radiator-cooling-arrangement
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Wärtsilä closed-loop radiator cooling (gas/multi-fuel power plants)](https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22) | Wärtsilä | Cooling Water System Package / Air Cold Radiator | Plant process water consumption with closed-loop radiator cooling |
+
 ## co2-stripper
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [SPLIT FLOW LOOP (improved CO2 stripping)](https://www.casale.ch/technologies/urea/) | Casale SA | Urea CO2 stripper | CO2 conversion in reactor; sections |
 
+## commissioning-consumables-package
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [MAN 175D post-commissioning filter package](https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6) | Everllence | Commissioning Equipment & Consumables (Lube Oil,Diesel, Chemical) | number of standardised spare parts packages |
+
+## compact-urea-scr-system
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Compact SCR system for 500–4500 kW engines (patent EP3137745B1, Johnson Matthey Catalysts Germany GmbH)](https://patents.google.com/patent/EP3137745B1/en) | Johnson Matthey Catalysts Germany GmbH | DOC and SCR system Package | Engine power range; Aqueous urea concentration ranges; Preferred SCR catalyst cell density |
+
 ## compressed-air
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [GA (VSD+) oil-injected rotary screw compressors](https://www.atlascopco.com/en-us/compressors/products/air-compressor/rotary-screw-compressor/ga-series) | Atlas Copco | Instrument air / plant compressed air systems (dampers, control valves, actuators) | Working pressure; Capacity FAD; Installed motor power; Capacity FAD; Standards compliance; Energy recovery from motor and element oil circuit; VSD average energy savings claim |
+
+## compressed-air-quality-standard-interpretation-and
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [ISO 8573 moisture class definitions and dryer selection (nano-purification solutions / Aerodyn Group Malaysia)](https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance) | nano-purification solutions Asia Pacific (Singapore) | Instrument Air System Package | ISO 8573 moisture class 1 dew point; ISO 8573 moisture class 2 dew point; ISO 8573 moisture class 3 dew point; desiccant dryer achievable dew point; refrigerated dryer dew point; refrigerant dryer PDP; adsorption/desiccant dryer PDP; membrane dryer PDP; ISO 8573-1 class 1 PDP / class 4 PDP (as printed) |
+
+## compressed-air-treatment-and-distribution-accessor
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Aerodyn Group Malaysia (Pneumatech / ELGI / Quincy / SPX Jemaco) compressed air dryers and filtration](https://aerodyngroup.com/pneumatech) | Aerodyn Group Malaysia (Shah Alam and Labuan) | Service Air System Package | dryer types offered; refrigerant dryer pressure dew point; adsorption dryer pressure dew point; Malaysia presence |
 
 ## compressor
 
@@ -179,17 +275,77 @@
 | [Woodward easYgen-3000XT](https://www.woodward.com/products/industrial/generator-controllers/easygen) | Woodward | Engine control / genset controller / paralleling controls / protection relays / synchronising | Isochronous gensets; Measurement; Redundancy |
 | [Zeeco Burner Management Systems (BMS)](https://www.zeeco.com/products/burners?hsLang=en) | Zeeco | Burner management and flame safeguard system | Components; Panel certifications |
 
+## ct-vt-relay-test-set
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Megger MRCT relay and current transformer test set](https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set) | Supplier not identified in sources read (WBS line item) | Electrical Laboratory Equipment Package | DC excitation knee point capability; secondary voltage injection (configurable base unit); minimum insulation resistance value generally accepted; primary noise filtration accuracy penalty |
+
+## custody-transfer-gas-metering-skid
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Emerson Gas Ultrasonic Metering System (skid, Rosemount 3414/3417 meters, FloBoss S600+)](https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf) | Emerson (duplex stainless steel option on Roxar 2600, page read) | Gas Receiving, metering station, hot tap, FG supply system | Installed base of integrated metering skids; Meter rangeability; Ultrasonic meter design |
+
 ## damper
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [HRSG Bypass Dampers (two BiPlane Dampers arrangement)](https://www.forneycorp.com/products/hrsg-bypass-dampers) | Forney Corporation | Stack/breeching dampers, bypass dampers and sealing systems for HRSG simple-cycle operation | Configuration; Safety interlock; Sealing; Claimed advantages; Independent actuation |
 
+## dcs-and-safety-instrumented-system
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Yokogawa CENTUM VP with ProSafe-RS](https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf) | Yokogawa Electric Corporation | Plant Control System | maximum operation/monitoring tags; Vnet/IP link transmission period; IEC 61850 IED communication package; safety system certification; remote I/O fibre distance |
+
+## dcs-controller
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Honeywell Experion PKS C300 controller](https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller) | Honeywell | Plant Control System | user memory; execution units; standard execution period; redundant controller switchover time; operating temperature range; supported protocols; security certification |
+
+## diesel-electric-driven-fire-pump-packages-split-ca
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [ROTAMAC fire fighting pumps and complete pre-packaged fire systems (NFPA-20)](https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf) | Supplier not identified in sources read (WBS line item) | Fire Fighting System Package | overall NFPA-20 supply range (flow); overall NFPA-20 supply range (pressure); split casing fire pump flow; split casing fire pump pressure; end suction fire pump flow; in-line fire pump flow; vertical turbine fire pump flow; multi-stage fire pump pressure; jockey pump sizing basis; complete package flow; complete package pressure; pump standards listed |
+
+## diesel-fuel-oil-day-tank
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Preferred Utilities Model DT fuel oil day tank](https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf) | Preferred Utilities Manufacturing Corp., Danbury, CT, USA | Diesel Fuel System Package | Available capacities; Tank metal thickness; Rupture basin containment; Pipe connections; DT-020 tank dimensions A/B/C and dry weight |
+
+## diesel-generator-set-standby-prime-dcc-rated
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Cummins commercial diesel generator sets, International 50 Hz range](https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf) | Cummins | Black Start Diesel Generator Package | Standby rating, smallest listed model C17D5; Standby rating, model C3000D5; Highest standby rating in card; Rating note |
+
+## double-girder-eot-crane-with-hoist-winch-trolley
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Dafang Crane LH-type / QD-type double girder overhead crane with hoist trolley](https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf) | Dafang Crane (dgcrane.com) | Crane & Hoist | LH-type 5t span; LH-type 5t lifting height; LH-type 5t total power; LH-type 10t total power; working duty; single girder reference span/lift/power |
+
+## electric-overhead-travelling-crane-and-hoists-jkkp
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Vibrant Engineering Services single/double girder EOT crane, wire rope hoist, chain hoist, gantry and jib crane](https://vibrantengineering.com.my/products/overhead-crane) | Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Selangor, Malaysia | Crane & Hoist | capacity range; span; single girder EOT capacity; single girder EOT span; double girder EOT capacity; double girder EOT span; duty class; certification; standard features; supply condition |
+
 ## emissions-control
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [Selective Catalytic Reduction (SCR) Systems](https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems) | John Zink (Koch Engineered Solutions) | SCR, SNCR and CEMS for boilers | NOx reduction; Reductant options; Additional catalyst; Applications |
+
+## energy-billing-metering-data-collection-system
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [SESB Single Buyer revenue-metering data collection and billing chain](https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf) | SESB Single Buyer (system owner/operator per Sabah Grid Code) | Energy Billing System | revenue data recording interval; on-site data store backup capability; billing data source; meter database archive |
 
 ## engine
 
@@ -211,6 +367,24 @@
 | [Wärtsilä 46TS-SG gas engine](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions) | Wärtsilä | Gas engine prime mover | Electrical output (50/60 Hz variants as listed); Electrical efficiency |
 | [Wärtsilä 50SG gas engine](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions) | Wärtsilä | Gas engine prime mover | Electrical output; Electrical efficiency |
 
+## engine-air-filtration-system
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Donaldson Air Intake Systems / PowerCore®, PowerPleat™, RadialSeal™ and Strata™ pre-cleaners](https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf) | Donaldson Company, Inc. | Intake Air System Package | Pre-cleaner contaminant separation efficiency, Strata™ Tubes; Pre-configured system manufacturing lead time; Volumetric efficiency guideline, naturally aspirated gas engine (4-stroke) |
+
+## engine-cooling-radiator
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [mtu 12V1600 GS400 set-mounted radiator / cooling system (NG and LPG)](https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf) | Rolls-Royce / mtu solutions | Cooling Water System Package / Air Cold Radiator | Ambient capacity of radiator; Maximum restriction of cooling air, intake and discharge side of radiator; Water pump capacity; Heat rejection to coolant; Heat rejection to after cooler; Fan power; System coolant capacity; Air flow required for radiator cooled unit; Open power unit dimensions L × W × H |
+
+## epc-epcc-contractor-and-construction-management-se
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [CTCI Corporation / Synerlitz Sdn Bhd / SCHB Engineering Services EPCC consortium](https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/) | CTCI Corporation | Construction Management + Svc (Sub-con, Third Party Cost, Local Authorities etc) | EPCC construction period |
+
 ## ex-wellhead
 
 | Product | Manufacturer | Equipment | Specifications |
@@ -224,6 +398,18 @@
 | --- | --- | --- | --- |
 | [Johnson Matthey Modulex B/C and DualOx](https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems) | Johnson Matthey | Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints | Engine power |
 | [Johnson Matthey SINOx SCR system](https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems) | Johnson Matthey | Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints | NOx reduction; Service interval |
+
+## exhaust-aftertreatment-catalytic-silencer
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Johnson Matthey SINOx® SCR / oxidation catalyst system (also supplied as converter-silencers)](https://matthey.com/products-and-markets/emissions-control/nox-control-systems) | Johnson Matthey | Exhaust Gas System Package | NOx emissions reduction, SCR systems for stationary diesel and gas engines; Hours of operation before maintenance |
+
+## exhaust-gas-silencer
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [IAC Acoustics engine exhaust silencers (absorptive / reactive / catalytic / SCR-integrated)](https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/) | IAC Acoustics (UK Ltd / IAC World) | Exhaust Gas System Package | Noise reduction, absorptive silencer; Noise reduction, reactive silencer; Typical performance range; Working temperature range of exhaust silencers for reciprocating engines; Pressure level |
 
 ## fan
 
@@ -241,6 +427,18 @@
 | [Monoscour Gravity Filter](https://graver.com/pretreatment/) | Graver Water (Marmon Industrial Water) | Boiler feedwater pretreatment | Filter type; Design duty |
 | [Reactivator Solids Contact Clarifier](https://graver.com/pretreatment/) | Graver Water (Marmon Industrial Water) | Boiler feedwater pretreatment | Clarifier type; Functions integrated in single unit; Applications |
 | [TrayMaster Deaerator (TMV / TMH)](https://cleaverbrooks.com/product/traymaster) | Cleaver-Brooks | Feedtank, deaerator and feedwater pump | Capacity TMV; Capacity TMH; Residual dissolved oxygen; Configuration; Standard |
+
+## field-device-management-software
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Yokogawa Plant Resource Manager (PRM) field device management](https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf) | Yokogawa Electric Corporation | Field Instrumentation | supported field protocols |
+
+## field-shop-fabricated-atmospheric-lube-oil-storage
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Roben Manufacturing custom lubricating-oil storage tank](https://robenmfg.com/lubricating-oil-storage-application) | Roben Mfg., Inc. (Lakewood, NJ, USA) | Lube Oil Tank System Package | capacity range; tank diameter (maximum); construction standard; internal coating options; roof type options; metals of construction; documentation |
 
 ## fl-system
 
@@ -366,11 +564,95 @@
 | --- | --- | --- | --- |
 | [High Pressure Gas Booster Series GM-HP](https://www.aerzen.com/product/gas-booster-for-high-pressure-applications) | AERZEN (Aerzener Maschinenfabrik GmbH) | Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank | Volume flow; Differential pressure; Conveying |
 
+## fuel-gas-pressure-regulating-and-metering-station
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Emerson Tartarini™ pilot-operated pressure regulators / fuel-gas supply station](https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf) | Supplier not identified in sources read (WBS line item) | Gas Receiving, metering station, hot tap, FG supply system | Typical transmission pipeline pressure range; Typical power-plant fuel-gas pressure required; Pilot-operated regulator set-pressure accuracy; Station noise benchmark; Fuel-gas supply station equipment items listed |
+
+## fuel-oil-transfer-pump-day-tank-package
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Preferred Utilities fuel oil transfer pump and day tank set](https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf) | Preferred Utilities Manufacturing Corp. | Diesel Fuel System Package | Flow range; Pump duty table (catalogue nos. 11871–11815); Fuel type; Tank hydrostatic test pressure; Level switch setpoints |
+
+## gas-engine-chp-product-line-historical-ownership
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [GE (historical Jenbacher gas engine brand, 2003-2018)](https://en.wikipedia.org/wiki/Jenbacher) | Supplier not identified in sources read (WBS line item) | GEG (7 units) | GE Energy Jenbacher J920 electrical efficiency (archived GE claim cited by Wikipedia) |
+
+## gas-engine-exhaust-interface
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [mtu 12V1600 GS400 gas generator set — exhaust system data (NG and LPG)](https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf) | Rolls-Royce / mtu solutions | Exhaust Gas System Package | Gas temperature (stack); Gas volume at stack temperature; Maximum allowable back pressure at outlet of engine, before piping |
+
+## gas-engine-for-power-generation-natural-and-specia
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [MAN gas engine programme E0834 / E0836 / E2876 / E3268 / E3262 / E3872](https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html) | MAN Engines | GEG (7 units) | Natural gas engine power range; MAN E3872 output; MAN E3872 electrical efficiency; MAN E3262 output range (natural gas); Overall efficiency in cogeneration, MAN gas engines |
+
+## gas-engine-generator-set
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Everllence 18V51/60DF and 20V35/44G gas / dual-fuel engine gensets](https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants) | Supplier not identified in sources read (WBS line item) | Equipment, Mech, Elec, C&I | 20V35/44G engine count and output; 18V51/60DF engine count (Kimanis); 18V51/60DF engine count (Labuan); 18V51/60DF single genset output (Kibing); Potential output, Sipitang 20V35/44G engines |
+
+## gas-engine-generator-set-chp-module
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Rolls-Royce mtu Series 500 gas gensets (6R, 8V, 12V)](https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx) | Rolls-Royce Power Systems (mtu) | GEG (7 units) | Power range; Peak electrical efficiency; CHP total efficiency |
+
+## gas-engine-intake-interface
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [mtu 12V1600 GS400 — air cleaner and aspirating air data](https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf) | Rolls-Royce / mtu solutions | Intake Air System Package | Aspirating air flow; Air cleaner type |
+
+## gas-engine-lubricating-oil-consumable
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Shell Mysella S5 N 40 / Shell Mysella S3 N 40 gas engine oils](https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf) | Shell (operator, 35%) | Commissioning Equipment & Consumables (Lube Oil,Diesel, Chemical) | SAE viscosity class (approved engine oil, Series 4000 and 400 gas engines) |
+
+## gas-sampling-and-sample-conditioning-system-compon
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [ABB system components for sample gas sampling (FE2/PFE2/PFE3 filters, probes, heated lines)](https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf) | ABB | Sampling System | filter fineness FE2 / PFE2 / PFE3; FE2 filter retention rate; FE2 process gas sampling pressure; FE2 process gas temperature maximum; FE2 sample gas flow; FE2 dust content application recommendation; FE2 dead volume; CGWB 13 heated sample line maximum length; heated line holding temperature; modular probe system regulatory applicability |
+
+## geg-freight-installation-reference
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [GE Frame 6FA gas turbines and generators (shipped to Kimanis)](https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia) | GE (Prelude compressor trains, secondary source not read) | Freight, Transportation, Cargo Insurance and Installation [Handling, Taxes and Insurances] - GEG & BOP | number of gas turbines supplied |
+
+## general-plant-air-utility-air-compressor-packages
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Comair plant/service compressed air and dryer/filtration packages](https://comairflow.com/instrument-air-compressor) | Comair (Shanghai, China) | Service Air System Package | plant air definition; oil-free air capability; oil-free air flow capability; VSD electricity saving claim |
+
 ## generator
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [STAMFORD / AvK alternators](https://www.cummins.com/generators/alternators) | Cummins Generator Technologies | Generator / alternator | Combined range; Global coverage |
+
+## generator-circuit-breaker
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [ABB VD4G vacuum circuit breakers for generator switching applications](https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf) | ABB | 11kV Generator Circuit Breakers (7 units) | Family ratings (system-fed / generator-fed fault); Applicable generation power level; Rated voltage (technical data table); Rated normal current at 40 degrees C; Withstand voltage at 50 Hz / impulse withstand; Rated making current; Generator-source short-circuit current classes G1 / G2; Rated operating sequence during short-circuit interruption; Pole centre distance; Generator-standard versus distribution-standard DC time constant; TRV rate of rise, terminal faults |
+
+## generator-circuit-breaker-vacuum-circuit-breaker
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Siemens 3AK7 generator circuit-breaker (7.2 to 17.5 kV)](https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf) | Siemens | 11kV Generator Circuit Breakers (7 units) | Rated voltage range; Generator circuit-breaker system-side breaking current; Generator-side short-circuit breaking current; Rated short-circuit making current; Rated normal current; Pole-centre distance; Maintenance-free operating cycles; Rated operating sequence (generator circuit-breaker) |
 
 ## genset
 
@@ -386,6 +668,18 @@
 | [GREEN GRANULATION fluidised bed granulation](https://www.casale.ch/technologies/urea/) | Casale SA | Urea fluid-bed granulator | formaldehyde use |
 | [Spout Fluid Bed Granulation Process](https://www.toyo-eng.com/jp/en/solution/urea_granulation/) | Toyo Engineering | Urea fluid-bed granulator | total nitrogen; biuret; size 2-4 mm; steam; power; urea dust |
 | [UREMIUM 29](https://www.casale.ch/technologies/urea/) | Casale SA | Urea fluid-bed granulator | application |
+
+## grid-dispatch-and-agc-interface
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [SESB SLDC Automatic Generation Control / load following interface](https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf) | SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC) | Integration to SESB SCADA System incl Auto Generation Control System | AGC command signal; AGC participation requirement; secondary reserve (AGC/manual dispatch) response; primary reserve (free governor) response; pre-COD AGC test requirement; operational metering to SCADA |
+
+## hazardous-area-fixed-ip-camera
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Axis F101-A XF P1367 explosion-protected network camera](https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf) | Axis Communications AB | CCTV System | resolution; frame rate; hazardous location certification; minimum illumination; network video standards; operating temperature in hazardous zone |
 
 ## heat-exchanger
 
@@ -403,6 +697,18 @@
 | --- | --- | --- | --- |
 | [Heat recovery systems (boiler blowdown)](https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/) | Spirax Sarco | Continuous/TDS blowdown control, flash vessels, blowdown heat-recovery exchangers | Function |
 | [Steam Condensing Heat Exchanger SR Series (SR-3, SR-8)](https://www.tlv.com/en-us/products/heat-recovery/steam) | TLV | Continuous/TDS blowdown control, flash vessels, blowdown heat-recovery exchangers | Maximum operating pressure (PMO); Maximum operating temperature (TMO); Maximum steam flow rate SR-3; Maximum steam flow rate SR-8; Body / heat transfer coil material |
+
+## hot-tap-equipment
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [T.D. Williamson hot tapping machines and drilling machines](https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines) | T.D. Williamson, LLC (Tulsa, OK, USA) | Gas Receiving, metering station, hot tap, FG supply system | 360 Tapping Machine tap range; 1200 XL / 936 XL Tapping Machine tap range; T-2460 XXL Tapping Machine tap range; ANSI Class filter options shown |
+
+## hvac-chiller-air-handling-unit-product-lines
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Dunham-Bush water-cooled chillers, air-cooled chillers and airside AHUs](https://dunham-bush.com/our-products/) | Dunham-Bush (Malaysia and regional operations) | HVAC System Package | Water-cooled chiller model lines; Air-cooled chiller model lines; Airside equipment certification |
 
 ## ignition
 
@@ -439,6 +745,12 @@
 | --- | --- | --- | --- |
 | [Boiler Door and Drum Cover Insulation Jackets](https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/) | Thermaxx Jackets (Specialty Distribution Group, LLC) | Thermal insulation / lagging and cladding for boilers and steam lines (heat-loss figures) | Fire door surface temperature (uninsulated); Mud drum cover surface temperature (uninsulated); Typical insulation material; Warranty; Closure system; Equipment covered |
 
+## integrated-control-and-safety-system-icss
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [ABB Ability System 800xA (DCS with High Integrity SIS)](https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch) | ABB | Plant Control System | safety integrity level; controller hardware I/O capacity PM857; cybersecurity certification; alarm performance metrics standards; SIS connectivity protocols |
+
 ## jetty-civil
 
 | Product | Manufacturer | Equipment | Specifications |
@@ -451,11 +763,67 @@
 | [Vikoma Hi Sprint / Bulkhead containment booms](https://www.vikoma.com/articles/essential-types-of-oil-spill-booms) | Vikoma International Ltd | Oil spill response — containment booms, skimmers and recovery | inflated height (catalogue range); freeboard |
 | [Yokohama Floating (Pneumatic) Fenders — Pneumatic 50 / 80 / Low Pressure](https://www.y-yokohama.com/global/product/mb/fenders/floating/) | The Yokohama Rubber Co., Ltd. | Rubber fenders — cone, cell, element and V/arch types | Pneumatic 50 GEA range; Pneumatic 80 GEA range; initial internal pressure |
 
+## lean-burn-gas-engine-generator-set-chp-module
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [INNIO Jenbacher Type 2/3/4/6/9 and J920 FleXtra](https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/) | INNIO Jenbacher | GEG (7 units) | Electrical efficiency, Jenbacher gas engines (general range); Jenbacher J920 FleXtra electrical output; Jenbacher J920 FleXtra electrical efficiency; Jenbacher portfolio output range; Type 4 rated power up to |
+
+## local-oem-service-presence-commissioning-support
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Wärtsilä Malaysia Sdn Bhd](https://www.wartsila.com/mys) | Wärtsilä | Pre-Commissioning, Commissioning and Start Up Management incl calibration & lab test (lube oil) | years since Malaysia establishment |
+
+## low-voltage-switchgear-assembly-mcc
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [ABB MNS 3.0 low-voltage switchgear](https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf) | Supplier not identified in sources read (WBS line item) | Low Voltage Switchgear | Rated insulation voltage; Rated operating voltage; Main busbar rated current; Main busbar rated peak withstand current; Main busbar rated short-time withstand current; Internal arc proof; Standard dimensions height / width / depth; Degree of protection / internal subdivision; Low voltage definition under Sabah Distribution Code |
+| [Siemens SIVACON S8 low-voltage power distribution switchboard](https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf) | Siemens | Low Voltage Switchgear | Main busbar rated current; Rated peak withstand current; Rated short-time withstand current; Frame height / degree of protection; Circuit breaker design rated current |
+
+## lube-oil-laboratory-test-calibration-basis
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [MTU used-gas-engine-oil analysis (laboratory limit values and sampling)](https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf) | Rolls-Royce Power Systems (mtu) | Pre-Commissioning, Commissioning and Start Up Management incl calibration & lab test (lube oil) | oil sampling interval, Series 4000 gas engines; used oil viscosity at 100 C, Series 4000 / Series 400; used oil total base number minimum; used oil water content maximum; wear element iron limit |
+
+## lube-oil-system-package-for-rotating-plant
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Prismecs dry-sump turbine lubrication system (external reservoir, AC auxiliary / DC emergency pumps, duplex filters, coolers)](https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines) | Prismecs (OEM-agnostic EPCM/O&M provider, Houston, TX) | Lube Oil Tank System Package | governing specification; oil viscosity grade (common industrial use); oil cleanliness target, typical OEM range; new oil cleanliness, published OEM tables; pre-service filtration; varnish potential test; rotary screw pump pressure differential |
+
+## medium-voltage-vacuum-circuit-breaker
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Siemens 3AK7 vacuum circuit breaker (switching device for 11 kV switchgear)](https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf) | Siemens | 11kV Switchgears (11 units) | Rated voltage / impulse withstand at 12 kV; Rated short-circuit breaking current at 12 kV; Standards met |
+
 ## methanation
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [PK-5 ring-shaped methanation catalyst](https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation) | Topsoe | Methanation and syngas drying/purification | Pressure drop reduction vs sphere/cylinder catalysts |
+
+## modular-glass-reinforced-plastic-sectional-water-s
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [PIPECO GRP Sectional Water Tank (SMC panel, internal tie-rod or external braced designs)](https://pipeco.com.my/tank-product/grp-sectional-water-tank) | PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia) | Water Tank System Package | tensile strength; bending strength; elastic modulus in bend; glass content; Barcol hardness; water absorption; recommended concrete plinth size; plinth centres; pre-insulated panel foam thickness; internal/external ladder width; applicable standards; SMC resin; glass fibre; tank height range in support tables |
+
+## motorised-telescopic-sliding-entrance-gate
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [GEAPL Telescopic Sliding Gates](https://www.geapl.com/telescopic-sliding-gates) | Supplier not identified in sources read (WBS line item) | Gate and Fencing (820m x 2.5m; electric telescopic door 2x; fence gate 6x; 3.0m x 250m + 2.4m x 250m steel grating fence) | Maximum clear width; Maximum height; Drive opening speed; Gate capacity; Number of telescopic systems; Operator protection; Supply voltage; Safety / type testing |
+
+## natural-gas-generator-set
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Cat G3500K Series (G3512K, G3520K) natural gas generator sets](https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html) | Caterpillar | GEG (7 units) | Continuous rating, G3512K; Maximum electrical efficiency, G3512K; Continuous rating, G3520K; Maximum electrical efficiency, G3520K; Time to start and accept 100% load, G3500K |
+| [Cummins natural gas generator sets (HSK78G, 1000/1300 kW, GTA50e)](https://www.cummins.com/en-na/generators/natural-gas) | Cummins | GEG (7 units) | Generator set power range; Standby rating, 1000kW and 1300kW natural gas gensets |
 
 ## near-civil
 
@@ -463,6 +831,96 @@
 | --- | --- | --- | --- |
 | [Menck MHU hydraulic double-acting impact hammers (100C to 6000W)](https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers) | Menck / Acteon (sale to Cadeler announced 2026) | Impact piling hammers | energy range (spread); MHU6000W |
 | [PALFINGER AHC marine/offshore cranes](https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html) | PALFINGER | Deck cranes, davits and lifting appliances | hoisting capacity; jib radius; wire capacity; winterization |
+
+## non-man-oem-service-provider-presence
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Wärtsilä Malaysia Sdn Bhd local service organisation](https://www.wartsila.com/mys) | Wärtsilä | 2-Year Operational Spares (exclude MAN spare part) | professionals in Malaysia |
+
+## oem-commissioning-start-up-management-service
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [MAN PrimeServ commissioning and after-sales service](https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6) | Everllence | Pre-Commissioning, Commissioning and Start Up Management incl calibration & lab test (lube oil) | maintenance/service levels; standard and advanced training duration; service centre network |
+
+## oem-long-term-service-spare-parts-availability-arr
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [GE contractual service agreement (long-term service support)](https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia) | GE / GE Energy | 2-Year Operational Spares (exclude MAN spare part) | CSA duration at Kimanis Power plant |
+
+## oem-spare-parts-packages-out-of-scope-for-this-lin
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [MAN PrimeServ spare parts packages (EXCLUDED by the line item - context only)](https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6) | Everllence | 2-Year Operational Spares (exclude MAN spare part) | standardised spare parts packages; high-demand OEM spare parts delivery target |
+
+## oil-free-screw-centrifugal-piston-scroll-instrumen
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Comair oil-free instrument air compressors and packages](https://comairflow.com/instrument-air-compressor) | Comair (Shanghai, China) | Instrument Air System Package | continuous running duty claim; oil-free air pressure capability; oil-free air flow capability; pressure dew point (integrated screw package); typical discharge pressure; air quality class; VSD running cost saving claim; electrical protection |
+
+## owner-project-management-grid-connection-authority
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Sabah Electricity Sdn Bhd / Energy Commission of Sabah (owner and regulator)](https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/) | Sabah Electricity Sdn Bhd | Construction Management + Svc (Sub-con, Third Party Cost, Local Authorities etc) | fast-track gas turbine capacity |
+
+## packaged-nfpa-20-fire-pump-system-for-heavy-indust
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Ruhrpumpen integrated fire protection pumping system (ZW series electric + diesel pumps, jockey pump, controllers, pumphouse)](https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives) | Ruhrpumpen Group | Fire Fighting System Package | electric motor rating; diesel engine rating; diesel starting system; pumphouse lighting; diesel fuel tank; pump construction; controllers and communications; corrosion protection |
+
+## plant-dcs-control-platform-retrofit
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Valmet DNA automation system (SESB reference platform)](https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/) | Valmet | Plant Control System | integrated control scope |
+
+## plant-service-air-compressor-package
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [HADETEC oil-injected / oil-free screw air compressor packages (onshore and offshore)](https://hadetec.com/products/air-compressor-packages/instrument-air-package) | HADETEC (Nijkerk, Netherlands; Rootselaar Group) | Service Air System Package | oil-injected discharge pressure; oil-injected flow rate FAD; oil-injected power; oil-free discharge pressure; oil-free flow rate FAD; package description |
+
+## poe-network-switch-for-cameras
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Siemens RUGGEDCOM RST2228P PoE switch (CCTV network use case)](https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf) | Siemens | CCTV System | use case shown in manufacturer brochure |
+
+## power-generation-distributed-control-system
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Emerson Ovation DCS](https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system) | Emerson (duplex stainless steel option on Roxar 2600, page read) | Plant Control System | target industries; market position claim |
+
+## power-plant-dcs-with-scada-functionality
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Omterra (formerly Siemens Energy) Omnivise T3000](https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html) | Siemens Gamesa | Plant Control System | installed base; cybersecurity certification; substation/third-party integration protocol |
+
+## power-plant-scada-centralized-fleet-control
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Omterra (formerly Siemens Energy) Omnivise T3000 SCADA functionality](https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html) | Siemens Gamesa | Integration to SESB SCADA System incl Auto Generation Control System | SCADA role |
+
+## power-transformer
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [CG Power Systems (Crompton Greaves) Power Transformers product range](https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html) | CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group and Ganz) | Transformers (4 units) | Power transformer manufacturing range; Voltage class range; Annual manufacturing capacity; Insulation level at 132 kV connection point (User Apparatus BIL); Insulation level at 33 kV; Highest voltage for equipment Um (definition) |
+
+## pressure-differential-pressure-transmitter
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Emerson Rosemount 3051 pressure transmitter family](https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf) | Emerson (duplex stainless steel option on Roxar 2600, page read) | Field Instrumentation | reference accuracy; installed total performance; stability; safety certification; installed base; output protocols; pressure range example (3051TG range 5) |
 
 ## pressure-part
 
@@ -483,17 +941,53 @@
 | [LiquiSonic inline concentration/density analyser](https://www.sensotech.com/en/urea-production) | SensoTech GmbH | Process control, analysers, safety and ventilation | concentration range; temperature range; sensors per Controller 30 |
 | [STAMI UREA / STAMI DIGITAL / STAMI SPECIALTIES](https://ureaknowhow.com/stamicarbon/) | Stamicarbon | Process control, analysers, safety and ventilation | installed base |
 
+## public-address-voice-evacuation-system
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Bosch Praesideo digital public address and emergency sound system](https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf) | Bosch Industriekessel | PA System | audio channels routed by network controller; priority levels; fault log capacity; power amplifier rating; loudspeaker output voltages; emergency standard certification; backup supply; network controller node capacity |
+
 ## pump
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [Guardian / Guardian-Plus Electric Boiler Feed Pumps](https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps) | TLV | Feedwater pump duty, NPSH and selection for package boilers | Guardian pump capacity; Guardian discharge pressure; Guardian motor power; Guardian motor speed; Guardian tank capacity; Guardian-Plus pump capacity; Guardian-Plus discharge pressure; Guardian-Plus motor power; Guardian-Plus motor speed; Guardian-Plus motor voltage; Guardian-Plus tank capacity; Water temperature capability |
 
+## reciprocating-gas-engine-generator-set-lean-burn-s
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Wärtsilä 34SG / 31SG / 50SG / 46TS-SG gas engine generator sets](https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products) | Wärtsilä | GEG (7 units) | Electrical output range, Wärtsilä 34SG; Electrical efficiency, Wärtsilä 34SG; Electrical output, Wärtsilä 31SG; Electrical efficiency, Wärtsilä 31SG; Electrical output, Wärtsilä 50SG; Electrical efficiency, Wärtsilä 50SG; Electrical output range, Wärtsilä 46TS-SG; Simple cycle efficiency of modern combustion engines (generator terminals); Gas pressure required at power plant; Combustion engine speed range (medium-speed); Flexicycle combined cycle efficiency, plant net at site |
+
+## remote-cooling-design-white-paper
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Kohler Power Systems remote radiator / heat-exchanger cooling design guidance](https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf) | Kohler Power Systems (Kohler Energy) | Cooling Water System Package / Air Cold Radiator | Typical CAC intake-air temperature rise over ambient specified by EPA engine certification |
+
 ## safety
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [Blowdown Systems (Model BDS separators, Model BDT tanks)](https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems) | Cleaver-Brooks | Boiler safety valves, blowdown and level fittings | Method |
+
+## safety-and-process-i-o-modules
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [ABB System 800xA S880 / Select I/O safety I/O](https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch) | ABB | Field Instrumentation | safety I/O module types |
+
+## scr-diesel-oxidation-catalyst-package
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Johnson Matthey SINOx® SCR, SCRT®, ASC, DCC™/DOC and catalyst-silencer systems](https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da) | Supplier not identified in sources read (WBS line item) | DOC and SCR system Package | SINOx® SCR NOx reduction (power generation brochure); SCR system durability before maintenance; DPF (CRT®) reductions — PM; SCR / oxidation catalyst system components |
+
+## scr-oxidation-ammonia-slip-catalysts
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Umicore DNX® / DNU / DNO / DNA / DOC / MOC / DNZ catalyst families and combinations](https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf) | Umicore | DOC and SCR system Package | Industrial references for catalytic oxidation, SCR, catalytic particulate filtration, ammonia oxidation and N2O reduction; Catalyst combinations for backup and continuous diesel/gas engines |
 
 ## screw
 
@@ -512,6 +1006,36 @@
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [Chemical Treatment Systems (coagulation/flocculation, pH neutralisation, oxidation, precipitation, dosing skids)](https://woggroup.com/chemical-treatment-systems/) | WOG Technologies Limited | Chemical cleaning and passivation of new boilers (pre-commissioning) | System type; Control logic; Compliance referenced |
+
+## shop-fabricated-welded-steel-lube-oil-storage-tank
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Atlantic Containment AC series single-wall (SL) and double-wall (DL) lube oil tanks](https://atlanticcontainment.com/lube-tanks) | Atlantic Containment LLC (McGaheysville, VA, USA) | Lube Oil Tank System Package | capacity, model AC120SL; weight, model AC120SL; capacity, model AC500SL; dimensions (L x W x H), model AC500SL; capacity, model AC2KSL; weight, model AC2KSL; capacity, model AC500DL (double wall); weight, model AC1KDL (double wall); air leak test pressure; optional secondary containment; supports; monitoring bung |
+
+## skid-mounted-centrifugal-oily-water-separator
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Alfa Laval OFPX 517 three-phase disc-stack centrifuge for oily water treatment](https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf) | Alfa Laval | Oily Water Treatment System Package | throughput capacity maximum; discharge volume min / max; feed temperature; bowl speed; bowl volume; motor power installed maximum; sound pressure; smallest separated oil droplet size; oil-in-water outlet level; skid width; skid depth; skid height; skid weight in operation; back-up water consumption; operating water consumption; cooling water consumption; inert gas consumption; design standards / hazardous area |
+
+## skid-mounted-containerised-instrument-air-package
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [HADETEC instrument air package (compressors, dryers, filtration, receivers, optionally nitrogen generation)](https://hadetec.com/products/air-compressor-packages/instrument-air-package) | HADETEC (Nijkerk, Netherlands; Rootselaar Group) | Instrument Air System Package | oil-free compressor discharge pressure; oil-free compressor flow rate FAD; oil-free compressor power; oil-injected compressor discharge pressure; oil-injected compressor flow rate FAD; oil-injected compressor power; dryer dew point (lowest stated); air quality; pressure vessel fabrication; configurations |
+
+## statutory-hsse-personnel-requirement
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Safety and Health Officer (SHO) statutory appointment](https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/) | Department of Occupational Safety and Health (DOSH) | HSSE | project contract price threshold making SHO appointment mandatory for builders |
+
+## statutory-registration-levy-framework
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [CIDB contractor registration (Act 520)](https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/) | CIDB Malaysia | Bonds, BG, Insurances, Stamp Duty, CIDB, bank charge, office rental, invoice finance interest, etc. | year Act 520 was enacted |
 
 ## steam-reformer
 
@@ -550,6 +1074,12 @@
 | [Trelleborg Leg Mating Unit (H-pad / V-pad)](https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)) | Trelleborg Marine and Infrastructure | Fixed steel jacket platform | Full-scale compression test capability |
 | [WindFloat semi-submersible floater](https://en.wikipedia.org/wiki/Floating_offshore_wind) | Principle Power | Barge-based platforms, pontoons and floaters | turbine rating, WindFloat Atlantic |
 
+## substation-industrial-ethernet-switch-family
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Siemens RUGGEDCOM 19-inch Layer 2 Ethernet switches (RSG2100 / RSG2300 / RST2228 / RSG2488)](https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf) | Siemens | Telecommunication and Network Infrastructure | standards compliance; operating temperature; RSG2100 port count; RSG2300 port count; RST2228 uplink speed; redundancy protocols; universal supply range; PoE capability (RST2228P) |
+
 ## system
 
 | Product | Manufacturer | Equipment | Specifications |
@@ -559,6 +1089,12 @@
 | [SCALANCE S Industrial Security Appliances (SCALANCE SC-600, S615/S605, SC622-2C, SC626-2C)](https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html) | Siemens |  | Firewall throughput; Firewall rules; VPN connections; Redundancy; Compliance standard |
 | [Surface MultiPhase Meter (MPM)](https://www.technipfmc.com/en/what-we-do/surface/production/) | TechnipFMC (CDS Separation Systems) |  | Gas volume fraction (GVF) operating range |
 | [Surface MultiPhase Meter (MPM)](https://www.technipfmc.com/en/what-we-do/surface/production/) | TechnipFMC (CDS Separation Systems) |  | Gas volume fraction (GVF) operating range |
+
+## tariff-revenue-metering-installation-with-main-and
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [SESB revenue metering installation - Main Meter and Check Meter (Type 1 metering)](https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf) | SESB Single Buyer (system owner/operator per Sabah Grid Code) | Main & Check tariff Meters at each SESB-IF 33kV incomers | metering configuration; maximum allowable overall error - active / reactive, Type 1 (>7.5 MW or 60 GWh per annum); minimum component classes and burdens, Type 1 (printed table row); meter clock error reference; energy registration resolution 0.5S / 0.2S meters; check metering requirement by annual energy; check metering installation arrangement; metering installation component scope; communicating link availability target; laboratory testing uncertainty, Class 0.2 CT/VT and Wh meter |
 
 ## tp-wellhead
 
@@ -573,11 +1109,29 @@
 | [Roxar 2600 Multiphase Flow Meter (with 5726 transmitter)](https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter) | Emerson (duplex stainless steel option on Roxar 2600, page read) | Metering and export quality — oil/gas/water meters, multiphase flow meters, custody transfer, sampling, sales  | GVF / WLR; sizes; design pressure |
 | [TEG Dehydration package](https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration) | OneSubsea (SLB/Aker Solutions JV) | Oil treatment — mechanical heater treaters, electrostatic treaters/dehydrators, desalters | reference trains; TEG outlet spec (Fiorentini) |
 
+## transformer-connected-tariff-meter
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Itron ACE SL7000 industrial & substation meter range](https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712) | Itron SAS | Main & Check tariff Meters at each SESB-IF 33kV incomers | transformer-connected accuracy class; standards compliance; load profile channels; rate registers; communication channels; CT connection rating |
+
+## turbine-gas-meter
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Honeywell Elster TRZ2 turbine gas meter](https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf) | Honeywell | Gas Receiving, metering station, hot tap, FG supply system | Meter sizes; Maximum measuring range; Nominal diameters; Operating pressure; Temperature range; Measurement uncertainty per EN12261; Flange rating |
+
 ## urea-reactor
 
 | Product | Manufacturer | Equipment | Specifications |
 | --- | --- | --- | --- |
 | [HYPER-U (self-stripping urea process)](https://www.casale.ch/technologies/urea/) | Casale SA | Urea reactor | process type |
+
+## utility-to-plant-operational-communication-interfa
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [SESB GSO/User operational liaison and communication channels (OC5.5)](https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf) | SESB Grid System Operator (GSO) | Communication System with Sabah Electricity S/B (SESB) | communication channel establishment; technical criteria source for voice and data communication; telecommunication signalling in fault clearance time; metering communication equipment legal approval |
 
 ## valve-train
 
@@ -592,6 +1146,24 @@
 | [Deep Bed Condensate Polishers (with SepraEight regeneration)](https://graver.com/condensate-polishers/deepbed/) | Graver Water (Marmon Industrial Water) | Condensate polishing systems for HRSG / once-through boilers (filtration, ion exchange; conductivity/sodium ta | Service pressure; Flow rate; Cation:anion resin ratio for All Volatile Treatment (AVT) high pH; Regeneration design; Resin; Contaminants removed |
 | [ElectroFlex Electro-deionization (EDI) Systems](https://graver.com/makeup/electroflex/) | Graver Water (Marmon Industrial Water) | Reverse osmosis (RO), electrodeionisation (EDI/CEDI) and demineralisation for boiler make-up; conductivity/sil | Operating cost reduction vs mixed bed DI; Floor space vs ion exchange demineralization; Recycle of EDI reject to RO feed; Typical application |
 | [ROFlex Reverse Osmosis Systems](https://graver.com/makeup/ro/) | Graver Water (Marmon Industrial Water) | Reverse osmosis (RO), electrodeionisation (EDI/CEDI) and demineralisation for boiler make-up; conductivity/sil | Membrane size/type; High pressure piping material; Low pressure piping material; Membrane vessel material; Motor supply; Pump type; Typical application |
+
+## wet-gas-scrubber-particulate-and-gas-absorption
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [Sly Impinjet® impingement plate, Venturi and eductor Venturi wet scrubbers](https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf) | Sly Inc., Strongsville, OH, USA | Scrubber (Gas Treatment) | Impinjet collection efficiency; Impinjet particulate efficiency at 5 microns and larger; Impinjet capacity range; Impinjet water requirement; maximum shell velocity for sizing; gas velocity through impingement plate holes; droplet size generated |
+
+## wet-packed-venturi-type-sox-and-acid-gas-scrubber
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [APZEM SOX Scrubber (wet engine-exhaust scrubber)](https://wet-scrubber.com/sox-scrubber) | APZEM India Engineering, Chennai, India | Scrubber (Gas Treatment) | air flow; capturing efficiency; materials of construction; power option; operating modes |
+
+## wet-scrubber-biological-h2s-removal-tower
+
+| Product | Manufacturer | Equipment | Specifications |
+| --- | --- | --- | --- |
+| [GWE SULFURIX™ wet biogas scrubber for H2S removal](https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1) | Supplier not identified in sources read (WBS line item) | Scrubber (Gas Treatment) | single-stage sulphide removal; two-stage combined removal efficiency; standard model height; biogas flow range; assumed washing liquid conditions; suitable raw gas H2S concentration; construction materials; blower requirement |
 
 ## wh-wellhead
 

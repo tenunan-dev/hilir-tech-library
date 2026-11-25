@@ -1,0 +1,25 @@
+{
+  "id": "alaska-r-jina-ai-dg-chp-pdf-a00dae7",
+  "name": "Distributed Generation and Combined Heat & Power System Characteristics and Costs in the Buildings Sector",
+  "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "U.S. Energy Information Administration; Appendix A by Leidos, Inc.",
+  "access": "open",
+  "licence": "(c) 2016 Leidos, Inc. for appendix; EIA report",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: PDF read via r.jina.ai (146 pages); r.jina.ai Published Time Thu, 15 Jun 2017. EIA report 'April 2017'; Leidos appendix dated May 27, 2016 / May 2016. Cost tables state 'Costs presented are in current 2015 dollars'.. Exact printed figures are recorded in the linked records' basis fields."
+}

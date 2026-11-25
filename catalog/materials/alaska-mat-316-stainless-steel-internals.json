@@ -1,0 +1,25 @@
+{
+  "id": "alaska-mat-316-stainless-steel-internals",
+  "name": "316 stainless steel internals",
+  "material_category": "metals",
+  "description": "316 stainless steel internals named on a page read in the Alaska GEG WBS sweep.",
+  "specifications": [
+    {
+      "metric": "impellers, shaft sleeves, wear rings",
+      "unit": "as printed",
+      "basis": "Ruhrpumpen article scope of supply; page read 2026-11-25. (value: 316 stainless steel)",
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+      "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

@@ -1,0 +1,77 @@
+{
+  "id": "alaska-prod-cat-g3500k-series-g3512k-g3520k-natural-gas-generator-sets-nat",
+  "name": "Cat G3500K Series (G3512K, G3520K) natural gas generator sets",
+  "manufacturer": "caterpillar",
+  "product_type": "natural-gas-generator-set",
+  "equipment": [
+    "alaska-geg-7-units"
+  ],
+  "description": "natural gas generator set",
+  "specifications": [
+    {
+      "metric": "Continuous rating, G3512K",
+      "unit": "ekW @ 1.0 pf",
+      "basis": "Caterpillar 'The Cat G3500K Series: Natural Gas Generator Sets' page, product card: 'Continuous Rating 1530 ekW @ 1.0pf ... Maximum Electrical Efficiency 45.3%'. r.jina.ai Published Time Wed, 11 Nov 2026.",
+      "value": 1530,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+        "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+      }
+    },
+    {
+      "metric": "Maximum electrical efficiency, G3512K",
+      "unit": "%",
+      "basis": "Caterpillar G3500K page product card, r.jina.ai Published Time Wed, 11 Nov 2026.",
+      "value": 45.3,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+        "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+      }
+    },
+    {
+      "metric": "Continuous rating, G3520K",
+      "unit": "ekW @ 1.0 pf",
+      "basis": "Caterpillar G3500K page product card: 'Continuous Rating 2567 / 2552 ekW @ 1.0pf' for G3520K; both printed values retained. r.jina.ai Published Time Wed, 11 Nov 2026.",
+      "low": 2552,
+      "high": 2567,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+        "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+      }
+    },
+    {
+      "metric": "Maximum electrical efficiency, G3520K",
+      "unit": "%",
+      "basis": "Caterpillar G3500K page product card, r.jina.ai Published Time Wed, 11 Nov 2026.",
+      "value": 46.0,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+        "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+      }
+    },
+    {
+      "metric": "Time to start and accept 100% load, G3500K",
+      "unit": "minutes",
+      "basis": "Caterpillar G3500K page: 'They start and accept 100% load in 4.5 minutes'. r.jina.ai Published Time Wed, 11 Nov 2026.",
+      "value": 4.5,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+        "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+      }
+    }
+  ],
+  "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+      "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

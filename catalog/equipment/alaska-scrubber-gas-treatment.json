@@ -1,0 +1,309 @@
+{
+  "id": "alaska-scrubber-gas-treatment",
+  "name": "Scrubber (Gas Treatment)",
+  "equipment_type": "wbs-3-2-mechanical",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Scrubber (Gas Treatment)",
+  "aliases": [
+    "Scrubber (Gas Treatment)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "GWE SULFURIX™ wet biogas scrubber for  — single-stage sulphide removal",
+      "unit": "% (printed 'about 80-95% sulfide removal')",
+      "basis": "Global Water & Energy SULFURIX™ technology page; page read 2026-11-25; no page publication date printed.",
+      "low": 80,
+      "high": 95,
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "alaska-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "GWE SULFURIX™ wet biogas scrubber for  — two-stage combined removal efficiency",
+      "unit": "% (printed 'more than 99% in many cases')",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "high": 99,
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "alaska-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "GWE SULFURIX™ wet biogas scrubber for  — standard model height",
+      "unit": "m (approximately 20-30ft)",
+      "basis": "GWE SULFURIX™ page: 'series of standard models with heights ranging from 6 to 9-meters'; page read 2026-11-25.",
+      "low": 6,
+      "high": 9,
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "alaska-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "GWE SULFURIX™ wet biogas scrubber for  — biogas flow range",
+      "unit": "m3/h (printed '100 to >1000 m3/h (about 60 to >600scfm)')",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "low": 100,
+      "high": 1000,
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "alaska-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "GWE SULFURIX™ wet biogas scrubber for  — assumed washing liquid conditions",
+      "unit": "activated sludge, pH 7.3 and 30°C (printed 'standard conditions of pH 7.3 and 30",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "alaska-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "GWE SULFURIX™ wet biogas scrubber for  — suitable raw gas H2S concentration",
+      "unit": "% (printed 'particularly suitable for treating H2S rich biogas (> 1% concentrati",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "value": 1,
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "alaska-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "GWE SULFURIX™ wet biogas scrubber for  — construction materials",
+      "unit": "anti-static HDPE and polyester (corrosion-proof)",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "alaska-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "GWE SULFURIX™ wet biogas scrubber for  — blower requirement",
+      "unit": "typically no biogas blowers required (pressure loss minimal)",
+      "basis": "GWE SULFURIX™ page; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+        "source_id": "alaska-globalwe-com-sulfurix-1-53355c3"
+      }
+    },
+    {
+      "metric": "APZEM SOX Scrubber (wet engine-exhaust — air flow",
+      "unit": "CFM (printed 'upto 70,000 CFM')",
+      "basis": "APZEM 'SOX Scrubber' page, Technical Specification; page read 2026-11-25; site footer ©2023.",
+      "high": 70000,
+      "year": 2026,
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber",
+        "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+      }
+    },
+    {
+      "metric": "APZEM SOX Scrubber (wet engine-exhaust — capturing efficiency",
+      "unit": "% (printed 'upto 99.99% capturing efficiency')",
+      "basis": "APZEM SOX Scrubber page; page read 2026-11-25; footer ©2023.",
+      "high": 99.99,
+      "year": 2026,
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber",
+        "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+      }
+    },
+    {
+      "metric": "APZEM SOX Scrubber (wet engine-exhaust — materials of construction",
+      "unit": "Mild Steel / SS 304 / SS316 / FRP / PP / PVC",
+      "basis": "APZEM SOX Scrubber page Technical Specification; page read 2026-11-25; footer ©2023.",
+      "year": 2026,
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber",
+        "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+      }
+    },
+    {
+      "metric": "APZEM SOX Scrubber (wet engine-exhaust — power option",
+      "unit": "3 Phase",
+      "basis": "APZEM SOX Scrubber page Technical Specification; page read 2026-11-25; footer ©2023.",
+      "year": 2026,
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber",
+        "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+      }
+    },
+    {
+      "metric": "APZEM SOX Scrubber (wet engine-exhaust — operating modes",
+      "unit": "continuous open loop, closed loop, and predetermined period as zero-discharge sy",
+      "basis": "APZEM SOX Scrubber page 'Working'; page read 2026-11-25; footer ©2023.",
+      "year": 2026,
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber",
+        "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+      }
+    },
+    {
+      "metric": "Sly Impinjet® impingement plate, Ventu — Impinjet collection efficiency",
+      "unit": "% (printed '99 +%' and 'in excess of 99% on many types of dust or gases')",
+      "basis": "Sly 'Wet Scrubber Application Guide', catalogue WS-1003091, ©2009 Sly Inc.; PDF read via r.jina.ai mirror 2026-11-25; r.jina.ai Published Time Mon, 11 Nov 2024 22:03:30 GMT (mirror metadata).",
+      "low": 99,
+      "year": 2009,
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
+        "source_id": "alaska-slyinc-com-wetscrubber-pdf-4ffbda4"
+      }
+    },
+    {
+      "metric": "Sly Impinjet® impingement plate, Ventu — Impinjet particulate efficiency at 5 microns and larger",
+      "unit": "% (printed '98+% collection efficiency for particles 5 microns in size or larger",
+      "basis": "Sly Wet Scrubber Application Guide, ©2009 Sly Inc.; read via r.jina.ai 2026-11-25.",
+      "low": 98,
+      "year": 2009,
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
+        "source_id": "alaska-slyinc-com-wetscrubber-pdf-4ffbda4"
+      }
+    },
+    {
+      "metric": "Sly Impinjet® impingement plate, Ventu — Impinjet capacity range",
+      "unit": "CFM (printed 'from 500 to over 100,000 CFM')",
+      "basis": "Sly Wet Scrubber Application Guide, ©2009 Sly Inc.; read via r.jina.ai 2026-11-25.",
+      "low": 500,
+      "high": 100000,
+      "year": 2009,
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
+        "source_id": "alaska-slyinc-com-wetscrubber-pdf-4ffbda4"
+      }
+    },
+    {
+      "metric": "Sly Impinjet® impingement plate, Ventu — Impinjet water requirement",
+      "unit": "GPM per 1,000 ACFM (printed 'less than 1-1/2 GPM per 1,000 ACFM to a typical 3 G",
+      "basis": "Sly Wet Scrubber Application Guide, ©2009 Sly Inc.; read via r.jina.ai 2026-11-25.",
+      "low": 1.5,
+      "high": 3,
+      "year": 2009,
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
+        "source_id": "alaska-slyinc-com-wetscrubber-pdf-4ffbda4"
+      }
+    },
+    {
+      "metric": "Sly Impinjet® impingement plate, Ventu — maximum shell velocity for sizing",
+      "unit": "feet per minute",
+      "basis": "Sly Wet Scrubber Application Guide, 'Basic Criteria for Sizing A Wet Scrubber': 'For Impinjet scrubbers, the maximum capacity is based on shell velocity of 500 feet per minute'; ©2009 Sly Inc.; read via r.jina.ai 2026-11-25.",
+      "value": 500,
+      "year": 2009,
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
+        "source_id": "alaska-slyinc-com-wetscrubber-pdf-4ffbda4"
+      }
+    },
+    {
+      "metric": "Sly Impinjet® impingement plate, Ventu — gas velocity through impingement plate holes",
+      "unit": "feet/second",
+      "basis": "Sly Wet Scrubber Application Guide, 'Operating Principles'; ©2009 Sly Inc.; read via r.jina.ai 2026-11-25.",
+      "low": 60,
+      "high": 75,
+      "year": 2009,
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
+        "source_id": "alaska-slyinc-com-wetscrubber-pdf-4ffbda4"
+      }
+    },
+    {
+      "metric": "Sly Impinjet® impingement plate, Ventu — droplet size generated",
+      "unit": "microns (printed 'on the order of 100 microns in diameter')",
+      "basis": "Sly Wet Scrubber Application Guide, 'Operating Principles'; ©2009 Sly Inc.; read via r.jina.ai 2026-11-25.",
+      "value": 100,
+      "year": 2009,
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
+        "source_id": "alaska-slyinc-com-wetscrubber-pdf-4ffbda4"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "alaska-vendor-apzem-india-engineering-chennai-india-a5618",
+      "line": "APZEM SOX Scrubber (wet engine-exhaust scrubber)",
+      "note": "wet packed/venturi-type SOx and acid-gas scrubber"
+    },
+    {
+      "vendor": "alaska-vendor-sly-inc-strongsville-oh-usa-17040",
+      "line": "Sly Impinjet® impingement plate, Venturi and eductor Venturi wet scrubbers",
+      "note": "wet gas scrubber (particulate and gas absorption)"
+    }
+  ],
+  "vendors": [
+    "alaska-vendor-apzem-india-engineering-chennai-india-a5618",
+    "alaska-vendor-sly-inc-strongsville-oh-usa-17040"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+      "source_id": "alaska-globalwe-com-sulfurix-1-53355c3"
+    },
+    {
+      "url": "https://wet-scrubber.com/sox-scrubber",
+      "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+    },
+    {
+      "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
+      "source_id": "alaska-slyinc-com-wetscrubber-pdf-4ffbda4"
+    },
+    {
+      "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
+      "source_id": "alaska-focusmalaysia-my-kinergy-secures-biggest-epc-2381482"
+    },
+    {
+      "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
+      "source_id": "alaska-focusmalaysia-my-kinergy-secures-biggest-epc-2381482",
+      "note": "LOA dated 13 May 2025 from Rancha Power (PETRONAS Gas / SESB / SEC Power JV formed 31 Dec 2024) to KAB Energy Holdings / Kinergy Advancement Bhd; nine acres adjacent Labuan Shipyard. Gas treatment/scr"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Scrubber (Gas Treatment)",
+      "why": "No API/ISO/EN/NFPA/ASME standard specifically for scrubber gas treatment was printed on any page read.",
+      "next_action": "Read the applicable emissions and air-pollution-control standards pages (e.g. DOE Malaysia emission limits, EN 14790 / ISO 10155 if applicable) before recording standards."
+    },
+    {
+      "what": "Scrubber (Gas Treatment)",
+      "why": "No patent number or patent page was actually read; Sly mentions only an unspecified 'original patent for cloth dust filters' without a number.",
+      "next_action": "Read official patent register pages before recording any patent."
+    },
+    {
+      "what": "Scrubber (Gas Treatment)",
+      "why": "No printed price or cost for a gas scrubber package on any page read.",
+      "next_action": "Obtain a priced quotation for the specific gas composition and emission limit of the 7-unit plant."
+    },
+    {
+      "what": "Scrubber (Gas Treatment)",
+      "why": "No named, dated, sized, located scrubber reference project at a gas engine plant was printed; Sly case studies name only unnamed companies and have no dates.",
+      "next_action": "Request named gas-engine scrubber references from GWE, APZEM or a Malaysian air-pollution-control supplier."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.2 Mechanical).",
+  "last_reviewed": "2026-11-25"
+}

@@ -1,0 +1,105 @@
+{
+  "id": "alaska-bonds-bg-insurances-stamp-duty-cidb-bank-charge-office-rental-invo",
+  "name": "Bonds, BG, Insurances, Stamp Duty, CIDB, bank charge, office rental, invoice finance interest, etc.",
+  "equipment_type": "wbs-5-6-7-construction-indir",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Printed Malaysian stamp-duty law and rates for bonds/guarantees, insurance, leases and factoring/invoice-finance instruments, plus CIDB registration framework. No bank guarantee commission, insurance premium or invoice-finance interest rate was found.",
+  "aliases": [
+    "Bonds, BG, Insurances, Stamp Duty, CIDB, bank charge, office rental, invoice finance interest, etc."
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Stamp duty on bonds, performance guara — ad valorem duty, first RM100,000 of value",
+      "unit": "RM per RM100 or part thereof",
+      "basis": "HASiL Guideline LHDN.AG.600-1/10/3 printed 30 June 2026, sections C/E item 32(a): first RM100,000 RM1.00; >RM100,000 to RM500,000 RM2.00; >RM500,000 to RM1,000,000 RM3.00; >RM1,000,000 RM4.00, on consideration or market value whichever higher; Section F lists bonds, security instruments, guarantees, facility and factoring agreements as chargeable on consideration/loan amount.",
+      "value": 1,
+      "low": 1,
+      "high": 4,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+        "source_id": "alaska-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      }
+    },
+    {
+      "metric": "Stamp duty on bonds, performance guara — fixed duty for general stamping (insurance policies, guarantees, construction agreements)",
+      "unit": "RM (fixed)",
+      "basis": "Same HASiL guideline printed 30 June 2026, section G: instruments outside the specific categories are stamped generally at RM10; printed examples include Polisi Insurans / Cargo Insurance Policy, Performance Bond, Performance Guarantee, Insurance Guarantee, Takaful Guarantee, Letter of Guarantee and Indemnity, and Factoring Agreement (section F 4.22 / 4.14 / G 4.11).",
+      "value": 10,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+        "source_id": "alaska-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      }
+    },
+    {
+      "metric": "Stamp duty on bonds, performance guara — fixed duty for office/tenancy instruments not otherwise chargeable",
+      "unit": "RM (fixed)",
+      "basis": "Same guideline printed 30 June 2026, section A 2.2 items 49(d)-49(f): RM10.00 fixed for share-of-produce leases, duplicate lease instruments and other lease instruments; section G general fixed duty RM10.",
+      "value": 10,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+        "source_id": "alaska-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+      }
+    },
+    {
+      "metric": "CIDB contractor registration (Act 520) — year Act 520 was enacted",
+      "unit": "year",
+      "basis": "CIDB Malaysia web page read 25 Nov 2026: 'Akta 520 adalah satu tindakan untuk membentuk Lembaga Pembangunan Industri Pembinaan Malaysia (CIDB) pada tahun 1994'; scope includes contractor registration, material standards and responsibility for construction safety. No registration fee/levy rate is printed on the page read.",
+      "value": 1994,
+      "year": 2026,
+      "source": {
+        "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
+        "source_id": "alaska-cidb-gov-my-7ada474"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "alaska-vendor-cidb-malaysia-5f6b5",
+      "line": "CIDB contractor registration (Act 520)",
+      "note": "statutory registration / levy framework"
+    }
+  ],
+  "vendors": [
+    "alaska-vendor-cidb-malaysia-5f6b5"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.hasil.gov.my/en/duti-setem/pengenalan-duti-setem/",
+      "source_id": "alaska-hasil-gov-my-aa0fb0f"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
+      "source_id": "alaska-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
+    },
+    {
+      "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
+      "source_id": "alaska-cidb-gov-my-7ada474"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Bonds, BG, Insurances, Stamp Duty, CIDB, bank charge, office rental, invoice finance interest, etc.",
+      "why": "No printed bank-guarantee commission rate, insurance premium rate, CIDB levy amount, bank charge schedule or invoice-finance interest rate was found in the sources read. Only statutory stamp-duty rates are available.",
+      "next_action": "Obtain the relevant bank/insurer/CIDB rate cards and the actual office rental quote; do not infer percentages from stamp-duty rates."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (5/6/7 Construction indirect, commissioning, EPC indirect).",
+  "last_reviewed": "2026-11-25"
+}

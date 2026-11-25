@@ -1,0 +1,25 @@
+{
+  "id": "alaska-assets-new-siemens-com-3ak7-en-pdf-274a77d",
+  "name": "Siemens 3AK7 Vacuum Circuit-Breakers, Catalog HG 11.06 Edition 2017",
+  "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "INS"
+  ],
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "publisher_org": "Siemens AG",
+  "access": "open",
+  "licence": "OEM catalogue; licence not stated in the read text",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: 42-page Siemens catalog HG 11.06, Edition 2017 (invalidates 2014 edition); WebFetch blocked for application/pdf, read via r.jina.ai 2026-11-25.. Exact printed figures are recorded in the linked records' basis fields."
+}

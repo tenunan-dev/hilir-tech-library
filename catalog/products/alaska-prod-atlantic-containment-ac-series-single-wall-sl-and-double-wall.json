@@ -1,0 +1,152 @@
+{
+  "id": "alaska-prod-atlantic-containment-ac-series-single-wall-sl-and-double-wall",
+  "name": "Atlantic Containment AC series single-wall (SL) and double-wall (DL) lube oil tanks",
+  "manufacturer": "alaska-vendor-atlantic-containment-llc-mcgaheysville-va-usa-cc283",
+  "product_type": "shop-fabricated-welded-steel-lube-oil-storage-tank",
+  "equipment": [
+    "alaska-lube-oil-tank-system-package"
+  ],
+  "description": "shop-fabricated welded-steel lube oil storage tank",
+  "specifications": [
+    {
+      "metric": "capacity, model AC120SL",
+      "unit": "GAL.",
+      "basis": "Atlantic Containment 'Lube Oil Tanks' table, single-wall row AC120SL; page read 2026-11-25; page footer ©2019; linked drawing PDF URL dated /2019/07.",
+      "value": 120,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "weight, model AC120SL",
+      "unit": "lbs",
+      "basis": "Atlantic Containment lube tank table row AC120SL; page read 2026-11-25; footer ©2019.",
+      "value": 212,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "capacity, model AC500SL",
+      "unit": "GAL.",
+      "basis": "Atlantic Containment lube tank table row AC500SL; page read 2026-11-25; footer ©2019.",
+      "value": 500,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "dimensions (L x W x H), model AC500SL",
+      "unit": "60in x 32in x 60in",
+      "basis": "Atlantic Containment lube tank table row AC500SL; page read 2026-11-25; footer ©2019.",
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "capacity, model AC2KSL",
+      "unit": "GAL.",
+      "basis": "Atlantic Containment lube tank table row AC2KSL (single wall); page read 2026-11-25; footer ©2019.",
+      "value": 2000,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "weight, model AC2KSL",
+      "unit": "lbs",
+      "basis": "Atlantic Containment lube tank table row AC2KSL; page read 2026-11-25; footer ©2019.",
+      "value": 2045,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "capacity, model AC500DL (double wall)",
+      "unit": "GAL.",
+      "basis": "Atlantic Containment lube tank table row AC500DL; page read 2026-11-25; footer ©2019; drawing PDF URL dated /2019/08.",
+      "value": 500,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "weight, model AC1KDL (double wall)",
+      "unit": "lbs",
+      "basis": "Atlantic Containment lube tank table row AC1KDL; page read 2026-11-25; footer ©2019.",
+      "value": 2230,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "air leak test pressure",
+      "unit": "psi",
+      "basis": "Atlantic Containment standard features: 'Air pressure tested to ensure a 100% leak-proof tank @ 5psi'; page read 2026-11-25; footer ©2019.",
+      "value": 5,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "optional secondary containment",
+      "unit": "% (printed: 'Optional 110% DW containment designs available')",
+      "basis": "Atlantic Containment standard features; page read 2026-11-25; footer ©2019.",
+      "value": 110,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "supports",
+      "unit": "inches high (printed: '3” high supports')",
+      "basis": "Atlantic Containment standard features; page read 2026-11-25; footer ©2019.",
+      "value": 3,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "monitoring bung",
+      "unit": "in NPT (printed: '1/2″ NPT outer bung w/ monitoring sight glass')",
+      "basis": "Atlantic Containment standard features; page read 2026-11-25; footer ©2019.",
+      "value": 0.5,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    }
+  ],
+  "url": "https://atlanticcontainment.com/lube-tanks",
+  "sources": [
+    {
+      "url": "https://atlanticcontainment.com/lube-tanks",
+      "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

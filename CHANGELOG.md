@@ -8,6 +8,18 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.25.4] — 2026-11-25 — Alaska GEG WBS/BOQ supply-chain sweep (not deployed)
+
+Owner-directed research over every line item of the 7-unit gas engine generator plant WBS/BOQ with
+SESB 132/33/11 kV connection. Eight evidence-first agents; all new records use existing schemas.
+
+### Audit
+sources 2,090 -> 2,225; cards 401 -> 402; vendors 1,250 -> 1,306; equipment 430 -> 505;
+projects 998 -> 1,046; products 361 -> 458; drawings 333 -> 334; materials 171 -> 217.
+`pytest -q tests` **3,656 passed, 13 skipped**. Three items with zero evidence are logged as gaps.
+NOT DEPLOYED: no Neon reload and no container rebuild.
+
+
 ## [2026.11.25.3] — 2026-11-25 — Data centre power and modular gas generation: 10-year retrospective
 
 Owner-directed sweep of data-centre power plants, gas engines and small/modular power systems over

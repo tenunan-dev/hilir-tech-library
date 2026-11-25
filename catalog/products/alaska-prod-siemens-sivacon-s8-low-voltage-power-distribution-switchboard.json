@@ -1,0 +1,75 @@
+{
+  "id": "alaska-prod-siemens-sivacon-s8-low-voltage-power-distribution-switchboard",
+  "name": "Siemens SIVACON S8 low-voltage power distribution switchboard",
+  "manufacturer": "siemens",
+  "product_type": "low-voltage-switchgear-assembly-mcc",
+  "equipment": [
+    "alaska-low-voltage-switchgear"
+  ],
+  "description": "low-voltage switchgear assembly / MCC",
+  "specifications": [
+    {
+      "metric": "Main busbar rated current",
+      "unit": "A (rear busbar); top busbar up to 6,300 A",
+      "basis": "Siemens SIVACON S8 catalogue, Technical specifications - Main busbars: 'Rated currents up to 7,000 A'; PDF blocked by WebFetch, read via r.jina.ai 2026-11-25; no catalogue date printed in the read section",
+      "value": 7000,
+      "year": 2026,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+        "source_id": "alaska-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+      }
+    },
+    {
+      "metric": "Rated peak withstand current",
+      "unit": "kA (Ipk)",
+      "basis": "Siemens SIVACON S8 catalogue, Technical specifications - Main busbars: rated impulse withstand current up to 330 kA; read 2026-11-25 via r.jina.ai",
+      "value": 330,
+      "year": 2026,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+        "source_id": "alaska-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+      }
+    },
+    {
+      "metric": "Rated short-time withstand current",
+      "unit": "kA (Icw)",
+      "basis": "Siemens SIVACON S8 catalogue, Technical specifications - Main busbars: rated short-time withstand current up to 150 kA; read 2026-11-25 via r.jina.ai",
+      "value": 150,
+      "year": 2026,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+        "source_id": "alaska-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+      }
+    },
+    {
+      "metric": "Frame height / degree of protection",
+      "unit": "mm / IP code",
+      "basis": "Siemens SIVACON S8 catalogue, Technical specifications - Frame; read 2026-11-25 via r.jina.ai (value: 2000 or 2200 mm; IP30, IP31, IP40, IP41, IP42, IP54 per IEC 60529)",
+      "year": 2026,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+        "source_id": "alaska-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+      }
+    },
+    {
+      "metric": "Circuit breaker design rated current",
+      "unit": "A (3WL/3VL circuit breaker sections)",
+      "basis": "Siemens SIVACON S8 catalogue, system overview: 'Rated current In up to 6,300 A' for circuit breaker design; read 2026-11-25 via r.jina.ai",
+      "value": 6300,
+      "year": 2026,
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+        "source_id": "alaska-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+      }
+    }
+  ],
+  "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+  "sources": [
+    {
+      "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
+      "source_id": "alaska-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

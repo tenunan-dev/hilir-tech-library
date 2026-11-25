@@ -1,0 +1,61 @@
+{
+  "id": "kimanis-power-plant-csa",
+  "name": "Kimanis Power plant CSA",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "Non-MAN reference for long-term service/availability contracting; no spare-parts price list printed.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [
+    {
+      "event": "18-year CSA signed for Kimanis plant",
+      "date": "2011",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+        "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+      }
+    }
+  ],
+  "capex": [],
+  "sources": [
+    {
+      "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+      "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead",
+      "note": "Non-MAN reference for long-term service/availability contracting; no spare-parts"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
+      "source_id": "alaska-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
+    },
+    {
+      "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+      "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
+    },
+    {
+      "url": "https://www.wartsila.com/mys",
+      "source_id": "alaska-wartsila-com-mys-1e8ef98"
+    },
+    {
+      "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
+      "source_id": "alaska-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead",
+      "note": "Non-MAN reference for long-term service/availability contracting; no spare-parts price list printed."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "2-Year Operational Spares (exclude MAN spare part)",
+      "why": "No published 2-year operational spares list, quantity or price for non-MAN equipment for this plant was found. MAN's printed packages are expressly excluded by the BOQ wording.",
+      "next_action": "Obtain the bidder's 2-year spares schedule with part numbers and prices, and keep MAN items out of this line item."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (5/6/7 Construction indirect, commissioning, EPC indirect)."
+}

@@ -1,0 +1,42 @@
+{
+  "id": "alaska-prod-umicore-dnx-dnu-dno-dna-doc-moc-dnz-catalyst-families-and-comb",
+  "name": "Umicore DNX® / DNU / DNO / DNA / DOC / MOC / DNZ catalyst families and combinations",
+  "manufacturer": "alaska-vendor-umicore-593d7",
+  "product_type": "scr-oxidation-ammonia-slip-catalysts",
+  "equipment": [
+    "alaska-doc-and-scr-system-package"
+  ],
+  "description": "SCR / oxidation / ammonia-slip catalysts",
+  "specifications": [
+    {
+      "metric": "Industrial references for catalytic oxidation, SCR, catalytic particulate filtration, ammonia oxidation and N2O reduction",
+      "unit": "references (over 10,000, as printed)",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure, 'Backed by over 10,000 industrial references...'; read via r.jina.ai 2026-09-02; print date not stated in the document read.",
+      "low": 10000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
+        "source_id": "alaska-umicore-com-data-center-emission-control-cat-a1abcab"
+      }
+    },
+    {
+      "metric": "Catalyst combinations for backup and continuous diesel/gas engines",
+      "unit": "DNX + DNO; cDPF + DNU; DNU + DNA",
+      "basis": "Umicore 'Data Center Emission Control Catalysts' brochure, catalyst combination list; read via r.jina.ai 2026-09-02; print date not stated.",
+      "year": 2026,
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
+        "source_id": "alaska-umicore-com-data-center-emission-control-cat-a1abcab"
+      }
+    }
+  ],
+  "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
+  "sources": [
+    {
+      "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
+      "source_id": "alaska-umicore-com-data-center-emission-control-cat-a1abcab"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

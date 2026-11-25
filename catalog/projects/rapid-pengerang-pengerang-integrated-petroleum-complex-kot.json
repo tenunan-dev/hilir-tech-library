@@ -1,0 +1,54 @@
+{
+  "id": "rapid-pengerang-pengerang-integrated-petroleum-complex-kot",
+  "name": "Rapid Pengerang, Pengerang Integrated Petroleum Complex, Kota Tinggi, Malaysia",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "Listed under featured projects, Industries category; WebFetch 2026-11-25.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [
+    {
+      "event": "Dunham-Bush states it was founded in the USA in 1894 and has more than 100 years of air-conditioning manufacturing history",
+      "date": "1894",
+      "source": {
+        "url": "https://dunham-bush.com/"
+      }
+    }
+  ],
+  "capex": [],
+  "sources": [
+    {
+      "url": "https://dunham-bush.com/",
+      "note": "Listed under featured projects, Industries category; WebFetch 2026-11-25."
+    },
+    {
+      "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
+      "source_id": "alaska-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
+    },
+    {
+      "url": "https://dunham-bush.com/our-products/",
+      "source_id": "alaska-dunham-bush-com-a2dd740"
+    },
+    {
+      "url": "https://dunham-bush.com/",
+      "note": "Listed under featured projects, Green Buildings category; WebFetch 2026-11-25."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "HVAC System Package",
+      "why": "No plant-specific HVAC load schedule, equipment list, capacities for the powerhouse/control room/electrical rooms, vendor or price was found in the pages read.",
+      "next_action": "Obtain the HVAC package BOQ, heat-load calculations and vendor quotation from the project documents; do not infer plant cooling capacity from either brochure."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (3.2 Mechanical)."
+}

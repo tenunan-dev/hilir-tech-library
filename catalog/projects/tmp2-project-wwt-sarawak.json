@@ -1,0 +1,55 @@
+{
+  "id": "tmp2-project-wwt-sarawak",
+  "name": "TMP2 Project (WWT), Sarawak",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sarawak)",
+  "location": "Malaysia (Sarawak)",
+  "status": "operating",
+  "description": "JML scope: civil, building works and mechanical erection; industrial plant; client Kobelco Eco-Solutions (Malaysia) Sdn Bhd.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [],
+  "capex": [],
+  "sources": [
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3",
+      "note": "JML scope: civil, building works and mechanical erection; industrial plant; clie"
+    },
+    {
+      "url": "https://www.nfpa.org/codes-and-standards/nfpa-20-standard-development/20",
+      "source_id": "alaska-nfpa-org-20-af3650a"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-3-design-of-steel-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-ec3c86b"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-steel-structures-and-aluminium-structures-technical-requirements-for-steel-structures/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-66d5e66"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3"
+    },
+    {
+      "url": "https://www.nfpa.org/codes-and-standards/nfpa-22-standard-development/22",
+      "source_id": "alaska-nfpa-org-22-71de42c"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Fire/ Service Water Pump House (upper steel 9x28x6)",
+      "why": "No fire/service water pump datasheet, pump count or pump-house unit rate was found; NFPA 20 is a design standard only, not a price source.",
+      "next_action": "Obtain the fire pump schedule/datasheet and a Malaysian fire-pump-house tender rate."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (4 Construction direct)."
+}

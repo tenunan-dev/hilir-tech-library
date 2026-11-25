@@ -1,0 +1,374 @@
+{
+  "id": "alaska-plant-control-system",
+  "name": "Plant Control System",
+  "equipment_type": "wbs-3-4-i-c",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Plant Control System",
+  "aliases": [
+    "Plant Control System"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "ABB Ability System 800xA (DCS with Hig — safety integrity level",
+      "unit": "SIL (TÜV to IEC 61508 and IEC 61511)",
+      "basis": "ABB Ability System 800xA Safety Overview brochure, copyright © 2025 ABB, PDF read via r.jina.ai (direct WebFetch of application/pdf unsupported): 'The ABB Ability System 800xA High Integrity safety system was released in 2005 and is TÜV certified for SIL 3 operation according to IEC 61508 and IEC 61511.'",
+      "value": 3,
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "alaska-search-abb-com-download-aspx-583c22e"
+      }
+    },
+    {
+      "metric": "ABB Ability System 800xA (DCS with Hig — controller hardware I/O capacity PM857",
+      "unit": "I/O points",
+      "basis": "ABB System 800xA Safety Overview, © 2025 ABB, read via r.jina.ai: 'The PM857 for up to 128 I/O points and the PM863 and PM867 when larger applications and more I/O is needed.'",
+      "value": 128,
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "alaska-search-abb-com-download-aspx-583c22e"
+      }
+    },
+    {
+      "metric": "ABB Ability System 800xA (DCS with Hig — cybersecurity certification",
+      "unit": "certification",
+      "basis": "ABB System 800xA Safety Overview, © 2025 ABB, read via r.jina.ai: 'ABB has achieved ISASecure System Security Assurance (SSA™) Level 1 certification for System 800xA version according to the IEC 62443 international standard.' (value: ISASecure System Security Assurance (SSA) Level 1 to IEC 62443; 800xA 6.1.1 LTS)",
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "alaska-search-abb-com-download-aspx-583c22e"
+      }
+    },
+    {
+      "metric": "ABB Ability System 800xA (DCS with Hig — alarm performance metrics standards",
+      "unit": "standard",
+      "basis": "ABB System 800xA Safety Overview, © 2025 ABB, read via r.jina.ai: alarm management 'metrics continuously calculated according EEMUA 191 and ISA 18.2 standards.' (value: EEMUA 191 and ISA 18.2)",
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "alaska-search-abb-com-download-aspx-583c22e"
+      }
+    },
+    {
+      "metric": "ABB Ability System 800xA (DCS with Hig — SIS connectivity protocols",
+      "unit": "protocol list",
+      "basis": "ABB System 800xA Safety Overview, © 2025 ABB, read via r.jina.ai: 'certified interference free communications modules for Modbus RS232, Modbus TCP, OPC, Profinet, Profisafe, and other ABB protocols.' (value: Modbus RS232, Modbus TCP, OPC, PROFINET, PROFIsafe)",
+      "year": 2025,
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+        "source_id": "alaska-search-abb-com-download-aspx-583c22e"
+      }
+    },
+    {
+      "metric": "Honeywell Experion PKS C300 controller — user memory",
+      "unit": "MU (Memory Units)",
+      "basis": "Honeywell Experion PKS C300 Controller product page (prod-edam.honeywell.com document list includes a brief dated 10/24/2021 and white paper dated 10/22/2025; page footer © 2026 Honeywell), read directly: specification table 'User Memory: 32,768 MU (Memory Units)'.",
+      "value": 32768,
+      "year": 2021,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "Honeywell Experion PKS C300 controller — execution units",
+      "unit": "XUs",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'Execution Units (XUs): 9000 XUs'.",
+      "value": 9000,
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "Honeywell Experion PKS C300 controller — standard execution period",
+      "unit": "ms",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'Execution Period: 20 ms not supported for PCNT05; 50 ms (Standard)'.",
+      "value": 50,
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "Honeywell Experion PKS C300 controller — redundant controller switchover time",
+      "unit": "ms (approximate)",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'Switchover Time: ~500 ms'.",
+      "value": 500,
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "Honeywell Experion PKS C300 controller — operating temperature range",
+      "unit": "°C",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'Temperature Rating: –40 to +70°C'.",
+      "low": -40,
+      "high": 70,
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "Honeywell Experion PKS C300 controller — supported protocols",
+      "unit": "protocol list",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'transparently integrates standard and open communication protocols: Ethernet IP, Profinet, FOUNDATION™ Fieldbus, HART®, IEC61850, OPC UA, Profibus® and Modbus'. (value: EtherNet/IP, FOUNDATION Fieldbus, Modbus/TCP, PROFIBUS, PROFINET, IEC 61850, OPC)",
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "Honeywell Experion PKS C300 controller — security certification",
+      "unit": "certification",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'Security: Embedded Firewall, ISA Secure CSA L2 Certified'. (value: ISA Secure CSA L2 Certified; embedded firewall)",
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "Emerson Ovation DCS — target industries",
+      "unit": "application scope",
+      "basis": "Emerson Ovation DCS product page, © 2026 Emerson, read directly: 'The Ovation Distributed Control System is purposely designed for the power generation and water/wastewater industries'; application list includes gas turbine controls and microgrid control systems. (value: purpose-built for power generation and water/wastewater; gas turbine, steam turb)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
+        "source_id": "alaska-emerson-com-ovation-distributed-control-syst-006ffb7"
+      }
+    },
+    {
+      "metric": "Emerson Ovation DCS — market position claim",
+      "unit": "vendor claim with cited source",
+      "basis": "Emerson Ovation DCS product page, © 2026 Emerson, read directly: cites ARC Advisory Group, 'Distributed Control Systems for Power Generation Global Market Research 2024–2029'. (value: positioned as leading DCS for power generation globally and across North America)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
+        "source_id": "alaska-emerson-com-ovation-distributed-control-syst-006ffb7"
+      }
+    },
+    {
+      "metric": "Yokogawa CENTUM VP with ProSafe-RS — maximum operation/monitoring tags",
+      "unit": "tags per system",
+      "basis": "Yokogawa General Specifications GS 33K01A10-50E, 12th Edition Sep. 1, 2014 (© 2011 Yokogawa), PDF read via r.jina.ai: 'Maximum 100000 per system (when LHS4000 is in use, up to 1000000 per system)'.",
+      "value": 100000,
+      "high": 1000000,
+      "year": 2014,
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+        "source_id": "alaska-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
+      }
+    },
+    {
+      "metric": "Yokogawa CENTUM VP with ProSafe-RS — Vnet/IP link transmission period",
+      "unit": "ms",
+      "basis": "Yokogawa GS 33K01A10-50E, 12th Edition Sep. 1, 2014, read via r.jina.ai: 'Link transmission period: 100 ms'; Vnet/IP described as dual-redundant gigabit Ethernet control network.",
+      "value": 100,
+      "year": 2014,
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+        "source_id": "alaska-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
+      }
+    },
+    {
+      "metric": "Yokogawa CENTUM VP with ProSafe-RS — IEC 61850 IED communication package",
+      "unit": "software package",
+      "basis": "Yokogawa GS 33K01A10-50E, 12th Edition Sep. 1, 2014, read via r.jina.ai: UGS standard functions list Modbus, EtherNet/IP, OPC DA and 'LBC1570 IEC 61850 IED Communication Package (for UGS)'. (value: LBC1570 IEC 61850 IED Communication Package (for UGS))",
+      "year": 2014,
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+        "source_id": "alaska-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
+      }
+    },
+    {
+      "metric": "Yokogawa CENTUM VP with ProSafe-RS — safety system certification",
+      "unit": "SIL",
+      "basis": "Yokogawa GS 33K01A10-50E, 12th Edition Sep. 1, 2014, read via r.jina.ai: 'ProSafe-RS has certified by Technische Überwachungs Verein (TÜV) as a safety system to satisfy safety integrity level (SIL) 3 of IEC 61508.' (value: TÜV certified SIL 3 of IEC 61508 (ProSafe-RS))",
+      "year": 2014,
+      "source": {
+        "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+        "source_id": "alaska-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
+      }
+    },
+    {
+      "metric": "Yokogawa CENTUM VP with ProSafe-RS — remote I/O fibre distance",
+      "unit": "km",
+      "basis": "Yokogawa CENTUM VP product page, read directly: 'A high speed remote I/O unit enables connecting controllers over remote site up to 50 kilometers via optical fiber cables'; same figure appears as '50 km (with Optical ESB Bus Repeater Module)' in GS 33K01A10-50E (12th Ed., 2014).",
+      "value": 50,
+      "year": 2014,
+      "source": {
+        "url": "https://www.yokogawa.com/us/solutions/products-and-services/control/control-and-safety-system/distributed-control-systems-dcs/centum/"
+      }
+    },
+    {
+      "metric": "Omterra (formerly Siemens Energy) Omni — installed base",
+      "unit": "installations (stated as 'more than 4,000')",
+      "basis": "Omterra Omnivise T3000 product page, © Omterra 2026, read directly: 'more than 4,000 installations worldwide'.",
+      "value": 4000,
+      "year": 2026,
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
+        "source_id": "alaska-omterra-com-omnivise-t3000-html-6e40189"
+      }
+    },
+    {
+      "metric": "Omterra (formerly Siemens Energy) Omni — cybersecurity certification",
+      "unit": "certification",
+      "basis": "Omterra Omnivise T3000 product page, © Omterra 2026, read directly: 'certified by TÜV SÜD according to IEC 62443 ... built for Security Level 3 (SL 3) readiness'. (value: TÜV SÜD certification to IEC 62443; built for Security Level 3 (SL 3) readiness)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
+        "source_id": "alaska-omterra-com-omnivise-t3000-html-6e40189"
+      }
+    },
+    {
+      "metric": "Omterra (formerly Siemens Energy) Omni — substation/third-party integration protocol",
+      "unit": "protocol",
+      "basis": "Omterra Omnivise T3000 product page, © Omterra 2026, read directly (FAQ): 'incorporates standards like IEC 61850 to integrate third-party systems and ensures secure operations through VPNs and data encryption'. (value: IEC 61850 and VPN/data encryption)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
+        "source_id": "alaska-omterra-com-omnivise-t3000-html-6e40189"
+      }
+    },
+    {
+      "metric": "Valmet DNA automation system (SESB ref — integrated control scope",
+      "unit": "scope",
+      "basis": "Valmet press release, 'Valmet to supply automation technology to Sabah Electricity's power plant in Malaysia', Valmet Oyj press release 1 July 2016 at 11:00 a.m. EET, read directly. (value: boiler, feedwater and turbine control integrated into one Valmet DNA platform)",
+      "year": 2016,
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
+        "source_id": "alaska-valmet-com-65ff972"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "abb",
+      "line": "ABB Ability System 800xA (DCS with High Integrity SIS)",
+      "note": "integrated control and safety system (ICSS)"
+    },
+    {
+      "vendor": "honeywell",
+      "line": "Honeywell Experion PKS C300 controller",
+      "note": "DCS controller"
+    },
+    {
+      "vendor": "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+      "line": "Emerson Ovation DCS",
+      "note": "power-generation distributed control system"
+    },
+    {
+      "vendor": "alaska-vendor-yokogawa-electric-corporation-31fff",
+      "line": "Yokogawa CENTUM VP with ProSafe-RS",
+      "note": "DCS and safety instrumented system"
+    },
+    {
+      "vendor": "siemens-gamesa",
+      "line": "Omterra (formerly Siemens Energy) Omnivise T3000",
+      "note": "power-plant DCS with SCADA functionality"
+    },
+    {
+      "vendor": "valmet",
+      "line": "Valmet DNA automation system (SESB reference platform)",
+      "note": "plant DCS / control platform retrofit"
+    }
+  ],
+  "vendors": [
+    "abb",
+    "honeywell",
+    "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
+    "alaska-vendor-yokogawa-electric-corporation-31fff",
+    "siemens-gamesa",
+    "valmet",
+    "tenaga-nasional-berhad"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    },
+    {
+      "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
+      "source_id": "alaska-valmet-com-65ff972"
+    },
+    {
+      "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
+      "source_id": "alaska-search-abb-com-download-aspx-583c22e"
+    },
+    {
+      "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+      "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+    },
+    {
+      "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
+      "source_id": "alaska-emerson-com-ovation-distributed-control-syst-006ffb7"
+    },
+    {
+      "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
+      "source_id": "alaska-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
+    },
+    {
+      "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
+      "source_id": "alaska-omterra-com-omnivise-t3000-html-6e40189"
+    },
+    {
+      "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html",
+      "source_id": "alaska-siemens-energy-com-enecogen-power-plant-inte-d7aa54c"
+    },
+    {
+      "url": "https://syc-se.iec.ch/iec-63097-smart-energy-roadmap/der-management-system/",
+      "source_id": "alaska-syc-se-iec-ch-d5f39e2"
+    },
+    {
+      "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
+      "source_id": "alaska-valmet-com-65ff972",
+      "note": "112 MWe combined cycle plant, three gas turbines plus one steam turbine; Valmet DNA replacing existing automation; local partner PESTECH Technology; TNB Remaco on GE gas turbine interface."
+    },
+    {
+      "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html",
+      "source_id": "alaska-siemens-energy-com-enecogen-power-plant-inte-d7aa54c",
+      "note": "958 MW two single-shaft CCGT units; Omnivise T3000 DCS integrates turbines, black start unit, electrical houses and planned battery storage; up to 200 starts per year stated."
+    },
+    {
+      "url": "https://www.yokogawa.com/us/solutions/products-and-services/control/control-and-safety-system/distributed-control-systems-dcs/centum/"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Plant Control System",
+      "why": "No evidence found for the actual DCS/SIS vendor, I/O count, SIL target, redundancy architecture or panel count for this specific 7-unit gas engine plant.",
+      "next_action": "Obtain the project I&C specification, vendor quotation and control-system architecture drawing from the tender/EPC package."
+    },
+    {
+      "what": "Plant Control System",
+      "why": "Vendor brochures describe generic capability only; none states suitability for this SESB connection or 7 x gas engine configuration.",
+      "next_action": "Request a written conformance statement tying the proposed platform to the Sabah Grid Code CC5.3/OC10 requirements."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.4 I&C).",
+  "last_reviewed": "2026-11-25"
+}

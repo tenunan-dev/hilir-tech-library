@@ -1,0 +1,151 @@
+{
+  "id": "alaska-busbar-pt-132kv-40ka-3s",
+  "name": "Busbar PT - 132KV 40kA (3s)",
+  "equipment_type": "wbs-3-3-electrical",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Busbar PT - 132KV 40kA (3s)",
+  "aliases": [
+    "Busbar PT - 132KV 40kA (3s)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "132 kV capacitive voltage transformer  — nominal system voltage / highest voltage for equipment Um",
+      "unit": "kV (nominal system 132 kV)",
+      "basis": "Northern Powergrid NPS/003/001 Version 6.0, Date of Issue May 2024, Appendix 1 132kV table: 'Nominal System Voltage 132 kV'; 'Highest Voltage for Equipment Um (rms) 145 kV'.",
+      "value": 145,
+      "year": 2024,
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+        "source_id": "alaska-r-jina-ai-download-484bca2"
+      }
+    },
+    {
+      "metric": "132 kV capacitive voltage transformer  — rated short-time thermal current",
+      "unit": "kA for 3 s (minimum)",
+      "basis": "Northern Powergrid NPS/003/001 v6.0 (May 2024), Appendix 1 132kV table: 'Rated short time thermal current Minimum 31.5kA for 3 secs but not less than that of associated HV Switchgear'. CONFLICT: the project line item prints '40kA (3s)'; this utility spec prints 31.5 kA/3 s minimum but requires not less than the associated switchgear, so a 40 kA/3 s bay would require at least 40 kA/3 s. Both statem",
+      "value": 31.5,
+      "year": 2024,
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+        "source_id": "alaska-r-jina-ai-download-484bca2"
+      }
+    },
+    {
+      "metric": "132 kV capacitive voltage transformer  — rated secondary voltage",
+      "unit": "110/sqrt(3) V",
+      "basis": "Northern Powergrid NPS/003/001 v6.0 (May 2024), Appendix 1 132kV table: 'Rated Secondary Voltage 110/√3 V'; 'Ratios 132000/√3 : 110/√3'.",
+      "year": 2024,
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+        "source_id": "alaska-r-jina-ai-download-484bca2"
+      }
+    },
+    {
+      "metric": "132 kV capacitive voltage transformer  — rated output per winding",
+      "unit": "VA",
+      "basis": "Northern Powergrid NPS/003/001 v6.0 (May 2024), Appendix 1 132kV table: 'Output 50VA per winding'; 'Number of secondary outputs 3'.",
+      "value": 50,
+      "year": 2024,
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+        "source_id": "alaska-r-jina-ai-download-484bca2"
+      }
+    },
+    {
+      "metric": "132 kV capacitive voltage transformer  — voltage factor",
+      "unit": "1.2 continuous; 1.5 for 30 s",
+      "basis": "Northern Powergrid NPS/003/001 v6.0 (May 2024), Appendix 1 132kV table: 'Voltage Factor 1.2 Continuous / 1.5 for 30 sec'.",
+      "year": 2024,
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+        "source_id": "alaska-r-jina-ai-download-484bca2"
+      }
+    },
+    {
+      "metric": "132 kV capacitive voltage transformer  — lightning impulse withstand (dry impulse, peak)",
+      "unit": "kV",
+      "basis": "Northern Powergrid NPS/003/001 v6.0 (May 2024), Appendix 1 132kV table: 'Rated insulation levels of the primary winding - (peak) - Dry Impulse 650 kV'.",
+      "value": 650,
+      "year": 2024,
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+        "source_id": "alaska-r-jina-ai-download-484bca2"
+      }
+    },
+    {
+      "metric": "132 kV capacitive voltage transformer  — power frequency withstand (wet 1 min)",
+      "unit": "kV",
+      "basis": "Northern Powergrid NPS/003/001 v6.0 (May 2024), Appendix 1 132kV table: 'Rated insulation levels of the primary winding - (Wet 1min PF Withstand) 275 kV'.",
+      "value": 275,
+      "year": 2024,
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+        "source_id": "alaska-r-jina-ai-download-484bca2"
+      }
+    },
+    {
+      "metric": "132 kV capacitive voltage transformer  — minimum phase-to-earth creepage distance",
+      "unit": "mm",
+      "basis": "Northern Powergrid NPS/003/001 v6.0 (May 2024), Appendix 1 132kV table: 'Minimum phase to earth creepage distance 3350mm'; pollution level 3 = 25 mm/kV (Heavy).",
+      "value": 3350,
+      "year": 2024,
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+        "source_id": "alaska-r-jina-ai-download-484bca2"
+      }
+    },
+    {
+      "metric": "132 kV capacitive voltage transformer  — secondary terminal enclosure degree of protection",
+      "unit": "IP44 (IEC 60529)",
+      "basis": "Northern Powergrid NPS/003/001 v6.0 (May 2024), clause 3.1.4: 'This enclosure shall as a minimum comply with IP 44 in accordance with IEC 60529'.",
+      "year": 2024,
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+        "source_id": "alaska-r-jina-ai-download-484bca2"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
+      "source_id": "alaska-r-jina-ai-download-484bca2"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Busbar PT - 132KV 40kA (3s)",
+      "why": "No printed price, vendor quotation, EPC contractor, or named/dated/sized/located reference project for the 132 kV busbar PT was found in a page read with WebFetch.",
+      "next_action": "Obtain the substation package pricing, the PT/CVT manufacturer data sheet and the awarded project reference list."
+    },
+    {
+      "what": "Busbar PT - 132KV 40kA (3s)",
+      "why": "The line item states 40kA (3s) but the only read specification prints minimum 31.5 kA/3 s for 132 kV VTs (with 'not less than that of associated HV Switchgear'); conflict preserved, no 40 kA VT certificate was read.",
+      "next_action": "Obtain the 132 kV switchgear short-time rating and the offered VT type-test certificate showing 40 kA/3 s."
+    },
+    {
+      "what": "Busbar PT - 132KV 40kA (3s)",
+      "why": "No OEM name, SESB requirement, patent number, operational-history record or drawing was found in a page read with WebFetch for this specific line item.",
+      "next_action": "Retrieve the SESB 132 kV interface specification and the vendor's VT data sheet/drawings."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.3 Electrical).",
+  "last_reviewed": "2026-11-25"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "alaska-prod-megger-mrct-relay-and-current-transformer-test-set-ct-vt-relay",
+  "name": "Megger MRCT relay and current transformer test set",
+  "manufacturer": "alaska-vendor-unidentified",
+  "product_type": "ct-vt-relay-test-set",
+  "equipment": [
+    "alaska-electrical-laboratory-equipment-package"
+  ],
+  "description": "CT/VT/relay test set",
+  "specifications": [
+    {
+      "metric": "DC excitation knee point capability",
+      "unit": "kV",
+      "basis": "Megger MRCT product page (read via r.jina.ai proxy): 'allowing measurement of knee points on CTs up to 30 kV'.",
+      "value": 30,
+      "source": {
+        "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+        "source_id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
+      }
+    },
+    {
+      "metric": "secondary voltage injection (configurable base unit)",
+      "unit": "kV",
+      "basis": "Megger MRCT FAQ (read via r.jina.ai proxy): 'whether you need a simple 2kV CT tester or advanced DC testing methods, VT testing, single phase relay testing... the MRCT can be customised'.",
+      "value": 2,
+      "source": {
+        "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+        "source_id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
+      }
+    },
+    {
+      "metric": "minimum insulation resistance value generally accepted",
+      "unit": "Mohm",
+      "basis": "Megger MRCT product page (read via r.jina.ai proxy): 'As outlined in IEEE C57.13.1, a generally accepted minimum insulation value is 1 Mohm'.",
+      "value": 1,
+      "source": {
+        "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+        "source_id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
+      }
+    },
+    {
+      "metric": "primary noise filtration accuracy penalty",
+      "unit": "% (approximately, +/-)",
+      "basis": "Megger MRCT product page (read via r.jina.ai proxy): 'If used in a non-noisy environment, this can reduce the unit's accuracy by approximately +/- 0.05 %'.",
+      "value": 0.05,
+      "source": {
+        "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+        "source_id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
+      }
+    }
+  ],
+  "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+      "source_id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

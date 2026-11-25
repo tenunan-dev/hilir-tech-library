@@ -1,0 +1,54 @@
+{
+  "id": "alaska-prod-mtu-12v1600-gs400-gas-generator-set-exhaust-system-data-ng-and",
+  "name": "mtu 12V1600 GS400 gas generator set — exhaust system data (NG and LPG)",
+  "manufacturer": "alaska-vendor-rolls-royce-mtu-solutions-00b30",
+  "product_type": "gas-engine-exhaust-interface",
+  "equipment": [
+    "alaska-exhaust-gas-system-package"
+  ],
+  "description": "gas engine exhaust interface",
+  "specifications": [
+    {
+      "metric": "Gas temperature (stack)",
+      "unit": "°C (°F) 716 (1,321), as printed",
+      "basis": "mtu 12V1600 GS400 Gas Generator Set spec sheet, Application data > Exhaust system, 'Gas temperature (stack): °C (°F) 716 (1,321)'; document 231296 | 2026-03, read via r.jina.ai 2026-04-16.",
+      "value": 716,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Gas volume at stack temperature",
+      "unit": "m³/min (CFM) 84.6 (2,988), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Exhaust system, NG and LPG, document 231296 | 2026-03, read via r.jina.ai 2026-04-16.",
+      "value": 84.6,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    },
+    {
+      "metric": "Maximum allowable back pressure at outlet of engine, before piping",
+      "unit": "kPa (in. H₂O) 10 (40), as printed",
+      "basis": "mtu 12V1600 GS400 spec sheet, Exhaust system, NG and LPG, document 231296 | 2026-03, read via r.jina.ai 2026-04-16.",
+      "value": 10,
+      "year": 2026,
+      "source": {
+        "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+        "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+      }
+    }
+  ],
+  "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+  "sources": [
+    {
+      "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+      "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

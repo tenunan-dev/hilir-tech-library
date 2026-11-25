@@ -1,0 +1,26 @@
+{
+  "id": "alaska-r-jina-ai-gas-engine-power-plant-gepp-a7b9ebf",
+  "name": "GAS ENGINE POWER PLANT (GEPP) - PLTMG Balai Pungut Duri",
+  "url": "https://r.jina.ai/https://www.scribd.com/presentation/460356567/GAS-ENGINE-POWER-PLANT-GEPP",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT",
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Scribd user upload (Irefala Chandra)",
+  "access": "open",
+  "licence": "Scribd user upload; no clear reuse licence",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Fetched via r.jina.ai (Scribd page read). Page shows 8 pages, 103 views, uploaded by Irefala Chandra, an 'AI-enhanced title and description' stating 7 gas engines each 17.1 MW. No publication date; slide text partly encoded/illegible. Treated as low-confidence presentation evidence.. Exact printed figures are recorded in the linked records' basis fields."
+}

@@ -1,0 +1,313 @@
+{
+  "id": "alaska-cables-cable-trays-and-acc-132kv-33kv-11kv-lv",
+  "name": "Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV)",
+  "equipment_type": "wbs-3-3-electrical",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV)",
+  "aliases": [
+    "Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Prysmian 132 kV XLP 800 mm2 Cu LS0H SC — maximum phase-to-phase voltage Um",
+      "unit": "kV",
+      "basis": "Prysmian datasheet '132 kV XLP 800 mm2 Cu LS0H SC IEC 60840', code E230FK90800MIDNE, Version: 18-ene-22 (18 January 2022): 'Tension maxima entre fases, Um: 145 kV'.",
+      "value": 145,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+        "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+      }
+    },
+    {
+      "metric": "Prysmian 132 kV XLP 800 mm2 Cu LS0H SC — lightning impulse withstand Up",
+      "unit": "kV",
+      "basis": "Prysmian datasheet code E230FK90800MIDNE, Version 18-ene-22: 'Tension a impulsos, Up: 650 kV'.",
+      "value": 650,
+      "source": {
+        "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+        "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+      }
+    },
+    {
+      "metric": "Prysmian 132 kV XLP 800 mm2 Cu LS0H SC — nominal conductor cross-section",
+      "unit": "mm2",
+      "basis": "Prysmian datasheet code E230FK90800MIDNE, Version 18-ene-22: 'Seccion transversal nominal: 800 mm2'.",
+      "value": 800,
+      "source": {
+        "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+        "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+      }
+    },
+    {
+      "metric": "Prysmian 132 kV XLP 800 mm2 Cu LS0H SC — maximum conductor short-circuit current, 1 s",
+      "unit": "kA",
+      "basis": "Prysmian datasheet code E230FK90800MIDNE, Version 18-ene-22: 'Intensidad maxima de cortocircuito en el conductor durante 1 s: 114 kA'.",
+      "value": 114,
+      "source": {
+        "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+        "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+      }
+    },
+    {
+      "metric": "Prysmian 132 kV XLP 800 mm2 Cu LS0H SC — maximum screen short-circuit current, 1 s",
+      "unit": "kA",
+      "basis": "Prysmian datasheet code E230FK90800MIDNE, Version 18-ene-22: 'Intensidad maxima de cortocircuito en la pantalla (Hilos de Cu + foil de aluminio) durante 1 s: 10 kA'.",
+      "value": 10,
+      "source": {
+        "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+        "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+      }
+    },
+    {
+      "metric": "Prysmian 132 kV XLP 800 mm2 Cu LS0H SC — maximum conductor temperature in continuous service",
+      "unit": "deg C",
+      "basis": "Prysmian datasheet code E230FK90800MIDNE, Version 18-ene-22: 'Temperatura maxima admisible en el conductor en servicio permanente: 90°C'.",
+      "value": 90,
+      "source": {
+        "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+        "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+      }
+    },
+    {
+      "metric": "Prysmian 132 kV XLP 800 mm2 Cu LS0H SC — maximum conductor temperature during short circuit",
+      "unit": "deg C",
+      "basis": "Prysmian datasheet code E230FK90800MIDNE, Version 18-ene-22: 'Temperatura maxima admisible en el conductor en regimen de cortocircuito: 250°C'.",
+      "value": 250,
+      "source": {
+        "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+        "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+      }
+    },
+    {
+      "metric": "Prysmian 132 kV XLP 800 mm2 Cu LS0H SC — conductor DC resistance at 20 deg C",
+      "unit": "Ohm/km",
+      "basis": "Prysmian datasheet code E230FK90800MIDNE, Version 18-ene-22: 'Resistencia electrica del conductor a 20°C c.c.: 0.0221 Ohm/km'.",
+      "value": 0.0221,
+      "source": {
+        "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+        "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+      }
+    },
+    {
+      "metric": "Prysmian 132 kV XLP 800 mm2 Cu LS0H SC — capacitance",
+      "unit": "microF/km",
+      "basis": "Prysmian datasheet code E230FK90800MIDNE, Version 18-ene-22: 'Capacidad nominal: 0.2017 microF/km'.",
+      "value": 0.2017,
+      "year": 2017,
+      "source": {
+        "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+        "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+      }
+    },
+    {
+      "metric": "Prysmian 132 kV XLP 800 mm2 Cu LS0H SC — approximate weight",
+      "unit": "kg/km",
+      "basis": "Prysmian datasheet code E230FK90800MIDNE, Version 18-ene-22: 'Peso aproximado: 13 908 kg/km'.",
+      "value": 13908,
+      "source": {
+        "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+        "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+      }
+    },
+    {
+      "metric": "Nexans 11 kV 3-core 50 mm2 Cu/XLPE/SC/ — rated voltage / voltage to neutral",
+      "unit": "11 kV / 6.35 kV",
+      "basis": "Powerandcables.com Nexans 11kV 3 Core 50sqmm BS6622 product page: 'Rated voltage (U) 11kV', 'Voltage to neutral (Uo) 6.35kV'; page footer copyright 2026 Thorne & Derrick.",
+      "year": 2026,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "Nexans 11 kV 3-core 50 mm2 Cu/XLPE/SC/ — nominal conductor cross-section",
+      "unit": "sqmm",
+      "basis": "Powerandcables.com Nexans 11kV BS6622 product page: 'Nominal cross-section area of conductor 50sqmm', '3 Core', copper conductor, XLPE insulation.",
+      "value": 50,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "Nexans 11 kV 3-core 50 mm2 Cu/XLPE/SC/ — current carrying capacity in ground (20 deg C)",
+      "unit": "A",
+      "basis": "Powerandcables.com Nexans 11kV 3C 50sqmm BS6622 product page technical specification table: 'Current carrying capacity in ground (20 °C) 210'.",
+      "value": 210,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "Nexans 11 kV 3-core 50 mm2 Cu/XLPE/SC/ — current carrying capacity in air (30 deg C)",
+      "unit": "A",
+      "basis": "Powerandcables.com Nexans 11kV 3C 50sqmm BS6622 product page technical specification table: 'Current carrying capacity in air (30 °C) 206'.",
+      "value": 206,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "Nexans 11 kV 3-core 50 mm2 Cu/XLPE/SC/ — nominal short-circuit current for 1 second, conductor",
+      "unit": "kA",
+      "basis": "Powerandcables.com Nexans 11kV 3C 50sqmm BS6622 product page: 'Nominal short-circuit current for 1 second of conductor (kA) 7.2'.",
+      "value": 7.2,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "Nexans 11 kV 3-core 50 mm2 Cu/XLPE/SC/ — nominal short-circuit current for 1 second, screen",
+      "unit": "kA",
+      "basis": "Powerandcables.com Nexans 11kV 3C 50sqmm BS6622 product page: 'Nominal short-circuit current for 1 second of screen (kA) 3.3'.",
+      "value": 3.3,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "Nexans 11 kV 3-core 50 mm2 Cu/XLPE/SC/ — permissible operating temperature",
+      "unit": "deg C",
+      "basis": "Powerandcables.com Nexans 11kV BS6622 product page: 'Permissible operating temperature of conductor (°C) 90'; emergency overload 130 deg C; short-circuit up to 5 sec 250 deg C.",
+      "value": 90,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "Nexans 11 kV 3-core 50 mm2 Cu/XLPE/SC/ — conductor DC resistance at 20 deg C",
+      "unit": "Ohm/km",
+      "basis": "Powerandcables.com Nexans 11kV 3C 50sqmm BS6622 product page: 'Conductor DC resistance at 20 °C (Ohm/km) 0.387'.",
+      "value": 0.387,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "Nexans 33 kV single-core 630 mm2 XLPE  — rated voltage",
+      "unit": "19/33 kV",
+      "basis": "Powerandcables.com Nexans 33kV 1C 630sqmm BS7870 product page: 'Rated voltage 19/33kV'; 'International Standards: IEC 60502-2; National Standards: BS 7870-4.10'.",
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
+        "source_id": "alaska-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
+      }
+    },
+    {
+      "metric": "Nexans 33 kV single-core 630 mm2 XLPE  — nominal cross-sectional area",
+      "unit": "sqmm",
+      "basis": "Powerandcables.com Nexans 33kV BS7870 product page technical specification table: 'Nominal cross-sectional area sqmm 630' for both copper and aluminium conductor versions.",
+      "value": 630,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
+        "source_id": "alaska-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
+      }
+    },
+    {
+      "metric": "Nexans 33 kV single-core 630 mm2 XLPE  — 1 second short-circuit rating of conductor (copper), 90 to 250 deg C",
+      "unit": "kA",
+      "basis": "Powerandcables.com Nexans 33kV 1C 630sqmm BS7870 table: '1 Second Short Circuit Rating of Conductor (90 to 250°C) kA' copper 90.7; aluminium 60.2.",
+      "value": 90.7,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
+        "source_id": "alaska-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
+      }
+    },
+    {
+      "metric": "Nexans 33 kV single-core 630 mm2 XLPE  — 1 second short-circuit rating of 35 sqmm copper wire screen, 80 to 250 deg C",
+      "unit": "kA",
+      "basis": "Powerandcables.com Nexans 33kV 1C 630sqmm BS7870 table: '1 Second Short Circuit Rating of a 35sqmm Copper wire screen (80 to 250°C) kA 4.8' (both conductor versions).",
+      "value": 4.8,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
+        "source_id": "alaska-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
+      }
+    },
+    {
+      "metric": "Nexans 33 kV single-core 630 mm2 XLPE  — current carrying capacity, copper, laid in trefoil, in air",
+      "unit": "A",
+      "basis": "Powerandcables.com Nexans 33kV 1C 630sqmm BS7870 table: 'Current Carrying Capacity (cables laid in trefoil) In Air A' copper 1160, aluminium 940. Ampacity basis printed on page: depth of cover 800 mm, soil thermal resistivity 1.2 K.m/W, soil temperature 15 deg C, ambient air 25 deg C, max conductor temperature 90 deg C.",
+      "value": 1160,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
+        "source_id": "alaska-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
+      }
+    },
+    {
+      "metric": "Nexans 33 kV single-core 630 mm2 XLPE  — current carrying capacity, copper, laid in trefoil, direct buried",
+      "unit": "A",
+      "basis": "Powerandcables.com Nexans 33kV 1C 630sqmm BS7870 table: 'Direct Buried A' copper 850, aluminium 690; single way ducts copper 780, aluminium 650; same ampacity conditions as stated on page.",
+      "value": 850,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
+        "source_id": "alaska-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf",
+      "source_id": "alaska-r-jina-ai-e230fk90800midne-20132-20kv-20xlp-40f0107"
+    },
+    {
+      "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+      "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+    },
+    {
+      "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
+      "source_id": "alaska-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
+    },
+    {
+      "url": "https://www.st.gov.my/resources/guidelines-connection-charges-sabah-electricity-sdn-bhd-sesb",
+      "source_id": "alaska-st-gov-my-guidelines-connection-charges-saba-2ea0fcb"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV)",
+      "why": "No printed price, EPC contractor, or named/dated/sized/located reference project for the cable package was found in a page read with WebFetch.",
+      "next_action": "Obtain the cable schedule, BOQ rates and awarded supply contract for the project."
+    },
+    {
+      "what": "Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV)",
+      "why": "No page read with WebFetch gives a cable tray, accessory, termination or joint specification (material, finish, IP rating) for this project, and no LV cable product data was read.",
+      "next_action": "Read the project cable accessory schedule and an LV cable datasheet before recording LV or tray facts."
+    },
+    {
+      "what": "Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV)",
+      "why": "SESB connection-charge figures were visible in search output but the PDF body could not be read via WebFetch or r.jina.ai, so no RM/kW or RM/metre rates are recorded as evidence.",
+      "next_action": "Re-read the PDF through an accessible text extraction route before recording any SESB charge figure."
+    },
+    {
+      "what": "Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV)",
+      "why": "No patent number printed in any source read for this item.",
+      "next_action": "Do not infer patent numbers."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.3 Electrical).",
+  "last_reviewed": "2026-11-25"
+}

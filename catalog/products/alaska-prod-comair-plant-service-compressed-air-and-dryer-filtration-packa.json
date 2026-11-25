@@ -1,0 +1,64 @@
+{
+  "id": "alaska-prod-comair-plant-service-compressed-air-and-dryer-filtration-packa",
+  "name": "Comair plant/service compressed air and dryer/filtration packages",
+  "manufacturer": "alaska-vendor-comair-shanghai-china-454ad",
+  "product_type": "general-plant-air-utility-air-compressor-packages",
+  "equipment": [
+    "alaska-service-air-system-package"
+  ],
+  "description": "general plant air (utility air) compressor packages",
+  "specifications": [
+    {
+      "metric": "plant air definition",
+      "unit": "general compressed air used for tools, heavy machinery, cleaning or sandblasting",
+      "basis": "Comair FAQ 'What is the difference between instrument air and plant air?'; page read 2026-11-25; footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "alaska-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    },
+    {
+      "metric": "oil-free air capability",
+      "unit": "bar (printed 'over 40 bar')",
+      "basis": "Comair instrument air compressor page describing oil-free and dust-free air capability; page read 2026-11-25; footer ©2026.",
+      "high": 40,
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "alaska-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    },
+    {
+      "metric": "oil-free air flow capability",
+      "unit": "Nm3/hr (printed '100,000 Nm3/hr')",
+      "basis": "Comair page; page read 2026-11-25; footer ©2026.",
+      "high": 100000,
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "alaska-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    },
+    {
+      "metric": "VSD electricity saving claim",
+      "unit": "% (printed 'save as much as 30% electricity')",
+      "basis": "Comair page vendor claim; page read 2026-11-25; footer ©2026.",
+      "value": 30,
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "alaska-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    }
+  ],
+  "url": "https://comairflow.com/instrument-air-compressor",
+  "sources": [
+    {
+      "url": "https://comairflow.com/instrument-air-compressor",
+      "source_id": "alaska-comairflow-com-instrument-air-compressor-495b8e8"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

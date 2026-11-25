@@ -1,0 +1,25 @@
+{
+  "id": "alaska-nfpa-org-20-af3650a",
+  "name": "NFPA 20 - Standard for the Installation of Stationary Pumps for Fire Protection (2025 edition)",
+  "url": "https://www.nfpa.org/codes-and-standards/nfpa-20-standard-development/20",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "NFPA",
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: NFPA standard-development page read 2026-11-25 via r.jina.ai fallback (direct WebFetch returned only the page title). Current edition 2025; status Active; selection and installation of pumps for adequate, reliable fire water supply.. Exact printed figures are recorded in the linked records' basis fields."
+}

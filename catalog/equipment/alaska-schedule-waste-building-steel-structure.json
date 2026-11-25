@@ -1,0 +1,73 @@
+{
+  "id": "alaska-schedule-waste-building-steel-structure",
+  "name": "Schedule Waste Building (steel structure)",
+  "equipment_type": "wbs-4-construction-direct",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Evidence: steel design/execution standards and Malaysian industrial waste-treatment building reference (JML TMP2 WWT); no scheduled-waste building cost read.",
+  "aliases": [
+    "Schedule Waste Building (steel structure)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "WBS line item",
+      "value": "Schedule Waste Building (steel structure)",
+      "unit": "n/a",
+      "basis": "Line item from the Alaska GEG WBS/BOQ; no sourced numeric specification found.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Work package supplied by owner; not a technical source."
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-3-design-of-steel-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-ec3c86b"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-steel-structures-and-aluminium-structures-technical-requirements-for-steel-structures/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-66d5e66"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3",
+      "note": "JML scope: civil, building works and mechanical erection; industrial plant; client Kobelco Eco-Solutions (Malaysia) Sdn Bhd."
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3",
+      "note": "JML scope: steel structure/equipment erection, piping and painting for process area and boiler package; industrial plant; client Samsung Engineering (Malaysia) Sdn Bhd."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Schedule Waste Building (steel structure)",
+      "why": "No published rate or specification for a scheduled-waste storage building in Sabah; Malaysian scheduled-waste regulatory requirements were not read.",
+      "next_action": "Check DOE Malaysia scheduled-waste storage requirements and source a comparable building rate."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (4 Construction direct).",
+  "last_reviewed": "2026-11-25"
+}

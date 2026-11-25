@@ -1,0 +1,24 @@
+{
+  "id": "alaska-library-e-abb-com-unigear-zs1-double-busbar-9ec629e",
+  "name": "UniGear ZS1 - Double Busbar leaflet 1VCP000156 Rev C",
+  "url": "https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "apac"
+  ],
+  "publisher_org": "ABB Ltd, Distribution Solutions",
+  "access": "open",
+  "licence": "Copyright 2024 ABB; all rights reserved (stated in leaflet)",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: 2-page PDF, 1VCP000156 Rev C 2024 EN. WebFetch blocked for application/pdf; read via r.jina.ai 2026-11-25.. Exact printed figures are recorded in the linked records' basis fields."
+}

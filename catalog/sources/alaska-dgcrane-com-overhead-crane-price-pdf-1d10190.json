@@ -1,0 +1,26 @@
+{
+  "id": "alaska-dgcrane-com-overhead-crane-price-pdf-1d10190",
+  "name": "Overhead Crane Price (reference price list)",
+  "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Dafang Crane",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: PDF read via https://r.jina.ai/<url> mirror on 2026-11-25 (direct PDF unsupported); 9 pages; URL folder /2025/07/ and r.jina.ai Published Time Sat, 31 Jan 2026 01:04:46 GMT — both dates retained side by side. Prices labelled 'Reference', USD, not a firm quotation.. Exact printed figures are recorded in the linked records' basis fields."
+}

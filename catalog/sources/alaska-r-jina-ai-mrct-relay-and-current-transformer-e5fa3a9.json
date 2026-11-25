@@ -1,0 +1,24 @@
+{
+  "id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9",
+  "name": "Megger MRCT relay and current transformer test set product page",
+  "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "INS"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Megger",
+  "access": "open",
+  "licence": "Megger product page; no explicit reuse licence stated",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Direct WebFetch returned 403; read via https://r.jina.ai/ proxy as instructed. Original URL https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set. No publication date printed in the page text read.. Exact printed figures are recorded in the linked records' basis fields."
+}

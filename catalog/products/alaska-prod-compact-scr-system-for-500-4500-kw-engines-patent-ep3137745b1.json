@@ -1,0 +1,57 @@
+{
+  "id": "alaska-prod-compact-scr-system-for-500-4500-kw-engines-patent-ep3137745b1",
+  "name": "Compact SCR system for 500–4500 kW engines (patent EP3137745B1, Johnson Matthey Catalysts Germany GmbH)",
+  "manufacturer": "alaska-vendor-johnson-matthey-catalysts-germany-gmbh-19086",
+  "product_type": "compact-urea-scr-system",
+  "equipment": [
+    "alaska-doc-and-scr-system-package"
+  ],
+  "description": "compact urea-SCR system",
+  "specifications": [
+    {
+      "metric": "Engine power range",
+      "unit": "kW",
+      "basis": "EP3137745B1 patent title and description; publication date 2018-11-28, priority 2014-03-11; page read 2026-11-25.",
+      "low": 500,
+      "high": 4500,
+      "year": 2018,
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en",
+        "source_id": "alaska-patents-google-com-en-70a2d76"
+      }
+    },
+    {
+      "metric": "Aqueous urea concentration ranges",
+      "unit": "% (5 to 70%; preferably 15 to 60%; more preferably 30 to 40%)",
+      "basis": "EP3137745B1 description, 'concentration of urea in the aqueous solution can range from about 5 to 70%, preferably from about 15 to about 60%, more preferably from about 30 to about 40%'; read 2026-11-25.",
+      "low": 5,
+      "high": 70,
+      "year": 2026,
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en",
+        "source_id": "alaska-patents-google-com-en-70a2d76"
+      }
+    },
+    {
+      "metric": "Preferred SCR catalyst cell density",
+      "unit": "cpsi (45 to 400; more preferably 70 to 300; even more preferably 100 to 300)",
+      "basis": "EP3137745B1 description, 'SCR catalysts with relatively high cell densities ... 45 to 400 cells per square inch (cpsi), more preferable 70 to 300 cpsi and even more preferable 100 to 300 cpsi'; read 2026-11-25.",
+      "low": 45,
+      "high": 400,
+      "year": 2026,
+      "source": {
+        "url": "https://patents.google.com/patent/EP3137745B1/en",
+        "source_id": "alaska-patents-google-com-en-70a2d76"
+      }
+    }
+  ],
+  "url": "https://patents.google.com/patent/EP3137745B1/en",
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/EP3137745B1/en",
+      "source_id": "alaska-patents-google-com-en-70a2d76"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

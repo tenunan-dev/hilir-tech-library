@@ -1,6 +1,6 @@
 # MID: Midstream
 
-842 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
+860 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -548,6 +548,7 @@
 | [Asme.Org — B31.1 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Asme.Org — B31.3 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Asme.Org — B31.8 latest edition](https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Bahagian 3.6 : Piling Work (Class H) - cost item averages/ranges](https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf) | agency-data | sea | open | summary-only |
 | [Baker Hughes](https://www.bakerhughes.com/completions/gas-lift-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Baker Hughes](https://www.bakerhughes.com/subsea/subsea-production-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Baker Hughes — Flexible pipe installation speed advantage](https://www.bakerhughes.com/subsea/flexible-pipe-systems) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -571,8 +572,10 @@
 | [DIALOG Upstream — OTC Asia 2026 presentation (PDF)](https://cdn.prod.website-files.com/64c7cf43942a53056c13f754/69ca1db5102fd7a4134f550b_Dialog%20Upstream%20-%20OTC%20Asia%202026.pdf) | oem-supplier | sea | open | summary-only |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
 | [Dixon Valve & Coupling Company (Dixon Europe) — A9661LG Composite Cryogenic LNG Hose (A9661-S6S6-N-050)](https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Donaldson Air Intake Systems Product Guide (F110027-ENG), 324 pages](https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [DrillingFormulas.Com (references Applied Drilling Engineering / SPE, Azar, Australian Drilling Manual, Devereux)](https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Dräger](https://www.draeger.com/en-us_u/Products/Flame-Detectors/Flame-5000) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Dunham-Bush homepage and Our Products page](https://dunham-bush.com/our-products/) | oem-supplier | global, sea, apac | open | summary-only |
 | [Ecomar Storage Solution FZC LLC / EPC contractor](https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Egina Oil Field and FPSO](https://www.offshore-technology.com/projects/egina-field/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Ekofisk II / Ekofisk hub](https://www.offshore-technology.com/projects/ekofisk/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -698,6 +701,8 @@
 | [PNG LNG Project — cost](https://chemanager-online.com/en/news/exxon-s-png-lng-project-costs-balloon-to-19-billion) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [PNG LNG Project — cost](https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/files/PNGLNGreport.pdf) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [PNG LNG Project — cost](https://investor.exxonmobil.com/company-information/press-releases/detail/564/exxonmobil-starts-production-ahead-of-schedule-at-png-lng) | trade-media | global, apac, na, eu | open | summary-only |
+| [Preferred Utilities — Day Tank Model DT cutsheet (CATALOG 26)](https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf) | oem-supplier | global, sea, apac | open | summary-only |
+| [Preferred Utilities — Fuel Oil Transfer Pump and Day Tank Set cutsheet (CATALOG 25)](https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Prelude FLNG — cost](https://www.bbc.com/news/technology-25213845) | trade-media | global, apac, na, eu | open | summary-only |
 | [Prelude FLNG — cost](https://www.blackridgeresearch.com/project-profiles/all-about-prelude-shell-flng-floating-liquified-natural-gas-ship-project-australia-oceania) | trade-media | global, apac, na, eu | open | summary-only |
 | [Prelude FLNG — cost](https://www.businesskorea.co.kr/news/articleView.html?idxno=18504) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
@@ -744,6 +749,7 @@
 | [Sungrow — Sungrow product categories](https://en.sungrowpower.com/products) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Swagelok Company — Swagelok fittings - tube fittings and adapters, VCR/VCO face seal fittings, flange adapters, pipe fit](https://products.swagelok.com/en/all-products/fittings/c/100) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Swagelok — Full-Flow Quick-Connects, QF series (QF4, QF8, QF12, QF16)](https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [T.D. Williamson — Tapping Machines product listing](https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines) | oem-supplier | global, sea, apac | open | summary-only |
 | [Tangguh LNG Project](https://www.offshore-technology.com/projects/tangguh/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Tangguh LNG Train 3 Expansion — cost](https://www.offshore-technology.com/projects/tangguh-expansion-project-papua-barat/) | trade-media | global, apac, na, eu | open | summary-only |
 | [Tangguh LNG Train 3 Expansion — cost](https://www.wsj.com/articles/SB10001424052970204712904578094051528788578) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
@@ -771,12 +777,21 @@
 | [Yme field redevelopment (MOPUstor) and Yme New Development — cost](https://www.offshore-technology.com/projects/ymeegersundbasin/) | trade-media | global, apac, na, eu | open | summary-only |
 | [Yokogawa](https://www.yokogawa.com/ia/dcs/centum-vp/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Zeto](https://www.zeto.com/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Geotechnical Cost & Programme Guide Malaysia - indicative unit rates 2025-2026](https://infraconcrete.co/cost-programme-guide) | epc-contractor | sea | open | summary-only |
+| [Jadual Kadar Kerja JKR 2025 (JKR20800-0258-25) rates reproduced with worked example](https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025) | trade-media | sea | open | summary-only |
+| [JML (JEL Maintenance) - Projects list: power plant and industrial plant references](https://jml.com.sg/what-we-do/construction/projects) | epc-contractor | sea | open | summary-only |
 | [Malaysian Oil & Gas Services Council](https://mogsc.org.my/) | association | sea | open | summary-only (unverified) |
 | [AMPP Annual Conference + Expo](https://ace.ampp.org/) | conference | global | paywalled | catalog-only |
 | [AMPP Standards (former NACE and SSPC)](https://www.ampp.org/standards) | standards-body | global | paywalled | catalog-only |
 | [API Standards and Publications](https://www.api.org/products-and-services/standards) | standards-body | global, na | paywalled | catalog-only |
 | [ASME Codes and Standards (BPVC, B31)](https://www.asme.org/codes-standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
 | [ASME Turbo Expo](https://event.asme.org/Turbo-Expo) | conference | global | mixed | catalog-only (unverified) |
+| [BS EN 1090-2:2008+A1:2011 - Execution of steel structures and aluminium structures - Technical requirements for steel structures](https://knowledge.bsigroup.com/products/execution-of-steel-structures-and-aluminium-structures-technical-requirements-for-steel-structures/standard) | standards-body | eu, global | open | summary-only |
+| [BS EN 13670:2009 - Execution of concrete structures](https://knowledge.bsigroup.com/products/execution-of-concrete-structures) | standards-body | eu, global | open | summary-only |
+| [BS EN 1992-1-1:2004+A1:2014 - Eurocode 2: Design of concrete structures - General rules and rules for buildings](https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard) | standards-body | eu, global | open | summary-only |
+| [BS EN 1992-3:2006 - Eurocode 2: Design of concrete structures - Liquid retaining and containing structures](https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-liquid-retaining-and-containing-structures) | standards-body | eu, global | open | summary-only |
+| [BS EN 1993-1-1:2005+A1:2014 - Eurocode 3: Design of steel structures - General rules and rules for buildings](https://knowledge.bsigroup.com/products/eurocode-3-design-of-steel-structures-general-rules-and-rules-for-buildings/standard) | standards-body | eu, global | open | summary-only |
+| [BS EN 1997-1:2004+A1:2013 - Eurocode 7: Geotechnical design - General rules](https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard) | standards-body | eu, global | open | summary-only |
 | [CEN/TC 12 Oil and gas industries](https://standards.cencenelec.eu/) | standards-body | eu | paywalled | catalog-only (unverified) |
 | [CORROSION journal (AMPP)](https://content.ampp.org/corrosion) | journal | global | paywalled | catalog-only (unverified) |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
@@ -792,6 +807,8 @@
 | [ISO 19880 (gaseous hydrogen fuelling stations)](https://www.iso.org/standard/71940.html) | standards-body | global | paywalled | catalog-only |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Materials (MDPI)](https://www.mdpi.com/journal/materials) | journal | global | open | full-text-open |
+| [NFPA 20 - Standard for the Installation of Stationary Pumps for Fire Protection (2025 edition)](https://www.nfpa.org/codes-and-standards/nfpa-20-standard-development/20) | standards-body | global | open | summary-only |
+| [NFPA 22 - Standard for Water Tanks for Private Fire Protection (2023 edition)](https://www.nfpa.org/codes-and-standards/nfpa-22-standard-development/22) | standards-body | global | open | summary-only |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [Pipeline Research Council International (PRCI)](https://www.prci.org/) | research-institute | global | mixed | catalog-only (unverified) |
@@ -840,6 +857,7 @@
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [Alfa Laval (separation and heat transfer)](https://www.alfalaval.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [gCaptain](https://gcaptain.com) | trade-media | global | open | catalog-only |
+| [GEAPL Telescopic Sliding Gates - technical specification and catalogue](https://www.geapl.com/telescopic-sliding-gates) | oem-supplier | global | open | summary-only |
 | [Rockwell Automation](https://www.rockwellautomation.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
 | [Ship & Bunker](https://shipandbunker.com) | trade-media | global | mixed | summary-only |

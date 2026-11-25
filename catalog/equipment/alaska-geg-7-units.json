@@ -1,0 +1,562 @@
+{
+  "id": "alaska-geg-7-units",
+  "name": "GEG (7 units)",
+  "equipment_type": "wbs-3-1-geg-3-5-misc",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Evidence collected for a 7-unit gas engine generator (GEG) plant and the listed OEMs. OEM ratings/efficiencies come from pages actually read; 7-unit reference plants are recorded with their own dates/fuels and are kept separate. No page was found that ties a 7-unit GEG plant to the SESB 132/33/11 kV connection in Sabah, so that link is recorded as a gap, not an inference. Prices are published generic estimates, not quotes for this project.",
+  "aliases": [
+    "GEG (7 units)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Electrical output range, Wärtsilä 34SG",
+      "unit": "MW",
+      "basis": "Wärtsilä Energy 'Engine power plant products' product selector as displayed 2026-11-25; page shows two ratings per engine (5.8-9.8 MW and 5.6-9.4 MW). No print date on the page; site footer (c) 2026 Wärtsilä.",
+      "low": 5.6,
+      "high": 9.8,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "alaska-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Electrical efficiency, Wärtsilä 34SG",
+      "unit": "%",
+      "basis": "Wärtsilä Energy product selector, '48.9% efficiency / 48.8% efficiency | Over 80% CHP efficiency', as displayed 2026-11-25; two figures shown side by side, both retained.",
+      "value": 48.9,
+      "low": 48.8,
+      "high": 48.9,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "alaska-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Electrical output, Wärtsilä 31SG",
+      "unit": "MW",
+      "basis": "Wärtsilä Energy product selector, two ratings shown (11.8 MW and 11.4 MW), as displayed 2026-11-25.",
+      "low": 11.4,
+      "high": 11.8,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "alaska-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Electrical efficiency, Wärtsilä 31SG",
+      "unit": "%",
+      "basis": "Wärtsilä Energy product selector '51.5% efficiency / 51.6% efficiency | 90% CHP efficiency', as displayed 2026-11-25; both printed values kept side by side.",
+      "low": 51.5,
+      "high": 51.6,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "alaska-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Electrical output, Wärtsilä 50SG",
+      "unit": "MW",
+      "basis": "Wärtsilä Energy product selector, two ratings shown (18.4 MW and 18.9 MW), as displayed 2026-11-25; white paper separately gives 18.5 MW for the 18V50SG.",
+      "low": 18.4,
+      "high": 18.9,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "alaska-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Electrical efficiency, Wärtsilä 50SG",
+      "unit": "%",
+      "basis": "Wärtsilä Energy product selector, '49.9% efficiency / 50.0% efficiency | 30 sec power to grid', as displayed 2026-11-25.",
+      "low": 49.9,
+      "high": 50.0,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "alaska-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Electrical output range, Wärtsilä 46TS-SG",
+      "unit": "MW",
+      "basis": "Wärtsilä Energy product selector, '20.4 MW - 22.9 MW', as displayed 2026-11-25.",
+      "low": 20.4,
+      "high": 22.9,
+      "year": 2026,
+      "source": {
+        "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+        "source_id": "alaska-wartsila-com-engine-power-plant-products-e1596e1"
+      }
+    },
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Simple cycle efficiency of modern combustion engines (generator terminals)",
+      "unit": "%",
+      "basis": "Wärtsilä white paper 'Combustion engine power plants', section 1 'Simple cycle efficiency': 'modern combustion engines reach 47.5% simple cycle efficiency (heat rate 7187 Btu/kWh), measured at generator terminals'. r.jina.ai reports Published Time Tue, 14 Apr 2020; document footer states 'Copyright (c) 2011 Wärtsilä Corporation'. Fetched via r.jina.ai because direct PDF fetch returned unsupported ",
+      "value": 47.5,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "alaska-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+      }
+    },
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Gas pressure required at power plant",
+      "unit": "bar(a)",
+      "basis": "Wärtsilä white paper 'Combustion engine power plants': 'A gas pressure of just 5 bar(a) (73 PSI) is required'. Published Time Tue, 14 Apr 2020 per r.jina.ai; document footer copyright 2011 Wärtsilä Corporation.",
+      "value": 5,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "alaska-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+      }
+    },
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Combustion engine speed range (medium-speed)",
+      "unit": "rpm",
+      "basis": "Wärtsilä white paper 'Combustion engine power plants' section 1: 'Medium-speed engines run at between 300 to 1000 rpm, and the engine and the generator run at the same speed so there is no need for a gearbox.' Published Time Tue, 14 Apr 2020 per r.jina.ai; footer copyright 2011 Wärtsilä Corporation.",
+      "low": 300,
+      "high": 1000,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "alaska-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+      }
+    },
+    {
+      "metric": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG  — Flexicycle combined cycle efficiency, plant net at site",
+      "unit": "%",
+      "basis": "Wärtsilä white paper 'Combustion engine power plants' section 4: 'Combined cycle mode - for competitive base load power - 50.0 % efficiency, 6829 Btu/kWhe'; note says 'Efficiencies and heat rates are given as plant net at site conditions.' Published Time Tue, 14 Apr 2020 per r.jina.ai; footer copyright 2011 Wärtsilä Corporation.",
+      "value": 50.0,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+        "source_id": "alaska-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+      }
+    },
+    {
+      "metric": "MAN gas engine programme E0834 / E0836 — Natural gas engine power range",
+      "unit": "kW",
+      "basis": "MAN Engines 'MAN gas engine programme for power generation' page: 'The power range ranges from 37 kW to 750 kW with natural gas and from 68 kW to 750 kW with special gas'. Page footer (c) MAN 2026; accessed 2026-11-25.",
+      "low": 37,
+      "high": 750,
+      "year": 2026,
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      }
+    },
+    {
+      "metric": "MAN gas engine programme E0834 / E0836 — MAN E3872 output",
+      "unit": "kW",
+      "basis": "MAN Engines product table: E3872, 12 cylinders, V 90 deg, 29.6 litres displacement, output 735 kW (natural gas). Page footer (c) MAN 2026; accessed 2026-11-25.",
+      "value": 735,
+      "year": 2026,
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      }
+    },
+    {
+      "metric": "MAN gas engine programme E0834 / E0836 — MAN E3872 electrical efficiency",
+      "unit": "%",
+      "basis": "As printed in the 'Links and downloads' title on the MAN Engines page: 'Press release \"New MAN E3872 gas engine with 44.0 % efficiency and 735 kW output from just 12 cylinders\"'. Page footer (c) MAN 2026; accessed 2026-11-25. Press release itself not separately fetched.",
+      "value": 44.0,
+      "year": 2026,
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      }
+    },
+    {
+      "metric": "MAN gas engine programme E0834 / E0836 — MAN E3262 output range (natural gas)",
+      "unit": "kW",
+      "basis": "MAN Engines technical data table 'Engines for natural gas combustion': E3262, 12 cylinders, 25.8 litres, 275-580 kW. Page footer (c) MAN 2026; accessed 2026-11-25.",
+      "low": 275,
+      "high": 580,
+      "year": 2026,
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      }
+    },
+    {
+      "metric": "MAN gas engine programme E0834 / E0836 — Overall efficiency in cogeneration, MAN gas engines",
+      "unit": "%",
+      "basis": "MAN Engines page: 'achieve the best overall efficiencies of over 90 per cent thanks to their optimum combustion process' (combined heat and power context, not electrical efficiency). Page footer (c) MAN 2026; accessed 2026-11-25.",
+      "high": 90,
+      "year": 2026,
+      "source": {
+        "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+        "source_id": "man-eu-gas-power-generation-gas-html"
+      }
+    },
+    {
+      "metric": "INNIO Jenbacher Type 2/3/4/6/9 and J92 — Electrical efficiency, Jenbacher gas engines (general range)",
+      "unit": "%",
+      "basis": "Jenbacher 'Selecting Power Generation Equipment' page: 'dependable Jenbacher reciprocating gas engines with electrical efficiency usually ranging between 40% and 50%'. Copyright (c) 2026; accessed 2026-11-25.",
+      "low": 40,
+      "high": 50,
+      "year": 2026,
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
+        "source_id": "alaska-jenbacher-com-23aa945"
+      }
+    },
+    {
+      "metric": "INNIO Jenbacher Type 2/3/4/6/9 and J92 — Jenbacher J920 FleXtra electrical output",
+      "unit": "MW",
+      "basis": "Wikipedia 'Jenbacher' article, section 'Jenbacher J920 FleXtra': 'a V20 gas engine delivering up to 9.5 MW'. Page last edited 15 June 2026; article is secondary, not OEM datasheet.",
+      "value": 9.5,
+      "year": 2026,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher",
+        "source_id": "alaska-en-wikipedia-org-jenbacher-436766f"
+      }
+    },
+    {
+      "metric": "INNIO Jenbacher Type 2/3/4/6/9 and J92 — Jenbacher J920 FleXtra electrical efficiency",
+      "unit": "%",
+      "basis": "Wikipedia 'Jenbacher' article: 'When it is put into production it will be Jenbachers most efficient gas engine available with an electrical efficiency of 48.7%, and a combined heat and power thermal efficiency of over 90%'. Page last edited 15 June 2026.",
+      "value": 48.7,
+      "year": 2026,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher",
+        "source_id": "alaska-en-wikipedia-org-jenbacher-436766f"
+      }
+    },
+    {
+      "metric": "INNIO Jenbacher Type 2/3/4/6/9 and J92 — Jenbacher portfolio output range",
+      "unit": "MW",
+      "basis": "Clarke Energy 'Jenbacher Gas Engines' page: 'High-efficiency, hydrogen-ready gas engines delivering reliable power from 250 kW to 10.6 MW'; page also states Type 6 1818-4507 kW. Site shows 2025/2026 content dates; accessed 2026-11-25.",
+      "low": 0.25,
+      "high": 10.6,
+      "year": 2025,
+      "source": {
+        "url": "https://www.clarke-energy.com/us/gas-engines/",
+        "source_id": "alaska-clarke-energy-com-36289e3"
+      }
+    },
+    {
+      "metric": "INNIO Jenbacher Type 2/3/4/6/9 and J92 — Type 4 rated power up to",
+      "unit": "kW/engine",
+      "basis": "Jenbacher product navigation on the page actually read: 'Jenbacher Type 4 Up to 1694 kW/engine'; Type 9 listed 'Up to 10606 kW/engine'. Copyright (c) 2026; accessed 2026-11-25.",
+      "value": 1694,
+      "year": 2026,
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
+        "source_id": "alaska-jenbacher-com-23aa945"
+      }
+    },
+    {
+      "metric": "Rolls-Royce mtu Series 500 gas gensets — Power range",
+      "unit": "kW",
+      "basis": "Rolls-Royce press release dated 10 December 2020: 'With a power range of 250 to 550 kilowatts and peak efficiencies of up to 42.6 percent'. Fetched via r.jina.ai.",
+      "low": 250,
+      "high": 550,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+        "source_id": "alaska-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
+      }
+    },
+    {
+      "metric": "Rolls-Royce mtu Series 500 gas gensets — Peak electrical efficiency",
+      "unit": "%",
+      "basis": "Rolls-Royce press release dated 10 December 2020: 'peak efficiencies of up to 42.6 percent'; 'Top efficiency: Gas units enable efficiencies of up to 42.6%'. Fetched via r.jina.ai.",
+      "value": 42.6,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+        "source_id": "alaska-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
+      }
+    },
+    {
+      "metric": "Rolls-Royce mtu Series 500 gas gensets — CHP total efficiency",
+      "unit": "% (approximately)",
+      "basis": "Rolls-Royce press release dated 10 December 2020: 'In cogeneration, when electricity and heat are generated, efficiencies of around 90 percent can be achieved.' Fetched via r.jina.ai.",
+      "value": 90,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+        "source_id": "alaska-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
+      }
+    },
+    {
+      "metric": "Cat G3500K Series (G3512K, G3520K) nat — Continuous rating, G3512K",
+      "unit": "ekW @ 1.0 pf",
+      "basis": "Caterpillar 'The Cat G3500K Series: Natural Gas Generator Sets' page, product card: 'Continuous Rating 1530 ekW @ 1.0pf ... Maximum Electrical Efficiency 45.3%'. r.jina.ai Published Time Wed, 11 Nov 2026.",
+      "value": 1530,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+        "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+      }
+    },
+    {
+      "metric": "Cat G3500K Series (G3512K, G3520K) nat — Maximum electrical efficiency, G3512K",
+      "unit": "%",
+      "basis": "Caterpillar G3500K page product card, r.jina.ai Published Time Wed, 11 Nov 2026.",
+      "value": 45.3,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+        "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+      }
+    },
+    {
+      "metric": "Cat G3500K Series (G3512K, G3520K) nat — Continuous rating, G3520K",
+      "unit": "ekW @ 1.0 pf",
+      "basis": "Caterpillar G3500K page product card: 'Continuous Rating 2567 / 2552 ekW @ 1.0pf' for G3520K; both printed values retained. r.jina.ai Published Time Wed, 11 Nov 2026.",
+      "low": 2552,
+      "high": 2567,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+        "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+      }
+    },
+    {
+      "metric": "Cat G3500K Series (G3512K, G3520K) nat — Maximum electrical efficiency, G3520K",
+      "unit": "%",
+      "basis": "Caterpillar G3500K page product card, r.jina.ai Published Time Wed, 11 Nov 2026.",
+      "value": 46.0,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+        "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+      }
+    },
+    {
+      "metric": "Cat G3500K Series (G3512K, G3520K) nat — Time to start and accept 100% load, G3500K",
+      "unit": "minutes",
+      "basis": "Caterpillar G3500K page: 'They start and accept 100% load in 4.5 minutes'. r.jina.ai Published Time Wed, 11 Nov 2026.",
+      "value": 4.5,
+      "year": 2026,
+      "source": {
+        "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+        "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+      }
+    },
+    {
+      "metric": "Cummins natural gas generator sets (HS — Generator set power range",
+      "unit": "kW (16.25-2500 kVA)",
+      "basis": "Cummins 'Natural gas generators' page: 'ranging from 13-2000 kW (16.25-2500 kVA)'. Page footer (c) 2026 Cummins Inc.; accessed 2026-11-25.",
+      "low": 13,
+      "high": 2000,
+      "year": 2000,
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/natural-gas",
+        "source_id": "alaska-cummins-com-natural-gas-8d24901"
+      }
+    },
+    {
+      "metric": "Cummins natural gas generator sets (HS — Standby rating, 1000kW and 1300kW natural gas gensets",
+      "unit": "kW (1250-1625 kVA)",
+      "basis": "Cummins product card on the page actually read: '1000-1300 kW / 1250-1625 kVA / Frequency 50, 60 / Standby'. Page footer (c) 2026 Cummins Inc.; accessed 2026-11-25.",
+      "low": 1000,
+      "high": 1300,
+      "year": 2026,
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/natural-gas",
+        "source_id": "alaska-cummins-com-natural-gas-8d24901"
+      }
+    },
+    {
+      "metric": "GE (historical Jenbacher gas engine br — GE Energy Jenbacher J920 electrical efficiency (archived GE claim cited by Wikipedia)",
+      "unit": "%",
+      "basis": "Wikipedia 'Jenbacher' article states 48.7% and cites archived GE Energy pages (gepower.com/prod_serv/products/recip_engines/en/j920.htm archived 2011-01-02; ge-j920gasengine.com archived 2011-03-14). Only the Wikipedia page was read; archived GE pages were not fetched. Page last edited 15 June 2026.",
+      "value": 48.7,
+      "year": 2011,
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher",
+        "source_id": "alaska-en-wikipedia-org-jenbacher-436766f"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "wartsila",
+      "line": "Wärtsilä 34SG / 31SG / 50SG / 46TS-SG gas engine generator sets",
+      "note": "reciprocating gas engine generator set (lean-burn, spark-ignited)"
+    },
+    {
+      "vendor": "man-engines",
+      "line": "MAN gas engine programme E0834 / E0836 / E2876 / E3268 / E3262 / E3872",
+      "note": "gas engine for power generation (natural and special gas)"
+    },
+    {
+      "vendor": "innio-jenbacher",
+      "line": "INNIO Jenbacher Type 2/3/4/6/9 and J920 FleXtra",
+      "note": "lean-burn gas engine generator set / CHP module"
+    },
+    {
+      "vendor": "rolls-royce-power-systems",
+      "line": "Rolls-Royce mtu Series 500 gas gensets (6R, 8V, 12V)",
+      "note": "gas engine generator set / CHP module"
+    },
+    {
+      "vendor": "caterpillar",
+      "line": "Cat G3500K Series (G3512K, G3520K) natural gas generator sets",
+      "note": "natural gas generator set"
+    },
+    {
+      "vendor": "cummins",
+      "line": "Cummins natural gas generator sets (HSK78G, 1000/1300 kW, GTA50e)",
+      "note": "natural gas generator set"
+    }
+  ],
+  "vendors": [
+    "wartsila",
+    "alaska-vendor-pt-pembangunan-perumahan-persero-tbk-pt-pp-d73dd",
+    "alaska-vendor-epv-energy-ltd-ccec2",
+    "alaska-vendor-kenya-electricity-generating-company-limited-kenge-2a447",
+    "alaska-vendor-tsavo-power-company-limited-47450",
+    "man-engines",
+    "everllence",
+    "innio-jenbacher",
+    "dcp-vendor-clarke-energy-fd089",
+    "alaska-vendor-syncraft-jenbacher-j412-customer-project-partner-82234",
+    "alaska-vendor-stadtwerke-kiel-190-mw-j920-chp-project-owner-c99ad",
+    "rolls-royce-power-systems",
+    "caterpillar",
+    "cummins"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+      "source_id": "alaska-wartsila-com-engine-power-plant-products-e1596e1"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+      "source_id": "alaska-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+    },
+    {
+      "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+      "source_id": "man-eu-gas-power-generation-gas-html"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
+      "source_id": "alaska-jenbacher-com-23aa945"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jenbacher",
+      "source_id": "alaska-en-wikipedia-org-jenbacher-436766f"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+      "source_id": "alaska-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+      "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+    },
+    {
+      "url": "https://www.cummins.com/en-na/generators/natural-gas",
+      "source_id": "alaska-cummins-com-natural-gas-8d24901"
+    },
+    {
+      "url": "https://www.clarke-energy.com/us/gas-engines/",
+      "source_id": "alaska-clarke-energy-com-36289e3"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/utilities/kipevu-ii-iii-kenya",
+      "source_id": "alaska-wartsila-com-kipevu-ii-iii-kenya-f14b133"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali",
+      "source_id": "wartsila-com-utilities-pesanggaran-bali"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/18-11-2021-wartsila-contracted-to-supply-three-flexible-thermal-balancing-power-plants-totalling-150-mw-to-brazil-3009303",
+      "source_id": "alaska-wartsila-com-18-11-2021-wartsila-contracted-c75af63"
+    },
+    {
+      "url": "https://www.powermag.com/wartsila-will-supply-engines-for-finnish-power-plant-project/",
+      "source_id": "alaska-powermag-com-ad5cacc"
+    },
+    {
+      "url": "https://www.aquathermindia.com/accordions/gas-turbine-completed-projects/",
+      "source_id": "alaska-aquathermindia-com-b95567a"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.scribd.com/presentation/460356567/GAS-ENGINE-POWER-PLANT-GEPP",
+      "source_id": "alaska-r-jina-ai-gas-engine-power-plant-gepp-a7b9ebf"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_aeo2020.pdf",
+      "source_id": "alaska-r-jina-ai-capital-cost-aeo2020-pdf-dc66d5b"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf",
+      "source_id": "alaska-r-jina-ai-dg-chp-pdf-a00dae7"
+    },
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    },
+    {
+      "url": "https://www.iso.org/standard/30567.html",
+      "source_id": "alaska-iso-org-30567-html-c1a3e3b"
+    },
+    {
+      "url": "https://www.iso.org/standard/85962.html",
+      "source_id": "dcp-iso-org-85962-html-071211c"
+    },
+    {
+      "url": "https://patents.google.com/patent/US9172217B2/en",
+      "source_id": "alaska-patents-google-com-en-a56e8bc"
+    },
+    {
+      "url": "https://patents.google.com/patent/US9249723B2/en",
+      "source_id": "alaska-patents-google-com-en-db1245d"
+    },
+    {
+      "url": "https://patents.google.com/patent/US9172217B2/en",
+      "source_id": "alaska-patents-google-com-en-a56e8bc",
+      "note": "Google Patents page read. Publication date 2015-10-27; priority date 2010-11-23; inventors Gregory James Hampson and Domenico Chiera. Abstract printed: pre-chamber spark plug with tubular ground elect"
+    },
+    {
+      "url": "https://patents.google.com/patent/US9249723B2/en",
+      "source_id": "alaska-patents-google-com-en-db1245d",
+      "note": "Google Patents page read. Publication date 2016-02-02; priority 2014-06-13; inventor Seyfettin C. Gulens (printed Seyfettin C. Gülen). Page names Wärtsilä 18V50SG and GE Jenbacher J920 as example pist"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "GEG (7 units)",
+      "why": "No web page was found that identifies a 7-unit gas engine generator plant connected to SESB at 132/33/11 kV in Sabah. Searches returned the Sabah Grid Code and Sabah network diagrams (132/33/11 kV) but no link to a 7-unit GEG project; the 7-unit references found are in Kenya, India and an undated In",
+      "next_action": "Obtain the project EIA/EMF or tender document for the Sabah 7-unit GEG and quote the exact plant rating, OEM, connection voltage and date from that primary document before adding them."
+    },
+    {
+      "what": "GEG (7 units)",
+      "why": "No printed $/unit or $/kW price or package value for a 7-unit gas engine plant in Malaysia or in RM was found. The only price evidence read is generic US-dollar EIA/Sargent & Lundy and EIA/Leidos estimate tables for 4-engine and 1-3 MW reference cases.",
+      "next_action": "Source a dated Malaysian tender award, BOQ or contract value for the actual 7-unit GEG; keep the US generic $/kW figures side by side, never converted or substituted."
+    },
+    {
+      "what": "GEG (7 units)",
+      "why": "No dated contract specifically for a 7-unit gas-engine plant was found; dated contracts located cover four Wärtsilä 34SG engines (Mertaniemi, Q4 2026), 16 x 20V34SG (Brazil, 18 November 2021), seven W18V38 (2001) and seven W18V46 (2009/2011), the latter two being oil-fuel plants.",
+      "next_action": "Locate and read the GEG supply or EPC contract award notice; record its exact date, parties, unit count and rating without reconciling it against the other projects."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.1 GEG / 3.5 Misc).",
+  "last_reviewed": "2026-11-25"
+}

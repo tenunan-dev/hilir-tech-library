@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-998 project records (one per named project or plant, schema `schema/project.schema.json`).
+1046 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -1678,6 +1678,30 @@ Status: **operating** | Country: unspecified
 SCHEUERLE SPMT triple record
 Technologies: civ-floating-structures-fpso
 
+### 132 kV MSS Kayu Madang, Sepanggar, Kota Kinabalu, Sabah - power transformers (132-kv-mss-kayu-madang-sepanggar-kota-kinabalu-sabah-power)
+Status: **operating** | Country: Malaysia (Sabah)
+Deltaspec portfolio item 6: one 90 MVA 132/33/11 kV and one 30 MVA 132/11 kV power transformer; client BUMISEM / SESB.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Equipment, Mech, Elec, C&I; Equipment, Mech, Elec, C&I
+
+### 132/33 kV Sakura Ferroalloys Substation, Samalaju Industrial Park (132-33-kv-sakura-ferroalloys-substation-samalaju-industria)
+Status: **operating** | Country: Malaysia (Sarawak)
+PESTEC reference: turnkey engineering, design, installation, testing, commissioning and warranty; client Metix Malaysia Sdn Bhd.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: 33 kV substation and low voltage distribution room (reinforced concrete 27.2x7x5.3)
+
+### 132/33 kV West Kulim Hi-Tech Park Substation (132-33-kv-west-kulim-hi-tech-park-substation)
+Status: **operating** | Country: Malaysia
+PESTEC reference: EPC, commissioning, testing, handover and 18-month defect liability for a new 132/33 kV substation; client NUR Distribution Sdn Bhd.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Equipment, Mech, Elec, C&I; Equipment, Mech, Elec, C&I
+
+### 132/33/11 kV Star1 & Star2 GIS substation (SCAN / SEWA) (132-33-11-kv-star1-star2-gis-substation-scan-sewa)
+Status: **operating** | Country: United Arab Emirates
+Client Sharjah Electricity & Water Authority; location Down Town, Sharjah; EPC scope included site development, a masonry GIS building with control room as second floor above GIS equipment, transformers, 12-cubicle 13 kV switchgear, oil containment; contract value 183,000,000 AED.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: SESB_132kV Switchgear Room (reinforced concrete 10.8x35x13.2 + 10.8 x26x7.5)
+
 ### 1915 Çanakkale Bridge (civ-1915-anakkale-bridge)
 Status: **operating** | Country: Turkey
 suspension bridge over Dardanelles; referenced on Boskalis related-projects panel
@@ -1707,6 +1731,12 @@ Technologies: civ-floating-structures-fpso
 Status: **operating** | Country: Malaysia
 PERI DUO brochure project example
 Technologies: civ-floating-structures-fpso
+
+### ASU RAPID (R14) - Civil, air separation unit, Johor (asu-rapid-r14-civil-air-separation-unit-johor)
+Status: **operating** | Country: Malaysia (Johor)
+JML scope: temporary facility, piling, civil and building work for an air separation unit; industrial plant; client Linde Engineering (Malaysia) Sdn Bhd.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Building (C&S)
 
 ### Bakun Hydroelectric Plant, Sarawak, Malaysia (Sarawak Energy) (bakun-hydroelectric-plant-sarawak-malaysia-sarawak-energy)
 Status: **operating** | Country: MY
@@ -1782,6 +1812,12 @@ Status: **operating** | Country: Malaysia/Thailand JDA
 permanent living quarters and office cabins installed 2013
 Technologies: civ-floating-structures-fpso
 
+### California wastewater treatment plant — 2.5 MW digester-gas engine pilot; eight SCR systems subsequently installed (california-wastewater-treatment-plant-2-5-mw-digester-gas)
+Status: **operating** | Country: USA
+JM brochure 'Power from digester gas', engines generate 70% of plant power; cover ©2018 Johnson Matthey.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: DOC and SCR system Package
+
 ### Changfang & Xidao (Taiwan) (civ-changfang-xidao-taiwan)
 Status: **operating** | Country: Taiwan
 62 jacket foundations; listed by CS WIND as reference
@@ -1821,6 +1857,12 @@ Status: **operating** | Country: ID
 145 MW floating PV, the largest in Southeast Asia at commissioning (planned expansion to up to 500 MW); powers about 50,000 homes
 Technologies: pwr-crystalline-silicon-pv, pwr-floating-solar
 
+### Colorado energy plant, USA — twenty 6 MW natural gas engines with JM SCR and oxidation catalyst (colorado-energy-plant-usa-twenty-6-mw-natural-gas-engines)
+Status: **operating** | Country: USA
+Printed in JM power generation brochure, cover ©2018 Johnson Matthey.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: DOC and SCR system Package
+
 ### Dalian Flow Battery Energy Storage Peak-shaving Power Station (Rongke Power), Dalian, Liaoning (dalian-flow-battery-energy-storage-peak-shaving-power-station-rongke-pow)
 Status: **operating** | Country: CN
 Phase 1 100 MW / 400 MWh vanadium redox flow battery, first phase of a planned 200 MW / 800 MWh station; grid-connected 29 September 2022 with commercial operation from mid-October 2022 — the largest flow-battery station in the world at the time
@@ -1845,6 +1887,30 @@ Technologies: pwr-biomass-waste-to-energy
 Status: **operating** | Country: US
 about USD 2 bn project: 875 MW solar PV with 3,287 MWh of lithium-ion battery storage (about 1,300 MW discharge); largest of its kind when completed; first phases from 2021, full operation 2023
 Technologies: pwr-lithium-ion-bess
+
+### Eight TM2500 dual-fuel units, Birr, Switzerland (eight-tm2500-dual-fuel-units-birr-switzerland)
+Status: **operating** | Country: Switzerland
+260 MW total; Prismecs delivered project scope. Article published 11 February 2024.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Lube Oil Tank System Package; Lube Oil Tank System Package; Lube Oil Tank System Package
+
+### Eklutna Generation Station (Matanuska Electric Association), Alaska, USA (eklutna-generation-station-matanuska-electric-association)
+Status: **operating** | Country: USA
+10 x Wärtsilä 18V50DF multi-fuel gensets, 171 MW, natural gas & LFO, EEQ scope; printed in Wärtsilä gas/multi-fuel brochure (08.2017).
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Exhaust Gas System Package
+
+### Enecogen integrated controls and black-start reference (enecogen-integrated-controls-and-black-start-reference)
+Status: **operating** | Country: Netherlands
+958 MW CCGT with Omnivise T3000; up to 200 starts per year stated; IEC 62443 compliance.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Integration to SESB SCADA System incl Auto Generation Control System
+
+### Enecogen power plant, Rotterdam (enecogen-power-plant-rotterdam)
+Status: **operating** | Country: Netherlands
+958 MW two single-shaft CCGT units; Omnivise T3000 DCS integrates turbines, black start unit, electrical houses and planned battery storage; up to 200 starts per year stated.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Plant Control System; Plant Control System
 
 ### Energy Vault EVx Rudong gravity storage, Rudong, Jiangsu (with China Tianying) (energy-vault-evx-rudong-gravity-storage-rudong-jiangsu-with-china-tianyi)
 Status: **operating** | Country: CN
@@ -1875,6 +1941,12 @@ Technologies: civ-floating-structures-fpso
 Status: **operating** | Country: Scotland/UK
 Layher success story: suspension bridge over Firth of Forth
 Technologies: civ-floating-structures-fpso
+
+### Four TM2500 units, Duqm, Oman (four-tm2500-units-duqm-oman)
+Status: **operating** | Country: Oman
+110 MW total; aeroderivative machines (compact lube systems / synthetic ester lubricants apply). Article published 11 February 2024.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Lube Oil Tank System Package; Lube Oil Tank System Package; Lube Oil Tank System Package
 
 ### Fulin Sodium-ion Battery Energy Storage Station, Nanning, Guangxi (China Southern Power Grid / HiNa Battery) (fulin-sodium-ion-battery-energy-storage-station-nanning-guangxi-china-so)
 Status: **operating** | Country: CN
@@ -1977,6 +2049,12 @@ Status: **operating** | Country: Malaysia
 8,750 mt design/construction scope
 Technologies: civ-floating-structures-fpso
 
+### Kibing Solar New Materials solar-glass factory near Kota Kinabalu (kibing-solar-new-materials-solar-glass-factory-near-kota-k)
+Status: **operating** | Country: Malaysia (Sabah)
+One Everllence 18V51/60DF GenSet providing more than 18 MW, added to an existing installation of more than 64 MW; industrial self-generation for production; press release dated 4 December 2025.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Powerhouse Building (steel structure 32x71x16); Powerhouse Building (steel structure 32x71x16)
+
 ### Kibing Solar New Materials solar-glass plant expansion, Kota Kinabalu, Sabah (ge-kibing-solar-new-materials-solar-glass-plant-expansion-kota-kinabalu-s)
 Status: **operating** | Country: Malaysia
 Decentralised industrial self-generation independent of the public grid; energy used directly in solar-glass production processes. page_read:true; original 65 MW / 4-engine project described at https://man-es.com/company/press-releases/press-details/2023/06/27/65-mw-dual-fuel-engines-bound-for-malaysian-power-plant (search-verified, page_read:false).
@@ -1990,6 +2068,12 @@ Decentralised industrial self-generation independent of the public grid; energy 
 Technologies: pwr-gas-engines
 Capacity: power generation: 18.0 MW
 Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Kimanis 300 MW Combined Cycle Power Plant (kimanis-300-mw-combined-cycle-power-plant)
+Status: **operating** | Country: Malaysia (Sabah)
+JML scope: HRSG, GTG, STG and BOP mechanical erection, piping fabrication/erection and field-erected tank fabrication/erection; client CTCI Malaysia Sdn Bhd; plant type Power Plant, location Sabah.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Powerhouse Building (steel structure 32x71x16); Powerhouse Building (steel structure 32x71x16)
 
 ### Kimanis Power (Dua) gas-engine peaking plant, Kimanis, Sabah (ge-kimanis-power-dua-gas-engine-peaking-plant-kimanis-sabah)
 Status: **operating** | Country: Malaysia
@@ -2005,15 +2089,63 @@ Technologies: pwr-gas-engines
 Capacity: power generation: 100.0 MW
 Recorded gaps: Detailed commissioning dates and owner/contractor roles
 
+### Kimanis Power plant CSA (kimanis-power-plant-csa)
+Status: **operating** | Country: Malaysia (Sabah)
+Non-MAN reference for long-term service/availability contracting; no spare-parts price list printed.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: 2-Year Operational Spares (exclude MAN spare part)
+
+### Kimanis Power Plant, 300 MW CCGT (3 x 100 MW blocks) (kimanis-power-plant-300-mw-ccgt-3-x-100-mw-blocks)
+Status: **operating** | Country: Malaysia (Sabah, Kimanis, Papar)
+EPCC consortium CTCI Corporation, Synerlitz Sdn Bhd, SCHB Engineering Services; owner Kimanis Power Sdn Bhd; RM1.5 billion printed.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Construction Management + Svc (Sub-con, Third Party Cost, Local Authorities etc)
+
+### Kimanis Power Project - equipment delivery (kimanis-power-project-equipment-delivery)
+Status: **operating** | Country: Malaysia (Sabah, Kimanis Bay)
+3 x Frame 6FA gas turbines plus generators; BOOT plant developed by Kimanis Power Sdn Bhd.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Freight, Transportation, Cargo Insurance and Installation [Handling, Taxes and Insurances] - GEG & BOP
+
+### Kimanis ~100 MW gas-engine power plant for Sabah state grid (kimanis-100-mw-gas-engine-power-plant-for-sabah-state-grid)
+Status: **operating** | Country: Malaysia (Sabah)
+Six Everllence 18V51/60DF engines, total output around 100 MW, dual-fuel switching between gaseous and liquid fuel; press release dated 4 December 2025.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Equipment, Mech, Elec, C&I; Equipment, Mech, Elec, C&I
+
 ### Kinmen Bridge / HKZMB transition structure (civ-kinmen-bridge-hkzmb-transition-structure)
 Status: **operating** | Country: Taiwan / Hong Kong
 PERI VARIO VT20 girder wall formwork reference projects
 Technologies: civ-floating-structures-fpso
 
+### Kipevu II, Mombasa — Tsavo Power Company (kipevu-ii-mombasa-tsavo-power-company)
+Status: **operating** | Country: Kenya
+Wärtsilä reference: 'seven Wärtsilä 38 generating sets'; total electrical output 74.5 MW; type 'Oil power plant' (not gas); owner Tsavo Power Company; off-taker KPLC; delivered 2001. Kept as a 7-unit reference with its fuel explicitly recorded.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: GEG (7 units); GEG (7 units); GEG (7 units)
+
+### Kipevu III, Mombasa — Kenya Electricity Generating Company (KenGen) (kipevu-iii-mombasa-kenya-electricity-generating-company-ke)
+Status: **operating** | Country: Kenya
+Wärtsilä reference: seven Wärtsilä 18V46 engines; total electrical output 117 MW; 'Oil power plant'; turnkey contract awarded November 2009; delivered 2011.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: GEG (7 units); GEG (7 units); GEG (7 units)
+
+### Kubota Power Station, Tawau, Sabah - generator transformer replacement (kubota-power-station-tawau-sabah-generator-transformer-rep)
+Status: **operating** | Country: Malaysia (Sabah)
+Deltaspec portfolio item 15: replacement of two 45 MVA 11/132 kV generator transformers, supply and transport; client TNB REMACO / SESB.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Transformer Bay Area for LV Auxiliary (11/0.433kV) - blast wall & platform
+
 ### La Rance tidal barrage, France (la-rance-tidal-barrage-france)
 Status: **operating** | Country: FR
 240 MW (24 x 10 MW bulb turbines), commissioned 1966, the world's first large tidal-range power station, still in full operation
 Technologies: pwr-tidal-wave
+
+### Labuan Island 120 MW gas power plant (KAB Energy Holdings EPC) (labuan-island-120-mw-gas-power-plant-kab-energy-holdings-e)
+Status: **operating** | Country: Malaysia (Labuan)
+Seven Everllence 18V51/60DF engines, total output 120 MW, replacing retiring assets and supplying local grid; KAB Energy Holdings responsible for EPC; press release dated 4 December 2025.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Equipment, Mech, Elec, C&I; Equipment, Mech, Elec, C&I
 
 ### Labuan Island gas power plant (KAB Energy Holdings) (ge-labuan-island-gas-power-plant-kab-energy-holdings)
 Status: **operating** | Country: Malaysia
@@ -2028,6 +2160,12 @@ New gas-fired plant on Labuan Island off Borneo replacing retiring assets, suppl
 Technologies: pwr-gas-engines
 Capacity: power generation: 120.0 MW
 Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### LM2500XPRESS plant, Miaoli, Taiwan (lm2500xpress-plant-miaoli-taiwan)
+Status: **operating** | Country: Taiwan
+Prismecs delivered project scope; article published 11 February 2024.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Lube Oil Tank System Package; Lube Oil Tank System Package; Lube Oil Tank System Package
 
 ### LNG-FPSO / LNG tanker offloading (ultra-large fender application) (civ-lng-fpso-lng-tanker-offloading-ultra-large-fender-application)
 Status: **operating** | Country: Japan / global
@@ -2058,6 +2196,18 @@ Technologies: civ-floating-structures-fpso
 Status: **operating** | Country: Germany / Denmark
 see grading specs above
 Technologies: civ-floating-structures-fpso
+
+### Melaka Track 4B - Demin water tank supply and installation (melaka-track-4b-demin-water-tank-supply-and-installation)
+Status: **operating** | Country: Malaysia (Melaka)
+JML scope: supplier and install of demin water tank; industrial plant; client GE Power Solutions (Malaysia) Sdn Bhd.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Fire/ Service Water Pump House (upper steel 9x28x6)
+
+### Mertaniemi balancing power plant, Lappeenranta (mertaniemi-balancing-power-plant-lappeenranta)
+Status: **operating** | Country: Finland
+POWER article 12 November 2026: 43 MW, four Wärtsilä 34SG engines, six-year service agreement, developer EPV Energy Ltd, full EPC contract by Wärtsilä.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: GEG (7 units); GEG (7 units); GEG (7 units)
 
 ### MeyGen tidal stream array, Pentland Firth, Scotland (SAE Renewables) (meygen-tidal-stream-array-pentland-firth-scotland-sae-renewables)
 Status: **operating** | Country: GB
@@ -2124,6 +2274,12 @@ Status: **operating** | Country: DE
 world's first commercial shipment of perovskite-tandem solar modules to a customer (5 Sep 2024); production modules 24.5% efficiency (up to 20% more energy than silicon); record 28.6% commercial-size cell (2024)
 Technologies: pwr-perovskite-tandem
 
+### Pennsylvania power company — advanced JM SCR on prime-power natural gas engines (pennsylvania-power-company-advanced-jm-scr-on-prime-power)
+Status: **operating** | Country: USA
+NOx maintained within 0.06 g/bhp-hr permit limit; PA DEP limit 0.50 g/bhp-hr; federal limit 1.0 g/bhp-hr, all as printed in brochure.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: DOC and SCR system Package
+
 ### PERI formwork project list (cross-reference) (civ-peri-formwork-project-list-cross-reference)
 Status: **operating** | Country: Multiple APAC
 PERI brochure lists infrastructure construction Pilbara Australia, Choa Chu Kang Grove Singapore, Aspen Residence George Town Penang Malaysia, Tonson Park View Bangkok Thailand
@@ -2133,6 +2289,12 @@ Technologies: civ-floating-structures-fpso
 Status: **operating** | Country: Brazil
 Ampelmann extended a two-year contract with Solstad Offshore in March 2025; A-type fitted to Normand Valliant in 2022 (until Aug 2026) and E-type operational on Normand Fortress from June 2024.
 Technologies: civ-floating-structures-fpso
+
+### PLTD Pesanggaran Bali, 200 MW multi-fuel engine plant (pltd-pesanggaran-bali-200-mw-multi-fuel-engine-plant)
+Status: **operating** | Country: Indonesia
+Wärtsilä reference: 12 x Wärtsilä 18V50DF, 200 MW, owner PT Indonesia Power, EPC in consortium with PT PP; order received Q4 2013, full output end May 2015; over 48% thermal efficiency at any load as printed. Multi-engine (12) reference, not 7-unit.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: GEG (7 units); GEG (7 units); GEG (7 units)
 
 ### PLTD Pesanggaran, Bali (PT Indonesia Power) (ge-pltd-pesanggaran-bali-pt-indonesia-power)
 Status: **operating** | Country: Indonesia
@@ -2145,6 +2307,24 @@ Recorded gaps: Detailed commissioning dates and owner/contractor roles
 Status: **operating** | Country: ID
 200 MW, 12 x Wärtsilä 50DF multi-fuel engines
 Technologies: pwr-gas-engines
+
+### PLTMG Balai Pungut Duri gas engine power plant (7 x 17.1 MW) (pltmg-balai-pungut-duri-gas-engine-power-plant-7-x-17-1-mw)
+Status: **operating** | Country: Indonesia
+Scribd presentation 'GAS ENGINE POWER PLANT (GEPP)', uploaded by Irefala Chandra, 8 pages, 103 views; AI-enhanced description states 'consisting of 7 gas engines that each generate 17.1 MW of power'. This is a user-uploaded presentation, not an OEM or utility record; no publication date shown. Fetched via r.jina.ai because direct Scribd text was partly encoded.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: GEG (7 units); GEG (7 units); GEG (7 units)
+
+### PMU 132/33 kV GIS MRT Jinjang (2x90 MVA) (pmu-132-33-kv-gis-mrt-jinjang-2x90-mva)
+Status: **operating** | Country: Malaysia
+PESTEC reference: establishment of GIS substation plus 132 kV overhead line loop-in/loop-out and underground cable to MRT Jinjang switching station; client Tenaga Nasional Berhad.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: SESB_132kV Switchgear Room (reinforced concrete 10.8x35x13.2 + 10.8 x26x7.5)
+
+### PMU Sandakan 132/33 kV step-up transformers (pmu-sandakan-132-33-kv-step-up-transformers)
+Status: **operating** | Country: Malaysia (Sabah)
+Deltaspec portfolio item 4: two 60 MVA 132/33 kV transformers, supply/delivery/installation/commissioning; client Penulaju Sdn Bhd / SESB.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Transformer Bay Area for LV Auxiliary (11/0.433kV) - blast wall & platform
 
 ### Polar Night Energy sand batteries: Kankaanpaeae (Vatajankoski) and Pornainen, Finland (polar-night-energy-sand-batteries-kankaanpaeae-vatajankoski-and-pornaine)
 Status: **operating** | Country: FI
@@ -2180,15 +2360,75 @@ Technologies: pwr-gas-engines, idc-behind-the-meter-gas
 Capacity: power generation: 60.0 MW
 Recorded gaps: Detailed commissioning dates and owner/contractor roles
 
+### Rancha Power 120 MW gas engine generator power plant, Rancha-Rancha Industrial Estate, Labuan (rancha-power-120-mw-gas-engine-generator-power-plant-ranch)
+Status: **operating** | Country: Malaysia
+LOA dated 13 May 2025 from Rancha Power (JV of Petronas Gas Bhd, Sabah Electricity Sdn Bhd and SEC Power Sdn Bhd, set up 31 Dec 2024) to KAB Energy Holdings Sdn Bhd / Kinergy Advancement Bhd; nine acres adjacent to Labuan Shipyard. Source does not disclose individual mechanical package scopes.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Lube Oil Tank System Package; Lube Oil Tank System Package; Lube Oil Tank System Package
+
+### Rapid Pengerang, Pengerang Integrated Petroleum Complex, Kota Tinggi, Malaysia (rapid-pengerang-pengerang-integrated-petroleum-complex-kot)
+Status: **operating** | Country: Malaysia
+Listed under featured projects, Industries category; WebFetch 2026-11-25.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: HVAC System Package
+
 ### Refinery / power plant / data centre cable tray applications (civ-refinery-power-plant-data-centre-cable-tray-applications)
 Status: **operating** | Country: India
 IES perforated trays used in power distribution panel rooms, data centres, refineries, hospitals, railway/metro and offshore installations
 Technologies: civ-floating-structures-fpso
 
+### RVK Energy (Rajahmundry) Pvt Ltd — 7 x 3.62 MW Gas Engine Based Power Plant (rvk-energy-rajahmundry-pvt-ltd-7-x-3-62-mw-gas-engine-base)
+Status: **operating** | Country: India
+Aquatherm Engineering Consultants page posted 12 January 2015 lists client RVK Energy (Rajahmundry) Pvt Ltd., project '7 x 3.62MW Gas Engine Based Power Plant', scope 'Detailed Engineering Services'. A separate entry lists the same client's '50MW Gas Engine Based Combined Cycle Power Plant'.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: GEG (7 units); GEG (7 units); GEG (7 units)
+
+### Samajaya GIS 132/33/11 kV Substation (samajaya-gis-132-33-11-kv-substation)
+Status: **operating** | Country: Malaysia (Sarawak)
+PESTEC reference: design, engineering, supply, erect and commissioning of substation establishment; client Sarawak Energy Berhad.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: SESB_132kV Switchgear Room (reinforced concrete 10.8x35x13.2 + 10.8 x26x7.5)
+
+### Samur Project - Fertilizer Plant, Sabah (samur-project-fertilizer-plant-sabah)
+Status: **operating** | Country: Malaysia (Sabah)
+JML scope: task force work - piping, mechanical, structural and E&I; industrial plant; client Mitsubishi Heavy Industries, Ltd.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Building (C&S)
+
+### Sei Gelam, Jambi, Sumatra, Indonesia (PT PLN) (sei-gelam-jambi-sumatra-indonesia-pt-pln)
+Status: **operating** | Country: Indonesia
+11 x Wärtsilä 20V34SG gas gensets, 110 MW, natural gas, EEQ scope; printed in Wärtsilä gas/multi-fuel brochure (08.2017).
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Exhaust Gas System Package
+
+### SESB 94 MW gas turbine generators, Kimanis (sesb-94-mw-gas-turbine-generators-kimanis)
+Status: **operating** | Country: Malaysia (Sabah)
+Connected to Sabah Grid at Langsat Main Intake Substation (PMU).
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Construction Management + Svc (Sub-con, Third Party Cost, Local Authorities etc)
+
+### SESB Patau-Patau power plant automation modernisation (sesb-patau-patau-power-plant-automation-modernisation)
+Status: **operating** | Country: Malaysia (Labuan)
+112 MWe combined cycle plant, three gas turbines plus one steam turbine; Valmet DNA replacing existing automation; local partner PESTECH Technology; TNB Remaco on GE gas turbine interface.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Plant Control System; Plant Control System
+
+### Shell Headquarters, Malaysia (shell-headquarters-malaysia)
+Status: **operating** | Country: Malaysia
+Listed under featured projects, Green Buildings category; WebFetch 2026-11-25.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: HVAC System Package
+
 ### Shell offshore platform drone inspections (civ-shell-offshore-platform-drone-inspections)
 Status: **operating** | Country: global
 Flyability/CAN case study; rope-access inspections that took a day now accomplished in minutes
 Technologies: civ-floating-structures-fpso
+
+### Shell OGP Project, Bintulu, Sarawak (shell-ogp-project-bintulu-sarawak)
+Status: **operating** | Country: Malaysia (Sarawak)
+JML scope: steel structure/equipment erection, piping and painting for process area and boiler package; industrial plant; client Samsung Engineering (Malaysia) Sdn Bhd.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Building (C&S)
 
 ### Shell Prelude FLNG — 7 offshore footless marine loading arms (4 LNG, 3 LPG) (civ-shell-prelude-flng-7-offshore-footless-marine-loading-arms-4-lng-3-lpg)
 Status: **operating** | Country: Australia (offshore) / Korea
@@ -2200,10 +2440,22 @@ Status: **operating** | Country: Australia (offshore) / Korea (build)
 TechnipFMC/FMC supplied seven offshore footless marine loading arms (4 LNG, 3 LPG) to Shell Prelude FLNG built by Samsung Heavy Industries, Geoje, Korea (search-verified press-release snippet).
 Technologies: civ-floating-structures-fpso
 
+### Sibiyu 132/33 kV GIS Substation (sibiyu-132-33-kv-gis-substation)
+Status: **operating** | Country: Malaysia (Sarawak)
+PESTEC reference: design, engineering, supply, erect and commissioning, Contract PLS-150129; client Sarawak Energy Berhad.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: SESB_132kV Switchgear Room (reinforced concrete 10.8x35x13.2 + 10.8 x26x7.5)
+
 ### Singapore/Malaysia tank construction service footprint (civ-singapore-malaysia-tank-construction-service-footprint)
 Status: **operating** | Country: Singapore, Malaysia
 L-Vision Engineering delivers API 650 construction, fabrication and field erection for storage terminals and process plants in Singapore, Malaysia and Southeast Asia (page actually read).
 Technologies: civ-floating-structures-fpso
+
+### Sipitang 52 MW gas-engine power plant (Everllence / FLNG host) (sipitang-52-mw-gas-engine-power-plant-everllence-flng-host)
+Status: **operating** | Country: Malaysia (Sabah)
+Seven Everllence 20V35/44G gas engines, potential output more than 70 MW, serving a 52 MW plant for an FLNG extraction platform; KAB Energy Holdings is named as EPC for the Labuan project; press release dated 4 December 2025.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Equipment, Mech, Elec, C&I; Equipment, Mech, Elec, C&I
 
 ### Sipitang FLNG dedicated power plant, Sabah (ge-sipitang-flng-dedicated-power-plant-sabah)
 Status: **operating** | Country: Malaysia
@@ -2224,6 +2476,12 @@ Status: **operating** | Country: US
 Approximately 56 MW net electricity plus process steam for an adjacent malt plant, using a B&W internal-recirculation circulating fluidized bed boiler.
 Technologies: pwr-cogeneration-chp, pwr-gas-fired-boilers
 Capacity: net power generation: 56 MW
+
+### Stadtwerke Kiel 190 MW CHP project (stadtwerke-kiel-190-mw-chp-project)
+Status: **operating** | Country: Germany
+Jenbacher 'Selecting Power Generation Equipment' page: 'the recently commissioned 190 MW project for the Stadtwerke Kiel in Germany. This large combined heat and power (CHP) project uses Jenbacher J920 FleXtra gas engines.'
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: GEG (7 units); GEG (7 units); GEG (7 units)
 
 ### Sultan Ibrahim Power Plant, Track 4A (sultan-ibrahim-power-plant-track-4a)
 Status: **operating** | Country: MY
@@ -2246,6 +2504,12 @@ Status: **operating** | Country: Taiwan
 Ampelmann signed two E1000 systems in May 2024; each compensates waves up to 4.5 m Hs and switches people/cargo mode in under one minute (search-verified snippet).
 Technologies: civ-floating-structures-fpso
 
+### Tenom Pangi hydro power station - generator step-up transformer replacement (tenom-pangi-hydro-power-station-generator-step-up-transfor)
+Status: **operating** | Country: Malaysia (Sabah)
+Deltaspec portfolio item 17: one 30 MVA 11/132 kV generator transformer; client TNB REMACO / SESB. Portfolio also lists rehabilitation/upgrading of the 132 kV Tenom Pangi hydro power station (item 5).
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: MV Switchgear Room (reinforced concrete 16.5x9.9x5.3)
+
 ### Texas off-grid data-centre plant (Wärtsilä 50SG, 790 MW) (ge-texas-off-grid-data-centre-plant-w-rtsil-50sg-790-mw)
 Status: **operating** | Country: USA (non-APAC comparator)
 Heat rate approx. 6,800 Btu/kWh (approx. 50% efficiency) as stated; natural gas; full capacity at temperatures exceeding 100 F (~38 C). page_read:false - WebSearch result marked search-verified; direct page not fetched this session
@@ -2259,6 +2523,24 @@ Heat rate approx. 6,800 Btu/kWh (approx. 50% efficiency) as stated; natural gas;
 Technologies: pwr-gas-engines
 Capacity: power generation: 790.0 MW
 Recorded gaps: Detailed commissioning dates and owner/contractor roles
+
+### Three LM6000PC units (three-lm6000pc-units)
+Status: **operating** | Country: not stated
+Prismecs delivered project scope; location and date not printed in article published 11 February 2024.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Lube Oil Tank System Package; Lube Oil Tank System Package; Lube Oil Tank System Package
+
+### Three thermal balancing plants, Espírito Santo (UTE Luiz Oscar Rodrigues de Melo, UTE Viana 1, UTE Povoação 1) (three-thermal-balancing-plants-esp-rito-santo-ute-luiz-osc)
+Status: **operating** | Country: Brazil
+Wärtsilä press release: three gas engine plants totalling 150 MW, 16 Wärtsilä 20V34SG generating sets, EPC basis, ordered by companies held by funds managed by BTG Pactual Asset Management; plant efficiency up to 50% simple cycle and up to 54% combined cycle as printed.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: GEG (7 units); GEG (7 units); GEG (7 units)
+
+### TMP2 Project (WWT), Sarawak (tmp2-project-wwt-sarawak)
+Status: **operating** | Country: Malaysia (Sarawak)
+JML scope: civil, building works and mechanical erection; industrial plant; client Kobelco Eco-Solutions (Malaysia) Sdn Bhd.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Fire/ Service Water Pump House (upper steel 9x28x6)
 
 ### Tohoku University seismic isolation test buildings (civ-tohoku-university-seismic-isolation-test-buildings)
 Status: **operating** | Country: Japan
@@ -2274,6 +2556,12 @@ Technologies: civ-floating-structures-fpso
 Status: **operating** | Country: Taiwan
 21 x 5.2 MW turbines; 60 m jackets >1,100 t; 4 pin piles each up to 310 t
 Technologies: civ-floating-structures-fpso
+
+### Triumph Power plant, Kitengela (10 Himsen engines) (triumph-power-plant-kitengela-10-himsen-engines)
+Status: **operating** | Country: Kenya
+Referenced as a MAN PrimeServ O&M case study, not a Sabah project.
+Technologies: pwr-alaska-geg-wbs-supply-chain
+Recorded gaps: Pre-Commissioning, Commissioning and Start Up Management incl calibration & lab test (lube oil)
 
 ### Veja Mate (civ-veja-mate)
 Status: **operating** | Country: Germany

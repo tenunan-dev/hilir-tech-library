@@ -1,0 +1,26 @@
+{
+  "id": "alaska-jml-com-sg-projects-18172e3",
+  "name": "JML (JEL Maintenance) - Projects list: power plant and industrial plant references",
+  "url": "https://jml.com.sg/what-we-do/construction/projects",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "PWR",
+    "MID"
+  ],
+  "disciplines": [
+    "CIV",
+    "ROT",
+    "ELE"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "JML / JEL Maintenance Pte Ltd",
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Page read 2026-11-25. Named, sized, located Malaysian power/industrial plant references including Kimanis 300MW CCGT (Sabah) and Sabah fertilizer plant structural work; no years or building rates printed.. Exact printed figures are recorded in the linked records' basis fields."
+}

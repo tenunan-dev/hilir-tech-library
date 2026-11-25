@@ -1,0 +1,64 @@
+{
+  "id": "alaska-prod-johnson-matthey-sinox-scr-scrt-asc-dcc-doc-and-catalyst-silenc",
+  "name": "Johnson Matthey SINOx® SCR, SCRT®, ASC, DCC™/DOC and catalyst-silencer systems",
+  "manufacturer": "alaska-vendor-unidentified",
+  "product_type": "scr-diesel-oxidation-catalyst-package",
+  "equipment": [
+    "alaska-doc-and-scr-system-package"
+  ],
+  "description": "SCR / diesel oxidation catalyst package",
+  "specifications": [
+    {
+      "metric": "SINOx® SCR NOx reduction (power generation brochure)",
+      "unit": "% (up to 99%, as printed)",
+      "basis": "Johnson Matthey 'Emission control solutions for power generation', cover ©2018 Johnson Matthey (file titled May 2021), SINOx® SCR System section, 'Reduce NOx up to 99%'; read via r.jina.ai 2023-04-05.",
+      "high": 99,
+      "year": 2018,
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+        "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
+      }
+    },
+    {
+      "metric": "SCR system durability before maintenance",
+      "unit": "hours (15,000-plus, as printed)",
+      "basis": "Johnson Matthey NOx control systems webpage, ©Johnson Matthey 2026, read 2026-11-25.",
+      "low": 15000,
+      "year": 2026,
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
+        "source_id": "alaska-matthey-com-nox-control-systems-af80333"
+      }
+    },
+    {
+      "metric": "DPF (CRT®) reductions — PM",
+      "unit": "% (>85%, as printed)",
+      "basis": "Johnson Matthey power generation brochure, 'Diesel Particulate Filter (DPF) Systems: Reductions: PM > 85%, CO > 80%, VOC >70%'; cover ©2018 Johnson Matthey; read via r.jina.ai 2023-04-05.",
+      "high": 85,
+      "year": 2018,
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+        "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
+      }
+    },
+    {
+      "metric": "SCR / oxidation catalyst system components",
+      "unit": "SINOx honeycomb catalysts; stainless steel catalyst housings; stainless steel re",
+      "basis": "Johnson Matthey NOx control systems webpage, 'JM's SCR systems include the following options as key components'; ©Johnson Matthey 2026, read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
+        "source_id": "alaska-matthey-com-nox-control-systems-af80333"
+      }
+    }
+  ],
+  "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+  "sources": [
+    {
+      "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+      "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

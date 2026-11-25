@@ -1,0 +1,31 @@
+{
+  "id": "alaska-prod-valmet-dna-automation-system-sesb-reference-platform-plant-dcs",
+  "name": "Valmet DNA automation system (SESB reference platform)",
+  "manufacturer": "valmet",
+  "product_type": "plant-dcs-control-platform-retrofit",
+  "equipment": [
+    "alaska-plant-control-system"
+  ],
+  "description": "plant DCS / control platform retrofit",
+  "specifications": [
+    {
+      "metric": "integrated control scope",
+      "unit": "scope",
+      "basis": "Valmet press release, 'Valmet to supply automation technology to Sabah Electricity's power plant in Malaysia', Valmet Oyj press release 1 July 2016 at 11:00 a.m. EET, read directly. (value: boiler, feedwater and turbine control integrated into one Valmet DNA platform)",
+      "year": 2016,
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
+        "source_id": "alaska-valmet-com-65ff972"
+      }
+    }
+  ],
+  "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
+  "sources": [
+    {
+      "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
+      "source_id": "alaska-valmet-com-65ff972"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

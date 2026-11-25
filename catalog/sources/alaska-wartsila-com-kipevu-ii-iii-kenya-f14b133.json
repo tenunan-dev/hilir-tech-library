@@ -1,0 +1,25 @@
+{
+  "id": "alaska-wartsila-com-kipevu-ii-iii-kenya-f14b133",
+  "name": "Kipevu II-III, Tsavo Power Company Limited (reference case)",
+  "url": "https://www.wartsila.com/energy/learn-more/references/utilities/kipevu-ii-iii-kenya",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "Wärtsilä Corporation",
+  "access": "open",
+  "licence": "(c) 2026 Wärtsilä",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Page read 2026-11-25; no publication date, footer (c) 2026 Wärtsilä. Contains dated project narrative (August 2000, 4 September 2001, November 2009, March 2011).. Exact printed figures are recorded in the linked records' basis fields."
+}

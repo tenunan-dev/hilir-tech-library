@@ -1,6 +1,6 @@
 # MAT: Materials and integrity
 
-687 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
+701 sources. Sub-topics: corrosion, metallurgy, coatings, inspection, rbi, non-metallics.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -448,6 +448,7 @@
 | [BP Berau Ltd / Sucofindo / Asian Development Bank](https://www.adb.org/sites/default/files/project-documents/49222/49222-001-esmr-en_7.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Browse FLNG Project (Brecknock, Calliance, Torosa)](https://www.offshore-technology.com/projects/browse-flng-project/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [BSEE / MMS (Deepwater Riser Design Study, 2007); original figures credited to API RP 2RD and API RP 17B](https://www.bsee.gov/sites/bsee.gov/files/research-reports/572aa.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [Camfil CAMGT Box Type G II data sheet (dated 2025-10-09)](https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Caterpillar](https://www.cat.com/en_US/by-industry/electric-power.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Chartindustries.Com — Periflow maximum discharge pressure](https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Chartindustries.Com — Single-stage flow range](https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -457,6 +458,7 @@
 | [Cummins — Cummins natural-gas genset range](https://www.cummins.com/generators) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [DIALOG Tarpon — What We Do (standards, capability, installations)](https://www.tarponsystems.com/what-we-do) | oem-supplier | global, sea | open | summary-only |
 | [DNV (Wikipedia)](https://en.wikipedia.org/wiki/DNV) | oem-supplier | global, sea | open | summary-only |
+| [Donaldson Air Intake Systems Product Guide (F110027-ENG), 324 pages](https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [DrillingFormulas.Com (references Applied Drilling Engineering / SPE, Azar, Australian Drilling Manual, Devereux)](https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [Dräger](https://www.draeger.com/en-us_u/Products/Flame-Detectors/Flame-5000) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Ecomar Storage Solution FZC LLC / EPC contractor](https://cdck-file-uploads-canada1.s3.dualstack.ca-central-1.amazonaws.com/flex031/uploads/pdfjscommunity/original/2X/6/686af929c0ae2573d8470b0b680c568fa0fad42e.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
@@ -538,6 +540,7 @@
 | [Malampaya Deep Water Gas-to-Power Project — cost](https://www.ogj.com/drilling-production/production-operations/article/17261643/oct-1-startup-due-for-malampaya-gas-field-project-off-philippines) | trade-media | global, apac, na, eu | open | summary-only |
 | [Malampaya Deep Water Gas-to-Power Project — cost](https://sarpn.org/documents/d0002569/7-WRI_Community_dev_May2007.pdf) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [MDPI JMSE](https://www.mdpi.com/2077-1312/9/11/1179) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
+| [MNS 3.0 Low Voltage Switchgear catalogue 1SXH900001C0201 Rev C](https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf) | oem-supplier | global, apac | open | summary-only |
 | [Montanuniversität Leoben (review thesis)](https://pure.unileoben.ac.at/ws/portalfiles/portal/1876337/AC13373932n01vt.pdf) | oem-supplier | global, apac, sea, na, eu | open | summary-only (unverified) |
 | [MSA](https://www.msasafety.com/fixed-gas-and-flame-detection/gas-detectors/ultima-x5000-gas-monitor) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Mtu Solutions.Com — MTU diesel genset portfolio ceiling](https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
@@ -563,6 +566,8 @@
 | [PNG LNG Project — cost](https://chemanager-online.com/en/news/exxon-s-png-lng-project-costs-balloon-to-19-billion) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [PNG LNG Project — cost](https://www.hks.harvard.edu/sites/default/files/centers/mrcbg/files/PNGLNGreport.pdf) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
 | [PNG LNG Project — cost](https://investor.exxonmobil.com/company-information/press-releases/detail/564/exxonmobil-starts-production-ahead-of-schedule-at-png-lng) | trade-media | global, apac, na, eu | open | summary-only |
+| [Preferred Utilities — Day Tank Model DT cutsheet (CATALOG 26)](https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf) | oem-supplier | global, sea, apac | open | summary-only |
+| [Preferred Utilities — Fuel Oil Transfer Pump and Day Tank Set cutsheet (CATALOG 25)](https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Prelude FLNG — cost](https://www.bbc.com/news/technology-25213845) | trade-media | global, apac, na, eu | open | summary-only |
 | [Prelude FLNG — cost](https://www.blackridgeresearch.com/project-profiles/all-about-prelude-shell-flng-floating-liquified-natural-gas-ship-project-australia-oceania) | trade-media | global, apac, na, eu | open | summary-only |
 | [Prelude FLNG — cost](https://www.businesskorea.co.kr/news/articleView.html?idxno=18504) | trade-media | global, apac, na, eu | open | summary-only (unverified) |
@@ -617,7 +622,9 @@
 | [ZEEPod page and blog (ZEE Engineering)](https://zee-eng.com/zeepod) | oem-supplier | global, sea | open | summary-only |
 | [Zeto](https://www.zeto.com/) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Malaysia Marine and Heavy Engineering](https://www.mhb.com.my/) | epc-contractor | sea | open | summary-only (unverified) |
+| [Power Transformers - CG Power Systems (catalogue summary and OCR excerpts)](https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html) | oem-supplier | global, apac | open | summary-only |
 | [Seatrium](https://www.seatrium.com/) | epc-contractor | sea, global | open | summary-only (unverified) |
+| [ABB System Components for Sample Gas Sampling, Data Sheet 10/23-5.10 EN](https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf) | oem-supplier | global | open | summary-only |
 | [AMPP Annual Conference + Expo](https://ace.ampp.org/) | conference | global | paywalled | catalog-only |
 | [AMPP Standards (former NACE and SSPC)](https://www.ampp.org/standards) | standards-body | global | paywalled | catalog-only |
 | [API 17J 4th edition 'what's new' PDF](https://www.api.org/~/media/files/publications/whats%20new/17j%20e4%20pa.pdf) | oem-supplier | global | open | summary-only |
@@ -627,6 +634,12 @@
 | [ASME Codes and Standards (BPVC, B31)](https://www.asme.org/codes-standards) | standards-body | global, na | paywalled | catalog-only (unverified) |
 | [ASTM International petroleum products standards (Committee D02)](https://www.astm.org/products-services/standards-and-publications.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Boiler cycling considerations](https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations) | oem-supplier | global, na | open | summary-only |
+| [BS EN 1090-2:2008+A1:2011 - Execution of steel structures and aluminium structures - Technical requirements for steel structures](https://knowledge.bsigroup.com/products/execution-of-steel-structures-and-aluminium-structures-technical-requirements-for-steel-structures/standard) | standards-body | eu, global | open | summary-only |
+| [BS EN 13670:2009 - Execution of concrete structures](https://knowledge.bsigroup.com/products/execution-of-concrete-structures) | standards-body | eu, global | open | summary-only |
+| [BS EN 1992-1-1:2004+A1:2014 - Eurocode 2: Design of concrete structures - General rules and rules for buildings](https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard) | standards-body | eu, global | open | summary-only |
+| [BS EN 1992-3:2006 - Eurocode 2: Design of concrete structures - Liquid retaining and containing structures](https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-liquid-retaining-and-containing-structures) | standards-body | eu, global | open | summary-only |
+| [BS EN 1993-1-1:2005+A1:2014 - Eurocode 3: Design of steel structures - General rules and rules for buildings](https://knowledge.bsigroup.com/products/eurocode-3-design-of-steel-structures-general-rules-and-rules-for-buildings/standard) | standards-body | eu, global | open | summary-only |
+| [BS EN 1997-1:2004+A1:2013 - Eurocode 7: Geotechnical design - General rules](https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard) | standards-body | eu, global | open | summary-only |
 | [CEN/TC 12 Oil and gas industries](https://standards.cencenelec.eu/) | standards-body | eu | paywalled | catalog-only (unverified) |
 | [CORROSION journal (AMPP)](https://content.ampp.org/corrosion) | journal | global | paywalled | catalog-only (unverified) |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
@@ -688,6 +701,7 @@
 | [World Hydrogen Energy Conference (WHEC)](https://www.iahe.org/) | conference | global | mixed | catalog-only (unverified) |
 | [ASME Boiler and Pressure Vessel Code summary (Engineering ToolBox)](https://engineeringtoolbox.com/asme-boiler-vessel-code-d_8.html) | trade-media | global | open | summary-only |
 | [Boiler blowdown (Engineering ToolBox)](https://engineeringtoolbox.com/boiler-blowdown-d_908.html) | trade-media | global, na | open | summary-only |
+| [GEAPL Telescopic Sliding Gates - technical specification and catalogue](https://www.geapl.com/telescopic-sliding-gates) | oem-supplier | global | open | summary-only |
 | [Offshore magazine](https://www.offshore-mag.com/) | trade-media | global | open | summary-only (unverified) |
 | [Subsea7](https://www.subsea7.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

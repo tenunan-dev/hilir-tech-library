@@ -1,0 +1,131 @@
+{
+  "id": "alaska-cctv-system",
+  "name": "CCTV System",
+  "equipment_type": "wbs-3-4-i-c",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "CCTV System",
+  "aliases": [
+    "CCTV System"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Axis F101-A XF P1367 explosion-protect — resolution",
+      "unit": "MP (3072x1728)",
+      "basis": "Axis F101-A XF P1367 datasheet (PDF read via r.jina.ai; proxy reports Published Time Fri, 22 May 2026): '5 MP resolution at 25/30 fps' and 'Resolution 3072x1728 (5 MP) to 160x90'.",
+      "value": 5,
+      "year": 2026,
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "Axis F101-A XF P1367 explosion-protect — frame rate",
+      "unit": "fps (50/60 Hz) in all resolutions",
+      "basis": "Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'Frame rate 25/30 fps (50/60 Hz) in all resolutions'.",
+      "low": 25,
+      "high": 30,
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "Axis F101-A XF P1367 explosion-protect — hazardous location certification",
+      "unit": "certification",
+      "basis": "Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'Class I/II/III, Division 1 and Zone 1 certifications'; certificates FM18US0262X, FM18CA0126X, FM18ATEX0073X, IECEx FMG 18.0029X. (value: Class I/II/III Division 1 and Zone 1; ATEX II 2G Ex db IIB+H2 T5 Gb; IECEx Ex db)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "Axis F101-A XF P1367 explosion-protect — minimum illumination",
+      "unit": "0.15 lux colour / 0.03 lux B/W at 50 IRE F1.2",
+      "basis": "Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'Minimum illumination Color: 0.15 lux; B/W: 0.03 lux, at 50 IRE F1.2'.",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "Axis F101-A XF P1367 explosion-protect — network video standards",
+      "unit": "protocol list",
+      "basis": "Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'ONVIF® Profile G, ONVIF® Profile S, and ONVIF® Profile T' and supported protocol list. (value: ONVIF Profile G, S and T; H.264 and Motion JPEG; RTSP/RTP/SRTP; IEEE 802.1X)",
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "Axis F101-A XF P1367 explosion-protect — operating temperature in hazardous zone",
+      "unit": "°C (Zone system), -40 to 60 °C Class/Division system",
+      "basis": "Axis F101-A XF P1367 datasheet, read via r.jina.ai: 'Hazardous location operating temperature: Zone system: -50 °C to 60 °C ... Class/Division system: -40 °C to 60 °C'.",
+      "low": -50,
+      "high": 60,
+      "source": {
+        "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+        "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+      }
+    },
+    {
+      "metric": "Siemens RUGGEDCOM RST2228P PoE switch  — use case shown in manufacturer brochure",
+      "unit": "documented use case",
+      "basis": "Siemens RUGGEDCOM 19” Layer 2 Ethernet Switches brochure, Edition 09/2018, read via r.jina.ai: figure caption 'Fully redundant communication network based on the RUGGEDCOM RST2228P is suitable for oil & gas applications ... CCTV Client PC ... PoE Cameras'. (value: CCTV Client PC, Recording Server (Fail Over), PoE Cameras in oil & gas applicati)",
+      "year": 2018,
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+        "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "alaska-vendor-axis-communications-ab-4a631",
+      "line": "Axis F101-A XF P1367 explosion-protected network camera",
+      "note": "hazardous-area fixed IP camera"
+    },
+    {
+      "vendor": "siemens",
+      "line": "Siemens RUGGEDCOM RST2228P PoE switch (CCTV network use case)",
+      "note": "PoE network switch for cameras"
+    }
+  ],
+  "vendors": [
+    "alaska-vendor-axis-communications-ab-4a631",
+    "siemens"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
+      "source_id": "alaska-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
+    },
+    {
+      "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+      "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "CCTV System",
+      "why": "No project-specific camera count, locations, VMS vendor, storage retention, monitor wall or price was found in any page read.",
+      "next_action": "Obtain the CCTV camera schedule, zone drawings, recorder/VMS specification and priced BOQ."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.4 I&C).",
+  "last_reviewed": "2026-11-25"
+}

@@ -1,0 +1,109 @@
+{
+  "id": "alaska-prod-siemens-ruggedcom-19-inch-layer-2-ethernet-switches-rsg2100-rs",
+  "name": "Siemens RUGGEDCOM 19-inch Layer 2 Ethernet switches (RSG2100 / RSG2300 / RST2228 / RSG2488)",
+  "manufacturer": "siemens",
+  "product_type": "substation-industrial-ethernet-switch-family",
+  "equipment": [
+    "alaska-telecommunication-and-network-infrastructure"
+  ],
+  "description": "substation/industrial Ethernet switch family",
+  "specifications": [
+    {
+      "metric": "standards compliance",
+      "unit": "standard",
+      "basis": "Siemens RUGGEDCOM 19” Layer 2 Ethernet Switches brochure, Edition 09/2018, © Siemens AG 2018, read via r.jina.ai: 'All RUGGEDCOM switches meet and exceed recognized industry standards (e.g. IEC 61850-3, IEEE 1613, NEMA TS 2)'. (value: IEC 61850-3, IEEE 1613 Class 2, NEMA TS 2)",
+      "year": 2018,
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+        "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+      }
+    },
+    {
+      "metric": "operating temperature",
+      "unit": "°C (no fans)",
+      "basis": "Siemens RUGGEDCOM brochure, Edition 09/2018, read via r.jina.ai: '-40°C to +85°C operating temperature (no fans)'.",
+      "low": -40,
+      "high": 85,
+      "year": 2018,
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+        "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+      }
+    },
+    {
+      "metric": "RSG2100 port count",
+      "unit": "ports (up to; 3 x 10/100/1000BASE-X + 16 x 10/100BASE-X)",
+      "basis": "Siemens RUGGEDCOM brochure, Edition 09/2018, read via r.jina.ai: 'Up to 19 ports: 3 x 10/100/1000BASE-X ports; 16 x 10/100BASE-X ports'.",
+      "value": 19,
+      "year": 2018,
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+        "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+      }
+    },
+    {
+      "metric": "RSG2300 port count",
+      "unit": "ports (up to)",
+      "basis": "Siemens RUGGEDCOM brochure, Edition 09/2018, read via r.jina.ai: 'The RUGGEDCOM RSG2300 is a utility-grade, fully managed, 32-port modular Ethernet switch'.",
+      "value": 32,
+      "year": 2018,
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+        "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+      }
+    },
+    {
+      "metric": "RST2228 uplink speed",
+      "unit": "Gbit/s uplinks (4 x 1000BASE-X/10GBASE-X)",
+      "basis": "Siemens RUGGEDCOM brochure, Edition 09/2018, read via r.jina.ai: '4 x 1000BASE-X/10GBASE-X uplinks' and '10 Gbit/s uplinks'.",
+      "value": 10,
+      "year": 2018,
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+        "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+      }
+    },
+    {
+      "metric": "redundancy protocols",
+      "unit": "protocol list",
+      "basis": "Siemens RUGGEDCOM brochure, Edition 09/2018, read via r.jina.ai: table listing 'RSTP (IEEE 802.1D-2004), eRSTP™', 'MRP (IEC 62439-2)', 'HSR and PRP Redundancy Protocols (IEC 62439-3)', 'IEEE 1588v2 time synchronization'. (value: RSTP/eRSTP, MSTP, MRP (IEC 62439-2), HSR/PRP (IEC 62439-3), IEEE 1588v2)",
+      "year": 2018,
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+        "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+      }
+    },
+    {
+      "metric": "universal supply range",
+      "unit": "VDC (or 85–264 VAC)",
+      "basis": "Siemens RUGGEDCOM brochure, Edition 09/2018, read via r.jina.ai: 'Universal high-voltage range: 88–300 VDC or 85–264 VAC'.",
+      "low": 88,
+      "high": 300,
+      "year": 2018,
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+        "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+      }
+    },
+    {
+      "metric": "PoE capability (RST2228P)",
+      "unit": "PoE ports, max 60 W per port, 500 W shared budget",
+      "basis": "Siemens RUGGEDCOM brochure, Edition 09/2018, read via r.jina.ai: 'Up to 24 PoE Ports ... Maximum power per port is 60 Watt ... 500 Watt shared power budget per device'.",
+      "value": 24,
+      "year": 2018,
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+        "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+      }
+    }
+  ],
+  "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+  "sources": [
+    {
+      "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
+      "source_id": "alaska-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

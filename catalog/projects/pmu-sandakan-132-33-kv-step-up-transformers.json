@@ -1,0 +1,113 @@
+{
+  "id": "pmu-sandakan-132-33-kv-step-up-transformers",
+  "name": "PMU Sandakan 132/33 kV step-up transformers",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "Deltaspec portfolio item 4: two 60 MVA 132/33 kV transformers, supply/delivery/installation/commissioning; client Penulaju Sdn Bhd / SESB.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "RC retaining wall up to 3 m (cantilever)",
+      "year": 2025,
+      "unit": "RM/M2 WALL FACE",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, RC Retaining Walls table; includes excavation, footing, stem, drainage, formwork, rebar, C30/37; excludes backfill",
+      "low": 800,
+      "high": 1500,
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide",
+        "source_id": "alaska-infraconcrete-co-cost-programme-guide-397f736"
+      }
+    },
+    {
+      "metric": "RC retaining wall 3-6 m (cantilever)",
+      "year": 2025,
+      "unit": "RM/M2 WALL FACE",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, RC Retaining Walls table; includes excavation, footing, stem, drainage, formwork, rebar, C30/37; excludes backfill",
+      "low": 1500,
+      "high": 2500,
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide",
+        "source_id": "alaska-infraconcrete-co-cost-programme-guide-397f736"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 in foundations and floor",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 492.1,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "High tensile reinforcement 12 mm",
+      "year": 2025,
+      "unit": "RM/KG",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "value": 5.3,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Formwork to vertical faces (footings, ground beams)",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "value": 61.7,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "alaska-dspecmy-com-portfolio-d114008",
+      "note": "Deltaspec portfolio item 4: two 60 MVA 132/33 kV transformers, supply/delivery/i"
+    },
+    {
+      "url": "https://standards.ieee.org/ieee/979/7242",
+      "source_id": "alaska-standards-ieee-org-7242-9cb8c7d"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-c9ea26f"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://infraconcrete.co/cost-programme-guide",
+      "source_id": "alaska-infraconcrete-co-cost-programme-guide-397f736"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Transformer Bay Area for LV Auxiliary (11/0.433kV) - blast wall & platform",
+      "why": "No published RM/m2 for a transformer blast wall and platform; the RC retaining-wall rates read are generic retained-earth walls, not fire/blast-rated barriers.",
+      "next_action": "Obtain the blast-wall design basis (fire rating, height, blast load) and a project-specific rate."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (4 Construction direct)."
+}

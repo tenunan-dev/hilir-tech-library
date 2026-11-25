@@ -1,6 +1,6 @@
 # DIG: Digital
 
-193 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
+203 sources. Sub-topics: digital-twin, ai-ml, iiot, data-standards, cloud.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -14,6 +14,7 @@
 | [OTC Asia (Kuala Lumpur)](https://otcasia.org/) | conference | sea, apac | mixed | catalog-only (unverified) |
 | [Oxford Institute for Energy Studies (OIES)](https://www.oxfordenergy.org/) | research-institute | global, apac | open | full-text-restricted |
 | [SPE Asia Pacific Oil & Gas Conference (APOGCE)](https://www.spe.org/events/en/) | conference | apac | mixed | catalog-only (unverified) |
+| [Valmet to supply automation technology to Sabah Electricity's power plant in Malaysia](https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/) | oem-supplier | global, sea, apac | open | summary-only |
 | [APEC Asia Pacific Energy Research Centre (APERC)](https://aperc.or.jp/) | research-institute | apac | open | full-text-restricted |
 | [ASCOPE ASEAN Council on Petroleum](https://www.ascope.org/) | association | sea | open | summary-only (unverified) |
 | [ASEAN Centre for Energy (ACE)](https://aseanenergy.org/) | agency-data | sea, apac | open | full-text-restricted |
@@ -59,6 +60,9 @@
 | [Petrovietnam](https://www.pvn.vn/) | agency-data | sea | open | summary-only (unverified) |
 | [The Edge Malaysia energy coverage](https://theedgemalaysia.com/) | trade-media | sea | mixed | catalog-only (unverified) |
 | [Wellhead Monitoring System Complete Guide (2026)](https://www.merobix.com/blog/wellhead-monitoring-system-guide.html) | oem-supplier | global, sea | open | summary-only |
+| [ABB Ability System 800xA Safety Overview](https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch) | oem-supplier | global | open | summary-only |
+| [Axis F101-A XF P1367 Explosion-Protected Network Camera datasheet](https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf) | oem-supplier | global | open | summary-only |
+| [CENTUM VP General Specifications GS 33K01A10-50E](https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf) | oem-supplier | global | open | summary-only |
 | [CINEA featured projects](https://cinea.ec.europa.eu) | agency-data | eu | open | full-text-open |
 | [Columbia Center on Global Energy Policy](https://www.energypolicy.columbia.edu/) | research-institute | global | open | full-text-restricted |
 | [Congress.gov legislation text](https://www.congress.gov) | agency-data | na | open | full-text-open (unverified) |
@@ -69,20 +73,26 @@
 | [Energy Reports (Elsevier, open access)](https://www.sciencedirect.com/journal/energy-reports) | journal | global | open | full-text-open (unverified) |
 | [EPRI Electric Power Research Institute](https://www.epri.com/) | research-institute | global | mixed | catalog-only (unverified) |
 | [European Commission DG CLIMA](https://climate.ec.europa.eu) | agency-data | eu | open | full-text-open |
+| [Experion PKS C300 Controller product page](https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller) | oem-supplier | global | open | summary-only |
 | [FRED (Federal Reserve Economic Data)](https://fred.stlouisfed.org) | agency-data | global | open | full-text-with-attribution |
 | [Google Patents CN112567588B — Data Center Energy Management System](https://patents.google.com/patent/CN112567588B/en) | oem-supplier | global, na | open | summary-only |
 | [Google Patents US11611219B2 — System of critical datacenters and behind-the-meter flexible datacenters](https://patents.google.com/patent/US11611219B2/en) | oem-supplier | global, na | open | summary-only |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [Journal of Petroleum Exploration and Production Technology (Springer, OA)](https://link.springer.com/journal/13202) | journal | global | open | full-text-open |
+| [Landis+Gyr E660 product page](https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660) | oem-supplier | global | open | summary-only |
+| [Landis+Gyr E850 product page](https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850) | oem-supplier | global | open | summary-only |
 | [LBNL Electricity Markets & Policy — wind PPA prices](https://emp.lbl.gov/wind-power-purchase-agreement-ppa-prices) | research-institute | global | open | full-text-open |
 | [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
 | [National Renewable Energy Laboratory (NREL) publications](https://www.nrel.gov/research/publications.html) | research-institute | na, global | open | full-text-restricted |
 | [Offshore Technology Conference (OTC)](https://www.otcnet.org/) | conference | global | mixed | catalog-only (unverified) |
+| [Omnivise T3000 control system](https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html) | oem-supplier | global | open | summary-only |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [OSTI.GOV DOE scientific and technical information](https://www.osti.gov/) | agency-data | na, global | open | full-text-restricted |
+| [Ovation Distributed Control System (DCS)](https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system) | oem-supplier | global | open | summary-only |
 | [Pacific Northwest National Laboratory](https://www.pnnl.gov/) | research-institute | na | open | full-text-restricted |
 | [Processes (MDPI)](https://www.mdpi.com/journal/processes) | journal | global | open | full-text-open |
+| [Siemens RUGGEDCOM 19” Layer 2 Ethernet Switches brochure](https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf) | oem-supplier | global | open | summary-only |
 | [SPE Journal](https://onepetro.org/SJ) | journal | global | paywalled | catalog-only (unverified) |
 | [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open |
 | [USGS Energy Resources Program](https://www.usgs.gov/programs/energy-resources-program) | agency-data | na, global | open | full-text-open |

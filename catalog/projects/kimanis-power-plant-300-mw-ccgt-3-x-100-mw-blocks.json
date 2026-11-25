@@ -1,0 +1,84 @@
+{
+  "id": "kimanis-power-plant-300-mw-ccgt-3-x-100-mw-blocks",
+  "name": "Kimanis Power Plant, 300 MW CCGT (3 x 100 MW blocks)",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah, Kimanis, Papar)",
+  "location": "Malaysia (Sabah, Kimanis, Papar)",
+  "status": "operating",
+  "description": "EPCC consortium CTCI Corporation, Synerlitz Sdn Bhd, SCHB Engineering Services; owner Kimanis Power Sdn Bhd; RM1.5 billion printed.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [
+    {
+      "event": "EPCC contract signed for Kimanis 300 MW plant",
+      "date": "2011",
+      "source": {
+        "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+        "source_id": "alaska-dailyexpress-com-my-76deb3e"
+      }
+    },
+    {
+      "event": "SESB 94 MW fast-track Kimanis project notified",
+      "date": "2024",
+      "source": {
+        "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
+        "source_id": "alaska-theborneopost-com-db0284b"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "total Kimanis 300 MW CCGT plant capital (not a construction-management component)",
+      "year": 2011,
+      "unit": "RM",
+      "basis": "Daily Express, published 24 May 2011: 'The RM1.5 billion plant owned by Kimanis Power Sdn Bhd (KPSB)', 60:40 JV of Petronas Gas Berhad and NRG Consortium (Sabah) Sdn Bhd. Whole-plant figure; no indirect-cost breakdown printed.",
+      "value": 1500000000,
+      "source": {
+        "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+        "source_id": "alaska-dailyexpress-com-my-76deb3e"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+      "source_id": "alaska-dailyexpress-com-my-76deb3e",
+      "note": "EPCC consortium CTCI Corporation, Synerlitz Sdn Bhd, SCHB Engineering Services; "
+    },
+    {
+      "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+      "source_id": "alaska-dailyexpress-com-my-76deb3e"
+    },
+    {
+      "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
+      "source_id": "alaska-theborneopost-com-db0284b"
+    },
+    {
+      "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
+      "source_id": "alaska-cidb-gov-my-7ada474"
+    },
+    {
+      "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
+      "source_id": "alaska-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
+    },
+    {
+      "url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf",
+      "source_id": "alaska-r-jina-ai-perintah-kualiti-alam-sekeliling-a-1d5ada5"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Construction Management + Svc (Sub-con, Third Party Cost, Local Authorities etc)",
+      "why": "No public document publishes a construction-management fee, subcontract third-party cost schedule, or Sabah local-authority fee schedule for this 7-unit project. The RM1.5 billion figure is a whole-plant capital sum with no indirect breakdown.",
+      "next_action": "Obtain the bidder's priced BOQ and the relevant Sabah local-authority fee schedule; do not derive an indirect percentage from the RM1.5 billion total."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (5/6/7 Construction indirect, commissioning, EPC indirect)."
+}

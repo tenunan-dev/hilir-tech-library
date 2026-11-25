@@ -1,0 +1,301 @@
+{
+  "id": "alaska-fire-fighting-system-package",
+  "name": "Fire Fighting System Package",
+  "equipment_type": "wbs-3-2-mechanical",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Fire Fighting System Package",
+  "aliases": [
+    "Fire Fighting System Package"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — overall NFPA-20 supply range (flow)",
+      "unit": "GPM",
+      "basis": "ROTAMAC 'Fire Fighting Pumps and Package Solutions' PDF: 'Per NFPA-20, we are able to supply ranges from 20 GPM up to 10000 GPM with net pressures of 50 to 700 PSI or more'; PDF read via r.jina.ai mirror; r.jina.ai Published Time Wed, 10 May 2023 08:44:59 GMT; no printed publication date in document body.",
+      "low": 20,
+      "high": 10000,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — overall NFPA-20 supply range (pressure)",
+      "unit": "PSI (printed '50 to 700 PSI or more')",
+      "basis": "ROTAMAC fire pump PDF; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "low": 50,
+      "high": 700,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — split casing fire pump flow",
+      "unit": "GPM",
+      "basis": "ROTAMAC PDF 'Split Casing Fire Pump – CHARACTERISTICS'; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "low": 250,
+      "high": 4000,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — split casing fire pump pressure",
+      "unit": "PSI",
+      "basis": "ROTAMAC PDF 'Split Casing Fire Pump'; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "low": 50,
+      "high": 700,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — end suction fire pump flow",
+      "unit": "GPM",
+      "basis": "ROTAMAC PDF 'End Suction Fire Pump'; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "low": 50,
+      "high": 750,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — in-line fire pump flow",
+      "unit": "GPM",
+      "basis": "ROTAMAC PDF 'In-Line Fire Pump'; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "low": 20,
+      "high": 220,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — vertical turbine fire pump flow",
+      "unit": "GPM",
+      "basis": "ROTAMAC PDF 'Vertical Turbine Fire Pump'; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "low": 250,
+      "high": 5500,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — multi-stage fire pump pressure",
+      "unit": "PSI",
+      "basis": "ROTAMAC PDF 'Multi-Stage Fire Pump'; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "low": 700,
+      "high": 1530,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — jockey pump sizing basis",
+      "unit": "% flow and 10 to 20 PSI higher pressure of the fire pump",
+      "basis": "ROTAMAC PDF 'Jockey Pump': 'Jockey pumps are normally sized for 1% flow and a 10 to 20 PSI higher pressure of the fire pump'; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "value": 1,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — complete package flow",
+      "unit": "GPM",
+      "basis": "ROTAMAC PDF 'Complete Package Fire Pump' characteristics; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "low": 50,
+      "high": 10000,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — complete package pressure",
+      "unit": "PSI",
+      "basis": "ROTAMAC PDF 'Complete Package Fire Pump'; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "low": 50,
+      "high": 1530,
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "ROTAMAC fire fighting pumps and comple — pump standards listed",
+      "unit": "EN733/DIN24255; ISO2858/ISO5199; ASME B73.1; API610",
+      "basis": "ROTAMAC PDF list of standardised pump types; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    },
+    {
+      "metric": "Ruhrpumpen integrated fire protection  — electric motor rating",
+      "unit": "HP (approximately; 6600 V / 50 Hz)",
+      "basis": "Ruhrpumpen article 'Ruhrpumpen Has Developed High-Performance Fire Pump Package...'; page read 2026-11-25; no article date printed, site footer ©2026; motor is medium-voltage TEFC induction.",
+      "value": 350,
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "Ruhrpumpen integrated fire protection  — diesel engine rating",
+      "unit": "HP (approximately; Clarke C18, 1760 rpm)",
+      "basis": "Ruhrpumpen article; page read 2026-11-25; site footer ©2026; UL/FM-certified engine with 24 VDC starting.",
+      "value": 510,
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "Ruhrpumpen integrated fire protection  — diesel starting system",
+      "unit": "VDC",
+      "basis": "Ruhrpumpen article diesel-driven package description; page read 2026-11-25.",
+      "value": 24,
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "Ruhrpumpen integrated fire protection  — pumphouse lighting",
+      "unit": "lux",
+      "basis": "Ruhrpumpen article supporting infrastructure description; page read 2026-11-25.",
+      "value": 500,
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "Ruhrpumpen integrated fire protection  — diesel fuel tank",
+      "unit": "UL-142 double-wall diesel fuel tank with integrated leak monitoring",
+      "basis": "Ruhrpumpen article diesel-driven package description; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "Ruhrpumpen integrated fire protection  — pump construction",
+      "unit": "ZW series horizontal split-case fire pumps (BB1 design), single-stage between-be",
+      "basis": "Ruhrpumpen article scope of supply; page read 2026-11-25; site footer ©2026.",
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "Ruhrpumpen integrated fire protection  — controllers and communications",
+      "unit": "Tornatech MPA (electric) and GPD (diesel), Modbus TCP/IP capability on MPA",
+      "basis": "Ruhrpumpen article; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    },
+    {
+      "metric": "Ruhrpumpen integrated fire protection  — corrosion protection",
+      "unit": "C5 coating, SSPC-SP10 preparation, zinc-rich primer, high-build epoxy, polyureth",
+      "basis": "Ruhrpumpen article; page read 2026-11-25.",
+      "year": 2026,
+      "source": {
+        "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+        "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "alaska-vendor-ruhrpumpen-group-a4979",
+      "line": "Ruhrpumpen integrated fire protection pumping system (ZW series electric + diesel pumps, jockey pump, controllers, pumph",
+      "note": "packaged NFPA 20 fire pump system for heavy industrial service"
+    }
+  ],
+  "vendors": [
+    "alaska-vendor-ruhrpumpen-group-a4979",
+    "alaska-vendor-tornatech-controllers-ef116",
+    "alaska-vendor-clarke-c18-diesel-engine-13dd4"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+      "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+    },
+    {
+      "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+      "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+    },
+    {
+      "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
+      "source_id": "alaska-focusmalaysia-my-kinergy-secures-biggest-epc-2381482"
+    },
+    {
+      "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
+      "source_id": "alaska-focusmalaysia-my-kinergy-secures-biggest-epc-2381482",
+      "note": "LOA dated 13 May 2025 from Rancha Power (PETRONAS Gas / SESB / SEC Power JV formed 31 Dec 2024) to KAB Energy Holdings / Kinergy Advancement Bhd; nine acres adjacent Labuan Shipyard. Fire-fighting pac"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Fire Fighting System Package",
+      "why": "A search result showed a 'Fire Pump Set RM8,000.00 – RM45,000.00' listing on mytoolhub.com, but both direct WebFetch and r.jina.ai failed to retrieve the page (transport error / 422); no printed price was actually read, so no price is recorded.",
+      "next_action": "Re-open the price page with a working fetch path and record the printed RM figures with the page's price year."
+    },
+    {
+      "what": "Fire Fighting System Package",
+      "why": "No patent page or patent number was actually read.",
+      "next_action": "Read official patent register pages before recording any patent."
+    },
+    {
+      "what": "Fire Fighting System Package",
+      "why": "No named, dated, sized, located fire-pump reference project was printed; Ruhrpumpen describes a package but names no site or date.",
+      "next_action": "Request reference project list from Ruhrpumpen, ROTAMAC or their Malaysian agents."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.2 Mechanical).",
+  "last_reviewed": "2026-11-25"
+}

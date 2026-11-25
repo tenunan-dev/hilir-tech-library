@@ -1,0 +1,25 @@
+{
+  "id": "alaska-mat-sae-40-low-ash-gas-engine-oil",
+  "name": "SAE 40 low-ash gas engine oil",
+  "material_category": "lubricant",
+  "description": "SAE 40 low-ash gas engine oil named on a page read in the Alaska GEG WBS sweep.",
+  "specifications": [
+    {
+      "metric": "SAE viscosity class",
+      "unit": "SAE",
+      "basis": "MTU A001072/02E printed 2020-06: SAE 40 stipulated for gas engines; multigrade not permitted; approved oils include Shell Mysella S5 N 40, Castrol Duratec L, Mobil Pegasus 705/805/1005. (value: 40)",
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+      "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

@@ -1,0 +1,200 @@
+{
+  "id": "pltd-pesanggaran-bali-200-mw-multi-fuel-engine-plant",
+  "name": "PLTD Pesanggaran Bali, 200 MW multi-fuel engine plant",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "description": "Wärtsilä reference: 12 x Wärtsilä 18V50DF, 200 MW, owner PT Indonesia Power, EPC in consortium with PT PP; order received Q4 2013, full output end May 2015; over 48% thermal efficiency at any load as printed. Multi-engine (12) reference, not 7-unit.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [
+    {
+      "event": "GE acquired Jenbacher gas engine-energy division; later sold Jenbacher and Waukesha to Advent International, creating INNIO",
+      "date": "2018",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher",
+        "source_id": "alaska-en-wikipedia-org-jenbacher-436766f"
+      }
+    },
+    {
+      "event": "Kipevu II financial closing, construction start and commercial operation",
+      "date": "2001",
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/utilities/kipevu-ii-iii-kenya",
+        "source_id": "alaska-wartsila-com-kipevu-ii-iii-kenya-f14b133"
+      }
+    },
+    {
+      "event": "Kipevu III turnkey contract awarded and handover",
+      "date": "2011",
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/utilities/kipevu-ii-iii-kenya",
+        "source_id": "alaska-wartsila-com-kipevu-ii-iii-kenya-f14b133"
+      }
+    },
+    {
+      "event": "Pesanggaran Bali order, full output and fuel switch",
+      "date": "2015",
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali",
+        "source_id": "wartsila-com-utilities-pesanggaran-bali"
+      }
+    },
+    {
+      "event": "Wärtsilä contract for three 150 MW Brazilian balancing plants announced",
+      "date": "2021",
+      "source": {
+        "url": "https://www.wartsila.com/media/news/18-11-2021-wartsila-contracted-to-supply-three-flexible-thermal-balancing-power-plants-totalling-150-mw-to-brazil-3009303",
+        "source_id": "alaska-wartsila-com-18-11-2021-wartsila-contracted-c75af63"
+      }
+    },
+    {
+      "event": "Rolls-Royce launches mtu Series 500 gas gensets",
+      "date": "2020",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+        "source_id": "alaska-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
+      }
+    },
+    {
+      "event": "Wärtsilä/EPV Mertaniemi 43 MW balancing plant order booked",
+      "date": "2026",
+      "source": {
+        "url": "https://www.powermag.com/wartsila-will-supply-engines-for-finnish-power-plant-project/",
+        "source_id": "alaska-powermag-com-ad5cacc"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Total capital cost, 4 x 5.6 MW natural-gas reciprocating engine (RICE) plant, 21.4 MW net",
+      "year": 2019,
+      "unit": "USD",
+      "basis": "EIA/Sargent & Lundy 'Capital Cost and Performance Characteristic Estimates for Utility Scale Electric Power Generating Technologies', Case 4, Table 4-1: 'Total Capital Cost $ 38,727,000', 'Case 4 EIA – Capital Cost Estimates – 2019 $s'. Contractor final Rev. 1 dated 9 December 2019; EIA report February 2020; r.jina.ai Published Time Wed, 05 Feb 2020. Fetched via r.jina.ai.",
+      "value": 38727000,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_aeo2020.pdf",
+        "source_id": "alaska-r-jina-ai-capital-cost-aeo2020-pdf-dc66d5b"
+      }
+    },
+    {
+      "metric": "Overnight capital cost per kW net, 4 x 5.6 MW natural-gas RICE plant",
+      "year": 2019,
+      "unit": "USD/KW",
+      "basis": "Same EIA/Sargent & Lundy Case 4: 'The base cost estimate for this technology case totals $1810/kW' and table row '$/kW net 1,810', in 2019 $s. EIA report February 2020; fetched via r.jina.ai.",
+      "value": 1810,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_aeo2020.pdf",
+        "source_id": "alaska-r-jina-ai-capital-cost-aeo2020-pdf-dc66d5b"
+      }
+    },
+    {
+      "metric": "Engines and associated auxiliaries, owner-furnished from engine OEM (4 x 5.6 MW case)",
+      "year": 2019,
+      "unit": "USD",
+      "basis": "EIA/Sargent & Lundy Case 4 Table 4-1: 'Engines (Note 3) $ 11,974,000' and 'Owner Furnished Equipment (Note 3) $ 11,974,000'; Note 3 'Engines and associated auxiliaries procured by Owner from the engine OEM.' 2019 $s; report February 2020.",
+      "value": 11974000,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_aeo2020.pdf",
+        "source_id": "alaska-r-jina-ai-capital-cost-aeo2020-pdf-dc66d5b"
+      }
+    },
+    {
+      "metric": "Total installed cost, industrial natural gas reciprocating engine 1,000 kW, year 2015",
+      "year": 2015,
+      "unit": "USD/KW",
+      "basis": "EIA 'Distributed Generation and Combined Heat & Power System Characteristics and Costs in the Buildings Sector', Appendix A Leidos report, Table 5-6 'Industrial Capital Costs - Natural Gas Reciprocating Engine - Reference New Equipment', year column 2015, 'Total Installed Cost ($/kW) 1,899'. Footnote: 'Costs presented are in current 2015 dollars'. EIA report April 2017; Leidos appendix May 2016; r",
+      "value": 1899,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf",
+        "source_id": "alaska-r-jina-ai-dg-chp-pdf-a00dae7"
+      }
+    },
+    {
+      "metric": "Total installed cost, industrial natural gas reciprocating engine 1,000 kW, year 2020",
+      "year": 2020,
+      "unit": "USD/KW",
+      "basis": "Same Table 5-6, year column 2020, 'Total Installed Cost ($/kW) 2,105'; footnote 'Costs presented are in current 2015 dollars' (i.e. nominal dollars reported on a 2015 price basis in the printed table). EIA report April 2017; Leidos appendix May 2016.",
+      "value": 2105,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf",
+        "source_id": "alaska-r-jina-ai-dg-chp-pdf-a00dae7"
+      }
+    },
+    {
+      "metric": "Total installed cost, industrial natural gas reciprocating engine 3,000 kW, year 2015",
+      "year": 2015,
+      "unit": "USD/KW",
+      "basis": "Same EIA/Leidos report Table 5-14 'Industrial Capital Costs Natural Gas Reciprocating Engine - Reference New Equipment', year column 2015, 'Total Installed Cost ($/kW) 1,742'. Footnote: 'Costs presented are in current 2015 dollars'.",
+      "value": 1742,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf",
+        "source_id": "alaska-r-jina-ai-dg-chp-pdf-a00dae7"
+      }
+    },
+    {
+      "metric": "Total installed cost, industrial natural gas reciprocating engine 3,000 kW, year 2020",
+      "year": 2020,
+      "unit": "USD/KW",
+      "basis": "Same Table 5-14, year column 2020, 'Total Installed Cost ($/kW) 1,931'; footnote 'Costs presented are in current 2015 dollars'.",
+      "value": 1931,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf",
+        "source_id": "alaska-r-jina-ai-dg-chp-pdf-a00dae7"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali",
+      "source_id": "wartsila-com-utilities-pesanggaran-bali",
+      "note": "Wärtsilä reference: 12 x Wärtsilä 18V50DF, 200 MW, owner PT Indonesia Power, EPC"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+      "source_id": "alaska-wartsila-com-engine-power-plant-products-e1596e1"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+      "source_id": "alaska-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+    },
+    {
+      "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
+      "source_id": "man-eu-gas-power-generation-gas-html"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
+      "source_id": "alaska-jenbacher-com-23aa945"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jenbacher",
+      "source_id": "alaska-en-wikipedia-org-jenbacher-436766f"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "GEG (7 units)",
+      "why": "No web page was found that identifies a 7-unit gas engine generator plant connected to SESB at 132/33/11 kV in Sabah. Searches returned the Sabah Grid Code and Sabah network diagrams (132/33/11 kV) but no link to a 7-unit GEG project; the 7-unit references found are in Kenya, India and an undated In",
+      "next_action": "Obtain the project EIA/EMF or tender document for the Sabah 7-unit GEG and quote the exact plant rating, OEM, connection voltage and date from that primary document before adding them."
+    },
+    {
+      "what": "GEG (7 units)",
+      "why": "No printed $/unit or $/kW price or package value for a 7-unit gas engine plant in Malaysia or in RM was found. The only price evidence read is generic US-dollar EIA/Sargent & Lundy and EIA/Leidos estimate tables for 4-engine and 1-3 MW reference cases.",
+      "next_action": "Source a dated Malaysian tender award, BOQ or contract value for the actual 7-unit GEG; keep the US generic $/kW figures side by side, never converted or substituted."
+    },
+    {
+      "what": "GEG (7 units)",
+      "why": "No dated contract specifically for a 7-unit gas-engine plant was found; dated contracts located cover four Wärtsilä 34SG engines (Mertaniemi, Q4 2026), 16 x 20V34SG (Brazil, 18 November 2021), seven W18V38 (2001) and seven W18V46 (2009/2011), the latter two being oil-fuel plants.",
+      "next_action": "Locate and read the GEG supply or EPC contract award notice; record its exact date, parties, unit count and rating without reconciling it against the other projects."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (3.1 GEG / 3.5 Misc)."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "alaska-vendor-unidentified",
+  "name": "Supplier not identified in sources read (WBS line item)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Stub placeholder: no supplier name was stated on the pages read for this WBS line item.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "stub": true,
+  "notes": "Not a real supplier; used only where a WBS line item had sourced technical evidence but no named vendor."
+}

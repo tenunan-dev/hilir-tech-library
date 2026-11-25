@@ -1,0 +1,35 @@
+{
+  "id": "alaska-mat-smc-sheet-moulding-compound-grp-panels",
+  "name": "SMC (Sheet Moulding Compound) GRP panels",
+  "material_category": "composites",
+  "description": "SMC (Sheet Moulding Compound) GRP panels named on a page read in the Alaska GEG WBS sweep.",
+  "specifications": [
+    {
+      "metric": "resin",
+      "unit": "as printed",
+      "basis": "PIPECO materials specification; page read 2026-11-25. (value: isophthalic unsaturated polyester resin conforming to BS 3532 or JIS K 6919)",
+      "year": 2026,
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
+        "source_id": "alaska-pipeco-com-my-grp-sectional-water-tank-21374e0"
+      }
+    },
+    {
+      "metric": "fibre",
+      "unit": "as printed",
+      "basis": "PIPECO materials and panel performance tables; page read 2026-11-25. (value: Type 'E' Glass ... conforming to BS 3496 and BS 3749; glass content 33%)",
+      "year": 2026,
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
+        "source_id": "alaska-pipeco-com-my-grp-sectional-water-tank-21374e0"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
+      "source_id": "alaska-pipeco-com-my-grp-sectional-water-tank-21374e0"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

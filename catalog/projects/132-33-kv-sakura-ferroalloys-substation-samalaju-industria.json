@@ -1,0 +1,133 @@
+{
+  "id": "132-33-kv-sakura-ferroalloys-substation-samalaju-industria",
+  "name": "132/33 kV Sakura Ferroalloys Substation, Samalaju Industrial Park",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sarawak)",
+  "location": "Malaysia (Sarawak)",
+  "status": "operating",
+  "description": "PESTEC reference: turnkey engineering, design, installation, testing, commissioning and warranty; client Metix Malaysia Sdn Bhd.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "Reinforced concrete C16/20 in foundations and floor",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 492.1,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 in beams",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 634.4,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 in columns",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 663.6,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 floor slab, average 75 mm",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "value": 36.9,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "High tensile reinforcement 12 mm",
+      "year": 2025,
+      "unit": "RM/KG",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "value": 5.3,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Formwork to vertical faces (footings, ground beams)",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "value": 61.7,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Formwork to beam sides and soffit",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "value": 80.1,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "alaska-pestec-international-com-electrical-substati-bc9755e",
+      "note": "PESTEC reference: turnkey engineering, design, installation, testing, commission"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/63466",
+      "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "alaska-pestec-international-com-electrical-substati-bc9755e"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "33 kV substation and low voltage distribution room (reinforced concrete 27.2x7x5.3)",
+      "why": "No published RM/m2 or project-specific cost for a combined 33 kV substation and LV distribution room in Sabah.",
+      "next_action": "Source a comparable 33/11 kV substation building BQ or tender award."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (4 Construction direct)."
+}

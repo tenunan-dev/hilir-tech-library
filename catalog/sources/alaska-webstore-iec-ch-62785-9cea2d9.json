@@ -1,0 +1,23 @@
+{
+  "id": "alaska-webstore-iec-ch-62785-9cea2d9",
+  "name": "IEC 62271-100:2021",
+  "url": "https://webstore.iec.ch/en/publication/62785",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "International Electrotechnical Commission",
+  "access": "open",
+  "licence": "IEC webstore page; standard itself is paywalled (CHF 475 shown)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: HTML webstore page read with WebFetch 2026-11-25; scope, publication date 2021-07-07, edition 3.0 and 600 pages printed on page.. Exact printed figures are recorded in the linked records' basis fields."
+}

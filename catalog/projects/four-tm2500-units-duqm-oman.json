@@ -1,0 +1,65 @@
+{
+  "id": "four-tm2500-units-duqm-oman",
+  "name": "Four TM2500 units, Duqm, Oman",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Oman",
+  "location": "Oman",
+  "status": "operating",
+  "description": "110 MW total; aeroderivative machines (compact lube systems / synthetic ester lubricants apply). Article published 11 February 2024.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [],
+  "capex": [],
+  "sources": [
+    {
+      "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+      "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce",
+      "note": "110 MW total; aeroderivative machines (compact lube systems / synthetic ester lu"
+    },
+    {
+      "url": "https://robenmfg.com/lubricating-oil-storage-application",
+      "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+    },
+    {
+      "url": "https://atlanticcontainment.com/lube-tanks",
+      "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+    },
+    {
+      "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+      "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+    },
+    {
+      "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
+      "source_id": "alaska-focusmalaysia-my-kinergy-secures-biggest-epc-2381482"
+    },
+    {
+      "url": "https://basiia.com/products/api-650-tanks",
+      "source_id": "alaska-basiia-com-api-650-tanks-28cf110"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Lube Oil Tank System Package",
+      "why": "No printed price, rate or cost for this package on any page read; all vendors require a quote.",
+      "next_action": "Obtain a priced vendor quotation or the project tender BOQ for the 7-unit plant."
+    },
+    {
+      "what": "Lube Oil Tank System Package",
+      "why": "No patent page or patent number was actually read for lube oil tank systems.",
+      "next_action": "Read official patent register pages (e.g. Espacenet/USPTO) before recording any patent."
+    },
+    {
+      "what": "Lube Oil Tank System Package",
+      "why": "No vendor drawing PDF was opened; only links to drawing PDFs were seen on the Atlantic Containment page.",
+      "next_action": "Open and read the linked ACxxxx drawing PDFs, then record drawing titles."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (3.2 Mechanical)."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "alaska-mat-carbon-steel-stainless-steel-duplex-super-duplex-has",
+  "name": "carbon steel, stainless steel, duplex, super duplex, Hastelloy, Inconel",
+  "material_category": "metals",
+  "description": "carbon steel, stainless steel, duplex, super duplex, Hastelloy, Inconel named on a page read in the Alaska GEG WBS sweep.",
+  "specifications": [
+    {
+      "metric": "material options",
+      "unit": "as printed",
+      "basis": "Roben Manufacturing FAQ; page read 2026-11-25; footer ©2025. (value: carbon steel through specialty alloys)",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://robenmfg.com/lubricating-oil-storage-application",
+      "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

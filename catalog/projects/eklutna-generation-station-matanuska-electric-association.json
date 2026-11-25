@@ -1,0 +1,77 @@
+{
+  "id": "eklutna-generation-station-matanuska-electric-association",
+  "name": "Eklutna Generation Station (Matanuska Electric Association), Alaska, USA",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "USA",
+  "location": "USA",
+  "status": "operating",
+  "description": "10 x Wärtsilä 18V50DF multi-fuel gensets, 171 MW, natural gas & LFO, EEQ scope; printed in Wärtsilä gas/multi-fuel brochure (08.2017).",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [
+    {
+      "event": "Wärtsilä gas power plants reference delivery: Sasolburg, South Africa, 18 x Wärtsilä 20V34SG, 175 MW, EPC, delivery 2012",
+      "date": "2012",
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+        "source_id": "alaska-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Exhaust gas treatment capital cost (representative lean-burn gas engine CHP, systems 2-5 in Table 2-4)",
+      "year": 2013,
+      "unit": "$/KW (2013 DOLLARS, USD AS PRINTED)",
+      "basis": "US EPA / ICF 'Catalog of CHP Technologies, Section 2 — Reciprocating Internal Combustion Engines', March 2015 (September 2017 revision noted), Table 2-4 row 'Exhaust Gas Treatment': $750, $500, $230, $150 $/kW for systems 2-5; text §2.5.2.6 states SCR with oxidation catalyst and CEMS adds between $150-$700/kW for lean burn engines. Read via r.jina.ai 2026-06-25.",
+      "low": 150,
+      "high": 750,
+      "source": {
+        "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf",
+        "source_id": "alaska-epa-gov-catalog-of-chp-technologies-section-461c8db"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+      "source_id": "alaska-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3",
+      "note": "10 x Wärtsilä 18V50DF multi-fuel gensets, 171 MW, natural gas & LFO, EEQ scope; "
+    },
+    {
+      "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
+      "source_id": "alaska-iacacoustics-global-021ca23"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+      "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+    },
+    {
+      "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
+      "source_id": "alaska-matthey-com-nox-control-systems-af80333"
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+      "source_id": "alaska-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
+    },
+    {
+      "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf",
+      "source_id": "alaska-epa-gov-catalog-of-chp-technologies-section-461c8db"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Exhaust Gas System Package",
+      "why": "No project-specific vendor list, ducting/silencer sizes, stack height, emission guarantee or quoted package price for the 7-unit SESB plant was found in any page read.",
+      "next_action": "Obtain the exhaust package BOQ, silencer datasheets and vendor quotations from the project tender/EPC documents; do not infer a package price from generic $/kW data."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (3.2 Mechanical)."
+}

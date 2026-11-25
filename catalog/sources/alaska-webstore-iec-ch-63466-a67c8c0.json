@@ -1,0 +1,23 @@
+{
+  "id": "alaska-webstore-iec-ch-63466-a67c8c0",
+  "name": "IEC 62271-200:2021 - AC metal-enclosed switchgear and controlgear above 1 kV up to 52 kV",
+  "url": "https://webstore.iec.ch/en/publication/63466",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "IEC",
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: IEC Webstore page read 2026-11-25. Publication date 2021-05-27, edition 3.0, CHF 405 (list price). Scope: prefabricated metal-enclosed AC switchgear >1 kV to 52 kV, up to 60 Hz, indoor/outdoor; internal arc and LSC categories addressed.. Exact printed figures are recorded in the linked records' basis fields."
+}

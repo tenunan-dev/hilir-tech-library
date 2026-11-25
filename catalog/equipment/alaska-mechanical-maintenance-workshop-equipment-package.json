@@ -1,0 +1,54 @@
+{
+  "id": "alaska-mechanical-maintenance-workshop-equipment-package",
+  "name": "Mechanical Maintenance Workshop Equipment Package",
+  "equipment_type": "wbs-3-2-mechanical",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Mechanical Maintenance Workshop Equipment Package",
+  "aliases": [
+    "Mechanical Maintenance Workshop Equipment Package"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "WBS line item",
+      "value": "Mechanical Maintenance Workshop Equipment Package",
+      "unit": "n/a",
+      "basis": "Line item from the Alaska GEG WBS/BOQ; no sourced numeric specification found.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Work package supplied by owner; not a technical source."
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "http://www.mpmachinery.com.my/products.cfm?Show=13&Sub=26"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Mechanical Maintenance Workshop Equipment Package",
+      "why": "No machine list, ratings, dimensions, OEMs, standards, project reference or price for the workshop equipment package was found in any page read. The only Sabah-based evidence is a distributor category page that lists a lathe-machine catalogue without printed specifications.",
+      "next_action": "Obtain the workshop equipment schedule from the tender BOQ and the linked MAC Products catalogue PDF; record machine-by-machine specs and prices only from documents actually read."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.2 Mechanical).",
+  "last_reviewed": "2026-11-25"
+}

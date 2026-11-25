@@ -3,11 +3,11 @@
 What the library should hold but does not yet, why, where to get it and what to do next. Generated from the `gaps` field
 of each card in catalog/technologies/ and from register entries without a card. Agents: call `list_gaps`.
 
-696 missing inputs on 332 cards; 7 register technologies have no card yet.
+699 missing inputs on 333 cards; 7 register technologies have no card yet.
 
 | Reason | Count |
 | --- | --- |
-| not_in_sources_read | 680 |
+| not_in_sources_read | 683 |
 | paid_source | 11 |
 | no_card_yet | 7 |
 | status_unchecked | 2 |
@@ -420,6 +420,9 @@ of each card in catalog/technologies/ and from register entries without a card. 
 | Technology | Missing | Why | Where to get it | Next action |
 | --- | --- | --- | --- | --- |
 | [Aeroderivative and industrial gas turbines](technologies-PWR.md#pwr-aeroderivative-turbines) | TRL with a cited source (trl) | The IEA ETP Clean Energy Technology Guide has no matching entry. no open TRL source found (IEA ETP guide checked 2026-10-28; no SETIS/DOE entry). | IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open) | Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card. |
+| [Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV)](technologies-PWR.md#pwr-alaska-geg-wbs-supply-chain) | WBS line item with zero evidence: Admin Charges for Gas Engine Generator Handling (other) | No publicly readable page was found for this exact line item in the 2026-11-25 sweep. | OEM catalogues, tender documents, SESB/DOSH filings and Malaysian cost references (open) | Search supplier catalogues and project tender awards for the item. |
+| [Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV)](technologies-PWR.md#pwr-alaska-geg-wbs-supply-chain) | WBS line item with zero evidence: Profit Undertaking for Gas Engine Generator (other) | No publicly readable page was found for this exact line item in the 2026-11-25 sweep. | OEM catalogues, tender documents, SESB/DOSH filings and Malaysian cost references (open) | Search supplier catalogues and project tender awards for the item. |
+| [Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV)](technologies-PWR.md#pwr-alaska-geg-wbs-supply-chain) | WBS line item with zero evidence: Others (BIDDER to specify): (other) | No publicly readable page was found for this exact line item in the 2026-11-25 sweep. | OEM catalogues, tender documents, SESB/DOSH filings and Malaysian cost references (open) | Search supplier catalogues and project tender awards for the item. |
 | [Ammonia co-firing in coal boilers](technologies-PWR.md#pwr-ammonia-coal-cofiring) | co-firing retrofit capital cost (costs) | The fuel price is recorded ($782-860/t, 2025). Retrofit capex is unpublished: the demonstration projects do not disclose it. | NEDO and METI Green Innovation Fund documents (catalog: meti-japan, open) | Leave open until a source states this metric and scope. |
 | [Combined cycle and HRSG](technologies-PWR.md#pwr-combined-cycle-hrsg) | TRL with a cited source (trl) | The IEA ETP Clean Energy Technology Guide has no matching entry. | IEA ETP Clean Energy Technology Guide (collected): search for the technology name (catalog: iea-reports, open) | Find a TRL table that lists this technology, or leave maturity resting on the evidence on the card. |
 | [Containerised hybrid power modules (solar, storage, gensets)](technologies-PWR.md#pwr-containerised-hybrid-modules) | module prices or contract rates in $/kW or $/kWh delivered, with dollar year (costs) | Vendor pages sell services without publishing rates. Web-checked 2026-10-28; module prices are quote-only. | arXiv and open-access journals: hybrid solar-storage-diesel techno-economic studies for mines and islands (catalog: arxiv, open)<br>IRENA reports on hybrid mini-grid costs (irena.org) (open) | Find an open cost figure; record it with metric, range, unit, dollar year, basis and source. |

@@ -1,6 +1,6 @@
 # GAS: Gas processing and LNG
 
-268 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
+283 sources. Sub-topics: gas-treating, ngl-recovery, liquefaction, flng, regasification, lng-shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -45,15 +45,21 @@
 | [Australian Energy Producers (formerly APPEA)](https://energyproducers.au/) | association | apac | open | full-text-restricted |
 | [Automation for Offshore Platforms and FSOs](https://www.tdl-ia.com/offshore-platform-fso-automation.html) | oem-supplier | global, sea | open | summary-only |
 | [AWT — Duyong Field Development Plan case study (PDF)](https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf) | oem-supplier | sea | open | summary-only |
+| [Camfil CAMGT Box Type G II data sheet (dated 2025-10-09)](https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Chiyoda Corporation](https://www.chiyodacorp.com/en/) | epc-contractor | apac, global | open | full-text-restricted |
 | [CNPC Economics and Technology Research Institute](https://www.cnpc.com.cn/en/) | research-institute | apac | open | summary-only (unverified) |
 | [Directorate General of Oil and Gas (Ditjen Migas), Indonesia](https://www.migas.esdm.go.id/) | agency-data | sea | open | full-text-restricted |
+| [Donaldson Air Intake Systems Product Guide (F110027-ENG), 324 pages](https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [Ebara Corporation](https://www.ebara.com/) | oem-supplier | apac, global | open | summary-only (unverified) |
+| [Emerson Gas Ultrasonic Metering System datasheet DAN-GAS-TQ-GUSM-0213, February 2022](https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf) | oem-supplier | global, sea, apac | open | summary-only |
+| [Emerson White Paper D353412X012 — Fuel Gas Supply System for Gas Power Plants, August 2024](https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [EnQuest — Malaysia FOA investor deck (10 Jun 2026, PDF)](https://www.enquest.com/fileadmin/content/press_release_pdfs/2026/Malaysia_FOA_-_Investor_Deck_vF.pdf) | oem-supplier | sea | open | summary-only |
+| [EP3137745B1 — Compact SCR system for 500 to 4500 kW engines (Google Patents)](https://patents.google.com/patent/EP3137745B1/en) | oem-supplier | global, sea, apac | open | summary-only |
 | [EPCIC of Merapuh - A Production Topside for SK309/311 Phase II Sarawak Gas Development Project](https://brookeholding.com/epcic-of-merapuh-a-production-topside-for-sk309-311-phase-ii-sarawak-gas-development-project/) | oem-supplier | global, sea | open | summary-only |
 | [ERIA Economic Research Institute for ASEAN and East Asia](https://www.eria.org/) | research-institute | sea, apac | open | full-text-restricted |
 | [Gastech](https://www.gastechevent.com/) | conference | global, apac | mixed | catalog-only (unverified) |
 | [Hook-up and Commissioning Track Record (Vantris Energy / Sapura Energy)](https://vantrisenergy.com/operations-maintenance/hook-up-and-commissioning/track-record) | oem-supplier | global, sea | open | summary-only |
+| [IAC Acoustics — Exhaust Silencers](https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/) | oem-supplier | global, sea, apac | open | summary-only |
 | [ICIS chemicals and energy news](https://www.icis.com/explore/) | trade-media | global, apac | paywalled | catalog-only (unverified) |
 | [India Ministry of Petroleum and Natural Gas](https://mopng.gov.in/en) | agency-data | apac | open | full-text-restricted |
 | [India Petroleum Planning and Analysis Cell (PPAC)](https://ppac.gov.in/) | agency-data | apac | open | full-text-restricted |
@@ -63,6 +69,8 @@
 | [JDIH ESDM (Indonesian energy regulation database)](https://jdih.esdm.go.id) | agency-data | sea | open | full-text-open |
 | [JGC Holdings](https://www.jgc.com/en/) | epc-contractor | apac, global | open | summary-only (unverified) |
 | [JOGMEC Japan Organization for Metals and Energy Security](https://www.jogmec.go.jp/english/) | agency-data | apac, global | open | full-text-restricted |
+| [Johnson Matthey Emission control solutions for power generation (file 'May 2021'; cover ©2018 Johnson Matthey)](https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da) | oem-supplier | global, sea, apac | open | summary-only |
+| [Johnson Matthey NOx control systems](https://matthey.com/products-and-markets/emissions-control/nox-control-systems) | oem-supplier | global, sea, apac | open | summary-only |
 | [Kencana wins Murphy Sarawak contract](https://www.offshore-mag.com/field-development/article/16796535/kencana-wins-murphy-sarawak-contract) | oem-supplier | global, sea | open | summary-only |
 | [KIPRIS Korea patent information](https://www.kipris.or.kr/enghome/main.do) | patents | apac | open | full-text-open (unverified) |
 | [Korea Energy Economics Institute (KEEI)](https://www.keei.re.kr/eng) | research-institute | apac | open | full-text-restricted |
@@ -72,6 +80,7 @@
 | [METI Agency for Natural Resources and Energy](https://www.enecho.meti.go.jp/en/) | agency-data | apac | open | full-text-restricted |
 | [MISC Group (LNG shipping, FPSO and offshore)](https://www.miscgroup.com/) | epc-contractor | sea, apac | open | summary-only (unverified) |
 | [Mitsubishi Heavy Industries Compressor and gas turbines](https://www.mhi.com/) | oem-supplier | apac, global | open | summary-only |
+| [mtu 12V1600 GS400 Gas Generator Set specification sheet (231296 | 2026-03)](https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [National Energy Administration of China](https://www.nea.gov.cn/) | agency-data | apac | open | full-text-restricted |
 | [Offshore Magazine — Timi Field platform completed at Sarawak yard (2022)](https://www.offshore-mag.com/regional-reports/asia/article/14284091/timi-field-platform-completed-at-sarawak-yard) | oem-supplier | sea | open | summary-only |
 | [Peraturan.id (BPK regulation database)](https://peraturan.bpk.go.id) | standards-body | sea | open | full-text-open |
@@ -84,11 +93,16 @@
 | [SKK Migas](https://www.skkmigas.go.id/) | agency-data | sea | open | full-text-restricted (unverified) |
 | [SKK Migas PTK-040/2023/S9 Rev.02: Abandonment and Site Restoration (ASR) / post-operation activities](https://id.scribd.com/document/751401048/PTK-040-SKKIA0000-2023-S9) | agency-data | sea | mixed | full-text-restricted |
 | [Suruhanjaya Tenaga (Energy Commission Malaysia)](https://www.st.gov.my/) | agency-data | sea | open | full-text-restricted |
+| [T.D. Williamson — Tapping Machines product listing](https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines) | oem-supplier | global, sea, apac | open | summary-only |
 | [Tembikai Non-Associated Gas Development (Offshore Technology, 13 Dec 2019)](https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development/) | oem-supplier | global, sea | open | summary-only |
 | [Thailand Department of Mineral Fuels](https://dmf.go.th/) | agency-data | sea | open | full-text-restricted |
 | [Thailand Department of Mineral Fuels (DMF)](https://www.dmf.go.th) | agency-data | sea | open | catalog-only |
 | [Thailand Energy Policy and Planning Office (EPPO)](https://www.eppo.go.th/index.php/en/) | agency-data | sea | open | full-text-restricted |
+| [Umicore Data Center Emission Control Catalysts brochure](https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf) | oem-supplier | global, sea, apac | open | summary-only |
+| [US EPA / ICF Catalog of CHP Technologies, Section 2 — Reciprocating Internal Combustion Engines (March 2015; Sept 2017 revision no](https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf) | oem-supplier | global, sea, apac | open | summary-only |
+| [VD4G Vacuum circuit breakers for generator switching applications, 1VCP000670 Rev B](https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf) | oem-supplier | global, apac | open | summary-only |
 | [Worley](https://www.worley.com/) | epc-contractor | apac, global | open | full-text-restricted |
+| [Wärtsilä Gas and multi-fuel power plants brochure (printed 08.2017)](https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22) | oem-supplier | global, sea, apac | open | summary-only |
 | [Yokogawa](https://www.yokogawa.com/) | oem-supplier | global, apac | open | full-text-restricted |
 | [ZEEPod page and blog (ZEE Engineering)](https://zee-eng.com/zeepod) | oem-supplier | global, sea | open | summary-only |
 | [A Barrel Full — SK305 Block Oil And Gas Fields (wiki)](https://www.abarrelfull.co.uk/SK305_Block_Oil_And_Gas_Fields) | oem-supplier | sea | open | summary-only |
@@ -251,6 +265,7 @@
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |
 | [ADNOC technology](https://www.adnoc.ae/en/) | licensor | me | open | summary-only (unverified) |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [Design engineering and the black start of a power plant](https://electrical-engineering-portal.com/design-engineering-and-the-black-start-of-a-power-plant) | trade-media | global | open | summary-only |
 | [EGYPES (Egypt Energy Show)](https://egypes.com) | conference | me, global | mixed | catalog-only |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |

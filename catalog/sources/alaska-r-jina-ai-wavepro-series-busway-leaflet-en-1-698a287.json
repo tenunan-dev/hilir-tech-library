@@ -1,0 +1,23 @@
+{
+  "id": "alaska-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287",
+  "name": "ABB WavePro Series Busway Leaflet 1SXH3432025 REV A 04-2022",
+  "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "ABB Ltd, Distribution Solutions, Electrification business, Zurich, Switzerland",
+  "access": "open",
+  "licence": "Copyright 2022 ABB. All rights reserved; reproduction forbidden without prior written consent",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Direct WebFetch of ABB product page timed out; direct PDF fetch refused application/pdf. Read via https://r.jina.ai/ proxy as instructed. Leaflet 1SXH3432025 REV A 04-2022, copyright 2022 ABB; 8 pages.. Exact printed figures are recorded in the linked records' basis fields."
+}

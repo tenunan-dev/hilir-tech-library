@@ -1,0 +1,25 @@
+{
+  "id": "alaska-mat-cast-iron-ductile-cast-iron-carbon-steel-standard-st",
+  "name": "cast iron / ductile cast iron / carbon steel (standard); stainless steel, duplex, super duplex, nickel-aluminium-bronze ",
+  "material_category": "metals",
+  "description": "cast iron / ductile cast iron / carbon steel (standard); stainless steel, duplex, super duplex, nickel-aluminium-bronze (sea/brackish water) named on a page read in the Alaska GEG WBS sweep.",
+  "specifications": [
+    {
+      "metric": "casing/impeller/shaft/bowl materials",
+      "unit": "as printed",
+      "basis": "ROTAMAC PDF 'Construction Materials'; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023. (value: standard and special metallurgies as listed)",
+      "year": 2023,
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+        "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+      "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

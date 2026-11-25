@@ -1,0 +1,32 @@
+{
+  "id": "alaska-prod-ctci-corporation-synerlitz-sdn-bhd-schb-engineering-services-e",
+  "name": "CTCI Corporation / Synerlitz Sdn Bhd / SCHB Engineering Services EPCC consortium",
+  "manufacturer": "alaska-vendor-ctci-corporation-fd1da",
+  "product_type": "epc-epcc-contractor-and-construction-management-se",
+  "equipment": [
+    "alaska-construction-management-svc-sub-con-third-party-cost-local-authori"
+  ],
+  "description": "EPC/EPCC contractor and construction-management services",
+  "specifications": [
+    {
+      "metric": "EPCC construction period",
+      "unit": "months",
+      "basis": "Daily Express, published 24 May 2011: Kimanis Power Sdn Bhd 300 MW combined-cycle plant; EPCC contract signed with consortium CTCI Corporation (Taiwan), Synerlitz Sdn Bhd and SCHB Engineering Services (Suria Capital subsidiary); consortium to develop, construct and commission plant and related facilities/infrastructures; package within 32 months from 1 Apr 2011 to first commercial operation 1 Dec ",
+      "value": 32,
+      "year": 2011,
+      "source": {
+        "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+        "source_id": "alaska-dailyexpress-com-my-76deb3e"
+      }
+    }
+  ],
+  "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+  "sources": [
+    {
+      "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/",
+      "source_id": "alaska-dailyexpress-com-my-76deb3e"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "alaska-mat-oil-free-compressor-air-end-ip55-motor",
+  "name": "oil-free compressor air end / IP55 motor",
+  "material_category": "equipment-materials",
+  "description": "oil-free compressor air end / IP55 motor named on a page read in the Alaska GEG WBS sweep.",
+  "specifications": [
+    {
+      "metric": "protection and filtration",
+      "unit": "as printed",
+      "basis": "Comair instrument air compressor page; page read 2026-11-25; footer ©2026. (value: IP55 motors; three-layer air filters)",
+      "year": 2026,
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor",
+        "source_id": "alaska-comairflow-com-instrument-air-compressor-495b8e8"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://comairflow.com/instrument-air-compressor",
+      "source_id": "alaska-comairflow-com-instrument-air-compressor-495b8e8"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

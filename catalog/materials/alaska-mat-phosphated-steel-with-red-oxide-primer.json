@@ -1,0 +1,25 @@
+{
+  "id": "alaska-mat-phosphated-steel-with-red-oxide-primer",
+  "name": "phosphated steel with red oxide primer",
+  "material_category": "metals-coatings",
+  "description": "phosphated steel with red oxide primer named on a page read in the Alaska GEG WBS sweep.",
+  "specifications": [
+    {
+      "metric": "tank construction and finish",
+      "unit": "as printed",
+      "basis": "Atlantic Containment standard features; page read 2026-11-25; footer ©2019. (value: welded steel; phosphated; red oxide primer exterior)",
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://atlanticcontainment.com/lube-tanks",
+      "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

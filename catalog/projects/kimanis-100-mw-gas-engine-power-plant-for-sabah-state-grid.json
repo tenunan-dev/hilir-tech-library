@@ -1,0 +1,105 @@
+{
+  "id": "kimanis-100-mw-gas-engine-power-plant-for-sabah-state-grid",
+  "name": "Kimanis ~100 MW gas-engine power plant for Sabah state grid",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "Six Everllence 18V51/60DF engines, total output around 100 MW, dual-fuel switching between gaseous and liquid fuel; press release dated 4 December 2025.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "Lighting point, PVC cable in conduit (switch separate)",
+      "year": 2025,
+      "unit": "RM/POINT",
+      "basis": "JKR Jadual Kadar Kerja Elektrik 2025 (JKKE 2025), item I-A1m/s 12; KL base; JKKE approved 28 May 2025, valid to 31 Dec 2026",
+      "value": 85.0,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "MCB single pole up to 32A",
+      "year": 2025,
+      "unit": "RM/NO",
+      "basis": "JKR JKKE 2025, item II-C1m/s 43; KL base",
+      "value": 32.0,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Insulation and continuity test, single-phase DB",
+      "year": 2025,
+      "unit": "RM/NO",
+      "basis": "JKR JKKE 2025, item VII-E4.1m/s 146; KL base",
+      "value": 719.0,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "EPC contract value, 132/33/11 kV Star1 & Star2 substation incl. GIS building",
+      "year": 2016,
+      "unit": "AED",
+      "basis": "SCAN Electromechanical project page: client SEWA, Down Town Sharjah UAE, year completed 2016, contract value AED183,000,000 - a total contract value, not a unit rate",
+      "value": 183000000,
+      "source": {
+        "url": "https://scanelectromechanical.com/project/scan-project-03",
+        "source_id": "alaska-scanelectromechanical-com-scan-project-03-f8abca1"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+      "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan",
+      "note": "Six Everllence 18V51/60DF engines, total output around 100 MW, dual-fuel switchi"
+    },
+    {
+      "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+      "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/63466",
+      "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "alaska-dspecmy-com-portfolio-d114008"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "alaska-pestec-international-com-electrical-substati-bc9755e"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Equipment, Mech, Elec, C&I",
+      "why": "No published unit rate or contract value for mechanical/electrical/C&I installation on a seven-unit gas-engine plant in Sabah; JKKE rates are for small building electrical works only.",
+      "next_action": "Obtain the bidder's EPC price breakdown or a comparable Malaysian gas-engine EPCC contract with civil/mechanical/electrical splits."
+    },
+    {
+      "what": "Equipment, Mech, Elec, C&I",
+      "why": "EPC contractor for this specific line item is not identified in any source read.",
+      "next_action": "Search SESB tender awards or project EPC announcements for the named 7-unit plant."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (4 Construction direct)."
+}

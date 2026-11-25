@@ -1,0 +1,63 @@
+{
+  "id": "alaska-security-room-gate-house-reinforced-concrete-4x5x3-6",
+  "name": "Security Room & Gate House (reinforced concrete 4x5x3.6)",
+  "equipment_type": "wbs-4-construction-direct",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Evidence: RC design/execution standards and generic JKR 2025 RC/brickwork rates; no gatehouse-specific project or cost read.",
+  "aliases": [
+    "Security Room & Gate House (reinforced concrete 4x5x3.6)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "WBS line item",
+      "value": "Security Room & Gate House (reinforced concrete 4x5x3.6)",
+      "unit": "n/a",
+      "basis": "Line item from the Alaska GEG WBS/BOQ; no sourced numeric specification found.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Work package supplied by owner; not a technical source."
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Security Room & Gate House (reinforced concrete 4x5x3.6)",
+      "why": "No published cost or named reference for a 4x5 m RC gatehouse at a Malaysian power plant.",
+      "next_action": "Source a comparable small RC guardhouse/gatehouse BQ or JKR Sabah rate."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (4 Construction direct).",
+  "last_reviewed": "2026-11-25"
+}

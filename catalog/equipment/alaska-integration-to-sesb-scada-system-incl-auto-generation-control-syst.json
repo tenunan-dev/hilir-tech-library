@@ -1,0 +1,146 @@
+{
+  "id": "alaska-integration-to-sesb-scada-system-incl-auto-generation-control-syst",
+  "name": "Integration to SESB SCADA System incl Auto Generation Control System",
+  "equipment_type": "wbs-3-4-i-c",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Integration to SESB SCADA System incl Auto Generation Control System",
+  "aliases": [
+    "Integration to SESB SCADA System incl Auto Generation Control System"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "SESB SLDC Automatic Generation Control — AGC command signal",
+      "unit": "signal",
+      "basis": "Sabah Grid Code CC5.3.5 (published 2024, read via r.jina.ai): 'The AGC command shall be sent via the transmittal of a \"desired generation output level\" signal from the SLDC and the plant controller will adjust the Generating Unit s output accordingly.' (value: desired generation output level signal sent from SLDC to plant controller)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "SESB SLDC Automatic Generation Control — AGC participation requirement",
+      "unit": "requirement",
+      "basis": "Sabah Grid Code CC5.3.5 (published 2024, read via r.jina.ai): 'Unless otherwise specified by the GSO, all Generating Units shall be equipped with appropriate plant controllers to participate in this AGC function.' (value: all Generating Units shall be equipped with appropriate plant controllers to par)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "SESB SLDC Automatic Generation Control — secondary reserve (AGC/manual dispatch) response",
+      "unit": "seconds realisable; sustainable for next 30 minutes",
+      "basis": "Sabah Grid Code OC3.4.1 (published 2024, read via r.jina.ai): 'Secondary Reserve: ... under automatic generation control (AGC) or manually dispatch by GSO ... realisable within thirty (30) seconds ... sustainable for the next thirty (30) minutes.'",
+      "value": 30,
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "SESB SLDC Automatic Generation Control — primary reserve (free governor) response",
+      "unit": "seconds realisable; sustainable for next 25 seconds",
+      "basis": "Sabah Grid Code OC3.4.1 (published 2024, read via r.jina.ai): 'Primary Reserve ... realisable within five (5) seconds ... sustainable for the next twenty-five (25) seconds.'",
+      "value": 5,
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "SESB SLDC Automatic Generation Control — pre-COD AGC test requirement",
+      "unit": "test item",
+      "basis": "Sabah Grid Code OC10 test list (published 2024, read via r.jina.ai): 'Before the Commercial Operation Date (COD), Generator and Power Park Module shall conduct the following tests ... x. Automatic Generation Control'. (value: Automatic Generation Control listed among tests before Commercial Operation Date)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "SESB SLDC Automatic Generation Control — operational metering to SCADA",
+      "unit": "data scope",
+      "basis": "Sabah Grid Code MC4.1.2 (published 2024, read via r.jina.ai): 'Operational Metering Data shall be collected by the Remote Terminal Units (RTUs) which are part of the GSO 's SCADA system.' (value: voltage, current, frequency, active/reactive power, plant status indications and)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "Omterra (formerly Siemens Energy) Omni — SCADA role",
+      "unit": "function",
+      "basis": "Omterra Omnivise T3000 product page, © 2026 Omterra, read directly: 'a scalable SCADA system ... combine all types of generation units by centralized process control' and FAQ 'The Omnivise T3000 system supports easy remote access for remote operation and maintenance.' (value: controls mixed fleet generation from single platform; supports centralized remot)",
+      "year": 2026,
+      "source": {
+        "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
+        "source_id": "alaska-omterra-com-omnivise-t3000-html-6e40189"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "alaska-vendor-sesb-grid-system-operator-sabah-load-dispatch-cent-b06c8",
+      "line": "SESB SLDC Automatic Generation Control / load following interface",
+      "note": "grid dispatch and AGC interface"
+    },
+    {
+      "vendor": "siemens-gamesa",
+      "line": "Omterra (formerly Siemens Energy) Omnivise T3000 SCADA functionality",
+      "note": "power plant SCADA / centralized fleet control"
+    }
+  ],
+  "vendors": [
+    "alaska-vendor-sesb-grid-system-operator-sabah-load-dispatch-cent-b06c8",
+    "siemens-gamesa"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    },
+    {
+      "url": "https://syc-se.iec.ch/iec-63097-smart-energy-roadmap/der-management-system/",
+      "source_id": "alaska-syc-se-iec-ch-d5f39e2"
+    },
+    {
+      "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
+      "source_id": "alaska-omterra-com-omnivise-t3000-html-6e40189"
+    },
+    {
+      "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html",
+      "source_id": "alaska-siemens-energy-com-enecogen-power-plant-inte-d7aa54c"
+    },
+    {
+      "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html",
+      "source_id": "alaska-siemens-energy-com-enecogen-power-plant-inte-d7aa54c",
+      "note": "958 MW CCGT with Omnivise T3000; up to 200 starts per year stated; IEC 62443 compliance."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Integration to SESB SCADA System incl Auto Generation Control System",
+      "why": "No evidence found for the protocol actually used between this plant and SESB SLDC (IEC 60870-5-104, DNP3, IEC 61850 or proprietary), RTU model, point count, AGC test results, or integration price.",
+      "next_action": "Obtain the SESB SCADA/AGC interface specification, RTU I/O list and AGC test report for the project."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.4 I&C).",
+  "last_reviewed": "2026-11-25"
+}

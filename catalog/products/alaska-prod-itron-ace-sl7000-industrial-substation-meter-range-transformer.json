@@ -1,0 +1,84 @@
+{
+  "id": "alaska-prod-itron-ace-sl7000-industrial-substation-meter-range-transformer",
+  "name": "Itron ACE SL7000 industrial & substation meter range",
+  "manufacturer": "alaska-vendor-itron-sas-916e3",
+  "product_type": "transformer-connected-tariff-meter",
+  "equipment": [
+    "alaska-main-check-tariff-meters-at-each-sesb-if-33kv-incomers"
+  ],
+  "description": "transformer-connected tariff meter",
+  "specifications": [
+    {
+      "metric": "transformer-connected accuracy class",
+      "unit": "class as printed",
+      "basis": "Itron ACE SL7000 datasheet EL.0019.1-EN-02/12, © Copyright 2012 Itron, PDF read via r.jina.ai: 'Transformer Connected: Class 0.2S, Class 0.5S or Class C'. (value: Class 0.2S, Class 0.5S or Class C)",
+      "year": 2012,
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
+        "source_id": "alaska-pt-itron-com-3809712-f6b916f"
+      }
+    },
+    {
+      "metric": "standards compliance",
+      "unit": "standard list",
+      "basis": "Itron ACE SL7000 datasheet EL.0019.1-EN-02/12 (© 2012 Itron), read via r.jina.ai: 'Full compliance with IEC 62052, IEC 62053, MID standard EN50470-1 and EN50470-3 and CE marking standards'. (value: IEC 62052, IEC 62053, EN50470-1, EN50470-3, CE)",
+      "year": 2012,
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
+        "source_id": "alaska-pt-itron-com-3809712-f6b916f"
+      }
+    },
+    {
+      "metric": "load profile channels",
+      "unit": "channels in two independent banks",
+      "basis": "Itron ACE SL7000 datasheet (© 2012 Itron), read via r.jina.ai: 'Storage of up to 16 channels for various quantities in two independent banks'.",
+      "value": 16,
+      "year": 2012,
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
+        "source_id": "alaska-pt-itron-com-3809712-f6b916f"
+      }
+    },
+    {
+      "metric": "rate registers",
+      "unit": "energy-rate registers (plus 24 demand-rate registers)",
+      "basis": "Itron ACE SL7000 datasheet (© 2012 Itron), read via r.jina.ai: '32 energy-rate registers and 24 demand-rate registers are available'.",
+      "value": 32,
+      "year": 2012,
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
+        "source_id": "alaska-pt-itron-com-3809712-f6b916f"
+      }
+    },
+    {
+      "metric": "communication channels",
+      "unit": "channels (2 electrical and 1 optical, depending on version)",
+      "basis": "Itron ACE SL7000 datasheet (© 2012 Itron), read via r.jina.ai: 'Up to three communication channels (2 electrical & 1 optical) depending on the meter version. Two channels can be used simultaneously.'",
+      "value": 3,
+      "year": 2012,
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
+        "source_id": "alaska-pt-itron-com-3809712-f6b916f"
+      }
+    },
+    {
+      "metric": "CT connection rating",
+      "unit": "A",
+      "basis": "Itron ACE SL7000 datasheet (© 2012 Itron), read via r.jina.ai: 'CT Connection: Ib 1A, Imax 10A'. (value: Ib 1A, Imax 10A)",
+      "year": 2012,
+      "source": {
+        "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
+        "source_id": "alaska-pt-itron-com-3809712-f6b916f"
+      }
+    }
+  ],
+  "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
+  "sources": [
+    {
+      "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
+      "source_id": "alaska-pt-itron-com-3809712-f6b916f"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

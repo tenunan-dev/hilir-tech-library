@@ -1,0 +1,388 @@
+{
+  "id": "alaska-lube-oil-tank-system-package",
+  "name": "Lube Oil Tank System Package",
+  "equipment_type": "wbs-3-2-mechanical",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Lube Oil Tank System Package",
+  "aliases": [
+    "Lube Oil Tank System Package"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Roben Manufacturing custom lubricating — capacity range",
+      "unit": "custom (printed: 'a few hundred gallons to several million gallons')",
+      "basis": "Roben Manufacturing 'Lubricating Oil Storage: Custom Tank Fabrication' page, Specifications and FAQ; page read 2026-11-25; site footer ©2025; no article publication date printed.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "Roben Manufacturing custom lubricating — tank diameter (maximum)",
+      "unit": "feet",
+      "basis": "Roben Manufacturing FAQ: 'diameters up to 60 feet and heights customized to site constraints'; page read 2026-11-25; footer ©2025.",
+      "high": 60,
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "Roben Manufacturing custom lubricating — construction standard",
+      "unit": "API 650 / API 620 / AWWA D100 / ASME Section VIII per service",
+      "basis": "Roben Manufacturing 'Specifications and Technical Characteristics'; page read 2026-11-25; footer ©2025.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "Roben Manufacturing custom lubricating — internal coating options",
+      "unit": "phenolic / epoxy / glass-lined / rubber-lined per service",
+      "basis": "Roben Manufacturing specifications; page read 2026-11-25; footer ©2025.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "Roben Manufacturing custom lubricating — roof type options",
+      "unit": "cone / dome / internal floating / external floating per vapour pressure",
+      "basis": "Roben Manufacturing specifications; page read 2026-11-25; footer ©2025.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "Roben Manufacturing custom lubricating — metals of construction",
+      "unit": "carbon steel / stainless steel / duplex / super duplex / Hastelloy / Inconel",
+      "basis": "Roben Manufacturing FAQ on specialty service; page read 2026-11-25; footer ©2025.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "Roben Manufacturing custom lubricating — documentation",
+      "unit": "U-1A / MTRs / NDE reports / ASME data books / API filings",
+      "basis": "Roben Manufacturing 'Lifecycle Documentation' and specifications; page read 2026-11-25; footer ©2025.",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — capacity, model AC120SL",
+      "unit": "GAL.",
+      "basis": "Atlantic Containment 'Lube Oil Tanks' table, single-wall row AC120SL; page read 2026-11-25; page footer ©2019; linked drawing PDF URL dated /2019/07.",
+      "value": 120,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — weight, model AC120SL",
+      "unit": "lbs",
+      "basis": "Atlantic Containment lube tank table row AC120SL; page read 2026-11-25; footer ©2019.",
+      "value": 212,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — capacity, model AC500SL",
+      "unit": "GAL.",
+      "basis": "Atlantic Containment lube tank table row AC500SL; page read 2026-11-25; footer ©2019.",
+      "value": 500,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — dimensions (L x W x H), model AC500SL",
+      "unit": "60in x 32in x 60in",
+      "basis": "Atlantic Containment lube tank table row AC500SL; page read 2026-11-25; footer ©2019.",
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — capacity, model AC2KSL",
+      "unit": "GAL.",
+      "basis": "Atlantic Containment lube tank table row AC2KSL (single wall); page read 2026-11-25; footer ©2019.",
+      "value": 2000,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — weight, model AC2KSL",
+      "unit": "lbs",
+      "basis": "Atlantic Containment lube tank table row AC2KSL; page read 2026-11-25; footer ©2019.",
+      "value": 2045,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — capacity, model AC500DL (double wall)",
+      "unit": "GAL.",
+      "basis": "Atlantic Containment lube tank table row AC500DL; page read 2026-11-25; footer ©2019; drawing PDF URL dated /2019/08.",
+      "value": 500,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — weight, model AC1KDL (double wall)",
+      "unit": "lbs",
+      "basis": "Atlantic Containment lube tank table row AC1KDL; page read 2026-11-25; footer ©2019.",
+      "value": 2230,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — air leak test pressure",
+      "unit": "psi",
+      "basis": "Atlantic Containment standard features: 'Air pressure tested to ensure a 100% leak-proof tank @ 5psi'; page read 2026-11-25; footer ©2019.",
+      "value": 5,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — optional secondary containment",
+      "unit": "% (printed: 'Optional 110% DW containment designs available')",
+      "basis": "Atlantic Containment standard features; page read 2026-11-25; footer ©2019.",
+      "value": 110,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — supports",
+      "unit": "inches high (printed: '3” high supports')",
+      "basis": "Atlantic Containment standard features; page read 2026-11-25; footer ©2019.",
+      "value": 3,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Atlantic Containment AC series single- — monitoring bung",
+      "unit": "in NPT (printed: '1/2″ NPT outer bung w/ monitoring sight glass')",
+      "basis": "Atlantic Containment standard features; page read 2026-11-25; footer ©2019.",
+      "value": 0.5,
+      "year": 2026,
+      "source": {
+        "url": "https://atlanticcontainment.com/lube-tanks",
+        "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+      }
+    },
+    {
+      "metric": "Prismecs dry-sump turbine lubrication  — governing specification",
+      "unit": "API Standard 614, Sixth Edition, February 2022",
+      "basis": "Prismecs article 'Gas Turbine Lubrication Systems...', published 11 February 2024; article states API 614 6th ed February 2022 governs design.",
+      "year": 2024,
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+        "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+      }
+    },
+    {
+      "metric": "Prismecs dry-sump turbine lubrication  — oil viscosity grade (common industrial use)",
+      "unit": "ISO VG 32 and ISO VG 46",
+      "basis": "Prismecs article, 'Oil Specification: Grade and Type'; published 11 February 2024. Grades 68 and 77 used where OEM specifies higher viscosity.",
+      "year": 2024,
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+        "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+      }
+    },
+    {
+      "metric": "Prismecs dry-sump turbine lubrication  — oil cleanliness target, typical OEM range",
+      "unit": "ISO 4406 code",
+      "basis": "Prismecs article, 'Cleanliness: The ISO 4406 Target'; published 11 February 2024; states most turbine OEMs target between these codes. (low: 15/13/10) (high: 17/15/12)",
+      "year": 2024,
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+        "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+      }
+    },
+    {
+      "metric": "Prismecs dry-sump turbine lubrication  — new oil cleanliness, published OEM tables",
+      "unit": "ISO 4406 16/14/12 (both ISO VG 32 and 46)",
+      "basis": "Prismecs article, 'What OEMs actually specify'; published 11 February 2024; some specifications set minimum 20/17/14 (conflicting values preserved).",
+      "year": 2024,
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+        "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+      }
+    },
+    {
+      "metric": "Prismecs dry-sump turbine lubrication  — pre-service filtration",
+      "unit": "micron",
+      "basis": "Prismecs article: 'Some OEMs additionally require that oil be filtered through a 10 micron filter before entering service'; published 11 February 2024.",
+      "value": 10,
+      "year": 2024,
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+        "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+      }
+    },
+    {
+      "metric": "Prismecs dry-sump turbine lubrication  — varnish potential test",
+      "unit": "ASTM D7843 (membrane patch colorimetry)",
+      "basis": "Prismecs article, 'Varnish: The Modern Problem'; published 11 February 2024.",
+      "year": 2024,
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+        "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+      }
+    },
+    {
+      "metric": "Prismecs dry-sump turbine lubrication  — rotary screw pump pressure differential",
+      "unit": "% of manufacturer's rating (printed: 'not greater than 90 percent')",
+      "basis": "Prismecs article citing API 614 sixth edition pump sizing; published 11 February 2024.",
+      "value": 90,
+      "year": 2024,
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+        "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+      }
+    }
+  ],
+  "vendor_models": [
+    {
+      "vendor": "alaska-vendor-roben-mfg-inc-lakewood-nj-usa-6050b",
+      "line": "Roben Manufacturing custom lubricating-oil storage tank",
+      "note": "field/shop-fabricated atmospheric lube oil storage tank"
+    },
+    {
+      "vendor": "alaska-vendor-atlantic-containment-llc-mcgaheysville-va-usa-cc283",
+      "line": "Atlantic Containment AC series single-wall (SL) and double-wall (DL) lube oil tanks",
+      "note": "shop-fabricated welded-steel lube oil storage tank"
+    },
+    {
+      "vendor": "alaska-vendor-prismecs-oem-agnostic-epcm-o-m-provider-houston-tx-8dbd4",
+      "line": "Prismecs dry-sump turbine lubrication system (external reservoir, AC auxiliary / DC emergency pumps, duplex filters, coo",
+      "note": "lube oil system package for rotating plant"
+    }
+  ],
+  "vendors": [
+    "alaska-vendor-roben-mfg-inc-lakewood-nj-usa-6050b",
+    "alaska-vendor-atlantic-containment-llc-mcgaheysville-va-usa-cc283",
+    "alaska-vendor-prismecs-oem-agnostic-epcm-o-m-provider-houston-tx-8dbd4"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://robenmfg.com/lubricating-oil-storage-application",
+      "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+    },
+    {
+      "url": "https://atlanticcontainment.com/lube-tanks",
+      "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+    },
+    {
+      "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+      "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+    },
+    {
+      "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
+      "source_id": "alaska-focusmalaysia-my-kinergy-secures-biggest-epc-2381482"
+    },
+    {
+      "url": "https://basiia.com/products/api-650-tanks",
+      "source_id": "alaska-basiia-com-api-650-tanks-28cf110"
+    },
+    {
+      "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
+      "source_id": "alaska-focusmalaysia-my-kinergy-secures-biggest-epc-2381482",
+      "note": "LOA dated 13 May 2025 from Rancha Power (JV of Petronas Gas Bhd, Sabah Electricity Sdn Bhd and SEC Power Sdn Bhd, set up 31 Dec 2024) to KAB Energy Holdings Sdn Bhd / Kinergy Advancement Bhd; nine acr"
+    },
+    {
+      "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+      "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce",
+      "note": "110 MW total; aeroderivative machines (compact lube systems / synthetic ester lubricants apply). Article published 11 February 2024."
+    },
+    {
+      "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+      "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce",
+      "note": "260 MW total; Prismecs delivered project scope. Article published 11 February 2024."
+    },
+    {
+      "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+      "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce",
+      "note": "Prismecs delivered project scope; article published 11 February 2024."
+    },
+    {
+      "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+      "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce",
+      "note": "Prismecs delivered project scope; location and date not printed in article published 11 February 2024."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Lube Oil Tank System Package",
+      "why": "No printed price, rate or cost for this package on any page read; all vendors require a quote.",
+      "next_action": "Obtain a priced vendor quotation or the project tender BOQ for the 7-unit plant."
+    },
+    {
+      "what": "Lube Oil Tank System Package",
+      "why": "No patent page or patent number was actually read for lube oil tank systems.",
+      "next_action": "Read official patent register pages (e.g. Espacenet/USPTO) before recording any patent."
+    },
+    {
+      "what": "Lube Oil Tank System Package",
+      "why": "No vendor drawing PDF was opened; only links to drawing PDFs were seen on the Atlantic Containment page.",
+      "next_action": "Open and read the linked ACxxxx drawing PDFs, then record drawing titles."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.2 Mechanical).",
+  "last_reviewed": "2026-11-25"
+}

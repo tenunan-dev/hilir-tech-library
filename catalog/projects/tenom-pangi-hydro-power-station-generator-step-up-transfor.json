@@ -1,0 +1,133 @@
+{
+  "id": "tenom-pangi-hydro-power-station-generator-step-up-transfor",
+  "name": "Tenom Pangi hydro power station - generator step-up transformer replacement",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sabah)",
+  "location": "Malaysia (Sabah)",
+  "status": "operating",
+  "description": "Deltaspec portfolio item 17: one 30 MVA 11/132 kV generator transformer; client TNB REMACO / SESB. Portfolio also lists rehabilitation/upgrading of the 132 kV Tenom Pangi hydro power station (item 5).",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "Reinforced concrete C16/20 in foundations and floor",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 492.1,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 in beams",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 634.4,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 in columns",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 663.6,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 floor slab, average 75 mm",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "value": 36.9,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "High tensile reinforcement 12 mm",
+      "year": 2025,
+      "unit": "RM/KG",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "value": 5.3,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Formwork to vertical faces (footings, ground beams)",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "value": 61.7,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Formwork to beam sides and soffit",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "value": 80.1,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.dspecmy.com/projects/portfolio",
+      "source_id": "alaska-dspecmy-com-portfolio-d114008",
+      "note": "Deltaspec portfolio item 17: one 30 MVA 11/132 kV generator transformer; client "
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/63466",
+      "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "alaska-pestec-international-com-electrical-substati-bc9755e"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "MV Switchgear Room (reinforced concrete 16.5x9.9x5.3)",
+      "why": "No MV switchgear room building cost or 11 kV panel schedule for this plant found.",
+      "next_action": "Source the project 11 kV switchgear specification and an equivalent room-cost benchmark."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (4 Construction direct)."
+}

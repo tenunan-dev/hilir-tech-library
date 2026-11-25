@@ -1,0 +1,25 @@
+{
+  "id": "alaska-mat-aus-32-scr-nox-reducing-agent",
+  "name": "AUS 32 (SCR NOx reducing agent)",
+  "material_category": "chemical",
+  "description": "AUS 32 (SCR NOx reducing agent) named on a page read in the Alaska GEG WBS sweep.",
+  "specifications": [
+    {
+      "metric": "application",
+      "unit": "n/a",
+      "basis": "MTU A001072/02E printed 2020-06, section 5.2 heading; no quantity or price printed in the pages read. (value: NOx reducing agent for SCR exhaust gas aftertreatment)",
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+      "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

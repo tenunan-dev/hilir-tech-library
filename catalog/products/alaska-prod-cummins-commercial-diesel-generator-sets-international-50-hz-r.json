@@ -1,0 +1,64 @@
+{
+  "id": "alaska-prod-cummins-commercial-diesel-generator-sets-international-50-hz-r",
+  "name": "Cummins commercial diesel generator sets, International 50 Hz range",
+  "manufacturer": "cummins",
+  "product_type": "diesel-generator-set-standby-prime-dcc-rated",
+  "equipment": [
+    "alaska-black-start-diesel-generator-package"
+  ],
+  "description": "diesel generator set (standby / prime / DCC rated)",
+  "specifications": [
+    {
+      "metric": "Standby rating, smallest listed model C17D5",
+      "unit": "kVA standby (13 kWe); prime 15 kVA / 12 kWe; X2.5-G2 engine",
+      "basis": "Cummins Bulletin 6614069 Rev. 8/25 (August 2025), International 50 Hz range rating card; PDF blocked by WebFetch, read via r.jina.ai 2026-11-25",
+      "value": 16.5,
+      "year": 2025,
+      "source": {
+        "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
+        "source_id": "alaska-cummins-com-diesel-gen-set-rating-cards-inte-116ade9"
+      }
+    },
+    {
+      "metric": "Standby rating, model C3000D5",
+      "unit": "kVA standby (2400 kWe); prime 2750 kVA / 2200 kWe; QSK78-G9/G24 engine",
+      "basis": "Cummins Bulletin 6614069 Rev. 8/25 (August 2025), International 50 Hz range rating card; read 2026-11-25 via r.jina.ai",
+      "value": 3000,
+      "year": 2025,
+      "source": {
+        "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
+        "source_id": "alaska-cummins-com-diesel-gen-set-rating-cards-inte-116ade9"
+      }
+    },
+    {
+      "metric": "Highest standby rating in card",
+      "unit": "kVA standby (3000 kWe), model C3750D5 / C3750D5E, QSK95 engine",
+      "basis": "Cummins Bulletin 6614069 Rev. 8/25 (August 2025), International 50 Hz range rating card; read 2026-11-25 via r.jina.ai",
+      "value": 3750,
+      "year": 2025,
+      "source": {
+        "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
+        "source_id": "alaska-cummins-com-diesel-gen-set-rating-cards-inte-116ade9"
+      }
+    },
+    {
+      "metric": "Rating note",
+      "unit": "printed qualification",
+      "basis": "Cummins Bulletin 6614069 Rev. 8/25, footnote on the 50 Hz rating card; read 2026-11-25 via r.jina.ai (value: Specifications may change without notice; all ratings include radiator fan losse)",
+      "year": 2026,
+      "source": {
+        "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
+        "source_id": "alaska-cummins-com-diesel-gen-set-rating-cards-inte-116ade9"
+      }
+    }
+  ],
+  "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
+  "sources": [
+    {
+      "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
+      "source_id": "alaska-cummins-com-diesel-gen-set-rating-cards-inte-116ade9"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

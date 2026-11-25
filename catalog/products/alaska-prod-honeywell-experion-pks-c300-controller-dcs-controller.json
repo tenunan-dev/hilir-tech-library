@@ -1,0 +1,97 @@
+{
+  "id": "alaska-prod-honeywell-experion-pks-c300-controller-dcs-controller",
+  "name": "Honeywell Experion PKS C300 controller",
+  "manufacturer": "honeywell",
+  "product_type": "dcs-controller",
+  "equipment": [
+    "alaska-plant-control-system"
+  ],
+  "description": "DCS controller",
+  "specifications": [
+    {
+      "metric": "user memory",
+      "unit": "MU (Memory Units)",
+      "basis": "Honeywell Experion PKS C300 Controller product page (prod-edam.honeywell.com document list includes a brief dated 10/24/2021 and white paper dated 10/22/2025; page footer © 2026 Honeywell), read directly: specification table 'User Memory: 32,768 MU (Memory Units)'.",
+      "value": 32768,
+      "year": 2021,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "execution units",
+      "unit": "XUs",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'Execution Units (XUs): 9000 XUs'.",
+      "value": 9000,
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "standard execution period",
+      "unit": "ms",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'Execution Period: 20 ms not supported for PCNT05; 50 ms (Standard)'.",
+      "value": 50,
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "redundant controller switchover time",
+      "unit": "ms (approximate)",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'Switchover Time: ~500 ms'.",
+      "value": 500,
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "operating temperature range",
+      "unit": "°C",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'Temperature Rating: –40 to +70°C'.",
+      "low": -40,
+      "high": 70,
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "supported protocols",
+      "unit": "protocol list",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'transparently integrates standard and open communication protocols: Ethernet IP, Profinet, FOUNDATION™ Fieldbus, HART®, IEC61850, OPC UA, Profibus® and Modbus'. (value: EtherNet/IP, FOUNDATION Fieldbus, Modbus/TCP, PROFIBUS, PROFINET, IEC 61850, OPC)",
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    },
+    {
+      "metric": "security certification",
+      "unit": "certification",
+      "basis": "Honeywell Experion PKS C300 Controller product page, © 2026 Honeywell, read directly: 'Security: Embedded Firewall, ISA Secure CSA L2 Certified'. (value: ISA Secure CSA L2 Certified; embedded firewall)",
+      "year": 2026,
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+        "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+      }
+    }
+  ],
+  "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+  "sources": [
+    {
+      "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
+      "source_id": "alaska-process-honeywell-com-experion-pks-c300-cont-165cb3b"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

@@ -1,11 +1,14 @@
 # IDC: Data centres
 
-175 sources. Sub-topics: siting, power-supply, power-distribution, cooling, heat-reuse, grid-interaction, construction, dcim.
+178 sources. Sub-topics: siting, power-supply, power-distribution, cooling, heat-reuse, grid-interaction, construction, dcim.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
 | [EPA Ireland — Typical arrangement of flue gas treatment and CEMS at a](https://leap.epa.ie/docs/118948d5-4f92-4cda-893b-5a4f751c8f4b.pdf) | agency-data | global, apac | open | summary-only (unverified) |
 | [MAN Energy Solutions — Power range](https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html) | oem-supplier | global, apac | open | summary-only |
+| [Daikin Hybrid AHU DDS Series brochure (241105_HA_REV_A)](https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf) | oem-supplier | global, sea, apac | open | summary-only |
+| [Dunham-Bush homepage and Our Products page](https://dunham-bush.com/our-products/) | oem-supplier | global, sea, apac | open | summary-only |
+| [Umicore Data Center Emission Control Catalysts brochure](https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [ABB](https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated) | oem-supplier | global, na | open | summary-only |
 | [Accelerating the addition of carbon-free energy: An update on progress](https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/09/20/accelerating-the-addition-of-carbon-free-energy-an-update-on-progress) | oem-supplier | global, na | open | summary-only |
 | [Active Power / Piller](https://www.activepower.com/technology/flywheel-technology) | oem-supplier | global, na | open | summary-only |

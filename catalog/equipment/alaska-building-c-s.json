@@ -1,0 +1,108 @@
+{
+  "id": "alaska-building-c-s",
+  "name": "Building (C&S)",
+  "equipment_type": "wbs-4-construction-direct",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Civil & structural shell scope. Evidence found: structural design/execution standards for concrete, steel and geotechnics; generic JKR 2025 KL-base unit rates; Malaysian power/industrial plant reference projects; no project-specific RM/m2 building rate.",
+  "aliases": [
+    "Building (C&S)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "WBS line item",
+      "value": "Building (C&S)",
+      "unit": "n/a",
+      "basis": "Line item from the Alaska GEG WBS/BOQ; no sourced numeric specification found.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Work package supplied by owner; not a technical source."
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-3-design-of-steel-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-ec3c86b"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-c9ea26f"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-steel-structures-and-aluminium-structures-technical-requirements-for-steel-structures/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-66d5e66"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+      "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3"
+    },
+    {
+      "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+      "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan",
+      "note": "Seven Everllence 20V35/44G gas engines, potential output more than 70 MW, serving a 52 MW plant for an FLNG extraction platform; KAB Energy Holdings is named as EPC for the Labuan project; press relea"
+    },
+    {
+      "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
+      "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan",
+      "note": "Six Everllence 18V51/60DF engines, total output around 100 MW, dual-fuel switching between gaseous and liquid fuel; press release dated 4 December 2025."
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3",
+      "note": "JML scope: steel structure/equipment erection, piping and painting for process area and boiler package; industrial plant; client Samsung Engineering (Malaysia) Sdn Bhd."
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3",
+      "note": "JML scope: task force work - piping, mechanical, structural and E&I; industrial plant; client Mitsubishi Heavy Industries, Ltd."
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3",
+      "note": "JML scope: temporary facility, piling, civil and building work for an air separation unit; industrial plant; client Linde Engineering (Malaysia) Sdn Bhd."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Building (C&S)",
+      "why": "No public RM/m2 all-in building rate for a gas-engine plant C&S package in Sabah; JKR rates are KL-base daywork rates with location additions not printed.",
+      "next_action": "Source a Malaysian QS cost benchmark (CIDB/JPPH or comparable tender) for industrial building C&S in Sabah."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (4 Construction direct).",
+  "last_reviewed": "2026-11-25"
+}

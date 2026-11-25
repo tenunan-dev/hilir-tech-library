@@ -1,0 +1,144 @@
+{
+  "id": "samajaya-gis-132-33-11-kv-substation",
+  "name": "Samajaya GIS 132/33/11 kV Substation",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Malaysia (Sarawak)",
+  "location": "Malaysia (Sarawak)",
+  "status": "operating",
+  "description": "PESTEC reference: design, engineering, supply, erect and commissioning of substation establishment; client Sarawak Energy Berhad.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "Reinforced concrete C16/20 in foundations and floor",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 492.1,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 in beams",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 634.4,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 in columns",
+      "year": 2025,
+      "unit": "RM/M3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "value": 663.6,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Reinforced concrete C16/20 floor slab, average 75 mm",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "value": 36.9,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "High tensile reinforcement 12 mm",
+      "year": 2025,
+      "unit": "RM/KG",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "value": 5.3,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Formwork to vertical faces (footings, ground beams)",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "value": 61.7,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "Formwork to beam sides and soffit",
+      "year": 2025,
+      "unit": "RM/M2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "value": 80.1,
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+        "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+      }
+    },
+    {
+      "metric": "EPC contract value, 132/33/11 kV Star1 & Star2 substation incl. GIS building",
+      "year": 2016,
+      "unit": "AED",
+      "basis": "SCAN Electromechanical project page: client SEWA, Down Town Sharjah UAE, year completed 2016, contract value AED183,000,000 - a total contract value, not a unit rate",
+      "value": 183000000,
+      "source": {
+        "url": "https://scanelectromechanical.com/project/scan-project-03",
+        "source_id": "alaska-scanelectromechanical-com-scan-project-03-f8abca1"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://pestec-international.com/project-reference/electrical-substations",
+      "source_id": "alaska-pestec-international-com-electrical-substati-bc9755e",
+      "note": "PESTEC reference: design, engineering, supply, erect and commissioning of substa"
+    },
+    {
+      "url": "https://webstore.iec.ch/en/publication/63466",
+      "source_id": "alaska-webstore-iec-ch-63466-a67c8c0"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://standards.ieee.org/ieee/979/7242",
+      "source_id": "alaska-standards-ieee-org-7242-9cb8c7d"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "SESB_132kV Switchgear Room (reinforced concrete 10.8x35x13.2 + 10.8 x26x7.5)",
+      "why": "No public evidence of this specific SESB 132 kV switchgear room: no contract value, no building rate and no 132 kV GIS/AIS specification for this plant.",
+      "next_action": "Obtain the project's electrical specification and a comparable SESB 132 kV substation building tender."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (4 Construction direct)."
+}

@@ -1,0 +1,77 @@
+{
+  "id": "alaska-road-10800-m2-slope-protection-area-500m2-floor-17000-m2-walkway-4",
+  "name": "Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2)",
+  "equipment_type": "wbs-4-construction-direct",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Evidence: geotechnical standard and indicative 2025-26 slope-protection rates (soil nail, shotcrete, gabion) plus JKR site-clearing/excavation rates. No published road/floor/walkway RM/m2 rate for Sabah found; bidder areas are design data.",
+  "aliases": [
+    "Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "WBS line item",
+      "value": "Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2)",
+      "unit": "n/a",
+      "basis": "Line item from the Alaska GEG WBS/BOQ; no sourced numeric specification found.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Work package supplied by owner; not a technical source."
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-7-geotechnical-design-general-rules/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-c9ea26f"
+    },
+    {
+      "url": "https://infraconcrete.co/cost-programme-guide",
+      "source_id": "alaska-infraconcrete-co-cost-programme-guide-397f736"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3",
+      "note": "JML scope: temporary facility, piling, civil and building work for an air separation unit; industrial plant; client Linde Engineering (Malaysia) Sdn Bhd."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2)",
+      "why": "No published RM/m2 rates for asphalt/concrete road pavement, plant floor slabs or walkways at a Sabah power plant; the slope rates read are indicative Klang Valley figures.",
+      "next_action": "Source JKR Sabah road/pavement schedule of rates and a plant-floor BQ."
+    },
+    {
+      "what": "Road (10800 m2; slope protection area:500m2; floor:17000 m2; walkway :450 m2)",
+      "why": "The 10,800 m2 road, 500 m2 slope, 17,000 m2 floor and 450 m2 walkway figures are bidder-supplied design data.",
+      "next_action": "Do not present as sourced facts."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (4 Construction direct).",
+  "last_reviewed": "2026-11-25"
+}

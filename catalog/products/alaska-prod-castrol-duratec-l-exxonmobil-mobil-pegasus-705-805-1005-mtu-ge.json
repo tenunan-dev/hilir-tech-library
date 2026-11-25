@@ -1,0 +1,32 @@
+{
+  "id": "alaska-prod-castrol-duratec-l-exxonmobil-mobil-pegasus-705-805-1005-mtu-ge",
+  "name": "Castrol Duratec L / ExxonMobil Mobil Pegasus 705, 805, 1005 / MTU GEO NG Power X2L",
+  "manufacturer": "alaska-vendor-castrol-ltd-bf243",
+  "product_type": "approved-gas-engine-oils-alternative-consumables",
+  "equipment": [
+    "alaska-commissioning-equipment-consumables-lube-oil-diesel-chemical"
+  ],
+  "description": "approved gas engine oils (alternative consumables)",
+  "specifications": [
+    {
+      "metric": "SAE viscosity class for listed approved/alternative oils",
+      "unit": "SAE viscosity class",
+      "basis": "MTU A001072/02E printed 2020-06, Tables 5, 6, 10 and 12: Castrol Duratec L, Mobil Pegasus 705/805/1005 and MTU GEO NG Power X2L all listed at SAE viscosity class 40; some alternative oils noted '* The use of these engine oils shortens the service life.'",
+      "value": 40,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+        "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+      }
+    }
+  ],
+  "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
+      "source_id": "alaska-r-jina-ai-a001072-02-e-pdf-969d53b"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

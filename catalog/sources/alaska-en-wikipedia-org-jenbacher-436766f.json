@@ -1,0 +1,23 @@
+{
+  "id": "alaska-en-wikipedia-org-jenbacher-436766f",
+  "name": "Jenbacher (Wikipedia article)",
+  "url": "https://en.wikipedia.org/wiki/Jenbacher",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Wikipedia / Wikimedia Foundation",
+  "access": "open",
+  "licence": "CC BY-SA 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Page read 2026-11-25; 'This page was last edited on 15 June 2026'. Secondary source: used for GE/Jenbacher ownership history and J920 figures; article itself flags some statements as needing citation.. Exact printed figures are recorded in the linked records' basis fields."
+}

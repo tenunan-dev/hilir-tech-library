@@ -1,0 +1,24 @@
+{
+  "id": "alaska-dspecmy-com-portfolio-d114008",
+  "name": "DELTASPEC (M) SDN BHD - Project Portfolio (transformer supply to SESB/TNB)",
+  "url": "https://www.dspecmy.com/projects/portfolio",
+  "source_type": "epc-contractor",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "CIV"
+  ],
+  "regions": [
+    "sea"
+  ],
+  "publisher_org": "Deltaspec (M) Sdn Bhd",
+  "access": "open",
+  "licence": "proprietary",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Page read 2026-11-25. Lists named, sized SESB/Malaysia transformer projects with locations but no dates are printed on the page; company is a supplier/EPC for substation equipment, not a building cost source.. Exact printed figures are recorded in the linked records' basis fields."
+}

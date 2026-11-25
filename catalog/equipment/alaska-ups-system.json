@@ -1,0 +1,213 @@
+{
+  "id": "alaska-ups-system",
+  "name": "UPS System",
+  "equipment_type": "wbs-3-3-electrical",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "UPS System",
+  "aliases": [
+    "UPS System"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "Vertiv Liebert EXL S1 (250-1200 kVA/kW — UPS rating",
+      "unit": "kVA",
+      "basis": "Vertiv Liebert EXL S1 brochure, SL-70645 (R0 10/20), Technical Specifications: 'UPS Rating (kVA) 250/300/400 500/600 625/750/800 1000/1100/1200'. Copyright 2020 Vertiv Group Corp.",
+      "low": 250,
+      "high": 1200,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+        "source_id": "alaska-r-jina-ai-liebert-exl-s1-brochure-sl-706452-57a770c"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert EXL S1 (250-1200 kVA/kW — short-circuit withstand rating",
+      "unit": "kA",
+      "basis": "Vertiv Liebert EXL S1 brochure SL-70645 (R0 10/20), Standard Features: '100kA short circuit withstand rating'. Copyright 2020 Vertiv Group Corp.",
+      "value": 100,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+        "source_id": "alaska-r-jina-ai-liebert-exl-s1-brochure-sl-706452-57a770c"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert EXL S1 (250-1200 kVA/kW — double conversion efficiency (up to)",
+      "unit": "%",
+      "basis": "Vertiv Liebert EXL S1 brochure SL-70645 (R0 10/20): 'double conversion efficiency of up to 97%'. Copyright 2020 Vertiv Group Corp.",
+      "value": 97,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+        "source_id": "alaska-r-jina-ai-liebert-exl-s1-brochure-sl-706452-57a770c"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert EXL S1 (250-1200 kVA/kW — efficiency, dynamic online mode (up to)",
+      "unit": "%",
+      "basis": "Vertiv Liebert EXL S1 brochure SL-70645 (R0 10/20): 'Dynamic Online mode... operating efficiency up to 99%'. Copyright 2020 Vertiv Group Corp.",
+      "value": 99,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+        "source_id": "alaska-r-jina-ai-liebert-exl-s1-brochure-sl-706452-57a770c"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert EXL S1 (250-1200 kVA/kW — input voltage to rectifier/bypass",
+      "unit": "VAC (3-phase, 3-wire)",
+      "basis": "Vertiv Liebert EXL S1 brochure SL-70645 (R0 10/20), Technical Specifications: 'Input Voltage to Rectifier/ Bypass (VAC) 480, 3-phase, 3-wire'. Copyright 2020 Vertiv Group Corp.",
+      "value": 480,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+        "source_id": "alaska-r-jina-ai-liebert-exl-s1-brochure-sl-706452-57a770c"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert EXL S1 (250-1200 kVA/kW — input power factor",
+      "unit": "(>=) ratio",
+      "basis": "Vertiv Liebert EXL S1 brochure SL-70645 (R0 10/20): 'Input Power Factor >= 0.99'. Copyright 2020 Vertiv Group Corp.",
+      "value": 0.99,
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+        "source_id": "alaska-r-jina-ai-liebert-exl-s1-brochure-sl-706452-57a770c"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert EXL S1 (250-1200 kVA/kW — protection class, UPS enclosure",
+      "unit": "IP 20 (NEMA 1), with and without front door open",
+      "basis": "Vertiv Liebert EXL S1 brochure SL-70645 (R0 10/20), Physical Characteristics: 'Protection Class, UPS Enclosure NEMA 1, IP 20 (with and without front door open)'. Copyright 2020 Vertiv Group Corp.",
+      "year": 2020,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+        "source_id": "alaska-r-jina-ai-liebert-exl-s1-brochure-sl-706452-57a770c"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert APM Plus (50-500 kVA/kW — nominal ratings",
+      "unit": "kVA/kW",
+      "basis": "Vertiv Liebert APM Plus brochure, UPS-APM Plus-BR-V1-0322-EN, Technical Specifications: 'Nominal Ratings (kVA/kW) 50-250 / 50-500'. Copyright 2022 Vertiv Group Corp.",
+      "low": 50,
+      "high": 500,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ea97/globalassets/products/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-apm-plus-brochure.pdf",
+        "source_id": "alaska-r-jina-ai-vertiv-liebert-apm-plus-brochure-p-deae68a"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert APM Plus (50-500 kVA/kW — double conversion efficiency (up to)",
+      "unit": "%",
+      "basis": "Vertiv Liebert APM Plus brochure UPS-APM Plus-BR-V1-0322-EN (copyright 2022 Vertiv Group Corp.): 'double conversion efficiency of up to 97%'.",
+      "value": 97,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ea97/globalassets/products/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-apm-plus-brochure.pdf",
+        "source_id": "alaska-r-jina-ai-vertiv-liebert-apm-plus-brochure-p-deae68a"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert APM Plus (50-500 kVA/kW — eco mode efficiency (up to)",
+      "unit": "%",
+      "basis": "Vertiv Liebert APM Plus brochure UPS-APM Plus-BR-V1-0322-EN (copyright 2022 Vertiv Group Corp.): 'Eco mode efficiency - up to 99%'.",
+      "value": 99,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ea97/globalassets/products/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-apm-plus-brochure.pdf",
+        "source_id": "alaska-r-jina-ai-vertiv-liebert-apm-plus-brochure-p-deae68a"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert APM Plus (50-500 kVA/kW — short-circuit capacity with optional fuse (up to)",
+      "unit": "kA",
+      "basis": "Vertiv Liebert APM Plus brochure UPS-APM Plus-BR-V1-0322-EN (copyright 2022 Vertiv Group Corp.): 'Fuse is considered optionally to clear short circuit capacity of up to 65 kA. It is available for selected models only.' CONFLICT with EXL S1 100 kA rating; both kept side by side.",
+      "value": 65,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ea97/globalassets/products/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-apm-plus-brochure.pdf",
+        "source_id": "alaska-r-jina-ai-vertiv-liebert-apm-plus-brochure-p-deae68a"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert APM Plus (50-500 kVA/kW — nominal input/output voltage",
+      "unit": "380/400/415 V (three-phase, sharing neutral with bypass)",
+      "basis": "Vertiv Liebert APM Plus brochure UPS-APM Plus-BR-V1-0322-EN (copyright 2022 Vertiv Group Corp.), Technical Specifications.",
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ea97/globalassets/products/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-apm-plus-brochure.pdf",
+        "source_id": "alaska-r-jina-ai-vertiv-liebert-apm-plus-brochure-p-deae68a"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert APM Plus (50-500 kVA/kW — battery blocks per string",
+      "unit": "blocks",
+      "basis": "Vertiv Liebert APM Plus brochure UPS-APM Plus-BR-V1-0322-EN (copyright 2022 Vertiv Group Corp.): 'Battery blocks per string 28-44'.",
+      "low": 28,
+      "high": 44,
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ea97/globalassets/products/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-apm-plus-brochure.pdf",
+        "source_id": "alaska-r-jina-ai-vertiv-liebert-apm-plus-brochure-p-deae68a"
+      }
+    },
+    {
+      "metric": "Vertiv Liebert APM Plus (50-500 kVA/kW — protection level",
+      "unit": "IP20 (IP21, IP31 optional on 50-250 kVA frame)",
+      "basis": "Vertiv Liebert APM Plus brochure UPS-APM Plus-BR-V1-0322-EN (copyright 2022 Vertiv Group Corp.), Technical Specifications: 'Protection level IP20 (IP21, IP31 optional) IP20'.",
+      "year": 2022,
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ea97/globalassets/products/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-apm-plus-brochure.pdf",
+        "source_id": "alaska-r-jina-ai-vertiv-liebert-apm-plus-brochure-p-deae68a"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf",
+      "source_id": "alaska-r-jina-ai-liebert-exl-s1-brochure-sl-706452-57a770c"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.vertiv.com/48ea97/globalassets/products/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-apm-plus-brochure.pdf",
+      "source_id": "alaska-r-jina-ai-vertiv-liebert-apm-plus-brochure-p-deae68a"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "UPS System",
+      "why": "No printed price, vendor quotation, EPC contractor, or named/dated/sized/located reference project for this plant appears in any page read with WebFetch.",
+      "next_action": "Obtain the project BOQ pricing schedule, awarded vendor quotation and the EPC interface specification for the 7-unit plant."
+    },
+    {
+      "what": "UPS System",
+      "why": "No SESB-specific UPS requirement (kVA rating, autonomy, redundancy) was found in a page read with WebFetch.",
+      "next_action": "Retrieve the SESB/plant electrical interface specification and generator-plant UPS load list."
+    },
+    {
+      "what": "UPS System",
+      "why": "Vertiv brochures mention 'patented Vector Control technology' but print no patent number, title, assignee or year.",
+      "next_action": "Query a patent database only if patent evidence is required; do not infer a number."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.3 Electrical).",
+  "last_reviewed": "2026-11-25"
+}

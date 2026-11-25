@@ -1,0 +1,27 @@
+{
+  "id": "alaska-syc-se-iec-ch-d5f39e2",
+  "name": "IEC 61850",
+  "url": "https://syc-se.iec.ch/iec-63097-smart-energy-roadmap/der-management-system/",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC",
+    "INS",
+    "CIV",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Standards body",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Communication networks and systems for power utility automation. Exact printed figures are recorded in the linked records' basis fields."
+}

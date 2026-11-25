@@ -1,0 +1,3176 @@
+{
+  "id": "pwr-alaska-geg-wbs-supply-chain",
+  "name": "Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV)",
+  "aliases": [
+    "Alaska GEG WBS supply-chain evidence (7-unit gas engine plant, SESB 132/33/11 kV)"
+  ],
+  "sector": "PWR",
+  "category": "Gas engine power plant EPC",
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection",
+    "Sabah, Malaysia"
+  ],
+  "maturity": "commercial",
+  "principle": "Evidence assembled for every line item of the Alaska GEG WBS/BOQ across procurement, construction, commissioning and EPC indirects, with sourced specifications, dated prices and explicit gaps.",
+  "process_steps": [
+    {
+      "id": "PROCURE",
+      "name": "Procurement packages",
+      "equipment": [
+        "GEG",
+        "mechanical",
+        "electrical",
+        "I&C"
+      ]
+    },
+    {
+      "id": "BUILD",
+      "name": "Construction direct and indirect",
+      "equipment": [
+        "buildings",
+        "piling",
+        "earthwork"
+      ]
+    },
+    {
+      "id": "COMMISSION",
+      "name": "Commissioning and start-up",
+      "equipment": [
+        "test equipment",
+        "spares"
+      ]
+    },
+    {
+      "id": "GRID",
+      "name": "SESB 132/33/11 kV connection",
+      "equipment": [
+        "substations",
+        "meters",
+        "SCADA"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "GEG (7 units)",
+    "Admin Charges for Gas Engine Generator Handling",
+    "Profit Undertaking for Gas Engine Generator",
+    "Exhaust Gas System Package",
+    "Intake Air System Package",
+    "Cooling Water System Package / Air Cold Radiator",
+    "DOC and SCR system Package",
+    "HVAC System Package",
+    "Mechanical Maintenance Workshop Equipment Package",
+    "Gas Receiving, metering station, hot tap, FG supply system",
+    "Diesel Fuel System Package",
+    "Lube Oil Tank System Package",
+    "Water Tank System Package",
+    "Oily Water Treatment System Package",
+    "Fire Fighting System Package",
+    "Instrument Air System Package",
+    "Service Air System Package",
+    "Crane & Hoist",
+    "Scrubber (Gas Treatment)",
+    "Transformers (4 units)",
+    "132kV Substation (3 busbar, 2 outgoing, 4 incoming)",
+    "33kV Substation (1 busbar, 7 outgoing, 2 incoming)",
+    "11kV Generator Circuit Breakers (7 units)",
+    "11kV Switchgears (11 units)",
+    "Low Voltage Switchgear",
+    "Black Start Diesel Generator Package",
+    "UPS System",
+    "Bus Duct (between LV switchgear)",
+    "NGR panels",
+    "Cables, Cable Trays, and Acc (132kV, 33kV, 11kV, LV)",
+    "Electrical Laboratory Equipment Package",
+    "Busbar PT - 132KV 40kA (3s)",
+    "Busbar PT - 33kV 40kA (3s)",
+    "Plant Control System",
+    "Energy Billing System",
+    "Main & Check tariff Meters at each SESB-IF 33kV incomers",
+    "Telecommunication and Network Infrastructure",
+    "Communication System with Sabah Electricity S/B (SESB)",
+    "Integration to SESB SCADA System incl Auto Generation Control System",
+    "CCTV System",
+    "PA System",
+    "Sampling System",
+    "Field Instrumentation",
+    "Equipment, Mech, Elec, C&I",
+    "Building (C&S)",
+    "Piling Works (All Areas) - 1100 piles, 600 dia x 15m depth",
+    "Earthwork (Site Clearing and Land Levelling) - soil import 43200 m3",
+    "Powerhouse Building (steel structure 32x71x16)",
+    "Administratrion Building (reinforced concrete 13x35x7.5)",
+    "Visitor/ Meeting Building (reinforced concrete 22x13x7.2)",
+    "Electrical & Mechanical Workshop (steel structure 38x20x9.6)",
+    "SESB_132kV Switchgear Room (reinforced concrete 10.8x35x13.2 + 10.8 x26x7.5)",
+    "33 kV substation and low voltage distribution room (reinforced concrete 27.2x7x5.3)",
+    "Pump Building (steel structure 22x12x5.7)",
+    "Fire/ Service Water Pump House (upper steel 9x28x6)",
+    "Compressor Room (reinforced concrete 15x12x5.7)",
+    "Chemical /Urea Storage (reinforced concrete 15x9x7)",
+    "LV Switchgear Room & Control Room (reinforced concrete 16.2x36.6x14.4)",
+    "MV Switchgear Room (reinforced concrete 16.5x9.9x5.3)",
+    "Unloading Station (steel structure)"
+  ],
+  "suppliers": [
+    {
+      "name": "Supplier not identified in sources read (WBS line item)"
+    },
+    {
+      "name": "Wärtsilä Corporation"
+    },
+    {
+      "name": "PT Pembangunan Perumahan (Persero) Tbk (PT PP)"
+    },
+    {
+      "name": "EPV Energy Ltd"
+    },
+    {
+      "name": "Kenya Electricity Generating Company Limited (KenGen)"
+    },
+    {
+      "name": "Tsavo Power Company Limited"
+    },
+    {
+      "name": "Clarke Energy (authorised distributor and service provider in 27 countries)"
+    },
+    {
+      "name": "SynCraft (Jenbacher J412 customer/project partner)"
+    },
+    {
+      "name": "Stadtwerke Kiel (190 MW J920 CHP project owner)"
+    },
+    {
+      "name": "Rolls-Royce Power Systems (MTU brand)"
+    },
+    {
+      "name": "IAC Acoustics (UK Ltd / IAC World)"
+    },
+    {
+      "name": "Rolls-Royce / mtu solutions"
+    },
+    {
+      "name": "Johnson Matthey (EU and Asia applications enquiries listed on page)"
+    },
+    {
+      "name": "Camfil"
+    },
+    {
+      "name": "Donaldson Company, Inc."
+    },
+    {
+      "name": "Kohler Power Systems (Kohler Energy)"
+    },
+    {
+      "name": "Umicore"
+    },
+    {
+      "name": "Johnson Matthey Catalysts Germany GmbH"
+    },
+    {
+      "name": "Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia"
+    },
+    {
+      "name": "Dunham-Bush (Malaysia and regional operations)"
+    },
+    {
+      "name": "T.D. Williamson, LLC (Tulsa, OK, USA)"
+    },
+    {
+      "name": "Preferred Utilities Manufacturing Corp., Danbury, CT, USA"
+    },
+    {
+      "name": "Preferred Utilities Manufacturing Corp."
+    },
+    {
+      "name": "Roben Mfg., Inc. (Lakewood, NJ, USA)"
+    },
+    {
+      "name": "Atlantic Containment LLC (McGaheysville, VA, USA)"
+    },
+    {
+      "name": "Prismecs (OEM-agnostic EPCM/O&M provider, Houston, TX)"
+    },
+    {
+      "name": "PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia)"
+    },
+    {
+      "name": "Alfa Laval (Malaysia site alfalaval.my; product OFPX 517)"
+    },
+    {
+      "name": "Ruhrpumpen Group"
+    },
+    {
+      "name": "Tornatech (controllers)"
+    },
+    {
+      "name": "Clarke (C18 diesel engine)"
+    },
+    {
+      "name": "HADETEC (Nijkerk, Netherlands; member of Rootselaar Group)"
+    },
+    {
+      "name": "Comair (Shanghai, China)"
+    },
+    {
+      "name": "nano-purification solutions Asia Pacific (Singapore)"
+    },
+    {
+      "name": "HADETEC (Nijkerk, Netherlands; Rootselaar Group)"
+    },
+    {
+      "name": "Aerodyn Group Malaysia (Shah Alam and Labuan)"
+    },
+    {
+      "name": "Pneumatech"
+    },
+    {
+      "name": "ELGI"
+    },
+    {
+      "name": "Quincy"
+    },
+    {
+      "name": "SPX Jemaco"
+    }
+  ],
+  "performance": [
+    {
+      "metric": "Operational history — GE acquired Jenbacher gas engine-energy division; later sold Jenbacher and Waukesha to Advent International, creating INNIO",
+      "unit": "n/a",
+      "basis": "Wikipedia: 'The remaining gas engine-energy division was acquired by General Electric in 2003' and 'In 2018 GE sold its Jenbacher and Waukesha brands to the private equity company Advent International which created the new company INNIO.' Ownership-change dates both retained.",
+      "source": {
+        "url": "https://en.wikipedia.org/wiki/Jenbacher"
+      },
+      "year": 2018
+    },
+    {
+      "metric": "Operational history — Kipevu II financial closing, construction start and commercial operation",
+      "unit": "n/a",
+      "basis": "Wärtsilä reference: 'Wärtsilä began the construction immediately after financial closing in August 2000, and commercial operation was started on 4th September 2001, exactly on schedule.' Owner Tsavo Power Company; off-taker KPLC; seven Wärtsilä 38 generating sets.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/utilities/kipevu-ii-iii-kenya"
+      },
+      "year": 2001
+    },
+    {
+      "metric": "Operational history — Kipevu III turnkey contract awarded and handover",
+      "unit": "n/a",
+      "basis": "Wärtsilä reference: 'In November 2009, Wärtsilä was awarded a turnkey contract for a 117 MW thermal power plant ... Kipevu III, consisting of seven W18V46 engines, was successfully handed over to KenGen in March 2011.'",
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/utilities/kipevu-ii-iii-kenya"
+      },
+      "year": 2011
+    },
+    {
+      "metric": "Operational history — Pesanggaran Bali order, full output and fuel switch",
+      "unit": "n/a",
+      "basis": "Wärtsilä reference: 'This order was received in the fourth quarter 2013 and began functioning at full output by the end of May 2015'; 'since the building of the Tanjung Benoa LNG storage and regasification terminal in July 2016, it operates primarily on LNG.' EPC in consortium with PT PP.",
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/utilities/pesanggaran-bali"
+      },
+      "year": 2015
+    },
+    {
+      "metric": "Operational history — Wärtsilä contract for three 150 MW Brazilian balancing plants announced",
+      "unit": "n/a",
+      "basis": "Wärtsilä press release '18 November 2021 at 09:30 UTC+2': 16 Wärtsilä 20V34SG gas engine generating sets, three EPC plants in Espírito Santo; orders placed by companies held by funds managed by BTG Pactual Asset Management; booked in Q4 2021; scheduled operational Q2 2022.",
+      "source": {
+        "url": "https://www.wartsila.com/media/news/18-11-2021-wartsila-contracted-to-supply-three-flexible-thermal-balancing-power-plants-totalling-150-mw-to-brazil-3009303"
+      },
+      "year": 2021
+    },
+    {
+      "metric": "Operational history — Rolls-Royce launches mtu Series 500 gas gensets",
+      "unit": "n/a",
+      "basis": "Rolls-Royce press release dated 10 December 2020: 250-550 kW, peak efficiency up to 42.6%; initially natural gas, biogas from end 2021; H2-ready; Series 400 orderable until mid 2021, production end late 2021.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx"
+      },
+      "year": 2020
+    },
+    {
+      "metric": "Operational history — Wärtsilä/EPV Mertaniemi 43 MW balancing plant order booked",
+      "unit": "n/a",
+      "basis": "POWER magazine article dated Thursday, November 12, 2026: 43-MW facility at existing Mertaniemi site, Lappeenranta, Finland; four Wärtsilä 34SG engines; six-year service agreement; order booked Q4 2026; scheduled fully operational first half of 2029.",
+      "source": {
+        "url": "https://www.powermag.com/wartsila-will-supply-engines-for-finnish-power-plant-project/"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — Plant availability, combustion engine power plants",
+      "unit": "%",
+      "basis": "Wärtsilä white paper 'Combustion engine power plants', section 'Maintenance of combustion engines': 'Operational statistics prove that power plants achieve a plant availability of 95%, plant reliability of 97%, and starting reliability of 99%'. Published Time Tue, 14 Apr 2020 per r.jina.ai; document footer copyright 2011 Wärtsilä Corporation.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
+      },
+      "low": 95,
+      "high": 95
+    },
+    {
+      "metric": "Reliability — Plant reliability, combustion engine power plants",
+      "unit": "%",
+      "basis": "Same Wärtsilä white paper sentence: 'plant reliability of 97%'. Published Time Tue, 14 Apr 2020 per r.jina.ai; footer copyright 2011 Wärtsilä Corporation.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
+      },
+      "low": 97,
+      "high": 97
+    },
+    {
+      "metric": "Reliability — Starting reliability, combustion engine power plants",
+      "unit": "%",
+      "basis": "Same Wärtsilä white paper sentence: 'starting reliability of 99%'. Published Time Tue, 14 Apr 2020 per r.jina.ai; footer copyright 2011 Wärtsilä Corporation.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
+      },
+      "low": 99,
+      "high": 99
+    },
+    {
+      "metric": "Operational history — Wärtsilä gas power plants reference delivery: Sasolburg, South Africa, 18 x Wärtsilä 20V34SG, 175 MW, EPC, delivery 2012",
+      "unit": "n/a",
+      "basis": "Printed in Wärtsilä 'Gas and multi-fuel power plants' brochure, printed 08.2017, read via r.jina.ai 2026-08-18.",
+      "source": {
+        "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
+      },
+      "year": 2012
+    },
+    {
+      "metric": "Reliability — SCR operating hours before maintenance",
+      "unit": "hours (15,000-plus)",
+      "basis": "Johnson Matthey NOx control systems webpage, ©Johnson Matthey 2026, read 2026-11-25.",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
+      }
+    },
+    {
+      "metric": "Operational history — Donaldson states it has delivered air intake systems meeting equipment manufacturers' needs 'for more than 100 years' since Frank Donaldso",
+      "unit": "n/a",
+      "basis": "Donaldson Air Intake Systems Product Guide, 'AIR INTAKE INNOVATION – by Donaldson'; print date not stated in pages read; r.jina.ai retrieval 2026-11-11.",
+      "source": {
+        "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
+      },
+      "year": 1915
+    },
+    {
+      "metric": "Operational history — Johnson Matthey SCR and oxidation catalyst systems installed on twenty 6 MW natural gas engines at a Colorado energy plant",
+      "unit": "n/a",
+      "basis": "Photograph caption in JM 'Emission control solutions for power generation'; cover ©2018 Johnson Matthey; no installation year printed; read via r.jina.ai 2023-04-05.",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      }
+    },
+    {
+      "metric": "Operational history — JM SCR and oxidation catalyst systems on four 2-stroke diesel engines (total 7.5 MW) supplying Catalina Island micro-grid, reducing pollut",
+      "unit": "n/a",
+      "basis": "JM power generation brochure 'Clean power from diesel and fuel oil' case note; cover ©2018 Johnson Matthey; read via r.jina.ai 2023-04-05.",
+      "source": {
+        "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
+      },
+      "year": 2003
+    },
+    {
+      "metric": "Reliability — SCR hours before maintenance",
+      "unit": "hours (15,000-plus)",
+      "basis": "Johnson Matthey NOx control systems webpage, ©Johnson Matthey 2026, read 2026-11-25.",
+      "source": {
+        "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
+      }
+    },
+    {
+      "metric": "Reliability — Umicore catalyst experience / reference base",
+      "unit": "more than 40 years; over 10,000 industrial references",
+      "basis": "Umicore Data Center Emission Control Catalysts brochure, read via r.jina.ai 2026-09-02; print date not stated.",
+      "source": {
+        "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
+      }
+    },
+    {
+      "metric": "Operational history — Dunham-Bush states it was founded in the USA in 1894 and has more than 100 years of air-conditioning manufacturing history",
+      "unit": "n/a",
+      "basis": "Dunham-Bush homepage and Our Products page; WebFetch 2026-11-25.",
+      "source": {
+        "url": "https://dunham-bush.com/"
+      },
+      "year": 1894
+    },
+    {
+      "metric": "Operational history — T.D. Williamson states it has provided solutions for pressurized piping systems worldwide for more than 100 years",
+      "unit": "n/a",
+      "basis": "TDW homepage footer text, read directly 2026-11-25; site footer ©2020 T.D. Williamson, LLC; no founding year printed on page.",
+      "source": {
+        "url": "https://www.tdwilliamson.com/"
+      }
+    },
+    {
+      "metric": "Reliability — Regulator station redundancy practice",
+      "unit": "parallel runs to maximize uptime and enable maintenance while plant runs (qualit",
+      "basis": "Emerson White Paper D353412X012, August 2024, Reliability section; read via r.jina.ai 2026-02-27.",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Emerson metering skid installed base",
+      "unit": "over 2800 large-scale skids",
+      "basis": "Emerson datasheet DAN-GAS-TQ-GUSM-0213, February 2022; read via r.jina.ai 2026-01-30.",
+      "source": {
+        "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
+      }
+    },
+    {
+      "metric": "Operational history — Documented case of a turbine avoiding bearing failure because the automatic emergency lube pump started on main pump trip and maintained b",
+      "unit": "n/a",
+      "basis": "No event date given; Prismecs states the outcome depends on the pump being last proved by testing. Article published 11 February 2024.",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "Reliability — emergency lube pump proving",
+      "unit": "monthly start testing (AC auxiliary and DC emergency pumps, plus battery capacit",
+      "basis": "Prismecs article, 'If the emergency pump does not start'; published 11 February 2024: 'Monthly start testing ... belong in the preventive maintenance programme.'",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "Reliability — varnish detection",
+      "unit": "MPC (ASTM D7843) and RULER remaining antioxidant testing",
+      "basis": "Prismecs article, 'How is it detected?'; published 11 February 2024.",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "Reliability — debris localisation",
+      "unit": "chip detectors/debris monitors per scavenge pump and per bearing compartment",
+      "basis": "Prismecs article, 'Chip detectors and debris monitors'; published 11 February 2024.",
+      "source": {
+        "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
+      }
+    },
+    {
+      "metric": "Reliability — material service claim",
+      "unit": "corrosion-resistant, lightweight, designed for long-term durability in Malaysia'",
+      "basis": "PIPECO GRP Sectional Water Tank product description; page read 2026-11-25; vendor claim, not independently verified.",
+      "source": {
+        "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
+      }
+    },
+    {
+      "metric": "Operational history — 1985 API survey of refinery oil-water separators incorporated into API 421",
+      "unit": "n/a",
+      "basis": "API 421 states data from a 1985 survey of design and operation of oil-water separators were incorporated; survey found all separators had average horizontal velocities below 2 feet per minute and more than half below 1 foot per minute.",
+      "source": {
+        "url": "https://www.abpsoil.com/images/oil-waste-treatment/API-421.pdf"
+      },
+      "year": 1985
+    },
+    {
+      "metric": "Reliability — separation stability",
+      "unit": "stable performance regardless of fluctuations in inlet feed composition (oil and",
+      "basis": "Alfa Laval OFPX 517 leaflet introduction; PDF read via r.jina.ai; r.jina.ai Published Time 27 Nov 2018.",
+      "source": {
+        "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — separator sizing effect",
+      "unit": "increasing separator size (as measured by surface-loading rate) improves perform",
+      "basis": "API Publication 421 First Edition February 1990 Section 1.4; PDF read via r.jina.ai.",
+      "source": {
+        "url": "https://www.abpsoil.com/images/oil-waste-treatment/API-421.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — free oil only limitation",
+      "unit": "conventional oil-water separators remove only free oil; stable emulsions and dis",
+      "basis": "API Publication 421 First Edition February 1990 Sections 1.2 and 1.4; PDF read via r.jina.ai.",
+      "source": {
+        "url": "https://www.abpsoil.com/images/oil-waste-treatment/API-421.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — standby reliability claim",
+      "unit": "ability to run reliably under extreme conditions for extended periods; minimum m",
+      "basis": "ROTAMAC PDF 'Fire Pump for FPSO & FSO' benefits; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — jockey pump function",
+      "unit": "maintains system pressure to prevent main fire pump starting when small leaks oc",
+      "basis": "ROTAMAC PDF 'Jockey Pump' design features; PDF read via r.jina.ai; r.jina.ai Published Time 10 May 2023.",
+      "source": {
+        "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — continuous operation claim",
+      "unit": "hours per year (printed 'continuing yearly running of over 8,000 hours' for cent",
+      "basis": "Comair 'Instrument Air Compressor' page; page read 2026-11-25; footer ©2026.",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      },
+      "low": 8000,
+      "high": 8000
+    },
+    {
+      "metric": "Reliability — monitoring requirement",
+      "unit": "real-time dew point monitoring with alarm integration, remote monitoring, servic",
+      "basis": "nano-purification article 'Monitor Performance Continuously'; page read 2026-11-25.",
+      "source": {
+        "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
+      }
+    },
+    {
+      "metric": "Reliability — hazardous area option",
+      "unit": "fully explosion-proof instrument air compressor available for hazardous applicat",
+      "basis": "Comair page: 'For your hazardous applications, our instrument air compressor could be completely explosion proof'; page read 2026-11-25.",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      }
+    },
+    {
+      "metric": "Reliability — maintenance design claim",
+      "unit": "all parts easily accessible to minimise downtime; 24/7 continuous operation",
+      "basis": "Comair page; page read 2026-11-25; footer ©2026.",
+      "source": {
+        "url": "https://comairflow.com/instrument-air-compressor"
+      }
+    },
+    {
+      "metric": "Reliability — air treatment requirement",
+      "unit": "dryers remove moisture that causes corrosion, quality issues and microorganisms ",
+      "basis": "Aerodyn Group Pneumatech page; page read 2026-11-25; footer ©2026.",
+      "source": {
+        "url": "https://aerodyngroup.com/pneumatech"
+      }
+    },
+    {
+      "metric": "Reliability — in-house certification claim",
+      "unit": "JKKP load testing and certification handled in-house",
+      "basis": "Vibrant Engineering 'Key Features'; page read 2026-11-25; footer ©2026.",
+      "source": {
+        "url": "https://vibrantengineering.com.my/products/overhead-crane"
+      }
+    },
+    {
+      "metric": "Operational history — Impinjet scrubber removing hazardous vapours at a major industrial chemicals producer: system handles 2,500 CFM, efficiencies exceeding 95",
+      "unit": "n/a",
+      "basis": "Case study printed in Sly Wet Scrubber Application Guide, catalogue WS-1003091, ©2009 Sly Inc.; no event date given; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Operational history — Skid-mounted Impinjet wet gas scrubber cleaning medical waste incinerator exhaust: 7,258 CFM of gas at 1800°F from a 100 lb. per hour inci",
+      "unit": "n/a",
+      "basis": "Case study printed in Sly guide ©2009 Sly Inc.; no event date given; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Operational history — Eductor venturi/packed tower combination at a specialty chemical producer, skid-mounted stainless steel construction designed for 500 CFM",
+      "unit": "n/a",
+      "basis": "Case study printed in Sly guide ©2009 Sly Inc.; no event date given; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — no consumable media",
+      "unit": "SULFURIX requires no chemical addition or costly media replacement; construction",
+      "basis": "GWE SULFURIX™ page, 'How can a SULFURIX benefit your business?'; page read 2026-11-25.",
+      "source": {
+        "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
+      }
+    },
+    {
+      "metric": "Reliability — no moving parts",
+      "unit": "Impinjet scrubbers have no moving parts to maintain and are pluggage-resistant",
+      "basis": "Sly Wet Scrubber Application Guide, benefits and operating principles; ©2009 Sly Inc.; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — emissions control independent of fuel sulphur/load",
+      "unit": "automation optimised at commissioning keeps emissions within stipulated limits r",
+      "basis": "APZEM SOX Scrubber page 'Working'; page read 2026-11-25; footer ©2023.",
+      "source": {
+        "url": "https://wet-scrubber.com/sox-scrubber"
+      }
+    },
+    {
+      "metric": "Operational history — 750 kV transformers supplied",
+      "unit": "n/a",
+      "basis": "CG Electric Systems Hungary 'Having supplied 750 kV transformers as early as in 1977' and CG India 'a dominant player in 800 kV transformers market'",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "year": 1977
+    },
+    {
+      "metric": "Operational history — First 765 kV transformer manufactured in India",
+      "unit": "n/a",
+      "basis": "260 MVA, 765 kV single-phase generator transformer supplied by CG India to NTPC was the first 765 kV transformer manufactured in India; year not stated on the catalogue excerpt",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      }
+    },
+    {
+      "metric": "Reliability — Installed units stated by OEM",
+      "unit": "units installed in 75 countries",
+      "basis": "CG Power Systems Power Transformers catalogue summary, 'Technical Documentation and Export: over 600 units installed in 75 countries'; page read 2026-11-25, no date printed on the source page",
+      "source": {
+        "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
+      },
+      "low": 600,
+      "high": 600
+    },
+    {
+      "metric": "Operational history — ABB commissioned a 1200 kV GIS",
+      "unit": "n/a",
+      "basis": "Rated to handle more than one million volts (1200 kV) with transmission capability of 6900 MW; ABB ELK-04 C 145 kV brochure, '50 years of GIS innovation'; read 2026-11-25 via r.jina.ai",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "year": 2009
+    },
+    {
+      "metric": "Reliability — GIS bays installed worldwide",
+      "unit": "bays in over 100 countries (vendor stated)",
+      "basis": "ABB ELK-04 C 145 kV brochure, Technology section: 'delivering over 25,000 switchgear bays in over 100 countries'; brochure 2GV008915 En / 03.15; read 2026-11-25 via r.jina.ai",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "low": 25000,
+      "high": 25000
+    },
+    {
+      "metric": "Reliability — SF6 leakage type test",
+      "unit": "% of SF6 gas per year",
+      "basis": "ABB ELK-04 C 145 kV brochure, life cycle section: 'Type tested for 0.1 percent SF6 gas leakage rate per year'; read 2026-11-25 via r.jina.ai",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "low": 0.1,
+      "high": 0.1
+    },
+    {
+      "metric": "Reliability — Service life claim",
+      "unit": "years of operation with periodic visual checks (vendor stated)",
+      "basis": "ABB ELK-04 C 145 kV brochure: 'Under normal operational conditions, more than 50 years smooth operation is assured with periodic visual checks'; read 2026-11-25 via r.jina.ai",
+      "source": {
+        "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
+      },
+      "low": 50,
+      "high": 50
+    },
+    {
+      "metric": "Reliability — Maintenance interval claim",
+      "unit": "operating cycles maintenance-free",
+      "basis": "Siemens Catalog HG 11.06 Edition 2017, 3AK7 description; read 2026-11-25 via r.jina.ai",
+      "source": {
+        "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
+      },
+      "low": 10000,
+      "high": 10000
+    },
+    {
+      "metric": "Reliability — Installed MNS switchgears worldwide",
+      "unit": "switchgears delivered since 1973 (vendor stated)",
+      "basis": "ABB MNS 3.0 catalogue Rev C 2019.11: 'over 1.5 million MNS switchgears delivered worldwide since the inception of this system in 1973'; read 2026-11-25 via r.jina.ai",
+      "source": {
+        "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
+      },
+      "low": 1500000,
+      "high": 1500000
+    },
+    {
+      "metric": "Operational history — Grid System Restoration Plan obligation stated",
+      "unit": "n/a",
+      "basis": "Sabah Distribution Code (posted 2024-01-05) 6.9.7.1.1: the plan uses Black Start Generating Units to develop local Power Islands, progressively restore Demand then re-synchronise and interconnect Power Islands; 6.9.7.2.1 notes Black Start Generating Units are mainly directly connected to the Transmission System, but Distributed Generators can provide black-start service.",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Reliability — Reliability feature (qualitative)",
+      "unit": "n/a",
+      "basis": "Vertiv Liebert APM Plus brochure UPS-APM Plus-BR-V1-0322-EN (copyright 2022 Vertiv Group Corp.): 'Reliability boosters- Robust air channels, PCBs embedded with conformal coating'; 'Proven Hot-swappable Design ... reduced MTTR'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.vertiv.com/48ea97/globalassets/products/critical-power/uninterruptible-power-supplies-ups/vertiv-liebert-apm-plus-brochure.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Reliability statement (qualitative)",
+      "unit": "n/a",
+      "basis": "ABB WavePro Series Busway Leaflet 1SXH3432025 REV A 04-2022, copyright 2022 ABB: 'Reliability and Safety is a priority and WavePro meets the requirements of IEC 61439-6, rigorous testing has been conducted to ensure safety, availability, and reliability.'",
+      "source": {
+        "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Element design (qualitative)",
+      "unit": "n/a",
+      "basis": "I-Gard C-098EB brochure, April 2022: 'Edgewound element design eliminates hot-spots'; 'special grade of electrical alloy with a very low temperature coefficient of resistance'; 'CSA certified and UL approved'.",
+      "source": {
+        "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — Design life (minimum)",
+      "unit": "years",
+      "basis": "Northern Powergrid NPS/003/001 v6.0, Date of Issue May 2024, clause 3.1.5: 'VTs shall be designed to provide a minimum operating life of 40 years in normal outdoor service conditions as defined by BS EN 61869-1 clause 4.2.5.'",
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
+      },
+      "low": 40,
+      "high": 40
+    },
+    {
+      "metric": "Reliability — Design life (minimum)",
+      "unit": "years",
+      "basis": "Northern Powergrid NPS/003/001 v6.0, Date of Issue May 2024, clause 3.1.5: 'VTs shall be designed to provide a minimum operating life of 40 years in normal outdoor service conditions as defined by BS EN 61869-1 clause 4.2.5.'",
+      "source": {
+        "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
+      },
+      "low": 40,
+      "high": 40
+    },
+    {
+      "metric": "Operational history — SESB Patau-Patau power plant automation replacement; value of order not disclosed; start-up planned July 2016",
+      "unit": "n/a",
+      "basis": "Valmet supplied Valmet DNA, information management application, turbine controller for an AEG Kanis steam turbine, integration of two existing GE F6 gas turbine controllers, engineering and commissioning; PESTECH responsible for total project delivery; 112 MWe plant with three gas turbines and one steam turbine, largest of SESB's plants.",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      },
+      "year": 2016
+    },
+    {
+      "metric": "Operational history — Prior Valmet automation deliveries to SESB Tenom and Melawa power plants",
+      "unit": "n/a",
+      "basis": "Valmet press release of 1 July 2016 quotes Esko Koivisto: 'We have previously delivered automation to Sabah Electricity's power plants in Tenom and Melawa'; no year stated on page.",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      }
+    },
+    {
+      "metric": "Operational history — Enecogen gas-fired plant commissioned with Omnivise T3000 as digital backbone",
+      "unit": "n/a",
+      "basis": "Omterra reference page (read 2026, reference listing dated November 13, 2025) states Enecogen, Rotterdam, commissioned 2011, two single-shaft combined cycle units with SGT5-4000F gas turbines and SST5-5000 steam turbines, 958 MW, black start, automated load ramping, IEC 62443 compliance.",
+      "source": {
+        "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html"
+      },
+      "year": 2011
+    },
+    {
+      "metric": "Reliability — redundant controller switchover",
+      "unit": "ms (approximate, Honeywell Experion C300)",
+      "basis": "Honeywell C300 product page, © 2026 Honeywell, read directly: 'Switchover Time: ~500 ms'.",
+      "source": {
+        "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
+      },
+      "low": 500,
+      "high": 500
+    },
+    {
+      "metric": "Reliability — sequence-of-events time tagging",
+      "unit": "millisecond accuracy",
+      "basis": "ABB System 800xA Safety Overview, © 2025 ABB, read via r.jina.ai: 'Time tagging events to millisecond accuracy for Sequence of Events (SOE)'.",
+      "source": {
+        "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
+      },
+      "low": 1,
+      "high": 1
+    },
+    {
+      "metric": "Reliability — metering installation availability target",
+      "unit": "% per annum",
+      "basis": "Sabah Grid Code clause MC6.1 (published 2024, read via r.jina.ai): 'The target availability of measurement transformers and Metering Installations shall be 99% per annum'.",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "low": 99,
+      "high": 99
+    },
+    {
+      "metric": "Reliability — measurement transformer/metering installation availability",
+      "unit": "% per annum",
+      "basis": "Sabah Grid Code MC6.1 (published 2024, read via r.jina.ai): 'target availability of measurement transformers and Metering Installations shall be 99% per annum'.",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "low": 99,
+      "high": 99
+    },
+    {
+      "metric": "Reliability — communication link availability",
+      "unit": "% per annum",
+      "basis": "Sabah Grid Code MC6.1 (published 2024, read via r.jina.ai): 'target availability of the communication link shall be 95% per annum'.",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "low": 95,
+      "high": 95
+    },
+    {
+      "metric": "Reliability — substation switch EMI performance",
+      "unit": "claim",
+      "basis": "Siemens RUGGEDCOM brochure, Edition 09/2018, read via r.jina.ai: 'RUGGEDCOM technology withstands all of the EMI type tests required by IEC 61850-3 without experiencing any communications loss or delays ... qualify as IEEE 1613 class 2 error-free devices'.",
+      "source": {
+        "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — communication link availability target (revenue metering)",
+      "unit": "% per annum",
+      "basis": "Sabah Grid Code MC6.1 (published 2024, read via r.jina.ai).",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      },
+      "low": 95,
+      "high": 95
+    },
+    {
+      "metric": "Operational history — Enecogen control system integration supporting grid stability and black start",
+      "unit": "n/a",
+      "basis": "Omterra reference page: Omnivise T3000 integrates gas and steam turbines, black start unit and electrical houses; automated black start procedures and rapid load ramping; plant commissioned 2011.",
+      "source": {
+        "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html"
+      },
+      "year": 2011
+    },
+    {
+      "metric": "Reliability — loss of SLDC contingency",
+      "unit": "procedure",
+      "basis": "Sabah Grid Code contents/OC7.8 (published 2024, read via r.jina.ai): 'OC7.8 Loss of Sabah Load Dispatch Centre'.",
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — loudspeaker line supervision",
+      "unit": "diagnostic capability",
+      "basis": "Bosch Praesideo databook, read via r.jina.ai: 'This monitoring extends from the capsule of a call station microphone to the end of a loudspeaker line.'",
+      "source": {
+        "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
+      }
+    },
+    {
+      "metric": "Reliability — transmitter long-term stability",
+      "unit": "% of URL over 10 years",
+      "basis": "Rosemount 3051 PDS, February 2017, read via r.jina.ai: '10-year stability of 0.2 percent of URL'.",
+      "source": {
+        "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
+      },
+      "low": 0.2,
+      "high": 0.2
+    },
+    {
+      "metric": "Operational history — EPCC contract signed for Kimanis 300 MW plant",
+      "unit": "n/a",
+      "basis": "Signing reported 24 May 2011; construction start 1 Apr 2011; first block COD 1 Dec 2013, second 1 Feb 2014, third 1 Apr 2014.",
+      "source": {
+        "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/"
+      },
+      "year": 2011
+    },
+    {
+      "metric": "Operational history — SESB 94 MW fast-track Kimanis project notified",
+      "unit": "n/a",
+      "basis": "LoN from ECoS reported 25 September 2024; connection at Langsat PMU; completion expected June 2025.",
+      "source": {
+        "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Reliability — long-term service agreements held by GE worldwide",
+      "unit": "sites (more than)",
+      "basis": "GE press release 14 June 2011: 'GE has long-term service agreements in place at more than 700 sites worldwide.'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "low": 700,
+      "high": 700
+    },
+    {
+      "metric": "Operational history — Remote pre-commissioning and first engine start supported from Augsburg",
+      "unit": "n/a",
+      "basis": "MAN Digital Services case study: confidential Canadian vessel with 4 x MAN 6L32/44CR GenSets with GE generators and SCR; pre-commissioning and first engine start supported remotely during Covid-19 self-isolation restrictions; remote evaluation of load tests by superintendents.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/primeserv-digital-services-eng.pdf?sfvrsn=12967c97_4"
+      },
+      "year": 2020
+    },
+    {
+      "metric": "Operational history — Remote engine and generator commissioning at Triumph Power plant, Kenya",
+      "unit": "n/a",
+      "basis": "MAN PrimeServ O&M operates ten Himsen engines at Kitengela outside Nairobi for Triumph Power Generation Company Ltd; after a 2020 crankshaft/generator failure and Covid-19 repatriation, commissioning was executed remotely with PrimeServ Assist data and EyeTech video, including coupling alignment, safety checks, test certificates and hot commissioning.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/primeserv-digital-services-eng.pdf?sfvrsn=12967c97_4"
+      },
+      "year": 2020
+    },
+    {
+      "metric": "Reliability — PrimeServ Assist agreements",
+      "unit": "customers (more than), representing almost 600 four-stroke engines",
+      "basis": "MAN PrimeServ Digital Services brochure (document code D2366686), read via r.jina.ai 25 Nov 2026: 'Since market launch in 2019, more than 80 customers - representing almost 600 MAN four-stroke engines and auxiliary systems - have already made PrimeServ Assist agreements'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/primeserv-digital-services-eng.pdf?sfvrsn=12967c97_4"
+      },
+      "low": 80,
+      "high": 80
+    },
+    {
+      "metric": "Operational history — 18-year CSA signed for Kimanis plant",
+      "unit": "n/a",
+      "basis": "GE press release 14 June 2011; plant developed BOOT by Kimanis Power Sdn Bhd, electricity sold to SESB; 3 Frame 6FA gas turbines shipped Q1 2012, commercial operation Q4 2013.",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "year": 2011
+    },
+    {
+      "metric": "Reliability — GE long-term service agreements worldwide",
+      "unit": "sites (more than)",
+      "basis": "GE press release 14 June 2011: 'GE has long-term service agreements in place at more than 700 sites worldwide.'",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "low": 700,
+      "high": 700
+    },
+    {
+      "metric": "Operational history — GE turbine shipment scheduled",
+      "unit": "n/a",
+      "basis": "Kimanis Frame 6FA units expected to ship Q1 2012; CO scheduled Q4 2013 (GE press release dated 14 June 2011).",
+      "source": {
+        "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
+      },
+      "year": 2012
+    },
+    {
+      "metric": "Operational history — Act A1648 amendments to the OSH Act 1994 came into operation",
+      "unit": "n/a",
+      "basis": "DOSH Act 514 reprint 'As at 1 June 2024' states latest amendment by Act A1648 came into operation 1 June 2024 (including increased penalties).",
+      "source": {
+        "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Operational history — ISO 14001:2015 withdrawn",
+      "unit": "n/a",
+      "basis": "ISO standard page shows ISO 14001:2015 status Withdrawn, stage 95.99 dated 2026-04-15, replaced by ISO 14001:2026; ISO advises certified organisations to consult their certification body on transition. ISO 45001:2018 remains published with Amd 1:2024.",
+      "source": {
+        "url": "https://www.iso.org/standard/60857.html"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — maximum fine for breach of OSH Act 1994 sections 15, 16, 17, 18, 18A or 18B",
+      "unit": "RM (not exceeding), or imprisonment up to 2 years, or both",
+      "basis": "DOSH Act 514 reprint as at 1 June 2024, section 19; footnote states previously RM50,000, increased by Act A1648. Separate section 23 penalty for sections 20/21 is RM200,000 or 2 years.",
+      "source": {
+        "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf"
+      },
+      "low": 500000,
+      "high": 500000
+    },
+    {
+      "metric": "Reliability — steam power station EIA capacity threshold (First Schedule item 11(a))",
+      "unit": "MW or more",
+      "basis": "Environmental Quality (Prescribed Activities) (EIA) Order 2015, made 5 August 2015: First Schedule item 11(a) 'Construction of steam generated power station using fossil fuels (other than coal) and having the capacity of 10 megawatts or more, with or without transmission line'; 11(b) covers combined cycle stations. The order text as read contains no explicit gas-engine-only entry - applicability t",
+      "source": {
+        "url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf"
+      },
+      "low": 10,
+      "high": 10
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Price — Total capital cost, 4 x 5.6 MW natural-gas reciprocating engine (RICE) plant, 21.4 MW net",
+      "unit": "USD",
+      "basis": "EIA/Sargent & Lundy 'Capital Cost and Performance Characteristic Estimates for Utility Scale Electric Power Generating Technologies', Case 4, Table 4-1: 'Total Capital Cost $ 38,727,000', 'Case 4 EIA – Capital Cost Estimates – 2019 $s'. Contractor final Rev. 1 dated 9 December 2019; EIA report February 2020; r.jina.ai Published Time Wed, 05 Feb 2020. Fetched via r.jina.ai.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_aeo2020.pdf"
+      },
+      "low": 38727000,
+      "high": 38727000,
+      "year": 2019
+    },
+    {
+      "metric": "Price — Overnight capital cost per kW net, 4 x 5.6 MW natural-gas RICE plant",
+      "unit": "USD/kW",
+      "basis": "Same EIA/Sargent & Lundy Case 4: 'The base cost estimate for this technology case totals $1810/kW' and table row '$/kW net 1,810', in 2019 $s. EIA report February 2020; fetched via r.jina.ai.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_aeo2020.pdf"
+      },
+      "low": 1810,
+      "high": 1810,
+      "year": 2019
+    },
+    {
+      "metric": "Price — Engines and associated auxiliaries, owner-furnished from engine OEM (4 x 5.6 MW case)",
+      "unit": "USD",
+      "basis": "EIA/Sargent & Lundy Case 4 Table 4-1: 'Engines (Note 3) $ 11,974,000' and 'Owner Furnished Equipment (Note 3) $ 11,974,000'; Note 3 'Engines and associated auxiliaries procured by Owner from the engine OEM.' 2019 $s; report February 2020.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_aeo2020.pdf"
+      },
+      "low": 11974000,
+      "high": 11974000,
+      "year": 2019
+    },
+    {
+      "metric": "Price — Total installed cost, industrial natural gas reciprocating engine 1,000 kW, year 2015",
+      "unit": "USD/kW",
+      "basis": "EIA 'Distributed Generation and Combined Heat & Power System Characteristics and Costs in the Buildings Sector', Appendix A Leidos report, Table 5-6 'Industrial Capital Costs - Natural Gas Reciprocating Engine - Reference New Equipment', year column 2015, 'Total Installed Cost ($/kW) 1,899'. Footnote: 'Costs presented are in current 2015 dollars'. EIA report April 2017; Leidos appendix May 2016; r",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf"
+      },
+      "low": 1899,
+      "high": 1899,
+      "year": 2015
+    },
+    {
+      "metric": "Price — Total installed cost, industrial natural gas reciprocating engine 1,000 kW, year 2020",
+      "unit": "USD/kW",
+      "basis": "Same Table 5-6, year column 2020, 'Total Installed Cost ($/kW) 2,105'; footnote 'Costs presented are in current 2015 dollars' (i.e. nominal dollars reported on a 2015 price basis in the printed table). EIA report April 2017; Leidos appendix May 2016.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf"
+      },
+      "low": 2105,
+      "high": 2105,
+      "year": 2020
+    },
+    {
+      "metric": "Price — Total installed cost, industrial natural gas reciprocating engine 3,000 kW, year 2015",
+      "unit": "USD/kW",
+      "basis": "Same EIA/Leidos report Table 5-14 'Industrial Capital Costs Natural Gas Reciprocating Engine - Reference New Equipment', year column 2015, 'Total Installed Cost ($/kW) 1,742'. Footnote: 'Costs presented are in current 2015 dollars'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf"
+      },
+      "low": 1742,
+      "high": 1742,
+      "year": 2015
+    },
+    {
+      "metric": "Price — Total installed cost, industrial natural gas reciprocating engine 3,000 kW, year 2020",
+      "unit": "USD/kW",
+      "basis": "Same Table 5-14, year column 2020, 'Total Installed Cost ($/kW) 1,931'; footnote 'Costs presented are in current 2015 dollars'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf"
+      },
+      "low": 1931,
+      "high": 1931,
+      "year": 2020
+    },
+    {
+      "metric": "Price — Exhaust gas treatment capital cost (representative lean-burn gas engine CHP, systems 2-5 in Table 2-4)",
+      "unit": "$/kW (2013 dollars, USD as printed)",
+      "basis": "US EPA / ICF 'Catalog of CHP Technologies, Section 2 — Reciprocating Internal Combustion Engines', March 2015 (September 2017 revision noted), Table 2-4 row 'Exhaust Gas Treatment': $750, $500, $230, $150 $/kW for systems 2-5; text §2.5.2.6 states SCR with oxidation catalyst and CEMS adds between $150-$700/kW for lean burn engines. Read via r.jina.ai 2026-06-25.",
+      "source": {
+        "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf"
+      },
+      "low": 150,
+      "high": 750,
+      "year": 2013
+    },
+    {
+      "metric": "Price — SCR with oxidation catalyst and CEMS capital-cost increment, lean-burn reciprocating-engine CHP",
+      "unit": "$/kW (2013 dollars, USD as printed)",
+      "basis": "US EPA/ICF Catalog of CHP Technologies Section 2, §2.5.2.6, 'adds between $150-$700/kW to the capital cost for a lean burn reciprocating engine CHP installation. The cost burden is higher for smaller engines'; March 2015 document (Sept 2017 revision); read via r.jina.ai 2026-06-25.",
+      "source": {
+        "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf"
+      },
+      "low": 150,
+      "high": 700,
+      "year": 2013
+    },
+    {
+      "metric": "Price — SCR total project cost per kW, 500 MW oil/gas-fired boiler IPM example (NOT a gas-engine figure — printed scope retained for comparison)",
+      "unit": "$/kW (2021 dollars, USD; EPA IPM methodology February 2023)",
+      "basis": "Sargent & Lundy / Eastern Research Group for US EPA, 'IPM Model – Updates to Cost and Performance for APC Technologies: SCR Cost Development Methodology for Oil/Gas-fired Boilers', Final February 2023, Table 1 example: 'Total project cost ... 127 $/kW' and 'Total project cost 135 $/kW'; states 'Costs are all based on 2021 dollars'; read via r.jina.ai 2023-04-04.",
+      "source": {
+        "url": "https://www.epa.gov/system/files/documents/2022-03/gas-fired-scr-cost-methodology.pdf"
+      },
+      "low": 127,
+      "high": 135,
+      "year": 2021
+    },
+    {
+      "metric": "Price — ASME B31.1-2026 Power Piping standard list price (print book or PDF)",
+      "unit": "$450.00 (USD as printed, 2026 edition)",
+      "basis": "ASME standards store page for B31.1 - 2026, 'Price $450.00', order nos. A05826 (print) / A0582V (PDF); read directly 2026-11-25. This is a standard price, not a gas receiving station package price.",
+      "source": {
+        "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping"
+      },
+      "low": 450,
+      "high": 450,
+      "year": 2026
+    },
+    {
+      "metric": "Price — reference price, 1 ton single girder overhead crane",
+      "unit": "USD",
+      "basis": "Dafang Crane 'Overhead Crane Price' PDF, 'Single Girder Electric Overhead Travelling Crane Price List (Reference)': '$1,830-5,100' for span 7.5-28.5 m, lift 6-30 m, 220V-660V 50-60Hz 3ph AC. PDF file path /2025/07/ (printed folder year 2025); r.jina.ai reports Published Time Sat, 31 Jan 2026 01:04:46 GMT. PDF read via r.jina.ai mirror 2026-11-25.",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 1830,
+      "high": 5100,
+      "year": 2025
+    },
+    {
+      "metric": "Price — reference price, 5 ton single girder overhead crane",
+      "unit": "USD",
+      "basis": "Dafang Crane price PDF single girder reference table: '$3,130-8,680'; span 7.5-31.5 m, lift 6-30 m. File path /2025/07/; r.jina.ai Published Time 31 Jan 2026; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 3130,
+      "high": 8680,
+      "year": 2025
+    },
+    {
+      "metric": "Price — reference price, 10 ton single girder overhead crane",
+      "unit": "USD",
+      "basis": "Dafang Crane price PDF single girder reference table: '$3,890-12,000'. File path /2025/07/; r.jina.ai Published Time 31 Jan 2026; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 3890,
+      "high": 12000,
+      "year": 2025
+    },
+    {
+      "metric": "Price — reference price, 5t LH-type double girder crane with hoist trolley",
+      "unit": "USD",
+      "basis": "Dafang Crane price PDF LH-type table: 5t, span 10.5-31.5 m, lift 16 m, A5/A6, total power 22.8-27.8 kW, '$15600-$29500'. File path /2025/07/; r.jina.ai Published Time 31 Jan 2026; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 15600,
+      "high": 29500,
+      "year": 2025
+    },
+    {
+      "metric": "Price — reference price, 10t LH-type double girder crane with hoist trolley",
+      "unit": "USD",
+      "basis": "Dafang Crane price PDF LH-type table: 10t, span 10.5-31.5 m, lift 16 m, A5/A6, '$17200-$32500'. File path /2025/07/; r.jina.ai Published Time 31 Jan 2026; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 17200,
+      "high": 32500,
+      "year": 2025
+    },
+    {
+      "metric": "Price — reference price, 20t/5t LH-type double girder crane",
+      "unit": "USD",
+      "basis": "Dafang Crane price PDF LH-type table: 20t/5t, span 10.5-31.5 m, lift 12/14 m, A5/A6, '$25500-$45900'. File path /2025/07/; r.jina.ai Published Time 31 Jan 2026; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 25500,
+      "high": 45900,
+      "year": 2025
+    },
+    {
+      "metric": "Price — reference price, 50t/10t LH-type double girder crane",
+      "unit": "USD",
+      "basis": "Dafang Crane price PDF LH-type table: 50t/10t, span 10.5-31.5 m, lift 12/16 m, A5/A6, '$49500-$72000'. File path /2025/07/; r.jina.ai Published Time 31 Jan 2026; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 49500,
+      "high": 72000,
+      "year": 2025
+    },
+    {
+      "metric": "Price — reference price, 100t/20t LH-type double girder crane",
+      "unit": "USD",
+      "basis": "Dafang Crane price PDF LH-type table: 100t/20t, span 13-31 m, lift 18/20 m, A5/A6, '$115000-$166700'. File path /2025/07/; r.jina.ai Published Time 31 Jan 2026; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 115000,
+      "high": 166700,
+      "year": 2025
+    },
+    {
+      "metric": "Price — reference price, manual single girder overhead crane 1 ton",
+      "unit": "USD",
+      "basis": "Dafang Crane price PDF 'Manual Single Girder Overhead Crane Price List (Reference)': 1 ton, span 4-12 m, lift 3m/6m/9m upto 10m, Manual Mode, '$840-1,800'. File path /2025/07/; r.jina.ai Published Time 31 Jan 2026; read via r.jina.ai 2026-11-25.",
+      "source": {
+        "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
+      },
+      "low": 840,
+      "high": 1800,
+      "year": 2025
+    },
+    {
+      "metric": "Price — typical automation system delivery order value (not the disclosed SESB order value)",
+      "unit": "EUR",
+      "basis": "Valmet press release 1 July 2016: 'The value of the order will not be disclosed. Typically the order value of automation system deliveries ranges from below EUR one million to EUR three million.' This is a company-stated typical range, NOT a price for the SESB project or for this 7-unit plant.",
+      "source": {
+        "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
+      },
+      "low": 1000000,
+      "high": 3000000,
+      "year": 2016
+    },
+    {
+      "metric": "Price — IEC 62052-11:2020 electronic standard list price",
+      "unit": "CHF",
+      "basis": "IEC Webstore product page, publication date 2020-06-29, edition 2.0: 'CHF 405.-'. This is the price of the standard document, not of metering equipment or of this line item.",
+      "source": {
+        "url": "https://webstore.iec.ch/en/publication/28212"
+      },
+      "low": 405,
+      "high": 405,
+      "year": 2020
+    },
+    {
+      "metric": "Price — Lighting point, PVC cable in conduit (switch separate)",
+      "unit": "RM/point",
+      "basis": "JKR Jadual Kadar Kerja Elektrik 2025 (JKKE 2025), item I-A1m/s 12; KL base; JKKE approved 28 May 2025, valid to 31 Dec 2026",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 85.0,
+      "high": 85.0,
+      "year": 2025
+    },
+    {
+      "metric": "Price — MCB single pole up to 32A",
+      "unit": "RM/no",
+      "basis": "JKR JKKE 2025, item II-C1m/s 43; KL base",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 32.0,
+      "high": 32.0,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Insulation and continuity test, single-phase DB",
+      "unit": "RM/no",
+      "basis": "JKR JKKE 2025, item VII-E4.1m/s 146; KL base",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 719.0,
+      "high": 719.0,
+      "year": 2025
+    },
+    {
+      "metric": "Price — EPC contract value, 132/33/11 kV Star1 & Star2 substation incl. GIS building",
+      "unit": "AED",
+      "basis": "SCAN Electromechanical project page: client SEWA, Down Town Sharjah UAE, year completed 2016, contract value AED183,000,000 - a total contract value, not a unit rate",
+      "source": {
+        "url": "https://scanelectromechanical.com/project/scan-project-03"
+      },
+      "low": 183000000,
+      "high": 183000000,
+      "year": 2016
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in beams",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 634.4,
+      "high": 634.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in columns",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 663.6,
+      "high": 663.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — BRC A6 steel fabric",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B744B/7; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 35.1,
+      "high": 35.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to beam sides and soffit",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 80.1,
+      "high": 80.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to columns",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B824B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 69.3,
+      "high": 69.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Bored pile 600 mm diameter",
+      "unit": "RM/m",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, Pile Foundations table; 1500-2500 kN working load; indicative 2025-2026, typical Klang Valley ground; excludes pile cap/head detailing; East Malaysia rates differ",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 600,
+      "high": 1000,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Drill 1000 mm nominal diameter vertical holes in soil other than rock with temporary casing",
+      "unit": "RM/m",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 5; PURATA RM292.19, JULAT RM109.00-450.00; Peninsular Kawasan Utara/Tengah/Timur; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 109.0,
+      "high": 450.0,
+      "year": 2013
+    },
+    {
+      "metric": "Price — Drill 1000 mm nominal diameter vertical holes in rock",
+      "unit": "RM/m",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 6; PURATA RM1,751.62, JULAT RM900.00-2,200.00; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 900.0,
+      "high": 2200.0,
+      "year": 2013
+    },
+    {
+      "metric": "Price — 1000 mm nominal diameter x 12 mm thick permanent casing",
+      "unit": "RM/m",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 7; PURATA RM2,223.92, JULAT RM2,000.00-3,300.00; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 2000.0,
+      "high": 3300.0,
+      "year": 2013
+    },
+    {
+      "metric": "Price — Concreted length with Grade 40/20",
+      "unit": "RM/m3",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 11; PURATA RM361.48, JULAT RM253.60-497.40; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 253.6,
+      "high": 497.4,
+      "year": 2013
+    },
+    {
+      "metric": "Price — High yield reinforcement up to 12 mm / 16 mm and above",
+      "unit": "RM/tonne",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 8(a) and 9(b); PURATA RM3,436.27, JULAT RM3,000.00-3,636.00; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 3000.0,
+      "high": 3636.0,
+      "year": 2013
+    },
+    {
+      "metric": "Price — Cutting off pile heads and preparing as shown",
+      "unit": "RM/no",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 13; PURATA RM293.63, JULAT RM249.00-335.00; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 249.0,
+      "high": 335.0,
+      "year": 2013
+    },
+    {
+      "metric": "Price — Mobilisation/demobilisation of labour, plant and drilling equipment for bored piling",
+      "unit": "RM/sum",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 1; PURATA RM140,366.67, JULAT RM20,000.00-185,000.00; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 20000.0,
+      "high": 185000.0,
+      "year": 2013
+    },
+    {
+      "metric": "Price — Initial maintained load test to 2.0 x maximum working load, 5500 kN pile",
+      "unit": "RM/no",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 67; PURATA RM56,141.54, JULAT RM50,000.00-60,900.00; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 50000.0,
+      "high": 60900.0,
+      "year": 2013
+    },
+    {
+      "metric": "Price — Pile dynamic analyser (PDA) test",
+      "unit": "RM/no",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 71; PURATA RM2,332.79, JULAT RM485.00-5,024.30; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 485.0,
+      "high": 5024.3,
+      "year": 2013
+    },
+    {
+      "metric": "Price — Handle, pitch and drive vertical 300 x 300 mm precast RC pile",
+      "unit": "RM/m",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 41; PURATA RM21.11, JULAT RM12.00-30.00; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 12.0,
+      "high": 30.0,
+      "year": 2013
+    },
+    {
+      "metric": "Price — Bore 200 mm diameter micropile not exceeding 13.5 m deep in soil",
+      "unit": "RM/m",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 14; PURATA RM81.13, JULAT RM50.00-115.00; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 50.0,
+      "high": 115.0,
+      "year": 2013
+    },
+    {
+      "metric": "Price — Supply and drive 12 m long steel sheet pile type OZ 13A or equivalent",
+      "unit": "RM/m2",
+      "basis": "Jabatan Kerja Raya 'Bahagian 3.6: Piling Work (Class H)' cost database, PURATA/JULAT, Peninsular regions only, item 51; PURATA RM311.00, JULAT RM180.00-460.00; Peninsular only; 2013",
+      "source": {
+        "url": "https://r.jina.ai/http://kontrak.water.gov.my/division/qs/mkos2012/Kos%20Item%20Kerja/3.6%20Piling%20works.pdf"
+      },
+      "low": 180.0,
+      "high": 460.0,
+      "year": 2013
+    },
+    {
+      "metric": "Price — Site clearing (semak, tunggul, akar)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item N34N/1; KL base rate for small JKR daywork; insurance excluded; location/access additions apply",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 0.9,
+      "high": 0.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Excavate topsoil up to 150 mm by machine",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item A174A/2; KL base rate, small JKR daywork",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 4.2,
+      "high": 4.2,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Excavate foundation pit not exceeding 1 m3 by machine",
+      "unit": "RM/no",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item A334A/2; KL base rate, small JKR daywork",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 22.0,
+      "high": 22.0,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Excavate trench up to 1.5 m deep by machine",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item A214A/2; KL base rate, small JKR daywork",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 21.2,
+      "high": 21.2,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Dispose surplus soil 1-5 km by lorry",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item A444A/3; KL base rate, small JKR daywork",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 37.6,
+      "high": 37.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Hardcore 150 mm under concrete floor",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item A564A/4; KL base rate, small JKR daywork; measured separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 14.4,
+      "high": 14.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Preload fill (sand/aggregate), place, surcharge, monitor settlement, remove",
+      "unit": "RM/m3",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, Ground Improvement table; indicative 2025-2026, Klang Valley conditions",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 50,
+      "high": 120,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in beams",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 634.4,
+      "high": 634.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in columns",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 663.6,
+      "high": 663.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Additional per 25 mm of slab thickness",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B134B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 12.3,
+      "high": 12.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Mild steel reinforcement 6 mm (links)",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B664B/7; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 6.2,
+      "high": 6.2,
+      "year": 2025
+    },
+    {
+      "metric": "Price — BRC A6 steel fabric",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B744B/7; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 35.1,
+      "high": 35.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to beam sides and soffit",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 80.1,
+      "high": 80.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to columns",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B824B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 69.3,
+      "high": 69.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Half-brick clay wall 113 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item C54C/1; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 76.8,
+      "high": 76.8,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in beams",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 634.4,
+      "high": 634.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in columns",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 663.6,
+      "high": 663.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Additional per 25 mm of slab thickness",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B134B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 12.3,
+      "high": 12.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — BRC A6 steel fabric",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B744B/7; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 35.1,
+      "high": 35.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to beam sides and soffit",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 80.1,
+      "high": 80.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to columns",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B824B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 69.3,
+      "high": 69.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Half-brick clay wall 113 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item C54C/1; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 76.8,
+      "high": 76.8,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in beams",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 634.4,
+      "high": 634.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in columns",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 663.6,
+      "high": 663.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to beam sides and soffit",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 80.1,
+      "high": 80.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — EPC contract value, 132/33/11 kV Star1 & Star2 substation incl. GIS building",
+      "unit": "AED",
+      "basis": "SCAN Electromechanical project page: client SEWA, Down Town Sharjah UAE, year completed 2016, contract value AED183,000,000 - a total contract value, not a unit rate",
+      "source": {
+        "url": "https://scanelectromechanical.com/project/scan-project-03"
+      },
+      "low": 183000000,
+      "high": 183000000,
+      "year": 2016
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in beams",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 634.4,
+      "high": 634.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in columns",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 663.6,
+      "high": 663.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to beam sides and soffit",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 80.1,
+      "high": 80.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in beams",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 634.4,
+      "high": 634.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in columns",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 663.6,
+      "high": 663.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to beam sides and soffit",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 80.1,
+      "high": 80.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in beams",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 634.4,
+      "high": 634.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in columns",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 663.6,
+      "high": 663.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to beam sides and soffit",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 80.1,
+      "high": 80.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in beams",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 634.4,
+      "high": 634.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in columns",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 663.6,
+      "high": 663.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to beam sides and soffit",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 80.1,
+      "high": 80.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Lighting point, PVC cable in conduit (switch separate)",
+      "unit": "RM/point",
+      "basis": "JKR Jadual Kadar Kerja Elektrik 2025 (JKKE 2025), item I-A1m/s 12; KL base; JKKE approved 28 May 2025, valid to 31 Dec 2026",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 85.0,
+      "high": 85.0,
+      "year": 2025
+    },
+    {
+      "metric": "Price — MCB single pole up to 32A",
+      "unit": "RM/no",
+      "basis": "JKR JKKE 2025, item II-C1m/s 43; KL base",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 32.0,
+      "high": 32.0,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Insulation and continuity test, single-phase DB",
+      "unit": "RM/no",
+      "basis": "JKR JKKE 2025, item VII-E4.1m/s 146; KL base",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 719.0,
+      "high": 719.0,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in beams",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 634.4,
+      "high": 634.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in columns",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 663.6,
+      "high": 663.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to beam sides and soffit",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 80.1,
+      "high": 80.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in beams",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B104B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 634.4,
+      "high": 634.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in columns",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B114B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 663.6,
+      "high": 663.6,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Half-brick clay wall 113 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item C54C/1; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 76.8,
+      "high": 76.8,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to beam sides and soffit",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B814B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 80.1,
+      "high": 80.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Borehole 150 mm dia, soil through residual to weathered rock",
+      "unit": "RM/m",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, Site Investigation table; includes SPT, samples, basic logging; indicative 2025-2026",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 250,
+      "high": 500,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Excavate foundation pit not exceeding 1 m3 by machine",
+      "unit": "RM/no",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item A334A/2; KL base rate, small JKR daywork",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 22.0,
+      "high": 22.0,
+      "year": 2025
+    },
+    {
+      "metric": "Price — RC retaining wall up to 3 m (cantilever)",
+      "unit": "RM/m2 wall face",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, RC Retaining Walls table; includes excavation, footing, stem, drainage, formwork, rebar, C30/37; excludes backfill",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 800,
+      "high": 1500,
+      "year": 2025
+    },
+    {
+      "metric": "Price — RC retaining wall 3-6 m (cantilever)",
+      "unit": "RM/m2 wall face",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, RC Retaining Walls table; includes excavation, footing, stem, drainage, formwork, rebar, C30/37; excludes backfill",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 1500,
+      "high": 2500,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — RC retaining wall up to 3 m (cantilever)",
+      "unit": "RM/m2 wall face",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, RC Retaining Walls table; includes excavation, footing, stem, drainage, formwork, rebar, C30/37; excludes backfill",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 800,
+      "high": 1500,
+      "year": 2025
+    },
+    {
+      "metric": "Price — RC retaining wall 3-6 m (cantilever)",
+      "unit": "RM/m2 wall face",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, RC Retaining Walls table; includes excavation, footing, stem, drainage, formwork, rebar, C30/37; excludes backfill",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 1500,
+      "high": 2500,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — High tensile reinforcement 12 mm",
+      "unit": "RM/kg",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B704B/7; KL base rate; rebar priced separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 5.3,
+      "high": 5.3,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Formwork to vertical faces (footings, ground beams)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B804B/8; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 61.7,
+      "high": 61.7,
+      "year": 2025
+    },
+    {
+      "metric": "Price — uPVC soil pipe 100 mm",
+      "unit": "RM/m",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item D324D/3; KL base rate; fitting of sanitary appliances priced separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 22.4,
+      "high": 22.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Brick inspection chamber/manhole up to 600 mm deep",
+      "unit": "RM/no",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item D354D/3; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 174.5,
+      "high": 174.5,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Cast iron manhole cover 600 x 450 mm",
+      "unit": "RM/no",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item D414D/3; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 158.4,
+      "high": 158.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Subsoil drain 100 mm UPVC perforated, gravel surround, geotextile filter",
+      "unit": "RM/linear m",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, Drainage table; indicative 2025-2026; subsoil drain, NOT foul sewer pipe",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 150,
+      "high": 280,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 in foundations and floor",
+      "unit": "RM/m3",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B94B/2; KL base rate; formwork and reinforcement measured separately",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 492.1,
+      "high": 492.1,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Reinforced concrete C16/20 floor slab, average 75 mm",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item B124B/2; KL base rate",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 36.9,
+      "high": 36.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Soil nail with 100 mm shotcrete + BRC A8 mesh, permanent (32 mm Grade 670, 1.5x1.5 m grid, 9-12 m, residual soil)",
+      "unit": "RM/m2 of slope face",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, Soil Nailing table; indicative 2025-2026, Klang Valley conditions",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 200,
+      "high": 400,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Individual permanent soil nail (32 mm Grade 670, 9-12 m, HDG, grouted)",
+      "unit": "RM/nail",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, Soil Nailing table; includes drilling, bar, grout, end plate, installation; indicative 2025-2026",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 1500,
+      "high": 3500,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Wet-mix shotcrete 100 mm thickness with mesh",
+      "unit": "RM/m2",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, Shotcrete table; indicative 2025-2026, Klang Valley; excludes excavation, scaffolding, drainage",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 130,
+      "high": 200,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Shotcrete, volume basis (for comparison with structural concrete)",
+      "unit": "RM/m3",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, Shotcrete table; indicative 2025-2026",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 1200,
+      "high": 1800,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Gabion wall up to 4 m (galvanised + PVC double-twist mesh, stone fill)",
+      "unit": "RM/m2 wall face",
+      "basis": "Infraconcrete Cost & Programme Guide 2025-2026, indicative Klang Valley market rate, Gabion/Modular Block table; indicative 2025-2026",
+      "source": {
+        "url": "https://infraconcrete.co/cost-programme-guide"
+      },
+      "low": 500,
+      "high": 900,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Site clearing (semak, tunggul, akar)",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item N34N/1; KL base rate for small JKR daywork; insurance excluded; location/access additions apply",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 0.9,
+      "high": 0.9,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Excavate topsoil up to 150 mm by machine",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item A174A/2; KL base rate, small JKR daywork",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 4.2,
+      "high": 4.2,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Hardcore 150 mm under concrete floor",
+      "unit": "RM/m2",
+      "basis": "RumahHQ Academy article quoting Jadual Kadar Kerja Kejuruteraan Awam dan Bangunan 2025 (JKR20800-0258-25), item A564A/4; KL base rate, small JKR daywork; measured separately from concrete",
+      "source": {
+        "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025"
+      },
+      "low": 14.4,
+      "high": 14.4,
+      "year": 2025
+    },
+    {
+      "metric": "Price — total Kimanis 300 MW CCGT plant capital (not a construction-management component)",
+      "unit": "RM",
+      "basis": "Daily Express, published 24 May 2011: 'The RM1.5 billion plant owned by Kimanis Power Sdn Bhd (KPSB)', 60:40 JV of Petronas Gas Berhad and NRG Consortium (Sabah) Sdn Bhd. Whole-plant figure; no indirect-cost breakdown printed.",
+      "source": {
+        "url": "https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/"
+      },
+      "low": 1500000000,
+      "high": 1500000000,
+      "year": 2011
+    },
+    {
+      "metric": "Price — lease stamp duty per RM250 of annual rent, term up to 1 year",
+      "unit": "RM per RM250 or part thereof",
+      "basis": "HASiL guideline LHDN.AG.600-1/10/3 printed 30 June 2026, item 49(a): factory/building/business premises/workspace lease <=1 year, RM1.00.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
+      },
+      "low": 1,
+      "high": 1,
+      "year": 2026
+    },
+    {
+      "metric": "Price — lease stamp duty per RM250 of annual rent, term over 1 to 3 years",
+      "unit": "RM per RM250 or part thereof",
+      "basis": "Same HASiL guideline printed 30 June 2026, item 49(a): RM3.00 for >1-3 years.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
+      },
+      "low": 3,
+      "high": 3,
+      "year": 2026
+    },
+    {
+      "metric": "Price — lease stamp duty per RM250 of annual rent, term over 3 to 5 years",
+      "unit": "RM per RM250 or part thereof",
+      "basis": "Same HASiL guideline printed 30 June 2026, item 49(a): RM5.00 for >3-5 years.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
+      },
+      "low": 5,
+      "high": 5,
+      "year": 2026
+    },
+    {
+      "metric": "Price — lease stamp duty per RM250 of annual rent, term over 5 years",
+      "unit": "RM per RM250 or part thereof",
+      "basis": "Same HASiL guideline printed 30 June 2026, item 49(a): RM7.00 for >5 years.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
+      },
+      "low": 7,
+      "high": 7,
+      "year": 2026
+    },
+    {
+      "metric": "Price — fixed stamp duty, electricity and water supply application forms",
+      "unit": "RM (fixed)",
+      "basis": "Same HASiL guideline printed 30 June 2026, section G 4.3-4.4: electricity and water supply application forms under general fixed duty RM10.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
+      },
+      "low": 10,
+      "high": 10,
+      "year": 2026
+    },
+    {
+      "metric": "Price — ad valorem stamp duty on security/bond instruments, first RM100,000",
+      "unit": "RM per RM100 or part thereof (RM1.00 first RM100,000; RM2.00 >RM100,000-RM500,00",
+      "basis": "HASiL guideline LHDN.AG.600-1/10/3 printed 30 June 2026, item 32(a) and section F; duty on consideration/loan amount or market value whichever higher. Currency RM (ringgit Malaysia).",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
+      },
+      "low": 1,
+      "high": 4,
+      "year": 2026
+    },
+    {
+      "metric": "Price — fixed stamp duty, general stamping (insurance policy, performance bond/guarantee, factoring agreement)",
+      "unit": "RM (fixed)",
+      "basis": "Same HASiL guideline printed 30 June 2026, section G and sections F 4.22 / 4.14 / G 4.11; instruments listed include Performance Bond, Performance Guarantee, Insurance Guarantee, Takaful Guarantee, Cargo Insurance Policy and Factoring Agreement.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
+      },
+      "low": 10,
+      "high": 10,
+      "year": 2026
+    },
+    {
+      "metric": "Price — fixed stamp duty for marine/cargo insurance documents",
+      "unit": "RM (fixed)",
+      "basis": "HASiL guideline LHDN.AG.600-1/10/3 printed 30 June 2026, section G 4.11: Cargo Insurance Certificate, Cargo Insurance Policy, Certificate of Insurance Marine Cargo Policy (Export), Marine Cargo Insurance Certificate. This is a stamp duty, not an insurance premium.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
+      },
+      "low": 10,
+      "high": 10,
+      "year": 2026
+    },
+    {
+      "metric": "Price — ISO 45001:2018 standard list price (PDF + ePub)",
+      "unit": "CHF",
+      "basis": "ISO standard page read 25 Nov 2026 (© ISO 2026): 'CHF 196', 41 pages, publication date 2018-03, Edition 1; this is the price of the standard document, not a project HSSE cost.",
+      "source": {
+        "url": "https://www.iso.org/standard/63787.html"
+      },
+      "low": 196,
+      "high": 196,
+      "year": 2018
+    }
+  ],
+  "advantages": [
+    "Keeps conflicting package prices side by side with their printed years and currencies"
+  ],
+  "limitations": [
+    "Many WBS items are project-specific and have no public evidence; gaps are explicit"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
+      "source_id": "alaska-wartsila-com-engine-power-plant-products-e1596e1"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
+      "source_id": "alaska-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
+      "source_id": "alaska-jenbacher-com-23aa945"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jenbacher",
+      "source_id": "alaska-en-wikipedia-org-jenbacher-436766f"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.rolls-royce.com/media/press-releases/2020/10-12-2020-rr-introduces-new-mtu-gas-engine-series-500-for-power-generation.aspx",
+      "source_id": "alaska-r-jina-ai-10-12-2020-rr-introduces-new-mtu-g-9e53f3f"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
+      "source_id": "alaska-r-jina-ai-k-series-html-955b0f5"
+    },
+    {
+      "url": "https://www.cummins.com/en-na/generators/natural-gas",
+      "source_id": "alaska-cummins-com-natural-gas-8d24901"
+    },
+    {
+      "url": "https://www.clarke-energy.com/us/gas-engines/",
+      "source_id": "alaska-clarke-energy-com-36289e3"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/utilities/kipevu-ii-iii-kenya",
+      "source_id": "alaska-wartsila-com-kipevu-ii-iii-kenya-f14b133"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/18-11-2021-wartsila-contracted-to-supply-three-flexible-thermal-balancing-power-plants-totalling-150-mw-to-brazil-3009303",
+      "source_id": "alaska-wartsila-com-18-11-2021-wartsila-contracted-c75af63"
+    },
+    {
+      "url": "https://www.powermag.com/wartsila-will-supply-engines-for-finnish-power-plant-project/",
+      "source_id": "alaska-powermag-com-ad5cacc"
+    },
+    {
+      "url": "https://www.aquathermindia.com/accordions/gas-turbine-completed-projects/",
+      "source_id": "alaska-aquathermindia-com-b95567a"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.scribd.com/presentation/460356567/GAS-ENGINE-POWER-PLANT-GEPP",
+      "source_id": "alaska-r-jina-ai-gas-engine-power-plant-gepp-a7b9ebf"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/powerplants/capitalcost/pdf/capital_cost_aeo2020.pdf",
+      "source_id": "alaska-r-jina-ai-capital-cost-aeo2020-pdf-dc66d5b"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.eia.gov/analysis/studies/buildings/distrigen/pdf/dg_chp.pdf",
+      "source_id": "alaska-r-jina-ai-dg-chp-pdf-a00dae7"
+    },
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    },
+    {
+      "url": "https://www.iso.org/standard/30567.html",
+      "source_id": "alaska-iso-org-30567-html-c1a3e3b"
+    },
+    {
+      "url": "https://patents.google.com/patent/US9172217B2/en",
+      "source_id": "alaska-patents-google-com-en-a56e8bc"
+    },
+    {
+      "url": "https://patents.google.com/patent/US9249723B2/en",
+      "source_id": "alaska-patents-google-com-en-db1245d"
+    },
+    {
+      "url": "https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/",
+      "source_id": "alaska-iacacoustics-global-021ca23"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
+      "source_id": "alaska-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
+    },
+    {
+      "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
+      "source_id": "alaska-matthey-com-nox-control-systems-af80333"
+    },
+    {
+      "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
+      "source_id": "alaska-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
+    },
+    {
+      "url": "https://epa.gov/sites/default/files/2015-07/documents/catalog_of_chp_technologies_section_2._technology_characterization_-_reciprocating_internal_combustion_engines.pdf",
+      "source_id": "alaska-epa-gov-catalog-of-chp-technologies-section-461c8db"
+    },
+    {
+      "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
+      "source_id": "alaska-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
+    },
+    {
+      "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",
+      "source_id": "alaska-donaldson-com-air-intake-systems-product-gui-8ce900e"
+    },
+    {
+      "url": "https://techcomm.kohler.com/techcomm/pdf/Remote_Cooling_Design_Factors_Generators_WP.pdf",
+      "source_id": "alaska-techcomm-kohler-com-remote-cooling-design-fa-28f631c"
+    },
+    {
+      "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
+      "source_id": "alaska-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
+    },
+    {
+      "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
+      "source_id": "alaska-umicore-com-data-center-emission-control-cat-a1abcab"
+    },
+    {
+      "url": "https://patents.google.com/patent/EP3137745B1/en",
+      "source_id": "alaska-patents-google-com-en-70a2d76"
+    },
+    {
+      "url": "https://www.epa.gov/system/files/documents/2022-03/gas-fired-scr-cost-methodology.pdf",
+      "source_id": "alaska-epa-gov-gas-fired-scr-cost-methodology-pdf-a889d3a"
+    },
+    {
+      "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
+      "source_id": "alaska-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
+    },
+    {
+      "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
+      "source_id": "alaska-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
+    },
+    {
+      "url": "https://dunham-bush.com/our-products/",
+      "source_id": "alaska-dunham-bush-com-a2dd740"
+    },
+    {
+      "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
+      "source_id": "alaska-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
+    },
+    {
+      "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
+      "source_id": "alaska-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
+    },
+    {
+      "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
+      "source_id": "alaska-tdwilliamson-com-tapping-machines-fb74414"
+    },
+    {
+      "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf",
+      "source_id": "alaska-preferred-mfg-com-day-20tank-20-20model-20dt-d425970"
+    },
+    {
+      "url": "https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set/Documents/Files/Fuel%20Oil%20Transfer%20Pump%20and%20Day%20Tank%20Set%20Cutsheet.pdf",
+      "source_id": "alaska-preferred-mfg-com-fuel-20oil-20transfer-20pu-ce2c1c5"
+    },
+    {
+      "url": "https://robenmfg.com/lubricating-oil-storage-application",
+      "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+    },
+    {
+      "url": "https://atlanticcontainment.com/lube-tanks",
+      "source_id": "alaska-atlanticcontainment-com-lube-tanks-7bbd9ec"
+    },
+    {
+      "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
+      "source_id": "alaska-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
+    },
+    {
+      "url": "https://focusmalaysia.my/kinergy-secures-biggest-epcc-contract-from-petronas-at-rm646m-its-3rd-from-the-national-oil-corp",
+      "source_id": "alaska-focusmalaysia-my-kinergy-secures-biggest-epc-2381482"
+    },
+    {
+      "url": "https://basiia.com/products/api-650-tanks",
+      "source_id": "alaska-basiia-com-api-650-tanks-28cf110"
+    },
+    {
+      "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
+      "source_id": "alaska-pipeco-com-my-grp-sectional-water-tank-21374e0"
+    },
+    {
+      "url": "https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf",
+      "source_id": "alaska-alfalaval-my-product-leaflet-of-500-separato-fdf2cd7"
+    },
+    {
+      "url": "https://www.abpsoil.com/images/oil-waste-treatment/API-421.pdf",
+      "source_id": "alaska-abpsoil-com-api-421-pdf-1c5759a"
+    },
+    {
+      "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
+      "source_id": "alaska-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
+    },
+    {
+      "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
+      "source_id": "alaska-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
+    },
+    {
+      "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
+      "source_id": "alaska-hadetec-com-instrument-air-package-bc545fe"
+    },
+    {
+      "url": "https://comairflow.com/instrument-air-compressor",
+      "source_id": "alaska-comairflow-com-instrument-air-compressor-495b8e8"
+    },
+    {
+      "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
+      "source_id": "alaska-nano-purification-com-instrument-air-standar-c0601ff"
+    },
+    {
+      "url": "https://aerodyngroup.com/pneumatech",
+      "source_id": "alaska-aerodyngroup-com-pneumatech-d91f8ca"
+    },
+    {
+      "url": "https://vibrantengineering.com.my/products/overhead-crane",
+      "source_id": "alaska-vibrantengineering-com-my-overhead-crane-6623017"
+    },
+    {
+      "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
+      "source_id": "alaska-dgcrane-com-overhead-crane-price-pdf-1d10190"
+    },
+    {
+      "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
+      "source_id": "alaska-globalwe-com-sulfurix-1-53355c3"
+    },
+    {
+      "url": "https://wet-scrubber.com/sox-scrubber",
+      "source_id": "alaska-wet-scrubber-com-sox-scrubber-774d0ac"
+    },
+    {
+      "url": "https://www.slyinc.com/wp-content/uploads/2024/08/WetScrubber.pdf",
+      "source_id": "alaska-slyinc-com-wetscrubber-pdf-4ffbda4"
+    },
+    {
+      "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
+      "source_id": "alaska-pdf-directindustry-com-13988-206783-html-3fa8c8a"
+    },
+    {
+      "url": "https://electrical-engineering-portal.com/wp-content/uploads/2024/10/IEC-60076-1-Power-Transformers-General.pdf",
+      "source_id": "alaska-electrical-engineering-portal-com-iec-60076-cebdb0c"
+    }
+  ],
+  "notes": "Alaska GEG WBS sweep assembled 2026-11-25; 3 items with zero evidence.",
+  "last_reviewed": "2026-11-25",
+  "gaps": [
+    {
+      "field": "other",
+      "item": "WBS line item with zero evidence: Admin Charges for Gas Engine Generator Handling",
+      "reason_code": "not_in_sources_read",
+      "reason": "No publicly readable page was found for this exact line item in the 2026-11-25 sweep.",
+      "where": [
+        {
+          "hint": "OEM catalogues, tender documents, SESB/DOSH filings and Malaysian cost references",
+          "access": "open"
+        }
+      ],
+      "action": "Search supplier catalogues and project tender awards for the item."
+    },
+    {
+      "field": "other",
+      "item": "WBS line item with zero evidence: Profit Undertaking for Gas Engine Generator",
+      "reason_code": "not_in_sources_read",
+      "reason": "No publicly readable page was found for this exact line item in the 2026-11-25 sweep.",
+      "where": [
+        {
+          "hint": "OEM catalogues, tender documents, SESB/DOSH filings and Malaysian cost references",
+          "access": "open"
+        }
+      ],
+      "action": "Search supplier catalogues and project tender awards for the item."
+    },
+    {
+      "field": "other",
+      "item": "WBS line item with zero evidence: Others (BIDDER to specify):",
+      "reason_code": "not_in_sources_read",
+      "reason": "No publicly readable page was found for this exact line item in the 2026-11-25 sweep.",
+      "where": [
+        {
+          "hint": "OEM catalogues, tender documents, SESB/DOSH filings and Malaysian cost references",
+          "access": "open"
+        }
+      ],
+      "action": "Search supplier catalogues and project tender awards for the item."
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+{
+  "id": "alaska-electrical-laboratory-equipment-package",
+  "name": "Electrical Laboratory Equipment Package",
+  "equipment_type": "wbs-3-3-electrical",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Electrical Laboratory Equipment Package",
+  "aliases": [
+    "Electrical Laboratory Equipment Package"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "OMICRON CPX 200 multifunctional primar — current output with High Current Module",
+      "unit": "A AC/DC",
+      "basis": "OMICRON CPX 200 product page (read via r.jina.ai proxy): '1000 A AC/DC with High Current Module'; 'CPX 200 and HVX10 are delivering 1 000 A AC/DC'. No print date given on page.",
+      "value": 1000,
+      "source": {
+        "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
+        "source_id": "alaska-r-jina-ai-cpx-200-7754c65"
+      }
+    },
+    {
+      "metric": "OMICRON CPX 200 multifunctional primar — voltage output with HVX10 system component",
+      "unit": "kV AC/DC",
+      "basis": "OMICRON CPX 200 product page (read via r.jina.ai proxy): '10 kV AC/DC with HVX10'. No print date given on page.",
+      "value": 10,
+      "source": {
+        "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
+        "source_id": "alaska-r-jina-ai-cpx-200-7754c65"
+      }
+    },
+    {
+      "metric": "OMICRON CPX 200 multifunctional primar — test frequency range",
+      "unit": "Hz and DC",
+      "basis": "OMICRON CPX 200 product page (read via r.jina.ai proxy): 'Testing frequency range: 1 - 600 Hz and DC'.",
+      "low": 1,
+      "high": 600,
+      "source": {
+        "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
+        "source_id": "alaska-r-jina-ai-cpx-200-7754c65"
+      }
+    },
+    {
+      "metric": "OMICRON CPX 200 multifunctional primar — total system weight",
+      "unit": "kg (under)",
+      "basis": "OMICRON CPX 200 product page (read via r.jina.ai proxy): 'All tests can be performed with a total system weight under 30 kg (66 lb)'.",
+      "high": 30,
+      "source": {
+        "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
+        "source_id": "alaska-r-jina-ai-cpx-200-7754c65"
+      }
+    },
+    {
+      "metric": "OMICRON CPX 200 multifunctional primar — CPX 200 unit weight",
+      "unit": "kg",
+      "basis": "OMICRON CPX 200 product page (read via r.jina.ai proxy): 'CPX 200: 10.6 kg (23.3 lb)'.",
+      "value": 10.6,
+      "source": {
+        "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
+        "source_id": "alaska-r-jina-ai-cpx-200-7754c65"
+      }
+    },
+    {
+      "metric": "OMICRON CPX 200 multifunctional primar — voltage input",
+      "unit": "2 x 300 V AC/DC",
+      "basis": "OMICRON CPX 200 product page Technical Specifications (read via r.jina.ai proxy): 'V IN 2 x 300 V AC/DC voltage input'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
+        "source_id": "alaska-r-jina-ai-cpx-200-7754c65"
+      }
+    },
+    {
+      "metric": "OMICRON CPX 200 multifunctional primar — current input",
+      "unit": "2 x 10 A AC/DC",
+      "basis": "OMICRON CPX 200 product page Technical Specifications (read via r.jina.ai proxy): 'I IN 2 x 10 A AC/DC current input'.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
+        "source_id": "alaska-r-jina-ai-cpx-200-7754c65"
+      }
+    },
+    {
+      "metric": "Megger MRCT relay and current transfor — DC excitation knee point capability",
+      "unit": "kV",
+      "basis": "Megger MRCT product page (read via r.jina.ai proxy): 'allowing measurement of knee points on CTs up to 30 kV'.",
+      "value": 30,
+      "source": {
+        "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+        "source_id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
+      }
+    },
+    {
+      "metric": "Megger MRCT relay and current transfor — secondary voltage injection (configurable base unit)",
+      "unit": "kV",
+      "basis": "Megger MRCT FAQ (read via r.jina.ai proxy): 'whether you need a simple 2kV CT tester or advanced DC testing methods, VT testing, single phase relay testing... the MRCT can be customised'.",
+      "value": 2,
+      "source": {
+        "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+        "source_id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
+      }
+    },
+    {
+      "metric": "Megger MRCT relay and current transfor — minimum insulation resistance value generally accepted",
+      "unit": "Mohm",
+      "basis": "Megger MRCT product page (read via r.jina.ai proxy): 'As outlined in IEEE C57.13.1, a generally accepted minimum insulation value is 1 Mohm'.",
+      "value": 1,
+      "source": {
+        "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+        "source_id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
+      }
+    },
+    {
+      "metric": "Megger MRCT relay and current transfor — primary noise filtration accuracy penalty",
+      "unit": "% (approximately, +/-)",
+      "basis": "Megger MRCT product page (read via r.jina.ai proxy): 'If used in a non-noisy environment, this can reduce the unit's accuracy by approximately +/- 0.05 %'.",
+      "value": 0.05,
+      "source": {
+        "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+        "source_id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
+      "source_id": "alaska-r-jina-ai-cpx-200-7754c65"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
+      "source_id": "alaska-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
+    },
+    {
+      "url": "https://www.tritanengineering.com.my/megger",
+      "source_id": "alaska-tritanengineering-com-my-megger-101eb8e"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Electrical Laboratory Equipment Package",
+      "why": "No printed price, EPC contractor, or named/dated/sized/located reference project for the laboratory package was found in a page read with WebFetch.",
+      "next_action": "Obtain the laboratory package BOQ, supplier quotations and the equipment list for the 7-unit plant."
+    },
+    {
+      "what": "Electrical Laboratory Equipment Package",
+      "why": "No page read with WebFetch defines the required composition, quantity or acceptance criteria of the 'Electrical Laboratory Equipment Package' for this project.",
+      "next_action": "Retrieve the project electrical laboratory scope document and commissioning test schedule."
+    },
+    {
+      "what": "Electrical Laboratory Equipment Package",
+      "why": "No patent number printed in the OMICRON/Megger pages read; no reliability, operational-history, price, project or drawing record was found.",
+      "next_action": "Obtain product data sheets with patent markings and project reference lists if these fields are required."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (3.3 Electrical).",
+  "last_reviewed": "2026-11-25"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "alaska-clarke-energy-com-36289e3",
+  "name": "Jenbacher Gas Engines (Clarke Energy)",
+  "url": "https://www.clarke-energy.com/us/gas-engines/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "ROT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Clarke Energy (Rehlko)",
+  "access": "open",
+  "licence": "Clarke Energy site; distributor page",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: Page read 2026-11-25. Page states Clarke Energy is authorised distributor/service provider for INNIO Jenbacher in 27 countries and has supplied over 10 GW of Jenbacher engines. No print date; media assets dated 2025/2026.. Exact printed figures are recorded in the linked records' basis fields."
+}

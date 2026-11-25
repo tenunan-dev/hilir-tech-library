@@ -1,0 +1,25 @@
+{
+  "id": "alaska-abpsoil-com-api-421-pdf-1c5759a",
+  "name": "API Publication 421 – Design and Operation of Oil-Water Separators (First Edition, February 1990; errata September 1992)",
+  "url": "https://www.abpsoil.com/images/oil-waste-treatment/API-421.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "sea",
+    "apac"
+  ],
+  "publisher_org": "American Petroleum Institute",
+  "access": "open",
+  "licence": "API copyright reproduced by IHS under license",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: PDF read via https://r.jina.ai/<url> mirror on 2026-11-25 (direct PDF unsupported by WebFetch); 50 pages; IHS copy shows Document provided by IHS Licensee=KVAERNER E & C - AUSTRALIA, 03/07/2004. Design example values are illustrative, not project ratings.. Exact printed figures are recorded in the linked records' basis fields."
+}

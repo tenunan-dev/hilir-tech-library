@@ -1,0 +1,65 @@
+{
+  "id": "enecogen-integrated-controls-and-black-start-reference",
+  "name": "Enecogen integrated controls and black-start reference",
+  "project_type": "operating-asset",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID"
+  ],
+  "country": "Netherlands",
+  "location": "Netherlands",
+  "status": "operating",
+  "description": "958 MW CCGT with Omnivise T3000; up to 200 starts per year stated; IEC 62443 compliance.",
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "milestones": [
+    {
+      "event": "Enecogen control system integration supporting grid stability and black start",
+      "date": "2011",
+      "source": {
+        "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html",
+        "source_id": "alaska-siemens-energy-com-enecogen-power-plant-inte-d7aa54c"
+      }
+    }
+  ],
+  "capex": [],
+  "sources": [
+    {
+      "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html",
+      "source_id": "alaska-siemens-energy-com-enecogen-power-plant-inte-d7aa54c",
+      "note": "958 MW CCGT with Omnivise T3000; up to 200 starts per year stated; IEC 62443 com"
+    },
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    },
+    {
+      "url": "https://syc-se.iec.ch/iec-63097-smart-energy-roadmap/der-management-system/",
+      "source_id": "alaska-syc-se-iec-ch-d5f39e2"
+    },
+    {
+      "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
+      "source_id": "alaska-omterra-com-omnivise-t3000-html-6e40189"
+    },
+    {
+      "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html",
+      "source_id": "alaska-siemens-energy-com-enecogen-power-plant-inte-d7aa54c"
+    },
+    {
+      "url": "https://www.siemens-energy.com/us/en/home/references/enecogen-power-plant-integrated-controls.html",
+      "source_id": "alaska-siemens-energy-com-enecogen-power-plant-inte-d7aa54c",
+      "note": "958 MW CCGT with Omnivise T3000; up to 200 starts per year stated; IEC 62443 compliance."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Integration to SESB SCADA System incl Auto Generation Control System",
+      "why": "No evidence found for the protocol actually used between this plant and SESB SLDC (IEC 60870-5-104, DNP3, IEC 61850 or proprietary), RTU model, point count, AGC test results, or integration price.",
+      "next_action": "Obtain the SESB SCADA/AGC interface specification, RTU I/O list and AGC test report for the project."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Reference project from the Alaska GEG WBS sweep (3.4 I&C)."
+}

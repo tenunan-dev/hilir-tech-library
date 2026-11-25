@@ -1,0 +1,64 @@
+{
+  "id": "alaska-prod-sesb-single-buyer-revenue-metering-data-collection-and-billing",
+  "name": "SESB Single Buyer revenue-metering data collection and billing chain",
+  "manufacturer": "alaska-vendor-sesb-single-buyer-system-owner-operator-per-sabah-41f25",
+  "product_type": "energy-billing-metering-data-collection-system",
+  "equipment": [
+    "alaska-energy-billing-system"
+  ],
+  "description": "energy billing / metering data collection system",
+  "specifications": [
+    {
+      "metric": "revenue data recording interval",
+      "unit": "minutes",
+      "basis": "Sabah Grid Code clause MC4.1.1 (224-page PDF, Energy Commission of Sabah, proxy reports published 5 Jan 2024, read via r.jina.ai): 'Revenue Metering Data ... shall be recorded, stored at data registers on-site every thirty (30) minutes and automatically collected once a day by the Data Collection System of the Single Buyer.'",
+      "value": 30,
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "on-site data store backup capability",
+      "unit": "days",
+      "basis": "Sabah Grid Code clause MC4.1.1 (published 2024, read via r.jina.ai): onsite electronic data registers shall have 'adequate capacity to store at least forty five (45) days of on-site data to provide back-up for any interruptions to the Automatic Data Collection System'.",
+      "value": 45,
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "billing data source",
+      "unit": "rule",
+      "basis": "Sabah Grid Code clause MC4.1.1 (published 2024, read via r.jina.ai); the code explicitly states it 'does not address the requirements, both technical and administrative, of the data adjustment and other functions within the Billing System or the requirements of the Billing System.' (value: Revenue Metering shall be the primary source of data for Billing purposes)",
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    },
+    {
+      "metric": "meter database archive",
+      "unit": "years",
+      "basis": "Sabah Grid Code clause MC4.4/MC4 requirements (line 3924 of fetched text, published 2024, read via r.jina.ai): metering data to be kept 'seven (7) years in archive' (clause context: Single Buyer metering database).",
+      "value": 7,
+      "year": 2024,
+      "source": {
+        "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+        "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+      }
+    }
+  ],
+  "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+  "sources": [
+    {
+      "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
+      "source_id": "alaska-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

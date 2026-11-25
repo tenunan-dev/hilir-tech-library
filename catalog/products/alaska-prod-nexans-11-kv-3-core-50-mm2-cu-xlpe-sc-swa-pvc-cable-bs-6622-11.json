@@ -1,0 +1,101 @@
+{
+  "id": "alaska-prod-nexans-11-kv-3-core-50-mm2-cu-xlpe-sc-swa-pvc-cable-bs-6622-11",
+  "name": "Nexans 11 kV 3-core 50 mm2 Cu/XLPE/SC/SWA/PVC cable (BS 6622)",
+  "manufacturer": "alaska-vendor-unidentified",
+  "product_type": "11-kv-three-core-armoured-xlpe-cable",
+  "equipment": [
+    "alaska-cables-cable-trays-and-acc-132kv-33kv-11kv-lv"
+  ],
+  "description": "11 kV three-core armoured XLPE cable",
+  "specifications": [
+    {
+      "metric": "rated voltage / voltage to neutral",
+      "unit": "11 kV / 6.35 kV",
+      "basis": "Powerandcables.com Nexans 11kV 3 Core 50sqmm BS6622 product page: 'Rated voltage (U) 11kV', 'Voltage to neutral (Uo) 6.35kV'; page footer copyright 2026 Thorne & Derrick.",
+      "year": 2026,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "nominal conductor cross-section",
+      "unit": "sqmm",
+      "basis": "Powerandcables.com Nexans 11kV BS6622 product page: 'Nominal cross-section area of conductor 50sqmm', '3 Core', copper conductor, XLPE insulation.",
+      "value": 50,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "current carrying capacity in ground (20 deg C)",
+      "unit": "A",
+      "basis": "Powerandcables.com Nexans 11kV 3C 50sqmm BS6622 product page technical specification table: 'Current carrying capacity in ground (20 °C) 210'.",
+      "value": 210,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "current carrying capacity in air (30 deg C)",
+      "unit": "A",
+      "basis": "Powerandcables.com Nexans 11kV 3C 50sqmm BS6622 product page technical specification table: 'Current carrying capacity in air (30 °C) 206'.",
+      "value": 206,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "nominal short-circuit current for 1 second, conductor",
+      "unit": "kA",
+      "basis": "Powerandcables.com Nexans 11kV 3C 50sqmm BS6622 product page: 'Nominal short-circuit current for 1 second of conductor (kA) 7.2'.",
+      "value": 7.2,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "nominal short-circuit current for 1 second, screen",
+      "unit": "kA",
+      "basis": "Powerandcables.com Nexans 11kV 3C 50sqmm BS6622 product page: 'Nominal short-circuit current for 1 second of screen (kA) 3.3'.",
+      "value": 3.3,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "permissible operating temperature",
+      "unit": "deg C",
+      "basis": "Powerandcables.com Nexans 11kV BS6622 product page: 'Permissible operating temperature of conductor (°C) 90'; emergency overload 130 deg C; short-circuit up to 5 sec 250 deg C.",
+      "value": 90,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    },
+    {
+      "metric": "conductor DC resistance at 20 deg C",
+      "unit": "Ohm/km",
+      "basis": "Powerandcables.com Nexans 11kV 3C 50sqmm BS6622 product page: 'Conductor DC resistance at 20 °C (Ohm/km) 0.387'.",
+      "value": 0.387,
+      "source": {
+        "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+        "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+      }
+    }
+  ],
+  "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+  "sources": [
+    {
+      "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
+      "source_id": "alaska-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Product/catalogue record from a page read in the Alaska GEG WBS sweep."
+}

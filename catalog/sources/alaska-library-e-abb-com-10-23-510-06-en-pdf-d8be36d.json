@@ -1,0 +1,25 @@
+{
+  "id": "alaska-library-e-abb-com-10-23-510-06-en-pdf-d8be36d",
+  "name": "ABB System Components for Sample Gas Sampling, Data Sheet 10/23-5.10 EN",
+  "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "INS",
+    "MAT",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "ABB Automation GmbH",
+  "access": "open",
+  "licence": "© ABB 2006; right reserved to modify without notice",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25. Publication/print date from page: 36-page Data Sheet 10/23-5.10 EN, November 2006, printed 11.06; read via r.jina.ai.. Exact printed figures are recorded in the linked records' basis fields."
+}

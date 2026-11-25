@@ -1,0 +1,25 @@
+{
+  "id": "alaska-mat-phenolic-epoxy-glass-lined-rubber-lined-internal-coa",
+  "name": "phenolic / epoxy / glass-lined / rubber-lined internal coatings",
+  "material_category": "coatings",
+  "description": "phenolic / epoxy / glass-lined / rubber-lined internal coatings named on a page read in the Alaska GEG WBS sweep.",
+  "specifications": [
+    {
+      "metric": "internal coating",
+      "unit": "as printed",
+      "basis": "Roben Manufacturing specifications; page read 2026-11-25; footer ©2025. (value: selected per product compatibility)",
+      "year": 2026,
+      "source": {
+        "url": "https://robenmfg.com/lubricating-oil-storage-application",
+        "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://robenmfg.com/lubricating-oil-storage-application",
+      "source_id": "alaska-robenmfg-com-lubricating-oil-storage-applica-84489eb"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

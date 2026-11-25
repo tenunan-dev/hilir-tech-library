@@ -1,0 +1,76 @@
+{
+  "id": "alaska-chemical-urea-storage-reinforced-concrete-15x9x7",
+  "name": "Chemical /Urea Storage (reinforced concrete 15x9x7)",
+  "equipment_type": "wbs-4-construction-direct",
+  "sector": "PWR",
+  "sector_codes": [
+    "PWR",
+    "MID",
+    "ELE",
+    "PRC"
+  ],
+  "description": "Evidence: BS EN 1992-3 explicitly covers concrete containment of liquids or granular solids (urea), plus RC design/execution standards and generic JKR rates; no storage-building cost read.",
+  "aliases": [
+    "Chemical /Urea Storage (reinforced concrete 15x9x7)"
+  ],
+  "subtypes": [],
+  "applications": [
+    "7-unit gas engine generator plant",
+    "SESB 132/33/11 kV grid connection"
+  ],
+  "specifications": [
+    {
+      "metric": "WBS line item",
+      "value": "Chemical /Urea Storage (reinforced concrete 15x9x7)",
+      "unit": "n/a",
+      "basis": "Line item from the Alaska GEG WBS/BOQ; no sourced numeric specification found.",
+      "source": {
+        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
+        "note": "Work package supplied by owner; not a technical source."
+      }
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "alaska-vendor-unidentified"
+  ],
+  "technologies": [
+    "pwr-alaska-geg-wbs-supply-chain"
+  ],
+  "sources": [
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-liquid-retaining-and-containing-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-eurocode-2-design-of-0835880"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/eurocode-2-design-of-concrete-structures-general-rules-and-rules-for-buildings/standard",
+      "source_id": "alaska-knowledge-bsigroup-com-standard-0143e45"
+    },
+    {
+      "url": "https://knowledge.bsigroup.com/products/execution-of-concrete-structures",
+      "source_id": "alaska-knowledge-bsigroup-com-execution-of-concrete-4636911"
+    },
+    {
+      "url": "https://rumahhq.my/ilmu/jadual-kadar-kerja-jkr-2025",
+      "source_id": "alaska-rumahhq-my-jadual-kadar-kerja-jkr-2025-6f3e199"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3"
+    },
+    {
+      "url": "https://jml.com.sg/what-we-do/construction/projects",
+      "source_id": "alaska-jml-com-sg-projects-18172e3",
+      "note": "JML scope: task force work - piping, mechanical, structural and E&I; industrial plant; client Mitsubishi Heavy Industries, Ltd."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Chemical /Urea Storage (reinforced concrete 15x9x7)",
+      "why": "No urea-storage design specification, capacity or published cost found; BS EN 1992-3 excludes hazardous-material leakage-risk structures and gas tightness, so applicability to stored chemicals is unverified.",
+      "next_action": "Confirm stored product and design code (e.g. bundled chemical storage) from the project specification; source a comparable chemical-storage building rate."
+    }
+  ],
+  "notes": "WBS/BOQ line item from research/alaska-geg-wbs/alaska_breakdown.txt (4 Construction direct).",
+  "last_reviewed": "2026-11-25"
+}
