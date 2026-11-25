@@ -1,0 +1,133 @@
+{
+  "id": "amazon-data-services-campus-leesburg-va",
+  "name": "Amazon Data Services campus, Leesburg, VA",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "USA",
+  "location": "USA",
+  "status": "operating",
+  "description": "Virginia air permit registration 74303, approved 12 March 2025, covering 166 Tier 4 and five Tier 2 generators.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "EPA clarification on emergency generator demand response",
+      "date": "2025",
+      "source": {
+        "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+        "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964"
+      }
+    },
+    {
+      "event": "Virginia June 2025 heatwave generator use",
+      "date": "2025",
+      "source": {
+        "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+        "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964"
+      }
+    },
+    {
+      "event": "NERC reported loss of voltage-sensitive data-centre load",
+      "date": "2025",
+      "source": {
+        "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+        "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964"
+      }
+    },
+    {
+      "event": "Delaware 1.2 GW data centre permit denial",
+      "date": "2025",
+      "source": {
+        "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+        "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964"
+      }
+    },
+    {
+      "event": "Meta Iowa diesel spill",
+      "date": "2025",
+      "source": {
+        "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+        "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Caterpillar",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "INNIO Jenbacher",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Aggreko",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "VoltaGrid",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+      "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964",
+      "note": "Virginia air permit registration 74303, approved 12 March 2025, covering 166 Tie"
+    },
+    {
+      "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+      "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964"
+    },
+    {
+      "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+      "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964",
+      "note": "93 Caterpillar 3516C-HD gensets at 2.5 MW standby each, identified from satellite imagery dated 8/19/2023."
+    },
+    {
+      "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+      "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964",
+      "note": "Estimated maximum grid load of about 360 MW; 245 generators totalling 715 MW; built to 2N UPS redundancy according to Digital Realty."
+    },
+    {
+      "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+      "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964",
+      "note": "Virginia air permit registration 74303, approved 12 March 2025, covering 166 Tier 4 and five Tier 2 generators."
+    },
+    {
+      "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+      "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964",
+      "note": "Utah approval order DAQ-2025-002983, 17 June 2025, covering 310 Tier 2 generators with SCR; 800 MWe total, 8,400 gallon belly tanks each, 2.6 million gallons stored, 48 hours at 100% load and about 90"
+    },
+    {
+      "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+      "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964",
+      "note": "120 MW of natural gas generators and 130 MW of diesel; facility F025213, permit P0027701 covers 40 Jenbacher J620 3 MW natural gas generators."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Global (non-US) data-centre genset fleet counts",
+      "why": "The March 2026 report is US-focused; no comparable permitted-fleet census was read for APAC or Europe",
+      "next_action": "Search national permit registries (e.g. Singapore EMA, Malaysia DOE) for equivalent data"
+    },
+    {
+      "what": "Failure-rate statistics for data-centre diesel gensets",
+      "why": "The report states gensets are reliable but gives no measured failure rate or availability for the fleet",
+      "next_action": "Locate operator telemetry or NERC/PJM datasets on standby genset starting reliability"
+    },
+    {
+      "what": "Dollar year for $1 billion-scale project costs in this item",
+      "why": "No USD cost figures were retained here; project cost figures are recorded in the APAC item with 'dollar year not stated'",
+      "next_action": "Confirm price year with the source publisher if costs become load-bearing"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power reliability and standards). Evidence gathered from pages actually read: Uptime Institute's Annual Outage Analyses 2024 and 2025 (read via the r.jina.ai proxy because WebFetch cannot parse "
+}

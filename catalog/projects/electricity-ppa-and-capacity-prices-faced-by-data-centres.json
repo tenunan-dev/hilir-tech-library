@@ -1,0 +1,196 @@
+{
+  "id": "electricity-ppa-and-capacity-prices-faced-by-data-centres",
+  "name": "Electricity, PPA and capacity prices faced by data centres",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "PPA values are labelled by source as analyst estimate, derived arithmetic or disclosed notional value. Behind-the-meter and grid prices are kept side by side; analyst premiums are quoted, not recomputed.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Microsoft / Constellation Crane (TMI-1) restart PPA",
+      "date": "2024",
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      }
+    },
+    {
+      "event": "Amazon / Talen Susquehanna PPA",
+      "date": "2025",
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "behind-the-meter gas generation for data centres",
+      "year": 2026,
+      "unit": "USD/MWH",
+      "basis": "RaboResearch estimate depending on overbuild assumptions, bridge duration and gas price; versus $90-95/MWh grid alternatives",
+      "low": 100,
+      "high": 165,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      }
+    },
+    {
+      "metric": "grid-connected alternative for data centres",
+      "year": 2026,
+      "unit": "USD/MWH",
+      "basis": "RaboResearch estimate",
+      "low": 90,
+      "high": 95,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      }
+    },
+    {
+      "metric": "on-site electricity cost, analyst range",
+      "year": 2026,
+      "unit": "USD/MWH",
+      "basis": "Nodus Partners analyst note; grid supply $90-95/MWh; a $40/MWh premium on a 25 MW facility is stated as about $8.8m/year",
+      "low": 100,
+      "high": 165,
+      "source": {
+        "url": "https://nodus.equipment/insights/behind-the-meter-power",
+        "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97"
+      }
+    },
+    {
+      "metric": "Microsoft / Constellation Crane PPA implied price",
+      "year": 2024,
+      "unit": "USD/MWH",
+      "basis": "Analyst estimates reported by Open Factory: Jefferies ~$112/MWh, Bloomberg Intelligence $100/MWh, Morgan Stanley and Jefferies range $98-115; underlying deal price not disclosed",
+      "value": 112,
+      "low": 98,
+      "high": 115,
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      }
+    },
+    {
+      "metric": "Amazon / Talen Susquehanna PPA implied flat-equivalent price",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "Open Factory arithmetic on disclosed ~$18bn notional over 17 years at 94.6% capacity factor; $82 high ramp, $94 low ramp; contract covers energy and capacity",
+      "value": 87,
+      "low": 82,
+      "high": 94,
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      }
+    },
+    {
+      "metric": "Meta / Constellation Clinton PPA implied price",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "Jefferies estimate reported by Open Factory; virtual PPA for clean energy attributes, 1,121 MW, 20 years from June 2027",
+      "value": 70,
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      }
+    },
+    {
+      "metric": "Pennsylvania average industrial retail price, September 2025",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "EIA-861M as compiled by Open Factory; delivered price including distribution, transmission and capacity",
+      "value": 91.2,
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      }
+    },
+    {
+      "metric": "Texas average industrial retail price, September 2025",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "EIA-861M as compiled by Open Factory",
+      "value": 67.5,
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      }
+    },
+    {
+      "metric": "PJM Western Hub wholesale price, 2025",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "EIA STEO December 2025 as compiled by Open Factory; PJM West 2024 $40.75, 2026 forecast $63.69",
+      "value": 58.51,
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      }
+    },
+    {
+      "metric": "PJM capacity auction clearing price, 2027/28 delivery year",
+      "year": 2025,
+      "unit": "USD/MW-DAY",
+      "basis": "December 2025 auction; cap reached; auction short by 6,623 MW; two years earlier the same auction cleared at $28.92/MW-day",
+      "value": 333.44,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      }
+    },
+    {
+      "metric": "five-year bridge power cost, 100 MW site",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "Open Factory modelled range at 85% utilisation and $3.78/MMBtu gas: $96/MWh solid oxide fuel cells, $104.20 gas reciprocating engines, $112 aeroderivative turbines; model output, not a contract price",
+      "value": 104.2,
+      "low": 96,
+      "high": 112,
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+      "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1",
+      "note": "PPA values are labelled by source as analyst estimate, derived arithmetic or dis"
+    },
+    {
+      "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+      "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+      "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+    },
+    {
+      "url": "https://nodus.equipment/insights/behind-the-meter-power",
+      "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Contract price for Microsoft/Crane, Meta/Clinton, Vistra/Comanche Peak and Google/Duane Arnold PPAs",
+      "why": "Parties did not disclose price; all figures in the record are analyst estimates or arithmetic",
+      "next_action": "Monitor FERC Form 1, SEC 10-K/10-Q and state PUC filings for price disclosure"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

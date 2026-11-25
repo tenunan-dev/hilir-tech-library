@@ -1,0 +1,25 @@
+{
+  "id": "dcp-cdn-standards-iteh-ai-iso-3977-9-2024-pdf-dd971d3",
+  "name": "ISO 3977-9:2024 document preview",
+  "url": "https://cdn.standards.iteh.ai/samples/82198/af3112b9018a47729e704410c2f39882/ISO-3977-9-2024.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "ISO (preview hosted by iTeh Standards)",
+  "access": "open",
+  "licence": "Copyright 2024 ISO; preview only",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via https://r.jina.ai/ proxy; scope and definitions (forced outage hours, service factor, start reliability) read."
+}

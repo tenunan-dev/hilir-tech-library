@@ -1,0 +1,74 @@
+{
+  "id": "bramley-ess-project",
+  "name": "Bramley ESS project",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United Kingdom",
+  "location": "United Kingdom",
+  "status": "operating",
+  "description": "100 MW / 331 MWh Bramley energy storage project in the UK, now operational thanks to BW ESS and Sungrow.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Delta Capacity framework agreement",
+      "date": "2026",
+      "source": {
+        "url": "https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership",
+        "source_id": "dcp-sungrowpower-com-sungrow-and-delta-capacity-68b223d"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Sungrow",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership",
+      "source_id": "dcp-sungrowpower-com-sungrow-and-delta-capacity-68b223d",
+      "note": "100 MW / 331 MWh Bramley energy storage project in the UK, now operational thank"
+    },
+    {
+      "url": "https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership",
+      "source_id": "dcp-sungrowpower-com-sungrow-and-delta-capacity-68b223d"
+    },
+    {
+      "url": "https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership",
+      "source_id": "dcp-sungrowpower-com-sungrow-and-delta-capacity-68b223d",
+      "note": "Projects planned across Scandinavia, Germany, Southern and Central Europe; Delta Capacity is executing the largest project in the Nordics to date in Ånge, Sweden. No individual Sungrow project value p"
+    },
+    {
+      "url": "https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership",
+      "source_id": "dcp-sungrowpower-com-sungrow-and-delta-capacity-68b223d",
+      "note": "800 MWh; cited as a recent Sungrow European ESS flagship project."
+    },
+    {
+      "url": "https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership",
+      "source_id": "dcp-sungrowpower-com-sungrow-and-delta-capacity-68b223d",
+      "note": "100 MW / 331 MWh Bramley energy storage project in the UK, now operational thanks to BW ESS and Sungrow."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Data-centre-specific supply contract",
+      "why": "No data-centre contract found in page read",
+      "next_action": "Search Sungrow newsroom"
+    },
+    {
+      "what": "Contract value",
+      "why": "Not printed",
+      "next_action": "Check company filings"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

@@ -1,0 +1,162 @@
+{
+  "id": "gas-fuel-price-and-delivered-energy-cost-evidence",
+  "name": "Gas fuel price and delivered-energy cost evidence",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Fuel assumptions and realised fuel-cost evidence. Lazard's $3.45/MMBtu is a modelling assumption held constant for year-over-year comparison, not a market quote; IEEFA and Rabobank quote forecasts separately.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "gas fuel price assumption for Lazard LCOE",
+      "year": 2025,
+      "unit": "USD/MMBTU",
+      "basis": "Lazard LCOE+ v18.0 assumption for gas-fired generation, held for year-over-year comparison; +/-25% sensitivity uses $2.59-4.31/MMBtu",
+      "value": 3.45,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    },
+    {
+      "metric": "Henry Hub price forecast, 2026",
+      "year": 2026,
+      "unit": "USD/MMBTU",
+      "basis": "EIA February 2026 Short-Term Energy Outlook as quoted by IEEFA",
+      "value": 4.3,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    },
+    {
+      "metric": "Henry Hub price forecast, 2027",
+      "year": 2027,
+      "unit": "USD/MMBTU",
+      "basis": "EIA February 2026 STEO as quoted by IEEFA",
+      "value": 4.4,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    },
+    {
+      "metric": "Henry Hub price forecast, 2030-2035",
+      "year": 2030,
+      "unit": "USD/MMBTU",
+      "basis": "Wood Mackenzie projection quoted by IEEFA",
+      "value": 4.9,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    },
+    {
+      "metric": "realised annual fuel cost, Dominion Greensville 1,588 MW CCGT",
+      "year": 2021,
+      "unit": "USD million (as printed)",
+      "basis": "11.5 million MWh generated; EIA data analysed by IEEFA; plant heat rate about 6,500 Btu/kWh",
+      "value": 307900000,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    },
+    {
+      "metric": "realised annual fuel cost, Dominion Greensville 1,588 MW CCGT",
+      "year": 2022,
+      "unit": "USD million (as printed)",
+      "basis": "11.1 million MWh generated; increase of more than $200m following Russia's invasion of Ukraine; costs passed through to customers",
+      "value": 518700000,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    },
+    {
+      "metric": "modelled cost of power from Greensville at 2027 gas price",
+      "year": 2027,
+      "unit": "USD/MWH",
+      "basis": "IEEFA estimate: from $27.10/MWh five-year operating average to $38.50/MWh at $4.40/MMBtu; annual fuel cost from about $295m to more than $417m",
+      "value": 38.5,
+      "low": 27.1,
+      "high": 38.5,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    },
+    {
+      "metric": "year-5 delivered cost, on-site gas generation",
+      "year": 2026,
+      "unit": "USD/MWH",
+      "basis": "HTR bank model at gas $3.5/MMBtu, grade D: recip engines ~$107/MWh, aero-derivatives ~$106/MWh, on-site combined cycle ~$101/MWh; US industrial grid supply ~$86/MWh (EIA 2025)",
+      "low": 101,
+      "high": 107,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "illustrative all-in recip engine delivered price",
+      "year": 2026,
+      "unit": "USD/MWH",
+      "basis": "Market analyst estimate, grade D, quoted by HTR",
+      "value": 125,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "Henry Hub weekly average during Winter Storm Fern",
+      "year": 2026,
+      "unit": "USD/MMBTU",
+      "basis": "Week ended 23 January 2026; highest weekly price since Winter Storm Uri, February 2021, quoted by IEEFA",
+      "value": 12.02,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286",
+      "note": "Fuel assumptions and realised fuel-cost evidence. Lazard's $3.45/MMBtu is a mode"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+    },
+    {
+      "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+      "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+      "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Firm gas transportation contract price for a specific data-centre plant",
+      "why": "IEEFA states these agreements are generally not publicly available",
+      "next_action": "Seek FERC gas tariff filings or state commission exhibits"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

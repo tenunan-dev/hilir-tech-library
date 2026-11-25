@@ -1,0 +1,24 @@
+{
+  "id": "dcp-r-jina-ai-elec-cost-perf-pdf-0085a0e",
+  "name": "Cost and Performance Characteristics of New Generating Technologies, AEO2023",
+  "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "US Energy Information Administration",
+  "access": "open",
+  "licence": "US government public domain",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via r.jina.ai, 5 pages, March 2023, 2022 dollars."
+}

@@ -1,0 +1,110 @@
+{
+  "id": "abwasserverband-aiz-wastewater-chp-austria",
+  "name": "Abwasserverband AIZ wastewater CHP, Austria",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Austria",
+  "location": "Austria",
+  "status": "operating",
+  "description": "Two sewage-gas Jenbacher J312 engines; 1.27 MW electrical and 1.4 MW thermal; commissioned 2018 and 2020; plant treats 28,270 m3 of wastewater per day.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "xAI Memphis mobile generator supply",
+      "date": "2024",
+      "source": {
+        "url": "https://www.datacenterdynamics.com/en/news/voltagrid-partners-with-jenbacher-to-develop-mobile-gas-solution-for-data-center-market/",
+        "source_id": "dcp-datacenterdynamics-com-c2477fc"
+      }
+    },
+    {
+      "event": "VoltaGrid/Jenbacher Qpac partnership announced",
+      "date": "2025",
+      "source": {
+        "url": "https://www.datacenterdynamics.com/en/news/voltagrid-partners-with-jenbacher-to-develop-mobile-gas-solution-for-data-center-market/",
+        "source_id": "dcp-datacenterdynamics-com-c2477fc"
+      }
+    },
+    {
+      "event": "Microsoft Cheyenne, Wyoming all-gas backup pilot",
+      "date": "2016",
+      "source": {
+        "url": "https://regmedia.co.uk/2024/05/15/gas1.pdf",
+        "source_id": "dcp-regmedia-co-uk-gas1-pdf-9ccd52a"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "INNIO Jenbacher",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "VoltaGrid",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Generac (cited in source)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://jenbacher.com/wp-content/uploads/2025/05/ijb_ets_en_a4_nu_t3_bangladesch_update_2025_rz_screen_ijb-125003-en.pdf",
+      "source_id": "dcp-jenbacher-com-ijb-ets-en-a4-nu-t3-bangladesc-5b3371a",
+      "note": "Two sewage-gas Jenbacher J312 engines; 1.27 MW electrical and 1.4 MW thermal; co"
+    },
+    {
+      "url": "https://jenbacher.com/wp-content/uploads/2025/05/ijb_ets_en_a4_nu_t3_bangladesch_update_2025_rz_screen_ijb-125003-en.pdf",
+      "source_id": "dcp-jenbacher-com-ijb-ets-en-a4-nu-t3-bangladesc-5b3371a"
+    },
+    {
+      "url": "https://www.datacenterdynamics.com/en/news/voltagrid-partners-with-jenbacher-to-develop-mobile-gas-solution-for-data-center-market/",
+      "source_id": "dcp-datacenterdynamics-com-c2477fc"
+    },
+    {
+      "url": "https://regmedia.co.uk/2024/05/15/gas1.pdf",
+      "source_id": "dcp-regmedia-co-uk-gas1-pdf-9ccd52a"
+    },
+    {
+      "url": "https://www.iso.org/standard/68539.html",
+      "source_id": "dcp-iso-org-68539-html-1fd731a"
+    },
+    {
+      "url": "https://jenbacher.com/wp-content/uploads/2025/05/ijb_ets_en_a4_nu_t3_bangladesch_update_2025_rz_screen_ijb-125003-en.pdf",
+      "source_id": "dcp-jenbacher-com-ijb-ets-en-a4-nu-t3-bangladesc-5b3371a",
+      "note": "Four Jenbacher J320 engines on biogas from cassava-root processing; 4.27 MW electrical output, more than the processing plant needs; commissioned 2015, 2021 and 2023. APAC/SEA evidence."
+    },
+    {
+      "url": "https://jenbacher.com/wp-content/uploads/2025/05/ijb_ets_en_a4_nu_t3_bangladesch_update_2025_rz_screen_ijb-125003-en.pdf",
+      "source_id": "dcp-jenbacher-com-ijb-ets-en-a4-nu-t3-bangladesc-5b3371a",
+      "note": "Three Jenbacher J320 biogas engines commissioned 2009 plus one J620 added 2018; 6.2 MW electrical and 6.4 MW thermal output."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Measured multi-year availability of gas engine data-centre plants",
+      "why": "Qpac's >99.9% reliability is a projection; no operating-year dataset was found in the pages read",
+      "next_action": "Seek operator-reported availability or warranty data after first Qpac deliveries"
+    },
+    {
+      "what": "Jenbacher 'up to 98% availability' and '8,000 engines delivered since 1988'",
+      "why": "These figures appeared only in a web-search snippet, not in a page read with WebFetch, so they are deliberately excluded",
+      "next_action": "Fetch the INNIO product page and re-add with a full basis if verified"
+    },
+    {
+      "what": "ISO 8528-6:2023 test-method content",
+      "why": "Only the edition/year appeared in a search listing; the ISO page was not read",
+      "next_action": "Read the ISO catalogue page before citing test requirements"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power reliability and standards). Evidence gathered from pages actually read: Uptime Institute's Annual Outage Analyses 2024 and 2025 (read via the r.jina.ai proxy because WebFetch cannot parse "
+}

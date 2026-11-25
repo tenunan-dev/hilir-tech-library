@@ -1,0 +1,2517 @@
+{
+  "id": "idc-datacentre-power-and-modular-gas-ten-year-retrospective",
+  "name": "Ten-year data centre power and modular gas generation retrospective (2016–2026)",
+  "aliases": [
+    "Ten-year data centre power and modular gas generation retrospective (2016–2026)"
+  ],
+  "sector": "IDC",
+  "category": "Data centre and modular power",
+  "applications": [
+    "data centre power architecture",
+    "small and modular gas-fired generation"
+  ],
+  "maturity": "commercial",
+  "principle": "A ten-year retrospective of data-centre power plants, gas engines and small modular generation, assembled from dated project, technology, vendor and cost evidence with sources and dollar years where published.",
+  "process_steps": [
+    {
+      "id": "GRID",
+      "name": "Grid and utility supply",
+      "equipment": [
+        "substation",
+        "switchgear"
+      ]
+    },
+    {
+      "id": "GEN",
+      "name": "Onsite gas generation",
+      "equipment": [
+        "gas engine",
+        "gas turbine",
+        "fuel cell"
+      ]
+    },
+    {
+      "id": "UPS",
+      "name": "UPS and battery ride-through",
+      "equipment": [
+        "UPS",
+        "BESS"
+      ]
+    },
+    {
+      "id": "ITLOAD",
+      "name": "Data centre IT load and cooling",
+      "equipment": [
+        "busway",
+        "cooling"
+      ]
+    }
+  ],
+  "key_equipment": [
+    "gas engines",
+    "gensets",
+    "UPS",
+    "BESS",
+    "fuel cells",
+    "switchgear",
+    "busway"
+  ],
+  "suppliers": [],
+  "performance": [
+    {
+      "metric": "Operational history — IEA reports transmission build time and grid-component lead times",
+      "unit": "n/a",
+      "basis": "New transmission lines can take four to eight years in advanced economies; wait times for transformers and cables have doubled in the past three years; gas turbine deliveries now face lead times of several years, potentially delaying commissioning beyond 2030.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+        "source_id": "dcp-iea-org-executive-summary-b2083f5"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — Singapore DC-CFA2 makes green-energy and grid-linked siting a condition of new capacity",
+      "unit": "n/a",
+      "basis": "IMDA and EDB launched DC-CFA2 on 1 December 2025 for at least 200 MW of new capacity; applicants must use green energy pathways, and future scalability is said to depend on regional renewable electricity imports and ASEAN grid interconnection initiatives; Singapore runs a biomethane sandbox.",
+      "source": {
+        "url": "https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure",
+        "source_id": "dcp-nortonrosefulbright-com-singapore-s-green-da-759c76f"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Reliability — planned data centre projects at risk of delay from grid constraints",
+      "unit": "% OF PLANNED PROJECTS",
+      "basis": "IEA Energy and AI (2025) executive summary: unless risks are addressed, around 20% of planned data centre projects could be at risk of delays; long and complex grid connection queues",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+        "source_id": "dcp-iea-org-executive-summary-b2083f5"
+      },
+      "low": 20,
+      "high": 20,
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — Google and Kairos Power sign 500 MW multi-plant advanced nuclear PPA",
+      "unit": "n/a",
+      "basis": "Announced 14 October 2024: first corporate agreement in the US for multiple deployments of a single advanced reactor design; first deployment by 2030; plants sited in relevant service territories to supply Google data centres; Kairos founded 2016; NRC issued a construction permit for the Hermes demonstration reactor in 2023, the first non-water-cooled reactor approved for construction in the US in",
+      "source": {
+        "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+        "source_id": "dcp-kairospower-com-google-and-kairos-power-part-d536266"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Operational history — IEA projects first SMRs online around 2030 and tech-sector SMR financing above 20 GW",
+      "unit": "n/a",
+      "basis": "IEA Energy and AI (2025): first SMRs come online around 2030; technology companies have plans to finance more than 20 GW of SMRs; natural gas expands by 175 TWh to meet data centre demand, notably in the United States.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+        "source_id": "dcp-iea-org-executive-summary-b2083f5"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Reliability — GE Vernova stated reliability for data-centre gas turbine fleet",
+      "unit": "%",
+      "basis": "Vendor claim on GE Vernova data-centre page; no measurement basis or period given",
+      "source": {
+        "url": "https://www.gevernova.com/gas-power/industries/data-centers",
+        "source_id": "dcp-gevernova-com-data-centers-3ade6f6"
+      },
+      "low": 99.9,
+      "high": 99.9
+    },
+    {
+      "metric": "Operational history — Digital Realty joins EirGrid DS3 dynamic frequency balancing with nine Dublin data centres",
+      "unit": "n/a",
+      "basis": "Enel X case study: when grid frequency drops below 50 Hz, Digital Realty's nine highly connected Irish data centres draw power from their batteries, reducing grid demand almost instantaneously; the collaboration is stated to avoid over 24,000 tonnes of CO2 emissions. No date is given on the page.",
+      "source": {
+        "url": "https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study",
+        "source_id": "dcp-enelx-com-digital-realty-case-study-61ae4da"
+      }
+    },
+    {
+      "metric": "Reliability — UPS failure as root cause of major power-related outages",
+      "unit": "% OF POWER-RELATED OUTAGE RESPONDENTS",
+      "basis": "Uptime Institute Data Center Resiliency Survey 2026, Figure 10 (n=129): UPS failure 39%, utility transfer switch failure 34%, generator failure 28%, PDU failure 19%, A/B transfer switch failure 16%, controls failure 8%, single-corded IT failure 16%",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 39,
+      "high": 39,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — lithium-ion UPS batteries as contributing factor in data-centre fires",
+      "unit": "QUALITATIVE TREND",
+      "basis": "Uptime Institute Annual outage analysis 2026: frequency of major fires at data centres has increased gradually in recent years, with lithium-ion batteries in UPS systems a clear contributing factor; report cautions the rise may partly reflect rapid build-out of new facilities",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Uptime reports equipment shortage driving substitute and second-user gensets",
+      "unit": "n/a",
+      "basis": "Annual outage analysis 2026: extremely high demand has created a global shortage of generators, transformers, switchgear, UPS systems and other subsystems; some owners buy second-user equipment or source substitute components from suppliers without a proven data centre track record, which the report says has contributed to several failures. Operators are adapting investment toward automation and c",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — generator failure as root cause of major power-related outages",
+      "unit": "% OF POWER-RELATED OUTAGE RESPONDENTS",
+      "basis": "Uptime Institute Data Center Resiliency Survey 2026, Figure 10 (n=129); UPS failure 39% and utility transfer switch failure 34% ranked above generator failure",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 28,
+      "high": 28,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — grid failure effects on on-site standby power",
+      "unit": "QUALITATIVE MECHANISM",
+      "basis": "Uptime Institute Annual outage analysis 2026: grid failures should not cause a data centre outage assuming on-site primary power, but can affect availability of on-site power through a failed power switchover or disruptions to diesel supply triggered by the grid failure",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Singapore Green Data Centre Roadmap 2024 sets near-term capacity and efficiency targets",
+      "unit": "n/a",
+      "basis": "IMDA launched the roadmap in June 2024, targeting at least 300 MW of new data centre capacity in the near term; DC-CFA2 from December 2025 requires PUE of 1.25 or better at 100% IT load, Green Mark for DC Platinum 2024, IT equipment meeting SS 715:2025, and at least 50% of new capacity powered by eligible green energy pathways.",
+      "source": {
+        "url": "https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure",
+        "source_id": "dcp-nortonrosefulbright-com-singapore-s-green-da-759c76f"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Reliability — cooling as primary cause of most recent impactful data centre outage",
+      "unit": "% OF RESPONDENTS",
+      "basis": "Uptime Institute Global Data Center Survey 2025, Figure 4 (n=96): power 45%, cooling 14%, IT systems 11%, network 9%, fire suppression 6%, fire 5%, colocation 4%, unknown 2%, third-party 2%, information security 1% (figures rounded)",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 14,
+      "high": 14,
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — Uptime identifies higher voltages and on-site storage as emerging rack-power risks",
+      "unit": "n/a",
+      "basis": "Annual outage analysis 2026: in the years ahead operators face higher rack densities, higher voltages, lower grid reliability and increased on-site energy storage; these challenges may add to outage risk and highlight the need for policies, training and on-site expertise.",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — PDU failure as root cause of major power-related outages",
+      "unit": "% OF POWER-RELATED OUTAGE RESPONDENTS",
+      "basis": "Uptime Institute Data Center Resiliency Survey 2026, Figure 10 (n=129): PDU failure 19%, single-corded IT device failure 16%; report notes PDU, transfer switching and single-corded IT outages increased significantly versus the early-2025 survey",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 19,
+      "high": 19,
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Uptime reports a shift toward distributed resiliency and Tier III for AI sites",
+      "unit": "n/a",
+      "basis": "Annual outage analysis 2026: distributed resiliency — spreading active workloads across several locations — reduces single-site failure impact but increases synchronisation cost and complexity; some AI training sites were built at speed with crypto-mining-style low-resiliency designs, while more recent evidence suggests a trend toward higher facility resiliency such as Tier III.",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — operators reporting an impactful outage in the past three years",
+      "unit": "% OF OPERATORS",
+      "basis": "Uptime Institute Global Data Center Survey 2025 (n=754), reported in Annual outage analysis 2026: series 74% (2020), 69% (2021), 60% (2022), 55% (2023), 53% (2024), 50% (2025); lowest since 2020",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 50,
+      "high": 50,
+      "year": 2025
+    },
+    {
+      "metric": "Reliability — outage classified serious or severe",
+      "unit": "% OF OUTAGES",
+      "basis": "Uptime Institute Annual outage analysis 2026: proportion of serious/severe incidents 10% in 2025 versus 9% in 2024; fifth consecutive year of declining per-site outage frequency, but pace of improvement slowed",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 10,
+      "high": 10,
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — IEA publishes 2024 fuel mix for electricity physically consumed by data centres",
+      "unit": "n/a",
+      "basis": "IEA Energy and AI (2025), Energy supply for AI: generation supplying data centres grows from 460 TWh in 2024 to over 1,000 TWh in 2030 and 1,300 TWh in 2035 (Base Case). 2024 mix: coal about 30% (largest), renewables about 27%, natural gas 26%, nuclear 15%. Renewables grow at an annual average 22% between 2024 and 2030 and meet nearly 50% of growth; some capacity is financed through PPAs with tech",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+        "source_id": "dcp-iea-org-energy-supply-for-ai-3218796"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — IEA projects the first SMRs entering the data-centre supply mix after 2030",
+      "unit": "n/a",
+      "basis": "IEA Energy supply for AI: after 2030 SMRs enter the mix; hyperscalers are key corporate backers; in the United States technology companies have plans to finance more than 20 GW of SMRs. CO2 from data-centre electricity generation peaks around 320 Mt CO2 by 2030 then declines to around 300 Mt by 2035 in the Base Case.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+        "source_id": "dcp-iea-org-energy-supply-for-ai-3218796"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — Singapore requires at least 50% green-energy pathways for DC-CFA2 capacity",
+      "unit": "n/a",
+      "basis": "DC-CFA2 launched 1 December 2025 requires selected applicants to power at least 50% of new capacity through eligible green energy pathways: biomethane, low-carbon ammonia, low-carbon hydrogen, novel fuel cells with carbon capture and storage, or vertical building-integrated/building-applied photovoltaics.",
+      "source": {
+        "url": "https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure",
+        "source_id": "dcp-nortonrosefulbright-com-singapore-s-green-da-759c76f"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — IEA quantifies AI data centre scale and local concentration",
+      "unit": "n/a",
+      "basis": "IEA Energy and AI (2025): a typical AI-focused data centre consumes as much electricity as 100,000 households and the largest under construction will consume 20 times as much; global investment in data centres nearly doubled since 2022 to half a trillion dollars in 2024; an AI-focused data centre is 10 times more capital-intensive than an aluminium smelter, making curtailment very costly; 50% of U",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+        "source_id": "dcp-iea-org-executive-summary-b2083f5"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — Uptime flags AI resiliency as an open question",
+      "unit": "n/a",
+      "basis": "Annual outage analysis 2026: very large AI training and hyperscale sites are not yet a focus because most only recently came into operation; AI training facilities repeatedly stop and start model runs to address IT component failures; major power or cooling failures could prove expensive due to lost work even if end users are unaffected; there have been near-miss incidents that could have caused m",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — operators saying most recent major outage cost more than USD 100,000",
+      "unit": "% OF SURVEY RESPONDENTS",
+      "basis": "Uptime Institute 2025 annual survey, reported in Annual outage analysis 2026: 57% say most recent major outage cost more than $100,000; one in five (20%) say more than $1 million for the second year in a row; dollar year not stated",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 57,
+      "high": 57,
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — IEA sets out flexibility options and their cost constraint",
+      "unit": "n/a",
+      "basis": "IEA Energy and AI (2025): grid connection queues are long and complex; an AI-focused data centre is 10 times more capital-intensive than an aluminium smelter so curtailing operations to provide flexibility is very costly; many data centres operate with spare server capacity, and regulators could incentivise use of that capacity or of backup generation and storage; grid operators could incentivise ",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+        "source_id": "dcp-iea-org-executive-summary-b2083f5"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — IEA sensitivity cases show queue-driven fuel mix differences",
+      "unit": "n/a",
+      "basis": "IEA Energy supply for AI: in the Lift-Off Case global electricity generation for data centres approaches 2,000 TWh by 2035, 45% above Base Case, but long grid connection queues mean most additional growth beyond 2030 is met by fossil fuels; in that case nearly 50% of additional generation to 2030 comes from fossil fuels.",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+        "source_id": "dcp-iea-org-energy-supply-for-ai-3218796"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — Enel X and Digital Realty use UPS batteries for EirGrid frequency response",
+      "unit": "n/a",
+      "basis": "Under EirGrid's DS3 programme, Digital Realty's nine Irish data centres draw on batteries when frequency falls below 50 Hz, turning idle backup into a grid-balancing asset; no date stated on the page.",
+      "source": {
+        "url": "https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study",
+        "source_id": "dcp-enelx-com-digital-realty-case-study-61ae4da"
+      }
+    },
+    {
+      "metric": "Reliability — near-miss grid incidents linked to large data centres",
+      "unit": "QUALITATIVE",
+      "basis": "Uptime Institute Annual outage analysis 2026: there have already been some near-miss incidents that could have resulted in major grid outages; mitigation measures are being introduced but systemic failure likelihood appears to have increased in recent years",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Uptime publishes the eighth Annual Outage Analysis",
+      "unit": "n/a",
+      "basis": "Keynote Report 201, May 2026, authors Douglas Donnellan, Andy Lawrence and Rose Weinschenk. It draws on the Data Center Resiliency Survey 2026 (Feb-Mar 2026, >450 operator and 500 vendor respondents), the Global Data Center Survey 2025 (Q2 2025, >800 operators) and public outage reports from 2025 and Q1 2026.",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Outage frequency declines for the fifth consecutive year but gains slow",
+      "unit": "n/a",
+      "basis": "Annual outage analysis 2026: per-site outage frequency is declining for the fifth consecutive year, but the pace of improvement has slowed and around one in 10 respondents still say their last outage had serious or severe impacts; failures increasingly involve complex interactions, external connectivity and grid constraints rather than a single point of failure.",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages tracked by Uptime, 2016",
+      "unit": "COUNT",
+      "basis": "Uptime Institute Annual outage analysis 2026, Table 3: publicly reported outages tracked 2016-2025; counts are reports, not necessarily the underlying number of outages",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 27,
+      "high": 27,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages tracked by Uptime, 2017",
+      "unit": "COUNT",
+      "basis": "Uptime Institute Annual outage analysis 2026, Table 3",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 57,
+      "high": 57,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages tracked by Uptime, 2018",
+      "unit": "COUNT",
+      "basis": "Uptime Institute Annual outage analysis 2026, Table 3",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 71,
+      "high": 71,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages tracked by Uptime, 2019",
+      "unit": "COUNT",
+      "basis": "Uptime Institute Annual outage analysis 2026, Table 3",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 165,
+      "high": 165,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages tracked by Uptime, 2020",
+      "unit": "COUNT",
+      "basis": "Uptime Institute Annual outage analysis 2026, Table 3",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 118,
+      "high": 118,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages tracked by Uptime, 2021",
+      "unit": "COUNT",
+      "basis": "Uptime Institute Annual outage analysis 2026, Table 3",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 109,
+      "high": 109,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages tracked by Uptime, 2022",
+      "unit": "COUNT",
+      "basis": "Uptime Institute Annual outage analysis 2026, Table 3",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 111,
+      "high": 111,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages tracked by Uptime, 2023",
+      "unit": "COUNT",
+      "basis": "Uptime Institute Annual outage analysis 2026, Table 3",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 110,
+      "high": 110,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages tracked by Uptime, 2024",
+      "unit": "COUNT",
+      "basis": "Uptime Institute Annual outage analysis 2026, Table 3",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 119,
+      "high": 119,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages tracked by Uptime, 2025",
+      "unit": "COUNT",
+      "basis": "Uptime Institute Annual outage analysis 2026, Table 3; 10-year total 1,009",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 122,
+      "high": 122,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — power as primary cause of most recent impactful data centre outage, 2025",
+      "unit": "% OF RESPONDENTS",
+      "basis": "Uptime Institute Global Data Center Survey 2025, Figure 4 (n=96); down from 54% in 2024, reversing an upward trend observed since 2020",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 45,
+      "high": 45,
+      "year": 2025
+    },
+    {
+      "metric": "Reliability — severity of publicly reported outages classified severe, 2025",
+      "unit": "% OF PUBLIC OUTAGE REPORTS",
+      "basis": "Uptime Institute Annual outage analysis 2026, Figure 3 (n=122); down five percentage points from 2024, while Category 4 (serious) rose eight points",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 7,
+      "high": 7,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — human error as a contributor to most recent impactful outage",
+      "unit": "% OF RESPONDENTS",
+      "basis": "Uptime Institute Data Center Resiliency Survey 2026 (n=220): 92% say human error was at least a minor contributor; Uptime treats human error as a contributing factor, not a primary cause",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 92,
+      "high": 92,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — publicly reported outages resolved within 12 hours",
+      "unit": "% OF INCIDENTS",
+      "basis": "Uptime Institute Annual outage analysis 2026, Figure 15: a majority of public incidents are resolved within 12 hours, but the share lasting more than 48 hours increased for the second consecutive year, partly linked to fibre and subsea cable damage",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 55,
+      "high": 55,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — impactful outages judged avoidable with better management, processes or configuration",
+      "unit": "% OF AFFECTED RESPONDENTS",
+      "basis": "Uptime Institute Global Data Center Survey 2025 (n=98), reported in Annual outage analysis 2026; up seven percentage points from 2024",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 87,
+      "high": 87,
+      "year": 2025
+    },
+    {
+      "metric": "Reliability — operators saying public cloud is not resilient enough for any mission-critical workloads",
+      "unit": "% OF RESPONDENTS",
+      "basis": "Uptime Institute Data Center Resiliency Survey 2026, Figure 8 (n=372); up six percentage points year-over-year; 12% say all workloads, 28% most, 36% only some",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 24,
+      "high": 24,
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — J624 peaking plant commissioned in Manchester",
+      "unit": "n/a",
+      "basis": "Forsa Energy: 9 x J624, 40.5 MW electrical, natural gas, fast-start grid security for Great Britain",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/",
+        "source_id": "dcp-jenbacher-com-46cdbfb"
+      },
+      "year": 2023
+    },
+    {
+      "metric": "Operational history — J416 municipal CHP commissioned in Dettenhausen",
+      "unit": "n/a",
+      "basis": "1 x J416, 999 kW electrical and 1,232 kW thermal, natural gas",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/",
+        "source_id": "dcp-jenbacher-com-46cdbfb"
+      },
+      "year": 2021
+    },
+    {
+      "metric": "Reliability — Type 6 engines delivered since 1989",
+      "unit": "ENGINES (MORE THAN)",
+      "basis": "vendor product page states >7,000 Type 6 engines delivered since 1989, with J624 since 2007",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+        "source_id": "jenbacher-com-type-6"
+      },
+      "low": 7000,
+      "high": 7000,
+      "year": 1989
+    },
+    {
+      "metric": "Operational history — Launch of Ready for H2 portfolio including 100% hydrogen Type 4",
+      "unit": "n/a",
+      "basis": "INNIO press release dated 21 July 2021: Type 4 engines of roughly 500-900 kW available on 100% hydrogen or natural-gas/hydrogen mixtures; all other engine types offered from 2022 at up to 25 vol% hydrogen in pipeline gas",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+        "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+      },
+      "year": 2021
+    },
+    {
+      "metric": "Operational history — NorthC data centre dual-gas plant commissioned",
+      "unit": "n/a",
+      "basis": "Eindhoven, Netherlands: 6 x J420, 6 MWe, dual gas (natural gas and hydrogen) with a stated plan for hydrogen use",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/",
+        "source_id": "dcp-jenbacher-com-46cdbfb"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Operational history — Biogas CHP commissioned at Holzheim",
+      "unit": "n/a",
+      "basis": "2 x J420, 4.48 MWe and 4.52 MWth, biogas",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/",
+        "source_id": "dcp-jenbacher-com-46cdbfb"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Reliability — Type 4 production lineage",
+      "unit": "YEAR FIRST IN SERVICE",
+      "basis": "Clarke Energy states Type 4 engines have demonstrated consistent performance since 2002",
+      "source": {
+        "url": "https://www.clarke-energy.com/us/gas-engines/jenbacher-type-4-gas-engine",
+        "source_id": "dcp-clarke-energy-com-jenbacher-type-4-gas-engin-585efee"
+      },
+      "low": 2002,
+      "high": 2002,
+      "year": 2002
+    },
+    {
+      "metric": "Operational history — J920 balance-of-plant documentation lists SCR and oxidation catalyst",
+      "unit": "n/a",
+      "basis": "The current product page lists SCR & oxidation catalyst, exhaust heat exchanger, gas train, silencer, radiators and control solutions as BOP elements; power unit can be exchanged as one assembly to cut maintenance downtime",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
+        "source_id": "jenbacher-com-j920-flextra"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — 31SG efficiency-optimised variant documented",
+      "unit": "n/a",
+      "basis": "Current vendor page distinguishes standard (51.5/51.6%), efficiency-optimised (52.0/52.1%) and power-optimised (50.2/50.4%) 31SG configurations",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-31sg-gas-engine",
+        "source_id": "dcp-wartsila-com-wartsila-31sg-gas-engine-992d336"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Bremen coal-to-gas CHP delivered",
+      "unit": "n/a",
+      "basis": "Vendor customer story: mid-2022 delivery to swb Erzeugung, Bremen; stated CO2 reduction up to 75%",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-31sg-gas-engine",
+        "source_id": "dcp-wartsila-com-wartsila-31sg-gas-engine-992d336"
+      },
+      "year": 2022
+    },
+    {
+      "metric": "Reliability — number of starts without degradation",
+      "unit": "QUALITATIVE VENDOR CLAIM",
+      "basis": "50SG page states no start cost, limitations or degradation in number of starts; no quantified start count published",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+        "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+      }
+    },
+    {
+      "metric": "Operational history — Launch at E-world energy, Essen",
+      "unit": "n/a",
+      "basis": "Press release dated 10 February 2026; exhibit 10-12 February 2026, booth 6H106 Hall 6; plants described as H2-ready and suitable for biomethane and biogas",
+      "source": {
+        "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+        "source_id": "dcp-mtu-solutions-com-rolls-royce-launches-modul-2c772be"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — installed mtu gas genset capacity cited by vendor",
+      "unit": "GW (MORE THAN)",
+      "basis": "Rolls-Royce Power Systems states more than 17 GW of installed capacity among utilities and data-centre customers",
+      "source": {
+        "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+        "source_id": "dcp-mtu-solutions-com-rolls-royce-launches-modul-2c772be"
+      },
+      "low": 17,
+      "high": 17
+    },
+    {
+      "metric": "Reliability — UK capacity market gas gensets",
+      "unit": "GENSETS (AROUND)",
+      "basis": "release states around 500 mtu gas gensets now in use supporting the UK grid since the UK capacity market began in 2014",
+      "source": {
+        "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+        "source_id": "dcp-mtu-solutions-com-rolls-royce-launches-modul-2c772be"
+      },
+      "low": 500,
+      "high": 500,
+      "year": 2014
+    },
+    {
+      "metric": "Operational history — Solutions Center for integrated energy solutions opened in Brno",
+      "unit": "n/a",
+      "basis": "MWM news dated 27 October 2026: new centre for planning and implementation of customised decentralised energy solutions",
+      "source": {
+        "url": "https://www.mwm.net/mwm-chp-gas-engines-gensets-cogeneration/",
+        "source_id": "dcp-mwm-net-227c105"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — CCHP gas-engine application note published",
+      "unit": "n/a",
+      "basis": "MWM news dated 14 September 2026 on gas-engine-driven combined cooling, heat and power",
+      "source": {
+        "url": "https://www.mwm.net/mwm-chp-gas-engines-gensets-cogeneration/",
+        "source_id": "dcp-mwm-net-227c105"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — MWM gas engines and gensets delivered in past 15 years",
+      "unit": "GW (MORE THAN)",
+      "basis": "stated on the TCG 2032 MPP page as cumulative deliveries over the past 15 years",
+      "source": {
+        "url": "https://www.mwm.net/en/distributed-power-plants/tcg-2032-modular-power-plant-mpp/",
+        "source_id": "dcp-mwm-net-9905d1b"
+      },
+      "low": 10.2,
+      "high": 10.2,
+      "year": 2032
+    },
+    {
+      "metric": "Operational history — First onboard microprocessor-based genset control",
+      "unit": "n/a",
+      "basis": "Cummins states it pioneered the first onboard microprocessor-based generator set control in the early 1990s and has designed paralleling solutions since the 1960s; year is a midpoint of the stated decade, not an exact date",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/generator-set-controls",
+        "source_id": "dcp-cummins-com-generator-set-controls-bc8727d"
+      },
+      "year": 1991
+    },
+    {
+      "metric": "Reliability — HSK78G major overhaul interval",
+      "unit": "HOURS",
+      "basis": "Cummins states the HSK78 series offers the industry's longest major overhaul service cycle of 80,000 hours",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/cogeneration",
+        "source_id": "dcp-cummins-com-cogeneration-1497670"
+      },
+      "low": 80000,
+      "high": 80000
+    },
+    {
+      "metric": "Reliability — genset control deployed base",
+      "unit": "UNITS (HUNDREDS OF THOUSANDS IN SERVICE)",
+      "basis": "Cummins states hundreds of thousands of PowerCommand controls in service globally; recorded as an order-of-magnitude figure, not an exact count",
+      "source": {
+        "url": "https://www.cummins.com/en-na/generators/generator-set-controls",
+        "source_id": "dcp-cummins-com-generator-set-controls-bc8727d"
+      },
+      "low": 100000,
+      "high": 100000
+    },
+    {
+      "metric": "Operational history — World's first 1 MW hydrogen conversion at HanseWerk Natur",
+      "unit": "n/a",
+      "basis": "INNIO and HanseWerk Natur demonstrated variable hydrogen/natural-gas mixes including 100% hydrogen on a 1 MW engine; the Jenbacher hydrogen page says the plant supplied 30 residential units plus a kindergarten, sports field and leisure centre in Hamburg-Othmarschen",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+        "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+      },
+      "year": 2020
+    },
+    {
+      "metric": "Operational history — Earlier 150 kW pilot on 100% hydrogen",
+      "unit": "n/a",
+      "basis": "INNIO states the first Jenbacher 150 kW pilot engine ran on 100% hydrogen at a demonstration plant in northern Germany 'twenty years ago' relative to the July 2021 release; year is derived from that wording",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+        "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+      },
+      "year": 2001
+    },
+    {
+      "metric": "Operational history — Ready for H2 portfolio launch",
+      "unit": "n/a",
+      "basis": "Announced 21 July 2021; INNIO cited 30+ years of renewable/hydrogen-rich fuel experience and more than 53,000 delivered gas engines at that time",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+        "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+      },
+      "year": 2021
+    },
+    {
+      "metric": "Reliability — INNIO hydrogen-rich fuel projects",
+      "unit": "PROJECTS ACROSS 28 COUNTRIES",
+      "basis": "2021 press release: about 90 hydrogen-rich fuel projects across 28 countries, engines running on up to 70 vol% hydrogen, yielding more than 250 MW",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+        "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+      },
+      "low": 90,
+      "high": 90,
+      "year": 2021
+    },
+    {
+      "metric": "Operational history — 30 vol% hydrogen CHP demonstration completed",
+      "unit": "n/a",
+      "basis": "Yanmar and Daigas Energy tested an EP400G at the Carbon Neutral Research Hub ANNEX Torishima site, Osaka, January-June 2024; stable operation with low NOx comparable to municipal gas was achieved by retrofitting hydrogen supply equipment",
+      "source": {
+        "url": "https://www.yanmar.com/global/energy/news/2024/07/05/139269.html",
+        "source_id": "dcp-yanmar-com-139269-html-3e24a70"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Operational history — Synthetic-methane micro-CHP demonstration unit delivered",
+      "unit": "n/a",
+      "basis": "35 kW unit delivered 14 September 2022 to Tokyo Gas Yokohama Techno Station; fuel-system components modified for lower calorific value and NOx met Yokohama City ordinance limits",
+      "source": {
+        "url": "https://www.yanmar.com/us/news/2022/11/16/116492.html",
+        "source_id": "dcp-yanmar-com-116492-html-f19ae4f"
+      },
+      "year": 2022
+    },
+    {
+      "metric": "Reliability — NOx from oxygen-rich exhaust",
+      "unit": "PPM (LESS THAN)",
+      "basis": "Capstone technology page: 'Oxygen Rich Exhaust - Less than 5ppm NOx' without catalyst",
+      "source": {
+        "url": "https://www.capstoneenergyplus.com/products/technology",
+        "source_id": "dcp-capstoneenergyplus-com-technology-4c6cc4c"
+      },
+      "low": 5,
+      "high": 5
+    },
+    {
+      "metric": "Reliability — noise at 10 m",
+      "unit": "DB",
+      "basis": "Capstone technology page: quiet operation 65 dB at 10 meters",
+      "source": {
+        "url": "https://www.capstoneenergyplus.com/products/technology",
+        "source_id": "dcp-capstoneenergyplus-com-technology-4c6cc4c"
+      },
+      "low": 65,
+      "high": 65
+    },
+    {
+      "metric": "Operational history — DOE fact sheet published",
+      "unit": "n/a",
+      "basis": "DOE/EE-2764, August 2023; cost table compiled from multiple sources and reported in 2020 US$",
+      "source": {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+        "source_id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804"
+      },
+      "year": 2023
+    },
+    {
+      "metric": "Reliability — minimum availability in DOE Packaged CHP eCatalog",
+      "unit": "%",
+      "basis": "fact sheet states minimum availability 92%, noting it can be higher in practice; availability defined as running or available to run",
+      "source": {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+        "source_id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804"
+      },
+      "low": 92,
+      "high": 92
+    },
+    {
+      "metric": "Reliability — US sites with reciprocating engine CHP",
+      "unit": "SITES (OVER)",
+      "basis": "58% of all US CHP sites; aggregate installed capacity nearly 2.9 GW, over 82% gas-fuelled; DOE database June 2022",
+      "source": {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+        "source_id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804"
+      },
+      "low": 2700,
+      "high": 2700,
+      "year": 2022
+    },
+    {
+      "metric": "Reliability — share of reciprocating CHP systems under 1 MW",
+      "unit": "%",
+      "basis": "DOE Combined Heat and Power Installation Database, June 2022, as cited in fact sheet",
+      "source": {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+        "source_id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804"
+      },
+      "low": 75,
+      "high": 75,
+      "year": 2022
+    },
+    {
+      "metric": "Operational history — 100% hydrogen Jenbacher container tour offered",
+      "unit": "n/a",
+      "basis": "Containerised solutions page links to a tour of an integrated Jenbacher container designed for 100% hydrogen operation",
+      "source": {
+        "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
+        "source_id": "jenbacher-com-containerized-solutions"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — ISO 8528-13:2026 published",
+      "unit": "n/a",
+      "basis": "New project approved 2022-10-31; DIS ballot 2024-12-13; FDIS 2025-07-15; published 2026-03-20",
+      "source": {
+        "url": "https://www.iso.org/standard/85962.html",
+        "source_id": "dcp-iso-org-85962-html-071211c"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — ISO 8528-1:2018 confirmed then opened for revision",
+      "unit": "n/a",
+      "basis": "ISO page states last reviewed and confirmed in 2023, with stage 90.92 (to be revised) and a WD study under way",
+      "source": {
+        "url": "https://www.iso.org/standard/68539.html",
+        "source_id": "dcp-iso-org-68539-html-1fd731a"
+      },
+      "year": 2023
+    },
+    {
+      "metric": "Operational history — ISO 8528-5:2025 published",
+      "unit": "n/a",
+      "basis": "Edition 6 published 2025-05-01, replacing withdrawn ISO 8528-5:2022; project approved 2022-10-31",
+      "source": {
+        "url": "https://www.iso.org/standard/85960.html",
+        "source_id": "dcp-iso-org-85960-html-d2d78a1"
+      },
+      "year": 2025
+    },
+    {
+      "metric": "Operational history — NorthC dual-gas data-centre CHP commissioned",
+      "unit": "n/a",
+      "basis": "6 x J420, 6 MWe, dual gas including hydrogen pathway at Eindhoven; vendor case study",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/",
+        "source_id": "dcp-jenbacher-com-46cdbfb"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Operational history — Rolls-Royce modular plants launched for renewable gap filling and data centres",
+      "unit": "n/a",
+      "basis": "February 2026 release describes backup for wind/solar fluctuations and bridging power until grid or nuclear connection, after which gensets switch to backup",
+      "source": {
+        "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+        "source_id": "dcp-mtu-solutions-com-rolls-royce-launches-modul-2c772be"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — TMI Unit 1 purchased by Constellation's predecessor",
+      "unit": "n/a",
+      "basis": "Constellation purchased TMI Unit 1 in 1999",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      },
+      "year": 1999
+    },
+    {
+      "metric": "Operational history — Unit shut down for economic reasons",
+      "unit": "n/a",
+      "basis": "Shut down 20 September 2019; 'prematurely shuttered due to poor economics'",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      },
+      "year": 2019
+    },
+    {
+      "metric": "Operational history — 20-year PPA signed with Microsoft / Crane Clean Energy Center announced",
+      "unit": "n/a",
+      "basis": "Announced 20 September 2024; Microsoft to buy energy to match PJM data-centre load; largest PPA Constellation has signed",
+      "source": {
+        "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/09/20/accelerating-the-addition-of-carbon-free-energy-an-update-on-progress",
+        "source_id": "dcp-microsoft-com-accelerating-the-addition-of-c-34eb659"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Operational history — Expected return to service",
+      "unit": "n/a",
+      "basis": "CCEC expected online in 2028, subject to NRC safety and environmental review and state/local permits",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      },
+      "year": 2028
+    },
+    {
+      "metric": "Operational history — License renewal target",
+      "unit": "n/a",
+      "basis": "Constellation to pursue renewed licence extending operation 'to at least 2054'",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      },
+      "year": 2054
+    },
+    {
+      "metric": "Reliability — Time at maximum capacity in last year of operation",
+      "unit": "%",
+      "basis": "Constellation: 'In its last year of operation, the plant was producing electricity at maximum capacity 96.3 percent of the time'",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      },
+      "low": 96.3,
+      "high": 96.3
+    },
+    {
+      "metric": "Operational history — PPA announced via SEC Form 8-K (Item 7.01 Regulation FD)",
+      "unit": "n/a",
+      "basis": "In January 2026 Vistra announced 20-year PPAs with Meta for 2,609 MW of carbon-free power and capacity from PJM nuclear plants",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Partial delivery of operating energy and capacity",
+      "unit": "n/a",
+      "basis": "Delivery on a portion of operating energy and capacity expected in late 2026",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      },
+      "year": 2026
+    },
+    {
+      "metric": "Operational history — Full delivery of operating energy and capacity",
+      "unit": "n/a",
+      "basis": "Full operating delivery expected by year-end 2027",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      },
+      "year": 2027
+    },
+    {
+      "metric": "Operational history — First uprate delivery",
+      "unit": "n/a",
+      "basis": "Portion of uprate energy and capacity expected by 2031",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      },
+      "year": 2031
+    },
+    {
+      "metric": "Operational history — Full uprate delivery",
+      "unit": "n/a",
+      "basis": "Full uprate delivery expected by year-end 2034; capex commences 2026 and extends through 2034, less than 20% of aggregate spend projected by end-2028",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      },
+      "year": 2034
+    },
+    {
+      "metric": "Reliability — Incremental Adjusted Free Cash Flow before Growth accretion from operating energy and capacity",
+      "unit": "%",
+      "basis": "Lower end of ~8%–10% range stated by Vistra in 8-K at full PPA delivery, assuming 2026 Adjusted FCF guidance; not a physical reliability metric but a contractual cash-flow figure",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      },
+      "low": 8,
+      "high": 8,
+      "year": 2026
+    },
+    {
+      "metric": "Reliability — Incremental Adjusted Free Cash Flow before Growth accretion from uprates",
+      "unit": "%",
+      "basis": "Lower end of ~5%–7% range stated by Vistra in 8-K at full PPA delivery",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      },
+      "low": 5,
+      "high": 5
+    },
+    {
+      "metric": "Operational history — Colossus supercluster activated",
+      "unit": "n/a",
+      "basis": "Site at 3231 Paul R. Lowry Road, Frank C. Pidgeon Industrial Park; ~8 MW initial grid connection; gas turbines deployed as interim/supplemental generation; operations started 1 September 2024 per University of Memphis",
+      "source": {
+        "url": "https://www.memphistn.gov/wp-content/uploads/2026/09/PZ-xAI-impacts-on-air-quality-in-Southwest-Memphis_Memphis-City-Council.pdf",
+        "source_id": "dcp-memphistn-gov-pz-xai-impacts-on-air-quality-e824836"
+      },
+      "year": 2024
+    },
+    {
+      "metric": "Operational history — Permit application filed",
+      "unit": "n/a",
+      "basis": "Initial filing received 3 January 2025 with revisions 7 January, 5 February and 7 March; Shelby County Health Department construction permit 01156-01PC",
+      "source": {
+        "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf",
+        "source_id": "dcp-downloads-regulations-gov-attachment-5-pdf-2450276"
+      },
+      "year": 2025
+    }
+  ],
+  "costs": [
+    {
+      "metric": "Price — up-front utility works (substations) capex, 1 GW AI data centre model",
+      "unit": "USD MILLION",
+      "basis": "Epoch AI, published 14 May 2026; USD, dollar year not stated on page; stylised model, not a specific facility; substation unit costs from MISO transmission cost guide",
+      "source": {
+        "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+        "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+      },
+      "low": 164,
+      "high": 164,
+      "year": 2026
+    },
+    {
+      "metric": "Price — annual energy cost, 1 GW AI data centre model",
+      "unit": "USD MILLION PER YEAR",
+      "basis": "Epoch AI published 14 May 2026; USD dollar year not stated on page; electricity price input 8.34 cents/kWh from EIA 2024 state-level industrial prices weighted by data centre project counts, with PUE 1.14 and 71% utilisation",
+      "source": {
+        "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+        "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+      },
+      "low": 594,
+      "high": 594,
+      "year": 2026
+    },
+    {
+      "metric": "Price — up-front network infrastructure capex, 1 GW AI data centre model",
+      "unit": "USD MILLION",
+      "basis": "Epoch AI published 14 May 2026; USD dollar year not stated on page; servers and network infrastructure costs derived from number of servers implied by IT power and GB200 NVL72 power density, with public SemiAnalysis estimates",
+      "source": {
+        "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+        "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+      },
+      "low": 4925,
+      "high": 4925,
+      "year": 2026
+    },
+    {
+      "metric": "Price — modelled electricity price input, 1 GW AI data centre",
+      "unit": "USD PER KWH",
+      "basis": "Epoch AI model weights EIA state-level industrial electrical costs in 2024 by data centre project counts from Aterio, giving 8.34 cents/kWh; page published 14 May 2026",
+      "source": {
+        "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+        "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+      },
+      "low": 0.0834,
+      "high": 0.0834,
+      "year": 2024
+    },
+    {
+      "metric": "Price — up-front capital expenditure, 1 GW AI data centre model",
+      "unit": "USD MILLION",
+      "basis": "Epoch AI published 14 May 2026; USD dollar year not stated on page. Breakdown: servers 21,188; facility 11,433; network infrastructure 4,925; land 172; utility works 164 (USD million). Stylised model, not a specific facility.",
+      "source": {
+        "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+        "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+      },
+      "low": 37883,
+      "high": 37883,
+      "year": 2026
+    },
+    {
+      "metric": "Price — annualised total cost of ownership, 1 GW AI data centre model",
+      "unit": "USD BILLION PER YEAR (RANGE REFLECTS 3- TO 7-YEAR IT LIFESPAN)",
+      "basis": "Epoch AI published 14 May 2026; USD dollar year not stated on page. 5-year IT / 14-year facility lifespans give about $8.5 billion per year ($8.5 million/MW); servers are 60% of TCO; a 3-year IT lifespan gives about $12 billion and 7 years about $7 billion",
+      "source": {
+        "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+        "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+      },
+      "low": 7,
+      "high": 12,
+      "year": 2026
+    },
+    {
+      "metric": "Price — share of respondents whose most recent major outage cost more than USD 100,000",
+      "unit": "% OF RESPONDENTS",
+      "basis": "Uptime Institute 2025 annual survey cited in Annual outage analysis 2026; cost threshold USD, dollar year not stated",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 57,
+      "high": 57,
+      "year": 2025
+    },
+    {
+      "metric": "Price — share of respondents whose most recent impactful outage cost more than USD 1 million",
+      "unit": "% OF RESPONDENTS",
+      "basis": "Uptime Institute Annual outage analysis 2026: one in five for the second consecutive year; cost threshold USD, dollar year not stated",
+      "source": {
+        "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+        "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+      },
+      "low": 20,
+      "high": 20,
+      "year": 2026
+    },
+    {
+      "metric": "Price — total installed cost, 35 kW rich-burn CHP",
+      "unit": "USD/KW",
+      "basis": "DOE fact sheet Table 4; costs compiled from multiple sources and reported in 2020 US$; equipment plus installation",
+      "source": {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+        "source_id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804"
+      },
+      "low": 4250,
+      "high": 4250,
+      "year": 2020
+    },
+    {
+      "metric": "Price — total installed cost, 4.5 MW lean-burn CHP",
+      "unit": "USD/KW",
+      "basis": "DOE fact sheet Table 4; 2020 US$; hot-water thermal recovery basis",
+      "source": {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+        "source_id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804"
+      },
+      "low": 2000,
+      "high": 2000,
+      "year": 2020
+    },
+    {
+      "metric": "Price — total installed SCR cost, 500 kW to 4.5 MW",
+      "unit": "USD/KW",
+      "basis": "DOE fact sheet Table 4; 375 USD/kW at 500 kW falling to 130 USD/kW at 4.5 MW, 2020 US$",
+      "source": {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+        "source_id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804"
+      },
+      "low": 130,
+      "high": 375,
+      "year": 2020
+    },
+    {
+      "metric": "Price — non-fuel O&M cost",
+      "unit": "USD CENTS/KWH",
+      "basis": "DOE fact sheet Table 4; 3.0 cents/kWh at 35 kW down to 1.3 cents/kWh at 4.5 MW; O&M cost basis shown in 2020 US$ table",
+      "source": {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+        "source_id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804"
+      },
+      "low": 1.3,
+      "high": 3.0,
+      "year": 2020
+    },
+    {
+      "metric": "Price — SCR installed cost at 500 kW lean-burn CHP",
+      "unit": "USD/KW",
+      "basis": "DOE Table 4; 2020 US$, additional to total installed cost",
+      "source": {
+        "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+        "source_id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804"
+      },
+      "low": 375,
+      "high": 375,
+      "year": 2020
+    },
+    {
+      "metric": "Price — Projected contribution to Pennsylvania state GDP",
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; figure reported in 20 September 2024 press release citing Brattle Group study for PA Building & Construction Trades Council",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      },
+      "low": 16000000000,
+      "high": 16000000000,
+      "year": 2024
+    },
+    {
+      "metric": "Price — Projected state and federal tax revenue",
+      "unit": "USD million (as printed)",
+      "basis": "USD, dollar year not stated; 'more than $3 billion', 20 September 2024 press release",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      },
+      "low": 3000000000,
+      "high": 3000000000,
+      "year": 2024
+    },
+    {
+      "metric": "Price — Philanthropic commitment over five years",
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; Constellation commitment announced 20 September 2024",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      },
+      "low": 1000000,
+      "high": 1000000,
+      "year": 2024
+    },
+    {
+      "metric": "Price — Construction permit fee",
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; Shelby County permit evaluation fee table dated February 2025",
+      "source": {
+        "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf",
+        "source_id": "dcp-downloads-regulations-gov-attachment-5-pdf-2450276"
+      },
+      "low": 400,
+      "high": 400,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Publication fee",
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; Shelby County permit evaluation fee table",
+      "source": {
+        "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf",
+        "source_id": "dcp-downloads-regulations-gov-attachment-5-pdf-2450276"
+      },
+      "low": 250,
+      "high": 250,
+      "year": 2025
+    },
+    {
+      "metric": "Price — NSPS regulations fee",
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; total fees USD 1,550 in permit evaluation",
+      "source": {
+        "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf",
+        "source_id": "dcp-downloads-regulations-gov-attachment-5-pdf-2450276"
+      },
+      "low": 900,
+      "high": 900,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Amazon investment in Pennsylvania data centres",
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; quoted by AWS VP in World Nuclear News article dated 12 June 2025 as 'largest private sector investment in state history'",
+      "source": {
+        "url": "https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+        "source_id": "dcp-world-nuclear-news-org-new-supply-agreement-5e95b99"
+      },
+      "low": 20000000000,
+      "high": 20000000000,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Constellation new investment",
+      "unit": "USD million (as printed)",
+      "basis": "USD, dollar year not stated; 'more than $4.3 billion of new investment' announced 6 October 2026",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+        "source_id": "dcp-constellationenergy-com-google-and-constella-6b7e5d8"
+      },
+      "low": 4300000000,
+      "high": 4300000000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Estimated annual fuel savings across installed capacity",
+      "unit": "USD million (as printed)",
+      "basis": "USD, dollar year not stated; INNIO estimate of 'over USD 300 million annually' across 2.3 GW, stated in 21 October 2025 release",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-largest-order-in-company-history-with-voltagrid-delivering-power-generation-for-one-of-the-worlds-largest-data-centers",
+        "source_id": "dcp-innio-com-innio-secures-largest-order-in-com-d8d5cee"
+      },
+      "low": 300000000,
+      "high": 300000000,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Expected ratepayer benefits from Georgia Power uprate agreement",
+      "unit": "USD million (as printed)",
+      "basis": "USD, dollar year not stated; 'approximately $900 million in ratepayer benefits' per Google's blog of 6 October 2026",
+      "source": {
+        "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+        "source_id": "dcp-blog-google-4293046"
+      },
+      "low": 900000000,
+      "high": 900000000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Brookfield financing framework for Bloom AI power projects",
+      "unit": "USD million (as printed)",
+      "basis": "dollar year not stated; announced 30 June 2026, increased from previously announced USD 5 billion since October 2025; a financing framework, not an equipment price",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+        "source_id": "dcp-bloomenergy-com-72cfae1"
+      },
+      "low": 5000000000,
+      "high": 25000000000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Brookfield AI Infrastructure Fund target",
+      "unit": "USD million (as printed)",
+      "basis": "dollar year not stated; fund launched November 2025 with a target to deploy USD 100 billion",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+        "source_id": "dcp-bloomenergy-com-72cfae1"
+      },
+      "low": 100000000000,
+      "high": 100000000000,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Brookfield capital already invested in digital infrastructure and clean power",
+      "unit": "USD million (as printed)",
+      "basis": "dollar year not stated; stated as over USD 100 billion in the 30 June 2026 release",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+        "source_id": "dcp-bloomenergy-com-72cfae1"
+      },
+      "low": 100000000000,
+      "high": 100000000000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Mankato plant expansion project cost",
+      "unit": "USD",
+      "basis": "dollar year not stated; expansion completed July 2026 at Mankato, Minnesota; capital investment, not equipment price",
+      "source": {
+        "url": "https://www.mtugenset.com/new/new-8-139.html",
+        "source_id": "dcp-mtugenset-com-new-8-139-html-5d1fd29"
+      },
+      "low": 24000000,
+      "high": 24000000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Caterpillar sales and revenues",
+      "unit": "USD",
+      "basis": "explicitly stated as 2024 sales and revenues in the 18 November 2025 press release",
+      "source": {
+        "url": "https://www.caterpillar.com/en/news/corporate-press-releases/h/vertiv-caterpillar-collaboration.html",
+        "source_id": "dcp-caterpillar-com-vertiv-caterpillar-collabora-0e0581e"
+      },
+      "low": 64800000000,
+      "high": 64800000000,
+      "year": 2024
+    },
+    {
+      "metric": "Price — Shreveport transformer plant expansion investment",
+      "unit": "USD",
+      "basis": "dollar year not stated; investment announced 10 November 2026",
+      "source": {
+        "url": "https://www.gevernova.com/news/press-releases/ge-vernova-invest-345-million-shreveport-facility-expansion-meet-growing-grid",
+        "source_id": "dcp-gevernova-com-ge-vernova-invest-345-million-38adf9b"
+      },
+      "low": 34500000,
+      "high": 34500000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — NTT Group annual R&D investment",
+      "unit": "USD million (as printed)",
+      "basis": "dollar year not stated; 'over USD 3 billion each year in R&D' as stated in the 5 November 2026 release; company R&D, not a contract price",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+        "source_id": "dcp-bloomenergy-com-660ad39"
+      },
+      "low": 3000000000,
+      "high": 3000000000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Brookfield assets under management",
+      "unit": "USD",
+      "basis": "dollar year not stated; 'more than USD 1 trillion in assets under management' in the 30 June 2026 release",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+        "source_id": "dcp-bloomenergy-com-72cfae1"
+      },
+      "low": 1000000000000,
+      "high": 1000000000000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — all-in capital cost, gas-fired reciprocating engine for BTM data centre (~2.5 MW class)",
+      "unit": "USD/KW",
+      "basis": "Analyst benchmark (RaboResearch). ~2.5MW-class natural gas recip engines for BTM island-capable installations; range includes genset plus inside-fence BOP, switchgear/paralleling controls, enclosure/acoustics, civil/EPC/commissioning and standard permitting; excludes fuel and major offsite utility upgrades. Stated as USD 1,700-2,000 per kW.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      },
+      "low": 1700,
+      "high": 2000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — recip engine EPC / installed plant cost, grade A-C median",
+      "unit": "USD/KW",
+      "basis": "Analyst white paper, 8 grade A-C data points; low = 366 MW modular plant, high = utility plant with interconnection; 36-55 MW plants reported at $3,700-4,100/kW. Figures normalised to 2026 US$ using BLS PPI for turbines/turbine generator sets (2025 to 2026 x1.034).",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 1292,
+      "high": 4149,
+      "year": 2026
+    },
+    {
+      "metric": "Price — recip engine package plus balance of plant, median",
+      "unit": "USD/KW",
+      "basis": "Analyst white paper, 2 grade A-C observations; PKG+BOP adds civil works, gas supply, on-site electrical interconnection and installation.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 1450,
+      "high": 1550,
+      "year": 2026
+    },
+    {
+      "metric": "Price — recip engine package price, owner-reported",
+      "unit": "USD/KW",
+      "basis": "Single owner figure, grade B/C, package scope (enclosure, controls, emissions equipment); lead time 18-36 months.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 1000,
+      "high": 1000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — capacity-weighted average construction cost, internal combustion engine installed 2024",
+      "unit": "USD/KW",
+      "basis": "US EIA Form EIA-860 actual installed cost, natural-gas internal combustion engines; 362 MW at new plants plus 86 MW at existing plants; excludes government grants, tax benefits and incentives. Separate all-prime-mover ICE figure is $1,490/kW.",
+      "source": {
+        "url": "https://www.eia.gov/electricity/generatorcosts",
+        "source_id": "dcp-eia-gov-generatorcosts-0fb3aff"
+      },
+      "low": 1522,
+      "high": 1522,
+      "year": 2024
+    },
+    {
+      "metric": "Price — CAPEX, internal combustion engine, UK data-centre on-site power",
+      "unit": "GBP/MW",
+      "basis": "Consultant study for Wales & West Utilities and SGN, dated 02 October 2025: 'CAPEX cost for internal combustion engines is around GBP 390,000 per MW (excluding works)'. CAPEX spread over ten years in the cost comparison; excludes enabling works.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.wwutilities.co.uk/media/avzby1ow/data-centre-energy-demand-study-v2.pdf",
+        "source_id": "dcp-r-jina-ai-data-centre-energy-demand-study-v2-a89f7dd"
+      },
+      "low": 390000,
+      "high": 390000,
+      "year": 2025
+    },
+    {
+      "metric": "Price — indicative CAPEX, reciprocating gas engine plant for data centre",
+      "unit": "USD/MW",
+      "basis": "EPC contractor planning range (USP&E, 24 July 2025), 'planning figures, not quotes'; low-NOx with SCR and oxidation catalyst; 6-18 month lead time. Not a contracted price.",
+      "source": {
+        "url": "https://uspeglobal.com/articles/gas-turbine-power-plants-for-data-centers/",
+        "source_id": "dcp-uspeglobal-com-4662884"
+      },
+      "low": 700000,
+      "high": 1200000,
+      "year": 2025
+    },
+    {
+      "metric": "Price — implied installed cost, Meta El Paso modular engine plant (analyst arithmetic)",
+      "unit": "USD/KW",
+      "basis": "Nodus Partners divides disclosed $473m by 366 MW; analyst estimate, not a contract price. The underlying regulatory filing gives a different all-in $/kW (see McCloud item).",
+      "source": {
+        "url": "https://nodus.equipment/insights/behind-the-meter-power",
+        "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97"
+      },
+      "low": 1290,
+      "high": 1290,
+      "year": 2026
+    },
+    {
+      "metric": "Price — combustion turbine, aeroderivative, base overnight cost",
+      "unit": "USD/KW (2021$)",
+      "basis": "EIA AEO2022, 105 MW, 2-year lead time, before regional cost factors, interest excluded",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf",
+        "source_id": "dcp-r-jina-ai-table-8-2-pdf-64134e7"
+      },
+      "low": 1294,
+      "high": 1294,
+      "year": 2021
+    },
+    {
+      "metric": "Price — combustion turbine, industrial frame, base overnight cost",
+      "unit": "USD/KW (2021$)",
+      "basis": "EIA AEO2022, 237 MW, 2-year lead time, before regional multipliers",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf",
+        "source_id": "dcp-r-jina-ai-table-8-2-pdf-64134e7"
+      },
+      "low": 785,
+      "high": 785,
+      "year": 2021
+    },
+    {
+      "metric": "Price — combined-cycle single shaft, base overnight cost",
+      "unit": "USD/KW (2021$)",
+      "basis": "EIA AEO2022, 418 MW, 3-year lead time",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf",
+        "source_id": "dcp-r-jina-ai-table-8-2-pdf-64134e7"
+      },
+      "low": 1201,
+      "high": 1201,
+      "year": 2021
+    },
+    {
+      "metric": "Price — combustion turbine, aeroderivative, total overnight cost",
+      "unit": "USD/KW (2022$)",
+      "basis": "EIA AEO2023, 105 MW, 2-year lead time, costs represent plants coming online in 2023",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf",
+        "source_id": "dcp-r-jina-ai-elec-cost-perf-pdf-0085a0e"
+      },
+      "low": 1428,
+      "high": 1428,
+      "year": 2022
+    },
+    {
+      "metric": "Price — combined-cycle single shaft, total overnight cost",
+      "unit": "USD/KW (2022$)",
+      "basis": "EIA AEO2023, 418 MW, 3-year lead time",
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf",
+        "source_id": "dcp-r-jina-ai-elec-cost-perf-pdf-0085a0e"
+      },
+      "low": 1330,
+      "high": 1330,
+      "year": 2022
+    },
+    {
+      "metric": "Price — aeroderivative simple-cycle plant, overnight cost",
+      "unit": "USD/KW (2023$)",
+      "basis": "EIA January 2024 Sargent & Lundy report, Case 3, 4 x ~54 MW gross aeroderivatives, 211 MW net at 60F/60% RH; owner costs and one-mile interconnection included, financing excluded",
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      },
+      "low": 1606,
+      "high": 1606,
+      "year": 2023
+    },
+    {
+      "metric": "Price — H-class simple-cycle plant, overnight cost",
+      "unit": "USD/KW (2023$)",
+      "basis": "EIA January 2024 report, Case 4, 419 MW net; same land/interconnection assumptions spread over roughly twice the output of the aero case",
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      },
+      "low": 836,
+      "high": 836,
+      "year": 2023
+    },
+    {
+      "metric": "Price — 2x2x1 combined-cycle plant, overnight cost",
+      "unit": "USD/KW (2023$)",
+      "basis": "EIA January 2024 report, Case 5, 1,227 MW net; heat rate 6,266 Btu/kWh versus 9,142 for H-class simple cycle",
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      },
+      "low": 868,
+      "high": 868,
+      "year": 2023
+    },
+    {
+      "metric": "Price — gas peaking plant, total capital cost",
+      "unit": "USD/KW",
+      "basis": "Lazard LCOE+ v17.0 (June 2024), new build, 240-50 MW net facility output; fuel price assumption $3.45/MMBtu",
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+      },
+      "low": 700,
+      "high": 1150,
+      "year": 2024
+    },
+    {
+      "metric": "Price — gas combined-cycle plant, total capital cost",
+      "unit": "USD/KW",
+      "basis": "Lazard LCOE+ v17.0 (June 2024), new build, 550 MW net",
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+      },
+      "low": 850,
+      "high": 1300,
+      "year": 2024
+    },
+    {
+      "metric": "Price — gas peaking plant, total capital cost",
+      "unit": "USD/KW",
+      "basis": "Lazard LCOE+ v18.0 (June 2025), new build, 550-175 MW net; separately states illustrative high case $2,400-2,600/kW based on recently observed CCGT market quotes",
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      },
+      "low": 1150,
+      "high": 1450,
+      "year": 2025
+    },
+    {
+      "metric": "Price — gas combined-cycle plant, total capital cost",
+      "unit": "USD/KW",
+      "basis": "Lazard LCOE+ v18.0, new build, 1,225-750 MW net; Lazard notes a 10-year high LCOE and turbine shortages",
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      },
+      "low": 1200,
+      "high": 1600,
+      "year": 2025
+    },
+    {
+      "metric": "Price — CCGT projects with 2026 and 2027 completion",
+      "unit": "USD/KW",
+      "basis": "GridLab/EFG/Halcyon white paper, regression dataset from IRP and CPCN filings; recent CCGT projects routinely $2,000/kW or more",
+      "source": {
+        "url": "https://r.jina.ai/https://gridlab.org/wp-content/uploads/2025/09/GridLab_Gas-Turbine-Costs-Report-1.pdf",
+        "source_id": "dcp-r-jina-ai-gridlab-gas-turbine-costs-report-1-a1e8f09"
+      },
+      "low": 1116,
+      "high": 1427,
+      "year": 2026
+    },
+    {
+      "metric": "Price — newest combined-cycle plant proposals",
+      "unit": "USD/KW",
+      "basis": "IEEFA analyst report: 'at least $2,500 per kilowatt installed, or $2.5 billion for a 1,000 MW unit', generally excluding financing and new pipeline costs; roughly triple early-2020s cost",
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      },
+      "low": 2500,
+      "high": 2500,
+      "year": 2026
+    },
+    {
+      "metric": "Price — new combined-cycle plant capital cost",
+      "unit": "USD PER GW",
+      "basis": "RaboResearch, citing S&P Global Market Intelligence; capital costs 'roughly USD 2.3b to USD 2.5b per GW'",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      },
+      "low": 2300000000,
+      "high": 2500000000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — installed cost, behind-the-meter gas turbine plant",
+      "unit": "USD/MW",
+      "basis": "EPC vendor (USP&E) all-in installed range depending on configuration, site conditions and equipment source; vendor planning figure",
+      "source": {
+        "url": "https://uspeglobal.com/articles/ai-data-center-power-requirements/"
+      },
+      "low": 1200000,
+      "high": 2500000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — total estimated cost of McCloud generation facilities",
+      "unit": "USD",
+      "basis": "PUC Proposal for Decision Finding of Fact 17: approximately $499.8m comprising $473m cash construction cost (including 10% contingency) plus $26.8m allowance for funds used during construction. Generation only; excludes transmission interconnection.",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      },
+      "low": 499800000,
+      "high": 499800000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — cash construction cost including 10% contingency",
+      "unit": "USD",
+      "basis": "PUC filing, generation facilities only; Meta bears all costs during a bridge period of up to five years",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      },
+      "low": 473000000,
+      "high": 473000000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — allowance for funds used during construction",
+      "unit": "USD",
+      "basis": "PUC Finding of Fact 17",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      },
+      "low": 26800000,
+      "high": 26800000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — EPE capital cost estimate including interconnection and AFUDC",
+      "unit": "USD/kW (as printed)",
+      "basis": "PUC record citing City of El Paso witness Scott Norwood; also stated as $1,609/kW. PFD does not reconcile this with the $499.8m figure.",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      },
+      "low": 551800000,
+      "high": 551800000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — capital cost per kW, McCloud",
+      "unit": "USD/KW",
+      "basis": "EPE estimate, 20-year service life; intervenors compare against generic combustion turbine",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      },
+      "low": 1609,
+      "high": 1609,
+      "year": 2026
+    },
+    {
+      "metric": "Price — generic combustion turbine capital cost, EPE 2025 IRP",
+      "unit": "USD/KW",
+      "basis": "City witness Norwood Table 3; longer 30-year life, lower fixed O&M and lower heat rate than McCloud. EPE argues IRP values are outdated.",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      },
+      "low": 1264,
+      "high": 1264,
+      "year": 2025
+    },
+    {
+      "metric": "Price — recently approved Entergy Texas gas plants, capital cost per kW",
+      "unit": "USD/KW",
+      "basis": "EPE cites Docket 56693 Order on Rehearing (9 Dec 2025) to argue McCloud compares favourably",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      },
+      "low": 1764,
+      "high": 2122,
+      "year": 2025
+    },
+    {
+      "metric": "Price — fixed operations and maintenance, McCloud",
+      "unit": "USD/KW-YEAR",
+      "basis": "Intervenor cost comparison; generic combustion turbine fixed O&M is $24/kW-year",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      },
+      "low": 59,
+      "high": 59,
+      "year": 2026
+    },
+    {
+      "metric": "Price — estimated fuel cost, McCloud",
+      "unit": "USD/MWH",
+      "basis": "PUC record; EPE existing Rio Grande Unit 9 and Montana Power Station units estimated at $26.75/MWh",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      },
+      "low": 41.75,
+      "high": 41.75,
+      "year": 2026
+    },
+    {
+      "metric": "Price — heat rate, McCloud",
+      "unit": "BTU/KWH",
+      "basis": "PUC record; generic combustion turbine heat rate 10,564 Btu/kWh",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      },
+      "low": 12000,
+      "high": 12000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — HD Hyundai engine supply for Corban data centre (derived $/kW)",
+      "unit": "USD/KW",
+      "basis": "Analyst note: $676m for 1 GW, 'likely for engine supply rather than a complete plant'. Not a complete-plant price.",
+      "source": {
+        "url": "https://nodus.equipment/insights/behind-the-meter-power",
+        "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97"
+      },
+      "low": 680,
+      "high": 680,
+      "year": 2026
+    },
+    {
+      "metric": "Price — HD Hyundai / Corban disclosed deal value",
+      "unit": "USD",
+      "basis": "Reported by Nodus Partners from company announcements; August 2026",
+      "source": {
+        "url": "https://nodus.equipment/insights/behind-the-meter-power",
+        "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97"
+      },
+      "low": 676000000,
+      "high": 676000000,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Alphabet acquisition of Intersect Power",
+      "unit": "USD",
+      "basis": "Asset transaction; announced December 2025 and closed March 2026 per RaboResearch; includes co-located data-centre and power campus in Haskell County, Texas",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      },
+      "low": 4750000000,
+      "high": 4750000000,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Amazon purchase of Talen Cumulus campus",
+      "unit": "USD",
+      "basis": "Asset transaction reported by Open Factory: 960 MW site next to the 2.5 GW Susquehanna station, 4 March 2024, with a 10-year PPA",
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal"
+      },
+      "low": 650000000,
+      "high": 650000000,
+      "year": 2024
+    },
+    {
+      "metric": "Price — equipment price, gas turbines of GE 7HA.03 simple-cycle plant",
+      "unit": "USD/KW (2025$)",
+      "basis": "Brattle and Sargent & Lundy 2025 PJM CONE report, quoted by SecondWatt; owner-furnished equipment with freight to site",
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      },
+      "low": 409,
+      "high": 409,
+      "year": 2025
+    },
+    {
+      "metric": "Price — installed cost, Rest of RTO frame turbine plant",
+      "unit": "USD/KW (NOMINAL 2028$)",
+      "basis": "2025 PJM CONE study; overnight cost $1,361/kW; installed adds 23.0% of capital carrying costs",
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      },
+      "low": 1674,
+      "high": 1674,
+      "year": 2028
+    },
+    {
+      "metric": "Price — combustion turbine cost increase since 2022 PJM CONE study",
+      "unit": "USD/KW (2025$)",
+      "basis": "SecondWatt quoting PJM study: rose from $225/kW to $409/kW, an 81% real increase; 37% real increase since August 2024 ($298/kW)",
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      },
+      "low": 225,
+      "high": 409,
+      "year": 2025
+    },
+    {
+      "metric": "Price — scope adder, equipment to package",
+      "unit": "PERCENT",
+      "basis": "HTR: recipient equipment at about $820/kW (grade D analyst) against owner package figure of $1,000/kW",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 20,
+      "high": 20,
+      "year": 2026
+    },
+    {
+      "metric": "Price — scope adder, package to package plus balance of plant",
+      "unit": "USD/KW",
+      "basis": "HTR: two owners reporting both levels on the same call; +25% to +55%",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 300,
+      "high": 550,
+      "year": 2026
+    },
+    {
+      "metric": "Price — scope adder, package plus BOP to installed plant",
+      "unit": "USD/KW",
+      "basis": "HTR: owner $1,550/kW against a 2026 utility plan at $2,460/kW, about +59%",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 900,
+      "high": 900,
+      "year": 2026
+    },
+    {
+      "metric": "Price — major owner-furnished equipment share, EIA H-class simple-cycle case",
+      "unit": "PERCENT OF OVERNIGHT COST",
+      "basis": "EIA January 2024 report Table 4-1 as decomposed by SecondWatt: $132.8m of $350.088m; range across four EIA 2024 gas cases",
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      },
+      "low": 27.4,
+      "high": 46,
+      "year": 2023
+    },
+    {
+      "metric": "Price — named escalation index used by HTR for generation cost normalisation",
+      "unit": "PERCENT (2025 TO 2026 FACTOR 1.034)",
+      "basis": "BLS producer price index for turbines and turbine generator sets, annual average; transformers use power and distribution transformer index; generators use motors and generators index. No currency conversion or generic escalation applied in this library entry.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 3.4,
+      "high": 3.4,
+      "year": 2026
+    },
+    {
+      "metric": "Price — central AC UPS content per kW of IT load",
+      "unit": "USD/KW OF IT LOAD",
+      "basis": "HTR Table 8, analyst grade D estimate being replaced by 800 V DC architecture; comparator only",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 1200,
+      "high": 1200,
+      "year": 2026
+    },
+    {
+      "metric": "Price — solid-state transformer, 800 V DC",
+      "unit": "USD/KW OF IT LOAD",
+      "basis": "HTR Table 8, analyst grade D; small units cost 5-10x a conventional transformer",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 1000,
+      "high": 1500,
+      "year": 2026
+    },
+    {
+      "metric": "Price — 800 V DC sidecar / power rack",
+      "unit": "USD/KW OF IT LOAD",
+      "basis": "HTR Table 8, analyst grade D",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 500,
+      "high": 500,
+      "year": 2026
+    },
+    {
+      "metric": "Price — rack battery backup",
+      "unit": "USD/KW OF IT LOAD",
+      "basis": "HTR Table 8, analyst grade D; replaces most central UPS content",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 200,
+      "high": 200,
+      "year": 2026
+    },
+    {
+      "metric": "Price — total data-centre electrical content across 800 V DC transition",
+      "unit": "USD/KW OF IT LOAD",
+      "basis": "HTR Table 8, analyst grade D; stated as roughly flat across the transition",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 3600,
+      "high": 4800,
+      "year": 2026
+    },
+    {
+      "metric": "Price — utility-scale battery storage power-related cost",
+      "unit": "USD/KW (2024$)",
+      "basis": "National laboratory estimate quoted by HTR; full four-hour system about $880-940/kW",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 372,
+      "high": 372,
+      "year": 2024
+    },
+    {
+      "metric": "Price — capacity-weighted average construction cost, battery storage installed 2024",
+      "unit": "USD/KW",
+      "basis": "EIA Form EIA-860 actual installed cost; 10,195 MW at new plants and 904 MW at existing plants",
+      "source": {
+        "url": "https://www.eia.gov/electricity/generatorcosts",
+        "source_id": "dcp-eia-gov-generatorcosts-0fb3aff"
+      },
+      "low": 1469,
+      "high": 1469,
+      "year": 2024
+    },
+    {
+      "metric": "Price — levelised cost of storage, utility-scale standalone 100 MW 4-hour, unsubsidised",
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOS v10.0; capital costs include storage module, balance of system, power conversion equipment and EPC; 20% debt / 80% equity",
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      },
+      "low": 95,
+      "high": 129,
+      "year": 2025
+    },
+    {
+      "metric": "Price — levelised cost of storage, C&I standalone 1 MW 2-hour, unsubsidised",
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOS v10.0, behind-the-meter storage case",
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      },
+      "low": 506,
+      "high": 860,
+      "year": 2025
+    },
+    {
+      "metric": "Price — levelised cost of storage, utility-scale standalone 100 MW 4-hour, unsubsidised",
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOS v9.0, June 2024",
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+      },
+      "low": 156,
+      "high": 222,
+      "year": 2024
+    },
+    {
+      "metric": "Price — generator step-up transformer, 38 MVA, 2026 equipment price",
+      "unit": "USD/KVA",
+      "basis": "HTR Table 7, utility board award 2025, grade A; 24-month lead time",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 51,
+      "high": 51,
+      "year": 2025
+    },
+    {
+      "metric": "Price — medium-voltage switchgear, 15 kV metal-clad lineups",
+      "unit": "USD",
+      "basis": "HTR: awards in 2024 with 13-month lead; prices up about 50% since 2021",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 540000,
+      "high": 770000,
+      "year": 2024
+    },
+    {
+      "metric": "Price — electrical equipment added per kW for 15-20 MW block",
+      "unit": "USD/KW",
+      "basis": "HTR: 25 MVA step-up transformer at about $51/kVA (about $1.3m) plus 15 kV lineup ($0.5-0.8m)",
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      },
+      "low": 90,
+      "high": 110,
+      "year": 2026
+    },
+    {
+      "metric": "Price — behind-the-meter gas generation for data centres",
+      "unit": "USD/MWH",
+      "basis": "RaboResearch estimate depending on overbuild assumptions, bridge duration and gas price; versus $90-95/MWh grid alternatives",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      },
+      "low": 100,
+      "high": 165,
+      "year": 2026
+    },
+    {
+      "metric": "Price — grid-connected alternative for data centres",
+      "unit": "USD/MWH",
+      "basis": "RaboResearch estimate",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      },
+      "low": 90,
+      "high": 95,
+      "year": 2026
+    },
+    {
+      "metric": "Price — on-site electricity cost, analyst range",
+      "unit": "USD/MWH",
+      "basis": "Nodus Partners analyst note; grid supply $90-95/MWh; a $40/MWh premium on a 25 MW facility is stated as about $8.8m/year",
+      "source": {
+        "url": "https://nodus.equipment/insights/behind-the-meter-power",
+        "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97"
+      },
+      "low": 100,
+      "high": 165,
+      "year": 2026
+    },
+    {
+      "metric": "Price — Microsoft / Constellation Crane PPA implied price",
+      "unit": "USD/MWH",
+      "basis": "Analyst estimates reported by Open Factory: Jefferies ~$112/MWh, Bloomberg Intelligence $100/MWh, Morgan Stanley and Jefferies range $98-115; underlying deal price not disclosed",
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      },
+      "low": 98,
+      "high": 115,
+      "year": 2024
+    },
+    {
+      "metric": "Price — Amazon / Talen Susquehanna PPA implied flat-equivalent price",
+      "unit": "USD/MWH",
+      "basis": "Open Factory arithmetic on disclosed ~$18bn notional over 17 years at 94.6% capacity factor; $82 high ramp, $94 low ramp; contract covers energy and capacity",
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      },
+      "low": 82,
+      "high": 94,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Meta / Constellation Clinton PPA implied price",
+      "unit": "USD/MWH",
+      "basis": "Jefferies estimate reported by Open Factory; virtual PPA for clean energy attributes, 1,121 MW, 20 years from June 2027",
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      },
+      "low": 70,
+      "high": 70,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Pennsylvania average industrial retail price, September 2025",
+      "unit": "USD/MWH",
+      "basis": "EIA-861M as compiled by Open Factory; delivered price including distribution, transmission and capacity",
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      },
+      "low": 91.2,
+      "high": 91.2,
+      "year": 2025
+    },
+    {
+      "metric": "Price — Texas average industrial retail price, September 2025",
+      "unit": "USD/MWH",
+      "basis": "EIA-861M as compiled by Open Factory",
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      },
+      "low": 67.5,
+      "high": 67.5,
+      "year": 2025
+    },
+    {
+      "metric": "Price — PJM Western Hub wholesale price, 2025",
+      "unit": "USD/MWH",
+      "basis": "EIA STEO December 2025 as compiled by Open Factory; PJM West 2024 $40.75, 2026 forecast $63.69",
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal",
+        "source_id": "dcp-open-factory-com-nuclear-ppas-price-signal-68b37c1"
+      },
+      "low": 58.51,
+      "high": 58.51,
+      "year": 2025
+    },
+    {
+      "metric": "Price — PJM capacity auction clearing price, 2027/28 delivery year",
+      "unit": "USD/MW-DAY",
+      "basis": "December 2025 auction; cap reached; auction short by 6,623 MW; two years earlier the same auction cleared at $28.92/MW-day",
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      },
+      "low": 333.44,
+      "high": 333.44,
+      "year": 2025
+    }
+  ],
+  "advantages": [
+    "Dated evidence keeps conflicting costs side by side"
+  ],
+  "limitations": [
+    "Many plant-level costs are not published with a dollar year; recorded as gaps"
+  ],
+  "sources": [
+    {
+      "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+      "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+    },
+    {
+      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+      "source_id": "dcp-iea-org-executive-summary-b2083f5"
+    },
+    {
+      "url": "https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure",
+      "source_id": "dcp-nortonrosefulbright-com-singapore-s-green-da-759c76f"
+    },
+    {
+      "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+      "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+    },
+    {
+      "url": "https://www.gevernova.com/gas-power/industries/data-centers",
+      "source_id": "dcp-gevernova-com-data-centers-3ade6f6"
+    },
+    {
+      "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+      "source_id": "dcp-kairospower-com-google-and-kairos-power-part-d536266"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN112567588B/en",
+      "source_id": "dcp-patents-google-com-en-de5d620"
+    },
+    {
+      "url": "https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study",
+      "source_id": "dcp-enelx-com-digital-realty-case-study-61ae4da"
+    },
+    {
+      "url": "https://patents.google.com/xhr/query?url=q%3Ddata%2Bcenter%2Bpower%2Bdistribution",
+      "source_id": "dcp-patents-google-com-query-8282af9"
+    },
+    {
+      "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+      "source_id": "dcp-iea-org-energy-supply-for-ai-3218796"
+    },
+    {
+      "url": "https://patents.google.com/patent/US11611219B2/en",
+      "source_id": "dcp-patents-google-com-en-30ee3e8"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb"
+    },
+    {
+      "url": "https://www.iso.org/standard/68539.html",
+      "source_id": "dcp-iso-org-68539-html-1fd731a"
+    },
+    {
+      "url": "https://www.iso.org/standard/85962.html",
+      "source_id": "dcp-iso-org-85962-html-071211c"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20250207550A1/en",
+      "source_id": "dcp-patents-google-com-en-e417c44"
+    },
+    {
+      "url": "https://www.clarke-energy.com/us/gas-engines/jenbacher-type-4-gas-engine",
+      "source_id": "dcp-clarke-energy-com-jenbacher-type-4-gas-engin-585efee"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+      "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+    },
+    {
+      "url": "https://patents.google.com/patent/WO2023227450A1/en",
+      "source_id": "dcp-patents-google-com-en-c382423"
+    },
+    {
+      "url": "https://patents.google.com/patent/CA3255249A1/en",
+      "source_id": "dcp-patents-google-com-en-1d5a567"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-31sg-gas-engine",
+      "source_id": "dcp-wartsila-com-wartsila-31sg-gas-engine-992d336"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+      "source_id": "dcp-mtu-solutions-com-rolls-royce-launches-modul-2c772be"
+    },
+    {
+      "url": "https://www.mwm.net/en/distributed-power-plants/tcg-2032-modular-power-plant-mpp/",
+      "source_id": "dcp-mwm-net-9905d1b"
+    },
+    {
+      "url": "https://www.mwm.net/en/services/new-mwm-tcg-3016-engines-and-retrofit-kits-for-hydrogen-operation/",
+      "source_id": "dcp-mwm-net-89ee643"
+    },
+    {
+      "url": "https://www.mwm.net/mwm-chp-gas-engines-gensets-cogeneration/",
+      "source_id": "dcp-mwm-net-227c105"
+    },
+    {
+      "url": "https://www.cummins.com/en-na/generators/cogeneration",
+      "source_id": "dcp-cummins-com-cogeneration-1497670"
+    },
+    {
+      "url": "https://www.cummins.com/en-na/generators/generator-set-controls",
+      "source_id": "dcp-cummins-com-generator-set-controls-bc8727d"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/energy-sources/hydrogen/",
+      "source_id": "dcp-jenbacher-com-cbc441c"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/sustainable-fuels/future-proofing-flexible-wartsila-engine-power-plants-for-decarbonised-energy-systems",
+      "source_id": "dcp-wartsila-com-future-proofing-flexible-wartsi-efaed5d"
+    },
+    {
+      "url": "https://www.yanmar.com/global/energy/news/2024/07/05/139269.html",
+      "source_id": "dcp-yanmar-com-139269-html-3e24a70"
+    },
+    {
+      "url": "https://www.yanmar.com/us/news/2022/11/16/116492.html",
+      "source_id": "dcp-yanmar-com-116492-html-f19ae4f"
+    },
+    {
+      "url": "https://engine.kubota.com/en/products/product_pdf/215_pdf_1.pdf",
+      "source_id": "dcp-engine-kubota-com-215-pdf-1-pdf-6d3c355"
+    },
+    {
+      "url": "https://engine.kubota.com/products/detail?id=99&ln=en",
+      "source_id": "dcp-engine-kubota-com-detail-cfd8b60"
+    },
+    {
+      "url": "https://www.capstoneenergyplus.com/products/",
+      "source_id": "dcp-capstoneenergyplus-com-fca57f6"
+    },
+    {
+      "url": "https://www.capstoneenergyplus.com/products/capstone-microturbines/c1000s",
+      "source_id": "dcp-capstoneenergyplus-com-c1000s-680b16a"
+    },
+    {
+      "url": "https://www.capstoneenergyplus.com/products/technology",
+      "source_id": "dcp-capstoneenergyplus-com-technology-4c6cc4c"
+    },
+    {
+      "url": "https://www.iso.org/standard/25140.html",
+      "source_id": "dcp-iso-org-25140-html-3406c0e"
+    },
+    {
+      "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+      "source_id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804"
+    },
+    {
+      "url": "https://www.iso.org/standard/85960.html",
+      "source_id": "dcp-iso-org-85960-html-d2d78a1"
+    },
+    {
+      "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+      "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/09/20/accelerating-the-addition-of-carbon-free-energy-an-update-on-progress",
+      "source_id": "dcp-microsoft-com-accelerating-the-addition-of-c-34eb659"
+    }
+  ],
+  "notes": "10-year power retrospective assembled 2026-11-25; 97 project records linked.",
+  "last_reviewed": "2026-11-25",
+  "gaps": [
+    {
+      "field": "costs",
+      "item": "dated installed $/kW and PPA prices with dollar year",
+      "reason_code": "not_in_sources_read",
+      "reason": "Most public pages do not publish dated plant-level costs.",
+      "where": [
+        {
+          "hint": "Operator releases, EPC contract announcements and regulatory rate cases",
+          "access": "open"
+        }
+      ],
+      "action": "Search dated announcements for each named project."
+    }
+  ]
+}

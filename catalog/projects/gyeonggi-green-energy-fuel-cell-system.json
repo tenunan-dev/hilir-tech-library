@@ -1,0 +1,83 @@
+{
+  "id": "gyeonggi-green-energy-fuel-cell-system",
+  "name": "Gyeonggi Green Energy fuel cell system",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "South Korea",
+  "location": "South Korea",
+  "status": "operating",
+  "description": "58.8 MW at Hwaseong Baran Industrial Complex; 42 carbonate fuel cell modules; seven-year service agreement; described as the world's largest fuel cell power system.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Siemens collaboration announced",
+      "date": "2026",
+      "source": {
+        "url": "https://www.fuelcellenergy.com/",
+        "source_id": "dcp-fuelcellenergy-com-951ddd7"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "FuelCell Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.fuelcellenergy.com/fuelcell-energy-block-system",
+      "source_id": "dcp-fuelcellenergy-com-fuelcell-energy-block-sys-85e49ba",
+      "note": "58.8 MW at Hwaseong Baran Industrial Complex; 42 carbonate fuel cell modules; se"
+    },
+    {
+      "url": "https://www.fuelcellenergy.com/fuelcell-energy-block-system",
+      "source_id": "dcp-fuelcellenergy-com-fuelcell-energy-block-sys-85e49ba"
+    },
+    {
+      "url": "https://www.fuelcellenergy.com/",
+      "source_id": "dcp-fuelcellenergy-com-951ddd7"
+    },
+    {
+      "url": "https://www.fuelcellenergy.com/fuelcell-energy-block-system",
+      "source_id": "dcp-fuelcellenergy-com-fuelcell-energy-block-sys-85e49ba",
+      "note": "7.4 MW installation in Brookhaven, New York; supports critical grid infrastructure serving six operating data centres; developed on a former landfill."
+    },
+    {
+      "url": "https://www.fuelcellenergy.com/fuelcell-energy-block-system",
+      "source_id": "dcp-fuelcellenergy-com-fuelcell-energy-block-sys-85e49ba",
+      "note": "14 MW, 10 fuel cell modules, second largest in North America; Class I Renewable Energy under 20-year agreements with Eversource and United Illuminating; Bridgeport and Derby systems support grid infra"
+    },
+    {
+      "url": "https://www.fuelcellenergy.com/fuelcell-energy-block-system",
+      "source_id": "dcp-fuelcellenergy-com-fuelcell-energy-block-sys-85e49ba",
+      "note": "15 MW; at the time North America's largest fuel cell facility; Organic Rankine Cycle turbine; 15-year PPA."
+    },
+    {
+      "url": "https://www.fuelcellenergy.com/fuelcell-energy-block-system",
+      "source_id": "dcp-fuelcellenergy-com-fuelcell-energy-block-sys-85e49ba",
+      "note": "20 MW carbonate fuel cell baseload power and useful heat for regional energy network."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Supply/contract values and dollar years",
+      "why": "No contract prices printed on pages read",
+      "next_action": "Check investor press releases"
+    },
+    {
+      "what": "Siemens collaboration details",
+      "why": "Only headline read",
+      "next_action": "Fetch the linked 2026 press release"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

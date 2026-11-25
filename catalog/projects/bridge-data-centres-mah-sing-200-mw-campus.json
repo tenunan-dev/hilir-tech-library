@@ -1,0 +1,118 @@
+{
+  "id": "bridge-data-centres-mah-sing-200-mw-campus",
+  "name": "Bridge Data Centres / Mah Sing 200 MW campus",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Malaysia",
+  "location": "Malaysia",
+  "status": "operating",
+  "description": "200 MW campus outside Kuala Lumpur under a joint venture announced October 2024.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Bridge Data Centres / PacificLight MoU signed",
+      "date": "2025",
+      "source": {
+        "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+        "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df"
+      }
+    },
+    {
+      "event": "Bridge Data Centres / Mah Sing joint venture",
+      "date": "2024",
+      "source": {
+        "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+        "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df"
+      }
+    },
+    {
+      "event": "Singapore EMA new-generation RFP invitation",
+      "date": "2024",
+      "source": {
+        "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+        "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "estimated cost of PacificLight >=600 MW hydrogen-ready plant",
+      "year": 2025,
+      "unit": "USD",
+      "basis": "PacificLight estimate reported by Data Center Dynamics, April 2025; dollar year not stated",
+      "value": 1000000000,
+      "source": {
+        "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+        "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df"
+      }
+    },
+    {
+      "metric": "Bridge Data Centres APAC expansion financing",
+      "year": 2025,
+      "unit": "USD",
+      "basis": "Financing secured from a consortium of banks, reported March 2025; dollar year not stated",
+      "value": 2800000000,
+      "source": {
+        "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+        "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "PacificLight Power",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+      "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df",
+      "note": "200 MW campus outside Kuala Lumpur under a joint venture announced October 2024."
+    },
+    {
+      "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+      "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df"
+    },
+    {
+      "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+      "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df",
+      "note": "At least 600 MW, estimated ~$1 billion, operation slated for 2029, capable of burning at least 30% hydrogen with the balance natural gas."
+    },
+    {
+      "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+      "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df",
+      "note": "16 MW building entered the market in 2021 at Kuala Lumpur's Mranti Park."
+    },
+    {
+      "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+      "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df",
+      "note": "Two facilities operating with a third in development; a data centre outside Johor launched in 2022."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Operating reliability of the PacificLight plant",
+      "why": "Plant is planned for 2029; no operating data exists",
+      "next_action": "Revisit after commissioning and read EMA or operator performance data"
+    },
+    {
+      "what": "Singapore EMA grid code requirements for data centres",
+      "why": "Only an RFP invitation was reported; no grid-code text was read",
+      "next_action": "Fetch EMA grid code and licence conditions directly"
+    },
+    {
+      "what": "Dollar years for the $1 billion and $2.8 billion figures",
+      "why": "The article gives no explicit price year",
+      "next_action": "Record as 'dollar year not stated' until confirmed by the publisher"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power reliability and standards). Evidence gathered from pages actually read: Uptime Institute's Annual Outage Analyses 2024 and 2025 (read via the r.jina.ai proxy because WebFetch cannot parse "
+}

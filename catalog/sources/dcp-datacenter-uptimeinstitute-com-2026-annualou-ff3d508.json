@@ -1,0 +1,25 @@
+{
+  "id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508",
+  "name": "Uptime Institute — Annual outage analysis 2026",
+  "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC"
+  ],
+  "disciplines": [
+    "ELE",
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Uptime Institute",
+  "access": "open",
+  "licence": "copyright Uptime Institute 2026",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Direct WebFetch returned 'Unsupported fetched file content type: application/pdf'; fetched and read via reader proxy https://r.jina.ai/ on 2026-11-25. Keynote Report 201, May 2026."
+}

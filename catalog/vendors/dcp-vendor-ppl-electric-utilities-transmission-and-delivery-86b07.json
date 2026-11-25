@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-ppl-electric-utilities-transmission-and-delivery-86b07",
+  "name": "PPL Electric Utilities (transmission and delivery)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "PPL Electric Utilities (transmission and delivery) named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+      "source_id": "dcp-world-nuclear-news-org-new-supply-agreement-5e95b99"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

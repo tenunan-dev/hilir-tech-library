@@ -1,0 +1,71 @@
+{
+  "id": "intel-santa-clara-hpc-data-centre-expansion",
+  "name": "Intel Santa Clara HPC data centre expansion",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Grid-parallel or fully islanded Grid Independent configurations; 700+ petabytes storage and 800,000+ network ports",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Existing Bloom installation",
+      "date": "2014",
+      "source": {
+        "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2024/Bloom-Energy-Announces-Largest-Silicon-Valley-Data-Center-Power-Capacity-Agreement/default.aspx",
+        "source_id": "dcp-investor-bloomenergy-com-default-aspx-3f3e7fc"
+      }
+    },
+    {
+      "event": "Power capacity agreement announced",
+      "date": "2024",
+      "source": {
+        "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2024/Bloom-Energy-Announces-Largest-Silicon-Valley-Data-Center-Power-Capacity-Agreement/default.aspx",
+        "source_id": "dcp-investor-bloomenergy-com-default-aspx-3f3e7fc"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Bloom Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Intel Corporation",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2024/Bloom-Energy-Announces-Largest-Silicon-Valley-Data-Center-Power-Capacity-Agreement/default.aspx",
+      "source_id": "dcp-investor-bloomenergy-com-default-aspx-3f3e7fc",
+      "note": "Grid-parallel or fully islanded Grid Independent configurations; 700+ petabytes "
+    },
+    {
+      "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2024/Bloom-Energy-Announces-Largest-Silicon-Valley-Data-Center-Power-Capacity-Agreement/default.aspx",
+      "source_id": "dcp-investor-bloomenergy-com-default-aspx-3f3e7fc"
+    },
+    {
+      "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2024/Bloom-Energy-Announces-Largest-Silicon-Valley-Data-Center-Power-Capacity-Agreement/default.aspx",
+      "source_id": "dcp-investor-bloomenergy-com-default-aspx-3f3e7fc",
+      "note": "Grid-parallel or fully islanded Grid Independent configurations; 700+ petabytes storage and 800,000+ network ports"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Additional MW",
+      "why": "Release literally says 'additional megawatts (MW)' without a number",
+      "next_action": "Leave as gap; do not estimate"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

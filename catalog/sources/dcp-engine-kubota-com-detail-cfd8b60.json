@@ -1,0 +1,24 @@
+{
+  "id": "dcp-engine-kubota-com-detail-cfd8b60",
+  "name": "Kubota WG1605-GL-E3 product page",
+  "url": "https://engine.kubota.com/products/detail?id=99&ln=en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "apac",
+    "global"
+  ],
+  "publisher_org": "Kubota Engine Division",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch on 2026-11-25."
+}

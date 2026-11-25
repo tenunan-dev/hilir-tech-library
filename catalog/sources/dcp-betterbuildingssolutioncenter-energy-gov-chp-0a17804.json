@@ -1,0 +1,24 @@
+{
+  "id": "dcp-betterbuildingssolutioncenter-energy-gov-chp-0a17804",
+  "name": "DOE CHP Technologies: Reciprocating Engines fact sheet (DOE/EE-2764)",
+  "url": "https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf",
+  "source_type": "agency-data",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "regions": [
+    "na"
+  ],
+  "publisher_org": "US Department of Energy / Better Buildings Solution Center",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Direct WebFetch does not accept application/pdf; PDF read via https://r.jina.ai/<url> on 2026-11-25 (5 pages). EPA-hosted equivalent returned 403 via jina."
+}

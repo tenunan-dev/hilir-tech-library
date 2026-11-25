@@ -1,0 +1,26 @@
+{
+  "id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293",
+  "name": "Synapse Data Center Power Generating Facilities Decommissioning and Reclamation Plan",
+  "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Independent cost estimator for Planus Corp",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via r.jina.ai, 21 pages, revision 00 dated 20 March 2026; prepared to AUC Rule 007 requirements."
+}

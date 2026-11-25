@@ -1,0 +1,179 @@
+{
+  "id": "mccloud-generation-facility-el-paso-electric-wurldwide-met",
+  "name": "McCloud generation facility (El Paso Electric / Wurldwide-Meta)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "US",
+  "location": "US",
+  "status": "operating",
+  "description": "366 MW net peak from 813 modular 450 kW gas generators on 31 acres adjacent to the Meta data centre in northeast El Paso County; 225 MW continuous at ~95% load factor during bridge period; EPE owns, Enchanted Rock engineers/procures/constructs/operates/maintains; no RFP or cost-benefit analysis was conducted.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Application filed to amend certificate of convenience and necessity for 366 MW McCloud facility",
+      "date": "2025",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    },
+    {
+      "event": "Proposal for Decision issued",
+      "date": "2026",
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "total estimated cost of McCloud generation facilities",
+      "year": 2026,
+      "unit": "USD",
+      "basis": "PUC Proposal for Decision Finding of Fact 17: approximately $499.8m comprising $473m cash construction cost (including 10% contingency) plus $26.8m allowance for funds used during construction. Generation only; excludes transmission interconnection.",
+      "value": 499800000,
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    },
+    {
+      "metric": "cash construction cost including 10% contingency",
+      "year": 2026,
+      "unit": "USD",
+      "basis": "PUC filing, generation facilities only; Meta bears all costs during a bridge period of up to five years",
+      "value": 473000000,
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    },
+    {
+      "metric": "allowance for funds used during construction",
+      "year": 2026,
+      "unit": "USD",
+      "basis": "PUC Finding of Fact 17",
+      "value": 26800000,
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    },
+    {
+      "metric": "EPE capital cost estimate including interconnection and AFUDC",
+      "year": 2026,
+      "unit": "USD/kW (as printed)",
+      "basis": "PUC record citing City of El Paso witness Scott Norwood; also stated as $1,609/kW. PFD does not reconcile this with the $499.8m figure.",
+      "value": 551800000,
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    },
+    {
+      "metric": "capital cost per kW, McCloud",
+      "year": 2026,
+      "unit": "USD/KW",
+      "basis": "EPE estimate, 20-year service life; intervenors compare against generic combustion turbine",
+      "value": 1609,
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    },
+    {
+      "metric": "generic combustion turbine capital cost, EPE 2025 IRP",
+      "year": 2025,
+      "unit": "USD/KW",
+      "basis": "City witness Norwood Table 3; longer 30-year life, lower fixed O&M and lower heat rate than McCloud. EPE argues IRP values are outdated.",
+      "value": 1264,
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    },
+    {
+      "metric": "recently approved Entergy Texas gas plants, capital cost per kW",
+      "year": 2025,
+      "unit": "USD/KW",
+      "basis": "EPE cites Docket 56693 Order on Rehearing (9 Dec 2025) to argue McCloud compares favourably",
+      "low": 1764,
+      "high": 2122,
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    },
+    {
+      "metric": "fixed operations and maintenance, McCloud",
+      "year": 2026,
+      "unit": "USD/KW-YEAR",
+      "basis": "Intervenor cost comparison; generic combustion turbine fixed O&M is $24/kW-year",
+      "value": 59,
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    },
+    {
+      "metric": "estimated fuel cost, McCloud",
+      "year": 2026,
+      "unit": "USD/MWH",
+      "basis": "PUC record; EPE existing Rio Grande Unit 9 and Montana Power Station units estimated at $26.75/MWh",
+      "value": 41.75,
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    },
+    {
+      "metric": "heat rate, McCloud",
+      "year": 2026,
+      "unit": "BTU/KWH",
+      "basis": "PUC record; generic combustion turbine heat rate 10,564 Btu/kWh",
+      "value": 12000,
+      "source": {
+        "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+        "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+      "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd",
+      "note": "366 MW net peak from 813 modular 450 kW gas generators on 31 acres adjacent to t"
+    },
+    {
+      "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+      "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd"
+    },
+    {
+      "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+      "source_id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd",
+      "note": "366 MW net peak from 813 modular 450 kW gas generators on 31 acres adjacent to the Meta data centre in northeast El Paso County; 225 MW continuous at ~95% load factor during bridge period; EPE owns, E"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Enchanted Rock EPC contract value",
+      "why": "Not disclosed in the sources read",
+      "next_action": "Check EPE rate case exhibits or contract filings in Docket 59076"
+    },
+    {
+      "what": "Reconciliation of $499.8m versus $551.8m",
+      "why": "PFD explicitly states the record does not reconcile the two estimates",
+      "next_action": "Read City of El Paso witness Norwood direct testimony (CEP Ex. 1)"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

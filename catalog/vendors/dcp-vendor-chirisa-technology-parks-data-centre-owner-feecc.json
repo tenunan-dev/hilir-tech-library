@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-chirisa-technology-parks-data-centre-owner-feecc",
+  "name": "Chirisa Technology Parks (data centre owner)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Chirisa Technology Parks (data centre owner) named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-and-coreweave-partner-to-revolutionize-ai-data-center-power-solutions/",
+      "source_id": "dcp-bloomenergy-com-ba0d3d3"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

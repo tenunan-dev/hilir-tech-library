@@ -1,0 +1,91 @@
+{
+  "id": "northc-data-centre-eindhoven",
+  "name": "NorthC data centre, Eindhoven",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "NL",
+  "location": "NL",
+  "status": "operating",
+  "description": "6 MWe from 6 x J420 dual-gas engines, with hydrogen plan",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "NorthC dual-gas data-centre CHP commissioned",
+      "date": "2024",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/",
+        "source_id": "dcp-jenbacher-com-46cdbfb"
+      }
+    },
+    {
+      "event": "Rolls-Royce modular plants launched for renewable gap filling and data centres",
+      "date": "2026",
+      "source": {
+        "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+        "source_id": "dcp-mtu-solutions-com-rolls-royce-launches-modul-2c772be"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Wartsila",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "INNIO Jenbacher",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Rolls-Royce Power Systems",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Cummins",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Capstone Energy+",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb",
+      "note": "6 MWe from 6 x J420 dual-gas engines, with hydrogen plan"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/sustainable-fuels/future-proofing-flexible-wartsila-engine-power-plants-for-decarbonised-energy-systems",
+      "source_id": "dcp-wartsila-com-future-proofing-flexible-wartsi-efaed5d"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+      "source_id": "dcp-mtu-solutions-com-rolls-royce-launches-modul-2c772be"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Measured ramp rate of the NorthC installation",
+      "why": "Case study gives capacity and fuel, not measured response to data-centre load steps",
+      "next_action": "Seek operator telemetry or a commissioning report"
+    },
+    {
+      "what": "Black-start and island-mode demonstration for these 2024-2026 plants",
+      "why": "Not stated on the pages read for the specific projects",
+      "next_action": "Find a project-specific control phasing document"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Gas engine technology). Evidence-first retrospective assembled only from pages actually read with WebFetch or via r.jina.ai (noted per source). New dated material includes: Jenbacher T"
+}

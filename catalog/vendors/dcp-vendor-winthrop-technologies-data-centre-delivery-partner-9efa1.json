@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-winthrop-technologies-data-centre-delivery-partner-9efa1",
+  "name": "Winthrop Technologies (data centre delivery partner / EPC)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Winthrop Technologies (data centre delivery partner / EPC) named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innios-jenbacher-engines-to-power-60-mw-hyperscale-data-center-power-plant-in-ireland-2",
+      "source_id": "dcp-innio-com-innios-jenbacher-engines-to-power-8874bf9"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

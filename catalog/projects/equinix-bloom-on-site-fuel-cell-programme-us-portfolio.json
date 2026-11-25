@@ -1,0 +1,71 @@
+{
+  "id": "equinix-bloom-on-site-fuel-cell-programme-us-portfolio",
+  "name": "Equinix–Bloom on-site fuel cell programme (US portfolio)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Grid-supplementing generation at IBX facilities; avoids new transmission and substation build",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Pilot programme began",
+      "date": "2015",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/bloom-energy-expands-data-center-power-agreement-with-equinix-surpassing-100mw",
+        "source_id": "dcp-bloomenergy-com-bloom-energy-expands-data-ce-cda9e7c"
+      }
+    },
+    {
+      "event": "Expansion beyond 100 MW announced",
+      "date": "2025",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/bloom-energy-expands-data-center-power-agreement-with-equinix-surpassing-100mw",
+        "source_id": "dcp-bloomenergy-com-bloom-energy-expands-data-ce-cda9e7c"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Bloom Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Equinix",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-expands-data-center-power-agreement-with-equinix-surpassing-100mw",
+      "source_id": "dcp-bloomenergy-com-bloom-energy-expands-data-ce-cda9e7c",
+      "note": "Grid-supplementing generation at IBX facilities; avoids new transmission and sub"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-expands-data-center-power-agreement-with-equinix-surpassing-100mw",
+      "source_id": "dcp-bloomenergy-com-bloom-energy-expands-data-ce-cda9e7c"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-expands-data-center-power-agreement-with-equinix-surpassing-100mw",
+      "source_id": "dcp-bloomenergy-com-bloom-energy-expands-data-ce-cda9e7c",
+      "note": "Grid-supplementing generation at IBX facilities; avoids new transmission and substation build"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Per-site capacities and dollar value",
+      "why": "Release gives only portfolio totals",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

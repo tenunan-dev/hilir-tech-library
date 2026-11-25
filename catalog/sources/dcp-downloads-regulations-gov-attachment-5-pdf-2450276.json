@@ -1,0 +1,25 @@
+{
+  "id": "dcp-downloads-regulations-gov-attachment-5-pdf-2450276",
+  "name": "Colossus Data Center construction permit evaluation and review, Permit 01156-01PC",
+  "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Shelby County Health Department, Air Pollution Control Section",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. WebFetch returned unsupported PDF content type; read in full via https://r.jina.ai/https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf. Internal 247.2 vs 300 MW inconsistency preserved."
+}

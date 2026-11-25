@@ -1,0 +1,26 @@
+{
+  "id": "dcp-drawing-figure-1-satellite-imagery-of-diesel-generators-an",
+  "title": "Figure 1. Satellite imagery of diesel generators and data center site layout",
+  "diagram_type": "schematic",
+  "description": "Left: Amazon Manassas, VA site with 93 Caterpillar 3516C-HD generators highlighted; right: detail of seven enclosed generator units. Source credited to Google Earth, 8/19/2023.",
+  "publisher": "Better Data Center Project",
+  "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "na",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+      "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964",
+      "note": "Left: Amazon Manassas, VA site with 93 Caterpillar 3516C-HD generators highlighted; right: detail of seven enclosed generator units. Source credited to Google Earth, 8/19/2023."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the 10-year data-centre power retrospective."
+}

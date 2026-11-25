@@ -1,0 +1,102 @@
+{
+  "id": "northc-data-centre",
+  "name": "NorthC data centre",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "NL",
+  "location": "NL",
+  "status": "operating",
+  "description": "6 x J420, 6 MWe, dual-gas natural gas/hydrogen; evidence of load-following and lower-carbon data-centre supply",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Launch of Ready for H2 portfolio including 100% hydrogen Type 4",
+      "date": "2021",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+        "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+      }
+    },
+    {
+      "event": "NorthC data centre dual-gas plant commissioned",
+      "date": "2024",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/",
+        "source_id": "dcp-jenbacher-com-46cdbfb"
+      }
+    },
+    {
+      "event": "Biogas CHP commissioned at Holzheim",
+      "date": "2025",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/",
+        "source_id": "dcp-jenbacher-com-46cdbfb"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "INNIO Jenbacher",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Clarke Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb",
+      "note": "6 x J420, 6 MWe, dual-gas natural gas/hydrogen; evidence of load-following and l"
+    },
+    {
+      "url": "https://www.clarke-energy.com/us/gas-engines/jenbacher-type-4-gas-engine",
+      "source_id": "dcp-clarke-energy-com-jenbacher-type-4-gas-engin-585efee"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+      "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+    },
+    {
+      "url": "https://www.iso.org/standard/68539.html",
+      "source_id": "dcp-iso-org-68539-html-1fd731a"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb",
+      "note": "6 x J420, 6 MWe, dual-gas natural gas/hydrogen; evidence of load-following and lower-carbon data-centre supply"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb",
+      "note": "2 x J420, 4.48 MWe / 4.52 MWth, biogas"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb",
+      "note": "8 x J420, 12 MW electrical, associated petroleum/flare gas; vendor describes unblocking computing by monetising flare gas"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Type 4 bore and stroke",
+      "why": "Not on the distributor product page read",
+      "next_action": "Read an OEM Type 4 fact sheet with geometry"
+    },
+    {
+      "what": "Measured availability of the 2024 NorthC installation",
+      "why": "Case-study card states capacity and fuel but no reliability metric",
+      "next_action": "Seek operator or service report"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Gas engine technology). Evidence-first retrospective assembled only from pages actually read with WebFetch or via r.jina.ai (noted per source). New dated material includes: Jenbacher T"
+}

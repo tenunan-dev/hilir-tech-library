@@ -1,0 +1,92 @@
+{
+  "id": "microsoft-plug-3-mw-hydrogen-backup-generator-demonstratio",
+  "name": "Microsoft–Plug 3 MW hydrogen backup generator demonstration",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Used low-carbon 'blue' hydrogen by-product from chlor-alkali production; Microsoft plans green hydrogen only in production datacentres",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "65 kW PEM rack test with NREL",
+      "date": "2018",
+      "source": {
+        "url": "https://news.microsoft.com/source/features/sustainability/hydrogen-fuel-cells-could-provide-emission-free-backup-power-at-datacenters-microsoft-says",
+        "source_id": "dcp-news-microsoft-com-hydrogen-fuel-cells-could-7c72a92"
+      }
+    },
+    {
+      "event": "250 kW 48-hour row test",
+      "date": "2020",
+      "source": {
+        "url": "https://news.microsoft.com/source/features/sustainability/hydrogen-fuel-cells-could-provide-emission-free-backup-power-at-datacenters-microsoft-says",
+        "source_id": "dcp-news-microsoft-com-hydrogen-fuel-cells-could-7c72a92"
+      }
+    },
+    {
+      "event": "3 MW prototype demonstrated",
+      "date": "2022",
+      "source": {
+        "url": "https://news.microsoft.com/source/features/sustainability/hydrogen-fuel-cells-could-provide-emission-free-backup-power-at-datacenters-microsoft-says",
+        "source_id": "dcp-news-microsoft-com-hydrogen-fuel-cells-could-7c72a92"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Microsoft (developer/customer)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Plug Power (fuel cell manufacturer)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Power Innovations (earlier 250 kW system)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "NREL (earlier 65 kW collaboration)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://news.microsoft.com/source/features/sustainability/hydrogen-fuel-cells-could-provide-emission-free-backup-power-at-datacenters-microsoft-says",
+      "source_id": "dcp-news-microsoft-com-hydrogen-fuel-cells-could-7c72a92",
+      "note": "Used low-carbon 'blue' hydrogen by-product from chlor-alkali production; Microso"
+    },
+    {
+      "url": "https://news.microsoft.com/source/features/sustainability/hydrogen-fuel-cells-could-provide-emission-free-backup-power-at-datacenters-microsoft-says",
+      "source_id": "dcp-news-microsoft-com-hydrogen-fuel-cells-could-7c72a92"
+    },
+    {
+      "url": "https://news.microsoft.com/source/features/sustainability/hydrogen-fuel-cells-could-provide-emission-free-backup-power-at-datacenters-microsoft-says",
+      "source_id": "dcp-news-microsoft-com-hydrogen-fuel-cells-could-7c72a92",
+      "note": "Used low-carbon 'blue' hydrogen by-product from chlor-alkali production; Microsoft plans green hydrogen only in production datacentres"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Commercial deployment date and site",
+      "why": "Microsoft stated no date for first live datacentre deployment",
+      "next_action": "Leave as gap"
+    },
+    {
+      "what": "System cost",
+      "why": "Not disclosed",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

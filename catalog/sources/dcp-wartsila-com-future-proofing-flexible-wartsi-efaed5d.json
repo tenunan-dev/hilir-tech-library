@@ -1,0 +1,26 @@
+{
+  "id": "dcp-wartsila-com-future-proofing-flexible-wartsi-efaed5d",
+  "name": "Wartsila future-proofing engine power plants",
+  "url": "https://www.wartsila.com/energy/sustainable-fuels/future-proofing-flexible-wartsila-engine-power-plants-for-decarbonised-energy-systems",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "publisher_org": "Wartsila",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch on 2026-11-25."
+}

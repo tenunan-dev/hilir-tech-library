@@ -1,0 +1,24 @@
+{
+  "id": "dcp-mat-selective-catalytic-reduction-scr-catalyst",
+  "name": "Selective catalytic reduction (SCR) catalyst",
+  "material_category": "catalyst",
+  "description": "Selective catalytic reduction (SCR) catalyst named on a page read in the 10-year power retrospective.",
+  "specifications": [
+    {
+      "metric": "NOx conversion",
+      "unit": "PERCENT",
+      "basis": "Uses a catalyst and reductant such as urea to convert NOx to N2, H2O and CO2; inactive during startup and shutdown",
+      "source": {
+        "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+        "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+      "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

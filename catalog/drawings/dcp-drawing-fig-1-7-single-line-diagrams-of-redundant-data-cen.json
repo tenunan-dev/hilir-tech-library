@@ -1,0 +1,26 @@
+{
+  "id": "dcp-drawing-fig-1-7-single-line-diagrams-of-redundant-data-cen",
+  "title": "FIG. 1-7 single-line diagrams of redundant data-centre power distribution",
+  "diagram_type": "schematic",
+  "description": "Seven single-line diagrams covering redundant supply to electrical panels, lighting/building functions, relation to the electric power grid, electrical panels and UPS sub-systems in two embodiments.",
+  "publisher": "Google Patents / Bigz Tech Inc",
+  "url": "https://patents.google.com/patent/US10666087B2/en",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "na",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US10666087B2/en",
+      "source_id": "dcp-patents-google-com-en-61c3979",
+      "note": "Seven single-line diagrams covering redundant supply to electrical panels, lighting/building functions, relation to the electric power grid, electrical panels and UPS sub-systems in two embodiments."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the 10-year data-centre power retrospective."
+}

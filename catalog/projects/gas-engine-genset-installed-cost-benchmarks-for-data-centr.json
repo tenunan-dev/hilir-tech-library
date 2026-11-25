@@ -1,0 +1,161 @@
+{
+  "id": "gas-engine-genset-installed-cost-benchmarks-for-data-centr",
+  "name": "Gas-engine / genset installed cost benchmarks for data-centre behind-the-meter power (conflicting figures kept side by side)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Dated installed/package cost evidence for reciprocating gas-engine plants. Figures are deliberately NOT reconciled: scope (equipment, package, package+BOP, EPC installed) and dollar year differ by source. Rabobank and Nodus are analyst estimates; EIA is a government statistical aggregate; HTR is an analyst white paper; WWU/SGN is a consultant study; USP&E is an EPC/vendor planning range.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "all-in capital cost, gas-fired reciprocating engine for BTM data centre (~2.5 MW class)",
+      "year": 2026,
+      "unit": "USD/KW",
+      "basis": "Analyst benchmark (RaboResearch). ~2.5MW-class natural gas recip engines for BTM island-capable installations; range includes genset plus inside-fence BOP, switchgear/paralleling controls, enclosure/acoustics, civil/EPC/commissioning and standard permitting; excludes fuel and major offsite utility upgrades. Stated as USD 1,700-2,000 per kW.",
+      "low": 1700,
+      "high": 2000,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      }
+    },
+    {
+      "metric": "recip engine EPC / installed plant cost, grade A-C median",
+      "year": 2026,
+      "unit": "USD/KW",
+      "basis": "Analyst white paper, 8 grade A-C data points; low = 366 MW modular plant, high = utility plant with interconnection; 36-55 MW plants reported at $3,700-4,100/kW. Figures normalised to 2026 US$ using BLS PPI for turbines/turbine generator sets (2025 to 2026 x1.034).",
+      "value": 2692,
+      "low": 1292,
+      "high": 4149,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "recip engine package plus balance of plant, median",
+      "year": 2026,
+      "unit": "USD/KW",
+      "basis": "Analyst white paper, 2 grade A-C observations; PKG+BOP adds civil works, gas supply, on-site electrical interconnection and installation.",
+      "value": 1500,
+      "low": 1450,
+      "high": 1550,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "recip engine package price, owner-reported",
+      "year": 2026,
+      "unit": "USD/KW",
+      "basis": "Single owner figure, grade B/C, package scope (enclosure, controls, emissions equipment); lead time 18-36 months.",
+      "value": 1000,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "capacity-weighted average construction cost, internal combustion engine installed 2024",
+      "year": 2024,
+      "unit": "USD/KW",
+      "basis": "US EIA Form EIA-860 actual installed cost, natural-gas internal combustion engines; 362 MW at new plants plus 86 MW at existing plants; excludes government grants, tax benefits and incentives. Separate all-prime-mover ICE figure is $1,490/kW.",
+      "value": 1522,
+      "source": {
+        "url": "https://www.eia.gov/electricity/generatorcosts",
+        "source_id": "dcp-eia-gov-generatorcosts-0fb3aff"
+      }
+    },
+    {
+      "metric": "CAPEX, internal combustion engine, UK data-centre on-site power",
+      "year": 2025,
+      "unit": "GBP/MW",
+      "basis": "Consultant study for Wales & West Utilities and SGN, dated 02 October 2025: 'CAPEX cost for internal combustion engines is around GBP 390,000 per MW (excluding works)'. CAPEX spread over ten years in the cost comparison; excludes enabling works.",
+      "low": 390000,
+      "high": 390000,
+      "source": {
+        "url": "https://r.jina.ai/https://www.wwutilities.co.uk/media/avzby1ow/data-centre-energy-demand-study-v2.pdf",
+        "source_id": "dcp-r-jina-ai-data-centre-energy-demand-study-v2-a89f7dd"
+      }
+    },
+    {
+      "metric": "indicative CAPEX, reciprocating gas engine plant for data centre",
+      "year": 2025,
+      "unit": "USD/MW",
+      "basis": "EPC contractor planning range (USP&E, 24 July 2025), 'planning figures, not quotes'; low-NOx with SCR and oxidation catalyst; 6-18 month lead time. Not a contracted price.",
+      "low": 700000,
+      "high": 1200000,
+      "source": {
+        "url": "https://uspeglobal.com/articles/gas-turbine-power-plants-for-data-centers/",
+        "source_id": "dcp-uspeglobal-com-4662884"
+      }
+    },
+    {
+      "metric": "implied installed cost, Meta El Paso modular engine plant (analyst arithmetic)",
+      "year": 2026,
+      "unit": "USD/KW",
+      "basis": "Nodus Partners divides disclosed $473m by 366 MW; analyst estimate, not a contract price. The underlying regulatory filing gives a different all-in $/kW (see McCloud item).",
+      "value": 1290,
+      "source": {
+        "url": "https://nodus.equipment/insights/behind-the-meter-power",
+        "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+      "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433",
+      "note": "Dated installed/package cost evidence for reciprocating gas-engine plants. Figur"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+      "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+      "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+    },
+    {
+      "url": "https://www.eia.gov/electricity/generatorcosts",
+      "source_id": "dcp-eia-gov-generatorcosts-0fb3aff"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.wwutilities.co.uk/media/avzby1ow/data-centre-energy-demand-study-v2.pdf",
+      "source_id": "dcp-r-jina-ai-data-centre-energy-demand-study-v2-a89f7dd"
+    },
+    {
+      "url": "https://uspeglobal.com/articles/gas-turbine-power-plants-for-data-centers/",
+      "source_id": "dcp-uspeglobal-com-4662884"
+    },
+    {
+      "url": "https://nodus.equipment/insights/behind-the-meter-power",
+      "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Most OEM data-centre engine order values",
+      "why": "Wartsila, INNIO, Caterpillar and Cummins releases disclose MW and engine counts but not contract value",
+      "next_action": "Look for listed-company order-book disclosures or SEC/quarterly filings that state monetary value"
+    },
+    {
+      "what": "Single consistent $/kW definition across all engine benchmarks",
+      "why": "Sources mix equipment, package, PKG+BOP and EPC installed scope and different dollar years",
+      "next_action": "Normalise scope explicitly before comparing; do not silently convert or escalate"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

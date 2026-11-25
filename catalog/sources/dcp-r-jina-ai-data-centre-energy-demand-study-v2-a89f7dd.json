@@ -1,0 +1,27 @@
+{
+  "id": "dcp-r-jina-ai-data-centre-energy-demand-study-v2-a89f7dd",
+  "name": "Data Centre Energy Demand Study Report",
+  "url": "https://r.jina.ai/https://www.wwutilities.co.uk/media/avzby1ow/data-centre-energy-demand-study-v2.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "GAS",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Apollo Engineering Consultants and Stantec for Wales & West Utilities and SGN",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via r.jina.ai, 63 pages, dated 02 October 2025. GBP figures preserved as printed; no conversion applied."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dcp-mat-lithium-iron-phosphate-lfp-li-ion",
+  "name": "Lithium iron phosphate (LFP) Li-ion",
+  "material_category": "battery-chemistry",
+  "description": "Lithium iron phosphate (LFP) Li-ion named on a page read in the 10-year power retrospective.",
+  "specifications": [
+    {
+      "metric": "safety characteristic",
+      "unit": "QUALITATIVE",
+      "basis": "Uptime journals identify LFP as comparatively lower fire risk, though thermal runaway remains possible",
+      "source": {
+        "url": "https://journal.uptimeinstitute.com/major-data-center-fire-highlights-criticality-of-it-services",
+        "source_id": "dcp-journal-uptimeinstitute-com-major-data-cente-92df940"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://journal.uptimeinstitute.com/major-data-center-fire-highlights-criticality-of-it-services",
+      "source_id": "dcp-journal-uptimeinstitute-com-major-data-cente-92df940"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

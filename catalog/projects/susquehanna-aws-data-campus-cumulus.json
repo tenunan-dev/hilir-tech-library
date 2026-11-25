@@ -1,0 +1,113 @@
+{
+  "id": "susquehanna-aws-data-campus-cumulus",
+  "name": "Susquehanna–AWS data campus (Cumulus)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Salem Township, Pennsylvania; two-unit BWR; SMR and uprate exploration included in agreement; 1,250 jobs cited by AWS",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "FERC rejected amended interconnection service agreement",
+      "date": "2024",
+      "source": {
+        "url": "https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+        "source_id": "dcp-world-nuclear-news-org-new-supply-agreement-5e95b99"
+      }
+    },
+    {
+      "event": "Revised PPA announced",
+      "date": "2025",
+      "source": {
+        "url": "https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+        "source_id": "dcp-world-nuclear-news-org-new-supply-agreement-5e95b99"
+      }
+    },
+    {
+      "event": "Transition to front-of-the-meter",
+      "date": "2026",
+      "source": {
+        "url": "https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+        "source_id": "dcp-world-nuclear-news-org-new-supply-agreement-5e95b99"
+      }
+    },
+    {
+      "event": "PPA expiry",
+      "date": "2042",
+      "source": {
+        "url": "https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+        "source_id": "dcp-world-nuclear-news-org-new-supply-agreement-5e95b99"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Amazon investment in Pennsylvania data centres",
+      "year": 2025,
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; quoted by AWS VP in World Nuclear News article dated 12 June 2025 as 'largest private sector investment in state history'",
+      "value": 20000000000,
+      "source": {
+        "url": "https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+        "source_id": "dcp-world-nuclear-news-org-new-supply-agreement-5e95b99"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Talen Energy (IPP / retail supplier)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Amazon Web Services (offtaker)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "PPL Electric Utilities (transmission and delivery)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+      "source_id": "dcp-world-nuclear-news-org-new-supply-agreement-5e95b99",
+      "note": "Salem Township, Pennsylvania; two-unit BWR; SMR and uprate exploration included "
+    },
+    {
+      "url": "https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+      "source_id": "dcp-world-nuclear-news-org-new-supply-agreement-5e95b99"
+    },
+    {
+      "url": "https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership",
+      "source_id": "dcp-world-nuclear-news-org-new-supply-agreement-5e95b99",
+      "note": "Salem Township, Pennsylvania; two-unit BWR; SMR and uprate exploration included in agreement; 1,250 jobs cited by AWS"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Notional PPA revenue",
+      "why": "A ~USD 18 billion notional revenue figure over 17 years appeared in a Talen investor presentation seen in search results but that page was not read with WebFetch",
+      "next_action": "Fetch presentation via r.jina.ai and record with dollar year"
+    },
+    {
+      "what": "PPA strike price",
+      "why": "Not disclosed in read source",
+      "next_action": "Leave as gap"
+    },
+    {
+      "what": "SMR technology and site selection",
+      "why": "Agreement only says 'explore' SMRs within Talen's Pennsylvania footprint",
+      "next_action": "Track later announcements"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

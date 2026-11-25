@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-clarke-energy-fd089",
+  "name": "Clarke Energy",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Clarke Energy named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dcp-mat-nickel-zinc",
+  "name": "Nickel-zinc",
+  "material_category": "battery-chemistry",
+  "description": "Nickel-zinc named on a page read in the 10-year power retrospective.",
+  "specifications": [
+    {
+      "metric": "status",
+      "unit": "QUALITATIVE",
+      "basis": "Named by Uptime as a longer-term candidate to address Li-ion safety and sustainability concerns",
+      "source": {
+        "url": "https://journal.uptimeinstitute.com/major-data-center-fire-highlights-criticality-of-it-services",
+        "source_id": "dcp-journal-uptimeinstitute-com-major-data-cente-92df940"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://journal.uptimeinstitute.com/major-data-center-fire-highlights-criticality-of-it-services",
+      "source_id": "dcp-journal-uptimeinstitute-com-major-data-cente-92df940"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

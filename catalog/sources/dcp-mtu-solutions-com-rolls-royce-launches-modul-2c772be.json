@@ -1,0 +1,27 @@
+{
+  "id": "dcp-mtu-solutions-com-rolls-royce-launches-modul-2c772be",
+  "name": "Rolls-Royce press release: launches modular gas engine power plants",
+  "url": "https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "publisher_org": "Rolls-Royce Power Systems",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch on 2026-11-25; dated 10 February 2026."
+}

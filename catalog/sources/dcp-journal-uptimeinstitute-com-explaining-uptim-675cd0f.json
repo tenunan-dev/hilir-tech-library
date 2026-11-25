@@ -1,0 +1,25 @@
+{
+  "id": "dcp-journal-uptimeinstitute-com-explaining-uptim-675cd0f",
+  "name": "Explaining the Uptime Institute's Tier Classification System (April 2021 Update)",
+  "url": "https://journal.uptimeinstitute.com/explaining-uptime-institutes-tier-classification-system",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Uptime Institute",
+  "access": "open",
+  "licence": "Copyright 2014-2025 Uptime Institute; licence not further stated",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Primary-source account of the Tier system by its author organisation."
+}

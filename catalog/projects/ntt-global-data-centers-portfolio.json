@@ -1,0 +1,138 @@
+{
+  "id": "ntt-global-data-centers-portfolio",
+  "name": "NTT Global Data Centers portfolio",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "900 MW of onsite power across multiple data centre projects globally; described as Bloom Energy's largest international project to date; countries not named in the release.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Oracle warrant issued",
+      "date": "2026",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/bloom-energy-and-oracle-expand-strategic-partnership-to-deploy-up-to-2-8-gw-to-accelerate-ai-infrastructure-build-out/",
+        "source_id": "dcp-bloomenergy-com-43a0b42"
+      }
+    },
+    {
+      "event": "Brookfield partnership framework increased fivefold",
+      "date": "2026",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+        "source_id": "dcp-bloomenergy-com-72cfae1"
+      }
+    },
+    {
+      "event": "Power Connect product launch",
+      "date": "2026",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/",
+        "source_id": "dcp-bloomenergy-com-5daf81c"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Brookfield financing framework for Bloom AI power projects",
+      "year": 2026,
+      "unit": "USD million (as printed)",
+      "basis": "dollar year not stated; announced 30 June 2026, increased from previously announced USD 5 billion since October 2025; a financing framework, not an equipment price",
+      "value": 25000000000,
+      "low": 5000000000,
+      "high": 25000000000,
+      "source": {
+        "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+        "source_id": "dcp-bloomenergy-com-72cfae1"
+      }
+    },
+    {
+      "metric": "Brookfield AI Infrastructure Fund target",
+      "year": 2025,
+      "unit": "USD million (as printed)",
+      "basis": "dollar year not stated; fund launched November 2025 with a target to deploy USD 100 billion",
+      "value": 100000000000,
+      "source": {
+        "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+        "source_id": "dcp-bloomenergy-com-72cfae1"
+      }
+    },
+    {
+      "metric": "Brookfield capital already invested in digital infrastructure and clean power",
+      "year": 2026,
+      "unit": "USD million (as printed)",
+      "basis": "dollar year not stated; stated as over USD 100 billion in the 30 June 2026 release",
+      "value": 100000000000,
+      "source": {
+        "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+        "source_id": "dcp-bloomenergy-com-72cfae1"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Bloom Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+      "source_id": "dcp-bloomenergy-com-660ad39",
+      "note": "900 MW of onsite power across multiple data centre projects globally; described "
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/",
+      "source_id": "dcp-bloomenergy-com-5daf81c"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+      "source_id": "dcp-bloomenergy-com-660ad39"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-and-oracle-expand-strategic-partnership-to-deploy-up-to-2-8-gw-to-accelerate-ai-infrastructure-build-out/",
+      "source_id": "dcp-bloomenergy-com-43a0b42"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+      "source_id": "dcp-bloomenergy-com-72cfae1"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-and-oracle-expand-strategic-partnership-to-deploy-up-to-2-8-gw-to-accelerate-ai-infrastructure-build-out/",
+      "source_id": "dcp-bloomenergy-com-43a0b42",
+      "note": "Master services agreement; fuel cells support higher-density AI workloads and a technology platform aligned to emerging 800 V dc standards."
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+      "source_id": "dcp-bloomenergy-com-660ad39",
+      "note": "900 MW of onsite power across multiple data centre projects globally; described as Bloom Energy's largest international project to date; countries not named in the release."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Oracle contract value",
+      "why": "Not printed",
+      "next_action": "Check Bloom SEC filings"
+    },
+    {
+      "what": "NTT DATA contract value and named countries",
+      "why": "Not printed",
+      "next_action": "Check NTT DATA announcements"
+    },
+    {
+      "what": "Unit capital cost per MW",
+      "why": "No $/kW or $/MW figure printed",
+      "next_action": "Do not estimate; seek published cost basis"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

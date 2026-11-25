@@ -1,0 +1,25 @@
+{
+  "id": "dcp-journal-uptimeinstitute-com-startups-brew-ne-43f50b6",
+  "name": "Startups brew new chemistries for fresh battery types",
+  "url": "https://journal.uptimeinstitute.com/startups-brew-new-chemistries-for-fresh-battery-types",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Uptime Institute",
+  "access": "open",
+  "licence": "Copyright Uptime Institute; licence not further stated",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly, 1 September 2021."
+}

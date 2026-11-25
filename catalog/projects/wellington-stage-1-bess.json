@@ -1,0 +1,54 @@
+{
+  "id": "wellington-stage-1-bess",
+  "name": "Wellington Stage 1 BESS",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Australia",
+  "location": "Australia",
+  "status": "operating",
+  "description": "300 MW / 600 MWh in Wellington, New South Wales; AMPYR targets 6,000 MWh of operational BESS by 2030 and up to 20% of Australia's future battery storage demand.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Wellington Stage 1 BESS contracted to Fluence",
+      "date": "2025",
+      "source": {
+        "url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-chosen-300-mw-600-mwh-wellington-battery-energy-storage",
+        "source_id": "dcp-ir-fluenceenergy-com-fluence-chosen-300-mw-6-26ebf6a"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-chosen-300-mw-600-mwh-wellington-battery-energy-storage",
+      "source_id": "dcp-ir-fluenceenergy-com-fluence-chosen-300-mw-6-26ebf6a",
+      "note": "300 MW / 600 MWh in Wellington, New South Wales; AMPYR targets 6,000 MWh of oper"
+    },
+    {
+      "url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-chosen-300-mw-600-mwh-wellington-battery-energy-storage",
+      "source_id": "dcp-ir-fluenceenergy-com-fluence-chosen-300-mw-6-26ebf6a"
+    },
+    {
+      "url": "https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-chosen-300-mw-600-mwh-wellington-battery-energy-storage",
+      "source_id": "dcp-ir-fluenceenergy-com-fluence-chosen-300-mw-6-26ebf6a",
+      "note": "300 MW / 600 MWh in Wellington, New South Wales; AMPYR targets 6,000 MWh of operational BESS by 2030 and up to 20% of Australia's future battery storage demand."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Project value and named data-centre offtakers",
+      "why": "Not printed",
+      "next_action": "Check AMPYR announcements"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

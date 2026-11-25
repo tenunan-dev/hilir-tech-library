@@ -1,0 +1,80 @@
+{
+  "id": "kitakyushu-factory-tentative-name",
+  "name": "Kitakyushu Factory (tentative name)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Japan",
+  "location": "Japan",
+  "status": "operating",
+  "description": "Koyomachi, Wakamatsu Ward, Kitakyushu City, Fukuoka Prefecture; site area 62,000 square metres; core production base for Yanmar Energy System Manufacturing Co., Ltd.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "GY175 Series announced",
+      "date": "2025",
+      "source": {
+        "url": "https://www.yanmar.com/media/news/2026/04/07042224/pdf_news_20260407_01_en.pdf",
+        "source_id": "dcp-yanmar-com-pdf-news-20260407-01-en-pdf-2347cc8"
+      }
+    },
+    {
+      "event": "Kitakyushu factory site agreement",
+      "date": "2026",
+      "source": {
+        "url": "https://www.yanmar.com/media/news/2026/04/07042224/pdf_news_20260407_01_en.pdf",
+        "source_id": "dcp-yanmar-com-pdf-news-20260407-01-en-pdf-2347cc8"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Yanmar Energy System",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "HIMOINSA",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Yanmar",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.yanmar.com/media/news/2026/04/07042224/pdf_news_20260407_01_en.pdf",
+      "source_id": "dcp-yanmar-com-pdf-news-20260407-01-en-pdf-2347cc8",
+      "note": "Koyomachi, Wakamatsu Ward, Kitakyushu City, Fukuoka Prefecture; site area 62,000"
+    },
+    {
+      "url": "https://www.yanmar.com/media/news/2026/04/07042224/pdf_news_20260407_01_en.pdf",
+      "source_id": "dcp-yanmar-com-pdf-news-20260407-01-en-pdf-2347cc8"
+    },
+    {
+      "url": "https://www.yanmar.com/media/news/2026/04/07042224/pdf_news_20260407_01_en.pdf",
+      "source_id": "dcp-yanmar-com-pdf-news-20260407-01-en-pdf-2347cc8",
+      "note": "Koyomachi, Wakamatsu Ward, Kitakyushu City, Fukuoka Prefecture; site area 62,000 square metres; core production base for Yanmar Energy System Manufacturing Co., Ltd."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Investment amount for Kitakyushu factory",
+      "why": "Not printed in the PDF",
+      "next_action": "Check subsequent Yanmar disclosures"
+    },
+    {
+      "what": "Named data-centre customer contracts",
+      "why": "Not printed",
+      "next_action": "Search Yanmar Energy System releases"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

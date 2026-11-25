@@ -1,0 +1,26 @@
+{
+  "id": "dcp-r-jina-ai-59076-176-1686197-pdf-78b40fd",
+  "name": "Proposal for Decision, SOAH Docket 473-26-14758 / PUC Docket 59076",
+  "url": "https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "State Office of Administrative Hearings / Public Utility Commission of Texas",
+  "access": "open",
+  "licence": "public regulatory record",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via r.jina.ai, 65 pages, filed 23 September 2026. Primary regulatory evidence with explicit cost findings and conflicting figures preserved."
+}

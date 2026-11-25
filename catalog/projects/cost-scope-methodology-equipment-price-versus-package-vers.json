@@ -1,0 +1,138 @@
+{
+  "id": "cost-scope-methodology-equipment-price-versus-package-vers",
+  "name": "Cost-scope methodology: equipment price versus package versus installed plant",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Sources explicitly warn that $/kW figures are not comparable until scope, output basis and dollar year are stated. HTR and SecondWatt provide sourced scope ladders; EIA provides a line-item breakdown. Escalation factors named by HTR are recorded, not applied.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "equipment price, gas turbines of GE 7HA.03 simple-cycle plant",
+      "year": 2025,
+      "unit": "USD/KW (2025$)",
+      "basis": "Brattle and Sargent & Lundy 2025 PJM CONE report, quoted by SecondWatt; owner-furnished equipment with freight to site",
+      "value": 409,
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      }
+    },
+    {
+      "metric": "installed cost, Rest of RTO frame turbine plant",
+      "year": 2028,
+      "unit": "USD/KW (NOMINAL 2028$)",
+      "basis": "2025 PJM CONE study; overnight cost $1,361/kW; installed adds 23.0% of capital carrying costs",
+      "value": 1674,
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      }
+    },
+    {
+      "metric": "combustion turbine cost increase since 2022 PJM CONE study",
+      "year": 2025,
+      "unit": "USD/KW (2025$)",
+      "basis": "SecondWatt quoting PJM study: rose from $225/kW to $409/kW, an 81% real increase; 37% real increase since August 2024 ($298/kW)",
+      "value": 409,
+      "low": 225,
+      "high": 409,
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      }
+    },
+    {
+      "metric": "scope adder, equipment to package",
+      "year": 2026,
+      "unit": "PERCENT",
+      "basis": "HTR: recipient equipment at about $820/kW (grade D analyst) against owner package figure of $1,000/kW",
+      "value": 20,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "scope adder, package to package plus balance of plant",
+      "year": 2026,
+      "unit": "USD/KW",
+      "basis": "HTR: two owners reporting both levels on the same call; +25% to +55%",
+      "low": 300,
+      "high": 550,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "scope adder, package plus BOP to installed plant",
+      "year": 2026,
+      "unit": "USD/KW",
+      "basis": "HTR: owner $1,550/kW against a 2026 utility plan at $2,460/kW, about +59%",
+      "value": 900,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "major owner-furnished equipment share, EIA H-class simple-cycle case",
+      "year": 2023,
+      "unit": "PERCENT OF OVERNIGHT COST",
+      "basis": "EIA January 2024 report Table 4-1 as decomposed by SecondWatt: $132.8m of $350.088m; range across four EIA 2024 gas cases",
+      "value": 37.9,
+      "low": 27.4,
+      "high": 46,
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      }
+    },
+    {
+      "metric": "named escalation index used by HTR for generation cost normalisation",
+      "year": 2026,
+      "unit": "PERCENT (2025 TO 2026 FACTOR 1.034)",
+      "basis": "BLS producer price index for turbines and turbine generator sets, annual average; transformers use power and distribution transformer index; generators use motors and generators index. No currency conversion or generic escalation applied in this library entry.",
+      "value": 3.4,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+      "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a",
+      "note": "Sources explicitly warn that $/kW figures are not comparable until scope, output"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+      "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+    },
+    {
+      "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+      "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Standalone generator $/kVA",
+      "why": "HTR states no public $/kVA exists; orders give value or rating but not both",
+      "next_action": "Seek utility commission dockets with unredacted generator bids"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

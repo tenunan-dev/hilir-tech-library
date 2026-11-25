@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-himoinsa-ad0b7",
+  "name": "HIMOINSA",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "HIMOINSA named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.yanmar.com/media/news/2026/04/07042224/pdf_news_20260407_01_en.pdf",
+      "source_id": "dcp-yanmar-com-pdf-news-20260407-01-en-pdf-2347cc8"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

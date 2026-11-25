@@ -1,0 +1,26 @@
+{
+  "id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2",
+  "name": "Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW",
+  "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Meta",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly via WebFetch. Confirms 20-year terms, 2,176 MW operating and 433 MW uprates."
+}

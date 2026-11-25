@@ -1,0 +1,26 @@
+{
+  "id": "dcp-uspeglobal-com-4662884",
+  "name": "Gas Turbine Power Plants for Data Centers: The Complete US EPC and O&M Guide",
+  "url": "https://uspeglobal.com/articles/gas-turbine-power-plants-for-data-centers/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "USP&E",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Published 24 July 2025. Vendor states figures are planning ranges, not quotes."
+}

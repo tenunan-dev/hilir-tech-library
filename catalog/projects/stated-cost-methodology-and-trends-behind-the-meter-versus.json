@@ -1,0 +1,173 @@
+{
+  "id": "stated-cost-methodology-and-trends-behind-the-meter-versus",
+  "name": "Stated cost methodology and trends: behind-the-meter versus grid, modular versus conventional plant",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Method statements and trends quoted from pages actually read. These are source-authored interpretations, preserved as such rather than re-derived.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "reported OEM order-price index, heavy-duty and aero turbines, index FY2025=100",
+      "year": 2026,
+      "unit": "INDEX (2026)",
+      "basis": "HTR Table 5: 2024 about 91, 2025 100, 2026 about 150; one large OEM reports 2026 orders priced about 50% above 2025. Producer price index for shipments lags at 103.4.",
+      "value": 150,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "power and distribution transformer price indices increase since January 2020",
+      "year": 2026,
+      "unit": "PERCENT",
+      "basis": "HTR quoting two federal transformer price indices",
+      "low": 86,
+      "high": 91,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "TCO advantage of engine over combined cycle, US simulated hyperscale data centre",
+      "year": 2025,
+      "unit": "PERCENT",
+      "basis": "MTU Solutions simulation using real hyperscale load profiles and high-speed S4000L64FNER gas engines; primarily driven by favourable US gas prices and CAPEX",
+      "value": 15,
+      "source": {
+        "url": "https://www.mtu-solutions.com/eecis/en/technical-articles/2025/enabling-data-center-operators-to-bridge-the-grid-capacity-gap-with-self-generation-solutions.html",
+        "source_id": "dcp-mtu-solutions-com-enabling-data-center-opera-a0413f0"
+      }
+    },
+    {
+      "metric": "TCO saving from trigeneration versus power only, engine-based US case",
+      "year": 2025,
+      "unit": "PERCENT",
+      "basis": "MTU Solutions simulation scenario 3; turbine trigeneration scenario 4 saves 13%",
+      "value": 22,
+      "source": {
+        "url": "https://www.mtu-solutions.com/eecis/en/technical-articles/2025/enabling-data-center-operators-to-bridge-the-grid-capacity-gap-with-self-generation-solutions.html",
+        "source_id": "dcp-mtu-solutions-com-enabling-data-center-opera-a0413f0"
+      }
+    },
+    {
+      "metric": "TCO increase replacing CCGT with OCGT, European simulated case",
+      "year": 2025,
+      "unit": "PERCENT",
+      "basis": "MTU Solutions: mainly attributable to higher fuel costs; European gas prices stated as five times 2024 US levels",
+      "value": 10,
+      "source": {
+        "url": "https://www.mtu-solutions.com/eecis/en/technical-articles/2025/enabling-data-center-operators-to-bridge-the-grid-capacity-gap-with-self-generation-solutions.html",
+        "source_id": "dcp-mtu-solutions-com-enabling-data-center-opera-a0413f0"
+      }
+    },
+    {
+      "metric": "range of BTM generation price premium paid for speed",
+      "year": 2026,
+      "unit": "USD/MWH",
+      "basis": "HTR states buyers pay a premium of about $15-40/MWh over grid supply for speed and certainty",
+      "low": 15,
+      "high": 40,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "power share of data-centre total cost of ownership",
+      "year": 2026,
+      "unit": "PERCENT",
+      "basis": "RaboResearch: power is 10-15% of a data centre's TCO yet is the binding constraint on revenue generation",
+      "low": 10,
+      "high": 15,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      }
+    },
+    {
+      "metric": "CCGT capital cost multiple versus early 2020s projects",
+      "year": 2026,
+      "unit": "TIMES",
+      "basis": "IEEFA: newest CCGT proposals roughly triple the cost of projects built in the early 2020s; orders likely not fulfilled until 2030 or later",
+      "value": 3,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    },
+    {
+      "metric": "turbine reservation fee paid by KU/LG&E to secure a 2030 delivery slot",
+      "year": 2025,
+      "unit": "USD",
+      "basis": "GridLab citing Kentucky PSC Case 2025-00045; reservation fee to GE Vernova",
+      "value": 25000000,
+      "source": {
+        "url": "https://r.jina.ai/https://gridlab.org/wp-content/uploads/2025/09/GridLab_Gas-Turbine-Costs-Report-1.pdf",
+        "source_id": "dcp-r-jina-ai-gridlab-gas-turbine-costs-report-1-a1e8f09"
+      }
+    },
+    {
+      "metric": "CapEx reduction claimed for verified surplus equipment versus OEM list pricing",
+      "year": 2026,
+      "unit": "PERCENT",
+      "basis": "EPC vendor USP&E claim; lead time reduced by 12-24 months; vendor claim, not a transaction",
+      "low": 20,
+      "high": 40,
+      "source": {
+        "url": "https://uspeglobal.com/articles/ai-data-center-power-requirements/"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.mtu-solutions.com/eecis/en/technical-articles/2025/enabling-data-center-operators-to-bridge-the-grid-capacity-gap-with-self-generation-solutions.html",
+      "source_id": "dcp-mtu-solutions-com-enabling-data-center-opera-a0413f0",
+      "note": "Method statements and trends quoted from pages actually read. These are source-a"
+    },
+    {
+      "url": "https://www.mtu-solutions.com/eecis/en/technical-articles/2025/enabling-data-center-operators-to-bridge-the-grid-capacity-gap-with-self-generation-solutions.html",
+      "source_id": "dcp-mtu-solutions-com-enabling-data-center-opera-a0413f0"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+      "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+      "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+    },
+    {
+      "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+      "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+    },
+    {
+      "url": "https://r.jina.ai/https://gridlab.org/wp-content/uploads/2025/09/GridLab_Gas-Turbine-Costs-Report-1.pdf",
+      "source_id": "dcp-r-jina-ai-gridlab-gas-turbine-costs-report-1-a1e8f09"
+    },
+    {
+      "url": "https://uspeglobal.com/articles/ai-data-center-power-requirements/"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Underlying load profiles and gas-price assumptions for the MTU TCO simulations",
+      "why": "The article presents results but does not tabulate all input assumptions in the readable text",
+      "next_action": "Obtain the full simulation tables from the publisher"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

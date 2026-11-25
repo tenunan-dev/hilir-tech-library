@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-kubota-corporation-a9337",
+  "name": "Kubota Corporation",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Kubota Corporation named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.yanmar.com/global/energy/news/2024/07/05/139269.html",
+      "source_id": "dcp-yanmar-com-139269-html-3e24a70"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

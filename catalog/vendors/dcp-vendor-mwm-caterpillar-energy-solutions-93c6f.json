@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-mwm-caterpillar-energy-solutions-93c6f",
+  "name": "MWM / Caterpillar Energy Solutions",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "MWM / Caterpillar Energy Solutions named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/energy-sources/hydrogen/",
+      "source_id": "dcp-jenbacher-com-cbc441c"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

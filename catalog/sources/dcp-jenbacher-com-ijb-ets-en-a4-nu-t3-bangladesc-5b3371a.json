@@ -1,0 +1,25 @@
+{
+  "id": "dcp-jenbacher-com-ijb-ets-en-a4-nu-t3-bangladesc-5b3371a",
+  "name": "JENBACHER TYPE 3 - Efficient, durable, reliable (datasheet)",
+  "url": "https://jenbacher.com/wp-content/uploads/2025/05/ijb_ets_en_a4_nu_t3_bangladesch_update_2025_rz_screen_ijb-125003-en.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "INNIO Jenbacher",
+  "access": "open",
+  "licence": "Copyright 2025 INNIO; information subject to change without notice",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via https://r.jina.ai/ proxy; technical data per ISO 3046 at full load. Manufacturer claims identified as such."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-generac-cited-in-source-d742b",
+  "name": "Generac (cited in source)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Generac (cited in source) named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://jenbacher.com/wp-content/uploads/2025/05/ijb_ets_en_a4_nu_t3_bangladesch_update_2025_rz_screen_ijb-125003-en.pdf",
+      "source_id": "dcp-jenbacher-com-ijb-ets-en-a4-nu-t3-bangladesc-5b3371a"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

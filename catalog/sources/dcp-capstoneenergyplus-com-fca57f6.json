@@ -1,0 +1,24 @@
+{
+  "id": "dcp-capstoneenergyplus-com-fca57f6",
+  "name": "Capstone Products page",
+  "url": "https://www.capstoneenergyplus.com/products/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Capstone Energy+",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch on 2026-11-25."
+}

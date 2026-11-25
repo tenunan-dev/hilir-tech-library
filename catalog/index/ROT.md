@@ -1,6 +1,6 @@
 # ROT: Rotating and static equipment
 
-1230 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
+1238 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -931,6 +931,8 @@
 | [Burgess-Manning (CECO Environmental)](https://burgessmanning.com/acoustic-enclosures/) | oem-supplier | global, na | open | summary-only |
 | [Burgess-Manning — Vendor enclosure product families](https://burgessmanning.com/preset-vent-silencers/) | oem-supplier | global, na | open | summary-only |
 | [Burgessmanning.Com — guaranteed vent silencer attenuation](https://burgessmanning.com/custom-vent-silencer) | oem-supplier | global, na | open | summary-only |
+| [Capstone C1000S product page](https://www.capstoneenergyplus.com/products/capstone-microturbines/c1000s) | oem-supplier | global | open | summary-only |
+| [Capstone Products page](https://www.capstoneenergyplus.com/products/) | oem-supplier | global | open | summary-only |
 | [Cascading steam turbine bypass system schematic (Fig. 1) — Steam Turbine Bypass Systems, Combined Cycle Journa](https://competitivepower.us/pub/pdfs/Steam-Turbine-Bypass-Systems-CCJ-4Q-2003.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Caterpillar](https://www.cat.com/en_US/by-industry/electric-power/ep-prod-ser-guide/gas.html) | oem-supplier | global, na | open | summary-only |
 | [Caterpillar](https://www.datacenterdynamics.com/en/news/caterpillar-partners-with-hunt-energy-to-deliver-up-to-1gw-of-power-for-data-centers-in-north-america/) | oem-supplier | global, na | open | summary-only |
@@ -943,6 +945,7 @@
 | [Chemical Engineering magazine — makeup treatment effluent specific conductivity](https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/) | oem-supplier | global, na | open | summary-only |
 | [Chemical Engineering magazine — Zeeco Free Jet Power Burner emissions and turndown](https://www.chemengonline.com/the-balanced-burner) | oem-supplier | global, na | open | summary-only |
 | [Circulating Fluidized-bed Combustion Technology — Fig. 1 Process flow of circulating fluidized-bed boiler; Fig](https://www.jcoal.or.jp/eng/upload/cctinjapan_2_2A2.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
+| [Clarke Energy Jenbacher Type 4 product page](https://www.clarke-energy.com/us/gas-engines/jenbacher-type-4-gas-engine) | oem-supplier | global | open | summary-only |
 | [ClearFire-CE condensing boiler](https://cleaverbrooks.com/product/cfce) | oem-supplier | global, na | open | summary-only |
 | [Cleaver-Brooks](https://cleaverbrooks.com/catalog/boiler-room-equipment/feed-systems) | oem-supplier | global, na | open | summary-only |
 | [Cleaver-Brooks](https://cleaverbrooks.com/catalog/selective-catalytic-reduction) | oem-supplier | global, na | open | summary-only |
@@ -1056,6 +1059,7 @@
 | [ISO 13702](https://r.jina.ai/https://www.klmtechgroup.com/PDF/ess/PROJECT_STANDARD_AND_SPECIFICATIONS_offshore_technical_safety_Rev01.pdf) | standards-body | global | open | summary-only |
 | [ISO/TC 197 Hydrogen technologies](https://www.iso.org/committee/54560.html) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO/TC 67 Oil and gas industries including lower carbon energy](https://www.iso.org/committee/49690.html) | standards-body | global | paywalled | catalog-only (unverified) |
+| [Jenbacher gas engines portfolio and case studies](https://www.jenbacher.com/en/gas-engines/) | oem-supplier | global | open | summary-only |
 | [John Zink (Koch Engineered Solutions)](https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems) | oem-supplier | global, na | open | summary-only |
 | [John Zink (Koch Engineered Solutions)](https://www.johnzink.com/parts-services/replacement-parts/burner-parts) | oem-supplier | global, na | open | summary-only |
 | [John Zink HRSG duct burners](https://www.johnzink.com/products/powerburners/duct-burner) | oem-supplier | global, na | open | summary-only |
@@ -1077,6 +1081,7 @@
 | [Megaflexon](https://www.megaflexon.com/down/MEJ_Catalog.pdf) | oem-supplier | global, na | open | summary-only |
 | [METCO Technologies](https://metco-tech.com/dampers/stack-dampers) | oem-supplier | global, na | open | summary-only |
 | [MTU Solutions — Electrical power range](https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-applications/data-centers.html) | oem-supplier | global, na | open | summary-only |
+| [MWM TCG 2032 Modular Power Plant page](https://www.mwm.net/en/distributed-power-plants/tcg-2032-modular-power-plant-mpp/) | oem-supplier | eu, global | open | summary-only |
 | [Natcom duct burner for HRSG supplementary firing](https://cleaverbrooks.com/product/duct-burner) | oem-supplier | global, na | open | summary-only |
 | [NEM Energy](https://nem-energy.com/products/exhaust-diverter-and-dampers/) | oem-supplier | global, na | open | summary-only |
 | [NFPA 30](https://www.pdhonline.com/courses/m332/m332content.pdf) | standards-body | global | open | summary-only |
@@ -1096,6 +1101,7 @@
 | [Rehlko](https://techcomm.rehlko.com/$web/techcomm/pdf/G12-506_KD_Series_Spec_Guide_700-4000.pdf) | oem-supplier | global, na | open | summary-only |
 | [Rehlko (formerly Kohler Energy)](https://www.rehlko.com/en-US/hyperscale) | oem-supplier | global, na | open | summary-only |
 | [Rolls-Royce Power Systems / mtu](https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-products/gas-generator-sets.html) | oem-supplier | global, na | open | summary-only |
+| [Rolls-Royce press release: launches modular gas engine power plants](https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html) | oem-supplier | eu, global | open | summary-only |
 | [SCC Inc.](https://scccombustion.com/products/variable-frequency-drives-vfd) | oem-supplier | global, na | open | summary-only |
 | [Schematic diagram of a CFB boiler (Fig. 1.3) — Combustion and Gasification in Fluidized Beds](https://s3-euw1-ap-pe-df-pch-content-store-p.s3.eu-west-1.amazonaws.com/9780429075018/67b1bae2-6a8e-4c6a-93dd-f5de42ce55c9/preview.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Schneider Electric](https://www.se.com/ww/en/product-range/61779-galaxy-vs-ups/) | oem-supplier | global, na | open | summary-only |
@@ -1154,6 +1160,7 @@
 | [Vertiv](https://www.vertiv.com/4a1875/globalassets/shared/vertiv-energycore-battery-storage-system-data-sheet-sl-71271.pdf) | oem-supplier | global, na | open | summary-only |
 | [Vertiv](https://www.vertiv.com/) | oem-supplier | global, na | open | summary-only |
 | [Warren Controls](https://www.warrencontrols.com/wp-content/uploads/2024/02/1656509571DeaerationofBoiler.pdf) | oem-supplier | global, na | open | summary-only |
+| [Wartsila 31SG gas engine page](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-31sg-gas-engine) | oem-supplier | global | open | summary-only |
 | [WELLHEAD CONTROL PANEL (multi)](https://www.ipsgroupbv.com/products/turnkey-control-systems/wellhead-control-panel-multi/) | oem-supplier | global | open | summary-only |
 | [Wilhelmsen](https://www.wilhelmsen.com/product-catalogue/products/marine-chemicals/water-treatment-chemicals/boiler-water-treatment/oxygen-scavenger-plus-25-ltr/) | oem-supplier | global, na | open | summary-only |
 | [WO2008045381A2 Dual subsea production chokes for high pressure well production](https://patents.google.com/patent/WO2008045381A2/en) | patents | global | open | summary-only |
@@ -1228,6 +1235,7 @@
 | [Boiler blowdown (Engineering ToolBox)](https://engineeringtoolbox.com/boiler-blowdown-d_908.html) | trade-media | global, na | open | summary-only |
 | [Engineering ToolBox — bare steam pipe heat loss](https://www.engineeringtoolbox.com/heat-loss-steam-pipes-d_255.html) | trade-media | global | open | summary-only |
 | [Engineering ToolBox — insulation thermal conductivity basis](https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html) | trade-media | global | open | summary-only |
+| [Gas Turbine Power Plants for Data Centers: The Complete US EPC and O&M Guide](https://uspeglobal.com/articles/gas-turbine-power-plants-for-data-centers/) | oem-supplier | global, na | open | summary-only |
 | [Hydrocarbon Engineering](https://www.hydrocarbonengineering.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [LNG Industry](https://www.lngindustry.com/) | trade-media | global | free-registration | summary-only (unverified) |
 | [Offshore magazine](https://www.offshore-mag.com/) | trade-media | global | open | summary-only (unverified) |

@@ -1,0 +1,26 @@
+{
+  "id": "dcp-datacenterdynamics-com-c2477fc",
+  "name": "VoltaGrid partners with Jenbacher to develop mobile gas solution for data center market",
+  "url": "https://www.datacenterdynamics.com/en/news/voltagrid-partners-with-jenbacher-to-develop-mobile-gas-solution-for-data-center-market/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Data Center Dynamics",
+  "access": "open",
+  "licence": "Publisher terms not stated",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Article read directly 19 January 2025; reliability above 99.9% is a partner projection."
+}

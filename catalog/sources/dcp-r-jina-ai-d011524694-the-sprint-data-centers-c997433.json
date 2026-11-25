@@ -1,0 +1,25 @@
+{
+  "id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433",
+  "name": "Data centers are building a parallel energy system in the US",
+  "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "RaboResearch",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read via r.jina.ai after direct fetch returned 403. Published 2026-10-22. Analyst benchmark, not a transaction."
+}

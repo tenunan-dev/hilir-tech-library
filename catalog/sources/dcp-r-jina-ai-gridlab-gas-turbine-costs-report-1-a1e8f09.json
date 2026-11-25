@@ -1,0 +1,24 @@
+{
+  "id": "dcp-r-jina-ai-gridlab-gas-turbine-costs-report-1-a1e8f09",
+  "name": "The New Reality of Power Generation: An Analysis of Increasing Gas Turbine Costs in the U.S.",
+  "url": "https://r.jina.ai/https://gridlab.org/wp-content/uploads/2025/09/GridLab_Gas-Turbine-Costs-Report-1.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "GridLab, Energy Futures Group and Halcyon",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via r.jina.ai, 11 pages, September 2025; project-level appendix gives named plant $/kW values."
+}

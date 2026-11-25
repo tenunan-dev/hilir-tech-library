@@ -1,0 +1,25 @@
+{
+  "id": "dcp-turbomachinerymag-com-rolls-royce-integrates-b06fa6b",
+  "name": "Rolls-Royce Integrates Fast-Start Capabilities for Data Center Gensets",
+  "url": "https://www.turbomachinerymag.com/view/rolls-royce-integrates-fast-start-capabilities-for-data-center-gensets",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Turbomachinery International",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read via r.jina.ai fallback; all engine figures and named projects taken from article body."
+}

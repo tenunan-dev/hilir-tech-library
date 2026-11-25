@@ -1,0 +1,25 @@
+{
+  "id": "dcp-iea-org-executive-summary-b2083f5",
+  "name": "IEA Energy and AI — Executive summary",
+  "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "International Energy Agency",
+  "access": "open",
+  "licence": "CC BY 4.0",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch 2026-11-25. IEA (2025) report. Only new dated figures recorded; 415 TWh and 945 TWh already in library are not re-asserted."
+}

@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-microsoft-developer-customer-0f73f",
+  "name": "Microsoft (developer/customer)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Microsoft (developer/customer) named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://news.microsoft.com/source/features/sustainability/hydrogen-fuel-cells-could-provide-emission-free-backup-power-at-datacenters-microsoft-says",
+      "source_id": "dcp-news-microsoft-com-hydrogen-fuel-cells-could-7c72a92"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

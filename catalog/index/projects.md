@@ -1,6 +1,6 @@
 # Projects and operating plants
 
-901 project records (one per named project or plant, schema `schema/project.schema.json`).
+998 project records (one per named project or plant, schema `schema/project.schema.json`).
 Seeded from the technology cards' reference plants; every fact cites the page it was read from.
 
 ## CCS: CCUS
@@ -693,6 +693,180 @@ The first corporate agreement for multiple deployments of a single advanced reac
 Technologies: idc-smr-fuel-cell-ppa, pwr-microreactors
 Capacity: contracted advanced-nuclear capacity: 500 MW
 
+### 6 GW HVDC transmission corridor, Barmer (Rajasthan) to South Kalamb (6-gw-hvdc-transmission-corridor-barmer-rajasthan-to-south)
+Status: **operating** | Country: India
+Client: PowerGrid Corporation of India Limited (PGCIL); transmits 6 GW from renewable-rich Barmer to the load centre at South Kalamb.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Data-centre gas engine/genset supply contract; Hydrogen turbine figures source page
+
+### Abwasserverband AIZ wastewater CHP, Austria (abwasserverband-aiz-wastewater-chp-austria)
+Status: **operating** | Country: Austria
+Two sewage-gas Jenbacher J312 engines; 1.27 MW electrical and 1.4 MW thermal; commissioned 2018 and 2020; plant treats 28,270 m3 of wastewater per day.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Measured multi-year availability of gas engine data-centre plants; Jenbacher 'up to 98% availability' and '8,000 engines delivered since 1988'; ISO 8528-6:2023 test-method content
+
+### AEP–Bloom fuel cell programme (central Ohio/US) (aep-bloom-fuel-cell-programme-central-ohio-us)
+Status: **operating** | Country: United States
+All project costs covered by large customers under special contracts; natural gas initially, hydrogen capable
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Contract value and per-kW price; Named customer sites
+
+### Alberta gas-engine power and heat project (alberta-gas-engine-power-and-heat-project)
+Status: **operating** | Country: Canada
+mtu gas engines provide reliable power and heat supply and support the grid during peak loads.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Named data-centre genset supply contracts and values; AVK packager role; Dollar year for USD 24 million
+
+### Amazon data centre, 10321 Tanner Way, Manassas, VA (amazon-data-centre-10321-tanner-way-manassas-va)
+Status: **operating** | Country: USA
+93 Caterpillar 3516C-HD gensets at 2.5 MW standby each, identified from satellite imagery dated 8/19/2023.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Global (non-US) data-centre genset fleet counts; Failure-rate statistics for data-centre diesel gensets; Dollar year for $1 billion-scale project costs in this item
+
+### Amazon Data Services campus, Leesburg, VA (amazon-data-services-campus-leesburg-va)
+Status: **operating** | Country: USA
+Virginia air permit registration 74303, approved 12 March 2025, covering 166 Tier 4 and five Tier 2 generators.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Global (non-US) data-centre genset fleet counts; Failure-rate statistics for data-centre diesel gensets; Dollar year for $1 billion-scale project costs in this item
+
+### Belgium flagship BESS (belgium-flagship-bess)
+Status: **operating** | Country: Belgium
+800 MWh; cited as a recent Sungrow European ESS flagship project.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Data-centre-specific supply contract; Contract value
+
+### Bloom Energy data-centre fleet milestones (Google, Equinix, AWS, AT&T) (bloom-energy-data-centre-fleet-milestones-google-equinix-a)
+Status: **operating** | Country: United States
+Backgrounder dated February 2023; 1 GW deployed company-wide; over 150 customers across 1,000 sites
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: AWS 75 MW project site names and completion status; Google milestone capacities
+
+### Bramley ESS project (bramley-ess-project)
+Status: **operating** | Country: United Kingdom
+100 MW / 331 MWh Bramley energy storage project in the UK, now operational thanks to BW ESS and Sungrow.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Data-centre-specific supply contract; Contract value
+
+### Bremen coal-to-gas CHP (swb Erzeugung / Uniper) (bremen-coal-to-gas-chp-swb-erzeugung-uniper)
+Status: **operating** | Country: DE
+31SG flexible CHP; vendor page states CO2 emissions decrease up to 75%
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Measured NOx values for 31SG/50SG;  priced 31SG/50SG genset
+
+### Bridge Data Centres / Mah Sing 200 MW campus (bridge-data-centres-mah-sing-200-mw-campus)
+Status: **operating** | Country: Malaysia
+200 MW campus outside Kuala Lumpur under a joint venture announced October 2024.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Operating reliability of the PacificLight plant; Singapore EMA grid code requirements for data centres; Dollar years for the $1 billion and $2.8 billion figures
+
+### Bridge Data Centres Cyberjaya facilities (bridge-data-centres-cyberjaya-facilities)
+Status: **operating** | Country: Malaysia
+Two facilities operating with a third in development; a data centre outside Johor launched in 2022.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Operating reliability of the PacificLight plant; Singapore EMA grid code requirements for data centres; Dollar years for the $1 billion and $2.8 billion figures
+
+### Bridge Data Centres MY03, Kuala Lumpur (bridge-data-centres-my03-kuala-lumpur)
+Status: **operating** | Country: Malaysia
+16 MW building entered the market in 2021 at Kuala Lumpur's Mranti Park.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Operating reliability of the PacificLight plant; Singapore EMA grid code requirements for data centres; Dollar years for the $1 billion and $2.8 billion figures
+
+### Bridgeport Fuel Cell System (bridgeport-fuel-cell-system)
+Status: **operating** | Country: United States
+15 MW; at the time North America's largest fuel cell facility; Organic Rankine Cycle turbine; 15-year PPA.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Supply/contract values and dollar years; Siemens collaboration details
+
+### Brookfield AI infrastructure power projects (brookfield-ai-infrastructure-power-projects)
+Status: **operating** | Country: Singapore
+USD 25 billion financing framework to build and finance rapid power for AI infrastructure; no individual sites named.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Oracle contract value; NTT DATA contract value and named countries; Unit capital cost per MW
+
+### Brookfield-Bloom AI factory power financing framework (brookfield-bloom-ai-factory-power-financing-framework)
+Status: **operating** | Country: Singapore
+USD 25 billion framework integrates power, compute, data centre infrastructure and capital; no individual sites named.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Named projects and practical completion dates
+
+### Cheyenne, WY data centre site (cheyenne-wy-data-centre-site)
+Status: **operating** | Country: USA
+120 MW of natural gas generators and 130 MW of diesel; facility F025213, permit P0027701 covers 40 Jenbacher J620 3 MW natural gas generators.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Global (non-US) data-centre genset fleet counts; Failure-rate statistics for data-centre diesel gensets; Dollar year for $1 billion-scale project costs in this item
+
+### Colossus 1 on-site gas turbine power station (colossus-1-on-site-gas-turbine-power-station)
+Status: **operating** | Country: United States
+Memphis, Tennessee; captive data-centre power; 15 permitted Solar SMT-130 turbines; permit expires 2 January 2027
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Actual site electricity consumption; Peak unpermitted turbine capacity (approx. 421–422 MW reported elsewhere); Cost of turbine installation
+
+### Corban data-centre engine supply (HD Hyundai) (corban-data-centre-engine-supply-hd-hyundai)
+Status: **operating** | Country: US
+1 GW, $676m; analyst judges this likely engine supply rather than a complete plant.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Monetary value of the Wartsila 507 MW, INNIO 1.1 GW, VoltaGrid 1.5 GW and Caterpillar 2 GW orders; Customer identity for several large orders
+
+### CoreWeave Volo data centre fuel cell installation (coreweave-volo-data-centre-fuel-cell-installation)
+Status: **operating** | Country: United States
+High-density deployment with advanced cooling for cloud-based AI computing
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: MW capacity and contract value; Confirmation of Q3 2025 commissioning
+
+### Cost-scope methodology: equipment price versus package versus installed plant (cost-scope-methodology-equipment-price-versus-package-vers)
+Status: **operating** | Country: Singapore
+Sources explicitly warn that $/kW figures are not comparable until scope, output basis and dollar year are stated. HTR and SecondWatt provide sourced scope ladders; EIA provides a line-item breakdown. Escalation factors named by HTR are recorded, not applied.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Standalone generator $/kVA
+
+### Crane Clean Energy Center / TMI Unit 1 restart (crane-clean-energy-center-tmi-unit-1-restart)
+Status: **operating** | Country: United States
+Londonderry Township, Pennsylvania; 835 MW; 20-year Microsoft PPA; 3,400 direct and indirect jobs; expected online 2028
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Restart capital expenditure; PPA strike price and contract value; Annual MWh output
+
+### Daigas Energy ANNEX Torishima hydrogen CHP demonstration (daigas-energy-annex-torishima-hydrogen-chp-demonstration)
+Status: **operating** | Country: JP
+EP400G 400 kW CHP on 30 vol% hydrogen in municipal gas; same rated output and efficiency as gas-only
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: EP400G electrical and thermal efficiency; TECO and Honda small gas gensets; Malaysia-specific gas engine installation
+
+### Delta Capacity pan-European BESS portfolio (delta-capacity-pan-european-bess-portfolio)
+Status: **operating** | Country: Singapore
+Projects planned across Scandinavia, Germany, Southern and Central Europe; Delta Capacity is executing the largest project in the Nordics to date in Ånge, Sweden. No individual Sungrow project value printed.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Data-centre-specific supply contract; Contract value
+
+### Derby Fuel Cell System (derby-fuel-cell-system)
+Status: **operating** | Country: United States
+14 MW, 10 fuel cell modules, second largest in North America; Class I Renewable Energy under 20-year agreements with Eversource and United Illuminating; Bridgeport and Derby systems support grid infrastructure serving eight data centres in Connecticut.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Supply/contract values and dollar years; Siemens collaboration details
+
+### Dettenhausen municipal heat and power (dettenhausen-municipal-heat-and-power)
+Status: **operating** | Country: DE
+1 x J416; 999 kW electrical, 1,232 kW thermal; natural gas
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: J624 bore and stroke; availability/reliability figure for Type 6
+
+### Digital Realty grid-interactive UPS / EirGrid DS3 (digital-realty-grid-interactive-ups-eirgrid-ds3)
+Status: **operating** | Country: Ireland
+Nine data centres provide dynamic frequency response from UPS batteries under EirGrid's Delivering a Secure, Sustainable Electricity System (DS3) programme.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Date of the Digital Realty / EirGrid DS3 deployment; Measured round-trip efficiency and cycle life of data-centre UPS lithium-ion batteries
+
+### Duane Arnold restart, Iowa / Georgia Power uprates (duane-arnold-restart-iowa-georgia-power-uprates)
+Status: **operating** | Country: United States
+Part of Google's stated >1.5 GW of enabled new nuclear capacity from uprates and restarts
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: FID, construction start and online dates; Google's offtake MW for Duane Arnold and Georgia
+
+### Electricity, PPA and capacity prices faced by data centres (electricity-ppa-and-capacity-prices-faced-by-data-centres)
+Status: **operating** | Country: Singapore
+PPA values are labelled by source as analyst estimate, derived arithmetic or disclosed notional value. Behind-the-meter and grid prices are kept side by side; analyst premiums are quoted, not recomputed.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Contract price for Microsoft/Crane, Meta/Clinton, Vistra/Comanche Peak and Google/Duane Arnold PPAs
+
 ### Equinix Bloom Energy fuel-cell programme (equinix-bloom-fuel-cell-programme)
 Status: **operating** | Country: US
 Equinix's decade-long partnership with Bloom Energy, expanded in 2025, deploying more than 100 MW of natural-gas solid-oxide fuel cells at about 19 data centres as on-site generation that bypasses grid interconnection queues and improves power reliability for colocation customers.
@@ -700,10 +874,418 @@ Technologies: idc-smr-fuel-cell-ppa
 Capacity: fuel-cell capacity deployed:  MW
 Recorded gaps: site-by-site capacity list
 
+### Equinix–Bloom on-site fuel cell programme (US portfolio) (equinix-bloom-on-site-fuel-cell-programme-us-portfolio)
+Status: **operating** | Country: United States
+Grid-supplementing generation at IBX facilities; avoids new transmission and substation build
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Per-site capacities and dollar value
+
+### Forsa Energy peaking plant, Manchester (forsa-energy-peaking-plant-manchester)
+Status: **operating** | Country: GB
+9 x J624, 40.5 MW electrical, natural gas; described by vendor as a peaking plant delivering reliable power when needed
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: J624 bore and stroke; availability/reliability figure for Type 6
+
+### Fritzens wastewater treatment plant, Austria (fritzens-wastewater-treatment-plant-austria)
+Status: **operating** | Country: Austria
+Two sewage-gas J312 engines, more than 1.27 MW electrical and 1.4 MW thermal; supplies the plant's entire annual power demand; commissioned 2016 and 2023.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Measured multi-year availability of gas engine data-centre plants; Jenbacher 'up to 98% availability' and '8,000 engines delivered since 1988'; ISO 8528-6:2023 test-method content
+
+### Gas fuel price and delivered-energy cost evidence (gas-fuel-price-and-delivered-energy-cost-evidence)
+Status: **operating** | Country: Singapore
+Fuel assumptions and realised fuel-cost evidence. Lazard's $3.45/MMBtu is a modelling assumption held constant for year-over-year comparison, not a market quote; IEEFA and Rabobank quote forecasts separately.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Firm gas transportation contract price for a specific data-centre plant
+
+### Gas turbine and combined-cycle installed cost benchmarks 2021–2026 (government, benchmark and analyst figures) (gas-turbine-and-combined-cycle-installed-cost-benchmarks-2)
+Status: **operating** | Country: Singapore
+Dated $/kW evidence for simple-cycle turbines and combined-cycle plants. The same technology carries materially different figures depending on dollar year, plant size, output basis (ISO/net) and whether financing is included. All figures preserved in the currency and basis stated by the page.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Equipment price for the Monarch / Caterpillar 2 GW engine order
+
+### Gas-engine / genset installed cost benchmarks for data-centre behind-the-meter power (conflicting figures kept side by side) (gas-engine-genset-installed-cost-benchmarks-for-data-centr)
+Status: **operating** | Country: Singapore
+Dated installed/package cost evidence for reciprocating gas-engine plants. Figures are deliberately NOT reconciled: scope (equipment, package, package+BOP, EPC installed) and dollar year differ by source. Rabobank and Nodus are analyst estimates; EIA is a government statistical aggregate; HTR is an analyst white paper; WWU/SGN is a consultant study; USP&E is an EPC/vendor planning range.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Most OEM data-centre engine order values; Single consistent $/kW definition across all engine benchmarks
+
+### GDS Singapore data centre — Bloom fuel cells (gds-singapore-data-centre-bloom-fuel-cells)
+Status: **operating** | Country: Singapore
+SK ecoplant to build; Bloom Energy Servers; modular on-site power to work around grid constraints
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: GDS project MW and commissioning date; Contract value
+
+### Google-Kairos Power 500 MW clean-electricity PPA (google-kairos-power-500-mw-clean-electricity-ppa)
+Status: **operating** | Country: United States
+Master Plant Development Agreement: multiple KP-FHR advanced reactor plants, with energy, ancillary services and environmental attributes sold to Google under PPAs to support 24/7 carbon-free energy goals.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Published PPA strike price and dollar year for a named data-centre renewable deal; Storage duration paired with a specific data-centre renewable PPA
+
+### Google-Kairos Power advanced nuclear fleet offtake (google-kairos-power-advanced-nuclear-fleet-offtake)
+Status: **operating** | Country: United States
+Kairos develops, constructs and operates a series of KP-FHR plants and sells energy, ancillary services and environmental attributes to Google under PPAs. Google stated it has signed more than 115 clean-energy agreements totalling over 14 GW since 2010.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Published USD $/kW or LCOE for BTM gas at a named data centre; Named gas-engine data centre project with a dated commissioning milestone in APAC
+
+### Google–Constellation nuclear uprate programme (Illinois, Pennsylvania, New Jersey) (google-constellation-nuclear-uprate-programme-illinois-pen)
+Status: **operating** | Country: United States
+20-year PPA; also includes load shaping/demand response and five-year Google Cloud technology alliance
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Per-unit uprate allocation; PPA price
+
+### Green Rocks data centre / KMW peaking plant, Mainz (green-rocks-data-centre-kmw-peaking-plant-mainz)
+Status: **operating** | Country: Germany
+Part of plant capacity expected to be available to Green Rocks data centre being built by KMW and Green Mountain
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Share of plant capacity dedicated to the data centre; Contract value
+
+### Gyeonggi Green Energy fuel cell system (gyeonggi-green-energy-fuel-cell-system)
+Status: **operating** | Country: South Korea
+58.8 MW at Hwaseong Baran Industrial Complex; 42 carbonate fuel cell modules; seven-year service agreement; described as the world's largest fuel cell power system.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Supply/contract values and dollar years; Siemens collaboration details
+
+### HanseWerk Natur hydrogen CHP, Hamburg-Othmarschen (hansewerk-natur-hydrogen-chp-hamburg-othmarschen)
+Status: **operating** | Country: DE
+1 MW class gas engine converted to run on hydrogen, supplying district heat and buildings
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Cost of 100% hydrogen conversion; Dated CO2 price basis for hydrogen saving
+
+### Historical LCOE and cost trend series spanning the 2016–2026 retrospective window (historical-lcoe-and-cost-trend-series-spanning-the-2016-20)
+Status: **operating** | Country: Singapore
+Annual benchmark series provide the only readable dated cost trend evidence covering the full decade. Lazard's historical chart is an analyst series; EIA figures are government assumptions with explicitly stated dollar years. Values from different dollar years are not converted.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Dated EIA installed-cost tables for 2016-2023
+
+### Holzheim biogas CHP (holzheim-biogas-chp)
+Status: **operating** | Country: DE
+2 x J420, 4.48 MWe / 4.52 MWth, biogas
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Type 4 bore and stroke; Measured availability of the 2024 NorthC installation
+
+### INNIO 1.1 GW Jenbacher J624 order (innio-1-1-gw-jenbacher-j624-order)
+Status: **operating** | Country: US
+More than 200 containerised J624 engines for behind-the-meter prime power; customer not disclosed under confidentiality practice.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Monetary value of the Wartsila 507 MW, INNIO 1.1 GW, VoltaGrid 1.5 GW and Caterpillar 2 GW orders; Customer identity for several large orders
+
+### Intel Santa Clara HPC data centre expansion (intel-santa-clara-hpc-data-centre-expansion)
+Status: **operating** | Country: United States
+Grid-parallel or fully islanded Grid Independent configurations; 700+ petabytes storage and 800,000+ network ports
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Additional MW
+
+### Jenbacher CCHP data centre reference installations (jenbacher-cchp-data-centre-reference-installations)
+Status: **operating** | Country: China / Germany / Italy
+Brochure cites 800 CCHP systems globally; real business-case example uses 9.8 euro-cent/kWh electricity and 2.85 euro-cent/kWh gas (EUR, not USD — not recorded in prices array)
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Commissioning dates for Karlsruhe and Vodafone Village; USD project costs
+
+### Jurong Island low-carbon data centre park (jurong-island-low-carbon-data-centre-park)
+Status: **operating** | Country: Singapore
+Singapore allocated 20 hectares on Jurong Island for a low-carbon data centre park potentially supporting up to 700 MW; Jurong Island is Singapore's energy and chemicals hub with natural gas, biofuels and potential hydrogen/ammonia supply chains.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Malaysia-specific interconnection and substation lead times for data centres; Named utility interconnection agreement with a published 2016-2026 date
+
+### Kitakyushu Factory (tentative name) (kitakyushu-factory-tentative-name)
+Status: **operating** | Country: Japan
+Koyomachi, Wakamatsu Ward, Kitakyushu City, Fukuoka Prefecture; site area 62,000 square metres; core production base for Yanmar Energy System Manufacturing Co., Ltd.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Investment amount for Kitakyushu factory; Named data-centre customer contracts
+
+### Korean Southern Power Company (KOSPO) fuel cell system (korean-southern-power-company-kospo-fuel-cell-system)
+Status: **operating** | Country: South Korea
+20 MW clean baseload power and useful heat for district energy applications.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Supply/contract values and dollar years; Siemens collaboration details
+
+### Los Toldos II Este flare-gas power (los-toldos-ii-este-flare-gas-power)
+Status: **operating** | Country: AR
+8 x J420, 12 MW electrical, associated petroleum/flare gas; vendor describes unblocking computing by monetising flare gas
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Type 4 bore and stroke; Measured availability of the 2024 NorthC installation
+
+### Loudoun County campus (unnamed), Virginia (loudoun-county-campus-unnamed-virginia)
+Status: **operating** | Country: USA
+Estimated maximum grid load of about 360 MW; 245 generators totalling 715 MW; built to 2N UPS redundancy according to Digital Realty.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Global (non-US) data-centre genset fleet counts; Failure-rate statistics for data-centre diesel gensets; Dollar year for $1 billion-scale project costs in this item
+
+### Major Brazilian power plant projects (full engineering and construction delivery) (major-brazilian-power-plant-projects-full-engineering-and)
+Status: **operating** | Country: Brazil
+Only the press-release headline and date were read on the Wärtsilä news index.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Customer name and contract value; Brazil EPC scope and value
+
+### McCloud generation facility (El Paso Electric / Wurldwide-Meta) (mccloud-generation-facility-el-paso-electric-wurldwide-met)
+Status: **operating** | Country: US
+366 MW net peak from 813 modular 450 kW gas generators on 31 acres adjacent to the Meta data centre in northeast El Paso County; 225 MW continuous at ~95% load factor during bridge period; EPE owns, Enchanted Rock engineers/procures/constructs/operates/maintains; no RFP or cost-benefit analysis was conducted.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Enchanted Rock EPC contract value; Reconciliation of $499.8m versus $551.8m
+
+### Meta–TerraPower Natrium deployment (location not stated in read source) (meta-terrapower-natrium-deployment-location-not-stated-in)
+Status: **operating** | Country: United States
+First Natrium plant under development per TerraPower; powers grids supporting Meta operations; no financial terms disclosed
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Plant location; Funding amount and power price
+
+### Meta–Vistra nuclear PPA package (Perry, Davis-Besse, Beaver Valley) (meta-vistra-nuclear-ppa-package-perry-davis-besse-beaver-v)
+Status: **operating** | Country: United States
+20-year PPAs covering 2,609 MW; delivery into PJM; supports Meta's Prometheus supercluster in New Albany, Ohio
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: PPA price / contract value; Aggregate uprate capital expenditure
+
+### Microsoft–Plug 3 MW hydrogen backup generator demonstration (microsoft-plug-3-mw-hydrogen-backup-generator-demonstratio)
+Status: **operating** | Country: United States
+Used low-carbon 'blue' hydrogen by-product from chlor-alkali production; Microsoft plans green hydrogen only in production datacentres
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Commercial deployment date and site; System cost
+
+### Monarch Compute Campus, Mason County, West Virginia (monarch-compute-campus-mason-county-west-virginia)
+Status: **operating** | Country: US
+Caterpillar G3500 reciprocating engines for 2 GW on-site generation tied to Microsoft and NVIDIA; reported as 2 GW Caterpillar engine capacity by RaboResearch and by Power Engineering via Nodus.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Monetary value of the Wartsila 507 MW, INNIO 1.1 GW, VoltaGrid 1.5 GW and Caterpillar 2 GW orders; Customer identity for several large orders
+
+### Noeul Green Energy fuel cell system (noeul-green-energy-fuel-cell-system)
+Status: **operating** | Country: South Korea
+20 MW carbonate fuel cell baseload power and useful heat for regional energy network.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Supply/contract values and dollar years; Siemens collaboration details
+
+### NorthC data centre (northc-data-centre)
+Status: **operating** | Country: NL
+6 x J420, 6 MWe, dual-gas natural gas/hydrogen; evidence of load-following and lower-carbon data-centre supply
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Type 4 bore and stroke; Measured availability of the 2024 NorthC installation
+
+### NorthC data centre, Eindhoven (northc-data-centre-eindhoven)
+Status: **operating** | Country: NL
+6 MWe from 6 x J420 dual-gas engines, with hydrogen plan
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Measured ramp rate of the NorthC installation; Black-start and island-mode demonstration for these 2024-2026 plants
+
+### NTT Global Data Centers portfolio (ntt-global-data-centers-portfolio)
+Status: **operating** | Country: Singapore
+900 MW of onsite power across multiple data centre projects globally; described as Bloom Energy's largest international project to date; countries not named in the release.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Oracle contract value; NTT DATA contract value and named countries; Unit capital cost per MW
+
+### NTT Global Data Centers portfolio onsite power programme (ntt-global-data-centers-portfolio-onsite-power-programme)
+Status: **operating** | Country: Singapore
+900 MW of Bloom fuel cell onsite power across multiple data centre projects globally; no countries or sites named in the release.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Named countries/sites and contract value
+
+### Oklo Aurora power campus, Pike County, Ohio (oklo-aurora-power-campus-pike-county-ohio)
+Status: **operating** | Country: United States
+Multiple Aurora Powerhouses; fast-reactor designs using fresh and repurposed fuel; grid supply to PJM
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Number of Aurora units and individual rating; Funding and prepayment amount
+
+### Operations, maintenance and life-extension cost evidence (operations-maintenance-and-life-extension-cost-evidence)
+Status: **operating** | Country: Singapore
+Fixed and variable O&M from modelling benchmarks and a regulatory case, plus government-commissioned refurbishment and repowering costs. GBP figures preserved as printed.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Long-term service agreement (LTSA) prices for data-centre engine fleets
+
+### Oracle US AI and cloud infrastructure projects (oracle-us-ai-and-cloud-infrastructure-projects)
+Status: **operating** | Country: United States
+Master services agreement; fuel cells support higher-density AI workloads and a technology platform aligned to emerging 800 V dc standards.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Oracle contract value; NTT DATA contract value and named countries; Unit capital cost per MW
+
+### Oracle US AI/cloud infrastructure onsite fuel cell deployment (oracle-us-ai-cloud-infrastructure-onsite-fuel-cell-deploym)
+Status: **operating** | Country: United States
+Fuel cells support Oracle projects in the US and AI workloads; specific site names not given.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Contract value and site locations
+
+### PacificLight Jurong Island hydrogen-ready power plant (pacificlight-jurong-island-hydrogen-ready-power-plant)
+Status: **operating** | Country: Singapore
+At least 600 MW, estimated ~$1 billion, operation slated for 2029, capable of burning at least 30% hydrogen with the balance natural gas.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Operating reliability of the PacificLight plant; Singapore EMA grid code requirements for data centres; Dollar years for the $1 billion and $2.8 billion figures
+
+### Pan-European BESS portfolio (1 GWh framework) (pan-european-bess-portfolio-1-gwh-framework)
+Status: **operating** | Country: Singapore
+Focus on Scandinavia, Germany, Southern and Central Europe; includes the largest project in the Nordics to date in Ånge, Sweden; target over 6 GWh by 2030.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Framework value
+
+### Port Westward Unit 2, Portland Oregon (port-westward-unit-2-portland-oregon)
+Status: **operating** | Country: US
+50SG engines provide peaking power without efficiency loss, balancing wind and solar variability
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Measured NOx values for 31SG/50SG;  priced 31SG/50SG genset
+
+### Prometheus Hyperscale, Texas (prometheus-hyperscale-texas)
+Status: **operating** | Country: USA
+Plans to use gas-fired generators plus batteries as bridging power for five years until grid connection.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Global (non-US) data-centre genset fleet counts; Failure-rate statistics for data-centre diesel gensets; Dollar year for $1 billion-scale project costs in this item
+
+### Pure DC Dublin off-grid microgrid (pure-dc-dublin-off-grid-microgrid)
+Status: **operating** | Country: Ireland
+Described by Pure DC/AVK/Wärtsilä as Europe's first large-scale off-grid data-centre microgrid
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Contract value and EPC price; Commercial operation date
+
+### Quality Technology Services data centre, Eagle Mountain, Utah (quality-technology-services-data-centre-eagle-mountain-uta)
+Status: **operating** | Country: USA
+Utah approval order DAQ-2025-002983, 17 June 2025, covering 310 Tier 2 generators with SCR; 800 MWe total, 8,400 gallon belly tanks each, 2.6 million gallons stored, 48 hours at 100% load and about 90 hours at typical load.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Global (non-US) data-centre genset fleet counts; Failure-rate statistics for data-centre diesel gensets; Dollar year for $1 billion-scale project costs in this item
+
+### Shandong Minhe Biological Technology biogas plant, China (shandong-minhe-biological-technology-biogas-plant-china)
+Status: **operating** | Country: China
+Three Jenbacher J320 biogas engines commissioned 2009 plus one J620 added 2018; 6.2 MW electrical and 6.4 MW thermal output.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Measured multi-year availability of gas engine data-centre plants; Jenbacher 'up to 98% availability' and '8,000 engines delivered since 1988'; ISO 8528-6:2023 test-method content
+
+### Shunan City hydrogen fuel cell data centre (shunan-city-hydrogen-fuel-cell-data-centre)
+Status: **operating** | Country: Japan
+Distributed data centre operated by Mitsubishi; uses by-product hydrogen
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Capacity and contract value
+
+### Sources attempted but unreadable — no figures asserted (sources-attempted-but-unreadable-no-figures-asserted)
+Status: **operating** | Country: Singapore
+Blocked or unreadable pages are recorded with page_read:false and contribute no figures. This item exists to make the evidence boundary explicit.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: All figures that may be present in the unreadable sources
+
+### SpaceDC data centre campus, Jakarta (spacedc-data-centre-campus-jakarta)
+Status: **operating** | Country: Indonesia
+Uses Rolls-Royce mtu gas and diesel systems with exhaust gas aftertreatment for baseload and emergency power plus cooling.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Named data-centre genset supply contracts and values; AVK packager role; Dollar year for USD 24 million
+
+### Stated cost methodology and trends: behind-the-meter versus grid, modular versus conventional plant (stated-cost-methodology-and-trends-behind-the-meter-versus)
+Status: **operating** | Country: Singapore
+Method statements and trends quoted from pages actually read. These are source-authored interpretations, preserved as such rather than re-derived.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Underlying load profiles and gas-price assumptions for the MTU TCO simulations
+
+### Susquehanna–AWS data campus (Cumulus) (susquehanna-aws-data-campus-cumulus)
+Status: **operating** | Country: United States
+Salem Township, Pennsylvania; two-unit BWR; SMR and uprate exploration included in agreement; 1,250 jobs cited by AWS
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Notional PPA revenue; PPA strike price; SMR technology and site selection
+
+### Synapse Data Center Campus, Olds, Alberta (synapse-data-center-campus-olds-alberta)
+Status: **operating** | Country: Canada
+Ten identical data centres each with a 140 MW combined-cycle power block (2 x 50 MW aeroderivative gas turbines plus 40 MW steam turbine), islanded at 13.8 kV, plus 600 portable diesel backup generators across the campus. Each block includes dual-path SCR and UPS batteries.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Independent decommissioning cost for a US data-centre gas plant; New Athens Generating 2024 decommissioning study
+
+### Synapse Data Center power plant, Olds, Alberta — SCR emissions control (synapse-data-center-power-plant-olds-alberta-scr-emissions)
+Status: **operating** | Country: Canada
+Each 140 MW combined-cycle block has dual-path SCR (high-temperature zeolite and low-temperature vanadium catalyst grids), ammonia injection and a bypass-stack SCR path; SCR catalyst is treated as hazardous material in the decommissioning estimate.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Incremental SCR capital and operating cost per turbine, and NOx CEMS cost; Emissions compliance cost specific to data-centre engine fleets
+
+### Tokyo Gas Yokohama Techno Station methanation CHP (tokyo-gas-yokohama-techno-station-methanation-chp)
+Status: **operating** | Country: JP
+35 kW synthetic-methane micro-CHP based on CP35D2
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: EP400G electrical and thermal efficiency; TECO and Honda small gas gensets; Malaysia-specific gas engine installation
+
+### Trinity College fuel cell system (trinity-college-fuel-cell-system)
+Status: **operating** | Country: United States
+1.4 MW system in Hartford, Connecticut, delivering low-emission power and thermal energy on an urban campus.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Supply/contract values and dollar years; Siemens collaboration details
+
+### UK mtu gas genset fleet (uk-mtu-gas-genset-fleet)
+Status: **operating** | Country: United Kingdom
+Stated in the October 2025 article; no individual project named.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Named data-centre genset supply contracts and values; AVK packager role; Dollar year for USD 24 million
+
+### Undisclosed US mega-scale data-centre campus developer/operator (name not disclosed) (undisclosed-us-mega-scale-data-centre-campus-developer-ope)
+Status: **operating** | Country: United States
+Containerised Jenbacher J624 solutions; 500 MW covered by long-term full maintenance agreement through a major overhaul.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Customer identity; Contract value / USD price for 1.1 GW and 620 MW orders; Specific site locations and delivery dates
+
+### Unnamed US data centre — 507 MW Wärtsilä engine plant (unnamed-us-data-centre-507-mw-w-rtsil-engine-plant)
+Status: **operating** | Country: United States
+Off-grid continuous primary power; natural gas with future sustainable-fuel conversion
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Customer identity and exact site; Order value
+
+### UPS, battery energy storage and electrical balance-of-plant costs for data centres (ups-battery-energy-storage-and-electrical-balance-of-plant)
+Status: **operating** | Country: Singapore
+Storage and electrical infrastructure costs, including explicitly labelled analyst estimates (grade D) for 800 V DC architecture. Currency and dollar year preserved as printed; no cross-source escalation applied.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Published contract price for a data-centre UPS or solid-state transformer order; Standalone generator $/kVA
+
+### US data centre project of a major US independent power producer (us-data-centre-project-of-a-major-us-independent-power-pro)
+Status: **operating** | Country: United States
+282 MW onsite power solution with 15 Wärtsilä 50SG engines; developer described only as a major US independent power producer.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Customer name and contract value; Brazil EPC scope and value
+
+### VoltaGrid AI data centre power programme (voltagrid-ai-data-centre-power-programme)
+Status: **operating** | Country: United States
+Modular natural-gas power packs for AI data centres; portable data centre power offering
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Customer and site details; Delivery schedule and order value
+
+### Wangdee Biogas power plant, Thailand (wangdee-biogas-power-plant-thailand)
+Status: **operating** | Country: Thailand
+Four Jenbacher J320 engines on biogas from cassava-root processing; 4.27 MW electrical output, more than the processing plant needs; commissioned 2015, 2021 and 2023. APAC/SEA evidence.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Measured multi-year availability of gas engine data-centre plants; Jenbacher 'up to 98% availability' and '8,000 engines delivered since 1988'; ISO 8528-6:2023 test-method content
+
+### Wartsila 507 MW US data-centre order (customer undisclosed) (wartsila-507-mw-us-data-centre-order-customer-undisclosed)
+Status: **operating** | Country: US
+27 x Wartsila 50SG engines, continuous primary power, natural gas with future sustainable-fuel conversion capability.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Monetary value of the Wartsila 507 MW, INNIO 1.1 GW, VoltaGrid 1.5 GW and Caterpillar 2 GW orders; Customer identity for several large orders
+
+### Wellington Stage 1 Battery Energy Storage System (wellington-stage-1-battery-energy-storage-system)
+Status: **operating** | Country: Australia
+300 MW / 600 MWh in Wellington, New South Wales, for AMPYR Australia; AMPYR's first grid-scale BESS to reach financial close in Australia; AMPYR targets 6,000 MWh of operational BESS by 2030 and describes its batteries as powering hyperscale data centres.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Contract value; Data-centre-specific BESS contract
+
+### Wellington Stage 1 BESS (wellington-stage-1-bess)
+Status: **operating** | Country: Australia
+300 MW / 600 MWh in Wellington, New South Wales; AMPYR targets 6,000 MWh of operational BESS by 2030 and up to 20% of Australia's future battery storage demand.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Project value and named data-centre offtakers
+
+### Winthrop hyperscale data centre gas engine power plant, Dublin (winthrop-hyperscale-data-centre-gas-engine-power-plant-dub)
+Status: **operating** | Country: Ireland
+Island-mode operation independent of the national grid during peak times; myPlant cloud monitoring; future hydrogen conversion capability
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: End customer and contract value; Actual commissioning confirmation
+
+### Worksop 10 MW power plant with CO2 recovery (worksop-10-mw-power-plant-with-co2-recovery)
+Status: **operating** | Country: United Kingdom
+Six mtu Series 4000 L64FNER CHP units; 10-year maintenance contract; up to 30,000 t/yr CO2 capture for beverage carbonation.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Named data-centre genset supply contracts and values; AVK packager role; Dollar year for USD 24 million
+
+### Yaphank Fuel Cell System (yaphank-fuel-cell-system)
+Status: **operating** | Country: United States
+7.4 MW installation in Brookhaven, New York; supports critical grid infrastructure serving six operating data centres; developed on a former landfill.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Supply/contract values and dollar years; Siemens collaboration details
+
 ### GW Ranch campus (Amazon, developed by Pacifico Energy) (gw-ranch-campus)
 Status: **proposed** | Country: United States
 Data-centre campus powered by behind-the-meter solar and storage; announced, not built.
 Technologies: idc-onsite-solar-storage
+
+### VoltaGrid proposed data centre, Covington, GA (voltagrid-proposed-data-centre-covington-ga)
+Status: **proposed** | Country: USA
+Proposed use of natural gas generators as primary power for a relatively small 90 MW data centre.
+Technologies: idc-datacentre-power-and-modular-gas-ten-year-retrospective
+Recorded gaps: Global (non-US) data-centre genset fleet counts; Failure-rate statistics for data-centre diesel gensets; Dollar year for $1 billion-scale project costs in this item
 
 ### AirTrunk Malaysia hyperscale platform (JHB1-JHB4, Johor Bahru) (airtrunk-malaysia-platform)
 Status: **under-construction** | Country: MY

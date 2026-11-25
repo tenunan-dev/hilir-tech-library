@@ -1,0 +1,25 @@
+{
+  "id": "dcp-cummins-com-201802-powerhour-common-20failur-6944984",
+  "name": "Common failure modes of Data Center back up power systems",
+  "url": "https://www.cummins.com/sites/default/files/2018-08/201802_PowerHour_Common%20failure%20modes%20of%20Data%20Center%20back%20up%20power%20systems.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Cummins Power Generation",
+  "access": "open",
+  "licence": "Copyright 2016 Cummins Power Generation; licence not further stated",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via https://r.jina.ai/ proxy; vendor view with cited Ponemon and 451 Research figures."
+}

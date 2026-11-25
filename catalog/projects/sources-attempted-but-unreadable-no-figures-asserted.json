@@ -1,0 +1,47 @@
+{
+  "id": "sources-attempted-but-unreadable-no-figures-asserted",
+  "name": "Sources attempted but unreadable — no figures asserted",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Blocked or unreadable pages are recorded with page_read:false and contribute no figures. This item exists to make the evidence boundary explicit.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.reuters.com/business/energy/tech-giants-take-us-nuclear-industry-next-level-2024-11-05",
+      "note": "Blocked or unreadable pages are recorded with page_read:false and contribute no "
+    },
+    {
+      "url": "https://www.reuters.com/business/energy/tech-giants-take-us-nuclear-industry-next-level-2024-11-05"
+    },
+    {
+      "url": "https://www.datacentres.com/guides/data-centre-power-procurement"
+    },
+    {
+      "url": "https://documents.dps.ny.gov/public/Common/ViewDoc.aspx?DocRefId=%7B20788F94-0000-CC5D-91CC-632B49B3A9F1%7D&DocTitle=NAGC%20981%202024%20-%20Decommissioning%20Study"
+    },
+    {
+      "url": "https://www.willkie.com/publications/2025/11/on-site-power-for-data-centers-series-commercial-considerations-and-infrastructure-costs"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "All figures that may be present in the unreadable sources",
+      "why": "Pages were blocked by 401, 403, CAPTCHA or unsupported content type",
+      "next_action": "Retry through an authorised channel or an alternate official host and read directly before recording any figure"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

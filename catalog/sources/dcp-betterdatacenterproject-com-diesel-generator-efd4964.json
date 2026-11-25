@@ -1,0 +1,25 @@
+{
+  "id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964",
+  "name": "Diesel Generators at Data Centers: Status, Impacts, and Protective Practices, Version 1, March 2026",
+  "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Better Data Center Project (with Environmental Protection Network reviewers)",
+  "access": "open",
+  "licence": "Version 1, March 2026; reuse terms not stated",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via https://r.jina.ai/ proxy. Permit numbers, fleet counts and emissions table transcribed from the report; advocacy framing noted."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dcp-patents-google-com-en-1d5a567",
+  "name": "CA3255249A1 Method for operating an internal combustion engine",
+  "url": "https://patents.google.com/patent/CA3255249A1/en",
+  "source_type": "patents",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Innio Jenbacher GmbH & Co OG",
+  "access": "open",
+  "licence": "patent publication",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Patent CA3255249A1: Read via r.jina.ai on Google Patents. Priority/filing 2022-05-24, publication 2023-11-30, status pending at reading; classification explicitly covers plural gaseous fuels including hydrogen, ammonia or carbon monoxide, ignition control and NOx minimisation."
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dcp-yanmar-com-139269-html-3e24a70",
+  "name": "Yanmar 400 kW 30% hydrogen CHP news release",
+  "url": "https://www.yanmar.com/global/energy/news/2024/07/05/139269.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "H2"
+  ],
+  "disciplines": [
+    "PRC",
+    "HSE"
+  ],
+  "regions": [
+    "apac",
+    "sea"
+  ],
+  "publisher_org": "Yanmar Holdings Co., Ltd.",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Direct WebFetch returned 403; full release read via https://r.jina.ai/<url> on 2026-11-25. Dated 5 July 2024."
+}

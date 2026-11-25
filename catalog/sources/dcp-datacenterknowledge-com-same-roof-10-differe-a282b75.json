@@ -1,0 +1,25 @@
+{
+  "id": "dcp-datacenterknowledge-com-same-roof-10-differe-a282b75",
+  "name": "Same Roof, 10 Different Gases: What a Data Center Is Quietly Holding",
+  "url": "https://www.datacenterknowledge.com/outages/same-roof-10-different-gases-what-a-data-center-is-quietly-holding",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Data Center Knowledge / Informa TechTarget",
+  "access": "open",
+  "licence": "Copyright 2026 TechTarget; licence not further stated",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly, 22 September 2026; author is a gas-detection product manager, so vendor perspective noted."
+}

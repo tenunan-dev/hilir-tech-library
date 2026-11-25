@@ -1,0 +1,104 @@
+{
+  "id": "bloom-energy-data-centre-fleet-milestones-google-equinix-a",
+  "name": "Bloom Energy data-centre fleet milestones (Google, Equinix, AWS, AT&T)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Backgrounder dated February 2023; 1 GW deployed company-wide; over 150 customers across 1,000 sites",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "First installation at Google",
+      "date": "2009",
+      "source": {
+        "url": "https://resources.bloomenergy.com/hubfs/Whitepapers/2023%20Bloom%20Energy_Backgrounder_for_Datacenters-V4.pdf?hsLang=en",
+        "source_id": "dcp-resources-bloomenergy-com-2023-20bloom-20ene-41c7f3b"
+      }
+    },
+    {
+      "event": "First data centre microgrid / 138 kV feed event",
+      "date": "2015",
+      "source": {
+        "url": "https://resources.bloomenergy.com/hubfs/Whitepapers/2023%20Bloom%20Energy_Backgrounder_for_Datacenters-V4.pdf?hsLang=en",
+        "source_id": "dcp-resources-bloomenergy-com-2023-20bloom-20ene-41c7f3b"
+      }
+    },
+    {
+      "event": "Equinix 37 MW announcement",
+      "date": "2018",
+      "source": {
+        "url": "https://resources.bloomenergy.com/hubfs/Whitepapers/2023%20Bloom%20Energy_Backgrounder_for_Datacenters-V4.pdf?hsLang=en",
+        "source_id": "dcp-resources-bloomenergy-com-2023-20bloom-20ene-41c7f3b"
+      }
+    },
+    {
+      "event": "AWS 75 MW project announced",
+      "date": "2023",
+      "source": {
+        "url": "https://resources.bloomenergy.com/hubfs/Whitepapers/2023%20Bloom%20Energy_Backgrounder_for_Datacenters-V4.pdf?hsLang=en",
+        "source_id": "dcp-resources-bloomenergy-com-2023-20bloom-20ene-41c7f3b"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Bloom Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Google (first installation)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Equinix",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Amazon Web Services",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "AT&T",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://resources.bloomenergy.com/hubfs/Whitepapers/2023%20Bloom%20Energy_Backgrounder_for_Datacenters-V4.pdf?hsLang=en",
+      "source_id": "dcp-resources-bloomenergy-com-2023-20bloom-20ene-41c7f3b",
+      "note": "Backgrounder dated February 2023; 1 GW deployed company-wide; over 150 customers"
+    },
+    {
+      "url": "https://resources.bloomenergy.com/hubfs/Whitepapers/2023%20Bloom%20Energy_Backgrounder_for_Datacenters-V4.pdf?hsLang=en",
+      "source_id": "dcp-resources-bloomenergy-com-2023-20bloom-20ene-41c7f3b"
+    },
+    {
+      "url": "https://resources.bloomenergy.com/hubfs/Whitepapers/2023%20Bloom%20Energy_Backgrounder_for_Datacenters-V4.pdf?hsLang=en",
+      "source_id": "dcp-resources-bloomenergy-com-2023-20bloom-20ene-41c7f3b",
+      "note": "Backgrounder dated February 2023; 1 GW deployed company-wide; over 150 customers across 1,000 sites"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "AWS 75 MW project site names and completion status",
+      "why": "Backgrounder gives only the portfolio figure",
+      "next_action": "Fetch Bloom/AWS announcement"
+    },
+    {
+      "what": "Google milestone capacities",
+      "why": "Only 'first installation' dated 2009 is given",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

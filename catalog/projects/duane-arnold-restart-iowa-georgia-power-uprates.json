@@ -1,0 +1,88 @@
+{
+  "id": "duane-arnold-restart-iowa-georgia-power-uprates",
+  "name": "Duane Arnold restart, Iowa / Georgia Power uprates",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Part of Google's stated >1.5 GW of enabled new nuclear capacity from uprates and restarts",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Agreements described in Google's nuclear portfolio update",
+      "date": "2026",
+      "source": {
+        "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+        "source_id": "dcp-blog-google-4293046"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Expected ratepayer benefits from Georgia Power uprate agreement",
+      "year": 2026,
+      "unit": "USD million (as printed)",
+      "basis": "USD, dollar year not stated; 'approximately $900 million in ratepayer benefits' per Google's blog of 6 October 2026",
+      "value": 900000000,
+      "source": {
+        "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+        "source_id": "dcp-blog-google-4293046"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "NextEra Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Google (offtaker/anchor)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Georgia Power",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Google",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+      "source_id": "dcp-blog-google-4293046",
+      "note": "Part of Google's stated >1.5 GW of enabled new nuclear capacity from uprates and"
+    },
+    {
+      "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+      "source_id": "dcp-blog-google-4293046"
+    },
+    {
+      "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+      "source_id": "dcp-blog-google-4293046",
+      "note": "Part of Google's stated >1.5 GW of enabled new nuclear capacity from uprates and restarts"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "FID, construction start and online dates",
+      "why": "Not given in Google's blog",
+      "next_action": "Fetch NextEra and Georgia Power releases"
+    },
+    {
+      "what": "Google's offtake MW for Duane Arnold and Georgia",
+      "why": "Only 'over 600 MW' for Duane Arnold, no Georgia MW stated",
+      "next_action": "Leave Georgia MW as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

@@ -8,6 +8,23 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.25.3] — 2026-11-25 — Data centre power and modular gas generation: 10-year retrospective
+
+Owner-directed sweep of data-centre power plants, gas engines and small/modular power systems over
+2016–2026, researched by six evidence-first agents and ingested into the library.
+
+### Added
+- **97 projects, 125 sources, 59 vendors, 5 drawings, 6 materials** and one technology card with
+  431 sourced performance/cost figures and a register entry.
+- Coverage: data-centre power architecture and outages, gas-engine technology, named PPAs and
+  modular plants, vendors/EPC contractors, dated costs, reliability, standards and patents.
+
+### Verification
+`tools/build.py` 2,090 sources / 401 cards / 1,250 vendors / 430 equipment / 998 projects / 361 products /
+333 drawings / 171 materials; `pytest -q tests` **3,430 passed, 13 skipped**; Neon reloaded with 9,388 nodes,
+33,573 edges and 19,226 vectors.
+
+
 ## [2026.11.25.2] — 2026-11-25 — Mobile production platforms: 20-year retrospective
 
 Owner-directed sweep of mobile production platform technology, projects, vendors, contractors,

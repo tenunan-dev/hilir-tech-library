@@ -1,0 +1,26 @@
+{
+  "id": "dcp-patents-google-com-en-30ee3e8",
+  "name": "Google Patents US11611219B2 — System of critical datacenters and behind-the-meter flexible datacenters",
+  "url": "https://patents.google.com/patent/US11611219B2/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "DIG"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Google Patents (USPTO bibliographic record)",
+  "access": "open",
+  "licence": "public patent record",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch 2026-11-25; individual patent page."
+}

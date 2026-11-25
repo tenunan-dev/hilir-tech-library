@@ -1,0 +1,22 @@
+{
+  "id": "dcp-vendor-multiple-manufacturers-us-doe-representative-syste-edc2d",
+  "name": "multiple manufacturers (US DOE representative systems, not a single OEM)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "multiple manufacturers (US DOE representative systems, not a single OEM) named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

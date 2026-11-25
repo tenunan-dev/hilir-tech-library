@@ -1,0 +1,76 @@
+{
+  "id": "oklo-aurora-power-campus-pike-county-ohio",
+  "name": "Oklo Aurora power campus, Pike County, Ohio",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Multiple Aurora Powerhouses; fast-reactor designs using fresh and repurposed fuel; grid supply to PJM",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Agreement announced",
+      "date": "2026",
+      "source": {
+        "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+        "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2"
+      }
+    },
+    {
+      "event": "Earliest online date",
+      "date": "2030",
+      "source": {
+        "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+        "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Oklo Inc (developer)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Meta Platforms (prepayment and funding)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+      "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2",
+      "note": "Multiple Aurora Powerhouses; fast-reactor designs using fresh and repurposed fue"
+    },
+    {
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+      "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2"
+    },
+    {
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+      "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2",
+      "note": "Multiple Aurora Powerhouses; fast-reactor designs using fresh and repurposed fuel; grid supply to PJM"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Number of Aurora units and individual rating",
+      "why": "Read source gives only campus-level 1.2 GW",
+      "next_action": "Fetch Oklo release for unit-level figures"
+    },
+    {
+      "what": "Funding and prepayment amount",
+      "why": "Not disclosed",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

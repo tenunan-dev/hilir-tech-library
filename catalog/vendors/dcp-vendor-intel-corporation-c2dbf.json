@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-intel-corporation-c2dbf",
+  "name": "Intel Corporation",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Intel Corporation named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://investor.bloomenergy.com/press-releases/press-release-details/2024/Bloom-Energy-Announces-Largest-Silicon-Valley-Data-Center-Power-Capacity-Agreement/default.aspx",
+      "source_id": "dcp-investor-bloomenergy-com-default-aspx-3f3e7fc"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

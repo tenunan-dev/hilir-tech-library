@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-wartsila-ba044",
+  "name": "Wartsila",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Wartsila named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-31sg-gas-engine",
+      "source_id": "dcp-wartsila-com-wartsila-31sg-gas-engine-992d336"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

@@ -1,6 +1,6 @@
 # Technology register
 
-415 technologies across oil, gas, petrochemicals and new energy; 408 have a technology card so far.
+416 technologies across oil, gas, petrochemicals and new energy; 409 have a technology card so far.
 Drafted from general industry knowledge and not yet verified against sources: maturity and examples are indicative.
 Cards (linked) are verified and cite their sources. Source: `catalog/technology-register.yaml`.
 Entries without a card, and the inputs each card still lacks, are listed in [gaps.md](gaps.md).
@@ -72,6 +72,7 @@ Entries without a card, and the inputs each card still lacks, are listed in [gap
 | Wellhead platforms (WHP) | Wellhead platform safety and emergency equipment | commercial | Offshore Malaysia WHPs; minimum-facility designs | [card](technologies-UPS.md#ups-whp-safety-and-emergency-equipment) |
 | Wellhead platforms (WHP) | Minimum-facility wellhead platform structures and marine systems | commercial | Offshore Malaysia WHPs; minimum-facility designs | [card](technologies-UPS.md#ups-whp-platform-structures-and-marine-systems) |
 | Mobile production platforms | Twenty-year mobile production platform development and cost history (2006–2026) | commercial | Floating and mobile production units; dated project and cost evidence | [card](technologies-UPS.md#ups-mobile-production-twenty-year-retrospective) |
+| Data centre and modular power | Ten-year data centre power and modular gas generation retrospective (2016–2026) | commercial | Data centre power and small modular gas generation; dated evidence | [card](technologies-IDC.md#idc-datacentre-power-and-modular-gas-ten-year-retrospective) |
 
 ## MID: Midstream
 

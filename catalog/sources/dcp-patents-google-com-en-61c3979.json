@@ -1,0 +1,25 @@
+{
+  "id": "dcp-patents-google-com-en-61c3979",
+  "name": "US10666087B2 - System for redundant power supply to a data center",
+  "url": "https://patents.google.com/patent/US10666087B2/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Google Patents (USPTO data)",
+  "access": "open",
+  "licence": "Patent publication; Google disclaimer on assignee accuracy",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly; bibliographic data, description and drawing list read."
+}

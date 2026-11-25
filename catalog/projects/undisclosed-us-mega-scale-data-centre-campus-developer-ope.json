@@ -1,0 +1,89 @@
+{
+  "id": "undisclosed-us-mega-scale-data-centre-campus-developer-ope",
+  "name": "Undisclosed US mega-scale data-centre campus developer/operator (name not disclosed)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Containerised Jenbacher J624 solutions; 500 MW covered by long-term full maintenance agreement through a major overhaul.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "1.1 GW data-centre order",
+      "date": "2026",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-620-mw-data-center-follow-on-order/",
+        "source_id": "dcp-innio-com-89d29ef"
+      }
+    },
+    {
+      "event": "620 MW follow-on order and 500 MW long-term service agreement",
+      "date": "2026",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-620-mw-data-center-follow-on-order/",
+        "source_id": "dcp-innio-com-89d29ef"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "INNIO N.V.",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "INNIO Jenbacher",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-620-mw-data-center-follow-on-order/",
+      "source_id": "dcp-innio-com-89d29ef",
+      "note": "Containerised Jenbacher J624 solutions; 500 MW covered by long-term full mainten"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-620-mw-data-center-follow-on-order/",
+      "source_id": "dcp-innio-com-89d29ef"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/magazine/article/near-zero-water-consumption-for-data-center-power-generation/",
+      "source_id": "dcp-innio-com-9aa44b8"
+    },
+    {
+      "url": "https://www.innio.com/en/company/news-media",
+      "source_id": "dcp-innio-com-news-media-f3a0a11"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-620-mw-data-center-follow-on-order/",
+      "source_id": "dcp-innio-com-89d29ef",
+      "note": "Containerised Jenbacher J624 solutions; 500 MW covered by long-term full maintenance agreement through a major overhaul."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Customer identity",
+      "why": "Explicitly withheld under customary data-centre industry confidentiality practices",
+      "next_action": "Do not infer; monitor future filings or customer announcements"
+    },
+    {
+      "what": "Contract value / USD price for 1.1 GW and 620 MW orders",
+      "why": "Not printed in press release",
+      "next_action": "Check INNIO quarterly filings for order value disclosure"
+    },
+    {
+      "what": "Specific site locations and delivery dates",
+      "why": "Not printed",
+      "next_action": "Search customer-side permits if customer becomes known"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

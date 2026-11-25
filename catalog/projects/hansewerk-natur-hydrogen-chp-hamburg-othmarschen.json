@@ -1,0 +1,108 @@
+{
+  "id": "hansewerk-natur-hydrogen-chp-hamburg-othmarschen",
+  "name": "HanseWerk Natur hydrogen CHP, Hamburg-Othmarschen",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "DE",
+  "location": "DE",
+  "status": "operating",
+  "description": "1 MW class gas engine converted to run on hydrogen, supplying district heat and buildings",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "World's first 1 MW hydrogen conversion at HanseWerk Natur",
+      "date": "2020",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+        "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+      }
+    },
+    {
+      "event": "Earlier 150 kW pilot on 100% hydrogen",
+      "date": "2001",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+        "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+      }
+    },
+    {
+      "event": "Ready for H2 portfolio launch",
+      "date": "2021",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+        "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "INNIO Jenbacher",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Clarke Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Wartsila",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "MWM / Caterpillar Energy Solutions",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/energy-sources/hydrogen/",
+      "source_id": "dcp-jenbacher-com-cbc441c",
+      "note": "1 MW class gas engine converted to run on hydrogen, supplying district heat and "
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen",
+      "source_id": "dcp-innio-com-innio-jenbacher-gas-engines-ready-153ccef"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/energy-solutions/energy-sources/hydrogen/",
+      "source_id": "dcp-jenbacher-com-cbc441c"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/sustainable-fuels/future-proofing-flexible-wartsila-engine-power-plants-for-decarbonised-energy-systems",
+      "source_id": "dcp-wartsila-com-future-proofing-flexible-wartsi-efaed5d"
+    },
+    {
+      "url": "https://patents.google.com/patent/CA3255249A1/en",
+      "source_id": "dcp-patents-google-com-en-1d5a567"
+    },
+    {
+      "url": "https://www.iso.org/standard/85962.html",
+      "source_id": "dcp-iso-org-85962-html-071211c"
+    },
+    {
+      "url": "https://patents.google.com/patent/CA3255249A1/en",
+      "source_id": "dcp-patents-google-com-en-1d5a567",
+      "note": "Read via r.jina.ai. IPC classification includes controlling plural gaseous fuels where the gaseous fuel is hydrogen, ammonia or carbon monoxide; priority 2022-05-24."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Cost of 100% hydrogen conversion",
+      "why": "Jenbacher page explicitly says cost and timeline for future conversion vary and must be clarified individually",
+      "next_action": "Obtain a quoted conversion cost with date and currency"
+    },
+    {
+      "what": "Dated CO2 price basis for hydrogen saving",
+      "why": "Jenbacher example uses EUR 85/ton EU ETS and EUR 170,000/year, not USD, so it is not recorded as a USD price",
+      "next_action": "If a USD equivalent is needed, find a dated official FX source before converting"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Gas engine technology). Evidence-first retrospective assembled only from pages actually read with WebFetch or via r.jina.ai (noted per source). New dated material includes: Jenbacher T"
+}

@@ -1,0 +1,75 @@
+{
+  "id": "coreweave-volo-data-centre-fuel-cell-installation",
+  "name": "CoreWeave Volo data centre fuel cell installation",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "High-density deployment with advanced cooling for cloud-based AI computing",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Partnership announced",
+      "date": "2024",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/bloom-energy-and-coreweave-partner-to-revolutionize-ai-data-center-power-solutions/",
+        "source_id": "dcp-bloomenergy-com-ba0d3d3"
+      }
+    },
+    {
+      "event": "Planned commissioning",
+      "date": "2025",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/bloom-energy-and-coreweave-partner-to-revolutionize-ai-data-center-power-solutions/",
+        "source_id": "dcp-bloomenergy-com-ba0d3d3"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Bloom Energy (supplier)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "CoreWeave (customer)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Chirisa Technology Parks (data centre owner)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-and-coreweave-partner-to-revolutionize-ai-data-center-power-solutions/",
+      "source_id": "dcp-bloomenergy-com-ba0d3d3",
+      "note": "High-density deployment with advanced cooling for cloud-based AI computing"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-and-coreweave-partner-to-revolutionize-ai-data-center-power-solutions/",
+      "source_id": "dcp-bloomenergy-com-ba0d3d3"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "MW capacity and contract value",
+      "why": "No capacity figure in the release",
+      "next_action": "Leave as gap"
+    },
+    {
+      "what": "Confirmation of Q3 2025 commissioning",
+      "why": "Only a forward-looking plan",
+      "next_action": "Check later filings"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

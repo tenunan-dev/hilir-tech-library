@@ -1,0 +1,54 @@
+{
+  "id": "pan-european-bess-portfolio-1-gwh-framework",
+  "name": "Pan-European BESS portfolio (1 GWh framework)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Focus on Scandinavia, Germany, Southern and Central Europe; includes the largest project in the Nordics to date in Ånge, Sweden; target over 6 GWh by 2030.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "1 GWh framework agreement with Sungrow",
+      "date": "2026",
+      "source": {
+        "url": "https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership",
+        "source_id": "dcp-sungrowpower-com-sungrow-and-delta-capacity-68b223d"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership",
+      "source_id": "dcp-sungrowpower-com-sungrow-and-delta-capacity-68b223d",
+      "note": "Focus on Scandinavia, Germany, Southern and Central Europe; includes the largest"
+    },
+    {
+      "url": "https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership",
+      "source_id": "dcp-sungrowpower-com-sungrow-and-delta-capacity-68b223d"
+    },
+    {
+      "url": "https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership",
+      "source_id": "dcp-sungrowpower-com-sungrow-and-delta-capacity-68b223d",
+      "note": "Focus on Scandinavia, Germany, Southern and Central Europe; includes the largest project in the Nordics to date in Ånge, Sweden; target over 6 GWh by 2030."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Framework value",
+      "why": "Not printed",
+      "next_action": "Check Delta Capacity disclosures"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

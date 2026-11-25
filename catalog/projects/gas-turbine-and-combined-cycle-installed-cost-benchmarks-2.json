@@ -1,0 +1,197 @@
+{
+  "id": "gas-turbine-and-combined-cycle-installed-cost-benchmarks-2",
+  "name": "Gas turbine and combined-cycle installed cost benchmarks 2021–2026 (government, benchmark and analyst figures)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Dated $/kW evidence for simple-cycle turbines and combined-cycle plants. The same technology carries materially different figures depending on dollar year, plant size, output basis (ISO/net) and whether financing is included. All figures preserved in the currency and basis stated by the page.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "combustion turbine, aeroderivative, base overnight cost",
+      "year": 2021,
+      "unit": "USD/KW (2021$)",
+      "basis": "EIA AEO2022, 105 MW, 2-year lead time, before regional cost factors, interest excluded",
+      "value": 1294,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf",
+        "source_id": "dcp-r-jina-ai-table-8-2-pdf-64134e7"
+      }
+    },
+    {
+      "metric": "combustion turbine, industrial frame, base overnight cost",
+      "year": 2021,
+      "unit": "USD/KW (2021$)",
+      "basis": "EIA AEO2022, 237 MW, 2-year lead time, before regional multipliers",
+      "value": 785,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf",
+        "source_id": "dcp-r-jina-ai-table-8-2-pdf-64134e7"
+      }
+    },
+    {
+      "metric": "combined-cycle single shaft, base overnight cost",
+      "year": 2021,
+      "unit": "USD/KW (2021$)",
+      "basis": "EIA AEO2022, 418 MW, 3-year lead time",
+      "value": 1201,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf",
+        "source_id": "dcp-r-jina-ai-table-8-2-pdf-64134e7"
+      }
+    },
+    {
+      "metric": "combustion turbine, aeroderivative, total overnight cost",
+      "year": 2022,
+      "unit": "USD/KW (2022$)",
+      "basis": "EIA AEO2023, 105 MW, 2-year lead time, costs represent plants coming online in 2023",
+      "value": 1428,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf",
+        "source_id": "dcp-r-jina-ai-elec-cost-perf-pdf-0085a0e"
+      }
+    },
+    {
+      "metric": "combined-cycle single shaft, total overnight cost",
+      "year": 2022,
+      "unit": "USD/KW (2022$)",
+      "basis": "EIA AEO2023, 418 MW, 3-year lead time",
+      "value": 1330,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf",
+        "source_id": "dcp-r-jina-ai-elec-cost-perf-pdf-0085a0e"
+      }
+    },
+    {
+      "metric": "aeroderivative simple-cycle plant, overnight cost",
+      "year": 2023,
+      "unit": "USD/KW (2023$)",
+      "basis": "EIA January 2024 Sargent & Lundy report, Case 3, 4 x ~54 MW gross aeroderivatives, 211 MW net at 60F/60% RH; owner costs and one-mile interconnection included, financing excluded",
+      "value": 1606,
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      }
+    },
+    {
+      "metric": "H-class simple-cycle plant, overnight cost",
+      "year": 2023,
+      "unit": "USD/KW (2023$)",
+      "basis": "EIA January 2024 report, Case 4, 419 MW net; same land/interconnection assumptions spread over roughly twice the output of the aero case",
+      "value": 836,
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      }
+    },
+    {
+      "metric": "2x2x1 combined-cycle plant, overnight cost",
+      "year": 2023,
+      "unit": "USD/KW (2023$)",
+      "basis": "EIA January 2024 report, Case 5, 1,227 MW net; heat rate 6,266 Btu/kWh versus 9,142 for H-class simple cycle",
+      "value": 868,
+      "source": {
+        "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+        "source_id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93"
+      }
+    },
+    {
+      "metric": "gas peaking plant, total capital cost",
+      "year": 2024,
+      "unit": "USD/KW",
+      "basis": "Lazard LCOE+ v17.0 (June 2024), new build, 240-50 MW net facility output; fuel price assumption $3.45/MMBtu",
+      "low": 700,
+      "high": 1150,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+      }
+    },
+    {
+      "metric": "gas combined-cycle plant, total capital cost",
+      "year": 2024,
+      "unit": "USD/KW",
+      "basis": "Lazard LCOE+ v17.0 (June 2024), new build, 550 MW net",
+      "low": 850,
+      "high": 1300,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+      }
+    },
+    {
+      "metric": "gas peaking plant, total capital cost",
+      "year": 2025,
+      "unit": "USD/KW",
+      "basis": "Lazard LCOE+ v18.0 (June 2025), new build, 550-175 MW net; separately states illustrative high case $2,400-2,600/kW based on recently observed CCGT market quotes",
+      "low": 1150,
+      "high": 1450,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    },
+    {
+      "metric": "gas combined-cycle plant, total capital cost",
+      "year": 2025,
+      "unit": "USD/KW",
+      "basis": "Lazard LCOE+ v18.0, new build, 1,225-750 MW net; Lazard notes a 10-year high LCOE and turbine shortages",
+      "low": 1200,
+      "high": 1600,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf",
+      "source_id": "dcp-r-jina-ai-table-8-2-pdf-64134e7",
+      "note": "Dated $/kW evidence for simple-cycle turbines and combined-cycle plants. The sam"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf",
+      "source_id": "dcp-r-jina-ai-table-8-2-pdf-64134e7"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf",
+      "source_id": "dcp-r-jina-ai-elec-cost-perf-pdf-0085a0e"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+    },
+    {
+      "url": "https://r.jina.ai/https://gridlab.org/wp-content/uploads/2025/09/GridLab_Gas-Turbine-Costs-Report-1.pdf",
+      "source_id": "dcp-r-jina-ai-gridlab-gas-turbine-costs-report-1-a1e8f09"
+    },
+    {
+      "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+      "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Equipment price for the Monarch / Caterpillar 2 GW engine order",
+      "why": "Caterpillar and Nscale disclosures cite MW and engine models but no contract value",
+      "next_action": "Search OEM filings or project financing documents for a disclosed order value"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

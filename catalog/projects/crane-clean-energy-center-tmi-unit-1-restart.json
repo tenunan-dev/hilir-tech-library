@@ -1,0 +1,155 @@
+{
+  "id": "crane-clean-energy-center-tmi-unit-1-restart",
+  "name": "Crane Clean Energy Center / TMI Unit 1 restart",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Londonderry Township, Pennsylvania; 835 MW; 20-year Microsoft PPA; 3,400 direct and indirect jobs; expected online 2028",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "TMI Unit 1 purchased by Constellation's predecessor",
+      "date": "1999",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      }
+    },
+    {
+      "event": "Unit shut down for economic reasons",
+      "date": "2019",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      }
+    },
+    {
+      "event": "20-year PPA signed with Microsoft / Crane Clean Energy Center announced",
+      "date": "2024",
+      "source": {
+        "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/09/20/accelerating-the-addition-of-carbon-free-energy-an-update-on-progress",
+        "source_id": "dcp-microsoft-com-accelerating-the-addition-of-c-34eb659"
+      }
+    },
+    {
+      "event": "Expected return to service",
+      "date": "2028",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      }
+    },
+    {
+      "event": "License renewal target",
+      "date": "2054",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Projected contribution to Pennsylvania state GDP",
+      "year": 2024,
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; figure reported in 20 September 2024 press release citing Brattle Group study for PA Building & Construction Trades Council",
+      "value": 16000000000,
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      }
+    },
+    {
+      "metric": "Projected state and federal tax revenue",
+      "year": 2024,
+      "unit": "USD million (as printed)",
+      "basis": "USD, dollar year not stated; 'more than $3 billion', 20 September 2024 press release",
+      "value": 3000000000,
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      }
+    },
+    {
+      "metric": "Philanthropic commitment over five years",
+      "year": 2024,
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; Constellation commitment announced 20 September 2024",
+      "value": 1000000,
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+        "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Constellation Energy (owner/operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Microsoft (20-year PPA offtaker)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "The Brattle Group (economic impact study)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Pennsylvania Building & Construction Trades Council (study commissioner)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Constellation Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+      "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f",
+      "note": "Londonderry Township, Pennsylvania; 835 MW; 20-year Microsoft PPA; 3,400 direct "
+    },
+    {
+      "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+      "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/09/20/accelerating-the-addition-of-carbon-free-energy-an-update-on-progress",
+      "source_id": "dcp-microsoft-com-accelerating-the-addition-of-c-34eb659"
+    },
+    {
+      "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+      "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f",
+      "note": "Londonderry Township, Pennsylvania; 835 MW; 20-year Microsoft PPA; 3,400 direct and indirect jobs; expected online 2028"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Restart capital expenditure",
+      "why": "A USD 1.6 billion restart cost was reported in secondary press but no page read during this run stated it with a fetchable URL",
+      "next_action": "Fetch Constellation Q3 2024 investor presentation or 2025 Sustainability Report PDF via r.jina.ai and record with dollar year"
+    },
+    {
+      "what": "PPA strike price and contract value",
+      "why": "Financial terms were not disclosed by either party",
+      "next_action": "Leave as gap; do not estimate"
+    },
+    {
+      "what": "Annual MWh output",
+      "why": "Only a secondary article seen in search results stated ~7 million MWh/yr; not re-asserted without a read page",
+      "next_action": "Fetch the article or an investor deck before recording"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

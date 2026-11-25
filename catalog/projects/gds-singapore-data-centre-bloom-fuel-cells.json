@@ -1,0 +1,84 @@
+{
+  "id": "gds-singapore-data-centre-bloom-fuel-cells",
+  "name": "GDS Singapore data centre — Bloom fuel cells",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "SK ecoplant to build; Bloom Energy Servers; modular on-site power to work around grid constraints",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Project announced",
+      "date": "2023",
+      "source": {
+        "url": "https://www.bloomenergy.com/blog/singapore-data-center-to-expand-capacity-with-bloom-energy-fuel-cells/",
+        "source_id": "dcp-bloomenergy-com-0dc49ae"
+      }
+    },
+    {
+      "event": "Hydrogen Energy Server project in Korea",
+      "date": "2021",
+      "source": {
+        "url": "https://www.bloomenergy.com/blog/singapore-data-center-to-expand-capacity-with-bloom-energy-fuel-cells/",
+        "source_id": "dcp-bloomenergy-com-0dc49ae"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "SK ecoplant (EPC / partner)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "GDS (data centre developer)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Bloom Energy (fuel cell supplier)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Singapore Economic Development Board and IMDA (capacity allocation)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.bloomenergy.com/blog/singapore-data-center-to-expand-capacity-with-bloom-energy-fuel-cells/",
+      "source_id": "dcp-bloomenergy-com-0dc49ae",
+      "note": "SK ecoplant to build; Bloom Energy Servers; modular on-site power to work around"
+    },
+    {
+      "url": "https://www.bloomenergy.com/blog/singapore-data-center-to-expand-capacity-with-bloom-energy-fuel-cells/",
+      "source_id": "dcp-bloomenergy-com-0dc49ae"
+    },
+    {
+      "url": "https://www.bloomenergy.com/blog/singapore-data-center-to-expand-capacity-with-bloom-energy-fuel-cells/",
+      "source_id": "dcp-bloomenergy-com-0dc49ae",
+      "note": "SK ecoplant to build; Bloom Energy Servers; modular on-site power to work around grid constraints"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "GDS project MW and commissioning date",
+      "why": "Only the 80 MW four-operator allocation is stated; no project-specific capacity or online date",
+      "next_action": "Fetch SK ecoplant or IMDA announcement"
+    },
+    {
+      "what": "Contract value",
+      "why": "Not disclosed",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

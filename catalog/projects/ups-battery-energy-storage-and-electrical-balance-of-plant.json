@@ -1,0 +1,196 @@
+{
+  "id": "ups-battery-energy-storage-and-electrical-balance-of-plant",
+  "name": "UPS, battery energy storage and electrical balance-of-plant costs for data centres",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Storage and electrical infrastructure costs, including explicitly labelled analyst estimates (grade D) for 800 V DC architecture. Currency and dollar year preserved as printed; no cross-source escalation applied.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "central AC UPS content per kW of IT load",
+      "year": 2026,
+      "unit": "USD/KW OF IT LOAD",
+      "basis": "HTR Table 8, analyst grade D estimate being replaced by 800 V DC architecture; comparator only",
+      "value": 1200,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "solid-state transformer, 800 V DC",
+      "year": 2026,
+      "unit": "USD/KW OF IT LOAD",
+      "basis": "HTR Table 8, analyst grade D; small units cost 5-10x a conventional transformer",
+      "low": 1000,
+      "high": 1500,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "800 V DC sidecar / power rack",
+      "year": 2026,
+      "unit": "USD/KW OF IT LOAD",
+      "basis": "HTR Table 8, analyst grade D",
+      "value": 500,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "rack battery backup",
+      "year": 2026,
+      "unit": "USD/KW OF IT LOAD",
+      "basis": "HTR Table 8, analyst grade D; replaces most central UPS content",
+      "value": 200,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "total data-centre electrical content across 800 V DC transition",
+      "year": 2026,
+      "unit": "USD/KW OF IT LOAD",
+      "basis": "HTR Table 8, analyst grade D; stated as roughly flat across the transition",
+      "low": 3600,
+      "high": 4800,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "utility-scale battery storage power-related cost",
+      "year": 2024,
+      "unit": "USD/KW (2024$)",
+      "basis": "National laboratory estimate quoted by HTR; full four-hour system about $880-940/kW",
+      "value": 372,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "capacity-weighted average construction cost, battery storage installed 2024",
+      "year": 2024,
+      "unit": "USD/KW",
+      "basis": "EIA Form EIA-860 actual installed cost; 10,195 MW at new plants and 904 MW at existing plants",
+      "value": 1469,
+      "source": {
+        "url": "https://www.eia.gov/electricity/generatorcosts",
+        "source_id": "dcp-eia-gov-generatorcosts-0fb3aff"
+      }
+    },
+    {
+      "metric": "levelised cost of storage, utility-scale standalone 100 MW 4-hour, unsubsidised",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOS v10.0; capital costs include storage module, balance of system, power conversion equipment and EPC; 20% debt / 80% equity",
+      "low": 95,
+      "high": 129,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    },
+    {
+      "metric": "levelised cost of storage, C&I standalone 1 MW 2-hour, unsubsidised",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOS v10.0, behind-the-meter storage case",
+      "low": 506,
+      "high": 860,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    },
+    {
+      "metric": "levelised cost of storage, utility-scale standalone 100 MW 4-hour, unsubsidised",
+      "year": 2024,
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOS v9.0, June 2024",
+      "low": 156,
+      "high": 222,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+      }
+    },
+    {
+      "metric": "generator step-up transformer, 38 MVA, 2026 equipment price",
+      "year": 2025,
+      "unit": "USD/KVA",
+      "basis": "HTR Table 7, utility board award 2025, grade A; 24-month lead time",
+      "value": 51,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "medium-voltage switchgear, 15 kV metal-clad lineups",
+      "year": 2024,
+      "unit": "USD",
+      "basis": "HTR: awards in 2024 with 13-month lead; prices up about 50% since 2021",
+      "low": 540000,
+      "high": 770000,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286",
+      "note": "Storage and electrical infrastructure costs, including explicitly labelled analy"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+      "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+    },
+    {
+      "url": "https://www.eia.gov/electricity/generatorcosts",
+      "source_id": "dcp-eia-gov-generatorcosts-0fb3aff"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Published contract price for a data-centre UPS or solid-state transformer order",
+      "why": "HTR states no public price exists for an 800 V DC rack or solid-state transformer order; figures are analyst grade D",
+      "next_action": "Track first filed orders and utility/bid tabulations"
+    },
+    {
+      "what": "Standalone generator $/kVA",
+      "why": "No public figure; orders announce value or rating but not both",
+      "next_action": "Search state utility commission dockets"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

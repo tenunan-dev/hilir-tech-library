@@ -1,0 +1,84 @@
+{
+  "id": "voltagrid-ai-data-centre-power-programme",
+  "name": "VoltaGrid AI data centre power programme",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Modular natural-gas power packs for AI data centres; portable data centre power offering",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Order announced",
+      "date": "2025",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-largest-order-in-company-history-with-voltagrid-delivering-power-generation-for-one-of-the-worlds-largest-data-centers",
+        "source_id": "dcp-innio-com-innio-secures-largest-order-in-com-d8d5cee"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Estimated annual fuel savings across installed capacity",
+      "year": 2025,
+      "unit": "USD million (as printed)",
+      "basis": "USD, dollar year not stated; INNIO estimate of 'over USD 300 million annually' across 2.3 GW, stated in 21 October 2025 release",
+      "value": 300000000,
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-largest-order-in-company-history-with-voltagrid-delivering-power-generation-for-one-of-the-worlds-largest-data-centers",
+        "source_id": "dcp-innio-com-innio-secures-largest-order-in-com-d8d5cee"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "INNIO Group (Jenbacher technology)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "VoltaGrid (developer/aggregator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Oracle (reported customer in related coverage, not named in this release)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-largest-order-in-company-history-with-voltagrid-delivering-power-generation-for-one-of-the-worlds-largest-data-centers",
+      "source_id": "dcp-innio-com-innio-secures-largest-order-in-com-d8d5cee",
+      "note": "Modular natural-gas power packs for AI data centres; portable data centre power "
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-largest-order-in-company-history-with-voltagrid-delivering-power-generation-for-one-of-the-worlds-largest-data-centers",
+      "source_id": "dcp-innio-com-innio-secures-largest-order-in-com-d8d5cee"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-secures-largest-order-in-company-history-with-voltagrid-delivering-power-generation-for-one-of-the-worlds-largest-data-centers",
+      "source_id": "dcp-innio-com-innio-secures-largest-order-in-com-d8d5cee",
+      "note": "Modular natural-gas power packs for AI data centres; portable data centre power offering"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Customer and site details",
+      "why": "Release describes 'one of the world's largest data centers' but does not name it; Oracle link comes from separate coverage not read this run",
+      "next_action": "Fetch VoltaGrid/Oracle announcement"
+    },
+    {
+      "what": "Delivery schedule and order value",
+      "why": "Not disclosed",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

@@ -1,0 +1,72 @@
+{
+  "id": "aep-bloom-fuel-cell-programme-central-ohio-us",
+  "name": "AEP–Bloom fuel cell programme (central Ohio/US)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "All project costs covered by large customers under special contracts; natural gas initially, hydrogen capable",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Supply agreement announced",
+      "date": "2024",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/bloom-energy-announces-gigawatt-fuel-cell-procurement-agreement-with-aep-to-power-ai-data-centers",
+        "source_id": "dcp-bloomenergy-com-bloom-energy-announces-gigaw-5831398"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Bloom Energy (supplier)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "American Electric Power (utility offtaker)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Unnamed large data centre customers",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-announces-gigawatt-fuel-cell-procurement-agreement-with-aep-to-power-ai-data-centers",
+      "source_id": "dcp-bloomenergy-com-bloom-energy-announces-gigaw-5831398",
+      "note": "All project costs covered by large customers under special contracts; natural ga"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-announces-gigawatt-fuel-cell-procurement-agreement-with-aep-to-power-ai-data-centers",
+      "source_id": "dcp-bloomenergy-com-bloom-energy-announces-gigaw-5831398"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/bloom-energy-announces-gigawatt-fuel-cell-procurement-agreement-with-aep-to-power-ai-data-centers",
+      "source_id": "dcp-bloomenergy-com-bloom-energy-announces-gigaw-5831398",
+      "note": "All project costs covered by large customers under special contracts; natural gas initially, hydrogen capable"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Contract value and per-kW price",
+      "why": "Not disclosed",
+      "next_action": "Leave as gap"
+    },
+    {
+      "what": "Named customer sites",
+      "why": "Only 'AI data centres' generically",
+      "next_action": "Fetch AEP announcements for named projects"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

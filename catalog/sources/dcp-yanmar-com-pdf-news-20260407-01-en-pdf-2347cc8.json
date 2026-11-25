@@ -1,0 +1,26 @@
+{
+  "id": "dcp-yanmar-com-pdf-news-20260407-01-en-pdf-2347cc8",
+  "name": "Yanmar to Build New Emergency Power System Factory for Data Centers in Fukuoka, Japan (PDF, 3 pages)",
+  "url": "https://www.yanmar.com/media/news/2026/04/07042224/pdf_news_20260407_01_en.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Yanmar Holdings Co., Ltd.",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Directly fetched PDF read via r.jina.ai fallback; three pages, all figures from the release text."
+}

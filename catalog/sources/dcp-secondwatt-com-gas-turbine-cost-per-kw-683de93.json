@@ -1,0 +1,25 @@
+{
+  "id": "dcp-secondwatt-com-gas-turbine-cost-per-kw-683de93",
+  "name": "Gas turbine cost: equipment price vs installed cost per kW",
+  "url": "https://secondwatt.com/resources/gas-turbine-cost-per-kw",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "SecondWatt",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Fetched directly; published 18 Nov 2026; quotes EIA, AEO2026 and PJM CONE report figures with dollar years stated."
+}

@@ -1,0 +1,93 @@
+{
+  "id": "us-data-centre-project-of-a-major-us-independent-power-pro",
+  "name": "US data centre project of a major US independent power producer",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "282 MW onsite power solution with 15 Wärtsilä 50SG engines; developer described only as a major US independent power producer.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "282 MW US data-centre onsite power order",
+      "date": "2026",
+      "source": {
+        "url": "https://www.wartsila.com/media/news/05-10-2026-wartsila-to-supply-282-mw-onsite-power-solution-for-a-u-s-data-center-as-ai-growth-intensifies-demand-for-reliable-power-3797450",
+        "source_id": "dcp-wartsila-com-05-10-2026-wartsila-to-supply-2-1c9e3db"
+      }
+    },
+    {
+      "event": "Off-grid data-centre power technology study",
+      "date": "2026",
+      "source": {
+        "url": "https://www.wartsila.com/media/news/02-11-2026-new-study-right-power-technology-choices-for-off-grid-data-centres-could-deliver-up-to-eur-200-billion-in-global-savings-3808329",
+        "source_id": "dcp-wartsila-com-02-11-2026-new-study-right-powe-53eb3f7"
+      }
+    },
+    {
+      "event": "Expansion into full engineering and construction delivery in Brazil",
+      "date": "2026",
+      "source": {
+        "url": "https://www.wartsila.com/media/news",
+        "source_id": "dcp-wartsila-com-news-63cfb12"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Wärtsilä",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/media/news/05-10-2026-wartsila-to-supply-282-mw-onsite-power-solution-for-a-u-s-data-center-as-ai-growth-intensifies-demand-for-reliable-power-3797450",
+      "source_id": "dcp-wartsila-com-05-10-2026-wartsila-to-supply-2-1c9e3db",
+      "note": "282 MW onsite power solution with 15 Wärtsilä 50SG engines; developer described "
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/05-10-2026-wartsila-to-supply-282-mw-onsite-power-solution-for-a-u-s-data-center-as-ai-growth-intensifies-demand-for-reliable-power-3797450",
+      "source_id": "dcp-wartsila-com-05-10-2026-wartsila-to-supply-2-1c9e3db"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/02-11-2026-new-study-right-power-technology-choices-for-off-grid-data-centres-could-deliver-up-to-eur-200-billion-in-global-savings-3808329",
+      "source_id": "dcp-wartsila-com-02-11-2026-new-study-right-powe-53eb3f7"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news",
+      "source_id": "dcp-wartsila-com-news-63cfb12"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/05-10-2026-wartsila-to-supply-282-mw-onsite-power-solution-for-a-u-s-data-center-as-ai-growth-intensifies-demand-for-reliable-power-3797450",
+      "source_id": "dcp-wartsila-com-05-10-2026-wartsila-to-supply-2-1c9e3db",
+      "note": "282 MW onsite power solution with 15 Wärtsilä 50SG engines; developer described only as a major US independent power producer."
+    },
+    {
+      "url": "https://www.wartsila.com/media/news",
+      "source_id": "dcp-wartsila-com-news-63cfb12",
+      "note": "Only the press-release headline and date were read on the Wärtsilä news index."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Customer name and contract value",
+      "why": "Not printed in press release",
+      "next_action": "Check customer or IPP announcements"
+    },
+    {
+      "what": "Brazil EPC scope and value",
+      "why": "Only the headline was read",
+      "next_action": "Fetch the 19 October 2026 release body"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

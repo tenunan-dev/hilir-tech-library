@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-pennsylvania-building-construction-trades-council-ec797",
+  "name": "Pennsylvania Building & Construction Trades Council (study commissioner)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Pennsylvania Building & Construction Trades Council (study commissioner) named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+      "source_id": "dcp-constellationenergy-com-constellation-to-lau-399647f"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

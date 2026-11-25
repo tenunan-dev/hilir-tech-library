@@ -1,0 +1,72 @@
+{
+  "id": "pure-dc-dublin-off-grid-microgrid",
+  "name": "Pure DC Dublin off-grid microgrid",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Ireland",
+  "location": "Ireland",
+  "status": "operating",
+  "description": "Described by Pure DC/AVK/Wärtsilä as Europe's first large-scale off-grid data-centre microgrid",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Commissioning / delivery",
+      "date": "2026",
+      "source": {
+        "url": "https://www.wartsila.com/energy/learn-more/references/other-industrial/pure-dc-and-avk-ireland",
+        "source_id": "wartsila-com-other-industrial-pure-dc-and-avk-ireland"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Pure Data Centres Group (owner/operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "AVK (system integrator and EPC partner)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Wärtsilä (engine equipment)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/other-industrial/pure-dc-and-avk-ireland",
+      "source_id": "wartsila-com-other-industrial-pure-dc-and-avk-ireland",
+      "note": "Described by Pure DC/AVK/Wärtsilä as Europe's first large-scale off-grid data-ce"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/other-industrial/pure-dc-and-avk-ireland",
+      "source_id": "wartsila-com-other-industrial-pure-dc-and-avk-ireland"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/learn-more/references/other-industrial/pure-dc-and-avk-ireland",
+      "source_id": "wartsila-com-other-industrial-pure-dc-and-avk-ireland",
+      "note": "Described by Pure DC/AVK/Wärtsilä as Europe's first large-scale off-grid data-centre microgrid"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Contract value and EPC price",
+      "why": "Not disclosed in reference case",
+      "next_action": "Leave as gap"
+    },
+    {
+      "what": "Commercial operation date",
+      "why": "Only 'delivery 2026' and EC1/EC2 being commissioned",
+      "next_action": "Check AVK case study later"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

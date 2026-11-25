@@ -1,0 +1,105 @@
+{
+  "id": "tokyo-gas-yokohama-techno-station-methanation-chp",
+  "name": "Tokyo Gas Yokohama Techno Station methanation CHP",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "JP",
+  "location": "JP",
+  "status": "operating",
+  "description": "35 kW synthetic-methane micro-CHP based on CP35D2",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "30 vol% hydrogen CHP demonstration completed",
+      "date": "2024",
+      "source": {
+        "url": "https://www.yanmar.com/global/energy/news/2024/07/05/139269.html",
+        "source_id": "dcp-yanmar-com-139269-html-3e24a70"
+      }
+    },
+    {
+      "event": "Synthetic-methane micro-CHP demonstration unit delivered",
+      "date": "2022",
+      "source": {
+        "url": "https://www.yanmar.com/us/news/2022/11/16/116492.html",
+        "source_id": "dcp-yanmar-com-116492-html-f19ae4f"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Yanmar Energy Systems Co., Ltd.",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Daigas Energy Co., Ltd. (Osaka Gas group)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Yanmar Energy System Co., Ltd.",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Tokyo Gas Co.",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Kubota Corporation",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.yanmar.com/us/news/2022/11/16/116492.html",
+      "source_id": "dcp-yanmar-com-116492-html-f19ae4f",
+      "note": "35 kW synthetic-methane micro-CHP based on CP35D2"
+    },
+    {
+      "url": "https://www.yanmar.com/global/energy/news/2024/07/05/139269.html",
+      "source_id": "dcp-yanmar-com-139269-html-3e24a70"
+    },
+    {
+      "url": "https://www.yanmar.com/us/news/2022/11/16/116492.html",
+      "source_id": "dcp-yanmar-com-116492-html-f19ae4f"
+    },
+    {
+      "url": "https://engine.kubota.com/en/products/product_pdf/215_pdf_1.pdf",
+      "source_id": "dcp-engine-kubota-com-215-pdf-1-pdf-6d3c355"
+    },
+    {
+      "url": "https://engine.kubota.com/products/detail?id=99&ln=en",
+      "source_id": "dcp-engine-kubota-com-detail-cfd8b60"
+    },
+    {
+      "url": "https://www.yanmar.com/global/energy/news/2024/07/05/139269.html",
+      "source_id": "dcp-yanmar-com-139269-html-3e24a70",
+      "note": "EP400G 400 kW CHP on 30 vol% hydrogen in municipal gas; same rated output and efficiency as gas-only"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "EP400G electrical and thermal efficiency",
+      "why": "Yanmar release says efficiency unchanged but prints no number",
+      "next_action": "Read the EP400G product datasheet"
+    },
+    {
+      "what": "TECO and Honda small gas gensets",
+      "why": "No OEM page with printed gas-engine/genset specifications was read during this sweep; TECO appears only as a motor/genset maker in a search result and Honda only as a patent assignee in a cited patent",
+      "next_action": "Locate and WebFetch OEM datasheets before recording any TECO or Honda figure"
+    },
+    {
+      "what": "Malaysia-specific gas engine installation",
+      "why": "No Malaysia operator page with dated specs was read; APAC evidence obtained is Japanese",
+      "next_action": "Find a Malaysian utility or Jenbacher/Wartsila operator reference with a readable date and figures"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Gas engine technology). Evidence-first retrospective assembled only from pages actually read with WebFetch or via r.jina.ai (noted per source). New dated material includes: Jenbacher T"
+}

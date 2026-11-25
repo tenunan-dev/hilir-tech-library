@@ -1,0 +1,25 @@
+{
+  "id": "dcp-omterra-com-press-html-9ccccdf",
+  "name": "Omterra press page",
+  "url": "https://www.omterra.com/global/en/home/press.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Omterra",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read with WebFetch; headlines only for results releases."
+}

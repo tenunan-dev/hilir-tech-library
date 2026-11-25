@@ -1,0 +1,24 @@
+{
+  "id": "dcp-r-jina-ai-electricity-generation-cost-study-2a5def4",
+  "name": "Electricity Generation Cost Study – Extending the Life of Existing Generation Assets",
+  "url": "https://r.jina.ai/https://assets.publishing.service.gov.uk/media/68137e3770b095d0d7011858/electricity-generation-cost-study.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "UK Department for Energy Security and Net Zero / CEPA / GHD",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via r.jina.ai, 10 pages, May 2025; all costs referenced to 2024 prices."
+}

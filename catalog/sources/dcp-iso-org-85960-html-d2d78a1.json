@@ -1,0 +1,24 @@
+{
+  "id": "dcp-iso-org-85960-html-d2d78a1",
+  "name": "ISO 8528-5:2025 standard page",
+  "url": "https://www.iso.org/standard/85960.html",
+  "source_type": "standards-body",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ELE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "ISO",
+  "access": "open",
+  "licence": "unknown (ISO copyright)",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch on 2026-11-25; abstract and life-cycle table only, full standard text not purchased."
+}

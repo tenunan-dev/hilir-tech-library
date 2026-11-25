@@ -1,0 +1,25 @@
+{
+  "id": "dcp-constellationenergy-com-constellation-to-lau-399647f",
+  "name": "Constellation to Launch Crane Clean Energy Center",
+  "url": "https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "HSE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Constellation Energy",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly via WebFetch. Primary operator announcement, 20 September 2024."
+}

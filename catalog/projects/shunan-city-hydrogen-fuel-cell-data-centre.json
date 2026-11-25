@@ -1,0 +1,62 @@
+{
+  "id": "shunan-city-hydrogen-fuel-cell-data-centre",
+  "name": "Shunan City hydrogen fuel cell data centre",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Japan",
+  "location": "Japan",
+  "status": "operating",
+  "description": "Distributed data centre operated by Mitsubishi; uses by-product hydrogen",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Project announced / started",
+      "date": "2023",
+      "source": {
+        "url": "https://fchea.org/data-centers-more-power-more-fuel-cells",
+        "source_id": "dcp-fchea-org-data-centers-more-power-more-fuel-97b45cd"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Honda",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Tokuyama Corporation (by-product hydrogen from saltwater electrolysis)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Mitsubishi Corporation (distributed data centre operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://fchea.org/data-centers-more-power-more-fuel-cells",
+      "source_id": "dcp-fchea-org-data-centers-more-power-more-fuel-97b45cd",
+      "note": "Distributed data centre operated by Mitsubishi; uses by-product hydrogen"
+    },
+    {
+      "url": "https://fchea.org/data-centers-more-power-more-fuel-cells",
+      "source_id": "dcp-fchea-org-data-centers-more-power-more-fuel-97b45cd"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Capacity and contract value",
+      "why": "No MW figure in the read article",
+      "next_action": "Fetch Honda release for capacity"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

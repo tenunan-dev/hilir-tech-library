@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-at-t-05e9a",
+  "name": "AT&T",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "AT&T named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://resources.bloomenergy.com/hubfs/Whitepapers/2023%20Bloom%20Energy_Backgrounder_for_Datacenters-V4.pdf?hsLang=en",
+      "source_id": "dcp-resources-bloomenergy-com-2023-20bloom-20ene-41c7f3b"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

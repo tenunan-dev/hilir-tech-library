@@ -1,0 +1,25 @@
+{
+  "id": "dcp-cummins-com-cogeneration-1497670",
+  "name": "Cummins cogeneration power solutions page",
+  "url": "https://www.cummins.com/en-na/generators/cogeneration",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ELE"
+  ],
+  "regions": [
+    "na",
+    "global"
+  ],
+  "publisher_org": "Cummins Inc.",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read via r.jina.ai because direct WebFetch timed out on the earlier gas-generators URL; this canonical page read directly on 2026-11-25."
+}

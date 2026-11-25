@@ -1,6 +1,6 @@
 # Vendors, suppliers and packagers
 
-1191 vendor records covering 325 technologies. One record per vendor in
+1250 vendor records covering 326 technologies. One record per vendor in
 `catalog/vendors/` (schema `schema/vendor.schema.json`); every record cites the pages it was written from.
 The directory grows sector by sector: batch 1 covers modular power plants and the power sector (PWR).
 
@@ -398,49 +398,108 @@ The directory grows sector by sector: batch 1 covers modular power plants and th
 | Active Power (Piller group) | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | Active Power / Piller | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [AirTrunk](https://airtrunk.com) | Australia | developer, operator | SMR and fuel-cell power purchase for data centres |
+| American Electric Power (utility offtaker) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [Anord Mardix](https://www.anordmardix.com) | Ireland | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Asperitas](https://www.asperitas.com/) | NL | oem | Immersion cooling |
+| AT&T | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| AVK (system integrator and EPC partner) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | Avtron Power Solutions | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | Basler Electric | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Boyd Corporation](https://www.boydcorp.com/) | US | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | Buckeye Power Sales | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Capstone Energy+ | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | Carrier | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Caterpillar](https://www.caterpillar.com/) | US | oem | Behind-the-meter gas generation for data centres |
+| Chirisa Technology Parks (data centre owner) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Clarke Energy | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | ComAp | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Constellation Energy | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [CoolIT Systems](https://www.coolitsystems.com/) | CA | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| CoreWeave (customer) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| CTC Property LLC (xAI affiliate, permit holder) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | Cummins Generator Technologies | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | Cummins Inc. | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Daigas Energy Co., Ltd. (Osaka Gas group) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | Deep Sea Electronics | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | DEIF | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Digital Realty](https://www.digitalrealty.com) | USA | developer, operator | SMR and fuel-cell power purchase for data centres |
 | [DPR Construction](https://www.dpr.com) | USA | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Enel X](https://www.enelx.com/) | IT | service | Data centre grid interaction (demand response and frequency services) |
 | [Equinix](https://www.equinix.com) | USA | operator | SMR and fuel-cell power purchase for data centres |
+| Faradion | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Form Energy | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [Fortis Construction](https://fortisconstruction.com) | USA | epc | Data centre siting and power procurement |
+| GDS (data centre developer) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Generac (cited in source) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Georgia Power | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Google | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Google Cloud / Gemini Enterprise (AI for operations) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Green Mountain (Norwegian data centre operator, Green Rocks project) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [Green Revolution Cooling (GRC)](https://www.grcooling.com/) | US | oem | Immersion cooling |
 | [GridBeyond](https://gridbeyond.com/) | IE | service | Data centre grid interaction (demand response and frequency services) |
+| HIMOINSA | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [Holder Construction](https://www.holderconstruction.com) | USA | epc | Data centre siting and power procurement |
+| Honda | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| INNIO Group | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | INNIO Jenbacher, Austria | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| INNIO N.V. | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Intel Corporation | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | Johnson Controls (YORK, Silent-Aire) | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Kraftwerke Mainz-Wiesbaden AG (KMW) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Kubota Corporation | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [Legrand](https://www.legrand.com/) | FR | oem | Rack power distribution (PDU, 48 V DC and 415 V AC architectures); Medium-voltage switchgear and busway in the data hall |
 | [LiquidStack](https://www.liquidstack.com/) | US | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Mace Group](https://www.macegroup.com) | United Kingdom | epc, service | Data centre siting and power procurement |
 | MAN Engines | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | Mecc Alte | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Memphis Light, Gas and Water (MLGW) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [Mercury Engineering](https://www.mercuryeng.com) | Ireland | epc | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| Meta Platforms | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Microsoft (developer/customer) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [Motivair](https://www.motivaircorp.com/) | US | oem | Direct-to-chip liquid cooling (cold plates and CDUs) |
+| multiple (DOE representative data) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| multiple manufacturers (US DOE representative systems, not a single OEM) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [Munters](https://www.munters.com/) | SE | oem | Free cooling and economisers |
+| MWM | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| MWM / Caterpillar Energy Solutions | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | MWM / Everllence | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Natron Energy | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| NextEra Energy | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| NREL (earlier 65 kW collaboration) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [NVIDIA](https://www.nvidia.com/) | US | oem | AI-training and inference load profiles |
+| Oklo Inc (developer) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Oracle (reported customer in related coverage, not named in this release) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| PacificLight Power | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Pennsylvania Building & Construction Trades Council (study commissioner) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Power Innovations (earlier 250 kW system) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| PPL Electric Utilities (transmission and delivery) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Pure Data Centres Group (owner/operator) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | Rehlko | — | oem, supplier | Behind-the-meter gas generation for data centres |
 | [Rittal](https://www.rittal.com) | Germany | oem, supplier | Direct-to-chip liquid cooling (cold plates and CDUs) |
 | [Rosendin Electric](https://www.rosendin.com) | USA | epc | Data centre UPS systems (double-conversion, lithium, modular); Direct-to-chip liquid cooling (cold plates and CDUs) |
+| Singapore Economic Development Board and IMDA (capacity allocation) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [STULZ](https://www.stulz.com/) | DE | oem | Air cooling (CRAH/CRAC, hot/cold aisle containment) |
 | [Submer](https://submer.com/) | ES | oem | Immersion cooling |
+| Talen Energy (IPP / retail supplier) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Tennessee Valley Authority (TVA) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| The Brattle Group (economic impact study) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Tokuyama Corporation (by-product hydrogen from saltwater electrolysis) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Tokyo Gas Co. | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | Trane | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Trinity Consultants (environmental consultant) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | Trystar | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Unnamed large data centre customers | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Unnamed US data centre developer (customer not named in release) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | [Uptime Institute](https://uptimeinstitute.com/) | US | service | Data centre energy and water benchmarking (PUE/WUE) |
+| Vistra Corp | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| VoltaGrid | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Wartsila | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 | Wartsila Energy | — | oem, supplier | Behind-the-meter gas generation for data centres |
+| Winthrop Technologies (data centre delivery partner / EPC) | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Yanmar | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Yanmar Energy System | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Yanmar Energy System Co., Ltd. | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
+| Yanmar Energy Systems Co., Ltd. | — | supplier | Ten-year data centre power and modular gas generation retrospective (2016–2026) |
 
 ## INS: Instrumentation and control
 
@@ -1396,4 +1455,4 @@ These cards describe their suppliers generically; the strings are not company na
 - **REF** (1): EPC contractors (process designed by refiner or contractor)
 - **UPS** (7): Cementing service contractors (none named in the sources read); Major drilling contractors; Operators; Operators and service companies; Research groups; Research groups and small service companies; Various vendors
 
-369 of 400 cards list at least one directory vendor.
+369 of 401 cards list at least one directory vendor.

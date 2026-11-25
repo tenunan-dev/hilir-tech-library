@@ -1,0 +1,25 @@
+{
+  "id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97",
+  "name": "Behind the meter: how AI campuses are buying power in 2026",
+  "url": "https://nodus.equipment/insights/behind-the-meter-power",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Nodus Partners",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Published 8 Oct 2026; secondary compilation of company announcements and analyst benchmarks."
+}

@@ -1,6 +1,6 @@
 # INS: Instrumentation and control
 
-602 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering, field-instrumentation, fire-gas-detection, machinery-control, vibration-monitoring, control-valves.
+606 sources. Sub-topics: dcs, sis, analysers, apc, ot-cybersecurity, metering, field-instrumentation, fire-gas-detection, machinery-control, vibration-monitoring, control-valves.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -521,6 +521,10 @@
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
 | [ISO 10423:2009 (withdrawn)](https://www.iso.org/standard/42757.html) | standards-body | global | open | summary-only |
 | [ISO 13702](https://r.jina.ai/https://www.klmtechgroup.com/PDF/ess/PROJECT_STANDARD_AND_SPECIFICATIONS_offshore_technical_safety_Rev01.pdf) | standards-body | global | open | summary-only |
+| [ISO 19859:2016](https://www.iso.org/news/2016/07/Ref2100.html) | standards-body | global | open | summary-only |
+| [ISO 3977-4:2002](https://www.iso.org/standard/25140.html) | standards-body | global | open | summary-only |
+| [ISO 8528-13:2026](https://www.iso.org/standard/85962.html) | standards-body | global | open | summary-only |
+| [ISO 8528-1:2018](https://www.iso.org/standard/68539.html) | standards-body | global | open | summary-only |
 | [Johnson Controls (YORK, Silent-Aire)](https://www.johnsoncontrols.com/media-center/news/press-releases/2026/07/28/johnson-controls-introduces-absorption-chiller-reference-design-guide-unlocking-up-to-97mw-of-additi) | oem-supplier | global, na | open | summary-only |
 | [Johnson Controls (YORK, Silent-Aire)](https://www.johnsoncontrols.com/building-insights/feature-story/a-global-blueprint-for-how-gigawatt-scale-ai-factories-can-re-use-waste-heat-with-absorption-chillers) | oem-supplier | global, na | open | summary-only |
 | [Johnson Matthey](https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems) | oem-supplier | global, na | open | summary-only |

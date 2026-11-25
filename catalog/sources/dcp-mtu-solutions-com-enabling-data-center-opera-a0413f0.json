@@ -1,0 +1,25 @@
+{
+  "id": "dcp-mtu-solutions-com-enabling-data-center-opera-a0413f0",
+  "name": "Data centers: How to bridge the grid capacity gap with self-generation solutions",
+  "url": "https://www.mtu-solutions.com/eecis/en/technical-articles/2025/enabling-data-center-operators-to-bridge-the-grid-capacity-gap-with-self-generation-solutions.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "MTU Solutions / Rolls-Royce Power Systems",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Fetched directly; published 28 May 2025. Simulation results, not observed contract prices."
+}

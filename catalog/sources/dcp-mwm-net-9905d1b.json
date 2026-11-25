@@ -1,0 +1,26 @@
+{
+  "id": "dcp-mwm-net-9905d1b",
+  "name": "MWM TCG 2032 Modular Power Plant page",
+  "url": "https://www.mwm.net/en/distributed-power-plants/tcg-2032-modular-power-plant-mpp/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE"
+  ],
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "publisher_org": "MWM / Caterpillar Energy Solutions",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch on 2026-11-25."
+}

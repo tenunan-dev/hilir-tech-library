@@ -1,0 +1,99 @@
+{
+  "id": "google-kairos-power-500-mw-clean-electricity-ppa",
+  "name": "Google-Kairos Power 500 MW clean-electricity PPA",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Master Plant Development Agreement: multiple KP-FHR advanced reactor plants, with energy, ancillary services and environmental attributes sold to Google under PPAs to support 24/7 carbon-free energy goals.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "IEA publishes 2024 fuel mix for electricity physically consumed by data centres",
+      "date": "2025",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+        "source_id": "dcp-iea-org-energy-supply-for-ai-3218796"
+      }
+    },
+    {
+      "event": "IEA projects the first SMRs entering the data-centre supply mix after 2030",
+      "date": "2025",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+        "source_id": "dcp-iea-org-energy-supply-for-ai-3218796"
+      }
+    },
+    {
+      "event": "Singapore requires at least 50% green-energy pathways for DC-CFA2 capacity",
+      "date": "2025",
+      "source": {
+        "url": "https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure",
+        "source_id": "dcp-nortonrosefulbright-com-singapore-s-green-da-759c76f"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "modelled electricity price input, 1 GW AI data centre",
+      "year": 2024,
+      "unit": "USD PER KWH",
+      "basis": "Epoch AI model weights EIA state-level industrial electrical costs in 2024 by data centre project counts from Aterio, giving 8.34 cents/kWh; page published 14 May 2026",
+      "value": 0.0834,
+      "source": {
+        "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+        "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+      "source_id": "dcp-kairospower-com-google-and-kairos-power-part-d536266",
+      "note": "Master Plant Development Agreement: multiple KP-FHR advanced reactor plants, wit"
+    },
+    {
+      "url": "https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai",
+      "source_id": "dcp-iea-org-energy-supply-for-ai-3218796"
+    },
+    {
+      "url": "https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure",
+      "source_id": "dcp-nortonrosefulbright-com-singapore-s-green-da-759c76f"
+    },
+    {
+      "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+      "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+    },
+    {
+      "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+      "source_id": "dcp-kairospower-com-google-and-kairos-power-part-d536266"
+    },
+    {
+      "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+      "source_id": "dcp-kairospower-com-google-and-kairos-power-part-d536266",
+      "note": "Master Plant Development Agreement: multiple KP-FHR advanced reactor plants, with energy, ancillary services and environmental attributes sold to Google under PPAs to support 24/7 carbon-free energy g"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Published PPA strike price and dollar year for a named data-centre renewable deal",
+      "why": "No PPA price was stated on the pages read.",
+      "next_action": "Fetch a regulatory filing or developer release with price and year."
+    },
+    {
+      "what": "Storage duration paired with a specific data-centre renewable PPA",
+      "why": "IEA describes storage supporting renewables generally but gives no project-level MWh figure.",
+      "next_action": "Find an operator announcement with MW/MWh and date."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre power technology). An evidence-first 2016-2026 retrospective built only from pages read on 2026-11-25. The core new record is Uptime Institute's May 2026 Annual Outage Analysis (r"
+}

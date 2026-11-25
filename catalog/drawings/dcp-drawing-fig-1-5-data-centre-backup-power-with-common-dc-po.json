@@ -1,0 +1,26 @@
+{
+  "id": "dcp-drawing-fig-1-5-data-centre-backup-power-with-common-dc-po",
+  "title": "FIG. 1-5 data centre backup power with common DC power bus",
+  "diagram_type": "schematic",
+  "description": "Figures showing resource zones with UPS, battery storage sets, backup generators and a common power bus, plus control logic for sharing DC power.",
+  "publisher": "Google Patents / Amazon Technologies Inc",
+  "url": "https://patents.google.com/patent/EP3039768B1/en",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "na",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/EP3039768B1/en",
+      "source_id": "dcp-patents-google-com-en-94a91ff",
+      "note": "Figures showing resource zones with UPS, battery storage sets, backup generators and a common power bus, plus control logic for sharing DC power."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the 10-year data-centre power retrospective."
+}

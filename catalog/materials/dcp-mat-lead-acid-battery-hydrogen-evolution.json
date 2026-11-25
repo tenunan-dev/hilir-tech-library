@@ -1,0 +1,24 @@
+{
+  "id": "dcp-mat-lead-acid-battery-hydrogen-evolution",
+  "name": "Lead-acid battery hydrogen evolution",
+  "material_category": "battery-chemistry",
+  "description": "Lead-acid battery hydrogen evolution named on a page read in the 10-year power retrospective.",
+  "specifications": [
+    {
+      "metric": "lower flammable limit of hydrogen in air",
+      "unit": "% BY VOLUME",
+      "basis": "Lead-acid on float can evolve hydrogen; flammable concentrations begin at 4% by volume",
+      "source": {
+        "url": "https://www.datacenterknowledge.com/outages/same-roof-10-different-gases-what-a-data-center-is-quietly-holding",
+        "source_id": "dcp-datacenterknowledge-com-same-roof-10-differe-a282b75"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.datacenterknowledge.com/outages/same-roof-10-different-gases-what-a-data-center-is-quietly-holding",
+      "source_id": "dcp-datacenterknowledge-com-same-roof-10-differe-a282b75"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

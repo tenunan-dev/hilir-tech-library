@@ -1,0 +1,26 @@
+{
+  "id": "dcp-news-microsoft-com-hydrogen-fuel-cells-could-7c72a92",
+  "name": "Hydrogen fuel cells could provide emission free backup power at datacenters, Microsoft says",
+  "url": "https://news.microsoft.com/source/features/sustainability/hydrogen-fuel-cells-could-provide-emission-free-backup-power-at-datacenters-microsoft-says",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Microsoft Source",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly via WebFetch, 28 July 2022."
+}

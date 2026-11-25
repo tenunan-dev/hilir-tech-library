@@ -1,0 +1,80 @@
+{
+  "id": "green-rocks-data-centre-kmw-peaking-plant-mainz",
+  "name": "Green Rocks data centre / KMW peaking plant, Mainz",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Germany",
+  "location": "Germany",
+  "status": "operating",
+  "description": "Part of plant capacity expected to be available to Green Rocks data centre being built by KMW and Green Mountain",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Contract signed",
+      "date": "2025",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-and-kmw-secure-grid-stability-and-data-center-supply-with-a-peaking-power-plant",
+        "source_id": "dcp-innio-com-innio-and-kmw-secure-grid-stabilit-15b4eac"
+      }
+    },
+    {
+      "event": "Commissioning",
+      "date": "2027",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-and-kmw-secure-grid-stability-and-data-center-supply-with-a-peaking-power-plant",
+        "source_id": "dcp-innio-com-innio-and-kmw-secure-grid-stabilit-15b4eac"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "INNIO Group",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Kraftwerke Mainz-Wiesbaden AG (KMW)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Green Mountain (Norwegian data centre operator, Green Rocks project)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-and-kmw-secure-grid-stability-and-data-center-supply-with-a-peaking-power-plant",
+      "source_id": "dcp-innio-com-innio-and-kmw-secure-grid-stabilit-15b4eac",
+      "note": "Part of plant capacity expected to be available to Green Rocks data centre being"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-and-kmw-secure-grid-stability-and-data-center-supply-with-a-peaking-power-plant",
+      "source_id": "dcp-innio-com-innio-and-kmw-secure-grid-stabilit-15b4eac"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-and-kmw-secure-grid-stability-and-data-center-supply-with-a-peaking-power-plant",
+      "source_id": "dcp-innio-com-innio-and-kmw-secure-grid-stabilit-15b4eac",
+      "note": "Part of plant capacity expected to be available to Green Rocks data centre being built by KMW and Green Mountain"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Share of plant capacity dedicated to the data centre",
+      "why": "Release says only 'part of the plant's capacity'",
+      "next_action": "Leave as gap"
+    },
+    {
+      "what": "Contract value",
+      "why": "Not disclosed",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

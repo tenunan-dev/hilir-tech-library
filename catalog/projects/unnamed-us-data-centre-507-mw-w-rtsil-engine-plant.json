@@ -1,0 +1,76 @@
+{
+  "id": "unnamed-us-data-centre-507-mw-w-rtsil-engine-plant",
+  "name": "Unnamed US data centre — 507 MW Wärtsilä engine plant",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Off-grid continuous primary power; natural gas with future sustainable-fuel conversion",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Order booked in Q4 2025",
+      "date": "2025",
+      "source": {
+        "url": "https://www.wartsila.com/media/news/20-11-2025-wartsila-continues-growth-in-the-data-center-segment-with-a-507-mw-order-in-the-us-offering-engines-as-a-reliable-power-solution-3686573",
+        "source_id": "dcp-wartsila-com-20-11-2025-wartsila-continues-g-7ac055f"
+      }
+    },
+    {
+      "event": "Equipment delivery",
+      "date": "2027",
+      "source": {
+        "url": "https://www.wartsila.com/media/news/20-11-2025-wartsila-continues-growth-in-the-data-center-segment-with-a-507-mw-order-in-the-us-offering-engines-as-a-reliable-power-solution-3686573",
+        "source_id": "dcp-wartsila-com-20-11-2025-wartsila-continues-g-7ac055f"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Wärtsilä (equipment supplier)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Unnamed US data centre developer (customer not named in release)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/media/news/20-11-2025-wartsila-continues-growth-in-the-data-center-segment-with-a-507-mw-order-in-the-us-offering-engines-as-a-reliable-power-solution-3686573",
+      "source_id": "dcp-wartsila-com-20-11-2025-wartsila-continues-g-7ac055f",
+      "note": "Off-grid continuous primary power; natural gas with future sustainable-fuel conv"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/20-11-2025-wartsila-continues-growth-in-the-data-center-segment-with-a-507-mw-order-in-the-us-offering-engines-as-a-reliable-power-solution-3686573",
+      "source_id": "dcp-wartsila-com-20-11-2025-wartsila-continues-g-7ac055f"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/20-11-2025-wartsila-continues-growth-in-the-data-center-segment-with-a-507-mw-order-in-the-us-offering-engines-as-a-reliable-power-solution-3686573",
+      "source_id": "dcp-wartsila-com-20-11-2025-wartsila-continues-g-7ac055f",
+      "note": "Off-grid continuous primary power; natural gas with future sustainable-fuel conversion"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Customer identity and exact site",
+      "why": "Not named in Wärtsilä release",
+      "next_action": "Leave as gap"
+    },
+    {
+      "what": "Order value",
+      "why": "Not disclosed",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

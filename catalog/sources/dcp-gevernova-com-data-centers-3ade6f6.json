@@ -1,0 +1,25 @@
+{
+  "id": "dcp-gevernova-com-data-centers-3ade6f6",
+  "name": "GE Vernova — Gas Power Technology for Data Centers",
+  "url": "https://www.gevernova.com/gas-power/industries/data-centers",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "GE Vernova",
+  "access": "open",
+  "licence": "publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch 2026-11-25. All figures are vendor claims; no dated project or dollar year on page."
+}

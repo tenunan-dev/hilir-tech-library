@@ -1,0 +1,24 @@
+{
+  "id": "dcp-mat-diesel-oxidation-catalyst-and-diesel-particulate-f",
+  "name": "Diesel oxidation catalyst and diesel particulate filter",
+  "material_category": "catalyst-filter-media",
+  "description": "Diesel oxidation catalyst and diesel particulate filter named on a page read in the 10-year power retrospective.",
+  "specifications": [
+    {
+      "metric": "function",
+      "unit": "QUALITATIVE",
+      "basis": "Listed among advanced exhaust controls used by Tier 4 systems to reduce NOx, PM and CO; retrofitted Tier 2 systems often meet only the NOx standard, not the PM limit",
+      "source": {
+        "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+        "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf",
+      "source_id": "dcp-betterdatacenterproject-com-diesel-generator-efd4964"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

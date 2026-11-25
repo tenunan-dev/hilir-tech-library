@@ -1,0 +1,109 @@
+{
+  "id": "historical-lcoe-and-cost-trend-series-spanning-the-2016-20",
+  "name": "Historical LCOE and cost trend series spanning the 2016–2026 retrospective window",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Annual benchmark series provide the only readable dated cost trend evidence covering the full decade. Lazard's historical chart is an analyst series; EIA figures are government assumptions with explicitly stated dollar years. Values from different dollar years are not converted.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "gas peaking LCOE, version 17.0",
+      "year": 2024,
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOE v17.0 range; historical series in the same report lists gas peaking average LCOE of $116/MWh in 2016 and $91/MWh in 2021",
+      "low": 110,
+      "high": 228,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+      }
+    },
+    {
+      "metric": "gas combined-cycle LCOE, version 17.0",
+      "year": 2024,
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOE v17.0 range; historical series in the same report lists CCGT average LCOE of $60/MWh in 2016 and $47/MWh in 2021",
+      "low": 45,
+      "high": 108,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+      }
+    },
+    {
+      "metric": "gas peaking LCOE, version 18.0",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOE v18.0; report states +18% change in average LCOE since v17.0",
+      "low": 149,
+      "high": 251,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    },
+    {
+      "metric": "gas combined-cycle LCOE, version 18.0",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOE v18.0; report states +3% change in average LCOE since v17.0 and describes a 10-year high for new CCGT build cost",
+      "low": 48,
+      "high": 109,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    },
+    {
+      "metric": "upper bound of CCGT capital cost, Lazard 2015-2025 series",
+      "year": 2015,
+      "unit": "USD/KW",
+      "basis": "IEEFA summary of Lazard annual reports: upper bound of CCGT capital cost ranged $1,300-1,600/kW from 2015-25; lower bound at or below $1,000/kW through 2024",
+      "low": 1300,
+      "high": 1600,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398",
+      "note": "Annual benchmark series provide the only readable dated cost trend evidence cove"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2024-pdf-d235398"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+    },
+    {
+      "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+      "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Dated EIA installed-cost tables for 2016-2023",
+      "why": "The EIA generator-cost page defaults to 2024 and the year query parameter did not change the rendered table in the WebFetch result",
+      "next_action": "Fetch each archived year table or the linked XLS files directly and read the values before adding them"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

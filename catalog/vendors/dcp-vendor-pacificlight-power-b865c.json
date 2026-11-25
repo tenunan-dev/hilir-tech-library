@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-pacificlight-power-b865c",
+  "name": "PacificLight Power",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "PacificLight Power named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore",
+      "source_id": "dcp-datacenterdynamics-com-bridge-data-centres-p-57278df"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

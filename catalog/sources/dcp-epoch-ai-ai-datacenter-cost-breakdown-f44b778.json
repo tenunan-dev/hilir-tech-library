@@ -1,0 +1,25 @@
+{
+  "id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778",
+  "name": "Epoch AI — total cost of ownership of a one-gigawatt AI data center",
+  "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC"
+  ],
+  "disciplines": [
+    "ELE",
+    "CIV"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Epoch AI",
+  "access": "open",
+  "licence": "CC BY",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch 2026-11-25. Dated 14 May 2026; stylised model, not a real facility; USD dollar year not stated on page."
+}

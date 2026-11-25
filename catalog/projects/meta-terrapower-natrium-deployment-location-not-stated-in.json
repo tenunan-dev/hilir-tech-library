@@ -1,0 +1,84 @@
+{
+  "id": "meta-terrapower-natrium-deployment-location-not-stated-in",
+  "name": "Meta–TerraPower Natrium deployment (location not stated in read source)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "First Natrium plant under development per TerraPower; powers grids supporting Meta operations; no financial terms disclosed",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Agreement announced after Meta nuclear RFP",
+      "date": "2026",
+      "source": {
+        "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+        "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2"
+      }
+    },
+    {
+      "event": "First delivery targeted",
+      "date": "2032",
+      "source": {
+        "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+        "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2"
+      }
+    },
+    {
+      "event": "Additional units targeted",
+      "date": "2035",
+      "source": {
+        "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+        "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "TerraPower (developer)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Meta Platforms (funding and offtake rights)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+      "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2",
+      "note": "First Natrium plant under development per TerraPower; powers grids supporting Me"
+    },
+    {
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+      "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2"
+    },
+    {
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+      "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2",
+      "note": "First Natrium plant under development per TerraPower; powers grids supporting Meta operations; no financial terms disclosed"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Plant location",
+      "why": "Meta's announcement does not name the Natrium site",
+      "next_action": "Fetch TerraPower announcement if a site is named"
+    },
+    {
+      "what": "Funding amount and power price",
+      "why": "Financial terms not disclosed",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

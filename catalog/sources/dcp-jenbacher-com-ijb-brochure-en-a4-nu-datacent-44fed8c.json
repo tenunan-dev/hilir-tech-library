@@ -1,0 +1,26 @@
+{
+  "id": "dcp-jenbacher-com-ijb-brochure-en-a4-nu-datacent-44fed8c",
+  "name": "INNIO Jenbacher Data Center Power Solutions brochure",
+  "url": "https://www.jenbacher.com/wp-content/uploads/2025/02/IJB_Brochure_EN_A4_NU_Datacenter_RZ_Screen_IJB-323010-EN.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "INNIO Jenbacher",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. WebFetch returned unsupported PDF content type; read via https://r.jina.ai/<url>. Copyright 2023 INNIO per document footers."
+}

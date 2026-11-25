@@ -1,0 +1,26 @@
+{
+  "id": "dcp-regmedia-co-uk-gas1-pdf-9ccd52a",
+  "name": "Powering Data Centers with Natural Gas",
+  "url": "https://regmedia.co.uk/2024/05/15/gas1.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Black & Veatch",
+  "access": "open",
+  "licence": "Copyright 2020 Black & Veatch Corporation",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via https://r.jina.ai/ proxy; docketed in California Docket 19-SPPE-03 Sequoia Data Center, submission dated 2 November 2020."
+}

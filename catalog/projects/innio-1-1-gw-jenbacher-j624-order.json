@@ -1,0 +1,130 @@
+{
+  "id": "innio-1-1-gw-jenbacher-j624-order",
+  "name": "INNIO 1.1 GW Jenbacher J624 order",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "US",
+  "location": "US",
+  "status": "operating",
+  "description": "More than 200 containerised J624 engines for behind-the-meter prime power; customer not disclosed under confidentiality practice.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Wartsila booked 507 MW US data-centre engine order",
+      "date": "2025",
+      "source": {
+        "url": "https://www.wartsila.com/media/news/20-11-2025-wartsila-continues-growth-in-the-data-center-segment-with-a-507-mw-order-in-the-us-offering-engines-as-a-reliable-power-solution-3686573",
+        "source_id": "dcp-wartsila-com-20-11-2025-wartsila-continues-g-7ac055f"
+      }
+    },
+    {
+      "event": "INNIO booked approximately 1.1 GW gas engine order",
+      "date": "2026",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innio-wins-1-1-gigawatt-gas-engine-order-for-major-data-center-campus/",
+        "source_id": "dcp-innio-com-288ec46"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "HD Hyundai engine supply for Corban data centre (derived $/kW)",
+      "year": 2026,
+      "unit": "USD/KW",
+      "basis": "Analyst note: $676m for 1 GW, 'likely for engine supply rather than a complete plant'. Not a complete-plant price.",
+      "value": 680,
+      "source": {
+        "url": "https://nodus.equipment/insights/behind-the-meter-power",
+        "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97"
+      }
+    },
+    {
+      "metric": "HD Hyundai / Corban disclosed deal value",
+      "year": 2026,
+      "unit": "USD",
+      "basis": "Reported by Nodus Partners from company announcements; August 2026",
+      "value": 676000000,
+      "source": {
+        "url": "https://nodus.equipment/insights/behind-the-meter-power",
+        "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97"
+      }
+    },
+    {
+      "metric": "Alphabet acquisition of Intersect Power",
+      "year": 2025,
+      "unit": "USD",
+      "basis": "Asset transaction; announced December 2025 and closed March 2026 per RaboResearch; includes co-located data-centre and power campus in Haskell County, Texas",
+      "value": 4750000000,
+      "source": {
+        "url": "https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us",
+        "source_id": "dcp-r-jina-ai-d011524694-the-sprint-data-centers-c997433"
+      }
+    },
+    {
+      "metric": "Amazon purchase of Talen Cumulus campus",
+      "year": 2024,
+      "unit": "USD",
+      "basis": "Asset transaction reported by Open Factory: 960 MW site next to the 2.5 GW Susquehanna station, 4 March 2024, with a 10-year PPA",
+      "value": 650000000,
+      "source": {
+        "url": "https://open-factory.com/articles/nuclear-ppas-price-signal"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-wins-1-1-gigawatt-gas-engine-order-for-major-data-center-campus/",
+      "source_id": "dcp-innio-com-288ec46",
+      "note": "More than 200 containerised J624 engines for behind-the-meter prime power; custo"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/20-11-2025-wartsila-continues-growth-in-the-data-center-segment-with-a-507-mw-order-in-the-us-offering-engines-as-a-reliable-power-solution-3686573",
+      "source_id": "dcp-wartsila-com-20-11-2025-wartsila-continues-g-7ac055f"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-wins-1-1-gigawatt-gas-engine-order-for-major-data-center-campus/",
+      "source_id": "dcp-innio-com-288ec46"
+    },
+    {
+      "url": "https://www.wartsila.com/media/news/20-11-2025-wartsila-continues-growth-in-the-data-center-segment-with-a-507-mw-order-in-the-us-offering-engines-as-a-reliable-power-solution-3686573",
+      "source_id": "dcp-wartsila-com-20-11-2025-wartsila-continues-g-7ac055f",
+      "note": "27 x Wartsila 50SG engines, continuous primary power, natural gas with future sustainable-fuel conversion capability."
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-wins-1-1-gigawatt-gas-engine-order-for-major-data-center-campus/",
+      "source_id": "dcp-innio-com-288ec46",
+      "note": "More than 200 containerised J624 engines for behind-the-meter prime power; customer not disclosed under confidentiality practice."
+    },
+    {
+      "url": "https://nodus.equipment/insights/behind-the-meter-power",
+      "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97",
+      "note": "Caterpillar G3500 reciprocating engines for 2 GW on-site generation tied to Microsoft and NVIDIA; reported as 2 GW Caterpillar engine capacity by RaboResearch and by Power Engineering via Nodus."
+    },
+    {
+      "url": "https://nodus.equipment/insights/behind-the-meter-power",
+      "source_id": "dcp-nodus-equipment-behind-the-meter-power-0d2ae97",
+      "note": "1 GW, $676m; analyst judges this likely engine supply rather than a complete plant."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Monetary value of the Wartsila 507 MW, INNIO 1.1 GW, VoltaGrid 1.5 GW and Caterpillar 2 GW orders",
+      "why": "OEM releases disclose capacity and engine counts only",
+      "next_action": "Review quarterly order-book disclosures and monetary order-intake notes"
+    },
+    {
+      "what": "Customer identity for several large orders",
+      "why": "Explicitly withheld under data-centre confidentiality practice",
+      "next_action": "No action; record as undisclosed"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

@@ -1,0 +1,24 @@
+{
+  "id": "dcp-mat-fuel-filtration-and-filter-media",
+  "name": "Fuel filtration and filter media",
+  "material_category": "filter-media",
+  "description": "Fuel filtration and filter media named on a page read in the 10-year power retrospective.",
+  "specifications": [
+    {
+      "metric": "recommended specification",
+      "unit": "QUALITATIVE",
+      "basis": "Cummins recommendation to avoid contaminated fuel clogging filters, air in fuel, injector damage and frequency/voltage fluctuation; fuel cleanliness and freedom from water also required",
+      "source": {
+        "url": "https://www.cummins.com/sites/default/files/2018-08/201802_PowerHour_Common%20failure%20modes%20of%20Data%20Center%20back%20up%20power%20systems.pdf",
+        "source_id": "dcp-cummins-com-201802-powerhour-common-20failur-6944984"
+      }
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.cummins.com/sites/default/files/2018-08/201802_PowerHour_Common%20failure%20modes%20of%20Data%20Center%20back%20up%20power%20systems.pdf",
+      "source_id": "dcp-cummins-com-201802-powerhour-common-20failur-6944984"
+    }
+  ],
+  "last_reviewed": "2026-11-25"
+}

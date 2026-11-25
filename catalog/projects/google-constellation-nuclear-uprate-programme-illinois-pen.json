@@ -1,0 +1,104 @@
+{
+  "id": "google-constellation-nuclear-uprate-programme-illinois-pen",
+  "name": "Google–Constellation nuclear uprate programme (Illinois, Pennsylvania, New Jersey)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "20-year PPA; also includes load shaping/demand response and five-year Google Cloud technology alliance",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Agreement announced",
+      "date": "2026",
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+        "source_id": "dcp-constellationenergy-com-google-and-constella-6b7e5d8"
+      }
+    },
+    {
+      "event": "First uprate delivered",
+      "date": "2028",
+      "source": {
+        "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+        "source_id": "dcp-blog-google-4293046"
+      }
+    },
+    {
+      "event": "All 890 MW online",
+      "date": "2032",
+      "source": {
+        "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+        "source_id": "dcp-blog-google-4293046"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Constellation new investment",
+      "year": 2026,
+      "unit": "USD million (as printed)",
+      "basis": "USD, dollar year not stated; 'more than $4.3 billion of new investment' announced 6 October 2026",
+      "value": 4300000000,
+      "source": {
+        "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+        "source_id": "dcp-constellationenergy-com-google-and-constella-6b7e5d8"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Constellation Energy (owner/operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Google (20-year PPA offtaker and technology partner)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Google Cloud / Gemini Enterprise (AI for operations)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+      "source_id": "dcp-constellationenergy-com-google-and-constella-6b7e5d8",
+      "note": "20-year PPA; also includes load shaping/demand response and five-year Google Clo"
+    },
+    {
+      "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+      "source_id": "dcp-constellationenergy-com-google-and-constella-6b7e5d8"
+    },
+    {
+      "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+      "source_id": "dcp-blog-google-4293046"
+    },
+    {
+      "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+      "source_id": "dcp-constellationenergy-com-google-and-constella-6b7e5d8",
+      "note": "20-year PPA; also includes load shaping/demand response and five-year Google Cloud technology alliance"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Per-unit uprate allocation",
+      "why": "Press release does not break out MW by plant; a secondary article gave 348 MW at Limerick and 97 MW at Salem but was not read with WebFetch",
+      "next_action": "Fetch the article before recording per-site figures"
+    },
+    {
+      "what": "PPA price",
+      "why": "Not disclosed",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

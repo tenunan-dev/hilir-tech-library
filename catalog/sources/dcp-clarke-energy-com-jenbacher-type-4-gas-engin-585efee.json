@@ -1,0 +1,26 @@
+{
+  "id": "dcp-clarke-energy-com-jenbacher-type-4-gas-engin-585efee",
+  "name": "Clarke Energy Jenbacher Type 4 product page",
+  "url": "https://www.clarke-energy.com/us/gas-engines/jenbacher-type-4-gas-engine",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "ELE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Clarke Energy (INNIO distributor)",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Page read directly with WebFetch on 2026-11-25; page content carries 2025/2026 asset dates."
+}

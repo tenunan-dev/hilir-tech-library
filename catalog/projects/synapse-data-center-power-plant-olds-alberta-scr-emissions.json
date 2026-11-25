@@ -1,0 +1,110 @@
+{
+  "id": "synapse-data-center-power-plant-olds-alberta-scr-emissions",
+  "name": "Synapse Data Center power plant, Olds, Alberta — SCR emissions control",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Canada",
+  "location": "Canada",
+  "status": "operating",
+  "description": "Each 140 MW combined-cycle block has dual-path SCR (high-temperature zeolite and low-temperature vanadium catalyst grids), ammonia injection and a bypass-stack SCR path; SCR catalyst is treated as hazardous material in the decommissioning estimate.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "illustrative carbon price sensitivity, low",
+      "year": 2025,
+      "unit": "USD/TON CO2",
+      "basis": "Lazard LCOE+ v18.0 sensitivity; high case $60/ton; applied to generation-related emissions only, not embodied carbon",
+      "value": 40,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    },
+    {
+      "metric": "refurbished aero-derivative installed price including emissions control and medium-voltage switchgear",
+      "year": 2026,
+      "unit": "USD/KW",
+      "basis": "HTR: single Canadian utility filing for 2 x 50 MW; only public installed price for a refurbished aero-derivative package; includes emissions control",
+      "value": 2360,
+      "source": {
+        "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+        "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+      }
+    },
+    {
+      "metric": "firm transportation reservation cost, Bridge pipeline serving Canady's CCGT",
+      "year": 2026,
+      "unit": "USD MILLION/YEAR",
+      "basis": "IEEFA estimate using 325,000 dekatherms/day at an indicative $0.50/dekatherm/day; 20-year total $1.18bn, NPV $614m, equal to 12.3% of the plant's estimated cost",
+      "value": 59.3,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    },
+    {
+      "metric": "gas pipeline construction cost increase for projects completed since 2024",
+      "year": 2025,
+      "unit": "PERCENT",
+      "basis": "BTU Analytics analysis of FERC and EIA data quoted by IEEFA; price per mile basis",
+      "value": 90,
+      "source": {
+        "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+        "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+      "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293",
+      "note": "Each 140 MW combined-cycle block has dual-path SCR (high-temperature zeolite and"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+      "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293"
+    },
+    {
+      "url": "https://r.jina.ai/https://docs.publicnow.com/viewDoc?filename=139931%5CEXT%5C0B2D5E69AAEC4958324B4032CABD17338CE0F8CE_DA1DC3C29E30597FC47D58DF3995B47CF08BA06F.PDF"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+      "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293",
+      "note": "Each 140 MW combined-cycle block has dual-path SCR (high-temperature zeolite and low-temperature vanadium catalyst grids), ammonia injection and a bypass-stack SCR path; SCR catalyst is treated as haz"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+      "source_id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a"
+    },
+    {
+      "url": "https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf",
+      "source_id": "dcp-r-jina-ai-the-20misguided-20stampede-20to-20-9dd759c"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Incremental SCR capital and operating cost per turbine, and NOx CEMS cost",
+      "why": "The EPA/PublicNow technical support document was blocked by CAPTCHA; figures appeared only in search-result text and are therefore excluded",
+      "next_action": "Retrieve the document from an official EPA domain or a state commission docket and read it directly before recording any figure"
+    },
+    {
+      "what": "Emissions compliance cost specific to data-centre engine fleets",
+      "why": "OEM and project releases describe low-NOx capability without stating cost",
+      "next_action": "Look for air-permit applications with control-cost schedules"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

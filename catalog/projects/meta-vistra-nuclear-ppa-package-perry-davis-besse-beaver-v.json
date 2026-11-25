@@ -1,0 +1,112 @@
+{
+  "id": "meta-vistra-nuclear-ppa-package-perry-davis-besse-beaver-v",
+  "name": "Meta–Vistra nuclear PPA package (Perry, Davis-Besse, Beaver Valley)",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "20-year PPAs covering 2,609 MW; delivery into PJM; supports Meta's Prometheus supercluster in New Albany, Ohio",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "PPA announced via SEC Form 8-K (Item 7.01 Regulation FD)",
+      "date": "2026",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      }
+    },
+    {
+      "event": "Partial delivery of operating energy and capacity",
+      "date": "2026",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      }
+    },
+    {
+      "event": "Full delivery of operating energy and capacity",
+      "date": "2027",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      }
+    },
+    {
+      "event": "First uprate delivery",
+      "date": "2031",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      }
+    },
+    {
+      "event": "Full uprate delivery",
+      "date": "2034",
+      "source": {
+        "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+        "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Vistra Corp (owner/operator)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Meta Platforms (offtaker)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Vistra Corp",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Meta Platforms",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+      "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2",
+      "note": "20-year PPAs covering 2,609 MW; delivery into PJM; supports Meta's Prometheus su"
+    },
+    {
+      "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+      "source_id": "dcp-sec-gov-d20785d8k-htm-a32a57b"
+    },
+    {
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+      "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2"
+    },
+    {
+      "url": "https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership",
+      "source_id": "dcp-about-fb-com-meta-nuclear-energy-projects-po-28464a2",
+      "note": "20-year PPAs covering 2,609 MW; delivery into PJM; supports Meta's Prometheus supercluster in New Albany, Ohio"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "PPA price / contract value",
+      "why": "Meta and Vistra did not disclose financial terms",
+      "next_action": "Leave as gap unless a later filing discloses the strike price"
+    },
+    {
+      "what": "Aggregate uprate capital expenditure",
+      "why": "8-K states spend profile and returns target but no dollar total",
+      "next_action": "Fetch Vistra investor presentation for a dollar figure with year"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

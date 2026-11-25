@@ -1,0 +1,64 @@
+{
+  "id": "jenbacher-cchp-data-centre-reference-installations",
+  "name": "Jenbacher CCHP data centre reference installations",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "China / Germany / Italy",
+  "location": "China / Germany / Italy",
+  "status": "operating",
+  "description": "Brochure cites 800 CCHP systems globally; real business-case example uses 9.8 euro-cent/kWh electricity and 2.85 euro-cent/kWh gas (EUR, not USD — not recorded in prices array)",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Beijing CCHP data centre in service",
+      "date": "2014",
+      "source": {
+        "url": "https://www.jenbacher.com/wp-content/uploads/2025/02/IJB_Brochure_EN_A4_NU_Datacenter_RZ_Screen_IJB-323010-EN.pdf",
+        "source_id": "dcp-jenbacher-com-ijb-brochure-en-a4-nu-datacent-44fed8c"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "INNIO Jenbacher",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/wp-content/uploads/2025/02/IJB_Brochure_EN_A4_NU_Datacenter_RZ_Screen_IJB-323010-EN.pdf",
+      "source_id": "dcp-jenbacher-com-ijb-brochure-en-a4-nu-datacent-44fed8c",
+      "note": "Brochure cites 800 CCHP systems globally; real business-case example uses 9.8 eu"
+    },
+    {
+      "url": "https://www.jenbacher.com/wp-content/uploads/2025/02/IJB_Brochure_EN_A4_NU_Datacenter_RZ_Screen_IJB-323010-EN.pdf",
+      "source_id": "dcp-jenbacher-com-ijb-brochure-en-a4-nu-datacent-44fed8c"
+    },
+    {
+      "url": "https://www.jenbacher.com/wp-content/uploads/2025/02/IJB_Brochure_EN_A4_NU_Datacenter_RZ_Screen_IJB-323010-EN.pdf",
+      "source_id": "dcp-jenbacher-com-ijb-brochure-en-a4-nu-datacent-44fed8c",
+      "note": "Brochure cites 800 CCHP systems globally; real business-case example uses 9.8 euro-cent/kWh electricity and 2.85 euro-cent/kWh gas (EUR, not USD — not recorded in prices array)"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Commissioning dates for Karlsruhe and Vodafone Village",
+      "why": "Brochure gives no dates",
+      "next_action": "Leave as gap"
+    },
+    {
+      "what": "USD project costs",
+      "why": "Only EUR-denominated unit costs are printed; no USD conversion permitted without a named index",
+      "next_action": "Leave as gap; do not convert"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

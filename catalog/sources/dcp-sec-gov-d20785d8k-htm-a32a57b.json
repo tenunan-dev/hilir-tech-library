@@ -1,0 +1,26 @@
+{
+  "id": "dcp-sec-gov-d20785d8k-htm-a32a57b",
+  "name": "Vistra Corp Form 8-K, 9 January 2026",
+  "url": "https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "U.S. Securities and Exchange Commission / Vistra Corp",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly via WebFetch. Primary filing gives exact MW split and delivery dates."
+}

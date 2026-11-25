@@ -1,0 +1,66 @@
+{
+  "id": "ntt-global-data-centers-portfolio-onsite-power-programme",
+  "name": "NTT Global Data Centers portfolio onsite power programme",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "900 MW of Bloom fuel cell onsite power across multiple data centre projects globally; no countries or sites named in the release.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "900 MW onsite power agreement with Bloom Energy",
+      "date": "2026",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+        "source_id": "dcp-bloomenergy-com-660ad39"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "NTT Group annual R&D investment",
+      "year": 2026,
+      "unit": "USD million (as printed)",
+      "basis": "dollar year not stated; 'over USD 3 billion each year in R&D' as stated in the 5 November 2026 release; company R&D, not a contract price",
+      "value": 3000000000,
+      "source": {
+        "url": "https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+        "source_id": "dcp-bloomenergy-com-660ad39"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+      "source_id": "dcp-bloomenergy-com-660ad39",
+      "note": "900 MW of Bloom fuel cell onsite power across multiple data centre projects glob"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+      "source_id": "dcp-bloomenergy-com-660ad39"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+      "source_id": "dcp-bloomenergy-com-660ad39",
+      "note": "900 MW of Bloom fuel cell onsite power across multiple data centre projects globally; no countries or sites named in the release."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named countries/sites and contract value",
+      "why": "Not printed",
+      "next_action": "Check NTT Global Data Centers announcements"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

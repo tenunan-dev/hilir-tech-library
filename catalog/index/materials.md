@@ -1,6 +1,6 @@
 # Engineering materials
 
-165 material records (schema `schema/material.schema.json`). Every property carries the source it was read from.
+171 material records (schema `schema/material.schema.json`). Every property carries the source it was read from.
 
 | Material | Category | Properties | Applications |
 | --- | --- | --- | --- |
@@ -9,8 +9,13 @@
 | [Fenders, boat landings and access steel](https://www.iso.org/standard/84215.html) | appurtenance | function | Protect structures from vessel impact and provide access for personnel and equipment. |
 | [Abrasion-resistant zirconium (ARZ) bearings](https://www.offshore-technology.com/projects/bokor-phase-3-redevelopment-project/) | artificial-lift-materials | Application |  |
 | [Gas surface jet pump](https://www.awtinternational.com/wp-content/uploads/2021/12/AWT-Case-Study-Geoscience-Wells-Duyong-Field-Development-Plan-PCSB-Rev-0.pdf) | artificial-lift-process | Pipeline avoided |  |
+| [Lead-acid battery hydrogen evolution](https://www.datacenterknowledge.com/outages/same-roof-10-different-gases-what-a-data-center-is-quietly-holding) | battery-chemistry | lower flammable limit of hydrogen in air |  |
+| [Lithium iron phosphate (LFP) Li-ion](https://journal.uptimeinstitute.com/major-data-center-fire-highlights-criticality-of-it-services) | battery-chemistry | safety characteristic |  |
+| [Nickel-zinc](https://journal.uptimeinstitute.com/major-data-center-fire-highlights-criticality-of-it-services) | battery-chemistry | status |  |
 | [Marine growth prevention systems](https://www.iso.org/standard/84215.html) | biofouling-control | function | Prevent biofouling on submerged members and intakes to control weight, drag, inspection access and heat-exchange performance. |
 | [Syntactic foam buoyancy and buoyancy tanks](https://www.api.org/products-and-services/standards) | buoyancy-materials | function | Tension hybrid risers, support flexible jumper configurations, provide buoyancy modules |
+| [Selective catalytic reduction (SCR) catalyst](https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf) | catalyst | NOx conversion |  |
+| [Diesel oxidation catalyst and diesel particulate filter](https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf) | catalyst-filter-media | function |  |
 | [Portland and specialty cement](https://www.iso.org/standard/84215.html) | cement | function | Binder in concrete, grout and mortar; specialty types provide sulfate resistance, low heat of hydration or early strength. |
 | [Grouting materials for pile-to-jacket connections](https://www.api.org/products-and-services/standards) | cementitious | function | Transfer load between driven pile and jacket leg or sleeve. |
 | [Reinforced / prestressed marine concrete](https://en.wikipedia.org/wiki/Condeep) | cementitious | Troll A concrete volume; suitability | Buoyancy, storage and gravity ballast in GBS/CGS; durability in marine, ice and seismic environments. |
@@ -55,6 +60,7 @@
 | [Sway and surge fenders](https://www.iso.org/standard/84215.html) | elastomer-steel-assembly | function | Control barge sway and stabilise the float-over mating process |
 | [Nickel-cadmium battery bank (Timi)](https://r.jina.ai/https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf) | electrical-storage | technology choice rationale |  |
 | [High-strength structural bolts](https://www.iso.org/standard/84215.html) | fastener | function | Connect structural steel members in bearing-type or slip-critical joints; pretensioned assemblies transfer load by friction and resist slip and fatigue. |
+| [Fuel filtration and filter media](https://www.cummins.com/sites/default/files/2018-08/201802_PowerHour_Common%20failure%20modes%20of%20Data%20Center%20back%20up%20power%20systems.pdf) | filter-media | recommended specification |  |
 | [Passive fire protection](https://www.iso.org/standard/84215.html) | fire-protection | function | Protects structural steel, process equipment and control systems from hydrocarbon/jet fire by intumescence, delaying the steel reaching its critical core temper |
 | [Unbonded flexible pipe / flexible riser](https://www.api.org/~/media/files/publications/whats%20new/17j%20e4%20pa.pdf) | flexible-riser | API 17J scope; construction materials; retrievability; Kikeh external turret riser size range |  |
 | [Compressed breathing air - Grade D](https://www.navsea.navy.mil/Portals/103/Documents/SSRAC/NSI/FY%2026/009-088_FY26.pdf) | gas | Material listed |  |

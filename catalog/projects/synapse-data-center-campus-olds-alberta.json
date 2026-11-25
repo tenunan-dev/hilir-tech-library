@@ -1,0 +1,142 @@
+{
+  "id": "synapse-data-center-campus-olds-alberta",
+  "name": "Synapse Data Center Campus, Olds, Alberta",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Canada",
+  "location": "Canada",
+  "status": "operating",
+  "description": "Ten identical data centres each with a 140 MW combined-cycle power block (2 x 50 MW aeroderivative gas turbines plus 40 MW steam turbine), islanded at 13.8 kV, plus 600 portable diesel backup generators across the campus. Each block includes dual-path SCR and UPS batteries.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Synapse decommissioning and reclamation plan revision 00 issued for use",
+      "date": "2026",
+      "source": {
+        "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+        "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "decommissioning liability, base estimate, one 140 MW CCGT power block",
+      "year": 2026,
+      "unit": "CAD (2026 DOLLARS)",
+      "basis": "AACE Class 5 estimate; direct $16,276,359 plus indirect $1,300,000 plus 30% contingency; excludes salvage credit, off-site transmission and gas pipeline",
+      "value": 17576359,
+      "source": {
+        "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+        "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293"
+      }
+    },
+    {
+      "metric": "decommissioning liability, AACE Class 5 high range (+65%), one power block",
+      "year": 2026,
+      "unit": "CAD (2026 DOLLARS)",
+      "basis": "High range used for security sizing",
+      "value": 29000992,
+      "source": {
+        "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+        "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293"
+      }
+    },
+    {
+      "metric": "total recommended AUC security, ten power blocks",
+      "year": 2026,
+      "unit": "CAD (2026 DOLLARS)",
+      "basis": "Ten identical 140 MW blocks; low is base estimate, high is AACE Class 5 +65% range. Excludes data-centre infrastructure, off-site transmission and gas pipeline.",
+      "value": 290009921,
+      "low": 175763589,
+      "high": 290009921,
+      "source": {
+        "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+        "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293"
+      }
+    },
+    {
+      "metric": "gross salvage value, gas turbines across ten blocks",
+      "year": 2026,
+      "unit": "CAD (2026 DOLLARS)",
+      "basis": "Information only; no salvage credit applied to the security amount",
+      "value": 178000000,
+      "source": {
+        "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+        "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293"
+      }
+    },
+    {
+      "metric": "gross salvage value, steam turbines across ten blocks",
+      "year": 2026,
+      "unit": "CAD (2026 DOLLARS)",
+      "basis": "Information only; no salvage credit applied",
+      "value": 49000000,
+      "source": {
+        "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+        "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293"
+      }
+    },
+    {
+      "metric": "mechanical equipment removal, one 140 MW power block",
+      "year": 2026,
+      "unit": "CAD (2026 DOLLARS)",
+      "basis": "Includes two gas turbines, steam turbine, HRSG with SCR and stacks, three air-cooled condensers and auxiliary mechanical systems",
+      "value": 6726044,
+      "source": {
+        "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+        "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293"
+      }
+    },
+    {
+      "metric": "decommissioning and site restoration treatment in Lazard marginal-cost methodology",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "Lazard assumes salvage value for a decommissioned gas or coal asset equals its decommissioning and site restoration costs; no standalone cost figure is published. Nuclear decommissioning costs are included in the marginal-cost benchmark.",
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+      "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293",
+      "note": "Ten identical data centres each with a 140 MW combined-cycle power block (2 x 50"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+      "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293",
+      "note": "Ten identical data centres each with a 140 MW combined-cycle power block (2 x 50 MW aeroderivative gas turbines plus 40 MW steam turbine), islanded at 13.8 kV, plus 600 portable diesel backup generato"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf",
+      "source_id": "dcp-r-jina-ai-30732-x0010-tp-30-decommissioning-3ee7293"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Independent decommissioning cost for a US data-centre gas plant",
+      "why": "No comparable US filing was readable in this research",
+      "next_action": "Search state commission dockets for reclamation security estimates for co-located generation"
+    },
+    {
+      "what": "New Athens Generating 2024 decommissioning study",
+      "why": "The New York DPS document host returned a blank page through WebFetch and r.jina.ai",
+      "next_action": "Fetch from an alternate official host and read directly before recording any figure"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

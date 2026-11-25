@@ -1,0 +1,25 @@
+{
+  "id": "dcp-patents-google-com-en-e417c44",
+  "name": "US20250207550A1 Prechamber assembly",
+  "url": "https://patents.google.com/patent/US20250207550A1/en",
+  "source_type": "patents",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Innio Jenbacher GmbH & Co OG",
+  "access": "open",
+  "licence": "patent publication",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Patent US20250207550A1: Read via r.jina.ai on Google Patents. Priority 2022-03-24; published 2025-06-26; granted as US12650107B2 on 2026-06-09. Claims a front-sealed prechamber with fuel injector for hydrogen, 30-50 bar injection, applicable to stationary genset engines with at least 10 piston-cylinder units."
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dcp-enelx-com-digital-realty-case-study-61ae4da",
+  "name": "Enel X — Digital Realty Grid Interactive UPS Case Study",
+  "url": "https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Enel X",
+  "access": "open",
+  "licence": "publisher copyright",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch 2026-11-25. No publication date on page; CO2 figure is an Enel X claim."
+}

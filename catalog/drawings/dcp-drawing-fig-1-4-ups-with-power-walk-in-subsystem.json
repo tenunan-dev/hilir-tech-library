@@ -1,0 +1,26 @@
+{
+  "id": "dcp-drawing-fig-1-4-ups-with-power-walk-in-subsystem",
+  "title": "FIG. 1-4 UPS with power walk-in subsystem",
+  "diagram_type": "schematic",
+  "description": "Block diagram of UPS receiving AC mains or generator power, schematic of the power walk-in subsystem, and flowcharts for primary and maximum-time walk-in control.",
+  "publisher": "Google Patents / Vertiv Corp",
+  "url": "https://patents.google.com/patent/US11183869B2/en",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "na",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://patents.google.com/patent/US11183869B2/en",
+      "source_id": "dcp-patents-google-com-en-237853c",
+      "note": "Block diagram of UPS receiving AC mains or generator power, schematic of the power walk-in subsystem, and flowcharts for primary and maximum-time walk-in control."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the 10-year data-centre power retrospective."
+}

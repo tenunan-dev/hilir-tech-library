@@ -1,6 +1,6 @@
 # PWR: Power and renewables
 
-1048 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
+1168 sources. Sub-topics: gas-turbines, ccgt, cogeneration, solar, wind, geothermal, energy-storage, grid.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -157,6 +157,8 @@
 | [Jpt.Spe.Org — Olympus TLP accommodation](https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Kashagan field development (Island D artificial islands) — cost](https://en.wikipedia.org/w/index.php?title=Kashagan_Field&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Kiewit Offshore Services](https://www.ogj.com/home/article/17282333/fabricating-the-single-lift-topsides) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
+| [Kubota WG1605-GL-E3 product page](https://engine.kubota.com/products/detail?id=99&ln=en) | oem-supplier | apac, global | open | summary-only |
+| [Kubota WG1903-GL/GL-N product PDF](https://engine.kubota.com/en/products/product_pdf/215_pdf_1.pdf) | oem-supplier | apac, global | open | summary-only |
 | [L-Vision Engineering Pte Ltd](https://www.l-vision.com/services/cid/6449/sid/55671/api-650-tank-construction-erection-in-singapore-malaysia-equipment-design-and-fabrication) | oem-supplier | global, apac, sea | open | summary-only |
 | [Lamprell](https://aws.lamprell.com/uae) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
 | [Lamprell](https://www.lamprell.com/epci) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
@@ -401,6 +403,8 @@
 | [Wikipedia — typical water depth](https://en.wikipedia.org/wiki/Compliant_tower) | research-institute | global, apac, sea, eu, na | open | summary-only |
 | [Wikipedia — typical water depth](https://en.wikipedia.org/wiki/Jackup_rig) | research-institute | global, apac, sea, eu, na | open | summary-only |
 | [Wikipedia — water-depth capability by vintage](https://en.wikipedia.org/wiki/Drillship) | research-institute | global, apac, sea, eu, na | open | summary-only |
+| [Yanmar 400 kW 30% hydrogen CHP news release](https://www.yanmar.com/global/energy/news/2024/07/05/139269.html) | oem-supplier | apac, sea | open | summary-only |
+| [Yanmar methanation micro-CHP news release](https://www.yanmar.com/us/news/2022/11/16/116492.html) | oem-supplier | apac | open | summary-only |
 | [Yme field redevelopment (MOPUstor) and Yme New Development — cost](https://en.wikipedia.org/w/index.php?title=Yme_field&action=raw) | research-institute | global, apac, na, eu | open | summary-only |
 | [Yokohama Rubber — Pneumatic 50 — guaranteed energy absorption (GEA) ](https://www.y-yokohama.com/global/product/mb/fenders/floating/) | oem-supplier | global, apac, sea | open | summary-only |
 | [ØlenBetong](https://www.equinor.com/magazine/new-industrial-chapter) | oem-supplier | global, apac, sea, eu, na | open | summary-only |
@@ -689,12 +693,15 @@
 | [The Edge Malaysia energy coverage](https://theedgemalaysia.com/) | trade-media | sea | mixed | catalog-only (unverified) |
 | [ABB](https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated) | oem-supplier | global, na | open | summary-only |
 | [ABB](https://library.e.abb.com/public/c8353396e0474d16ac38f6b920c2b45f/DEABB+1904+13+en+Variable+Speed+Drive+final.pdf?x-sign=%2F4DbWl6DD3bY6K8r%2Bzl0%2BQ7%2B2iiWrs79JoxF7rmzdGN5Jh%2BqTnLQpYI98qFmpQv9) | oem-supplier | global, na | open | summary-only |
+| [Accelerating the addition of carbon-free energy: An update on progress](https://www.microsoft.com/en-us/microsoft-cloud/blog/2024/09/20/accelerating-the-addition-of-carbon-free-energy-an-update-on-progress) | oem-supplier | global, na | open | summary-only |
 | [Accu-Trim oxygen trim system](https://cleaverbrooks.com/product/accu-trim) | oem-supplier | global, na | open | summary-only |
 | [Active Power / Piller](https://www.activepower.com/technology/flywheel-technology) | oem-supplier | global, na | open | summary-only |
 | [AERZEN — AERZEN GM-HP gas booster volume flow](https://www.aerzen.com/product/gas-booster-for-high-pressure-applications) | oem-supplier | global, na | open | summary-only |
 | [Air heaters](https://www.babcock.com/home/products/air-heaters) | oem-supplier | global, na | open | summary-only |
 | [ALZETA ultra-low-NOx burners](https://alzeta.com/ultra-low-nox-burners) | oem-supplier | global, na | open | summary-only |
 | [ANDRITZ — ANDRITZ PowerFluid CFB Boiler Technology](https://www.andritz.com/thermal-power-en) | oem-supplier | global, na | open | summary-only |
+| [Annual Outage Analysis 2024 executive summary](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2024.Resiliency.Survey.ExecSum.pdf) | oem-supplier | global | open | summary-only |
+| [Annual Outage Analysis 2025](https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.AnnualOutageAnalysis.pdf) | oem-supplier | global | open | summary-only |
 | [Argonne GREET model](https://greet.anl.gov/) | research-institute | global | open | full-text-open |
 | [Armstrong International](https://armstronginternational.com/products-landing/steam-condensate-solutions) | oem-supplier | global, na | open | summary-only |
 | [ASME Boiler & Pressure Vessel Code (BPVC)](https://www.asme.org/codes-standards/bpvc-standards/bpvc-2023) | standards-body | global | paywalled | catalog-only |
@@ -706,6 +713,10 @@
 | [Atlas Copco — Minimum pressure dew point margin below coldest exposed inst](https://www.atlascopco.com/en-us/compressors/wiki/compressed-air-articles/instrument-air-quality) | oem-supplier | global, na | open | summary-only |
 | [Avtron Power Solutions](https://avtronpower.com/) | oem-supplier | global, na | open | summary-only |
 | [Basler Electric](https://www.basler.com/product/decs-2100-digital-excitation-control-system) | oem-supplier | global, na | open | summary-only |
+| [Bloom Energy and CoreWeave Partner to Revolutionize AI Data Center Power Solutions](https://www.bloomenergy.com/news/bloom-energy-and-coreweave-partner-to-revolutionize-ai-data-center-power-solutions/) | oem-supplier | global, na | open | summary-only |
+| [Bloom Energy Announces Gigawatt Fuel Cell Procurement Agreement With AEP](https://www.bloomenergy.com/news/bloom-energy-announces-gigawatt-fuel-cell-procurement-agreement-with-aep-to-power-ai-data-centers) | oem-supplier | global, na | open | summary-only |
+| [Bloom Energy Announces Largest Silicon Valley Data Center Power Capacity Agreement](https://investor.bloomenergy.com/press-releases/press-release-details/2024/Bloom-Energy-Announces-Largest-Silicon-Valley-Data-Center-Power-Capacity-Agreement/default.aspx) | oem-supplier | global, na | open | summary-only |
+| [Bloom Energy Expands Data Center Power Agreement with Equinix Surpassing 100MW](https://www.bloomenergy.com/news/bloom-energy-expands-data-center-power-agreement-with-equinix-surpassing-100mw) | oem-supplier | global, na | open | summary-only |
 | [BOA Group](https://boagroup.com/wp-content/uploads/2019/10/BOA-HFE-Axial-Expansion-Joints.pdf) | oem-supplier | global, na | open | summary-only |
 | [Boiler cycling considerations](https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations) | oem-supplier | global, na | open | summary-only |
 | [BoilerPage — Figure 2-11 Pilot Gas Train; gas fuel flow diagram — Cl](https://boilerpage.com/wp-content/uploads/2025/03/Cleaver-Brooks-CB-250-350hp-Boiler-Manual.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
@@ -715,6 +726,10 @@
 | [Burgess-Manning (CECO Environmental)](https://burgessmanning.com/acoustic-enclosures/) | oem-supplier | global, na | open | summary-only |
 | [Burgess-Manning — Vendor enclosure product families](https://burgessmanning.com/preset-vent-silencers/) | oem-supplier | global, na | open | summary-only |
 | [Burgessmanning.Com — guaranteed vent silencer attenuation](https://burgessmanning.com/custom-vent-silencer) | oem-supplier | global, na | open | summary-only |
+| [CA3255249A1 Method for operating an internal combustion engine](https://patents.google.com/patent/CA3255249A1/en) | patents | global | open | summary-only |
+| [Capstone C1000S product page](https://www.capstoneenergyplus.com/products/capstone-microturbines/c1000s) | oem-supplier | global | open | summary-only |
+| [Capstone Microturbine Technology page](https://www.capstoneenergyplus.com/products/technology) | oem-supplier | global | open | summary-only |
+| [Capstone Products page](https://www.capstoneenergyplus.com/products/) | oem-supplier | global | open | summary-only |
 | [Cascading steam turbine bypass system schematic (Fig. 1) — Steam Turbine Bypass Systems, Combined Cycle Journa](https://competitivepower.us/pub/pdfs/Steam-Turbine-Bypass-Systems-CCJ-4Q-2003.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Caterpillar](https://www.cat.com/en_US/by-industry/electric-power/ep-prod-ser-guide/gas.html) | oem-supplier | global, na | open | summary-only |
 | [Caterpillar](https://www.datacenterdynamics.com/en/news/caterpillar-partners-with-hunt-energy-to-deliver-up-to-1gw-of-power-for-data-centers-in-north-america/) | oem-supplier | global, na | open | summary-only |
@@ -726,6 +741,7 @@
 | [Chemical Engineering magazine — Zeeco Free Jet Power Burner emissions and turndown](https://www.chemengonline.com/the-balanced-burner) | oem-supplier | global, na | open | summary-only |
 | [CINEA featured projects](https://cinea.ec.europa.eu) | agency-data | eu | open | full-text-open |
 | [Circulating Fluidized-bed Combustion Technology — Fig. 1 Process flow of circulating fluidized-bed boiler; Fig](https://www.jcoal.or.jp/eng/upload/cctinjapan_2_2A2.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
+| [Clarke Energy Jenbacher Type 4 product page](https://www.clarke-energy.com/us/gas-engines/jenbacher-type-4-gas-engine) | oem-supplier | global | open | summary-only |
 | [ClearFire-CE condensing boiler](https://cleaverbrooks.com/product/cfce) | oem-supplier | global, na | open | summary-only |
 | [Cleaver-Brooks](https://cleaverbrooks.com/catalog/boiler-room-equipment/feed-systems) | oem-supplier | global, na | open | summary-only |
 | [Cleaver-Brooks](https://cleaverbrooks.com/catalog/selective-catalytic-reduction) | oem-supplier | global, na | open | summary-only |
@@ -751,11 +767,18 @@
 | [Cleaver-Brooks — ProFire SBR-30 Low-NOx Burner](https://cleaverbrooks.com/product/sbr30-burner) | oem-supplier | global, na | open | summary-only |
 | [Cleaver-Brooks — Slant Type/VC Series Boiler (HRSG)](https://cleaverbrooks.com/catalog/boilers/hrsg) | oem-supplier | global, na | open | summary-only |
 | [Cleaver-Brooks — TrayMaster Deaerator (TMV / TMH)](https://cleaverbrooks.com/product/traymaster) | oem-supplier | global, na | open | summary-only |
+| [Colossus Data Center construction permit evaluation and review, Permit 01156-01PC](https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf) | oem-supplier | global, na | open | summary-only |
 | [ComAp](https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers) | oem-supplier | global, na | open | summary-only |
 | [ComAp](https://www.comap-control.com/products/switchgear-control-and-protections) | oem-supplier | global, na | open | summary-only |
 | [ComAp — ComAp InteliGen 1000 coordinated units](https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000) | oem-supplier | global, na | open | summary-only |
 | [Congress.gov legislation text](https://www.congress.gov) | agency-data | na | open | full-text-open (unverified) |
+| [Constellation to Launch Crane Clean Energy Center](https://www.constellationenergy.com/news/2024/Constellation-to-Launch-Crane-Clean-Energy-Center-Restoring-Jobs-and-Carbon-Free-Power-to-The-Grid.html) | oem-supplier | global, na | open | summary-only |
+| [Construction cost data for electric generators installed in 2024](https://www.eia.gov/electricity/generatorcosts) | oem-supplier | global, na | open | summary-only |
+| [Cost and Performance Characteristics of New Generating Technologies, AEO2022](https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/table_8.2.pdf) | oem-supplier | global, na | open | summary-only |
+| [Cost and Performance Characteristics of New Generating Technologies, AEO2023](https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf) | oem-supplier | global, na | open | summary-only |
 | [Cummins](https://www.cummins.com/en-apac/generators/system-level-controls) | oem-supplier | global, na | open | summary-only |
+| [Cummins cogeneration power solutions page](https://www.cummins.com/en-na/generators/cogeneration) | oem-supplier | na, global | open | summary-only |
+| [Cummins Generator Set Controls page](https://www.cummins.com/en-na/generators/generator-set-controls) | oem-supplier | na, global | open | summary-only |
 | [Cummins — Alternator rating range](https://www.cummins.com/generators/alternators) | oem-supplier | global, na | open | summary-only |
 | [Cummins — Enclosure acoustic design measures](https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf) | oem-supplier | global, na | open | summary-only |
 | [Danish Energy Agency Technology Data catalogue](https://ens.dk/en/analyses-and-statistics/technology-catalogues) | agency-data | eu, global | open | full-text-open |
@@ -763,6 +786,7 @@
 | [Dbnoisereduction.Com — flexible connection function](https://www.dbnoisereduction.com/flexible-connections-expansion-joints.php) | oem-supplier | global, na | open | summary-only |
 | [Deep Sea Electronics — DC control supply](https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii) | oem-supplier | global, na | open | summary-only |
 | [DNV Rules and Standards](https://www.dnv.com/rules-standards/) | standards-body | global | free-registration | catalog-only (unverified) |
+| [DOE CHP Technologies: Reciprocating Engines fact sheet (DOE/EE-2764)](https://betterbuildingssolutioncenter.energy.gov/sites/default/files/attachments/CHP_Reciprocating_Engines.pdf) | agency-data | na | open | summary-only |
 | [DOE FEMP — Purchasing energy-efficient boilers](https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers) | agency-data | global, na | open | summary-only |
 | [DOE Steam Systems (Industrial Technologies Office)](https://www.energy.gov/eere/amo/steam-systems) | agency-data | global, na | open | summary-only |
 | [E+E Elektronik](https://www.airbestpractices.com/technology/instrumentation/dew-point-measurement-compressed-air-systems) | oem-supplier | global, na | open | summary-only |
@@ -772,6 +796,7 @@
 | [Eaton](https://www.eaton.com/) | oem-supplier | global, na | open | summary-only |
 | [Eclipse Combustion (BoostPak; spec sheets hosted on Kromschroeder docuthek)](https://docuthek.kromschroeder.com/download.php?doc=46375&lang=de) | oem-supplier | global, na | open | summary-only |
 | [EIA: most combined-cycle plants have duct burners](https://www.eia.gov/todayinenergy/detail.php?id=52778) | agency-data | global, na | open | summary-only |
+| [Electricity Generation Cost Study – Extending the Life of Existing Generation Assets](https://r.jina.ai/https://assets.publishing.service.gov.uk/media/68137e3770b095d0d7011858/electricity-generation-cost-study.pdf) | oem-supplier | global, na | open | summary-only |
 | [Emerson (Copeland VFDs)](https://e360hub.copeland.com/innovation/emerson-launches-copeland-variable-frequency-drives) | oem-supplier | global, na | open | summary-only |
 | [Energies (MDPI)](https://www.mdpi.com/journal/energies) | journal | global | open | full-text-open |
 | [Energy & Environmental Science](https://pubs.rsc.org/en/journal/eesc) | journal | global | mixed | full-text-restricted |
@@ -793,6 +818,7 @@
 | [Everllence](https://www.everllence.com/energy/products/dual-fuel-engines) | oem-supplier | global, na | open | summary-only |
 | [Everllence — Labuan Island gas power plant (KAB Energy Holdings)](https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants) | oem-supplier | global, na | open | summary-only |
 | [Everllence — Mechanical output](https://www.everllence.com/energy/products/gas-fuel-engines) | oem-supplier | global, na | open | summary-only |
+| [Explaining the Uptime Institute's Tier Classification System (April 2021 Update)](https://journal.uptimeinstitute.com/explaining-uptime-institutes-tier-classification-system) | oem-supplier | global | open | summary-only |
 | [Fig. 1.3 Schematic diagram of a CFB boiler — Design, Operation and Maintenance of CFB Boilers (Basu)](https://content.e-bookshelf.de/media/reading/L-3925765-5457caf33b.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 1 — EDI Flow Schematic — Using EDI to Meet the Needs of Pure Water Production](https://www.gevernova.com/gev/sites/default/files/tdindia/GE-EDI-pure-water-production.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Figure 1 — Ion exchange / reverse osmosis makeup-water treatment schematic — Boiler Feedwater Treatment applic](https://prod-edam.honeywell.com/content/dam/honeywell-edam/pmt/hps/products/pmc/process-instruments/analytical-instruments%26sensors/conductivity/pmt-hps-Power-Plant-Feedwater-Treatment-Application-Note.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
@@ -814,6 +840,9 @@
 | [Fulton steam boilers](https://fulton.com/product-categories/steam-boilers/) | oem-supplier | global, na | open | summary-only |
 | [Fulton — ENDURA XE Condensing Firetube Hydronic Boiler](https://fulton.com/exe) | oem-supplier | global, na | open | summary-only |
 | [GO ultra-low-NOx package burner](https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
+| [Google and Constellation Announce Landmark Agreement to Bring 890 MW of New Nuclear Capacity to PJM Grid](https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html) | oem-supplier | global, na | open | summary-only |
+| [Google Patents CN112567588B — Data Center Energy Management System](https://patents.google.com/patent/CN112567588B/en) | oem-supplier | global, na | open | summary-only |
+| [Google Patents US11611219B2 — System of critical datacenters and behind-the-meter flexible datacenters](https://patents.google.com/patent/US11611219B2/en) | oem-supplier | global, na | open | summary-only |
 | [Graver Technologies](https://www.gravertech.com/broad-applications/condensate-polishing) | oem-supplier | global, na | open | summary-only |
 | [Graver Water (Marmon Industrial Water) — Deep Bed Condensate Polishers (with SepraEight regeneration)](https://graver.com/condensate-polishers/deepbed/) | oem-supplier | global, na | open | summary-only |
 | [Graver Water (Marmon Industrial Water) — ElectroFlex Electro-deionization (EDI) Systems](https://graver.com/makeup/electroflex/) | oem-supplier | global, na | open | summary-only |
@@ -828,9 +857,15 @@
 | [HPAC Engineering — Applicability of the 16-step selection method](https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection) | oem-supplier | global, na | open | summary-only |
 | [HRSG components, modules, HARPs and tubes](https://www.babcock.com/home/products-services/specialized-businesses/hrsg-components-modules-harps-tubes) | oem-supplier | global, na | open | summary-only |
 | [Hydraulic Institute pump standards](https://www.pumps.org) | standards-body | global | paywalled | catalog-only |
+| [Hydrogen fuel cells could provide emission free backup power at datacenters, Microsoft says](https://news.microsoft.com/source/features/sustainability/hydrogen-fuel-cells-could-provide-emission-free-backup-power-at-datacenters-microsoft-says) | oem-supplier | global, na | open | summary-only |
+| [IEA Energy and AI — Energy supply for AI](https://www.iea.org/reports/energy-and-ai/energy-supply-for-ai) | oem-supplier | global, na | open | summary-only |
+| [IEA Energy and AI — Executive summary](https://www.iea.org/reports/energy-and-ai/executive-summary) | oem-supplier | global, na | open | summary-only |
 | [IEC International Electrotechnical Commission (IEC 61511, 61508, 62443, 60079)](https://www.iec.ch/standards) | standards-body | global | paywalled | catalog-only (unverified) |
+| [IEEE 1547-2018 standard page](https://standards.ieee.org/standard/1547-2018.html) | oem-supplier | global | open | summary-only |
+| [IEEE Color Books collection flyer](https://standards.ieee.org/wp-content/uploads/2022/04/IEEE-Color-Books-1.pdf) | oem-supplier | global | open | summary-only |
 | [IMI Process Automation](https://processautomation.imiplc.com/products/additional-solutions/silencers) | oem-supplier | global, na | open | summary-only |
 | [Industrial water-tube package boilers](https://babcock.com/home/products-services/steam-generators/industrial-water-tube-package-boilers) | oem-supplier | global, na | open | summary-only |
+| [INNIO and KMW secure grid stability and data center supply with a peaking power plant](https://www.innio.com/en/news-media/press-releases/innio-and-kmw-secure-grid-stability-and-data-center-supply-with-a-peaking-power-plant) | oem-supplier | global, na | open | summary-only |
 | [INNIO Jenbacher](https://www.jenbacher.com/en/services/balance-of-plant/6335-2/) | oem-supplier | global, na | open | summary-only |
 | [INNIO Jenbacher](https://www.jenbacher.com/en/energy-solutions/industries/data-center/) | oem-supplier | global, na | open | summary-only |
 | [INNIO Jenbacher — Container length](https://www.jenbacher.com/en/energy-solutions/containerized-solutions/) | oem-supplier | global, na | open | summary-only |
@@ -839,10 +874,23 @@
 | [INNIO Jenbacher — Fine filter rating](https://www.jenbacher.com/en/services/balance-of-plant/4072-2/) | oem-supplier | global, na | open | summary-only |
 | [INNIO Jenbacher — Radiator design](https://www.jenbacher.com/en/services/balance-of-plant/4077-2/) | oem-supplier | global, na | open | summary-only |
 | [INNIO Jenbacher, Austria — INNIO Jenbacher J920 FleXtra gas engine](https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/) | oem-supplier | global, na | open | summary-only |
+| [INNIO press release: Jenbacher Gas Engines Ready for Hydrogen](https://www.innio.com/en/news-media/press-releases/innio-jenbacher-gas-engines-ready-for-hydrogen) | oem-supplier | global | open | summary-only |
+| [INNIO Secures Largest Order in Company History with VoltaGrid](https://www.innio.com/en/news-media/press-releases/innio-secures-largest-order-in-company-history-with-voltagrid-delivering-power-generation-for-one-of-the-worlds-largest-data-centers) | oem-supplier | global, na | open | summary-only |
+| [INNIO wins 1.1 Gigawatt Gas Engine Order](https://www.innio.com/en/news-media/press-releases/innio-wins-1-1-gigawatt-gas-engine-order-for-major-data-center-campus/) | oem-supplier | global, na | open | summary-only |
 | [INNIO — Concord Group four palm-oil-waste/biogas plants, Malays](https://www.innio.com/en/news-media/press-releases/innio-signs-agreement-with-concord-group-of-companies-to-develop-four-biogas-power-plants-supporting-malaysian-decarbonization-efforts-2/) | oem-supplier | global, na | open | summary-only |
+| [INNIO's Jenbacher engines to power 60 MW hyperscale data center power plant in Ireland](https://www.innio.com/en/news-media/press-releases/innios-jenbacher-engines-to-power-60-mw-hyperscale-data-center-power-plant-in-ireland-2) | oem-supplier | global, na | open | summary-only |
 | [Integrated Flow Solutions (IFS) — Ammonia Vaporizers & SCR Injection Systems (ANAM-400 family, Cold/Hot AFCU)](https://www.ifsolutions.com/products/scr-ammonia-system/) | oem-supplier | global, na | open | summary-only |
 | [Ion Exchange (India) Ltd](https://ionexchangeglobal.com/products/core-solutions/condensate-polishing/) | oem-supplier | global, na | open | summary-only |
 | [ISA Standards (ISA-84, ISA-88, ISA-95, ISA/IEC 62443)](https://www.isa.org/standards-and-publications/isa-standards) | standards-body | global | paywalled | catalog-only (unverified) |
+| [ISO 19859:2016](https://www.iso.org/news/2016/07/Ref2100.html) | standards-body | global | open | summary-only |
+| [ISO 3977-4:2002](https://www.iso.org/standard/25140.html) | standards-body | global | open | summary-only |
+| [ISO 3977-9:2024 document preview](https://cdn.standards.iteh.ai/samples/82198/af3112b9018a47729e704410c2f39882/ISO-3977-9-2024.pdf) | oem-supplier | global | open | summary-only |
+| [ISO 8528-13:2026](https://www.iso.org/standard/85962.html) | standards-body | global | open | summary-only |
+| [ISO 8528-1:2018](https://www.iso.org/standard/68539.html) | standards-body | global | open | summary-only |
+| [ISO 8528-5:2025 standard page](https://www.iso.org/standard/85960.html) | standards-body | global | open | summary-only |
+| [Jenbacher gas engines portfolio and case studies](https://www.jenbacher.com/en/gas-engines/) | oem-supplier | global | open | summary-only |
+| [Jenbacher Hydrogen energy-source page](https://www.jenbacher.com/en/energy-solutions/energy-sources/hydrogen/) | oem-supplier | global | open | summary-only |
+| [JENBACHER TYPE 3 - Efficient, durable, reliable (datasheet)](https://jenbacher.com/wp-content/uploads/2025/05/ijb_ets_en_a4_nu_t3_bangladesch_update_2025_rz_screen_ijb-125003-en.pdf) | oem-supplier | global | open | summary-only |
 | [John Zink (Koch Engineered Solutions)](https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems) | oem-supplier | global, na | open | summary-only |
 | [John Zink (Koch Engineered Solutions)](https://www.johnzink.com/parts-services/replacement-parts/burner-parts) | oem-supplier | global, na | open | summary-only |
 | [John Zink HRSG duct burners](https://www.johnzink.com/products/powerburners/duct-burner) | oem-supplier | global, na | open | summary-only |
@@ -855,16 +903,21 @@
 | [Johnson Controls (YORK, Silent-Aire)](https://www.johnsoncontrols.com/building-insights/feature-story/a-global-blueprint-for-how-gigawatt-scale-ai-factories-can-re-use-waste-heat-with-absorption-chillers) | oem-supplier | global, na | open | summary-only |
 | [Johnson Matthey](https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems) | oem-supplier | global, na | open | summary-only |
 | [Johnson Matthey — NOx reduction](https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems) | oem-supplier | global, na | open | summary-only |
+| [Kairos Power — Google and Kairos Power Partner to Deploy 500 MW](https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation) | oem-supplier | global, na | open | summary-only |
 | [Kurita America Inc. — Chemical Feed Systems (skid-mounted)](https://www.kuritaamerica.com/solutions/chemical-feed-systems) | oem-supplier | global, na | open | summary-only |
 | [Kurita Water Industries (Kurita ASEAN)](https://asean.kurita-water.com/en/by-industries/power-generation) | oem-supplier | global, na | open | summary-only |
 | [LANXESS (Liquid Purification Technologies)](https://lanxess.com/en/company/organization/business-units/liquid-purification-technologies) | oem-supplier | global, na | open | summary-only |
 | [LBNL Electricity Markets & Policy — wind PPA prices](https://emp.lbl.gov/wind-power-purchase-agreement-ppa-prices) | research-institute | global | open | full-text-open |
+| [Major data center fire highlights criticality of IT services](https://journal.uptimeinstitute.com/major-data-center-fire-highlights-criticality-of-it-services) | oem-supplier | global, na | open | summary-only |
 | [MAN Energy Solutions — Sipitang FLNG dedicated power plant, Sabah](https://www.man-es.com/company/press-releases/press-details/2024/09/04/man-energy-solutions-to-supply-gas-engines-for-three-power-plants-in-southeast-asia) | oem-supplier | global, na | open | summary-only |
 | [Mecc Alte — Rating range](https://www.meccalte.com/en/products/alternators/power-products-mvhv) | oem-supplier | global, na | open | summary-only |
 | [Megaflexon](https://www.megaflexon.com/down/MEJ_Catalog.pdf) | oem-supplier | global, na | open | summary-only |
+| [Meta Announces Nuclear Energy Projects, Unlocking Up to 6.6 GW](https://about.fb.com/news/2026/01/meta-nuclear-energy-projects-power-american-ai-leadership) | oem-supplier | global, na | open | summary-only |
 | [METCO Technologies](https://metco-tech.com/dampers/stack-dampers) | oem-supplier | global, na | open | summary-only |
 | [MIT Energy Initiative](https://energy.mit.edu/) | research-institute | global | open | full-text-restricted |
 | [MTU Solutions — Electrical power range](https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-applications/data-centers.html) | oem-supplier | global, na | open | summary-only |
+| [MWM 25H2 retrofit kit page](https://www.mwm.net/en/services/new-mwm-tcg-3016-engines-and-retrofit-kits-for-hydrogen-operation/) | oem-supplier | eu | open | summary-only |
+| [MWM TCG 2032 Modular Power Plant page](https://www.mwm.net/en/distributed-power-plants/tcg-2032-modular-power-plant-mpp/) | oem-supplier | eu, global | open | summary-only |
 | [Natcom duct burner for HRSG supplementary firing](https://cleaverbrooks.com/product/duct-burner) | oem-supplier | global, na | open | summary-only |
 | [National Energy Technology Laboratory (NETL)](https://netl.doe.gov/) | research-institute | na, global | open | full-text-open |
 | [National Renewable Energy Laboratory (NREL) publications](https://www.nrel.gov/research/publications.html) | research-institute | na, global | open | full-text-restricted |
@@ -879,12 +932,14 @@
 | [ProFire SBR-30 low-NOx burner](https://cleaverbrooks.com/product/sbr30-burner) | oem-supplier | global, na | open | summary-only |
 | [ProFire SBR-5 ultra-low-NOx burner with FGR](https://cleaverbrooks.com/product/sbr5-burner) | oem-supplier | global, na | open | summary-only |
 | [ProLine in-line duct burner](https://johnzink.com/products/duct-burner/proline-in-line-duct-burner) | oem-supplier | global, na | open | summary-only |
+| [Proposal for Decision, SOAH Docket 473-26-14758 / PUC Docket 59076](https://r.jina.ai/https://interchange.puc.texas.gov/Documents/59076_176_1686197.PDF) | oem-supplier | global, na | open | summary-only |
 | [Purolite (Ecolab)](https://www.purolite.com/index/core-technologies/application/condensate-polishing) | oem-supplier | global, na | open | summary-only |
 | [QLN low-NOx burner](https://johnzink.com/products/powerburners/qln) | oem-supplier | global, na | open | summary-only |
 | [RAM Ratings — Kimanis Power (Dua) gas-engine peaking plant, Kimanis, ](https://www.ram.com.my/pressrelease?prviewid=7207) | oem-supplier | global, na | open | summary-only |
 | [Rehlko](https://techcomm.rehlko.com/$web/techcomm/pdf/G12-506_KD_Series_Spec_Guide_700-4000.pdf) | oem-supplier | global, na | open | summary-only |
 | [Rehlko (formerly Kohler Energy)](https://www.rehlko.com/en-US/hyperscale) | oem-supplier | global, na | open | summary-only |
 | [Rolls-Royce Power Systems / mtu](https://www.mtu-solutions.com/seai/en/applications/power-generation/power-generation-products/gas-generator-sets.html) | oem-supplier | global, na | open | summary-only |
+| [Rolls-Royce press release: launches modular gas engine power plants](https://www.mtu-solutions.com/na/en/pressreleases/2026/Rolls-Royce-launches-modular-gas-engine-power-plants.html) | oem-supplier | eu, global | open | summary-only |
 | [SCC Inc.](https://scccombustion.com/products/variable-frequency-drives-vfd) | oem-supplier | global, na | open | summary-only |
 | [Schematic diagram of a CFB boiler (Fig. 1.3) — Combustion and Gasification in Fluidized Beds](https://s3-euw1-ap-pe-df-pch-content-store-p.s3.eu-west-1.amazonaws.com/9780429075018/67b1bae2-6a8e-4c6a-93dd-f5de42ce55c9/preview.pdf) | oem-supplier | global, na | open | summary-only (unverified) |
 | [Schneider Electric](https://www.se.com/ww/en/product-range/61779-galaxy-vs-ups/) | oem-supplier | global, na | open | summary-only |
@@ -895,12 +950,14 @@
 | [Sootblower and boiler cleaning terminology, principles and applications](https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications) | oem-supplier | global, na | open | summary-only |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
 | [Stanford Doerr School of Sustainability energy research](https://sustainability.stanford.edu/) | research-institute | global | open | summary-only (unverified) |
+| [Startups brew new chemistries for fresh battery types](https://journal.uptimeinstitute.com/startups-brew-new-chemistries-for-fresh-battery-types) | oem-supplier | global | open | summary-only |
 | [SUEZ](https://www.suez.com/-/media/suez-global/files/press-release/pdf-english/pr_suez_completes_the_acquisition_of_lanxess_membrane_portfolio_04012021_.pdf) | oem-supplier | global, na | open | summary-only |
 | [Sustainability (MDPI)](https://www.mdpi.com/journal/sustainability) | journal | global | open | full-text-open |
 | [SVI BREMCO](https://svi-bremco.com/gas-path-solutions/) | oem-supplier | global, na | open | summary-only |
 | [SVI BREMCO](https://svi-bremco.com/gas-path-solutions/industrial-noise-control/industrial-pipe-lagging-silencers/) | oem-supplier | global, na | open | summary-only |
 | [SVI BREMCO](https://svi-bremco.com/gas-path-solutions/industrial-noise-control/steam-vent-silencers/) | oem-supplier | global, na | open | summary-only |
 | [SwitchFire condensing boiler](https://cleaverbrooks.com/product/switchfire) | oem-supplier | global, na | open | summary-only |
+| [Synapse Data Center Power Generating Facilities Decommissioning and Reclamation Plan](https://r.jina.ai/https://www.olds.ca/media/xtbltnl1/30732_x0010_tp-30-decommissioning-plan_000010.pdf) | oem-supplier | global, na | open | summary-only |
 | [Tesla](https://www.esource.com/white-paper/what-technologies-are-competing-solve-power-challenges-ai-data-center-load-management) | oem-supplier | global, na | open | summary-only |
 | [Thermax — Thermax exhaust-gas absorption chiller capacity](https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater) | oem-supplier | global, na | open | summary-only |
 | [Thermaxx Jackets (Specialty Distribution Group, LLC) — Boiler Door and Drum Cover Insulation Jackets](https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/) | oem-supplier | global, na | open | summary-only |
@@ -918,6 +975,8 @@
 | [US Environmental Protection Agency — Typical CEMS for Multiple Parameter Monitoring — Figure](https://www.epa.gov/sites/default/files/2020-07/documents/cs2ch4.pdf) | agency-data | global, na | open | summary-only (unverified) |
 | [US Federal Register](https://www.federalregister.gov) | agency-data | na | open | full-text-open |
 | [US Nuclear Regulatory Commission — Figure 2-1 — Basic system schematic, Instrument Air Sys](https://www.nrc.gov/docs/ml0037/ml003767039.pdf) | agency-data | global, na | open | summary-only (unverified) |
+| [US10666087B2 - System for redundant power supply to a data center](https://patents.google.com/patent/US10666087B2/en) | oem-supplier | global | open | summary-only |
+| [US20250207550A1 Prechamber assembly](https://patents.google.com/patent/US20250207550A1/en) | patents | global | open | summary-only |
 | [USGS Mineral Commodity Summaries](https://pubs.usgs.gov/periodicals/mcs2026/) | agency-data | global | open | full-text-open |
 | [Valmet — Valmet CFB Boiler (formerly CYMIC)](https://www.valmet.com/energyproduction/cfb-boilers/) | oem-supplier | global, na | open | summary-only |
 | [Veolia Australia & New Zealand — Chemical cleaning time saving claim](https://www.anz.veolia.com/en-au/services/industrial-services/industrial-cleaning/chemical-cleaning-and-decontamination) | oem-supplier | global, na | open | summary-only |
@@ -933,12 +992,17 @@
 | [Vertiv](https://www.vertiv.com/4934c2/globalassets/campaigns/ai-hub/overhaul/reference-design/vertiv-reference-design-029a_datasheet_apac-en_2025_sl-80247.pdf) | oem-supplier | global, na | open | summary-only |
 | [Vertiv](https://www.vertiv.com/4a1875/globalassets/shared/vertiv-energycore-battery-storage-system-data-sheet-sl-71271.pdf) | oem-supplier | global, na | open | summary-only |
 | [Vertiv](https://www.vertiv.com/) | oem-supplier | global, na | open | summary-only |
+| [Vistra Corp Form 8-K, 9 January 2026](https://www.sec.gov/Archives/edgar/data/1692819/000119312526008508/d20785d8k.htm) | oem-supplier | global, na | open | summary-only |
 | [Warren Controls](https://www.warrencontrols.com/wp-content/uploads/2024/02/1656509571DeaerationofBoiler.pdf) | oem-supplier | global, na | open | summary-only |
+| [Wartsila 31SG gas engine page](https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-31sg-gas-engine) | oem-supplier | global | open | summary-only |
+| [Wartsila future-proofing engine power plants](https://www.wartsila.com/energy/sustainable-fuels/future-proofing-flexible-wartsila-engine-power-plants-for-decarbonised-energy-systems) | oem-supplier | eu, global | open | summary-only |
+| [Why we're backing America's existing nuclear plants](https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/) | oem-supplier | global, na | open | summary-only |
 | [Wilhelmsen](https://www.wilhelmsen.com/product-catalogue/products/marine-chemicals/water-treatment-chemicals/boiler-water-treatment/oxygen-scavenger-plus-25-ltr/) | oem-supplier | global, na | open | summary-only |
 | [WOG Technologies Limited — Chemical Treatment Systems (coagulation/flocculation, pH neutralisation, oxidation, precipitation, dosing skids)](https://woggroup.com/chemical-treatment-systems/) | oem-supplier | global, na | open | summary-only |
 | [Woggroup.Com — CPU outlet quality claimed by vendor](https://woggroup.com/condensate-polishing-unit-cpu) | oem-supplier | global, na | open | summary-only |
 | [Woodward](https://www.woodward.com/products/wp-content/uploads/sites/3/2025/04/B37581_N.pdf) | oem-supplier | global, na | open | summary-only |
 | [Woodward — Genset paralleling capacity](https://www.woodward.com/products/industrial/generator-controllers/easygen) | oem-supplier | global, na | open | summary-only |
+| [Wärtsilä continues growth in the data center segment with a 507 MW order in the US](https://www.wartsila.com/media/news/20-11-2025-wartsila-continues-growth-in-the-data-center-segment-with-a-507-mw-order-in-the-us-offering-engines-as-a-reliable-power-solution-3686573) | oem-supplier | global, na | open | summary-only |
 | [Wärtsilä — Australia's largest reciprocating engine power plant (g](https://www.wartsila.com/media/news/30-09-2026-wartsila-to-deliver-engines-for-australia-s-largest-ever-engine-power-plant-to-support-the-country-s-energy-transition-3795697) | oem-supplier | global, na | open | summary-only |
 | [Wärtsilä — Closed-loop cooling process water consumption (dat](https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions) | oem-supplier | global, na | open | summary-only |
 | [Wärtsilä — Moomba power plant extension, South Australia (gas-fiel](https://www.wartsila.com/media/news/22-10-2026-wartsila-engines-selected-for-major-australian-energy-infrastructure-upgrade-project-3804886) | oem-supplier | global, na | open | summary-only |
@@ -955,26 +1019,39 @@
 | [Zeeco — Zeeco Burner Management Systems (BMS)](https://www.zeeco.com/products/burners?hsLang=en) | oem-supplier | global, na | open | summary-only |
 | [Zeeco — ZEECO GB Low-NOx Power Burner](https://www.zeeco.com/products/burners/power-burners?hsLang=en) | oem-supplier | global, na | open | summary-only |
 | [Zeeco — Zeeco ProFlame scanner hazardous-area models](https://www.zeeco.com/products/combustion-electronics/flame-scanners) | oem-supplier | global, na | open | summary-only |
+| [2023 Bloom Energy Backgrounder for Data Centers](https://resources.bloomenergy.com/hubfs/Whitepapers/2023%20Bloom%20Energy_Backgrounder_for_Datacenters-V4.pdf?hsLang=en) | oem-supplier | global, na | open | summary-only |
 | [ABB Energy Industries](https://new.abb.com/process-automation/energy-industries) | oem-supplier | global | open | full-text-restricted |
 | [ACWA Power project pages](https://acwapower.com) | oem-supplier | me, global | open | full-text-restricted |
 | [Applied Energy](https://www.sciencedirect.com/journal/applied-energy) | journal | global | mixed | full-text-restricted |
 | [arXiv (physics.chem-ph, eess.SY, cs.LG energy papers)](https://arxiv.org/) | journal | global | open | full-text-restricted |
 | [AVEVA (Schneider Electric)](https://www.aveva.com/) | oem-supplier | global | open | full-text-restricted |
 | [Baker Hughes](https://www.bakerhughes.com/) | oem-supplier | global | open | summary-only |
+| [Bloom Energy and Oracle Expand Strategic Partnership up to 2.8 GW](https://www.bloomenergy.com/news/bloom-energy-and-oracle-expand-strategic-partnership-to-deploy-up-to-2-8-gw-to-accelerate-ai-infrastructure-build-out/) | oem-supplier | global, na | open | summary-only |
+| [Bloom Energy newsroom index](https://www.bloomenergy.com/news/) | oem-supplier | global | open | summary-only |
 | [bp Energy Outlook and Statistical data](https://www.bp.com/en/global/corporate/energy-economics.html) | licensor | global | open | full-text-restricted |
+| [Bridge Data Centres, PacificLight ink MoU for hydrogen-ready power in Singapore](https://datacenterdynamics.com/en/news/bridge-data-centres-pacificlight-ink-mou-for-hydrogen-ready-power-in-singapore) | oem-supplier | global, na | open | summary-only |
+| [Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion](https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/) | oem-supplier | global | open | summary-only |
 | [California Energy Commission reports](https://www.energy.ca.gov) | agency-data | na | open | full-text-with-attribution |
+| [Caterpillar corporate press releases index](https://www.caterpillar.com/en/news/corporate-press-releases.html) | oem-supplier | global | open | summary-only |
 | [ccsknowledge.com (public CCS studies)](https://ccsknowledge.com) | research-institute | global | open | full-text-with-attribution |
 | [Chemical Engineering Progress (CEP Magazine)](https://www.aiche.org/cep) | trade-media | global | mixed | catalog-only (unverified) |
 | [CISA Industrial Control Systems advisories](https://www.cisa.gov/topics/industrial-control-systems) | agency-data | global | open | full-text-open |
 | [Combustion Engineering Association — pH after dealkalisation + degassing](https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf) | association | global, eu | open | summary-only |
+| [Common failure modes of Data Center back up power systems](https://www.cummins.com/sites/default/files/2018-08/201802_PowerHour_Common%20failure%20modes%20of%20Data%20Center%20back%20up%20power%20systems.pdf) | oem-supplier | global | open | summary-only |
 | [Construction Industry Institute (CII)](https://www.construction-institute.org) | association | global | mixed | catalog-only |
 | [CORDIS EU research results](https://cordis.europa.eu/) | agency-data | eu | open | full-text-open |
 | [CORE open-access aggregator](https://core.ac.uk/) | journal | global | free-registration | full-text-restricted |
 | [Crossref metadata API](https://www.crossref.org/documentation/retrieve-metadata/rest-api/) | journal | global | open | full-text-open |
 | [CSI Spring Support and Strut Selection Guide](https://www.csidesigns.com/PDFs/SSSguide.pdf) | oem-supplier | global | open | catalog-only (unverified) |
+| [Cummins newsroom](https://www.cummins.com/news) | oem-supplier | global | open | summary-only |
+| [Data centers are building a parallel energy system in the US](https://r.jina.ai/https://www.rabobank.com/knowledge/d011524694-the-sprint-data-centers-are-building-a-parallel-energy-system-in-the-us) | oem-supplier | global, na | open | summary-only |
+| [Data Centers: More Power, More Fuel Cells](https://fchea.org/data-centers-more-power-more-fuel-cells) | oem-supplier | global, na | open | summary-only |
+| [Data Centre Energy Demand Study Report](https://r.jina.ai/https://www.wwutilities.co.uk/media/avzby1ow/data-centre-energy-demand-study-v2.pdf) | oem-supplier | global, na | open | summary-only |
+| [Diesel Generators at Data Centers: Status, Impacts, and Protective Practices, Version 1, March 2026](https://betterdatacenterproject.com/wp-content/uploads/2026/03/Diesel-Generators-at-Data-Centers-Status-Impacts-and-Protective-Practices.pdf) | oem-supplier | global, na | open | summary-only |
 | [Directory of Open Access Journals](https://doaj.org/) | journal | global | open | full-text-open |
 | [DOE Land-Based Wind Market Report](https://www.energy.gov/eere/wind/wind-market-reports-2024-edition) | agency-data | na | open | full-text-open |
 | [Emerson Automation Solutions](https://www.emerson.com/) | oem-supplier | global | open | full-text-restricted |
+| [Enel X — Digital Realty Grid Interactive UPS Case Study](https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study) | oem-supplier | global, na | open | summary-only |
 | [Energy Conversion and Management](https://www.sciencedirect.com/journal/energy-conversion-and-management) | journal | global | mixed | full-text-restricted (unverified) |
 | [Energy Institute Statistical Review of World Energy](https://www.energyinst.org/statistical-review) | association | global | free-registration | full-text-restricted |
 | [Environmental Science & Technology](https://pubs.acs.org/journal/esthag) | journal | global | mixed | full-text-restricted (unverified) |
@@ -983,63 +1060,106 @@
 | [Equinor technology](https://www.equinor.com/energy) | licensor | eu, global | open | summary-only (unverified) |
 | [Espacenet and EPO Open Patent Services (OPS)](https://www.epo.org/en/searching-for-patents/data/web-services/ops) | patents | global | free-registration | full-text-restricted |
 | [ExxonMobil Global Outlook](https://corporate.exxonmobil.com/sustainability-and-reports/global-outlook) | licensor | global | open | summary-only |
+| [Fluence Chosen for 300 MW / 600 MWh Wellington BESS for AMPYR Australia](https://ir.fluenceenergy.com/news-releases/news-release-details/fluence-chosen-300-mw-600-mwh-wellington-battery-energy-storage) | oem-supplier | global, na | open | summary-only |
 | [FM Global Property Loss Prevention Data Sheets](https://www.fm.com) | research-institute | global | paywalled | catalog-only |
 | [Frontiers in Climate](https://www.frontiersin.org/journals/climate) | journal | global | open | full-text-open |
+| [FuelCell Energy Block System](https://www.fuelcellenergy.com/fuelcell-energy-block-system) | oem-supplier | global | open | summary-only |
+| [FuelCell Energy homepage](https://www.fuelcellenergy.com/) | oem-supplier | global | open | summary-only |
 | [Gas Turbine World (Pequot Publishing)](https://gasturbineworld.com/) | trade-media | global | paywalled | summary-only |
 | [GE Vernova](https://www.gevernova.com/) | oem-supplier | global | open | full-text-restricted |
 | [GE Vernova 7HA gas turbine product page](https://www.gevernova.com/gas-power/products/gas-turbines/7ha) | oem-supplier | global | open | full-text-open (unverified) |
+| [GE Vernova Media Hub press releases](https://www.gevernova.com/news/press-releases) | oem-supplier | global | open | summary-only |
+| [GE Vernova to Invest $34.5 Million in Shreveport Facility Expansion](https://www.gevernova.com/news/press-releases/ge-vernova-invest-345-million-shreveport-facility-expansion-meet-growing-grid) | oem-supplier | global, na | open | summary-only |
+| [GE Vernova — Gas Power Technology for Data Centers](https://www.gevernova.com/gas-power/industries/data-centers) | oem-supplier | global, na | open | summary-only |
 | [Google Patents](https://patents.google.com/) | patents | global | open | full-text-open (unverified) |
+| [Google Patents search — data center power distribution](https://patents.google.com/xhr/query?url=q%3Ddata%2Bcenter%2Bpower%2Bdistribution) | oem-supplier | global, na | open | summary-only |
+| [Google Patents WO2023227450A1 and CA3255249A1](https://patents.google.com/patent/WO2023227450A1/en) | patents | global | open | summary-only |
 | [Hitachi Energy](https://www.hitachienergy.com/products-and-solutions/transformers) | oem-supplier | global | open | full-text-restricted |
+| [HTR-WP-001 What Behind-the-Meter Power Costs](https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf) | oem-supplier | global, na | open | summary-only |
 | [Idaho National Laboratory](https://inl.gov) | research-institute | na | open | full-text-open |
 | [IEA Bioenergy TCP](https://www.ieabioenergy.com) | research-institute | global | open | full-text-restricted |
 | [IEA ETP Clean Energy Technology Guide (data tool)](https://www.iea.org/data-and-statistics/data-tools/etp-clean-energy-technology-guide) | agency-data | global | open | full-text-open (unverified) |
 | [IEA Global Hydrogen Review 2025 (main report)](https://iea.blob.core.windows.net/assets/a6c466dd-b6f0-44bd-a60a-6940eccfb1c3/GlobalHydrogenReview2025.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [IEA PVPS (Photovoltaic Power Systems Programme)](https://iea-pvps.org) | research-institute | global | open | full-text-restricted |
 | [IEA reports and analysis](https://www.iea.org/analysis) | agency-data | global | mixed | full-text-open |
+| [Impacts of the xAI Colossus 1 Data Center on Air Quality and Temperature in Southwest Memphis](https://www.memphistn.gov/wp-content/uploads/2026/09/PZ-xAI-impacts-on-air-quality-in-Southwest-Memphis_Memphis-City-Council.pdf) | oem-supplier | global, na | open | summary-only |
+| [INNIO Jenbacher Data Center Power Solutions brochure](https://www.jenbacher.com/wp-content/uploads/2025/02/IJB_Brochure_EN_A4_NU_Datacenter_RZ_Screen_IJB-323010-EN.pdf) | oem-supplier | global, na | open | summary-only |
+| [INNIO news and media landing page](https://www.innio.com/en/company/news-media) | oem-supplier | global | open | summary-only |
+| [INNIO secures 620 MW data center follow-on order](https://www.innio.com/en/news-media/press-releases/innio-secures-620-mw-data-center-follow-on-order/) | oem-supplier | global, na | open | summary-only |
 | [IPCC SRCCS Chapter 4: Energy Supply (CO2 capture in energy systems)](https://www.ipcc.ch/site/assets/uploads/2018/03/srccs_chapter4-1.pdf) | agency-data | global | open | full-text-open (unverified) |
 | [IRENA publications](https://www.irena.org/Publications) | agency-data | global | open | full-text-restricted |
 | [Journal of Cleaner Production](https://www.sciencedirect.com/journal/journal-of-cleaner-production) | journal | global | mixed | full-text-restricted |
 | [KAPSARC King Abdullah Petroleum Studies and Research Center](https://www.kapsarc.org/) | research-institute | me, global | open | full-text-restricted |
 | [Kelvion](https://www.kelvion.com/) | oem-supplier | global | open | summary-only (unverified) |
+| [Lazard Levelized Cost of Energy+ June 2024 (v17.0)](https://r.jina.ai/https://www.lazard.com/media/gjyffoqd/lazards-lcoeplus-june-2024.pdf) | oem-supplier | global, na | open | summary-only |
+| [Lazard Levelized Cost of Energy+ June 2025 (v18.0)](https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf) | oem-supplier | global, na | open | summary-only |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
 | [Mitsubishi Power news pages](https://power.mhi.com/news) | oem-supplier | global | open | full-text-restricted |
+| [MWM CHP gas engine gensets overview](https://www.mwm.net/mwm-chp-gas-engines-gensets-cogeneration/) | oem-supplier | eu | open | summary-only |
 | [National Carbon Capture Center (US DOE)](https://www.nationalcarboncapturecenter.com) | research-institute | global | open | full-text-restricted |
+| [Near-zero water consumption for data center power generation](https://www.innio.com/en/news-media/magazine/article/near-zero-water-consumption-for-data-center-power-generation/) | oem-supplier | global | open | summary-only |
 | [NERSA (National Energy Regulator of South Africa)](https://www.nersa.org.za) | agency-data | af | open | full-text-open |
 | [Net Zero Teesside project pages](https://www.netzeroteesside.co.uk) | agency-data | eu | open | full-text-restricted |
+| [New study: Right power technology choices for off-grid data centres](https://www.wartsila.com/media/news/02-11-2026-new-study-right-power-technology-choices-for-off-grid-data-centres-could-deliver-up-to-eur-200-billion-in-global-savings-3808329) | oem-supplier | global | open | summary-only |
+| [New supply agreement expands Talen-Amazon partnership](https://www.world-nuclear-news.org/articles/new-supply-agreement-expands-talen-amazon-partnership) | oem-supplier | global, na | open | summary-only |
 | [NFPA 85 (2023) table of contents at UpCodes](https://up.codes/viewer/nfpa/nfpa-85-2023) | standards-body | global, na | open | summary-only |
+| [Norton Rose Fulbright — Singapore's Green Data Centre Roadmap and DC-CFA2](https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure) | oem-supplier | global, na | open | summary-only |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
 | [NREL Annual Technology Baseline (ATB)](https://atb.nrel.gov) | agency-data | na, global | open | full-text-open |
+| [NTT DATA Announces Agreement with Bloom Energy for 900 MW](https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/) | oem-supplier | global | open | summary-only |
+| [Omterra press page](https://www.omterra.com/global/en/home/press.html) | oem-supplier | global | open | summary-only |
+| [Omterra rebrand / Siemens Energy and Siemens Gamesa](https://www.omterra.com/global/en/home/company/siemens-energy-siemens-gamesa.html) | oem-supplier | global | open | summary-only |
 | [OPC Foundation (OPC UA)](https://opcfoundation.org/) | standards-body | global | free-registration | catalog-only (unverified) |
 | [OpenAlex scholarly graph](https://openalex.org/) | journal | global | open | full-text-open |
+| [Powering Data Centers with Natural Gas](https://regmedia.co.uk/2024/05/15/gas1.pdf) | oem-supplier | global, na | open | summary-only |
 | [PubMed Central / Europe PMC open full texts](https://pmc.ncbi.nlm.nih.gov) | journal | global | open | full-text-open |
 | [Resources for the Future (RFF)](https://www.rff.org) | research-institute | global | open | full-text-open |
+| [Rolls-Royce Integrates Fast-Start Capabilities for Data Center Gensets](https://www.turbomachinerymag.com/view/rolls-royce-integrates-fast-start-capabilities-for-data-center-gensets) | oem-supplier | global | open | summary-only |
+| [Rolls-Royce mtu Doubles Production Capacity of Diesel Backup Generator Sets](https://www.mtugenset.com/new/new-8-139.html) | oem-supplier | global, na | open | summary-only |
+| [Same Roof, 10 Different Gases: What a Data Center Is Quietly Holding](https://www.datacenterknowledge.com/outages/same-roof-10-different-gases-what-a-data-center-is-quietly-holding) | oem-supplier | global, na | open | summary-only |
 | [Sandmeyer Steel](https://www.sandmeyersteel.com) | oem-supplier | global | open | full-text-restricted |
 | [Schweitzer Engineering Laboratories (SEL)](https://www.selinc.com/products/) | oem-supplier | global | open | full-text-restricted |
 | [Semantic Scholar API](https://www.semanticscholar.org/product/api) | journal | global | open | summary-only (unverified) |
 | [Shell energy transition and scenarios](https://www.shell.com/news-and-insights/scenarios.html) | licensor | global | open | full-text-restricted (unverified) |
 | [Siemens Energy](https://www.siemens-energy.com/global/en/home.html) | oem-supplier | global | open | summary-only |
+| [Singapore Data Center to Expand Capacity with Bloom Energy Fuel Cells](https://www.bloomenergy.com/blog/singapore-data-center-to-expand-capacity-with-bloom-energy-fuel-cells/) | oem-supplier | global, na | open | summary-only |
 | [Solar Turbines](https://www.solarturbines.com/) | oem-supplier | global | open | catalog-only |
+| [Sungrow and Delta Capacity Deepen Partnership with 1 GWh BESS Framework Agreement](https://www.sungrowpower.com/eu/en/sungrow-and-delta-capacity-deepen-partnership) | oem-supplier | global, na | open | summary-only |
 | [Tetra Engineering — Duct Burners white paper](https://www.tetra-eng.com/whitepaper/duct-burners) | trade-media | global | open | summary-only |
 | [The Lens patents and scholarly works](https://www.lens.org/) | patents | global | free-registration | summary-only (unverified) |
+| [The Misguided Stampede to Build Gas Power Plants](https://r.jina.ai/https://ieefa.org/sites/default/files/2026-04/The%20Misguided%20Stampede%20To%20Build%20Gas%20Power%20Plants_April%202026.pdf) | oem-supplier | global, na | open | summary-only |
+| [The New Reality of Power Generation: An Analysis of Increasing Gas Turbine Costs in the U.S.](https://r.jina.ai/https://gridlab.org/wp-content/uploads/2025/09/GridLab_Gas-Turbine-Costs-Report-1.pdf) | oem-supplier | global, na | open | summary-only |
 | [U.S. EIA analysis and outlooks (STEO, AEO, IEO)](https://www.eia.gov/analysis/) | agency-data | global, na | open | full-text-open |
 | [U.S. EIA Open Data API](https://www.eia.gov/opendata/) | agency-data | global, na | free-registration | full-text-open |
 | [UK DESNZ energy statistics and hydrogen/CCUS policy](https://www.gov.uk/government/organisations/department-for-energy-security-and-net-zero) | agency-data | eu | open | full-text-open |
 | [USPTO Open Data Portal and PatentsView](https://data.uspto.gov/) | patents | na, global | open | full-text-open |
+| [Vertiv advances 800 VDC power architectures to support growing AI data center demands](https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-advances-800-vdc-power-architectures-to-support-growing-ai-data-center-demands/) | oem-supplier | global | open | summary-only |
+| [Vertiv and Caterpillar Announce Energy Optimization Collaboration](https://www.caterpillar.com/en/news/corporate-press-releases/h/vertiv-caterpillar-collaboration.html) | oem-supplier | global | open | summary-only |
+| [VoltaGrid partners with Jenbacher to develop mobile gas solution for data center market](https://www.datacenterdynamics.com/en/news/voltagrid-partners-with-jenbacher-to-develop-mobile-gas-solution-for-data-center-market/) | oem-supplier | global, na | open | summary-only |
+| [What Hyperscaler Nuclear PPAs Tell a Factory Negotiating a 15-Year Contract](https://open-factory.com/articles/nuclear-ppas-price-signal) | oem-supplier | global, na | open | summary-only |
+| [What powers xAI's Colossus data center in Memphis?](https://datacenterfootprint.org/articles/what-powers-xai-colossus) | oem-supplier | global, na | open | summary-only |
 | [WIPO GREEN technology database](https://wipogreen.wipo.int/) | patents | global | open | summary-only (unverified) |
 | [WIPO PATENTSCOPE](https://patentscope.wipo.int/) | patents | global | open | full-text-open (unverified) |
 | [World Bank DataBank](https://databank.worldbank.org) | agency-data | global | open | full-text-open |
 | [World Nuclear Association](https://world-nuclear.org/information-library) | association | global | open | full-text-restricted |
 | [Wärtsilä Energy](https://www.wartsila.com/energy) | oem-supplier | global | open | full-text-restricted |
+| [Wärtsilä media news index](https://www.wartsila.com/media/news) | oem-supplier | global | open | summary-only |
+| [Wärtsilä to supply 282 MW onsite power solution for a U.S. data center](https://www.wartsila.com/media/news/05-10-2026-wartsila-to-supply-282-mw-onsite-power-solution-for-a-u-s-data-center-as-ai-growth-intensifies-demand-for-reliable-power-3797450) | oem-supplier | global, na | open | summary-only |
+| [Yanmar to Build New Emergency Power System Factory for Data Centers in Fukuoka, Japan (PDF, 3 pages)](https://www.yanmar.com/media/news/2026/04/07042224/pdf_news_20260407_01_en.pdf) | oem-supplier | global, na | open | summary-only |
 | [Aquatech International (ZLD)](https://www.aquatech.com/) | licensor | global | open | summary-only (unverified) |
 | [ASME Boiler and Pressure Vessel Code summary (Engineering ToolBox)](https://engineeringtoolbox.com/asme-boiler-vessel-code-d_8.html) | trade-media | global | open | summary-only |
 | [Bechtel](https://www.bechtel.com/) | epc-contractor | global | open | summary-only (unverified) |
+| [Behind the meter: how AI campuses are buying power in 2026](https://nodus.equipment/insights/behind-the-meter-power) | oem-supplier | global, na | open | summary-only |
 | [Boiler blowdown (Engineering ToolBox)](https://engineeringtoolbox.com/boiler-blowdown-d_908.html) | trade-media | global, na | open | summary-only |
 | [Boiler horsepower (Engineering ToolBox)](https://engineeringtoolbox.com/boiler-horsepower-d_1061.html) | trade-media | global | open | summary-only |
+| [Data centers: How to bridge the grid capacity gap with self-generation solutions](https://www.mtu-solutions.com/eecis/en/technical-articles/2025/enabling-data-center-operators-to-bridge-the-grid-capacity-gap-with-self-generation-solutions.html) | oem-supplier | global, na | open | summary-only |
 | [DuPont Water Solutions](https://www.dupont.com/water.html) | oem-supplier | global | open | summary-only (unverified) |
 | [Energy Intelligence](https://www.energyintel.com) | trade-media | global | paywalled | catalog-only |
 | [Energy Voice](https://www.energyvoice.com/) | trade-media | global | open | summary-only (unverified) |
 | [Engineering ToolBox — bare steam pipe heat loss](https://www.engineeringtoolbox.com/heat-loss-steam-pipes-d_255.html) | trade-media | global | open | summary-only |
 | [Engineering ToolBox — insulation thermal conductivity basis](https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html) | trade-media | global | open | summary-only |
+| [Gas turbine cost: equipment price vs installed cost per kW](https://secondwatt.com/resources/gas-turbine-cost-per-kw) | oem-supplier | global, na | open | summary-only |
+| [Gas Turbine Power Plants for Data Centers: The Complete US EPC and O&M Guide](https://uspeglobal.com/articles/gas-turbine-power-plants-for-data-centers/) | oem-supplier | global, na | open | summary-only |
 | [IOP+ (Dutch industry news)](https://ioplus.nl) | trade-media | eu | open | catalog-only |
 | [iRecruit](https://irecruit.co/) | trade-media | na, eu | open | summary-only |
 | [Middle East Energy (Dubai)](https://www.middleeast-energy.com) | conference | me, global | mixed | catalog-only |

@@ -1,0 +1,24 @@
+{
+  "id": "dcp-patents-google-com-en-94a91ff",
+  "name": "EP3039768B1 - Shared backup power data centers",
+  "url": "https://patents.google.com/patent/EP3039768B1/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Google Patents (European Patent Office data)",
+  "access": "open",
+  "licence": "Patent publication; Google disclaimer on assignee accuracy",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly; bibliographic data and description read."
+}

@@ -1,0 +1,167 @@
+{
+  "id": "colossus-1-on-site-gas-turbine-power-station",
+  "name": "Colossus 1 on-site gas turbine power station",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Memphis, Tennessee; captive data-centre power; 15 permitted Solar SMT-130 turbines; permit expires 2 January 2027",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Colossus supercluster activated",
+      "date": "2024",
+      "source": {
+        "url": "https://www.memphistn.gov/wp-content/uploads/2026/09/PZ-xAI-impacts-on-air-quality-in-Southwest-Memphis_Memphis-City-Council.pdf",
+        "source_id": "dcp-memphistn-gov-pz-xai-impacts-on-air-quality-e824836"
+      }
+    },
+    {
+      "event": "Permit application filed",
+      "date": "2025",
+      "source": {
+        "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf",
+        "source_id": "dcp-downloads-regulations-gov-attachment-5-pdf-2450276"
+      }
+    },
+    {
+      "event": "Air permit issued",
+      "date": "2025",
+      "source": {
+        "url": "https://datacenterfootprint.org/articles/what-powers-xai-colossus",
+        "source_id": "dcp-datacenterfootprint-org-what-powers-xai-colo-3c791e6"
+      }
+    },
+    {
+      "event": "Appeal of permit dismissed",
+      "date": "2025",
+      "source": {
+        "url": "https://datacenterfootprint.org/articles/what-powers-xai-colossus",
+        "source_id": "dcp-datacenterfootprint-org-what-powers-xai-colo-3c791e6"
+      }
+    },
+    {
+      "event": "Additional TVA grid capacity approved",
+      "date": "2026",
+      "source": {
+        "url": "https://datacenterfootprint.org/articles/what-powers-xai-colossus",
+        "source_id": "dcp-datacenterfootprint-org-what-powers-xai-colo-3c791e6"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Construction permit fee",
+      "year": 2025,
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; Shelby County permit evaluation fee table dated February 2025",
+      "value": 400,
+      "source": {
+        "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf",
+        "source_id": "dcp-downloads-regulations-gov-attachment-5-pdf-2450276"
+      }
+    },
+    {
+      "metric": "Publication fee",
+      "year": 2025,
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; Shelby County permit evaluation fee table",
+      "value": 250,
+      "source": {
+        "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf",
+        "source_id": "dcp-downloads-regulations-gov-attachment-5-pdf-2450276"
+      }
+    },
+    {
+      "metric": "NSPS regulations fee",
+      "year": 2025,
+      "unit": "USD",
+      "basis": "USD, dollar year not stated; total fees USD 1,550 in permit evaluation",
+      "value": 900,
+      "source": {
+        "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf",
+        "source_id": "dcp-downloads-regulations-gov-attachment-5-pdf-2450276"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Solar Turbines (SMT-130 turbines)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "CTC Property LLC (xAI affiliate, permit holder)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Tesla (Megapack battery storage)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Trinity Consultants (environmental consultant)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Memphis Light, Gas and Water (MLGW)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Tennessee Valley Authority (TVA)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Tesla Energy",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://datacenterfootprint.org/articles/what-powers-xai-colossus",
+      "source_id": "dcp-datacenterfootprint-org-what-powers-xai-colo-3c791e6",
+      "note": "Memphis, Tennessee; captive data-centre power; 15 permitted Solar SMT-130 turbin"
+    },
+    {
+      "url": "https://downloads.regulations.gov/EPA-HQ-OAR-2024-0419-0095/attachment_5.pdf",
+      "source_id": "dcp-downloads-regulations-gov-attachment-5-pdf-2450276"
+    },
+    {
+      "url": "https://datacenterfootprint.org/articles/what-powers-xai-colossus",
+      "source_id": "dcp-datacenterfootprint-org-what-powers-xai-colo-3c791e6"
+    },
+    {
+      "url": "https://www.memphistn.gov/wp-content/uploads/2026/09/PZ-xAI-impacts-on-air-quality-in-Southwest-Memphis_Memphis-City-Council.pdf",
+      "source_id": "dcp-memphistn-gov-pz-xai-impacts-on-air-quality-e824836"
+    },
+    {
+      "url": "https://datacenterfootprint.org/articles/what-powers-xai-colossus",
+      "source_id": "dcp-datacenterfootprint-org-what-powers-xai-colo-3c791e6",
+      "note": "Memphis, Tennessee; captive data-centre power; 15 permitted Solar SMT-130 turbines; permit expires 2 January 2027"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Actual site electricity consumption",
+      "why": "Not published; available figures measure grid supply, permitted turbine nameplate, or compute power",
+      "next_action": "Leave as gap; do not sum the figures"
+    },
+    {
+      "what": "Peak unpermitted turbine capacity (approx. 421–422 MW reported elsewhere)",
+      "why": "Reported in media search results but no such page was read with WebFetch in this run",
+      "next_action": "Fetch a primary or court filing before recording"
+    },
+    {
+      "what": "Cost of turbine installation",
+      "why": "No disclosed capital cost in read sources",
+      "next_action": "Leave as gap"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

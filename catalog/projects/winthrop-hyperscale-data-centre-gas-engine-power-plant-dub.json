@@ -1,0 +1,76 @@
+{
+  "id": "winthrop-hyperscale-data-centre-gas-engine-power-plant-dub",
+  "name": "Winthrop hyperscale data centre gas engine power plant, Dublin",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Ireland",
+  "location": "Ireland",
+  "status": "operating",
+  "description": "Island-mode operation independent of the national grid during peak times; myPlant cloud monitoring; future hydrogen conversion capability",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Project announced",
+      "date": "2022",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innios-jenbacher-engines-to-power-60-mw-hyperscale-data-center-power-plant-in-ireland-2",
+        "source_id": "dcp-innio-com-innios-jenbacher-engines-to-power-8874bf9"
+      }
+    },
+    {
+      "event": "Expected completion",
+      "date": "2023",
+      "source": {
+        "url": "https://www.innio.com/en/news-media/press-releases/innios-jenbacher-engines-to-power-60-mw-hyperscale-data-center-power-plant-in-ireland-2",
+        "source_id": "dcp-innio-com-innios-jenbacher-engines-to-power-8874bf9"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "INNIO Jenbacher (equipment)",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Winthrop Technologies (data centre delivery partner / EPC)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innios-jenbacher-engines-to-power-60-mw-hyperscale-data-center-power-plant-in-ireland-2",
+      "source_id": "dcp-innio-com-innios-jenbacher-engines-to-power-8874bf9",
+      "note": "Island-mode operation independent of the national grid during peak times; myPlan"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innios-jenbacher-engines-to-power-60-mw-hyperscale-data-center-power-plant-in-ireland-2",
+      "source_id": "dcp-innio-com-innios-jenbacher-engines-to-power-8874bf9"
+    },
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innios-jenbacher-engines-to-power-60-mw-hyperscale-data-center-power-plant-in-ireland-2",
+      "source_id": "dcp-innio-com-innios-jenbacher-engines-to-power-8874bf9",
+      "note": "Island-mode operation independent of the national grid during peak times; myPlant cloud monitoring; future hydrogen conversion capability"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "End customer and contract value",
+      "why": "Winthrop is the delivery partner, not named as eventual operator; no price disclosed",
+      "next_action": "Leave as gap"
+    },
+    {
+      "what": "Actual commissioning confirmation",
+      "why": "Only an expected Q3 2023 date; no completion confirmation in read source",
+      "next_action": "Check later INNIO article"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre and modular power projects). Register of 18 evidence-backed projects from 2016–2026, built only from pages actually read via WebFetch (PDFs read through r.jina.ai and noted as such). It cov"
+}

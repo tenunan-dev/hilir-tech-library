@@ -1,0 +1,97 @@
+{
+  "id": "google-kairos-power-advanced-nuclear-fleet-offtake",
+  "name": "Google-Kairos Power advanced nuclear fleet offtake",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "United States",
+  "location": "United States",
+  "status": "operating",
+  "description": "Kairos develops, constructs and operates a series of KP-FHR plants and sells energy, ancillary services and environmental attributes to Google under PPAs. Google stated it has signed more than 115 clean-energy agreements totalling over 14 GW since 2010.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Google and Kairos Power sign 500 MW multi-plant advanced nuclear PPA",
+      "date": "2024",
+      "source": {
+        "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+        "source_id": "dcp-kairospower-com-google-and-kairos-power-part-d536266"
+      }
+    },
+    {
+      "event": "IEA projects first SMRs online around 2030 and tech-sector SMR financing above 20 GW",
+      "date": "2025",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+        "source_id": "dcp-iea-org-executive-summary-b2083f5"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "GE Vernova",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Kairos Power",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Google",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+      "source_id": "dcp-kairospower-com-google-and-kairos-power-part-d536266",
+      "note": "Kairos develops, constructs and operates a series of KP-FHR plants and sells ene"
+    },
+    {
+      "url": "https://www.gevernova.com/gas-power/industries/data-centers",
+      "source_id": "dcp-gevernova-com-data-centers-3ade6f6"
+    },
+    {
+      "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+      "source_id": "dcp-kairospower-com-google-and-kairos-power-part-d536266"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN112567588B/en",
+      "source_id": "dcp-patents-google-com-en-de5d620"
+    },
+    {
+      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+      "source_id": "dcp-iea-org-executive-summary-b2083f5"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN112567588B/en",
+      "source_id": "dcp-patents-google-com-en-de5d620",
+      "note": "Priority 2019-07-19, filed 2020-07-17, granted/published 2026-02-13. Abstract: manages energy flows between grid, power generation, battery storage and data centre. Description names a solid-oxide fue"
+    },
+    {
+      "url": "https://www.kairospower.com/updates/google-and-kairos-power-partner-to-deploy-500-mw-of-clean-electricity-generation",
+      "source_id": "dcp-kairospower-com-google-and-kairos-power-part-d536266",
+      "note": "Kairos develops, constructs and operates a series of KP-FHR plants and sells energy, ancillary services and environmental attributes to Google under PPAs. Google stated it has signed more than 115 cle"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Published USD $/kW or LCOE for BTM gas at a named data centre",
+      "why": "GE Vernova and Kairos pages give no dollar figure; the Epoch AI model explicitly excludes behind-the-meter generation.",
+      "next_action": "Find a utility filing, PPA filing or audited operator disclosure with a dollar year."
+    },
+    {
+      "what": "Named gas-engine data centre project with a dated commissioning milestone in APAC",
+      "why": "No APAC BTM gas project page was read; existing library evidence is largely US/Europe vendor material.",
+      "next_action": "Fetch an operator or OEM APAC press release and record date, MW and site."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre power technology). An evidence-first 2016-2026 retrospective built only from pages read on 2026-11-25. The core new record is Uptime Institute's May 2026 Annual Outage Analysis (r"
+}

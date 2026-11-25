@@ -1,0 +1,25 @@
+{
+  "id": "dcp-bloomenergy-com-660ad39",
+  "name": "NTT DATA Announces Agreement with Bloom Energy for 900 MW",
+  "url": "https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Bloom Energy and NTT DATA",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read with WebFetch; full release including 900 MW, 2027 shipments and company boilerplate."
+}

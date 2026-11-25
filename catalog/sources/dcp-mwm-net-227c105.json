@@ -1,0 +1,23 @@
+{
+  "id": "dcp-mwm-net-227c105",
+  "name": "MWM CHP gas engine gensets overview",
+  "url": "https://www.mwm.net/mwm-chp-gas-engines-gensets-cogeneration/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "regions": [
+    "eu"
+  ],
+  "publisher_org": "MWM / Caterpillar Energy Solutions",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch on 2026-11-25; used for dated 2026 news headlines and portfolio range only."
+}

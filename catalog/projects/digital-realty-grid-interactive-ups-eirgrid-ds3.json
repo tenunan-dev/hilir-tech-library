@@ -1,0 +1,71 @@
+{
+  "id": "digital-realty-grid-interactive-ups-eirgrid-ds3",
+  "name": "Digital Realty grid-interactive UPS / EirGrid DS3",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Ireland",
+  "location": "Ireland",
+  "status": "operating",
+  "description": "Nine data centres provide dynamic frequency response from UPS batteries under EirGrid's Delivering a Secure, Sustainable Electricity System (DS3) programme.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Enel X",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Digital Realty",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Equinix",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study",
+      "source_id": "dcp-enelx-com-digital-realty-case-study-61ae4da",
+      "note": "Nine data centres provide dynamic frequency response from UPS batteries under Ei"
+    },
+    {
+      "url": "https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study",
+      "source_id": "dcp-enelx-com-digital-realty-case-study-61ae4da"
+    },
+    {
+      "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+      "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+    },
+    {
+      "url": "https://patents.google.com/patent/CN112567588B/en",
+      "source_id": "dcp-patents-google-com-en-de5d620"
+    },
+    {
+      "url": "https://www.enelx.com/ie/en/resources/customer-success/digital-realty-case-study",
+      "source_id": "dcp-enelx-com-digital-realty-case-study-61ae4da",
+      "note": "Nine data centres provide dynamic frequency response from UPS batteries under EirGrid's Delivering a Secure, Sustainable Electricity System (DS3) programme."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Date of the Digital Realty / EirGrid DS3 deployment",
+      "why": "The Enel X page read carries no publication or project date.",
+      "next_action": "Find a dated EirGrid or Digital Realty release before attaching a year."
+    },
+    {
+      "what": "Measured round-trip efficiency and cycle life of data-centre UPS lithium-ion batteries",
+      "why": "No operator disclosure with those metrics was read.",
+      "next_action": "Fetch a UPS OEM datasheet or peer-reviewed measurement with explicit test basis."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre power technology). An evidence-first 2016-2026 retrospective built only from pages read on 2026-11-25. The core new record is Uptime Institute's May 2026 Annual Outage Analysis (r"
+}

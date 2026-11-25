@@ -1,0 +1,25 @@
+{
+  "id": "dcp-standards-ieee-org-1547-2018-html-ff7b9da",
+  "name": "IEEE 1547-2018 standard page",
+  "url": "https://standards.ieee.org/standard/1547-2018.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "IEEE Standards Association",
+  "access": "open",
+  "licence": "IEEE copyright; standard text paywalled",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Active Standard, board approval 2018-02-15, published 2018-04-06; supersedes 1547-2003; amendment 1547a-2020."
+}

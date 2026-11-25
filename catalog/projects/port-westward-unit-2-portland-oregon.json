@@ -1,0 +1,81 @@
+{
+  "id": "port-westward-unit-2-portland-oregon",
+  "name": "Port Westward Unit 2, Portland Oregon",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "US",
+  "location": "US",
+  "status": "operating",
+  "description": "50SG engines provide peaking power without efficiency loss, balancing wind and solar variability",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "31SG efficiency-optimised variant documented",
+      "date": "2026",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-31sg-gas-engine",
+        "source_id": "dcp-wartsila-com-wartsila-31sg-gas-engine-992d336"
+      }
+    },
+    {
+      "event": "Bremen coal-to-gas CHP delivered",
+      "date": "2022",
+      "source": {
+        "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-31sg-gas-engine",
+        "source_id": "dcp-wartsila-com-wartsila-31sg-gas-engine-992d336"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "Wartsila",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+      "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine",
+      "note": "50SG engines provide peaking power without efficiency loss, balancing wind and s"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-31sg-gas-engine",
+      "source_id": "dcp-wartsila-com-wartsila-31sg-gas-engine-992d336"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+      "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-31sg-gas-engine",
+      "source_id": "dcp-wartsila-com-wartsila-31sg-gas-engine-992d336",
+      "note": "31SG flexible CHP; vendor page states CO2 emissions decrease up to 75%"
+    },
+    {
+      "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine",
+      "source_id": "wartsila-com-engine-power-plants-wartsila-50sg-gas-engine",
+      "note": "50SG engines provide peaking power without efficiency loss, balancing wind and solar variability"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Measured NOx values for 31SG/50SG",
+      "why": "Pages state catalyst systems are project-specific and LBF emissions must be evaluated case by case, without numeric limits",
+      "next_action": "Obtain a project emission guarantee or catalyst datasheet"
+    },
+    {
+      "what": " priced 31SG/50SG genset",
+      "why": "Vendor pages carry no price",
+      "next_action": "Find a dated tender award with capital cost"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Gas engine technology). Evidence-first retrospective assembled only from pages actually read with WebFetch or via r.jina.ai (noted per source). New dated material includes: Jenbacher T"
+}

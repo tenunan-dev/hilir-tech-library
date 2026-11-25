@@ -1,0 +1,26 @@
+{
+  "id": "dcp-patents-google-com-en-de5d620",
+  "name": "Google Patents CN112567588B — Data Center Energy Management System",
+  "url": "https://patents.google.com/patent/CN112567588B/en",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "DIG"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Google Patents (CNIPA bibliographic record)",
+  "access": "open",
+  "licence": "public patent record",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly with WebFetch 2026-11-25. English record shows assignee Equinix Inc and grant date 2026-02-13."
+}

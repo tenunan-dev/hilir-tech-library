@@ -1,0 +1,66 @@
+{
+  "id": "brookfield-bloom-ai-factory-power-financing-framework",
+  "name": "Brookfield-Bloom AI factory power financing framework",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "USD 25 billion framework integrates power, compute, data centre infrastructure and capital; no individual sites named.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Bloom Energy AI infrastructure partnership expanded",
+      "date": "2026",
+      "source": {
+        "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+        "source_id": "dcp-bloomenergy-com-72cfae1"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Brookfield assets under management",
+      "year": 2026,
+      "unit": "USD",
+      "basis": "dollar year not stated; 'more than USD 1 trillion in assets under management' in the 30 June 2026 release",
+      "value": 1000000000000,
+      "source": {
+        "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+        "source_id": "dcp-bloomenergy-com-72cfae1"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+      "source_id": "dcp-bloomenergy-com-72cfae1",
+      "note": "USD 25 billion framework integrates power, compute, data centre infrastructure a"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+      "source_id": "dcp-bloomenergy-com-72cfae1"
+    },
+    {
+      "url": "https://www.bloomenergy.com/news/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership/",
+      "source_id": "dcp-bloomenergy-com-72cfae1",
+      "note": "USD 25 billion framework integrates power, compute, data centre infrastructure and capital; no individual sites named."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named projects and practical completion dates",
+      "why": "Not printed",
+      "next_action": "Check Brookfield project announcements"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

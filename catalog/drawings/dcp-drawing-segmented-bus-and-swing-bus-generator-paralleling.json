@@ -1,0 +1,26 @@
+{
+  "id": "dcp-drawing-segmented-bus-and-swing-bus-generator-paralleling",
+  "title": "Segmented bus and swing bus generator paralleling designs",
+  "diagram_type": "schematic",
+  "description": "Presentation figures recommending segmented paralleling bus with tie breakers and a single-generator swing bus design to avoid a paralleling bus single point of failure.",
+  "publisher": "Cummins Power Generation",
+  "url": "https://www.cummins.com/sites/default/files/2018-08/201802_PowerHour_Common%20failure%20modes%20of%20Data%20Center%20back%20up%20power%20systems.pdf",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "regions": [
+    "global",
+    "na",
+    "apac"
+  ],
+  "sources": [
+    {
+      "url": "https://www.cummins.com/sites/default/files/2018-08/201802_PowerHour_Common%20failure%20modes%20of%20Data%20Center%20back%20up%20power%20systems.pdf",
+      "source_id": "dcp-cummins-com-201802-powerhour-common-20failur-6944984",
+      "note": "Presentation figures recommending segmented paralleling bus with tie breakers and a single-generator swing bus design to avoid a paralleling bus single point of failure."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Diagram pointer from the 10-year data-centre power retrospective."
+}

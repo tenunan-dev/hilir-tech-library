@@ -1,0 +1,26 @@
+{
+  "id": "dcp-blog-google-4293046",
+  "name": "Why we're backing America's existing nuclear plants",
+  "url": "https://blog.google/company-news/why-were-backing-americas-existing-nuclear-plants/",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Google",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Read directly via WebFetch; states uprate completion before end 2032."
+}

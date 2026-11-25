@@ -1,0 +1,117 @@
+{
+  "id": "spacedc-data-centre-campus-jakarta",
+  "name": "SpaceDC data centre campus, Jakarta",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Indonesia",
+  "location": "Indonesia",
+  "status": "operating",
+  "description": "Uses Rolls-Royce mtu gas and diesel systems with exhaust gas aftertreatment for baseload and emergency power plus cooling.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "Fast-start mtu gas gensets introduced",
+      "date": "2025",
+      "source": {
+        "url": "https://www.rolls-royce.com/media/press-releases/2025/02-10-2025-rr-introduces-fast-start-mtu-gas-gensets-for-powering-data-centers.aspx"
+      }
+    },
+    {
+      "event": "Mankato plant expansion completed",
+      "date": "2026",
+      "source": {
+        "url": "https://www.mtugenset.com/new/new-8-139.html",
+        "source_id": "dcp-mtugenset-com-new-8-139-html-5d1fd29"
+      }
+    },
+    {
+      "event": "Worksop carbon-capture power plant commissioned",
+      "date": "2025",
+      "source": {
+        "url": "https://www.turbomachinerymag.com/view/rolls-royce-integrates-fast-start-capabilities-for-data-center-gensets",
+        "source_id": "dcp-turbomachinerymag-com-rolls-royce-integrates-b06fa6b"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "Mankato plant expansion project cost",
+      "year": 2026,
+      "unit": "USD",
+      "basis": "dollar year not stated; expansion completed July 2026 at Mankato, Minnesota; capital investment, not equipment price",
+      "value": 24000000,
+      "source": {
+        "url": "https://www.mtugenset.com/new/new-8-139.html",
+        "source_id": "dcp-mtugenset-com-new-8-139-html-5d1fd29"
+      }
+    }
+  ],
+  "contractors": [
+    {
+      "name": "Rolls-Royce",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Rolls-Royce Power Systems (mtu)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.turbomachinerymag.com/view/rolls-royce-integrates-fast-start-capabilities-for-data-center-gensets",
+      "source_id": "dcp-turbomachinerymag-com-rolls-royce-integrates-b06fa6b",
+      "note": "Uses Rolls-Royce mtu gas and diesel systems with exhaust gas aftertreatment for "
+    },
+    {
+      "url": "https://www.turbomachinerymag.com/view/rolls-royce-integrates-fast-start-capabilities-for-data-center-gensets",
+      "source_id": "dcp-turbomachinerymag-com-rolls-royce-integrates-b06fa6b"
+    },
+    {
+      "url": "https://www.mtugenset.com/new/new-8-139.html",
+      "source_id": "dcp-mtugenset-com-new-8-139-html-5d1fd29"
+    },
+    {
+      "url": "https://www.rolls-royce.com/media/press-releases/2025/02-10-2025-rr-introduces-fast-start-mtu-gas-gensets-for-powering-data-centers.aspx"
+    },
+    {
+      "url": "https://www.turbomachinerymag.com/view/rolls-royce-integrates-fast-start-capabilities-for-data-center-gensets",
+      "source_id": "dcp-turbomachinerymag-com-rolls-royce-integrates-b06fa6b",
+      "note": "Uses Rolls-Royce mtu gas and diesel systems with exhaust gas aftertreatment for baseload and emergency power plus cooling."
+    },
+    {
+      "url": "https://www.turbomachinerymag.com/view/rolls-royce-integrates-fast-start-capabilities-for-data-center-gensets",
+      "source_id": "dcp-turbomachinerymag-com-rolls-royce-integrates-b06fa6b",
+      "note": "mtu gas engines provide reliable power and heat supply and support the grid during peak loads."
+    },
+    {
+      "url": "https://www.turbomachinerymag.com/view/rolls-royce-integrates-fast-start-capabilities-for-data-center-gensets",
+      "source_id": "dcp-turbomachinerymag-com-rolls-royce-integrates-b06fa6b",
+      "note": "Stated in the October 2025 article; no individual project named."
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Named data-centre genset supply contracts and values",
+      "why": "Not printed in pages read",
+      "next_action": "Search Rolls-Royce press releases for named awards"
+    },
+    {
+      "what": "AVK packager role",
+      "why": "Only seen in a search-result snippet; page not read",
+      "next_action": "Fetch avk-seg.com/generators before recording"
+    },
+    {
+      "what": "Dollar year for USD 24 million",
+      "why": "Source gives no dollar-year basis",
+      "next_action": "Label dollar year not stated"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power vendors and contractors). Evidence-first retrospective of the 2016-2026 data-centre power ecosystem, built only from pages and one PDF actually read via WebFetch (with r.jina.ai fallback"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "dcp-datacenter-uptimeinstitute-com-2025-annualou-c482d72",
+  "name": "Annual Outage Analysis 2025",
+  "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2025.AnnualOutageAnalysis.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Uptime Institute",
+  "access": "open",
+  "licence": "Copyright 2025 Uptime Institute, all rights reserved; licence not further stated",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF unsupported by WebFetch; read in full via https://r.jina.ai/ proxy. Table 3, Figures 1-15 and Table 4 used."
+}

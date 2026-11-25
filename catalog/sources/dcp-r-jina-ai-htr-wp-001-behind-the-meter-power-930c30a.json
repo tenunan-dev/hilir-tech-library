@@ -1,0 +1,26 @@
+{
+  "id": "dcp-r-jina-ai-htr-wp-001-behind-the-meter-power-930c30a",
+  "name": "HTR-WP-001 What Behind-the-Meter Power Costs",
+  "url": "https://r.jina.ai/https://www.hypertechresearch.com/assets/papers/HTR-WP-001-behind-the-meter-power-costs.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "PWR",
+    "IDC"
+  ],
+  "disciplines": [
+    "PRC",
+    "ELE"
+  ],
+  "regions": [
+    "global",
+    "na"
+  ],
+  "publisher_org": "Hyper Tech Research, Inc.",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. PDF read via r.jina.ai, 15 pages, Draft 2 dated 30 Oct 2026. 158 dated sourced data points; grade A-C used for headline statistics, grade D flagged as analyst/model."
+}

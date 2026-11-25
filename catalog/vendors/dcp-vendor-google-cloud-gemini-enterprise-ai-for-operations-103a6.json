@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-google-cloud-gemini-enterprise-ai-for-operations-103a6",
+  "name": "Google Cloud / Gemini Enterprise (AI for operations)",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "Google Cloud / Gemini Enterprise (AI for operations) named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+      "source_id": "dcp-constellationenergy-com-google-and-constella-6b7e5d8"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}

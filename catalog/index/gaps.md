@@ -3,11 +3,11 @@
 What the library should hold but does not yet, why, where to get it and what to do next. Generated from the `gaps` field
 of each card in catalog/technologies/ and from register entries without a card. Agents: call `list_gaps`.
 
-695 missing inputs on 331 cards; 7 register technologies have no card yet.
+696 missing inputs on 332 cards; 7 register technologies have no card yet.
 
 | Reason | Count |
 | --- | --- |
-| not_in_sources_read | 679 |
+| not_in_sources_read | 680 |
 | paid_source | 11 |
 | no_card_yet | 7 |
 | status_unchecked | 2 |
@@ -226,6 +226,7 @@ of each card in catalog/technologies/ and from register entries without a card. 
 | [Air cooling (CRAH/CRAC, hot/cold aisle containment)](technologies-IDC.md#idc-air-cooling) | cost per kW of installed CRAH capacity, with dollar year and basis (costs) | No source read prices CRAH units or aisle containment. | Cooling vendor budget quotes<br>Data-centre fit-out tender schedules | Add a cost per kW from a vendor quote or fit-out tender. |
 | [Air cooling (CRAH/CRAC, hot/cold aisle containment)](technologies-IDC.md#idc-air-cooling) | TRL with a cited source (trl) | No TRL table was read. | IEA Energy Technology Guide | Add a TRL reference. |
 | [Behind-the-meter gas generation for data centres](technologies-IDC.md#idc-behind-the-meter-gas) | installed cost per kW for BTM gas capacity, with dollar year (costs) | Vendor pages carry no prices. | EIA/industry cost studies; disclosed project filings (open) | Add cost figures with dollar year and basis. |
+| [Ten-year data centre power and modular gas generation retrospective (2016–2026)](technologies-IDC.md#idc-datacentre-power-and-modular-gas-ten-year-retrospective) | dated installed $/kW and PPA prices with dollar year (costs) | Most public pages do not publish dated plant-level costs. | Operator releases, EPC contract announcements and regulatory rate cases (open) | Search dated announcements for each named project. |
 | [Direct-to-chip liquid cooling (cold plates and CDUs)](technologies-IDC.md#idc-direct-to-chip-liquid-cooling) | cost per kW of cooling capacity (per kW of IT load is now recorded) (costs) | Costs are recorded per kW of IT load; a per-kW-of-cooling-capacity figure would need the design delta-T, which no source pairs with a price. | Uptime Institute and industry cost surveys; vendor budgetary quotes (open) | Leave open until a source states this metric and scope. |
 | [Data centre energy and water benchmarking (PUE/WUE)](technologies-IDC.md#idc-energy-water-benchmarking) | cost of metering and benchmarking instrumentation per MW of IT load (costs) | No source read prices metering and DCIM at data-centre scale. | Metering and DCIM vendor quotes | Add a metering cost per MW from a vendor or project quote. |
 | [Data centre energy and water benchmarking (PUE/WUE)](technologies-IDC.md#idc-energy-water-benchmarking) | TRL with a cited source (trl) | No TRL table was read; measurement practice is mature but no source read states a level. | IEA Energy Technology Guide | Add a TRL reference. |

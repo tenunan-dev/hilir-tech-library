@@ -1,0 +1,93 @@
+{
+  "id": "forsa-energy-peaking-plant-manchester",
+  "name": "Forsa Energy peaking plant, Manchester",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "GB",
+  "location": "GB",
+  "status": "operating",
+  "description": "9 x J624, 40.5 MW electrical, natural gas; described by vendor as a peaking plant delivering reliable power when needed",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "J624 peaking plant commissioned in Manchester",
+      "date": "2023",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/",
+        "source_id": "dcp-jenbacher-com-46cdbfb"
+      }
+    },
+    {
+      "event": "J416 municipal CHP commissioned in Dettenhausen",
+      "date": "2021",
+      "source": {
+        "url": "https://www.jenbacher.com/en/gas-engines/",
+        "source_id": "dcp-jenbacher-com-46cdbfb"
+      }
+    }
+  ],
+  "capex": [],
+  "contractors": [
+    {
+      "name": "INNIO Jenbacher",
+      "role": "supplier / contractor (as stated on cited page)"
+    },
+    {
+      "name": "Clarke Energy (distributor and service provider)",
+      "role": "supplier / contractor (as stated on cited page)"
+    }
+  ],
+  "sources": [
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb",
+      "note": "9 x J624, 40.5 MW electrical, natural gas; described by vendor as a peaking plan"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
+      "source_id": "jenbacher-com-type-6"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb"
+    },
+    {
+      "url": "https://www.iso.org/standard/68539.html",
+      "source_id": "dcp-iso-org-68539-html-1fd731a"
+    },
+    {
+      "url": "https://www.iso.org/standard/85962.html",
+      "source_id": "dcp-iso-org-85962-html-071211c"
+    },
+    {
+      "url": "https://patents.google.com/patent/US20250207550A1/en",
+      "source_id": "dcp-patents-google-com-en-e417c44",
+      "note": "Read via r.jina.ai on Google Patents. Priority 2022-03-24; published 2025-06-26; granted as US12650107B2 on 2026-06-09. Claims a front-sealed prechamber with fuel injector for hydrogen, 30-50 bar inje"
+    },
+    {
+      "url": "https://www.jenbacher.com/en/gas-engines/",
+      "source_id": "dcp-jenbacher-com-46cdbfb",
+      "note": "9 x J624, 40.5 MW electrical, natural gas; described by vendor as a peaking plant delivering reliable power when needed"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "J624 bore and stroke",
+      "why": "Not printed on the Type 6 page read; only speed, outputs and efficiencies were stated",
+      "next_action": "Locate and read a Type 6 engine type sheet or OEM datasheet printing bore/stroke before recording"
+    },
+    {
+      "what": "availability/reliability figure for Type 6",
+      "why": "Vendor page gives cumulative deliveries, not availability, forced-outage rate or overhaul interval",
+      "next_action": "Find an operator or service-level document with measured availability"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Gas engine technology). Evidence-first retrospective assembled only from pages actually read with WebFetch or via r.jina.ai (noted per source). New dated material includes: Jenbacher T"
+}

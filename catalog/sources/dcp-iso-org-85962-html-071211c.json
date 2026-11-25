@@ -1,0 +1,27 @@
+{
+  "id": "dcp-iso-org-85962-html-071211c",
+  "name": "ISO 8528-13:2026",
+  "url": "https://www.iso.org/standard/85962.html",
+  "source_type": "standards-body",
+  "sectors": [
+    "IDC",
+    "PWR"
+  ],
+  "disciplines": [
+    "ELE",
+    "PRC",
+    "INS",
+    "HSE"
+  ],
+  "regions": [
+    "global"
+  ],
+  "publisher_org": "Standards body",
+  "access": "open",
+  "licence": "unknown",
+  "reuse_level": "summary-only",
+  "quality_tier": 1,
+  "verification": "verified",
+  "last_verified": "2026-11-25",
+  "notes": "Page read 2026-11-25 in the 10-year data-centre power retrospective. Reciprocating internal combustion engine driven alternating current generating sets - Part 13: Safety (Edition 2, published 2026-03-20)"
+}

@@ -1,0 +1,141 @@
+{
+  "id": "operations-maintenance-and-life-extension-cost-evidence",
+  "name": "Operations, maintenance and life-extension cost evidence",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Fixed and variable O&M from modelling benchmarks and a regulatory case, plus government-commissioned refurbishment and repowering costs. GBP figures preserved as printed.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [],
+  "capex": [
+    {
+      "metric": "fixed O&M, gas peaking new build",
+      "year": 2025,
+      "unit": "USD/KW-YEAR",
+      "basis": "Lazard LCOE+ v18.0 key assumptions",
+      "low": 10,
+      "high": 17,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    },
+    {
+      "metric": "fixed O&M, gas combined-cycle new build",
+      "year": 2025,
+      "unit": "USD/KW-YEAR",
+      "basis": "Lazard LCOE+ v18.0 key assumptions",
+      "low": 10,
+      "high": 25.5,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    },
+    {
+      "metric": "variable O&M, gas peaking new build",
+      "year": 2025,
+      "unit": "USD/MWH",
+      "basis": "Lazard LCOE+ v18.0 key assumptions",
+      "low": 3.5,
+      "high": 5,
+      "source": {
+        "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+        "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+      }
+    },
+    {
+      "metric": "fixed O&M, internal combustion engine",
+      "year": 2022,
+      "unit": "USD/KW-YEAR (2022$)",
+      "basis": "EIA AEO2023 assumptions; variable O&M $6.40/MWh (2022$), heat rate 8,295 Btu/kWh",
+      "value": 39.57,
+      "source": {
+        "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf",
+        "source_id": "dcp-r-jina-ai-elec-cost-perf-pdf-0085a0e"
+      }
+    },
+    {
+      "metric": "standard maintenance benchmark, 1,700 MW H-class CCGT",
+      "year": 2024,
+      "unit": "GBP/KW (2024 PRICES)",
+      "basis": "DESNZ/CEPA/GHD study: £50m total, typical through-life maintenance of major CCGT equipment",
+      "value": 31,
+      "source": {
+        "url": "https://r.jina.ai/https://assets.publishing.service.gov.uk/media/68137e3770b095d0d7011858/electricity-generation-cost-study.pdf",
+        "source_id": "dcp-r-jina-ai-electricity-generation-cost-study-2a5def4"
+      }
+    },
+    {
+      "metric": "end-of-life extension for five years, 1,700 MW CCGT",
+      "year": 2024,
+      "unit": "GBP/KW (2024 PRICES)",
+      "basis": "DESNZ/CEPA/GHD: £140m; replacement and refurbishment of key components and balance of plant",
+      "value": 81,
+      "source": {
+        "url": "https://r.jina.ai/https://assets.publishing.service.gov.uk/media/68137e3770b095d0d7011858/electricity-generation-cost-study.pdf",
+        "source_id": "dcp-r-jina-ai-electricity-generation-cost-study-2a5def4"
+      }
+    },
+    {
+      "metric": "repowering at end of life for further 10-25 years",
+      "year": 2024,
+      "unit": "GBP/KW (2024 PRICES)",
+      "basis": "DESNZ/CEPA/GHD: £930m; replacement of all major equipment and balance of plant",
+      "value": 545,
+      "source": {
+        "url": "https://r.jina.ai/https://assets.publishing.service.gov.uk/media/68137e3770b095d0d7011858/electricity-generation-cost-study.pdf",
+        "source_id": "dcp-r-jina-ai-electricity-generation-cost-study-2a5def4"
+      }
+    },
+    {
+      "metric": "stakeholder estimate of CCGT life extension",
+      "year": 2025,
+      "unit": "GBP",
+      "basis": "One confidential respondent to DESNZ study, 'provided little context on what these investments would specifically deliver'; not verified by the study",
+      "low": 90000000,
+      "high": 150000000,
+      "source": {
+        "url": "https://r.jina.ai/https://assets.publishing.service.gov.uk/media/68137e3770b095d0d7011858/electricity-generation-cost-study.pdf",
+        "source_id": "dcp-r-jina-ai-electricity-generation-cost-study-2a5def4"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://r.jina.ai/https://assets.publishing.service.gov.uk/media/68137e3770b095d0d7011858/electricity-generation-cost-study.pdf",
+      "source_id": "dcp-r-jina-ai-electricity-generation-cost-study-2a5def4",
+      "note": "Fixed and variable O&M from modelling benchmarks and a regulatory case, plus gov"
+    },
+    {
+      "url": "https://r.jina.ai/https://assets.publishing.service.gov.uk/media/68137e3770b095d0d7011858/electricity-generation-cost-study.pdf",
+      "source_id": "dcp-r-jina-ai-electricity-generation-cost-study-2a5def4"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.lazard.com/media/5tlbhyla/lazards-lcoeplus-june-2025-_vf.pdf",
+      "source_id": "dcp-r-jina-ai-lazards-lcoeplus-june-2025-vf-pdf-4d33286"
+    },
+    {
+      "url": "https://r.jina.ai/https://www.eia.gov/outlooks/aeo/assumptions/pdf/elec_cost_perf.pdf",
+      "source_id": "dcp-r-jina-ai-elec-cost-perf-pdf-0085a0e"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Long-term service agreement (LTSA) prices for data-centre engine fleets",
+      "why": "OEM releases do not disclose service contract values",
+      "next_action": "Review listed-company service revenue disclosures and project O&M filings"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Power costs and contracts). Evidence-first 2016-2026 retrospective of data-centre power cost and contract evidence. Primary regulatory material includes the Texas PUC McCloud/Meta filing: "
+}

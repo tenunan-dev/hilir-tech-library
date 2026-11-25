@@ -1,0 +1,91 @@
+{
+  "id": "jurong-island-low-carbon-data-centre-park",
+  "name": "Jurong Island low-carbon data centre park",
+  "project_type": "operating-asset",
+  "sector": "IDC",
+  "sector_codes": [
+    "IDC",
+    "PWR"
+  ],
+  "country": "Singapore",
+  "location": "Singapore",
+  "status": "operating",
+  "description": "Singapore allocated 20 hectares on Jurong Island for a low-carbon data centre park potentially supporting up to 700 MW; Jurong Island is Singapore's energy and chemicals hub with natural gas, biofuels and potential hydrogen/ammonia supply chains.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "milestones": [
+    {
+      "event": "IEA reports transmission build time and grid-component lead times",
+      "date": "2025",
+      "source": {
+        "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+        "source_id": "dcp-iea-org-executive-summary-b2083f5"
+      }
+    },
+    {
+      "event": "Singapore DC-CFA2 makes green-energy and grid-linked siting a condition of new capacity",
+      "date": "2025",
+      "source": {
+        "url": "https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure",
+        "source_id": "dcp-nortonrosefulbright-com-singapore-s-green-da-759c76f"
+      }
+    }
+  ],
+  "capex": [
+    {
+      "metric": "up-front utility works (substations) capex, 1 GW AI data centre model",
+      "year": 2026,
+      "unit": "USD MILLION",
+      "basis": "Epoch AI, published 14 May 2026; USD, dollar year not stated on page; stylised model, not a specific facility; substation unit costs from MISO transmission cost guide",
+      "value": 164,
+      "source": {
+        "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+        "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+      }
+    }
+  ],
+  "contractors": [],
+  "sources": [
+    {
+      "url": "https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure",
+      "source_id": "dcp-nortonrosefulbright-com-singapore-s-green-da-759c76f",
+      "note": "Singapore allocated 20 hectares on Jurong Island for a low-carbon data centre pa"
+    },
+    {
+      "url": "https://epoch.ai/data-insights/ai-datacenter-cost-breakdown",
+      "source_id": "dcp-epoch-ai-ai-datacenter-cost-breakdown-f44b778"
+    },
+    {
+      "url": "https://www.iea.org/reports/energy-and-ai/executive-summary",
+      "source_id": "dcp-iea-org-executive-summary-b2083f5"
+    },
+    {
+      "url": "https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure",
+      "source_id": "dcp-nortonrosefulbright-com-singapore-s-green-da-759c76f"
+    },
+    {
+      "url": "https://datacenter.uptimeinstitute.com/rs/711-RIA-145/images/2026.AnnualOutageAnalysis.pdf",
+      "source_id": "dcp-datacenter-uptimeinstitute-com-2026-annualou-ff3d508"
+    },
+    {
+      "url": "https://www.nortonrosefulbright.com/en/insights/publications/2026/08/singapore-s-green-data-centre-roadmap-and-dc-cfa2-driving-sustainable-ai-ready-infrastructure",
+      "source_id": "dcp-nortonrosefulbright-com-singapore-s-green-da-759c76f",
+      "note": "Singapore allocated 20 hectares on Jurong Island for a low-carbon data centre park potentially supporting up to 700 MW; Jurong Island is Singapore's energy and chemicals hub with natural gas, biofuels"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Malaysia-specific interconnection and substation lead times for data centres",
+      "why": "No Malaysia/TNB or DOE Malaysia page was read; the Singapore evidence cannot be transferred to Malaysia.",
+      "next_action": "Fetch a Malaysian regulator or utility page and record lead times with an explicit date."
+    },
+    {
+      "what": "Named utility interconnection agreement with a published 2016-2026 date",
+      "why": "No primary utility or operator page with a dated interconnection milestone was read.",
+      "next_action": "Find an operator/TSO press release naming the project, date and contracted MW."
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "From the 10-year data-centre power retrospective (Data centre power technology). An evidence-first 2016-2026 retrospective built only from pages read on 2026-11-25. The core new record is Uptime Institute's May 2026 Annual Outage Analysis (r"
+}

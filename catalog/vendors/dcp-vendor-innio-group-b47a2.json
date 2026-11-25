@@ -1,0 +1,23 @@
+{
+  "id": "dcp-vendor-innio-group-b47a2",
+  "name": "INNIO Group",
+  "country": "—",
+  "roles": [
+    "supplier"
+  ],
+  "categories": [
+    "equipment-oem"
+  ],
+  "description": "INNIO Group named on a page read in the 10-year data-centre power retrospective.",
+  "technologies": [
+    "idc-datacentre-power-and-modular-gas-ten-year-retrospective"
+  ],
+  "sources": [
+    {
+      "url": "https://www.innio.com/en/news-media/press-releases/innio-and-kmw-secure-grid-stability-and-data-center-supply-with-a-peaking-power-plant",
+      "source_id": "dcp-innio-com-innio-and-kmw-secure-grid-stabilit-15b4eac"
+    }
+  ],
+  "last_reviewed": "2026-11-25",
+  "notes": "Minimal vendor record from an evidence-backed power sweep."
+}
