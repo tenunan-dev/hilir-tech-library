@@ -6,7 +6,7 @@
   "equipment": [
     "scr-reagent-system"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: IFS Ammonia Vaporizers & SCR Injection Systems page. Ammonia Flow Control Unit (AFCU) provides injection control upstream of SCR. Storage/module capacities are the only numeric figures printed.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: IFS Ammonia Vaporizers & SCR Injection Systems page. Ammonia Flow Control Unit (AFCU) provides injection control upstream of SCR. Storage/module capacities are the only numeric figures printed. Primary source: https://www.ifsolutions.com/products/scr-ammonia-system/",
   "specifications": [
     {
       "metric": "Storage vessel capacity",
@@ -16,7 +16,8 @@
         "source_id": "ifsolutions-com-products-scr-ammonia-system"
       },
       "unit": "gallons",
-      "high": "65,000"
+      "high": "65,000",
+      "source_url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
     },
     {
       "metric": "Storage vessel construction",
@@ -26,7 +27,8 @@
         "source_id": "ifsolutions-com-products-scr-ammonia-system"
       },
       "unit": "n/a",
-      "value": "single & double wall carbon steel vessels"
+      "value": "single & double wall carbon steel vessels",
+      "source_url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
     },
     {
       "metric": "Anhydrous vaporizer",
@@ -36,7 +38,8 @@
         "source_id": "ifsolutions-com-products-scr-ammonia-system"
       },
       "unit": "n/a",
-      "value": "Integraheat Electric Vaporizer ASME Code Stamped (locally mounted)"
+      "value": "Integraheat Electric Vaporizer ASME Code Stamped (locally mounted)",
+      "source_url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
     },
     {
       "metric": "Vessel code",
@@ -46,7 +49,8 @@
         "source_id": "ifsolutions-com-products-scr-ammonia-system"
       },
       "unit": "n/a",
-      "value": "ASME Section VIII, National Board Registered"
+      "value": "ASME Section VIII, National Board Registered",
+      "source_url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
     },
     {
       "metric": "Piping design code",
@@ -56,7 +60,8 @@
         "source_id": "ifsolutions-com-products-scr-ammonia-system"
       },
       "unit": "n/a",
-      "value": "ANSI B31.1 / ANSI B31.3"
+      "value": "ANSI B31.1 / ANSI B31.3",
+      "source_url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
     },
     {
       "metric": "Pipe fabrication code",
@@ -66,7 +71,8 @@
         "source_id": "ifsolutions-com-products-scr-ammonia-system"
       },
       "unit": "n/a",
-      "value": "ASME Section IX"
+      "value": "ASME Section IX",
+      "source_url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
     },
     {
       "metric": "Structural steel assembly code",
@@ -76,7 +82,8 @@
         "source_id": "ifsolutions-com-products-scr-ammonia-system"
       },
       "unit": "n/a",
-      "value": "AWS D1.1"
+      "value": "AWS D1.1",
+      "source_url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
     },
     {
       "metric": "System design standard",
@@ -86,7 +93,8 @@
         "source_id": "ifsolutions-com-products-scr-ammonia-system"
       },
       "unit": "n/a",
-      "value": "API RP 550 & K61.1"
+      "value": "API RP 550 & K61.1",
+      "source_url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
     },
     {
       "metric": "Hazardous location option",
@@ -96,7 +104,8 @@
         "source_id": "ifsolutions-com-products-scr-ammonia-system"
       },
       "unit": "n/a",
-      "value": "Class 1, Div 2"
+      "value": "Class 1, Div 2",
+      "source_url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
     },
     {
       "metric": "storage_capacity_max",
@@ -105,7 +114,8 @@
       "source": {
         "url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
       },
-      "value": 65000
+      "value": 65000,
+      "source_url": "https://www.ifsolutions.com/products/scr-ammonia-system/"
     },
     {
       "metric": "vessel_standard",
@@ -115,7 +125,8 @@
         "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf",
         "source_id": "catpar-ifsolutions-com-scr-ammonia-for-injection-sy-af6cddd"
       },
-      "value": "ASME Section VIII & National Board Registered"
+      "value": "ASME Section VIII & National Board Registered",
+      "source_url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
     },
     {
       "metric": "piping_standard",
@@ -124,7 +135,8 @@
       "source": {
         "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
       },
-      "value": "ANSI B31.1/ANSI B31.3; fabrication ASME Section IX"
+      "value": "ANSI B31.1/ANSI B31.3; fabrication ASME Section IX",
+      "source_url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
     },
     {
       "metric": "structural_standard",
@@ -133,7 +145,8 @@
       "source": {
         "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
       },
-      "value": "AWS D1.1"
+      "value": "AWS D1.1",
+      "source_url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
     },
     {
       "metric": "system_standard",
@@ -142,7 +155,8 @@
       "source": {
         "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
       },
-      "value": "API RP 550 & K61.1"
+      "value": "API RP 550 & K61.1",
+      "source_url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
     },
     {
       "metric": "hazardous_location_option",
@@ -151,7 +165,8 @@
       "source": {
         "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
       },
-      "value": "Class 1, Div 2 Hazardous Locations"
+      "value": "Class 1, Div 2 Hazardous Locations",
+      "source_url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
     },
     {
       "metric": "vessel_material",
@@ -160,7 +175,8 @@
       "source": {
         "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
       },
-      "value": "Single & Double wall carbon steel vessels"
+      "value": "Single & Double wall carbon steel vessels",
+      "source_url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
     },
     {
       "metric": "cold_AFCU",
@@ -169,7 +185,8 @@
       "source": {
         "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
       },
-      "value": "Integraheat Electric Process Air Heater and Steam Heat Exchanger"
+      "value": "Integraheat Electric Process Air Heater and Steam Heat Exchanger",
+      "source_url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
     },
     {
       "metric": "hot_AFCU",
@@ -178,7 +195,8 @@
       "source": {
         "url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
       },
-      "value": "Hot Flue Gas"
+      "value": "Hot Flue Gas",
+      "source_url": "https://www.ifsolutions.com/wp-content/uploads/2017/01/SCR-Ammonia-for-Injection-System-ANAM-400.0.pdf"
     }
   ],
   "url": "https://www.ifsolutions.com/products/scr-ammonia-system/",

@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Gas receiving and metering station with hot tap and fuel gas supply for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Gas receiving and metering station with hot tap and fuel gas supply for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
   "aliases": [
     "Gas receiving and metering station with hot tap and fuel gas supply"
   ],
@@ -29,7 +29,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Emerson Tartarini™ pilot-operated pres — Typical power-plant fuel-gas pressure required",
@@ -41,7 +42,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Emerson Tartarini™ pilot-operated pres — Pilot-operated regulator set-pressure accuracy",
@@ -53,7 +55,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Emerson Tartarini™ pilot-operated pres — Station noise benchmark",
@@ -64,7 +67,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Emerson Tartarini™ pilot-operated pres — Fuel-gas supply station equipment items listed",
@@ -74,7 +78,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Honeywell Elster TRZ2 turbine gas mete — Meter sizes",
@@ -84,7 +89,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Honeywell Elster TRZ2 turbine gas mete — Maximum measuring range",
@@ -96,7 +102,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Honeywell Elster TRZ2 turbine gas mete — Nominal diameters",
@@ -108,7 +115,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Honeywell Elster TRZ2 turbine gas mete — Operating pressure",
@@ -120,7 +128,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Honeywell Elster TRZ2 turbine gas mete — Temperature range",
@@ -132,7 +141,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Honeywell Elster TRZ2 turbine gas mete — Measurement uncertainty per EN12261",
@@ -144,7 +154,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Honeywell Elster TRZ2 turbine gas mete — Flange rating",
@@ -154,7 +165,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Emerson Gas Ultrasonic Metering System — Installed base of integrated metering skids",
@@ -165,7 +177,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
         "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Emerson Gas Ultrasonic Metering System — Meter rangeability",
@@ -176,7 +189,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
         "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Emerson Gas Ultrasonic Metering System — Ultrasonic meter design",
@@ -186,7 +200,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf",
         "source_id": "geg-emerson-com-doc-emerson-dan-gas-tq-gusm-0213-6866383"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "T.D. Williamson hot tapping machines a — 360 Tapping Machine tap range",
@@ -198,7 +213,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
         "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
-      }
+      },
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "T.D. Williamson hot tapping machines a — 1200 XL / 936 XL Tapping Machine tap range",
@@ -210,7 +226,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
         "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
-      }
+      },
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "T.D. Williamson hot tapping machines a — T-2460 XXL Tapping Machine tap range",
@@ -222,7 +239,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
         "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
-      }
+      },
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "T.D. Williamson hot tapping machines a — ANSI Class filter options shown",
@@ -234,7 +252,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
         "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
-      }
+      },
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "Gas supply and fuel gas supply sys — Gas pressure required at gas engine",
@@ -245,7 +264,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Gas supply and fuel gas supply sys — Charge air pressure, lean-burn gas engine",
@@ -255,7 +275,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Installed base",
@@ -264,7 +285,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
       },
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Meter rangeability",
@@ -273,7 +295,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Ultrasonic meter paths",
@@ -282,7 +305,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Flow computer",
@@ -290,7 +314,8 @@
       "basis": "\"FloBoss S600+ flow computer\", panel mounted, Metering Suite",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Meter models",
@@ -298,7 +323,8 @@
       "basis": "\"Rosemount gas ultrasonic meters • Model 3414 • Model 3417, with dual electronics\"",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Analyzer models",
@@ -306,7 +332,8 @@
       "basis": "\"Rosemount gas chromatograph • 370XA • 770XA\"; moisture, hydrocarbon dew point and sulfur analyzers",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Standards compliance",
@@ -314,7 +341,8 @@
       "basis": "\"Compliance with AGA9 and ISO 17089 standards\"; \"Quality management backed by ISO 9000, ISO 14000. ISO 18000, ISO 29000\"",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Flow configuration",
@@ -322,7 +350,8 @@
       "basis": "\"N x 100% flow configuration\"",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Meter velocity options (questionnaire printed values)",
@@ -332,7 +361,8 @@
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
       },
       "low": 10,
-      "high": 20
+      "high": 20,
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Pressure rating options (questionnaire printed values)",
@@ -340,7 +370,8 @@
       "basis": "Questionnaire: \"300# 600# 900# Other\"",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Publication date",
@@ -348,7 +379,8 @@
       "basis": "Datasheet header 'DAN-GAS-TQ-GUSM-0213 February 2022'; ©2022 Emerson",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/measurement-instrumentation/technical/products/flow-ultrasonic/documents/doc-emerson-dan-gas-tq-gusm-0213.pdf"
     },
     {
       "metric": "Meter size range",
@@ -356,7 +388,8 @@
       "basis": "\"Meter sizes G65 to G1.000\"",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Maximum measuring range",
@@ -366,7 +399,8 @@
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
       "low": 5,
-      "high": 1600
+      "high": 1600,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Nominal diameters",
@@ -376,7 +410,8 @@
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
       "low": 50,
-      "high": 150
+      "high": 150,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Operating pressure",
@@ -386,7 +421,8 @@
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Flange rating",
@@ -394,7 +430,8 @@
       "basis": "\"Flange rating in PN 10-100 and ANSI 150-600\"; table: PN 10, 16, 25, 40, 64, 100 / ANSI 150, 300, 600",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Temperature range",
@@ -404,7 +441,8 @@
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
       "low": -25,
-      "high": 70
+      "high": 70,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Minimum inlet pipe length",
@@ -413,7 +451,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Measurement uncertainty (high flow)",
@@ -422,7 +461,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Measurement uncertainty (low flow)",
@@ -431,7 +471,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Standard measuring range ratio",
@@ -440,7 +481,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Alternative measuring range ratio",
@@ -449,7 +491,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Materials",
@@ -457,7 +500,8 @@
       "basis": "\"Meter bodies: ductile iron (GGG-40) or forged steel. Turbine wheel: Aluminum\"; \"TRZ2 are fire-proof (HTB)\"",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Standards / approvals",
@@ -465,7 +509,8 @@
       "basis": "\"MID approval for fiscal measurement; Conformity to EN12261, PED, ASME, ATEX and IECEx\"; OIML R137-1; EC directives 2014/32/EU (MID), 2014/34/EU (ATEX), 2014/68/EU (PED); ISO 9001:2008 / ISO 14001",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Pulse outputs",
@@ -473,7 +518,8 @@
       "basis": "\"Low frequency (standard): 2x LF outputs (type E1) with maximum frequency of 0.5 Hz – 1x manipulation contact\"; \"High frequency (optional): up to 4x HF outputs\"",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Index head",
@@ -481,7 +527,8 @@
       "basis": "\"IP67 certified\"; 8-digit mechanical index; index head rotatable by 350°",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Publication",
@@ -489,7 +536,8 @@
       "basis": "Datasheet BR-17-06-ENG '# 3032 01/17', © 2017 Honeywell International Inc.; Jina published-time 2021-04-12 (host upload)",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Transmission pipeline pressure",
@@ -499,7 +547,8 @@
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
       },
       "low": 150,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Gas turbine fuel gas pressure",
@@ -509,7 +558,8 @@
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
       },
       "low": 450,
-      "high": 600
+      "high": 600,
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Set pressure accuracy",
@@ -519,7 +569,8 @@
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
       },
       "low": 0.5,
-      "high": 2.5
+      "high": 2.5,
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Primary/standby example pressures",
@@ -529,7 +580,8 @@
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
       },
       "low": 420,
-      "high": 800
+      "high": 800,
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Station noise benchmark",
@@ -538,7 +590,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Shutoff class",
@@ -546,7 +599,8 @@
       "basis": "Emerson: 'Ensuring regulators within the station have ANSI Class VIII shutoff rating'",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Governing code",
@@ -554,7 +608,8 @@
       "basis": "Emerson: 'Piping systems in electric power generation stations are governed by ASME 31.1.'",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Methane emissions equivalence",
@@ -562,7 +617,8 @@
       "basis": "Emerson: '1 Kg of methane emitted into atmosphere is equivalent to emitting 25 Kg of carbon dioxide'",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Regulator styles / models",
@@ -570,7 +626,8 @@
       "basis": "Emerson: 'Two styles ... 1) two-path, loading style and 2) boot, unloading style'; figure 'Tartarini™ Type FL - Axial Flow, Two-Path Style Pilot-Operated Regulator'",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "pipeline_diameter_ranges",
@@ -579,7 +636,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
       },
-      "value": "1/2\"-4\"; 4\"-12\"; 12\"-20\"; 20\"-60\"; 60\"+"
+      "value": "1/2\"-4\"; 4\"-12\"; 12\"-20\"; 20\"-60\"; 60\"+",
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "special_diameters",
@@ -588,7 +646,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
       },
-      "value": "18\"; 28\"; 36\"; 42\"; 66\"; 108\"; 130\"; 150\""
+      "value": "18\"; 28\"; 36\"; 42\"; 66\"; 108\"; 130\"; 150\"",
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "pressure_ratings",
@@ -599,7 +658,8 @@
       },
       "value": "150; 300; 600; 900; 1500; 2500",
       "low": 150,
-      "high": 2500
+      "high": 2500,
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "application",
@@ -608,7 +668,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
       },
-      "value": "Used to make a new connection into a live pipeline, wide array of pipeline diameters, pressures and compositions in any environment"
+      "value": "Used to make a new connection into a live pipeline, wide array of pipeline diameters, pressures and compositions in any environment",
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     }
   ],
   "vendor_models": [

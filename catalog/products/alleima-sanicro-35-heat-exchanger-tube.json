@@ -6,7 +6,7 @@
   "equipment": [
     "urea-carbamate-condenser"
   ],
-  "description": "Vendor product line read 2026-11-24. Product claim read on UreaKnowHow news listing only; Alleima own page not fetched.",
+  "description": "Vendor product line read 2026-11-24. Product claim read on UreaKnowHow news listing only; Alleima own page not fetched. Primary source: https://ureaknowhow.com/",
   "specifications": [
     {
       "metric": "outside diameter stocked",
@@ -16,7 +16,8 @@
         "url": "https://ureaknowhow.com/",
         "source_id": "ureaknowhow-com-ureaknowhow-com"
       },
-      "value": "19.05 mm and 25.4 mm"
+      "value": "19.05 mm and 25.4 mm",
+      "source_url": "https://ureaknowhow.com/"
     },
     {
       "metric": "Sanicro 35 heat exchanger tube - stocked outside diameters",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://ureaknowhow.com/"
       },
-      "value": "19.05 mm and 25.4 mm OD (Sanicro(R) 35 heat exchanger tubes now stocked)"
+      "value": "19.05 mm and 25.4 mm OD (Sanicro(R) 35 heat exchanger tubes now stocked)",
+      "source_url": "https://ureaknowhow.com/"
     }
   ],
   "url": "https://ureaknowhow.com/",

@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Vertically moor a floating platform with high-axial-stiffness tendons/tethers grouped at corners, eliminating most vertical motion so wellheads can be on deck; install hull/topsides, then connect pre-installed tendons to seabed anchors.",
+  "description": "Vertically moor a floating platform with high-axial-stiffness tendons/tethers grouped at corners, eliminating most vertical motion so wellheads can be on deck; install hull/topsides, then connect pre-installed tendons to seabed anchors. Primary source: https://en.wikipedia.org/wiki/Tension-leg_platform",
   "specifications": [
     {
       "metric": "Suitable water depth",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
         "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
       },
-      "value": ">300 m and <1,500 m"
+      "value": ">300 m and <1,500 m",
+      "source_url": "https://en.wikipedia.org/wiki/Tension-leg_platform"
     },
     {
       "metric": "Hutton TLP (first, 1980s)",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
         "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
       },
-      "value": "16 tension legs; 100-1,000 m design depth; 46,500-55,000 t moored, up to 61,580 t floating freely"
+      "value": "16 tension legs; 100-1,000 m design depth; 46,500-55,000 t moored, up to 61,580 t floating freely",
+      "source_url": "https://en.wikipedia.org/wiki/Tension-leg_platform"
     },
     {
       "metric": "Deepest ETLPs",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
         "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
       },
-      "value": "Big Foot 1,580 m; Magnolia 1,425 m; Marco Polo 1,300 m; Neptune 1,300 m; Kizomba A 1,177 m; Ursa 1,200 m"
+      "value": "Big Foot 1,580 m; Magnolia 1,425 m; Marco Polo 1,300 m; Neptune 1,300 m; Kizomba A 1,177 m; Ursa 1,200 m",
+      "source_url": "https://en.wikipedia.org/wiki/Tension-leg_platform"
     },
     {
       "metric": "Snorre A TLP caisson alternative",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": "12 m long suction caissons instead of up to 90 m driven piles"
+      "value": "12 m long suction caissons instead of up to 90 m driven piles",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     }
   ],
   "vendors": [

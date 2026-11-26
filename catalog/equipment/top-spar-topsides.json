@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "Topside supported on a deep-draft single vertical cylinder (classic, truss or cell spar) with a typical fixed-platform-style deck carrying drilling and production equipment and dry-tree risers; low heave motion suits ultra-deepwater.",
+  "description": "Topside supported on a deep-draft single vertical cylinder (classic, truss or cell spar) with a typical fixed-platform-style deck carrying drilling and production equipment and dry-tree risers; low heave motion suits ultra-deepwater. Primary source: https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
   "specifications": [
     {
       "metric": "Perdido single-lift spar topsides",
@@ -19,7 +19,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 9500
+      "value": 9500,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "Perdido spar water depth",
@@ -29,7 +30,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 2450
+      "value": 2450,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "Perdido topsides deck count",
@@ -39,7 +41,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     }
   ],
   "vendors": [

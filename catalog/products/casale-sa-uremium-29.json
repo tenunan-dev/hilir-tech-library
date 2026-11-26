@@ -6,7 +6,7 @@
   "equipment": [
     "urea-fluid-bed-granulator"
   ],
-  "description": "Vendor product line read 2026-11-24. Proprietary metallurgy; composition not disclosed on read page.",
+  "description": "Vendor product line read 2026-11-24. Proprietary metallurgy; composition not disclosed on read page. Primary source: https://www.casale.ch/technologies/urea/",
   "specifications": [
     {
       "metric": "application",
@@ -16,7 +16,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": "critical items in urea plants / high-pressure strippers"
+      "value": "critical items in urea plants / high-pressure strippers",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     }
   ],
   "url": "https://www.casale.ch/technologies/urea/",

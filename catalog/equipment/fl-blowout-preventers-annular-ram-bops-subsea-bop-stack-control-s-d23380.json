@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Contain wellbore pressure and divert formation fluids/gases; shear pipe in emergency; provide surface, subsea and land pressure control.",
+  "description": "Contain wellbore pressure and divert formation fluids/gases; shear pipe in emergency; provide surface, subsea and land pressure control. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment",
   "specifications": [
     {
       "metric": "Large-bore drilling BOP pressure rating",
@@ -19,7 +19,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment",
         "source_id": "sys-slb-com-pressure-control-equipment"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment"
     },
     {
       "metric": "Shear ram capability",
@@ -29,7 +30,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment",
         "source_id": "sys-slb-com-pressure-control-equipment"
       },
-      "value": "can shear hardbanding on tool joints"
+      "value": "can shear hardbanding on tool joints",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment"
     },
     {
       "metric": "Bore size",
@@ -40,7 +42,8 @@
         "source_id": "cat-slb-com-dl-annular-bop"
       },
       "low": "7 1/16",
-      "high": "21 1/4"
+      "high": "21 1/4",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "Working pressure",
@@ -51,7 +54,8 @@
         "source_id": "cat-slb-com-dl-annular-bop"
       },
       "low": "2,000",
-      "high": "10,000"
+      "high": "10,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "Body styles",
@@ -61,7 +65,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
         "source_id": "cat-slb-com-dl-annular-bop"
       },
-      "value": "Single and dual"
+      "value": "Single and dual",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "Optional gas bleed port",
@@ -71,7 +76,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
         "source_id": "cat-slb-com-dl-annular-bop"
       },
-      "value": "3"
+      "value": "3",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "Packer elastomer",
@@ -81,7 +87,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
         "source_id": "cat-slb-com-dl-annular-bop"
       },
-      "value": "High-performance CAMULAR annular elastomer technology"
+      "value": "High-performance CAMULAR annular elastomer technology",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "Bore size / working pressure (7 1/16, 11, 13 5/8 in)",
@@ -92,7 +99,8 @@
         "source_id": "cat-slb-com-u-ram-type-bop"
       },
       "low": "3,000",
-      "high": "15,000"
+      "high": "15,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Bore size / working pressure (16 3/4 in)",
@@ -103,7 +111,8 @@
         "source_id": "cat-slb-com-u-ram-type-bop"
       },
       "low": "3,000",
-      "high": "10,000"
+      "high": "10,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Bore size / working pressure (20 3/4 in)",
@@ -113,7 +122,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
         "source_id": "cat-slb-com-u-ram-type-bop"
       },
-      "value": "3,000"
+      "value": "3,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Bore size / working pressure (21 1/4 in)",
@@ -124,7 +134,8 @@
         "source_id": "cat-slb-com-u-ram-type-bop"
       },
       "low": "2,000",
-      "high": "10,000"
+      "high": "10,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Bore size / working pressure (26 3/4 in)",
@@ -134,7 +145,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
         "source_id": "cat-slb-com-u-ram-type-bop"
       },
-      "value": "3,000"
+      "value": "3,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Body styles",
@@ -144,7 +156,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
         "source_id": "cat-slb-com-u-ram-type-bop"
       },
-      "value": "Single, double, triple, or quad"
+      "value": "Single, double, triple, or quad",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Lock types",
@@ -154,7 +167,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop",
         "source_id": "cat-slb-com-u-ram-type-bop"
       },
-      "value": "Standard: Manual; Optional: Hydraulic"
+      "value": "Standard: Manual; Optional: Hydraulic",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Annular BOP vertical bore range",
@@ -164,7 +178,8 @@
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
       },
       "low": 4.063,
-      "high": 21.25
+      "high": 21.25,
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Annular BOP pressure ratings",
@@ -172,7 +187,8 @@
       "basis": "Annular BOP table: 1M, 2M, 5M, 10M, 15M (e.g. Cameron T90 7.063 in 5M, Shaffer wedge 11 in 10M, Hydril GK 7.063 in 10M)",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Annular BOP maximum hydraulic pressure",
@@ -181,7 +197,8 @@
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Example annular BOP Cameron T90 11 in 5M",
@@ -189,7 +206,8 @@
       "basis": "Vertical bore 11.000 in, pressure 5M, height 41.500 in, weight 9,550 lbs, clearance diameter 44.750 in, NPT 1.250 in x 2 ports, open 14.59 gal, close 18.670 gal, gasket RX-54",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Example annular BOP Hydril GK 13.625 in 5M",
@@ -197,7 +215,8 @@
       "basis": "Height 54.130 in, weight 13,800 lbs, clearance 52.250 in, open 14.16 gal, close 17.980 gal, gasket BX-160",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Example annular BOP Shaffer wedge 13.625 in 10M",
@@ -205,7 +224,8 @@
       "basis": "Height 58.750 in, weight 32,475 lbs, clearance 64.500 in, NPT 2.000 in x 4 ports, open 32.64 gal, close 40.16 gal, gasket BX-159",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Single ram BOP maximum hydraulic pressure",
@@ -214,7 +234,8 @@
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Single ram BOP pressure ratings",
@@ -222,7 +243,8 @@
       "basis": "Single ram table: 3M, 5M, 10M, 15M (e.g. 7.063 in 15M Type U standard height 31.810 in, weight 5,557 lbs, BX-156 gasket)",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Single ram BOP vertical bore range",
@@ -232,7 +254,8 @@
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
       },
       "low": 7.063,
-      "high": 26.75
+      "high": 26.75,
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Double ram BOP example 13.625 in 15M Type U",
@@ -240,7 +263,8 @@
       "basis": "Double ram table: height 81.750 in, weight 47,886 lbs, max hydraulic pressure 3,000 psi, gasket BX-159, outlet 4-1/16 in 15M, bonnets open/unlocked 206.890 in, closed/locked 132.370 in, open 10.400 gal, close 10.600 gal, open ratio 3.700, close ratio 10.300",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Source basis and caveat",
@@ -248,7 +272,8 @@
       "basis": "\"All values are from OEM's most current operation / maintenance / user's manual, as of spec binders published date\"; \"Drawings and information contained herein are for general purposes only and is not intended to replace OEM data\"",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular 7-1/16 in 5M — dimensions",
@@ -256,7 +281,8 @@
       "basis": "Quail Tools BOP spec sheet, ANNULAR TYPE table row: vertical bore 7.063 in, pressure rating 5M, manufacturer Cameron, type T90, height 30.875 in, weight approx 3,175 lbs",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular 7-1/16 in 5M — hydraulics",
@@ -264,7 +290,8 @@
       "basis": "Quail Tools row: clearance diameter 29.000 in, max hydraulic pressure 1,500 psi, NPT port 1.000 in, number of ports 2, to open 3.43 gal, to close 4.920 gal, studded/flange ring gasket RX-46",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular 11 in 5M",
@@ -272,7 +299,8 @@
       "basis": "Quail Tools row: vertical bore 11.000 in, 5M, Cameron T90, height 41.500 in, weight approx 9,550 lbs, clearance 44.750 in, max hydraulic 1,500 psi, NPT 1.250 in ×2, open 14.59 gal, close 18.670 gal, gasket RX-54",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular 11 in 10M",
@@ -280,7 +308,8 @@
       "basis": "Quail Tools row: 11.000 in, 10M, Cameron T90 w/ 11\" 10M flanged bottom, height 41.500 in, weight approx 9,550 lbs, clearance 44.750 in, max hydraulic 1,500 psi, NPT 1.250 in ×2, open 14.59 gal, close 18.670 gal, gasket RX-54",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron DL annular 13-5/8 in 15M",
@@ -288,7 +317,8 @@
       "basis": "Quail Tools row: 13.625 in, 10M, Cameron DL w/ 13-5/8\" 15M flanged bottom, height 49.094 in, weight approx 27,262 lbs, clearance 61.000 in, max hydraulic 1,500 psi, NPT 1.250 in ×4, open 16.15 gal, close 18.100 gal, gasket BX158/BX-159",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Hydril GK annular 7-1/16 in 5M",
@@ -296,7 +326,8 @@
       "basis": "Quail Tools row: 7.063 in, 5M, Hydril GK Screwed, height 36.880 in, weight approx 4,000 lbs, clearance 35.750 in, max hydraulic 1,500 psi, NPT 1.000 in ×2, open 3.30 gal, close 3.860 gal, gasket BX-159/RX-46",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Hydril GK annular 11 in 10M",
@@ -304,7 +335,8 @@
       "basis": "Quail Tools row: 11.000 in, 10M, Hydril GK Screwed, height 63.500 in, weight approx 26,140 lbs, clearance 61.500 in, max hydraulic 1,500 psi, NPT 1.000 in ×2, open 18.97 gal, close 25.100 gal, gasket BX-158",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Provenance / caveat",
@@ -312,7 +344,8 @@
       "basis": "Quail Tools: 'Drawings and information contained herein are for general purposes only and is not intended to replace OEM data. ... All values are from OEM's most current operation / maintenance / user's manual, as of spec binders published date.'",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "25K BOP - working pressure",
@@ -321,7 +354,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": 25000
+      "value": 25000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - close ratio",
@@ -330,7 +364,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "9:1"
+      "value": "9:1",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - hydraulic operating system",
@@ -339,7 +374,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": 5000
+      "value": 5000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - operation",
@@ -348,7 +384,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "EVO BOP-style system with wedge lock technology"
+      "value": "EVO BOP-style system with wedge lock technology",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - qualification",
@@ -357,7 +394,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition"
+      "value": "API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - first delivery",
@@ -366,7 +404,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "Industry's first 25,000-psi large-bore drilling BOP stack delivered 2010 (second in 2014)"
+      "value": "Industry's first 25,000-psi large-bore drilling BOP stack delivered 2010 (second in 2014)",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "DL annular BOP - bore sizes",
@@ -375,7 +414,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "7 1/16 in to 21 1/4 in"
+      "value": "7 1/16 in to 21 1/4 in",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - working pressures",
@@ -385,7 +425,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
       "low": 2000,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - application",
@@ -394,7 +435,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "Offshore (subsea and surface) and onshore"
+      "value": "Offshore (subsea and surface) and onshore",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - body styles",
@@ -403,7 +445,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "Single and dual"
+      "value": "Single and dual",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - packer",
@@ -412,7 +455,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "High-performance CAMULAR annular elastomer technology"
+      "value": "High-performance CAMULAR annular elastomer technology",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - optional gas bleed port",
@@ -421,7 +465,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "Optional 3-in gas bleed port from ID to OD"
+      "value": "Optional 3-in gas bleed port from ID to OD",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - H2S compliance",
@@ -430,7 +475,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "Compliance with NACE MR0175 for H2S service"
+      "value": "Compliance with NACE MR0175 for H2S service",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "U BOP - bore sizes / working pressures",
@@ -439,7 +485,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": "7 1/16, 11, 13 5/8 in: 3,000-15,000 psi; 16 3/4 in: 3,000-10,000 psi; 20 3/4 in: 3,000 psi; 21 1/4 in: 2,000/5,000/10,000 psi; 26 3/4 in: 3,000 psi"
+      "value": "7 1/16, 11, 13 5/8 in: 3,000-15,000 psi; 16 3/4 in: 3,000-10,000 psi; 20 3/4 in: 3,000 psi; 21 1/4 in: 2,000/5,000/10,000 psi; 26 3/4 in: 3,000 psi",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "U BOP - application",
@@ -448,7 +495,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": "Offshore (surface) and onshore"
+      "value": "Offshore (surface) and onshore",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "U BOP - body styles",
@@ -457,7 +505,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": "Single, double, triple, or quad"
+      "value": "Single, double, triple, or quad",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "U BOP - rams",
@@ -466,7 +515,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": "Pressure-energized"
+      "value": "Pressure-energized",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "U BOP - lock types",
@@ -475,7 +525,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": "Standard: Manual; Optional: Hydraulic"
+      "value": "Standard: Manual; Optional: Hydraulic",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "U BOP - bonnet features",
@@ -484,7 +535,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": "Hydraulic stud tensioning on larger sizes; bonnet seal carriers; hydraulically opening bonnets; forged body"
+      "value": "Hydraulic stud tensioning on larger sizes; bonnet seal carriers; hydraulically opening bonnets; forged body",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Test pressure",
@@ -493,7 +545,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": 5000
+      "value": 5000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "Design standards",
@@ -502,7 +555,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition"
+      "value": "API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "Control system standard",
@@ -511,7 +565,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "API Spec 16D"
+      "value": "API Spec 16D",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "Technology history",
@@ -520,7 +575,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "first 25,000-psi large-bore drilling BOP stack in 2010; second in 2014"
+      "value": "first 25,000-psi large-bore drilling BOP stack in 2010; second in 2014",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "Working pressures",
@@ -530,7 +586,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
       "low": 2000,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "BOP type",
@@ -539,7 +596,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "DL High-Pressure Annular BOP"
+      "value": "DL High-Pressure Annular BOP",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "Bore size 7 1/16 / 11 / 13 5/8 in working pressures",
@@ -549,7 +607,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
       "low": 3000,
-      "high": 15000
+      "high": 15000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Bore size 16 3/4 in working pressures",
@@ -559,7 +618,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
       "low": 3000,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Bore size 20 3/4 in working pressure",
@@ -568,7 +628,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Bore size 21 1/4 in working pressures",
@@ -577,7 +638,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": "2,000 / 5,000 / 10,000"
+      "value": "2,000 / 5,000 / 10,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Bore size 26 3/4 in working pressure",
@@ -586,7 +648,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "Sealing",
@@ -595,7 +658,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": "Pressure-energized"
+      "value": "Pressure-energized",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     },
     {
       "metric": "High-temperature variable-bore rams",
@@ -604,7 +668,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
       },
-      "value": "H2S and high-temperature applications; suited for H2S service per NACE MR0175"
+      "value": "H2S and high-temperature applications; suited for H2S service per NACE MR0175",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/u-ram-type-bop"
     }
   ],
   "vendors": [

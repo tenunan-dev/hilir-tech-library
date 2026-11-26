@@ -6,7 +6,7 @@
   "equipment": [
     "civ-driven-precast-piles-concrete-steel-h-steel-pipe"
   ],
-  "description": "Vendor product line read 2026-11-24. Source page internally inconsistent on max weight; >2,600 produced by end 2024.",
+  "description": "Vendor product line read 2026-11-24. Source page internally inconsistent on max weight; >2,600 produced by end 2024. Primary source: https://sif-group.com/products-services/monopiles",
   "specifications": [
     {
       "metric": "length",
@@ -16,7 +16,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "value": 120
+      "value": 120,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "diameter",
@@ -26,7 +27,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "value": 11
+      "value": 11,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "wall thickness",
@@ -36,7 +38,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "value": 160
+      "value": 160,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "weight",
@@ -46,7 +49,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "value": "2,000 (prose) / >2,500 (tile)"
+      "value": "2,000 (prose) / >2,500 (tile)",
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Monopile length",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
       },
-      "value": 120
+      "value": 120,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Monopile diameter",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
       },
-      "value": 11
+      "value": 11,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Maximum wall thickness",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
       },
-      "value": 160
+      "value": 160,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Maximum weight (paragraph)",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Maximum weight (statistic block - conflicting)",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
       },
-      "value": 2500
+      "value": 2500,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Variants",
@@ -99,7 +108,8 @@
       "basis": "Sif: 'We supply both traditional monopiles with transition pieces and TP-less monopiles.'",
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
-      }
+      },
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Track record",
@@ -107,7 +117,8 @@
       "basis": "Sif: 'over 2,600 monopiles produced ... contracts for more than 2,900 foundations ... 55 wind farms ... 22.7 GW of installed offshore capacity'",
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
-      }
+      },
+      "source_url": "https://sif-group.com/products-services/monopiles"
     }
   ],
   "url": "https://sif-group.com/products-services/monopiles",

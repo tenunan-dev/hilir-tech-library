@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Nitrogen and inert gas supply",
+  "description": "Nitrogen and inert gas supply Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
   "specifications": [
     {
       "metric": "Inert-gas supply",
@@ -19,7 +19,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": "usually nitrogen"
+      "value": "usually nitrogen",
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Nitrogen source for synthesis",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Haber_process",
         "source_id": "en-wikipedia-org-wiki-haber-process"
       },
-      "value": "air separation"
+      "value": "air separation",
+      "source_url": "https://en.wikipedia.org/wiki/Haber_process"
     },
     {
       "metric": "Cryogenic nitrogen generator BEDP contractor",
@@ -39,7 +41,8 @@
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
-      "value": "Air Liquide Japan"
+      "value": "Air Liquide Japan",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     }
   ],
   "vendors": [

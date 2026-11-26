@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Emergency/essential diesel generator packages supply emergency, essential and main loads on ISO/IEC offshore units; JIP33 S-714-1J sets starting, battery, cooling, excitation and testing requirements. UPS/battery banks bridge the gap to generator pickup and support black start; the Equinor patent and Shell Timi design give battery/UPS architecture and energy levels. USCG/IEEE practice defines essential-generation loads including HVAC, potable water, instrument air and crane auxiliaries.",
+  "description": "Emergency/essential diesel generator packages supply emergency, essential and main loads on ISO/IEC offshore units; JIP33 S-714-1J sets starting, battery, cooling, excitation and testing requirements. UPS/battery banks bridge the gap to generator pickup and support black start; the Equinor patent and Shell Timi design give battery/UPS architecture and energy levels. USCG/IEEE practice defines essential-generation loads including HVAC, potable water, instrument air and crane auxiliaries. Primary source: http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf",
   "aliases": [
     "Diesel-driven emergency generator with UPS/battery banks"
   ],
@@ -24,7 +24,8 @@
       "value": 2,
       "source": {
         "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
-      }
+      },
+      "source_url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
     },
     {
       "metric": "Diesel generator package (emergency/esse — Cranking cycles without recharge",
@@ -33,7 +34,8 @@
       "value": 3,
       "source": {
         "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
-      }
+      },
+      "source_url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
     },
     {
       "metric": "Diesel generator package (emergency/esse — Radiator / air cooler design margin",
@@ -42,7 +44,8 @@
       "value": 110,
       "source": {
         "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
-      }
+      },
+      "source_url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
     },
     {
       "metric": "Diesel generator package (emergency/esse — Water-cooled heat exchanger design margin",
@@ -51,7 +54,8 @@
       "value": 110,
       "source": {
         "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
-      }
+      },
+      "source_url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
     },
     {
       "metric": "Diesel generator package (emergency/esse — Insulated bearing threshold",
@@ -60,7 +64,8 @@
       "value": 350,
       "source": {
         "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
-      }
+      },
+      "source_url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
     },
     {
       "metric": "Diesel generator package (emergency/esse — Personnel hot-surface protection threshold",
@@ -69,7 +74,8 @@
       "value": 60,
       "source": {
         "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
-      }
+      },
+      "source_url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
     },
     {
       "metric": "Diesel generator package (emergency/esse — Baseplate mounting pad flatness",
@@ -78,7 +84,8 @@
       "value": 0.15,
       "source": {
         "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
-      }
+      },
+      "source_url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
     },
     {
       "metric": "Diesel generator package (emergency/esse — Baseplate surface finish",
@@ -87,7 +94,8 @@
       "value": 3.2,
       "source": {
         "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
-      }
+      },
+      "source_url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
     },
     {
       "metric": "Diesel generator package (emergency/esse — Lifting provision threshold",
@@ -96,7 +104,8 @@
       "value": 25,
       "source": {
         "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
-      }
+      },
+      "source_url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
     },
     {
       "metric": "UPS and battery bank with black-start ca — Low-power UPS-side energy level",
@@ -107,7 +116,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US20220069575A1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US20220069575A1/en"
     },
     {
       "metric": "UPS and battery bank with black-start ca — High-power storage energy level",
@@ -118,7 +128,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US20220069575A1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US20220069575A1/en"
     },
     {
       "metric": "UPS and battery bank with black-start ca — Example battery bank (patent)",
@@ -128,7 +139,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US20220069575A1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US20220069575A1/en"
     },
     {
       "metric": "UPS and battery bank with black-start ca — Emergency power rail",
@@ -138,7 +150,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US20220069575A1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US20220069575A1/en"
     },
     {
       "metric": "UPS and battery bank with black-start ca — Generator rating in patent example",
@@ -148,7 +161,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US20220069575A1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US20220069575A1/en"
     },
     {
       "metric": "Price — 500 kW diesel standby genset total installed (factory-direct)",
@@ -160,7 +174,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     },
     {
       "metric": "Price — 500 kW diesel standby genset total installed (Tier 1 dealer)",
@@ -172,7 +187,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     },
     {
       "metric": "Price — 100 kW diesel standby genset total installed (factory-direct)",
@@ -184,7 +200,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     },
     {
       "metric": "Price — 1,000 kW diesel standby genset total installed (factory-direct)",
@@ -196,7 +213,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     },
     {
       "metric": "Price — Diesel genset equipment cost",
@@ -208,7 +226,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     },
     {
       "metric": "Price — US large industrial total installed cost",
@@ -220,7 +239,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     },
     {
       "metric": "Price — Southeast Asia total installed cost",
@@ -232,7 +252,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     },
     {
       "metric": "Price — ATS 500-1,000 kW total cost",
@@ -244,7 +265,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     }
   ],
   "vendor_models": [],

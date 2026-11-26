@@ -8,7 +8,7 @@
     "MID",
     "CIV"
   ],
-  "description": "2H Offshore describes conductor-supported minimum facility platforms (MFP, MFP+ and the CoSMOS variant) that can be entirely installed from a jack-up drilling rig, eliminating conventional offshore installation spread. The SE Asia project used a multiphase flow meter and three power sources (solar panels, nitrogen racks, diesel-powered cranes) to reduce topside payload, with an 8 km flexible flowline tieback and two-stage installation. Tarpon describes relocatable, 20-year-life, three-slot minim",
+  "description": "2H Offshore describes conductor-supported minimum facility platforms (MFP, MFP+ and the CoSMOS variant) that can be entirely installed from a jack-up drilling rig, eliminating conventional offshore installation spread. The SE Asia project used a multiphase flow meter and three power sources (solar panels, nitrogen racks, diesel-powered cranes) to reduce topside payload, with an 8 km flexible flowline tieback and two-stage installation. Tarpon describes relocatable, 20-year-life, three-slot minim Primary source: https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms",
   "aliases": [
     "Minimum-facility WHP logistics: designed for jack-up-rig installation, little or no onboard processing"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms",
         "source_id": "whp-2hoffshore-com-minimum-facility-platforms"
-      }
+      },
+      "source_url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms"
     },
     {
       "metric": "Conductor-supported minimum facility pla — Stated design and delivery expertise",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms",
         "source_id": "whp-2hoffshore-com-minimum-facility-platforms"
-      }
+      },
+      "source_url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms"
     },
     {
       "metric": "Conductor-supported minimum facility pla — Production wells on SE Asia MFP",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
         "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
-      }
+      },
+      "source_url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design"
     },
     {
       "metric": "Conductor-supported minimum facility pla — Flexible flowline tieback length",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
         "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
-      }
+      },
+      "source_url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design"
     },
     {
       "metric": "Conductor-supported minimum facility pla — Number of diversified power sources",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
         "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
-      }
+      },
+      "source_url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design"
     },
     {
       "metric": "Conductor-supported minimum facility pla — Design, delivery and installation duration",
@@ -76,7 +81,8 @@
       "source": {
         "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
         "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
-      }
+      },
+      "source_url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design"
     },
     {
       "metric": "Conductor-supported minimum facility pla — Project man-hours",
@@ -86,7 +92,8 @@
       "source": {
         "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
         "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
-      }
+      },
+      "source_url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design"
     },
     {
       "metric": "Conductor-supported minimum facility pla — Installation campaign stages",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
         "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
-      }
+      },
+      "source_url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design"
     },
     {
       "metric": "Jack-up rig (installation and drilling u — Jack-up drilling water depth",
@@ -107,7 +115,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Jack-up rig (installation and drilling u — Jack-up typical water depth",
@@ -117,7 +126,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_platform",
         "source_id": "whp-en-wikipedia-org-offshore-platform"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_platform"
     },
     {
       "metric": "Jack-up rig (installation and drilling u — Jack-up depth in patent background",
@@ -127,7 +137,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US5513929A/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US5513929A/en"
     },
     {
       "metric": "Tarpon relocatable WHP — Conductor slots per platform",
@@ -137,7 +148,8 @@
       "source": {
         "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
         "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
-      }
+      },
+      "source_url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil"
     },
     {
       "metric": "Tarpon relocatable WHP — Design life",
@@ -147,7 +159,8 @@
       "source": {
         "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
         "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
-      }
+      },
+      "source_url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil"
     },
     {
       "metric": "Tarpon relocatable WHP — Water depth range",
@@ -158,7 +171,8 @@
       "source": {
         "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
         "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
-      }
+      },
+      "source_url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil"
     },
     {
       "metric": "Reliability — Lost time incidents on CoSMOS project",
@@ -168,7 +182,8 @@
       "source": {
         "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
         "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
-      }
+      },
+      "source_url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design"
     }
   ],
   "vendor_models": [],

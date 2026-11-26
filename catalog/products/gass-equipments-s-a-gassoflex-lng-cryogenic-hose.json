@@ -6,7 +6,7 @@
   "equipment": [
     "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
   ],
-  "description": "Technical specifications table on page is an image; figures above are from the printed text/Characteristics list.",
+  "description": "Technical specifications table on page is an image; figures above are from the printed text/Characteristics list. Primary source: https://gasso.com/en/producto/lng",
   "specifications": [
     {
       "metric": "Working pressure",
@@ -16,7 +16,8 @@
         "url": "https://gasso.com/en/producto/lng",
         "source_id": "cat-gasso-com-lng"
       },
-      "high": 14
+      "high": 14,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Temperature range",
@@ -27,7 +28,8 @@
         "source_id": "cat-gasso-com-lng"
       },
       "low": -196,
-      "high": 45
+      "high": 45,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Standard",
@@ -37,7 +39,8 @@
         "url": "https://gasso.com/en/producto/lng",
         "source_id": "cat-gasso-com-lng"
       },
-      "value": "EN 13766:2010"
+      "value": "EN 13766:2010",
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Safety factor",
@@ -47,7 +50,8 @@
         "url": "https://gasso.com/en/producto/lng",
         "source_id": "cat-gasso-com-lng"
       },
-      "value": "5:1"
+      "value": "5:1",
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Vacuum",
@@ -57,7 +61,8 @@
         "url": "https://gasso.com/en/producto/lng",
         "source_id": "cat-gasso-com-lng"
       },
-      "value": 0.9
+      "value": 0.9,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Roll length",
@@ -67,7 +72,8 @@
         "url": "https://gasso.com/en/producto/lng",
         "source_id": "cat-gasso-com-lng"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Materials",
@@ -77,7 +83,8 @@
         "url": "https://gasso.com/en/producto/lng",
         "source_id": "cat-gasso-com-lng"
       },
-      "value": "316L stainless steel inner coil and outer spiral; polyamide/polyester inner lining; polyamide fabric cover"
+      "value": "316L stainless steel inner coil and outer spiral; polyamide/polyester inner lining; polyamide fabric cover",
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Minimum temperature",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": -196
+      "value": -196,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Maximum temperature",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Working pressure",
@@ -104,7 +113,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": 14
+      "value": 14,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Standard",
@@ -112,7 +122,8 @@
       "basis": "'Standard EN 13766:2010'",
       "source": {
         "url": "https://gasso.com/en/producto/lng"
-      }
+      },
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Safety factor",
@@ -121,7 +132,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Vacuum",
@@ -130,7 +142,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": 0.9
+      "value": 0.9,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Roll length",
@@ -139,7 +152,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Materials",
@@ -147,7 +161,8 @@
       "basis": "'Inner coil: 316L (S) stainless steel; Outer Spiral: 316L Stainless Steel (S); Inner lining: Polyamide / Polyester; Cover: Polyamide fabric'",
       "source": {
         "url": "https://gasso.com/en/producto/lng"
-      }
+      },
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Applications",
@@ -155,7 +170,8 @@
       "basis": "'loading and unloading of Liquefied Natural Gas in trucks, railcars and even marine applications. Including ship-to-ship bunkering operations'",
       "source": {
         "url": "https://gasso.com/en/producto/lng"
-      }
+      },
+      "source_url": "https://gasso.com/en/producto/lng"
     }
   ],
   "url": "https://gasso.com/en/producto/lng",

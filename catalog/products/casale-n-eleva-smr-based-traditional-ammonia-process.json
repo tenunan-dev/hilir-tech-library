@@ -6,7 +6,7 @@
   "equipment": [
     "steam-reformer"
   ],
-  "description": "Vendor product line read 2026-11-24. Technical brochure link on page; brochure itself not fetched.",
+  "description": "Vendor product line read 2026-11-24. Technical brochure link on page; brochure itself not fetched. Primary source: https://casale.ch/technologies/ammonia/",
   "specifications": [
     {
       "metric": "NOx",
@@ -16,7 +16,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Energy consumption, grey configuration",
@@ -26,7 +27,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "high": 6.5
+      "high": 6.5,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Energy consumption, blue configuration",
@@ -36,7 +38,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 7.9
+      "value": 7.9,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Process basis",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": "SMR-based traditional ammonia process"
+      "value": "SMR-based traditional ammonia process",
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Plant capacity range",
@@ -56,7 +60,8 @@
         "source_id": "catpar-casale-ch-casale-n-eleva-pdf-b11a49c"
       },
       "low": 500,
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "Energy consumption (grey configuration)",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "high": 6.5
+      "high": 6.5,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Energy consumption (brochure)",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "high": 6.5
+      "high": 6.5,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "Energy consumption (blue configuration)",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "low": 7.9
+      "low": 7.9,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Flue gas NOx",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "Sulfur after ZnO",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "high": 0.1
+      "high": 0.1,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "H2/N2 ratio",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "value": "3:1"
+      "value": "3:1",
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "CO2 after removal",
@@ -119,7 +130,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "Combined water and CO2 after ammonia wash",
@@ -128,7 +140,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "high": 0.1
+      "high": 0.1,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     }
   ],
   "url": "https://casale.ch/technologies/ammonia/",

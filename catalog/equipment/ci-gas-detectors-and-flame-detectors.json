@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Fixed and portable detection of combustible/toxic gas and flame, interfaced to fire & gas systems and SIS.",
+  "description": "Fixed and portable detection of combustible/toxic gas and flame, interfaced to fire & gas systems and SIS. Primary source: https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
   "specifications": [
     {
       "metric": "gas/flame detection effectiveness guidance",
@@ -19,7 +19,8 @@
         "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
         "source_id": "sys-isa-org-isa-84-standards"
       },
-      "value": "ISA-TR84.00.07-2026: Guidance on the Evaluation of Fire, Combustible Gas, and Toxic Gas System Effectiveness - covers detection coverage, response times and system reliability"
+      "value": "ISA-TR84.00.07-2026: Guidance on the Evaluation of Fire, Combustible Gas, and Toxic Gas System Effectiveness - covers detection coverage, response times and system reliability",
+      "source_url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards"
     }
   ],
   "vendors": [

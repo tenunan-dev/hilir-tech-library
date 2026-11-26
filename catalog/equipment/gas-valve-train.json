@@ -2,7 +2,7 @@
   "id": "gas-valve-train",
   "name": "Boiler fuel gas train (double block and bleed)",
   "equipment_type": "valve-train",
-  "description": "Pre-assembled piping that conditions and safely isolates gaseous fuel before the burner: regulator, main shutoff valves, vent, pressure switches and manual isolation. Cleaver-Brooks lists natural gas, refinery gas, hydrogen, landfill, digester and tail gas; trains are designed to NFPA 85, FM, CSA B149.3 and ASME B31.1/B31.3 with SIL and hazardous-area options.",
+  "description": "Pre-assembled piping that conditions and safely isolates gaseous fuel before the burner: regulator, main shutoff valves, vent, pressure switches and manual isolation. Cleaver-Brooks lists natural gas, refinery gas, hydrogen, landfill, digester and tail gas; trains are designed to NFPA 85, FM, CSA B149.3 and ASME B31.1/B31.3 with SIL and hazardous-area options. Primary source: https://cleaverbrooks.com/product/fuel-train",
   "specifications": [
     {
       "metric": "fuels handled",
@@ -12,7 +12,8 @@
         "source_id": "cb-fuel-train"
       },
       "unit": "qualitative",
-      "value": "multiple gaseous fuels"
+      "value": "multiple gaseous fuels",
+      "source_url": "https://cleaverbrooks.com/product/fuel-train"
     },
     {
       "metric": "design codes",
@@ -22,7 +23,8 @@
         "source_id": "cb-fuel-train"
       },
       "unit": "qualitative",
-      "value": "NFPA 85 / FM / CSA B149.3 / ASME B31.1 or B31.3"
+      "value": "NFPA 85 / FM / CSA B149.3 / ASME B31.1 or B31.3",
+      "source_url": "https://cleaverbrooks.com/product/fuel-train"
     },
     {
       "metric": "main shutoff arrangement",
@@ -32,7 +34,8 @@
         "source_id": "zeeco-pln-burner"
       },
       "unit": "qualitative",
-      "value": "dual block main shutoff with ventless regulator"
+      "value": "dual block main shutoff with ventless regulator",
+      "source_url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner"
     },
     {
       "metric": "pilot train components",
@@ -42,7 +45,8 @@
         "source_id": "zeeco-pln-burner"
       },
       "unit": "qualitative",
-      "value": "regulator + solenoid + manual valve"
+      "value": "regulator + solenoid + manual valve",
+      "source_url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner"
     },
     {
       "metric": "Scope",
@@ -52,7 +56,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "scope of supply",
-      "value": "BMS / combustion controls / valve trains / installation / commissioning"
+      "value": "BMS / combustion controls / valve trains / installation / commissioning",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Fuel skid customization",
@@ -62,7 +67,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "capability",
-      "value": "Custom fuel skids for various applications worldwide; any required dimension and specified feature"
+      "value": "Custom fuel skids for various applications worldwide; any required dimension and specified feature",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Free Jet turndown",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Free Jet tip exposure",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Free Jet materials",
@@ -88,7 +96,8 @@
       "basis": "'304 Stainless Steel fuel gas risers'; '310 Stainless Steel (Type HK) secondary gas tips'; '310 Stainless Steel (Type HK) primary gas tip'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "GB heat input",
@@ -97,7 +106,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 360
+      "value": 360,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "GB fuels",
@@ -105,7 +115,8 @@
       "basis": "'natural gas, #6/#2 fuel oils, low Btu gases (blast furnace gas/ coke oven gas), opportunity fuels, waste streams'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "PDH air heater heat release",
@@ -114,7 +125,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 1000000000
+      "value": 1000000000,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Installed burners",
@@ -123,7 +135,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Average staff experience",
@@ -132,7 +145,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Quality system",
@@ -140,7 +154,8 @@
       "basis": "'Zeeco's ISO 9001 accredited quality management system'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Total scope",
@@ -148,7 +163,8 @@
       "basis": "'Full Scope of supply with BMS/combustion controls/valve trains/installation/commissioning'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     }
   ],
   "vendors": [

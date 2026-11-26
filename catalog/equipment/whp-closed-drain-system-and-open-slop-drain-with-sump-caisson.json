@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Drainage is part of platform utility scope alongside lifting, evacuation, power and environmental control. No primary page describing closed drain, open/slop drain and sump caisson design for a WHP was read in this sweep; the HILIR tech library has an equipment record ('Platform utilities: cranes, lifeboats, power generation, HVAC and drainage') whose cited pages were about crane vessels and a Gulf of Suez jacket case study, not drain design. Recorded as a gap rather than an estimate.",
+  "description": "Drainage is part of platform utility scope alongside lifting, evacuation, power and environmental control. No primary page describing closed drain, open/slop drain and sump caisson design for a WHP was read in this sweep; the HILIR tech library has an equipment record ('Platform utilities: cranes, lifeboats, power generation, HVAC and drainage') whose cited pages were about crane vessels and a Gulf of Suez jacket case study, not drain design. Recorded as a gap rather than an estimate. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
   "aliases": [
     "Closed drain system and open/slop drain with sump caisson"
   ],
@@ -25,7 +25,8 @@
         "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
         "note": "Mistral chat, Wellhead platform components overview (read 2026-11-24)"
       },
-      "unit": "n/a"
+      "unit": "n/a",
+      "source_url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
     }
   ],
   "vendor_models": [],

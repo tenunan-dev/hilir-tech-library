@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Bags produced by Sumisho Kyowa; used at EDF Teesside.",
+  "description": "Vendor product line read 2026-11-24. Bags produced by Sumisho Kyowa; used at EDF Teesside. Primary source: https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
   "specifications": [
     {
       "metric": "design life in saline water",
@@ -16,7 +16,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "recycled content",
@@ -26,7 +27,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": 61
+      "value": 61,
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Recycled content",
@@ -36,7 +38,8 @@
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/",
         "source_id": "catpar-r-jina-ai-3c6a62c"
       },
-      "value": 61
+      "value": 61,
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Lifetime in saline water",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Deployment",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": "one point lifting ring for fast and accurate deployment"
+      "value": "one point lifting ring for fast and accurate deployment",
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Bag material",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": "polyester filter bag filled with stones"
+      "value": "polyester filter bag filled with stones",
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Manufacturer of bags",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": "Japanese Sumisho Kyowa Limited"
+      "value": "Japanese Sumisho Kyowa Limited",
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Project reference",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": "used by MSS Engineering at the EDF Teesside Offshore Wind Farm"
+      "value": "used by MSS Engineering at the EDF Teesside Offshore Wind Farm",
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Failure behaviour",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": "spilled rocks provide almost same protection as rock dumping, but rocks smaller and more easily moved"
+      "value": "spilled rocks provide almost same protection as rock dumping, but rocks smaller and more easily moved",
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     }
   ],
   "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",

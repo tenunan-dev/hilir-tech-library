@@ -6,7 +6,7 @@
   "sector_codes": [
     "ELE"
   ],
-  "description": "XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 (LV/MV) and IEC 60840/62067 (HV/EHV).",
+  "description": "XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 (LV/MV) and IEC 60840/62067 (HV/EHV). Primary source: https://www.tnb.com.my/",
   "subtypes": [
     {
       "name": "LV XLPE/PVC cables (0.6/1 kV)"
@@ -36,7 +36,8 @@
       "source": {
         "url": "https://www.tnb.com.my/",
         "note": "TNB voltage tiers, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.tnb.com.my/"
     },
     {
       "metric": "indicative cost, 19/33 kV 3-core Cu XLPE/SWA/PVC 95 mm2",
@@ -48,7 +49,8 @@
       "source": {
         "url": "https://www.shengecable.com/",
         "note": "Sheng Cable 2026 medium-voltage price guide cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.shengecable.com/"
     },
     {
       "metric": "indicative cost, 6.35/11 kV 3-core Cu XLPE/SWA/PVC 185 mm2",
@@ -60,7 +62,8 @@
       "source": {
         "url": "https://www.shengecable.com/",
         "note": "Sheng Cable 2026 MV price guide cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.shengecable.com/"
     },
     {
       "metric": "indicative cost, 11 kV and 33 kV underground cable per km (tender-derived)",
@@ -72,7 +75,8 @@
       "source": {
         "url": "https://www.tstransco.in/",
         "note": "state discom cost data cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.tstransco.in/"
     }
   ],
   "vendor_models": [

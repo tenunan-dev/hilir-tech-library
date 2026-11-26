@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Carry hydraulic power, electrical power, signals and chemicals between the surface control system and subsea/downhole devices.",
+  "description": "Carry hydraulic power, electrical power, signals and chemicals between the surface control system and subsea/downhole devices. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems",
   "specifications": [
     {
       "metric": "OneSubsea umbilical product lines",
@@ -19,7 +19,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems",
         "source_id": "onesubsea-slb-com-subsea-field-development-subsea-umbilical-system"
       },
-      "value": "steeltube umbilicals, power umbilicals and cables, integrated production umbilicals, direct electrical heating systems"
+      "value": "steeltube umbilicals, power umbilicals and cables, integrated production umbilicals, direct electrical heating systems",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems"
     }
   ],
   "vendors": [

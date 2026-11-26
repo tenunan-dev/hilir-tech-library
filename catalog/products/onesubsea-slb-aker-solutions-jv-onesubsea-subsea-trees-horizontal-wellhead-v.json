@@ -6,7 +6,7 @@
   "equipment": [
     "wh-christmas-tree-surface-and-subsea"
   ],
-  "description": "Vendor product line read 2026-11-24. fetched",
+  "description": "Vendor product line read 2026-11-24. fetched Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
   "specifications": [
     {
       "metric": "Temperature range",
@@ -17,7 +17,8 @@
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "low": -18,
-      "high": 176
+      "high": 176,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Pressure",
@@ -27,7 +28,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Production bore",
@@ -37,7 +39,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Subsea trees - temperature range",
@@ -47,7 +50,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
       "low": -18,
-      "high": 176
+      "high": 176,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Subsea trees - pressure rating",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Subsea trees - offered configurations",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
-      "value": "Horizontal, wellhead vertical, and tubing head spool vertical trees"
+      "value": "Horizontal, wellhead vertical, and tubing head spool vertical trees",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Subsea trees - wellhead vertical production bore",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",

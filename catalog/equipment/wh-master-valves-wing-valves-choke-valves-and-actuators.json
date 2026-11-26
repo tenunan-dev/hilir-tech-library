@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Provide well isolation, flow routing, flow control and remote/fail-safe actuation on trees and manifolds.",
+  "description": "Provide well isolation, flow routing, flow control and remote/fail-safe actuation on trees and manifolds. Primary source: https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
   "specifications": [
     {
       "metric": "master valve operating practice",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
-      "value": "normally fully open; never opened or closed while well is flowing except in emergency, to prevent erosion of sealing surfaces"
+      "value": "normally fully open; never opened or closed while well is flowing except in emergency, to prevent erosion of sealing surfaces",
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     },
     {
       "metric": "lower master valve operation",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
-      "value": "manually operated; upper master valve often hydraulically actuated for remote shut-in"
+      "value": "manually operated; upper master valve often hydraulically actuated for remote shut-in",
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     },
     {
       "metric": "actuated wing valve",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
-      "value": "normally used to shut in the well when flowing; built fail-safe closed"
+      "value": "normally used to shut in the well when flowing; built fail-safe closed",
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     }
   ],
   "vendors": [

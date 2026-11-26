@@ -6,7 +6,7 @@
   "equipment": [
     "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
   ],
-  "description": "Page states fully compliant with API, area protection requirements and site specifications; low vibration and pulsation-free operation suited to elevated structures.",
+  "description": "Page states fully compliant with API, area protection requirements and site specifications; low vibration and pulsation-free operation suited to elevated structures. Primary source: https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
   "specifications": [
     {
       "metric": "Discharge pressure",
@@ -16,7 +16,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Capacity flow",
@@ -27,7 +28,8 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "low": 10,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Variable speed",
@@ -38,7 +40,8 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "low": 1000,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "discharge_pressure",
@@ -47,7 +50,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "high": 350
+      "high": 350,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "capacity_flow",
@@ -57,7 +61,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
       "low": 10,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "speed_range",
@@ -67,7 +72,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
       "low": 1000,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "characteristics",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Low vibration, pulsation-free operation; high tolerance of gases containing liquid or solid particulates; minimal maintenance"
+      "value": "Low vibration, pulsation-free operation; high tolerance of gases containing liquid or solid particulates; minimal maintenance",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",

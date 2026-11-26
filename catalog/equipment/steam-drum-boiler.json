@@ -2,7 +2,7 @@
   "id": "steam-drum-boiler",
   "name": "Boiler steam drum and mud drum",
   "equipment_type": "pressure-part",
-  "description": "In drum-type water-tube boilers the upper steam drum is the point of steam/water separation and feedwater introduction, while the lower mud drum collects sediment; downcomers carry cooler dense water to the lower drum and risers return the heated mixture. Drum temperature stratification during cycling drives humping and connection stress, so drum design and circulation are central to load-change capability.",
+  "description": "In drum-type water-tube boilers the upper steam drum is the point of steam/water separation and feedwater introduction, while the lower mud drum collects sediment; downcomers carry cooler dense water to the lower drum and risers return the heated mixture. Drum temperature stratification during cycling drives humping and connection stress, so drum design and circulation are central to load-change capability. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
   "specifications": [
     {
       "metric": "drum-type boiler pressure capability",
@@ -12,7 +12,8 @@
         "source_id": "spirax-water-tube-boilers"
       },
       "unit": "bar",
-      "value": 160
+      "value": 160,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB"
     },
     {
       "metric": "cycling drum temperature effect",
@@ -22,7 +23,8 @@
         "source_id": "bw-boiler-cycling"
       },
       "unit": "qualitative",
-      "value": "drum humping and connection stress"
+      "value": "drum humping and connection stress",
+      "source_url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations"
     },
     {
       "metric": "outlet-header thermal shock exposure",
@@ -33,7 +35,8 @@
       },
       "unit": "degF",
       "low": 100,
-      "high": 400
+      "high": 400,
+      "source_url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations"
     },
     {
       "metric": "Drum arrangement",
@@ -43,7 +46,8 @@
         "source_id": "cleaverbrooks-com-product-modular-hrsg"
       },
       "unit": "design feature",
-      "value": "Large separate steam drums with high efficiency drum internals"
+      "value": "Large separate steam drums with high efficiency drum internals",
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Circulation",
@@ -53,7 +57,8 @@
         "source_id": "cleaverbrooks-com-product-modular-hrsg"
       },
       "unit": "design feature",
-      "value": "Vertical tube natural circulation; hydraulically matched downcomers and risers"
+      "value": "Vertical tube natural circulation; hydraulically matched downcomers and risers",
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Drum design",
@@ -63,7 +68,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "design feature",
-      "value": "Large steam drums to assure ample steaming area; downcomers on both ends of boiler"
+      "value": "Large steam drums to assure ample steaming area; downcomers on both ends of boiler",
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Gas flow",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1000000
+      "value": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam generation",
@@ -82,7 +89,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 10000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Design pressure",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam temperature",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Duct firing temperature",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "NOx with SCR",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Gas turbine size range",
@@ -128,7 +140,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 3,
-      "high": 25
+      "high": 25,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Thermal efficiency",
@@ -137,7 +150,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Fuel reduction",
@@ -146,7 +160,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "CO2 emissions avoided",
@@ -155,7 +170,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2870
+      "value": 2870,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Models",
@@ -163,7 +179,8 @@
       "basis": "\"The MF (O-style) and MFA (A-style) models ... The VL (O-style) and VLA (A-style) models offer an evaporator section without a furnace\"",
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Gas turbine size",
@@ -173,7 +190,8 @@
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
       "low": 25,
-      "high": 60
+      "high": 60,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Turbine exhaust gas flow",
@@ -183,7 +201,8 @@
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
       "low": 500000,
-      "high": 1000000
+      "high": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Superheater outlet temperature",
@@ -192,7 +211,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "high": 1050
+      "high": 1050,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Stack emissions NOx",
@@ -201,7 +221,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "high": 2
+      "high": 2,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "HRSG efficiency",
@@ -210,7 +231,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "low": 80
+      "low": 80,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "CO2 elimination",
@@ -219,7 +241,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "high": 2870
+      "high": 2870,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Construction",
@@ -228,7 +251,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": "Vertical Tube with Steam Drum"
+      "value": "Vertical Tube with Steam Drum",
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     }
   ],
   "vendors": [

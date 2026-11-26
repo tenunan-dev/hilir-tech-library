@@ -6,7 +6,7 @@
   "equipment": [
     "ammonia-synthesis-converter"
   ],
-  "description": "Vendor product line read 2026-11-24. Reference: SAFCO IV, Al-Jubail, 2006. Magnetite-based catalysts co-developed with Johnson Matthey.",
+  "description": "Vendor product line read 2026-11-24. Reference: SAFCO IV, Al-Jubail, 2006. Magnetite-based catalysts co-developed with Johnson Matthey. Primary source: https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
   "specifications": [
     {
       "metric": "Capacity",
@@ -16,7 +16,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
-      "value": 3300
+      "value": 3300,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Basis for larger plants",
@@ -27,7 +28,8 @@
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
       "low": 4000,
-      "high": 5000
+      "high": 5000,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "LP once-through converter suction pressure",
@@ -37,7 +39,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "HP loop operating pressure",
@@ -47,7 +50,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
-      "high": 210
+      "high": 210,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Share of ammonia from once-through converter",
@@ -57,7 +61,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
-      "value": "about one third"
+      "value": "about one third",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Ammonia condensed from once-through effluent",
@@ -67,7 +72,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Plant capacity",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": 3300
+      "value": 3300,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Future plant capacities",
@@ -86,7 +93,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
       "low": 4000,
-      "high": 5000
+      "high": 5000,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "First plant",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": "SAFCO IV, Al-Jubail, Saudi-Arabien, in operation 2006"
+      "value": "SAFCO IV, Al-Jubail, Saudi-Arabien, in operation 2006",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "LP compressor suction pressure",
@@ -104,7 +113,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "HP synthesis loop pressure",
@@ -113,7 +123,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": 210
+      "value": 210,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Once-through converter share",
@@ -122,7 +133,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": "about one third of total ammonia output"
+      "value": "about one third of total ammonia output",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Ammonia condensed after once-through",
@@ -131,7 +143,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Once-through converter catalyst beds",
@@ -140,7 +153,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "HP loop share",
@@ -149,7 +163,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": "remaining two thirds of total ammonia"
+      "value": "remaining two thirds of total ammonia",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Compressor size comparison",
@@ -158,7 +173,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": "same size as conventional plant for 2,200 tonnes/day"
+      "value": "same size as conventional plant for 2,200 tonnes/day",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Catalyst",
@@ -167,7 +183,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": "proven magnetite-based catalysts in all phases"
+      "value": "proven magnetite-based catalysts in all phases",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     }
   ],
   "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",

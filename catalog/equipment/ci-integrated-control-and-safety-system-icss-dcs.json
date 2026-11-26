@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Integrated process control and safety platform for offshore and onshore plants; unifies control, safety, monitoring and enterprise data.",
+  "description": "Integrated process control and safety platform for offshore and onshore plants; unifies control, safety, monitoring and enterprise data. Primary source: https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
   "specifications": [
     {
       "metric": "Honeywell installed base - refineries",
@@ -19,7 +19,8 @@
         "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
         "source_id": "sys-honeywellprocess-com-default-aspx"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx"
     },
     {
       "metric": "Honeywell installed base - ammonia",
@@ -29,7 +30,8 @@
         "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
         "source_id": "sys-honeywellprocess-com-default-aspx"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx"
     },
     {
       "metric": "Honeywell O&G processing plants",
@@ -39,7 +41,8 @@
         "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
         "source_id": "sys-honeywellprocess-com-default-aspx"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx"
     },
     {
       "metric": "Honeywell LNG liquefaction trains",
@@ -49,7 +52,8 @@
         "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
         "source_id": "sys-honeywellprocess-com-default-aspx"
       },
-      "value": 86
+      "value": 86,
+      "source_url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx"
     },
     {
       "metric": "Honeywell LNG carriers/FSRU",
@@ -59,7 +63,8 @@
         "url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx",
         "source_id": "sys-honeywellprocess-com-default-aspx"
       },
-      "value": 221
+      "value": 221,
+      "source_url": "https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx"
     },
     {
       "metric": "Siemens PCS 7 version / cybersecurity",
@@ -69,7 +74,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
-      "value": "V10.0; NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance"
+      "value": "V10.0; NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Siemens MTP startup improvement",
@@ -79,7 +85,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Siemens high-availability I/O",
@@ -89,7 +96,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
-      "value": "SIMATIC ET 200SP HA compact robust remote I/O designed for high availability"
+      "value": "SIMATIC ET 200SP HA compact robust remote I/O designed for high availability",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Siemens installed base",
@@ -99,7 +107,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
-      "value": "in use in thousands of installations worldwide"
+      "value": "in use in thousands of installations worldwide",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     }
   ],
   "vendors": [

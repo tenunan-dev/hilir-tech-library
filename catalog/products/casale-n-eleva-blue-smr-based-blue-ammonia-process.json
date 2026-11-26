@@ -6,7 +6,7 @@
   "equipment": [
     "steam-reformer"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://casale.ch/technologies/ammonia/",
   "specifications": [
     {
       "metric": "NOx",
@@ -16,7 +16,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "CO2 emissions",
@@ -27,7 +28,8 @@
         "source_id": "casale-ch-ammonia"
       },
       "low": 0.1,
-      "high": 0.15
+      "high": 0.15,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Energy consumption",
@@ -37,7 +39,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 7.9
+      "value": 7.9,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "NOx emissions",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "CO2 emissions",
@@ -56,7 +60,8 @@
         "url": "https://casale.ch/technologies/ammonia/"
       },
       "low": 0.1,
-      "high": 0.15
+      "high": 0.15,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Energy consumption",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": 7.9
+      "value": 7.9,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Process basis",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": "steam-methane reforming (SMR) of natural gas"
+      "value": "steam-methane reforming (SMR) of natural gas",
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Blue configuration energy consumption (other entry on same page)",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": 7.9
+      "value": 7.9,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Grey configuration energy consumption (other entry on same page)",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": 6.5
+      "value": 6.5,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     }
   ],
   "url": "https://casale.ch/technologies/ammonia/",

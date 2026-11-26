@@ -6,7 +6,7 @@
   "equipment": [
     "urea-fluid-bed-granulator"
   ],
-  "description": "Vendor product line read 2026-11-24. Qualitative.",
+  "description": "Vendor product line read 2026-11-24. Qualitative. Primary source: https://ureaknowhow.com/fluid-bed-granulation-optimization/",
   "specifications": [
     {
       "metric": "service scope",
@@ -16,7 +16,8 @@
         "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
         "source_id": "ureaknowhow-com-fluid-bed-granulation-optimization"
       },
-      "value": "training, desk studies, online Q&A, site visits, troubleshooting, revamp proposals, dynamic simulator"
+      "value": "training, desk studies, online Q&A, site visits, troubleshooting, revamp proposals, dynamic simulator",
+      "source_url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
     },
     {
       "metric": "Services",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
       },
-      "value": "Training Programs Sessions; Desk Studies; Online Q&A Sessions; Site Visits; Troubleshooting and Optimization Suggestions; Revamp Proposals; Dynamic Simulator; Fluid Bed Granulation Pilot Plant"
+      "value": "Training Programs Sessions; Desk Studies; Online Q&A Sessions; Site Visits; Troubleshooting and Optimization Suggestions; Revamp Proposals; Dynamic Simulator; Fluid Bed Granulation Pilot Plant",
+      "source_url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
     },
     {
       "metric": "Solved issues",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
       },
-      "value": "Increase of on-stream times; lower wet recycle (less dust formation in granulator); granulator sprayer issues; reduction of moisture content in final product; proper settings of the crusher; optimum g"
+      "value": "Increase of on-stream times; lower wet recycle (less dust formation in granulator); granulator sprayer issues; reduction of moisture content in final product; proper settings of the crusher; optimum g",
+      "source_url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
     },
     {
       "metric": "Company location",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
       },
-      "value": "Maastricht, The Netherlands"
+      "value": "Maastricht, The Netherlands",
+      "source_url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
     }
   ],
   "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",

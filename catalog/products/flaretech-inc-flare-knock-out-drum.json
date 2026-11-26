@@ -6,7 +6,7 @@
   "equipment": [
     "tp-flare-and-vent-system-flare-stack-boom-flare-tips-ko-drums-gas"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.flaretechinc.com/products/flare-knockout-drums",
   "specifications": [
     {
       "metric": "size range",
@@ -16,7 +16,8 @@
         "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
         "source_id": "flaretechinc-com-products-flare-knockout-drums"
       },
-      "value": "2-600 BBL"
+      "value": "2-600 BBL",
+      "source_url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     },
     {
       "metric": "volume_range",
@@ -26,7 +27,8 @@
         "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
       },
       "low": 2,
-      "high": 600
+      "high": 600,
+      "source_url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     },
     {
       "metric": "configuration_options",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
       },
-      "value": "fully enclosed heated buildings, partially enclosed heated buildings, heated enclosures between the saddles, or heat traced and insulated"
+      "value": "fully enclosed heated buildings, partially enclosed heated buildings, heated enclosures between the saddles, or heat traced and insulated",
+      "source_url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     },
     {
       "metric": "quality_certification",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
       },
-      "value": "ISO 9001:2008"
+      "value": "ISO 9001:2008",
+      "source_url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     }
   ],
   "url": "https://www.flaretechinc.com/products/flare-knockout-drums",

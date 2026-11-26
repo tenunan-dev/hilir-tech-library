@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. No pressure/bore ratings published on the page.",
+  "description": "Vendor product line read 2026-11-24. No pressure/bore ratings published on the page. Primary source: https://www.bakerhughes.com/completions/gas-lift-systems",
   "specifications": [
     {
       "metric": "Retrieval options",
@@ -16,7 +16,8 @@
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems",
         "source_id": "sys-bakerhughes-com-gas-lift-systems"
       },
-      "value": "wireline retrievable, tubing retrievable, special application products"
+      "value": "wireline retrievable, tubing retrievable, special application products",
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems"
     }
   ],
   "url": "https://www.bakerhughes.com/completions/gas-lift-systems",

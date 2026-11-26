@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "CCTV system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "CCTV system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
   "aliases": [
     "CCTV system"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
         "source_id": "geg-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
-      }
+      },
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Axis F101-A XF P1367 explosion-protect — frame rate",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
         "source_id": "geg-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
-      }
+      },
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Axis F101-A XF P1367 explosion-protect — hazardous location certification",
@@ -48,7 +50,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
         "source_id": "geg-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
-      }
+      },
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Axis F101-A XF P1367 explosion-protect — minimum illumination",
@@ -57,7 +60,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
         "source_id": "geg-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
-      }
+      },
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Axis F101-A XF P1367 explosion-protect — network video standards",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
         "source_id": "geg-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
-      }
+      },
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Axis F101-A XF P1367 explosion-protect — operating temperature in hazardous zone",
@@ -77,7 +82,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf",
         "source_id": "geg-axis-com-datasheet-f101-a-xf-p1367-explosion-fbe4136"
-      }
+      },
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Siemens RUGGEDCOM RST2228P PoE switch  — use case shown in manufacturer brochure",
@@ -87,7 +93,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
-      }
+      },
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "Camera - image sensor",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": "1/2.9\" progressive scan RGB CMOS"
+      "value": "1/2.9\" progressive scan RGB CMOS",
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - lens",
@@ -105,7 +113,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": "IR corrected i-CS lens, varifocal 2.8-8.5 mm, F1.2; horizontal FOV 104-36 deg, vertical 55-20 deg"
+      "value": "IR corrected i-CS lens, varifocal 2.8-8.5 mm, F1.2; horizontal FOV 104-36 deg, vertical 55-20 deg",
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - minimum illumination",
@@ -114,7 +123,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": "Color 0.15 lux; B/W 0.03 lux at 50 IRE, F1.2"
+      "value": "Color 0.15 lux; B/W 0.03 lux at 50 IRE, F1.2",
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - resolution",
@@ -123,7 +133,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": "3072x1728 (5 MP) to 160x90"
+      "value": "3072x1728 (5 MP) to 160x90",
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - frame rate",
@@ -132,7 +143,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": "25/30 fps (50/60 Hz) in all resolutions"
+      "value": "25/30 fps (50/60 Hz) in all resolutions",
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - WDR forensic capture",
@@ -141,7 +153,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": 120
+      "value": 120,
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - SoC",
@@ -150,7 +163,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": "ARTPEC-6; 1 GB RAM, 512 MB Flash"
+      "value": "ARTPEC-6; 1 GB RAM, 512 MB Flash",
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - power",
@@ -159,7 +173,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": "PoE IEEE 802.3af/802.3at Type 1 Class 3, typical 5.0 W, max 9.1 W; heater 12-30 V AC/DC, 26 W"
+      "value": "PoE IEEE 802.3af/802.3at Type 1 Class 3, typical 5.0 W, max 9.1 W; heater 12-30 V AC/DC, 26 W",
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - operating temperature (Zone system)",
@@ -169,7 +184,8 @@
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
       "low": -50,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - operating temperature (Class/Division system)",
@@ -179,7 +195,8 @@
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
       "low": -40,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - ingress protection / enclosure",
@@ -188,7 +205,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": "IP66-rated powder-coated aluminum chassis; ANSI/NEMA 250 4X"
+      "value": "IP66-rated powder-coated aluminum chassis; ANSI/NEMA 250 4X",
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - hazardous location certification",
@@ -197,7 +215,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": "Class I/II/III, Division 1 and Zone 1 certified; FM Class 3600:2018, 3615:2018, 3616:2011; IEC/EN 60079-0/-1/-31"
+      "value": "Class I/II/III, Division 1 and Zone 1 certified; FM Class 3600:2018, 3615:2018, 3616:2011; IEC/EN 60079-0/-1/-31",
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "Camera - storage",
@@ -206,7 +225,8 @@
       "source": {
         "url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
       },
-      "value": "Pre-installed AXIS Surveillance microSDXC 128 GB"
+      "value": "Pre-installed AXIS Surveillance microSDXC 128 GB",
+      "source_url": "https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf"
     },
     {
       "metric": "RST2228P - switch type",
@@ -215,7 +235,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "High port density field modular Power-over-Ethernet (PoE) enabled 19-inch Layer 2 rack switch"
+      "value": "High port density field modular Power-over-Ethernet (PoE) enabled 19-inch Layer 2 rack switch",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RST2228P - uplinks",
@@ -224,7 +245,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "10 Gbit/s uplinks; support for IEEE 1588"
+      "value": "10 Gbit/s uplinks; support for IEEE 1588",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RST2228P - module slots",
@@ -233,7 +255,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "6 slots for various media modules"
+      "value": "6 slots for various media modules",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RUGGEDCOM - operating temperature",
@@ -243,7 +266,8 @@
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
       "low": -40,
-      "high": 85
+      "high": 85,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RUGGEDCOM - universal high-voltage supply",
@@ -252,7 +276,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "88-300 VDC or 85-264 VAC"
+      "value": "88-300 VDC or 85-264 VAC",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RUGGEDCOM - low-voltage supply options",
@@ -261,7 +286,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "12 VDC, 24 VDC or 48 VDC"
+      "value": "12 VDC, 24 VDC or 48 VDC",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RUGGEDCOM - standards compliance",
@@ -270,7 +296,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "IEC 61850-3, IEEE 1613 Class 2 (error-free), NEMA TS 2; CSA/UL 60950 approved to +85 degC"
+      "value": "IEC 61850-3, IEEE 1613 Class 2 (error-free), NEMA TS 2; CSA/UL 60950 approved to +85 degC",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RST2228P - CCTV use case",
@@ -279,7 +306,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "Fully redundant communication network suitable for oil & gas applications; connects PoE cameras, IP phones and other devices"
+      "value": "Fully redundant communication network suitable for oil & gas applications; connects PoE cameras, IP phones and other devices",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     }
   ],
   "vendor_models": [

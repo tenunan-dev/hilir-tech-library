@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Bottom-founded tubular space frame that transfers topsides, wind, wave, current and seismic loads into piled foundations; supports conductors and risers.",
+  "description": "Bottom-founded tubular space frame that transfers topsides, wind, wave, current and seismic loads into piled foundations; supports conductors and risers. Primary source: https://vantrisenergy.com/services/engineering-construction/track-record",
   "specifications": [
     {
       "metric": "8-legged jacket substructure net weight, Kebabangan (Malaysia)",
@@ -19,7 +19,8 @@
         "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
         "source_id": "vantrisenergy-com-engineering-construction-track-record"
       },
-      "value": 13393
+      "value": 13393,
+      "source_url": "https://vantrisenergy.com/services/engineering-construction/track-record"
     },
     {
       "metric": "jacket with piles and appurtenances, Tapis R (Malaysia)",
@@ -29,7 +30,8 @@
         "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
         "source_id": "vantrisenergy-com-engineering-construction-track-record"
       },
-      "value": 5475
+      "value": 5475,
+      "source_url": "https://vantrisenergy.com/services/engineering-construction/track-record"
     },
     {
       "metric": "6-legged jacket fabrication weight, Deen Dayal West (India)",
@@ -39,7 +41,8 @@
         "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
         "source_id": "vantrisenergy-com-engineering-construction-track-record"
       },
-      "value": 4530
+      "value": 4530,
+      "source_url": "https://vantrisenergy.com/services/engineering-construction/track-record"
     },
     {
       "metric": "NASR field jacket net installed weight",
@@ -50,7 +53,8 @@
         "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
       },
       "low": 2270,
-      "high": 3070
+      "high": 3070,
+      "source_url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate"
     }
   ],
   "vendors": [

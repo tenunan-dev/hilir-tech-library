@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "The above-water steel structure, consisting of one or more decks, that holds all facilities for exploration/production and human activity; it is designed and fabricated separately from the substructure and integrated inshore or offshore. Its three common design elements are: hold all equipment needed for operations, provide a safe and sustainable healthy living environment, and optimise dimensions and weight.",
+  "description": "The above-water steel structure, consisting of one or more decks, that holds all facilities for exploration/production and human activity; it is designed and fabricated separately from the substructure and integrated inshore or offshore. Its three common design elements are: hold all equipment needed for operations, provide a safe and sustainable healthy living environment, and optimise dimensions and weight. Primary source: https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
   "specifications": [
     {
       "metric": "definition",
@@ -19,7 +19,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": "steel structure consisting of more than one deck holding facilities for exploration/production and human activities"
+      "value": "steel structure consisting of more than one deck holding facilities for exploration/production and human activities",
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "inter-deck vertical distance",
@@ -30,7 +31,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
       "low": 6,
-      "high": 9
+      "high": 9,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "cellar deck air gap above design wave crest",
@@ -40,7 +42,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": 1.5
+      "value": 1.5,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "heavy deck threshold requiring MSF",
@@ -50,7 +53,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "weight prognosis uncertainty surcharge",
@@ -60,7 +64,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "high": 30
+      "high": 30,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "main deck live load",
@@ -70,7 +75,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "concentrated deck live load",
@@ -81,7 +87,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
       "low": 10,
-      "high": 25
+      "high": 25,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "floor plate thickness",
@@ -92,7 +99,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
       "low": 6,
-      "high": 10
+      "high": 10,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "stringer centres",
@@ -103,7 +111,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
       "low": 1000,
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "jacket transverse column spacing",
@@ -114,7 +123,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
       "low": 9,
-      "high": 15
+      "high": 15,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "deck beam section",
@@ -124,7 +134,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": "HE 800-1000 (or HL 1000 400 mm wide / HX 1000 450 mm wide)"
+      "value": "HE 800-1000 (or HL 1000 400 mm wide / HX 1000 450 mm wide)",
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     }
   ],
   "vendors": [

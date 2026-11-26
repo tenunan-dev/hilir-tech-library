@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "CO2 compression and purification (from ammonia plant)",
+  "description": "CO2 compression and purification (from ammonia plant) Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
   "specifications": [
     {
       "metric": "CO2 feed pressure for carbamate formation",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "urea synthesis pressure range (as printed)",
@@ -30,7 +31,8 @@
         "source_id": "en-wikipedia-org-w-index-php"
       },
       "low": 1.4,
-      "high": 1.75
+      "high": 1.75,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "synthesis temperature",
@@ -40,7 +42,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": 190
+      "value": 190,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "CO2 conversion in reactor (Split Flow Loop)",
@@ -50,7 +53,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": 62
+      "value": 62,
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "carbamate thermal conversion temperature/pressure",
@@ -61,7 +65,8 @@
         "source_id": "sensotech-com-en-urea-production"
       },
       "low": 130,
-      "high": 200
+      "high": 200,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     }
   ],
   "vendors": [

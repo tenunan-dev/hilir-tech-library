@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. Gas lift and CNG duty",
+  "description": "Vendor product line read 2026-11-24. Gas lift and CNG duty Primary source: https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
   "specifications": [
     {
       "metric": "Rated power (1/2 throw)",
@@ -17,7 +17,8 @@
         "source_id": "cat-arielcorp-com-jgn-jgq-html"
       },
       "low": 126,
-      "high": 280
+      "high": 280,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Max RPM",
@@ -28,7 +29,8 @@
         "source_id": "cat-arielcorp-com-jgn-jgq-html"
       },
       "low": 1500,
-      "high": 1800
+      "high": 1800,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Total rod load",
@@ -39,7 +41,8 @@
         "source_id": "cat-arielcorp-com-jgn-jgq-html"
       },
       "low": 18000,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Rated power, 1 throw JGN",
@@ -48,7 +51,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 126
+      "value": 126,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Rated power, 1 throw JGQ",
@@ -57,7 +61,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 140
+      "value": 140,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Stroke, 1 throw JGN / JGQ",
@@ -66,7 +71,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "3.5 / 3.0"
+      "value": "3.5 / 3.0",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Max RPM, 1 throw JGN / JGQ",
@@ -75,7 +81,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "1,500 / 1,800"
+      "value": "1,500 / 1,800",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Piston speed, 1 throw",
@@ -84,7 +91,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "875 / 900"
+      "value": "875 / 900",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Rod diameter, 1 throw",
@@ -93,7 +101,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1.125
+      "value": 1.125,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Total rod load, 1 throw",
@@ -102,7 +111,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "18,000 / 20,000"
+      "value": "18,000 / 20,000",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Tension load, 1 throw",
@@ -111,7 +121,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "9,000 / 10,000"
+      "value": "9,000 / 10,000",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Compression load, 1 throw",
@@ -120,7 +131,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "10,000 / 11,000"
+      "value": "10,000 / 11,000",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Average weight, 1 throw",
@@ -129,7 +141,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1400
+      "value": 1400,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Max length, 1 throw",
@@ -138,7 +151,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 37
+      "value": 37,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Nominal width, 1 throw",
@@ -147,7 +161,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 62
+      "value": 62,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Crankshaft centerline, 1 throw",
@@ -156,7 +171,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 9.25
+      "value": 9.25,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Rated power, 2 throw JGN / JGQ",
@@ -165,7 +181,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "252 / 280"
+      "value": "252 / 280",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Stroke, 2 throw JGN / JGQ",
@@ -174,7 +191,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "3.5 / 3.0"
+      "value": "3.5 / 3.0",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Max RPM, 2 throw JGN / JGQ",
@@ -183,7 +201,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "1,500 / 1,800"
+      "value": "1,500 / 1,800",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Total rod load, 2 throw",
@@ -192,7 +211,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "18,000 / 20,000"
+      "value": "18,000 / 20,000",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Average weight, 2 throw",
@@ -201,7 +221,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 2200
+      "value": 2200,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Max length, 2 throw",
@@ -210,7 +231,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 34
+      "value": 34,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Nominal width, 2 throw",
@@ -219,7 +241,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 83
+      "value": 83,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Frame horsepower range",
@@ -229,7 +252,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
       "low": 250,
-      "high": 280
+      "high": 280,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Materials - crankcase",
@@ -238,7 +262,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Gray Iron; forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing"
+      "value": "Gray Iron; forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Materials - crosshead",
@@ -247,7 +272,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Ductile Iron; alloy steel crosshead pin"
+      "value": "Ductile Iron; alloy steel crosshead pin",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Materials - connecting rod",
@@ -256,7 +282,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Forged Steel; bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts"
+      "value": "Forged Steel; bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Applications",
@@ -265,7 +292,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "field-gas; gas-lift; CNG vehicle-fueling; three-stage rental fleets"
+      "value": "field-gas; gas-lift; CNG vehicle-fueling; three-stage rental fleets",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     }
   ],
   "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",

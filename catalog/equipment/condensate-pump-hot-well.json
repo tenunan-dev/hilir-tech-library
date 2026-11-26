@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Collect and return hot condensate to the boiler/feedwater system. Where trap inlet pressure cannot overcome return-line backpressure (lift + friction + receiver pressure = TDH), use electric centrifugal/turbine pumps, non-electric steam/air-driven mechanical pumps (SPDs/pump-traps), or ejector-assisted low-NPSH condensate pumps (TLV; Spirax Sarco).",
+  "description": "Collect and return hot condensate to the boiler/feedwater system. Where trap inlet pressure cannot overcome return-line backpressure (lift + friction + receiver pressure = TDH), use electric centrifugal/turbine pumps, non-electric steam/air-driven mechanical pumps (SPDs/pump-traps), or ejector-assisted low-NPSH condensate pumps (TLV; Spirax Sarco). Primary source: https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery",
   "specifications": [
     {
       "metric": "cavitation onset, condensate temperature",
@@ -19,7 +19,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery",
         "source_id": "tlv-com-condensate-recovery-types-of-condensate-recovery"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery"
     },
     {
       "metric": "elevated collection tank filling head above pump NPSHR",
@@ -29,7 +30,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery",
         "source_id": "tlv-com-condensate-recovery-types-of-condensate-recovery"
       },
-      "value": "3-5"
+      "value": "3-5",
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery"
     },
     {
       "metric": "ejector-assisted condensate pump minimum NPSHA",
@@ -39,7 +41,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery",
         "source_id": "tlv-com-condensate-recovery-types-of-condensate-recovery"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery"
     },
     {
       "metric": "pump speed example affecting local pressure drop",
@@ -49,7 +52,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/problems/cavitation-in-condensate-pumps",
         "source_id": "tlv-com-problems-cavitation-in-condensate-pumps"
       },
-      "value": "1,750 vs 3,500"
+      "value": "1,750 vs 3,500",
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/problems/cavitation-in-condensate-pumps"
     },
     {
       "metric": "return-line backpressure components (TDH)",
@@ -59,7 +63,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery",
         "source_id": "tlv-com-condensate-recovery-types-of-condensate-recovery"
       },
-      "value": "lift + pipe friction + receiver static pressure"
+      "value": "lift + pipe friction + receiver static pressure",
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "tp-flare-and-vent-system-flare-stack-boom-flare-tips-ko-drums-gas"
   ],
-  "description": "Vendor product line read 2026-11-24. Internals used in scrubbers, 2-/3-phase separators, FWKO, flare KO drums, contactor towers, slug catchers (brochure search-verified).",
+  "description": "Vendor product line read 2026-11-24. Internals used in scrubbers, 2-/3-phase separators, FWKO, flare KO drums, contactor towers, slug catchers (brochure search-verified). Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals",
   "specifications": [
     {
       "metric": "PORTA-TEST REVOLUTION installations",
@@ -16,7 +16,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals",
         "source_id": "slb-com-gas-treatment-high-efficiency-phase-separation-internals"
       },
-      "value": ">500 worldwide"
+      "value": ">500 worldwide",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
     },
     {
       "metric": "high_pressure_operation",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
       },
-      "value": "improve separation effectiveness at very high operating pressures"
+      "value": "improve separation effectiveness at very high operating pressures",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
     },
     {
       "metric": "vessel_size_weight_reduction",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
       },
-      "value": "enable reductions in pressure vessel size and weight, and hence required floor space"
+      "value": "enable reductions in pressure vessel size and weight, and hence required floor space",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
     },
     {
       "metric": "function",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
       },
-      "value": "capture free liquid in the gas stream, minimizing loss of liquid hydrocarbons or glycols; retrofit existing vessels for increased capacity or better performance"
+      "value": "capture free liquid in the gas stream, minimizing loss of liquid hydrocarbons or glycols; retrofit existing vessels for increased capacity or better performance",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals",

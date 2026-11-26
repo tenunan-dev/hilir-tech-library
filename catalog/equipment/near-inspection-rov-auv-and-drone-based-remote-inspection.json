@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Close-up visual inspection, UT thickness measurement, corrosion mapping and CP verification in splash zone, tanks, risers and subsea structures without confined-space entry.",
+  "description": "Close-up visual inspection, UT thickness measurement, corrosion mapping and CP verification in splash zone, tanks, risers and subsea structures without confined-space entry. Primary source: https://www.flyability.com/blog/offshore-drone-inspections",
   "specifications": [
     {
       "metric": "inspection time: rope/boat vs drone",
@@ -20,7 +20,8 @@
         "source_id": "flyability-com-blog-offshore-drone-inspections"
       },
       "low": 2,
-      "high": 7
+      "high": 7,
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "crew footprint",
@@ -30,7 +31,8 @@
         "url": "https://www.flyability.com/blog/offshore-drone-inspections",
         "source_id": "flyability-com-blog-offshore-drone-inspections"
       },
-      "value": "4-6 technicians vs 2 operators on deck"
+      "value": "4-6 technicians vs 2 operators on deck",
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Saipem COT/WBT inspection speed",
@@ -40,7 +42,8 @@
         "url": "https://www.flyability.com/blog/offshore-drone-inspections",
         "source_id": "flyability-com-blog-offshore-drone-inspections"
       },
-      "value": "80-90% faster with zero human entry"
+      "value": "80-90% faster with zero human entry",
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "TotalEnergies FPSO hull digitalization cost reduction",
@@ -50,7 +53,8 @@
         "url": "https://www.flyability.com/blog/offshore-drone-inspections",
         "source_id": "flyability-com-blog-offshore-drone-inspections"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "BP confined-space hours saved",
@@ -60,7 +64,8 @@
         "url": "https://www.flyability.com/blog/offshore-drone-inspections",
         "source_id": "flyability-com-blog-offshore-drone-inspections"
       },
-      "value": ">1700"
+      "value": ">1700",
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "RIT acceptance",
@@ -70,7 +75,8 @@
         "url": "https://www.flyability.com/blog/offshore-drone-inspections",
         "source_id": "flyability-com-blog-offshore-drone-inspections"
       },
-      "value": "ABS, BV, LR, ClassNK, DNV, RINA rulebooks accept remote inspection techniques; IMO defines RIT as alternative means for close-up survey"
+      "value": "ABS, BV, LR, ClassNK, DNV, RINA rulebooks accept remote inspection techniques; IMO defines RIT as alternative means for close-up survey",
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     }
   ],
   "vendors": [

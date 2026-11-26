@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "HVAC for electrical equipment/MCC rooms maintains temperature, humidity and pressurisation, provides dilution ventilation and isolates on fire/gas detection. Sources read: IEEE Houston offshore electrical design seminar (USCG ambient and HVAC rules) and PDHonline M332 HVAC Design for Oil & Gas Facilities (ISO 15138/NORSOK H-001 basis).",
+  "description": "HVAC for electrical equipment/MCC rooms maintains temperature, humidity and pressurisation, provides dilution ventilation and isolates on fire/gas detection. Sources read: IEEE Houston offshore electrical design seminar (USCG ambient and HVAC rules) and PDHonline M332 HVAC Design for Oil & Gas Facilities (ISO 15138/NORSOK H-001 basis). Primary source: https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
   "aliases": [
     "HVAC for equipment/MCC rooms"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
         "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
-      }
+      },
+      "source_url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Rotating electrical equipment in machinery rooms/weather decks",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
         "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
-      }
+      },
+      "source_url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Cables and non-rotating electrical equipment in machinery rooms/weather decks",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
         "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
-      }
+      },
+      "source_url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Air-conditioned space design temperature",
@@ -55,7 +58,8 @@
       "source": {
         "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
         "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
-      }
+      },
+      "source_url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Control and instrumentation equipment ambient",
@@ -65,7 +69,8 @@
       "source": {
         "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
         "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
-      }
+      },
+      "source_url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Electrical substation maximum temperature",
@@ -75,7 +80,8 @@
       "source": {
         "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
         "source_id": "whp-pdhonline-com-m332content-pdf"
-      }
+      },
+      "source_url": "https://www.pdhonline.com/courses/m332/m332content.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Relative humidity target",
@@ -85,7 +91,8 @@
       "source": {
         "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
         "source_id": "whp-pdhonline-com-m332content-pdf"
-      }
+      },
+      "source_url": "https://www.pdhonline.com/courses/m332/m332content.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Hazardous/non-hazardous pressure differential",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
         "source_id": "whp-pdhonline-com-m332content-pdf"
-      }
+      },
+      "source_url": "https://www.pdhonline.com/courses/m332/m332content.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Process area mechanical ventilation rate",
@@ -106,7 +114,8 @@
       "source": {
         "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
         "source_id": "whp-pdhonline-com-m332content-pdf"
-      }
+      },
+      "source_url": "https://www.pdhonline.com/courses/m332/m332content.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Supply / return duct pressure drop",
@@ -117,7 +126,8 @@
       "source": {
         "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
         "source_id": "whp-pdhonline-com-m332content-pdf"
-      }
+      },
+      "source_url": "https://www.pdhonline.com/courses/m332/m332content.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Minimum outside air in manned areas",
@@ -127,7 +137,8 @@
       "source": {
         "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
         "source_id": "whp-pdhonline-com-m332content-pdf"
-      }
+      },
+      "source_url": "https://www.pdhonline.com/courses/m332/m332content.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — Minimum separation of air intake and extract outlet",
@@ -137,7 +148,8 @@
       "source": {
         "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
         "source_id": "whp-pdhonline-com-m332content-pdf"
-      }
+      },
+      "source_url": "https://www.pdhonline.com/courses/m332/m332content.pdf"
     },
     {
       "metric": "HVAC system for electrical/MCC rooms (DX — HVAC motor rating",
@@ -147,7 +159,8 @@
       "source": {
         "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
         "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
-      }
+      },
+      "source_url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf"
     },
     {
       "metric": "Battery room ventilation (UPS/battery ba — Hydrogen concentration limit",
@@ -157,7 +170,8 @@
       "source": {
         "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
         "source_id": "whp-pdhonline-com-m332content-pdf"
-      }
+      },
+      "source_url": "https://www.pdhonline.com/courses/m332/m332content.pdf"
     },
     {
       "metric": "Battery room ventilation (UPS/battery ba — Battery room air changes (if battery data unavailable)",
@@ -167,7 +181,8 @@
       "source": {
         "url": "https://www.pdhonline.com/courses/m332/m332content.pdf",
         "source_id": "whp-pdhonline-com-m332content-pdf"
-      }
+      },
+      "source_url": "https://www.pdhonline.com/courses/m332/m332content.pdf"
     },
     {
       "metric": "Battery room ventilation (UPS/battery ba — ABS large battery room ventilation",
@@ -177,7 +192,8 @@
       "source": {
         "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
         "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
-      }
+      },
+      "source_url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf"
     },
     {
       "metric": "Battery room ventilation (UPS/battery ba — Threshold for large battery room classification",
@@ -187,7 +203,8 @@
       "source": {
         "url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf",
         "source_id": "whp-r5-ieee-org-8-offshore-platform-design-apr-7-8-pdf"
-      }
+      },
+      "source_url": "https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf"
     }
   ],
   "vendor_models": [],

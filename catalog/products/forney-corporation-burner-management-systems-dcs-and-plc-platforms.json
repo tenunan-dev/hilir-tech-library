@@ -6,7 +6,7 @@
   "equipment": [
     "burner-management-safety-system"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched BMS page directly with WebFetch (markdown). Linked BMS brochure PDF not opened.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched BMS page directly with WebFetch (markdown). Linked BMS brochure PDF not opened. Primary source: https://www.forneycorp.com/burner-management-systems",
   "specifications": [
     {
       "metric": "Platform types",
@@ -16,7 +16,8 @@
         "source_id": "forneycorp-com-burner-management-systems"
       },
       "unit": "platform",
-      "value": "DCS (plant-wide Distributed Control System) and PLC"
+      "value": "DCS (plant-wide Distributed Control System) and PLC",
+      "source_url": "https://www.forneycorp.com/burner-management-systems"
     },
     {
       "metric": "Engineering scope",
@@ -26,7 +27,8 @@
         "source_id": "forneycorp-com-burner-management-systems"
       },
       "unit": "scope",
-      "value": "Forney designs and engineers BMS logic; physical programming at Forney or DCS supplier location; PLC programming and Factory Acceptance Test at Forney facility"
+      "value": "Forney designs and engineers BMS logic; physical programming at Forney or DCS supplier location; PLC programming and Factory Acceptance Test at Forney facility",
+      "source_url": "https://www.forneycorp.com/burner-management-systems"
     },
     {
       "metric": "Platform types",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.forneycorp.com/burner-management-systems"
       },
-      "value": "DCS Platform; PLC Platform"
+      "value": "DCS Platform; PLC Platform",
+      "source_url": "https://www.forneycorp.com/burner-management-systems"
     },
     {
       "metric": "DCS programming location",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.forneycorp.com/burner-management-systems"
       },
-      "value": "Forney or the DCS supplier's location"
+      "value": "Forney or the DCS supplier's location",
+      "source_url": "https://www.forneycorp.com/burner-management-systems"
     },
     {
       "metric": "PLC programming and FAT location",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.forneycorp.com/burner-management-systems"
       },
-      "value": "Forney facility"
+      "value": "Forney facility",
+      "source_url": "https://www.forneycorp.com/burner-management-systems"
     }
   ],
   "url": "https://www.forneycorp.com/burner-management-systems",

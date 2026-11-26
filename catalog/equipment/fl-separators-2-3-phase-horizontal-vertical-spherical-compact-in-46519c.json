@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection.",
+  "description": "Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
   "specifications": [
     {
       "metric": "Separation design objective",
@@ -19,7 +19,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
         "source_id": "sys-slb-com-processing-and-separation"
       },
-      "value": "separate and treat oil, water and gas using minimal chemicals and energy to reduce capex and opex"
+      "value": "separate and treat oil, water and gas using minimal chemicals and energy to reduce capex and opex",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "Produced-water oil recovery case result",
@@ -29,7 +30,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
         "source_id": "sys-slb-com-processing-and-separation"
       },
-      "value": 98
+      "value": 98,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "Subsea separation control",
@@ -39,7 +41,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
         "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
       },
-      "value": "all-electric control systems"
+      "value": "all-electric control systems",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection"
     },
     {
       "metric": "Working pressure rating",
@@ -50,7 +53,8 @@
         "source_id": "cat-slb-com-well-test-separators"
       },
       "low": "500",
-      "high": "2,000"
+      "high": "2,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Inlet diameter",
@@ -60,7 +64,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "84"
+      "value": "84",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Phase configurations",
@@ -70,7 +75,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "Two-, three-, or four-phase separator test units"
+      "value": "Two-, three-, or four-phase separator test units",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Vessel orientation",
@@ -80,7 +86,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "Horizontal or vertical"
+      "value": "Horizontal or vertical",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Service rating",
@@ -90,7 +97,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "Sweet or sour service rated"
+      "value": "Sweet or sour service rated",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Design code / sour service",
@@ -100,7 +108,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",
         "source_id": "cat-slb-com-3-phase-separator"
       },
-      "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments"
+      "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Working pressure rating",
@@ -111,7 +120,8 @@
         "source_id": "cat-slb-com-well-test-separators"
       },
       "low": "500",
-      "high": "2,000"
+      "high": "2,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Inlet diameter",
@@ -121,7 +131,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "84"
+      "value": "84",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Phase configurations",
@@ -131,7 +142,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "Two-, three-, or four-phase separator test units"
+      "value": "Two-, three-, or four-phase separator test units",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Vessel orientation",
@@ -141,7 +153,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "Horizontal or vertical"
+      "value": "Horizontal or vertical",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Service rating",
@@ -151,7 +164,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "Sweet or sour service rated"
+      "value": "Sweet or sour service rated",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Design code / sour service",
@@ -161,7 +175,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",
         "source_id": "cat-slb-com-3-phase-separator"
       },
-      "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments"
+      "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Service and mounting",
@@ -169,7 +184,8 @@
       "basis": "\"Skid-mounted or trailer-integrated designs\"; \"Sweet or sour service rated\"; \"On-skid piping and instrumentation\"; \"Dedicated measurement for gas, oil, and water\"; \"Electronic flowmeter (EFM) for accurate real-time reporting capability\"",
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Publication date",
@@ -177,7 +193,8 @@
       "basis": "SLB product detail page 'Published: 10/22/2022'",
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Vessel orientation / service",
@@ -185,7 +202,8 @@
       "basis": "SLB Cameron: 'Horizontal or vertical orientation of vessels'; 'Sweet or sour service rated'; 'Skid-mounted or trailer-integrated designs'",
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Separated streams / measurement",
@@ -193,7 +211,8 @@
       "basis": "SLB Cameron: 'separate oil, water, gas, and sometimes solids (sand) into individual streams for more accurate measurement and discharge control'; 'Dedicated measurement for gas, oil, and water'; 'Electronic flowmeter (EFM)'",
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Function",
@@ -202,7 +221,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "Separates well effluent into three phases—oil, gas, and water—for well testing"
+      "value": "Separates well effluent into three phases—oil, gas, and water—for well testing",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Vessel type",
@@ -211,7 +231,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "instrumented vessel"
+      "value": "instrumented vessel",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Development application",
@@ -220,7 +241,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "land fracturing flowback and well test operations"
+      "value": "land fracturing flowback and well test operations",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Design code",
@@ -229,7 +251,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "ASME Section VIII, Division 1"
+      "value": "ASME Section VIII, Division 1",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Sour service",
@@ -238,7 +261,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "NACE MR0175 for H2S environments"
+      "value": "NACE MR0175 for H2S environments",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Safety",
@@ -247,7 +271,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "Multiple pressure safety valves contain and direct flow to a designed safe area on overpressurization"
+      "value": "Multiple pressure safety valves contain and direct flow to a designed safe area on overpressurization",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Bypass valves",
@@ -256,7 +281,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "unique offering from M-I SWACO in a three-phase separator unit"
+      "value": "unique offering from M-I SWACO in a three-phase separator unit",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     }
   ],
   "vendors": [

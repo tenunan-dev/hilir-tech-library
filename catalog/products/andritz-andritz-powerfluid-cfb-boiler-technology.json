@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-gas-cfb"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Thermal power page directly with WebFetch (markdown). No numeric capacity printed on this page; dedicated EcoFluid/PowerFluid product pages not opened.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Thermal power page directly with WebFetch (markdown). No numeric capacity printed on this page; dedicated EcoFluid/PowerFluid product pages not opened. Primary source: https://www.andritz.com/thermal-power-en",
   "specifications": [
     {
       "metric": "CFB technology name",
@@ -16,7 +16,8 @@
         "source_id": "andritz-com-thermal-power-en"
       },
       "unit": "product/technology name",
-      "value": "PowerFluid"
+      "value": "PowerFluid",
+      "source_url": "https://www.andritz.com/thermal-power-en"
     },
     {
       "metric": "Emissions mechanism",
@@ -26,7 +27,8 @@
         "source_id": "andritz-com-thermal-power-en"
       },
       "unit": "qualitative",
-      "value": "Low emissions of CO, hydrocarbons and nitric oxides"
+      "value": "Low emissions of CO, hydrocarbons and nitric oxides",
+      "source_url": "https://www.andritz.com/thermal-power-en"
     },
     {
       "metric": "Fuel range",
@@ -36,7 +38,8 @@
         "source_id": "andritz-com-thermal-power-en"
       },
       "unit": "fuel options",
-      "value": "Biomass, demolition wood, RDF, SRF, peat, various sludges, waste"
+      "value": "Biomass, demolition wood, RDF, SRF, peat, various sludges, waste",
+      "source_url": "https://www.andritz.com/thermal-power-en"
     },
     {
       "metric": "Related BFB technology",
@@ -46,7 +49,8 @@
         "source_id": "andritz-com-thermal-power-en"
       },
       "unit": "product/technology name",
-      "value": "EcoFluid"
+      "value": "EcoFluid",
+      "source_url": "https://www.andritz.com/thermal-power-en"
     },
     {
       "metric": "Turbogenerator output rating range (ANDRITZ thermal power portfolio)",
@@ -56,7 +60,8 @@
         "url": "https://www.andritz.com/thermal-power-en"
       },
       "low": 10,
-      "high": 350
+      "high": 350,
+      "source_url": "https://www.andritz.com/thermal-power-en"
     },
     {
       "metric": "CFB fluidization / solids behaviour",
@@ -64,7 +69,8 @@
       "basis": "'With CFB technology, the flue gas velocity in the furnace is higher and the bed is expanded and entrained with the flow. The bed material flows with the flue gas through the furnace, after which the material is separated by cyclones and returned to the lower furnace.'",
       "source": {
         "url": "https://www.andritz.com/thermal-power-en"
-      }
+      },
+      "source_url": "https://www.andritz.com/thermal-power-en"
     },
     {
       "metric": "CFB combustion temperature characteristic",
@@ -72,7 +78,8 @@
       "basis": "'The efficient mixing and relatively low combustion temperatures contribute to low emissions of carbon monoxide, hydrocarbons, and nitric oxides.'",
       "source": {
         "url": "https://www.andritz.com/thermal-power-en"
-      }
+      },
+      "source_url": "https://www.andritz.com/thermal-power-en"
     },
     {
       "metric": "CFB fuel range",
@@ -80,7 +87,8 @@
       "basis": "'CFB technology also allows an extremely wide range of fuels to be fired in the same unit.'; BFB EcoFluid: 'a variety of clean biomass fuels (bark, agricultural, forestry, and sawmill residuals) ... demolition wood, refuse-derived fuels, peat, various sludges, etc.'",
       "source": {
         "url": "https://www.andritz.com/thermal-power-en"
-      }
+      },
+      "source_url": "https://www.andritz.com/thermal-power-en"
     }
   ],
   "url": "https://www.andritz.com/thermal-power-en",

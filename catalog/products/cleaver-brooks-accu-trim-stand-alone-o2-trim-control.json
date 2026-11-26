@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-controls-oxygen-trim"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). No numeric O2 setpoint printed.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). No numeric O2 setpoint printed. Primary source: https://cleaverbrooks.com/product/accu-trim",
   "specifications": [
     {
       "metric": "Control type",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-product-accu-trim"
       },
       "unit": "control type",
-      "value": "Stand-alone PLC-based oxygen trim control for steam or hot water boilers"
+      "value": "Stand-alone PLC-based oxygen trim control for steam or hot water boilers",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Trim modes",
@@ -26,7 +27,8 @@
         "source_id": "cleaverbrooks-com-product-accu-trim"
       },
       "unit": "modes",
-      "value": "Air trim or fuel trim; variable-speed drive option"
+      "value": "Air trim or fuel trim; variable-speed drive option",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Compensation",
@@ -36,7 +38,8 @@
         "source_id": "cleaverbrooks-com-product-accu-trim"
       },
       "unit": "compensated variables",
-      "value": "Temperature, barometric pressure, fuel characteristics and normal hysteresis"
+      "value": "Temperature, barometric pressure, fuel characteristics and normal hysteresis",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Sensors",
@@ -46,7 +49,8 @@
         "source_id": "cleaverbrooks-com-product-accu-trim"
       },
       "unit": "scope",
-      "value": "Oxygen and firing rate sensors; custom C-B O2 Probe or industrial O2 probes such as Yokogawa"
+      "value": "Oxygen and firing rate sensors; custom C-B O2 Probe or industrial O2 probes such as Yokogawa",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Fuel train compatibility",
@@ -56,7 +60,8 @@
         "source_id": "cleaverbrooks-com-product-accu-trim"
       },
       "unit": "compatibility",
-      "value": "Standard or compact fuel trains such as the Siemens valve assembly"
+      "value": "Standard or compact fuel trains such as the Siemens valve assembly",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Control type",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "stand-alone O2 trim control package, PLC-based"
+      "value": "stand-alone O2 trim control package, PLC-based",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Boiler applicability",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "Steam or hot water boiler control"
+      "value": "Steam or hot water boiler control",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Trim mode",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "Air or fuel trim"
+      "value": "Air or fuel trim",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Drive option",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "Variable-speed drive option"
+      "value": "Variable-speed drive option",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Fuel train compatibility",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "standard or compact fuel trains such as the Siemens valve assembly"
+      "value": "standard or compact fuel trains such as the Siemens valve assembly",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "O2 probe options",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "custom C-B O2 Probe and industrial O2 probes such as Yokogawa"
+      "value": "custom C-B O2 Probe and industrial O2 probes such as Yokogawa",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Compensation",
@@ -119,7 +130,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "changes in temperature, barometric pressure, or fuel characteristics; normal hysteresis"
+      "value": "changes in temperature, barometric pressure, or fuel characteristics; normal hysteresis",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Setup",
@@ -128,7 +140,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "user-friendly HMI"
+      "value": "user-friendly HMI",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Applications",
@@ -137,7 +150,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "Process Steam; Industrial Process; Building Heat; Sterilization; Humidification; Waste Heat Recovery; Hospital and Healthcare; Power and Utilities; Refineries and Petrochemical; Laundry and Dry Cleani"
+      "value": "Process Steam; Industrial Process; Building Heat; Sterilization; Humidification; Waste Heat Recovery; Hospital and Healthcare; Power and Utilities; Refineries and Petrochemical; Laundry and Dry Cleani",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     }
   ],
   "url": "https://cleaverbrooks.com/product/accu-trim",

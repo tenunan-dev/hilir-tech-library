@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Handle/upend piles and jacket legs, level and align before grouting, seal annulus, grip jacket piles and provide lifting/release tools.",
+  "description": "Handle/upend piles and jacket legs, level and align before grouting, seal annulus, grip jacket piles and provide lifting/release tools. Primary source: https://en.wikipedia.org/wiki/Saipem_7000",
   "specifications": [
     {
       "metric": "Saipem 7000 levelling systems",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
-      "value": "two internal systems, 66-72 in diameter, 900 t each; two external levelling systems, 1,000 t each"
+      "value": "two internal systems, 66-72 in diameter, 900 t each; two external levelling systems, 1,000 t each",
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Saipem 7000 pile slings",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
-      "value": "16 x 35 cm diameter x 60 m long cable-laid slings"
+      "value": "16 x 35 cm diameter x 60 m long cable-laid slings",
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Grout/seal product families",
@@ -39,7 +41,8 @@
         "url": "https://hitechelastomers.com/products/leg-mating-unit/",
         "source_id": "hitechelastomers-com-leg-mating-unit"
       },
-      "value": "Passive Grout Seal, Inflatable Grout Packer, Diaphragm Closure, Jacket Pile Gripper"
+      "value": "Passive Grout Seal, Inflatable Grout Packer, Diaphragm Closure, Jacket Pile Gripper",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "IQIP handling/lifting tools",
@@ -49,7 +52,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
         "source_id": "iqip-com-hydrohammer-s-series"
       },
-      "value": "Upending Frame, Pile Upending Tool, Flanged Jacket Lifting Tool, Hydraulic Release Shackle, Skidding System, Pile Guiding & Positioning Frame"
+      "value": "Upending Frame, Pile Upending Tool, Flanged Jacket Lifting Tool, Hydraulic Release Shackle, Skidding System, Pile Guiding & Positioning Frame",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
     }
   ],
   "vendors": [

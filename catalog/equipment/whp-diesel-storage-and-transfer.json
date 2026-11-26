@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Bulk marine gasoil is bunkered from shore/vessel to the installation, held in storage and day tanks, and transferred to emergency gensets, fire pumps and crane engines. The read guidance sets fuel quality, microbial and water limits, tank inspection and bunkering controls; JIP33 S-714/S-721 give day-tank and fuel-system design requirements.",
+  "description": "Bulk marine gasoil is bunkered from shore/vessel to the installation, held in storage and day tanks, and transferred to emergency gensets, fire pumps and crane engines. The read guidance sets fuel quality, microbial and water limits, tank inspection and bunkering controls; JIP33 S-714/S-721 give day-tank and fuel-system design requirements. Primary source: https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
   "aliases": [
     "Diesel storage and transfer (fuel for emergency gensets and cranes)"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf"
     },
     {
       "metric": "Marine gasoil (MGO) bulk storage and day — Minimum flash point",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf"
     },
     {
       "metric": "Marine gasoil (MGO) bulk storage and day — Pour point, summer / winter",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf"
     },
     {
       "metric": "Marine gasoil (MGO) bulk storage and day — Cold filter plugging point, summer / winter (BS 2869)",
@@ -57,7 +60,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf"
     },
     {
       "metric": "Marine gasoil (MGO) bulk storage and day — Maximum fuel retained onboard before testing",
@@ -67,7 +71,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf"
     },
     {
       "metric": "Marine gasoil (MGO) bulk storage and day — Day tank minimum operating level above fuel injection pump inlet",
@@ -77,7 +82,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Reliability — Water content - negligible / moderate / heavy",
@@ -88,7 +94,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf"
     },
     {
       "metric": "Reliability — Total viable count of culturable bacteria/yeasts/moulds",
@@ -99,7 +106,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-fuel-cargoes"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf"
     },
     {
       "metric": "Price — Diesel standby fuel infrastructure - day tank",
@@ -111,7 +119,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     },
     {
       "metric": "Price — Diesel standby fuel infrastructure - bulk storage tank",
@@ -123,7 +132,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     },
     {
       "metric": "Price — Fuel infrastructure for 500 kW / 72 h autonomy",
@@ -135,7 +145,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     },
     {
       "metric": "Price — Diesel fuel cost",
@@ -147,7 +158,8 @@
       "source": {
         "url": "https://zccpower.com/commercial-standby-generator-cost",
         "source_id": "whp-zccpower-com-commercial-standby-generator-cost"
-      }
+      },
+      "source_url": "https://zccpower.com/commercial-standby-generator-cost"
     }
   ],
   "vendor_models": [],

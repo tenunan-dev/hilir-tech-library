@@ -6,7 +6,7 @@
   "equipment": [
     "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
   ],
-  "description": "Page describes diaphragm compression as technology of choice where complete hermetic separation and high pressure sealing are required (rare, toxic, flammable, explosive or radioactive gases). Linked TFC90_180_Diaphragm_Compressors.pdf is a PDF and was NOT read; no pressure figures asserted from it.",
+  "description": "Page describes diaphragm compression as technology of choice where complete hermetic separation and high pressure sealing are required (rare, toxic, flammable, explosive or radioactive gases). Linked TFC90_180_Diaphragm_Compressors.pdf is a PDF and was NOT read; no pressure figures asserted from it. Primary source: https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
   "specifications": [
     {
       "metric": "Electrolyzer module sizing",
@@ -16,7 +16,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": "5 MW and 10 MW"
+      "value": "5 MW and 10 MW",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Process gas leakage",
@@ -26,7 +27,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 0
+      "value": 0,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "ambient_temperature",
@@ -37,7 +39,8 @@
         "source_id": "catpar-files-chartindustries-com-tfc90-180-diaphrag-a7faac8"
       },
       "low": -20,
-      "high": 40
+      "high": 40,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "hazardous_area",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": "ATEX II 3G Zone 2 IIC T2"
+      "value": "ATEX II 3G Zone 2 IIC T2",
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "suction_pressure_range",
@@ -56,7 +60,8 @@
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
       "low": 20,
-      "high": 35
+      "high": 35,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "max_discharge_pressure",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": 550
+      "value": 550,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "flow_capacity_TFC90",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "flow_capacity_TFC180",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": 180
+      "value": 180,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "turndown",
@@ -93,7 +101,8 @@
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "discharge_temperature",
@@ -103,7 +112,8 @@
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
       "low": 5,
-      "high": 40
+      "high": 40,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "suction_temperature",
@@ -113,7 +123,8 @@
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
       "low": 50,
-      "high": 60
+      "high": 60,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "absorbed_power_TFC90",
@@ -122,7 +133,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": 160
+      "value": 160,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "absorbed_power_TFC180",
@@ -131,7 +143,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": 295
+      "value": 295,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "power_supply_TFC90",
@@ -140,7 +153,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": "400V, 3ph, 50Hz"
+      "value": "400V, 3ph, 50Hz",
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "power_supply_TFC180",
@@ -149,7 +163,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": "690V, 3ph, 50Hz"
+      "value": "690V, 3ph, 50Hz",
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "MTBM",
@@ -158,7 +173,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": 8400
+      "value": 8400,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "availability",
@@ -167,7 +183,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": 97
+      "value": 97,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "standards_compliance",
@@ -176,7 +193,8 @@
       "source": {
         "url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
       },
-      "value": "CE Marked, Machinery Directive 2006/42/EU, EMC Directive 2014/30/EU, ATEX Directive 2014/34/EU, LVD Directive 2014/35/EU, PED Directive 2014/68/EU"
+      "value": "CE Marked, Machinery Directive 2006/42/EU, EMC Directive 2014/30/EU, ATEX Directive 2014/34/EU, LVD Directive 2014/35/EU, PED Directive 2014/68/EU",
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     },
     {
       "metric": "electrolyzer_module_design",
@@ -187,7 +205,8 @@
       },
       "value": "Designed for 5 MW and 10 MW electrolyzer modules",
       "low": 5,
-      "high": 10
+      "high": 10,
+      "source_url": "https://files.chartindustries.com/TFC90_180_Diaphragm_Compressors.pdf"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",

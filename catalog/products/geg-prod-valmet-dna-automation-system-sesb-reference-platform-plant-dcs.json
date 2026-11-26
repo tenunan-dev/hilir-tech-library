@@ -6,7 +6,7 @@
   "equipment": [
     "geg-plant-control-system"
   ],
-  "description": "plant DCS / control platform retrofit",
+  "description": "plant DCS / control platform retrofit Primary source: https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
   "specifications": [
     {
       "metric": "integrated control scope",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
         "source_id": "geg-valmet-com-65ff972"
-      }
+      },
+      "source_url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
     },
     {
       "metric": "Plant generating capacity (Patau-Patau)",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
       },
-      "value": 112
+      "value": 112,
+      "source_url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
     },
     {
       "metric": "Automation scope",
@@ -33,7 +35,8 @@
       "basis": "Valmet: 'integrates boiler, feedwater and turbine control into one Valmet DNA automation platform'; delivery 'includes a Valmet DNA automation system, an information management application, a turbine controller for an AEG Kanis steam turbine, integration of two existing GE F6 gas turbine controllers into Valmet DNA, engineering and commissioning'",
       "source": {
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
-      }
+      },
+      "source_url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
     },
     {
       "metric": "Startup date",
@@ -41,7 +44,8 @@
       "basis": "Valmet: 'The new automation system will be started up in July 2016.'",
       "source": {
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
-      }
+      },
+      "source_url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
     },
     {
       "metric": "Typical automation delivery order value",
@@ -51,7 +55,8 @@
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
       },
       "low": 1,
-      "high": 3
+      "high": 3,
+      "source_url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
     }
   ],
   "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",

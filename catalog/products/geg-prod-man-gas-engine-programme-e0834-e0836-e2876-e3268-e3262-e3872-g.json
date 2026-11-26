@@ -6,7 +6,7 @@
   "equipment": [
     "geg-gas-engine-generator-units"
   ],
-  "description": "gas engine for power generation (natural and special gas)",
+  "description": "gas engine for power generation (natural and special gas) Primary source: https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
   "specifications": [
     {
       "metric": "Natural gas engine power range",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
-      }
+      },
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "MAN E3872 output",
@@ -29,7 +30,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
-      }
+      },
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "MAN E3872 electrical efficiency",
@@ -40,7 +42,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
-      }
+      },
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "MAN E3262 output range (natural gas)",
@@ -52,7 +55,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
-      }
+      },
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Overall efficiency in cogeneration, MAN gas engines",
@@ -63,7 +67,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
-      }
+      },
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Natural gas power range",
@@ -74,7 +79,8 @@
       },
       "value": "37 - 750",
       "low": 37,
-      "high": 750
+      "high": 750,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Special gas power range",
@@ -85,7 +91,8 @@
       },
       "value": "68 - 750",
       "low": 68,
-      "high": 750
+      "high": 750,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Overall efficiency",
@@ -94,7 +101,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "> 90"
+      "value": "> 90",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Natural gas table row - E0834",
@@ -103,7 +111,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 37 - 68 kW; lambda 1.0 - 1.6; 4 cylinders in-line; 4.6 litres; bore 108 mm; stroke 125 mm; power 37 - 68 kW"
+      "value": "Output 37 - 68 kW; lambda 1.0 - 1.6; 4 cylinders in-line; 4.6 litres; bore 108 mm; stroke 125 mm; power 37 - 68 kW",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Natural gas table row - E0836",
@@ -112,7 +121,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 56 - 110 kW; lambda 1.0 - 1.68; 6 cylinders in-line; 6.9 litres; bore 108 mm; stroke 125 mm; power 56 - 110 kW"
+      "value": "Output 56 - 110 kW; lambda 1.0 - 1.68; 6 cylinders in-line; 6.9 litres; bore 108 mm; stroke 125 mm; power 56 - 110 kW",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Natural gas table row - E2876",
@@ -121,7 +131,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 150 - 210 kW; lambda 1.0 - 1.61; 6 cylinders in-line; 12.8 litres; bore 128 mm; stroke 166 mm; power 130 - 220 kW"
+      "value": "Output 150 - 210 kW; lambda 1.0 - 1.61; 6 cylinders in-line; 12.8 litres; bore 128 mm; stroke 166 mm; power 130 - 220 kW",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Natural gas table row - E3268",
@@ -130,7 +141,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 320 - 390 kW; lambda 1.69; 8 cylinders V 90°; 17.2 litres; bore 132 mm; stroke 157 mm; power 320 - 390 kW"
+      "value": "Output 320 - 390 kW; lambda 1.69; 8 cylinders V 90°; 17.2 litres; bore 132 mm; stroke 157 mm; power 320 - 390 kW",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Natural gas table row - E3262",
@@ -139,7 +151,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 275 - 580 kW; lambda 1.0 - 1.7; 12 cylinders V 90°; 25.8 litres; bore 132 mm; stroke 157 mm; power 275 - 580 kW"
+      "value": "Output 275 - 580 kW; lambda 1.0 - 1.7; 12 cylinders V 90°; 25.8 litres; bore 132 mm; stroke 157 mm; power 275 - 580 kW",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Natural gas table row - E3872",
@@ -148,7 +161,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 735 kW; lambda 1.77 - 1.78; 12 cylinders V 90°; 29,6 litres; bore 138 mm; stroke 165 mm; power 735 kW"
+      "value": "Output 735 kW; lambda 1.77 - 1.78; 12 cylinders V 90°; 29,6 litres; bore 138 mm; stroke 165 mm; power 735 kW",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Special gas table row - E0834",
@@ -157,7 +171,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 68 kW; lambda 1.4/1.5; 4 cylinders in-line; 4.6 litres"
+      "value": "Output 68 kW; lambda 1.4/1.5; 4 cylinders in-line; 4.6 litres",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Special gas table row - E0836",
@@ -166,7 +181,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 110 kW; lambda 1.4 - 1.49; 6 cylinders in-line; 6.9 litres"
+      "value": "Output 110 kW; lambda 1.4 - 1.49; 6 cylinders in-line; 6.9 litres",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Special gas table row - E2876",
@@ -175,7 +191,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 130 - 220 kW; lambda 1.40; 6 cylinders in-line; 12.8 litres"
+      "value": "Output 130 - 220 kW; lambda 1.40; 6 cylinders in-line; 12.8 litres",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Special gas table row - E3268",
@@ -184,7 +201,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 320 - 390 kW; lambda 1.46 - 1.52; 8 cylinders V 90°; 17.2 litres"
+      "value": "Output 320 - 390 kW; lambda 1.46 - 1.52; 8 cylinders V 90°; 17.2 litres",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Special gas table row - E3262",
@@ -193,7 +211,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 450 - 580 kW; lambda 1.44 - 1.6; 12 cylinders V 90°; 25.8 litres"
+      "value": "Output 450 - 580 kW; lambda 1.44 - 1.6; 12 cylinders V 90°; 25.8 litres",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Special gas table row - E3872",
@@ -202,7 +221,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "Output 735 kW; lambda 1.61; 12 cylinders V 90°; 29.6 litres"
+      "value": "Output 735 kW; lambda 1.61; 12 cylinders V 90°; 29.6 litres",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Large-bore gas engines from Everllence",
@@ -211,7 +231,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "10 to 18 MW; displacement in excess of 30 litres"
+      "value": "10 to 18 MW; displacement in excess of 30 litres",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     }
   ],
   "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",

@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Absorb berthing kinetic energy and limit reaction force and hull pressure transmitted to the vessel and the berth structure; remain functional when a vessel is moored ('lean-on' loads).",
+  "description": "Absorb berthing kinetic energy and limit reaction force and hull pressure transmitted to the vessel and the berth structure; remain functional when a vessel is moored ('lean-on' loads). Primary source: https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
   "specifications": [
     {
       "metric": "SPC cone fender overall height, range across published sizes",
@@ -20,7 +20,8 @@
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
       },
       "low": 300,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "SPC 2000 cone fender diameter / weight / anchors",
@@ -30,7 +31,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
       },
-      "value": 3090
+      "value": 3090,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "V-fender SX/SH standard height range",
@@ -41,7 +43,8 @@
         "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
       },
       "low": 250,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "SX 1000 V-fender dimensions",
@@ -51,7 +54,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "Pneumatic 50 GEA range",
@@ -62,7 +66,8 @@
         "source_id": "y-yokohama-com-floating"
       },
       "low": 6,
-      "high": 6473
+      "high": 6473,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "Pneumatic 80 GEA range",
@@ -73,7 +78,8 @@
         "source_id": "y-yokohama-com-floating"
       },
       "low": 8,
-      "high": 9037
+      "high": 9037,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "initial internal pressure",
@@ -83,7 +89,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
         "source_id": "y-yokohama-com-floating"
       },
-      "value": "50 or 80"
+      "value": "50 or 80",
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "height range",
@@ -94,7 +101,8 @@
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
       },
       "low": 300,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "SPC 2000 mass",
@@ -104,7 +112,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
       },
-      "value": 9560
+      "value": 9560,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "SPC 2000 anchor bolts",
@@ -114,7 +123,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
       },
-      "value": "10 x M56"
+      "value": "10 x M56",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "SX standard heights",
@@ -125,7 +135,8 @@
         "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
       },
       "low": 250,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "standard lengths",
@@ -136,7 +147,8 @@
         "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
       },
       "low": 1000,
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "SX 1000 width",
@@ -146,7 +158,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "Standard height range",
@@ -156,7 +169,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
       },
       "low": 250,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "Standard length range",
@@ -166,7 +180,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
       },
       "low": 1000,
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "Model variants",
@@ -175,7 +190,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "SX fender sizes (H x W)",
@@ -183,7 +199,8 @@
       "basis": "Dimensions SX table: SX 250 (H 250, W 500, w 200, t 18, C 178, PW 400, anchors M24) through SX 1000 (H 1000, W 1800, w 800, t 47, C 610, PW 1550, anchors M48)",
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
-      }
+      },
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "SH fender sizes (H x W)",
@@ -191,7 +208,8 @@
       "basis": "Dimensions SH table: SH 250 (H 250, W 625, w 280, t 18, C 203, PW 530, M24) through SH 1000 (H 1000, W 2200, w 1125, t 40, C 663, PW 2000, M48)",
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
-      }
+      },
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "SX-P embedded plate thickness K",
@@ -201,7 +219,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
       },
       "low": 40,
-      "high": 80
+      "high": 80,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "Applications",
@@ -209,7 +228,8 @@
       "basis": "\"SX Fenders: General Cargo Terminals, Berth for tug boats; SH Fenders: General Cargo Terminals, Berth for tug boats with the need for low hull pressure; SX and SH: Multi-Purpose-Terminals, RoRo ramps, Passenger Vessel Terminals, Barge\"",
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
-      }
+      },
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "standard",
@@ -218,7 +238,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": "ISO 17357-1:2014 certified; all Yokohama fenders in full compliance"
+      "value": "ISO 17357-1:2014 certified; all Yokohama fenders in full compliance",
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "initial_internal_pressure_Pneumatic_50",
@@ -227,7 +248,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "initial_internal_pressure_Pneumatic_80",
@@ -236,7 +258,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "initial_internal_pressure_Low_Pressure",
@@ -245,7 +268,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "GEA_range_Pneumatic_50",
@@ -255,7 +279,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 6,
-      "high": 6473
+      "high": 6473,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "GEA_range_Pneumatic_80",
@@ -265,7 +290,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 8,
-      "high": 9037
+      "high": 9037,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "reaction_force_range_Pneumatic_50",
@@ -275,7 +301,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 64,
-      "high": 7984
+      "high": 7984,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "hull_pressure_range_Pneumatic_50",
@@ -285,7 +312,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 122,
-      "high": 158
+      "high": 158,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "testing_pressure_Pneumatic_50",
@@ -295,7 +323,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 200,
-      "high": 250
+      "high": 250,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "safety_valve_setting_Pneumatic_50",
@@ -305,7 +334,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 175,
-      "high": 175
+      "high": 175,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "size_range_sling_type",
@@ -314,7 +344,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": "Phi 500x1000L - Phi 4500x9000L"
+      "value": "Phi 500x1000L - Phi 4500x9000L",
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "inclined_compression_limit",
@@ -323,7 +354,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "Fender height range",
@@ -333,7 +365,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
       "low": 300,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Rubber grades",
@@ -342,7 +375,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Overload stoppers",
@@ -351,7 +385,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": "optional, to avoid over compression"
+      "value": "optional, to avoid over compression",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Contact angle performance",
@@ -360,7 +395,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Energy absorption / reaction force",
@@ -369,7 +405,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": "Exceptionally good E/R ratio; outstanding energy absorption per fender weight"
+      "value": "Exceptionally good E/R ratio; outstanding energy absorption per fender weight",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Shear stability",
@@ -378,7 +415,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": "High shear stability"
+      "value": "High shear stability",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Construction",
@@ -387,7 +425,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": "conical body and fully rubber-embedded mounting flanges"
+      "value": "conical body and fully rubber-embedded mounting flanges",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     }
   ],
   "vendors": [

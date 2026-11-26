@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. Skid mounted; H2 service",
+  "description": "Vendor product line read 2026-11-24. Skid mounted; H2 service Primary source: https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
   "specifications": [
     {
       "metric": "Electrolyser module size",
@@ -17,7 +17,8 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "low": 5,
-      "high": 10
+      "high": 10,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Process gas leakage",
@@ -27,7 +28,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 0
+      "value": 0,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Models",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "TFC90 and TFC180"
+      "value": "TFC90 and TFC180",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Electrolyzer module compatibility",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "5 MW and 10 MW"
+      "value": "5 MW and 10 MW",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Package configuration",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "skid-mounted; all process equipment, piping and auxiliary systems in a single package"
+      "value": "skid-mounted; all process equipment, piping and auxiliary systems in a single package",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Gas purity",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Absolute cleanliness of compressed hydrogen"
+      "value": "Absolute cleanliness of compressed hydrogen",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Leakage",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Zero leakage of process gas to the environment"
+      "value": "Zero leakage of process gas to the environment",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Reliability",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Proven performance and guaranteed high reliability"
+      "value": "Proven performance and guaranteed high reliability",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Diaphragm compressor invention",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": 1916
+      "value": 1916,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Hybrid compressor stages",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "up to five compression stages; pressure increases up to 450 bar"
+      "value": "up to five compression stages; pressure increases up to 450 bar",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Reciprocating compressor rating",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "rated to 20 MW and operating between 260 and 1,000 rpm"
+      "value": "rated to 20 MW and operating between 260 and 1,000 rpm",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Hydrogen Holland project compressor",
@@ -117,7 +128,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "5-stage piston reciprocating, 4250 kW induction motors, 21,000 Nm3/hr wet H2 at 1.2 bara, final pressure 55 bara"
+      "value": "5-stage piston reciprocating, 4250 kW induction motors, 21,000 Nm3/hr wet H2 at 1.2 bara, final pressure 55 bara",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",

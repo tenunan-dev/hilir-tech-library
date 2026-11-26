@@ -6,7 +6,7 @@
   "equipment": [
     "burner-gas-low-nox"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Power Burners page directly with WebFetch (markdown); linked GB PDF brochure not opened.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Power Burners page directly with WebFetch (markdown); linked GB PDF brochure not opened. Primary source: https://www.zeeco.com/products/burners/power-burners?hsLang=en",
   "specifications": [
     {
       "metric": "Heat input per burner",
@@ -16,7 +16,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "MMBtu/hr (in excess of, per burner)",
-      "value": 360
+      "value": 360,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Combustion air / FGR",
@@ -26,7 +27,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "qualitative",
-      "value": "Lower excess air and FGR than competition"
+      "value": "Lower excess air and FGR than competition",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Fuels",
@@ -36,7 +38,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "fuel options",
-      "value": "Natural gas, #6/#2 fuel oils, low-Btu gases (blast furnace gas/coke oven gas), opportunity fuels, waste streams"
+      "value": "Natural gas, #6/#2 fuel oils, low-Btu gases (blast furnace gas/coke oven gas), opportunity fuels, waste streams",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Boiler types",
@@ -46,7 +49,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "applicability",
-      "value": "Package, industrial, utility, fluidized bed, stoker"
+      "value": "Package, industrial, utility, fluidized bed, stoker",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Heat input",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "high": 360
+      "high": 360,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Fuel flexibility",
@@ -65,7 +70,8 @@
         "url": "https://www.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/GB-Low-NOx-Power-Burner-RGB.pdf?hsLang=en",
         "source_id": "catpar-zeeco-com-gb-low-nox-power-burner-rgb-pdf-0dda622"
       },
-      "value": "natural gas, #6/#2 fuel oils, to low-Btu gases (blast furnace gas)"
+      "value": "natural gas, #6/#2 fuel oils, to low-Btu gases (blast furnace gas)",
+      "source_url": "https://www.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/GB-Low-NOx-Power-Burner-RGB.pdf?hsLang=en"
     },
     {
       "metric": "Application",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": "boiler applications"
+      "value": "boiler applications",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Retrofit",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": "The GB burner installation can be recognized with little to no pressure part modifications"
+      "value": "The GB burner installation can be recognized with little to no pressure part modifications",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Turndown",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "high": 20
+      "high": 20,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Tip exposure",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "high": 1
+      "high": 1,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Quality system",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": "ISO 9001: 2015 / ISO 9001 accredited"
+      "value": "ISO 9001: 2015 / ISO 9001 accredited",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     }
   ],
   "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",

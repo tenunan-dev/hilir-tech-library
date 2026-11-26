@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Wellhead gathering manifold and headers that commingle flows from multiple wells, route them to production and test headers, distribute injection fluids/chemicals and provide isolation and pigging interfaces. On a typical platform the process train is listed as wellhead, production manifold, production separator, glycol dehydration, gas compressors, water injection pumps, oil/gas export metering and main oil line pumps (Wikipedia Oil platform, read). OEM manifold/tie-in systems include tradition",
+  "description": "Wellhead gathering manifold and headers that commingle flows from multiple wells, route them to production and test headers, distribute injection fluids/chemicals and provide isolation and pigging interfaces. On a typical platform the process train is listed as wellhead, production manifold, production separator, glycol dehydration, gas compressors, water injection pumps, oil/gas export metering and main oil line pumps (Wikipedia Oil platform, read). OEM manifold/tie-in systems include tradition Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
   "aliases": [
     "Production manifold / headers with production and test headers to commingle fluids"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
         "source_id": "technipfmc-com-manifolds"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Production / test manifold and headers — Manifold temperature rating (upper)",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
         "source_id": "technipfmc-com-manifolds"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Production / test manifold and headers — Connection diameter (upper)",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
         "source_id": "technipfmc-com-manifolds"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     }
   ],
   "vendor_models": [],

@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Prepare structure (clean, cut, install lifting points), remove topsides and jacket by reverse installation (piece-small or module), single-lift heavy lift, or controlled toppling where permitted; transport to shore for recycling/disposal.",
+  "description": "Prepare structure (clean, cut, install lifting points), remove topsides and jacket by reverse installation (piece-small or module), single-lift heavy lift, or controlled toppling where permitted; transport to shore for recycling/disposal. Primary source: https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal",
   "specifications": [
     {
       "metric": "Heerema removal vessel capacity",
@@ -19,7 +19,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal",
         "source_id": "heerema-com-offshore-decommissioning-jacket-and-topside-removal"
       },
-      "value": "up to approximately 20,000 metric tons"
+      "value": "up to approximately 20,000 metric tons",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal"
     },
     {
       "metric": "Largest single-lift jacket removal",
@@ -29,7 +30,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal",
         "source_id": "heerema-com-offshore-decommissioning-jacket-and-topside-removal"
       },
-      "value": "10,100 metric tons — Brent Alpha jacket, 2020"
+      "value": "10,100 metric tons — Brent Alpha jacket, 2020",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal"
     },
     {
       "metric": "Recycling/repurposing rate",
@@ -39,7 +41,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal",
         "source_id": "heerema-com-offshore-decommissioning-jacket-and-topside-removal"
       },
-      "value": "98% of structures safely repurposed or recycled"
+      "value": "98% of structures safely repurposed or recycled",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal"
     },
     {
       "metric": "Rigs-to-Reefs decommissioning example",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
         "source_id": "en-wikipedia-org-wiki-spar-platform"
       },
-      "value": "Red Hawk cell spar decommissioned in 2014 under BSEE Rigs-to-Reefs program; deepest floating platform decommissioned at the time"
+      "value": "Red Hawk cell spar decommissioned in 2014 under BSEE Rigs-to-Reefs program; deepest floating platform decommissioned at the time",
+      "source_url": "https://en.wikipedia.org/wiki/Spar_(platform)"
     }
   ],
   "vendors": [

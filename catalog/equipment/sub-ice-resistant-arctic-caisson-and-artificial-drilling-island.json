@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Bottom-founded structure or constructed island designed to resist iceberg impact, sea ice and ice scour in Arctic and sub-Arctic waters.",
+  "description": "Bottom-founded structure or constructed island designed to resist iceberg impact, sea ice and ice scour in Arctic and sub-Arctic waters. Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure",
   "specifications": [
     {
       "metric": "Tarsiut Island",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": "4 hollow caissons, 16 m water depth, Beaufort Sea, Amoco Canada, 1981, removed"
+      "value": "4 hollow caissons, 16 m water depth, Beaufort Sea, Amoco Canada, 1981, removed",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Super CIDS",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": "CGS caisson island, 16 m, Beaufort Sea, Global Marine, 1984, removed"
+      "value": "CGS caisson island, 16 m, Beaufort Sea, Global Marine, 1984, removed",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Northstar Island",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Artificial_island",
         "source_id": "en-wikipedia-org-wiki-artificial-island"
       },
-      "value": "artificial island used for oil drilling in the Beaufort Sea north of Alaska"
+      "value": "artificial island used for oil drilling in the Beaufort Sea north of Alaska",
+      "source_url": "https://en.wikipedia.org/wiki/Artificial_island"
     },
     {
       "metric": "iceberg scour protection",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
         "source_id": "en-wikipedia-org-wiki-offshore-drilling"
       },
-      "value": "subsea wells set in glory holes; seabed burial used as protection against drifting ice gouging"
+      "value": "subsea wells set in glory holes; seabed burial used as protection against drifting ice gouging",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_drilling"
     }
   ],
   "vendors": [

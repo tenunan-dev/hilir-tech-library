@@ -12,7 +12,7 @@
     "H2",
     "PCH"
   ],
-  "description": "Catalytic reactor in the Haber-Bosch loop where hydrogen and nitrogen combine over an iron catalyst to form ammonia. Conversion per pass is limited by equilibrium, so the loop circulates unreacted gas, condenses ammonia by refrigeration and returns the remainder to the converter.",
+  "description": "Catalytic reactor in the Haber-Bosch loop where hydrogen and nitrogen combine over an iron catalyst to form ammonia. Conversion per pass is limited by equilibrium, so the loop circulates unreacted gas, condenses ammonia by refrigeration and returns the remainder to the converter. Primary source: https://en.wikipedia.org/wiki/Ammonia_production",
   "applications": [
     "ammonia synthesis in nitrogen fertiliser and chemical plants",
     "green and blue ammonia plants using electrolytic or low-carbon hydrogen"
@@ -28,7 +28,8 @@
         "url": "https://en.wikipedia.org/wiki/Ammonia_production",
         "note": "Wikipedia, Ammonia production (read 2026-11-17)",
         "source_id": "en-wikipedia-org-wiki-ammonia-production"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia_production"
     },
     {
       "metric": "reactor temperature",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://www.osti.gov/servlets/purl/3363286",
         "note": "NETL report (DOI 10.2172/3363286), read 2026-11-17"
-      }
+      },
+      "source_url": "https://www.osti.gov/servlets/purl/3363286"
     },
     {
       "metric": "single-train capacity",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/two-step-reformer-based-ammonia-process",
         "note": "Topsoe two-step reformer ammonia process page, read 2026-11-17"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/two-step-reformer-based-ammonia-process"
     },
     {
       "metric": "conversion per pass",
@@ -61,7 +64,8 @@
         "url": "https://en.wikipedia.org/wiki/Ammonia_production",
         "note": "Wikipedia, Ammonia production (read 2026-11-17)",
         "source_id": "en-wikipedia-org-wiki-ammonia-production"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia_production"
     },
     {
       "metric": "Ammonia synthesis loop operating pressure (general)",
@@ -72,7 +76,8 @@
         "source_id": "en-wikipedia-org-wiki-haber-process"
       },
       "low": 60,
-      "high": 180
+      "high": 180,
+      "source_url": "https://en.wikipedia.org/wiki/Haber_process"
     },
     {
       "metric": "Typical modern synthesis pressure",
@@ -83,7 +88,8 @@
         "source_id": "en-wikipedia-org-wiki-ammonia-production"
       },
       "low": 150,
-      "high": 200
+      "high": 200,
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia_production"
     },
     {
       "metric": "M.W. Kellogg Texas City syngas centrifugal compression",
@@ -93,7 +99,8 @@
         "url": "https://en.wikipedia.org/wiki/Ammonia_production",
         "source_id": "en-wikipedia-org-wiki-ammonia-production"
       },
-      "value": 152
+      "value": 152,
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia_production"
     },
     {
       "metric": "Uhde two-pressure process: LP once-through converter suction pressure",
@@ -103,7 +110,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Uhde two-pressure process: HP synthesis loop pressure",
@@ -113,7 +121,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
-      "high": 210
+      "high": 210,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Ammonia condensed from once-through converter effluent",
@@ -123,7 +132,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Single-pass conversion per reactor pass",
@@ -133,7 +143,8 @@
         "url": "https://en.wikipedia.org/wiki/Haber_process",
         "source_id": "en-wikipedia-org-wiki-haber-process"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://en.wikipedia.org/wiki/Haber_process"
     },
     {
       "metric": "Synthesis temperature range",
@@ -144,7 +155,8 @@
         "source_id": "en-wikipedia-org-wiki-haber-process"
       },
       "low": 300,
-      "high": 500
+      "high": 500,
+      "source_url": "https://en.wikipedia.org/wiki/Haber_process"
     },
     {
       "metric": "Howden reciprocating gas compressor ratings",
@@ -154,7 +166,8 @@
         "url": "https://www.chartindustries.com/Howden",
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
       },
-      "high": 20
+      "high": 20,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Howden steam turbine mechanical-drive range",
@@ -165,7 +178,8 @@
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
       },
       "low": 10,
-      "high": 40
+      "high": 40,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Plant applications",
@@ -175,7 +189,8 @@
         "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
         "source_id": "pupuk-indonesia-com-913-pupuk-indonesia-dan-toyo-kembangkan-kapasi"
       },
-      "low": 110
+      "low": 110,
+      "source_url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
     },
     {
       "metric": "Selected capacity",
@@ -185,7 +200,8 @@
         "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
         "source_id": "pupuk-indonesia-com-913-pupuk-indonesia-dan-toyo-kembangkan-kapasi"
       },
-      "value": 1.15
+      "value": 1.15,
+      "source_url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
     },
     {
       "metric": "Detection range",
@@ -196,7 +212,8 @@
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
       "low": 17,
-      "high": 28
+      "high": 28,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Minimum pressurised installation",
@@ -206,7 +223,8 @@
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Reference plant capacity",
@@ -216,7 +234,8 @@
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
         "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
       },
-      "value": 1200
+      "value": 1200,
+      "source_url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
     },
     {
       "metric": "Achieved capacity shortly after start-up",
@@ -226,7 +245,8 @@
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
         "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
     },
     {
       "metric": "Stable extended operation",
@@ -236,7 +256,8 @@
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/",
         "source_id": "casale-ch-new-performance-standard-for-ammonia-plants-in-china"
       },
-      "value": 130
+      "value": 130,
+      "source_url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
     },
     {
       "metric": "Tank capacity",
@@ -246,7 +267,8 @@
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
-      "value": 40000
+      "value": 40000,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Quantity",
@@ -256,7 +278,8 @@
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Scope",
@@ -266,7 +289,8 @@
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
-      "value": "process licence and ammonia plant engineering"
+      "value": "process licence and ammonia plant engineering",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Project capacity linked",
@@ -276,7 +300,8 @@
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
-      "value": 958500
+      "value": 958500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Steam-to-carbon ratio",
@@ -286,7 +311,8 @@
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
       },
-      "value": 0.6
+      "value": 0.6,
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     },
     {
       "metric": "Solar energy capacity",
@@ -295,7 +321,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 4750
+      "value": 4750,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Battery energy storage capacity",
@@ -304,7 +331,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 1600
+      "value": 1600,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Electrolyzer capacity",
@@ -313,7 +341,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Annual renewables-based hydrogen production",
@@ -322,7 +351,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 174500
+      "value": 174500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Annual renewables-based ammonia production",
@@ -331,7 +361,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 958500
+      "value": 958500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Annual renewables generation",
@@ -340,7 +371,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 9750
+      "value": 9750,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Cryogenic ammonia storage tank capacity (each of two)",
@@ -349,7 +381,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 40000
+      "value": 40000,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Total project cost",
@@ -359,7 +392,8 @@
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
       "value": 6.8,
-      "year": 2025
+      "year": 2025,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Anticipated operations date",
@@ -368,7 +402,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 2030
+      "value": 2030,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Plant capacity",
@@ -377,7 +412,8 @@
       "source": {
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
       },
-      "value": 1200
+      "value": 1200,
+      "source_url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
     },
     {
       "metric": "Capacity reached shortly after start-up",
@@ -386,7 +422,8 @@
       "source": {
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
     },
     {
       "metric": "Stable operating load",
@@ -395,7 +432,8 @@
       "source": {
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
       },
-      "value": 130
+      "value": 130,
+      "source_url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
     },
     {
       "metric": "Commissioning date",
@@ -403,7 +441,8 @@
       "basis": "'Commissioned in June 2024'",
       "source": {
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
-      }
+      },
+      "source_url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
     },
     {
       "metric": "Synthesis loop performance",
@@ -411,7 +450,8 @@
       "basis": "'No bottlenecks encountered in the synthesis loop'; Casale proprietary N-LOOP ammonia synthesis loop",
       "source": {
         "url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
-      }
+      },
+      "source_url": "https://casale.ch/new_performance_standard_for_ammonia_plants_in_china/"
     },
     {
       "metric": "Catalytic bead measuring range",
@@ -422,7 +462,8 @@
       },
       "value": 0,
       "low": 100,
-      "high": "%LEL"
+      "high": "%LEL",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Catalytic bead sensor life",
@@ -431,7 +472,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Electrochemical measuring range",
@@ -442,7 +484,8 @@
       },
       "value": 0,
       "low": 100,
-      "high": "ppm"
+      "high": "ppm",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Electrochemical sensor life",
@@ -453,7 +496,8 @@
       },
       "value": 1,
       "low": 2,
-      "high": "years"
+      "high": "years",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Ammonia electrochemical sensor life",
@@ -462,7 +506,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Dual sensor configuration",
@@ -470,7 +515,8 @@
       "basis": "'Dual sensor configuration (local or remote) available with ULTIMA X5000 / General Monitors S5000 for catalytic bead and electrochemical sensors'",
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
-      }
+      },
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Ultrasonic detection range",
@@ -481,7 +527,8 @@
       },
       "value": 17,
       "low": 28,
-      "high": "m"
+      "high": "m",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Ultrasonic minimum pressure",
@@ -490,7 +537,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Open path measuring range",
@@ -501,7 +549,8 @@
       },
       "value": 0,
       "low": 15000,
-      "high": "ppm.m"
+      "high": "ppm.m",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Open path lengths",
@@ -512,7 +561,8 @@
       },
       "value": 5,
       "low": 120,
-      "high": "m"
+      "high": "m",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Photoacoustic measuring range",
@@ -523,7 +573,8 @@
       },
       "value": 0,
       "low": 1000,
-      "high": "ppm"
+      "high": "ppm",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Photoacoustic sampling points",
@@ -532,7 +583,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 16
+      "value": 16,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "UV/IR field of view",
@@ -543,7 +595,8 @@
       },
       "value": 90,
       "low": 125,
-      "high": "deg"
+      "high": "deg",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "MSIR field of view",
@@ -552,7 +605,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Optical path monitoring interval",
@@ -561,7 +615,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Tank count and capacity",
@@ -570,7 +625,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 40000
+      "value": 40000,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Annual renewable ammonia production (project)",
@@ -579,7 +635,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 958500
+      "value": 958500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Annual renewable hydrogen production (project)",
@@ -588,7 +645,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 174500
+      "value": 174500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Electrolyzer capacity (project)",
@@ -597,7 +655,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Solar capacity / BESS (project)",
@@ -605,7 +664,8 @@
       "basis": "Production details: \"Solar Energy Capacity: 4,750 MW; Battery Energy Storage System: 1600 MWh\"",
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
-      }
+      },
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Page date / review",
@@ -613,7 +673,8 @@
       "basis": "CSIRO HyResource project page dated 'October 20th, 2025'; 'Reviewed (reviewed by the project proponent): April 2026'",
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
-      }
+      },
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Catalyst type",
@@ -621,7 +682,8 @@
       "basis": "\"KM1 is an iron-based ammonia synthesis catalyst\"",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Application",
@@ -629,7 +691,8 @@
       "basis": "\"used in the majority of the world's ammonia converters to convert synthesis gas containing hydrogen and nitrogen into ammonia\"",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Share of world ammonia production",
@@ -638,7 +701,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Company experience in ammonia synthesis",
@@ -647,7 +711,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Related catalyst family",
@@ -655,7 +720,8 @@
       "basis": "KM 111 (magnetite-based, lower bed), KM1R (pre-reduced iron-based with promoters, reduced activation time), KMR 111 (pre-reduced lower bed)",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Urea plant capacity (Fakfak project)",
@@ -664,7 +730,8 @@
       "source": {
         "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
       },
-      "value": 1150000
+      "value": 1150000,
+      "source_url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
     },
     {
       "metric": "Ammonia plant capacity (integrated complex)",
@@ -673,7 +740,8 @@
       "source": {
         "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
       },
-      "value": 825000
+      "value": 825000,
+      "source_url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
     },
     {
       "metric": "TOYO urea plant experience",
@@ -682,7 +750,8 @@
       "source": {
         "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
     },
     {
       "metric": "ACES21 stated benefits",
@@ -690,7 +759,8 @@
       "basis": "\"TOYO's ACES21TM process, designed to improve energy efficiency and reduce capital investment costs\"",
       "source": {
         "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
-      }
+      },
+      "source_url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
     },
     {
       "metric": "Basic engineering design completion",
@@ -698,7 +768,8 @@
       "basis": "\"With completion targeted for May 2027, the BED represents a significant milestone\"",
       "source": {
         "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
-      }
+      },
+      "source_url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
     },
     {
       "metric": "Publication date",
@@ -706,7 +777,8 @@
       "basis": "Pupuk Indonesia news article posted 19 November 2026 17:20 WIB; dateline Tokyo, 17 November 2026",
       "source": {
         "url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
-      }
+      },
+      "source_url": "https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en"
     },
     {
       "metric": "electrolyzer_capacity",
@@ -715,7 +787,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "BEDP_cost",
@@ -724,7 +797,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 82
+      "value": 82,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "solar_capacity",
@@ -733,7 +807,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 4750
+      "value": 4750,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "battery_storage",
@@ -742,7 +817,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 1600
+      "value": 1600,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "hydrogen_production",
@@ -751,7 +827,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 174500
+      "value": 174500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "ammonia_production",
@@ -760,7 +837,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 958500
+      "value": 958500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "purchase_agreement",
@@ -769,7 +847,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": "January 2025: Plug Power Inc. - Purchase agreement for 3 GW electrolysers and Basic Engineering Design Package (BEDP)"
+      "value": "January 2025: Plug Power Inc. - Purchase agreement for 3 GW electrolysers and Basic Engineering Design Package (BEDP)",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "converter_type",
@@ -778,7 +857,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
       },
-      "value": "two-bed radial flow converter with indirect cooling between the catalyst beds"
+      "value": "two-bed radial flow converter with indirect cooling between the catalyst beds",
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "number_of_catalyst_beds",
@@ -787,7 +867,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "catalyst_family",
@@ -796,7 +877,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
       },
-      "value": "KM catalyst family (KM1 iron-based, KM111 magnetite-based, KM1R pre-reduced, KMR111 pre-reduced)"
+      "value": "KM catalyst family (KM1 iron-based, KM111 magnetite-based, KM1R pre-reduced, KMR111 pre-reduced)",
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "SynCOR Ammonia - steam-to-carbon ratio",
@@ -805,7 +887,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
       },
-      "value": 0.6
+      "value": 0.6,
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     },
     {
       "metric": "SynCOR Ammonia - relative energy consumption",
@@ -814,7 +897,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
       },
-      "value": 97
+      "value": 97,
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     },
     {
       "metric": "SynCOR Ammonia - relative make-up water consumption",
@@ -824,7 +908,8 @@
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
       },
       "low": 40,
-      "high": 50
+      "high": 50,
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     },
     {
       "metric": "SynCOR Ammonia - steam throughput reduction",
@@ -833,7 +918,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     },
     {
       "metric": "SynCOR Ammonia - max referenced single-train capacity",
@@ -842,7 +928,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
       },
-      "value": "4,000 MTPD (equivalent production) / >6,000 MTPD for other industries"
+      "value": "4,000 MTPD (equivalent production) / >6,000 MTPD for other industries",
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     },
     {
       "metric": "SynCOR Ammonia - reforming section",
@@ -851,7 +938,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
       },
-      "value": "Pre-reformer and oxygen-blown SynCOR ATR"
+      "value": "Pre-reformer and oxygen-blown SynCOR ATR",
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     },
     {
       "metric": "SynCOR Ammonia - synthesis",
@@ -860,7 +948,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
       },
-      "value": "Inert-free synthesis loop with no purge; nitrogen wash with purge and nitrogen addition"
+      "value": "Inert-free synthesis loop with no purge; nitrogen wash with purge and nitrogen addition",
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     },
     {
       "metric": "Ammonia flare tip - upper tip length",
@@ -869,7 +958,8 @@
       "source": {
         "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     },
     {
       "metric": "Ammonia flare - exit velocity criterion",
@@ -878,7 +968,8 @@
       "source": {
         "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
       },
-      "value": "Restrict exit velocity of waste gas to ensure adequate residence time for high destruction efficiency; maximum design exit velocity depends on flare tip diameter"
+      "value": "Restrict exit velocity of waste gas to ensure adequate residence time for high destruction efficiency; maximum design exit velocity depends on flare tip diameter",
+      "source_url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     },
     {
       "metric": "Ammonia flare tip - flow distribution",
@@ -887,7 +978,8 @@
       "source": {
         "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
       },
-      "value": "Include flow distribution devices to disperse waste gas, expose stream to ignition sources and increase access to combustion air"
+      "value": "Include flow distribution devices to disperse waste gas, expose stream to ignition sources and increase access to combustion air",
+      "source_url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     },
     {
       "metric": "Ammonia combustion - challenges",
@@ -896,7 +988,8 @@
       "source": {
         "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
       },
-      "value": "Low flame propagation speed, low heating value and low flame temperatures; nitrogen is chemically inactive"
+      "value": "Low flame propagation speed, low heating value and low flame temperatures; nitrogen is chemically inactive",
+      "source_url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     },
     {
       "metric": "Document reference",
@@ -905,7 +998,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "0700-222-EU-EN / 10.2026"
+      "value": "0700-222-EU-EN / 10.2026",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Observer i sensing technology",
@@ -914,7 +1008,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "Ultrasonic gas leak detection"
+      "value": "Ultrasonic gas leak detection",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "UV/IR typical field of view",
@@ -924,7 +1019,8 @@
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "low": 90,
-      "high": 125
+      "high": 125,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "UV/IR output signal",
@@ -933,7 +1029,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "UV – 12 mA & IR – 8 mA"
+      "value": "UV – 12 mA & IR – 8 mA",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "MSIR typical field of view",
@@ -942,7 +1039,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Sampling points",
@@ -951,7 +1049,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "high": 16
+      "high": 16,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "HTZ-5 absorbent",
@@ -960,7 +1059,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
       },
-      "value": "high-purity, large-surface-area zinc oxide absorbent for feedstocks with low sulfur concentrations, or for operation at low temperatures"
+      "value": "high-purity, large-surface-area zinc oxide absorbent for feedstocks with low sulfur concentrations, or for operation at low temperatures",
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
     },
     {
       "metric": "HTZ-51 absorbent",
@@ -969,7 +1069,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
       },
-      "value": "state-of-the-art zinc oxide absorbent for feedstocks with low sulfur concentrations or for operation at low temperatures"
+      "value": "state-of-the-art zinc oxide absorbent for feedstocks with low sulfur concentrations or for operation at low temperatures",
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
     },
     {
       "metric": "Reactor benefit",
@@ -978,7 +1079,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
       },
-      "value": "Maximize profitability and obtain a lower pressure drop in your adiabatic reactors such as the high, medium, low-temperature shift or the methanator"
+      "value": "Maximize profitability and obtain a lower pressure drop in your adiabatic reactors such as the high, medium, low-temperature shift or the methanator",
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
     },
     {
       "metric": "Laser open path measuring range",
@@ -988,7 +1090,8 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "low": 0,
-      "high": 15000
+      "high": 15000,
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Path lengths",
@@ -997,7 +1100,8 @@
       "source": {
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "5-40m, 40-120m"
+      "value": "5-40m, 40-120m",
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Detection technology",
@@ -1006,7 +1110,8 @@
       "source": {
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "Enhanced Laser Diode Spectroscopy (ELDS) - patented, multi-point harmonic verification"
+      "value": "Enhanced Laser Diode Spectroscopy (ELDS) - patented, multi-point harmonic verification",
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Specificity",
@@ -1015,7 +1120,8 @@
       "source": {
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "Very specific to ammonia; immune to cross-interferents"
+      "value": "Very specific to ammonia; immune to cross-interferents",
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Source life",
@@ -1024,7 +1130,8 @@
       "source": {
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "Long laser source life; non-consuming"
+      "value": "Long laser source life; non-consuming",
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Calibration",
@@ -1033,7 +1140,8 @@
       "source": {
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "No need for calibration"
+      "value": "No need for calibration",
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Weather immunity",
@@ -1042,7 +1150,8 @@
       "source": {
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "Unaffected by rain, fog, and snow"
+      "value": "Unaffected by rain, fog, and snow",
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Cons",
@@ -1051,7 +1160,8 @@
       "source": {
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "Limited use for areas with dense installations; does not measure point concentration"
+      "value": "Limited use for areas with dense installations; does not measure point concentration",
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Applications",
@@ -1060,7 +1170,8 @@
       "source": {
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "Large industrial sites incl. fertilizer and chemical manufacturing plants; ammonia production units with downstream storage or bunkering; green ammonia energy export hubs and maritime fuel terminals"
+      "value": "Large industrial sites incl. fertilizer and chemical manufacturing plants; ammonia production units with downstream storage or bunkering; green ammonia energy export hubs and maritime fuel terminals",
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "MSA product",
@@ -1069,7 +1180,8 @@
       "source": {
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "Senscient ELDS TM"
+      "value": "Senscient ELDS TM",
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Protection layers",
@@ -1078,7 +1190,8 @@
       "source": {
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": "Layer 1 ultrasonic leak detection; Layer 2 gas detection; Layer 3 flame detection"
+      "value": "Layer 1 ultrasonic leak detection; Layer 2 gas detection; Layer 3 flame detection",
+      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Future plant capacities",
@@ -1088,7 +1201,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
       "low": 4000,
-      "high": 5000
+      "high": 5000,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "First plant",
@@ -1097,7 +1211,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": "SAFCO IV, Al-Jubail, Saudi-Arabien, in operation 2006"
+      "value": "SAFCO IV, Al-Jubail, Saudi-Arabien, in operation 2006",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "LP compressor suction pressure",
@@ -1106,7 +1221,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "HP synthesis loop pressure",
@@ -1115,7 +1231,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": 210
+      "value": 210,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Once-through converter share",
@@ -1124,7 +1241,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": "about one third of total ammonia output"
+      "value": "about one third of total ammonia output",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Ammonia condensed after once-through",
@@ -1133,7 +1251,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Once-through converter catalyst beds",
@@ -1142,7 +1261,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "HP loop share",
@@ -1151,7 +1271,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": "remaining two thirds of total ammonia"
+      "value": "remaining two thirds of total ammonia",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Compressor size comparison",
@@ -1160,7 +1281,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": "same size as conventional plant for 2,200 tonnes/day"
+      "value": "same size as conventional plant for 2,200 tonnes/day",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Catalyst",
@@ -1169,7 +1291,8 @@
       "source": {
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
       },
-      "value": "proven magnetite-based catalysts in all phases"
+      "value": "proven magnetite-based catalysts in all phases",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Battery energy storage",
@@ -1178,7 +1301,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 1600
+      "value": 1600,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Annual hydrogen production",
@@ -1187,7 +1311,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 174500
+      "value": 174500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Annual ammonia production",
@@ -1196,7 +1321,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 958500
+      "value": 958500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Renewables generation",
@@ -1205,7 +1331,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 9750
+      "value": 9750,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Estimated total project cost",
@@ -1214,7 +1341,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": "US$6.8 billion"
+      "value": "US$6.8 billion",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Feasibility/pre-FEED cost",
@@ -1223,7 +1351,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": "US$15 million"
+      "value": "US$15 million",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "BEDP cost",
@@ -1232,7 +1361,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": "US$82 million"
+      "value": "US$82 million",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Cryogenic ammonia tanks",
@@ -1241,7 +1371,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": "two 40,000-tonne tanks"
+      "value": "two 40,000-tonne tanks",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "TOPSOE scope",
@@ -1250,7 +1381,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": "Process licence for ammonia technology (Oct 2023) and process licence + ammonia plant engineering (May 2024)"
+      "value": "Process licence for ammonia technology (Oct 2023) and process licence + ammonia plant engineering (May 2024)",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Status",
@@ -1259,7 +1391,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": "Under development – FEED studies"
+      "value": "Under development – FEED studies",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     }
   ],
   "vendors": [

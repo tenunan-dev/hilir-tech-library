@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Process control, analysers, safety and ventilation",
+  "description": "Process control, analysers, safety and ventilation Primary source: https://www.sensotech.com/en/urea-production",
   "specifications": [
     {
       "metric": "LiquiSonic measuring range - concentration",
@@ -20,7 +20,8 @@
         "source_id": "sensotech-com-en-urea-production"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "LiquiSonic measuring range - temperature",
@@ -31,7 +32,8 @@
         "source_id": "sensotech-com-en-urea-production"
       },
       "low": -10,
-      "high": 140
+      "high": 140,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "controller capacity",
@@ -41,7 +43,8 @@
         "url": "https://www.sensotech.com/en/urea-production",
         "source_id": "sensotech-com-en-urea-production"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "analyser vs lab time saving",
@@ -51,7 +54,8 @@
         "url": "https://www.sensotech.com/en/urea-production",
         "source_id": "sensotech-com-en-urea-production"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "sensor line size",
@@ -61,7 +65,8 @@
         "url": "https://www.sensotech.com/en/urea-production",
         "source_id": "sensotech-com-en-urea-production"
       },
-      "value": "DN80"
+      "value": "DN80",
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "conveyor safety devices",
@@ -71,7 +76,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": "trip cords, belt sway switches, speed switches, belt rip switches, emergency stops; OSHA 1926.555"
+      "value": "trip cords, belt sway switches, speed switches, belt rip switches, emergency stops; OSHA 1926.555",
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "silo confined-space ventilation",
@@ -81,7 +87,8 @@
         "url": "https://en.wikipedia.org/wiki/Silo",
         "source_id": "en-wikipedia-org-wiki-silo"
       },
-      "value": "dedicated electric fan or silo blower to blow fresh air before entry; methane can displace oxygen"
+      "value": "dedicated electric fan or silo blower to blow fresh air before entry; methane can displace oxygen",
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     },
     {
       "metric": "ammonia leak incident reporting",
@@ -91,7 +98,8 @@
         "url": "https://ureaknowhow.com/",
         "source_id": "ureaknowhow-com-ureaknowhow-com"
       },
-      "value": "13 Sept 2026: two workers dead, up to 114 injured; 14 Sept 2026: up to 14 injured"
+      "value": "13 Sept 2026: two workers dead, up to 114 injured; 14 Sept 2026: up to 14 injured",
+      "source_url": "https://ureaknowhow.com/"
     },
     {
       "metric": "installed base",
@@ -101,7 +109,8 @@
         "url": "https://ureaknowhow.com/stamicarbon/",
         "source_id": "ureaknowhow-com-stamicarbon"
       },
-      "value": "technology used in half of the world's urea plants"
+      "value": "technology used in half of the world's urea plants",
+      "source_url": "https://ureaknowhow.com/stamicarbon/"
     },
     {
       "metric": "concentration range",
@@ -112,7 +121,8 @@
         "source_id": "sensotech-com-en-urea-production"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "temperature range",
@@ -123,7 +133,8 @@
         "source_id": "sensotech-com-en-urea-production"
       },
       "low": -10,
-      "high": 140
+      "high": 140,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "sensors per Controller 30",
@@ -133,7 +144,8 @@
         "url": "https://www.sensotech.com/en/urea-production",
         "source_id": "sensotech-com-en-urea-production"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "Nitric acid mono-pressure capacity",
@@ -142,7 +154,8 @@
       "source": {
         "url": "https://ureaknowhow.com/stamicarbon/"
       },
-      "high": 600
+      "high": 600,
+      "source_url": "https://ureaknowhow.com/stamicarbon/"
     },
     {
       "metric": "Nitric acid dual-pressure capacity",
@@ -151,7 +164,8 @@
       "source": {
         "url": "https://ureaknowhow.com/stamicarbon/"
       },
-      "low": 2000
+      "low": 2000,
+      "source_url": "https://ureaknowhow.com/stamicarbon/"
     },
     {
       "metric": "Market position",
@@ -160,7 +174,8 @@
       "source": {
         "url": "https://ureaknowhow.com/stamicarbon/"
       },
-      "value": "technology used in half of the world's urea plants"
+      "value": "technology used in half of the world's urea plants",
+      "source_url": "https://ureaknowhow.com/stamicarbon/"
     },
     {
       "metric": "Product lines",
@@ -169,7 +184,8 @@
       "source": {
         "url": "https://ureaknowhow.com/stamicarbon/"
       },
-      "value": "STAMI UREA; STAMI DIGITAL; STAMI GREEN AMMONIA; STAMI NITRIC ACID; STAMI SPECIALTIES"
+      "value": "STAMI UREA; STAMI DIGITAL; STAMI GREEN AMMONIA; STAMI NITRIC ACID; STAMI SPECIALTIES",
+      "source_url": "https://ureaknowhow.com/stamicarbon/"
     },
     {
       "metric": "Solution provider since",
@@ -178,7 +194,8 @@
       "source": {
         "url": "https://ureaknowhow.com/stamicarbon/"
       },
-      "value": 2014
+      "value": 2014,
+      "source_url": "https://ureaknowhow.com/stamicarbon/"
     }
   ],
   "vendors": [

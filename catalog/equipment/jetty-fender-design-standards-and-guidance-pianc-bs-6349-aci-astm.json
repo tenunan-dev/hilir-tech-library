@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Provide the calculation framework for berthing energy, fender selection, reaction loads, mooring loads and marine concrete durability; used by designers worldwide as guidance or by reference in codes.",
+  "description": "Provide the calculation framework for berthing energy, fender selection, reaction loads, mooring loads and marine concrete durability; used by designers worldwide as guidance or by reference in codes. Primary source: https://pianc.us/webinar-updated-guidelines-for-the-design-of-fender-systems",
   "specifications": [
     {
       "metric": "PIANC WG33 publication year and status",
@@ -19,7 +19,8 @@
         "url": "https://pianc.us/webinar-updated-guidelines-for-the-design-of-fender-systems",
         "source_id": "pianc-us-pianc-us-webinar-updated-guidelines-for-the-design-of-fen"
       },
-      "value": 2002
+      "value": 2002,
+      "source_url": "https://pianc.us/webinar-updated-guidelines-for-the-design-of-fender-systems"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. EPCI contractor controlled by CNOOC.",
+  "description": "Vendor product line read 2026-11-24. EPCI contractor controlled by CNOOC. Primary source: https://www.cnoocengineering.com/english/Solutions/Yards",
   "specifications": [
     {
       "metric": "Qingdao annual production",
@@ -16,7 +16,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
         "source_id": "cnoocengineering-com-solutions-yards"
       },
-      "value": 300000
+      "value": 300000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao slideways",
@@ -26,7 +27,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
         "source_id": "cnoocengineering-com-solutions-yards"
       },
-      "value": "five, 4,000-50,000 t bearing capacity"
+      "value": "five, 4,000-50,000 t bearing capacity",
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai annual production",
@@ -36,7 +38,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
         "source_id": "cnoocengineering-com-solutions-yards"
       },
-      "value": 250000
+      "value": 250000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai slideway 1",
@@ -46,7 +49,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
         "source_id": "cnoocengineering-com-solutions-yards"
       },
-      "value": 35000
+      "value": 35000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao yard area",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 1200000
+      "value": 1200000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao wharf shoreline",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 1645
+      "value": 1645,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao wharf water depth",
@@ -74,7 +80,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
       "low": 10,
-      "high": 12
+      "high": 12,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao dry dock",
@@ -82,7 +89,8 @@
       "basis": "COOEC: 'Dry Dock: 420 m×110 m×13.9 m'",
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
-      }
+      },
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao annual production capacity",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 300000
+      "value": 300000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao slideway capacity",
@@ -101,7 +110,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
       "low": 4000,
-      "high": 50000
+      "high": 50000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao cranes and SPMTs",
@@ -109,7 +119,8 @@
       "basis": "COOEC: 'two 800 T gantry crane and one 600 T gantry crane; 24 sets of 70 to 750 T crawler cranes; 324-axis SPMTs with total capacity of 15,000 T'",
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
-      }
+      },
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Tianjin yard area",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 575000
+      "value": 575000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Tianjin wharf shoreline",
@@ -127,7 +139,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 1631
+      "value": 1631,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Tianjin wharf water depth",
@@ -136,7 +149,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Tianjin annual production",
@@ -145,7 +159,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 150000
+      "value": 150000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Tianjin equipment",
@@ -153,7 +168,8 @@
       "basis": "COOEC: 'one 900 T gantry crane; two PPU 48-axis SPMTs; four 8.5 T forklifts; two 3.5 T forklifts powered by lithium batteries; two 2 T forklifts powered by lithium batteries two 60 T tractors'",
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
-      }
+      },
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai yard area",
@@ -162,7 +178,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 2072000
+      "value": 2072000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai wharf shoreline",
@@ -171,7 +188,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 2149
+      "value": 2149,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai wharf water depth",
@@ -181,7 +199,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
       "low": 10,
-      "high": 14
+      "high": 14,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai annual production",
@@ -190,7 +209,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 250000
+      "value": 250000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai slideways / equipment",
@@ -198,7 +218,8 @@
       "basis": "COOEC: 'slideway 1# (35,000 T); slideway 3# (12,000 T)'; '120 sets of 5 to 150 T overhead cranes in workshops; 12 sets of 150 to 750 T crawler cranes; 108-axis SPMTs; one 380 T transport trailer; two 250 T flatcars'",
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
-      }
+      },
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     }
   ],
   "url": "https://www.cnoocengineering.com/english/Solutions/Yards",

@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Used by Shell, BP, TotalEnergies, Saipem and other operators per cited case studies.",
+  "description": "Vendor product line read 2026-11-24. Used by Shell, BP, TotalEnergies, Saipem and other operators per cited case studies. Primary source: https://www.flyability.com/blog/offshore-drone-inspections",
   "specifications": [
     {
       "metric": "camera / payload",
@@ -16,7 +16,8 @@
         "url": "https://www.flyability.com/blog/offshore-drone-inspections",
         "source_id": "flyability-com-blog-offshore-drone-inspections"
       },
-      "value": "4K camera; Cygnus Instruments UT payload; LiDAR stabilisation"
+      "value": "4K camera; Cygnus Instruments UT payload; LiDAR stabilisation",
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "battery range",
@@ -26,7 +27,8 @@
         "url": "https://www.flyability.com/blog/offshore-drone-inspections",
         "source_id": "flyability-com-blog-offshore-drone-inspections"
       },
-      "value": "100+"
+      "value": "100+",
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 UT - inspection time (drone)",
@@ -36,7 +38,8 @@
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
       "low": 2,
-      "high": 4
+      "high": 4,
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 - offshore downtime reduction",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 - data delivered",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
-      "value": "4K visuals, localized UTMs and 3D model"
+      "value": "4K visuals, localized UTMs and 3D model",
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 - BP confined-space hours saved",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
-      "value": 1700
+      "value": 1700,
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 - TotalEnergies cost reduction",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 - SAIPEM inspection speed-up",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
-      "value": "80-90% faster, class-approved COT and WBT inspections"
+      "value": "80-90% faster, class-approved COT and WBT inspections",
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     }
   ],
   "url": "https://www.flyability.com/blog/offshore-drone-inspections",

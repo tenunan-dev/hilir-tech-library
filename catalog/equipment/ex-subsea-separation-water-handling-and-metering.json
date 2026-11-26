@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Separate gas/liquid and oil/water on the seabed, remove solids, and measure multiphase/wet-gas flows for allocation and control.",
+  "description": "Separate gas/liquid and oil/water on the seabed, remove solids, and measure multiphase/wet-gas flows for allocation and control. Primary source: https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
   "specifications": [
     {
       "metric": "Metering technology",
@@ -19,7 +19,8 @@
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
       },
-      "value": "Emerson Roxar wet-gas flow meter + Baker Hughes electric choke in IPM"
+      "value": "Emerson Roxar wet-gas flow meter + Baker Hughes electric choke in IPM",
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     }
   ],
   "vendors": [

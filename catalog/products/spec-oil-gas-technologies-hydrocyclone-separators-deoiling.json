@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
   "specifications": [
     {
       "metric": "outlet quality",
@@ -16,7 +16,8 @@
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
         "source_id": "specoilandgas-com-produced-water-treatment-hydrocyclone-separators"
       },
-      "value": "as low as 25 ppm OIW"
+      "value": "as low as 25 ppm OIW",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "Typical outlet oil-in-water",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "Vessel code",
@@ -33,7 +35,8 @@
       "basis": "SPEC: 'Vessel code ASME Section VIII'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "Moving parts",
@@ -42,7 +45,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
       },
-      "value": 0
+      "value": 0,
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "Vessel sizing / materials",
@@ -50,7 +54,8 @@
       "basis": "SPEC: 'Vessel sizes: Configured around process requirements, operating conditions and project scope'; 'Materials: A range of materials and sizes depending on application'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "Delivery / position",
@@ -58,7 +63,8 @@
       "basis": "SPEC: 'Delivery: Skid-mounted units'; 'Typical position: Upstream of IGF, where process pressure allows'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",

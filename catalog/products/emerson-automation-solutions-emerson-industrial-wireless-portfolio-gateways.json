@@ -6,7 +6,7 @@
   "equipment": [
     "ci-wirelesshart-industrial-wireless-mesh-024e52"
   ],
-  "description": "Page read in full. Named gateways 1410S1/1410S2 and repeaters are product families; no electrical supply figures were printed on this catalogue page.",
+  "description": "Page read in full. Named gateways 1410S1/1410S2 and repeaters are product families; no electrical supply figures were printed on this catalogue page. Primary source: https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
   "specifications": [
     {
       "metric": "Data reliability",
@@ -16,7 +16,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "low": ">99"
+      "low": ">99",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "WirelessHART standard",
@@ -26,7 +27,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "value": "IEC 62591"
+      "value": "IEC 62591",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Encryption",
@@ -36,7 +38,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "value": "AES-128"
+      "value": "AES-128",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Host protocols",
@@ -46,7 +49,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "value": "HART-IP, OPC UA, Modbus TCP"
+      "value": "HART-IP, OPC UA, Modbus TCP",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Installation cost saving vs wired instrumentation",
@@ -56,7 +60,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "high": "60"
+      "high": "60",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Payback period",
@@ -67,7 +72,8 @@
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
       "low": 12,
-      "high": 24
+      "high": 24,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Example wireless gateway models",
@@ -77,7 +83,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "value": "1410S1, 1410S2"
+      "value": "1410S1, 1410S2",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Hazardous-area certifications",
@@ -87,7 +94,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "value": "FM, CSA, ATEX, IECEx"
+      "value": "FM, CSA, ATEX, IECEx",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Data reliability",
@@ -96,7 +104,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 99
+      "value": 99,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Products listed",
@@ -105,7 +114,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 56
+      "value": 56,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "WirelessHART standard",
@@ -113,7 +123,8 @@
       "basis": "'WirelessHART is the global industry standard (IEC 62591)'",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Encryption",
@@ -122,7 +133,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 128
+      "value": 128,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Gateway remote antenna distance",
@@ -131,7 +143,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 1300
+      "value": 1300,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Gateway remote antenna distance",
@@ -140,7 +153,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Host protocols",
@@ -148,7 +162,8 @@
       "basis": "'HART-IP, OPC UA, and Modbus TCP'",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Asset View inputs",
@@ -157,7 +172,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Installation cost saving",
@@ -166,7 +182,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 60
+      "value": 60,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Payback period",
@@ -177,7 +194,8 @@
       },
       "value": 12,
       "low": 24,
-      "high": "months"
+      "high": "months",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Certification areas",
@@ -185,7 +203,8 @@
       "basis": "'FM, CSA, ATEX, and IECEx standards' for intrinsically safe / explosion-proof areas",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     }
   ],
   "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",

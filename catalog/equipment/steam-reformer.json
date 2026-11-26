@@ -14,7 +14,7 @@
     "PCH",
     "REF"
   ],
-  "description": "Fired tubular reactor in which natural gas or another light hydrocarbon reacts with steam over a nickel catalyst to make synthesis gas, followed in ammonia plants by a secondary reformer where air or oxygen is added and the remaining methane is converted. Reformers set the hydrogen-to-nitrogen ratio and the methane slip for the downstream shift and synthesis sections.",
+  "description": "Fired tubular reactor in which natural gas or another light hydrocarbon reacts with steam over a nickel catalyst to make synthesis gas, followed in ammonia plants by a secondary reformer where air or oxygen is added and the remaining methane is converted. Reformers set the hydrogen-to-nitrogen ratio and the methane slip for the downstream shift and synthesis sections. Primary source: https://en.wikipedia.org/wiki/Steam_reforming",
   "applications": [
     "hydrogen and ammonia synthesis gas production",
     "methanol and refinery hydrogen plants"
@@ -30,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
         "note": "Wikipedia, Steam reforming (read 2026-11-17)",
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "operating pressure",
@@ -42,7 +43,8 @@
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
         "note": "Wikipedia, Steam reforming (read 2026-11-17)",
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "steam-to-carbon ratio",
@@ -54,7 +56,8 @@
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
         "note": "Wikipedia, Steam reforming (read 2026-11-17)",
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "secondary reformer outlet temperature",
@@ -64,7 +67,8 @@
       "source": {
         "url": "https://www.osti.gov/servlets/purl/3363286",
         "note": "NETL report (DOI 10.2172/3363286), read 2026-11-17"
-      }
+      },
+      "source_url": "https://www.osti.gov/servlets/purl/3363286"
     },
     {
       "metric": "SMR optimal reactor temperature",
@@ -75,7 +79,8 @@
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
       "low": 800,
-      "high": 900
+      "high": 900,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "SMR operating pressure",
@@ -86,7 +91,8 @@
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
       "low": 20,
-      "high": 30
+      "high": 30,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "SMR steam-to-carbon molar ratio",
@@ -97,7 +103,8 @@
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
       "low": 2.5,
-      "high": 3.0
+      "high": 3.0,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "SMR pressure, conventional plant practice (wide range)",
@@ -108,7 +115,8 @@
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
       "low": 14,
-      "high": 40
+      "high": 40,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "SMR outlet temperature, conventional plant practice",
@@ -119,7 +127,8 @@
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
       "low": 815,
-      "high": 925
+      "high": 925,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "SMR reaction enthalpy",
@@ -129,7 +138,8 @@
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
-      "value": 206
+      "value": 206,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "Steam reforming thermal efficiency",
@@ -140,7 +150,8 @@
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
       "low": 65,
-      "high": 75
+      "high": 75,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "Two-step (Low Energy Ammonia) process capacity",
@@ -150,7 +161,8 @@
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification",
         "source_id": "topsoe-com-ammonia-ammonia-purification"
       },
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-purification"
     },
     {
       "metric": "Tubular radiant-wall reformer arrangement",
@@ -160,7 +172,8 @@
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-reforming",
         "source_id": "topsoe-com-ammonia-ammonia-reforming"
       },
-      "value": "catalyst tubes in single line, one or two fired boxes, burners on walls at several elevations"
+      "value": "catalyst tubes in single line, one or two fired boxes, burners on walls at several elevations",
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-reforming"
     },
     {
       "metric": "NOx",
@@ -170,7 +183,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Energy consumption, grey configuration",
@@ -180,7 +194,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "high": 6.5
+      "high": 6.5,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Energy consumption, blue configuration",
@@ -190,7 +205,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 7.9
+      "value": 7.9,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "NOx",
@@ -200,7 +216,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "CO2 emissions",
@@ -211,7 +228,8 @@
         "source_id": "casale-ch-ammonia"
       },
       "low": 0.1,
-      "high": 0.15
+      "high": 0.15,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Energy consumption",
@@ -221,7 +239,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 7.9
+      "value": 7.9,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Process basis",
@@ -230,7 +249,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": "SMR-based traditional ammonia process"
+      "value": "SMR-based traditional ammonia process",
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Plant capacity range",
@@ -240,7 +260,8 @@
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
       "low": 500,
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "Energy consumption (grey configuration)",
@@ -249,7 +270,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "high": 6.5
+      "high": 6.5,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Energy consumption (brochure)",
@@ -258,7 +280,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "high": 6.5
+      "high": 6.5,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "Energy consumption (blue configuration)",
@@ -267,7 +290,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "low": 7.9
+      "low": 7.9,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Flue gas NOx",
@@ -276,7 +300,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "Sulfur after ZnO",
@@ -285,7 +310,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "high": 0.1
+      "high": 0.1,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "H2/N2 ratio",
@@ -294,7 +320,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "value": "3:1"
+      "value": "3:1",
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "CO2 after removal",
@@ -303,7 +330,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "Combined water and CO2 after ammonia wash",
@@ -312,7 +340,8 @@
       "source": {
         "url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
       },
-      "high": 0.1
+      "high": 0.1,
+      "source_url": "https://casale.ch/wp-content/uploads/2024/10/Casale_N-ELEVA.pdf"
     },
     {
       "metric": "NOx emissions",
@@ -321,7 +350,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Blue configuration energy consumption (other entry on same page)",
@@ -330,7 +360,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": 7.9
+      "value": 7.9,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Grey configuration energy consumption (other entry on same page)",
@@ -339,7 +370,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": 6.5
+      "value": 6.5,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     }
   ],
   "vendors": [

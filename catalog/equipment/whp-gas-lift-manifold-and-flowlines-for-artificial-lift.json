@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "The West Desaru conductor-supported WSS topsides were designed with gas lift flowlines alongside oil production and water injection flowlines, and Baker Hughes supplies injection-pressure and production-pressure-operated gas lift valves for continuous or intermittent lift.",
+  "description": "The West Desaru conductor-supported WSS topsides were designed with gas lift flowlines alongside oil production and water injection flowlines, and Baker Hughes supplies injection-pressure and production-pressure-operated gas lift valves for continuous or intermittent lift. Primary source: https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
   "aliases": [
     "Gas lift manifold and flowlines for artificial lift"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
         "source_id": "cat-bakerhughes-com-gas-lift-valves"
-      }
+      },
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     },
     {
       "metric": "Gas lift valves and mandrels — mandrel compatibility",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
         "source_id": "cat-bakerhughes-com-gas-lift-valves"
-      }
+      },
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     },
     {
       "metric": "Gas lift flowlines (WHP topsides) — gas lift flowline presence",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
         "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
-      }
+      },
+      "source_url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in"
     }
   ],
   "vendor_models": [],

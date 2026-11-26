@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Increase existing separator capacity and reduce topside weight/footprint by bulk phase bypass and high-efficiency internals rather than new large vessels.",
+  "description": "Increase existing separator capacity and reduce topside weight/footprint by bulk phase bypass and high-efficiency internals rather than new large vessels. Primary source: https://www.technipfmc.com/en/what-we-do/surface/production",
   "specifications": [
     {
       "metric": "InLine ElectroCoalescer claim",
@@ -19,7 +19,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/surface/production",
         "source_id": "technipfmc-com-surface-production"
       },
-      "value": "drastically enhances liquid-liquid separation; reduces footprint/cost; ideal for debottlenecking"
+      "value": "drastically enhances liquid-liquid separation; reduces footprint/cost; ideal for debottlenecking",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/surface/production"
     },
     {
       "metric": "Subsea compact separation envelope",
@@ -29,7 +30,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-separation",
         "source_id": "sys-onesubsea-slb-com-subsea-separation"
       },
-      "value": "1,015 metric tons CO2e elimination claim (electrified subsea approach)"
+      "value": "1,015 metric tons CO2e elimination claim (electrified subsea approach)",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-separation"
     }
   ],
   "vendors": [

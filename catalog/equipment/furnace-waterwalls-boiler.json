@@ -2,7 +2,7 @@
   "id": "furnace-waterwalls-boiler",
   "name": "Boiler furnace and membrane water walls",
   "equipment_type": "pressure-part",
-  "description": "Radiant heat-release enclosure around the flame. Fire-tube boilers confine the flame in a large furnace tube surrounded by water; water-tube boilers use finned membrane wall panels in which the furnace walls themselves form evaporator surface. Cooling the gas before the reversal chamber and limiting metal subcooling during cycling are central to tube life.",
+  "description": "Radiant heat-release enclosure around the flame. Fire-tube boilers confine the flame in a large furnace tube surrounded by water; water-tube boilers use finned membrane wall panels in which the furnace walls themselves form evaporator surface. Cooling the gas before the reversal chamber and limiting metal subcooling during cycling are central to tube life. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
   "specifications": [
     {
       "metric": "flame temperature",
@@ -12,7 +12,8 @@
         "source_id": "spirax-shell-boilers"
       },
       "unit": "degC",
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB"
     },
     {
       "metric": "gas temperature before reversal, plain steel",
@@ -22,7 +23,8 @@
         "source_id": "spirax-shell-boilers"
       },
       "unit": "degC",
-      "value": 420
+      "value": 420,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB"
     },
     {
       "metric": "gas temperature before reversal, alloy steel",
@@ -32,7 +34,8 @@
         "source_id": "spirax-shell-boilers"
       },
       "unit": "degC",
-      "value": 470
+      "value": 470,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB"
     },
     {
       "metric": "lower-furnace subcooling limit",
@@ -42,7 +45,8 @@
         "source_id": "bw-boiler-cycling"
       },
       "unit": "degF",
-      "value": 100
+      "value": 100,
+      "source_url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations"
     },
     {
       "metric": "furnace wall construction",
@@ -52,7 +56,8 @@
         "source_id": "spirax-water-tube-boilers"
       },
       "unit": "qualitative",
-      "value": "finned membrane wall"
+      "value": "finned membrane wall",
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB"
     },
     {
       "metric": "Furnace firing temperature",
@@ -62,7 +67,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "deg F (up to)",
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Furnace construction",
@@ -72,7 +78,8 @@
         "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
       },
       "unit": "construction",
-      "value": "100% membrane water-cooled, refractory free; welded front and rear walls also water cooled"
+      "value": "100% membrane water-cooled, refractory free; welded front and rear walls also water cooled",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "Styles",
@@ -82,7 +89,8 @@
         "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
       },
       "unit": "styles",
-      "value": "D-type and O-type"
+      "value": "D-type and O-type",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "Exhaust gas flow",
@@ -92,7 +100,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 1000000,
-      "high": "lb/hr"
+      "high": "lb/hr",
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam flow",
@@ -103,7 +112,8 @@
       },
       "value": 10000,
       "low": 500000,
-      "high": "lb/hr"
+      "high": "lb/hr",
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Design pressure",
@@ -112,7 +122,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam temperature",
@@ -121,7 +132,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Duct firing temperature",
@@ -130,7 +142,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Gas turbine size range",
@@ -141,7 +154,8 @@
       },
       "value": 3,
       "low": 25,
-      "high": "MW"
+      "high": "MW",
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Efficiency",
@@ -150,7 +164,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Traditional technology efficiency",
@@ -159,7 +174,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 56
+      "value": 56,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Fuel reduction",
@@ -168,7 +184,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 7.0
+      "value": 7.0,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "CO2 avoidance",
@@ -177,7 +194,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2870
+      "value": 2870,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "NOx with SCR",
@@ -186,7 +204,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Models",
@@ -194,7 +213,8 @@
       "basis": "'MF (O-style) and MFA (A-style)' with furnace; 'VL (O-style) and VLA (A-style)' without furnace",
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Assembly/circulation",
@@ -202,7 +222,8 @@
       "basis": "'Shop Assembled', 'Natural Circulation', 'Membrane Wall Construction'",
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "CBCW - steam flow range",
@@ -212,7 +233,8 @@
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
       "low": 10000,
-      "high": 225000
+      "high": 225000,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - steam pressure range",
@@ -222,7 +244,8 @@
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
       "low": 100,
-      "high": 550
+      "high": 550,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - steam temperature",
@@ -231,7 +254,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Saturated"
+      "value": "Saturated",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - NOx emissions",
@@ -240,7 +264,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "<9 ppm (available); <2 ppm with ultra-low NOx burner and SCR"
+      "value": "<9 ppm (available); <2 ppm with ultra-low NOx burner and SCR",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - fuels",
@@ -249,7 +274,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Natural Gas, Propane, Digester, #2 Light Oil"
+      "value": "Natural Gas, Propane, Digester, #2 Light Oil",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - assembly",
@@ -258,7 +284,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction"
+      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - style",
@@ -267,7 +294,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "D-type, O-type; 100% membrane water-cooled furnace, refractory-free"
+      "value": "D-type, O-type; 100% membrane water-cooled furnace, refractory-free",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - control system",
@@ -276,7 +304,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Cleaver-Brooks Hawk 4500 control"
+      "value": "Cleaver-Brooks Hawk 4500 control",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - delivery lead-time reduction",
@@ -285,7 +314,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     }
   ],
   "vendors": [

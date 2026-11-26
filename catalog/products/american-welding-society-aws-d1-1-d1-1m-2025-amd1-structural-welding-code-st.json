@@ -6,7 +6,7 @@
   "equipment": [
     "civ-structural-steel-fabricated-beams-columns-bracing"
   ],
-  "description": "Vendor product line read 2026-11-24. Member price USD 588 / non-member USD 784 (publisher store page, 2026).",
+  "description": "Vendor product line read 2026-11-24. Member price USD 588 / non-member USD 784 (publisher store page, 2026). Primary source: https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
   "specifications": [
     {
       "metric": "edition",
@@ -16,7 +16,8 @@
         "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
         "source_id": "aws-org-d1-1"
       },
-      "value": "25th edition, 2025 with 2026 amendment"
+      "value": "25th edition, 2025 with 2026 amendment",
+      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
     },
     {
       "metric": "annexes",
@@ -26,7 +27,8 @@
         "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
         "source_id": "aws-org-d1-1"
       },
-      "value": "8 normative + 11 informative"
+      "value": "8 normative + 11 informative",
+      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
     },
     {
       "metric": "Standard designation",
@@ -34,7 +36,8 @@
       "basis": "AWS D1.1/D1.1M:2025-AMD1 - Structural Welding Code-Steel, also called D1.1",
       "source": {
         "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-      }
+      },
+      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
     },
     {
       "metric": "Original publication year",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
       },
-      "value": 1928
+      "value": 1928,
+      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
     },
     {
       "metric": "Available formats",
@@ -51,7 +55,8 @@
       "basis": "'Available in print and digital formats'",
       "source": {
         "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-      }
+      },
+      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
     },
     {
       "metric": "Code scope",
@@ -59,7 +64,8 @@
       "basis": "'the premier welding code of the American Welding Society' ... 'worldwide standard for welding structural steel'",
       "source": {
         "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-      }
+      },
+      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
     }
   ],
   "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",

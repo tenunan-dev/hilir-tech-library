@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Floating hull with submerged pontoons and columns supporting a deck; ballastable, moored or dynamically positioned; used for drilling, production, crane work and accommodation.",
+  "description": "Floating hull with submerged pontoons and columns supporting a deck; ballastable, moored or dynamically positioned; used for drilling, production, crane work and accommodation. Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "water depth range",
@@ -20,7 +20,8 @@
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "low": 60,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "transition from fixed structures",
@@ -30,7 +31,8 @@
         "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
         "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
       },
-      "value": 520
+      "value": 520,
+      "source_url": "https://en.wikipedia.org/wiki/Semi-submersible_platform"
     },
     {
       "metric": "nominal generations",
@@ -40,7 +42,8 @@
         "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
         "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
       },
-      "value": "1st ~200 m (early 1960s); 2nd ~300 m (1969-74); 3rd ~500 m (early 1980s); 4th ~1,000 m (1990s); 5th ~2,500 m (1998-2004); 6th ~3,000 m (2005-2010)"
+      "value": "1st ~200 m (early 1960s); 2nd ~300 m (1969-74); 3rd ~500 m (early 1980s); 4th ~1,000 m (1990s); 5th ~2,500 m (1998-2004); 6th ~3,000 m (2005-2010)",
+      "source_url": "https://en.wikipedia.org/wiki/Semi-submersible_platform"
     },
     {
       "metric": "heaviest SSCV lift capacity",
@@ -50,7 +53,8 @@
         "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
         "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
       },
-      "value": "Thialf 14,200 t; Saipem 7000 14,000 t"
+      "value": "Thialf 14,200 t; Saipem 7000 14,000 t",
+      "source_url": "https://en.wikipedia.org/wiki/Semi-submersible_platform"
     },
     {
       "metric": "largest production semi-submersible",
@@ -60,7 +64,8 @@
         "url": "https://en.wikipedia.org/wiki/Semi-submersible_platform",
         "source_id": "en-wikipedia-org-wiki-semi-submersible-platform"
       },
-      "value": "Thunder Horse PDQ (GVA40000 design)"
+      "value": "Thunder Horse PDQ (GVA40000 design)",
+      "source_url": "https://en.wikipedia.org/wiki/Semi-submersible_platform"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24. fetched",
+  "description": "Vendor product line read 2026-11-24. fetched Primary source: https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
   "specifications": [
     {
       "metric": "Depth",
@@ -16,7 +16,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Power",
@@ -26,7 +27,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 1125
+      "value": 1125,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Burial capacity",
@@ -36,7 +38,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Maximum deployment water depth",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Subsea power system",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Subsea power system (kW)",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 1125
+      "value": 1125,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Current performance",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 3.5
+      "value": 3.5,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Maximum burial capacity",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     }
   ],
   "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",

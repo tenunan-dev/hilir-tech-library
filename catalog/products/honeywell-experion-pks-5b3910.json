@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. DCS; statistics sourced from Honeywell process automation overview page (also fetched).",
+  "description": "Vendor product line read 2026-11-24. DCS; statistics sourced from Honeywell process automation overview page (also fetched). Primary source: https://process.honeywell.com/us/en/solutions/experion-pks",
   "specifications": [
     {
       "metric": "installed base - refineries",
@@ -16,7 +16,8 @@
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
         "source_id": "sys-process-honeywell-com-experion-pks"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "O&G processing plants",
@@ -26,7 +27,8 @@
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
         "source_id": "sys-process-honeywell-com-experion-pks"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "Product type",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
       },
-      "value": "Distributed Control System & Process Automation"
+      "value": "Distributed Control System & Process Automation",
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "Solution suites",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
       },
-      "value": "Experion Solution Suites"
+      "value": "Experion Solution Suites",
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "Services",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
       },
-      "value": "Cybersecurity Services; Industrial Services; Training"
+      "value": "Cybersecurity Services; Industrial Services; Training",
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "Industries",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
       },
-      "value": "Oil and Gas; Refining and Petrochemicals; Onshore Production; Offshore Production; Gas Processing; LNG; Power; Water & Wastewater"
+      "value": "Oil and Gas; Refining and Petrochemicals; Onshore Production; Offshore Production; Gas Processing; LNG; Power; Water & Wastewater",
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     }
   ],
   "url": "https://process.honeywell.com/us/en/solutions/experion-pks",

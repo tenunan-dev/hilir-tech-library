@@ -6,7 +6,7 @@
   "equipment": [
     "geg-commissioning-equipment-and-consumables"
   ],
-  "description": "gas engine lubricating oil (consumable)",
+  "description": "gas engine lubricating oil (consumable) Primary source: https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
   "specifications": [
     {
       "metric": "SAE viscosity class (approved engine oil, Series 4000 and 400 gas engines)",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Shell Mysella S5 N 40 SAE grade",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Shell Mysella S3 N 40 SAE grade",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Approved engine family",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "MTU gas engines / gas engine-generator sets (Series 4000 marine and generator application; Series 400 engine-generator set)"
+      "value": "MTU gas engines / gas engine-generator sets (Series 4000 marine and generator application; Series 400 engine-generator set)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Publication reference",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "A001072/02E"
+      "value": "A001072/02E",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     }
   ],
   "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",

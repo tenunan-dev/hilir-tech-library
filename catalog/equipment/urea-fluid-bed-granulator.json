@@ -11,7 +11,7 @@
   "sector_codes": [
     "PCH"
   ],
-  "description": "Fluid-bed unit that builds urea granules from sprayed melt onto seed particles, with internal recycling and classification to hold a target granule size. Granules are larger and harder than prills, which suits bulk blending and reduces caking.",
+  "description": "Fluid-bed unit that builds urea granules from sprayed melt onto seed particles, with internal recycling and classification to hold a target granule size. Granules are larger and harder than prills, which suits bulk blending and reduces caking. Primary source: https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf",
   "applications": [
     "urea finishing to granular product"
   ],
@@ -24,7 +24,8 @@
       "source": {
         "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf",
         "note": "thyssenkrupp Uhde urea technology brochure, read 2026-11-17"
-      }
+      },
+      "source_url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf"
     },
     {
       "metric": "granule size",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf",
         "note": "thyssenkrupp Uhde urea technology brochure, read 2026-11-17"
-      }
+      },
+      "source_url": "https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf"
     },
     {
       "metric": "recycle ratio",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://ureaknowhow.com/wp-content/uploads/2015/05/2015-05-Su-Analysis-of-particle-growth-in-TEC-fluid-bed-granulator.pdf",
         "note": "Su, Analysis of particle growth in a TEC fluid-bed granulator, 2015, read 2026-11-17"
-      }
+      },
+      "source_url": "https://ureaknowhow.com/wp-content/uploads/2015/05/2015-05-Su-Analysis-of-particle-growth-in-TEC-fluid-bed-granulator.pdf"
     },
     {
       "metric": "bed temperature",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://ureaknowhow.com/wp-content/uploads/2015/05/2015-05-Su-Analysis-of-particle-growth-in-TEC-fluid-bed-granulator.pdf",
         "note": "Su, Analysis of particle growth in a TEC fluid-bed granulator, 2015, read 2026-11-17"
-      }
+      },
+      "source_url": "https://ureaknowhow.com/wp-content/uploads/2015/05/2015-05-Su-Analysis-of-particle-growth-in-TEC-fluid-bed-granulator.pdf"
     },
     {
       "metric": "product total nitrogen",
@@ -66,7 +70,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 46.3
+      "value": 46.3,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "product biuret",
@@ -76,7 +81,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 0.8
+      "value": 0.8,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "product moisture",
@@ -86,7 +92,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "product formaldehyde",
@@ -96,7 +103,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 0.45
+      "value": 0.45,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "product size 2-4 mm",
@@ -106,7 +114,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "granule hardness",
@@ -116,7 +125,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 3.5
+      "value": 3.5,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "steam consumption",
@@ -126,7 +136,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 0.01
+      "value": 0.01,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "power consumption (fluidising product cooler)",
@@ -136,7 +147,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 24
+      "value": 24,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "power consumption (bulk flow cooler with cooling water)",
@@ -146,7 +158,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 19
+      "value": 19,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "cooling water",
@@ -156,7 +169,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": "Nil"
+      "value": "Nil",
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "urea dust emission",
@@ -166,7 +180,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "high": 30
+      "high": 30,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Casale GREEN GRANULATION acquisition",
@@ -176,7 +191,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": 2022
+      "value": 2022,
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "service scope",
@@ -186,7 +202,8 @@
         "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
         "source_id": "ureaknowhow-com-fluid-bed-granulation-optimization"
       },
-      "value": "training, desk studies, online Q&A, site visits, troubleshooting, revamp proposals, dynamic simulator"
+      "value": "training, desk studies, online Q&A, site visits, troubleshooting, revamp proposals, dynamic simulator",
+      "source_url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
     },
     {
       "metric": "formaldehyde use",
@@ -196,7 +213,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": "minimum or no use"
+      "value": "minimum or no use",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "application",
@@ -206,7 +224,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": "critical items in urea plants / high-pressure strippers"
+      "value": "critical items in urea plants / high-pressure strippers",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "total nitrogen",
@@ -216,7 +235,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 46.3
+      "value": 46.3,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "biuret",
@@ -226,7 +246,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 0.8
+      "value": 0.8,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "size 2-4 mm",
@@ -236,7 +257,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "steam",
@@ -246,7 +268,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 0.01
+      "value": 0.01,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "power",
@@ -256,7 +279,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 24
+      "value": 24,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "urea dust",
@@ -266,7 +290,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Total nitrogen",
@@ -275,7 +300,8 @@
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
       },
-      "value": 46.3
+      "value": 46.3,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Biuret",
@@ -284,7 +310,8 @@
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
       },
-      "value": 0.8
+      "value": 0.8,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Moisture",
@@ -293,7 +320,8 @@
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
       },
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Formaldehyde",
@@ -302,7 +330,8 @@
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
       },
-      "value": 0.45
+      "value": 0.45,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Size 2-4 mm fraction",
@@ -311,7 +340,8 @@
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Hardness",
@@ -320,7 +350,8 @@
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
       },
-      "value": 3.5
+      "value": 3.5,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Steam consumption",
@@ -329,7 +360,8 @@
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
       },
-      "value": 0.01
+      "value": 0.01,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Power consumption",
@@ -338,7 +370,8 @@
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
       },
-      "value": 24
+      "value": 24,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Power with bulk flow cooler",
@@ -347,7 +380,8 @@
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
       },
-      "value": 19
+      "value": 19,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Cooling water consumption",
@@ -355,7 +389,8 @@
       "basis": "'CoolingWater Nil'",
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
-      }
+      },
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Urea dust emission",
@@ -364,7 +399,8 @@
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Development period",
@@ -372,7 +408,8 @@
       "basis": "'since the late 1970s' for spouted bed; 'In the 1980s ... applying the Spout-Fluid Beds'",
       "source": {
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
-      }
+      },
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "Urea plant capacity (GRANULATION reference)",
@@ -381,7 +418,8 @@
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
       },
-      "value": 2200
+      "value": 2200,
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "Acquisition year of GREEN GRANULATION Ltd by Casale",
@@ -390,7 +428,8 @@
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
       },
-      "value": 2022
+      "value": 2022,
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "Formaldehyde use",
@@ -398,7 +437,8 @@
       "basis": "Benefit: \"Minimum or no use of formaldehyde\"",
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
-      }
+      },
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "Services",
@@ -407,7 +447,8 @@
       "source": {
         "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
       },
-      "value": "Training Programs Sessions; Desk Studies; Online Q&A Sessions; Site Visits; Troubleshooting and Optimization Suggestions; Revamp Proposals; Dynamic Simulator; Fluid Bed Granulation Pilot Plant"
+      "value": "Training Programs Sessions; Desk Studies; Online Q&A Sessions; Site Visits; Troubleshooting and Optimization Suggestions; Revamp Proposals; Dynamic Simulator; Fluid Bed Granulation Pilot Plant",
+      "source_url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
     },
     {
       "metric": "Solved issues",
@@ -416,7 +457,8 @@
       "source": {
         "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
       },
-      "value": "Increase of on-stream times; lower wet recycle (less dust formation in granulator); granulator sprayer issues; reduction of moisture content in final product; proper settings of the crusher; optimum g"
+      "value": "Increase of on-stream times; lower wet recycle (less dust formation in granulator); granulator sprayer issues; reduction of moisture content in final product; proper settings of the crusher; optimum g",
+      "source_url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
     },
     {
       "metric": "Company location",
@@ -425,7 +467,8 @@
       "source": {
         "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
       },
-      "value": "Maastricht, The Netherlands"
+      "value": "Maastricht, The Netherlands",
+      "source_url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
     }
   ],
   "vendors": [

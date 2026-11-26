@@ -6,7 +6,7 @@
   "equipment": [
     "geg-commissioning-equipment-and-consumables"
   ],
-  "description": "commissioning consumables package",
+  "description": "commissioning consumables package Primary source: https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
   "specifications": [
     {
       "metric": "number of standardised spare parts packages",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Post-commissioning package - contents",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Filters for lubrication oil, fuel and air; relevant gaskets for valve-clearance adjustment; spare fuel injector"
+      "value": "Filters for lubrication oil, fuel and air; relevant gaskets for valve-clearance adjustment; spare fuel injector",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Exhaust gas after treatment package - contents",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Urea filters, spare urea injectors and NOx reduction components"
+      "value": "Urea filters, spare urea injectors and NOx reduction components",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Automation package - contents",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Selection of sensors: speed, pressure, float switch and temperature"
+      "value": "Selection of sensors: speed, pressure, float switch and temperature",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D engine - configuration",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "V type, available with 12, 16 or 20 cylinders; 175 mm bore"
+      "value": "V type, available with 12, 16 or 20 cylinders; 175 mm bore",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D engine - speed range",
@@ -63,7 +68,8 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
       "low": 1500,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D engine - power ratings",
@@ -73,7 +79,8 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
       "low": 1440,
-      "high": 4400
+      "high": 4400,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D - service network",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Over 100 service centers worldwide; 24/7 service"
+      "value": "Over 100 service centers worldwide; 24/7 service",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     }
   ],
   "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",

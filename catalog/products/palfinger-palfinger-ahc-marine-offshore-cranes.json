@@ -6,7 +6,7 @@
   "equipment": [
     "near-deck-cranes-davits-and-lifting-appliances"
   ],
-  "description": "Vendor product line read 2026-11-24. Designed to DNV-ST-0378; AOPS/MOPS overload protection.",
+  "description": "Vendor product line read 2026-11-24. Designed to DNV-ST-0378; AOPS/MOPS overload protection. Primary source: https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
   "specifications": [
     {
       "metric": "hoisting capacity",
@@ -16,7 +16,8 @@
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
       },
-      "value": "up to 250"
+      "value": "up to 250",
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "jib radius",
@@ -26,7 +27,8 @@
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
       },
-      "value": "up to 50"
+      "value": "up to 50",
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "wire capacity",
@@ -36,7 +38,8 @@
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "winterization",
@@ -46,7 +49,8 @@
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
       },
-      "value": -50
+      "value": -50,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "Hoisting capacity",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "Jib radius",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "Main winch wire capacity standard",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "Design standard",
@@ -81,7 +88,8 @@
       "basis": "'Design according to latest DNV-ST-0378'; class rules DNV, BV, LRS, ABS",
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
-      }
+      },
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "Winterization temperature",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
       },
-      "value": -50
+      "value": -50,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "SWL range",
@@ -101,7 +110,8 @@
       },
       "value": 5,
       "low": 250,
-      "high": "tons"
+      "high": "tons",
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "Overload/operator systems",
@@ -109,7 +119,8 @@
       "basis": "'Overload protection systems: AOPS / MOPS'; 'Constant Tensioning / Suction Lift-Off'; optional energy recuperation",
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
-      }
+      },
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "DKF1600C-100T main winch SWL",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "DKF1600C-150T main winch SWL",
@@ -127,7 +139,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "DKF2500C-150T main winch SWL",
@@ -136,7 +149,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "DKF2500C-200T main winch SWL",
@@ -145,7 +159,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "DKF2500C-250T main winch SWL",
@@ -154,7 +169,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     }
   ],
   "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",

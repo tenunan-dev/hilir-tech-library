@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Installed on the subsea wellhead to control flow into and out of the well; connect tubing and downhole devices to the seafloor and surface host; provide valve, choke and intervention interfaces.",
+  "description": "Installed on the subsea wellhead to control flow into and out of the well; connect tubing and downhole devices to the seafloor and surface host; provide valve, choke and intervention interfaces. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
   "specifications": [
     {
       "metric": "Operating temperature range",
@@ -20,7 +20,8 @@
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "low": -18,
-      "high": 176
+      "high": 176,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Maximum pressure",
@@ -30,7 +31,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Production bore (wellhead vertical tree)",
@@ -40,7 +42,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Tree pressure rating",
@@ -50,7 +53,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Tree temperature rating",
@@ -60,7 +64,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Tree water depth rating",
@@ -70,7 +75,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Deepest subsea completion record",
@@ -80,7 +86,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 9627
+      "value": 9627,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Tree sizes",
@@ -91,7 +98,8 @@
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
       },
       "low": 5,
-      "high": 7
+      "high": 7,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "HPHT flowing temperature",
@@ -101,7 +109,8 @@
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Aptara framework rating",
@@ -111,7 +120,8 @@
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Depth",
@@ -121,7 +131,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "Pressure",
@@ -131,7 +142,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "Temperature",
@@ -141,7 +153,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
-      "value": 175
+      "value": 175,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "water_depth_capability",
@@ -150,7 +163,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "pressure_capability",
@@ -159,7 +173,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "temperature_capability",
@@ -168,7 +183,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
       },
-      "value": 175
+      "value": 175,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "structure_types",
@@ -177,7 +193,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
       },
-      "value": "cluster manifolds with two or more well slots, pipeline-end manifolds and terminations, tie-in structures; integrated template structure (ITS) provides protected foundation for subsea trees and manifo"
+      "value": "cluster manifolds with two or more well slots, pipeline-end manifolds and terminations, tie-in structures; integrated template structure (ITS) provides protected foundation for subsea trees and manifo",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     }
   ],
   "vendors": [

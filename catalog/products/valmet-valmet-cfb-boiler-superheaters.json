@@ -6,7 +6,7 @@
   "equipment": [
     "superheater-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Valmet CFB Boiler page directly with WebFetch (markdown). Superheaters are a subsystem of the CFB boiler, not a standalone named product line.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Valmet CFB Boiler page directly with WebFetch (markdown). Superheaters are a subsystem of the CFB boiler, not a standalone named product line. Primary source: https://www.valmet.com/energyproduction/cfb-boilers/",
   "specifications": [
     {
       "metric": "Superheater design",
@@ -16,7 +16,8 @@
         "source_id": "valmet-com-energyproduction-cfb-boilers"
       },
       "unit": "design feature",
-      "value": "Dedicated superheaters for corrosive fuels; easily replaceable superheaters in back pass"
+      "value": "Dedicated superheaters for corrosive fuels; easily replaceable superheaters in back pass",
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "High steam parameters",
@@ -26,7 +27,8 @@
         "source_id": "valmet-com-energyproduction-cfb-boilers"
       },
       "unit": "qualitative",
-      "value": "Possible without severe corrosion even with recovered fuels"
+      "value": "Possible without severe corrosion even with recovered fuels",
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Boiler size range",
@@ -36,7 +38,8 @@
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
       },
       "low": 30,
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Installed references",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Superheaters for corrosive fuels",
@@ -53,7 +57,8 @@
       "basis": "\"Well-proven design, including dedicated superheaters for corrosive fuels\"",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Superheater arrangement for recycled fuel",
@@ -61,7 +66,8 @@
       "basis": "\"For recycled fuel combustion, the Valmet CFB Boiler is equipped with a special grid design for effective debris removal and a back pass, including an empty pass and easily replaceable superheaters\"",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Cyclone construction",
@@ -69,7 +75,8 @@
       "basis": "\"high-efficiency cylindrical cyclones constructed of membrane walls covered by a light refractory for erosion protection. No hot expansion joints between the furnace and the cyclone are needed\"",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Steam parameters",
@@ -77,7 +84,8 @@
       "basis": "\"High steam parameters are possible without severe corrosion, even with recovered fuels, thanks to fluidized bed heat exchangers located in the loop seal\" (no numeric steam pressure/temperature printed)",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     }
   ],
   "url": "https://www.valmet.com/energyproduction/cfb-boilers/",

@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "ESD is a safety instrumented system that drives the wellhead control panel and shutdown valves to a safe state. Offshore Norge recommended guidance assigns SIL 3 to isolation of the production/injection bore of a topside well; US OCS rules require de-energize-to-trip or supervised ESD stations.",
+  "description": "ESD is a safety instrumented system that drives the wellhead control panel and shutdown valves to a safe state. Offshore Norge recommended guidance assigns SIL 3 to isolation of the production/injection bore of a topside well; US OCS rules require de-energize-to-trip or supervised ESD stations. Primary source: https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
   "aliases": [
     "ESD (Emergency Shutdown) system with dual redundant logic and SDV valves"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
         "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
-      }
+      },
+      "source_url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf"
     },
     {
       "metric": "Reliability — Required SIL - ESD isolation of production/injection bore",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
         "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
-      }
+      },
+      "source_url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf"
     },
     {
       "metric": "Reliability — Required SIL - ESD isolation of annulus in one topside gas lift well",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
         "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
-      }
+      },
+      "source_url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf"
     }
   ],
   "vendor_models": [],

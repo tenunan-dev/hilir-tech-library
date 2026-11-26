@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Palletisers",
+  "description": "Palletisers Primary source: https://en.wikipedia.org/wiki/Palletizer",
   "specifications": [
     {
       "metric": "high-level infeed",
@@ -20,7 +20,8 @@
         "source_id": "en-wikipedia-org-wiki-palletizer"
       },
       "low": 7,
-      "high": 10.33
+      "high": 10.33,
+      "source_url": "https://en.wikipedia.org/wiki/Palletizer"
     },
     {
       "metric": "floor-level infeed",
@@ -31,7 +32,8 @@
         "source_id": "en-wikipedia-org-wiki-palletizer"
       },
       "low": 2.5,
-      "high": 3.0
+      "high": 3.0,
+      "source_url": "https://en.wikipedia.org/wiki/Palletizer"
     },
     {
       "metric": "first mechanized palletizer",
@@ -41,7 +43,8 @@
         "url": "https://en.wikipedia.org/wiki/Palletizer",
         "source_id": "en-wikipedia-org-wiki-palletizer"
       },
-      "value": 1948
+      "value": 1948,
+      "source_url": "https://en.wikipedia.org/wiki/Palletizer"
     },
     {
       "metric": "end effector package types",
@@ -51,7 +54,8 @@
         "url": "https://en.wikipedia.org/wiki/Palletizer",
         "source_id": "en-wikipedia-org-wiki-palletizer"
       },
-      "value": "cases, bags, pails, drums, bottles"
+      "value": "cases, bags, pails, drums, bottles",
+      "source_url": "https://en.wikipedia.org/wiki/Palletizer"
     }
   ],
   "vendors": [

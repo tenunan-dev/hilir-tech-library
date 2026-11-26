@@ -6,7 +6,7 @@
   "equipment": [
     "jetty-motion-compensated-access-gangways-boarding-bridges"
   ],
-  "description": "Vendor product line read 2026-11-24. Lloyd's certified, DNV-approved sea fastening; vessel >70 m.",
+  "description": "Vendor product line read 2026-11-24. Lloyd's certified, DNV-approved sea fastening; vessel >70 m. Primary source: https://www.ampelmann.nl/systems/e-type",
   "specifications": [
     {
       "metric": "wave compensation",
@@ -16,7 +16,8 @@
         "url": "https://www.ampelmann.nl/systems/e-type",
         "source_id": "ampelmann-nl-systems-e-type"
       },
-      "value": 4.5
+      "value": 4.5,
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "gangway length",
@@ -26,7 +27,8 @@
         "url": "https://www.ampelmann.nl/systems/e-type",
         "source_id": "ampelmann-nl-systems-e-type"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "footprint",
@@ -36,7 +38,8 @@
         "url": "https://www.ampelmann.nl/systems/e-type",
         "source_id": "ampelmann-nl-systems-e-type"
       },
-      "value": "8.4 x 9.5"
+      "value": "8.4 x 9.5",
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "system weight",
@@ -46,7 +49,8 @@
         "url": "https://www.ampelmann.nl/systems/e-type",
         "source_id": "ampelmann-nl-systems-e-type"
       },
-      "value": 105
+      "value": 105,
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "Maximum significant wave height for personnel transfer",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.ampelmann.nl/systems/e-type"
       },
-      "value": 4.5
+      "value": 4.5,
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "Gangway length",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.ampelmann.nl/systems/e-type"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "Footprint",
@@ -72,7 +78,8 @@
       "basis": "\"8.4 x 9.5m Footprint\"",
       "source": {
         "url": "https://www.ampelmann.nl/systems/e-type"
-      }
+      },
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "Weight",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.ampelmann.nl/systems/e-type"
       },
-      "value": 105
+      "value": 105,
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "Motion compensation degrees of freedom",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.ampelmann.nl/systems/e-type"
       },
-      "value": 6
+      "value": 6,
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "System mobilisation time",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://www.ampelmann.nl/systems/e-type"
       },
-      "value": 24
+      "value": 24,
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "Certification",
@@ -107,7 +117,8 @@
       "basis": "\"Lloyd's certified. Sea fastening: DNV approved\"",
       "source": {
         "url": "https://www.ampelmann.nl/systems/e-type"
-      }
+      },
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "Power requirements / included containers",
@@ -115,7 +126,8 @@
       "basis": "\"Two (E)HPUs (2 x 20ft), tool container (20ft) and hydraulics container (10ft) included\"",
       "source": {
         "url": "https://www.ampelmann.nl/systems/e-type"
-      }
+      },
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     },
     {
       "metric": "Minimum vessel length",
@@ -124,7 +136,8 @@
       "source": {
         "url": "https://www.ampelmann.nl/systems/e-type"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://www.ampelmann.nl/systems/e-type"
     }
   ],
   "url": "https://www.ampelmann.nl/systems/e-type",

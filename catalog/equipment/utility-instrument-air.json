@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Compressed air and instrument air",
+  "description": "Compressed air and instrument air Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
   "specifications": [
     {
       "metric": "Instrument air mains pressure",
@@ -19,7 +19,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": 6
+      "value": 6,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Instrument air quality",
@@ -29,7 +30,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": "dry and clean (free from oil)"
+      "value": "dry and clean (free from oil)",
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     }
   ],
   "vendors": [

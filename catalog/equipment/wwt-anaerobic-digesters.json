@@ -6,7 +6,7 @@
   "sector_codes": [
     "WWT"
   ],
-  "description": "Complete-mix mesophilic/thermophilic digesters with heating, gas mixing and biogas handling; optionally preceded by thermal hydrolysis.",
+  "description": "Complete-mix mesophilic/thermophilic digesters with heating, gas mixing and biogas handling; optionally preceded by thermal hydrolysis. Primary source: https://www.veoliawatertech.com/",
   "subtypes": [
     {
       "name": "mesophilic complete-mix"
@@ -32,7 +32,8 @@
       "source": {
         "url": "https://www.veoliawatertech.com/",
         "note": "published AD practice, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.veoliawatertech.com/"
     },
     {
       "metric": "biogas yield",
@@ -43,7 +44,8 @@
       "source": {
         "url": "https://www.veoliawatertech.com/",
         "note": "published AD practice, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.veoliawatertech.com/"
     }
   ],
   "vendor_models": [

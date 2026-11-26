@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Open-bottomed inverted-bucket foundation embedded by pumping water out (negative pressure); resists lateral and axial loads and is removable by reverse pumping.",
+  "description": "Open-bottomed inverted-bucket foundation embedded by pumping water out (negative pressure); resists lateral and axial loads and is removable by reverse pumping. Primary source: https://en.wikipedia.org/wiki/Suction_caisson",
   "specifications": [
     {
       "metric": "historical installation count",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": 485
+      "value": 485,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Diana suction caisson dimensions",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Diana suction caisson diameter",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": 6.5
+      "value": 6.5,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Snorre A suction anchor length vs conventional pile",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Troll A concrete skirt length",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     }
   ],
   "vendors": [

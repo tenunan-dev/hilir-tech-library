@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Ensure dehydrated, sweetened, dew-point-controlled gas meets pipeline/sales requirements for water content, H2S/CO2, hydrocarbon dew point and heating value before custody transfer.",
+  "description": "Ensure dehydrated, sweetened, dew-point-controlled gas meets pipeline/sales requirements for water content, H2S/CO2, hydrocarbon dew point and heating value before custody transfer. Primary source: https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
   "specifications": [
     {
       "metric": "Pipeline water content target",
@@ -19,7 +19,8 @@
         "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
         "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
       },
-      "value": "1-7"
+      "value": "1-7",
+      "source_url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas"
     },
     {
       "metric": "Pipeline requirement (operator practice)",
@@ -29,7 +30,8 @@
         "url": "https://www.kindermorgan.com/Operations/KM-Treating/Products/Dehydration",
         "source_id": "kindermorgan-com-products-dehydration"
       },
-      "value": "7"
+      "value": "7",
+      "source_url": "https://www.kindermorgan.com/Operations/KM-Treating/Products/Dehydration"
     },
     {
       "metric": "Standard TEG dry-gas guarantee",
@@ -39,7 +41,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg",
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-packages-with"
       },
-      "value": "3-7"
+      "value": "3-7",
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg"
     }
   ],
   "vendors": [

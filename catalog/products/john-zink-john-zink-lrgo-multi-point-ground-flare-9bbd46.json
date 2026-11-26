@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. Highest total smokeless rate claim; staging for turndown",
+  "description": "Vendor product line read 2026-11-24. Highest total smokeless rate claim; staging for turndown Primary source: https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
   "specifications": [
     {
       "metric": "Destruction efficiency",
@@ -16,7 +16,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "value": 99.5
+      "value": 99.5,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "API 537 compliance",
@@ -26,7 +27,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "value": "available"
+      "value": "available",
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Destruction efficiency",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
       },
-      "value": 99.5
+      "value": 99.5,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Smokeless operation",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Standard",
@@ -52,7 +56,8 @@
       "basis": "John Zink: 'Available API 537 Compliance: Ensures compliance with the latest Industry flare standards.'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Turndown / flow claim",
@@ -60,7 +65,8 @@
       "basis": "John Zink: 'highest total smokeless rate of any flare while providing the widest range of smokeless turndown ... industry-leading maximum waste gas flow rates'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     }
   ],
   "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",

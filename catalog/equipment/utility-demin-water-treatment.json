@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Demineralised water and raw water treatment",
+  "description": "Demineralised water and raw water treatment Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
   "specifications": [
     {
       "metric": "Dissolved solids in demineralised water",
@@ -19,7 +19,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "high": 1
+      "high": 1,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Demin water cost multiple",
@@ -29,7 +30,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Utility units in a named urea/ammonia plant cradle-to-gate boundary",
@@ -39,7 +41,8 @@
         "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
         "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
       },
-      "value": "filter water treatment; demin water treatment; cooling water treatment"
+      "value": "filter water treatment; demin water treatment; cooling water treatment",
+      "source_url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf"
     }
   ],
   "vendors": [

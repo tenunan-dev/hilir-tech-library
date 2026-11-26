@@ -2,7 +2,7 @@
   "id": "boiler-gas-condensing-hot-water",
   "name": "Gas-fired condensing hot-water boiler",
   "equipment_type": "boiler",
-  "description": "Packaged hydronic boiler that cools flue gas below its dew point to recover the latent heat of water vapour, using corrosion-resistant duplex or stainless heat-transfer surfaces. Available as one-pass firetube designs with premix or dual-fuel burners, with high turndown and integrated controls for commercial and institutional heating.",
+  "description": "Packaged hydronic boiler that cools flue gas below its dew point to recover the latent heat of water vapour, using corrosion-resistant duplex or stainless heat-transfer surfaces. Available as one-pass firetube designs with premix or dual-fuel burners, with high turndown and integrated controls for commercial and institutional heating. Primary source: https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers",
   "specifications": [
     {
       "metric": "minimum combustion efficiency, large commercial gas hot-water boiler",
@@ -12,7 +12,8 @@
         "source_id": "doe-femp-boilers"
       },
       "unit": "% Ec",
-      "value": 96
+      "value": 96,
+      "source_url": "https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers"
     },
     {
       "metric": "input capacity, Cleaver-Brooks ClearFire-CE",
@@ -23,7 +24,8 @@
       },
       "unit": "MBH",
       "low": 500,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "AHRI thermal efficiency, ClearFire-CE",
@@ -34,7 +36,8 @@
       },
       "unit": "%",
       "low": 94.7,
-      "high": 96
+      "high": 96,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "turndown, ClearFire-CE",
@@ -44,7 +47,8 @@
         "source_id": "cb-cfce"
       },
       "unit": ":1",
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "NOx, ClearFire-CE standard",
@@ -54,7 +58,8 @@
         "source_id": "cb-cfce"
       },
       "unit": "ppm",
-      "value": 20
+      "value": 20,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "hydrogen blend capability",
@@ -64,7 +69,8 @@
         "source_id": "cb-cfce"
       },
       "unit": "% by volume",
-      "value": 20
+      "value": 20,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "input capacity, Cleaver-Brooks SwitchFire",
@@ -75,7 +81,8 @@
       },
       "unit": "MBH",
       "low": 6000,
-      "high": 12000
+      "high": 12000,
+      "source_url": "https://cleaverbrooks.com/product/switchfire"
     },
     {
       "metric": "AHRI thermal efficiency, SwitchFire",
@@ -86,7 +93,8 @@
       },
       "unit": "%",
       "low": 95.6,
-      "high": 96.3
+      "high": 96.3,
+      "source_url": "https://cleaverbrooks.com/product/switchfire"
     },
     {
       "metric": "Input capacity",
@@ -97,7 +105,8 @@
       },
       "unit": "MBH (11 models)",
       "low": 500,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "AHRI combustion efficiency",
@@ -107,7 +116,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "%",
-      "value": 94.7
+      "value": 94.7,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "AHRI thermal efficiency",
@@ -117,7 +127,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "%",
-      "value": 96
+      "value": 96,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Design temperature",
@@ -127,7 +138,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "deg F",
-      "value": 210
+      "value": 210,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "NOx emissions",
@@ -138,7 +150,8 @@
       },
       "unit": "ppm NOx",
       "low": 7,
-      "high": 20
+      "high": 20,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Turndown",
@@ -148,7 +161,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": ":1 fully modulating",
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Sound level",
@@ -158,7 +172,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "dBA at 3 feet (less than)",
-      "value": 70
+      "value": 70,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Heat exchanger construction",
@@ -168,7 +183,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "material",
-      "value": "Duplex stainless steel; TurboFer/AluFer tubes"
+      "value": "Duplex stainless steel; TurboFer/AluFer tubes",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Hydrogen readiness",
@@ -178,7 +194,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "% volumetric hydrogen-natural gas blend",
-      "value": 20
+      "value": 20,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Input capacity",
@@ -189,7 +206,8 @@
       },
       "unit": "BTU/hr",
       "low": 399000,
-      "high": 6000000
+      "high": 6000000,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Thermal efficiency",
@@ -200,7 +218,8 @@
       },
       "unit": "% AHRI Thermal Efficiency",
       "low": 96.2,
-      "high": 98.0
+      "high": 98.0,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Turndown ratio",
@@ -211,7 +230,8 @@
       },
       "unit": ":1",
       "low": 8,
-      "high": 15
+      "high": 15,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Number of models",
@@ -220,7 +240,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 11
+      "value": 11,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Marketing efficiency statement",
@@ -229,7 +250,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 99
+      "value": 99,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "NOx emissions standard",
@@ -238,7 +260,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "NOx emissions optional",
@@ -247,7 +270,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Hydrogen blend capability",
@@ -256,7 +280,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Fuel",
@@ -264,7 +289,8 @@
       "basis": "'Fuel: Natural Gas, Propane, Combination firing'",
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Vessel design / passes / medium",
@@ -272,7 +298,8 @@
       "basis": "'Vessel Design: Firetube'; 'Number Of Passes: 1'; 'Steam Or Hot Water: Hot Water'",
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Construction",
@@ -280,7 +307,8 @@
       "basis": "'Duplex stainless steel construction'; TurboFer heat exchanger with integrated Ember controls; AluFer tube technology",
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Side clearance",
@@ -289,7 +317,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Size range",
@@ -299,7 +328,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 399000,
-      "high": 6000000
+      "high": 6000000,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Efficiency",
@@ -308,7 +338,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "high": 99
+      "high": 99,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Fuel options",
@@ -317,7 +348,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "value": "Natural Gas, Propane"
+      "value": "Natural Gas, Propane",
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Heat exchanger material",
@@ -326,7 +358,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "value": "Type 439 stainless steel"
+      "value": "Type 439 stainless steel",
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Fuel saving",
@@ -335,7 +368,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "NOx reduction",
@@ -344,7 +378,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Input capacity range",
@@ -354,7 +389,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 399,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "AHRI thermal efficiency range",
@@ -364,7 +400,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 96.0,
-      "high": 98.0
+      "high": 98.0,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Operating weight range",
@@ -374,7 +411,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 537,
-      "high": 5740
+      "high": 5740,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Height range",
@@ -384,7 +422,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 73.7,
-      "high": 79.3
+      "high": 79.3,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Water content range",
@@ -394,7 +433,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 17.9,
-      "high": 166
+      "high": 166,
+      "source_url": "https://fulton.com/exe"
     }
   ],
   "vendors": [

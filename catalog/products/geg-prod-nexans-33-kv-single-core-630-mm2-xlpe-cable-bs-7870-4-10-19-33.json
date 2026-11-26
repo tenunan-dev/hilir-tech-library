@@ -6,7 +6,7 @@
   "equipment": [
     "geg-hv-and-lv-cables-with-cable-trays-and-accessories"
   ],
-  "description": "33 kV single-core unarmoured XLPE cable",
+  "description": "33 kV single-core unarmoured XLPE cable Primary source: https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
   "specifications": [
     {
       "metric": "rated voltage",
@@ -15,7 +15,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
         "source_id": "geg-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "nominal cross-sectional area",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
         "source_id": "geg-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "1 second short-circuit rating of conductor (copper), 90 to 250 deg C",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
         "source_id": "geg-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "1 second short-circuit rating of 35 sqmm copper wire screen, 80 to 250 deg C",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
         "source_id": "geg-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "current carrying capacity, copper, laid in trefoil, in air",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
         "source_id": "geg-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "current carrying capacity, copper, laid in trefoil, direct buried",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",
         "source_id": "geg-powerandcables-com-33kv-cable-xlpe-single-co-274f327"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Rated voltage",
@@ -73,7 +79,8 @@
       "basis": "\"Rated voltage 19/33kV\" / \"suitable for rated voltage 19/33KV according to IEC 60502-2\"",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Standards",
@@ -81,7 +88,8 @@
       "basis": "\"International Standards: IEC 60502-2\"; \"National Standards: BS 7870-4.10\"",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Nominal cross-sectional area",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
       },
-      "value": 630
+      "value": 630,
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Approximate diameter over conductor (copper)",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
       },
-      "value": 30.3
+      "value": 30.3,
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Approximate diameter over conductor (aluminium)",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
       },
-      "value": 32
+      "value": 32,
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Approximate diameter over insulation (copper / aluminium)",
@@ -116,7 +127,8 @@
       "basis": "Table: 48.3 mm (copper conductor cable) / 48 mm (aluminium conductor cable)",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Approximate overall diameter",
@@ -124,7 +136,8 @@
       "basis": "Table: 58 mm (copper) / 57.6 mm (aluminium)",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Approximate cable weight",
@@ -132,7 +145,8 @@
       "basis": "Table: 7740 (copper column) / 3770 (aluminium column), labelled kg/m",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Minimum bending radius (static)",
@@ -141,7 +155,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
       },
-      "value": 580
+      "value": 580,
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Maximum pulling tension",
@@ -149,7 +164,8 @@
       "basis": "Table: 3150 (copper) / 1890 (aluminium)",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Maximum DC resistance at 20 C",
@@ -157,7 +173,8 @@
       "basis": "Table: 0.0283 (copper) / 0.0469 (aluminium)",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Maximum AC resistance at 90 C",
@@ -165,7 +182,8 @@
       "basis": "Table: 0.042 (copper) / 0.064 (aluminium)",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Inductance at 50 Hz and 90 C",
@@ -174,7 +192,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
       },
-      "value": 0.31
+      "value": 0.31,
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Approximate capacitance",
@@ -183,7 +202,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
       },
-      "value": 0.32
+      "value": 0.32,
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "1-second short-circuit rating of conductor (90 to 250 C)",
@@ -191,7 +211,8 @@
       "basis": "Table: 90.7 (copper) / 60.2 (aluminium)",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "1-second short-circuit rating of 35 sqmm copper wire screen (80 to 250 C)",
@@ -200,7 +221,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
       },
-      "value": 4.8
+      "value": 4.8,
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "1-second short-circuit rating of 50 sqmm copper wire screen (80 to 250 C)",
@@ -209,7 +231,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
       },
-      "value": 8.2
+      "value": 8.2,
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Current carrying capacity, direct buried (trefoil)",
@@ -217,7 +240,8 @@
       "basis": "Table: 850 (copper) / 690 (aluminium)",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Current carrying capacity, single way ducts (trefoil)",
@@ -225,7 +249,8 @@
       "basis": "Table: 780 (copper) / 650 (aluminium)",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Current carrying capacity, in air (trefoil)",
@@ -233,7 +258,8 @@
       "basis": "Table: 1160 (copper) / 940 (aluminium)",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     },
     {
       "metric": "Ampacity basis (assumptions)",
@@ -241,7 +267,8 @@
       "basis": "\"Ampacity Values based on: Depth of cover = 800mm; Thermal resistivity of soil = 1.2K.m/W; Soil temperature = 15°C; Ambient Air temperature = 25°C; Maximum conductor temperature = 90°C\"",
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans"
     }
   ],
   "url": "https://www.powerandcables.com/product/product-category/33kv-cable-xlpe-single-core-630sqmm-bs7870-nexans",

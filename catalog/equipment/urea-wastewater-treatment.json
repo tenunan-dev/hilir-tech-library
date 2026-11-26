@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Wastewater treatment / process condensate",
+  "description": "Wastewater treatment / process condensate Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
   "specifications": [
     {
       "metric": "contamination mechanism",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": "thermal decomposition products volatilize into overhead vapours and recombine on condensation, contaminating process condensate"
+      "value": "thermal decomposition products volatilize into overhead vapours and recombine on condensation, contaminating process condensate",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "scrubber water reuse",
@@ -29,7 +30,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": "circulating water wash in granulator dust scrubber"
+      "value": "circulating water wash in granulator dust scrubber",
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     }
   ],
   "vendors": [

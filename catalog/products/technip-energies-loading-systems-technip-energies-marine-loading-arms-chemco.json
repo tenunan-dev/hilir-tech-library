@@ -6,7 +6,7 @@
   "equipment": [
     "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems"
   ],
-  "description": "Vendor product line read 2026-11-24. Also available via Flowtork in the Philippines with size/pressure data.",
+  "description": "Vendor product line read 2026-11-24. Also available via Flowtork in the Philippines with size/pressure data. Primary source: https://www.ten.com/en/markets/loading-systems",
   "specifications": [
     {
       "metric": "installed loading arms",
@@ -16,7 +16,8 @@
         "url": "https://www.ten.com/en/markets/loading-systems",
         "source_id": "ten-com-markets-loading-systems"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "patents",
@@ -26,7 +27,8 @@
         "url": "https://www.ten.com/en/markets/loading-systems",
         "source_id": "ten-com-markets-loading-systems"
       },
-      "value": 57
+      "value": 57,
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Patents",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": 57
+      "value": 57,
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Experience",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "70+"
+      "value": "70+",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Installed loading arms",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "+15,000"
+      "value": "+15,000",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Employees worldwide",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Shore-to-ship product range",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "ChemConnect, GasConnect, CO2Connect by T.EN™, PrimeConnect, H2Connect"
+      "value": "ChemConnect, GasConnect, CO2Connect by T.EN™, PrimeConnect, H2Connect",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Ship-to-ship product range",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "DynaConnect, ARCOS, OLAF, ATOL"
+      "value": "DynaConnect, ARCOS, OLAF, ATOL",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "eMAX",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "eMAX Series loading arms"
+      "value": "eMAX Series loading arms",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "CO2Connect",
@@ -98,7 +107,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "world's first liquefied marine loading arm, designed to transfer CO₂ from point of capture to destination for utilization or storage"
+      "value": "world's first liquefied marine loading arm, designed to transfer CO₂ from point of capture to destination for utilization or storage",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Transfer capability",
@@ -107,7 +117,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "fluids and gases at normal, high and very low temperatures and different operating pressures"
+      "value": "fluids and gases at normal, high and very low temperatures and different operating pressures",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "History",
@@ -116,7 +127,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "supplying marine loading arms since the 1950s"
+      "value": "supplying marine loading arms since the 1950s",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     }
   ],
   "url": "https://www.ten.com/en/markets/loading-systems",

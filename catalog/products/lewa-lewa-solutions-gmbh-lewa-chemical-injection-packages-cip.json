@@ -6,7 +6,7 @@
   "equipment": [
     "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
   ],
-  "description": "Skids comply with ASME, API and ATEX as stated; high-alloy materials Incoloy, Monel, titanium and Hastelloy; drives electric/solar, compressed air, gas or diesel. A 4 MB English product brochure PDF is linked on the page but was NOT fetched.",
+  "description": "Skids comply with ASME, API and ATEX as stated; high-alloy materials Incoloy, Monel, titanium and Hastelloy; drives electric/solar, compressed air, gas or diesel. A 4 MB English product brochure PDF is linked on the page but was NOT fetched. Primary source: https://www.lewa.com/en/systems/chemical-injection-packages/",
   "specifications": [
     {
       "metric": "Flow rate range",
@@ -17,7 +17,8 @@
         "source_id": "cat-lewa-com"
       },
       "low": "5 ml/h",
-      "high": "180 m3/h"
+      "high": "180 m3/h",
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Discharge pressure - diaphragm pumps",
@@ -27,7 +28,8 @@
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/",
         "source_id": "cat-lewa-com"
       },
-      "value": "1,200"
+      "value": "1,200",
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Discharge pressure - plunger pumps",
@@ -37,7 +39,8 @@
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/",
         "source_id": "cat-lewa-com"
       },
-      "value": "3,500"
+      "value": "3,500",
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Maximum injection system storage volume",
@@ -47,7 +50,8 @@
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/",
         "source_id": "cat-lewa-com"
       },
-      "value": "50"
+      "value": "50",
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Tubing used at higher pressures",
@@ -57,7 +61,8 @@
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/",
         "source_id": "cat-lewa-com"
       },
-      "value": "20,000"
+      "value": "20,000",
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Pump standards",
@@ -67,7 +72,8 @@
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/",
         "source_id": "cat-lewa-com"
       },
-      "value": "API 675 (metering), API 674 (plunger)"
+      "value": "API 675 (metering), API 674 (plunger)",
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Flow rate range",
@@ -77,7 +83,8 @@
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
       },
       "low": 5,
-      "high": 180
+      "high": 180,
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Maximum discharge pressure",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
       },
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Diaphragm pump pressure",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
       },
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Plunger pump pressure",
@@ -104,7 +113,8 @@
       "source": {
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
       },
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Tubing pressure limit",
@@ -113,7 +123,8 @@
       "source": {
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
       },
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Max storage volume",
@@ -122,7 +133,8 @@
       "source": {
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
       },
-      "high": 50
+      "high": 50,
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Package standards",
@@ -131,7 +143,8 @@
       "source": {
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
       },
-      "value": "ASME, API, and ATEX"
+      "value": "ASME, API, and ATEX",
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Materials",
@@ -140,7 +153,8 @@
       "source": {
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
       },
-      "value": "Incoloy, monel, titanium, and Hastelloy"
+      "value": "Incoloy, monel, titanium, and Hastelloy",
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     },
     {
       "metric": "Largest package example",
@@ -149,7 +163,8 @@
       "source": {
         "url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
       },
-      "value": "715 ton; 21 x 21 x 11 meters; over 40 diaphragm pumps, 120 injection points, over 3,000 valves and instruments, 18 chemical storage tanks"
+      "value": "715 ton; 21 x 21 x 11 meters; over 40 diaphragm pumps, 120 injection points, over 3,000 valves and instruments, 18 chemical storage tanks",
+      "source_url": "https://www.lewa.com/en/systems/chemical-injection-packages/"
     }
   ],
   "url": "https://www.lewa.com/en/systems/chemical-injection-packages/",

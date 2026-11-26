@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Inject hydrate inhibitors, corrosion/scale inhibitors, demulsifiers, defoamers and biocides via dosing pumps and tanks to maintain flow assurance, separation performance and asset integrity.",
+  "description": "Inject hydrate inhibitors, corrosion/scale inhibitors, demulsifiers, defoamers and biocides via dosing pumps and tanks to maintain flow assurance, separation performance and asset integrity. Primary source: https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
   "specifications": [
     {
       "metric": "Methanol/EG hydrate-inhibition regime",
@@ -19,7 +19,8 @@
         "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
         "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
       },
-      "value": "EG above -40 degF; methanol below -140 degF"
+      "value": "EG above -40 degF; methanol below -140 degF",
+      "source_url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas"
     },
     {
       "metric": "Chemical injection skid configuration",
@@ -29,7 +30,8 @@
         "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
         "source_id": "specoilandgas-com-ancillary-equipment-utilities"
       },
-      "value": "dosing pumps + tank on skid; supplied with process equipment or standalone"
+      "value": "dosing pumps + tank on skid; supplied with process equipment or standalone",
+      "source_url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities"
     }
   ],
   "vendors": [

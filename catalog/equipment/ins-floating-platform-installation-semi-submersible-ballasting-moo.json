@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Float a semi-submersible hull to site, ballast to operational draft, connect chain/wire/polyester mooring or hold with DP; can be used from 60 m to 6,000 m water depth.",
+  "description": "Float a semi-submersible hull to site, ballast to operational draft, connect chain/wire/polyester mooring or hold with DP; can be used from 60 m to 6,000 m water depth. Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "Semi-submersible platform water depth range",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": "60 to 6,000 m (200 to 20,000 ft)"
+      "value": "60 to 6,000 m (200 to 20,000 ft)",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "Semi-submersible heavy transport ballast method",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Heavy-lift_ship",
         "source_id": "en-wikipedia-org-wiki-heavy-lift-ship"
       },
-      "value": "flood ballast tanks to lower well deck below water; float cargo over; pump out to raise deck"
+      "value": "flood ballast tanks to lower well deck below water; float cargo over; pump out to raise deck",
+      "source_url": "https://en.wikipedia.org/wiki/Heavy-lift_ship"
     },
     {
       "metric": "Pioneering Spirit semi-sub operation",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
         "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
       },
-      "value": "48,000 t topside lift achieved by operating as a semi-submersible"
+      "value": "48,000 t topside lift achieved by operating as a semi-submersible",
+      "source_url": "https://en.wikipedia.org/wiki/Pioneering_Spirit"
     }
   ],
   "vendors": [

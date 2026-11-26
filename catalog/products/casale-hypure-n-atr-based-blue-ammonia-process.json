@@ -6,7 +6,7 @@
   "equipment": [
     "ammonia-secondary-reformer-atr"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://casale.ch/technologies/ammonia/",
   "specifications": [
     {
       "metric": "Energy consumption",
@@ -17,7 +17,8 @@
         "source_id": "casale-ch-ammonia"
       },
       "low": 7.4,
-      "high": 7.6
+      "high": 7.6,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "CO2 recovery",
@@ -27,7 +28,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "high": 99
+      "high": 99,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Best-suited capacity",
@@ -37,7 +39,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 3500
+      "value": 3500,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "HyPURE-N - energy consumption",
@@ -47,7 +50,8 @@
         "url": "https://casale.ch/technologies/ammonia/"
       },
       "low": 7.4,
-      "high": 7.6
+      "high": 7.6,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "HyPURE-N - CO2 recovery",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": 99
+      "value": 99,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "HyPURE-N - capacity",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": "Best suited from 3,500 MTD and above; can be applied for lower capacities"
+      "value": "Best suited from 3,500 MTD and above; can be applied for lower capacities",
+      "source_url": "https://casale.ch/technologies/ammonia/"
     }
   ],
   "url": "https://casale.ch/technologies/ammonia/",

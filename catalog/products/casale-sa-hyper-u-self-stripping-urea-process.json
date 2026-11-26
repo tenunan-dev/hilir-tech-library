@@ -6,7 +6,7 @@
   "equipment": [
     "urea-reactor"
   ],
-  "description": "Vendor product line read 2026-11-24. Claimed lower steam/cooling water demand and OPEX; new plants and revamps.",
+  "description": "Vendor product line read 2026-11-24. Claimed lower steam/cooling water demand and OPEX; new plants and revamps. Primary source: https://www.casale.ch/technologies/urea/",
   "specifications": [
     {
       "metric": "process type",
@@ -16,7 +16,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": "self-stripping with MHP carbamate decomposition"
+      "value": "self-stripping with MHP carbamate decomposition",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "Process configuration",
@@ -24,7 +25,8 @@
       "basis": "Casale Urea page: 'HYPER-U is an improved self-stripping urea process which enhances efficiency by incorporating a Medium-High Pressure (MHP) carbamate decomposition step'",
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
-      }
+      },
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "Stated benefits",
@@ -32,7 +34,8 @@
       "basis": "'Enhanced thermal efficiency; Reduced demand for medium-pressure steam and cooling water; Improved operational cost (OPEX); Smaller carbon footprint; Compatibility with new plants and revamps'",
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
-      }
+      },
+      "source_url": "https://www.casale.ch/technologies/urea/"
     }
   ],
   "url": "https://www.casale.ch/technologies/urea/",

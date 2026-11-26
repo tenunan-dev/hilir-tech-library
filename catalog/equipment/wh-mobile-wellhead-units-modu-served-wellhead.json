@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Wellheads and trees served from a mobile offshore drilling unit or intervention vessel instead of a permanent platform; includes subsea wellheads tied back to a host.",
+  "description": "Wellheads and trees served from a mobile offshore drilling unit or intervention vessel instead of a permanent platform; includes subsea wellheads tied back to a host. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
   "specifications": [
     {
       "metric": "jack-up rig depth range for exploration wells",
@@ -20,7 +20,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
       "low": 100,
-      "high": 120
+      "high": 120,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "offshore wellhead location terminology",
@@ -30,7 +31,8 @@
         "url": "https://en.wikipedia.org/wiki/Wellhead",
         "source_id": "en-wikipedia-org-wiki-wellhead"
       },
-      "value": "surface wellhead on production platform; subsea/mudline wellhead below water"
+      "value": "surface wellhead on production platform; subsea/mudline wellhead below water",
+      "source_url": "https://en.wikipedia.org/wiki/Wellhead"
     }
   ],
   "vendors": [

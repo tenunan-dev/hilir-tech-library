@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Page read FAQ; strengths from search-verified selector PDF",
+  "description": "Vendor product line read 2026-11-24. Page read FAQ; strengths from search-verified selector PDF Primary source: https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
   "specifications": [
     {
       "metric": "Laminate tensile strength",
@@ -16,7 +16,8 @@
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
         "source_id": "cs-nri-com-resources-frequently-asked-questions"
       },
-      "value": 131
+      "value": 131,
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Tensile modulus",
@@ -26,7 +27,8 @@
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
         "source_id": "cs-nri-com-resources-frequently-asked-questions"
       },
-      "value": 14.6
+      "value": 14.6,
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Product system type",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": "Tyfo SCH Systems are unidirectional CFRP"
+      "value": "Tyfo SCH Systems are unidirectional CFRP",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Design life",
@@ -45,7 +48,8 @@
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
       "low": 50,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "In-service since",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": 1991
+      "value": 1991,
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Design approach",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": "linear-elastic tension members; ultimate tension 'strength' not used in design"
+      "value": "linear-elastic tension members; ultimate tension 'strength' not used in design",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Strengthenable elements",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": "concrete columns, beams, walls and slabs, masonry walls, some wood and steel elements; pipes, silos, tanks, piers/waterfront structures"
+      "value": "concrete columns, beams, walls and slabs, masonry walls, some wood and steel elements; pipes, silos, tanks, piers/waterfront structures",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Fire rating",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": "do not reduce existing fire-rating; Class 1/Class A flame and smoke rating per ASTM E84 may be required"
+      "value": "do not reduce existing fire-rating; Class 1/Class A flame and smoke rating per ASTM E84 may be required",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Anchor type",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": "embedded Tyfo SCH anchor saturated with Tyfo S epoxy; splice/through anchors"
+      "value": "embedded Tyfo SCH anchor saturated with Tyfo S epoxy; splice/through anchors",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     }
   ],
   "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",

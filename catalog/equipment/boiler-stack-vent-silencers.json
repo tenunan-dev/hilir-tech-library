@@ -9,7 +9,7 @@
     "PRC",
     "HSE"
   ],
-  "description": "Attenuate noise from fans/inlets, stack and breeching gas flow, and high-energy steam/gas vents through relief, safety, control or start-up valves; ensure acoustic compliance and personnel safety (Burgess-Manning; IMI; SVI BREMCO; dB Noise Reduction).",
+  "description": "Attenuate noise from fans/inlets, stack and breeching gas flow, and high-energy steam/gas vents through relief, safety, control or start-up valves; ensure acoustic compliance and personnel safety (Burgess-Manning; IMI; SVI BREMCO; dB Noise Reduction). Primary source: https://burgessmanning.com/custom-vent-silencer",
   "specifications": [
     {
       "metric": "guaranteed vent silencer attenuation",
@@ -19,7 +19,8 @@
         "url": "https://burgessmanning.com/custom-vent-silencer",
         "source_id": "burgessmanning-com-custom-vent-silencer"
       },
-      "value": "up to 60"
+      "value": "up to 60",
+      "source_url": "https://burgessmanning.com/custom-vent-silencer"
     },
     {
       "metric": "silencer design codes",
@@ -29,7 +30,8 @@
         "url": "https://burgessmanning.com/custom-vent-silencer",
         "source_id": "burgessmanning-com-custom-vent-silencer"
       },
-      "value": "ASME B31.1, B31.3, B31.8, ASME VIII Div 1, EN 13480, EN 13445"
+      "value": "ASME B31.1, B31.3, B31.8, ASME VIII Div 1, EN 13480, EN 13445",
+      "source_url": "https://burgessmanning.com/custom-vent-silencer"
     },
     {
       "metric": "fan inlet silencer selection inputs",
@@ -39,7 +41,8 @@
         "url": "https://www.dbnoisereduction.com/fan-inlet-silencer.php",
         "source_id": "dbnoisereduction-com-fan-inlet-silencer-php"
       },
-      "value": "fan type; duct configuration; allowable pressure drop; required noise reduction"
+      "value": "fan type; duct configuration; allowable pressure drop; required noise reduction",
+      "source_url": "https://www.dbnoisereduction.com/fan-inlet-silencer.php"
     },
     {
       "metric": "vent silencer service range",
@@ -49,7 +52,8 @@
         "url": "https://burgessmanning.com/custom-vent-silencer",
         "source_id": "burgessmanning-com-custom-vent-silencer"
       },
-      "value": "all kinds of flow rates, pressures and temperatures; no inlet/casing diameter limit"
+      "value": "all kinds of flow rates, pressures and temperatures; no inlet/casing diameter limit",
+      "source_url": "https://burgessmanning.com/custom-vent-silencer"
     }
   ],
   "vendors": [

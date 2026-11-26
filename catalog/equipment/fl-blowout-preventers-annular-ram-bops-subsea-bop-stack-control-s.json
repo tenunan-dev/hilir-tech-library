@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Contain wellbore pressure and divert formation fluids/gases; shear pipe in emergency; provide surface, subsea and land pressure control.",
+  "description": "Contain wellbore pressure and divert formation fluids/gases; shear pipe in emergency; provide surface, subsea and land pressure control. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment",
   "specifications": [
     {
       "metric": "Large-bore drilling BOP pressure rating",
@@ -19,7 +19,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment",
         "source_id": "sys-slb-com-pressure-control-equipment"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment"
     },
     {
       "metric": "Shear ram capability",
@@ -29,7 +30,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment",
         "source_id": "sys-slb-com-pressure-control-equipment"
       },
-      "value": "can shear hardbanding on tool joints"
+      "value": "can shear hardbanding on tool joints",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment"
     }
   ],
   "vendors": [

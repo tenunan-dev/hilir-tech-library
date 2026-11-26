@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Electrical substation and power distribution",
+  "description": "Electrical substation and power distribution Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
   "specifications": [
     {
       "metric": "US transmission voltages",
@@ -19,7 +19,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": "135, 220, 550 or 750"
+      "value": "135, 220, 550 or 750",
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "On-site power generation in Pusri boundary",
@@ -29,7 +30,8 @@
         "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
         "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
       },
-      "value": "gas turbine generator; steam turbine generator"
+      "value": "gas turbine generator; steam turbine generator",
+      "source_url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf"
     },
     {
       "metric": "Micro-grid MOU",
@@ -39,7 +41,8 @@
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
-      "value": "ABB Australia"
+      "value": "ABB Australia",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     }
   ],
   "vendors": [

@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "Function-specific large topsides that host risers and manifolds, gas compression for export or reinjection, produced-water separation and injection, and power/utility support, often tied back to a central hub.",
+  "description": "Function-specific large topsides that host risers and manifolds, gas compression for export or reinjection, produced-water separation and injection, and power/utility support, often tied back to a central hub. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
   "specifications": [
     {
       "metric": "gas compression need driver",
@@ -19,7 +19,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": "reservoir pressure declines with production"
+      "value": "reservoir pressure declines with production",
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "water/gas injection need driver",
@@ -29,7 +30,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": "oil production declines after some years"
+      "value": "oil production declines after some years",
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "geg-instrument-air-system"
   ],
-  "description": "oil-free screw / centrifugal / piston / scroll instrument air compressors",
+  "description": "oil-free screw / centrifugal / piston / scroll instrument air compressors Primary source: https://comairflow.com/instrument-air-compressor",
   "specifications": [
     {
       "metric": "continuous running duty claim",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "oil-free air pressure capability",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "oil-free air flow capability",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "pressure dew point (integrated screw package)",
@@ -50,7 +53,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "typical discharge pressure",
@@ -62,7 +66,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "air quality class",
@@ -72,7 +77,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "VSD running cost saving claim",
@@ -83,7 +89,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "electrical protection",
@@ -93,7 +100,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Continuous running proven",
@@ -102,7 +110,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": 8000
+      "value": 8000,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Motor protection",
@@ -111,7 +120,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": 55
+      "value": 55,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Maximum delivery pressure",
@@ -120,7 +130,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Maximum flow",
@@ -129,7 +140,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": 100000
+      "value": 100000,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Pressure dew point",
@@ -138,7 +150,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": -70
+      "value": -70,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "VSD running cost saving",
@@ -147,7 +160,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Oil-free air quality class",
@@ -155,7 +169,8 @@
       "basis": "\"Discharging ISO 8573-1 class 0 certified oil free air with 24/7 continuous operation\"",
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Typical instrument air pressure",
@@ -165,7 +180,8 @@
         "url": "https://comairflow.com/instrument-air-compressor"
       },
       "low": 7,
-      "high": 10
+      "high": 10,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Instrument air compressor types",
@@ -174,7 +190,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": 6
+      "value": 6,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     }
   ],
   "url": "https://comairflow.com/instrument-air-compressor",

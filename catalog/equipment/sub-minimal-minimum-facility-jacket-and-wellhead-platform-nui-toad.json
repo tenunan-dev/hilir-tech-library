@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Small unmanned well bay and process/wellhead structure tied back by flowline or umbilical to a host platform.",
+  "description": "Small unmanned well bay and process/wellhead structure tied back by flowline or umbilical to a host platform. Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "configuration",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": "well bay + helipad + emergency shelter; operated remotely, occasional visits"
+      "value": "well bay + helipad + emergency shelter; operated remotely, occasional visits",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "configuration (conductor support)",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": "well bay + small process plant; linked to static production platform by flow lines and/or umbilical"
+      "value": "well bay + small process plant; linked to static production platform by flow lines and/or umbilical",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     }
   ],
   "vendors": [

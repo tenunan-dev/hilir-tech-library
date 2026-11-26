@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. Synchronous generator/motor excitation, protection and monitoring",
+  "description": "Vendor product line read 2026-11-24. Synchronous generator/motor excitation, protection and monitoring Primary source: https://www.basler.com/product/decs-2100-digital-excitation-control-system",
   "specifications": [
     {
       "metric": "Excitation current",
@@ -16,7 +16,8 @@
         "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system",
         "source_id": "basler-com-product-decs-2100-digital-excitation-control-system"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
     },
     {
       "metric": "Optional",
@@ -26,7 +27,8 @@
         "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system",
         "source_id": "basler-com-product-decs-2100-digital-excitation-control-system"
       },
-      "value": "Power System Stabilizer"
+      "value": "Power System Stabilizer",
+      "source_url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
     },
     {
       "metric": "Maximum excitation current",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
     },
     {
       "metric": "Redundancy / supervisory channel",
@@ -43,7 +46,8 @@
       "basis": "'Optional supervisory channel increases system security by avoiding inadvertent tripping with two-out-of-three controller comparison technique.'",
       "source": {
         "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
-      }
+      },
+      "source_url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
     },
     {
       "metric": "Power system stabilizer method",
@@ -51,7 +55,8 @@
       "basis": "'integrated Power System Stabilizer (optional) that utilizes the \"integral of accelerating power\" to safely dampen local mode, inter-area and inter-unit power oscillations.'",
       "source": {
         "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
-      }
+      },
+      "source_url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system"
     }
   ],
   "url": "https://www.basler.com/product/decs-2100-digital-excitation-control-system",

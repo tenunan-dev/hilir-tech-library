@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Fail-safe downhole barrier that isolates reservoir fluids at surface if wellhead/tree containment is lost.",
+  "description": "Fail-safe downhole barrier that isolates reservoir fluids at surface if wellhead/tree containment is lost. Primary source: https://en.wikipedia.org/wiki/Downhole_safety_valve",
   "specifications": [
     {
       "metric": "typical valve mechanism",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Downhole_safety_valve",
         "source_id": "en-wikipedia-org-wiki-downhole-safety-valve"
       },
-      "value": "uni-directional flapper valve which opens downwards; hydraulic pressure from surface opens against a spring; loss of pressure closes it"
+      "value": "uni-directional flapper valve which opens downwards; hydraulic pressure from surface opens against a spring; loss of pressure closes it",
+      "source_url": "https://en.wikipedia.org/wiki/Downhole_safety_valve"
     },
     {
       "metric": "minimum setting depth below mudline (MMS regulation)",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Downhole_safety_valve",
         "source_id": "en-wikipedia-org-wiki-downhole-safety-valve"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://en.wikipedia.org/wiki/Downhole_safety_valve"
     },
     {
       "metric": "control method",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Downhole_safety_valve",
         "source_id": "en-wikipedia-org-wiki-downhole-safety-valve"
       },
-      "value": "hydraulically controlled from surface via a control line linked to a well control panel"
+      "value": "hydraulically controlled from surface via a control line linked to a well control panel",
+      "source_url": "https://en.wikipedia.org/wiki/Downhole_safety_valve"
     },
     {
       "metric": "legal status in United Kingdom",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Downhole_safety_valve",
         "source_id": "en-wikipedia-org-wiki-downhole-safety-valve"
       },
-      "value": "not a direct legal requirement; 1974 Health & Safety at Work Act requires prevention of uncontrolled release, so DHSVs are company policy for many UKCS operators"
+      "value": "not a direct legal requirement; 1974 Health & Safety at Work Act requires prevention of uncontrolled release, so DHSVs are company policy for many UKCS operators",
+      "source_url": "https://en.wikipedia.org/wiki/Downhole_safety_valve"
     }
   ],
   "vendors": [

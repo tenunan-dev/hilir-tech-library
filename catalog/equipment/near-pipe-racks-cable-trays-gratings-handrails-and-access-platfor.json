@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Secondary steel that routes piping/cables and provides safe access and walkways on topsides and wind foundations.",
+  "description": "Secondary steel that routes piping/cables and provides safe access and walkways on topsides and wind foundations. Primary source: https://www.cswoffshore.com/solutions/monopiles",
   "specifications": [
     {
       "metric": "external platforms and anodes",
@@ -19,7 +19,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles",
         "source_id": "cswoffshore-com-solutions-monopiles"
       },
-      "value": "CS WIND fabricates/mounts external platforms and both static anodes and dynamic ICCP systems"
+      "value": "CS WIND fabricates/mounts external platforms and both static anodes and dynamic ICCP systems",
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "heated gangways, stairs, ladders and railings",
@@ -29,7 +30,8 @@
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
       },
-      "value": "listed as winterization features on PALFINGER offshore cranes"
+      "value": "listed as winterization features on PALFINGER offshore cranes",
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "secondary steel scope",
@@ -39,7 +41,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles",
         "source_id": "cswoffshore-com-solutions-monopiles"
       },
-      "value": "CS WIND Offshore product line 'Secondary Steel'"
+      "value": "CS WIND Offshore product line 'Secondary Steel'",
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     }
   ],
   "vendors": [

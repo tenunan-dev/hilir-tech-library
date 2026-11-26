@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Safely disposes of relieved and waste gas from PSVs and shutdowns. Header routes gas to a KO (vapour-liquid separator) drum, then a water/liquid seal drum preventing flashback, then an elevated stack or ground flare with pilots and continuous ignition. Stack height or boom reach is set by permissible thermal radiation.",
+  "description": "Safely disposes of relieved and waste gas from PSVs and shutdowns. Header routes gas to a KO (vapour-liquid separator) drum, then a water/liquid seal drum preventing flashback, then an elevated stack or ground flare with pilots and continuous ignition. Stack height or boom reach is set by permissible thermal radiation. Primary source: https://en.wikipedia.org/wiki/Gas_flare",
   "specifications": [
     {
       "metric": "Continuous personnel thermal radiation limit",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Gas_flare",
         "source_id": "sys-en-wikipedia-org-gas-flare"
       },
-      "value": 1.58
+      "value": 1.58,
+      "source_url": "https://en.wikipedia.org/wiki/Gas_flare"
     },
     {
       "metric": "Short-exposure thermal radiation (3-4 min)",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Gas_flare",
         "source_id": "sys-en-wikipedia-org-gas-flare"
       },
-      "value": 4.73
+      "value": 4.73,
+      "source_url": "https://en.wikipedia.org/wiki/Gas_flare"
     },
     {
       "metric": "Short-exposure thermal radiation (30 s)",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Gas_flare",
         "source_id": "sys-en-wikipedia-org-gas-flare"
       },
-      "value": 6.31
+      "value": 6.31,
+      "source_url": "https://en.wikipedia.org/wiki/Gas_flare"
     },
     {
       "metric": "Sonic flare tip upstream pressure threshold",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Gas_flare",
         "source_id": "sys-en-wikipedia-org-gas-flare"
       },
-      "low": 5
+      "low": 5,
+      "source_url": "https://en.wikipedia.org/wiki/Gas_flare"
     },
     {
       "metric": "Enclosed biogas flare combustion temperature",
@@ -60,7 +64,8 @@
         "source_id": "sys-en-wikipedia-org-gas-flare"
       },
       "low": 1000,
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://en.wikipedia.org/wiki/Gas_flare"
     },
     {
       "metric": "Flare destruction efficiency (LRGO multi-point ground flare)",
@@ -70,7 +75,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "low": 99.5
+      "low": 99.5,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Turndown",
@@ -80,7 +86,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
         "source_id": "cat-johnzink-com-pressure-assisted-flare"
       },
-      "value": "unlimited"
+      "value": "unlimited",
+      "source_url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
     },
     {
       "metric": "Assist medium",
@@ -90,7 +97,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
         "source_id": "cat-johnzink-com-pressure-assisted-flare"
       },
-      "value": 0
+      "value": 0,
+      "source_url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
     },
     {
       "metric": "Service history",
@@ -100,7 +108,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare",
         "source_id": "cat-johnzink-com-pressure-assisted-flare"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
     },
     {
       "metric": "Destruction efficiency",
@@ -110,7 +119,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "value": ">99.5"
+      "value": ">99.5",
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "API compliance",
@@ -120,7 +130,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "value": "API 537"
+      "value": "API 537",
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Smokeless operation",
@@ -130,7 +141,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Electric operation",
@@ -140,7 +152,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system",
         "source_id": "cat-johnzink-com-stella-flare-ignition-system"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
     },
     {
       "metric": "Power options",
@@ -150,7 +163,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system",
         "source_id": "cat-johnzink-com-stella-flare-ignition-system"
       },
-      "value": "grid, battery, or solar charging"
+      "value": "grid, battery, or solar charging",
+      "source_url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
     },
     {
       "metric": "Destruction rate efficiency",
@@ -160,7 +174,8 @@
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
         "source_id": "cat-johnzink-com-ztof-enclosed-flare"
       },
-      "value": ">98"
+      "value": ">98",
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "Instantaneous turndown",
@@ -170,7 +185,8 @@
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
         "source_id": "cat-johnzink-com-ztof-enclosed-flare"
       },
-      "value": "10:1"
+      "value": "10:1",
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "Capacity",
@@ -180,7 +196,8 @@
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
         "source_id": "cat-johnzink-com-ztof-enclosed-flare"
       },
-      "value": 6000
+      "value": 6000,
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "Methane concentration basis",
@@ -190,7 +207,8 @@
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
         "source_id": "cat-johnzink-com-ztof-enclosed-flare"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "Standard",
@@ -198,7 +216,8 @@
       "basis": "\"Available API 537 Compliance: Ensures compliance with the latest Industry flare standards\"",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Turndown / staging",
@@ -206,7 +225,8 @@
       "basis": "\"High pressure technology with staging allows smokeless operation for the full range of flows\"; \"Staging System: Allows exceptional turndown capabilities\"",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Power / utility requirement",
@@ -214,7 +234,8 @@
       "basis": "John Zink: 'an advanced, electric-powered flare ignition solution that eliminates the need for pilot fuel gas and instrument air'; '100% Electric Operation – No need for pilot fuel gas or instrument air'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
     },
     {
       "metric": "Applicable flare types",
@@ -222,7 +243,8 @@
       "basis": "John Zink: 'Designed for vertical and horizontal flare applications'; 'including burn pits'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
     },
     {
       "metric": "Construction",
@@ -230,7 +252,8 @@
       "basis": "John Zink: 'no moving parts, no consumable pilot components, and high-quality stainless-steel construction, built to withstand high temperatures'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/stella-flare-ignition-system"
     },
     {
       "metric": "turndown",
@@ -239,7 +262,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "capacity",
@@ -248,7 +272,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
       },
-      "value": 6000
+      "value": 6000,
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "destruction_rate_efficiency",
@@ -257,7 +282,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
       },
-      "low": 98
+      "low": 98,
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "combustion_configuration",
@@ -266,7 +292,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
       },
-      "value": "Dual-Pressure Combustion: simultaneously handles high and low-pressure gas streams"
+      "value": "Dual-Pressure Combustion: simultaneously handles high and low-pressure gas streams",
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "gas_compatibility",
@@ -275,7 +302,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
       },
-      "value": "raw biogas, off-spec RNG, or mixed gas streams"
+      "value": "raw biogas, off-spec RNG, or mixed gas streams",
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "Pressure-assisted flare - flare tip models",
@@ -284,7 +312,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
       },
-      "value": "Indair, KMI (Kaldair Multipoint Indair), JZ Hydra, JZ Poseidon, KSP"
+      "value": "Indair, KMI (Kaldair Multipoint Indair), JZ Hydra, JZ Poseidon, KSP",
+      "source_url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
     },
     {
       "metric": "Pressure-assisted flare - smokeless operation",
@@ -293,7 +322,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
       },
-      "value": "Operate smokelessly at almost all waste gas flow rates without supplemental steam or air"
+      "value": "Operate smokelessly at almost all waste gas flow rates without supplemental steam or air",
+      "source_url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
     },
     {
       "metric": "Pressure-assisted flare - turndown",
@@ -302,7 +332,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
       },
-      "value": "Unlimited turndown offered by some systems"
+      "value": "Unlimited turndown offered by some systems",
+      "source_url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
     },
     {
       "metric": "Pressure-assisted flare - assist medium",
@@ -311,7 +342,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
       },
-      "value": "No assist medium required; uses pressure inherent in waste stream"
+      "value": "No assist medium required; uses pressure inherent in waste stream",
+      "source_url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
     },
     {
       "metric": "Pressure-assisted flare - tip technology",
@@ -320,7 +352,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
       },
-      "value": "Proprietary high-pressure burner technology; variable slot Coanda flare tip; stiff low-emissivity flames for low thermal radiation"
+      "value": "Proprietary high-pressure burner technology; variable slot Coanda flare tip; stiff low-emissivity flames for low thermal radiation",
+      "source_url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
     },
     {
       "metric": "Pressure-assisted flare - service history",
@@ -329,7 +362,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
       },
-      "value": "Successfully used in a wide range of applications for over 30 years"
+      "value": "Successfully used in a wide range of applications for over 30 years",
+      "source_url": "https://www.johnzink.com/products/flare-systems/pressure-assisted-flare"
     }
   ],
   "vendors": [

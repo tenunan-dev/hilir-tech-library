@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Product storage, warehouses, bagging plants and loading-station dust extraction",
+  "description": "Product storage, warehouses, bagging plants and loading-station dust extraction Primary source: https://en.wikipedia.org/wiki/Dust_collector",
   "specifications": [
     {
       "metric": "unit collector applications",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Dust_collector",
         "source_id": "en-wikipedia-org-wiki-dust-collector"
       },
-      "value": "bins and silos or remote belt-conveyor transfer points"
+      "value": "bins and silos or remote belt-conveyor transfer points",
+      "source_url": "https://en.wikipedia.org/wiki/Dust_collector"
     },
     {
       "metric": "unit collector capacity range",
@@ -30,7 +31,8 @@
         "source_id": "en-wikipedia-org-wiki-dust-collector"
       },
       "low": 200,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://en.wikipedia.org/wiki/Dust_collector"
     },
     {
       "metric": "dust explosion risk",
@@ -40,7 +42,8 @@
         "url": "https://en.wikipedia.org/wiki/Silo",
         "source_id": "en-wikipedia-org-wiki-silo"
       },
-      "value": "finely granulated dust in air plus spark can trigger dust explosion powerful enough to destroy a concrete silo"
+      "value": "finely granulated dust in air plus spark can trigger dust explosion powerful enough to destroy a concrete silo",
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     }
   ],
   "vendors": [

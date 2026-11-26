@@ -8,7 +8,7 @@
     "ELE",
     "INS"
   ],
-  "description": "Provide motor starting, protection and speed control for forced-draft/induced-draft fans, combustion-air blowers and boiler feedwater/service water pumps. VFDs replace throttling valves/inlet dampers with speed control, reducing energy use, wear and start-up current; BMS/CCS panels integrate VFDs with burner control.",
+  "description": "Provide motor starting, protection and speed control for forced-draft/induced-draft fans, combustion-air blowers and boiler feedwater/service water pumps. VFDs replace throttling valves/inlet dampers with speed control, reducing energy use, wear and start-up current; BMS/CCS panels integrate VFDs with burner control. Primary source: https://www.energy.gov/eere/amo/steam-systems",
   "specifications": [
     {
       "metric": "function",
@@ -17,7 +17,8 @@
       "basis": "Qualitative function from the pages read in this sweep.",
       "source": {
         "url": "https://www.energy.gov/eere/amo/steam-systems"
-      }
+      },
+      "source_url": "https://www.energy.gov/eere/amo/steam-systems"
     }
   ],
   "vendors": [

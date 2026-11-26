@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Bulk liquid storage at terminals: fixed cone roof, internal floating roof (IFR), external floating roof (EFR), double-deck floating roof (DDFR); secondary containment/bunds; associated pumps, metering and loading.",
+  "description": "Bulk liquid storage at terminals: fixed cone roof, internal floating roof (IFR), external floating roof (EFR), double-deck floating roof (DDFR); secondary containment/bunds; associated pumps, metering and loading. Primary source: https://www.iso.org/standard/84215.html",
   "specifications": [
     {
       "metric": "function",
@@ -18,7 +18,8 @@
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
         "url": "https://www.iso.org/standard/84215.html"
-      }
+      },
+      "source_url": "https://www.iso.org/standard/84215.html"
     }
   ],
   "vendors": [

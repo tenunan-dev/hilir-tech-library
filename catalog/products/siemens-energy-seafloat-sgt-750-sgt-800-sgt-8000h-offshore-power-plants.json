@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24. CCPP figures search-verified PDF.",
+  "description": "Vendor product line read 2026-11-24. CCPP figures search-verified PDF. Primary source: https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
   "specifications": [
     {
       "metric": "SGT-800 combined cycle range",
@@ -16,7 +16,8 @@
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
         "source_id": "siemens-energy-com-product-seafloat-html"
       },
-      "value": "150-450 MW"
+      "value": "150-450 MW",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "SGT-750 offshore CCPP",
@@ -26,7 +27,8 @@
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
         "source_id": "siemens-energy-com-product-seafloat-html"
       },
-      "value": "41.0/108.4/163.3 MWe; 40.5/54.1/54.4% efficiency"
+      "value": "41.0/108.4/163.3 MWe; 40.5/54.1/54.4% efficiency",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "OGT-800-based output range",
@@ -36,7 +38,8 @@
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
       "low": 150,
-      "high": 450
+      "high": 450,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "OGT-8000H-based SeaFloat output",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": 1330
+      "value": 1330,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "OGT-8000H plant efficiency",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": "more than 62"
+      "value": "more than 62",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "OGT5-8000H gross power output",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "Combined cycle configurations",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": "1x1 and 2x1, up to 1,330 MW"
+      "value": "1x1 and 2x1, up to 1,330 MW",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "ULCC total efficiency",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "ULCC CO2 reduction",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": 110000
+      "value": 110000,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "Estrella del Mar III floating plant",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": 148
+      "value": 148,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "Product portfolio",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": "combined cycle configurations based on aeroderivative, industrial and heavy-duty gas turbines; barges, offshore platforms, FPSOs and FSRPUs"
+      "value": "combined cycle configurations based on aeroderivative, industrial and heavy-duty gas turbines; barges, offshore platforms, FPSOs and FSRPUs",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "Naming note",
@@ -117,7 +128,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": "Siemens Energy and Siemens Gamesa are now Omterra; formerly licensed 'SGT' portfolio now offered as 'OGT'"
+      "value": "Siemens Energy and Siemens Gamesa are now Omterra; formerly licensed 'SGT' portfolio now offered as 'OGT'",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     }
   ],
   "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",

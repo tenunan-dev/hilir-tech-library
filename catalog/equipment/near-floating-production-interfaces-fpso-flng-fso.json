@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Floating host for process, storage and offloading; interfaces with risers, moorings and fixed structures; relevant to CCS conversion of existing platforms.",
+  "description": "Floating host for process, storage and offloading; interfaces with risers, moorings and fixed structures; relevant to CCS conversion of existing platforms. Primary source: https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
   "specifications": [
     {
       "metric": "Jotun A FPSO size / production",
@@ -19,7 +19,8 @@
         "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
         "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
       },
-      "value": "92,000 DWT / 70,000 bpd"
+      "value": "92,000 DWT / 70,000 bpd",
+      "source_url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate"
     },
     {
       "metric": "Porthos CO2 injection host",
@@ -29,7 +30,8 @@
         "url": "https://www.porthosco2.nl/en",
         "source_id": "porthosco2-nl-www-porthosco2-nl-en"
       },
-      "value": "P18-A former gas production platform converted to CO2 injection platform; >20 km offshore pipeline laid"
+      "value": "P18-A former gas production platform converted to CO2 injection platform; >20 km offshore pipeline laid",
+      "source_url": "https://www.porthosco2.nl/en"
     }
   ],
   "vendors": [

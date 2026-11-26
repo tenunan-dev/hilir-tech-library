@@ -6,7 +6,7 @@
   "sector_codes": [
     "WWT"
   ],
-  "description": "Pressure-driven membrane systems for water reuse: hollow-fibre microfiltration/ultrafiltration (0.02-0.1 um) pretreatment and spiral-wound reverse osmosis trains that reject salts and micropollutants.",
+  "description": "Pressure-driven membrane systems for water reuse: hollow-fibre microfiltration/ultrafiltration (0.02-0.1 um) pretreatment and spiral-wound reverse osmosis trains that reject salts and micropollutants. Primary source: https://www.suezwatertechnologies.com/",
   "subtypes": [
     {
       "name": "submerged hollow-fibre UF (ZeeWeed style)"
@@ -36,7 +36,8 @@
       "source": {
         "url": "https://www.suezwatertechnologies.com/",
         "note": "ZeeWeed pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.suezwatertechnologies.com/"
     },
     {
       "metric": "RO element sizes",
@@ -47,7 +48,8 @@
       "source": {
         "url": "https://www.dupont.com/water.html",
         "note": "DuPont FilmTec pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.dupont.com/water.html"
     },
     {
       "metric": "RO permeate recovery (reuse trains)",
@@ -58,7 +60,8 @@
       "source": {
         "url": "https://www.dupont.com/water.html",
         "note": "DuPont reuse literature, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.dupont.com/water.html"
     }
   ],
   "vendor_models": [

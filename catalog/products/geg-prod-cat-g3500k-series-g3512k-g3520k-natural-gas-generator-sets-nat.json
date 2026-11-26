@@ -6,7 +6,7 @@
   "equipment": [
     "geg-gas-engine-generator-units"
   ],
-  "description": "natural gas generator set",
+  "description": "natural gas generator set Primary source: https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
   "specifications": [
     {
       "metric": "Continuous rating, G3512K",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
         "source_id": "geg-r-jina-ai-k-series-html-955b0f5"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Maximum electrical efficiency, G3512K",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
         "source_id": "geg-r-jina-ai-k-series-html-955b0f5"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Continuous rating, G3520K",
@@ -40,7 +42,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
         "source_id": "geg-r-jina-ai-k-series-html-955b0f5"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Maximum electrical efficiency, G3520K",
@@ -51,7 +54,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
         "source_id": "geg-r-jina-ai-k-series-html-955b0f5"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Time to start and accept 100% load, G3500K",
@@ -62,7 +66,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",
         "source_id": "geg-r-jina-ai-k-series-html-955b0f5"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "G3512K continuous rating (web page, 1.0 pf)",
@@ -71,7 +76,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
       },
-      "value": 1530
+      "value": 1530,
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "G3520K continuous rating (web page, 1.0 pf)",
@@ -80,7 +86,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
       },
-      "value": "2567 / 2552"
+      "value": "2567 / 2552",
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "G3512K continuous rating (leaflet, 0.8 pf)",
@@ -90,7 +97,8 @@
         "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee",
         "source_id": "catpar-r-jina-ai-cm20250331-8a14c-8edee-5cbe8a0"
       },
-      "value": "1530 / 1502"
+      "value": "1530 / 1502",
+      "source_url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
     },
     {
       "metric": "G3520K continuous rating (leaflet, 0.8 pf)",
@@ -99,7 +107,8 @@
       "source": {
         "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
       },
-      "value": "2536 / 2520"
+      "value": "2536 / 2520",
+      "source_url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
     },
     {
       "metric": "Maximum electrical efficiency - G3512K",
@@ -108,7 +117,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
       },
-      "value": 45.3
+      "value": 45.3,
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Maximum electrical efficiency - G3520K",
@@ -117,7 +127,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
       },
-      "value": 46.0
+      "value": 46.0,
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Total efficiency in CHP (web page)",
@@ -126,7 +137,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Total generator set efficiency (leaflet)",
@@ -135,7 +147,8 @@
       "source": {
         "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
       },
-      "value": 89.6
+      "value": 89.6,
+      "source_url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
     },
     {
       "metric": "Methane number without derate",
@@ -144,7 +157,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
       },
-      "value": 60
+      "value": 60,
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Hydrogen blending",
@@ -153,7 +167,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Start to 100% load time",
@@ -162,7 +177,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
       },
-      "value": 4.5
+      "value": 4.5,
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Application power band",
@@ -171,7 +187,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
       },
-      "value": "1.5 - 2.5 eMW"
+      "value": "1.5 - 2.5 eMW",
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Thermal efficiency improvement",
@@ -180,7 +197,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
       },
-      "value": 2.8
+      "value": 2.8,
+      "source_url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html"
     },
     {
       "metric": "Higher altitude capability",
@@ -189,7 +207,8 @@
       "source": {
         "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
     },
     {
       "metric": "Higher ambient temperature capability",
@@ -198,7 +217,8 @@
       "source": {
         "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
     },
     {
       "metric": "Faster load acceptance",
@@ -207,7 +227,8 @@
       "source": {
         "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
     },
     {
       "metric": "Grid code fault ride-through tests",
@@ -216,7 +237,8 @@
       "source": {
         "url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
       },
-      "value": 700
+      "value": 700,
+      "source_url": "https://r.jina.ai/https://s7d2.scene7.com/is/content/Caterpillar/CM20250331-8a14c-8edee"
     }
   ],
   "url": "https://r.jina.ai/https://www.cat.com/en_US/campaigns/awareness/electric-power/k-series.html",

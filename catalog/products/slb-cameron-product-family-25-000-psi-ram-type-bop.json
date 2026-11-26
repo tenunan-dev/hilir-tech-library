@@ -6,7 +6,7 @@
   "equipment": [
     "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s-d23380"
   ],
-  "description": "EVO BOP-style system with wedge lock technology. Page states Cameron delivered the industry's first 20,000-psi large-bore drilling BOP stack in 2009 and first 25,000-psi stack in 2010. Data sheet PDF linked but not fetched.",
+  "description": "EVO BOP-style system with wedge lock technology. Page states Cameron delivered the industry's first 20,000-psi large-bore drilling BOP stack in 2009 and first 25,000-psi stack in 2010. Data sheet PDF linked but not fetched. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
   "specifications": [
     {
       "metric": "Working pressure",
@@ -16,7 +16,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
         "source_id": "cat-slb-com-25k-psi-ram-type-bop"
       },
-      "value": "25,000"
+      "value": "25,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "Close ratio",
@@ -26,7 +27,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
         "source_id": "cat-slb-com-25k-psi-ram-type-bop"
       },
-      "value": "9:1"
+      "value": "9:1",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "Hydraulic operating system",
@@ -36,7 +38,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
         "source_id": "cat-slb-com-25k-psi-ram-type-bop"
       },
-      "value": "5,000"
+      "value": "5,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "Qualification",
@@ -46,7 +49,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",
         "source_id": "cat-slb-com-25k-psi-ram-type-bop"
       },
-      "value": "API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition"
+      "value": "API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - working pressure",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": 25000
+      "value": 25000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - close ratio",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "9:1"
+      "value": "9:1",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - hydraulic operating system",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": 5000
+      "value": 5000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - operation",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "EVO BOP-style system with wedge lock technology"
+      "value": "EVO BOP-style system with wedge lock technology",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - qualification",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition"
+      "value": "API Spec 16A, 3rd Edition and ASME Section VIII, Division 3, 2010 Edition",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     },
     {
       "metric": "25K BOP - first delivery",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
       },
-      "value": "Industry's first 25,000-psi large-bore drilling BOP stack delivered 2010 (second in 2014)"
+      "value": "Industry's first 25,000-psi large-bore drilling BOP stack delivered 2010 (second in 2014)",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/ram-type-bops/25k-psi-ram-type-bop",

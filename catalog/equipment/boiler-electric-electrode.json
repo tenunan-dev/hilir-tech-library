@@ -12,7 +12,7 @@
     "PWR",
     "PRC"
   ],
-  "description": "Steam generator heated directly by electricity — resistance elements in a pressure vessel, or current conducted through the boiler water by electrodes at high voltage. No combustion, no flue gas and no fuel system, so it avoids the chimney, fuel infrastructure and air-permit scope entirely, and pairs with cheap or surplus site power; the electrification option for on-site steam.",
+  "description": "Steam generator heated directly by electricity — resistance elements in a pressure vessel, or current conducted through the boiler water by electrodes at high voltage. No combustion, no flue gas and no fuel system, so it avoids the chimney, fuel infrastructure and air-permit scope entirely, and pairs with cheap or surplus site power; the electrification option for on-site steam. Primary source: https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
   "subtypes": [
     {
       "name": "Resistance-element electric steam boiler",
@@ -38,7 +38,8 @@
       "source": {
         "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
         "note": "Bosch ELSB electric steam boiler product page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p"
     },
     {
       "metric": "safety pressure, resistance-type",
@@ -49,7 +50,8 @@
       "source": {
         "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
         "note": "Bosch ELSB electric steam boiler product page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p"
     },
     {
       "metric": "conversion efficiency, resistance-type",
@@ -59,7 +61,8 @@
       "source": {
         "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
         "note": "Bosch ELSB electric steam boiler product page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p"
     },
     {
       "metric": "supply voltage",
@@ -68,7 +71,8 @@
       "source": {
         "url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p",
         "note": "Bosch ELSB electric steam boiler product page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p"
     },
     {
       "metric": "Cleaver-Brooks Model S range",
@@ -77,7 +81,8 @@
       "source": {
         "url": "https://cleaverbrooks.com",
         "note": "Cleaver-Brooks Model S electric boiler page, search-verified 30 October 2026 (site returned 403 to direct fetch)"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com"
     }
   ],
   "vendor_models": [

@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Transport an integrated topside on a heavy-lift/transport barge, maneuver the barge between pre-installed jacket legs, align deck legs with leg-mating units, ballast the barge (or use tidal change) to transfer weight to the substructure, then weld out.",
+  "description": "Transport an integrated topside on a heavy-lift/transport barge, maneuver the barge between pre-installed jacket legs, align deck legs with leg-mating units, ballast the barge (or use tidal change) to transfer weight to the substructure, then weld out. Primary source: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
   "specifications": [
     {
       "metric": "Float-over hardware set",
@@ -19,7 +19,8 @@
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
         "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
       },
-      "value": "LMU + Sway and Surge Fenders (SSF) + Deck Support Units (DSU)"
+      "value": "LMU + Sway and Surge Fenders (SSF) + Deck Support Units (DSU)",
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "Topsides weight where crane-free float-over is advantageous",
@@ -29,7 +30,8 @@
         "url": "https://www.mammoet.com/offshore/topside-load-out/",
         "source_id": "mammoet-com-topside-load-out"
       },
-      "value": ">10,000 t (many topsides now exceed this)"
+      "value": ">10,000 t (many topsides now exceed this)",
+      "source_url": "https://www.mammoet.com/offshore/topside-load-out/"
     },
     {
       "metric": "Innovation",
@@ -39,7 +41,8 @@
         "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
         "source_id": "orca-offshore-com-leg-mating-unit"
       },
-      "value": "direct welding after set-down; no sand-jack lowering phase"
+      "value": "direct welding after set-down; no sand-jack lowering phase",
+      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
     },
     {
       "metric": "Design feature",
@@ -48,7 +51,8 @@
       "source": {
         "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
       },
-      "value": "allows direct welding of the topside to the jacket after set down"
+      "value": "allows direct welding of the topside to the jacket after set down",
+      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
     },
     {
       "metric": "Eliminated operation",
@@ -57,7 +61,8 @@
       "source": {
         "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
       },
-      "value": "phase whereby topside is lowered by sand-jacks or equivalent equipment"
+      "value": "phase whereby topside is lowered by sand-jacks or equivalent equipment",
+      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
     },
     {
       "metric": "Construction",
@@ -66,7 +71,8 @@
       "source": {
         "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
       },
-      "value": "standard rubber elements, standard steel pipe and flush steel plates"
+      "value": "standard rubber elements, standard steel pipe and flush steel plates",
+      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
     },
     {
       "metric": "Commercial features",
@@ -75,7 +81,8 @@
       "source": {
         "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
       },
-      "value": "short lead time; competitive price"
+      "value": "short lead time; competitive price",
+      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
     },
     {
       "metric": "Developer",
@@ -84,7 +91,8 @@
       "source": {
         "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
       },
-      "value": "Orca Offshore together with SeaCamel, for the LAM-E topside float-over"
+      "value": "Orca Offshore together with SeaCamel, for the LAM-E topside float-over",
+      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
   ],
-  "description": "Peter Brotherhood reciprocating compressors rated to 20MW and operating between 260 and 1,000 rpm also described on this page (text as printed).",
+  "description": "Peter Brotherhood reciprocating compressors rated to 20MW and operating between 260 and 1,000 rpm also described on this page (text as printed). Primary source: https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
   "specifications": [
     {
       "metric": "Compression stages",
@@ -16,7 +16,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Pressure increase",
@@ -26,7 +27,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Number of compression stages",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Pressure increase",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Example wet hydrogen duty",
@@ -52,7 +56,8 @@
       "basis": "Howden case figure: 'Flow: 21.000 Nm3/hr of wet hydrogen at 1.2 bara; Final pressure 55 bara'",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Gas suitability",
@@ -60,7 +65,8 @@
       "basis": "Howden: 'suitable for virtually all dry gases including helium, hydrogen and nitrogen'",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Configuration / auxiliary systems",
@@ -68,7 +74,8 @@
       "basis": "Howden: 'inter-stage cooling and purging of condensates'; 'fully integrated skid incorporates control systems, regulation equipment and any other additional modules and utility packages'",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",

@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Mobile buoyant hull with movable legs jacked to the seabed; hull raised above waves for drilling, workover, production or wind-turbine service.",
+  "description": "Mobile buoyant hull with movable legs jacked to the seabed; hull raised above waves for drilling, workover, production or wind-turbine service. Primary source: https://en.wikipedia.org/wiki/Jackup_rig",
   "specifications": [
     {
       "metric": "typical water depth",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Jackup_rig",
         "source_id": "en-wikipedia-org-wiki-jackup-rig"
       },
-      "value": 120
+      "value": 120,
+      "source_url": "https://en.wikipedia.org/wiki/Jackup_rig"
     },
     {
       "metric": "premium/ultra-premium water depth",
@@ -30,7 +31,8 @@
         "source_id": "en-wikipedia-org-wiki-jackup-rig"
       },
       "low": 150,
-      "high": 190
+      "high": 190,
+      "source_url": "https://en.wikipedia.org/wiki/Jackup_rig"
     },
     {
       "metric": "tallest jackup leg length, Noble Lloyd Noble",
@@ -40,7 +42,8 @@
         "url": "https://en.wikipedia.org/wiki/Jackup_rig",
         "source_id": "en-wikipedia-org-wiki-jackup-rig"
       },
-      "value": 214
+      "value": 214,
+      "source_url": "https://en.wikipedia.org/wiki/Jackup_rig"
     },
     {
       "metric": "world jackup fleet",
@@ -50,7 +53,8 @@
         "url": "https://en.wikipedia.org/wiki/Jackup_rig",
         "source_id": "en-wikipedia-org-wiki-jackup-rig"
       },
-      "value": "about 540 jackup drilling rigs in operation at end 2013"
+      "value": "about 540 jackup drilling rigs in operation at end 2013",
+      "source_url": "https://en.wikipedia.org/wiki/Jackup_rig"
     },
     {
       "metric": "leg configurations",
@@ -60,7 +64,8 @@
         "url": "https://en.wikipedia.org/wiki/Jackup_rig",
         "source_id": "en-wikipedia-org-wiki-jackup-rig"
       },
-      "value": "3 or 4 legs typical; also 6 and 8 movable legs"
+      "value": "3 or 4 legs typical; also 6 and 8 movable legs",
+      "source_url": "https://en.wikipedia.org/wiki/Jackup_rig"
     },
     {
       "metric": "preloading",
@@ -70,7 +75,8 @@
         "url": "https://en.wikipedia.org/wiki/Jackup_rig",
         "source_id": "en-wikipedia-org-wiki-jackup-rig"
       },
-      "value": "hull weight + ballast water drive legs into seabed before jacking hull to air gap; rack-and-pinion jacking driven by hydraulic/electric motors"
+      "value": "hull weight + ballast water drive legs into seabed before jacking hull to air gap; rack-and-pinion jacking driven by hydraulic/electric motors",
+      "source_url": "https://en.wikipedia.org/wiki/Jackup_rig"
     }
   ],
   "vendors": [

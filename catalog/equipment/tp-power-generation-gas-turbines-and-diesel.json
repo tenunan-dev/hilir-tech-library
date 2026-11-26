@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Supply electrical power and mechanical drive for topside process, compression, water injection and utilities; combined-cycle and single-lift modular packages for offshore use.",
+  "description": "Supply electrical power and mechanical drive for topside process, compression, water injection and utilities; combined-cycle and single-lift modular packages for offshore use. Primary source: https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
   "specifications": [
     {
       "metric": "SGT-800 combined cycle range",
@@ -19,7 +19,8 @@
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html",
         "source_id": "siemens-energy-com-product-seafloat-html"
       },
-      "value": "150-450"
+      "value": "150-450",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     }
   ],
   "vendors": [

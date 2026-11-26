@@ -6,7 +6,7 @@
   "equipment": [
     "geg-gas-receiving-and-metering-station-with-hot-tap-and-fuel-gas-sup"
   ],
-  "description": "fuel gas pressure regulating and metering station",
+  "description": "fuel gas pressure regulating and metering station Primary source: https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
   "specifications": [
     {
       "metric": "Typical transmission pipeline pressure range",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Typical power-plant fuel-gas pressure required",
@@ -30,7 +31,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Pilot-operated regulator set-pressure accuracy",
@@ -42,7 +44,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Station noise benchmark",
@@ -53,7 +56,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Fuel-gas supply station equipment items listed",
@@ -63,7 +67,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
         "source_id": "geg-emerson-com-fuel-gas-supply-system-for-gas-p-923a6dd"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Transmission pipeline pressure",
@@ -73,7 +78,8 @@
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
       },
       "low": 150,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Gas turbine fuel gas pressure",
@@ -83,7 +89,8 @@
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
       },
       "low": 450,
-      "high": 600
+      "high": 600,
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Set pressure accuracy",
@@ -93,7 +100,8 @@
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
       },
       "low": 0.5,
-      "high": 2.5
+      "high": 2.5,
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Primary/standby example pressures",
@@ -103,7 +111,8 @@
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
       },
       "low": 420,
-      "high": 800
+      "high": 800,
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Station noise benchmark",
@@ -112,7 +121,8 @@
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Shutoff class",
@@ -120,7 +130,8 @@
       "basis": "Emerson: 'Ensuring regulators within the station have ANSI Class VIII shutoff rating'",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Governing code",
@@ -128,7 +139,8 @@
       "basis": "Emerson: 'Piping systems in electric power generation stations are governed by ASME 31.1.'",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Methane emissions equivalence",
@@ -136,7 +148,8 @@
       "basis": "Emerson: '1 Kg of methane emitted into atmosphere is equivalent to emitting 25 Kg of carbon dioxide'",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     },
     {
       "metric": "Regulator styles / models",
@@ -144,7 +157,8 @@
       "basis": "Emerson: 'Two styles ... 1) two-path, loading style and 2) boot, unloading style'; figure 'Tartarini™ Type FL - Axial Flow, Two-Path Style Pilot-Operated Regulator'",
       "source": {
         "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
-      }
+      },
+      "source_url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf"
     }
   ],
   "url": "https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",

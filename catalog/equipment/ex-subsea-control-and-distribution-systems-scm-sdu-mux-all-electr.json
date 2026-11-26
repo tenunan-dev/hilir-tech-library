@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Remote monitoring and control of trees, manifolds, valves and chokes; distribute hydraulic power, electrical power, chemical injection and communications; enable ROV intervention.",
+  "description": "Remote monitoring and control of trees, manifolds, valves and chokes; distribute hydraulic power, electrical power, chemical injection and communications; enable ROV intervention. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

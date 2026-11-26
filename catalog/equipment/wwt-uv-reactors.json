@@ -6,7 +6,7 @@
   "sector_codes": [
     "WWT"
   ],
-  "description": "Closed-vessel or open-channel UV systems (low-pressure, medium-pressure, LED) delivering 20-100 mJ/cm2 with validated dose monitoring.",
+  "description": "Closed-vessel or open-channel UV systems (low-pressure, medium-pressure, LED) delivering 20-100 mJ/cm2 with validated dose monitoring. Primary source: https://www.trojantechnologies.com/",
   "subtypes": [
     {
       "name": "open-channel gravity systems"
@@ -33,7 +33,8 @@
       "source": {
         "url": "https://www.trojantechnologies.com/",
         "note": "Trojan pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.trojantechnologies.com/"
     }
   ],
   "vendor_models": [

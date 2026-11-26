@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Transfer jacket/tower loads into soil by axial and lateral resistance; skirt piles are driven through sleeves at jacket base corners.",
+  "description": "Transfer jacket/tower loads into soil by axial and lateral resistance; skirt piles are driven through sleeves at jacket base corners. Primary source: https://www.offshore-technology.com/projects/baldpate/",
   "specifications": [
     {
       "metric": "skirt-pile sleeves, Baldpate",
@@ -19,7 +19,8 @@
         "url": "https://www.offshore-technology.com/projects/baldpate/",
         "source_id": "offshore-technology-com-baldpate"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.offshore-technology.com/projects/baldpate/"
     },
     {
       "metric": "pile mass and length, Mexilhão",
@@ -29,7 +30,8 @@
         "url": "https://www.offshore-technology.com/projects/mexilhao",
         "source_id": "offshore-technology-com-projects-mexilhao"
       },
-      "value": 3150
+      "value": 3150,
+      "source_url": "https://www.offshore-technology.com/projects/mexilhao"
     }
   ],
   "vendors": [

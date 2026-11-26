@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. Three factory-tested modules; 2-stage turbocharging; ~94% total efficiency CHP",
+  "description": "Vendor product line read 2026-11-24. Three factory-tested modules; 2-stage turbocharging; ~94% total efficiency CHP Primary source: https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
   "specifications": [
     {
       "metric": "Electrical output",
@@ -16,7 +16,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
         "source_id": "jenbacher-com-j920-flextra"
       },
-      "value": 10606
+      "value": 10606,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Voltage",
@@ -26,7 +27,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
         "source_id": "jenbacher-com-j920-flextra"
       },
-      "value": "10.5 / 11"
+      "value": "10.5 / 11",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Electrical efficiency",
@@ -36,7 +38,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
         "source_id": "jenbacher-com-j920-flextra"
       },
-      "value": 48.7
+      "value": 48.7,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Start to full power",
@@ -46,7 +49,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
         "source_id": "jenbacher-com-j920-flextra"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Electrical output 50 Hz genset",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": 10606
+      "value": 10606,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Thermal output 50 Hz genset",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": 10300
+      "value": 10300,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Voltage 50 Hz",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": "10.5 kV, 11 kV"
+      "value": "10.5 kV, 11 kV",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Electrical efficiency 50 Hz",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": 48.7
+      "value": 48.7,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Thermal efficiency 50 Hz",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": 47.0
+      "value": 47.0,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Electrical output 60 Hz genset",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": 9542
+      "value": 9542,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Thermal output 60 Hz genset",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": 9300
+      "value": 9300,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Voltage 60 Hz",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": "480 V - 13.8 kV"
+      "value": "480 V - 13.8 kV",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Electrical efficiency 60 Hz",
@@ -127,7 +139,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": 48.7
+      "value": 48.7,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Thermal efficiency 60 Hz",
@@ -136,7 +149,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": 47.0
+      "value": 47.0,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Fuel type",
@@ -145,7 +159,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": "Natural Gas"
+      "value": "Natural Gas",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "NOx reference emission basis",
@@ -154,7 +169,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": "250 and 500 mg/Nm3 at 5% O2, dry exhaust gas"
+      "value": "250 and 500 mg/Nm3 at 5% O2, dry exhaust gas",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Biogas/sewage gas reference composition",
@@ -163,7 +179,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": "65% CH4 / 35% CO2"
+      "value": "65% CH4 / 35% CO2",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Landfill gas reference composition",
@@ -172,7 +189,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": "55% CH4 / 40% CO2 / rest N2"
+      "value": "55% CH4 / 40% CO2 / rest N2",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Full-load start time",
@@ -181,7 +199,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Total efficiency (CHP)",
@@ -190,7 +209,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": "about 94"
+      "value": "about 94",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Engine construction",
@@ -199,7 +219,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": "three modules (generator, engine, turbocharger module); segmented camshaft; exchangeable power unit; 2-stage turbocharger (no deration at higher altitudes/higher cooling-water temperatures)"
+      "value": "three modules (generator, engine, turbocharger module); segmented camshaft; exchangeable power unit; 2-stage turbocharger (no deration at higher altitudes/higher cooling-water temperatures)",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Case study - Fernwaerme Ulm electrical efficiency",
@@ -208,7 +229,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
       },
-      "value": 48.8
+      "value": 48.8,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     }
   ],
   "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",

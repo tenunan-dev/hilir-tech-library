@@ -6,7 +6,7 @@
   "equipment": [
     "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s-d23380"
   ],
-  "description": "SECONDARY SOURCE, NOT OEM. Page explicitly states: 'Drawings and information contained herein are for general purposes only and is not intended to replace OEM data... All values are from OEM's most current operation / maintenance / user's manual, as of spec binders published date.' Use as search/aggregation evidence only; confirm against an OEM data sheet before engineering use.",
+  "description": "SECONDARY SOURCE, NOT OEM. Page explicitly states: 'Drawings and information contained herein are for general purposes only and is not intended to replace OEM data... All values are from OEM's most current operation / maintenance / user's manual, as of spec binders published date.' Use as search/aggregation evidence only; confirm against an OEM data sheet before engineering use. Primary source: https://www.quailtools.com/BOPSpecSheets.html",
   "specifications": [
     {
       "metric": "Cameron T90 annular - vertical bore",
@@ -16,7 +16,8 @@
         "url": "https://www.quailtools.com/BOPSpecSheets.html",
         "source_id": "cat-quailtools-com-bopspecsheets-html"
       },
-      "value": "7.063"
+      "value": "7.063",
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular - working pressure rating",
@@ -26,7 +27,8 @@
         "url": "https://www.quailtools.com/BOPSpecSheets.html",
         "source_id": "cat-quailtools-com-bopspecsheets-html"
       },
-      "value": "5M"
+      "value": "5M",
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular - maximum hydraulic pressure",
@@ -36,7 +38,8 @@
         "url": "https://www.quailtools.com/BOPSpecSheets.html",
         "source_id": "cat-quailtools-com-bopspecsheets-html"
       },
-      "value": "1,500"
+      "value": "1,500",
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular - fluid to open / to close",
@@ -47,7 +50,8 @@
         "source_id": "cat-quailtools-com-bopspecsheets-html"
       },
       "low": "3.43",
-      "high": "4.920"
+      "high": "4.920",
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Shaffer wedge annular - vertical bore / pressure",
@@ -57,7 +61,8 @@
         "url": "https://www.quailtools.com/BOPSpecSheets.html",
         "source_id": "cat-quailtools-com-bopspecsheets-html"
       },
-      "value": "13.625 / 10M"
+      "value": "13.625 / 10M",
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron Type U single ram - height",
@@ -67,7 +72,8 @@
         "url": "https://www.quailtools.com/BOPSpecSheets.html",
         "source_id": "cat-quailtools-com-bopspecsheets-html"
       },
-      "value": "27.500"
+      "value": "27.500",
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron Type U single ram - maximum hydraulic pressure",
@@ -77,7 +83,8 @@
         "url": "https://www.quailtools.com/BOPSpecSheets.html",
         "source_id": "cat-quailtools-com-bopspecsheets-html"
       },
-      "value": "3,000"
+      "value": "3,000",
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron Type U double ram (13.625 in, 15M) - weight",
@@ -87,7 +94,8 @@
         "url": "https://www.quailtools.com/BOPSpecSheets.html",
         "source_id": "cat-quailtools-com-bopspecsheets-html"
       },
-      "value": "47,886"
+      "value": "47,886",
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron Type U ram - close ratio (7.063 in, 5M)",
@@ -97,7 +105,8 @@
         "url": "https://www.quailtools.com/BOPSpecSheets.html",
         "source_id": "cat-quailtools-com-bopspecsheets-html"
       },
-      "value": "6.20"
+      "value": "6.20",
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular 7-1/16 in 5M — dimensions",
@@ -105,7 +114,8 @@
       "basis": "Quail Tools BOP spec sheet, ANNULAR TYPE table row: vertical bore 7.063 in, pressure rating 5M, manufacturer Cameron, type T90, height 30.875 in, weight approx 3,175 lbs",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular 7-1/16 in 5M — hydraulics",
@@ -113,7 +123,8 @@
       "basis": "Quail Tools row: clearance diameter 29.000 in, max hydraulic pressure 1,500 psi, NPT port 1.000 in, number of ports 2, to open 3.43 gal, to close 4.920 gal, studded/flange ring gasket RX-46",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular 11 in 5M",
@@ -121,7 +132,8 @@
       "basis": "Quail Tools row: vertical bore 11.000 in, 5M, Cameron T90, height 41.500 in, weight approx 9,550 lbs, clearance 44.750 in, max hydraulic 1,500 psi, NPT 1.250 in ×2, open 14.59 gal, close 18.670 gal, gasket RX-54",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron T90 annular 11 in 10M",
@@ -129,7 +141,8 @@
       "basis": "Quail Tools row: 11.000 in, 10M, Cameron T90 w/ 11\" 10M flanged bottom, height 41.500 in, weight approx 9,550 lbs, clearance 44.750 in, max hydraulic 1,500 psi, NPT 1.250 in ×2, open 14.59 gal, close 18.670 gal, gasket RX-54",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Cameron DL annular 13-5/8 in 15M",
@@ -137,7 +150,8 @@
       "basis": "Quail Tools row: 13.625 in, 10M, Cameron DL w/ 13-5/8\" 15M flanged bottom, height 49.094 in, weight approx 27,262 lbs, clearance 61.000 in, max hydraulic 1,500 psi, NPT 1.250 in ×4, open 16.15 gal, close 18.100 gal, gasket BX158/BX-159",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Hydril GK annular 7-1/16 in 5M",
@@ -145,7 +159,8 @@
       "basis": "Quail Tools row: 7.063 in, 5M, Hydril GK Screwed, height 36.880 in, weight approx 4,000 lbs, clearance 35.750 in, max hydraulic 1,500 psi, NPT 1.000 in ×2, open 3.30 gal, close 3.860 gal, gasket BX-159/RX-46",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Hydril GK annular 11 in 10M",
@@ -153,7 +168,8 @@
       "basis": "Quail Tools row: 11.000 in, 10M, Hydril GK Screwed, height 63.500 in, weight approx 26,140 lbs, clearance 61.500 in, max hydraulic 1,500 psi, NPT 1.000 in ×2, open 18.97 gal, close 25.100 gal, gasket BX-158",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     },
     {
       "metric": "Provenance / caveat",
@@ -161,7 +177,8 @@
       "basis": "Quail Tools: 'Drawings and information contained herein are for general purposes only and is not intended to replace OEM data. ... All values are from OEM's most current operation / maintenance / user's manual, as of spec binders published date.'",
       "source": {
         "url": "https://www.quailtools.com/BOPSpecSheets.html"
-      }
+      },
+      "source_url": "https://www.quailtools.com/BOPSpecSheets.html"
     }
   ],
   "url": "https://www.quailtools.com/BOPSpecSheets.html",

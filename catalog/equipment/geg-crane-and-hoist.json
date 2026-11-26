@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Crane and hoist for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Crane and hoist for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://vibrantengineering.com.my/products/overhead-crane",
   "aliases": [
     "Crane and hoist"
   ],
@@ -29,7 +29,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "Vibrant Engineering Services single/do — span",
@@ -40,7 +41,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "Vibrant Engineering Services single/do — single girder EOT capacity",
@@ -52,7 +54,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "Vibrant Engineering Services single/do — single girder EOT span",
@@ -63,7 +66,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "Vibrant Engineering Services single/do — double girder EOT capacity",
@@ -75,7 +79,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "Vibrant Engineering Services single/do — double girder EOT span",
@@ -86,7 +91,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "Vibrant Engineering Services single/do — duty class",
@@ -96,7 +102,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "Vibrant Engineering Services single/do — certification",
@@ -106,7 +113,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "Vibrant Engineering Services single/do — standard features",
@@ -116,7 +124,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "Vibrant Engineering Services single/do — supply condition",
@@ -126,7 +135,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "Dafang Crane LH-type / QD-type double  — LH-type 5t span",
@@ -138,7 +148,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Dafang Crane LH-type / QD-type double  — LH-type 5t lifting height",
@@ -149,7 +160,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Dafang Crane LH-type / QD-type double  — LH-type 5t total power",
@@ -161,7 +173,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Dafang Crane LH-type / QD-type double  — LH-type 10t total power",
@@ -173,7 +186,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Dafang Crane LH-type / QD-type double  — working duty",
@@ -183,7 +197,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Dafang Crane LH-type / QD-type double  — single girder reference span/lift/power",
@@ -193,7 +208,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH top running double girder overh — Capacity",
@@ -204,7 +220,8 @@
       "source": {
         "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
         "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
-      }
+      },
+      "source_url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide"
     },
     {
       "metric": "LH top running double girder overh — Span",
@@ -214,7 +231,8 @@
       "source": {
         "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
         "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
-      }
+      },
+      "source_url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide"
     },
     {
       "metric": "LH top running double girder overh — Lifting height",
@@ -224,7 +242,8 @@
       "source": {
         "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
         "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
-      }
+      },
+      "source_url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide"
     },
     {
       "metric": "LH top running double girder overh — Working duty",
@@ -233,7 +252,8 @@
       "source": {
         "url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide",
         "source_id": "gef-kscranegroup-com-overhead-crane-price-guide-8a37b93"
-      }
+      },
+      "source_url": "https://www.kscranegroup.com/posts/overhead-crane-price-guide"
     },
     {
       "metric": "capacity",
@@ -243,7 +263,8 @@
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
       "low": 1,
-      "high": 100
+      "high": 100,
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "span",
@@ -252,7 +273,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
-      "high": 35
+      "high": 35,
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "lift_height",
@@ -261,7 +283,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
-      "value": "Custom"
+      "value": "Custom",
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "duty_class",
@@ -270,7 +293,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
-      "value": "A3 - A7"
+      "value": "A3 - A7",
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "certification",
@@ -279,7 +303,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
-      "value": "JKKP / DOSH"
+      "value": "JKKP / DOSH",
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "installation_duration",
@@ -289,7 +314,8 @@
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
       "low": 3,
-      "high": 7
+      "high": 7,
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "LH/QD double girder crane - capacity range",
@@ -299,7 +325,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 5,
-      "high": 600
+      "high": 600,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH/QD double girder crane - span",
@@ -309,7 +336,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 10.5,
-      "high": 34
+      "high": 34,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH 5t double girder - total power",
@@ -319,7 +347,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 22.8,
-      "high": 27.8
+      "high": 27.8,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH 100t/20t double girder - total power",
@@ -329,7 +358,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 136,
-      "high": 174
+      "high": 174,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH 600t/150t double girder - total power",
@@ -338,7 +368,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
-      "value": 466
+      "value": 466,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH/QD - working duty",
@@ -347,7 +378,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
-      "value": "A5, A6 (A5 for 200t and above)"
+      "value": "A5, A6 (A5 for 200t and above)",
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Single girder overhead crane - power supply",
@@ -356,7 +388,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
-      "value": "220V-660V, 50-60Hz, 3ph AC"
+      "value": "220V-660V, 50-60Hz, 3ph AC",
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Single girder overhead crane - span",
@@ -366,7 +399,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 7.5,
-      "high": 31.5
+      "high": 31.5,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Single girder overhead crane - lifting height",
@@ -376,7 +410,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 6,
-      "high": 30
+      "high": 30,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     }
   ],
   "vendor_models": [

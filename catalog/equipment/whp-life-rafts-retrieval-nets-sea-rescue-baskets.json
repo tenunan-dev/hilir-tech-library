@@ -8,7 +8,7 @@
     "MID",
     "HSE"
   ],
-  "description": "Inflatable liferafts (float-free and davit-launched), their canisters and hydrostatic release units, plus personnel transfer baskets / rescue baskets. Retrieval nets were not directly evidenced in the pages read; this is recorded as a gap.",
+  "description": "Inflatable liferafts (float-free and davit-launched), their canisters and hydrostatic release units, plus personnel transfer baskets / rescue baskets. Retrieval nets were not directly evidenced in the pages read; this is recorded as a gap. Primary source: https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150",
   "aliases": [
     "Life rafts, retrieval nets, sea rescue baskets"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150",
         "source_id": "whp-ecfr-gov-section-133-150"
-      }
+      },
+      "source_url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Inflation time at 18-20 C",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Inflation time at -30 C",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Buoyancy chamber compartment withstand pressure",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Carrying capacity divisor - tube volume",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Carrying capacity divisor - floor area",
@@ -76,7 +81,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Boarding ramp load",
@@ -86,7 +92,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Boarding ladder lowest step below waterline",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Towing speed with full complement",
@@ -106,7 +114,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Water pockets fill time",
@@ -116,7 +125,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Water pocket aggregate capacity, up to 10 persons",
@@ -126,7 +136,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Davit-launched raft suspension load",
@@ -136,7 +147,8 @@
       "source": {
         "url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/",
         "source_id": "whp-solas-lsa-code-vercel-app"
-      }
+      },
+      "source_url": "https://solas-lsa-code.vercel.app/en/lsa/4.2/"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Service interval (MODU)",
@@ -146,7 +158,8 @@
       "source": {
         "url": "https://www.ecfr.gov/current/title-46/section-109.301",
         "source_id": "whp-ecfr-gov-section-109-301"
-      }
+      },
+      "source_url": "https://www.ecfr.gov/current/title-46/section-109.301"
     },
     {
       "metric": "Inflatable liferaft (SOLAS / USCG-SOLAS  — Aggregate capacity, manned offshore installation",
@@ -156,7 +169,8 @@
       "source": {
         "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
         "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
-      }
+      },
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html"
     },
     {
       "metric": "Hydrostatic release unit (HRU) and float — HRU service interval (MODU)",
@@ -166,7 +180,8 @@
       "source": {
         "url": "https://www.ecfr.gov/current/title-46/section-109.301",
         "source_id": "whp-ecfr-gov-section-109-301"
-      }
+      },
+      "source_url": "https://www.ecfr.gov/current/title-46/section-109.301"
     },
     {
       "metric": "Offshore personnel transfer basket / res — Capacity, SAFE-TRANSFER 8-person",
@@ -176,7 +191,8 @@
       "source": {
         "url": "https://www.viking-life.com/products/additional-lsa/transfer-descent-and-recovery/transfer-baskets/personnel-transfer-basket-safe-transfer-8-pers-1145-8",
         "source_id": "whp-viking-life-com-personnel-transfer-basket-safe-transfer-8"
-      }
+      },
+      "source_url": "https://www.viking-life.com/products/additional-lsa/transfer-descent-and-recovery/transfer-baskets/personnel-transfer-basket-safe-transfer-8-pers-1145-8"
     },
     {
       "metric": "Offshore personnel transfer basket / res — Payload, SAFE-TRANSFER 8-person",
@@ -186,7 +202,8 @@
       "source": {
         "url": "https://www.viking-life.com/products/additional-lsa/transfer-descent-and-recovery/transfer-baskets/personnel-transfer-basket-safe-transfer-8-pers-1145-8",
         "source_id": "whp-viking-life-com-personnel-transfer-basket-safe-transfer-8"
-      }
+      },
+      "source_url": "https://www.viking-life.com/products/additional-lsa/transfer-descent-and-recovery/transfer-baskets/personnel-transfer-basket-safe-transfer-8-pers-1145-8"
     },
     {
       "metric": "Offshore personnel transfer basket / res — Rescue basket capacity, Canadian offshore rule",
@@ -196,7 +213,8 @@
       "source": {
         "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
         "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
-      }
+      },
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html"
     },
     {
       "metric": "Offshore personnel transfer basket / res — Buoyant personnel transfer baskets, Canadian offshore rule",
@@ -206,7 +224,8 @@
       "source": {
         "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
         "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
-      }
+      },
+      "source_url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html"
     },
     {
       "metric": "Reliability — Inflatable liferaft service interval",
@@ -216,7 +235,8 @@
       "source": {
         "url": "https://www.ecfr.gov/current/title-46/section-109.301",
         "source_id": "whp-ecfr-gov-section-109-301"
-      }
+      },
+      "source_url": "https://www.ecfr.gov/current/title-46/section-109.301"
     },
     {
       "metric": "Reliability — Hydrostatic release unit service interval",
@@ -226,7 +246,8 @@
       "source": {
         "url": "https://www.ecfr.gov/current/title-46/section-109.301",
         "source_id": "whp-ecfr-gov-section-109-301"
-      }
+      },
+      "source_url": "https://www.ecfr.gov/current/title-46/section-109.301"
     },
     {
       "metric": "Price — Revere USCG/SOLAS 'A' liferaft, low profile container - list price from",
@@ -237,7 +258,8 @@
         "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
         "source_id": "whp-survivalatsea-com-uscg-solas-aspx"
       },
-      "year": 2026
+      "year": 2026,
+      "source_url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx"
     },
     {
       "metric": "Price — Survitec Zodiac USCG/SOLAS 'A' liferaft, low profile container - list price from",
@@ -248,7 +270,8 @@
         "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
         "source_id": "whp-survivalatsea-com-uscg-solas-aspx"
       },
-      "year": 2026
+      "year": 2026,
+      "source_url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx"
     },
     {
       "metric": "Price — Survitec Zodiac XTREM USCG/SOLAS 'A' liferaft - list price from",
@@ -259,7 +282,8 @@
         "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
         "source_id": "whp-survivalatsea-com-uscg-solas-aspx"
       },
-      "year": 2026
+      "year": 2026,
+      "source_url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx"
     },
     {
       "metric": "Price — Revere USCG-approved compact liferaft - list price from",
@@ -270,7 +294,8 @@
         "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
         "source_id": "whp-survivalatsea-com-uscg-solas-aspx"
       },
-      "year": 2026
+      "year": 2026,
+      "source_url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx"
     },
     {
       "metric": "Price — Pre-owned Crewsaver USCG/SOLAS 6-person liferaft",
@@ -281,7 +306,8 @@
         "url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx",
         "source_id": "whp-survivalatsea-com-uscg-solas-aspx"
       },
-      "year": 2026
+      "year": 2026,
+      "source_url": "https://www.survivalatsea.com/liferafts/commercial/uscg-solas.aspx"
     }
   ],
   "vendor_models": [],

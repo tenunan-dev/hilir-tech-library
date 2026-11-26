@@ -6,7 +6,7 @@
   "equipment": [
     "geg-gas-receiving-and-metering-station-with-hot-tap-and-fuel-gas-sup"
   ],
-  "description": "hot tap equipment",
+  "description": "hot tap equipment Primary source: https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
   "specifications": [
     {
       "metric": "360 Tapping Machine tap range",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
         "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
-      }
+      },
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "1200 XL / 936 XL Tapping Machine tap range",
@@ -30,7 +31,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
         "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
-      }
+      },
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "T-2460 XXL Tapping Machine tap range",
@@ -42,7 +44,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
         "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
-      }
+      },
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "ANSI Class filter options shown",
@@ -54,7 +57,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",
         "source_id": "geg-tdwilliamson-com-tapping-machines-fb74414"
-      }
+      },
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "pipeline_diameter_ranges",
@@ -63,7 +67,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
       },
-      "value": "1/2\"-4\"; 4\"-12\"; 12\"-20\"; 20\"-60\"; 60\"+"
+      "value": "1/2\"-4\"; 4\"-12\"; 12\"-20\"; 20\"-60\"; 60\"+",
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "special_diameters",
@@ -72,7 +77,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
       },
-      "value": "18\"; 28\"; 36\"; 42\"; 66\"; 108\"; 130\"; 150\""
+      "value": "18\"; 28\"; 36\"; 42\"; 66\"; 108\"; 130\"; 150\"",
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "pressure_ratings",
@@ -83,7 +89,8 @@
       },
       "value": "150; 300; 600; 900; 1500; 2500",
       "low": 150,
-      "high": 2500
+      "high": 2500,
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     },
     {
       "metric": "application",
@@ -92,7 +99,8 @@
       "source": {
         "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
       },
-      "value": "Used to make a new connection into a live pipeline, wide array of pipeline diameters, pressures and compositions in any environment"
+      "value": "Used to make a new connection into a live pipeline, wide array of pipeline diameters, pressures and compositions in any environment",
+      "source_url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines"
     }
   ],
   "url": "https://www.tdwilliamson.com/solutions/intervention-and-isolation/tapping-machines",

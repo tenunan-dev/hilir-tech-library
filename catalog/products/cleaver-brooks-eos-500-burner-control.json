@@ -6,7 +6,7 @@
   "equipment": [
     "burner-management-safety-system"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Boiler Controls catalog listing directly with WebFetch (text). No dedicated EOS 500 spec page opened.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Boiler Controls catalog listing directly with WebFetch (text). No dedicated EOS 500 spec page opened. Primary source: https://cleaverbrooks.com/catalog/controls/boiler-controls",
   "specifications": [
     {
       "metric": "Display",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-controls-boiler-controls"
       },
       "unit": "HMI",
-      "value": "Standard 7-inch touchscreen"
+      "value": "Standard 7-inch touchscreen",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Positioning",
@@ -26,7 +27,8 @@
         "source_id": "cleaverbrooks-com-controls-boiler-controls"
       },
       "unit": "product class",
-      "value": "High-performance industrial and commercial burner control system"
+      "value": "High-performance industrial and commercial burner control system",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     }
   ],
   "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls",

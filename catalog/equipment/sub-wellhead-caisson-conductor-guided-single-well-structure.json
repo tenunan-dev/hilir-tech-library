@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Single- or few-well structure in which the conductor(s) provide primary lateral support for a small wellhead deck.",
+  "description": "Single- or few-well structure in which the conductor(s) provide primary lateral support for a small wellhead deck. Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "structural concept",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": "small unmanned platform with well bay and small process plant, connected to a static production platform by flowlines/umbilical"
+      "value": "small unmanned platform with well bay and small process plant, connected to a static production platform by flowlines/umbilical",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "Diana caisson",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": "30 m high × 6.5 m diameter"
+      "value": "30 m high × 6.5 m diameter",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Example chart dimension - top caisson",
@@ -38,7 +40,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": "8 m x diameter 1 m"
+      "value": "8 m x diameter 1 m",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Example chart dimension - bottom caisson",
@@ -47,7 +50,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": "1 m x diameter 5 m"
+      "value": "1 m x diameter 5 m",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Installed caissons (2002 statistics)",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 485
+      "value": 485,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Localities",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Maximum installation depth",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Gorm field caissons",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Gorm field water depth",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Diana platform caisson height",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Diana platform caisson diameter",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 6.5
+      "value": 6.5,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Diana installation depth",
@@ -119,7 +130,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Snorre A caisson length",
@@ -128,7 +140,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Snorre A conventional pile alternative",
@@ -137,7 +150,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Troll A skirt length",
@@ -146,7 +160,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Troll A water depth",
@@ -155,7 +170,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 330
+      "value": 330,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Gullfaks C skirt length",
@@ -164,7 +180,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Suction_caisson"
       },
-      "value": 22
+      "value": 22,
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     }
   ],
   "vendors": [

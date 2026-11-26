@@ -2,7 +2,7 @@
   "id": "scr-nox-control-boiler",
   "name": "SCR, SNCR and CEMS for boilers",
   "equipment_type": "emissions-control",
-  "description": "Post-combustion NOx control. SCR passes flue gas over a catalyst with a reagent, achieving up to 95% reduction on packaged systems; SNCR injects reagent into a 870-1,150 C window and gives 30-50% reduction alone or 65-75% with combustion controls. CEMS provides the continuous concentration and emission-rate measurement used to demonstrate compliance.",
+  "description": "Post-combustion NOx control. SCR passes flue gas over a catalyst with a reagent, achieving up to 95% reduction on packaged systems; SNCR injects reagent into a 870-1,150 C window and gives 30-50% reduction alone or 65-75% with combustion controls. CEMS provides the continuous concentration and emission-rate measurement used to demonstrate compliance. Primary source: https://cleaverbrooks.com/product/scr",
   "specifications": [
     {
       "metric": "NOx reduction, packaged SCR",
@@ -12,7 +12,8 @@
         "source_id": "cb-scr"
       },
       "unit": "%",
-      "value": 95
+      "value": 95,
+      "source_url": "https://cleaverbrooks.com/product/scr"
     },
     {
       "metric": "stack NOx with SCR, modular HRSG",
@@ -22,7 +23,8 @@
         "source_id": "cb-modular-hrsg"
       },
       "unit": "ppm",
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "SCR scope of supply",
@@ -32,7 +34,8 @@
         "source_id": "zeeco-scr-systems"
       },
       "unit": "qualitative",
-      "value": "full SCR scope"
+      "value": "full SCR scope",
+      "source_url": "https://zeeco.com/scr-systems"
     },
     {
       "metric": "NOx reduction, SNCR alone",
@@ -43,7 +46,8 @@
       },
       "unit": "%",
       "low": 30,
-      "high": 50
+      "high": 50,
+      "source_url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT"
     },
     {
       "metric": "NOx reduction, SNCR with combustion controls",
@@ -54,7 +58,8 @@
       },
       "unit": "%",
       "low": 65,
-      "high": 75
+      "high": 75,
+      "source_url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT"
     },
     {
       "metric": "SNCR reaction temperature window",
@@ -65,7 +70,8 @@
       },
       "unit": "degC",
       "low": 870,
-      "high": 1150
+      "high": 1150,
+      "source_url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT"
     },
     {
       "metric": "permitted ammonia slip",
@@ -76,7 +82,8 @@
       },
       "unit": "ppm",
       "low": 2,
-      "high": 10
+      "high": 10,
+      "source_url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT"
     },
     {
       "metric": "SNCR capital cost, industrial boilers",
@@ -88,7 +95,8 @@
       "unit": "USD per MMBtu/hr",
       "low": 900,
       "high": 2500,
-      "year": 1999
+      "year": 1999,
+      "source_url": "https://nepis.epa.gov/Exe/ZyPURL.cgi?Dockey=P100RQ6Y.TXT"
     },
     {
       "metric": "CEMS definition",
@@ -98,7 +106,8 @@
         "source_id": "epa-cems"
       },
       "unit": "qualitative",
-      "value": "analysers + conversion"
+      "value": "analysers + conversion",
+      "source_url": "https://www.epa.gov/emc/emc-continuous-emission-monitoring-systems"
     },
     {
       "metric": "NOx reduction",
@@ -108,7 +117,8 @@
         "source_id": "johnzink-com-powerburners-selective-catalytic-reduction-scr-syst"
       },
       "unit": "% post-combustion NOx reduction (up to)",
-      "value": 95
+      "value": 95,
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Reductant options",
@@ -118,7 +128,8 @@
         "source_id": "johnzink-com-powerburners-selective-catalytic-reduction-scr-syst"
       },
       "unit": "reductants",
-      "value": "Aqueous ammonia, anhydrous ammonia, urea"
+      "value": "Aqueous ammonia, anhydrous ammonia, urea",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Additional catalyst",
@@ -128,7 +139,8 @@
         "source_id": "johnzink-com-powerburners-selective-catalytic-reduction-scr-syst"
       },
       "unit": "option",
-      "value": "CO or VOC catalyst available for lowest stack emissions"
+      "value": "CO or VOC catalyst available for lowest stack emissions",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Applications",
@@ -138,7 +150,8 @@
         "source_id": "johnzink-com-powerburners-selective-catalytic-reduction-scr-syst"
       },
       "unit": "applications",
-      "value": "Power plants, refineries, chemical plants"
+      "value": "Power plants, refineries, chemical plants",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Reductants",
@@ -147,7 +160,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
       },
-      "value": "Aqueous ammonia, Anhydrous ammonia, Urea, etc."
+      "value": "Aqueous ammonia, Anhydrous ammonia, Urea, etc.",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Additional catalysts",
@@ -156,7 +170,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
       },
-      "value": "CO or VOC catalyst are also available for the lowest emissions out the stack"
+      "value": "CO or VOC catalyst are also available for the lowest emissions out the stack",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Process",
@@ -165,7 +180,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
       },
-      "value": "catalyst facilitates a chemical reaction between NOx and a reductant, typically ammonia or urea, converting harmful NOx into harmless nitrogen and water vapor"
+      "value": "catalyst facilitates a chemical reaction between NOx and a reductant, typically ammonia or urea, converting harmful NOx into harmless nitrogen and water vapor",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     }
   ],
   "vendors": [

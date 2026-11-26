@@ -6,7 +6,7 @@
   "equipment": [
     "geg-field-instrumentation"
   ],
-  "description": "safety and process I/O modules",
+  "description": "safety and process I/O modules Primary source: https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
   "specifications": [
     {
       "metric": "safety I/O module types",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
         "source_id": "geg-search-abb-com-download-aspx-583c22e"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Safety integrity level certification",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "First release year",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 2005
+      "value": 2005,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Experience in process safety systems",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Countries with installed safety systems",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 55
+      "value": 55,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Applicable standards",
@@ -60,7 +65,8 @@
       "basis": "\"designed, delivered and supported in accordance with ... IEC 61508, IEC 61511, IEC 62061, EN ISO 13849, NFPA 85 and NFPA 72\"; certified to IEC 61508 Edition 2 and IEC 61511-1",
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "PM857 controller I/O capacity",
@@ -69,7 +75,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 128
+      "value": 128,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Controller redundancy",
@@ -78,7 +85,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Controller modules",
@@ -86,7 +94,8 @@
       "basis": "\"combining a processor module with a safety module (i.e. PM857, PM863 and PM867 with a SM812 module)\"",
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "S880 I/O signal types",
@@ -94,7 +103,8 @@
       "basis": "\"SIL3 compliant modules for safety critical applications including 4 - 20 mA analog inputs, 24 Vdc digital inputs and 24 Vdc digital outputs\"",
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Select I/O Signal Conditioning Module field power",
@@ -103,7 +113,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 1.2
+      "value": 1.2,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Select I/O 3 A digital output",
@@ -112,7 +123,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "SCM hazardous-area rating and temperature range",
@@ -122,7 +134,8 @@
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
       "low": -40,
-      "high": 70
+      "high": 70,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "ISASecure SSA level",
@@ -131,7 +144,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Sequence-of-events time stamping",
@@ -140,7 +154,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "TÜV Select I/O certificate",
@@ -148,7 +163,8 @@
       "basis": "Certificate No. Z10 029902 0017 Rev.00, holder ABB AB Industrial Automation, dated 2020-01-27, valid until 2025-01-26, test report AV94025C (as printed in the overview)",
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Publication date",
@@ -156,7 +172,8 @@
       "basis": "Datasheet PDF 'System 800xA Safety - Overview', document 3BSE038820 en P, Copyright © 2025 ABB; Jina reported published time 2025-11-03",
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     }
   ],
   "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",

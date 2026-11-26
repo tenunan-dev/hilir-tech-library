@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Controls and monitors surface and subsurface valves, choke, ESD and fire/gas functions for one or multiple wells from a local or remote panel.",
+  "description": "Controls and monitors surface and subsurface valves, choke, ESD and fire/gas functions for one or multiple wells from a local or remote panel. Primary source: https://www.johnsoncontrols.com/oil-and-gas/production-systems",
   "specifications": [
     {
       "metric": "Johnson Controls product scope",
@@ -19,7 +19,8 @@
         "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
         "source_id": "johnsoncontrols-com-oil-and-gas-production-systems"
       },
-      "value": "HPU, chemical/methanol injection skids, WHCP, TUTU, IWOCS, ESD and HIPPS; integrator for API 674 and API 675 pump packages"
+      "value": "HPU, chemical/methanol injection skids, WHCP, TUTU, IWOCS, ESD and HIPPS; integrator for API 674 and API 675 pump packages",
+      "source_url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems"
     }
   ],
   "vendors": [

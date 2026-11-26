@@ -2,7 +2,7 @@
   "id": "feedwater-deaerator-system",
   "name": "Feedtank, deaerator and feedwater pump",
   "equipment_type": "feedwater",
-  "description": "System that stores returned condensate and make-up, heats it and removes dissolved oxygen before the feedwater pump delivers it to the boiler. Atmospheric feedtanks operate at 85-90 C; pressurised deaerators at 0.2 bar g / 105 C with 10-20 minutes of storage, about 5:1 turndown and a vent rate of 0.5-2 kg per 1,000 kg/h of capacity.",
+  "description": "System that stores returned condensate and make-up, heats it and removes dissolved oxygen before the feedwater pump delivers it to the boiler. Atmospheric feedtanks operate at 85-90 C; pressurised deaerators at 0.2 bar g / 105 C with 10-20 minutes of storage, about 5:1 turndown and a vent rate of 0.5-2 kg per 1,000 kg/h of capacity. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB",
   "specifications": [
     {
       "metric": "atmospheric feedtank temperature",
@@ -13,7 +13,8 @@
       },
       "unit": "degC",
       "low": 85,
-      "high": 90
+      "high": 90,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB"
     },
     {
       "metric": "pressurised deaerator pressure",
@@ -23,7 +24,8 @@
         "source_id": "spirax-deaerators"
       },
       "unit": "bar g",
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB"
     },
     {
       "metric": "deaerator storage on full boiler load",
@@ -34,7 +36,8 @@
       },
       "unit": "min",
       "low": 10,
-      "high": 20
+      "high": 20,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB"
     },
     {
       "metric": "water supply pressure to nozzles",
@@ -44,7 +47,8 @@
         "source_id": "spirax-deaerators"
       },
       "unit": "bar",
-      "value": 2
+      "value": 2,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB"
     },
     {
       "metric": "steam supply pressure to pressure control valve",
@@ -55,7 +59,8 @@
       },
       "unit": "bar",
       "low": 5,
-      "high": 10
+      "high": 10,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB"
     },
     {
       "metric": "deaerator turndown",
@@ -65,7 +70,8 @@
         "source_id": "spirax-deaerators"
       },
       "unit": ":1",
-      "value": 5
+      "value": 5,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB"
     },
     {
       "metric": "deaerator vent rate",
@@ -76,7 +82,8 @@
       },
       "unit": "kg per 1000 kg/h",
       "low": 0.5,
-      "high": 2
+      "high": 2,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB"
     },
     {
       "metric": "feedwater pH",
@@ -87,7 +94,8 @@
       },
       "unit": "pH",
       "low": 8.5,
-      "high": 9
+      "high": 9,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB"
     },
     {
       "metric": "dissolved oxygen, high-pressure water-tube boilers",
@@ -97,7 +105,8 @@
         "source_id": "spirax-deaerators"
       },
       "unit": "ppb",
-      "value": 7
+      "value": 7,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB"
     },
     {
       "metric": "feedtank capacity convention",
@@ -107,7 +116,8 @@
         "source_id": "spirax-feedtank"
       },
       "unit": "hours",
-      "value": 1
+      "value": 1,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB"
     },
     {
       "metric": "condensate return cavitation risk",
@@ -117,7 +127,8 @@
         "source_id": "spirax-feedtank"
       },
       "unit": "%",
-      "value": 80
+      "value": 80,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB"
     },
     {
       "metric": "Capacity TMV",
@@ -128,7 +139,8 @@
       },
       "unit": "lb/hr",
       "low": 30000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "Capacity TMH",
@@ -139,7 +151,8 @@
       },
       "unit": "lb/hr",
       "low": 500000,
-      "high": 1000000
+      "high": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "Residual dissolved oxygen",
@@ -149,7 +162,8 @@
         "source_id": "cleaverbrooks-com-product-traymaster"
       },
       "unit": "cc/liter (7 ppb), less than",
-      "value": 0.005
+      "value": 0.005,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "Configuration",
@@ -159,7 +173,8 @@
         "source_id": "cleaverbrooks-com-product-traymaster"
       },
       "unit": "configuration",
-      "value": "Vertical or horizontal tray column; two-stage deaeration in a common vessel"
+      "value": "Vertical or horizontal tray column; two-stage deaeration in a common vessel",
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "Standard",
@@ -169,7 +184,8 @@
         "source_id": "cleaverbrooks-com-product-traymaster"
       },
       "unit": "standard",
-      "value": "Exceeds ASME recommendations for oxygen level"
+      "value": "Exceeds ASME recommendations for oxygen level",
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "Capacity",
@@ -180,7 +196,8 @@
       },
       "unit": "lb/hr",
       "low": 1500,
-      "high": 135000
+      "high": 135000,
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Type",
@@ -190,7 +207,8 @@
         "source_id": "cleaverbrooks-com-product-boilermate"
       },
       "unit": "type",
-      "value": "Pressurized packed column deaerator"
+      "value": "Pressurized packed column deaerator",
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Storage capacity",
@@ -201,7 +219,8 @@
       },
       "unit": "minutes",
       "low": 10,
-      "high": 30
+      "high": 30,
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Pumping",
@@ -211,7 +230,8 @@
         "source_id": "cleaverbrooks-com-product-boilermate"
       },
       "unit": "configuration",
-      "value": "On/off or variable speed pumping"
+      "value": "On/off or variable speed pumping",
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Feedwater capacity",
@@ -221,7 +241,8 @@
         "url": "https://cleaverbrooks.com/product/boilermate"
       },
       "low": 1500,
-      "high": 135000
+      "high": 135000,
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Pumping options",
@@ -229,7 +250,8 @@
       "basis": "\"On/off and variable speed pumping\"; \"On/off or variable speed pumping\"",
       "source": {
         "url": "https://cleaverbrooks.com/product/boilermate"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Design type",
@@ -237,7 +259,8 @@
       "basis": "\"a pressurized packed column design where water is cascaded through a unique column design removing dissolved oxygen in boiler feed water and eliminating carbon dioxide\"",
       "source": {
         "url": "https://cleaverbrooks.com/product/boilermate"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "capacity_TMV",
@@ -247,7 +270,8 @@
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
       "low": 30000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "capacity_TMH",
@@ -257,7 +281,8 @@
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
       "low": 500000,
-      "high": 1000000
+      "high": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "dissolved_oxygen_residual",
@@ -266,7 +291,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "high": 0.005
+      "high": 0.005,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "dissolved_oxygen_residual_ppb",
@@ -275,7 +301,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "high": 7
+      "high": 7,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "configuration",
@@ -284,7 +311,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "value": "Vertical or horizontal tray column design"
+      "value": "Vertical or horizontal tray column design",
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "deaeration_stages",
@@ -293,7 +321,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "oxygen_standard",
@@ -302,7 +331,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "value": "Exceeds ASME recommendations for oxygen level"
+      "value": "Exceeds ASME recommendations for oxygen level",
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "materials",
@@ -311,7 +341,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "value": "corrosion-resistant alloys"
+      "value": "corrosion-resistant alloys",
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     }
   ],
   "vendors": [

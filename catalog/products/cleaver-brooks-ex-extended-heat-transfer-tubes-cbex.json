@@ -6,7 +6,7 @@
   "equipment": [
     "heat-transfer-tubes-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched CBEX product page directly with WebFetch (markdown). Tube design is described within the boiler page.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched CBEX product page directly with WebFetch (markdown). Tube design is described within the boiler page. Primary source: https://cleaverbrooks.com/product/cbex",
   "specifications": [
     {
       "metric": "Heat transfer increase",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-product-cbex"
       },
       "unit": "%",
-      "value": 85
+      "value": 85,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "steam_pressure_max",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "hot_water_pressure_max",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": 125
+      "value": 125,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "boiler_horsepower",
@@ -44,7 +47,8 @@
         "url": "https://cleaverbrooks.com/product/cbex"
       },
       "low": 100,
-      "high": 2500
+      "high": 2500,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "input_capacity",
@@ -54,7 +58,8 @@
         "url": "https://cleaverbrooks.com/product/cbex"
       },
       "low": 4000,
-      "high": 102000
+      "high": 102000,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "number_of_passes",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "2 and 3"
+      "value": "2 and 3",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "fuel",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "Natural gas/propane, #2 light oil, combination"
+      "value": "Natural gas/propane, #2 light oil, combination",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "NOx_emissions_by_model",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "<5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)"
+      "value": "<5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "NOx_without_SCR",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "high": 5
+      "high": 5,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "CO_emission",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "high": 10
+      "high": 10,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "turndown_ratio",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "heat_transfer_increase",
@@ -117,7 +128,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "vessel_design",
@@ -126,7 +138,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "Firetube"
+      "value": "Firetube",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "waterback_dryback",
@@ -135,7 +148,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "Waterback or Dryback design"
+      "value": "Waterback or Dryback design",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cbex",

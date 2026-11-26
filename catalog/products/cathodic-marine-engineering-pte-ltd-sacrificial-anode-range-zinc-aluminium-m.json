@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. ASTM B-6 / B-521 / B-843; supplier-stated class approvals.",
+  "description": "Vendor product line read 2026-11-24. ASTM B-6 / B-521 / B-843; supplier-stated class approvals. Primary source: https://cathodicme.com/services/sacrificial-anodes-system",
   "specifications": [
     {
       "metric": "zinc weight range",
@@ -17,7 +17,8 @@
         "source_id": "cathodicme-com-services-sacrificial-anodes-system"
       },
       "low": 5,
-      "high": 500
+      "high": 500,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "aluminium weight range",
@@ -28,7 +29,8 @@
         "source_id": "cathodicme-com-services-sacrificial-anodes-system"
       },
       "low": 3,
-      "high": 300
+      "high": 300,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "aluminium design life",
@@ -39,7 +41,8 @@
         "source_id": "cathodicme-com-services-sacrificial-anodes-system"
       },
       "low": 18,
-      "high": 28
+      "high": 28,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Zinc anode composition",
@@ -48,7 +51,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "99.9% High-purity zinc"
+      "value": "99.9% High-purity zinc",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Zinc anode standard",
@@ -57,7 +61,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "ASTM B-6"
+      "value": "ASTM B-6",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Zinc anode weight range",
@@ -67,7 +72,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 5,
-      "high": 500
+      "high": 500,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Zinc anode current capacity",
@@ -77,7 +83,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 25,
-      "high": 30
+      "high": 30,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Zinc anode design life",
@@ -87,7 +94,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 15,
-      "high": 25
+      "high": 25,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Aluminium anode composition",
@@ -96,7 +104,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "Aluminum-Zinc-Indium alloy"
+      "value": "Aluminum-Zinc-Indium alloy",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Aluminium anode standard",
@@ -105,7 +114,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "ASTM B-521"
+      "value": "ASTM B-521",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Aluminium anode weight range",
@@ -115,7 +125,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 3,
-      "high": 300
+      "high": 300,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Aluminium anode current capacity",
@@ -125,7 +136,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 30,
-      "high": 40
+      "high": 40,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Aluminium anode design life",
@@ -135,7 +147,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 18,
-      "high": 28
+      "high": 28,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Magnesium anode standard",
@@ -144,7 +157,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "ASTM B-843"
+      "value": "ASTM B-843",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Magnesium anode weight range",
@@ -154,7 +168,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 2,
-      "high": 100
+      "high": 100,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Magnesium anode current capacity",
@@ -164,7 +179,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 35,
-      "high": 45
+      "high": 45,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Magnesium anode design life",
@@ -174,7 +190,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 12,
-      "high": 20
+      "high": 20,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Quality system",
@@ -183,7 +200,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "ISO 9001:2008 Certified"
+      "value": "ISO 9001:2008 Certified",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Classification approvals",
@@ -192,7 +210,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "DNV, ABS, Lloyd's, Bureau Veritas, ClassNK"
+      "value": "DNV, ABS, Lloyd's, Bureau Veritas, ClassNK",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     }
   ],
   "url": "https://cathodicme.com/services/sacrificial-anodes-system",

@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Primary pressure barrier of a subsea well; anchor and suspension point; seal element for casing strings; supports BOP, tree and downhole control line pass-through.",
+  "description": "Primary pressure barrier of a subsea well; anchor and suspension point; seal element for casing strings; supports BOP, tree and downhole control line pass-through. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
   "specifications": [
     {
       "metric": "Welding procedure standards",
@@ -19,7 +19,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
         "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
       },
-      "value": "API Spec 6A and 17D; ASME Section IX; NACE MR0175/ISO 15156; DNVGL-RP-C203 fatigue classes F3, D or C1"
+      "value": "API Spec 6A and 17D; ASME Section IX; NACE MR0175/ISO 15156; DNVGL-RP-C203 fatigue classes F3, D or C1",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     }
   ],
   "vendors": [

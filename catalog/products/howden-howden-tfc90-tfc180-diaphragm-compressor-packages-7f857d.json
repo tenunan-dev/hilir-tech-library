@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. Skid mounted; H2 service",
+  "description": "Vendor product line read 2026-11-24. Skid mounted; H2 service Primary source: https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
   "specifications": [
     {
       "metric": "Electrolyser module size",
@@ -17,7 +17,8 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "low": 5,
-      "high": 10
+      "high": 10,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Process gas leakage",
@@ -27,7 +28,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 0
+      "value": 0,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Electrolyzer module design",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "5 MW and 10 MW"
+      "value": "5 MW and 10 MW",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Package configuration",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Skid-mounted compressors including all process equipment, piping and auxiliary systems in a single package"
+      "value": "Skid-mounted compressors including all process equipment, piping and auxiliary systems in a single package",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Diaphragm compressor pressure",
@@ -55,7 +59,8 @@
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf",
         "source_id": "catpar-files-chartindustries-com-howden-diaphragmco-104794a"
       },
-      "high": 3000
+      "high": 3000,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Diaphragm compressor pressure (psi)",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
-      "high": 43500
+      "high": 43500,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Diaphragm compressor flow",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Diaphragm compressor power",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Diaphragm compressor speed",
@@ -92,7 +100,8 @@
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
       "low": 200,
-      "high": 750
+      "high": 750,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Noise",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
-      "high": 85
+      "high": 85,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Gas purity",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Absolute cleanliness of compressed hydrogen; Zero leakage of process gas to the environment"
+      "value": "Absolute cleanliness of compressed hydrogen; Zero leakage of process gas to the environment",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",

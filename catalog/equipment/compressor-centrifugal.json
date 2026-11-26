@@ -15,7 +15,7 @@
     "PCH",
     "CCS"
   ],
-  "description": "Dynamic compressor that raises gas pressure across one or more impeller stages — the standard machine for refinery and petrochemical process gas, pipeline boost, gas-lift and reinjection, and CO2 service, driven by gas turbines or electric motors through gears. Casing arrangements (overhung, integrally-geared, horizontally- or vertically-split/barrel) set the pressure class; barrel-style machines serve the highest-pressure gas reinjection duties.",
+  "description": "Dynamic compressor that raises gas pressure across one or more impeller stages — the standard machine for refinery and petrochemical process gas, pipeline boost, gas-lift and reinjection, and CO2 service, driven by gas turbines or electric motors through gears. Casing arrangements (overhung, integrally-geared, horizontally- or vertically-split/barrel) set the pressure class; barrel-style machines serve the highest-pressure gas reinjection duties. Primary source: https://en.wikipedia.org/wiki/Centrifugal_compressor",
   "applications": [
     "refinery and petrochemical process gas (incl. refrigeration and charge gas)",
     "pipeline boost and gas-lift compression",
@@ -32,7 +32,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Centrifugal_compressor",
         "note": "Wikipedia, Centrifugal compressor (read 2026-10-30; citation shared with the rot-centrifugal-axial-compressors card)"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Centrifugal_compressor"
     },
     {
       "metric": "oilfield gas reinjection discharge pressure",
@@ -43,7 +44,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Centrifugal_compressor",
         "note": "Wikipedia, Centrifugal compressor (read 2026-10-30; citation shared with the rot-centrifugal-axial-compressors card)"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Centrifugal_compressor"
     }
   ],
   "vendors": [

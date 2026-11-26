@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. Non-lubricated, vertical",
+  "description": "Vendor product line read 2026-11-24. Non-lubricated, vertical Primary source: https://www.arielcorp.com/compressors/kbh.html",
   "specifications": [
     {
       "metric": "Suction",
@@ -16,7 +16,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Discharge",
@@ -26,7 +27,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Flow",
@@ -36,7 +38,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Stages",
@@ -46,7 +49,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - suction pressure",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 370
+      "value": 370,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - discharge pressure",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 7250
+      "value": 7250,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - flow at design point",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - number of stages",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - stroke",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 4.25
+      "value": 4.25,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - max RPM",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - cylinder lubrication",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": "Non-lubricated cylinders (designed for high gas purity)"
+      "value": "Non-lubricated cylinders (designed for high gas purity)",
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - orientation",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": "Vertically oriented"
+      "value": "Vertically oriented",
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     }
   ],
   "url": "https://www.arielcorp.com/compressors/kbh.html",

@@ -6,7 +6,7 @@
   "equipment": [
     "geg-bonds-guarantees-insurance-and-financing-costs"
   ],
-  "description": "statutory registration / levy framework",
+  "description": "statutory registration / levy framework Primary source: https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
   "specifications": [
     {
       "metric": "year Act 520 was enacted",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
         "source_id": "geg-cidb-gov-my-7ada474"
-      }
+      },
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     },
     {
       "metric": "Act enactment year",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
       },
-      "value": 1994
+      "value": 1994,
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     },
     {
       "metric": "Principal matters",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     },
     {
       "metric": "SKKP certification standard",
@@ -43,7 +46,8 @@
       "basis": "'SKKP CIDB Diiktiraf Di Bawah ISO/IEC 17024:2012'",
       "source": {
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
-      }
+      },
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     },
     {
       "metric": "Construction action plan period",
@@ -54,7 +58,8 @@
       },
       "value": 2026,
       "low": 2030,
-      "high": "years"
+      "high": "years",
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     },
     {
       "metric": "Act PDF editions listed",
@@ -62,7 +67,8 @@
       "basis": "2020 (Act 520 as at 1 October 2015); 2021 (Pindaan Jadual Keempat); 2024 (Amendment of Third Schedule); 2026 (Pua 277.2026)",
       "source": {
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
-      }
+      },
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     }
   ],
   "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",

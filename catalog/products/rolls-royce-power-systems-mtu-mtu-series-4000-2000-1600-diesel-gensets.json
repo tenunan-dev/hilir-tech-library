@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. HVO to EN 15940 approved on Series 4000/1600",
+  "description": "Vendor product line read 2026-11-24. HVO to EN 15940 approved on Series 4000/1600 Primary source: https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
   "specifications": [
     {
       "metric": "Series 4000",
@@ -17,7 +17,8 @@
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 1125,
-      "high": 3250
+      "high": 3250,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Series 2000",
@@ -28,7 +29,8 @@
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 680,
-      "high": 1250
+      "high": 1250,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Series 1600",
@@ -39,7 +41,8 @@
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 500,
-      "high": 900
+      "high": 900,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Load factor",
@@ -49,7 +52,8 @@
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Portfolio maximum 60 Hz",
@@ -58,7 +62,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": 3250
+      "value": 3250,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Portfolio maximum 50 Hz",
@@ -67,7 +72,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Load factor standby / prime",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "85% / 75%"
+      "value": "85% / 75%",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Transient operation claim",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "Superior transient operation, industry leading load factors in extreme ambient conditions"
+      "value": "Superior transient operation, industry leading load factors in extreme ambient conditions",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Sustainable fuel approval",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO"
+      "value": "Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 4000",
@@ -103,7 +112,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe"
+      "value": "50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 2000",
@@ -112,7 +122,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe"
+      "value": "50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 1600",
@@ -121,7 +132,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe"
+      "value": "50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 0080 - mtu Series 0225",
@@ -130,7 +142,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe"
+      "value": "50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     }
   ],
   "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",

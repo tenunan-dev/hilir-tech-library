@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services.",
+  "description": "Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
   "specifications": [
     {
       "metric": "Thermoplastic hose umbilical attributes",
@@ -19,7 +19,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
         "source_id": "sys-technipfmc-com-c36d9c"
       },
-      "value": "highly dynamic; short lead time; cost effective"
+      "value": "highly dynamic; short lead time; cost effective",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/"
     },
     {
       "metric": "Next-generation thermoplastic hose drivers",
@@ -29,7 +30,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
         "source_id": "sys-technipfmc-com-c36d9c"
       },
-      "value": "harsh environments, ultra-deepwater, elevated temperatures, longer tiebacks; shorter manufacturing lead time; simpler hose-to-end-fitting termination"
+      "value": "harsh environments, ultra-deepwater, elevated temperatures, longer tiebacks; shorter manufacturing lead time; simpler hose-to-end-fitting termination",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/"
     },
     {
       "metric": "Hydraulic/chemical service in steel-tube umbilical",
@@ -39,7 +41,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals",
         "source_id": "sys-onesubsea-slb-com-steeltube-umbilicals"
       },
-      "value": "hydraulic fluid for control; various chemical fluids for injection into the flowline"
+      "value": "hydraulic fluid for control; various chemical fluids for injection into the flowline",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals"
     },
     {
       "metric": "Maximum working pressure",
@@ -49,7 +52,8 @@
         "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
         "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
       },
-      "value": 14
+      "value": 14,
+      "source_url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
     },
     {
       "metric": "Temperature range",
@@ -60,7 +64,8 @@
         "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
       },
       "low": -30,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
     },
     {
       "metric": "Standard duty sizes",
@@ -70,7 +75,8 @@
         "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
         "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
       },
-      "value": "1 in – 4 in (25 mm – 100 mm)"
+      "value": "1 in – 4 in (25 mm – 100 mm)",
+      "source_url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
     },
     {
       "metric": "Heavy duty sizes",
@@ -80,7 +86,8 @@
         "url": "https://www.ewfm.co.uk/product/chemical-composite-hose",
         "source_id": "cat-ewfm-co-uk-chemical-composite-hose"
       },
-      "value": "4 in – 10 in (100 mm – 250 mm)"
+      "value": "4 in – 10 in (100 mm – 250 mm)",
+      "source_url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
     },
     {
       "metric": "Petrol hose standard, working pressure",
@@ -90,7 +97,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses",
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
-      "value": 700
+      "value": 700,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Petrol hose heavy duty, working pressure",
@@ -100,7 +108,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses",
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
-      "value": 1400
+      "value": 1400,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Chemical hose range standard",
@@ -110,7 +119,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses",
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
-      "value": "AS 2594-1983"
+      "value": "AS 2594-1983",
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Chemical hose PTSS working pressure",
@@ -120,7 +130,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses",
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
-      "value": 1400
+      "value": 1400,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Petrol hose temperature range",
@@ -131,7 +142,8 @@
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
       "low": -30,
-      "high": 80
+      "high": 80,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Chemical hose temperature range",
@@ -142,7 +154,8 @@
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
       "low": -30,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Hot bitumen hose temperature range",
@@ -153,7 +166,8 @@
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
       "low": -30,
-      "high": 180
+      "high": 180,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Kind 1 electrical resistance",
@@ -163,7 +177,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses",
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
-      "high": 1.0
+      "high": 1.0,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Size range",
@@ -174,7 +189,8 @@
       },
       "value": 1,
       "low": 10,
-      "high": "in"
+      "high": "in",
+      "source_url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
     },
     {
       "metric": "Material stated in header",
@@ -182,7 +198,8 @@
       "basis": "'Material: Aluminium' (printed header field)",
       "source": {
         "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
-      }
+      },
+      "source_url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
     },
     {
       "metric": "Construction",
@@ -190,7 +207,8 @@
       "basis": "'multiple polypropylene layers and reinforced with inner and outer helixes'; inner helix 316 stainless steel or polypropylene-coated steel; outer helix 316 stainless or galvanised steel",
       "source": {
         "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
-      }
+      },
+      "source_url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
     },
     {
       "metric": "Configurations",
@@ -199,7 +217,8 @@
       "source": {
         "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
       },
-      "value": 8
+      "value": 8,
+      "source_url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
     },
     {
       "metric": "Connections",
@@ -207,7 +226,8 @@
       "basis": "'Threaded Connections; Flanged Connections; Couplings; More available on request'",
       "source": {
         "url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
-      }
+      },
+      "source_url": "https://www.ewfm.co.uk/product/chemical-composite-hose"
     },
     {
       "metric": "Minimum temperature",
@@ -216,7 +236,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": -196
+      "value": -196,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Maximum temperature",
@@ -225,7 +246,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Working pressure",
@@ -234,7 +256,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": 14
+      "value": 14,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Standard",
@@ -242,7 +265,8 @@
       "basis": "'Standard EN 13766:2010'",
       "source": {
         "url": "https://gasso.com/en/producto/lng"
-      }
+      },
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Safety factor",
@@ -251,7 +275,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Vacuum",
@@ -260,7 +285,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": 0.9
+      "value": 0.9,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Roll length",
@@ -269,7 +295,8 @@
       "source": {
         "url": "https://gasso.com/en/producto/lng"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Materials",
@@ -277,7 +304,8 @@
       "basis": "'Inner coil: 316L (S) stainless steel; Outer Spiral: 316L Stainless Steel (S); Inner lining: Polyamide / Polyester; Cover: Polyamide fabric'",
       "source": {
         "url": "https://gasso.com/en/producto/lng"
-      }
+      },
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "Applications",
@@ -285,7 +313,8 @@
       "basis": "'loading and unloading of Liquefied Natural Gas in trucks, railcars and even marine applications. Including ship-to-ship bunkering operations'",
       "source": {
         "url": "https://gasso.com/en/producto/lng"
-      }
+      },
+      "source_url": "https://gasso.com/en/producto/lng"
     },
     {
       "metric": "KX E-Box dimensions",
@@ -293,7 +322,8 @@
       "basis": "'KX E-Box, WHD: 200x300x155 mm, stainless steel 1.4401, with mounting plate, single-door, with cam lock' (article 1301000)",
       "source": {
         "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
-      }
+      },
+      "source_url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     },
     {
       "metric": "KX E-Box material grade",
@@ -301,7 +331,8 @@
       "basis": "'stainless steel 1.4401'",
       "source": {
         "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
-      }
+      },
+      "source_url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     },
     {
       "metric": "KX terminal box carbon steel sizes",
@@ -309,7 +340,8 @@
       "basis": "Listed WHD: 150x150x120; 300x150x120; 200x200x120; 300x200x120; 400x200x120; 500x200x120; 600x200x120; 300x300x120; 400x300x120; 500x300x120; 600x300x120; 400x400x120; 600x400x120; 800x400x120; 150x150x80; 300x150x80; 200x200x80; 300x200x80; 400x200x80; 800x200x120; 200x150x80; 200x150x120; 300x150x120 with gland plate",
       "source": {
         "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
-      }
+      },
+      "source_url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     },
     {
       "metric": "KX terminal box construction",
@@ -317,7 +349,8 @@
       "basis": "'sheet steel, without mounting plate, with cover, without gland plate' (standard variants)",
       "source": {
         "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
-      }
+      },
+      "source_url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     },
     {
       "metric": "Code 1000 standard petrol hose working pressure",
@@ -326,7 +359,8 @@
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
-      "value": 700
+      "value": 700,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code 901 heavy duty petrol hose working pressure",
@@ -336,7 +370,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
       "low": 1000,
-      "high": 1400
+      "high": 1400,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code 1003 lightweight petrol hose working pressure",
@@ -346,7 +381,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
       "low": 400,
-      "high": 600
+      "high": 600,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code VRH vapour recovery hose working pressure",
@@ -355,7 +391,8 @@
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code 966 hot bitumen hose working pressure",
@@ -365,7 +402,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
       "low": 500,
-      "high": 700
+      "high": 700,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Temperature range (code 1000)",
@@ -375,7 +413,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
       "low": -30,
-      "high": 80
+      "high": 80,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Grade aromatic hydrocarbon limits",
@@ -383,7 +422,8 @@
       "basis": "Plascorp: 'Grade 1 hose is suitable for fuels containing up to 30% aromatic hydrocarbon content; Grade 2 ... up to 50%; Grade 3 ... over 50%'",
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
-      }
+      },
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Electrical resistance kind 1",
@@ -392,7 +432,8 @@
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Type definitions",
@@ -400,7 +441,8 @@
       "basis": "Plascorp: 'Type 1 hose is designed for suction and discharge and to be non-collapsible. Type 2 hose is designed for discharge only and to be non-collapsible.'",
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
-      }
+      },
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code 1000 construction",
@@ -408,7 +450,8 @@
       "basis": "Plascorp: 'Internal wire: Galvanised steel; External wire: Galvanised steel'; 'Colour: Green with yellow stripe'; 'suitable for road and rail tankers'",
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
-      }
+      },
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Conforming standards",
@@ -416,7 +459,8 @@
       "basis": "Plascorp petrol hose range: 'AS 2683-2000'; hot bitumen hose: 'AS 2475'",
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
-      }
+      },
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Temperature rating A",
@@ -426,7 +470,8 @@
         "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
       },
       "low": -20,
-      "high": 82
+      "high": 82,
+      "source_url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
     },
     {
       "metric": "Temperature rating B",
@@ -436,7 +481,8 @@
         "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
       },
       "low": -20,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
     },
     {
       "metric": "Temperature rating K",
@@ -446,7 +492,8 @@
         "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
       },
       "low": -60,
-      "high": 82
+      "high": 82,
+      "source_url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
     },
     {
       "metric": "FSL range",
@@ -456,7 +503,8 @@
         "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
       },
       "low": 0,
-      "high": 3
+      "high": 3,
+      "source_url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
     },
     {
       "metric": "JLG-FB-51X35 bore / OD",
@@ -464,7 +512,8 @@
       "basis": "Ruker table: JLG-FB-51X35 — ID 51 mm (2 in), OD 164 mm (6.46 in)",
       "source": {
         "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
-      }
+      },
+      "source_url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
     },
     {
       "metric": "JLG-FB-51X35 working / test pressure",
@@ -472,7 +521,8 @@
       "basis": "Ruker table: WP 5000 psi (35 MPa), TP 7500 psi (52.5 MPa)",
       "source": {
         "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
-      }
+      },
+      "source_url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
     },
     {
       "metric": "JLG-FB-51X35 safety / fire / bend / weight / length",
@@ -480,7 +530,8 @@
       "basis": "Ruker table: Fire-Resistant Yes; Safety Factor 2.25; FSL3; Min Bending Radius 1.2 m; Weight 46.8 kg/m; Max length 45 m",
       "source": {
         "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
-      }
+      },
+      "source_url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
     },
     {
       "metric": "Construction materials",
@@ -488,7 +539,8 @@
       "basis": "Ruker: 'Tube: Modified NBR or HNBR Black resisting abrasion, corrosion, oil, drilling muds and H2S'; 'Reinforcement: Multiple layers of steel cable and adhesion fabric'; 'Cover: Modified Nitrile Black'; 'Couplings: Build-in-meets NACE MR0175'",
       "source": {
         "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
-      }
+      },
+      "source_url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
     },
     {
       "metric": "Application",
@@ -496,7 +548,8 @@
       "basis": "Ruker: 'Choke and kill line hose is used as flexible connection in the choke manifold and kill manifold system (or BOP system) to control well pressure during the drilling process.'",
       "source": {
         "url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
-      }
+      },
+      "source_url": "https://www.rukeroil.com/oil-gas-drilling-hose/choke-kill.html"
     },
     {
       "metric": "working_pressure",
@@ -505,7 +558,8 @@
       "source": {
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
-      "value": 16
+      "value": 16,
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "burst_pressure",
@@ -514,7 +568,8 @@
       "source": {
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
-      "value": 128
+      "value": 128,
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "temperature_range",
@@ -524,7 +579,8 @@
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
       "low": -200,
-      "high": 80
+      "high": 80,
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "inside_diameter",
@@ -533,7 +589,8 @@
       "source": {
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "bend_radius",
@@ -542,7 +599,8 @@
       "source": {
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
-      "value": 180
+      "value": 180,
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "length",
@@ -551,7 +609,8 @@
       "source": {
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
-      "high": 40
+      "high": 40,
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "unit_weight",
@@ -560,7 +619,8 @@
       "source": {
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
-      "value": 2.5
+      "value": 2.5,
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "colour",
@@ -569,7 +629,8 @@
       "source": {
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
-      "value": "White"
+      "value": "White",
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "applications",
@@ -578,7 +639,8 @@
       "source": {
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
-      "value": "Suction & Delivery; designed for handling LNG Liquefied Natural Gas, Liquid Methane and Liquid Nitrogen @ -200 degC"
+      "value": "Suction & Delivery; designed for handling LNG Liquefied Natural Gas, Liquid Methane and Liquid Nitrogen @ -200 degC",
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "construction",
@@ -587,7 +649,8 @@
       "source": {
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
-      "value": "Reinforcement/Lining: Stainless steel inner wire, high strength polypropylene films and fabrics, high density polyethylene film reinforcements; Cover: Polyvinyl coated polyester fibre cover with outer"
+      "value": "Reinforcement/Lining: Stainless steel inner wire, high strength polypropylene films and fabrics, high density polyethylene film reinforcements; Cover: Polyvinyl coated polyester fibre cover with outer",
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "S6S6_wire_spec",
@@ -596,7 +659,8 @@
       "source": {
         "url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
       },
-      "value": "S6S6 denotes stainless (S), grade 316 (6), inner and outer wires"
+      "value": "S6S6 denotes stainless (S), grade 316 (6), inner and outer wires",
+      "source_url": "https://europe.dixonvalve.com/en/products/a9661lg-composite-cryogenic-lng-hose/a9661-s6s6-n-050"
     },
     {
       "metric": "Series 0933 - specified temperature range",
@@ -606,7 +670,8 @@
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
       "low": -200,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0933 - main liquids",
@@ -615,7 +680,8 @@
       "source": {
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
-      "value": "LNG (-162 degC); Ethylene (-103 degC)"
+      "value": "LNG (-162 degC); Ethylene (-103 degC)",
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0940 - specified temperature range",
@@ -625,7 +691,8 @@
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
       "low": -110,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0940 - main liquids",
@@ -634,7 +701,8 @@
       "source": {
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
-      "value": "FUEL; VCM"
+      "value": "FUEL; VCM",
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0957 - specified temperature range",
@@ -644,7 +712,8 @@
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
       "low": -200,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0957 - main liquids",
@@ -653,7 +722,8 @@
       "source": {
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
-      "value": "Dedicated to liquefied carbon dioxide"
+      "value": "Dedicated to liquefied carbon dioxide",
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Cryogenic hose - general temperature range",
@@ -663,7 +733,8 @@
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
       "low": -200,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Cryogenic hose - regular pressure",
@@ -673,7 +744,8 @@
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
       "low": 1,
-      "high": 2.2
+      "high": 2.2,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Compliance",
@@ -682,7 +754,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "EN 13766 / 2018 Class A Type 2 and Class B type 2"
+      "value": "EN 13766 / 2018 Class A Type 2 and Class B type 2",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Class A Type 2 working pressure",
@@ -692,7 +765,8 @@
         "url": "https://composite-hose.com/cryogenic/lng"
       },
       "value": 13,
-      "low": 185
+      "low": 185,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Class B Type 2 working pressure",
@@ -702,7 +776,8 @@
         "url": "https://composite-hose.com/cryogenic/lng"
       },
       "value": 10.5,
-      "low": 149
+      "low": 149,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Vacuum rating",
@@ -711,7 +786,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": 0.9
+      "value": 0.9,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Proof test",
@@ -720,7 +796,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "1.5 times the rated working pressure"
+      "value": "1.5 times the rated working pressure",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Inner wire",
@@ -729,7 +806,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "Stainless steel 316/304"
+      "value": "Stainless steel 316/304",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Outer wire",
@@ -738,7 +816,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "Stainless steel 316/ 304"
+      "value": "Stainless steel 316/ 304",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Service",
@@ -747,7 +826,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "LNG and liquid nitrogen transfer; refrigerated transport; industrial gas plants"
+      "value": "LNG and liquid nitrogen transfer; refrigerated transport; industrial gas plants",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     }
   ],
   "vendors": [

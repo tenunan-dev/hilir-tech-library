@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. Not an injection pump/valve; relevant to glycol loop chemistry.",
+  "description": "Vendor product line read 2026-11-24. Not an injection pump/valve; relevant to glycol loop chemistry. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
   "specifications": [
     {
       "metric": "Function",
@@ -16,7 +16,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
         "source_id": "sys-slb-com-processing-and-separation"
       },
-      "value": "MEG reclamation and regeneration (gas treatment)"
+      "value": "MEG reclamation and regeneration (gas treatment)",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",

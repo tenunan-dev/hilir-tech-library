@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Assembly of valves, spools and fittings mounted on the wellhead to control production or injection flow, provide chemical injection and intervention access, and monitor pressure/temperature/sand.",
+  "description": "Assembly of valves, spools and fittings mounted on the wellhead to control production or injection flow, provide chemical injection and intervention access, and monitor pressure/temperature/sand. Primary source: https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
   "specifications": [
     {
       "metric": "surface tree valve arrangement",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
-      "value": "basic: two or three manual gate valves; sophisticated: four or five valves in crucifix pattern with upper and lower master valves, production wing valve, kill wing valve (NASA in North Sea), swab valve"
+      "value": "basic: two or three manual gate valves; sophisticated: four or five valves in crucifix pattern with upper and lower master valves, production wing valve, kill wing valve (NASA in North Sea), swab valve",
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     },
     {
       "metric": "hydraulic wing valve fail-safe mode",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
-      "value": "fail-safe closed; requires active hydraulic pressure to stay open"
+      "value": "fail-safe closed; requires active hydraulic pressure to stay open",
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     },
     {
       "metric": "deepest installed subsea tree (as stated on page)",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
-      "value": 9000
+      "value": 9000,
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     },
     {
       "metric": "subsea tree current technical limits (as stated on page)",
@@ -50,7 +53,8 @@
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
       "low": -50,
-      "high": 350
+      "high": 350,
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     },
     {
       "metric": "subsea tree mass range",
@@ -61,7 +65,8 @@
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
       "low": 1,
-      "high": 70
+      "high": 70,
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     },
     {
       "metric": "OneSubsea subsea tree temperature range",
@@ -72,7 +77,8 @@
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "low": -18,
-      "high": 176
+      "high": 176,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "OneSubsea subsea tree pressure rating",
@@ -82,7 +88,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "high": 15000
+      "high": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "OneSubsea wellhead vertical tree production bore",
@@ -92,7 +99,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "TechnipFMC subsea tree ratings",
@@ -102,7 +110,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
         "source_id": "technipfmc-com-well-control-subsea-trees"
       },
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
     },
     {
       "metric": "API specifications for tree valves",
@@ -112,7 +121,8 @@
         "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
-      "value": "API Spec 6A (surface) and API Spec 17D (subsea)"
+      "value": "API Spec 6A (surface) and API Spec 17D (subsea)",
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     },
     {
       "metric": "ISO standard for wellhead/tree equipment",
@@ -122,7 +132,8 @@
         "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
-      "value": "ISO 10423:2009 (also ISO 13628-4:2010 for subsea wellhead and tree equipment)"
+      "value": "ISO 10423:2009 (also ISO 13628-4:2010 for subsea wellhead and tree equipment)",
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     },
     {
       "metric": "temperature range",
@@ -133,7 +144,8 @@
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "low": -18,
-      "high": 176
+      "high": 176,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "pressure",
@@ -143,7 +155,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "high": 15000
+      "high": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "production bore (wellhead vertical tree)",
@@ -153,7 +166,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Pressure",
@@ -163,7 +177,8 @@
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Flowing temperature",
@@ -173,7 +188,8 @@
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "pressure",
@@ -183,7 +199,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
         "source_id": "technipfmc-com-well-control-subsea-trees"
       },
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
     },
     {
       "metric": "temperature",
@@ -193,7 +210,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
         "source_id": "technipfmc-com-well-control-subsea-trees"
       },
-      "high": 400
+      "high": 400,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
     },
     {
       "metric": "water depth",
@@ -203,7 +221,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees",
         "source_id": "technipfmc-com-well-control-subsea-trees"
       },
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
     },
     {
       "metric": "Pressure",
@@ -213,7 +232,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Temperature",
@@ -223,7 +243,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Water depth",
@@ -233,7 +254,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "standards for welding",
@@ -243,7 +265,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
         "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
       },
-      "value": "API 6A, 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 F3/D/C1"
+      "value": "API 6A, 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 F3/D/C1",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "Pressure rating",
@@ -252,7 +275,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Temperature rating",
@@ -261,7 +285,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Water depth rating",
@@ -270,7 +295,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "EVDT deepest completion record",
@@ -279,7 +305,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
       },
-      "value": 9627
+      "value": 9627,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Tree configurations",
@@ -287,7 +314,8 @@
       "basis": "'wide range of vertical and horizontal subsea tree solutions'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Experience",
@@ -296,7 +324,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Operating temperature range",
@@ -306,7 +335,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
       "low": -18,
-      "high": 176
+      "high": 176,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Maximum working pressure",
@@ -315,7 +345,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Production bore (wellhead vertical trees)",
@@ -324,7 +355,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Water depth capability",
@@ -332,7 +364,8 @@
       "basis": "\"Operate in ultra-deep waters under extreme pressures and temperatures\"; \"Full deep-water capability\" (no numeric depth printed)",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
-      }
+      },
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "pressure_rating",
@@ -341,7 +374,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
     },
     {
       "metric": "temperature_rating",
@@ -350,7 +384,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
     },
     {
       "metric": "water_depth_rating",
@@ -359,7 +394,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
     },
     {
       "metric": "EVDT_record_depth",
@@ -368,7 +404,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
       },
-      "value": 9627
+      "value": 9627,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
     },
     {
       "metric": "tree_types",
@@ -377,7 +414,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
       },
-      "value": "vertical and horizontal subsea tree solutions; Subsea 2.0 tree systems"
+      "value": "vertical and horizontal subsea tree solutions; Subsea 2.0 tree systems",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/subsea-trees"
     },
     {
       "metric": "HPHT tree - production pressure up to",
@@ -386,7 +424,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "HPHT tree - flowing temperature up to",
@@ -395,7 +434,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "HPHT tree - subsea HPHT field experience",
@@ -404,7 +444,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": "Over 20 years"
+      "value": "Over 20 years",
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Subsea tree systems - system sizes",
@@ -413,7 +454,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": "5-inch and 7-inch systems"
+      "value": "5-inch and 7-inch systems",
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Subsea tree systems - water depth up to",
@@ -422,7 +464,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Aptara framework - pressure",
@@ -431,7 +474,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": "10,000 psi (690 bar)"
+      "value": "10,000 psi (690 bar)",
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Aptara framework - temperature",
@@ -440,7 +484,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": "300 degF (149 degC)"
+      "value": "300 degF (149 degC)",
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Subsea trees - temperature range",
@@ -450,7 +495,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
       "low": -18,
-      "high": 176
+      "high": 176,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Subsea trees - pressure rating",
@@ -459,7 +505,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Subsea trees - offered configurations",
@@ -468,7 +515,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
-      "value": "Horizontal, wellhead vertical, and tubing head spool vertical trees"
+      "value": "Horizontal, wellhead vertical, and tubing head spool vertical trees",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Subsea trees - wellhead vertical production bore",
@@ -477,7 +525,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Subsea wellheads - water depth suitability",
@@ -486,7 +535,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
-      "value": "All water depths"
+      "value": "All water depths",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "Subsea wellheads - conditions",
@@ -495,7 +545,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
-      "value": "Suitable for exploration and production in extreme conditions"
+      "value": "Suitable for exploration and production in extreme conditions",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "Subsea wellheads - function",
@@ -504,7 +555,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
-      "value": "Primary pressure barrier; anchor and suspension point and seal element for casing strings; safety barrier for use with BOPs and subsea trees"
+      "value": "Primary pressure barrier; anchor and suspension point and seal element for casing strings; safety barrier for use with BOPs and subsea trees",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "Subsea wellheads - compatibility",
@@ -513,7 +565,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
-      "value": "Compatible with vertical or horizontal trees, blowout preventers, workover systems and downhole well casings"
+      "value": "Compatible with vertical or horizontal trees, blowout preventers, workover systems and downhole well casings",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     }
   ],
   "vendors": [

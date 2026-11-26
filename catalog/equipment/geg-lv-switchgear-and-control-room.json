@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "LV switchgear and control room for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "LV switchgear and control room for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://webstore.iec.ch/en/publication/63466",
   "aliases": [
     "LV switchgear and control room"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://webstore.iec.ch/en/publication/63466",
         "source_id": "geg-webstore-iec-ch-63466-a67c8c0"
-      }
+      },
+      "source_url": "https://webstore.iec.ch/en/publication/63466"
     },
     {
       "metric": "AC metal-enclosed MV switchgear assemb — Service frequency",
@@ -37,7 +38,8 @@
       "source": {
         "url": "https://webstore.iec.ch/en/publication/63466",
         "source_id": "geg-webstore-iec-ch-63466-a67c8c0"
-      }
+      },
+      "source_url": "https://webstore.iec.ch/en/publication/63466"
     }
   ],
   "vendor_models": [],

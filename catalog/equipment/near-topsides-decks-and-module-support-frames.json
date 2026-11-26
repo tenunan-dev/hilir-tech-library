@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Process, drilling, utilities and accommodation modules carried above the jacket; module support frames distribute loads to jacket legs.",
+  "description": "Process, drilling, utilities and accommodation modules carried above the jacket; module support frames distribute loads to jacket legs. Primary source: https://vantrisenergy.com/services/engineering-construction/track-record",
   "specifications": [
     {
       "metric": "CUQ / DPP float-over topside weight, Bayu Undan (Timor Sea)",
@@ -19,7 +19,8 @@
         "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
         "source_id": "vantrisenergy-com-engineering-construction-track-record"
       },
-      "value": "11,500 t / 15,000 t"
+      "value": "11,500 t / 15,000 t",
+      "source_url": "https://vantrisenergy.com/services/engineering-construction/track-record"
     },
     {
       "metric": "Angel Platform topside floatover weight, Western Australia",
@@ -29,7 +30,8 @@
         "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
         "source_id": "vantrisenergy-com-engineering-construction-track-record"
       },
-      "value": 7700
+      "value": 7700,
+      "source_url": "https://vantrisenergy.com/services/engineering-construction/track-record"
     },
     {
       "metric": "Maari wellhead platform (base + support + process deck), New Zealand",
@@ -39,7 +41,8 @@
         "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
         "source_id": "vantrisenergy-com-engineering-construction-track-record"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://vantrisenergy.com/services/engineering-construction/track-record"
     },
     {
       "metric": "topside + CPP + living quarter + bridge, East Piatu (Malaysia)",
@@ -49,7 +52,8 @@
         "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
         "source_id": "vantrisenergy-com-engineering-construction-track-record"
       },
-      "value": 4161
+      "value": 4161,
+      "source_url": "https://vantrisenergy.com/services/engineering-construction/track-record"
     },
     {
       "metric": "Brent Delta accommodation capacity",
@@ -59,7 +63,8 @@
         "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
         "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
       },
-      "value": 161
+      "value": 161,
+      "source_url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html"
     }
   ],
   "vendors": [

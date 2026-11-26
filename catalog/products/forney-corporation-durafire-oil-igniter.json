@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-pilot-ignition-system"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Forney igniters list page. Descriptions are truncated on the list page; dedicated DURAFire page was not fetched. No numeric specs.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Forney igniters list page. Descriptions are truncated on the list page; dedicated DURAFire page was not fetched. No numeric specs. Primary source: https://www.forneycorp.com/igniters",
   "specifications": [
     {
       "metric": "Fuel",
@@ -16,7 +16,8 @@
         "source_id": "forneycorp-com-igniters"
       },
       "unit": "n/a",
-      "value": "air atomized No. 2 oil"
+      "value": "air atomized No. 2 oil",
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Design feature",
@@ -26,7 +27,8 @@
         "source_id": "forneycorp-com-igniters"
       },
       "unit": "n/a",
-      "value": "protected primary combustion zone"
+      "value": "protected primary combustion zone",
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Fuel",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.forneycorp.com/igniters"
       },
-      "value": "No. 2 oil"
+      "value": "No. 2 oil",
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Atomization",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.forneycorp.com/igniters"
       },
-      "value": "air atomized"
+      "value": "air atomized",
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Design feature",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.forneycorp.com/igniters"
       },
-      "value": "only 'protected primary combustion zone' design on the market"
+      "value": "only 'protected primary combustion zone' design on the market",
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Performance claim",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.forneycorp.com/igniters"
       },
-      "value": "self-stabilized, highly reliable"
+      "value": "self-stabilized, highly reliable",
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Service",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.forneycorp.com/igniters"
       },
-      "value": "for utility and large industrial steam generators"
+      "value": "for utility and large industrial steam generators",
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Related igniter capacities (MAXFire 100 Series)",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.forneycorp.com/igniters"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.forneycorp.com/igniters"
     }
   ],
   "url": "https://www.forneycorp.com/igniters",

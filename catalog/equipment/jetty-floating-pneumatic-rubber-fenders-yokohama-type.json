@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Floating shock absorber between two vessels (STS) or vessel and quay; accommodates tidal range and ship vertical movement; soft, non-linear reaction force protects hull and jetty under overload and inclined berthing.",
+  "description": "Floating shock absorber between two vessels (STS) or vessel and quay; accommodates tidal range and ship vertical movement; soft, non-linear reaction force protects hull and jetty under overload and inclined berthing. Primary source: https://www.y-yokohama.com/global/product/mb/fenders/floating/",
   "specifications": [
     {
       "metric": "Pneumatic 50 — guaranteed energy absorption (GEA) across standard sizes",
@@ -20,7 +20,8 @@
         "source_id": "y-yokohama-com-floating"
       },
       "low": 6,
-      "high": 6473
+      "high": 6473,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "Pneumatic 80 — guaranteed energy absorption (GEA) across standard sizes",
@@ -31,7 +32,8 @@
         "source_id": "y-yokohama-com-floating"
       },
       "low": 8,
-      "high": 9037
+      "high": 9037,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "Inclined berthing energy retention",
@@ -41,7 +43,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
         "source_id": "y-yokohama-com-floating"
       },
-      "value": "no decrease up to 15"
+      "value": "no decrease up to 15",
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "Low-pressure pneumatic fender GEA",
@@ -52,7 +55,8 @@
         "source_id": "y-yokohama-com-floating"
       },
       "low": 676,
-      "high": 1565
+      "high": 1565,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "ISO 17357-1:2014 bead-ring requirement",
@@ -62,7 +66,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
         "source_id": "y-yokohama-com-floating"
       },
-      "value": "less than 0.20 D"
+      "value": "less than 0.20 D",
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     }
   ],
   "vendors": [

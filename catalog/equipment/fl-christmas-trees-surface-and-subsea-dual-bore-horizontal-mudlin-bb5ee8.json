@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Control flow in and out of wells, connect tubing to seafloor/above-water facilities, and provide pressure barrier and intervention access.",
+  "description": "Control flow in and out of wells, connect tubing to seafloor/above-water facilities, and provide pressure barrier and intervention access. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
   "specifications": [
     {
       "metric": "OneSubsea subsea tree temperature range",
@@ -20,7 +20,8 @@
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "low": -18,
-      "high": 176
+      "high": 176,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "OneSubsea subsea tree pressure rating",
@@ -30,7 +31,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Wellhead vertical tree production bore",
@@ -40,7 +42,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "TechnipFMC subsea tree pressure rating",
@@ -50,7 +53,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "TechnipFMC subsea tree temperature rating",
@@ -60,7 +64,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "TechnipFMC subsea tree water depth",
@@ -70,7 +75,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "EVDT deepest subsea completion record",
@@ -80,7 +86,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 9627
+      "value": 9627,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     }
   ],
   "vendors": [

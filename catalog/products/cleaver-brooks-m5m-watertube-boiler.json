@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-gas-water-tube-package"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/m5m",
   "specifications": [
     {
       "metric": "Input capacity",
@@ -17,7 +17,8 @@
       },
       "unit": "MBH",
       "low": 2000,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Design pressure (steam)",
@@ -28,7 +29,8 @@
       },
       "unit": "psig",
       "low": 15,
-      "high": 500
+      "high": 500,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Design pressure (hot water)",
@@ -39,7 +41,8 @@
       },
       "unit": "psig",
       "low": 160,
-      "high": 250
+      "high": 250,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Boiler horsepower",
@@ -50,7 +53,8 @@
       },
       "unit": "HP",
       "low": 48,
-      "high": 143
+      "high": 143,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "NOx emissions",
@@ -60,7 +64,8 @@
         "source_id": "cleaverbrooks-com-product-m5m"
       },
       "unit": "ppm NOx (less than; standard, without FGR)",
-      "value": 20
+      "value": 20,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Turndown",
@@ -70,7 +75,8 @@
         "source_id": "cleaverbrooks-com-product-m5m"
       },
       "unit": ":1 (up to)",
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Design temperature options",
@@ -80,7 +86,8 @@
         "source_id": "cleaverbrooks-com-product-m5m"
       },
       "unit": "deg F",
-      "value": "235, 340, 355, 380, 410"
+      "value": "235, 340, 355, 380, 410",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Input",
@@ -90,7 +97,8 @@
         "url": "https://cleaverbrooks.com/product/m5m"
       },
       "low": 2000,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Fuel",
@@ -99,7 +107,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "Natural Gas, Propane"
+      "value": "Natural Gas, Propane",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Design pressure (steam)",
@@ -109,7 +118,8 @@
         "url": "https://cleaverbrooks.com/product/m5m"
       },
       "low": 15,
-      "high": 500
+      "high": 500,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Design pressure (hot water)",
@@ -119,7 +129,8 @@
         "url": "https://cleaverbrooks.com/product/m5m"
       },
       "low": 160,
-      "high": 250
+      "high": 250,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Design temperature",
@@ -128,7 +139,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "235, 340, 355, 380, 410"
+      "value": "235, 340, 355, 380, 410",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "NOx",
@@ -137,7 +149,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "<20"
+      "value": "<20",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "CO",
@@ -146,7 +159,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "<10"
+      "value": "<10",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Turndown",
@@ -155,7 +169,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "Up to 5:1"
+      "value": "Up to 5:1",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Boiler horsepower",
@@ -165,7 +180,8 @@
         "url": "https://cleaverbrooks.com/product/m5m"
       },
       "low": 48,
-      "high": 143
+      "high": 143,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Number of passes",
@@ -174,7 +190,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Steam or hot water",
@@ -183,7 +200,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "Both"
+      "value": "Both",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Vessel design",
@@ -192,7 +210,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "Watertube (membrane wall)"
+      "value": "Watertube (membrane wall)",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Floor space reduction",
@@ -201,7 +220,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Weight savings",
@@ -210,7 +230,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Burner technology",
@@ -219,7 +240,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "Premix burner technology, linkageless"
+      "value": "Premix burner technology, linkageless",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     }
   ],
   "url": "https://cleaverbrooks.com/product/m5m",

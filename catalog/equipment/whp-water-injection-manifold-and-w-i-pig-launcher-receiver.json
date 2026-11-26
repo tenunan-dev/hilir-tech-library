@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "The West Desaru WSS houses water injection flowlines, manifolds and a pig launcher, with produced oil routed to the FP5 MOPU and exported through a 14-km subsea pipeline to an FSO via an 8-in flexible riser.",
+  "description": "The West Desaru WSS houses water injection flowlines, manifolds and a pig launcher, with produced oil routed to the FP5 MOPU and exported through a 14-km subsea pipeline to an FSO via an 8-in flexible riser. Primary source: https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
   "aliases": [
     "Water injection manifold and W.I. pig launcher/receiver"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
         "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
-      }
+      },
+      "source_url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in"
     },
     {
       "metric": "Pig launcher and flexible riser — flexible riser diameter",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
         "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
-      }
+      },
+      "source_url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in"
     },
     {
       "metric": "Pig launcher and flexible riser — subsea export pipeline length",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
         "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
-      }
+      },
+      "source_url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in"
     }
   ],
   "vendor_models": [],

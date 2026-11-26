@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. Dry- and wet-mateable variants.",
+  "description": "Vendor product line read 2026-11-24. Dry- and wet-mateable variants. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
   "specifications": [
     {
       "metric": "Sealing",
@@ -16,7 +16,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
         "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
       },
-      "value": "dual-barrier mechanical and electrical sealing; dielectric-filled wiper protection; crimped terminations"
+      "value": "dual-barrier mechanical and electrical sealing; dielectric-filled wiper protection; crimped terminations",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     },
     {
       "metric": "Environment",
@@ -26,7 +27,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
         "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
       },
-      "value": "deepwater, HPHT wellhead and downhole; sour-resistant options"
+      "value": "deepwater, HPHT wellhead and downhole; sour-resistant options",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     },
     {
       "metric": "application_environment",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
       },
-      "value": "hostile environments, both subsea and downhole; suitable for deepwater and high-pressure, high-temperature wellhead and downhole applications"
+      "value": "hostile environments, both subsea and downhole; suitable for deepwater and high-pressure, high-temperature wellhead and downhole applications",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     },
     {
       "metric": "sealing_system",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
       },
-      "value": "Dual-barrier system provides best-in-class mechanical and electrical sealing"
+      "value": "Dual-barrier system provides best-in-class mechanical and electrical sealing",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     },
     {
       "metric": "design_experience",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",

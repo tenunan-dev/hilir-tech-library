@@ -6,7 +6,7 @@
   "equipment": [
     "geg-fire-fighting-system"
   ],
-  "description": "diesel/electric driven fire pump packages, split case, end suction, inline, multistage, vertical turbine, jockey",
+  "description": "diesel/electric driven fire pump packages, split case, end suction, inline, multistage, vertical turbine, jockey Primary source: https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
   "specifications": [
     {
       "metric": "overall NFPA-20 supply range (flow)",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "overall NFPA-20 supply range (pressure)",
@@ -30,7 +31,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "split casing fire pump flow",
@@ -42,7 +44,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "split casing fire pump pressure",
@@ -54,7 +57,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "end suction fire pump flow",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "in-line fire pump flow",
@@ -78,7 +83,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "vertical turbine fire pump flow",
@@ -90,7 +96,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "multi-stage fire pump pressure",
@@ -102,7 +109,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "jockey pump sizing basis",
@@ -113,7 +121,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "complete package flow",
@@ -125,7 +134,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "complete package pressure",
@@ -137,7 +147,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "pump standards listed",
@@ -147,7 +158,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
         "source_id": "geg-rotamac-co-th-03-20fire-20fighting-20pumps-p-64889da"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "Overall NFPA-20 range",
@@ -157,7 +169,8 @@
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
       },
       "low": 20,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "Split casing fire pump flow",
@@ -167,7 +180,8 @@
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
       },
       "low": 250,
-      "high": 4000
+      "high": 4000,
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "End suction fire pump flow / pressure",
@@ -177,7 +191,8 @@
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
       },
       "low": 50,
-      "high": 750
+      "high": 750,
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "In-line fire pump flow / pressure",
@@ -187,7 +202,8 @@
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
       },
       "low": 20,
-      "high": 220
+      "high": 220,
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "Two stage fire pump flow / pressure",
@@ -197,7 +213,8 @@
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
       },
       "low": 500,
-      "high": 2500
+      "high": 2500,
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "Vertical turbine fire pump flow / pressure",
@@ -207,7 +224,8 @@
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
       },
       "low": 250,
-      "high": 5500
+      "high": 5500,
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "FPSO & FSO fire pump flow / pressure",
@@ -217,7 +235,8 @@
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
       },
       "low": 1320,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "Multistage fire pump flow / pressure",
@@ -227,7 +246,8 @@
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
       },
       "low": 160,
-      "high": 4400
+      "high": 4400,
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "Jockey pump sizing",
@@ -236,7 +256,8 @@
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "Complete package flow / pressure",
@@ -246,7 +267,8 @@
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
       },
       "low": 50,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "Standard construction materials",
@@ -254,7 +276,8 @@
       "basis": "ROTAMAC: 'Standard materials include: Cast iron, Ductile cast iron, Carbon steel'",
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "Sea/brackish water metallurgies",
@@ -262,7 +285,8 @@
       "basis": "ROTAMAC: 'Stainless steel, Duplex stainless steel, Super duplex, Nickel-Aluminum-Bronze'",
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     },
     {
       "metric": "Pump standards",
@@ -270,7 +294,8 @@
       "basis": "ROTAMAC: 'Standardized End Suction Pumps EN733/DIN24255, ISO2858/ISO5199; ASME B73.1, API610'",
       "source": {
         "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
-      }
+      },
+      "source_url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf"
     }
   ],
   "url": "https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",

@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. Deepwater riser solution described on the fetched TechnipFMC flexible pipes page.",
+  "description": "Vendor product line read 2026-11-24. Deepwater riser solution described on the fetched TechnipFMC flexible pipes page. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
   "specifications": [
     {
       "metric": "Configuration",
@@ -16,7 +16,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
         "source_id": "sys-technipfmc-com"
       },
-      "value": "vertical steel pipe tensioned by near-surface buoyancy can; flexible jumper to platform; seabed foundation and rigid base jumper to PLET"
+      "value": "vertical steel pipe tensioned by near-surface buoyancy can; flexible jumper to platform; seabed foundation and rigid base jumper to PLET",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "FSHR - riser concept",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "Deepwater riser solution: vertical steel pipe tensioned by a near-surface buoyancy can"
+      "value": "Deepwater riser solution: vertical steel pipe tensioned by a near-surface buoyancy can",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "FSHR - top connection",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "Flexible jumper connects riser top to production platform"
+      "value": "Flexible jumper connects riser top to production platform",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "FSHR - seabed connection",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "Attached to seabed via a foundation; rigid base jumper connects FSHR to pipeline end termination"
+      "value": "Attached to seabed via a foundation; rigid base jumper connects FSHR to pipeline end termination",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Flexible pipe - construction",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "Leakproof thermoplastic barriers and corrosion-resistant steel wires; helically wound steel wires give high-pressure resistance and bending characteristics"
+      "value": "Leakproof thermoplastic barriers and corrosion-resistant steel wires; helically wound steel wires give high-pressure resistance and bending characteristics",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",

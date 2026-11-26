@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Bring a tanker-based FPSO/FSO to site, moor it, connect risers/flowlines/umbilicals and offloading system, hook up pre-laid moorings (often with AHTS + ROV), then commission and hand over.",
+  "description": "Bring a tanker-based FPSO/FSO to site, moor it, connect risers/flowlines/umbilicals and offloading system, hook up pre-laid moorings (often with AHTS + ROV), then commission and hand over. Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "FPSO/FSO definition",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": "FPSO = large monohull, usually ship-shaped, with processing facilities, moored for extended periods and not drilling; FSO/FSU used exclusively for storage with little process equipment"
+      "value": "FPSO = large monohull, usually ship-shaped, with processing facilities, moored for extended periods and not drilling; FSO/FSU used exclusively for storage with little process equipment",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     }
   ],
   "vendors": [

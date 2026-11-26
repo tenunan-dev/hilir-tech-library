@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Provide supported routes for process piping and electrical/instrument cables and safe access/egress and working surfaces around pipe racks, vessels and structures.",
+  "description": "Provide supported routes for process piping and electrical/instrument cables and safe access/egress and working surfaces around pipe racks, vessels and structures. Primary source: https://www.iso.org/standard/84215.html",
   "specifications": [
     {
       "metric": "function",
@@ -18,7 +18,8 @@
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
         "url": "https://www.iso.org/standard/84215.html"
-      }
+      },
+      "source_url": "https://www.iso.org/standard/84215.html"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
   ],
-  "description": "APAC supplier. Construction: 316/304 SS inner and outer wires, polyamide fabric/polyester barrier linings, polyamide fabric cover.",
+  "description": "APAC supplier. Construction: 316/304 SS inner and outer wires, polyamide fabric/polyester barrier linings, polyamide fabric cover. Primary source: https://composite-hose.com/cryogenic/lng",
   "specifications": [
     {
       "metric": "Compliance",
@@ -16,7 +16,8 @@
         "url": "https://composite-hose.com/cryogenic/lng",
         "source_id": "cat-composite-hose-com-lng"
       },
-      "value": "EN 13766 / 2018 Class A Type 2 and Class B Type 2"
+      "value": "EN 13766 / 2018 Class A Type 2 and Class B Type 2",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Working pressure, Class A Type 2",
@@ -26,7 +27,8 @@
         "url": "https://composite-hose.com/cryogenic/lng",
         "source_id": "cat-composite-hose-com-lng"
       },
-      "value": 13
+      "value": 13,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Working pressure, Class B Type 2",
@@ -36,7 +38,8 @@
         "url": "https://composite-hose.com/cryogenic/lng",
         "source_id": "cat-composite-hose-com-lng"
       },
-      "value": 10.5
+      "value": 10.5,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Minimum burst pressure",
@@ -46,7 +49,8 @@
         "url": "https://composite-hose.com/cryogenic/lng",
         "source_id": "cat-composite-hose-com-lng"
       },
-      "value": 52.5
+      "value": 52.5,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Temperature range",
@@ -57,7 +61,8 @@
         "source_id": "cat-composite-hose-com-lng"
       },
       "low": -196,
-      "high": 50
+      "high": 50,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Safety factor",
@@ -67,7 +72,8 @@
         "url": "https://composite-hose.com/cryogenic/lng",
         "source_id": "cat-composite-hose-com-lng"
       },
-      "value": "4:1"
+      "value": "4:1",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Size range",
@@ -78,7 +84,8 @@
         "source_id": "cat-composite-hose-com-lng"
       },
       "low": 25,
-      "high": 300
+      "high": 300,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Bend radius range",
@@ -89,7 +96,8 @@
         "source_id": "cat-composite-hose-com-lng"
       },
       "low": 200,
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Vacuum",
@@ -99,7 +107,8 @@
         "url": "https://composite-hose.com/cryogenic/lng",
         "source_id": "cat-composite-hose-com-lng"
       },
-      "value": 0.9
+      "value": 0.9,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Pressure test",
@@ -109,7 +118,8 @@
         "url": "https://composite-hose.com/cryogenic/lng",
         "source_id": "cat-composite-hose-com-lng"
       },
-      "value": "1.5 x rated working pressure"
+      "value": "1.5 x rated working pressure",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Compliance",
@@ -118,7 +128,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "EN 13766 / 2018 Class A Type 2 and Class B type 2"
+      "value": "EN 13766 / 2018 Class A Type 2 and Class B type 2",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Class A Type 2 working pressure",
@@ -128,7 +139,8 @@
         "url": "https://composite-hose.com/cryogenic/lng"
       },
       "value": 13,
-      "low": 185
+      "low": 185,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Class B Type 2 working pressure",
@@ -138,7 +150,8 @@
         "url": "https://composite-hose.com/cryogenic/lng"
       },
       "value": 10.5,
-      "low": 149
+      "low": 149,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Temperature range",
@@ -148,7 +161,8 @@
         "url": "https://composite-hose.com/cryogenic/lng"
       },
       "low": -196,
-      "high": 50
+      "high": 50,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Vacuum rating",
@@ -157,7 +171,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": 0.9
+      "value": 0.9,
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Safety factor",
@@ -166,7 +181,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "4:1"
+      "value": "4:1",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Proof test",
@@ -175,7 +191,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "1.5 times the rated working pressure"
+      "value": "1.5 times the rated working pressure",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Inner wire",
@@ -184,7 +201,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "Stainless steel 316/304"
+      "value": "Stainless steel 316/304",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Outer wire",
@@ -193,7 +211,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "Stainless steel 316/ 304"
+      "value": "Stainless steel 316/ 304",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     },
     {
       "metric": "Service",
@@ -202,7 +221,8 @@
       "source": {
         "url": "https://composite-hose.com/cryogenic/lng"
       },
-      "value": "LNG and liquid nitrogen transfer; refrigerated transport; industrial gas plants"
+      "value": "LNG and liquid nitrogen transfer; refrigerated transport; industrial gas plants",
+      "source_url": "https://composite-hose.com/cryogenic/lng"
     }
   ],
   "url": "https://composite-hose.com/cryogenic/lng",

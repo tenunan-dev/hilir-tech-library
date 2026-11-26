@@ -6,7 +6,7 @@
   "equipment": [
     "cf-diesel-engine-generator-sets-offshore-and-onshore"
   ],
-  "description": "Page notes 100% grid independence and grid-forming solutions for large scale; SMA ShadeFix MPP tracking; single-phase inverters up to 4.6 kVA under German VDE-AR-N 4105 code. Detailed per-model data sheets linked but not read.",
+  "description": "Page notes 100% grid independence and grid-forming solutions for large scale; SMA ShadeFix MPP tracking; single-phase inverters up to 4.6 kVA under German VDE-AR-N 4105 code. Detailed per-model data sheets linked but not read. Primary source: https://www.sma.de/en/products/solar-inverters",
   "specifications": [
     {
       "metric": "Sunny Central UP maximum power",
@@ -16,7 +16,8 @@
         "url": "https://www.sma.de/en/products/solar-inverters",
         "source_id": "cat-sma-de-solar-inverters"
       },
-      "value": 4600
+      "value": 4600,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Highpower PEAK3 power",
@@ -27,7 +28,8 @@
         "source_id": "cat-sma-de-solar-inverters"
       },
       "low": 100,
-      "high": 180
+      "high": 180,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Tripower 125 power",
@@ -37,7 +39,8 @@
         "url": "https://www.sma.de/en/products/solar-inverters",
         "source_id": "cat-sma-de-solar-inverters"
       },
-      "value": 125
+      "value": 125,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Tripower X 60 power",
@@ -48,7 +51,8 @@
         "source_id": "cat-sma-de-solar-inverters"
       },
       "low": 50,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Tripower X 25 power",
@@ -59,7 +63,8 @@
         "source_id": "cat-sma-de-solar-inverters"
       },
       "low": 12,
-      "high": 25
+      "high": 25,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Boy power classes",
@@ -68,7 +73,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": "3 / 3.6 / 4 / 5 / 6 kW"
+      "value": "3 / 3.6 / 4 / 5 / 6 kW",
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Tripower power classes",
@@ -77,7 +83,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": "8 / 10 / 12 / 15 / 20 / 25 kW"
+      "value": "8 / 10 / 12 / 15 / 20 / 25 kW",
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Tripower X power classes",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": "50 / 60 kW"
+      "value": "50 / 60 kW",
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Highpower PEAK3",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": 125
+      "value": 125,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Central UP power classes",
@@ -104,7 +113,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": "100 / 150 / 172 / 180 kW"
+      "value": "100 / 150 / 172 / 180 kW",
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Maximum central inverter power",
@@ -113,7 +123,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "high": 4600
+      "high": 4600,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Single-phase inverter limit in Germany",
@@ -122,7 +133,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": 4.6
+      "value": 4.6,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Grid code",
@@ -131,7 +143,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": "VDE-AR-N 4105"
+      "value": "VDE-AR-N 4105",
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     }
   ],
   "url": "https://www.sma.de/en/products/solar-inverters",

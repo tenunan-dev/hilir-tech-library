@@ -6,7 +6,7 @@
   "equipment": [
     "furnace-waterwalls-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched CBCW product page directly with WebFetch (markdown). Waterwalls are a subsystem of the boiler, not a standalone product line.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched CBCW product page directly with WebFetch (markdown). Waterwalls are a subsystem of the boiler, not a standalone product line. Primary source: https://cleaverbrooks.com/product/cbcw-integrated-watertube",
   "specifications": [
     {
       "metric": "Furnace construction",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
       },
       "unit": "construction",
-      "value": "100% membrane water-cooled, refractory free; welded front and rear walls also water cooled"
+      "value": "100% membrane water-cooled, refractory free; welded front and rear walls also water cooled",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "Styles",
@@ -26,7 +27,8 @@
         "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
       },
       "unit": "styles",
-      "value": "D-type and O-type"
+      "value": "D-type and O-type",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - steam flow range",
@@ -36,7 +38,8 @@
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
       "low": 10000,
-      "high": 225000
+      "high": 225000,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - steam pressure range",
@@ -46,7 +49,8 @@
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
       "low": 100,
-      "high": 550
+      "high": 550,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - steam temperature",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Saturated"
+      "value": "Saturated",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - NOx emissions",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "<9 ppm (available); <2 ppm with ultra-low NOx burner and SCR"
+      "value": "<9 ppm (available); <2 ppm with ultra-low NOx burner and SCR",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - fuels",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Natural Gas, Propane, Digester, #2 Light Oil"
+      "value": "Natural Gas, Propane, Digester, #2 Light Oil",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - assembly",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction"
+      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - style",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "D-type, O-type; 100% membrane water-cooled furnace, refractory-free"
+      "value": "D-type, O-type; 100% membrane water-cooled furnace, refractory-free",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - control system",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Cleaver-Brooks Hawk 4500 control"
+      "value": "Cleaver-Brooks Hawk 4500 control",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "CBCW - delivery lead-time reduction",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",

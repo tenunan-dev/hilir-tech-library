@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Meet water and hydrocarbon dew point sales specs by cooling/condensing heavy components, with upstream dehydration to prevent hydrate/ice formation; low-temperature separation, refrigeration, silica gel and LTS options.",
+  "description": "Meet water and hydrocarbon dew point sales specs by cooling/condensing heavy components, with upstream dehydration to prevent hydrate/ice formation; low-temperature separation, refrigeration, silica gel and LTS options. Primary source: https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
   "specifications": [
     {
       "metric": "Hydrate inhibitor temperature applicability",
@@ -19,7 +19,8 @@
         "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
         "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
       },
-      "value": "EG above -40 degF; methanol down to below -140 degF"
+      "value": "EG above -40 degF; methanol down to below -140 degF",
+      "source_url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas"
     },
     {
       "metric": "Dehydration route economics",
@@ -29,7 +30,8 @@
         "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
         "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
       },
-      "value": "glycol absorption less capex/opex than molecular sieve for 1-7 lb/MMSCF target"
+      "value": "glycol absorption less capex/opex than molecular sieve for 1-7 lb/MMSCF target",
+      "source_url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas"
     },
     {
       "metric": "Available dew-point product families",
@@ -39,7 +41,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg",
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-packages-with"
       },
-      "value": "silica gel WDP/HDP control; hydrocarbon recovery/LTS dew point control; gas heat exchangers; indirect water/glycol bath heaters"
+      "value": "silica gel WDP/HDP control; hydrocarbon recovery/LTS dew point control; gas heat exchangers; indirect water/glycol bath heaters",
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg"
     }
   ],
   "vendors": [

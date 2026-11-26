@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Contain spilled oil on water, protect jetty/harbour intake areas and recover oil with skimmers, pumps and temporary storage.",
+  "description": "Contain spilled oil on water, protect jetty/harbour intake areas and recover oil with skimmers, pumps and temporary storage. Primary source: https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
   "specifications": [
     {
       "metric": "Boom materials and deployment characteristics",
@@ -19,7 +19,8 @@
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms",
         "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
       },
-      "value": "Neoprene (vulcanised) or polyurethane; air or foam filled"
+      "value": "Neoprene (vulcanised) or polyurethane; air or foam filled",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "inflated height (catalogue range)",
@@ -30,7 +31,8 @@
         "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
       },
       "low": 750,
-      "high": 1500
+      "high": 1500,
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "freeboard",
@@ -41,7 +43,8 @@
         "source_id": "vikoma-com-articles-essential-types-of-oil-spill-booms"
       },
       "low": 335,
-      "high": 600
+      "high": 600,
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "Hi Sprint inflation",
@@ -50,7 +53,8 @@
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
       },
-      "value": "single-point inflation for the fastest inflation"
+      "value": "single-point inflation for the fastest inflation",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "Bulkhead inflation",
@@ -59,7 +63,8 @@
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
       },
-      "value": "chamber boom where each chamber is inflated separately"
+      "value": "chamber boom where each chamber is inflated separately",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "Boom materials",
@@ -68,7 +73,8 @@
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
       },
-      "value": "Neoprene (rubber) or thermoplastic (such as polyurethane)"
+      "value": "Neoprene (rubber) or thermoplastic (such as polyurethane)",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "Hi Sprint material",
@@ -77,7 +83,8 @@
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
       },
-      "value": "only made in Neoprene"
+      "value": "only made in Neoprene",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "Neoprene manufacturing",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
       },
-      "value": "vulcanising, which provides greater strength"
+      "value": "vulcanising, which provides greater strength",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "Fill options",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
       },
-      "value": "air filled or foam filled"
+      "value": "air filled or foam filled",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "Other boom types",
@@ -104,7 +113,8 @@
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
       },
-      "value": "Shore Guardian (shore sealing), Sentinel (curtain containment boom), Pod, Weir, Vikoflex, Super HI Sprint"
+      "value": "Shore Guardian (shore sealing), Sentinel (curtain containment boom), Pod, Weir, Vikoflex, Super HI Sprint",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "Service",
@@ -113,7 +123,8 @@
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
       },
-      "value": "booms and reels can be refurbished, extending the life further"
+      "value": "booms and reels can be refurbished, extending the life further",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "Quality",
@@ -122,7 +133,8 @@
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
       },
-      "value": "ISO 9001:2015 Certificate"
+      "value": "ISO 9001:2015 Certificate",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     },
     {
       "metric": "Article date",
@@ -131,7 +143,8 @@
       "source": {
         "url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
       },
-      "value": "2nd Jun 2026"
+      "value": "2nd Jun 2026",
+      "source_url": "https://www.vikoma.com/articles/essential-types-of-oil-spill-booms"
     }
   ],
   "vendors": [

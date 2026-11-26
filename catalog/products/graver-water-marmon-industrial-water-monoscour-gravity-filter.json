@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-feedwater-pretreatment"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: same Graver Raw Water Pretreatment page.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: same Graver Raw Water Pretreatment page. Primary source: https://graver.com/pretreatment/",
   "specifications": [
     {
       "metric": "Filter type",
@@ -16,7 +16,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "heavy duty, high rate gravity filter"
+      "value": "heavy duty, high rate gravity filter",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Design duty",
@@ -26,7 +27,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "treating high turbidity loads and sticky particulates following polymer/coagulant treatment"
+      "value": "treating high turbidity loads and sticky particulates following polymer/coagulant treatment",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "filter_type",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://graver.com/pretreatment/"
       },
-      "value": "heavy duty, high rate gravity filter"
+      "value": "heavy duty, high rate gravity filter",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "applications",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://graver.com/pretreatment/"
       },
-      "value": "wastewater applications, lime softening applications, cooling tower side stream filtration and all other gravity filter applications where high filtering rates are desirable"
+      "value": "wastewater applications, lime softening applications, cooling tower side stream filtration and all other gravity filter applications where high filtering rates are desirable",
+      "source_url": "https://graver.com/pretreatment/"
     }
   ],
   "url": "https://graver.com/pretreatment/",

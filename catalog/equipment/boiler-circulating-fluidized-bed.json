@@ -11,7 +11,7 @@
   "sector_codes": [
     "PWR"
   ],
-  "description": "Solid-fuel boiler that burns particles in a circulating fluidized bed, recirculating the bed material through a cyclone so even difficult fuels — high-sulfur, high-ash, waste, biomass and refinery solids — burn cleanly at low furnace temperature with limestone capturing SOx in the furnace. Fluidized-bed steam generation for power and industrial steam where fuel flexibility and in-furnace desulfurization matter.",
+  "description": "Solid-fuel boiler that burns particles in a circulating fluidized bed, recirculating the bed material through a cyclone so even difficult fuels — high-sulfur, high-ash, waste, biomass and refinery solids — burn cleanly at low furnace temperature with limestone capturing SOx in the furnace. Fluidized-bed steam generation for power and industrial steam where fuel flexibility and in-furnace desulfurization matter. Primary source: https://www.powerinfotoday.com",
   "subtypes": [
     {
       "name": "Sumitomo SHI FW CFB",
@@ -37,7 +37,8 @@
       "source": {
         "url": "https://www.powerinfotoday.com",
         "note": "Sumitomo SHI FW company description on Power Info Today, search-verified 30 October 2026"
-      }
+      },
+      "source_url": "https://www.powerinfotoday.com"
     },
     {
       "metric": "steam conditions, largest designs",
@@ -46,7 +47,8 @@
       "source": {
         "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
         "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers"
     },
     {
       "metric": "SOx and NOx without flue-gas cleaning system",
@@ -56,7 +58,8 @@
       "source": {
         "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
         "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers"
     },
     {
       "metric": "particulate matter with ESP",
@@ -66,7 +69,8 @@
       "source": {
         "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
         "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers"
     },
     {
       "metric": "boiler availability, fleet average",
@@ -76,7 +80,8 @@
       "source": {
         "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
         "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers"
     },
     {
       "metric": "biomass share in co-firing",
@@ -87,7 +92,8 @@
       "source": {
         "url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers",
         "note": "Sumitomo SHI FW CFB boiler page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.shi-fw.com/our-solutions/energy-generation/circulating-fluidized-bed-boilers"
     }
   ],
   "vendor_models": [

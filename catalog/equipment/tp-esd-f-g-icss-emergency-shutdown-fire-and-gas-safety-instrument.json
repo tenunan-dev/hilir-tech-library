@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Detect fire/gas and execute SIL-rated shutdown and mitigation actions, integrated with process control on offshore/floating facilities.",
+  "description": "Detect fire/gas and execute SIL-rated shutdown and mitigation actions, integrated with process control on offshore/floating facilities. Primary source: https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
   "specifications": [
     {
       "metric": "Safety Manager SIL capability",
@@ -19,7 +19,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "SIL 1-3"
+      "value": "SIL 1-3",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Operating temperature",
@@ -29,7 +30,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "-40 to 70 degC (remote cabinet); -5 to 70 degC (Safety Manager cabinet)"
+      "value": "-40 to 70 degC (remote cabinet); -5 to 70 degC (Safety Manager cabinet)",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety/F&G standards listed",
@@ -39,7 +41,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "IEC 61508, IEC 61511, ISA S84.01, NFPA 72/85/86, EN54-2, ATEX, UL/FM"
+      "value": "IEC 61508, IEC 61511, ISA S84.01, NFPA 72/85/86, EN54-2, ATEX, UL/FM",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "HIPPS offering",
@@ -49,7 +52,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/surface/production",
         "source_id": "technipfmc-com-surface-production"
       },
-      "value": "High Integrity Pressure Protection System listed"
+      "value": "High Integrity Pressure Protection System listed",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/surface/production"
     }
   ],
   "vendors": [

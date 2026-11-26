@@ -6,7 +6,7 @@
   "equipment": [
     "geg-public-address-system"
   ],
-  "description": "public address / voice evacuation system",
+  "description": "public address / voice evacuation system Primary source: https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
   "specifications": [
     {
       "metric": "audio channels routed by network controller",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
         "source_id": "geg-pagcanada-com-praesideo-ds-en-pdf-7444422"
-      }
+      },
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "priority levels",
@@ -27,7 +28,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
         "source_id": "geg-pagcanada-com-praesideo-ds-en-pdf-7444422"
-      }
+      },
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "fault log capacity",
@@ -37,7 +39,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
         "source_id": "geg-pagcanada-com-praesideo-ds-en-pdf-7444422"
-      }
+      },
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "power amplifier rating",
@@ -47,7 +50,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
         "source_id": "geg-pagcanada-com-praesideo-ds-en-pdf-7444422"
-      }
+      },
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "loudspeaker output voltages",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
         "source_id": "geg-pagcanada-com-praesideo-ds-en-pdf-7444422"
-      }
+      },
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "emergency standard certification",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
         "source_id": "geg-pagcanada-com-praesideo-ds-en-pdf-7444422"
-      }
+      },
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "backup supply",
@@ -75,7 +81,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
         "source_id": "geg-pagcanada-com-praesideo-ds-en-pdf-7444422"
-      }
+      },
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "network controller node capacity",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",
         "source_id": "geg-pagcanada-com-praesideo-ds-en-pdf-7444422"
-      }
+      },
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "emergency_standard_certification",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": "IEC 60849 certified (first system certified); EVAC TUV certified acc. to IEC 60849 / BS 5839-8"
+      "value": "IEC 60849 certified (first system certified); EVAC TUV certified acc. to IEC 60849 / BS 5839-8",
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "simultaneous_audio_channels",
@@ -103,7 +112,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": 28
+      "value": 28,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "audio_inputs_outputs",
@@ -112,7 +122,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "control_inputs_outputs",
@@ -122,7 +133,8 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
       "low": 8,
-      "high": 5
+      "high": 5,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "max_system_nodes",
@@ -131,7 +143,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": 60
+      "value": 60,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "fault_message_memory",
@@ -140,7 +153,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "priorities",
@@ -149,7 +163,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": 256
+      "value": 256,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "mains_supply_voltage",
@@ -159,7 +174,8 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
       "low": 115,
-      "high": 230
+      "high": 230,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "mains_frequency",
@@ -169,7 +185,8 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
       "low": 50,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "mains_power_consumption",
@@ -179,7 +196,8 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
       "low": 14,
-      "high": 150
+      "high": 150,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "battery_backup_voltage",
@@ -188,7 +206,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": 48
+      "value": 48,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "frequency_response",
@@ -198,7 +217,8 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
       "low": 20,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "operating_temperature",
@@ -208,7 +228,8 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
       "low": -10,
-      "high": 55
+      "high": 55,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "storage_temperature",
@@ -218,7 +239,8 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
       "low": -40,
-      "high": 70
+      "high": 70,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "humidity",
@@ -228,7 +250,8 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
       "low": 15,
-      "high": 90
+      "high": 90,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "air_pressure",
@@ -238,7 +261,8 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
       "low": 600,
-      "high": 1100
+      "high": 1100,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "network_controller_dimensions_HxWxD",
@@ -247,7 +271,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": "92 x 440 x 400"
+      "value": "92 x 440 x 400",
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "network_controller_weight",
@@ -256,7 +281,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "amplifier_total_power_rating",
@@ -265,7 +291,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "amplifier_channel_configurations",
@@ -274,7 +301,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": "1 x 500 W; 2 x 250 W; 4 x 125 W; 8 x 60 W"
+      "value": "1 x 500 W; 2 x 250 W; 4 x 125 W; 8 x 60 W",
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "loudspeaker_output_voltages",
@@ -283,7 +311,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": "100 / 70 / 50"
+      "value": "100 / 70 / 50",
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "amplifier_mains_supply",
@@ -293,7 +322,8 @@
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
       "low": 100,
-      "high": 240
+      "high": 240,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "multichannel_interface_outputs",
@@ -302,7 +332,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": 16
+      "value": 16,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "plastic_fiber_segment_length",
@@ -311,7 +342,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "high": 50
+      "high": 50,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "remote_call_station_cat5_max_length",
@@ -320,7 +352,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     },
     {
       "metric": "safety_emissions_standards",
@@ -329,7 +362,8 @@
       "source": {
         "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
       },
-      "value": "IEC 60065-98; EN 55103-2; EN 55103-1 / FCC-47 part 15B"
+      "value": "IEC 60065-98; EN 55103-2; EN 55103-1 / FCC-47 part 15B",
+      "source_url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf"
     }
   ],
   "url": "https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf",

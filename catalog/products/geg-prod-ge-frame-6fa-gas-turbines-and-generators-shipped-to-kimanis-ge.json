@@ -6,7 +6,7 @@
   "equipment": [
     "geg-freight-transport-cargo-insurance-and-installation"
   ],
-  "description": "GEG freight/installation reference",
+  "description": "GEG freight/installation reference Primary source: https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
   "specifications": [
     {
       "metric": "number of gas turbines supplied",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
         "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
-      }
+      },
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "project_capacity",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "service_agreement_duration",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 18
+      "value": 18,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "turbine_model",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": "Frame 6FA"
+      "value": "Frame 6FA",
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     }
   ],
   "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",

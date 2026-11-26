@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Buoyant substructures that support wind turbines in water depths where fixed foundations are uneconomic, moored by catenary, taut or tension-leg systems.",
+  "description": "Buoyant substructures that support wind turbines in water depths where fixed foundations are uneconomic, moored by catenary, taut or tension-leg systems. Primary source: https://en.wikipedia.org/wiki/Floating_offshore_wind",
   "specifications": [
     {
       "metric": "operational floating wind capacity",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
         "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
       },
-      "value": "245 MW operational, 266 GW pipeline as of October 2024"
+      "value": "245 MW operational, 266 GW pipeline as of October 2024",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
     },
     {
       "metric": "Hywind Scotland",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
         "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
       },
-      "value": "5 × 6 MW Siemens turbines, 30 MW, commissioned 2017, 54% capacity factor first 5 years"
+      "value": "5 × 6 MW Siemens turbines, 30 MW, commissioned 2017, 54% capacity factor first 5 years",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
     },
     {
       "metric": "WindFloat Atlantic",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
         "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
       },
-      "value": "3 × Vestas 8.4 MW, 25 MW, semi-submersible, 100 m water depth, 20 km offshore, 34% capacity factor"
+      "value": "3 × Vestas 8.4 MW, 25 MW, semi-submersible, 100 m water depth, 20 km offshore, 34% capacity factor",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
     },
     {
       "metric": "catenary mooring radius",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
         "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
       },
-      "value": "turbine-to-anchor radius approximately 6-8 × water depth"
+      "value": "turbine-to-anchor radius approximately 6-8 × water depth",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
     },
     {
       "metric": "floater concept count",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
         "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
       },
-      "value": "over 100 concepts counted in a 2026 study"
+      "value": "over 100 concepts counted in a 2026 study",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
     }
   ],
   "vendors": [

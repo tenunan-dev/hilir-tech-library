@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Carries wells, process equipment, utilities, accommodation and helideck; either a single integrated deck lifted in one piece or a module support frame carrying multiple modules.",
+  "description": "Carries wells, process equipment, utilities, accommodation and helideck; either a single integrated deck lifted in one piece or a module support frame carrying multiple modules. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
   "specifications": [
     {
       "metric": "integrated deck weight limit",
@@ -19,7 +19,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
-      "high": 100
+      "high": 100,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "modularized topside weight range",
@@ -30,7 +31,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
       "low": 200,
-      "high": 400
+      "high": 400,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "equipment module weight range",
@@ -41,7 +43,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
       "low": 20,
-      "high": 75
+      "high": 75,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "living quarter module weight range",
@@ -52,7 +55,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
       "low": 5,
-      "high": 25
+      "high": 25,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "deck leg support elevation",
@@ -63,7 +67,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
       "low": 4,
-      "high": 6
+      "high": 6,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "topside installed CAPEX (historical)",
@@ -73,7 +78,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     }
   ],
   "vendors": [

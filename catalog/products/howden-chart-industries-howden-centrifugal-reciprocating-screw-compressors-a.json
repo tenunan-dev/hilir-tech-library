@@ -6,7 +6,7 @@
   "equipment": [
     "bulk-screw-conveyors"
   ],
-  "description": "Vendor product line read 2026-11-24. General portfolio; not ammonia-specific. Howden acquired by Chart in 2023.",
+  "description": "Vendor product line read 2026-11-24. General portfolio; not ammonia-specific. Howden acquired by Chart in 2023. Primary source: https://www.chartindustries.com/Howden",
   "specifications": [
     {
       "metric": "Reciprocating gas compressor rating",
@@ -16,7 +16,8 @@
         "url": "https://www.chartindustries.com/Howden",
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
       },
-      "high": 20
+      "high": 20,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Reciprocating compressor speed",
@@ -27,7 +28,8 @@
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
       },
       "low": 260,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Steam turbine electrical output range",
@@ -38,7 +40,8 @@
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
       },
       "low": 75,
-      "high": 40000
+      "high": 40000,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Steam turbine mechanical drive range",
@@ -49,7 +52,8 @@
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
       },
       "low": 10,
-      "high": 40
+      "high": 40,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Steam turbine power range",
@@ -58,7 +62,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Steam turbine max power",
@@ -67,7 +72,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Steam turbine inlet pressure",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Waste-to-energy installed power",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Cane sugar machines",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Reciprocating compressor rating",
@@ -103,7 +112,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Reciprocating speed",
@@ -114,7 +124,8 @@
       },
       "value": 260,
       "low": 1000,
-      "high": "rpm"
+      "high": "rpm",
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Peter Brotherhood turbine build",
@@ -123,7 +134,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 22
+      "value": 22,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "EmissionGuard gas prevented",
@@ -132,7 +144,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 20173000
+      "value": 20173000,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "EmissionGuard gas prevented",
@@ -141,7 +154,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 693144000
+      "value": 693144000,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "EmissionGuard CO2 equivalent",
@@ -150,7 +164,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 60500
+      "value": 60500,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Screw compressors",
@@ -158,7 +173,8 @@
       "basis": "'Rotary twin-screw compressors for gas compression applications within oil & gas, power and industrial refrigeration'",
       "source": {
         "url": "https://www.chartindustries.com/Howden"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Howden"
     }
   ],
   "url": "https://www.chartindustries.com/Howden",

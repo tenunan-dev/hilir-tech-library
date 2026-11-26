@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Support safe terminal operation: fire protection, oily-water/drainage handling, sewage, electrical power and lighting, and navigation aids.",
+  "description": "Support safe terminal operation: fire protection, oily-water/drainage handling, sewage, electrical power and lighting, and navigation aids. Primary source: https://www.iso.org/standard/84215.html",
   "specifications": [
     {
       "metric": "function",
@@ -18,7 +18,8 @@
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
         "url": "https://www.iso.org/standard/84215.html"
-      }
+      },
+      "source_url": "https://www.iso.org/standard/84215.html"
     }
   ],
   "vendors": [

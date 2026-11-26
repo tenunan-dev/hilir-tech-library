@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Freight, transport, cargo insurance and installation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Freight, transport, cargo insurance and installation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
   "aliases": [
     "Freight, transport, cargo insurance and installation"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
         "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
     },
     {
       "metric": "GE Frame 6FA gas turbines and generato — number of gas turbines supplied",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
         "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
-      }
+      },
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "project_capacity",
@@ -48,7 +50,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "service_agreement_duration",
@@ -57,7 +60,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 18
+      "value": 18,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "turbine_model",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": "Frame 6FA"
+      "value": "Frame 6FA",
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     }
   ],
   "vendor_models": [

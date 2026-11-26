@@ -2,7 +2,7 @@
   "id": "heat-transfer-tubes-boiler",
   "name": "Boiler heat-transfer tubes and tube sheets",
   "equipment_type": "pressure-part",
-  "description": "The pressure-part surface across which heat passes from gas to water. Fire-tube boilers pass gas inside furnace and smoke tubes with water outside and tube sheets separating the two; water-tube boilers pass water inside tubes with gas outside. Extended and enhanced tube forms are claimed to raise effective surface area and heat transfer.",
+  "description": "The pressure-part surface across which heat passes from gas to water. Fire-tube boilers pass gas inside furnace and smoke tubes with water outside and tube sheets separating the two; water-tube boilers pass water inside tubes with gas outside. Extended and enhanced tube forms are claimed to raise effective surface area and heat transfer. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB",
   "specifications": [
     {
       "metric": "furnace tube wall thickness",
@@ -13,7 +13,8 @@
       },
       "unit": "mm",
       "low": 18,
-      "high": 20
+      "high": 20,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB"
     },
     {
       "metric": "practical shell boiler pressure limit",
@@ -23,7 +24,8 @@
         "source_id": "spirax-shell-boilers"
       },
       "unit": "bar",
-      "value": 27
+      "value": 27,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB"
     },
     {
       "metric": "heat-transfer increase, CBEX extended tubes",
@@ -33,7 +35,8 @@
         "source_id": "cb-cbex"
       },
       "unit": "%",
-      "value": 85
+      "value": 85,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "effective surface area, AluFer tube",
@@ -43,7 +46,8 @@
         "source_id": "cb-cfce"
       },
       "unit": "x",
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "number of passes, condensing firetube",
@@ -53,7 +57,8 @@
         "source_id": "cb-cfce"
       },
       "unit": "passes",
-      "value": 1
+      "value": 1,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "boiler horsepower heat-transfer convention",
@@ -63,7 +68,8 @@
         "source_id": "etb-boiler-horsepower"
       },
       "unit": "sq ft/BHP",
-      "value": 5
+      "value": 5,
+      "source_url": "https://engineeringtoolbox.com/boiler-horsepower-d_1061.html"
     },
     {
       "metric": "Standard straight tube length",
@@ -74,7 +80,8 @@
       },
       "unit": "inches",
       "low": 50,
-      "high": 510
+      "high": 510,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Rifled (XID) tube length",
@@ -85,7 +92,8 @@
       },
       "unit": "inches",
       "low": 50,
-      "high": 366
+      "high": 366,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Material",
@@ -95,7 +103,8 @@
         "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
       },
       "unit": "material",
-      "value": "Premium ERW SA178 steel produced to ASME Boiler & Pressure Vessel Code requirements"
+      "value": "Premium ERW SA178 steel produced to ASME Boiler & Pressure Vessel Code requirements",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Heat exchanger tube bending",
@@ -106,7 +115,8 @@
       },
       "unit": "inch OD",
       "low": 0.75,
-      "high": 1.5
+      "high": 1.5,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Tube replacement bending",
@@ -117,7 +127,8 @@
       },
       "unit": "inch OD",
       "low": 1.5,
-      "high": 4
+      "high": 4,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Other products",
@@ -127,7 +138,8 @@
         "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
       },
       "unit": "scope",
-      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging"
+      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Quality documentation",
@@ -137,7 +149,8 @@
         "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
       },
       "unit": "quality",
-      "value": "Material traceability, MTR documentation, non-destructive testing, ASME compliance"
+      "value": "Material traceability, MTR documentation, non-destructive testing, ASME compliance",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Heat transfer increase",
@@ -147,7 +160,8 @@
         "source_id": "cleaverbrooks-com-product-cbex"
       },
       "unit": "%",
-      "value": 85
+      "value": 85,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Effective heat transfer surface",
@@ -157,7 +171,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "times greater than other condensing boilers",
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Thermal conductivity",
@@ -167,7 +182,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "times greater than stainless steel alone",
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "steam_pressure_max",
@@ -176,7 +192,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "hot_water_pressure_max",
@@ -185,7 +202,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": 125
+      "value": 125,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "boiler_horsepower",
@@ -195,7 +213,8 @@
         "url": "https://cleaverbrooks.com/product/cbex"
       },
       "low": 100,
-      "high": 2500
+      "high": 2500,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "input_capacity",
@@ -205,7 +224,8 @@
         "url": "https://cleaverbrooks.com/product/cbex"
       },
       "low": 4000,
-      "high": 102000
+      "high": 102000,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "number_of_passes",
@@ -214,7 +234,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "2 and 3"
+      "value": "2 and 3",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "fuel",
@@ -223,7 +244,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "Natural gas/propane, #2 light oil, combination"
+      "value": "Natural gas/propane, #2 light oil, combination",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "NOx_emissions_by_model",
@@ -232,7 +254,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "<5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)"
+      "value": "<5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "NOx_without_SCR",
@@ -241,7 +264,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "high": 5
+      "high": 5,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "CO_emission",
@@ -250,7 +274,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "high": 10
+      "high": 10,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "turndown_ratio",
@@ -259,7 +284,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "heat_transfer_increase",
@@ -268,7 +294,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "vessel_design",
@@ -277,7 +304,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "Firetube"
+      "value": "Firetube",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "waterback_dryback",
@@ -286,7 +314,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "Waterback or Dryback design"
+      "value": "Waterback or Dryback design",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "ClearFire-CE - number of models",
@@ -295,7 +324,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 11
+      "value": 11,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - input capacity",
@@ -305,7 +335,8 @@
         "url": "https://cleaverbrooks.com/product/cfce"
       },
       "low": 500,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - AHRI combustion efficiency",
@@ -314,7 +345,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 94.7
+      "value": 94.7,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - AHRI thermal efficiency",
@@ -323,7 +355,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 96
+      "value": 96,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - design temperature",
@@ -332,7 +365,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 210
+      "value": 210,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - NOx emissions",
@@ -341,7 +375,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": "<20 ppm standard; sub 7 ppm available"
+      "value": "<20 ppm standard; sub 7 ppm available",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - turndown",
@@ -350,7 +385,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": "10:1 fully modulating"
+      "value": "10:1 fully modulating",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - number of passes",
@@ -359,7 +395,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - vessel design / fluid",
@@ -368,7 +405,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": "Firetube; Hot Water"
+      "value": "Firetube; Hot Water",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - fuels",
@@ -377,7 +415,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": "Natural Gas, Propane, Combination firing"
+      "value": "Natural Gas, Propane, Combination firing",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - heat exchanger technology",
@@ -386,7 +425,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": "Patented TurboFer heat exchanger with integrated Ember controls; fully condensing high-mass design"
+      "value": "Patented TurboFer heat exchanger with integrated Ember controls; fully condensing high-mass design",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Wall thicknesses",
@@ -395,7 +435,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "Multiple wall thicknesses"
+      "value": "Multiple wall thicknesses",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Tube material",
@@ -404,7 +445,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "premium ERW SA178 steel"
+      "value": "premium ERW SA178 steel",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Standard",
@@ -413,7 +455,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "ASME Boiler & Pressure Vessel Code"
+      "value": "ASME Boiler & Pressure Vessel Code",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Heat exchanger bending OD",
@@ -423,7 +466,8 @@
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
       "low": 0.75,
-      "high": 1.5
+      "high": 1.5,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Heat exchanger bending radius",
@@ -433,7 +477,8 @@
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
       "low": 2,
-      "high": 15.5
+      "high": 15.5,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Tube replacement bending OD",
@@ -443,7 +488,8 @@
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
       "low": 1.5,
-      "high": 4
+      "high": 4,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Bending techniques",
@@ -452,7 +498,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "Boost, mandrel or hot bending"
+      "value": "Boost, mandrel or hot bending",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Other tube types",
@@ -461,7 +508,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging"
+      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Materials for heat exchangers",
@@ -470,7 +518,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "stainless and mild steel"
+      "value": "stainless and mild steel",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Tube types",
@@ -479,7 +528,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "Standard straight, rifled (XID), bent, custom"
+      "value": "Standard straight, rifled (XID), bent, custom",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     }
   ],
   "vendors": [

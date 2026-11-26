@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. Vertical and horizontal rubber elements; optional stabbing cone.",
+  "description": "Vendor product line read 2026-11-24. Vertical and horizontal rubber elements; optional stabbing cone. Primary source: https://hitechelastomers.com/products/leg-mating-unit/",
   "specifications": [
     {
       "metric": "Load relief",
@@ -16,7 +16,8 @@
         "url": "https://hitechelastomers.com/products/leg-mating-unit/",
         "source_id": "hitechelastomers-com-leg-mating-unit"
       },
-      "value": "sand release valve lowers plunger assembly"
+      "value": "sand release valve lowers plunger assembly",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Product type",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://hitechelastomers.com/products/leg-mating-unit/"
       },
-      "value": "Leg Mating Unit with optional sand jack"
+      "value": "Leg Mating Unit with optional sand jack",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Load capacity basis",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://hitechelastomers.com/products/leg-mating-unit/"
       },
-      "value": "Custom designed to take immense loads of topsides"
+      "value": "Custom designed to take immense loads of topsides",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Elastomer construction",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://hitechelastomers.com/products/leg-mating-unit/"
       },
-      "value": "vertical and horizontal rubber elements formulated to take immense loads with low creep"
+      "value": "vertical and horizontal rubber elements formulated to take immense loads with low creep",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Load release mechanism",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://hitechelastomers.com/products/leg-mating-unit/"
       },
-      "value": "Sand can be released from the sand release valve, which leads to the plunger assembly being lower, and loads on the rubber element are released"
+      "value": "Sand can be released from the sand release valve, which leads to the plunger assembly being lower, and loads on the rubber element are released",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Application",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://hitechelastomers.com/products/leg-mating-unit/"
       },
-      "value": "Float-over operation; Installation of heavy topsides"
+      "value": "Float-over operation; Installation of heavy topsides",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     }
   ],
   "url": "https://hitechelastomers.com/products/leg-mating-unit/",

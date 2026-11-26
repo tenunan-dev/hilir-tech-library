@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Rigid flowlines and export pipelines carry oilfield fluids from wellhead/manifold to the processing facility and from offshore facilities to onshore receiving terminals; risers accommodate vessel motion and environmental loads between seabed flowlines/PLET and the surface host. TechnipFMC lists single pipelines, plastic-lined pipelines, corrosion-resistant alloy pipelines, direct electrically heated pipelines, pipe-in-pipe, electrically trace-heated pipe-in-pipe, piggybacked pipelines, steel cat",
+  "description": "Rigid flowlines and export pipelines carry oilfield fluids from wellhead/manifold to the processing facility and from offshore facilities to onshore receiving terminals; risers accommodate vessel motion and environmental loads between seabed flowlines/PLET and the surface host. TechnipFMC lists single pipelines, plastic-lined pipelines, corrosion-resistant alloy pipelines, direct electrically heated pipelines, pipe-in-pipe, electrically trace-heated pipe-in-pipe, piggybacked pipelines, steel cat Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
   "aliases": [
     "Export risers and subsea pipeline tie-ins to the CPP or FSO"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
         "source_id": "technipfmc-com-rigid-pipelines"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/"
     },
     {
       "metric": "Rigid flowlines, export pipelines and tr — Installed pipe-in-pipe length (company track record)",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
         "source_id": "technipfmc-com-rigid-pipelines"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/"
     }
   ],
   "vendor_models": [],

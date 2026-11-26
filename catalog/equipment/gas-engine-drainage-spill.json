@@ -8,7 +8,7 @@
     "HSE",
     "PWR"
   ],
-  "description": "Drainage, spill containment and wastewater",
+  "description": "Drainage, spill containment and wastewater Primary source: https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
   "specifications": [
     {
       "metric": "Concrete pad / spill containment",
@@ -18,7 +18,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "reinforced concrete, 28-day compressive strength at least 2500 psi (17,236.89 kPa); pad at least 6 in (150 mm) deep and extending at least 9 in (230 mm) beyond skid on all sides; serviceability and spill containment to be considered"
+      "value": "reinforced concrete, 28-day compressive strength at least 2500 psi (17,236.89 kPa); pad at least 6 in (150 mm) deep and extending at least 9 in (230 mm) beyond skid on all sides; serviceability and spill containment to be considered",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Oil overflow and waste oil",
@@ -28,7 +29,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "overflow pipe on make-up tank in case of level sensor failure; overflow oil routed to receptacle to avoid spills; waste lube oil tank recovers used oil before recycling/off-site disposal"
+      "value": "overflow pipe on make-up tank in case of level sensor failure; overflow oil routed to receptacle to avoid spills; waste lube oil tank recovers used oil before recycling/off-site disposal",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Exhaust condensate drainage",
@@ -38,7 +40,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "piping must slope down and away from exhaust turbo and include condensate drains; rain cap/trap may be needed on vertical outlets (freeze risk noted)"
+      "value": "piping must slope down and away from exhaust turbo and include condensate drains; rain cap/trap may be needed on vertical outlets (freeze risk noted)",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     }
   ],
   "vendors": [

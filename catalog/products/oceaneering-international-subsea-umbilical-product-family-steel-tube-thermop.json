@@ -6,7 +6,7 @@
   "equipment": [
     "fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste"
   ],
-  "description": "HTML index page read; each item links to a separate PDF datasheet (not WebFetch-readable). The page's 'more than 0 km' counter is a rendering artifact and is not reported as a figure.",
+  "description": "HTML index page read; each item links to a separate PDF datasheet (not WebFetch-readable). The page's 'more than 0 km' counter is a rendering artifact and is not reported as a figure. Primary source: https://www.oceaneering.com/subsea-distribution-solutions/products/",
   "specifications": [
     {
       "metric": "Umbilical types",
@@ -16,7 +16,8 @@
         "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
         "source_id": "cat-oceaneering-com"
       },
-      "value": "Steel Tube Umbilicals; Thermoplastic Hose Umbilicals; Power Umbilicals; IWOCS Umbilicals"
+      "value": "Steel Tube Umbilicals; Thermoplastic Hose Umbilicals; Power Umbilicals; IWOCS Umbilicals",
+      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "Flying lead conduit",
@@ -26,7 +27,8 @@
         "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
         "source_id": "cat-oceaneering-com"
       },
-      "value": "Steel tubes or thermoplastic hoses; modular hydraulic, electro-hydraulic and hybrid designs"
+      "value": "Steel tubes or thermoplastic hoses; modular hydraulic, electro-hydraulic and hybrid designs",
+      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "Uta configuration",
@@ -36,7 +38,8 @@
         "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
         "source_id": "cat-oceaneering-com"
       },
-      "value": "Modular components; configurable side panels for hydraulic, electrical and fiber optic connectivity"
+      "value": "Modular components; configurable side panels for hydraulic, electrical and fiber optic connectivity",
+      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "Ancillary hardware",
@@ -46,7 +49,8 @@
         "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
         "source_id": "cat-oceaneering-com"
       },
-      "value": "Umbilical I- and J-Tube Seals; Pull-In and Hang Off Systems; Subsea Umbilical Termination Interfaces; Tie Back or Tie Down Collars; Subsea Umbilical Weak Links"
+      "value": "Umbilical I- and J-Tube Seals; Pull-In and Hang Off Systems; Subsea Umbilical Termination Interfaces; Tie Back or Tie Down Collars; Subsea Umbilical Weak Links",
+      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "Umbilical product types",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "Steel tube umbilical function",
@@ -63,7 +68,8 @@
       "basis": "\"Inherently strong solutions for hydraulic control and chemical injection\"",
       "source": {
         "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      }
+      },
+      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "Power umbilical function",
@@ -71,7 +77,8 @@
       "basis": "\"Integrated solutions providing electric power and communications to subsea infrastructure\"",
       "source": {
         "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      }
+      },
+      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "IWOCS umbilical function",
@@ -79,7 +86,8 @@
       "basis": "\"Providing temporary hydraulic connections, electrical power/control, and chemical supply\"",
       "source": {
         "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      }
+      },
+      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "M Series junction plates",
@@ -87,7 +95,8 @@
       "basis": "\"fixed, configurable, and removable assemblies ... support chemical injection by preventing well blockage, supply hydraulic power to open and close subsea mounted valves, and facilitate well annulus pressure monitoring\"; \"patented, and pre-threaded latch mating system\"",
       "source": {
         "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      }
+      },
+      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "Hydraulic flying leads",
@@ -95,7 +104,8 @@
       "basis": "\"Modular designs for hydraulic, electro-hydraulic, and hybrid applications; Bundled or extruded conduit sections; ROV-friendly\"",
       "source": {
         "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      }
+      },
+      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     }
   ],
   "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",

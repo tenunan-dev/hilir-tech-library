@@ -6,7 +6,7 @@
   "equipment": [
     "wh-christmas-tree-surface-and-subsea"
   ],
-  "description": "Vendor product line read 2026-11-24. fetched/search-verified",
+  "description": "Vendor product line read 2026-11-24. fetched/search-verified Primary source: https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
   "specifications": [
     {
       "metric": "Pressure",
@@ -16,7 +16,8 @@
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Flowing temperature",
@@ -26,7 +27,8 @@
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "HPHT tree - production pressure up to",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "HPHT tree - flowing temperature up to",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "HPHT tree - subsea HPHT field experience",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": "Over 20 years"
+      "value": "Over 20 years",
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Subsea tree systems - system sizes",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": "5-inch and 7-inch systems"
+      "value": "5-inch and 7-inch systems",
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Subsea tree systems - water depth up to",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Aptara framework - pressure",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": "10,000 psi (690 bar)"
+      "value": "10,000 psi (690 bar)",
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Aptara framework - temperature",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
       },
-      "value": "300 degF (149 degC)"
+      "value": "300 degF (149 degC)",
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     }
   ],
   "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",

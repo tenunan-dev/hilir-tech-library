@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Split well effluent into gas, oil and free water; absorb inlet momentum, provide liquid retention, demist gas and control each outlet. Commonly used as a free-water knockout (FWKO).",
+  "description": "Split well effluent into gas, oil and free water; absorb inlet momentum, provide liquid retention, demist gas and control each outlet. Commonly used as a free-water knockout (FWKO). Primary source: https://glossary.slb.com/en/terms/t/three-phase_separator",
   "specifications": [
     {
       "metric": "Separator orientation",
@@ -19,7 +19,8 @@
         "url": "https://glossary.slb.com/en/terms/t/three-phase_separator",
         "source_id": "glossary-slb-com-t-three-phase-separator"
       },
-      "value": "horizontal, vertical or spherical"
+      "value": "horizontal, vertical or spherical",
+      "source_url": "https://glossary.slb.com/en/terms/t/three-phase_separator"
     },
     {
       "metric": "Design code",
@@ -29,7 +30,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
         "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
       },
-      "value": "ASME Section VIII, Division 1"
+      "value": "ASME Section VIII, Division 1",
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Inlet device types",
@@ -39,7 +41,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
         "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
       },
-      "value": "Diverter plate, half pipe, vane, cyclonic"
+      "value": "Diverter plate, half pipe, vane, cyclonic",
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     }
   ],
   "vendors": [

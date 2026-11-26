@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Provides structural suspension and pressure seals for casing and tubing strings, annulus monitoring/pumping access, BOP attachment during drilling and Christmas tree attachment during production.",
+  "description": "Provides structural suspension and pressure seals for casing and tubing strings, annulus monitoring/pumping access, BOP attachment during drilling and Christmas tree attachment during production. Primary source: https://en.wikipedia.org/wiki/Wellhead",
   "specifications": [
     {
       "metric": "primary component list",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Wellhead",
         "source_id": "en-wikipedia-org-wiki-wellhead"
       },
-      "value": "casing head, casing spools, casing hangers, choke manifold, packoffs, test plugs, mudline suspension systems, tubing heads, tubing hangers, tubing head adapter"
+      "value": "casing head, casing spools, casing hangers, choke manifold, packoffs, test plugs, mudline suspension systems, tubing heads, tubing hangers, tubing head adapter",
+      "source_url": "https://en.wikipedia.org/wiki/Wellhead"
     },
     {
       "metric": "nominal pressure ratings (general wellheads)",
@@ -30,7 +31,8 @@
         "source_id": "en-wikipedia-org-wiki-wellhead"
       },
       "low": 2,
-      "high": 15
+      "high": 15,
+      "source_url": "https://en.wikipedia.org/wiki/Wellhead"
     },
     {
       "metric": "operating temperature range (general)",
@@ -41,7 +43,8 @@
         "source_id": "en-wikipedia-org-wiki-wellhead"
       },
       "low": -50,
-      "high": 250
+      "high": 250,
+      "source_url": "https://en.wikipedia.org/wiki/Wellhead"
     },
     {
       "metric": "material yield strength range",
@@ -52,7 +55,8 @@
         "source_id": "en-wikipedia-org-wiki-wellhead"
       },
       "low": 36000,
-      "high": 75000
+      "high": 75000,
+      "source_url": "https://en.wikipedia.org/wiki/Wellhead"
     },
     {
       "metric": "subsea wellhead primary barrier statement",
@@ -62,7 +66,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
         "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
       },
-      "value": "Wellheads are the primary pressure barrier for a subsea well; anchor and suspension point and seal element for casing strings"
+      "value": "Wellheads are the primary pressure barrier for a subsea well; anchor and suspension point and seal element for casing strings",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "welding/qualification standards cited by OneSubsea",
@@ -72,7 +77,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads",
         "source_id": "onesubsea-slb-com-subsea-production-systems-subsea-wellheads"
       },
-      "value": "API Spec 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 fatigue classes F3, D or C1"
+      "value": "API Spec 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 fatigue classes F3, D or C1",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     }
   ],
   "vendors": [

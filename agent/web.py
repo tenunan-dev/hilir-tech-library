@@ -1653,25 +1653,52 @@ def routes(tools) -> list:
         pieces.append(f' <input type="search" name="q" value="{esc(query)}" placeholder="product, spec" size="20">')
         pieces.append(' <button type="submit">Filter</button></form>')
         for item in items:
-            pieces.append(f'<h3>{esc(item["name"])} <span class="muted small">{esc(item["id"])}</span></h3>')
             rec = _neon_first(lambda rid=item["id"]: pg.product_row(rid),
                               lambda rid=item["id"]: next((r for r in product_records.load_products() if r["id"] == rid), None))
             if not rec:
                 pieces.append("<p class='muted small'>detail not available on this server</p>")
                 continue
-            rows = "".join(
-                f"<tr><td>{esc(s['metric'])}</td><td>"
-                + (f"{esc(s['value'])} {esc(s.get('unit') or '')}".strip() if "value" in s
-                   else f"{esc(s.get('low', ''))}-{esc(s.get('high', ''))} {esc(s.get('unit') or '')}".strip()
-                   if "low" in s or "high" in s else "—")
-                + f"</td><td class='small'>{esc(s.get('basis') or '')}</td></tr>"
-                for s in rec.get("specifications", []))
-            sources = "".join(f'<li><a href="{esc(s["url"])}" target="_blank" rel="noopener">{esc(s["url"])}</a></li>'
-                              for s in rec.get("sources", []))
-            pieces.append(f'<p>{esc(rec.get("description") or "")}</p>'
-                          '<div class="scroll"><table><thead><tr><th>Specification</th><th>Value</th><th>Basis</th>'
-                          f'</tr></thead><tbody>{rows}</tbody></table></div>'
-                          + _section("Sources", f"<ul class='small'>{sources}</ul>"))
+            # Every printed parameter with the exact OEM catalogue/datasheet page it came from.
+            rows = ""
+            for s in rec.get("specifications", []):
+                value = (f"{esc(s['value'])} {esc(s.get('unit') or '')}".strip() if "value" in s
+                         else f"{esc(s.get('low', ''))}-{esc(s.get('high', ''))} {esc(s.get('unit') or '')}".strip()
+                         if "low" in s or "high" in s else "—")
+                u = s.get("source_url") or s.get("source", {}).get("url", "")
+                link = (f'<a href="{esc(u)}" target="_blank" rel="noopener">original datasheet ↗</a>'
+                        if u.startswith("http") else "—")
+                rows += (f"<tr><td>{esc(s['metric'])}</td><td>{value}</td>"
+                         f"<td class='small'>{esc(s.get('basis') or '')}</td><td class='small'>{link}</td></tr>")
+            sources = ""
+            for s in rec.get("sources", []):
+                u = s.get("url", "")
+                sid = s.get("source_id")
+                link = (f'<a href="{esc(u)}" target="_blank" rel="noopener">{esc(u)}</a>' if u.startswith("http") else esc(u))
+                if sid:
+                    link += f' · <a href="/sources/{esc(sid)}">source record</a>'
+                sources += f"<li>{link}{esc(' — ' + s['note']) if s.get('note') else ''}</li>"
+            maker = rec.get("manufacturer", "")
+            head = (f'<h3>{esc(rec["name"])} <span class="muted small">{esc(rec["id"])}</span></h3>'
+                    f'<p class="small"><b>Category</b> {esc(rec.get("product_type") or "")} · '
+                    f'<b>Manufacturer</b> <a href="/vendors?type=&amp;q={urllib.parse.quote(maker, safe="")}">{esc(maker)}</a> · '
+                    f'<b>Primary catalogue</b> <a href="{esc(rec.get("url", ""))}" target="_blank" rel="noopener">{esc(rec.get("url", ""))}</a></p>')
+            body = (f'<p>{esc(rec.get("description") or "")}</p>'
+                    '<div class="scroll"><table><thead><tr><th>Parameter</th><th>Value</th><th>Printed basis</th>'
+                    '<th>Primary source</th></tr></thead>'
+                    f'<tbody>{rows or "<tr><td colspan=4>—</td></tr>"}</tbody></table></div>')
+            links = []
+            for eid in rec.get("equipment", []):
+                links.append(f'<a href="/equipment?type=&amp;q=&amp;id={urllib.parse.quote(eid, safe="")}">{esc(eid)}</a>')
+            if links:
+                body += _section("Equipment classes using it", "<p class='small'>" + "; ".join(links) + "</p>")
+            gaps = "".join(f"<li>{esc(g.get('what') or '')} — <i>{esc(g.get('next_action') or '')}</i></li>"
+                           for g in rec.get("gaps", []))
+            if gaps:
+                body += _section("Recorded gaps", f"<ul class='small'>{gaps}</ul>")
+            body += _section("Evidence and source records", f"<ul class='small'>{sources}</ul>")
+            body += "<p class='small'><a href='/products'>Back to Products index</a> · "
+            body += "<a href='/sources'>Source records</a></p>"
+            pieces.append(head + body)
         pieces.append("</section>")
         return _page("Products", "".join(pieces), active="/products")
 

@@ -6,7 +6,7 @@
   "equipment": [
     "geg-plant-control-system"
   ],
-  "description": "power-plant DCS with SCADA functionality",
+  "description": "power-plant DCS with SCADA functionality Primary source: https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
   "specifications": [
     {
       "metric": "installed base",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
         "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "cybersecurity certification",
@@ -27,7 +28,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
         "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "substation/third-party integration protocol",
@@ -37,7 +39,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
         "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     }
   ],
   "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",

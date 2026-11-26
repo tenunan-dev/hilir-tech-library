@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Constructed landmass or caisson-supported island providing a land-like drilling and production site in shallow water.",
+  "description": "Constructed landmass or caisson-supported island providing a land-like drilling and production site in shallow water. Primary source: https://en.wikipedia.org/wiki/Artificial_island",
   "specifications": [
     {
       "metric": "maximum feasible water depth",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Artificial_island",
         "source_id": "en-wikipedia-org-wiki-artificial-island"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://en.wikipedia.org/wiki/Artificial_island"
     },
     {
       "metric": "Ekofisk Tank sea-island form",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": "C G Doris platform shaped like a marine sea island, surrounded by perforated breakwater wall (Jarlan patent); 71 m North Sea, 1973"
+      "value": "C G Doris platform shaped like a marine sea island, surrounded by perforated breakwater wall (Jarlan patent); 71 m North Sea, 1973",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "legal status",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Artificial_island",
         "source_id": "en-wikipedia-org-wiki-artificial-island"
       },
-      "value": "Under UNCLOS not harbour works (Art 11); no own territorial sea/EEZ; only coastal state may authorise within 200 nm (Art 56, 60); on high seas any state may construct (Art 87)"
+      "value": "Under UNCLOS not harbour works (Art 11); no own territorial sea/EEZ; only coastal state may authorise within 200 nm (Art 56, 60); on high seas any state may construct (Art 87)",
+      "source_url": "https://en.wikipedia.org/wiki/Artificial_island"
     }
   ],
   "vendors": [

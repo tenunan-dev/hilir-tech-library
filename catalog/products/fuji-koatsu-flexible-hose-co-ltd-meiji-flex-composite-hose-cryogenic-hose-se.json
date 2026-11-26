@@ -6,7 +6,7 @@
   "equipment": [
     "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
   ],
-  "description": "APAC supplier. Page states pressure varies with fluid and temperature; consult manufacturer.",
+  "description": "APAC supplier. Page states pressure varies with fluid and temperature; consult manufacturer. Primary source: https://fujikoatsu.jp/en/pages/79",
   "specifications": [
     {
       "metric": "Series 0933 temperature range",
@@ -17,7 +17,8 @@
         "source_id": "cat-fujikoatsu-jp-79"
       },
       "low": -200,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0940 temperature range",
@@ -28,7 +29,8 @@
         "source_id": "cat-fujikoatsu-jp-79"
       },
       "low": -110,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0957 temperature range",
@@ -39,7 +41,8 @@
         "source_id": "cat-fujikoatsu-jp-79"
       },
       "low": -200,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Regular pressure",
@@ -50,7 +53,8 @@
         "source_id": "cat-fujikoatsu-jp-79"
       },
       "low": 1,
-      "high": 2.2
+      "high": 2.2,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0933 - specified temperature range",
@@ -60,7 +64,8 @@
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
       "low": -200,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0933 - main liquids",
@@ -69,7 +74,8 @@
       "source": {
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
-      "value": "LNG (-162 degC); Ethylene (-103 degC)"
+      "value": "LNG (-162 degC); Ethylene (-103 degC)",
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0940 - specified temperature range",
@@ -79,7 +85,8 @@
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
       "low": -110,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0940 - main liquids",
@@ -88,7 +95,8 @@
       "source": {
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
-      "value": "FUEL; VCM"
+      "value": "FUEL; VCM",
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0957 - specified temperature range",
@@ -98,7 +106,8 @@
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
       "low": -200,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Series 0957 - main liquids",
@@ -107,7 +116,8 @@
       "source": {
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
-      "value": "Dedicated to liquefied carbon dioxide"
+      "value": "Dedicated to liquefied carbon dioxide",
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Cryogenic hose - general temperature range",
@@ -117,7 +127,8 @@
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
       "low": -200,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     },
     {
       "metric": "Cryogenic hose - regular pressure",
@@ -127,7 +138,8 @@
         "url": "https://fujikoatsu.jp/en/pages/79"
       },
       "low": 1,
-      "high": 2.2
+      "high": 2.2,
+      "source_url": "https://fujikoatsu.jp/en/pages/79"
     }
   ],
   "url": "https://fujikoatsu.jp/en/pages/79",

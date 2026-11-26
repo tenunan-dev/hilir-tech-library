@@ -10,7 +10,7 @@ follow the registration queue.
 ### Administration building (reinforced concrete) (geg-administration-building-reinforced-concrete)
 
 Primary code: PWR: Power and renewables
-Administration building (reinforced concrete) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Administration building (reinforced concrete) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -28,7 +28,7 @@ Recorded gaps:
 ### Aeration systems (blowers and diffusers) (wwt-aeration-systems)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-The energy centre of biological treatment: blowers (turbo, screw, lobe) and fine-bubble diffuser grids or mechanical aerators deliver oxygen to activated-sludge and MBBR basins.
+The energy centre of biological treatment: blowers (turbo, screw, lobe) and fine-bubble diffuser grids or mechanical aerators deliver oxygen to activated-sludge and MBBR basins. Primary source: https://www.xylem.com/
 Vendors: Xylem (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -47,7 +47,7 @@ Recorded gaps:
 ### Air separation unit (ASU) (air-separation-unit)
 
 Primary code: GAS: Gas processing and LNG
-Cryogenic distillation plant that separates air into nitrogen, oxygen and argon. In ammonia plants the ASU supplies the nitrogen feed at high purity; in gasification, oxyfuel and CCS plants it supplies oxygen.
+Cryogenic distillation plant that separates air into nitrogen, oxygen and argon. In ammonia plants the ASU supplies the nitrogen feed at high purity; in gasification, oxyfuel and CCS plants it supplies oxygen. Primary source: https://en.wikipedia.org/wiki/Air_separation
 Vendors: Linde, Air Products (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -70,7 +70,7 @@ Recorded gaps:
 ### Ammonia condensation/refrigeration, flash vessels, let-down and storage tanks (ammonia-refrigeration-storage)
 
 Primary code: PCH: Petrochemicals
-Ammonia condensation/refrigeration, flash vessels, let-down and storage tanks | Refrigeration / cold condensation for ammonia synthesis loop | Tank farms / ammonia storage
+Ammonia condensation/refrigeration, flash vessels, let-down and storage tanks | Refrigeration / cold condensation for ammonia synthesis loop | Tank farms / ammonia storage Primary source: https://en.wikipedia.org/wiki/Ammonia
 Vendors: SPG Steiner GmbH (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -107,7 +107,7 @@ Recorded gaps:
 ### Ammonia feed pumps (urea-ammonia-feed-pumps)
 
 Primary code: PCH: Petrochemicals
-Ammonia feed pumps
+Ammonia feed pumps Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -123,7 +123,7 @@ Recorded gaps:
 ### Ammonia plant control system, analysers and safety systems (ammonia-control-safety-systems)
 
 Primary code: PCH: Petrochemicals
-Ammonia plant control system, analysers and safety systems | Instrumentation and control rooms
+Ammonia plant control system, analysers and safety systems | Instrumentation and control rooms Primary source: https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde
 Vendors: Topsoe, Casale, thyssenkrupp Industrial Solutions (Uhde), Howden (a Chart Industries company; KK&K, CKD brands), Yokogawa Electric, Aramis Group (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -145,7 +145,7 @@ Recorded gaps:
 ### Ammonia synthesis converter (ammonia-synthesis-converter)
 
 Primary code: H2: Hydrogen and low-carbon fuels
-Catalytic reactor in the Haber-Bosch loop where hydrogen and nitrogen combine over an iron catalyst to form ammonia. Conversion per pass is limited by equilibrium, so the loop circulates unreacted gas, condenses ammonia by refrigeration and returns the remainder to the converter.
+Catalytic reactor in the Haber-Bosch loop where hydrogen and nitrogen combine over an iron catalyst to form ammonia. Conversion per pass is limited by equilibrium, so the loop circulates unreacted gas, condenses ammonia by refrigeration and returns the remainder to the converter. Primary source: https://en.wikipedia.org/wiki/Ammonia_production
 Vendors: Topsoe, thyssenkrupp Uhde, KBR, Casale, thyssenkrupp Industrial Solutions (Uhde), Howden (a Chart Industries company; KK&K, CKD brands) (4 model lines recorded).
 
 | Specification | Value | Basis |
@@ -300,7 +300,7 @@ Recorded gaps:
 ### Anaerobic digesters (sludge and organics) (wwt-anaerobic-digesters)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-Complete-mix mesophilic/thermophilic digesters with heating, gas mixing and biogas handling; optionally preceded by thermal hydrolysis.
+Complete-mix mesophilic/thermophilic digesters with heating, gas mixing and biogas handling; optionally preceded by thermal hydrolysis. Primary source: https://www.veoliawatertech.com/
 Vendors: Veolia, Cambi AS, Xergi A/S (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -319,7 +319,7 @@ Recorded gaps:
 ### Data-centre power architecture and tier/redundancy (data-centre-power-architecture)
 
 Primary code: IDC: Data centres
-Data-centre power architecture and tier/redundancy (N, N+1, 2N, distributed redundancy) | Standards and guidance for data-centre standby/prime generation | Data-centre power integration (gas-engine off-grid / BTM microgrid)
+Data-centre power architecture and tier/redundancy (N, N+1, 2N, distributed redundancy) | Standards and guidance for data-centre standby/prime generation | Data-centre power integration (gas-engine off-grid / BTM microgrid) Primary source: https://uptimeinstitute.com/tiers
 Vendors: Schneider Electric, Vertiv, Eaton, Caterpillar, Schneider Electric, INNIO Jenbacher (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -350,7 +350,7 @@ Recorded gaps:
 ### Bagging machines and big-bag (bulk-bagging-fibc-filling)
 
 Primary code: PCH: Petrochemicals
-Bagging machines and big-bag (FIBC) filling
+Bagging machines and big-bag (FIBC) filling Primary source: https://www.iea.org/reports/ammonia-technology-roadmap
 Vendors: Bühler (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -368,7 +368,7 @@ Recorded gaps:
 ### Belt conveyors (bulk-belt-conveyors)
 
 Primary code: PCH: Petrochemicals
-Belt conveyors (incl. chevron/cleated and elevator belts)
+Belt conveyors (incl. chevron/cleated and elevator belts) Primary source: https://en.wikipedia.org/wiki/Conveyor_belt
 Vendors: Sandvik, Intralox, AUMUND France / Larsen & Toubro / ABB (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -396,7 +396,7 @@ Recorded gaps:
 ### Biogas upgrading units (wwt-biogas-upgraders)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-Water-wash, amine, membrane and PSA units upgrading raw biogas to 95-99% methane grid/vehicle spec.
+Water-wash, amine, membrane and PSA units upgrading raw biogas to 95-99% methane grid/vehicle spec. Primary source: https://www.dmt.nl/
 Vendors: DMT Environmental Technology, Pentair (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -415,7 +415,7 @@ Recorded gaps:
 ### Black start diesel generator (geg-black-start-diesel-generator)
 
 Primary code: PWR: Power and renewables
-Black start diesel generator for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Black start diesel generator for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf
 Vendors: Cummins, H&C Diesel Generator Manufacture (H&C Import & Export Co., Ltd), Rolls-Royce Power Systems (mtu), Leroy-Somer (alternator), ComAp (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -510,7 +510,7 @@ Recorded gaps:
 ### Circulating fluidized-bed boiler (CFB) (boiler-circulating-fluidized-bed)
 
 Primary code: PWR: Power and renewables
-Solid-fuel boiler that burns particles in a circulating fluidized bed, recirculating the bed material through a cyclone so even difficult fuels — high-sulfur, high-ash, waste, biomass and refinery solids — burn cleanly at low furnace temperature with limestone capturing SOx in the furnace. Fluidized-bed steam generation for power and industrial steam where fuel flexibility and in-furnace desulfurization matter.
+Solid-fuel boiler that burns particles in a circulating fluidized bed, recirculating the bed material through a cyclone so even difficult fuels — high-sulfur, high-ash, waste, biomass and refinery solids — burn cleanly at low furnace temperature with limestone capturing SOx in the furnace. Fluidized-bed steam generation for power and industrial steam where fuel flexibility and in-furnace desulfurization matter. Primary source: https://www.powerinfotoday.com
 Vendors: Sumitomo SHI FW, Babcock & Wilcox (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -528,7 +528,7 @@ Vendors: Sumitomo SHI FW, Babcock & Wilcox (2 model lines recorded).
 ### Electric and electrode steam boiler (boiler-electric-electrode)
 
 Primary code: PWR: Power and renewables
-Steam generator heated directly by electricity — resistance elements in a pressure vessel, or current conducted through the boiler water by electrodes at high voltage. No combustion, no flue gas and no fuel system, so it avoids the chimney, fuel infrastructure and air-permit scope entirely, and pairs with cheap or surplus site power; the electrification option for on-site steam.
+Steam generator heated directly by electricity — resistance elements in a pressure vessel, or current conducted through the boiler water by electrodes at high voltage. No combustion, no flue gas and no fuel system, so it avoids the chimney, fuel infrastructure and air-permit scope entirely, and pairs with cheap or surplus site power; the electrification option for on-site steam. Primary source: https://www.bosch-industrial.com/global/en/ocs/commercial-industrial/electric-steam-boiler-elsb-19175285-p
 Vendors: Bosch Industriekessel, Cleaver-Brooks (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -549,7 +549,7 @@ Recorded gaps:
 ### Gas-fired and gas-conversion circulating fluidized bed boiler (boiler-gas-cfb)
 
 Primary code: PWR: Power and renewables
-Circulating fluidized bed boiler in which fine solids are suspended in a high-velocity gas stream and circulated through a cyclone or U-beam collector back to the furnace. Commercial CFB lines from the OEMs read are dominated by solid and multi-fuel designs; natural-gas firing is evidenced as a solid-fuel-to-gas conversion offering and as gas firing in a circulating-bed alumina calciner, not as a dedicated gas-fired boiler product.
+Circulating fluidized bed boiler in which fine solids are suspended in a high-velocity gas stream and circulated through a cyclone or U-beam collector back to the furnace. Commercial CFB lines from the OEMs read are dominated by solid and multi-fuel designs; natural-gas firing is evidenced as a solid-fuel-to-gas conversion offering and as gas firing in a circulating-bed alumina calciner, not as a dedicated gas-fired boiler product. Primary source: https://www.babcock.com/home/products-services/steam-generators/circulating-fluidized-bed-boilers
 Vendors: Babcock & Wilcox, Valmet, ANDRITZ, Zeeco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -586,7 +586,7 @@ Recorded gaps:
 ### Gas-fired condensing hot-water boiler (boiler-gas-condensing-hot-water)
 
 Primary code: PWR: Power and renewables
-Packaged hydronic boiler that cools flue gas below its dew point to recover the latent heat of water vapour, using corrosion-resistant duplex or stainless heat-transfer surfaces. Available as one-pass firetube designs with premix or dual-fuel burners, with high turndown and integrated controls for commercial and institutional heating.
+Packaged hydronic boiler that cools flue gas below its dew point to recover the latent heat of water vapour, using corrosion-resistant duplex or stainless heat-transfer surfaces. Available as one-pass firetube designs with premix or dual-fuel burners, with high turndown and integrated controls for commercial and institutional heating. Primary source: https://www.energy.gov/cmei/femp/purchasing-energy-efficient-boilers
 Vendors: Cleaver-Brooks, Fulton (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -642,7 +642,7 @@ Recorded gaps:
 ### Gas-fired industrial water-tube package boiler (boiler-gas-water-tube-package)
 
 Primary code: PWR: Power and renewables
-Shop-assembled water-tube boiler with water inside the tubes and combustion gas outside, served by a steam drum and mud drum with downcomers and risers and a finned membrane furnace wall. Natural circulation and the separation of steam and water from the heated circuit allow much higher pressures and outputs than a shell boiler, and the design can fire natural gas, refinery gas or dual fuel.
+Shop-assembled water-tube boiler with water inside the tubes and combustion gas outside, served by a steam drum and mud drum with downcomers and risers and a finned membrane furnace wall. Natural circulation and the separation of steam and water from the heated circuit allow much higher pressures and outputs than a shell boiler, and the design can fire natural gas, refinery gas or dual fuel. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB
 Vendors: Babcock & Wilcox, Cleaver-Brooks, Miura Boiler (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -709,7 +709,7 @@ Recorded gaps:
 ### Gas-fired packaged fire-tube (shell) steam boiler (boiler-gas-fire-tube-package)
 
 Primary code: PWR: Power and renewables
-Shop-assembled shell boiler with the burner firing into a large furnace tube and hot gas making two to four passes through tubes surrounded by boiler water; the standard packaged steam source for small and medium gas-fired industrial loads. Wet-back reversal chambers give more heating surface than refractory-lined dry-back designs.
+Shop-assembled shell boiler with the burner firing into a large furnace tube and hot gas making two to four passes through tubes surrounded by boiler water; the standard packaged steam source for small and medium gas-fired industrial loads. Wet-back reversal chambers give more heating surface than refractory-lined dry-back designs. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB
 Vendors: Cleaver-Brooks, Fulton, Miura Boiler (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -765,7 +765,7 @@ Recorded gaps:
 ### Heat recovery steam generator (HRSG) (boiler-hrsg)
 
 Primary code: PWR: Power and renewables
-Boiler fired by hot combustion-turbine or furnace exhaust gas rather than by burners, raised in horizontal or vertical panels behind a gas turbine with one or more drum pressures and optionally reheat. Converts a gas turbine into a combined-cycle or cogeneration plant and is the deciding component for how much of the turbine exhaust energy becomes steam.
+Boiler fired by hot combustion-turbine or furnace exhaust gas rather than by burners, raised in horizontal or vertical panels behind a gas turbine with one or more drum pressures and optionally reheat. Converts a gas turbine into a combined-cycle or cogeneration plant and is the deciding component for how much of the turbine exhaust energy becomes steam. Primary source: https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf
 Vendors: Babcock & Wilcox, Cleaver-Brooks, Doosan Enerbility, IHI Corporation, Sumitomo SHI FW, GE Vernova, John Zink (Koch Engineered Solutions), Tetra Engineering Group, Entech Products Corp (6 model lines recorded).
 
 | Specification | Value | Basis |
@@ -825,7 +825,7 @@ Recorded gaps:
 ### Industrial water-tube package boiler (boiler-industrial-watertube-package)
 
 Primary code: PWR: Power and renewables
-Shop-assembled watertube boiler (steam and lower drum above a water-cooled membrane furnace) custom-engineered per project, with D-type and O-type two-drum layouts. The standard steam generator above the fire-tube class for refineries, petrochemical plants and industrial power, firing liquid or gaseous fuels including refinery byproduct gases.
+Shop-assembled watertube boiler (steam and lower drum above a water-cooled membrane furnace) custom-engineered per project, with D-type and O-type two-drum layouts. The standard steam generator above the fire-tube class for refineries, petrochemical plants and industrial power, firing liquid or gaseous fuels including refinery byproduct gases. Primary source: https://www.babcock.com/home/products/package-boilers
 Vendors: Babcock & Wilcox, John Zink (Koch Engineered Solutions) (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -848,7 +848,7 @@ Recorded gaps:
 ### Packaged fire-tube steam boiler (boiler-fire-tube-package)
 
 Primary code: PWR: Power and renewables
-Shop-assembled shell boiler in which hot combustion gases pass through tubes surrounded by the water, typically in two to four passes with a reverse-flue turnaround. The standard packaged steam source for small and medium industrial loads and the workhorse of on-site utilities where steam demand runs from tens of thousands of pounds per hour downward.
+Shop-assembled shell boiler in which hot combustion gases pass through tubes surrounded by the water, typically in two to four passes with a reverse-flue turnaround. The standard packaged steam source for small and medium industrial loads and the workhorse of on-site utilities where steam demand runs from tens of thousands of pounds per hour downward. Primary source: https://steineratlantic.com/product/cleaver-brooks-cble-firetube-boiler
 Vendors: Cleaver-Brooks, Miura Boiler (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -875,7 +875,7 @@ Recorded gaps:
 ### Boilers and steam system (utility-steam-system)
 
 Primary code: PCH: Petrochemicals
-Boilers and steam system (HP/MP/LP, waste-heat and package boilers)
+Boilers and steam system (HP/MP/LP, waste-heat and package boilers) Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -892,7 +892,7 @@ Vendors: Topsoe (0 model lines recorded).
 ### Black start generator building (geg-black-start-generator-building)
 
 Primary code: PWR: Power and renewables
-Black start generator building for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Black start generator building for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -910,7 +910,7 @@ Recorded gaps:
 ### Bucket elevators (bulk-bucket-elevators)
 
 Primary code: PCH: Petrochemicals
-Bucket elevators
+Bucket elevators Primary source: https://en.wikipedia.org/wiki/Bucket_elevator
 Vendors: Bühler (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -930,7 +930,7 @@ Recorded gaps:
 ### HRSG duct burner (supplementary gas firing) (duct-burner-hrsg)
 
 Primary code: PWR: Power and renewables
-Burner installed in the gas-turbine exhaust duct to burn additional natural gas in the remaining oxygen and raise steam output. Two main forms are standard round gas burners and linear grid burners spanning the duct. Installed in the transition duct before the lead tube bank or between superheater stages, with flame holders, pilots, igniters and flame scanners.
+Burner installed in the gas-turbine exhaust duct to burn additional natural gas in the remaining oxygen and raise steam output. Two main forms are standard round gas burners and linear grid burners spanning the duct. Installed in the transition duct before the lead tube bank or between superheater stages, with flame holders, pilots, igniters and flame scanners. Primary source: https://cleaverbrooks.com/product/duct-burner
 Vendors: John Zink (Koch Engineered Solutions), Cleaver-Brooks, Entech Products Corp (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -975,7 +975,7 @@ Recorded gaps:
 ### Low-NOx gas burner (package and ultra-low-NOx) (burner-gas-low-nox)
 
 Primary code: PWR: Power and renewables
-Burner that stages fuel and air, delays mixing or recirculates flue gas to lower flame temperature and NOx formation. Package gas burners span roughly 10-500 MMBtu/hr with 10:1 turndown; ultra-low-NOx versions reach single-digit ppm NOx with flue-gas recirculation or surface-stabilised premixed combustion. Used on fire-tube, water-tube and hot-water boilers and on refinery fired heaters.
+Burner that stages fuel and air, delays mixing or recirculates flue gas to lower flame temperature and NOx formation. Package gas burners span roughly 10-500 MMBtu/hr with 10:1 turndown; ultra-low-NOx versions reach single-digit ppm NOx with flue-gas recirculation or surface-stabilised premixed combustion. Used on fire-tube, water-tube and hot-water boilers and on refinery fired heaters. Primary source: https://cleaverbrooks.com/product/sbr30-burner
 Vendors: Cleaver-Brooks, Zeeco, John Zink (Koch Engineered Solutions), ALZETA, Miura Boiler (4 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1030,7 +1030,7 @@ Recorded gaps:
 ### Bus duct (geg-bus-duct)
 
 Primary code: PWR: Power and renewables
-Bus duct for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Bus duct for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf
 Vendors: Supplier not identified in sources read (WBS line item), nVent, Busway Electric India Pvt Ltd, Daqo Group (QLFM isolated phase bus duct) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1069,7 +1069,7 @@ Recorded gaps:
 ### 132 kV busbar potential transformer (geg-132-kv-busbar-potential-transformer)
 
 Primary code: PWR: Power and renewables
-132 kV busbar potential transformer for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+132 kV busbar potential transformer for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1097,7 +1097,7 @@ Recorded gaps:
 ### 33 kV busbar potential transformer (geg-33-kv-busbar-potential-transformer)
 
 Primary code: PWR: Power and renewables
-33 kV busbar potential transformer for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+33 kV busbar potential transformer for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1126,7 +1126,7 @@ Recorded gaps:
 ### Data centre busway (overhead busbar power distribution) (busway-data-centre)
 
 Primary code: IDC: Data centres
-Overhead extruded-aluminium busbar runs that carry power across a data hall and let plug-in tap-off units be added or moved at any point without shutting the run down — the reason busway has displaced cable trays for in-hall distribution. Starline's ranges illustrate the class: Track Busway 40-1250 A, Series-S 100-1200 A (IP54) and high-power enclosed busway 630-6000 A (to IP65), with plug-in units carrying integrated circuit protection and a metering family for branch-level monitoring.
+Overhead extruded-aluminium busbar runs that carry power across a data hall and let plug-in tap-off units be added or moved at any point without shutting the run down — the reason busway has displaced cable trays for in-hall distribution. Starline's ranges illustrate the class: Track Busway 40-1250 A, Series-S 100-1200 A (IP54) and high-power enclosed busway 630-6000 A (to IP65), with plug-in units carrying integrated circuit protection and a metering family for branch-level monitoring. Primary source: https://www.starlinepower.com/products/busway
 Vendors: Vertiv, Schneider Electric, Eaton, Anord Mardix (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1147,7 +1147,7 @@ Recorded gaps:
 ### HV and LV cables with cable trays and accessories (geg-hv-and-lv-cables-with-cable-trays-and-accessories)
 
 Primary code: PWR: Power and renewables
-HV and LV cables with cable trays and accessories for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+HV and LV cables with cable trays and accessories for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://mx.prysmian.com/sites/mx.prysmian.com/files/media/documents/E230FK90800MIDNE%20132%20kV%20XLP%20800%20mm2%20Cu%20LS0H-SC%20IEC%2060840.pdf
 Vendors: Supplier not identified in sources read (WBS line item), Southern Cable Group Berhad / Southern Cable Sdn Bhd, Master Tec Group Berhad / Sediacom Sdn Bhd (275 kV cable EPCC subcontract), Jati Tinggi Group Bhd (275 kV cable subcontract), National Energy Berhad (cable tray tender issuer) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1213,7 +1213,7 @@ Recorded gaps:
 ### Urea carbamate condenser (urea-carbamate-condenser)
 
 Primary code: PCH: Petrochemicals
-High-pressure exchanger where ammonia and carbon dioxide from the stripper recombine into carbamate, releasing heat that is recovered as steam. Pool-condenser designs carry the reaction further in the condenser itself, which reduces the duty left for the reactor and the recycle section.
+High-pressure exchanger where ammonia and carbon dioxide from the stripper recombine into carbamate, releasing heat that is recovered as steam. Pool-condenser designs carry the reaction further in the condenser itself, which reduces the duty left for the reactor and the recycle section. Primary source: https://www.saipem.com/sites/default/files/2019-03/spm_UREAri_L02_14_01_10.pdf
 Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale, Saipem (ex-Micoperi 7000), Casale SA, Alleima (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1240,7 +1240,7 @@ Recorded gaps:
 ### CCTV system (geg-cctv-system)
 
 Primary code: PWR: Power and renewables
-CCTV system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
+CCTV system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.axis.com/dam/public/11/1b/76/datasheet-f101-a-xf-p1367-explosion-protected-network-camera-en-US-353757.pdf
 Vendors: Axis Communications AB, Siemens, Yokogawa (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1290,7 +1290,7 @@ Recorded gaps:
 ### Compressor drivers, sealing and auxiliary systems (cf-compressor-drivers-sealing-and-auxiliary-systems)
 
 Primary code: PWR: Power and renewables
-Provide shaft power, prevent process-gas leakage to atmosphere, and support lube/seal-oil and capacity control. On offshore platforms electric motors or gas turbines are most common; steam turbines are offered as integrated drivers on some turbo compressors.
+Provide shaft power, prevent process-gas leakage to atmosphere, and support lube/seal-oil and capacity control. On offshore platforms electric motors or gas turbines are most common; steam turbines are offered as integrated drivers on some turbo compressors. Primary source: https://www.howden.com/en-gb/products/compressors
 Vendors: CPI by Howden, Howden Turbo UK (Peter Brotherhood) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1308,7 +1308,7 @@ Recorded gaps:
 ### Diesel engine generator sets (cf-diesel-engine-generator-sets-offshore-and-onshore-4cb391)
 
 Primary code: PWR: Power and renewables
-Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems.
+Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems. Primary source: https://www.cummins.com/en-apac/generators/diesel
 Vendors: Cummins Inc., Rolls-Royce Power Systems (mtu), Caterpillar, INNIO / Wartsila (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1330,7 +1330,7 @@ Recorded gaps:
 ### Diesel engine generator sets (cf-diesel-engine-generator-sets-offshore-and-onshore)
 
 Primary code: PWR: Power and renewables
-Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems.
+Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems. Primary source: https://www.cummins.com/en-apac/generators/diesel
 Vendors: Cummins Inc., Rolls-Royce Power Systems (mtu), Caterpillar, INNIO / Wartsila (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1390,7 +1390,7 @@ Recorded gaps:
 ### Flare gas recovery (cf-flare-gas-recovery-fgr-and-enclosed-ground-flare-packages-047094)
 
 Primary code: PWR: Power and renewables
-Captures gas that would otherwise be flared, using a liquid seal vessel for backpressure control and flashback prevention, plus compression (ejector or compressor) and optional H2S sweetening. Reduces emissions, light, noise and odour and extends flare tip life.
+Captures gas that would otherwise be flared, using a liquid seal vessel for backpressure control and flashback prevention, plus compression (ejector or compressor) and optional H2S sweetening. Reduces emissions, light, noise and odour and extends flare tip life. Primary source: https://www.johnzink.com/products/flare-gas-recovery
 Vendors: John Zink (Koch Engineered Solutions) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1407,7 +1407,7 @@ Recorded gaps:
 ### Flare gas recovery (cf-flare-gas-recovery-fgr-and-enclosed-ground-flare-packages)
 
 Primary code: PWR: Power and renewables
-Captures gas that would otherwise be flared, using a liquid seal vessel for backpressure control and flashback prevention, plus compression (ejector or compressor) and optional H2S sweetening. Reduces emissions, light, noise and odour and extends flare tip life.
+Captures gas that would otherwise be flared, using a liquid seal vessel for backpressure control and flashback prevention, plus compression (ejector or compressor) and optional H2S sweetening. Reduces emissions, light, noise and odour and extends flare tip life. Primary source: https://www.johnzink.com/products/flare-gas-recovery
 Vendors: John Zink (Koch Engineered Solutions) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1424,7 +1424,7 @@ Recorded gaps:
 ### Flare stack / boom system with knockout drum, seal drum, flare tips, pilots and ignition (cf-flare-stack-boom-system-with-knockout-drum-seal-drum-flare-tip)
 
 Primary code: PWR: Power and renewables
-Safely disposes of relieved and waste gas from PSVs and shutdowns. Header routes gas to a KO (vapour-liquid separator) drum, then a water/liquid seal drum preventing flashback, then an elevated stack or ground flare with pilots and continuous ignition. Stack height or boom reach is set by permissible thermal radiation.
+Safely disposes of relieved and waste gas from PSVs and shutdowns. Header routes gas to a KO (vapour-liquid separator) drum, then a water/liquid seal drum preventing flashback, then an elevated stack or ground flare with pilots and continuous ignition. Stack height or boom reach is set by permissible thermal radiation. Primary source: https://en.wikipedia.org/wiki/Gas_flare
 Vendors: John Zink (Koch Engineered Solutions), FlareTech, Zeto (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1477,7 +1477,7 @@ Recorded gaps:
 ### Floating / offshore solar PV (cf-floating-offshore-solar-pv-fpv-and-hybridisation-9b286c)
 
 Primary code: PWR: Power and renewables
-PV mounted on buoyant structures over water; relevant to offshore/nearshore facilities where land is unavailable. Water cooling can improve yield; salt-water installations need corrosion resistance, wave/wind design and robust anchoring.
+PV mounted on buoyant structures over water; relevant to offshore/nearshore facilities where land is unavailable. Water cooling can improve yield; salt-water installations need corrosion resistance, wave/wind design and robust anchoring. Primary source: https://www.sungrowpower.com/en/floating-pv-system
 Vendors: Sungrow, Oceans of Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1498,7 +1498,7 @@ Recorded gaps:
 ### Floating / offshore solar PV (cf-floating-offshore-solar-pv-fpv-and-hybridisation)
 
 Primary code: PWR: Power and renewables
-PV mounted on buoyant structures over water; relevant to offshore/nearshore facilities where land is unavailable. Water cooling can improve yield; salt-water installations need corrosion resistance, wave/wind design and robust anchoring.
+PV mounted on buoyant structures over water; relevant to offshore/nearshore facilities where land is unavailable. Water cooling can improve yield; salt-water installations need corrosion resistance, wave/wind design and robust anchoring. Primary source: https://www.sungrowpower.com/en/floating-pv-system
 Vendors: Sungrow, Oceans of Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1519,7 +1519,7 @@ Recorded gaps:
 ### Gas export / reinforcement centrifugal compressor train (cf-gas-export-reinforcement-centrifugal-compressor-train-integral-a5a9f5)
 
 Primary code: PWR: Power and renewables
-Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries.
+Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries. Primary source: https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors
 Vendors: Howden (a Chart Industries company; KK&K, CKD brands), Siemens Energy (incl. ex-Dresser-Rand), GE Vernova / Baker Hughes (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1632,7 +1632,7 @@ Recorded gaps:
 ### Gas export / reinforcement centrifugal compressor train (cf-gas-export-reinforcement-centrifugal-compressor-train-integral)
 
 Primary code: PWR: Power and renewables
-Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries.
+Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries. Primary source: https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors
 Vendors: Howden (a Chart Industries company; KK&K, CKD brands), Siemens Energy (incl. ex-Dresser-Rand), GE Vernova / Baker Hughes (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1652,7 +1652,7 @@ Recorded gaps:
 ### High-pressure / hermetic injection compressors (cf-high-pressure-hermetic-injection-compressors-diaphragm-hybrid-ce91d6)
 
 Primary code: PWR: Power and renewables
-Handles high-pressure, toxic, flammable or high-purity gases where hermetic separation or zero leakage is required; applicable to CO2 injection and hydrogen compression packages as well as specialty gas service.
+Handles high-pressure, toxic, flammable or high-purity gases where hermetic separation or zero leakage is required; applicable to CO2 injection and hydrogen compression packages as well as specialty gas service. Primary source: https://www.arielcorp.com/compressors/kbh.html
 Vendors: Ariel Corporation (with Hoerbiger), Howden / Burton Corblin (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1671,7 +1671,7 @@ Recorded gaps:
 ### High-pressure / hermetic injection compressors (cf-high-pressure-hermetic-injection-compressors-diaphragm-hybrid)
 
 Primary code: PWR: Power and renewables
-Handles high-pressure, toxic, flammable or high-purity gases where hermetic separation or zero leakage is required; applicable to CO2 injection and hydrogen compression packages as well as specialty gas service.
+Handles high-pressure, toxic, flammable or high-purity gases where hermetic separation or zero leakage is required; applicable to CO2 injection and hydrogen compression packages as well as specialty gas service. Primary source: https://www.arielcorp.com/compressors/kbh.html
 Vendors: Ariel Corporation (with Hoerbiger), Howden / Burton Corblin (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1690,7 +1690,7 @@ Recorded gaps:
 ### Process, gas-transmission and power piping codes and pipe classes (cf-process-gas-transmission-and-power-piping-codes-and-pipe-class)
 
 Primary code: PWR: Power and renewables
-Defines materials, design, fabrication, assembly, erection, examination, inspection and testing for piping. B31.3 governs plant process piping, B31.8 gas transmission/distribution including offshore gathering appurtenances, and B31.1 power/boiler-external piping.
+Defines materials, design, fabrication, assembly, erection, examination, inspection and testing for piping. B31.3 governs plant process piping, B31.8 gas transmission/distribution including offshore gathering appurtenances, and B31.1 power/boiler-external piping. Primary source: https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping
 Vendors: ASME, API (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1727,7 +1727,7 @@ Recorded gaps:
 ### Reciprocating gas compressor frames (cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio-e3043e)
 
 Primary code: PWR: Power and renewables
-Positive-displacement compression where high pressure ratio, turndown or intermittent duty is required. Ariel frames are separable, engine- or motor-driven, with high-pressure cylinders for gas lift, gas reinjection and CNG; large frames are recommended for pipeline transmission and high-pressure injection.
+Positive-displacement compression where high pressure ratio, turndown or intermittent duty is required. Ariel frames are separable, engine- or motor-driven, with high-pressure cylinders for gas lift, gas reinjection and CNG; large frames are recommended for pipeline transmission and high-pressure injection. Primary source: https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html
 Vendors: Ariel Corporation (with Hoerbiger), Howden / Peter Brotherhood (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1746,7 +1746,7 @@ Recorded gaps:
 ### Reciprocating gas compressor frames (cf-reciprocating-gas-compressor-frames-export-gas-lift-reinjectio)
 
 Primary code: PWR: Power and renewables
-Positive-displacement compression where high pressure ratio, turndown or intermittent duty is required. Ariel frames are separable, engine- or motor-driven, with high-pressure cylinders for gas lift, gas reinjection and CNG; large frames are recommended for pipeline transmission and high-pressure injection.
+Positive-displacement compression where high pressure ratio, turndown or intermittent duty is required. Ariel frames are separable, engine- or motor-driven, with high-pressure cylinders for gas lift, gas reinjection and CNG; large frames are recommended for pipeline transmission and high-pressure injection. Primary source: https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html
 Vendors: Ariel Corporation (with Hoerbiger), Howden / Peter Brotherhood (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1765,7 +1765,7 @@ Recorded gaps:
 ### Solar PV modules and inverters (cf-solar-pv-modules-and-inverters-onshore-gas-plant-and-remote-hy-fa78bf)
 
 Primary code: PWR: Power and renewables
-Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware.
+Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware. Primary source: https://www.longi.com/en/products/modules/hi-mo-9/
 Vendors: LONGi, Sungrow, SolarEdge, Trina Solar (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1786,7 +1786,7 @@ Recorded gaps:
 ### Solar PV modules and inverters (cf-solar-pv-modules-and-inverters-onshore-gas-plant-and-remote-hy)
 
 Primary code: PWR: Power and renewables
-Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware.
+Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware. Primary source: https://www.longi.com/en/products/modules/hi-mo-9/
 Vendors: LONGi, Sungrow, SolarEdge, Trina Solar (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1841,7 +1841,7 @@ Recorded gaps:
 ### Boiler water chemical dosing (boiler-chemical-dosing)
 
 Primary code: PWR: Power and renewables
-After mechanical deaeration, chemically remove residual dissolved oxygen, maintain alkaline pH for magnetite passivation, neutralise CO2 acidity in condensate with volatile amines, condition residual hardness into removable sludge with phosphate/polymer/chelant, and inhibit foaming and caustic attack.
+After mechanical deaeration, chemically remove residual dissolved oxygen, maintain alkaline pH for magnetite passivation, neutralise CO2 acidity in condensate with volatile amines, condition residual hardness into removable sludge with phosphate/polymer/chelant, and inhibit foaming and caustic attack. Primary source: https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control
 Vendors: Veolia Water Technologies & Solutions, Wilhelmsen, LANXESS (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1884,7 +1884,7 @@ Recorded gaps:
 ### SCR reagent systems (ammonia/urea storage, dosing, injection grids; ammonium sulfate/bisulfate in HRSGs) (scr-reagent-system)
 
 Primary code: PWR: Power and renewables
-Store and deliver aqueous ammonia (or anhydrous ammonia / urea) to an ammonia injection grid (AIG) upstream of the SCR catalyst; tuning of AIG distribution controls NOx removal, ammonia slip and downstream ammonium bisulfate (ABS) / ammonium sulfate (AS) deposition on air-preheater or HRSG tube surfaces. Flow-correction devices (turning vanes, static mixers, graduated straightening grids) and CFD are used to obtain uniform NH3/NOx distribution.
+Store and deliver aqueous ammonia (or anhydrous ammonia / urea) to an ammonia injection grid (AIG) upstream of the SCR catalyst; tuning of AIG distribution controls NOx removal, ammonia slip and downstream ammonium bisulfate (ABS) / ammonium sulfate (AS) deposition on air-preheater or HRSG tube surfaces. Flow-correction devices (turning vanes, static mixers, graduated straightening grids) and CFD are used to obtain uniform NH3/NOx distribution. Primary source: https://www.ccj-online.com/aig-upgrades-slash-ammonia-consumption-tube-fouling
 Vendors: Concord Environmental, Fuel Tech, John Zink (Koch Engineered Solutions), Cleaver-Brooks, Zeeco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1922,7 +1922,7 @@ Recorded gaps:
 ### Chemical and urea storage building (geg-chemical-and-urea-storage-building)
 
 Primary code: PWR: Power and renewables
-Chemical and urea storage building for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Chemical and urea storage building for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1940,7 +1940,7 @@ Recorded gaps:
 ### Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres (gas-engine-waste-heat-chiller)
 
 Primary code: PWR: Power and renewables
-Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres
+Waste-heat recovery from gas engines: absorption chillers, heat exchangers, hot water; CHP for data centres Primary source: https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater
 Vendors: Thermax, Johnson Controls (YORK, Silent-Aire), Carrier (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1981,7 +1981,7 @@ Recorded gaps:
 ### Analysers (ci-analysers-gas-and-liquid-35ae64)
 
 Primary code: UPS: Upstream
-Online composition and quality measurement for process and emissions monitoring.
+Online composition and quality measurement for process and emissions monitoring. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/
 Vendors: Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -1992,7 +1992,7 @@ Vendors: Yokogawa Electric (0 model lines recorded).
 ### Analysers (ci-analysers-gas-and-liquid)
 
 Primary code: UPS: Upstream
-Online composition and quality measurement for process and emissions monitoring.
+Online composition and quality measurement for process and emissions monitoring. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/
 Vendors: Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2003,7 +2003,7 @@ Vendors: Yokogawa Electric (0 model lines recorded).
 ### Calibration and field device management (ci-calibration-and-field-device-management)
 
 Primary code: UPS: Upstream
-Configuration, calibration, proof testing and asset management of field instruments across their lifecycle.
+Configuration, calibration, proof testing and asset management of field instruments across their lifecycle. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/
 Vendors: Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2015,7 +2015,7 @@ Vendors: Yokogawa Electric (0 model lines recorded).
 ### Control valves and actuators (ci-control-valves-and-actuators)
 
 Primary code: UPS: Upstream
-Final control elements modulating or isolating process flow, driven by pneumatic/electric/hydraulic actuators; safety-rated versions used in ESD.
+Final control elements modulating or isolating process flow, driven by pneumatic/electric/hydraulic actuators; safety-rated versions used in ESD. Primary source: https://www.api.org/products-and-services/standards
 Vendors: Fisher (Emerson) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2026,7 +2026,7 @@ Vendors: Fisher (Emerson) (0 model lines recorded).
 ### Data historians / edge computing / digital twin / IIoT (ci-data-historians-edge-computing-digital-twin-iiot)
 
 Primary code: UPS: Upstream
-Time-series data capture, edge analytics, process digital twins and IIoT connectivity for optimisation and remote operations.
+Time-series data capture, edge analytics, process digital twins and IIoT connectivity for optimisation and remote operations. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/
 Vendors: Yokogawa Electric, Honeywell (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2037,7 +2037,7 @@ Vendors: Yokogawa Electric, Honeywell (0 model lines recorded).
 ### Field transmitters (ci-field-transmitters-pressure-temperature-flow-level-82501c)
 
 Primary code: UPS: Upstream
-Primary measurement instruments converting process variables to standard analog/digital signals for control and safety.
+Primary measurement instruments converting process variables to standard analog/digital signals for control and safety. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/
 Vendors: Yokogawa Electric, Emerson (duplex stainless steel option on Roxar 2600, page read) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2049,7 +2049,7 @@ Vendors: Yokogawa Electric, Emerson (duplex stainless steel option on Roxar 2600
 ### Field transmitters (ci-field-transmitters-pressure-temperature-flow-level)
 
 Primary code: UPS: Upstream
-Primary measurement instruments converting process variables to standard analog/digital signals for control and safety.
+Primary measurement instruments converting process variables to standard analog/digital signals for control and safety. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/
 Vendors: Yokogawa Electric, Emerson (duplex stainless steel option on Roxar 2600, page read) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2142,7 +2142,7 @@ Vendors: Yokogawa Electric, Emerson (duplex stainless steel option on Roxar 2600
 ### FOUNDATION Fieldbus (ci-foundation-fieldbus)
 
 Primary code: UPS: Upstream
-All-digital fieldbus for process automation with multivariable measurement, device diagnostics, control-in-the-field and integration of wireless devices.
+All-digital fieldbus for process automation with multivariable measurement, device diagnostics, control-in-the-field and integration of wireless devices. Primary source: https://www.fieldcommgroup.org/technologies/foundation-fieldbus
 Vendors: FieldComm Group (specification owner) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2156,7 +2156,7 @@ Vendors: FieldComm Group (specification owner) (0 model lines recorded).
 ### Gas detectors and flame detectors (ci-gas-detectors-and-flame-detectors)
 
 Primary code: UPS: Upstream
-Fixed and portable detection of combustible/toxic gas and flame, interfaced to fire & gas systems and SIS.
+Fixed and portable detection of combustible/toxic gas and flame, interfaced to fire & gas systems and SIS. Primary source: https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards
 Vendors: MSA, Honeywell Analytics, Dräger (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2167,7 +2167,7 @@ Vendors: MSA, Honeywell Analytics, Dräger (0 model lines recorded).
 ### HART (ci-hart-wired-4-20-ma-digital-protocol-171e8a)
 
 Primary code: UPS: Upstream
-Bi-directional digital communication over 4-20 mA analog current loops connecting field instruments to control/monitoring systems; preserves analog wiring while exposing diagnostics.
+Bi-directional digital communication over 4-20 mA analog current loops connecting field instruments to control/monitoring systems; preserves analog wiring while exposing diagnostics. Primary source: https://www.fieldcommgroup.org/technologies/hart
 Vendors: FieldComm Group (specification owner) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2181,7 +2181,7 @@ Vendors: FieldComm Group (specification owner) (0 model lines recorded).
 ### HART (ci-hart-wired-4-20-ma-digital-protocol)
 
 Primary code: UPS: Upstream
-Bi-directional digital communication over 4-20 mA analog current loops connecting field instruments to control/monitoring systems; preserves analog wiring while exposing diagnostics.
+Bi-directional digital communication over 4-20 mA analog current loops connecting field instruments to control/monitoring systems; preserves analog wiring while exposing diagnostics. Primary source: https://www.fieldcommgroup.org/technologies/hart
 Vendors: FieldComm Group (specification owner) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2195,7 +2195,7 @@ Vendors: FieldComm Group (specification owner) (0 model lines recorded).
 ### Industrial Wi-Fi / 4G / 5G / private LTE (ci-industrial-wi-fi-4g-5g-private-lte)
 
 Primary code: UPS: Upstream
-Higher-bandwidth wireless backhaul and mobile connectivity for plant and offshore platforms.
+Higher-bandwidth wireless backhaul and mobile connectivity for plant and offshore platforms. Primary source: https://www.api.org/products-and-services/standards
 Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2206,7 +2206,7 @@ Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 ### Instrument cabling, junction boxes, instrument air and impulse lines (ci-instrument-cabling-junction-boxes-instrument-air-and-impulse-l)
 
 Primary code: UPS: Upstream
-Physical signal/power cabling, field junction boxes, pneumatic supply and impulse tubing connecting instruments to ICSS.
+Physical signal/power cabling, field junction boxes, pneumatic supply and impulse tubing connecting instruments to ICSS. Primary source: https://www.fieldcommgroup.org/technologies/foundation-fieldbus
 Vendors: Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2219,7 +2219,7 @@ Vendors: Yokogawa Electric (0 model lines recorded).
 ### Integrated Control and Safety System (ci-integrated-control-and-safety-system-icss-dcs-1bd06b)
 
 Primary code: UPS: Upstream
-Integrated process control and safety platform for offshore and onshore plants; unifies control, safety, monitoring and enterprise data.
+Integrated process control and safety platform for offshore and onshore plants; unifies control, safety, monitoring and enterprise data. Primary source: https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx
 Vendors: Honeywell, Siemens, Yokogawa Electric, ABB (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2238,7 +2238,7 @@ Vendors: Honeywell, Siemens, Yokogawa Electric, ABB (0 model lines recorded).
 ### Integrated Control and Safety System (ci-integrated-control-and-safety-system-icss-dcs)
 
 Primary code: UPS: Upstream
-Integrated process control and safety platform for offshore and onshore plants; unifies control, safety, monitoring and enterprise data.
+Integrated process control and safety platform for offshore and onshore plants; unifies control, safety, monitoring and enterprise data. Primary source: https://www.honeywellprocess.com/en-US/explore/products/control-and-safety-systems/Experion-PKS/Pages/default.aspx
 Vendors: Honeywell, Siemens, Yokogawa Electric, ABB (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2257,7 +2257,7 @@ Vendors: Honeywell, Siemens, Yokogawa Electric, ABB (0 model lines recorded).
 ### ISA100.11a (ci-isa100-11a-industrial-wireless-c7641c)
 
 Primary code: UPS: Upstream
-Wireless systems for industrial automation: process control and related applications, from non-critical monitoring to supervisory and closed-loop control.
+Wireless systems for industrial automation: process control and related applications, from non-critical monitoring to supervisory and closed-loop control. Primary source: https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards
 Vendors: ISA / ISA100 Wireless Compliance Institute (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2271,7 +2271,7 @@ Vendors: ISA / ISA100 Wireless Compliance Institute (0 model lines recorded).
 ### ISA100.11a (ci-isa100-11a-industrial-wireless)
 
 Primary code: UPS: Upstream
-Wireless systems for industrial automation: process control and related applications, from non-critical monitoring to supervisory and closed-loop control.
+Wireless systems for industrial automation: process control and related applications, from non-critical monitoring to supervisory and closed-loop control. Primary source: https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards
 Vendors: ISA / ISA100 Wireless Compliance Institute (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2285,7 +2285,7 @@ Vendors: ISA / ISA100 Wireless Compliance Institute (0 model lines recorded).
 ### Multiphase meters (ci-multiphase-meters)
 
 Primary code: UPS: Upstream
-Measurement of oil/water/gas flow rates without full separation, used in wellhead and subsea/onshore applications.
+Measurement of oil/water/gas flow rates without full separation, used in wellhead and subsea/onshore applications. Primary source: https://www.api.org/products-and-services/standards
 Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2296,7 +2296,7 @@ Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 ### OT cybersecurity (ci-ot-cybersecurity)
 
 Primary code: UPS: Upstream
-Security of industrial automation and control systems (IACS) across the lifecycle for offshore/onshore ICSS and SCADA.
+Security of industrial automation and control systems (IACS) across the lifecycle for offshore/onshore ICSS and SCADA. Primary source: https://www.isa.org/standards-and-publications/isa-standards/isa-iec-62443-series-of-standards
 Vendors: ISA / ISAGCA / ISCI (ISASecure), Yokogawa Electric, Honeywell (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2310,7 +2310,7 @@ Vendors: ISA / ISAGCA / ISCI (ISASecure), Yokogawa Electric, Honeywell (0 model 
 ### PLC / RTU / edge controllers (ci-plc-rtu-edge-controllers)
 
 Primary code: UPS: Upstream
-Local control and remote telemetry/IO for onshore well sites and offshore modules.
+Local control and remote telemetry/IO for onshore well sites and offshore modules. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/
 Vendors: Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2321,7 +2321,7 @@ Vendors: Yokogawa Electric (0 model lines recorded).
 ### Profibus / Modbus (ci-profibus-modbus-fieldbus-and-serial-protocols-620677)
 
 Primary code: UPS: Upstream
-Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments.
+Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments. Primary source: https://www.api.org/products-and-services/standards
 Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2332,7 +2332,7 @@ Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 ### Profibus / Modbus (ci-profibus-modbus-fieldbus-and-serial-protocols)
 
 Primary code: UPS: Upstream
-Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments.
+Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments. Primary source: https://www.api.org/products-and-services/standards
 Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2343,7 +2343,7 @@ Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 ### Safety Instrumented System (ci-safety-instrumented-system-sis-esd-fire-gas-0765e4)
 
 Primary code: UPS: Upstream
-Independent safety layer that detects hazardous conditions and drives the process to a safe state; ESD and fire & gas are core SIFs on offshore and onshore facilities.
+Independent safety layer that detects hazardous conditions and drives the process to a safe state; ESD and fire & gas are core SIFs on offshore and onshore facilities. Primary source: https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards
 Vendors: Yokogawa Electric, Honeywell (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2358,7 +2358,7 @@ Vendors: Yokogawa Electric, Honeywell (0 model lines recorded).
 ### Safety Instrumented System (ci-safety-instrumented-system-sis-esd-fire-gas)
 
 Primary code: UPS: Upstream
-Independent safety layer that detects hazardous conditions and drives the process to a safe state; ESD and fire & gas are core SIFs on offshore and onshore facilities.
+Independent safety layer that detects hazardous conditions and drives the process to a safe state; ESD and fire & gas are core SIFs on offshore and onshore facilities. Primary source: https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards
 Vendors: Yokogawa Electric, Honeywell (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2373,7 +2373,7 @@ Vendors: Yokogawa Electric, Honeywell (0 model lines recorded).
 ### Satellite and microwave link and radio telemetry (ci-satellite-and-microwave-link-and-radio-telemetry)
 
 Primary code: UPS: Upstream
-Long-haul offshore-to-shore and remote telemetry backhaul for platforms and onshore wells.
+Long-haul offshore-to-shore and remote telemetry backhaul for platforms and onshore wells. Primary source: https://www.api.org/products-and-services/standards
 Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2384,7 +2384,7 @@ Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 ### Telemetry & SCADA / remote monitoring (ci-telemetry-scada-remote-monitoring)
 
 Primary code: UPS: Upstream
-Remote acquisition and supervision of dispersed onshore wells/pipelines and offshore assets.
+Remote acquisition and supervision of dispersed onshore wells/pipelines and offshore assets. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/
 Vendors: Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2396,7 +2396,7 @@ Vendors: Yokogawa Electric (0 model lines recorded).
 ### WirelessHART (ci-wirelesshart-industrial-wireless-mesh-024e52)
 
 Primary code: UPS: Upstream
-Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilities. Applicable offshore and onshore.
+Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilities. Applicable offshore and onshore. Primary source: https://www.fieldcommgroup.org/technologies/wirelesshart
 Vendors: FieldComm Group (specification owner), Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2438,7 +2438,7 @@ Vendors: FieldComm Group (specification owner), Yokogawa Electric (0 model lines
 ### WirelessHART (ci-wirelesshart-industrial-wireless-mesh)
 
 Primary code: UPS: Upstream
-Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilities. Applicable offshore and onshore.
+Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilities. Applicable offshore and onshore. Primary source: https://www.fieldcommgroup.org/technologies/wirelesshart
 Vendors: FieldComm Group (specification owner), Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2455,7 +2455,7 @@ Vendors: FieldComm Group (specification owner), Yokogawa Electric (0 model lines
 ### Blast-resistant walls, blast doors and windows (civ-blast-resistant-walls-blast-doors-and-windows)
 
 Primary code: PWR: Power and renewables
-Protect personnel and equipment from accidental or intentional explosion by reinforced concrete/steel barriers and rated doors/glazing designed for specified peak reflected pressure, impulse and standoff.
+Protect personnel and equipment from accidental or intentional explosion by reinforced concrete/steel barriers and rated doors/glazing designed for specified peak reflected pressure, impulse and standoff. Primary source: https://steeldoor.org/sdi-133
 Vendors: SDI Certified Manufacturers, Pillar Consulting Group, BakerRisk (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2473,7 +2473,7 @@ Recorded gaps:
 ### Bored cast-in-situ piles — Kelly, CFA, FDP, secant/c contiguous walls (civ-bored-cast-in-situ-piles-kelly-cfa-fdp-secant-c-contiguous-w)
 
 Primary code: PWR: Power and renewables
-Replace soil with a drilled, concreted cylindrical pile transferring load to deep bearing strata; also used contiguous/secant to form excavation support and groundwater cut-off walls. CFA concretes from bottom up through the hollow auger as it is withdrawn.
+Replace soil with a drilled, concreted cylindrical pile transferring load to deep bearing strata; also used contiguous/secant to form excavation support and groundwater cut-off walls. CFA concretes from bottom up through the hollow auger as it is withdrawn. Primary source: https://geotechnical-solutions.bauer.de/en/piles
 Vendors: BAUER Spezialtiefbau GmbH, Liebherr, BAUER Equipment Australia Pty Ltd (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2491,7 +2491,7 @@ Recorded gaps:
 ### Driven precast piles (civ-driven-precast-piles-concrete-steel-h-steel-pipe)
 
 Primary code: PWR: Power and renewables
-Displacement piles installed by hammer or vibrator, transferring load by end bearing and shaft friction to deeper competent strata; used where soft near-surface soils overlie bearing layers.
+Displacement piles installed by hammer or vibrator, transferring load by end bearing and shaft friction to deeper competent strata; used where soft near-surface soils overlie bearing layers. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Liebherr, BAUER Maschinen GmbH (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2552,7 +2552,7 @@ Recorded gaps:
 ### Formwork and shuttering (civ-formwork-and-shuttering-wall-column-slab-circular)
 
 Primary code: PWR: Power and renewables
-Temporary moulds that contain fresh concrete until it hardens; system formwork must resist fresh concrete pressure and meet surface finish tolerances (DIN 18202 / EN 13670 etc.).
+Temporary moulds that contain fresh concrete until it hardens; system formwork must resist fresh concrete pressure and meet surface finish tolerances (DIN 18202 / EN 13670 etc.). Primary source: https://www.iso.org/standard/84215.html
 Vendors: PERI GmbH, Doka (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2568,7 +2568,7 @@ Recorded gaps:
 ### Ground improvement — stone columns, vibrocompaction, grouting (civ-ground-improvement-stone-columns-vibrocompaction-grouting)
 
 Primary code: PWR: Power and renewables
-Densify loose granular soils, reinforce soft cohesive soils, accelerate consolidation and mitigate liquefaction before placing foundations; includes vibro-replacement stone columns, vibro-compaction, dynamic compaction and permeation/compaction/jet grouting.
+Densify loose granular soils, reinforce soft cohesive soils, accelerate consolidation and mitigate liquefaction before placing foundations; includes vibro-replacement stone columns, vibro-compaction, dynamic compaction and permeation/compaction/jet grouting. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Menard, BAUER Spezialtiefbau GmbH (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2583,7 +2583,7 @@ Recorded gaps:
 ### Heavy transport and installation — SPMT, jacking, skidding, cranes and rigging (civ-heavy-transport-and-installation-spmt-jacking-skidding-crane)
 
 Primary code: PWR: Power and renewables
-Move and set heavy equipment (reactors, columns, transformers, modules, vessel topsides) from laydown to foundation with precision, including self-propelled modular transporters, towed modular trailers, hydraulic jacking/skidding and crane lifts.
+Move and set heavy equipment (reactors, columns, transformers, modules, vessel topsides) from laydown to foundation with precision, including self-propelled modular transporters, towed modular trailers, hydraulic jacking/skidding and crane lifts. Primary source: https://www.tii-group.com/tii-scheuerle/our-solutions/spmt/scheuerle-spmt
 Vendors: TII SCHEUERLE, Cometto, Goldhofer AG, Barnhart Crane & Rigging (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2633,7 +2633,7 @@ Recorded gaps:
 ### Micropiles (civ-micropiles)
 
 Primary code: PWR: Power and renewables
-Small-diameter drilled and grouted replacement piles carrying axial and/or lateral loads; used in restricted access, under existing structures, in hard rock and for seismic retrofit.
+Small-diameter drilled and grouted replacement piles carrying axial and/or lateral loads; used in restricted access, under existing structures, in hard rock and for seismic retrofit. Primary source: https://www.iso.org/standard/84215.html
 Vendors: BAUER Equipment Australia (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2648,7 +2648,7 @@ Recorded gaps:
 ### Passive fire protection — intumescent coatings and fireproofing (civ-passive-fire-protection-intumescent-coatings-and-fireproofin)
 
 Primary code: PWR: Power and renewables
-Insulate structural steel, vessels, raceways and divisions from cellulosic and hydrocarbon fires to maintain load-bearing capacity for a specified rating (e.g. H-0/H-60/H-120, R30–R180, 1–4 hours).
+Insulate structural steel, vessels, raceways and divisions from cellulosic and hydrocarbon fires to maintain load-bearing capacity for a specified rating (e.g. H-0/H-60/H-120, R30–R180, 1–4 hours). Primary source: https://www.carboline.com/products/product-details/Thermo-Lag-3000-P
 Vendors: Carboline, Altex Coatings, IGSB (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2665,7 +2665,7 @@ Recorded gaps:
 ### Pile caps and pile-to-structure connections (civ-pile-caps-and-pile-to-structure-connections)
 
 Primary code: PWR: Power and renewables
-Rigid reinforced concrete blocks that distribute column/equipment loads to a pile group and tie piles together; include pile head connections, shear reinforcement and anchor/sole-plate interfaces.
+Rigid reinforced concrete blocks that distribute column/equipment loads to a pile group and tie piles together; include pile head connections, shear reinforcement and anchor/sole-plate interfaces. Primary source: https://www.fosroc.com/product/show/conbextra-gp
 Vendors: Fosroc (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2680,7 +2680,7 @@ Recorded gaps:
 ### Pipe racks, cable trays, access platforms, stairs, handrails, gratings (civ-pipe-racks-cable-trays-access-platforms-stairs-handrails-gra)
 
 Primary code: PWR: Power and renewables
-Provide supported routes for process piping and electrical/instrument cables and safe access/egress and working surfaces around pipe racks, vessels and structures.
+Provide supported routes for process piping and electrical/instrument cables and safe access/egress and working surfaces around pipe racks, vessels and structures. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Hai Nam, India Electricals (IES), Vinfab Engineers India, NPES, FDG (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2696,7 +2696,7 @@ Recorded gaps:
 ### Reinforced concrete — high-performance / sulfate-resistant concrete (civ-reinforced-concrete-high-performance-sulfate-resistant-concr)
 
 Primary code: PWR: Power and renewables
-Provide durable structural concrete for foundations, slabs, walls and machine blocks in aggressive ground/process environments; sulfate-resistant cement, low permeability mixes and corrosion inhibition used where required.
+Provide durable structural concrete for foundations, slabs, walls and machine blocks in aggressive ground/process environments; sulfate-resistant cement, low permeability mixes and corrosion inhibition used where required. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Sika, Fosroc (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2712,7 +2712,7 @@ Recorded gaps:
 ### Scaffolding (civ-scaffolding-module-rosette-systems-for-industrial-access)
 
 Primary code: PWR: Power and renewables
-Provide temporary worker access, guardrails, loading platforms and birdcage/scaffold support around tanks, vessels, pipe racks and structures during construction and maintenance.
+Provide temporary worker access, guardrails, loading platforms and birdcage/scaffold support around tanks, vessels, pipe racks and structures during construction and maintenance. Primary source: https://www.layher.com/en/products/allroundscaffolding
 Vendors: Layher, PERI (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2736,7 +2736,7 @@ Recorded gaps:
 ### Seismic design — base isolation, dampers, structural monitoring (civ-seismic-design-base-isolation-dampers-structural-monitoring)
 
 Primary code: PWR: Power and renewables
-Decouple structure from ground motion using laminated rubber/lead-rubber/friction-pendulum bearings and dissipate energy; monitored by robotic total stations, GNSS and geotechnical sensors.
+Decouple structure from ground motion using laminated rubber/lead-rubber/friction-pendulum bearings and dissipate energy; monitored by robotic total stations, GNSS and geotechnical sensors. Primary source: https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html
 Vendors: Bridgestone Corporation, Dynamic Isolation Systems (DIS), Trimble Geospatial (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2754,7 +2754,7 @@ Recorded gaps:
 ### Shallow / raft / pad foundations (civ-shallow-raft-pad-foundations)
 
 Primary code: PWR: Power and renewables
-Transfer column, wall and equipment loads to near-surface bearing strata by spread footings, combined pads, rafts or mat foundations; commonly used for tanks, pumps, pipe-rack columns and small equipment where surface soils are competent.
+Transfer column, wall and equipment loads to near-surface bearing strata by spread footings, combined pads, rafts or mat foundations; commonly used for tanks, pumps, pipe-rack columns and small equipment where surface soils are competent. Primary source: https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design
 Vendors: BAUER Spezialtiefbau GmbH (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2924,7 +2924,7 @@ Recorded gaps:
 ### Steel connections — bolting, welding, fabricated details (civ-steel-connections-bolting-welding-fabricated-details)
 
 Primary code: PWR: Power and renewables
-Join beams, columns, bracing and equipment supports by shop/site welding and high-strength bolting; seismic designs require predictable yield and ductility at connections.
+Join beams, columns, bracing and equipment supports by shop/site welding and high-strength bolting; seismic designs require predictable yield and ductility at connections. Primary source: https://americansteelandaluminum.com/resources/materials/a992-steel
 Vendors: Portland Bolt, ArcelorMittal Orange Book (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2941,7 +2941,7 @@ Recorded gaps:
 ### Structural steel corrosion protection systems (civ-structural-steel-corrosion-protection-systems)
 
 Primary code: PWR: Power and renewables
-Protect structural steel from atmospheric and process corrosion via barrier coatings, galvanizing, metallizing or weathering steel; often specified in a system with primer/intermediate/topcoat and DFT schedule.
+Protect structural steel from atmospheric and process corrosion via barrier coatings, galvanizing, metallizing or weathering steel; often specified in a system with primer/intermediate/topcoat and DFT schedule. Primary source: https://americansteelandaluminum.com/resources/materials/a992-steel
 Vendors: Carboline, Jotun / Hempel / PPG / Sherwin-Williams (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2956,7 +2956,7 @@ Recorded gaps:
 ### Structural steel — fabricated beams, columns, bracing (civ-structural-steel-fabricated-beams-columns-bracing)
 
 Primary code: PWR: Power and renewables
-Primary gravity and lateral load-resisting frame for process structures, pipe racks, equipment supports and buildings; fabricated from rolled or welded sections in carbon, HSLA or high-strength grades.
+Primary gravity and lateral load-resisting frame for process structures, pipe racks, equipment supports and buildings; fabricated from rolled or welded sections in carbon, HSLA or high-strength grades. Primary source: https://americansteelandaluminum.com/resources/materials/a992-steel
 Vendors: ArcelorMittal Europe, SSAB, American Steel & Aluminum (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2977,7 +2977,7 @@ Recorded gaps:
 ### Survey, setting out, geotechnical investigation and laboratory testing (civ-survey-setting-out-geotechnical-investigation-and-laboratory)
 
 Primary code: PWR: Power and renewables
-Establish control points and setting-out, characterize ground and groundwater via drilling, sampling and in-situ tests, and determine soil/rock properties by laboratory testing for foundation design.
+Establish control points and setting-out, characterize ground and groundwater via drilling, sampling and in-situ tests, and determine soil/rock properties by laboratory testing for foundation design. Primary source: https://geospatial.trimble.com/en/products/hardware/trimble-s9
 Vendors: Trimble Geospatial, Leica Geosystems / Topcon (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -2994,7 +2994,7 @@ Recorded gaps:
 ### Temporary works — cofferdams, dewatering, shoring, excavation support (civ-temporary-works-cofferdams-dewatering-shoring-excavation-sup)
 
 Primary code: PWR: Power and renewables
-Exclude water and soil from excavation areas, temporarily retain excavation faces and protect adjacent assets while foundations are constructed; includes sheet-pile cofferdams, diaphragm/secant walls, ground anchors, struts, wellpoints and dewatering pumps.
+Exclude water and soil from excavation areas, temporarily retain excavation faces and protect adjacent assets while foundations are constructed; includes sheet-pile cofferdams, diaphragm/secant walls, ground anchors, struts, wellpoints and dewatering pumps. Primary source: https://geotechnical-solutions.bauer.de/en/piles
 Vendors: BAUER Spezialtiefbau, Layher (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3013,7 +3013,7 @@ Recorded gaps:
 ### Drainage, spill containment and wastewater (gas-engine-drainage-spill)
 
 Primary code: PWR: Power and renewables
-Drainage, spill containment and wastewater
+Drainage, spill containment and wastewater Primary source: https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf
 Vendors: Wärtsilä (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3026,7 +3026,7 @@ Vendors: Wärtsilä (0 model lines recorded).
 ### Foundations, plinths and vibration isolation (gas-engine-foundation-vibration)
 
 Primary code: PWR: Power and renewables
-Foundations, plinths and vibration isolation
+Foundations, plinths and vibration isolation Primary source: https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf
 Vendors: Cummins Inc. (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3042,7 +3042,7 @@ Vendors: Cummins Inc. (0 model lines recorded).
 ### Civil and structural buildings (geg-civil-and-structural-buildings)
 
 Primary code: PWR: Power and renewables
-Civil and structural buildings for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Civil and structural buildings for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3060,7 +3060,7 @@ Recorded gaps:
 ### Clarifiers and thickeners (wwt-clarifiers-thickeners)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-Primary/secondary circular clarifiers and gravity/DAF thickeners with scraper bridges, plus lamella packs for high-rate duty.
+Primary/secondary circular clarifiers and gravity/DAF thickeners with scraper bridges, plus lamella packs for high-rate duty. Primary source: https://www.veoliawatertech.com/
 Vendors: Veolia, WesTech Engineering (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3078,7 +3078,7 @@ Recorded gaps:
 ### Boiler soot blower and online cleaning (soot-blower-boiler)
 
 Primary code: PWR: Power and renewables
-Online cleaning equipment that removes ash and soot deposits from heat-transfer surfaces to preserve efficiency, keep flue-gas temperatures within design and prevent gas-passage blockage. Saturated steam is the most widely used blowing medium because boiler-generated steam is available; SCR catalyst cleaning uses much lower steam velocity to avoid mechanical or erosive damage.
+Online cleaning equipment that removes ash and soot deposits from heat-transfer surfaces to preserve efficiency, keep flue-gas temperatures within design and prevent gas-passage blockage. Saturated steam is the most widely used blowing medium because boiler-generated steam is available; SCR catalyst cleaning uses much lower steam velocity to avoid mechanical or erosive damage. Primary source: https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications
 Vendors: Babcock & Wilcox (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3096,7 +3096,7 @@ Recorded gaps:
 ### CO2 compression and purification (urea-co2-compression)
 
 Primary code: PCH: Petrochemicals
-CO2 compression and purification (from ammonia plant)
+CO2 compression and purification (from ammonia plant) Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27
 Vendors: Stamicarbon, Casale SA, SensoTech GmbH (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3118,7 +3118,7 @@ Recorded gaps:
 ### CO2 removal - amine (ammonia-co2-removal)
 
 Primary code: PCH: Petrochemicals
-CO2 removal - amine (MDEA/MEA) absorbers and regenerators; Benfield/Selexol/Rectisol; solvent reclamation
+CO2 removal - amine (MDEA/MEA) absorbers and regenerators; Benfield/Selexol/Rectisol; solvent reclamation Primary source: https://en.wikipedia.org/wiki/Amine_gas_treating
 Vendors: Linde AG, Air Liquide, UOP LLC, Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3147,7 +3147,7 @@ Recorded gaps:
 ### Urea CO2 stripper (urea-co2-stripper)
 
 Primary code: PCH: Petrochemicals
-High-pressure column that strips unconverted carbamate from the urea solution using feed CO2 as the stripping agent, decomposing carbamate and returning ammonia and CO2 to the condenser. CO2 stripping cut the steam demand of urea plants relative to conventional total-recycle designs.
+High-pressure column that strips unconverted carbamate from the urea solution using feed CO2 as the stripping agent, decomposing carbamate and returning ammonia and CO2 to the condenser. CO2 stripping cut the steam demand of urea plants relative to conventional total-recycle designs. Primary source: https://patents.google.com/patent/WO2017097981A1/en
 Vendors: Stamicarbon, thyssenkrupp Uhde, Toyo Engineering, Casale SA, Yara (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3179,7 +3179,7 @@ Recorded gaps:
 ### Commissioning equipment and consumables (geg-commissioning-equipment-and-consumables)
 
 Primary code: PWR: Power and renewables
-Commissioning equipment and consumables for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts.
+Commissioning equipment and consumables for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf
 Vendors: Shell (operator, 35%), Castrol Ltd., Exxon Mobil Corporation, Rolls-Royce Power Systems (mtu), Everllence (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3235,7 +3235,7 @@ Recorded gaps:
 ### Pre-commissioning and start-up management (geg-pre-commissioning-and-start-up-management)
 
 Primary code: PWR: Power and renewables
-Pre-commissioning and start-up management for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts.
+Pre-commissioning and start-up management for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6
 Vendors: Everllence, Rolls-Royce Power Systems (mtu), Wärtsilä (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3298,7 +3298,7 @@ Recorded gaps:
 ### Compressed air and instrument air (utility-instrument-air)
 
 Primary code: PCH: Petrochemicals
-Compressed air and instrument air
+Compressed air and instrument air Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3312,7 +3312,7 @@ Vendors: Topsoe (0 model lines recorded).
 ### Instrument air / plant compressed air systems (dampers, control valves, actuators) (instrument-air-system)
 
 Primary code: PWR: Power and renewables
-Supply dry, oil-free, particulate-controlled compressed air to pneumatic actuators on dampers and control valves and to instrument/control devices; dryers, filters, separators and receivers condition the air; dew-point sensors monitor dryness at critical points. Seal air for HRSG bypass dampers is a separate but related air system.
+Supply dry, oil-free, particulate-controlled compressed air to pneumatic actuators on dampers and control valves and to instrument/control devices; dryers, filters, separators and receivers condition the air; dew-point sensors monitor dryness at critical points. Seal air for HRSG bypass dampers is a separate but related air system. Primary source: https://www.atlascopco.com/en-us/compressors/wiki/compressed-air-articles/instrument-air-quality
 Vendors: Atlas Copco, CS Instruments, E+E Elektronik (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3345,7 +3345,7 @@ Recorded gaps:
 ### Centrifugal compressor (compressor-centrifugal)
 
 Primary code: ROT: Rotating and static equipment
-Dynamic compressor that raises gas pressure across one or more impeller stages — the standard machine for refinery and petrochemical process gas, pipeline boost, gas-lift and reinjection, and CO2 service, driven by gas turbines or electric motors through gears. Casing arrangements (overhung, integrally-geared, horizontally- or vertically-split/barrel) set the pressure class; barrel-style machines serve the highest-pressure gas reinjection duties.
+Dynamic compressor that raises gas pressure across one or more impeller stages — the standard machine for refinery and petrochemical process gas, pipeline boost, gas-lift and reinjection, and CO2 service, driven by gas turbines or electric motors through gears. Casing arrangements (overhung, integrally-geared, horizontally- or vertically-split/barrel) set the pressure class; barrel-style machines serve the highest-pressure gas reinjection duties. Primary source: https://en.wikipedia.org/wiki/Centrifugal_compressor
 Vendors: Siemens Energy (incl. ex-Dresser-Rand), Baker Hughes, Atlas Copco, Mitsubishi Power (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3362,7 +3362,7 @@ Recorded gaps:
 ### Fuel gas booster / compressor for low supply pressure to burners (fuel-gas-booster)
 
 Primary code: PWR: Power and renewables
-Raises incoming utility gas pressure to the net regulated pressure required at the burner gas-train inlet when mains pressure is insufficient; packaged skids combine a hermetically sealed centrifugal blower, check valve, inlet/outlet pressure switches, isolating valves, gauges and a factory control panel, usually installed just downstream of the gas meter. Selection basis: gas flow = burner firing rate / calorific value; pressure lift = minimum required burner pressure minus available mains pressure.
+Raises incoming utility gas pressure to the net regulated pressure required at the burner gas-train inlet when mains pressure is insufficient; packaged skids combine a hermetically sealed centrifugal blower, check valve, inlet/outlet pressure switches, isolating valves, gauges and a factory control panel, usually installed just downstream of the gas meter. Selection basis: gas flow = burner firing rate / calorific value; pressure lift = minimum required burner pressure minus available mains pressure. Primary source: https://etterengineering.com/booster-systems
 Vendors: Eclipse Combustion (BoostPak; spec sheets hosted on Kromschroeder docuthek), ETTER Engineering / BoosterWorx, Cleaver-Brooks, Brittania Industries (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3394,7 +3394,7 @@ Recorded gaps:
 ### Compressor room (reinforced concrete) (geg-compressor-room-reinforced-concrete)
 
 Primary code: PWR: Power and renewables
-Compressor room (reinforced concrete) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Compressor room (reinforced concrete) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3412,7 +3412,7 @@ Recorded gaps:
 ### Construction management and services (geg-construction-management-and-services)
 
 Primary code: PWR: Power and renewables
-Construction management and services for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction indirect. BOQ quantities and dimensions are design inputs, not sourced facts.
+Construction management and services for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction indirect. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.dailyexpress.com.my/news/78066/rm1-5b-gas-fired-plant-operational-in-3-years/
 Vendors: CTCI Corporation, Synerlitz Sdn Bhd, SCHB Engineering Services, Sabah Electricity Sdn Bhd, Energy Commission of Sabah (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3435,7 +3435,7 @@ Recorded gaps:
 ### LV switchgear and control room (geg-lv-switchgear-and-control-room)
 
 Primary code: PWR: Power and renewables
-LV switchgear and control room for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+LV switchgear and control room for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://webstore.iec.ch/en/publication/63466
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3454,7 +3454,7 @@ Recorded gaps:
 ### Boiler controls and oxygen trim (boiler-controls-oxygen-trim)
 
 Primary code: PWR: Power and renewables
-Control system that holds the fuel-to-air ratio and steam conditions across load. A stand-alone PLC oxygen-trim package uses an O2 sensor, firing-rate sensor and actuator or variable-speed drive to compensate for temperature, barometric pressure and fuel changes; package burners add parallel positioning, remote monitoring and burner-management interlocks.
+Control system that holds the fuel-to-air ratio and steam conditions across load. A stand-alone PLC oxygen-trim package uses an O2 sensor, firing-rate sensor and actuator or variable-speed drive to compensate for temperature, barometric pressure and fuel changes; package burners add parallel positioning, remote monitoring and burner-management interlocks. Primary source: https://cleaverbrooks.com/product/accu-trim
 Vendors: Cleaver-Brooks, Honeywell, Zeeco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3492,7 +3492,7 @@ Recorded gaps:
 ### Burner management and flame safeguard system (burner-management-safety-system)
 
 Primary code: PWR: Power and renewables
-Safety system that sequences purge, ignition and firing and trips the fuel on loss of flame or failed permissives. Designed to NFPA 85/86, IRI, ISA 84, FM and Gastec practice; flame supervision uses UV or IR viewing heads, with SIL3-capable assemblies available.
+Safety system that sequences purge, ignition and firing and trips the fuel on loss of flame or failed permissives. Designed to NFPA 85/86, IRI, ISA 84, FM and Gastec practice; flame supervision uses UV or IR viewing heads, with SIL3-capable assemblies available. Primary source: https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x
 Vendors: Honeywell, Zeeco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3530,7 +3530,7 @@ Recorded gaps:
 ### Engine control / genset controller / paralleling controls / protection relays / synchronising (gas-engine-controls-paralleling)
 
 Primary code: PWR: Power and renewables
-Engine control / genset controller / paralleling controls / protection relays / synchronising | Power monitoring / DCIM / microgrid and genset paralleling controllers
+Engine control / genset controller / paralleling controls / protection relays / synchronising | Power monitoring / DCIM / microgrid and genset paralleling controllers Primary source: https://www.woodward.com/products/industrial/generator-controllers/easygen
 Vendors: ComAp, Woodward, Basler Electric, Deep Sea Electronics, DEIF, Schneider Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3582,7 +3582,7 @@ Recorded gaps:
 ### Cooling utilities for the data centre directly coupled to the gas-engine energy story (data-centre-cooling-utilities)
 
 Primary code: IDC: Data centres
-Cooling utilities for the data centre directly coupled to the gas-engine energy story
+Cooling utilities for the data centre directly coupled to the gas-engine energy story Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions
 Vendors: Johnson Controls (YORK, Silent-Aire), Vertiv, Trane (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3597,7 +3597,7 @@ Recorded gaps:
 ### Cooling water system and cooling towers (utility-cooling-water-towers)
 
 Primary code: PCH: Petrochemicals
-Cooling water system and cooling towers
+Cooling water system and cooling towers Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf
 Vendors: Dynaflow Research Group BV, Zeeco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3611,7 +3611,7 @@ Vendors: Dynaflow Research Group BV, Zeeco (0 model lines recorded).
 ### Engine cooling: jacket-water system, radiator, cooling tower, heat exchanger, circulating pumps (gas-engine-cooling-system)
 
 Primary code: PWR: Power and renewables
-Engine cooling: jacket-water system, radiator, cooling tower, heat exchanger, circulating pumps | Cooling water / cooling towers (open and closed) and heat rejection | Closed-loop jacket water / HT and LT circuits, expansion and monitoring
+Engine cooling: jacket-water system, radiator, cooling tower, heat exchanger, circulating pumps | Cooling water / cooling towers (open and closed) and heat rejection | Closed-loop jacket water / HT and LT circuits, expansion and monitoring Primary source: https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/
 Vendors: INNIO Jenbacher, Wärtsilä, Cummins Inc., MWM / Everllence, MWM / Everllence (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3635,7 +3635,7 @@ Recorded gaps:
 ### Cooling water system with air-cooled radiator (geg-cooling-water-system-with-air-cooled-radiator)
 
 Primary code: PWR: Power and renewables
-Cooling water system with air-cooled radiator for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Cooling water system with air-cooled radiator for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf
 Vendors: Rolls-Royce / mtu solutions, Wärtsilä, Kohler Power Systems (Kohler Energy), Wartsila (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3706,7 +3706,7 @@ Recorded gaps:
 ### Data centre CRAH/CRAC room cooling (air side) (crah-room-cooling)
 
 Primary code: IDC: Data centres
-Per-hall air handlers that close the loop between the cold aisle and the heat-rejection plant: computer-room air handlers (CRAH, chilled water) and air conditioners (CRAC, direct expansion), now joined by water-free pumped-refrigerant economisers. The Vertiv Liebert DSE spans 50-165 kW per unit (packaged systems to about 400 kW) and provides free cooling with no water — a chilled-water plant serving 1 MW of IT load uses roughly 4 million gallons of water a year that the DSE avoids.
+Per-hall air handlers that close the loop between the cold aisle and the heat-rejection plant: computer-room air handlers (CRAH, chilled water) and air conditioners (CRAC, direct expansion), now joined by water-free pumped-refrigerant economisers. The Vertiv Liebert DSE spans 50-165 kW per unit (packaged systems to about 400 kW) and provides free cooling with no water — a chilled-water plant serving 1 MW of IT load uses roughly 4 million gallons of water a year that the DSE avoids. Primary source: https://www.vertiv.com/en-us/products-catalog/thermal-management/room-cooling/liebert-dse-free-cooling-system-50-165kw
 Vendors: Vertiv, Schneider Electric, Rittal (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3726,7 +3726,7 @@ Recorded gaps:
 ### Crane and hoist (geg-crane-and-hoist)
 
 Primary code: PWR: Power and renewables
-Crane and hoist for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Crane and hoist for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://vibrantengineering.com.my/products/overhead-crane
 Vendors: Vibrant Engineering Services Sdn. Bhd. (798115-T), Pelabuhan Klang, Selangor, Malaysia, Dafang Crane (dgcrane.com), KSCRANE (Kuangshan Crane) (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3784,7 +3784,7 @@ Recorded gaps:
 ### Dissolved air flotation units (wwt-daf-units)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-DAF clarifiers: air-saturation vessels release 30-100 um microbubbles into coagulated water; floated flocs are scraped off as a thick float sludge.
+DAF clarifiers: air-saturation vessels release 30-100 um microbubbles into coagulated water; floated flocs are scraped off as a thick float sludge. Primary source: https://www.veoliawatertech.com/
 Vendors: Veolia, Evoqua Water Technologies (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3803,7 +3803,7 @@ Recorded gaps:
 ### Stack/breeching dampers, bypass dampers and sealing systems for HRSG simple-cycle operation (hrsg-bypass-damper)
 
 Primary code: PWR: Power and renewables
-Diverter/bypass damper systems route gas-turbine exhaust either to the bypass stack (simple cycle, HRSG offline) or through the HRSG (combined cycle), with mechanically interlocked isolation and seal-air systems so personnel can enter the isolated HRSG while the turbine runs. Stack dampers slow HRSG cooling between starts, prevent rain ingress and provide overpressure relief.
+Diverter/bypass damper systems route gas-turbine exhaust either to the bypass stack (simple cycle, HRSG offline) or through the HRSG (combined cycle), with mechanically interlocked isolation and seal-air systems so personnel can enter the isolated HRSG while the turbine runs. Stack dampers slow HRSG cooling between starts, prevent rain ingress and provide overpressure relief. Primary source: https://www.forneycorp.com/articles/hrsg-bypass-dampers
 Vendors: Forney Corporation, NEM Energy, GSD (Genel Sistem Dizaynı), Boldrocchi Group, Fox Equipment, METCO Technologies, Energylink International, Hangguo (HGTYBypass) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3833,7 +3833,7 @@ Recorded gaps:
 ### Decomposers / carbamate decomposer (urea-carbamate-decomposer)
 
 Primary code: PCH: Petrochemicals
-Decomposers / carbamate decomposer (LP/MP)
+Decomposers / carbamate decomposer (LP/MP) Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27
 Vendors: SensoTech GmbH (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3853,7 +3853,7 @@ Recorded gaps:
 ### Demineralised water and raw water treatment (utility-demin-water-treatment)
 
 Primary code: PCH: Petrochemicals
-Demineralised water and raw water treatment
+Demineralised water and raw water treatment Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3868,7 +3868,7 @@ Vendors: Topsoe (0 model lines recorded).
 ### Diesel fuel system (geg-diesel-fuel-system)
 
 Primary code: PWR: Power and renewables
-Diesel fuel system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Diesel fuel system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://preferred-mfg.com/Products/Preferred%20Utilities/Day%20Tanks/Fuel%20Oil%20Day%20Tanks/Documents/Files/Day%20Tank%20-%20Model%20DT%20Cutsheet.pdf
 Vendors: Preferred Utilities Manufacturing Corp., Danbury, CT, USA, Preferred Utilities Manufacturing Corp., Everllence (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3949,7 +3949,7 @@ Recorded gaps:
 ### Drag conveyors / tubular drag conveyors (bulk-drag-conveyors)
 
 Primary code: PCH: Petrochemicals
-Drag conveyors / tubular drag conveyors
+Drag conveyors / tubular drag conveyors Primary source: https://en.wikipedia.org/wiki/Bulk_material_handling
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3967,7 +3967,7 @@ Recorded gaps:
 ### Expansion joints, flexible connectors and pipe supports in hot flue-gas / steam ducts (expansion-joints-ducting)
 
 Primary code: PWR: Power and renewables
-Accommodate thermal expansion, vibration and directional movement in boiler/flue-gas ducts and steam piping; protect ductwork, equipment and supports from cyclic stress and fatigue (dB Noise Reduction; vendor catalogues search-verified).
+Accommodate thermal expansion, vibration and directional movement in boiler/flue-gas ducts and steam piping; protect ductwork, equipment and supports from cyclic stress and fatigue (dB Noise Reduction; vendor catalogues search-verified). Primary source: https://www.dbnoisereduction.com/flexible-connections-expansion-joints.php
 Vendors: dB Noise Reduction Inc., EagleBurgmann (KE-A/S), Unaflex / Kadant, Megaflexon, Thorburn Flex, BOA Group (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -3986,7 +3986,7 @@ Recorded gaps:
 ### Dust collection, scrubbers, ammonia/urea dust recovery (urea-dust-collection-scrubbers)
 
 Primary code: PCH: Petrochemicals
-Dust collection, scrubbers, ammonia/urea dust recovery | Warehouses and packaging
+Dust collection, scrubbers, ammonia/urea dust recovery | Warehouses and packaging Primary source: https://www.toyo-eng.com/jp/en/solution/urea_granulation/
 Vendors: Toyo Engineering, SensoTech GmbH (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4014,7 +4014,7 @@ Recorded gaps:
 ### Earthworks and soil import (geg-earthworks-and-soil-import)
 
 Primary code: PWR: Power and renewables
-Earthworks and soil import for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Earthworks and soil import for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4033,7 +4033,7 @@ Recorded gaps:
 ### Boiler motor control centres / variable speed drives and electrical supply for fans and pumps (boiler-mcc-vfd)
 
 Primary code: PWR: Power and renewables
-Provide motor starting, protection and speed control for forced-draft/induced-draft fans, combustion-air blowers and boiler feedwater/service water pumps. VFDs replace throttling valves/inlet dampers with speed control, reducing energy use, wear and start-up current; BMS/CCS panels integrate VFDs with burner control.
+Provide motor starting, protection and speed control for forced-draft/induced-draft fans, combustion-air blowers and boiler feedwater/service water pumps. VFDs replace throttling valves/inlet dampers with speed control, reducing energy use, wear and start-up current; BMS/CCS panels integrate VFDs with burner control. Primary source: https://www.energy.gov/eere/amo/steam-systems
 Vendors: TMEIC, ABB, SCC Inc., Zeeco, Emerson Copeland VFDs (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4050,7 +4050,7 @@ Recorded gaps:
 ### Electrical substation and power distribution (utility-electrical-substation)
 
 Primary code: PCH: Petrochemicals
-Electrical substation and power distribution
+Electrical substation and power distribution Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf
 Vendors: ABB Australia (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4065,7 +4065,7 @@ Vendors: ABB Australia (0 model lines recorded).
 ### Electrical laboratory test equipment (geg-electrical-laboratory-test-equipment)
 
 Primary code: PWR: Power and renewables
-Electrical laboratory test equipment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Electrical laboratory test equipment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4101,7 +4101,7 @@ Recorded gaps:
 ### Diesel oxidation catalyst and SCR emission control system (geg-diesel-oxidation-catalyst-and-scr-emission-control-system)
 
 Primary code: PWR: Power and renewables
-Diesel oxidation catalyst and SCR emission control system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Diesel oxidation catalyst and SCR emission control system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da
 Vendors: Umicore, Johnson Matthey Catalysts Germany GmbH (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4176,7 +4176,7 @@ Recorded gaps:
 ### SCR, SNCR and CEMS for boilers (scr-nox-control-boiler)
 
 Primary code: PWR: Power and renewables
-Post-combustion NOx control. SCR passes flue gas over a catalyst with a reagent, achieving up to 95% reduction on packaged systems; SNCR injects reagent into a 870-1,150 C window and gives 30-50% reduction alone or 65-75% with combustion controls. CEMS provides the continuous concentration and emission-rate measurement used to demonstrate compliance.
+Post-combustion NOx control. SCR passes flue gas over a catalyst with a reagent, achieving up to 95% reduction on packaged systems; SNCR injects reagent into a 870-1,150 C window and gives 30-50% reduction alone or 65-75% with combustion controls. CEMS provides the continuous concentration and emission-rate measurement used to demonstrate compliance. Primary source: https://cleaverbrooks.com/product/scr
 Vendors: Cleaver-Brooks, Zeeco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4209,7 +4209,7 @@ Recorded gaps:
 ### Energy billing system (geg-energy-billing-system)
 
 Primary code: PWR: Power and renewables
-Energy billing system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
+Energy billing system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf
 Vendors: SESB Single Buyer (system owner/operator per Sabah Grid Code), Landis+Gyr (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4270,7 +4270,7 @@ Recorded gaps:
 ### Gas engine prime mover (gas-engine-prime-mover)
 
 Primary code: PWR: Power and renewables
-Gas engine prime mover (lean-burn / stoichiometric spark-ignition / dual-fuel; cylinders, turbochargers, intercoolers)
+Gas engine prime mover (lean-burn / stoichiometric spark-ignition / dual-fuel; cylinders, turbochargers, intercoolers) Primary source: https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine
 Vendors: Wartsila Energy, INNIO Jenbacher, Everllence, MAN Engines, Rolls-Royce Power Systems (mtu), Caterpillar (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4471,7 +4471,7 @@ Recorded gaps:
 ### Bonds, guarantees, insurance and financing costs (geg-bonds-guarantees-insurance-and-financing-costs)
 
 Primary code: PWR: Power and renewables
-Bonds, guarantees, insurance and financing costs for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts.
+Bonds, guarantees, insurance and financing costs for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf
 Vendors: CIDB Malaysia (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4497,7 +4497,7 @@ Recorded gaps:
 ### Evaporation / concentration (urea-evaporation-concentration)
 
 Primary code: PCH: Petrochemicals
-Evaporation / concentration (pre-concentrator, evaporators)
+Evaporation / concentration (pre-concentrator, evaporators) Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4517,7 +4517,7 @@ Recorded gaps:
 ### ZLD evaporators and crystallisers (wwt-evaporator-crystallisers)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-Mechanical-vapour-recompression evaporators and forced-circulation crystallisers that end ZLD trains: distillate recycled, salts recovered as solids.
+Mechanical-vapour-recompression evaporators and forced-circulation crystallisers that end ZLD trains: distillate recycled, salts recovered as solids. Primary source: https://www.aquatech.com/
 Vendors: Aquatech International, Veolia (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4536,7 +4536,7 @@ Recorded gaps:
 ### CALM/SPM buoys, FPSO offtake, loading arms and custody transfer (ex-calm-spm-buoys-fpso-offtake-loading-arms-and-custody-transfer)
 
 Primary code: UPS: Upstream
-Offshore transfer of liquid cargo between floating production/storage facility or pipeline and tanker: mooring, weathervaning, hose transfer, swivel, PLEM and metering.
+Offshore transfer of liquid cargo between floating production/storage facility or pipeline and tanker: mooring, weathervaning, hose transfer, swivel, PLEM and metering. Primary source: https://epcmholdings.com/spm-calm-buoy-system/
 Vendors: Bluewater Energy Services, EPCM Holdings, OCIMF (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4551,7 +4551,7 @@ Vendors: Bluewater Energy Services, EPCM Holdings, OCIMF (0 model lines recorded
 ### Export to shore: onshore receiving terminal and sales specifications (ex-export-to-shore-onshore-receiving-terminal-and-sales-specifica)
 
 Primary code: UPS: Upstream
-Receive gas/condensate from export pipeline offshore, separate, stabilize, store, meter and dispatch to market to sales specifications.
+Receive gas/condensate from export pipeline offshore, separate, stabilize, store, meter and dispatch to market to sales specifications. Primary source: https://www.api.org/products-and-services/standards
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4562,7 +4562,7 @@ Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 ### Flexible pipes, jumpers and bundled flowlines (ex-flexible-pipes-jumpers-and-bundled-flowlines)
 
 Primary code: UPS: Upstream
-Compliant pipe for connection of floating vessels/subsea equipment; flowlines, jumpers, risers, fluid transfer lines; bundled multiple services in one carrier pipe.
+Compliant pipe for connection of floating vessels/subsea equipment; flowlines, jumpers, risers, fluid transfer lines; bundled multiple services in one carrier pipe. Primary source: https://www.api.org/products-and-services/standards
 Vendors: Baker Hughes, TechnipFMC (CDS Separation Systems), Subsea7 (Swagelining all-polymer liner) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4573,7 +4573,7 @@ Vendors: Baker Hughes, TechnipFMC (CDS Separation Systems), Subsea7 (Swagelining
 ### Rigid flowlines, export pipelines and trunklines (ex-rigid-flowlines-export-pipelines-and-trunklines)
 
 Primary code: UPS: Upstream
-Transport oilfield fluids from wellhead/manifold to processing facility and from offshore facilities to onshore receiving terminals.
+Transport oilfield fluids from wellhead/manifold to processing facility and from offshore facilities to onshore receiving terminals. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/
 Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, Subsea7 (Swagelining all-polymer liner) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4585,7 +4585,7 @@ Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, Subsea7 (Swagelining
 ### Risers: SCR, top-tensioned, hybrid and free-standing (ex-risers-scr-top-tensioned-hybrid-and-free-standing)
 
 Primary code: UPS: Upstream
-Carry fluids between seabed flowlines/PLET and surface host; accommodate vessel motion and environmental loads.
+Carry fluids between seabed flowlines/PLET and surface host; accommodate vessel motion and environmental loads. Primary source: https://www.api.org/products-and-services/standards
 Vendors: TechnipFMC (CDS Separation Systems), Subsea7 (Swagelining all-polymer liner), ABS (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4596,7 +4596,7 @@ Vendors: TechnipFMC (CDS Separation Systems), Subsea7 (Swagelining all-polymer l
 ### Subsea control and distribution systems (ex-subsea-control-and-distribution-systems-scm-sdu-mux-all-electr)
 
 Primary code: UPS: Upstream
-Remote monitoring and control of trees, manifolds, valves and chokes; distribute hydraulic power, electrical power, chemical injection and communications; enable ROV intervention.
+Remote monitoring and control of trees, manifolds, valves and chokes; distribute hydraulic power, electrical power, chemical injection and communications; enable ROV intervention. Primary source: https://www.api.org/products-and-services/standards
 Vendors: OneSubsea (SLB/Aker Solutions JV), Baker Hughes, Proserv, TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4607,7 +4607,7 @@ Vendors: OneSubsea (SLB/Aker Solutions JV), Baker Hughes, Proserv, TechnipFMC (C
 ### Subsea gas compression (ex-subsea-gas-compression)
 
 Primary code: UPS: Upstream
-Boost unprocessed well-stream gas on the seabed to reduce downstream pressure drop and defer or replace topside compression.
+Boost unprocessed well-stream gas on the seabed to reduce downstream pressure drop and defer or replace topside compression. Primary source: https://www.api.org/products-and-services/standards
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4618,7 +4618,7 @@ Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 ### Subsea installation and protection (ex-subsea-installation-and-protection-anchors-trenching-burial-ro)
 
 Primary code: UPS: Upstream
-Stabilize and protect pipelines/umbilicals/structures against hydrodynamic loads, scour, dropped objects, trawling and iceberg scour; prepare seabed and correct spans.
+Stabilize and protect pipelines/umbilicals/structures against hydrodynamic loads, scour, dropped objects, trawling and iceberg scour; prepare seabed and correct spans. Primary source: https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools
 Vendors: DeepOcean, Subsea7 (Swagelining all-polymer liner), CTC Marine (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4632,7 +4632,7 @@ Vendors: DeepOcean, Subsea7 (Swagelining all-polymer liner), CTC Marine (0 model
 ### Subsea manifolds and templates (ex-subsea-manifolds-and-templates-production-injection-cluster-pl)
 
 Primary code: UPS: Upstream
-Gather and distribute production/injection flows, enable testing, isolation, sampling, metering and allocation; provide tie-in termination of flowlines and risers.
+Gather and distribute production/injection flows, enable testing, isolation, sampling, metering and allocation; provide tie-in termination of flowlines and risers. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds
 Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems), Baker Hughes (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4657,7 +4657,7 @@ Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems),
 ### Subsea multiphase pumping and boosting (ex-subsea-multiphase-pumping-and-boosting)
 
 Primary code: UPS: Upstream
-Lower wellhead pressure, increase flow and recovery, compensate tieback pressure drop, mitigate slugging and manage hydrates/wax via pump heat.
+Lower wellhead pressure, increase flow and recovery, compensate tieback pressure drop, mitigate slugging and manage hydrates/wax via pump heat. Primary source: https://www.api.org/products-and-services/standards
 Vendors: OneSubsea (SLB/Aker Solutions JV), Baker Hughes (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4668,7 +4668,7 @@ Vendors: OneSubsea (SLB/Aker Solutions JV), Baker Hughes (0 model lines recorded
 ### Subsea separation, water handling and metering (ex-subsea-separation-water-handling-and-metering)
 
 Primary code: UPS: Upstream
-Separate gas/liquid and oil/water on the seabed, remove solids, and measure multiphase/wet-gas flows for allocation and control.
+Separate gas/liquid and oil/water on the seabed, remove solids, and measure multiphase/wet-gas flows for allocation and control. Primary source: https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions
 Vendors: OneSubsea (SLB/Aker Solutions JV), Baker Hughes / Emerson Roxar, TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4679,7 +4679,7 @@ Vendors: OneSubsea (SLB/Aker Solutions JV), Baker Hughes / Emerson Roxar, Techni
 ### Subsea trees (ex-subsea-trees-christmas-trees)
 
 Primary code: UPS: Upstream
-Installed on the subsea wellhead to control flow into and out of the well; connect tubing and downhole devices to the seafloor and surface host; provide valve, choke and intervention interfaces.
+Installed on the subsea wellhead to control flow into and out of the well; connect tubing and downhole devices to the seafloor and surface host; provide valve, choke and intervention interfaces. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees
 Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems), Baker Hughes (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4706,7 +4706,7 @@ Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems),
 ### Subsea umbilicals (ex-subsea-umbilicals-electro-hydraulic-electrical-steel-tube-hybr)
 
 Primary code: UPS: Upstream
-Link surface and seafloor equipment: electric and fiber-optic signals, electrical power, hydraulic and chemical injection fluids; power boosting/compression and provide flowline heating.
+Link surface and seafloor equipment: electric and fiber-optic signals, electrical power, hydraulic and chemical injection fluids; power boosting/compression and provide flowline heating. Primary source: https://www.api.org/products-and-services/standards
 Vendors: OneSubsea (SLB/Aker Solutions JV), Prysmian Group, Nexans, TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4717,7 +4717,7 @@ Vendors: OneSubsea (SLB/Aker Solutions JV), Prysmian Group, Nexans, TechnipFMC (
 ### Subsea wellheads, conductors and mudline wellhead systems (ex-subsea-wellheads-conductors-and-mudline-wellhead-systems-hpht)
 
 Primary code: UPS: Upstream
-Primary pressure barrier of a subsea well; anchor and suspension point; seal element for casing strings; supports BOP, tree and downhole control line pass-through.
+Primary pressure barrier of a subsea well; anchor and suspension point; seal element for casing strings; supports BOP, tree and downhole control line pass-through. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads
 Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems), Baker Hughes (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4730,7 +4730,7 @@ Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems),
 ### Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints (gas-engine-exhaust-emissions)
 
 Primary code: PWR: Power and renewables
-Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints | Emissions control: oxidation catalyst, SCR, NOx/CO figures | Exhaust stacks, silencers and emission after-treatment
+Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints | Emissions control: oxidation catalyst, SCR, NOx/CO figures | Exhaust stacks, silencers and emission after-treatment Primary source: https://www.jenbacher.com/en/gas-engines/type-6/
 Vendors: INNIO Jenbacher, Johnson Matthey, Burgess-Manning (CECO Environmental), SVI BREMCO (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4771,7 +4771,7 @@ Recorded gaps:
 ### Exhaust gas system (geg-exhaust-gas-system)
 
 Primary code: PWR: Power and renewables
-Exhaust gas system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Exhaust gas system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.iacacoustics.global/diesel-exhaust-silencers-and-purifiers-diesel-generator-silencer-iac/
 Vendors: IAC Acoustics (UK Ltd / IAC World), Rolls-Royce / mtu solutions, Johnson Matthey, GT Silex (Nelson Global), Maxim Silencers (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4839,7 +4839,7 @@ Recorded gaps:
 ### Boiler forced-draft fan and inlet silencer (fd-fan-boiler)
 
 Primary code: PWR: Power and renewables
-Fan that pushes combustion air through the windbox, burner and gas passes, and can also convey flue gas through catalysts, economiser, FGR ducting and stack. Arrangements 3, 4 and 7 are offered; inlet silencers and filters reduce intake noise and protect the fan, and a variable-speed drive can replace damper control at part load.
+Fan that pushes combustion air through the windbox, burner and gas passes, and can also convey flue gas through catalysts, economiser, FGR ducting and stack. Arrangements 3, 4 and 7 are offered; inlet silencers and filters reduce intake noise and protect the fan, and a variable-speed drive can replace damper control at part load. Primary source: https://www.halgopower.com/products/forced-draft-fans
 Vendors: Halgo Power (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4875,7 +4875,7 @@ Recorded gaps:
 ### Induced-draft fan, stack and FGR ducting (id-fan-stack-fgr)
 
 Primary code: PWR: Power and renewables
-Induced-draft fan and flue-gas path that maintain furnace draft and discharge products to stack. Stacks and ductwork are engineered from flue-gas volume, temperature and space constraints; dampers hold a set draft loss and an SCR reactor house is sized from the catalyst mass required to meet the emission limit. FGR ducting returns a controlled share of flue gas to the forced-draft intake.
+Induced-draft fan and flue-gas path that maintain furnace draft and discharge products to stack. Stacks and ductwork are engineered from flue-gas volume, temperature and space constraints; dampers hold a set draft loss and an SCR reactor house is sized from the catalyst mass required to meet the emission limit. FGR ducting returns a controlled share of flue gas to the forced-draft intake. Primary source: https://halgopower.com/products/stacks-and-ductwork
 Vendors: Halgo Power (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4895,7 +4895,7 @@ Recorded gaps:
 ### Feed gas treatment - hydrotreating / hydrodesulfurisation and ZnO guard beds (ammonia-feed-gas-treatment)
 
 Primary code: PCH: Petrochemicals
-Feed gas treatment - hydrotreating / hydrodesulfurisation and ZnO guard beds
+Feed gas treatment - hydrotreating / hydrodesulfurisation and ZnO guard beds Primary source: https://en.wikipedia.org/wiki/Haber_process
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4919,7 +4919,7 @@ Recorded gaps:
 ### Boiler feedwater pretreatment (boiler-feedwater-pretreatment)
 
 Primary code: PWR: Power and renewables
-Remove suspended solids, chlorine/oxidants, scale-forming calcium/magnesium hardness and alkalinity from raw/make-up water before it reaches the boiler, reducing scale, foaming, carryover and chemical demand. External (pre-boiler) treatment is preferred where possible; conditioning is only a supplement.
+Remove suspended solids, chlorine/oxidants, scale-forming calcium/magnesium hardness and alkalinity from raw/make-up water before it reaches the boiler, reducing scale, foaming, carryover and chemical demand. External (pre-boiler) treatment is preferred where possible; conditioning is only a supplement. Primary source: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler
 Vendors: Veolia Water Technologies, LANXESS, SUEZ Water Technologies (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4958,7 +4958,7 @@ Recorded gaps:
 ### Deaerator vent condensers and feedtank internals (spray nozzles, trays, sparge pipes) (deaerator-vent-condenser-internals)
 
 Primary code: PWR: Power and renewables
-Mechanically remove dissolved oxygen and carbon dioxide by heating feedwater to saturation and breaking it into droplets/thin sheets in a steam atmosphere; collect deaerated water in a storage section under a steam blanket; vent non-condensables with a small controlled steam loss. Feedtank internals condense returned flash steam and mix cold make-up uniformly.
+Mechanically remove dissolved oxygen and carbon dioxide by heating feedwater to saturation and breaking it into droplets/thin sheets in a steam atmosphere; collect deaerated water in a storage section under a steam blanket; vent non-condensables with a small controlled steam loss. Feedtank internals condense returned flash steam and mix cold make-up uniformly. Primary source: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators
 Vendors: Spirax Sarco, Veolia Water Technologies & Solutions, Warren Controls (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -4988,7 +4988,7 @@ Recorded gaps:
 ### Feedtank, deaerator and feedwater pump (feedwater-deaerator-system)
 
 Primary code: PWR: Power and renewables
-System that stores returned condensate and make-up, heats it and removes dissolved oxygen before the feedwater pump delivers it to the boiler. Atmospheric feedtanks operate at 85-90 C; pressurised deaerators at 0.2 bar g / 105 C with 10-20 minutes of storage, about 5:1 turndown and a vent rate of 0.5-2 kg per 1,000 kg/h of capacity.
+System that stores returned condensate and make-up, heats it and removes dissolved oxygen before the feedwater pump delivers it to the boiler. Atmospheric feedtanks operate at 85-90 C; pressurised deaerators at 0.2 bar g / 105 C with 10-20 minutes of storage, about 5:1 turndown and a vent rate of 0.5-2 kg per 1,000 kg/h of capacity. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators?sc_lang=en-GB
 Vendors: Spirax Sarco, TLV, Cleaver-Brooks (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5035,7 +5035,7 @@ Recorded gaps:
 ### Field instrumentation (geg-field-instrumentation)
 
 Primary code: PWR: Power and renewables
-Field instrumentation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
+Field instrumentation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf
 Vendors: Emerson (duplex stainless steel option on Roxar 2600, page read), Yokogawa Electric Corporation, ABB, Yokogawa (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5103,7 +5103,7 @@ Recorded gaps:
 ### Fire protection and ammonia deluge/suppression (utility-fire-protection)
 
 Primary code: PCH: Petrochemicals
-Fire protection and ammonia deluge/suppression
+Fire protection and ammonia deluge/suppression Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf
 Vendors: JBW Consulting Engineers (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5116,7 +5116,7 @@ Vendors: JBW Consulting Engineers (0 model lines recorded).
 ### Fire fighting system (geg-fire-fighting-system)
 
 Primary code: PWR: Power and renewables
-Fire fighting system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Fire fighting system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf
 Vendors: Ruhrpumpen Group, Tornatech (controllers), Clarke (C18 diesel engine) (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5186,7 +5186,7 @@ Recorded gaps:
 ### Fire and service water pump house (geg-fire-and-service-water-pump-house)
 
 Primary code: PWR: Power and renewables
-Fire and service water pump house for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Fire and service water pump house for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5204,7 +5204,7 @@ Recorded gaps:
 ### Blowout preventers (fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s-d23380)
 
 Primary code: UPS: Upstream
-Contain wellbore pressure and divert formation fluids/gases; shear pipe in emergency; provide surface, subsea and land pressure control.
+Contain wellbore pressure and divert formation fluids/gases; shear pipe in emergency; provide surface, subsea and land pressure control. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment
 Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5279,7 +5279,7 @@ Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 ### Blowout preventers (fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s)
 
 Primary code: UPS: Upstream
-Contain wellbore pressure and divert formation fluids/gases; shear pipe in emergency; provide surface, subsea and land pressure control.
+Contain wellbore pressure and divert formation fluids/gases; shear pipe in emergency; provide surface, subsea and land pressure control. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment
 Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5291,7 +5291,7 @@ Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 ### Christmas trees (fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin-bb5ee8)
 
 Primary code: UPS: Upstream
-Control flow in and out of wells, connect tubing to seafloor/above-water facilities, and provide pressure barrier and intervention access.
+Control flow in and out of wells, connect tubing to seafloor/above-water facilities, and provide pressure barrier and intervention access. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees
 Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFMC (CDS Separation Systems), Baker Hughes (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5308,7 +5308,7 @@ Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFM
 ### Christmas trees (fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin)
 
 Primary code: UPS: Upstream
-Control flow in and out of wells, connect tubing to seafloor/above-water facilities, and provide pressure barrier and intervention access.
+Control flow in and out of wells, connect tubing to seafloor/above-water facilities, and provide pressure barrier and intervention access. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees
 Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFMC (CDS Separation Systems), Baker Hughes (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5346,7 +5346,7 @@ Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFM
 ### Connectors (fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246)
 
 Primary code: UPS: Upstream
-Make separable hydraulic, electrical and optical connections subsea/downhole, and connect flowlines/tie-ins; provide sealing and corrosion protection in hostile environments.
+Make separable hydraulic, electrical and optical connections subsea/downhole, and connect flowlines/tie-ins; provide sealing and corrosion protection in hostile environments. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/
 Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5411,7 +5411,7 @@ Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFM
 ### Connectors (fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri)
 
 Primary code: UPS: Upstream
-Make separable hydraulic, electrical and optical connections subsea/downhole, and connect flowlines/tie-ins; provide sealing and corrosion protection in hostile environments.
+Make separable hydraulic, electrical and optical connections subsea/downhole, and connect flowlines/tie-ins; provide sealing and corrosion protection in hostile environments. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/
 Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5426,7 +5426,7 @@ Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), TechnipFM
 ### Hoses (fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966)
 
 Primary code: UPS: Upstream
-Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services.
+Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/
 Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5516,7 +5516,7 @@ Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solution
 ### Hoses (fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading)
 
 Primary code: UPS: Upstream
-Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services.
+Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/
 Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5529,7 +5529,7 @@ Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solution
 ### Injectors and injection systems (fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339)
 
 Primary code: UPS: Upstream
-Provide reservoir pressure support and lift; inject treating chemicals for flow assurance and asset integrity; deliver seawater/gas/chemicals to the reservoir or production stream.
+Provide reservoir pressure support and lift; inject treating chemicals for flow assurance and asset integrity; deliver seawater/gas/chemicals to the reservoir or production stream. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection
 Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Baker Hughes, SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5639,7 +5639,7 @@ Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Baker Hug
 ### Injectors and injection systems (fl-injectors-and-injection-systems-water-injection-gas-injection)
 
 Primary code: UPS: Upstream
-Provide reservoir pressure support and lift; inject treating chemicals for flow assurance and asset integrity; deliver seawater/gas/chemicals to the reservoir or production stream.
+Provide reservoir pressure support and lift; inject treating chemicals for flow assurance and asset integrity; deliver seawater/gas/chemicals to the reservoir or production stream. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection
 Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Baker Hughes, SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5654,7 +5654,7 @@ Vendors: SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Baker Hug
 ### Pipelines and flowlines (fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru-509b41)
 
 Primary code: UPS: Upstream
-Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required.
+Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/
 Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5667,7 +5667,7 @@ Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB /
 ### Pipelines and flowlines (fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru)
 
 Primary code: UPS: Upstream
-Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required.
+Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/
 Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5775,7 +5775,7 @@ Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB /
 ### Risers (fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e)
 
 Primary code: UPS: Upstream
-Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure and thermal load.
+Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure and thermal load. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/
 Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -5997,7 +5997,7 @@ Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB /
 ### Risers (fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing)
 
 Primary code: UPS: Upstream
-Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure and thermal load.
+Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure and thermal load. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/
 Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6220,7 +6220,7 @@ Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, SLB OneSubsea (SLB /
 ### Separators (fl-separators-2-3-phase-horizontal-vertical-spherical-compact-in-46519c)
 
 Primary code: UPS: Upstream
-Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection.
+Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation
 Vendors: SLB (Cameron pressure control equipment), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6256,7 +6256,7 @@ Vendors: SLB (Cameron pressure control equipment), SLB OneSubsea (SLB / Aker Sol
 ### Separators (fl-separators-2-3-phase-horizontal-vertical-spherical-compact-in)
 
 Primary code: UPS: Upstream
-Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection.
+Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation
 Vendors: SLB (Cameron pressure control equipment), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6269,7 +6269,7 @@ Vendors: SLB (Cameron pressure control equipment), SLB OneSubsea (SLB / Aker Sol
 ### Subsea umbilicals (fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste-15ccf3)
 
 Primary code: UPS: Upstream
-Provide the critical link between onshore/offshore hosts and subsea facilities: control, hydraulic power, chemical injection, electrical power and communications.
+Provide the critical link between onshore/offshore hosts and subsea facilities: control, hydraulic power, chemical injection, electrical power and communications. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals
 Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Nexans (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6284,7 +6284,7 @@ Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solution
 ### Subsea umbilicals (fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste)
 
 Primary code: UPS: Upstream
-Provide the critical link between onshore/offshore hosts and subsea facilities: control, hydraulic power, chemical injection, electrical power and communications.
+Provide the critical link between onshore/offshore hosts and subsea facilities: control, hydraulic power, chemical injection, electrical power and communications. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals
 Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solutions / Subsea7 joint venture), Nexans (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6330,7 +6330,7 @@ Vendors: TechnipFMC (CDS Separation Systems), SLB OneSubsea (SLB / Aker Solution
 ### Flare, relief, vent gas recovery and fugitive emission control (ammonia-flare-vent-control)
 
 Primary code: PCH: Petrochemicals
-Flare, relief, vent gas recovery and fugitive emission control | Flare and relief systems (ammonia and urea relief, liquid seal drums)
+Flare, relief, vent gas recovery and fugitive emission control | Flare and relief systems (ammonia and urea relief, liquid seal drums) Primary source: https://en.wikipedia.org/wiki/Gas_flare
 Vendors: Howden (a Chart Industries company; KK&K, CKD brands), American Petroleum Institute, Zeeco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6355,7 +6355,7 @@ Recorded gaps:
 ### Fluidised bed cooler / product cooler (urea-fluid-bed-cooler)
 
 Primary code: PCH: Petrochemicals
-Fluidised bed cooler / product cooler
+Fluidised bed cooler / product cooler Primary source: https://www.toyo-eng.com/jp/en/solution/urea_granulation/
 Vendors: Toyo Engineering (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6374,7 +6374,7 @@ Recorded gaps:
 ### Freight, transport, cargo insurance and installation (geg-freight-transport-cargo-insurance-and-installation)
 
 Primary code: PWR: Power and renewables
-Freight, transport, cargo insurance and installation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts.
+Freight, transport, cargo insurance and installation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf
 Vendors: GE (Prelude compressor trains, secondary source not read) (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6396,7 +6396,7 @@ Recorded gaps:
 ### Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank (gas-engine-fuel-gas-system)
 
 Primary code: PWR: Power and renewables
-Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank (liquid) | Fuel gas storage, compression, drying and pressure-reduction train
+Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank (liquid) | Fuel gas storage, compression, drying and pressure-reduction train Primary source: https://www.jenbacher.com/en/services/balance-of-plant/4072-2/
 Vendors: INNIO Jenbacher, Everllence, Woodward, AERZEN (Aerzener Maschinenfabrik GmbH), Cummins Inc., Schneider Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6437,7 +6437,7 @@ Recorded gaps:
 ### Gas detection (utility-gas-detection)
 
 Primary code: PCH: Petrochemicals
-Gas detection (ammonia detectors, fire and gas system)
+Gas detection (ammonia detectors, fire and gas system) Primary source: https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf
 Vendors: MSA Safety (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6453,7 +6453,7 @@ Vendors: MSA Safety (0 model lines recorded).
 ### Gas engine generator units (geg-gas-engine-generator-units)
 
 Primary code: PWR: Power and renewables
-Gas engine generator units for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / GEG. BOQ quantities and dimensions are design inputs, not sourced facts.
+Gas engine generator units for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / GEG. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products
 Vendors: Wärtsilä, PT Pembangunan Perumahan (Persero) Tbk (PT PP), EPV Energy Ltd, Kenya Electricity Generating Company Limited (KenGen), Tsavo Power Company Limited, MAN Engines, Everllence, INNIO Jenbacher, Clarke Energy, SynCraft (Jenbacher J412 customer/project partner), Stadtwerke Kiel (190 MW J920 CHP project owner), Rolls-Royce Power Systems (mtu), Caterpillar, Cummins (6 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6602,7 +6602,7 @@ Recorded gaps:
 ### Gas metering foundation (geg-gas-metering-foundation)
 
 Primary code: PWR: Power and renewables
-Gas metering foundation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Gas metering foundation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6620,7 +6620,7 @@ Recorded gaps:
 ### Gas receiving and metering station with hot tap and fuel gas supply (geg-gas-receiving-and-metering-station-with-hot-tap-and-fuel-gas-sup)
 
 Primary code: PWR: Power and renewables
-Gas receiving and metering station with hot tap and fuel gas supply for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Gas receiving and metering station with hot tap and fuel gas supply for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf
 Vendors: Honeywell, Emerson (duplex stainless steel option on Roxar 2600, page read), T.D. Williamson, LLC (Tulsa, OK, USA) (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6703,7 +6703,7 @@ Recorded gaps:
 ### Gas treatment scrubber (geg-gas-treatment-scrubber)
 
 Primary code: PWR: Power and renewables
-Gas treatment scrubber for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Gas treatment scrubber for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1
 Vendors: APZEM India Engineering, Chennai, India, Sly Inc., Strongsville, OH, USA (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6772,7 +6772,7 @@ Recorded gaps:
 ### Site gate and fencing (geg-site-gate-and-fencing)
 
 Primary code: PWR: Power and renewables
-Site gate and fencing for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Site gate and fencing for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.geapl.com/telescopic-sliding-gates
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6813,7 +6813,7 @@ Recorded gaps:
 ### Security room and gatehouse (geg-security-room-and-gatehouse)
 
 Primary code: PWR: Power and renewables
-Security room and gatehouse for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Security room and gatehouse for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6831,7 +6831,7 @@ Recorded gaps:
 ### Generator / alternator (gas-engine-alternator)
 
 Primary code: PWR: Power and renewables
-Generator / alternator (synchronous, brushless, PMG excitation, AVR)
+Generator / alternator (synchronous, brushless, PMG excitation, AVR) Primary source: https://www.meccalte.com/en/products/alternators/power-products-mvhv
 Vendors: Mecc Alte, Cummins Generator Technologies, Basler Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6857,7 +6857,7 @@ Recorded gaps:
 ### 11 kV generator circuit breakers (geg-11-kv-generator-circuit-breakers)
 
 Primary code: PWR: Power and renewables
-11 kV generator circuit breakers for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+11 kV generator circuit breakers for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf
 Vendors: ABB, Siemens (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6950,7 +6950,7 @@ Recorded gaps:
 ### Skid / packaged genset and enclosure (gas-engine-packaged-genset-enclosure)
 
 Primary code: PWR: Power and renewables
-Skid / packaged genset and enclosure (containerised, outdoor, acoustic) | Acoustic enclosures and noise barriers
+Skid / packaged genset and enclosure (containerised, outdoor, acoustic) | Acoustic enclosures and noise barriers Primary source: https://www.jenbacher.com/en/energy-solutions/containerized-solutions/
 Vendors: INNIO Jenbacher, Rehlko, Rolls-Royce Power Systems (mtu), Burgess-Manning (CECO Environmental) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -6989,7 +6989,7 @@ Recorded gaps:
 ### Urea fluid-bed granulator (urea-fluid-bed-granulator)
 
 Primary code: PCH: Petrochemicals
-Fluid-bed unit that builds urea granules from sprayed melt onto seed particles, with internal recycling and classification to hold a target granule size. Granules are larger and harder than prills, which suits bulk blending and reduces caking.
+Fluid-bed unit that builds urea granules from sprayed melt onto seed particles, with internal recycling and classification to hold a target granule size. Granules are larger and harder than prills, which suits bulk blending and reduces caking. Primary source: https://ucpcdn.thyssenkrupp.com/_binary/UCPthyssenkruppUhde/97ea5e98-9560-47d5-b249-ab95e0f4a083/brochure-urea_scr.pdf
 Vendors: thyssenkrupp Uhde, Stamicarbon, Toyo Engineering, Casale, Casale, UreaKnowHow B.V. (4 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7055,7 +7055,7 @@ Recorded gaps:
 ### Boiler air preheater (air-preheater-boiler)
 
 Primary code: PWR: Power and renewables
-Heat exchanger that transfers heat from outgoing flue gas to incoming combustion air. Regenerative (rotary) designs use a rotating matrix or baskets; recuperative designs use tubular or plate elements. B&W supplies air heaters and notes the cold-end metal temperature is generally approximated from the average gas and air temperatures.
+Heat exchanger that transfers heat from outgoing flue gas to incoming combustion air. Regenerative (rotary) designs use a rotating matrix or baskets; recuperative designs use tubular or plate elements. B&W supplies air heaters and notes the cold-end metal temperature is generally approximated from the average gas and air temperatures. Primary source: https://www.babcock.com/home/products/air-heaters
 Vendors: Babcock & Wilcox (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7075,7 +7075,7 @@ Recorded gaps:
 ### Boiler economizer (feedwater heat recovery) (economizer-boiler)
 
 Primary code: PWR: Power and renewables
-Heat exchanger that raises feedwater temperature using flue gas leaving the boiler or superheater, cutting fuel use. Spirax Sarco gives about a 2% efficiency gain per 10 C rise in feedwater temperature; condensing economisers cool gas below the dew point and need corrosion-resistant surfaces.
+Heat exchanger that raises feedwater temperature using flue gas leaving the boiler or superheater, cutting fuel use. Spirax Sarco gives about a 2% efficiency gain per 10 C rise in feedwater temperature; condensing economisers cool gas below the dew point and need corrosion-resistant surfaces. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/miscellaneous-boiler-types-economisers-and-superheaters?sc_lang=en-GB
 Vendors: Babcock & Wilcox, Cleaver-Brooks, Spirax Sarco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7107,7 +7107,7 @@ Recorded gaps:
 ### Boiler superheater and attemperator (superheater-boiler)
 
 Primary code: PWR: Power and renewables
-Heat exchanger that adds heat to saturated steam, usually as pendant or horizontal banks in the gas path, with a desuperheater or attemperator controlling final steam temperature. Water-tube power boilers can reach 550 C superheated steam; separate or supplementary-fired superheaters are used where gas-turbine exhaust is too cool.
+Heat exchanger that adds heat to saturated steam, usually as pendant or horizontal banks in the gas path, with a desuperheater or attemperator controlling final steam temperature. Water-tube power boilers can reach 550 C superheated steam; separate or supplementary-fired superheaters are used where gas-turbine exhaust is too cool. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB
 Vendors: Babcock & Wilcox (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7144,7 +7144,7 @@ Recorded gaps:
 ### Continuous/TDS blowdown control, flash vessels, blowdown heat-recovery exchangers (blowdown-heat-recovery)
 
 Primary code: PWR: Power and renewables
-Continuously remove concentrated boiler water to hold TDS below foaming/carryover limits; reduce energy and water loss by flashing to low pressure, recovering flash steam to the feedtank/deaerator, and cooling residual blowdown through a heat exchanger that preheats make-up before discharge.
+Continuously remove concentrated boiler water to hold TDS below foaming/carryover limits; reduce energy and water loss by flashing to low pressure, recovering flash steam to the feedtank/deaerator, and cooling residual blowdown through a heat exchanger that preheats make-up before discharge. Primary source: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water
 Vendors: Spirax Sarco, TLV, Veolia Water Technologies & Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7183,7 +7183,7 @@ Recorded gaps:
 ### Health, safety, security and environment (geg-health-safety-security-and-environment)
 
 Primary code: PWR: Power and renewables
-Health, safety, security and environment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts.
+Health, safety, security and environment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/
 Vendors: Department of Occupational Safety and Health (DOSH) (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7216,7 +7216,7 @@ Recorded gaps:
 ### High-voltage circuit breakers (132-500 kV) (ele-hv-circuit-breakers)
 
 Primary code: ELE: Electrical engineering
-SF6 dead-tank and live-tank circuit breakers at 132, 275 and 500 kV for grid and substation duty, with interrupting ratings set by the Malaysian fault levels, to IEC 62271-100.
+SF6 dead-tank and live-tank circuit breakers at 132, 275 and 500 kV for grid and substation duty, with interrupting ratings set by the Malaysian fault levels, to IEC 62271-100. Primary source: https://www.tnb.com.my/
 Vendors: Hitachi Energy, Siemens Energy (incl. ex-Dresser-Rand), GE Vernova (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7241,7 +7241,7 @@ Recorded gaps:
 ### HVAC system (geg-hvac-system)
 
 Primary code: PWR: Power and renewables
-HVAC system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+HVAC system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf
 Vendors: Daikin Refrigeration Malaysia Sdn. Bhd., Banting, Selangor, Malaysia, Dunham-Bush (Malaysia and regional operations) (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7286,7 +7286,7 @@ Recorded gaps:
 ### Pilot and ignition systems (pilots, igniters, flame scanners, BMS sequencing) (boiler-pilot-ignition-system)
 
 Primary code: PWR: Power and renewables
-Provide a reliable ignition source for pilot and main burners and prove flame presence before fuel is admitted; burner management system (BMS) sequences purge, pilot trial-for-ignition, flame proof, main flame light-off and shutdown, while a separate combustion control system meters fuel/air. Flame scanners with background-flame discrimination allow light-off and verification from the control room.
+Provide a reliable ignition source for pilot and main burners and prove flame presence before fuel is admitted; burner management system (BMS) sequences purge, pilot trial-for-ignition, flame proof, main flame light-off and shutdown, while a separate combustion control system meters fuel/air. Flame scanners with background-flame discrimination allow light-off and verification from the control room. Primary source: https://www.johnzink.com/products/flare-systems/instafire-rapid-pilot-monitoring-and-ignition-system
 Vendors: John Zink (Koch Engineered Solutions), Zeeco, Forney Corporation, Siemens, Profire Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7345,7 +7345,7 @@ Recorded gaps:
 ### Decommissioning / removal technologies (ins-decommissioning-removal-technologies-reverse-installation-sing)
 
 Primary code: UPS: Upstream
-Prepare structure (clean, cut, install lifting points), remove topsides and jacket by reverse installation (piece-small or module), single-lift heavy lift, or controlled toppling where permitted; transport to shore for recycling/disposal.
+Prepare structure (clean, cut, install lifting points), remove topsides and jacket by reverse installation (piece-small or module), single-lift heavy lift, or controlled toppling where permitted; transport to shore for recycling/disposal. Primary source: https://www.heerema.com/heerema-marine-contractors/offshore-decommissioning/jacket-and-topside-removal
 Vendors: Heerema Marine Contractors, Allseas (OEM design), Boskalis (Dockwise heritage), Thunder Cranes, Mammoet (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7359,7 +7359,7 @@ Vendors: Heerema Marine Contractors, Allseas (OEM design), Boskalis (Dockwise he
 ### Float-over topside installation (ins-float-over-topside-installation-barge-float-over-tidal-float-o)
 
 Primary code: UPS: Upstream
-Transport an integrated topside on a heavy-lift/transport barge, maneuver the barge between pre-installed jacket legs, align deck legs with leg-mating units, ballast the barge (or use tidal change) to transfer weight to the substructure, then weld out.
+Transport an integrated topside on a heavy-lift/transport barge, maneuver the barge between pre-installed jacket legs, align deck legs with leg-mating units, ballast the barge (or use tidal change) to transfer weight to the substructure, then weld out. Primary source: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)
 Vendors: Trelleborg Marine and Infrastructure, Mammoet, Orca Offshore, Hi-Tech Elastomers, SeaCamel (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7377,7 +7377,7 @@ Vendors: Trelleborg Marine and Infrastructure, Mammoet, Orca Offshore, Hi-Tech E
 ### Floating platform installation — semi-submersible ballasting/mooring (ins-floating-platform-installation-semi-submersible-ballasting-moo)
 
 Primary code: UPS: Upstream
-Float a semi-submersible hull to site, ballast to operational draft, connect chain/wire/polyester mooring or hold with DP; can be used from 60 m to 6,000 m water depth.
+Float a semi-submersible hull to site, ballast to operational draft, connect chain/wire/polyester mooring or hold with DP; can be used from 60 m to 6,000 m water depth. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Boskalis (Dockwise heritage), Allseas (OEM design) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7390,7 +7390,7 @@ Vendors: Boskalis (Dockwise heritage), Allseas (OEM design) (0 model lines recor
 ### FPSO/FSO hook-up, offloading and commissioning (ins-fpso-fso-hook-up-offloading-and-commissioning)
 
 Primary code: UPS: Upstream
-Bring a tanker-based FPSO/FSO to site, moor it, connect risers/flowlines/umbilicals and offloading system, hook up pre-laid moorings (often with AHTS + ROV), then commission and hand over.
+Bring a tanker-based FPSO/FSO to site, moor it, connect risers/flowlines/umbilicals and offloading system, hook up pre-laid moorings (often with AHTS + ROV), then commission and hand over. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Acteon, Fugro, Oceaneering, Vantris Energy (Sapura Energy) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7401,7 +7401,7 @@ Vendors: Acteon, Fugro, Oceaneering, Vantris Energy (Sapura Energy) (0 model lin
 ### Gravity-based structure (ins-gravity-based-structure-gbs-installation)
 
 Primary code: UPS: Upstream
-Concrete or steel gravity structure built in sheltered deep water near shore, floated to site, sunk by controlled ballasting onto prepared seabed, then topsides installed by float-over or crane.
+Concrete or steel gravity structure built in sheltered deep water near shore, floated to site, sunk by controlled ballasting onto prepared seabed, then topsides installed by float-over or crane. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7415,7 +7415,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Hook-up, commissioning and close-out (ins-hook-up-commissioning-and-close-out)
 
 Primary code: UPS: Upstream
-After set-down: weld out LMU/leg connections, install conductors/risers/umbilicals, connect utilities, test systems, survey as-built position and hand over; for float-over, release LMU load and weld topside leg cans to substructure.
+After set-down: weld out LMU/leg connections, install conductors/risers/umbilicals, connect utilities, test systems, survey as-built position and hand over; for float-over, release LMU load and weld topside leg cans to substructure. Primary source: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)
 Vendors: Acteon, Fugro (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7427,7 +7427,7 @@ Vendors: Acteon, Fugro (0 model lines recorded).
 ### Impact pile driving hammers (ins-impact-pile-driving-hammers-hydraulic-diesel-underwater)
 
 Primary code: UPS: Upstream
-Drive tubular piles/conductors/monopiles to target penetration using controlled high-energy blows; hydraulic double-acting hammers give higher frequency and control; underwater hammers use power packs and compensators.
+Drive tubular piles/conductors/monopiles to target penetration using controlled high-energy blows; hydraulic double-acting hammers give higher frequency and control; underwater hammers use power packs and compensators. Primary source: https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/
 Vendors: IQIP, Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2026), Vulcan Iron Works (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7487,7 +7487,7 @@ Vendors: IQIP, Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2
 ### Jack-up installation (ins-jack-up-installation-self-elevating-units)
 
 Primary code: UPS: Upstream
-Tow to site with legs up, jack legs down to seabed, preload with ballast to ensure legs do not penetrate further in service, then jack hull above water to a predetermined air gap so waves act on slender legs rather than hull.
+Tow to site with legs up, jack legs down to seabed, preload with ballast to ensure legs do not penetrate further in service, then jack hull above water to a predetermined air gap so waves act on slender legs rather than hull. Primary source: https://en.wikipedia.org/wiki/Jackup_rig
 Vendors: Seaway7 (Subsea7), Noble Drilling (Noble Lloyd Noble) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7502,7 +7502,7 @@ Vendors: Seaway7 (Subsea7), Noble Drilling (Noble Lloyd Noble) (0 model lines re
 ### Launch barge and jacket launching (ins-launch-barge-and-jacket-launching-skid-rails-rocker-arms-launc)
 
 Primary code: UPS: Upstream
-Fabricate jacket horizontally, load out onto a launch barge, tow to site, ballast the barge to trim, winch/slide the jacket over skid rails and rocker arms into the water, let it float near-horizontal (head-up), then upend and set on seabed.
+Fabricate jacket horizontally, load out onto a launch barge, tow to site, ballast the barge to trim, winch/slide the jacket over skid rails and rocker arms into the water, let it float near-horizontal (head-up), then upend and set on seabed. Primary source: https://thenavalarch.com/launching-steel-jackets/
 Vendors: DNV (Installjac software), Mermaid Consultants, TheNavalArch, Heerema Marine Contractors (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7522,7 +7522,7 @@ Vendors: DNV (Installjac software), Mermaid Consultants, TheNavalArch, Heerema M
 ### Leg Mating Units (ins-leg-mating-units-lmu-elastomeric-shock-absorbers)
 
 Primary code: UPS: Upstream
-Absorb vertical and horizontal compression as topside deck-leg cans land on jacket legs during float-over; manage static and dynamic loads and horizontal movement from sea state; allow load release after set-down.
+Absorb vertical and horizontal compression as topside deck-leg cans land on jacket legs during float-over; manage static and dynamic loads and horizontal movement from sea state; allow load release after set-down. Primary source: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)
 Vendors: Trelleborg Marine and Infrastructure, Hi-Tech Elastomers, Orca Offshore / SeaCamel (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7536,7 +7536,7 @@ Vendors: Trelleborg Marine and Infrastructure, Hi-Tech Elastomers, Orca Offshore
 ### Load-out and transport — SPMT, skidding, strand jacking, barge load-out, sea-fastening (ins-load-out-and-transport-spmt-skidding-strand-jacking-barge-load)
 
 Primary code: UPS: Upstream
-Move completed topsides/jackets from fabrication yard onto a transport barge or heavy-lift vessel using SPMTs, skid tracks or strand jacks; analyze quay strength and CoG; ballast vessel and install sea-fastening for the voyage.
+Move completed topsides/jackets from fabrication yard onto a transport barge or heavy-lift vessel using SPMTs, skid tracks or strand jacks; analyze quay strength and CoG; ballast vessel and install sea-fastening for the voyage. Primary source: https://www.mammoet.com/offshore/topside-load-out/
 Vendors: Mammoet, ALE, Lampson, Allseas (OEM design) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7550,7 +7550,7 @@ Vendors: Mammoet, ALE, Lampson, Allseas (OEM design) (0 model lines recorded).
 ### Mooring and anchoring systems (ins-mooring-and-anchoring-systems-incl-ahts-and-anchors)
 
 Primary code: UPS: Upstream
-Position and hold floating facilities and assist installation vessels using anchors, chain/wire/polyester lines, AHTS vessels and DP systems; includes pre-laid mooring line hook-up for FPSOs.
+Position and hold floating facilities and assist installation vessels using anchors, chain/wire/polyester lines, AHTS vessels and DP systems; includes pre-laid mooring line hook-up for FPSOs. Primary source: https://en.wikipedia.org/wiki/SSCV_Sleipnir
 Vendors: Heerema Marine Contractors, Acteon / Intermoor, Smit (Boskalis) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7565,7 +7565,7 @@ Vendors: Heerema Marine Contractors, Acteon / Intermoor, Smit (Boskalis) (0 mode
 ### Pile handling, levelling, grouting and connection hardware (ins-pile-handling-levelling-grouting-and-connection-hardware)
 
 Primary code: UPS: Upstream
-Handle/upend piles and jacket legs, level and align before grouting, seal annulus, grip jacket piles and provide lifting/release tools.
+Handle/upend piles and jacket legs, level and align before grouting, seal annulus, grip jacket piles and provide lifting/release tools. Primary source: https://en.wikipedia.org/wiki/Saipem_7000
 Vendors: Hi-Tech Elastomers, IQIP, Acteon / Menck (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7579,7 +7579,7 @@ Vendors: Hi-Tech Elastomers, IQIP, Acteon / Menck (0 model lines recorded).
 ### Provider register — installation contractors and vessel owners (ins-provider-register-installation-contractors-and-vessel-owners-c)
 
 Primary code: UPS: Upstream
-Consolidated evidence-backed list of contractors/vessel owners for installation scope, including those named in the task brief for which only partial or search-verified evidence was obtained.
+Consolidated evidence-backed list of contractors/vessel owners for installation scope, including those named in the task brief for which only partial or search-verified evidence was obtained. Primary source: https://www.heerema.com/heerema-marine-contractors/fleet
 Vendors: Heerema Marine Contractors, Allseas (OEM design), Saipem (ex-Micoperi 7000), Subsea7 / Seaway7, Boskalis (Dockwise heritage), Van Oord, Jan De Nul, Scaldis, ALE, Mammoet, Lampson, COOEC (CNOOC Engineering), Sapura / Vantris Energy (incl. L&T Sapura JV), Micoperi, TechnipFMC / Technip, DOF, DeepOcean, IQIP, Menck / Acteon (sale to Cadeler announced 2026), Trelleborg Marine and Infrastructure, Hi-Tech Elastomers, Orca Offshore / SeaCamel, Fugro, Oceaneering (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7590,7 +7590,7 @@ Vendors: Heerema Marine Contractors, Allseas (OEM design), Saipem (ex-Micoperi 7
 ### Semi-submersible crane vessel (ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati)
 
 Primary code: UPS: Upstream
-Lift integrated topsides, jackets and large modules in a single lift or tandem lift; ballast down to submerge pontoons and reduce wave/swell motion; use revolving cranes with main/auxiliary/whip hoists, heave-compensated where fitted.
+Lift integrated topsides, jackets and large modules in a single lift or tandem lift; ballast down to submerge pontoons and reduce wave/swell motion; use revolving cranes with main/auxiliary/whip hoists, heave-compensated where fitted. Primary source: https://www.heerema.com/heerema-marine-contractors/fleet
 Vendors: Heerema Marine Contractors, Allseas (OEM design), Saipem (ex-Micoperi 7000), Boskalis (Dockwise heritage), Seaway7 (Subsea7), Jan De Nul, Van Oord, COOEC (CNOOC Engineering), Sapura / Vantris Energy (incl. L&T Sapura JV), Micoperi, Scaldis (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7633,7 +7633,7 @@ Vendors: Heerema Marine Contractors, Allseas (OEM design), Saipem (ex-Micoperi 7
 ### Single-lift topsides/jacket installation by catamaran ballast-lift vessel (ins-single-lift-topsides-jacket-installation-by-catamaran-ballast)
 
 Primary code: UPS: Upstream
-Straddle a platform with a bow slot, ballast down, extend motion-compensated lifting beams under the payload, de-ballast to transfer weight, then fast-lift clear; also carries jackets at stern tilting beams/sheerlegs.
+Straddle a platform with a bow slot, ballast down, extend motion-compensated lifting beams under the payload, de-ballast to transfer weight, then fast-lift clear; also carries jackets at stern tilting beams/sheerlegs. Primary source: https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit
 Vendors: Allseas (OEM design), Huisman Equipment (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7691,7 +7691,7 @@ Vendors: Allseas (OEM design), Huisman Equipment (0 model lines recorded).
 ### SPAR platform installation — upending, ballasting and spread mooring (ins-spar-platform-installation-upending-ballasting-and-spread-moor)
 
 Primary code: UPS: Upstream
-Transport spar hull horizontally (wet tow or dry tow), upend by controlled ballasting/flooding, connect spread mooring (chain-wire-chain or chain-polyester-chain), then install topsides by crane or float-over.
+Transport spar hull horizontally (wet tow or dry tow), upend by controlled ballasting/flooding, connect spread mooring (chain-wire-chain or chain-polyester-chain), then install topsides by crane or float-over. Primary source: https://en.wikipedia.org/wiki/Spar_(platform)
 Vendors: Technip (risers, flowlines, umbilicals), J. Ray McDermott (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7706,7 +7706,7 @@ Vendors: Technip (risers, flowlines, umbilicals), J. Ray McDermott (0 model line
 ### Suction bucket / suction pile (ins-suction-bucket-suction-pile-suction-caisson-installation)
 
 Primary code: UPS: Upstream
-Inverted open-bottom tube sealed at top; penetrate by self-weight then by pumping water out to create negative pressure (suction); removable by pumping water in to create overpressure. Used as anchors for floating platforms and as foundations for fixed structures and wind turbines.
+Inverted open-bottom tube sealed at top; penetrate by self-weight then by pumping water out to create negative pressure (suction); removable by pumping water in to create overpressure. Used as anchors for floating platforms and as foundations for fixed structures and wind turbines. Primary source: https://en.wikipedia.org/wiki/Suction_caisson
 Vendors: NGI (Norwegian Geotechnical Institute), IQIP (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7723,7 +7723,7 @@ Vendors: NGI (Norwegian Geotechnical Institute), IQIP (0 model lines recorded).
 ### Survey, positioning and ROV support (ins-survey-positioning-and-rov-support-dp-gps-underwater-inspectio)
 
 Primary code: UPS: Upstream
-Provide hydrographic/geophysical survey, positioning and navigation of installation vessels, subsea inspection and intervention with ROVs, and penetration/position monitoring during installation.
+Provide hydrographic/geophysical survey, positioning and navigation of installation vessels, subsea inspection and intervention with ROVs, and penetration/position monitoring during installation. Primary source: https://en.wikipedia.org/wiki/SSCV_Sleipnir
 Vendors: Fugro, Oceaneering, Vantris Energy (Sapura Energy), COOEC (CNOOC Engineering) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7737,7 +7737,7 @@ Vendors: Fugro, Oceaneering, Vantris Energy (Sapura Energy), COOEC (CNOOC Engine
 ### Tension-leg platform (ins-tension-leg-platform-tlp-tendon-installation)
 
 Primary code: UPS: Upstream
-Vertically moor a floating platform with high-axial-stiffness tendons/tethers grouped at corners, eliminating most vertical motion so wellheads can be on deck; install hull/topsides, then connect pre-installed tendons to seabed anchors.
+Vertically moor a floating platform with high-axial-stiffness tendons/tethers grouped at corners, eliminating most vertical motion so wellheads can be on deck; install hull/topsides, then connect pre-installed tendons to seabed anchors. Primary source: https://en.wikipedia.org/wiki/Tension-leg_platform
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7751,7 +7751,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Tow-out and wet tow of jackets / gravity-based structures (ins-tow-out-and-wet-tow-of-jackets-gravity-based-structures)
 
 Primary code: UPS: Upstream
-Transport launched or floated substructures from fabrication yard to site with tug boats; use controlled ballasting for self-installing GBS; DP-assisted positioning for final placement.
+Transport launched or floated substructures from fabrication yard to site with tug boats; use controlled ballasting for self-installing GBS; DP-assisted positioning for final placement. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Heerema Marine Contractors, Boskalis (Dockwise heritage), COSCO Shipping (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7766,7 +7766,7 @@ Vendors: Heerema Marine Contractors, Boskalis (Dockwise heritage), COSCO Shippin
 ### Vibratory and press-in pile installation (ins-vibratory-and-press-in-pile-installation)
 
 Primary code: UPS: Upstream
-Install piles rapidly with vertical vibration from counter-rotating eccentric weights (can also extract), or press piles hydraulically where vibration/noise must be minimised.
+Install piles rapidly with vertical vibration from counter-rotating eccentric weights (can also extract), or press piles hydraulically where vibration/noise must be minimised. Primary source: https://en.wikipedia.org/wiki/Pile_driver
 Vendors: IQIP, Junttan (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7782,7 +7782,7 @@ Vendors: IQIP, Junttan (0 model lines recorded).
 ### Instrument air system (geg-instrument-air-system)
 
 Primary code: PWR: Power and renewables
-Instrument air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Instrument air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://hadetec.com/products/air-compressor-packages/instrument-air-package
 Vendors: HADETEC (Nijkerk, Netherlands; Rootselaar Group), Comair (Shanghai, China), nano-purification solutions Asia Pacific (Singapore), Quincy, SKF (SFD dryer) (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7866,7 +7866,7 @@ Recorded gaps:
 ### Boiler water sampling and analysis (boiler-water-sampling-analysis)
 
 Primary code: PWR: Power and renewables
-Obtain a representative, cooled sample for TDS/conductivity, pH, phosphate, silica, sulphite and iron testing without flash loss or scalding; increasingly use continuous online analysers linked to automatic blowdown and dosing control.
+Obtain a representative, cooled sample for TDS/conductivity, pH, phosphate, silica, sulphite and iron testing without flash loss or scalding; increasingly use continuous online analysers linked to automatic blowdown and dosing control. Primary source: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water
 Vendors: Spirax Sarco, Veolia Water Technologies & Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7921,7 +7921,7 @@ Recorded gaps:
 ### Thermal insulation / lagging and cladding for boilers and steam lines (heat-loss figures) (boiler-insulation-heat-loss)
 
 Primary code: PWR: Power and renewables
-Reduce heat loss from boiler surfaces, steam and condensate piping, protect personnel and maintain steam pressure/temperature; insulation also reduces condensate formation and trap load (DOE steam tip sheets, search-verified; Engineering ToolBox; TLV).
+Reduce heat loss from boiler surfaces, steam and condensate piping, protect personnel and maintain steam pressure/temperature; insulation also reduces condensate formation and trap load (DOE steam tip sheets, search-verified; Engineering ToolBox; TLV). Primary source: https://www.engineeringtoolbox.com/heat-loss-steam-pipes-d_255.html
 Vendors: SVI BREMCO (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -7955,7 +7955,7 @@ Recorded gaps:
 ### Intake air system (geg-intake-air-system)
 
 Primary code: PWR: Power and renewables
-Intake air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Intake air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf
 Vendors: Camfil, Donaldson Company, Inc., Rolls-Royce / mtu solutions, GT Silex (Nelson Global), Maxim Silencers (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8048,7 +8048,7 @@ Recorded gaps:
 ### Berth and jetty structures — piled jetties, quay walls, caissons, sheet piles, trestles and dredging (jetty-berth-and-jetty-structures-piled-jetties-quay-walls-caissons)
 
 Primary code: MID: Midstream
-Provide the load-bearing berth face and access structure that transfers vessel berthing/mooring loads and terminal loads to the seabed, with dredged approach channels and berth pockets providing navigable depth.
+Provide the load-bearing berth face and access structure that transfers vessel berthing/mooring loads and terminal loads to the seabed, with dredged approach channels and berth pockets providing navigable depth. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Trelleborg Marine & Infrastructure (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8059,7 +8059,7 @@ Vendors: Trelleborg Marine & Infrastructure (0 model lines recorded).
 ### Fender design standards and guidance — PIANC, BS 6349, ACI, ASTM (jetty-fender-design-standards-and-guidance-pianc-bs-6349-aci-astm)
 
 Primary code: MID: Midstream
-Provide the calculation framework for berthing energy, fender selection, reaction loads, mooring loads and marine concrete durability; used by designers worldwide as guidance or by reference in codes.
+Provide the calculation framework for berthing energy, fender selection, reaction loads, mooring loads and marine concrete durability; used by designers worldwide as guidance or by reference in codes. Primary source: https://pianc.us/webinar-updated-guidelines-for-the-design-of-fender-systems
 Vendors: Trelleborg Marine & Infrastructure (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8070,7 +8070,7 @@ Vendors: Trelleborg Marine & Infrastructure (0 model lines recorded).
 ### Floating pneumatic rubber fenders (jetty-floating-pneumatic-rubber-fenders-yokohama-type)
 
 Primary code: MID: Midstream
-Floating shock absorber between two vessels (STS) or vessel and quay; accommodates tidal range and ship vertical movement; soft, non-linear reaction force protects hull and jetty under overload and inclined berthing.
+Floating shock absorber between two vessels (STS) or vessel and quay; accommodates tidal range and ship vertical movement; soft, non-linear reaction force protects hull and jetty under overload and inclined berthing. Primary source: https://www.y-yokohama.com/global/product/mb/fenders/floating/
 Vendors: The Yokohama Rubber Co., Ltd., ShibataFenderTeam, Doowin Marine, Pacific Marine & Industrial (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8085,7 +8085,7 @@ Vendors: The Yokohama Rubber Co., Ltd., ShibataFenderTeam, Doowin Marine, Pacifi
 ### Marine / shore-to-ship loading arms and transfer systems (jetty-marine-shore-to-ship-loading-arms-and-transfer-systems)
 
 Primary code: MID: Midstream
-Articulated pipework with swivel joints connecting shore or offshore facility to ship for transfer of oil, LNG, LPG, chemicals, high-pressure gas, CO2 and hydrogen; includes emergency release systems (ERS) and quick connect/disconnect couplers (QC/DC).
+Articulated pipework with swivel joints connecting shore or offshore facility to ship for transfer of oil, LNG, LPG, chemicals, high-pressure gas, CO2 and hydrogen; includes emergency release systems (ERS) and quick connect/disconnect couplers (QC/DC). Primary source: https://flowtork.com/marine-loading-arms
 Vendors: Technip Energies, Flowtork Technologies Corporation, TBG Technologies (Chokusen), Japan (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8117,7 +8117,7 @@ Vendors: Technip Energies, Flowtork Technologies Corporation, TBG Technologies (
 ### Marine utility and navigation systems (jetty-marine-utility-and-navigation-systems-fire-water-foam-draina)
 
 Primary code: MID: Midstream
-Support safe terminal operation: fire protection, oily-water/drainage handling, sewage, electrical power and lighting, and navigation aids.
+Support safe terminal operation: fire protection, oily-water/drainage handling, sewage, electrical power and lighting, and navigation aids. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Vikoma International Ltd (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8128,7 +8128,7 @@ Vendors: Vikoma International Ltd (0 model lines recorded).
 ### Mooring quick release hooks (jetty-mooring-quick-release-hooks-qrh-bollards-and-load-monitoring)
 
 Primary code: MID: Midstream
-Secure mooring lines at jetties/berths/dolphins, release safely under load, and monitor line tension to warn of surging or overload.
+Secure mooring lines at jetties/berths/dolphins, release safely under load, and monitor line tension to warn of surging or overload. Primary source: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/docking-and-mooring/quick-release-hooks
 Vendors: Trelleborg Marine & Infrastructure, ShibataFenderTeam (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8140,7 +8140,7 @@ Vendors: Trelleborg Marine & Infrastructure, ShibataFenderTeam (0 model lines re
 ### Motion-compensated access gangways / boarding bridges (jetty-motion-compensated-access-gangways-boarding-bridges)
 
 Primary code: MID: Midstream
-Transfer personnel and cargo between vessel and fixed or floating structure with active compensation of vessel motions (6 degrees of freedom), extending the weather window for crew change and transfer.
+Transfer personnel and cargo between vessel and fixed or floating structure with active compensation of vessel motions (6 degrees of freedom), extending the weather window for crew change and transfer. Primary source: https://www.ampelmann.nl/systems/e-type
 Vendors: Ampelmann Operations B.V. (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8165,7 +8165,7 @@ Vendors: Ampelmann Operations B.V. (0 model lines recorded).
 ### Oil spill response — containment booms, skimmers and recovery (jetty-oil-spill-response-containment-booms-skimmers-and-recovery)
 
 Primary code: MID: Midstream
-Contain spilled oil on water, protect jetty/harbour intake areas and recover oil with skimmers, pumps and temporary storage.
+Contain spilled oil on water, protect jetty/harbour intake areas and recover oil with skimmers, pumps and temporary storage. Primary source: https://www.vikoma.com/articles/essential-types-of-oil-spill-booms
 Vendors: Vikoma International Ltd, DESMI (Ro-Clean) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8188,7 +8188,7 @@ Vendors: Vikoma International Ltd, DESMI (Ro-Clean) (0 model lines recorded).
 ### Rubber fenders — cone, cell, element and V/arch types (jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett)
 
 Primary code: MID: Midstream
-Absorb berthing kinetic energy and limit reaction force and hull pressure transmitted to the vessel and the berth structure; remain functional when a vessel is moored ('lean-on' loads).
+Absorb berthing kinetic energy and limit reaction force and hull pressure transmitted to the vessel and the berth structure; remain functional when a vessel is moored ('lean-on' loads). Primary source: https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html
 Vendors: ShibataFenderTeam Group, Trelleborg Marine & Infrastructure, The Yokohama Rubber Co., Ltd., Pacific Marine & Industrial (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8237,7 +8237,7 @@ Vendors: ShibataFenderTeam Group, Trelleborg Marine & Infrastructure, The Yokoha
 ### Storage tanks, bunds and tank-farm equipment (jetty-storage-tanks-bunds-and-tank-farm-equipment-api-650-api-620)
 
 Primary code: MID: Midstream
-Bulk liquid storage at terminals: fixed cone roof, internal floating roof (IFR), external floating roof (EFR), double-deck floating roof (DDFR); secondary containment/bunds; associated pumps, metering and loading.
+Bulk liquid storage at terminals: fixed cone roof, internal floating roof (IFR), external floating roof (EFR), double-deck floating roof (DDFR); secondary containment/bunds; associated pumps, metering and loading. Primary source: https://www.iso.org/standard/84215.html
 Vendors: L-Vision Engineering Pte Ltd, Tank Built Pte Ltd, HAIL (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8250,7 +8250,7 @@ Vendors: L-Vision Engineering Pte Ltd, Tank Built Pte Ltd, HAIL (0 model lines r
 ### Laboratories (utility-laboratories)
 
 Primary code: PCH: Petrochemicals
-Laboratories
+Laboratories Primary source: https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8263,7 +8263,7 @@ Vendors: Topsoe (0 model lines recorded).
 ### Lube oil system: pumps, filters, coolers, sump (gas-engine-lube-oil-system)
 
 Primary code: PWR: Power and renewables
-Lube oil system: pumps, filters, coolers, sump | Lube-oil storage, transfer, filtration and make-up
+Lube oil system: pumps, filters, coolers, sump | Lube-oil storage, transfer, filtration and make-up Primary source: https://www.jenbacher.com/en/gas-engines/type-6/
 Vendors: INNIO Jenbacher, Rehlko, Cummins Inc. (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8287,7 +8287,7 @@ Recorded gaps:
 ### Lube oil storage and transfer system (geg-lube-oil-storage-and-transfer-system)
 
 Primary code: PWR: Power and renewables
-Lube oil storage and transfer system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Lube oil storage and transfer system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://robenmfg.com/lubricating-oil-storage-application
 Vendors: Roben Mfg., Inc. (Lakewood, NJ, USA), Atlantic Containment LLC (McGaheysville, VA, USA), Prismecs (OEM-agnostic EPCM/O&M provider, Houston, TX) (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8373,7 +8373,7 @@ Recorded gaps:
 ### LV switchboards and distribution boards (ele-lv-switchboard)
 
 Primary code: ELE: Electrical engineering
-Form 1-4 rated low-voltage assemblies at 415/240 V: main switchboards with air circuit breakers, motor control centres and final distribution boards, built to IEC 61439.
+Form 1-4 rated low-voltage assemblies at 415/240 V: main switchboards with air circuit breakers, motor control centres and final distribution boards, built to IEC 61439. Primary source: https://search.abb.com/library/Download.aspx?DocumentID=1SXH900001C0201&LanguageCode=en&DocumentPartId=&Action=Launch
 Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8402,7 +8402,7 @@ Recorded gaps:
 ### Low voltage switchgear (geg-low-voltage-switchgear)
 
 Primary code: PWR: Power and renewables
-Low voltage switchgear for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Low voltage switchgear for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf
 Vendors: Siemens, Shandong Jiahe Intelligent Technology Co., Ltd, Powerwell Holdings Berhad, Shenyang HTYEL Electric Co., Ltd. (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8486,7 +8486,7 @@ Recorded gaps:
 ### Maintenance and workshops (utility-maintenance-workshops)
 
 Primary code: PCH: Petrochemicals
-Maintenance and workshops
+Maintenance and workshops Primary source: https://www.iea.org/reports/ammonia-technology-roadmap
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8499,7 +8499,7 @@ Vendors: Topsoe (0 model lines recorded).
 ### Mechanical, electrical and C&I installation (geg-mechanical-electrical-and-c-i-installation)
 
 Primary code: PWR: Power and renewables
-Mechanical, electrical and C&I installation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Mechanical, electrical and C&I installation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8531,7 +8531,7 @@ Recorded gaps:
 ### MF/UF/RO membrane systems (wwt-membrane-systems)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-Pressure-driven membrane systems for water reuse: hollow-fibre microfiltration/ultrafiltration (0.02-0.1 um) pretreatment and spiral-wound reverse osmosis trains that reject salts and micropollutants.
+Pressure-driven membrane systems for water reuse: hollow-fibre microfiltration/ultrafiltration (0.02-0.1 um) pretreatment and spiral-wound reverse osmosis trains that reject salts and micropollutants. Primary source: https://www.suezwatertechnologies.com/
 Vendors: SUEZ Water Technologies, DuPont Water Solutions, Toray Industries, Nitto / Hydranautics (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8553,7 +8553,7 @@ Recorded gaps:
 ### Methanation and syngas drying/purification (ammonia-methanation-purification)
 
 Primary code: PCH: Petrochemicals
-Methanation and syngas drying/purification
+Methanation and syngas drying/purification Primary source: https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8579,7 +8579,7 @@ Recorded gaps:
 ### MV switchgear and ring main units (11-33 kV) (ele-mv-switchgear)
 
 Primary code: ELE: Electrical engineering
-11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271-200/60298.
+11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271-200/60298. Primary source: https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf
 Vendors: ABB, Schneider Electric, Siemens, Eaton (4 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8613,7 +8613,7 @@ Recorded gaps:
 ### Bridges, helidecks and accommodation modules (near-bridges-helidecks-and-accommodation-modules)
 
 Primary code: UPS: Upstream
-Connect platforms, enable helicopter transfer, and house crew.
+Connect platforms, enable helicopter transfer, and house crew. Primary source: https://vantrisenergy.com/services/engineering-construction/track-record
 Vendors: Vantris Energy Berhad (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8625,7 +8625,7 @@ Vendors: Vantris Energy Berhad (0 model lines recorded).
 ### Concrete gravity-base structures (near-concrete-gravity-base-structures-gbs-and-caissons)
 
 Primary code: UPS: Upstream
-Self-weight founded structures avoiding piling; cells can provide oil storage and separation.
+Self-weight founded structures avoiding piling; cells can provide oil storage and separation. Primary source: https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html
 Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8639,7 +8639,7 @@ Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 ### Deck cranes, davits and lifting appliances (near-deck-cranes-davits-and-lifting-appliances)
 
 Primary code: UPS: Upstream
-Pedestal/knuckle-boom and active-heave-compensated cranes for supply vessel transfers, subsea lifts and module handling.
+Pedestal/knuckle-boom and active-heave-compensated cranes for supply vessel transfers, subsea lifts and module handling. Primary source: https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html
 Vendors: PALFINGER, Liebherr, Huisman Equipment (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8667,7 +8667,7 @@ Vendors: PALFINGER, Liebherr, Huisman Equipment (0 model lines recorded).
 ### Drilling, grouting and seabed preparation (near-drilling-grouting-and-seabed-preparation)
 
 Primary code: UPS: Upstream
-Drill through difficult ground (drive-drill-drive), grout pile-to-sleeve or monopile connections, prepare seabed and clear UXO before foundation installation.
+Drill through difficult ground (drive-drill-drive), grout pile-to-sleeve or monopile connections, prepare seabed and clear UXO before foundation installation. Primary source: https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers
 Vendors: Acteon / Menck, Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8680,7 +8680,7 @@ Vendors: Acteon / Menck, Boskalis (Dockwise heritage) (0 model lines recorded).
 ### Fixed steel jacket (near-fixed-steel-jacket-oil-gas)
 
 Primary code: UPS: Upstream
-Bottom-founded tubular space frame that transfers topsides, wind, wave, current and seismic loads into piled foundations; supports conductors and risers.
+Bottom-founded tubular space frame that transfers topsides, wind, wave, current and seismic loads into piled foundations; supports conductors and risers. Primary source: https://vantrisenergy.com/services/engineering-construction/track-record
 Vendors: Vantris Energy Berhad, Malaysia Marine & Heavy Engineering, Jan De Nul / Hitachi consortium (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8694,7 +8694,7 @@ Vendors: Vantris Energy Berhad, Malaysia Marine & Heavy Engineering, Jan De Nul 
 ### Floating production interfaces (near-floating-production-interfaces-fpso-flng-fso)
 
 Primary code: UPS: Upstream
-Floating host for process, storage and offloading; interfaces with risers, moorings and fixed structures; relevant to CCS conversion of existing platforms.
+Floating host for process, storage and offloading; interfaces with risers, moorings and fixed structures; relevant to CCS conversion of existing platforms. Primary source: https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate
 Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8706,7 +8706,7 @@ Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 ### Impact piling hammers (near-impact-piling-hammers-hydraulic-double-acting)
 
 Primary code: UPS: Upstream
-Drive jacket piles, conductors and monopiles by controlled hydraulic blows; integrated with drivability analysis and noise mitigation.
+Drive jacket piles, conductors and monopiles by controlled hydraulic blows; integrated with drivability analysis and noise mitigation. Primary source: https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers
 Vendors: Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2026), IQIP (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8743,7 +8743,7 @@ Vendors: Menck (Acteon Marine Foundations; sale to Cadeler announced Aug 2026), 
 ### Inspection: ROV, AUV and drone-based remote inspection (near-inspection-rov-auv-and-drone-based-remote-inspection)
 
 Primary code: UPS: Upstream
-Close-up visual inspection, UT thickness measurement, corrosion mapping and CP verification in splash zone, tanks, risers and subsea structures without confined-space entry.
+Close-up visual inspection, UT thickness measurement, corrosion mapping and CP verification in splash zone, tanks, risers and subsea structures without confined-space entry. Primary source: https://www.flyability.com/blog/offshore-drone-inspections
 Vendors: Flyability, Deep Trekker, Oceaneering / Subsea 7 (ROV services) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8759,7 +8759,7 @@ Vendors: Flyability, Deep Trekker, Oceaneering / Subsea 7 (ROV services) (0 mode
 ### Jack-up rigs (near-jack-up-rigs-mobile-offshore-units)
 
 Primary code: UPS: Upstream
-Mobile self-elevating drilling/workover platform with independent legs and jack houses; used for nearshore and shelf drilling.
+Mobile self-elevating drilling/workover platform with independent legs and jack houses; used for nearshore and shelf drilling. Primary source: https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0
 Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8773,7 +8773,7 @@ Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 ### Legs, pile foundations, conductors and risers (near-legs-pile-foundations-conductors-and-risers)
 
 Primary code: UPS: Upstream
-Transfer structural and drilling loads to seabed; conductors guide and support wellheads; risers connect subsea wells to topsides.
+Transfer structural and drilling loads to seabed; conductors guide and support wellheads; risers connect subsea wells to topsides. Primary source: https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm
 Vendors: EEW Group, IQIP (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8784,7 +8784,7 @@ Vendors: EEW Group, IQIP (0 model lines recorded).
 ### Lifeboats, liferafts, davits and evacuation systems (near-lifeboats-liferafts-davits-and-evacuation-systems)
 
 Primary code: UPS: Upstream
-TEMPSC/free-fall lifeboats, rescue boats and launched liferafts for evacuation from fixed platforms, rigs and FPSOs.
+TEMPSC/free-fall lifeboats, rescue boats and launched liferafts for evacuation from fixed platforms, rigs and FPSOs. Primary source: https://www.viking-life.com/product-insights
 Vendors: VIKING Life-Saving Equipment, Survitec Group (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8797,7 +8797,7 @@ Vendors: VIKING Life-Saving Equipment, Survitec Group (0 model lines recorded).
 ### Monopile foundations (near-monopile-foundations-offshore-wind-nearshore)
 
 Primary code: UPS: Upstream
-Single large-diameter tubular driven into seabed carrying wind-turbine or platform loads; commonly used with transition piece or TP-less design.
+Single large-diameter tubular driven into seabed carrying wind-turbine or platform loads; commonly used with transition piece or TP-less design. Primary source: https://sif-group.com/products-services/monopiles
 Vendors: Sif Group, CS WIND Offshore, EEW Group (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8814,7 +8814,7 @@ Vendors: Sif Group, CS WIND Offshore, EEW Group (0 model lines recorded).
 ### Nearshore submerged tunnels and bridges (near-nearshore-submerged-tunnels-and-bridges)
 
 Primary code: UPS: Upstream
-Fixed crossings and immersed-tunnel elements in nearshore waters; relevant to platform/bridge interface structures and marine construction.
+Fixed crossings and immersed-tunnel elements in nearshore waters; relevant to platform/bridge interface structures and marine construction. Primary source: https://www.iso.org/standard/65688.html
 Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8826,7 +8826,7 @@ Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 ### Offshore structural design standards (near-offshore-structural-design-standards-umbrella)
 
 Primary code: UPS: Upstream
-Governing codes for planning, design, fabrication, transport, installation, in-service management and removal of offshore structures.
+Governing codes for planning, design, fabrication, transport, installation, in-service management and removal of offshore structures. Primary source: https://www.iso.org/standard/65688.html
 Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8840,7 +8840,7 @@ Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 ### Pipe racks, cable trays, gratings, handrails and access platforms (near-pipe-racks-cable-trays-gratings-handrails-and-access-platfor)
 
 Primary code: UPS: Upstream
-Secondary steel that routes piping/cables and provides safe access and walkways on topsides and wind foundations.
+Secondary steel that routes piping/cables and provides safe access and walkways on topsides and wind foundations. Primary source: https://www.cswoffshore.com/solutions/monopiles
 Vendors: CS WIND Offshore (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8853,7 +8853,7 @@ Vendors: CS WIND Offshore (0 model lines recorded).
 ### Scour protection (near-scour-protection-rock-dumping-mattresses-bags)
 
 Primary code: UPS: Upstream
-Prevent seabed erosion around monopiles/jackets and over cables; filter layer plus armour layer, or flexible mattresses / sand containers.
+Prevent seabed erosion around monopiles/jackets and over cables; filter layer plus armour layer, or flexible mattresses / sand containers. Primary source: https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring
 Vendors: Boskalis (Dockwise heritage), Naue GmbH & Co. KG, Ridgeway Marine, ContiTech (Continental Group), Van Oord / DEME / Jan De Nul (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8869,7 +8869,7 @@ Vendors: Boskalis (Dockwise heritage), Naue GmbH & Co. KG, Ridgeway Marine, Cont
 ### Structural health monitoring (near-structural-health-monitoring-shm-and-fatigue-management)
 
 Primary code: UPS: Upstream
-Instrument critical details with strain/acceleration/acoustic sensors to support fatigue assessment, early crack detection and operational decisions.
+Instrument critical details with strain/acceleration/acoustic sensors to support fatigue assessment, early crack detection and operational decisions. Primary source: https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures
 Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8880,7 +8880,7 @@ Vendors: Boskalis (Dockwise heritage) (0 model lines recorded).
 ### Structural integrity management and decommissioning planning (near-structural-integrity-management-and-decommissioning-planning)
 
 Primary code: UPS: Upstream
-Lifecycle process: data, evaluation, strategy, inspection programme, fitness-for-purpose assessment, risk reduction and decommissioning.
+Lifecycle process: data, evaluation, strategy, inspection programme, fitness-for-purpose assessment, risk reduction and decommissioning. Primary source: https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0
 Vendors: Allseas (OEM design), Able UK (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8892,7 +8892,7 @@ Vendors: Allseas (OEM design), Able UK (0 model lines recorded).
 ### Topsides, decks and module support frames (near-topsides-decks-and-module-support-frames)
 
 Primary code: UPS: Upstream
-Process, drilling, utilities and accommodation modules carried above the jacket; module support frames distribute loads to jacket legs.
+Process, drilling, utilities and accommodation modules carried above the jacket; module support frames distribute loads to jacket legs. Primary source: https://vantrisenergy.com/services/engineering-construction/track-record
 Vendors: Vantris Energy Berhad, Malaysia Marine & Heavy Engineering (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8907,7 +8907,7 @@ Vendors: Vantris Energy Berhad, Malaysia Marine & Heavy Engineering (0 model lin
 ### Vibratory piling and vibratory/suction installation equipment (near-vibratory-piling-and-vibratory-suction-installation-equipmen)
 
 Primary code: UPS: Upstream
-Alternative to impact driving for sheet piles, tubular piles and jackets in granular soils; suction installation uses differential pressure.
+Alternative to impact driving for sheet piles, tubular piles and jackets in granular soils; suction installation uses differential pressure. Primary source: https://iqip.com/products/pile-driving-equipment/hydrohammer
 Vendors: IQIP (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8920,7 +8920,7 @@ Vendors: IQIP (0 model lines recorded).
 ### Wind-turbine jacket foundations and suction-bucket jackets (near-wind-turbine-jacket-foundations-and-suction-bucket-jackets)
 
 Primary code: UPS: Upstream
-Four-legged lattice substructure for offshore wind; pin piles or suction buckets transfer loads to seabed.
+Four-legged lattice substructure for offshore wind; pin piles or suction buckets transfer loads to seabed. Primary source: https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm
 Vendors: Samkang (South Korea), Edgen Murray (yard manager) / Ming Rong Yuan (Taiwan fabricator), Boskalis (Dockwise heritage) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8935,7 +8935,7 @@ Vendors: Samkang (South Korea), Edgen Murray (yard manager) / Ming Rong Yuan (Ta
 ### Neutral grounding resistor panels (geg-neutral-grounding-resistor-panels)
 
 Primary code: PWR: Power and renewables
-Neutral grounding resistor panels for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Neutral grounding resistor panels for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf
 Vendors: Supplier not identified in sources read (WBS line item), National Resistors (Pune, India), Logica Engineering & Manufacturing India Private Limited, Tenaga Switchgear Sdn Bhd, VA Tech Malaysia Sdn Bhd (NER in 132 kV GIS Huntsman Tioxide project, 2005) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8967,7 +8967,7 @@ Recorded gaps:
 ### Nitrogen and inert gas supply (utility-nitrogen-inerting)
 
 Primary code: PCH: Petrochemicals
-Nitrogen and inert gas supply
+Nitrogen and inert gas supply Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf
 Vendors: Air Liquide Japan (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -8982,7 +8982,7 @@ Vendors: Air Liquide Japan (0 model lines recorded).
 ### Oily-water separators (API/CPI) (wwt-oily-water-separators)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-Gravity oil-water separators at the head of an industrial effluent train: long baffled API-type basins designed to API 421, or corrugated/tilted plate pack (CPI/PPI) coalescers that reach smaller droplets in a smaller footprint. Skimmed oil is recovered; the oily water flows on to flotation and biological treatment.
+Gravity oil-water separators at the head of an industrial effluent train: long baffled API-type basins designed to API 421, or corrugated/tilted plate pack (CPI/PPI) coalescers that reach smaller droplets in a smaller footprint. Skimmed oil is recovered; the oily water flows on to flotation and biological treatment. Primary source: https://oil-water-separators.com/when-why-we-started/the-technical-implications-of-api-421
 Vendors: WesTech Engineering, Veolia, Panam Environmental Products, FRC Systems (7 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9009,7 +9009,7 @@ Recorded gaps:
 ### Oily water treatment system (geg-oily-water-treatment-system)
 
 Primary code: PWR: Power and renewables
-Oily water treatment system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Oily water treatment system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://alfalaval.my/globalassets/documents/products/separation/centrifugal-separators/separators/of-series/product-leaflet-of-500-separator-en.pdf
 Vendors: Alfa Laval, Chongqing Gathering Marine Equipment Co., Ltd. (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9083,7 +9083,7 @@ Recorded gaps:
 ### Two-year operational spares (geg-two-year-operational-spares)
 
 Primary code: PWR: Power and renewables
-Two-year operational spares for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts.
+Two-year operational spares for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6
 Vendors: Everllence, GE / GE Energy, Wärtsilä (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9127,7 +9127,7 @@ Recorded gaps:
 ### Ozone generators (wwt-ozone-generators)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-Corona-discharge ozone generation on oxygen feed with side-stream injection for micropollutant control and disinfection.
+Corona-discharge ozone generation on oxygen feed with side-stream injection for micropollutant control and disinfection. Primary source: https://www.xylem.com/
 Vendors: Xylem (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9145,7 +9145,7 @@ Recorded gaps:
 ### Palletisers (bulk-palletisers)
 
 Primary code: PCH: Petrochemicals
-Palletisers
+Palletisers Primary source: https://en.wikipedia.org/wiki/Palletizer
 Vendors: OCME S.r.L. (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9166,7 +9166,7 @@ Recorded gaps:
 ### Bored piling works (geg-bored-piling-works)
 
 Primary code: PWR: Power and renewables
-Bored piling works for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Bored piling works for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9185,7 +9185,7 @@ Recorded gaps:
 ### Plant control system (geg-plant-control-system)
 
 Primary code: PWR: Power and renewables
-Plant control system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
+Plant control system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch
 Vendors: ABB, Honeywell, Emerson (duplex stainless steel option on Roxar 2600, page read), Yokogawa Electric Corporation, Siemens Gamesa, Valmet, Tenaga Nasional Berhad, Yokogawa Saudi Arabia (6 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9271,7 +9271,7 @@ Recorded gaps:
 ### Power cables (LV to 500 kV) (ele-power-cables)
 
 Primary code: ELE: Electrical engineering
-XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 (LV/MV) and IEC 60840/62067 (HV/EHV).
+XLPE-insulated power cables from 415 V building wiring through 11/33 kV distribution to 132 kV and 275 kV transmission cables, to IEC 60502 (LV/MV) and IEC 60840/62067 (HV/EHV). Primary source: https://www.tnb.com.my/
 Vendors: Southern Cable Group Berhad, Universal Cable (M) Berhad, PT Supreme Cable Manufacturing & Commerce Tbk (SUCACO), PT Voksel Electric Tbk, PT Jembo Cable Company Tbk, PT Kabelindo Murni Tbk, Prysmian Group, Nexans (8 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9300,7 +9300,7 @@ Recorded gaps:
 ### Power transformers (geg-power-transformers)
 
 Primary code: PWR: Power and renewables
-Power transformers for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Power transformers for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html
 Vendors: CG Power Systems (Crompton Greaves Ltd, India; acquired Pauwels Group and Ganz), PESTECH International Bhd (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9347,7 +9347,7 @@ Recorded gaps:
 ### Power and distribution transformers (ele-power-transformers)
 
 Primary code: ELE: Electrical engineering
-Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to MS IEC 60076 (IEC 60076 adopted).
+Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to MS IEC 60076 (IEC 60076 adopted). Primary source: https://www.tnb.com.my/
 Vendors: Malaysia Transformer Manufacturing (MTM), Hitachi Energy, Siemens Energy (incl. ex-Dresser-Rand), GE Vernova, HD Hyundai Electric (5 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9378,7 +9378,7 @@ Recorded gaps:
 ### Powerhouse building (steel structure) (geg-powerhouse-building-steel-structure)
 
 Primary code: PWR: Power and renewables
-Powerhouse building (steel structure) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Powerhouse building (steel structure) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9397,7 +9397,7 @@ Recorded gaps:
 ### Boiler furnace and membrane water walls (furnace-waterwalls-boiler)
 
 Primary code: PWR: Power and renewables
-Radiant heat-release enclosure around the flame. Fire-tube boilers confine the flame in a large furnace tube surrounded by water; water-tube boilers use finned membrane wall panels in which the furnace walls themselves form evaporator surface. Cooling the gas before the reversal chamber and limiting metal subcooling during cycling are central to tube life.
+Radiant heat-release enclosure around the flame. Fire-tube boilers confine the flame in a large furnace tube surrounded by water; water-tube boilers use finned membrane wall panels in which the furnace walls themselves form evaporator surface. Cooling the gas before the reversal chamber and limiting metal subcooling during cycling are central to tube life. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB
 Vendors: Babcock & Wilcox, Cleaver-Brooks (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9441,7 +9441,7 @@ Recorded gaps:
 ### Boiler heat-transfer tubes and tube sheets (heat-transfer-tubes-boiler)
 
 Primary code: PWR: Power and renewables
-The pressure-part surface across which heat passes from gas to water. Fire-tube boilers pass gas inside furnace and smoke tubes with water outside and tube sheets separating the two; water-tube boilers pass water inside tubes with gas outside. Extended and enhanced tube forms are claimed to raise effective surface area and heat transfer.
+The pressure-part surface across which heat passes from gas to water. Fire-tube boilers pass gas inside furnace and smoke tubes with water outside and tube sheets separating the two; water-tube boilers pass water inside tubes with gas outside. Extended and enhanced tube forms are claimed to raise effective surface area and heat transfer. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/shell-boilers?sc_lang=en-GB
 Vendors: Cleaver-Brooks, Babcock & Wilcox (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9505,7 +9505,7 @@ Recorded gaps:
 ### Boiler steam drum and mud drum (steam-drum-boiler)
 
 Primary code: PWR: Power and renewables
-In drum-type water-tube boilers the upper steam drum is the point of steam/water separation and feedwater introduction, while the lower mud drum collects sediment; downcomers carry cooler dense water to the lower drum and risers return the heated mixture. Drum temperature stratification during cycling drives humping and connection stress, so drum design and circulation are central to load-change capability.
+In drum-type water-tube boilers the upper steam drum is the point of steam/water separation and feedwater introduction, while the lower mud drum collects sediment; downcomers carry cooler dense water to the lower drum and risers return the heated mixture. Drum temperature stratification during cycling drives humping and connection stress, so drum design and circulation are central to load-change capability. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB
 Vendors: Babcock & Wilcox (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9545,7 +9545,7 @@ Recorded gaps:
 ### Urea prilling tower (urea-prilling-tower)
 
 Primary code: PCH: Petrochemicals
-Tall tower in which molten urea is sprayed from the top and solidifies in falling droplets cooled by rising air, producing small round prills. Tower height and airflow set the prill size and the product's cooling and hardening; prills are smaller and more spherical than fluid-bed granules.
+Tall tower in which molten urea is sprayed from the top and solidifies in falling droplets cooled by rising air, producing small round prills. Tower height and airflow set the prill size and the product's cooling and hardening; prills are smaller and more spherical than fluid-bed granules. Primary source: https://ureaknowhow.com/wp-content/uploads/2021/05/2021-06-Baboo-Prilling-Tower-and-Granulator-Heat-and-Mass-Transfer.pdf
 Vendors: Stamicarbon, Saipem (ex-Micoperi 7000), Casale, Toyo Engineering (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9571,7 +9571,7 @@ Recorded gaps:
 ### Process condensate treatment and sour water stripping (ammonia-sour-water-stripping)
 
 Primary code: PCH: Petrochemicals
-Process condensate treatment and sour water stripping | Effluent / wastewater treatment (ammonia stripping and urea hydrolysis)
+Process condensate treatment and sour water stripping | Effluent / wastewater treatment (ammonia stripping and urea hydrolysis) Primary source: https://en.wikipedia.org/wiki/Sour_gas
 Vendors: SnamProgetti SpA (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9594,7 +9594,7 @@ Recorded gaps:
 ### Process control, analysers, safety and ventilation (urea-control-safety-ventilation)
 
 Primary code: PCH: Petrochemicals
-Process control, analysers, safety and ventilation
+Process control, analysers, safety and ventilation Primary source: https://www.sensotech.com/en/urea-production
 Vendors: SensoTech GmbH, Stamicarbon, LESER, Badotherm, AMMO (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9628,7 +9628,7 @@ Recorded gaps:
 ### Product storage, warehouses, bagging plants and loading-station dust extraction (bulk-warehousing-dust-extraction)
 
 Primary code: PCH: Petrochemicals
-Product storage, warehouses, bagging plants and loading-station dust extraction
+Product storage, warehouses, bagging plants and loading-station dust extraction Primary source: https://en.wikipedia.org/wiki/Dust_collector
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9648,7 +9648,7 @@ Recorded gaps:
 ### Protection relays and substation IEDs (ele-protection-relays)
 
 Primary code: ELE: Electrical engineering
-Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, type-tested to IEC 60255.
+Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, type-tested to IEC 60255. Primary source: https://selinc.com/products/421/
 Vendors: Schweitzer Engineering Laboratories (SEL), Siemens Energy (incl. ex-Dresser-Rand), Hitachi Energy, GE Vernova (4 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9676,7 +9676,7 @@ Recorded gaps:
 ### Public address system (geg-public-address-system)
 
 Primary code: PWR: Power and renewables
-Public address system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
+Public address system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.pagcanada.com/wp-content/uploads/2016/06/Praesideo-DS-EN.pdf
 Vendors: Bosch Industriekessel (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9731,7 +9731,7 @@ Recorded gaps:
 ### Boiler circulation pumps / forced-circulation pumps (HRSG, once-through, controlled circulation) (boiler-circulation-pump)
 
 Primary code: PWR: Power and renewables
-In forced/controlled-circulation HRSGs and boilers, a pump circulates water/steam-water mixture from the drum through parallel evaporator circuits and back, maintaining tube-wall wetting where natural density head is insufficient (horizontal tubes, limited drum-to-evaporator height, long circuits). Natural-circulation and once-through units need no circulation pump in normal operation (once-through with superimposed circulation uses one at start-up/low load).
+In forced/controlled-circulation HRSGs and boilers, a pump circulates water/steam-water mixture from the drum through parallel evaporator circuits and back, maintaining tube-wall wetting where natural density head is insufficient (horizontal tubes, limited drum-to-evaporator height, long circuits). Natural-circulation and once-through units need no circulation pump in normal operation (once-through with superimposed circulation uses one at start-up/low load). Primary source: https://www.esteemprojects.com/library/HRSG-Design/page7_1.html
 Vendors: Cleaver-Brooks (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9748,7 +9748,7 @@ Recorded gaps:
 ### Centrifugal pump (API 610 and general service) (pump-centrifugal)
 
 Primary code: ROT: Rotating and static equipment
-Rotodynamic pump that adds velocity to the liquid with an impeller and converts it to pressure in a volute or diffuser — the default mover for refinery, petrochemical, power and upstream water duties. API 610 (with ISO 13709) is the refinery-class standard and organises machines into overhung (OH), between-bearing (BB) and vertically-suspended (VS) arrangements; the specific family sets how much flow, head and suction pressure the machine takes.
+Rotodynamic pump that adds velocity to the liquid with an impeller and converts it to pressure in a volute or diffuser — the default mover for refinery, petrochemical, power and upstream water duties. API 610 (with ISO 13709) is the refinery-class standard and organises machines into overhung (OH), between-bearing (BB) and vertically-suspended (VS) arrangements; the specific family sets how much flow, head and suction pressure the machine takes. Primary source: https://en.wikipedia.org/wiki/Centrifugal_pump
 Vendors: Sulzer, Flowserve, KSB (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9766,7 +9766,7 @@ Recorded gaps:
 ### Condensate return pumps, hot wells / collection tanks and condensate return lines (pumping vs pressure return; (condensate-pump-hot-well)
 
 Primary code: PWR: Power and renewables
-Collect and return hot condensate to the boiler/feedwater system. Where trap inlet pressure cannot overcome return-line backpressure (lift + friction + receiver pressure = TDH), use electric centrifugal/turbine pumps, non-electric steam/air-driven mechanical pumps (SPDs/pump-traps), or ejector-assisted low-NPSH condensate pumps (TLV; Spirax Sarco).
+Collect and return hot condensate to the boiler/feedwater system. Where trap inlet pressure cannot overcome return-line backpressure (lift + friction + receiver pressure = TDH), use electric centrifugal/turbine pumps, non-electric steam/air-driven mechanical pumps (SPDs/pump-traps), or ejector-assisted low-NPSH condensate pumps (TLV; Spirax Sarco). Primary source: https://www.tlv.com/steam-info/steam-theory/condensate-recovery/types-of-condensate-recovery
 Vendors: Spirax Sarco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9786,7 +9786,7 @@ Recorded gaps:
 ### Feedwater pump duty, NPSH and selection for package boilers (boiler-feedwater-pump)
 
 Primary code: PWR: Power and renewables
-Maintain drum water level by delivering feedwater at flow above evaporation rate and at head above boiler pressure plus valve/piping losses; NPSH available must exceed pump NPSH required at hot feedwater temperature to avoid cavitation. Arrangements: direct feed per boiler or booster set feeding a common manifold with modulating feedwater valves.
+Maintain drum water level by delivering feedwater at flow above evaporation rate and at head above boiler pressure plus valve/piping losses; NPSH available must exceed pump NPSH required at hot feedwater temperature to avoid cavitation. Arrangements: direct feed per boiler or booster set feeding a common manifold with modulating feedwater valves. Primary source: https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection
 Vendors: Grundfos, Cleaver-Brooks, Atlantic Feedwater Systems, Changyu Pump (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9835,7 +9835,7 @@ Recorded gaps:
 ### Pump building (steel structure) (geg-pump-building-steel-structure)
 
 Primary code: PWR: Power and renewables
-Pump building (steel structure) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Pump building (steel structure) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9853,7 +9853,7 @@ Recorded gaps:
 ### Rectifying columns / distillation columns (urea-rectifying-columns)
 
 Primary code: PCH: Petrochemicals
-Rectifying columns / distillation columns
+Rectifying columns / distillation columns Primary source: https://www.sensotech.com/en/urea-production
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9871,7 +9871,7 @@ Recorded gaps:
 ### Boiler safety valves, blowdown and level fittings (safety-valves-blowdown-boiler)
 
 Primary code: PWR: Power and renewables
-Fittings that protect the pressure boundary and control water quality: safety valves sized to at least the boiler's 'from and at 100 C' evaporation and fully open within 110% of design pressure; continuous/TDS blowdown from the water surface; bottom blowdown to remove sediment; and independent water-level indication and gauges.
+Fittings that protect the pressure boundary and control water quality: safety valves sized to at least the boiler's 'from and at 100 C' evaporation and fully open within 110% of design pressure; continuous/TDS blowdown from the water surface; bottom blowdown to remove sediment; and independent water-level indication and gauges. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB
 Vendors: Spirax Sarco, TLV (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9902,7 +9902,7 @@ Recorded gaps:
 ### Fire protection and gas detection (gas-engine-fire-gas-detection)
 
 Primary code: PWR: Power and renewables
-Fire protection and gas detection
+Fire protection and gas detection Primary source: https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf
 Vendors: Wärtsilä (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -9918,7 +9918,7 @@ Vendors: Wärtsilä (0 model lines recorded).
 ### Sampling system (geg-sampling-system)
 
 Primary code: PWR: Power and renewables
-Sampling system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
+Sampling system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf
 Vendors: ABB, MRU Instruments (as listed by Instrumart) (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10011,7 +10011,7 @@ Recorded gaps:
 ### Utility SCADA and automatic generation control integration (geg-utility-scada-and-automatic-generation-control-integration)
 
 Primary code: PWR: Power and renewables
-Utility SCADA and automatic generation control integration for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
+Utility SCADA and automatic generation control integration for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf
 Vendors: SESB Grid System Operator / Sabah Load Dispatch Centre (SLDC), Siemens Gamesa, Yokogawa Electric Corporation (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10061,7 +10061,7 @@ Recorded gaps:
 ### Scheduled waste building (steel structure) (geg-scheduled-waste-building-steel-structure)
 
 Primary code: PWR: Power and renewables
-Scheduled waste building (steel structure) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Scheduled waste building (steel structure) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10079,7 +10079,7 @@ Recorded gaps:
 ### Screw conveyors (bulk-screw-conveyors)
 
 Primary code: PCH: Petrochemicals
-Screw conveyors
+Screw conveyors Primary source: https://en.wikipedia.org/wiki/Screw_conveyor
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10114,7 +10114,7 @@ Recorded gaps:
 ### Secondary reformer / autothermal reformer (ammonia-secondary-reformer-atr)
 
 Primary code: PCH: Petrochemicals
-Secondary reformer / autothermal reformer (ATR)
+Secondary reformer / autothermal reformer (ATR) Primary source: https://en.wikipedia.org/wiki/Steam_reforming
 Vendors: Topsoe, Casale (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10144,7 +10144,7 @@ Recorded gaps:
 ### Steam separators / dryers and steam headers (moisture carryover limits) (steam-separators-dryers)
 
 Primary code: PWR: Power and renewables
-Remove entrained water droplets from steam that traps cannot catch; protect turbines, control valves and heat-transfer equipment from erosion, water hammer and reduced heat transfer; provide dry steam at point of use (TLV; Spirax Sarco).
+Remove entrained water droplets from steam that traps cannot catch; protect turbines, control valves and heat-transfer equipment from erosion, water hammer and reduced heat transfer; provide dry steam at point of use (TLV; Spirax Sarco). Primary source: https://www.tlv.com/steam-info/steam-theory/other/separators
 Vendors: Spirax Sarco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10167,7 +10167,7 @@ Recorded gaps:
 ### Chemical cleaning and passivation of new boilers (pre-commissioning) (boiler-chemical-cleaning-passivation)
 
 Primary code: PWR: Power and renewables
-Remove welding slag, iron oxides, grease and construction debris from a newly built boiler before start-up; then form a protective magnetite film (passivation) to minimise corrosion and pitting during commissioning and lay-up.
+Remove welding slag, iron oxides, grease and construction debris from a newly built boiler before start-up; then form a protective magnetite film (passivation) to minimise corrosion and pitting during commissioning and lay-up. Primary source: https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf
 Vendors: Veolia Australia & New Zealand — Industrial Services, Veolia Water Technologies & Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10195,7 +10195,7 @@ Recorded gaps:
 ### Service air system (geg-service-air-system)
 
 Primary code: PWR: Power and renewables
-Service air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Service air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://hadetec.com/products/air-compressor-packages/instrument-air-package
 Vendors: HADETEC (Nijkerk, Netherlands; Rootselaar Group), Comair (Shanghai, China), Aerodyn Group Malaysia (Shah Alam and Labuan), Pneumatech, ELGI, Quincy, SPX Jemaco (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10262,7 +10262,7 @@ Recorded gaps:
 ### Sewerage and water storage system (geg-sewerage-and-water-storage-system)
 
 Primary code: PWR: Power and renewables
-Sewerage and water storage system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Sewerage and water storage system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10281,7 +10281,7 @@ Recorded gaps:
 ### Shift conversion - HT/LT shift reactors and catalysts (ammonia-shift-conversion)
 
 Primary code: PCH: Petrochemicals
-Shift conversion - HT/LT shift reactors and catalysts
+Shift conversion - HT/LT shift reactors and catalysts Primary source: https://www.topsoe.com/solutions/outputs/ammonia/ammonia-co-shift
 Vendors: Topsoe, Johnson Matthey (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10301,7 +10301,7 @@ Recorded gaps:
 ### Silencers (fan inlet, stack/breeching, PRV/steam vent) (boiler-stack-vent-silencers)
 
 Primary code: PWR: Power and renewables
-Attenuate noise from fans/inlets, stack and breeching gas flow, and high-energy steam/gas vents through relief, safety, control or start-up valves; ensure acoustic compliance and personnel safety (Burgess-Manning; IMI; SVI BREMCO; dB Noise Reduction).
+Attenuate noise from fans/inlets, stack and breeching gas flow, and high-energy steam/gas vents through relief, safety, control or start-up valves; ensure acoustic compliance and personnel safety (Burgess-Manning; IMI; SVI BREMCO; dB Noise Reduction). Primary source: https://burgessmanning.com/custom-vent-silencer
 Vendors: Burgess-Manning (CECO Environmental), IMI Process Automation, SVI BREMCO, dB Noise Reduction (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10322,7 +10322,7 @@ Recorded gaps:
 ### Silos and storage bins (bulk-silos-storage-bins)
 
 Primary code: PCH: Petrochemicals
-Silos and storage bins
+Silos and storage bins Primary source: https://en.wikipedia.org/wiki/Silo
 Vendors: Harvestore, Buffer Valley Industries (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10346,7 +10346,7 @@ Recorded gaps:
 ### Contractor site facilities and laydown area (geg-contractor-site-facilities-and-laydown-area)
 
 Primary code: PWR: Power and renewables
-Contractor site facilities and laydown area for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction indirect. BOQ quantities and dimensions are design inputs, not sourced facts.
+Contractor site facilities and laydown area for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction indirect. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10367,7 +10367,7 @@ Recorded gaps:
 ### Site roads and paving (geg-site-roads-and-paving)
 
 Primary code: PWR: Power and renewables
-Site roads and paving for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Site roads and paving for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10386,7 +10386,7 @@ Recorded gaps:
 ### Sizing screens and crushers (bulk-sizing-screens-crushers)
 
 Primary code: PCH: Petrochemicals
-Sizing screens and crushers
+Sizing screens and crushers Primary source: https://www.toyo-eng.com/jp/en/solution/urea_granulation/
 Vendors: Toyo Engineering (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10407,7 +10407,7 @@ Recorded gaps:
 ### Sludge dewatering equipment (wwt-sludge-dewatering-equipment)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-Decanter centrifuges, belt filter presses, membrane filter presses and screw presses that turn conditioned sludge into 18-40% DS cake.
+Decanter centrifuges, belt filter presses, membrane filter presses and screw presses that turn conditioned sludge into 18-40% DS cake. Primary source: https://www.alfalaval.com/
 Vendors: Alfa Laval, ANDRITZ, Flottweg SE, HUBER SE (4 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10429,7 +10429,7 @@ Recorded gaps:
 ### Starting system: starting air/motors, batteries (gas-engine-starting-instrument-air)
 
 Primary code: PWR: Power and renewables
-Starting system: starting air/motors, batteries | Compressed air / instrument air and starting air
+Starting system: starting air/motors, batteries | Compressed air / instrument air and starting air Primary source: https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii
 Vendors: Deep Sea Electronics, ComAp, Atlas Copco, Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10448,7 +10448,7 @@ Recorded gaps:
 ### Steam reformer (primary and secondary) (steam-reformer)
 
 Primary code: H2: Hydrogen and low-carbon fuels
-Fired tubular reactor in which natural gas or another light hydrocarbon reacts with steam over a nickel catalyst to make synthesis gas, followed in ammonia plants by a secondary reformer where air or oxygen is added and the remaining methane is converted. Reformers set the hydrogen-to-nitrogen ratio and the methane slip for the downstream shift and synthesis sections.
+Fired tubular reactor in which natural gas or another light hydrocarbon reacts with steam over a nickel catalyst to make synthesis gas, followed in ammonia plants by a secondary reformer where air or oxygen is added and the remaining methane is converted. Reformers set the hydrogen-to-nitrogen ratio and the methane slip for the downstream shift and synthesis sections. Primary source: https://en.wikipedia.org/wiki/Steam_reforming
 Vendors: Topsoe, KBR, thyssenkrupp Uhde, AMEC (topsides design/fabrication/integration), Casale (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10501,7 +10501,7 @@ Recorded gaps:
 ### Steam traps (thermodynamic, float, thermostatic, inverted bucket) (steam-traps-condensate-return)
 
 Primary code: PWR: Power and renewables
-Automatically discharge condensate, air and non-condensable gases from steam lines and heat-using equipment while holding back live steam; protects against waterlogging, water hammer, erosion and corrosion (Spirax Sarco; TLV).
+Automatically discharge condensate, air and non-condensable gases from steam lines and heat-using equipment while holding back live steam; protects against waterlogging, water hammer, erosion and corrosion (Spirax Sarco; TLV). Primary source: https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps
 Vendors: Spirax Sarco, Armstrong International (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10580,7 +10580,7 @@ Recorded gaps:
 ### Battery energy storage / lithium-ion UPS / flywheels integrated with gensets for bridging and peak shaving (data-centre-bess-bridging)
 
 Primary code: IDC: Data centres
-Battery energy storage / lithium-ion UPS / flywheels integrated with gensets for bridging and peak shaving
+Battery energy storage / lithium-ion UPS / flywheels integrated with gensets for bridging and peak shaving Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions
 Vendors: Active Power (Piller group), Vertiv, Fluence, Tesla Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10598,7 +10598,7 @@ Recorded gaps:
 ### Articulated tower / articulated loading platform (sub-articulated-tower-articulated-loading-platform-rare)
 
 Primary code: UPS: Upstream
-Bottom-founded tower connected by a universal joint or articulated base, allowing the structure to rotate with environmental loads while supporting loading or wellhead facilities.
+Bottom-founded tower connected by a universal joint or articulated base, allowing the structure to rotate with environmental loads while supporting loading or wellhead facilities. Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10610,7 +10610,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Artificial island / sea island (sub-artificial-island-sea-island-oil-and-gas)
 
 Primary code: UPS: Upstream
-Constructed landmass or caisson-supported island providing a land-like drilling and production site in shallow water.
+Constructed landmass or caisson-supported island providing a land-like drilling and production site in shallow water. Primary source: https://en.wikipedia.org/wiki/Artificial_island
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10623,7 +10623,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Barge-based platforms, pontoons and floaters (sub-barge-based-platforms-pontoons-and-floaters)
 
 Primary code: UPS: Upstream
-Shallow-draft buoyant hulls used as drilling/production/support bases; spud barges, swamp barges and deck barges can be moored or jack-up supported.
+Shallow-draft buoyant hulls used as drilling/production/support bases; spud barges, swamp barges and deck barges can be moored or jack-up supported. Primary source: https://en.wikipedia.org/wiki/Offshore_drilling
 Vendors: Aquaterra Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10639,7 +10639,7 @@ Vendors: Aquaterra Energy (0 model lines recorded).
 ### Braced templates (sub-braced-templates-subsea-drilling-templates)
 
 Primary code: UPS: Upstream
- seabed frame that positions and guides wells or manifold equipment; may be piled or suction-founded.
+ seabed frame that positions and guides wells or manifold equipment; may be piled or suction-founded. Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10650,7 +10650,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Compliant tower (sub-compliant-tower)
 
 Primary code: UPS: Upstream
-Slender flexible bottom-founded tower with piled foundation and conventional deck, designed for significant lateral deflection in deep water.
+Slender flexible bottom-founded tower with piled foundation and conventional deck, designed for significant lateral deflection in deep water. Primary source: https://en.wikipedia.org/wiki/Compliant_tower
 Vendors: J. Ray McDermott, Aker Gulf Marine (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10667,7 +10667,7 @@ Vendors: J. Ray McDermott, Aker Gulf Marine (0 model lines recorded).
 ### Concrete gravity base structure (sub-concrete-gravity-base-structure-gbs-cgs-caisson)
 
 Primary code: UPS: Upstream
-Large reinforced/prestressed concrete caisson that resists overturning and sliding by self-weight; often provides oil storage and flotation during tow-out.
+Large reinforced/prestressed concrete caisson that resists overturning and sliding by self-weight; often provides oil storage and flotation during tow-out. Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure
 Vendors: Norwegian Contractors, Arup, DORIS / C G DORIS (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10681,7 +10681,7 @@ Vendors: Norwegian Contractors, Arup, DORIS / C G DORIS (0 model lines recorded)
 ### Drillship (sub-drillship)
 
 Primary code: UPS: Upstream
-Ship-shaped self-propelled drilling vessel with moonpool, derrick and dynamic positioning; used for exploratory and development drilling in deep/ultra-deep water.
+Ship-shaped self-propelled drilling vessel with moonpool, derrick and dynamic positioning; used for exploratory and development drilling in deep/ultra-deep water. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Transocean (owner/operator of DWH) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10697,7 +10697,7 @@ Vendors: Transocean (owner/operator of DWH) (0 model lines recorded).
 ### Driven pile and skirt-pile foundations (sub-driven-pile-and-skirt-pile-foundations)
 
 Primary code: UPS: Upstream
-Transfer jacket/tower loads into soil by axial and lateral resistance; skirt piles are driven through sleeves at jacket base corners.
+Transfer jacket/tower loads into soil by axial and lateral resistance; skirt piles are driven through sleeves at jacket base corners. Primary source: https://www.offshore-technology.com/projects/baldpate/
 Vendors: Sif Group, Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10709,7 +10709,7 @@ Vendors: Sif Group, Heerema (0 model lines recorded).
 ### Fixed steel jacket platform (sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg)
 
 Primary code: UPS: Upstream
-Bottom-founded tubular steel lattice that transfers deck, drilling and environmental loads to the seabed, normally via driven piles through the jacket legs.
+Bottom-founded tubular steel lattice that transfers deck, drilling and environmental loads to the seabed, normally via driven piles through the jacket legs. Primary source: https://en.wikipedia.org/wiki/Fixed_platform
 Vendors: Aker Solutions, Saipem (ex-Micoperi 7000), Sif Group, Heerema Marine Contractors (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10815,7 +10815,7 @@ Vendors: Aker Solutions, Saipem (ex-Micoperi 7000), Sif Group, Heerema Marine Co
 ### FLNG (sub-flng-floating-liquefied-natural-gas-facility)
 
 Primary code: UPS: Upstream
-Floating facility that extracts, processes, liquefies, stores and offloads LNG at sea, removing the need for a pipeline to shore.
+Floating facility that extracts, processes, liquefies, stores and offloads LNG at sea, removing the need for a pipeline to shore. Primary source: https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading
 Vendors: Shell (operator, 35%), Technip Samsung Consortium (TSC), SBM Offshore (Atlantia/SeaStar) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10826,7 +10826,7 @@ Vendors: Shell (operator, 35%), Technip Samsung Consortium (TSC), SBM Offshore (
 ### Floating concrete structures (sub-floating-concrete-structures-concrete-semisub-concrete-tlp-con)
 
 Primary code: UPS: Upstream
-Concrete hulls used where corrosion resistance, low maintenance and heavy topside capacity are valuable.
+Concrete hulls used where corrosion resistance, low maintenance and heavy topside capacity are valuable. Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure
 Vendors: DORIS (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10840,7 +10840,7 @@ Vendors: DORIS (0 model lines recorded).
 ### Floating power / desalination units and power service vessels (sub-floating-power-desalination-units-and-power-service-vessels)
 
 Primary code: UPS: Upstream
-Floating hulls carrying power plants or desalination plants to supply offshore assets or shore grids without fixed infrastructure.
+Floating hulls carrying power plants or desalination plants to supply offshore assets or shore grids without fixed infrastructure. Primary source: https://www.iso.org/standard/84215.html
 Vendors: American Bureau of Shipping, DNV (Installjac software) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10851,7 +10851,7 @@ Vendors: American Bureau of Shipping, DNV (Installjac software) (0 model lines r
 ### Floating wind turbine floaters (sub-floating-wind-turbine-floaters-spar-semi-submersible-tlp-barge)
 
 Primary code: UPS: Upstream
-Buoyant substructures that support wind turbines in water depths where fixed foundations are uneconomic, moored by catenary, taut or tension-leg systems.
+Buoyant substructures that support wind turbines in water depths where fixed foundations are uneconomic, moored by catenary, taut or tension-leg systems. Primary source: https://en.wikipedia.org/wiki/Floating_offshore_wind
 Vendors: Equinor, Principle Power, SBM Offshore / IFPEN (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10866,7 +10866,7 @@ Vendors: Equinor, Principle Power, SBM Offshore / IFPEN (0 model lines recorded)
 ### FPSO / FSO / FSU / FDPSO / FSRU (sub-fpso-fso-fsu-fdpso-fsru)
 
 Primary code: UPS: Upstream
-Ship-shaped or circular floating vessel that receives, processes and stores hydrocarbons from subsea wells or nearby platforms and offloads to shuttle tankers; FSO/FSU store only.
+Ship-shaped or circular floating vessel that receives, processes and stores hydrocarbons from subsea wells or nearby platforms and offloads to shuttle tankers; FSO/FSU store only. Primary source: https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading
 Vendors: SBM Offshore (Atlantia/SeaStar), MODEC (EPC and O&M to 2022), BW Offshore, Aker Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10880,7 +10880,7 @@ Vendors: SBM Offshore (Atlantia/SeaStar), MODEC (EPC and O&M to 2022), BW Offsho
 ### Guyed tower (sub-guyed-tower-rare)
 
 Primary code: UPS: Upstream
-Compliant tower stabilised by inclined guy lines and anchors rather than relying solely on pile fixity; reduces base moment in deep water.
+Compliant tower stabilised by inclined guy lines and anchors rather than relying solely on pile fixity; reduces base moment in deep water. Primary source: https://en.wikipedia.org/wiki/Compliant_tower
 Vendors: Brown & Root (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10891,7 +10891,7 @@ Vendors: Brown & Root (0 model lines recorded).
 ### Ice-resistant / Arctic caisson and artificial drilling island (sub-ice-resistant-arctic-caisson-and-artificial-drilling-island)
 
 Primary code: UPS: Upstream
-Bottom-founded structure or constructed island designed to resist iceberg impact, sea ice and ice scour in Arctic and sub-Arctic waters.
+Bottom-founded structure or constructed island designed to resist iceberg impact, sea ice and ice scour in Arctic and sub-Arctic waters. Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10905,7 +10905,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Jack-up rig / self-elevating unit (sub-jack-up-rig-self-elevating-unit-independent-leg-and-mat-suppor)
 
 Primary code: UPS: Upstream
-Mobile buoyant hull with movable legs jacked to the seabed; hull raised above waves for drilling, workover, production or wind-turbine service.
+Mobile buoyant hull with movable legs jacked to the seabed; hull raised above waves for drilling, workover, production or wind-turbine service. Primary source: https://en.wikipedia.org/wiki/Jackup_rig
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10921,7 +10921,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Minimal / minimum-facility jacket and wellhead platform (sub-minimal-minimum-facility-jacket-and-wellhead-platform-nui-toad)
 
 Primary code: UPS: Upstream
-Small unmanned well bay and process/wellhead structure tied back by flowline or umbilical to a host platform.
+Small unmanned well bay and process/wellhead structure tied back by flowline or umbilical to a host platform. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Aquaterra Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10933,7 +10933,7 @@ Vendors: Aquaterra Energy (0 model lines recorded).
 ### Mobile offshore production unit (sub-mobile-offshore-production-unit-mopu)
 
 Primary code: UPS: Upstream
-Reusable mobile production facility (converted jack-up, liftboat, semi-submersible or barge) with wellbay, processing and accommodation, used for phased/early production.
+Reusable mobile production facility (converted jack-up, liftboat, semi-submersible or barge) with wellbay, processing and accommodation, used for phased/early production. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Aquaterra Energy, Noble Offshore (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10944,7 +10944,7 @@ Vendors: Aquaterra Energy, Noble Offshore (0 model lines recorded).
 ### Monopod / tripod / tripile bottom-founded structures (sub-monopod-tripod-tripile-bottom-founded-structures)
 
 Primary code: UPS: Upstream
-Single-leg (monopod) or three-leg (tripod/tripile) bottom-founded substructure supporting a small deck or a wind turbine.
+Single-leg (monopod) or three-leg (tripod/tripile) bottom-founded substructure supporting a small deck or a wind turbine. Primary source: https://en.wikipedia.org/wiki/Condeep
 Vendors: Sif Group (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10955,7 +10955,7 @@ Vendors: Sif Group (0 model lines recorded).
 ### Mudmats and jacket base templates (sub-mudmats-and-jacket-base-templates)
 
 Primary code: UPS: Upstream
-Distribute jacket base load over weak seabed during installation and before piling; templates guide piles and drill slots.
+Distribute jacket base load over weak seabed during installation and before piling; templates guide piles and drill slots. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10966,7 +10966,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Semi-submersible platform (sub-semi-submersible-platform-production-and-modu)
 
 Primary code: UPS: Upstream
-Floating hull with submerged pontoons and columns supporting a deck; ballastable, moored or dynamically positioned; used for drilling, production, crane work and accommodation.
+Floating hull with submerged pontoons and columns supporting a deck; ballastable, moored or dynamically positioned; used for drilling, production, crane work and accommodation. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Heerema Marine Contractors, Saipem (ex-Micoperi 7000), Petrobras (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10981,7 +10981,7 @@ Vendors: Heerema Marine Contractors, Saipem (ex-Micoperi 7000), Petrobras (0 mod
 ### Spar platform (sub-spar-platform-classic-truss-cell)
 
 Primary code: UPS: Upstream
-Deep-draft vertical buoyant cylinder(s) moored by spread mooring; deep draft gives low wave sensitivity and supports dry-tree or subsea production.
+Deep-draft vertical buoyant cylinder(s) moored by spread mooring; deep draft gives low wave sensitivity and supports dry-tree or subsea production. Primary source: https://en.wikipedia.org/wiki/Spar_(platform)
 Vendors: Technip (risers, flowlines, umbilicals), J. Ray McDermott (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -10994,7 +10994,7 @@ Vendors: Technip (risers, flowlines, umbilicals), J. Ray McDermott (0 model line
 ### Submersible drilling rig (sub-submersible-drilling-rig-shallow-water-bottom-founded-barge)
 
 Primary code: UPS: Upstream
-Floodable barge that rests on the seabed for drilling in very shallow water, often in marsh/swamp or inland waters.
+Floodable barge that rests on the seabed for drilling in very shallow water, often in marsh/swamp or inland waters. Primary source: https://en.wikipedia.org/wiki/Offshore_drilling
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11006,7 +11006,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Subsea-to-surface / subsea completion tie-back to host facility (sub-subsea-to-surface-subsea-completion-tie-back-to-host-facility)
 
 Primary code: UPS: Upstream
-Subsea wells and manifolds tied back by flowlines and umbilicals to a surface host (fixed platform, FPSO, spar), avoiding a dedicated platform at the well location.
+Subsea wells and manifolds tied back by flowlines and umbilicals to a surface host (fixed platform, FPSO, spar), avoiding a dedicated platform at the well location. Primary source: https://en.wikipedia.org/wiki/Subsea_production_system
 Vendors: TechnipFMC (CDS Separation Systems), Saipem (ex-Micoperi 7000), Subsea7 (Swagelining all-polymer liner) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11018,7 +11018,7 @@ Vendors: TechnipFMC (CDS Separation Systems), Saipem (ex-Micoperi 7000), Subsea7
 ### Suction bucket / suction caisson jacket foundations (sub-suction-bucket-suction-caisson-jacket-foundations)
 
 Primary code: UPS: Upstream
-Open-bottomed inverted-bucket foundation embedded by pumping water out (negative pressure); resists lateral and axial loads and is removable by reverse pumping.
+Open-bottomed inverted-bucket foundation embedded by pumping water out (negative pressure); resists lateral and axial loads and is removable by reverse pumping. Primary source: https://en.wikipedia.org/wiki/Suction_caisson
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11033,7 +11033,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Tension leg platform (sub-tension-leg-platform-tlp-extended-tlp-mini-tlp)
 
 Primary code: UPS: Upstream
-Vertically moored buoyant platform with high-axial-stiffness tendons that eliminate nearly all vertical motion, permitting deck-mounted dry-tree wellheads and rigid risers.
+Vertically moored buoyant platform with high-axial-stiffness tendons that eliminate nearly all vertical motion, permitting deck-mounted dry-tree wellheads and rigid risers. Primary source: https://en.wikipedia.org/wiki/Tension-leg_platform
 Vendors: Technip / TechnipFMC, Heerema Marine Contractors (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11048,7 +11048,7 @@ Vendors: Technip / TechnipFMC, Heerema Marine Contractors (0 model lines recorde
 ### Tension-leg wellhead platform (sub-tension-leg-wellhead-platform-mini-tlp-tlwp)
 
 Primary code: UPS: Upstream
-Small vertically moored wellhead or utility platform for satellite/early production, using tensioned tendons to support dry trees at lower cost than a full TLP.
+Small vertically moored wellhead or utility platform for satellite/early production, using tensioned tendons to support dry trees at lower cost than a full TLP. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11059,7 +11059,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Wellhead caisson / conductor-guided single-well structure (sub-wellhead-caisson-conductor-guided-single-well-structure)
 
 Primary code: UPS: Upstream
-Single- or few-well structure in which the conductor(s) provide primary lateral support for a small wellhead deck.
+Single- or few-well structure in which the conductor(s) provide primary lateral support for a small wellhead deck. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11088,7 +11088,7 @@ Vendors: Heerema (0 model lines recorded).
 ### 132 kV substation (geg-132-kv-substation)
 
 Primary code: PWR: Power and renewables
-132 kV substation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+132 kV substation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf
 Vendors: Supplier not identified in sources read (WBS line item), Pestech Sdn Bhd, MN Power Transmission Sdn Bhd (subsidiary of MN Holdings Bhd), Hexatech Engineering Sdn. Bhd. (subsidiary of HE Group Berhad), Sieyuan Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11146,7 +11146,7 @@ Recorded gaps:
 ### 33 kV substation (geg-33-kv-substation)
 
 Primary code: PWR: Power and renewables
-33 kV substation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+33 kV substation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf
 Vendors: Supplier not identified in sources read (WBS line item), NEECO Sdn Bhd, Tamco Switchgear (Malaysia) Sdn Bhd, Tenaga Switchgear Sdn Bhd, PESTECH International Bhd (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11197,7 +11197,7 @@ Recorded gaps:
 ### 33 kV substation and LV distribution room (geg-33-kv-substation-and-lv-distribution-room)
 
 Primary code: PWR: Power and renewables
-33 kV substation and LV distribution room for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+33 kV substation and LV distribution room for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://webstore.iec.ch/en/publication/63466
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11216,7 +11216,7 @@ Recorded gaps:
 ### Data centre medium-voltage switchgear (mv-switchgear-data-centre)
 
 Primary code: IDC: Data centres
-The MV layer that takes utility or on-site generation supply into a data-centre campus and splits it to transformers and UPS halls: air-insulated (AIS) for flexible, expandable rooms and gas-insulated (GIS) where footprint or harsh conditions rule. ABB's MV switchgear covers 1-52 kV under IEC to IEC 62271, with SF6-free insulation (dry air or natural-origin gases, GWP below 1) available for most 6-24 kV applications and compliant with EU F-gas regulation 2024/573; data centres are a named served industry.
+The MV layer that takes utility or on-site generation supply into a data-centre campus and splits it to transformers and UPS halls: air-insulated (AIS) for flexible, expandable rooms and gas-insulated (GIS) where footprint or harsh conditions rule. ABB's MV switchgear covers 1-52 kV under IEC to IEC 62271, with SF6-free insulation (dry air or natural-origin gases, GWP below 1) available for most 6-24 kV applications and compliant with EU F-gas regulation 2024/573; data centres are a named served industry. Primary source: https://new.abb.com/medium-voltage/switchgear
 Vendors: ABB, Schneider Electric, Eaton, Anord Mardix, Hitachi Energy (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11234,7 +11234,7 @@ Recorded gaps:
 ### Generator circuit breaker, LV/MV switchgear, bus ducts, ATS / CTTS (gas-engine-switchgear-ats)
 
 Primary code: PWR: Power and renewables
-Generator circuit breaker, LV/MV switchgear, bus ducts, ATS / CTTS
+Generator circuit breaker, LV/MV switchgear, bus ducts, ATS / CTTS Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions
 Vendors: ABB, Eaton, ComAp, Cummins (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11253,7 +11253,7 @@ Recorded gaps:
 ### 11 kV switchgear (geg-11-kv-switchgear)
 
 Primary code: PWR: Power and renewables
-11 kV switchgear for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+11 kV switchgear for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://library.e.abb.com/public/7d0f377bf3f8405b9bd54d247d2d32d6/UniGear+ZS1+-+Double+busbar_Leaflet_1VCP000156_RevC_EN.pdf
 Vendors: ABB, Siemens, Tenaga Switchgear Sdn Bhd, Tamco Switchgear (Malaysia) Sdn Bhd (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11312,7 +11312,7 @@ Recorded gaps:
 ### 132 kV switchgear room (geg-132-kv-switchgear-room)
 
 Primary code: PWR: Power and renewables
-132 kV switchgear room for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+132 kV switchgear room for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://webstore.iec.ch/en/publication/63466
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11331,7 +11331,7 @@ Recorded gaps:
 ### MV switchgear room (geg-mv-switchgear-room)
 
 Primary code: PWR: Power and renewables
-MV switchgear room for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+MV switchgear room for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://webstore.iec.ch/en/publication/63466
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11350,7 +11350,7 @@ Recorded gaps:
 ### Main and check tariff meters (geg-main-and-check-tariff-meters)
 
 Primary code: PWR: Power and renewables
-Main and check tariff meters for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
+Main and check tariff meters for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf
 Vendors: SESB Single Buyer (system owner/operator per Sabah Grid Code), Itron SAS, Landis+Gyr, Pestech Sdn Bhd, Pestech Energy Sdn Bhd, T7 Wenmax Sdn Bhd (3 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11434,7 +11434,7 @@ Recorded gaps:
 ### Telecommunication and network infrastructure (geg-telecommunication-and-network-infrastructure)
 
 Primary code: PWR: Power and renewables
-Telecommunication and network infrastructure for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
+Telecommunication and network infrastructure for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf
 Vendors: Siemens (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11474,7 +11474,7 @@ Recorded gaps:
 ### Load banks, commissioning and testing equipment for gensets (data-centre-load-bank)
 
 Primary code: IDC: Data centres
-Load banks, commissioning and testing equipment for gensets
+Load banks, commissioning and testing equipment for gensets Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions
 Vendors: Avtron Power Solutions, Trystar, Buckeye Power Sales (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11492,7 +11492,7 @@ Recorded gaps:
 ### Accommodation / living quarters topsides (top-accommodation-living-quarters-topsides)
 
 Primary code: UPS: Upstream
-Provides habitability for the offshore workforce, with helideck access nearby and maximum segregation from hazardous process equipment, flare and high-noise sources.
+Provides habitability for the offshore workforce, with helideck access nearby and maximum segregation from hazardous process equipment, flare and high-noise sources. Primary source: https://pdfcoffee.com/offshore-platform-topside-pdf-free.html
 Vendors: Leirvik AS, KBR / Kvaerner JV (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11505,7 +11505,7 @@ Vendors: Leirvik AS, KBR / Kvaerner JV (0 model lines recorded).
 ### Flare platform topsides and flare booms/stacks (top-flare-platform-topsides-and-flare-booms-stacks)
 
 Primary code: UPS: Upstream
-Vent and flare structures discharge and burn gaseous products; placed outside hazardous areas and away from the helideck, with tip elevation above the helideck and heat radiation checked.
+Vent and flare structures discharge and burn gaseous products; placed outside hazardous areas and away from the helideck, with tip elevation above the helideck and heat radiation checked. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm
 Vendors: Worley (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11516,7 +11516,7 @@ Vendors: Worley (0 model lines recorded).
 ### FLNG topsides and turrets (top-flng-topsides-and-turrets)
 
 Primary code: UPS: Upstream
-Floating LNG facility topsides consolidate gas pretreatment, liquefaction, fractionation, utilities, accommodation, flare and offtake on a ship-shaped hull; turret mooring enables weathervaning and fluid/power transfer.
+Floating LNG facility topsides consolidate gas pretreatment, liquefaction, fractionation, utilities, accommodation, flare and offtake on a ship-shaped hull; turret mooring enables weathervaning and fluid/power transfer. Primary source: https://html.rhhz.net/jckxjsgw/html/51228.htm
 Vendors: Babcock International, CNOOC Research Institute (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11530,7 +11530,7 @@ Vendors: Babcock International, CNOOC Research Institute (0 model lines recorded
 ### Float-over topsides (top-float-over-topsides)
 
 Primary code: UPS: Upstream
-Fully integrated and pre-commissioned deck transported on a barge, floated over the substructure and lowered by ballasting or quick-drop mechanisms (or by deballasting a floating substructure). Avoids heavy-lift crane capacity limits.
+Fully integrated and pre-commissioned deck transported on a barge, floated over the substructure and lowered by ballasting or quick-drop mechanisms (or by deballasting a floating substructure). Avoids heavy-lift crane capacity limits. Primary source: https://pdfcoffee.com/offshore-platform-topside-pdf-free.html
 Vendors: COOEC (CNOOC Engineering) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11542,7 +11542,7 @@ Vendors: COOEC (CNOOC Engineering) (0 model lines recorded).
 ### FPSO topsides and turrets (top-fpso-topsides-and-turrets)
 
 Primary code: UPS: Upstream
-Ship-shaped floating production topsides with process, utility, accommodation and offloading systems; turret mooring allows weathervaning and transfers fluids/power between subsea and topsides through a swivel.
+Ship-shaped floating production topsides with process, utility, accommodation and offloading systems; turret mooring allows weathervaning and transfers fluids/power between subsea and topsides through a swivel. Primary source: https://www.offshore-mag.com/deepwater/article/55330459/fpso-fleet-correlations-calculating-topsides-weight-vs-processing-capacity
 Vendors: SOFEC, SBM Offshore (Atlantia/SeaStar) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11561,7 +11561,7 @@ Vendors: SOFEC, SBM Offshore (Atlantia/SeaStar) (0 model lines recorded).
 ### Hybrid / semi-integrated topsides (top-hybrid-semi-integrated-topsides)
 
 Primary code: UPS: Upstream
-Mixed concept where most equipment is integrated into a single lifted structure and smaller modules are added afterwards, balancing crane capacity, weight and offshore HUC cost.
+Mixed concept where most equipment is integrated into a single lifted structure and smaller modules are added afterwards, balancing crane capacity, weight and offshore HUC cost. Primary source: https://pdfcoffee.com/offshore-platform-topside-pdf-free.html
 Vendors: Technip-Coflexip (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11573,7 +11573,7 @@ Vendors: Technip-Coflexip (0 model lines recorded).
 ### Integrated (top-integrated-single-lift-topsides)
 
 Primary code: UPS: Upstream
-All equipment is arranged, hooked up and commissioned onshore on one integrated deck, minimising offshore hook-up and commissioning (HUC). Single-lift topsides are integrated topsides designed specifically to reduce total weight so the whole unit can be installed by one crane lift.
+All equipment is arranged, hooked up and commissioned onshore on one integrated deck, minimising offshore hook-up and commissioning (HUC). Single-lift topsides are integrated topsides designed specifically to reduce total weight so the whole unit can be installed by one crane lift. Primary source: https://pdfcoffee.com/offshore-platform-topside-pdf-free.html
 Vendors: KBR, Aibel (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11594,7 +11594,7 @@ Vendors: KBR, Aibel (0 model lines recorded).
 ### Integrated deck with drilling rig (top-integrated-deck-with-drilling-rig)
 
 Primary code: UPS: Upstream
-A topsides concept combining drilling and production facilities on one structure, either as a fully integrated deck with a permanent/skiddable rig module or as a lightweight single-lift deck with a rig added later.
+A topsides concept combining drilling and production facilities on one structure, either as a fully integrated deck with a permanent/skiddable rig module or as a lightweight single-lift deck with a rig added later. Primary source: https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11609,7 +11609,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Large topsides: central processing / integrated production-utility-accommodation platforms (top-large-topsides-central-processing-integrated-production-utilit)
 
 Primary code: UPS: Upstream
-Large multi-module topsides carrying separation, gas processing, water handling, utilities, power and living quarters, often with drilling and riser systems. Weight and dimensions are driven primarily by platform function.
+Large multi-module topsides carrying separation, gas processing, water handling, utilities, power and living quarters, often with drilling and riser systems. Weight and dimensions are driven primarily by platform function. Primary source: https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside
 Vendors: Aker Solutions, Fluor / COOEC-Fluor (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11624,7 +11624,7 @@ Vendors: Aker Solutions, Fluor / COOEC-Fluor (0 model lines recorded).
 ### Large topsides: riser, compression, pump, gas processing/reinjection, separation and water-injection platforms (top-large-topsides-riser-compression-pump-gas-processing-reinjecti)
 
 Primary code: UPS: Upstream
-Function-specific large topsides that host risers and manifolds, gas compression for export or reinjection, produced-water separation and injection, and power/utility support, often tied back to a central hub.
+Function-specific large topsides that host risers and manifolds, gas compression for export or reinjection, produced-water separation and injection, and power/utility support, often tied back to a central hub. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm
 Vendors: Aker Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11636,7 +11636,7 @@ Vendors: Aker Solutions (0 model lines recorded).
 ### Modular multi-module topsides (top-modular-multi-module-topsides)
 
 Primary code: UPS: Upstream
-Several modules are fabricated onshore, transported offshore and installed onto a module support frame (MSF) mounted on the substructure; hook-up and commissioning then occurs offshore. Modularisation enables parallel work, accommodates the gap between total topsides weight and available crane capacity, and allows module replacement during field life.
+Several modules are fabricated onshore, transported offshore and installed onto a module support frame (MSF) mounted on the substructure; hook-up and commissioning then occurs offshore. Modularisation enables parallel work, accommodates the gap between total topsides weight and available crane capacity, and allows module replacement during field life. Primary source: https://pdfcoffee.com/offshore-platform-topside-pdf-free.html
 Vendors: Lamprell (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11654,7 +11654,7 @@ Vendors: Lamprell (0 model lines recorded).
 ### Module Support Frame (top-module-support-frame-msf-and-deck-structures)
 
 Primary code: UPS: Upstream
-A space frame that supports modules and transfers their loads to the jacket/tower substructure; may also house storage tanks, pig launchers/receivers, metering devices and piping. Provides the structural skeleton for integrated or modular decks.
+A space frame that supports modules and transfers their loads to the jacket/tower substructure; may also house storage tanks, pig launchers/receivers, metering devices and piping. Provides the structural skeleton for integrated or modular decks. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11669,7 +11669,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Offshore topsides (top-offshore-topsides-definition-function-and-structural-scope)
 
 Primary code: UPS: Upstream
-The above-water steel structure, consisting of one or more decks, that holds all facilities for exploration/production and human activity; it is designed and fabricated separately from the substructure and integrated inshore or offshore. Its three common design elements are: hold all equipment needed for operations, provide a safe and sustainable healthy living environment, and optimise dimensions and weight.
+The above-water steel structure, consisting of one or more decks, that holds all facilities for exploration/production and human activity; it is designed and fabricated separately from the substructure and integrated inshore or offshore. Its three common design elements are: hold all equipment needed for operations, provide a safe and sustainable healthy living environment, and optimise dimensions and weight. Primary source: https://pdfcoffee.com/offshore-platform-topside-pdf-free.html
 Vendors: Aker Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11690,7 +11690,7 @@ Vendors: Aker Solutions (0 model lines recorded).
 ### Self-installing topsides (top-self-installing-topsides)
 
 Primary code: UPS: Upstream
-Topsides installed without a heavy-lift crane vessel, using self-contained jacking/lifting systems, skidding or the support structure's own buoyancy; reduces dependence on scarce heavy-lift tonnage.
+Topsides installed without a heavy-lift crane vessel, using self-contained jacking/lifting systems, skidding or the support structure's own buoyancy; reduces dependence on scarce heavy-lift tonnage. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Kiewit (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11701,7 +11701,7 @@ Vendors: Kiewit (0 model lines recorded).
 ### Semi-submersible production topsides (top-semi-submersible-production-topsides)
 
 Primary code: UPS: Upstream
-Topsides placed on column-stabilised floating hulls held by catenary moorings; can be integrated and commissioned at dock, with installation method (heavy lift, jacking, float-over, multiple lifts) strongly affecting selection.
+Topsides placed on column-stabilised floating hulls held by catenary moorings; can be integrated and commissioned at dock, with installation method (heavy lift, jacking, float-over, multiple lifts) strongly affecting selection. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11712,7 +11712,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Small topsides: portable / mobile (top-small-topsides-portable-mobile-mopu-topsides)
 
 Primary code: UPS: Upstream
-Portable or reusable offshore production facility where the topsides can be moved and reused; includes ship-shaped FPSOs, spars, TLPs, jack-ups, semi-submersible production units and production barges.
+Portable or reusable offshore production facility where the topsides can be moved and reused; includes ship-shaped FPSOs, spars, TLPs, jack-ups, semi-submersible production units and production barges. Primary source: https://www.iso.org/standard/84215.html
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11723,7 +11723,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Small topsides: unmanned wellhead / minimal process (top-small-topsides-unmanned-wellhead-minimal-process-uwhp-nnm-mono)
 
 Primary code: UPS: Upstream
-Minimalist topsides for wellhead-only or very small production functions, normally unattended, with no process facilities in the simplest cases. Used where wells are tied back to existing facilities, or for marginal/small fields.
+Minimalist topsides for wellhead-only or very small production functions, normally unattended, with no process facilities in the simplest cases. Used where wells are tied back to existing facilities, or for marginal/small fields. Primary source: https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside
 Vendors: Aker Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11735,7 +11735,7 @@ Vendors: Aker Solutions (0 model lines recorded).
 ### Spar topsides (top-spar-topsides)
 
 Primary code: UPS: Upstream
-Topside supported on a deep-draft single vertical cylinder (classic, truss or cell spar) with a typical fixed-platform-style deck carrying drilling and production equipment and dry-tree risers; low heave motion suits ultra-deepwater.
+Topside supported on a deep-draft single vertical cylinder (classic, truss or cell spar) with a typical fixed-platform-style deck carrying drilling and production equipment and dry-tree risers; low heave motion suits ultra-deepwater. Primary source: https://pdfcoffee.com/offshore-platform-topside-pdf-free.html
 Vendors: Kiewit Offshore Services (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11748,7 +11748,7 @@ Vendors: Kiewit Offshore Services (0 model lines recorded).
 ### Tension leg platform (top-tension-leg-platform-tlp-topsides)
 
 Primary code: UPS: Upstream
-Topside carried on a column-stabilised buoyant hull held by tensioned tendons; supports drilling, production and accommodation. Enables surface BOP/wellhead access but adds drilling-package weight, riser tension and motion design constraints.
+Topside carried on a column-stabilised buoyant hull held by tensioned tendons; supports drilling, production and accommodation. Enables surface BOP/wellhead access but adds drilling-package weight, riser tension and motion design constraints. Primary source: https://mcdermottscotlandheritage.com/project/hutton-1984
 Vendors: McDermott, SBM Atlantia / SOFEC (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11766,7 +11766,7 @@ Vendors: McDermott, SBM Atlantia / SOFEC (0 model lines recorded).
 ### Topside systems (top-topside-systems-process-layout-piping-electrical-icss-f-g-esd)
 
 Primary code: UPS: Upstream
-The distributed systems carried by the topside structure: process equipment and pipe racks; power generation/distribution and control; fire & gas and emergency shutdown; heating/ventilation/air conditioning; material-handling cranes; escape/lifesaving; helicopter decks; and inter-platform bridges.
+The distributed systems carried by the topside structure: process equipment and pipe racks; power generation/distribution and control; fire & gas and emergency shutdown; heating/ventilation/air conditioning; material-handling cranes; escape/lifesaving; helicopter decks; and inter-platform bridges. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm
 Vendors: Alliance Engineering (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11782,7 +11782,7 @@ Vendors: Alliance Engineering (0 model lines recorded).
 ### Topside weight and area benchmarks (top-topside-weight-and-area-benchmarks-small-vs-large)
 
 Primary code: UPS: Upstream
-Empirical relations and published weight tables used for early-stage sizing and checking whether a proposed topsides weight is within historical ranges.
+Empirical relations and published weight tables used for early-stage sizing and checking whether a proposed topsides weight is within historical ranges. Primary source: https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside
 Vendors: Heerema (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11799,7 +11799,7 @@ Vendors: Heerema (0 model lines recorded).
 ### Amine sweetening (tp-amine-sweetening-mdea-and-formulated-amines)
 
 Primary code: UPS: Upstream
-Absorb H2S and CO2 from sour gas in a contactor using lean amine; regenerate in a still/reboiler; route acid gas to flare, vent or sulphur recovery unit.
+Absorb H2S and CO2 from sour gas in a contactor using lean amine; regenerate in a still/reboiler; route acid gas to flare, vent or sulphur recovery unit. Primary source: https://energy-resources.basf.com/global/en/gas-treatment/gas-treatment-oase/formulations-and-solvents
 Vendors: BASF, Kinder Morgan Treating, SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11813,7 +11813,7 @@ Vendors: BASF, Kinder Morgan Treating, SPEC Oil & Gas Technologies (fabricator) 
 ### Chemical injection systems — methanol/MEG, corrosion/scale inhibitor, demulsifier, defoamer, biocide (tp-chemical-injection-systems-methanol-meg-corrosion-scale-inhibi)
 
 Primary code: UPS: Upstream
-Inject hydrate inhibitors, corrosion/scale inhibitors, demulsifiers, defoamers and biocides via dosing pumps and tanks to maintain flow assurance, separation performance and asset integrity.
+Inject hydrate inhibitors, corrosion/scale inhibitors, demulsifiers, defoamers and biocides via dosing pumps and tanks to maintain flow assurance, separation performance and asset integrity. Primary source: https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas
 Vendors: SLB (Cameron pressure control equipment), SPEC Oil & Gas Technologies (fabricator), US EPA Natural Gas STAR Program (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11825,7 +11825,7 @@ Vendors: SLB (Cameron pressure control equipment), SPEC Oil & Gas Technologies (
 ### Compact / in-line separation and debottlenecking (tp-compact-in-line-separation-and-debottlenecking-cross-cutting-t)
 
 Primary code: UPS: Upstream
-Increase existing separator capacity and reduce topside weight/footprint by bulk phase bypass and high-efficiency internals rather than new large vessels.
+Increase existing separator capacity and reduce topside weight/footprint by bulk phase bypass and high-efficiency internals rather than new large vessels. Primary source: https://www.technipfmc.com/en/what-we-do/surface/production
 Vendors: TechnipFMC (CDS Separation Systems), OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11837,7 +11837,7 @@ Vendors: TechnipFMC (CDS Separation Systems), OneSubsea (SLB/Aker Solutions JV) 
 ### Dew point control and gas cooling / hydrocarbon recovery (tp-dew-point-control-and-gas-cooling-hydrocarbon-recovery)
 
 Primary code: UPS: Upstream
-Meet water and hydrocarbon dew point sales specs by cooling/condensing heavy components, with upstream dehydration to prevent hydrate/ice formation; low-temperature separation, refrigeration, silica gel and LTS options.
+Meet water and hydrocarbon dew point sales specs by cooling/condensing heavy components, with upstream dehydration to prevent hydrate/ice formation; low-temperature separation, refrigeration, silica gel and LTS options. Primary source: https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas
 Vendors: Pietro Fiorentini (TEG packages), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11850,7 +11850,7 @@ Vendors: Pietro Fiorentini (TEG packages), SPEC Oil & Gas Technologies (fabricat
 ### Electrical distribution, instrument/plant air, nitrogen, hydraulic power, seawater/lift pumps, HVAC, firewater (tp-electrical-distribution-instrument-plant-air-nitrogen-hydrauli)
 
 Primary code: UPS: Upstream
-Support utilities and safety systems that make the process train operable: power distribution, pneumatic control air, inerting, actuation power, cooling/firewater, lifting and living quarters.
+Support utilities and safety systems that make the process train operable: power distribution, pneumatic control air, inerting, actuation power, cooling/firewater, lifting and living quarters. Primary source: https://www.specoilandgas.com/equipment/ancillary-equipment/utilities
 Vendors: SPEC Oil & Gas Technologies (fabricator), Siemens Energy (incl. ex-Dresser-Rand) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11862,7 +11862,7 @@ Vendors: SPEC Oil & Gas Technologies (fabricator), Siemens Energy (incl. ex-Dres
 ### ESD / F&G / ICSS — emergency shutdown, fire and gas, safety instrumented systems, HIPPS (tp-esd-f-g-icss-emergency-shutdown-fire-and-gas-safety-instrument)
 
 Primary code: UPS: Upstream
-Detect fire/gas and execute SIL-rated shutdown and mitigation actions, integrated with process control on offshore/floating facilities.
+Detect fire/gas and execute SIL-rated shutdown and mitigation actions, integrated with process control on offshore/floating facilities. Primary source: https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager
 Vendors: Honeywell, TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11876,7 +11876,7 @@ Vendors: Honeywell, TechnipFMC (CDS Separation Systems) (0 model lines recorded)
 ### Flare and vent system — flare stack/boom, flare tips, KO drums, gas recovery/VRU (tp-flare-and-vent-system-flare-stack-boom-flare-tips-ko-drums-gas)
 
 Primary code: UPS: Upstream
-Safely dispose of relief/blowdown/start-up gas by controlled combustion; knock out entrained liquid upstream to prevent flaming rain; recover gas where feasible.
+Safely dispose of relief/blowdown/start-up gas by controlled combustion; knock out entrained liquid upstream to prevent flaming rain; recover gas where feasible. Primary source: https://www.flaretechinc.com/products/flare-knockout-drums
 Vendors: FlareTech Inc., CRA (Combustion Research Associates), NAO Inc., Allmarc Industries (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11900,7 +11900,7 @@ Vendors: FlareTech Inc., CRA (Combustion Research Associates), NAO Inc., Allmarc
 ### Free-water knockout (tp-free-water-knockout-fwko-and-desanders-desanding-hydrocyclones)
 
 Primary code: UPS: Upstream
-Remove bulk free water before downstream heating/chemical treating; remove sand/solids from wellstream or produced water upstream of separation and oil-in-water separation.
+Remove bulk free water before downstream heating/chemical treating; remove sand/solids from wellstream or produced water upstream of separation and oil-in-water separation. Primary source: https://www.specoilandgas.com/equipment/phase-separation/free-water-knock-out
 Vendors: TechnipFMC (CDS Separation Systems), OneSubsea (SLB/Aker Solutions JV), Enerflex, Enhydra Ltd, eProcess Technologies (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11911,7 +11911,7 @@ Vendors: TechnipFMC (CDS Separation Systems), OneSubsea (SLB/Aker Solutions JV),
 ### Gas compression — reciprocating, centrifugal/axial, rotary screw; suction/discharge scrubbers (tp-gas-compression-reciprocating-centrifugal-axial-rotary-screw-s)
 
 Primary code: UPS: Upstream
-Raise associated/export gas pressure, provide gas lift/reinjection/vapour-recovery/refrigeration duty; scrub liquids ahead of and after compressors.
+Raise associated/export gas pressure, provide gas lift/reinjection/vapour-recovery/refrigeration duty; scrub liquids ahead of and after compressors. Primary source: https://www.specoilandgas.com/equipment/gas-conditioning/compressor-packages
 Vendors: SPEC Oil & Gas Technologies (fabricator), Siemens Energy (incl. ex-Dresser-Rand), OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11924,7 +11924,7 @@ Vendors: SPEC Oil & Gas Technologies (fabricator), Siemens Energy (incl. ex-Dres
 ### Gas export / sales specification compliance (tp-gas-export-sales-specification-compliance-cross-cutting)
 
 Primary code: UPS: Upstream
-Ensure dehydrated, sweetened, dew-point-controlled gas meets pipeline/sales requirements for water content, H2S/CO2, hydrocarbon dew point and heating value before custody transfer.
+Ensure dehydrated, sweetened, dew-point-controlled gas meets pipeline/sales requirements for water content, H2S/CO2, hydrocarbon dew point and heating value before custody transfer. Primary source: https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas
 Vendors: Honeywell, Emerson (duplex stainless steel option on Roxar 2600, page read) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11937,7 +11937,7 @@ Vendors: Honeywell, Emerson (duplex stainless steel option on Roxar 2600, page r
 ### Glycol (tp-glycol-teg-dehydration)
 
 Primary code: UPS: Upstream
-Contact wet gas with lean triethylene glycol in an absorber/contactor, then regenerate glycol in a reboiler/still to meet water-content and water-dew-point specification and prevent hydrates/corrosion.
+Contact wet gas with lean triethylene glycol in an absorber/contactor, then regenerate glycol in a reboiler/still to meet water-content and water-dew-point specification and prevent hydrates/corrosion. Primary source: https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas
 Vendors: Pietro Fiorentini (TEG packages), Kinder Morgan Treating, SPEC Oil & Gas Technologies (fabricator), Cimarron Energy (Aereon) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11956,7 +11956,7 @@ Vendors: Pietro Fiorentini (TEG packages), Kinder Morgan Treating, SPEC Oil & Ga
 ### Inlet scrubbers / gas scrubbers / slug catchers (tp-inlet-scrubbers-gas-scrubbers-slug-catchers)
 
 Primary code: UPS: Upstream
-Remove free liquid and solids from gas entering a treatment facility before additional processing; protect compressors and downstream equipment.
+Remove free liquid and solids from gas entering a treatment facility before additional processing; protect compressors and downstream equipment. Primary source: https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator
 Vendors: SLB (Cameron pressure control equipment), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11967,7 +11967,7 @@ Vendors: SLB (Cameron pressure control equipment), SPEC Oil & Gas Technologies (
 ### Mercury removal (tp-mercury-removal)
 
 Primary code: UPS: Upstream
-Remove elemental mercury from gas to protect brazed aluminium plate-fin heat exchangers in cryogenic recovery/liquefaction plants.
+Remove elemental mercury from gas to protect brazed aluminium plate-fin heat exchangers in cryogenic recovery/liquefaction plants. Primary source: https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal
 Vendors: Pietro Fiorentini (TEG packages) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -11979,7 +11979,7 @@ Vendors: Pietro Fiorentini (TEG packages) (0 model lines recorded).
 ### Metering and export quality — oil/gas/water meters, multiphase flow meters, custody transfer, sampling, sales  (tp-metering-and-export-quality-oil-gas-water-meters-multiphase-fl)
 
 Primary code: UPS: Upstream
-Measure oil, gas and water rates (with or without separation), support allocation and custody transfer, sample fluids at or above hydrocarbon dew point, and demonstrate compliance with sales specifications.
+Measure oil, gas and water rates (with or without separation), support allocation and custody transfer, sample fluids at or above hydrocarbon dew point, and demonstrate compliance with sales specifications. Primary source: https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter
 Vendors: SLB (Cameron pressure control equipment), Emerson (duplex stainless steel option on Roxar 2600, page read), TechnipFMC (CDS Separation Systems), Honeywell (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12003,7 +12003,7 @@ Vendors: SLB (Cameron pressure control equipment), Emerson (duplex stainless ste
 ### Molecular sieve dehydration and solid desiccants (tp-molecular-sieve-dehydration-and-solid-desiccants)
 
 Primary code: UPS: Upstream
-Adsorb water to very low dew points upstream of cryogenic processing/LNG/NGL recovery; swing-bed adsorption with heated regeneration gas.
+Adsorb water to very low dew points upstream of cryogenic processing/LNG/NGL recovery; swing-bed adsorption with heated regeneration gas. Primary source: https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel
 Vendors: Pietro Fiorentini (TEG packages), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12017,7 +12017,7 @@ Vendors: Pietro Fiorentini (TEG packages), SPEC Oil & Gas Technologies (fabricat
 ### Oil heating and crude/condensate stabilisation (tp-oil-heating-and-crude-condensate-stabilisation)
 
 Primary code: UPS: Upstream
-Heat emulsion or crude; strip light ends from crude/condensate to meet Reid vapour pressure (RVP) and H2S limits for storage/export; supply heat from hot-oil or fired systems.
+Heat emulsion or crude; strip light ends from crude/condensate to meet Reid vapour pressure (RVP) and H2S limits for storage/export; supply heat from hot-oil or fired systems. Primary source: https://www.specoilandgas.com/equipment/ancillary-equipment
 Vendors: SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12029,7 +12029,7 @@ Vendors: SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
 ### Oil treatment — mechanical heater treaters, electrostatic treaters/dehydrators, desalters (tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater)
 
 Primary code: UPS: Upstream
-Break produced-water-in-oil emulsions with heat and residence time or an applied electrostatic field; reduce BS&W and salt content to export specification.
+Break produced-water-in-oil emulsions with heat and residence time or an applied electrostatic field; reduce BS&W and salt content to export specification. Primary source: https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater
 Vendors: SPEC Oil & Gas Technologies (fabricator), SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12070,7 +12070,7 @@ Vendors: SPEC Oil & Gas Technologies (fabricator), SLB (Cameron pressure control
 ### Power generation — gas turbines and diesel (tp-power-generation-gas-turbines-and-diesel)
 
 Primary code: UPS: Upstream
-Supply electrical power and mechanical drive for topside process, compression, water injection and utilities; combined-cycle and single-lift modular packages for offshore use.
+Supply electrical power and mechanical drive for topside process, compression, water injection and utilities; combined-cycle and single-lift modular packages for offshore use. Primary source: https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html
 Vendors: Siemens Energy (incl. ex-Dresser-Rand) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12081,7 +12081,7 @@ Vendors: Siemens Energy (incl. ex-Dresser-Rand) (0 model lines recorded).
 ### Produced water treatment — deoiling hydrocyclones, flotation (tp-produced-water-treatment-deoiling-hydrocyclones-flotation-igf)
 
 Primary code: UPS: Upstream
-Reduce oil-in-water from produced water to discharge or reinjection specification; bulk removal by hydrocyclone, polishing by flotation and filtration.
+Reduce oil-in-water from produced water to discharge or reinjection specification; bulk removal by hydrocyclone, polishing by flotation and filtration. Primary source: https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators
 Vendors: SPEC Oil & Gas Technologies (fabricator), ISS Process (Innovative Synergy Solutions), TechnipFMC (CDS Separation Systems), Veolia Water Technologies / VWS Westgarth, CECO Environmental (Peerless Separation & Filtration), Wasco Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12097,7 +12097,7 @@ Vendors: SPEC Oil & Gas Technologies (fabricator), ISS Process (Innovative Syner
 ### Three-phase (tp-three-phase-production-test-separator-horizontal-vertical-sphe)
 
 Primary code: UPS: Upstream
-Split well effluent into gas, oil and free water; absorb inlet momentum, provide liquid retention, demist gas and control each outlet. Commonly used as a free-water knockout (FWKO).
+Split well effluent into gas, oil and free water; absorb inlet momentum, provide liquid retention, demist gas and control each outlet. Commonly used as a free-water knockout (FWKO). Primary source: https://glossary.slb.com/en/terms/t/three-phase_separator
 Vendors: SLB (Cameron pressure control equipment), TechnipFMC (CDS Separation Systems), SPEC Oil & Gas Technologies (fabricator) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12110,7 +12110,7 @@ Vendors: SLB (Cameron pressure control equipment), TechnipFMC (CDS Separation Sy
 ### Water injection, reinjection pumps and seawater treatment (tp-water-injection-reinjection-pumps-and-seawater-treatment)
 
 Primary code: UPS: Upstream
-Provide reservoir pressure support/disposal by filtering seawater or produced water and injecting at high pressure; remove solids/sulphate/divalent ions that cause scaling/souring.
+Provide reservoir pressure support/disposal by filtering seawater or produced water and injecting at high pressure; remove solids/sulphate/divalent ions that cause scaling/souring. Primary source: https://www.api.org/products-and-services/standards
 Vendors: Baker Hughes, OneSubsea (SLB/Aker Solutions JV), Siemens Energy (incl. ex-Dresser-Rand), TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12123,7 +12123,7 @@ Vendors: Baker Hughes, OneSubsea (SLB/Aker Solutions JV), Siemens Energy (incl. 
 ### LV auxiliary transformer bay (geg-lv-auxiliary-transformer-bay)
 
 Primary code: PWR: Power and renewables
-LV auxiliary transformer bay for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+LV auxiliary transformer bay for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12141,7 +12141,7 @@ Recorded gaps:
 ### Step-up transformer bay (geg-step-up-transformer-bay)
 
 Primary code: PWR: Power and renewables
-Step-up transformer bay for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Step-up transformer bay for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12159,7 +12159,7 @@ Recorded gaps:
 ### Truck/rail loaders, shiploaders and bulk loading stations (bulk-loading-stations)
 
 Primary code: PCH: Petrochemicals
-Truck/rail loaders, shiploaders and bulk loading stations | Jetty / loading and rail loading
+Truck/rail loaders, shiploaders and bulk loading stations | Jetty / loading and rail loading Primary source: https://en.wikipedia.org/wiki/Bulk_material_handling
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12180,7 +12180,7 @@ Recorded gaps:
 ### Industrial gas turbine (aeroderivative and heavy-frame) (turbine-gas-industrial)
 
 Primary code: PWR: Power and renewables
-Gas turbine for power generation and mechanical drive, in two families: aeroderivative units adapted from jet engines (fast start, high simple-cycle efficiency, modular exchange) and heavy-frame machines built for bulky base-load duty behind the grid or as compressor drives on pipelines and gas plants. Sets the exhaust energy that an HRSG converts in combined-cycle and cogeneration service.
+Gas turbine for power generation and mechanical drive, in two families: aeroderivative units adapted from jet engines (fast start, high simple-cycle efficiency, modular exchange) and heavy-frame machines built for bulky base-load duty behind the grid or as compressor drives on pipelines and gas plants. Sets the exhaust energy that an HRSG converts in combined-cycle and cogeneration service. Primary source: https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf
 Vendors: Baker Hughes, GE Vernova, Solar Turbines, Siemens Energy (incl. ex-Dresser-Rand) (2 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12204,7 +12204,7 @@ Recorded gaps:
 ### Unloading station (steel structure) (geg-unloading-station-steel-structure)
 
 Primary code: PWR: Power and renewables
-Unloading station (steel structure) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Unloading station (steel structure) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12222,7 +12222,7 @@ Recorded gaps:
 ### Data centre UPS (uninterruptible power supply) (ups-data-centre)
 
 Primary code: IDC: Data centres
-Double-conversion UPS systems sized per data hall and paralleled to multi-MW capacity, bridging the IT load between a mains disturbance and generator pickup. The class follows the same specification pattern as industrial UPS but is driven by hyperscale density, lithium-ion adoption and, increasingly, grid-interactive operation.
+Double-conversion UPS systems sized per data hall and paralleled to multi-MW capacity, bridging the IT load between a mains disturbance and generator pickup. The class follows the same specification pattern as industrial UPS but is driven by hyperscale density, lithium-ion adoption and, increasingly, grid-interactive operation. Primary source: https://www.vertiv.com/en-emea/campaigns/liebert-exl-s1
 Vendors: Vertiv, Schneider Electric, Eaton, ABB (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12240,7 +12240,7 @@ Recorded gaps:
 ### UPS systems (data-centre-ups-flywheel)
 
 Primary code: IDC: Data centres
-UPS systems (double-conversion, modular, flywheel, lithium-ion)
+UPS systems (double-conversion, modular, flywheel, lithium-ion) Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions
 Vendors: Eaton, Vertiv, Schneider Electric, Active Power / Piller (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12257,7 +12257,7 @@ Recorded gaps:
 ### Uninterruptible power supply system (geg-uninterruptible-power-supply-system)
 
 Primary code: PWR: Power and renewables
-Uninterruptible power supply system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Uninterruptible power supply system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.vertiv.com/48ed43/globalassets/products/critical-power/uninterruptible-power-supplies-ups/liebert-exl-s1-brochure-sl-706452.pdf
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12292,7 +12292,7 @@ Recorded gaps:
 ### Urea melt / melting and hot-urea-solution handling (urea-melt-handling)
 
 Primary code: PCH: Petrochemicals
-Urea melt / melting and hot-urea-solution handling
+Urea melt / melting and hot-urea-solution handling Primary source: https://en.wikipedia.org/wiki/Urea
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12310,7 +12310,7 @@ Recorded gaps:
 ### Urea solution / hot urea solution tanks and pumps (urea-solution-handling)
 
 Primary code: PCH: Petrochemicals
-Urea solution / hot urea solution tanks and pumps (UAN, UAS, AdBlue)
+Urea solution / hot urea solution tanks and pumps (UAN, UAS, AdBlue) Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27
 Vendors: SensoTech GmbH, Stamicarbon (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12332,7 +12332,7 @@ Recorded gaps:
 ### Urea reactor (urea-reactor)
 
 Primary code: PCH: Petrochemicals
-High-pressure reactor in which ammonia and carbon dioxide form ammonium carbamate and then dehydrate to urea. Conversion per pass is incomplete, so the high-pressure loop strips and recycles unconverted carbamate; reactor pressure, temperature and the ammonia-to-CO2 ratio set conversion and downstream stripping duty.
+High-pressure reactor in which ammonia and carbon dioxide form ammonium carbamate and then dehydrate to urea. Conversion per pass is incomplete, so the high-pressure loop strips and recycles unconverted carbamate; reactor pressure, temperature and the ammonia-to-CO2 ratio set conversion and downstream stripping duty. Primary source: https://www.saipem.com/sites/default/files/2019-03/spm_UREAri_L02_14_01_10.pdf
 Vendors: Stamicarbon, thyssenkrupp Uhde, Casale, Toyo Engineering, Saipem (ex-Micoperi 7000), Casale SA (5 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12367,7 +12367,7 @@ Recorded gaps:
 ### Utility communication system (geg-utility-communication-system)
 
 Primary code: PWR: Power and renewables
-Utility communication system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.
+Utility communication system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf
 Vendors: SESB Grid System Operator (GSO) (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12400,7 +12400,7 @@ Recorded gaps:
 ### UV disinfection reactors (wwt-uv-reactors)
 
 Primary code: WWT: Wastewater treatment / Effluent treatment (WWT/ETS)
-Closed-vessel or open-channel UV systems (low-pressure, medium-pressure, LED) delivering 20-100 mJ/cm2 with validated dose monitoring.
+Closed-vessel or open-channel UV systems (low-pressure, medium-pressure, LED) delivering 20-100 mJ/cm2 with validated dose monitoring. Primary source: https://www.trojantechnologies.com/
 Vendors: Trojan Technologies, Xylem (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12418,7 +12418,7 @@ Recorded gaps:
 ### Pressure-reducing valves (PRVs) and desuperheating / attemperation stations (prv-desuperheating-station)
 
 Primary code: PWR: Power and renewables
-Reduce and stabilise steam pressure for process users (self-acting or actuated), and, where superheated steam is used for heating, inject water to control superheat to a temperature above saturation; protect downstream equipment and stabilise control (Spirax Sarco; TLV).
+Reduce and stabilise steam pressure for process users (self-acting or actuated), and, where superheated steam is used for heating, inject water to control superheat to a temperature above saturation; protect downstream equipment and stabilise control (Spirax Sarco; TLV). Primary source: https://www.spiraxsarco.com/learn-about-steam/control-applications/pressure-control-applications
 Vendors: Spirax Sarco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12447,7 +12447,7 @@ Recorded gaps:
 ### Boiler fuel gas train (double block and bleed) (gas-valve-train)
 
 Primary code: PWR: Power and renewables
-Pre-assembled piping that conditions and safely isolates gaseous fuel before the burner: regulator, main shutoff valves, vent, pressure switches and manual isolation. Cleaver-Brooks lists natural gas, refinery gas, hydrogen, landfill, digester and tail gas; trains are designed to NFPA 85, FM, CSA B149.3 and ASME B31.1/B31.3 with SIL and hazardous-area options.
+Pre-assembled piping that conditions and safely isolates gaseous fuel before the burner: regulator, main shutoff valves, vent, pressure switches and manual isolation. Cleaver-Brooks lists natural gas, refinery gas, hydrogen, landfill, digester and tail gas; trains are designed to NFPA 85, FM, CSA B149.3 and ASME B31.1/B31.3 with SIL and hazardous-area options. Primary source: https://cleaverbrooks.com/product/fuel-train
 Vendors: Cleaver-Brooks, Zeeco (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12480,7 +12480,7 @@ Recorded gaps:
 ### Vibratory conveyors (bulk-vibratory-conveyors)
 
 Primary code: PCH: Petrochemicals
-Vibratory conveyors
+Vibratory conveyors Primary source: https://en.wikipedia.org/wiki/Silo
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12498,7 +12498,7 @@ Recorded gaps:
 ### Visitor and meeting building (reinforced concrete) (geg-visitor-and-meeting-building-reinforced-concrete)
 
 Primary code: PWR: Power and renewables
-Visitor and meeting building (reinforced concrete) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Visitor and meeting building (reinforced concrete) for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12516,7 +12516,7 @@ Recorded gaps:
 ### Waste heat boilers, steam generation, economisers and superheaters (ammonia-waste-heat-boiler)
 
 Primary code: PCH: Petrochemicals
-Waste heat boilers, steam generation, economisers and superheaters | Boilers and steam system (HP/MP/LP, waste-heat and package boilers)
+Waste heat boilers, steam generation, economisers and superheaters | Boilers and steam system (HP/MP/LP, waste-heat and package boilers) Primary source: https://www.topsoe.com/solutions/outputs/ammonia/synthesis
 Vendors: Topsoe, Chart Industries / Howden (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12540,7 +12540,7 @@ Recorded gaps:
 ### Wastewater treatment / process condensate (urea-wastewater-treatment)
 
 Primary code: PCH: Petrochemicals
-Wastewater treatment / process condensate
+Wastewater treatment / process condensate Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12559,7 +12559,7 @@ Recorded gaps:
 ### Water storage tank system (geg-water-storage-tank-system)
 
 Primary code: PWR: Power and renewables
-Water storage tank system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Water storage tank system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://pipeco.com.my/tank-product/grp-sectional-water-tank
 Vendors: PIPECO Tanks Malaysia (Pelabuhan Klang, Selangor, Malaysia), POTAGLAS Malaysia, Mui Fatt Marketing Sdn Bhd, G-FRP Venture Marketing Sdn Bhd (1 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12623,7 +12623,7 @@ Recorded gaps:
 ### Condensate polishing systems for HRSG / once-through boilers (filtration, ion exchange; conductivity/sodium ta (condensate-polishing-system)
 
 Primary code: PWR: Power and renewables
-Remove ionic and particulate contaminants (sodium, chloride, sulfate, silica, iron/copper oxides) from returned condensate and makeup before it reaches the boiler/steam generator, protecting boilers, turbines and HRSG evaporators from scaling, corrosion, hydrogen damage and turbine deposition (Graver; Chemical Engineering/ChemTreat).
+Remove ionic and particulate contaminants (sodium, chloride, sulfate, silica, iron/copper oxides) from returned condensate and makeup before it reaches the boiler/steam generator, protecting boilers, turbines and HRSG evaporators from scaling, corrosion, hydrogen damage and turbine deposition (Graver; Chemical Engineering/ChemTreat). Primary source: https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/
 Vendors: Graver Technologies, WOG Technologies Limited, Kurita Water Industries (Kurita ASEAN), Veolia Water Technologies, Purolite (Ecolab), Ion Exchange (India) Ltd, Ovivo (Christ Water Technology / Kennicott) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12655,7 +12655,7 @@ Recorded gaps:
 ### Reverse osmosis (RO), electrodeionisation (EDI/CEDI) and demineralisation for boiler make-up; conductivity/sil (boiler-makeup-ro-edi)
 
 Primary code: PWR: Power and renewables
-Produce high-purity make-up water with very low dissolved solids, silica and CO2 to allow high cycles of concentration, low blowdown and safe operation of high-pressure drums and superheaters. RO is the main corrective pre-treatment after softening; EDI/CEDI polishes RO permeate without acid/caustic regenerants.
+Produce high-purity make-up water with very low dissolved solids, silica and CO2 to allow high cycles of concentration, low blowdown and safe operation of high-pressure drums and superheaters. RO is the main corrective pre-treatment after softening; EDI/CEDI polishes RO permeate without acid/caustic regenerants. Primary source: https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf
 Vendors: Veolia Water Technologies, LANXESS, SUEZ Water Technologies (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12712,7 +12712,7 @@ Recorded gaps:
 ### Weigh belts / beltweighers (bulk-weigh-belts)
 
 Primary code: PCH: Petrochemicals
-Weigh belts / beltweighers
+Weigh belts / beltweighers Primary source: https://en.wikipedia.org/wiki/Conveyor_belt
 Vendors: Topsoe (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12730,7 +12730,7 @@ Recorded gaps:
 ### Caisson platform / conductor-supported caisson (wh-caisson-platform-conductor-supported-caisson-csp)
 
 Primary code: UPS: Upstream
-Vertical large-diameter caisson(s) used as the substructure and often as conductor(s) for a small wellhead topside; cheaper and installable by jack-up rig.
+Vertical large-diameter caisson(s) used as the substructure and often as conductor(s) for a small wellhead topside; cheaper and installable by jack-up rig. Primary source: https://www.api.org/products-and-services/standards
 Vendors: Aquaterra Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12745,7 +12745,7 @@ Recorded gaps:
 ### Chemical injection system (wh-chemical-injection-system-methanol-meg-scale-corrosion-inhibit)
 
 Primary code: UPS: Upstream
-Doses chemicals at the well or flowline to prevent hydrates, corrosion, scale, wax, foaming and demulsification problems.
+Doses chemicals at the well or flowline to prevent hydrates, corrosion, scale, wax, foaming and demulsification problems. Primary source: https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)
 Vendors: Johnson Controls (YORK, Silent-Aire), Petro Controls Europe BV, Veetech Automation FZE, ABB Wellhead Management System (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12760,7 +12760,7 @@ Recorded gaps:
 ### Christmas tree (wh-christmas-tree-surface-and-subsea)
 
 Primary code: UPS: Upstream
-Assembly of valves, spools and fittings mounted on the wellhead to control production or injection flow, provide chemical injection and intervention access, and monitor pressure/temperature/sand.
+Assembly of valves, spools and fittings mounted on the wellhead to control production or injection flow, provide chemical injection and intervention access, and monitor pressure/temperature/sand. Primary source: https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)
 Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems), Baker Hughes, CDI Oil & Gas (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12827,7 +12827,7 @@ Recorded gaps:
 ### Conductors, conductor guides and subsea templates (wh-conductors-conductor-guides-and-subsea-templates)
 
 Primary code: UPS: Upstream
-Protect and guide the drill string and well casing from topside to below the mudline; a subsea template guides conductors before jacket installation and may group several wells.
+Protect and guide the drill string and well casing from topside to below the mudline; a subsea template guides conductors before jacket installation and may group several wells. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12843,7 +12843,7 @@ Recorded gaps:
 ### Downhole safety valve (wh-downhole-safety-valve-dhsv-sssv-scssv)
 
 Primary code: UPS: Upstream
-Fail-safe downhole barrier that isolates reservoir fluids at surface if wellhead/tree containment is lost.
+Fail-safe downhole barrier that isolates reservoir fluids at surface if wellhead/tree containment is lost. Primary source: https://en.wikipedia.org/wiki/Downhole_safety_valve
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12861,7 +12861,7 @@ Recorded gaps:
 ### Fire and gas, deluge and ESD/HIPPS (wh-fire-and-gas-deluge-and-esd-hipps)
 
 Primary code: UPS: Upstream
-Detect fire and gas, mitigate fire escalation with water deluge, and shut down or blow down the installation safely.
+Detect fire and gas, mitigate fire escalation with water deluge, and shut down or blow down the installation safely. Primary source: https://www.api.org/products-and-services/standards
 Vendors: Johnson Controls (YORK, Silent-Aire) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12876,7 +12876,7 @@ Recorded gaps:
 ### Fixed jacket wellhead platform (wh-fixed-jacket-wellhead-platform)
 
 Primary code: UPS: Upstream
-A fixed, pile-founded tubular steel substructure supporting a topside that houses wellheads, Christmas trees, well control and minimum processing; the wells are drilled and completed from the platform.
+A fixed, pile-founded tubular steel substructure supporting a topside that houses wellheads, Christmas trees, well control and minimum processing; the wells are drilled and completed from the platform. Primary source: https://en.wikipedia.org/wiki/Fixed_platform
 Vendors: TechnipFMC (CDS Separation Systems), Aquaterra Energy, OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -12985,7 +12985,7 @@ Recorded gaps:
 ### Flare boom / flare stack (wh-flare-boom-flare-stack)
 
 Primary code: UPS: Upstream
-Safely combust waste gas during normal operation and emergencies; height/length set by radiation and noise limits.
+Safely combust waste gas during normal operation and emergencies; height/length set by radiation and noise limits. Primary source: https://www.api.org/products-and-services/standards
 Vendors: Tai Crest Resources (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13000,7 +13000,7 @@ Recorded gaps:
 ### Helideck, bridge link and accommodation/control rooms (wh-helideck-bridge-link-and-accommodation-control-rooms)
 
 Primary code: UPS: Upstream
-Provides helicopter landing and personnel transfer, a safe bridge connection between platforms, and living quarters/control room spaces.
+Provides helicopter landing and personnel transfer, a safe bridge connection between platforms, and living quarters/control room spaces. Primary source: https://www.api.org/products-and-services/standards
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13015,7 +13015,7 @@ Recorded gaps:
 ### Hydraulic and control lines, umbilicals (wh-hydraulic-and-control-lines-umbilicals)
 
 Primary code: UPS: Upstream
-Carry hydraulic power, electrical power, signals and chemicals between the surface control system and subsea/downhole devices.
+Carry hydraulic power, electrical power, signals and chemicals between the surface control system and subsea/downhole devices. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13030,7 +13030,7 @@ Recorded gaps:
 ### J-tubes, guide tubes and bend restrictors/stiffeners (wh-j-tubes-guide-tubes-and-bend-restrictors-stiffeners)
 
 Primary code: UPS: Upstream
-Guide, protect and control curvature of flexible risers, umbilicals and cables at platform and subsea terminations.
+Guide, protect and control curvature of flexible risers, umbilicals and cables at platform and subsea terminations. Primary source: https://www.api.org/products-and-services/standards
 Vendors: CRP Subsea (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13045,7 +13045,7 @@ Recorded gaps:
 ### Jacket substructure and pile foundation (wh-jacket-substructure-and-pile-foundation)
 
 Primary code: UPS: Upstream
-Transfers topside and environmental loads to the seabed; piles are driven through jacket legs or skirt sleeves and fixed by grouting, welding or swaging.
+Transfers topside and environmental loads to the seabed; piles are driven through jacket legs or skirt sleeves and fixed by grouting, welding or swaging. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm
 Vendors: Sika, CAPE Holland (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13064,7 +13064,7 @@ Recorded gaps:
 ### Landing nipples and packers (wh-landing-nipples-and-packers)
 
 Primary code: UPS: Upstream
-Provide downhole loci for wireline tools/valves and isolate annuli or zones within the completion.
+Provide downhole loci for wireline tools/valves and isolate annuli or zones within the completion. Primary source: https://www.api.org/products-and-services/standards
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13079,7 +13079,7 @@ Recorded gaps:
 ### Manifolds and piping (wh-manifolds-and-piping-production-test-injection)
 
 Primary code: UPS: Upstream
-Gather flow from multiple wells, route to production/test headers, distribute injection fluids and chemicals, and provide isolation and pigging interfaces.
+Gather flow from multiple wells, route to production/test headers, distribute injection fluids and chemicals, and provide isolation and pigging interfaces. Primary source: https://www.api.org/products-and-services/standards
 Vendors: Baker Hughes, OneSubsea (SLB/Aker Solutions JV), Deepsea Technologies, Inc. (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13094,7 +13094,7 @@ Recorded gaps:
 ### Master valves, wing valves, choke valves and actuators (wh-master-valves-wing-valves-choke-valves-and-actuators)
 
 Primary code: UPS: Upstream
-Provide well isolation, flow routing, flow control and remote/fail-safe actuation on trees and manifolds.
+Provide well isolation, flow routing, flow control and remote/fail-safe actuation on trees and manifolds. Primary source: https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)
 Vendors: Hydropneumatic S.r.l., TechnipFMC (CDS Separation Systems) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13111,7 +13111,7 @@ Recorded gaps:
 ### Minimal / satellite / conductor-supported wellhead platform (wh-minimal-satellite-conductor-supported-wellhead-platform)
 
 Primary code: UPS: Upstream
-Low-cost unmanned wellhead platform, often supported directly by the well conductors, used for marginal fields and step-outs tied back to a host facility by flowline or umbilical.
+Low-cost unmanned wellhead platform, often supported directly by the well conductors, used for marginal fields and step-outs tied back to a host facility by flowline or umbilical. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Aquaterra Energy, 2H Offshore, Synergy Engineering (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13126,7 +13126,7 @@ Recorded gaps:
 ### Mobile wellhead units / MODU-served wellhead (wh-mobile-wellhead-units-modu-served-wellhead)
 
 Primary code: UPS: Upstream
-Wellheads and trees served from a mobile offshore drilling unit or intervention vessel instead of a permanent platform; includes subsea wellheads tied back to a host.
+Wellheads and trees served from a mobile offshore drilling unit or intervention vessel instead of a permanent platform; includes subsea wellheads tied back to a host. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13142,7 +13142,7 @@ Recorded gaps:
 ### Pig traps and pigging loops (wh-pig-traps-and-pigging-loops)
 
 Primary code: UPS: Upstream
-Launch and receive pigs to clean or inspect flowlines between manifold and platform.
+Launch and receive pigs to clean or inspect flowlines between manifold and platform. Primary source: https://www.api.org/products-and-services/standards
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13157,7 +13157,7 @@ Recorded gaps:
 ### Platform utilities: cranes, lifeboats, power generation, HVAC and drainage (wh-platform-utilities-cranes-lifeboats-power-generation-hvac-and)
 
 Primary code: UPS: Upstream
-Support safe operation and habitation: lifting, evacuation, electrical power, environmental control and liquid drainage.
+Support safe operation and habitation: lifting, evacuation, electrical power, environmental control and liquid drainage. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13174,7 +13174,7 @@ Recorded gaps:
 ### Risers (wh-risers-top-tensioned-flexible-scr)
 
 Primary code: UPS: Upstream
-Convey production/injection fluids between subsea wellheads/manifolds and the host platform or floating facility.
+Convey production/injection fluids between subsea wellheads/manifolds and the host platform or floating facility. Primary source: https://www.api.org/products-and-services/standards
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13189,7 +13189,7 @@ Recorded gaps:
 ### Tender-assisted drilling (wh-tender-assisted-drilling-tad-wellhead-platform)
 
 Primary code: UPS: Upstream
-Wellhead platform where drilling facilities and accommodation are provided by an adjacent tender vessel or barge rather than being permanently installed on the platform.
+Wellhead platform where drilling facilities and accommodation are provided by an adjacent tender vessel or barge rather than being permanently installed on the platform. Primary source: https://www.api.org/products-and-services/standards
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13204,7 +13204,7 @@ Recorded gaps:
 ### Topsides decks and module support frame (wh-topsides-decks-and-module-support-frame-msf)
 
 Primary code: UPS: Upstream
-Carries wells, process equipment, utilities, accommodation and helideck; either a single integrated deck lifted in one piece or a module support frame carrying multiple modules.
+Carries wells, process equipment, utilities, accommodation and helideck; either a single integrated deck lifted in one piece or a module support frame carrying multiple modules. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm
 Vendors: OneSubsea (SLB/Aker Solutions JV) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13224,7 +13224,7 @@ Recorded gaps:
 ### Unmanned wellhead platform (wh-unmanned-wellhead-platform-uwhp)
 
 Primary code: UPS: Upstream
-Normally unmanned installation with well bay, minimal facilities, remote operation and occasional visit for maintenance or well work.
+Normally unmanned installation with well bay, minimal facilities, remote operation and occasional visit for maintenance or well work. Primary source: https://en.wikipedia.org/wiki/Oil_platform
 Vendors: Shell Malaysia Exploration and Production (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13239,7 +13239,7 @@ Recorded gaps:
 ### Wellhead assembly (wh-wellhead-assembly-casing-head-casing-spools-tubing-head-hanger)
 
 Primary code: UPS: Upstream
-Provides structural suspension and pressure seals for casing and tubing strings, annulus monitoring/pumping access, BOP attachment during drilling and Christmas tree attachment during production.
+Provides structural suspension and pressure seals for casing and tubing strings, annulus monitoring/pumping access, BOP attachment during drilling and Christmas tree attachment during production. Primary source: https://en.wikipedia.org/wiki/Wellhead
 Vendors: OneSubsea (SLB/Aker Solutions JV), TechnipFMC (CDS Separation Systems), OMS (Oilfield Manufacturers and Supplies), CAMTOP Oilfield Tools, Cameron (SLB) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13259,7 +13259,7 @@ Recorded gaps:
 ### Wellhead control panel and surface control system (wh-wellhead-control-panel-and-surface-control-system-whcp)
 
 Primary code: UPS: Upstream
-Controls and monitors surface and subsurface valves, choke, ESD and fire/gas functions for one or multiple wells from a local or remote panel.
+Controls and monitors surface and subsurface valves, choke, ESD and fire/gas functions for one or multiple wells from a local or remote panel. Primary source: https://www.johnsoncontrols.com/oil-and-gas/production-systems
 Vendors: Johnson Controls (YORK, Silent-Aire), Hydropneumatic S.r.l., FST, IPS Group BV, INTECH Automation & Intelligence, Hitec Products AS (NORWEP listing) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13274,7 +13274,7 @@ Recorded gaps:
 ### Wireline, coiled tubing and snubbing/workover equipment (wh-wireline-coiled-tubing-and-snubbing-workover-equipment)
 
 Primary code: UPS: Upstream
-Provide well access for logging, fishing, cleanout, pumping, completions and interventions from the wellhead platform or an intervention vessel.
+Provide well access for logging, fishing, cleanout, pumping, completions and interventions from the wellhead platform or an intervention vessel. Primary source: https://en.wikipedia.org/wiki/Coiled_tubing
 Vendors: NOV (Bondstrand), Halliburton, Balance Point Control (BPC), International Snubbing Services (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13292,7 +13292,7 @@ Recorded gaps:
 ### Condition monitoring instrumentation (whp-condition-monitoring-instrumentation)
 
 Primary code: UPS: Upstream
-Wireless and wired instrumentation monitors annulus/wellhead pressure and structural vibration to cut manual rounds and detect integrity issues early; LoRaWAN battery-powered sensors suit unmanned offshore wells.
+Wireless and wired instrumentation monitors annulus/wellhead pressure and structural vibration to cut manual rounds and detect integrity issues early; LoRaWAN battery-powered sensors suit unmanned offshore wells. Primary source: https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead
 Vendors: Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13312,7 +13312,7 @@ Recorded gaps:
 ### ESD (whp-esd)
 
 Primary code: UPS: Upstream
-ESD is a safety instrumented system that drives the wellhead control panel and shutdown valves to a safe state. Offshore Norge recommended guidance assigns SIL 3 to isolation of the production/injection bore of a topside well; US OCS rules require de-energize-to-trip or supervised ESD stations.
+ESD is a safety instrumented system that drives the wellhead control panel and shutdown valves to a safe state. Offshore Norge recommended guidance assigns SIL 3 to isolation of the production/injection bore of a topside well; US OCS rules require de-energize-to-trip or supervised ESD stations. Primary source: https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf
 Vendors: Offshore Norge (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13331,7 +13331,7 @@ Recorded gaps:
 ### Fire and Gas (whp-fire-and-gas)
 
 Primary code: UPS: Upstream
-F&G detection covers flame (UV/IR), smoke, heat, combustible/toxic gas and pneumatic fusible plug loops, interfaced to deluge, ESD, PAGA and the ICSS. Offshore Norge assigns SIL 2 to single-detector fire and gas detection sub-functions.
+F&G detection covers flame (UV/IR), smoke, heat, combustible/toxic gas and pneumatic fusible plug loops, interfaced to deluge, ESD, PAGA and the ICSS. Offshore Norge assigns SIL 2 to single-detector fire and gas detection sub-functions. Primary source: https://www.consiliumsafety.com/content/uploads/products/en/5210021-00/5210021-00A_CS-PH%20Ex_M_EN_2024_X.pdf
 Vendors: Consilium Safety (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13359,7 +13359,7 @@ Recorded gaps:
 ### Navigation aids (whp-navigation-aids)
 
 Primary code: UPS: Upstream
-Offshore structures are marked as a single unit, block or field under IALA G1162: white main/secondary lanterns flashing Morse U, red subsidiary lights, ID panels, fog signals, racon and optional aviation obstruction lighting.
+Offshore structures are marked as a single unit, block or field under IALA G1162: white main/secondary lanterns flashing Morse U, red subsidiary lights, ID panels, fog signals, racon and optional aviation obstruction lighting. Primary source: https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/
 Vendors: MSM Offshore (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13387,7 +13387,7 @@ Recorded gaps:
 ### Platform telecom: VHF/UHF radio, satellite communication (whp-platform-telecom-vhf-uhf-radio-satellite-communication)
 
 Primary code: UPS: Upstream
-Offshore telecom combines terrestrial two-way radio (VHF/UHF, DMR/P25), satellite voice and VSAT broadband, safety-critical public address/general alarm, CCTV and cyber-secured links back to shore.
+Offshore telecom combines terrestrial two-way radio (VHF/UHF, DMR/P25), satellite voice and VSAT broadband, safety-critical public address/general alarm, CCTV and cyber-secured links back to shore. Primary source: https://vmdsolutions.net/offshore-2
 Vendors: VMD Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13404,7 +13404,7 @@ Recorded gaps:
 ### Process control and monitoring via SCADA/DCS, remote from shore or hub platform (whp-process-control-and-monitoring-via-scada-dcs-remote-from-shore-or-hub)
 
 Primary code: UPS: Upstream
-Minimum-facility WHPs are normally unmanned; supervisory control gathers wellhead/process data to a hub platform or onshore centre over radio, cellular, fibre or satellite links. Control loops stay in local PLC/RTU, with SCADA as supervisory layer; safety functions are implemented in a separate SIS.
+Minimum-facility WHPs are normally unmanned; supervisory control gathers wellhead/process data to a hub platform or onshore centre over radio, cellular, fibre or satellite links. Control loops stay in local PLC/RTU, with SCADA as supervisory layer; safety functions are implemented in a separate SIS. Primary source: https://tatsoft.com/oil-gas/
 Vendors: Rockwell Automation, AVEVA, Yokogawa Electric (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13426,7 +13426,7 @@ Recorded gaps:
 ### Chemical injection system (whp-chemical-injection-system)
 
 Primary code: UPS: Upstream
-Chemical injection skids dose inhibitors into the well stream or flowline to maintain flow assurance, separation performance and asset integrity. SPEC describes a 'Skid with dosing pumps and tank that injects chemicals into the process' supplied with the process equipment or standalone. The kill wing valve on a tree is primarily used to inject corrosion inhibitors or methanol to prevent hydrate formation. Digital Refining (PTQ, Jul-2015) states EG is considered above -40 degF and methanol for te
+Chemical injection skids dose inhibitors into the well stream or flowline to maintain flow assurance, separation performance and asset integrity. SPEC describes a 'Skid with dosing pumps and tank that injects chemicals into the process' supplied with the process equipment or standalone. The kill wing valve on a tree is primarily used to inject corrosion inhibitors or methanol to prevent hydrate formation. Digital Refining (PTQ, Jul-2015) states EG is considered above -40 degF and methanol for te Primary source: https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas
 Vendors: ChampionX, Clariant (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13448,7 +13448,7 @@ Recorded gaps:
 ### Chokes and choke manifolds (whp-chokes-and-choke-manifolds)
 
 Primary code: UPS: Upstream
-Choke valves and choke manifolds provide well isolation, flow routing and flow control on trees and manifolds. A choke is described as the smallest restriction in a Christmas tree, used to control production rate (and in some cases sand production), with two types: positive chokes with interchangeable beans and adjustable chokes. Master valves are normally fully open and not operated while flowing; the lower master is normally manual, the upper often hydraulically actuated for remote shut-in, an
+Choke valves and choke manifolds provide well isolation, flow routing and flow control on trees and manifolds. A choke is described as the smallest restriction in a Christmas tree, used to control production rate (and in some cases sand production), with two types: positive chokes with interchangeable beans and adjustable chokes. Master valves are normally fully open and not operated while flowing; the lower master is normally manual, the upper often hydraulically actuated for remote shut-in, an Primary source: https://patents.google.com/patent/US20120273228A1/en
 Vendors: TechnipFMC (CDS Separation Systems), Aker Solutions, Velan, Flowserve (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13466,7 +13466,7 @@ Recorded gaps:
 ### Closed drain system and open/slop drain with sump caisson (whp-closed-drain-system-and-open-slop-drain-with-sump-caisson)
 
 Primary code: UPS: Upstream
-Drainage is part of platform utility scope alongside lifting, evacuation, power and environmental control. No primary page describing closed drain, open/slop drain and sump caisson design for a WHP was read in this sweep; the HILIR tech library has an equipment record ('Platform utilities: cranes, lifeboats, power generation, HVAC and drainage') whose cited pages were about crane vessels and a Gulf of Suez jacket case study, not drain design. Recorded as a gap rather than an estimate.
+Drainage is part of platform utility scope alongside lifting, evacuation, power and environmental control. No primary page describing closed drain, open/slop drain and sump caisson design for a WHP was read in this sweep; the HILIR tech library has an equipment record ('Platform utilities: cranes, lifeboats, power generation, HVAC and drainage') whose cited pages were about crane vessels and a Gulf of Suez jacket case study, not drain design. Recorded as a gap rather than an estimate. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: American Petroleum Institute (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13484,7 +13484,7 @@ Recorded gaps:
 ### Export risers and subsea pipeline tie-ins to the CPP or FSO (whp-export-risers-and-subsea-pipeline-tie-ins-to-the-cpp-or-fso)
 
 Primary code: UPS: Upstream
-Rigid flowlines and export pipelines carry oilfield fluids from wellhead/manifold to the processing facility and from offshore facilities to onshore receiving terminals; risers accommodate vessel motion and environmental loads between seabed flowlines/PLET and the surface host. TechnipFMC lists single pipelines, plastic-lined pipelines, corrosion-resistant alloy pipelines, direct electrically heated pipelines, pipe-in-pipe, electrically trace-heated pipe-in-pipe, piggybacked pipelines, steel cat
+Rigid flowlines and export pipelines carry oilfield fluids from wellhead/manifold to the processing facility and from offshore facilities to onshore receiving terminals; risers accommodate vessel motion and environmental loads between seabed flowlines/PLET and the surface host. TechnipFMC lists single pipelines, plastic-lined pipelines, corrosion-resistant alloy pipelines, direct electrically heated pipelines, pipe-in-pipe, electrically trace-heated pipe-in-pipe, piggybacked pipelines, steel cat Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/
 Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, Aker Solutions, American Bureau of Shipping (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13501,7 +13501,7 @@ Recorded gaps:
 ### Pig launcher / receiver for the export pipeline (whp-pig-launcher-receiver-for-the-export-pipeline)
 
 Primary code: UPS: Upstream
-Pig traps launch and receive pigs to clean or inspect flowlines between manifold and platform / along export pipelines. SPEC Oil & Gas lists pig launchers and receivers among its ancillary equipment (page read). Patent US4135949A describes the safety interlock problem: inadvertent opening of a pressurised receiver or admission of fluid while the closure is off is a hazard to personnel and the environment.
+Pig traps launch and receive pigs to clean or inspect flowlines between manifold and platform / along export pipelines. SPEC Oil & Gas lists pig launchers and receivers among its ancillary equipment (page read). Patent US4135949A describes the safety interlock problem: inadvertent opening of a pressurised receiver or admission of fluid while the closure is off is a hazard to personnel and the environment. Primary source: https://patents.google.com/patent/US4135949A/en
 Vendors: Aker Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13519,7 +13519,7 @@ Recorded gaps:
 ### Production manifold / headers with production and test headers to commingle fluids (whp-production-manifold-headers-with-production-and-test-headers-to-commin)
 
 Primary code: UPS: Upstream
-Wellhead gathering manifold and headers that commingle flows from multiple wells, route them to production and test headers, distribute injection fluids/chemicals and provide isolation and pigging interfaces. On a typical platform the process train is listed as wellhead, production manifold, production separator, glycol dehydration, gas compressors, water injection pumps, oil/gas export metering and main oil line pumps (Wikipedia Oil platform, read). OEM manifold/tie-in systems include tradition
+Wellhead gathering manifold and headers that commingle flows from multiple wells, route them to production and test headers, distribute injection fluids/chemicals and provide isolation and pigging interfaces. On a typical platform the process train is listed as wellhead, production manifold, production separator, glycol dehydration, gas compressors, water injection pumps, oil/gas export metering and main oil line pumps (Wikipedia Oil platform, read). OEM manifold/tie-in systems include tradition Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/
 Vendors: TechnipFMC (CDS Separation Systems), Baker Hughes, Aker Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13537,7 +13537,7 @@ Recorded gaps:
 ### Sampling connections and gauging (whp-sampling-connections-and-gauging)
 
 Primary code: UPS: Upstream
-Sampling and gauging connections provide fluid property data for allocation, custody transfer and sales-specification compliance. A Christmas tree often provides chemical injection points, monitoring points (pressure, temperature, corrosion, erosion, sand detection, flow rate, flow composition, valve and choke valve position feedback) and connection points for downhole pressure and temperature transducers (Wikipedia, read). Emerson's Roxar 2600 MPFM gives real-time three-phase measurement withou
+Sampling and gauging connections provide fluid property data for allocation, custody transfer and sales-specification compliance. A Christmas tree often provides chemical injection points, monitoring points (pressure, temperature, corrosion, erosion, sand detection, flow rate, flow composition, valve and choke valve position feedback) and connection points for downhole pressure and temperature transducers (Wikipedia, read). Emerson's Roxar 2600 MPFM gives real-time three-phase measurement withou Primary source: https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter
 Vendors: Baker Hughes / Emerson Roxar, TechnipFMC (CDS Separation Systems), Honeywell (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13555,7 +13555,7 @@ Recorded gaps:
 ### Vents / flare tip (whp-vents-flare-tip)
 
 Primary code: UPS: Upstream
-Flare and vent systems dispose of relief/blowdown/start-up gas by controlled combustion; a knock-out drum upstream removes entrained liquid to prevent liquid carryover, flame instability and hazardous 'flaming rain' (CRA Energy page, read). FlareTech states its knockout drums range from 2 to 600 barrels. The claim that cold vent is common on unmanned WHPs is not supported by a page read in this sweep and is left as a gap.
+Flare and vent systems dispose of relief/blowdown/start-up gas by controlled combustion; a knock-out drum upstream removes entrained liquid to prevent liquid carryover, flame instability and hazardous 'flaming rain' (CRA Energy page, read). FlareTech states its knockout drums range from 2 to 600 barrels. The claim that cold vent is common on unmanned WHPs is not supported by a page read in this sweep and is left as a gap. Primary source: https://www.flaretechinc.com/products/flare-knockout-drums
 Vendors: Allmarc Industries, John Zink (Koch Engineered Solutions) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13576,7 +13576,7 @@ Recorded gaps:
 ### Escape routes, muster points, signs and safety lighting (whp-escape-routes-muster-points-signs-and-safety-lighting)
 
 Primary code: HSE: Health, safety and environment
-Arrangements that let personnel reach muster and embarkation stations: at least two widely separated means of escape, marked routes, photoluminescent strip indicators, emergency lighting, assembly/mimic plans, EEBDs and handrail strength requirements. Sources are SOLAS II-2/13, IMO MODU Code, classification and regulator pages.
+Arrangements that let personnel reach muster and embarkation stations: at least two widely separated means of escape, marked routes, photoluminescent strip indicators, emergency lighting, assembly/mimic plans, EEBDs and handrail strength requirements. Sources are SOLAS II-2/13, IMO MODU Code, classification and regulator pages. Primary source: https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html
 Vendors: IMO text hosted by imorules.com / classification register (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13599,7 +13599,7 @@ Recorded gaps:
 ### Fire extinguishers, hydrant hoses, SCBA sets on manned platforms (whp-fire-extinguishers-hydrant-hoses-scba-sets-on-manned-platforms)
 
 Primary code: HSE: Health, safety and environment
-Portable and semi-portable extinguishers, fire-main hydrants and hoses, and self-contained breathing apparatus for fire teams on manned offshore installations. Evidence is from USCG Outer Continental Shelf and Deepwater Port regulations, SOLAS/IMO sources, US 46 CFR emergency-equipment rules and an OEM product catalogue.
+Portable and semi-portable extinguishers, fire-main hydrants and hoses, and self-contained breathing apparatus for fire teams on manned offshore installations. Evidence is from USCG Outer Continental Shelf and Deepwater Port regulations, SOLAS/IMO sources, US 46 CFR emergency-equipment rules and an OEM product catalogue. Primary source: https://www.ecfr.gov/current/title-46/section-77.30-5
 Vendors: US Coast Guard (OFR) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13618,7 +13618,7 @@ Recorded gaps:
 ### Life rafts, retrieval nets, sea rescue baskets (whp-life-rafts-retrieval-nets-sea-rescue-baskets)
 
 Primary code: HSE: Health, safety and environment
-Inflatable liferafts (float-free and davit-launched), their canisters and hydrostatic release units, plus personnel transfer baskets / rescue baskets. Retrieval nets were not directly evidenced in the pages read; this is recorded as a gap.
+Inflatable liferafts (float-free and davit-launched), their canisters and hydrostatic release units, plus personnel transfer baskets / rescue baskets. Retrieval nets were not directly evidenced in the pages read; this is recorded as a gap. Primary source: https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150
 Vendors: IMO text mirrored by SOLAS/LSA Code (Vercel) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13660,7 +13660,7 @@ Recorded gaps:
 ### Lifeboat / TEMPSC with davit (whp-lifeboat-tempsc-with-davit)
 
 Primary code: HSE: Health, safety and environment
-Totally Enclosed Motor Propelled Survival Craft (TEMPSC) launched by davit or free-fall, required on manned offshore units, together with lifebuoys (life rings) and their self-igniting lights, self-activating smoke signals and buoyant lifelines. Evidence spans USCG/US regulations, the IMO LSA Code, Canadian offshore rules, a manufacturer datasheet, two patents and historical records.
+Totally Enclosed Motor Propelled Survival Craft (TEMPSC) launched by davit or free-fall, required on manned offshore units, together with lifebuoys (life rings) and their self-igniting lights, self-activating smoke signals and buoyant lifelines. Evidence spans USCG/US regulations, the IMO LSA Code, Canadian offshore rules, a manufacturer datasheet, two patents and historical records. Primary source: https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html
 Vendors: IMO text mirrored by SOLAS/LSA Code (Vercel) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13705,7 +13705,7 @@ Recorded gaps:
 ### Overboard dump valves and ESD-initiated isolation of all wells and pipelines (whp-overboard-dump-valves-and-esd-initiated-isolation-of-all-wells-and-pip)
 
 Primary code: HSE: Health, safety and environment
-Emergency shutdown (ESD) systems that isolate wells and pipelines, using surface safety valves (SSV), boarding shutdown valves (BSDV), subsurface safety valves (SSSV) and shutdown valves; plus overboard dump valves used on offshore water injection / drain systems. Evidence is primarily from BSEE regulation, API RP 14C definitions (search extract), API 6A (search extract), OEM datasheets and an incident-derived engineering article.
+Emergency shutdown (ESD) systems that isolate wells and pipelines, using surface safety valves (SSV), boarding shutdown valves (BSDV), subsurface safety valves (SSSV) and shutdown valves; plus overboard dump valves used on offshore water injection / drain systems. Evidence is primarily from BSEE regulation, API RP 14C definitions (search extract), API 6A (search extract), OEM datasheets and an incident-derived engineering article. Primary source: https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a
 Vendors: SLB (Cameron pressure control equipment), Cameron (SLB), Baker Hughes (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13725,7 +13725,7 @@ Recorded gaps:
 ### Helideck (whp-helideck)
 
 Primary code: CIV: Civil and structural
-The read sources treat a helipad/helideck as an appurtenance: an NUI is described as little more than a well bay, helipad and emergency shelter; US4679964A describes a cantilevered helideck on single- or multi-well conductor-supported configurations; US4932811A describes an upper heliport deck carried by piles around a caisson. No page read in this sweep stated a helideck D-value, load classification, obstacle-free sector or a visit-frequency rule, and the CAP 437 PDF was refused.
+The read sources treat a helipad/helideck as an appurtenance: an NUI is described as little more than a well bay, helipad and emergency shelter; US4679964A describes a cantilevered helideck on single- or multi-well conductor-supported configurations; US4932811A describes an upper heliport deck carried by piles around a caisson. No page read in this sweep stated a helideck D-value, load classification, obstacle-free sector or a visit-frequency rule, and the CAP 437 PDF was refused. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Wikipedia (Wikimedia Foundation) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13742,7 +13742,7 @@ Recorded gaps:
 ### Jacket structure (whp-jacket-structure)
 
 Primary code: CIV: Civil and structural
-A fixed steel jacket is a braced tubular, pile-founded substructure that carries the topside and laterally supports and protects well conductors and the pipeline riser; ESDEP states the overwhelming majority of platforms are piled-jacket with steel deck structures. For smaller/marginal fields the read sources describe conductor-supported minimum-facility platforms (MFP/CoSMOS), monopile or caisson alternatives. Appurtenances evidenced on read pages are a clamp-on boat landing (US4679964A, US4932
+A fixed steel jacket is a braced tubular, pile-founded substructure that carries the topside and laterally supports and protects well conductors and the pipeline riser; ESDEP states the overwhelming majority of platforms are piled-jacket with steel deck structures. For smaller/marginal fields the read sources describe conductor-supported minimum-facility platforms (MFP/CoSMOS), monopile or caisson alternatives. Appurtenances evidenced on read pages are a clamp-on boat landing (US4679964A, US4932 Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm
 Vendors: 2H Offshore (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13774,7 +13774,7 @@ Recorded gaps:
 ### Malaysian WHP operating context: normally unmanned, no separators/produced-water treatment/g (whp-malaysian-whp-operating-context-normally-unmanned-no-separators-produc)
 
 Primary code: CIV: Civil and structural
-Read pages establish that Anjung Kecil WHP is a Tarpon "minimum facility and unmanned platform typically installed in shallow water", tied to the MaMPU-1 FPSO which carries crude stabilisation (Sep-iSYS), a low-pressure condensate recovery unit and storage. The NUI articles describe remote operation with occasional visits and emergency shelter. 2H describes an unmanned MFP tied back by flexible flowline. The specific claims of no separators/produced-water treatment/gas compression onboard and fo
+Read pages establish that Anjung Kecil WHP is a Tarpon "minimum facility and unmanned platform typically installed in shallow water", tied to the MaMPU-1 FPSO which carries crude stabilisation (Sep-iSYS), a low-pressure condensate recovery unit and storage. The NUI articles describe remote operation with occasional visits and emergency shelter. 2H describes an unmanned MFP tied back by flexible flowline. The specific claims of no separators/produced-water treatment/gas compression onboard and fo Primary source: https://www.offshore-technology.com/projects/anjung-kecil-oil-field
 Vendors: 2H Offshore (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13803,7 +13803,7 @@ Recorded gaps:
 ### Minimum-facility WHP logistics: designed for jack-up-rig installation, little or no onboard (whp-minimum-facility-whp-logistics-designed-for-jack-up-rig-installation-l)
 
 Primary code: CIV: Civil and structural
-2H Offshore describes conductor-supported minimum facility platforms (MFP, MFP+ and the CoSMOS variant) that can be entirely installed from a jack-up drilling rig, eliminating conventional offshore installation spread. The SE Asia project used a multiphase flow meter and three power sources (solar panels, nitrogen racks, diesel-powered cranes) to reduce topside payload, with an 8 km flexible flowline tieback and two-stage installation. Tarpon describes relocatable, 20-year-life, three-slot minim
+2H Offshore describes conductor-supported minimum facility platforms (MFP, MFP+ and the CoSMOS variant) that can be entirely installed from a jack-up drilling rig, eliminating conventional offshore installation spread. The SE Asia project used a multiphase flow meter and three power sources (solar panels, nitrogen racks, diesel-powered cranes) to reduce topside payload, with an 8 km flexible flowline tieback and two-stage installation. Tarpon describes relocatable, 20-year-life, three-slot minim Primary source: https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms
 Vendors: 2H Offshore (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13835,7 +13835,7 @@ Recorded gaps:
 ### Risers and J-tubes for pipelines and subsea cables (whp-risers-and-j-tubes-for-pipelines-and-subsea-cables)
 
 Primary code: CIV: Civil and structural
-ESDEP defines a pipeline riser as the piping rising from seabed to topside level and describes conductors as protecting and guiding the drill string from topside to 40-100 m below the seabed. US5513929A describes conventional casing guides and tensioned-casing production risers; US4679964A shows a prefabricated riser pipe from a conductor-mounted miniplatform to a remote flowline. At Anjung Kecil a 1.26 km dynamic subsea power cable links the FPSO to the wellhead platform. No page read during th
+ESDEP defines a pipeline riser as the piping rising from seabed to topside level and describes conductors as protecting and guiding the drill string from topside to 40-100 m below the seabed. US5513929A describes conventional casing guides and tensioned-casing production risers; US4679964A shows a prefabricated riser pipe from a conductor-mounted miniplatform to a remote flowline. At Anjung Kecil a 1.26 km dynamic subsea power cable links the FPSO to the wellhead platform. No page read during th Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm
 Vendors: FGG Web (FGG, Uni Ljubljana) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13856,7 +13856,7 @@ Recorded gaps:
 ### Topside decks (whp-topside-decks)
 
 Primary code: CIV: Civil and structural
-Read sources describe topside structural concepts (single integrated deck, split deck, integrated deck with living quarters, modular topside on a module support frame), weight bands and one-lift installation limits, plus equipment module and living-quarter module construction. ESDEP lists major deck functions including well control, separation, pumps/compressors, power generation and accommodation. No page read during this sweep explicitly names the cellar/main/mezzanine three-level arrangement 
+Read sources describe topside structural concepts (single integrated deck, split deck, integrated deck with living quarters, modular topside on a module support frame), weight bands and one-lift installation limits, plus equipment module and living-quarter module construction. ESDEP lists major deck functions including well control, separation, pumps/compressors, power generation and accommodation. No page read during this sweep explicitly names the cellar/main/mezzanine three-level arrangement Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm
 Vendors: 2H Offshore (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13882,7 +13882,7 @@ Recorded gaps:
 ### Crane (whp-crane)
 
 Primary code: UPS: Upstream
-Unmanned and manned WHPs use pedestal/deck cranes for supply-boat transfers, wireline/coiled-tubing equipment and module handling. PALFINGER AHC crane data gives printed capacity/radius/wire ranges; Ramboll/NPD gives crane sizes by UWHP type. No page read gave a quantified laydown-area specification.
+Unmanned and manned WHPs use pedestal/deck cranes for supply-boat transfers, wireline/coiled-tubing equipment and module handling. PALFINGER AHC crane data gives printed capacity/radius/wire ranges; Ramboll/NPD gives crane sizes by UWHP type. No page read gave a quantified laydown-area specification. Primary source: https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html
 Vendors: PALFINGER (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13905,7 +13905,7 @@ Recorded gaps:
 ### Diesel storage and transfer (whp-diesel-storage-and-transfer)
 
 Primary code: UPS: Upstream
-Bulk marine gasoil is bunkered from shore/vessel to the installation, held in storage and day tanks, and transferred to emergency gensets, fire pumps and crane engines. The read guidance sets fuel quality, microbial and water limits, tank inspection and bunkering controls; JIP33 S-714/S-721 give day-tank and fuel-system design requirements.
+Bulk marine gasoil is bunkered from shore/vessel to the installation, held in storage and day tanks, and transferred to emergency gensets, fire pumps and crane engines. The read guidance sets fuel quality, microbial and water limits, tank inspection and bunkering controls; JIP33 S-714/S-721 give day-tank and fuel-system design requirements. Primary source: https://www.marinesafetyforum.org/wp-content/uploads/2019/01/MSF_Guidance-Delivering_Fuel_Cargoes_to_Offshore_Locations_Dec2018.pdf
 Vendors: Marine Safety Forum (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13932,7 +13932,7 @@ Recorded gaps:
 ### Diesel-driven emergency generator with UPS/battery banks (whp-diesel-driven-emergency-generator-with-ups-battery-banks)
 
 Primary code: UPS: Upstream
-Emergency/essential diesel generator packages supply emergency, essential and main loads on ISO/IEC offshore units; JIP33 S-714-1J sets starting, battery, cooling, excitation and testing requirements. UPS/battery banks bridge the gap to generator pickup and support black start; the Equinor patent and Shell Timi design give battery/UPS architecture and energy levels. USCG/IEEE practice defines essential-generation loads including HVAC, potable water, instrument air and crane auxiliaries.
+Emergency/essential diesel generator packages supply emergency, essential and main loads on ISO/IEC offshore units; JIP33 S-714-1J sets starting, battery, cooling, excitation and testing requirements. UPS/battery banks bridge the gap to generator pickup and support black start; the Equinor patent and Shell Timi design give battery/UPS architecture and energy levels. USCG/IEEE practice defines essential-generation loads including HVAC, potable water, instrument air and crane auxiliaries. Primary source: http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf
 Vendors: Cummins, Caterpillar, Shell Malaysia Exploration and Production (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13970,7 +13970,7 @@ Recorded gaps:
 ### Firewater pumps, deluge/sprinkler system, hydrants and hose reels (whp-firewater-pumps-deluge-sprinkler-system-hydrants-and-hose-reels)
 
 Primary code: UPS: Upstream
-Offshore firewater systems use self-contained firewater pump packages (vertical suspended deep-well/wet-pit or horizontal OH/BB types, diesel or electric driven) feeding fixed deluge, hydrants and hose reels. IOGP S-721 and NFPA 20 set performance and testing; Ramboll/NPD report describes deluge and firewater philosophy on unmanned WHPs.
+Offshore firewater systems use self-contained firewater pump packages (vertical suspended deep-well/wet-pit or horizontal OH/BB types, diesel or electric driven) feeding fixed deluge, hydrants and hose reels. IOGP S-721 and NFPA 20 set performance and testing; Ramboll/NPD report describes deluge and firewater philosophy on unmanned WHPs. Primary source: https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf
 Vendors: NFPA 37 (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -13997,7 +13997,7 @@ Recorded gaps:
 ### HVAC for equipment/MCC rooms (whp-hvac-for-equipment-mcc-rooms)
 
 Primary code: UPS: Upstream
-HVAC for electrical equipment/MCC rooms maintains temperature, humidity and pressurisation, provides dilution ventilation and isolates on fire/gas detection. Sources read: IEEE Houston offshore electrical design seminar (USCG ambient and HVAC rules) and PDHonline M332 HVAC Design for Oil & Gas Facilities (ISO 15138/NORSOK H-001 basis).
+HVAC for electrical equipment/MCC rooms maintains temperature, humidity and pressurisation, provides dilution ventilation and isolates on fire/gas detection. Sources read: IEEE Houston offshore electrical design seminar (USCG ambient and HVAC rules) and PDHonline M332 HVAC Design for Oil & Gas Facilities (ISO 15138/NORSOK H-001 basis). Primary source: https://r5.ieee.org/houston/wp-content/uploads/sites/32/2016/01/8-Offshore-Platform-Design-Apr-7-8.pdf
 Vendors: IEEE Houston Section / PCIC (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14029,7 +14029,7 @@ Recorded gaps:
 ### Instrument/utility air compressors, receivers and dryers (whp-instrument-utility-air-compressors-receivers-and-dryers)
 
 Primary code: UPS: Upstream
-Instrument/utility air packages comprise rotary-screw, oil-free screw or reciprocating compressors, knock-out drum, filters, refrigerated or adsorption dryers, receiver tanks, piping, instrumentation and valves. Instrument air must be dry and oil-free and is typically distributed at 6 bar (100 psig).
+Instrument/utility air packages comprise rotary-screw, oil-free screw or reciprocating compressors, knock-out drum, filters, refrigerated or adsorption dryers, receiver tanks, piping, instrumentation and valves. Instrument air must be dry and oil-free and is typically distributed at 6 bar (100 psig). Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf
 Vendors: Booksite (Elsevier) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14046,7 +14046,7 @@ Recorded gaps:
 ### Potable water storage and hot water system (whp-potable-water-storage-and-hot-water-system)
 
 Primary code: UPS: Upstream
-Potable water is bunkered to the installation, stored in dedicated tanks and distributed through domestic pipework with chlorination; hot water is provided by calorifiers where fitted. The Marine Safety Forum guidance gives water-quality limits, tank management and disinfection practice for offshore installations.
+Potable water is bunkered to the installation, stored in dedicated tanks and distributed through domestic pipework with chlorination; hot water is provided by calorifiers where fitted. The Marine Safety Forum guidance gives water-quality limits, tank management and disinfection practice for offshore installations. Primary source: https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf
 Vendors: Marine Safety Forum (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14072,7 +14072,7 @@ Recorded gaps:
 ### Power generation (whp-power-generation)
 
 Primary code: UPS: Upstream
-Wellhead-platform power can be imported by subsea power cable from a host/CPP, generated locally by diesel or gas turbine, or supplied by a solar-PV/wind/battery hybrid with a standby diesel. Shell Timi (Malaysia) is the first SMEP wellhead platform fully powered by a solar-wind hybrid system; the Equinor patent describes a cascaded UPS/battery/black-start architecture for unmanned platforms.
+Wellhead-platform power can be imported by subsea power cable from a host/CPP, generated locally by diesel or gas turbine, or supplied by a solar-PV/wind/battery hybrid with a standby diesel. Shell Timi (Malaysia) is the first SMEP wellhead platform fully powered by a solar-wind hybrid system; the Equinor patent describes a cascaded UPS/battery/black-start architecture for unmanned platforms. Primary source: https://www.shell.com/what-we-do/technology-and-innovation/shell-techxplorer-digest/shell-techxplorer-digest-women-in-tech/_jcr_content/root/main/section/simple_633466041_cop/list/list_item_copy_1573356562.multi.stream/1660054984863/9c486b9f6b4f1800c0a16bfb526c51d26a2e3e7f/digest-wit-unmanned-wellhead-platform-powered-by-a-solar-wind-hybrid.pdf
 Vendors: Shell Malaysia Exploration and Production (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14108,7 +14108,7 @@ Recorded gaps:
 ### Seawater lift pumps (whp-seawater-lift-pumps)
 
 Primary code: UPS: Upstream
-Seawater lift pumps draw seawater from caissons/wells for cooling, firewater, washing and ballast duties. BP Shah Deniz 2 project description gives MODU/water-system duties and extraction rates; IOGP S-721 sets vertical-pump submergence, anti-fouling and column-pipe requirements; Celeros/S&N and ClydeUnion are named suppliers.
+Seawater lift pumps draw seawater from caissons/wells for cooling, firewater, washing and ballast duties. BP Shah Deniz 2 project description gives MODU/water-system duties and extraction rates; IOGP S-721 sets vertical-pump submergence, anti-fouling and column-pipe requirements; Celeros/S&N and ClydeUnion are named suppliers. Primary source: https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf
 Vendors: BP (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14135,7 +14135,7 @@ Recorded gaps:
 ### Drilling slots / well bays (whp-drilling-slots-well-bays)
 
 Primary code: UPS: Upstream
-Malaysian Tarpon minimum-facility WHPs for PETRONAS Carigali were built with three 20-inch conductor slots internal to the caisson (two used, one spare) in 70-85 m water, while the West Desaru conductor-supported WSS grew from 18 wellhead flowline connections at the outset to 28 in the final design.
+Malaysian Tarpon minimum-facility WHPs for PETRONAS Carigali were built with three 20-inch conductor slots internal to the caisson (two used, one spare) in 70-85 m water, while the West Desaru conductor-supported WSS grew from 18 wellhead flowline connections at the outset to 28 in the final design. Primary source: https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil
 Vendors: Aquaterra Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14156,7 +14156,7 @@ Recorded gaps:
 ### ESD stations at strategic locations (whp-esd-stations-at-strategic-locations)
 
 Primary code: UPS: Upstream
-Offshore Magazine reports a wellhead control panel and control and safety systems on the West Desaru WSS, and the cited API RP 14C training slides print a five-level shutdown hierarchy driven by manual, fire-and-gas and hydraulic-pressure inputs.
+Offshore Magazine reports a wellhead control panel and control and safety systems on the West Desaru WSS, and the cited API RP 14C training slides print a five-level shutdown hierarchy driven by manual, fire-and-gas and hydraulic-pressure inputs. Primary source: https://pdfcoffee.com/safety-design-and-api-rp-14c-2-pdf-free.html
 Vendors: IPS Group BV (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14181,7 +14181,7 @@ Recorded gaps:
 ### Gas lift manifold and flowlines for artificial lift (whp-gas-lift-manifold-and-flowlines-for-artificial-lift)
 
 Primary code: UPS: Upstream
-The West Desaru conductor-supported WSS topsides were designed with gas lift flowlines alongside oil production and water injection flowlines, and Baker Hughes supplies injection-pressure and production-pressure-operated gas lift valves for continuous or intermittent lift.
+The West Desaru conductor-supported WSS topsides were designed with gas lift flowlines alongside oil production and water injection flowlines, and Baker Hughes supplies injection-pressure and production-pressure-operated gas lift valves for continuous or intermittent lift. Primary source: https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves
 Vendors: Baker Hughes, Aquaterra Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14200,7 +14200,7 @@ Recorded gaps:
 ### Water injection manifold and W.I. pig launcher/receiver (whp-water-injection-manifold-and-w-i-pig-launcher-receiver)
 
 Primary code: UPS: Upstream
-The West Desaru WSS houses water injection flowlines, manifolds and a pig launcher, with produced oil routed to the FP5 MOPU and exported through a 14-km subsea pipeline to an FSO via an 8-in flexible riser.
+The West Desaru WSS houses water injection flowlines, manifolds and a pig launcher, with produced oil routed to the FP5 MOPU and exported through a 14-km subsea pipeline to an FSO via an 8-in flexible riser. Primary source: https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in
 Vendors: Aquaterra Energy (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14219,7 +14219,7 @@ Recorded gaps:
 ### Well test facilities: test manifold with either a test separator or a multiphase flow meter (whp-well-test-facilities-test-manifold-with-either-a-test-separator-or-a-m)
 
 Primary code: UPS: Upstream
-OilGasz states a test manifold routes a selected well to a test separator, an MPFM or other measurement equipment, and Emerson describes the Roxar 2600 MPFM as a compact vertical inline meter giving three-phase rates without separation across 0-100% GVF and 0-100% WLR.
+OilGasz states a test manifold routes a selected well to a test separator, an MPFM or other measurement equipment, and Emerson describes the Roxar 2600 MPFM as a compact vertical inline meter giving three-phase rates without separation across 0-100% GVF and 0-100% WLR. Primary source: https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter
 Vendors: SLB (Cameron pressure control equipment) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14244,7 +14244,7 @@ Recorded gaps:
 ### Wellhead Control Panel (whp-wellhead-control-panel)
 
 Primary code: UPS: Upstream
-A multi-well hydraulic wellhead control panel described by IPS Group BV operates nine wells (seven installed, two spare) using four pressure levels - 480 bar for SCSSVs, 280 bar for SSVs/SDVs, 150 bar for the field loop and 6 bar control pressure.
+A multi-well hydraulic wellhead control panel described by IPS Group BV operates nine wells (seven installed, two spare) using four pressure levels - 480 bar for SCSSVs, 280 bar for SSVs/SDVs, 150 bar for the field loop and 6 bar control pressure. Primary source: https://www.ipsgroupbv.com/products/turnkey-control-systems/wellhead-control-panel-multi/
 Vendors: IPS Group BV (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14273,7 +14273,7 @@ Recorded gaps:
 ### Wellheads and Christmas trees (whp-wellheads-and-christmas-trees)
 
 Primary code: UPS: Upstream
-The West Desaru WSS carried 28 dry-tree completions using single, dual and triple splitter wellheads, and ISO 10423:2022 states that it supplements API Spec 6A, 21st edition (2018), for wellhead and tree equipment.
+The West Desaru WSS carried 28 dry-tree completions using single, dual and triple splitter wellheads, and ISO 10423:2022 states that it supplements API Spec 6A, 21st edition (2018), for wellhead and tree equipment. Primary source: https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/
 Vendors: Baker Hughes, TechnipFMC (CDS Separation Systems), Aker Solutions (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14300,7 +14300,7 @@ Recorded gaps:
 ### Electrical and mechanical workshop building (geg-electrical-and-mechanical-workshop-building)
 
 Primary code: PWR: Power and renewables
-Electrical and mechanical workshop building for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.
+Electrical and mechanical workshop building for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |
@@ -14318,7 +14318,7 @@ Recorded gaps:
 ### Mechanical maintenance workshop equipment (geg-mechanical-maintenance-workshop-equipment)
 
 Primary code: PWR: Power and renewables
-Mechanical maintenance workshop equipment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.
+Mechanical maintenance workshop equipment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409
 Vendors: Supplier not identified in sources read (WBS line item) (0 model lines recorded).
 
 | Specification | Value | Basis |

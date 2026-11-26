@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "HTML page read successfully; it is descriptive and prints no numeric performance table. Linked 210x270 PDF brochure was not WebFetch-readable.",
+  "description": "HTML page read successfully; it is descriptive and prints no numeric performance table. Linked 210x270 PDF brochure was not WebFetch-readable. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
   "specifications": [
     {
       "metric": "Structure",
@@ -16,7 +16,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
         "source_id": "cat-technipfmc-com-flexible-pipes"
       },
-      "value": "Leakproof thermoplastic barriers + corrosion-resistant steel wires, helically wound; modular independent layers"
+      "value": "Leakproof thermoplastic barriers + corrosion-resistant steel wires, helically wound; modular independent layers",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Construction",
@@ -24,7 +25,8 @@
       "basis": "'flexible pipe is made up of several different layers. The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Structure",
@@ -32,7 +34,8 @@
       "basis": "'The helically wound steel wires give the structure its high-pressure resistance and excellent bending characteristics'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Attributes",
@@ -40,7 +43,8 @@
       "basis": "'Leak-proof', 'Corrosion resistant', 'High-pressure resistant', 'Bendable', 'Flexible', 'Adjustable', 'Retrievable', 'Fit for purpose', 'Interactive layers', 'Dynamic execution'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Pioneered year",
@@ -49,7 +53,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
       },
-      "value": 1970
+      "value": 1970,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",

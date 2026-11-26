@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Drill through difficult ground (drive-drill-drive), grout pile-to-sleeve or monopile connections, prepare seabed and clear UXO before foundation installation.",
+  "description": "Drill through difficult ground (drive-drill-drive), grout pile-to-sleeve or monopile connections, prepare seabed and clear UXO before foundation installation. Primary source: https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
   "specifications": [
     {
       "metric": "3D method purpose",
@@ -19,7 +19,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
-      "value": "combines pile driving and drilling to reach target depth in hard, rocky or variable ground"
+      "value": "combines pile driving and drilling to reach target depth in hard, rocky or variable ground",
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Veja Mate seabed preparation",
@@ -29,7 +30,8 @@
         "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
         "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
       },
-      "value": "UXO detection and removal before scour protection; rock placement by fallpipe vessel Rockpiper; each piling operation ~24 hours including driving through pre-laid scour protection"
+      "value": "UXO detection and removal before scour protection; rock placement by fallpipe vessel Rockpiper; each piling operation ~24 hours including driving through pre-laid scour protection",
+      "source_url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate"
     },
     {
       "metric": "Boskalis Aberdeen Bay scope",
@@ -39,7 +41,8 @@
         "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
         "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
       },
-      "value": "UXO survey and removal; seabed preparation; 11 suction bucket jacket installations"
+      "value": "UXO survey and removal; seabed preparation; 11 suction bucket jacket installations",
+      "source_url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate"
     }
   ],
   "vendors": [

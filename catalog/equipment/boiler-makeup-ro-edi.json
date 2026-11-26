@@ -8,7 +8,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Produce high-purity make-up water with very low dissolved solids, silica and CO2 to allow high cycles of concentration, low blowdown and safe operation of high-pressure drums and superheaters. RO is the main corrective pre-treatment after softening; EDI/CEDI polishes RO permeate without acid/caustic regenerants.",
+  "description": "Produce high-purity make-up water with very low dissolved solids, silica and CO2 to allow high cycles of concentration, low blowdown and safe operation of high-pressure drums and superheaters. RO is the main corrective pre-treatment after softening; EDI/CEDI polishes RO permeate without acid/caustic regenerants. Primary source: https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
   "specifications": [
     {
       "metric": "RO membrane element permeate recovery without fouling",
@@ -19,7 +19,8 @@
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
       "low": 10,
-      "high": 15
+      "high": 15,
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "RO system recovery with concentrate recirculation",
@@ -30,7 +31,8 @@
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
       "low": 75,
-      "high": 85
+      "high": 85,
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Optimum RO recovery with pre-softening",
@@ -41,7 +43,8 @@
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
       "low": 75,
-      "high": 80
+      "high": 80,
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Membrane useful life",
@@ -52,7 +55,8 @@
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
       "low": 3,
-      "high": 5
+      "high": 5,
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Example RO permeate TDS at 99% rejection of 400 ppm feed",
@@ -62,7 +66,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Terion S MkII salt rejection",
@@ -72,7 +77,8 @@
         "url": "https://www.veoliawatertechnologies.com/en/technologies/terion-s",
         "source_id": "veoliawatertechnologies-com-technologies-terion-s"
       },
-      "value": ">99.5"
+      "value": ">99.5",
+      "source_url": "https://www.veoliawatertechnologies.com/en/technologies/terion-s"
     },
     {
       "metric": "Terion S MkII product water resistivity",
@@ -82,7 +88,8 @@
         "url": "https://www.veoliawatertechnologies.com/en/technologies/terion-s",
         "source_id": "veoliawatertechnologies-com-technologies-terion-s"
       },
-      "value": "up to 18"
+      "value": "up to 18",
+      "source_url": "https://www.veoliawatertechnologies.com/en/technologies/terion-s"
     },
     {
       "metric": "Terion S MkII flow-rate range",
@@ -93,7 +100,8 @@
         "source_id": "veoliawatertechnologies-com-technologies-terion-s"
       },
       "low": 110,
-      "high": 4000
+      "high": 4000,
+      "source_url": "https://www.veoliawatertechnologies.com/en/technologies/terion-s"
     },
     {
       "metric": "PROflex EDI footprint reduction",
@@ -103,7 +111,8 @@
         "url": "https://www.watertechnologies.com/products/reverse-osmosis/ro-edi-treatment-systems-proflex-edi-systems",
         "source_id": "watertechnologies-com-reverse-osmosis-ro-edi-treatment-systems-p"
       },
-      "value": "up to 40"
+      "value": "up to 40",
+      "source_url": "https://www.watertechnologies.com/products/reverse-osmosis/ro-edi-treatment-systems-proflex-edi-systems"
     },
     {
       "metric": "Boiler-water silica limit — shell boiler",
@@ -113,7 +122,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "150 max"
+      "value": "150 max",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Boiler-water dissolved solids (TDS) limit — shell boiler",
@@ -123,7 +133,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "3500 max"
+      "value": "3500 max",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Conductance-to-TDS conversion",
@@ -133,7 +144,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
         "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
       },
-      "value": 0.7
+      "value": 0.7,
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water"
     },
     {
       "metric": "Temperature coefficient of boiler-water conductivity",
@@ -143,7 +155,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
         "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water"
     },
     {
       "metric": "Feedwater contaminant targets for 900 psig boiler (ASME consensus quoted by Veolia)",
@@ -153,7 +166,8 @@
         "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
         "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
       },
-      "value": "<7 ppb O2 / 20 ppb Fe / 15 ppb Cu"
+      "value": "<7 ppb O2 / 20 ppb Fe / 15 ppb Cu",
+      "source_url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control"
     },
     {
       "metric": "Operating cost reduction vs mixed bed DI",
@@ -164,7 +178,8 @@
       },
       "unit": "% lower",
       "low": "40",
-      "high": "50"
+      "high": "50",
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Floor space vs ion exchange demineralization",
@@ -175,7 +190,8 @@
       },
       "unit": "% less",
       "low": "50",
-      "high": "75"
+      "high": "75",
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Recycle of EDI reject to RO feed",
@@ -185,7 +201,8 @@
         "source_id": "graver-com-makeup-electroflex"
       },
       "unit": "% recovery, zero waste production",
-      "value": "100"
+      "value": "100",
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Typical application",
@@ -195,7 +212,8 @@
         "source_id": "graver-com-makeup-electroflex"
       },
       "unit": "n/a",
-      "value": "Power Generation: Steam makeup water"
+      "value": "Power Generation: Steam makeup water",
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Membrane size/type",
@@ -205,7 +223,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "in (TFC high rejection BW membranes)",
-      "value": "8 x 40"
+      "value": "8 x 40",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "High pressure piping material",
@@ -215,7 +234,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "n/a",
-      "value": "316L SS sch. 40"
+      "value": "316L SS sch. 40",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Low pressure piping material",
@@ -225,7 +245,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "n/a",
-      "value": "PVC sch. 80"
+      "value": "PVC sch. 80",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Membrane vessel material",
@@ -235,7 +256,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "n/a",
-      "value": "FRP, side-ported"
+      "value": "FRP, side-ported",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Motor supply",
@@ -245,7 +267,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "V / Hz / phase",
-      "value": "460/60/3, TEFC"
+      "value": "460/60/3, TEFC",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Pump type",
@@ -255,7 +278,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "n/a",
-      "value": "stainless steel vertical centrifugal pump"
+      "value": "stainless steel vertical centrifugal pump",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Typical application",
@@ -265,7 +289,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "n/a",
-      "value": "Boiler Water Make-Up"
+      "value": "Boiler Water Make-Up",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Operating cost saving vs mixed bed DI",
@@ -275,7 +300,8 @@
         "url": "https://graver.com/makeup/electroflex/"
       },
       "low": 40,
-      "high": 50
+      "high": 50,
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Floorspace vs ion exchange demineralization",
@@ -285,7 +311,8 @@
         "url": "https://graver.com/makeup/electroflex/"
       },
       "low": 50,
-      "high": 75
+      "high": 75,
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Water recovery",
@@ -294,7 +321,8 @@
       "source": {
         "url": "https://graver.com/makeup/electroflex/"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Technology",
@@ -302,7 +330,8 @@
       "basis": "\"combination of selective ion exchange membranes, ion exchange conductive resins, and electricity to remove ions from water rather than costly hazardous chemicals\"",
       "source": {
         "url": "https://graver.com/makeup/electroflex/"
-      }
+      },
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Applications",
@@ -310,7 +339,8 @@
       "basis": "\"Power Generation: Steam makeup water; Petrochemical: Steam makeup water; All Industrial applications where demineralized or deionized water is needed for ultrapure processes\"",
       "source": {
         "url": "https://graver.com/makeup/electroflex/"
-      }
+      },
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "ROFlex - membrane type",
@@ -319,7 +349,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "TFC 8 inch x 40 inch high rejection brackish-water (BW) membranes"
+      "value": "TFC 8 inch x 40 inch high rejection brackish-water (BW) membranes",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - membrane vessels",
@@ -328,7 +359,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "FRP, side-ported"
+      "value": "FRP, side-ported",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - high pressure piping",
@@ -337,7 +369,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "316L stainless steel, schedule 40"
+      "value": "316L stainless steel, schedule 40",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - low pressure piping",
@@ -346,7 +379,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "PVC schedule 80"
+      "value": "PVC schedule 80",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - motor",
@@ -355,7 +389,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "460 V / 60 Hz / 3 phase, TEFC"
+      "value": "460 V / 60 Hz / 3 phase, TEFC",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - pump",
@@ -364,7 +399,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "Stainless steel vertical centrifugal pump"
+      "value": "Stainless steel vertical centrifugal pump",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - instrumentation",
@@ -373,7 +409,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "Permeate TDS meter, digital display flow meters, liquid-filled stainless steel pressure gauges"
+      "value": "Permeate TDS meter, digital display flow meters, liquid-filled stainless steel pressure gauges",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - optional features",
@@ -382,7 +419,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "Nanofiltration membranes, cold water membranes, pH meter, ORP meter, high TDS diversion, 50 Hz system, CIP"
+      "value": "Nanofiltration membranes, cold water membranes, pH meter, ORP meter, high TDS diversion, 50 Hz system, CIP",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - typical applications",
@@ -391,7 +429,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "Boiler water make-up, cooling tower make-up/blow down/side stream, wastewater treatment"
+      "value": "Boiler water make-up, cooling tower make-up/blow down/side stream, wastewater treatment",
+      "source_url": "https://graver.com/makeup/ro/"
     }
   ],
   "vendors": [

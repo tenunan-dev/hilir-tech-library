@@ -6,7 +6,7 @@
   "equipment": [
     "economizer-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/c2x",
   "specifications": [
     {
       "metric": "Applicable boiler size",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-product-c2x"
       },
       "unit": "HP (up to)",
-      "value": 2500
+      "value": 2500,
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Construction",
@@ -26,7 +27,8 @@
         "source_id": "cleaverbrooks-com-product-c2x"
       },
       "unit": "configuration",
-      "value": "Two-stage: separate non-condensing stack section and condensing section"
+      "value": "Two-stage: separate non-condensing stack section and condensing section",
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Tube material",
@@ -36,7 +38,8 @@
         "source_id": "cleaverbrooks-com-product-c2x"
       },
       "unit": "material",
-      "value": "316 stainless steel tube with aluminum fins (Al-Fuse)"
+      "value": "316 stainless steel tube with aluminum fins (Al-Fuse)",
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Condensing fuel basis",
@@ -46,7 +49,8 @@
         "source_id": "cleaverbrooks-com-product-c2x"
       },
       "unit": "fuel basis",
-      "value": "Condenses on natural gas only; near-condensing mode on #2 oil"
+      "value": "Condenses on natural gas only; near-condensing mode on #2 oil",
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Boiler size applicability",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
       },
-      "value": 2500
+      "value": 2500,
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Economizer stages",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Design pressure applicability",
@@ -72,7 +78,8 @@
       "basis": "'Accommodates all boiler design pressures'",
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Tube core material",
@@ -80,7 +87,8 @@
       "basis": "'Tube core assemblies are individually removable and made from 316 stainless steel tube with aluminum fins (Al-Fuse)'",
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Gas-side surfaces material",
@@ -88,7 +96,8 @@
       "basis": "'316 stainless steel exhaust gas bypass, interior shell, condensate drain, and transition connections'; 'All gas side surfaces are 316 stainless steel to eliminate corrosion'",
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Fuel for condensing operation",
@@ -96,7 +105,8 @@
       "basis": "'Condenses on natural gas only'; switches to near-condensing mode when firing #2 oil",
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     }
   ],
   "url": "https://cleaverbrooks.com/product/c2x",

@@ -4,7 +4,7 @@
   "manufacturer": "tlv",
   "product_type": "boiler",
   "equipment": [],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us Cyclone Separators for Steam (with Built-in Trap) page.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us Cyclone Separators for Steam (with Built-in Trap) page. Primary source: https://www.tlv.com/en-us/products/cyclone-separators/steam",
   "specifications": [
     {
       "metric": "Separation efficiency",
@@ -14,7 +14,8 @@
         "source_id": "tlv-com-cyclone-separators-steam"
       },
       "unit": "%",
-      "value": "98"
+      "value": "98",
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC3S maximum operating pressure",
@@ -24,7 +25,8 @@
         "source_id": "tlv-com-cyclone-separators-steam"
       },
       "unit": "psig",
-      "value": "300"
+      "value": "300",
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC3S maximum operating temperature",
@@ -34,7 +36,8 @@
         "source_id": "tlv-com-cyclone-separators-steam"
       },
       "unit": "deg F",
-      "value": "428"
+      "value": "428",
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC3S discharge capacity",
@@ -44,7 +47,8 @@
         "source_id": "tlv-com-cyclone-separators-steam"
       },
       "unit": "lb/h",
-      "value": "2070"
+      "value": "2070",
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC5S maximum operating pressure",
@@ -54,7 +58,8 @@
         "source_id": "tlv-com-cyclone-separators-steam"
       },
       "unit": "psig",
-      "value": "230"
+      "value": "230",
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC5S discharge capacity",
@@ -64,7 +69,8 @@
         "source_id": "tlv-com-cyclone-separators-steam"
       },
       "unit": "lb/h",
-      "value": "185"
+      "value": "185",
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "Separation efficiency",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
       },
-      "value": 98
+      "value": 98,
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC3S maximum operating pressure (PMO)",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC3S maximum operating temperature (TMO)",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
       },
-      "value": 428
+      "value": 428,
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC3S discharge capacity",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
       },
-      "value": 2070
+      "value": 2070,
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC5S maximum operating pressure (PMO)",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
       },
-      "value": 230
+      "value": 230,
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC5S maximum operating temperature (TMO)",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
       },
-      "value": 428
+      "value": 428,
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "DC5S discharge capacity",
@@ -127,7 +139,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
       },
-      "value": 185
+      "value": 185,
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     },
     {
       "metric": "Integrated trap",
@@ -135,7 +148,8 @@
       "basis": "\"As the separator and the trap are a single unit, the usual need to install a trap after the separator is eliminated\"",
       "source": {
         "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/cyclone-separators/steam"
     }
   ],
   "url": "https://www.tlv.com/en-us/products/cyclone-separators/steam",

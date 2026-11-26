@@ -6,7 +6,7 @@
   "sector_codes": [
     "WWT"
   ],
-  "description": "Primary/secondary circular clarifiers and gravity/DAF thickeners with scraper bridges, plus lamella packs for high-rate duty.",
+  "description": "Primary/secondary circular clarifiers and gravity/DAF thickeners with scraper bridges, plus lamella packs for high-rate duty. Primary source: https://www.veoliawatertech.com/",
   "subtypes": [
     {
       "name": "circular clarifiers with scraper bridges"
@@ -34,7 +34,8 @@
       "source": {
         "url": "https://www.veoliawatertech.com/",
         "note": "Veolia Actiflo pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.veoliawatertech.com/"
     }
   ],
   "vendor_models": [

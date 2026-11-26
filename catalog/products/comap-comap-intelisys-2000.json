@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. Multi-ECU, Modbus master, 3 voltage sensing points",
+  "description": "Vendor product line read 2026-11-24. Multi-ECU, Modbus master, 3 voltage sensing points Primary source: https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",
   "specifications": [
     {
       "metric": "Applications",
@@ -16,7 +16,8 @@
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",
         "source_id": "comap-control-com-controllers-paralleling-gen-set-controllers"
       },
-      "value": "gas gensets / CHP"
+      "value": "gas gensets / CHP",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
     },
     {
       "metric": "Grid codes",
@@ -26,7 +27,8 @@
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",
         "source_id": "comap-control-com-controllers-paralleling-gen-set-controllers"
       },
-      "value": "EN 50549-1/-2, VDE-AR-N 4105/4110, TOR A/B"
+      "value": "EN 50549-1/-2, VDE-AR-N 4105/4110, TOR A/B",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
     },
     {
       "metric": "Product family",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
       },
-      "value": "InteliSys (3 models: InteliSys 2000, InteliSys NTC BaseBox, InteliSys Gas)"
+      "value": "InteliSys (3 models: InteliSys 2000, InteliSys NTC BaseBox, InteliSys Gas)",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
     },
     {
       "metric": "Application",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
       },
-      "value": "gas gensets and cogeneration heat-power (CHP) setups"
+      "value": "gas gensets and cogeneration heat-power (CHP) setups",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
     },
     {
       "metric": "Capabilities",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
       },
-      "value": "unrivalled PLC resources, modular expandability, control algorithm flexibility, extensive communication capabilities"
+      "value": "unrivalled PLC resources, modular expandability, control algorithm flexibility, extensive communication capabilities",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
     },
     {
       "metric": "Compliance",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
       },
-      "value": "developed in line with the latest market trends, grid code standards, and security protocols"
+      "value": "developed in line with the latest market trends, grid code standards, and security protocols",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
     },
     {
       "metric": "Controller function",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
       },
-      "value": "paralleling control: synchronises voltage, frequency and phase; kW and kVAr load sharing; island-to-parallel transitions"
+      "value": "paralleling control: synchronises voltage, frequency and phase; kW and kVAr load sharing; island-to-parallel transitions",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
     },
     {
       "metric": "Remote monitoring",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
       },
-      "value": "WebSupervisor cloud-based online management service"
+      "value": "WebSupervisor cloud-based online management service",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers"
     }
   ],
   "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",

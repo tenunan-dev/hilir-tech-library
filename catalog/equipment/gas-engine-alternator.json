@@ -8,7 +8,7 @@
     "IDC",
     "PWR"
   ],
-  "description": "Generator / alternator (synchronous, brushless, PMG excitation, AVR)",
+  "description": "Generator / alternator (synchronous, brushless, PMG excitation, AVR) Primary source: https://www.meccalte.com/en/products/alternators/power-products-mvhv",
   "specifications": [
     {
       "metric": "Rating range",
@@ -19,7 +19,8 @@
         "source_id": "meccalte-com-alternators-power-products-mvhv"
       },
       "low": 800,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
     },
     {
       "metric": "Voltage",
@@ -29,7 +30,8 @@
         "url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv",
         "source_id": "meccalte-com-alternators-power-products-mvhv"
       },
-      "value": 13.8
+      "value": 13.8,
+      "source_url": "https://www.meccalte.com/en/products/alternators/power-products-mvhv"
     },
     {
       "metric": "Alternator rating range",
@@ -40,7 +42,8 @@
         "source_id": "cummins-com-generators-alternators"
       },
       "low": 7.5,
-      "high": 11200
+      "high": 11200,
+      "source_url": "https://www.cummins.com/generators/alternators"
     },
     {
       "metric": "Generator voltage",
@@ -50,7 +53,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
         "source_id": "jenbacher-com-j920-flextra"
       },
-      "value": "10.5 / 11"
+      "value": "10.5 / 11",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Combined range",
@@ -61,7 +65,8 @@
         "source_id": "cummins-com-generators-alternators"
       },
       "low": 7.5,
-      "high": 11200
+      "high": 11200,
+      "source_url": "https://www.cummins.com/generators/alternators"
     },
     {
       "metric": "Global coverage",
@@ -71,7 +76,8 @@
         "url": "https://www.cummins.com/generators/alternators",
         "source_id": "cummins-com-generators-alternators"
       },
-      "value": 116
+      "value": 116,
+      "source_url": "https://www.cummins.com/generators/alternators"
     },
     {
       "metric": "Countries of operation",
@@ -80,7 +86,8 @@
       "source": {
         "url": "https://www.cummins.com/generators/alternators"
       },
-      "high": 116
+      "high": 116,
+      "source_url": "https://www.cummins.com/generators/alternators"
     },
     {
       "metric": "Applications",
@@ -89,7 +96,8 @@
       "source": {
         "url": "https://www.cummins.com/generators/alternators"
       },
-      "value": "marine, telecoms, standby and critical protection, CHP, rail and prime power"
+      "value": "marine, telecoms, standby and critical protection, CHP, rail and prime power",
+      "source_url": "https://www.cummins.com/generators/alternators"
     },
     {
       "metric": "Established",
@@ -98,7 +106,8 @@
       "source": {
         "url": "https://www.cummins.com/generators/alternators"
       },
-      "value": 1904
+      "value": 1904,
+      "source_url": "https://www.cummins.com/generators/alternators"
     }
   ],
   "vendors": [

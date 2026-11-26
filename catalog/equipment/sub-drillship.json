@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Ship-shaped self-propelled drilling vessel with moonpool, derrick and dynamic positioning; used for exploratory and development drilling in deep/ultra-deep water.",
+  "description": "Ship-shaped self-propelled drilling vessel with moonpool, derrick and dynamic positioning; used for exploratory and development drilling in deep/ultra-deep water. Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "maximum drilling water depth",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": 3700
+      "value": 3700,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "MODU operational limit",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
         "source_id": "en-wikipedia-org-wiki-offshore-drilling"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_drilling"
     },
     {
       "metric": "water-depth capability by vintage",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Drillship",
         "source_id": "en-wikipedia-org-wiki-drillship"
       },
-      "value": "CUSS I 350 ft (1961); Discoverer 534 7,000 ft (1975); Enterprise 10,000 ft (1999); Inspiration 12,000 ft (2009)"
+      "value": "CUSS I 350 ft (1961); Discoverer 534 7,000 ft (1975); Enterprise 10,000 ft (1999); Inspiration 12,000 ft (2009)",
+      "source_url": "https://en.wikipedia.org/wiki/Drillship"
     },
     {
       "metric": "relocation time GoM to Angola",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Drillship",
         "source_id": "en-wikipedia-org-wiki-drillship"
       },
-      "value": "20 days drillship vs 70 days towed semi-submersible"
+      "value": "20 days drillship vs 70 days towed semi-submersible",
+      "source_url": "https://en.wikipedia.org/wiki/Drillship"
     },
     {
       "metric": "depth record, Dhirubhai Deepwater KG1",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Drillship",
         "source_id": "en-wikipedia-org-wiki-drillship"
       },
-      "value": 3107
+      "value": 3107,
+      "source_url": "https://en.wikipedia.org/wiki/Drillship"
     },
     {
       "metric": "Chikyū scientific drilling depth",
@@ -69,7 +74,8 @@
         "url": "https://en.wikipedia.org/wiki/Drillship",
         "source_id": "en-wikipedia-org-wiki-drillship"
       },
-      "value": 7.0
+      "value": 7.0,
+      "source_url": "https://en.wikipedia.org/wiki/Drillship"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast"
   ],
-  "description": "Vendor product line read 2026-11-24. DP2; commissioned 2022; MCPGF and upend hinge.",
+  "description": "Vendor product line read 2026-11-24. DP2; commissioned 2022; MCPGF and upend hinge. Primary source: https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
   "specifications": [
     {
       "metric": "Crane capacity",
@@ -16,7 +16,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Free deck space",
@@ -26,7 +27,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": 7500
+      "value": 7500,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Monopile handling up to",
@@ -36,7 +38,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Crane lifting capacity (fleet page)",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Free deck space",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 7500
+      "value": 7500,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Accommodation (fleet page)",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Accommodation (factsheet)",
@@ -73,7 +79,8 @@
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf",
         "source_id": "catpar-boskalis-com-bokalift-2-062026-pdf-c7c90a3"
       },
-      "value": 146
+      "value": 146,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Dynamic positioning",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": "Kongsberg DP-2 / Kongsberg DPSI 5"
+      "value": "Kongsberg DP-2 / Kongsberg DPSI 5",
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Length",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": 231
+      "value": 231,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Breadth",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": 49
+      "value": 49,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Draught",
@@ -110,7 +120,8 @@
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
       "low": 8.5,
-      "high": 9.5
+      "high": 9.5,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Main hoist capacity at 28 m radius",
@@ -119,7 +130,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Main hoist capacity at 91/110 m radius",
@@ -130,7 +142,8 @@
       },
       "value": 200,
       "low": 200,
-      "high": 800
+      "high": 800,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Monopile installation equipment limit",
@@ -139,7 +152,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Max structure height lifted",
@@ -148,7 +162,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "high": 100
+      "high": 100,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Propulsion power",
@@ -157,7 +172,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": "8 x 4,320 kW + 1 x 1,100 kW"
+      "value": "8 x 4,320 kW + 1 x 1,100 kW",
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     }
   ],
   "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",

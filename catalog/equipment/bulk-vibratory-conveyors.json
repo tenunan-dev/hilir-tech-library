@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Vibratory conveyors",
+  "description": "Vibratory conveyors Primary source: https://en.wikipedia.org/wiki/Silo",
   "specifications": [
     {
       "metric": "vibrator-assisted discharge",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Silo",
         "source_id": "en-wikipedia-org-wiki-silo"
       },
-      "value": "hard-to-handle products discharged from 45-degree fabric silo cone, minimally assisted by a small vibrator fitted to the discharge transition"
+      "value": "hard-to-handle products discharged from 45-degree fabric silo cone, minimally assisted by a small vibrator fitted to the discharge transition",
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     }
   ],
   "vendors": [

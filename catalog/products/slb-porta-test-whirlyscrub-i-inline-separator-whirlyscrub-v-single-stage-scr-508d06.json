@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. No capacity/pressure data on the listing page.",
+  "description": "Vendor product line read 2026-11-24. No capacity/pressure data on the listing page. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
   "specifications": [
     {
       "metric": "Type",
@@ -16,7 +16,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
         "source_id": "sys-slb-com-processing-and-separation"
       },
-      "value": "inline separator / single-stage scrubber"
+      "value": "inline separator / single-stage scrubber",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "WHIRLYSCRUB I liquid removal efficiency",
@@ -26,7 +27,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator",
         "source_id": "catpar-slb-com-porta-test-whirlyscrub-i-inline-sepa-7f38119"
       },
-      "value": 99.99
+      "value": 99.99,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
     },
     {
       "metric": "WHIRLYSCRUB I liquid loading limit",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
     },
     {
       "metric": "WHIRLYSCRUB I gas sidestream",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
     },
     {
       "metric": "WHIRLYSCRUB V removal efficiency",
@@ -54,7 +58,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment",
         "source_id": "catpar-slb-com-gas-treatment-a471dfd"
       },
-      "value": 99.9
+      "value": 99.9,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment"
     },
     {
       "metric": "WHIRLYSCRUB I publication date",
@@ -62,7 +67,8 @@
       "basis": "SLB product detail page 'Published: 08/02/2016'",
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",

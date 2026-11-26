@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilities. Applicable offshore and onshore.",
+  "description": "Wireless field instrumentation communications for process automation; mesh networking adds redundant routes in difficult radio environments of process facilities. Applicable offshore and onshore. Primary source: https://www.fieldcommgroup.org/technologies/wirelesshart",
   "specifications": [
     {
       "metric": "wireless mesh topology",
@@ -19,7 +19,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "Each device can act as a router; redundant communication routes extend range and improve reliability"
+      "value": "Each device can act as a router; redundant communication routes extend range and improve reliability",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "installation cost reduction vs wired instruments",
@@ -30,7 +31,8 @@
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
       "low": 30,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "RF physical layer",
@@ -40,7 +42,8 @@
         "url": "https://www.fieldcommgroup.org/hart-specifications",
         "source_id": "sys-fieldcommgroup-org-hart-specifications"
       },
-      "value": "2.4 GHz DSSS O-QPSK, based on IEEE STD 802.15.4-2006 2.4GHz DSSS Physical Layer"
+      "value": "2.4 GHz DSSS O-QPSK, based on IEEE STD 802.15.4-2006 2.4GHz DSSS Physical Layer",
+      "source_url": "https://www.fieldcommgroup.org/hart-specifications"
     },
     {
       "metric": "MAC / DLL",
@@ -50,7 +53,8 @@
         "url": "https://www.fieldcommgroup.org/hart-specifications",
         "source_id": "sys-fieldcommgroup-org-hart-specifications"
       },
-      "value": "TDMA Data-Link Layer over IEEE 802.15.4-2006 PHY; secure, reliable, error-free mesh communication"
+      "value": "TDMA Data-Link Layer over IEEE 802.15.4-2006 PHY; secure, reliable, error-free mesh communication",
+      "source_url": "https://www.fieldcommgroup.org/hart-specifications"
     },
     {
       "metric": "messaging modes",
@@ -60,7 +64,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "one-way publishing, exception notification, ad-hoc request/response, auto-segmented block transfers"
+      "value": "one-way publishing, exception notification, ad-hoc request/response, auto-segmented block transfers",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Data reliability",
@@ -70,7 +75,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "low": ">99"
+      "low": ">99",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "WirelessHART standard",
@@ -80,7 +86,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "value": "IEC 62591"
+      "value": "IEC 62591",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Encryption",
@@ -90,7 +97,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "value": "AES-128"
+      "value": "AES-128",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Host protocols",
@@ -100,7 +108,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "value": "HART-IP, OPC UA, Modbus TCP"
+      "value": "HART-IP, OPC UA, Modbus TCP",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Installation cost saving vs wired instrumentation",
@@ -110,7 +119,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "high": "60"
+      "high": "60",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Payback period",
@@ -121,7 +131,8 @@
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
       "low": 12,
-      "high": 24
+      "high": 24,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Example wireless gateway models",
@@ -131,7 +142,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "value": "1410S1, 1410S2"
+      "value": "1410S1, 1410S2",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Hazardous-area certifications",
@@ -141,7 +153,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
         "source_id": "cat-emerson-com-industrial-wireless-technology"
       },
-      "value": "FM, CSA, ATEX, IECEx"
+      "value": "FM, CSA, ATEX, IECEx",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "WirelessHART mesh installation cost saving vs wired instruments",
@@ -151,7 +164,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "30-60"
+      "value": "30-60",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "WirelessHART radio technology",
@@ -161,7 +175,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "self-organizing, self-healing mesh; each device can route for other devices"
+      "value": "self-organizing, self-healing mesh; each device can route for other devices",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "WirelessHART mesh installation cost saving vs wired instruments",
@@ -171,7 +186,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "30-60"
+      "value": "30-60",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "WirelessHART radio technology",
@@ -181,7 +197,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "self-organizing, self-healing mesh; each device can route for other devices"
+      "value": "self-organizing, self-healing mesh; each device can route for other devices",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Products listed",
@@ -190,7 +207,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 56
+      "value": 56,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Gateway remote antenna distance",
@@ -199,7 +217,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 1300
+      "value": 1300,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Asset View inputs",
@@ -208,7 +227,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Installation cost saving",
@@ -217,7 +237,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
       },
-      "value": 60
+      "value": 60,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Certification areas",
@@ -225,7 +246,8 @@
       "basis": "'FM, CSA, ATEX, and IECEx standards' for intrinsically safe / explosion-proof areas",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology"
     },
     {
       "metric": "Network elements",
@@ -234,7 +256,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "HART specification documents",
@@ -243,7 +266,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": 17
+      "value": 17,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Network topology",
@@ -251,7 +275,8 @@
       "basis": "\"By design, WirelessHART using mesh networking technology. Each device in a mesh network can serve as a router for messages from other devices\"",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Installation cost saving vs wired instruments",
@@ -261,7 +286,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
       "low": 30,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Messaging modes",
@@ -269,7 +295,8 @@
       "basis": "'supports multiple messaging modes including one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers of large data sets'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Specification kit size",
@@ -278,7 +305,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": 17
+      "value": 17,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Network protocol",
@@ -287,7 +315,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
       },
-      "value": "WirelessHART"
+      "value": "WirelessHART",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
     },
     {
       "metric": "Hazardous area rating",
@@ -296,7 +325,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
       },
-      "value": "hazardous rated"
+      "value": "hazardous rated",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
     },
     {
       "metric": "Mounting",
@@ -305,7 +335,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
       },
-      "value": "Directly mounts to process piping without cutting or changing pipe configurations"
+      "value": "Directly mounts to process piping without cutting or changing pipe configurations",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
     },
     {
       "metric": "Power",
@@ -314,7 +345,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
       },
-      "value": "low power consumption, long battery life"
+      "value": "low power consumption, long battery life",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
     }
   ],
   "vendors": [

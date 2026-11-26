@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. page_read=true",
+  "description": "Vendor product line read 2026-11-24. page_read=true Primary source: https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
   "specifications": [
     {
       "metric": "hull dimensions on Skarv",
@@ -16,7 +16,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
         "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
       },
-      "value": "292 m × 50.6 m × 29 m"
+      "value": "292 m × 50.6 m × 29 m",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "FPSO hull length (Skarv, Aker Solutions Tentech975 design)",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 292
+      "value": 292,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "FPSO hull beam (Skarv, Tentech975)",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 50.6
+      "value": 50.6,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "FPSO hull depth (Skarv, Tentech975)",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 29
+      "value": 29,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Accommodation (Skarv FPSO)",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Process plant gas handling capacity (Skarv FPSO)",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 19000000
+      "value": 19000000,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Process plant oil handling capacity (Skarv FPSO)",
@@ -70,7 +76,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 13500
+      "value": 13500,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Gas export pipe length (Skarv)",
@@ -79,7 +86,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Hull delivery date (Skarv)",
@@ -87,7 +95,8 @@
       "basis": "Wikipedia: 'The hull was delivered in January 2010'; production started August 2011",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",

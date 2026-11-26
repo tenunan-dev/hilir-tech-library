@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. Steel structure + elastomeric pads; project-specific design and testing.",
+  "description": "Vendor product line read 2026-11-24. Steel structure + elastomeric pads; project-specific design and testing. Primary source: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
   "specifications": [
     {
       "metric": "Full-scale compression test capability",
@@ -16,7 +16,8 @@
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
         "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
       },
-      "value": 18300
+      "value": 18300,
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "Full-scale tested compression load",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
       },
-      "value": 18300
+      "value": 18300,
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "Construction",
@@ -33,7 +35,8 @@
       "basis": "Trelleborg: 'LMUs feature a robust steel structure with high-performance elastomeric pads ... absorb substantial loads and minimize the risk of damage during weight transfer'",
       "source": {
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
-      }
+      },
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "Function",
@@ -41,7 +44,8 @@
       "basis": "Trelleborg: 'Assist in the transfer of static & dynamic load from the barge transporting the topside to the substructure during float-over operation'; 'Install large platform topside without the use of a heavy lift crane vessel'",
       "source": {
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
-      }
+      },
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "Applications",
@@ -49,7 +53,8 @@
       "basis": "Trelleborg: 'Oil & gas topside; Mining and LNG terminal construction; Offshore Wind HVDC; Decommissioning topside'",
       "source": {
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
-      }
+      },
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     }
   ],
   "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",

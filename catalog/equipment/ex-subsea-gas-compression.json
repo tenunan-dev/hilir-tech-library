@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Boost unprocessed well-stream gas on the seabed to reduce downstream pressure drop and defer or replace topside compression.",
+  "description": "Boost unprocessed well-stream gas on the seabed to reduce downstream pressure drop and defer or replace topside compression. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Minimum-facility WHPs are normally unmanned; supervisory control gathers wellhead/process data to a hub platform or onshore centre over radio, cellular, fibre or satellite links. Control loops stay in local PLC/RTU, with SCADA as supervisory layer; safety functions are implemented in a separate SIS.",
+  "description": "Minimum-facility WHPs are normally unmanned; supervisory control gathers wellhead/process data to a hub platform or onshore centre over radio, cellular, fibre or satellite links. Control loops stay in local PLC/RTU, with SCADA as supervisory layer; safety functions are implemented in a separate SIS. Primary source: https://tatsoft.com/oil-gas/",
   "aliases": [
     "Process control and monitoring via SCADA/DCS, remote from shore or hub platform"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://tatsoft.com/oil-gas/",
         "source_id": "whp-tatsoft-com"
-      }
+      },
+      "source_url": "https://tatsoft.com/oil-gas/"
     },
     {
       "metric": "Tatsoft FrameworX SCADA/IIoT — Router-embedded deployment scale",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://tatsoft.com/oil-gas/",
         "source_id": "whp-tatsoft-com"
-      }
+      },
+      "source_url": "https://tatsoft.com/oil-gas/"
     },
     {
       "metric": "Rockwell ICSS on wellhead platforms (Con — Safety integrity capability",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html",
         "source_id": "whp-tdl-ia-com-offshore-platform-fso-automation-html"
-      }
+      },
+      "source_url": "https://www.tdl-ia.com/offshore-platform-fso-automation.html"
     },
     {
       "metric": "Price — Wellhead monitoring installed hardware per well (onshore proxy, NOT offshore WHP)",
@@ -58,7 +61,8 @@
       "source": {
         "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
         "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
-      }
+      },
+      "source_url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html"
     },
     {
       "metric": "Price — Upfront implementation, traditional on-premise SCADA for 10 wells (onshore proxy)",
@@ -70,7 +74,8 @@
       "source": {
         "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
         "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
-      }
+      },
+      "source_url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html"
     }
   ],
   "vendor_models": [],

@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "After set-down: weld out LMU/leg connections, install conductors/risers/umbilicals, connect utilities, test systems, survey as-built position and hand over; for float-over, release LMU load and weld topside leg cans to substructure.",
+  "description": "After set-down: weld out LMU/leg connections, install conductors/risers/umbilicals, connect utilities, test systems, survey as-built position and hand over; for float-over, release LMU load and weld topside leg cans to substructure. Primary source: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
   "specifications": [
     {
       "metric": "Post-float-over close-out step",
@@ -19,7 +19,8 @@
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
         "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
       },
-      "value": "topside leg cans securely welded to substructure after installation"
+      "value": "topside leg cans securely welded to substructure after installation",
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "Direct-weld LMU close-out",
@@ -29,7 +30,8 @@
         "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
         "source_id": "orca-offshore-com-leg-mating-unit"
       },
-      "value": "topside welded directly to jacket after set-down; sand-jack lowering phase eliminated"
+      "value": "topside welded directly to jacket after set-down; sand-jack lowering phase eliminated",
+      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
     }
   ],
   "vendors": [

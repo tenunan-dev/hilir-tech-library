@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Protect personnel and equipment from accidental or intentional explosion by reinforced concrete/steel barriers and rated doors/glazing designed for specified peak reflected pressure, impulse and standoff.",
+  "description": "Protect personnel and equipment from accidental or intentional explosion by reinforced concrete/steel barriers and rated doors/glazing designed for specified peak reflected pressure, impulse and standoff. Primary source: https://steeldoor.org/sdi-133",
   "specifications": [
     {
       "metric": "Blast design standards",
@@ -19,7 +19,8 @@
         "url": "https://steeldoor.org/sdi-133",
         "source_id": "steeldoor-org-steeldoor-org-sdi-133"
       },
-      "value": "ACI 370R-14 / UFC 3-340-02 / ASCE 2025 3rd ed / PIP STC01018"
+      "value": "ACI 370R-14 / UFC 3-340-02 / ASCE 2025 3rd ed / PIP STC01018",
+      "source_url": "https://steeldoor.org/sdi-133"
     },
     {
       "metric": "Sample blast design criteria (non-DoD door)",
@@ -29,7 +30,8 @@
         "url": "https://steeldoor.org/sdi-133",
         "source_id": "steeldoor-org-steeldoor-org-sdi-133"
       },
-      "value": "4 psi peak reflected pressure, 100 ms duration, 50% rebound"
+      "value": "4 psi peak reflected pressure, 100 ms duration, 50% rebound",
+      "source_url": "https://steeldoor.org/sdi-133"
     },
     {
       "metric": "Sample DoD criteria",
@@ -39,7 +41,8 @@
         "url": "https://steeldoor.org/sdi-133",
         "source_id": "steeldoor-org-steeldoor-org-sdi-133"
       },
-      "value": "Charge Weight II, 250 ft standoff, Medium level of protection"
+      "value": "Charge Weight II, 250 ft standoff, Medium level of protection",
+      "source_url": "https://steeldoor.org/sdi-133"
     }
   ],
   "vendors": [

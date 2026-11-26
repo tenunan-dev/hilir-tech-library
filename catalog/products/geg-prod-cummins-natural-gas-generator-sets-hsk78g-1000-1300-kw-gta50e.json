@@ -6,7 +6,7 @@
   "equipment": [
     "geg-gas-engine-generator-units"
   ],
-  "description": "natural gas generator set",
+  "description": "natural gas generator set Primary source: https://www.cummins.com/en-na/generators/natural-gas",
   "specifications": [
     {
       "metric": "Generator set power range",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/natural-gas",
         "source_id": "geg-cummins-com-natural-gas-8d24901"
-      }
+      },
+      "source_url": "https://www.cummins.com/en-na/generators/natural-gas"
     },
     {
       "metric": "Standby rating, 1000kW and 1300kW natural gas gensets",
@@ -30,7 +31,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/natural-gas",
         "source_id": "geg-cummins-com-natural-gas-8d24901"
-      }
+      },
+      "source_url": "https://www.cummins.com/en-na/generators/natural-gas"
     },
     {
       "metric": "Natural gas genset overall range",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/natural-gas"
       },
-      "value": "13 - 2000 kW (16.25 - 2500 kVA)"
+      "value": "13 - 2000 kW (16.25 - 2500 kVA)",
+      "source_url": "https://www.cummins.com/en-na/generators/natural-gas"
     },
     {
       "metric": "HSK78G frequency",
@@ -49,7 +52,8 @@
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series",
         "source_id": "catpar-cummins-com-hsk78g-gas-generator-series-fb795c2"
       },
-      "value": "50, 60"
+      "value": "50, 60",
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G continuous rating",
@@ -60,7 +64,8 @@
       },
       "value": "1550 - 2000",
       "low": 1550,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G peak electrical efficiency 50 Hz",
@@ -69,7 +74,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
       },
-      "value": 44.2
+      "value": 44.2,
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G peak electrical efficiency 60 Hz",
@@ -78,7 +84,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
       },
-      "value": 43.5
+      "value": 43.5,
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G minimum methane number",
@@ -87,7 +94,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
       },
-      "value": "70 (pipeline NG at rated load); down to 40 MN high power density; table 55/60/70"
+      "value": "70 (pipeline NG at rated load); down to 40 MN high power density; table 55/60/70",
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G NOx emissions",
@@ -96,7 +104,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
       },
-      "value": "250 (0.5 g/hp-hr)"
+      "value": "250 (0.5 g/hp-hr)",
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G thermal efficiency CHP",
@@ -105,7 +114,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
       },
-      "value": 47.1
+      "value": 47.1,
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G overhaul interval",
@@ -114,7 +124,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
       },
-      "value": 80000
+      "value": 80000,
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G ambient capability",
@@ -123,7 +134,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
       },
-      "value": "40 C standard / 55 C high-ambient turbo"
+      "value": "40 C standard / 55 C high-ambient turbo",
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G dimensions 50 Hz",
@@ -132,7 +144,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
       },
-      "value": "6.9 x 2.2 x 2.8"
+      "value": "6.9 x 2.2 x 2.8",
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G dimensions 60 Hz",
@@ -141,7 +154,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
       },
-      "value": "7.6 x 2.1 x 2.8"
+      "value": "7.6 x 2.1 x 2.8",
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "HSK78G temperature rise",
@@ -150,7 +164,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
       },
-      "value": "80 - 105"
+      "value": "80 - 105",
+      "source_url": "https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series"
     },
     {
       "metric": "1000/1300 kW QSK60G standby rating",
@@ -162,7 +177,8 @@
       },
       "value": "1000 - 1300",
       "low": 1000,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
     },
     {
       "metric": "QSK60G start time",
@@ -171,7 +187,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
     },
     {
       "metric": "QSK60G cooling capability",
@@ -180,7 +197,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://www.cummins.com/en-na/generators/products/1000kw-and-1300kw-natural-gas-gensets"
     },
     {
       "metric": "GTA50e standby rating",
@@ -192,7 +210,8 @@
       },
       "value": "600 - 750",
       "low": 600,
-      "high": 750
+      "high": 750,
+      "source_url": "https://www.cummins.com/en-na/generators/products/gta50e"
     },
     {
       "metric": "GTA50e load acceptance",
@@ -201,7 +220,8 @@
       "source": {
         "url": "https://www.cummins.com/en-na/generators/products/gta50e"
       },
-      "value": "Accepts 100% rated load in a single step"
+      "value": "Accepts 100% rated load in a single step",
+      "source_url": "https://www.cummins.com/en-na/generators/products/gta50e"
     }
   ],
   "url": "https://www.cummins.com/en-na/generators/natural-gas",

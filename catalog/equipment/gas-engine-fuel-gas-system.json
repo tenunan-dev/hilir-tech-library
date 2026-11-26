@@ -9,7 +9,7 @@
     "PWR",
     "ROT"
   ],
-  "description": "Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank (liquid) | Fuel gas storage, compression, drying and pressure-reduction train",
+  "description": "Fuel gas system: pressure regulation, gas train, filters, scrubbers, booster/compressor, day tank (liquid) | Fuel gas storage, compression, drying and pressure-reduction train Primary source: https://www.jenbacher.com/en/services/balance-of-plant/4072-2/",
   "specifications": [
     {
       "metric": "Fine filter rating",
@@ -19,7 +19,8 @@
         "url": "https://www.jenbacher.com/en/services/balance-of-plant/4072-2/",
         "source_id": "jenbacher-com-4072-2"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.jenbacher.com/en/services/balance-of-plant/4072-2/"
     },
     {
       "metric": "Hydrogen admixture (pipeline gas)",
@@ -29,7 +30,8 @@
         "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",
         "source_id": "jenbacher-com-data-center"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/"
     },
     {
       "metric": "Hydrogen admixture",
@@ -39,7 +41,8 @@
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Gas filter rating",
@@ -49,7 +52,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "50"
+      "value": "50",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Regulator outlet pressure (adjustable range)",
@@ -60,7 +64,8 @@
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "low": "100",
-      "high": "160"
+      "high": "160",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Regulator inlet pressure (general range)",
@@ -71,7 +76,8 @@
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "low": "1.25",
-      "high": "4.0"
+      "high": "4.0",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "LNG storage volume for 12 h operation of one 10 MW engine",
@@ -81,7 +87,8 @@
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
         "source_id": "sys-download-se-com-files"
       },
-      "high": "<50"
+      "high": "<50",
+      "source_url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN"
     },
     {
       "metric": "On-site fuel storage design requirement (hyperscale DC study)",
@@ -91,7 +98,8 @@
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
         "source_id": "sys-download-se-com-files"
       },
-      "value": "48 hours at full load capacity"
+      "value": "48 hours at full load capacity",
+      "source_url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN"
     },
     {
       "metric": "Gas distribution redundancy",
@@ -101,7 +109,8 @@
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
         "source_id": "sys-download-se-com-files"
       },
-      "value": "fully redundant 2 x 100% gas distribution; physically separated main feeders; LNG storage A/B with pressure reduction stations A/B; gas-leak sections automatically isolated"
+      "value": "fully redundant 2 x 100% gas distribution; physically separated main feeders; LNG storage A/B with pressure reduction stations A/B; gas-leak sections automatically isolated",
+      "source_url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN"
     },
     {
       "metric": "Medium-speed engine gas admission pressure",
@@ -112,7 +121,8 @@
         "source_id": "sys-download-se-com-files"
       },
       "low": "6",
-      "high": "7"
+      "high": "7",
+      "source_url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN"
     },
     {
       "metric": "AERZEN GM-HP gas booster volume flow",
@@ -123,7 +133,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "low": "50",
-      "high": "38000"
+      "high": "38000",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "AERZEN GM-HP differential pressure",
@@ -134,7 +145,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "low": "150",
-      "high": "2000"
+      "high": "2000",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Volume flow",
@@ -145,7 +157,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "low": 50,
-      "high": 38000
+      "high": 38000,
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Differential pressure",
@@ -156,7 +169,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "low": 150,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Conveying",
@@ -166,7 +180,8 @@
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
-      "value": "oil-free; medium process gases; magnetic-coupling sealing; two-lobe gas-tight rotors"
+      "value": "oil-free; medium process gases; magnetic-coupling sealing; two-lobe gas-tight rotors",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Differential pressure (delta p)",
@@ -176,7 +191,8 @@
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
       "low": 150,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Number of stages",
@@ -185,7 +201,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "1 or 2 stage design"
+      "value": "1 or 2 stage design",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Medium",
@@ -194,7 +211,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "Process Gases"
+      "value": "Process Gases",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Lubrication",
@@ -203,7 +221,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "separate pressurised oil lubrication, oil-free gas transport"
+      "value": "separate pressurised oil lubrication, oil-free gas transport",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Drive",
@@ -212,7 +231,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "direct-drive"
+      "value": "direct-drive",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Sealing system",
@@ -221,7 +241,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "low-maintenance magnetic coupling"
+      "value": "low-maintenance magnetic coupling",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Rotor design",
@@ -230,7 +251,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "robust two-lobe rotor, gas-tight sealed"
+      "value": "robust two-lobe rotor, gas-tight sealed",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Materials",
@@ -239,7 +261,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "Variety of materials for compatibility with almost all gases"
+      "value": "Variety of materials for compatibility with almost all gases",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Applications",
@@ -248,7 +271,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "Compression of H2 and CH mixtures; acetylene; ethylene; lime kiln gas; rich gas; synthesis raw gas; butadiene; vinyl chloride; hydrogen sulphide; hydrogen; hydrocracking; hydrosulphurisation; fraction"
+      "value": "Compression of H2 and CH mixtures; acetylene; ethylene; lime kiln gas; rich gas; synthesis raw gas; butadiene; vinyl chloride; hydrogen sulphide; hydrogen; hydrocracking; hydrosulphurisation; fraction",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     }
   ],
   "vendors": [

@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "All equipment is arranged, hooked up and commissioned onshore on one integrated deck, minimising offshore hook-up and commissioning (HUC). Single-lift topsides are integrated topsides designed specifically to reduce total weight so the whole unit can be installed by one crane lift.",
+  "description": "All equipment is arranged, hooked up and commissioned onshore on one integrated deck, minimising offshore hook-up and commissioning (HUC). Single-lift topsides are integrated topsides designed specifically to reduce total weight so the whole unit can be installed by one crane lift. Primary source: https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
   "specifications": [
     {
       "metric": "integrated topsides concept first introduced",
@@ -19,7 +19,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 1973
+      "value": 1973,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "original integrated GBS deck girder depth",
@@ -30,7 +31,8 @@
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
       "low": 7,
-      "high": 10
+      "high": 10,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "Amenam/Kpono AMP1 integrated topsides weight",
@@ -40,7 +42,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 11970
+      "value": 11970,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "systems installed, connected and commissioned at yard on AMP1",
@@ -50,7 +53,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 130
+      "value": 130,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "Shearwater single-lift record (2000)",
@@ -60,7 +64,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 11883
+      "value": 11883,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "Sabratha single-lift record",
@@ -70,7 +75,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 12150
+      "value": 12150,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "Thialf nominal lifting capacity",
@@ -80,7 +86,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 14200
+      "value": 14200,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "Saipem 7000 nominal lifting capacity",
@@ -90,7 +97,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 14000
+      "value": 14000,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "structural steel share of total topsides weight",
@@ -100,7 +108,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "commissioning effort for five modules of a BP project",
@@ -110,7 +119,8 @@
         "url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html",
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
-      "value": 25000
+      "value": 25000,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     },
     {
       "metric": "single-lift offshore HUC schedule saving",
@@ -121,7 +131,8 @@
         "source_id": "pdfcoffee-com-pdfcoffee-com-offshore-platform-topside-pdf-free-htm"
       },
       "low": 3,
-      "high": 4
+      "high": 4,
+      "source_url": "https://pdfcoffee.com/offshore-platform-topside-pdf-free.html"
     }
   ],
   "vendors": [

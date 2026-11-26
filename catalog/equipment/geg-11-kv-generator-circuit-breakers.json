@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "11 kV generator circuit breakers for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "11 kV generator circuit breakers for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
   "aliases": [
     "11 kV generator circuit breakers"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "ABB VD4G vacuum circuit breakers for g — Applicable generation power level",
@@ -38,7 +39,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "ABB VD4G vacuum circuit breakers for g — Rated voltage (technical data table)",
@@ -49,7 +51,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "ABB VD4G vacuum circuit breakers for g — Rated normal current at 40 degrees C",
@@ -62,7 +65,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "ABB VD4G vacuum circuit breakers for g — Withstand voltage at 50 Hz / impulse withstand",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "ABB VD4G vacuum circuit breakers for g — Rated making current",
@@ -85,7 +90,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "ABB VD4G vacuum circuit breakers for g — Generator-source short-circuit current classes G1 / G2",
@@ -95,7 +101,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "ABB VD4G vacuum circuit breakers for g — Rated operating sequence during short-circuit interruption",
@@ -105,7 +112,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "ABB VD4G vacuum circuit breakers for g — Pole centre distance",
@@ -118,7 +126,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "ABB VD4G vacuum circuit breakers for g — Generator-standard versus distribution-standard DC time constant",
@@ -131,7 +140,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "ABB VD4G vacuum circuit breakers for g — TRV rate of rise, terminal faults",
@@ -144,7 +154,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf",
         "source_id": "geg-library-e-abb-com-br-vd4g-en-b-1vcp000670-20-761f4f1"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "Siemens 3AK7 generator circuit-breaker — Rated voltage range",
@@ -157,7 +168,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Siemens 3AK7 generator circuit-breaker — Generator circuit-breaker system-side breaking current",
@@ -170,7 +182,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Siemens 3AK7 generator circuit-breaker — Generator-side short-circuit breaking current",
@@ -183,7 +196,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Siemens 3AK7 generator circuit-breaker — Rated short-circuit making current",
@@ -196,7 +210,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Siemens 3AK7 generator circuit-breaker — Rated normal current",
@@ -209,7 +224,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Siemens 3AK7 generator circuit-breaker — Pole-centre distance",
@@ -222,7 +238,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Siemens 3AK7 generator circuit-breaker — Maintenance-free operating cycles",
@@ -233,7 +250,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Siemens 3AK7 generator circuit-breaker — Rated operating sequence (generator circuit-breaker)",
@@ -243,7 +261,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Generator circuit breaker (11 kV g — Specified generator switchgear short-circuit rating",
@@ -254,7 +273,8 @@
       "source": {
         "url": "https://filipinoengineer.com/blog/2026/08/100mw-n2-gas-engine-generator-configuration-11-kv-switchgear-design.html",
         "source_id": "gef-filipinoengineer-com-100mw-n2-gas-engine-gen-1e6d05a"
-      }
+      },
+      "source_url": "https://filipinoengineer.com/blog/2026/08/100mw-n2-gas-engine-generator-configuration-11-kv-switchgear-design.html"
     },
     {
       "metric": "Generator circuit breaker (11 kV g — Generator circuit breaker short-circuit test current disclosed in patent",
@@ -265,7 +285,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US12651896B2/en",
         "source_id": "gef-patents-google-com-en-56dee13"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US12651896B2/en"
     },
     {
       "metric": "Rated voltage range",
@@ -275,7 +296,8 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
       "low": 7.2,
-      "high": 17.5
+      "high": 17.5,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Rated normal current",
@@ -285,7 +307,8 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
       "low": 1250,
-      "high": 4000
+      "high": 4000,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Rated short-circuit breaking current (standard breaker)",
@@ -294,7 +317,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Rated short-circuit making current",
@@ -302,7 +326,8 @@
       "basis": "Selection tables: 125/130 kA peak (standard breakers); 110 kA (40 kA generator), 137 kA (50 kA generator)",
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Pole-center distance",
@@ -311,7 +336,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
-      "value": 210
+      "value": 210,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Maintenance-free operating cycles",
@@ -320,7 +346,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Extended operating cycles option",
@@ -329,7 +356,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
-      "value": 30000
+      "value": 30000,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Rated lightning impulse withstand voltage",
@@ -339,7 +367,8 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
       "low": 60,
-      "high": 95
+      "high": 95,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Rated short-duration power-frequency withstand voltage",
@@ -349,7 +378,8 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
       "low": 20,
-      "high": 38
+      "high": 38,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Standards",
@@ -357,7 +387,8 @@
       "basis": "\"conform to IEC 62271-100, IEC 62271-1, IEC 60265-1 and IEC / IEEE 62271-37-013:2015 (marked accordingly)\"; endurance classes E2, M2, S1 and C2",
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Ambient reference current basis",
@@ -366,7 +397,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Publication",
@@ -374,7 +406,8 @@
       "basis": "Catalog HG 11.06, Edition 2017 (supersedes HG 11.06 edition 2014); 'Medium-Voltage Equipment 3AK7 Vacuum Circuit-Breakers'",
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "standard",
@@ -382,7 +415,8 @@
       "basis": "Type tested according to the latest Standards IEC/IEEE 62271-37-013; first complete product line developed in accordance with the most recent Dual Logo IEC/IEEE 62271-37-013 Standard",
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "generator_classes",
@@ -391,7 +425,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": "G1 and G2"
+      "value": "G1 and G2",
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "rated_voltage_Ur",
@@ -400,7 +435,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "rated_normal_current_Ir_VD4G-25",
@@ -409,7 +445,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 1250
+      "value": 1250,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "rated_normal_current_Ir_VD4G-40",
@@ -418,7 +455,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "rated_normal_current_Ir_VD4G-50",
@@ -429,7 +467,8 @@
       },
       "value": 3150,
       "low": 4000,
-      "high": 4000
+      "high": 4000,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "rated_normal_current_Ir_VD4G-63",
@@ -440,7 +479,8 @@
       },
       "value": 3150,
       "low": 3150,
-      "high": 4000
+      "high": 4000,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "rated_frequency_fr",
@@ -450,7 +490,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 50,
-      "high": 60
+      "high": 60,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "power_frequency_withstand_voltage_Ud",
@@ -459,7 +500,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 38
+      "value": 38,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "impulse_withstand_voltage_Up",
@@ -468,7 +510,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "making_current_Ip_VD4G-25",
@@ -477,7 +520,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 68.5
+      "value": 68.5,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "making_current_Ip_VD4G-40",
@@ -486,7 +530,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 115
+      "value": 115,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "making_current_Ip_VD4G-50",
@@ -495,7 +540,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 137
+      "value": 137,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "making_current_Ip_VD4G-63",
@@ -504,7 +550,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 173
+      "value": 173,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "rated_system_source_short_circuit_breaking_current",
@@ -514,7 +561,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 25,
-      "high": 63
+      "high": 63,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "dc_component_system_source_breaking_current",
@@ -523,7 +571,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "asymmetrical_system_source_short_circuit_current",
@@ -533,7 +582,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 36.5,
-      "high": 92
+      "high": 92,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "generator_source_symmetrical_short_circuit_current_G1",
@@ -543,7 +593,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 16,
-      "high": 50
+      "high": 50,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "generator_source_dc_component_G1",
@@ -552,7 +603,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 110
+      "value": 110,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "generator_source_symmetrical_short_circuit_current_G2",
@@ -562,7 +614,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 16,
-      "high": 37
+      "high": 37,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "generator_source_dc_component_G2",
@@ -571,7 +624,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 130
+      "value": 130,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "out_of_phase_breaking_current",
@@ -581,7 +635,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 12.5,
-      "high": 31.5
+      "high": 31.5,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "out_of_phase_dc_component",
@@ -590,7 +645,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "rated_operating_sequence",
@@ -599,7 +655,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": "CO-10 min-CO"
+      "value": "CO-10 min-CO",
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "rated_short_time_withstand_current",
@@ -609,7 +666,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 25,
-      "high": 63
+      "high": 63,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "pole_center_distance",
@@ -619,7 +677,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 150,
-      "high": 275
+      "high": 275,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "height_fixed",
@@ -629,7 +688,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 461,
-      "high": 636
+      "high": 636,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "height_withdrawable",
@@ -639,7 +699,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 632,
-      "high": 735
+      "high": 735,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "depth_fixed",
@@ -649,7 +710,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 424,
-      "high": 459
+      "high": 459,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "depth_withdrawable",
@@ -659,7 +721,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 643,
-      "high": 664
+      "high": 664,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "width_fixed",
@@ -669,7 +732,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 450,
-      "high": 750
+      "high": 750,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "width_withdrawable",
@@ -679,7 +743,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 503,
-      "high": 853
+      "high": 853,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "weight_fixed",
@@ -689,7 +754,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 73,
-      "high": 210
+      "high": 210,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "weight_withdrawable",
@@ -699,7 +765,8 @@
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
       "low": 116,
-      "high": 270
+      "high": 270,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "system_short_circuit_dc_time_constant",
@@ -708,7 +775,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 133
+      "value": 133,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "trv_rate_of_rise_terminal_faults",
@@ -717,7 +785,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "high": 6
+      "high": 6,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "out_of_phase_breaking_current_fraction",
@@ -726,7 +795,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     },
     {
       "metric": "generation_power_up_to",
@@ -735,7 +805,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://library.e.abb.com/public/a7fb6bd372c243b69bba0e15222cd1eb/Br_VD4G(EN)B_1VCP000670_2019.pdf"
     }
   ],
   "vendor_models": [

@@ -8,7 +8,7 @@
     "MID",
     "HSE"
   ],
-  "description": "Emergency shutdown (ESD) systems that isolate wells and pipelines, using surface safety valves (SSV), boarding shutdown valves (BSDV), subsurface safety valves (SSSV) and shutdown valves; plus overboard dump valves used on offshore water injection / drain systems. Evidence is primarily from BSEE regulation, API RP 14C definitions (search extract), API 6A (search extract), OEM datasheets and an incident-derived engineering article.",
+  "description": "Emergency shutdown (ESD) systems that isolate wells and pipelines, using surface safety valves (SSV), boarding shutdown valves (BSDV), subsurface safety valves (SSSV) and shutdown valves; plus overboard dump valves used on offshore water injection / drain systems. Evidence is primarily from BSEE regulation, API RP 14C definitions (search extract), API 6A (search extract), OEM datasheets and an incident-derived engineering article. Primary source: https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a",
   "aliases": [
     "Overboard dump valves and ESD-initiated isolation of all wells and pipelines"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a",
         "source_id": "whp-indushydraulics-com-surface-safety-valve-hydraulic-api-6a"
-      }
+      },
+      "source_url": "https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a"
     },
     {
       "metric": "Surface Safety Valve (SSV) / Boarding Sh — Temperature range",
@@ -38,7 +39,8 @@
       "source": {
         "url": "https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a",
         "source_id": "whp-indushydraulics-com-surface-safety-valve-hydraulic-api-6a"
-      }
+      },
+      "source_url": "https://indushydraulics.com/p/surface-safety-valve-hydraulic-api-6a"
     }
   ],
   "vendor_models": [],

@@ -6,7 +6,7 @@
   "equipment": [
     "geg-crane-and-hoist"
   ],
-  "description": "electric overhead travelling crane and hoists, JKKP/DOSH certified",
+  "description": "electric overhead travelling crane and hoists, JKKP/DOSH certified Primary source: https://vibrantengineering.com.my/products/overhead-crane",
   "specifications": [
     {
       "metric": "capacity range",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "span",
@@ -29,7 +30,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "single girder EOT capacity",
@@ -41,7 +43,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "single girder EOT span",
@@ -52,7 +55,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "double girder EOT capacity",
@@ -64,7 +68,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "double girder EOT span",
@@ -75,7 +80,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "duty class",
@@ -85,7 +91,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "certification",
@@ -95,7 +102,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "standard features",
@@ -105,7 +113,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "supply condition",
@@ -115,7 +124,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane",
         "source_id": "geg-vibrantengineering-com-my-overhead-crane-6623017"
-      }
+      },
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "capacity",
@@ -125,7 +135,8 @@
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
       "low": 1,
-      "high": 100
+      "high": 100,
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "span",
@@ -134,7 +145,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
-      "high": 35
+      "high": 35,
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "lift_height",
@@ -143,7 +155,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
-      "value": "Custom"
+      "value": "Custom",
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "duty_class",
@@ -152,7 +165,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
-      "value": "A3 - A7"
+      "value": "A3 - A7",
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "certification",
@@ -161,7 +175,8 @@
       "source": {
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
-      "value": "JKKP / DOSH"
+      "value": "JKKP / DOSH",
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     },
     {
       "metric": "installation_duration",
@@ -171,7 +186,8 @@
         "url": "https://vibrantengineering.com.my/products/overhead-crane"
       },
       "low": 3,
-      "high": 7
+      "high": 7,
+      "source_url": "https://vibrantengineering.com.my/products/overhead-crane"
     }
   ],
   "url": "https://vibrantengineering.com.my/products/overhead-crane",

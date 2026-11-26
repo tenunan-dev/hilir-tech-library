@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Ammonia condensation/refrigeration, flash vessels, let-down and storage tanks | Refrigeration / cold condensation for ammonia synthesis loop | Tank farms / ammonia storage",
+  "description": "Ammonia condensation/refrigeration, flash vessels, let-down and storage tanks | Refrigeration / cold condensation for ammonia synthesis loop | Tank farms / ammonia storage Primary source: https://en.wikipedia.org/wiki/Ammonia",
   "specifications": [
     {
       "metric": "Ammonia normal boiling point",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Ammonia",
         "source_id": "en-wikipedia-org-wiki-ammonia"
       },
-      "value": -33.34
+      "value": -33.34,
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia"
     },
     {
       "metric": "Ammonia critical point",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Ammonia",
         "source_id": "en-wikipedia-org-wiki-ammonia"
       },
-      "value": 132.4
+      "value": 132.4,
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia"
     },
     {
       "metric": "Pressurised ammonia storage vessel design pressure",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Ammonia",
         "source_id": "en-wikipedia-org-wiki-ammonia"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia"
     },
     {
       "metric": "Water content to avoid carbon-steel corrosion",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Ammonia",
         "source_id": "en-wikipedia-org-wiki-ammonia"
       },
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia"
     },
     {
       "metric": "Ammonia separation temperature from recycle gas",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Haber_process",
         "source_id": "en-wikipedia-org-wiki-haber-process"
       },
-      "value": -20
+      "value": -20,
+      "source_url": "https://en.wikipedia.org/wiki/Haber_process"
     },
     {
       "metric": "Ammonia explosive limits in air",
@@ -70,7 +75,8 @@
         "source_id": "en-wikipedia-org-wiki-ammonia"
       },
       "low": 15.0,
-      "high": 33.6
+      "high": 33.6,
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia"
     },
     {
       "metric": "Global ammonia shipped annually",
@@ -81,7 +87,8 @@
         "source_id": "en-wikipedia-org-wiki-ammonia-production"
       },
       "low": 18,
-      "high": 20
+      "high": 20,
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia_production"
     },
     {
       "metric": "Ammonia separation temperature",
@@ -91,7 +98,8 @@
         "url": "https://en.wikipedia.org/wiki/Haber_process",
         "source_id": "en-wikipedia-org-wiki-haber-process"
       },
-      "value": -20
+      "value": -20,
+      "source_url": "https://en.wikipedia.org/wiki/Haber_process"
     },
     {
       "metric": "Refrigeration working fluids",
@@ -101,7 +109,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": "ammonia, nitrogen and carbon dioxide"
+      "value": "ammonia, nitrogen and carbon dioxide",
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Refrigeration utility selection (design study)",
@@ -111,7 +120,8 @@
         "url": "https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf",
         "source_id": "blogs-ubc-ca-01-201-220-final-report-pdf"
       },
-      "value": "utility matching inlet/outlet temperature range for -43.3 C"
+      "value": "utility matching inlet/outlet temperature range for -43.3 C",
+      "source_url": "https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf"
     },
     {
       "metric": "Cryogenic ammonia tank capacity (planned project)",
@@ -121,7 +131,8 @@
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
-      "value": 40000
+      "value": 40000,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Detection applications in tank farms",
@@ -131,7 +142,8 @@
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
-      "value": "compressor rooms, pump bays, valves, dike walls, access points"
+      "value": "compressor rooms, pump bays, valves, dike walls, access points",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Clean syngas consumption per tonne ammonia",
@@ -141,7 +153,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 2650
+      "value": 2650,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Reaction heat recovery per tonne ammonia",
@@ -151,7 +164,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 600000
+      "value": 600000,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Plant turndown",
@@ -162,7 +176,8 @@
         "source_id": "casale-ch-ammonia"
       },
       "low": 10,
-      "high": 100
+      "high": 100,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Ramp-up/down rate",
@@ -172,7 +187,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "high": 3
+      "high": 3,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "clean_syngas_consumption_per_ton_ammonia",
@@ -181,7 +197,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "high": 2650
+      "high": 2650,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "hydrogen_equivalent_per_ton_ammonia",
@@ -190,7 +207,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "reaction_heat_recovery_per_ton_ammonia",
@@ -199,7 +217,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "low": 600000
+      "low": 600000,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "plant_turndown_range",
@@ -209,7 +228,8 @@
         "url": "https://casale.ch/technologies/ammonia/"
       },
       "low": 10,
-      "high": 100
+      "high": 100,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "ramp_up_down_rate",
@@ -218,7 +238,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "high": 3
+      "high": 3,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "feedstock",
@@ -227,7 +248,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": "hydrogen derived from water electrolysis with renewable energy and pure nitrogen from an air separation unit"
+      "value": "hydrogen derived from water electrolysis with renewable energy and pure nitrogen from an air separation unit",
+      "source_url": "https://casale.ch/technologies/ammonia/"
     }
   ],
   "vendors": [

@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "132 kV substation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "132 kV substation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
   "aliases": [
     "132 kV substation"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
         "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
-      }
+      },
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — Rated normal current",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
         "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
-      }
+      },
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — Rated short-circuit breaking current 50/60 Hz",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
         "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
-      }
+      },
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — Rated short-time withstand current / duration",
@@ -61,7 +64,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
         "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
-      }
+      },
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — Rated peak withstand current / making current",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
         "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
-      }
+      },
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — Rated lightning impulse withstand voltage (to earth)",
@@ -83,7 +88,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
         "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
-      }
+      },
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — Rated short-duration power-frequency withstand voltage",
@@ -94,7 +100,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
         "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
-      }
+      },
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — Operating times (opening / closing / reclosing)",
@@ -104,7 +111,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
         "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
-      }
+      },
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — Rated operating sequence",
@@ -114,7 +122,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
         "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
-      }
+      },
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — SF6 filling pressure / minimum functional pressure absolute at 20 degrees C",
@@ -127,7 +136,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf",
         "source_id": "geg-resources-news-e-abb-com-elk-04-c-145-2ghv00-3cfd8f9"
-      }
+      },
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — BIL required at 132 kV by Sabah grid code (User Apparatus)",
@@ -138,7 +148,8 @@
       "source": {
         "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
         "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
-      }
+      },
+      "source_url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — Overhead line fault clearance time at 132 kV",
@@ -151,7 +162,8 @@
       "source": {
         "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
         "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
-      }
+      },
+      "source_url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf"
     },
     {
       "metric": "ABB ELK-04 C, 145 kV gas-insulated swi — Total harmonic distortion limit at 132 kV",
@@ -162,7 +174,8 @@
       "source": {
         "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
         "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
-      }
+      },
+      "source_url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf"
     },
     {
       "metric": "132/33 kV main intake substation ( — Transformer capacity of named 132/33 kV PMU",
@@ -173,7 +186,8 @@
       "source": {
         "url": "https://finance.biggo.com/news/d11b9a98-9228-4c7f-9346-c5e84a233c0f",
         "source_id": "gef-finance-biggo-com-d11b9a98-9228-4c7f-9346-c5-0894601"
-      }
+      },
+      "source_url": "https://finance.biggo.com/news/d11b9a98-9228-4c7f-9346-c5e84a233c0f"
     },
     {
       "metric": "132/33 kV main intake substation ( — 132 kV mobile substation voltage class",
@@ -184,7 +198,8 @@
       "source": {
         "url": "https://en.sieyuan.com/cases/saudi-sec-132kv-mobile-substation",
         "source_id": "gef-en-sieyuan-com-saudi-sec-132kv-mobile-substa-6bd1492"
-      }
+      },
+      "source_url": "https://en.sieyuan.com/cases/saudi-sec-132kv-mobile-substation"
     },
     {
       "metric": "Product ID",
@@ -193,7 +208,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": "2GHV010550M0001"
+      "value": "2GHV010550M0001",
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Rated voltage",
@@ -202,7 +218,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 145
+      "value": 145,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Power-frequency withstand voltage",
@@ -211,7 +228,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 275
+      "value": 275,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Power-frequency withstand across isolating distance",
@@ -220,7 +238,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 315
+      "value": 315,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Lightning impulse withstand voltage",
@@ -229,7 +248,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 650
+      "value": 650,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Lightning impulse across isolating distance",
@@ -238,7 +258,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 750
+      "value": 750,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Rated frequency",
@@ -247,7 +268,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": "50/60"
+      "value": "50/60",
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Rated normal current",
@@ -256,7 +278,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 3150
+      "value": 3150,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Rated short-time withstand current",
@@ -265,7 +288,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Rated duration of short-circuit",
@@ -274,7 +298,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Rated peak withstand current",
@@ -283,7 +308,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 108
+      "value": 108,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Installation",
@@ -292,7 +318,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": "Indoor/outdoor"
+      "value": "Indoor/outdoor",
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Filling pressure / min functional pressure",
@@ -301,7 +328,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": "0.68/0.60"
+      "value": "0.68/0.60",
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Short-circuit breaking current",
@@ -310,7 +338,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Short-circuit making current peak",
@@ -319,7 +348,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 108
+      "value": 108,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Opening time",
@@ -329,7 +359,8 @@
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
       "low": 26,
-      "high": 35
+      "high": 35,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Closing time",
@@ -339,7 +370,8 @@
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
       "low": 45,
-      "high": 55
+      "high": 55,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Reclosing time",
@@ -348,7 +380,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "high": 300
+      "high": 300,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Rated operating sequence",
@@ -357,7 +390,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": "O - 0.3s - CO - 3min - CO"
+      "value": "O - 0.3s - CO - 3min - CO",
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Mechanical operations class",
@@ -366,7 +400,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": "M2"
+      "value": "M2",
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Capacitive switching class",
@@ -375,7 +410,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": "C2"
+      "value": "C2",
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Capacitive current switching capability",
@@ -384,7 +420,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Bus-transfer current / voltage",
@@ -393,7 +430,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": "1600/30"
+      "value": "1600/30",
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     },
     {
       "metric": "Electrical endurance class",
@@ -402,7 +440,8 @@
       "source": {
         "url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
       },
-      "value": "E1"
+      "value": "E1",
+      "source_url": "https://resources.news.e.abb.com/attachments/published/50944/en-US/EC5ACE15FFEF/ELK-04-C-145-2GHV008915-0315En.pdf"
     }
   ],
   "vendor_models": [],

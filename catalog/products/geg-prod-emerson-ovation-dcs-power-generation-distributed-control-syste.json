@@ -6,7 +6,7 @@
   "equipment": [
     "geg-plant-control-system"
   ],
-  "description": "power-generation distributed control system",
+  "description": "power-generation distributed control system Primary source: https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
   "specifications": [
     {
       "metric": "target industries",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
         "source_id": "geg-emerson-com-ovation-distributed-control-syst-006ffb7"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "market position claim",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
         "source_id": "geg-emerson-com-ovation-distributed-control-syst-006ffb7"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "Target industries",
@@ -34,7 +36,8 @@
       "basis": "Emerson: 'The Ovation Distributed Control System is purposely designed for the power generation and water/wastewater industries.'",
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "Platform version",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
       },
-      "value": "Ovation Automation Platform 4.0"
+      "value": "Ovation Automation Platform 4.0",
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "Controller / I/O model lines",
@@ -51,7 +55,8 @@
       "basis": "Emerson lists 'OCR3000 Controller, OCC100 Controller, OMC100 Controller, SDC100 Controller, Ovation I/O, Machinery Health Monitor'",
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "I/O construction",
@@ -59,7 +64,8 @@
       "basis": "Emerson: 'Ovation I/O features modular, plug-in components ... Fast DIN rail installation, built-in connectors, and electronic ID ... With hot-swappable modules, standardized diagnostics'",
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "Market positioning",
@@ -67,7 +73,8 @@
       "basis": "'According to ARC Advisory Group's Distributed Control Systems for Power Generation Global Market Research 2024–2029, Emerson's Ovation is positioned as the leading distributed control system for power generation globally and across North America.'",
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     }
   ],
   "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",

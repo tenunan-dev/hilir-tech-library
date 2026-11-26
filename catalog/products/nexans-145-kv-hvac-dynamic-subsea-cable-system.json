@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. Power cable for subsea gas compression; not a hydraulic umbilical.",
+  "description": "Vendor product line read 2026-11-24. Power cable for subsea gas compression; not a hydraulic umbilical. Primary source: https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
   "specifications": [
     {
       "metric": "Voltage",
@@ -16,7 +16,8 @@
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
         "source_id": "sys-nexans-com"
       },
-      "value": 145
+      "value": 145,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Route length",
@@ -26,7 +27,8 @@
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
         "source_id": "sys-nexans-com"
       },
-      "value": 135
+      "value": 135,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Trenching",
@@ -36,7 +38,8 @@
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
         "source_id": "sys-nexans-com"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Cable voltage and type",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 145
+      "value": 145,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Route length",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 135
+      "value": 135,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Trenched cable length",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Buoyancy modules installed",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 26
+      "value": 26,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "VIV strakes installed",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Rock stabilization remaining",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 28
+      "value": 28,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Project and publication date",
@@ -98,7 +107,8 @@
       "basis": "News item 'Jansz-Io: Nexans Aurora completes subsea cable installation', dated 20 November 2026; vessel left Australia 23 October 2026; final soak test planned February 2027",
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
-      }
+      },
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     }
   ],
   "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",

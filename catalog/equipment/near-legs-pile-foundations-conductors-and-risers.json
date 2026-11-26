@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Transfer structural and drilling loads to seabed; conductors guide and support wellheads; risers connect subsea wells to topsides.",
+  "description": "Transfer structural and drilling loads to seabed; conductors guide and support wellheads; risers connect subsea wells to topsides. Primary source: https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
   "specifications": [
     {
       "metric": "wind jacket pin pile diameter / max length / max weight",
@@ -19,7 +19,8 @@
         "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
         "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
       },
-      "value": "3 m / 82 m / 310 t"
+      "value": "3 m / 82 m / 310 t",
+      "source_url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm"
     }
   ],
   "vendors": [

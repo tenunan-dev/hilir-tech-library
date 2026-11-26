@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-exhaust-emissions"
   ],
-  "description": "Vendor product line read 2026-11-24. Oxidation and three-way catalyst elements; integrated silencer available",
+  "description": "Vendor product line read 2026-11-24. Oxidation and three-way catalyst elements; integrated silencer available Primary source: https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
   "specifications": [
     {
       "metric": "Engine power",
@@ -16,7 +16,8 @@
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
         "source_id": "matthey-com-emissions-control-oxidation-catalyst-systems"
       },
-      "value": "50-500 / 250-2250 / >=2000"
+      "value": "50-500 / 250-2250 / >=2000",
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "MODULEX C engine power",
@@ -27,7 +28,8 @@
       },
       "value": 50,
       "low": 500,
-      "high": "HP"
+      "high": "HP",
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "MODULEX B engine power",
@@ -38,7 +40,8 @@
       },
       "value": 250,
       "low": 2250,
-      "high": "HP"
+      "high": "HP",
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "DUALOX engine power",
@@ -48,7 +51,8 @@
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
       },
       "value": 2000,
-      "high": "HP"
+      "high": "HP",
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Catalyst types",
@@ -56,7 +60,8 @@
       "basis": "'designed to accommodate oxidation and three-way catalyst elements'",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Engine cycles",
@@ -64,7 +69,8 @@
       "basis": "'4-cycle engines and 2-cycle engines'",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Fuels",
@@ -72,7 +78,8 @@
       "basis": "'natural gas, LPG, propane, diesel, biodiesel, dual fuel'",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Applications",
@@ -80,7 +87,8 @@
       "basis": "gas compression, gas transmission, power generation, irrigation and pumping, standby equipment",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Monitoring",
@@ -88,7 +96,8 @@
       "basis": "'HAPGuard Monitor helps engine operators comply with RICE NESHAP requirements'",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     }
   ],
   "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",

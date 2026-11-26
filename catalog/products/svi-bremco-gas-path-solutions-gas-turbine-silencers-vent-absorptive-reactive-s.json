@@ -4,7 +4,7 @@
   "manufacturer": "svi-bremco",
   "product_type": "boiler",
   "equipment": [],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: SVI BREMCO Gas Path Solutions page. GAP: this page did not print expansion-joint product specs; the SVI BREMCO exhaust expansion-joint association was only search-verified from a directory snippet.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: SVI BREMCO Gas Path Solutions page. GAP: this page did not print expansion-joint product specs; the SVI BREMCO exhaust expansion-joint association was only search-verified from a directory snippet. Primary source: https://svi-bremco.com/gas-path-solutions/",
   "specifications": [
     {
       "metric": "Engineered solution families",
@@ -14,7 +14,8 @@
         "source_id": "svi-bremco-com-gas-path-solutions"
       },
       "unit": "n/a",
-      "value": "Gas turbine silencers; stacks and ductwork; air intake systems; vent silencers; absorptive silencers; combination silencers; reactive silencers; acoustical panel systems; acoustical lagging systems"
+      "value": "Gas turbine silencers; stacks and ductwork; air intake systems; vent silencers; absorptive silencers; combination silencers; reactive silencers; acoustical panel systems; acoustical lagging systems",
+      "source_url": "https://svi-bremco.com/gas-path-solutions/"
     },
     {
       "metric": "Support capability",
@@ -24,7 +25,8 @@
         "source_id": "svi-bremco-com-gas-path-solutions"
       },
       "unit": "n/a",
-      "value": "in-house engineering for acoustic, aerodynamic, thermal and structural project goals"
+      "value": "in-house engineering for acoustic, aerodynamic, thermal and structural project goals",
+      "source_url": "https://svi-bremco.com/gas-path-solutions/"
     },
     {
       "metric": "Applicable sectors",
@@ -34,7 +36,8 @@
         "source_id": "svi-bremco-com-gas-path-solutions"
       },
       "unit": "n/a",
-      "value": "Power Generation (Simple/Open Cycle, Combined Cycle, Cogen, SCR/CO, Coal/Boiler, Biomass); Oil & Gas / Petrochemical"
+      "value": "Power Generation (Simple/Open Cycle, Combined Cycle, Cogen, SCR/CO, Coal/Boiler, Biomass); Oil & Gas / Petrochemical",
+      "source_url": "https://svi-bremco.com/gas-path-solutions/"
     },
     {
       "metric": "Solution scope",
@@ -42,7 +45,8 @@
       "basis": "SVI BREMCO: engineered solutions include 'gas turbine silencers, stacks and ductwork, air intake systems, vent silencers, absorptive silencers, combination silencers, reactive silencers, acoustical panel systems, acoustical lagging systems'",
       "source": {
         "url": "https://svi-bremco.com/gas-path-solutions/"
-      }
+      },
+      "source_url": "https://svi-bremco.com/gas-path-solutions/"
     },
     {
       "metric": "Inspection standard / intervals",
@@ -50,7 +54,8 @@
       "basis": "SVI BREMCO: 'Inspections and Analysis (Steel Stack per ASCE, Acoustical Surveys, CFD Flow Modeling, Physical Flow Modeling, Structural and Mechanical analysis)'; 'inspect annually and every three years'",
       "source": {
         "url": "https://svi-bremco.com/gas-path-solutions/"
-      }
+      },
+      "source_url": "https://svi-bremco.com/gas-path-solutions/"
     },
     {
       "metric": "Industries served",
@@ -58,7 +63,8 @@
       "basis": "SVI BREMCO: 'Power Generation (Simple/Open Cycle, Combined Cycle, Cogen, SCR/CO, Coal/Boiler, Biomass)'; 'Industrial Process (Fertilizer, Cement, Agriculture, Chemical, Mining)'; 'Oil & Gas / Petrochemical – Upstream (FPSO, Platforms), Midstream (Compressor Stations), Downstream (Refinery, Processing)'",
       "source": {
         "url": "https://svi-bremco.com/gas-path-solutions/"
-      }
+      },
+      "source_url": "https://svi-bremco.com/gas-path-solutions/"
     }
   ],
   "url": "https://svi-bremco.com/gas-path-solutions/",

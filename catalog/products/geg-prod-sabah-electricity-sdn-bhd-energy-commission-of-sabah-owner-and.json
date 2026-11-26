@@ -6,7 +6,7 @@
   "equipment": [
     "geg-construction-management-and-services"
   ],
-  "description": "owner project management / grid-connection authority",
+  "description": "owner project management / grid-connection authority Primary source: https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
   "specifications": [
     {
       "metric": "fast-track gas turbine capacity",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",
         "source_id": "geg-theborneopost-com-db0284b"
-      }
+      },
+      "source_url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/"
     }
   ],
   "url": "https://www.theborneopost.com/2024/09/25/94mw-gas-turbine-generators-project-in-kimanis-to-boost-sabahs-grid-reserve/",

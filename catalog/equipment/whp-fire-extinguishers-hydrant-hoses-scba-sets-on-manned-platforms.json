@@ -8,7 +8,7 @@
     "MID",
     "HSE"
   ],
-  "description": "Portable and semi-portable extinguishers, fire-main hydrants and hoses, and self-contained breathing apparatus for fire teams on manned offshore installations. Evidence is from USCG Outer Continental Shelf and Deepwater Port regulations, SOLAS/IMO sources, US 46 CFR emergency-equipment rules and an OEM product catalogue.",
+  "description": "Portable and semi-portable extinguishers, fire-main hydrants and hoses, and self-contained breathing apparatus for fire teams on manned offshore installations. Evidence is from USCG Outer Continental Shelf and Deepwater Port regulations, SOLAS/IMO sources, US 46 CFR emergency-equipment rules and an OEM product catalogue. Primary source: https://www.ecfr.gov/current/title-46/section-77.30-5",
   "aliases": [
     "Fire extinguishers, hydrant hoses, SCBA sets on manned platforms"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://www.ecfr.gov/current/title-46/section-77.30-5",
         "source_id": "whp-ecfr-gov-section-77-30-5"
-      }
+      },
+      "source_url": "https://www.ecfr.gov/current/title-46/section-77.30-5"
     },
     {
       "metric": "Reliability — Monthly extinguisher inspection",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://www.ecfr.gov/current/title-33/part-145",
         "source_id": "whp-ecfr-gov-part-145"
-      }
+      },
+      "source_url": "https://www.ecfr.gov/current/title-33/part-145"
     },
     {
       "metric": "Reliability — Annual extinguisher maintenance and hydrostatic test",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://www.ecfr.gov/current/title-33/part-145",
         "source_id": "whp-ecfr-gov-part-145"
-      }
+      },
+      "source_url": "https://www.ecfr.gov/current/title-33/part-145"
     }
   ],
   "vendor_models": [],

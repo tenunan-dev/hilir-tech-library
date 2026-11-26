@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Lifecycle process: data, evaluation, strategy, inspection programme, fitness-for-purpose assessment, risk reduction and decommissioning.",
+  "description": "Lifecycle process: data, evaluation, strategy, inspection programme, fitness-for-purpose assessment, risk reduction and decommissioning. Primary source: https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
   "specifications": [
     {
       "metric": "ISO structural integrity management standard",
@@ -19,7 +19,8 @@
         "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
         "source_id": "iso-org-d-0"
       },
-      "value": "ISO 19901-9:2019 (published); ISO/CD 19901-9 under development"
+      "value": "ISO 19901-9:2019 (published); ISO/CD 19901-9 under development",
+      "source_url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0"
     },
     {
       "metric": "Brent topsides reuse/recycling target",
@@ -29,7 +30,8 @@
         "url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html",
         "source_id": "fourleafdigital-shell-com-brent-decommissioning-html-process-html"
       },
-      "value": 97
+      "value": 97,
+      "source_url": "https://www.fourleafdigital.shell.com/WebApps/Brent_decommissioning_HTML/process.html"
     }
   ],
   "vendors": [

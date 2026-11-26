@@ -6,7 +6,7 @@
   "equipment": [
     "cf-process-gas-transmission-and-power-piping-codes-and-pipe-class"
   ],
-  "description": "Markets include Oil & Gas, Energy, Infrastructure; systems listed include Dynamic Movement Joints, Advanced Groove System, StrengThin 100 for thin wall stainless, Vic-Press for Schedule 10S stainless, and High Performance System for Steam & Chemical Service. Numeric pressure ratings not printed on the page read; product specification sheets linked but not read.",
+  "description": "Markets include Oil & Gas, Energy, Infrastructure; systems listed include Dynamic Movement Joints, Advanced Groove System, StrengThin 100 for thin wall stainless, Vic-Press for Schedule 10S stainless, and High Performance System for Steam & Chemical Service. Numeric pressure ratings not printed on the page read; product specification sheets linked but not read. Primary source: https://www.victaulic.com/products/",
   "specifications": [
     {
       "metric": "Pipe joining product families",
@@ -16,7 +16,8 @@
         "url": "https://www.victaulic.com/products/",
         "source_id": "cat-victaulic-com"
       },
-      "value": "Rigid / Flexible / Transition / Reducing / Outlet / Plain End / Flange Adapters / Expansion Joints / Press"
+      "value": "Rigid / Flexible / Transition / Reducing / Outlet / Plain End / Flange Adapters / Expansion Joints / Press",
+      "source_url": "https://www.victaulic.com/products/"
     },
     {
       "metric": "Fitting materials",
@@ -26,7 +27,8 @@
         "url": "https://www.victaulic.com/products/",
         "source_id": "cat-victaulic-com"
       },
-      "value": "carbon steel, stainless steel, copper, HDPE, PVC/CPVC and other pipe materials"
+      "value": "carbon steel, stainless steel, copper, HDPE, PVC/CPVC and other pipe materials",
+      "source_url": "https://www.victaulic.com/products/"
     },
     {
       "metric": "flow_control_valve_configurations",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.victaulic.com/products/"
       },
-      "value": "level-control, pressure-reducing and pressure-release configurations"
+      "value": "level-control, pressure-reducing and pressure-release configurations",
+      "source_url": "https://www.victaulic.com/products/"
     }
   ],
   "url": "https://www.victaulic.com/products/",

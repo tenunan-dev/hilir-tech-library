@@ -6,7 +6,7 @@
   "equipment": [
     "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast"
   ],
-  "description": "Vendor product line read 2026-11-24. DP2; converted 2017; 150 persons.",
+  "description": "Vendor product line read 2026-11-24. DP2; converted 2017; 150 persons. Primary source: https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
   "specifications": [
     {
       "metric": "Crane capacity",
@@ -16,7 +16,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Deck",
@@ -26,7 +27,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": "165 x 43"
+      "value": "165 x 43",
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Bokalift 1 - crane lifting capacity",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Bokalift 1 - available deck space",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": "165 m x 43 m"
+      "value": "165 m x 43 m",
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Bokalift 1 - accommodation",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Bokalift 1 - dynamic positioning class",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": "DP2 self-propelled crane vessel (converted 2017)"
+      "value": "DP2 self-propelled crane vessel (converted 2017)",
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Bokalift 1 - helicopter deck",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": "Available for offshore transfers"
+      "value": "Available for offshore transfers",
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     }
   ],
   "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",

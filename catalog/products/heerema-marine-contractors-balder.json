@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. Deepwater construction vessel.",
+  "description": "Vendor product line read 2026-11-24. Deepwater construction vessel. Primary source: https://www.heerema.com/heerema-marine-contractors/fleet",
   "specifications": [
     {
       "metric": "Tandem lift (guyed mode)",
@@ -16,7 +16,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": 6300
+      "value": 6300,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Tandem lift capacity (guyed mode)",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 6300
+      "value": 6300,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Vessel type",
@@ -33,7 +35,8 @@
       "basis": "Listed under 'Deepwater Construction Vessel'",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
-      }
+      },
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Crane capability",
@@ -41,7 +44,8 @@
       "basis": "\"The vessel's cranes provide for a depth reach lowering capability as well as a heavy lift capacity to install topsides, jackets, and other structures\"",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
-      }
+      },
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     }
   ],
   "url": "https://www.heerema.com/heerema-marine-contractors/fleet",

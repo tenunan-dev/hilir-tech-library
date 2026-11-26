@@ -7,7 +7,7 @@
     "IDC",
     "ELE"
   ],
-  "description": "The MV layer that takes utility or on-site generation supply into a data-centre campus and splits it to transformers and UPS halls: air-insulated (AIS) for flexible, expandable rooms and gas-insulated (GIS) where footprint or harsh conditions rule. ABB's MV switchgear covers 1-52 kV under IEC to IEC 62271, with SF6-free insulation (dry air or natural-origin gases, GWP below 1) available for most 6-24 kV applications and compliant with EU F-gas regulation 2024/573; data centres are a named served industry.",
+  "description": "The MV layer that takes utility or on-site generation supply into a data-centre campus and splits it to transformers and UPS halls: air-insulated (AIS) for flexible, expandable rooms and gas-insulated (GIS) where footprint or harsh conditions rule. ABB's MV switchgear covers 1-52 kV under IEC to IEC 62271, with SF6-free insulation (dry air or natural-origin gases, GWP below 1) available for most 6-24 kV applications and compliant with EU F-gas regulation 2024/573; data centres are a named served industry. Primary source: https://new.abb.com/medium-voltage/switchgear",
   "subtypes": [
     {
       "name": "Air-insulated switchgear (AIS)",
@@ -38,7 +38,8 @@
       "source": {
         "url": "https://new.abb.com/medium-voltage/switchgear",
         "note": "ABB medium-voltage switchgear overview page, read 2026-11-12 via reader (direct fetch times out)"
-      }
+      },
+      "source_url": "https://new.abb.com/medium-voltage/switchgear"
     },
     {
       "metric": "SF6-free insulation coverage",
@@ -49,7 +50,8 @@
       "source": {
         "url": "https://new.abb.com/medium-voltage/switchgear",
         "note": "ABB MV switchgear FAQ section, read 2026-11-12"
-      }
+      },
+      "source_url": "https://new.abb.com/medium-voltage/switchgear"
     }
   ],
   "vendor_models": [

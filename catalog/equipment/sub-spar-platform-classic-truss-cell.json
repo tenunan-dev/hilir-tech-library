@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Deep-draft vertical buoyant cylinder(s) moored by spread mooring; deep draft gives low wave sensitivity and supports dry-tree or subsea production.",
+  "description": "Deep-draft vertical buoyant cylinder(s) moored by spread mooring; deep draft gives low wave sensitivity and supports dry-tree or subsea production. Primary source: https://en.wikipedia.org/wiki/Spar_(platform)",
   "specifications": [
     {
       "metric": "cell spar cell count and diameter, Red Hawk",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
         "source_id": "en-wikipedia-org-wiki-spar-platform"
       },
-      "value": "7 cells of 8 m diameter"
+      "value": "7 cells of 8 m diameter",
+      "source_url": "https://en.wikipedia.org/wiki/Spar_(platform)"
     },
     {
       "metric": "deepest spar water depth, Perdido",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
         "source_id": "en-wikipedia-org-wiki-spar-platform"
       },
-      "value": 2383
+      "value": 2383,
+      "source_url": "https://en.wikipedia.org/wiki/Spar_(platform)"
     },
     {
       "metric": "first production spar water depth, Neptune",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
         "source_id": "en-wikipedia-org-wiki-spar-platform"
       },
-      "value": 588
+      "value": 588,
+      "source_url": "https://en.wikipedia.org/wiki/Spar_(platform)"
     }
   ],
   "vendors": [

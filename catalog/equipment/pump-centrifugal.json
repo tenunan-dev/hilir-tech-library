@@ -16,7 +16,7 @@
     "UPS",
     "PWR"
   ],
-  "description": "Rotodynamic pump that adds velocity to the liquid with an impeller and converts it to pressure in a volute or diffuser — the default mover for refinery, petrochemical, power and upstream water duties. API 610 (with ISO 13709) is the refinery-class standard and organises machines into overhung (OH), between-bearing (BB) and vertically-suspended (VS) arrangements; the specific family sets how much flow, head and suction pressure the machine takes.",
+  "description": "Rotodynamic pump that adds velocity to the liquid with an impeller and converts it to pressure in a volute or diffuser — the default mover for refinery, petrochemical, power and upstream water duties. API 610 (with ISO 13709) is the refinery-class standard and organises machines into overhung (OH), between-bearing (BB) and vertically-suspended (VS) arrangements; the specific family sets how much flow, head and suction pressure the machine takes. Primary source: https://en.wikipedia.org/wiki/Centrifugal_pump",
   "applications": [
     "boiler feed water and condensate in power and cogeneration plants",
     "refinery and petrochemical process and transfer duties",
@@ -32,7 +32,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Centrifugal_pump",
         "note": "Wikipedia, Centrifugal pump (read 2026-10-30; citation shared with the rot-pumps card)"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Centrifugal_pump"
     },
     {
       "metric": "boiler feed pump discharge pressure (350 MW unit)",
@@ -43,7 +44,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Centrifugal_pump",
         "note": "Wikipedia, Centrifugal pump (read 2026-10-30; citation shared with the rot-pumps card)"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Centrifugal_pump"
     }
   ],
   "vendor_models": [

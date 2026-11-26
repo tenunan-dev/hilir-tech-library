@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Neutral grounding resistor panels for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Neutral grounding resistor panels for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
   "aliases": [
     "Neutral grounding resistor panels"
   ],
@@ -29,7 +29,8 @@
       "source": {
         "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
         "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf"
     },
     {
       "metric": "I-Gard Neutral Grounding Resistor (NGR — rated time options",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
         "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf"
     },
     {
       "metric": "I-Gard Neutral Grounding Resistor (NGR — temperature rise, duty-rated example (2400 V L-N, 400 A, 10 s)",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
         "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf"
     },
     {
       "metric": "I-Gard Neutral Grounding Resistor (NGR — temperature rise, continuous example (277 V L-N, 5 A)",
@@ -61,7 +64,8 @@
       "source": {
         "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
         "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf"
     },
     {
       "metric": "I-Gard Neutral Grounding Resistor (NGR — recommended maximum temperature coefficient of resistance",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
         "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf"
     },
     {
       "metric": "I-Gard Neutral Grounding Resistor (NGR — maximum current variation in rated voltage test",
@@ -83,7 +88,8 @@
       "source": {
         "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
         "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf"
     },
     {
       "metric": "I-Gard Neutral Grounding Resistor (NGR — maximum resistance change over temperature range",
@@ -94,7 +100,8 @@
       "source": {
         "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
         "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf"
     },
     {
       "metric": "I-Gard SIGMA 3 NGR monitor / ground fa — applicable voltage range",
@@ -106,7 +113,8 @@
       "source": {
         "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
         "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf"
     },
     {
       "metric": "I-Gard SIGMA 3 NGR monitor / ground fa — neutral-ground monitoring requirement",
@@ -116,7 +124,8 @@
       "source": {
         "url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf",
         "source_id": "geg-r-jina-ai-c-098eb-ngr-brochure-april-2022-pd-5457aa4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://i-gard.com/site/assets/files/1073/c-098eb_ngr_brochure_-_april_2022.pdf"
     },
     {
       "metric": "Neutral grounding resistor (NGR) w — 11 kV NGR with VC panel - neutral current",
@@ -127,7 +136,8 @@
       "source": {
         "url": "https://www.nationalresistors.net/neutral-grounding-resistors.html",
         "source_id": "gef-nationalresistors-net-neutral-grounding-resi-666210e"
-      }
+      },
+      "source_url": "https://www.nationalresistors.net/neutral-grounding-resistors.html"
     },
     {
       "metric": "Neutral grounding resistor (NGR) w — 11 kV NGR with VC panel - resistance",
@@ -137,7 +147,8 @@
       "source": {
         "url": "https://www.nationalresistors.net/neutral-grounding-resistors.html",
         "source_id": "gef-nationalresistors-net-neutral-grounding-resi-666210e"
-      }
+      },
+      "source_url": "https://www.nationalresistors.net/neutral-grounding-resistors.html"
     },
     {
       "metric": "Neutral grounding resistor (NGR) w — 33 kV NGR - neutral current",
@@ -147,7 +158,8 @@
       "source": {
         "url": "https://www.nationalresistors.net/neutral-grounding-resistors.html",
         "source_id": "gef-nationalresistors-net-neutral-grounding-resi-666210e"
-      }
+      },
+      "source_url": "https://www.nationalresistors.net/neutral-grounding-resistors.html"
     }
   ],
   "vendor_models": [],

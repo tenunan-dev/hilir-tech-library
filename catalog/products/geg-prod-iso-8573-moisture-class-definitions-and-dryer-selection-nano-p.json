@@ -6,7 +6,7 @@
   "equipment": [
     "geg-instrument-air-system"
   ],
-  "description": "compressed air quality standard interpretation and dryer technology",
+  "description": "compressed air quality standard interpretation and dryer technology Primary source: https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
   "specifications": [
     {
       "metric": "ISO 8573 moisture class 1 dew point",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
         "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
-      }
+      },
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "ISO 8573 moisture class 2 dew point",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
         "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
-      }
+      },
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "ISO 8573 moisture class 3 dew point",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
         "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
-      }
+      },
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "desiccant dryer achievable dew point",
@@ -50,7 +53,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
         "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
-      }
+      },
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "refrigerated dryer dew point",
@@ -62,7 +66,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",
         "source_id": "geg-nano-purification-com-instrument-air-standar-c0601ff"
-      }
+      },
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "refrigerant dryer PDP",
@@ -73,7 +78,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "adsorption/desiccant dryer PDP",
@@ -85,7 +91,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "membrane dryer PDP",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "ISO 8573-1 class 1 PDP / class 4 PDP (as printed)",
@@ -106,7 +114,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "ISO 8573 moisture Class 1 - dew point",
@@ -115,7 +124,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
       },
-      "value": -100
+      "value": -100,
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "ISO 8573 moisture Class 2 - dew point",
@@ -124,7 +134,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
       },
-      "value": -40
+      "value": -40,
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "ISO 8573 moisture Class 3 - dew point",
@@ -133,7 +144,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
       },
-      "value": 14
+      "value": 14,
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "Refrigerated dryer typical achievable class",
@@ -142,7 +154,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
       },
-      "value": "Class 4 or 5 (dew point ~37 to 45 degF)"
+      "value": "Class 4 or 5 (dew point ~37 to 45 degF)",
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "Desiccant dryer achievable dew point",
@@ -151,7 +164,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
       },
-      "value": -40
+      "value": -40,
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "nano dryers with multi-stage filtration",
@@ -160,7 +174,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
       },
-      "value": "ISO 8573 Class 1.2.1 or better"
+      "value": "ISO 8573 Class 1.2.1 or better",
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "Class 2 typical application",
@@ -169,7 +184,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
       },
-      "value": "Instrument air in colder climates or offshore platforms"
+      "value": "Instrument air in colder climates or offshore platforms",
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "Class 1 typical application",
@@ -178,7 +194,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
       },
-      "value": "Ultra-critical electronics, cryogenics"
+      "value": "Ultra-critical electronics, cryogenics",
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     },
     {
       "metric": "Class 3 typical application",
@@ -187,7 +204,8 @@
       "source": {
         "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
       },
-      "value": "General industrial pneumatic applications"
+      "value": "General industrial pneumatic applications",
+      "source_url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance"
     }
   ],
   "url": "https://www.nano-purification.com/en-sg/resources/blog/industry-uses/oil-and-gas/instrument-air-standards-oil-gas-iso-8573-compliance",

@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. No specific model asserted.",
+  "description": "Vendor product line read 2026-11-24. No specific model asserted. Primary source: https://www.fieldcommgroup.org/technologies/hart",
   "specifications": [
     {
       "metric": "installed base",
@@ -16,7 +16,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/hart",
         "source_id": "sys-fieldcommgroup-org-hart"
       },
-      "value": 40000000
+      "value": 40000000,
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     },
     {
       "metric": "installed_device_count",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/hart"
       },
-      "value": 40000000
+      "value": 40000000,
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     },
     {
       "metric": "specification_documents",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/hart"
       },
-      "value": 17
+      "value": 17,
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     }
   ],
   "url": "https://www.fieldcommgroup.org/technologies/hart",

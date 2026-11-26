@@ -9,7 +9,7 @@
     "INS",
     "PWR"
   ],
-  "description": "Fire protection and gas detection",
+  "description": "Fire protection and gas detection Primary source: https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
   "specifications": [
     {
       "metric": "Fire protection design requirements (genset enclosure)",
@@ -19,7 +19,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "design by competent licensed professional and reviewed by Cummins; uninterruptible emergency power for critical functions; smoke and heat detection in all non-sprinkled areas; alarms monitored 24/7 at constantly attended location"
+      "value": "design by competent licensed professional and reviewed by Cummins; uninterruptible emergency power for critical functions; smoke and heat detection in all non-sprinkled areas; alarms monitored 24/7 at constantly attended location",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Minimum fire rating of enclosure boundaries",
@@ -29,7 +30,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "1"
+      "value": "1",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Fire Detection System in plant common systems",
@@ -39,7 +41,8 @@
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
         "source_id": "sys-download-se-com-files"
       },
-      "value": "listed as a common power-plant system and classified 'Non Critical' in the Schneider/Wärtsilä study (gas piping/pressure reduction, gas storage, electrical distribution, control system classified Critical)"
+      "value": "listed as a common power-plant system and classified 'Non Critical' in the Schneider/Wärtsilä study (gas piping/pressure reduction, gas storage, electrical distribution, control system classified Critical)",
+      "source_url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN"
     },
     {
       "metric": "Ventilation damper fire behaviour",
@@ -49,7 +52,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "gravity-type dampers close on actuator failure or loss of AC power, starving enclosure of air and helping extinguish fire; dampers to be used with screen"
+      "value": "gravity-type dampers close on actuator failure or loss of AC power, starving enclosure of air and helping extinguish fire; dampers to be used with screen",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     }
   ],
   "vendors": [

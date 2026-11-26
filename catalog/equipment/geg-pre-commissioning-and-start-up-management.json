@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Pre-commissioning and start-up management for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Pre-commissioning and start-up management for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
   "aliases": [
     "Pre-commissioning and start-up management"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN PrimeServ commissioning and after- — standard and advanced training duration",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN PrimeServ commissioning and after- — service centre network",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MTU used-gas-engine-oil analysis (labo — oil sampling interval, Series 4000 gas engines",
@@ -61,7 +64,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "MTU used-gas-engine-oil analysis (labo — used oil viscosity at 100 C, Series 4000 / Series 400",
@@ -73,7 +77,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "MTU used-gas-engine-oil analysis (labo — used oil total base number minimum",
@@ -85,7 +90,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "MTU used-gas-engine-oil analysis (labo — used oil water content maximum",
@@ -97,7 +103,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "MTU used-gas-engine-oil analysis (labo — wear element iron limit",
@@ -109,7 +116,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Wärtsilä Malaysia Sdn Bhd — years since Malaysia establishment",
@@ -120,7 +128,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys",
         "source_id": "geg-wartsila-com-mys-1e8ef98"
-      }
+      },
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Commissioning test programme (dry  — duration of dry commissioning test",
@@ -131,7 +140,8 @@
       "source": {
         "url": "https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf",
         "source_id": "gef-r-jina-ai-11948841-09-pdf-6c3d822"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf"
     },
     {
       "metric": "Commissioning test programme (dry  — start of dry test after commencement of construction",
@@ -141,7 +151,8 @@
       "source": {
         "url": "https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf",
         "source_id": "gef-r-jina-ai-11948841-09-pdf-6c3d822"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://openjicareport.jica.go.jp/pdf/11948841_09.pdf"
     },
     {
       "metric": "Operator training before taking ov — training as condition of taking over",
@@ -151,7 +162,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.malakoff.com.my/wp-content/uploads/2025/03/Contract-Terms-for-Works-RFQFinal.pdf",
         "source_id": "gef-r-jina-ai-contract-terms-for-works-rfqfinal-7f7aa38"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.malakoff.com.my/wp-content/uploads/2025/03/Contract-Terms-for-Works-RFQFinal.pdf"
     },
     {
       "metric": "Operator training before taking ov — MAN PrimeServ standard / advanced training course duration",
@@ -162,7 +174,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Operator training before taking ov — MAN PrimeServ expert training course duration",
@@ -173,7 +186,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Oil sample extraction point and condition",
@@ -182,7 +196,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Engine at operation temperature; extraction nozzle on oil filter housing"
+      "value": "Engine at operation temperature; extraction nozzle on oil filter housing",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used oil viscosity at 100 C - Series 4000",
@@ -191,7 +206,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 17.5 / Min. 11.5 / New oil value +30 %"
+      "value": "Max. 17.5 / Min. 11.5 / New oil value +30 %",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used oil TBN - Series 4000",
@@ -200,7 +216,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Min. 2.5 and TBN > TAN; New oil value -60 %"
+      "value": "Min. 2.5 and TBN > TAN; New oil value -60 %",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used oil TAN",
@@ -209,7 +226,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "max. new oil value +2.5"
+      "value": "max. new oil value +2.5",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used oil iph value",
@@ -218,7 +236,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Min. 4 (Series 4000) / Min. 4 (Series 400)"
+      "value": "Min. 4 (Series 4000) / Min. 4 (Series 400)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used oil water",
@@ -227,7 +246,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 0.2 (both series)"
+      "value": "Max. 0.2 (both series)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used oil glycol",
@@ -236,7 +256,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 100 (Series 4000); on request from factory (Series 400)"
+      "value": "Max. 100 (Series 4000); on request from factory (Series 400)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used oil oxidation",
@@ -245,7 +266,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 20 (S4000) / Max. 30 (S400)"
+      "value": "Max. 20 (S4000) / Max. 30 (S400)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used oil nitration",
@@ -254,7 +276,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 20 (S4000) / Max. 30 (S400)"
+      "value": "Max. 20 (S4000) / Max. 30 (S400)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Wear metals - iron",
@@ -263,7 +286,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 30 (S4000) / Max. 50 (S400)"
+      "value": "Max. 30 (S4000) / Max. 50 (S400)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Wear metals - lead",
@@ -272,7 +296,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 20 (S4000) / Max. 30 (S400)"
+      "value": "Max. 20 (S4000) / Max. 30 (S400)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Wear metals - aluminium",
@@ -281,7 +306,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 10 (S4000) / Max. 20 (S400)"
+      "value": "Max. 10 (S4000) / Max. 20 (S400)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Wear metals - copper",
@@ -290,7 +316,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 20 (first oil change max 3000 op.hrs: 50 ppm) / Max. 50"
+      "value": "Max. 20 (first oil change max 3000 op.hrs: 50 ppm) / Max. 50",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Wear metals - tin",
@@ -299,7 +326,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 5 (S4000) / Max. 15 (S400)"
+      "value": "Max. 5 (S4000) / Max. 15 (S400)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Wear metals - silicon",
@@ -308,7 +336,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Max. 15 (S4000) / Max. 10 (S400)"
+      "value": "Max. 15 (S4000) / Max. 10 (S400)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Extended oil volume wear-element reduction",
@@ -317,7 +346,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "50 % (max) of table limit value"
+      "value": "50 % (max) of table limit value",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Silicon operational value SiB limit - with catalyst / without",
@@ -326,7 +356,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "0 / < 0.01 (Series 4000) / < 0.02 (Series 400)"
+      "value": "0 / < 0.01 (Series 4000) / < 0.02 (Series 400)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Oil analysis records",
@@ -335,7 +366,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "The results of the oil analyses must be archived"
+      "value": "The results of the oil analyses must be archived",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Malaysia office established",
@@ -344,7 +376,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": 1996
+      "value": 1996,
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Local staff",
@@ -353,7 +386,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": "over 15 professionals"
+      "value": "over 15 professionals",
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Kuala Lumpur office address",
@@ -362,7 +396,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia"
+      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia",
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Kuala Lumpur phone / fax",
@@ -371,7 +406,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": "+603 2148 5072 / +603 2148 5071"
+      "value": "+603 2148 5072 / +603 2148 5071",
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Engine type",
@@ -380,7 +416,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "MAN 175D, V type, 12/16/20 cylinders, 175 mm bore"
+      "value": "MAN 175D, V type, 12/16/20 cylinders, 175 mm bore",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Engine speed",
@@ -390,7 +427,8 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
       "low": 1500,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Engine rating",
@@ -400,7 +438,8 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
       "low": 1440,
-      "high": 4400
+      "high": 4400,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Service levels",
@@ -409,7 +448,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "L1 to L5"
+      "value": "L1 to L5",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Training duration",
@@ -418,7 +458,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Four-day training for Standard and Advanced courses, and four weeks training for the Expert course"
+      "value": "Four-day training for Standard and Advanced courses, and four weeks training for the Expert course",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Service centres",
@@ -427,7 +468,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Spare parts delivery",
@@ -436,7 +478,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "high": 24
+      "high": 24,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     }
   ],
   "vendor_models": [

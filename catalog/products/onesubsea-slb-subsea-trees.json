@@ -6,7 +6,7 @@
   "equipment": [
     "wh-christmas-tree-surface-and-subsea"
   ],
-  "description": "Vendor product line read 2026-11-24. Horizontal, wellhead vertical and tubing head spool vertical trees.",
+  "description": "Vendor product line read 2026-11-24. Horizontal, wellhead vertical and tubing head spool vertical trees. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
   "specifications": [
     {
       "metric": "temperature range",
@@ -17,7 +17,8 @@
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
       "low": -18,
-      "high": 176
+      "high": 176,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "pressure",
@@ -27,7 +28,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "high": 15000
+      "high": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "production bore (wellhead vertical tree)",
@@ -37,7 +39,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
         "source_id": "cat-onesubsea-slb-com-subsea-trees"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Operating temperature range",
@@ -47,7 +50,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
       "low": -18,
-      "high": 176
+      "high": 176,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Maximum working pressure",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Production bore (wellhead vertical trees)",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Tree configurations",
@@ -73,7 +79,8 @@
       "basis": "\"Horizontal, wellhead vertical, and tubing head spool vertical trees offered\"",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
-      }
+      },
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     },
     {
       "metric": "Water depth capability",
@@ -81,7 +88,8 @@
       "basis": "\"Operate in ultra-deep waters under extreme pressures and temperatures\"; \"Full deep-water capability\" (no numeric depth printed)",
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
-      }
+      },
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees"
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",

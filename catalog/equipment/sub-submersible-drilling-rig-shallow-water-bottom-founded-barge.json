@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Floodable barge that rests on the seabed for drilling in very shallow water, often in marsh/swamp or inland waters.",
+  "description": "Floodable barge that rests on the seabed for drilling in very shallow water, often in marsh/swamp or inland waters. Primary source: https://en.wikipedia.org/wiki/Offshore_drilling",
   "specifications": [
     {
       "metric": "classification",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
         "source_id": "en-wikipedia-org-wiki-offshore-drilling"
       },
-      "value": "listed as one of the MODU types alongside jackup, semi-submersible and drillship"
+      "value": "listed as one of the MODU types alongside jackup, semi-submersible and drillship",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_drilling"
     },
     {
       "metric": "first mobile steel barges",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
         "source_id": "en-wikipedia-org-wiki-offshore-drilling"
       },
-      "value": "developed by The Texas Company (Texaco) in early 1930s for brackish coastal Gulf areas"
+      "value": "developed by The Texas Company (Texaco) in early 1930s for brackish coastal Gulf areas",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_drilling"
     }
   ],
   "vendors": [

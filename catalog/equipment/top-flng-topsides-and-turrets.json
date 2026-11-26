@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "Floating LNG facility topsides consolidate gas pretreatment, liquefaction, fractionation, utilities, accommodation, flare and offtake on a ship-shaped hull; turret mooring enables weathervaning and fluid/power transfer.",
+  "description": "Floating LNG facility topsides consolidate gas pretreatment, liquefaction, fractionation, utilities, accommodation, flare and offtake on a ship-shaped hull; turret mooring enables weathervaning and fluid/power transfer. Primary source: https://html.rhhz.net/jckxjsgw/html/51228.htm",
   "specifications": [
     {
       "metric": "South China Sea FLNG side-by-side layout",
@@ -19,7 +19,8 @@
         "url": "https://html.rhhz.net/jckxjsgw/html/51228.htm",
         "source_id": "html-rhhz-net-html-51228-htm"
       },
-      "value": "bow-to-stern: single point - flare - pretreatment - liquefaction - offloading - power/utility - living quarter"
+      "value": "bow-to-stern: single point - flare - pretreatment - liquefaction - offloading - power/utility - living quarter",
+      "source_url": "https://html.rhhz.net/jckxjsgw/html/51228.htm"
     },
     {
       "metric": "South China Sea FLNG tandem layout",
@@ -29,7 +30,8 @@
         "url": "https://html.rhhz.net/jckxjsgw/html/51228.htm",
         "source_id": "html-rhhz-net-html-51228-htm"
       },
-      "value": "bow-to-stern: living quarter - offloading - single point - power/utility - pretreatment - flare - liquefaction - tandem offloading"
+      "value": "bow-to-stern: living quarter - offloading - single point - power/utility - pretreatment - flare - liquefaction - tandem offloading",
+      "source_url": "https://html.rhhz.net/jckxjsgw/html/51228.htm"
     },
     {
       "metric": "FLNG side-by-side offloading sea state limit",
@@ -39,7 +41,8 @@
         "url": "https://html.rhhz.net/jckxjsgw/html/51228.htm",
         "source_id": "html-rhhz-net-html-51228-htm"
       },
-      "value": 2.5
+      "value": 2.5,
+      "source_url": "https://html.rhhz.net/jckxjsgw/html/51228.htm"
     },
     {
       "metric": "FLNG tandem offloading sea state limit",
@@ -49,7 +52,8 @@
         "url": "https://html.rhhz.net/jckxjsgw/html/51228.htm",
         "source_id": "html-rhhz-net-html-51228-htm"
       },
-      "value": 5.5
+      "value": 5.5,
+      "source_url": "https://html.rhhz.net/jckxjsgw/html/51228.htm"
     }
   ],
   "vendors": [

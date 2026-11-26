@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Mechanical, electrical and C&I installation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Mechanical, electrical and C&I installation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
   "aliases": [
     "Mechanical, electrical and C&I installation"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
         "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
-      }
+      },
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "Everllence 18V51/60DF and 20V35/44G ga — 18V51/60DF engine count (Kimanis)",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
         "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
-      }
+      },
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "Everllence 18V51/60DF and 20V35/44G ga — 18V51/60DF engine count (Labuan)",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
         "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
-      }
+      },
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "Everllence 18V51/60DF and 20V35/44G ga — 18V51/60DF single genset output (Kibing)",
@@ -61,7 +64,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
         "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
-      }
+      },
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "Everllence 18V51/60DF and 20V35/44G ga — Potential output, Sipitang 20V35/44G engines",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants",
         "source_id": "everllence-com-04-cumulative-240-mw-bound-for-malaysian-power-plan"
-      }
+      },
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "AC metal-enclosed MV switchgear assemb — Rated voltage range",
@@ -82,7 +87,8 @@
       "source": {
         "url": "https://webstore.iec.ch/en/publication/63466",
         "source_id": "geg-webstore-iec-ch-63466-a67c8c0"
-      }
+      },
+      "source_url": "https://webstore.iec.ch/en/publication/63466"
     },
     {
       "metric": "AC metal-enclosed MV switchgear assemb — Service frequency",
@@ -92,7 +98,8 @@
       "source": {
         "url": "https://webstore.iec.ch/en/publication/63466",
         "source_id": "geg-webstore-iec-ch-63466-a67c8c0"
-      }
+      },
+      "source_url": "https://webstore.iec.ch/en/publication/63466"
     },
     {
       "metric": "Total engines supplied to three Malaysian projects",
@@ -101,7 +108,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
       },
-      "value": 14
+      "value": 14,
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "18V51/60DF GenSet for Kibing Solar",
@@ -110,7 +118,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
       },
-      "value": "> 18"
+      "value": "> 18",
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "KAB Energy seven 18V51/60DF engines",
@@ -119,7 +128,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
       },
-      "value": "seven engines, total output 120 MW"
+      "value": "seven engines, total output 120 MW",
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "Sipitang seven 20V35/44G gas engines",
@@ -128,7 +138,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
       },
-      "value": "seven engines, potential output > 70 MW for 52 MW power plant"
+      "value": "seven engines, potential output > 70 MW for 52 MW power plant",
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "Kimanis six 18V51/60DF engines",
@@ -137,7 +148,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
       },
-      "value": "six engines, total output around 100 MW"
+      "value": "six engines, total output around 100 MW",
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "18V51/60DF dual-fuel switching",
@@ -146,7 +158,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
       },
-      "value": "seamless switching between gaseous and liquid fuels during operation"
+      "value": "seamless switching between gaseous and liquid fuels during operation",
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     },
     {
       "metric": "Sabah renewable energy target",
@@ -155,7 +168,8 @@
       "source": {
         "url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
       },
-      "value": 35
+      "value": 35,
+      "source_url": "https://www.everllence.com/company/press-releases/details/2025/12/04/cumulative-240-mw-bound-for-malaysian-power-plants"
     }
   ],
   "vendor_models": [],

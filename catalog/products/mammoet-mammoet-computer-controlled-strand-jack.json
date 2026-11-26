@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. Used with skidway; 18,000 t Dongfang case used 4 x 850 t jacks.",
+  "description": "Vendor product line read 2026-11-24. Used with skidway; 18,000 t Dongfang case used 4 x 850 t jacks. Primary source: https://www.mammoet.com/offshore/topside-load-out/",
   "specifications": [
     {
       "metric": "Capacity per unit",
@@ -16,7 +16,8 @@
         "url": "https://www.mammoet.com/offshore/topside-load-out/",
         "source_id": "mammoet-com-topside-load-out"
       },
-      "value": 1045
+      "value": 1045,
+      "source_url": "https://www.mammoet.com/offshore/topside-load-out/"
     },
     {
       "metric": "Skidding speed",
@@ -26,7 +27,8 @@
         "url": "https://www.mammoet.com/offshore/topside-load-out/",
         "source_id": "mammoet-com-topside-load-out"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.mammoet.com/offshore/topside-load-out/"
     }
   ],
   "url": "https://www.mammoet.com/offshore/topside-load-out/",

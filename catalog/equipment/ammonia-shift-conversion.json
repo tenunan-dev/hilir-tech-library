@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Shift conversion - HT/LT shift reactors and catalysts",
+  "description": "Shift conversion - HT/LT shift reactors and catalysts Primary source: https://www.topsoe.com/solutions/outputs/ammonia/ammonia-co-shift",
   "specifications": [
     {
       "metric": "Medium-temperature shift catalyst operating range",
@@ -20,7 +20,8 @@
         "source_id": "topsoe-com-ammonia-ammonia-co-shift"
       },
       "low": 190,
-      "high": 330
+      "high": 330,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-co-shift"
     },
     {
       "metric": "WGS reaction enthalpy",
@@ -30,7 +31,8 @@
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
-      "value": -41
+      "value": -41,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "Equilibrium constant K at 400 deg C (N2+3H2<=>2NH3 context table)",
@@ -40,7 +42,8 @@
         "url": "https://en.wikipedia.org/wiki/Haber_process",
         "source_id": "en-wikipedia-org-wiki-haber-process"
       },
-      "value": "16.4 x 10^-5"
+      "value": "16.4 x 10^-5",
+      "source_url": "https://en.wikipedia.org/wiki/Haber_process"
     }
   ],
   "vendors": [

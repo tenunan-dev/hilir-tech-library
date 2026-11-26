@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Normally unmanned installation with well bay, minimal facilities, remote operation and occasional visit for maintenance or well work.",
+  "description": "Normally unmanned installation with well bay, minimal facilities, remote operation and occasional visit for maintenance or well work. Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "definition of NUI",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": "small platforms consisting of little more than a well bay, helipad and emergency shelter; operated remotely under normal conditions"
+      "value": "small platforms consisting of little more than a well bay, helipad and emergency shelter; operated remotely under normal conditions",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     }
   ],
   "vendors": [

@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Shallow-draft buoyant hulls used as drilling/production/support bases; spud barges, swamp barges and deck barges can be moored or jack-up supported.",
+  "description": "Shallow-draft buoyant hulls used as drilling/production/support bases; spud barges, swamp barges and deck barges can be moored or jack-up supported. Primary source: https://en.wikipedia.org/wiki/Offshore_drilling",
   "specifications": [
     {
       "metric": "generic use",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_drilling",
         "source_id": "en-wikipedia-org-wiki-offshore-drilling"
       },
-      "value": "bottom-founded drilling rigs include jackup barges and swamp barges; MODUs include jackups, semi-submersibles, drillships and barges"
+      "value": "bottom-founded drilling rigs include jackup barges and swamp barges; MODUs include jackups, semi-submersibles, drillships and barges",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_drilling"
     },
     {
       "metric": "turbine rating, WindFloat Atlantic",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind",
         "source_id": "en-wikipedia-org-wiki-floating-offshore-wind"
       },
-      "value": 8.4
+      "value": 8.4,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
     },
     {
       "metric": "WindFloat WF1 - turbine rating",
@@ -38,7 +40,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
     },
     {
       "metric": "WindFloat WF1 - electricity produced",
@@ -47,7 +50,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
       },
-      "value": "Over 17 GWh over 5 years (2011-2016)"
+      "value": "Over 17 GWh over 5 years (2011-2016)",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
     },
     {
       "metric": "WindFloat WF1 - location",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
       },
-      "value": "About 5 km offshore of Agucadoura, Portugal; installed September 2011"
+      "value": "About 5 km offshore of Agucadoura, Portugal; installed September 2011",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
     },
     {
       "metric": "WindFloat WF1 - installation method",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
       },
-      "value": "Installed without use of heavy-lift vessels"
+      "value": "Installed without use of heavy-lift vessels",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_offshore_wind"
     }
   ],
   "vendors": [

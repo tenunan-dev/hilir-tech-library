@@ -8,7 +8,7 @@
     "MAT",
     "PWR"
   ],
-  "description": "Foundations, plinths and vibration isolation",
+  "description": "Foundations, plinths and vibration isolation Primary source: https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
   "specifications": [
     {
       "metric": "Pad levelness / flatness",
@@ -18,7 +18,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "0.25"
+      "value": "0.25",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Massive foundation ratio",
@@ -28,7 +29,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "at least 1.5"
+      "value": "at least 1.5",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Steel spring isolator damping",
@@ -38,7 +40,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "high": "98"
+      "high": "98",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Pad concrete strength and geometry",
@@ -48,7 +51,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "28-day compressive strength at least 2500 psi (17,236.89 kPa); depth at least 6 in (150 mm); extends at least 9 in (230 mm) beyond skid on all sides"
+      "value": "28-day compressive strength at least 2500 psi (17,236.89 kPa); depth at least 6 in (150 mm); extends at least 9 in (230 mm) beyond skid on all sides",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "ex-subsea-trees-christmas-trees"
   ],
-  "description": "Vendor product line read 2026-11-24. fetched",
+  "description": "Vendor product line read 2026-11-24. fetched Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
   "specifications": [
     {
       "metric": "Depth",
@@ -16,7 +16,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "Pressure",
@@ -26,7 +27,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "Temperature",
@@ -36,7 +38,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
-      "value": 175
+      "value": 175,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "water_depth_capability",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "pressure_capability",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "temperature_capability",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
       },
-      "value": 175
+      "value": 175,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "structure_types",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
       },
-      "value": "cluster manifolds with two or more well slots, pipeline-end manifolds and terminations, tie-in structures; integrated template structure (ITS) provides protected foundation for subsea trees and manifo"
+      "value": "cluster manifolds with two or more well slots, pipeline-end manifolds and terminations, tie-in structures; integrated template structure (ITS) provides protected foundation for subsea trees and manifo",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",

@@ -2,7 +2,7 @@
   "id": "soot-blower-boiler",
   "name": "Boiler soot blower and online cleaning",
   "equipment_type": "cleaning",
-  "description": "Online cleaning equipment that removes ash and soot deposits from heat-transfer surfaces to preserve efficiency, keep flue-gas temperatures within design and prevent gas-passage blockage. Saturated steam is the most widely used blowing medium because boiler-generated steam is available; SCR catalyst cleaning uses much lower steam velocity to avoid mechanical or erosive damage.",
+  "description": "Online cleaning equipment that removes ash and soot deposits from heat-transfer surfaces to preserve efficiency, keep flue-gas temperatures within design and prevent gas-passage blockage. Saturated steam is the most widely used blowing medium because boiler-generated steam is available; SCR catalyst cleaning uses much lower steam velocity to avoid mechanical or erosive damage. Primary source: https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications",
   "specifications": [
     {
       "metric": "blowing medium",
@@ -12,7 +12,8 @@
         "source_id": "bw-sootblowers"
       },
       "unit": "qualitative",
-      "value": "saturated steam"
+      "value": "saturated steam",
+      "source_url": "https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications"
     },
     {
       "metric": "SCR catalyst cleaning velocity",
@@ -22,7 +23,8 @@
         "source_id": "bw-sootblowers"
       },
       "unit": "qualitative",
-      "value": "low velocity"
+      "value": "low velocity",
+      "source_url": "https://babcock.com/home/about/resources/learning-center/sootblower-and-boiler-cleaning-terminology-principles-and-applications"
     }
   ],
   "vendors": [

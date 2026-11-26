@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Gas metering foundation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Gas metering foundation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction direct. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
   "aliases": [
     "Gas metering foundation"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
         "note": "Work package supplied by owner; not a technical source."
-      }
+      },
+      "source_url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
     }
   ],
   "vendor_models": [],

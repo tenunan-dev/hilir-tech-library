@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Tested at Deltares under simulated extreme storms/streams.",
+  "description": "Vendor product line read 2026-11-24. Tested at Deltares under simulated extreme storms/streams. Primary source: https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
   "specifications": [
     {
       "metric": "thickness",
@@ -16,7 +16,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "12-15"
+      "value": "12-15",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "diameter",
@@ -26,7 +27,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "up to 52"
+      "value": "up to 52",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     }
   ],
   "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",

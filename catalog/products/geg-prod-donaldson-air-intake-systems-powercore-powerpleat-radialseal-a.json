@@ -6,7 +6,7 @@
   "equipment": [
     "geg-intake-air-system"
   ],
-  "description": "engine air filtration system",
+  "description": "engine air filtration system Primary source: https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",
   "specifications": [
     {
       "metric": "Pre-cleaner contaminant separation efficiency, Strata™ Tubes",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",
         "source_id": "geg-donaldson-com-air-intake-systems-product-gui-8ce900e"
-      }
+      },
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-configured system manufacturing lead time",
@@ -29,7 +30,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",
         "source_id": "geg-donaldson-com-air-intake-systems-product-gui-8ce900e"
-      }
+      },
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Volumetric efficiency guideline, naturally aspirated gas engine (4-stroke)",
@@ -40,7 +42,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",
         "source_id": "geg-donaldson-com-air-intake-systems-product-gui-8ce900e"
-      }
+      },
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: Strata Cap",
@@ -49,7 +52,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 96
+      "value": 96,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: Donaspin",
@@ -58,7 +62,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: TopSpin",
@@ -67,7 +72,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: TopSpin HD",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: In-Line Separator",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: Full-View",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Strata tubes contaminant removal",
@@ -103,7 +112,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 99
+      "value": 99,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Natural airflow specific airflow (English)",
@@ -114,7 +124,8 @@
       },
       "value": 2.0,
       "low": 2.3,
-      "high": "CFM per HP"
+      "high": "CFM per HP",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "2-stroke SA values (English)",
@@ -125,7 +136,8 @@
       },
       "value": 2.0,
       "low": 3.6,
-      "high": "CFM per HP"
+      "high": "CFM per HP",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Metric specific airflow",
@@ -136,7 +148,8 @@
       },
       "value": 0.057,
       "low": 0.102,
-      "high": "m3/min per HP"
+      "high": "m3/min per HP",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Volumetric efficiency 4-stroke",
@@ -147,7 +160,8 @@
       },
       "value": 0.9,
       "low": 1.85,
-      "high": "ratio"
+      "high": "ratio",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Volumetric efficiency 2-stroke",
@@ -158,7 +172,8 @@
       },
       "value": 0.9,
       "low": 1.9,
-      "high": "ratio"
+      "high": "ratio",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-configured system lead time",
@@ -169,7 +184,8 @@
       },
       "value": 8,
       "low": 12,
-      "high": "weeks"
+      "high": "weeks",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Test cell capability",
@@ -178,7 +194,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Test cell capability",
@@ -187,7 +204,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 800
+      "value": 800,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Polymer coating life vs paint",
@@ -198,7 +216,8 @@
       },
       "value": 5,
       "low": 10,
-      "high": "times"
+      "high": "times",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Polymer coating hardness vs solvent paint",
@@ -207,7 +226,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 17
+      "value": 17,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Product guide page count",
@@ -216,7 +236,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 324
+      "value": 324,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     }
   ],
   "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",

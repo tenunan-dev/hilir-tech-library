@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Articulated pipework with swivel joints connecting shore or offshore facility to ship for transfer of oil, LNG, LPG, chemicals, high-pressure gas, CO2 and hydrogen; includes emergency release systems (ERS) and quick connect/disconnect couplers (QC/DC).",
+  "description": "Articulated pipework with swivel joints connecting shore or offshore facility to ship for transfer of oil, LNG, LPG, chemicals, high-pressure gas, CO2 and hydrogen; includes emergency release systems (ERS) and quick connect/disconnect couplers (QC/DC). Primary source: https://flowtork.com/marine-loading-arms",
   "specifications": [
     {
       "metric": "Flowtork/Technip Energies refining & petrochemical loading arm diameter",
@@ -20,7 +20,8 @@
         "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
       },
       "low": 6,
-      "high": 24
+      "high": 24,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "ATOL 20 inch full-bore product line",
@@ -30,7 +31,8 @@
         "url": "https://flowtork.com/marine-loading-arms",
         "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "Technip Energies installed base / patents / experience",
@@ -40,7 +42,8 @@
         "url": "https://www.ten.com/en/markets/loading-systems",
         "source_id": "ten-com-markets-loading-systems"
       },
-      "value": "+15,000 installed loading arms; 57 patents; 70+ years"
+      "value": "+15,000 installed loading arms; 57 patents; 70+ years",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "installed loading arms",
@@ -50,7 +53,8 @@
         "url": "https://www.ten.com/en/markets/loading-systems",
         "source_id": "ten-com-markets-loading-systems"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "patents",
@@ -60,7 +64,8 @@
         "url": "https://www.ten.com/en/markets/loading-systems",
         "source_id": "ten-com-markets-loading-systems"
       },
-      "value": 57
+      "value": 57,
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "diameter",
@@ -71,7 +76,8 @@
         "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
       },
       "low": 6,
-      "high": 24
+      "high": 24,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "design pressure",
@@ -81,7 +87,8 @@
         "url": "https://flowtork.com/marine-loading-arms",
         "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "diameter_range",
@@ -91,7 +98,8 @@
         "url": "https://flowtork.com/marine-loading-arms"
       },
       "low": 6,
-      "high": 24
+      "high": 24,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "design_pressure",
@@ -100,7 +108,8 @@
       "source": {
         "url": "https://flowtork.com/marine-loading-arms"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "LNG_transfer_size_range",
@@ -110,7 +119,8 @@
         "url": "https://flowtork.com/marine-loading-arms"
       },
       "low": 6,
-      "high": 20
+      "high": 20,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "high_pressure_gas_classes",
@@ -119,7 +129,8 @@
       "source": {
         "url": "https://flowtork.com/marine-loading-arms"
       },
-      "value": "ANSI 600 and ANSI 900 classes"
+      "value": "ANSI 600 and ANSI 900 classes",
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "rigid_LNG_line",
@@ -128,7 +139,8 @@
       "source": {
         "url": "https://flowtork.com/marine-loading-arms"
       },
-      "value": "20 inch full-bore product lines"
+      "value": "20 inch full-bore product lines",
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "Patents",
@@ -137,7 +149,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": 57
+      "value": 57,
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Experience",
@@ -146,7 +159,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "70+"
+      "value": "70+",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Installed loading arms",
@@ -155,7 +169,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "+15,000"
+      "value": "+15,000",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Employees worldwide",
@@ -164,7 +179,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Shore-to-ship product range",
@@ -173,7 +189,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "ChemConnect, GasConnect, CO2Connect by T.EN™, PrimeConnect, H2Connect"
+      "value": "ChemConnect, GasConnect, CO2Connect by T.EN™, PrimeConnect, H2Connect",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Ship-to-ship product range",
@@ -182,7 +199,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "DynaConnect, ARCOS, OLAF, ATOL"
+      "value": "DynaConnect, ARCOS, OLAF, ATOL",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "eMAX",
@@ -191,7 +209,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "eMAX Series loading arms"
+      "value": "eMAX Series loading arms",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "CO2Connect",
@@ -200,7 +219,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "world's first liquefied marine loading arm, designed to transfer CO₂ from point of capture to destination for utilization or storage"
+      "value": "world's first liquefied marine loading arm, designed to transfer CO₂ from point of capture to destination for utilization or storage",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "Transfer capability",
@@ -209,7 +229,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "fluids and gases at normal, high and very low temperatures and different operating pressures"
+      "value": "fluids and gases at normal, high and very low temperatures and different operating pressures",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     },
     {
       "metric": "History",
@@ -218,7 +239,8 @@
       "source": {
         "url": "https://www.ten.com/en/markets/loading-systems"
       },
-      "value": "supplying marine loading arms since the 1950s"
+      "value": "supplying marine loading arms since the 1950s",
+      "source_url": "https://www.ten.com/en/markets/loading-systems"
     }
   ],
   "vendors": [

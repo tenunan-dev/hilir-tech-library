@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Four-legged lattice substructure for offshore wind; pin piles or suction buckets transfer loads to seabed.",
+  "description": "Four-legged lattice substructure for offshore wind; pin piles or suction buckets transfer loads to seabed. Primary source: https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
   "specifications": [
     {
       "metric": "Changhua jacket height / weight / steel",
@@ -19,7 +19,8 @@
         "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
         "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
       },
-      "value": "60 m / >1,100 t each / >23,000 t total for 21 jackets"
+      "value": "60 m / >1,100 t each / >23,000 t total for 21 jackets",
+      "source_url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm"
     },
     {
       "metric": "transition piece maximum diameter / height",
@@ -29,7 +30,8 @@
         "url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm",
         "source_id": "jandenul-com-news-jan-de-nul-nears-completion-fabrication-foundati"
       },
-      "value": "5.40 m / 7 m"
+      "value": "5.40 m / 7 m",
+      "source_url": "https://www.jandenul.com/news/jan-de-nul-nears-completion-fabrication-foundations-taiwans-changhua-offshore-wind-farm"
     },
     {
       "metric": "Aberdeen Bay suction bucket jackets",
@@ -39,7 +41,8 @@
         "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
         "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
       },
-      "value": 11
+      "value": 11,
+      "source_url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24. fetched",
+  "description": "Vendor product line read 2026-11-24. fetched Primary source: https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
   "specifications": [
     {
       "metric": "Power",
@@ -16,7 +16,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 2.1
+      "value": 2.1,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Total installed power",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 2.1
+      "value": 2.1,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Drive/pressure-flow control",
@@ -33,7 +35,8 @@
       "basis": "'It is also fitted with sophisticated drive motors, which allows precise control of pressure and flow, giving a high degree of flexibility when undertaking workshops in varied environmental conditions'",
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
-      }
+      },
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     }
   ],
   "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",

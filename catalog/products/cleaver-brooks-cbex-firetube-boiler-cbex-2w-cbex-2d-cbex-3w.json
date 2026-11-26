@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-gas-fire-tube-package"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Includes a printed Technical Data table, brochure links (SharePoint PDFs not opened).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Includes a printed Technical Data table, brochure links (SharePoint PDFs not opened). Primary source: https://cleaverbrooks.com/product/cbex",
   "specifications": [
     {
       "metric": "Steam design pressure",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-product-cbex"
       },
       "unit": "psig",
-      "value": 300
+      "value": 300,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Hot water design pressure",
@@ -26,7 +27,8 @@
         "source_id": "cleaverbrooks-com-product-cbex"
       },
       "unit": "psig",
-      "value": 125
+      "value": 125,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Boiler horsepower range",
@@ -37,7 +39,8 @@
       },
       "unit": "HP",
       "low": 100,
-      "high": 2500
+      "high": 2500,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Input capacity",
@@ -48,7 +51,8 @@
       },
       "unit": "MBH (per Technical Data table label 'Input Capacity')",
       "low": 4000,
-      "high": 102000
+      "high": 102000,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "NOx emissions",
@@ -59,7 +63,8 @@
       },
       "unit": "ppm NOx at 3% O2",
       "low": 5,
-      "high": 9
+      "high": 9,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "CO emissions",
@@ -69,7 +74,8 @@
         "source_id": "cleaverbrooks-com-product-cbex"
       },
       "unit": "ppm (meets 10 ppm CO requirement)",
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Turndown",
@@ -79,7 +85,8 @@
         "source_id": "cleaverbrooks-com-product-cbex"
       },
       "unit": ":1",
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Number of passes",
@@ -89,7 +96,8 @@
         "source_id": "cleaverbrooks-com-product-cbex"
       },
       "unit": "passes",
-      "value": "2 or 3"
+      "value": "2 or 3",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Heat transfer enhancement",
@@ -99,7 +107,8 @@
         "source_id": "cleaverbrooks-com-product-cbex"
       },
       "unit": "% increase in heat transfer",
-      "value": 85
+      "value": 85,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Steam pressure",
@@ -108,7 +117,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "high": 300
+      "high": 300,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Hot water pressure",
@@ -117,7 +127,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "high": 125
+      "high": 125,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Boiler horsepower range",
@@ -127,7 +138,8 @@
         "url": "https://cleaverbrooks.com/product/cbex"
       },
       "low": 100,
-      "high": 2500
+      "high": 2500,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Number of passes",
@@ -136,7 +148,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "2 Pass and 3 Pass"
+      "value": "2 Pass and 3 Pass",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Fuels",
@@ -145,7 +158,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "Natural gas/propane, #2 light oil, combination"
+      "value": "Natural gas/propane, #2 light oil, combination",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "NOx",
@@ -154,7 +168,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "high": 30
+      "high": 30,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "NOx sub-5 ppm",
@@ -163,7 +178,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "high": 5
+      "high": 5,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "CO requirement",
@@ -172,7 +188,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "high": 10
+      "high": 10,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Input capacity",
@@ -182,7 +199,8 @@
         "url": "https://cleaverbrooks.com/product/cbex"
       },
       "low": 4000,
-      "high": 102000
+      "high": 102000,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "CBEX-2W boiler horsepower",
@@ -192,7 +210,8 @@
         "url": "https://cleaverbrooks.com/product/cbex"
       },
       "low": 100,
-      "high": 2500
+      "high": 2500,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "CBEX-2D boiler horsepower",
@@ -202,7 +221,8 @@
         "url": "https://cleaverbrooks.com/product/cbex"
       },
       "low": 250,
-      "high": 800
+      "high": 800,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "CBEX-3W boiler horsepower",
@@ -212,7 +232,8 @@
         "url": "https://cleaverbrooks.com/product/cbex"
       },
       "low": 250,
-      "high": 800
+      "high": 800,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "NOx by model",
@@ -221,7 +242,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "<5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)"
+      "value": "<5 (CBEX-2W 250-1200), <9 (CBEX-2D 250-800), <9 (CBEX-2W 100-2500), <9 (CBEX-3W 250-800)",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Heat transfer improvement",
@@ -230,7 +252,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     },
     {
       "metric": "Vessel design",
@@ -239,7 +262,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbex"
       },
-      "value": "Firetube"
+      "value": "Firetube",
+      "source_url": "https://cleaverbrooks.com/product/cbex"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cbex",

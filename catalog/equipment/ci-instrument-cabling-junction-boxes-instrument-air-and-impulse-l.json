@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Physical signal/power cabling, field junction boxes, pneumatic supply and impulse tubing connecting instruments to ICSS.",
+  "description": "Physical signal/power cabling, field junction boxes, pneumatic supply and impulse tubing connecting instruments to ICSS. Primary source: https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
   "specifications": [
     {
       "metric": "fieldbus wiring",
@@ -19,7 +19,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
       },
-      "value": "FOUNDATION Fieldbus uses two-wire twisted pair cable; intrinsically safe or non-incendive device power suitable for all hazardous areas"
+      "value": "FOUNDATION Fieldbus uses two-wire twisted pair cable; intrinsically safe or non-incendive device power suitable for all hazardous areas",
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "wireless vs wired installation",
@@ -31,7 +32,8 @@
       },
       "value": "No additional instrument wiring needed for WirelessHART; 30%-60% lower installation cost claimed vs adding traditional wired instruments",
       "low": 30,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "related Yokogawa components",
@@ -41,7 +43,8 @@
         "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
         "source_id": "sys-yokogawa-com"
       },
-      "value": "Valve Manifolds, Current to Pneumatic Converter, Signal Conditioners, Surge Arresters, Network Converters, Multi-Sensing Remote I/O"
+      "value": "Valve Manifolds, Current to Pneumatic Converter, Signal Conditioners, Surge Arresters, Network Converters, Multi-Sensing Remote I/O",
+      "source_url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
     }
   ],
   "vendors": [

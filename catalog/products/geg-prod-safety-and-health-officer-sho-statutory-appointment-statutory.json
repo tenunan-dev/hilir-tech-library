@@ -6,7 +6,7 @@
   "equipment": [
     "geg-health-safety-security-and-environment"
   ],
-  "description": "statutory HSSE personnel requirement",
+  "description": "statutory HSSE personnel requirement Primary source: https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
   "specifications": [
     {
       "metric": "project contract price threshold making SHO appointment mandatory for builders",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
         "source_id": "geg-dosh-gov-my-cebaa79"
-      }
+      },
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Mandatory SHO appointment threshold",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Legal basis",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "Occupational Safety and Health Act (OSHA); Occupational Safety and Health (Safety and Health Officer) Regulations"
+      "value": "Occupational Safety and Health Act (OSHA); Occupational Safety and Health (Safety and Health Officer) Regulations",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Enforcement",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "Regulation 12, Occupational Safety and Health (Safety and Health Officers) Regulations 1997 - Director General may refuse to renew registration if duties not carried out"
+      "value": "Regulation 12, Occupational Safety and Health (Safety and Health Officers) Regulations 1997 - Director General may refuse to renew registration if duties not carried out",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Performance indicators",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "leading indicators of employer commitment, legal compliance, employee involvement, and effectiveness of control measures"
+      "value": "leading indicators of employer commitment, legal compliance, employee involvement, and effectiveness of control measures",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Reporting",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "SHO fills total indicators achieved each month except Total Notices Received (items 23-25), which cover the whole project period"
+      "value": "SHO fills total indicators achieved each month except Total Notices Received (items 23-25), which cover the whole project period",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Consultation legal basis",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "Occupational Safety and Health (Safety and Health Committee) Regulations; Factories and Machinery (Building Operations and Engineering Construction Works) (Safety) Regulations"
+      "value": "Occupational Safety and Health (Safety and Health Committee) Regulations; Factories and Machinery (Building Operations and Engineering Construction Works) (Safety) Regulations",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Page updated",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "16 / 03 / 2026"
+      "value": "16 / 03 / 2026",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     }
   ],
   "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",

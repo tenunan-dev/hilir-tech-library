@@ -6,7 +6,7 @@
   "equipment": [
     "geg-two-year-operational-spares"
   ],
-  "description": "non-MAN OEM service provider presence",
+  "description": "non-MAN OEM service provider presence Primary source: https://www.wartsila.com/mys",
   "specifications": [
     {
       "metric": "professionals in Malaysia",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys",
         "source_id": "geg-wartsila-com-mys-1e8ef98"
-      }
+      },
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Local staff",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": "over 15 professionals"
+      "value": "over 15 professionals",
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Kuala Lumpur office address",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia"
+      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia",
+      "source_url": "https://www.wartsila.com/mys"
     }
   ],
   "url": "https://www.wartsila.com/mys",

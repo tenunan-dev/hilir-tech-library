@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. 25% hydrogen admixture",
+  "description": "Vendor product line read 2026-11-24. 25% hydrogen admixture Primary source: https://www.everllence.com/energy/products/gas-fuel-engines",
   "specifications": [
     {
       "metric": "Mechanical output",
@@ -16,7 +16,8 @@
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"
       },
-      "value": 20700
+      "value": 20700,
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Engine speed",
@@ -26,7 +27,8 @@
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"
       },
-      "value": "500 / 514"
+      "value": "500 / 514",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Efficiency",
@@ -36,7 +38,8 @@
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"
       },
-      "value": ">51"
+      "value": ">51",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Engine speed",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": "500 / 514"
+      "value": "500 / 514",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Frequency",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": "50 / 60"
+      "value": "50 / 60",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Maximum power",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": 20700
+      "value": 20700,
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Hydrogen admixture",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Mechanical efficiency (two-stage turbocharging)",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": "> 51"
+      "value": "> 51",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Gibraltar reference plant",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": "3 x 14V51/60G + 3 x 14V51/60DF; commercial operations 2019"
+      "value": "3 x 14V51/60G + 3 x 14V51/60DF; commercial operations 2019",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     }
   ],
   "url": "https://www.everllence.com/energy/products/gas-fuel-engines",

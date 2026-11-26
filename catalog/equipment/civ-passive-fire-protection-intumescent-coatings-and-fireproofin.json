@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Insulate structural steel, vessels, raceways and divisions from cellulosic and hydrocarbon fires to maintain load-bearing capacity for a specified rating (e.g. H-0/H-60/H-120, R30–R180, 1–4 hours).",
+  "description": "Insulate structural steel, vessels, raceways and divisions from cellulosic and hydrocarbon fires to maintain load-bearing capacity for a specified rating (e.g. H-0/H-60/H-120, R30–R180, 1–4 hours). Primary source: https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
   "specifications": [
     {
       "metric": "Carboline Thermo-Lag 3000-P/SP solids content",
@@ -19,7 +19,8 @@
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
         "source_id": "carboline-com-product-details-thermo-lag-3000-p"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "FRP fire protection",
@@ -29,7 +30,8 @@
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions",
         "source_id": "cs-nri-com-resources-frequently-asked-questions"
       },
-      "value": "Tyfo CFP coating / Tyfo RR finish"
+      "value": "Tyfo CFP coating / Tyfo RR finish",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     }
   ],
   "vendors": [

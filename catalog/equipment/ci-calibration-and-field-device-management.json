@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Configuration, calibration, proof testing and asset management of field instruments across their lifecycle.",
+  "description": "Configuration, calibration, proof testing and asset management of field instruments across their lifecycle. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/",
   "specifications": [
     {
       "metric": "tool types attested",
@@ -19,7 +19,8 @@
         "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
         "source_id": "sys-yokogawa-com"
       },
-      "value": "Pressure Calibrators, Device Smart Communicators, FieldMate, Plant Resource Manager (PRM), Field Asset Analytics (InsightSuiteAE)"
+      "value": "Pressure Calibrators, Device Smart Communicators, FieldMate, Plant Resource Manager (PRM), Field Asset Analytics (InsightSuiteAE)",
+      "source_url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
     },
     {
       "metric": "temporary masters on FOUNDATION Fieldbus",
@@ -29,7 +30,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
       },
-      "value": "handheld field communicators, laptops/tablets, documenting calibrators"
+      "value": "handheld field communicators, laptops/tablets, documenting calibrators",
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     }
   ],
   "vendors": [

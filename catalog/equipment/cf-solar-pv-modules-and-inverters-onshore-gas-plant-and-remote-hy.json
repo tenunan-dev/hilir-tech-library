@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware.",
+  "description": "Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware. Primary source: https://www.longi.com/en/products/modules/hi-mo-9/",
   "specifications": [
     {
       "metric": "LONGi Hi-MO 9 module maximum power",
@@ -19,7 +19,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 670
+      "value": 670,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "LONGi Hi-MO 9 module efficiency",
@@ -29,7 +30,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 24.8
+      "value": 24.8,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "LONGi Hi-MO 9 STC Pmax (LR7-72HYD-660M)",
@@ -39,7 +41,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 660
+      "value": 660,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "LONGi Hi-MO 9 mechanical dimensions and mass",
@@ -49,7 +52,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": "2382 x 1134 x 30"
+      "value": "2382 x 1134 x 30",
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "LONGi Hi-MO 9 mechanical load",
@@ -60,7 +64,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 2400,
-      "high": 5400
+      "high": 5400,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Sungrow product categories",
@@ -70,7 +75,8 @@
         "url": "https://en.sungrowpower.com/products",
         "source_id": "sys-en-sungrowpower-com-products"
       },
-      "value": "string inverter, modular inverter, MLPE, floating PV system, ESS, EV charger"
+      "value": "string inverter, modular inverter, MLPE, floating PV system, ESS, EV charger",
+      "source_url": "https://en.sungrowpower.com/products"
     },
     {
       "metric": "Global FPV application",
@@ -80,7 +86,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "FPV patents",
@@ -90,7 +97,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 290
+      "value": 290,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference project - Indonesia",
@@ -100,7 +108,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 192
+      "value": 192,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference project - Anhui China",
@@ -110,7 +119,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference project - Philippines",
@@ -120,7 +130,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 4.99
+      "value": 4.99,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Module power",
@@ -130,7 +141,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 670
+      "value": 670,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module efficiency",
@@ -140,7 +152,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 24.8
+      "value": 24.8,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Product warranty",
@@ -150,7 +163,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Power warranty",
@@ -160,7 +174,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Pmax STC (LR7-72HYD-635M to 660M)",
@@ -171,7 +186,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 635,
-      "high": 660
+      "high": 660,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Voc STC",
@@ -182,7 +198,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 53.5,
-      "high": 54.0
+      "high": 54.0,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Isc STC",
@@ -193,7 +210,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 15.01,
-      "high": 15.41
+      "high": 15.41,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Global floating PV application",
@@ -202,7 +220,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Patents",
@@ -211,7 +230,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 290
+      "value": 290,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Market share",
@@ -219,7 +239,8 @@
       "basis": "Counter \"NO.1 Global Market Share\"",
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
-      }
+      },
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference project capacity",
@@ -227,7 +248,8 @@
       "basis": "Cases: 192 MW Indonesia (reservoir, world's largest floating PV project at a hydroelectric power station); 200 MW Anhui Province (subsidence area, former coal mines); 4.99 MW Philippines; 5 MW France",
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
-      }
+      },
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Product lines",
@@ -235,7 +257,8 @@
       "basis": "Products for Utility Scale: TS30M (Truss Structure Product), PT60 (Pontoon Product), Floating Barge (Equipment Support System)",
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
-      }
+      },
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Service network",
@@ -243,7 +266,8 @@
       "basis": "\"400 + Authorized Distributors; 520 + Service Outlets; 1000 + Technical Experts; 110,000 m2 Warehouse total area\"",
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
-      }
+      },
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Maximum module power (headline)",
@@ -252,7 +276,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 670
+      "value": 670,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Maximum module efficiency",
@@ -261,7 +286,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 24.8
+      "value": 24.8,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Cell technology",
@@ -269,7 +295,8 @@
       "basis": "LONGi: 'HPBC 2.0 Technology — Tairay silicon wafers + HPBC 2.0 cell technology'; '0BB design on the front'; 'Soft Breakdown Design — Anti-Shading, Prevent Localized overheating'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module layout",
@@ -277,7 +304,8 @@
       "basis": "LONGi Mechanical Parameters: 'Layout 144 (6×24)'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Junction box",
@@ -285,7 +313,8 @@
       "basis": "LONGi: 'Split junction box, IP68, 3 diodes'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Weight",
@@ -294,7 +323,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 33.5
+      "value": 33.5,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module dimensions",
@@ -302,7 +332,8 @@
       "basis": "LONGi: 'Size 2382×1134×30mm'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Packaging",
@@ -310,7 +341,8 @@
       "basis": "LONGi: '36pcs./pallet; 144pcs./20GP; 720pcs./40 HC'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Pmax, LR7-72HYD-635M to 660M (STC)",
@@ -320,7 +352,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
       "low": 635,
-      "high": 660
+      "high": 660,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Open-circuit voltage Voc, 635M to 660M (STC)",
@@ -330,7 +363,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
       "low": 53.5,
-      "high": 54
+      "high": 54,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Short-circuit current Isc, 635M to 660M (STC)",
@@ -340,7 +374,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
       "low": 15.01,
-      "high": 15.41
+      "high": 15.41,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Peak power voltage Vmp, 635M to 660M (STC)",
@@ -350,7 +385,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
       "low": 44.36,
-      "high": 44.85
+      "high": 44.85,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Peak power current Imp, 635M to 660M (STC)",
@@ -360,7 +396,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
       "low": 14.32,
-      "high": 14.64
+      "high": 14.64,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "30-year linear degradation advantage",
@@ -369,7 +406,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 0.05
+      "value": 0.05,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation",
   "specifications": [
     {
       "metric": "outlet quality",
@@ -16,7 +16,8 @@
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation",
         "source_id": "specoilandgas-com-produced-water-treatment-induced-gas-flotation"
       },
-      "value": "as low as 10 ppm OIW"
+      "value": "as low as 10 ppm OIW",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
     },
     {
       "metric": "typical_outlet_quality",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
       },
-      "high": 10
+      "high": 10,
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
     },
     {
       "metric": "induction_method",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
       },
-      "value": "Differential Pressure Induction: venturi eductors induced by pressurised water from recirculation pumps; pumps and eductors sit outside the vessel for easy access"
+      "value": "Differential Pressure Induction: venturi eductors induced by pressurised water from recirculation pumps; pumps and eductors sit outside the vessel for easy access",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
     },
     {
       "metric": "sizing_inputs",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
       },
-      "value": "Produced water flow rate; Operating pressure and temperature; inlet water quality"
+      "value": "Produced water flow rate; Operating pressure and temperature; inlet water quality",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation",

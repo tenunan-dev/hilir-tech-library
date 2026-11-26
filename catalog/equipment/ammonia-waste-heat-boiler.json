@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Waste heat boilers, steam generation, economisers and superheaters | Boilers and steam system (HP/MP/LP, waste-heat and package boilers)",
+  "description": "Waste heat boilers, steam generation, economisers and superheaters | Boilers and steam system (HP/MP/LP, waste-heat and package boilers) Primary source: https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
   "specifications": [
     {
       "metric": "Ammonia-loop waste heat boiler design feature",
@@ -19,7 +19,8 @@
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
         "source_id": "topsoe-com-ammonia-synthesis"
       },
-      "value": "patented bayonet tube design keeps all low-alloy metal parts out of temperature zones where nitriding is a concern"
+      "value": "patented bayonet tube design keeps all low-alloy metal parts out of temperature zones where nitriding is a concern",
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Historical energy intensity reduction",
@@ -30,7 +31,8 @@
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
       "low": 27,
-      "high": 100
+      "high": 100,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "HP steam pressure",
@@ -40,7 +42,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "MP steam pressure",
@@ -50,7 +53,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "LP steam pressure",
@@ -60,7 +64,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Cogeneration overall thermal efficiency",
@@ -71,7 +76,8 @@
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
       "low": 70,
-      "high": 80
+      "high": 80,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Boiler types in Pusri cradle-to-gate boundary",
@@ -81,7 +87,8 @@
         "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
         "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
       },
-      "value": "package boiler; waste heat boiler; coal boiler"
+      "value": "package boiler; waste heat boiler; coal boiler",
+      "source_url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf"
     }
   ],
   "vendors": [

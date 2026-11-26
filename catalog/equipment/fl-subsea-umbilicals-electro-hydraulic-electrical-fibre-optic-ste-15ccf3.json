@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Provide the critical link between onshore/offshore hosts and subsea facilities: control, hydraulic power, chemical injection, electrical power and communications.",
+  "description": "Provide the critical link between onshore/offshore hosts and subsea facilities: control, hydraulic power, chemical injection, electrical power and communications. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals",
   "specifications": [
     {
       "metric": "Steeltube umbilical service content",
@@ -19,7 +19,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals",
         "source_id": "sys-onesubsea-slb-com-steeltube-umbilicals"
       },
-      "value": "hydraulic fluid for control; various chemical fluids for injection into flowline; electrical power; electrical- or fibre-optic signal transmission"
+      "value": "hydraulic fluid for control; various chemical fluids for injection into flowline; electrical power; electrical- or fibre-optic signal transmission",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals"
     },
     {
       "metric": "Steeltube umbilical armour / bending",
@@ -29,7 +30,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals",
         "source_id": "sys-onesubsea-slb-com-steeltube-umbilicals"
       },
-      "value": "no armour; can be bent in any direction, eliminating 'bird caging'; long lay (pitch) length with components supported within channel elements"
+      "value": "no armour; can be bent in any direction, eliminating 'bird caging'; long lay (pitch) length with components supported within channel elements",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals"
     },
     {
       "metric": "Umbilical systems track record",
@@ -39,7 +41,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
         "source_id": "sys-technipfmc-com-c36d9c"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/"
     },
     {
       "metric": "Umbilical manufacturing locations",
@@ -49,7 +52,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
         "source_id": "sys-technipfmc-com-c36d9c"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/"
     },
     {
       "metric": "Dynamic cable voltage (subsea compression power)",
@@ -59,7 +63,8 @@
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
         "source_id": "sys-nexans-com"
       },
-      "value": 145
+      "value": 145,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     }
   ],
   "vendors": [

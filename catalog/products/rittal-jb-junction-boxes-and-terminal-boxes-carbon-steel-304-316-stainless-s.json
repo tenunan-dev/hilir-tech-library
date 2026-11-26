@@ -6,7 +6,7 @@
   "equipment": [
     "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
   ],
-  "description": "Catalogue page read in full (232 variants listed). The linked JB & WM Specification Guide PDF (with UL/cUL Type 1/3R/12/4/4X and 16 ga/1.5 mm figures) was seen in search results but WebFetch returned 'Unsupported fetched file content type: application/pdf' — those figures are NOT asserted as page-read.",
+  "description": "Catalogue page read in full (232 variants listed). The linked JB & WM Specification Guide PDF (with UL/cUL Type 1/3R/12/4/4X and 16 ga/1.5 mm figures) was seen in search results but WebFetch returned 'Unsupported fetched file content type: application/pdf' — those figures are NOT asserted as page-read. Primary source: https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
   "specifications": [
     {
       "metric": "Protection category",
@@ -16,7 +16,8 @@
         "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
         "source_id": "cat-rittal-com-pg20231215sch201"
       },
-      "high": "IP66"
+      "high": "IP66",
+      "source_url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     },
     {
       "metric": "Enclosure material families",
@@ -26,7 +27,8 @@
         "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
         "source_id": "cat-rittal-com-pg20231215sch201"
       },
-      "value": "polycarbonate PK, cast aluminum GA, small enclosure KX, carbon steel, 304/316 stainless steel"
+      "value": "polycarbonate PK, cast aluminum GA, small enclosure KX, carbon steel, 304/316 stainless steel",
+      "source_url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     },
     {
       "metric": "KX E-Box dimensions",
@@ -34,7 +36,8 @@
       "basis": "'KX E-Box, WHD: 200x300x155 mm, stainless steel 1.4401, with mounting plate, single-door, with cam lock' (article 1301000)",
       "source": {
         "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
-      }
+      },
+      "source_url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     },
     {
       "metric": "KX E-Box material grade",
@@ -42,7 +45,8 @@
       "basis": "'stainless steel 1.4401'",
       "source": {
         "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
-      }
+      },
+      "source_url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     },
     {
       "metric": "KX terminal box carbon steel sizes",
@@ -50,7 +54,8 @@
       "basis": "Listed WHD: 150x150x120; 300x150x120; 200x200x120; 300x200x120; 400x200x120; 500x200x120; 600x200x120; 300x300x120; 400x300x120; 500x300x120; 600x300x120; 400x400x120; 600x400x120; 800x400x120; 150x150x80; 300x150x80; 200x200x80; 300x200x80; 400x200x80; 800x200x120; 200x150x80; 200x150x120; 300x150x120 with gland plate",
       "source": {
         "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
-      }
+      },
+      "source_url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     },
     {
       "metric": "KX terminal box construction",
@@ -58,7 +63,8 @@
       "basis": "'sheet steel, without mounting plate, with cover, without gland plate' (standard variants)",
       "source": {
         "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
-      }
+      },
+      "source_url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201"
     }
   ],
   "url": "https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",

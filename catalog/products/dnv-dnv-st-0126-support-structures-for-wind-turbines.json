@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Preview PDF linked; full text subscription.",
+  "description": "Vendor product line read 2026-11-24. Preview PDF linked; full text subscription. Primary source: https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/",
   "specifications": [
     {
       "metric": "edition",
@@ -16,7 +16,8 @@
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/",
         "source_id": "dnv-com-dnv-st-0126-support-structures-for-wind-turbines"
       },
-      "value": "2021-12"
+      "value": "2021-12",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
     },
     {
       "metric": "Document designation",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
       },
-      "value": "DNV-ST-0126"
+      "value": "DNV-ST-0126",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
     },
     {
       "metric": "Edition",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
       },
-      "value": "2021-12"
+      "value": "2021-12",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
     },
     {
       "metric": "Scope",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
       },
-      "value": "general principles and guidelines for the structural design of wind turbine support structures"
+      "value": "general principles and guidelines for the structural design of wind turbine support structures",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
     },
     {
       "metric": "Certification basis",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
       },
-      "value": "support structures subject to DNV certification"
+      "value": "support structures subject to DNV certification",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
     }
   ],
   "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/",

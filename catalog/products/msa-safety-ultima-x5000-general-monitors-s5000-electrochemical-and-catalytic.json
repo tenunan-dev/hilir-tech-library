@@ -6,7 +6,7 @@
   "equipment": [
     "ammonia-synthesis-converter"
   ],
-  "description": "Vendor product line read 2026-11-24. Dual sensor configuration available for both technologies; some models region-limited.",
+  "description": "Vendor product line read 2026-11-24. Dual sensor configuration available for both technologies; some models region-limited. Primary source: https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
   "specifications": [
     {
       "metric": "Electrochemical NH3 range",
@@ -16,7 +16,8 @@
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
-      "value": "0-100 ppm; 0-1,000 ppm"
+      "value": "0-100 ppm; 0-1,000 ppm",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Catalytic bead range",
@@ -27,7 +28,8 @@
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Catalytic bead measuring range",
@@ -38,7 +40,8 @@
       },
       "value": 0,
       "low": 100,
-      "high": "%LEL"
+      "high": "%LEL",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Catalytic bead sensor life",
@@ -47,7 +50,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Electrochemical measuring range",
@@ -58,7 +62,8 @@
       },
       "value": 0,
       "low": 100,
-      "high": "ppm"
+      "high": "ppm",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Electrochemical sensor life",
@@ -69,7 +74,8 @@
       },
       "value": 1,
       "low": 2,
-      "high": "years"
+      "high": "years",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Ammonia electrochemical sensor life",
@@ -78,7 +84,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Dual sensor configuration",
@@ -86,7 +93,8 @@
       "basis": "'Dual sensor configuration (local or remote) available with ULTIMA X5000 / General Monitors S5000 for catalytic bead and electrochemical sensors'",
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
-      }
+      },
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Ultrasonic detection range",
@@ -97,7 +105,8 @@
       },
       "value": 17,
       "low": 28,
-      "high": "m"
+      "high": "m",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Ultrasonic minimum pressure",
@@ -106,7 +115,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Open path measuring range",
@@ -117,7 +127,8 @@
       },
       "value": 0,
       "low": 15000,
-      "high": "ppm.m"
+      "high": "ppm.m",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Open path lengths",
@@ -128,7 +139,8 @@
       },
       "value": 5,
       "low": 120,
-      "high": "m"
+      "high": "m",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Photoacoustic measuring range",
@@ -139,7 +151,8 @@
       },
       "value": 0,
       "low": 1000,
-      "high": "ppm"
+      "high": "ppm",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Photoacoustic sampling points",
@@ -148,7 +161,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 16
+      "value": 16,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "UV/IR field of view",
@@ -159,7 +173,8 @@
       },
       "value": 90,
       "low": 125,
-      "high": "deg"
+      "high": "deg",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "MSIR field of view",
@@ -168,7 +183,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Optical path monitoring interval",
@@ -177,7 +193,8 @@
       "source": {
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     }
   ],
   "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",

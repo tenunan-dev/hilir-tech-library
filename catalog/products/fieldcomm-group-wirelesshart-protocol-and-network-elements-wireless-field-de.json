@@ -6,7 +6,7 @@
   "equipment": [
     "ci-wirelesshart-industrial-wireless-mesh-024e52"
   ],
-  "description": "Page read in full. Defines three network elements (wireless field devices, gateways, network manager) and four messaging modes. Registered-products subpage returned HTTP 403 to WebFetch and is not used as evidence.",
+  "description": "Page read in full. Defines three network elements (wireless field devices, gateways, network manager) and four messaging modes. Registered-products subpage returned HTTP 403 to WebFetch and is not used as evidence. Primary source: https://www.fieldcommgroup.org/technologies/wirelesshart",
   "specifications": [
     {
       "metric": "WirelessHART mesh installation cost saving vs wired instruments",
@@ -16,7 +16,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "30-60"
+      "value": "30-60",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "WirelessHART radio technology",
@@ -26,7 +27,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "self-organizing, self-healing mesh; each device can route for other devices"
+      "value": "self-organizing, self-healing mesh; each device can route for other devices",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Installation cost saving vs wired instruments",
@@ -36,7 +38,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
       "low": 30,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Network elements",
@@ -44,7 +47,8 @@
       "basis": "'Each WirelessHART network includes three main elements: Wireless field devices ... Gateways ... A Network Manager ...'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Network topology",
@@ -52,7 +56,8 @@
       "basis": "'WirelessHART using mesh networking technology. Each device in a mesh network can serve as a router for messages from other devices. ... provides redundant communication routes to increase reliability'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Messaging modes",
@@ -60,7 +65,8 @@
       "basis": "'supports multiple messaging modes including one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers of large data sets'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Specification kit size",
@@ -69,7 +75,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": 17
+      "value": 17,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     }
   ],
   "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",

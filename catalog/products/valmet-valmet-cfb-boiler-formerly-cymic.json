@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-gas-cfb"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Linked CFB brochure PDF not opened. Note: this is a solid-fuel CFB, not a gas-fired CFB; recorded against the class because no gas-fired CFB OEM spec page was found.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Linked CFB brochure PDF not opened. Note: this is a solid-fuel CFB, not a gas-fired CFB; recorded against the class because no gas-fired CFB OEM spec page was found. Primary source: https://www.valmet.com/energyproduction/cfb-boilers/",
   "specifications": [
     {
       "metric": "Boiler size range",
@@ -17,7 +17,8 @@
       },
       "unit": "MWth",
       "low": 30,
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Cyclone construction",
@@ -27,7 +28,8 @@
         "source_id": "valmet-com-energyproduction-cfb-boilers"
       },
       "unit": "construction",
-      "value": "High-efficiency cylindrical cyclones of membrane walls covered by light refractory"
+      "value": "High-efficiency cylindrical cyclones of membrane walls covered by light refractory",
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Steam parameters",
@@ -37,7 +39,8 @@
         "source_id": "valmet-com-energyproduction-cfb-boilers"
       },
       "unit": "qualitative",
-      "value": "High steam parameters without severe corrosion"
+      "value": "High steam parameters without severe corrosion",
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Low-load operation",
@@ -47,7 +50,8 @@
         "source_id": "valmet-com-energyproduction-cfb-boilers"
       },
       "unit": "operating mode",
-      "value": "Partial bed operation available"
+      "value": "Partial bed operation available",
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Fuels",
@@ -57,7 +61,8 @@
         "source_id": "valmet-com-energyproduction-cfb-boilers"
       },
       "unit": "fuel flexibility",
-      "value": "Biomass, agricultural waste streams, recovered fuels, coals, solid petrochemical residues (pet coke, asphaltene, solidified pitch), any combination"
+      "value": "Biomass, agricultural waste streams, recovered fuels, coals, solid petrochemical residues (pet coke, asphaltene, solidified pitch), any combination",
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Boiler size range",
@@ -68,7 +73,8 @@
       },
       "value": 30,
       "low": 1200,
-      "high": "MWth"
+      "high": "MWth",
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "References",
@@ -77,7 +83,8 @@
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Fuel flexibility",
@@ -85,7 +92,8 @@
       "basis": "'Biomasses, including fuels derived from agricultural waste streams; Recovered fuels; Various type of coals; Solid petrochemical residues, eg. pet coke, asphaltene, solidified pitch; Any combination of the above-mentioned fuels'",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Cyclone construction",
@@ -93,7 +101,8 @@
       "basis": "'high-efficiency cylindrical cyclones constructed of membrane walls covered by a light refractory for erosion protection. No hot expansion joints between the furnace and the cyclone are needed'",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Steam parameters",
@@ -101,7 +110,8 @@
       "basis": "'High steam parameters are possible without severe corrosion, even with recovered fuels, thanks to fluidized bed heat exchangers located in the loop seal'",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Low-load operation",
@@ -109,7 +119,8 @@
       "basis": "'innovative low-load combustion (partial bed operation) for CFB boilers'",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     }
   ],
   "url": "https://www.valmet.com/energyproduction/cfb-boilers/",

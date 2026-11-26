@@ -6,7 +6,7 @@
   "equipment": [
     "blowdown-heat-recovery"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us Steam Condensing Heat Exchanger page. Qualitatively described as an open-to-atmosphere system recovering heat from waste steam as hot water.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us Steam Condensing Heat Exchanger page. Qualitatively described as an open-to-atmosphere system recovering heat from waste steam as hot water. Primary source: https://www.tlv.com/en-us/products/heat-recovery/steam",
   "specifications": [
     {
       "metric": "Maximum operating pressure (PMO)",
@@ -16,7 +16,8 @@
         "source_id": "tlv-com-heat-recovery-steam"
       },
       "unit": "psig",
-      "value": "7"
+      "value": "7",
+      "source_url": "https://www.tlv.com/en-us/products/heat-recovery/steam"
     },
     {
       "metric": "Maximum operating temperature (TMO)",
@@ -26,7 +27,8 @@
         "source_id": "tlv-com-heat-recovery-steam"
       },
       "unit": "deg F",
-      "value": "285"
+      "value": "285",
+      "source_url": "https://www.tlv.com/en-us/products/heat-recovery/steam"
     },
     {
       "metric": "Maximum steam flow rate SR-3",
@@ -36,7 +38,8 @@
         "source_id": "tlv-com-heat-recovery-steam"
       },
       "unit": "lb/h",
-      "value": "660"
+      "value": "660",
+      "source_url": "https://www.tlv.com/en-us/products/heat-recovery/steam"
     },
     {
       "metric": "Maximum steam flow rate SR-8",
@@ -46,7 +49,8 @@
         "source_id": "tlv-com-heat-recovery-steam"
       },
       "unit": "lb/h",
-      "value": "1,760"
+      "value": "1,760",
+      "source_url": "https://www.tlv.com/en-us/products/heat-recovery/steam"
     },
     {
       "metric": "Body / heat transfer coil material",
@@ -56,7 +60,8 @@
         "source_id": "tlv-com-heat-recovery-steam"
       },
       "unit": "n/a",
-      "value": "Stainless (SUS304)"
+      "value": "Stainless (SUS304)",
+      "source_url": "https://www.tlv.com/en-us/products/heat-recovery/steam"
     }
   ],
   "url": "https://www.tlv.com/en-us/products/heat-recovery/steam",

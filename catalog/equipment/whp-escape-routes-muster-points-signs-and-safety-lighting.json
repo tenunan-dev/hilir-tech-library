@@ -8,7 +8,7 @@
     "MID",
     "HSE"
   ],
-  "description": "Arrangements that let personnel reach muster and embarkation stations: at least two widely separated means of escape, marked routes, photoluminescent strip indicators, emergency lighting, assembly/mimic plans, EEBDs and handrail strength requirements. Sources are SOLAS II-2/13, IMO MODU Code, classification and regulator pages.",
+  "description": "Arrangements that let personnel reach muster and embarkation stations: at least two widely separated means of escape, marked routes, photoluminescent strip indicators, emergency lighting, assembly/mimic plans, EEBDs and handrail strength requirements. Sources are SOLAS II-2/13, IMO MODU Code, classification and regulator pages. Primary source: https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
   "aliases": [
     "Escape routes, muster points, signs and safety lighting"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
         "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
-      }
+      },
+      "source_url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html"
     },
     {
       "metric": "Escape route marking and emergency light — Strip indicator height above deck",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
         "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
-      }
+      },
+      "source_url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html"
     },
     {
       "metric": "Escape route marking and emergency light — Maximum dead-end corridor length",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
         "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
-      }
+      },
+      "source_url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html"
     },
     {
       "metric": "Escape route marking and emergency light — Quick-release escape door force",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
         "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
-      }
+      },
+      "source_url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html"
     },
     {
       "metric": "Escape route marking and emergency light — Handrail / handhold strength",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
         "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
-      }
+      },
+      "source_url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html"
     },
     {
       "metric": "Escape route marking and emergency light — Minimum clear width of escape stairway with single escape",
@@ -76,7 +81,8 @@
       "source": {
         "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
         "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
-      }
+      },
+      "source_url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html"
     },
     {
       "metric": "Escape route marking and emergency light — Minimum EEBDs in accommodation",
@@ -86,7 +92,8 @@
       "source": {
         "url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html",
         "source_id": "whp-imorules-com-guid-fd648bb1-3991-407e-ad5e-1263aa7f3ad4-htm"
-      }
+      },
+      "source_url": "https://www.imorules.com/GUID-FD648BB1-3991-407E-AD5E-1263AA7F3AD4.html"
     },
     {
       "metric": "Reliability — General alarm test frequency (MODU)",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://www.ecfr.gov/current/title-46/section-109.301",
         "source_id": "whp-ecfr-gov-section-109-301"
-      }
+      },
+      "source_url": "https://www.ecfr.gov/current/title-46/section-109.301"
     }
   ],
   "vendor_models": [],

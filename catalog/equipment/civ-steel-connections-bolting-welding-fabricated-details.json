@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Join beams, columns, bracing and equipment supports by shop/site welding and high-strength bolting; seismic designs require predictable yield and ductility at connections.",
+  "description": "Join beams, columns, bracing and equipment supports by shop/site welding and high-strength bolting; seismic designs require predictable yield and ductility at connections. Primary source: https://americansteelandaluminum.com/resources/materials/a992-steel",
   "specifications": [
     {
       "metric": "A992 welding filler",
@@ -19,7 +19,8 @@
         "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
         "source_id": "americansteelandaluminum-com-materials-a992-steel"
       },
-      "value": "E70 series low-hydrogen"
+      "value": "E70 series low-hydrogen",
+      "source_url": "https://americansteelandaluminum.com/resources/materials/a992-steel"
     },
     {
       "metric": "Rebar welding code",
@@ -29,7 +30,8 @@
         "url": "https://www.astm.org/Standards/A615.htm",
         "source_id": "astm-org-standards-a615-htm"
       },
-      "value": "AWS D1.4/D1.4M"
+      "value": "AWS D1.4/D1.4M",
+      "source_url": "https://www.astm.org/Standards/A615.htm"
     }
   ],
   "vendors": [

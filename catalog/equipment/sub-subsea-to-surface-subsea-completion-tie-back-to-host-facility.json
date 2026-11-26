@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Subsea wells and manifolds tied back by flowlines and umbilicals to a surface host (fixed platform, FPSO, spar), avoiding a dedicated platform at the well location.",
+  "description": "Subsea wells and manifolds tied back by flowlines and umbilicals to a surface host (fixed platform, FPSO, spar), avoiding a dedicated platform at the well location. Primary source: https://en.wikipedia.org/wiki/Subsea_production_system",
   "specifications": [
     {
       "metric": "system classification",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Subsea_production_system",
         "source_id": "en-wikipedia-org-wiki-subsea-production-system"
       },
-      "value": "subsea production control system; subsea structures and manifold system; subsea intervention system; subsea umbilical system; subsea processing system"
+      "value": "subsea production control system; subsea structures and manifold system; subsea intervention system; subsea umbilical system; subsea processing system",
+      "source_url": "https://en.wikipedia.org/wiki/Subsea_production_system"
     },
     {
       "metric": "deepest tieback example",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": "Shell's Coulomb tie to NaKika, 2,307 m (7,570 ft), 2004"
+      "value": "Shell's Coulomb tie to NaKika, 2,307 m (7,570 ft), 2004",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     }
   ],
   "vendors": [

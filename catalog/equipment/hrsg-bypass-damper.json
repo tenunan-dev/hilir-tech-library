@@ -8,7 +8,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Diverter/bypass damper systems route gas-turbine exhaust either to the bypass stack (simple cycle, HRSG offline) or through the HRSG (combined cycle), with mechanically interlocked isolation and seal-air systems so personnel can enter the isolated HRSG while the turbine runs. Stack dampers slow HRSG cooling between starts, prevent rain ingress and provide overpressure relief.",
+  "description": "Diverter/bypass damper systems route gas-turbine exhaust either to the bypass stack (simple cycle, HRSG offline) or through the HRSG (combined cycle), with mechanically interlocked isolation and seal-air systems so personnel can enter the isolated HRSG while the turbine runs. Stack dampers slow HRSG cooling between starts, prevent rain ingress and provide overpressure relief. Primary source: https://www.forneycorp.com/articles/hrsg-bypass-dampers",
   "specifications": [
     {
       "metric": "Forney dual BiPlane interlock positions",
@@ -19,7 +19,8 @@
         "source_id": "forneycorp-com-articles-hrsg-bypass-dampers"
       },
       "low": 10,
-      "high": 80
+      "high": 80,
+      "source_url": "https://www.forneycorp.com/articles/hrsg-bypass-dampers"
     },
     {
       "metric": "Forney seal-air fans and allowable entry temperature",
@@ -29,7 +30,8 @@
         "url": "https://www.forneycorp.com/articles/hrsg-bypass-dampers",
         "source_id": "forneycorp-com-articles-hrsg-bypass-dampers"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.forneycorp.com/articles/hrsg-bypass-dampers"
     },
     {
       "metric": "Carbon packing temperature limit and shaft material",
@@ -39,7 +41,8 @@
         "url": "https://www.forneycorp.com/articles/hrsg-bypass-dampers",
         "source_id": "forneycorp-com-articles-hrsg-bypass-dampers"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.forneycorp.com/articles/hrsg-bypass-dampers"
     },
     {
       "metric": "Configuration",
@@ -49,7 +52,8 @@
         "source_id": "forneycorp-com-products-hrsg-bypass-dampers"
       },
       "unit": "n/a",
-      "value": "two BiPlane Dampers - one on HRSG inlet, one isolating the stack"
+      "value": "two BiPlane Dampers - one on HRSG inlet, one isolating the stack",
+      "source_url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
     },
     {
       "metric": "Safety interlock",
@@ -59,7 +63,8 @@
         "source_id": "forneycorp-com-products-hrsg-bypass-dampers"
       },
       "unit": "n/a",
-      "value": "mechanical interlock prevents both dampers closing at the same time; allows both open"
+      "value": "mechanical interlock prevents both dampers closing at the same time; allows both open",
+      "source_url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
     },
     {
       "metric": "Sealing",
@@ -69,7 +74,8 @@
         "source_id": "forneycorp-com-products-hrsg-bypass-dampers"
       },
       "unit": "n/a",
-      "value": "dual set of seals; seal air system interlocked if pressure falls indicating a leak"
+      "value": "dual set of seals; seal air system interlocked if pressure falls indicating a leak",
+      "source_url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
     },
     {
       "metric": "Claimed advantages",
@@ -79,7 +85,8 @@
         "source_id": "forneycorp-com-products-hrsg-bypass-dampers"
       },
       "unit": "n/a",
-      "value": "soft start flow distribution; control capability; reduced time to open; eliminates guillotine damper; smaller actuators"
+      "value": "soft start flow distribution; control capability; reduced time to open; eliminates guillotine damper; smaller actuators",
+      "source_url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
     },
     {
       "metric": "Independent actuation",
@@ -89,7 +96,8 @@
         "source_id": "forneycorp-com-products-hrsg-bypass-dampers"
       },
       "unit": "n/a",
-      "value": "independent actuator on each damper"
+      "value": "independent actuator on each damper",
+      "source_url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
     },
     {
       "metric": "Damper configuration",
@@ -98,7 +106,8 @@
       "source": {
         "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
     },
     {
       "metric": "Actuation",
@@ -106,7 +115,8 @@
       "basis": "\"The two BiPlane Dampers allow for soft start and better control capabilities with an independent actuator on each damper\"",
       "source": {
         "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
     },
     {
       "metric": "Safety interlocks",
@@ -114,7 +124,8 @@
       "basis": "\"Mechanical interlock – Prevents both Dampers from closing at the same time – Allows both to be open at the same time\"; \"Dual set of seals – two layers of protection\"; \"Seal air system – interlocked if pressure falls indicating a leak\"",
       "source": {
         "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
     },
     {
       "metric": "Benefits",
@@ -122,7 +133,8 @@
       "basis": "\"Better: Soft start flow distribution, Control capability, Safety, Sealing performance; Faster: Reduced time to open; Cheaper: Eliminate the need for the Guillotine Damper, Smaller actuators\"",
       "source": {
         "url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/hrsg-bypass-dampers"
     }
   ],
   "vendors": [

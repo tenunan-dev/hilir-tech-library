@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Drag conveyors / tubular drag conveyors",
+  "description": "Drag conveyors / tubular drag conveyors Primary source: https://en.wikipedia.org/wiki/Bulk_material_handling",
   "specifications": [
     {
       "metric": "equipment class",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Bulk_material_handling",
         "source_id": "en-wikipedia-org-wiki-bulk-material-handling"
       },
-      "value": "tubular drag conveyors listed among stationary bulk handling systems"
+      "value": "tubular drag conveyors listed among stationary bulk handling systems",
+      "source_url": "https://en.wikipedia.org/wiki/Bulk_material_handling"
     }
   ],
   "vendors": [

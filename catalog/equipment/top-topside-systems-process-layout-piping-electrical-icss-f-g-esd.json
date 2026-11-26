@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "The distributed systems carried by the topside structure: process equipment and pipe racks; power generation/distribution and control; fire & gas and emergency shutdown; heating/ventilation/air conditioning; material-handling cranes; escape/lifesaving; helicopter decks; and inter-platform bridges.",
+  "description": "The distributed systems carried by the topside structure: process equipment and pipe racks; power generation/distribution and control; fire & gas and emergency shutdown; heating/ventilation/air conditioning; material-handling cranes; escape/lifesaving; helicopter decks; and inter-platform bridges. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
   "specifications": [
     {
       "metric": "helideck location requirement",
@@ -19,7 +19,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": "near living quarters; usually on obstacle-free area on top of living quarters"
+      "value": "near living quarters; usually on obstacle-free area on top of living quarters",
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "deck crane siting",
@@ -29,7 +30,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": "outside helideck obstacle-free area; maximum deck coverage; operator eye contact with load and supply vessel"
+      "value": "outside helideck obstacle-free area; maximum deck coverage; operator eye contact with load and supply vessel",
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "pipe rack arrangement",
@@ -39,7 +41,8 @@
         "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
         "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
       },
-      "value": "central longitudinal pipe rack with process/utility modules on either side"
+      "value": "central longitudinal pipe rack with process/utility modules on either side",
+      "source_url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design"
     },
     {
       "metric": "electrical building strategy",
@@ -49,7 +52,8 @@
         "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
         "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
       },
-      "value": "main electrical building aft plus auxiliary electrical building forward"
+      "value": "main electrical building aft plus auxiliary electrical building forward",
+      "source_url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design"
     },
     {
       "metric": "FPSO process optimisation example module count and weight saving",
@@ -59,7 +63,8 @@
         "url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design",
         "source_id": "oedigital-com-news-459607-how-best-practices-optimize-topsides-des"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.oedigital.com/news/459607-how-best-practices-optimize-topsides-design"
     },
     {
       "metric": "escapeway width criterion",
@@ -69,7 +74,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": "sufficient to allow evacuation of personnel on stretchers"
+      "value": "sufficient to allow evacuation of personnel on stretchers",
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     }
   ],
   "vendors": [

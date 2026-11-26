@@ -6,7 +6,7 @@
   "equipment": [
     "geg-low-voltage-switchgear"
   ],
-  "description": "low-voltage switchgear assembly / MCC",
+  "description": "low-voltage switchgear assembly / MCC Primary source: https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
   "specifications": [
     {
       "metric": "Main busbar rated current",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Rated peak withstand current",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Rated short-time withstand current",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Frame height / degree of protection",
@@ -49,7 +52,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Circuit breaker design rated current",
@@ -60,7 +64,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Standard",
@@ -69,7 +74,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "IEC 61439-1 / IEC 61439-2"
+      "value": "IEC 61439-1 / IEC 61439-2",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Main busbar rated current",
@@ -78,7 +84,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 7000
+      "high": 7000,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Rated impulse withstand current",
@@ -87,7 +94,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 330
+      "high": 330,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Rated short-time withstand current",
@@ -96,7 +104,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 150
+      "high": 150,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Frame height",
@@ -105,7 +114,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "2,000 / 2,200"
+      "value": "2,000 / 2,200",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Base height add-on",
@@ -114,7 +124,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "100 / 200"
+      "value": "100 / 200",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Degree of protection",
@@ -123,7 +134,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "IP30, IP31, IP40, IP41, IP42, IP54"
+      "value": "IP30, IP31, IP40, IP41, IP42, IP54",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Branch busbar rated current",
@@ -132,7 +144,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 6300
+      "high": 6300,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Single withdrawable unit rating",
@@ -141,7 +154,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 630
+      "high": 630,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Small withdrawable units per section",
@@ -150,7 +164,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 48
+      "high": 48,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Capacitor compensation",
@@ -159,7 +174,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 600
+      "high": 600,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Arc fault test",
@@ -168,7 +184,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "IEC 61641"
+      "value": "IEC 61641",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Door opening angle",
@@ -177,7 +194,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "125° / 180° with stand-alone design"
+      "value": "125° / 180° with stand-alone design",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     }
   ],
   "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",

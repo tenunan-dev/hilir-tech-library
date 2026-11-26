@@ -6,7 +6,7 @@
   "sector_codes": [
     "WWT"
   ],
-  "description": "Corona-discharge ozone generation on oxygen feed with side-stream injection for micropollutant control and disinfection.",
+  "description": "Corona-discharge ozone generation on oxygen feed with side-stream injection for micropollutant control and disinfection. Primary source: https://www.xylem.com/",
   "subtypes": [
     {
       "name": "medium-frequency tube generators"
@@ -29,7 +29,8 @@
       "source": {
         "url": "https://www.xylem.com/",
         "note": "Wedeco pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.xylem.com/"
     }
   ],
   "vendor_models": [

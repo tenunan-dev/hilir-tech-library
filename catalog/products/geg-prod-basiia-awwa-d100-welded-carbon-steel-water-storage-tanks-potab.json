@@ -6,7 +6,7 @@
   "equipment": [
     "geg-water-storage-tank-system"
   ],
-  "description": "atmospheric steel water storage tank, EPC scope",
+  "description": "atmospheric steel water storage tank, EPC scope Primary source: https://basiia.com/products/api-650-tanks",
   "specifications": [
     {
       "metric": "applicable standard",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://basiia.com/products/api-650-tanks",
         "source_id": "geg-basiia-com-api-650-tanks-28cf110"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "potable water contact lining",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://basiia.com/products/api-650-tanks",
         "source_id": "geg-basiia-com-api-650-tanks-28cf110"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "service scope",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://basiia.com/products/api-650-tanks",
         "source_id": "geg-basiia-com-api-650-tanks-28cf110"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "Applicable standards",
@@ -44,7 +47,8 @@
       "basis": "Applicable Standards listed: API 650, API 620, API 653, AWWA D100 (Welded Carbon Steel Tanks for Water Storage), NSF/ANSI 61 (Potable Water Contact), ASME B16.5, NFPA 30, ISO 9001",
       "source": {
         "url": "https://basiia.com/products/api-650-tanks"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "AWWA D100 tank construction",
@@ -52,7 +56,8 @@
       "basis": "\"Welded carbon steel tanks to AWWA D100 for potable water, fire suppression, and industrial water storage — including NSF/ANSI 61 lining systems where potable water contact is required\"",
       "source": {
         "url": "https://basiia.com/products/api-650-tanks"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "AWWA D100 services",
@@ -60,7 +65,8 @@
       "basis": "\"Potable water, fire water, and municipal water storage (AWWA D100)\"",
       "source": {
         "url": "https://basiia.com/products/api-650-tanks"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "Roof configurations",
@@ -68,7 +74,8 @@
       "basis": "\"Fixed cone, external floating roof (EFR), and internal floating roof (IFR) configurations engineered to product vapour pressure, site conditions, and environmental requirements\"",
       "source": {
         "url": "https://basiia.com/products/api-650-tanks"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "Inspection and testing",
@@ -76,7 +83,8 @@
       "basis": "\"Hydrostatic testing, weld inspection, NDE, and third-party verification in accordance with the applicable standard (API 650, API 620, or AWWA D100)\"",
       "source": {
         "url": "https://basiia.com/products/api-650-tanks"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     }
   ],
   "url": "https://basiia.com/products/api-650-tanks",

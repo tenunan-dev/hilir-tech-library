@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Offshore telecom combines terrestrial two-way radio (VHF/UHF, DMR/P25), satellite voice and VSAT broadband, safety-critical public address/general alarm, CCTV and cyber-secured links back to shore.",
+  "description": "Offshore telecom combines terrestrial two-way radio (VHF/UHF, DMR/P25), satellite voice and VSAT broadband, safety-critical public address/general alarm, CCTV and cyber-secured links back to shore. Primary source: https://vmdsolutions.net/offshore-2",
   "aliases": [
     "Platform telecom: VHF/UHF radio, satellite communication (VSAT), PA/GA system, CCTV"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://vmdsolutions.net/offshore-2",
         "source_id": "whp-vmdsolutions-net-offshore-2"
-      }
+      },
+      "source_url": "https://vmdsolutions.net/offshore-2"
     }
   ],
   "vendor_models": [],

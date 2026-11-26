@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Health, safety, security and environment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Health, safety, security and environment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
   "aliases": [
     "Health, safety, security and environment"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/",
         "source_id": "geg-dosh-gov-my-cebaa79"
-      }
+      },
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Safety and Health Officer / safety — maximum fine for contravention of Act 514 sections 15-18B",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
         "source_id": "geg-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf"
     },
     {
       "metric": "Safety and Health Officer / safety — contract price threshold requiring a Safety and Health Officer",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf",
         "source_id": "gef-r-jina-ai-guidelines-for-public-safety-and-h-8861d53"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf"
     },
     {
       "metric": "Safety and Health Officer / safety — worker count triggering a safety and health committee",
@@ -61,7 +64,8 @@
       "source": {
         "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf",
         "source_id": "gef-r-jina-ai-guidelines-for-public-safety-and-h-8861d53"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf"
     },
     {
       "metric": "Safety and Health Officer / safety — principal's duty to allocate time, budget and resources for safety",
@@ -71,7 +75,8 @@
       "source": {
         "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf",
         "source_id": "geg-r-jina-ai-act-514-reprint-version-1-6-2024-e-1968ed4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2025/03/Act-514-Reprint-Version-1.6.2024_English.pdf"
     },
     {
       "metric": "Environmental Impact Assessment fo — capacity threshold for prescribed fossil-fuel steam power station",
@@ -82,7 +87,8 @@
       "source": {
         "url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf",
         "source_id": "geg-r-jina-ai-perintah-kualiti-alam-sekeliling-a-1d5ada5"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf"
     },
     {
       "metric": "Environmental Impact Assessment fo — Sabah application of the EIA Order",
@@ -92,7 +98,8 @@
       "source": {
         "url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf",
         "source_id": "geg-r-jina-ai-perintah-kualiti-alam-sekeliling-a-1d5ada5"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://eswis.doe.gov.my/helpDocs/No.4%20-%202015/Perintah-Kualiti-Alam-Sekeliling-Aktiviti-Yang-Ditetapkan-Eia-2015_EN.pdf"
     },
     {
       "metric": "Environmental Impact Assessment fo — site hoarding minimum height (public safety)",
@@ -103,7 +110,8 @@
       "source": {
         "url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf",
         "source_id": "gef-r-jina-ai-guidelines-for-public-safety-and-h-8861d53"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://dosh.gov.my/wp-content/uploads/2024/10/Guidelines-for-Public-Safety-and-Health-at-Construction-Sites-2007.pdf"
     },
     {
       "metric": "Mandatory SHO appointment threshold",
@@ -112,7 +120,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Legal basis",
@@ -121,7 +130,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "Occupational Safety and Health Act (OSHA); Occupational Safety and Health (Safety and Health Officer) Regulations"
+      "value": "Occupational Safety and Health Act (OSHA); Occupational Safety and Health (Safety and Health Officer) Regulations",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Enforcement",
@@ -130,7 +140,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "Regulation 12, Occupational Safety and Health (Safety and Health Officers) Regulations 1997 - Director General may refuse to renew registration if duties not carried out"
+      "value": "Regulation 12, Occupational Safety and Health (Safety and Health Officers) Regulations 1997 - Director General may refuse to renew registration if duties not carried out",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Performance indicators",
@@ -139,7 +150,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "leading indicators of employer commitment, legal compliance, employee involvement, and effectiveness of control measures"
+      "value": "leading indicators of employer commitment, legal compliance, employee involvement, and effectiveness of control measures",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Reporting",
@@ -148,7 +160,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "SHO fills total indicators achieved each month except Total Notices Received (items 23-25), which cover the whole project period"
+      "value": "SHO fills total indicators achieved each month except Total Notices Received (items 23-25), which cover the whole project period",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Consultation legal basis",
@@ -157,7 +170,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "Occupational Safety and Health (Safety and Health Committee) Regulations; Factories and Machinery (Building Operations and Engineering Construction Works) (Safety) Regulations"
+      "value": "Occupational Safety and Health (Safety and Health Committee) Regulations; Factories and Machinery (Building Operations and Engineering Construction Works) (Safety) Regulations",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     },
     {
       "metric": "Page updated",
@@ -166,7 +180,8 @@
       "source": {
         "url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
       },
-      "value": "16 / 03 / 2026"
+      "value": "16 / 03 / 2026",
+      "source_url": "https://dosh.gov.my/en/keselamatan-tapak-bina/petunjuk-prestasi-sho/"
     }
   ],
   "vendor_models": [

@@ -2,7 +2,7 @@
   "id": "boiler-gas-water-tube-package",
   "name": "Gas-fired industrial water-tube package boiler",
   "equipment_type": "boiler",
-  "description": "Shop-assembled water-tube boiler with water inside the tubes and combustion gas outside, served by a steam drum and mud drum with downcomers and risers and a finned membrane furnace wall. Natural circulation and the separation of steam and water from the heated circuit allow much higher pressures and outputs than a shell boiler, and the design can fire natural gas, refinery gas or dual fuel.",
+  "description": "Shop-assembled water-tube boiler with water inside the tubes and combustion gas outside, served by a steam drum and mud drum with downcomers and risers and a finned membrane furnace wall. Natural circulation and the separation of steam and water from the heated circuit allow much higher pressures and outputs than a shell boiler, and the design can fire natural gas, refinery gas or dual fuel. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
   "specifications": [
     {
       "metric": "steam output, power-station class",
@@ -12,7 +12,8 @@
         "source_id": "spirax-water-tube-boilers"
       },
       "unit": "kg/s",
-      "value": 500
+      "value": 500,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB"
     },
     {
       "metric": "design pressure, power-station class",
@@ -22,7 +23,8 @@
         "source_id": "spirax-water-tube-boilers"
       },
       "unit": "bar",
-      "value": 160
+      "value": 160,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB"
     },
     {
       "metric": "superheated steam temperature",
@@ -32,7 +34,8 @@
         "source_id": "spirax-water-tube-boilers"
       },
       "unit": "degC",
-      "value": 550
+      "value": 550,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB"
     },
     {
       "metric": "capacity range of alternative water-tube layouts",
@@ -43,7 +46,8 @@
       },
       "unit": "kg/h",
       "low": 5000,
-      "high": 180000
+      "high": 180000,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB"
     },
     {
       "metric": "B&W industrial water-tube package capacity",
@@ -53,7 +57,8 @@
       },
       "unit": "lb/h",
       "low": 10000,
-      "high": 1200000
+      "high": 1200000,
+      "source_url": "https://www.babcock.com/home/products/package-boilers"
     },
     {
       "metric": "NOx, ultra-low-NOx gas burner",
@@ -63,7 +68,8 @@
         "source_id": "miura-lx"
       },
       "unit": "ppm at 3% O2",
-      "value": 9
+      "value": 9,
+      "source_url": "https://miuraboiler.ca/product/lx-steam-boiler"
     },
     {
       "metric": "fuel-to-steam efficiency",
@@ -74,7 +80,8 @@
       },
       "unit": "%",
       "low": 85,
-      "high": 87
+      "high": 87,
+      "source_url": "https://miuraboiler.com/why-you-need-an-ultra-low-nox-steam-boiler/"
     },
     {
       "metric": "Input capacity",
@@ -85,7 +92,8 @@
       },
       "unit": "MBH",
       "low": 2000,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Design pressure (steam)",
@@ -96,7 +104,8 @@
       },
       "unit": "psig",
       "low": 15,
-      "high": 500
+      "high": 500,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Design pressure (hot water)",
@@ -107,7 +116,8 @@
       },
       "unit": "psig",
       "low": 160,
-      "high": 250
+      "high": 250,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Boiler horsepower",
@@ -118,7 +128,8 @@
       },
       "unit": "HP",
       "low": 48,
-      "high": 143
+      "high": 143,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "NOx emissions",
@@ -128,7 +139,8 @@
         "source_id": "cleaverbrooks-com-product-m5m"
       },
       "unit": "ppm NOx (less than; standard, without FGR)",
-      "value": 20
+      "value": 20,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Turndown",
@@ -138,7 +150,8 @@
         "source_id": "cleaverbrooks-com-product-m5m"
       },
       "unit": ":1 (up to)",
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Design temperature options",
@@ -148,7 +161,8 @@
         "source_id": "cleaverbrooks-com-product-m5m"
       },
       "unit": "deg F",
-      "value": "235, 340, 355, 380, 410"
+      "value": "235, 340, 355, 380, 410",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Input capacity",
@@ -159,7 +173,8 @@
       },
       "unit": "MBH",
       "low": 1500,
-      "high": 25000
+      "high": 25000,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "Design pressure",
@@ -170,7 +185,8 @@
       },
       "unit": "psig",
       "low": 15,
-      "high": 250
+      "high": 250,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "Boiler horsepower",
@@ -181,7 +197,8 @@
       },
       "unit": "HP",
       "low": 36,
-      "high": 600
+      "high": 600,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "Thermal efficiency",
@@ -192,7 +209,8 @@
       },
       "unit": "%",
       "low": 81,
-      "high": 85
+      "high": 85,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "NOx emissions",
@@ -202,7 +220,8 @@
         "source_id": "cleaverbrooks-com-product-flx"
       },
       "unit": "ppm NOx (option, less than)",
-      "value": 9
+      "value": 9,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "steam_flows",
@@ -212,7 +231,8 @@
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
       "low": 10000,
-      "high": 225000
+      "high": 225000,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "steam_pressure",
@@ -222,7 +242,8 @@
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
       "low": 100,
-      "high": 550
+      "high": 550,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "steam_temperature",
@@ -231,7 +252,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Saturated"
+      "value": "Saturated",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "NOx_emissions",
@@ -240,7 +262,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "high": 9
+      "high": 9,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "NOx_with_ultra_low_burner_and_SCR",
@@ -249,7 +272,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "high": 2
+      "high": 2,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "boiler_efficiency_option Gain",
@@ -258,7 +282,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "fuels",
@@ -267,7 +292,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Natural Gas, Propane, Digester, #2 Light Oil"
+      "value": "Natural Gas, Propane, Digester, #2 Light Oil",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "boiler_style",
@@ -276,7 +302,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "D-type, O-type"
+      "value": "D-type, O-type",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "assembly",
@@ -285,7 +312,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Shop Assembled"
+      "value": "Shop Assembled",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "circulation",
@@ -294,7 +322,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Natural Circulation"
+      "value": "Natural Circulation",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "construction",
@@ -303,7 +332,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Membrane Wall Construction"
+      "value": "Membrane Wall Construction",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "delivery_time_reduction",
@@ -312,7 +342,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "high": 12
+      "high": 12,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "applications",
@@ -321,7 +352,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Process Steam, Industrial Process, Building Heat, Institutional, Hospital and Healthcare, Pharmaceutical, Pulp and Paper"
+      "value": "Process Steam, Industrial Process, Building Heat, Institutional, Hospital and Healthcare, Pharmaceutical, Pulp and Paper",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "FLX - input capacity",
@@ -331,7 +363,8 @@
         "url": "https://cleaverbrooks.com/product/flx"
       },
       "low": 1500,
-      "high": 25000
+      "high": 25000,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - boiler horsepower",
@@ -341,7 +374,8 @@
         "url": "https://cleaverbrooks.com/product/flx"
       },
       "low": 36,
-      "high": 600
+      "high": 600,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - design pressure",
@@ -351,7 +385,8 @@
         "url": "https://cleaverbrooks.com/product/flx"
       },
       "low": 15,
-      "high": 250
+      "high": 250,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - thermal efficiency",
@@ -360,7 +395,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": 81
+      "value": 81,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - number of passes",
@@ -369,7 +405,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - NOx emissions options",
@@ -378,7 +415,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": "Standard, <30, <20, <9 ppm"
+      "value": "Standard, <30, <20, <9 ppm",
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - turndown",
@@ -387,7 +425,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": "Up to 15:1 (standard emissions); 10:1 (controlled emissions)"
+      "value": "Up to 15:1 (standard emissions); 10:1 (controlled emissions)",
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - steam or hot water",
@@ -396,7 +435,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": "Both"
+      "value": "Both",
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - fuels",
@@ -405,7 +445,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": "Natural Gas, #2 Light Oil, Propane, Digester Gas, Combination Firing"
+      "value": "Natural Gas, #2 Light Oil, Propane, Digester Gas, Combination Firing",
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "Input",
@@ -415,7 +456,8 @@
         "url": "https://cleaverbrooks.com/product/m5m"
       },
       "low": 2000,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Fuel",
@@ -424,7 +466,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "Natural Gas, Propane"
+      "value": "Natural Gas, Propane",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Design temperature",
@@ -433,7 +476,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "235, 340, 355, 380, 410"
+      "value": "235, 340, 355, 380, 410",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "NOx",
@@ -442,7 +486,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "<20"
+      "value": "<20",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "CO",
@@ -451,7 +496,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "<10"
+      "value": "<10",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Number of passes",
@@ -460,7 +506,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Steam or hot water",
@@ -469,7 +516,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "Both"
+      "value": "Both",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Vessel design",
@@ -478,7 +526,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "Watertube (membrane wall)"
+      "value": "Watertube (membrane wall)",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Floor space reduction",
@@ -487,7 +536,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Weight savings",
@@ -496,7 +546,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     },
     {
       "metric": "Burner technology",
@@ -505,7 +556,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/m5m"
       },
-      "value": "Premix burner technology, linkageless"
+      "value": "Premix burner technology, linkageless",
+      "source_url": "https://cleaverbrooks.com/product/m5m"
     }
   ],
   "vendors": [

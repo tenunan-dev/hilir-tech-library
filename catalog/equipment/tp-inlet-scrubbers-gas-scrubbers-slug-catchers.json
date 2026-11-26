@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Remove free liquid and solids from gas entering a treatment facility before additional processing; protect compressors and downstream equipment.",
+  "description": "Remove free liquid and solids from gas entering a treatment facility before additional processing; protect compressors and downstream equipment. Primary source: https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
   "specifications": [
     {
       "metric": "Gas filter separator standard design pressure",
@@ -19,7 +19,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
         "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
       },
-      "value": "1440"
+      "value": "1440",
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     }
   ],
   "vendors": [

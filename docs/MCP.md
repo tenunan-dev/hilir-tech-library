@@ -137,8 +137,11 @@ acquired (Motivair → Schneider Electric, LiquidStack → Trane, LEGRAND owns R
 Technology/Starline), and a brand named on a card may resolve to a parent record through `aliases`.
 
 **`list_equipment(equipment_type=None, query=None)`** / **`get_equipment(equipment_id)`**
-Equipment classes with specification ranges (each with basis and source), vendor model lines, the
-cards that use the class, and gaps.
+Equipment classes with specification ranges (each with basis and `source.url`), vendor model lines,
+the cards that use the class, and gaps. Listing rows and equipment search hits carry `source_urls`:
+the original OEM datasheet/catalogue pages for that class. Open those URLs as primary sources when
+quoting a limit; a parameter's `basis` states the printed qualifier and `source.url` is the page it
+came from.
 
 **`list_projects(status=None, sector=None, country=None, query=None)`** / **`get_project(project_id)`**
 Named plants and projects: `status` (proposed, FID, under-construction, commissioning, operating,
@@ -152,9 +155,17 @@ thing seen from two sides.
 ### Product catalog and process drawings
 
 **`list_products(product_type=None, manufacturer=None, query=None)`** / **`get_product(product_id)`**
-Vendor product lines with the specifications printed on the manufacturer's own page. `product_type`
-is an equipment type (call with no arguments to see them); `manufacturer` is a vendor id. Every
-figure carries a `basis` and the URL it was read from; unknowns are gaps, never estimates.
+Vendor product lines with **every parameter printed on the manufacturer's catalogue/datasheet**.
+`product_type` is an equipment type (call with no arguments to see them); `manufacturer` is a vendor
+id. Each listing row returns `url` (the primary OEM catalogue link) and `source_urls` (all original
+datasheets cited by its specifications); product search hits carry the same fields. `get_product`
+returns every parameter with `metric`, `value`/`low`/`high`, `unit`, the exact printed `basis`, and
+`source_url` — the original OEM catalogue/datasheet page that figure came from. The record's
+`description` ends with `Primary source: <url>`. Quote that URL and the basis together, and open the
+URL to re-check before reuse; a parameter without `source_url` is unsourced and should be reported
+as a gap, not guessed. Values printed in two variants (e.g. 50 Hz and 60 Hz, or
+conflicting sources) are recorded as separate specs, not reconciled. Unknowns are gaps, never
+estimates.
 
 **`list_drawings(diagram_type=None, sector=None, query=None)`** / **`get_drawing(drawing_id)`**
 Citable PFDs, P&IDs, schematics and flowsheets. Each record says what the diagram shows, who

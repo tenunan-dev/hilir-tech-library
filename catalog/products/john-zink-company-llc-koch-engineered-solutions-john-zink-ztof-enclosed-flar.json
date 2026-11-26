@@ -6,7 +6,7 @@
   "equipment": [
     "cf-flare-stack-boom-system-with-knockout-drum-seal-drum-flare-tip"
   ],
-  "description": "Field-proven since the 1970s; handles high and low pressure streams simultaneously; mobile configurations available. Related page text states near-zero CO emissions and NOx as low as 3-4 ppm for ZBRID/ZULE biogas equipment (not for this ZTOF unit).",
+  "description": "Field-proven since the 1970s; handles high and low pressure streams simultaneously; mobile configurations available. Related page text states near-zero CO emissions and NOx as low as 3-4 ppm for ZBRID/ZULE biogas equipment (not for this ZTOF unit). Primary source: https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
   "specifications": [
     {
       "metric": "Destruction rate efficiency",
@@ -16,7 +16,8 @@
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
         "source_id": "cat-johnzink-com-ztof-enclosed-flare"
       },
-      "value": ">98"
+      "value": ">98",
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "Instantaneous turndown",
@@ -26,7 +27,8 @@
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
         "source_id": "cat-johnzink-com-ztof-enclosed-flare"
       },
-      "value": "10:1"
+      "value": "10:1",
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "Capacity",
@@ -36,7 +38,8 @@
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
         "source_id": "cat-johnzink-com-ztof-enclosed-flare"
       },
-      "value": 6000
+      "value": 6000,
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "Methane concentration basis",
@@ -46,7 +49,8 @@
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",
         "source_id": "cat-johnzink-com-ztof-enclosed-flare"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "turndown",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "capacity",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
       },
-      "value": 6000
+      "value": 6000,
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "destruction_rate_efficiency",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
       },
-      "low": 98
+      "low": 98,
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "combustion_configuration",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
       },
-      "value": "Dual-Pressure Combustion: simultaneously handles high and low-pressure gas streams"
+      "value": "Dual-Pressure Combustion: simultaneously handles high and low-pressure gas streams",
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     },
     {
       "metric": "gas_compatibility",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
       },
-      "value": "raw biogas, off-spec RNG, or mixed gas streams"
+      "value": "raw biogas, off-spec RNG, or mixed gas streams",
+      "source_url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare"
     }
   ],
   "url": "https://www.johnzink.com/products/landfill-biogas/ztof-enclosed-flare",

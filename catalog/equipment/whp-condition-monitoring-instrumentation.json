@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Wireless and wired instrumentation monitors annulus/wellhead pressure and structural vibration to cut manual rounds and detect integrity issues early; LoRaWAN battery-powered sensors suit unmanned offshore wells.",
+  "description": "Wireless and wired instrumentation monitors annulus/wellhead pressure and structural vibration to cut manual rounds and detect integrity issues early; LoRaWAN battery-powered sensors suit unmanned offshore wells. Primary source: https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
   "aliases": [
     "Condition monitoring instrumentation (wellhead annulus pressure, vibration)"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
         "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo"
-      }
+      },
+      "source_url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead"
     },
     {
       "metric": "Yokogawa Sushi Sensor wireless pressure  — Data collection interval",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
         "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo"
-      }
+      },
+      "source_url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead"
     },
     {
       "metric": "Reliability — Pressure monitoring frequency",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
         "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo"
-      }
+      },
+      "source_url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead"
     },
     {
       "metric": "Price — 4-20 mA wellhead pressure transmitter (onshore proxy)",
@@ -57,7 +60,8 @@
       "source": {
         "url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html",
         "source_id": "whp-merobix-com-wellhead-monitoring-system-guide-html"
-      }
+      },
+      "source_url": "https://www.merobix.com/blog/wellhead-monitoring-system-guide.html"
     }
   ],
   "vendor_models": [],

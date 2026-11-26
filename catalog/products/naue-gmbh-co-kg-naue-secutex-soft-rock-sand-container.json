@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Used at Amrumbank West; can be placed before piling.",
+  "description": "Vendor product line read 2026-11-24. Used at Amrumbank West; can be placed before piling. Primary source: https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
   "specifications": [
     {
       "metric": "material",
@@ -16,7 +16,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "needle-punched nonwoven geotextile filled with sand"
+      "value": "needle-punched nonwoven geotextile filled with sand",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Container material",
@@ -24,7 +25,8 @@
       "basis": "'made of highly robust, staple fibre, specially needle-punched nonwoven Secutex® geotextile and are filled with sand'",
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
-      }
+      },
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Adaptability",
@@ -32,7 +34,8 @@
       "basis": "'The container is flexible and can adapt to variable seabeds. They can be placed before piling'",
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
-      }
+      },
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Reference project",
@@ -40,7 +43,8 @@
       "basis": "'Their solution has been used on the German Amrumbank West offshore wind farm'",
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
-      }
+      },
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "West of Duddon Sands armour rock size",
@@ -51,7 +55,8 @@
       },
       "value": 8,
       "low": 18,
-      "high": "in"
+      "high": "in",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Meerwind filter material size",
@@ -62,7 +67,8 @@
       },
       "value": 1,
       "low": 5,
-      "high": "in"
+      "high": "in",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Meerwind armour rock grading",
@@ -73,7 +79,8 @@
       },
       "value": 100,
       "low": 700,
-      "high": "kg"
+      "high": "kg",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Anholt filter layer",
@@ -84,7 +91,8 @@
       },
       "value": 1,
       "low": 4,
-      "high": "in"
+      "high": "in",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Ridgeway filter bag recycled content",
@@ -93,7 +101,8 @@
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
       },
-      "value": 61
+      "value": 61,
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Ridgeway filter bag lifetime",
@@ -102,7 +111,8 @@
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "ContiTech mat thickness",
@@ -113,7 +123,8 @@
       },
       "value": 12,
       "low": 15,
-      "high": "mm"
+      "high": "mm",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "ContiTech mat diameter",
@@ -122,7 +133,8 @@
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
       },
-      "value": 52
+      "value": 52,
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     }
   ],
   "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",

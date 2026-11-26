@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. 44.0% efficiency claim from MAN press release (search-verified only)",
+  "description": "Vendor product line read 2026-11-24. 44.0% efficiency claim from MAN press release (search-verified only) Primary source: https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
   "specifications": [
     {
       "metric": "Power",
@@ -16,7 +16,8 @@
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
       },
-      "value": 735
+      "value": 735,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Cylinders / displacement",
@@ -26,7 +27,8 @@
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
       },
-      "value": "12 / 29.6"
+      "value": "12 / 29.6",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Bore / stroke",
@@ -36,7 +38,8 @@
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
       },
-      "value": "138 / 165"
+      "value": "138 / 165",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Air-fuel ratio",
@@ -46,7 +49,8 @@
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",
         "source_id": "man-eu-gas-power-generation-gas-html"
       },
-      "value": "1.77-1.78"
+      "value": "1.77-1.78",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Cylinders / arrangement",
@@ -56,7 +60,8 @@
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html",
         "source_id": "catpar-man-eu-man-motor-e3872-html-060f498"
       },
-      "value": "V12"
+      "value": "V12",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Bore",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 138
+      "value": 138,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Stroke",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 165
+      "value": 165,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Displacement",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 29.6
+      "value": 29.6,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Effective rated power",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 735
+      "value": 735,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Nominal speed",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Effective mechanical efficiency",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": "44 / 43.7"
+      "value": "44 / 43.7",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Mean effective pressure",
@@ -119,7 +130,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 19.85
+      "value": 19.85,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "NOx emission",
@@ -128,7 +140,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Engine length",
@@ -137,7 +150,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 1805
+      "value": 1805,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Engine width",
@@ -146,7 +160,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 1243
+      "value": 1243,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Engine height",
@@ -155,7 +170,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 1407
+      "value": 1407,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Dry weight",
@@ -164,7 +180,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": 2159
+      "value": 2159,
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Air/fuel ratio lambda (natural gas)",
@@ -173,7 +190,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
       },
-      "value": "1.77 - 1.78"
+      "value": "1.77 - 1.78",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html"
     },
     {
       "metric": "Hydrogen readiness",
@@ -182,7 +200,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": "designed to accommodate a hydrogen (H2) admixture when operated with natural gas"
+      "value": "designed to accommodate a hydrogen (H2) admixture when operated with natural gas",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     },
     {
       "metric": "Key design features",
@@ -191,7 +210,8 @@
       "source": {
         "url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
       },
-      "value": "Highly efficient single turbocharger; M18 prechamber spark plugs; camshaft with Atkinson cycle; steel pistons"
+      "value": "Highly efficient single turbocharger; M18 prechamber spark plugs; camshaft with Atkinson cycle; steel pistons",
+      "source_url": "https://www.man.eu/engines/en/products/power-generation/gas/man-motor-e3872.html"
     }
   ],
   "url": "https://www.man.eu/engines/en/products/power-generation/gas/power-generation-gas.html",

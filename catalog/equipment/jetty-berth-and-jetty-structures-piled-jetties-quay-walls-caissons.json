@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Provide the load-bearing berth face and access structure that transfers vessel berthing/mooring loads and terminal loads to the seabed, with dredged approach channels and berth pockets providing navigable depth.",
+  "description": "Provide the load-bearing berth face and access structure that transfers vessel berthing/mooring loads and terminal loads to the seabed, with dredged approach channels and berth pockets providing navigable depth. Primary source: https://www.iso.org/standard/84215.html",
   "specifications": [
     {
       "metric": "function",
@@ -18,7 +18,8 @@
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
         "url": "https://www.iso.org/standard/84215.html"
-      }
+      },
+      "source_url": "https://www.iso.org/standard/84215.html"
     }
   ],
   "vendors": [

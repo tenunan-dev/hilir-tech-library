@@ -6,7 +6,7 @@
   "equipment": [
     "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems"
   ],
-  "description": "Vendor product line read 2026-11-24. LNG 6-20 in; ATOL 20 in full bore; heat tracing/insulation/EasyDrive/automatic connection options.",
+  "description": "Vendor product line read 2026-11-24. LNG 6-20 in; ATOL 20 in full bore; heat tracing/insulation/EasyDrive/automatic connection options. Primary source: https://flowtork.com/marine-loading-arms",
   "specifications": [
     {
       "metric": "diameter",
@@ -17,7 +17,8 @@
         "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
       },
       "low": 6,
-      "high": 24
+      "high": 24,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "design pressure",
@@ -27,7 +28,8 @@
         "url": "https://flowtork.com/marine-loading-arms",
         "source_id": "flowtork-com-flowtork-com-marine-loading-arms"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "diameter_range",
@@ -37,7 +39,8 @@
         "url": "https://flowtork.com/marine-loading-arms"
       },
       "low": 6,
-      "high": 24
+      "high": 24,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "design_pressure",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://flowtork.com/marine-loading-arms"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "LNG_transfer_size_range",
@@ -56,7 +60,8 @@
         "url": "https://flowtork.com/marine-loading-arms"
       },
       "low": 6,
-      "high": 20
+      "high": 20,
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "high_pressure_gas_classes",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://flowtork.com/marine-loading-arms"
       },
-      "value": "ANSI 600 and ANSI 900 classes"
+      "value": "ANSI 600 and ANSI 900 classes",
+      "source_url": "https://flowtork.com/marine-loading-arms"
     },
     {
       "metric": "rigid_LNG_line",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://flowtork.com/marine-loading-arms"
       },
-      "value": "20 inch full-bore product lines"
+      "value": "20 inch full-bore product lines",
+      "source_url": "https://flowtork.com/marine-loading-arms"
     }
   ],
   "url": "https://flowtork.com/marine-loading-arms",

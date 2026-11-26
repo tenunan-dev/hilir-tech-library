@@ -6,7 +6,7 @@
   "sector_codes": [
     "WWT"
   ],
-  "description": "Decanter centrifuges, belt filter presses, membrane filter presses and screw presses that turn conditioned sludge into 18-40% DS cake.",
+  "description": "Decanter centrifuges, belt filter presses, membrane filter presses and screw presses that turn conditioned sludge into 18-40% DS cake. Primary source: https://www.alfalaval.com/",
   "subtypes": [
     {
       "name": "decanter centrifuge"
@@ -34,7 +34,8 @@
       "source": {
         "url": "https://www.alfalaval.com/",
         "note": "Alfa Laval decanter pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.alfalaval.com/"
     },
     {
       "metric": "membrane press cake DS",
@@ -45,7 +46,8 @@
       "source": {
         "url": "https://www.andritz.com/",
         "note": "Andritz press pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.andritz.com/"
     }
   ],
   "vendor_models": [

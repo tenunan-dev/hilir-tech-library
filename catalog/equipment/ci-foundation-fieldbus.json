@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "All-digital fieldbus for process automation with multivariable measurement, device diagnostics, control-in-the-field and integration of wireless devices.",
+  "description": "All-digital fieldbus for process automation with multivariable measurement, device diagnostics, control-in-the-field and integration of wireless devices. Primary source: https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
   "specifications": [
     {
       "metric": "cable / power",
@@ -19,7 +19,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
       },
-      "value": "two-wire twisted pair cable; intrinsically safe or non-incendive device power suitable for all hazardous areas"
+      "value": "two-wire twisted pair cable; intrinsically safe or non-incendive device power suitable for all hazardous areas",
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "registered interoperable products",
@@ -29,7 +30,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "control architecture",
@@ -39,7 +41,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
       },
-      "value": "Control-in-the-field (CIF): field instruments can communicate directly during host system failure to maintain safe operations"
+      "value": "Control-in-the-field (CIF): field instruments can communicate directly during host system failure to maintain safe operations",
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "data rate",
@@ -49,7 +52,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
       },
-      "value": "H1: 31.25 kbit/s (NOT confirmed on fetched page - record as gap)"
+      "value": "H1: 31.25 kbit/s (NOT confirmed on fetched page - record as gap)",
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     }
   ],
   "vendors": [

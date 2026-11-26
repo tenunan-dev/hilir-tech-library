@@ -8,7 +8,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Remove suspended solids, chlorine/oxidants, scale-forming calcium/magnesium hardness and alkalinity from raw/make-up water before it reaches the boiler, reducing scale, foaming, carryover and chemical demand. External (pre-boiler) treatment is preferred where possible; conditioning is only a supplement.",
+  "description": "Remove suspended solids, chlorine/oxidants, scale-forming calcium/magnesium hardness and alkalinity from raw/make-up water before it reaches the boiler, reducing scale, foaming, carryover and chemical demand. External (pre-boiler) treatment is preferred where possible; conditioning is only a supplement. Primary source: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
   "specifications": [
     {
       "metric": "Ion-exchange resin bead diameter",
@@ -18,7 +18,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
         "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
       },
-      "value": "0.5 to 1.0"
+      "value": "0.5 to 1.0",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler"
     },
     {
       "metric": "Brine concentration for softener regeneration",
@@ -29,7 +30,8 @@
         "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
       },
       "low": 7,
-      "high": 12
+      "high": 12,
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler"
     },
     {
       "metric": "TDS reduction by sodium base exchange",
@@ -39,7 +41,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
         "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
       },
-      "value": 0
+      "value": 0,
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler"
     },
     {
       "metric": "Condensate return threshold for successful softener use in high alkaline hardness areas",
@@ -49,7 +52,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
         "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
       },
-      "value": ">=50"
+      "value": ">=50",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler"
     },
     {
       "metric": "Condensate return below which more sophisticated ion exchange / dealkalisation is preferable",
@@ -59,7 +63,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler",
         "source_id": "spiraxsarco-com-the-boiler-house-water-for-the-boiler"
       },
-      "value": "<40"
+      "value": "<40",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/water-for-the-boiler"
     },
     {
       "metric": "pH after dealkalisation + degassing",
@@ -69,7 +74,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "low": 8.5
+      "low": 8.5,
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Feed water total hardness — shell boiler",
@@ -79,7 +85,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "2 max"
+      "value": "2 max",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Feed water pH at 25 °C — shell boiler / coil boiler",
@@ -89,7 +96,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "8.5 to 9.5 / 9.5 to 11"
+      "value": "8.5 to 9.5 / 9.5 to 11",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Feed water alkalinity threshold for CO2 carryover",
@@ -99,7 +107,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Thermal conductivity of calcium carbonate scale",
@@ -110,7 +119,8 @@
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
       "low": 0.9,
-      "high": 2.6
+      "high": 2.6,
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Steam velocity in well-designed steam system",
@@ -121,7 +131,8 @@
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
       "low": 25,
-      "high": 40
+      "high": 40,
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Design principle",
@@ -131,7 +142,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "inclined plate clarification assuring laminar flow conditions"
+      "value": "inclined plate clarification assuring laminar flow conditions",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Installation attribute",
@@ -141,7 +153,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "reduced space; can be located indoors or relocated"
+      "value": "reduced space; can be located indoors or relocated",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Clarifier type",
@@ -151,7 +164,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "high rate, solids contact, sludge recirculation type"
+      "value": "high rate, solids contact, sludge recirculation type",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Functions integrated in single unit",
@@ -161,7 +175,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "chemical addition and mixing, flocculation, upflow clarification"
+      "value": "chemical addition and mixing, flocculation, upflow clarification",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Applications",
@@ -171,7 +186,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "clarification, lime softening, silica reduction, organics reduction"
+      "value": "clarification, lime softening, silica reduction, organics reduction",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Filter type",
@@ -181,7 +197,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "heavy duty, high rate gravity filter"
+      "value": "heavy duty, high rate gravity filter",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Design duty",
@@ -191,7 +208,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "treating high turbidity loads and sticky particulates following polymer/coagulant treatment"
+      "value": "treating high turbidity loads and sticky particulates following polymer/coagulant treatment",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Clarifier design principle",
@@ -199,7 +217,8 @@
       "basis": "Graver Raw Water Pretreatment: 'Inclined Plate Clarification – The Graver Lamella design assures laminar flow conditions that result in hydraulic uniformity and high effluent quality.'",
       "source": {
         "url": "https://graver.com/pretreatment/"
-      }
+      },
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Installation / footprint",
@@ -207,7 +226,8 @@
       "basis": "Graver: 'It permits great reduction in the space needed for clarification equipment, and allows the compact equipment to be located indoors if desired, or to be easily relocated at a later date.'",
       "source": {
         "url": "https://graver.com/pretreatment/"
-      }
+      },
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "filter_type",
@@ -216,7 +236,8 @@
       "source": {
         "url": "https://graver.com/pretreatment/"
       },
-      "value": "heavy duty, high rate gravity filter"
+      "value": "heavy duty, high rate gravity filter",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "applications",
@@ -225,7 +246,8 @@
       "source": {
         "url": "https://graver.com/pretreatment/"
       },
-      "value": "wastewater applications, lime softening applications, cooling tower side stream filtration and all other gravity filter applications where high filtering rates are desirable"
+      "value": "wastewater applications, lime softening applications, cooling tower side stream filtration and all other gravity filter applications where high filtering rates are desirable",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Functions in single unit",
@@ -234,7 +256,8 @@
       "source": {
         "url": "https://graver.com/pretreatment/"
       },
-      "value": "chemical addition and mixing, flocculation, and upflow clarification"
+      "value": "chemical addition and mixing, flocculation, and upflow clarification",
+      "source_url": "https://graver.com/pretreatment/"
     }
   ],
   "vendors": [

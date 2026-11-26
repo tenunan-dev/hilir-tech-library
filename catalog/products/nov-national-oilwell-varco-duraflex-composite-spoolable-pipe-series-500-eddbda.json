@@ -6,7 +6,7 @@
   "equipment": [
     "fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru"
   ],
-  "description": "API 15S licensed facility per printed page. Sizes 3, 4 and 6 in on this page; a linked 2021 flyer mentions 8 in and 750 psi but that PDF was not WebFetch-verified.",
+  "description": "API 15S licensed facility per printed page. Sizes 3, 4 and 6 in on this page; a linked 2021 flyer mentions 8 in and 750 psi but that PDF was not WebFetch-verified. Primary source: https://www.nov.com/products/duraflex",
   "specifications": [
     {
       "metric": "Nominal pressure rating",
@@ -16,7 +16,8 @@
         "url": "https://www.nov.com/products/duraflex",
         "source_id": "cat-nov-com-duraflex"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "Maximum temperature",
@@ -26,7 +27,8 @@
         "url": "https://www.nov.com/products/duraflex",
         "source_id": "cat-nov-com-duraflex"
       },
-      "value": 140
+      "value": 140,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "Inside diameter, DF 3in 500",
@@ -36,7 +38,8 @@
         "url": "https://www.nov.com/products/duraflex",
         "source_id": "cat-nov-com-duraflex"
       },
-      "value": 72
+      "value": 72,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "Inside diameter, DF 4in 500",
@@ -46,7 +49,8 @@
         "url": "https://www.nov.com/products/duraflex",
         "source_id": "cat-nov-com-duraflex"
       },
-      "value": 91
+      "value": 91,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "Inside diameter, DF 6in 500",
@@ -56,7 +60,8 @@
         "url": "https://www.nov.com/products/duraflex",
         "source_id": "cat-nov-com-duraflex"
       },
-      "value": 142
+      "value": 142,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "Outside diameter, DF 6in 500",
@@ -66,7 +71,8 @@
         "url": "https://www.nov.com/products/duraflex",
         "source_id": "cat-nov-com-duraflex"
       },
-      "value": 173
+      "value": 173,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "Pipe weight, DF 6in 500",
@@ -76,7 +82,8 @@
         "url": "https://www.nov.com/products/duraflex",
         "source_id": "cat-nov-com-duraflex"
       },
-      "value": 8.53
+      "value": 8.53,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "Factory hydrotest",
@@ -86,7 +93,8 @@
         "url": "https://www.nov.com/products/duraflex",
         "source_id": "cat-nov-com-duraflex"
       },
-      "value": "1.5x nominal pressure rating"
+      "value": "1.5x nominal pressure rating",
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "Connection",
@@ -96,7 +104,8 @@
         "url": "https://www.nov.com/products/duraflex",
         "source_id": "cat-nov-com-duraflex"
       },
-      "value": "Flange and pipe to pipe"
+      "value": "Flange and pipe to pipe",
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "nominal_pressure_rating",
@@ -105,7 +114,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "nominal_pressure_rating_MPa",
@@ -114,7 +124,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 3.45
+      "value": 3.45,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "max_temperature",
@@ -123,7 +134,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 60
+      "value": 60,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "sizes",
@@ -132,7 +144,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": "3 in., 4 in., and 6 in."
+      "value": "3 in., 4 in., and 6 in.",
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "inside_diameter_3in",
@@ -141,7 +154,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 2.82
+      "value": 2.82,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "inside_diameter_4in",
@@ -150,7 +164,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 3.57
+      "value": 3.57,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "inside_diameter_6in",
@@ -159,7 +174,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 5.6
+      "value": 5.6,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "outside_diameter_3in",
@@ -168,7 +184,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 3.65
+      "value": 3.65,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "outside_diameter_4in",
@@ -177,7 +194,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 4.55
+      "value": 4.55,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "outside_diameter_6in",
@@ -186,7 +204,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 6.82
+      "value": 6.82,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "wall_thickness",
@@ -196,7 +215,8 @@
         "url": "https://www.nov.com/products/duraflex"
       },
       "low": 0.42,
-      "high": 0.61
+      "high": 0.61,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "pipe_weight",
@@ -206,7 +226,8 @@
         "url": "https://www.nov.com/products/duraflex"
       },
       "low": 2,
-      "high": 5.72
+      "high": 5.72,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "reel_capacity",
@@ -216,7 +237,8 @@
         "url": "https://www.nov.com/products/duraflex"
       },
       "low": 1175,
-      "high": 3000
+      "high": 3000,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "spool_length_max",
@@ -225,7 +247,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.nov.com/products/duraflex"
     },
     {
       "metric": "factory_hydrotest",
@@ -234,7 +257,8 @@
       "source": {
         "url": "https://www.nov.com/products/duraflex"
       },
-      "value": 1.5
+      "value": 1.5,
+      "source_url": "https://www.nov.com/products/duraflex"
     }
   ],
   "url": "https://www.nov.com/products/duraflex",

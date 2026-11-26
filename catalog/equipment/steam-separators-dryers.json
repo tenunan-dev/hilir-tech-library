@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Remove entrained water droplets from steam that traps cannot catch; protect turbines, control valves and heat-transfer equipment from erosion, water hammer and reduced heat transfer; provide dry steam at point of use (TLV; Spirax Sarco).",
+  "description": "Remove entrained water droplets from steam that traps cannot catch; protect turbines, control valves and heat-transfer equipment from erosion, water hammer and reduced heat transfer; provide dry steam at point of use (TLV; Spirax Sarco). Primary source: https://www.tlv.com/steam-info/steam-theory/other/separators",
   "specifications": [
     {
       "metric": "entrainment onset velocity",
@@ -19,7 +19,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/other/separators",
         "source_id": "tlv-com-other-separators"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/other/separators"
     },
     {
       "metric": "entrained droplet transport velocity",
@@ -29,7 +30,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/other/separators",
         "source_id": "tlv-com-other-separators"
       },
-      "value": "up to 30"
+      "value": "up to 30",
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/other/separators"
     },
     {
       "metric": "TLV cyclone separator efficiency",
@@ -39,7 +41,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/other/separators",
         "source_id": "tlv-com-other-separators"
       },
-      "value": "up to 98"
+      "value": "up to 98",
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/other/separators"
     },
     {
       "metric": "steam dryness fraction definition",
@@ -49,7 +52,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/steam-basics/wet-steam-dry-steam",
         "source_id": "tlv-com-steam-basics-wet-steam-dry-steam"
       },
-      "value": "dryness = 100% - % entrained water by mass"
+      "value": "dryness = 100% - % entrained water by mass",
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/steam-basics/wet-steam-dry-steam"
     },
     {
       "metric": "sodium in steam indicating mechanical carryover",
@@ -59,7 +63,8 @@
         "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
         "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
       },
-      "value": "<=2"
+      "value": "<=2",
+      "source_url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/"
     },
     {
       "metric": "steam velocity in superheated mains",
@@ -69,7 +74,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheating-theory",
         "source_id": "spiraxsarco-com-desuperheating-basic-desuperheating-theory"
       },
-      "value": "up to 100"
+      "value": "up to 100",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/desuperheating/basic-desuperheating-theory"
     }
   ],
   "vendors": [

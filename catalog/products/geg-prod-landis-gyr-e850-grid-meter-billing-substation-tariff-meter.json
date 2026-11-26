@@ -6,7 +6,7 @@
   "equipment": [
     "geg-energy-billing-system"
   ],
-  "description": "billing/substation tariff meter",
+  "description": "billing/substation tariff meter Primary source: https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
   "specifications": [
     {
       "metric": "accuracy class",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "low-load accuracy guarantee",
@@ -27,7 +28,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "deployment base",
@@ -38,7 +40,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "accuracy_class_active",
@@ -47,7 +50,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": "0.2S / 0.5S"
+      "value": "0.2S / 0.5S",
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "accuracy_class_reactive",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": "0.5S / 1"
+      "value": "0.5S / 1",
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "frequency",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": "50/60 Hz and 16 2/3 Hz (for railway infrastructure)"
+      "value": "50/60 Hz and 16 2/3 Hz (for railway infrastructure)",
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "display",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": 8
+      "value": 8,
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "communication_interfaces",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": "RS 232 / RS 485 / Ethernet / GSM / GRPS / UMTS (3G)"
+      "value": "RS 232 / RS 485 / Ethernet / GSM / GRPS / UMTS (3G)",
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "transmitting_contacts",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "high": 8
+      "high": 8,
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "measurement_quadrants",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "capture_period",
@@ -111,7 +121,8 @@
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
       "low": 1,
-      "high": 5
+      "high": 5,
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "low_load_accuracy",
@@ -120,7 +131,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "versions",
@@ -129,7 +141,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": "E850 f6 wall mounted; E850 f9 rack mounted"
+      "value": "E850 f6 wall mounted; E850 f9 rack mounted",
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     }
   ],
   "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",

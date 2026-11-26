@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Make separable hydraulic, electrical and optical connections subsea/downhole, and connect flowlines/tie-ins; provide sealing and corrosion protection in hostile environments.",
+  "description": "Make separable hydraulic, electrical and optical connections subsea/downhole, and connect flowlines/tie-ins; provide sealing and corrosion protection in hostile environments. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
   "specifications": [
     {
       "metric": "Connection system internal pressure qualification",
@@ -19,7 +19,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
         "source_id": "sys-technipfmc-com-b0f39f"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/"
     },
     {
       "metric": "Connection system water depth qualification",
@@ -29,7 +30,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
         "source_id": "sys-technipfmc-com-b0f39f"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/"
     },
     {
       "metric": "Installed connection systems",
@@ -39,7 +41,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
         "source_id": "sys-technipfmc-com-b0f39f"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/"
     },
     {
       "metric": "Wet connector sealing architecture",
@@ -49,7 +52,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
         "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
       },
-      "value": "dual-barrier system for mechanical and electrical sealing; dielectric-filled compensation wiper system protects receptacle contacts; crimped cable terminations; male pin gives immediate corrosion protection on de-mating"
+      "value": "dual-barrier system for mechanical and electrical sealing; dielectric-filled compensation wiper system protects receptacle contacts; crimped cable terminations; male pin gives immediate corrosion protection on de-mating",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     },
     {
       "metric": "Wet connector environment capability",
@@ -59,7 +63,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors",
         "source_id": "sys-onesubsea-slb-com-subsea-wet-connectors"
       },
-      "value": "deepwater and high-pressure/high-temperature wellhead and downhole applications; many dry- and wet-mateable connectors resistant to sour environments and sand/silt ingress"
+      "value": "deepwater and high-pressure/high-temperature wellhead and downhole applications; many dry- and wet-mateable connectors resistant to sour environments and sand/silt ingress",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     }
   ],
   "vendors": [

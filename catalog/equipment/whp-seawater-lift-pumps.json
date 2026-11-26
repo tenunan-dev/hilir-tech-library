@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Seawater lift pumps draw seawater from caissons/wells for cooling, firewater, washing and ballast duties. BP Shah Deniz 2 project description gives MODU/water-system duties and extraction rates; IOGP S-721 sets vertical-pump submergence, anti-fouling and column-pipe requirements; Celeros/S&N and ClydeUnion are named suppliers.",
+  "description": "Seawater lift pumps draw seawater from caissons/wells for cooling, firewater, washing and ballast duties. BP Shah Deniz 2 project description gives MODU/water-system duties and extraction rates; IOGP S-721 sets vertical-pump submergence, anti-fouling and column-pipe requirements; Celeros/S&N and ClydeUnion are named suppliers. Primary source: https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
   "aliases": [
     "Seawater lift pumps"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
         "source_id": "whp-bp-com-5-project-description-pdf"
-      }
+      },
+      "source_url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf"
     },
     {
       "metric": "Vertical seawater lift pump (MODU/rig an — Suction depth (Heydar Aliyev MODU)",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
         "source_id": "whp-bp-com-5-project-description-pdf"
-      }
+      },
+      "source_url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf"
     },
     {
       "metric": "Vertical seawater lift pump (MODU/rig an — Seawater lift pump capacity (Istiglal MODU)",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
         "source_id": "whp-bp-com-5-project-description-pdf"
-      }
+      },
+      "source_url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf"
     },
     {
       "metric": "Vertical seawater lift pump (MODU/rig an — Suction depth (Istiglal MODU)",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
         "source_id": "whp-bp-com-5-project-description-pdf"
-      }
+      },
+      "source_url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf"
     },
     {
       "metric": "Vertical seawater lift pump (MODU/rig an — Maximum seawater extraction per pump (SD2 platform caisson)",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
         "source_id": "whp-bp-com-5-project-description-pdf"
-      }
+      },
+      "source_url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf"
     },
     {
       "metric": "Vertical seawater lift pump (MODU/rig an — Sea intake screen mesh",
@@ -76,7 +81,8 @@
       "source": {
         "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
         "source_id": "whp-bp-com-5-project-description-pdf"
-      }
+      },
+      "source_url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf"
     },
     {
       "metric": "Vertical seawater lift pump (MODU/rig an — Filtration after lift",
@@ -86,7 +92,8 @@
       "source": {
         "url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf",
         "source_id": "whp-bp-com-5-project-description-pdf"
-      }
+      },
+      "source_url": "https://www.bp.com/content/dam/bp/country-sites/en_az/azerbaijan/home/pdfs/esias/sd/sd2/5_project_description.pdf"
     },
     {
       "metric": "Vertical seawater lift pump (MODU/rig an — Column pipe velocity at 100% rated flow (S-721)",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Price — Cooling-water system make-up and chemical treatment cost",
@@ -107,7 +115,8 @@
       "source": {
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
-      }
+      },
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Price — Recirculating cooling water pumping power",
@@ -119,7 +128,8 @@
       "source": {
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
-      }
+      },
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     }
   ],
   "vendor_models": [],

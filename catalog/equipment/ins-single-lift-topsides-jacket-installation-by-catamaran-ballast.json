@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Straddle a platform with a bow slot, ballast down, extend motion-compensated lifting beams under the payload, de-ballast to transfer weight, then fast-lift clear; also carries jackets at stern tilting beams/sheerlegs.",
+  "description": "Straddle a platform with a bow slot, ballast down, extend motion-compensated lifting beams under the payload, de-ballast to transfer weight, then fast-lift clear; also carries jackets at stern tilting beams/sheerlegs. Primary source: https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
   "specifications": [
     {
       "metric": "Topsides single-lift capacity (current page)",
@@ -19,7 +19,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 60000
+      "value": 60000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Jacket lift capacity (Allseas current page)",
@@ -29,7 +30,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "S-lay tension capacity",
@@ -39,7 +41,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Number of azimuth thrusters",
@@ -49,7 +52,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Bow slot dimensions",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
         "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
       },
-      "value": "122 m x 59 m (L x W); widened from 52 m to 59 m"
+      "value": "122 m x 59 m (L x W); widened from 52 m to 59 m",
+      "source_url": "https://en.wikipedia.org/wiki/Pioneering_Spirit"
     },
     {
       "metric": "Fast-lift stroke / time",
@@ -69,7 +74,8 @@
         "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
         "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
       },
-      "value": "2.5 m in 15 s"
+      "value": "2.5 m in 15 s",
+      "source_url": "https://en.wikipedia.org/wiki/Pioneering_Spirit"
     },
     {
       "metric": "Largest recorded single-lift removal",
@@ -79,7 +85,8 @@
         "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
         "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
       },
-      "value": 31000
+      "value": 31000,
+      "source_url": "https://en.wikipedia.org/wiki/Pioneering_Spirit"
     },
     {
       "metric": "Crane capacity",
@@ -89,7 +96,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Free deck space",
@@ -99,7 +107,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": 7500
+      "value": 7500,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Monopile handling up to",
@@ -109,7 +118,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Topsides single-lift capacity",
@@ -119,7 +129,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 60000
+      "value": 60000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Jacket lift capacity",
@@ -129,7 +140,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "S-lay tension",
@@ -139,7 +151,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Azimuth thrusters",
@@ -149,7 +162,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Crane capacity",
@@ -159,7 +173,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Deck",
@@ -169,7 +184,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": "165 x 43"
+      "value": "165 x 43",
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Tandem lift",
@@ -179,7 +195,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": 14200
+      "value": 14200,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "DP class",
@@ -189,7 +206,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": "III"
+      "value": "III",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "tandem_lift_capacity",
@@ -198,7 +216,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 14200
+      "value": 14200,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "year_built",
@@ -207,7 +226,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 1985
+      "value": 1985,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "dynamic_positioning",
@@ -216,7 +236,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": "class III dynamic positioning system"
+      "value": "class III dynamic positioning system",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Bokalift 1 - crane lifting capacity",
@@ -225,7 +246,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Bokalift 1 - available deck space",
@@ -234,7 +256,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": "165 m x 43 m"
+      "value": "165 m x 43 m",
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Bokalift 1 - accommodation",
@@ -243,7 +266,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Bokalift 1 - dynamic positioning class",
@@ -252,7 +276,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": "DP2 self-propelled crane vessel (converted 2017)"
+      "value": "DP2 self-propelled crane vessel (converted 2017)",
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Bokalift 1 - helicopter deck",
@@ -261,7 +286,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": "Available for offshore transfers"
+      "value": "Available for offshore transfers",
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Crane lifting capacity (fleet page)",
@@ -270,7 +296,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Accommodation (fleet page)",
@@ -279,7 +306,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Accommodation (factsheet)",
@@ -288,7 +316,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": 146
+      "value": 146,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Dynamic positioning",
@@ -297,7 +326,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": "Kongsberg DP-2 / Kongsberg DPSI 5"
+      "value": "Kongsberg DP-2 / Kongsberg DPSI 5",
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Length",
@@ -306,7 +336,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": 231
+      "value": 231,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Breadth",
@@ -315,7 +346,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": 49
+      "value": 49,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Draught",
@@ -325,7 +357,8 @@
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
       "low": 8.5,
-      "high": 9.5
+      "high": 9.5,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Main hoist capacity at 28 m radius",
@@ -334,7 +367,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Main hoist capacity at 91/110 m radius",
@@ -345,7 +379,8 @@
       },
       "value": 200,
       "low": 200,
-      "high": 800
+      "high": 800,
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Monopile installation equipment limit",
@@ -354,7 +389,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Max structure height lifted",
@@ -363,7 +399,8 @@
       "source": {
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
       },
-      "high": 100
+      "high": 100,
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Propulsion power",
@@ -372,7 +409,8 @@
       "source": {
         "url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
       },
-      "value": "8 x 4,320 kW + 1 x 1,100 kW"
+      "value": "8 x 4,320 kW + 1 x 1,100 kW",
+      "source_url": "https://boskalis.com/media/4hpk3bug/bokalift-2-062026.pdf"
     },
     {
       "metric": "Topsides single-lift installation/removal",
@@ -381,7 +419,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 60000
+      "value": 60000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Jacket single-lift installation/removal",
@@ -390,7 +429,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Pipe-holding capacity",
@@ -399,7 +439,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Welding stations",
@@ -408,7 +449,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 6
+      "value": 6,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Double-joint factory",
@@ -417,7 +459,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": "yes"
+      "value": "yes",
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "DolWin Kappa converter station",
@@ -426,7 +469,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 900
+      "value": 900,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Ninian Northern platform removal",
@@ -435,7 +479,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 23000
+      "value": 23000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Gyda platform removal",
@@ -444,7 +489,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 30000
+      "value": 30000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Yme MOPU removal",
@@ -453,7 +499,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 13500
+      "value": 13500,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Lift technology",
@@ -462,7 +509,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": "unique motion compensated, single-lift technology"
+      "value": "unique motion compensated, single-lift technology",
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     }
   ],
   "vendors": [

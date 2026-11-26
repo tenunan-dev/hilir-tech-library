@@ -6,7 +6,7 @@
   "equipment": [
     "heat-transfer-tubes-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched ClearFire-CE product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched ClearFire-CE product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/cfce",
   "specifications": [
     {
       "metric": "Effective heat transfer surface",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "times greater than other condensing boilers",
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Thermal conductivity",
@@ -26,7 +27,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "times greater than stainless steel alone",
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - number of models",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 11
+      "value": 11,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - input capacity",
@@ -45,7 +48,8 @@
         "url": "https://cleaverbrooks.com/product/cfce"
       },
       "low": 500,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - AHRI combustion efficiency",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 94.7
+      "value": 94.7,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - AHRI thermal efficiency",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 96
+      "value": 96,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - design temperature",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 210
+      "value": 210,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - NOx emissions",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": "<20 ppm standard; sub 7 ppm available"
+      "value": "<20 ppm standard; sub 7 ppm available",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - turndown",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": "10:1 fully modulating"
+      "value": "10:1 fully modulating",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - number of passes",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - vessel design / fluid",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": "Firetube; Hot Water"
+      "value": "Firetube; Hot Water",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - fuels",
@@ -117,7 +128,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": "Natural Gas, Propane, Combination firing"
+      "value": "Natural Gas, Propane, Combination firing",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "ClearFire-CE - heat exchanger technology",
@@ -126,7 +138,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": "Patented TurboFer heat exchanger with integrated Ember controls; fully condensing high-mass design"
+      "value": "Patented TurboFer heat exchanger with integrated Ember controls; fully condensing high-mass design",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cfce",

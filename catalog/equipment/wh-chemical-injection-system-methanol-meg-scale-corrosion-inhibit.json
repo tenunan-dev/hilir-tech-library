@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Doses chemicals at the well or flowline to prevent hydrates, corrosion, scale, wax, foaming and demulsification problems.",
+  "description": "Doses chemicals at the well or flowline to prevent hydrates, corrosion, scale, wax, foaming and demulsification problems. Primary source: https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
   "specifications": [
     {
       "metric": "hydrate prevention via kill wing valve",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
       },
-      "value": "kill wing valve used primarily for injection of corrosion inhibitors or methanol to prevent hydrate formation"
+      "value": "kill wing valve used primarily for injection of corrosion inhibitors or methanol to prevent hydrate formation",
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     }
   ],
   "vendors": [

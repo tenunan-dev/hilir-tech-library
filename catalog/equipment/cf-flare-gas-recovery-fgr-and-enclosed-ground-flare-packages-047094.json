@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Captures gas that would otherwise be flared, using a liquid seal vessel for backpressure control and flashback prevention, plus compression (ejector or compressor) and optional H2S sweetening. Reduces emissions, light, noise and odour and extends flare tip life.",
+  "description": "Captures gas that would otherwise be flared, using a liquid seal vessel for backpressure control and flashback prevention, plus compression (ejector or compressor) and optional H2S sweetening. Reduces emissions, light, noise and odour and extends flare tip life. Primary source: https://www.johnzink.com/products/flare-gas-recovery",
   "specifications": [
     {
       "metric": "FGR application scope",
@@ -19,7 +19,8 @@
         "url": "https://www.johnzink.com/products/flare-gas-recovery",
         "source_id": "cat-johnzink-com-flare-gas-recovery"
       },
-      "value": "refineries to FPSO offshore platforms"
+      "value": "refineries to FPSO offshore platforms",
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "FGR emissions reduced",
@@ -29,7 +30,8 @@
         "url": "https://www.johnzink.com/products/flare-gas-recovery",
         "source_id": "cat-johnzink-com-flare-gas-recovery"
       },
-      "value": "NOx, CO, CO2, SOx"
+      "value": "NOx, CO, CO2, SOx",
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Ground flare heat/visibility control",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Gas_flare",
         "source_id": "sys-en-wikipedia-org-gas-flare"
       },
-      "value": "refractory-lined steel box or cylinder"
+      "value": "refractory-lined steel box or cylinder",
+      "source_url": "https://en.wikipedia.org/wiki/Gas_flare"
     }
   ],
   "vendors": [

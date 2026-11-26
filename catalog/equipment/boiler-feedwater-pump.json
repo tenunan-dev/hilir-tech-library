@@ -8,7 +8,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Maintain drum water level by delivering feedwater at flow above evaporation rate and at head above boiler pressure plus valve/piping losses; NPSH available must exceed pump NPSH required at hot feedwater temperature to avoid cavitation. Arrangements: direct feed per boiler or booster set feeding a common manifold with modulating feedwater valves.",
+  "description": "Maintain drum water level by delivering feedwater at flow above evaporation rate and at head above boiler pressure plus valve/piping losses; NPSH available must exceed pump NPSH required at hot feedwater temperature to avoid cavitation. Arrangements: direct feed per boiler or booster set feeding a common manifold with modulating feedwater valves. Primary source: https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
   "specifications": [
     {
       "metric": "Applicability of the 16-step selection method",
@@ -19,7 +19,8 @@
         "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
       },
       "low": 100,
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection"
     },
     {
       "metric": "Base flow formula",
@@ -29,7 +30,8 @@
         "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
         "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
       },
-      "value": "boiler maximum-capacity HP x 0.069 x C; C=1.50 intermittent, C=1.15 continuous"
+      "value": "boiler maximum-capacity HP x 0.069 x C; C=1.50 intermittent, C=1.15 continuous",
+      "source_url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection"
     },
     {
       "metric": "Continuous blowdown and bypass allowance",
@@ -40,7 +42,8 @@
         "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
       },
       "low": 10,
-      "high": 20
+      "high": 20,
+      "source_url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection"
     },
     {
       "metric": "Base head formula",
@@ -50,7 +53,8 @@
         "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
         "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
       },
-      "value": "max boiler operating pressure x 2.31 x 1.03 / liquid specific gravity"
+      "value": "max boiler operating pressure x 2.31 x 1.03 / liquid specific gravity",
+      "source_url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection"
     },
     {
       "metric": "Shutoff head above safety-valve setting",
@@ -60,7 +64,8 @@
         "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
         "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection"
     },
     {
       "metric": "NPSHa definition",
@@ -70,7 +75,8 @@
         "url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection",
         "source_id": "hpac-com-20928645-16-steps-to-proper-boiler-feed-pump-selection"
       },
-      "value": "absolute pressure in feedwater tank +/- elevation of minimum water level above pump - vapor pressure of water in tank - suction-line friction loss"
+      "value": "absolute pressure in feedwater tank +/- elevation of minimum water level above pump - vapor pressure of water in tank - suction-line friction loss",
+      "source_url": "https://www.hpac.com/heating/article/20928645/16-steps-to-proper-boiler-feed-pump-selection"
     },
     {
       "metric": "Guardian pump capacity",
@@ -81,7 +87,8 @@
       },
       "unit": "GPM",
       "low": "10",
-      "high": "18"
+      "high": "18",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian discharge pressure",
@@ -91,7 +98,8 @@
         "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
       },
       "unit": "psig",
-      "value": "20"
+      "value": "20",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian motor power",
@@ -101,7 +109,8 @@
         "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
       },
       "unit": "HP",
-      "value": "1/3"
+      "value": "1/3",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian motor speed",
@@ -111,7 +120,8 @@
         "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
       },
       "unit": "RPM",
-      "value": "3450"
+      "value": "3450",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian tank capacity",
@@ -122,7 +132,8 @@
       },
       "unit": "gal (cast iron); 10-20 gal carbon steel rectangular; 49-117 gal carbon steel cylindrical",
       "low": "6",
-      "high": "21"
+      "high": "21",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian-Plus pump capacity",
@@ -133,7 +144,8 @@
       },
       "unit": "GPM",
       "low": "1.5",
-      "high": "150"
+      "high": "150",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian-Plus discharge pressure",
@@ -144,7 +156,8 @@
       },
       "unit": "psig",
       "low": "10",
-      "high": "70"
+      "high": "70",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian-Plus motor power",
@@ -155,7 +168,8 @@
       },
       "unit": "HP",
       "low": "1/3",
-      "high": "10"
+      "high": "10",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian-Plus motor speed",
@@ -165,7 +179,8 @@
         "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
       },
       "unit": "RPM",
-      "value": "1750 or 3450"
+      "value": "1750 or 3450",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian-Plus motor voltage",
@@ -175,7 +190,8 @@
         "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
       },
       "unit": "V",
-      "value": "115/208-230"
+      "value": "115/208-230",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian-Plus tank capacity",
@@ -186,7 +202,8 @@
       },
       "unit": "gal (cast iron); 21-110 rectangular; 49-1000 cylindrical",
       "low": "15",
-      "high": "110"
+      "high": "110",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Water temperature capability",
@@ -196,7 +213,8 @@
         "source_id": "tlv-com-electric-pumps-boiler-feed-pumps"
       },
       "unit": "deg F",
-      "value": "250"
+      "value": "250",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian_pump_capacity",
@@ -206,7 +224,8 @@
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
       "low": 10,
-      "high": 18
+      "high": 18,
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian_discharge_pressure",
@@ -215,7 +234,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian_motor_power",
@@ -224,7 +244,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
-      "value": 0.333
+      "value": 0.333,
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian_motor_speed",
@@ -233,7 +254,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
-      "value": 3450
+      "value": 3450,
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian_motor_voltage",
@@ -242,7 +264,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
-      "value": "115/208-230"
+      "value": "115/208-230",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "Guardian_tank_capacity",
@@ -252,7 +275,8 @@
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
       "low": 6,
-      "high": 21
+      "high": 21,
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "GuardianPlus_pump_capacity",
@@ -262,7 +286,8 @@
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
       "low": 1.5,
-      "high": 150
+      "high": 150,
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "GuardianPlus_discharge_pressure",
@@ -272,7 +297,8 @@
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
       "low": 10,
-      "high": 70
+      "high": 70,
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "GuardianPlus_motor_power",
@@ -282,7 +308,8 @@
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
       "low": 0.333,
-      "high": 10
+      "high": 10,
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "GuardianPlus_motor_speed",
@@ -291,7 +318,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
-      "value": "1750 or 3450"
+      "value": "1750 or 3450",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "GuardianPlus_motor_voltage",
@@ -300,7 +328,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
-      "value": "115/208-230"
+      "value": "115/208-230",
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "GuardianPlus_tank_capacity",
@@ -310,7 +339,8 @@
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
       "low": 15,
-      "high": 110
+      "high": 110,
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     },
     {
       "metric": "water_temperature_capability",
@@ -319,7 +349,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://www.tlv.com/en-us/products/electric-pumps/boiler-feed-pumps"
     }
   ],
   "vendors": [

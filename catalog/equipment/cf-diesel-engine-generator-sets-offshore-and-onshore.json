@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems.",
+  "description": "Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems. Primary source: https://www.cummins.com/en-apac/generators/diesel",
   "specifications": [
     {
       "metric": "Cummins diesel genset rating range",
@@ -20,7 +20,8 @@
         "source_id": "cat-cummins-com-diesel"
       },
       "low": 15,
-      "high": 3750
+      "high": 3750,
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Cummins start/load acceptance",
@@ -30,7 +31,8 @@
         "url": "https://www.cummins.com/en-apac/generators/diesel",
         "source_id": "cat-cummins-com-diesel"
       },
-      "value": "<10"
+      "value": "<10",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Cummins natural-gas genset range",
@@ -41,7 +43,8 @@
         "source_id": "sys-cummins-com-generators"
       },
       "low": 13,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.cummins.com/generators"
     },
     {
       "metric": "MTU diesel genset portfolio ceiling",
@@ -51,7 +54,8 @@
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
-      "value": 3250
+      "value": 3250,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "MTU Series 2000 rating",
@@ -62,7 +66,8 @@
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 680,
-      "high": 1250
+      "high": 1250,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "MTU offshore design basis",
@@ -72,7 +77,8 @@
         "url": "https://www.mtu-solutions.com/eu/en/applications/oil-and-gas/offshore-oil-and-gas-solutions.html",
         "source_id": "sys-mtu-solutions-com-offshore-oil-and-gas-solutions-html"
       },
-      "value": "classified by all major classification societies"
+      "value": "classified by all major classification societies",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/oil-and-gas/offshore-oil-and-gas-solutions.html"
     },
     {
       "metric": "Generator set power range",
@@ -83,7 +89,8 @@
         "source_id": "cat-cummins-com-diesel"
       },
       "low": 15,
-      "high": 3750
+      "high": 3750,
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Frequency",
@@ -93,7 +100,8 @@
         "url": "https://www.cummins.com/en-apac/generators/diesel",
         "source_id": "cat-cummins-com-diesel"
       },
-      "value": "50 / 60"
+      "value": "50 / 60",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Load acceptance",
@@ -103,7 +111,8 @@
         "url": "https://www.cummins.com/en-apac/generators/diesel",
         "source_id": "cat-cummins-com-diesel"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Sunny Central UP maximum power",
@@ -113,7 +122,8 @@
         "url": "https://www.sma.de/en/products/solar-inverters",
         "source_id": "cat-sma-de-solar-inverters"
       },
-      "value": 4600
+      "value": 4600,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Highpower PEAK3 power",
@@ -124,7 +134,8 @@
         "source_id": "cat-sma-de-solar-inverters"
       },
       "low": 100,
-      "high": 180
+      "high": 180,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Tripower 125 power",
@@ -134,7 +145,8 @@
         "url": "https://www.sma.de/en/products/solar-inverters",
         "source_id": "cat-sma-de-solar-inverters"
       },
-      "value": 125
+      "value": 125,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Tripower X 60 power",
@@ -145,7 +157,8 @@
         "source_id": "cat-sma-de-solar-inverters"
       },
       "low": 50,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Tripower X 25 power",
@@ -156,7 +169,8 @@
         "source_id": "cat-sma-de-solar-inverters"
       },
       "low": 12,
-      "high": 25
+      "high": 25,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Portfolio maximum (60 Hz)",
@@ -166,7 +180,8 @@
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
-      "value": 3250
+      "value": 3250,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Portfolio maximum (50 Hz)",
@@ -176,7 +191,8 @@
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Series 4000 power range",
@@ -187,7 +203,8 @@
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 1600,
-      "high": 4000
+      "high": 4000,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Series 2000 power range",
@@ -198,7 +215,8 @@
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 770,
-      "high": 1400
+      "high": 1400,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Commercial genset start and load acceptance",
@@ -207,7 +225,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel"
       },
-      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step"
+      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Quiet Diesel series frequency",
@@ -216,7 +235,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "60, 50"
+      "value": "60, 50",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel noise reduction",
@@ -225,7 +245,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel full-load ambient capability",
@@ -234,7 +255,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "120 F (50 C)"
+      "value": "120 F (50 C)",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel construction and mounting",
@@ -243,7 +265,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "Totally enclosed incl. cooling, muffler and intake; 4-point mounting system"
+      "value": "Totally enclosed incl. cooling, muffler and intake; 4-point mounting system",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Standard Diesel series frequency",
@@ -252,7 +275,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
       },
-      "value": "50, 60"
+      "value": "50, 60",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
     },
     {
       "metric": "Standard Diesel full-load ambient capability",
@@ -261,7 +285,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
       },
-      "value": "120 F (50 C)"
+      "value": "120 F (50 C)",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
     },
     {
       "metric": "Standard Diesel application note",
@@ -270,7 +295,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
       },
-      "value": "Open and compartment-type applications; low speed for long life"
+      "value": "Open and compartment-type applications; low speed for long life",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
     },
     {
       "metric": "Portfolio maximum 60 Hz",
@@ -279,7 +305,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": 3250
+      "value": 3250,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Portfolio maximum 50 Hz",
@@ -288,7 +315,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Load factor standby / prime",
@@ -297,7 +325,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "85% / 75%"
+      "value": "85% / 75%",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Transient operation claim",
@@ -306,7 +335,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "Superior transient operation, industry leading load factors in extreme ambient conditions"
+      "value": "Superior transient operation, industry leading load factors in extreme ambient conditions",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Sustainable fuel approval",
@@ -315,7 +345,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO"
+      "value": "Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 4000",
@@ -324,7 +355,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe"
+      "value": "50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 2000",
@@ -333,7 +365,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe"
+      "value": "50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 1600",
@@ -342,7 +375,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe"
+      "value": "50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 0080 - mtu Series 0225",
@@ -351,7 +385,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe"
+      "value": "50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Lowest power series noted",
@@ -360,7 +395,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "Series 0080 - Series 0225: 50 Hz 30-94 kVA; 60 Hz 27-400 kWe"
+      "value": "Series 0080 - Series 0225: 50 Hz 30-94 kVA; 60 Hz 27-400 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Sunny Boy power classes",
@@ -369,7 +405,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": "3 / 3.6 / 4 / 5 / 6 kW"
+      "value": "3 / 3.6 / 4 / 5 / 6 kW",
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Tripower power classes",
@@ -378,7 +415,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": "8 / 10 / 12 / 15 / 20 / 25 kW"
+      "value": "8 / 10 / 12 / 15 / 20 / 25 kW",
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Tripower X power classes",
@@ -387,7 +425,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": "50 / 60 kW"
+      "value": "50 / 60 kW",
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Highpower PEAK3",
@@ -396,7 +435,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": 125
+      "value": 125,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Sunny Central UP power classes",
@@ -405,7 +445,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": "100 / 150 / 172 / 180 kW"
+      "value": "100 / 150 / 172 / 180 kW",
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Maximum central inverter power",
@@ -414,7 +455,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "high": 4600
+      "high": 4600,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Single-phase inverter limit in Germany",
@@ -423,7 +465,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": 4.6
+      "value": 4.6,
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     },
     {
       "metric": "Grid code",
@@ -432,7 +475,8 @@
       "source": {
         "url": "https://www.sma.de/en/products/solar-inverters"
       },
-      "value": "VDE-AR-N 4105"
+      "value": "VDE-AR-N 4105",
+      "source_url": "https://www.sma.de/en/products/solar-inverters"
     }
   ],
   "vendors": [

@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Provide well access for logging, fishing, cleanout, pumping, completions and interventions from the wellhead platform or an intervention vessel.",
+  "description": "Provide well access for logging, fishing, cleanout, pumping, completions and interventions from the wellhead platform or an intervention vessel. Primary source: https://en.wikipedia.org/wiki/Coiled_tubing",
   "specifications": [
     {
       "metric": "coiled tubing diameter",
@@ -20,7 +20,8 @@
         "source_id": "en-wikipedia-org-wiki-coiled-tubing"
       },
       "low": 1,
-      "high": 3.25
+      "high": 3.25,
+      "source_url": "https://en.wikipedia.org/wiki/Coiled_tubing"
     },
     {
       "metric": "common coiled tubing steel yield strength",
@@ -31,7 +32,8 @@
         "source_id": "en-wikipedia-org-wiki-coiled-tubing"
       },
       "low": 55000,
-      "high": 120000
+      "high": 120000,
+      "source_url": "https://en.wikipedia.org/wiki/Coiled_tubing"
     }
   ],
   "vendors": [

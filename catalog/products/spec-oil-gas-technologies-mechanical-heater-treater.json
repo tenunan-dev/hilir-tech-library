@@ -6,7 +6,7 @@
   "equipment": [
     "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
   "specifications": [
     {
       "metric": "treating capacity",
@@ -16,7 +16,8 @@
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
         "source_id": "specoilandgas-com-oil-processing-mechanical-heater-treater"
       },
-      "value": ">20,000 BLPD, including low-API crude"
+      "value": ">20,000 BLPD, including low-API crude",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - treating capacity",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Sized to duty, including above 20,000 BLPD (barrels of liquid per day)"
+      "value": "Sized to duty, including above 20,000 BLPD (barrels of liquid per day)",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - orientation",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Horizontal, skid-mounted"
+      "value": "Horizontal, skid-mounted",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - crude range",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Including low-API crude"
+      "value": "Including low-API crude",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - heat source",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Firetubes within the heating section"
+      "value": "Firetubes within the heating section",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - control",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Fully automated burner management system"
+      "value": "Fully automated burner management system",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - sections",
@@ -70,7 +76,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Two main sections: heating section and coalescing section"
+      "value": "Two main sections: heating section and coalescing section",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",

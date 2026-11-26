@@ -6,7 +6,7 @@
   "equipment": [
     "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett"
   ],
-  "description": "Vendor product line read 2026-11-24. ISO 17357-1:2014 compliant. Type I net and Type II sling; vertical, low pressure and Mega special types.",
+  "description": "Vendor product line read 2026-11-24. ISO 17357-1:2014 compliant. Type I net and Type II sling; vertical, low pressure and Mega special types. Primary source: https://www.y-yokohama.com/global/product/mb/fenders/floating/",
   "specifications": [
     {
       "metric": "Pneumatic 50 GEA range",
@@ -17,7 +17,8 @@
         "source_id": "y-yokohama-com-floating"
       },
       "low": 6,
-      "high": 6473
+      "high": 6473,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "Pneumatic 80 GEA range",
@@ -28,7 +29,8 @@
         "source_id": "y-yokohama-com-floating"
       },
       "low": 8,
-      "high": 9037
+      "high": 9037,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "initial internal pressure",
@@ -38,7 +40,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",
         "source_id": "y-yokohama-com-floating"
       },
-      "value": "50 or 80"
+      "value": "50 or 80",
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "standard",
@@ -47,7 +50,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": "ISO 17357-1:2014 certified; all Yokohama fenders in full compliance"
+      "value": "ISO 17357-1:2014 certified; all Yokohama fenders in full compliance",
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "initial_internal_pressure_Pneumatic_50",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "initial_internal_pressure_Pneumatic_80",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "initial_internal_pressure_Low_Pressure",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "GEA_range_Pneumatic_50",
@@ -84,7 +91,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 6,
-      "high": 6473
+      "high": 6473,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "GEA_range_Pneumatic_80",
@@ -94,7 +102,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 8,
-      "high": 9037
+      "high": 9037,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "reaction_force_range_Pneumatic_50",
@@ -104,7 +113,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 64,
-      "high": 7984
+      "high": 7984,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "hull_pressure_range_Pneumatic_50",
@@ -114,7 +124,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 122,
-      "high": 158
+      "high": 158,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "testing_pressure_Pneumatic_50",
@@ -124,7 +135,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 200,
-      "high": 250
+      "high": 250,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "safety_valve_setting_Pneumatic_50",
@@ -134,7 +146,8 @@
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
       "low": 175,
-      "high": 175
+      "high": 175,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "size_range_sling_type",
@@ -143,7 +156,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": "Phi 500x1000L - Phi 4500x9000L"
+      "value": "Phi 500x1000L - Phi 4500x9000L",
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     },
     {
       "metric": "inclined_compression_limit",
@@ -152,7 +166,8 @@
       "source": {
         "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/"
     }
   ],
   "url": "https://www.y-yokohama.com/global/product/mb/fenders/floating/",

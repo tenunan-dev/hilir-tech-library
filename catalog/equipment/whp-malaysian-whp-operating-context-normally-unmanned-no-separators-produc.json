@@ -8,7 +8,7 @@
     "MID",
     "CIV"
   ],
-  "description": "Read pages establish that Anjung Kecil WHP is a Tarpon \"minimum facility and unmanned platform typically installed in shallow water\", tied to the MaMPU-1 FPSO which carries crude stabilisation (Sep-iSYS), a low-pressure condensate recovery unit and storage. The NUI articles describe remote operation with occasional visits and emergency shelter. 2H describes an unmanned MFP tied back by flexible flowline. The specific claims of no separators/produced-water treatment/gas compression onboard and fo",
+  "description": "Read pages establish that Anjung Kecil WHP is a Tarpon \"minimum facility and unmanned platform typically installed in shallow water\", tied to the MaMPU-1 FPSO which carries crude stabilisation (Sep-iSYS), a low-pressure condensate recovery unit and storage. The NUI articles describe remote operation with occasional visits and emergency shelter. 2H describes an unmanned MFP tied back by flexible flowline. The specific claims of no separators/produced-water treatment/gas compression onboard and fo Primary source: https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
   "aliases": [
     "Malaysian WHP operating context: normally unmanned, no separators/produced-water treatment/gas compression onboard (all on CPP/FSO/MOPU), pe"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
         "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
-      }
+      },
+      "source_url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field"
     },
     {
       "metric": "Host FPSO / MOPU with processing (MaMPU- — FPSO oil production capacity",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
         "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
-      }
+      },
+      "source_url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field"
     },
     {
       "metric": "Host FPSO / MOPU with processing (MaMPU- — FPSO gas handling capacity",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
         "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
-      }
+      },
+      "source_url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field"
     },
     {
       "metric": "Host FPSO / MOPU with processing (MaMPU- — Incremental oil from LP-CRS",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
         "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
-      }
+      },
+      "source_url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field"
     },
     {
       "metric": "Host FPSO / MOPU with processing (MaMPU- — Flaring emissions reduction",
@@ -67,7 +71,8 @@
       "source": {
         "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
         "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
-      }
+      },
+      "source_url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field"
     },
     {
       "metric": "Host FPSO / MOPU with processing (MaMPU- — Dynamic subsea power cable",
@@ -77,7 +82,8 @@
       "source": {
         "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
         "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
-      }
+      },
+      "source_url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field"
     },
     {
       "metric": "KMSE / AJK WHPs (PETRONAS Carigali) — Water depth",
@@ -88,7 +94,8 @@
       "source": {
         "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
         "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
-      }
+      },
+      "source_url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil"
     },
     {
       "metric": "KMSE / AJK WHPs (PETRONAS Carigali) — Design life",
@@ -98,7 +105,8 @@
       "source": {
         "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
         "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
-      }
+      },
+      "source_url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil"
     },
     {
       "metric": "KMSE / AJK WHPs (PETRONAS Carigali) — Distance offshore",
@@ -108,7 +116,8 @@
       "source": {
         "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
         "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
-      }
+      },
+      "source_url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil"
     },
     {
       "metric": "Price — Kebabangan FEED contract value (USD-equivalent as printed)",
@@ -119,7 +128,8 @@
         "url": "https://www.offshore-technology.com/projects/kebabangan-field",
         "source_id": "offshore-technology-com-projects-kebabangan-field"
       },
-      "year": 2016
+      "year": 2016,
+      "source_url": "https://www.offshore-technology.com/projects/kebabangan-field"
     },
     {
       "metric": "Price — Kebabangan topsides fabrication contract",
@@ -130,7 +140,8 @@
         "url": "https://www.offshore-technology.com/projects/kebabangan-field",
         "source_id": "offshore-technology-com-projects-kebabangan-field"
       },
-      "year": 2011
+      "year": 2011,
+      "source_url": "https://www.offshore-technology.com/projects/kebabangan-field"
     }
   ],
   "vendor_models": [],

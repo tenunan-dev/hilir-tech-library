@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Bucket elevators",
+  "description": "Bucket elevators Primary source: https://en.wikipedia.org/wiki/Bucket_elevator",
   "specifications": [
     {
       "metric": "continuous discharge speed",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Bucket_elevator",
         "source_id": "en-wikipedia-org-wiki-bucket-elevator"
       },
-      "value": 6
+      "value": 6,
+      "source_url": "https://en.wikipedia.org/wiki/Bucket_elevator"
     },
     {
       "metric": "construction",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Bucket_elevator",
         "source_id": "en-wikipedia-org-wiki-bucket-elevator"
       },
-      "value": "buckets, belt carrying buckets and transmitting pull, drive, loading/discharge accessories, belt tensioning, enclosure"
+      "value": "buckets, belt carrying buckets and transmitting pull, drive, loading/discharge accessories, belt tensioning, enclosure",
+      "source_url": "https://en.wikipedia.org/wiki/Bucket_elevator"
     },
     {
       "metric": "materials handled",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Bucket_elevator",
         "source_id": "en-wikipedia-org-wiki-bucket-elevator"
       },
-      "value": "grain or fertilizer (explicitly named)"
+      "value": "grain or fertilizer (explicitly named)",
+      "source_url": "https://en.wikipedia.org/wiki/Bucket_elevator"
     }
   ],
   "vendors": [

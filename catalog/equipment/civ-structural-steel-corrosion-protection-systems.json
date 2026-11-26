@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Protect structural steel from atmospheric and process corrosion via barrier coatings, galvanizing, metallizing or weathering steel; often specified in a system with primer/intermediate/topcoat and DFT schedule.",
+  "description": "Protect structural steel from atmospheric and process corrosion via barrier coatings, galvanizing, metallizing or weathering steel; often specified in a system with primer/intermediate/topcoat and DFT schedule. Primary source: https://americansteelandaluminum.com/resources/materials/a992-steel",
   "specifications": [
     {
       "metric": "Weathering steel grades",
@@ -19,7 +19,8 @@
         "url": "https://americansteelandaluminum.com/resources/materials/a992-steel",
         "source_id": "americansteelandaluminum-com-materials-a992-steel"
       },
-      "value": "ASTM A588 Grade 50 / A242 Grade 42, 46, 50"
+      "value": "ASTM A588 Grade 50 / A242 Grade 42, 46, 50",
+      "source_url": "https://americansteelandaluminum.com/resources/materials/a992-steel"
     }
   ],
   "vendors": [

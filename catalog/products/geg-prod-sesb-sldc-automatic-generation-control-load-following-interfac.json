@@ -6,7 +6,7 @@
   "equipment": [
     "geg-utility-scada-and-automatic-generation-control-integration"
   ],
-  "description": "grid dispatch and AGC interface",
+  "description": "grid dispatch and AGC interface Primary source: https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
   "specifications": [
     {
       "metric": "AGC command signal",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "AGC participation requirement",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "secondary reserve (AGC/manual dispatch) response",
@@ -37,7 +39,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "primary reserve (free governor) response",
@@ -48,7 +51,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "pre-COD AGC test requirement",
@@ -58,7 +62,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "operational metering to SCADA",
@@ -68,7 +73,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Nominal AC frequency",
@@ -78,7 +84,8 @@
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "catpar-r-jina-ai-sabah-20grid-20code-pdf-f142bf8"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "CDGU threshold - synchronous",
@@ -87,7 +94,8 @@
       "source": {
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "CDGU threshold - power park module",
@@ -96,7 +104,8 @@
       "source": {
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Distribution network voltage",
@@ -105,7 +114,8 @@
       "source": {
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "33 kV or below"
+      "value": "33 kV or below",
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Standard time",
@@ -114,7 +124,8 @@
       "source": {
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "Malaysian Standard Time (UTC/GMT + 8 hours)"
+      "value": "Malaysian Standard Time (UTC/GMT + 8 hours)",
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "AGC",
@@ -123,7 +134,8 @@
       "source": {
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "Automatic Generation Control"
+      "value": "Automatic Generation Control",
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "GSO responsibility",
@@ -132,7 +144,8 @@
       "source": {
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "overall coordination of operation, maintenance and control; generation Dispatch; monitoring and control"
+      "value": "overall coordination of operation, maintenance and control; generation Dispatch; monitoring and control",
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Scheduling codes",
@@ -141,7 +154,8 @@
       "source": {
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "SDC1 Generation Scheduling; SDC2 Control, Scheduling and Dispatch; SDC3 Frequency and Transfer Control"
+      "value": "SDC1 Generation Scheduling; SDC2 Control, Scheduling and Dispatch; SDC3 Frequency and Transfer Control",
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Operating codes",
@@ -150,7 +164,8 @@
       "source": {
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "OC1 to OC11 (demand forecasting, operational planning, operating reserve, demand control, liaison, incident reporting, restoration, safety, numbering, testing/monitoring, system tests)"
+      "value": "OC1 to OC11 (demand forecasting, operational planning, operating reserve, demand control, liaison, incident reporting, restoration, safety, numbering, testing/monitoring, system tests)",
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Enactment",
@@ -159,7 +174,8 @@
       "source": {
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "Electricity Supply Enactment 2024 and regulations made thereunder"
+      "value": "Electricity Supply Enactment 2024 and regulations made thereunder",
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Grid Code sections",
@@ -168,7 +184,8 @@
       "source": {
         "url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "General Conditions; Planning Code; Connection Conditions; Operating Codes 1-11; Scheduling and Dispatch Codes 1-3; Metering Code"
+      "value": "General Conditions; Planning Code; Connection Conditions; Operating Codes 1-11; Scheduling and Dispatch Codes 1-3; Metering Code",
+      "source_url": "https://r.jina.ai/https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     }
   ],
   "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",

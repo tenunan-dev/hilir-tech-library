@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Commissioning equipment and consumables for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Commissioning equipment and consumables for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
   "aliases": [
     "Commissioning equipment and consumables"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Castrol Duratec L / ExxonMobil Mobil P — SAE viscosity class for listed approved/alternative oils",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "ANTIFREEZE / corrosion inhibitor and A — permissible ethylene-glycol antifreeze concentration",
@@ -51,7 +53,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "MAN 175D post-commissioning filter pac — number of standardised spare parts packages",
@@ -62,7 +65,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Gas-engine lubricating oil and use — viscosity grade stipulated for gas engines",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Gas-engine lubricating oil and use — oil sample interval, Series 4000 gas engines",
@@ -83,7 +88,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Gas-engine lubricating oil and use — used gas engine oil viscosity at 100 C, Series 4000",
@@ -95,7 +101,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Gas-engine lubricating oil and use — water in used gas engine oil",
@@ -106,7 +113,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf",
         "source_id": "geg-r-jina-ai-a001072-02-e-pdf-969d53b"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "MAN 175D commissioning and post-co — post-commissioning package content",
@@ -116,7 +124,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D commissioning and post-co — mechanical package contents",
@@ -126,7 +135,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D commissioning and post-co — after-treatment package contents",
@@ -136,7 +146,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D commissioning and post-co — automation package contents",
@@ -146,7 +157,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Approved engine oil - Castrol Duratec L",
@@ -155,7 +167,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Castrol Duratec L"
+      "value": "Castrol Duratec L",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Approved engine oil - ExxonMobil Mobil Pegasus 705",
@@ -164,7 +177,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Mobil Pegasus 705"
+      "value": "Mobil Pegasus 705",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Approved engine oil - ExxonMobil Mobil Pegasus 805",
@@ -173,7 +187,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Mobil Pegasus 805 (55 gallons: 23538056)"
+      "value": "Mobil Pegasus 805 (55 gallons: 23538056)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Approved engine oil - ExxonMobil Mobil Pegasus 1005",
@@ -182,7 +197,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Mobil Pegasus 1005 (55 gallon drum: 800019)"
+      "value": "Mobil Pegasus 1005 (55 gallon drum: 800019)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Approved engine oil - MTU GEO NG Power X2L",
@@ -191,7 +207,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "MTU Friedrichshafen GEO NG Power X2L"
+      "value": "MTU Friedrichshafen GEO NG Power X2L",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Approved engine oil - MTU GEO NG Power X3L",
@@ -200,7 +217,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "MTU Friedrichshafen GEO NG Power X3L"
+      "value": "MTU Friedrichshafen GEO NG Power X3L",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Engine oil viscosity grade stipulation",
@@ -209,7 +227,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "Viscosity grade SAE 40 is stipulated for gas engines. Multigrade oils are not permitted."
+      "value": "Viscosity grade SAE 40 is stipulated for gas engines. Multigrade oils are not permitted.",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Oil sample frequency for change-interval determination",
@@ -218,7 +237,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used gas engine oil viscosity at 100 C - Series 4000",
@@ -228,7 +248,8 @@
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
       "value": 17.5,
-      "high": 17.5
+      "high": 17.5,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used gas engine oil total base number (TBN) - Series 4000",
@@ -237,7 +258,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": 2.5
+      "value": 2.5,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used gas engine oil water - both series",
@@ -246,7 +268,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Used gas engine oil wear metals - iron",
@@ -256,7 +279,8 @@
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
       "low": 30,
-      "high": 50
+      "high": 50,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Silicon operational limit SiBG - with catalytic exhaust gas cleaning",
@@ -265,7 +289,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": 0
+      "value": 0,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Post-commissioning package - contents",
@@ -274,7 +299,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Filters for lubrication oil, fuel and air; relevant gaskets for valve-clearance adjustment; spare fuel injector"
+      "value": "Filters for lubrication oil, fuel and air; relevant gaskets for valve-clearance adjustment; spare fuel injector",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Exhaust gas after treatment package - contents",
@@ -283,7 +309,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Urea filters, spare urea injectors and NOx reduction components"
+      "value": "Urea filters, spare urea injectors and NOx reduction components",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Automation package - contents",
@@ -292,7 +319,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Selection of sensors: speed, pressure, float switch and temperature"
+      "value": "Selection of sensors: speed, pressure, float switch and temperature",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D engine - configuration",
@@ -301,7 +329,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "V type, available with 12, 16 or 20 cylinders; 175 mm bore"
+      "value": "V type, available with 12, 16 or 20 cylinders; 175 mm bore",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D engine - speed range",
@@ -311,7 +340,8 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
       "low": 1500,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D engine - power ratings",
@@ -321,7 +351,8 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
       "low": 1440,
-      "high": 4400
+      "high": 4400,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D - service network",
@@ -330,7 +361,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Over 100 service centers worldwide; 24/7 service"
+      "value": "Over 100 service centers worldwide; 24/7 service",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Shell Mysella S5 N 40 SAE grade",
@@ -339,7 +371,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Shell Mysella S3 N 40 SAE grade",
@@ -348,7 +381,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Approved engine family",
@@ -357,7 +391,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "MTU gas engines / gas engine-generator sets (Series 4000 marine and generator application; Series 400 engine-generator set)"
+      "value": "MTU gas engines / gas engine-generator sets (Series 4000 marine and generator application; Series 400 engine-generator set)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     },
     {
       "metric": "Publication reference",
@@ -366,7 +401,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
       },
-      "value": "A001072/02E"
+      "value": "A001072/02E",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/download/technical-info/betriebsstoffvorschrift_en/A001072_02_E.pdf/_jcr_content/renditions/original./A001072_02_E.pdf"
     }
   ],
   "vendor_models": [

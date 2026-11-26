@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Remove bulk free water before downstream heating/chemical treating; remove sand/solids from wellstream or produced water upstream of separation and oil-in-water separation.",
+  "description": "Remove bulk free water before downstream heating/chemical treating; remove sand/solids from wellstream or produced water upstream of separation and oil-in-water separation. Primary source: https://www.specoilandgas.com/equipment/phase-separation/free-water-knock-out",
   "specifications": [
     {
       "metric": "FWKO suitable duty",
@@ -19,7 +19,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/free-water-knock-out",
         "source_id": "specoilandgas-com-phase-separation-free-water-knock-out"
       },
-      "value": "separate-phase water only; not stable emulsions"
+      "value": "separate-phase water only; not stable emulsions",
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/free-water-knock-out"
     }
   ],
   "vendors": [

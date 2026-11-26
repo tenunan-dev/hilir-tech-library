@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Gather flow from multiple wells, route to production/test headers, distribute injection fluids and chemicals, and provide isolation and pigging interfaces.",
+  "description": "Gather flow from multiple wells, route to production/test headers, distribute injection fluids and chemicals, and provide isolation and pigging interfaces. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

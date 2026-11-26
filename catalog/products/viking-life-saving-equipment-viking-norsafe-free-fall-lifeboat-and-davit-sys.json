@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Also VNJY 40/52-person compact enclosed lifeboats.",
+  "description": "Vendor product line read 2026-11-24. Also VNJY 40/52-person compact enclosed lifeboats. Primary source: https://www.viking-life.com/product-insights",
   "specifications": [
     {
       "metric": "approved free-fall drop height",
@@ -16,7 +16,8 @@
         "url": "https://www.viking-life.com/product-insights",
         "source_id": "viking-life-com-www-viking-life-com-product-insights"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.viking-life.com/product-insights"
     },
     {
       "metric": "VIKING Norsafe free-fall lifeboat - approved drop height",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.viking-life.com/product-insights"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.viking-life.com/product-insights"
     },
     {
       "metric": "VIKING Norsafe - heritage",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.viking-life.com/product-insights"
       },
-      "value": "Dating back to 1903"
+      "value": "Dating back to 1903",
+      "source_url": "https://www.viking-life.com/product-insights"
     },
     {
       "metric": "VIKING Norsafe free-fall lifeboat - design",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.viking-life.com/product-insights"
       },
-      "value": "Fast-boarding and robust, extensively tested for harshest conditions; designed for rapid evacuation"
+      "value": "Fast-boarding and robust, extensively tested for harshest conditions; designed for rapid evacuation",
+      "source_url": "https://www.viking-life.com/product-insights"
     }
   ],
   "url": "https://www.viking-life.com/product-insights",

@@ -6,7 +6,7 @@
   "equipment": [
     "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett"
   ],
-  "description": "Vendor product line read 2026-11-24. SX-P and SH-P embed a steel plate for UHMW-PE or steel panel mounting.",
+  "description": "Vendor product line read 2026-11-24. SX-P and SH-P embed a steel plate for UHMW-PE or steel panel mounting. Primary source: https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
   "specifications": [
     {
       "metric": "SX standard heights",
@@ -17,7 +17,8 @@
         "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
       },
       "low": 250,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "standard lengths",
@@ -28,7 +29,8 @@
         "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
       },
       "low": 1000,
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "SX 1000 width",
@@ -38,7 +40,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-v-fenders-html"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "Standard height range",
@@ -48,7 +51,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
       },
       "low": 250,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "Standard length range",
@@ -58,7 +62,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
       },
       "low": 1000,
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "Model variants",
@@ -67,7 +72,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "SX fender sizes (H x W)",
@@ -75,7 +81,8 @@
       "basis": "Dimensions SX table: SX 250 (H 250, W 500, w 200, t 18, C 178, PW 400, anchors M24) through SX 1000 (H 1000, W 1800, w 800, t 47, C 610, PW 1550, anchors M48)",
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
-      }
+      },
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "SH fender sizes (H x W)",
@@ -83,7 +90,8 @@
       "basis": "Dimensions SH table: SH 250 (H 250, W 625, w 280, t 18, C 203, PW 530, M24) through SH 1000 (H 1000, W 2200, w 1125, t 40, C 663, PW 2000, M48)",
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
-      }
+      },
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "SX-P embedded plate thickness K",
@@ -93,7 +101,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
       },
       "low": 40,
-      "high": 80
+      "high": 80,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     },
     {
       "metric": "Applications",
@@ -101,7 +110,8 @@
       "basis": "\"SX Fenders: General Cargo Terminals, Berth for tug boats; SH Fenders: General Cargo Terminals, Berth for tug boats with the need for low hull pressure; SX and SH: Multi-Purpose-Terminals, RoRo ramps, Passenger Vessel Terminals, Barge\"",
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
-      }
+      },
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html"
     }
   ],
   "url": "https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",

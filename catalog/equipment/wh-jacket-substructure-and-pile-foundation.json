@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Transfers topside and environmental loads to the seabed; piles are driven through jacket legs or skirt sleeves and fixed by grouting, welding or swaging.",
+  "description": "Transfers topside and environmental loads to the seabed; piles are driven through jacket legs or skirt sleeves and fixed by grouting, welding or swaging. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
   "specifications": [
     {
       "metric": "open-ended tubular steel pile diameter",
@@ -19,7 +19,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
-      "high": 2
+      "high": 2,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "pile penetration",
@@ -30,7 +31,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
       "low": 40,
-      "high": 80
+      "high": 80,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "sacrificial anode mass",
@@ -40,7 +42,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "anode mass as fraction of jacket weight",
@@ -50,7 +53,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "splash zone corrosion allowance",
@@ -60,7 +64,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     }
   ],
   "vendors": [

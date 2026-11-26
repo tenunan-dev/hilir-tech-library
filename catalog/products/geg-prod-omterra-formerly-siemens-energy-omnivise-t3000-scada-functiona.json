@@ -6,7 +6,7 @@
   "equipment": [
     "geg-utility-scada-and-automatic-generation-control-integration"
   ],
-  "description": "power plant SCADA / centralized fleet control",
+  "description": "power plant SCADA / centralized fleet control Primary source: https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
   "specifications": [
     {
       "metric": "SCADA role",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
         "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "Installations worldwide",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "Plants supported by services",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
       },
-      "value": 900
+      "value": 900,
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "Remote Expert Centers experts",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "Cybersecurity certification",
@@ -51,7 +55,8 @@
       "basis": "\"Omnivise T3000 is certified by TÜV SÜD according to IEC 62443 ... and is built for Security Level 3 (SL 3) readiness\"",
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "Release",
@@ -60,7 +65,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
       },
-      "value": 10.2
+      "value": 10.2,
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "Simulator standard",
@@ -68,7 +74,8 @@
       "basis": "\"The fully integrated, ANSI compliant T3000 Simulator expands the system's possibilities\"",
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "Integration standards",
@@ -76,7 +83,8 @@
       "basis": "\"incorporates standards like IEC 61850 to integrate third-party systems and ensures secure operations through VPNs and data encryption\"",
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "SCADA functionality",
@@ -84,7 +92,8 @@
       "basis": "\"a scalable SCADA system enables you to prepare for future opportunities and requirements like direct marketing or integration of hydropower\"",
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     }
   ],
   "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",

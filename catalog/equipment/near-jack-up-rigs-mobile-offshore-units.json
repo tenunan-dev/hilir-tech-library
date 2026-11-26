@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Mobile self-elevating drilling/workover platform with independent legs and jack houses; used for nearshore and shelf drilling.",
+  "description": "Mobile self-elevating drilling/workover platform with independent legs and jack houses; used for nearshore and shelf drilling. Primary source: https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
   "specifications": [
     {
       "metric": "jack-up standard (elevated at a site)",
@@ -19,7 +19,8 @@
         "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
         "source_id": "iso-org-d-0"
       },
-      "value": "ISO 19905-1:2023 (Amd 1:2025 corrections to tubular member strength, Table B-2, simplified free-field liquefaction method)"
+      "value": "ISO 19905-1:2023 (Amd 1:2025 corrections to tubular member strength, Table B-2, simplified free-field liquefaction method)",
+      "source_url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0"
     },
     {
       "metric": "jack-up installation/removal standard",
@@ -29,7 +30,8 @@
         "url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0",
         "source_id": "iso-org-d-0"
       },
-      "value": "ISO 19905-4:2026"
+      "value": "ISO 19905-4:2026",
+      "source_url": "https://www.iso.org/committee/49622/x/catalogue/p/0/u/1/w/0/d/0"
     },
     {
       "metric": "jack-ups within fixed steel structure standard scope",
@@ -39,7 +41,8 @@
         "url": "https://www.iso.org/standard/65688.html",
         "source_id": "iso-org-standard-65688-html"
       },
-      "value": "included (site-specific assessment referred to ISO 19905-1)"
+      "value": "included (site-specific assessment referred to ISO 19905-1)",
+      "source_url": "https://www.iso.org/standard/65688.html"
     },
     {
       "metric": "self-erected tender rig & derrick equipment set KM-I tonnage",
@@ -49,7 +52,8 @@
         "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
         "source_id": "vantrisenergy-com-engineering-construction-track-record"
       },
-      "value": 8750
+      "value": 8750,
+      "source_url": "https://vantrisenergy.com/services/engineering-construction/track-record"
     }
   ],
   "vendors": [

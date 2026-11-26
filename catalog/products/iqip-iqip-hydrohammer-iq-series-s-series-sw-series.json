@@ -6,7 +6,7 @@
   "equipment": [
     "civ-driven-precast-piles-concrete-steel-h-steel-pipe"
   ],
-  "description": "Vendor product line read 2026-11-24. >5.5 million piles installed; >97% availability stated.",
+  "description": "Vendor product line read 2026-11-24. >5.5 million piles installed; >97% availability stated. Primary source: https://iqip.com/products/pile-driving-equipment/hydrohammer",
   "specifications": [
     {
       "metric": "IQ8 blow energy",
@@ -16,7 +16,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": ">7,500"
+      "value": ">7,500",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "total range",
@@ -26,7 +27,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": "30 to >7,500"
+      "value": "30 to >7,500",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "SW-series water depth",
@@ -36,7 +38,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": "up to 2,000"
+      "value": "up to 2,000",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "IQ2 blow energy",
@@ -46,7 +49,8 @@
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf",
         "source_id": "catpar-26117396-fs1-hubspotusercontent-eu1-net-iq-s-5d219be"
       },
-      "value": 3600
+      "value": 3600,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "IQ4 blow energy",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "value": 4800
+      "value": 4800,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "IQ6 blow energy",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "value": 6600
+      "value": 6600,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "IQ8 blow energy",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "low": 7500
+      "low": 7500,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "IQ-series models",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "value": "IQ2, IQ4, IQ6, IQ8"
+      "value": "IQ2, IQ4, IQ6, IQ8",
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "Continuous operation",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "value": "100% energy capacity"
+      "value": "100% energy capacity",
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "Power boost",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": 120
+      "value": 120,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Operating angle",
@@ -110,7 +120,8 @@
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
       "low": 0,
-      "high": 90
+      "high": 90,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "Sleeve size",
@@ -119,7 +130,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "high": 9.3
+      "high": 9.3,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "SW-series water depth",
@@ -128,7 +140,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Installed piles",
@@ -137,7 +150,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "5,5 Million piles globally"
+      "value": "5,5 Million piles globally",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Industry experience",
@@ -146,7 +160,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     }
   ],
   "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",

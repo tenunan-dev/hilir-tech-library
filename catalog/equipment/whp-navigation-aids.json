@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Offshore structures are marked as a single unit, block or field under IALA G1162: white main/secondary lanterns flashing Morse U, red subsidiary lights, ID panels, fog signals, racon and optional aviation obstruction lighting.",
+  "description": "Offshore structures are marked as a single unit, block or field under IALA G1162: white main/secondary lanterns flashing Morse U, red subsidiary lights, ID panels, fog signals, racon and optional aviation obstruction lighting. Primary source: https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
   "aliases": [
     "Navigation aids (fog horn, marine lanterns, aircraft obstruction lighting, racon/marine radar transponder)"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
         "source_id": "whp-msmoffshore-com"
-      }
+      },
+      "source_url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/"
     },
     {
       "metric": "Main and secondary marine lanterns (IALA — Subsidiary light range",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
         "source_id": "whp-msmoffshore-com"
-      }
+      },
+      "source_url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/"
     },
     {
       "metric": "Fog signal (main/secondary) — Main sound range",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
         "source_id": "whp-msmoffshore-com"
-      }
+      },
+      "source_url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/"
     },
     {
       "metric": "Fog signal (main/secondary) — Secondary sound range",
@@ -55,7 +58,8 @@
       "source": {
         "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
         "source_id": "whp-msmoffshore-com"
-      }
+      },
+      "source_url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/"
     },
     {
       "metric": "Fog signal (main/secondary) — Independent power autonomy",
@@ -65,7 +69,8 @@
       "source": {
         "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
         "source_id": "whp-msmoffshore-com"
-      }
+      },
+      "source_url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/"
     },
     {
       "metric": "Phalcon-EX-SS Zone 1 racon — Weight",
@@ -75,7 +80,8 @@
       "source": {
         "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
         "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
-      }
+      },
+      "source_url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf"
     },
     {
       "metric": "Phalcon-EX-SS Zone 1 racon — Input voltage",
@@ -86,7 +92,8 @@
       "source": {
         "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
         "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
-      }
+      },
+      "source_url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf"
     },
     {
       "metric": "Phalcon-EX-SS Zone 1 racon — Average power",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
         "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
-      }
+      },
+      "source_url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf"
     },
     {
       "metric": "Phalcon-EX-SS Zone 1 racon — Antenna gain",
@@ -107,7 +115,8 @@
       "source": {
         "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
         "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
-      }
+      },
+      "source_url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf"
     },
     {
       "metric": "Zone 1 Nav Aid Skid System — Battery backup autonomy",
@@ -117,7 +126,8 @@
       "source": {
         "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
         "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
-      }
+      },
+      "source_url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf"
     },
     {
       "metric": "Zone 1 Nav Aid Skid System — FA-250 10NM lantern power",
@@ -127,7 +137,8 @@
       "source": {
         "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
         "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
-      }
+      },
+      "source_url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf"
     },
     {
       "metric": "Zone 1 Nav Aid Skid System — ICAO Type A obstruction light",
@@ -137,7 +148,8 @@
       "source": {
         "url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf",
         "source_id": "whp-automaticpower-com-pmap-og-2024-online-pdf"
-      }
+      },
+      "source_url": "https://www.automaticpower.com/images/Catalogues/PMAP_OG_2024_ONLINE.pdf"
     },
     {
       "metric": "Reliability — Independent power autonomy",
@@ -147,7 +159,8 @@
       "source": {
         "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
         "source_id": "whp-msmoffshore-com"
-      }
+      },
+      "source_url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/"
     }
   ],
   "vendor_models": [],

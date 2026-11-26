@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Gather and distribute production/injection flows, enable testing, isolation, sampling, metering and allocation; provide tie-in termination of flowlines and risers.",
+  "description": "Gather and distribute production/injection flows, enable testing, isolation, sampling, metering and allocation; provide tie-in termination of flowlines and risers. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
   "specifications": [
     {
       "metric": "Manifold water depth capability",
@@ -19,7 +19,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "Manifold pressure",
@@ -29,7 +30,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "Manifold temperature",
@@ -39,7 +41,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds",
         "source_id": "sys-onesubsea-slb-com-subsea-manifolds"
       },
-      "value": 175
+      "value": 175,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-manifolds"
     },
     {
       "metric": "Manifold pressure rating",
@@ -49,7 +52,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
         "source_id": "technipfmc-com-manifolds"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Manifold temperature rating",
@@ -59,7 +63,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
         "source_id": "technipfmc-com-manifolds"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Connection diameter",
@@ -69,7 +74,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
         "source_id": "technipfmc-com-manifolds"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Pressure",
@@ -79,7 +85,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
         "source_id": "technipfmc-com-manifolds"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Temperature",
@@ -89,7 +96,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
         "source_id": "technipfmc-com-manifolds"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Pressure rating",
@@ -98,7 +106,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
       },
-      "value": "Up to 20K"
+      "value": "Up to 20K",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Temperature rating",
@@ -107,7 +116,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
       },
-      "value": "Up to 350"
+      "value": "Up to 350",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Equipment types",
@@ -116,7 +126,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
       },
-      "value": "traditional pipe, template, sleds, pipeline end manifolds (PLEM), pipeline end terminations (PLET), jumpers"
+      "value": "traditional pipe, template, sleds, pipeline end manifolds (PLEM), pipeline end terminations (PLET), jumpers",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Connection options",
@@ -125,7 +136,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
       },
-      "value": "vertical or horizontal connections"
+      "value": "vertical or horizontal connections",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Foundation options",
@@ -134,7 +146,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
       },
-      "value": "foundations or mudmats, pigging loops, flow meters, mounted controls"
+      "value": "foundations or mudmats, pigging loops, flow meters, mounted controls",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Valve options",
@@ -143,7 +156,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
       },
-      "value": "robotic valve control, electric actuators or manual valves"
+      "value": "robotic valve control, electric actuators or manual valves",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     },
     {
       "metric": "Installation",
@@ -152,7 +166,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
       },
-      "value": "inline design for installation with flowline; eliminates need for heavy lift vessel; eliminates pipe and welding"
+      "value": "inline design for installation with flowline; eliminates need for heavy lift vessel; eliminates pipe and welding",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/"
     }
   ],
   "vendors": [

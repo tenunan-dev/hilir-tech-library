@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Small vertically moored wellhead or utility platform for satellite/early production, using tensioned tendons to support dry trees at lower cost than a full TLP.",
+  "description": "Small vertically moored wellhead or utility platform for satellite/early production, using tensioned tendons to support dry trees at lower cost than a full TLP. Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "water depth",
@@ -20,7 +20,8 @@
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "low": 180,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     }
   ],
   "vendors": [

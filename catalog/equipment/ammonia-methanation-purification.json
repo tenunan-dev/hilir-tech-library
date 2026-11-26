@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Methanation and syngas drying/purification",
+  "description": "Methanation and syngas drying/purification Primary source: https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation",
   "specifications": [
     {
       "metric": "PK-5 ring-shaped methanation catalyst pressure-drop reduction",
@@ -20,7 +20,8 @@
         "source_id": "topsoe-com-ammonia-ammonia-methanation"
       },
       "low": 30,
-      "high": 70
+      "high": 70,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     },
     {
       "metric": "Methanation reactions",
@@ -30,7 +31,8 @@
         "url": "https://en.wikipedia.org/wiki/Haber_process",
         "source_id": "en-wikipedia-org-wiki-haber-process"
       },
-      "value": "CO + 3H2 -> CH4 + H2O; CO2 + 4H2 -> CH4 + 2H2O"
+      "value": "CO + 3H2 -> CH4 + H2O; CO2 + 4H2 -> CH4 + 2H2O",
+      "source_url": "https://en.wikipedia.org/wiki/Haber_process"
     },
     {
       "metric": "Typical methanation section pressure",
@@ -41,7 +43,8 @@
         "source_id": "en-wikipedia-org-wiki-haber-process"
       },
       "low": 25,
-      "high": 35
+      "high": 35,
+      "source_url": "https://en.wikipedia.org/wiki/Haber_process"
     },
     {
       "metric": "SynCOR syngas cleaning",
@@ -51,7 +54,8 @@
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
       },
-      "value": "nitrogen wash with purge and nitrogen addition"
+      "value": "nitrogen wash with purge and nitrogen addition",
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     },
     {
       "metric": "Pressure drop reduction vs sphere/cylinder catalysts",
@@ -62,7 +66,8 @@
         "source_id": "topsoe-com-ammonia-ammonia-methanation"
       },
       "low": 30,
-      "high": 70
+      "high": 70,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     },
     {
       "metric": "Pressure drop reduction vs conventional shapes",
@@ -72,7 +77,8 @@
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
       },
       "low": 30,
-      "high": 70
+      "high": 70,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     },
     {
       "metric": "Function",
@@ -80,7 +86,8 @@
       "basis": "Topsoe: 'PK-5 catalyst — A catalyst for conversion of carbon oxides to methane.'",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     },
     {
       "metric": "Form",
@@ -88,7 +95,8 @@
       "basis": "Topsoe: 'ring-shaped PK-5'",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     },
     {
       "metric": "Related catalyst PK-7R",
@@ -96,7 +104,8 @@
       "basis": "Topsoe: 'PK-7R catalyst — A pre-reduced methanation catalyst used for conversion of carbon oxides to methane in ammonia plants, hydrogen plants and SNG plants.'",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     }
   ],
   "vendors": [

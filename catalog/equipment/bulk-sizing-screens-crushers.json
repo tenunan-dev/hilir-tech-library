@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Sizing screens and crushers",
+  "description": "Sizing screens and crushers Primary source: https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
   "specifications": [
     {
       "metric": "screen type",
@@ -19,7 +19,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": "double-deck screen separates product size from over- and undersize granules"
+      "value": "double-deck screen separates product size from over- and undersize granules",
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "crusher type",
@@ -29,7 +30,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": "double roller type crusher for oversize granules; crushed oversize recycled with undersize as seeds"
+      "value": "double roller type crusher for oversize granules; crushed oversize recycled with undersize as seeds",
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "product size fraction",
@@ -39,7 +41,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "crusher setting optimization",
@@ -49,7 +52,8 @@
         "url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/",
         "source_id": "ureaknowhow-com-fluid-bed-granulation-optimization"
       },
-      "value": "proper settings of the crusher listed as an issue solved by UreaKnowHow FBG optimisation services"
+      "value": "proper settings of the crusher listed as an issue solved by UreaKnowHow FBG optimisation services",
+      "source_url": "https://ureaknowhow.com/fluid-bed-granulation-optimization/"
     }
   ],
   "vendors": [

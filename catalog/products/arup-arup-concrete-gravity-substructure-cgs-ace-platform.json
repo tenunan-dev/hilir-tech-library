@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. page_read=true",
+  "description": "Vendor product line read 2026-11-24. page_read=true Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure",
   "specifications": [
     {
       "metric": "concept",
@@ -16,7 +16,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": "dry-build, fully removable, inclined installation technique"
+      "value": "dry-build, fully removable, inclined installation technique",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "CGS concept first developed year",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 1989
+      "value": 1989,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Installation technique",
@@ -33,7 +35,8 @@
       "basis": "'Typical for the Arup CGS is the inclined installation technique'",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Removability",
@@ -41,7 +44,8 @@
       "basis": "'The Arup CGS are designed to be simple to install, and are fully removable'",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Construction attributes",
@@ -49,7 +53,8 @@
       "basis": "'low reinforcement and pre-stress densities as well as the use of normal density concrete'",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Economic water depth threshold",
@@ -58,7 +63,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "N. Ravenspurn CGS (Arup) water depth",
@@ -67,7 +73,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 42
+      "value": 42,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Wandoo CGS (Arup) water depth",
@@ -76,7 +83,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 54
+      "value": 54,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Malampaya CGS (Arup) water depth",
@@ -85,7 +93,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 43
+      "value": 43,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "West White Rose GBS Monotower (Arup) water depth",
@@ -94,7 +103,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 118
+      "value": 118,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",

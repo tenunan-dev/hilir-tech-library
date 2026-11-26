@@ -8,7 +8,7 @@
     "INS",
     "PRC"
   ],
-  "description": "Obtain a representative, cooled sample for TDS/conductivity, pH, phosphate, silica, sulphite and iron testing without flash loss or scalding; increasingly use continuous online analysers linked to automatic blowdown and dosing control.",
+  "description": "Obtain a representative, cooled sample for TDS/conductivity, pH, phosphate, silica, sulphite and iron testing without flash loss or scalding; increasingly use continuous online analysers linked to automatic blowdown and dosing control. Primary source: https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
   "specifications": [
     {
       "metric": "Cooled sample temperature for conductivity measurement",
@@ -18,7 +18,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
         "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
       },
-      "value": "<25"
+      "value": "<25",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water"
     },
     {
       "metric": "Hydrometer sensitivity",
@@ -28,7 +29,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
         "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
       },
-      "value": "0.0001 relative density at 15.5 °C ≈ 110 ppm TDS"
+      "value": "0.0001 relative density at 15.5 °C ≈ 110 ppm TDS",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water"
     },
     {
       "metric": "AC excitation frequency for boiler-water conductivity probe",
@@ -38,7 +40,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
         "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
       },
-      "value": "~1000"
+      "value": "~1000",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water"
     },
     {
       "metric": "Representative sample point",
@@ -48,7 +51,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water",
         "source_id": "spiraxsarco-com-the-boiler-house-controlling-tds-in-the-boiler-w"
       },
-      "value": "TDS blowdown connection"
+      "value": "TDS blowdown connection",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/controlling-tds-in-the-boiler-water"
     },
     {
       "metric": "Condensate analysis frequency",
@@ -58,7 +62,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "daily (minimum)"
+      "value": "daily (minimum)",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Inline vs offline analytical alignment",
@@ -68,7 +73,8 @@
         "url": "https://www.watertechnologies.com/products/boiler-water/boiler-water-analyzer",
         "source_id": "watertechnologies-com-boiler-water-boiler-water-analyzer"
       },
-      "value": "online photometric methods aligned with routine offline methods; inline probes add operational data"
+      "value": "online photometric methods aligned with routine offline methods; inline probes add operational data",
+      "source_url": "https://www.watertechnologies.com/products/boiler-water/boiler-water-analyzer"
     },
     {
       "metric": "Conductivity vs TDS measurement practice",
@@ -78,7 +84,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "only one of the two needs to be measured; same method/readout must be used consistently"
+      "value": "only one of the two needs to be measured; same method/readout must be used consistently",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Body and coil material",
@@ -88,7 +95,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "n/a",
-      "value": "austenitic stainless steel 316L"
+      "value": "austenitic stainless steel 316L",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "Cooling-water connection size",
@@ -98,7 +106,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "in BSP or 1/2 in NPT",
-      "value": "1/2"
+      "value": "1/2",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "Sample connection",
@@ -108,7 +117,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "mm outside-diameter tube",
-      "value": "6"
+      "value": "6",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "Cooler weight",
@@ -118,7 +128,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "kg",
-      "value": "3.1"
+      "value": "3.1",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "SCS20 assembly weight",
@@ -128,7 +139,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "kg",
-      "value": "4.2"
+      "value": "4.2",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "Envelope dimension A",
@@ -138,7 +150,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "mm",
-      "value": "410"
+      "value": "410",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "Envelope dimension H",
@@ -148,7 +161,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "mm",
-      "value": "450"
+      "value": "450",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "Performance example: boiler pressure",
@@ -158,7 +172,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "barg",
-      "value": "10"
+      "value": "10",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "Performance example: sample flow",
@@ -168,7 +183,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "l/h",
-      "value": "30"
+      "value": "30",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "Performance example: cooling-water flow",
@@ -178,7 +194,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "l/s",
-      "value": "0.3"
+      "value": "0.3",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "Performance example: temperature approach",
@@ -188,7 +205,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "deg C",
-      "value": "4"
+      "value": "4",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "Performance example: sample outlet with 15 deg C cooling water",
@@ -198,7 +216,8 @@
         "source_id": "spiraxsteam-com-sample-cooler-sc20-sample-cooler"
       },
       "unit": "deg C",
-      "value": "approximately 19"
+      "value": "approximately 19",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "body_coil_material",
@@ -207,7 +226,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": "austenitic stainless steel 316L"
+      "value": "austenitic stainless steel 316L",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "cooling_water_connections",
@@ -216,7 +236,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": "1/2 in BSP or 1/2 in NPT"
+      "value": "1/2 in BSP or 1/2 in NPT",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "sample_connections",
@@ -225,7 +246,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": "6 mm outside-diameter tube; clamp versions with 1/2 in adaptor"
+      "value": "6 mm outside-diameter tube; clamp versions with 1/2 in adaptor",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "dimension_A",
@@ -234,7 +256,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 410
+      "value": 410,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "dimension_B",
@@ -243,7 +266,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "dimension_C",
@@ -252,7 +276,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "dimension_D",
@@ -261,7 +286,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "dimension_E",
@@ -270,7 +296,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 27
+      "value": 27,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "dimension_F",
@@ -279,7 +306,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 23.5
+      "value": 23.5,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "dimension_G",
@@ -288,7 +316,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 13
+      "value": 13,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "dimension_H",
@@ -297,7 +326,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "dimension_J",
@@ -306,7 +336,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 55
+      "value": 55,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "SC20_weight",
@@ -315,7 +346,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 3.1
+      "value": 3.1,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "SCS20_assembly_weight",
@@ -324,7 +356,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 4.2
+      "value": 4.2,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "worked_example_boiler_pressure",
@@ -333,7 +366,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "worked_example_sample_flow",
@@ -342,7 +376,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "worked_example_cooling_water_flow",
@@ -351,7 +386,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 0.3
+      "value": 0.3,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "worked_example_temperature_approach",
@@ -360,7 +396,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     },
     {
       "metric": "outlet_elbow_engagement_limit",
@@ -369,7 +406,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/sample-cooler/sc20-sample-cooler/"
     }
   ],
   "vendors": [

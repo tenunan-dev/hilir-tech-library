@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Compliant pipe for connection of floating vessels/subsea equipment; flowlines, jumpers, risers, fluid transfer lines; bundled multiple services in one carrier pipe.",
+  "description": "Compliant pipe for connection of floating vessels/subsea equipment; flowlines, jumpers, risers, fluid transfer lines; bundled multiple services in one carrier pipe. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

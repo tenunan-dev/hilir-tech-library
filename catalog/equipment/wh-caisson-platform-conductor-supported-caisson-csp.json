@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Vertical large-diameter caisson(s) used as the substructure and often as conductor(s) for a small wellhead topside; cheaper and installable by jack-up rig.",
+  "description": "Vertical large-diameter caisson(s) used as the substructure and often as conductor(s) for a small wellhead topside; cheaper and installable by jack-up rig. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

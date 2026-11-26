@@ -8,7 +8,7 @@
     "PRC",
     "MAT"
   ],
-  "description": "After mechanical deaeration, chemically remove residual dissolved oxygen, maintain alkaline pH for magnetite passivation, neutralise CO2 acidity in condensate with volatile amines, condition residual hardness into removable sludge with phosphate/polymer/chelant, and inhibit foaming and caustic attack.",
+  "description": "After mechanical deaeration, chemically remove residual dissolved oxygen, maintain alkaline pH for magnetite passivation, neutralise CO2 acidity in condensate with volatile amines, condition residual hardness into removable sludge with phosphate/polymer/chelant, and inhibit foaming and caustic attack. Primary source: https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
   "specifications": [
     {
       "metric": "Theoretical sodium sulphite demand",
@@ -18,7 +18,8 @@
         "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
         "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
       },
-      "value": 7.88
+      "value": 7.88,
+      "source_url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control"
     },
     {
       "metric": "Spirax-design sodium sulphite dosing rate",
@@ -28,7 +29,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
         "source_id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond"
       },
-      "value": "8 ppm per 1 ppm O2 + 4 ppm reserve; 45% active in liquid catalysed product"
+      "value": "8 ppm per 1 ppm O2 + 4 ppm reserve; 45% active in liquid catalysed product",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning"
     },
     {
       "metric": "Sulphite/oxygen reaction rate",
@@ -38,7 +40,8 @@
         "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
         "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
       },
-      "value": "doubles per 18 °F temperature rise; rapid at >=212 °F; fastest at pH 8.5–10.0"
+      "value": "doubles per 18 °F temperature rise; rapid at >=212 °F; fastest at pH 8.5–10.0",
+      "source_url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control"
     },
     {
       "metric": "Catalysed vs uncatalysed sodium sulphite oxygen removal after 25 s contact",
@@ -48,7 +51,8 @@
         "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
         "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
       },
-      "value": "catalysed: complete; uncatalysed: <50%"
+      "value": "catalysed: complete; uncatalysed: <50%",
+      "source_url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control"
     },
     {
       "metric": "Hydrazine dosing ratio",
@@ -58,7 +62,8 @@
         "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
         "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
       },
-      "value": "theoretical 1.0 ppm per 1 ppm O2; practical 1.5–2.0 parts per part O2"
+      "value": "theoretical 1.0 ppm per 1 ppm O2; practical 1.5–2.0 parts per part O2",
+      "source_url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control"
     },
     {
       "metric": "Sulphite vs organic scavenger pressure split",
@@ -68,7 +73,8 @@
         "url": "https://www.watertechnologies.com/products/boiler-water/feedwater-treatment-chemicals",
         "source_id": "watertechnologies-com-boiler-water-feedwater-treatment-chemicals"
       },
-      "value": "sulfite below 900 psig (62 barg); organic DEHA/carbohydrazide above 900 psig (62 barg)"
+      "value": "sulfite below 900 psig (62 barg); organic DEHA/carbohydrazide above 900 psig (62 barg)",
+      "source_url": "https://www.watertechnologies.com/products/boiler-water/feedwater-treatment-chemicals"
     },
     {
       "metric": "Boiler-water sulphite residual",
@@ -78,7 +84,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "30 to 70 (shell) / 60 to 100 (coil)"
+      "value": "30 to 70 (shell) / 60 to 100 (coil)",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Boiler-water tannin / ascorbic acid / DEHA / filming amine residual",
@@ -88,7 +95,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "tannin 120–160 shell; ascorbic acid 15–30; DEHA 0.1–1.0 in feedwater; film-forming amines 0.2–1.0 in feedwater"
+      "value": "tannin 120–160 shell; ascorbic acid 15–30; DEHA 0.1–1.0 in feedwater; film-forming amines 0.2–1.0 in feedwater",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Boiler-water phosphate residual",
@@ -98,7 +106,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "30 to 60 (shell) / 30 to 70 (coil)"
+      "value": "30 to 60 (shell) / 30 to 70 (coil)",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Caustic alkalinity as fraction of TDS under phosphate conditioning",
@@ -109,7 +118,8 @@
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
       "low": 10,
-      "high": 15
+      "high": 15,
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Silica-to-caustic-alkalinity ratio to prevent silicate scale",
@@ -119,7 +129,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "<0.4:1"
+      "value": "<0.4:1",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Boiler-water pH for magnetite film",
@@ -129,7 +140,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning",
         "source_id": "spiraxsarco-com-the-boiler-house-the-feedtank-and-feedwater-cond"
       },
-      "value": "10.5 to 12.0"
+      "value": "10.5 to 12.0",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning"
     },
     {
       "metric": "Feedwater pH for corrosion control",
@@ -139,7 +151,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators",
         "source_id": "spiraxsarco-com-the-boiler-house-pressurised-deaerators"
       },
-      "value": "not less than 8.5 to 9"
+      "value": "not less than 8.5 to 9",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/the-boiler-house/pressurised-deaerators"
     },
     {
       "metric": "Low-pressure hot-water boiler treatment",
@@ -149,7 +162,8 @@
         "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
         "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
       },
-      "value": "200–400 ppm P-alkalinity; sodium sulfite + pH adjustment + polymer dispersant"
+      "value": "200–400 ppm P-alkalinity; sodium sulfite + pH adjustment + polymer dispersant",
+      "source_url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control"
     },
     {
       "metric": "Lay-up sulphite reserve",
@@ -159,7 +173,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "150 ppm (<48 h); >250 ppm (48 h–7 d); >500 ppm (7 d–1 month); pH 10–11.5 for up to one month"
+      "value": "150 ppm (<48 h); >250 ppm (48 h–7 d); >500 ppm (7 d–1 month); pH 10–11.5 for up to one month",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "FDA food-contact approval",
@@ -169,7 +184,8 @@
         "url": "https://www.watertechnologies.com/products/boiler-water/internal-boiler-chemicals",
         "source_id": "watertechnologies-com-boiler-water-internal-boiler-chemicals"
       },
-      "value": "21 CFR 173.310"
+      "value": "21 CFR 173.310",
+      "source_url": "https://www.watertechnologies.com/products/boiler-water/internal-boiler-chemicals"
     },
     {
       "metric": "Feed pressure",
@@ -179,7 +195,8 @@
         "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
       },
       "unit": "psi",
-      "high": "3,600"
+      "high": "3,600",
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     },
     {
       "metric": "Feed rate",
@@ -189,7 +206,8 @@
         "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
       },
       "unit": "gallon/hour",
-      "high": "2,200"
+      "high": "2,200",
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     },
     {
       "metric": "Pump types",
@@ -199,7 +217,8 @@
         "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
       },
       "unit": "n/a",
-      "value": "solenoid, peristaltic or hydraulically driven"
+      "value": "solenoid, peristaltic or hydraulically driven",
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     },
     {
       "metric": "Frame materials",
@@ -209,7 +228,8 @@
         "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
       },
       "unit": "n/a",
-      "value": "painted carbon steel; stainless steel; non-metallic"
+      "value": "painted carbon steel; stainless steel; non-metallic",
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     },
     {
       "metric": "Piping materials",
@@ -219,7 +239,8 @@
         "source_id": "kuritaamerica-com-solutions-chemical-feed-systems"
       },
       "unit": "n/a",
-      "value": "PVC; CPVC; stainless steel (tubing or welded); Alloy 20; PVDF"
+      "value": "PVC; CPVC; stainless steel (tubing or welded); Alloy 20; PVDF",
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     },
     {
       "metric": "feed_pressure_max",
@@ -228,7 +249,8 @@
       "source": {
         "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
       },
-      "value": 3600
+      "value": 3600,
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     },
     {
       "metric": "feed_rate_max",
@@ -237,7 +259,8 @@
       "source": {
         "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
       },
-      "value": 2200
+      "value": 2200,
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     },
     {
       "metric": "frame_materials",
@@ -246,7 +269,8 @@
       "source": {
         "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
       },
-      "value": "not specified in extracted page text"
+      "value": "not specified in extracted page text",
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     },
     {
       "metric": "piping_materials",
@@ -255,7 +279,8 @@
       "source": {
         "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
       },
-      "value": "Alloy 20; wide range of manufacturers offered"
+      "value": "Alloy 20; wide range of manufacturers offered",
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     },
     {
       "metric": "integrated_accessories",
@@ -264,7 +289,8 @@
       "source": {
         "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
       },
-      "value": "strainer, pressure gauge, flow switch and check valve; optional corrosion coupon racks, water meters, or tanks mounted on PVC back plate"
+      "value": "strainer, pressure gauge, flow switch and check valve; optional corrosion coupon racks, water meters, or tanks mounted on PVC back plate",
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     },
     {
       "metric": "certifications",
@@ -273,7 +299,8 @@
       "source": {
         "url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
       },
-      "value": "UL/CSA/API certifications"
+      "value": "UL/CSA/API certifications",
+      "source_url": "https://www.kuritaamerica.com/solutions/chemical-feed-systems"
     }
   ],
   "vendors": [

@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Instrument/utility air packages comprise rotary-screw, oil-free screw or reciprocating compressors, knock-out drum, filters, refrigerated or adsorption dryers, receiver tanks, piping, instrumentation and valves. Instrument air must be dry and oil-free and is typically distributed at 6 bar (100 psig).",
+  "description": "Instrument/utility air packages comprise rotary-screw, oil-free screw or reciprocating compressors, knock-out drum, filters, refrigerated or adsorption dryers, receiver tanks, piping, instrumentation and valves. Instrument air must be dry and oil-free and is typically distributed at 6 bar (100 psig). Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
   "aliases": [
     "Instrument/utility air compressors, receivers and dryers"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
-      }
+      },
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Price — Cost of drying air for instrument air",
@@ -37,7 +38,8 @@
       "source": {
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
-      }
+      },
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     }
   ],
   "vendor_models": [],

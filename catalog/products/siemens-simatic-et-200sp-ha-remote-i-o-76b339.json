@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
   "specifications": [
     {
       "metric": "design intent",
@@ -16,7 +16,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
-      "value": "compact robust remote I/O for high availability"
+      "value": "compact robust remote I/O for high availability",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "SIMATIC ET 200SP HA - description",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "Compact robust remote I/O designed for high availability"
+      "value": "Compact robust remote I/O designed for high availability",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "SIMATIC PCS 7 - version",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "V10.0"
+      "value": "V10.0",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "SIMATIC PCS 7 - cybersecurity compliance",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "NIS2-compliant; IEC 62443-4-1 and IEC 62443-3-3 compliance"
+      "value": "NIS2-compliant; IEC 62443-4-1 and IEC 62443-3-3 compliance",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "SIMATIC PCS 7 - MTP integration startup improvement",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     }
   ],
   "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",

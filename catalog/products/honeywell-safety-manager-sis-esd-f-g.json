@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
   "specifications": [
     {
       "metric": "SIL",
@@ -16,7 +16,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "1-3 (IEC 61508/61511)"
+      "value": "1-3 (IEC 61508/61511)",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "operating temperature",
@@ -26,7 +27,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "-40 to 70 degC remote cabinet; -5 to 70 degC cabinet"
+      "value": "-40 to 70 degC remote cabinet; -5 to 70 degC cabinet",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "supply voltage",
@@ -36,7 +38,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "110/48/24 VDC"
+      "value": "110/48/24 VDC",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "safety_integrity_level",
@@ -47,7 +50,8 @@
       },
       "value": "SIL 1-3",
       "low": 1,
-      "high": 3
+      "high": 3,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "architecture",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture"
+      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "cyber_security_certification",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Embedded Device Security Assurance program as defined by ISA Security Compliance Institute"
+      "value": "Embedded Device Security Assurance program as defined by ISA Security Compliance Institute",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "IO_technology",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Universal Safety I/O; each channel individually configurable for a different I/O type; remote IO usable in hazardous locations"
+      "value": "Universal Safety I/O; each channel individually configurable for a different I/O type; remote IO usable in hazardous locations",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     }
   ],
   "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",

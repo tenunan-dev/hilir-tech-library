@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware.",
+  "description": "Converts sunlight to DC and then AC for facility auxiliary loads; hybrids with diesel/BESS reduce fuel use at remote onshore sites. Utility-scale modules and string/modular inverters are the core hardware. Primary source: https://www.longi.com/en/products/modules/hi-mo-9/",
   "specifications": [
     {
       "metric": "LONGi Hi-MO 9 module maximum power",
@@ -19,7 +19,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 670
+      "value": 670,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "LONGi Hi-MO 9 module efficiency",
@@ -29,7 +30,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 24.8
+      "value": 24.8,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "LONGi Hi-MO 9 STC Pmax (LR7-72HYD-660M)",
@@ -39,7 +41,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 660
+      "value": 660,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "LONGi Hi-MO 9 mechanical dimensions and mass",
@@ -49,7 +52,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": "2382 x 1134 x 30"
+      "value": "2382 x 1134 x 30",
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "LONGi Hi-MO 9 mechanical load",
@@ -60,7 +64,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 2400,
-      "high": 5400
+      "high": 5400,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Sungrow product categories",
@@ -70,7 +75,8 @@
         "url": "https://en.sungrowpower.com/products",
         "source_id": "sys-en-sungrowpower-com-products"
       },
-      "value": "string inverter, modular inverter, MLPE, floating PV system, ESS, EV charger"
+      "value": "string inverter, modular inverter, MLPE, floating PV system, ESS, EV charger",
+      "source_url": "https://en.sungrowpower.com/products"
     }
   ],
   "vendors": [

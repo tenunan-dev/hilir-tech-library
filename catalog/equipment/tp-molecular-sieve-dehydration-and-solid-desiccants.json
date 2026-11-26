@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Adsorb water to very low dew points upstream of cryogenic processing/LNG/NGL recovery; swing-bed adsorption with heated regeneration gas.",
+  "description": "Adsorb water to very low dew points upstream of cryogenic processing/LNG/NGL recovery; swing-bed adsorption with heated regeneration gas. Primary source: https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel",
   "specifications": [
     {
       "metric": "Water content achievable",
@@ -19,7 +19,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel",
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-units-with-fix"
       },
-      "value": "as low as 1"
+      "value": "as low as 1",
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-units-with-fixed-bed-technology-molecular-sieves-and-aluminas-silica-gel"
     },
     {
       "metric": "Water content / dew point capability",
@@ -29,7 +30,8 @@
         "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
         "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
       },
-      "value": "<0.1 ppmv water; WDP as low as -150 degF (-100 degC) or less"
+      "value": "<0.1 ppmv water; WDP as low as -150 degF (-100 degC) or less",
+      "source_url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas"
     },
     {
       "metric": "Regeneration gas temperature",
@@ -39,7 +41,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
       },
-      "value": "~550"
+      "value": "~550",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "Reference duty",
@@ -49,7 +52,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
       },
-      "value": "100 tonne/day LPG facility"
+      "value": "100 tonne/day LPG facility",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     }
   ],
   "vendors": [

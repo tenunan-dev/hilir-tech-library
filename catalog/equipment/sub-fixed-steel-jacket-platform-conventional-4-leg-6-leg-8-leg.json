@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Bottom-founded tubular steel lattice that transfers deck, drilling and environmental loads to the seabed, normally via driven piles through the jacket legs.",
+  "description": "Bottom-founded tubular steel lattice that transfers deck, drilling and environmental loads to the seabed, normally via driven piles through the jacket legs. Primary source: https://en.wikipedia.org/wiki/Fixed_platform",
   "specifications": [
     {
       "metric": "typical economic water depth limit",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Fixed_platform",
         "source_id": "en-wikipedia-org-wiki-fixed-platform"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://en.wikipedia.org/wiki/Fixed_platform"
     },
     {
       "metric": "quoted general water depth feasibility",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": 520
+      "value": 520,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "jacket mass, Gudrun platform",
@@ -39,7 +41,8 @@
         "url": "https://www.offshore-technology.com/projects/gudrunfield",
         "source_id": "offshore-technology-com-projects-gudrunfield"
       },
-      "value": 7400
+      "value": 7400,
+      "source_url": "https://www.offshore-technology.com/projects/gudrunfield"
     },
     {
       "metric": "jacket height / mass, Mexilhão PMXL-1",
@@ -51,7 +54,8 @@
       },
       "value": 180,
       "low": 180,
-      "high": 180
+      "high": 180,
+      "source_url": "https://www.offshore-technology.com/projects/mexilhao"
     },
     {
       "metric": "water depth",
@@ -62,7 +66,8 @@
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "low": 180,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "Iron Lady deck",
@@ -72,7 +77,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": "SPMT-equipped deck with ballast system (no capacity figure printed)"
+      "value": "SPMT-equipped deck with ballast system (no capacity figure printed)",
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Load-out capability",
@@ -82,7 +88,8 @@
         "url": "https://www.mammoet.com/offshore/topside-load-out/",
         "source_id": "mammoet-com-topside-load-out"
       },
-      "value": ">20,000"
+      "value": ">20,000",
+      "source_url": "https://www.mammoet.com/offshore/topside-load-out/"
     },
     {
       "metric": "Load relief",
@@ -92,7 +99,8 @@
         "url": "https://hitechelastomers.com/products/leg-mating-unit/",
         "source_id": "hitechelastomers-com-leg-mating-unit"
       },
-      "value": "sand release valve lowers plunger assembly"
+      "value": "sand release valve lowers plunger assembly",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Tandem lift (guyed mode)",
@@ -102,7 +110,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": 6300
+      "value": 6300,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Lifting capacity",
@@ -112,7 +121,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": 5000
+      "value": 5000,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Qingdao annual production",
@@ -122,7 +132,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
         "source_id": "cnoocengineering-com-solutions-yards"
       },
-      "value": 300000
+      "value": 300000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao slideways",
@@ -132,7 +143,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
         "source_id": "cnoocengineering-com-solutions-yards"
       },
-      "value": "five, 4,000-50,000 t bearing capacity"
+      "value": "five, 4,000-50,000 t bearing capacity",
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai annual production",
@@ -142,7 +154,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
         "source_id": "cnoocengineering-com-solutions-yards"
       },
-      "value": 250000
+      "value": 250000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai slideway 1",
@@ -152,7 +165,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards",
         "source_id": "cnoocengineering-com-solutions-yards"
       },
-      "value": 35000
+      "value": 35000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Ranking",
@@ -162,7 +176,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": "world's largest barge (Heerema claim)"
+      "value": "world's largest barge (Heerema claim)",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Energy range",
@@ -172,7 +187,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
-      "value": "320-3,500"
+      "value": "320-3,500",
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "CGS concept first developed year",
@@ -181,7 +197,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 1989
+      "value": 1989,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Installation technique",
@@ -189,7 +206,8 @@
       "basis": "'Typical for the Arup CGS is the inclined installation technique'",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Removability",
@@ -197,7 +215,8 @@
       "basis": "'The Arup CGS are designed to be simple to install, and are fully removable'",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Construction attributes",
@@ -205,7 +224,8 @@
       "basis": "'low reinforcement and pre-stress densities as well as the use of normal density concrete'",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Economic water depth threshold",
@@ -214,7 +234,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "N. Ravenspurn CGS (Arup) water depth",
@@ -223,7 +244,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 42
+      "value": 42,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Wandoo CGS (Arup) water depth",
@@ -232,7 +254,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 54
+      "value": 54,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Malampaya CGS (Arup) water depth",
@@ -241,7 +264,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 43
+      "value": 43,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "West White Rose GBS Monotower (Arup) water depth",
@@ -250,7 +274,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
       },
-      "value": 118
+      "value": 118,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Vessel type",
@@ -258,7 +283,8 @@
       "basis": "'Fast-sailing Heavy Lift Vessel Aegir is a monohull vessel'",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
-      }
+      },
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Features",
@@ -266,7 +292,8 @@
       "basis": "'retractable thrusters, shallow draft, and extensive clear deck space' enabling 'load-out directly from the quayside and transport on deck'",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
-      }
+      },
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Fleet: Sleipnir crane capacity",
@@ -275,7 +302,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Fleet: Thialf tandem lift",
@@ -284,7 +312,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 14200
+      "value": 14200,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Fleet: Balder tandem lift",
@@ -293,7 +322,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 6300
+      "value": 6300,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Fleet: Bylgia/Kolga length",
@@ -302,7 +332,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 72
+      "value": 72,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Fleet: Bylgia/Kolga bollard pull",
@@ -313,7 +344,8 @@
       },
       "value": 200,
       "low": 212,
-      "high": "metric tons"
+      "high": "metric tons",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Recommended oil flow",
@@ -322,7 +354,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 5800
+      "value": 5800,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Average operating pressure",
@@ -331,7 +364,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 240
+      "value": 240,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Blow rate",
@@ -340,7 +374,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 32
+      "value": 32,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Weight above water - 4 m foot",
@@ -349,7 +384,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 341
+      "value": 341,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Weight above water - 102in-4m OD UW",
@@ -358,7 +394,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 564
+      "value": 564,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Weight submerged - 102in-4m OD UW",
@@ -367,7 +404,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 433
+      "value": 433,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Weight above water - 6.5-8 m OD AW",
@@ -376,7 +414,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 673
+      "value": 673,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Weight above water - 3 m 5-7.5 m OD AW",
@@ -385,7 +424,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 621
+      "value": 621,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Full hammer spread energy range",
@@ -396,7 +436,8 @@
       },
       "value": 100,
       "low": 6250,
-      "high": "kJ"
+      "high": "kJ",
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Wind turbine foundations driven",
@@ -405,7 +446,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 2500
+      "value": 2500,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Maximum single hammer energy",
@@ -414,7 +456,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 6250
+      "value": 6250,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Tandem lift capacity (guyed mode)",
@@ -423,7 +466,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 6300
+      "value": 6300,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Crane capability",
@@ -431,7 +475,8 @@
       "basis": "\"The vessel's cranes provide for a depth reach lowering capability as well as a heavy lift capacity to install topsides, jackets, and other structures\"",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
-      }
+      },
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "FPSO hull length (Skarv, Aker Solutions Tentech975 design)",
@@ -440,7 +485,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 292
+      "value": 292,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "FPSO hull beam (Skarv, Tentech975)",
@@ -449,7 +495,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 50.6
+      "value": 50.6,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "FPSO hull depth (Skarv, Tentech975)",
@@ -458,7 +505,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 29
+      "value": 29,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Accommodation (Skarv FPSO)",
@@ -467,7 +515,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Process plant gas handling capacity (Skarv FPSO)",
@@ -476,7 +525,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 19000000
+      "value": 19000000,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Process plant oil handling capacity (Skarv FPSO)",
@@ -485,7 +535,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 13500
+      "value": 13500,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Gas export pipe length (Skarv)",
@@ -494,7 +545,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Hull delivery date (Skarv)",
@@ -502,7 +554,8 @@
       "basis": "Wikipedia: 'The hull was delivered in January 2010'; production started August 2011",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Qingdao yard area",
@@ -511,7 +564,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 1200000
+      "value": 1200000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao wharf shoreline",
@@ -520,7 +574,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 1645
+      "value": 1645,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao wharf water depth",
@@ -530,7 +585,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
       "low": 10,
-      "high": 12
+      "high": 12,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao dry dock",
@@ -538,7 +594,8 @@
       "basis": "COOEC: 'Dry Dock: 420 m×110 m×13.9 m'",
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
-      }
+      },
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao annual production capacity",
@@ -547,7 +604,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 300000
+      "value": 300000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao slideway capacity",
@@ -557,7 +615,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
       "low": 4000,
-      "high": 50000
+      "high": 50000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Qingdao cranes and SPMTs",
@@ -565,7 +624,8 @@
       "basis": "COOEC: 'two 800 T gantry crane and one 600 T gantry crane; 24 sets of 70 to 750 T crawler cranes; 324-axis SPMTs with total capacity of 15,000 T'",
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
-      }
+      },
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Tianjin yard area",
@@ -574,7 +634,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 575000
+      "value": 575000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Tianjin wharf shoreline",
@@ -583,7 +644,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 1631
+      "value": 1631,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Tianjin wharf water depth",
@@ -592,7 +654,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Tianjin annual production",
@@ -601,7 +664,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 150000
+      "value": 150000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Tianjin equipment",
@@ -609,7 +673,8 @@
       "basis": "COOEC: 'one 900 T gantry crane; two PPU 48-axis SPMTs; four 8.5 T forklifts; two 3.5 T forklifts powered by lithium batteries; two 2 T forklifts powered by lithium batteries two 60 T tractors'",
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
-      }
+      },
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai yard area",
@@ -618,7 +683,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 2072000
+      "value": 2072000,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai wharf shoreline",
@@ -627,7 +693,8 @@
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
-      "value": 2149
+      "value": 2149,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai wharf water depth",
@@ -637,7 +704,8 @@
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
       },
       "low": 10,
-      "high": 14
+      "high": 14,
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Zhuhai slideways / equipment",
@@ -645,7 +713,8 @@
       "basis": "COOEC: 'slideway 1# (35,000 T); slideway 3# (12,000 T)'; '120 sets of 5 to 150 T overhead cranes in workshops; 12 sets of 150 to 750 T crawler cranes; 108-axis SPMTs; one 380 T transport trailer; two 250 T flatcars'",
       "source": {
         "url": "https://www.cnoocengineering.com/english/Solutions/Yards"
-      }
+      },
+      "source_url": "https://www.cnoocengineering.com/english/Solutions/Yards"
     },
     {
       "metric": "Barge distinction",
@@ -653,7 +722,8 @@
       "basis": "Heerema fleet: 'Including the H-851, the world's largest barge.' Used for 'transportation, jacket launch, and floatover use.'",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
-      }
+      },
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Full-scale tested compression load",
@@ -662,7 +732,8 @@
       "source": {
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
       },
-      "value": 18300
+      "value": 18300,
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "Construction",
@@ -670,7 +741,8 @@
       "basis": "Trelleborg: 'LMUs feature a robust steel structure with high-performance elastomeric pads ... absorb substantial loads and minimize the risk of damage during weight transfer'",
       "source": {
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
-      }
+      },
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "Function",
@@ -678,7 +750,8 @@
       "basis": "Trelleborg: 'Assist in the transfer of static & dynamic load from the barge transporting the topside to the substructure during float-over operation'; 'Install large platform topside without the use of a heavy lift crane vessel'",
       "source": {
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
-      }
+      },
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "Applications",
@@ -686,7 +759,8 @@
       "basis": "Trelleborg: 'Oil & gas topside; Mining and LNG terminal construction; Offshore Wind HVDC; Decommissioning topside'",
       "source": {
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
-      }
+      },
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "water_depth_range",
@@ -696,7 +770,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
       "low": 180,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "water_depth_range_ft",
@@ -706,7 +781,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
       "low": 590,
-      "high": 4270
+      "high": 4270,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "platform_type",
@@ -715,7 +791,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
-      "value": "vertically moored mini tension leg platform"
+      "value": "vertically moored mini tension leg platform",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "MOSES mini-TLP - water depth range",
@@ -725,7 +802,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
       "low": 180,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "MOSES mini-TLP - type",
@@ -734,7 +812,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
-      "value": "Proprietary mini TLP (with Seastar); relatively low cost"
+      "value": "Proprietary mini TLP (with Seastar); relatively low cost",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "MOSES mini-TLP - use cases",
@@ -743,7 +822,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
-      "value": "Utility, satellite or early production platforms for larger deepwater discoveries"
+      "value": "Utility, satellite or early production platforms for larger deepwater discoveries",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "Topsides single-lift capacity",
@@ -752,7 +832,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "high": 60000
+      "high": 60000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Jacket single-lift capacity",
@@ -761,7 +842,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "S-lay tension capacity",
@@ -770,7 +852,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Azimuth thrusters",
@@ -779,7 +862,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Pipe-holding capacity",
@@ -788,7 +872,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Length",
@@ -797,7 +882,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "value": 382
+      "value": 382,
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Breadth",
@@ -806,7 +892,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "value": 124
+      "value": 124,
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Total installed power",
@@ -815,7 +902,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "value": 95000
+      "value": 95000,
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Accommodation",
@@ -824,7 +912,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "value": 571
+      "value": 571,
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Dynamic positioning",
@@ -833,7 +922,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "value": "DP3, K-Pos DP-22, 2x cJoy system"
+      "value": "DP3, K-Pos DP-22, 2x cJoy system",
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Pipeline installation water depth",
@@ -842,7 +932,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "high": 3000
+      "high": 3000,
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Product type",
@@ -851,7 +942,8 @@
       "source": {
         "url": "https://hitechelastomers.com/products/leg-mating-unit/"
       },
-      "value": "Leg Mating Unit with optional sand jack"
+      "value": "Leg Mating Unit with optional sand jack",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Load capacity basis",
@@ -860,7 +952,8 @@
       "source": {
         "url": "https://hitechelastomers.com/products/leg-mating-unit/"
       },
-      "value": "Custom designed to take immense loads of topsides"
+      "value": "Custom designed to take immense loads of topsides",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Elastomer construction",
@@ -869,7 +962,8 @@
       "source": {
         "url": "https://hitechelastomers.com/products/leg-mating-unit/"
       },
-      "value": "vertical and horizontal rubber elements formulated to take immense loads with low creep"
+      "value": "vertical and horizontal rubber elements formulated to take immense loads with low creep",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Load release mechanism",
@@ -878,7 +972,8 @@
       "source": {
         "url": "https://hitechelastomers.com/products/leg-mating-unit/"
       },
-      "value": "Sand can be released from the sand release valve, which leads to the plunger assembly being lower, and loads on the rubber element are released"
+      "value": "Sand can be released from the sand release valve, which leads to the plunger assembly being lower, and loads on the rubber element are released",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Application",
@@ -887,7 +982,8 @@
       "source": {
         "url": "https://hitechelastomers.com/products/leg-mating-unit/"
       },
-      "value": "Float-over operation; Installation of heavy topsides"
+      "value": "Float-over operation; Installation of heavy topsides",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     }
   ],
   "vendors": [

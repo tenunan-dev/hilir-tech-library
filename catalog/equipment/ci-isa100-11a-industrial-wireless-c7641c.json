@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Wireless systems for industrial automation: process control and related applications, from non-critical monitoring to supervisory and closed-loop control.",
+  "description": "Wireless systems for industrial automation: process control and related applications, from non-critical monitoring to supervisory and closed-loop control. Primary source: https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards",
   "specifications": [
     {
       "metric": "standard designation",
@@ -19,7 +19,8 @@
         "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards",
         "source_id": "sys-isa-org-isa-100-standards"
       },
-      "value": "ISA-100.11a-2011, Wireless Systems for Industrial Automation: Process Control and Related Applications"
+      "value": "ISA-100.11a-2011, Wireless Systems for Industrial Automation: Process Control and Related Applications",
+      "source_url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards"
     },
     {
       "metric": "data rate class",
@@ -29,7 +30,8 @@
         "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards",
         "source_id": "sys-isa-org-isa-100-standards"
       },
-      "value": "low-data-rate wireless communication"
+      "value": "low-data-rate wireless communication",
+      "source_url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards"
     },
     {
       "metric": "application scope",
@@ -39,7 +41,8 @@
         "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards",
         "source_id": "sys-isa-org-isa-100-standards"
       },
-      "value": "monitoring, supervisory control, open-loop and closed-loop control; oil and gas listed as applicable industry"
+      "value": "monitoring, supervisory control, open-loop and closed-loop control; oil and gas listed as applicable industry",
+      "source_url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards"
     },
     {
       "metric": "supporting technical reports",
@@ -49,7 +52,8 @@
         "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards",
         "source_id": "sys-isa-org-isa-100-standards"
       },
-      "value": "ISA-TR100.14.01 trustworthiness; ANSI/ISA-TR100.15.01-2012 backhaul architecture over untrusted/trusted networks; ISA-TR100.20.01-2017 common network management"
+      "value": "ISA-TR100.14.01 trustworthiness; ANSI/ISA-TR100.15.01-2012 backhaul architecture over untrusted/trusted networks; ISA-TR100.20.01-2017 common network management",
+      "source_url": "https://www.isa.org/standards-and-publications/isa-standards/isa-100-standards"
     }
   ],
   "vendors": [

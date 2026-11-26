@@ -6,7 +6,7 @@
   "equipment": [
     "ammonia-refrigeration-storage"
   ],
-  "description": "Vendor product line read 2026-11-24. Green H2 from electrolysis and pure N2 from air separation unit.",
+  "description": "Vendor product line read 2026-11-24. Green H2 from electrolysis and pure N2 from air separation unit. Primary source: https://casale.ch/technologies/ammonia/",
   "specifications": [
     {
       "metric": "Clean syngas consumption per tonne ammonia",
@@ -16,7 +16,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 2650
+      "value": 2650,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Reaction heat recovery per tonne ammonia",
@@ -26,7 +27,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 600000
+      "value": 600000,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Plant turndown",
@@ -37,7 +39,8 @@
         "source_id": "casale-ch-ammonia"
       },
       "low": 10,
-      "high": 100
+      "high": 100,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Ramp-up/down rate",
@@ -47,7 +50,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "high": 3
+      "high": 3,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "clean_syngas_consumption_per_ton_ammonia",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "high": 2650
+      "high": 2650,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "hydrogen_equivalent_per_ton_ammonia",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "reaction_heat_recovery_per_ton_ammonia",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "low": 600000
+      "low": 600000,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "plant_turndown_range",
@@ -84,7 +91,8 @@
         "url": "https://casale.ch/technologies/ammonia/"
       },
       "low": 10,
-      "high": 100
+      "high": 100,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "ramp_up_down_rate",
@@ -93,7 +101,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "high": 3
+      "high": 3,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "feedstock",
@@ -102,7 +111,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": "hydrogen derived from water electrolysis with renewable energy and pure nitrogen from an air separation unit"
+      "value": "hydrogen derived from water electrolysis with renewable energy and pure nitrogen from an air separation unit",
+      "source_url": "https://casale.ch/technologies/ammonia/"
     }
   ],
   "url": "https://casale.ch/technologies/ammonia/",

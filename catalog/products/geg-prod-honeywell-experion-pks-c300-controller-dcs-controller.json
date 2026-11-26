@@ -6,7 +6,7 @@
   "equipment": [
     "geg-plant-control-system"
   ],
-  "description": "DCS controller",
+  "description": "DCS controller Primary source: https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
   "specifications": [
     {
       "metric": "user memory",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "execution units",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "standard execution period",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "redundant controller switchover time",
@@ -50,7 +53,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "operating temperature range",
@@ -62,7 +66,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "supported protocols",
@@ -72,7 +77,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "security certification",
@@ -82,7 +88,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "User memory",
@@ -91,7 +98,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 32768
+      "value": 32768,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Execution units",
@@ -100,7 +108,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 9000
+      "value": 9000,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Execution period",
@@ -109,7 +118,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Temperature rating",
@@ -119,7 +129,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
       "low": -40,
-      "high": 70
+      "high": 70,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Tagged blocks",
@@ -128,7 +139,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 4095
+      "value": 4095,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Switchover time",
@@ -137,7 +149,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Synchronization time",
@@ -146,7 +159,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 240
+      "value": 240,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "I/O HIVE parameter references",
@@ -155,7 +169,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "CN100 connections",
@@ -164,7 +179,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Redundancy",
@@ -172,7 +188,8 @@
       "basis": "Honeywell: 'Supports 1:1 redundancy with dedicated IOTA and redundancy cable'; 'C300v5 (PCNT05)... supports traditional 1:1 redundant and Control HIVE deployment'",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Supported protocols",
@@ -180,7 +197,8 @@
       "basis": "Honeywell: 'EtherNet/IP, Profinet, FOUNDATION Fieldbus, HART, IEC61850, OPC UA, Profibus and Modbus'; spec table: 'CDA peer-to-peer, EtherNet/IP via EIM, Foundation Fieldbus via FIM4/FIM8, Modbus/TCP via PCDI, Profibus via PGM, Profinet via EIM, VLAN-based IO HIVE'",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Security certifications",
@@ -188,7 +206,8 @@
       "basis": "Honeywell: 'Embedded Firewall; ISA Secure CSA L2 Certified'",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Time sources / update periods",
@@ -196,7 +215,8 @@
       "basis": "Honeywell: 'Time Sources NTP | PTPv2'; 'SNTP Update Period 1 min'; 'PTP Update Period 30 sec'",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Models / form factor",
@@ -204,7 +224,8 @@
       "basis": "Honeywell: 'Models C300 (PCNT05)'; 'Form Factor Series C'; 'Mounting Type On Input Output Termination Assembly (IOTA)'; 'Memory Backup CC-SCMB05 Module for Power-Loss Recovery'",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     }
   ],
   "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",

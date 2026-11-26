@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Large reinforced/prestressed concrete caisson that resists overturning and sliding by self-weight; often provides oil storage and flotation during tow-out.",
+  "description": "Large reinforced/prestressed concrete caisson that resists overturning and sliding by self-weight; often provides oil storage and flotation during tow-out. Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure",
   "specifications": [
     {
       "metric": "number of major concrete offshore structures built",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": 47
+      "value": 47,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "economic water depth",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Troll A total height",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Condeep",
         "source_id": "en-wikipedia-org-wiki-condeep"
       },
-      "value": 472
+      "value": 472,
+      "source_url": "https://en.wikipedia.org/wiki/Condeep"
     },
     {
       "metric": "Gullfaks C total height",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Condeep",
         "source_id": "en-wikipedia-org-wiki-condeep"
       },
-      "value": 380
+      "value": 380,
+      "source_url": "https://en.wikipedia.org/wiki/Condeep"
     }
   ],
   "vendors": [

@@ -8,7 +8,7 @@
     "PWR",
     "ROT"
   ],
-  "description": "Lube oil system: pumps, filters, coolers, sump | Lube-oil storage, transfer, filtration and make-up",
+  "description": "Lube oil system: pumps, filters, coolers, sump | Lube-oil storage, transfer, filtration and make-up Primary source: https://www.jenbacher.com/en/gas-engines/type-6/",
   "specifications": [
     {
       "metric": "Scope inclusion",
@@ -18,7 +18,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
       },
-      "value": "Lube oil supply system"
+      "value": "Lube oil supply system",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "Lube oil grade",
@@ -28,7 +29,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "mono-grade SAE 40 (most Cummins lean-burn gas gensets); never use diesel engine oil in a natural gas engine"
+      "value": "mono-grade SAE 40 (most Cummins lean-burn gas gensets); never use diesel engine oil in a natural gas engine",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Service (day) tank base elevation above floor for gravity feed",
@@ -39,7 +41,8 @@
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
       "low": "1",
-      "high": "4"
+      "high": "4",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Minimum oil make-up tank capacity",
@@ -49,7 +52,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "100"
+      "value": "100",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Make-up tank connection pipe internal diameter",
@@ -59,7 +63,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "low": "0.75"
+      "low": "0.75",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Fresh oil piping / siphon protection",
@@ -69,7 +74,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "pickled or cold-drawn pickled pipe; strainer and foot valve on storage tank suction; solenoid valve if service tank lower than storage tank to prevent siphon overfill"
+      "value": "pickled or cold-drawn pickled pipe; strainer and foot valve on storage tank suction; solenoid valve if service tank lower than storage tank to prevent siphon overfill",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Lubrication system in common plant architecture",
@@ -79,7 +85,8 @@
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
         "source_id": "sys-download-se-com-files"
       },
-      "value": "Lubrication System listed among power-plant common systems (alongside gas piping/pressure reduction, gas storage, electrical distribution, control, fire detection)"
+      "value": "Lubrication System listed among power-plant common systems (alongside gas piping/pressure reduction, gas storage, electrical distribution, control, fire detection)",
+      "source_url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN"
     }
   ],
   "vendors": [

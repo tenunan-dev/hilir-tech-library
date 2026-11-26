@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "CO2 removal - amine (MDEA/MEA) absorbers and regenerators; Benfield/Selexol/Rectisol; solvent reclamation",
+  "description": "CO2 removal - amine (MDEA/MEA) absorbers and regenerators; Benfield/Selexol/Rectisol; solvent reclamation Primary source: https://en.wikipedia.org/wiki/Amine_gas_treating",
   "specifications": [
     {
       "metric": "MDEA concentration in aqueous solution",
@@ -20,7 +20,8 @@
         "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
       },
       "low": 30,
-      "high": 55
+      "high": 55,
+      "source_url": "https://en.wikipedia.org/wiki/Amine_gas_treating"
     },
     {
       "metric": "MEA concentration for H2S and CO2 removal",
@@ -30,7 +31,8 @@
         "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
         "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://en.wikipedia.org/wiki/Amine_gas_treating"
     },
     {
       "metric": "DEA concentration",
@@ -41,7 +43,8 @@
         "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
       },
       "low": 25,
-      "high": 35
+      "high": 35,
+      "source_url": "https://en.wikipedia.org/wiki/Amine_gas_treating"
     },
     {
       "metric": "MEA/DEA CO2 loading limit",
@@ -51,7 +54,8 @@
         "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
         "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
       },
-      "value": 0.55
+      "value": 0.55,
+      "source_url": "https://en.wikipedia.org/wiki/Amine_gas_treating"
     },
     {
       "metric": "Stripping energy share of amine unit operating cost",
@@ -61,7 +65,8 @@
         "url": "https://en.wikipedia.org/wiki/Amine_gas_treating",
         "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
       },
-      "high": 70
+      "high": 70,
+      "source_url": "https://en.wikipedia.org/wiki/Amine_gas_treating"
     },
     {
       "metric": "Amine absorber typical operating temperature",
@@ -72,7 +77,8 @@
         "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
       },
       "low": 35,
-      "high": 50
+      "high": 50,
+      "source_url": "https://en.wikipedia.org/wiki/Amine_gas_treating"
     },
     {
       "metric": "Amine absorber typical operating pressure",
@@ -83,7 +89,8 @@
         "source_id": "en-wikipedia-org-wiki-amine-gas-treating"
       },
       "low": 5,
-      "high": 205
+      "high": 205,
+      "source_url": "https://en.wikipedia.org/wiki/Amine_gas_treating"
     },
     {
       "metric": "Selexol absorption pressure",
@@ -94,7 +101,8 @@
         "source_id": "en-wikipedia-org-wiki-selexol"
       },
       "low": 300,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://en.wikipedia.org/wiki/Selexol"
     },
     {
       "metric": "Rectisol absorption temperature",
@@ -104,7 +112,8 @@
         "url": "https://en.wikipedia.org/wiki/Rectisol",
         "source_id": "en-wikipedia-org-wiki-rectisol"
       },
-      "value": -40
+      "value": -40,
+      "source_url": "https://en.wikipedia.org/wiki/Rectisol"
     },
     {
       "metric": "Rectisol absorption pressure",
@@ -115,7 +124,8 @@
         "source_id": "en-wikipedia-org-wiki-rectisol"
       },
       "low": 400,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://en.wikipedia.org/wiki/Rectisol"
     }
   ],
   "vendors": [

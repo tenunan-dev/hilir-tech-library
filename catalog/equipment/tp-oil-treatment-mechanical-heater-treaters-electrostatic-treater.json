@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Break produced-water-in-oil emulsions with heat and residence time or an applied electrostatic field; reduce BS&W and salt content to export specification.",
+  "description": "Break produced-water-in-oil emulsions with heat and residence time or an applied electrostatic field; reduce BS&W and salt content to export specification. Primary source: https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
   "specifications": [
     {
       "metric": "Mechanical treater capacity",
@@ -19,7 +19,8 @@
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
         "source_id": "specoilandgas-com-oil-processing-mechanical-heater-treater"
       },
-      "value": ">20,000"
+      "value": ">20,000",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Electrostatic vs mechanical treater (qualitative)",
@@ -29,7 +30,8 @@
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
         "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
       },
-      "value": "lower BS&W, lower salt content, smaller footprint"
+      "value": "lower BS&W, lower salt content, smaller footprint",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "Desalting reference plant capacity",
@@ -39,7 +41,8 @@
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
         "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
       },
-      "value": "50,000"
+      "value": "50,000",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "regeneration gas temperature",
@@ -49,7 +52,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
       },
-      "value": "~550 degF (290 degC)"
+      "value": "~550 degF (290 degC)",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "towers",
@@ -59,7 +63,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
       },
-      "value": "minimum 2, fixed switching cycle"
+      "value": "minimum 2, fixed switching cycle",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "treating capacity",
@@ -69,7 +74,8 @@
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater",
         "source_id": "specoilandgas-com-oil-processing-mechanical-heater-treater"
       },
-      "value": ">20,000 BLPD, including low-API crude"
+      "value": ">20,000 BLPD, including low-API crude",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "reference facility",
@@ -79,7 +85,8 @@
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter",
         "source_id": "specoilandgas-com-oil-processing-electrostatic-heater-treater-desa"
       },
-      "value": "50,000 BOPD; 2 dehydrators + 2 cross exchangers"
+      "value": "50,000 BOPD; 2 dehydrators + 2 cross exchangers",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "reference trains",
@@ -89,7 +96,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
       },
-      "value": "2 x 30 MMSCFD"
+      "value": "2 x 30 MMSCFD",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "TEG outlet spec (Fiorentini)",
@@ -99,7 +107,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
       },
-      "value": "3-7 lb water/MMSCF"
+      "value": "3-7 lb water/MMSCF",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "Reference facility capacity",
@@ -108,7 +117,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
       },
-      "value": 50000
+      "value": 50000,
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "Reference equipment count",
@@ -117,7 +127,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "Heating section",
@@ -125,7 +136,8 @@
       "basis": "'gas fired firetubes' with heat shroud",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "Coalescing section",
@@ -133,7 +145,8 @@
       "basis": "'electrostatic grid generated by electric transformers'; polarises water droplets to coalesce and settle",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "Footprint comparison",
@@ -141,7 +154,8 @@
       "basis": "'Smaller than a comparable mechanical unit' (comparison table)",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "Treated oil BS&W",
@@ -149,7 +163,8 @@
       "basis": "'Lower' than mechanical treater (comparison table)",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "Salt content",
@@ -157,7 +172,8 @@
       "basis": "'Lower' than mechanical treater (comparison table)",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "Design parameters",
@@ -165,7 +181,8 @@
       "basis": "'Grid voltage, treating temperature, vessel size and the achievable BS&W and salt figures are set by SPEC engineering against your crude properties and target specification'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/electrostatic-heater-treater-desalter"
     },
     {
       "metric": "Heater treater - treating capacity",
@@ -174,7 +191,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Sized to duty, including above 20,000 BLPD (barrels of liquid per day)"
+      "value": "Sized to duty, including above 20,000 BLPD (barrels of liquid per day)",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - orientation",
@@ -183,7 +201,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Horizontal, skid-mounted"
+      "value": "Horizontal, skid-mounted",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - crude range",
@@ -192,7 +211,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Including low-API crude"
+      "value": "Including low-API crude",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - heat source",
@@ -201,7 +221,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Firetubes within the heating section"
+      "value": "Firetubes within the heating section",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - control",
@@ -210,7 +231,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Fully automated burner management system"
+      "value": "Fully automated burner management system",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Heater treater - sections",
@@ -219,7 +241,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
       },
-      "value": "Two main sections: heating section and coalescing section"
+      "value": "Two main sections: heating section and coalescing section",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/mechanical-heater-treater"
     },
     {
       "metric": "Project scope example",
@@ -228,7 +251,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
       },
-      "value": "Two 30 MMSCFD triethylene glycol dehydration trains for a 60 MMSCFD sour gas plant"
+      "value": "Two 30 MMSCFD triethylene glycol dehydration trains for a 60 MMSCFD sour gas plant",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "Reference plant capacity",
@@ -237,7 +261,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
       },
-      "high": 35
+      "high": 35,
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "Glycol type",
@@ -246,7 +271,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
       },
-      "value": "Triethylene glycol (TEG)"
+      "value": "Triethylene glycol (TEG)",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "Process equipment",
@@ -255,7 +281,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
       },
-      "value": "inlet scrubber, contactor tower, glycol/gas heat exchanger, flash tank, rich/lean glycol exchanger, glycol reboiler and still column, glycol pump, glycol filters"
+      "value": "inlet scrubber, contactor tower, glycol/gas heat exchanger, flash tank, rich/lean glycol exchanger, glycol reboiler and still column, glycol pump, glycol filters",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "Reference scope",
@@ -264,7 +291,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
       },
-      "value": "Molecular sieve dehydration unit within a 100 tonne a day LPG production facility"
+      "value": "Molecular sieve dehydration unit within a 100 tonne a day LPG production facility",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "Regeneration gas temperature",
@@ -274,7 +302,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
       },
       "value": 290,
-      "low": 550
+      "low": 550,
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "Regeneration temperature (table)",
@@ -283,7 +312,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
       },
-      "high": 290
+      "high": 290,
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "Bed configuration",
@@ -292,7 +322,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
       },
-      "value": "two towers switching between adsorbing and regenerating on a fixed cycle"
+      "value": "two towers switching between adsorbing and regenerating on a fixed cycle",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     }
   ],
   "vendors": [

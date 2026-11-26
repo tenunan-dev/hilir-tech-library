@@ -6,7 +6,7 @@
   "equipment": [
     "feedwater-deaerator-system"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/boilermate",
   "specifications": [
     {
       "metric": "Capacity",
@@ -17,7 +17,8 @@
       },
       "unit": "lb/hr",
       "low": 1500,
-      "high": 135000
+      "high": 135000,
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Type",
@@ -27,7 +28,8 @@
         "source_id": "cleaverbrooks-com-product-boilermate"
       },
       "unit": "type",
-      "value": "Pressurized packed column deaerator"
+      "value": "Pressurized packed column deaerator",
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Storage capacity",
@@ -38,7 +40,8 @@
       },
       "unit": "minutes",
       "low": 10,
-      "high": 30
+      "high": 30,
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Pumping",
@@ -48,7 +51,8 @@
         "source_id": "cleaverbrooks-com-product-boilermate"
       },
       "unit": "configuration",
-      "value": "On/off or variable speed pumping"
+      "value": "On/off or variable speed pumping",
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Feedwater capacity",
@@ -58,7 +62,8 @@
         "url": "https://cleaverbrooks.com/product/boilermate"
       },
       "low": 1500,
-      "high": 135000
+      "high": 135000,
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Storage capacity",
@@ -68,7 +73,8 @@
         "url": "https://cleaverbrooks.com/product/boilermate"
       },
       "low": 10,
-      "high": 30
+      "high": 30,
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Pumping options",
@@ -76,7 +82,8 @@
       "basis": "\"On/off and variable speed pumping\"; \"On/off or variable speed pumping\"",
       "source": {
         "url": "https://cleaverbrooks.com/product/boilermate"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     },
     {
       "metric": "Design type",
@@ -84,7 +91,8 @@
       "basis": "\"a pressurized packed column design where water is cascaded through a unique column design removing dissolved oxygen in boiler feed water and eliminating carbon dioxide\"",
       "source": {
         "url": "https://cleaverbrooks.com/product/boilermate"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/boilermate"
     }
   ],
   "url": "https://cleaverbrooks.com/product/boilermate",

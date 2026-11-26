@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Install piles rapidly with vertical vibration from counter-rotating eccentric weights (can also extract), or press piles hydraulically where vibration/noise must be minimised.",
+  "description": "Install piles rapidly with vertical vibration from counter-rotating eccentric weights (can also extract), or press piles hydraulically where vibration/noise must be minimised. Primary source: https://en.wikipedia.org/wiki/Pile_driver",
   "specifications": [
     {
       "metric": "Vibratory hammer frequency range",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Pile_driver",
         "source_id": "en-wikipedia-org-wiki-pile-driver"
       },
-      "value": "1,200 to 2,400 vibrations per minute (VPM)"
+      "value": "1,200 to 2,400 vibrations per minute (VPM)",
+      "source_url": "https://en.wikipedia.org/wiki/Pile_driver"
     },
     {
       "metric": "Vibratory hammer mechanism",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Pile_driver",
         "source_id": "en-wikipedia-org-wiki-pile-driver"
       },
-      "value": "counter-rotating eccentric weights powered by hydraulic motors; horizontal vibrations cancel, vertical transmitted to pile"
+      "value": "counter-rotating eccentric weights powered by hydraulic motors; horizontal vibrations cancel, vertical transmitted to pile",
+      "source_url": "https://en.wikipedia.org/wiki/Pile_driver"
     },
     {
       "metric": "Reaction-based hydraulic press-in noise",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Pile_driver",
         "source_id": "en-wikipedia-org-wiki-pile-driver"
       },
-      "value": "69 dB at 23 ft"
+      "value": "69 dB at 23 ft",
+      "source_url": "https://en.wikipedia.org/wiki/Pile_driver"
     },
     {
       "metric": "Combined vibro + impact recommendation",
@@ -49,7 +52,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/",
         "source_id": "iqip-com-hydrohammer-s-series"
       },
-      "value": "vibro enables rapid initial penetration in suitable soils; impact hammer drives to final depth/bearing"
+      "value": "vibro enables rapid initial penetration in suitable soils; impact hammer drives to final depth/bearing",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer/hydrohammer-s-series/"
     }
   ],
   "vendors": [

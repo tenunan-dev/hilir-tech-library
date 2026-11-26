@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Field instrumentation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Field instrumentation for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
   "aliases": [
     "Field instrumentation"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "Emerson Rosemount 3051 pressure transm — installed total performance",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "Emerson Rosemount 3051 pressure transm — stability",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "Emerson Rosemount 3051 pressure transm — safety certification",
@@ -60,7 +63,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "Emerson Rosemount 3051 pressure transm — installed base",
@@ -71,7 +75,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "Emerson Rosemount 3051 pressure transm — output protocols",
@@ -81,7 +86,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "Emerson Rosemount 3051 pressure transm — pressure range example (3051TG range 5)",
@@ -93,7 +99,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "Yokogawa Plant Resource Manager (PRM)  — supported field protocols",
@@ -103,7 +110,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
-      }
+      },
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "ABB System 800xA S880 / Select I/O saf — safety I/O module types",
@@ -113,7 +121,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
         "source_id": "geg-search-abb-com-download-aspx-583c22e"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Yokogawa Plant Resource Manager (P — FOUNDATION Fieldbus devices connected to CENTUM CS 3000 DCS",
@@ -124,7 +133,8 @@
       "source": {
         "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
         "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf"
     },
     {
       "metric": "Safety integrity level certification",
@@ -133,7 +143,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "First release year",
@@ -142,7 +153,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 2005
+      "value": 2005,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Experience in process safety systems",
@@ -151,7 +163,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Countries with installed safety systems",
@@ -160,7 +173,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 55
+      "value": 55,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Applicable standards",
@@ -168,7 +182,8 @@
       "basis": "\"designed, delivered and supported in accordance with ... IEC 61508, IEC 61511, IEC 62061, EN ISO 13849, NFPA 85 and NFPA 72\"; certified to IEC 61508 Edition 2 and IEC 61511-1",
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "PM857 controller I/O capacity",
@@ -177,7 +192,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 128
+      "value": 128,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Controller redundancy",
@@ -186,7 +202,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Controller modules",
@@ -194,7 +211,8 @@
       "basis": "\"combining a processor module with a safety module (i.e. PM857, PM863 and PM867 with a SM812 module)\"",
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "S880 I/O signal types",
@@ -202,7 +220,8 @@
       "basis": "\"SIL3 compliant modules for safety critical applications including 4 - 20 mA analog inputs, 24 Vdc digital inputs and 24 Vdc digital outputs\"",
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Select I/O Signal Conditioning Module field power",
@@ -211,7 +230,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 1.2
+      "value": 1.2,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Select I/O 3 A digital output",
@@ -220,7 +240,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "SCM hazardous-area rating and temperature range",
@@ -230,7 +251,8 @@
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
       "low": -40,
-      "high": 70
+      "high": 70,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "ISASecure SSA level",
@@ -239,7 +261,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Sequence-of-events time stamping",
@@ -248,7 +271,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "TÜV Select I/O certificate",
@@ -256,7 +280,8 @@
       "basis": "Certificate No. Z10 029902 0017 Rev.00, holder ABB AB Industrial Automation, dated 2020-01-27, valid until 2025-01-26, test report AV94025C (as printed in the overview)",
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Publication date",
@@ -264,7 +289,8 @@
       "basis": "Datasheet PDF 'System 800xA Safety - Overview', document 3BSE038820 en P, Copyright © 2025 ABB; Jina reported published time 2025-11-03",
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "reference_accuracy",
@@ -273,7 +299,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": 0.04
+      "value": 0.04,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "installed_total_performance",
@@ -282,7 +309,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": 0.14
+      "value": 0.14,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "ten_year_stability",
@@ -291,7 +319,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "safety_certification",
@@ -300,7 +329,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": "SIL2/3 certified (IEC 61508)"
+      "value": "SIL2/3 certified (IEC 61508)",
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "range_3051CD_differential",
@@ -310,7 +340,8 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
       "low": -25,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "range_3051TG_gage",
@@ -320,7 +351,8 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
       "low": -14.7,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "max_static_line_pressure_option",
@@ -329,7 +361,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": 4500
+      "value": 4500,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "output_protocols",
@@ -338,7 +371,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": "4-20 mA HART; FOUNDATION Fieldbus; PROFIBUS PA; WirelessHART (IEC 62591); low-power 1-5 Vdc HART"
+      "value": "4-20 mA HART; FOUNDATION Fieldbus; PROFIBUS PA; WirelessHART (IEC 62591); low-power 1-5 Vdc HART",
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "wireless_frequency",
@@ -347,7 +381,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": 2.4
+      "value": 2.4,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "wireless_installation_cost_saving",
@@ -357,7 +392,8 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
       "low": 40,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "DP_flow_accuracy",
@@ -366,7 +402,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "high": 1.65
+      "high": 1.65,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "Annubar_line_size_range",
@@ -376,7 +413,8 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
       "low": 2,
-      "high": 96
+      "high": 96,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "cold_temperature_options",
@@ -386,7 +424,8 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
       "low": -60,
-      "high": -50
+      "high": -50,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "materials_of_construction",
@@ -395,7 +434,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": "316L SST, Alloy C-276, Alloy 400, Tantalum, gold-plated Alloy 400, gold-plated 316 SST isolating diaphragms; silicone or inert fill fluid; glass/graphite-filled PTFO O-rings"
+      "value": "316L SST, Alloy C-276, Alloy 400, Tantalum, gold-plated Alloy 400, gold-plated 316 SST isolating diaphragms; silicone or inert fill fluid; glass/graphite-filled PTFO O-rings",
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "hazardous_area_certifications",
@@ -404,7 +444,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": "ATEX, FM, CSA, IECEx, INMETRO, TIIS, EAC, China approvals; NACE MR0175/ISO 15156 and MR0103"
+      "value": "ATEX, FM, CSA, IECEx, INMETRO, TIIS, EAC, China approvals; NACE MR0175/ISO 15156 and MR0103",
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "Document number",
@@ -413,7 +454,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "GS 33K01A10-50E"
+      "value": "GS 33K01A10-50E",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Edition",
@@ -422,7 +464,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "12th Edition Sep. 1, 2014"
+      "value": "12th Edition Sep. 1, 2014",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Operating systems",
@@ -431,7 +474,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "Windows 7 Professional Edition; Windows Server 2008 Standard Edition; Windows Server 2008 R2 Standard Edition"
+      "value": "Windows 7 Professional Edition; Windows Server 2008 Standard Edition; Windows Server 2008 R2 Standard Edition",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "FDA compliance",
@@ -440,7 +484,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "FDA:21 CFR Part 11 compliant"
+      "value": "FDA:21 CFR Part 11 compliant",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Package example",
@@ -449,7 +494,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "LHS4000 Million Tag Handling Package"
+      "value": "LHS4000 Million Tag Handling Package",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     }
   ],
   "vendor_models": [

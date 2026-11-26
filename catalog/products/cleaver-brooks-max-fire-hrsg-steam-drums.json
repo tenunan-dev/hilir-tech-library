@@ -6,7 +6,7 @@
   "equipment": [
     "steam-drum-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Max-Fire product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Max-Fire product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/max-fire-series",
   "specifications": [
     {
       "metric": "Drum design",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "design feature",
-      "value": "Large steam drums to assure ample steaming area; downcomers on both ends of boiler"
+      "value": "Large steam drums to assure ample steaming area; downcomers on both ends of boiler",
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Gas flow",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1000000
+      "value": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam generation",
@@ -35,7 +37,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 10000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Design pressure",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam temperature",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Duct firing temperature",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "NOx with SCR",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Gas turbine size range",
@@ -81,7 +88,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 3,
-      "high": 25
+      "high": 25,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Thermal efficiency",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Fuel reduction",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "CO2 emissions avoided",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2870
+      "value": 2870,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Models",
@@ -116,7 +127,8 @@
       "basis": "\"The MF (O-style) and MFA (A-style) models ... The VL (O-style) and VLA (A-style) models offer an evaporator section without a furnace\"",
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     }
   ],
   "url": "https://cleaverbrooks.com/product/max-fire-series",

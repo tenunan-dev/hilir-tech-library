@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments.",
+  "description": "Wired digital field and host communication protocols commonly used in ICSS/SIS/PLC environments. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

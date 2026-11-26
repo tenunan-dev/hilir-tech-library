@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-exhaust-emissions"
   ],
-  "description": "Vendor product line read 2026-11-24. SINOx honeycomb catalyst, stainless housing, injection lance, dosing pump, silencer options",
+  "description": "Vendor product line read 2026-11-24. SINOx honeycomb catalyst, stainless housing, injection lance, dosing pump, silencer options Primary source: https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
   "specifications": [
     {
       "metric": "NOx reduction",
@@ -16,7 +16,8 @@
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "matthey-com-emissions-control-nox-control-systems"
       },
-      "low": 95
+      "low": 95,
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Service interval",
@@ -26,7 +27,8 @@
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "matthey-com-emissions-control-nox-control-systems"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "NOx reduction",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Operating hours before maintenance",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Key components",
@@ -52,7 +56,8 @@
       "basis": "\"SINOx honeycomb catalysts; Durable stainless steel catalyst housings; Stainless steel reagent injection lance; Stainless steel reagent mixing duct; System control panel and reagent dosing pump; Silencers for additional sound attenuation\"",
       "source": {
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
-      }
+      },
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Additional pollutant control",
@@ -60,7 +65,8 @@
       "basis": "\"can be coupled with ammonia slip or oxidation catalyst technology for optimal reductions of CO, hydrocarbons, ammonia and other VOCs\"",
       "source": {
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
-      }
+      },
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     }
   ],
   "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",

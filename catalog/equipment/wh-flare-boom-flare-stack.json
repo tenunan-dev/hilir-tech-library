@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Safely combust waste gas during normal operation and emergencies; height/length set by radiation and noise limits.",
+  "description": "Safely combust waste gas during normal operation and emergencies; height/length set by radiation and noise limits. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

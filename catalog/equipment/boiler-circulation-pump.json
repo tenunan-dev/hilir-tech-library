@@ -8,7 +8,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "In forced/controlled-circulation HRSGs and boilers, a pump circulates water/steam-water mixture from the drum through parallel evaporator circuits and back, maintaining tube-wall wetting where natural density head is insufficient (horizontal tubes, limited drum-to-evaporator height, long circuits). Natural-circulation and once-through units need no circulation pump in normal operation (once-through with superimposed circulation uses one at start-up/low load).",
+  "description": "In forced/controlled-circulation HRSGs and boilers, a pump circulates water/steam-water mixture from the drum through parallel evaporator circuits and back, maintaining tube-wall wetting where natural density head is insufficient (horizontal tubes, limited drum-to-evaporator height, long circuits). Natural-circulation and once-through units need no circulation pump in normal operation (once-through with superimposed circulation uses one at start-up/low load). Primary source: https://www.esteemprojects.com/library/HRSG-Design/page7_1.html",
   "specifications": [
     {
       "metric": "Circulation ratio rule of thumb for forced-circulation HRSG",
@@ -18,7 +18,8 @@
         "url": "https://www.esteemprojects.com/library/HRSG-Design/page7_1.html",
         "source_id": "esteemprojects-com-hrsg-design-page7-1-html"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.esteemprojects.com/library/HRSG-Design/page7_1.html"
     }
   ],
   "vendors": [

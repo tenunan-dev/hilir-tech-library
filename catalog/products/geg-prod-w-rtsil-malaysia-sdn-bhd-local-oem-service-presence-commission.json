@@ -6,7 +6,7 @@
   "equipment": [
     "geg-pre-commissioning-and-start-up-management"
   ],
-  "description": "local OEM service presence (commissioning support)",
+  "description": "local OEM service presence (commissioning support) Primary source: https://www.wartsila.com/mys",
   "specifications": [
     {
       "metric": "years since Malaysia establishment",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys",
         "source_id": "geg-wartsila-com-mys-1e8ef98"
-      }
+      },
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Malaysia office established",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": 1996
+      "value": 1996,
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Local staff",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": "over 15 professionals"
+      "value": "over 15 professionals",
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Kuala Lumpur office address",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia"
+      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia",
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Kuala Lumpur phone / fax",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": "+603 2148 5072 / +603 2148 5071"
+      "value": "+603 2148 5072 / +603 2148 5071",
+      "source_url": "https://www.wartsila.com/mys"
     }
   ],
   "url": "https://www.wartsila.com/mys",

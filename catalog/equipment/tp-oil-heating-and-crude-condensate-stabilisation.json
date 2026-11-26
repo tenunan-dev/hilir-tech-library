@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Heat emulsion or crude; strip light ends from crude/condensate to meet Reid vapour pressure (RVP) and H2S limits for storage/export; supply heat from hot-oil or fired systems.",
+  "description": "Heat emulsion or crude; strip light ends from crude/condensate to meet Reid vapour pressure (RVP) and H2S limits for storage/export; supply heat from hot-oil or fired systems. Primary source: https://www.specoilandgas.com/equipment/ancillary-equipment",
   "specifications": [
     {
       "metric": "Water bath heater maximum outlet temperature",
@@ -19,7 +19,8 @@
         "url": "https://www.specoilandgas.com/equipment/ancillary-equipment",
         "source_id": "specoilandgas-com-equipment-ancillary-equipment"
       },
-      "value": "87"
+      "value": "87",
+      "source_url": "https://www.specoilandgas.com/equipment/ancillary-equipment"
     },
     {
       "metric": "Stabiliser configuration",
@@ -29,7 +30,8 @@
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization",
         "source_id": "specoilandgas-com-oil-processing-crude-condensate-stabilization"
       },
-      "value": "column with trays/packing + reboiler (gas, hot oil or steam)"
+      "value": "column with trays/packing + reboiler (gas, hot oil or steam)",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     }
   ],
   "vendors": [

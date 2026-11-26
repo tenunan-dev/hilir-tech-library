@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Plant control system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Plant control system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
   "aliases": [
     "Plant control system"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
         "source_id": "geg-search-abb-com-download-aspx-583c22e"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "ABB Ability System 800xA (DCS with Hig — controller hardware I/O capacity PM857",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
         "source_id": "geg-search-abb-com-download-aspx-583c22e"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "ABB Ability System 800xA (DCS with Hig — cybersecurity certification",
@@ -49,7 +51,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
         "source_id": "geg-search-abb-com-download-aspx-583c22e"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "ABB Ability System 800xA (DCS with Hig — alarm performance metrics standards",
@@ -59,7 +62,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
         "source_id": "geg-search-abb-com-download-aspx-583c22e"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "ABB Ability System 800xA (DCS with Hig — SIS connectivity protocols",
@@ -69,7 +73,8 @@
       "source": {
         "url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch",
         "source_id": "geg-search-abb-com-download-aspx-583c22e"
-      }
+      },
+      "source_url": "https://search.abb.com/library/Download.aspx?DocumentID=3BSE038820&LanguageCode=en&DocumentPartId=&Action=Launch"
     },
     {
       "metric": "Honeywell Experion PKS C300 controller — user memory",
@@ -80,7 +85,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Honeywell Experion PKS C300 controller — execution units",
@@ -91,7 +97,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Honeywell Experion PKS C300 controller — standard execution period",
@@ -102,7 +109,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Honeywell Experion PKS C300 controller — redundant controller switchover time",
@@ -113,7 +121,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Honeywell Experion PKS C300 controller — operating temperature range",
@@ -125,7 +134,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Honeywell Experion PKS C300 controller — supported protocols",
@@ -135,7 +145,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Honeywell Experion PKS C300 controller — security certification",
@@ -145,7 +156,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller",
         "source_id": "geg-process-honeywell-com-experion-pks-c300-cont-165cb3b"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Emerson Ovation DCS — target industries",
@@ -155,7 +167,8 @@
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
         "source_id": "geg-emerson-com-ovation-distributed-control-syst-006ffb7"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "Emerson Ovation DCS — market position claim",
@@ -165,7 +178,8 @@
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system",
         "source_id": "geg-emerson-com-ovation-distributed-control-syst-006ffb7"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "Yokogawa CENTUM VP with ProSafe-RS — maximum operation/monitoring tags",
@@ -177,7 +191,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
-      }
+      },
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Yokogawa CENTUM VP with ProSafe-RS — Vnet/IP link transmission period",
@@ -188,7 +203,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
-      }
+      },
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Yokogawa CENTUM VP with ProSafe-RS — IEC 61850 IED communication package",
@@ -198,7 +214,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
-      }
+      },
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Yokogawa CENTUM VP with ProSafe-RS — safety system certification",
@@ -208,7 +225,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
-      }
+      },
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Yokogawa CENTUM VP with ProSafe-RS — remote I/O fibre distance",
@@ -218,7 +236,8 @@
       "year": 2014,
       "source": {
         "url": "https://www.yokogawa.com/us/solutions/products-and-services/control/control-and-safety-system/distributed-control-systems-dcs/centum/"
-      }
+      },
+      "source_url": "https://www.yokogawa.com/us/solutions/products-and-services/control/control-and-safety-system/distributed-control-systems-dcs/centum/"
     },
     {
       "metric": "Omterra (formerly Siemens Energy) Omni — installed base",
@@ -229,7 +248,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
         "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "Omterra (formerly Siemens Energy) Omni — cybersecurity certification",
@@ -239,7 +259,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
         "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "Omterra (formerly Siemens Energy) Omni — substation/third-party integration protocol",
@@ -249,7 +270,8 @@
       "source": {
         "url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html",
         "source_id": "geg-omterra-com-omnivise-t3000-html-6e40189"
-      }
+      },
+      "source_url": "https://www.omterra.com/global/en/home/products/advanced-controls/omnivise-t3000.html"
     },
     {
       "metric": "Valmet DNA automation system (SESB ref — integrated control scope",
@@ -259,7 +281,8 @@
       "source": {
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/",
         "source_id": "geg-valmet-com-65ff972"
-      }
+      },
+      "source_url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
     },
     {
       "metric": "Yokogawa CENTUM VP integrated prod — hardwired I/O points, BP Sharjah DCS",
@@ -270,7 +293,8 @@
       "source": {
         "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
         "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf"
     },
     {
       "metric": "Yokogawa CENTUM VP integrated prod — serial I/O points, BP Sharjah DCS",
@@ -281,7 +305,8 @@
       "source": {
         "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
         "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf"
     },
     {
       "metric": "Yokogawa CENTUM VP integrated prod — subsystems integrated, BP Sharjah DCS",
@@ -292,7 +317,8 @@
       "source": {
         "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
         "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf"
     },
     {
       "metric": "Yokogawa CENTUM VP integrated prod — cabinets, BP Sharjah DCS",
@@ -303,7 +329,8 @@
       "source": {
         "url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf",
         "source_id": "gef-r-jina-ai-bu00a01a55-01en-pdf-a113ec8"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://web-material3.yokogawa.com/BU00A01A55-01EN.pdf"
     },
     {
       "metric": "Target industries",
@@ -311,7 +338,8 @@
       "basis": "Emerson: 'The Ovation Distributed Control System is purposely designed for the power generation and water/wastewater industries.'",
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "Platform version",
@@ -320,7 +348,8 @@
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
       },
-      "value": "Ovation Automation Platform 4.0"
+      "value": "Ovation Automation Platform 4.0",
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "Controller / I/O model lines",
@@ -328,7 +357,8 @@
       "basis": "Emerson lists 'OCR3000 Controller, OCC100 Controller, OMC100 Controller, SDC100 Controller, Ovation I/O, Machinery Health Monitor'",
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "I/O construction",
@@ -336,7 +366,8 @@
       "basis": "Emerson: 'Ovation I/O features modular, plug-in components ... Fast DIN rail installation, built-in connectors, and electronic ID ... With hot-swappable modules, standardized diagnostics'",
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "Market positioning",
@@ -344,7 +375,8 @@
       "basis": "'According to ARC Advisory Group's Distributed Control Systems for Power Generation Global Market Research 2024–2029, Emerson's Ovation is positioned as the leading distributed control system for power generation globally and across North America.'",
       "source": {
         "url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/automation-systems/distributed-control-systems-dcs/ovation-distributed-control-system"
     },
     {
       "metric": "User memory",
@@ -353,7 +385,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 32768
+      "value": 32768,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Execution units",
@@ -362,7 +395,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 9000
+      "value": 9000,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Execution period",
@@ -371,7 +405,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Temperature rating",
@@ -381,7 +416,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
       "low": -40,
-      "high": 70
+      "high": 70,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Tagged blocks",
@@ -390,7 +426,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 4095
+      "value": 4095,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Switchover time",
@@ -399,7 +436,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Synchronization time",
@@ -408,7 +446,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 240
+      "value": 240,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "I/O HIVE parameter references",
@@ -417,7 +456,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "CN100 connections",
@@ -426,7 +466,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Redundancy",
@@ -434,7 +475,8 @@
       "basis": "Honeywell: 'Supports 1:1 redundancy with dedicated IOTA and redundancy cable'; 'C300v5 (PCNT05)... supports traditional 1:1 redundant and Control HIVE deployment'",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Supported protocols",
@@ -442,7 +484,8 @@
       "basis": "Honeywell: 'EtherNet/IP, Profinet, FOUNDATION Fieldbus, HART, IEC61850, OPC UA, Profibus and Modbus'; spec table: 'CDA peer-to-peer, EtherNet/IP via EIM, Foundation Fieldbus via FIM4/FIM8, Modbus/TCP via PCDI, Profibus via PGM, Profinet via EIM, VLAN-based IO HIVE'",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Security certifications",
@@ -450,7 +493,8 @@
       "basis": "Honeywell: 'Embedded Firewall; ISA Secure CSA L2 Certified'",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Time sources / update periods",
@@ -458,7 +502,8 @@
       "basis": "Honeywell: 'Time Sources NTP | PTPv2'; 'SNTP Update Period 1 min'; 'PTP Update Period 30 sec'",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Models / form factor",
@@ -466,7 +511,8 @@
       "basis": "Honeywell: 'Models C300 (PCNT05)'; 'Form Factor Series C'; 'Mounting Type On Input Output Termination Assembly (IOTA)'; 'Memory Backup CC-SCMB05 Module for Power-Loss Recovery'",
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
-      }
+      },
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/distributed-control-systems-dcs/experion-pks/controllers/experion-pks-c300-controller"
     },
     {
       "metric": "Plant generating capacity (Patau-Patau)",
@@ -475,7 +521,8 @@
       "source": {
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
       },
-      "value": 112
+      "value": 112,
+      "source_url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
     },
     {
       "metric": "Automation scope",
@@ -483,7 +530,8 @@
       "basis": "Valmet: 'integrates boiler, feedwater and turbine control into one Valmet DNA automation platform'; delivery 'includes a Valmet DNA automation system, an information management application, a turbine controller for an AEG Kanis steam turbine, integration of two existing GE F6 gas turbine controllers into Valmet DNA, engineering and commissioning'",
       "source": {
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
-      }
+      },
+      "source_url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
     },
     {
       "metric": "Startup date",
@@ -491,7 +539,8 @@
       "basis": "Valmet: 'The new automation system will be started up in July 2016.'",
       "source": {
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
-      }
+      },
+      "source_url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
     },
     {
       "metric": "Typical automation delivery order value",
@@ -501,7 +550,8 @@
         "url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
       },
       "low": 1,
-      "high": 3
+      "high": 3,
+      "source_url": "https://www.valmet.com/news/press-releases/2016/valmet-to-supply-automation-technology-to-sabah-electricitys-power-plant-in-malaysia/"
     },
     {
       "metric": "ProSafe-RS - SIL certification",
@@ -510,7 +560,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "TUV certified as a safety system satisfying SIL 3 of IEC 61508"
+      "value": "TUV certified as a safety system satisfying SIL 3 of IEC 61508",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - Vnet/IP communication speed",
@@ -519,7 +570,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - Vnet/IP devices per domain",
@@ -528,7 +580,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": 64
+      "value": 64,
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - domains per system",
@@ -537,7 +590,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": 16
+      "value": 16,
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - stations per system",
@@ -546,7 +600,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": 256
+      "value": 256,
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - operation/monitoring tags",
@@ -555,7 +610,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": 100000
+      "value": 100000,
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - domain layers via Vnet routers",
@@ -564,7 +620,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "3 layers (2 layers for bus converter, 3 layers for Vnet)"
+      "value": "3 layers (2 layers for bus converter, 3 layers for Vnet)",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - minimum system configuration",
@@ -573,7 +630,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "HIS x 1, ENG x 1, FCS x 1 (HIS and ENG can be consolidated in one computer)"
+      "value": "HIS x 1, ENG x 1, FCS x 1 (HIS and ENG can be consolidated in one computer)",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - supported OS",
@@ -582,7 +640,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "Windows Vista Business, Windows 7 Professional, Windows Server 2008 Standard, Windows Server 2008 R2 Standard"
+      "value": "Windows Vista Business, Windows 7 Professional, Windows Server 2008 Standard, Windows Server 2008 R2 Standard",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - subsystem communication protocols",
@@ -591,7 +650,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "Serial (ALR111/ALR121), Ethernet (ALE111), PROFIBUS-DP (ALP121/ALP111), Modbus, EtherNet/IP, OPC DA, IEC 61850 IED, FOUNDATION fieldbus, HART, field wireless ISA 100.11a"
+      "value": "Serial (ALR111/ALR121), Ethernet (ALE111), PROFIBUS-DP (ALP121/ALP111), Modbus, EtherNet/IP, OPC DA, IEC 61850 IED, FOUNDATION fieldbus, HART, field wireless ISA 100.11a",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     }
   ],
   "vendor_models": [

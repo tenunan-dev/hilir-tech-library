@@ -6,7 +6,7 @@
   "equipment": [
     "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
   ],
-  "description": "Hydraulically balanced diaphragm; cast iron housing with chemical-resistant coating; internal adjustable pressure relief valve. Milton Roy product brochure MR-ACC PDF is linked but was not fetched.",
+  "description": "Hydraulically balanced diaphragm; cast iron housing with chemical-resistant coating; internal adjustable pressure relief valve. Milton Roy product brochure MR-ACC PDF is linked but was not fetched. Primary source: https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/",
   "specifications": [
     {
       "metric": "Capacity",
@@ -16,7 +16,8 @@
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/",
         "source_id": "cat-miltonroy-com-cn"
       },
-      "value": "290"
+      "value": "290",
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Capacity (metric)",
@@ -26,7 +27,8 @@
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/",
         "source_id": "cat-miltonroy-com-cn"
       },
-      "value": "1,100"
+      "value": "1,100",
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Pressure",
@@ -36,7 +38,8 @@
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/",
         "source_id": "cat-miltonroy-com-cn"
       },
-      "value": "406"
+      "value": "406",
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Standard turndown ratio",
@@ -46,7 +49,8 @@
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/",
         "source_id": "cat-miltonroy-com-cn"
       },
-      "value": "10:1"
+      "value": "10:1",
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Steady state accuracy",
@@ -56,7 +60,8 @@
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/",
         "source_id": "cat-miltonroy-com-cn"
       },
-      "value": "±1"
+      "value": "±1",
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Capacity",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
       },
-      "value": 290
+      "value": 290,
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Capacity metric",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
       },
-      "value": 1100
+      "value": 1100,
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Maximum pressure",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
       },
-      "value": 406
+      "value": 406,
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Maximum pressure metric",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
       },
-      "value": 28
+      "value": 28,
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Turndown ratio",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Steady state accuracy",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     },
     {
       "metric": "Construction",
@@ -118,7 +129,8 @@
       "basis": "Milton Roy: 'cast iron housing with chemical resistant coating'; 'Dust-tight cast iron housing'; 'Internal adjustable pressure relief valve protects the pump from over pressure'",
       "source": {
         "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
-      }
+      },
+      "source_url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/"
     }
   ],
   "url": "https://www.miltonroy.com.cn/en/metering-pumps/maxroy-series-metering-pumps/",

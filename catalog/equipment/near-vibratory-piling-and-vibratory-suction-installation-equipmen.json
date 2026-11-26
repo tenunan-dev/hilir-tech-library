@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Alternative to impact driving for sheet piles, tubular piles and jackets in granular soils; suction installation uses differential pressure.",
+  "description": "Alternative to impact driving for sheet piles, tubular piles and jackets in granular soils; suction installation uses differential pressure. Primary source: https://iqip.com/products/pile-driving-equipment/hydrohammer",
   "specifications": [
     {
       "metric": "IQIP vibratory product families",
@@ -19,7 +19,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": "VibroLift VQ; Vibrohammer F-series and Z-series"
+      "value": "VibroLift VQ; Vibrohammer F-series and Z-series",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "PULSE effect",
@@ -29,7 +30,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and operating costs"
+      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and operating costs",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "suction bucket jacket installations",
@@ -39,7 +41,8 @@
         "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
         "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
       },
-      "value": 11
+      "value": 11,
+      "source_url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate"
     }
   ],
   "vendors": [

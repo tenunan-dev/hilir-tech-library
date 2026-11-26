@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Service air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Service air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://hadetec.com/products/air-compressor-packages/instrument-air-package",
   "aliases": [
     "Service air system"
   ],
@@ -29,7 +29,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "HADETEC oil-injected / oil-free screw  — oil-injected flow rate FAD",
@@ -40,7 +41,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "HADETEC oil-injected / oil-free screw  — oil-injected power",
@@ -52,7 +54,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "HADETEC oil-injected / oil-free screw  — oil-free discharge pressure",
@@ -64,7 +67,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "HADETEC oil-injected / oil-free screw  — oil-free flow rate FAD",
@@ -75,7 +79,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "HADETEC oil-injected / oil-free screw  — package description",
@@ -85,7 +90,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "Comair plant/service compressed air an — plant air definition",
@@ -95,7 +101,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Comair plant/service compressed air an — oil-free air capability",
@@ -106,7 +113,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Comair plant/service compressed air an — oil-free air flow capability",
@@ -117,7 +125,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Comair plant/service compressed air an — VSD electricity saving claim",
@@ -128,7 +137,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor",
         "source_id": "geg-comairflow-com-instrument-air-compressor-495b8e8"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Aerodyn Group Malaysia (Pneumatech / E — dryer types offered",
@@ -138,7 +148,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Aerodyn Group Malaysia (Pneumatech / E — refrigerant dryer pressure dew point",
@@ -149,7 +160,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Aerodyn Group Malaysia (Pneumatech / E — adsorption dryer pressure dew point",
@@ -161,7 +173,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Aerodyn Group Malaysia (Pneumatech / E — Malaysia presence",
@@ -171,7 +184,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Plant/service air compressor packa — Plant air ISO 8573-1 classification",
@@ -181,7 +195,8 @@
       "source": {
         "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
         "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
-      }
+      },
+      "source_url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf"
     },
     {
       "metric": "Plant/service air compressor packa — Compressor package rating (example quoted unit)",
@@ -192,7 +207,8 @@
       "source": {
         "url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf",
         "source_id": "gef-vil-edgar-wi-us-240603-memo-lopez-strand-cha-d195a40"
-      }
+      },
+      "source_url": "https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf"
     },
     {
       "metric": "Plant/service air compressor packa — Air compressor aftercooler bulk water removal (typical)",
@@ -202,7 +218,8 @@
       "source": {
         "url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf",
         "source_id": "gef-cagi-org-cagi-compressed-air-purity-guide-pd-65793a4"
-      }
+      },
+      "source_url": "https://www.cagi.org/assets/documents/pdfs/publications/cagi-compressed-air-purity-guide.pdf"
     },
     {
       "metric": "Refrigerant dryer pressure dew point",
@@ -211,7 +228,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Adsorption/desiccant dryer pressure dew point range",
@@ -221,7 +239,8 @@
         "url": "https://aerodyngroup.com/pneumatech"
       },
       "low": -70,
-      "high": -10
+      "high": -10,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Membrane dryer pressure dew point",
@@ -230,7 +249,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "ISO 8573-1 class 1 pressure dew point",
@@ -239,7 +259,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": -70
+      "value": -70,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "ISO 8573-1 class 4 pressure dew point",
@@ -248,7 +269,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Dryer types",
@@ -257,7 +279,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Desiccant regeneration methods",
@@ -266,7 +289,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Achievable air pressure",
@@ -275,7 +299,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Achievable air flow",
@@ -284,7 +309,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": 100000
+      "value": 100000,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Continuous running duty",
@@ -293,7 +319,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": 8000
+      "value": 8000,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Motor protection",
@@ -302,7 +329,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": "IP55"
+      "value": "IP55",
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Pressure dew point",
@@ -311,7 +339,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": -70
+      "value": -70,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Oil-free air class",
@@ -319,7 +348,8 @@
       "basis": "Comair: 'Discharging ISO 8573-1 class 0 certified oil free air with 24/7 continuous operation'; 'technical oil free to be ISO 8573 Class 1 level' for oil-injected with dryer/filters",
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "VSD running cost saving",
@@ -328,7 +358,8 @@
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Typical instrument air discharge pressure",
@@ -338,7 +369,8 @@
         "url": "https://comairflow.com/instrument-air-compressor"
       },
       "low": 7,
-      "high": 10
+      "high": 10,
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Compressor types",
@@ -346,7 +378,8 @@
       "basis": "Comair lists oil free screw, oil free centrifugal and oil free piston compressors for instrument air",
       "source": {
         "url": "https://comairflow.com/instrument-air-compressor"
-      }
+      },
+      "source_url": "https://comairflow.com/instrument-air-compressor"
     },
     {
       "metric": "Oil-free screw compressor - discharge pressure",
@@ -356,7 +389,8 @@
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
       "low": 8,
-      "high": 10
+      "high": 10,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "Oil-injected screw compressor - discharge pressure",
@@ -366,7 +400,8 @@
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
       "low": 8,
-      "high": 16
+      "high": 16,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "Oil-free screw compressor - flow rate (FAD) up to",
@@ -375,7 +410,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "Oil-injected screw compressor - flow rate (FAD) up to",
@@ -384,7 +420,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "Oil-free screw compressor - power",
@@ -394,7 +431,8 @@
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
       "low": 37,
-      "high": 600
+      "high": 600,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "Oil-injected screw compressor - power",
@@ -404,7 +442,8 @@
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
       "low": 2.2,
-      "high": 500
+      "high": 500,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "Air dryer - low dew point up to",
@@ -413,7 +452,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
-      "value": -90
+      "value": -90,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "Oil-free air quality",
@@ -422,7 +462,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
-      "value": "ISO 8573-1 Class 0 with filter & dryer package"
+      "value": "ISO 8573-1 Class 0 with filter & dryer package",
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "Pressure vessels - design standard",
@@ -431,7 +472,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
-      "value": "ASME VIII Div.1 and U STAMP or PED"
+      "value": "ASME VIII Div.1 and U STAMP or PED",
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     }
   ],
   "vendor_models": [

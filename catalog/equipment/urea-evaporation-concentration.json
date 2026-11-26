@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Evaporation / concentration (pre-concentrator, evaporators)",
+  "description": "Evaporation / concentration (pre-concentrator, evaporators) Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
   "specifications": [
     {
       "metric": "isocyanic acid decomposition risk",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": "worst when urea solution is heated at low pressure during concentration for prilling or granulation"
+      "value": "worst when urea solution is heated at low pressure during concentration for prilling or granulation",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "crystallization condition (vendor description)",
@@ -29,7 +30,8 @@
         "url": "https://www.sensotech.com/en/urea-production",
         "source_id": "sensotech-com-en-urea-production"
       },
-      "value": "urea solution evaporated, urea crystallized under vacuum; crystals centrifuged and dried"
+      "value": "urea solution evaporated, urea crystallized under vacuum; crystals centrifuged and dried",
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "feed-solution concentration effect on granulation steam use",
@@ -39,7 +41,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": "steam 0.01 MT/MT depends on concentration of feed urea solution"
+      "value": "steam 0.01 MT/MT depends on concentration of feed urea solution",
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     }
   ],
   "vendors": [

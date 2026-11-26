@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. Case-study detail page not fetched.",
+  "description": "Vendor product line read 2026-11-24. Case-study detail page not fetched. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
   "specifications": [
     {
       "metric": "Documented application",
@@ -16,7 +16,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
         "source_id": "sys-slb-com-processing-and-separation"
       },
-      "value": "oil-in-water separation (Oman case study)"
+      "value": "oil-in-water separation (Oman case study)",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",

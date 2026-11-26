@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-waste-heat-chiller"
   ],
-  "description": "Vendor product line read 2026-11-24. Self-supported on discharge pipe; transformative and absorptive acoustic principles. Read in full this session.",
+  "description": "Vendor product line read 2026-11-24. Self-supported on discharge pipe; transformative and absorptive acoustic principles. Read in full this session. Primary source: https://burgessmanning.com/preset-vent-silencers/",
   "specifications": [
     {
       "metric": "Inlet diameter",
@@ -17,7 +17,8 @@
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
       "low": 2,
-      "high": 12
+      "high": 12,
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Casing diameter",
@@ -28,7 +29,8 @@
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
       "low": 8,
-      "high": 24
+      "high": 24,
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Standard design temperature",
@@ -38,7 +40,8 @@
         "url": "https://burgessmanning.com/preset-vent-silencers/",
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Enhanced noise attenuation",
@@ -48,7 +51,8 @@
         "url": "https://burgessmanning.com/preset-vent-silencers/",
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
-      "high": "50+"
+      "high": "50+",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Inlet diameter",
@@ -59,7 +63,8 @@
       },
       "value": 2,
       "low": 12,
-      "high": "in"
+      "high": "in",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Casing diameter",
@@ -70,7 +75,8 @@
       },
       "value": 8,
       "low": 24,
-      "high": "in"
+      "high": "in",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Standard design temperature",
@@ -79,7 +85,8 @@
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Enhanced noise attenuation",
@@ -88,7 +95,8 @@
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Construction",
@@ -96,7 +104,8 @@
       "basis": "'Standard primed carbon steel construction'; 'Fully welded construction'; 'Cylindrical design'; 'Self-supported on discharge pipe'",
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
-      }
+      },
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Materials",
@@ -104,7 +113,8 @@
       "basis": "'Materials: Carbon steel ASTM/ASME'",
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
-      }
+      },
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Connections",
@@ -112,7 +122,8 @@
       "basis": "'supplied with either a butt-weld or flanged inlet connection'",
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
-      }
+      },
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Design codes",
@@ -120,7 +131,8 @@
       "basis": "'Design Codes: None'; 'Certifications: None'",
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
-      }
+      },
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Temporary vent down usage",
@@ -128,7 +140,8 @@
       "basis": "'Steam', 'Air'",
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
-      }
+      },
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     }
   ],
   "url": "https://burgessmanning.com/preset-vent-silencers/",

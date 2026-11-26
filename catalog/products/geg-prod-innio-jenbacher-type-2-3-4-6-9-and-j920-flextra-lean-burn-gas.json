@@ -6,7 +6,7 @@
   "equipment": [
     "geg-gas-engine-generator-units"
   ],
-  "description": "lean-burn gas engine generator set / CHP module",
+  "description": "lean-burn gas engine generator set / CHP module Primary source: https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
   "specifications": [
     {
       "metric": "Electrical efficiency, Jenbacher gas engines (general range)",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
         "source_id": "geg-jenbacher-com-23aa945"
-      }
+      },
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
     },
     {
       "metric": "Jenbacher J920 FleXtra electrical output",
@@ -29,7 +30,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Jenbacher",
         "source_id": "geg-en-wikipedia-org-jenbacher-436766f"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Jenbacher"
     },
     {
       "metric": "Jenbacher J920 FleXtra electrical efficiency",
@@ -40,7 +42,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Jenbacher",
         "source_id": "geg-en-wikipedia-org-jenbacher-436766f"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Jenbacher"
     },
     {
       "metric": "Jenbacher portfolio output range",
@@ -52,7 +55,8 @@
       "source": {
         "url": "https://www.clarke-energy.com/us/gas-engines/",
         "source_id": "geg-clarke-energy-com-36289e3"
-      }
+      },
+      "source_url": "https://www.clarke-energy.com/us/gas-engines/"
     },
     {
       "metric": "Type 4 rated power up to",
@@ -63,7 +67,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",
         "source_id": "geg-jenbacher-com-23aa945"
-      }
+      },
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
     },
     {
       "metric": "Electrical efficiency range of Jenbacher gas engines",
@@ -74,7 +79,8 @@
       },
       "value": "40 - 50",
       "low": 40,
-      "high": 50
+      "high": 50,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
     },
     {
       "metric": "Application power range",
@@ -83,7 +89,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
       },
-      "value": "less than 1 MW to up to 100 MW; 190 MW CHP project (Stadtwerke Kiel)"
+      "value": "less than 1 MW to up to 100 MW; 190 MW CHP project (Stadtwerke Kiel)",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
     },
     {
       "metric": "Type 2 maximum power",
@@ -92,7 +99,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
       },
-      "value": 361
+      "value": 361,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
     },
     {
       "metric": "Type 3 maximum power",
@@ -101,7 +109,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
       },
-      "value": 1208
+      "value": 1208,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
     },
     {
       "metric": "Type 4 maximum power",
@@ -110,7 +119,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
       },
-      "value": 1694
+      "value": 1694,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
     },
     {
       "metric": "Type 6 maximum power",
@@ -119,7 +129,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
       },
-      "value": 4499
+      "value": 4499,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
     },
     {
       "metric": "Type 9 / J920 maximum power",
@@ -128,7 +139,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
       },
-      "value": 10606
+      "value": 10606,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
     },
     {
       "metric": "Selection factors listed",
@@ -137,7 +149,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
       },
-      "value": "CAPEX; electrical and overall solution efficiency; production/commissioning timeline; modularity; OPEX; start/stop event frequency limits; time to full power; partial-load efficiency; power output tol"
+      "value": "CAPEX; electrical and overall solution efficiency; production/commissioning timeline; modularity; OPEX; start/stop event frequency limits; time to full power; partial-load efficiency; power output tol",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/"
     }
   ],
   "url": "https://www.jenbacher.com/en/energy-solutions/selecting-power-generation-equipment/",

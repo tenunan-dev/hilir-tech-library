@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Mechanical maintenance workshop equipment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Mechanical maintenance workshop equipment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
   "aliases": [
     "Mechanical maintenance workshop equipment"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
         "note": "Work package supplied by owner; not a technical source."
-      }
+      },
+      "source_url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
     },
     {
       "metric": "Standard workshop tools / inspecti — Tooling requirement for routine inspections",
@@ -37,7 +38,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Standard workshop tools / inspecti — Inspection approach",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     }
   ],
   "vendor_models": [],

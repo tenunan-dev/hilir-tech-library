@@ -6,7 +6,7 @@
   "equipment": [
     "geg-crane-and-hoist"
   ],
-  "description": "double girder EOT crane with hoist/winch trolley",
+  "description": "double girder EOT crane with hoist/winch trolley Primary source: https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
   "specifications": [
     {
       "metric": "LH-type 5t span",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH-type 5t lifting height",
@@ -29,7 +30,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH-type 5t total power",
@@ -41,7 +43,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH-type 10t total power",
@@ -53,7 +56,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "working duty",
@@ -63,7 +67,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "single girder reference span/lift/power",
@@ -73,7 +78,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",
         "source_id": "geg-dgcrane-com-overhead-crane-price-pdf-1d10190"
-      }
+      },
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH/QD double girder crane - capacity range",
@@ -83,7 +89,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 5,
-      "high": 600
+      "high": 600,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH/QD double girder crane - span",
@@ -93,7 +100,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 10.5,
-      "high": 34
+      "high": 34,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH 5t double girder - total power",
@@ -103,7 +111,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 22.8,
-      "high": 27.8
+      "high": 27.8,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH 100t/20t double girder - total power",
@@ -113,7 +122,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 136,
-      "high": 174
+      "high": 174,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH 600t/150t double girder - total power",
@@ -122,7 +132,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
-      "value": 466
+      "value": 466,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "LH/QD - working duty",
@@ -131,7 +142,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
-      "value": "A5, A6 (A5 for 200t and above)"
+      "value": "A5, A6 (A5 for 200t and above)",
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Single girder overhead crane - power supply",
@@ -140,7 +152,8 @@
       "source": {
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
-      "value": "220V-660V, 50-60Hz, 3ph AC"
+      "value": "220V-660V, 50-60Hz, 3ph AC",
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Single girder overhead crane - span",
@@ -150,7 +163,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 7.5,
-      "high": 31.5
+      "high": 31.5,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     },
     {
       "metric": "Single girder overhead crane - lifting height",
@@ -160,7 +174,8 @@
         "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
       },
       "low": 6,
-      "high": 30
+      "high": 30,
+      "source_url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf"
     }
   ],
   "url": "https://dgcrane.com/wp-content/uploads/2025/07/Overhead-Crane-Price.pdf",

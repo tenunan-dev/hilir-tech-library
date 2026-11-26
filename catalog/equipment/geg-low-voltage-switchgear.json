@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Low voltage switchgear for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Low voltage switchgear for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
   "aliases": [
     "Low voltage switchgear"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
         "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "ABB MNS 3.0 low-voltage switchgear — Rated operating voltage",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
         "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "ABB MNS 3.0 low-voltage switchgear — Main busbar rated current",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
         "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "ABB MNS 3.0 low-voltage switchgear — Main busbar rated peak withstand current",
@@ -61,7 +64,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
         "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "ABB MNS 3.0 low-voltage switchgear — Main busbar rated short-time withstand current",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
         "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "ABB MNS 3.0 low-voltage switchgear — Internal arc proof",
@@ -82,7 +87,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
         "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "ABB MNS 3.0 low-voltage switchgear — Standard dimensions height / width / depth",
@@ -92,7 +98,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
         "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "ABB MNS 3.0 low-voltage switchgear — Degree of protection / internal subdivision",
@@ -102,7 +109,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf",
         "source_id": "geg-library-e-abb-com-mns3-0-catalogue-en-1sxh90-5e51f6c"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "ABB MNS 3.0 low-voltage switchgear — Low voltage definition under Sabah Distribution Code",
@@ -112,7 +120,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20distribution-20code-pdf-3fe93a1"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Distribution%20Code.pdf"
     },
     {
       "metric": "Siemens SIVACON S8 low-voltage power d — Main busbar rated current",
@@ -123,7 +132,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Siemens SIVACON S8 low-voltage power d — Rated peak withstand current",
@@ -134,7 +144,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Siemens SIVACON S8 low-voltage power d — Rated short-time withstand current",
@@ -145,7 +156,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Siemens SIVACON S8 low-voltage power d — Frame height / degree of protection",
@@ -155,7 +167,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Siemens SIVACON S8 low-voltage power d — Circuit breaker design rated current",
@@ -166,7 +179,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf",
         "source_id": "geg-assets-new-siemens-com-sivacon-catalogue-pdf-55a1630"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Low voltage switchgear / main swit — GGD fixed LV panel rating",
@@ -177,7 +191,8 @@
       "source": {
         "url": "https://www.jiahotech.com/switchgear-type-price-suppliers-in-malaysia",
         "source_id": "gef-jiahotech-com-switchgear-type-price-supplier-3564305"
-      }
+      },
+      "source_url": "https://www.jiahotech.com/switchgear-type-price-suppliers-in-malaysia"
     },
     {
       "metric": "Low voltage switchgear / main swit — MNS/GCS withdrawable LV panel rating",
@@ -187,7 +202,8 @@
       "source": {
         "url": "https://www.jiahotech.com/switchgear-type-price-suppliers-in-malaysia",
         "source_id": "gef-jiahotech-com-switchgear-type-price-supplier-3564305"
-      }
+      },
+      "source_url": "https://www.jiahotech.com/switchgear-type-price-suppliers-in-malaysia"
     },
     {
       "metric": "Low voltage switchgear / main swit — LV switchgear equipment benchmark",
@@ -199,7 +215,8 @@
       "source": {
         "url": "https://www.htyel.com/electrical-switchgear-cost-estimate-a-practical-pricing-guide",
         "source_id": "gef-htyel-com-electrical-switchgear-cost-estimat-6ce70b8"
-      }
+      },
+      "source_url": "https://www.htyel.com/electrical-switchgear-cost-estimate-a-practical-pricing-guide"
     },
     {
       "metric": "Standard",
@@ -208,7 +225,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "IEC 61439-1 / IEC 61439-2"
+      "value": "IEC 61439-1 / IEC 61439-2",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Main busbar rated current",
@@ -217,7 +235,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 7000
+      "high": 7000,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Rated impulse withstand current",
@@ -226,7 +245,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 330
+      "high": 330,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Rated short-time withstand current",
@@ -235,7 +255,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 150
+      "high": 150,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Frame height",
@@ -244,7 +265,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "2,000 / 2,200"
+      "value": "2,000 / 2,200",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Base height add-on",
@@ -253,7 +275,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "100 / 200"
+      "value": "100 / 200",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Degree of protection",
@@ -262,7 +285,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "IP30, IP31, IP40, IP41, IP42, IP54"
+      "value": "IP30, IP31, IP40, IP41, IP42, IP54",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Branch busbar rated current",
@@ -271,7 +295,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 6300
+      "high": 6300,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Single withdrawable unit rating",
@@ -280,7 +305,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 630
+      "high": 630,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Small withdrawable units per section",
@@ -289,7 +315,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 48
+      "high": 48,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Capacitor compensation",
@@ -298,7 +325,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "high": 600
+      "high": 600,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Arc fault test",
@@ -307,7 +335,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "IEC 61641"
+      "value": "IEC 61641",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Door opening angle",
@@ -316,7 +345,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
       },
-      "value": "125° / 180° with stand-alone design"
+      "value": "125° / 180° with stand-alone design",
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:2c47f871-aec5-4d29-9a0d-b4683ac689f5/sivacon-catalogue.pdf"
     },
     {
       "metric": "Rated insulation voltage Ui",
@@ -325,7 +355,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Rated insulation voltage (DC)",
@@ -334,7 +365,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Rated operating voltage Ue",
@@ -343,7 +375,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 690
+      "value": 690,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Rated impulse withstand voltage Uimp",
@@ -352,7 +385,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "6/8/12"
+      "value": "6/8/12",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Overvoltage category",
@@ -361,7 +395,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "II/III/IV"
+      "value": "II/III/IV",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Degree of pollution",
@@ -370,7 +405,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Rated frequency",
@@ -379,7 +415,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 60
+      "value": 60,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Copper busbar rated current Ie",
@@ -388,7 +425,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 6300
+      "value": 6300,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Rated peak withstand current Ipk",
@@ -397,7 +435,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 220
+      "value": 220,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Rated short-time withstand current Icw",
@@ -406,7 +445,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Distribution bar rated current",
@@ -415,7 +455,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Arc proof operating voltage",
@@ -424,7 +465,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 690
+      "value": 690,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Arc proof prospective short-circuit current",
@@ -433,7 +475,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Arc proof duration",
@@ -442,7 +485,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Standard height",
@@ -451,7 +495,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 2200
+      "value": 2200,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Standard widths",
@@ -460,7 +505,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "400, 600, 800, 1000, 1200"
+      "value": "400, 600, 800, 1000, 1200",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Standard depths",
@@ -469,7 +515,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "800, 1000, 1200"
+      "value": "800, 1000, 1200",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Basic grid size",
@@ -478,7 +525,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Internal subdivision",
@@ -487,7 +535,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "up to Form 4"
+      "value": "up to Form 4",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Maximum ambient temperature",
@@ -496,7 +545,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "24-hour average temperature",
@@ -505,7 +555,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 35
+      "value": 35,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Minimum temperature",
@@ -514,7 +565,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": -5
+      "value": -5,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Ambient relative humidity",
@@ -523,7 +575,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Altitude derating threshold",
@@ -532,7 +585,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Seismic/shock resistance",
@@ -541,7 +595,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "0.63/6.3; marine standard resistance against shock of 5-100 Hz"
+      "value": "0.63/6.3; marine standard resistance against shock of 5-100 Hz",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Main busbar cross-sections",
@@ -550,7 +605,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "20x10, 30x10, 40x10, 60x10"
+      "value": "20x10, 30x10, 40x10, 60x10",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Primary connector life cycle",
@@ -559,7 +615,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Reactive power compensation",
@@ -568,7 +625,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Smallest withdrawable module",
@@ -577,7 +635,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "8E/4 (up to 36 modules in equipment compartment)"
+      "value": "8E/4 (up to 36 modules in equipment compartment)",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Module sizes",
@@ -586,7 +645,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "8E/4, 8E/2, 4E, 6E, 8E, 12E, 16E, 20E, 24E"
+      "value": "8E/4, 8E/2, 4E, 6E, 8E, 12E, 16E, 20E, 24E",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Isolated position draw-out",
@@ -595,7 +655,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Module exchange time",
@@ -604,7 +665,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "less than 1 minute"
+      "value": "less than 1 minute",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Standards",
@@ -613,7 +675,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "GB/T 7251.1/12-2013, IEC 61439-1/2, EN 61439-1/2, DIN_VDE 0660 Part 500, BS 5486, UTE 63-412, IEC 61641"
+      "value": "GB/T 7251.1/12-2013, IEC 61439-1/2, EN 61439-1/2, DIN_VDE 0660 Part 500, BS 5486, UTE 63-412, IEC 61641",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     },
     {
       "metric": "Installed base",
@@ -622,7 +685,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
       },
-      "value": "over 1.5 million MNS switchgears delivered worldwide since 1973"
+      "value": "over 1.5 million MNS switchgears delivered worldwide since 1973",
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/d0deede175db43f0918316d79d8be21e/MNS3.0_Catalogue_EN_1SXH900001C0201%20RevC%202019.11.pdf"
     }
   ],
   "vendor_models": [

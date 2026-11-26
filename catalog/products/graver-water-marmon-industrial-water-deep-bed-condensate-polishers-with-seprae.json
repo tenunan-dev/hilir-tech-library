@@ -6,7 +6,7 @@
   "equipment": [
     "condensate-polishing-system"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver Deep Bed Condensate Polishers page. Related products Powdex, GRF, AFA, TurboGuard listed on page but not read.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver Deep Bed Condensate Polishers page. Related products Powdex, GRF, AFA, TurboGuard listed on page but not read. Primary source: https://graver.com/condensate-polishers/deepbed/",
   "specifications": [
     {
       "metric": "Service pressure",
@@ -16,7 +16,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "psi",
-      "high": "800"
+      "high": "800",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Flow rate",
@@ -26,7 +27,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "gpm/sq.ft.",
-      "high": "50"
+      "high": "50",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Cation:anion resin ratio for All Volatile Treatment (AVT) high pH",
@@ -36,7 +38,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "ratio",
-      "value": "2:1"
+      "value": "2:1",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Regeneration design",
@@ -46,7 +49,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "n/a",
-      "value": "two-vessel SepraEight external regeneration"
+      "value": "two-vessel SepraEight external regeneration",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Resin",
@@ -56,7 +60,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "n/a",
-      "value": "Gravex Bead Resin"
+      "value": "Gravex Bead Resin",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Contaminants removed",
@@ -66,7 +71,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "n/a",
-      "value": "iron, copper, silica, salts, suspended solids"
+      "value": "iron, copper, silica, salts, suspended solids",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Service pressure",
@@ -75,7 +81,8 @@
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
       },
-      "value": 800
+      "value": 800,
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Flow rate",
@@ -84,7 +91,8 @@
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Cation:anion resin ratio AVT",
@@ -93,7 +101,8 @@
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "BWR resin blend",
@@ -101,7 +110,8 @@
       "basis": "'in a neutral pH environment, as would be seen in a boiling water reactor (BWR) a stoichiometric blend of the ion exchange media would be employed'",
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
-      }
+      },
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Removed species",
@@ -109,7 +119,8 @@
       "basis": "'Both Deep Bed and Precoat type Polishers remove iron, copper, silica and salts, and suspended solids'",
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
-      }
+      },
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Regeneration",
@@ -117,7 +128,8 @@
       "basis": "'two-vessel SepraEight® regeneration design results in a smaller footprint for regeneration equipment'",
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
-      }
+      },
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Regeneration options",
@@ -125,7 +137,8 @@
       "basis": "'sent off-site for regeneration or disposal, or ... regenerated on-site using Graver's SepraEight technology'",
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
-      }
+      },
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     }
   ],
   "url": "https://graver.com/condensate-polishers/deepbed/",

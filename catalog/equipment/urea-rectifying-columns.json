@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Rectifying columns / distillation columns",
+  "description": "Rectifying columns / distillation columns Primary source: https://www.sensotech.com/en/urea-production",
   "specifications": [
     {
       "metric": "distillation temperature (vendor description)",
@@ -19,7 +19,8 @@
         "url": "https://www.sensotech.com/en/urea-production",
         "source_id": "sensotech-com-en-urea-production"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     }
   ],
   "vendors": [

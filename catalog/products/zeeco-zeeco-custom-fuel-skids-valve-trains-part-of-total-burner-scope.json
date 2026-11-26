@@ -6,7 +6,7 @@
   "equipment": [
     "gas-valve-train"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco pages directly with WebFetch (markdown). Valve train is described as part of scope, not a standalone named product line with printed specs.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco pages directly with WebFetch (markdown). Valve train is described as part of scope, not a standalone named product line with printed specs. Primary source: https://www.zeeco.com/products/burners/power-burners?hsLang=en",
   "specifications": [
     {
       "metric": "Scope",
@@ -16,7 +16,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "scope of supply",
-      "value": "BMS / combustion controls / valve trains / installation / commissioning"
+      "value": "BMS / combustion controls / valve trains / installation / commissioning",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Fuel skid customization",
@@ -26,7 +27,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "capability",
-      "value": "Custom fuel skids for various applications worldwide; any required dimension and specified feature"
+      "value": "Custom fuel skids for various applications worldwide; any required dimension and specified feature",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Free Jet turndown",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Free Jet tip exposure",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Free Jet tip exposure",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Free Jet materials",
@@ -61,7 +66,8 @@
       "basis": "'304 Stainless Steel fuel gas risers'; '310 Stainless Steel (Type HK) secondary gas tips'; '310 Stainless Steel (Type HK) primary gas tip'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "GB heat input",
@@ -70,7 +76,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 360
+      "value": 360,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "GB fuels",
@@ -78,7 +85,8 @@
       "basis": "'natural gas, #6/#2 fuel oils, low Btu gases (blast furnace gas/ coke oven gas), opportunity fuels, waste streams'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "PDH air heater heat release",
@@ -87,7 +95,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 1000000000
+      "value": 1000000000,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Installed burners",
@@ -96,7 +105,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Average staff experience",
@@ -105,7 +115,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Quality system",
@@ -113,7 +124,8 @@
       "basis": "'Zeeco's ISO 9001 accredited quality management system'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Total scope",
@@ -121,7 +133,8 @@
       "basis": "'Full Scope of supply with BMS/combustion controls/valve trains/installation/commissioning'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     }
   ],
   "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",

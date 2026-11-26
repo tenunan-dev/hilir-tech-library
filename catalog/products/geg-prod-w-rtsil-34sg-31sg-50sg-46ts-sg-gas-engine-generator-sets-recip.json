@@ -6,7 +6,7 @@
   "equipment": [
     "geg-gas-engine-generator-units"
   ],
-  "description": "reciprocating gas engine generator set (lean-burn, spark-ignited)",
+  "description": "reciprocating gas engine generator set (lean-burn, spark-ignited) Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
   "specifications": [
     {
       "metric": "Electrical output range, Wärtsilä 34SG",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
         "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
-      }
+      },
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Electrical efficiency, Wärtsilä 34SG",
@@ -31,7 +32,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
         "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
-      }
+      },
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Electrical output, Wärtsilä 31SG",
@@ -43,7 +45,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
         "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
-      }
+      },
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Electrical efficiency, Wärtsilä 31SG",
@@ -55,7 +58,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
         "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
-      }
+      },
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Electrical output, Wärtsilä 50SG",
@@ -67,7 +71,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
         "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
-      }
+      },
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Electrical efficiency, Wärtsilä 50SG",
@@ -79,7 +84,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
         "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
-      }
+      },
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Electrical output range, Wärtsilä 46TS-SG",
@@ -91,7 +97,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",
         "source_id": "geg-wartsila-com-engine-power-plant-products-e1596e1"
-      }
+      },
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Simple cycle efficiency of modern combustion engines (generator terminals)",
@@ -102,7 +109,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "geg-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Gas pressure required at power plant",
@@ -113,7 +121,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "geg-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Combustion engine speed range (medium-speed)",
@@ -125,7 +134,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "geg-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Flexicycle combined cycle efficiency, plant net at site",
@@ -136,7 +146,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "geg-r-jina-ai-wartsila-bwp-combustion-engine-pow-d22b46a"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Power plant capacity delivered",
@@ -145,7 +156,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": 81
+      "value": 81,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Engine generating sets delivered",
@@ -154,7 +166,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": 11000
+      "value": 11000,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Start-up to full load",
@@ -163,7 +176,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "as little as two minutes"
+      "value": "as little as two minutes",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Simple cycle efficiency",
@@ -172,7 +186,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "50% or more (highest available of current technologies)"
+      "value": "50% or more (highest available of current technologies)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Flexicycle efficiency",
@@ -181,7 +196,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "> 54"
+      "value": "> 54",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 46TS-SG gas engine",
@@ -190,7 +206,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "20.4 MW - 22.9 MW / 51.3 electrical efficiency / 2 min start-up"
+      "value": "20.4 MW - 22.9 MW / 51.3 electrical efficiency / 2 min start-up",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 46TS-DF dual fuel engine",
@@ -199,7 +216,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "20.4 MW - 22.9 MW / 50.7 electrical efficiency / 2 min start-up"
+      "value": "20.4 MW - 22.9 MW / 50.7 electrical efficiency / 2 min start-up",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 31SG gas engine",
@@ -208,7 +226,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "11.8 MW / 51.5% efficiency / 90% CHP efficiency"
+      "value": "11.8 MW / 51.5% efficiency / 90% CHP efficiency",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 31SG power optimised",
@@ -217,7 +236,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "12.7 MW / 50.4% electrical efficiency / 2.5 min to full load"
+      "value": "12.7 MW / 50.4% electrical efficiency / 2.5 min to full load",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 31SG efficiency optimised",
@@ -226,7 +246,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "10.8 MW / 52.1% electrical efficiency / 2.5 min to full load"
+      "value": "10.8 MW / 52.1% electrical efficiency / 2.5 min to full load",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 31DF dual fuel engine",
@@ -235,7 +256,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "11.8 MW / 49.9% electrical efficiency / 2.5 min to full load"
+      "value": "11.8 MW / 49.9% electrical efficiency / 2.5 min to full load",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 34SG gas engine",
@@ -244,7 +266,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "5.8 MW - 9.8 MW / 48.9% efficiency / Over 80% CHP efficiency"
+      "value": "5.8 MW - 9.8 MW / 48.9% efficiency / Over 80% CHP efficiency",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 34SG power optimised",
@@ -253,7 +276,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "10.8 MW / 47.6% electrical efficiency / 2 min to full load"
+      "value": "10.8 MW / 47.6% electrical efficiency / 2 min to full load",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 34DF dual fuel engine",
@@ -262,7 +286,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "5.8 MW - 9.8 MW / 48.5% efficiency / 2 min to full load"
+      "value": "5.8 MW - 9.8 MW / 48.5% efficiency / 2 min to full load",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 34SG LPG optimised",
@@ -271,7 +296,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "4.4 MW - 7.3 MW / 45.8% electrical efficiency / For propane"
+      "value": "4.4 MW - 7.3 MW / 45.8% electrical efficiency / For propane",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 50SG gas engine",
@@ -280,7 +306,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "18.4 MW / 49.9% efficiency / 30 sec power to grid"
+      "value": "18.4 MW / 49.9% efficiency / 30 sec power to grid",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 50DF dual fuel engine",
@@ -289,7 +316,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "17.6 MW / 49.4% efficiency / 30 sec power to grid"
+      "value": "17.6 MW / 49.4% efficiency / 30 sec power to grid",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 50 liquid fuel engine",
@@ -298,7 +326,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "18.4 MW / 49.4% efficiency / 30 sec power to grid"
+      "value": "18.4 MW / 49.4% efficiency / 30 sec power to grid",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     },
     {
       "metric": "Selector entry - Wartsila 32 liquid fuel engine",
@@ -307,7 +336,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
       },
-      "value": "5.8 MW - 9.8 MW / 47.4% efficiency / 2 000+ installed engines"
+      "value": "5.8 MW - 9.8 MW / 47.4% efficiency / 2 000+ installed engines",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products"
     }
   ],
   "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products",

@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Bonds, guarantees, insurance and financing costs for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Bonds, guarantees, insurance and financing costs for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. EPC indirect. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
   "aliases": [
     "Bonds, guarantees, insurance and financing costs"
   ],
@@ -30,7 +30,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
         "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
     },
     {
       "metric": "Stamp duty on bonds, performance guara — fixed duty for general stamping (insurance policies, guarantees, construction agreements)",
@@ -41,7 +42,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
         "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
     },
     {
       "metric": "Stamp duty on bonds, performance guara — fixed duty for office/tenancy instruments not otherwise chargeable",
@@ -52,7 +54,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
         "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
     },
     {
       "metric": "CIDB contractor registration (Act 520) — year Act 520 was enacted",
@@ -63,7 +66,8 @@
       "source": {
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/",
         "source_id": "geg-cidb-gov-my-7ada474"
-      }
+      },
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     },
     {
       "metric": "Act enactment year",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
       },
-      "value": 1994
+      "value": 1994,
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     },
     {
       "metric": "Principal matters",
@@ -81,7 +86,8 @@
       "source": {
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     },
     {
       "metric": "SKKP certification standard",
@@ -89,7 +95,8 @@
       "basis": "'SKKP CIDB Diiktiraf Di Bawah ISO/IEC 17024:2012'",
       "source": {
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
-      }
+      },
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     },
     {
       "metric": "Construction action plan period",
@@ -100,7 +107,8 @@
       },
       "value": 2026,
       "low": 2030,
-      "high": "years"
+      "high": "years",
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     },
     {
       "metric": "Act PDF editions listed",
@@ -108,7 +116,8 @@
       "basis": "2020 (Act 520 as at 1 October 2015); 2021 (Pindaan Jadual Keempat); 2024 (Amendment of Third Schedule); 2026 (Pua 277.2026)",
       "source": {
         "url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
-      }
+      },
+      "source_url": "https://www.cidb.gov.my/akta-520-lembaga-pembangunan-industri-pembinaan-malaysia-cidb/"
     }
   ],
   "vendor_models": [

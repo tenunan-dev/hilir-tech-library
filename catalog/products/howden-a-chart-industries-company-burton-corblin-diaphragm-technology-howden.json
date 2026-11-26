@@ -6,7 +6,7 @@
   "equipment": [
     "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
   ],
-  "description": "Page describes diaphragm compression as technology of choice where complete hermetic separation and high pressure sealing are required (rare, toxic, flammable, explosive or radioactive gases). Linked TFC90_180_Diaphragm_Compressors.pdf is a PDF and was NOT read; no pressure figures asserted from it.",
+  "description": "Page describes diaphragm compression as technology of choice where complete hermetic separation and high pressure sealing are required (rare, toxic, flammable, explosive or radioactive gases). Linked TFC90_180_Diaphragm_Compressors.pdf is a PDF and was NOT read; no pressure figures asserted from it. Primary source: https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
   "specifications": [
     {
       "metric": "Electrolyzer module sizing",
@@ -16,7 +16,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": "5 MW and 10 MW"
+      "value": "5 MW and 10 MW",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Process gas leakage",
@@ -26,7 +27,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 0
+      "value": 0,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden diaphragm compressor - invention",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Invented in 1916 by Henri Corblin (Burton Corblin name part of Howden)"
+      "value": "Invented in 1916 by Henri Corblin (Burton Corblin name part of Howden)",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden hybrid reciprocuting compressor - configuration",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Horizontal or vertical; up to five compression stages"
+      "value": "Horizontal or vertical; up to five compression stages",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden hybrid reciprocating compressor - pressure increase",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden diaphragm compressor - gas suitability",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Rare, toxic, flammable, explosive or radioactive gases; complete hermetic separation and high-pressure sealing"
+      "value": "Rare, toxic, flammable, explosive or radioactive gases; complete hermetic separation and high-pressure sealing",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden diaphragm compressor - typical service",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Medium capacity fully integrated skid with control systems, regulation equipment and utility packages; suited to hydrogen processes"
+      "value": "Medium capacity fully integrated skid with control systems, regulation equipment and utility packages; suited to hydrogen processes",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",

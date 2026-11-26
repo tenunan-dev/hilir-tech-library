@@ -4,7 +4,7 @@
   "manufacturer": "burgess-manning-ceco-environmental",
   "product_type": "boiler",
   "equipment": [],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Burgess-Manning Preset Vent Silencer product page. Applications include steam boilers and HRSGs.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Burgess-Manning Preset Vent Silencer product page. Applications include steam boilers and HRSGs. Primary source: https://burgessmanning.com/preset-vent-silencers/",
   "specifications": [
     {
       "metric": "Inlet diameter",
@@ -15,7 +15,8 @@
       },
       "unit": "in",
       "low": "2",
-      "high": "12"
+      "high": "12",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Casing diameter",
@@ -26,7 +27,8 @@
       },
       "unit": "in",
       "low": "8",
-      "high": "24"
+      "high": "24",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Standard design temperature",
@@ -36,7 +38,8 @@
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
       "unit": "deg C",
-      "value": "250"
+      "value": "250",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Material",
@@ -46,7 +49,8 @@
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
       "unit": "n/a",
-      "value": "Carbon steel ASTM/ASME"
+      "value": "Carbon steel ASTM/ASME",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Typical acoustic performance",
@@ -56,7 +60,8 @@
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
       "unit": "dB",
-      "high": "50+"
+      "high": "50+",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Acoustic principles",
@@ -66,7 +71,8 @@
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
       "unit": "n/a",
-      "value": "Transformative and Absorptive"
+      "value": "Transformative and Absorptive",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Construction",
@@ -76,7 +82,8 @@
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
       "unit": "n/a",
-      "value": "cylindrical, fully welded, self-supported on discharge pipe; butt-weld or flanged inlet"
+      "value": "cylindrical, fully welded, self-supported on discharge pipe; butt-weld or flanged inlet",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Inlet diameter",
@@ -86,7 +93,8 @@
         "url": "https://burgessmanning.com/preset-vent-silencers/"
       },
       "low": 2,
-      "high": 12
+      "high": 12,
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Casing diameter",
@@ -96,7 +104,8 @@
         "url": "https://burgessmanning.com/preset-vent-silencers/"
       },
       "low": 8,
-      "high": 24
+      "high": 24,
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Standard design temperature",
@@ -105,7 +114,8 @@
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Enhanced noise attenuation",
@@ -114,7 +124,8 @@
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Materials",
@@ -122,7 +133,8 @@
       "basis": "\"Materials: Carbon steel ASTM/ASME\"; \"Standard primed carbon steel construction\"",
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
-      }
+      },
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Acoustic principles",
@@ -130,7 +142,8 @@
       "basis": "\"Transformative and Absorptive\"",
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
-      }
+      },
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Design codes",
@@ -138,7 +151,8 @@
       "basis": "\"Design Codes: None\"; \"Certifications: None\"",
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
-      }
+      },
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Connection options",
@@ -146,7 +160,8 @@
       "basis": "\"supplied with either a butt-weld or flanged inlet connection\" / \"Options: Flanged or butt weld connection\"",
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
-      }
+      },
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Temporary vent down usage",
@@ -154,7 +169,8 @@
       "basis": "\"Temporary Vent Down Usage – Steam, Air\"",
       "source": {
         "url": "https://burgessmanning.com/preset-vent-silencers/"
-      }
+      },
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     }
   ],
   "url": "https://burgessmanning.com/preset-vent-silencers/",

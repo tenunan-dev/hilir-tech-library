@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
   "specifications": [
     {
       "metric": "design code",
@@ -16,7 +16,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
         "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
       },
-      "value": "ASME Section VIII Div 1"
+      "value": "ASME Section VIII Div 1",
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "inlet devices",
@@ -26,7 +27,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",
         "source_id": "specoilandgas-com-phase-separation-two-three-phase-separators"
       },
-      "value": "diverter plate, half pipe, vane, cyclonic"
+      "value": "diverter plate, half pipe, vane, cyclonic",
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Design code",
@@ -34,7 +36,8 @@
       "basis": "'Design code: ASME Section VIII, Division 1'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Sour service",
@@ -42,7 +45,8 @@
       "basis": "'H2S service additionally requires NACE compliance'; 'materials selected for applicable sour-service requirements'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Reference facility capacity",
@@ -51,7 +55,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
       },
-      "value": 100000
+      "value": 100000,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Module weight",
@@ -60,7 +65,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Separation principles",
@@ -68,7 +74,8 @@
       "basis": "'Momentum', 'Gravity settling', 'Coalescing'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Orientations/phases",
@@ -76,7 +83,8 @@
       "basis": "'vertical and horizontal, and as either two or three phase units'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Inlet devices",
@@ -84,7 +92,8 @@
       "basis": "'diverter plates, half pipe, vane and cyclonic'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Retention time basis",
@@ -92,7 +101,8 @@
       "basis": "'set from fluid properties, separation duty and required outlet quality'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators",

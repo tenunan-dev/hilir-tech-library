@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Lift integrated topsides, jackets and large modules in a single lift or tandem lift; ballast down to submerge pontoons and reduce wave/swell motion; use revolving cranes with main/auxiliary/whip hoists, heave-compensated where fitted.",
+  "description": "Lift integrated topsides, jackets and large modules in a single lift or tandem lift; ballast down to submerge pontoons and reduce wave/swell motion; use revolving cranes with main/auxiliary/whip hoists, heave-compensated where fitted. Primary source: https://www.heerema.com/heerema-marine-contractors/fleet",
   "specifications": [
     {
       "metric": "Sleipnir tandem lifting capacity",
@@ -19,7 +19,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Sleipnir main hoist capacity vs radius",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": "10,000 t @ 27-48 m; 7,000 t @ 62 m; 4,000 t @ 82 m; max radius 102 m"
+      "value": "10,000 t @ 27-48 m; 7,000 t @ 62 m; 4,000 t @ 82 m; max radius 102 m",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir lowering/hoisting reach",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": "20 m below waterline to 135 m above waterline at 32 m draft"
+      "value": "20 m below waterline to 135 m above waterline at 32 m draft",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Thialf tandem lift capacity",
@@ -49,7 +52,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": 14200
+      "value": 14200,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Saipem 7000 tandem lift / per-crane capacity",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
-      "value": "14,000 t tandem; 7,000 t per crane at 40 m radius"
+      "value": "14,000 t tandem; 7,000 t per crane at 40 m radius",
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Aegir lifting capacity",
@@ -69,7 +74,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": 5000
+      "value": 5000,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Balder guyed-mode tandem lift",
@@ -79,7 +85,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": 6300
+      "value": 6300,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Boskalis Bokalift 1 / Bokalift 2 crane capacity",
@@ -89,7 +96,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": "3,000 t / 4,000 t"
+      "value": "3,000 t / 4,000 t",
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     },
     {
       "metric": "Saipem 7000 ballast transfer capacity",
@@ -99,7 +107,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
-      "value": 24000
+      "value": 24000,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Stable-lift assessment methods",
@@ -109,7 +118,8 @@
         "url": "https://www.dnv.com/expert-story/maritime-impact/new-guidance-on-achieving-stable-lifting-operations/",
         "source_id": "dnv-com-new-guidance-on-achieving-stable-lifting-operations"
       },
-      "value": "Virtual CoG; Kaps; Nikitin; numerical simulation (standard & extensive)"
+      "value": "Virtual CoG; Kaps; Nikitin; numerical simulation (standard & extensive)",
+      "source_url": "https://www.dnv.com/expert-story/maritime-impact/new-guidance-on-achieving-stable-lifting-operations/"
     },
     {
       "metric": "Tandem lift",
@@ -119,7 +129,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Main hoist at 27-48 m radius",
@@ -129,7 +140,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Max main-hoist radius",
@@ -139,7 +151,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": 102
+      "value": 102,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Auxiliary hoist",
@@ -149,7 +162,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": 2500
+      "value": 2500,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "design weight range",
@@ -160,7 +174,8 @@
         "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
       },
       "low": 2000,
-      "high": 40000
+      "high": 40000,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "substructure types served",
@@ -170,7 +185,8 @@
         "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
         "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
       },
-      "value": "jacket, GBS, semi-submersible, FPSO, drilling rig, TLP"
+      "value": "jacket, GBS, semi-submersible, FPSO, drilling rig, TLP",
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "Facility design topside weight range",
@@ -180,7 +196,8 @@
         "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
       },
       "low": 2000,
-      "high": 40000
+      "high": 40000,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "Experience managing large complex projects",
@@ -189,7 +206,8 @@
       "source": {
         "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "Company employees",
@@ -198,7 +216,8 @@
       "source": {
         "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
       },
-      "value": 11700
+      "value": 11700,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "Company locations",
@@ -207,7 +226,8 @@
       "source": {
         "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
       },
-      "value": 38
+      "value": 38,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "Sleipnir - Huisman main crane capacity (each)",
@@ -216,7 +236,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - tandem lift capacity",
@@ -225,7 +246,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - displacement",
@@ -234,7 +256,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": 273700
+      "value": 273700,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - length / beam",
@@ -243,7 +266,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "220 m (720 ft) / 102 m (335 ft)"
+      "value": "220 m (720 ft) / 102 m (335 ft)",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - draft",
@@ -253,7 +277,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
       "low": 12,
-      "high": 32
+      "high": 32,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - main hoist capacity vs radius",
@@ -262,7 +287,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "10,000 t at 27-48 m radius; 7,000 t up to 62 m; 4,000 t at 82 m; max radius 102 m"
+      "value": "10,000 t at 27-48 m radius; 7,000 t up to 62 m; 4,000 t at 82 m; max radius 102 m",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - auxiliary hoist",
@@ -271,7 +297,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "2,500 t at 33-60 m radius"
+      "value": "2,500 t at 33-60 m radius",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - whip hoist",
@@ -280,7 +307,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "200 t at 37-153 m radius"
+      "value": "200 t at 37-153 m radius",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - third crane",
@@ -289,7 +317,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "70 t at up to 12 m radius to 2,000 m below waterline"
+      "value": "70 t at up to 12 m radius to 2,000 m below waterline",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - installed power",
@@ -298,7 +327,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "12 x 8 MW dual-fuel (MGO or LNG) engines"
+      "value": "12 x 8 MW dual-fuel (MGO or LNG) engines",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - propulsion",
@@ -307,7 +337,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "8 Wartsila azimuth thrusters, 5.5 MW each"
+      "value": "8 Wartsila azimuth thrusters, 5.5 MW each",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - LNG fuel capacity",
@@ -316,7 +347,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": 8000
+      "value": 8000,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - boom length",
@@ -325,7 +357,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": 144
+      "value": 144,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     }
   ],
   "vendors": [

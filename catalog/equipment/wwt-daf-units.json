@@ -6,7 +6,7 @@
   "sector_codes": [
     "WWT"
   ],
-  "description": "DAF clarifiers: air-saturation vessels release 30-100 um microbubbles into coagulated water; floated flocs are scraped off as a thick float sludge.",
+  "description": "DAF clarifiers: air-saturation vessels release 30-100 um microbubbles into coagulated water; floated flocs are scraped off as a thick float sludge. Primary source: https://www.veoliawatertech.com/",
   "subtypes": [
     {
       "name": "rectangular full-surface scraper DAF"
@@ -33,7 +33,8 @@
       "source": {
         "url": "https://www.veoliawatertech.com/",
         "note": "Veolia DAF literature, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.veoliawatertech.com/"
     },
     {
       "metric": "hydraulic loading",
@@ -44,7 +45,8 @@
       "source": {
         "url": "https://www.veoliawatertech.com/",
         "note": "Veolia DAF literature, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.veoliawatertech.com/"
     }
   ],
   "vendor_models": [

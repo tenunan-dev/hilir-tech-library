@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": " seabed frame that positions and guides wells or manifold equipment; may be piled or suction-founded.",
+  "description": " seabed frame that positions and guides wells or manifold equipment; may be piled or suction-founded. Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure",
   "specifications": [
     {
       "metric": "Snorre concrete foundation templates",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": "3 cells with suction anchors at 310 m water depth"
+      "value": "3 cells with suction anchors at 310 m water depth",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "sector_codes": [
     "ELE"
   ],
-  "description": "SF6 dead-tank and live-tank circuit breakers at 132, 275 and 500 kV for grid and substation duty, with interrupting ratings set by the Malaysian fault levels, to IEC 62271-100.",
+  "description": "SF6 dead-tank and live-tank circuit breakers at 132, 275 and 500 kV for grid and substation duty, with interrupting ratings set by the Malaysian fault levels, to IEC 62271-100. Primary source: https://www.tnb.com.my/",
   "subtypes": [
     {
       "name": "Dead-tank SF6 circuit breakers"
@@ -36,7 +36,8 @@
       "source": {
         "url": "https://www.tnb.com.my/",
         "note": "TNB fault-level table, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.tnb.com.my/"
     },
     {
       "metric": "interrupting requirement at 275 kV",
@@ -47,7 +48,8 @@
       "source": {
         "url": "https://www.tnb.com.my/",
         "note": "TNB fault-level table, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.tnb.com.my/"
     },
     {
       "metric": "interrupting requirement at 132 kV",
@@ -58,7 +60,8 @@
       "source": {
         "url": "https://www.tnb.com.my/",
         "note": "TNB fault-level table, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.tnb.com.my/"
     },
     {
       "metric": "indicative cost, 145 kV dead-tank breaker",
@@ -70,7 +73,8 @@
       "source": {
         "url": "https://www.electricaltrader.com/",
         "note": "market listings and tender records cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.electricaltrader.com/"
     },
     {
       "metric": "indicative cost, 245 kV dead-tank breaker",
@@ -82,7 +86,8 @@
       "source": {
         "url": "https://www.electricaltrader.com/",
         "note": "procurement record cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.electricaltrader.com/"
     },
     {
       "metric": "indicative cost, 550 kV dead-tank breaker",
@@ -94,7 +99,8 @@
       "source": {
         "url": "https://www.electricaltrader.com/",
         "note": "tender and import records cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.electricaltrader.com/"
     }
   ],
   "vendor_models": [

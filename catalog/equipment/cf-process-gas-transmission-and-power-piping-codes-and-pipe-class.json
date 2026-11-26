@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Defines materials, design, fabrication, assembly, erection, examination, inspection and testing for piping. B31.3 governs plant process piping, B31.8 gas transmission/distribution including offshore gathering appurtenances, and B31.1 power/boiler-external piping.",
+  "description": "Defines materials, design, fabrication, assembly, erection, examination, inspection and testing for piping. B31.3 governs plant process piping, B31.8 gas transmission/distribution including offshore gathering appurtenances, and B31.1 power/boiler-external piping. Primary source: https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping",
   "specifications": [
     {
       "metric": "B31.3 latest edition",
@@ -19,7 +19,8 @@
         "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping",
         "source_id": "sys-asme-org-b31-3-process-piping"
       },
-      "value": "2024"
+      "value": "2024",
+      "source_url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping"
     },
     {
       "metric": "B31.8 latest edition",
@@ -29,7 +30,8 @@
         "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems",
         "source_id": "sys-asme-org-b31-8-gas-transmission-distribution-piping-system"
       },
-      "value": "2025"
+      "value": "2025",
+      "source_url": "https://www.asme.org/codes-standards/find-codes-standards/b31-8-gas-transmission-distribution-piping-systems"
     },
     {
       "metric": "B31.1 latest edition",
@@ -39,7 +41,8 @@
         "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping",
         "source_id": "sys-asme-org-b31-1-power-piping"
       },
-      "value": "2026"
+      "value": "2026",
+      "source_url": "https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping"
     },
     {
       "metric": "B31.3 key 2024 changes",
@@ -49,7 +52,8 @@
         "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping",
         "source_id": "sys-asme-org-b31-3-process-piping"
       },
-      "value": "Unlisted valves, flexibility/SIF, impact testing, flange attachment welds, heat treatment, high-pressure fluid service design & fatigue"
+      "value": "Unlisted valves, flexibility/SIF, impact testing, flange attachment welds, heat treatment, high-pressure fluid service design & fatigue",
+      "source_url": "https://www.asme.org/codes-standards/find-codes-standards/b31-3-process-piping"
     },
     {
       "metric": "B31.1 key 2026 changes",
@@ -59,7 +63,8 @@
         "url": "https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping",
         "source_id": "sys-asme-org-b31-1-power-piping"
       },
-      "value": "Appendices Q/R, B31J reference, joint exposure during pressure test, wind/earthquake factors, API 579-1/ASME FFS-1 reference"
+      "value": "Appendices Q/R, B31J reference, joint exposure during pressure test, wind/earthquake factors, API 579-1/ASME FFS-1 reference",
+      "source_url": "https://www.asme.org/codes-standards/find-codes-standards/b31-1-power-piping"
     },
     {
       "metric": "Product lineage",
@@ -69,7 +74,8 @@
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100",
         "source_id": "cat-products-swagelok-com-100"
       },
-      "value": 1947
+      "value": 1947,
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     },
     {
       "metric": "Flange adapter standards families",
@@ -79,7 +85,8 @@
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100",
         "source_id": "cat-products-swagelok-com-100"
       },
-      "value": "ANSI / DIN / EN / Lap Joint"
+      "value": "ANSI / DIN / EN / Lap Joint",
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     },
     {
       "metric": "Pipe joining product families",
@@ -89,7 +96,8 @@
         "url": "https://www.victaulic.com/products/",
         "source_id": "cat-victaulic-com"
       },
-      "value": "Rigid / Flexible / Transition / Reducing / Outlet / Plain End / Flange Adapters / Expansion Joints / Press"
+      "value": "Rigid / Flexible / Transition / Reducing / Outlet / Plain End / Flange Adapters / Expansion Joints / Press",
+      "source_url": "https://www.victaulic.com/products/"
     },
     {
       "metric": "Fitting materials",
@@ -99,7 +107,8 @@
         "url": "https://www.victaulic.com/products/",
         "source_id": "cat-victaulic-com"
       },
-      "value": "carbon steel, stainless steel, copper, HDPE, PVC/CPVC and other pipe materials"
+      "value": "carbon steel, stainless steel, copper, HDPE, PVC/CPVC and other pipe materials",
+      "source_url": "https://www.victaulic.com/products/"
     },
     {
       "metric": "flow_control_valve_configurations",
@@ -108,7 +117,8 @@
       "source": {
         "url": "https://www.victaulic.com/products/"
       },
-      "value": "level-control, pressure-reducing and pressure-release configurations"
+      "value": "level-control, pressure-reducing and pressure-release configurations",
+      "source_url": "https://www.victaulic.com/products/"
     },
     {
       "metric": "Swagelok medium/high pressure fittings - temperature",
@@ -117,7 +127,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     },
     {
       "metric": "Swagelok medium/high pressure fittings - pressure rating",
@@ -126,7 +137,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
       },
-      "value": 60000
+      "value": 60000,
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     },
     {
       "metric": "Swagelok medium/high pressure fittings - sizes",
@@ -135,7 +147,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
       },
-      "value": "1/4 to 1 in medium pressure; 1/4 to 9/16 in high pressure"
+      "value": "1/4 to 1 in medium pressure; 1/4 to 9/16 in high pressure",
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     },
     {
       "metric": "Swagelok medium/high pressure fittings - compliance",
@@ -144,7 +157,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
       },
-      "value": "NACE MR0175/ISO 15156 compliance available"
+      "value": "NACE MR0175/ISO 15156 compliance available",
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     },
     {
       "metric": "VCR metal gasket face seal fittings - sizes",
@@ -153,7 +167,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
       },
-      "value": "1/16 to 1 in and 6 to 18 mm; high-purity stainless steels"
+      "value": "1/16 to 1 in and 6 to 18 mm; high-purity stainless steels",
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     },
     {
       "metric": "VCO O-ring face seal fittings",
@@ -162,7 +177,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
       },
-      "value": "Designed for easy assembly in pipe, tube and welded systems"
+      "value": "Designed for easy assembly in pipe, tube and welded systems",
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     },
     {
       "metric": "Flange adapters",
@@ -171,7 +187,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
       },
-      "value": "Threadless, weldless transition from flanged piping to tubing; flange types meet ASME, DIN, EN and JIS; tube fitting ends up to 50 mm and 2 in"
+      "value": "Threadless, weldless transition from flanged piping to tubing; flange types meet ASME, DIN, EN and JIS; tube fitting ends up to 50 mm and 2 in",
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     },
     {
       "metric": "Ultra-Torr vacuum fittings",
@@ -180,7 +197,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
       },
-      "value": "Stainless steel construction; fluorocarbon FKM O-ring; tube sizes 1/16 to 1 1/2 in"
+      "value": "Stainless steel construction; fluorocarbon FKM O-ring; tube sizes 1/16 to 1 1/2 in",
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     },
     {
       "metric": "Swagelok tube fitting design",
@@ -189,7 +207,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/fittings/c/100"
       },
-      "value": "Two-ferrule stainless-steel tube fitting"
+      "value": "Two-ferrule stainless-steel tube fitting",
+      "source_url": "https://products.swagelok.com/en/all-products/fittings/c/100"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "fl-separators-2-3-phase-horizontal-vertical-spherical-compact-in-46519c"
   ],
-  "description": "No numeric pressure, flow or size rating is printed on this page. Page states instrumented vessel separating well effluent into three phases; multiple pressure safety valves and bypass valves for maintenance without shutting in the well. A brochure PDF is linked but not fetched.",
+  "description": "No numeric pressure, flow or size rating is printed on this page. Page states instrumented vessel separating well effluent into three phases; multiple pressure safety valves and bypass valves for maintenance without shutting in the well. A brochure PDF is linked but not fetched. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",
   "specifications": [
     {
       "metric": "Design code / sour service",
@@ -16,7 +16,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",
         "source_id": "cat-slb-com-3-phase-separator"
       },
-      "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments"
+      "value": "ASME Section VIII, Division 1 and NACE MR0175 for H2S environments",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Function",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "Separates well effluent into three phases—oil, gas, and water—for well testing"
+      "value": "Separates well effluent into three phases—oil, gas, and water—for well testing",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Vessel type",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "instrumented vessel"
+      "value": "instrumented vessel",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Development application",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "land fracturing flowback and well test operations"
+      "value": "land fracturing flowback and well test operations",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Design code",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "ASME Section VIII, Division 1"
+      "value": "ASME Section VIII, Division 1",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Sour service",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "NACE MR0175 for H2S environments"
+      "value": "NACE MR0175 for H2S environments",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Safety",
@@ -70,7 +76,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "Multiple pressure safety valves contain and direct flow to a designed safe area on overpressurization"
+      "value": "Multiple pressure safety valves contain and direct flow to a designed safe area on overpressurization",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     },
     {
       "metric": "Bypass valves",
@@ -79,7 +86,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
       },
-      "value": "unique offering from M-I SWACO in a three-phase separator unit"
+      "value": "unique offering from M-I SWACO in a three-phase separator unit",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/managed-pressure-drilling-equipment/mud-gas-separators/3-phase-separator",

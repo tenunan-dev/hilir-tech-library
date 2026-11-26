@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Page read; APAC (Japan)",
+  "description": "Vendor product line read 2026-11-24. Page read; APAC (Japan) Primary source: https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
   "specifications": [
     {
       "metric": "NRB damping",
@@ -16,7 +16,8 @@
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
         "source_id": "bridgestone-com-antiseismic-rubber-product-html"
       },
-      "value": "2–3"
+      "value": "2–3",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "LRB rubber grade",
@@ -26,7 +27,8 @@
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
         "source_id": "bridgestone-com-antiseismic-rubber-product-html"
       },
-      "value": "G0.40"
+      "value": "G0.40",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "HDR certification",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "MVBR-0468(X0.4R), MVBR-0430(X0.6R)"
+      "value": "MVBR-0468(X0.4R), MVBR-0430(X0.6R)",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "LRB certification",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "MVBR-0447"
+      "value": "MVBR-0447",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "NRB certification",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "MVBR-0295(N3,G3,G5), MVBR-0446(G4)"
+      "value": "MVBR-0295(N3,G3,G5), MVBR-0446(G4)",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "Elastic Sliding Bearing certification",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "MVBR-0349(SL series), MVBR-0469(SP series), MVBR-0479(SK series)"
+      "value": "MVBR-0349(SL series), MVBR-0469(SP series), MVBR-0479(SK series)",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "NRB equivalent damping factor",
@@ -72,7 +78,8 @@
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
       "low": 2,
-      "high": 3
+      "high": 3,
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "NRB rubber material grades",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "G0.30, G0.35, G0.40, G0.45"
+      "value": "G0.30, G0.35, G0.40, G0.45",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "LRB rubber material grade",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "G0.40"
+      "value": "G0.40",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "HDR elastic modulus types",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "E0.4, X0.6R"
+      "value": "E0.4, X0.6R",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "Elastic Sliding friction coefficient types",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "Bearing construction",
@@ -117,7 +128,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "alternating laminations of thin rubber layers and steel plates (shims), bonded"
+      "value": "alternating laminations of thin rubber layers and steel plates (shims), bonded",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "Catalogue update",
@@ -126,7 +138,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "Updated on October, 2026"
+      "value": "Updated on October, 2026",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     }
   ],
   "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",

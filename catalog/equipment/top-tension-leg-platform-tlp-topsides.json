@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "Topside carried on a column-stabilised buoyant hull held by tensioned tendons; supports drilling, production and accommodation. Enables surface BOP/wellhead access but adds drilling-package weight, riser tension and motion design constraints.",
+  "description": "Topside carried on a column-stabilised buoyant hull held by tensioned tendons; supports drilling, production and accommodation. Enables surface BOP/wellhead access but adds drilling-package weight, riser tension and motion design constraints. Primary source: https://mcdermottscotlandheritage.com/project/hutton-1984",
   "specifications": [
     {
       "metric": "Hutton TLP topsides weight",
@@ -19,7 +19,8 @@
         "url": "https://mcdermottscotlandheritage.com/project/hutton-1984",
         "source_id": "mcdermottscotlandheritage-com-project-hutton-1984"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://mcdermottscotlandheritage.com/project/hutton-1984"
     },
     {
       "metric": "Hutton TLP water depth",
@@ -29,7 +30,8 @@
         "url": "https://mcdermottscotlandheritage.com/project/hutton-1984",
         "source_id": "mcdermottscotlandheritage-com-project-hutton-1984"
       },
-      "value": 143
+      "value": 143,
+      "source_url": "https://mcdermottscotlandheritage.com/project/hutton-1984"
     },
     {
       "metric": "Olympus TLP displacement",
@@ -39,7 +41,8 @@
         "url": "https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom",
         "source_id": "jpt-spe-org-jpt-spe-org-shell-deploys-next-generation-tlp-extended"
       },
-      "value": 126000
+      "value": 126000,
+      "source_url": "https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom"
     },
     {
       "metric": "Olympus TLP deck area",
@@ -49,7 +52,8 @@
         "url": "https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom",
         "source_id": "jpt-spe-org-jpt-spe-org-shell-deploys-next-generation-tlp-extended"
       },
-      "value": 342000
+      "value": 342000,
+      "source_url": "https://jpt.spe.org/shell-deploys-next-generation-tlp-extended-field-development-gom"
     },
     {
       "metric": "Kizomba A TLP overall platform weight",
@@ -59,7 +63,8 @@
         "url": "https://qa-site.mcdermott.com/projects/kizomba-tension-leg-platform",
         "source_id": "qa-site-mcdermott-com-projects-kizomba-tension-leg-platform"
       },
-      "value": 35000
+      "value": 35000,
+      "source_url": "https://qa-site.mcdermott.com/projects/kizomba-tension-leg-platform"
     },
     {
       "metric": "full drilling package deepwater TLP typical weight",
@@ -70,7 +75,8 @@
         "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
       },
       "low": 4000,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning"
     },
     {
       "metric": "skidable North Sea drilling rig dry weight",
@@ -81,7 +87,8 @@
         "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
       },
       "low": 2000,
-      "high": 3000
+      "high": 3000,
+      "source_url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning"
     },
     {
       "metric": "mud and drilling supply facilities weight",
@@ -92,7 +99,8 @@
         "source_id": "ogj-com-17219417-design-of-tlp-drilling-package-requires-detailed"
       },
       "low": 2000,
-      "high": 4000
+      "high": 4000,
+      "source_url": "https://www.ogj.com/general-interest/companies/article/17219417/design-of-tlp-drilling-package-requires-detailed-planning"
     }
   ],
   "vendors": [

@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Replace soil with a drilled, concreted cylindrical pile transferring load to deep bearing strata; also used contiguous/secant to form excavation support and groundwater cut-off walls. CFA concretes from bottom up through the hollow auger as it is withdrawn.",
+  "description": "Replace soil with a drilled, concreted cylindrical pile transferring load to deep bearing strata; also used contiguous/secant to form excavation support and groundwater cut-off walls. CFA concretes from bottom up through the hollow auger as it is withdrawn. Primary source: https://geotechnical-solutions.bauer.de/en/piles",
   "specifications": [
     {
       "metric": "Secant pile wall example",
@@ -19,7 +19,8 @@
         "url": "https://geotechnical-solutions.bauer.de/en/piles",
         "source_id": "geotechnical-solutions-bauer-de-en-piles"
       },
-      "value": "880 mm diameter x 16 m deep"
+      "value": "880 mm diameter x 16 m deep",
+      "source_url": "https://geotechnical-solutions.bauer.de/en/piles"
     },
     {
       "metric": "BAUER Seabed Drill current capability",
@@ -29,7 +30,8 @@
         "url": "https://geotechnical-solutions.bauer.de/en/piles",
         "source_id": "geotechnical-solutions-bauer-de-en-piles"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://geotechnical-solutions.bauer.de/en/piles"
     },
     {
       "metric": "Liebherr LRB 23 operating weight",
@@ -40,7 +42,8 @@
         "source_id": "liebherr-com-p-lrb23-4424791"
       },
       "low": 72.6,
-      "high": 78.5
+      "high": 78.5,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     }
   ],
   "vendors": [

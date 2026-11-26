@@ -2,7 +2,7 @@
   "id": "superheater-boiler",
   "name": "Boiler superheater and attemperator",
   "equipment_type": "heat-exchanger",
-  "description": "Heat exchanger that adds heat to saturated steam, usually as pendant or horizontal banks in the gas path, with a desuperheater or attemperator controlling final steam temperature. Water-tube power boilers can reach 550 C superheated steam; separate or supplementary-fired superheaters are used where gas-turbine exhaust is too cool.",
+  "description": "Heat exchanger that adds heat to saturated steam, usually as pendant or horizontal banks in the gas path, with a desuperheater or attemperator controlling final steam temperature. Water-tube power boilers can reach 550 C superheated steam; separate or supplementary-fired superheaters are used where gas-turbine exhaust is too cool. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB",
   "specifications": [
     {
       "metric": "superheated steam temperature, upper capability",
@@ -12,7 +12,8 @@
         "source_id": "spirax-water-tube-boilers"
       },
       "unit": "degC",
-      "value": 550
+      "value": 550,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB"
     },
     {
       "metric": "gas-turbine exhaust temperature to waste-heat boiler",
@@ -22,7 +23,8 @@
         "source_id": "spirax-water-tube-boilers"
       },
       "unit": "degC",
-      "value": 500
+      "value": 500,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/water-tube-boilers?sc_lang=en-GB"
     },
     {
       "metric": "SCR minimum inlet gas temperature",
@@ -32,7 +34,8 @@
         "source_id": "bw-boiler-cycling"
       },
       "unit": "degC",
-      "value": 104
+      "value": 104,
+      "source_url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations"
     },
     {
       "metric": "Superheater outlet temperature",
@@ -42,7 +45,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "deg F (up to)",
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Superheater design",
@@ -52,7 +56,8 @@
         "source_id": "valmet-com-energyproduction-cfb-boilers"
       },
       "unit": "design feature",
-      "value": "Dedicated superheaters for corrosive fuels; easily replaceable superheaters in back pass"
+      "value": "Dedicated superheaters for corrosive fuels; easily replaceable superheaters in back pass",
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "High steam parameters",
@@ -62,7 +67,8 @@
         "source_id": "valmet-com-energyproduction-cfb-boilers"
       },
       "unit": "qualitative",
-      "value": "Possible without severe corrosion even with recovered fuels"
+      "value": "Possible without severe corrosion even with recovered fuels",
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Boiler size range",
@@ -72,7 +78,8 @@
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
       },
       "low": 30,
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Installed references",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Superheaters for corrosive fuels",
@@ -89,7 +97,8 @@
       "basis": "\"Well-proven design, including dedicated superheaters for corrosive fuels\"",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Superheater arrangement for recycled fuel",
@@ -97,7 +106,8 @@
       "basis": "\"For recycled fuel combustion, the Valmet CFB Boiler is equipped with a special grid design for effective debris removal and a back pass, including an empty pass and easily replaceable superheaters\"",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Cyclone construction",
@@ -105,7 +115,8 @@
       "basis": "\"high-efficiency cylindrical cyclones constructed of membrane walls covered by a light refractory for erosion protection. No hot expansion joints between the furnace and the cyclone are needed\"",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Steam parameters",
@@ -113,7 +124,8 @@
       "basis": "\"High steam parameters are possible without severe corrosion, even with recovered fuels, thanks to fluidized bed heat exchangers located in the loop seal\" (no numeric steam pressure/temperature printed)",
       "source": {
         "url": "https://www.valmet.com/energyproduction/cfb-boilers/"
-      }
+      },
+      "source_url": "https://www.valmet.com/energyproduction/cfb-boilers/"
     },
     {
       "metric": "Exhaust gas flow",
@@ -122,7 +134,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1000000
+      "value": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam generation",
@@ -132,7 +145,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 10000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Design pressure",
@@ -141,7 +155,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam temperature",
@@ -150,7 +165,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Duct firing temperature",
@@ -159,7 +175,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Matched gas turbine size",
@@ -169,7 +186,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 3,
-      "high": 25
+      "high": 25,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "NOx with SCR",
@@ -178,7 +196,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Efficiency / CO2 reduction claims",
@@ -186,7 +205,8 @@
       "basis": "'The Cleaver-Brooks HRSG achieves >80% efficiency compared to 56% for traditional technologies. It reduces up to 7.0 MMBtu/hr of fuel in conventional boilers and eliminates 2,870 tons of CO2 emissions annually per 1 MWe GT output.'",
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Models / circulation / construction",
@@ -194,7 +214,8 @@
       "basis": "'MF (O-style) and MFA (A-style)' with integral furnace; 'VL (O-style) and VLA (A-style)' evaporator without furnace; 'Natural Circulation'; 'Membrane Wall Construction'; 'Completely shop-assembled boiler'",
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     }
   ],
   "vendors": [

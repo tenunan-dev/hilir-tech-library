@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Contractor site facilities and laydown area for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction indirect. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Contractor site facilities and laydown area for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Construction indirect. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
   "aliases": [
     "Contractor site facilities and laydown area"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
         "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
     },
     {
       "metric": "Site office / warehouse / laydown area — lease duty rate, term over 1 to 3 years",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
         "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
     },
     {
       "metric": "Site office / warehouse / laydown area — lease duty rate, term over 3 to 5 years",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
         "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
     },
     {
       "metric": "Site office / warehouse / laydown area — lease duty rate, term over 5 years",
@@ -61,7 +64,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
         "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
     },
     {
       "metric": "Site office / warehouse / laydown area — fixed stamp duty, electricity and water supply application forms",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf",
         "source_id": "geg-r-jina-ai-garis-panduan-pengenaan-duti-setem-4790bb4"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.hasil.gov.my/wp-content/uploads/garis-panduan-pengenaan-duti-setem-jadual-pertama-as-1949.pdf"
     }
   ],
   "vendor_models": [],

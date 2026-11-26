@@ -9,7 +9,7 @@
     "PRC",
     "MAT"
   ],
-  "description": "Reduce heat loss from boiler surfaces, steam and condensate piping, protect personnel and maintain steam pressure/temperature; insulation also reduces condensate formation and trap load (DOE steam tip sheets, search-verified; Engineering ToolBox; TLV).",
+  "description": "Reduce heat loss from boiler surfaces, steam and condensate piping, protect personnel and maintain steam pressure/temperature; insulation also reduces condensate formation and trap load (DOE steam tip sheets, search-verified; Engineering ToolBox; TLV). Primary source: https://www.engineeringtoolbox.com/heat-loss-steam-pipes-d_255.html",
   "specifications": [
     {
       "metric": "bare steam pipe heat loss",
@@ -19,7 +19,8 @@
         "url": "https://www.engineeringtoolbox.com/heat-loss-steam-pipes-d_255.html",
         "source_id": "engineeringtoolbox-com-heat-loss-steam-pipes-d-255-html"
       },
-      "value": "54 to 1,852"
+      "value": "54 to 1,852",
+      "source_url": "https://www.engineeringtoolbox.com/heat-loss-steam-pipes-d_255.html"
     },
     {
       "metric": "insulation thermal conductivity basis",
@@ -29,7 +30,8 @@
         "url": "https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html",
         "source_id": "engineeringtoolbox-com-heat-loss-insulated-pipes-d-1151-html"
       },
-      "value": 0.036
+      "value": 0.036,
+      "source_url": "https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html"
     },
     {
       "metric": "worked insulated-pipe heat loss",
@@ -39,7 +41,8 @@
         "url": "https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html",
         "source_id": "engineeringtoolbox-com-heat-loss-insulated-pipes-d-1151-html"
       },
-      "value": "~20"
+      "value": "~20",
+      "source_url": "https://www.engineeringtoolbox.com/heat-loss-insulated-pipes-d_1151.html"
     },
     {
       "metric": "TD trap cap insulating cover effect",
@@ -49,7 +52,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-energy-losses-in"
       },
-      "value": "steam loss can be halved"
+      "value": "steam loss can be halved",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps"
     },
     {
       "metric": "bimetallic trap lagging restriction",
@@ -59,7 +63,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
       },
-      "value": "requires 1-3 m unlagged cooling leg"
+      "value": "requires 1-3 m unlagged cooling leg",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps"
     },
     {
       "metric": "Fire door surface temperature (uninsulated)",
@@ -69,7 +74,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "deg F",
-      "value": "around 350"
+      "value": "around 350",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Mud drum cover surface temperature (uninsulated)",
@@ -79,7 +85,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "deg F",
-      "value": "around 200"
+      "value": "around 200",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Typical insulation material",
@@ -89,7 +96,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "in",
-      "value": "1 in fiberglass"
+      "value": "1 in fiberglass",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Warranty",
@@ -99,7 +107,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "years",
-      "value": "5 year"
+      "value": "5 year",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Closure system",
@@ -109,7 +118,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "n/a",
-      "value": "velcro and D-rings"
+      "value": "velcro and D-rings",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Equipment covered",
@@ -119,7 +129,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "n/a",
-      "value": "Boiler Access Doors; Steam Drum Covers; Mud Drum Covers"
+      "value": "Boiler Access Doors; Steam Drum Covers; Mud Drum Covers",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Standard insulation thickness",
@@ -128,7 +139,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Fire door surface temperature",
@@ -137,7 +149,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "high": 350
+      "high": 350,
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Mud drum cover surface temperature",
@@ -146,7 +159,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "high": 200
+      "high": 200,
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Compatible boiler materials",
@@ -155,7 +169,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "value": "steel, iron, copper or brass"
+      "value": "steel, iron, copper or brass",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Customisation",
@@ -164,7 +179,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "value": "made to exact fit; custom boiler insulation panels available"
+      "value": "made to exact fit; custom boiler insulation panels available",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Excluded Cleaver-Brooks models",
@@ -173,7 +189,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "value": "CBR, CBLE, CB, CBEX, CBEXDP should not be insulated; 4WI, ICB, CBEXE, CBEXP are OK to insulate"
+      "value": "CBR, CBLE, CB, CBEX, CBEXDP should not be insulated; 4WI, ICB, CBEXE, CBEXP are OK to insulate",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     }
   ],
   "vendors": [

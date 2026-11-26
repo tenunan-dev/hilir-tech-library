@@ -6,7 +6,7 @@
   "equipment": [
     "fl-separators-2-3-phase-horizontal-vertical-spherical-compact-in-46519c"
   ],
-  "description": "Dedicated measurement for gas, oil and water; electronic flowmeter (EFM) for real-time reporting.",
+  "description": "Dedicated measurement for gas, oil and water; electronic flowmeter (EFM) for real-time reporting. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
   "specifications": [
     {
       "metric": "Working pressure rating",
@@ -17,7 +17,8 @@
         "source_id": "cat-slb-com-well-test-separators"
       },
       "low": "500",
-      "high": "2,000"
+      "high": "2,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Inlet diameter",
@@ -27,7 +28,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "84"
+      "value": "84",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Phase configurations",
@@ -37,7 +39,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "Two-, three-, or four-phase separator test units"
+      "value": "Two-, three-, or four-phase separator test units",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Vessel orientation",
@@ -47,7 +50,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "Horizontal or vertical"
+      "value": "Horizontal or vertical",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Service rating",
@@ -57,7 +61,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",
         "source_id": "cat-slb-com-well-test-separators"
       },
-      "value": "Sweet or sour service rated"
+      "value": "Sweet or sour service rated",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Working pressure rating",
@@ -67,7 +72,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
       },
       "low": 500,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Inlet diameter",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
       },
-      "value": 84
+      "value": 84,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Phase configurations",
@@ -84,7 +91,8 @@
       "basis": "SLB Cameron: 'Two-, three-, or four-phase separator test units'",
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Vessel orientation / service",
@@ -92,7 +100,8 @@
       "basis": "SLB Cameron: 'Horizontal or vertical orientation of vessels'; 'Sweet or sour service rated'; 'Skid-mounted or trailer-integrated designs'",
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     },
     {
       "metric": "Separated streams / measurement",
@@ -100,7 +109,8 @@
       "basis": "SLB Cameron: 'separate oil, water, gas, and sometimes solids (sand) into individual streams for more accurate measurement and discharge control'; 'Dedicated measurement for gas, oil, and water'; 'Electronic flowmeter (EFM)'",
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/completions/stimulation/frac-and-flowback-equipment/well-test-separators",

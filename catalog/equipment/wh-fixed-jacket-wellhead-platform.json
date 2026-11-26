@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "A fixed, pile-founded tubular steel substructure supporting a topside that houses wellheads, Christmas trees, well control and minimum processing; the wells are drilled and completed from the platform.",
+  "description": "A fixed, pile-founded tubular steel substructure supporting a topside that houses wellheads, Christmas trees, well control and minimum processing; the wells are drilled and completed from the platform. Primary source: https://en.wikipedia.org/wiki/Fixed_platform",
   "specifications": [
     {
       "metric": " economically feasible water depth (fixed platforms generally)",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Fixed_platform",
         "source_id": "en-wikipedia-org-wiki-fixed-platform"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://en.wikipedia.org/wiki/Fixed_platform"
     },
     {
       "metric": "jacket function",
@@ -29,7 +30,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
-      "value": "braced tubular steel substructure; supports laterally and protects well conductors and pipeline riser"
+      "value": "braced tubular steel substructure; supports laterally and protects well conductors and pipeline riser",
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "well conductor size protected by jacket",
@@ -40,7 +42,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
       "low": 26,
-      "high": 30
+      "high": 30,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "typical air gap (topside clearance above maximum wave)",
@@ -50,7 +53,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
-      "value": 1.5
+      "value": 1.5,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "applicable structural standard",
@@ -60,7 +64,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
-      "value": "API RP 2A (worldwide leading code); ISO 19902:2020; DNV rules; AISC and AWS D1.1 for topsides and welding"
+      "value": "API RP 2A (worldwide leading code); ISO 19902:2020; DNV rules; AISC and AWS D1.1 for topsides and welding",
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "reboiler heat media",
@@ -70,7 +75,8 @@
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization",
         "source_id": "specoilandgas-com-oil-processing-crude-condensate-stabilization"
       },
-      "value": "gas fired, hot oil or steam"
+      "value": "gas fired, hot oil or steam",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "inlet mercury",
@@ -80,7 +86,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
       },
-      "value": "1-10 ug/Nm3 (0.1-10 ppbv)"
+      "value": "1-10 ug/Nm3 (0.1-10 ppbv)",
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal"
     },
     {
       "metric": "design outlet",
@@ -90,7 +97,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
       },
-      "value": "0.001 ug/Nm3"
+      "value": "0.001 ug/Nm3",
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal"
     },
     {
       "metric": "scope",
@@ -100,7 +108,8 @@
         "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
         "source_id": "johnsoncontrols-com-oil-and-gas-production-systems"
       },
-      "value": "HPU, methanol injection skids, WHCP, TUTU, IWOCS, ESD, HIPPS"
+      "value": "HPU, methanol injection skids, WHCP, TUTU, IWOCS, ESD, HIPPS",
+      "source_url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems"
     },
     {
       "metric": "Depth",
@@ -110,7 +119,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Power",
@@ -120,7 +130,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 1125
+      "value": 1125,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Burial capacity",
@@ -130,7 +141,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "SIL",
@@ -140,7 +152,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "1-3 (IEC 61508/61511)"
+      "value": "1-3 (IEC 61508/61511)",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "operating temperature",
@@ -150,7 +163,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "-40 to 70 degC remote cabinet; -5 to 70 degC cabinet"
+      "value": "-40 to 70 degC remote cabinet; -5 to 70 degC cabinet",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "supply voltage",
@@ -160,7 +174,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "110/48/24 VDC"
+      "value": "110/48/24 VDC",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "AMP1500 product diameter",
@@ -170,7 +185,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "ACP2 product diameter",
@@ -180,7 +196,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "T1500+ water depth rating",
@@ -189,7 +206,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "T1500+ power",
@@ -198,7 +216,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "T1500+ power (kW)",
@@ -207,7 +226,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 1125
+      "value": 1125,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "T1500+ current performance",
@@ -216,7 +236,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 3.5
+      "value": 3.5,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "T1500+ maximum burial",
@@ -225,7 +246,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "UT-1 total power",
@@ -234,7 +256,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 2.1
+      "value": 2.1,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "AMP1500 product handling diameter",
@@ -243,7 +266,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "ACP2 minimum bend radius",
@@ -252,7 +276,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "IMF function",
@@ -260,7 +285,8 @@
       "basis": "'cost-effective solution for mattress installation without the need for ROV or diver intervention'",
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
-      }
+      },
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Design code",
@@ -268,7 +294,8 @@
       "basis": "'Design code: ASME Section VIII, Division 1'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Sour service",
@@ -276,7 +303,8 @@
       "basis": "'H2S service additionally requires NACE compliance'; 'materials selected for applicable sour-service requirements'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Reference facility capacity",
@@ -285,7 +313,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
       },
-      "value": 100000
+      "value": 100000,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Module weight",
@@ -294,7 +323,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Separation principles",
@@ -302,7 +332,8 @@
       "basis": "'Momentum', 'Gravity settling', 'Coalescing'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Orientations/phases",
@@ -310,7 +341,8 @@
       "basis": "'vertical and horizontal, and as either two or three phase units'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Inlet devices",
@@ -318,7 +350,8 @@
       "basis": "'diverter plates, half pipe, vane and cyclonic'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Retention time basis",
@@ -326,7 +359,8 @@
       "basis": "'set from fluid properties, separation duty and required outlet quality'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/two-three-phase-separators"
     },
     {
       "metric": "Maximum deployment water depth",
@@ -335,7 +369,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Subsea power system",
@@ -344,7 +379,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Subsea power system (kW)",
@@ -353,7 +389,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 1125
+      "value": 1125,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Current performance",
@@ -362,7 +399,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 3.5
+      "value": 3.5,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Maximum burial capacity",
@@ -371,7 +409,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Typical inlet mercury concentration",
@@ -381,7 +420,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
       },
       "low": 1,
-      "high": 10
+      "high": 10,
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     },
     {
       "metric": "Designed outlet mercury concentration",
@@ -390,7 +430,8 @@
       "source": {
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
       },
-      "value": 0.001
+      "value": 0.001,
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     },
     {
       "metric": "Trapping chemistry",
@@ -398,7 +439,8 @@
       "basis": "\"uses a sulfur based trapping material which reacts with the element to form cinnabar (HgS) on the bed\"",
       "source": {
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
-      }
+      },
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     },
     {
       "metric": "Trapping material carriers",
@@ -406,7 +448,8 @@
       "basis": "\"The trapping material is carried on activated carbon, zeolite or alumina\"",
       "source": {
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
-      }
+      },
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     },
     {
       "metric": "Downstream equipment protected",
@@ -414,7 +457,8 @@
       "basis": "\"Mercury can attack aluminum in downstream brazed aluminium plate fin heat exchangers used in most modern cryogenic hydrocarbon recovery plants or liquefaction plants\"",
       "source": {
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
-      }
+      },
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     },
     {
       "metric": "Standard design pressure",
@@ -423,7 +467,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
       },
-      "value": 1440
+      "value": 1440,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Design temperature (stock vessels)",
@@ -433,7 +478,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
       },
       "low": -29,
-      "high": 54
+      "high": 54,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Configurations",
@@ -441,7 +487,8 @@
       "basis": "Orientation table: horizontal double barrel (gas flow maximised in upper barrel without re-entrainment; liquid drops into lower barrel) and vertical (gravity removal; only lower portion of element saturates; smaller hardware at same flow rate)",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Separation stages",
@@ -450,7 +497,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Reference project",
@@ -459,7 +507,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Total installed power",
@@ -468,7 +517,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 2.1
+      "value": 2.1,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Drive/pressure-flow control",
@@ -476,7 +526,8 @@
       "basis": "'It is also fitted with sophisticated drive motors, which allows precise control of pressure and flow, giving a high degree of flexibility when undertaking workshops in varied environmental conditions'",
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
-      }
+      },
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "Typical outlet oil-in-water",
@@ -485,7 +536,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "Vessel code",
@@ -493,7 +545,8 @@
       "basis": "SPEC: 'Vessel code ASME Section VIII'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "Moving parts",
@@ -502,7 +555,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
       },
-      "value": 0
+      "value": 0,
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "Vessel sizing / materials",
@@ -510,7 +564,8 @@
       "basis": "SPEC: 'Vessel sizes: Configured around process requirements, operating conditions and project scope'; 'Materials: A range of materials and sizes depending on application'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "Delivery / position",
@@ -518,7 +573,8 @@
       "basis": "SPEC: 'Delivery: Skid-mounted units'; 'Typical position: Upstream of IGF, where process pressure allows'",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "safety_integrity_level",
@@ -529,7 +585,8 @@
       },
       "value": "SIL 1-3",
       "low": 1,
-      "high": 3
+      "high": 3,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "architecture",
@@ -538,7 +595,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture"
+      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "cyber_security_certification",
@@ -547,7 +605,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Embedded Device Security Assurance program as defined by ISA Security Compliance Institute"
+      "value": "Embedded Device Security Assurance program as defined by ISA Security Compliance Institute",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "IO_technology",
@@ -556,7 +615,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Universal Safety I/O; each channel individually configurable for a different I/O type; remote IO usable in hazardous locations"
+      "value": "Universal Safety I/O; each channel individually configurable for a different I/O type; remote IO usable in hazardous locations",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "typical_outlet_quality",
@@ -565,7 +625,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
       },
-      "high": 10
+      "high": 10,
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
     },
     {
       "metric": "induction_method",
@@ -574,7 +635,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
       },
-      "value": "Differential Pressure Induction: venturi eductors induced by pressurised water from recirculation pumps; pumps and eductors sit outside the vessel for easy access"
+      "value": "Differential Pressure Induction: venturi eductors induced by pressurised water from recirculation pumps; pumps and eductors sit outside the vessel for easy access",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
     },
     {
       "metric": "sizing_inputs",
@@ -583,7 +645,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
       },
-      "value": "Produced water flow rate; Operating pressure and temperature; inlet water quality"
+      "value": "Produced water flow rate; Operating pressure and temperature; inlet water quality",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
     },
     {
       "metric": "Max pressure rating",
@@ -592,7 +655,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "Max pressure rating metric",
@@ -601,7 +665,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
-      "high": 68.9
+      "high": 68.9,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "Temperature range",
@@ -611,7 +676,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
       "low": 0,
-      "high": 150
+      "high": 150,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "Temperature range metric",
@@ -621,7 +687,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
       "low": -17,
-      "high": 65
+      "high": 65,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "Available sizes",
@@ -630,7 +697,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
-      "value": "9, 11, and 13 5/8 in"
+      "value": "9, 11, and 13 5/8 in",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "Welding standards",
@@ -639,7 +707,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
-      "value": "API Specs 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 fatigue classes F3, D, or C1"
+      "value": "API Specs 6A and 17D, ASME Section IX, NACE MR0175/ISO 15156, DNVGL-RP-C203 fatigue classes F3, D, or C1",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "Water depth suitability",
@@ -648,7 +717,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
       },
-      "value": "all water depths"
+      "value": "all water depths",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wellheads"
     },
     {
       "metric": "OGT-800-based output range",
@@ -658,7 +728,8 @@
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
       "low": 150,
-      "high": 450
+      "high": 450,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "OGT-8000H-based SeaFloat output",
@@ -667,7 +738,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": 1330
+      "value": 1330,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "OGT-8000H plant efficiency",
@@ -676,7 +748,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": "more than 62"
+      "value": "more than 62",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "OGT5-8000H gross power output",
@@ -685,7 +758,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "Combined cycle configurations",
@@ -694,7 +768,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": "1x1 and 2x1, up to 1,330 MW"
+      "value": "1x1 and 2x1, up to 1,330 MW",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "ULCC total efficiency",
@@ -703,7 +778,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "ULCC CO2 reduction",
@@ -712,7 +788,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": 110000
+      "value": 110000,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "Estrella del Mar III floating plant",
@@ -721,7 +798,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": 148
+      "value": 148,
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "Product portfolio",
@@ -730,7 +808,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": "combined cycle configurations based on aeroderivative, industrial and heavy-duty gas turbines; barges, offshore platforms, FPSOs and FSRPUs"
+      "value": "combined cycle configurations based on aeroderivative, industrial and heavy-duty gas turbines; barges, offshore platforms, FPSOs and FSRPUs",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "Naming note",
@@ -739,7 +818,8 @@
       "source": {
         "url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
       },
-      "value": "Siemens Energy and Siemens Gamesa are now Omterra; formerly licensed 'SGT' portfolio now offered as 'OGT'"
+      "value": "Siemens Energy and Siemens Gamesa are now Omterra; formerly licensed 'SGT' portfolio now offered as 'OGT'",
+      "source_url": "https://www.siemens-energy.com/global/en/home/products-services/product/seafloat.html"
     },
     {
       "metric": "Function",
@@ -748,7 +828,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "removes light ends from crude or condensate to meet specified vapour-pressure limit for storage, transport or export"
+      "value": "removes light ends from crude or condensate to meet specified vapour-pressure limit for storage, transport or export",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Specification target",
@@ -757,7 +838,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "Reid vapour pressure (RVP)"
+      "value": "Reid vapour pressure (RVP)",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "H2S option",
@@ -766,7 +848,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "H2S stripping from liquid to meet maximum allowable H2S content"
+      "value": "H2S stripping from liquid to meet maximum allowable H2S content",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Major equipment",
@@ -775,7 +858,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "Stabilization Column (trays or structured packing); Stabilizer Reboiler; Stabilized/Unstabilized Heat Exchangers; Reflux Condenser"
+      "value": "Stabilization Column (trays or structured packing); Stabilizer Reboiler; Stabilized/Unstabilized Heat Exchangers; Reflux Condenser",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Arrangement",
@@ -784,7 +868,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "Smaller units: column mounted directly on reboiler; Larger units: separate column and reboiler"
+      "value": "Smaller units: column mounted directly on reboiler; Larger units: separate column and reboiler",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Reboiler heat sources",
@@ -793,7 +878,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "gas fired, hot oil or steam"
+      "value": "gas fired, hot oil or steam",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Materials/design option",
@@ -802,7 +888,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "NACE compliant design for sour service where H2S is present"
+      "value": "NACE compliant design for sour service where H2S is present",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Delivery",
@@ -811,7 +898,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "skid-mounted modules"
+      "value": "skid-mounted modules",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Project reference",
@@ -820,7 +908,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "Gas Treatment Units for Makat and Balgymbaeva Fields, Kazakhstan, 2013"
+      "value": "Gas Treatment Units for Makat and Balgymbaeva Fields, Kazakhstan, 2013",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Typical outlet quality",
@@ -829,7 +918,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
       },
-      "value": "As low as 5"
+      "value": "As low as 5",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
     },
     {
       "metric": "Filter media",
@@ -838,7 +928,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
       },
-      "value": "Pecan and walnut shell blend"
+      "value": "Pecan and walnut shell blend",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
     },
     {
       "metric": "Minimum filters",
@@ -847,7 +938,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
     },
     {
       "metric": "Backwash water",
@@ -856,7 +948,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
       },
-      "value": "Process water used, eliminating need for clean water source"
+      "value": "Process water used, eliminating need for clean water source",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
     },
     {
       "metric": "Solids removal",
@@ -865,7 +958,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
       },
-      "value": "High solids removal efficiency"
+      "value": "High solids removal efficiency",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
     },
     {
       "metric": "Backwash steps",
@@ -874,7 +968,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
       },
-      "value": "1 Fluidise the bed; 2 Remove contaminated water; 3 Allow filter to settle; 4 Rinse filters"
+      "value": "1 Fluidise the bed; 2 Remove contaminated water; 3 Allow filter to settle; 4 Rinse filters",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
     }
   ],
   "vendors": [

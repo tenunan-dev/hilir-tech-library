@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Establish control points and setting-out, characterize ground and groundwater via drilling, sampling and in-situ tests, and determine soil/rock properties by laboratory testing for foundation design.",
+  "description": "Establish control points and setting-out, characterize ground and groundwater via drilling, sampling and in-situ tests, and determine soil/rock properties by laboratory testing for foundation design. Primary source: https://geospatial.trimble.com/en/products/hardware/trimble-s9",
   "specifications": [
     {
       "metric": "Trimble S9 EDM accuracy (prism)",
@@ -19,7 +19,8 @@
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
         "source_id": "geospatial-trimble-com-hardware-trimble-s9"
       },
-      "value": "1.0 mm + 2 ppm"
+      "value": "1.0 mm + 2 ppm",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Eurocode 7 Part 2",
@@ -29,7 +30,8 @@
         "url": "https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design",
         "source_id": "eurocodes-jrc-ec-europa-eu-en-eurocodes-eurocode-7-geotechnical-de"
       },
-      "value": "EN 1997-2:2007 Ground investigation and testing"
+      "value": "EN 1997-2:2007 Ground investigation and testing",
+      "source_url": "https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. Used in several US data-centre orders (search-verified snippets).",
+  "description": "Vendor product line read 2026-11-24. Used in several US data-centre orders (search-verified snippets). Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
   "specifications": [
     {
       "metric": "Electrical output",
@@ -17,7 +17,8 @@
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
       },
       "low": 18.4,
-      "high": 18.9
+      "high": 18.9,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Electrical efficiency",
@@ -28,7 +29,8 @@
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
       },
       "low": 49.9,
-      "high": 50.0
+      "high": 50.0,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Data-centre selector output 50/60 Hz",
@@ -37,7 +39,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
       },
-      "value": "18.4 MW / 18.9 MW"
+      "value": "18.4 MW / 18.9 MW",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Up to 54% efficiency with Flexicycle",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
       },
-      "value": 54
+      "value": 54,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "24 x 50SG order",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
       },
-      "value": "24 engines delivering 429 MW"
+      "value": "24 engines delivering 429 MW",
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "Kentucky 50SG order",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
       },
-      "value": "four Wartsila 50SG engines for 75-MW Energy Center I"
+      "value": "four Wartsila 50SG engines for 75-MW Energy Center I",
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "Fast start / grid synchronisation",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
       },
-      "value": "30 sec power to grid (selector); < 2 min fast start to full load (product page)"
+      "value": "30 sec power to grid (selector); < 2 min fast start to full load (product page)",
+      "source_url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
     },
     {
       "metric": "50SG efficiency / heat rate 50 Hz & 60 Hz",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
       },
-      "value": "50.2%/50.0%; 7 165/7 207 kJ/kWh"
+      "value": "50.2%/50.0%; 7 165/7 207 kJ/kWh",
+      "source_url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
     },
     {
       "metric": "50SG bore / stroke / speed / cylinders",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
       },
-      "value": "500 mm / 580 mm / 500 rpm (50 Hz), 514 rpm (60 Hz) / 18V"
+      "value": "500 mm / 580 mm / 500 rpm (50 Hz), 514 rpm (60 Hz) / 18V",
+      "source_url": "https://www.wartsila.com/energy/solutions/engine-power-plants/wartsila-50sg-gas-engine"
     }
   ],
   "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",

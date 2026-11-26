@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Provide reservoir pressure support and lift; inject treating chemicals for flow assurance and asset integrity; deliver seawater/gas/chemicals to the reservoir or production stream.",
+  "description": "Provide reservoir pressure support and lift; inject treating chemicals for flow assurance and asset integrity; deliver seawater/gas/chemicals to the reservoir or production stream. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
   "specifications": [
     {
       "metric": "OneSubsea subsea pump operational hours",
@@ -19,7 +19,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
         "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
       },
-      "value": 5000000
+      "value": 5000000,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection"
     },
     {
       "metric": "OneSubsea subsea pumps delivered globally",
@@ -29,7 +30,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
         "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
       },
-      "value": 130
+      "value": 130,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection"
     },
     {
       "metric": "OneSubsea subsea pumps for water injection",
@@ -39,7 +41,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
         "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
       },
-      "value": 14
+      "value": 14,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection"
     },
     {
       "metric": "Seawater treatment configuration levels",
@@ -49,7 +52,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
         "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection"
     },
     {
       "metric": "Chemical injection case duration / scale",
@@ -59,7 +63,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/production-chemicals-and-services",
         "source_id": "sys-slb-com-production-chemicals-and-services"
       },
-      "value": "9 months across 1,400 wells"
+      "value": "9 months across 1,400 wells",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/production-chemicals-and-services"
     }
   ],
   "vendors": [

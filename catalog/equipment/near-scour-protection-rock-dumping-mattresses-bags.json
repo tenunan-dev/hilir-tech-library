@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Prevent seabed erosion around monopiles/jackets and over cables; filter layer plus armour layer, or flexible mattresses / sand containers.",
+  "description": "Prevent seabed erosion around monopiles/jackets and over cables; filter layer plus armour layer, or flexible mattresses / sand containers. Primary source: https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
   "specifications": [
     {
       "metric": "West of Duddon Sands armour rock grading",
@@ -19,7 +19,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "8-18 inch (20-45 cm)"
+      "value": "8-18 inch (20-45 cm)",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Meerwind armour rock mass",
@@ -29,7 +30,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "100-700"
+      "value": "100-700",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Anholt filter / armour grading",
@@ -39,7 +41,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "1-4 inch filter + 2-8 inch armour"
+      "value": "1-4 inch filter + 2-8 inch armour",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Ridgeway filter bag design life",
@@ -49,7 +52,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "ContiTech mat thickness / diameter",
@@ -59,7 +63,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "12-15 mm / up to 52 m"
+      "value": "12-15 mm / up to 52 m",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "NAUE Secutex Soft Rock",
@@ -69,7 +74,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "needle-punched nonwoven geotextile sand container; used at Amrumbank West"
+      "value": "needle-punched nonwoven geotextile sand container; used at Amrumbank West",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     }
   ],
   "vendors": [

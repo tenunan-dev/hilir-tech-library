@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Rigid reinforced concrete blocks that distribute column/equipment loads to a pile group and tie piles together; include pile head connections, shear reinforcement and anchor/sole-plate interfaces.",
+  "description": "Rigid reinforced concrete blocks that distribute column/equipment loads to a pile group and tie piles together; include pile head connections, shear reinforcement and anchor/sole-plate interfaces. Primary source: https://www.fosroc.com/product/show/conbextra-gp",
   "specifications": [
     {
       "metric": "Cementitious grout for baseplates (gap range)",
@@ -20,7 +20,8 @@
         "source_id": "fosroc-com-show-conbextra-gp"
       },
       "low": 10,
-      "high": 75
+      "high": 75,
+      "source_url": "https://www.fosroc.com/product/show/conbextra-gp"
     }
   ],
   "vendors": [

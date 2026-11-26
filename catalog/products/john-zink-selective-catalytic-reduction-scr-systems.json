@@ -6,7 +6,7 @@
   "equipment": [
     "scr-nox-control-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Primary source: https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems",
   "specifications": [
     {
       "metric": "NOx reduction",
@@ -16,7 +16,8 @@
         "source_id": "johnzink-com-powerburners-selective-catalytic-reduction-scr-syst"
       },
       "unit": "% post-combustion NOx reduction (up to)",
-      "value": 95
+      "value": 95,
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Reductant options",
@@ -26,7 +27,8 @@
         "source_id": "johnzink-com-powerburners-selective-catalytic-reduction-scr-syst"
       },
       "unit": "reductants",
-      "value": "Aqueous ammonia, anhydrous ammonia, urea"
+      "value": "Aqueous ammonia, anhydrous ammonia, urea",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Additional catalyst",
@@ -36,7 +38,8 @@
         "source_id": "johnzink-com-powerburners-selective-catalytic-reduction-scr-syst"
       },
       "unit": "option",
-      "value": "CO or VOC catalyst available for lowest stack emissions"
+      "value": "CO or VOC catalyst available for lowest stack emissions",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Applications",
@@ -46,7 +49,8 @@
         "source_id": "johnzink-com-powerburners-selective-catalytic-reduction-scr-syst"
       },
       "unit": "applications",
-      "value": "Power plants, refineries, chemical plants"
+      "value": "Power plants, refineries, chemical plants",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "NOx reduction",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
       },
-      "high": 95
+      "high": 95,
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Reductants",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
       },
-      "value": "Aqueous ammonia, Anhydrous ammonia, Urea, etc."
+      "value": "Aqueous ammonia, Anhydrous ammonia, Urea, etc.",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Additional catalysts",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
       },
-      "value": "CO or VOC catalyst are also available for the lowest emissions out the stack"
+      "value": "CO or VOC catalyst are also available for the lowest emissions out the stack",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     },
     {
       "metric": "Process",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
       },
-      "value": "catalyst facilitates a chemical reaction between NOx and a reductant, typically ammonia or urea, converting harmful NOx into harmless nitrogen and water vapor"
+      "value": "catalyst facilitates a chemical reaction between NOx and a reductant, typically ammonia or urea, converting harmful NOx into harmless nitrogen and water vapor",
+      "source_url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems"
     }
   ],
   "url": "https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems",

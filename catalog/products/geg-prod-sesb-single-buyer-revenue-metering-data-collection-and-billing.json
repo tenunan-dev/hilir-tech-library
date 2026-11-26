@@ -6,7 +6,7 @@
   "equipment": [
     "geg-energy-billing-system"
   ],
-  "description": "energy billing / metering data collection system",
+  "description": "energy billing / metering data collection system Primary source: https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
   "specifications": [
     {
       "metric": "revenue data recording interval",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "on-site data store backup capability",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "billing data source",
@@ -38,7 +40,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "meter database archive",
@@ -49,7 +52,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Nominal frequency",
@@ -58,7 +62,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "CDGU threshold synchronous",
@@ -67,7 +72,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "CDGU threshold power park",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Distribution network voltage ceiling",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 33
+      "value": 33,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Time basis",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 8
+      "value": 8,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Grid Code document sections",
@@ -102,7 +111,8 @@
       "basis": "'General Conditions; Planning Code; Connection Conditions; Operating Codes Nos. 1 to 11; Scheduling and Dispatch Codes Nos. 1 to 3; Metering Code'",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Metering Code appendix",
@@ -110,7 +120,8 @@
       "basis": "'Metering Code Appendix 1 – Type and Accuracy of Revenue Metering Installations'; 'Metering Code Appendix 2 - Commissioning, Inspection, Calibration and Testing Requirements'",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Single Buyer function",
@@ -118,7 +129,8 @@
       "basis": "'The Single Buyer is a department in SESB that is responsible for overseeing the commercial arrangements entered into with the IPPs'",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Grid System Operator function",
@@ -126,7 +138,8 @@
       "basis": "'GSO is the person inSESB responsible for the overall coordination of the operation, maintenance and control of the interconnected Grid System'",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Document page count",
@@ -135,7 +148,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 224
+      "value": 224,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     }
   ],
   "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",

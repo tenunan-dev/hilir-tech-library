@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
   "specifications": [
     {
       "metric": "cybersecurity compliance",
@@ -16,7 +16,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
-      "value": "IEC 62443-4-1 and IEC 62443-3-3"
+      "value": "IEC 62443-4-1 and IEC 62443-3-3",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "MTP startup improvement",
@@ -26,7 +27,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Version",
@@ -34,7 +36,8 @@
       "basis": "'SIMATIC PCS 7 V10.0 boosts plant performance and security'",
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
-      }
+      },
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "MTP integration startup improvement",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Cybersecurity compliance",
@@ -51,7 +55,8 @@
       "basis": "'full IEC 62443-4-1 and IEC 62443-3-3 compliance'; 'NIS2-compliant cybersecurity'",
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
-      }
+      },
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "GMP features",
@@ -59,7 +64,8 @@
       "basis": "'GMP-ready audit trails and eSignatures'",
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
-      }
+      },
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Remote I/O",
@@ -67,7 +73,8 @@
       "basis": "'SIMATIC ET 200SP HA, a compact robust remote I/O designed for high availability'",
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
-      }
+      },
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Installed base",
@@ -75,7 +82,8 @@
       "basis": "'already in use in thousands of installations worldwide'",
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
-      }
+      },
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Case: vaccine production start-up",
@@ -84,7 +92,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     }
   ],
   "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",

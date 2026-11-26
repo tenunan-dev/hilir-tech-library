@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-pilot-ignition-system"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Forney igniters list page.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Forney igniters list page. Primary source: https://www.forneycorp.com/igniters",
   "specifications": [
     {
       "metric": "Igniter class",
@@ -16,7 +16,8 @@
         "source_id": "forneycorp-com-igniters"
       },
       "unit": "n/a",
-      "value": "Class 3"
+      "value": "Class 3",
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Duty",
@@ -26,7 +27,8 @@
         "source_id": "forneycorp-com-igniters"
       },
       "unit": "n/a",
-      "value": "direct spark ignition of oil or gas igniters, small burners, and combustion turbines"
+      "value": "direct spark ignition of oil or gas igniters, small burners, and combustion turbines",
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Approval",
@@ -36,7 +38,8 @@
         "source_id": "forneycorp-com-igniters"
       },
       "unit": "n/a",
-      "value": "Standard HESI is FM approved; CE Version meets Low Voltage Directive"
+      "value": "Standard HESI is FM approved; CE Version meets Low Voltage Directive",
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Igniter class",
@@ -44,7 +47,8 @@
       "basis": "'The HESI is a Class 3 Igniter used for direct spark ignition of oil or gas igniters, small burners, and combustion turbines'",
       "source": {
         "url": "https://www.forneycorp.com/igniters"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Approvals",
@@ -52,7 +56,8 @@
       "basis": "'The Standard HESI is FM approved and the CE Version meets the Low Voltage D...' (text truncated in retrieved page)",
       "source": {
         "url": "https://www.forneycorp.com/igniters"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "MaxFire 100 Series capacities",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://www.forneycorp.com/igniters"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Q87 fuel capability",
@@ -69,7 +75,8 @@
       "basis": "'best choice when dual fuel (natural gas and No. 2 oil) is required'",
       "source": {
         "url": "https://www.forneycorp.com/igniters"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "DURAFire fuel",
@@ -77,7 +84,8 @@
       "basis": "'air atomized No. 2 oil igniter' with 'protected primary combustion zone' design",
       "source": {
         "url": "https://www.forneycorp.com/igniters"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/igniters"
     },
     {
       "metric": "Horn igniter",
@@ -85,7 +93,8 @@
       "basis": "'direct replacement for the OEM igniter on tangentially fired boilers' featuring 'high energy spark igniter (HESI)'",
       "source": {
         "url": "https://www.forneycorp.com/igniters"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/igniters"
     }
   ],
   "url": "https://www.forneycorp.com/igniters",

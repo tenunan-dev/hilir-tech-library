@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-gas-water-tube-package"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/flx",
   "specifications": [
     {
       "metric": "Input capacity",
@@ -17,7 +17,8 @@
       },
       "unit": "MBH",
       "low": 1500,
-      "high": 25000
+      "high": 25000,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "Design pressure",
@@ -28,7 +29,8 @@
       },
       "unit": "psig",
       "low": 15,
-      "high": 250
+      "high": 250,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "Boiler horsepower",
@@ -39,7 +41,8 @@
       },
       "unit": "HP",
       "low": 36,
-      "high": 600
+      "high": 600,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "Thermal efficiency",
@@ -50,7 +53,8 @@
       },
       "unit": "%",
       "low": 81,
-      "high": 85
+      "high": 85,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "NOx emissions",
@@ -60,7 +64,8 @@
         "source_id": "cleaverbrooks-com-product-flx"
       },
       "unit": "ppm NOx (option, less than)",
-      "value": 9
+      "value": 9,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "Turndown",
@@ -70,7 +75,8 @@
         "source_id": "cleaverbrooks-com-product-flx"
       },
       "unit": "ratio",
-      "value": "15:1 standard / 10:1 controlled emissions"
+      "value": "15:1 standard / 10:1 controlled emissions",
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "Number of passes",
@@ -80,7 +86,8 @@
         "source_id": "cleaverbrooks-com-product-flx"
       },
       "unit": "passes",
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - input capacity",
@@ -90,7 +97,8 @@
         "url": "https://cleaverbrooks.com/product/flx"
       },
       "low": 1500,
-      "high": 25000
+      "high": 25000,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - boiler horsepower",
@@ -100,7 +108,8 @@
         "url": "https://cleaverbrooks.com/product/flx"
       },
       "low": 36,
-      "high": 600
+      "high": 600,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - design pressure",
@@ -110,7 +119,8 @@
         "url": "https://cleaverbrooks.com/product/flx"
       },
       "low": 15,
-      "high": 250
+      "high": 250,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - thermal efficiency",
@@ -119,7 +129,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": 81
+      "value": 81,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - number of passes",
@@ -128,7 +139,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - NOx emissions options",
@@ -137,7 +149,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": "Standard, <30, <20, <9 ppm"
+      "value": "Standard, <30, <20, <9 ppm",
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - turndown",
@@ -146,7 +159,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": "Up to 15:1 (standard emissions); 10:1 (controlled emissions)"
+      "value": "Up to 15:1 (standard emissions); 10:1 (controlled emissions)",
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - steam or hot water",
@@ -155,7 +169,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": "Both"
+      "value": "Both",
+      "source_url": "https://cleaverbrooks.com/product/flx"
     },
     {
       "metric": "FLX - fuels",
@@ -164,7 +179,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/flx"
       },
-      "value": "Natural Gas, #2 Light Oil, Propane, Digester Gas, Combination Firing"
+      "value": "Natural Gas, #2 Light Oil, Propane, Digester Gas, Combination Firing",
+      "source_url": "https://cleaverbrooks.com/product/flx"
     }
   ],
   "url": "https://cleaverbrooks.com/product/flx",

@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. Highest total smokeless rate claim; staging for turndown",
+  "description": "Vendor product line read 2026-11-24. Highest total smokeless rate claim; staging for turndown Primary source: https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
   "specifications": [
     {
       "metric": "Destruction efficiency",
@@ -16,7 +16,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "value": 99.5
+      "value": 99.5,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "API 537 compliance",
@@ -26,7 +27,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "value": "available"
+      "value": "available",
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "destruction_efficiency",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
       },
-      "low": 99.5
+      "low": 99.5,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "smokeless_operation",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
       },
-      "value": "100% smokeless operation at high flow rates"
+      "value": "100% smokeless operation at high flow rates",
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "standard",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
       },
-      "value": "Available API 537 Compliance"
+      "value": "Available API 537 Compliance",
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "technology",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
       },
-      "value": "High pressure technology with staging allows smokeless operation for the full range of flows"
+      "value": "High pressure technology with staging allows smokeless operation for the full range of flows",
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     }
   ],
   "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",

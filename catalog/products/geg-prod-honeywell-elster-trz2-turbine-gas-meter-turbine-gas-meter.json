@@ -6,7 +6,7 @@
   "equipment": [
     "geg-gas-receiving-and-metering-station-with-hot-tap-and-fuel-gas-sup"
   ],
-  "description": "turbine gas meter",
+  "description": "turbine gas meter Primary source: https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
   "specifications": [
     {
       "metric": "Meter sizes",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Maximum measuring range",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Nominal diameters",
@@ -40,7 +42,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Operating pressure",
@@ -52,7 +55,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Temperature range",
@@ -64,7 +68,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Measurement uncertainty per EN12261",
@@ -76,7 +81,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Flange rating",
@@ -86,7 +92,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",
         "source_id": "geg-fluidprocessing-it-elster-trz2-datasheet-en-0116e81"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Meter size range",
@@ -94,7 +101,8 @@
       "basis": "\"Meter sizes G65 to G1.000\"",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Maximum measuring range",
@@ -104,7 +112,8 @@
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
       "low": 5,
-      "high": 1600
+      "high": 1600,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Nominal diameters",
@@ -114,7 +123,8 @@
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
       "low": 50,
-      "high": 150
+      "high": 150,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Operating pressure",
@@ -124,7 +134,8 @@
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Flange rating",
@@ -132,7 +143,8 @@
       "basis": "\"Flange rating in PN 10-100 and ANSI 150-600\"; table: PN 10, 16, 25, 40, 64, 100 / ANSI 150, 300, 600",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Temperature range",
@@ -142,7 +154,8 @@
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
       "low": -25,
-      "high": 70
+      "high": 70,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Minimum inlet pipe length",
@@ -151,7 +164,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Measurement uncertainty (high flow)",
@@ -160,7 +174,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Measurement uncertainty (low flow)",
@@ -169,7 +184,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Standard measuring range ratio",
@@ -178,7 +194,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Alternative measuring range ratio",
@@ -187,7 +204,8 @@
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Materials",
@@ -195,7 +213,8 @@
       "basis": "\"Meter bodies: ductile iron (GGG-40) or forged steel. Turbine wheel: Aluminum\"; \"TRZ2 are fire-proof (HTB)\"",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Standards / approvals",
@@ -203,7 +222,8 @@
       "basis": "\"MID approval for fiscal measurement; Conformity to EN12261, PED, ASME, ATEX and IECEx\"; OIML R137-1; EC directives 2014/32/EU (MID), 2014/34/EU (ATEX), 2014/68/EU (PED); ISO 9001:2008 / ISO 14001",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Pulse outputs",
@@ -211,7 +231,8 @@
       "basis": "\"Low frequency (standard): 2x LF outputs (type E1) with maximum frequency of 0.5 Hz – 1x manipulation contact\"; \"High frequency (optional): up to 4x HF outputs\"",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Index head",
@@ -219,7 +240,8 @@
       "basis": "\"IP67 certified\"; 8-digit mechanical index; index head rotatable by 350°",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     },
     {
       "metric": "Publication",
@@ -227,7 +249,8 @@
       "basis": "Datasheet BR-17-06-ENG '# 3032 01/17', © 2017 Honeywell International Inc.; Jina published-time 2021-04-12 (host upload)",
       "source": {
         "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
-      }
+      },
+      "source_url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf"
     }
   ],
   "url": "https://fluidprocessing.it/wp-content/uploads/2021/04/Elster-TRZ2-Datasheet-EN.pdf",

@@ -6,7 +6,7 @@
   "equipment": [
     "heat-transfer-tubes-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Boiler Tubes page directly with WebFetch (text).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Boiler Tubes page directly with WebFetch (text). Primary source: https://cleaverbrooks.com/solutions/boiler-tubes",
   "specifications": [
     {
       "metric": "Standard straight tube length",
@@ -17,7 +17,8 @@
       },
       "unit": "inches",
       "low": 50,
-      "high": 510
+      "high": 510,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Rifled (XID) tube length",
@@ -28,7 +29,8 @@
       },
       "unit": "inches",
       "low": 50,
-      "high": 366
+      "high": 366,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Material",
@@ -38,7 +40,8 @@
         "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
       },
       "unit": "material",
-      "value": "Premium ERW SA178 steel produced to ASME Boiler & Pressure Vessel Code requirements"
+      "value": "Premium ERW SA178 steel produced to ASME Boiler & Pressure Vessel Code requirements",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Heat exchanger tube bending",
@@ -49,7 +52,8 @@
       },
       "unit": "inch OD",
       "low": 0.75,
-      "high": 1.5
+      "high": 1.5,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Tube replacement bending",
@@ -60,7 +64,8 @@
       },
       "unit": "inch OD",
       "low": 1.5,
-      "high": 4
+      "high": 4,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Other products",
@@ -70,7 +75,8 @@
         "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
       },
       "unit": "scope",
-      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging"
+      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Quality documentation",
@@ -80,7 +86,8 @@
         "source_id": "cleaverbrooks-com-solutions-boiler-tubes"
       },
       "unit": "quality",
-      "value": "Material traceability, MTR documentation, non-destructive testing, ASME compliance"
+      "value": "Material traceability, MTR documentation, non-destructive testing, ASME compliance",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Standard straight tube length",
@@ -90,7 +97,8 @@
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
       "low": 50,
-      "high": 510
+      "high": 510,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Rifled (XID) tube length",
@@ -100,7 +108,8 @@
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
       "low": 50,
-      "high": 366
+      "high": 366,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Wall thicknesses",
@@ -109,7 +118,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "Multiple wall thicknesses"
+      "value": "Multiple wall thicknesses",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Tube material",
@@ -118,7 +128,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "premium ERW SA178 steel"
+      "value": "premium ERW SA178 steel",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Standard",
@@ -127,7 +138,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "ASME Boiler & Pressure Vessel Code"
+      "value": "ASME Boiler & Pressure Vessel Code",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Heat exchanger bending OD",
@@ -137,7 +149,8 @@
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
       "low": 0.75,
-      "high": 1.5
+      "high": 1.5,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Heat exchanger bending radius",
@@ -147,7 +160,8 @@
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
       "low": 2,
-      "high": 15.5
+      "high": 15.5,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Tube replacement bending OD",
@@ -157,7 +171,8 @@
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
       "low": 1.5,
-      "high": 4
+      "high": 4,
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Bending techniques",
@@ -166,7 +181,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "Boost, mandrel or hot bending"
+      "value": "Boost, mandrel or hot bending",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Other tube types",
@@ -175,7 +191,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging"
+      "value": "Membrane tubes, tube panels, economizer tubes, superheater tubes, swaging",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Materials for heat exchangers",
@@ -184,7 +201,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "stainless and mild steel"
+      "value": "stainless and mild steel",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     },
     {
       "metric": "Tube types",
@@ -193,7 +211,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/solutions/boiler-tubes"
       },
-      "value": "Standard straight, rifled (XID), bent, custom"
+      "value": "Standard straight, rifled (XID), bent, custom",
+      "source_url": "https://cleaverbrooks.com/solutions/boiler-tubes"
     }
   ],
   "url": "https://cleaverbrooks.com/solutions/boiler-tubes",

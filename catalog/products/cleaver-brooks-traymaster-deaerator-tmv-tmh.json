@@ -6,7 +6,7 @@
   "equipment": [
     "feedwater-deaerator-system"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/traymaster",
   "specifications": [
     {
       "metric": "Capacity TMV",
@@ -17,7 +17,8 @@
       },
       "unit": "lb/hr",
       "low": 30000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "Capacity TMH",
@@ -28,7 +29,8 @@
       },
       "unit": "lb/hr",
       "low": 500000,
-      "high": 1000000
+      "high": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "Residual dissolved oxygen",
@@ -38,7 +40,8 @@
         "source_id": "cleaverbrooks-com-product-traymaster"
       },
       "unit": "cc/liter (7 ppb), less than",
-      "value": 0.005
+      "value": 0.005,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "Configuration",
@@ -48,7 +51,8 @@
         "source_id": "cleaverbrooks-com-product-traymaster"
       },
       "unit": "configuration",
-      "value": "Vertical or horizontal tray column; two-stage deaeration in a common vessel"
+      "value": "Vertical or horizontal tray column; two-stage deaeration in a common vessel",
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "Standard",
@@ -58,7 +62,8 @@
         "source_id": "cleaverbrooks-com-product-traymaster"
       },
       "unit": "standard",
-      "value": "Exceeds ASME recommendations for oxygen level"
+      "value": "Exceeds ASME recommendations for oxygen level",
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "capacity_TMV",
@@ -68,7 +73,8 @@
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
       "low": 30000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "capacity_TMH",
@@ -78,7 +84,8 @@
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
       "low": 500000,
-      "high": 1000000
+      "high": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "dissolved_oxygen_residual",
@@ -87,7 +94,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "high": 0.005
+      "high": 0.005,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "dissolved_oxygen_residual_ppb",
@@ -96,7 +104,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "high": 7
+      "high": 7,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "configuration",
@@ -105,7 +114,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "value": "Vertical or horizontal tray column design"
+      "value": "Vertical or horizontal tray column design",
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "deaeration_stages",
@@ -114,7 +124,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "oxygen_standard",
@@ -123,7 +134,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "value": "Exceeds ASME recommendations for oxygen level"
+      "value": "Exceeds ASME recommendations for oxygen level",
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     },
     {
       "metric": "materials",
@@ -132,7 +144,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/traymaster"
       },
-      "value": "corrosion-resistant alloys"
+      "value": "corrosion-resistant alloys",
+      "source_url": "https://cleaverbrooks.com/product/traymaster"
     }
   ],
   "url": "https://cleaverbrooks.com/product/traymaster",

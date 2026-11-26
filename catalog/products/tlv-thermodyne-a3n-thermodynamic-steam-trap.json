@@ -6,7 +6,7 @@
   "equipment": [
     "steam-traps-condensate-return"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us ThermoDyne A3N page.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us ThermoDyne A3N page. Primary source: https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne",
   "specifications": [
     {
       "metric": "Maximum operating pressure (PMO)",
@@ -16,7 +16,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "psig",
-      "value": "230"
+      "value": "230",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Minimum operating pressure",
@@ -26,7 +27,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "psig",
-      "value": "0.03"
+      "value": "0.03",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Maximum operating temperature (TMO)",
@@ -36,7 +38,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "deg F",
-      "value": "428"
+      "value": "428",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Discharge capacity",
@@ -46,7 +49,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "lb/h",
-      "value": "1660"
+      "value": "1660",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Body material",
@@ -56,7 +60,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "n/a",
-      "value": "Ductile Cast Iron (FCD450)"
+      "value": "Ductile Cast Iron (FCD450)",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Connection",
@@ -66,7 +71,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "n/a",
-      "value": "Screwed"
+      "value": "Screwed",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Maximum operating pressure PMO",
@@ -75,7 +81,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
       },
-      "value": 230
+      "value": 230,
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Minimum operating pressure",
@@ -84,7 +91,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
       },
-      "value": 0.03
+      "value": 0.03,
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Maximum operating temperature TMO",
@@ -93,7 +101,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
       },
-      "value": 428
+      "value": 428,
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Discharge capacity",
@@ -102,7 +111,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
       },
-      "value": 1660
+      "value": 1660,
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Connection",
@@ -110,7 +120,8 @@
       "basis": "'Connection: Screwed'",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Body material",
@@ -118,7 +129,8 @@
       "basis": "'Body Material: Ductile Cast Iron (FCD450)'",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Predecessor launch year",
@@ -127,7 +139,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
       },
-      "value": 1958
+      "value": 1958,
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Durability claim",
@@ -136,7 +149,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     }
   ],
   "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne",

@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Provide hydrographic/geophysical survey, positioning and navigation of installation vessels, subsea inspection and intervention with ROVs, and penetration/position monitoring during installation.",
+  "description": "Provide hydrographic/geophysical survey, positioning and navigation of installation vessels, subsea inspection and intervention with ROVs, and penetration/position monitoring during installation. Primary source: https://en.wikipedia.org/wiki/SSCV_Sleipnir",
   "specifications": [
     {
       "metric": "Sleipnir DP accuracy",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": "position held within 30 cm x 30 cm in simulated sea trials"
+      "value": "position held within 30 cm x 30 cm in simulated sea trials",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Pioneering Spirit DP",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
         "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
       },
-      "value": "DP3 via 12 azimuth thrusters"
+      "value": "DP3 via 12 azimuth thrusters",
+      "source_url": "https://en.wikipedia.org/wiki/Pioneering_Spirit"
     },
     {
       "metric": "Saipem 7000 saturation diving system",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
-      "value": "containerized 14-man system movable to any of three moon pools"
+      "value": "containerized 14-man system movable to any of three moon pools",
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "DP class on Boskalis heavy-lift vessels",
@@ -49,7 +52,8 @@
         "url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
         "source_id": "boskalis-com-offshore-vessels-heavy-lift-vessels"
       },
-      "value": "DP2 (Bokalift 1 and Bokalift 2)"
+      "value": "DP2 (Bokalift 1 and Bokalift 2)",
+      "source_url": "https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels"
     }
   ],
   "vendors": [

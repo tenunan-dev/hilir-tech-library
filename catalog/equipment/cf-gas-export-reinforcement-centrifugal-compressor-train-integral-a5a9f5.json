@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries.",
+  "description": "Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries. Primary source: https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
   "specifications": [
     {
       "metric": "Single-stage flow range",
@@ -20,7 +20,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 1500,
-      "high": 600000
+      "high": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Multistage flow range",
@@ -31,7 +32,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 400,
-      "high": 200000
+      "high": 200000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Periflow maximum discharge pressure",
@@ -41,7 +43,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Compressor design life / installed base",
@@ -51,7 +54,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Screw compressors in FLNG service",
@@ -60,7 +64,8 @@
       "source": {
         "url": "https://www.howden.com/en-gb/products/compressors",
         "source_id": "sys-howden-com-compressors"
-      }
+      },
+      "source_url": "https://www.howden.com/en-gb/products/compressors"
     },
     {
       "metric": "Single-stage model range flow",
@@ -71,7 +76,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 3000,
-      "high": 600000
+      "high": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Multistage model range flow",
@@ -82,7 +88,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 400,
-      "high": 200000
+      "high": 200000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SF model flow",
@@ -93,7 +100,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 15000,
-      "high": 600000
+      "high": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG model flow",
@@ -104,7 +112,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 5000,
-      "high": 300000
+      "high": 300000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "ST model flow",
@@ -115,7 +124,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 1500,
-      "high": 150000
+      "high": 150000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SL model flow",
@@ -126,7 +136,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 15000,
-      "high": 450000
+      "high": 450000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG Twin model flow",
@@ -137,7 +148,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 3000,
-      "high": 200000
+      "high": 200000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG Back-to-Back model flow",
@@ -148,7 +160,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 3000,
-      "high": 75000
+      "high": 75000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RS model flow",
@@ -159,7 +172,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 400,
-      "high": 65000
+      "high": 65000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RV model flow",
@@ -170,7 +184,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 400,
-      "high": 85000
+      "high": 85000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "CKD multistage discharge pressure",
@@ -180,7 +195,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFO/SFP/SFN pressure",
@@ -190,7 +206,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Applications",
@@ -198,7 +215,8 @@
       "basis": "'engineered for a wide variety of applications, from petroleum refineries to FPSO offshore platforms'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Liquid seal design",
@@ -206,7 +224,8 @@
       "basis": "'We use deep liquid seals that provide the necessary hydrostatic head' to 'prevent air backflow and ensure stable operation of the compressor and flare system'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Compression technologies",
@@ -214,7 +233,8 @@
       "basis": "'Ejectors ... particularly useful in applications requiring a simple, maintenance-free solution'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Emissions reduced",
@@ -222,7 +242,8 @@
       "basis": "'designed to significantly reduce emissions, including NOx, CO, CO2, and SOx'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Flare gas sweetening",
@@ -230,7 +251,8 @@
       "basis": "'Flare gas often contains impurities like H2S that need to be removed'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Maximum flow (Howden range)",
@@ -239,7 +261,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": 600000
+      "value": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Installed base",
@@ -248,7 +271,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Single stage flow range",
@@ -258,7 +282,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 3000,
-      "high": 600000
+      "high": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "CKD maximum flow / discharge pressure",
@@ -266,7 +291,8 @@
       "basis": "\"CKD compressors ... flow requirements up to 1700,000 m3/h and discharge pressures of up to 20 MPa\" [sic – printed as 1700,000]",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFO/SFP/SFN pressure and flow",
@@ -274,7 +300,8 @@
       "basis": "\"SFO, SFP and SFN series ... pressures up to 50 bar and flow rates up to 200,000 m3/hr\"",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SF model",
@@ -284,7 +311,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 15000,
-      "high": 600000
+      "high": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG model",
@@ -294,7 +322,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 5000,
-      "high": 300000
+      "high": 300000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "ST model",
@@ -304,7 +333,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 1500,
-      "high": 150000
+      "high": 150000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SL model",
@@ -314,7 +344,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 15000,
-      "high": 450000
+      "high": 450000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RS model",
@@ -324,7 +355,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 400,
-      "high": 65000
+      "high": 65000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RV model",
@@ -334,7 +366,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 400,
-      "high": 170000
+      "high": 170000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG Twin / Back-to-Back",
@@ -344,7 +377,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 3000,
-      "high": 200000
+      "high": 200000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Overall flow range of turbo compressors",
@@ -353,7 +387,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": 600000
+      "value": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Single-stage range (KK&K)",
@@ -363,7 +398,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 3000,
-      "high": 600000
+      "high": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Multistage range (KK&K / CKD)",
@@ -373,7 +409,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 400,
-      "high": 200000
+      "high": 200000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "CKD discharge pressure",
@@ -382,7 +419,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SF model flow / pressure ratio / impeller",
@@ -390,7 +428,8 @@
       "basis": "Howden table: SF '15,000-600,000 m3/h; up to 3.5; impeller dia up to 2240 mm; electric or turbine'",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG model flow / pressure ratio / impeller",
@@ -398,7 +437,8 @@
       "basis": "Howden table: SFG '5,000-300,000 m3/h; up to 3.5; impeller dia up to 1120 mm'",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "ST model (integrated steam turbine)",
@@ -406,7 +446,8 @@
       "basis": "Howden table: ST '1,500-150,000 m3/h; up to 3.5; impeller dia up to 900 mm; steam turbine (integrated)'",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RS multistage model",
@@ -414,7 +455,8 @@
       "basis": "Howden table: RS '400-65,000 m3/h; up to 10.0; impeller dia up to 700 mm'",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RV multistage model",
@@ -422,7 +464,8 @@
       "basis": "Howden table: RV '400-85,000 m3/h; 400-170,000 (back-to-back)'",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG Back-to-Back / Twin models",
@@ -430,7 +473,8 @@
       "basis": "Howden table: SFG Back-to-Back '3,000-75,000 m3/h; up to 6.0; impeller up to 560 mm'; SFG Twin '3,000-200,000 m3/h; up to 6.0; impeller up to 900 mm'",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "rated_power_1_throw_JGN",
@@ -439,7 +483,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 126
+      "value": 126,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "rated_power_1_throw_JGQ",
@@ -448,7 +493,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 140
+      "value": 140,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "rated_power_2_throw_JGN",
@@ -457,7 +503,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 252
+      "value": 252,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "rated_power_2_throw_JGQ",
@@ -466,7 +513,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 280
+      "value": 280,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "stroke_JGN",
@@ -475,7 +523,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 3.5
+      "value": 3.5,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "stroke_JGQ",
@@ -484,7 +533,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "max_rpm_JGN",
@@ -493,7 +543,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "max_rpm_JGQ",
@@ -502,7 +553,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "piston_speed_JGN",
@@ -511,7 +563,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 875
+      "value": 875,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "piston_speed_JGQ",
@@ -520,7 +573,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 900
+      "value": 900,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "rod_diameter",
@@ -529,7 +583,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1.125
+      "value": 1.125,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "total_rod_load_1_throw",
@@ -539,7 +594,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
       "low": 18000,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "total_rod_load_2_throw",
@@ -549,7 +605,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
       "low": 18000,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "tension_rod_load_1_throw",
@@ -559,7 +616,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
       "low": 9000,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "compression_rod_load_1_throw",
@@ -569,7 +627,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
       "low": 10000,
-      "high": 11000
+      "high": 11000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "average_weight_1_throw",
@@ -578,7 +637,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1400
+      "value": 1400,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "average_weight_2_throw",
@@ -587,7 +647,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 2200
+      "value": 2200,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "max_length_1_throw",
@@ -596,7 +657,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 37
+      "value": 37,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "max_length_2_throw",
@@ -605,7 +667,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 34
+      "value": 34,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "nominal_width_1_throw",
@@ -614,7 +677,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 62
+      "value": 62,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "nominal_width_2_throw",
@@ -623,7 +687,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 83
+      "value": 83,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "crankshaft_centerline",
@@ -632,7 +697,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 9.25
+      "value": 9.25,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "frame_horsepower_range",
@@ -642,7 +708,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
       "low": 250,
-      "high": 280
+      "high": 280,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "crankcase_material",
@@ -651,7 +718,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing"
+      "value": "Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "crosshead_material",
@@ -660,7 +728,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Ductile Iron Crosshead: Alloy steel crosshead pin"
+      "value": "Ductile Iron Crosshead: Alloy steel crosshead pin",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "connecting_rod_material",
@@ -669,7 +738,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts"
+      "value": "Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "applications",
@@ -678,7 +748,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "field-gas applications; gas-lift and CNG vehicle-fueling; three-stage configurations rental fleets"
+      "value": "field-gas applications; gas-lift and CNG vehicle-fueling; three-stage configurations rental fleets",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN 1-throw - rated power",
@@ -687,7 +758,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 126
+      "value": 126,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGQ 1-throw - rated power",
@@ -696,7 +768,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 140
+      "value": 140,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN 1-throw - stroke",
@@ -705,7 +778,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 3.5
+      "value": 3.5,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGQ 1-throw - stroke",
@@ -714,7 +788,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 3.0
+      "value": 3.0,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN 1-throw - max RPM",
@@ -723,7 +798,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGQ 1-throw - max RPM",
@@ -732,7 +808,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN 1-throw - piston speed",
@@ -741,7 +818,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 875
+      "value": 875,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGQ 1-throw - piston speed",
@@ -750,7 +828,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 900
+      "value": 900,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ 1-throw - rod diameter",
@@ -759,7 +838,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1.125
+      "value": 1.125,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN 1-throw - total rod load",
@@ -768,7 +848,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 18000
+      "value": 18000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGQ 1-throw - total rod load",
@@ -777,7 +858,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN 1-throw - tension load",
@@ -786,7 +868,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 9000
+      "value": 9000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGQ 1-throw - tension load",
@@ -795,7 +878,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN 1-throw - compression load",
@@ -804,7 +888,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGQ 1-throw - compression load",
@@ -813,7 +898,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 11000
+      "value": 11000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ 1-throw - average weight",
@@ -822,7 +908,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1400
+      "value": 1400,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ 1-throw - max length",
@@ -831,7 +918,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 37
+      "value": 37,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ 1-throw - nominal width",
@@ -840,7 +928,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 62
+      "value": 62,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ - crankshaft centerline",
@@ -849,7 +938,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 9.25
+      "value": 9.25,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN 2-throw - rated power",
@@ -858,7 +948,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 252
+      "value": 252,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGQ 2-throw - rated power",
@@ -867,7 +958,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 280
+      "value": 280,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ 2-throw - average weight",
@@ -876,7 +968,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 2200
+      "value": 2200,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ 2-throw - max length",
@@ -885,7 +978,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 34
+      "value": 34,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ 2-throw - nominal width",
@@ -894,7 +988,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 83
+      "value": 83,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ - frame horsepower range",
@@ -903,7 +998,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "250-280 BHP"
+      "value": "250-280 BHP",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ - crankcase material",
@@ -912,7 +1008,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Gray iron crankcase; forged steel crankshaft; gray iron crosshead guide; tri-metal main bearing"
+      "value": "Gray iron crankcase; forged steel crankshaft; gray iron crosshead guide; tri-metal main bearing",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "JGN/JGQ - crosshead and connecting rod material",
@@ -921,7 +1018,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Ductile iron crosshead; alloy steel crosshead pin; forged steel connecting rod; bronze crosshead pin bushing; tri-metal connecting rod bearing; grade 8 stress bolts"
+      "value": "Ductile iron crosshead; alloy steel crosshead pin; forged steel connecting rod; bronze crosshead pin bushing; tri-metal connecting rod bearing; grade 8 stress bolts",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     }
   ],
   "vendors": [

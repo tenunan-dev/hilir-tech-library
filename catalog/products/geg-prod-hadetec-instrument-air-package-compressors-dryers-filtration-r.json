@@ -6,7 +6,7 @@
   "equipment": [
     "geg-instrument-air-system"
   ],
-  "description": "skid-mounted / containerised instrument air package",
+  "description": "skid-mounted / containerised instrument air package Primary source: https://hadetec.com/products/air-compressor-packages/instrument-air-package",
   "specifications": [
     {
       "metric": "oil-free compressor discharge pressure",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "oil-free compressor flow rate FAD",
@@ -29,7 +30,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "oil-free compressor power",
@@ -41,7 +43,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "oil-injected compressor discharge pressure",
@@ -53,7 +56,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "oil-injected compressor flow rate FAD",
@@ -64,7 +68,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "oil-injected compressor power",
@@ -76,7 +81,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "dryer dew point (lowest stated)",
@@ -87,7 +93,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "air quality",
@@ -97,7 +104,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "pressure vessel fabrication",
@@ -107,7 +115,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "configurations",
@@ -117,7 +126,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",
         "source_id": "geg-hadetec-com-instrument-air-package-bc545fe"
-      }
+      },
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "discharge_pressure_range_option_1",
@@ -127,7 +137,8 @@
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
       "low": 8,
-      "high": 10
+      "high": 10,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "discharge_pressure_range_option_2",
@@ -137,7 +148,8 @@
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
       "low": 8,
-      "high": 16
+      "high": 16,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "flow_rate_option_1",
@@ -146,7 +158,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
-      "high": 85
+      "high": 85,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "flow_rate_option_2",
@@ -155,7 +168,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
-      "high": 80
+      "high": 80,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "power_option_1",
@@ -165,7 +179,8 @@
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
       "low": 37,
-      "high": 600
+      "high": 600,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "power_option_2",
@@ -175,7 +190,8 @@
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
       "low": 2.2,
-      "high": 500
+      "high": 500,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "dryer_dew_point",
@@ -184,7 +200,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
-      "high": -90
+      "high": -90,
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     },
     {
       "metric": "air_quality_class",
@@ -193,7 +210,8 @@
       "source": {
         "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
       },
-      "value": "ISO 8573-1 Class 0"
+      "value": "ISO 8573-1 Class 0",
+      "source_url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package"
     }
   ],
   "url": "https://hadetec.com/products/air-compressor-packages/instrument-air-package",

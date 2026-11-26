@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-fuel-gas-system"
   ],
-  "description": "Vendor product line read 2026-11-24. Applications listed include natural gas compression, pipeline booster and gas turbine supply. Read in full this session.",
+  "description": "Vendor product line read 2026-11-24. Applications listed include natural gas compression, pipeline booster and gas turbine supply. Read in full this session. Primary source: https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
   "specifications": [
     {
       "metric": "Volume flow",
@@ -17,7 +17,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "low": 50,
-      "high": 38000
+      "high": 38000,
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Differential pressure",
@@ -28,7 +29,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "low": 150,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Conveying",
@@ -38,7 +40,8 @@
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
-      "value": "oil-free; medium process gases; magnetic-coupling sealing; two-lobe gas-tight rotors"
+      "value": "oil-free; medium process gases; magnetic-coupling sealing; two-lobe gas-tight rotors",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Volume flow",
@@ -48,7 +51,8 @@
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
       "low": 50,
-      "high": 38000
+      "high": 38000,
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Differential pressure (delta p)",
@@ -58,7 +62,8 @@
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
       "low": 150,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Number of stages",
@@ -67,7 +72,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "1 or 2 stage design"
+      "value": "1 or 2 stage design",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Medium",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "Process Gases"
+      "value": "Process Gases",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Lubrication",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "separate pressurised oil lubrication, oil-free gas transport"
+      "value": "separate pressurised oil lubrication, oil-free gas transport",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Drive",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "direct-drive"
+      "value": "direct-drive",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Sealing system",
@@ -103,7 +112,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "low-maintenance magnetic coupling"
+      "value": "low-maintenance magnetic coupling",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Rotor design",
@@ -112,7 +122,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "robust two-lobe rotor, gas-tight sealed"
+      "value": "robust two-lobe rotor, gas-tight sealed",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Materials",
@@ -121,7 +132,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "Variety of materials for compatibility with almost all gases"
+      "value": "Variety of materials for compatibility with almost all gases",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Applications",
@@ -130,7 +142,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "Compression of H2 and CH mixtures; acetylene; ethylene; lime kiln gas; rich gas; synthesis raw gas; butadiene; vinyl chloride; hydrogen sulphide; hydrogen; hydrocracking; hydrosulphurisation; fraction"
+      "value": "Compression of H2 and CH mixtures; acetylene; ethylene; lime kiln gas; rich gas; synthesis raw gas; butadiene; vinyl chloride; hydrogen sulphide; hydrogen; hydrocracking; hydrosulphurisation; fraction",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     }
   ],
   "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications",

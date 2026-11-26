@@ -11,7 +11,7 @@
   "sector_codes": [
     "PCH"
   ],
-  "description": "High-pressure column that strips unconverted carbamate from the urea solution using feed CO2 as the stripping agent, decomposing carbamate and returning ammonia and CO2 to the condenser. CO2 stripping cut the steam demand of urea plants relative to conventional total-recycle designs.",
+  "description": "High-pressure column that strips unconverted carbamate from the urea solution using feed CO2 as the stripping agent, decomposing carbamate and returning ammonia and CO2 to the condenser. CO2 stripping cut the steam demand of urea plants relative to conventional total-recycle designs. Primary source: https://patents.google.com/patent/WO2017097981A1/en",
   "applications": [
     "urea synthesis, high-pressure loop carbamate recovery"
   ],
@@ -24,7 +24,8 @@
       "source": {
         "url": "https://patents.google.com/patent/WO2017097981A1/en",
         "note": "Patent WO2017097981A1, read 2026-11-17"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/WO2017097981A1/en"
     },
     {
       "metric": "stripper effluent temperature",
@@ -34,7 +35,8 @@
       "source": {
         "url": "https://patents.google.com/patent/WO2017097981A1/en",
         "note": "Patent WO2017097981A1, read 2026-11-17"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/WO2017097981A1/en"
     },
     {
       "metric": "residual carbamate in stripper outlet solution",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://patents.google.com/patent/WO2017097981A1/en",
         "note": "Patent WO2017097981A1, read 2026-11-17"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/WO2017097981A1/en"
     },
     {
       "metric": "stripping steam consumption",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US10919846B2/en",
         "note": "Patent US10919846B2, read 2026-11-17"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US10919846B2/en"
     },
     {
       "metric": "stripping process operating pressure",
@@ -66,7 +70,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": "at or near full reactor pressure"
+      "value": "at or near full reactor pressure",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "hydrolysis residence time",
@@ -76,7 +81,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": "short (designed)"
+      "value": "short (designed)",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "HYPER-U benefit",
@@ -86,7 +92,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": "medium-high pressure (MHP) carbamate decomposition step reduces steam and cooling water demand"
+      "value": "medium-high pressure (MHP) carbamate decomposition step reduces steam and cooling water demand",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "CO2 conversion in reactor",
@@ -96,7 +103,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": 62
+      "value": 62,
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "sections",
@@ -106,7 +114,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": "HP synthesis + LP purification/carbamate recovery; optional MP section for high capacity"
+      "value": "HP synthesis + LP purification/carbamate recovery; optional MP section for high capacity",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "CO2_conversion_in_reactor",
@@ -115,7 +124,8 @@
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
       },
-      "high": 62
+      "high": 62,
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "stripping_efficiency",
@@ -124,7 +134,8 @@
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
       },
-      "value": "High stripping efficiency"
+      "value": "High stripping efficiency",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "process_configuration",
@@ -133,7 +144,8 @@
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
       },
-      "value": "High-pressure synthesis section followed by a low-pressure purification and carbamate recovery section; optionally for high capacity a medium-pressure section is installed"
+      "value": "High-pressure synthesis section followed by a low-pressure purification and carbamate recovery section; optionally for high capacity a medium-pressure section is installed",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     }
   ],
   "vendors": [

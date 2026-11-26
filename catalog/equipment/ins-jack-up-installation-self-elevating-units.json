@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Tow to site with legs up, jack legs down to seabed, preload with ballast to ensure legs do not penetrate further in service, then jack hull above water to a predetermined air gap so waves act on slender legs rather than hull.",
+  "description": "Tow to site with legs up, jack legs down to seabed, preload with ballast to ensure legs do not penetrate further in service, then jack hull above water to a predetermined air gap so waves act on slender legs rather than hull. Primary source: https://en.wikipedia.org/wiki/Jackup_rig",
   "specifications": [
     {
       "metric": "Typical water depth limit",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Jackup_rig",
         "source_id": "en-wikipedia-org-wiki-jackup-rig"
       },
-      "value": "generally less than 120 m; premium/ultra-premium 150-190 m (490-620 ft)"
+      "value": "generally less than 120 m; premium/ultra-premium 150-190 m (490-620 ft)",
+      "source_url": "https://en.wikipedia.org/wiki/Jackup_rig"
     },
     {
       "metric": "Tallest jack-up legs",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Jackup_rig",
         "source_id": "en-wikipedia-org-wiki-jackup-rig"
       },
-      "value": "Noble Lloyd Noble, legs 214 m, completed 2016"
+      "value": "Noble Lloyd Noble, legs 214 m, completed 2016",
+      "source_url": "https://en.wikipedia.org/wiki/Jackup_rig"
     },
     {
       "metric": "Global fleet size",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Jackup_rig",
         "source_id": "en-wikipedia-org-wiki-jackup-rig"
       },
-      "value": "about 540 jackup drilling rigs at end of 2013"
+      "value": "about 540 jackup drilling rigs at end of 2013",
+      "source_url": "https://en.wikipedia.org/wiki/Jackup_rig"
     },
     {
       "metric": "Jacking mechanism",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Jackup_rig",
         "source_id": "en-wikipedia-org-wiki-jackup-rig"
       },
-      "value": "rack and pinion; pinions driven by hydraulic or electric motors, rack affixed to legs"
+      "value": "rack and pinion; pinions driven by hydraulic or electric motors, rack affixed to legs",
+      "source_url": "https://en.wikipedia.org/wiki/Jackup_rig"
     },
     {
       "metric": "Yme MOPU removal by Pioneering Spirit",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Pioneering_Spirit",
         "source_id": "en-wikipedia-org-wiki-pioneering-spirit"
       },
-      "value": "13,500 t jack-up type platform on three 3.5 m diameter steel legs"
+      "value": "13,500 t jack-up type platform on three 3.5 m diameter steel legs",
+      "source_url": "https://en.wikipedia.org/wiki/Pioneering_Spirit"
     }
   ],
   "vendors": [

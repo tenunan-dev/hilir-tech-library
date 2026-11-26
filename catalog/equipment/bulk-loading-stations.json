@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Truck/rail loaders, shiploaders and bulk loading stations | Jetty / loading and rail loading",
+  "description": "Truck/rail loaders, shiploaders and bulk loading stations | Jetty / loading and rail loading Primary source: https://en.wikipedia.org/wiki/Bulk_material_handling",
   "specifications": [
     {
       "metric": "equipment class",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Bulk_material_handling",
         "source_id": "en-wikipedia-org-wiki-bulk-material-handling"
       },
-      "value": "shiploaders, truck dumpers, railcar dumpers/wagon tipplers, mobile hopper loaders/unloaders listed as bulk handling systems"
+      "value": "shiploaders, truck dumpers, railcar dumpers/wagon tipplers, mobile hopper loaders/unloaders listed as bulk handling systems",
+      "source_url": "https://en.wikipedia.org/wiki/Bulk_material_handling"
     },
     {
       "metric": "silo discharge to transport",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Silo",
         "source_id": "en-wikipedia-org-wiki-silo"
       },
-      "value": "silos can be unloaded into rail cars, trucks, or conveyors"
+      "value": "silos can be unloaded into rail cars, trucks, or conveyors",
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     },
     {
       "metric": "Export terminal",
@@ -39,7 +41,8 @@
         "url": "https://enipedia.org/wiki/Petronas_Fertiliser_Kedah",
         "source_id": "enipedia-org-wiki-petronas-fertiliser-kedah"
       },
-      "value": "deep wharf at Butterworth, Penang"
+      "value": "deep wharf at Butterworth, Penang",
+      "source_url": "https://enipedia.org/wiki/Petronas_Fertiliser_Kedah"
     },
     {
       "metric": "Marine export facility (planned)",
@@ -49,7 +52,8 @@
         "url": "https://research.csiro.au/hyresource/murchison-green-hydrogen/",
         "source_id": "research-csiro-au-murchison-green-hydrogen"
       },
-      "value": "CALM buoy single-point mooring about 4.6 km offshore"
+      "value": "CALM buoy single-point mooring about 4.6 km offshore",
+      "source_url": "https://research.csiro.au/hyresource/murchison-green-hydrogen/"
     }
   ],
   "vendors": [

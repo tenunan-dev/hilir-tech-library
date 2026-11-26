@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Inverted open-bottom tube sealed at top; penetrate by self-weight then by pumping water out to create negative pressure (suction); removable by pumping water in to create overpressure. Used as anchors for floating platforms and as foundations for fixed structures and wind turbines.",
+  "description": "Inverted open-bottom tube sealed at top; penetrate by self-weight then by pumping water out to create negative pressure (suction); removable by pumping water in to create overpressure. Used as anchors for floating platforms and as foundations for fixed structures and wind turbines. Primary source: https://en.wikipedia.org/wiki/Suction_caisson",
   "specifications": [
     {
       "metric": "Installation mechanism",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": "push or pump water out of skirt to create negative pressure; removal by overpressure"
+      "value": "push or pump water out of skirt to create negative pressure; removal by overpressure",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Installed population / depth (as of 2002 statistics)",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": "485 caissons at more than 50 localities, depths to about 2,000 m"
+      "value": "485 caissons at more than 50 localities, depths to about 2,000 m",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Diana platform suction anchors",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": "30 m high, 6.5 m diameter, installed at about 1,500 m water depth on soft clay (1999)"
+      "value": "30 m high, 6.5 m diameter, installed at about 1,500 m water depth on soft clay (1999)",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Gorm field first suction caissons",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": "12 caissons for a loading buoy at 40 m depth, Shell, 1981"
+      "value": "12 caissons for a loading buoy at 40 m depth, Shell, 1981",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Snorre A TLP suction caissons",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": "12 m long vs up to 90 m long piles that would otherwise be required"
+      "value": "12 m long vs up to 90 m long piles that would otherwise be required",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Gravity platform skirt lengths",
@@ -69,7 +74,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": "Gullfaks C 22 m skirts; Troll A 30 m skirts at 330 m water depth"
+      "value": "Gullfaks C 22 m skirts; Troll A 30 m skirts at 330 m water depth",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     },
     {
       "metric": "Aasta Hansteen suction anchors",
@@ -79,7 +85,8 @@
         "url": "https://en.wikipedia.org/wiki/Suction_caisson",
         "source_id": "en-wikipedia-org-wiki-suction-caisson"
       },
-      "value": "17 suction anchors for the Aasta Hansteen platform, Norwegian Sea"
+      "value": "17 suction anchors for the Aasta Hansteen platform, Norwegian Sea",
+      "source_url": "https://en.wikipedia.org/wiki/Suction_caisson"
     }
   ],
   "vendors": [

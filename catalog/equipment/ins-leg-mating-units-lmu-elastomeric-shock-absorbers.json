@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Absorb vertical and horizontal compression as topside deck-leg cans land on jacket legs during float-over; manage static and dynamic loads and horizontal movement from sea state; allow load release after set-down.",
+  "description": "Absorb vertical and horizontal compression as topside deck-leg cans land on jacket legs during float-over; manage static and dynamic loads and horizontal movement from sea state; allow load release after set-down. Primary source: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
   "specifications": [
     {
       "metric": "Full-scale compression load test up to",
@@ -19,7 +19,8 @@
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
         "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
       },
-      "value": 18300
+      "value": 18300,
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "LMU construction",
@@ -29,7 +30,8 @@
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
         "source_id": "trelleborg-com-floatover-leg-mating-units-lmu"
       },
-      "value": "robust steel structure with high-performance elastomeric pads"
+      "value": "robust steel structure with high-performance elastomeric pads",
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)"
     },
     {
       "metric": "Load-relief mechanism",
@@ -39,7 +41,8 @@
         "url": "https://hitechelastomers.com/products/leg-mating-unit/",
         "source_id": "hitechelastomers-com-leg-mating-unit"
       },
-      "value": "sand released from valve lowers plunger assembly, unloading rubber elements"
+      "value": "sand released from valve lowers plunger assembly, unloading rubber elements",
+      "source_url": "https://hitechelastomers.com/products/leg-mating-unit/"
     },
     {
       "metric": "Alternative LMU build",
@@ -49,7 +52,8 @@
         "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
         "source_id": "orca-offshore-com-leg-mating-unit"
       },
-      "value": "standard rubber elements + standard steel pipe + flush steel plates"
+      "value": "standard rubber elements + standard steel pipe + flush steel plates",
+      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
     }
   ],
   "vendors": [

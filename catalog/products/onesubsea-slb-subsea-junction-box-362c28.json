@@ -6,7 +6,7 @@
   "equipment": [
     "fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste"
   ],
-  "description": "Printed figures are callouts on the product page.",
+  "description": "Printed figures are callouts on the product page. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
   "specifications": [
     {
       "metric": "Power rating per connection",
@@ -16,7 +16,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
         "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
       },
-      "value": 66
+      "value": 66,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Maintenance-free life",
@@ -26,7 +27,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
         "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Water depth",
@@ -36,7 +38,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
         "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
       },
-      "high": 1500
+      "high": 1500,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Mating",
@@ -46,7 +49,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
         "source_id": "cat-onesubsea-slb-com-subsea-junction-box"
       },
-      "value": "Wet-mate-only cable connections; seabed-resident, reconnection without retrieval"
+      "value": "Wet-mate-only cable connections; seabed-resident, reconnection without retrieval",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Power rating per connection",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
       },
-      "value": 66
+      "value": 66,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Maintenance-free life",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Water depth",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Connection type",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
       },
-      "value": "wet-mate-only cable connections on the seafloor"
+      "value": "wet-mate-only cable connections on the seafloor",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Configuration",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
       },
-      "value": "Modular and self-contained; scalable in length to accommodate desired number of connection points"
+      "value": "Modular and self-contained; scalable in length to accommodate desired number of connection points",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Reconnection",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
       },
-      "value": "Seabed-resident wet-mate technology for reconnections without retrieval of the junction box"
+      "value": "Seabed-resident wet-mate technology for reconnections without retrieval of the junction box",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Topology benefit",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
       },
-      "value": "enables radial connections of turbines; solves daisy-chain topology challenges"
+      "value": "enables radial connections of turbines; solves daisy-chain topology challenges",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     },
     {
       "metric": "Applications",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
       },
-      "value": "Streamline cabling for offshore wind farm; connect microgrids offshore; join cables from multiple sources"
+      "value": "Streamline cabling for offshore wind farm; connect microgrids offshore; join cables from multiple sources",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
     }
   ],
   "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",

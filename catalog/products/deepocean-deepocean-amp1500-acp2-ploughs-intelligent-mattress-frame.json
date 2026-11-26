@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24. fetched",
+  "description": "Vendor product line read 2026-11-24. fetched Primary source: https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
   "specifications": [
     {
       "metric": "AMP1500 product diameter",
@@ -16,7 +16,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "ACP2 product diameter",
@@ -26,7 +27,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "T1500+ water depth rating",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "T1500+ power",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "T1500+ power (kW)",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 1125
+      "value": 1125,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "T1500+ current performance",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 3.5
+      "value": 3.5,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "T1500+ maximum burial",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "UT-1 total power",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 2.1
+      "value": 2.1,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "AMP1500 product handling diameter",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "ACP2 product diameter",
@@ -98,7 +107,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "ACP2 minimum bend radius",
@@ -107,7 +117,8 @@
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "IMF function",
@@ -115,7 +126,8 @@
       "basis": "'cost-effective solution for mattress installation without the need for ROV or diver intervention'",
       "source": {
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
-      }
+      },
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     }
   ],
   "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",

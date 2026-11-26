@@ -11,7 +11,7 @@
   "sector_codes": [
     "PCH"
   ],
-  "description": "High-pressure exchanger where ammonia and carbon dioxide from the stripper recombine into carbamate, releasing heat that is recovered as steam. Pool-condenser designs carry the reaction further in the condenser itself, which reduces the duty left for the reactor and the recycle section.",
+  "description": "High-pressure exchanger where ammonia and carbon dioxide from the stripper recombine into carbamate, releasing heat that is recovered as steam. Pool-condenser designs carry the reaction further in the condenser itself, which reduces the duty left for the reactor and the recycle section. Primary source: https://www.saipem.com/sites/default/files/2019-03/spm_UREAri_L02_14_01_10.pdf",
   "applications": [
     "urea synthesis, high-pressure carbamate formation and heat recovery"
   ],
@@ -24,7 +24,8 @@
       "source": {
         "url": "https://www.saipem.com/sites/default/files/2019-03/spm_UREAri_L02_14_01_10.pdf",
         "note": "Saipem urea technology brochure, read 2026-11-17"
-      }
+      },
+      "source_url": "https://www.saipem.com/sites/default/files/2019-03/spm_UREAri_L02_14_01_10.pdf"
     },
     {
       "metric": "condenser outlet temperature",
@@ -34,7 +35,8 @@
       "source": {
         "url": "https://www.saipem.com/sites/default/files/2019-03/spm_UREAri_L02_14_01_10.pdf",
         "note": "Saipem urea technology brochure, read 2026-11-17"
-      }
+      },
+      "source_url": "https://www.saipem.com/sites/default/files/2019-03/spm_UREAri_L02_14_01_10.pdf"
     },
     {
       "metric": "approach to equilibrium in a pool condenser",
@@ -44,7 +46,8 @@
       "source": {
         "url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2001_tech_mennen.pdf",
         "note": "IFA technical conference paper (Mennen), 2001, read 2026-11-17"
-      }
+      },
+      "source_url": "https://www.fertilizer.org/wp-content/uploads/2023/01/2001_tech_mennen.pdf"
     },
     {
       "metric": "condenser pressure regime (stripping process)",
@@ -54,7 +57,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": "full system pressure"
+      "value": "full system pressure",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "condenser type (conventional recycle)",
@@ -64,7 +68,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": "falling-film"
+      "value": "falling-film",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "outside diameter stocked",
@@ -74,7 +79,8 @@
         "url": "https://ureaknowhow.com/",
         "source_id": "ureaknowhow-com-ureaknowhow-com"
       },
-      "value": "19.05 mm and 25.4 mm"
+      "value": "19.05 mm and 25.4 mm",
+      "source_url": "https://ureaknowhow.com/"
     },
     {
       "metric": "Sanicro 35 heat exchanger tube - stocked outside diameters",
@@ -83,7 +89,8 @@
       "source": {
         "url": "https://ureaknowhow.com/"
       },
-      "value": "19.05 mm and 25.4 mm OD (Sanicro(R) 35 heat exchanger tubes now stocked)"
+      "value": "19.05 mm and 25.4 mm OD (Sanicro(R) 35 heat exchanger tubes now stocked)",
+      "source_url": "https://ureaknowhow.com/"
     }
   ],
   "vendors": [

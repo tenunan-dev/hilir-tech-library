@@ -6,7 +6,7 @@
   "equipment": [
     "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati"
   ],
-  "description": "Vendor product line read 2026-11-24. Stord yard: 318,000 m2 facility with 'Storen' gantry crane, 1,050 t capacity, 115 m tall and 153 m wide.",
+  "description": "Vendor product line read 2026-11-24. Stord yard: 318,000 m2 facility with 'Storen' gantry crane, 1,050 t capacity, 115 m tall and 153 m wide. Primary source: https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
   "specifications": [
     {
       "metric": "design weight range",
@@ -17,7 +17,8 @@
         "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
       },
       "low": 2000,
-      "high": 40000
+      "high": 40000,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "substructure types served",
@@ -27,7 +28,8 @@
         "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
         "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
       },
-      "value": "jacket, GBS, semi-submersible, FPSO, drilling rig, TLP"
+      "value": "jacket, GBS, semi-submersible, FPSO, drilling rig, TLP",
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "Facility design topside weight range",
@@ -37,7 +39,8 @@
         "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
       },
       "low": 2000,
-      "high": 40000
+      "high": 40000,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "Experience managing large complex projects",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "Company employees",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
       },
-      "value": 11700
+      "value": 11700,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     },
     {
       "metric": "Company locations",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
       },
-      "value": 38
+      "value": 38,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     }
   ],
   "url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",

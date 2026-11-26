@@ -6,7 +6,7 @@
   "equipment": [
     "fd-fan-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched SBR-30 product page directly. No dedicated forced-draft fan OEM product page with fan curves or static pressure was found; this is fan content embedded in a burner page, not a fan product line.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched SBR-30 product page directly. No dedicated forced-draft fan OEM product page with fan curves or static pressure was found; this is fan content embedded in a burner page, not a fan product line. Primary source: https://cleaverbrooks.com/product/sbr30-burner",
   "specifications": [
     {
       "metric": "Air fan design",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-product-sbr30-burner"
       },
       "unit": "design feature",
-      "value": "Advanced combustion air fan wheel using less horsepower and less noise; silent operation"
+      "value": "Advanced combustion air fan wheel using less horsepower and less noise; silent operation",
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Air housing",
@@ -26,7 +27,8 @@
         "source_id": "cleaverbrooks-com-product-sbr30-burner"
       },
       "unit": "design feature",
-      "value": "Easy access air housing for internal components"
+      "value": "Easy access air housing for internal components",
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "NOx emissions",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Excess oxygen",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Turndown ratio",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Natural gas input",
@@ -63,7 +68,8 @@
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
       },
       "low": 16.8,
-      "high": 54.6
+      "high": 54.6,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Boiler horsepower range",
@@ -73,7 +79,8 @@
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
       },
       "low": 400,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Furnace pressure",
@@ -83,7 +90,8 @@
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
       },
       "low": 3.6,
-      "high": 5.6
+      "high": 5.6,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Minimum gas pressure",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Oil input",
@@ -102,7 +111,8 @@
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
       },
       "low": 120,
-      "high": 390
+      "high": 390,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Mode of operation",
@@ -110,7 +120,8 @@
       "basis": "Attribute table: \"Mode of Operation Full Modulation\"; \"Parallel Positioning Standard\"",
       "source": {
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     }
   ],
   "url": "https://cleaverbrooks.com/product/sbr30-burner",

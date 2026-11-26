@@ -8,7 +8,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Remove ionic and particulate contaminants (sodium, chloride, sulfate, silica, iron/copper oxides) from returned condensate and makeup before it reaches the boiler/steam generator, protecting boilers, turbines and HRSG evaporators from scaling, corrosion, hydrogen damage and turbine deposition (Graver; Chemical Engineering/ChemTreat).",
+  "description": "Remove ionic and particulate contaminants (sodium, chloride, sulfate, silica, iron/copper oxides) from returned condensate and makeup before it reaches the boiler/steam generator, protecting boilers, turbines and HRSG evaporators from scaling, corrosion, hydrogen damage and turbine deposition (Graver; Chemical Engineering/ChemTreat). Primary source: https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
   "specifications": [
     {
       "metric": "makeup treatment effluent specific conductivity",
@@ -18,7 +18,8 @@
         "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
         "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
       },
-      "value": "<=0.1"
+      "value": "<=0.1",
+      "source_url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/"
     },
     {
       "metric": "condensate pump discharge cation conductivity (CACE)",
@@ -28,7 +29,8 @@
         "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
         "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
       },
-      "value": "<=0.2"
+      "value": "<=0.2",
+      "source_url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/"
     },
     {
       "metric": "feedwater cation conductivity (AVT(O))",
@@ -38,7 +40,8 @@
         "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
         "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
       },
-      "value": "<=0.2"
+      "value": "<=0.2",
+      "source_url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/"
     },
     {
       "metric": "steam purity sodium / silica / CACE",
@@ -48,7 +51,8 @@
         "url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/",
         "source_id": "chemengonline-com-monitoring-water-steam-chemistry-steam-generat"
       },
-      "value": "Na <=2 ppb; SiO2 <=10 ppb; CACE <=0.2 µS/cm"
+      "value": "Na <=2 ppb; SiO2 <=10 ppb; CACE <=0.2 µS/cm",
+      "source_url": "https://www.chemengonline.com/monitoring-water-steam-chemistry-steam-generators/"
     },
     {
       "metric": "CPU outlet quality claimed by vendor",
@@ -58,7 +62,8 @@
         "url": "https://woggroup.com/condensate-polishing-unit-cpu",
         "source_id": "woggroup-com-condensate-polishing-unit-cpu"
       },
-      "value": "conductivity <0.2 µS/cm; silica <10 ppb"
+      "value": "conductivity <0.2 µS/cm; silica <10 ppb",
+      "source_url": "https://woggroup.com/condensate-polishing-unit-cpu"
     },
     {
       "metric": "Service pressure",
@@ -68,7 +73,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "psi",
-      "high": "800"
+      "high": "800",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Flow rate",
@@ -78,7 +84,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "gpm/sq.ft.",
-      "high": "50"
+      "high": "50",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Cation:anion resin ratio for All Volatile Treatment (AVT) high pH",
@@ -88,7 +95,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "ratio",
-      "value": "2:1"
+      "value": "2:1",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Regeneration design",
@@ -98,7 +106,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "n/a",
-      "value": "two-vessel SepraEight external regeneration"
+      "value": "two-vessel SepraEight external regeneration",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Resin",
@@ -108,7 +117,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "n/a",
-      "value": "Gravex Bead Resin"
+      "value": "Gravex Bead Resin",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Contaminants removed",
@@ -118,7 +128,8 @@
         "source_id": "graver-com-condensate-polishers-deepbed"
       },
       "unit": "n/a",
-      "value": "iron, copper, silica, salts, suspended solids"
+      "value": "iron, copper, silica, salts, suspended solids",
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Cation:anion resin ratio AVT",
@@ -127,7 +138,8 @@
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "BWR resin blend",
@@ -135,7 +147,8 @@
       "basis": "'in a neutral pH environment, as would be seen in a boiling water reactor (BWR) a stoichiometric blend of the ion exchange media would be employed'",
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
-      }
+      },
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Removed species",
@@ -143,7 +156,8 @@
       "basis": "'Both Deep Bed and Precoat type Polishers remove iron, copper, silica and salts, and suspended solids'",
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
-      }
+      },
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Regeneration",
@@ -151,7 +165,8 @@
       "basis": "'two-vessel SepraEight® regeneration design results in a smaller footprint for regeneration equipment'",
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
-      }
+      },
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     },
     {
       "metric": "Regeneration options",
@@ -159,7 +174,8 @@
       "basis": "'sent off-site for regeneration or disposal, or ... regenerated on-site using Graver's SepraEight technology'",
       "source": {
         "url": "https://graver.com/condensate-polishers/deepbed/"
-      }
+      },
+      "source_url": "https://graver.com/condensate-polishers/deepbed/"
     }
   ],
   "vendors": [

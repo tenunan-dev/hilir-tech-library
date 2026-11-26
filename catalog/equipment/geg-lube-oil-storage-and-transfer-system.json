@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Lube oil storage and transfer system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Lube oil storage and transfer system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://robenmfg.com/lubricating-oil-storage-application",
   "aliases": [
     "Lube oil storage and transfer system"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Roben Manufacturing custom lubricating — tank diameter (maximum)",
@@ -38,7 +39,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Roben Manufacturing custom lubricating — construction standard",
@@ -48,7 +50,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Roben Manufacturing custom lubricating — internal coating options",
@@ -58,7 +61,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Roben Manufacturing custom lubricating — roof type options",
@@ -68,7 +72,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Roben Manufacturing custom lubricating — metals of construction",
@@ -78,7 +83,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Roben Manufacturing custom lubricating — documentation",
@@ -88,7 +94,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Atlantic Containment AC series single- — capacity, model AC120SL",
@@ -99,7 +106,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — weight, model AC120SL",
@@ -110,7 +118,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — capacity, model AC500SL",
@@ -121,7 +130,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — dimensions (L x W x H), model AC500SL",
@@ -131,7 +141,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — capacity, model AC2KSL",
@@ -142,7 +153,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — weight, model AC2KSL",
@@ -153,7 +165,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — capacity, model AC500DL (double wall)",
@@ -164,7 +177,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — weight, model AC1KDL (double wall)",
@@ -175,7 +189,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — air leak test pressure",
@@ -186,7 +201,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — optional secondary containment",
@@ -197,7 +213,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — supports",
@@ -208,7 +225,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Atlantic Containment AC series single- — monitoring bung",
@@ -219,7 +237,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "Prismecs dry-sump turbine lubrication  — governing specification",
@@ -229,7 +248,8 @@
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
         "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Prismecs dry-sump turbine lubrication  — oil viscosity grade (common industrial use)",
@@ -239,7 +259,8 @@
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
         "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Prismecs dry-sump turbine lubrication  — oil cleanliness target, typical OEM range",
@@ -249,7 +270,8 @@
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
         "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Prismecs dry-sump turbine lubrication  — new oil cleanliness, published OEM tables",
@@ -259,7 +281,8 @@
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
         "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Prismecs dry-sump turbine lubrication  — pre-service filtration",
@@ -270,7 +293,8 @@
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
         "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Prismecs dry-sump turbine lubrication  — varnish potential test",
@@ -280,7 +304,8 @@
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
         "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Prismecs dry-sump turbine lubrication  — rotary screw pump pressure differential",
@@ -291,7 +316,8 @@
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines",
         "source_id": "geg-prismecs-com-components-of-the-lubrication-s-9e6c5ce"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Lubricating oil system (generic OE — Routine checks including lubricating oil",
@@ -301,7 +327,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Governing standard",
@@ -309,7 +336,8 @@
       "basis": "\"API Standard 614, Sixth Edition, February 2022 governs its design in petroleum, chemical and gas service\"",
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "ISO turbine oil viscosity grades",
@@ -317,7 +345,8 @@
       "basis": "\"ISO grades 32, 46 and 68 are the products of interest in the turbine industry, with grades 46, 68 or 77 used where the turbine manufacturer specifies higher viscosity\"",
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Oil specification standard",
@@ -325,7 +354,8 @@
       "basis": "\"ISO 8068 governs turbine oil specification, alongside the turbine OEM's own requirements\"",
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "ISO 4406 cleanliness target (typical OEM)",
@@ -333,7 +363,8 @@
       "basis": "\"most turbine OEMs target between ISO 15/13/10 and ISO 17/15/12\"",
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "New oil cleanliness (published OEM tables)",
@@ -341,7 +372,8 @@
       "basis": "\"new oil specified at ISO 4406 16/14/12 for both ISO VG 32 and ISO VG 46 on several industrial gas turbine platforms, with some specifications setting a minimum standard of 20/17/14\"",
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Particle count size thresholds",
@@ -349,7 +381,8 @@
       "basis": "\"ISO 4406 defines cleanliness codes based on particle counts per millilitre at 4, 6 and 14 microns\"",
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Recommended pre-service filtration",
@@ -358,7 +391,8 @@
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Rotary screw pump differential pressure limit",
@@ -367,7 +401,8 @@
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Viscosity at 40 C acceptable deviation",
@@ -377,7 +412,8 @@
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
       },
       "low": -10,
-      "high": 25
+      "high": 25,
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Varnish test standard",
@@ -385,7 +421,8 @@
       "basis": "\"Membrane patch colorimetry (MPC), ASTM D7843, is the standard test\"",
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Supplementary specification",
@@ -393,7 +430,8 @@
       "basis": "\"IOGP S-744 is a supplementary specification to API 614 Sixth Edition\"",
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Article date",
@@ -401,7 +439,8 @@
       "basis": "Blog post dated February 11, 2024 (25 minutes read)",
       "source": {
         "url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
-      }
+      },
+      "source_url": "https://prismecs.com/blog/components-of-the-lubrication-system-of-gas-turbine-engines"
     },
     {
       "metric": "Capacity",
@@ -409,7 +448,8 @@
       "basis": "Roben: 'Capacity Range: Custom — sized to facility throughput and inventory needs'; FAQ: 'capacities ranging from a few hundred gallons to several million gallons'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Maximum tank diameter",
@@ -418,7 +458,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
       },
-      "value": 60
+      "value": 60,
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Construction standard",
@@ -426,7 +467,8 @@
       "basis": "Roben: 'Construction Standard: API 650, API 620, AWWA D100, or ASME Section VIII per service'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Materials",
@@ -434,7 +476,8 @@
       "basis": "Roben: 'Materials: Selected per product compatibility — carbon steel through specialty alloys'; FAQ: 'carbon steel, stainless steel, duplex, super duplex, Hastelloy, Inconel, and other specialty alloys'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Internal coating",
@@ -442,7 +485,8 @@
       "basis": "Roben: 'Internal Coating: Phenolic, epoxy, glass-lined, rubber-lined per service'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Roof type",
@@ -450,7 +494,8 @@
       "basis": "Roben: 'Roof Type: Cone, dome, internal floating, external floating per vapor pressure'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Accessories",
@@ -458,7 +503,8 @@
       "basis": "Roben: 'Vents, gauges, mixers, heating coils, fire protection, vapor recovery as required'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Certifications",
@@ -466,7 +512,8 @@
       "basis": "Roben: 'ASME Section VIII Division 1 and Division 2 — \"U\" and \"U2\" Stamps; National Board \"R\" Stamp; API 650; API 620; API 653; PED; CRN; NFPA 30; EPA SPCC compliance'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Documentation",
@@ -474,7 +521,8 @@
       "basis": "Roben: 'Full U-1A, MTRs, and NDE documentation supporting facility audits and inspections'; 'ASME data books, API filings, NDE reports, regulatory submittals'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "air_pressure_test",
@@ -483,7 +531,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "supports_height",
@@ -492,7 +541,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "outer_bung",
@@ -501,7 +551,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "1/2 inch NPT outer bung w/ monitoring sight glass for easy leak detection"
+      "value": "1/2 inch NPT outer bung w/ monitoring sight glass for easy leak detection",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "construction",
@@ -510,7 +561,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "welded steel; phosphated steel to extend tank life"
+      "value": "welded steel; phosphated steel to extend tank life",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "UL_certification",
@@ -519,7 +571,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "UL142 & UL142A (MH15058) certified w/ serial label"
+      "value": "UL142 & UL142A (MH15058) certified w/ serial label",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "compliance",
@@ -528,7 +581,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "ANSI/NPA 1, 30, 30A, 31, 37 Compliant; meets all requirements of IFC (International Fire Code)"
+      "value": "ANSI/NPA 1, 30, 30A, 31, 37 Compliant; meets all requirements of IFC (International Fire Code)",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "containment_option",
@@ -537,7 +591,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "Optional 110% DW containment designs"
+      "value": "Optional 110% DW containment designs",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "capacity_range_SL_models",
@@ -547,7 +602,8 @@
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
       "low": 120,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "capacity_range_DL_models",
@@ -557,7 +613,8 @@
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
       "low": 120,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "SL_weights",
@@ -567,7 +624,8 @@
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
       "low": 212,
-      "high": 2045
+      "high": 2045,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "DL_weights",
@@ -577,7 +635,8 @@
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
       "low": 425,
-      "high": 3625
+      "high": 3625,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "SL_dimensions",
@@ -586,7 +645,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "AC120SL 30x26x36 in; AC1KSL 120x32x60 in; AC2KSL 240x32x60 in"
+      "value": "AC120SL 30x26x36 in; AC1KSL 120x32x60 in; AC2KSL 240x32x60 in",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "DL_dimensions",
@@ -595,7 +655,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "AC120DL 31x27x37 in; AC1KDL 121x33x61 in; AC2KDL 241x33x61 in"
+      "value": "AC120DL 31x27x37 in; AC1KDL 121x33x61 in; AC2KDL 241x33x61 in",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "contained_fluids",
@@ -604,7 +665,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "Unused Class IIIB Combustible Motor Oils or Fluids; Lube Motor Oil; Hydraulic Oil; Transmission Oil; Machine Oil; Cutting Oil"
+      "value": "Unused Class IIIB Combustible Motor Oils or Fluids; Lube Motor Oil; Hydraulic Oil; Transmission Oil; Machine Oil; Cutting Oil",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     }
   ],
   "vendor_models": [

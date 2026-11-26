@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Support utilities and safety systems that make the process train operable: power distribution, pneumatic control air, inerting, actuation power, cooling/firewater, lifting and living quarters.",
+  "description": "Support utilities and safety systems that make the process train operable: power distribution, pneumatic control air, inerting, actuation power, cooling/firewater, lifting and living quarters. Primary source: https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
   "specifications": [
     {
       "metric": "Instrument air package equipment",
@@ -19,7 +19,8 @@
         "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
         "source_id": "specoilandgas-com-ancillary-equipment-utilities"
       },
-      "value": "rotary screw, oil-free screw or reciprocating compressors; KO drum, filters, refrigerated or adsorption dryers; receiver tanks, piping, instrumentation, valves"
+      "value": "rotary screw, oil-free screw or reciprocating compressors; KO drum, filters, refrigerated or adsorption dryers; receiver tanks, piping, instrumentation, valves",
+      "source_url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities"
     },
     {
       "metric": "Utility scope linkage",
@@ -29,7 +30,8 @@
         "url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities",
         "source_id": "specoilandgas-com-ancillary-equipment-utilities"
       },
-      "value": "utility scope follows process equipment: what has to be heated, cooled, driven, instrumented and drained"
+      "value": "utility scope follows process equipment: what has to be heated, cooled, driven, instrumented and drained",
+      "source_url": "https://www.specoilandgas.com/equipment/ancillary-equipment/utilities"
     }
   ],
   "vendors": [

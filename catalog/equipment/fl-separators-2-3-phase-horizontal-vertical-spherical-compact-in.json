@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection.",
+  "description": "Separate and treat oil, water and gas; remove solids and liquids; prepare hydrocarbons for export or injection. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
   "specifications": [
     {
       "metric": "Separation design objective",
@@ -19,7 +19,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
         "source_id": "sys-slb-com-processing-and-separation"
       },
-      "value": "separate and treat oil, water and gas using minimal chemicals and energy to reduce capex and opex"
+      "value": "separate and treat oil, water and gas using minimal chemicals and energy to reduce capex and opex",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "Produced-water oil recovery case result",
@@ -29,7 +30,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
         "source_id": "sys-slb-com-processing-and-separation"
       },
-      "value": 98
+      "value": 98,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "Subsea separation control",
@@ -39,7 +41,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection",
         "source_id": "sys-onesubsea-slb-com-subsea-water-injection"
       },
-      "value": "all-electric control systems"
+      "value": "all-electric control systems",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-water-injection"
     }
   ],
   "vendors": [

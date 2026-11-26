@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
   "specifications": [
     {
       "metric": "standard design pressure",
@@ -16,7 +16,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
         "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
       },
-      "value": "1440 psi (99 bar)"
+      "value": "1440 psi (99 bar)",
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "stock design temperature",
@@ -26,7 +27,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
         "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
       },
-      "value": "-20 to 130 degF (-29 to 54 degC)"
+      "value": "-20 to 130 degF (-29 to 54 degC)",
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "design code",
@@ -36,7 +38,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",
         "source_id": "specoilandgas-com-phase-separation-gas-filter-separator"
       },
-      "value": "ASME VIII Div 1"
+      "value": "ASME VIII Div 1",
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Design code",
@@ -44,7 +47,8 @@
       "basis": "Specifications table: \"Design code: ASME Pressure Vessel Code, Section VIII, Division 1\"",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Standard design pressure",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
       },
-      "value": 1440
+      "value": 1440,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Design temperature (stock vessels)",
@@ -63,7 +68,8 @@
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
       },
       "low": -29,
-      "high": 54
+      "high": 54,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Configurations",
@@ -71,7 +77,8 @@
       "basis": "Orientation table: horizontal double barrel (gas flow maximised in upper barrel without re-entrainment; liquid drops into lower barrel) and vertical (gravity removal; only lower portion of element saturates; smaller hardware at same flow rate)",
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
-      }
+      },
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Separation stages",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     },
     {
       "metric": "Reference project",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/phase-separation/gas-filter-separator",

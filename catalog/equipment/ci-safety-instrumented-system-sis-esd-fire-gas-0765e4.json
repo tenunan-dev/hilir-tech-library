@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Independent safety layer that detects hazardous conditions and drives the process to a safe state; ESD and fire & gas are core SIFs on offshore and onshore facilities.",
+  "description": "Independent safety layer that detects hazardous conditions and drives the process to a safe state; ESD and fire & gas are core SIFs on offshore and onshore facilities. Primary source: https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
   "specifications": [
     {
       "metric": "functional safety standard (process industry)",
@@ -19,7 +19,8 @@
         "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
         "source_id": "sys-isa-org-isa-84-standards"
       },
-      "value": "ANSI/ISA-61511-1-2018 / IEC 61511-1:2016+AMD1:2017 CSV"
+      "value": "ANSI/ISA-61511-1-2018 / IEC 61511-1:2016+AMD1:2017 CSV",
+      "source_url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards"
     },
     {
       "metric": "SIL determination guidance",
@@ -29,7 +30,8 @@
         "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
         "source_id": "sys-isa-org-isa-84-standards"
       },
-      "value": "ANSI/ISA-61511-3-2018 / IEC 61511-3:2016 - guidance for determination of required SIL; covers tolerable risk and methodologies"
+      "value": "ANSI/ISA-61511-3-2018 / IEC 61511-3:2016 - guidance for determination of required SIL; covers tolerable risk and methodologies",
+      "source_url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards"
     },
     {
       "metric": "SIL verification",
@@ -39,7 +41,8 @@
         "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
         "source_id": "sys-isa-org-isa-84-standards"
       },
-      "value": "ISA-TR84.00.02-2022: SIL Verification of Safety Instrumented Functions - random and systematic failures, spurious trip rates, failure probabilities"
+      "value": "ISA-TR84.00.02-2022: SIL Verification of Safety Instrumented Functions - random and systematic failures, spurious trip rates, failure probabilities",
+      "source_url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards"
     },
     {
       "metric": "wireless in non-SIS protection layers",
@@ -49,7 +52,8 @@
         "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
         "source_id": "sys-isa-org-isa-84-standards"
       },
-      "value": "ISA-TR84.00.08-2017: Guidance for Application of Wireless Sensor Technology to Non-SIS Independent Protection Layers"
+      "value": "ISA-TR84.00.08-2017: Guidance for Application of Wireless Sensor Technology to Non-SIS Independent Protection Layers",
+      "source_url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards"
     },
     {
       "metric": "safety lifecycle scope",
@@ -59,7 +63,8 @@
         "url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards",
         "source_id": "sys-isa-org-isa-84-standards"
       },
-      "value": "design, installation, operation, maintenance, decommissioning; plus ISA-TR84.00.09-2024 cybersecurity related to the safety lifecycle"
+      "value": "design, installation, operation, maintenance, decommissioning; plus ISA-TR84.00.09-2024 cybersecurity related to the safety lifecycle",
+      "source_url": "https://www.isa.org/standards-and-publications/isa-standards/isa-84-standards"
     }
   ],
   "vendors": [

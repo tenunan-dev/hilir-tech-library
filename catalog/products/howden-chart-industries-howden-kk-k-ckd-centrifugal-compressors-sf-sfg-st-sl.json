@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. Oil & gas, petrochemical, SAGD, CO2 capture applications listed",
+  "description": "Vendor product line read 2026-11-24. Oil & gas, petrochemical, SAGD, CO2 capture applications listed Primary source: https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
   "specifications": [
     {
       "metric": "Single-stage flow envelope",
@@ -17,7 +17,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 1500,
-      "high": 600000
+      "high": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Multistage flow envelope",
@@ -28,7 +29,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 400,
-      "high": 200000
+      "high": 200000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Pressure ratio",
@@ -39,7 +41,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 3.5,
-      "high": 10
+      "high": 10,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "CKD discharge pressure",
@@ -49,7 +52,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Overall flow envelope",
@@ -58,7 +62,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 600,000 m3/h"
+      "value": "up to 600,000 m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Experience",
@@ -67,7 +72,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "over 100 years and 4000 installations"
+      "value": "over 100 years and 4000 installations",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SF model flow",
@@ -77,7 +83,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 15000,
-      "high": 600000
+      "high": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SF pressure ratio",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 3.5"
+      "value": "up to 3.5",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SF impeller diameter",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 2240"
+      "value": "up to 2240",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG model flow",
@@ -105,7 +114,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 5000,
-      "high": 300000
+      "high": 300000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG pressure ratio",
@@ -114,7 +124,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 3.5"
+      "value": "up to 3.5",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG impeller diameter",
@@ -123,7 +134,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 1120"
+      "value": "up to 1120",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "ST model flow",
@@ -133,7 +145,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 1500,
-      "high": 150000
+      "high": 150000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "ST pressure ratio",
@@ -142,7 +155,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 3.5"
+      "value": "up to 3.5",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "ST impeller diameter",
@@ -151,7 +165,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 900"
+      "value": "up to 900",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "ST drive",
@@ -160,7 +175,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "Steam turbine (integrated)"
+      "value": "Steam turbine (integrated)",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SL model flow",
@@ -170,7 +186,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 15000,
-      "high": 450000
+      "high": 450000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SL pressure ratio",
@@ -179,7 +196,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 1.45"
+      "value": "up to 1.45",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SL impeller diameter",
@@ -188,7 +206,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 1800"
+      "value": "up to 1800",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG Back-to-Back flow",
@@ -198,7 +217,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 3000,
-      "high": 75000
+      "high": 75000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG Back-to-Back pressure ratio",
@@ -207,7 +227,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 6.0"
+      "value": "up to 6.0",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG Twin flow",
@@ -217,7 +238,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 3000,
-      "high": 200000
+      "high": 200000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG Twin pressure ratio",
@@ -226,7 +248,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 6.0"
+      "value": "up to 6.0",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RS flow",
@@ -236,7 +259,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 400,
-      "high": 65000
+      "high": 65000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RS pressure ratio",
@@ -245,7 +269,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 10.0"
+      "value": "up to 10.0",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RV flow",
@@ -254,7 +279,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "400-85,000; 400-170,000 (back-to-back)"
+      "value": "400-85,000; 400-170,000 (back-to-back)",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RV pressure ratio",
@@ -263,7 +289,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 10.0"
+      "value": "up to 10.0",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RV impeller diameter",
@@ -272,7 +299,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 780"
+      "value": "up to 780",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "KK&K pressure rise",
@@ -281,7 +309,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 3.5 single stage; 6 multistage; flows up to 600,000 m3/h"
+      "value": "up to 3.5 single stage; 6 multistage; flows up to 600,000 m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "CKD flow and discharge",
@@ -290,7 +319,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 1,700,000 m3/h; discharge pressures up to 20 MPa"
+      "value": "up to 1,700,000 m3/h; discharge pressures up to 20 MPa",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFO/SFP/SFN pressure",
@@ -299,7 +329,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": "up to 50 bar; flow rates up to 200,000 m3/hr"
+      "value": "up to 50 bar; flow rates up to 200,000 m3/hr",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",

@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-gas-condensing-hot-water"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/cfce",
   "specifications": [
     {
       "metric": "Input capacity",
@@ -17,7 +17,8 @@
       },
       "unit": "MBH (11 models)",
       "low": 500,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "AHRI combustion efficiency",
@@ -27,7 +28,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "%",
-      "value": 94.7
+      "value": 94.7,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "AHRI thermal efficiency",
@@ -37,7 +39,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "%",
-      "value": 96
+      "value": 96,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Design temperature",
@@ -47,7 +50,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "deg F",
-      "value": 210
+      "value": 210,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "NOx emissions",
@@ -58,7 +62,8 @@
       },
       "unit": "ppm NOx",
       "low": 7,
-      "high": 20
+      "high": 20,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Turndown",
@@ -68,7 +73,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": ":1 fully modulating",
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Sound level",
@@ -78,7 +84,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "dBA at 3 feet (less than)",
-      "value": 70
+      "value": 70,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Heat exchanger construction",
@@ -88,7 +95,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "material",
-      "value": "Duplex stainless steel; TurboFer/AluFer tubes"
+      "value": "Duplex stainless steel; TurboFer/AluFer tubes",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Hydrogen readiness",
@@ -98,7 +106,8 @@
         "source_id": "cleaverbrooks-com-product-cfce"
       },
       "unit": "% volumetric hydrogen-natural gas blend",
-      "value": 20
+      "value": 20,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Number of models",
@@ -107,7 +116,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 11
+      "value": 11,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Input capacity",
@@ -118,7 +128,8 @@
       },
       "value": 500,
       "low": 6000,
-      "high": "MBH"
+      "high": "MBH",
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "AHRI combustion efficiency",
@@ -127,7 +138,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 94.7
+      "value": 94.7,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "AHRI thermal efficiency",
@@ -136,7 +148,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 96
+      "value": 96,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Marketing efficiency statement",
@@ -145,7 +158,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 99
+      "value": 99,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Design temperature",
@@ -154,7 +168,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 210
+      "value": 210,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "NOx emissions standard",
@@ -163,7 +178,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "NOx emissions optional",
@@ -172,7 +188,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Turndown ratio",
@@ -181,7 +198,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Hydrogen blend capability",
@@ -190,7 +208,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Sound level",
@@ -199,7 +218,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Fuel",
@@ -207,7 +227,8 @@
       "basis": "'Fuel: Natural Gas, Propane, Combination firing'",
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Vessel design / passes / medium",
@@ -215,7 +236,8 @@
       "basis": "'Vessel Design: Firetube'; 'Number Of Passes: 1'; 'Steam Or Hot Water: Hot Water'",
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Construction",
@@ -223,7 +245,8 @@
       "basis": "'Duplex stainless steel construction'; TurboFer heat exchanger with integrated Ember controls; AluFer tube technology",
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "Side clearance",
@@ -232,7 +255,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cfce"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cfce",

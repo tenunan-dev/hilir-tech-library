@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Reduce oil-in-water from produced water to discharge or reinjection specification; bulk removal by hydrocyclone, polishing by flotation and filtration.",
+  "description": "Reduce oil-in-water from produced water to discharge or reinjection specification; bulk removal by hydrocyclone, polishing by flotation and filtration. Primary source: https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
   "specifications": [
     {
       "metric": "Hydrocyclone outlet quality",
@@ -19,7 +19,8 @@
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators",
         "source_id": "specoilandgas-com-produced-water-treatment-hydrocyclone-separators"
       },
-      "value": "as low as 25"
+      "value": "as low as 25",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/hydrocyclone-separators"
     },
     {
       "metric": "IGF outlet quality",
@@ -29,7 +30,8 @@
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation",
         "source_id": "specoilandgas-com-produced-water-treatment-induced-gas-flotation"
       },
-      "value": "as low as 10"
+      "value": "as low as 10",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/induced-gas-flotation"
     },
     {
       "metric": "Nutshell filter outlet quality",
@@ -39,7 +41,8 @@
         "url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters",
         "source_id": "specoilandgas-com-produced-water-treatment-nutshell-filters"
       },
-      "value": "as low as 5"
+      "value": "as low as 5",
+      "source_url": "https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters"
     },
     {
       "metric": "Malaysia BOKOR CPP guarantee",
@@ -49,7 +52,8 @@
         "url": "https://issprocess.com/technology/water-treatment/bokor-cpp-produced-water-treatment-package/",
         "source_id": "issprocess-com-bokor-cpp-produced-water-treatment-package"
       },
-      "value": "80,000 BWPD; 30 ppm OIW outlet (monthly)"
+      "value": "80,000 BWPD; 30 ppm OIW outlet (monthly)",
+      "source_url": "https://issprocess.com/technology/water-treatment/bokor-cpp-produced-water-treatment-package/"
     },
     {
       "metric": "Malaysia PEGAGA guarantee",
@@ -59,7 +63,8 @@
         "url": "https://issprocess.com/technology/water-treatment/pegaga-development-produced-water-treatment-skid/",
         "source_id": "issprocess-com-pegaga-development-produced-water-treatment-skid"
       },
-      "value": "12,000 BWPD; 2,000 ppm inlet -> 20 ppm OIW outlet (monthly)"
+      "value": "12,000 BWPD; 2,000 ppm inlet -> 20 ppm OIW outlet (monthly)",
+      "source_url": "https://issprocess.com/technology/water-treatment/pegaga-development-produced-water-treatment-skid/"
     },
     {
       "metric": "Malaysia SK408W Jerun guarantee",
@@ -69,7 +74,8 @@
         "url": "https://issprocess.com/technology/water-treatment/ks408w-jerun-field-development-produced-water-treatment-package/",
         "source_id": "issprocess-com-ks408w-jerun-field-development-produced-water-treat"
       },
-      "value": "3,200 BWPD; 3,000 ppmV inlet -> 20 ppmV OIW outlet"
+      "value": "3,200 BWPD; 3,000 ppmV inlet -> 20 ppmV OIW outlet",
+      "source_url": "https://issprocess.com/technology/water-treatment/ks408w-jerun-field-development-produced-water-treatment-package/"
     }
   ],
   "vendors": [

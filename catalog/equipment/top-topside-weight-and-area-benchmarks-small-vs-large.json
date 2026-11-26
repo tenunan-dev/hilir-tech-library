@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "Empirical relations and published weight tables used for early-stage sizing and checking whether a proposed topsides weight is within historical ranges.",
+  "description": "Empirical relations and published weight tables used for early-stage sizing and checking whether a proposed topsides weight is within historical ranges. Primary source: https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
   "specifications": [
     {
       "metric": "Eiffel Tower comparator weight",
@@ -19,7 +19,8 @@
         "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
         "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
       },
-      "value": 9000
+      "value": 9000,
+      "source_url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside"
     },
     {
       "metric": "Aibel project weight range (listed examples)",
@@ -30,7 +31,8 @@
         "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
       },
       "low": 1000,
-      "high": 24000
+      "high": 24000,
+      "source_url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside"
     },
     {
       "metric": "weight cells used simultaneously for P2 weighing",
@@ -41,7 +43,8 @@
         "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
       },
       "low": 50,
-      "high": 60
+      "high": 60,
+      "source_url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside"
     },
     {
       "metric": "minimum equipment weight logged for weighing",
@@ -51,7 +54,8 @@
         "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
         "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside"
     },
     {
       "metric": "Aker Solutions design weight envelope",
@@ -62,7 +66,8 @@
         "source_id": "akersolutions-com-fixed-and-floating-solutions-design-and-construc"
       },
       "low": 2000,
-      "high": 40000
+      "high": 40000,
+      "source_url": "https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities"
     }
   ],
   "vendors": [

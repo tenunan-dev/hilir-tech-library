@@ -8,7 +8,7 @@
     "MID",
     "CIV"
   ],
-  "description": "ESDEP defines a pipeline riser as the piping rising from seabed to topside level and describes conductors as protecting and guiding the drill string from topside to 40-100 m below the seabed. US5513929A describes conventional casing guides and tensioned-casing production risers; US4679964A shows a prefabricated riser pipe from a conductor-mounted miniplatform to a remote flowline. At Anjung Kecil a 1.26 km dynamic subsea power cable links the FPSO to the wellhead platform. No page read during th",
+  "description": "ESDEP defines a pipeline riser as the piping rising from seabed to topside level and describes conductors as protecting and guiding the drill string from topside to 40-100 m below the seabed. US5513929A describes conventional casing guides and tensioned-casing production risers; US4679964A shows a prefabricated riser pipe from a conductor-mounted miniplatform to a remote flowline. At Anjung Kecil a 1.26 km dynamic subsea power cable links the FPSO to the wellhead platform. No page read during th Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
   "aliases": [
     "Risers and J-tubes for pipelines and subsea cables"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Pipeline riser / conductor-guided riser — Conventional conductor diameter examples",
@@ -38,7 +39,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US5513929A/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US5513929A/en"
     },
     {
       "metric": "Pipeline riser / conductor-guided riser — Sump / discharge pipe depth below water level",
@@ -49,7 +51,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Dynamic subsea power cable (FPSO to WHP) — Dynamic subsea power cable length",
@@ -59,7 +62,8 @@
       "source": {
         "url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field",
         "source_id": "offshore-technology-com-projects-anjung-kecil-oil-field"
-      }
+      },
+      "source_url": "https://www.offshore-technology.com/projects/anjung-kecil-oil-field"
     },
     {
       "metric": "Reliability — Dynamic analysis trigger for slender members and conductors",
@@ -69,7 +73,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     }
   ],
   "vendor_models": [],

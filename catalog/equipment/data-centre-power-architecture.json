@@ -9,7 +9,7 @@
     "IDC",
     "PWR"
   ],
-  "description": "Data-centre power architecture and tier/redundancy (N, N+1, 2N, distributed redundancy) | Standards and guidance for data-centre standby/prime generation | Data-centre power integration (gas-engine off-grid / BTM microgrid)",
+  "description": "Data-centre power architecture and tier/redundancy (N, N+1, 2N, distributed redundancy) | Standards and guidance for data-centre standby/prime generation | Data-centre power integration (gas-engine off-grid / BTM microgrid) Primary source: https://uptimeinstitute.com/tiers",
   "specifications": [
     {
       "metric": "Tier I-IV definitions",
@@ -19,7 +19,8 @@
         "url": "https://uptimeinstitute.com/tiers",
         "source_id": "uptimeinstitute-com-uptimeinstitute-com-tiers"
       },
-      "value": "Tier I basic UPS + engine generator; Tier II redundant capacity components; Tier III concurrently maintainable with redundant distribution paths; Tier IV fault tolerant with multiple independent, physically isolated systems"
+      "value": "Tier I basic UPS + engine generator; Tier II redundant capacity components; Tier III concurrently maintainable with redundant distribution paths; Tier IV fault tolerant with multiple independent, physically isolated systems",
+      "source_url": "https://uptimeinstitute.com/tiers"
     },
     {
       "metric": "EPA emergency-engine non-emergency hours",
@@ -29,7 +30,8 @@
         "url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
         "source_id": "epa-gov-stationary-sources-air-pollution-clean-air-act-resources-d"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers"
     },
     {
       "metric": "EPA default assumption for emergency-generator potential to emit",
@@ -39,7 +41,8 @@
         "url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
         "source_id": "epa-gov-stationary-sources-air-pollution-clean-air-act-resources-d"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers"
     },
     {
       "metric": "Applicable US emission rules for data-centre engines",
@@ -49,7 +52,8 @@
         "url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
         "source_id": "epa-gov-stationary-sources-air-pollution-clean-air-act-resources-d"
       },
-      "value": "40 CFR part 60 subparts IIII (stationary compression-ignition) and JJJJ (stationary spark-ignition); 40 CFR part 63 subpart ZZZZ (RICE NESHAP); 40 CFR part 60 subpart TTTT (GHG for electric generating units); NSPS for stationary gas/combustion turbines"
+      "value": "40 CFR part 60 subparts IIII (stationary compression-ignition) and JJJJ (stationary spark-ignition); 40 CFR part 63 subpart ZZZZ (RICE NESHAP); 40 CFR part 60 subpart TTTT (GHG for electric generating units); NSPS for stationary gas/combustion turbines",
+      "source_url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers"
     },
     {
       "metric": "2026 DOE 202(c) emergency orders effect on engine hours",
@@ -59,7 +63,8 @@
         "url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers",
         "source_id": "epa-gov-stationary-sources-air-pollution-clean-air-act-resources-d"
       },
-      "value": "Operation under these emergency orders does not count toward the 50 h non-emergency allowance"
+      "value": "Operation under these emergency orders does not count toward the 50 h non-emergency allowance",
+      "source_url": "https://www.epa.gov/stationary-sources-air-pollution/clean-air-act-resources-data-centers"
     },
     {
       "metric": "Uptime Tier certification scale",
@@ -69,7 +74,8 @@
         "url": "https://uptimeinstitute.com/tiers",
         "source_id": "uptimeinstitute-com-uptimeinstitute-com-tiers"
       },
-      "value": "Over 4,300 Tier Certifications issued in 120+ countries"
+      "value": "Over 4,300 Tier Certifications issued in 120+ countries",
+      "source_url": "https://uptimeinstitute.com/tiers"
     },
     {
       "metric": "Study availability target",
@@ -79,7 +85,8 @@
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
         "source_id": "sys-download-se-com-files"
       },
-      "value": "99.999% (about five minutes downtime per year); avoided event = loss of power to IT servers for more than 20 ms"
+      "value": "99.999% (about five minutes downtime per year); avoided event = loss of power to IT servers for more than 20 ms",
+      "source_url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN"
     },
     {
       "metric": "Engine plant start / load acceptance (10 MW medium-speed gas engine)",
@@ -89,7 +96,8 @@
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
         "source_id": "sys-download-se-com-files"
       },
-      "value": "start, synchronise and reach nominal speed within 15 s; additional 35 s to support site full load; steps of about 20% of nominal output"
+      "value": "start, synchronise and reach nominal speed within 15 s; additional 35 s to support site full load; steps of about 20% of nominal output",
+      "source_url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN"
     },
     {
       "metric": "Example 10 MW-class plant configuration",
@@ -99,7 +107,8 @@
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
         "source_id": "sys-download-se-com-files"
       },
-      "value": "9 gas generator units (7+2 redundancy), four data-centre buildings at 17.5 MW each, 15 kV MV switchgear, 18 MVA grid backup for Block 1 only"
+      "value": "9 gas generator units (7+2 redundancy), four data-centre buildings at 17.5 MW each, 15 kV MV switchgear, 18 MVA grid backup for Block 1 only",
+      "source_url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN"
     },
     {
       "metric": "Data-centre cooling share / CCHP efficiency claim",
@@ -109,7 +118,8 @@
         "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",
         "source_id": "jenbacher-com-data-center"
       },
-      "value": "cooling usually accounts for up to 40% of a data centre's energy requirements; Jenbacher CCHP electrical + thermal efficiency up to 95%; pipeline-gas CCHP can cut DC CO2 footprint by up to 50% depending on energy mix and save >20% primary energy"
+      "value": "cooling usually accounts for up to 40% of a data centre's energy requirements; Jenbacher CCHP electrical + thermal efficiency up to 95%; pipeline-gas CCHP can cut DC CO2 footprint by up to 50% depending on energy mix and save >20% primary energy",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/"
     },
     {
       "metric": "Wärtsilä DC plant scale / deployment claim",
@@ -119,7 +129,8 @@
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
       },
-      "value": "power plants of 10-23 MW engines can provide over 450 MW; large-scale plants operational 12 months after manufacturing completion; CAPEX stated 20-30% lower including primary + reserve capacity"
+      "value": "power plants of 10-23 MW engines can provide over 450 MW; large-scale plants operational 12 months after manufacturing completion; CAPEX stated 20-30% lower including primary + reserve capacity",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     }
   ],
   "vendors": [

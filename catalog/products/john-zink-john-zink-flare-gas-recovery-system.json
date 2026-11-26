@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. Deep liquid seals, back-pressure control, H2S sweetening",
+  "description": "Vendor product line read 2026-11-24. Deep liquid seals, back-pressure control, H2S sweetening Primary source: https://www.johnzink.com/products/flare-gas-recovery",
   "specifications": [
     {
       "metric": "Application scope",
@@ -16,7 +16,8 @@
         "url": "https://www.johnzink.com/products/flare-gas-recovery",
         "source_id": "cat-johnzink-com-flare-gas-recovery"
       },
-      "value": "refineries to FPSO"
+      "value": "refineries to FPSO",
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Compression options",
@@ -26,7 +27,8 @@
         "url": "https://www.johnzink.com/products/flare-gas-recovery",
         "source_id": "cat-johnzink-com-flare-gas-recovery"
       },
-      "value": "ejectors / evaluated technologies"
+      "value": "ejectors / evaluated technologies",
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Emissions reduced",
@@ -34,7 +36,8 @@
       "basis": "\"designed to significantly reduce emissions, including NOx, CO, CO2, and SOx\" (no percentages printed)",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Compression technologies considered",
@@ -42,7 +45,8 @@
       "basis": "\"Ejectors are one of the compression technologies we often consider\" (also liquid seal vessel, flare gas sweetening)",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Liquid seal design",
@@ -50,7 +54,8 @@
       "basis": "\"We use deep liquid seals that provide the necessary hydrostatic head, ensuring reliable performance even under fluctuating conditions\"",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Applications",
@@ -58,7 +63,8 @@
       "basis": "\"engineered for a wide variety of applications, from petroleum refineries to FPSO offshore platforms\"",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     }
   ],
   "url": "https://www.johnzink.com/products/flare-gas-recovery",

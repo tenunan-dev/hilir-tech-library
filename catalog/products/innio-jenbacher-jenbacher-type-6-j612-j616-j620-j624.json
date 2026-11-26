@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. Pre-combustion chamber; Miller valve timing; LEANOX lean-burn; >7,000 engines since 1989",
+  "description": "Vendor product line read 2026-11-24. Pre-combustion chamber; Miller valve timing; LEANOX lean-burn; >7,000 engines since 1989 Primary source: https://www.jenbacher.com/en/gas-engines/type-6/",
   "specifications": [
     {
       "metric": "Electrical output",
@@ -16,7 +16,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
       },
-      "value": 4499
+      "value": 4499,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "Voltage",
@@ -26,7 +27,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
       },
-      "value": "400 / 6.3 / 10.5"
+      "value": "400 / 6.3 / 10.5",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "Engine speed",
@@ -36,7 +38,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "Service life",
@@ -46,7 +49,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
       },
-      "value": 60000
+      "value": 60000,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "Engine speed",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "Engines delivered",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "> 7,000"
+      "value": "> 7,000",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "J612 maximum power",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": 2092
+      "value": 2092,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "J616 maximum power",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": 2797
+      "value": 2797,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "J620 fast start power",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": 3114
+      "value": 3114,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "J620 maximum power",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": 3509
+      "value": 3509,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "J624 maximum power",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": 4499
+      "value": 4499,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "50 Hz any fuel type - electrical output",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 4,499"
+      "value": "up to 4,499",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "50 Hz natural gas - electrical output",
@@ -127,7 +139,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 4,499"
+      "value": "up to 4,499",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "50 Hz coal mine gas - electrical output",
@@ -136,7 +149,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 3,349"
+      "value": "up to 3,349",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "50 Hz bio/sewage/landfill gas - electrical output",
@@ -145,7 +159,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 3,349"
+      "value": "up to 3,349",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "50 Hz associated petroleum gas (flare gas) - electrical output",
@@ -154,7 +169,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 3,043"
+      "value": "up to 3,043",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "60 Hz any fuel type - electrical output",
@@ -163,7 +179,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 4,477"
+      "value": "up to 4,477",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "60 Hz natural gas - electrical output",
@@ -172,7 +189,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 4,477"
+      "value": "up to 4,477",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "60 Hz coal mine gas - electrical output",
@@ -181,7 +199,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 3,349"
+      "value": "up to 3,349",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "60 Hz bio/sewage/landfill gas - electrical output",
@@ -190,7 +209,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 3,328"
+      "value": "up to 3,328",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "60 Hz associated petroleum gas - electrical output",
@@ -199,7 +219,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 3,036"
+      "value": "up to 3,036",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "Service life",
@@ -208,7 +229,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": 60000
+      "value": 60000,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "CHP module total efficiency",
@@ -217,7 +239,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "up to 95"
+      "value": "up to 95",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "Emissions control",
@@ -226,7 +249,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/"
       },
-      "value": "LEANOX lean burn control; enhanced steel piston; centrally located purged pre-combustion chamber; Miller valve timing"
+      "value": "LEANOX lean burn control; enhanced steel piston; centrally located purged pre-combustion chamber; Miller valve timing",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     }
   ],
   "url": "https://www.jenbacher.com/en/gas-engines/type-6/",

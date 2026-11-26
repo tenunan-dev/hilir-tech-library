@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems.",
+  "description": "Prime/standby/emergency electrical power for platforms and plants, driving emergency lighting, fire pumps, drilling equipment and process loads. Compact high-power-to-weight packages are favoured offshore; paralleling and system controls are provided by integrated power systems. Primary source: https://www.cummins.com/en-apac/generators/diesel",
   "specifications": [
     {
       "metric": "Cummins diesel genset rating range",
@@ -20,7 +20,8 @@
         "source_id": "cat-cummins-com-diesel"
       },
       "low": 15,
-      "high": 3750
+      "high": 3750,
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Cummins start/load acceptance",
@@ -30,7 +31,8 @@
         "url": "https://www.cummins.com/en-apac/generators/diesel",
         "source_id": "cat-cummins-com-diesel"
       },
-      "value": "<10"
+      "value": "<10",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Cummins natural-gas genset range",
@@ -41,7 +43,8 @@
         "source_id": "sys-cummins-com-generators"
       },
       "low": 13,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.cummins.com/generators"
     },
     {
       "metric": "MTU diesel genset portfolio ceiling",
@@ -51,7 +54,8 @@
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
-      "value": 3250
+      "value": 3250,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "MTU Series 2000 rating",
@@ -62,7 +66,8 @@
         "source_id": "cat-mtu-solutions-com-diesel-generator-sets-html"
       },
       "low": 680,
-      "high": 1250
+      "high": 1250,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "MTU offshore design basis",
@@ -72,7 +77,8 @@
         "url": "https://www.mtu-solutions.com/eu/en/applications/oil-and-gas/offshore-oil-and-gas-solutions.html",
         "source_id": "sys-mtu-solutions-com-offshore-oil-and-gas-solutions-html"
       },
-      "value": "classified by all major classification societies"
+      "value": "classified by all major classification societies",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/oil-and-gas/offshore-oil-and-gas-solutions.html"
     }
   ],
   "vendors": [

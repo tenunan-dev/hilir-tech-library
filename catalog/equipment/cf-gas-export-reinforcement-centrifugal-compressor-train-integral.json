@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries.",
+  "description": "Raises gas pressure for export pipeline or reservoir reinjection. Integrally geared and multistage centrifugal machines cover high-volume pipeline/process duty; drivers are electric motors or steam/gas turbines, with dry gas seals and oil systems as auxiliaries. Primary source: https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
   "specifications": [
     {
       "metric": "Single-stage flow range",
@@ -20,7 +20,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 1500,
-      "high": 600000
+      "high": 600000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Multistage flow range",
@@ -31,7 +32,8 @@
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
       "low": 400,
-      "high": 200000
+      "high": 200000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Periflow maximum discharge pressure",
@@ -41,7 +43,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Compressor design life / installed base",
@@ -51,7 +54,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors",
         "source_id": "cat-chartindustries-com-compression-centrifugal-compressors"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Screw compressors in FLNG service",
@@ -60,7 +64,8 @@
       "source": {
         "url": "https://www.howden.com/en-gb/products/compressors",
         "source_id": "sys-howden-com-compressors"
-      }
+      },
+      "source_url": "https://www.howden.com/en-gb/products/compressors"
     }
   ],
   "vendors": [

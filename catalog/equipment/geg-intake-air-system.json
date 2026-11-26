@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Intake air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Intake air system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
   "aliases": [
     "Intake air system"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
         "source_id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
-      }
+      },
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Camfil CAMGT Box Type G II (T7/T8/T9/T — Airflow/pressure drop, T7",
@@ -38,7 +39,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
         "source_id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
-      }
+      },
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Camfil CAMGT Box Type G II (T7/T8/T9/T — Airflow/pressure drop, T10",
@@ -49,7 +51,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
         "source_id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
-      }
+      },
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Camfil CAMGT Box Type G II (T7/T8/T9/T — Recommended final pressure drop",
@@ -60,7 +63,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
         "source_id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
-      }
+      },
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Camfil CAMGT Box Type G II (T7/T8/T9/T — Maximum temperature",
@@ -71,7 +75,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
         "source_id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
-      }
+      },
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Camfil CAMGT Box Type G II (T7/T8/T9/T — Maximum relative humidity",
@@ -82,7 +87,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
         "source_id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
-      }
+      },
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Camfil CAMGT Box Type G II (T7/T8/T9/T — Filter area",
@@ -93,7 +99,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf",
         "source_id": "geg-camfil-com-data-sheet-united-states-of-ameri-1ec0d3c"
-      }
+      },
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Donaldson Air Intake Systems / PowerCo — Pre-cleaner contaminant separation efficiency, Strata™ Tubes",
@@ -104,7 +111,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",
         "source_id": "geg-donaldson-com-air-intake-systems-product-gui-8ce900e"
-      }
+      },
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Donaldson Air Intake Systems / PowerCo — Pre-configured system manufacturing lead time",
@@ -116,7 +124,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",
         "source_id": "geg-donaldson-com-air-intake-systems-product-gui-8ce900e"
-      }
+      },
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Donaldson Air Intake Systems / PowerCo — Volumetric efficiency guideline, naturally aspirated gas engine (4-stroke)",
@@ -127,7 +136,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf",
         "source_id": "geg-donaldson-com-air-intake-systems-product-gui-8ce900e"
-      }
+      },
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "mtu 12V1600 GS400 — air cleaner and as — Aspirating air flow",
@@ -138,7 +148,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
         "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
-      }
+      },
+      "source_url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "mtu 12V1600 GS400 — air cleaner and as — Air cleaner type",
@@ -148,7 +159,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf",
         "source_id": "geg-mtu-solutions-com-231296-pg-spec-12v1600gs40-7d16c52"
-      }
+      },
+      "source_url": "https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Air intake filtration and silencin — Intake air mass flow, 10 MW combustion engine",
@@ -159,7 +171,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Air intake filtration and silencin — Air after compressor",
@@ -170,7 +183,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Air intake filtration and silencin — Air receiver conditions",
@@ -181,7 +195,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Air intake filtration and silencin — Charge air ratio, lean-burn gas engine",
@@ -192,7 +207,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Air intake filtration and silencin — Noise reduction, A205-5100 residential and critical grade intake silencer",
@@ -204,7 +220,8 @@
       "source": {
         "url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf",
         "source_id": "gef-static1-squarespace-com-gt-silex-silencer-ca-7df9362"
-      }
+      },
+      "source_url": "https://static1.squarespace.com/static/69162586405ece6023d6751d/t/69c58959bfd8c516cfd980e1/1774553442128/GT+Silex+Silencer+Catalog+2026.pdf"
     },
     {
       "metric": "Generator set rating",
@@ -213,7 +230,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "400 kWe / 60 Hz / Standby / 208 - 600 V"
+      "value": "400 kWe / 60 Hz / Standby / 208 - 600 V",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Engine model / type",
@@ -222,7 +240,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "12V1600L80S; 4-cycle; turbocharged, intercooled; 12-V"
+      "value": "12V1600L80S; 4-cycle; turbocharged, intercooled; 12-V",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Displacement",
@@ -231,7 +250,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "21.0 (1,281)"
+      "value": "21.0 (1,281)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Bore / stroke",
@@ -240,7 +260,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "12 cm (4.72 in) / 15 cm (5.91 in)"
+      "value": "12 cm (4.72 in) / 15 cm (5.91 in)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Compression ratio",
@@ -249,7 +270,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "11:1"
+      "value": "11:1",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Rated speed",
@@ -258,7 +280,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Maximum power NG / LPG",
@@ -267,7 +290,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "565 (758) / 397 (532)"
+      "value": "565 (758) / 397 (532)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Gas fuel consumption NG at 100% / 75% / 50%",
@@ -276,7 +300,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "143.5 (5,067) / 115.7 (4,087) / 86.7 (3,063)"
+      "value": "143.5 (5,067) / 115.7 (4,087) / 86.7 (3,063)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "LPG fuel consumption at 100% / 75% / 50%",
@@ -285,7 +310,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "46.8 (1,654) / 38 (1,341) / 28.7 (1,015)"
+      "value": "46.8 (1,654) / 38 (1,341) / 28.7 (1,015)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Steady state frequency band",
@@ -294,7 +320,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "± 0.5 %"
+      "value": "± 0.5 %",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Emissions certification",
@@ -303,7 +330,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "EPA Part 60 Subpart JJJJ Stationary Non-Emergency; EPA Part 1048 Mobile; EPA Blue Sky Series certified; 3-way catalyst"
+      "value": "EPA Part 60 Subpart JJJJ Stationary Non-Emergency; EPA Part 1048 Mobile; EPA Blue Sky Series certified; 3-way catalyst",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Standby rating definition",
@@ -312,7 +340,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "85% average load factor; no overload capability; ISO 8528-1, ISO 3046-1, BS 5514, AS 2789"
+      "value": "85% average load factor; no overload capability; ISO 8528-1, ISO 3046-1, BS 5514, AS 2789",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Air cleaner type",
@@ -321,7 +350,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "dry"
+      "value": "dry",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Aspirating air",
@@ -330,7 +360,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "22.4 (791)"
+      "value": "22.4 (791)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Air flow for radiator cooled unit",
@@ -339,7 +370,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "960 (33,902)"
+      "value": "960 (33,902)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Remote-cooled dissipated heat air flow",
@@ -348,7 +380,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
       },
-      "value": "628 (22,304)"
+      "value": "628 (22,304)",
+      "source_url": "https://r.jina.ai/https://www.mtu-solutions.com/content/dam/mtu/products/power-generation/powergeneration-product-list-latest/231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf/_jcr_content/renditions/original./231296_PG_Spec_12V1600GS400_400kW_3D_60Hz.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: Strata Cap",
@@ -357,7 +390,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 96
+      "value": 96,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: Donaspin",
@@ -366,7 +400,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: TopSpin",
@@ -375,7 +410,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 85
+      "value": 85,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: TopSpin HD",
@@ -384,7 +420,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: In-Line Separator",
@@ -393,7 +430,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-cleaner separation efficiency: Full-View",
@@ -402,7 +440,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Strata tubes contaminant removal",
@@ -411,7 +450,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 99
+      "value": 99,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Natural airflow specific airflow (English)",
@@ -422,7 +462,8 @@
       },
       "value": 2.0,
       "low": 2.3,
-      "high": "CFM per HP"
+      "high": "CFM per HP",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "2-stroke SA values (English)",
@@ -433,7 +474,8 @@
       },
       "value": 2.0,
       "low": 3.6,
-      "high": "CFM per HP"
+      "high": "CFM per HP",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Metric specific airflow",
@@ -444,7 +486,8 @@
       },
       "value": 0.057,
       "low": 0.102,
-      "high": "m3/min per HP"
+      "high": "m3/min per HP",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Volumetric efficiency 4-stroke",
@@ -455,7 +498,8 @@
       },
       "value": 0.9,
       "low": 1.85,
-      "high": "ratio"
+      "high": "ratio",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Volumetric efficiency 2-stroke",
@@ -466,7 +510,8 @@
       },
       "value": 0.9,
       "low": 1.9,
-      "high": "ratio"
+      "high": "ratio",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Pre-configured system lead time",
@@ -477,7 +522,8 @@
       },
       "value": 8,
       "low": 12,
-      "high": "weeks"
+      "high": "weeks",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Test cell capability",
@@ -486,7 +532,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Polymer coating life vs paint",
@@ -497,7 +544,8 @@
       },
       "value": 5,
       "low": 10,
-      "high": "times"
+      "high": "times",
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Polymer coating hardness vs solvent paint",
@@ -506,7 +554,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 17
+      "value": 17,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "Product guide page count",
@@ -515,7 +564,8 @@
       "source": {
         "url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
       },
-      "value": 324
+      "value": 324,
+      "source_url": "https://www.donaldson.com/content/dam/donaldson/engine-hydraulics-bulk/catalogs/air-intake/north-america/F110027-ENG/Air-Intake-Systems-Product-Guide.pdf"
     },
     {
       "metric": "ISO 29461 grades",
@@ -524,7 +574,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": "T7/T8/T9/T10"
+      "value": "T7/T8/T9/T10",
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "EN779 grades",
@@ -533,7 +584,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": "F7/F8/F9"
+      "value": "F7/F8/F9",
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "EN1822 grade",
@@ -542,7 +594,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": "E10"
+      "value": "E10",
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Filter dimensions",
@@ -551,7 +604,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": "592x592x315"
+      "value": "592x592x315",
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Nominal airflow",
@@ -560,7 +614,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": 4250
+      "value": 4250,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Initial pressure drop T7",
@@ -569,7 +624,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": 115
+      "value": 115,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Initial pressure drop T8",
@@ -578,7 +634,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": 140
+      "value": 140,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Initial pressure drop T9",
@@ -587,7 +644,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": 145
+      "value": 145,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Initial pressure drop T10",
@@ -596,7 +654,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": 215
+      "value": 215,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Filter area",
@@ -605,7 +664,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": 19
+      "value": 19,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Weight",
@@ -614,7 +674,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": 7.6
+      "value": 7.6,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Recommended final pressure drop",
@@ -623,7 +684,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Maximum airflow",
@@ -632,7 +694,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "high": 1.3
+      "high": 1.3,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Maximum temperature",
@@ -641,7 +704,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "high": 70
+      "high": 70,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Relative humidity max",
@@ -650,7 +714,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Frame material",
@@ -659,7 +724,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": "Plastic molded; ABS"
+      "value": "Plastic molded; ABS",
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Gasket material",
@@ -668,7 +734,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": "Polyurethane, endless foamed"
+      "value": "Polyurethane, endless foamed",
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Media",
@@ -677,7 +744,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": "Glass fiber"
+      "value": "Glass fiber",
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Separator",
@@ -686,7 +754,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": "Hot-melt Separator Technology"
+      "value": "Hot-melt Separator Technology",
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     },
     {
       "metric": "Applications",
@@ -695,7 +764,8 @@
       "source": {
         "url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
       },
-      "value": "Pre- or final filter for gas turbines, large industrial air compressors, diesel & gas engines, generators & enclosures, wind turbines"
+      "value": "Pre- or final filter for gas turbines, large industrial air compressors, diesel & gas engines, generators & enclosures, wind turbines",
+      "source_url": "https://www.camfil.com/dam/files/7014/1664178/Data-Sheet---United-States-of-America--en-US----CamGT-Box-Type-G-II.pdf"
     }
   ],
   "vendor_models": [

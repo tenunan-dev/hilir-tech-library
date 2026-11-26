@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Provide durable structural concrete for foundations, slabs, walls and machine blocks in aggressive ground/process environments; sulfate-resistant cement, low permeability mixes and corrosion inhibition used where required.",
+  "description": "Provide durable structural concrete for foundations, slabs, walls and machine blocks in aggressive ground/process environments; sulfate-resistant cement, low permeability mixes and corrosion inhibition used where required. Primary source: https://www.iso.org/standard/84215.html",
   "specifications": [
     {
       "metric": "function",
@@ -18,7 +18,8 @@
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
         "url": "https://www.iso.org/standard/84215.html"
-      }
+      },
+      "source_url": "https://www.iso.org/standard/84215.html"
     }
   ],
   "vendors": [

@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Chemical injection skids dose inhibitors into the well stream or flowline to maintain flow assurance, separation performance and asset integrity. SPEC describes a 'Skid with dosing pumps and tank that injects chemicals into the process' supplied with the process equipment or standalone. The kill wing valve on a tree is primarily used to inject corrosion inhibitors or methanol to prevent hydrate formation. Digital Refining (PTQ, Jul-2015) states EG is considered above -40 degF and methanol for te",
+  "description": "Chemical injection skids dose inhibitors into the well stream or flowline to maintain flow assurance, separation performance and asset integrity. SPEC describes a 'Skid with dosing pumps and tank that injects chemicals into the process' supplied with the process equipment or standalone. The kill wing valve on a tree is primarily used to inject corrosion inhibitors or methanol to prevent hydrate formation. Digital Refining (PTQ, Jul-2015) states EG is considered above -40 degF and methanol for te Primary source: https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
   "aliases": [
     "Chemical injection system (methanol, corrosion inhibitor, demulsifier, scale inhibitor) with storage tanks and injection pumps"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
         "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
-      }
+      },
+      "source_url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas"
     },
     {
       "metric": "Methanol injection pump and timer packag — Methanol dose volume per pump cycle",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US6981848B1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US6981848B1/en"
     },
     {
       "metric": "Methanol injection pump and timer packag — Timer interval",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US6981848B1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US6981848B1/en"
     },
     {
       "metric": "Methanol injection pump and timer packag — Control battery voltage",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US6981848B1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US6981848B1/en"
     },
     {
       "metric": "Methanol injection pump and timer packag — Line temperature activation setpoint",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US6981848B1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US6981848B1/en"
     },
     {
       "metric": "Methanol injection pump and timer packag — CIMV ultrasonic flow meter range",
@@ -77,7 +82,8 @@
       "source": {
         "url": "https://patents.google.com/patent/WO2016067222A1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/WO2016067222A1/en"
     }
   ],
   "vendor_models": [],

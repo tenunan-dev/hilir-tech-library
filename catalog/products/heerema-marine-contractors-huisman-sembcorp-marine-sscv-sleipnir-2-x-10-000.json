@@ -6,7 +6,7 @@
   "equipment": [
     "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati"
   ],
-  "description": "Vendor product line read 2026-11-24. Built by Sembcorp Marine, Singapore (2019); US$1.5 billion build cost stated (dollar year not given).",
+  "description": "Vendor product line read 2026-11-24. Built by Sembcorp Marine, Singapore (2019); US$1.5 billion build cost stated (dollar year not given). Primary source: https://en.wikipedia.org/wiki/SSCV_Sleipnir",
   "specifications": [
     {
       "metric": "Tandem lift",
@@ -16,7 +16,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Main hoist at 27-48 m radius",
@@ -26,7 +27,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Max main-hoist radius",
@@ -36,7 +38,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": 102
+      "value": 102,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Auxiliary hoist",
@@ -46,7 +49,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": 2500
+      "value": 2500,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - Huisman main crane capacity (each)",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - tandem lift capacity",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - displacement",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": 273700
+      "value": 273700,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - length / beam",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "220 m (720 ft) / 102 m (335 ft)"
+      "value": "220 m (720 ft) / 102 m (335 ft)",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - draft",
@@ -92,7 +100,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
       "low": 12,
-      "high": 32
+      "high": 32,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - main hoist capacity vs radius",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "10,000 t at 27-48 m radius; 7,000 t up to 62 m; 4,000 t at 82 m; max radius 102 m"
+      "value": "10,000 t at 27-48 m radius; 7,000 t up to 62 m; 4,000 t at 82 m; max radius 102 m",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - auxiliary hoist",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "2,500 t at 33-60 m radius"
+      "value": "2,500 t at 33-60 m radius",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - whip hoist",
@@ -119,7 +130,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "200 t at 37-153 m radius"
+      "value": "200 t at 37-153 m radius",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - third crane",
@@ -128,7 +140,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "70 t at up to 12 m radius to 2,000 m below waterline"
+      "value": "70 t at up to 12 m radius to 2,000 m below waterline",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - installed power",
@@ -137,7 +150,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "12 x 8 MW dual-fuel (MGO or LNG) engines"
+      "value": "12 x 8 MW dual-fuel (MGO or LNG) engines",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - propulsion",
@@ -146,7 +160,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": "8 Wartsila azimuth thrusters, 5.5 MW each"
+      "value": "8 Wartsila azimuth thrusters, 5.5 MW each",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - LNG fuel capacity",
@@ -155,7 +170,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": 8000
+      "value": 8000,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Sleipnir - boom length",
@@ -164,7 +180,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
       },
-      "value": 144
+      "value": 144,
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     }
   ],
   "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",

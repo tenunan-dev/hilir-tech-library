@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Ammonia plant control system, analysers and safety systems | Instrumentation and control rooms",
+  "description": "Ammonia plant control system, analysers and safety systems | Instrumentation and control rooms Primary source: https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
   "specifications": [
     {
       "metric": "Uhde dual-pressure compressor size comparison",
@@ -19,7 +19,8 @@
         "url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde",
         "source_id": "thyssenkrupp-industrial-solutions-com-ammonia-plants-500mtpd-das-z"
       },
-      "value": "syngas compressor for 3300 t/day dual-pressure plant same size as conventional 2200 t/day plant"
+      "value": "syngas compressor for 3300 t/day dual-pressure plant same size as conventional 2200 t/day plant",
+      "source_url": "https://www.thyssenkrupp-industrial-solutions.com/de/produkte-und-services/duengemittelanlagen/ammonia-plants-by-uhde/ammonia-plants-500mtpd/das-zweidruckverfahren-von-uhde"
     },
     {
       "metric": "Casale FlexAMMONIA plant turndown",
@@ -30,7 +31,8 @@
         "source_id": "casale-ch-ammonia"
       },
       "low": 10,
-      "high": 100
+      "high": 100,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Casale FlexAMMONIA ramp rate",
@@ -40,7 +42,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "high": 3
+      "high": 3,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "PASB Kerteh OTS control systems",
@@ -50,7 +53,8 @@
         "url": "https://s3.amazonaws.com/aramis-craft-medias/case_studies/pdf/36-Petronas-PGSB-PASB-Malaysia-OTS.pdf",
         "source_id": "s3-amazonaws-com-pdf-36-petronas-pgsb-pasb-malaysia-ots-pdf"
       },
-      "value": "Yokogawa CS3000 emulation"
+      "value": "Yokogawa CS3000 emulation",
+      "source_url": "https://s3.amazonaws.com/aramis-craft-medias/case_studies/pdf/36-Petronas-PGSB-PASB-Malaysia-OTS.pdf"
     },
     {
       "metric": "Natural gas to ammonia process control example",
@@ -60,7 +64,8 @@
         "url": "https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf",
         "source_id": "blogs-ubc-ca-01-201-220-final-report-pdf"
       },
-      "value": "steam flow control with control valve CV-101 and emergency shutdown valve"
+      "value": "steam flow control with control valve CV-101 and emergency shutdown valve",
+      "source_url": "https://blogs.ubc.ca/rajdeepdev/files/2020/01/201_220-final-report.pdf"
     }
   ],
   "vendors": [

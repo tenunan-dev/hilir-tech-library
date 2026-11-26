@@ -6,7 +6,7 @@
   "equipment": [
     "steam-traps-condensate-return"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us PowerTrap (Mechanical Pump) GP Series page with full model table.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us PowerTrap (Mechanical Pump) GP Series page with full model table. Primary source: https://www.tlv.com/en-us/products/condensate-recovery/powertrap",
   "specifications": [
     {
       "metric": "GP5C maximum operating pressure",
@@ -16,7 +16,8 @@
         "source_id": "tlv-com-condensate-recovery-powertrap"
       },
       "unit": "psig",
-      "value": "75"
+      "value": "75",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP5C condensate recovery",
@@ -26,7 +27,8 @@
         "source_id": "tlv-com-condensate-recovery-powertrap"
       },
       "unit": "lb/h",
-      "value": "320"
+      "value": "320",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10 maximum operating pressure",
@@ -36,7 +38,8 @@
         "source_id": "tlv-com-condensate-recovery-powertrap"
       },
       "unit": "psig",
-      "value": "150"
+      "value": "150",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10 condensate recovery",
@@ -46,7 +49,8 @@
         "source_id": "tlv-com-condensate-recovery-powertrap"
       },
       "unit": "lb/h",
-      "value": "18,600"
+      "value": "18,600",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10F maximum operating temperature",
@@ -56,7 +60,8 @@
         "source_id": "tlv-com-condensate-recovery-powertrap"
       },
       "unit": "deg F",
-      "value": "428"
+      "value": "428",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP14 maximum operating pressure",
@@ -66,7 +71,8 @@
         "source_id": "tlv-com-condensate-recovery-powertrap"
       },
       "unit": "psig",
-      "value": "200"
+      "value": "200",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "Power source",
@@ -76,7 +82,8 @@
         "source_id": "tlv-com-condensate-recovery-powertrap"
       },
       "unit": "n/a",
-      "value": "steam or compressed air; no electricity required"
+      "value": "steam or compressed air; no electricity required",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP5C - PMO / TMO",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "75 psig / 365 degF"
+      "value": "75 psig / 365 degF",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP5C - motive medium pressure range / recovery",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "5-75 psig; 320 lb/h"
+      "value": "5-75 psig; 320 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10 - PMO / TMO",
@@ -103,7 +112,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "150 psig / 365 degF"
+      "value": "150 psig / 365 degF",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10 - motive medium pressure range / recovery",
@@ -112,7 +122,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "5-150 psig; 18,600 lb/h"
+      "value": "5-150 psig; 18,600 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10L - PMO / TMO / recovery",
@@ -121,7 +132,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "150 psig / 365 degF; 3,640 lb/h"
+      "value": "150 psig / 365 degF; 3,640 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10M - PMO / TMO / recovery",
@@ -130,7 +142,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "150 psig / 365 degF; 5,070 lb/h"
+      "value": "150 psig / 365 degF; 5,070 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10F - PMO / TMO / recovery",
@@ -139,7 +152,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "150 psig / 428 degF; 18,600 lb/h"
+      "value": "150 psig / 428 degF; 18,600 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP14 - PMO / TMO / recovery",
@@ -148,7 +162,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "200 psig / 392 degF; 13,000 lb/h"
+      "value": "200 psig / 392 degF; 13,000 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP14-B - PMO / TMO / recovery",
@@ -157,7 +172,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "200 psig / 392 degF; 16,000 lb/h"
+      "value": "200 psig / 392 degF; 16,000 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP14L - PMO / TMO / recovery",
@@ -166,7 +182,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "200 psig / 428 degF; 4,850 lb/h"
+      "value": "200 psig / 428 degF; 4,850 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP14M - PMO / TMO / recovery",
@@ -175,7 +192,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "200 psig / 428 degF; 7,200 lb/h"
+      "value": "200 psig / 428 degF; 7,200 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "PowerTrap GP - motive medium / operation",
@@ -184,7 +202,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "Powered by steam or compressed air (no electricity); snap-action mechanism; for open systems; suitable for explosion-proof installations"
+      "value": "Powered by steam or compressed air (no electricity); snap-action mechanism; for open systems; suitable for explosion-proof installations",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     }
   ],
   "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap",

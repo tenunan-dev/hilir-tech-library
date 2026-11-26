@@ -6,7 +6,7 @@
   "equipment": [
     "ci-field-transmitters-pressure-temperature-flow-level"
   ],
-  "description": "Page read in full. Accuracy is NOT stated as a fixed number: 'Performance specifications ... are not directly comparable to single phase measurement instruments'; project-specific sizing/uncertainty is prepared from operator flow data. No accuracy figure asserted.",
+  "description": "Page read in full. Accuracy is NOT stated as a fixed number: 'Performance specifications ... are not directly comparable to single phase measurement instruments'; project-specific sizing/uncertainty is prepared from operator flow data. No accuracy figure asserted. Primary source: https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
   "specifications": [
     {
       "metric": "Meter sizes available",
@@ -16,7 +16,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
-      "value": 6
+      "value": 6,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Gas volume fraction operating envelope",
@@ -27,7 +28,8 @@
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Water liquid ratio operating envelope",
@@ -38,7 +40,8 @@
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Sour service design standard",
@@ -48,7 +51,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
-      "value": "NACE MR0175 / ISO 15156"
+      "value": "NACE MR0175 / ISO 15156",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Host communication protocols",
@@ -58,7 +62,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
-      "value": "Modbus, OPC UA, HTTPS"
+      "value": "Modbus, OPC UA, HTTPS",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Typical calibration/verification interval",
@@ -68,7 +73,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
-      "value": "yearly"
+      "value": "yearly",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     }
   ],
   "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",

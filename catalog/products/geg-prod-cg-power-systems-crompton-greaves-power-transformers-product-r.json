@@ -6,7 +6,7 @@
   "equipment": [
     "geg-power-transformers"
   ],
-  "description": "power transformer",
+  "description": "power transformer Primary source: https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
   "specifications": [
     {
       "metric": "Power transformer manufacturing range",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
         "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
-      }
+      },
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Voltage class range",
@@ -32,7 +33,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
         "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
-      }
+      },
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Annual manufacturing capacity",
@@ -43,7 +45,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",
         "source_id": "geg-pdf-directindustry-com-13988-206783-html-3fa8c8a"
-      }
+      },
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Insulation level at 132 kV connection point (User Apparatus BIL)",
@@ -54,7 +57,8 @@
       "source": {
         "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
         "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
-      }
+      },
+      "source_url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf"
     },
     {
       "metric": "Insulation level at 33 kV",
@@ -65,7 +69,8 @@
       "source": {
         "url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf",
         "source_id": "geg-st-gov-my-planning-and-connection-codes-for-e15af3e"
-      }
+      },
+      "source_url": "https://st.gov.my/sites/default/files/2026-02/planning-and-connection-codes-for-sabah-16th-june-2014.pdf"
     },
     {
       "metric": "Highest voltage for equipment Um (definition)",
@@ -75,7 +80,8 @@
       "source": {
         "url": "https://electrical-engineering-portal.com/wp-content/uploads/2024/10/IEC-60076-1-Power-Transformers-General.pdf",
         "source_id": "geg-electrical-engineering-portal-com-iec-60076-cebdb0c"
-      }
+      },
+      "source_url": "https://electrical-engineering-portal.com/wp-content/uploads/2024/10/IEC-60076-1-Power-Transformers-General.pdf"
     },
     {
       "metric": "Manufacturing capacity",
@@ -84,7 +90,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": 75000
+      "value": 75000,
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "India production",
@@ -93,7 +100,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": 30000
+      "value": 30000,
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Plants",
@@ -102,7 +110,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Countries served",
@@ -111,7 +120,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": 135
+      "value": 135,
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Transformer range",
@@ -120,7 +130,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": "5 kVA to 575,000 kVA (1.5 M kVA in a bank)"
+      "value": "5 kVA to 575,000 kVA (1.5 M kVA in a bank)",
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Voltage class",
@@ -129,7 +140,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": "3.3 kV to 765 kV"
+      "value": "3.3 kV to 765 kV",
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "UHV reference",
@@ -138,7 +150,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": "750 kV transformers supplied in 1977; 800 kV class"
+      "value": "750 kV transformers supplied in 1977; 800 kV class",
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "765 kV unit",
@@ -147,7 +160,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": "260 MVA, 765 kV, single phase generator transformer"
+      "value": "260 MVA, 765 kV, single phase generator transformer",
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Standards",
@@ -156,7 +170,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": "IS, IEC, EN, AS, BS, ANSI, CSA"
+      "value": "IS, IEC, EN, AS, BS, ANSI, CSA",
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Certifications",
@@ -165,7 +180,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": "ISO 9001, ISO 14001, OSHAS 18001"
+      "value": "ISO 9001, ISO 14001, OSHAS 18001",
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Installed base",
@@ -174,7 +190,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": "over 600 units installed in 75 countries"
+      "value": "over 600 units installed in 75 countries",
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Company sales",
@@ -183,7 +200,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": "over INR 138.5 Billion (US$3 Billion approx)"
+      "value": "over INR 138.5 Billion (US$3 Billion approx)",
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Core construction",
@@ -192,7 +210,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": "CRGO low loss silicon steel; Hi-B grade and laser scribed laminations; five-limb core"
+      "value": "CRGO low loss silicon steel; Hi-B grade and laser scribed laminations; five-limb core",
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     },
     {
       "metric": "Winding conductor",
@@ -201,7 +220,8 @@
       "source": {
         "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
       },
-      "value": "electrolytic grade copper or epoxy bonded continuously transposed conductors (CTC)"
+      "value": "electrolytic grade copper or epoxy bonded continuously transposed conductors (CTC)",
+      "source_url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html"
     }
   ],
   "url": "https://pdf.directindustry.com/pdf/cg-power-systems/power-transformers/13988-206783.html",

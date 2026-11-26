@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Page read",
+  "description": "Vendor product line read 2026-11-24. Page read Primary source: https://www.liebherr.com/en-us/p/lrb23-4424791",
   "specifications": [
     {
       "metric": "Operating weight",
@@ -16,7 +16,8 @@
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
         "source_id": "liebherr-com-p-lrb23-4424791"
       },
-      "value": "72.6–78.5"
+      "value": "72.6–78.5",
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Max torque",
@@ -26,7 +27,8 @@
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
         "source_id": "liebherr-com-p-lrb23-4424791"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Crowd force",
@@ -36,7 +38,8 @@
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
         "source_id": "liebherr-com-p-lrb23-4424791"
       },
-      "value": 320
+      "value": 320,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Engine power",
@@ -46,7 +49,8 @@
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",
         "source_id": "liebherr-com-p-lrb23-4424791"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Operating weight",
@@ -56,7 +60,8 @@
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
       "low": 72.6,
-      "high": 78.5
+      "high": 78.5,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Max. torque",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Max. crowd force",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": 320
+      "value": 320,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Engine power",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Max. pile length with vibrator, slim design",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": 22.0
+      "value": 22.0,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Applications",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": "Kelly drilling, double rotary drilling, full displacement equipment, continuous flight auger, soil mixing, vibrator or hydraulic hammer"
+      "value": "Kelly drilling, double rotary drilling, full displacement equipment, continuous flight auger, soil mixing, vibrator or hydraulic hammer",
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Position in range",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": "closes the gap between the LRB 16 and the LRB 355"
+      "value": "closes the gap between the LRB 16 and the LRB 355",
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Assistant systems",
@@ -119,7 +130,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": "Automatic shake-off, drilling assistant, radio remote control, ground pressure indication, leader adjustment, obstacle recognition, winch automation, display of auger filling level, Kelly visualizatio"
+      "value": "Automatic shake-off, drilling assistant, radio remote control, ground pressure indication, leader adjustment, obstacle recognition, winch automation, display of auger filling level, Kelly visualizatio",
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     }
   ],
   "url": "https://www.liebherr.com/en-us/p/lrb23-4424791",

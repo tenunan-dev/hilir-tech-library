@@ -6,7 +6,7 @@
   "equipment": [
     "urea-control-safety-ventilation"
   ],
-  "description": "Vendor product line read 2026-11-24. Ultrasonic sound-velocity + density; immersion sensors typically DN80 at decomposer outlet.",
+  "description": "Vendor product line read 2026-11-24. Ultrasonic sound-velocity + density; immersion sensors typically DN80 at decomposer outlet. Primary source: https://www.sensotech.com/en/urea-production",
   "specifications": [
     {
       "metric": "concentration range",
@@ -17,7 +17,8 @@
         "source_id": "sensotech-com-en-urea-production"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "temperature range",
@@ -28,7 +29,8 @@
         "source_id": "sensotech-com-en-urea-production"
       },
       "low": -10,
-      "high": 140
+      "high": 140,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "sensors per Controller 30",
@@ -38,7 +40,8 @@
         "url": "https://www.sensotech.com/en/urea-production",
         "source_id": "sensotech-com-en-urea-production"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     }
   ],
   "url": "https://www.sensotech.com/en/urea-production",

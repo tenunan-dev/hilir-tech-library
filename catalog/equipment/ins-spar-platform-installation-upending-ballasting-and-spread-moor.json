@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Transport spar hull horizontally (wet tow or dry tow), upend by controlled ballasting/flooding, connect spread mooring (chain-wire-chain or chain-polyester-chain), then install topsides by crane or float-over.",
+  "description": "Transport spar hull horizontally (wet tow or dry tow), upend by controlled ballasting/flooding, connect spread mooring (chain-wire-chain or chain-polyester-chain), then install topsides by crane or float-over. Primary source: https://en.wikipedia.org/wiki/Spar_(platform)",
   "specifications": [
     {
       "metric": "Spar configurations",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
         "source_id": "en-wikipedia-org-wiki-spar-platform"
       },
-      "value": "classic (one-piece cylinder); truss (hard tank + truss + soft tank); cell (cluster of small cylinders)"
+      "value": "classic (one-piece cylinder); truss (hard tank + truss + soft tank); cell (cluster of small cylinders)",
+      "source_url": "https://en.wikipedia.org/wiki/Spar_(platform)"
     },
     {
       "metric": "Deepest spar / deepest mooring",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
         "source_id": "en-wikipedia-org-wiki-spar-platform"
       },
-      "value": "Perdido truss spar, 2,438 m mean water depth; deepest seabed mooring 2,383 m"
+      "value": "Perdido truss spar, 2,438 m mean water depth; deepest seabed mooring 2,383 m",
+      "source_url": "https://en.wikipedia.org/wiki/Spar_(platform)"
     },
     {
       "metric": "APAC spar example",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
         "source_id": "en-wikipedia-org-wiki-spar-platform"
       },
-      "value": "Kikeh truss spar, 1,310 m, Malaysia, 2007, Murphy Oil, designed by Technip"
+      "value": "Kikeh truss spar, 1,310 m, Malaysia, 2007, Murphy Oil, designed by Technip",
+      "source_url": "https://en.wikipedia.org/wiki/Spar_(platform)"
     },
     {
       "metric": "Cell spar example",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
         "source_id": "en-wikipedia-org-wiki-spar-platform"
       },
-      "value": "Red Hawk: 7 cells of 8 m diameter; decommissioned 2014 under Rigs-to-Reefs"
+      "value": "Red Hawk: 7 cells of 8 m diameter; decommissioned 2014 under Rigs-to-Reefs",
+      "source_url": "https://en.wikipedia.org/wiki/Spar_(platform)"
     },
     {
       "metric": "First production spar",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
         "source_id": "en-wikipedia-org-wiki-spar-platform"
       },
-      "value": "Neptune, classic spar, 588 m, Gulf of Mexico, installed September 1996"
+      "value": "Neptune, classic spar, 588 m, Gulf of Mexico, installed September 1996",
+      "source_url": "https://en.wikipedia.org/wiki/Spar_(platform)"
     }
   ],
   "vendors": [

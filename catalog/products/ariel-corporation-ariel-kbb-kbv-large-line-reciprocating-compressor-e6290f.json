@@ -6,7 +6,7 @@
   "equipment": [
     "fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru"
   ],
-  "description": "Full pressure lubrication with frame-driven lube oil pump and divider-block cylinder/packing lubrication. Linked KBBV product spec sheet is a PDF (not read).",
+  "description": "Full pressure lubrication with frame-driven lube oil pump and divider-block cylinder/packing lubrication. Linked KBBV product spec sheet is a PDF (not read). Primary source: https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
   "specifications": [
     {
       "metric": "Rated power (4 throw / 6 throw)",
@@ -17,7 +17,8 @@
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
       "low": 6668,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Stroke",
@@ -28,7 +29,8 @@
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
       "low": 7.25,
-      "high": 8.5
+      "high": 8.5,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Max RPM",
@@ -39,7 +41,8 @@
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
       "low": 750,
-      "high": 900
+      "high": 900,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Total rod load",
@@ -49,7 +52,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
-      "value": 190000
+      "value": 190000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Tension load",
@@ -59,7 +63,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
-      "value": 95000
+      "value": 95000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Compression load",
@@ -69,7 +74,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
-      "value": 100000
+      "value": 100000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Rod diameter",
@@ -79,7 +85,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
-      "value": 3.125
+      "value": 3.125,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Average weight (4 throw / 6 throw)",
@@ -90,7 +97,8 @@
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
       "low": 79000,
-      "high": 115000
+      "high": 115000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Nominal width",
@@ -100,7 +108,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
-      "value": 228
+      "value": 228,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Crankshaft centerline",
@@ -110,7 +119,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
-      "value": 27
+      "value": 27,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Rated power (4 throw KBB/KBV)",
@@ -119,7 +129,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 6668
+      "value": 6668,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Rated power (6 throw KBB/KBV)",
@@ -128,7 +139,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Stroke KBB",
@@ -137,7 +149,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 7.25
+      "value": 7.25,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Stroke KBV",
@@ -146,7 +159,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 8.5
+      "value": 8.5,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Max RPM KBB",
@@ -155,7 +169,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 900
+      "value": 900,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Max RPM KBV",
@@ -164,7 +179,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 750
+      "value": 750,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Piston speed KBB",
@@ -173,7 +189,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 1088
+      "value": 1088,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Piston speed KBV",
@@ -182,7 +199,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 1063
+      "value": 1063,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Rod diameter",
@@ -191,7 +209,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 3.125
+      "value": 3.125,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Total rod load",
@@ -200,7 +219,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 190000
+      "value": 190000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Tension rod load",
@@ -209,7 +229,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 95000
+      "value": 95000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Compression rod load",
@@ -218,7 +239,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 100000
+      "value": 100000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Average weight (4 throw)",
@@ -227,7 +249,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 79000
+      "value": 79000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Average weight (6 throw)",
@@ -236,7 +259,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 115000
+      "value": 115000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Max length (4 throw)",
@@ -245,7 +269,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 144
+      "value": 144,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Max length (6 throw)",
@@ -254,7 +279,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 188
+      "value": 188,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Nominal width",
@@ -263,7 +289,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 228
+      "value": 228,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Crankshaft centerline height",
@@ -272,7 +299,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 27
+      "value": 27,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     }
   ],
   "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",

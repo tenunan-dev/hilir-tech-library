@@ -6,7 +6,7 @@
   "equipment": [
     "ammonia-synthesis-converter"
   ],
-  "description": "Vendor product line read 2026-11-24. KM111 optimized for lower converter bed; KM1R/KMR111 pre-reduced variants.",
+  "description": "Vendor product line read 2026-11-24. KM111 optimized for lower converter bed; KM1R/KMR111 pre-reduced variants. Primary source: https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
   "specifications": [
     {
       "metric": "Share of world ammonia produced with KM1",
@@ -16,7 +16,8 @@
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",
         "source_id": "topsoe-com-ammonia-synthesis"
       },
-      "value": "over half of the world's ammonia"
+      "value": "over half of the world's ammonia",
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Catalyst type",
@@ -24,7 +25,8 @@
       "basis": "\"KM1 is an iron-based ammonia synthesis catalyst\"",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Application",
@@ -32,7 +34,8 @@
       "basis": "\"used in the majority of the world's ammonia converters to convert synthesis gas containing hydrogen and nitrogen into ammonia\"",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Share of world ammonia production",
@@ -41,7 +44,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Company experience in ammonia synthesis",
@@ -50,7 +54,8 @@
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     },
     {
       "metric": "Related catalyst family",
@@ -58,7 +63,8 @@
       "basis": "KM 111 (magnetite-based, lower bed), KM1R (pre-reduced iron-based with promoters, reduced activation time), KMR 111 (pre-reduced lower bed)",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis"
     }
   ],
   "url": "https://www.topsoe.com/solutions/outputs/ammonia/synthesis",

@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Remove elemental mercury from gas to protect brazed aluminium plate-fin heat exchangers in cryogenic recovery/liquefaction plants.",
+  "description": "Remove elemental mercury from gas to protect brazed aluminium plate-fin heat exchangers in cryogenic recovery/liquefaction plants. Primary source: https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
   "specifications": [
     {
       "metric": "Typical inlet mercury concentration",
@@ -19,7 +19,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
       },
-      "value": "1-10"
+      "value": "1-10",
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal"
     },
     {
       "metric": "Designed outlet mercury concentration",
@@ -29,7 +30,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
       },
-      "value": "0.001"
+      "value": "0.001",
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal"
     }
   ],
   "vendors": [

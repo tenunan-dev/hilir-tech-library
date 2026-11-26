@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Gas detection (ammonia detectors, fire and gas system)",
+  "description": "Gas detection (ammonia detectors, fire and gas system) Primary source: https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
   "specifications": [
     {
       "metric": "Ultrasonic leak detector range",
@@ -20,7 +20,8 @@
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
       "low": 17,
-      "high": 28
+      "high": 28,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Laser open-path NH3 measuring range",
@@ -30,7 +31,8 @@
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
-      "high": 15000
+      "high": 15000,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Point catalytic bead range",
@@ -41,7 +43,8 @@
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Point electrochemical NH3 range",
@@ -51,7 +54,8 @@
         "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
         "source_id": "assetlibrary-msasafety-com-6665051d-29a4-4b6e-8a7a-eafeeb851ede-te"
       },
-      "value": "0-100 ppm and 0-1,000 ppm"
+      "value": "0-100 ppm and 0-1,000 ppm",
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     }
   ],
   "vendors": [

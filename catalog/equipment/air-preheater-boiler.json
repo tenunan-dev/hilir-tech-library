@@ -2,7 +2,7 @@
   "id": "air-preheater-boiler",
   "name": "Boiler air preheater",
   "equipment_type": "heat-exchanger",
-  "description": "Heat exchanger that transfers heat from outgoing flue gas to incoming combustion air. Regenerative (rotary) designs use a rotating matrix or baskets; recuperative designs use tubular or plate elements. B&W supplies air heaters and notes the cold-end metal temperature is generally approximated from the average gas and air temperatures.",
+  "description": "Heat exchanger that transfers heat from outgoing flue gas to incoming combustion air. Regenerative (rotary) designs use a rotating matrix or baskets; recuperative designs use tubular or plate elements. B&W supplies air heaters and notes the cold-end metal temperature is generally approximated from the average gas and air temperatures. Primary source: https://www.babcock.com/home/products/air-heaters",
   "specifications": [
     {
       "metric": "cold-end metal temperature basis",
@@ -12,7 +12,8 @@
         "source_id": "bw-air-heaters"
       },
       "unit": "qualitative",
-      "value": "average of gas and air inlet temperatures"
+      "value": "average of gas and air inlet temperatures",
+      "source_url": "https://www.babcock.com/home/products/air-heaters"
     },
     {
       "metric": "product scope",
@@ -22,7 +23,8 @@
         "source_id": "bw-air-heaters"
       },
       "unit": "qualitative",
-      "value": "tubular and regenerative air heaters"
+      "value": "tubular and regenerative air heaters",
+      "source_url": "https://www.babcock.com/home/products/air-heaters"
     },
     {
       "metric": "Function",
@@ -32,7 +34,8 @@
         "source_id": "johnzink-com-products"
       },
       "unit": "qualitative",
-      "value": "Advanced combustion solutions for indirect-fired process gas heating applications"
+      "value": "Advanced combustion solutions for indirect-fired process gas heating applications",
+      "source_url": "https://www.johnzink.com/products"
     },
     {
       "metric": "Characteristics",
@@ -42,7 +45,8 @@
         "source_id": "johnzink-com-products"
       },
       "unit": "qualitative",
-      "value": "Clean air contact with products and high efficiency in heat transfer"
+      "value": "Clean air contact with products and high efficiency in heat transfer",
+      "source_url": "https://www.johnzink.com/products"
     },
     {
       "metric": "Product description",
@@ -51,7 +55,8 @@
       "source": {
         "url": "https://www.johnzink.com/products"
       },
-      "value": "advanced combustion solutions designed for indirect-fired process gas heating applications, ensuring clean air contact with products and high efficiency in heat transfer"
+      "value": "advanced combustion solutions designed for indirect-fired process gas heating applications, ensuring clean air contact with products and high efficiency in heat transfer",
+      "source_url": "https://www.johnzink.com/products"
     },
     {
       "metric": "Related waste gas destruction efficiency",
@@ -60,7 +65,8 @@
       "source": {
         "url": "https://www.johnzink.com/products"
       },
-      "high": 98
+      "high": 98,
+      "source_url": "https://www.johnzink.com/products"
     }
   ],
   "vendors": [

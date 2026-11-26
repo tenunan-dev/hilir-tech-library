@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Urea solution / hot urea solution tanks and pumps (UAN, UAS, AdBlue)",
+  "description": "Urea solution / hot urea solution tanks and pumps (UAN, UAS, AdBlue) Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
   "specifications": [
     {
       "metric": "UAN nitrogen content",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": 32
+      "value": 32,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "UAN share of US liquid fertilizers",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "DEF/AdBlue composition",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Urea",
         "source_id": "en-wikipedia-org-wiki-urea"
       },
-      "value": "32.5% urea, 67.5% de-ionized water"
+      "value": "32.5% urea, 67.5% de-ionized water",
+      "source_url": "https://en.wikipedia.org/wiki/Urea"
     },
     {
       "metric": "inline urea concentration measurement range",
@@ -50,7 +53,8 @@
         "source_id": "sensotech-com-en-urea-production"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.sensotech.com/en/urea-production"
     },
     {
       "metric": "STAMI SPECIALTIES liquid products",
@@ -60,7 +64,8 @@
         "url": "https://ureaknowhow.com/stamicarbon/",
         "source_id": "ureaknowhow-com-stamicarbon"
       },
-      "value": "enables production of liquid UAN and granular UAS"
+      "value": "enables production of liquid UAN and granular UAS",
+      "source_url": "https://ureaknowhow.com/stamicarbon/"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "duct-burner-hrsg"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Power Burners page directly with WebFetch (markdown). Same page also describes register-style and PDH air heater duct burners.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Power Burners page directly with WebFetch (markdown). Same page also describes register-style and PDH air heater duct burners. Primary source: https://www.zeeco.com/products/burners/power-burners?hsLang=en",
   "specifications": [
     {
       "metric": "Support design",
@@ -16,7 +16,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "design feature",
-      "value": "Self-supporting; eliminates internal fixed structural support"
+      "value": "Self-supporting; eliminates internal fixed structural support",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Flame stabilizer",
@@ -26,7 +27,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "design feature",
-      "value": "Optimized drilled wing orifice pattern producing short, compact flame"
+      "value": "Optimized drilled wing orifice pattern producing short, compact flame",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Application",
@@ -36,7 +38,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "application",
-      "value": "HRSG and Turbine Exhaust Gas (TEG) supplementary firing"
+      "value": "HRSG and Turbine Exhaust Gas (TEG) supplementary firing",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Burner design",
@@ -44,7 +47,8 @@
       "basis": "Zeeco: 'TEG+ burners use flame stabilizers featuring an optimized drilled wing orifice pattern to create a short, compact flame. The nozzle design features pilot flame propagation drilling and varying orifice sizes throughout the runner'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Support structure",
@@ -52,7 +56,8 @@
       "basis": "Zeeco: 'Our self-supporting burners eliminate the need for internal fixed structural support, which can cause binding and overall deformation – dramatically reducing installation time and material costs.'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Applications",
@@ -60,7 +65,8 @@
       "basis": "Zeeco: 'supplementary firing for heat recovery steam generators (HRSG), Flue Gas preheat for Selective Catalytic Reduction (SCR), Combined Cycle / Co-Gen, or other air heating applications'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Register-style option",
@@ -68,7 +74,8 @@
       "basis": "Zeeco: 'register-style duct burner ... delivers high efficiency and excellent reliability across a wide range of both gaseous and liquid fuels'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     }
   ],
   "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en",

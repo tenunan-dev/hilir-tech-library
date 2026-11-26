@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Decouple structure from ground motion using laminated rubber/lead-rubber/friction-pendulum bearings and dissipate energy; monitored by robotic total stations, GNSS and geotechnical sensors.",
+  "description": "Decouple structure from ground motion using laminated rubber/lead-rubber/friction-pendulum bearings and dissipate energy; monitored by robotic total stations, GNSS and geotechnical sensors. Primary source: https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
   "specifications": [
     {
       "metric": "Bridgestone seismic isolation product line",
@@ -19,7 +19,8 @@
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
         "source_id": "bridgestone-com-antiseismic-rubber-product-html"
       },
-      "value": "HDR / LRB / NRB / Elastic Sliding Bearing"
+      "value": "HDR / LRB / NRB / Elastic Sliding Bearing",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "Trimble S9 angular accuracy",
@@ -29,7 +30,8 @@
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
         "source_id": "geospatial-trimble-com-hardware-trimble-s9"
       },
-      "value": "0.5 or 1"
+      "value": "0.5 or 1",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 HP EDM accuracy",
@@ -39,7 +41,8 @@
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
         "source_id": "geospatial-trimble-com-hardware-trimble-s9"
       },
-      "value": "0.8 mm + 1 ppm prism / 3.0 mm + 2 ppm DR"
+      "value": "0.8 mm + 1 ppm prism / 3.0 mm + 2 ppm DR",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     }
   ],
   "vendors": [

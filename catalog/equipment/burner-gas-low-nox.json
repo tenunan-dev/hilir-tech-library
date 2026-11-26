@@ -2,7 +2,7 @@
   "id": "burner-gas-low-nox",
   "name": "Low-NOx gas burner (package and ultra-low-NOx)",
   "equipment_type": "burner",
-  "description": "Burner that stages fuel and air, delays mixing or recirculates flue gas to lower flame temperature and NOx formation. Package gas burners span roughly 10-500 MMBtu/hr with 10:1 turndown; ultra-low-NOx versions reach single-digit ppm NOx with flue-gas recirculation or surface-stabilised premixed combustion. Used on fire-tube, water-tube and hot-water boilers and on refinery fired heaters.",
+  "description": "Burner that stages fuel and air, delays mixing or recirculates flue gas to lower flame temperature and NOx formation. Package gas burners span roughly 10-500 MMBtu/hr with 10:1 turndown; ultra-low-NOx versions reach single-digit ppm NOx with flue-gas recirculation or surface-stabilised premixed combustion. Used on fire-tube, water-tube and hot-water boilers and on refinery fired heaters. Primary source: https://cleaverbrooks.com/product/sbr30-burner",
   "specifications": [
     {
       "metric": "NOx, natural gas without FGR",
@@ -12,7 +12,8 @@
         "source_id": "cb-sbr30-burner"
       },
       "unit": "ppm at about 3% O2",
-      "value": 30
+      "value": 30,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "heat input, SBR-30",
@@ -23,7 +24,8 @@
       },
       "unit": "MMBtu/hr",
       "low": 16.8,
-      "high": 54.6
+      "high": 54.6,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "heat input, SBR-5",
@@ -34,7 +36,8 @@
       },
       "unit": "MMBtu/hr",
       "low": 10.5,
-      "high": 42
+      "high": 42,
+      "source_url": "https://cleaverbrooks.com/product/sbr5-burner"
     },
     {
       "metric": "NOx with induced FGR",
@@ -44,7 +47,8 @@
         "source_id": "cb-sbr5-burner"
       },
       "unit": "ppm",
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/sbr5-burner"
     },
     {
       "metric": "NOx ladder versus excess air, Zeeco PLN",
@@ -55,7 +59,8 @@
       },
       "unit": "ppm",
       "low": 9,
-      "high": 40
+      "high": 40,
+      "source_url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner"
     },
     {
       "metric": "heat release, Zeeco PLN/GO",
@@ -66,7 +71,8 @@
       },
       "unit": "MMBtu/hr",
       "low": 2.5,
-      "high": 63
+      "high": 63,
+      "source_url": "https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner"
     },
     {
       "metric": "NOx with staged flame and internal FGR",
@@ -76,7 +82,8 @@
         "source_id": "zeeco-go-burner"
       },
       "unit": "ppm",
-      "value": 30
+      "value": 30,
+      "source_url": "https://zeeco.com/resources/brochures/go-ultra-low-nox-package-burner"
     },
     {
       "metric": "NOx without FGR, ECOjet Edge+",
@@ -86,7 +93,8 @@
         "source_id": "jz-ecojet-edge"
       },
       "unit": "ppm",
-      "value": 15
+      "value": 15,
+      "source_url": "https://johnzink.com/products/powerburners/ecojet-edge-plus"
     },
     {
       "metric": "NOx, surface-stabilised premix burner",
@@ -96,7 +104,8 @@
         "source_id": "alzeta-ulnox"
       },
       "unit": "ppm at 3% O2",
-      "value": 5
+      "value": 5,
+      "source_url": "https://alzeta.com/ultra-low-nox-burners"
     },
     {
       "metric": "turndown, package gas burners",
@@ -106,7 +115,8 @@
         "source_id": "cb-sbr30-burner"
       },
       "unit": ":1",
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Firing capacity",
@@ -116,7 +126,8 @@
         "source_id": "johnzink-com-powerburners-qln"
       },
       "unit": "MMBTU/hr HHV (up to)",
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "NOx reduction mechanism",
@@ -126,7 +137,8 @@
         "source_id": "johnzink-com-powerburners-qln"
       },
       "unit": "design feature",
-      "value": "Advanced air/fuel premixing and fuel staging; internal FGR"
+      "value": "Advanced air/fuel premixing and fuel staging; internal FGR",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "Fuels",
@@ -136,7 +148,8 @@
         "source_id": "johnzink-com-powerburners-qln"
       },
       "unit": "fuel options",
-      "value": "Natural gas, produced gas, syn gas, #2 fuel oil, bitumen"
+      "value": "Natural gas, produced gas, syn gas, #2 fuel oil, bitumen",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "Application",
@@ -146,7 +159,8 @@
         "source_id": "johnzink-com-powerburners-qln"
       },
       "unit": "application",
-      "value": "Once-through steam generators (OTSGs) and heaters"
+      "value": "Once-through steam generators (OTSGs) and heaters",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "NOx emissions",
@@ -156,7 +170,8 @@
         "source_id": "cleaverbrooks-com-product-sbr30-burner"
       },
       "unit": "ppm NOx (less than, without FGR)",
-      "value": 30
+      "value": 30,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Natural gas input",
@@ -167,7 +182,8 @@
       },
       "unit": "MMBTU/hr",
       "low": 16.8,
-      "high": 54.6
+      "high": 54.6,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Boiler horsepower",
@@ -178,7 +194,8 @@
       },
       "unit": "HP",
       "low": 400,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Oil input",
@@ -189,7 +206,8 @@
       },
       "unit": "US GPH",
       "low": 120,
-      "high": 390
+      "high": 390,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Turndown",
@@ -199,7 +217,8 @@
         "source_id": "cleaverbrooks-com-product-sbr30-burner"
       },
       "unit": ":1 (up to, gas)",
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Furnace pressure",
@@ -210,7 +229,8 @@
       },
       "unit": "inches water column (unit not printed in table)",
       "low": 3.6,
-      "high": 5.6
+      "high": 5.6,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Minimum gas pressure",
@@ -220,7 +240,8 @@
         "source_id": "cleaverbrooks-com-product-sbr30-burner"
       },
       "unit": "table value (unit not printed)",
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Mode of operation",
@@ -230,7 +251,8 @@
         "source_id": "cleaverbrooks-com-product-sbr30-burner"
       },
       "unit": "control mode",
-      "value": "Full modulation; parallel positioning standard"
+      "value": "Full modulation; parallel positioning standard",
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "O2 level",
@@ -239,7 +261,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Turndown ratio",
@@ -248,7 +271,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Gas input",
@@ -259,7 +283,8 @@
       },
       "value": 16.8,
       "low": 54.6,
-      "high": "MMBTU/hr"
+      "high": "MMBTU/hr",
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "Backup fuel",
@@ -267,7 +292,8 @@
       "basis": "'Can fire #2 fuel oil as back up fuel'; 'Fuel: Gas, Oil'",
       "source": {
         "url": "https://cleaverbrooks.com/product/sbr30-burner"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "QLN burner - firing capacity",
@@ -276,7 +302,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/qln"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "QLN burner - fuels",
@@ -285,7 +312,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/qln"
       },
-      "value": "Gas and #2/light oil firing"
+      "value": "Gas and #2/light oil firing",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "QLN burner - NOx reduction method",
@@ -294,7 +322,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/qln"
       },
-      "value": "Advanced air/fuel premixing, fuel staging and internal flue gas recirculation (FGR)"
+      "value": "Advanced air/fuel premixing, fuel staging and internal flue gas recirculation (FGR)",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "QLN burner - applications",
@@ -303,7 +332,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/qln"
       },
-      "value": "Once-through steam generators (OTSGs) and heaters; diffuse flame for process heaters"
+      "value": "Once-through steam generators (OTSGs) and heaters; diffuse flame for process heaters",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "Heat input",
@@ -312,7 +342,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "high": 360
+      "high": 360,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Fuel flexibility",
@@ -321,7 +352,8 @@
       "source": {
         "url": "https://www.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/GB-Low-NOx-Power-Burner-RGB.pdf?hsLang=en"
       },
-      "value": "natural gas, #6/#2 fuel oils, to low-Btu gases (blast furnace gas)"
+      "value": "natural gas, #6/#2 fuel oils, to low-Btu gases (blast furnace gas)",
+      "source_url": "https://www.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/GB-Low-NOx-Power-Burner-RGB.pdf?hsLang=en"
     },
     {
       "metric": "Retrofit",
@@ -330,7 +362,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": "The GB burner installation can be recognized with little to no pressure part modifications"
+      "value": "The GB burner installation can be recognized with little to no pressure part modifications",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Tip exposure",
@@ -339,7 +372,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "high": 1
+      "high": 1,
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Quality system",
@@ -348,7 +382,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
       },
-      "value": "ISO 9001: 2015 / ISO 9001 accredited"
+      "value": "ISO 9001: 2015 / ISO 9001 accredited",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     }
   ],
   "vendors": [

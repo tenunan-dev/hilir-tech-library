@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "TEMPSC/free-fall lifeboats, rescue boats and launched liferafts for evacuation from fixed platforms, rigs and FPSOs.",
+  "description": "TEMPSC/free-fall lifeboats, rescue boats and launched liferafts for evacuation from fixed platforms, rigs and FPSOs. Primary source: https://www.viking-life.com/product-insights",
   "specifications": [
     {
       "metric": "VIKING Norsafe free-fall approved drop height",
@@ -19,7 +19,8 @@
         "url": "https://www.viking-life.com/product-insights",
         "source_id": "viking-life-com-www-viking-life-com-product-insights"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.viking-life.com/product-insights"
     },
     {
       "metric": "VIKING offshore evacuation system height capability",
@@ -29,7 +30,8 @@
         "url": "https://www.viking-life.com/product-insights",
         "source_id": "viking-life-com-www-viking-life-com-product-insights"
       },
-      "value": 81
+      "value": 81,
+      "source_url": "https://www.viking-life.com/product-insights"
     },
     {
       "metric": "VIKING compact lifeboat capacities",
@@ -39,7 +41,8 @@
         "url": "https://www.viking-life.com/product-insights",
         "source_id": "viking-life-com-www-viking-life-com-product-insights"
       },
-      "value": "40 / 52"
+      "value": "40 / 52",
+      "source_url": "https://www.viking-life.com/product-insights"
     }
   ],
   "vendors": [

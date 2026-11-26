@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. Proprietary flexible pipe product for flow assurance in viscous oil, deepwater and pressure-constrained conditions.",
+  "description": "Vendor product line read 2026-11-24. Proprietary flexible pipe product for flow assurance in viscous oil, deepwater and pressure-constrained conditions. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
   "specifications": [
     {
       "metric": "Construction",
@@ -16,7 +16,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
         "source_id": "sys-technipfmc-com"
       },
-      "value": "flexible production riser with thermal insulation layers, additional hoses for gas lift/other services, active heating through electric cables, fluid temperature monitoring with optical fibres"
+      "value": "flexible production riser with thermal insulation layers, additional hoses for gas lift/other services, active heating through electric cables, fluid temperature monitoring with optical fibres",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Product type",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "proprietary flexible production riser"
+      "value": "proprietary flexible production riser",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Features",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, fluid temperature monitoring with optical fibers"
+      "value": "thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, fluid temperature monitoring with optical fibers",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Flexible pipe construction",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "leakproof thermoplastic barriers and corrosion-resistant steel wires, helically wound"
+      "value": "leakproof thermoplastic barriers and corrosion-resistant steel wires, helically wound",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Performance",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "high-pressure resistance, excellent bending characteristics, flexibility, superior dynamic performance"
+      "value": "high-pressure resistance, excellent bending characteristics, flexibility, superior dynamic performance",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Retrievability",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "can be easily retrieved to be reused on another field development or for decommissioning"
+      "value": "can be easily retrieved to be reused on another field development or for decommissioning",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Related riser",
@@ -70,7 +76,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "Freestanding Hybrid Riser (FSHR): vertical steel pipe tensioned by near-surface buoyancy can, flexible jumper, rigid base jumper"
+      "value": "Freestanding Hybrid Riser (FSHR): vertical steel pipe tensioned by near-surface buoyancy can, flexible jumper, rigid base jumper",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",

@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Detect fire and gas, mitigate fire escalation with water deluge, and shut down or blow down the installation safely.",
+  "description": "Detect fire and gas, mitigate fire escalation with water deluge, and shut down or blow down the installation safely. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

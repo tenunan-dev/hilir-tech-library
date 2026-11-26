@@ -13,7 +13,7 @@
     "REF",
     "UPS"
   ],
-  "description": "Gravity oil-water separators at the head of an industrial effluent train: long baffled API-type basins designed to API 421, or corrugated/tilted plate pack (CPI/PPI) coalescers that reach smaller droplets in a smaller footprint. Skimmed oil is recovered; the oily water flows on to flotation and biological treatment.",
+  "description": "Gravity oil-water separators at the head of an industrial effluent train: long baffled API-type basins designed to API 421, or corrugated/tilted plate pack (CPI/PPI) coalescers that reach smaller droplets in a smaller footprint. Skimmed oil is recovered; the oily water flows on to flotation and biological treatment. Primary source: https://oil-water-separators.com/when-why-we-started/the-technical-implications-of-api-421",
   "applications": [
     "refinery and petrochemical effluent trains",
     "produced-water de-oiling",
@@ -29,7 +29,8 @@
       "source": {
         "url": "https://oil-water-separators.com/when-why-we-started/the-technical-implications-of-api-421",
         "note": "API 421 implications summary, read 2026-11-18"
-      }
+      },
+      "source_url": "https://oil-water-separators.com/when-why-we-started/the-technical-implications-of-api-421"
     },
     {
       "metric": "design effluent free-oil concentration",
@@ -40,7 +41,8 @@
       "source": {
         "url": "https://www.panamenv.com/wp-content/uploads/2022/06/API-OIL-WATER-SEPARATOR.pdf",
         "note": "Panam API separator note, read 2026-11-18"
-      }
+      },
+      "source_url": "https://www.panamenv.com/wp-content/uploads/2022/06/API-OIL-WATER-SEPARATOR.pdf"
     },
     {
       "metric": "CPI removable droplet size",
@@ -51,7 +53,8 @@
       "source": {
         "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
         "note": "Baldwin refinery note, read 2026-11-18"
-      }
+      },
+      "source_url": "https://www.baldwin.com.au/industries/petroleum-refineries"
     },
     {
       "metric": "design residence time",
@@ -62,7 +65,8 @@
       "source": {
         "url": "https://www.baldwin.com.au/industries/petroleum-refineries",
         "note": "Baldwin refinery note, read 2026-11-18"
-      }
+      },
+      "source_url": "https://www.baldwin.com.au/industries/petroleum-refineries"
     }
   ],
   "vendors": [

@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Handles high-pressure, toxic, flammable or high-purity gases where hermetic separation or zero leakage is required; applicable to CO2 injection and hydrogen compression packages as well as specialty gas service.",
+  "description": "Handles high-pressure, toxic, flammable or high-purity gases where hermetic separation or zero leakage is required; applicable to CO2 injection and hydrogen compression packages as well as specialty gas service. Primary source: https://www.arielcorp.com/compressors/kbh.html",
   "specifications": [
     {
       "metric": "Ariel KBH suction pressure",
@@ -19,7 +19,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Ariel KBH discharge pressure",
@@ -29,7 +30,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Howden hybrid pressure increase",
@@ -39,7 +41,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Diaphragm compressor package electrolyser sizing",
@@ -50,7 +53,8 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "low": 5,
-      "high": 10
+      "high": 10,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
   "vendors": [

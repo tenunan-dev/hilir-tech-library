@@ -2,7 +2,7 @@
   "id": "economizer-boiler",
   "name": "Boiler economizer (feedwater heat recovery)",
   "equipment_type": "heat-exchanger",
-  "description": "Heat exchanger that raises feedwater temperature using flue gas leaving the boiler or superheater, cutting fuel use. Spirax Sarco gives about a 2% efficiency gain per 10 C rise in feedwater temperature; condensing economisers cool gas below the dew point and need corrosion-resistant surfaces.",
+  "description": "Heat exchanger that raises feedwater temperature using flue gas leaving the boiler or superheater, cutting fuel use. Spirax Sarco gives about a 2% efficiency gain per 10 C rise in feedwater temperature; condensing economisers cool gas below the dew point and need corrosion-resistant surfaces. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/miscellaneous-boiler-types-economisers-and-superheaters?sc_lang=en-GB",
   "specifications": [
     {
       "metric": "efficiency improvement per feedwater temperature rise",
@@ -12,7 +12,8 @@
         "source_id": "spirax-boiler-misc"
       },
       "unit": "% per 10 degC",
-      "value": 2
+      "value": 2,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/miscellaneous-boiler-types-economisers-and-superheaters?sc_lang=en-GB"
     },
     {
       "metric": "feedtank fuel effect",
@@ -22,7 +23,8 @@
         "source_id": "spirax-feedtank"
       },
       "unit": "% per 6 degC",
-      "value": 1
+      "value": 1,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/the-feedtank-and-feedwater-conditioning?sc_lang=en-GB"
     },
     {
       "metric": "economizer metal temperature rise offline",
@@ -33,7 +35,8 @@
       },
       "unit": "degC/h",
       "low": 17,
-      "high": 28
+      "high": 28,
+      "source_url": "https://babcock.com/home/about/resources/learning-center/boiler-cycling-considerations"
     },
     {
       "metric": "integrated condensing heat-exchanger efficiency",
@@ -43,7 +46,8 @@
         "source_id": "cb-cfce"
       },
       "unit": "%",
-      "value": 96
+      "value": 96,
+      "source_url": "https://cleaverbrooks.com/product/cfce"
     },
     {
       "metric": "boiler horsepower heat-transfer convention",
@@ -53,7 +57,8 @@
         "source_id": "etb-boiler-horsepower"
       },
       "unit": "sq ft/BHP",
-      "value": 5
+      "value": 5,
+      "source_url": "https://engineeringtoolbox.com/boiler-horsepower-d_1061.html"
     },
     {
       "metric": "Applicable boiler size",
@@ -63,7 +68,8 @@
         "source_id": "cleaverbrooks-com-product-c2x"
       },
       "unit": "HP (up to)",
-      "value": 2500
+      "value": 2500,
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Construction",
@@ -73,7 +79,8 @@
         "source_id": "cleaverbrooks-com-product-c2x"
       },
       "unit": "configuration",
-      "value": "Two-stage: separate non-condensing stack section and condensing section"
+      "value": "Two-stage: separate non-condensing stack section and condensing section",
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Tube material",
@@ -83,7 +90,8 @@
         "source_id": "cleaverbrooks-com-product-c2x"
       },
       "unit": "material",
-      "value": "316 stainless steel tube with aluminum fins (Al-Fuse)"
+      "value": "316 stainless steel tube with aluminum fins (Al-Fuse)",
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Condensing fuel basis",
@@ -93,7 +101,8 @@
         "source_id": "cleaverbrooks-com-product-c2x"
       },
       "unit": "fuel basis",
-      "value": "Condenses on natural gas only; near-condensing mode on #2 oil"
+      "value": "Condenses on natural gas only; near-condensing mode on #2 oil",
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Efficiency boost",
@@ -104,7 +113,8 @@
       },
       "unit": "%",
       "low": 3,
-      "high": 5
+      "high": 5,
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
     },
     {
       "metric": "Applicable boilers",
@@ -114,7 +124,8 @@
         "source_id": "cleaverbrooks-com-boiler-room-equipment-economizers"
       },
       "unit": "applicability",
-      "value": "ClearFire-H and CBT boilers from 10-80 HP, high or low pressure steam"
+      "value": "ClearFire-H and CBT boilers from 10-80 HP, high or low pressure steam",
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
     },
     {
       "metric": "Compatible boiler horsepower",
@@ -124,7 +135,8 @@
         "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
       },
       "low": 10,
-      "high": 80
+      "high": 80,
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
     },
     {
       "metric": "Boiler size applicability",
@@ -133,7 +145,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
       },
-      "value": 2500
+      "value": 2500,
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Economizer stages",
@@ -142,7 +155,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Design pressure applicability",
@@ -150,7 +164,8 @@
       "basis": "'Accommodates all boiler design pressures'",
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Tube core material",
@@ -158,7 +173,8 @@
       "basis": "'Tube core assemblies are individually removable and made from 316 stainless steel tube with aluminum fins (Al-Fuse)'",
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Gas-side surfaces material",
@@ -166,7 +182,8 @@
       "basis": "'316 stainless steel exhaust gas bypass, interior shell, condensate drain, and transition connections'; 'All gas side surfaces are 316 stainless steel to eliminate corrosion'",
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     },
     {
       "metric": "Fuel for condensing operation",
@@ -174,7 +191,8 @@
       "basis": "'Condenses on natural gas only'; switches to near-condensing mode when firing #2 oil",
       "source": {
         "url": "https://cleaverbrooks.com/product/c2x"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/product/c2x"
     }
   ],
   "vendors": [

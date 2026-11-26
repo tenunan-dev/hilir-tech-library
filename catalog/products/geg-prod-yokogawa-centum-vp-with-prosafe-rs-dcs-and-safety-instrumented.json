@@ -6,7 +6,7 @@
   "equipment": [
     "geg-plant-control-system"
   ],
-  "description": "DCS and safety instrumented system",
+  "description": "DCS and safety instrumented system Primary source: https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
   "specifications": [
     {
       "metric": "maximum operation/monitoring tags",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
-      }
+      },
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Vnet/IP link transmission period",
@@ -29,7 +30,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
-      }
+      },
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "IEC 61850 IED communication package",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
-      }
+      },
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "safety system certification",
@@ -49,7 +52,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
-      }
+      },
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "remote I/O fibre distance",
@@ -59,7 +63,8 @@
       "year": 2014,
       "source": {
         "url": "https://www.yokogawa.com/us/solutions/products-and-services/control/control-and-safety-system/distributed-control-systems-dcs/centum/"
-      }
+      },
+      "source_url": "https://www.yokogawa.com/us/solutions/products-and-services/control/control-and-safety-system/distributed-control-systems-dcs/centum/"
     },
     {
       "metric": "ProSafe-RS - SIL certification",
@@ -68,7 +73,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "TUV certified as a safety system satisfying SIL 3 of IEC 61508"
+      "value": "TUV certified as a safety system satisfying SIL 3 of IEC 61508",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - Vnet/IP communication speed",
@@ -77,7 +83,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - Vnet/IP devices per domain",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": 64
+      "value": 64,
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - domains per system",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": 16
+      "value": 16,
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - stations per system",
@@ -104,7 +113,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": 256
+      "value": 256,
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - operation/monitoring tags",
@@ -113,7 +123,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": 100000
+      "value": 100000,
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - domain layers via Vnet routers",
@@ -122,7 +133,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "3 layers (2 layers for bus converter, 3 layers for Vnet)"
+      "value": "3 layers (2 layers for bus converter, 3 layers for Vnet)",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - minimum system configuration",
@@ -131,7 +143,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "HIS x 1, ENG x 1, FCS x 1 (HIS and ENG can be consolidated in one computer)"
+      "value": "HIS x 1, ENG x 1, FCS x 1 (HIS and ENG can be consolidated in one computer)",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - supported OS",
@@ -140,7 +153,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "Windows Vista Business, Windows 7 Professional, Windows Server 2008 Standard, Windows Server 2008 R2 Standard"
+      "value": "Windows Vista Business, Windows 7 Professional, Windows Server 2008 Standard, Windows Server 2008 R2 Standard",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "CENTUM VP - subsystem communication protocols",
@@ -149,7 +163,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "Serial (ALR111/ALR121), Ethernet (ALE111), PROFIBUS-DP (ALP121/ALP111), Modbus, EtherNet/IP, OPC DA, IEC 61850 IED, FOUNDATION fieldbus, HART, field wireless ISA 100.11a"
+      "value": "Serial (ALR111/ALR121), Ethernet (ALE111), PROFIBUS-DP (ALP121/ALP111), Modbus, EtherNet/IP, OPC DA, IEC 61850 IED, FOUNDATION fieldbus, HART, field wireless ISA 100.11a",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     }
   ],
   "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",

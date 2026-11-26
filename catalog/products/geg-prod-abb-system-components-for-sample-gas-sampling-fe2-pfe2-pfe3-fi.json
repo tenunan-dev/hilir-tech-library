@@ -6,7 +6,7 @@
   "equipment": [
     "geg-sampling-system"
   ],
-  "description": "gas sampling and sample conditioning system components",
+  "description": "gas sampling and sample conditioning system components Primary source: https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
   "specifications": [
     {
       "metric": "filter fineness FE2 / PFE2 / PFE3",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter retention rate",
@@ -27,7 +28,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 process gas sampling pressure",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 process gas temperature maximum",
@@ -50,7 +53,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 sample gas flow",
@@ -62,7 +66,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 dust content application recommendation",
@@ -73,7 +78,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 dead volume",
@@ -84,7 +90,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "CGWB 13 heated sample line maximum length",
@@ -95,7 +102,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "heated line holding temperature",
@@ -106,7 +114,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "modular probe system regulatory applicability",
@@ -116,7 +125,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",
         "source_id": "geg-library-e-abb-com-10-23-510-06-en-pdf-d8be36d"
-      }
+      },
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - process gas pressure (p_abs)",
@@ -126,7 +136,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 50,
-      "high": 600
+      "high": 600,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - process gas temperature max",
@@ -135,7 +146,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - coated temperature max",
@@ -144,7 +156,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 180
+      "value": 180,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - flow rate (relative to 100 kPa, 0 degC)",
@@ -154,7 +167,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 30,
-      "high": 500
+      "high": 500,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - pressure drop",
@@ -163,7 +177,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 0.6
+      "value": 0.6,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - dust content application recommendation max",
@@ -172,7 +187,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - dust content max with probe tube type 40 + purge-back",
@@ -181,7 +197,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - dust content max with probe tube type 60",
@@ -190,7 +207,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - instrument air pressure max for purge-back",
@@ -199,7 +217,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - filter fineness",
@@ -208,7 +227,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 0.3
+      "value": 0.3,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - retention rate",
@@ -217,7 +237,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 99.98
+      "value": 99.98,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - seal integrity",
@@ -226,7 +247,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "10^-4 hPa l/s"
+      "value": "10^-4 hPa l/s",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - dead volume",
@@ -235,7 +257,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 280
+      "value": 280,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - casing and connections material",
@@ -244,7 +267,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "Special steel Mat. No. 1.4571"
+      "value": "Special steel Mat. No. 1.4571",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - flange material",
@@ -253,7 +277,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "Special steel Mat. No. 1.4541"
+      "value": "Special steel Mat. No. 1.4541",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - filter element",
@@ -262,7 +287,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "Aluminum oxide surface filter"
+      "value": "Aluminum oxide surface filter",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - coating",
@@ -271,7 +297,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "Thermoset plastic, resistant up to 180 degC"
+      "value": "Thermoset plastic, resistant up to 180 degC",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - mounting flange",
@@ -280,7 +307,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "DN 65, PN 6, Form B to DIN 2573"
+      "value": "DN 65, PN 6, Form B to DIN 2573",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - weight",
@@ -289,7 +317,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 8.0
+      "value": 8.0,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "FE2 filter - connection ports",
@@ -298,7 +327,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "Sample/test gas G 1/4; compressed air G 1/2; probe tube G 3/4 internal thread to DIN ISO 228/1"
+      "value": "Sample/test gas G 1/4; compressed air G 1/2; probe tube G 3/4 internal thread to DIN ISO 228/1",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Annular heating element - power supply",
@@ -307,7 +337,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "115 VAC or 230 VAC, 50 to 60 Hz"
+      "value": "115 VAC or 230 VAC, 50 to 60 Hz",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Annular heating element - heater output",
@@ -317,7 +348,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 50,
-      "high": 200
+      "high": 200,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Annular heating element - heater temperature unregulated",
@@ -327,7 +359,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 120,
-      "high": 180
+      "high": 180,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Annular heating element - ambient temperature",
@@ -337,7 +370,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 0,
-      "high": 55
+      "high": 55,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Annular heating element - degree of protection",
@@ -346,7 +380,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "IP50"
+      "value": "IP50",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Annular heating element - weight",
@@ -355,7 +390,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 1.7
+      "value": 1.7,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heating sleeve - holding temperature max",
@@ -364,7 +400,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heating sleeve - temperature control max",
@@ -373,7 +410,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heating sleeve - power supply / consumption",
@@ -382,7 +420,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "115 VAC or 230 VAC; 250 VA"
+      "value": "115 VAC or 230 VAC; 250 VA",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heating sleeve - ambient temperature",
@@ -392,7 +431,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": -20,
-      "high": 45
+      "high": 45,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heating sleeve - degree of protection",
@@ -401,7 +441,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "IP54"
+      "value": "IP54",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE2 - protective case dimensions (H x W x D)",
@@ -410,7 +451,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "450 x 450 x 400 mm"
+      "value": "450 x 450 x 400 mm",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE2 - protective case material",
@@ -419,7 +461,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "Special steel Mat. No. 1.4301"
+      "value": "Special steel Mat. No. 1.4301",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE2 - protective case degree of protection",
@@ -428,7 +471,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "IP54"
+      "value": "IP54",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE2 - protective case weight",
@@ -437,7 +481,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 18
+      "value": 18,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE2 - pneumatic valve operating/control pressure",
@@ -446,7 +491,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE2 - pneumatic valve nominal diameter",
@@ -455,7 +501,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "DN 12"
+      "value": "DN 12",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE2 - control solenoid valve pressure range",
@@ -464,7 +511,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE2 - control solenoid valve nominal diameter",
@@ -473,7 +521,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "DN 2.0"
+      "value": "DN 2.0",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE2 - control solenoid valve power consumption",
@@ -482,7 +531,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 8
+      "value": 8,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - process gas pressure (p_abs)",
@@ -492,7 +542,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 50,
-      "high": 600
+      "high": 600,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - process gas temperature max",
@@ -501,7 +552,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - flow rate",
@@ -511,7 +563,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 30,
-      "high": 500
+      "high": 500,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - filter fineness",
@@ -520,7 +573,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 0.3
+      "value": 0.3,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - dead volume",
@@ -529,7 +583,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 280
+      "value": 280,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - filter element dimensions",
@@ -538,7 +593,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "50 / 20 x 135 mm"
+      "value": "50 / 20 x 135 mm",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - heater type and output",
@@ -547,7 +603,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "Self-regulating heater (400 W)"
+      "value": "Self-regulating heater (400 W)",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - heater temperature",
@@ -556,7 +613,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 180
+      "value": 180,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - temperature alarm",
@@ -565,7 +623,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - gas-carrying parts material",
@@ -574,7 +633,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "Special steel Mat. No. 1.4571; seals FPM"
+      "value": "Special steel Mat. No. 1.4571; seals FPM",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - protective case dimensions (H x W x D)",
@@ -583,7 +643,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "270 x 203 x 330 mm"
+      "value": "270 x 203 x 330 mm",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "PFE3 - protective case weight",
@@ -592,7 +653,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 17
+      "value": 17,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 40/40W probe tube - process gas pressure (p_abs)",
@@ -602,7 +664,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 50,
-      "high": 500
+      "high": 500,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 40 probe tube - temperature max SS 1.4571",
@@ -611,7 +674,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 40 probe tube - temperature max SS 1.4893",
@@ -620,7 +684,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 900
+      "value": 900,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 40 probe tube - temperature max silicon carbide",
@@ -629,7 +694,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 1300
+      "value": 1300,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 40W probe tube - temperature max SS 1.4571 heated",
@@ -638,7 +704,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 40 probe tube - flow rate max",
@@ -647,7 +714,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 40 probe tube - pressure drop",
@@ -656,7 +724,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 42 heated probe tube - process gas pressure (p_abs)",
@@ -665,7 +734,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 42 heated probe tube - temperature",
@@ -674,7 +744,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 42 heated probe tube - flow rate max",
@@ -683,7 +754,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 42 heated probe tube - flow velocity max",
@@ -692,7 +764,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 42 heated probe tube - T90 time",
@@ -701,7 +774,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 0.4
+      "value": 0.4,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 42 heated probe tube - heat output (1000 mm)",
@@ -710,7 +784,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "2 x 200 W"
+      "value": "2 x 200 W",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 42 heated probe tube - heat output (1500 mm)",
@@ -719,7 +794,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "2 x 300 W"
+      "value": "2 x 300 W",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 42 heated probe tube - heat output (2000 mm)",
@@ -728,7 +804,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "2 x 400 W"
+      "value": "2 x 400 W",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 42 heated probe tube - control temperature max",
@@ -737,7 +814,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 60 probe tube - process gas pressure (p_abs) max",
@@ -746,7 +824,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 60 probe tube - temperature max (by length)",
@@ -755,7 +834,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "1200 degC @3500 mm; 1250 @3000; 1300 @2500; 1350 @2000; 1400 @1500 mm"
+      "value": "1200 degC @3500 mm; 1250 @3000; 1300 @2500; 1350 @2000; 1400 @1500 mm",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 60 probe tube - flow rate max",
@@ -764,7 +844,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 60 probe tube - dust content max",
@@ -773,7 +854,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 60 probe tube - cooling water outlet temperature",
@@ -783,7 +865,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 50,
-      "high": 85
+      "high": 85,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 60 probe tube - cooling water pressure (p_abs) max",
@@ -792,7 +875,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Type 60 probe tube - cooling water quantity circulated",
@@ -801,7 +885,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 2 - process gas pressure (p_abs) max",
@@ -810,7 +895,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 2 - temperature max partly heated / heated",
@@ -819,7 +905,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "450 degC (partly heated); 130 degC (heated)"
+      "value": "450 degC (partly heated); 130 degC (heated)",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 2 - flow rate max",
@@ -828,7 +915,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 2 - dust content max",
@@ -837,7 +925,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "20 g/m3 (application recommendation); 100 g/m3 with purging"
+      "value": "20 g/m3 (application recommendation); 100 g/m3 with purging",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 2 - purging pressure max",
@@ -846,7 +935,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 2 - T90 time",
@@ -855,7 +945,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 2 - filter fineness",
@@ -864,7 +955,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 0.3
+      "value": 0.3,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 2 - tube heating output",
@@ -873,7 +965,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "650 W (1200 mm); 255 W partially heated"
+      "value": "650 W (1200 mm); 255 W partially heated",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 11 - gas temperature",
@@ -883,7 +976,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": -25,
-      "high": 50
+      "high": 50,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 11 - sample gas flow rate max",
@@ -892,7 +986,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 11 - dust content max",
@@ -901,7 +996,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Probe 11 - pressure drop with new filter",
@@ -910,7 +1006,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Ceramic filter - flow rate (air) max",
@@ -919,7 +1016,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Ceramic filter - gas pressure (p_abs)",
@@ -929,7 +1027,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 20,
-      "high": 1700
+      "high": 1700,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Ceramic filter - pressure drop",
@@ -939,7 +1038,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 0.1,
-      "high": 0.85
+      "high": 0.85,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Ceramic filter - filter fineness",
@@ -948,7 +1048,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 0.3
+      "value": 0.3,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Ceramic filter - filter surface",
@@ -957,7 +1058,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 212
+      "value": 212,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Ceramic filter - weight",
@@ -966,7 +1068,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 2.1
+      "value": 2.1,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Process pressure reducer - inlet pressure max",
@@ -975,7 +1078,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "1.5 MPa (15 bar) / 3.5 MPa (35 bar)"
+      "value": "1.5 MPa (15 bar) / 3.5 MPa (35 bar)",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Process pressure reducer - outlet pressure adjustable",
@@ -984,7 +1088,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "0.8 to 10 kPa / 10 to 40 kPa / 10 to 70 kPa"
+      "value": "0.8 to 10 kPa / 10 to 40 kPa / 10 to 70 kPa",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Process pressure reducer - flow rate",
@@ -994,7 +1099,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": 25,
-      "high": 250
+      "high": 250,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Process pressure reducer - gas and ambient temperature max",
@@ -1003,7 +1109,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line CGWB 13 - heat output",
@@ -1012,7 +1119,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "16 W/m (frost), 30 W/m (self-regulating), 60 W/m (parallel regulated)"
+      "value": "16 W/m (frost), 30 W/m (self-regulating), 60 W/m (parallel regulated)",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line CGWB 13 - power supply",
@@ -1021,7 +1129,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "230 V or 115 V, 50 to 60 Hz"
+      "value": "230 V or 115 V, 50 to 60 Hz",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line CGWB 13 - ambient temperature",
@@ -1031,7 +1140,8 @@
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
       "low": -30,
-      "high": 60
+      "high": 60,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line CGWB 13 - maximum line length",
@@ -1040,7 +1150,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "130 m (frost), 90 m (self-reg), 60 m (parallel)"
+      "value": "130 m (frost), 90 m (self-reg), 60 m (parallel)",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line CGWB 13 - minimum bending radius",
@@ -1049,7 +1160,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line CGWB 13 - outer diameter",
@@ -1058,7 +1170,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "30 / 43 / 40 mm (frost/self-reg/parallel)"
+      "value": "30 / 43 / 40 mm (frost/self-reg/parallel)",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line TBL 01 - heat output",
@@ -1067,7 +1180,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "30 W/m (self-reg), 90 W/m (fixed resistor), 47 W/m (TBL 01-C 120 degC)"
+      "value": "30 W/m (self-reg), 90 W/m (fixed resistor), 47 W/m (TBL 01-C 120 degC)",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line TBL 01 - holding temperature",
@@ -1076,7 +1190,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "100 / 120 / 200 degC (depending on version)"
+      "value": "100 / 120 / 200 degC (depending on version)",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line TBL 01 - maximum line length",
@@ -1085,7 +1200,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "100 m (TBL 01-S), 70 m (TBL 01-C), 40 m (TBL 01-E)"
+      "value": "100 m (TBL 01-S), 70 m (TBL 01-C), 40 m (TBL 01-E)",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line TBL 01 - minimum bending radius",
@@ -1094,7 +1210,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     },
     {
       "metric": "Heated sample gas line - medium-carrying pipe",
@@ -1103,7 +1220,8 @@
       "source": {
         "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
       },
-      "value": "PTFE 6 x 4 x 1 mm or 8 x 6 x 1 mm"
+      "value": "PTFE 6 x 4 x 1 mm or 8 x 6 x 1 mm",
+      "source_url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf"
     }
   ],
   "url": "https://library.e.abb.com/public/c4bd7c9596c8fdd3c1257b0c00546943/10-23-510-06-EN.pdf",

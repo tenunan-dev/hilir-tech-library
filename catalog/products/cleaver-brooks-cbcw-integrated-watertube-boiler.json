@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-gas-water-tube-package"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/cbcw-integrated-watertube",
   "specifications": [
     {
       "metric": "Steam capacity",
@@ -17,7 +17,8 @@
       },
       "unit": "lb/hr",
       "low": 10000,
-      "high": 225000
+      "high": 225000,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "Design pressure (steam)",
@@ -28,7 +29,8 @@
       },
       "unit": "psig",
       "low": 100,
-      "high": 550
+      "high": 550,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "Steam temperature",
@@ -38,7 +40,8 @@
         "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
       },
       "unit": "steam condition",
-      "value": "Saturated"
+      "value": "Saturated",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "NOx emissions",
@@ -48,7 +51,8 @@
         "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
       },
       "unit": "ppm NOx (less than)",
-      "value": 9
+      "value": 9,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "Furnace construction",
@@ -58,7 +62,8 @@
         "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
       },
       "unit": "construction",
-      "value": "100% membrane water-cooled, refractory free"
+      "value": "100% membrane water-cooled, refractory free",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "Fuels",
@@ -68,7 +73,8 @@
         "source_id": "cleaverbrooks-com-product-cbcw-integrated-watertube"
       },
       "unit": "fuel options",
-      "value": "Natural gas, propane, digester gas, #2 light oil"
+      "value": "Natural gas, propane, digester gas, #2 light oil",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "steam_flows",
@@ -78,7 +84,8 @@
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
       "low": 10000,
-      "high": 225000
+      "high": 225000,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "steam_pressure",
@@ -88,7 +95,8 @@
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
       "low": 100,
-      "high": 550
+      "high": 550,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "steam_temperature",
@@ -97,7 +105,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Saturated"
+      "value": "Saturated",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "NOx_emissions",
@@ -106,7 +115,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "high": 9
+      "high": 9,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "NOx_with_ultra_low_burner_and_SCR",
@@ -115,7 +125,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "high": 2
+      "high": 2,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "boiler_efficiency_option Gain",
@@ -124,7 +135,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "fuels",
@@ -133,7 +145,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Natural Gas, Propane, Digester, #2 Light Oil"
+      "value": "Natural Gas, Propane, Digester, #2 Light Oil",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "boiler_style",
@@ -142,7 +155,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "D-type, O-type"
+      "value": "D-type, O-type",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "assembly",
@@ -151,7 +165,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Shop Assembled"
+      "value": "Shop Assembled",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "circulation",
@@ -160,7 +175,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Natural Circulation"
+      "value": "Natural Circulation",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "construction",
@@ -169,7 +185,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Membrane Wall Construction"
+      "value": "Membrane Wall Construction",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "delivery_time_reduction",
@@ -178,7 +195,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "high": 12
+      "high": 12,
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     },
     {
       "metric": "applications",
@@ -187,7 +205,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
       },
-      "value": "Process Steam, Industrial Process, Building Heat, Institutional, Hospital and Healthcare, Pharmaceutical, Pulp and Paper"
+      "value": "Process Steam, Industrial Process, Building Heat, Institutional, Hospital and Healthcare, Pharmaceutical, Pulp and Paper",
+      "source_url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube"
     }
   ],
   "url": "https://cleaverbrooks.com/product/cbcw-integrated-watertube",

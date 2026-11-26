@@ -6,7 +6,7 @@
   "equipment": [
     "ci-wirelesshart-industrial-wireless-mesh-024e52"
   ],
-  "description": "Page read in full; no numeric electrical or dimensional specification table was printed on this product page.",
+  "description": "Page read in full; no numeric electrical or dimensional specification table was printed on this product page. Primary source: https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater",
   "specifications": [
     {
       "metric": "Data reliability",
@@ -16,7 +16,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater",
         "source_id": "cat-emerson-com-rosemount-synchros-wireless-repeater"
       },
-      "low": ">99"
+      "low": ">99",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
     },
     {
       "metric": "Mounting",
@@ -26,7 +27,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater",
         "source_id": "cat-emerson-com-rosemount-synchros-wireless-repeater"
       },
-      "value": "directly mounts to process piping without cutting or changing pipe configurations"
+      "value": "directly mounts to process piping without cutting or changing pipe configurations",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater"
     }
   ],
   "url": "https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater",

@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Transfer column, wall and equipment loads to near-surface bearing strata by spread footings, combined pads, rafts or mat foundations; commonly used for tanks, pumps, pipe-rack columns and small equipment where surface soils are competent.",
+  "description": "Transfer column, wall and equipment loads to near-surface bearing strata by spread footings, combined pads, rafts or mat foundations; commonly used for tanks, pumps, pipe-rack columns and small equipment where surface soils are competent. Primary source: https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design",
   "specifications": [
     {
       "metric": "Eurocode 7 scope",
@@ -19,7 +19,8 @@
         "url": "https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design",
         "source_id": "eurocodes-jrc-ec-europa-eu-en-eurocodes-eurocode-7-geotechnical-de"
       },
-      "value": "EN 1997-1:2004 / EN 1997-2:2007"
+      "value": "EN 1997-1:2004 / EN 1997-2:2007",
+      "source_url": "https://eurocodes.jrc.ec.europa.eu/EN-Eurocodes/eurocode-7-geotechnical-design"
     },
     {
       "metric": "Axle load",
@@ -29,7 +30,8 @@
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
         "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Axle compensation",
@@ -39,7 +41,8 @@
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
         "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Width",
@@ -49,7 +52,8 @@
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
         "source_id": "goldhofer-com-heavyduty-modules-towed-thp-sl"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "edition",
@@ -59,7 +63,8 @@
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/",
         "source_id": "dnv-com-dnv-st-0126-support-structures-for-wind-turbines"
       },
-      "value": "2021-12"
+      "value": "2021-12",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
     },
     {
       "metric": "rated mooring capacity",
@@ -69,7 +74,8 @@
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
         "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "ViscoCrete-1000 water reduction",
@@ -79,7 +85,8 @@
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
         "source_id": "usa-sika-com-air-entrainers-sika-air-html"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "Sika AIR dosage",
@@ -89,7 +96,8 @@
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
         "source_id": "usa-sika-com-air-entrainers-sika-air-html"
       },
-      "value": "7–400"
+      "value": "7–400",
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "thickness",
@@ -99,7 +107,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "12-15"
+      "value": "12-15",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "diameter",
@@ -109,7 +118,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "up to 52"
+      "value": "up to 52",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "stock thickness",
@@ -119,7 +129,8 @@
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
         "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
       },
-      "value": "1/4-4"
+      "value": "1/4-4",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "condition",
@@ -129,7 +140,8 @@
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
         "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
       },
-      "value": "normalized"
+      "value": "normalized",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "material",
@@ -139,7 +151,8 @@
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
         "source_id": "offshorewind-biz-30-subsea-protection-protection-solutions-against"
       },
-      "value": "needle-punched nonwoven geotextile filled with sand"
+      "value": "needle-punched nonwoven geotextile filled with sand",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Container material",
@@ -147,7 +160,8 @@
       "basis": "'made of highly robust, staple fibre, specially needle-punched nonwoven Secutex® geotextile and are filled with sand'",
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
-      }
+      },
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Adaptability",
@@ -155,7 +169,8 @@
       "basis": "'The container is flexible and can adapt to variable seabeds. They can be placed before piling'",
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
-      }
+      },
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Reference project",
@@ -163,7 +178,8 @@
       "basis": "'Their solution has been used on the German Amrumbank West offshore wind farm'",
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
-      }
+      },
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "West of Duddon Sands armour rock size",
@@ -174,7 +190,8 @@
       },
       "value": 8,
       "low": 18,
-      "high": "in"
+      "high": "in",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Meerwind filter material size",
@@ -185,7 +202,8 @@
       },
       "value": 1,
       "low": 5,
-      "high": "in"
+      "high": "in",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Meerwind armour rock grading",
@@ -196,7 +214,8 @@
       },
       "value": 100,
       "low": 700,
-      "high": "kg"
+      "high": "kg",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Anholt filter layer",
@@ -207,7 +226,8 @@
       },
       "value": 1,
       "low": 4,
-      "high": "in"
+      "high": "in",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Ridgeway filter bag recycled content",
@@ -216,7 +236,8 @@
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
       },
-      "value": 61
+      "value": 61,
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "Ridgeway filter bag lifetime",
@@ -225,7 +246,8 @@
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "ContiTech mat thickness",
@@ -236,7 +258,8 @@
       },
       "value": 12,
       "low": 15,
-      "high": "mm"
+      "high": "mm",
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "ContiTech mat diameter",
@@ -245,7 +268,8 @@
       "source": {
         "url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
       },
-      "value": 52
+      "value": 52,
+      "source_url": "https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring"
     },
     {
       "metric": "T-head bollards supplied",
@@ -254,7 +278,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 37
+      "value": 37,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Rated mooring capacity",
@@ -263,7 +288,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "New berth length",
@@ -272,7 +298,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 396
+      "value": 396,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Cone fender systems supplied",
@@ -281,7 +308,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 36
+      "value": 36,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Fender panel size",
@@ -289,7 +317,8 @@
       "basis": "'each equipped with a 2000x4320 mm closed-box steel panel'",
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
-      }
+      },
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Original tender fender spacing",
@@ -298,7 +327,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 6.5
+      "value": 6.5,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Optimized fender spacing",
@@ -307,7 +337,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 12.5
+      "value": 12.5,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Chain coating",
@@ -315,7 +346,8 @@
       "basis": "'the chain assemblies were therefore supplied with a duplex coating system'",
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
-      }
+      },
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Fire rating duration",
@@ -325,7 +357,8 @@
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
       },
       "low": 1,
-      "high": 4
+      "high": 4,
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "NFPA 290 fire testing extension",
@@ -334,7 +367,8 @@
       "source": {
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "Listed/standard test compliance",
@@ -342,7 +376,8 @@
       "basis": "'extensively and independently tested in accordance with: UL 1709, UL 2431 Category I-A, ISO 834-3, IMO FTP Code (IMO A.754(18) for H-0, H-60 & H-120 Divisions, ASTM E84, ASTM E119, ISO 20340, and NFPA 290 (extended to 150 minutes).'",
       "source": {
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
-      }
+      },
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "Product chemistry/type",
@@ -350,7 +385,8 @@
       "basis": "'Thermo-Lag 3000-P is a flexible, two-component epoxy Intumescent Fireproofing coating'; in service 'Since 1999'",
       "source": {
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
-      }
+      },
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "Thickness relative to competitors",
@@ -358,7 +394,8 @@
       "basis": "'Lowest thickness per fire rating of any competitive epoxy intumescent coating.'",
       "source": {
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
-      }
+      },
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "standard_compliance",
@@ -367,7 +404,8 @@
       "source": {
         "url": "https://www.fosroc.com/product/show/conbextra-gp"
       },
-      "value": "BS EN 1504-3 Class R4 and BS EN 1504-6: Anchoring of reinforcing steel bar"
+      "value": "BS EN 1504-3 Class R4 and BS EN 1504-6: Anchoring of reinforcing steel bar",
+      "source_url": "https://www.fosroc.com/product/show/conbextra-gp"
     },
     {
       "metric": "gap_thickness",
@@ -377,7 +415,8 @@
         "url": "https://www.fosroc.com/product/show/conbextra-gp"
       },
       "low": 10,
-      "high": 75
+      "high": 75,
+      "source_url": "https://www.fosroc.com/product/show/conbextra-gp"
     },
     {
       "metric": "properties",
@@ -386,7 +425,8 @@
       "source": {
         "url": "https://www.fosroc.com/product/show/conbextra-gp"
       },
-      "value": "Non-shrink; High strength; Chloride free; Can be used at flowable or trowelable consistency"
+      "value": "Non-shrink; High strength; Chloride free; Can be used at flowable or trowelable consistency",
+      "source_url": "https://www.fosroc.com/product/show/conbextra-gp"
     },
     {
       "metric": "standard",
@@ -395,7 +435,8 @@
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
-      "value": "ASTM C260/AASHTO M 154"
+      "value": "ASTM C260/AASHTO M 154",
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "dosage_rate",
@@ -405,7 +446,8 @@
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
       "low": 0.1,
-      "high": 6.0
+      "high": 6.0,
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "specific_gravity",
@@ -414,7 +456,8 @@
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
-      "value": 1.01
+      "value": 1.01,
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "storage_temperature",
@@ -424,7 +467,8 @@
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
       "low": 5,
-      "high": 27
+      "high": 27,
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "shelf_life",
@@ -433,7 +477,8 @@
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "appearance",
@@ -442,7 +487,8 @@
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
-      "value": "Clear Orange-Brown Liquid"
+      "value": "Clear Orange-Brown Liquid",
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "packaging",
@@ -451,7 +497,8 @@
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
-      "value": "55-gallon (208-liter) drums, 275-gallon (1040-liter) totes, bulk delivery"
+      "value": "55-gallon (208-liter) drums, 275-gallon (1040-liter) totes, bulk delivery",
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "DNV-RP-C203 - edition / amendment",
@@ -460,7 +507,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
       },
-      "value": "Edition 2024-10 - Amended 2025-10"
+      "value": "Edition 2024-10 - Amended 2025-10",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
     },
     {
       "metric": "DNV-RP-C203 - objective",
@@ -469,7 +517,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
       },
-      "value": "Methods for fatigue assessment of offshore steel structures and structural components, ensuring safe fatigue design"
+      "value": "Methods for fatigue assessment of offshore steel structures and structural components, ensuring safe fatigue design",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
     },
     {
       "metric": "Elios 3 UT - inspection time (drone)",
@@ -479,7 +528,8 @@
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
       "low": 2,
-      "high": 4
+      "high": 4,
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 - offshore downtime reduction",
@@ -488,7 +538,8 @@
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 - data delivered",
@@ -497,7 +548,8 @@
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
-      "value": "4K visuals, localized UTMs and 3D model"
+      "value": "4K visuals, localized UTMs and 3D model",
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 - BP confined-space hours saved",
@@ -506,7 +558,8 @@
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
-      "value": 1700
+      "value": 1700,
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 - TotalEnergies cost reduction",
@@ -515,7 +568,8 @@
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Elios 3 - SAIPEM inspection speed-up",
@@ -524,7 +578,8 @@
       "source": {
         "url": "https://www.flyability.com/blog/offshore-drone-inspections"
       },
-      "value": "80-90% faster, class-approved COT and WBT inspections"
+      "value": "80-90% faster, class-approved COT and WBT inspections",
+      "source_url": "https://www.flyability.com/blog/offshore-drone-inspections"
     },
     {
       "metric": "Trimble S9 - angular accuracy",
@@ -533,7 +588,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "0.5 sec or 1 sec"
+      "value": "0.5 sec or 1 sec",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - EDM technology",
@@ -542,7 +598,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "DR PLUS"
+      "value": "DR PLUS",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - EDM accuracy",
@@ -551,7 +608,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "1.0 mm + 2 ppm (Prism) / 2.0 mm + 2 ppm (DR)"
+      "value": "1.0 mm + 2 ppm (Prism) / 2.0 mm + 2 ppm (DR)",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - maximum range",
@@ -560,7 +618,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": 5500
+      "value": 5500,
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 HP - angular accuracy",
@@ -569,7 +628,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "0.5 sec or 1 sec"
+      "value": "0.5 sec or 1 sec",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 HP - EDM accuracy",
@@ -578,7 +638,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "0.8 mm + 1 ppm (Prism) / 3.0 mm + 2 ppm (DR)"
+      "value": "0.8 mm + 1 ppm (Prism) / 3.0 mm + 2 ppm (DR)",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 HP - maximum range",
@@ -587,7 +648,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": 7000
+      "value": 7000,
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - standard technology",
@@ -596,7 +658,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "Autolock, Magdrive, SurePoint, FineLock, Active Tracking"
+      "value": "Autolock, Magdrive, SurePoint, FineLock, Active Tracking",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - model-dependent features",
@@ -605,7 +668,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "Long Range FineLock, Tracklight, VISION, SureScan"
+      "value": "Long Range FineLock, Tracklight, VISION, SureScan",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "VIKING Norsafe free-fall lifeboat - approved drop height",
@@ -614,7 +678,8 @@
       "source": {
         "url": "https://www.viking-life.com/product-insights"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.viking-life.com/product-insights"
     },
     {
       "metric": "VIKING Norsafe - heritage",
@@ -623,7 +688,8 @@
       "source": {
         "url": "https://www.viking-life.com/product-insights"
       },
-      "value": "Dating back to 1903"
+      "value": "Dating back to 1903",
+      "source_url": "https://www.viking-life.com/product-insights"
     },
     {
       "metric": "VIKING Norsafe free-fall lifeboat - design",
@@ -632,7 +698,8 @@
       "source": {
         "url": "https://www.viking-life.com/product-insights"
       },
-      "value": "Fast-boarding and robust, extensively tested for harshest conditions; designed for rapid evacuation"
+      "value": "Fast-boarding and robust, extensively tested for harshest conditions; designed for rapid evacuation",
+      "source_url": "https://www.viking-life.com/product-insights"
     },
     {
       "metric": "Zinc anode composition",
@@ -641,7 +708,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "99.9% High-purity zinc"
+      "value": "99.9% High-purity zinc",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Zinc anode standard",
@@ -650,7 +718,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "ASTM B-6"
+      "value": "ASTM B-6",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Zinc anode weight range",
@@ -660,7 +729,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 5,
-      "high": 500
+      "high": 500,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Zinc anode current capacity",
@@ -670,7 +740,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 25,
-      "high": 30
+      "high": 30,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Zinc anode design life",
@@ -680,7 +751,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 15,
-      "high": 25
+      "high": 25,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Aluminium anode composition",
@@ -689,7 +761,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "Aluminum-Zinc-Indium alloy"
+      "value": "Aluminum-Zinc-Indium alloy",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Aluminium anode standard",
@@ -698,7 +771,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "ASTM B-521"
+      "value": "ASTM B-521",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Aluminium anode weight range",
@@ -708,7 +782,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 3,
-      "high": 300
+      "high": 300,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Aluminium anode current capacity",
@@ -718,7 +793,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 30,
-      "high": 40
+      "high": 40,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Aluminium anode design life",
@@ -728,7 +804,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 18,
-      "high": 28
+      "high": 28,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Magnesium anode standard",
@@ -737,7 +814,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "ASTM B-843"
+      "value": "ASTM B-843",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Magnesium anode weight range",
@@ -747,7 +825,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 2,
-      "high": 100
+      "high": 100,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Magnesium anode current capacity",
@@ -757,7 +836,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 35,
-      "high": 45
+      "high": 45,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Magnesium anode design life",
@@ -767,7 +847,8 @@
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
       "low": 12,
-      "high": 20
+      "high": 20,
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Quality system",
@@ -776,7 +857,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "ISO 9001:2008 Certified"
+      "value": "ISO 9001:2008 Certified",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Classification approvals",
@@ -785,7 +867,8 @@
       "source": {
         "url": "https://cathodicme.com/services/sacrificial-anodes-system"
       },
-      "value": "DNV, ABS, Lloyd's, Bureau Veritas, ClassNK"
+      "value": "DNV, ABS, Lloyd's, Bureau Veritas, ClassNK",
+      "source_url": "https://cathodicme.com/services/sacrificial-anodes-system"
     },
     {
       "metric": "Document designation",
@@ -794,7 +877,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
       },
-      "value": "DNV-ST-0126"
+      "value": "DNV-ST-0126",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
     },
     {
       "metric": "Edition",
@@ -803,7 +887,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
       },
-      "value": "2021-12"
+      "value": "2021-12",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
     },
     {
       "metric": "Scope",
@@ -812,7 +897,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
       },
-      "value": "general principles and guidelines for the structural design of wind turbine support structures"
+      "value": "general principles and guidelines for the structural design of wind turbine support structures",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
     },
     {
       "metric": "Certification basis",
@@ -821,7 +907,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
       },
-      "value": "support structures subject to DNV certification"
+      "value": "support structures subject to DNV certification",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-st-0126-support-structures-for-wind-turbines/"
     },
     {
       "metric": "Grade",
@@ -830,7 +917,8 @@
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
-      "value": "API 2H Grade 50"
+      "value": "API 2H Grade 50",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Stocked thickness",
@@ -840,7 +928,8 @@
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
       "low": 0.25,
-      "high": 4
+      "high": 4,
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Condition",
@@ -849,7 +938,8 @@
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
-      "value": "Normalized"
+      "value": "Normalized",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Specification",
@@ -858,7 +948,8 @@
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
-      "value": "API Specification 2H"
+      "value": "API Specification 2H",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Applications",
@@ -867,7 +958,8 @@
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
-      "value": "tubular joints, stiffened plate construction, and intersections where parts of the plates will experience tension in the through-thickness direction; piling material"
+      "value": "tubular joints, stiffened plate construction, and intersections where parts of the plates will experience tension in the through-thickness direction; piling material",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Impact toughness",
@@ -876,7 +968,8 @@
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
-      "value": "high impact toughness"
+      "value": "high impact toughness",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Free-fall approved drop height",
@@ -885,7 +978,8 @@
       "source": {
         "url": "https://www.viking-life.com/product-insights"
       },
-      "high": 50
+      "high": 50,
+      "source_url": "https://www.viking-life.com/product-insights"
     },
     {
       "metric": "Product scope",
@@ -894,7 +988,8 @@
       "source": {
         "url": "https://www.viking-life.com/product-insights"
       },
-      "value": "VIKING Norsafe free-fall lifeboats; VIKING YouSafe™ Vanguard for the Offshore industry"
+      "value": "VIKING Norsafe free-fall lifeboats; VIKING YouSafe™ Vanguard for the Offshore industry",
+      "source_url": "https://www.viking-life.com/product-insights"
     },
     {
       "metric": "HDR certification",
@@ -903,7 +998,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "MVBR-0468(X0.4R), MVBR-0430(X0.6R)"
+      "value": "MVBR-0468(X0.4R), MVBR-0430(X0.6R)",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "LRB certification",
@@ -912,7 +1008,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "MVBR-0447"
+      "value": "MVBR-0447",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "NRB certification",
@@ -921,7 +1018,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "MVBR-0295(N3,G3,G5), MVBR-0446(G4)"
+      "value": "MVBR-0295(N3,G3,G5), MVBR-0446(G4)",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "Elastic Sliding Bearing certification",
@@ -930,7 +1028,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "MVBR-0349(SL series), MVBR-0469(SP series), MVBR-0479(SK series)"
+      "value": "MVBR-0349(SL series), MVBR-0469(SP series), MVBR-0479(SK series)",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "NRB equivalent damping factor",
@@ -940,7 +1039,8 @@
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
       "low": 2,
-      "high": 3
+      "high": 3,
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "NRB rubber material grades",
@@ -949,7 +1049,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "G0.30, G0.35, G0.40, G0.45"
+      "value": "G0.30, G0.35, G0.40, G0.45",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "LRB rubber material grade",
@@ -958,7 +1059,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "G0.40"
+      "value": "G0.40",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "HDR elastic modulus types",
@@ -967,7 +1069,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "E0.4, X0.6R"
+      "value": "E0.4, X0.6R",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "Elastic Sliding friction coefficient types",
@@ -976,7 +1079,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "Bearing construction",
@@ -985,7 +1089,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "alternating laminations of thin rubber layers and steel plates (shims), bonded"
+      "value": "alternating laminations of thin rubber layers and steel plates (shims), bonded",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "Catalogue update",
@@ -994,7 +1099,8 @@
       "source": {
         "url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
       },
-      "value": "Updated on October, 2026"
+      "value": "Updated on October, 2026",
+      "source_url": "https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html"
     },
     {
       "metric": "Product system type",
@@ -1003,7 +1109,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": "Tyfo SCH Systems are unidirectional CFRP"
+      "value": "Tyfo SCH Systems are unidirectional CFRP",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Design life",
@@ -1013,7 +1120,8 @@
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
       "low": 50,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "In-service since",
@@ -1022,7 +1130,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": 1991
+      "value": 1991,
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Design approach",
@@ -1031,7 +1140,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": "linear-elastic tension members; ultimate tension 'strength' not used in design"
+      "value": "linear-elastic tension members; ultimate tension 'strength' not used in design",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Strengthenable elements",
@@ -1040,7 +1150,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": "concrete columns, beams, walls and slabs, masonry walls, some wood and steel elements; pipes, silos, tanks, piers/waterfront structures"
+      "value": "concrete columns, beams, walls and slabs, masonry walls, some wood and steel elements; pipes, silos, tanks, piers/waterfront structures",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Fire rating",
@@ -1049,7 +1160,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": "do not reduce existing fire-rating; Class 1/Class A flame and smoke rating per ASTM E84 may be required"
+      "value": "do not reduce existing fire-rating; Class 1/Class A flame and smoke rating per ASTM E84 may be required",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Anchor type",
@@ -1058,7 +1170,8 @@
       "source": {
         "url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
       },
-      "value": "embedded Tyfo SCH anchor saturated with Tyfo S epoxy; splice/through anchors"
+      "value": "embedded Tyfo SCH anchor saturated with Tyfo S epoxy; splice/through anchors",
+      "source_url": "https://www.cs-nri.com/brands/fyfe-frp/resources/frequently-asked-questions"
     },
     {
       "metric": "Twin tires",
@@ -1067,7 +1180,8 @@
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
-      "value": "215/75 R 17.5"
+      "value": "215/75 R 17.5",
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Dead weight (4-axles)",
@@ -1076,7 +1190,8 @@
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
-      "value": 13.85
+      "value": 13.85,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Vehicle width",
@@ -1085,7 +1200,8 @@
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Axle spacing",
@@ -1094,7 +1210,8 @@
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
-      "value": "1,500 / 1,800"
+      "value": "1,500 / 1,800",
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Max steering angle",
@@ -1103,7 +1220,8 @@
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
-      "value": "±55"
+      "value": "±55",
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Number of axles",
@@ -1113,7 +1231,8 @@
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
       "low": 2,
-      "high": 8
+      "high": 8,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Hydraulic power pack",
@@ -1122,7 +1241,8 @@
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
-      "value": "Hatz 10 kW / 13.6 PS; Kohler 17.9 kW / 24.3 PS"
+      "value": "Hatz 10 kW / 13.6 PS; Kohler 17.9 kW / 24.3 PS",
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Turntable capacity",
@@ -1131,7 +1251,8 @@
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
-      "value": "100 t / 200 t; 300 t / 400 t; 600 t"
+      "value": "100 t / 200 t; 300 t / 400 t; 600 t",
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Flatbed deck construction height",
@@ -1140,7 +1261,8 @@
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
-      "value": "250 / 300"
+      "value": "250 / 300",
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Flatbed deck length",
@@ -1150,7 +1272,8 @@
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
       "low": 7000,
-      "high": 12000
+      "high": 12000,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Vessel deck construction height",
@@ -1159,7 +1282,8 @@
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
-      "value": "450 / 500 / 650"
+      "value": "450 / 500 / 650",
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Vessel deck length",
@@ -1169,7 +1293,8 @@
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
       "low": 7000,
-      "high": 13000
+      "high": 13000,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Vessel deck width",
@@ -1179,7 +1304,8 @@
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
       "low": 3000,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Excavator deck construction height",
@@ -1188,7 +1314,8 @@
       "source": {
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
-      "value": "350 / 450 / 500"
+      "value": "350 / 450 / 500",
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Spacer length",
@@ -1198,7 +1325,8 @@
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
       "low": 8000,
-      "high": 15000
+      "high": 15000,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Spacer extension stages",
@@ -1208,7 +1336,8 @@
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
       "low": 1,
-      "high": 4
+      "high": 4,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Intermediate deck length",
@@ -1218,7 +1347,8 @@
         "url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
       },
       "low": 3000,
-      "high": 9000
+      "high": 9000,
+      "source_url": "https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl"
     },
     {
       "metric": "Blow energy range",
@@ -1228,7 +1358,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
       "low": 30,
-      "high": 7500
+      "high": 7500,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "IQ8 blow energy",
@@ -1237,7 +1368,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "exceeding 7,500"
+      "value": "exceeding 7,500",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Continuous energy capacity",
@@ -1246,7 +1378,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Boost power",
@@ -1255,7 +1388,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": 120
+      "value": 120,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "SW-series water depth",
@@ -1264,7 +1398,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Piles installed",
@@ -1273,7 +1408,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "5.5 Million"
+      "value": "5.5 Million",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Experience",
@@ -1282,7 +1418,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "40+"
+      "value": "40+",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Countries active",
@@ -1291,7 +1428,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "50+"
+      "value": "50+",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Operational availability",
@@ -1300,7 +1438,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": ">97"
+      "value": ">97",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "PULSE function",
@@ -1309,7 +1448,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and environmental disturbance"
+      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and environmental disturbance",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Series",
@@ -1318,7 +1458,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "IQ-series, S-series, SW-series"
+      "value": "IQ-series, S-series, SW-series",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Operating weight",
@@ -1328,7 +1469,8 @@
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
       "low": 72.6,
-      "high": 78.5
+      "high": 78.5,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Max. torque",
@@ -1337,7 +1479,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Max. crowd force",
@@ -1346,7 +1489,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": 320
+      "value": 320,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Engine power",
@@ -1355,7 +1499,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Max. pile length with vibrator, slim design",
@@ -1364,7 +1509,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": 22.0
+      "value": 22.0,
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Position in range",
@@ -1373,7 +1519,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": "closes the gap between the LRB 16 and the LRB 355"
+      "value": "closes the gap between the LRB 16 and the LRB 355",
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Assistant systems",
@@ -1382,7 +1529,8 @@
       "source": {
         "url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
       },
-      "value": "Automatic shake-off, drilling assistant, radio remote control, ground pressure indication, leader adjustment, obstacle recognition, winch automation, display of auger filling level, Kelly visualizatio"
+      "value": "Automatic shake-off, drilling assistant, radio remote control, ground pressure indication, leader adjustment, obstacle recognition, winch automation, display of auger filling level, Kelly visualizatio",
+      "source_url": "https://www.liebherr.com/en-us/p/lrb23-4424791"
     },
     {
       "metric": "Recycled content",
@@ -1391,7 +1539,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": 61
+      "value": 61,
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Lifetime in saline water",
@@ -1400,7 +1549,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Deployment",
@@ -1409,7 +1559,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": "one point lifting ring for fast and accurate deployment"
+      "value": "one point lifting ring for fast and accurate deployment",
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Bag material",
@@ -1418,7 +1569,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": "polyester filter bag filled with stones"
+      "value": "polyester filter bag filled with stones",
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Manufacturer of bags",
@@ -1427,7 +1579,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": "Japanese Sumisho Kyowa Limited"
+      "value": "Japanese Sumisho Kyowa Limited",
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Project reference",
@@ -1436,7 +1589,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": "used by MSS Engineering at the EDF Teesside Offshore Wind Farm"
+      "value": "used by MSS Engineering at the EDF Teesside Offshore Wind Farm",
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     },
     {
       "metric": "Failure behaviour",
@@ -1445,7 +1599,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
       },
-      "value": "spilled rocks provide almost same protection as rock dumping, but rocks smaller and more easily moved"
+      "value": "spilled rocks provide almost same protection as rock dumping, but rocks smaller and more easily moved",
+      "source_url": "https://r.jina.ai/https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring/"
     }
   ],
   "vendors": [

@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Position and hold floating facilities and assist installation vessels using anchors, chain/wire/polyester lines, AHTS vessels and DP systems; includes pre-laid mooring line hook-up for FPSOs.",
+  "description": "Position and hold floating facilities and assist installation vessels using anchors, chain/wire/polyester lines, AHTS vessels and DP systems; includes pre-laid mooring line hook-up for FPSOs. Primary source: https://en.wikipedia.org/wiki/SSCV_Sleipnir",
   "specifications": [
     {
       "metric": "Sleipnir 12-point mooring",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir",
         "source_id": "en-wikipedia-org-wiki-sscv-sleipnir"
       },
-      "value": "12 Stevpris Mk-6 anchors of 12 t each with 1,750 m wire rope"
+      "value": "12 Stevpris Mk-6 anchors of 12 t each with 1,750 m wire rope",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Sleipnir"
     },
     {
       "metric": "Thialf mooring for shallow water",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/SSCV_Thialf",
         "source_id": "en-wikipedia-org-wiki-sscv-thialf"
       },
-      "value": "12 Flipper Delta anchors at 22.5 t with 2,500 m of 80 mm mooring wire"
+      "value": "12 Flipper Delta anchors at 22.5 t with 2,500 m of 80 mm mooring wire",
+      "source_url": "https://en.wikipedia.org/wiki/SSCV_Thialf"
     },
     {
       "metric": "Saipem 7000 mooring system",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
-      "value": "16 anchor lines, each 3,350 m of 96 mm wire + 50 m of 92 mm chain + 40 t anchor; usable to 450 m water depth"
+      "value": "16 anchor lines, each 3,350 m of 96 mm wire + 50 m of 92 mm chain + 40 t anchor; usable to 450 m water depth",
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "AHTS bollard pull",
@@ -49,7 +52,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": "200 t and 212 t (Heerema Bylgia and Kolga)"
+      "value": "200 t and 212 t (Heerema Bylgia and Kolga)",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Spar mooring configuration",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Spar_(platform)",
         "source_id": "en-wikipedia-org-wiki-spar-platform"
       },
-      "value": "spread mooring of chain-wire-chain or chain-polyester-chain"
+      "value": "spread mooring of chain-wire-chain or chain-polyester-chain",
+      "source_url": "https://en.wikipedia.org/wiki/Spar_(platform)"
     }
   ],
   "vendors": [

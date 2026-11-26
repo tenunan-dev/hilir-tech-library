@@ -6,7 +6,7 @@
   "equipment": [
     "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246"
   ],
-  "description": "All figures from the printed Main Characteristics list on the HTML page.",
+  "description": "All figures from the printed Main Characteristics list on the HTML page. Primary source: https://www.scmlemans.com/product/sea-vi-6-100-serie",
   "specifications": [
     {
       "metric": "Contacts",
@@ -16,7 +16,8 @@
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie",
         "source_id": "cat-scmlemans-com-sea-vi-6-100-serie"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Rated current",
@@ -26,7 +27,8 @@
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie",
         "source_id": "cat-scmlemans-com-sea-vi-6-100-serie"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Service voltage",
@@ -36,7 +38,8 @@
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie",
         "source_id": "cat-scmlemans-com-sea-vi-6-100-serie"
       },
-      "value": "3,6/6 (7,2)"
+      "value": "3,6/6 (7,2)",
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Pressure",
@@ -46,7 +49,8 @@
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie",
         "source_id": "cat-scmlemans-com-sea-vi-6-100-serie"
       },
-      "high": 300
+      "high": 300,
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Temperature",
@@ -57,7 +61,8 @@
         "source_id": "cat-scmlemans-com-sea-vi-6-100-serie"
       },
       "low": -5,
-      "high": 40
+      "high": 40,
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Standards",
@@ -67,7 +72,8 @@
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie",
         "source_id": "cat-scmlemans-com-sea-vi-6-100-serie"
       },
-      "value": "IEC 61886-1; API 17F"
+      "value": "IEC 61886-1; API 17F",
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Rated current",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Service voltage",
@@ -84,7 +91,8 @@
       "basis": "SCM: 'Service voltage: 3,6/6 (7,2) kV'",
       "source": {
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
-      }
+      },
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Pressure rating",
@@ -93,7 +101,8 @@
       "source": {
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Temperature range",
@@ -103,7 +112,8 @@
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
       },
       "low": -5,
-      "high": 40
+      "high": 40,
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Contacts",
@@ -112,7 +122,8 @@
       "source": {
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Standards",
@@ -120,7 +131,8 @@
       "basis": "SCM: 'IEC 61886-1; API 17F'",
       "source": {
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
-      }
+      },
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     },
     {
       "metric": "Applications / functions",
@@ -128,7 +140,8 @@
       "basis": "SCM: 'Sea electrical network; Small Power distribution; long step out communication; small power connection; pipeline & riser heating'",
       "source": {
         "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
-      }
+      },
+      "source_url": "https://www.scmlemans.com/product/sea-vi-6-100-serie"
     }
   ],
   "url": "https://www.scmlemans.com/product/sea-vi-6-100-serie",

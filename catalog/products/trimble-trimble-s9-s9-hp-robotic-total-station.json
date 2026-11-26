@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Page read",
+  "description": "Vendor product line read 2026-11-24. Page read Primary source: https://geospatial.trimble.com/en/products/hardware/trimble-s9",
   "specifications": [
     {
       "metric": "EDM accuracy",
@@ -16,7 +16,8 @@
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
         "source_id": "geospatial-trimble-com-hardware-trimble-s9"
       },
-      "value": "1.0 mm + 2 ppm prism / 2.0 mm + 2 ppm DR"
+      "value": "1.0 mm + 2 ppm prism / 2.0 mm + 2 ppm DR",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Max range",
@@ -26,7 +27,8 @@
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",
         "source_id": "geospatial-trimble-com-hardware-trimble-s9"
       },
-      "value": 5500
+      "value": 5500,
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - angular accuracy",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "0.5 sec or 1 sec"
+      "value": "0.5 sec or 1 sec",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - EDM technology",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "DR PLUS"
+      "value": "DR PLUS",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - EDM accuracy",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "1.0 mm + 2 ppm (Prism) / 2.0 mm + 2 ppm (DR)"
+      "value": "1.0 mm + 2 ppm (Prism) / 2.0 mm + 2 ppm (DR)",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - maximum range",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": 5500
+      "value": 5500,
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 HP - angular accuracy",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "0.5 sec or 1 sec"
+      "value": "0.5 sec or 1 sec",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 HP - EDM accuracy",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "0.8 mm + 1 ppm (Prism) / 3.0 mm + 2 ppm (DR)"
+      "value": "0.8 mm + 1 ppm (Prism) / 3.0 mm + 2 ppm (DR)",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 HP - maximum range",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": 7000
+      "value": 7000,
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - standard technology",
@@ -98,7 +107,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "Autolock, Magdrive, SurePoint, FineLock, Active Tracking"
+      "value": "Autolock, Magdrive, SurePoint, FineLock, Active Tracking",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     },
     {
       "metric": "Trimble S9 - model-dependent features",
@@ -107,7 +117,8 @@
       "source": {
         "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
       },
-      "value": "Long Range FineLock, Tracklight, VISION, SureScan"
+      "value": "Long Range FineLock, Tracklight, VISION, SureScan",
+      "source_url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9"
     }
   ],
   "url": "https://geospatial.trimble.com/en/products/hardware/trimble-s9",

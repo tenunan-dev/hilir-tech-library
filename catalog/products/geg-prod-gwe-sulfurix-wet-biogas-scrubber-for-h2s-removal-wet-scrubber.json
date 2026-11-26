@@ -6,7 +6,7 @@
   "equipment": [
     "geg-gas-treatment-scrubber"
   ],
-  "description": "wet scrubber / biological H2S removal tower",
+  "description": "wet scrubber / biological H2S removal tower Primary source: https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
   "specifications": [
     {
       "metric": "single-stage sulphide removal",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
         "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
-      }
+      },
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "two-stage combined removal efficiency",
@@ -29,7 +30,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
         "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
-      }
+      },
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "standard model height",
@@ -41,7 +43,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
         "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
-      }
+      },
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "biogas flow range",
@@ -53,7 +56,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
         "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
-      }
+      },
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "assumed washing liquid conditions",
@@ -63,7 +67,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
         "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
-      }
+      },
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "suitable raw gas H2S concentration",
@@ -74,7 +79,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
         "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
-      }
+      },
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "construction materials",
@@ -84,7 +90,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
         "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
-      }
+      },
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "blower requirement",
@@ -94,7 +101,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
         "source_id": "geg-globalwe-com-sulfurix-1-53355c3"
-      }
+      },
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "SULFURIX - single-stage sulfide removal",
@@ -104,7 +112,8 @@
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
       },
       "low": 80,
-      "high": 95
+      "high": 95,
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "SULFURIX - two-stage combined removal efficiency",
@@ -113,7 +122,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
       },
-      "value": 99
+      "value": 99,
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "SULFURIX - feed H2S concentration suitability",
@@ -122,7 +132,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "SULFURIX - standard tower heights",
@@ -132,7 +143,8 @@
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
       },
       "low": 6,
-      "high": 9
+      "high": 9,
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "SULFURIX - biogas flow range",
@@ -142,7 +154,8 @@
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
       },
       "low": 100,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "SULFURIX - assumed wash liquid conditions",
@@ -151,7 +164,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
       },
-      "value": "Activated sludge at pH 7.3 and 30 degC (standard conditions)"
+      "value": "Activated sludge at pH 7.3 and 30 degC (standard conditions)",
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "SULFURIX - construction materials",
@@ -160,7 +174,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
       },
-      "value": "Corrosion-proof anti-static HDPE and polyester"
+      "value": "Corrosion-proof anti-static HDPE and polyester",
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     },
     {
       "metric": "SULFURIX - pressure loss / blower requirement",
@@ -169,7 +184,8 @@
       "source": {
         "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
       },
-      "value": "Minimal pressure loss; typically no biogas blowers required"
+      "value": "Minimal pressure loss; typically no biogas blowers required",
+      "source_url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1"
     }
   ],
   "url": "https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",

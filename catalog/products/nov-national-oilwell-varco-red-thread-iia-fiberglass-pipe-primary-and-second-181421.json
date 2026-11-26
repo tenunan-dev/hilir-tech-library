@@ -6,7 +6,7 @@
   "equipment": [
     "fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru"
   ],
-  "description": "UL 971 listed. Onshore/terminal piping rather than subsea; included for onshore piping family coverage.",
+  "description": "UL 971 listed. Onshore/terminal piping rather than subsea; included for onshore piping family coverage. Primary source: https://www.nov.com/products/red-thread-iia-fiberglass-pipe",
   "specifications": [
     {
       "metric": "Primary pipe size range",
@@ -16,7 +16,8 @@
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe",
         "source_id": "cat-nov-com-red-thread-iia-fiberglass-pipe"
       },
-      "value": "2- to 4-in. UL listed"
+      "value": "2- to 4-in. UL listed",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Primary pipe pressure rating",
@@ -26,7 +27,8 @@
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe",
         "source_id": "cat-nov-com-red-thread-iia-fiberglass-pipe"
       },
-      "high": 250
+      "high": 250,
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Secondary pipe size range",
@@ -36,7 +38,8 @@
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe",
         "source_id": "cat-nov-com-red-thread-iia-fiberglass-pipe"
       },
-      "value": "3- to 6-in. UL listed"
+      "value": "3- to 6-in. UL listed",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Secondary pipe pressure rating",
@@ -46,7 +49,8 @@
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe",
         "source_id": "cat-nov-com-red-thread-iia-fiberglass-pipe"
       },
-      "high": 50
+      "high": 50,
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Temperature range",
@@ -56,7 +60,8 @@
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe",
         "source_id": "cat-nov-com-red-thread-iia-fiberglass-pipe"
       },
-      "high": 150
+      "high": 150,
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Construction",
@@ -66,7 +71,8 @@
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe",
         "source_id": "cat-nov-com-red-thread-iia-fiberglass-pipe"
       },
-      "value": "Filament wound with amine-cured epoxy resins and fiberglass roving"
+      "value": "Filament wound with amine-cured epoxy resins and fiberglass roving",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Approval",
@@ -75,7 +81,8 @@
       "source": {
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
       },
-      "value": "first composite pipe to receive UL listed (UL 971) approval for underground fuel handling"
+      "value": "first composite pipe to receive UL listed (UL 971) approval for underground fuel handling",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Primary pipe size range",
@@ -84,7 +91,8 @@
       "source": {
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
       },
-      "value": "2- to 4-in."
+      "value": "2- to 4-in.",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Secondary pipe size range",
@@ -93,7 +101,8 @@
       "source": {
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
       },
-      "value": "3- to 6-in."
+      "value": "3- to 6-in.",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Primary pressure rating",
@@ -102,7 +111,8 @@
       "source": {
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
       },
-      "value": "Up to 250"
+      "value": "Up to 250",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Secondary pressure rating",
@@ -111,7 +121,8 @@
       "source": {
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
       },
-      "value": "Up to 50"
+      "value": "Up to 50",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Temperature range",
@@ -120,7 +131,8 @@
       "source": {
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
       },
-      "value": "Up to 150 °F (65 °C)"
+      "value": "Up to 150 °F (65 °C)",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Inner corrosion barrier",
@@ -129,7 +141,8 @@
       "source": {
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
       },
-      "value": "Resin-rich"
+      "value": "Resin-rich",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Construction",
@@ -138,7 +151,8 @@
       "source": {
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
       },
-      "value": "Filament wound with amine-cured epoxy resins and fiberglass roving"
+      "value": "Filament wound with amine-cured epoxy resins and fiberglass roving",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Fittings",
@@ -147,7 +161,8 @@
       "source": {
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
       },
-      "value": "Threaded and bonded (TAB) or bell and spigot"
+      "value": "Threaded and bonded (TAB) or bell and spigot",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     },
     {
       "metric": "Chemical service",
@@ -156,7 +171,8 @@
       "source": {
         "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
       },
-      "value": "Petroleum products, alcohols, alcohol-gasoline mixtures, ethanol, methanol, MTBE, diesel exhaust fluid"
+      "value": "Petroleum products, alcohols, alcohol-gasoline mixtures, ethanol, methanol, MTBE, diesel exhaust fluid",
+      "source_url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe"
     }
   ],
   "url": "https://www.nov.com/products/red-thread-iia-fiberglass-pipe",

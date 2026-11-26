@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Transport oilfield fluids from wellhead/manifold to processing facility and from offshore facilities to onshore receiving terminals.",
+  "description": "Transport oilfield fluids from wellhead/manifold to processing facility and from offshore facilities to onshore receiving terminals. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
   "specifications": [
     {
       "metric": "Rigid pipeline diameter range",
@@ -20,7 +20,8 @@
         "source_id": "technipfmc-com-rigid-pipelines"
       },
       "low": 4,
-      "high": 18
+      "high": 18,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/"
     },
     {
       "metric": "Installed pipe-in-pipe length",
@@ -30,7 +31,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
         "source_id": "technipfmc-com-rigid-pipelines"
       },
-      "value": 1100
+      "value": 1100,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. Deployed in the 104 MW Greenville, Texas peaking plant with 11 engines (POWER article, page_read:true).",
+  "description": "Vendor product line read 2026-11-24. Deployed in the 104 MW Greenville, Texas peaking plant with 11 engines (POWER article, page_read:true). Primary source: https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
   "specifications": [
     {
       "metric": "Time to full load",
@@ -16,7 +16,8 @@
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
         "source_id": "powermag-com-engine-power-plants-surge-as-data-centers-drive-unpre"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "Engine portfolio rating (Jenbacher Type 9 page navigation)",
@@ -26,7 +27,8 @@
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
         "source_id": "powermag-com-engine-power-plants-surge-as-data-centers-drive-unpre"
       },
-      "high": 10606
+      "high": 10606,
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "INNIO/VoltaGrid order size",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
       },
-      "value": "2.3 GW, 92 power packs each delivering 25 MW"
+      "value": "2.3 GW, 92 power packs each delivering 25 MW",
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "VoltaGrid ambient capability",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "J920 FleXtra full-load time",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "Greenville Texas plant",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
       },
-      "value": "104 MW, 11 engines, >17,200 customers; groundbreaking Dec 2025, commissioning summer 2027"
+      "value": "104 MW, 11 engines, >17,200 customers; groundbreaking Dec 2025, commissioning summer 2027",
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "Thurrock UK plant",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
       },
-      "value": "450 MW; Jenbacher engines start in less than five minutes; 'Ready for H2'"
+      "value": "450 MW; Jenbacher engines start in less than five minutes; 'Ready for H2'",
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "KMW NOx reduction",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "Companion fast-start figures (other OEMs, as printed)",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
       },
-      "value": "Cat G3516 zero-to-full in ~7 s; mtu 20V4000 L64 2.8 MW in 45 s (60 Hz); Wartsila 31SG 2.5 min; Wartsila 24 x 50SG = 429 MW"
+      "value": "Cat G3516 zero-to-full in ~7 s; mtu 20V4000 L64 2.8 MW in 45 s (60 Hz); Wartsila 31SG 2.5 min; Wartsila 24 x 50SG = 429 MW",
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     }
   ],
   "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",

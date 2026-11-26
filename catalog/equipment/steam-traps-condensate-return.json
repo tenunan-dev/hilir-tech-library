@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Automatically discharge condensate, air and non-condensable gases from steam lines and heat-using equipment while holding back live steam; protects against waterlogging, water hammer, erosion and corrosion (Spirax Sarco; TLV).",
+  "description": "Automatically discharge condensate, air and non-condensable gases from steam lines and heat-using equipment while holding back live steam; protects against waterlogging, water hammer, erosion and corrosion (Spirax Sarco; TLV). Primary source: https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps",
   "specifications": [
     {
       "metric": "thermodynamic trap minimum inlet pressure",
@@ -19,7 +19,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermodynamic-ste"
       },
-      "value": 0.25
+      "value": 0.25,
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps"
     },
     {
       "metric": "thermodynamic trap maximum backpressure",
@@ -29,7 +30,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermodynamic-ste"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps"
     },
     {
       "metric": "TD trap closed period",
@@ -39,7 +41,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermodynamic-ste"
       },
-      "value": "20-40"
+      "value": "20-40",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermodynamic-steam-traps"
     },
     {
       "metric": "no-load steam loss, thermostatic / inverted-bucket / thermodynamic traps",
@@ -49,7 +52,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-energy-losses-in"
       },
-      "value": "up to ~0.5"
+      "value": "up to ~0.5",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps"
     },
     {
       "metric": "TD trap radiation loss",
@@ -59,7 +63,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-energy-losses-in"
       },
-      "value": "not more than 0.25"
+      "value": "not more than 0.25",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/energy-losses-in-steam-traps"
     },
     {
       "metric": "bimetallic trap cooling leg",
@@ -69,7 +74,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
       },
-      "value": "1-3"
+      "value": "1-3",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps"
     },
     {
       "metric": "liquid-expansion trap discharge temperature setting",
@@ -79,7 +85,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
       },
-      "value": "60-100"
+      "value": "60-100",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps"
     },
     {
       "metric": "balanced-pressure trap superheat tolerance",
@@ -89,7 +96,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-thermostatic-stea"
       },
-      "value": "up to 70"
+      "value": "up to 70",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/thermostatic-steam-traps"
     },
     {
       "metric": "steam mains drainage interval",
@@ -99,7 +107,8 @@
         "url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/considerations-for-selecting-steam-traps",
         "source_id": "spiraxsarco-com-steam-traps-and-steam-trapping-considerations-fo"
       },
-      "value": "30-50"
+      "value": "30-50",
+      "source_url": "https://www.spiraxsarco.com/learn-about-steam/steam-traps-and-steam-trapping/considerations-for-selecting-steam-traps"
     },
     {
       "metric": "free-float trap upper pressure application",
@@ -109,7 +118,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/steamtrap-basics/steam-trap-varieties-and-applications",
         "source_id": "tlv-com-steamtrap-basics-steam-trap-varieties-and-applications"
       },
-      "value": "up to 12"
+      "value": "up to 12",
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/steamtrap-basics/steam-trap-varieties-and-applications"
     },
     {
       "metric": "disc trap upper pressure application",
@@ -119,7 +129,8 @@
         "url": "https://www.tlv.com/steam-info/steam-theory/steamtrap-basics/steam-trap-varieties-and-applications",
         "source_id": "tlv-com-steamtrap-basics-steam-trap-varieties-and-applications"
       },
-      "value": "up to 26"
+      "value": "up to 26",
+      "source_url": "https://www.tlv.com/steam-info/steam-theory/steamtrap-basics/steam-trap-varieties-and-applications"
     },
     {
       "metric": "Maximum operating pressure (PMO)",
@@ -129,7 +140,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "psig",
-      "value": "230"
+      "value": "230",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Minimum operating pressure",
@@ -139,7 +151,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "psig",
-      "value": "0.03"
+      "value": "0.03",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Maximum operating temperature (TMO)",
@@ -149,7 +162,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "deg F",
-      "value": "428"
+      "value": "428",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Discharge capacity",
@@ -159,7 +173,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "lb/h",
-      "value": "1660"
+      "value": "1660",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Body material",
@@ -169,7 +184,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "n/a",
-      "value": "Ductile Cast Iron (FCD450)"
+      "value": "Ductile Cast Iron (FCD450)",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Connection",
@@ -179,7 +195,8 @@
         "source_id": "tlv-com-thermodynamic-thermodyne"
       },
       "unit": "n/a",
-      "value": "Screwed"
+      "value": "Screwed",
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Body design condition",
@@ -189,7 +206,8 @@
         "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
       },
       "unit": "n/a",
-      "value": "PN63"
+      "value": "PN63",
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "Maximum allowable pressure",
@@ -199,7 +217,8 @@
         "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
       },
       "unit": "bar g at 100 deg C",
-      "value": "63"
+      "value": "63",
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "Maximum allowable / operating temperature",
@@ -209,7 +228,8 @@
         "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
       },
       "unit": "deg C at 42 bar g",
-      "value": "400"
+      "value": "400",
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "Recommended maximum operating pressure",
@@ -219,7 +239,8 @@
         "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
       },
       "unit": "bar g",
-      "value": "42"
+      "value": "42",
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "Minimum allowable / operating temperature",
@@ -229,7 +250,8 @@
         "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
       },
       "unit": "deg C",
-      "value": "0"
+      "value": "0",
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "Minimum operating differential pressure",
@@ -239,7 +261,8 @@
         "source_id": "spiraxsteam-com-thermodynamic-steam-traps-td42-thermodynamic-ste"
       },
       "unit": "bar g",
-      "value": "0.25"
+      "value": "0.25",
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "Maximum operating pressure PMO",
@@ -248,7 +271,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
       },
-      "value": 230
+      "value": 230,
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Maximum operating temperature TMO",
@@ -257,7 +281,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
       },
-      "value": 428
+      "value": 428,
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Predecessor launch year",
@@ -266,7 +291,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
       },
-      "value": 1958
+      "value": 1958,
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Durability claim",
@@ -275,7 +301,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne"
     },
     {
       "metric": "Condensate load range",
@@ -283,7 +310,8 @@
       "basis": "TLV: 'The series covers a wide range of condensate loads, from the 100's of kg/h to several 10's of tons/h'",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "J3S-X PMO / TMO / discharge capacity",
@@ -291,7 +319,8 @@
       "basis": "TLV Product Details: J3S-X — screwed, cast stainless steel ASTM A351 Gr.CF8, PMO 300 psig, TMO 428°F, discharge 1,700 lb/h",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "J5S-X PMO / TMO / discharge capacity",
@@ -299,7 +328,8 @@
       "basis": "TLV: J5S-X — cast stainless steel CF8, PMO 300 psig, TMO 428°F, discharge 2,200 lb/h",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "J6S-X PMO / TMO / discharge capacity",
@@ -307,7 +337,8 @@
       "basis": "TLV: J6S-X — cast stainless steel CF8, PMO 300 psig, TMO 428°F, discharge 7,500 lb/h",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "J7X / JS7X PMO / TMO / discharge capacity",
@@ -315,7 +346,8 @@
       "basis": "TLV: J7X — flanged cast iron FCV400, PMO 250 psig, TMO 428°F, discharge 8,000 lb/h",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "J7.2X PMO / TMO / discharge capacity",
@@ -323,7 +355,8 @@
       "basis": "TLV: J7.2X — flanged cast iron FCV400, PMO 250 psig, TMO 428°F, discharge 18,000 lb/h",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "J7.5X PMO / TMO / discharge capacity",
@@ -331,7 +364,8 @@
       "basis": "TLV: J7.5X — flanged cast iron FC250, PMO 250 psig, TMO 428°F, discharge 35,000 lb/h",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "J8X PMO / TMO / discharge capacity",
@@ -339,7 +373,8 @@
       "basis": "TLV: J8X — flanged cast iron FC250, PMO 250 psig, TMO 428°F, discharge 47,000 lb/h",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "FJ32-X QuickTrap PMO / TMO / discharge",
@@ -347,7 +382,8 @@
       "basis": "TLV: FJ32-X QuickTrap — universal flange, stainless steel, PMO 450 psig, TMO 662°F, discharge 1,500 lb/h",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "SJ3 PMO / TMO / discharge",
@@ -355,7 +391,8 @@
       "basis": "TLV: SJ3 — screwed cast iron, PMO 200 psig, TMO 428°F, discharge 1,380 lb/h",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "X-element air vent / fail-open",
@@ -363,7 +400,8 @@
       "basis": "TLV: 'The built-in X-element (model names including 'X') functions as an air vent, discharging both cool and hot air'; 'The X-element is designed to fail open so that the valve remains open even in the event of failure.'",
       "source": {
         "url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
-      }
+      },
+      "source_url": "https://www.tlv.com/en-us/products/steam-traps/mechanical/process"
     },
     {
       "metric": "TD42 - body design condition",
@@ -372,7 +410,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": "PN63"
+      "value": "PN63",
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "TD42 - maximum allowable pressure",
@@ -381,7 +420,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": 63
+      "value": 63,
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "TD42 - maximum allowable / operating temperature",
@@ -390,7 +430,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "TD42 - recommended maximum operating pressure",
@@ -399,7 +440,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": 42
+      "value": 42,
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "TD42 - minimum allowable / operating temperature",
@@ -408,7 +450,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": 0
+      "value": 0,
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "TD42 - minimum operating differential pressure",
@@ -417,7 +460,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": 0.25
+      "value": 0.25,
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "TD42 - maximum operating backpressure",
@@ -426,7 +470,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "TD42 - maximum cold hydraulic test pressure",
@@ -435,7 +480,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "TD42 - nominal sizes",
@@ -444,7 +490,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": "3/8, 1/2 and 3/4 in; screwed BSP Rp (ISO 7-1) or NPT"
+      "value": "3/8, 1/2 and 3/4 in; screwed BSP Rp (ISO 7-1) or NPT",
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "TD42 - materials",
@@ -453,7 +500,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": "Body ASTM A743 Gr CA 40; cap and strainer cap AISI 416; disc BS 1449 420 S45; strainer screen ASTM A240 316L; strainer cap gasket BS 1449 304 S16"
+      "value": "Body ASTM A743 Gr CA 40; cap and strainer cap AISI 416; disc BS 1449 420 S45; strainer screen ASTM A240 316L; strainer cap gasket BS 1449 304 S16",
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "TD42 - vacuum service",
@@ -462,7 +510,8 @@
       "source": {
         "url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
       },
-      "value": "Safe for use under full vacuum conditions"
+      "value": "Safe for use under full vacuum conditions",
+      "source_url": "https://www.spiraxsteam.com/products/steam-traps/thermodynamic-steam-traps/td42-thermodynamic-steam-trap/"
     },
     {
       "metric": "GP5C - PMO / TMO",
@@ -471,7 +520,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "75 psig / 365 degF"
+      "value": "75 psig / 365 degF",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP5C - motive medium pressure range / recovery",
@@ -480,7 +530,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "5-75 psig; 320 lb/h"
+      "value": "5-75 psig; 320 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10 - PMO / TMO",
@@ -489,7 +540,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "150 psig / 365 degF"
+      "value": "150 psig / 365 degF",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10 - motive medium pressure range / recovery",
@@ -498,7 +550,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "5-150 psig; 18,600 lb/h"
+      "value": "5-150 psig; 18,600 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10L - PMO / TMO / recovery",
@@ -507,7 +560,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "150 psig / 365 degF; 3,640 lb/h"
+      "value": "150 psig / 365 degF; 3,640 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10M - PMO / TMO / recovery",
@@ -516,7 +570,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "150 psig / 365 degF; 5,070 lb/h"
+      "value": "150 psig / 365 degF; 5,070 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP10F - PMO / TMO / recovery",
@@ -525,7 +580,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "150 psig / 428 degF; 18,600 lb/h"
+      "value": "150 psig / 428 degF; 18,600 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP14 - PMO / TMO / recovery",
@@ -534,7 +590,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "200 psig / 392 degF; 13,000 lb/h"
+      "value": "200 psig / 392 degF; 13,000 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP14-B - PMO / TMO / recovery",
@@ -543,7 +600,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "200 psig / 392 degF; 16,000 lb/h"
+      "value": "200 psig / 392 degF; 16,000 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP14L - PMO / TMO / recovery",
@@ -552,7 +610,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "200 psig / 428 degF; 4,850 lb/h"
+      "value": "200 psig / 428 degF; 4,850 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "GP14M - PMO / TMO / recovery",
@@ -561,7 +620,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "200 psig / 428 degF; 7,200 lb/h"
+      "value": "200 psig / 428 degF; 7,200 lb/h",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     },
     {
       "metric": "PowerTrap GP - motive medium / operation",
@@ -570,7 +630,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
       },
-      "value": "Powered by steam or compressed air (no electricity); snap-action mechanism; for open systems; suitable for explosion-proof installations"
+      "value": "Powered by steam or compressed air (no electricity); snap-action mechanism; for open systems; suitable for explosion-proof installations",
+      "source_url": "https://www.tlv.com/en-us/products/condensate-recovery/powertrap"
     }
   ],
   "vendors": [

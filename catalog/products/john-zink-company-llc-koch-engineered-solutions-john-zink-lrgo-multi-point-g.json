@@ -6,7 +6,7 @@
   "equipment": [
     "cf-flare-stack-boom-system-with-knockout-drum-seal-drum-flare-tip"
   ],
-  "description": "High pressure technology with staging for full-range smokeless turndown; turnkey supply available through Koch Specialty Plant Services. No numeric flow capacity printed on the page read.",
+  "description": "High pressure technology with staging for full-range smokeless turndown; turnkey supply available through Koch Specialty Plant Services. No numeric flow capacity printed on the page read. Primary source: https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
   "specifications": [
     {
       "metric": "Destruction efficiency",
@@ -16,7 +16,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "value": ">99.5"
+      "value": ">99.5",
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "API compliance",
@@ -26,7 +27,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "value": "API 537"
+      "value": "API 537",
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Smokeless operation",
@@ -36,7 +38,8 @@
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",
         "source_id": "cat-johnzink-com-lrgo-multi-point-ground-flare"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Destruction efficiency",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
       },
-      "value": 99.5
+      "value": 99.5,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Smokeless operation",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Standard",
@@ -62,7 +67,8 @@
       "basis": "\"Available API 537 Compliance: Ensures compliance with the latest Industry flare standards\"",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Turndown / staging",
@@ -70,7 +76,8 @@
       "basis": "\"High pressure technology with staging allows smokeless operation for the full range of flows\"; \"Staging System: Allows exceptional turndown capabilities\"",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     }
   ],
   "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare",

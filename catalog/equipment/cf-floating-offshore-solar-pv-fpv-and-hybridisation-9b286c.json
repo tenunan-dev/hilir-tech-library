@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "PV mounted on buoyant structures over water; relevant to offshore/nearshore facilities where land is unavailable. Water cooling can improve yield; salt-water installations need corrosion resistance, wave/wind design and robust anchoring.",
+  "description": "PV mounted on buoyant structures over water; relevant to offshore/nearshore facilities where land is unavailable. Water cooling can improve yield; salt-water installations need corrosion resistance, wave/wind design and robust anchoring. Primary source: https://www.sungrowpower.com/en/floating-pv-system",
   "specifications": [
     {
       "metric": "Sungrow FPV global installed capacity",
@@ -19,7 +19,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "low": 4
+      "low": 4,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Sungrow Cirata FPV project",
@@ -29,7 +30,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 192
+      "value": 192,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Global installed FPV capacity",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_solar",
         "source_id": "sys-en-wikipedia-org-floating-solar"
       },
-      "value": 13
+      "value": 13,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_solar"
     },
     {
       "metric": "FPV energy-yield gain from water cooling",
@@ -50,7 +53,8 @@
         "source_id": "sys-en-wikipedia-org-floating-solar"
       },
       "low": 5,
-      "high": 15
+      "high": 15,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_solar"
     },
     {
       "metric": "FPV installation cost premium",
@@ -61,7 +65,8 @@
         "source_id": "sys-en-wikipedia-org-floating-solar"
       },
       "low": 10,
-      "high": 25
+      "high": 25,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_solar"
     },
     {
       "metric": "First offshore FPV at sea",
@@ -71,7 +76,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_solar",
         "source_id": "sys-en-wikipedia-org-floating-solar"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_solar"
     }
   ],
   "vendors": [

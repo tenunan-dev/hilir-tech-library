@@ -6,7 +6,7 @@
   "equipment": [
     "ins-impact-pile-driving-hammers-hydraulic-diesel-underwater"
   ],
-  "description": "Vendor product line read 2026-11-24. 16 anchor lines usable to 450 m water depth; Menck hammer spread.",
+  "description": "Vendor product line read 2026-11-24. 16 anchor lines usable to 450 m water depth; Menck hammer spread. Primary source: https://en.wikipedia.org/wiki/Saipem_7000",
   "specifications": [
     {
       "metric": "Tandem lift",
@@ -16,7 +16,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
-      "value": 14000
+      "value": 14000,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Per-crane main hook at 40 m",
@@ -26,7 +27,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
-      "value": 7000
+      "value": 7000,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Ballast transfer rate",
@@ -36,7 +38,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
-      "value": 24000
+      "value": 24000,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "J-lay tension (friction clamps)",
@@ -46,7 +49,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000",
         "source_id": "en-wikipedia-org-wiki-saipem-7000"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Displacement (heavy lift)",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 172000
+      "value": 172000,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Length overall",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 198
+      "value": 198,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Beam",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 87
+      "value": 87,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Height keel to deck",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 43.5
+      "value": 43.5,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Installed power",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 70000
+      "value": 70000,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Propulsion thrusters",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Speed",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 9.5
+      "value": 9.5,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Crane main hook capacity",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 7000
+      "value": 7000,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Tandem lift capacity",
@@ -127,7 +139,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 14000
+      "value": 14000,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "J-lay pipe diameter",
@@ -137,7 +150,8 @@
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
       "low": 4,
-      "high": 32
+      "high": 32,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "J-lay tension",
@@ -145,7 +159,8 @@
       "basis": "\"with a tension of up to 525 tonnes (5.15 MN) using the tensioners and up to 2,000 tonnes (20 MN) when using friction clamps\"",
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "World offshore lifting record",
@@ -154,7 +169,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 12150
+      "value": 12150,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     },
     {
       "metric": "Crew",
@@ -163,7 +179,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Saipem_7000"
       },
-      "value": 700
+      "value": 700,
+      "source_url": "https://en.wikipedia.org/wiki/Saipem_7000"
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Saipem_7000",

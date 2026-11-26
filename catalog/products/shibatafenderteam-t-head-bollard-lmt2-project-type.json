@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Project-specific 37 units at Lumut LMT2; not a generic product range.",
+  "description": "Vendor product line read 2026-11-24. Project-specific 37 units at Lumut LMT2; not a generic product range. Primary source: https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
   "specifications": [
     {
       "metric": "rated mooring capacity",
@@ -16,7 +16,8 @@
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
         "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "T-head bollards supplied",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 37
+      "value": 37,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Rated mooring capacity",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "New berth length",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 396
+      "value": 396,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Cone fender systems supplied",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 36
+      "value": 36,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Fender panel size",
@@ -60,7 +65,8 @@
       "basis": "'each equipped with a 2000x4320 mm closed-box steel panel'",
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
-      }
+      },
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Original tender fender spacing",
@@ -69,7 +75,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 6.5
+      "value": 6.5,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Optimized fender spacing",
@@ -78,7 +85,8 @@
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
       },
-      "value": 12.5
+      "value": 12.5,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     },
     {
       "metric": "Chain coating",
@@ -86,7 +94,8 @@
       "basis": "'the chain assemblies were therefore supplied with a duplex coating system'",
       "source": {
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
-      }
+      },
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     }
   ],
   "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",

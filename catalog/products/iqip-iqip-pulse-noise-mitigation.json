@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://iqip.com/products/pile-driving-equipment/hydrohammer",
   "specifications": [
     {
       "metric": "function",
@@ -16,7 +16,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and operating costs"
+      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and operating costs",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Blow energy range",
@@ -26,7 +27,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
       "low": 30,
-      "high": 7500
+      "high": 7500,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "IQ8 blow energy",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "exceeding 7,500"
+      "value": "exceeding 7,500",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Continuous energy capacity",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Boost power",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": 120
+      "value": 120,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "SW-series water depth",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Piles installed",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "5.5 Million"
+      "value": "5.5 Million",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Experience",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "40+"
+      "value": "40+",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Countries active",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "50+"
+      "value": "50+",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Operational availability",
@@ -98,7 +107,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": ">97"
+      "value": ">97",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "PULSE function",
@@ -107,7 +117,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and environmental disturbance"
+      "value": "extends hammer impact duration to reduce underwater noise, pile fatigue and environmental disturbance",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Series",
@@ -116,7 +127,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "IQ-series, S-series, SW-series"
+      "value": "IQ-series, S-series, SW-series",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     }
   ],
   "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",

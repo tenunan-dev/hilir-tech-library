@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Fabricate jacket horizontally, load out onto a launch barge, tow to site, ballast the barge to trim, winch/slide the jacket over skid rails and rocker arms into the water, let it float near-horizontal (head-up), then upend and set on seabed.",
+  "description": "Fabricate jacket horizontally, load out onto a launch barge, tow to site, ballast the barge to trim, winch/slide the jacket over skid rails and rocker arms into the water, let it float near-horizontal (head-up), then upend and set on seabed. Primary source: https://thenavalarch.com/launching-steel-jackets/",
   "specifications": [
     {
       "metric": "Principal launch stages",
@@ -19,7 +19,8 @@
         "url": "https://thenavalarch.com/launching-steel-jackets/",
         "source_id": "thenavalarch-com-launching-steel-jackets"
       },
-      "value": "1 winching to overcome friction; 2 sliding; 3 point of rotation; 4 rotating and sliding; 5 jacket clear of barge"
+      "value": "1 winching to overcome friction; 2 sliding; 3 point of rotation; 4 rotating and sliding; 5 jacket clear of barge",
+      "source_url": "https://thenavalarch.com/launching-steel-jackets/"
     },
     {
       "metric": "Typical launch barge draft",
@@ -29,7 +30,8 @@
         "url": "https://thenavalarch.com/launching-steel-jackets/",
         "source_id": "thenavalarch-com-launching-steel-jackets"
       },
-      "value": "60-65% of barge depth; up to 80% possible if strength adequate"
+      "value": "60-65% of barge depth; up to 80% possible if strength adequate",
+      "source_url": "https://thenavalarch.com/launching-steel-jackets/"
     },
     {
       "metric": "Maximum allowable barge trim",
@@ -39,7 +41,8 @@
         "url": "https://thenavalarch.com/launching-steel-jackets/",
         "source_id": "thenavalarch-com-launching-steel-jackets"
       },
-      "value": "usually about 10 degrees"
+      "value": "usually about 10 degrees",
+      "source_url": "https://thenavalarch.com/launching-steel-jackets/"
     },
     {
       "metric": "Friction coefficients (greased timber on Teflon)",
@@ -49,7 +52,8 @@
         "url": "https://thenavalarch.com/launching-steel-jackets/",
         "source_id": "thenavalarch-com-launching-steel-jackets"
       },
-      "value": "dynamic 0.035 (3.5%); static as low as 0.05 (5%)"
+      "value": "dynamic 0.035 (3.5%); static as low as 0.05 (5%)",
+      "source_url": "https://thenavalarch.com/launching-steel-jackets/"
     },
     {
       "metric": "Jacket auxiliary buoyancy",
@@ -59,7 +63,8 @@
         "url": "https://thenavalarch.com/launching-steel-jackets/",
         "source_id": "thenavalarch-com-launching-steel-jackets"
       },
-      "value": "typically over 10% of launch weight"
+      "value": "typically over 10% of launch weight",
+      "source_url": "https://thenavalarch.com/launching-steel-jackets/"
     },
     {
       "metric": "Jacket reserve buoyancy (floating after launch)",
@@ -69,7 +74,8 @@
         "url": "https://www.mermaid-consultants.com/jacket-launching.html",
         "source_id": "mermaid-consultants-com-www-mermaid-consultants-com-jacket-launchi"
       },
-      "value": "at least 15% of total jacket weight"
+      "value": "at least 15% of total jacket weight",
+      "source_url": "https://www.mermaid-consultants.com/jacket-launching.html"
     },
     {
       "metric": "Minimum bottom clearance during launch",
@@ -79,7 +85,8 @@
         "url": "https://www.mermaid-consultants.com/jacket-launching.html",
         "source_id": "mermaid-consultants-com-www-mermaid-consultants-com-jacket-launchi"
       },
-      "value": "10% of water depth or 5 m, whichever is greater"
+      "value": "10% of water depth or 5 m, whichever is greater",
+      "source_url": "https://www.mermaid-consultants.com/jacket-launching.html"
     },
     {
       "metric": "Stability criterion during launch",
@@ -89,7 +96,8 @@
         "url": "https://www.mermaid-consultants.com/jacket-launching.html",
         "source_id": "mermaid-consultants-com-www-mermaid-consultants-com-jacket-launchi"
       },
-      "value": "transverse and longitudinal GM > 1 m"
+      "value": "transverse and longitudinal GM > 1 m",
+      "source_url": "https://www.mermaid-consultants.com/jacket-launching.html"
     },
     {
       "metric": "Hydrodynamic coefficients used in launch analysis",
@@ -99,7 +107,8 @@
         "url": "https://thenavalarch.com/launching-steel-jackets/",
         "source_id": "thenavalarch-com-launching-steel-jackets"
       },
-      "value": "Cd 0.7; Cm 2.0"
+      "value": "Cd 0.7; Cm 2.0",
+      "source_url": "https://thenavalarch.com/launching-steel-jackets/"
     },
     {
       "metric": "Launch sea state limit (personnel transfer / boarding)",
@@ -109,7 +118,8 @@
         "url": "https://thenavalarch.com/launching-steel-jackets/",
         "source_id": "thenavalarch-com-launching-steel-jackets"
       },
-      "value": "significant wave height typically less than 2 m"
+      "value": "significant wave height typically less than 2 m",
+      "source_url": "https://thenavalarch.com/launching-steel-jackets/"
     }
   ],
   "vendors": [

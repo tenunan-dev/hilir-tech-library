@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Descriptive HTML only; no numeric specification printed.",
+  "description": "Descriptive HTML only; no numeric specification printed. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
   "specifications": [
     {
       "metric": "Architecture",
@@ -16,7 +16,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
         "source_id": "cat-technipfmc-com-flexible-pipes"
       },
-      "value": "Vertical steel pipe tensioned by near-surface buoyancy can; flexible jumper to platform; seabed foundation; rigid base jumper to PLET"
+      "value": "Vertical steel pipe tensioned by near-surface buoyancy can; flexible jumper to platform; seabed foundation; rigid base jumper to PLET",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Flexible pipe construction",
@@ -24,7 +25,8 @@
       "basis": "TechnipFMC: 'A flexible pipe is made up of several different layers. The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires. The helically wound steel wires give the structure its high-pressure resistance and excellent bending characteristics'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Design philosophy",
@@ -32,7 +34,8 @@
       "basis": "TechnipFMC: 'modular construction where the layers are independent but designed to interact with one another ... each layer can be made fit-for-purpose'; 'flexible pipe can be easily retrieved to be reused on another field development or for decommissioning'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",

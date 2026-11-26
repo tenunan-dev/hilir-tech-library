@@ -6,7 +6,7 @@
   "equipment": [
     "economizer-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Economizers catalog listing directly with WebFetch (text). Same page lists C1X, C2X, C2X-HE, CCE, CRB, CRE economizers.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Economizers catalog listing directly with WebFetch (text). Same page lists C1X, C2X, C2X-HE, CCE, CRB, CRE economizers. Primary source: https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",
   "specifications": [
     {
       "metric": "Efficiency boost",
@@ -17,7 +17,8 @@
       },
       "unit": "%",
       "low": 3,
-      "high": 5
+      "high": 5,
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
     },
     {
       "metric": "Applicable boilers",
@@ -27,7 +28,8 @@
         "source_id": "cleaverbrooks-com-boiler-room-equipment-economizers"
       },
       "unit": "applicability",
-      "value": "ClearFire-H and CBT boilers from 10-80 HP, high or low pressure steam"
+      "value": "ClearFire-H and CBT boilers from 10-80 HP, high or low pressure steam",
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
     },
     {
       "metric": "Efficiency boost",
@@ -37,7 +39,8 @@
         "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
       },
       "low": 3,
-      "high": 5
+      "high": 5,
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
     },
     {
       "metric": "Compatible boiler horsepower",
@@ -47,7 +50,8 @@
         "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
       },
       "low": 10,
-      "high": 80
+      "high": 80,
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers"
     }
   ],
   "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/economizers",

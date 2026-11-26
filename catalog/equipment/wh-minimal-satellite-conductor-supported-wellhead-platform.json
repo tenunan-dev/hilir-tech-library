@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Low-cost unmanned wellhead platform, often supported directly by the well conductors, used for marginal fields and step-outs tied back to a host facility by flowline or umbilical.",
+  "description": "Low-cost unmanned wellhead platform, often supported directly by the well conductors, used for marginal fields and step-outs tied back to a host facility by flowline or umbilical. Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "description from Oil platform article",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": "small unmanned platforms consisting of little more than a well bay and a small process plant; operate with a static production platform connected by flow lines or umbilical"
+      "value": "small unmanned platforms consisting of little more than a well bay and a small process plant; operate with a static production platform connected by flow lines or umbilical",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     }
   ],
   "vendors": [

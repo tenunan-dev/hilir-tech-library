@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Page read for Sika AIR",
+  "description": "Vendor product line read 2026-11-24. Page read for Sika AIR Primary source: https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
   "specifications": [
     {
       "metric": "ViscoCrete-1000 water reduction",
@@ -16,7 +16,8 @@
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
         "source_id": "usa-sika-com-air-entrainers-sika-air-html"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "Sika AIR dosage",
@@ -26,7 +27,8 @@
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
         "source_id": "usa-sika-com-air-entrainers-sika-air-html"
       },
-      "value": "7–400"
+      "value": "7–400",
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "standard",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
-      "value": "ASTM C260/AASHTO M 154"
+      "value": "ASTM C260/AASHTO M 154",
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "dosage_rate",
@@ -45,7 +48,8 @@
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
       "low": 0.1,
-      "high": 6.0
+      "high": 6.0,
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "specific_gravity",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
-      "value": 1.01
+      "value": 1.01,
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "storage_temperature",
@@ -64,7 +69,8 @@
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
       "low": 5,
-      "high": 27
+      "high": 27,
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "shelf_life",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "appearance",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
-      "value": "Clear Orange-Brown Liquid"
+      "value": "Clear Orange-Brown Liquid",
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     },
     {
       "metric": "packaging",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
       },
-      "value": "55-gallon (208-liter) drums, 275-gallon (1040-liter) totes, bulk delivery"
+      "value": "55-gallon (208-liter) drums, 275-gallon (1040-liter) totes, bulk delivery",
+      "source_url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html"
     }
   ],
   "url": "https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",

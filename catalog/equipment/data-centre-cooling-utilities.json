@@ -8,7 +8,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Cooling utilities for the data centre directly coupled to the gas-engine energy story",
+  "description": "Cooling utilities for the data centre directly coupled to the gas-engine energy story Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
   "specifications": [
     {
       "metric": "function",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
-      }
+      },
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "geg-diesel-oxidation-catalyst-and-scr-emission-control-system"
   ],
-  "description": "compact urea-SCR system",
+  "description": "compact urea-SCR system Primary source: https://patents.google.com/patent/EP3137745B1/en",
   "specifications": [
     {
       "metric": "Engine power range",
@@ -18,7 +18,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en",
         "source_id": "geg-patents-google-com-en-70a2d76"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Aqueous urea concentration ranges",
@@ -30,7 +31,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en",
         "source_id": "geg-patents-google-com-en-70a2d76"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Preferred SCR catalyst cell density",
@@ -42,7 +44,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en",
         "source_id": "geg-patents-google-com-en-70a2d76"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Engine power range",
@@ -53,7 +56,8 @@
       },
       "value": 500,
       "low": 4500,
-      "high": "kW"
+      "high": "kW",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Subrange 1",
@@ -64,7 +68,8 @@
       },
       "value": 500,
       "low": 1000,
-      "high": "kW"
+      "high": "kW",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Subrange 2",
@@ -75,7 +80,8 @@
       },
       "value": 1000,
       "low": 2000,
-      "high": "kW"
+      "high": "kW",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Subrange 3",
@@ -86,7 +92,8 @@
       },
       "value": 2000,
       "low": 4500,
-      "high": "kW"
+      "high": "kW",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "NSR range",
@@ -97,7 +104,8 @@
       },
       "value": 0.1,
       "low": 2,
-      "high": "ratio"
+      "high": "ratio",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Preferred NSR",
@@ -108,7 +116,8 @@
       },
       "value": 0.6,
       "low": 1.2,
-      "high": "ratio"
+      "high": "ratio",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Urea concentration range",
@@ -119,7 +128,8 @@
       },
       "value": 5,
       "low": 70,
-      "high": "%"
+      "high": "%",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Preferred urea concentration",
@@ -130,7 +140,8 @@
       },
       "value": 15,
       "low": 60,
-      "high": "%"
+      "high": "%",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "More preferred urea concentration",
@@ -141,7 +152,8 @@
       },
       "value": 30,
       "low": 40,
-      "high": "%"
+      "high": "%",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Urea decomposition temperature",
@@ -150,7 +162,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 140
+      "value": 140,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Catalyst cell density",
@@ -161,7 +174,8 @@
       },
       "value": 45,
       "low": 400,
-      "high": "cpsi"
+      "high": "cpsi",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Preferred catalyst brick cross section",
@@ -170,7 +184,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Exhaust gas temperature minimum",
@@ -179,7 +194,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Typical exhaust gas temperature",
@@ -190,7 +206,8 @@
       },
       "value": 180,
       "low": 650,
-      "high": "degC"
+      "high": "degC",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Test engine displacement",
@@ -199,7 +216,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 16
+      "value": 16,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Test engine power",
@@ -208,7 +226,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 430
+      "value": 430,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Test exhaust temperature",
@@ -219,7 +238,8 @@
       },
       "value": 430,
       "low": 510,
-      "high": "degC"
+      "high": "degC",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Test ANR values",
@@ -230,7 +250,8 @@
       },
       "value": 0.8,
       "low": 1.1,
-      "high": "ratio"
+      "high": "ratio",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Test exhaust mass flow",
@@ -239,7 +260,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 1200
+      "value": 1200,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Raw NOx concentration",
@@ -248,7 +270,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Vaporization air pressure",
@@ -257,7 +280,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     }
   ],
   "url": "https://patents.google.com/patent/EP3137745B1/en",

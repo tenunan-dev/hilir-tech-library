@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. No specific model asserted.",
+  "description": "Vendor product line read 2026-11-24. No specific model asserted. Primary source: https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
   "specifications": [
     {
       "metric": "registered interoperable products",
@@ -16,7 +16,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "wiring",
@@ -26,7 +27,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",
         "source_id": "sys-fieldcommgroup-org-foundation-fieldbus"
       },
-      "value": "two-wire twisted pair; IS/non-incendive power"
+      "value": "two-wire twisted pair; IS/non-incendive power",
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "Physical medium",
@@ -34,7 +36,8 @@
       "basis": "FieldComm Group: 'Fieldbus-based control systems employ two-wire twisted pair cable and provide intrinsically safe or non-incendive device power suitable for all hazardous areas.'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "Architecture",
@@ -42,7 +45,8 @@
       "basis": "FieldComm Group: 'FOUNDATION Fieldbus provides an all-digital communication infrastructure for process automation, with powerful multivariable measurement capabilities, robust device diagnostics'; 'designed from the ground up to enable control-in-the-field (CIF) strategies ... during a host system failure, field instruments can communicate directly'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "Registered products",
@@ -51,7 +55,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "Specification package contents",
@@ -59,7 +64,8 @@
       "basis": "FieldComm Group: 'FOUNDATION Fieldbus Technical Specifications ... includes the latest FOUNDATION Fieldbus H1, High Speed Ethernet (HSE) and Physical Layer technical specifications'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     }
   ],
   "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus",

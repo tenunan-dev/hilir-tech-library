@@ -8,7 +8,7 @@
     "MID",
     "CIV"
   ],
-  "description": "A fixed steel jacket is a braced tubular, pile-founded substructure that carries the topside and laterally supports and protects well conductors and the pipeline riser; ESDEP states the overwhelming majority of platforms are piled-jacket with steel deck structures. For smaller/marginal fields the read sources describe conductor-supported minimum-facility platforms (MFP/CoSMOS), monopile or caisson alternatives. Appurtenances evidenced on read pages are a clamp-on boat landing (US4679964A, US4932",
+  "description": "A fixed steel jacket is a braced tubular, pile-founded substructure that carries the topside and laterally supports and protects well conductors and the pipeline riser; ESDEP states the overwhelming majority of platforms are piled-jacket with steel deck structures. For smaller/marginal fields the read sources describe conductor-supported minimum-facility platforms (MFP/CoSMOS), monopile or caisson alternatives. Appurtenances evidenced on read pages are a clamp-on boat landing (US4679964A, US4932 Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
   "aliases": [
     "Jacket structure (3 or 4-legged steel jacket, or conductor-supported/monopile for smaller fields) with boat landing, riser clamp, barge bump"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Fixed steel jacket (3-/4-legged tubular, — Typical air gap (topside clearance above maximum wave)",
@@ -37,7 +38,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Fixed steel jacket (3-/4-legged tubular, — Jacket pile diameter",
@@ -47,7 +49,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Fixed steel jacket (3-/4-legged tubular, — Jacket pile penetration, typical",
@@ -58,7 +61,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Fixed steel jacket (3-/4-legged tubular, — Jacket pile penetration, deep case",
@@ -68,7 +72,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Fixed steel jacket (3-/4-legged tubular, — Economically feasible water depth, fixed platform",
@@ -78,7 +83,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Fixed_platform",
         "source_id": "en-wikipedia-org-wiki-fixed-platform"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Fixed_platform"
     },
     {
       "metric": "Fixed steel jacket (3-/4-legged tubular, — Economically feasible water depth, fixed platform (second source)",
@@ -88,7 +94,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Offshore_platform",
         "source_id": "whp-en-wikipedia-org-offshore-platform"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_platform"
     },
     {
       "metric": "Boat landing / barge impact protection ( — Conductor diameter for clamp-on boat landing",
@@ -99,7 +106,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US4679964A/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US4679964A/en"
     },
     {
       "metric": "Boat landing / barge impact protection ( — Example anchor pile length",
@@ -109,7 +117,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US4679964A/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US4679964A/en"
     },
     {
       "metric": "Boat landing / barge impact protection ( — Clamp-base footprint of prior-art Sea Horse system",
@@ -119,7 +128,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US4932811A/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US4932811A/en"
     },
     {
       "metric": "Conductor-supported / monopile substruct — Conductor-supported platform water depth applicability",
@@ -129,7 +139,8 @@
       "source": {
         "url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms",
         "source_id": "whp-2hoffshore-com-minimum-facility-platforms"
-      }
+      },
+      "source_url": "https://2hoffshore.com/sectors/oil-and-gas/platforms/minimum-facility-platforms"
     },
     {
       "metric": "Reliability — Offshore inspection, maintenance and repair share of OPEX",
@@ -139,7 +150,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Reliability — Dynamic analysis trigger",
@@ -149,7 +161,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     }
   ],
   "vendor_models": [],

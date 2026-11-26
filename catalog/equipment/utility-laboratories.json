@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Laboratories",
+  "description": "Laboratories Primary source: https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
   "specifications": [
     {
       "metric": "Product specification context",
@@ -19,7 +19,8 @@
         "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
         "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
       },
-      "value": "urea prill -6+18 US Mesh; max biuret 0.5%"
+      "value": "urea prill -6+18 US Mesh; max biuret 0.5%",
+      "source_url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf"
     }
   ],
   "vendors": [

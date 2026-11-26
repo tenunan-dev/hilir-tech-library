@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. Manufacturer name as stated in Wikipedia; no vendor page fetched",
+  "description": "Vendor product line read 2026-11-24. Manufacturer name as stated in Wikipedia; no vendor page fetched Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "water depth",
@@ -17,7 +17,8 @@
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "low": 180,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "water_depth_range",
@@ -27,7 +28,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
       "low": 180,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "water_depth_range_ft",
@@ -37,7 +39,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
       "low": 590,
-      "high": 4270
+      "high": 4270,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "platform_type",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
-      "value": "vertically moored mini tension leg platform"
+      "value": "vertically moored mini tension leg platform",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Oil_platform",

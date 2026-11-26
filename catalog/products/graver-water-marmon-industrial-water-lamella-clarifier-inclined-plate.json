@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-feedwater-pretreatment"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: same Graver Raw Water Pretreatment page.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: same Graver Raw Water Pretreatment page. Primary source: https://graver.com/pretreatment/",
   "specifications": [
     {
       "metric": "Design principle",
@@ -16,7 +16,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "inclined plate clarification assuring laminar flow conditions"
+      "value": "inclined plate clarification assuring laminar flow conditions",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Installation attribute",
@@ -26,7 +27,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "reduced space; can be located indoors or relocated"
+      "value": "reduced space; can be located indoors or relocated",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Clarifier design principle",
@@ -34,7 +36,8 @@
       "basis": "Graver Raw Water Pretreatment: 'Inclined Plate Clarification – The Graver Lamella design assures laminar flow conditions that result in hydraulic uniformity and high effluent quality.'",
       "source": {
         "url": "https://graver.com/pretreatment/"
-      }
+      },
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Installation / footprint",
@@ -42,7 +45,8 @@
       "basis": "Graver: 'It permits great reduction in the space needed for clarification equipment, and allows the compact equipment to be located indoors if desired, or to be easily relocated at a later date.'",
       "source": {
         "url": "https://graver.com/pretreatment/"
-      }
+      },
+      "source_url": "https://graver.com/pretreatment/"
     }
   ],
   "url": "https://graver.com/pretreatment/",

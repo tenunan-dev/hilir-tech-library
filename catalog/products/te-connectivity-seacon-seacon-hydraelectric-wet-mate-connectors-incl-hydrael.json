@@ -6,7 +6,7 @@
   "equipment": [
     "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246"
   ],
-  "description": "HTML product-group page read; linked DDE datasheet not separately read.",
+  "description": "HTML product-group page read; linked DDE datasheet not separately read. Primary source: https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
   "specifications": [
     {
       "metric": "Electrical circuits",
@@ -16,7 +16,8 @@
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
         "source_id": "cat-te-com-electrical-wet-mate-html"
       },
-      "value": "4, 7 or 12"
+      "value": "4, 7 or 12",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Water depth qualification",
@@ -26,7 +27,8 @@
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
         "source_id": "cat-te-com-electrical-wet-mate-html"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Standards",
@@ -36,7 +38,8 @@
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
         "source_id": "cat-te-com-electrical-wet-mate-html"
       },
-      "value": "ISO 13628-6; API 17F; SEAFOM TSD-02"
+      "value": "ISO 13628-6; API 17F; SEAFOM TSD-02",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Ethernet data rate",
@@ -46,7 +49,8 @@
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
         "source_id": "cat-te-com-electrical-wet-mate-html"
       },
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Ethernet contacts",
@@ -56,7 +60,8 @@
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
         "source_id": "cat-te-com-electrical-wet-mate-html"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Ethernet voltage rating",
@@ -66,7 +71,8 @@
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
         "source_id": "cat-te-com-electrical-wet-mate-html"
       },
-      "value": "1500 VDC and 1000 VAC pin to pin"
+      "value": "1500 VDC and 1000 VAC pin to pin",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Interface",
@@ -76,7 +82,8 @@
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
         "source_id": "cat-te-com-electrical-wet-mate-html"
       },
-      "value": "SEACON MKII Pressure Balanced Oil Filled (PBOF) hose interface as standard"
+      "value": "SEACON MKII Pressure Balanced Oil Filled (PBOF) hose interface as standard",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Electrical circuits",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
       },
-      "value": "4, 7 or 12"
+      "value": "4, 7 or 12",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Water depth qualification",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
       },
-      "high": 4000
+      "high": 4000,
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Design standards",
@@ -103,7 +112,8 @@
       "source": {
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
       },
-      "value": "ISO 13628-6 and API 17F; SEAFOM TSD-02; Statoil and Total requirements"
+      "value": "ISO 13628-6 and API 17F; SEAFOM TSD-02; Statoil and Total requirements",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Hose interface",
@@ -112,7 +122,8 @@
       "source": {
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
       },
-      "value": "SEACON MKII Pressure Balanced Oil Filled (PBOF) hose interface as standard"
+      "value": "SEACON MKII Pressure Balanced Oil Filled (PBOF) hose interface as standard",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Design features",
@@ -121,7 +132,8 @@
       "source": {
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
       },
-      "value": "Dual barriers oil-filled, pressure compensated design; corrosion resistant without cathodic protection"
+      "value": "Dual barriers oil-filled, pressure compensated design; corrosion resistant without cathodic protection",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Configurations",
@@ -130,7 +142,8 @@
       "source": {
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
       },
-      "value": "ROV, manual and stab plate configurations with industry standard panel interfaces"
+      "value": "ROV, manual and stab plate configurations with industry standard panel interfaces",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Ethernet data rate",
@@ -139,7 +152,8 @@
       "source": {
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
       },
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Ethernet contacts",
@@ -148,7 +162,8 @@
       "source": {
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Ethernet voltage",
@@ -157,7 +172,8 @@
       "source": {
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
       },
-      "value": "1500 VDC and 1000 VAC pin to pin"
+      "value": "1500 VDC and 1000 VAC pin to pin",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     },
     {
       "metric": "Ethernet qualification",
@@ -166,7 +182,8 @@
       "source": {
         "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
       },
-      "value": "SEAFOM TSD-02 / API 17F"
+      "value": "SEAFOM TSD-02 / API 17F",
+      "source_url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html"
     }
   ],
   "url": "https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",

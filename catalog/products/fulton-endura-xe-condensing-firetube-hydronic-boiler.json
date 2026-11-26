@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-gas-condensing-hot-water"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown), including full model specification table.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown), including full model specification table. Primary source: https://fulton.com/exe",
   "specifications": [
     {
       "metric": "Input capacity",
@@ -17,7 +17,8 @@
       },
       "unit": "BTU/hr",
       "low": 399000,
-      "high": 6000000
+      "high": 6000000,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Thermal efficiency",
@@ -28,7 +29,8 @@
       },
       "unit": "% AHRI Thermal Efficiency",
       "low": 96.2,
-      "high": 98.0
+      "high": 98.0,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Turndown ratio",
@@ -39,7 +41,8 @@
       },
       "unit": ":1",
       "low": 8,
-      "high": 15
+      "high": 15,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Heat exchanger material",
@@ -49,7 +52,8 @@
         "source_id": "fulton-com-exe"
       },
       "unit": "material",
-      "value": "Type 439 stainless steel"
+      "value": "Type 439 stainless steel",
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Fuel savings vs conventional boilers",
@@ -59,7 +63,8 @@
         "source_id": "fulton-com-exe"
       },
       "unit": "% reduction in fossil fuel use",
-      "value": 15
+      "value": 15,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "NOx reduction vs conventional boilers",
@@ -69,7 +74,8 @@
         "source_id": "fulton-com-exe"
       },
       "unit": "% reduction",
-      "value": 80
+      "value": 80,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Water content",
@@ -80,7 +86,8 @@
       },
       "unit": "gallons",
       "low": 17.9,
-      "high": 166
+      "high": 166,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Size range",
@@ -90,7 +97,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 399000,
-      "high": 6000000
+      "high": 6000000,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Efficiency",
@@ -99,7 +107,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "high": 99
+      "high": 99,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Turndown",
@@ -108,7 +117,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "high": 15
+      "high": 15,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Fuel options",
@@ -117,7 +127,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "value": "Natural Gas, Propane"
+      "value": "Natural Gas, Propane",
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Heat exchanger material",
@@ -126,7 +137,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "value": "Type 439 stainless steel"
+      "value": "Type 439 stainless steel",
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Fuel saving",
@@ -135,7 +147,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "NOx reduction",
@@ -144,7 +157,8 @@
       "source": {
         "url": "https://fulton.com/exe"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Input capacity range",
@@ -154,7 +168,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 399,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "AHRI thermal efficiency range",
@@ -164,7 +179,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 96.0,
-      "high": 98.0
+      "high": 98.0,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Operating weight range",
@@ -174,7 +190,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 537,
-      "high": 5740
+      "high": 5740,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Height range",
@@ -184,7 +201,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 73.7,
-      "high": 79.3
+      "high": 79.3,
+      "source_url": "https://fulton.com/exe"
     },
     {
       "metric": "Water content range",
@@ -194,7 +212,8 @@
         "url": "https://fulton.com/exe"
       },
       "low": 17.9,
-      "high": 166
+      "high": 166,
+      "source_url": "https://fulton.com/exe"
     }
   ],
   "url": "https://fulton.com/exe",

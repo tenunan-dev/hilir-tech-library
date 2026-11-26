@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Two-year operational spares for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Two-year operational spares for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Commissioning. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
   "aliases": [
     "Two-year operational spares"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN PrimeServ spare parts packages (EX — high-demand OEM spare parts delivery target",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "GE contractual service agreement (long — CSA duration at Kimanis Power plant",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
         "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
-      }
+      },
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "Wärtsilä Malaysia Sdn Bhd local servic — professionals in Malaysia",
@@ -61,7 +64,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys",
         "source_id": "geg-wartsila-com-mys-1e8ef98"
-      }
+      },
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "MAN 175D standardised spare parts  — number of standardised spare parts packages",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D standardised spare parts  — prompt delivery target for high-demand OEM spare parts",
@@ -83,7 +88,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "MAN 175D standardised spare parts  — local stock of consumable parts",
@@ -93,7 +99,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Reconditioned exchange components — components offered as reconditioned units on exchange basis",
@@ -103,7 +110,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Local staff",
@@ -112,7 +120,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": "over 15 professionals"
+      "value": "over 15 professionals",
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "Kuala Lumpur office address",
@@ -121,7 +130,8 @@
       "source": {
         "url": "https://www.wartsila.com/mys"
       },
-      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia"
+      "value": "Wartsila Malaysia Sdn Bhd, Menara AIA Sentral, Level 35, Unit 35.1, No. 30 Jalan Sultan Ismail, 50250 Kuala Lumpur, Malaysia",
+      "source_url": "https://www.wartsila.com/mys"
     },
     {
       "metric": "CSA service term (Kimanis Power)",
@@ -130,7 +140,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 18
+      "value": 18,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "Plant capacity",
@@ -139,7 +150,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "Equipment supplied",
@@ -148,7 +160,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "GE long-term service agreements installed base",
@@ -157,7 +170,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 700
+      "value": 700,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "6FA fleet experience",
@@ -165,7 +179,8 @@
       "basis": "GE: 'More than 100 units have been installed worldwide and have completed more than three million hours of service'",
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
-      }
+      },
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "Engine type",
@@ -174,7 +189,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "V type, 12, 16 or 20 cylinders"
+      "value": "V type, 12, 16 or 20 cylinders",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Bore",
@@ -183,7 +199,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": 175
+      "value": 175,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Speed range",
@@ -193,7 +210,8 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
       "low": 1500,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Ratings",
@@ -203,7 +221,8 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
       "low": 1440,
-      "high": 4400
+      "high": 4400,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Service levels",
@@ -212,7 +231,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "L1 to L5"
+      "value": "L1 to L5",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Service centres",
@@ -221,7 +241,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Spare parts delivery",
@@ -230,7 +251,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "within 24 hours"
+      "value": "within 24 hours",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Training duration",
@@ -239,7 +261,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Four-day training for Standard and Advanced courses, and four weeks training for the Expert course"
+      "value": "Four-day training for Standard and Advanced courses, and four weeks training for the Expert course",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Standard spare parts packages",
@@ -248,7 +271,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Post-commissioning, Mechanical, After-treatment, Automation"
+      "value": "Post-commissioning, Mechanical, After-treatment, Automation",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     }
   ],
   "vendor_models": [

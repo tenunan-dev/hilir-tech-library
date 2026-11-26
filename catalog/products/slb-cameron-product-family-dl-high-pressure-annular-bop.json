@@ -6,7 +6,7 @@
   "equipment": [
     "fl-blowout-preventers-annular-ram-bops-subsea-bop-stack-control-s-d23380"
   ],
-  "description": "NACE MR0175 H2S service compliance stated on page. A 'DL High-Pressure Annular BOP' brochure PDF is linked on the page (https://www.slb.com/-/media/files/cam-drlg-pc/brochure/dl-bop-br.pdf) but was not fetched; no figures from the PDF are asserted.",
+  "description": "NACE MR0175 H2S service compliance stated on page. A 'DL High-Pressure Annular BOP' brochure PDF is linked on the page (https://www.slb.com/-/media/files/cam-drlg-pc/brochure/dl-bop-br.pdf) but was not fetched; no figures from the PDF are asserted. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
   "specifications": [
     {
       "metric": "Bore size",
@@ -17,7 +17,8 @@
         "source_id": "cat-slb-com-dl-annular-bop"
       },
       "low": "7 1/16",
-      "high": "21 1/4"
+      "high": "21 1/4",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "Working pressure",
@@ -28,7 +29,8 @@
         "source_id": "cat-slb-com-dl-annular-bop"
       },
       "low": "2,000",
-      "high": "10,000"
+      "high": "10,000",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "Body styles",
@@ -38,7 +40,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
         "source_id": "cat-slb-com-dl-annular-bop"
       },
-      "value": "Single and dual"
+      "value": "Single and dual",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "Optional gas bleed port",
@@ -48,7 +51,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
         "source_id": "cat-slb-com-dl-annular-bop"
       },
-      "value": "3"
+      "value": "3",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "Packer elastomer",
@@ -58,7 +62,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",
         "source_id": "cat-slb-com-dl-annular-bop"
       },
-      "value": "High-performance CAMULAR annular elastomer technology"
+      "value": "High-performance CAMULAR annular elastomer technology",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - bore sizes",
@@ -67,7 +72,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "7 1/16 in to 21 1/4 in"
+      "value": "7 1/16 in to 21 1/4 in",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - working pressures",
@@ -77,7 +83,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
       "low": 2000,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - application",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "Offshore (subsea and surface) and onshore"
+      "value": "Offshore (subsea and surface) and onshore",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - body styles",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "Single and dual"
+      "value": "Single and dual",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - packer",
@@ -104,7 +113,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "High-performance CAMULAR annular elastomer technology"
+      "value": "High-performance CAMULAR annular elastomer technology",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - optional gas bleed port",
@@ -113,7 +123,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "Optional 3-in gas bleed port from ID to OD"
+      "value": "Optional 3-in gas bleed port from ID to OD",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     },
     {
       "metric": "DL annular BOP - H2S compliance",
@@ -122,7 +133,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
       },
-      "value": "Compliance with NACE MR0175 for H2S service"
+      "value": "Compliance with NACE MR0175 for H2S service",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop"
     }
   ],
   "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/rigs-and-equipment/pressure-control-equipment/annular-bops/dl-annular-bop",

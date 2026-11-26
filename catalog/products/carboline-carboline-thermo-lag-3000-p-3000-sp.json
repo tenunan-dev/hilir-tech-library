@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Page read; film build 2–4 mm from search-verified PDS",
+  "description": "Vendor product line read 2026-11-24. Page read; film build 2–4 mm from search-verified PDS Primary source: https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
   "specifications": [
     {
       "metric": "Solids by volume",
@@ -16,7 +16,8 @@
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
         "source_id": "carboline-com-product-details-thermo-lag-3000-p"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "Fire rating",
@@ -27,7 +28,8 @@
         "source_id": "carboline-com-product-details-thermo-lag-3000-p"
       },
       "low": 1,
-      "high": 4
+      "high": 4,
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "Fire rating duration",
@@ -37,7 +39,8 @@
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
       },
       "low": 1,
-      "high": 4
+      "high": 4,
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "NFPA 290 fire testing extension",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "Listed/standard test compliance",
@@ -54,7 +58,8 @@
       "basis": "'extensively and independently tested in accordance with: UL 1709, UL 2431 Category I-A, ISO 834-3, IMO FTP Code (IMO A.754(18) for H-0, H-60 & H-120 Divisions, ASTM E84, ASTM E119, ISO 20340, and NFPA 290 (extended to 150 minutes).'",
       "source": {
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
-      }
+      },
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "Product chemistry/type",
@@ -62,7 +67,8 @@
       "basis": "'Thermo-Lag 3000-P is a flexible, two-component epoxy Intumescent Fireproofing coating'; in service 'Since 1999'",
       "source": {
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
-      }
+      },
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     },
     {
       "metric": "Thickness relative to competitors",
@@ -70,7 +76,8 @@
       "basis": "'Lowest thickness per fire rating of any competitive epoxy intumescent coating.'",
       "source": {
         "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
-      }
+      },
+      "source_url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P"
     }
   ],
   "url": "https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",

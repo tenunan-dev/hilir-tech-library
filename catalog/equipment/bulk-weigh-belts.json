@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Weigh belts / beltweighers",
+  "description": "Weigh belts / beltweighers Primary source: https://en.wikipedia.org/wiki/Conveyor_belt",
   "specifications": [
     {
       "metric": "in-transit weighing",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": "material flowing over the belt may be weighed in transit using a beltweigher"
+      "value": "material flowing over the belt may be weighed in transit using a beltweigher",
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     }
   ],
   "vendors": [

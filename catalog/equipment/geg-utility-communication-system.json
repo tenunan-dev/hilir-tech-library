@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Utility communication system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Utility communication system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
   "aliases": [
     "Utility communication system"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB GSO/User operational liaison and  — technical criteria source for voice and data communication",
@@ -37,7 +38,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB GSO/User operational liaison and  — telecommunication signalling in fault clearance time",
@@ -47,7 +49,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB GSO/User operational liaison and  — metering communication equipment legal approval",
@@ -57,7 +60,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "CAT-1 remote monitor / CATMaster s — nominal radio range",
@@ -68,7 +72,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US8738191B2/en",
         "source_id": "gef-patents-google-com-en-fdfe6a8"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US8738191B2/en"
     },
     {
       "metric": "CAT-1 remote monitor / CATMaster s — data points per CAT-1 programmed into SCADA",
@@ -79,7 +84,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US8738191B2/en",
         "source_id": "gef-patents-google-com-en-fdfe6a8"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US8738191B2/en"
     },
     {
       "metric": "CAT-1 remote monitor / CATMaster s — remote monitors handled per CATMaster",
@@ -90,7 +96,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US8738191B2/en",
         "source_id": "gef-patents-google-com-en-fdfe6a8"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US8738191B2/en"
     },
     {
       "metric": "Operating Code",
@@ -99,7 +106,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "OC5.5 Procedures for Operational Liaison"
+      "value": "OC5.5 Procedures for Operational Liaison",
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "OC5.4",
@@ -108,7 +116,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "Operational Liaison Terms"
+      "value": "Operational Liaison Terms",
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Communication requirement",
@@ -117,7 +126,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "GSO and User shall use communication channels in accordance with the Connection Conditions (CC)"
+      "value": "GSO and User shall use communication channels in accordance with the Connection Conditions (CC)",
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SCADA/RTU communication",
@@ -126,7 +136,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "SCADA equipment, remote terminal units or other means of communication specified in ..."
+      "value": "SCADA equipment, remote terminal units or other means of communication specified in ...",
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Nominated contacts",
@@ -135,7 +146,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "The GSO and User shall nominate persons, contact locations and communication channels"
+      "value": "The GSO and User shall nominate persons, contact locations and communication channels",
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Communication equipment criteria",
@@ -144,7 +156,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": "CC5.5 TECHNICAL CRITERIA FOR COMMUNICATION EQUIPMENT"
+      "value": "CC5.5 TECHNICAL CRITERIA FOR COMMUNICATION EQUIPMENT",
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     }
   ],
   "vendor_models": [

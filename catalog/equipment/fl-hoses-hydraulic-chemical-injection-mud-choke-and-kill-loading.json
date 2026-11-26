@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services.",
+  "description": "Flexible transfer of hydraulic power, chemicals, drilling fluids and fluids/gases between equipment; in umbilicals, hose elements carry hydraulic and chemical services. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
   "specifications": [
     {
       "metric": "Thermoplastic hose umbilical attributes",
@@ -19,7 +19,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
         "source_id": "sys-technipfmc-com-c36d9c"
       },
-      "value": "highly dynamic; short lead time; cost effective"
+      "value": "highly dynamic; short lead time; cost effective",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/"
     },
     {
       "metric": "Next-generation thermoplastic hose drivers",
@@ -29,7 +30,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/",
         "source_id": "sys-technipfmc-com-c36d9c"
       },
-      "value": "harsh environments, ultra-deepwater, elevated temperatures, longer tiebacks; shorter manufacturing lead time; simpler hose-to-end-fitting termination"
+      "value": "harsh environments, ultra-deepwater, elevated temperatures, longer tiebacks; shorter manufacturing lead time; simpler hose-to-end-fitting termination",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/umbilicals/"
     },
     {
       "metric": "Hydraulic/chemical service in steel-tube umbilical",
@@ -39,7 +41,8 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals",
         "source_id": "sys-onesubsea-slb-com-steeltube-umbilicals"
       },
-      "value": "hydraulic fluid for control; various chemical fluids for injection into the flowline"
+      "value": "hydraulic fluid for control; various chemical fluids for injection into the flowline",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-umbilical-systems/steeltube-umbilicals"
     }
   ],
   "vendors": [

@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Silos and storage bins",
+  "description": "Silos and storage bins Primary source: https://en.wikipedia.org/wiki/Silo",
   "specifications": [
     {
       "metric": "storage silo diameter",
@@ -20,7 +20,8 @@
         "source_id": "en-wikipedia-org-wiki-silo"
       },
       "low": 3,
-      "high": 27
+      "high": 27,
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     },
     {
       "metric": "storage silo height",
@@ -31,7 +32,8 @@
         "source_id": "en-wikipedia-org-wiki-silo"
       },
       "low": 10,
-      "high": 90
+      "high": 90,
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     },
     {
       "metric": "mobile powder silo capacity",
@@ -42,7 +44,8 @@
         "source_id": "en-wikipedia-org-wiki-silo"
       },
       "low": 100,
-      "high": 750
+      "high": 750,
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     },
     {
       "metric": "static upright powder silo capacity",
@@ -53,7 +56,8 @@
         "source_id": "en-wikipedia-org-wiki-silo"
       },
       "low": 200,
-      "high": 800
+      "high": 800,
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     },
     {
       "metric": "rigid silo size range",
@@ -64,7 +68,8 @@
         "source_id": "en-wikipedia-org-wiki-silo"
       },
       "low": 2,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     },
     {
       "metric": "flexible silo minimum particle size",
@@ -74,7 +79,8 @@
         "url": "https://en.wikipedia.org/wiki/Silo",
         "source_id": "en-wikipedia-org-wiki-silo"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     },
     {
       "metric": "silo hazards",
@@ -84,7 +90,8 @@
         "url": "https://en.wikipedia.org/wiki/Silo",
         "source_id": "en-wikipedia-org-wiki-silo"
       },
-      "value": "dust explosion; grain entrapment; methane asphyxiation in enclosed stores"
+      "value": "dust explosion; grain entrapment; methane asphyxiation in enclosed stores",
+      "source_url": "https://en.wikipedia.org/wiki/Silo"
     }
   ],
   "vendors": [

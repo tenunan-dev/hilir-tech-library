@@ -4,7 +4,7 @@
   "manufacturer": "technipfmc-cds-separation-systems",
   "product_type": "system",
   "equipment": [],
-  "description": "Other listed features (no numeric basis printed): 3D Broadband, dual-mode combined multiphase and wet-gas meter, water salinity correction, in-situ verification, KBC Multiflash PVT built in.",
+  "description": "Other listed features (no numeric basis printed): 3D Broadband, dual-mode combined multiphase and wet-gas meter, water salinity correction, in-situ verification, KBC Multiflash PVT built in. Primary source: https://www.technipfmc.com/en/what-we-do/surface/production/",
   "specifications": [
     {
       "metric": "Gas volume fraction (GVF) operating range",
@@ -15,7 +15,8 @@
         "source_id": "cat-technipfmc-com"
       },
       "low": "0",
-      "high": "100"
+      "high": "100",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
     },
     {
       "metric": "MPM - gas volume fraction range",
@@ -25,7 +26,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
     },
     {
       "metric": "MPM - operating modes",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
       },
-      "value": "Dual Mode: combined multiphase and wet gas meter"
+      "value": "Dual Mode: combined multiphase and wet gas meter",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
     },
     {
       "metric": "MPM - functionalities",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
       },
-      "value": "3D Broadband, water salinity correction, in-situ verification, scale correction, droplet count mode, KBC Multiflash PVT software built into every meter"
+      "value": "3D Broadband, water salinity correction, in-situ verification, scale correction, droplet count mode, KBC Multiflash PVT software built into every meter",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
     },
     {
       "metric": "MPM - data delivery",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
       },
-      "value": "Real-time data to central facility or cloud portal for production reporting, remote troubleshooting and email/text alerts"
+      "value": "Real-time data to central facility or cloud portal for production reporting, remote troubleshooting and email/text alerts",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
     },
     {
       "metric": "TechnipFMC surface pumps - pressure range",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
     },
     {
       "metric": "TechnipFMC surface pumps - flow rate",
@@ -70,7 +76,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/surface/production/"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/surface/production/",

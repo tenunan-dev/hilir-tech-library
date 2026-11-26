@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-hrsg"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched HRSG catalog listing directly; one numeric qualifier printed. No full specification page opened.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched HRSG catalog listing directly; one numeric qualifier printed. No full specification page opened. Primary source: https://cleaverbrooks.com/catalog/boilers/hrsg",
   "specifications": [
     {
       "metric": "Gas side inlet temperature",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-boilers-hrsg"
       },
       "unit": "deg F (less than)",
-      "value": 1700
+      "value": 1700,
+      "source_url": "https://cleaverbrooks.com/catalog/boilers/hrsg"
     }
   ],
   "url": "https://cleaverbrooks.com/catalog/boilers/hrsg",

@@ -2,7 +2,7 @@
   "id": "id-fan-stack-fgr",
   "name": "Induced-draft fan, stack and FGR ducting",
   "equipment_type": "fan",
-  "description": "Induced-draft fan and flue-gas path that maintain furnace draft and discharge products to stack. Stacks and ductwork are engineered from flue-gas volume, temperature and space constraints; dampers hold a set draft loss and an SCR reactor house is sized from the catalyst mass required to meet the emission limit. FGR ducting returns a controlled share of flue gas to the forced-draft intake.",
+  "description": "Induced-draft fan and flue-gas path that maintain furnace draft and discharge products to stack. Stacks and ductwork are engineered from flue-gas volume, temperature and space constraints; dampers hold a set draft loss and an SCR reactor house is sized from the catalyst mass required to meet the emission limit. FGR ducting returns a controlled share of flue gas to the forced-draft intake. Primary source: https://halgopower.com/products/stacks-and-ductwork",
   "specifications": [
     {
       "metric": "stack/duct design inputs",
@@ -12,7 +12,8 @@
         "source_id": "halgo-stacks-ductwork"
       },
       "unit": "qualitative",
-      "value": "flow, temperature, space, catalyst"
+      "value": "flow, temperature, space, catalyst",
+      "source_url": "https://halgopower.com/products/stacks-and-ductwork"
     },
     {
       "metric": "stack damper function",
@@ -22,7 +23,8 @@
         "source_id": "halgo-fd-fans"
       },
       "unit": "qualitative",
-      "value": "constant draft loss"
+      "value": "constant draft loss",
+      "source_url": "https://www.halgopower.com/products/forced-draft-fans"
     },
     {
       "metric": "SCR reactor house sizing basis",
@@ -32,7 +34,8 @@
         "source_id": "halgo-stacks-ductwork"
       },
       "unit": "qualitative",
-      "value": "catalyst mass"
+      "value": "catalyst mass",
+      "source_url": "https://halgopower.com/products/stacks-and-ductwork"
     },
     {
       "metric": "FGR effect on burner NOx",
@@ -42,7 +45,8 @@
         "source_id": "cb-sbr5-burner"
       },
       "unit": "ppm",
-      "value": 5
+      "value": 5,
+      "source_url": "https://cleaverbrooks.com/product/sbr5-burner"
     }
   ],
   "vendors": [

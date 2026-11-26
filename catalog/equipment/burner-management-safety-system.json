@@ -2,7 +2,7 @@
   "id": "burner-management-safety-system",
   "name": "Burner management and flame safeguard system",
   "equipment_type": "controls",
-  "description": "Safety system that sequences purge, ignition and firing and trips the fuel on loss of flame or failed permissives. Designed to NFPA 85/86, IRI, ISA 84, FM and Gastec practice; flame supervision uses UV or IR viewing heads, with SIL3-capable assemblies available.",
+  "description": "Safety system that sequences purge, ignition and firing and trips the fuel on loss of flame or failed permissives. Designed to NFPA 85/86, IRI, ISA 84, FM and Gastec practice; flame supervision uses UV or IR viewing heads, with SIL3-capable assemblies available. Primary source: https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
   "specifications": [
     {
       "metric": "UV detector spectral response",
@@ -13,7 +13,8 @@
       },
       "unit": "nm",
       "low": 185,
-      "high": 260
+      "high": 260,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "IR detector spectral response",
@@ -24,7 +25,8 @@
       },
       "unit": "nm",
       "low": 950,
-      "high": 1710
+      "high": 1710,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "functional safety capability",
@@ -34,7 +36,8 @@
         "source_id": "cat-process-honeywell-com-viewing-heads-s70x-s80x"
       },
       "unit": "SIL",
-      "value": 3
+      "value": 3,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "ambient temperature range",
@@ -45,7 +48,8 @@
       },
       "unit": "degC",
       "low": -40,
-      "high": 85
+      "high": 85,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "UV tube life",
@@ -56,7 +60,8 @@
       },
       "unit": "hours",
       "low": 10000,
-      "high": 50000
+      "high": 50000,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "optical field of view",
@@ -67,7 +72,8 @@
       },
       "unit": "degrees",
       "low": 1,
-      "high": 5
+      "high": 5,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "standards basis",
@@ -77,7 +83,8 @@
         "source_id": "honeywell-bms"
       },
       "unit": "qualitative",
-      "value": "NFPA 85/86, IRI, ISA 84, FM, Gastec"
+      "value": "NFPA 85/86, IRI, ISA 84, FM, Gastec",
+      "source_url": "https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems"
     },
     {
       "metric": "Platform types",
@@ -87,7 +94,8 @@
         "source_id": "forneycorp-com-burner-management-systems"
       },
       "unit": "platform",
-      "value": "DCS (plant-wide Distributed Control System) and PLC"
+      "value": "DCS (plant-wide Distributed Control System) and PLC",
+      "source_url": "https://www.forneycorp.com/burner-management-systems"
     },
     {
       "metric": "Engineering scope",
@@ -97,7 +105,8 @@
         "source_id": "forneycorp-com-burner-management-systems"
       },
       "unit": "scope",
-      "value": "Forney designs and engineers BMS logic; physical programming at Forney or DCS supplier location; PLC programming and Factory Acceptance Test at Forney facility"
+      "value": "Forney designs and engineers BMS logic; physical programming at Forney or DCS supplier location; PLC programming and Factory Acceptance Test at Forney facility",
+      "source_url": "https://www.forneycorp.com/burner-management-systems"
     },
     {
       "metric": "Display",
@@ -107,7 +116,8 @@
         "source_id": "cleaverbrooks-com-controls-boiler-controls"
       },
       "unit": "HMI",
-      "value": "Standard 7-inch touchscreen"
+      "value": "Standard 7-inch touchscreen",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Positioning",
@@ -117,7 +127,8 @@
         "source_id": "cleaverbrooks-com-controls-boiler-controls"
       },
       "unit": "product class",
-      "value": "High-performance industrial and commercial burner control system"
+      "value": "High-performance industrial and commercial burner control system",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Components",
@@ -127,7 +138,8 @@
         "source_id": "zeeco-com-products-burners-hslang-en"
       },
       "unit": "scope of supply",
-      "value": "PLCs, HMIs, complex relay logic, transmitters for all measurements"
+      "value": "PLCs, HMIs, complex relay logic, transmitters for all measurements",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Panel certifications",
@@ -137,7 +149,8 @@
         "source_id": "zeeco-com-products-burners-hslang-en"
       },
       "unit": "certifications",
-      "value": "UL certified panel shop; ATEX, CSA and UL certifications; IEC and NEC standards"
+      "value": "UL certified panel shop; ATEX, CSA and UL certifications; IEC and NEC standards",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "DCS programming location",
@@ -146,7 +159,8 @@
       "source": {
         "url": "https://www.forneycorp.com/burner-management-systems"
       },
-      "value": "Forney or the DCS supplier's location"
+      "value": "Forney or the DCS supplier's location",
+      "source_url": "https://www.forneycorp.com/burner-management-systems"
     },
     {
       "metric": "PLC programming and FAT location",
@@ -155,7 +169,8 @@
       "source": {
         "url": "https://www.forneycorp.com/burner-management-systems"
       },
-      "value": "Forney facility"
+      "value": "Forney facility",
+      "source_url": "https://www.forneycorp.com/burner-management-systems"
     },
     {
       "metric": "Industry experience",
@@ -164,7 +179,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "over 40 years"
+      "value": "over 40 years",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Certifications",
@@ -173,7 +189,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "UL certified panel shop; ATEX, CSA, UL, IEC and NEC standards"
+      "value": "UL certified panel shop; ATEX, CSA, UL, IEC and NEC standards",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Package burner turndown",
@@ -182,7 +199,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "10:1 or greater"
+      "value": "10:1 or greater",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Package burner NOx (standard)",
@@ -191,7 +209,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "<30"
+      "value": "<30",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Package burner NOx (with FGR)",
@@ -200,7 +219,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "<9"
+      "value": "<9",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "FGR fraction",
@@ -209,7 +229,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "<20"
+      "value": "<20",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "O2 level",
@@ -218,7 +239,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "3-4"
+      "value": "3-4",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Package burner models",
@@ -227,7 +249,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "PLN Ultra-Low NOx, FREE JET Ultra-Low NOx, GO Ultra-Low NOx, GB-ZS/ZR"
+      "value": "PLN Ultra-Low NOx, FREE JET Ultra-Low NOx, GO Ultra-Low NOx, GB-ZS/ZR",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "GO burner",
@@ -236,7 +259,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "staged flame combustion and Internal Flue Gas Recirculation (IFGR) to achieve 30ppm NOx without FGR"
+      "value": "staged flame combustion and Internal Flue Gas Recirculation (IFGR) to achieve 30ppm NOx without FGR",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     }
   ],
   "vendors": [

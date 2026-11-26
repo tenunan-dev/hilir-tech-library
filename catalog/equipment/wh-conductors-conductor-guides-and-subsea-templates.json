@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Protect and guide the drill string and well casing from topside to below the mudline; a subsea template guides conductors before jacket installation and may group several wells.",
+  "description": "Protect and guide the drill string and well casing from topside to below the mudline; a subsea template guides conductors before jacket installation and may group several wells. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
   "specifications": [
     {
       "metric": "conductor function and depth below seabed",
@@ -20,7 +20,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
       "low": 40,
-      "high": 100
+      "high": 100,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "conductor size protected by jacket",
@@ -31,7 +32,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l0100-htm"
       },
       "low": 26,
-      "high": 30
+      "high": 30,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     }
   ],
   "vendors": [

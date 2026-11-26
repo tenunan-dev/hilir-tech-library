@@ -6,7 +6,7 @@
   "equipment": [
     "geg-hv-and-lv-cables-with-cable-trays-and-accessories"
   ],
-  "description": "11 kV three-core armoured XLPE cable",
+  "description": "11 kV three-core armoured XLPE cable Primary source: https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
   "specifications": [
     {
       "metric": "rated voltage / voltage to neutral",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
         "source_id": "geg-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans"
     },
     {
       "metric": "nominal conductor cross-section",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
         "source_id": "geg-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans"
     },
     {
       "metric": "current carrying capacity in ground (20 deg C)",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
         "source_id": "geg-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans"
     },
     {
       "metric": "current carrying capacity in air (30 deg C)",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
         "source_id": "geg-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans"
     },
     {
       "metric": "nominal short-circuit current for 1 second, conductor",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
         "source_id": "geg-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans"
     },
     {
       "metric": "nominal short-circuit current for 1 second, screen",
@@ -66,7 +71,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
         "source_id": "geg-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans"
     },
     {
       "metric": "permissible operating temperature",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
         "source_id": "geg-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans"
     },
     {
       "metric": "conductor DC resistance at 20 deg C",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",
         "source_id": "geg-powerandcables-com-11kv-cables-xlpe-3-core-5-e017b30"
-      }
+      },
+      "source_url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans"
     }
   ],
   "url": "https://www.powerandcables.com/product/product-category/11kv-cables-xlpe-3-core-50sqmm-bs6622-nexans",

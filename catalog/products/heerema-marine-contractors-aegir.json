@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. Monohull HLV, retractable thrusters, shallow draft.",
+  "description": "Vendor product line read 2026-11-24. Monohull HLV, retractable thrusters, shallow draft. Primary source: https://www.heerema.com/heerema-marine-contractors/fleet",
   "specifications": [
     {
       "metric": "Lifting capacity",
@@ -16,7 +16,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": 5000
+      "value": 5000,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Lifting capacity",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 5000
+      "value": 5000,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Vessel type",
@@ -33,7 +35,8 @@
       "basis": "'Fast-sailing Heavy Lift Vessel Aegir is a monohull vessel'",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
-      }
+      },
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Features",
@@ -41,7 +44,8 @@
       "basis": "'retractable thrusters, shallow draft, and extensive clear deck space' enabling 'load-out directly from the quayside and transport on deck'",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
-      }
+      },
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Fleet: Sleipnir crane capacity",
@@ -50,7 +54,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Fleet: Thialf tandem lift",
@@ -59,7 +64,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 14200
+      "value": 14200,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Fleet: Balder tandem lift",
@@ -68,7 +74,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 6300
+      "value": 6300,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Fleet: Bylgia/Kolga length",
@@ -77,7 +84,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 72
+      "value": 72,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Fleet: Bylgia/Kolga bollard pull",
@@ -88,7 +96,8 @@
       },
       "value": 200,
       "low": 212,
-      "high": "metric tons"
+      "high": "metric tons",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     }
   ],
   "url": "https://www.heerema.com/heerema-marine-contractors/fleet",

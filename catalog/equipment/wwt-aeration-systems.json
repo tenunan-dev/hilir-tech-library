@@ -6,7 +6,7 @@
   "sector_codes": [
     "WWT"
   ],
-  "description": "The energy centre of biological treatment: blowers (turbo, screw, lobe) and fine-bubble diffuser grids or mechanical aerators deliver oxygen to activated-sludge and MBBR basins.",
+  "description": "The energy centre of biological treatment: blowers (turbo, screw, lobe) and fine-bubble diffuser grids or mechanical aerators deliver oxygen to activated-sludge and MBBR basins. Primary source: https://www.xylem.com/",
   "subtypes": [
     {
       "name": "fine-bubble diffusers"
@@ -36,7 +36,8 @@
       "source": {
         "url": "https://www.xylem.com/",
         "note": "published aeration practice, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.xylem.com/"
     },
     {
       "metric": "turbo blower sizes",
@@ -47,7 +48,8 @@
       "source": {
         "url": "https://www.xylem.com/",
         "note": "published practice, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.xylem.com/"
     }
   ],
   "vendor_models": [

@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Higher-bandwidth wireless backhaul and mobile connectivity for plant and offshore platforms.",
+  "description": "Higher-bandwidth wireless backhaul and mobile connectivity for plant and offshore platforms. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

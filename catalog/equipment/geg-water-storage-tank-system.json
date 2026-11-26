@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Water storage tank system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Water storage tank system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://pipeco.com.my/tank-product/grp-sectional-water-tank",
   "aliases": [
     "Water storage tank system"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — bending strength",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — elastic modulus in bend",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — glass content",
@@ -61,7 +64,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — Barcol hardness",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — water absorption",
@@ -84,7 +89,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — recommended concrete plinth size",
@@ -94,7 +100,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — plinth centres",
@@ -105,7 +112,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — pre-insulated panel foam thickness",
@@ -116,7 +124,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — internal/external ladder width",
@@ -127,7 +136,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — applicable standards",
@@ -137,7 +147,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — SMC resin",
@@ -147,7 +158,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — glass fibre",
@@ -157,7 +169,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "PIPECO GRP Sectional Water Tank (SMC p — tank height range in support tables",
@@ -169,7 +182,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank",
         "source_id": "geg-pipeco-com-my-grp-sectional-water-tank-21374e0"
-      }
+      },
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Basiia AWWA D100 welded carbon steel w — applicable standard",
@@ -179,7 +193,8 @@
       "source": {
         "url": "https://basiia.com/products/api-650-tanks",
         "source_id": "geg-basiia-com-api-650-tanks-28cf110"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "Basiia AWWA D100 welded carbon steel w — potable water contact lining",
@@ -189,7 +204,8 @@
       "source": {
         "url": "https://basiia.com/products/api-650-tanks",
         "source_id": "geg-basiia-com-api-650-tanks-28cf110"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "Basiia AWWA D100 welded carbon steel w — service scope",
@@ -199,7 +215,8 @@
       "source": {
         "url": "https://basiia.com/products/api-650-tanks",
         "source_id": "geg-basiia-com-api-650-tanks-28cf110"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "GRP sectional panel water tank — Design standard",
@@ -209,7 +226,8 @@
       "source": {
         "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
         "source_id": "gef-pipeco-com-my-3234b71"
-      }
+      },
+      "source_url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/"
     },
     {
       "metric": "GRP sectional panel water tank — Tensile strength, panel",
@@ -220,7 +238,8 @@
       "source": {
         "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
         "source_id": "gef-pipeco-com-my-3234b71"
-      }
+      },
+      "source_url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/"
     },
     {
       "metric": "GRP sectional panel water tank — Bending strength, panel",
@@ -231,7 +250,8 @@
       "source": {
         "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
         "source_id": "gef-pipeco-com-my-3234b71"
-      }
+      },
+      "source_url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/"
     },
     {
       "metric": "GRP sectional panel water tank — Glass content, panel",
@@ -242,7 +262,8 @@
       "source": {
         "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
         "source_id": "gef-pipeco-com-my-3234b71"
-      }
+      },
+      "source_url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/"
     },
     {
       "metric": "GRP sectional panel water tank — Water absorption, panel",
@@ -253,7 +274,8 @@
       "source": {
         "url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/",
         "source_id": "gef-pipeco-com-my-3234b71"
-      }
+      },
+      "source_url": "https://www.pipeco.com.my/products/grp-sectional-water-tank/"
     },
     {
       "metric": "Applicable standards",
@@ -261,7 +283,8 @@
       "basis": "Applicable Standards listed: API 650, API 620, API 653, AWWA D100 (Welded Carbon Steel Tanks for Water Storage), NSF/ANSI 61 (Potable Water Contact), ASME B16.5, NFPA 30, ISO 9001",
       "source": {
         "url": "https://basiia.com/products/api-650-tanks"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "AWWA D100 tank construction",
@@ -269,7 +292,8 @@
       "basis": "\"Welded carbon steel tanks to AWWA D100 for potable water, fire suppression, and industrial water storage — including NSF/ANSI 61 lining systems where potable water contact is required\"",
       "source": {
         "url": "https://basiia.com/products/api-650-tanks"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "AWWA D100 services",
@@ -277,7 +301,8 @@
       "basis": "\"Potable water, fire water, and municipal water storage (AWWA D100)\"",
       "source": {
         "url": "https://basiia.com/products/api-650-tanks"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "Roof configurations",
@@ -285,7 +310,8 @@
       "basis": "\"Fixed cone, external floating roof (EFR), and internal floating roof (IFR) configurations engineered to product vapour pressure, site conditions, and environmental requirements\"",
       "source": {
         "url": "https://basiia.com/products/api-650-tanks"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "Inspection and testing",
@@ -293,7 +319,8 @@
       "basis": "\"Hydrostatic testing, weld inspection, NDE, and third-party verification in accordance with the applicable standard (API 650, API 620, or AWWA D100)\"",
       "source": {
         "url": "https://basiia.com/products/api-650-tanks"
-      }
+      },
+      "source_url": "https://basiia.com/products/api-650-tanks"
     },
     {
       "metric": "Standards",
@@ -302,7 +329,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": "Singapore Standard SS245: 2014, MS 1390 : 2010 similar to British Standard BS 7491 Part 3:1994 and BS EN 13280:2001"
+      "value": "Singapore Standard SS245: 2014, MS 1390 : 2010 similar to British Standard BS 7491 Part 3:1994 and BS EN 13280:2001",
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Resin",
@@ -311,7 +339,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": "Isophthalic unsaturated polyester resin conforming to BS 3532 or JISK 6919"
+      "value": "Isophthalic unsaturated polyester resin conforming to BS 3532 or JISK 6919",
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Fibre glass",
@@ -320,7 +349,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": "Type E Glass, alumino-borosilicate or alumino-calco-silicate, conforming to BS 3496 and BS 3749"
+      "value": "Type E Glass, alumino-borosilicate or alumino-calco-silicate, conforming to BS 3496 and BS 3749",
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Manufacturing process",
@@ -329,7 +359,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": "Hot pressed SMC compression moulding"
+      "value": "Hot pressed SMC compression moulding",
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Tie-rod internal material",
@@ -338,7 +369,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": "SS304 Tie-rod, Optional SS316"
+      "value": "SS304 Tie-rod, Optional SS316",
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Tensile strength",
@@ -347,7 +379,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": 107
+      "value": 107,
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Bending strength",
@@ -356,7 +389,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": 167
+      "value": 167,
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Elastic modulus in bend",
@@ -365,7 +399,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": 11953
+      "value": 11953,
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Glass content",
@@ -374,7 +409,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": 33
+      "value": 33,
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Barcol hardness",
@@ -383,7 +419,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": 59
+      "value": 59,
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Water absorption",
@@ -392,7 +429,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Concrete plinth recommendation",
@@ -401,7 +439,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": "300mm (W) x 500mm (H), max height variance 2mm"
+      "value": "300mm (W) x 500mm (H), max height variance 2mm",
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Skid base beams",
@@ -410,7 +449,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": "Hollow Section 50mm x 50mm x 3mm (1.5-3.0 m tank heights); 50mm x 50mm x 4mm (3.5-4.0 m)"
+      "value": "Hollow Section 50mm x 50mm x 3mm (1.5-3.0 m tank heights); 50mm x 50mm x 4mm (3.5-4.0 m)",
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     },
     {
       "metric": "Pre-insulated panel",
@@ -419,7 +459,8 @@
       "source": {
         "url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
       },
-      "value": "50mm layer of rigid polyurethane foam"
+      "value": "50mm layer of rigid polyurethane foam",
+      "source_url": "https://pipeco.com.my/tank-product/grp-sectional-water-tank"
     }
   ],
   "vendor_models": [

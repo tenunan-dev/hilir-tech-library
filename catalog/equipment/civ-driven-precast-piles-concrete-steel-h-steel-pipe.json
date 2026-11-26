@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Displacement piles installed by hammer or vibrator, transferring load by end bearing and shaft friction to deeper competent strata; used where soft near-surface soils overlie bearing layers.",
+  "description": "Displacement piles installed by hammer or vibrator, transferring load by end bearing and shaft friction to deeper competent strata; used where soft near-surface soils overlie bearing layers. Primary source: https://www.iso.org/standard/84215.html",
   "specifications": [
     {
       "metric": "function",
@@ -18,7 +18,8 @@
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
         "url": "https://www.iso.org/standard/84215.html"
-      }
+      },
+      "source_url": "https://www.iso.org/standard/84215.html"
     },
     {
       "metric": "monopiles produced",
@@ -28,7 +29,8 @@
         "url": "https://eew-group.com/offshore-wind",
         "source_id": "eew-group-com-eew-group-com-offshore-wind"
       },
-      "value": ">2,200"
+      "value": ">2,200",
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "projects supplied",
@@ -38,7 +40,8 @@
         "url": "https://eew-group.com/offshore-wind",
         "source_id": "eew-group-com-eew-group-com-offshore-wind"
       },
-      "value": ">80"
+      "value": ">80",
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "IQ8 blow energy",
@@ -48,7 +51,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": ">7,500"
+      "value": ">7,500",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "total range",
@@ -58,7 +62,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": "30 to >7,500"
+      "value": "30 to >7,500",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "SW-series water depth",
@@ -68,7 +73,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": "up to 2,000"
+      "value": "up to 2,000",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "length",
@@ -78,7 +84,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "value": 120
+      "value": 120,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "diameter",
@@ -88,7 +95,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "value": 11
+      "value": 11,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "wall thickness",
@@ -98,7 +106,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "value": 160
+      "value": 160,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "weight",
@@ -108,7 +117,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "value": "2,000 (prose) / >2,500 (tile)"
+      "value": "2,000 (prose) / >2,500 (tile)",
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "diameter classes",
@@ -118,7 +128,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles",
         "source_id": "cswoffshore-com-solutions-monopiles"
       },
-      "value": "5-6 / 6-8 / 8-13"
+      "value": "5-6 / 6-8 / 8-13",
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "length",
@@ -128,7 +139,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles",
         "source_id": "cswoffshore-com-solutions-monopiles"
       },
-      "value": "20 to >120"
+      "value": "20 to >120",
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "weight",
@@ -138,7 +150,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles",
         "source_id": "cswoffshore-com-solutions-monopiles"
       },
-      "value": "1,000-3,500"
+      "value": "1,000-3,500",
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "Monopile length",
@@ -147,7 +160,8 @@
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
       },
-      "value": 120
+      "value": 120,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Monopile diameter",
@@ -156,7 +170,8 @@
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
       },
-      "value": 11
+      "value": 11,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Maximum wall thickness",
@@ -165,7 +180,8 @@
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
       },
-      "value": 160
+      "value": 160,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Maximum weight (paragraph)",
@@ -174,7 +190,8 @@
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Maximum weight (statistic block - conflicting)",
@@ -183,7 +200,8 @@
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
       },
-      "value": 2500
+      "value": 2500,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Variants",
@@ -191,7 +209,8 @@
       "basis": "Sif: 'We supply both traditional monopiles with transition pieces and TP-less monopiles.'",
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
-      }
+      },
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Track record",
@@ -199,7 +218,8 @@
       "basis": "Sif: 'over 2,600 monopiles produced ... contracts for more than 2,900 foundations ... 55 wind farms ... 22.7 GW of installed offshore capacity'",
       "source": {
         "url": "https://sif-group.com/products-services/monopiles"
-      }
+      },
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "Monopile - steel pipe diameter",
@@ -209,7 +229,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles"
       },
       "low": 5,
-      "high": 13
+      "high": 13,
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "Monopile - length",
@@ -219,7 +240,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles"
       },
       "low": 20,
-      "high": 120
+      "high": 120,
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "Monopile - weight",
@@ -229,7 +251,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles"
       },
       "low": 1000,
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "Regular monopile diameter",
@@ -239,7 +262,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles"
       },
       "low": 5,
-      "high": 6
+      "high": 6,
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "XL monopile diameter",
@@ -249,7 +273,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles"
       },
       "low": 6,
-      "high": 8
+      "high": 8,
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "XXL monopile diameter",
@@ -259,7 +284,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles"
       },
       "low": 8,
-      "high": 13
+      "high": 13,
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "IQ2 blow energy",
@@ -268,7 +294,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "value": 3600
+      "value": 3600,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "IQ4 blow energy",
@@ -277,7 +304,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "value": 4800
+      "value": 4800,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "IQ6 blow energy",
@@ -286,7 +314,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "value": 6600
+      "value": 6600,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "IQ-series models",
@@ -295,7 +324,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "value": "IQ2, IQ4, IQ6, IQ8"
+      "value": "IQ2, IQ4, IQ6, IQ8",
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "Continuous operation",
@@ -304,7 +334,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "value": "100% energy capacity"
+      "value": "100% energy capacity",
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "Power boost",
@@ -313,7 +344,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": 120
+      "value": 120,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Operating angle",
@@ -323,7 +355,8 @@
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
       "low": 0,
-      "high": 90
+      "high": 90,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "Sleeve size",
@@ -332,7 +365,8 @@
       "source": {
         "url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
       },
-      "high": 9.3
+      "high": 9.3,
+      "source_url": "https://26117396.fs1.hubspotusercontent-eu1.net/hubfs/26117396/Downloads_website/Leaflets_EN/IQ-series_Hydrohammer.pdf"
     },
     {
       "metric": "Installed piles",
@@ -341,7 +375,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": "5,5 Million piles globally"
+      "value": "5,5 Million piles globally",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Industry experience",
@@ -350,7 +385,8 @@
       "source": {
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Experience in offshore wind",
@@ -359,7 +395,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Monopiles produced",
@@ -368,7 +405,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 2200
+      "value": 2200,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Offshore wind projects supplied",
@@ -377,7 +415,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "USA monopile plant capacity",
@@ -386,7 +425,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Atlantic Shores Offshore Wind Project 1",
@@ -395,7 +435,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 1.5
+      "value": 1.5,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "US wind target by 2030",
@@ -404,7 +445,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Wind share of European electricity generation",
@@ -413,7 +455,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Asian offshore wind planned capacity to 2030",
@@ -422,7 +465,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Products",
@@ -431,7 +475,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": "Monopiles; pipes for jacket components; piles for offshore wind; components for floating structures"
+      "value": "Monopiles; pipes for jacket components; piles for offshore wind; components for floating structures",
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Facilities",
@@ -440,7 +485,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": "Erndtebrueck, Rostock, Sacheon, Gwangyang, Pasir Gudang"
+      "value": "Erndtebrueck, Rostock, Sacheon, Gwangyang, Pasir Gudang",
+      "source_url": "https://eew-group.com/offshore-wind"
     }
   ],
   "vendors": [

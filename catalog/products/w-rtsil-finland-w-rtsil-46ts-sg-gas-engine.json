@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. Selected for the 300 MW / 13-engine Australian plant (press release page_read:true).",
+  "description": "Vendor product line read 2026-11-24. Selected for the 300 MW / 13-engine Australian plant (press release page_read:true). Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
   "specifications": [
     {
       "metric": "Electrical output (50/60 Hz variants as listed)",
@@ -17,7 +17,8 @@
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
       },
       "low": 20.4,
-      "high": 22.9
+      "high": 22.9,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Electrical efficiency",
@@ -27,7 +28,8 @@
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
       },
-      "value": 51.3
+      "value": 51.3,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "46TS-SG rated electrical power 16V / 18V",
@@ -37,7 +39,8 @@
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS",
         "source_id": "catpar-wartsila-com-46ts-fcdba5f"
       },
-      "value": "20.38 / 22.93"
+      "value": "20.38 / 22.93",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
     },
     {
       "metric": "46TS-SG electrical efficiency",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
       },
-      "value": "51.3 (16V) / 51.3 (18V)"
+      "value": "51.3 (16V) / 51.3 (18V)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
     },
     {
       "metric": "46TS-SG heat rate",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
       },
-      "value": "7020 (16V) / 7060 (18V)"
+      "value": "7020 (16V) / 7060 (18V)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
     },
     {
       "metric": "46TS-DF (gas) efficiency / heat rate",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
       },
-      "value": "50.7 (16V/18V) / 7105 (16V/18V)"
+      "value": "50.7 (16V/18V) / 7105 (16V/18V)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
     },
     {
       "metric": "46TS-DF (LFO) efficiency / heat rate",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
       },
-      "value": "49.0 (16V/18V) / 7354 (16V/18V)"
+      "value": "49.0 (16V/18V) / 7354 (16V/18V)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
     },
     {
       "metric": "Mechanical output per unit",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
       },
-      "value": 23.4
+      "value": 23.4,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
     },
     {
       "metric": "Ramp-up time",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
     },
     {
       "metric": "Full power ambient envelope",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
       },
-      "value": "-55 C/-67 F to +55 C/131 F"
+      "value": "-55 C/-67 F to +55 C/131 F",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
     },
     {
       "metric": "Hydrogen blending",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/46TS"
     },
     {
       "metric": "Data-centre page 46TS-SG figures",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
       },
-      "value": "20.4 MW - 22.9 MW; 51.3 electrical efficiency; 2 min start-up"
+      "value": "20.4 MW - 22.9 MW; 51.3 electrical efficiency; 2 min start-up",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     }
   ],
   "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",

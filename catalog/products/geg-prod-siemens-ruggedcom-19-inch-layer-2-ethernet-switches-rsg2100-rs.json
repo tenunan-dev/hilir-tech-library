@@ -6,7 +6,7 @@
   "equipment": [
     "geg-telecommunication-and-network-infrastructure"
   ],
-  "description": "substation/industrial Ethernet switch family",
+  "description": "substation/industrial Ethernet switch family Primary source: https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
   "specifications": [
     {
       "metric": "standards compliance",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
-      }
+      },
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "operating temperature",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
-      }
+      },
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RSG2100 port count",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
-      }
+      },
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RSG2300 port count",
@@ -50,7 +53,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
-      }
+      },
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RST2228 uplink speed",
@@ -61,7 +65,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
-      }
+      },
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "redundancy protocols",
@@ -71,7 +76,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
-      }
+      },
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "universal supply range",
@@ -83,7 +89,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
-      }
+      },
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "PoE capability (RST2228P)",
@@ -94,7 +101,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
-      }
+      },
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "operating_temperature",
@@ -104,7 +112,8 @@
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
       "low": -40,
-      "high": 85
+      "high": 85,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "high_voltage_power_supply",
@@ -114,7 +123,8 @@
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
       "low": 88,
-      "high": 300
+      "high": 300,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "high_voltage_power_supply_AC",
@@ -124,7 +134,8 @@
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
       "low": 85,
-      "high": 264
+      "high": 264,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "low_voltage_options",
@@ -133,7 +144,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "12 VDC, 24 VDC or 48 VDC"
+      "value": "12 VDC, 24 VDC or 48 VDC",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RSG2100_ports",
@@ -142,7 +154,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": 19
+      "value": 19,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RSG2300_ports",
@@ -151,7 +164,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": 32
+      "value": 32,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RST2228_ports",
@@ -160,7 +174,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": 24
+      "value": 24,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RSG2488_ports",
@@ -169,7 +184,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": 28
+      "value": 28,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "PoE_power_per_port",
@@ -178,7 +194,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": 60
+      "value": 60,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "PoE_shared_power_budget",
@@ -187,7 +204,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "safety_approval",
@@ -196,7 +214,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "CSA/UL 60950 safety approved to +85 degC"
+      "value": "CSA/UL 60950 safety approved to +85 degC",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     }
   ],
   "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",

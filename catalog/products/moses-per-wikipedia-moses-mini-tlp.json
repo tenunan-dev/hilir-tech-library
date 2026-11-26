@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. No vendor page fetched",
+  "description": "Vendor product line read 2026-11-24. No vendor page fetched Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "water depth",
@@ -17,7 +17,8 @@
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "low": 180,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "MOSES mini-TLP - water depth range",
@@ -27,7 +28,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
       "low": 180,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "MOSES mini-TLP - type",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
-      "value": "Proprietary mini TLP (with Seastar); relatively low cost"
+      "value": "Proprietary mini TLP (with Seastar); relatively low cost",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "MOSES mini-TLP - use cases",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Oil_platform"
       },
-      "value": "Utility, satellite or early production platforms for larger deepwater discoveries"
+      "value": "Utility, satellite or early production platforms for larger deepwater discoveries",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Oil_platform",

@@ -8,7 +8,7 @@
     "PRC",
     "MAT"
   ],
-  "description": "Remove welding slag, iron oxides, grease and construction debris from a newly built boiler before start-up; then form a protective magnetite film (passivation) to minimise corrosion and pitting during commissioning and lay-up.",
+  "description": "Remove welding slag, iron oxides, grease and construction debris from a newly built boiler before start-up; then form a protective magnetite film (passivation) to minimise corrosion and pitting during commissioning and lay-up. Primary source: https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf",
   "specifications": [
     {
       "metric": "Nyrstar Port Pirie new-boiler clean — degreasing temperature",
@@ -18,7 +18,8 @@
         "url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf",
         "source_id": "anz-veolia-com-03-nyrstar-20case-20study-20-pdf"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf"
     },
     {
       "metric": "Nyrstar passivation conditions",
@@ -28,7 +29,8 @@
         "url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf",
         "source_id": "anz-veolia-com-03-nyrstar-20case-20study-20-pdf"
       },
-      "value": "ammonia + sodium nitrate at pH 9 and 60 °C"
+      "value": "ammonia + sodium nitrate at pH 9 and 60 °C",
+      "source_url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf"
     },
     {
       "metric": "Nyrstar clean duration / system volume / hours worked",
@@ -38,7 +40,8 @@
         "url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf",
         "source_id": "anz-veolia-com-03-nyrstar-20case-20study-20-pdf"
       },
-      "value": "3 weeks / 140,000 L / 3,489 hours worked / 0 injuries"
+      "value": "3 weeks / 140,000 L / 3,489 hours worked / 0 injuries",
+      "source_url": "https://www.anz.veolia.com/sites/g/files/dvc2011/files/document/2021/03/Nyrstar%20case%20study%20.pdf"
     },
     {
       "metric": "Hydrochloric acid cleaning reaction with magnetite",
@@ -48,7 +51,8 @@
         "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
         "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
       },
-      "value": "Fe3O4 + 8HCl → FeCl2 + 2FeCl3 + 4H2O"
+      "value": "Fe3O4 + 8HCl → FeCl2 + 2FeCl3 + 4H2O",
+      "source_url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control"
     },
     {
       "metric": "Hydrazine/hydroquinone passivation reactions",
@@ -58,7 +62,8 @@
         "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
         "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
       },
-      "value": "N2H4 + 6Fe2O3 → 4Fe3O4 + 2H2O + N2; C6H4(OH)2 + 3Fe2O3 → 2Fe3O4 + C6H4O2 + H2O"
+      "value": "N2H4 + 6Fe2O3 → 4Fe3O4 + 2H2O + N2; C6H4(OH)2 + 3Fe2O3 → 2Fe3O4 + C6H4O2 + H2O",
+      "source_url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control"
     },
     {
       "metric": "Acid-cleaning failure modes",
@@ -68,7 +73,8 @@
         "url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control",
         "source_id": "watertechnologies-com-handbook-chapter-11-preboiler-and-boiler-c"
       },
-      "value": "Inhibitor breakdown from overheating cleaning solution; excessive exposure; high cleaning-agent concentration; incomplete neutralisation before start-up"
+      "value": "Inhibitor breakdown from overheating cleaning solution; excessive exposure; high cleaning-agent concentration; incomplete neutralisation before start-up",
+      "source_url": "https://www.watertechnologies.com/handbook/chapter-11-preboiler-and-boiler-corrosion-control"
     },
     {
       "metric": "Neutralisation pH before drain after chemical flush (hot-water systems)",
@@ -78,7 +84,8 @@
         "url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf",
         "source_id": "cea-org-uk-07-cea-bg04-pdf"
       },
-      "value": "6.0 to 8.5"
+      "value": "6.0 to 8.5",
+      "source_url": "https://cea.org.uk/wp-content/uploads/2025/07/CEA-BG04.pdf"
     },
     {
       "metric": "Chemical cleaning time saving claim",
@@ -88,7 +95,8 @@
         "url": "https://www.anz.veolia.com/en-au/services/industrial-services/industrial-cleaning/chemical-cleaning-and-decontamination",
         "source_id": "anz-veolia-com-industrial-cleaning-chemical-cleaning-and-deconta"
       },
-      "value": "up to 90% reduced cleaning time; up to two days saved on large vessels vs steaming-out"
+      "value": "up to 90% reduced cleaning time; up to two days saved on large vessels vs steaming-out",
+      "source_url": "https://www.anz.veolia.com/en-au/services/industrial-services/industrial-cleaning/chemical-cleaning-and-decontamination"
     },
     {
       "metric": "System type",
@@ -98,7 +106,8 @@
         "source_id": "woggroup-com-chemical-treatment-systems"
       },
       "unit": "n/a",
-      "value": "Coagulation and Flocculation Units; pH Neutralization Systems; Chemical Oxidation Systems; Precipitation and Complexation; Disinfection Systems; Integrated Dosing Skids"
+      "value": "Coagulation and Flocculation Units; pH Neutralization Systems; Chemical Oxidation Systems; Precipitation and Complexation; Disinfection Systems; Integrated Dosing Skids",
+      "source_url": "https://woggroup.com/chemical-treatment-systems/"
     },
     {
       "metric": "Control logic",
@@ -108,7 +117,8 @@
         "source_id": "woggroup-com-chemical-treatment-systems"
       },
       "unit": "n/a",
-      "value": "flow-paced, pH-based and ORP-based"
+      "value": "flow-paced, pH-based and ORP-based",
+      "source_url": "https://woggroup.com/chemical-treatment-systems/"
     },
     {
       "metric": "Compliance referenced",
@@ -118,7 +128,8 @@
         "source_id": "woggroup-com-chemical-treatment-systems"
       },
       "unit": "n/a",
-      "value": "US EPA, EU REACH and other global regulatory standards"
+      "value": "US EPA, EU REACH and other global regulatory standards",
+      "source_url": "https://woggroup.com/chemical-treatment-systems/"
     }
   ],
   "vendors": [

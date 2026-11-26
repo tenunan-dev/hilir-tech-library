@@ -6,7 +6,7 @@
   "equipment": [
     "urea-fluid-bed-granulator"
   ],
-  "description": "Vendor product line read 2026-11-24. For urea and ammonium nitrate.",
+  "description": "Vendor product line read 2026-11-24. For urea and ammonium nitrate. Primary source: https://www.casale.ch/technologies/urea/",
   "specifications": [
     {
       "metric": "formaldehyde use",
@@ -16,7 +16,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": "minimum or no use"
+      "value": "minimum or no use",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "Urea plant capacity (GRANULATION reference)",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
       },
-      "value": 2200
+      "value": 2200,
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "Acquisition year of GREEN GRANULATION Ltd by Casale",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
       },
-      "value": 2022
+      "value": 2022,
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "Formaldehyde use",
@@ -42,7 +45,8 @@
       "basis": "Benefit: \"Minimum or no use of formaldehyde\"",
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
-      }
+      },
+      "source_url": "https://www.casale.ch/technologies/urea/"
     }
   ],
   "url": "https://www.casale.ch/technologies/urea/",

@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-controls-oxygen-trim"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Boiler Controls catalog listing directly with WebFetch (text). Also printed: ClearFire-CE has 'Inherent O2 trim' (separate product page read).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Boiler Controls catalog listing directly with WebFetch (text). Also printed: ClearFire-CE has 'Inherent O2 trim' (separate product page read). Primary source: https://cleaverbrooks.com/catalog/controls/boiler-controls",
   "specifications": [
     {
       "metric": "Hawk Boiler Controls features",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-controls-boiler-controls"
       },
       "unit": "feature set",
-      "value": "Touchscreen HMI, economizer and O2-trim options, burner sequencing, fault history, lead/lag operation"
+      "value": "Touchscreen HMI, economizer and O2-trim options, burner sequencing, fault history, lead/lag operation",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Hawk 4500 features",
@@ -26,7 +27,8 @@
         "source_id": "cleaverbrooks-com-controls-boiler-controls"
       },
       "unit": "feature set",
-      "value": "Complete control system for new or retrofit industrial watertube boilers/burners; economizer control, draft control, full metering options"
+      "value": "Complete control system for new or retrofit industrial watertube boilers/burners; economizer control, draft control, full metering options",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Products listed",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Hawk 4500 application",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": "Industrial Watertube Conversions"
+      "value": "Industrial Watertube Conversions",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Hawk 4500 capabilities",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": "Complete boiler control system for new or retrofit industrial watertube boilers and burners; economizer control, draft control, and full metering options"
+      "value": "Complete boiler control system for new or retrofit industrial watertube boilers and burners; economizer control, draft control, and full metering options",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "EOS 500 display",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Accu-Trim function",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": "Stand Alone O2 Trim Control"
+      "value": "Stand Alone O2 Trim Control",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Hawk boiler controls options",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": "touchscreen HMI, economizer & O2-trim options, burner sequencing, fault history & lead/lag operation"
+      "value": "touchscreen HMI, economizer & O2-trim options, burner sequencing, fault history & lead/lag operation",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     }
   ],
   "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls",

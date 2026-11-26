@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Move completed topsides/jackets from fabrication yard onto a transport barge or heavy-lift vessel using SPMTs, skid tracks or strand jacks; analyze quay strength and CoG; ballast vessel and install sea-fastening for the voyage.",
+  "description": "Move completed topsides/jackets from fabrication yard onto a transport barge or heavy-lift vessel using SPMTs, skid tracks or strand jacks; analyze quay strength and CoG; ballast vessel and install sea-fastening for the voyage. Primary source: https://www.mammoet.com/offshore/topside-load-out/",
   "specifications": [
     {
       "metric": "Strand-jack unit capacity / skid speed",
@@ -19,7 +19,8 @@
         "url": "https://www.mammoet.com/offshore/topside-load-out/",
         "source_id": "mammoet-com-topside-load-out"
       },
-      "value": "up to 1,045 t per unit; load-outs up to 50 m per hour"
+      "value": "up to 1,045 t per unit; load-outs up to 50 m per hour",
+      "source_url": "https://www.mammoet.com/offshore/topside-load-out/"
     },
     {
       "metric": "Hydraulic compensated skid shoe load-out capacity",
@@ -29,7 +30,8 @@
         "url": "https://www.mammoet.com/offshore/topside-load-out/",
         "source_id": "mammoet-com-topside-load-out"
       },
-      "value": "in excess of 20,000 t using multiple skid shoes"
+      "value": "in excess of 20,000 t using multiple skid shoes",
+      "source_url": "https://www.mammoet.com/offshore/topside-load-out/"
     },
     {
       "metric": "Typical topside weight driving load-out design",
@@ -39,7 +41,8 @@
         "url": "https://www.mammoet.com/offshore/topside-load-out/",
         "source_id": "mammoet-com-topside-load-out"
       },
-      "value": "many now exceed 10,000 t"
+      "value": "many now exceed 10,000 t",
+      "source_url": "https://www.mammoet.com/offshore/topside-load-out/"
     },
     {
       "metric": "Dongfang 18,000 t load-out equipment",
@@ -49,7 +52,8 @@
         "url": "https://www.mammoet.com/cases/time-saving-18000t-topside-load-out-and-float-over-transportation/",
         "source_id": "mammoet-com-time-saving-18000t-topside-load-out-and-float-over-tra"
       },
-      "value": "4 x 850 t strand jacks; 4 x 2,400 t ballast pumps; 12 x 1,000 t de-ballast pumps"
+      "value": "4 x 850 t strand jacks; 4 x 2,400 t ballast pumps; 12 x 1,000 t de-ballast pumps",
+      "source_url": "https://www.mammoet.com/cases/time-saving-18000t-topside-load-out-and-float-over-transportation/"
     }
   ],
   "vendors": [

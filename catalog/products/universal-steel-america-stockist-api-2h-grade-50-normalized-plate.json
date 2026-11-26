@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Supplements S1-S5 in stock.",
+  "description": "Vendor product line read 2026-11-24. Supplements S1-S5 in stock. Primary source: https://www.universalsteelamerica.com/api-2h-steel-plate",
   "specifications": [
     {
       "metric": "stock thickness",
@@ -16,7 +16,8 @@
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
         "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
       },
-      "value": "1/4-4"
+      "value": "1/4-4",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "condition",
@@ -26,7 +27,8 @@
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",
         "source_id": "universalsteelamerica-com-www-universalsteelamerica-com-api-2h-ste"
       },
-      "value": "normalized"
+      "value": "normalized",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Grade",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
-      "value": "API 2H Grade 50"
+      "value": "API 2H Grade 50",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Stocked thickness",
@@ -45,7 +48,8 @@
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
       "low": 0.25,
-      "high": 4
+      "high": 4,
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Condition",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
-      "value": "Normalized"
+      "value": "Normalized",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Specification",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
-      "value": "API Specification 2H"
+      "value": "API Specification 2H",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Applications",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
-      "value": "tubular joints, stiffened plate construction, and intersections where parts of the plates will experience tension in the through-thickness direction; piling material"
+      "value": "tubular joints, stiffened plate construction, and intersections where parts of the plates will experience tension in the through-thickness direction; piling material",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     },
     {
       "metric": "Impact toughness",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
       },
-      "value": "high impact toughness"
+      "value": "high impact toughness",
+      "source_url": "https://www.universalsteelamerica.com/api-2h-steel-plate"
     }
   ],
   "url": "https://www.universalsteelamerica.com/api-2h-steel-plate",

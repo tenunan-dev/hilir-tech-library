@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Bottom-founded tower connected by a universal joint or articulated base, allowing the structure to rotate with environmental loads while supporting loading or wellhead facilities.",
+  "description": "Bottom-founded tower connected by a universal joint or articulated base, allowing the structure to rotate with environmental loads while supporting loading or wellhead facilities. Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure",
   "specifications": [
     {
       "metric": "concrete articulated loading column example",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": "Maureen ALC, concrete base articulated loading column, 92 m water depth, North Sea UK, Phillips, 1982, later removed"
+      "value": "Maureen ALC, concrete base articulated loading column, 92 m water depth, North Sea UK, Phillips, 1982, later removed",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "Hutton TLP topsides redeployed to Prirazlomnoye",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
         "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
       },
-      "value": "Hull and topsides separated; topsides redeployed to Prirazlomnoye field in Barents Sea (ice-resistant platform)"
+      "value": "Hull and topsides separated; topsides redeployed to Prirazlomnoye field in Barents Sea (ice-resistant platform)",
+      "source_url": "https://en.wikipedia.org/wiki/Tension-leg_platform"
     }
   ],
   "vendors": [

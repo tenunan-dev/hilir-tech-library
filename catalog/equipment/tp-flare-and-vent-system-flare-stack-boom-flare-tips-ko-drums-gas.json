@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Safely dispose of relief/blowdown/start-up gas by controlled combustion; knock out entrained liquid upstream to prevent flaming rain; recover gas where feasible.",
+  "description": "Safely dispose of relief/blowdown/start-up gas by controlled combustion; knock out entrained liquid upstream to prevent flaming rain; recover gas where feasible. Primary source: https://www.flaretechinc.com/products/flare-knockout-drums",
   "specifications": [
     {
       "metric": "Flare KO drum size range (fabricator)",
@@ -19,7 +19,8 @@
         "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
         "source_id": "flaretechinc-com-products-flare-knockout-drums"
       },
-      "value": "2 to 600"
+      "value": "2 to 600",
+      "source_url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     },
     {
       "metric": "size range",
@@ -29,7 +30,8 @@
         "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
         "source_id": "flaretechinc-com-products-flare-knockout-drums"
       },
-      "value": "2-600 BBL"
+      "value": "2-600 BBL",
+      "source_url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     },
     {
       "metric": "PORTA-TEST REVOLUTION installations",
@@ -39,7 +41,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals",
         "source_id": "slb-com-gas-treatment-high-efficiency-phase-separation-internals"
       },
-      "value": ">500 worldwide"
+      "value": ">500 worldwide",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
     },
     {
       "metric": "configuration",
@@ -49,7 +52,8 @@
         "url": "https://www.cra.energy/product/knockout-drums",
         "source_id": "cra-energy-product-knockout-drums"
       },
-      "value": "horizontal or vertical"
+      "value": "horizontal or vertical",
+      "source_url": "https://www.cra.energy/product/knockout-drums"
     },
     {
       "metric": "company installations",
@@ -59,7 +63,8 @@
         "url": "https://www.cra.energy/product/knockout-drums",
         "source_id": "cra-energy-product-knockout-drums"
       },
-      "value": ">800 in >25 countries since 1993"
+      "value": ">800 in >25 countries since 1993",
+      "source_url": "https://www.cra.energy/product/knockout-drums"
     },
     {
       "metric": "function",
@@ -68,7 +73,8 @@
       "source": {
         "url": "https://www.cra.energy/product/knockout-drums"
       },
-      "value": "Liquid-gas separation"
+      "value": "Liquid-gas separation",
+      "source_url": "https://www.cra.energy/product/knockout-drums"
     },
     {
       "metric": "application",
@@ -77,7 +83,8 @@
       "source": {
         "url": "https://www.cra.energy/product/knockout-drums"
       },
-      "value": "Upstream of flare stack"
+      "value": "Upstream of flare stack",
+      "source_url": "https://www.cra.energy/product/knockout-drums"
     },
     {
       "metric": "duty",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://www.cra.energy/product/knockout-drums"
       },
-      "value": "Emergency relief & blowdown"
+      "value": "Emergency relief & blowdown",
+      "source_url": "https://www.cra.energy/product/knockout-drums"
     },
     {
       "metric": "standard_sizes",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://www.cra.energy/product/knockout-drums"
       },
-      "value": "no printed sizes"
+      "value": "no printed sizes",
+      "source_url": "https://www.cra.energy/product/knockout-drums"
     },
     {
       "metric": "volume_range",
@@ -105,7 +114,8 @@
         "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
       },
       "low": 2,
-      "high": 600
+      "high": 600,
+      "source_url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     },
     {
       "metric": "configuration_options",
@@ -114,7 +124,8 @@
       "source": {
         "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
       },
-      "value": "fully enclosed heated buildings, partially enclosed heated buildings, heated enclosures between the saddles, or heat traced and insulated"
+      "value": "fully enclosed heated buildings, partially enclosed heated buildings, heated enclosures between the saddles, or heat traced and insulated",
+      "source_url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     },
     {
       "metric": "quality_certification",
@@ -123,7 +134,8 @@
       "source": {
         "url": "https://www.flaretechinc.com/products/flare-knockout-drums"
       },
-      "value": "ISO 9001:2008"
+      "value": "ISO 9001:2008",
+      "source_url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     },
     {
       "metric": "high_pressure_operation",
@@ -132,7 +144,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
       },
-      "value": "improve separation effectiveness at very high operating pressures"
+      "value": "improve separation effectiveness at very high operating pressures",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
     },
     {
       "metric": "vessel_size_weight_reduction",
@@ -141,7 +154,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
       },
-      "value": "enable reductions in pressure vessel size and weight, and hence required floor space"
+      "value": "enable reductions in pressure vessel size and weight, and hence required floor space",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals"
     }
   ],
   "vendors": [

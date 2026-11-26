@@ -6,7 +6,7 @@
   "equipment": [
     "geg-lube-oil-storage-and-transfer-system"
   ],
-  "description": "shop-fabricated welded-steel lube oil storage tank",
+  "description": "shop-fabricated welded-steel lube oil storage tank Primary source: https://atlanticcontainment.com/lube-tanks",
   "specifications": [
     {
       "metric": "capacity, model AC120SL",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "weight, model AC120SL",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "capacity, model AC500SL",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "dimensions (L x W x H), model AC500SL",
@@ -49,7 +52,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "capacity, model AC2KSL",
@@ -60,7 +64,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "weight, model AC2KSL",
@@ -71,7 +76,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "capacity, model AC500DL (double wall)",
@@ -82,7 +88,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "weight, model AC1KDL (double wall)",
@@ -93,7 +100,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "air leak test pressure",
@@ -104,7 +112,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "optional secondary containment",
@@ -115,7 +124,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "supports",
@@ -126,7 +136,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "monitoring bung",
@@ -137,7 +148,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks",
         "source_id": "geg-atlanticcontainment-com-lube-tanks-7bbd9ec"
-      }
+      },
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "air_pressure_test",
@@ -146,7 +158,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "supports_height",
@@ -155,7 +168,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "outer_bung",
@@ -164,7 +178,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "1/2 inch NPT outer bung w/ monitoring sight glass for easy leak detection"
+      "value": "1/2 inch NPT outer bung w/ monitoring sight glass for easy leak detection",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "construction",
@@ -173,7 +188,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "welded steel; phosphated steel to extend tank life"
+      "value": "welded steel; phosphated steel to extend tank life",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "UL_certification",
@@ -182,7 +198,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "UL142 & UL142A (MH15058) certified w/ serial label"
+      "value": "UL142 & UL142A (MH15058) certified w/ serial label",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "compliance",
@@ -191,7 +208,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "ANSI/NPA 1, 30, 30A, 31, 37 Compliant; meets all requirements of IFC (International Fire Code)"
+      "value": "ANSI/NPA 1, 30, 30A, 31, 37 Compliant; meets all requirements of IFC (International Fire Code)",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "containment_option",
@@ -200,7 +218,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "Optional 110% DW containment designs"
+      "value": "Optional 110% DW containment designs",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "capacity_range_SL_models",
@@ -210,7 +229,8 @@
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
       "low": 120,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "capacity_range_DL_models",
@@ -220,7 +240,8 @@
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
       "low": 120,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "SL_weights",
@@ -230,7 +251,8 @@
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
       "low": 212,
-      "high": 2045
+      "high": 2045,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "DL_weights",
@@ -240,7 +262,8 @@
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
       "low": 425,
-      "high": 3625
+      "high": 3625,
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "SL_dimensions",
@@ -249,7 +272,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "AC120SL 30x26x36 in; AC1KSL 120x32x60 in; AC2KSL 240x32x60 in"
+      "value": "AC120SL 30x26x36 in; AC1KSL 120x32x60 in; AC2KSL 240x32x60 in",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "DL_dimensions",
@@ -258,7 +282,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "AC120DL 31x27x37 in; AC1KDL 121x33x61 in; AC2KDL 241x33x61 in"
+      "value": "AC120DL 31x27x37 in; AC1KDL 121x33x61 in; AC2KDL 241x33x61 in",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     },
     {
       "metric": "contained_fluids",
@@ -267,7 +292,8 @@
       "source": {
         "url": "https://atlanticcontainment.com/lube-tanks"
       },
-      "value": "Unused Class IIIB Combustible Motor Oils or Fluids; Lube Motor Oil; Hydraulic Oil; Transmission Oil; Machine Oil; Cutting Oil"
+      "value": "Unused Class IIIB Combustible Motor Oils or Fluids; Lube Motor Oil; Hydraulic Oil; Transmission Oil; Machine Oil; Cutting Oil",
+      "source_url": "https://atlanticcontainment.com/lube-tanks"
     }
   ],
   "url": "https://atlanticcontainment.com/lube-tanks",

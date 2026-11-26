@@ -6,7 +6,7 @@
   "equipment": [
     "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
   ],
-  "description": "Page states fully compliant with API, area protection requirements and site specifications; low vibration and pulsation-free operation suited to elevated structures.",
+  "description": "Page states fully compliant with API, area protection requirements and site specifications; low vibration and pulsation-free operation suited to elevated structures. Primary source: https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
   "specifications": [
     {
       "metric": "Discharge pressure",
@@ -16,7 +16,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Capacity flow",
@@ -27,7 +28,8 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "low": 10,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Variable speed",
@@ -38,7 +40,8 @@
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
       "low": 1000,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden piston compressor - Europe's largest renewable H2 plant case",
@@ -47,7 +50,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden piston compressor - configuration",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "5-stage piston reciprocating compressors"
+      "value": "5-stage piston reciprocating compressors",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden piston compressor - drive",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": 4250
+      "value": 4250,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden piston compressor - flow",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "21,000 Nm3/hr of wet hydrogen at 1.2 bara"
+      "value": "21,000 Nm3/hr of wet hydrogen at 1.2 bara",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden piston compressor - final pressure",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": 55
+      "value": 55,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Howden hybrid reciprocating compressor - stages / pressure rise",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Up to 5 compression stages; pressure increases up to 450 bar"
+      "value": "Up to 5 compression stages; pressure increases up to 450 bar",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Periflow compressor - discharge pressure",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Periflow compressor - capacity flow range",
@@ -111,7 +121,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
       "low": 10,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Periflow compressor - operating principle",
@@ -120,7 +131,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Profiled impeller wheel revolving in an annular channel; swirling helical gas flow through blades several times; smooth steady flow; API compliant"
+      "value": "Profiled impeller wheel revolving in an annular channel; swirling helical gas flow through blades several times; smooth steady flow; API compliant",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
   "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",

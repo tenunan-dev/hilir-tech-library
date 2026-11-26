@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. Two-stage turbocharging option",
+  "description": "Vendor product line read 2026-11-24. Two-stage turbocharging option Primary source: https://www.everllence.com/energy/products/gas-fuel-engines",
   "specifications": [
     {
       "metric": "Mechanical output",
@@ -16,7 +16,8 @@
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"
       },
-      "value": 12900
+      "value": 12900,
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Engine speed",
@@ -26,7 +27,8 @@
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"
       },
-      "value": "720 / 750"
+      "value": "720 / 750",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Ramp rate",
@@ -36,7 +38,8 @@
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"
       },
-      "value": ">14"
+      "value": ">14",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Hydrogen admixture",
@@ -46,7 +49,8 @@
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines",
         "source_id": "everllence-com-products-gas-fuel-engines"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Engine speed",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": "720 / 750"
+      "value": "720 / 750",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Frequency",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": "60 / 50"
+      "value": "60 / 50",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Maximum power",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": 12900
+      "value": 12900,
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Hot-condition ramp-up rate",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": "> 14"
+      "value": "> 14",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     },
     {
       "metric": "Reference CHP plant (EnBW Stuttgart)",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.everllence.com/energy/products/gas-fuel-engines"
       },
-      "value": "3 x 20V35/44G; 31.2 MW electricity, up to 30 MW district heating; 60,000 metric tons CO2/yr saved; commercial operation 2018; 10-year service contract"
+      "value": "3 x 20V35/44G; 31.2 MW electricity, up to 30 MW district heating; 60,000 metric tons CO2/yr saved; commercial operation 2018; 10-year service contract",
+      "source_url": "https://www.everllence.com/energy/products/gas-fuel-engines"
     }
   ],
   "url": "https://www.everllence.com/energy/products/gas-fuel-engines",

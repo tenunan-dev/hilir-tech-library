@@ -147,10 +147,12 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
     document passages, technology cards, vendor records, equipment classes and projects.
 
     kind: "all", "source" (catalog records), "chunk" (passages from collected documents),
-    "technology" (cards), "vendor" (vendor directory records), "equipment" (equipment classes)
-    or "project" (named projects and operating plants). Anything else returns empty — the kind
-    list is exact, not a free-text filter. Passages come from one document per source url, so the
-    same text is never returned twice under two paths.
+    "technology" (cards), "vendor" (vendor directory records), "equipment" (equipment classes),
+    "product" (vendor product catalogs) or "project" (named projects and operating plants).
+    Anything else returns empty — the kind list is exact, not a free-text filter. Equipment and
+    product hits carry source_urls (original OEM datasheets/catalogues); open those as primary
+    sources and follow get_product / get_equipment for every parameter and its basis. Passages come
+    from one document per source url, so the same text is never returned twice under two paths.
     sector / discipline: a taxonomy code such as H2 or ROT — call taxonomy() first; a wrong code
     silently returns empty. region: e.g. sea, apac, global. limit: rows returned, capped at 50.
     NOTE: a discipline (or region) filter keeps only sources and their passages — technology
@@ -334,7 +336,8 @@ def list_equipment(equipment_type: str | None = None, query: str | None = None) 
     """The equipment catalog: one curated record per equipment class — boilers, compressors, pumps
     and turbines, data-centre electrical, wastewater treatment, and ammonia/urea plant classes —
     each with specification ranges, per-vendor model lines, the vendors that supply it and the pages
-    behind every figure. equipment_type: e.g. boiler, compressor, urea-reactor — call with no
+    behind every figure. Every row includes source_urls: the original OEM datasheets to open and
+    cite as primary sources. equipment_type: e.g. boiler, compressor, urea-reactor — call with no
     arguments first to see the classes that exist. query: text."""
     return _with_neon(lambda: pg.equipment_rows(equipment_type, query),
                       lambda: library.list_equipment(equipment_type, query, db()))
@@ -342,7 +345,8 @@ def list_equipment(equipment_type: str | None = None, query: str | None = None) 
 
 @server.tool()
 def get_equipment(equipment_id: str) -> dict | None:
-    """One equipment record: specification ranges with basis and sources, vendor model lines, and the gaps."""
+    """One equipment record: specification ranges with basis and source URLs (the original
+    datasheet/catalogue page for each figure), vendor model lines, source_urls and the gaps."""
     return _with_neon(lambda: pg.equipment_row(equipment_id),
                       lambda: library.get_equipment(equipment_id, db()))
 
@@ -371,17 +375,21 @@ def get_project(project_id: str) -> dict | None:
 
 @server.tool()
 def list_products(product_type: str | None = None, manufacturer: str | None = None, query: str | None = None) -> list[dict]:
-    """Vendor product catalog: one record per product line with the specifications printed on the
-    vendor's own page. product_type is an equipment type (e.g. boiler, burner, valve-train);
-    manufacturer is a vendor id; query is text. Call with no arguments to see the product types."""
+    """Vendor product catalog: one record per product line with every parameter printed on the
+    vendor's own catalogue/datasheet page. Each row returns url (the primary OEM catalogue link)
+    and source_urls (all original datasheets cited by its specifications) — open these as primary
+    sources and quote the figure's basis. product_type is an equipment type (e.g. boiler, burner,
+    valve-train); manufacturer is a vendor id; query is text. Call with no arguments to see types."""
     return _with_neon(lambda: pg.product_rows(product_type, manufacturer, query),
                       lambda: library.list_products(product_type, manufacturer, query, db()))
 
 
 @server.tool()
 def get_product(product_id: str) -> dict | None:
-    """One product line: printed specifications (metric, range, unit, basis and source URL) and the
-    catalog page they were read from. Returns null for an unknown id."""
+    """One product line: every printed parameter (metric, value/range, unit, exact basis) with its
+    source_url pointing to the original OEM catalogue or datasheet; the description ends with
+    'Primary source: <url>'. Open that URL as the primary source and quote the printed basis.
+    Returns null for an unknown id."""
     return _with_neon(lambda: pg.product_row(product_id),
                       lambda: library.get_product(product_id, db()))
 

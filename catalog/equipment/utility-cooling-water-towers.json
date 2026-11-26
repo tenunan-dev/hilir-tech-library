@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Cooling water system and cooling towers",
+  "description": "Cooling water system and cooling towers Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
   "specifications": [
     {
       "metric": "Cooling-water usable temperature floor",
@@ -19,7 +19,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Loop arrangement",
@@ -29,7 +30,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": "parallel"
+      "value": "parallel",
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Number of distinct cooling systems at one ammonia plant",
@@ -39,7 +41,8 @@
         "url": "https://dynaflow.com/consulting/projects/design-review-of-cooling-water-systems-for-ammonia-plant/",
         "source_id": "dynaflow-com-design-review-of-cooling-water-systems-for-ammonia-pl"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://dynaflow.com/consulting/projects/design-review-of-cooling-water-systems-for-ammonia-plant/"
     },
     {
       "metric": "Seawater / brackish water use",
@@ -49,7 +52,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": "requires more expensive heat-exchanger materials of construction"
+      "value": "requires more expensive heat-exchanger materials of construction",
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     }
   ],
   "vendors": [

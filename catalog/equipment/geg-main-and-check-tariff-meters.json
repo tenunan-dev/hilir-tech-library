@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Main and check tariff meters for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Main and check tariff meters for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
   "aliases": [
     "Main and check tariff meters"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB revenue metering installation - M — maximum allowable overall error - active / reactive, Type 1 (>7.5 MW or 60 GWh per annum)",
@@ -37,7 +38,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB revenue metering installation - M — minimum component classes and burdens, Type 1 (printed table row)",
@@ -47,7 +49,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB revenue metering installation - M — meter clock error reference",
@@ -57,7 +60,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB revenue metering installation - M — energy registration resolution 0.5S / 0.2S meters",
@@ -67,7 +71,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB revenue metering installation - M — check metering requirement by annual energy",
@@ -77,7 +82,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB revenue metering installation - M — check metering installation arrangement",
@@ -87,7 +93,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB revenue metering installation - M — metering installation component scope",
@@ -97,7 +104,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB revenue metering installation - M — communicating link availability target",
@@ -108,7 +116,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB revenue metering installation - M — laboratory testing uncertainty, Class 0.2 CT/VT and Wh meter",
@@ -118,7 +127,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Itron ACE SL7000 industrial & substati — transformer-connected accuracy class",
@@ -128,7 +138,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Itron ACE SL7000 industrial & substati — standards compliance",
@@ -138,7 +149,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Itron ACE SL7000 industrial & substati — load profile channels",
@@ -149,7 +161,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Itron ACE SL7000 industrial & substati — rate registers",
@@ -160,7 +173,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Itron ACE SL7000 industrial & substati — communication channels",
@@ -171,7 +185,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Itron ACE SL7000 industrial & substati — CT connection rating",
@@ -181,7 +196,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Landis+Gyr E850 grid meter — accuracy class",
@@ -191,7 +207,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "Landis+Gyr E850 grid meter — measurement",
@@ -201,7 +218,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "Landis+Gyr E850 grid meter — capture period",
@@ -213,7 +231,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "Single-phase and three-phase radio — single-phase RF smart meters supplied",
@@ -224,7 +243,8 @@
       "source": {
         "url": "https://theedgemalaysia.com/node/684572",
         "source_id": "gef-theedgemalaysia-com-684572-c43c045"
-      }
+      },
+      "source_url": "https://theedgemalaysia.com/node/684572"
     },
     {
       "metric": "Single-phase and three-phase radio — three-phase RF smart meters supplied",
@@ -235,7 +255,8 @@
       "source": {
         "url": "https://theedgemalaysia.com/node/684572",
         "source_id": "gef-theedgemalaysia-com-684572-c43c045"
-      }
+      },
+      "source_url": "https://theedgemalaysia.com/node/684572"
     },
     {
       "metric": "Single-phase and three-phase radio — NCM digits, single-phase meter (SESB T.9468)",
@@ -246,7 +267,8 @@
       "source": {
         "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9468.aspx",
         "source_id": "gef-sesb-com-my-tender-t-9468-aspx-d4fe03b"
-      }
+      },
+      "source_url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9468.aspx"
     },
     {
       "metric": "Single-phase and three-phase radio — NCM digits, three-phase meter (SESB T.9468)",
@@ -257,7 +279,8 @@
       "source": {
         "url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9468.aspx",
         "source_id": "gef-sesb-com-my-tender-t-9468-aspx-d4fe03b"
-      }
+      },
+      "source_url": "https://www.sesb.com.my/Suppliers/Tender/Tender-T-9468.aspx"
     },
     {
       "metric": "Single-phase and three-phase radio — cumulative smart-meter units ordered from TNB by Pestech group since 2019",
@@ -268,7 +291,8 @@
       "source": {
         "url": "https://theedgemalaysia.com/node/684572",
         "source_id": "gef-theedgemalaysia-com-684572-c43c045"
-      }
+      },
+      "source_url": "https://theedgemalaysia.com/node/684572"
     },
     {
       "metric": "Type 1 Metering Installation threshold",
@@ -277,7 +301,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 60
+      "value": 60,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Type 1 maximum allowable overall error, active at full load",
@@ -286,7 +311,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 0.6
+      "value": 0.6,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Type 1 maximum allowable overall error, reactive at full load",
@@ -295,7 +321,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 1.0
+      "value": 1.0,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Type 1 minimum component accuracy classes",
@@ -303,7 +330,8 @@
       "basis": "Table 1: \"0.2 CT Burden 30 VA if ../1A, 15 VA if ../5A, 0.2 VT Min Burden 100VA, 0.2 Wh Meter, 0.5 VARh meter\"",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Meter clock error",
@@ -311,7 +339,8 @@
       "basis": "Table 1: Meter Clock Error (Seconds) with reference to Malaysian Standard Time: ±5ppm for both metering types; MC11: \"The Metering Database must be set within an accuracy of ±1 second of Malaysian Standard Time\"",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Type 1 accuracy - unity PF active at 10% rated load",
@@ -320,7 +349,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 0.7
+      "value": 0.7,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Type 1 accuracy - unity PF active at 50% and 100% rated load",
@@ -329,7 +359,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 0.6
+      "value": 0.6,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Type 1 accuracy - 0.5 lag active / reactive at 50% and 100% load",
@@ -337,7 +368,8 @@
       "basis": "Table 2: at 0.5 Lag, Active 1.0%, Reactive 0.5% for 50% and 100% rated load",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Type 1 accuracy - zero power factor reactive at 10% load",
@@ -346,7 +378,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 1.4
+      "value": 1.4,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Type 2 threshold and overall error",
@@ -354,7 +387,8 @@
       "basis": "Table 1: Less than 7.5MW or 60GWh per annum -> Active 1.0%, Reactive 2.0%; 0.2 CT burden 15VA, 0.5 VT min burden 75VA, 0.5 Wh Meter, 1.0 VARh meter, ±5ppm",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Check metering requirement",
@@ -362,7 +396,8 @@
       "basis": "MCA.1.4: Type 1 (>60GWh) requires a Check Metering Installation with separate CT cores and secondary windings; \"The accuracy of Check Metering Installation shall be the same as the Main Metering Installation\"; check meter accuracy \"shall not exceed twice the level prescribed\"",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Energy registration resolution",
@@ -370,7 +405,8 @@
       "basis": "MCA.1.5: \"resolution of the energy registration of 0.5S class Meters shall be better than 0.2 % and the resolution of the energy registration of 0.2S class Meters shall be better than 0.1 %\"",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Target availability",
@@ -378,7 +414,8 @@
       "basis": "MC6.1: \"The target availability of measurement transformers and Metering Installations shall be 99% per annum and the target availability of the communication link shall be 95% per annum\"",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Historical metering data retention",
@@ -386,7 +423,8 @@
       "basis": "MC4(m): six (6) months on-line; thirteen (13) months in accessible format; seven (7) years in archive",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Type 1 laboratory/field test uncertainties",
@@ -394,7 +432,8 @@
       "basis": "Appendix 2 table: Type 1 In Laboratory CTs/VTs ±0.05%, Wh Meter ±(0.05/cos θ)%, Varh Meter ±(0.2/sin θ)%; In Field Use CTs/VTs ±0.1%, Wh Meter ±(0.1/cos θ)%, Varh Meter ±(0.3/sin θ)%",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Maximum allowable period between tests",
@@ -402,7 +441,8 @@
       "basis": "Appendix 2: CT 10 years; VT 10 years; CT Connected Meter (Electronic Type) 5 years; burden tests whenever meters tested or modifications made; maximum period between inspections 2.5 years",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Measurement reference temperature",
@@ -411,7 +451,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Import/export power-factor labelling convention",
@@ -419,7 +460,8 @@
       "basis": "Appendix 2 final table: Active Import + Reactive Import = Lagging; Active Import + Reactive Export = Leading; Active Import + Zero Reactive = Unity; Active Export + Reactive Export = Lagging; Active Export + Reactive Import = Leading; Active Export + Zero Reactive = Unity",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Publication",
@@ -427,7 +469,8 @@
       "basis": "Sabah Grid Code, Annex 1, 224 pages; hosted under /attachments/2024-01/; Jina reported published-time 2024-01-05; defines the Electricity Supply Enactment 2024",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Voltage rating",
@@ -436,7 +479,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "3*57.7/100V up to 3*277/480V auto ranging"
+      "value": "3*57.7/100V up to 3*277/480V auto ranging",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Direct current",
@@ -445,7 +489,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "In 5A, Imax 120A"
+      "value": "In 5A, Imax 120A",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "CT connection",
@@ -454,7 +499,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "Ib 1A, Imax 10A"
+      "value": "Ib 1A, Imax 10A",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Accuracy - direct connected",
@@ -463,7 +509,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "Class 1 or Class B"
+      "value": "Class 1 or Class B",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Accuracy - transformer connected",
@@ -472,7 +519,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "Class 0.2S, Class 0.5S or Class C"
+      "value": "Class 0.2S, Class 0.5S or Class C",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Accuracy - reactive energy",
@@ -481,7 +529,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "Class 1 or Class 2"
+      "value": "Class 1 or Class 2",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Frequency",
@@ -490,7 +539,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "50 / 60"
+      "value": "50 / 60",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Standards",
@@ -499,7 +549,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "IEC 62052, IEC 62053, EN50470-1, EN50470-3, CE marking"
+      "value": "IEC 62052, IEC 62053, EN50470-1, EN50470-3, CE marking",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Communications",
@@ -508,7 +559,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "IR-port (IEC 61107), optional RS232C and/or RS485, DLMS-Cosem Protocol (IEC 62056)"
+      "value": "IR-port (IEC 61107), optional RS232C and/or RS485, DLMS-Cosem Protocol (IEC 62056)",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Communication channels",
@@ -517,7 +569,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "Up to three (2 electrical & 1 optical); two used simultaneously"
+      "value": "Up to three (2 electrical & 1 optical); two used simultaneously",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Load profile channels",
@@ -526,7 +579,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 16
+      "value": 16,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Energy-rate registers",
@@ -535,7 +589,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 32
+      "value": 32,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Demand-rate registers",
@@ -544,7 +599,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 24
+      "value": 24,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Pulse inputs",
@@ -553,7 +609,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Auxiliary power supply isolation",
@@ -562,7 +619,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "External modem power",
@@ -571,7 +629,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Dimensions",
@@ -580,7 +639,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "180 x 325 mm with standard terminal cover; 358 mm with extended terminal cover; 85 x 251 x 97 x 62 x 150 x 201 x 230 x 239"
+      "value": "180 x 325 mm with standard terminal cover; 358 mm with extended terminal cover; 85 x 251 x 97 x 62 x 150 x 201 x 230 x 239",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     }
   ],
   "vendor_models": [

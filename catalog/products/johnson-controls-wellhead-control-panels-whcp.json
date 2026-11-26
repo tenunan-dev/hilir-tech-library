@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24. Integrator for API 674 and 675 pump packages.",
+  "description": "Vendor product line read 2026-11-24. Integrator for API 674 and 675 pump packages. Primary source: https://www.johnsoncontrols.com/oil-and-gas/production-systems",
   "specifications": [
     {
       "metric": "scope",
@@ -16,7 +16,8 @@
         "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",
         "source_id": "johnsoncontrols-com-oil-and-gas-production-systems"
       },
-      "value": "HPU, methanol injection skids, WHCP, TUTU, IWOCS, ESD, HIPPS"
+      "value": "HPU, methanol injection skids, WHCP, TUTU, IWOCS, ESD, HIPPS",
+      "source_url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems"
     }
   ],
   "url": "https://www.johnsoncontrols.com/oil-and-gas/production-systems",

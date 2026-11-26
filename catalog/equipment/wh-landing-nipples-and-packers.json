@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Provide downhole loci for wireline tools/valves and isolate annuli or zones within the completion.",
+  "description": "Provide downhole loci for wireline tools/valves and isolate annuli or zones within the completion. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

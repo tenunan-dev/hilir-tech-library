@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Ship-shaped or circular floating vessel that receives, processes and stores hydrocarbons from subsea wells or nearby platforms and offloads to shuttle tankers; FSO/FSU store only.",
+  "description": "Ship-shaped or circular floating vessel that receives, processes and stores hydrocarbons from subsea wells or nearby platforms and offloads to shuttle tankers; FSO/FSU store only. Primary source: https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
   "specifications": [
     {
       "metric": "global fleet count",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
         "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
       },
-      "value": "over 270 vessels deployed worldwide as oil FPSOs"
+      "value": "over 270 vessels deployed worldwide as oil FPSOs",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "deepest FPSO, BW Pioneer",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
         "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
       },
-      "value": 2600
+      "value": 2600,
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Kizomba A storage / dimensions",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
         "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
       },
-      "value": "2.2 million bbl; 285 m L × 63 m B × 32 m H; 81,000 t; cost over US$800m"
+      "value": "2.2 million bbl; 285 m L × 63 m B × 32 m H; 81,000 t; cost over US$800m",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     },
     {
       "metric": "Skarv FPSO dimensions",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
         "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
       },
-      "value": "292 m × 50.6 m × 29 m; ~100 people; hull Aker Solutions Tentech975"
+      "value": "292 m × 50.6 m × 29 m; ~100 people; hull Aker Solutions Tentech975",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     }
   ],
   "vendors": [

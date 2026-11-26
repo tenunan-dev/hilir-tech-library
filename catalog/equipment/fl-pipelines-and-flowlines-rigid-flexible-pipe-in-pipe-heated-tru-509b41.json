@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required.",
+  "description": "Transport produced fluids from well/tie-back to host and export, and injection fluids from host to wells; flow assurance (heating/insulation) where required. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
   "specifications": [
     {
       "metric": "Rigid pipeline water depth",
@@ -19,7 +19,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
         "source_id": "sys-technipfmc-com-b0f39f"
       },
-      "value": "tens to thousands"
+      "value": "tens to thousands",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/"
     },
     {
       "metric": "Global spoolbases",
@@ -29,7 +30,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
         "source_id": "sys-technipfmc-com-b0f39f"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/"
     },
     {
       "metric": "Flexible pipe vs rigid installation speed",
@@ -39,7 +41,8 @@
         "url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems",
         "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast"
   ],
-  "description": "Vendor product line read 2026-11-24. Built 1985; lifting draft 26.6 m.",
+  "description": "Vendor product line read 2026-11-24. Built 1985; lifting draft 26.6 m. Primary source: https://www.heerema.com/heerema-marine-contractors/fleet",
   "specifications": [
     {
       "metric": "Tandem lift",
@@ -16,7 +16,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": 14200
+      "value": 14200,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "DP class",
@@ -26,7 +27,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": "III"
+      "value": "III",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "tandem_lift_capacity",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 14200
+      "value": 14200,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "year_built",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": 1985
+      "value": 1985,
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "dynamic_positioning",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
       },
-      "value": "class III dynamic positioning system"
+      "value": "class III dynamic positioning system",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     }
   ],
   "url": "https://www.heerema.com/heerema-marine-contractors/fleet",

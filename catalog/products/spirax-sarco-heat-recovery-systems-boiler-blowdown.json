@@ -6,7 +6,7 @@
   "equipment": [
     "blowdown-heat-recovery"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Page fetched but the product section stated 'No content available in this section'. Only the category description is usable. GAP: no model-level specs.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Page fetched but the product section stated 'No content available in this section'. Only the category description is usable. GAP: no model-level specs. Primary source: https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/",
   "specifications": [
     {
       "metric": "Function",
@@ -16,7 +16,8 @@
         "source_id": "spiraxsteam-com-boiler-controls-and-systems-heat-recovery-system"
       },
       "unit": "n/a",
-      "value": "Recover flash steam and heat from boiler blowdown"
+      "value": "Recover flash steam and heat from boiler blowdown",
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/"
     },
     {
       "metric": "Function",
@@ -24,7 +25,8 @@
       "basis": "Spirax Sarco: 'Recover flash steam and heat from boiler blowdown with Spirax Sarco systems that reduce make-up water, chemical use and avoidable energy loss.'",
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/"
-      }
+      },
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/"
     },
     {
       "metric": "Application guidance",
@@ -32,7 +34,8 @@
       "basis": "Spirax Sarco: 'Blowdown heat recovery works best when the blowdown source and feedwater destination are stable. Pair the recovery package with TDS blowdown controls when automatic blowdown creates the upstream stream, and connect the recovered energy into deaerators on the feedwater side.'",
       "source": {
         "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/"
-      }
+      },
+      "source_url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/"
     }
   ],
   "url": "https://www.spiraxsteam.com/products/boiler-controls-and-systems/heat-recovery-systems/",

@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Single large-diameter tubular driven into seabed carrying wind-turbine or platform loads; commonly used with transition piece or TP-less design.",
+  "description": "Single large-diameter tubular driven into seabed carrying wind-turbine or platform loads; commonly used with transition piece or TP-less design. Primary source: https://sif-group.com/products-services/monopiles",
   "specifications": [
     {
       "metric": "monopile length",
@@ -19,7 +19,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "high": 120
+      "high": 120,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "monopile diameter",
@@ -29,7 +30,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "high": 11
+      "high": 11,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "maximum wall thickness",
@@ -39,7 +41,8 @@
         "url": "https://sif-group.com/products-services/monopiles",
         "source_id": "sif-group-com-products-services-monopiles"
       },
-      "value": 160
+      "value": 160,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "maximum monopile weight",
@@ -50,7 +53,8 @@
         "source_id": "sif-group-com-products-services-monopiles"
       },
       "low": 2000,
-      "high": 2500
+      "high": 2500,
+      "source_url": "https://sif-group.com/products-services/monopiles"
     },
     {
       "metric": "monopile weight range (fabricator)",
@@ -61,7 +65,8 @@
         "source_id": "cswoffshore-com-solutions-monopiles"
       },
       "low": 1000,
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "foundations fabricated since 2002",
@@ -71,7 +76,8 @@
         "url": "https://www.cswoffshore.com/solutions/monopiles",
         "source_id": "cswoffshore-com-solutions-monopiles"
       },
-      "value": ">3100"
+      "value": ">3100",
+      "source_url": "https://www.cswoffshore.com/solutions/monopiles"
     },
     {
       "metric": "Veja Mate monopile weight / height and water depth",
@@ -81,7 +87,8 @@
         "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
         "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
       },
-      "value": "1,230-1,302 t; 85 m tall; water depth 39-41 m"
+      "value": "1,230-1,302 t; 85 m tall; water depth 39-41 m",
+      "source_url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate"
     }
   ],
   "vendors": [

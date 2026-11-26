@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. HPBC 2.0; 30-year power warranty",
+  "description": "Vendor product line read 2026-11-24. HPBC 2.0; 30-year power warranty Primary source: https://www.longi.com/en/products/modules/hi-mo-9/",
   "specifications": [
     {
       "metric": "Max power",
@@ -16,7 +16,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 670
+      "value": 670,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module efficiency",
@@ -26,7 +27,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 24.8
+      "value": 24.8,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "STC Pmax (660M)",
@@ -36,7 +38,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 660
+      "value": 660,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Front static load",
@@ -46,7 +49,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 5400
+      "value": 5400,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Pmax temp coefficient",
@@ -56,7 +60,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": -0.26
+      "value": -0.26,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module power",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 670
+      "value": 670,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module efficiency",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 24.8
+      "value": 24.8,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Product warranty",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Power warranty",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "30-year degradation advantage",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 0.05
+      "value": 0.05,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "30-year power increase",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 1.5
+      "value": 1.5,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Cell technology",
@@ -118,7 +129,8 @@
       "basis": "'Tairay silicon wafers + HPBC 2.0 cell technology'; '0BB design on the front'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Design features",
@@ -126,7 +138,8 @@
       "basis": "'Soft Breakdown Design' for anti-shading and preventing localized overheating",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     }
   ],
   "url": "https://www.longi.com/en/products/modules/hi-mo-9/",

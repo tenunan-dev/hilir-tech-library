@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Distribute jacket base load over weak seabed during installation and before piling; templates guide piles and drill slots.",
+  "description": "Distribute jacket base load over weak seabed during installation and before piling; templates guide piles and drill slots. Primary source: https://www.iso.org/standard/84215.html",
   "specifications": [
     {
       "metric": "function",
@@ -18,7 +18,8 @@
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
         "url": "https://www.iso.org/standard/84215.html"
-      }
+      },
+      "source_url": "https://www.iso.org/standard/84215.html"
     }
   ],
   "vendors": [

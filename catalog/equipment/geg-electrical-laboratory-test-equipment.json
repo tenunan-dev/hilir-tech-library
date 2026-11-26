@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Electrical laboratory test equipment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Electrical laboratory test equipment for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
   "aliases": [
     "Electrical laboratory test equipment"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
         "source_id": "geg-r-jina-ai-cpx-200-7754c65"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200"
     },
     {
       "metric": "OMICRON CPX 200 multifunctional primar — voltage output with HVX10 system component",
@@ -37,7 +38,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
         "source_id": "geg-r-jina-ai-cpx-200-7754c65"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200"
     },
     {
       "metric": "OMICRON CPX 200 multifunctional primar — test frequency range",
@@ -48,7 +50,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
         "source_id": "geg-r-jina-ai-cpx-200-7754c65"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200"
     },
     {
       "metric": "OMICRON CPX 200 multifunctional primar — total system weight",
@@ -58,7 +61,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
         "source_id": "geg-r-jina-ai-cpx-200-7754c65"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200"
     },
     {
       "metric": "OMICRON CPX 200 multifunctional primar — CPX 200 unit weight",
@@ -68,7 +72,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
         "source_id": "geg-r-jina-ai-cpx-200-7754c65"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200"
     },
     {
       "metric": "OMICRON CPX 200 multifunctional primar — voltage input",
@@ -77,7 +82,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
         "source_id": "geg-r-jina-ai-cpx-200-7754c65"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200"
     },
     {
       "metric": "OMICRON CPX 200 multifunctional primar — current input",
@@ -86,7 +92,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200",
         "source_id": "geg-r-jina-ai-cpx-200-7754c65"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.omicronenergy.com/en/products/cpx-200"
     },
     {
       "metric": "Megger MRCT relay and current transfor — DC excitation knee point capability",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
         "source_id": "geg-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set"
     },
     {
       "metric": "Megger MRCT relay and current transfor — secondary voltage injection (configurable base unit)",
@@ -106,7 +114,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
         "source_id": "geg-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set"
     },
     {
       "metric": "Megger MRCT relay and current transfor — minimum insulation resistance value generally accepted",
@@ -116,7 +125,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
         "source_id": "geg-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set"
     },
     {
       "metric": "Megger MRCT relay and current transfor — primary noise filtration accuracy penalty",
@@ -126,7 +136,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
         "source_id": "geg-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set"
     },
     {
       "metric": "Electrical testing laboratory equi — Portable relay secondary injection testing set quantity",
@@ -137,7 +148,8 @@
       "source": {
         "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
         "source_id": "gef-tenders-bhel-com-technical-specification-and-ef841fa"
-      }
+      },
+      "source_url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf"
     },
     {
       "metric": "Electrical testing laboratory equi — Computerized relay test bench quantity",
@@ -147,7 +159,8 @@
       "source": {
         "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
         "source_id": "gef-tenders-bhel-com-technical-specification-and-ef841fa"
-      }
+      },
+      "source_url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf"
     },
     {
       "metric": "Electrical testing laboratory equi — Automatic oil testing set quantity and range",
@@ -159,7 +172,8 @@
       "source": {
         "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
         "source_id": "gef-tenders-bhel-com-technical-specification-and-ef841fa"
-      }
+      },
+      "source_url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf"
     },
     {
       "metric": "Electrical testing laboratory equi — Rheostats (660 V grade) quantity per range",
@@ -169,7 +183,8 @@
       "source": {
         "url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf",
         "source_id": "gef-tenders-bhel-com-technical-specification-and-ef841fa"
-      }
+      },
+      "source_url": "https://tenders.bhel.com/sites/default/files/Technical_Specification_and_PQR-2026-03-26-05%3A14%3A32.pdf"
     }
   ],
   "vendor_models": [],

@@ -6,7 +6,7 @@
   "equipment": [
     "civ-scaffolding-module-rosette-systems-for-industrial-access"
   ],
-  "description": "Vendor product line read 2026-11-24. Page read",
+  "description": "Vendor product line read 2026-11-24. Page read Primary source: https://www.layher.com/en/products/allroundscaffolding",
   "specifications": [
     {
       "metric": "Connections per rosette",
@@ -16,7 +16,8 @@
         "url": "https://www.layher.com/en/products/allroundscaffolding",
         "source_id": "layher-com-products-allroundscaffolding"
       },
-      "value": 8
+      "value": 8,
+      "source_url": "https://www.layher.com/en/products/allroundscaffolding"
     },
     {
       "metric": "Approvals",
@@ -26,7 +27,8 @@
         "url": "https://www.layher.com/en/products/allroundscaffolding",
         "source_id": "layher-com-products-allroundscaffolding"
       },
-      "value": "Z-8.22-64 / Z-8.22-939 / EN 12811"
+      "value": "Z-8.22-64 / Z-8.22-939 / EN 12811",
+      "source_url": "https://www.layher.com/en/products/allroundscaffolding"
     },
     {
       "metric": "Allround Scaffolding - system introduction",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.layher.com/en/products/allroundscaffolding"
       },
-      "value": "Launched 1974; original system continuously developed"
+      "value": "Launched 1974; original system continuously developed",
+      "source_url": "https://www.layher.com/en/products/allroundscaffolding"
     },
     {
       "metric": "Allround Scaffolding - connector capacity",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.layher.com/en/products/allroundscaffolding"
       },
-      "value": "Up to eight connections in one Allround Connector, on one level and at various angles"
+      "value": "Up to eight connections in one Allround Connector, on one level and at various angles",
+      "source_url": "https://www.layher.com/en/products/allroundscaffolding"
     },
     {
       "metric": "Allround Scaffolding - connection types",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.layher.com/en/products/allroundscaffolding"
       },
-      "value": "Positive and non-positive connections with AutoLock function; automatically right-angled, obtuse- and acute-angled"
+      "value": "Positive and non-positive connections with AutoLock function; automatically right-angled, obtuse- and acute-angled",
+      "source_url": "https://www.layher.com/en/products/allroundscaffolding"
     },
     {
       "metric": "Allround Scaffolding - materials",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.layher.com/en/products/allroundscaffolding"
       },
-      "value": "Steel or aluminium"
+      "value": "Steel or aluminium",
+      "source_url": "https://www.layher.com/en/products/allroundscaffolding"
     },
     {
       "metric": "Allround Scaffolding - standard",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.layher.com/en/products/allroundscaffolding"
       },
-      "value": "One standard for supported and suspended scaffolding with integrated spigots"
+      "value": "One standard for supported and suspended scaffolding with integrated spigots",
+      "source_url": "https://www.layher.com/en/products/allroundscaffolding"
     },
     {
       "metric": "Allround Scaffolding - listed system variants",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.layher.com/en/products/allroundscaffolding"
       },
-      "value": "Allround Scaffolding Lightweight Z-8.22-939; Allround Scaffolding Aluminium Z-8.22-26.1"
+      "value": "Allround Scaffolding Lightweight Z-8.22-939; Allround Scaffolding Aluminium Z-8.22-26.1",
+      "source_url": "https://www.layher.com/en/products/allroundscaffolding"
     }
   ],
   "url": "https://www.layher.com/en/products/allroundscaffolding",

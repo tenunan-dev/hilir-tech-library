@@ -6,7 +6,7 @@
   "equipment": [
     "geg-11-kv-switchgear"
   ],
-  "description": "medium-voltage vacuum circuit breaker",
+  "description": "medium-voltage vacuum circuit breaker Primary source: https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
   "specifications": [
     {
       "metric": "Rated voltage / impulse withstand at 12 kV",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Rated short-circuit breaking current at 12 kV",
@@ -27,7 +28,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Standards met",
@@ -37,7 +39,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",
         "source_id": "geg-assets-new-siemens-com-3ak7-en-pdf-274a77d"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Rated voltage range",
@@ -47,7 +50,8 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
       "low": 7.2,
-      "high": 17.5
+      "high": 17.5,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Rated normal current",
@@ -57,7 +61,8 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
       "low": 1250,
-      "high": 4000
+      "high": 4000,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Short-circuit breaking current",
@@ -66,7 +71,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Pole-center distance",
@@ -75,7 +81,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
-      "value": 210
+      "value": 210,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Maintenance-free operating cycles",
@@ -84,7 +91,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Lightning impulse withstand voltage",
@@ -94,7 +102,8 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
       "low": 60,
-      "high": 95
+      "high": 95,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Power-frequency withstand voltage",
@@ -104,7 +113,8 @@
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
       },
       "low": 20,
-      "high": 38
+      "high": 38,
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Standards",
@@ -112,7 +122,8 @@
       "basis": "Siemens: 'IEC 62271-100; IEC 62271-1; IEC 60265-1; IEC/IEEE 62271-37-013:2015 (marked accordingly)'; endurance classes E2, M2, S1, C2",
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     },
     {
       "metric": "Ambient / altitude conditions",
@@ -120,7 +131,8 @@
       "basis": "Siemens: climatic class 3K4 (24-hour mean +35°C), 3K6; rated currents defined at +40°C ambient; withstand voltages apply to site altitude 1000 m; altitude correction factor Ka",
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf"
     }
   ],
   "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:c6813788-c460-47db-9c9c-2d0f9b9fab3f/3AK7-EN.pdf",

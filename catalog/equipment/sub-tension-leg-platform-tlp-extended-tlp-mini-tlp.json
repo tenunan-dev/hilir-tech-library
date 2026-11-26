@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Vertically moored buoyant platform with high-axial-stiffness tendons that eliminate nearly all vertical motion, permitting deck-mounted dry-tree wellheads and rigid risers.",
+  "description": "Vertically moored buoyant platform with high-axial-stiffness tendons that eliminate nearly all vertical motion, permitting deck-mounted dry-tree wellheads and rigid risers. Primary source: https://en.wikipedia.org/wiki/Tension-leg_platform",
   "specifications": [
     {
       "metric": "preferred water depth range",
@@ -20,7 +20,8 @@
         "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
       },
       "low": 300,
-      "high": 1500
+      "high": 1500,
+      "source_url": "https://en.wikipedia.org/wiki/Tension-leg_platform"
     },
     {
       "metric": "upper general water depth",
@@ -30,7 +31,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "mini-TLP water depth",
@@ -41,7 +43,8 @@
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
       "low": 180,
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "Hutton TLP tendon count / mass",
@@ -51,7 +54,8 @@
         "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
         "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
       },
-      "value": "16 tension legs; 46,500-55,000 t moored; up to 61,580 t free-floating"
+      "value": "16 tension legs; 46,500-55,000 t moored; up to 61,580 t free-floating",
+      "source_url": "https://en.wikipedia.org/wiki/Tension-leg_platform"
     },
     {
       "metric": "deepest ETLP, Big Foot",
@@ -61,7 +65,8 @@
         "url": "https://en.wikipedia.org/wiki/Tension-leg_platform",
         "source_id": "en-wikipedia-org-wiki-tension-leg-platform"
       },
-      "value": 1580
+      "value": 1580,
+      "source_url": "https://en.wikipedia.org/wiki/Tension-leg_platform"
     }
   ],
   "vendors": [

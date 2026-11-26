@@ -6,7 +6,7 @@
   "equipment": [
     "geg-cooling-water-system-with-air-cooled-radiator"
   ],
-  "description": "closed-circuit radiator cooling arrangement",
+  "description": "closed-circuit radiator cooling arrangement Primary source: https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
   "specifications": [
     {
       "metric": "Plant process water consumption with closed-loop radiator cooling",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
         "source_id": "geg-wartsila-com-gas-and-multi-fuel-power-plants-7eb2ea3"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     },
     {
       "metric": "Closed-loop radiator cooling water consumption",
@@ -27,7 +28,8 @@
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",
         "source_id": "catpar-r-jina-ai-gas-and-multi-fuel-power-plants-pd-770321f"
       },
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     },
     {
       "metric": "Fast start-up from hot standby",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
       },
-      "value": "2 - 10 minutes to full load, regardless of plant size"
+      "value": "2 - 10 minutes to full load, regardless of plant size",
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     },
     {
       "metric": "Plant electrical efficiency",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
       },
-      "value": "> 54"
+      "value": "> 54",
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     },
     {
       "metric": "Typical engine unit size",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
       },
-      "value": "4 - 19 MW"
+      "value": "4 - 19 MW",
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     },
     {
       "metric": "CHP total efficiency",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     },
     {
       "metric": "Flexicycle power increase",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     },
     {
       "metric": "Fleet track record",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
       },
-      "value": "176 countries, more than 11,000 engines, combined capacity 63 GW"
+      "value": "176 countries, more than 11,000 engines, combined capacity 63 GW",
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     },
     {
       "metric": "Plant process water / cooling claim",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
       },
-      "value": "No water consumed for plant cooling = arid area suitability"
+      "value": "No water consumed for plant cooling = arid area suitability",
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     },
     {
       "metric": "Fuel choices",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
       },
-      "value": "natural gas, or multi-fuel mode gaseous + liquid (LFO, HFO, crude oil, liquid biofuel); switching during operation"
+      "value": "natural gas, or multi-fuel mode gaseous + liquid (LFO, HFO, crude oil, liquid biofuel); switching during operation",
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     },
     {
       "metric": "34SG LPG capability",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
       },
-      "value": "first medium-speed engine capable of running on LPG; also ethane"
+      "value": "first medium-speed engine capable of running on LPG; also ethane",
+      "source_url": "https://r.jina.ai/https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22"
     }
   ],
   "url": "https://www.wartsila.com/docs/default-source/energy-docs/technology-products/brochures/gas-and-multi-fuel-power-plants.pdf?sfvrsn=6f4dbb45_22",

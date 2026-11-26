@@ -6,7 +6,7 @@
   "equipment": [
     "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246"
   ],
-  "description": "Range values and filter facets printed on the HTML catalogue page; full pressure-temperature tables are in the linked PDF (not WebFetch-read).",
+  "description": "Range values and filter facets printed on the HTML catalogue page; full pressure-temperature tables are in the linked PDF (not WebFetch-read). Primary source: https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
   "specifications": [
     {
       "metric": "Size range",
@@ -16,7 +16,8 @@
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
         "source_id": "cat-products-swagelok-com-241"
       },
-      "value": "1/4 to 1 in. (6 mm)"
+      "value": "1/4 to 1 in. (6 mm)",
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "Temperature range",
@@ -27,7 +28,8 @@
         "source_id": "cat-products-swagelok-com-241"
       },
       "low": -45,
-      "high": 260
+      "high": 260,
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "Pressure rating range",
@@ -38,7 +40,8 @@
         "source_id": "cat-products-swagelok-com-241"
       },
       "low": 10.3,
-      "high": 413
+      "high": 413,
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "Coupled pressure at room temp",
@@ -48,7 +51,8 @@
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
         "source_id": "cat-products-swagelok-com-241"
       },
-      "value": "6000 PSIG @ 70 °F / 413 BAR @ 21 °C"
+      "value": "6000 PSIG @ 70 °F / 413 BAR @ 21 °C",
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "Body material",
@@ -58,7 +62,8 @@
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
         "source_id": "cat-products-swagelok-com-241"
       },
-      "value": "316 stainless steel, brass"
+      "value": "316 stainless steel, brass",
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "connection_size_range",
@@ -68,7 +73,8 @@
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
       },
       "low": 0.25,
-      "high": 1
+      "high": 1,
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "temperature_range",
@@ -78,7 +84,8 @@
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
       },
       "low": -45,
-      "high": 260
+      "high": 260,
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "body_materials",
@@ -87,7 +94,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
       },
-      "value": "316 stainless steel, brass"
+      "value": "316 stainless steel, brass",
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "pressure_rating_range",
@@ -97,7 +105,8 @@
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
       },
       "low": 150,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "pressure_rating_range_bar",
@@ -107,7 +116,8 @@
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
       },
       "low": 10.3,
-      "high": 413
+      "high": 413,
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "pressure_rating_coupled_room_temp",
@@ -116,7 +126,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
       },
-      "value": "6000 PSIG @ 70 F / 413 BAR @ 21 C; 4000 PSIG @ 70 F / 275 BAR @ 21 C; 3000 PSIG @ 70 F / 206 BAR @ 21 C; 2000 PSIG @ 70 F / 137 BAR @ 21 C"
+      "value": "6000 PSIG @ 70 F / 413 BAR @ 21 C; 4000 PSIG @ 70 F / 275 BAR @ 21 C; 3000 PSIG @ 70 F / 206 BAR @ 21 C; 2000 PSIG @ 70 F / 137 BAR @ 21 C",
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "pressure_rating_coupled_max_temp",
@@ -125,7 +136,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
       },
-      "value": "100 PSIG @ 400 F / 6.8 BAR @ 204 C; 100 PSIG @ 250 F / 6.8 BAR @ 121 C; 400 PSIG @ 400 F / 27.5 BAR @ 204 C"
+      "value": "100 PSIG @ 400 F / 6.8 BAR @ 204 C; 100 PSIG @ 250 F / 6.8 BAR @ 121 C; 400 PSIG @ 400 F / 27.5 BAR @ 204 C",
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "O_ring_materials",
@@ -134,7 +146,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
       },
-      "value": "Fluorocarbon FKM; Buna N (Standard)"
+      "value": "Fluorocarbon FKM; Buna N (Standard)",
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     },
     {
       "metric": "series_models",
@@ -143,7 +156,8 @@
       "source": {
         "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
       },
-      "value": "QF4 (22 products), QF8 (17), QF12 (8), QF16 (6)"
+      "value": "QF4 (22 products), QF8 (17), QF12 (8), QF16 (6)",
+      "source_url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true"
     }
   ],
   "url": "https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",

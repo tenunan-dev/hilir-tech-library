@@ -8,7 +8,7 @@
     "MID",
     "CIV"
   ],
-  "description": "The read sources treat a helipad/helideck as an appurtenance: an NUI is described as little more than a well bay, helipad and emergency shelter; US4679964A describes a cantilevered helideck on single- or multi-well conductor-supported configurations; US4932811A describes an upper heliport deck carried by piles around a caisson. No page read in this sweep stated a helideck D-value, load classification, obstacle-free sector or a visit-frequency rule, and the CAP 437 PDF was refused.",
+  "description": "The read sources treat a helipad/helideck as an appurtenance: an NUI is described as little more than a well bay, helipad and emergency shelter; US4679964A describes a cantilevered helideck on single- or multi-well conductor-supported configurations; US4932811A describes an upper heliport deck carried by piles around a caisson. No page read in this sweep stated a helideck D-value, load classification, obstacle-free sector or a visit-frequency rule, and the CAP 437 PDF was refused. Primary source: https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
   "aliases": [
     "Helideck (only on platforms with regular crewed visits)"
   ],
@@ -26,7 +26,8 @@
         "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
         "note": "Mistral chat, Wellhead platform components overview (read 2026-11-24)"
       },
-      "unit": "n/a"
+      "unit": "n/a",
+      "source_url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
     }
   ],
   "vendor_models": [],

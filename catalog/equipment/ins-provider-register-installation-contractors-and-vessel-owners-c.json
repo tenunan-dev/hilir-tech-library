@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Consolidated evidence-backed list of contractors/vessel owners for installation scope, including those named in the task brief for which only partial or search-verified evidence was obtained.",
+  "description": "Consolidated evidence-backed list of contractors/vessel owners for installation scope, including those named in the task brief for which only partial or search-verified evidence was obtained. Primary source: https://www.heerema.com/heerema-marine-contractors/fleet",
   "specifications": [
     {
       "metric": "Provider evidence tiers",
@@ -19,7 +19,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": "tier A = primary OEM/contractor page read; tier B = Wikipedia page read; tier C = search-verified snippet only"
+      "value": "tier A = primary OEM/contractor page read; tier B = Wikipedia page read; tier C = search-verified snippet only",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "cf-solar-pv-modules-and-inverters-onshore-gas-plant-and-remote-hy"
   ],
-  "description": "Product families listed: TS30M truss structure, PT60 pontoon, Floating Barge equipment support system. Page claims No.1 global market share for FPV. Detailed product spec sheets are behind linked Documents & Installation tabs (not read).",
+  "description": "Product families listed: TS30M truss structure, PT60 pontoon, Floating Barge equipment support system. Page claims No.1 global market share for FPV. Detailed product spec sheets are behind linked Documents & Installation tabs (not read). Primary source: https://www.sungrowpower.com/en/floating-pv-system",
   "specifications": [
     {
       "metric": "Global FPV application",
@@ -16,7 +16,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "FPV patents",
@@ -26,7 +27,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 290
+      "value": 290,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference project - Indonesia",
@@ -36,7 +38,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 192
+      "value": 192,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference project - Anhui China",
@@ -46,7 +49,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference project - Philippines",
@@ -56,7 +60,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 4.99
+      "value": 4.99,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Global floating PV application",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Patents",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 290
+      "value": 290,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Market share",
@@ -82,7 +89,8 @@
       "basis": "Counter \"NO.1 Global Market Share\"",
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
-      }
+      },
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference project capacity",
@@ -90,7 +98,8 @@
       "basis": "Cases: 192 MW Indonesia (reservoir, world's largest floating PV project at a hydroelectric power station); 200 MW Anhui Province (subsidence area, former coal mines); 4.99 MW Philippines; 5 MW France",
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
-      }
+      },
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Product lines",
@@ -98,7 +107,8 @@
       "basis": "Products for Utility Scale: TS30M (Truss Structure Product), PT60 (Pontoon Product), Floating Barge (Equipment Support System)",
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
-      }
+      },
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Service network",
@@ -106,7 +116,8 @@
       "basis": "\"400 + Authorized Distributors; 520 + Service Outlets; 1000 + Technical Experts; 110,000 m2 Warehouse total area\"",
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
-      }
+      },
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     }
   ],
   "url": "https://www.sungrowpower.com/en/floating-pv-system",

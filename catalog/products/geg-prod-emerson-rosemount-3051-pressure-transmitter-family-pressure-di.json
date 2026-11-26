@@ -6,7 +6,7 @@
   "equipment": [
     "geg-field-instrumentation"
   ],
-  "description": "pressure/differential pressure transmitter",
+  "description": "pressure/differential pressure transmitter Primary source: https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
   "specifications": [
     {
       "metric": "reference accuracy",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "installed total performance",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "stability",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "safety certification",
@@ -49,7 +52,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "installed base",
@@ -60,7 +64,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "output protocols",
@@ -70,7 +75,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "pressure range example (3051TG range 5)",
@@ -82,7 +88,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",
         "source_id": "geg-instrumart-com-rosemount-3051-datasheet-pdf-bf5db04"
-      }
+      },
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "reference_accuracy",
@@ -91,7 +98,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": 0.04
+      "value": 0.04,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "installed_total_performance",
@@ -100,7 +108,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": 0.14
+      "value": 0.14,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "ten_year_stability",
@@ -109,7 +118,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "safety_certification",
@@ -118,7 +128,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": "SIL2/3 certified (IEC 61508)"
+      "value": "SIL2/3 certified (IEC 61508)",
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "range_3051CD_differential",
@@ -128,7 +139,8 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
       "low": -25,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "range_3051TG_gage",
@@ -138,7 +150,8 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
       "low": -14.7,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "max_static_line_pressure_option",
@@ -147,7 +160,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": 4500
+      "value": 4500,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "output_protocols",
@@ -156,7 +170,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": "4-20 mA HART; FOUNDATION Fieldbus; PROFIBUS PA; WirelessHART (IEC 62591); low-power 1-5 Vdc HART"
+      "value": "4-20 mA HART; FOUNDATION Fieldbus; PROFIBUS PA; WirelessHART (IEC 62591); low-power 1-5 Vdc HART",
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "wireless_frequency",
@@ -165,7 +180,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": 2.4
+      "value": 2.4,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "wireless_installation_cost_saving",
@@ -175,7 +191,8 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
       "low": 40,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "DP_flow_accuracy",
@@ -184,7 +201,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "high": 1.65
+      "high": 1.65,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "Annubar_line_size_range",
@@ -194,7 +212,8 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
       "low": 2,
-      "high": 96
+      "high": 96,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "cold_temperature_options",
@@ -204,7 +223,8 @@
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
       "low": -60,
-      "high": -50
+      "high": -50,
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "materials_of_construction",
@@ -213,7 +233,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": "316L SST, Alloy C-276, Alloy 400, Tantalum, gold-plated Alloy 400, gold-plated 316 SST isolating diaphragms; silicone or inert fill fluid; glass/graphite-filled PTFO O-rings"
+      "value": "316L SST, Alloy C-276, Alloy 400, Tantalum, gold-plated Alloy 400, gold-plated 316 SST isolating diaphragms; silicone or inert fill fluid; glass/graphite-filled PTFO O-rings",
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     },
     {
       "metric": "hazardous_area_certifications",
@@ -222,7 +243,8 @@
       "source": {
         "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
       },
-      "value": "ATEX, FM, CSA, IECEx, INMETRO, TIIS, EAC, China approvals; NACE MR0175/ISO 15156 and MR0103"
+      "value": "ATEX, FM, CSA, IECEx, INMETRO, TIIS, EAC, China approvals; NACE MR0175/ISO 15156 and MR0103",
+      "source_url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf"
     }
   ],
   "url": "https://www.instrumart.com/assets/rosemount_3051_datasheet.pdf",

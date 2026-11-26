@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. Braveheart due late 2025 with electric ballast system and tidal compensation (Allseas page).",
+  "description": "Vendor product line read 2026-11-24. Braveheart due late 2025 with electric ballast system and tidal compensation (Allseas page). Primary source: https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
   "specifications": [
     {
       "metric": "Iron Lady deck",
@@ -16,7 +16,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": "SPMT-equipped deck with ballast system (no capacity figure printed)"
+      "value": "SPMT-equipped deck with ballast system (no capacity figure printed)",
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Topsides single-lift capacity",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "high": 60000
+      "high": 60000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Jacket single-lift capacity",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "S-lay tension capacity",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Azimuth thrusters",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Pipe-holding capacity",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Length",
@@ -71,7 +77,8 @@
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf",
         "source_id": "catpar-allseas-com-pioneering-spirit-vessel-specs-2-82c5e58"
       },
-      "value": 382
+      "value": 382,
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Breadth",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "value": 124
+      "value": 124,
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Total installed power",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "value": 95000
+      "value": 95000,
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Accommodation",
@@ -98,7 +107,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "value": 571
+      "value": 571,
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Dynamic positioning",
@@ -107,7 +117,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "value": "DP3, K-Pos DP-22, 2x cJoy system"
+      "value": "DP3, K-Pos DP-22, 2x cJoy system",
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     },
     {
       "metric": "Pipeline installation water depth",
@@ -116,7 +127,8 @@
       "source": {
         "url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
       },
-      "high": 3000
+      "high": 3000,
+      "source_url": "https://www.allseas.com/sites/d10p.allseas.com/files/2026-02/pioneering-spirit-vessel-specs-2026.pdf"
     }
   ],
   "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",

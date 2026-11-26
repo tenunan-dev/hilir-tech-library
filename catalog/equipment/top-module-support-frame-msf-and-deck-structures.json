@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "A space frame that supports modules and transfers their loads to the jacket/tower substructure; may also house storage tanks, pig launchers/receivers, metering devices and piping. Provides the structural skeleton for integrated or modular decks.",
+  "description": "A space frame that supports modules and transfers their loads to the jacket/tower substructure; may also house storage tanks, pig launchers/receivers, metering devices and piping. Provides the structural skeleton for integrated or modular decks. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
   "specifications": [
     {
       "metric": "truss vs portal frame longitudinal rows",
@@ -20,7 +20,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
       "low": 2,
-      "high": 3
+      "high": 3,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "portal frame row spacing",
@@ -31,7 +32,8 @@
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
       "low": 14,
-      "high": 16
+      "high": 16,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "conventional steel floor share of deck steel weight",
@@ -41,7 +43,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "GBS topside steel yield stress",
@@ -51,7 +54,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": 355
+      "value": 355,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     },
     {
       "metric": "typical production deck spans",
@@ -61,7 +65,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": "floor plate 1 m; stringer 5 m; deck beam 15 m; main structure 15 m"
+      "value": "floor plate 1 m; stringer 5 m; deck beam 15 m; main structure 15 m",
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     }
   ],
   "vendors": [

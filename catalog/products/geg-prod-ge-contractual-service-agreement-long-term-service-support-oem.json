@@ -6,7 +6,7 @@
   "equipment": [
     "geg-two-year-operational-spares"
   ],
-  "description": "OEM long-term service / spare-parts availability arrangement (non-MAN)",
+  "description": "OEM long-term service / spare-parts availability arrangement (non-MAN) Primary source: https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
   "specifications": [
     {
       "metric": "CSA duration at Kimanis Power plant",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",
         "source_id": "geg-ge-com-ges-frame-6fa-gas-turbines-help-meet-1ddfead"
-      }
+      },
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "CSA service term (Kimanis Power)",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 18
+      "value": 18,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "Plant capacity",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "Equipment supplied",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "GE long-term service agreements installed base",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
       },
-      "value": 700
+      "value": 700,
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     },
     {
       "metric": "6FA fleet experience",
@@ -61,7 +66,8 @@
       "basis": "GE: 'More than 100 units have been installed worldwide and have completed more than three million hours of service'",
       "source": {
         "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
-      }
+      },
+      "source_url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia"
     }
   ],
   "url": "https://www.ge.com/news/press-releases/ges-frame-6fa-gas-turbines-help-meet-growing-power-needs-sabah-malaysia",

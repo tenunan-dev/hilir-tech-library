@@ -853,8 +853,10 @@ def _equipment_result(row, score, erec):
            "licence": EQUIPMENT_LICENCE, "reuse_level": "full-text-open", "permitted_use": "any",
            "equipment_type": erec.get("equipment_type"), "sector": erec.get("sector"),
            "vendors": erec.get("vendors", []),
-           "spec_metrics": [s["metric"] for s in erec.get("specifications", [])]}
-    out["hint"] = "Call get_equipment for the specification ranges, vendor model lines and sources."
+           "spec_metrics": [s["metric"] for s in erec.get("specifications", [])],
+           "source_urls": equipment.source_urls(erec)}
+    out["hint"] = ("Call get_equipment for the full specification ranges, vendor model lines and gaps; "
+                   "source_urls lists the original datasheets to open and cite.")
     return out
 
 
@@ -863,8 +865,10 @@ def _product_result(row, score, prec):
            "licence": PRODUCT_LICENCE, "reuse_level": "full-text-open", "permitted_use": "any",
            "manufacturer": prec["manufacturer"], "product_type": prec["product_type"],
            "equipment": prec.get("equipment", []),
-           "spec_metrics": [s["metric"] for s in prec.get("specifications", [])]}
-    out["hint"] = "Call get_product for the printed specifications and the vendor catalog page."
+           "spec_metrics": [s["metric"] for s in prec.get("specifications", [])],
+           "url": prec.get("url", ""), "source_urls": products.source_urls(prec)}
+    out["hint"] = ("Call get_product for every printed parameter with its exact basis; "
+                   "url/source_urls are the original OEM catalogue/datasheet pages to open and cite.")
     return out
 
 

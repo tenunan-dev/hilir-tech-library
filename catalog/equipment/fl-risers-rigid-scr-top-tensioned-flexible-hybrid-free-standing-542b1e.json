@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure and thermal load.",
+  "description": "Convey produced fluids or injection/power services between subsea wells/tie-backs and a fixed or floating surface host; accommodate platform motion, pressure and thermal load. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
   "specifications": [
     {
       "metric": "Flexible pipe high-pressure resistance",
@@ -19,7 +19,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
         "source_id": "sys-technipfmc-com"
       },
-      "value": "high-pressure resistant (qualitative; no numeric rating published on page)"
+      "value": "high-pressure resistant (qualitative; no numeric rating published on page)",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Rigid pipeline water depth capability",
@@ -29,7 +30,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/",
         "source_id": "sys-technipfmc-com-b0f39f"
       },
-      "value": "tens to thousands"
+      "value": "tens to thousands",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/"
     },
     {
       "metric": "Flexible pipe installation speed advantage",
@@ -39,7 +41,8 @@
         "url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems",
         "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems"
     },
     {
       "metric": "FSHR tensioning method",
@@ -49,7 +52,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/",
         "source_id": "sys-technipfmc-com"
       },
-      "value": "near-surface buoyancy can"
+      "value": "near-surface buoyancy can",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Fluid transfer line applications",
@@ -59,7 +63,8 @@
         "url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems",
         "source_id": "sys-bakerhughes-com-flexible-pipe-systems"
       },
-      "value": "riser, flowline, jumper, fluid transfer line; high H2S, dense CO2, high temperature"
+      "value": "riser, flowline, jumper, fluid transfer line; high H2S, dense CO2, high temperature",
+      "source_url": "https://www.bakerhughes.com/subsea/flexible-pipe-systems"
     },
     {
       "metric": "installed base - refineries",
@@ -69,7 +74,8 @@
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
         "source_id": "sys-process-honeywell-com-experion-pks"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "O&G processing plants",
@@ -79,7 +85,8 @@
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
         "source_id": "sys-process-honeywell-com-experion-pks"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "Global FPV applications",
@@ -89,7 +96,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Example project",
@@ -99,7 +107,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 192
+      "value": 192,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Documented application",
@@ -109,7 +118,8 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
         "source_id": "sys-slb-com-processing-and-separation"
       },
-      "value": "oil-in-water separation (Oman case study)"
+      "value": "oil-in-water separation (Oman case study)",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "Max power",
@@ -119,7 +129,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 670
+      "value": 670,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module efficiency",
@@ -129,7 +140,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 24.8
+      "value": 24.8,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "STC Pmax (660M)",
@@ -139,7 +151,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 660
+      "value": 660,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Front static load",
@@ -149,7 +162,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 5400
+      "value": 5400,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Pmax temp coefficient",
@@ -159,7 +173,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": -0.26
+      "value": -0.26,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "RF physical layer",
@@ -169,7 +184,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "2.4 GHz DSSS O-QPSK (IEEE 802.15.4-2006)"
+      "value": "2.4 GHz DSSS O-QPSK (IEEE 802.15.4-2006)",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "MAC",
@@ -179,7 +195,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "TDMA data-link layer"
+      "value": "TDMA data-link layer",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Generator set power range",
@@ -188,7 +205,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel"
       },
-      "value": "15 - 3750 kVA"
+      "value": "15 - 3750 kVA",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Commercial genset start and load acceptance",
@@ -197,7 +215,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel"
       },
-      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step"
+      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Quiet Diesel series frequency",
@@ -206,7 +225,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "60, 50"
+      "value": "60, 50",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel noise reduction",
@@ -215,7 +235,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel full-load ambient capability",
@@ -224,7 +245,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "120 F (50 C)"
+      "value": "120 F (50 C)",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel construction and mounting",
@@ -233,7 +255,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "Totally enclosed incl. cooling, muffler and intake; 4-point mounting system"
+      "value": "Totally enclosed incl. cooling, muffler and intake; 4-point mounting system",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Portfolio maximum 60 Hz",
@@ -242,7 +265,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": 3250
+      "value": 3250,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Portfolio maximum 50 Hz",
@@ -251,7 +275,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Load factor standby / prime",
@@ -260,7 +285,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "85% / 75%"
+      "value": "85% / 75%",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Transient operation claim",
@@ -269,7 +295,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "Superior transient operation, industry leading load factors in extreme ambient conditions"
+      "value": "Superior transient operation, industry leading load factors in extreme ambient conditions",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Sustainable fuel approval",
@@ -278,7 +305,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO"
+      "value": "Series 4000 and 1600 approved for synthetic paraffinic diesel EN 15940 including HVO",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 4000",
@@ -287,7 +315,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe"
+      "value": "50 Hz: 1,600 - 4,000 kVA; 60 Hz: 1,125 - 3,250 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 2000",
@@ -296,7 +325,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe"
+      "value": "50 Hz: 770 - 1,400 kVA; 60 Hz: 680 - 1,250 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 1600",
@@ -305,7 +335,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe"
+      "value": "50 Hz: 590 - 1,000 kVA; 60 Hz: 500 - 900 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Power range - mtu Series 0080 - mtu Series 0225",
@@ -314,7 +345,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe"
+      "value": "50 Hz: 30 - 94 kVA; 60 Hz: 27 - 400 kWe",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Series 4000 brochure link",
@@ -323,7 +355,8 @@
       "source": {
         "url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
       },
-      "value": "16120753_PowerGeneration_S4000_Diesel_brochure.pdf"
+      "value": "16120753_PowerGeneration_S4000_Diesel_brochure.pdf",
+      "source_url": "https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html"
     },
     {
       "metric": "Applications",
@@ -331,7 +364,8 @@
       "basis": "'engineered for a wide variety of applications, from petroleum refineries to FPSO offshore platforms'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Liquid seal design",
@@ -339,7 +373,8 @@
       "basis": "'We use deep liquid seals that provide the necessary hydrostatic head' to 'prevent air backflow and ensure stable operation of the compressor and flare system'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Compression technologies",
@@ -347,7 +382,8 @@
       "basis": "'Ejectors ... particularly useful in applications requiring a simple, maintenance-free solution'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Emissions reduced",
@@ -355,7 +391,8 @@
       "basis": "'designed to significantly reduce emissions, including NOx, CO, CO2, and SOx'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Flare gas sweetening",
@@ -363,7 +400,8 @@
       "basis": "'Flare gas often contains impurities like H2S that need to be removed'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Module power",
@@ -372,7 +410,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 670
+      "value": 670,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Product warranty",
@@ -381,7 +420,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Power warranty",
@@ -390,7 +430,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "30-year degradation advantage",
@@ -399,7 +440,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 0.05
+      "value": 0.05,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "30-year power increase",
@@ -408,7 +450,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 1.5
+      "value": 1.5,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Cell technology",
@@ -416,7 +459,8 @@
       "basis": "'Tairay silicon wafers + HPBC 2.0 cell technology'; '0BB design on the front'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Design features",
@@ -424,7 +468,8 @@
       "basis": "'Soft Breakdown Design' for anti-shading and preventing localized overheating",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Construction",
@@ -432,7 +477,8 @@
       "basis": "'flexible pipe is made up of several different layers. The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Structure",
@@ -440,7 +486,8 @@
       "basis": "'The helically wound steel wires give the structure its high-pressure resistance and excellent bending characteristics'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Attributes",
@@ -448,7 +495,8 @@
       "basis": "'Leak-proof', 'Corrosion resistant', 'High-pressure resistant', 'Bendable', 'Flexible', 'Adjustable', 'Retrievable', 'Fit for purpose', 'Interactive layers', 'Dynamic execution'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Pioneered year",
@@ -457,7 +505,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
       },
-      "value": 1970
+      "value": 1970,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "IPB technology",
@@ -465,7 +514,8 @@
       "basis": "'an innovative and proprietary technology' for 'high-level flow assurance of hydrocarbon fluids in difficult conditions from well heads to surface treatment units'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "IPB features",
@@ -473,7 +523,8 @@
       "basis": "'thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "FSHR design",
@@ -481,7 +532,8 @@
       "basis": "'vertical steel pipe tensioned by a near-surface buoyancy can' with flexible jumper and rigid base jumper",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Overall compressor range",
@@ -491,7 +543,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
       "low": 600000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "KK&K single-stage pressure rise",
@@ -500,7 +553,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": 3.5
+      "value": 3.5,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "KK&K multistage pressure rise",
@@ -509,7 +563,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": 6
+      "value": 6,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "CKD flow requirement",
@@ -518,7 +573,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": 1700000
+      "value": 1700000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "CKD discharge pressure",
@@ -527,7 +583,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Single-stage model flow range",
@@ -538,7 +595,8 @@
       },
       "value": 3000,
       "low": 600000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Multistage model flow range",
@@ -549,7 +607,8 @@
       },
       "value": 400,
       "low": 200000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SF flow",
@@ -560,7 +619,8 @@
       },
       "value": 15000,
       "low": 600000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG flow",
@@ -571,7 +631,8 @@
       },
       "value": 5000,
       "low": 300000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "ST flow",
@@ -582,7 +643,8 @@
       },
       "value": 1500,
       "low": 150000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SL flow",
@@ -593,7 +655,8 @@
       },
       "value": 15000,
       "low": 450000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG Back-to-Back flow",
@@ -604,7 +667,8 @@
       },
       "value": 3000,
       "low": 75000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFG Twin flow",
@@ -615,7 +679,8 @@
       },
       "value": 3000,
       "low": 200000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RS flow",
@@ -626,7 +691,8 @@
       },
       "value": 400,
       "low": 65000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "RV flow",
@@ -637,7 +703,8 @@
       },
       "value": 400,
       "low": 85000,
-      "high": "m3/h"
+      "high": "m3/h",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "SFO/SFP/SFN pressure",
@@ -646,7 +713,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Centrifugal-Compressors"
     },
     {
       "metric": "Maximum discharge pressure",
@@ -655,7 +723,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Capacity flow",
@@ -665,7 +734,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
       "low": 10,
-      "high": 20000
+      "high": 20000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Speed range",
@@ -675,7 +745,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
       "low": 1000,
-      "high": 6000
+      "high": 6000,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Compliance",
@@ -683,7 +754,8 @@
       "basis": "\"Fully compliant with API, area protection requirements and site specifications\"",
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "WHIRLYSCRUB I liquid removal efficiency",
@@ -692,7 +764,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
       },
-      "value": 99.99
+      "value": 99.99,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
     },
     {
       "metric": "WHIRLYSCRUB I liquid loading limit",
@@ -701,7 +774,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
     },
     {
       "metric": "WHIRLYSCRUB I gas sidestream",
@@ -710,7 +784,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
     },
     {
       "metric": "WHIRLYSCRUB V removal efficiency",
@@ -719,7 +794,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment"
       },
-      "value": 99.9
+      "value": 99.9,
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment"
     },
     {
       "metric": "WHIRLYSCRUB I publication date",
@@ -727,7 +803,8 @@
       "basis": "SLB product detail page 'Published: 08/02/2016'",
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/porta-test-whirlyscrub-i-inline-separator"
     },
     {
       "metric": "Integrated Production Bundle (IPB) features",
@@ -735,7 +812,8 @@
       "basis": "\"thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers\"",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Technology origin",
@@ -743,7 +821,8 @@
       "basis": "\"We pioneered flexible pipe technology in the early 1970s\"",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Frame rated power (4 throw)",
@@ -752,7 +831,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 6668
+      "value": 6668,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Frame rated power (6 throw)",
@@ -761,7 +841,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Stroke (KBB / KBV)",
@@ -771,7 +852,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
       "low": 7.25,
-      "high": 8.5
+      "high": 8.5,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Max RPM (KBB / KBV)",
@@ -781,7 +863,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
       "low": 750,
-      "high": 900
+      "high": 900,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Piston speed (KBB / KBV)",
@@ -791,7 +874,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
       "low": 1063,
-      "high": 1088
+      "high": 1088,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Rod diameter",
@@ -800,7 +884,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 3.125
+      "value": 3.125,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Total rod load",
@@ -809,7 +894,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 190000
+      "value": 190000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Tension rod load",
@@ -818,7 +904,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 95000
+      "value": 95000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Compression rod load",
@@ -827,7 +914,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 100000
+      "value": 100000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Average weight (4 throw)",
@@ -836,7 +924,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 79000
+      "value": 79000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Average weight (6 throw)",
@@ -845,7 +934,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 115000
+      "value": 115000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Max length (4 throw)",
@@ -854,7 +944,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 144
+      "value": 144,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Max length (6 throw)",
@@ -863,7 +954,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 188
+      "value": 188,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Nominal width",
@@ -872,7 +964,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 228
+      "value": 228,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Crankshaft centerline height",
@@ -881,7 +974,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
       },
-      "value": 27
+      "value": 27,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Crankcase / running gear materials",
@@ -889,7 +983,8 @@
       "basis": "Ariel Materials: 'Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, bronze thrust bearing, tri-metal main bearing'; 'Ductile Iron Crosshead: Alloy steel crosshead pin'; 'Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts'",
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
-      }
+      },
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Lubrication system",
@@ -897,7 +992,8 @@
       "basis": "Ariel: 'A frame-driven lube oil pump provides cooled oil through a full-flow oil filter to all the frame's moving components. A divider-block system also supplies metered oil to cylinder bores and rod packings.'",
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
-      }
+      },
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Destruction efficiency",
@@ -906,7 +1002,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
       },
-      "value": 99.5
+      "value": 99.5,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Smokeless operation",
@@ -915,7 +1012,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Standard",
@@ -923,7 +1021,8 @@
       "basis": "John Zink: 'Available API 537 Compliance: Ensures compliance with the latest Industry flare standards.'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Turndown / flow claim",
@@ -931,7 +1030,8 @@
       "basis": "John Zink: 'highest total smokeless rate of any flare while providing the widest range of smokeless turndown ... industry-leading maximum waste gas flow rates'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-systems/lrgo-multi-point-ground-flare"
     },
     {
       "metric": "Physical medium",
@@ -939,7 +1039,8 @@
       "basis": "FieldComm Group: 'Fieldbus-based control systems employ two-wire twisted pair cable and provide intrinsically safe or non-incendive device power suitable for all hazardous areas.'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "Architecture",
@@ -947,7 +1048,8 @@
       "basis": "FieldComm Group: 'FOUNDATION Fieldbus provides an all-digital communication infrastructure for process automation, with powerful multivariable measurement capabilities, robust device diagnostics'; 'designed from the ground up to enable control-in-the-field (CIF) strategies ... during a host system failure, field instruments can communicate directly'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "Registered products",
@@ -956,7 +1058,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "Specification package contents",
@@ -964,7 +1067,8 @@
       "basis": "FieldComm Group: 'FOUNDATION Fieldbus Technical Specifications ... includes the latest FOUNDATION Fieldbus H1, High Speed Ethernet (HSE) and Physical Layer technical specifications'",
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
-      }
+      },
+      "source_url": "https://www.fieldcommgroup.org/technologies/foundation-fieldbus"
     },
     {
       "metric": "Rated voltage",
@@ -973,7 +1077,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 145
+      "value": 145,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Route length",
@@ -982,7 +1087,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 135
+      "value": 135,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Trenched cable length",
@@ -991,7 +1097,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Buoyancy modules installed",
@@ -1000,7 +1107,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 26
+      "value": 26,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "VIV strakes length",
@@ -1009,7 +1117,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Rock stabilization remaining",
@@ -1018,7 +1127,8 @@
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
       },
-      "value": 28
+      "value": 28,
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "Project / client / status",
@@ -1026,7 +1136,8 @@
       "basis": "Nexans: 'Jansz-Io Compression (J-IC), Gorgon Project, Western Australia; Client: Chevron Australia; Status: offshore installation and trenching completed in October 2026; final soak test February 2027'",
       "source": {
         "url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
-      }
+      },
+      "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
       "metric": "System description",
@@ -1034,7 +1145,8 @@
       "basis": "Oil States: 'Top tension risers (TTR) provide surface access to subsea wells. They consist of sections of riser joints supported at the vessel by individual tensioner systems and connected to the subsea wellhead via an external tieback connector.'",
       "source": {
         "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser"
-      }
+      },
+      "source_url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser"
     },
     {
       "metric": "Connection",
@@ -1042,7 +1154,8 @@
       "basis": "Oil States: 'The riser joints, stress joint and tension joint all incorporate Oil States’ Merlin® connections, providing high-pressure, metal-to-metal sealing, load capacities exceeding those of the pipe and excellent fatigue properties.'",
       "source": {
         "url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser"
-      }
+      },
+      "source_url": "https://oilstates.com/riser-systems-conductor-solutions/production/top-tension-riser"
     },
     {
       "metric": "Flexible pipe construction",
@@ -1050,7 +1163,8 @@
       "basis": "TechnipFMC: 'A flexible pipe is made up of several different layers. The main components are leakproof thermoplastic barriers and corrosion-resistant steel wires. The helically wound steel wires give the structure its high-pressure resistance and excellent bending characteristics'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Design philosophy",
@@ -1058,7 +1172,8 @@
       "basis": "TechnipFMC: 'modular construction where the layers are independent but designed to interact with one another ... each layer can be made fit-for-purpose'; 'flexible pipe can be easily retrieved to be reused on another field development or for decommissioning'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "Product families listed",
@@ -1066,7 +1181,8 @@
       "basis": "Yokogawa page navigation: 'Distributed Control System (DCS)', 'Safety Instrumented System (SIS)', '920 MHz Wireless Data Acquisition', 'Field Wireless'",
       "source": {
         "url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
-      }
+      },
+      "source_url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
     },
     {
       "metric": "KBH - suction pressure",
@@ -1075,7 +1191,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 370
+      "value": 370,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - discharge pressure",
@@ -1084,7 +1201,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 7250
+      "value": 7250,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - flow at design point",
@@ -1093,7 +1211,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - number of stages",
@@ -1102,7 +1221,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - stroke",
@@ -1111,7 +1231,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 4.25
+      "value": 4.25,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - max RPM",
@@ -1120,7 +1241,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - cylinder lubrication",
@@ -1129,7 +1251,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": "Non-lubricated cylinders (designed for high gas purity)"
+      "value": "Non-lubricated cylinders (designed for high gas purity)",
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "KBH - orientation",
@@ -1138,7 +1261,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": "Vertically oriented"
+      "value": "Vertically oriented",
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "HART - installed base",
@@ -1147,7 +1271,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/hart"
       },
-      "value": "Over 40 million field instruments installed worldwide"
+      "value": "Over 40 million field instruments installed worldwide",
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     },
     {
       "metric": "HART - physical layer",
@@ -1156,7 +1281,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/hart"
       },
-      "value": "Digital information over 4-20 mA analog current loops"
+      "value": "Digital information over 4-20 mA analog current loops",
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     },
     {
       "metric": "HART - standard status",
@@ -1165,7 +1291,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/hart"
       },
-      "value": "IEC standard; three major revisions since 1990s release; backward compatible with all prior releases"
+      "value": "IEC standard; three major revisions since 1990s release; backward compatible with all prior releases",
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     },
     {
       "metric": "HART - specification documents",
@@ -1174,7 +1301,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/hart"
       },
-      "value": "17 documents in the HART Communication Protocol Specifications kit"
+      "value": "17 documents in the HART Communication Protocol Specifications kit",
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     },
     {
       "metric": "HART - communication",
@@ -1183,7 +1311,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/hart"
       },
-      "value": "Bi-directional protocol between intelligent field instruments and host systems"
+      "value": "Bi-directional protocol between intelligent field instruments and host systems",
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     },
     {
       "metric": "SIMATIC ET 200SP HA - description",
@@ -1192,7 +1321,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "Compact robust remote I/O designed for high availability"
+      "value": "Compact robust remote I/O designed for high availability",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "SIMATIC PCS 7 - version",
@@ -1201,7 +1331,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "V10.0"
+      "value": "V10.0",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "SIMATIC PCS 7 - cybersecurity compliance",
@@ -1210,7 +1341,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "NIS2-compliant; IEC 62443-4-1 and IEC 62443-3-3 compliance"
+      "value": "NIS2-compliant; IEC 62443-4-1 and IEC 62443-3-3 compliance",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "SIMATIC PCS 7 - MTP integration startup improvement",
@@ -1219,7 +1351,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Diamould wet connectors - application",
@@ -1228,7 +1361,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
       },
-      "value": "Subsea controls, distribution and instrumentation applications"
+      "value": "Subsea controls, distribution and instrumentation applications",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     },
     {
       "metric": "Diamould wet connectors - environment",
@@ -1237,7 +1371,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
       },
-      "value": "Suitable for deepwater and high-pressure, high-temperature wellhead and downhole applications"
+      "value": "Suitable for deepwater and high-pressure, high-temperature wellhead and downhole applications",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     },
     {
       "metric": "Diamould wet connectors - sealing",
@@ -1246,7 +1381,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
       },
-      "value": "Dual-barrier system for mechanical and electrical sealing; unique male pin system gives immediate corrosion protection on de-mating"
+      "value": "Dual-barrier system for mechanical and electrical sealing; unique male pin system gives immediate corrosion protection on de-mating",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     },
     {
       "metric": "Diamould wet connectors - sour/sand resistance",
@@ -1255,7 +1391,8 @@
       "source": {
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
       },
-      "value": "Many dry- and wet-mateable connectors resistant to sour environments and ingress of sand and silt"
+      "value": "Many dry- and wet-mateable connectors resistant to sour environments and ingress of sand and silt",
+      "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-wet-connectors"
     },
     {
       "metric": "FSHR - riser concept",
@@ -1264,7 +1401,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "Deepwater riser solution: vertical steel pipe tensioned by a near-surface buoyancy can"
+      "value": "Deepwater riser solution: vertical steel pipe tensioned by a near-surface buoyancy can",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "FSHR - top connection",
@@ -1273,7 +1411,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "Flexible jumper connects riser top to production platform"
+      "value": "Flexible jumper connects riser top to production platform",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "FSHR - seabed connection",
@@ -1282,7 +1421,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "Attached to seabed via a foundation; rigid base jumper connects FSHR to pipeline end termination"
+      "value": "Attached to seabed via a foundation; rigid base jumper connects FSHR to pipeline end termination",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Flexible pipe - construction",
@@ -1291,7 +1431,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "Leakproof thermoplastic barriers and corrosion-resistant steel wires; helically wound steel wires give high-pressure resistance and bending characteristics"
+      "value": "Leakproof thermoplastic barriers and corrosion-resistant steel wires; helically wound steel wires give high-pressure resistance and bending characteristics",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Rated power JGN 1 throw",
@@ -1300,7 +1441,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 126
+      "value": 126,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Rated power JGQ 1 throw",
@@ -1309,7 +1451,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 140
+      "value": 140,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Rated power JGN 2 throw",
@@ -1318,7 +1461,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 252
+      "value": 252,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Rated power JGQ 2 throw",
@@ -1327,7 +1471,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 280
+      "value": 280,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Rated power JGN 1 throw (kW)",
@@ -1336,7 +1481,8 @@
       "source": {
         "url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/JGNQ_Product_Sheet.pdf.coredownload.pdf"
       },
-      "value": 94
+      "value": 94,
+      "source_url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/JGNQ_Product_Sheet.pdf.coredownload.pdf"
     },
     {
       "metric": "Rated power JGQ 1 throw (kW)",
@@ -1345,7 +1491,8 @@
       "source": {
         "url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/JGNQ_Product_Sheet.pdf.coredownload.pdf"
       },
-      "value": 104
+      "value": 104,
+      "source_url": "https://www.arielcorp.com/content/dam/ariel-corp/documents/product-spec-sheets/JGNQ_Product_Sheet.pdf.coredownload.pdf"
     },
     {
       "metric": "Stroke JGN",
@@ -1354,7 +1501,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 3.5
+      "value": 3.5,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Stroke JGQ",
@@ -1363,7 +1511,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 3.0
+      "value": 3.0,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Max RPM JGN",
@@ -1372,7 +1521,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Max RPM JGQ",
@@ -1381,7 +1531,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Piston speed JGN",
@@ -1390,7 +1541,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 875
+      "value": 875,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Piston speed JGQ",
@@ -1399,7 +1551,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 900
+      "value": 900,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Total rod load JGN",
@@ -1408,7 +1561,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 18000
+      "value": 18000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Total rod load JGQ",
@@ -1417,7 +1571,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Tension load JGN",
@@ -1426,7 +1581,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 9000
+      "value": 9000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Tension load JGQ",
@@ -1435,7 +1591,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Compression load JGN",
@@ -1444,7 +1601,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Compression load JGQ",
@@ -1453,7 +1611,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 11000
+      "value": 11000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Average weight 1 throw",
@@ -1462,7 +1621,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 1400
+      "value": 1400,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Average weight 2 throw",
@@ -1471,7 +1631,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 2200
+      "value": 2200,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Max length 1 throw",
@@ -1480,7 +1641,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 37
+      "value": 37,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Max length 2 throw",
@@ -1489,7 +1651,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 34
+      "value": 34,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Nominal width 1 throw",
@@ -1498,7 +1661,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 62
+      "value": 62,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Nominal width 2 throw",
@@ -1507,7 +1671,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 83
+      "value": 83,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Crankshaft centerline",
@@ -1516,7 +1681,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": 9.25
+      "value": 9.25,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Frame material",
@@ -1525,7 +1691,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing"
+      "value": "Gray Iron Crankcase: Forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Crosshead material",
@@ -1534,7 +1701,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Ductile Iron Crosshead: Alloy steel crosshead pin"
+      "value": "Ductile Iron Crosshead: Alloy steel crosshead pin",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Connecting rod material",
@@ -1543,7 +1711,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
       },
-      "value": "Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts"
+      "value": "Forged Steel Connecting Rod: Bronze crosshead pin bushing, tri-metal connecting rod bearing, grade 8 stress bolts",
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Electrolyzer module design",
@@ -1552,7 +1721,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "5 MW and 10 MW"
+      "value": "5 MW and 10 MW",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Package configuration",
@@ -1561,7 +1731,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Skid-mounted compressors including all process equipment, piping and auxiliary systems in a single package"
+      "value": "Skid-mounted compressors including all process equipment, piping and auxiliary systems in a single package",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Diaphragm compressor pressure",
@@ -1570,7 +1741,8 @@
       "source": {
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
-      "high": 3000
+      "high": 3000,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Diaphragm compressor pressure (psi)",
@@ -1579,7 +1751,8 @@
       "source": {
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
-      "high": 43500
+      "high": 43500,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Diaphragm compressor flow",
@@ -1588,7 +1761,8 @@
       "source": {
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Diaphragm compressor power",
@@ -1597,7 +1771,8 @@
       "source": {
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
-      "high": 1300
+      "high": 1300,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Diaphragm compressor speed",
@@ -1607,7 +1782,8 @@
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
       "low": 200,
-      "high": 750
+      "high": 750,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Noise",
@@ -1616,7 +1792,8 @@
       "source": {
         "url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
       },
-      "high": 85
+      "high": 85,
+      "source_url": "https://files.chartindustries.com/Howden_DiaphragmCompressors_Brochure.pdf"
     },
     {
       "metric": "Gas purity",
@@ -1625,7 +1802,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
       },
-      "value": "Absolute cleanliness of compressed hydrogen; Zero leakage of process gas to the environment"
+      "value": "Absolute cleanliness of compressed hydrogen; Zero leakage of process gas to the environment",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Network elements",
@@ -1634,7 +1812,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": "Wireless field devices; Gateways; Network Manager"
+      "value": "Wireless field devices; Gateways; Network Manager",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Messaging modes",
@@ -1643,7 +1822,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": "one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers of large data sets"
+      "value": "one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers of large data sets",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Installation cost saving",
@@ -1653,7 +1833,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
       "low": 30,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "HART specification kit",
@@ -1662,7 +1843,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": 17
+      "value": 17,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Security",
@@ -1671,7 +1853,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": "robust security measures ... latest security techniques"
+      "value": "robust security measures ... latest security techniques",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Product description",
@@ -1680,7 +1863,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
       },
-      "value": "Integrated Production Bundle (IPB) — flexible production riser featuring thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid t"
+      "value": "Integrated Production Bundle (IPB) — flexible production riser featuring thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid t",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes/"
     },
     {
       "metric": "Product type",
@@ -1689,7 +1873,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
       },
-      "value": "Distributed Control System & Process Automation"
+      "value": "Distributed Control System & Process Automation",
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "Solution suites",
@@ -1698,7 +1883,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
       },
-      "value": "Experion Solution Suites"
+      "value": "Experion Solution Suites",
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "Services",
@@ -1707,7 +1893,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
       },
-      "value": "Cybersecurity Services; Industrial Services; Training"
+      "value": "Cybersecurity Services; Industrial Services; Training",
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "Industries",
@@ -1716,7 +1903,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks"
       },
-      "value": "Oil and Gas; Refining and Petrochemicals; Onshore Production; Offshore Production; Gas Processing; LNG; Power; Water & Wastewater"
+      "value": "Oil and Gas; Refining and Petrochemicals; Onshore Production; Offshore Production; Gas Processing; LNG; Power; Water & Wastewater",
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "Version",
@@ -1725,7 +1913,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "V10.0"
+      "value": "V10.0",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "MTP startup improvement",
@@ -1734,7 +1923,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Cybersecurity compliance",
@@ -1743,7 +1933,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance"
+      "value": "NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "GMP features",
@@ -1752,7 +1943,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "GMP-ready audit trails and eSignatures"
+      "value": "GMP-ready audit trails and eSignatures",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "I/O design",
@@ -1761,7 +1953,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "flexible I/O design; SIMATIC ET 200SP HA compact robust remote I/O"
+      "value": "flexible I/O design; SIMATIC ET 200SP HA compact robust remote I/O",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Service",
@@ -1770,7 +1963,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "fast service via system ID"
+      "value": "fast service via system ID",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Supplementary features",
@@ -1779,7 +1973,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "TeleControl and Advanced Process Graphics"
+      "value": "TeleControl and Advanced Process Graphics",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Installed base",
@@ -1788,7 +1983,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "in use in thousands of installations worldwide"
+      "value": "in use in thousands of installations worldwide",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Digital assistants",
@@ -1797,7 +1993,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "SIMATIC eaSie voice/chatbot; Concept & Design Tool for cost estimation and BOMs"
+      "value": "SIMATIC eaSie voice/chatbot; Concept & Design Tool for cost estimation and BOMs",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Product name",
@@ -1806,7 +2003,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
       },
-      "value": "EPCON Dual Compact Flotation Unit"
+      "value": "EPCON Dual Compact Flotation Unit",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "Technology category",
@@ -1815,7 +2013,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
       },
-      "value": "Compacted flotation for produced water treatment"
+      "value": "Compacted flotation for produced water treatment",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "Reference",
@@ -1824,7 +2023,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
       },
-      "value": "EPCON CFU Compact Flotation Unit Technology Achieves Successful Oil-in-Water Separation, Oman"
+      "value": "EPCON CFU Compact Flotation Unit Technology Achieves Successful Oil-in-Water Separation, Oman",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "Related technologies",
@@ -1833,7 +2033,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
       },
-      "value": "VORTOILdeoiling hydrocyclone; WEMCO DEPURATOR Unit; WEMCO ISF Hydraulically Induced Gas Flotation System; WEMCO PACESETTER Separator; WEMCO SILVER BAND Separator; MOZLEY Desanding Hydrocyclone Separat"
+      "value": "VORTOILdeoiling hydrocyclone; WEMCO DEPURATOR Unit; WEMCO ISF Hydraulically Induced Gas Flotation System; WEMCO PACESETTER Separator; WEMCO SILVER BAND Separator; MOZLEY Desanding Hydrocyclone Separat",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "Value proposition",
@@ -1842,7 +2043,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
       },
-      "value": "separate and treat oil, water, and gas using minimal chemicals and energy"
+      "value": "separate and treat oil, water, and gas using minimal chemicals and energy",
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation"
     },
     {
       "metric": "Global FPV application",
@@ -1851,7 +2053,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": ">4"
+      "value": ">4",
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Patents",
@@ -1860,7 +2063,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 290
+      "value": 290,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Global market share",
@@ -1869,7 +2073,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": "NO.1"
+      "value": "NO.1",
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference capacity - Indonesia",
@@ -1878,7 +2083,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 192
+      "value": 192,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference capacity - Anhui coal mines",
@@ -1887,7 +2093,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference capacity - Philippines",
@@ -1896,7 +2103,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 4.99
+      "value": 4.99,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference capacity - France",
@@ -1905,7 +2113,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Products",
@@ -1914,7 +2123,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": "Truss Structure Product TS30M; Pontoon Product PT60; Floating Barge"
+      "value": "Truss Structure Product TS30M; Pontoon Product PT60; Floating Barge",
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Service network",
@@ -1923,7 +2133,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": "400+ Authorized Distributors; 520+ Service Outlets; 1000+ Technical Experts; 110,000 m2 warehouse total area"
+      "value": "400+ Authorized Distributors; 520+ Service Outlets; 1000+ Technical Experts; 110,000 m2 warehouse total area",
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Deep-water claim",
@@ -1932,7 +2143,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": "Breaking the 100-Meter Barrier: Floating Solar in Ultra Deep Water"
+      "value": "Breaking the 100-Meter Barrier: Floating Solar in Ultra Deep Water",
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     }
   ],
   "vendors": [

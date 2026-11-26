@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. Standards family, not a single purchasable SKU; registry: https://www.fieldcommgroup.org/registered-products?category=WIRELESS",
+  "description": "Vendor product line read 2026-11-24. Standards family, not a single purchasable SKU; registry: https://www.fieldcommgroup.org/registered-products?category=WIRELESS Primary source: https://www.fieldcommgroup.org/technologies/wirelesshart",
   "specifications": [
     {
       "metric": "RF physical layer",
@@ -16,7 +16,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "2.4 GHz DSSS O-QPSK (IEEE 802.15.4-2006)"
+      "value": "2.4 GHz DSSS O-QPSK (IEEE 802.15.4-2006)",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "MAC",
@@ -26,7 +27,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",
         "source_id": "cat-fieldcommgroup-org-wirelesshart"
       },
-      "value": "TDMA data-link layer"
+      "value": "TDMA data-link layer",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Network elements",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": "Wireless field devices; Gateways; Network Manager"
+      "value": "Wireless field devices; Gateways; Network Manager",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Messaging modes",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": "one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers of large data sets"
+      "value": "one-way publishing of process and control values, spontaneous notification by exception, ad-hoc request/response, and auto-segmented block transfers of large data sets",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Installation cost saving",
@@ -54,7 +58,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
       "low": 30,
-      "high": 60
+      "high": 60,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "HART specification kit",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": 17
+      "value": 17,
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     },
     {
       "metric": "Security",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
       },
-      "value": "robust security measures ... latest security techniques"
+      "value": "robust security measures ... latest security techniques",
+      "source_url": "https://www.fieldcommgroup.org/technologies/wirelesshart"
     }
   ],
   "url": "https://www.fieldcommgroup.org/technologies/wirelesshart",

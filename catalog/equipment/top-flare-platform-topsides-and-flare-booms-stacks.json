@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "Vent and flare structures discharge and burn gaseous products; placed outside hazardous areas and away from the helideck, with tip elevation above the helideck and heat radiation checked.",
+  "description": "Vent and flare structures discharge and burn gaseous products; placed outside hazardous areas and away from the helideck, with tip elevation above the helideck and heat radiation checked. Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
   "specifications": [
     {
       "metric": "flare tip elevation above helideck",
@@ -19,7 +19,8 @@
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm",
         "source_id": "fgg-web-fgg-uni-lj-si-wg15a-l1000-htm"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l1000.htm"
     }
   ],
   "vendors": [

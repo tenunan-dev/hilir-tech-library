@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Secure mooring lines at jetties/berths/dolphins, release safely under load, and monitor line tension to warn of surging or overload.",
+  "description": "Secure mooring lines at jetties/berths/dolphins, release safely under load, and monitor line tension to warn of surging or overload. Primary source: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/docking-and-mooring/quick-release-hooks",
   "specifications": [
     {
       "metric": "Trelleborg QRH installed base and service dates",
@@ -19,7 +19,8 @@
         "url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/docking-and-mooring/quick-release-hooks",
         "source_id": "trelleborg-com-docking-and-mooring-quick-release-hooks"
       },
-      "value": "since 1972; over 600 mooring facilities worldwide; SmartMoor over 100 FPSO facilities (hawser hooks)"
+      "value": "since 1972; over 600 mooring facilities worldwide; SmartMoor over 100 FPSO facilities (hawser hooks)",
+      "source_url": "https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/docking-and-mooring/quick-release-hooks"
     },
     {
       "metric": "LMT2 T-head bollard rated mooring capacity",
@@ -29,7 +30,8 @@
         "url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
         "source_id": "shibata-fender-team-news-detail-optimizing-the-fender-design-for-l"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html"
     }
   ],
   "vendors": [

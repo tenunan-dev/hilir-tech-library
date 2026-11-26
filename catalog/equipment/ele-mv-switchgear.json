@@ -6,7 +6,7 @@
   "sector_codes": [
     "ELE"
   ],
-  "description": "11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271-200/60298.",
+  "description": "11 kV and 33 kV metal-clad or gas-insulated switchgear and compact ring main units used at TNB intake points and site substations, built to IEC 62271-200/60298. Primary source: https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf",
   "subtypes": [
     {
       "name": "Ring main unit (RMU) with load-break switches and fuse or T-off"
@@ -36,7 +36,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf",
         "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf"
     },
     {
       "metric": "busbar continuous current, Siemens 8DJH",
@@ -47,7 +48,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf",
         "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf"
     },
     {
       "metric": "internal arc classification, Siemens 8DJH at 12 kV",
@@ -58,7 +60,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf",
         "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf"
     },
     {
       "metric": "partition and continuity class, Siemens 8DJH",
@@ -68,7 +71,8 @@
       "source": {
         "url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf",
         "note": "Siemens 8DJH 24 kV datasheet, read from PDF 2026-11-13"
-      }
+      },
+      "source_url": "https://assets.new.siemens.com/siemens/assets/api/uuid:e1e756153114c40070718eaa6e4a4cacd5c7978e/8djh-24kv-en.pdf"
     },
     {
       "metric": "busbar current, ABB SafeRing/SafePlus",
@@ -79,7 +83,8 @@
       "source": {
         "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated/safering-safeplus",
         "note": "ABB SafeRing/SafePlus product scope table, read in browser 2026-11-13"
-      }
+      },
+      "source_url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated/safering-safeplus"
     },
     {
       "metric": "rated voltage and short-time withstand, ABB SafeRing/SafePlus",
@@ -90,7 +95,8 @@
       "source": {
         "url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated/safering-safeplus",
         "note": "ABB SafeRing/SafePlus product scope and SF6 enclosure description, read in browser 2026-11-13"
-      }
+      },
+      "source_url": "https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated/safering-safeplus"
     },
     {
       "metric": "rated voltage, Eaton Xiria 630",
@@ -101,7 +107,8 @@
       "source": {
         "url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html",
         "note": "Eaton Xiria 630 Technical information table, read in browser 2026-11-13"
-      }
+      },
+      "source_url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html"
     },
     {
       "metric": "busbar current and peak withstand, Eaton Xiria 630",
@@ -112,7 +119,8 @@
       "source": {
         "url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html",
         "note": "Eaton Xiria 630 busbar and circuit-breaker tables, read in browser 2026-11-13"
-      }
+      },
+      "source_url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html"
     },
     {
       "metric": "internal arc classification, Eaton Xiria 630",
@@ -123,7 +131,8 @@
       "source": {
         "url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html",
         "note": "Eaton Xiria 630 general table and SF6-free description, read in browser 2026-11-13"
-      }
+      },
+      "source_url": "https://www.eaton.com/gb/en-gb/catalog/medium-voltage-power-distribution-control-systems/xiria.html"
     },
     {
       "metric": "rated voltage, Schneider RM6",
@@ -134,7 +143,8 @@
       "source": {
         "url": "https://www.se.com/my/en/product-range/967-rm6/",
         "note": "Schneider Electric Malaysia RM6 product range page (Facts about RM6), read in browser 2026-11-13"
-      }
+      },
+      "source_url": "https://www.se.com/my/en/product-range/967-rm6/"
     },
     {
       "metric": "busbar and switching currents, Schneider RM6",
@@ -145,7 +155,8 @@
       "source": {
         "url": "https://www.se.com/my/en/product-range/967-rm6/",
         "note": "Schneider RM6 facts, read in browser 2026-11-13"
-      }
+      },
+      "source_url": "https://www.se.com/my/en/product-range/967-rm6/"
     },
     {
       "metric": "short-circuit and arc ratings, Schneider RM6",
@@ -156,7 +167,8 @@
       "source": {
         "url": "https://www.se.com/my/en/product-range/967-rm6/",
         "note": "Schneider RM6 facts, read in browser 2026-11-13"
-      }
+      },
+      "source_url": "https://www.se.com/my/en/product-range/967-rm6/"
     },
     {
       "metric": "indicative cost, 12-24 kV SF6 RMU, unit",
@@ -168,7 +180,8 @@
       "source": {
         "url": "https://www.alibaba.com/",
         "note": "B2B supplier listings, searched 2026-11-13"
-      }
+      },
+      "source_url": "https://www.alibaba.com/"
     },
     {
       "metric": "TNB 11 kV motorised RMU supply contract value (benchmark, not unit price)",
@@ -179,7 +192,8 @@
       "source": {
         "url": "https://www.bursamalaysia.com/",
         "note": "Bursa Malaysia announcement GA1-31122025-00042 (Pekat Group/EPE Switchgear), cross-reported by NST/Business Today, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.bursamalaysia.com/"
     }
   ],
   "vendor_models": [

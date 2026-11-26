@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
   "specifications": [
     {
       "metric": "inlet mercury",
@@ -16,7 +16,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
       },
-      "value": "1-10 ug/Nm3 (0.1-10 ppbv)"
+      "value": "1-10 ug/Nm3 (0.1-10 ppbv)",
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal"
     },
     {
       "metric": "design outlet",
@@ -26,7 +27,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-mercury-removal"
       },
-      "value": "0.001 ug/Nm3"
+      "value": "0.001 ug/Nm3",
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal"
     },
     {
       "metric": "Typical inlet mercury concentration",
@@ -37,7 +39,8 @@
         "source_id": "catpar-fiorentini-iberia-com-be8bb5b"
       },
       "low": 1,
-      "high": 10
+      "high": 10,
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     },
     {
       "metric": "Designed outlet mercury concentration",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
       },
-      "value": 0.001
+      "value": 0.001,
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     },
     {
       "metric": "Trapping chemistry",
@@ -54,7 +58,8 @@
       "basis": "\"uses a sulfur based trapping material which reacts with the element to form cinnabar (HgS) on the bed\"",
       "source": {
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
-      }
+      },
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     },
     {
       "metric": "Trapping material carriers",
@@ -62,7 +67,8 @@
       "basis": "\"The trapping material is carried on activated carbon, zeolite or alumina\"",
       "source": {
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
-      }
+      },
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     },
     {
       "metric": "Downstream equipment protected",
@@ -70,7 +76,8 @@
       "basis": "\"Mercury can attack aluminum in downstream brazed aluminium plate fin heat exchangers used in most modern cryogenic hydrocarbon recovery plants or liquefaction plants\"",
       "source": {
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
-      }
+      },
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal/"
     }
   ],
   "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",

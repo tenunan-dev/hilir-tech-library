@@ -6,7 +6,7 @@
   "equipment": [
     "geg-black-start-diesel-generator"
   ],
-  "description": "diesel generator set (standby / prime / DCC rated)",
+  "description": "diesel generator set (standby / prime / DCC rated) Primary source: https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
   "specifications": [
     {
       "metric": "Standby rating, smallest listed model C17D5",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
         "source_id": "geg-cummins-com-diesel-gen-set-rating-cards-inte-116ade9"
-      }
+      },
+      "source_url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Standby rating, model C3000D5",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
         "source_id": "geg-cummins-com-diesel-gen-set-rating-cards-inte-116ade9"
-      }
+      },
+      "source_url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Highest standby rating in card",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
         "source_id": "geg-cummins-com-diesel-gen-set-rating-cards-inte-116ade9"
-      }
+      },
+      "source_url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating note",
@@ -49,7 +52,8 @@
       "source": {
         "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
         "source_id": "geg-cummins-com-diesel-gen-set-rating-cards-inte-116ade9"
-      }
+      },
+      "source_url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Model count on 50 Hz international rating card",
@@ -59,7 +63,8 @@
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",
         "source_id": "catpar-r-jina-ai-diesel-gen-set-rating-cards-intern-abb7faf"
       },
-      "value": 92
+      "value": 92,
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Overall model rating span",
@@ -68,7 +73,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C17D5 16.5 kVA standby ... C3750D5 3750 kVA standby"
+      "value": "C17D5 16.5 kVA standby ... C3750D5 3750 kVA standby",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C17D5",
@@ -77,7 +83,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C17D5 16.5 13 15 12 X2.5-G2 S0L1-P1 PS0600 Yes"
+      "value": "C17D5 16.5 13 15 12 X2.5-G2 S0L1-P1 PS0600 Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C22D5",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C22D5 18 17 20 16 X2.5-G2 S0L2-G1 PS0600 Yes"
+      "value": "C22D5 18 17 20 16 X2.5-G2 S0L2-G1 PS0600 Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C28D5",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C28D5 27.5 22 25 20 X2.5-G2 S0L2-M1 PS0600 Yes"
+      "value": "C28D5 27.5 22 25 20 X2.5-G2 S0L2-M1 PS0600 Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C33D5",
@@ -104,7 +113,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C33D5 33 26 30 24 X3.3-G1 S0L2-P1 PS0600 Yes"
+      "value": "C33D5 33 26 30 24 X3.3-G1 S0L2-P1 PS0600 Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C38D5",
@@ -113,7 +123,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C38D5 38 30 35 28 X3.3-G1 S1L2J1 PS0600 Yes"
+      "value": "C38D5 38 30 35 28 X3.3-G1 S1L2J1 PS0600 Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C44D5L",
@@ -122,7 +133,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C44D5L 44 35 40 32 4BTAA3.3-G14 UCI224C PS0600 UR Yes"
+      "value": "C44D5L 44 35 40 32 4BTAA3.3-G14 UCI224C PS0600 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C44D5I",
@@ -131,7 +143,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C44D5I 44 35 40 32 4BTAA3.3-G13 UCI224C PS0600 UR No"
+      "value": "C44D5I 44 35 40 32 4BTAA3.3-G13 UCI224C PS0600 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C44D5E",
@@ -140,7 +153,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C44D5E 44 35 40 32 B3.3-G14 UCI224C PS0600 EU Stage IIIA Yes"
+      "value": "C44D5E 44 35 40 32 B3.3-G14 UCI224C PS0600 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C55D5L",
@@ -149,7 +163,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C55D5L 55 44 50 40 4BTAA3.3-G13 UCI224C PS0600 UR Yes"
+      "value": "C55D5L 55 44 50 40 4BTAA3.3-G13 UCI224C PS0600 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C55D5I",
@@ -158,7 +173,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C55D5I 55 44 50 40 4BTAA3.3-G13 PS0600 UR"
+      "value": "C55D5I 55 44 50 40 4BTAA3.3-G13 PS0600 UR",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C55D5E",
@@ -167,7 +183,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C55D5E 55 44 50 40 B3.3-G14 UCI224 D PS0600 EU Stage IIIA Yes"
+      "value": "C55D5E 55 44 50 40 B3.3-G14 UCI224 D PS0600 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C66D5L",
@@ -176,7 +193,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C66D5L 66 53 60 48 4BTAA3.3-G13 UCI224F PS0600 UR Yes"
+      "value": "C66D5L 66 53 60 48 4BTAA3.3-G13 UCI224F PS0600 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C66D5I",
@@ -185,7 +203,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C66D5I 66 53 60 48 4BTAA3.3-G13 UR"
+      "value": "C66D5I 66 53 60 48 4BTAA3.3-G13 UR",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C66D5E",
@@ -194,7 +213,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C66D5E 66 53 60 48 B3.3-G14 UCI224F PS0600 Yes"
+      "value": "C66D5E 66 53 60 48 B3.3-G14 UCI224F PS0600 Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C90D5",
@@ -203,7 +223,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C90D5 90 72 82 65 6BTA5.9-G5 UCI224G PC 1.2 UR Yes"
+      "value": "C90D5 90 72 82 65 6BTA5.9-G5 UCI224G PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C90D5I",
@@ -212,7 +233,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C90D5I 90 72 82 65 6BTA5.9-G5 UR"
+      "value": "C90D5I 90 72 82 65 6BTA5.9-G5 UR",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C110D5",
@@ -221,7 +243,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C110D5 110 88 100 80 6BTA5.9-G5 UCI274C PC 1.2 UR Yes"
+      "value": "C110D5 110 88 100 80 6BTA5.9-G5 UCI274C PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C110D5I",
@@ -230,7 +253,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C110D5I 110 88 100 80 6BTA5.9-G5 UR"
+      "value": "C110D5I 110 88 100 80 6BTA5.9-G5 UR",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C150D5",
@@ -239,7 +263,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C150D5 150 120 136 109 6BTAA5.9-G6 UCI274E PC 1.2 UR Yes"
+      "value": "C150D5 150 120 136 109 6BTAA5.9-G6 UCI274E PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C150D5I",
@@ -248,7 +273,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C150D5I 150 120 136 109 6BTAA5.9-G6 UR"
+      "value": "C150D5I 150 120 136 109 6BTAA5.9-G6 UR",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C170D5",
@@ -257,7 +283,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C170D5 170 136 155 124 6BTAA5.9-G7 UCI274F PC 1.2 UR Yes"
+      "value": "C170D5 170 136 155 124 6BTAA5.9-G7 UCI274F PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C170D5I",
@@ -266,7 +293,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C170D5I 170 136 155 124 6BTAA5.9-G7 UR"
+      "value": "C170D5I 170 136 155 124 6BTAA5.9-G7 UR",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C175D5E",
@@ -275,7 +303,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C175D5E 175 140 160 128 QSB7-G5 UCI274F PC 1.2 EU Stage IIIA Yes"
+      "value": "C175D5E 175 140 160 128 QSB7-G5 UCI274F PC 1.2 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C175D5I",
@@ -284,7 +313,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C175D5I 175 140 160 128 QSB7-G18 UR Yes"
+      "value": "C175D5I 175 140 160 128 QSB7-G18 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C200D5E",
@@ -293,7 +323,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C200D5E 200 160 182 146 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes"
+      "value": "C200D5E 200 160 182 146 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C200D5I",
@@ -302,7 +333,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C200D5I 200 160 182 146 QSB7-G18 UR Yes"
+      "value": "C200D5I 200 160 182 146 QSB7-G18 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C220D5",
@@ -311,7 +343,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C220D5 220 176 200 160 6CTAA8.3-G7 UCI274H PC 1.2 UR Yes"
+      "value": "C220D5 220 176 200 160 6CTAA8.3-G7 UCI274H PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C220D5E",
@@ -320,7 +353,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C220D5E 220 176 200 160 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes"
+      "value": "C220D5E 220 176 200 160 QSB7-G5 UCI274H PC 1.2 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C220D5I",
@@ -329,7 +363,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C220D5I 220 176 200 160 QSB7-G18 UR Yes"
+      "value": "C220D5I 220 176 200 160 QSB7-G18 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C250D5",
@@ -338,7 +373,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C250D5 250 200 227 182 6CTAA8.3-G9 UCDI274J PC 1.2 UR Yes"
+      "value": "C250D5 250 200 227 182 6CTAA8.3-G9 UCDI274J PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C250D5E",
@@ -347,7 +383,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C250D5E 250 200 230 184 QSL9-G7 UCDI274K PC 1.2 EU Stage IIIA Yes"
+      "value": "C250D5E 250 200 230 184 QSL9-G7 UCDI274K PC 1.2 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C250D5I",
@@ -356,7 +393,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C250D5I 250 200 227 182 QSB7-G19 UR Yes"
+      "value": "C250D5I 250 200 227 182 QSB7-G19 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C275D5",
@@ -365,7 +403,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C275D5 275 220 250 200 QSL9-G5 UCDI274K PC 1.2 UR Yes"
+      "value": "C275D5 275 220 250 200 QSL9-G5 UCDI274K PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C275D5E",
@@ -374,7 +413,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C275D5E 275 220 250 200 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes"
+      "value": "C275D5E 275 220 250 200 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C275D5B",
@@ -383,7 +423,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C275D5B 275 220 250 200 6LTAA9.5-G3 UCDI274K PC 1.2 UR Yes"
+      "value": "C275D5B 275 220 250 200 6LTAA9.5-G3 UCDI274K PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C275D5I",
@@ -392,7 +433,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C275D5I 275 220 250 200 6LTAA8.9-G4 UR"
+      "value": "C275D5I 275 220 250 200 6LTAA8.9-G4 UR",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C300D5B",
@@ -401,7 +443,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C300D5B 300 240 275 220 6LTAA9.5-G3 HC4D PC 1.2 UR Yes"
+      "value": "C300D5B 300 240 275 220 6LTAA9.5-G3 HC4D PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C300D5",
@@ -410,7 +453,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C300D5 300 240 275 220 QSL9-G5 HC4D PC 1.2 UR Yes"
+      "value": "C300D5 300 240 275 220 QSL9-G5 HC4D PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C300D5E",
@@ -419,7 +463,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C300D5E 300 240 275 220 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes"
+      "value": "C300D5E 300 240 275 220 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C300D5I",
@@ -428,7 +473,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C300D5I 300 240 270 216 QSL9-G5 UR"
+      "value": "C300D5I 300 240 270 216 QSL9-G5 UR",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C330D5",
@@ -437,7 +483,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C330D5 330 264 300 240 QSL9-G5 HC4D PC 1.2 UR Yes"
+      "value": "C330D5 330 264 300 240 QSL9-G5 HC4D PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C330D5E",
@@ -446,7 +493,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C330D5E 330 264 300 240 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes"
+      "value": "C330D5E 330 264 300 240 QSL9-G7 HC4D PC 1.2 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C330D5B",
@@ -455,7 +503,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C330D5B 330 264 300 240 6LTAA9.5-G1 HC4D PC 1.2 UR Yes"
+      "value": "C330D5B 330 264 300 240 6LTAA9.5-G1 HC4D PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C330D5I",
@@ -464,7 +513,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C330D5I 330 264 300 240 QSL9-G5 HC4E PS0602 UR"
+      "value": "C330D5I 330 264 300 240 QSL9-G5 HC4E PS0602 UR",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C350D5B",
@@ -473,7 +523,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C350D5B 350 280 320 256 6LTAA9.5-G1 HC4S PC 1.2 UR Yes"
+      "value": "C350D5B 350 280 320 256 6LTAA9.5-G1 HC4S PC 1.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C400D5",
@@ -482,7 +533,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C400D5 400 320 360 288 QSG12-G1 HC4F PC 2.2 UR Yes"
+      "value": "C400D5 400 320 360 288 QSG12-G1 HC4F PC 2.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C400D5EB",
@@ -491,7 +543,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C400D5EB 400 320 360 288 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes"
+      "value": "C400D5EB 400 320 360 288 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C450D5",
@@ -500,7 +553,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C450D5 450 360 409 327 QSG12-G1 HC5C PC 2.2 UR Yes"
+      "value": "C450D5 450 360 409 327 QSG12-G1 HC5C PC 2.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C450D5EB",
@@ -509,7 +563,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C450D5EB 450 360 409 327 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes"
+      "value": "C450D5EB 450 360 409 327 QSZ13-G7 HC5C PC 2.2 EU Stage IIIA Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C500D5E",
@@ -518,7 +573,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C500D5E 500 400 455 364 455 364 QSX15-G8 HC5C PC 2.2 UR Yes"
+      "value": "C500D5E 500 400 455 364 455 364 QSX15-G8 HC5C PC 2.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C500D5",
@@ -527,7 +583,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C500D5 500 400 455 364 QSZ13-G5 S5L1D-D41 PC 2.2 EU Stage II Yes"
+      "value": "C500D5 500 400 455 364 QSZ13-G5 S5L1D-D41 PC 2.2 EU Stage II Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C550D5E",
@@ -536,7 +593,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C550D5E 550 440 500 400 500 400 QSX15-G8 HC5D PC 2.2 UR Yes"
+      "value": "C550D5E 550 440 500 400 500 400 QSX15-G8 HC5D PC 2.2 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C550D5",
@@ -545,7 +603,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C550D5 550 440 500 400 QSZ13-G10 S5L1D-D41 PC 2.2 Yes"
+      "value": "C550D5 550 440 500 400 QSZ13-G10 S5L1D-D41 PC 2.2 Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C640D5",
@@ -554,7 +613,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C640D5 640 512 582 466 KTA19-G6 HC5E PC 1.1 UR No"
+      "value": "C640D5 640 512 582 466 KTA19-G6 HC5E PC 1.1 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C700D5",
@@ -563,7 +623,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C700D5 706 565 640 512 640 512 VTA28-G5 HC5F PC 3.3 UR No"
+      "value": "C700D5 706 565 640 512 640 512 VTA28-G5 HC5F PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C825D5",
@@ -572,7 +633,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C825D5 825 660 750 600 750 600 QSK23-G3 S6L1C4 PC 3.3 UR Yes"
+      "value": "C825D5 825 660 750 600 750 600 QSK23-G3 S6L1C4 PC 3.3 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C825D5E",
@@ -581,7 +643,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C825D5E 825 660 750 600 750 600 QSK23-G9 S6L1C4 PC 3.3 EPA Tier 2 Yes"
+      "value": "C825D5E 825 660 750 600 750 600 QSK23-G9 S6L1C4 PC 3.3 EPA Tier 2 Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C825D5A",
@@ -590,7 +653,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C825D5A 825 660 750 600 750 600 VTA28-G6 S6L1C4 PC 3.3 UR No"
+      "value": "C825D5A 825 660 750 600 750 600 VTA28-G6 S6L1C4 PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C900D5",
@@ -599,7 +663,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C900D5 900 720 820 656 820 656 QSK23-G3 S6L1D4 PC 3.3 UR Yes"
+      "value": "C900D5 900 720 820 656 820 656 QSK23-G3 S6L1D4 PC 3.3 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C900D5E",
@@ -608,7 +673,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C900D5E 900 720 820 656 820 656 QSK23-G9 S6L1D4 PC 3.3 EPA Tier 2 Yes"
+      "value": "C900D5E 900 720 820 656 820 656 QSK23-G9 S6L1D4 PC 3.3 EPA Tier 2 Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1000D5B",
@@ -617,7 +683,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1000D5B 1000 800 900 720 900 720 KTA38-G14 S6L1DE4 PC 3.3 UR Yes"
+      "value": "C1000D5B 1000 800 900 720 900 720 KTA38-G14 S6L1DE4 PC 3.3 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1000D5",
@@ -626,7 +693,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1000D5 1041 833 939 751 939 751 QST30-G3 S6LIDD4** PC 3.3 UR No"
+      "value": "C1000D5 1041 833 939 751 939 751 QST30-G3 S6LIDD4** PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1100D5",
@@ -635,7 +703,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1100D5 1110 888 1000 800 1000 800 QST30-G4 S6LIDD4 PC 3.3 UR No"
+      "value": "C1100D5 1110 888 1000 800 1000 800 QST30-G4 S6LIDD4 PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1100D5B",
@@ -644,7 +713,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1100D5B 1132 906 1029 823 1029 823 KTA38-G14 S6L1DF4 PC 3.3 UR Yes"
+      "value": "C1100D5B 1132 906 1029 823 1029 823 KTA38-G14 S6L1DF4 PC 3.3 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1250D5A",
@@ -653,7 +723,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1250D5A 1250 1000 1125 900 KTA38-G9 PI734A PC 3.3 UR No"
+      "value": "C1250D5A 1250 1000 1125 900 KTA38-G9 PI734A PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1250D5AB",
@@ -662,7 +733,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1250D5AB 1250 1000 1125 900 KTA38-G9 S6L1DG41 PC 3.3 UR Yes"
+      "value": "C1250D5AB 1250 1000 1125 900 KTA38-G9 S6L1DG41 PC 3.3 UR Yes",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1400D5",
@@ -671,7 +743,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1400D5 1400 1120 1250 1000 1250 1000 KTA50-G3 PI734B PC 3.3 UR No"
+      "value": "C1400D5 1400 1120 1250 1000 1250 1000 KTA50-G3 PI734B PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - DQGAN",
@@ -680,7 +753,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "DQGAN 1400 1120 1275 1020 1275 1020 QSK50-G4 PI734B PC 3.3 UR No"
+      "value": "DQGAN 1400 1120 1275 1020 1275 1020 QSK50-G4 PI734B PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1675D5A",
@@ -689,7 +763,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1675D5A 1675 1340 1500 1200 1500 1200 KTA50-GS8 PI734D PC 3.3 UR No"
+      "value": "C1675D5A 1675 1340 1500 1200 1500 1200 KTA50-GS8 PI734D PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - DQGAG",
@@ -698,7 +773,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "DQGAG 1700 1269 1540 1232 1540 1232 QSK50-G4 PI734D PC 3.3 UR No"
+      "value": "DQGAG 1700 1269 1540 1232 1540 1232 QSK50-G4 PI734D PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1760D5E",
@@ -707,7 +783,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1760D5E 1760 1408 1600 1280 1600 1280 QSK60-GS3 PI734D PC 3.3 UR No"
+      "value": "C1760D5E 1760 1408 1600 1280 1600 1280 QSK60-GS3 PI734D PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1760D5",
@@ -716,7 +793,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1760D5 1760 1408 1600 1280 1600 1280 KTA50-G23 S7L1D-E4 PC 3.3 UR No"
+      "value": "C1760D5 1760 1408 1600 1280 1600 1280 KTA50-G23 S7L1D-E4 PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - DQGAM",
@@ -725,7 +803,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "DQGAM 1825 1460 1650 1320 1650 1320 QSK50-G7 PI734F PC 3.3 EPA Tier 2 No"
+      "value": "DQGAM 1825 1460 1650 1320 1650 1320 QSK50-G7 PI734F PC 3.3 EPA Tier 2 No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1875D5",
@@ -734,7 +813,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1875D5 1875 1500 1700 1360 1700 1360 KTA50-G23 S7L1D-F4 PC 3.3 UR No"
+      "value": "C1875D5 1875 1500 1700 1360 1700 1360 KTA50-G23 S7L1D-F4 PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C1875D5E",
@@ -743,7 +823,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C1875D5E 1875 1500 1700 1360 QSK50-G15 S7L1D-F4 EPA Tier 2"
+      "value": "C1875D5E 1875 1500 1700 1360 QSK50-G15 S7L1D-F4 EPA Tier 2",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C2000D5B",
@@ -752,7 +833,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C2000D5B 2000 1600 1800 1440 1800 1440 KTA50-G23 S7L1D-G4 PC 3.3 UR No"
+      "value": "C2000D5B 2000 1600 1800 1440 1800 1440 KTA50-G23 S7L1D-G4 PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C2000D5E",
@@ -761,7 +843,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C2000D5E 2000 1600 1825 1460 1825 1460 QSK60-GS3 PI734F PC 3.3 UR No"
+      "value": "C2000D5E 2000 1600 1825 1460 1825 1460 QSK60-GS3 PI734F PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - DQKAH",
@@ -770,7 +853,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "DQKAH 2000 1650 1825 1460 1825 1460 QSK60-G11 PI734F PC 3.3 EPA Tier 2 No"
+      "value": "DQKAH 2000 1650 1825 1460 1825 1460 QSK60-G11 PI734F PC 3.3 EPA Tier 2 No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C2000D5EB",
@@ -779,7 +863,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C2000D5EB 2000 1600 1875 1500 1875 1500 QSK50-G16 S7L1D-G4 PC 3.3 EPA Tier 2"
+      "value": "C2000D5EB 2000 1600 1875 1500 1875 1500 QSK50-G16 S7L1D-G4 PC 3.3 EPA Tier 2",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C2000D5",
@@ -788,7 +873,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C2000D5 2063 1650 1875 1500 1875 1500 QSK60-G3 PI734F PC 3.3"
+      "value": "C2000D5 2063 1650 1875 1500 1875 1500 QSK60-G3 PI734F PC 3.3",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C2250D5",
@@ -797,7 +883,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C2250D5 2250 1800 2000 1600 2000 1600 QSK60-G4 PI734G PC 3.3 UR No"
+      "value": "C2250D5 2250 1800 2000 1600 2000 1600 QSK60-G4 PI734G PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - DQKAG",
@@ -806,7 +893,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "DQKAG 2250 1800 2000 1600 2000 1600 QSK60-G11 PI734F PC 3.3 EPA Tier 2 No"
+      "value": "DQKAG 2250 1800 2000 1600 2000 1600 QSK60-G11 PI734F PC 3.3 EPA Tier 2 No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C2250D5E",
@@ -815,7 +903,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C2250D5E 2250 1800 2000 1600 QSK50-G17 EPA Tier 2"
+      "value": "C2250D5E 2250 1800 2000 1600 QSK50-G17 EPA Tier 2",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C2500D5A",
@@ -824,7 +913,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C2500D5A 2500 2000 2250 1800 2250 1800 QSK60-G8 LVSI804R PC 3.3 UR No"
+      "value": "C2500D5A 2500 2000 2250 1800 2250 1800 QSK60-G8 LVSI804R PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - DQKAJ",
@@ -833,7 +923,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "DQKAJ 2500 2000 2000 1600 2250 1800 QSK60-G18 LVSI804S PC 3.3 EPA Tier 2 No"
+      "value": "DQKAJ 2500 2000 2000 1600 2250 1800 QSK60-G18 LVSI804S PC 3.3 EPA Tier 2 No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C2750D5BE",
@@ -842,7 +933,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C2750D5BE 2750 2200 2500 2000 2500 2000 QSK60-G23 LVSI804W PC 3.3 EPA Tier 2 No"
+      "value": "C2750D5BE 2750 2200 2500 2000 2500 2000 QSK60-G23 LVSI804W PC 3.3 EPA Tier 2 No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C3000D5",
@@ -851,7 +943,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C3000D5 3000 2400 2750 2200 2750 2200 QSK78-G9/G24 LVSI804S PC 3.3 UR No"
+      "value": "C3000D5 3000 2400 2750 2200 2750 2200 QSK78-G9/G24 LVSI804S PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C3000D5E",
@@ -860,7 +953,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C3000D5E 3000 2400 2750 2200 2750 2200 QSK78-G23/G16 LVSI804S PC 3.3 EPA Tier 2 No"
+      "value": "C3000D5E 3000 2400 2750 2200 2750 2200 QSK78-G23/G16 LVSI804S PC 3.3 EPA Tier 2 No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C3500D5",
@@ -869,7 +963,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C3500D5 3500 2800 3125 2500 3125 2500 QSK95-G4 LVSI804W PC 3.3 UR No"
+      "value": "C3500D5 3500 2800 3125 2500 3125 2500 QSK95-G4 LVSI804W PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C3500D5E",
@@ -878,7 +973,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C3500D5E 3500 2800 3125 2500 3125 2500 QSK95-G5/G10 LVSI804W PC 3.3 EPA Tier 2 No"
+      "value": "C3500D5E 3500 2800 3125 2500 3125 2500 QSK95-G5/G10 LVSI804W PC 3.3 EPA Tier 2 No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C3750D5",
@@ -887,7 +983,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C3750D5 3750 3000 3350 2680 3350 2680 QSK95-G4 LVSI804X PC 3.3 UR No"
+      "value": "C3750D5 3750 3000 3350 2680 3350 2680 QSK95-G4 LVSI804X PC 3.3 UR No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     },
     {
       "metric": "Rating row - C3750D5E",
@@ -896,7 +993,8 @@
       "source": {
         "url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
       },
-      "value": "C3750D5E 3750 3000 3350 2680 3350 2680 QSK95-G10 LVSI804X PC 3.3 EPA Tier 2 No"
+      "value": "C3750D5E 3750 3000 3350 2680 3350 2680 QSK95-G10 LVSI804X PC 3.3 EPA Tier 2 No",
+      "source_url": "https://r.jina.ai/https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf"
     }
   ],
   "url": "https://cummins.com/sites/default/files/2025-08/diesel-gen-set-rating-cards-international-50hz-2025-aug.pdf",

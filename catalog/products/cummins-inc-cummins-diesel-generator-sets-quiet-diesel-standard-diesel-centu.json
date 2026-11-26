@@ -6,7 +6,7 @@
   "equipment": [
     "cf-diesel-engine-generator-sets-offshore-and-onshore"
   ],
-  "description": "All major components (engine, alternator, controls) manufactured, tested and serviced by Cummins; Cummins Power Suite tool for design/installation. Tier 4F certified rental solutions noted. Centum S17 Series 600-1000 kW 60 Hz referenced in related news item on same site.",
+  "description": "All major components (engine, alternator, controls) manufactured, tested and serviced by Cummins; Cummins Power Suite tool for design/installation. Tier 4F certified rental solutions noted. Centum S17 Series 600-1000 kW 60 Hz referenced in related news item on same site. Primary source: https://www.cummins.com/en-apac/generators/diesel",
   "specifications": [
     {
       "metric": "Generator set power range",
@@ -17,7 +17,8 @@
         "source_id": "cat-cummins-com-diesel"
       },
       "low": 15,
-      "high": 3750
+      "high": 3750,
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Frequency",
@@ -27,7 +28,8 @@
         "url": "https://www.cummins.com/en-apac/generators/diesel",
         "source_id": "cat-cummins-com-diesel"
       },
-      "value": "50 / 60"
+      "value": "50 / 60",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Load acceptance",
@@ -37,7 +39,8 @@
         "url": "https://www.cummins.com/en-apac/generators/diesel",
         "source_id": "cat-cummins-com-diesel"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Generator set power range",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel"
       },
-      "value": "15 - 3750 kVA"
+      "value": "15 - 3750 kVA",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Commercial genset start and load acceptance",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel"
       },
-      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step"
+      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Quiet Diesel series frequency",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "60, 50"
+      "value": "60, 50",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel noise reduction",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel full-load ambient capability",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "120 F (50 C)"
+      "value": "120 F (50 C)",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel construction and mounting",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "Totally enclosed incl. cooling, muffler and intake; 4-point mounting system"
+      "value": "Totally enclosed incl. cooling, muffler and intake; 4-point mounting system",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Standard Diesel series frequency",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
       },
-      "value": "50, 60"
+      "value": "50, 60",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
     },
     {
       "metric": "Standard Diesel full-load ambient capability",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
       },
-      "value": "120 F (50 C)"
+      "value": "120 F (50 C)",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
     },
     {
       "metric": "Standard Diesel application note",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
       },
-      "value": "Open and compartment-type applications; low speed for long life"
+      "value": "Open and compartment-type applications; low speed for long life",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-standard-diesel-generators"
     }
   ],
   "url": "https://www.cummins.com/en-apac/generators/diesel",

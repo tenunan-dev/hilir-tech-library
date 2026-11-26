@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Boilers and steam system (HP/MP/LP, waste-heat and package boilers)",
+  "description": "Boilers and steam system (HP/MP/LP, waste-heat and package boilers) Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
   "specifications": [
     {
       "metric": "HP steam pressure",
@@ -19,7 +19,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "MP steam pressure",
@@ -29,7 +30,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "LP steam pressure",
@@ -39,7 +41,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Cogeneration overall thermal efficiency",
@@ -50,7 +53,8 @@
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
       "low": 70,
-      "high": 80
+      "high": 80,
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Boiler types in Pusri cradle-to-gate boundary",
@@ -60,7 +64,8 @@
         "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
         "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
       },
-      "value": "package boiler; waste heat boiler; coal boiler"
+      "value": "package boiler; waste heat boiler; coal boiler",
+      "source_url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-controls-paralleling"
   ],
-  "description": "Vendor product line read 2026-11-24. Synchronising, protection, AVR, load/PF control in one controller",
+  "description": "Vendor product line read 2026-11-24. Synchronising, protection, AVR, load/PF control in one controller Primary source: https://www.woodward.com/products/industrial/generator-controllers/easygen",
   "specifications": [
     {
       "metric": "Isochronous gensets",
@@ -17,7 +17,8 @@
         "source_id": "woodward-com-generator-controllers-easygen"
       },
       "low": 1,
-      "high": 32
+      "high": 32,
+      "source_url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     },
     {
       "metric": "Measurement",
@@ -27,7 +28,8 @@
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
         "source_id": "woodward-com-generator-controllers-easygen"
       },
-      "value": "Class I true RMS"
+      "value": "Class I true RMS",
+      "source_url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     },
     {
       "metric": "Redundancy",
@@ -37,7 +39,8 @@
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",
         "source_id": "woodward-com-generator-controllers-easygen"
       },
-      "value": "cold / warm / hot"
+      "value": "cold / warm / hot",
+      "source_url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     },
     {
       "metric": "Gensets in isochronous parallel operation",
@@ -47,7 +50,8 @@
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
       },
       "low": 1,
-      "high": 32
+      "high": 32,
+      "source_url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     },
     {
       "metric": "Measurement accuracy",
@@ -55,7 +59,8 @@
       "basis": "\"Precise measurements with Class I accuracy for true RMS power sensing\"",
       "source": {
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
-      }
+      },
+      "source_url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     },
     {
       "metric": "Standard languages",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
       },
-      "value": 14
+      "value": 14,
+      "source_url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     },
     {
       "metric": "Communication / load sharing",
@@ -72,7 +78,8 @@
       "basis": "\"CAN network load sharing and J-1939 engine control\"; \"Multi-mastering, redundant communication, and redundancy functionality\"",
       "source": {
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
-      }
+      },
+      "source_url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     },
     {
       "metric": "Integrated functions",
@@ -80,7 +87,8 @@
       "basis": "\"Combines multiple functions (synchronization, protection, AVR, configurable PIDs for process control, genset automation, load and power factor control) into one controller\"",
       "source": {
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
-      }
+      },
+      "source_url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     },
     {
       "metric": "Applications",
@@ -88,7 +96,8 @@
       "basis": "\"Emergency stand-by, AMF; CHP; Marine ship/shore power; Islanded prime power; Utility paralleling with peak shaving and import/export control\"",
       "source": {
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
-      }
+      },
+      "source_url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     },
     {
       "metric": "Robustness",
@@ -96,7 +105,8 @@
       "basis": "\"Robust design with conformal coating and galvanic isolation for harsh environments\"",
       "source": {
         "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
-      }
+      },
+      "source_url": "https://www.woodward.com/products/industrial/generator-controllers/easygen"
     }
   ],
   "url": "https://www.woodward.com/products/industrial/generator-controllers/easygen",

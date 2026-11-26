@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Proprietary technology; no numeric rating printed on the HTML page.",
+  "description": "Proprietary technology; no numeric rating printed on the HTML page. Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
   "specifications": [
     {
       "metric": "Integrated functions",
@@ -16,7 +16,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",
         "source_id": "cat-technipfmc-com-flexible-pipes"
       },
-      "value": "Thermal insulation layers; additional hoses for gas lift or other services; active heating through electric cables; fluid temperature monitoring with optical fibers"
+      "value": "Thermal insulation layers; additional hoses for gas lift or other services; active heating through electric cables; fluid temperature monitoring with optical fibers",
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "IPB technology",
@@ -24,7 +25,8 @@
       "basis": "'an innovative and proprietary technology' for 'high-level flow assurance of hydrocarbon fluids in difficult conditions from well heads to surface treatment units'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "IPB features",
@@ -32,7 +34,8 @@
       "basis": "'thermal insulation layers, additional hoses for gas lift or other services, active heating through electric cables, and fluid temperature monitoring with optical fibers'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     },
     {
       "metric": "FSHR design",
@@ -40,7 +43,8 @@
       "basis": "'vertical steel pipe tensioned by a near-surface buoyancy can' with flexible jumper and rigid base jumper",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/flexible-pipes",

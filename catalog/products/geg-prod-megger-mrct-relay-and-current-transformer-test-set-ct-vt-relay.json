@@ -6,7 +6,7 @@
   "equipment": [
     "geg-electrical-laboratory-test-equipment"
   ],
-  "description": "CT/VT/relay test set",
+  "description": "CT/VT/relay test set Primary source: https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
   "specifications": [
     {
       "metric": "DC excitation knee point capability",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
         "source_id": "geg-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set"
     },
     {
       "metric": "secondary voltage injection (configurable base unit)",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
         "source_id": "geg-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set"
     },
     {
       "metric": "minimum insulation resistance value generally accepted",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
         "source_id": "geg-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set"
     },
     {
       "metric": "primary noise filtration accuracy penalty",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",
         "source_id": "geg-r-jina-ai-mrct-relay-and-current-transformer-e5fa3a9"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set"
     }
   ],
   "url": "https://r.jina.ai/https://www.megger.com/en-us/products/mrct-relay-and-current-transformer-test-set",

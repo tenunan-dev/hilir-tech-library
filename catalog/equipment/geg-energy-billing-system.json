@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Energy billing system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Energy billing system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / I&C. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
   "aliases": [
     "Energy billing system"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB Single Buyer revenue-metering dat — on-site data store backup capability",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB Single Buyer revenue-metering dat — billing data source",
@@ -49,7 +51,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "SESB Single Buyer revenue-metering dat — meter database archive",
@@ -60,7 +63,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf",
         "source_id": "geg-ecos-gov-my-sabah-20grid-20code-pdf-866dd69"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Landis+Gyr E660 high-end metering and  — accuracy classes for active energy",
@@ -70,7 +74,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
         "source_id": "geg-landisgyr-com-e660-f701920"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Landis+Gyr E660 high-end metering and  — functional scope",
@@ -80,7 +85,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
         "source_id": "geg-landisgyr-com-e660-f701920"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Landis+Gyr E660 high-end metering and  — security",
@@ -90,7 +96,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
         "source_id": "geg-landisgyr-com-e660-f701920"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Landis+Gyr E850 grid meter — accuracy class",
@@ -100,7 +107,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "Landis+Gyr E850 grid meter — low-load accuracy guarantee",
@@ -111,7 +119,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "Landis+Gyr E850 grid meter — deployment base",
@@ -122,7 +131,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850",
         "source_id": "geg-landisgyr-com-e850-873e563"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "Nominal frequency",
@@ -131,7 +141,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "CDGU threshold synchronous",
@@ -140,7 +151,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "CDGU threshold power park",
@@ -149,7 +161,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Distribution network voltage ceiling",
@@ -158,7 +171,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 33
+      "value": 33,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Time basis",
@@ -167,7 +181,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 8
+      "value": 8,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Grid Code document sections",
@@ -175,7 +190,8 @@
       "basis": "'General Conditions; Planning Code; Connection Conditions; Operating Codes Nos. 1 to 11; Scheduling and Dispatch Codes Nos. 1 to 3; Metering Code'",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Metering Code appendix",
@@ -183,7 +199,8 @@
       "basis": "'Metering Code Appendix 1 – Type and Accuracy of Revenue Metering Installations'; 'Metering Code Appendix 2 - Commissioning, Inspection, Calibration and Testing Requirements'",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Single Buyer function",
@@ -191,7 +208,8 @@
       "basis": "'The Single Buyer is a department in SESB that is responsible for overseeing the commercial arrangements entered into with the IPPs'",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Grid System Operator function",
@@ -199,7 +217,8 @@
       "basis": "'GSO is the person inSESB responsible for the overall coordination of the operation, maintenance and control of the interconnected Grid System'",
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
-      }
+      },
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Document page count",
@@ -208,7 +227,8 @@
       "source": {
         "url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
       },
-      "value": 224
+      "value": 224,
+      "source_url": "https://ecos.gov.my/sites/default/files/uploads/para/attachments/2024-01/Sabah%20Grid%20Code.pdf"
     },
     {
       "metric": "Accuracy classes",
@@ -216,7 +236,8 @@
       "basis": "Landis+Gyr E660 Variations: 'Accuracy classes C, B (MID) or 0.2s, 0.5s, 1 (IEC) (for active energy)'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Power quality standards",
@@ -224,7 +245,8 @@
       "basis": "'Continuous power quality measurement integrated (EN50160, IEC61000-4-30 Cl. S)'; 'Power quality according EN50160 and IEC 61000-4-30 Cl. S or according IDIS'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Safety standard",
@@ -232,7 +254,8 @@
       "basis": "'The E660 supports new safety standards in full (IEC62052-31)'; 'Fulfils IEC62052-31 safety standard'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Communication module E66C",
@@ -240,7 +263,8 @@
       "basis": "'The communication module E66C supports state of the art IP-communication LTE CAT-M1 and Ethernet'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Security",
@@ -248,7 +272,8 @@
       "basis": "'High Level DLMS security with encryption and authentication, role based access (RBAC), TLS'; 'DLMS security suite 0 as default, upgrade path to suite 1 and 2 and TLS'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Overvoltage category",
@@ -256,7 +281,8 @@
       "basis": "'For use in overvoltage category III or IV environment'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Energy measurement",
@@ -264,7 +290,8 @@
       "basis": "'Active, reactive and apparent energy (4-quadrant)'; 'Transformer connection (CT; CT/VT)'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Expansion module",
@@ -272,7 +299,8 @@
       "basis": "'The expansion module E66E with digital inputs and outputs and electro-mechanical relay'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "accuracy_class_active",
@@ -281,7 +309,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": "0.2S / 0.5S"
+      "value": "0.2S / 0.5S",
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "accuracy_class_reactive",
@@ -290,7 +319,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": "0.5S / 1"
+      "value": "0.5S / 1",
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "frequency",
@@ -299,7 +329,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": "50/60 Hz and 16 2/3 Hz (for railway infrastructure)"
+      "value": "50/60 Hz and 16 2/3 Hz (for railway infrastructure)",
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "display",
@@ -308,7 +339,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": 8
+      "value": 8,
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "communication_interfaces",
@@ -317,7 +349,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": "RS 232 / RS 485 / Ethernet / GSM / GRPS / UMTS (3G)"
+      "value": "RS 232 / RS 485 / Ethernet / GSM / GRPS / UMTS (3G)",
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "transmitting_contacts",
@@ -326,7 +359,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "high": 8
+      "high": 8,
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "measurement_quadrants",
@@ -335,7 +369,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "capture_period",
@@ -345,7 +380,8 @@
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
       "low": 1,
-      "high": 5
+      "high": 5,
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "low_load_accuracy",
@@ -354,7 +390,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     },
     {
       "metric": "versions",
@@ -363,7 +400,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
       },
-      "value": "E850 f6 wall mounted; E850 f9 rack mounted"
+      "value": "E850 f6 wall mounted; E850 f9 rack mounted",
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e850"
     }
   ],
   "vendor_models": [

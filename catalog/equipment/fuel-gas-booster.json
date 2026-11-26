@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Raises incoming utility gas pressure to the net regulated pressure required at the burner gas-train inlet when mains pressure is insufficient; packaged skids combine a hermetically sealed centrifugal blower, check valve, inlet/outlet pressure switches, isolating valves, gauges and a factory control panel, usually installed just downstream of the gas meter. Selection basis: gas flow = burner firing rate / calorific value; pressure lift = minimum required burner pressure minus available mains pressure.",
+  "description": "Raises incoming utility gas pressure to the net regulated pressure required at the burner gas-train inlet when mains pressure is insufficient; packaged skids combine a hermetically sealed centrifugal blower, check valve, inlet/outlet pressure switches, isolating valves, gauges and a factory control panel, usually installed just downstream of the gas meter. Selection basis: gas flow = burner firing rate / calorific value; pressure lift = minimum required burner pressure minus available mains pressure. Primary source: https://etterengineering.com/booster-systems",
   "specifications": [
     {
       "metric": "ETTER compact booster package capacity",
@@ -20,7 +20,8 @@
         "source_id": "etterengineering-com-booster-systems"
       },
       "low": 1000,
-      "high": 1600
+      "high": 1600,
+      "source_url": "https://etterengineering.com/booster-systems"
     },
     {
       "metric": "Volume flow",
@@ -31,7 +32,8 @@
       },
       "unit": "m3/h",
       "low": "50",
-      "high": "38,000"
+      "high": "38,000",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Differential pressure (delta p)",
@@ -42,7 +44,8 @@
       },
       "unit": "mbar",
       "low": "150",
-      "high": "2,000"
+      "high": "2,000",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Medium",
@@ -52,7 +55,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "unit": "n/a",
-      "value": "Process Gases"
+      "value": "Process Gases",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Conveying",
@@ -62,7 +66,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "unit": "n/a",
-      "value": "Oil-free"
+      "value": "Oil-free",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Stage configuration",
@@ -72,7 +77,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "unit": "n/a",
-      "value": "1 or 2 stage design"
+      "value": "1 or 2 stage design",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Shaft sealing",
@@ -82,7 +88,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "unit": "n/a",
-      "value": "magnetic coupling"
+      "value": "magnetic coupling",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Rotor design",
@@ -92,7 +99,8 @@
         "source_id": "aerzen-com-product-gas-booster-for-high-pressure-applications"
       },
       "unit": "n/a",
-      "value": "robust two-lobe rotor design (gas-tight sealed)"
+      "value": "robust two-lobe rotor design (gas-tight sealed)",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Type of technology",
@@ -101,7 +109,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "Positive Displacement Blowers"
+      "value": "Positive Displacement Blowers",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Differential pressure",
@@ -111,7 +120,8 @@
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
       "low": 150,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Design stages",
@@ -120,7 +130,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "1 or 2 stage design"
+      "value": "1 or 2 stage design",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Sealing system",
@@ -129,7 +140,8 @@
       "source": {
         "url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
       },
-      "value": "magnetic coupling"
+      "value": "magnetic coupling",
+      "source_url": "https://www.aerzen.com/product/gas-booster-for-high-pressure-applications"
     },
     {
       "metric": "Design pressure (explosive gases)",
@@ -138,7 +150,8 @@
       "source": {
         "url": "https://www.aerzen.com/fileadmin/user_upload/02_documents/02-02_applications/02-02-06_process_gas_technology/A1-008-08_EN.pdf"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.aerzen.com/fileadmin/user_upload/02_documents/02-02_applications/02-02-06_process_gas_technology/A1-008-08_EN.pdf"
     },
     {
       "metric": "Differential pressure (brochure)",
@@ -148,7 +161,8 @@
         "url": "https://www.aerzen.com/fileadmin/user_upload/02_documents/02-02_applications/02-02-06_process_gas_technology/A1-008-08_EN.pdf"
       },
       "low": 150,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.aerzen.com/fileadmin/user_upload/02_documents/02-02_applications/02-02-06_process_gas_technology/A1-008-08_EN.pdf"
     }
   ],
   "vendors": [

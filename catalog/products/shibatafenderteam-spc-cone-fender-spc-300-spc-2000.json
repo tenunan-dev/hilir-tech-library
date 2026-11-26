@@ -6,7 +6,7 @@
   "equipment": [
     "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett"
   ],
-  "description": "Vendor product line read 2026-11-24. No energy/reaction performance table on the HTML page; see downloadable Product Information SPC Fenders PDF.",
+  "description": "Vendor product line read 2026-11-24. No energy/reaction performance table on the HTML page; see downloadable Product Information SPC Fenders PDF. Primary source: https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
   "specifications": [
     {
       "metric": "height range",
@@ -17,7 +17,8 @@
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
       },
       "low": 300,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "SPC 2000 mass",
@@ -27,7 +28,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
       },
-      "value": 9560
+      "value": 9560,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "SPC 2000 anchor bolts",
@@ -37,7 +39,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
         "source_id": "shibata-fender-team-rubber-fenders-spc-cone-fenders-html"
       },
-      "value": "10 x M56"
+      "value": "10 x M56",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Fender height range",
@@ -47,7 +50,8 @@
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
       "low": 300,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Rubber grades",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Overload stoppers",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": "optional, to avoid over compression"
+      "value": "optional, to avoid over compression",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Contact angle performance",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Energy absorption / reaction force",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": "Exceptionally good E/R ratio; outstanding energy absorption per fender weight"
+      "value": "Exceptionally good E/R ratio; outstanding energy absorption per fender weight",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Shear stability",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": "High shear stability"
+      "value": "High shear stability",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Construction",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": "conical body and fully rubber-embedded mounting flanges"
+      "value": "conical body and fully rubber-embedded mounting flanges",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     },
     {
       "metric": "Applications",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
       },
-      "value": "Container & Bulk Terminals; Oil & Gas Terminals; General Cargo Terminals; Cruise Terminals; Ferry & RoRo Terminals; Navy"
+      "value": "Container & Bulk Terminals; Oil & Gas Terminals; General Cargo Terminals; Cruise Terminals; Ferry & RoRo Terminals; Navy",
+      "source_url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html"
     }
   ],
   "url": "https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",

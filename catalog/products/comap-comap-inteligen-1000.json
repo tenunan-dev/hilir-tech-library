@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-controls-paralleling"
   ],
-  "description": "Vendor product line read 2026-11-24. Read directly via WebFetch.",
+  "description": "Vendor product line read 2026-11-24. Read directly via WebFetch. Primary source: https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
   "specifications": [
     {
       "metric": "Cooperating controllers",
@@ -16,7 +16,8 @@
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
         "source_id": "comap-control-com-inteligen-inteligen-1000"
       },
-      "value": 64
+      "value": 64,
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Cybersecurity",
@@ -26,7 +27,8 @@
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
         "source_id": "comap-control-com-inteligen-inteligen-1000"
       },
-      "value": "ISA 62443 level 2-3"
+      "value": "ISA 62443 level 2-3",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Enclosure",
@@ -36,7 +38,8 @@
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",
         "source_id": "comap-control-com-inteligen-inteligen-1000"
       },
-      "value": "262 x 182 x 47"
+      "value": "262 x 182 x 47",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Additional gen-sets/mains/tie controllers",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "high": 64
+      "high": 64,
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Cyber security level",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": "ISA 62443 level 2 - level 3"
+      "value": "ISA 62443 level 2 - level 3",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Ethernet ports",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "RS-485 ports",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Enclosure dimensions",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": "262 x 182 x 47 mm"
+      "value": "262 x 182 x 47 mm",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Cutout dimensions",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": "225 x 165 x 47 mm"
+      "value": "225 x 165 x 47 mm",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Ingress protection",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": "IP20"
+      "value": "IP20",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Operating low temperature",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": -40
+      "value": -40,
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Operating high temperature",
@@ -117,7 +128,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Vibration",
@@ -126,7 +138,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": "2÷25 Hz / ±1,6 mm; 25÷100 Hz / 4,0 g"
+      "value": "2÷25 Hz / ±1,6 mm; 25÷100 Hz / 4,0 g",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Shock",
@@ -135,7 +148,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Damp heat",
@@ -144,7 +158,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": "25/55 °C, RH 95%, 48 h"
+      "value": "25/55 °C, RH 95%, 48 h",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Grid code compliance",
@@ -153,7 +168,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": "EN 50549, VDE-AR-N 4110:2018, VDE-AR-N 4105:2019, G99, TOR, IEEE 1547"
+      "value": "EN 50549, VDE-AR-N 4110:2018, VDE-AR-N 4105:2019, G99, TOR, IEEE 1547",
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     },
     {
       "metric": "Bank controller units",
@@ -162,7 +178,8 @@
       "source": {
         "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
       },
-      "value": 4032
+      "value": 4032,
+      "source_url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000"
     }
   ],
   "url": "https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers/inteligen/inteligen-1000",

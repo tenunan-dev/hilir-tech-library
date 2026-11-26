@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Process condensate treatment and sour water stripping | Effluent / wastewater treatment (ammonia stripping and urea hydrolysis)",
+  "description": "Process condensate treatment and sour water stripping | Effluent / wastewater treatment (ammonia stripping and urea hydrolysis) Primary source: https://en.wikipedia.org/wiki/Sour_gas",
   "specifications": [
     {
       "metric": "Sour gas classification threshold",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Sour_gas",
         "source_id": "en-wikipedia-org-wiki-sour-gas"
       },
-      "value": 5.7
+      "value": 5.7,
+      "source_url": "https://en.wikipedia.org/wiki/Sour_gas"
     },
     {
       "metric": "Effluent quantity from urea synthesis reaction",
@@ -29,7 +30,8 @@
         "url": "https://patents.google.com/patent/US5096599A/en",
         "source_id": "patents-google-com-us5096599a-en"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://patents.google.com/patent/US5096599A/en"
     },
     {
       "metric": "Total effluent to treatment",
@@ -39,7 +41,8 @@
         "url": "https://patents.google.com/patent/US5096599A/en",
         "source_id": "patents-google-com-us5096599a-en"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://patents.google.com/patent/US5096599A/en"
     },
     {
       "metric": "Indicative urea effluent composition",
@@ -49,7 +52,8 @@
         "url": "https://patents.google.com/patent/US5096599A/en",
         "source_id": "patents-google-com-us5096599a-en"
       },
-      "value": "NH3 2-5 wt%; CO2 1-2.5 wt%; urea 0.5-2 wt%; balance water"
+      "value": "NH3 2-5 wt%; CO2 1-2.5 wt%; urea 0.5-2 wt%; balance water",
+      "source_url": "https://patents.google.com/patent/US5096599A/en"
     },
     {
       "metric": "Hydrolysis residence time",
@@ -60,7 +64,8 @@
         "source_id": "patents-google-com-us5096599a-en"
       },
       "low": 20,
-      "high": 40
+      "high": 40,
+      "source_url": "https://patents.google.com/patent/US5096599A/en"
     },
     {
       "metric": "Stripping column operating conditions",
@@ -71,7 +76,8 @@
         "source_id": "patents-google-com-us5096599a-en"
       },
       "low": 1.5,
-      "high": 4
+      "high": 4,
+      "source_url": "https://patents.google.com/patent/US5096599A/en"
     },
     {
       "metric": "Treated effluent residual NH3 and urea",
@@ -82,7 +88,8 @@
         "source_id": "patents-google-com-us5096599a-en"
       },
       "low": 0.4,
-      "high": 10
+      "high": 10,
+      "source_url": "https://patents.google.com/patent/US5096599A/en"
     },
     {
       "metric": "Process condensate treatment in urea plant boundary",
@@ -92,7 +99,8 @@
         "url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf",
         "source_id": "esg-pusri-co-id-environment-epd-urea-pdf"
       },
-      "value": "process condensate treatment"
+      "value": "process condensate treatment",
+      "source_url": "https://esg.pusri.co.id/assets/document/environment/epd-urea.pdf"
     }
   ],
   "vendors": [

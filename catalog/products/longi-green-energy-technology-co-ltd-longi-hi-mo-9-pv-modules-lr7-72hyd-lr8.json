@@ -6,7 +6,7 @@
   "equipment": [
     "cf-solar-pv-modules-and-inverters-onshore-gas-plant-and-remote-hy"
   ],
-  "description": "HPBC 2.0 cell technology with Tairay silicon wafers; 0BB front design; split junction box IP68 with 3 diodes; layout 144 (6x24); packaging 36 pcs/pallet, 144 pcs/20GP, 720 pcs/40 HC.",
+  "description": "HPBC 2.0 cell technology with Tairay silicon wafers; 0BB front design; split junction box IP68 with 3 diodes; layout 144 (6x24); packaging 36 pcs/pallet, 144 pcs/20GP, 720 pcs/40 HC. Primary source: https://www.longi.com/en/products/modules/hi-mo-9/",
   "specifications": [
     {
       "metric": "Module power",
@@ -16,7 +16,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 670
+      "value": 670,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module efficiency",
@@ -26,7 +27,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 24.8
+      "value": 24.8,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Product warranty",
@@ -36,7 +38,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Power warranty",
@@ -46,7 +49,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Pmax STC (LR7-72HYD-635M to 660M)",
@@ -57,7 +61,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 635,
-      "high": 660
+      "high": 660,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Voc STC",
@@ -68,7 +73,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 53.5,
-      "high": 54.0
+      "high": 54.0,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Isc STC",
@@ -79,7 +85,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 15.01,
-      "high": 15.41
+      "high": 15.41,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Vmp STC",
@@ -90,7 +97,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 44.36,
-      "high": 44.85
+      "high": 44.85,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Imp STC",
@@ -101,7 +109,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 14.32,
-      "high": 14.72
+      "high": 14.72,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Pmax NOCT",
@@ -112,7 +121,8 @@
         "source_id": "cat-longi-com"
       },
       "low": 483.4,
-      "high": 502.4
+      "high": 502.4,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Front static load",
@@ -122,7 +132,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 5400
+      "value": 5400,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Back static load",
@@ -132,7 +143,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 2400
+      "value": 2400,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Hail test impact speed",
@@ -142,7 +154,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 23
+      "value": 23,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Temperature coefficient Pmax",
@@ -152,7 +165,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": -0.26
+      "value": -0.26,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module weight",
@@ -162,7 +176,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": 33.5
+      "value": 33.5,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module size",
@@ -172,7 +187,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/",
         "source_id": "cat-longi-com"
       },
-      "value": "2382 x 1134 x 30"
+      "value": "2382 x 1134 x 30",
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Maximum module power (headline)",
@@ -181,7 +197,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 670
+      "value": 670,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Maximum module efficiency",
@@ -190,7 +207,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 24.8
+      "value": 24.8,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Product warranty",
@@ -199,7 +217,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Power warranty",
@@ -208,7 +227,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Cell technology",
@@ -216,7 +236,8 @@
       "basis": "LONGi: 'HPBC 2.0 Technology — Tairay silicon wafers + HPBC 2.0 cell technology'; '0BB design on the front'; 'Soft Breakdown Design — Anti-Shading, Prevent Localized overheating'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module layout",
@@ -224,7 +245,8 @@
       "basis": "LONGi Mechanical Parameters: 'Layout 144 (6×24)'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Junction box",
@@ -232,7 +254,8 @@
       "basis": "LONGi: 'Split junction box, IP68, 3 diodes'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Weight",
@@ -241,7 +264,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 33.5
+      "value": 33.5,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Module dimensions",
@@ -249,7 +273,8 @@
       "basis": "LONGi: 'Size 2382×1134×30mm'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Packaging",
@@ -257,7 +282,8 @@
       "basis": "LONGi: '36pcs./pallet; 144pcs./20GP; 720pcs./40 HC'",
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
-      }
+      },
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Pmax, LR7-72HYD-635M to 660M (STC)",
@@ -267,7 +293,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
       "low": 635,
-      "high": 660
+      "high": 660,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Open-circuit voltage Voc, 635M to 660M (STC)",
@@ -277,7 +304,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
       "low": 53.5,
-      "high": 54
+      "high": 54,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Short-circuit current Isc, 635M to 660M (STC)",
@@ -287,7 +315,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
       "low": 15.01,
-      "high": 15.41
+      "high": 15.41,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Peak power voltage Vmp, 635M to 660M (STC)",
@@ -297,7 +326,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
       "low": 44.36,
-      "high": 44.85
+      "high": 44.85,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "Peak power current Imp, 635M to 660M (STC)",
@@ -307,7 +337,8 @@
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
       "low": 14.32,
-      "high": 14.64
+      "high": 14.64,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     },
     {
       "metric": "30-year linear degradation advantage",
@@ -316,7 +347,8 @@
       "source": {
         "url": "https://www.longi.com/en/products/modules/hi-mo-9/"
       },
-      "value": 0.05
+      "value": 0.05,
+      "source_url": "https://www.longi.com/en/products/modules/hi-mo-9/"
     }
   ],
   "url": "https://www.longi.com/en/products/modules/hi-mo-9/",

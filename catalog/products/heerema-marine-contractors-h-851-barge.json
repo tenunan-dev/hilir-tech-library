@@ -6,7 +6,7 @@
   "equipment": [
     "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
   ],
-  "description": "Vendor product line read 2026-11-24. Used for transportation, jacket launch and floatover; used for Wheatstone/Arkutun Dagi single-lift topsides load-in per Wikipedia.",
+  "description": "Vendor product line read 2026-11-24. Used for transportation, jacket launch and floatover; used for Wheatstone/Arkutun Dagi single-lift topsides load-in per Wikipedia. Primary source: https://www.heerema.com/heerema-marine-contractors/fleet",
   "specifications": [
     {
       "metric": "Ranking",
@@ -16,7 +16,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": "world's largest barge (Heerema claim)"
+      "value": "world's largest barge (Heerema claim)",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Barge distinction",
@@ -24,7 +25,8 @@
       "basis": "Heerema fleet: 'Including the H-851, the world's largest barge.' Used for 'transportation, jacket launch, and floatover use.'",
       "source": {
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet"
-      }
+      },
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     }
   ],
   "url": "https://www.heerema.com/heerema-marine-contractors/fleet",

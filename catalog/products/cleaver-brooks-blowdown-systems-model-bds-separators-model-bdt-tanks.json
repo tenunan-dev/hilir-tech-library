@@ -6,7 +6,7 @@
   "equipment": [
     "safety-valves-blowdown-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Blowdown Systems catalog listing directly with WebFetch (text). No dedicated safety-valve product line found in the pages read; see gaps.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Blowdown Systems catalog listing directly with WebFetch (text). No dedicated safety-valve product line found in the pages read; see gaps. Primary source: https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems",
   "specifications": [
     {
       "metric": "Method",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-boiler-room-equipment-blowdown-systems"
       },
       "unit": "process",
-      "value": "Safe, proven, economical flash purification process for blowdown effectiveness and disposal"
+      "value": "Safe, proven, economical flash purification process for blowdown effectiveness and disposal",
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
     },
     {
       "metric": "Model designations",
@@ -24,7 +25,8 @@
       "basis": "'Cleaver-Brooks model BDS blowdown separators and model BDT tanks'",
       "source": {
         "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
     },
     {
       "metric": "Process",
@@ -32,7 +34,8 @@
       "basis": "'use a safe, proven, economical flash purification process for facilitating blowdown effectiveness and disposal'",
       "source": {
         "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
     },
     {
       "metric": "Catalog items found",
@@ -41,7 +44,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
     }
   ],
   "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems",

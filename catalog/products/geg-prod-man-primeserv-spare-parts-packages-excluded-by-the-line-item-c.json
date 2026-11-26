@@ -6,7 +6,7 @@
   "equipment": [
     "geg-two-year-operational-spares"
   ],
-  "description": "OEM spare parts packages - out of scope for this line item",
+  "description": "OEM spare parts packages - out of scope for this line item Primary source: https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
   "specifications": [
     {
       "metric": "standardised spare parts packages",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "high-demand OEM spare parts delivery target",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",
         "source_id": "geg-r-jina-ai-prepare-for-man-175d4ae1fb149e9f4d-ceb0047"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Engine type",
@@ -37,7 +39,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "V type, 12, 16 or 20 cylinders"
+      "value": "V type, 12, 16 or 20 cylinders",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Bore",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": 175
+      "value": 175,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Speed range",
@@ -56,7 +60,8 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
       "low": 1500,
-      "high": 2000
+      "high": 2000,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Ratings",
@@ -66,7 +71,8 @@
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
       "low": 1440,
-      "high": 4400
+      "high": 4400,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Service levels",
@@ -75,7 +81,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "L1 to L5"
+      "value": "L1 to L5",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Service centres",
@@ -84,7 +91,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Spare parts delivery",
@@ -93,7 +101,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "within 24 hours"
+      "value": "within 24 hours",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Training duration",
@@ -102,7 +111,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Four-day training for Standard and Advanced courses, and four weeks training for the Expert course"
+      "value": "Four-day training for Standard and Advanced courses, and four weeks training for the Expert course",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     },
     {
       "metric": "Standard spare parts packages",
@@ -111,7 +121,8 @@
       "source": {
         "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
       },
-      "value": "Post-commissioning, Mechanical, After-treatment, Automation"
+      "value": "Post-commissioning, Mechanical, After-treatment, Automation",
+      "source_url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6"
     }
   ],
   "url": "https://r.jina.ai/https://www.man-es.com/docs/default-source/document-sync/prepare-for-man-175d4ae1fb149e9f4d75844e2892bccbf135.pdf?sfvrsn=fc7eb654_6",

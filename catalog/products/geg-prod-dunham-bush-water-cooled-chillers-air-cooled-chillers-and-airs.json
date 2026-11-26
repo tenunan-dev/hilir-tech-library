@@ -6,7 +6,7 @@
   "equipment": [
     "geg-hvac-system"
   ],
-  "description": "HVAC chiller / air handling unit product lines",
+  "description": "HVAC chiller / air handling unit product lines Primary source: https://dunham-bush.com/our-products/",
   "specifications": [
     {
       "metric": "Water-cooled chiller model lines",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://dunham-bush.com/our-products/",
         "source_id": "geg-dunham-bush-com-a2dd740"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Air-cooled chiller model lines",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://dunham-bush.com/our-products/",
         "source_id": "geg-dunham-bush-com-a2dd740"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Airside equipment certification",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://dunham-bush.com/our-products/",
         "source_id": "geg-dunham-bush-com-a2dd740"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Water-cooled chiller model series",
@@ -44,7 +47,8 @@
       "basis": "Listed DCLC, WCM, WCFX, WCHX, WCS (\"screw, centrifugal and scroll range\")",
       "source": {
         "url": "https://dunham-bush.com/our-products/"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Air-cooled chiller model series",
@@ -52,7 +56,8 @@
       "basis": "Listed ACM, AVX, ACHX, ACDS (\"screw and scroll range\")",
       "source": {
         "url": "https://dunham-bush.com/our-products/"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Heat pump model series",
@@ -60,7 +65,8 @@
       "basis": "Listed WCFXE-HP, ACX-HP, WCS-HP, ACDS-HP",
       "source": {
         "url": "https://dunham-bush.com/our-products/"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Airside products",
@@ -68,7 +74,8 @@
       "basis": "\"Air Handling Unit\" and \"Fan Coil Unit\" listed under Airside; \"comprehensive range of AHRI certified airside equipment\"",
       "source": {
         "url": "https://dunham-bush.com/our-products/"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Company founding year",
@@ -77,7 +84,8 @@
       "source": {
         "url": "https://dunham-bush.com/our-products/"
       },
-      "value": 1894
+      "value": 1894,
+      "source_url": "https://dunham-bush.com/our-products/"
     }
   ],
   "url": "https://dunham-bush.com/our-products/",

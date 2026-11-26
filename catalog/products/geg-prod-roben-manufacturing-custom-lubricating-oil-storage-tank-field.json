@@ -6,7 +6,7 @@
   "equipment": [
     "geg-lube-oil-storage-and-transfer-system"
   ],
-  "description": "field/shop-fabricated atmospheric lube oil storage tank",
+  "description": "field/shop-fabricated atmospheric lube oil storage tank Primary source: https://robenmfg.com/lubricating-oil-storage-application",
   "specifications": [
     {
       "metric": "capacity range",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "tank diameter (maximum)",
@@ -27,7 +28,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "construction standard",
@@ -37,7 +39,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "internal coating options",
@@ -47,7 +50,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "roof type options",
@@ -57,7 +61,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "metals of construction",
@@ -67,7 +72,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "documentation",
@@ -77,7 +83,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application",
         "source_id": "geg-robenmfg-com-lubricating-oil-storage-applica-84489eb"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Capacity",
@@ -85,7 +92,8 @@
       "basis": "Roben: 'Capacity Range: Custom — sized to facility throughput and inventory needs'; FAQ: 'capacities ranging from a few hundred gallons to several million gallons'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Maximum tank diameter",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
       },
-      "value": 60
+      "value": 60,
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Construction standard",
@@ -102,7 +111,8 @@
       "basis": "Roben: 'Construction Standard: API 650, API 620, AWWA D100, or ASME Section VIII per service'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Materials",
@@ -110,7 +120,8 @@
       "basis": "Roben: 'Materials: Selected per product compatibility — carbon steel through specialty alloys'; FAQ: 'carbon steel, stainless steel, duplex, super duplex, Hastelloy, Inconel, and other specialty alloys'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Internal coating",
@@ -118,7 +129,8 @@
       "basis": "Roben: 'Internal Coating: Phenolic, epoxy, glass-lined, rubber-lined per service'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Roof type",
@@ -126,7 +138,8 @@
       "basis": "Roben: 'Roof Type: Cone, dome, internal floating, external floating per vapor pressure'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Accessories",
@@ -134,7 +147,8 @@
       "basis": "Roben: 'Vents, gauges, mixers, heating coils, fire protection, vapor recovery as required'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Certifications",
@@ -142,7 +156,8 @@
       "basis": "Roben: 'ASME Section VIII Division 1 and Division 2 — \"U\" and \"U2\" Stamps; National Board \"R\" Stamp; API 650; API 620; API 653; PED; CRN; NFPA 30; EPA SPCC compliance'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     },
     {
       "metric": "Documentation",
@@ -150,7 +165,8 @@
       "basis": "Roben: 'Full U-1A, MTRs, and NDE documentation supporting facility audits and inspections'; 'ASME data books, API filings, NDE reports, regulatory submittals'",
       "source": {
         "url": "https://robenmfg.com/lubricating-oil-storage-application"
-      }
+      },
+      "source_url": "https://robenmfg.com/lubricating-oil-storage-application"
     }
   ],
   "url": "https://robenmfg.com/lubricating-oil-storage-application",

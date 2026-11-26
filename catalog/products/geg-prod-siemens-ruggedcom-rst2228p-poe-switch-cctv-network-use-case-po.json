@@ -6,7 +6,7 @@
   "equipment": [
     "geg-cctv-system"
   ],
-  "description": "PoE network switch for cameras",
+  "description": "PoE network switch for cameras Primary source: https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
   "specifications": [
     {
       "metric": "use case shown in manufacturer brochure",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",
         "source_id": "geg-cache-industry-siemens-com-ruggedcom-etherne-bbab2e2"
-      }
+      },
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RST2228P - switch type",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "High port density field modular Power-over-Ethernet (PoE) enabled 19-inch Layer 2 rack switch"
+      "value": "High port density field modular Power-over-Ethernet (PoE) enabled 19-inch Layer 2 rack switch",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RST2228P - uplinks",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "10 Gbit/s uplinks; support for IEEE 1588"
+      "value": "10 Gbit/s uplinks; support for IEEE 1588",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RST2228P - module slots",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "6 slots for various media modules"
+      "value": "6 slots for various media modules",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RUGGEDCOM - operating temperature",
@@ -53,7 +57,8 @@
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
       "low": -40,
-      "high": 85
+      "high": 85,
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RUGGEDCOM - universal high-voltage supply",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "88-300 VDC or 85-264 VAC"
+      "value": "88-300 VDC or 85-264 VAC",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RUGGEDCOM - low-voltage supply options",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "12 VDC, 24 VDC or 48 VDC"
+      "value": "12 VDC, 24 VDC or 48 VDC",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RUGGEDCOM - standards compliance",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "IEC 61850-3, IEEE 1613 Class 2 (error-free), NEMA TS 2; CSA/UL 60950 approved to +85 degC"
+      "value": "IEC 61850-3, IEEE 1613 Class 2 (error-free), NEMA TS 2; CSA/UL 60950 approved to +85 degC",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     },
     {
       "metric": "RST2228P - CCTV use case",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
       },
-      "value": "Fully redundant communication network suitable for oil & gas applications; connects PoE cameras, IP phones and other devices"
+      "value": "Fully redundant communication network suitable for oil & gas applications; connects PoE cameras, IP phones and other devices",
+      "source_url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf"
     }
   ],
   "url": "https://cache.industry.siemens.com/dl/files/345/109766345/att_980971/v1/ruggedcom_ethernet_layer_2_switches_en.pdf",

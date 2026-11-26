@@ -10,13 +10,21 @@ def load_products(folder=None):
     return [json.loads(p.read_text(encoding="utf-8")) for p in sorted(pathlib.Path(folder or PRODUCTS).glob("*.json"))]
 
 
+def source_urls(product):
+    """Every URL this record cites, primary catalogue/datasheet first, de-duplicated and ordered."""
+    urls = [product.get("url", "")]
+    urls += [s.get("source", {}).get("url", "") for s in product.get("specifications", [])]
+    urls += [s.get("url", "") for s in product.get("sources", [])]
+    return list(dict.fromkeys(u for u in urls if u.startswith("http")))
+
+
 def summary(product):
     return {
         "id": product["id"], "name": product["name"], "manufacturer": product["manufacturer"],
         "product_type": product["product_type"], "description": product.get("description", ""),
         "equipment": product.get("equipment", []),
         "spec_metrics": [s["metric"] for s in product.get("specifications", [])],
-        "url": product["url"],
+        "url": product["url"], "source_urls": source_urls(product),
     }
 
 

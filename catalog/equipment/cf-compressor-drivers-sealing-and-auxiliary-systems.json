@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Provide shaft power, prevent process-gas leakage to atmosphere, and support lube/seal-oil and capacity control. On offshore platforms electric motors or gas turbines are most common; steam turbines are offered as integrated drivers on some turbo compressors.",
+  "description": "Provide shaft power, prevent process-gas leakage to atmosphere, and support lube/seal-oil and capacity control. On offshore platforms electric motors or gas turbines are most common; steam turbines are offered as integrated drivers on some turbo compressors. Primary source: https://www.howden.com/en-gb/products/compressors",
   "specifications": [
     {
       "metric": "Howden steam turbine power range",
@@ -20,7 +20,8 @@
         "source_id": "sys-howden-com-compressors"
       },
       "low": 75,
-      "high": 40000
+      "high": 40000,
+      "source_url": "https://www.howden.com/en-gb/products/compressors"
     },
     {
       "metric": "Packing vent-gas reduction",
@@ -30,7 +31,8 @@
         "url": "https://www.howden.com/en-gb/products/compressors",
         "source_id": "sys-howden-com-compressors"
       },
-      "value": 20173000
+      "value": 20173000,
+      "source_url": "https://www.howden.com/en-gb/products/compressors"
     },
     {
       "metric": "Compressor improvement standard",
@@ -40,7 +42,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": "API 618"
+      "value": "API 618",
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "geg-service-air-system"
   ],
-  "description": "compressed air treatment and distribution accessories for service air",
+  "description": "compressed air treatment and distribution accessories for service air Primary source: https://aerodyngroup.com/pneumatech",
   "specifications": [
     {
       "metric": "dryer types offered",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "refrigerant dryer pressure dew point",
@@ -27,7 +28,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "adsorption dryer pressure dew point",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Malaysia presence",
@@ -49,7 +52,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech",
         "source_id": "geg-aerodyngroup-com-pneumatech-d91f8ca"
-      }
+      },
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Refrigerant dryer pressure dew point",
@@ -58,7 +62,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Adsorption/desiccant dryer pressure dew point range",
@@ -68,7 +73,8 @@
         "url": "https://aerodyngroup.com/pneumatech"
       },
       "low": -70,
-      "high": -10
+      "high": -10,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Membrane dryer pressure dew point",
@@ -77,7 +83,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "ISO 8573-1 class 1 pressure dew point",
@@ -86,7 +93,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": -70
+      "value": -70,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "ISO 8573-1 class 4 pressure dew point",
@@ -95,7 +103,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Dryer types",
@@ -104,7 +113,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     },
     {
       "metric": "Desiccant regeneration methods",
@@ -113,7 +123,8 @@
       "source": {
         "url": "https://aerodyngroup.com/pneumatech"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://aerodyngroup.com/pneumatech"
     }
   ],
   "url": "https://aerodyngroup.com/pneumatech",

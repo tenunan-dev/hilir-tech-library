@@ -6,7 +6,7 @@
   "equipment": [
     "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246"
   ],
-  "description": "Table read from HTML page. A separate Teledyne Nautilus WM1.7-60 HTML page returned only the header under WebFetch and is treated as search-verified only.",
+  "description": "Table read from HTML page. A separate Teledyne Nautilus WM1.7-60 HTML page returned only the header under WebFetch and is treated as search-verified only. Primary source: https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
   "specifications": [
     {
       "metric": "Mated pressure rating, IE2-BC / IERD2-BC / IE4-BC / IE6,8 BC / IEB2 / IEB6,8",
@@ -16,7 +16,8 @@
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
         "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "Mated pressure rating, IESQ4-BC / IESQ32-BC",
@@ -26,7 +27,8 @@
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
         "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
       },
-      "value": 5000
+      "value": 5000,
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "Mated pressure rating, IEB34",
@@ -36,7 +38,8 @@
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
         "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "Voltage rating, IE series",
@@ -46,7 +49,8 @@
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
         "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "Voltage rating, IE Underwater Pluggable Series 3",
@@ -56,7 +60,8 @@
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
         "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "Number of contacts, IE2-BC",
@@ -67,7 +72,8 @@
         "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
       },
       "low": 2,
-      "high": 8
+      "high": 8,
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "Bulkhead thread, IE2-BC",
@@ -77,7 +83,8 @@
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
         "source_id": "cat-teledynemarine-com-underwater-pluggable-connectors"
       },
-      "value": "7/16\"-20"
+      "value": "7/16\"-20",
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "IE2-BC contacts / voltage / mated pressure",
@@ -85,7 +92,8 @@
       "basis": "Teledyne Impulse Wet Mate table: IE2-BC — 2-8 contacts, 300 VDC, 7/16\"-20 bulkhead thread, 10,000 PSI",
       "source": {
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
-      }
+      },
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "IERD2-BC contacts / voltage / mated pressure",
@@ -93,7 +101,8 @@
       "basis": "Teledyne table: IERD2-BC — 2-8 contacts, 300 VDC, 3/8\"-24 thread, 10,000 PSI",
       "source": {
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
-      }
+      },
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "IESQ4-BC contacts / voltage / mated pressure",
@@ -101,7 +110,8 @@
       "basis": "Teledyne table: IESQ4-BC — 2-8 contacts, 300 VDC, 7/16\"-20 thread, 5,000 PSI",
       "source": {
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
-      }
+      },
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "IE4-BC contacts / voltage / mated pressure",
@@ -109,7 +119,8 @@
       "basis": "Teledyne table: IE4-BC — 4 contacts, 300 VDC, 7/16\"-20 thread, 10,000 PSI",
       "source": {
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
-      }
+      },
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "IE6/8 BC contacts / voltage / mated pressure",
@@ -117,7 +128,8 @@
       "basis": "Teledyne table: IE6/8 BC — 6,8 contacts, 300 VDC, ½\"-20 thread, 10,000 PSI",
       "source": {
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
-      }
+      },
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "IEB2 / IEB6/8 contacts / voltage / pressure",
@@ -125,7 +137,8 @@
       "basis": "Teledyne table: IEB2 — 1 contact, 300 VDC, 10,000 PSI; IEB6/8 — 6,8 contacts, 300 VDC, 10,000 PSI (bulkhead thread blank)",
       "source": {
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
-      }
+      },
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "IE31-BC / IE32-33-BC / IE34-BC (Series 3)",
@@ -133,7 +146,8 @@
       "basis": "Teledyne table: IE31-BC 1 contact, 600 VDC, 7/16\"-20, 10,000 PSI; IE32/33-BC 2,3 contacts, 600 VDC, 7/16\"-20, 10,000 PSI; IE34-BC 4 contacts, 600 VDC, ½\"-20, 10,000 PSI",
       "source": {
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
-      }
+      },
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     },
     {
       "metric": "IEB34 / IESQ32-BC",
@@ -141,7 +155,8 @@
       "basis": "Teledyne table: IEB34 — 4 contacts, 600 VDC, 20,000 PSI; IESQ32-BC — 1,2 contacts, 600 VDC, 7/16\"-20, 5,000 PSI",
       "source": {
         "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
-      }
+      },
+      "source_url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors"
     }
   ],
   "url": "https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",

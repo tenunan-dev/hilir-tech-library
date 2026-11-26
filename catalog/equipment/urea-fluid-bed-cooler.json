@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Fluidised bed cooler / product cooler",
+  "description": "Fluidised bed cooler / product cooler Primary source: https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
   "specifications": [
     {
       "metric": "fluidising cooler power",
@@ -19,7 +19,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 24
+      "value": 24,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     },
     {
       "metric": "bulk flow cooler power",
@@ -29,7 +30,8 @@
         "url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/",
         "source_id": "toyo-eng-com-urea-granulation"
       },
-      "value": 19
+      "value": 19,
+      "source_url": "https://www.toyo-eng.com/jp/en/solution/urea_granulation/"
     }
   ],
   "vendors": [

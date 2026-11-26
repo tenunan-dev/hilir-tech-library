@@ -6,7 +6,7 @@
   "equipment": [
     "geg-diesel-oxidation-catalyst-and-scr-emission-control-system"
   ],
-  "description": "SCR / diesel oxidation catalyst package",
+  "description": "SCR / diesel oxidation catalyst package Primary source: https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
   "specifications": [
     {
       "metric": "SINOx® SCR NOx reduction (power generation brochure)",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
         "source_id": "geg-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
-      }
+      },
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "SCR system durability before maintenance",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "geg-matthey-com-nox-control-systems-af80333"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "DPF (CRT®) reductions — PM",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
         "source_id": "geg-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
-      }
+      },
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "SCR / oxidation catalyst system components",
@@ -49,7 +52,8 @@
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "geg-matthey-com-nox-control-systems-af80333"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "SCRT system functions",
@@ -58,7 +62,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Reduces NOx, PM, VOC, CO, and noise"
+      "value": "Reduces NOx, PM, VOC, CO, and noise",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "SCRT emission tier",
@@ -67,7 +72,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Tier 4 or better"
+      "value": "Tier 4 or better",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "SCRT configuration",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Single-box or modular configuration for any location"
+      "value": "Single-box or modular configuration for any location",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "SCR catalyst",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Made entirely of catalytically active materials; sulfur-tolerant, wide temperature window"
+      "value": "Made entirely of catalytically active materials; sulfur-tolerant, wide temperature window",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "Catalyst cell densities",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Low cpsi for bio and waste gases; medium cpsi for HFO; high cpsi for ULSD, natural gas"
+      "value": "Low cpsi for bio and waste gases; medium cpsi for HFO; high cpsi for ULSD, natural gas",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "ASC function",
@@ -103,7 +112,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Converts NH3 slip to nitrogen; delivers CO, VOC conversion"
+      "value": "Converts NH3 slip to nitrogen; delivers CO, VOC conversion",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "NOx permit example",
@@ -112,7 +122,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": 0.06
+      "value": 0.06,
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "PA DEP limit",
@@ -121,7 +132,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": 0.5
+      "value": 0.5,
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "Federal limit",
@@ -130,7 +142,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": 1.0
+      "value": 1.0,
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "CRT PM reduction",
@@ -139,7 +152,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "high": 85
+      "high": 85,
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     }
   ],
   "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",

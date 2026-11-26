@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Offshore firewater systems use self-contained firewater pump packages (vertical suspended deep-well/wet-pit or horizontal OH/BB types, diesel or electric driven) feeding fixed deluge, hydrants and hose reels. IOGP S-721 and NFPA 20 set performance and testing; Ramboll/NPD report describes deluge and firewater philosophy on unmanned WHPs.",
+  "description": "Offshore firewater systems use self-contained firewater pump packages (vertical suspended deep-well/wet-pit or horizontal OH/BB types, diesel or electric driven) feeding fixed deluge, hydrants and hose reels. IOGP S-721 and NFPA 20 set performance and testing; Ramboll/NPD report describes deluge and firewater philosophy on unmanned WHPs. Primary source: https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
   "aliases": [
     "Firewater pumps, deluge/sprinkler system, hydrants and hose reels"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Firewater pump package (diesel or electr — Column pipe flow velocity at 100% rated flow",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Firewater pump package (diesel or electr — Screens/strainer blockage allowance in submergence calculation",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Firewater pump package (diesel or electr — Wave trough design return period for impeller submergence",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Firewater pump package (diesel or electr — Diesel engine site-rated power margin",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Firewater pump package (diesel or electr — Diesel engine proven field operating service",
@@ -76,7 +81,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Firewater pump package (diesel or electr — Right-angle gearbox continuous operating capability",
@@ -86,7 +92,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Firewater pump package (diesel or electr — Coupling service factor - electric motor via gearbox",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Firewater pump package (diesel or electr — Coupling service factor - diesel engine via gearbox",
@@ -106,7 +114,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Firewater pump package (diesel or electr — Gearbox oil temperature to bearings / return oil",
@@ -117,7 +126,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Firewater pump package (diesel or electr — Independent starting systems",
@@ -127,7 +137,8 @@
       "source": {
         "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
         "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s"
-      }
+      },
+      "source_url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf"
     },
     {
       "metric": "Reliability — Uptime of simple unmanned platforms",
@@ -138,7 +149,8 @@
       "source": {
         "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
         "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
-      }
+      },
+      "source_url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf"
     }
   ],
   "vendor_models": [],

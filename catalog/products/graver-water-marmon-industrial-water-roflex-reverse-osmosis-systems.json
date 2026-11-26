@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-makeup-ro-edi"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver ROFlex RO Systems page. Also links a data sheet PDF (Graver_DataSheet_ROFlex_2020.pdf) which was not fetched.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver ROFlex RO Systems page. Also links a data sheet PDF (Graver_DataSheet_ROFlex_2020.pdf) which was not fetched. Primary source: https://graver.com/makeup/ro/",
   "specifications": [
     {
       "metric": "Membrane size/type",
@@ -16,7 +16,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "in (TFC high rejection BW membranes)",
-      "value": "8 x 40"
+      "value": "8 x 40",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "High pressure piping material",
@@ -26,7 +27,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "n/a",
-      "value": "316L SS sch. 40"
+      "value": "316L SS sch. 40",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Low pressure piping material",
@@ -36,7 +38,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "n/a",
-      "value": "PVC sch. 80"
+      "value": "PVC sch. 80",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Membrane vessel material",
@@ -46,7 +49,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "n/a",
-      "value": "FRP, side-ported"
+      "value": "FRP, side-ported",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Motor supply",
@@ -56,7 +60,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "V / Hz / phase",
-      "value": "460/60/3, TEFC"
+      "value": "460/60/3, TEFC",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Pump type",
@@ -66,7 +71,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "n/a",
-      "value": "stainless steel vertical centrifugal pump"
+      "value": "stainless steel vertical centrifugal pump",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "Typical application",
@@ -76,7 +82,8 @@
         "source_id": "graver-com-makeup-ro"
       },
       "unit": "n/a",
-      "value": "Boiler Water Make-Up"
+      "value": "Boiler Water Make-Up",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - membrane type",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "TFC 8 inch x 40 inch high rejection brackish-water (BW) membranes"
+      "value": "TFC 8 inch x 40 inch high rejection brackish-water (BW) membranes",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - membrane vessels",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "FRP, side-ported"
+      "value": "FRP, side-ported",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - high pressure piping",
@@ -103,7 +112,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "316L stainless steel, schedule 40"
+      "value": "316L stainless steel, schedule 40",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - low pressure piping",
@@ -112,7 +122,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "PVC schedule 80"
+      "value": "PVC schedule 80",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - motor",
@@ -121,7 +132,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "460 V / 60 Hz / 3 phase, TEFC"
+      "value": "460 V / 60 Hz / 3 phase, TEFC",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - pump",
@@ -130,7 +142,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "Stainless steel vertical centrifugal pump"
+      "value": "Stainless steel vertical centrifugal pump",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - instrumentation",
@@ -139,7 +152,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "Permeate TDS meter, digital display flow meters, liquid-filled stainless steel pressure gauges"
+      "value": "Permeate TDS meter, digital display flow meters, liquid-filled stainless steel pressure gauges",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - optional features",
@@ -148,7 +162,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "Nanofiltration membranes, cold water membranes, pH meter, ORP meter, high TDS diversion, 50 Hz system, CIP"
+      "value": "Nanofiltration membranes, cold water membranes, pH meter, ORP meter, high TDS diversion, 50 Hz system, CIP",
+      "source_url": "https://graver.com/makeup/ro/"
     },
     {
       "metric": "ROFlex - typical applications",
@@ -157,7 +172,8 @@
       "source": {
         "url": "https://graver.com/makeup/ro/"
       },
-      "value": "Boiler water make-up, cooling tower make-up/blow down/side stream, wastewater treatment"
+      "value": "Boiler water make-up, cooling tower make-up/blow down/side stream, wastewater treatment",
+      "source_url": "https://graver.com/makeup/ro/"
     }
   ],
   "url": "https://graver.com/makeup/ro/",

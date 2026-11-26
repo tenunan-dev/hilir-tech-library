@@ -11,7 +11,7 @@
     "PWR",
     "PRC"
   ],
-  "description": "Shop-assembled shell boiler in which hot combustion gases pass through tubes surrounded by the water, typically in two to four passes with a reverse-flue turnaround. The standard packaged steam source for small and medium industrial loads and the workhorse of on-site utilities where steam demand runs from tens of thousands of pounds per hour downward.",
+  "description": "Shop-assembled shell boiler in which hot combustion gases pass through tubes surrounded by the water, typically in two to four passes with a reverse-flue turnaround. The standard packaged steam source for small and medium industrial loads and the workhorse of on-site utilities where steam demand runs from tens of thousands of pounds per hour downward. Primary source: https://steineratlantic.com/product/cleaver-brooks-cble-firetube-boiler",
   "subtypes": [
     {
       "name": "Multi-pass dryback / waterback",
@@ -37,7 +37,8 @@
       "source": {
         "url": "https://steineratlantic.com/product/cleaver-brooks-cble-firetube-boiler",
         "note": "Cleaver-Brooks CBLE specification (Steiner-Atlantic distributor page), read 30 October 2026"
-      }
+      },
+      "source_url": "https://steineratlantic.com/product/cleaver-brooks-cble-firetube-boiler"
     },
     {
       "metric": "steam output",
@@ -48,7 +49,8 @@
       "source": {
         "url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler",
         "note": "Miura America EX Dual Fuel steam boiler spec tables, read 30 October 2026"
-      }
+      },
+      "source_url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler"
     },
     {
       "metric": "maximum allowable working pressure, steam",
@@ -59,7 +61,8 @@
       "source": {
         "url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler",
         "note": "Miura America EX Dual Fuel steam boiler spec tables, read 30 October 2026"
-      }
+      },
+      "source_url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler"
     },
     {
       "metric": "fuel-to-steam efficiency (HHV)",
@@ -70,7 +73,8 @@
       "source": {
         "url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler",
         "note": "Miura America EX Dual Fuel steam boiler spec tables, read 30 October 2026"
-      }
+      },
+      "source_url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler"
     },
     {
       "metric": "NOx emissions, cleanest configurations offered",
@@ -80,7 +84,8 @@
       "source": {
         "url": "https://steineratlantic.com/product/cleaver-brooks-cble-firetube-boiler",
         "note": "Cleaver-Brooks CBLE specification (Steiner-Atlantic distributor page), read 30 October 2026"
-      }
+      },
+      "source_url": "https://steineratlantic.com/product/cleaver-brooks-cble-firetube-boiler"
     },
     {
       "metric": "cold start to full steam",
@@ -90,7 +95,8 @@
       "source": {
         "url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler",
         "note": "Miura America EX Dual Fuel steam boiler product page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler"
     },
     {
       "metric": "footprint vs conventional fire-tube",
@@ -100,7 +106,8 @@
       "source": {
         "url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler",
         "note": "Miura America EX Dual Fuel steam boiler product page, read 30 October 2026"
-      }
+      },
+      "source_url": "https://miuraboiler.com/products/ex-dual-fuel-steam-boiler"
     }
   ],
   "vendor_models": [

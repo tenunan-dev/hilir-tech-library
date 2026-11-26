@@ -6,7 +6,7 @@
   "equipment": [
     "steam-drum-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Modular HRSG product page directly with WebFetch (markdown). Steam drum is a subsystem; no standalone steam-drum product line found.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Modular HRSG product page directly with WebFetch (markdown). Steam drum is a subsystem; no standalone steam-drum product line found. Primary source: https://cleaverbrooks.com/product/modular-hrsg",
   "specifications": [
     {
       "metric": "Drum arrangement",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-product-modular-hrsg"
       },
       "unit": "design feature",
-      "value": "Large separate steam drums with high efficiency drum internals"
+      "value": "Large separate steam drums with high efficiency drum internals",
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Circulation",
@@ -26,7 +27,8 @@
         "source_id": "cleaverbrooks-com-product-modular-hrsg"
       },
       "unit": "design feature",
-      "value": "Vertical tube natural circulation; hydraulically matched downcomers and risers"
+      "value": "Vertical tube natural circulation; hydraulically matched downcomers and risers",
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Gas turbine size",
@@ -36,7 +38,8 @@
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
       "low": 25,
-      "high": 60
+      "high": 60,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Turbine exhaust gas flow",
@@ -46,7 +49,8 @@
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
       "low": 500000,
-      "high": 1000000
+      "high": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Steam generation",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "low": 500000
+      "low": 500000,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Design pressure",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "high": 1800
+      "high": 1800,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Superheater outlet temperature",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "high": 1050
+      "high": 1050,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Duct firing temperature",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "high": 2800
+      "high": 2800,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Stack emissions NOx",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "high": 2
+      "high": 2,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "HRSG efficiency",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "low": 80
+      "low": 80,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Fuel reduction",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "high": 7.0
+      "high": 7.0,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "CO2 elimination",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "high": 2870
+      "high": 2870,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Circulation",
@@ -127,7 +139,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": "Natural Circulation"
+      "value": "Natural Circulation",
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Construction",
@@ -136,7 +149,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": "Vertical Tube with Steam Drum"
+      "value": "Vertical Tube with Steam Drum",
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     }
   ],
   "url": "https://cleaverbrooks.com/product/modular-hrsg",

@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Potable water is bunkered to the installation, stored in dedicated tanks and distributed through domestic pipework with chlorination; hot water is provided by calorifiers where fitted. The Marine Safety Forum guidance gives water-quality limits, tank management and disinfection practice for offshore installations.",
+  "description": "Potable water is bunkered to the installation, stored in dedicated tanks and distributed through domestic pipework with chlorination; hot water is provided by calorifiers where fitted. The Marine Safety Forum guidance gives water-quality limits, tank management and disinfection practice for offshore installations. Primary source: https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
   "aliases": [
     "Potable water storage and hot water system"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf"
     },
     {
       "metric": "Potable water storage tank and domestic  — Installation disinfection maintenance range",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf"
     },
     {
       "metric": "Potable water storage tank and domestic  — Good-practice maximum storage before disposal",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf"
     },
     {
       "metric": "Potable water storage tank and domestic  — Super-chlorination concentration",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf"
     },
     {
       "metric": "Potable water storage tank and domestic  — Coliforms / E.coli / Enterococci limit",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf"
     },
     {
       "metric": "Potable water storage tank and domestic  — Chlorides limit",
@@ -76,7 +81,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf"
     },
     {
       "metric": "Potable water storage tank and domestic  — Total viable count at 22 degC / 37 degC",
@@ -86,7 +92,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf"
     },
     {
       "metric": "Potable water storage tank and domestic  — Hydrocarbons limit",
@@ -96,7 +103,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf"
     },
     {
       "metric": "Potable water storage tank and domestic  — Legionella limit",
@@ -106,7 +114,8 @@
       "source": {
         "url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf",
         "source_id": "whp-marinesafetyforum-org-msf-guidance-delivering-quality-potw"
-      }
+      },
+      "source_url": "https://www.marinesafetyforum.org/wp-content/uploads/2018/08/MSF-Guidance-Delivering-Quality-PotWater-to-Offshore-Installations-18th-July-2103.pdf"
     },
     {
       "metric": "Price — Raw water rough cost estimate",
@@ -117,7 +126,8 @@
       "source": {
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
-      }
+      },
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     },
     {
       "metric": "Price — Demineralised water cost multiple",
@@ -128,7 +138,8 @@
       "source": {
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
-      }
+      },
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     }
   ],
   "vendor_models": [],

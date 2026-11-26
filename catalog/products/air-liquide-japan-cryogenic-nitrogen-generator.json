@@ -6,7 +6,7 @@
   "equipment": [
     "ammonia-synthesis-converter"
   ],
-  "description": "Vendor product line read 2026-11-24. No capacity published on the read page.",
+  "description": "Vendor product line read 2026-11-24. No capacity published on the read page. Primary source: https://research.csiro.au/hyresource/allied-green-ammonia/",
   "specifications": [
     {
       "metric": "Scope",
@@ -16,7 +16,8 @@
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",
         "source_id": "research-csiro-au-allied-green-ammonia"
       },
-      "value": "BEDP for cryogenic nitrogen generator"
+      "value": "BEDP for cryogenic nitrogen generator",
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Solar energy capacity",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 4750
+      "value": 4750,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Battery energy storage capacity",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 1600
+      "value": 1600,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Electrolyzer capacity",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Annual renewables-based hydrogen production",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 174500
+      "value": 174500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Annual renewables-based ammonia production",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 958500
+      "value": 958500,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Annual renewables generation",
@@ -70,7 +76,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 9750
+      "value": 9750,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Cryogenic ammonia storage tank capacity (each of two)",
@@ -79,7 +86,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 40000
+      "value": 40000,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Total project cost",
@@ -89,7 +97,8 @@
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
       "value": 6.8,
-      "year": 2025
+      "year": 2025,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     },
     {
       "metric": "Anticipated operations date",
@@ -98,7 +107,8 @@
       "source": {
         "url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
       },
-      "value": 2030
+      "value": 2030,
+      "source_url": "https://research.csiro.au/hyresource/allied-green-ammonia/"
     }
   ],
   "url": "https://research.csiro.au/hyresource/allied-green-ammonia/",

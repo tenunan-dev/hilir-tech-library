@@ -7,7 +7,7 @@
     "IDC",
     "ELE"
   ],
-  "description": "Overhead extruded-aluminium busbar runs that carry power across a data hall and let plug-in tap-off units be added or moved at any point without shutting the run down — the reason busway has displaced cable trays for in-hall distribution. Starline's ranges illustrate the class: Track Busway 40-1250 A, Series-S 100-1200 A (IP54) and high-power enclosed busway 630-6000 A (to IP65), with plug-in units carrying integrated circuit protection and a metering family for branch-level monitoring.",
+  "description": "Overhead extruded-aluminium busbar runs that carry power across a data hall and let plug-in tap-off units be added or moved at any point without shutting the run down — the reason busway has displaced cable trays for in-hall distribution. Starline's ranges illustrate the class: Track Busway 40-1250 A, Series-S 100-1200 A (IP54) and high-power enclosed busway 630-6000 A (to IP65), with plug-in units carrying integrated circuit protection and a metering family for branch-level monitoring. Primary source: https://www.starlinepower.com/products/busway",
   "subtypes": [
     {
       "name": "Track busway (continuous access)",
@@ -38,7 +38,8 @@
       "source": {
         "url": "https://www.starlinepower.com/products/busway",
         "note": "Starline Power busway product page, read 2026-11-12"
-      }
+      },
+      "source_url": "https://www.starlinepower.com/products/busway"
     },
     {
       "metric": "high-power enclosed busway amperage range",
@@ -49,7 +50,8 @@
       "source": {
         "url": "https://www.starlinepower.com/products/busway",
         "note": "Starline Power busway product page, read 2026-11-12"
-      }
+      },
+      "source_url": "https://www.starlinepower.com/products/busway"
     },
     {
       "metric": "Series-S Track Busway rating",
@@ -60,7 +62,8 @@
       "source": {
         "url": "https://www.starlinepower.com/products/busway",
         "note": "Starline Power busway product page, read 2026-11-12"
-      }
+      },
+      "source_url": "https://www.starlinepower.com/products/busway"
     }
   ],
   "vendor_models": [

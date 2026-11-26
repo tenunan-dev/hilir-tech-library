@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Screw conveyors",
+  "description": "Screw conveyors Primary source: https://en.wikipedia.org/wiki/Screw_conveyor",
   "specifications": [
     {
       "metric": "rate control",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Screw_conveyor",
         "source_id": "en-wikipedia-org-wiki-screw-conveyor"
       },
-      "value": "volume transfer rate proportional to rotation rate of the shaft"
+      "value": "volume transfer rate proportional to rotation rate of the shaft",
+      "source_url": "https://en.wikipedia.org/wiki/Screw_conveyor"
     },
     {
       "metric": "inclination effect",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Screw_conveyor",
         "source_id": "en-wikipedia-org-wiki-screw-conveyor"
       },
-      "value": "capacity of a given unit rapidly decreases as angle of inclination increases"
+      "value": "capacity of a given unit rapidly decreases as angle of inclination increases",
+      "source_url": "https://en.wikipedia.org/wiki/Screw_conveyor"
     },
     {
       "metric": "construction",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Screw_conveyor",
         "source_id": "en-wikipedia-org-wiki-screw-conveyor"
       },
-      "value": "trough or tube with spiral blade around a shaft (driven one end, held at other) or shaftless spiral driven at one end and free at the other"
+      "value": "trough or tube with spiral blade around a shaft (driven one end, held at other) or shaftless spiral driven at one end and free at the other",
+      "source_url": "https://en.wikipedia.org/wiki/Screw_conveyor"
     },
     {
       "metric": "Reciprocating gas compressor rating",
@@ -49,7 +52,8 @@
         "url": "https://www.chartindustries.com/Howden",
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
       },
-      "high": 20
+      "high": 20,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Reciprocating compressor speed",
@@ -60,7 +64,8 @@
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
       },
       "low": 260,
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Steam turbine electrical output range",
@@ -71,7 +76,8 @@
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
       },
       "low": 75,
-      "high": 40000
+      "high": 40000,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Steam turbine mechanical drive range",
@@ -82,7 +88,8 @@
         "source_id": "chartindustries-com-www-chartindustries-com-howden"
       },
       "low": 10,
-      "high": 40
+      "high": 40,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Steam turbine power range",
@@ -91,7 +98,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Steam turbine max power",
@@ -100,7 +108,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Steam turbine inlet pressure",
@@ -109,7 +118,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 70
+      "value": 70,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Waste-to-energy installed power",
@@ -118,7 +128,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Cane sugar machines",
@@ -127,7 +138,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Reciprocating compressor rating",
@@ -136,7 +148,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Reciprocating speed",
@@ -147,7 +160,8 @@
       },
       "value": 260,
       "low": 1000,
-      "high": "rpm"
+      "high": "rpm",
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Peter Brotherhood turbine build",
@@ -156,7 +170,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 22
+      "value": 22,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "EmissionGuard gas prevented",
@@ -165,7 +180,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 20173000
+      "value": 20173000,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "EmissionGuard CO2 equivalent",
@@ -174,7 +190,8 @@
       "source": {
         "url": "https://www.chartindustries.com/Howden"
       },
-      "value": 60500
+      "value": 60500,
+      "source_url": "https://www.chartindustries.com/Howden"
     },
     {
       "metric": "Screw compressors",
@@ -182,7 +199,8 @@
       "basis": "'Rotary twin-screw compressors for gas compression applications within oil & gas, power and industrial refrigeration'",
       "source": {
         "url": "https://www.chartindustries.com/Howden"
-      }
+      },
+      "source_url": "https://www.chartindustries.com/Howden"
     }
   ],
   "vendors": [

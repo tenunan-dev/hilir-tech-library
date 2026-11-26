@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Drive jacket piles, conductors and monopiles by controlled hydraulic blows; integrated with drivability analysis and noise mitigation.",
+  "description": "Drive jacket piles, conductors and monopiles by controlled hydraulic blows; integrated with drivability analysis and noise mitigation. Primary source: https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
   "specifications": [
     {
       "metric": "Menck hammer range energy",
@@ -20,7 +20,8 @@
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
       "low": 100,
-      "high": 6250
+      "high": 6250,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU800S energy range / oil flow / pressure / blow rate",
@@ -30,7 +31,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
-      "value": "75-820 kJ / 1,600 L/min / 250 bar / 38 bl/min"
+      "value": "75-820 kJ / 1,600 L/min / 250 bar / 38 bl/min",
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU3500S energy range / oil flow / pressure / blow rate",
@@ -40,7 +42,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
-      "value": "320-3,500 kJ / 5,800 L/min / 240 bar / 32 bl/min"
+      "value": "320-3,500 kJ / 5,800 L/min / 240 bar / 32 bl/min",
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU6000W energy range / oil flow / pressure / blow rate",
@@ -50,7 +53,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
-      "value": "200-6,250 kJ / 12,800 L/min / 210 bar / 30 bl/min"
+      "value": "200-6,250 kJ / 12,800 L/min / 210 bar / 30 bl/min",
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "IQIP IQ8 blow energy",
@@ -60,7 +64,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": ">7500"
+      "value": ">7500",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "Hydrohammer total range / operating history",
@@ -70,7 +75,8 @@
         "url": "https://iqip.com/products/pile-driving-equipment/hydrohammer",
         "source_id": "iqip-com-pile-driving-equipment-hydrohammer"
       },
-      "value": "30 kJ to >7,500 kJ; >5.5 million piles installed; >97% availability"
+      "value": "30 kJ to >7,500 kJ; >5.5 million piles installed; >97% availability",
+      "source_url": "https://iqip.com/products/pile-driving-equipment/hydrohammer"
     },
     {
       "metric": "energy range (spread)",
@@ -80,7 +86,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
-      "value": "100-6,250"
+      "value": "100-6,250",
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU6000W",
@@ -90,7 +97,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
         "source_id": "acteon-com-integrated-marine-foundation-installation-services-hydr"
       },
-      "value": "200-6,250 kJ; 12,800 L/min; 210 bar; 30 bl/min"
+      "value": "200-6,250 kJ; 12,800 L/min; 210 bar; 30 bl/min",
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Range energy",
@@ -100,7 +108,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
       "low": 100,
-      "high": 6250
+      "high": 6250,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "Wind turbine foundations driven",
@@ -109,7 +118,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": "2500+"
+      "value": "2500+",
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU100C energy range",
@@ -119,7 +129,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
       "low": 10,
-      "high": 100
+      "high": 100,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU100C oil flow",
@@ -128,7 +139,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 240
+      "value": 240,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU100C operating pressure",
@@ -137,7 +149,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 275
+      "value": 275,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU100C blow rate",
@@ -146,7 +159,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU150S energy range",
@@ -156,7 +170,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
       "low": 15,
-      "high": 150
+      "high": 150,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU300S energy range",
@@ -166,7 +181,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
       "low": 27,
-      "high": 300
+      "high": 300,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU550S energy range",
@@ -176,7 +192,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
       "low": 50,
-      "high": 550
+      "high": 550,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU800S energy range",
@@ -186,7 +203,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
       "low": 75,
-      "high": 820
+      "high": 820,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU1200S energy range",
@@ -196,7 +214,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
       "low": 110,
-      "high": 1200
+      "high": 1200,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU1900S energy range",
@@ -206,7 +225,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
       "low": 190,
-      "high": 1900
+      "high": 1900,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU2400S energy range",
@@ -216,7 +236,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
       "low": 240,
-      "high": 2400
+      "high": 2400,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU3500S energy range",
@@ -226,7 +247,8 @@
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
       "low": 320,
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU100C weight above (1.6 m foot)",
@@ -235,7 +257,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 10.5
+      "value": 10.5,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU150S weight above (1.6 m foot)",
@@ -244,7 +267,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 21.1
+      "value": 21.1,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU1200S weight above (84\" foot)",
@@ -253,7 +277,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 119
+      "value": 119,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU1900S weight above (84\" foot)",
@@ -262,7 +287,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 158
+      "value": 158,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     },
     {
       "metric": "MHU2400S weight above (3 m foot)",
@@ -271,7 +297,8 @@
       "source": {
         "url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
       },
-      "value": 251
+      "value": 251,
+      "source_url": "https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-insulation-heat-loss"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Thermaxx Boiler Door Insulation Covers page. Page explicitly warns not to add insulation to certain Cleaver-Brooks models (CBR, CBLE, CB, CBEX, CBEXDP).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Thermaxx Boiler Door Insulation Covers page. Page explicitly warns not to add insulation to certain Cleaver-Brooks models (CBR, CBLE, CB, CBEX, CBEXDP). Primary source: https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
   "specifications": [
     {
       "metric": "Fire door surface temperature (uninsulated)",
@@ -16,7 +16,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "deg F",
-      "value": "around 350"
+      "value": "around 350",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Mud drum cover surface temperature (uninsulated)",
@@ -26,7 +27,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "deg F",
-      "value": "around 200"
+      "value": "around 200",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Typical insulation material",
@@ -36,7 +38,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "in",
-      "value": "1 in fiberglass"
+      "value": "1 in fiberglass",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Warranty",
@@ -46,7 +49,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "years",
-      "value": "5 year"
+      "value": "5 year",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Closure system",
@@ -56,7 +60,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "n/a",
-      "value": "velcro and D-rings"
+      "value": "velcro and D-rings",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Equipment covered",
@@ -66,7 +71,8 @@
         "source_id": "thermaxxjackets-com-hot-pipe-valve-equipment-insulation-boiler-i"
       },
       "unit": "n/a",
-      "value": "Boiler Access Doors; Steam Drum Covers; Mud Drum Covers"
+      "value": "Boiler Access Doors; Steam Drum Covers; Mud Drum Covers",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Standard insulation thickness",
@@ -75,7 +81,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Fire door surface temperature",
@@ -84,7 +91,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "high": 350
+      "high": 350,
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Mud drum cover surface temperature",
@@ -93,7 +101,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "high": 200
+      "high": 200,
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Warranty",
@@ -102,7 +111,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Compatible boiler materials",
@@ -111,7 +121,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "value": "steel, iron, copper or brass"
+      "value": "steel, iron, copper or brass",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Customisation",
@@ -120,7 +131,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "value": "made to exact fit; custom boiler insulation panels available"
+      "value": "made to exact fit; custom boiler insulation panels available",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     },
     {
       "metric": "Excluded Cleaver-Brooks models",
@@ -129,7 +141,8 @@
       "source": {
         "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
       },
-      "value": "CBR, CBLE, CB, CBEX, CBEXDP should not be insulated; 4WI, ICB, CBEXE, CBEXP are OK to insulate"
+      "value": "CBR, CBLE, CB, CBEX, CBEXDP should not be insulated; 4WI, ICB, CBEXE, CBEXP are OK to insulate",
+      "source_url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/"
     }
   ],
   "url": "https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",

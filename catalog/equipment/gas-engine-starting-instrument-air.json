@@ -9,7 +9,7 @@
     "PWR",
     "ROT"
   ],
-  "description": "Starting system: starting air/motors, batteries | Compressed air / instrument air and starting air",
+  "description": "Starting system: starting air/motors, batteries | Compressed air / instrument air and starting air Primary source: https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
   "specifications": [
     {
       "metric": "DC control supply",
@@ -20,7 +20,8 @@
         "source_id": "deepseaelectronics-com-auto-mains-utility-failure-control-modules"
       },
       "low": 8,
-      "high": 35
+      "high": 35,
+      "source_url": "https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii"
     },
     {
       "metric": "Instrument air / starting air in plant architecture",
@@ -30,7 +31,8 @@
         "url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN",
         "source_id": "sys-download-se-com-files"
       },
-      "value": "Instrument Air and Starting Air Unit are listed as generator-unit auxiliaries; starting air unit and controller unit are engine-dedicated in the study plant"
+      "value": "Instrument Air and Starting Air Unit are listed as generator-unit auxiliaries; starting air unit and controller unit are engine-dedicated in the study plant",
+      "source_url": "https://download.se.com/files?amp%3Bp_enDocType=White+Paper&p_Doc_Ref=SPD_286_EN"
     }
   ],
   "vendors": [

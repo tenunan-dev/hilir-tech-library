@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
   "specifications": [
     {
       "metric": "cybersecurity compliance",
@@ -16,7 +16,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
-      "value": "IEC 62443-4-1 and IEC 62443-3-3"
+      "value": "IEC 62443-4-1 and IEC 62443-3-3",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "MTP startup improvement",
@@ -26,7 +27,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
         "source_id": "sys-siemens-com-simatic-pcs-7-html"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Version",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "V10.0"
+      "value": "V10.0",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "MTP startup improvement",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": 75
+      "value": 75,
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Cybersecurity compliance",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance"
+      "value": "NIS2-compliant; full IEC 62443-4-1 and IEC 62443-3-3 compliance",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "GMP features",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "GMP-ready audit trails and eSignatures"
+      "value": "GMP-ready audit trails and eSignatures",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "I/O design",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "flexible I/O design; SIMATIC ET 200SP HA compact robust remote I/O"
+      "value": "flexible I/O design; SIMATIC ET 200SP HA compact robust remote I/O",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Service",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "fast service via system ID"
+      "value": "fast service via system ID",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Supplementary features",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "TeleControl and Advanced Process Graphics"
+      "value": "TeleControl and Advanced Process Graphics",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Installed base",
@@ -98,7 +107,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "in use in thousands of installations worldwide"
+      "value": "in use in thousands of installations worldwide",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     },
     {
       "metric": "Digital assistants",
@@ -107,7 +117,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
       },
-      "value": "SIMATIC eaSie voice/chatbot; Concept & Design Tool for cost estimation and BOMs"
+      "value": "SIMATIC eaSie voice/chatbot; Concept & Design Tool for cost estimation and BOMs",
+      "source_url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html"
     }
   ],
   "url": "https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",

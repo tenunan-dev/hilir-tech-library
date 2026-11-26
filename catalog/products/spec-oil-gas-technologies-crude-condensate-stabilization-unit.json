@@ -6,7 +6,7 @@
   "equipment": [
     "wh-fixed-jacket-wellhead-platform"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization",
   "specifications": [
     {
       "metric": "reboiler heat media",
@@ -16,7 +16,8 @@
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization",
         "source_id": "specoilandgas-com-oil-processing-crude-condensate-stabilization"
       },
-      "value": "gas fired, hot oil or steam"
+      "value": "gas fired, hot oil or steam",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Function",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "removes light ends from crude or condensate to meet specified vapour-pressure limit for storage, transport or export"
+      "value": "removes light ends from crude or condensate to meet specified vapour-pressure limit for storage, transport or export",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Specification target",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "Reid vapour pressure (RVP)"
+      "value": "Reid vapour pressure (RVP)",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "H2S option",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "H2S stripping from liquid to meet maximum allowable H2S content"
+      "value": "H2S stripping from liquid to meet maximum allowable H2S content",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Major equipment",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "Stabilization Column (trays or structured packing); Stabilizer Reboiler; Stabilized/Unstabilized Heat Exchangers; Reflux Condenser"
+      "value": "Stabilization Column (trays or structured packing); Stabilizer Reboiler; Stabilized/Unstabilized Heat Exchangers; Reflux Condenser",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Arrangement",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "Smaller units: column mounted directly on reboiler; Larger units: separate column and reboiler"
+      "value": "Smaller units: column mounted directly on reboiler; Larger units: separate column and reboiler",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Reboiler heat sources",
@@ -70,7 +76,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "gas fired, hot oil or steam"
+      "value": "gas fired, hot oil or steam",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Materials/design option",
@@ -79,7 +86,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "NACE compliant design for sour service where H2S is present"
+      "value": "NACE compliant design for sour service where H2S is present",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Delivery",
@@ -88,7 +96,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "skid-mounted modules"
+      "value": "skid-mounted modules",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     },
     {
       "metric": "Project reference",
@@ -97,7 +106,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
       },
-      "value": "Gas Treatment Units for Makat and Balgymbaeva Fields, Kazakhstan, 2013"
+      "value": "Gas Treatment Units for Makat and Balgymbaeva Fields, Kazakhstan, 2013",
+      "source_url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/oil-processing/crude-condensate-stabilization",

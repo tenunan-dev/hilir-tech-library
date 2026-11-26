@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Diesel oxidation catalyst and SCR emission control system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Diesel oxidation catalyst and SCR emission control system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
   "aliases": [
     "Diesel oxidation catalyst and SCR emission control system"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
         "source_id": "geg-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
-      }
+      },
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "Johnson Matthey SINOx® SCR, SCRT®, ASC — SCR system durability before maintenance",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "geg-matthey-com-nox-control-systems-af80333"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Johnson Matthey SINOx® SCR, SCRT®, ASC — DPF (CRT®) reductions — PM",
@@ -50,7 +52,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
         "source_id": "geg-matthey-com-70214546-a466-cf73-4c96-9faff046-67c3fd9"
-      }
+      },
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "Johnson Matthey SINOx® SCR, SCRT®, ASC — SCR / oxidation catalyst system components",
@@ -60,7 +63,8 @@
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "geg-matthey-com-nox-control-systems-af80333"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Umicore DNX® / DNU / DNO / DNA / DOC / — Industrial references for catalytic oxidation, SCR, catalytic particulate filtration, ammonia oxidation and N2O reducti",
@@ -71,7 +75,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
         "source_id": "geg-umicore-com-data-center-emission-control-cat-a1abcab"
-      }
+      },
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Umicore DNX® / DNU / DNO / DNA / DOC / — Catalyst combinations for backup and continuous diesel/gas engines",
@@ -81,7 +86,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
         "source_id": "geg-umicore-com-data-center-emission-control-cat-a1abcab"
-      }
+      },
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Compact SCR system for 500–4500 kW eng — Engine power range",
@@ -93,7 +99,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en",
         "source_id": "geg-patents-google-com-en-70a2d76"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Compact SCR system for 500–4500 kW eng — Aqueous urea concentration ranges",
@@ -105,7 +112,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en",
         "source_id": "geg-patents-google-com-en-70a2d76"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Compact SCR system for 500–4500 kW eng — Preferred SCR catalyst cell density",
@@ -117,7 +125,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en",
         "source_id": "geg-patents-google-com-en-70a2d76"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Selective catalytic reduction (SCR — NOx reduction efficiency, SCR",
@@ -129,7 +138,8 @@
       "source": {
         "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1554929/download-documents?artifactId=-hT6UcbS3XcKgNIbG490_B_-0V7oBM7JNPT4FaCk9eSn1NLxYJoZEzw",
         "source_id": "gef-ptacts-uspto-gov-download-documents-b9238df"
-      }
+      },
+      "source_url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1554929/download-documents?artifactId=-hT6UcbS3XcKgNIbG490_B_-0V7oBM7JNPT4FaCk9eSn1NLxYJoZEzw"
     },
     {
       "metric": "Selective catalytic reduction (SCR — Optimum temperature range",
@@ -140,7 +150,8 @@
       "source": {
         "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1554929/download-documents?artifactId=-hT6UcbS3XcKgNIbG490_B_-0V7oBM7JNPT4FaCk9eSn1NLxYJoZEzw",
         "source_id": "gef-ptacts-uspto-gov-download-documents-b9238df"
-      }
+      },
+      "source_url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1554929/download-documents?artifactId=-hT6UcbS3XcKgNIbG490_B_-0V7oBM7JNPT4FaCk9eSn1NLxYJoZEzw"
     },
     {
       "metric": "Selective catalytic reduction (SCR — Permitted ammonia slip, US",
@@ -151,7 +162,8 @@
       "source": {
         "url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1554929/download-documents?artifactId=-hT6UcbS3XcKgNIbG490_B_-0V7oBM7JNPT4FaCk9eSn1NLxYJoZEzw",
         "source_id": "gef-ptacts-uspto-gov-download-documents-b9238df"
-      }
+      },
+      "source_url": "https://ptacts.uspto.gov/ptacts/public-informations/petitions/1554929/download-documents?artifactId=-hT6UcbS3XcKgNIbG490_B_-0V7oBM7JNPT4FaCk9eSn1NLxYJoZEzw"
     },
     {
       "metric": "Selective catalytic reduction (SCR — NOx level attainable with SCR, gas engine",
@@ -162,7 +174,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Selective catalytic reduction (SCR — Engine-out NOx, lean-burn gas engine (optimised / efficiency-optimised)",
@@ -174,7 +187,8 @@
       "source": {
         "url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf",
         "source_id": "gef-wartsila-com-wartsila-bwp-combustion-engine-81bafb4"
-      }
+      },
+      "source_url": "https://www.wartsila.com/docs/default-source/power-plants-documents/downloads/white-papers/general/wartsila-bwp-combustion-engine-power-plants.pdf"
     },
     {
       "metric": "Engine power range",
@@ -185,7 +199,8 @@
       },
       "value": 500,
       "low": 4500,
-      "high": "kW"
+      "high": "kW",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Subrange 1",
@@ -196,7 +211,8 @@
       },
       "value": 500,
       "low": 1000,
-      "high": "kW"
+      "high": "kW",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Subrange 2",
@@ -207,7 +223,8 @@
       },
       "value": 1000,
       "low": 2000,
-      "high": "kW"
+      "high": "kW",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Subrange 3",
@@ -218,7 +235,8 @@
       },
       "value": 2000,
       "low": 4500,
-      "high": "kW"
+      "high": "kW",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "NSR range",
@@ -229,7 +247,8 @@
       },
       "value": 0.1,
       "low": 2,
-      "high": "ratio"
+      "high": "ratio",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Preferred NSR",
@@ -240,7 +259,8 @@
       },
       "value": 0.6,
       "low": 1.2,
-      "high": "ratio"
+      "high": "ratio",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Urea concentration range",
@@ -251,7 +271,8 @@
       },
       "value": 5,
       "low": 70,
-      "high": "%"
+      "high": "%",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Preferred urea concentration",
@@ -262,7 +283,8 @@
       },
       "value": 15,
       "low": 60,
-      "high": "%"
+      "high": "%",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "More preferred urea concentration",
@@ -273,7 +295,8 @@
       },
       "value": 30,
       "low": 40,
-      "high": "%"
+      "high": "%",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Urea decomposition temperature",
@@ -282,7 +305,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 140
+      "value": 140,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Catalyst cell density",
@@ -293,7 +317,8 @@
       },
       "value": 45,
       "low": 400,
-      "high": "cpsi"
+      "high": "cpsi",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Preferred catalyst brick cross section",
@@ -302,7 +327,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 150
+      "value": 150,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Exhaust gas temperature minimum",
@@ -311,7 +337,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Typical exhaust gas temperature",
@@ -322,7 +349,8 @@
       },
       "value": 180,
       "low": 650,
-      "high": "degC"
+      "high": "degC",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Test engine displacement",
@@ -331,7 +359,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 16
+      "value": 16,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Test engine power",
@@ -340,7 +369,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 430
+      "value": 430,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Test exhaust temperature",
@@ -351,7 +381,8 @@
       },
       "value": 430,
       "low": 510,
-      "high": "degC"
+      "high": "degC",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Test ANR values",
@@ -362,7 +393,8 @@
       },
       "value": 0.8,
       "low": 1.1,
-      "high": "ratio"
+      "high": "ratio",
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Test exhaust mass flow",
@@ -371,7 +403,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 1200
+      "value": 1200,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Raw NOx concentration",
@@ -380,7 +413,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "Vaporization air pressure",
@@ -389,7 +423,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP3137745B1/en"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://patents.google.com/patent/EP3137745B1/en"
     },
     {
       "metric": "DNX catalyst",
@@ -398,7 +433,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "V/T/W SCR for high-efficiency NOx removal; sulfur resistant"
+      "value": "V/T/W SCR for high-efficiency NOx removal; sulfur resistant",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DNU catalyst",
@@ -407,7 +443,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "CuSCR for NOx removal with lowest possible volume"
+      "value": "CuSCR for NOx removal with lowest possible volume",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DNO catalyst",
@@ -416,7 +453,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "Oxidation of VOC & CO; dual functionality oxidation and SCR; sulfur resistant"
+      "value": "Oxidation of VOC & CO; dual functionality oxidation and SCR; sulfur resistant",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DNA catalyst",
@@ -425,7 +463,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "Ammonia slip catalyst for NH3 removal"
+      "value": "Ammonia slip catalyst for NH3 removal",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DOC catalyst",
@@ -434,7 +473,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "Diesel oxidation catalyst for VOC oxidation"
+      "value": "Diesel oxidation catalyst for VOC oxidation",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DOX catalyst",
@@ -443,7 +483,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "Oxidation of VOC & CO; Pt or Pt/Pd based formulations"
+      "value": "Oxidation of VOC & CO; Pt or Pt/Pd based formulations",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Catalyst combination - backup/continuous diesel and gas engines",
@@ -452,7 +493,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "DNX + DNO for high NOx/NH3/VOC efficiency and endurance, high sulfur resistance"
+      "value": "DNX + DNO for high NOx/NH3/VOC efficiency and endurance, high sulfur resistance",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Catalyst combination - particles and NOx",
@@ -461,7 +503,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "cDPF + DNU for particles and NOx removal with low catalyst volume"
+      "value": "cDPF + DNU for particles and NOx removal with low catalyst volume",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Catalyst combination - ammonia engines",
@@ -470,7 +513,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "DNX + DNA + DNZ for combined NOx, NH3 and N2O abatement"
+      "value": "DNX + DNA + DNZ for combined NOx, NH3 and N2O abatement",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Catalyst combination - methanol engines",
@@ -479,7 +523,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "DNX + DNO for NOx, methanol, formaldehyde and HCN abatement"
+      "value": "DNX + DNO for NOx, methanol, formaldehyde and HCN abatement",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Umicore - catalytic emission control experience",
@@ -488,7 +533,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "More than 40 years; over 10,000 industrial references"
+      "value": "More than 40 years; over 10,000 industrial references",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "SCRT system functions",
@@ -497,7 +543,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Reduces NOx, PM, VOC, CO, and noise"
+      "value": "Reduces NOx, PM, VOC, CO, and noise",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "SCRT emission tier",
@@ -506,7 +553,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Tier 4 or better"
+      "value": "Tier 4 or better",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "SCRT configuration",
@@ -515,7 +563,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Single-box or modular configuration for any location"
+      "value": "Single-box or modular configuration for any location",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "SCR catalyst",
@@ -524,7 +573,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Made entirely of catalytically active materials; sulfur-tolerant, wide temperature window"
+      "value": "Made entirely of catalytically active materials; sulfur-tolerant, wide temperature window",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "Catalyst cell densities",
@@ -533,7 +583,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Low cpsi for bio and waste gases; medium cpsi for HFO; high cpsi for ULSD, natural gas"
+      "value": "Low cpsi for bio and waste gases; medium cpsi for HFO; high cpsi for ULSD, natural gas",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "ASC function",
@@ -542,7 +593,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": "Converts NH3 slip to nitrogen; delivers CO, VOC conversion"
+      "value": "Converts NH3 slip to nitrogen; delivers CO, VOC conversion",
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "NOx permit example",
@@ -551,7 +603,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": 0.06
+      "value": 0.06,
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "PA DEP limit",
@@ -560,7 +613,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": 0.5
+      "value": 0.5,
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "Federal limit",
@@ -569,7 +623,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "value": 1.0
+      "value": 1.0,
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     },
     {
       "metric": "CRT PM reduction",
@@ -578,7 +633,8 @@
       "source": {
         "url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
       },
-      "high": 85
+      "high": 85,
+      "source_url": "https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da"
     }
   ],
   "vendor_models": [

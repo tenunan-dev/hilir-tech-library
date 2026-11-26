@@ -11,7 +11,7 @@
   "sector_codes": [
     "PWR"
   ],
-  "description": "Boiler fired by hot combustion-turbine or furnace exhaust gas rather than by burners, raised in horizontal or vertical panels behind a gas turbine with one or more drum pressures and optionally reheat. Converts a gas turbine into a combined-cycle or cogeneration plant and is the deciding component for how much of the turbine exhaust energy becomes steam.",
+  "description": "Boiler fired by hot combustion-turbine or furnace exhaust gas rather than by burners, raised in horizontal or vertical panels behind a gas turbine with one or more drum pressures and optionally reheat. Converts a gas turbine into a combined-cycle or cogeneration plant and is the deciding component for how much of the turbine exhaust energy becomes steam. Primary source: https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
   "applications": [
     "combined-cycle power generation",
     "site-wide cogeneration steam for refineries and petrochemical complexes",
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf",
         "note": "US EPA technical support document: efficient generation from combustion turbine EGUs, April 2024"
-      }
+      },
+      "source_url": "https://www.epa.gov/system/files/documents/2024-04/tsd-efficient-generation-combustion-turbine-egus-april-2024.pdf"
     },
     {
       "metric": "installed HRSG fleet, GE Vernova",
@@ -37,7 +38,8 @@
         "source_id": "ge-vernova-hrsg"
       },
       "unit": "units",
-      "value": 1300
+      "value": 1300,
+      "source_url": "https://www.gevernova.com/gas-power/products/hrsg"
     },
     {
       "metric": "once-through HRSG operating experience",
@@ -47,7 +49,8 @@
         "source_id": "ge-vernova-hrsg"
       },
       "unit": "million hours",
-      "value": 2.5
+      "value": 2.5,
+      "source_url": "https://www.gevernova.com/gas-power/products/hrsg"
     },
     {
       "metric": "US combined-cycle capacity with duct burners",
@@ -57,7 +60,8 @@
         "source_id": "eia-duct-burners"
       },
       "unit": "GW",
-      "value": 208
+      "value": 208,
+      "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=52778"
     },
     {
       "metric": "HRSG component scope",
@@ -67,7 +71,8 @@
         "source_id": "bw-hrsg-components"
       },
       "unit": "qualitative",
-      "value": "pressure parts and catalyst housings"
+      "value": "pressure parts and catalyst housings",
+      "source_url": "https://www.babcock.com/home/products-services/specialized-businesses/hrsg-components-modules-harps-tubes"
     },
     {
       "metric": "Gas turbine range",
@@ -78,7 +83,8 @@
       },
       "unit": "MW",
       "low": 25,
-      "high": 60
+      "high": 60,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Turbine exhaust gas flow",
@@ -89,7 +95,8 @@
       },
       "unit": "lb/hr",
       "low": 500000,
-      "high": 1000000
+      "high": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Steam generation",
@@ -99,7 +106,8 @@
         "source_id": "cleaverbrooks-com-product-modular-hrsg"
       },
       "unit": "lb/hr (500,000+)",
-      "value": 500000
+      "value": 500000,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Design pressure",
@@ -109,7 +117,8 @@
         "source_id": "cleaverbrooks-com-product-modular-hrsg"
       },
       "unit": "psig (up to)",
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Superheater outlet temperature",
@@ -119,7 +128,8 @@
         "source_id": "cleaverbrooks-com-product-modular-hrsg"
       },
       "unit": "deg F",
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "NOx with SCR",
@@ -129,7 +139,8 @@
         "source_id": "cleaverbrooks-com-product-modular-hrsg"
       },
       "unit": "ppm NOx (less than, available)",
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Construction",
@@ -139,7 +150,8 @@
         "source_id": "cleaverbrooks-com-product-modular-hrsg"
       },
       "unit": "construction",
-      "value": "Vertical tube natural circulation with steam drum; field erected; single or multiple pressure levels"
+      "value": "Vertical tube natural circulation with steam drum; field erected; single or multiple pressure levels",
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Exhaust gas flow",
@@ -149,7 +161,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "lb/hr (up to)",
-      "value": 1000000
+      "value": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam generation",
@@ -160,7 +173,8 @@
       },
       "unit": "lb/hr",
       "low": 10000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Design pressure",
@@ -170,7 +184,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "psig (up to)",
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam temperature",
@@ -180,7 +195,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "deg F (up to)",
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Duct firing temperature",
@@ -190,7 +206,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "deg F (up to)",
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "exhaust_gas_flows",
@@ -199,7 +216,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "high": 1000000
+      "high": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "steam_generation",
@@ -209,7 +227,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 10000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "design_pressure",
@@ -218,7 +237,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "steam_temperature",
@@ -227,7 +247,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "duct_firing_temperature",
@@ -236,7 +257,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "NOx_with_SCR",
@@ -245,7 +267,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "high": 2
+      "high": 2,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "gas_turbine_size",
@@ -255,7 +278,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 3,
-      "high": 25
+      "high": 25,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "thermal_efficiency",
@@ -264,7 +288,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "low": 80
+      "low": 80,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "fuel_reduction",
@@ -273,7 +298,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "high": 7.0
+      "high": 7.0,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "CO2_emissions_eliminated",
@@ -282,7 +308,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2870
+      "value": 2870,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "assembly_circulation_construction",
@@ -291,7 +318,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction"
+      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction",
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "models",
@@ -300,7 +328,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": "MF (O-style), MFA (A-style), VL (O-style), VLA (A-style)"
+      "value": "MF (O-style), MFA (A-style), VL (O-style), VLA (A-style)",
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Modular HRSG - gas turbine-generator range",
@@ -310,7 +339,8 @@
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
       "low": 25,
-      "high": 60
+      "high": 60,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Modular HRSG - turbine exhaust gas flow",
@@ -320,7 +350,8 @@
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
       "low": 500000,
-      "high": 1000000
+      "high": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Modular HRSG - steam generation",
@@ -329,7 +360,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": 500000
+      "value": 500000,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Modular HRSG - design pressure",
@@ -338,7 +370,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Modular HRSG - superheater outlet temperature",
@@ -347,7 +380,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Modular HRSG - duct firing temperature",
@@ -356,7 +390,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Modular HRSG - stack NOx with SCR",
@@ -365,7 +400,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Modular HRSG - efficiency",
@@ -374,7 +410,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Modular HRSG - fuel reduction",
@@ -383,7 +420,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": 7.0
+      "value": 7.0,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Modular HRSG - CO2 emissions reduction",
@@ -392,7 +430,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": 2870
+      "value": 2870,
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     },
     {
       "metric": "Modular HRSG - construction",
@@ -401,7 +440,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/modular-hrsg"
       },
-      "value": "Vertical Tube with Steam Drum"
+      "value": "Vertical Tube with Steam Drum",
+      "source_url": "https://cleaverbrooks.com/product/modular-hrsg"
     }
   ],
   "vendor_models": [

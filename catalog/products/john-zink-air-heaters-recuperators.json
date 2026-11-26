@@ -6,7 +6,7 @@
   "equipment": [
     "air-preheater-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched John Zink Products page directly with WebFetch (markdown). This is a process air-heater/recuperator category, NOT a boiler air preheater; no standalone boiler air-preheater spec page was found. See gaps.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched John Zink Products page directly with WebFetch (markdown). This is a process air-heater/recuperator category, NOT a boiler air preheater; no standalone boiler air-preheater spec page was found. See gaps. Primary source: https://www.johnzink.com/products",
   "specifications": [
     {
       "metric": "Function",
@@ -16,7 +16,8 @@
         "source_id": "johnzink-com-products"
       },
       "unit": "qualitative",
-      "value": "Advanced combustion solutions for indirect-fired process gas heating applications"
+      "value": "Advanced combustion solutions for indirect-fired process gas heating applications",
+      "source_url": "https://www.johnzink.com/products"
     },
     {
       "metric": "Characteristics",
@@ -26,7 +27,8 @@
         "source_id": "johnzink-com-products"
       },
       "unit": "qualitative",
-      "value": "Clean air contact with products and high efficiency in heat transfer"
+      "value": "Clean air contact with products and high efficiency in heat transfer",
+      "source_url": "https://www.johnzink.com/products"
     },
     {
       "metric": "Product description",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.johnzink.com/products"
       },
-      "value": "advanced combustion solutions designed for indirect-fired process gas heating applications, ensuring clean air contact with products and high efficiency in heat transfer"
+      "value": "advanced combustion solutions designed for indirect-fired process gas heating applications, ensuring clean air contact with products and high efficiency in heat transfer",
+      "source_url": "https://www.johnzink.com/products"
     },
     {
       "metric": "Related waste gas destruction efficiency",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.johnzink.com/products"
       },
-      "high": 98
+      "high": 98,
+      "source_url": "https://www.johnzink.com/products"
     }
   ],
   "url": "https://www.johnzink.com/products",

@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. 50/60 Hz; Quiet and Standard ranges",
+  "description": "Vendor product line read 2026-11-24. 50/60 Hz; Quiet and Standard ranges Primary source: https://www.cummins.com/en-apac/generators/diesel",
   "specifications": [
     {
       "metric": "Rating range",
@@ -17,7 +17,8 @@
         "source_id": "cat-cummins-com-diesel"
       },
       "low": 15,
-      "high": 3750
+      "high": 3750,
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Load acceptance",
@@ -27,7 +28,8 @@
         "url": "https://www.cummins.com/en-apac/generators/diesel",
         "source_id": "cat-cummins-com-diesel"
       },
-      "value": "<10"
+      "value": "<10",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Emission certification",
@@ -37,7 +39,8 @@
         "url": "https://www.cummins.com/en-apac/generators/diesel",
         "source_id": "cat-cummins-com-diesel"
       },
-      "value": "Tier 4F (rental)"
+      "value": "Tier 4F (rental)",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Generator set power range",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel"
       },
-      "value": "15 - 3750 kVA"
+      "value": "15 - 3750 kVA",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Commercial genset start and load acceptance",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/diesel"
       },
-      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step"
+      "value": "Able to start and assume load in less than 10 seconds, and rated load in a single step",
+      "source_url": "https://www.cummins.com/en-apac/generators/diesel"
     },
     {
       "metric": "Quiet Diesel series frequency",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "60, 50"
+      "value": "60, 50",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel noise reduction",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel full-load ambient capability",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "120 F (50 C)"
+      "value": "120 F (50 C)",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     },
     {
       "metric": "Quiet Diesel construction and mounting",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
       },
-      "value": "Totally enclosed incl. cooling, muffler and intake; 4-point mounting system"
+      "value": "Totally enclosed incl. cooling, muffler and intake; 4-point mounting system",
+      "source_url": "https://www.cummins.com/en-apac/generators/products/cummins-quiet-diesel-generators"
     }
   ],
   "url": "https://www.cummins.com/en-apac/generators/diesel",

@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Subscription document; scope verified.",
+  "description": "Vendor product line read 2026-11-24. Subscription document; scope verified. Primary source: https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
   "specifications": [
     {
       "metric": "edition",
@@ -16,7 +16,8 @@
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
         "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
       },
-      "value": "2024-10, amended 2025-10"
+      "value": "2024-10, amended 2025-10",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
     },
     {
       "metric": "DNV-RP-C203 - edition / amendment",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
       },
-      "value": "Edition 2024-10 - Amended 2025-10"
+      "value": "Edition 2024-10 - Amended 2025-10",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
     },
     {
       "metric": "DNV-RP-C203 - objective",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
       },
-      "value": "Methods for fatigue assessment of offshore steel structures and structural components, ensuring safe fatigue design"
+      "value": "Methods for fatigue assessment of offshore steel structures and structural components, ensuring safe fatigue design",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
     }
   ],
   "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",

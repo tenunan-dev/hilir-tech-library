@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "33 kV busbar potential transformer for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "33 kV busbar potential transformer for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
   "aliases": [
     "33 kV busbar potential transformer"
   ],
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
         "source_id": "geg-r-jina-ai-download-484bca2"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
     },
     {
       "metric": "33 kV inductive voltage transformer, o — rated short-time thermal current",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
         "source_id": "geg-r-jina-ai-download-484bca2"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
     },
     {
       "metric": "33 kV inductive voltage transformer, o — rated secondary voltage / ratio",
@@ -49,7 +51,8 @@
       "source": {
         "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
         "source_id": "geg-r-jina-ai-download-484bca2"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
     },
     {
       "metric": "33 kV inductive voltage transformer, o — accuracy classes and output",
@@ -60,7 +63,8 @@
       "source": {
         "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
         "source_id": "geg-r-jina-ai-download-484bca2"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
     },
     {
       "metric": "33 kV inductive voltage transformer, o — voltage factor",
@@ -70,7 +74,8 @@
       "source": {
         "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
         "source_id": "geg-r-jina-ai-download-484bca2"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
     },
     {
       "metric": "33 kV inductive voltage transformer, o — lightning impulse withstand (dry impulse, peak)",
@@ -81,7 +86,8 @@
       "source": {
         "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
         "source_id": "geg-r-jina-ai-download-484bca2"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
     },
     {
       "metric": "33 kV inductive voltage transformer, o — power frequency withstand (wet 1 min)",
@@ -92,7 +98,8 @@
       "source": {
         "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
         "source_id": "geg-r-jina-ai-download-484bca2"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
     },
     {
       "metric": "33 kV inductive voltage transformer, o — minimum phase-to-earth creepage distance",
@@ -103,7 +110,8 @@
       "source": {
         "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
         "source_id": "geg-r-jina-ai-download-484bca2"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
     },
     {
       "metric": "33 kV inductive voltage transformer, o — system earthing",
@@ -113,7 +121,8 @@
       "source": {
         "url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download",
         "source_id": "geg-r-jina-ai-download-484bca2"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://northernpowergrid.opendatasoft.com/explore/dataset/document_library/files/7da89b287743e31e5770b071642aea0c/download"
     }
   ],
   "vendor_models": [],

@@ -6,7 +6,7 @@
   "equipment": [
     "wh-christmas-tree-surface-and-subsea"
   ],
-  "description": "Vendor product line read 2026-11-24. fetched",
+  "description": "Vendor product line read 2026-11-24. fetched Primary source: https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
   "specifications": [
     {
       "metric": "Pressure",
@@ -16,7 +16,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Temperature",
@@ -26,7 +27,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Water depth",
@@ -36,7 +38,8 @@
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",
         "source_id": "sys-technipfmc-com-0277d2"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Pressure rating",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Temperature rating",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Water depth rating",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "EVDT deepest completion record",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
       },
-      "value": 9627
+      "value": 9627,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Tree configurations",
@@ -80,7 +87,8 @@
       "basis": "'wide range of vertical and horizontal subsea tree solutions'",
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
-      }
+      },
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     },
     {
       "metric": "Experience",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
       },
-      "value": 40
+      "value": 40,
+      "source_url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/"
     }
   ],
   "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/",

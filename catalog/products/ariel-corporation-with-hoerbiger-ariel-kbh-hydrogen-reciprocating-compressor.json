@@ -6,7 +6,7 @@
   "equipment": [
     "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
   ],
-  "description": "Vertically oriented, non-lubricated cylinders for gas purity; page claims 500 bar discharge at 250 kg/h means 1 KBH does the work of 5-6 leading diaphragm style compressors. Linked KBH product sheet is a PDF (not read).",
+  "description": "Vertically oriented, non-lubricated cylinders for gas purity; page claims 500 bar discharge at 250 kg/h means 1 KBH does the work of 5-6 leading diaphragm style compressors. Linked KBH product sheet is a PDF (not read). Primary source: https://www.arielcorp.com/compressors/kbh.html",
   "specifications": [
     {
       "metric": "Suction pressure",
@@ -17,7 +17,8 @@
         "source_id": "cat-arielcorp-com-kbh-html"
       },
       "low": 25,
-      "high": 370
+      "high": 370,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Discharge pressure",
@@ -27,7 +28,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Flow at design point",
@@ -37,7 +39,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Number of stages",
@@ -47,7 +50,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Stroke",
@@ -57,7 +61,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 4.25
+      "value": 4.25,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Max RPM",
@@ -67,7 +72,8 @@
         "url": "https://www.arielcorp.com/compressors/kbh.html",
         "source_id": "cat-arielcorp-com-kbh-html"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Suction pressure",
@@ -76,7 +82,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 370
+      "value": 370,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Suction pressure (metric)",
@@ -85,7 +92,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 25
+      "value": 25,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Discharge pressure",
@@ -94,7 +102,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 7250
+      "value": 7250,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Discharge pressure (metric)",
@@ -103,7 +112,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Flow at design point",
@@ -112,7 +122,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Number of stages",
@@ -121,7 +132,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Stroke",
@@ -130,7 +142,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 4.25
+      "value": 4.25,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Stroke (metric)",
@@ -139,7 +152,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 108
+      "value": 108,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Max RPM",
@@ -148,7 +162,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Orientation",
@@ -157,7 +172,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": "vertically oriented"
+      "value": "vertically oriented",
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Lubrication",
@@ -166,7 +182,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": "non-lubricated cylinders"
+      "value": "non-lubricated cylinders",
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Load capability",
@@ -175,7 +192,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": "Capable of full non-reversing loads"
+      "value": "Capable of full non-reversing loads",
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     },
     {
       "metric": "Productivity claim",
@@ -184,7 +202,8 @@
       "source": {
         "url": "https://www.arielcorp.com/compressors/kbh.html"
       },
-      "value": "1 KBH Compressor does the work of 5-6 leading diaphragm style compressors"
+      "value": "1 KBH Compressor does the work of 5-6 leading diaphragm style compressors",
+      "source_url": "https://www.arielcorp.com/compressors/kbh.html"
     }
   ],
   "url": "https://www.arielcorp.com/compressors/kbh.html",

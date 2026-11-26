@@ -9,7 +9,7 @@
     "ROT",
     "CIV"
   ],
-  "description": "Provides helicopter landing and personnel transfer, a safe bridge connection between platforms, and living quarters/control room spaces.",
+  "description": "Provides helicopter landing and personnel transfer, a safe bridge connection between platforms, and living quarters/control room spaces. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

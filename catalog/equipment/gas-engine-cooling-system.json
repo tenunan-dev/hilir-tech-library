@@ -9,7 +9,7 @@
     "PWR",
     "ROT"
   ],
-  "description": "Engine cooling: jacket-water system, radiator, cooling tower, heat exchanger, circulating pumps | Cooling water / cooling towers (open and closed) and heat rejection | Closed-loop jacket water / HT and LT circuits, expansion and monitoring",
+  "description": "Engine cooling: jacket-water system, radiator, cooling tower, heat exchanger, circulating pumps | Cooling water / cooling towers (open and closed) and heat rejection | Closed-loop jacket water / HT and LT circuits, expansion and monitoring Primary source: https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
   "specifications": [
     {
       "metric": "Heat-recovery design temperatures",
@@ -19,7 +19,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/",
         "source_id": "jenbacher-com-j920-flextra"
       },
-      "value": "70 / 90"
+      "value": "70 / 90",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-9/j920-flextra/"
     },
     {
       "metric": "Radiator design",
@@ -29,7 +30,8 @@
         "url": "https://www.jenbacher.com/en/services/balance-of-plant/4077-2/",
         "source_id": "jenbacher-com-4077-2"
       },
-      "value": "flat fins / appropriate fin distance"
+      "value": "flat fins / appropriate fin distance",
+      "source_url": "https://www.jenbacher.com/en/services/balance-of-plant/4077-2/"
     },
     {
       "metric": "CHP total efficiency",
@@ -39,7 +41,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "Cooling tower with heat exchanger; water treatment obligations",
@@ -49,7 +52,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "Cooling towers typically used with heat exchangers; chemical water treatment, make-up system, discharge and special maintenance must be planned"
+      "value": "Cooling towers typically used with heat exchangers; chemical water treatment, make-up system, discharge and special maintenance must be planned",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Closed-loop cooling process water consumption (data-centre application)",
@@ -59,7 +63,8 @@
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
       },
-      "high": "<5"
+      "high": "<5",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Ambient operating range / altitude (same closed-loop plant)",
@@ -70,7 +75,8 @@
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
       },
       "low": "-45",
-      "high": "50"
+      "high": "50",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Cooling system functions (fill/drain/vent)",
@@ -80,7 +86,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "maintain temperature at design flow, maintain design pressure, accommodate expansion/contraction/overfill/loss, provide vent path for entrapped air, provide fill/drain/sample points"
+      "value": "maintain temperature at design flow, maintain design pressure, accommodate expansion/contraction/overfill/loss, provide vent path for entrapped air, provide fill/drain/sample points",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     }
   ],
   "vendors": [

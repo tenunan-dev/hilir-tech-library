@@ -13,7 +13,7 @@
     "H2",
     "PCH"
   ],
-  "description": "Cryogenic distillation plant that separates air into nitrogen, oxygen and argon. In ammonia plants the ASU supplies the nitrogen feed at high purity; in gasification, oxyfuel and CCS plants it supplies oxygen.",
+  "description": "Cryogenic distillation plant that separates air into nitrogen, oxygen and argon. In ammonia plants the ASU supplies the nitrogen feed at high purity; in gasification, oxyfuel and CCS plants it supplies oxygen. Primary source: https://en.wikipedia.org/wiki/Air_separation",
   "applications": [
     "nitrogen feed for ammonia synthesis",
     "oxygen for gasification, oxyfuel combustion and partial oxidation",
@@ -28,7 +28,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Air_separation",
         "note": "Wikipedia, Air separation (read 2026-11-17)"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Air_separation"
     },
     {
       "metric": "product delivery pressure",
@@ -39,7 +40,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Air_separation",
         "note": "Wikipedia, Air separation (read 2026-11-17)"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Air_separation"
     },
     {
       "metric": "main air compressor power",
@@ -49,7 +51,8 @@
       "source": {
         "url": "https://www.osti.gov/servlets/purl/3363286",
         "note": "NETL report (DOI 10.2172/3363286), read 2026-11-17"
-      }
+      },
+      "source_url": "https://www.osti.gov/servlets/purl/3363286"
     },
     {
       "metric": "specific energy, conventional cryogenic ASU",
@@ -60,7 +63,8 @@
       "source": {
         "url": "https://publications.ieaghg.org/docs/oxyfuel/OCC1/Plenary%201/Beysel_ASU_1stOxyfuel%20Cottbus.pdf",
         "note": "Linde AG, 1st Oxyfuel Combustion Conference, Cottbus, 2009"
-      }
+      },
+      "source_url": "https://publications.ieaghg.org/docs/oxyfuel/OCC1/Plenary%201/Beysel_ASU_1stOxyfuel%20Cottbus.pdf"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "civ-driven-precast-piles-concrete-steel-h-steel-pipe"
   ],
-  "description": "Vendor product line read 2026-11-24. Korea and Malaysia plants serve Asian offshore wind.",
+  "description": "Vendor product line read 2026-11-24. Korea and Malaysia plants serve Asian offshore wind. Primary source: https://eew-group.com/offshore-wind",
   "specifications": [
     {
       "metric": "monopiles produced",
@@ -16,7 +16,8 @@
         "url": "https://eew-group.com/offshore-wind",
         "source_id": "eew-group-com-eew-group-com-offshore-wind"
       },
-      "value": ">2,200"
+      "value": ">2,200",
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "projects supplied",
@@ -26,7 +27,8 @@
         "url": "https://eew-group.com/offshore-wind",
         "source_id": "eew-group-com-eew-group-com-offshore-wind"
       },
-      "value": ">80"
+      "value": ">80",
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Experience in offshore wind",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Monopiles produced",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 2200
+      "value": 2200,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Offshore wind projects supplied",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 80
+      "value": 80,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "USA monopile plant capacity",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Atlantic Shores Offshore Wind Project 1",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 1.5
+      "value": 1.5,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "US wind target by 2030",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Wind share of European electricity generation",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Asian offshore wind planned capacity to 2030",
@@ -98,7 +107,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Products",
@@ -107,7 +117,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": "Monopiles; pipes for jacket components; piles for offshore wind; components for floating structures"
+      "value": "Monopiles; pipes for jacket components; piles for offshore wind; components for floating structures",
+      "source_url": "https://eew-group.com/offshore-wind"
     },
     {
       "metric": "Facilities",
@@ -116,7 +127,8 @@
       "source": {
         "url": "https://eew-group.com/offshore-wind"
       },
-      "value": "Erndtebrueck, Rostock, Sacheon, Gwangyang, Pasir Gudang"
+      "value": "Erndtebrueck, Rostock, Sacheon, Gwangyang, Pasir Gudang",
+      "source_url": "https://eew-group.com/offshore-wind"
     }
   ],
   "url": "https://eew-group.com/offshore-wind",

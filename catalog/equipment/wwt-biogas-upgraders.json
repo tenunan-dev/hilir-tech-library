@@ -7,7 +7,7 @@
     "WWT",
     "H2"
   ],
-  "description": "Water-wash, amine, membrane and PSA units upgrading raw biogas to 95-99% methane grid/vehicle spec.",
+  "description": "Water-wash, amine, membrane and PSA units upgrading raw biogas to 95-99% methane grid/vehicle spec. Primary source: https://www.dmt.nl/",
   "subtypes": [
     {
       "name": "water wash"
@@ -36,7 +36,8 @@
       "source": {
         "url": "https://www.dmt.nl/",
         "note": "DMT pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.dmt.nl/"
     },
     {
       "metric": "methane recovery",
@@ -47,7 +48,8 @@
       "source": {
         "url": "https://www.dmt.nl/",
         "note": "DMT pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.dmt.nl/"
     }
   ],
   "vendor_models": [

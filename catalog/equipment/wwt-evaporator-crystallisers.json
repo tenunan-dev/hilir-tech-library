@@ -7,7 +7,7 @@
     "WWT",
     "PWR"
   ],
-  "description": "Mechanical-vapour-recompression evaporators and forced-circulation crystallisers that end ZLD trains: distillate recycled, salts recovered as solids.",
+  "description": "Mechanical-vapour-recompression evaporators and forced-circulation crystallisers that end ZLD trains: distillate recycled, salts recovered as solids. Primary source: https://www.aquatech.com/",
   "subtypes": [
     {
       "name": "MVR falling-film evaporators"
@@ -33,7 +33,8 @@
       "source": {
         "url": "https://www.aquatech.com/",
         "note": "Aquatech ZLD pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.aquatech.com/"
     },
     {
       "metric": "brine concentration reached",
@@ -44,7 +45,8 @@
       "source": {
         "url": "https://www.aquatech.com/",
         "note": "Aquatech ZLD pages, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.aquatech.com/"
     }
   ],
   "vendor_models": [

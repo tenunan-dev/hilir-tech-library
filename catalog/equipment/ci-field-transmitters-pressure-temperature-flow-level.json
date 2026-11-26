@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Primary measurement instruments converting process variables to standard analog/digital signals for control and safety.",
+  "description": "Primary measurement instruments converting process variables to standard analog/digital signals for control and safety. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/",
   "specifications": [
     {
       "metric": "product families attested by catalogue",
@@ -19,7 +19,8 @@
         "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
         "source_id": "sys-yokogawa-com"
       },
-      "value": "Pressure Transmitters, Flowmeters, Temperature Transmitters, Level Meters, Pressure Calibrators, Valve Manifolds"
+      "value": "Pressure Transmitters, Flowmeters, Temperature Transmitters, Level Meters, Pressure Calibrators, Valve Manifolds",
+      "source_url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
     },
     {
       "metric": "HART device family specifications",
@@ -29,7 +30,8 @@
         "url": "https://www.fieldcommgroup.org/hart-specifications",
         "source_id": "sys-fieldcommgroup-org-hart-specifications"
       },
-      "value": "Temperature (HCF_SPEC-160-04), Pressure (HCF_SPEC-160-05), Level and PID Control families"
+      "value": "Temperature (HCF_SPEC-160-04), Pressure (HCF_SPEC-160-05), Level and PID Control families",
+      "source_url": "https://www.fieldcommgroup.org/hart-specifications"
     },
     {
       "metric": "Reference accuracy",
@@ -39,7 +41,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": "up to 0.075 (Standard) / up to 0.055 (Platinum)"
+      "value": "up to 0.075 (Standard) / up to 0.055 (Platinum)",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Measuring cell",
@@ -50,7 +53,8 @@
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
       "low": "400 mbar",
-      "high": "400 bar"
+      "high": "400 bar",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Process temperature",
@@ -61,7 +65,8 @@
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
       "low": -40,
-      "high": 125
+      "high": 125,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Ambient temperature",
@@ -72,7 +77,8 @@
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
       "low": -40,
-      "high": 85
+      "high": 85,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Supply voltage",
@@ -83,7 +89,8 @@
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
       "low": "10.5",
-      "high": "35"
+      "high": "35",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Max. turn down",
@@ -93,7 +100,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": "100:1"
+      "value": "100:1",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Smallest calibratable span",
@@ -103,7 +111,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Communication",
@@ -113,7 +122,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": "4...20 mA, 4...20 mA HART, PROFINET with Ethernet-APL, Bluetooth wireless (optional)"
+      "value": "4...20 mA, 4...20 mA HART, PROFINET with Ethernet-APL, Bluetooth wireless (optional)",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Safety approvals",
@@ -123,7 +133,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": "SIL"
+      "value": "SIL",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Design approvals",
@@ -133,7 +144,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": "EN 10204-3.1, NACE MR0175, NACE MR0103"
+      "value": "EN 10204-3.1, NACE MR0175, NACE MR0103",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Reference accuracy",
@@ -143,7 +155,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp71b"
       },
-      "value": "up to 0.05 (Standard) / up to 0.025 (Platinum)"
+      "value": "up to 0.05 (Standard) / up to 0.025 (Platinum)",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "Pressure measuring range / measuring cell",
@@ -154,7 +167,8 @@
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp71b"
       },
       "low": "400 mbar",
-      "high": "700 bar"
+      "high": "700 bar",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "Supply voltage Ex d / Ex e / non-Ex",
@@ -164,7 +178,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": 10.5,
-      "high": 35
+      "high": 35,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Supply voltage Ex i",
@@ -174,7 +189,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": 10.5,
-      "high": 30
+      "high": 30,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Reference accuracy standard",
@@ -183,7 +199,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 0.075
+      "value": 0.075,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Reference accuracy platinum",
@@ -192,7 +209,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 0.055
+      "value": 0.055,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Long term stability 1 year",
@@ -201,7 +219,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 0.1
+      "value": 0.1,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Long term stability 5 years",
@@ -210,7 +229,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Long term stability 10 years",
@@ -219,7 +239,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 0.25
+      "value": 0.25,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Process temperature standard",
@@ -229,7 +250,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": -40,
-      "high": 125
+      "high": 125,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Process temperature diaphragm seal (table 1)",
@@ -239,7 +261,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": -70,
-      "high": 400
+      "high": 400,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Process temperature diaphragm seal (table 2 - conflicting)",
@@ -249,7 +272,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": -40,
-      "high": 400
+      "high": 400,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Measuring cell range",
@@ -259,7 +283,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": 0.4,
-      "high": 400
+      "high": 400,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Vacuum resistance standard",
@@ -268,7 +293,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Vacuum resistance diaphragm seal",
@@ -277,7 +303,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Maximum turn down",
@@ -286,7 +313,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Max overpressure limit (table 1)",
@@ -295,7 +323,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Max overpressure limit (table 2 - conflicting)",
@@ -304,7 +333,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 700
+      "value": 700,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Max measurement distance",
@@ -313,7 +343,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Process connection",
@@ -321,7 +352,8 @@
       "basis": "Endress+Hauser: 'Thread: G1/2...G2, R1/2, MNPT3/4...MNPT2, FNPT1/2; Flange: DN25...DN80, NPS 1\"...3\"'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Wetted materials",
@@ -329,7 +361,8 @@
       "basis": "Endress+Hauser: '316L, AlloyC, Tantal, Monel, PTFE'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Housing material",
@@ -337,7 +370,8 @@
       "basis": "Endress+Hauser: 'Material housing Aluminium'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Fill fluid",
@@ -345,7 +379,8 @@
       "basis": "Endress+Hauser: 'Silicone oil, Inert oil, Vegetable oil, High/ low temperature oil'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Approvals",
@@ -353,7 +388,8 @@
       "basis": "Endress+Hauser: 'ATEX, IEC Ex, CSA C/US, NEPSI'; 'Safety approvals SIL'; design approvals 'EN10204-3.1, NACE MR0175, NACE MR0103'; drinking water 'NSF'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "accuracy_standard",
@@ -362,7 +398,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
-      "high": 0.05
+      "high": 0.05,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "accuracy_platinum",
@@ -371,7 +408,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
-      "high": 0.025
+      "high": 0.025,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "process_temperature_standard",
@@ -381,7 +419,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
       "low": -40,
-      "high": 125
+      "high": 125,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "process_temperature_diaphragm_seal",
@@ -391,7 +430,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
       "low": -40,
-      "high": 400
+      "high": 400,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "pressure_measuring_range",
@@ -401,7 +441,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
       "low": 400,
-      "high": 700
+      "high": 700,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "pressure_measuring_range_psi",
@@ -411,7 +452,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
       "low": 1.5,
-      "high": 10500
+      "high": 10500,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "measuring_cell_range",
@@ -421,7 +463,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
       "low": 400,
-      "high": 700
+      "high": 700,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "main_wetted_parts",
@@ -430,7 +473,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
-      "value": "316L, AlloyC, Tantal, Monel, PTFE, Gold"
+      "value": "316L, AlloyC, Tantal, Monel, PTFE, Gold",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "process_membrane_material",
@@ -439,7 +483,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
-      "value": "316L, AlloyC, Tantal, Monel, PTFE, Gold"
+      "value": "316L, AlloyC, Tantal, Monel, PTFE, Gold",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "remote_control",
@@ -448,7 +493,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
-      "value": "Bluetooth SmartBlue App"
+      "value": "Bluetooth SmartBlue App",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "diagnostics",
@@ -457,7 +503,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
-      "value": "Heartbeat Technology verification and monitoring"
+      "value": "Heartbeat Technology verification and monitoring",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "functional_safety",
@@ -466,7 +513,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
       },
-      "value": "error free SIL commissioning and instrument guided proof testing"
+      "value": "error free SIL commissioning and instrument guided proof testing",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification"
     },
     {
       "metric": "Safety Manager - Safety Integrity Level",
@@ -475,7 +523,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "SIL 1-3 certified safety platform"
+      "value": "SIL 1-3 certified safety platform",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - architecture",
@@ -484,7 +533,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture"
+      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - platform",
@@ -493,7 +543,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Second generation safety platform; part of Experion Process Knowledge System (PKS)"
+      "value": "Second generation safety platform; part of Experion Process Knowledge System (PKS)",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - cyber security certification",
@@ -502,7 +553,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Certified by Embedded Device Security Assurance program as defined by ISA Security Compliance Institute"
+      "value": "Certified by Embedded Device Security Assurance program as defined by ISA Security Compliance Institute",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - I/O technology",
@@ -511,7 +563,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Universal Safety I/O (USIO) based on Universal Channel technology; each channel configurable for a different I/O type"
+      "value": "Universal Safety I/O (USIO) based on Universal Channel technology; each channel configurable for a different I/O type",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - remote I/O",
@@ -520,7 +573,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Remote IO can be placed in hazardous locations"
+      "value": "Remote IO can be placed in hazardous locations",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - hardware documentation",
@@ -529,7 +583,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Installation Instructions / technical specification PDF, 17.43 MB, dated 12/22/2023"
+      "value": "Installation Instructions / technical specification PDF, 17.43 MB, dated 12/22/2023",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Barrel diameter S70X/S80X models",
@@ -538,7 +593,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": "1.48"
+      "value": "1.48",
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "Barrel diameter S802/S806 models",
@@ -547,7 +603,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": "1.14"
+      "value": "1.14",
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "Environmental rating",
@@ -556,7 +613,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": "IP64"
+      "value": "IP64",
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "Purge air",
@@ -565,7 +623,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "Field of view IR",
@@ -574,7 +633,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "Field of view UV",
@@ -583,7 +643,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "IR spectral response",
@@ -592,7 +653,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": "950-1710"
+      "value": "950-1710",
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "IR peak response",
@@ -601,7 +663,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": 1400
+      "value": 1400,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "UV spectral response",
@@ -610,7 +673,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": "185-260"
+      "value": "185-260",
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "UV peak response",
@@ -619,7 +683,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": 210
+      "value": 210,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "UV tube lifetime",
@@ -629,7 +694,8 @@
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
       "low": 10000,
-      "high": 50000
+      "high": 50000,
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "Hazardous location approvals",
@@ -638,7 +704,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": "CSA Class I, Div 2, Groups A, B, C, D, T4A; IECEx Ex nA IIC T4/T5 Gc; NCC/Inmetro Ex ec IIC T4 Gc"
+      "value": "CSA Class I, Div 2, Groups A, B, C, D, T4A; IECEx Ex nA IIC T4/T5 Gc; NCC/Inmetro Ex ec IIC T4 Gc",
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "Safety integrity",
@@ -647,7 +714,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": "SIL 3 Capable"
+      "value": "SIL 3 Capable",
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "Compatible signal processors",
@@ -656,7 +724,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": "Model 700ACSP, 700DCSP, 800, P531/P532"
+      "value": "Model 700ACSP, 700DCSP, 800, P531/P532",
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "Mounting connections",
@@ -665,7 +734,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
       },
-      "value": "1/2 in NPT-F for sighting pipe; 1/4 in NPT-F for purge air"
+      "value": "1/2 in NPT-F for sighting pipe; 1/4 in NPT-F for purge air",
+      "source_url": "https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x"
     },
     {
       "metric": "Available sizes",
@@ -674,7 +744,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": 6
+      "value": 6,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Materials",
@@ -683,7 +754,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": "duplex stainless steel to Inconel"
+      "value": "duplex stainless steel to Inconel",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Enclosure materials",
@@ -692,7 +764,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": "SS316 or painted aluminum"
+      "value": "SS316 or painted aluminum",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Flanges",
@@ -701,7 +774,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": "choice of flange types and pressure ratings"
+      "value": "choice of flange types and pressure ratings",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Measurement range GVF",
@@ -711,7 +785,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Measurement range WLR",
@@ -721,7 +796,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Installation",
@@ -730,7 +806,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": "vertical; limited straight pipe lengths"
+      "value": "vertical; limited straight pipe lengths",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Sour service",
@@ -739,7 +816,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": "NACE MR0175/ISO 15156"
+      "value": "NACE MR0175/ISO 15156",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Communication protocols",
@@ -748,7 +826,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": "Modbus, OPC UA, HTTPS; DCS/SCADA integration"
+      "value": "Modbus, OPC UA, HTTPS; DCS/SCADA integration",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Maintenance/calibration",
@@ -757,7 +836,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": "typical recommendation yearly checks and verification"
+      "value": "typical recommendation yearly checks and verification",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Mechanical design",
@@ -766,7 +846,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": "no moving parts; robust materials"
+      "value": "no moving parts; robust materials",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Transmitter",
@@ -775,7 +856,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": "Roxar 5726 Multiphase Transmitter mounted directly onto the flow meter"
+      "value": "Roxar 5726 Multiphase Transmitter mounted directly onto the flow meter",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Salinity option",
@@ -784,7 +866,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": "Roxar Multiphase Salinity System (RMSS) additional module"
+      "value": "Roxar Multiphase Salinity System (RMSS) additional module",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     }
   ],
   "vendors": [

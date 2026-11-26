@@ -6,7 +6,7 @@
   "equipment": [
     "geg-site-gate-and-fencing"
   ],
-  "description": "motorised telescopic sliding entrance gate",
+  "description": "motorised telescopic sliding entrance gate Primary source: https://www.geapl.com/telescopic-sliding-gates",
   "specifications": [
     {
       "metric": "Maximum clear width",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates",
         "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
-      }
+      },
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "Maximum height",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates",
         "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
-      }
+      },
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "Drive opening speed",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates",
         "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
-      }
+      },
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "Gate capacity",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates",
         "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
-      }
+      },
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "Number of telescopic systems",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates",
         "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
-      }
+      },
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "Operator protection",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates",
         "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
-      }
+      },
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "Supply voltage",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates",
         "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
-      }
+      },
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "Safety / type testing",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates",
         "source_id": "geg-geapl-com-telescopic-sliding-gates-c7838e4"
-      }
+      },
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "maximum_clear_width",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
-      "high": 40000
+      "high": 40000,
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "maximum_clear_width_double_leaf",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
-      "value": 80000
+      "value": 80000,
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "maximum_height",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
-      "value": 3000
+      "value": 3000,
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "telescopic_systems",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
-      "value": "2, 3, 4 & 5"
+      "value": "2, 3, 4 & 5",
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "drive_opening_speed",
@@ -127,7 +139,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
-      "high": 0.16
+      "high": 0.16,
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "drive_closing_speed",
@@ -136,7 +149,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
-      "high": 0.16
+      "high": 0.16,
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "capacity",
@@ -146,7 +160,8 @@
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
       "low": 300,
-      "high": 25000
+      "high": 25000,
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "connecting_voltage",
@@ -155,7 +170,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
-      "value": "230V-1ph, N / 415V-3ph, N"
+      "value": "230V-1ph, N / 415V-3ph, N",
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "protection_category",
@@ -164,7 +180,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
-      "value": "IP 44"
+      "value": "IP 44",
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "bottom_rollers",
@@ -174,7 +191,8 @@
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
       "value": "min 120mm dia galvanised wheels with ball bearings and axle with lubrication point",
-      "low": 120
+      "low": 120,
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     },
     {
       "metric": "standards",
@@ -183,7 +201,8 @@
       "source": {
         "url": "https://www.geapl.com/telescopic-sliding-gates"
       },
-      "value": "CE marking, Machine Directive 2006/42/EC, EMC Directive 2004/108/EC, Low Voltage Directive 2006/95/EC; type tested EN 13241-1; hot dip galvanizing ISO 1461:2022; marine paint ISO 12944"
+      "value": "CE marking, Machine Directive 2006/42/EC, EMC Directive 2004/108/EC, Low Voltage Directive 2006/95/EC; type tested EN 13241-1; hot dip galvanizing ISO 1461:2022; marine paint ISO 12944",
+      "source_url": "https://www.geapl.com/telescopic-sliding-gates"
     }
   ],
   "url": "https://www.geapl.com/telescopic-sliding-gates",

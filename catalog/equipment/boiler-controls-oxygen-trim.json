@@ -2,7 +2,7 @@
   "id": "boiler-controls-oxygen-trim",
   "name": "Boiler controls and oxygen trim",
   "equipment_type": "controls",
-  "description": "Control system that holds the fuel-to-air ratio and steam conditions across load. A stand-alone PLC oxygen-trim package uses an O2 sensor, firing-rate sensor and actuator or variable-speed drive to compensate for temperature, barometric pressure and fuel changes; package burners add parallel positioning, remote monitoring and burner-management interlocks.",
+  "description": "Control system that holds the fuel-to-air ratio and steam conditions across load. A stand-alone PLC oxygen-trim package uses an O2 sensor, firing-rate sensor and actuator or variable-speed drive to compensate for temperature, barometric pressure and fuel changes; package burners add parallel positioning, remote monitoring and burner-management interlocks. Primary source: https://cleaverbrooks.com/product/accu-trim",
   "specifications": [
     {
       "metric": "O2 trim architecture",
@@ -12,7 +12,8 @@
         "source_id": "cb-accu-trim"
       },
       "unit": "qualitative",
-      "value": "PLC + O2 and firing-rate sensors"
+      "value": "PLC + O2 and firing-rate sensors",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "control modes",
@@ -22,7 +23,8 @@
         "source_id": "cb-accu-trim"
       },
       "unit": "qualitative",
-      "value": "air trim / fuel trim"
+      "value": "air trim / fuel trim",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "compensated variables",
@@ -32,7 +34,8 @@
         "source_id": "cb-accu-trim"
       },
       "unit": "qualitative",
-      "value": "temperature, pressure, fuel"
+      "value": "temperature, pressure, fuel",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "remote monitoring",
@@ -42,7 +45,8 @@
         "source_id": "cb-sbr30-burner"
       },
       "unit": "qualitative",
-      "value": "parallel positioning + IoT"
+      "value": "parallel positioning + IoT",
+      "source_url": "https://cleaverbrooks.com/product/sbr30-burner"
     },
     {
       "metric": "safety-limit supervision",
@@ -52,7 +56,8 @@
         "source_id": "honeywell-bms"
       },
       "unit": "qualitative",
-      "value": "interlocks + flame supervision"
+      "value": "interlocks + flame supervision",
+      "source_url": "https://honeywell.com/us/en/solutions/thermal-solutions/burner-management-systems"
     },
     {
       "metric": "Control type",
@@ -62,7 +67,8 @@
         "source_id": "cleaverbrooks-com-product-accu-trim"
       },
       "unit": "control type",
-      "value": "Stand-alone PLC-based oxygen trim control for steam or hot water boilers"
+      "value": "Stand-alone PLC-based oxygen trim control for steam or hot water boilers",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Trim modes",
@@ -72,7 +78,8 @@
         "source_id": "cleaverbrooks-com-product-accu-trim"
       },
       "unit": "modes",
-      "value": "Air trim or fuel trim; variable-speed drive option"
+      "value": "Air trim or fuel trim; variable-speed drive option",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Compensation",
@@ -82,7 +89,8 @@
         "source_id": "cleaverbrooks-com-product-accu-trim"
       },
       "unit": "compensated variables",
-      "value": "Temperature, barometric pressure, fuel characteristics and normal hysteresis"
+      "value": "Temperature, barometric pressure, fuel characteristics and normal hysteresis",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Sensors",
@@ -92,7 +100,8 @@
         "source_id": "cleaverbrooks-com-product-accu-trim"
       },
       "unit": "scope",
-      "value": "Oxygen and firing rate sensors; custom C-B O2 Probe or industrial O2 probes such as Yokogawa"
+      "value": "Oxygen and firing rate sensors; custom C-B O2 Probe or industrial O2 probes such as Yokogawa",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Fuel train compatibility",
@@ -102,7 +111,8 @@
         "source_id": "cleaverbrooks-com-product-accu-trim"
       },
       "unit": "compatibility",
-      "value": "Standard or compact fuel trains such as the Siemens valve assembly"
+      "value": "Standard or compact fuel trains such as the Siemens valve assembly",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Hawk Boiler Controls features",
@@ -112,7 +122,8 @@
         "source_id": "cleaverbrooks-com-controls-boiler-controls"
       },
       "unit": "feature set",
-      "value": "Touchscreen HMI, economizer and O2-trim options, burner sequencing, fault history, lead/lag operation"
+      "value": "Touchscreen HMI, economizer and O2-trim options, burner sequencing, fault history, lead/lag operation",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Hawk 4500 features",
@@ -122,7 +133,8 @@
         "source_id": "cleaverbrooks-com-controls-boiler-controls"
       },
       "unit": "feature set",
-      "value": "Complete control system for new or retrofit industrial watertube boilers/burners; economizer control, draft control, full metering options"
+      "value": "Complete control system for new or retrofit industrial watertube boilers/burners; economizer control, draft control, full metering options",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Products listed",
@@ -131,7 +143,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Hawk 4500 application",
@@ -140,7 +153,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": "Industrial Watertube Conversions"
+      "value": "Industrial Watertube Conversions",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Hawk 4500 capabilities",
@@ -149,7 +163,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": "Complete boiler control system for new or retrofit industrial watertube boilers and burners; economizer control, draft control, and full metering options"
+      "value": "Complete boiler control system for new or retrofit industrial watertube boilers and burners; economizer control, draft control, and full metering options",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "EOS 500 display",
@@ -158,7 +173,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": 7
+      "value": 7,
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Accu-Trim function",
@@ -167,7 +183,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": "Stand Alone O2 Trim Control"
+      "value": "Stand Alone O2 Trim Control",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Hawk boiler controls options",
@@ -176,7 +193,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
       },
-      "value": "touchscreen HMI, economizer & O2-trim options, burner sequencing, fault history & lead/lag operation"
+      "value": "touchscreen HMI, economizer & O2-trim options, burner sequencing, fault history & lead/lag operation",
+      "source_url": "https://cleaverbrooks.com/catalog/controls/boiler-controls"
     },
     {
       "metric": "Boiler applicability",
@@ -185,7 +203,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "Steam or hot water boiler control"
+      "value": "Steam or hot water boiler control",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Trim mode",
@@ -194,7 +213,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "Air or fuel trim"
+      "value": "Air or fuel trim",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Drive option",
@@ -203,7 +223,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "Variable-speed drive option"
+      "value": "Variable-speed drive option",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "O2 probe options",
@@ -212,7 +233,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "custom C-B O2 Probe and industrial O2 probes such as Yokogawa"
+      "value": "custom C-B O2 Probe and industrial O2 probes such as Yokogawa",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Setup",
@@ -221,7 +243,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "user-friendly HMI"
+      "value": "user-friendly HMI",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     },
     {
       "metric": "Applications",
@@ -230,7 +253,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/accu-trim"
       },
-      "value": "Process Steam; Industrial Process; Building Heat; Sterilization; Humidification; Waste Heat Recovery; Hospital and Healthcare; Power and Utilities; Refineries and Petrochemical; Laundry and Dry Cleani"
+      "value": "Process Steam; Industrial Process; Building Heat; Sterilization; Humidification; Waste Heat Recovery; Hospital and Healthcare; Power and Utilities; Refineries and Petrochemical; Laundry and Dry Cleani",
+      "source_url": "https://cleaverbrooks.com/product/accu-trim"
     }
   ],
   "vendors": [

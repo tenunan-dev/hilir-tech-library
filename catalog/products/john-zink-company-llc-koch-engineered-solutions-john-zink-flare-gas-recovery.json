@@ -6,7 +6,7 @@
   "equipment": [
     "cf-gas-export-reinforcement-centrifugal-compressor-train-integral-a5a9f5"
   ],
-  "description": "Custom-engineered; includes liquid seals/deep liquid seals for air backflow prevention, compression technology evaluation (ejectors considered), flare gas sweetening for H2S. No numeric capacity printed on the page read.",
+  "description": "Custom-engineered; includes liquid seals/deep liquid seals for air backflow prevention, compression technology evaluation (ejectors considered), flare gas sweetening for H2S. No numeric capacity printed on the page read. Primary source: https://www.johnzink.com/products/flare-gas-recovery",
   "specifications": [
     {
       "metric": "Application range",
@@ -16,7 +16,8 @@
         "url": "https://www.johnzink.com/products/flare-gas-recovery",
         "source_id": "cat-johnzink-com-flare-gas-recovery"
       },
-      "value": "petroleum refineries to FPSO offshore platforms"
+      "value": "petroleum refineries to FPSO offshore platforms",
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Applications",
@@ -24,7 +25,8 @@
       "basis": "'engineered for a wide variety of applications, from petroleum refineries to FPSO offshore platforms'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Liquid seal design",
@@ -32,7 +34,8 @@
       "basis": "'We use deep liquid seals that provide the necessary hydrostatic head' to 'prevent air backflow and ensure stable operation of the compressor and flare system'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Compression technologies",
@@ -40,7 +43,8 @@
       "basis": "'Ejectors ... particularly useful in applications requiring a simple, maintenance-free solution'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Emissions reduced",
@@ -48,7 +52,8 @@
       "basis": "'designed to significantly reduce emissions, including NOx, CO, CO2, and SOx'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     },
     {
       "metric": "Flare gas sweetening",
@@ -56,7 +61,8 @@
       "basis": "'Flare gas often contains impurities like H2S that need to be removed'",
       "source": {
         "url": "https://www.johnzink.com/products/flare-gas-recovery"
-      }
+      },
+      "source_url": "https://www.johnzink.com/products/flare-gas-recovery"
     }
   ],
   "url": "https://www.johnzink.com/products/flare-gas-recovery",

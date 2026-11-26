@@ -8,7 +8,7 @@
     "PRC",
     "PWR"
   ],
-  "description": "Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints | Emissions control: oxidation catalyst, SCR, NOx/CO figures | Exhaust stacks, silencers and emission after-treatment",
+  "description": "Combustion air intake, filtration and silencers; exhaust system, mufflers, expansion joints | Emissions control: oxidation catalyst, SCR, NOx/CO figures | Exhaust stacks, silencers and emission after-treatment Primary source: https://www.jenbacher.com/en/gas-engines/type-6/",
   "specifications": [
     {
       "metric": "BOP elements",
@@ -18,7 +18,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
       },
-      "value": "Activated carbon absorber; exhaust gas silencer; exhaust gas heat exchanger"
+      "value": "Activated carbon absorber; exhaust gas silencer; exhaust gas heat exchanger",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "NOx reduction",
@@ -28,7 +29,8 @@
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "matthey-com-emissions-control-nox-control-systems"
       },
-      "low": 95
+      "low": 95,
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Converter power range",
@@ -38,7 +40,8 @@
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
         "source_id": "matthey-com-emissions-control-oxidation-catalyst-systems"
       },
-      "value": "50-500"
+      "value": "50-500",
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "NOx emission basis",
@@ -48,7 +51,8 @@
         "url": "https://www.jenbacher.com/en/gas-engines/type-6/",
         "source_id": "jenbacher-com-type-6"
       },
-      "value": "250 / 500"
+      "value": "250 / 500",
+      "source_url": "https://www.jenbacher.com/en/gas-engines/type-6/"
     },
     {
       "metric": "NOx reduction vs Tier 2 diesel",
@@ -58,7 +62,8 @@
         "url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/",
         "source_id": "jenbacher-com-data-center"
       },
-      "low": 95
+      "low": 95,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/industries/data-center/"
     },
     {
       "metric": "Exhaust routing height",
@@ -68,7 +73,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "low": "8"
+      "low": "8",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Carbon steel exhaust thermal expansion",
@@ -78,7 +84,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "0.0078 inches per foot of pipe per 100 deg F rise (1.17 mm per metre per 100 deg C)"
+      "value": "0.0078 inches per foot of pipe per 100 deg F rise (1.17 mm per metre per 100 deg C)",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Catalyst / SCR notes",
@@ -88,7 +95,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "oxidation catalyst located as close to engine as possible; catalyst bypass at start-up to protect from high exhaust temperatures; DEF approx. one-third urea and two-thirds water; SCR costly, heavy, needs careful doser sizing and ammonia-slip control"
+      "value": "oxidation catalyst located as close to engine as possible; catalyst bypass at start-up to protect from high exhaust temperatures; DEF approx. one-third urea and two-thirds water; SCR costly, heavy, needs careful doser sizing and ammonia-slip control",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Burgess-Manning preset vent silencer sizes",
@@ -98,7 +106,8 @@
         "url": "https://burgessmanning.com/preset-vent-silencers/",
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
-      "value": "inlet diameter 2-12 in; casing diameter 8-24 in; standard design temperature 250 deg C; enhanced noise attenuation up to 50+ dB (typical, no guaranteed attenuation)"
+      "value": "inlet diameter 2-12 in; casing diameter 8-24 in; standard design temperature 250 deg C; enhanced noise attenuation up to 50+ dB (typical, no guaranteed attenuation)",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Engine power",
@@ -108,7 +117,8 @@
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems",
         "source_id": "matthey-com-emissions-control-oxidation-catalyst-systems"
       },
-      "value": "50-500 / 250-2250 / >=2000"
+      "value": "50-500 / 250-2250 / >=2000",
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Service interval",
@@ -118,7 +128,8 @@
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "matthey-com-emissions-control-nox-control-systems"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "MODULEX C engine power",
@@ -129,7 +140,8 @@
       },
       "value": 50,
       "low": 500,
-      "high": "HP"
+      "high": "HP",
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "MODULEX B engine power",
@@ -140,7 +152,8 @@
       },
       "value": 250,
       "low": 2250,
-      "high": "HP"
+      "high": "HP",
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "DUALOX engine power",
@@ -150,7 +163,8 @@
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
       },
       "value": 2000,
-      "high": "HP"
+      "high": "HP",
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Catalyst types",
@@ -158,7 +172,8 @@
       "basis": "'designed to accommodate oxidation and three-way catalyst elements'",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Engine cycles",
@@ -166,7 +181,8 @@
       "basis": "'4-cycle engines and 2-cycle engines'",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Fuels",
@@ -174,7 +190,8 @@
       "basis": "'natural gas, LPG, propane, diesel, biodiesel, dual fuel'",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Applications",
@@ -182,7 +199,8 @@
       "basis": "gas compression, gas transmission, power generation, irrigation and pumping, standby equipment",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Monitoring",
@@ -190,7 +208,8 @@
       "basis": "'HAPGuard Monitor helps engine operators comply with RICE NESHAP requirements'",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/oxidation-catalyst-systems"
     },
     {
       "metric": "Operating hours before maintenance",
@@ -199,7 +218,8 @@
       "source": {
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Key components",
@@ -207,7 +227,8 @@
       "basis": "\"SINOx honeycomb catalysts; Durable stainless steel catalyst housings; Stainless steel reagent injection lance; Stainless steel reagent mixing duct; System control panel and reagent dosing pump; Silencers for additional sound attenuation\"",
       "source": {
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
-      }
+      },
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Additional pollutant control",
@@ -215,7 +236,8 @@
       "basis": "\"can be coupled with ammonia slip or oxidation catalyst technology for optimal reductions of CO, hydrocarbons, ammonia and other VOCs\"",
       "source": {
         "url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
-      }
+      },
+      "source_url": "https://matthey.com/en/products-and-markets/emissions-control/nox-control-systems"
     }
   ],
   "vendors": [

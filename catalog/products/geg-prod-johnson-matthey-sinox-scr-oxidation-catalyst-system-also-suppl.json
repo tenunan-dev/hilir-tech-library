@@ -6,7 +6,7 @@
   "equipment": [
     "geg-exhaust-gas-system"
   ],
-  "description": "exhaust aftertreatment / catalytic silencer",
+  "description": "exhaust aftertreatment / catalytic silencer Primary source: https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
   "specifications": [
     {
       "metric": "NOx emissions reduction, SCR systems for stationary diesel and gas engines",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "geg-matthey-com-nox-control-systems-af80333"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Hours of operation before maintenance",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",
         "source_id": "geg-matthey-com-nox-control-systems-af80333"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "NOx reduction",
@@ -37,7 +39,8 @@
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
       },
-      "value": 95
+      "value": 95,
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Operating hours before maintenance",
@@ -46,7 +49,8 @@
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
       },
-      "value": 15000
+      "value": 15000,
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "Complementary catalyst functions",
@@ -54,7 +58,8 @@
       "basis": "Johnson Matthey: 'Our SCR systems can be coupled with ammonia slip or oxidation catalyst technology for optimal reductions of CO, hydrocarbons, ammonia and other VOCs.'",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
     },
     {
       "metric": "System components",
@@ -62,7 +67,8 @@
       "basis": "Johnson Matthey: 'SINOx honeycomb catalysts; Durable stainless steel catalyst housings; Stainless steel reagent injection lance; Stainless steel reagent mixing duct; System control panel and reagent dosing pump; Silencers for additional sound attenuation'",
       "source": {
         "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
-      }
+      },
+      "source_url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems"
     }
   ],
   "url": "https://matthey.com/products-and-markets/emissions-control/nox-control-systems",

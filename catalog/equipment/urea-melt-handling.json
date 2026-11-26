@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Urea melt / melting and hot-urea-solution handling",
+  "description": "Urea melt / melting and hot-urea-solution handling Primary source: https://en.wikipedia.org/wiki/Urea",
   "specifications": [
     {
       "metric": "melting point",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Urea",
         "source_id": "en-wikipedia-org-wiki-urea"
       },
-      "value": 132.4
+      "value": 132.4,
+      "source_url": "https://en.wikipedia.org/wiki/Urea"
     },
     {
       "metric": "molten urea decomposition onset",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Urea",
         "source_id": "en-wikipedia-org-wiki-urea"
       },
-      "value": 152
+      "value": 152,
+      "source_url": "https://en.wikipedia.org/wiki/Urea"
     },
     {
       "metric": "urea water solubility",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Urea",
         "source_id": "en-wikipedia-org-wiki-urea"
       },
-      "value": 1200
+      "value": 1200,
+      "source_url": "https://en.wikipedia.org/wiki/Urea"
     }
   ],
   "vendors": [

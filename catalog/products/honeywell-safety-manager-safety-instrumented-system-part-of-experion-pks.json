@@ -6,7 +6,7 @@
   "equipment": [
     "ci-field-transmitters-pressure-temperature-flow-level"
   ],
-  "description": "Page read in full including Specifications tab and part-number list. Universal Safety I/O allows remote I/O in hazardous locations, reducing marshalling cabinets/home-run cables/junction boxes.",
+  "description": "Page read in full including Specifications tab and part-number list. Universal Safety I/O allows remote I/O in hazardous locations, reducing marshalling cabinets/home-run cables/junction boxes. Primary source: https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
   "specifications": [
     {
       "metric": "Safety integrity level",
@@ -17,7 +17,8 @@
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "low": 1,
-      "high": 3
+      "high": 3,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Redundant architecture",
@@ -27,7 +28,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "Quadruple Modular Redundant (QMR), fully redundant 2oo4D"
+      "value": "Quadruple Modular Redundant (QMR), fully redundant 2oo4D",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Supply voltage",
@@ -37,7 +39,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "110/48/24"
+      "value": "110/48/24",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Operating temperature - SM Remote Cabinet",
@@ -48,7 +51,8 @@
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "low": -40,
-      "high": 70
+      "high": 70,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Operating temperature - Safety Manager Cabinet",
@@ -59,7 +63,8 @@
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "low": -5,
-      "high": 70
+      "high": 70,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Storage temperature",
@@ -70,7 +75,8 @@
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "low": -40,
-      "high": 85
+      "high": 85,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Shock",
@@ -80,7 +86,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": 15
+      "value": 15,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Relative humidity",
@@ -91,7 +98,8 @@
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "low": 5,
-      "high": 95
+      "high": 95,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Vibration frequency range",
@@ -102,7 +110,8 @@
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
       "low": 10,
-      "high": 150
+      "high": 150,
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Cybersecurity certification",
@@ -112,7 +121,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "ISA Security Compliance Institute EDSA"
+      "value": "ISA Security Compliance Institute EDSA",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Standards printed",
@@ -122,7 +132,8 @@
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
         "source_id": "cat-process-honeywell-com-safety-manager"
       },
-      "value": "ANSI/ISA 71.04, CSA C22.2, FM 3600/3611, IEC, ISO 13849-1, NFPA 72/85/86, SIL 3, UL 508/508A (2001)"
+      "value": "ANSI/ISA 71.04, CSA C22.2, FM 3600/3611, IEC, ISO 13849-1, NFPA 72/85/86, SIL 3, UL 508/508A (2001)",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - Safety Integrity Level",
@@ -131,7 +142,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "SIL 1-3 certified safety platform"
+      "value": "SIL 1-3 certified safety platform",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - architecture",
@@ -140,7 +152,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture"
+      "value": "Quadruple Modular Redundant (QMR); fully redundant 2oo4D architecture",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - platform",
@@ -149,7 +162,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Second generation safety platform; part of Experion Process Knowledge System (PKS)"
+      "value": "Second generation safety platform; part of Experion Process Knowledge System (PKS)",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - cyber security certification",
@@ -158,7 +172,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Certified by Embedded Device Security Assurance program as defined by ISA Security Compliance Institute"
+      "value": "Certified by Embedded Device Security Assurance program as defined by ISA Security Compliance Institute",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - I/O technology",
@@ -167,7 +182,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Universal Safety I/O (USIO) based on Universal Channel technology; each channel configurable for a different I/O type"
+      "value": "Universal Safety I/O (USIO) based on Universal Channel technology; each channel configurable for a different I/O type",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - remote I/O",
@@ -176,7 +192,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Remote IO can be placed in hazardous locations"
+      "value": "Remote IO can be placed in hazardous locations",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     },
     {
       "metric": "Safety Manager - hardware documentation",
@@ -185,7 +202,8 @@
       "source": {
         "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
       },
-      "value": "Installation Instructions / technical specification PDF, 17.43 MB, dated 12/22/2023"
+      "value": "Installation Instructions / technical specification PDF, 17.43 MB, dated 12/22/2023",
+      "source_url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager"
     }
   ],
   "url": "https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",

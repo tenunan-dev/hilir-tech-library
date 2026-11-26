@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-feedwater-pretreatment"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver 'Raw Water Pretreatment' page. Product line named in narrative text; no numeric specification table on this page.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver 'Raw Water Pretreatment' page. Product line named in narrative text; no numeric specification table on this page. Primary source: https://graver.com/pretreatment/",
   "specifications": [
     {
       "metric": "Clarifier type",
@@ -16,7 +16,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "high rate, solids contact, sludge recirculation type"
+      "value": "high rate, solids contact, sludge recirculation type",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Functions integrated in single unit",
@@ -26,7 +27,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "chemical addition and mixing, flocculation, upflow clarification"
+      "value": "chemical addition and mixing, flocculation, upflow clarification",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Applications",
@@ -36,7 +38,8 @@
         "source_id": "graver-com-pretreatment"
       },
       "unit": "n/a",
-      "value": "clarification, lime softening, silica reduction, organics reduction"
+      "value": "clarification, lime softening, silica reduction, organics reduction",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Clarifier type",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://graver.com/pretreatment/"
       },
-      "value": "high rate, solids contact, sludge recirculation type clarifier"
+      "value": "high rate, solids contact, sludge recirculation type clarifier",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Functions in single unit",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://graver.com/pretreatment/"
       },
-      "value": "chemical addition and mixing, flocculation, and upflow clarification"
+      "value": "chemical addition and mixing, flocculation, and upflow clarification",
+      "source_url": "https://graver.com/pretreatment/"
     },
     {
       "metric": "Applications",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://graver.com/pretreatment/"
       },
-      "value": "clarification, lime softening, silica reduction, or organics reduction of water and wastewater containing suspended solids, color and organic impurities"
+      "value": "clarification, lime softening, silica reduction, or organics reduction of water and wastewater containing suspended solids, color and organic impurities",
+      "source_url": "https://graver.com/pretreatment/"
     }
   ],
   "url": "https://graver.com/pretreatment/",

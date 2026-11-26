@@ -4,7 +4,7 @@
   "manufacturer": "siemens",
   "product_type": "system",
   "equipment": [],
-  "description": "Page read in full (WebFetch returned status 200, canonical https://www.siemens.com/en-us/products/scalance/s-industrial-security-appliance/). Linked Siemens ordering-overview PDF was not fetched.",
+  "description": "Page read in full (WebFetch returned status 200, canonical https://www.siemens.com/en-us/products/scalance/s-industrial-security-appliance/). Linked Siemens ordering-overview PDF was not fetched. Primary source: https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
   "specifications": [
     {
       "metric": "Firewall throughput",
@@ -14,7 +14,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
         "source_id": "cat-siemens-com-scalance-s-html"
       },
-      "high": 750
+      "high": 750,
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     },
     {
       "metric": "Firewall rules",
@@ -24,7 +25,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
         "source_id": "cat-siemens-com-scalance-s-html"
       },
-      "high": 1000
+      "high": 1000,
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     },
     {
       "metric": "VPN connections",
@@ -34,7 +36,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
         "source_id": "cat-siemens-com-scalance-s-html"
       },
-      "high": 200
+      "high": 200,
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     },
     {
       "metric": "Redundancy",
@@ -44,7 +47,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
         "source_id": "cat-siemens-com-scalance-s-html"
       },
-      "value": "VRRP and firewall state synchronization"
+      "value": "VRRP and firewall state synchronization",
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     },
     {
       "metric": "Compliance standard",
@@ -54,7 +58,8 @@
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",
         "source_id": "cat-siemens-com-scalance-s-html"
       },
-      "value": "IEC 62443"
+      "value": "IEC 62443",
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     },
     {
       "metric": "firewall_throughput",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
       },
-      "value": 750
+      "value": 750,
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     },
     {
       "metric": "firewall_rules",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     },
     {
       "metric": "vpn_connections",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     },
     {
       "metric": "security_standard",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
       },
-      "value": "IEC 62443 compliance"
+      "value": "IEC 62443 compliance",
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     },
     {
       "metric": "configuration_interfaces",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
       },
-      "value": "TIA Portal, web interface, CLI"
+      "value": "TIA Portal, web interface, CLI",
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     },
     {
       "metric": "models",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
       },
-      "value": "SCALANCE SC-600; SCALANCE S615 / S615 EEC"
+      "value": "SCALANCE SC-600; SCALANCE S615 / S615 EEC",
+      "source_url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html"
     }
   ],
   "url": "https://www.siemens.com/global/en/products/automation/industrial-communication/network-security/scalance-s.html",

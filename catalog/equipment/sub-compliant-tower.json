@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Slender flexible bottom-founded tower with piled foundation and conventional deck, designed for significant lateral deflection in deep water.",
+  "description": "Slender flexible bottom-founded tower with piled foundation and conventional deck, designed for significant lateral deflection in deep water. Primary source: https://en.wikipedia.org/wiki/Compliant_tower",
   "specifications": [
     {
       "metric": "typical water depth",
@@ -20,7 +20,8 @@
         "source_id": "en-wikipedia-org-wiki-compliant-tower"
       },
       "low": 450,
-      "high": 900
+      "high": 900,
+      "source_url": "https://en.wikipedia.org/wiki/Compliant_tower"
     },
     {
       "metric": "lateral deformation",
@@ -30,7 +31,8 @@
         "url": "https://en.wikipedia.org/wiki/Compliant_tower",
         "source_id": "en-wikipedia-org-wiki-compliant-tower"
       },
-      "value": "up to 2.5% vs 0.5% for land-based structures"
+      "value": "up to 2.5% vs 0.5% for land-based structures",
+      "source_url": "https://en.wikipedia.org/wiki/Compliant_tower"
     },
     {
       "metric": "economic limit",
@@ -40,7 +42,8 @@
         "url": "https://en.wikipedia.org/wiki/Compliant_tower",
         "source_id": "en-wikipedia-org-wiki-compliant-tower"
       },
-      "value": 1000
+      "value": 1000,
+      "source_url": "https://en.wikipedia.org/wiki/Compliant_tower"
     },
     {
       "metric": "Baldpate structural heights and masses",
@@ -50,7 +53,8 @@
         "url": "https://www.offshore-technology.com/projects/baldpate/",
         "source_id": "offshore-technology-com-baldpate"
       },
-      "value": "base 351 ft, 140×140 ft tapering to 90×90 ft, 8,700 t; tower 1,320 ft, 90×90 ft, 20,200 t; storm sway ~30 s period, up to 10 ft lateral"
+      "value": "base 351 ft, 140×140 ft tapering to 90×90 ft, 8,700 t; tower 1,320 ft, 90×90 ft, 20,200 t; storm sway ~30 s period, up to 10 ft lateral",
+      "source_url": "https://www.offshore-technology.com/projects/baldpate/"
     },
     {
       "metric": "Baldpate tubular sizes",
@@ -60,7 +64,8 @@
         "url": "https://www.offshore-technology.com/projects/baldpate/",
         "source_id": "offshore-technology-com-baldpate"
       },
-      "value": "legs up to 144 in diameter / 3.5 in-8 in wall (base); 128 in / 3.3 in-4 in (tower)"
+      "value": "legs up to 144 in diameter / 3.5 in-8 in wall (base); 128 in / 3.3 in-4 in (tower)",
+      "source_url": "https://www.offshore-technology.com/projects/baldpate/"
     },
     {
       "metric": "Petronius deepest compliant tower",
@@ -70,7 +75,8 @@
         "url": "https://en.wikipedia.org/wiki/Compliant_tower",
         "source_id": "en-wikipedia-org-wiki-compliant-tower"
       },
-      "value": 623
+      "value": 623,
+      "source_url": "https://en.wikipedia.org/wiki/Compliant_tower"
     },
     {
       "metric": "Benguela Belize BBLT base tower launch",
@@ -80,7 +86,8 @@
         "url": "https://en.wikipedia.org/wiki/Compliant_tower",
         "source_id": "en-wikipedia-org-wiki-compliant-tower"
       },
-      "value": "base tower first 250 m of >400 m tower; launched from barge H-851 on 15 April 2005; heaviest compliant tower installed; first outside GoM"
+      "value": "base tower first 250 m of >400 m tower; launched from barge H-851 on 15 April 2005; heaviest compliant tower installed; first outside GoM",
+      "source_url": "https://en.wikipedia.org/wiki/Compliant_tower"
     }
   ],
   "vendors": [

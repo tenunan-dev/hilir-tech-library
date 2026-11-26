@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-chemical-cleaning-passivation"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full. IMPORTANT MAPPING CAVEAT: this page addresses industrial water/wastewater chemical treatment, not boiler chemical cleaning or passivation. No dedicated OEM boiler chemical cleaning/passivation product or spec sheet was read. GAP recorded.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full. IMPORTANT MAPPING CAVEAT: this page addresses industrial water/wastewater chemical treatment, not boiler chemical cleaning or passivation. No dedicated OEM boiler chemical cleaning/passivation product or spec sheet was read. GAP recorded. Primary source: https://woggroup.com/chemical-treatment-systems/",
   "specifications": [
     {
       "metric": "System type",
@@ -16,7 +16,8 @@
         "source_id": "woggroup-com-chemical-treatment-systems"
       },
       "unit": "n/a",
-      "value": "Coagulation and Flocculation Units; pH Neutralization Systems; Chemical Oxidation Systems; Precipitation and Complexation; Disinfection Systems; Integrated Dosing Skids"
+      "value": "Coagulation and Flocculation Units; pH Neutralization Systems; Chemical Oxidation Systems; Precipitation and Complexation; Disinfection Systems; Integrated Dosing Skids",
+      "source_url": "https://woggroup.com/chemical-treatment-systems/"
     },
     {
       "metric": "Control logic",
@@ -26,7 +27,8 @@
         "source_id": "woggroup-com-chemical-treatment-systems"
       },
       "unit": "n/a",
-      "value": "flow-paced, pH-based and ORP-based"
+      "value": "flow-paced, pH-based and ORP-based",
+      "source_url": "https://woggroup.com/chemical-treatment-systems/"
     },
     {
       "metric": "Compliance referenced",
@@ -36,7 +38,8 @@
         "source_id": "woggroup-com-chemical-treatment-systems"
       },
       "unit": "n/a",
-      "value": "US EPA, EU REACH and other global regulatory standards"
+      "value": "US EPA, EU REACH and other global regulatory standards",
+      "source_url": "https://woggroup.com/chemical-treatment-systems/"
     }
   ],
   "url": "https://woggroup.com/chemical-treatment-systems/",

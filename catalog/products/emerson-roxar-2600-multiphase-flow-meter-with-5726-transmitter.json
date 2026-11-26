@@ -6,7 +6,7 @@
   "equipment": [
     "tp-metering-and-export-quality-oil-gas-water-meters-multiphase-fl"
   ],
-  "description": "Vendor product line read 2026-11-24. Product page read; data sheet figures search-verified.",
+  "description": "Vendor product line read 2026-11-24. Product page read; data sheet figures search-verified. Primary source: https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
   "specifications": [
     {
       "metric": "GVF / WLR",
@@ -16,7 +16,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
-      "value": "0-100% / 0-100%"
+      "value": "0-100% / 0-100%",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "sizes",
@@ -26,7 +27,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
-      "value": "6 sizes; 1.5-8 in"
+      "value": "6 sizes; 1.5-8 in",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "design pressure",
@@ -36,7 +38,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       },
-      "value": "3,750 psi ANSI / 5,000 psi hub"
+      "value": "3,750 psi ANSI / 5,000 psi hub",
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Available meter sizes",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": 6
+      "value": 6,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Gas volume fraction range",
@@ -55,7 +59,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Water liquid ratio range",
@@ -65,7 +70,8 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
       "low": 0,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Material options",
@@ -73,7 +79,8 @@
       "basis": "\"material options ranging from duplex stainless steel to Inconel, a choice of flange types and pressure ratings, and enclosures in SS316 or painted aluminum\"",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Sour service standard",
@@ -81,7 +88,8 @@
       "basis": "\"extreme sour service in accordance with NACE MR0175/ISO 15156, where required\"",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Transmitter",
@@ -89,7 +97,8 @@
       "basis": "\"Roxar 5726 Multiphase Transmitter mounted directly onto the flow meter\"",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Communication protocols",
@@ -97,7 +106,8 @@
       "basis": "\"interfaces with DCS, SCADA and digital protocols such as Modbus and OPC UA ... and HTTPS for secure data access\"",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Typical calibration/verification interval",
@@ -106,7 +116,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Installation orientation",
@@ -114,7 +125,8 @@
       "basis": "\"The meter shall be installed vertically, requiring limited straight pipe lengths\"",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     }
   ],
   "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",

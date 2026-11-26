@@ -6,7 +6,7 @@
   "equipment": [
     "fd-fan-boiler"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). No standalone fan model or fan curve printed.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). No standalone fan model or fan curve printed. Primary source: https://www.zeeco.com/products/burners?hsLang=en",
   "specifications": [
     {
       "metric": "Fan design",
@@ -16,7 +16,8 @@
         "source_id": "zeeco-com-products-burners-hslang-en"
       },
       "unit": "design feature",
-      "value": "High efficiency backward curve blade design"
+      "value": "High efficiency backward curve blade design",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Scope",
@@ -26,7 +27,8 @@
         "source_id": "zeeco-com-products-burners-hslang-en"
       },
       "unit": "scope",
-      "value": "Each package burner system comes complete with automatic flame monitoring and shut-off, rotary air dampers, and a combustion air fan"
+      "value": "Each package burner system comes complete with automatic flame monitoring and shut-off, rotary air dampers, and a combustion air fan",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "NOx without FGR",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": 30
+      "value": 30,
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "NOx with FGR",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": 9
+      "value": 9,
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Turndown",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Combustion air fan design",
@@ -61,7 +66,8 @@
       "basis": "\"High efficiency backward curve blade design\"; \"Hinged blower housing design for ease of use and service\"; \"Each burner system comes complete with automatic flame monitoring and shut-off, rotary air dampers for precise low torque air control, and a combustion air fan\"",
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "O2 level across firing range",
@@ -71,7 +77,8 @@
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
       "low": 3,
-      "high": 4
+      "high": 4,
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     }
   ],
   "url": "https://www.zeeco.com/products/burners?hsLang=en",

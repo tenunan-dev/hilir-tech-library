@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. DCS; statistics sourced from Honeywell process automation overview page (also fetched).",
+  "description": "Vendor product line read 2026-11-24. DCS; statistics sourced from Honeywell process automation overview page (also fetched). Primary source: https://process.honeywell.com/us/en/solutions/experion-pks",
   "specifications": [
     {
       "metric": "installed base - refineries",
@@ -16,7 +16,8 @@
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
         "source_id": "sys-process-honeywell-com-experion-pks"
       },
-      "value": 45
+      "value": 45,
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     },
     {
       "metric": "O&G processing plants",
@@ -26,7 +27,8 @@
         "url": "https://process.honeywell.com/us/en/solutions/experion-pks",
         "source_id": "sys-process-honeywell-com-experion-pks"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://process.honeywell.com/us/en/solutions/experion-pks"
     }
   ],
   "url": "https://process.honeywell.com/us/en/solutions/experion-pks",

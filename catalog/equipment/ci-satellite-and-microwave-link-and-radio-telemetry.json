@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Long-haul offshore-to-shore and remote telemetry backhaul for platforms and onshore wells.",
+  "description": "Long-haul offshore-to-shore and remote telemetry backhaul for platforms and onshore wells. Primary source: https://www.api.org/products-and-services/standards",
   "specifications": [
     {
       "metric": "function",
@@ -19,7 +19,8 @@
       "source": {
         "url": "https://www.api.org/products-and-services/standards",
         "source_id": "sys-api-org-standards"
-      }
+      },
+      "source_url": "https://www.api.org/products-and-services/standards"
     }
   ],
   "vendors": [

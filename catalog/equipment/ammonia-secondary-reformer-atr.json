@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Secondary reformer / autothermal reformer (ATR)",
+  "description": "Secondary reformer / autothermal reformer (ATR) Primary source: https://en.wikipedia.org/wiki/Steam_reforming",
   "specifications": [
     {
       "metric": "ATR syngas outlet temperature",
@@ -20,7 +20,8 @@
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
       "low": 950,
-      "high": 1100
+      "high": 1100,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "ATR syngas outlet pressure",
@@ -30,7 +31,8 @@
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
-      "high": 100
+      "high": 100,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "ATR H2:CO ratio with CO2",
@@ -40,7 +42,8 @@
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
-      "value": 1.0
+      "value": 1.0,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "ATR H2:CO ratio with steam",
@@ -50,7 +53,8 @@
         "url": "https://en.wikipedia.org/wiki/Steam_reforming",
         "source_id": "en-wikipedia-org-wiki-steam-reforming"
       },
-      "value": 2.5
+      "value": 2.5,
+      "source_url": "https://en.wikipedia.org/wiki/Steam_reforming"
     },
     {
       "metric": "Methane at primary reformer exit after air addition to secondary",
@@ -61,7 +65,8 @@
         "source_id": "en-wikipedia-org-wiki-ammonia-production"
       },
       "low": 1,
-      "high": 2
+      "high": 2,
+      "source_url": "https://en.wikipedia.org/wiki/Ammonia_production"
     },
     {
       "metric": "SynCOR Ammonia steam-to-carbon ratio",
@@ -71,7 +76,8 @@
         "url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants",
         "source_id": "topsoe-com-process-licensing-syncor-ammonia-new-process-for-grassr"
       },
-      "value": 0.6
+      "value": 0.6,
+      "source_url": "https://www.topsoe.com/solutions/technologies/process-licensing/syncor-ammonia-new-process-for-grassroots-plants"
     },
     {
       "metric": "Casale HyPURE-N (ATR) CO2 recovery",
@@ -81,7 +87,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "high": 99
+      "high": 99,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Energy consumption",
@@ -92,7 +99,8 @@
         "source_id": "casale-ch-ammonia"
       },
       "low": 7.4,
-      "high": 7.6
+      "high": 7.6,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "CO2 recovery",
@@ -102,7 +110,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "high": 99
+      "high": 99,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "Best-suited capacity",
@@ -112,7 +121,8 @@
         "url": "https://casale.ch/technologies/ammonia/",
         "source_id": "casale-ch-ammonia"
       },
-      "value": 3500
+      "value": 3500,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "HyPURE-N - energy consumption",
@@ -122,7 +132,8 @@
         "url": "https://casale.ch/technologies/ammonia/"
       },
       "low": 7.4,
-      "high": 7.6
+      "high": 7.6,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "HyPURE-N - CO2 recovery",
@@ -131,7 +142,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": 99
+      "value": 99,
+      "source_url": "https://casale.ch/technologies/ammonia/"
     },
     {
       "metric": "HyPURE-N - capacity",
@@ -140,7 +152,8 @@
       "source": {
         "url": "https://casale.ch/technologies/ammonia/"
       },
-      "value": "Best suited from 3,500 MTD and above; can be applied for lower capacities"
+      "value": "Best suited from 3,500 MTD and above; can be applied for lower capacities",
+      "source_url": "https://casale.ch/technologies/ammonia/"
     }
   ],
   "vendors": [

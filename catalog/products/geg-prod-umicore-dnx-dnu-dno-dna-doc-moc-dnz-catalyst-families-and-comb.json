@@ -6,7 +6,7 @@
   "equipment": [
     "geg-diesel-oxidation-catalyst-and-scr-emission-control-system"
   ],
-  "description": "SCR / oxidation / ammonia-slip catalysts",
+  "description": "SCR / oxidation / ammonia-slip catalysts Primary source: https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
   "specifications": [
     {
       "metric": "Industrial references for catalytic oxidation, SCR, catalytic particulate filtration, ammonia oxidation and N2O reduction",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
         "source_id": "geg-umicore-com-data-center-emission-control-cat-a1abcab"
-      }
+      },
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Catalyst combinations for backup and continuous diesel/gas engines",
@@ -27,7 +28,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",
         "source_id": "geg-umicore-com-data-center-emission-control-cat-a1abcab"
-      }
+      },
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DNX catalyst",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "V/T/W SCR for high-efficiency NOx removal; sulfur resistant"
+      "value": "V/T/W SCR for high-efficiency NOx removal; sulfur resistant",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DNU catalyst",
@@ -45,7 +48,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "CuSCR for NOx removal with lowest possible volume"
+      "value": "CuSCR for NOx removal with lowest possible volume",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DNO catalyst",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "Oxidation of VOC & CO; dual functionality oxidation and SCR; sulfur resistant"
+      "value": "Oxidation of VOC & CO; dual functionality oxidation and SCR; sulfur resistant",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DNA catalyst",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "Ammonia slip catalyst for NH3 removal"
+      "value": "Ammonia slip catalyst for NH3 removal",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DOC catalyst",
@@ -72,7 +78,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "Diesel oxidation catalyst for VOC oxidation"
+      "value": "Diesel oxidation catalyst for VOC oxidation",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "DOX catalyst",
@@ -81,7 +88,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "Oxidation of VOC & CO; Pt or Pt/Pd based formulations"
+      "value": "Oxidation of VOC & CO; Pt or Pt/Pd based formulations",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Catalyst combination - backup/continuous diesel and gas engines",
@@ -90,7 +98,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "DNX + DNO for high NOx/NH3/VOC efficiency and endurance, high sulfur resistance"
+      "value": "DNX + DNO for high NOx/NH3/VOC efficiency and endurance, high sulfur resistance",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Catalyst combination - particles and NOx",
@@ -99,7 +108,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "cDPF + DNU for particles and NOx removal with low catalyst volume"
+      "value": "cDPF + DNU for particles and NOx removal with low catalyst volume",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Catalyst combination - ammonia engines",
@@ -108,7 +118,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "DNX + DNA + DNZ for combined NOx, NH3 and N2O abatement"
+      "value": "DNX + DNA + DNZ for combined NOx, NH3 and N2O abatement",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Catalyst combination - methanol engines",
@@ -117,7 +128,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "DNX + DNO for NOx, methanol, formaldehyde and HCN abatement"
+      "value": "DNX + DNO for NOx, methanol, formaldehyde and HCN abatement",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     },
     {
       "metric": "Umicore - catalytic emission control experience",
@@ -126,7 +138,8 @@
       "source": {
         "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
       },
-      "value": "More than 40 years; over 10,000 industrial references"
+      "value": "More than 40 years; over 10,000 industrial references",
+      "source_url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf"
     }
   ],
   "url": "https://www.umicore.com/storage/demo_2024/data-center-emission-control-catalysts.pdf",

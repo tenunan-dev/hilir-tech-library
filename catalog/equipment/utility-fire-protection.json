@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Fire protection and ammonia deluge/suppression",
+  "description": "Fire protection and ammonia deluge/suppression Primary source: https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
   "specifications": [
     {
       "metric": "Water uses on a chemical site",
@@ -19,7 +19,8 @@
         "url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf",
         "source_id": "booksite-elsevier-com-9780080966595-chapter-3-pdf"
       },
-      "value": "fire hydrants"
+      "value": "fire hydrants",
+      "source_url": "https://booksite.elsevier.com/samplechapters/9780080966595/Chapter_3.pdf"
     }
   ],
   "vendors": [

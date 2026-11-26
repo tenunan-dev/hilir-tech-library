@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Malaysian Tarpon minimum-facility WHPs for PETRONAS Carigali were built with three 20-inch conductor slots internal to the caisson (two used, one spare) in 70-85 m water, while the West Desaru conductor-supported WSS grew from 18 wellhead flowline connections at the outset to 28 in the final design.",
+  "description": "Malaysian Tarpon minimum-facility WHPs for PETRONAS Carigali were built with three 20-inch conductor slots internal to the caisson (two used, one spare) in 70-85 m water, while the West Desaru conductor-supported WSS grew from 18 wellhead flowline connections at the outset to 28 in the final design. Primary source: https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
   "aliases": [
     "Drilling slots / well bays (typically 4–12 slots on a jacketed WHP)"
   ],
@@ -27,7 +27,8 @@
       "source": {
         "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
         "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
-      }
+      },
+      "source_url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil"
     },
     {
       "metric": "Conductor slot / well bay slot (Tarpon p — water depth",
@@ -38,7 +39,8 @@
       "source": {
         "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
         "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
-      }
+      },
+      "source_url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil"
     },
     {
       "metric": "Conductor slot / well bay slot (Tarpon p — wellhead flowline connections (design growth)",
@@ -49,7 +51,8 @@
       "source": {
         "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
         "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
-      }
+      },
+      "source_url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in"
     },
     {
       "metric": "Reliability — operational design life",
@@ -59,7 +62,8 @@
       "source": {
         "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
         "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
-      }
+      },
+      "source_url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil"
     },
     {
       "metric": "Reliability — minimum design fatigue life",
@@ -69,7 +73,8 @@
       "source": {
         "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
         "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
-      }
+      },
+      "source_url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in"
     }
   ],
   "vendor_models": [],

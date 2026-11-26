@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Concrete hulls used where corrosion resistance, low maintenance and heavy topside capacity are valuable.",
+  "description": "Concrete hulls used where corrosion resistance, low maintenance and heavy topside capacity are valuable. Primary source: https://en.wikipedia.org/wiki/Offshore_concrete_structure",
   "specifications": [
     {
       "metric": "only concrete semi-submersible",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": "Troll B"
+      "value": "Troll B",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "only concrete TLP hull",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": "Heidrun TLP"
+      "value": "Heidrun TLP",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "first prestressed concrete barge",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": "Ardjuna Field LPG barge, Indonesia, 43 m, 1974"
+      "value": "Ardjuna Field LPG barge, Indonesia, 43 m, 1974",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     },
     {
       "metric": "concrete LNG terminal",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure",
         "source_id": "en-wikipedia-org-wiki-offshore-concrete-structure"
       },
-      "value": "Adriatic LNG terminal, 29 m, 2008"
+      "value": "Adriatic LNG terminal, 29 m, 2008",
+      "source_url": "https://en.wikipedia.org/wiki/Offshore_concrete_structure"
     }
   ],
   "vendors": [

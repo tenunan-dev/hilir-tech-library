@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Time-series data capture, edge analytics, process digital twins and IIoT connectivity for optimisation and remote operations.",
+  "description": "Time-series data capture, edge analytics, process digital twins and IIoT connectivity for optimisation and remote operations. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/",
   "specifications": [
     {
       "metric": "offering attested",
@@ -19,7 +19,8 @@
         "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
         "source_id": "sys-yokogawa-com"
       },
-      "value": "Data Historian; Plant Information Management System; Process Data Analytics; OpreX Intelligent Manufacturing Hub; process digital twin for LNG plants and for oil & gas upstream; Intelligent Edge Controllers (A8)"
+      "value": "Data Historian; Plant Information Management System; Process Data Analytics; OpreX Intelligent Manufacturing Hub; process digital twin for LNG plants and for oil & gas upstream; Intelligent Edge Controllers (A8)",
+      "source_url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "civ-shallow-raft-pad-foundations"
   ],
-  "description": "Vendor product line read 2026-11-24. Page read for GP product page; strengths from search-verified TDS",
+  "description": "Vendor product line read 2026-11-24. Page read for GP product page; strengths from search-verified TDS Primary source: https://www.fosroc.com/product/show/conbextra-gp",
   "specifications": [
     {
       "metric": "GP 28-day compressive",
@@ -16,7 +16,8 @@
         "url": "https://www.fosroc.com/product/show/conbextra-gp",
         "source_id": "fosroc-com-show-conbextra-gp"
       },
-      "value": 74.3
+      "value": 74.3,
+      "source_url": "https://www.fosroc.com/product/show/conbextra-gp"
     },
     {
       "metric": "EP65 Plus 7-day compressive",
@@ -26,7 +27,8 @@
         "url": "https://www.fosroc.com/product/show/conbextra-gp",
         "source_id": "fosroc-com-show-conbextra-gp"
       },
-      "value": 125
+      "value": 125,
+      "source_url": "https://www.fosroc.com/product/show/conbextra-gp"
     },
     {
       "metric": "standard_compliance",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.fosroc.com/product/show/conbextra-gp"
       },
-      "value": "BS EN 1504-3 Class R4 and BS EN 1504-6: Anchoring of reinforcing steel bar"
+      "value": "BS EN 1504-3 Class R4 and BS EN 1504-6: Anchoring of reinforcing steel bar",
+      "source_url": "https://www.fosroc.com/product/show/conbextra-gp"
     },
     {
       "metric": "gap_thickness",
@@ -45,7 +48,8 @@
         "url": "https://www.fosroc.com/product/show/conbextra-gp"
       },
       "low": 10,
-      "high": 75
+      "high": 75,
+      "source_url": "https://www.fosroc.com/product/show/conbextra-gp"
     },
     {
       "metric": "properties",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.fosroc.com/product/show/conbextra-gp"
       },
-      "value": "Non-shrink; High strength; Chloride free; Can be used at flowable or trowelable consistency"
+      "value": "Non-shrink; High strength; Chloride free; Can be used at flowable or trowelable consistency",
+      "source_url": "https://www.fosroc.com/product/show/conbextra-gp"
     }
   ],
   "url": "https://www.fosroc.com/product/show/conbextra-gp",

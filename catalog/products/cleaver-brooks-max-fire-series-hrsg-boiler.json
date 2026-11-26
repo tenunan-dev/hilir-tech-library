@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-hrsg"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown).",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/max-fire-series",
   "specifications": [
     {
       "metric": "Exhaust gas flow",
@@ -16,7 +16,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "lb/hr (up to)",
-      "value": 1000000
+      "value": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam generation",
@@ -27,7 +28,8 @@
       },
       "unit": "lb/hr",
       "low": 10000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Design pressure",
@@ -37,7 +39,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "psig (up to)",
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Steam temperature",
@@ -47,7 +50,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "deg F (up to)",
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Duct firing temperature",
@@ -57,7 +61,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "deg F (up to)",
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Gas turbine size",
@@ -68,7 +73,8 @@
       },
       "unit": "MW",
       "low": 3,
-      "high": 25
+      "high": 25,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "NOx with SCR",
@@ -78,7 +84,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "ppm NOx (less than, available)",
-      "value": 2
+      "value": 2,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "HRSG efficiency claim",
@@ -88,7 +95,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "% (greater than)",
-      "value": 80
+      "value": 80,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "Models",
@@ -98,7 +106,8 @@
         "source_id": "cleaverbrooks-com-product-max-fire-series"
       },
       "unit": "model designations",
-      "value": "MF (O-style), MFA (A-style), VL (O-style), VLA (A-style)"
+      "value": "MF (O-style), MFA (A-style), VL (O-style), VLA (A-style)",
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "exhaust_gas_flows",
@@ -107,7 +116,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "high": 1000000
+      "high": 1000000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "steam_generation",
@@ -117,7 +127,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 10000,
-      "high": 500000
+      "high": 500000,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "design_pressure",
@@ -126,7 +137,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1800
+      "value": 1800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "steam_temperature",
@@ -135,7 +147,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 1050
+      "value": 1050,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "duct_firing_temperature",
@@ -144,7 +157,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2800
+      "value": 2800,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "NOx_with_SCR",
@@ -153,7 +167,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "high": 2
+      "high": 2,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "gas_turbine_size",
@@ -163,7 +178,8 @@
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
       "low": 3,
-      "high": 25
+      "high": 25,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "thermal_efficiency",
@@ -172,7 +188,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "low": 80
+      "low": 80,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "fuel_reduction",
@@ -181,7 +198,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "high": 7.0
+      "high": 7.0,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "CO2_emissions_eliminated",
@@ -190,7 +208,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": 2870
+      "value": 2870,
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "assembly_circulation_construction",
@@ -199,7 +218,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction"
+      "value": "Shop Assembled; Natural Circulation; Membrane Wall Construction",
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     },
     {
       "metric": "models",
@@ -208,7 +228,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/product/max-fire-series"
       },
-      "value": "MF (O-style), MFA (A-style), VL (O-style), VLA (A-style)"
+      "value": "MF (O-style), MFA (A-style), VL (O-style), VLA (A-style)",
+      "source_url": "https://cleaverbrooks.com/product/max-fire-series"
     }
   ],
   "url": "https://cleaverbrooks.com/product/max-fire-series",

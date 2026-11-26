@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Instrument critical details with strain/acceleration/acoustic sensors to support fatigue assessment, early crack detection and operational decisions.",
+  "description": "Instrument critical details with strain/acceleration/acoustic sensors to support fatigue assessment, early crack detection and operational decisions. Primary source: https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
   "specifications": [
     {
       "metric": "fatigue design standard",
@@ -19,7 +19,8 @@
         "url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
         "source_id": "dnv-com-standards-guidelines-dnv-rp-c203-fatigue-design-of-offshor"
       },
-      "value": "DNV-RP-C203, Edition 2024-10, amended 2025-10"
+      "value": "DNV-RP-C203, Edition 2024-10, amended 2025-10",
+      "source_url": "https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures"
     }
   ],
   "vendors": [

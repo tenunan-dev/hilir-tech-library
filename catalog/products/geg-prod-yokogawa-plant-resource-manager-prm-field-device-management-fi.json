@@ -6,7 +6,7 @@
   "equipment": [
     "geg-field-instrumentation"
   ],
-  "description": "field device management software",
+  "description": "field device management software Primary source: https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
   "specifications": [
     {
       "metric": "supported field protocols",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",
         "source_id": "geg-web-material3-yokogawa-com-gs33k01a10-50e-01-a7d684e"
-      }
+      },
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Document number",
@@ -25,7 +26,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "GS 33K01A10-50E"
+      "value": "GS 33K01A10-50E",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Edition",
@@ -34,7 +36,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "12th Edition Sep. 1, 2014"
+      "value": "12th Edition Sep. 1, 2014",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Operating systems",
@@ -43,7 +46,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "Windows 7 Professional Edition; Windows Server 2008 Standard Edition; Windows Server 2008 R2 Standard Edition"
+      "value": "Windows 7 Professional Edition; Windows Server 2008 Standard Edition; Windows Server 2008 R2 Standard Edition",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "FDA compliance",
@@ -52,7 +56,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "FDA:21 CFR Part 11 compliant"
+      "value": "FDA:21 CFR Part 11 compliant",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     },
     {
       "metric": "Package example",
@@ -61,7 +66,8 @@
       "source": {
         "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
       },
-      "value": "LHS4000 Million Tag Handling Package"
+      "value": "LHS4000 Million Tag Handling Package",
+      "source_url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf"
     }
   ],
   "url": "https://web-material3.yokogawa.com/GS33K01A10-50E_012.pdf",

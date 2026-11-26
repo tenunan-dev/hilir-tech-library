@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Ammonia feed pumps",
+  "description": "Ammonia feed pumps Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
   "specifications": [
     {
       "metric": "ammonia feed physical state",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": "liquid"
+      "value": "liquid",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     }
   ],
   "vendors": [

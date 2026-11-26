@@ -6,7 +6,7 @@
   "equipment": [
     "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
   "specifications": [
     {
       "metric": "reference trains",
@@ -16,7 +16,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
       },
-      "value": "2 x 30 MMSCFD"
+      "value": "2 x 30 MMSCFD",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "TEG outlet spec (Fiorentini)",
@@ -26,7 +27,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
       },
-      "value": "3-7 lb water/MMSCF"
+      "value": "3-7 lb water/MMSCF",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "Project scope example",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
       },
-      "value": "Two 30 MMSCFD triethylene glycol dehydration trains for a 60 MMSCFD sour gas plant"
+      "value": "Two 30 MMSCFD triethylene glycol dehydration trains for a 60 MMSCFD sour gas plant",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "Reference plant capacity",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
       },
-      "high": 35
+      "high": 35,
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "Glycol type",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
       },
-      "value": "Triethylene glycol (TEG)"
+      "value": "Triethylene glycol (TEG)",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     },
     {
       "metric": "Process equipment",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
       },
-      "value": "inlet scrubber, contactor tower, glycol/gas heat exchanger, flash tank, rich/lean glycol exchanger, glycol reboiler and still column, glycol pump, glycol filters"
+      "value": "inlet scrubber, contactor tower, glycol/gas heat exchanger, flash tank, rich/lean glycol exchanger, glycol reboiler and still column, glycol pump, glycol filters",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",

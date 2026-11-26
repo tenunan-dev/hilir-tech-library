@@ -10,7 +10,7 @@
     "PRC",
     "PWR"
   ],
-  "description": "Skid / packaged genset and enclosure (containerised, outdoor, acoustic) | Acoustic enclosures and noise barriers",
+  "description": "Skid / packaged genset and enclosure (containerised, outdoor, acoustic) | Acoustic enclosures and noise barriers Primary source: https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
   "specifications": [
     {
       "metric": "Container length",
@@ -20,7 +20,8 @@
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
         "source_id": "jenbacher-com-containerized-solutions"
       },
-      "value": 12192
+      "value": 12192,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Sound pressure level",
@@ -30,7 +31,8 @@
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
         "source_id": "jenbacher-com-containerized-solutions"
       },
-      "value": 65
+      "value": 65,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Ambient temperature range",
@@ -41,7 +43,8 @@
         "source_id": "jenbacher-com-containerized-solutions"
       },
       "low": -25,
-      "high": 34
+      "high": 34,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Type 6 container dimensions",
@@ -51,7 +54,8 @@
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
         "source_id": "jenbacher-com-containerized-solutions"
       },
-      "value": "13,500-20,500 / 3,000-4,000 / ~7,500"
+      "value": "13,500-20,500 / 3,000-4,000 / ~7,500",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Enclosure acoustic design measures",
@@ -61,7 +65,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "sound attenuation built into air inlet/outlet; linings of fibreglass, drywall with fibreglass, insulated perforated airfoils or foam; evaluate flame retardance and resistance to oil/contaminants; 90-degree duct bend reduces high-frequency noise; high-mass line-of-sight barriers (sand-filled cement block or brick)"
+      "value": "sound attenuation built into air inlet/outlet; linings of fibreglass, drywall with fibreglass, insulated perforated airfoils or foam; evaluate flame retardance and resistance to oil/contaminants; 90-degree duct bend reduces high-frequency noise; high-mass line-of-sight barriers (sand-filled cement block or brick)",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Enclosure doors and windows",
@@ -71,7 +76,8 @@
         "url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf",
         "source_id": "sys-cummins-com-t035-gas-power-plant-application-manual-pdf"
       },
-      "value": "shall meet the site noise reduction requirement"
+      "value": "shall meet the site noise reduction requirement",
+      "source_url": "https://www.cummins.com/sites/default/files/2024-08/t035-Gas-Power-Plant-application-manual.pdf"
     },
     {
       "metric": "Vendor enclosure product families",
@@ -81,7 +87,8 @@
         "url": "https://burgessmanning.com/preset-vent-silencers/",
         "source_id": "burgessmanning-com-preset-vent-silencers"
       },
-      "value": "Acoustic Enclosures, Acoustic Buildings, Acoustic Shrouds, Acoustic Walls and Noise Barriers, Acoustic Louvers, Acoustic Containers, Engine Test Cells"
+      "value": "Acoustic Enclosures, Acoustic Buildings, Acoustic Shrouds, Acoustic Walls and Noise Barriers, Acoustic Louvers, Acoustic Containers, Engine Test Cells",
+      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Power",
@@ -91,7 +98,8 @@
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
         "source_id": "jenbacher-com-containerized-solutions"
       },
-      "value": "249-1562 / 1634-4507"
+      "value": "249-1562 / 1634-4507",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Sound",
@@ -101,7 +109,8 @@
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
         "source_id": "jenbacher-com-containerized-solutions"
       },
-      "value": 65
+      "value": 65,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Ambient",
@@ -111,7 +120,8 @@
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/",
         "source_id": "jenbacher-com-containerized-solutions"
       },
-      "value": "-25 to +34 / -25 to +40"
+      "value": "-25 to +34 / -25 to +40",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Containerized Type 2/3/4 power range",
@@ -122,7 +132,8 @@
       },
       "value": "249 - 1562",
       "low": 249,
-      "high": 1562
+      "high": 1562,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Containerized Type 6 power range",
@@ -133,7 +144,8 @@
       },
       "value": "1634 - 4507",
       "low": 1634,
-      "high": 4507
+      "high": 4507,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Type 2/3/4 container length",
@@ -142,7 +154,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
       },
-      "value": "12,192 mm (40 ft)"
+      "value": "12,192 mm (40 ft)",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Type 2/3/4 container width",
@@ -151,7 +164,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
       },
-      "value": "2,438 mm (8 ft) / ~3,000 mm (10 ft)"
+      "value": "2,438 mm (8 ft) / ~3,000 mm (10 ft)",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Type 2/3/4 container height",
@@ -160,7 +174,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
       },
-      "value": "2,591 mm (8 ft 6 in) / 2,591-2,700 mm / 2,896 mm (9 ft 6 in)"
+      "value": "2,591 mm (8 ft 6 in) / 2,591-2,700 mm / 2,896 mm (9 ft 6 in)",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Type 2/3/4 sound attenuation",
@@ -169,7 +184,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
       },
-      "value": 65
+      "value": 65,
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Type 2/3/4 ambient temperature",
@@ -178,7 +194,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
       },
-      "value": "-25 C to +34 C; option -40 C and +45 C"
+      "value": "-25 C to +34 C; option -40 C and +45 C",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Type 6 single-bank container dimensions",
@@ -187,7 +204,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
       },
-      "value": "13,500-20,500 mm (~44-67 ft) L x 3,000-4,000 mm (~10-13 ft) W x ~7,500 mm (~25 ft) H"
+      "value": "13,500-20,500 mm (~44-67 ft) L x 3,000-4,000 mm (~10-13 ft) W x ~7,500 mm (~25 ft) H",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Type 6 multi-bank container dimensions",
@@ -196,7 +214,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
       },
-      "value": "12,000-19,500 mm (~41-64 ft) L x 6,000 mm (~20 ft) W x ~7,500 mm (~25 ft) H"
+      "value": "12,000-19,500 mm (~41-64 ft) L x 6,000 mm (~20 ft) W x ~7,500 mm (~25 ft) H",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Type 6 sound attenuation options",
@@ -205,7 +224,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
       },
-      "value": "65, 70, 75 and 80"
+      "value": "65, 70, 75 and 80",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Type 6 ambient temperature",
@@ -214,7 +234,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
       },
-      "value": "-25 C to +40 C"
+      "value": "-25 C to +40 C",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     },
     {
       "metric": "Hydrogen container",
@@ -223,7 +244,8 @@
       "source": {
         "url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
       },
-      "value": "100% hydrogen Jenbacher containerized energy system"
+      "value": "100% hydrogen Jenbacher containerized energy system",
+      "source_url": "https://www.jenbacher.com/en/energy-solutions/containerized-solutions/"
     }
   ],
   "vendors": [

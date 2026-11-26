@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Connect platforms, enable helicopter transfer, and house crew.",
+  "description": "Connect platforms, enable helicopter transfer, and house crew. Primary source: https://vantrisenergy.com/services/engineering-construction/track-record",
   "specifications": [
     {
       "metric": "living quarter + bridge fabrication scope, East Piatu",
@@ -19,7 +19,8 @@
         "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
         "source_id": "vantrisenergy-com-engineering-construction-track-record"
       },
-      "value": 4161
+      "value": 4161,
+      "source_url": "https://vantrisenergy.com/services/engineering-construction/track-record"
     },
     {
       "metric": "permanent living quarters and office cabins, Cakerawala gas field",
@@ -29,7 +30,8 @@
         "url": "https://vantrisenergy.com/services/engineering-construction/track-record",
         "source_id": "vantrisenergy-com-engineering-construction-track-record"
       },
-      "value": "supply and installation scope"
+      "value": "supply and installation scope",
+      "source_url": "https://vantrisenergy.com/services/engineering-construction/track-record"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "burner-gas-low-nox"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). No numeric NOx ppm value printed on this page.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). No numeric NOx ppm value printed on this page. Primary source: https://www.johnzink.com/products/powerburners/qln",
   "specifications": [
     {
       "metric": "Firing capacity",
@@ -16,7 +16,8 @@
         "source_id": "johnzink-com-powerburners-qln"
       },
       "unit": "MMBTU/hr HHV (up to)",
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "NOx reduction mechanism",
@@ -26,7 +27,8 @@
         "source_id": "johnzink-com-powerburners-qln"
       },
       "unit": "design feature",
-      "value": "Advanced air/fuel premixing and fuel staging; internal FGR"
+      "value": "Advanced air/fuel premixing and fuel staging; internal FGR",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "Fuels",
@@ -36,7 +38,8 @@
         "source_id": "johnzink-com-powerburners-qln"
       },
       "unit": "fuel options",
-      "value": "Natural gas, produced gas, syn gas, #2 fuel oil, bitumen"
+      "value": "Natural gas, produced gas, syn gas, #2 fuel oil, bitumen",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "Application",
@@ -46,7 +49,8 @@
         "source_id": "johnzink-com-powerburners-qln"
       },
       "unit": "application",
-      "value": "Once-through steam generators (OTSGs) and heaters"
+      "value": "Once-through steam generators (OTSGs) and heaters",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "QLN burner - firing capacity",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/qln"
       },
-      "value": 450
+      "value": 450,
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "QLN burner - fuels",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/qln"
       },
-      "value": "Gas and #2/light oil firing"
+      "value": "Gas and #2/light oil firing",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "QLN burner - NOx reduction method",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/qln"
       },
-      "value": "Advanced air/fuel premixing, fuel staging and internal flue gas recirculation (FGR)"
+      "value": "Advanced air/fuel premixing, fuel staging and internal flue gas recirculation (FGR)",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     },
     {
       "metric": "QLN burner - applications",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/qln"
       },
-      "value": "Once-through steam generators (OTSGs) and heaters; diffuse flame for process heaters"
+      "value": "Once-through steam generators (OTSGs) and heaters; diffuse flame for process heaters",
+      "source_url": "https://www.johnzink.com/products/powerburners/qln"
     }
   ],
   "url": "https://www.johnzink.com/products/powerburners/qln",

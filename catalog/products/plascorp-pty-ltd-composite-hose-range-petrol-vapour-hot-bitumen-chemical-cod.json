@@ -6,7 +6,7 @@
   "equipment": [
     "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
   ],
-  "description": "APAC supplier; AS 2683-2000 / AS 2594-1983 / AS 2475 standards as printed. Assembly testing per page: hydrostatic and electrical, AS 2683 / AS 2594 / AS 1180.",
+  "description": "APAC supplier; AS 2683-2000 / AS 2594-1983 / AS 2475 standards as printed. Assembly testing per page: hydrostatic and electrical, AS 2683 / AS 2594 / AS 1180. Primary source: https://www.plascorp.com.au/products/composite-hoses",
   "specifications": [
     {
       "metric": "Petrol hose standard, working pressure",
@@ -16,7 +16,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses",
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
-      "value": 700
+      "value": 700,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Petrol hose heavy duty, working pressure",
@@ -26,7 +27,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses",
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
-      "value": 1400
+      "value": 1400,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Chemical hose range standard",
@@ -36,7 +38,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses",
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
-      "value": "AS 2594-1983"
+      "value": "AS 2594-1983",
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Chemical hose PTSS working pressure",
@@ -46,7 +49,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses",
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
-      "value": 1400
+      "value": 1400,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Petrol hose temperature range",
@@ -57,7 +61,8 @@
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
       "low": -30,
-      "high": 80
+      "high": 80,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Chemical hose temperature range",
@@ -68,7 +73,8 @@
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
       "low": -30,
-      "high": 100
+      "high": 100,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Hot bitumen hose temperature range",
@@ -79,7 +85,8 @@
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
       "low": -30,
-      "high": 180
+      "high": 180,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Kind 1 electrical resistance",
@@ -89,7 +96,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses",
         "source_id": "cat-plascorp-com-au-composite-hoses"
       },
-      "high": 1.0
+      "high": 1.0,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code 1000 standard petrol hose working pressure",
@@ -98,7 +106,8 @@
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
-      "value": 700
+      "value": 700,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code 901 heavy duty petrol hose working pressure",
@@ -108,7 +117,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
       "low": 1000,
-      "high": 1400
+      "high": 1400,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code 1003 lightweight petrol hose working pressure",
@@ -118,7 +128,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
       "low": 400,
-      "high": 600
+      "high": 600,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code VRH vapour recovery hose working pressure",
@@ -127,7 +138,8 @@
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
-      "value": 400
+      "value": 400,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code 966 hot bitumen hose working pressure",
@@ -137,7 +149,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
       "low": 500,
-      "high": 700
+      "high": 700,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Temperature range (code 1000)",
@@ -147,7 +160,8 @@
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
       "low": -30,
-      "high": 80
+      "high": 80,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Grade aromatic hydrocarbon limits",
@@ -155,7 +169,8 @@
       "basis": "Plascorp: 'Grade 1 hose is suitable for fuels containing up to 30% aromatic hydrocarbon content; Grade 2 ... up to 50%; Grade 3 ... over 50%'",
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
-      }
+      },
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Electrical resistance kind 1",
@@ -164,7 +179,8 @@
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
       },
-      "value": 1
+      "value": 1,
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Type definitions",
@@ -172,7 +188,8 @@
       "basis": "Plascorp: 'Type 1 hose is designed for suction and discharge and to be non-collapsible. Type 2 hose is designed for discharge only and to be non-collapsible.'",
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
-      }
+      },
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Code 1000 construction",
@@ -180,7 +197,8 @@
       "basis": "Plascorp: 'Internal wire: Galvanised steel; External wire: Galvanised steel'; 'Colour: Green with yellow stripe'; 'suitable for road and rail tankers'",
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
-      }
+      },
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     },
     {
       "metric": "Conforming standards",
@@ -188,7 +206,8 @@
       "basis": "Plascorp petrol hose range: 'AS 2683-2000'; hot bitumen hose: 'AS 2475'",
       "source": {
         "url": "https://www.plascorp.com.au/products/composite-hoses"
-      }
+      },
+      "source_url": "https://www.plascorp.com.au/products/composite-hoses"
     }
   ],
   "url": "https://www.plascorp.com.au/products/composite-hoses",

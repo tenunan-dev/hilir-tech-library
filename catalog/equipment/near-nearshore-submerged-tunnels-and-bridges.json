@@ -9,7 +9,7 @@
     "CIV",
     "MAT"
   ],
-  "description": "Fixed crossings and immersed-tunnel elements in nearshore waters; relevant to platform/bridge interface structures and marine construction.",
+  "description": "Fixed crossings and immersed-tunnel elements in nearshore waters; relevant to platform/bridge interface structures and marine construction. Primary source: https://www.iso.org/standard/65688.html",
   "specifications": [
     {
       "metric": "bridges within ISO 19902 scope",
@@ -19,7 +19,8 @@
         "url": "https://www.iso.org/standard/65688.html",
         "source_id": "iso-org-standard-65688-html"
       },
-      "value": "bridges and connecting structures listed as related offshore structures"
+      "value": "bridges and connecting structures listed as related offshore structures",
+      "source_url": "https://www.iso.org/standard/65688.html"
     },
     {
       "metric": "Boskalis tunnels and bridges capability",
@@ -29,7 +30,8 @@
         "url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate",
         "source_id": "boskalis-com-projects-offshore-wind-farm-monopile-installation-vej"
       },
-      "value": "listed market (no numeric spec)"
+      "value": "listed market (no numeric spec)",
+      "source_url": "https://boskalis.com/about-us/projects/offshore-wind-farm-monopile-installation-veja-mate"
     }
   ],
   "vendors": [

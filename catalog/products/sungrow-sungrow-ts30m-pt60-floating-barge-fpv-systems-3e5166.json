@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
   ],
-  "description": "Vendor product line read 2026-11-24. Truss, pontoon and barge structures",
+  "description": "Vendor product line read 2026-11-24. Truss, pontoon and barge structures Primary source: https://www.sungrowpower.com/en/floating-pv-system",
   "specifications": [
     {
       "metric": "Global FPV applications",
@@ -16,7 +16,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Example project",
@@ -26,7 +27,8 @@
         "url": "https://www.sungrowpower.com/en/floating-pv-system",
         "source_id": "cat-sungrowpower-com-floating-pv-system"
       },
-      "value": 192
+      "value": 192,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Global FPV application",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": ">4"
+      "value": ">4",
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Patents",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 290
+      "value": 290,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Global market share",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": "NO.1"
+      "value": "NO.1",
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference capacity - Indonesia",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 192
+      "value": 192,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference capacity - Anhui coal mines",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 200
+      "value": 200,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference capacity - Philippines",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 4.99
+      "value": 4.99,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Reference capacity - France",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": 5
+      "value": 5,
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Products",
@@ -98,7 +107,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": "Truss Structure Product TS30M; Pontoon Product PT60; Floating Barge"
+      "value": "Truss Structure Product TS30M; Pontoon Product PT60; Floating Barge",
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Service network",
@@ -107,7 +117,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": "400+ Authorized Distributors; 520+ Service Outlets; 1000+ Technical Experts; 110,000 m2 warehouse total area"
+      "value": "400+ Authorized Distributors; 520+ Service Outlets; 1000+ Technical Experts; 110,000 m2 warehouse total area",
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     },
     {
       "metric": "Deep-water claim",
@@ -116,7 +127,8 @@
       "source": {
         "url": "https://www.sungrowpower.com/en/floating-pv-system"
       },
-      "value": "Breaking the 100-Meter Barrier: Floating Solar in Ultra Deep Water"
+      "value": "Breaking the 100-Meter Barrier: Floating Solar in Ultra Deep Water",
+      "source_url": "https://www.sungrowpower.com/en/floating-pv-system"
     }
   ],
   "url": "https://www.sungrowpower.com/en/floating-pv-system",

@@ -9,7 +9,7 @@
     "PRC",
     "CIV"
   ],
-  "description": "Large multi-module topsides carrying separation, gas processing, water handling, utilities, power and living quarters, often with drilling and riser systems. Weight and dimensions are driven primarily by platform function.",
+  "description": "Large multi-module topsides carrying separation, gas processing, water handling, utilities, power and living quarters, often with drilling and riser systems. Weight and dimensions are driven primarily by platform function. Primary source: https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
   "specifications": [
     {
       "metric": "Johan Sverdrup P2 topsides weight",
@@ -19,7 +19,8 @@
         "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
         "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
       },
-      "value": 24000
+      "value": 24000,
+      "source_url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside"
     },
     {
       "metric": "Johan Sverdrup drilling platform (DP) topsides weight",
@@ -29,7 +30,8 @@
         "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
         "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
       },
-      "value": 22000
+      "value": 22000,
+      "source_url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside"
     },
     {
       "metric": "Kvitebjørn topsides weight",
@@ -39,7 +41,8 @@
         "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
         "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
       },
-      "value": 14400
+      "value": 14400,
+      "source_url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside"
     },
     {
       "metric": "Gudrun topsides weight",
@@ -49,7 +52,8 @@
         "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
         "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
       },
-      "value": 10500
+      "value": 10500,
+      "source_url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside"
     },
     {
       "metric": "Dolwin Beta offshore HVDC platform topsides",
@@ -59,7 +63,8 @@
         "url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside",
         "source_id": "aibel-com-news-and-thats-how-you-weigh-a-platform-topside"
       },
-      "value": 22000
+      "value": 22000,
+      "source_url": "https://aibel.com/news/and-thats-how-you-weigh-a-platform-topside"
     }
   ],
   "vendors": [

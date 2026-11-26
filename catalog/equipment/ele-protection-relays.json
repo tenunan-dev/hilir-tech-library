@@ -6,7 +6,7 @@
   "sector_codes": [
     "ELE"
   ],
-  "description": "Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, type-tested to IEC 60255.",
+  "description": "Numerical protection relays and IEC 61850 intelligent electronic devices for overcurrent, distance, differential and transformer protection on the Malaysian grid and industrial systems, type-tested to IEC 60255. Primary source: https://selinc.com/products/421/",
   "subtypes": [
     {
       "name": "Feeder overcurrent and earth-fault relays"
@@ -39,7 +39,8 @@
       "source": {
         "url": "https://selinc.com/products/421/",
         "note": "SEL-421 data sheet cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://selinc.com/products/421/"
     },
     {
       "metric": "timer accuracy, SEL-421",
@@ -49,7 +50,8 @@
       "source": {
         "url": "https://selinc.com/products/421/",
         "note": "SEL-421 data sheet cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://selinc.com/products/421/"
     },
     {
       "metric": "trip time, SIPROTEC 7SA513 distance",
@@ -60,7 +62,8 @@
       "source": {
         "url": "https://www.siemens.com/siprotec/",
         "note": "SIPROTEC 7SA technical data cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.siemens.com/siprotec/"
     },
     {
       "metric": "overcurrent IDMT timing tolerance, SIPROTEC",
@@ -70,7 +73,8 @@
       "source": {
         "url": "https://www.siemens.com/siprotec/",
         "note": "SIPROTEC 7SA technical data cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.siemens.com/siprotec/"
     },
     {
       "metric": "communication standard",
@@ -80,7 +84,8 @@
       "source": {
         "url": "https://www.gso.org.my/",
         "note": "grid code and substation automation practice, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.gso.org.my/"
     },
     {
       "metric": "fault duty protection must clear at 500 kV",
@@ -91,7 +96,8 @@
       "source": {
         "url": "https://www.tnb.com.my/",
         "note": "TNB fault-level table, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.tnb.com.my/"
     },
     {
       "metric": "indicative cost, single-function overcurrent relay (export price list)",
@@ -103,7 +109,8 @@
       "source": {
         "url": "https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html",
         "note": "Microprocessor protection relay price and cost guide 2026, read via browser search 2026-11-13"
-      }
+      },
+      "source_url": "https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html"
     },
     {
       "metric": "indicative cost, full IEC 61850 bay-controller IED (export price list)",
@@ -115,7 +122,8 @@
       "source": {
         "url": "https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html",
         "note": "Microprocessor protection relay price and cost guide 2026, read via browser search 2026-11-13"
-      }
+      },
+      "source_url": "https://www.sourcebyspec.com/news/microprocessor-protection-relay-price-cost-guide-2026.html"
     }
   ],
   "vendor_models": [

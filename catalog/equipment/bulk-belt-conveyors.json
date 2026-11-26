@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Belt conveyors (incl. chevron/cleated and elevator belts)",
+  "description": "Belt conveyors (incl. chevron/cleated and elevator belts) Primary source: https://en.wikipedia.org/wiki/Conveyor_belt",
   "specifications": [
     {
       "metric": "pipe conveyor maximum incline",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": 35
+      "value": 35,
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "sandwich belt maximum incline",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": 90
+      "value": 90,
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "highest steel-cord belt strength class",
@@ -39,7 +41,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "aramid belt strength range",
@@ -50,7 +53,8 @@
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
       "low": 630,
-      "high": 3500
+      "high": 3500,
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "aramid belt example",
@@ -60,7 +64,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": "2250 N/mm, 3400 m long, >15% energy savings"
+      "value": "2250 N/mm, 3400 m long, >15% energy savings",
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "longest single-span conveyor",
@@ -70,7 +75,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": 31
+      "value": 31,
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "impumelelo conveyor capacity",
@@ -80,7 +86,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": 2400
+      "value": 2400,
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "India-Bangladesh cross-border conveyor",
@@ -90,7 +97,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": "17 km, 960 t/h, 1.8 MW"
+      "value": "17 km, 960 t/h, 1.8 MW",
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "belt scale / weigher",
@@ -100,7 +108,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": "material flowing over belt may be weighed in transit using a beltweigher"
+      "value": "material flowing over belt may be weighed in transit using a beltweigher",
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "belt components",
@@ -110,7 +119,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": "drive pulley, idler pulley, reducer gearboxes, motors, couplings, scrapers, chutes, skirts, take-up assembly, safety switches"
+      "value": "drive pulley, idler pulley, reducer gearboxes, motors, couplings, scrapers, chutes, skirts, take-up assembly, safety switches",
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     },
     {
       "metric": "conveyor safety devices",
@@ -120,7 +130,8 @@
         "url": "https://en.wikipedia.org/wiki/Conveyor_belt",
         "source_id": "en-wikipedia-org-wiki-conveyor-belt"
       },
-      "value": "trip cords, belt sway switches, speed switches, belt rip switches, emergency stops; OSHA 1926.555"
+      "value": "trip cords, belt sway switches, speed switches, belt rip switches, emergency stops; OSHA 1926.555",
+      "source_url": "https://en.wikipedia.org/wiki/Conveyor_belt"
     }
   ],
   "vendors": [

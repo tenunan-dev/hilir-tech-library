@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Bi-directional digital communication over 4-20 mA analog current loops connecting field instruments to control/monitoring systems; preserves analog wiring while exposing diagnostics.",
+  "description": "Bi-directional digital communication over 4-20 mA analog current loops connecting field instruments to control/monitoring systems; preserves analog wiring while exposing diagnostics. Primary source: https://www.fieldcommgroup.org/technologies/hart",
   "specifications": [
     {
       "metric": "installed base",
@@ -19,7 +19,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/hart",
         "source_id": "sys-fieldcommgroup-org-hart"
       },
-      "value": 40000000
+      "value": 40000000,
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     },
     {
       "metric": "physical medium",
@@ -29,7 +30,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/hart",
         "source_id": "sys-fieldcommgroup-org-hart"
       },
-      "value": "4-20 mA analog current loops; instrumentation-grade wiring and standard terminations"
+      "value": "4-20 mA analog current loops; instrumentation-grade wiring and standard terminations",
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     },
     {
       "metric": "specification kit size",
@@ -39,7 +41,8 @@
         "url": "https://www.fieldcommgroup.org/hart-specifications",
         "source_id": "sys-fieldcommgroup-org-hart-specifications"
       },
-      "value": 17
+      "value": 17,
+      "source_url": "https://www.fieldcommgroup.org/hart-specifications"
     },
     {
       "metric": "standards status",
@@ -49,7 +52,8 @@
         "url": "https://www.fieldcommgroup.org/technologies/hart",
         "source_id": "sys-fieldcommgroup-org-hart"
       },
-      "value": "IEC standard; three major revisions with backward compatibility"
+      "value": "IEC standard; three major revisions with backward compatibility",
+      "source_url": "https://www.fieldcommgroup.org/technologies/hart"
     }
   ],
   "vendors": [

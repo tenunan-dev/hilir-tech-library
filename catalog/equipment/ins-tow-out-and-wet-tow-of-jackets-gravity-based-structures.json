@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Transport launched or floated substructures from fabrication yard to site with tug boats; use controlled ballasting for self-installing GBS; DP-assisted positioning for final placement.",
+  "description": "Transport launched or floated substructures from fabrication yard to site with tug boats; use controlled ballasting for self-installing GBS; DP-assisted positioning for final placement. Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {
       "metric": "Steel GBS installation method",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": "pulled off yard by wet-tow and/or dry-tow; self-installs by controlled ballasting of compartments with seawater"
+      "value": "pulled off yard by wet-tow and/or dry-tow; self-installs by controlled ballasting of compartments with seawater",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "Steel GBS use case",
@@ -29,7 +30,8 @@
         "url": "https://en.wikipedia.org/wiki/Oil_platform",
         "source_id": "sys-en-wikipedia-org-oil-platform"
       },
-      "value": "predominantly where no or limited crane barges available (e.g. Caspian Sea)"
+      "value": "predominantly where no or limited crane barges available (e.g. Caspian Sea)",
+      "source_url": "https://en.wikipedia.org/wiki/Oil_platform"
     },
     {
       "metric": "Heerema AHTS bollard pull",
@@ -39,7 +41,8 @@
         "url": "https://www.heerema.com/heerema-marine-contractors/fleet",
         "source_id": "heerema-com-heerema-marine-contractors-fleet"
       },
-      "value": "200 t (Bylgia) and 212 t (Kolga)"
+      "value": "200 t (Bylgia) and 212 t (Kolga)",
+      "source_url": "https://www.heerema.com/heerema-marine-contractors/fleet"
     },
     {
       "metric": "Semi-sub heavy transport speed advantage",
@@ -49,7 +52,8 @@
         "url": "https://en.wikipedia.org/wiki/Heavy-lift_ship",
         "source_id": "en-wikipedia-org-wiki-heavy-lift-ship"
       },
-      "value": "roughly 3 to 4 times the speed of a self-deploying rig"
+      "value": "roughly 3 to 4 times the speed of a self-deploying rig",
+      "source_url": "https://en.wikipedia.org/wiki/Heavy-lift_ship"
     },
     {
       "metric": "Example heavy transport: Thunder Horse PDQ",
@@ -59,7 +63,8 @@
         "url": "https://en.wikipedia.org/wiki/Heavy-lift_ship",
         "source_id": "en-wikipedia-org-wiki-heavy-lift-ship"
       },
-      "value": "world's largest semi-submersible oil platform (at the time), transported 2004"
+      "value": "world's largest semi-submersible oil platform (at the time), transported 2004",
+      "source_url": "https://en.wikipedia.org/wiki/Heavy-lift_ship"
     }
   ],
   "vendors": [

@@ -2,7 +2,7 @@
   "id": "safety-valves-blowdown-boiler",
   "name": "Boiler safety valves, blowdown and level fittings",
   "equipment_type": "safety",
-  "description": "Fittings that protect the pressure boundary and control water quality: safety valves sized to at least the boiler's 'from and at 100 C' evaporation and fully open within 110% of design pressure; continuous/TDS blowdown from the water surface; bottom blowdown to remove sediment; and independent water-level indication and gauges.",
+  "description": "Fittings that protect the pressure boundary and control water quality: safety valves sized to at least the boiler's 'from and at 100 C' evaporation and fully open within 110% of design pressure; continuous/TDS blowdown from the water surface; bottom blowdown to remove sediment; and independent water-level indication and gauges. Primary source: https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB",
   "specifications": [
     {
       "metric": "safety valve discharge capacity",
@@ -12,7 +12,8 @@
         "source_id": "spirax-boiler-fittings"
       },
       "unit": "qualitative",
-      "value": "at least from-and-at 100 C rating"
+      "value": "at least from-and-at 100 C rating",
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB"
     },
     {
       "metric": "full rated discharge pressure",
@@ -22,7 +23,8 @@
         "source_id": "spirax-boiler-fittings"
       },
       "unit": "% of design pressure",
-      "value": 110
+      "value": 110,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB"
     },
     {
       "metric": "minimum safety valve inlet bore",
@@ -32,7 +34,8 @@
         "source_id": "spirax-boiler-fittings"
       },
       "unit": "mm",
-      "value": 20
+      "value": 20,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB"
     },
     {
       "metric": "TDS blowdown connection",
@@ -43,7 +46,8 @@
       },
       "unit": "DN mm",
       "low": 15,
-      "high": 20
+      "high": 20,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB"
     },
     {
       "metric": "bottom blowdown valve size",
@@ -54,7 +58,8 @@
       },
       "unit": "DN mm",
       "low": 25,
-      "high": 50
+      "high": 50,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB"
     },
     {
       "metric": "bottom blowdown pulse",
@@ -64,7 +69,8 @@
         "source_id": "spirax-bottom-blowdown"
       },
       "unit": "s per 8 h",
-      "value": 4
+      "value": 4,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB"
     },
     {
       "metric": "minimum blowdown line length",
@@ -74,7 +80,8 @@
         "source_id": "spirax-bottom-blowdown"
       },
       "unit": "m",
-      "value": 7.5
+      "value": 7.5,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB"
     },
     {
       "metric": "blowdown vessel design pressure",
@@ -84,7 +91,8 @@
         "source_id": "spirax-bottom-blowdown"
       },
       "unit": "% of MWP",
-      "value": 25
+      "value": 25,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB"
     },
     {
       "metric": "blowdown vessel vent limit",
@@ -94,7 +102,8 @@
         "source_id": "spirax-bottom-blowdown"
       },
       "unit": "bar g",
-      "value": 0.35
+      "value": 0.35,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB"
     },
     {
       "metric": "blowdown vessel overflow temperature",
@@ -104,7 +113,8 @@
         "source_id": "spirax-bottom-blowdown"
       },
       "unit": "degC",
-      "value": 43
+      "value": 43,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/bottom-blowdown?sc_lang=en-GB"
     },
     {
       "metric": "pressure gauge dial",
@@ -114,7 +124,8 @@
         "source_id": "spirax-boiler-fittings"
       },
       "unit": "mm",
-      "value": 150
+      "value": 150,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB"
     },
     {
       "metric": "water level indicators",
@@ -124,7 +135,8 @@
         "source_id": "spirax-boiler-fittings"
       },
       "unit": "count",
-      "value": 2
+      "value": 2,
+      "source_url": "https://spiraxsarco.com/learn-about-steam/the-boiler-house/boiler-fittings-and-mountings?sc_lang=en-GB"
     },
     {
       "metric": "recommended maximum TDS",
@@ -135,7 +147,8 @@
       },
       "unit": "ppm",
       "low": 2000,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://engineeringtoolbox.com/boiler-blowdown-d_908.html"
     },
     {
       "metric": "Method",
@@ -145,7 +158,8 @@
         "source_id": "cleaverbrooks-com-boiler-room-equipment-blowdown-systems"
       },
       "unit": "process",
-      "value": "Safe, proven, economical flash purification process for blowdown effectiveness and disposal"
+      "value": "Safe, proven, economical flash purification process for blowdown effectiveness and disposal",
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
     },
     {
       "metric": "Model designations",
@@ -153,7 +167,8 @@
       "basis": "'Cleaver-Brooks model BDS blowdown separators and model BDT tanks'",
       "source": {
         "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
     },
     {
       "metric": "Process",
@@ -161,7 +176,8 @@
       "basis": "'use a safe, proven, economical flash purification process for facilitating blowdown effectiveness and disposal'",
       "source": {
         "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
-      }
+      },
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
     },
     {
       "metric": "Catalog items found",
@@ -170,7 +186,8 @@
       "source": {
         "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast"
   ],
-  "description": "Vendor product line read 2026-11-24. OEM page; motion-compensated single-lift.",
+  "description": "Vendor product line read 2026-11-24. OEM page; motion-compensated single-lift. Primary source: https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
   "specifications": [
     {
       "metric": "Topsides single-lift capacity",
@@ -16,7 +16,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 60000
+      "value": 60000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Jacket lift capacity",
@@ -26,7 +27,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "S-lay tension",
@@ -36,7 +38,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Azimuth thrusters",
@@ -46,7 +49,8 @@
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
         "source_id": "allseas-com-our-fleet-pioneering-spirit"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Topsides single-lift installation/removal",
@@ -55,7 +59,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 60000
+      "value": 60000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Jacket single-lift installation/removal",
@@ -64,7 +69,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 20000
+      "value": 20000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "S-lay tension capacity",
@@ -73,7 +79,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Pipe-holding capacity",
@@ -82,7 +89,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 2000
+      "value": 2000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Azimuth thrusters",
@@ -91,7 +99,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Welding stations",
@@ -100,7 +109,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 6
+      "value": 6,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Double-joint factory",
@@ -109,7 +119,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": "yes"
+      "value": "yes",
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "DolWin Kappa converter station",
@@ -118,7 +129,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 900
+      "value": 900,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Ninian Northern platform removal",
@@ -127,7 +139,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 23000
+      "value": 23000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Gyda platform removal",
@@ -136,7 +149,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 30000
+      "value": 30000,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Yme MOPU removal",
@@ -145,7 +159,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": 13500
+      "value": 13500,
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     },
     {
       "metric": "Lift technology",
@@ -154,7 +169,8 @@
       "source": {
         "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
       },
-      "value": "unique motion compensated, single-lift technology"
+      "value": "unique motion compensated, single-lift technology",
+      "source_url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit"
     }
   ],
   "url": "https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",

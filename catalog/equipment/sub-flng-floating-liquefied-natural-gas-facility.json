@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Floating facility that extracts, processes, liquefies, stores and offloads LNG at sea, removing the need for a pipeline to shore.",
+  "description": "Floating facility that extracts, processes, liquefies, stores and offloads LNG at sea, removing the need for a pipeline to shore. Primary source: https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
   "specifications": [
     {
       "metric": "Petronas Kanowit FLNG contract",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading",
         "source_id": "en-wikipedia-org-wiki-floating-production-storage-and-offloading"
       },
-      "value": "Technip/DSME consortium EPCI contract awarded June 2012"
+      "value": "Technip/DSME consortium EPCI contract awarded June 2012",
+      "source_url": "https://en.wikipedia.org/wiki/Floating_production_storage_and_offloading"
     }
   ],
   "vendors": [

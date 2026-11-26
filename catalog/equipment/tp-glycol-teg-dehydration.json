@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Contact wet gas with lean triethylene glycol in an absorber/contactor, then regenerate glycol in a reboiler/still to meet water-content and water-dew-point specification and prevent hydrates/corrosion.",
+  "description": "Contact wet gas with lean triethylene glycol in an absorber/contactor, then regenerate glycol in a reboiler/still to meet water-content and water-dew-point specification and prevent hydrates/corrosion. Primary source: https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
   "specifications": [
     {
       "metric": "Pipeline water-content specification range",
@@ -19,7 +19,8 @@
         "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
         "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
       },
-      "value": "1-7"
+      "value": "1-7",
+      "source_url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas"
     },
     {
       "metric": "Dry gas spec from TEG unit",
@@ -29,7 +30,8 @@
         "url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg",
         "source_id": "fiorentini-iberia-com-gas-treatment-gas-dehydration-packages-with"
       },
-      "value": "3-7"
+      "value": "3-7",
+      "source_url": "https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-dehydration-packages-with-liquid-media-technology-teg-deg-meg"
     },
     {
       "metric": "Regenerated TEG purity, conventional",
@@ -39,7 +41,8 @@
         "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
         "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
       },
-      "value": "~99"
+      "value": "~99",
+      "source_url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas"
     },
     {
       "metric": "TEG thermal degradation threshold",
@@ -49,7 +52,8 @@
         "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
         "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
       },
-      "value": "404"
+      "value": "404",
+      "source_url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas"
     },
     {
       "metric": "Water dew point from 99.96 wt% lean TEG",
@@ -59,7 +63,8 @@
         "url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas",
         "source_id": "digitalrefining-com-1001135-controlling-the-dew-point-of-natural-g"
       },
-      "value": "-40"
+      "value": "-40",
+      "source_url": "https://www.digitalrefining.com/article/1001135/controlling-the-dew-point-of-natural-gas"
     },
     {
       "metric": "Rich TEG pressure at contactor outlet",
@@ -69,7 +74,8 @@
         "url": "https://www.epa.gov/natural-gas-star-program/glycol-dehydrators",
         "source_id": "epa-gov-natural-gas-star-program-glycol-dehydrators"
       },
-      "value": "250-800"
+      "value": "250-800",
+      "source_url": "https://www.epa.gov/natural-gas-star-program/glycol-dehydrators"
     },
     {
       "metric": "Dehydrator capacity range",
@@ -79,7 +85,8 @@
         "url": "https://www.kindermorgan.com/Operations/KM-Treating/Products/Dehydration",
         "source_id": "kindermorgan-com-products-dehydration"
       },
-      "value": "~1 to ~400"
+      "value": "~1 to ~400",
+      "source_url": "https://www.kindermorgan.com/Operations/KM-Treating/Products/Dehydration"
     },
     {
       "metric": "CO2 pipeline water limit (Kinder Morgan spec)",
@@ -89,7 +96,8 @@
         "url": "https://www.kindermorgan.com/Operations/KM-Treating/Products/Dehydration",
         "source_id": "kindermorgan-com-products-dehydration"
       },
-      "value": "≤30"
+      "value": "≤30",
+      "source_url": "https://www.kindermorgan.com/Operations/KM-Treating/Products/Dehydration"
     },
     {
       "metric": "Project reference capacity",
@@ -99,7 +107,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-glycol-dehydration"
       },
-      "value": "2 x 30 MMSCFD TEG trains (60 MMSCFD sour gas plant)"
+      "value": "2 x 30 MMSCFD TEG trains (60 MMSCFD sour gas plant)",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "geg-energy-billing-system"
   ],
-  "description": "billing / power-quality grid-edge meter",
+  "description": "billing / power-quality grid-edge meter Primary source: https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
   "specifications": [
     {
       "metric": "accuracy classes for active energy",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
         "source_id": "geg-landisgyr-com-e660-f701920"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "functional scope",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
         "source_id": "geg-landisgyr-com-e660-f701920"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "security",
@@ -36,7 +38,8 @@
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",
         "source_id": "geg-landisgyr-com-e660-f701920"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Accuracy classes",
@@ -44,7 +47,8 @@
       "basis": "Landis+Gyr E660 Variations: 'Accuracy classes C, B (MID) or 0.2s, 0.5s, 1 (IEC) (for active energy)'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Power quality standards",
@@ -52,7 +56,8 @@
       "basis": "'Continuous power quality measurement integrated (EN50160, IEC61000-4-30 Cl. S)'; 'Power quality according EN50160 and IEC 61000-4-30 Cl. S or according IDIS'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Safety standard",
@@ -60,7 +65,8 @@
       "basis": "'The E660 supports new safety standards in full (IEC62052-31)'; 'Fulfils IEC62052-31 safety standard'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Communication module E66C",
@@ -68,7 +74,8 @@
       "basis": "'The communication module E66C supports state of the art IP-communication LTE CAT-M1 and Ethernet'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Security",
@@ -76,7 +83,8 @@
       "basis": "'High Level DLMS security with encryption and authentication, role based access (RBAC), TLS'; 'DLMS security suite 0 as default, upgrade path to suite 1 and 2 and TLS'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Overvoltage category",
@@ -84,7 +92,8 @@
       "basis": "'For use in overvoltage category III or IV environment'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Energy measurement",
@@ -92,7 +101,8 @@
       "basis": "'Active, reactive and apparent energy (4-quadrant)'; 'Transformer connection (CT; CT/VT)'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     },
     {
       "metric": "Expansion module",
@@ -100,7 +110,8 @@
       "basis": "'The expansion module E66E with digital inputs and outputs and electro-mechanical relay'",
       "source": {
         "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
-      }
+      },
+      "source_url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660"
     }
   ],
   "url": "https://www.landisgyr.com/us/en/home/devices/asia-pacific/e660",

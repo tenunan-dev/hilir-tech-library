@@ -6,7 +6,7 @@
   "equipment": [
     "geg-gas-engine-generator-units"
   ],
-  "description": "gas engine / CHP product line (historical ownership)",
+  "description": "gas engine / CHP product line (historical ownership) Primary source: https://en.wikipedia.org/wiki/Jenbacher",
   "specifications": [
     {
       "metric": "GE Energy Jenbacher J920 electrical efficiency (archived GE claim cited by Wikipedia)",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Jenbacher",
         "source_id": "geg-en-wikipedia-org-jenbacher-436766f"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Jenbacher"
     },
     {
       "metric": "J920 FleXtra power",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Jenbacher"
       },
-      "value": "up to 9.5 MW (12,915 PS)"
+      "value": "up to 9.5 MW (12,915 PS)",
+      "source_url": "https://en.wikipedia.org/wiki/Jenbacher"
     },
     {
       "metric": "J920 FleXtra electrical efficiency",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Jenbacher"
       },
-      "value": 48.7
+      "value": 48.7,
+      "source_url": "https://en.wikipedia.org/wiki/Jenbacher"
     },
     {
       "metric": "J920 FleXtra CHP thermal efficiency",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Jenbacher"
       },
-      "value": "> 90"
+      "value": "> 90",
+      "source_url": "https://en.wikipedia.org/wiki/Jenbacher"
     },
     {
       "metric": "Ownership timeline",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Jenbacher"
       },
-      "value": "Founded 1959; acquired by General Electric 2003; became part of INNIO Nov 2018"
+      "value": "Founded 1959; acquired by General Electric 2003; became part of INNIO Nov 2018",
+      "source_url": "https://en.wikipedia.org/wiki/Jenbacher"
     },
     {
       "metric": "Combustion technology",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Jenbacher"
       },
-      "value": "Otto cycle, industrial spark plugs; smaller models stoichiometric, larger lean-burn with prechamber ignition; Miller cycle and two-stage turbocharging on J920"
+      "value": "Otto cycle, industrial spark plugs; smaller models stoichiometric, larger lean-burn with prechamber ignition; Miller cycle and two-stage turbocharging on J920",
+      "source_url": "https://en.wikipedia.org/wiki/Jenbacher"
     },
     {
       "metric": "Fuels",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Jenbacher"
       },
-      "value": "natural gas, landfill gas, sewage gas, biogas, mine gas, coal gas, syngas and hydrogen"
+      "value": "natural gas, landfill gas, sewage gas, biogas, mine gas, coal gas, syngas and hydrogen",
+      "source_url": "https://en.wikipedia.org/wiki/Jenbacher"
     }
   ],
   "url": "https://en.wikipedia.org/wiki/Jenbacher",

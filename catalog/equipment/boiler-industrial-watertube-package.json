@@ -13,7 +13,7 @@
     "REF",
     "PCH"
   ],
-  "description": "Shop-assembled watertube boiler (steam and lower drum above a water-cooled membrane furnace) custom-engineered per project, with D-type and O-type two-drum layouts. The standard steam generator above the fire-tube class for refineries, petrochemical plants and industrial power, firing liquid or gaseous fuels including refinery byproduct gases.",
+  "description": "Shop-assembled watertube boiler (steam and lower drum above a water-cooled membrane furnace) custom-engineered per project, with D-type and O-type two-drum layouts. The standard steam generator above the fire-tube class for refineries, petrochemical plants and industrial power, firing liquid or gaseous fuels including refinery byproduct gases. Primary source: https://www.babcock.com/home/products/package-boilers",
   "subtypes": [
     {
       "name": "D-type",
@@ -46,7 +46,8 @@
       "source": {
         "url": "https://www.babcock.com/home/products/package-boilers",
         "note": "Babcock & Wilcox package boilers specification section, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.babcock.com/home/products/package-boilers"
     },
     {
       "metric": "design pressure range",
@@ -57,7 +58,8 @@
       "source": {
         "url": "https://www.babcock.com/home/products/package-boilers",
         "note": "Babcock & Wilcox package boilers specification section, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.babcock.com/home/products/package-boilers"
     },
     {
       "metric": "steam temperature",
@@ -68,7 +70,8 @@
       "source": {
         "url": "https://www.babcock.com/home/products/package-boilers",
         "note": "Babcock & Wilcox package boilers specification section, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.babcock.com/home/products/package-boilers"
     },
     {
       "metric": "installed base",
@@ -78,7 +81,8 @@
       "source": {
         "url": "https://www.babcock.com/home/products-services/steam-generators/industrial-water-tube-package-boilers",
         "note": "B&W industrial water-tube package boilers overview, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.babcock.com/home/products-services/steam-generators/industrial-water-tube-package-boilers"
     },
     {
       "metric": "FM-series capacity range",
@@ -89,7 +93,8 @@
       "source": {
         "url": "https://www.babcock.com/home/products/package-boilers",
         "note": "B&W package boiler FM capacity tables, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.babcock.com/home/products/package-boilers"
     },
     {
       "metric": "HCFM / PFM / TSSG capacity, pressure, temperature limits",
@@ -98,7 +103,8 @@
       "source": {
         "url": "https://www.babcock.com/home/products/package-boilers",
         "note": "B&W package boiler HCFM/PFM/TSSG table, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.babcock.com/home/products/package-boilers"
     },
     {
       "metric": "tube specification",
@@ -109,7 +115,8 @@
       "source": {
         "url": "https://www.babcock.com/home/products/package-boilers",
         "note": "B&W package boiler design-features list, read 30 October 2026"
-      }
+      },
+      "source_url": "https://www.babcock.com/home/products/package-boilers"
     }
   ],
   "vendor_models": [

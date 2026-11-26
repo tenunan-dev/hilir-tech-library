@@ -6,7 +6,7 @@
   "equipment": [
     "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
   "specifications": [
     {
       "metric": "regeneration gas temperature",
@@ -16,7 +16,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
       },
-      "value": "~550 degF (290 degC)"
+      "value": "~550 degF (290 degC)",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "towers",
@@ -26,7 +27,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",
         "source_id": "specoilandgas-com-gas-conditioning-molecular-sieve-dehydration"
       },
-      "value": "minimum 2, fixed switching cycle"
+      "value": "minimum 2, fixed switching cycle",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "Reference scope",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
       },
-      "value": "Molecular sieve dehydration unit within a 100 tonne a day LPG production facility"
+      "value": "Molecular sieve dehydration unit within a 100 tonne a day LPG production facility",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "Regeneration gas temperature",
@@ -45,7 +48,8 @@
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
       },
       "value": 290,
-      "low": 550
+      "low": 550,
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "Regeneration temperature (table)",
@@ -54,7 +58,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
       },
-      "high": 290
+      "high": 290,
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     },
     {
       "metric": "Bed configuration",
@@ -63,7 +68,8 @@
       "source": {
         "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
       },
-      "value": "two towers switching between adsorbing and regenerating on a fixed cycle"
+      "value": "two towers switching between adsorbing and regenerating on a fixed cycle",
+      "source_url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration"
     }
   ],
   "url": "https://www.specoilandgas.com/equipment/gas-conditioning/molecular-sieve-dehydration",

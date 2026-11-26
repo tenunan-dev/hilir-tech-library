@@ -6,7 +6,7 @@
   "sector_codes": [
     "ELE"
   ],
-  "description": "Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to MS IEC 60076 (IEC 60076 adopted).",
+  "description": "Oil-immersed and dry-type transformers stepping between the Malaysian voltage tiers: 500/275 kV and 275/132 kV grid banks, 132/33/11 kV distribution units and 11-33 kV/415 V site transformers, to MS IEC 60076 (IEC 60076 adopted). Primary source: https://www.tnb.com.my/",
   "subtypes": [
     {
       "name": "Generator step-up and grid power transformers (275-500 kV)"
@@ -36,7 +36,8 @@
       "source": {
         "url": "https://www.tnb.com.my/",
         "note": "TNB supply-voltage table, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.tnb.com.my/"
     },
     {
       "metric": "no-load loss, 1000 kVA 11 kV/433 V Dyn11 ONAN",
@@ -47,7 +48,8 @@
       "source": {
         "url": "https://www.cidb.gov.my/",
         "note": "CIDB/JKR public-sector transformer loss schedule cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.cidb.gov.my/"
     },
     {
       "metric": "load loss, 1000 kVA 11 kV/433 V Dyn11 ONAN",
@@ -58,7 +60,8 @@
       "source": {
         "url": "https://www.cidb.gov.my/",
         "note": "CIDB/JKR public-sector transformer loss schedule cited from search summary, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.cidb.gov.my/"
     },
     {
       "metric": "short-circuit impedance, distribution class",
@@ -69,7 +72,8 @@
       "source": {
         "url": "https://www.cidb.gov.my/",
         "note": "distribution transformer practice cited from search results, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.cidb.gov.my/"
     },
     {
       "metric": "distribution transformer rating",
@@ -80,7 +84,8 @@
       "source": {
         "url": "https://www.cidb.gov.my/",
         "note": "Malaysian distribution transformer schedule, 2026-11-13"
-      }
+      },
+      "source_url": "https://www.cidb.gov.my/"
     },
     {
       "metric": "power transformer rating",
@@ -91,7 +96,8 @@
       "source": {
         "url": "https://www.hitachienergy.com/products-and-solutions/transformers",
         "note": "Hitachi Energy power transformer range, read 2026-11-13"
-      }
+      },
+      "source_url": "https://www.hitachienergy.com/products-and-solutions/transformers"
     },
     {
       "metric": "distribution transformer rating, Malaysia Transformer Manufacturing (MTM)",
@@ -102,7 +108,8 @@
       "source": {
         "url": "https://www.malaysiatransformer.com/products",
         "note": "MTM Products page, read in browser 2026-11-13"
-      }
+      },
+      "source_url": "https://www.malaysiatransformer.com/products"
     },
     {
       "metric": "power transformer rating, MTM",
@@ -113,7 +120,8 @@
       "source": {
         "url": "https://www.malaysiatransformer.com/products",
         "note": "MTM Products page, read in browser 2026-11-13"
-      }
+      },
+      "source_url": "https://www.malaysiatransformer.com/products"
     },
     {
       "metric": "indicative cost, 1000 kVA 11 kV/0.4 kV oil-immersed transformer (export price list)",
@@ -125,7 +133,8 @@
       "source": {
         "url": "https://gdtanggula.en.made-in-china.com/product/DORGuNjYnyVn/China-S11-Electrical-Distribution-Oil-Immersed-Transformer-1000kVA-13-2kv-4-16kv-for-Malaysia-Power-Project.html",
         "note": "Export listings for Malaysia-power-project S11/S13 1000 kVA transformers (made-in-china, Alibaba), found in browser search 2026-11-13"
-      }
+      },
+      "source_url": "https://gdtanggula.en.made-in-china.com/product/DORGuNjYnyVn/China-S11-Electrical-Distribution-Oil-Immersed-Transformer-1000kVA-13-2kv-4-16kv-for-Malaysia-Power-Project.html"
     }
   ],
   "vendor_models": [

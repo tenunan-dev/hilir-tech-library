@@ -6,7 +6,7 @@
   "equipment": [
     "burner-management-safety-system"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). Linked BMS PDF brochure not opened.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). Linked BMS PDF brochure not opened. Primary source: https://www.zeeco.com/products/burners?hsLang=en",
   "specifications": [
     {
       "metric": "Components",
@@ -16,7 +16,8 @@
         "source_id": "zeeco-com-products-burners-hslang-en"
       },
       "unit": "scope of supply",
-      "value": "PLCs, HMIs, complex relay logic, transmitters for all measurements"
+      "value": "PLCs, HMIs, complex relay logic, transmitters for all measurements",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Panel certifications",
@@ -26,7 +27,8 @@
         "source_id": "zeeco-com-products-burners-hslang-en"
       },
       "unit": "certifications",
-      "value": "UL certified panel shop; ATEX, CSA and UL certifications; IEC and NEC standards"
+      "value": "UL certified panel shop; ATEX, CSA and UL certifications; IEC and NEC standards",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Industry experience",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "over 40 years"
+      "value": "over 40 years",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Components",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "PLCs, HMIs, complex relay logic, transmitters for all measurements, optional instruments"
+      "value": "PLCs, HMIs, complex relay logic, transmitters for all measurements, optional instruments",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Certifications",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "UL certified panel shop; ATEX, CSA, UL, IEC and NEC standards"
+      "value": "UL certified panel shop; ATEX, CSA, UL, IEC and NEC standards",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Package burner turndown",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "10:1 or greater"
+      "value": "10:1 or greater",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Package burner NOx (standard)",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "<30"
+      "value": "<30",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Package burner NOx (with FGR)",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "<9"
+      "value": "<9",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "FGR fraction",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "<20"
+      "value": "<20",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "O2 level",
@@ -98,7 +107,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "3-4"
+      "value": "3-4",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "Package burner models",
@@ -107,7 +117,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "PLN Ultra-Low NOx, FREE JET Ultra-Low NOx, GO Ultra-Low NOx, GB-ZS/ZR"
+      "value": "PLN Ultra-Low NOx, FREE JET Ultra-Low NOx, GO Ultra-Low NOx, GB-ZS/ZR",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     },
     {
       "metric": "GO burner",
@@ -116,7 +127,8 @@
       "source": {
         "url": "https://www.zeeco.com/products/burners?hsLang=en"
       },
-      "value": "staged flame combustion and Internal Flue Gas Recirculation (IFGR) to achieve 30ppm NOx without FGR"
+      "value": "staged flame combustion and Internal Flue Gas Recirculation (IFGR) to achieve 30ppm NOx without FGR",
+      "source_url": "https://www.zeeco.com/products/burners?hsLang=en"
     }
   ],
   "url": "https://www.zeeco.com/products/burners?hsLang=en",

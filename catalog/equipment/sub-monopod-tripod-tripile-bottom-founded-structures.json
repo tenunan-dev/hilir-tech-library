@@ -9,7 +9,7 @@
     "CIV",
     "PRC"
   ],
-  "description": "Single-leg (monopod) or three-leg (tripod/tripile) bottom-founded substructure supporting a small deck or a wind turbine.",
+  "description": "Single-leg (monopod) or three-leg (tripod/tripile) bottom-founded substructure supporting a small deck or a wind turbine. Primary source: https://en.wikipedia.org/wiki/Condeep",
   "specifications": [
     {
       "metric": "concrete monotower example (Draugen)",
@@ -19,7 +19,8 @@
         "url": "https://en.wikipedia.org/wiki/Condeep",
         "source_id": "en-wikipedia-org-wiki-condeep"
       },
-      "value": 251
+      "value": 251,
+      "source_url": "https://en.wikipedia.org/wiki/Condeep"
     }
   ],
   "vendors": [

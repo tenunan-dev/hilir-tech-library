@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Decomposers / carbamate decomposer (LP/MP)",
+  "description": "Decomposers / carbamate decomposer (LP/MP) Primary source: https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
   "specifications": [
     {
       "metric": "first decompression stage",
@@ -20,7 +20,8 @@
         "source_id": "en-wikipedia-org-w-index-php"
       },
       "low": 1.8,
-      "high": 2.5
+      "high": 2.5,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "second decompression stage",
@@ -31,7 +32,8 @@
         "source_id": "en-wikipedia-org-w-index-php"
       },
       "low": 0.2,
-      "high": 0.5
+      "high": 0.5,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "inline analyser installation point",
@@ -41,7 +43,8 @@
         "url": "https://www.sensotech.com/en/urea-production",
         "source_id": "sensotech-com-en-urea-production"
       },
-      "value": "outlet of the decomposer, typically DN80 pipeline"
+      "value": "outlet of the decomposer, typically DN80 pipeline",
+      "source_url": "https://www.sensotech.com/en/urea-production"
     }
   ],
   "vendors": [

@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-makeup-ro-edi"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver ElectroFlex EDI Systems page. Cost percentages are vendor claims with no dollar year or currency, so no USD figure is recorded.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver ElectroFlex EDI Systems page. Cost percentages are vendor claims with no dollar year or currency, so no USD figure is recorded. Primary source: https://graver.com/makeup/electroflex/",
   "specifications": [
     {
       "metric": "Operating cost reduction vs mixed bed DI",
@@ -17,7 +17,8 @@
       },
       "unit": "% lower",
       "low": "40",
-      "high": "50"
+      "high": "50",
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Floor space vs ion exchange demineralization",
@@ -28,7 +29,8 @@
       },
       "unit": "% less",
       "low": "50",
-      "high": "75"
+      "high": "75",
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Recycle of EDI reject to RO feed",
@@ -38,7 +40,8 @@
         "source_id": "graver-com-makeup-electroflex"
       },
       "unit": "% recovery, zero waste production",
-      "value": "100"
+      "value": "100",
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Typical application",
@@ -48,7 +51,8 @@
         "source_id": "graver-com-makeup-electroflex"
       },
       "unit": "n/a",
-      "value": "Power Generation: Steam makeup water"
+      "value": "Power Generation: Steam makeup water",
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Operating cost saving vs mixed bed DI",
@@ -58,7 +62,8 @@
         "url": "https://graver.com/makeup/electroflex/"
       },
       "low": 40,
-      "high": 50
+      "high": 50,
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Floorspace vs ion exchange demineralization",
@@ -68,7 +73,8 @@
         "url": "https://graver.com/makeup/electroflex/"
       },
       "low": 50,
-      "high": 75
+      "high": 75,
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Water recovery",
@@ -77,7 +83,8 @@
       "source": {
         "url": "https://graver.com/makeup/electroflex/"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Technology",
@@ -85,7 +92,8 @@
       "basis": "\"combination of selective ion exchange membranes, ion exchange conductive resins, and electricity to remove ions from water rather than costly hazardous chemicals\"",
       "source": {
         "url": "https://graver.com/makeup/electroflex/"
-      }
+      },
+      "source_url": "https://graver.com/makeup/electroflex/"
     },
     {
       "metric": "Applications",
@@ -93,7 +101,8 @@
       "basis": "\"Power Generation: Steam makeup water; Petrochemical: Steam makeup water; All Industrial applications where demineralized or deionized water is needed for ultrapure processes\"",
       "source": {
         "url": "https://graver.com/makeup/electroflex/"
-      }
+      },
+      "source_url": "https://graver.com/makeup/electroflex/"
     }
   ],
   "url": "https://graver.com/makeup/electroflex/",

@@ -6,7 +6,7 @@
   "equipment": [
     "geg-fire-fighting-system"
   ],
-  "description": "packaged NFPA 20 fire pump system for heavy industrial service",
+  "description": "packaged NFPA 20 fire pump system for heavy industrial service Primary source: https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
   "specifications": [
     {
       "metric": "electric motor rating",
@@ -17,7 +17,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
         "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
-      }
+      },
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "diesel engine rating",
@@ -28,7 +29,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
         "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
-      }
+      },
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "diesel starting system",
@@ -39,7 +41,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
         "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
-      }
+      },
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "pumphouse lighting",
@@ -50,7 +53,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
         "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
-      }
+      },
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "diesel fuel tank",
@@ -60,7 +64,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
         "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
-      }
+      },
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "pump construction",
@@ -70,7 +75,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
         "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
-      }
+      },
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "controllers and communications",
@@ -80,7 +86,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
         "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
-      }
+      },
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "corrosion protection",
@@ -90,7 +97,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",
         "source_id": "geg-ruhrpumpen-com-ruhrpumpen-has-developed-high-c948a15"
-      }
+      },
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "design_standard",
@@ -99,7 +107,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": "NFPA 20"
+      "value": "NFPA 20",
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "fire_pump_design",
@@ -108,7 +117,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": "Ruhrpumpen ZW series horizontal split-case fire pumps (BB1 design), single-stage, between-bearings, UL/FM certified"
+      "value": "Ruhrpumpen ZW series horizontal split-case fire pumps (BB1 design), single-stage, between-bearings, UL/FM certified",
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "casings_materials",
@@ -117,7 +127,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": "ductile iron or cast iron casings with 316 stainless steel fitted internals (impellers, shaft sleeves, wear rings)"
+      "value": "ductile iron or cast iron casings with 316 stainless steel fitted internals (impellers, shaft sleeves, wear rings)",
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "electric_motor_rating",
@@ -126,7 +137,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": 350
+      "value": 350,
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "electric_motor_voltage",
@@ -135,7 +147,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": 6600
+      "value": 6600,
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "electric_motor_frequency",
@@ -144,7 +157,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "diesel_engine_rating",
@@ -153,7 +167,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": 510
+      "value": 510,
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "diesel_engine_speed",
@@ -162,7 +177,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": 1760
+      "value": 1760,
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "diesel_starting_system",
@@ -171,7 +187,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": 24
+      "value": 24,
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "controller_electric",
@@ -180,7 +197,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": "Tornatech MPA UL/FM-listed controller with Modbus TCP/IP"
+      "value": "Tornatech MPA UL/FM-listed controller with Modbus TCP/IP",
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "controller_diesel",
@@ -189,7 +207,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": "Tornatech GPD diesel controller"
+      "value": "Tornatech GPD diesel controller",
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "jockey_pump",
@@ -198,7 +217,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": "vertical in-line OH4 construction, cast iron and stainless steel, mechanical seal, vertical rigid coupling, UL-listed controller per NFPA 20"
+      "value": "vertical in-line OH4 construction, cast iron and stainless steel, mechanical seal, vertical rigid coupling, UL-listed controller per NFPA 20",
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     },
     {
       "metric": "pumphouse_lighting",
@@ -207,7 +227,8 @@
       "source": {
         "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives"
     }
   ],
   "url": "https://ruhrpumpen.com/media-center-en/ruhrpumpen-has-developed-high-performance-fire-pump-package-with-electric-diesel-drives",

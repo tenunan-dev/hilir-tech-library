@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Choke valves and choke manifolds provide well isolation, flow routing and flow control on trees and manifolds. A choke is described as the smallest restriction in a Christmas tree, used to control production rate (and in some cases sand production), with two types: positive chokes with interchangeable beans and adjustable chokes. Master valves are normally fully open and not operated while flowing; the lower master is normally manual, the upper often hydraulically actuated for remote shut-in, an",
+  "description": "Choke valves and choke manifolds provide well isolation, flow routing and flow control on trees and manifolds. A choke is described as the smallest restriction in a Christmas tree, used to control production rate (and in some cases sand production), with two types: positive chokes with interchangeable beans and adjustable chokes. Master valves are normally fully open and not operated while flowing; the lower master is normally manual, the upper often hydraulically actuated for remote shut-in, an Primary source: https://patents.google.com/patent/US20120273228A1/en",
   "aliases": [
     "Chokes and choke manifolds (manual and actuated)"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US20120273228A1/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US20120273228A1/en"
     },
     {
       "metric": "Choke valve (positive/bean and adjustabl — Series subsea production choke pressure-difference capability",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://patents.google.com/patent/WO2008045381A2/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/WO2008045381A2/en"
     },
     {
       "metric": "Choke valve (positive/bean and adjustabl — Combined choke flow coefficient range (two chokes in series)",
@@ -47,7 +49,8 @@
       "source": {
         "url": "https://patents.google.com/patent/WO2008045381A2/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/WO2008045381A2/en"
     }
   ],
   "vendor_models": [],

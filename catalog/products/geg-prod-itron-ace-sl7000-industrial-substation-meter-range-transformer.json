@@ -6,7 +6,7 @@
   "equipment": [
     "geg-main-and-check-tariff-meters"
   ],
-  "description": "transformer-connected tariff meter",
+  "description": "transformer-connected tariff meter Primary source: https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
   "specifications": [
     {
       "metric": "transformer-connected accuracy class",
@@ -16,7 +16,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "standards compliance",
@@ -26,7 +27,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "load profile channels",
@@ -37,7 +39,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "rate registers",
@@ -48,7 +51,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "communication channels",
@@ -59,7 +63,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "CT connection rating",
@@ -69,7 +74,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",
         "source_id": "geg-pt-itron-com-3809712-f6b916f"
-      }
+      },
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Voltage rating",
@@ -78,7 +84,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "3*57.7/100V up to 3*277/480V auto ranging"
+      "value": "3*57.7/100V up to 3*277/480V auto ranging",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Direct current",
@@ -87,7 +94,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "In 5A, Imax 120A"
+      "value": "In 5A, Imax 120A",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "CT connection",
@@ -96,7 +104,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "Ib 1A, Imax 10A"
+      "value": "Ib 1A, Imax 10A",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Accuracy - direct connected",
@@ -105,7 +114,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "Class 1 or Class B"
+      "value": "Class 1 or Class B",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Accuracy - transformer connected",
@@ -114,7 +124,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "Class 0.2S, Class 0.5S or Class C"
+      "value": "Class 0.2S, Class 0.5S or Class C",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Accuracy - reactive energy",
@@ -123,7 +134,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "Class 1 or Class 2"
+      "value": "Class 1 or Class 2",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Frequency",
@@ -132,7 +144,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "50 / 60"
+      "value": "50 / 60",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Standards",
@@ -141,7 +154,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "IEC 62052, IEC 62053, EN50470-1, EN50470-3, CE marking"
+      "value": "IEC 62052, IEC 62053, EN50470-1, EN50470-3, CE marking",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Communications",
@@ -150,7 +164,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "IR-port (IEC 61107), optional RS232C and/or RS485, DLMS-Cosem Protocol (IEC 62056)"
+      "value": "IR-port (IEC 61107), optional RS232C and/or RS485, DLMS-Cosem Protocol (IEC 62056)",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Communication channels",
@@ -159,7 +174,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "Up to three (2 electrical & 1 optical); two used simultaneously"
+      "value": "Up to three (2 electrical & 1 optical); two used simultaneously",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Load profile channels",
@@ -168,7 +184,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 16
+      "value": 16,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Energy-rate registers",
@@ -177,7 +194,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 32
+      "value": 32,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Demand-rate registers",
@@ -186,7 +204,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 24
+      "value": 24,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Pulse inputs",
@@ -195,7 +214,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Auxiliary power supply isolation",
@@ -204,7 +224,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 2
+      "value": 2,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "External modem power",
@@ -213,7 +234,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": 3
+      "value": 3,
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     },
     {
       "metric": "Dimensions",
@@ -222,7 +244,8 @@
       "source": {
         "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
       },
-      "value": "180 x 325 mm with standard terminal cover; 358 mm with extended terminal cover; 85 x 251 x 97 x 62 x 150 x 201 x 230 x 239"
+      "value": "180 x 325 mm with standard terminal cover; 358 mm with extended terminal cover; 85 x 251 x 97 x 62 x 150 x 201 x 230 x 239",
+      "source_url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712"
     }
   ],
   "url": "https://pt.itron.com/o/commerce-media/accounts/-1/attachments/3809712",

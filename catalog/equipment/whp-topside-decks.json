@@ -8,7 +8,7 @@
     "MID",
     "CIV"
   ],
-  "description": "Read sources describe topside structural concepts (single integrated deck, split deck, integrated deck with living quarters, modular topside on a module support frame), weight bands and one-lift installation limits, plus equipment module and living-quarter module construction. ESDEP lists major deck functions including well control, separation, pumps/compressors, power generation and accommodation. No page read during this sweep explicitly names the cellar/main/mezzanine three-level arrangement ",
+  "description": "Read sources describe topside structural concepts (single integrated deck, split deck, integrated deck with living quarters, modular topside on a module support frame), weight bands and one-lift installation limits, plus equipment module and living-quarter module construction. ESDEP lists major deck functions including well control, separation, pumps/compressors, power generation and accommodation. No page read during this sweep explicitly names the cellar/main/mezzanine three-level arrangement Primary source: https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
   "aliases": [
     "Topside decks (cellar deck, main deck, mezzanine as required)"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Integrated / modular topside deck and mo — Topside single-lift installation limit",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Integrated / modular topside deck and mo — Major modularized topside weight",
@@ -47,7 +49,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Integrated / modular topside deck and mo — Equipment module weight",
@@ -58,7 +61,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Integrated / modular topside deck and mo — Living quarter module weight",
@@ -69,7 +73,8 @@
       "source": {
         "url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm",
         "source_id": "cost-fgg-web-fgg-uni-lj-si-l0100-htm"
-      }
+      },
+      "source_url": "https://fgg-web.fgg.uni-lj.si/~/pmoze/esdep/master/wg15a/l0100.htm"
     },
     {
       "metric": "Wellhead area / deck level arrangement — Kebabangan deck content and mass",
@@ -79,7 +84,8 @@
       "source": {
         "url": "https://www.offshore-technology.com/projects/kebabangan-field",
         "source_id": "offshore-technology-com-projects-kebabangan-field"
-      }
+      },
+      "source_url": "https://www.offshore-technology.com/projects/kebabangan-field"
     },
     {
       "metric": "Reliability — Design life of Tarpon KMSE/AJK WHPs",
@@ -89,7 +95,8 @@
       "source": {
         "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
         "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
-      }
+      },
+      "source_url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil"
     },
     {
       "metric": "Price — Topsides fabrication contract, Kebabangan",
@@ -100,7 +107,8 @@
         "url": "https://www.offshore-technology.com/projects/kebabangan-field",
         "source_id": "offshore-technology-com-projects-kebabangan-field"
       },
-      "year": 2011
+      "year": 2011,
+      "source_url": "https://www.offshore-technology.com/projects/kebabangan-field"
     }
   ],
   "vendor_models": [],

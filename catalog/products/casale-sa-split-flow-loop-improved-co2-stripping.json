@@ -6,7 +6,7 @@
   "equipment": [
     "urea-co2-stripper"
   ],
-  "description": "Vendor product line read 2026-11-24.",
+  "description": "Vendor product line read 2026-11-24. Primary source: https://www.casale.ch/technologies/urea/",
   "specifications": [
     {
       "metric": "CO2 conversion in reactor",
@@ -16,7 +16,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": 62
+      "value": 62,
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "sections",
@@ -26,7 +27,8 @@
         "url": "https://www.casale.ch/technologies/urea/",
         "source_id": "casale-ch-urea"
       },
-      "value": "HP synthesis + LP purification/carbamate recovery; optional MP section for high capacity"
+      "value": "HP synthesis + LP purification/carbamate recovery; optional MP section for high capacity",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "CO2_conversion_in_reactor",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
       },
-      "high": 62
+      "high": 62,
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "stripping_efficiency",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
       },
-      "value": "High stripping efficiency"
+      "value": "High stripping efficiency",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     },
     {
       "metric": "process_configuration",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.casale.ch/technologies/urea/"
       },
-      "value": "High-pressure synthesis section followed by a low-pressure purification and carbamate recovery section; optionally for high capacity a medium-pressure section is installed"
+      "value": "High-pressure synthesis section followed by a low-pressure purification and carbamate recovery section; optionally for high capacity a medium-pressure section is installed",
+      "source_url": "https://www.casale.ch/technologies/urea/"
     }
   ],
   "url": "https://www.casale.ch/technologies/urea/",

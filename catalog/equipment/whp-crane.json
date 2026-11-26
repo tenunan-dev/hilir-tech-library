@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Unmanned and manned WHPs use pedestal/deck cranes for supply-boat transfers, wireline/coiled-tubing equipment and module handling. PALFINGER AHC crane data gives printed capacity/radius/wire ranges; Ramboll/NPD gives crane sizes by UWHP type. No page read gave a quantified laydown-area specification.",
+  "description": "Unmanned and manned WHPs use pedestal/deck cranes for supply-boat transfers, wireline/coiled-tubing equipment and module handling. PALFINGER AHC crane data gives printed capacity/radius/wire ranges; Ramboll/NPD gives crane sizes by UWHP type. No page read gave a quantified laydown-area specification. Primary source: https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
   "aliases": [
     "Crane (pedestal/deck crane) and laydown areas"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
-      }
+      },
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "Pedestal/deck crane - PALFINGER active h — Hoisting capacity",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
-      }
+      },
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "Pedestal/deck crane - PALFINGER active h — Jib radius",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
-      }
+      },
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "Pedestal/deck crane - PALFINGER active h — Main winch wire capacity",
@@ -56,7 +59,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
-      }
+      },
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "Pedestal/deck crane - PALFINGER active h — Winterisation temperature",
@@ -66,7 +70,8 @@
       "source": {
         "url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html",
         "source_id": "palfinger-com-marine-and-offshore-cranes-ahc-cranes-html"
-      }
+      },
+      "source_url": "https://www.palfinger.com/us/en/our-products/deck-equipment/marine-and-offshore-cranes/ahc-cranes.html"
     },
     {
       "metric": "UWHP pedestal crane sizing by platform t — Type 0 crane sizing",
@@ -77,7 +82,8 @@
       "source": {
         "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
         "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
-      }
+      },
+      "source_url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf"
     },
     {
       "metric": "UWHP pedestal crane sizing by platform t — Type 1 crane sizing",
@@ -88,7 +94,8 @@
       "source": {
         "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
         "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
-      }
+      },
+      "source_url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf"
     },
     {
       "metric": "UWHP pedestal crane sizing by platform t — Type 2 crane sizing",
@@ -99,7 +106,8 @@
       "source": {
         "url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf",
         "source_id": "whp-sodir-no-unmanned-wellhead-platforms-pdf"
-      }
+      },
+      "source_url": "https://www.sodir.no/4ae82e/globalassets/1-sodir/publikasjoner/rapporter/unmanned-wellhead-platforms.pdf"
     }
   ],
   "vendor_models": [],

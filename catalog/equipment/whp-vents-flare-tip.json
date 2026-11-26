@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Flare and vent systems dispose of relief/blowdown/start-up gas by controlled combustion; a knock-out drum upstream removes entrained liquid to prevent liquid carryover, flame instability and hazardous 'flaming rain' (CRA Energy page, read). FlareTech states its knockout drums range from 2 to 600 barrels. The claim that cold vent is common on unmanned WHPs is not supported by a page read in this sweep and is left as a gap.",
+  "description": "Flare and vent systems dispose of relief/blowdown/start-up gas by controlled combustion; a knock-out drum upstream removes entrained liquid to prevent liquid carryover, flame instability and hazardous 'flaming rain' (CRA Energy page, read). FlareTech states its knockout drums range from 2 to 600 barrels. The claim that cold vent is common on unmanned WHPs is not supported by a page read in this sweep and is left as a gap. Primary source: https://www.flaretechinc.com/products/flare-knockout-drums",
   "aliases": [
     "Vents / flare tip (cold vent common on unmanned WHPs)"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
         "source_id": "flaretechinc-com-products-flare-knockout-drums"
-      }
+      },
+      "source_url": "https://www.flaretechinc.com/products/flare-knockout-drums"
     }
   ],
   "vendor_models": [],

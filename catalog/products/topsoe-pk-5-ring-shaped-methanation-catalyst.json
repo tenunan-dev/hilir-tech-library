@@ -6,7 +6,7 @@
   "equipment": [
     "ammonia-methanation-purification"
   ],
-  "description": "Vendor product line read 2026-11-24. PK-7R is the pre-reduced alternative.",
+  "description": "Vendor product line read 2026-11-24. PK-7R is the pre-reduced alternative. Primary source: https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation",
   "specifications": [
     {
       "metric": "Pressure drop reduction vs sphere/cylinder catalysts",
@@ -17,7 +17,8 @@
         "source_id": "topsoe-com-ammonia-ammonia-methanation"
       },
       "low": 30,
-      "high": 70
+      "high": 70,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     },
     {
       "metric": "Pressure drop reduction vs conventional shapes",
@@ -27,7 +28,8 @@
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
       },
       "low": 30,
-      "high": 70
+      "high": 70,
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     },
     {
       "metric": "Function",
@@ -35,7 +37,8 @@
       "basis": "Topsoe: 'PK-5 catalyst — A catalyst for conversion of carbon oxides to methane.'",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     },
     {
       "metric": "Form",
@@ -43,7 +46,8 @@
       "basis": "Topsoe: 'ring-shaped PK-5'",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     },
     {
       "metric": "Related catalyst PK-7R",
@@ -51,7 +55,8 @@
       "basis": "Topsoe: 'PK-7R catalyst — A pre-reduced methanation catalyst used for conversion of carbon oxides to methane in ammonia plants, hydrogen plants and SNG plants.'",
       "source": {
         "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
-      }
+      },
+      "source_url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation"
     }
   ],
   "url": "https://www.topsoe.com/solutions/outputs/ammonia/ammonia-methanation",

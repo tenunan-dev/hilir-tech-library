@@ -6,7 +6,7 @@
   "equipment": [
     "ci-field-transmitters-pressure-temperature-flow-level"
   ],
-  "description": "Page read in full including Specifications tab. Note the page prints two slightly different diaphragm-seal process-temperature ranges (-70...+400 and -40...+400) in its two tables; both are transcribed rather than reconciled.",
+  "description": "Page read in full including Specifications tab. Note the page prints two slightly different diaphragm-seal process-temperature ranges (-70...+400 and -40...+400) in its two tables; both are transcribed rather than reconciled. Primary source: https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
   "specifications": [
     {
       "metric": "Reference accuracy",
@@ -16,7 +16,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": "up to 0.075 (Standard) / up to 0.055 (Platinum)"
+      "value": "up to 0.075 (Standard) / up to 0.055 (Platinum)",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Measuring cell",
@@ -27,7 +28,8 @@
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
       "low": "400 mbar",
-      "high": "400 bar"
+      "high": "400 bar",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Process temperature",
@@ -38,7 +40,8 @@
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
       "low": -40,
-      "high": 125
+      "high": 125,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Ambient temperature",
@@ -49,7 +52,8 @@
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
       "low": -40,
-      "high": 85
+      "high": 85,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Supply voltage",
@@ -60,7 +64,8 @@
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
       "low": "10.5",
-      "high": "35"
+      "high": "35",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Max. turn down",
@@ -70,7 +75,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": "100:1"
+      "value": "100:1",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Smallest calibratable span",
@@ -80,7 +86,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Communication",
@@ -90,7 +97,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": "4...20 mA, 4...20 mA HART, PROFINET with Ethernet-APL, Bluetooth wireless (optional)"
+      "value": "4...20 mA, 4...20 mA HART, PROFINET with Ethernet-APL, Bluetooth wireless (optional)",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Safety approvals",
@@ -100,7 +108,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": "SIL"
+      "value": "SIL",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Design approvals",
@@ -110,7 +119,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
         "source_id": "cat-endress-com-pressure-transmitter-cerabar-pmp51b"
       },
-      "value": "EN 10204-3.1, NACE MR0175, NACE MR0103"
+      "value": "EN 10204-3.1, NACE MR0175, NACE MR0103",
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Supply voltage Ex d / Ex e / non-Ex",
@@ -120,7 +130,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": 10.5,
-      "high": 35
+      "high": 35,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Supply voltage Ex i",
@@ -130,7 +141,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": 10.5,
-      "high": 30
+      "high": 30,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Reference accuracy standard",
@@ -139,7 +151,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 0.075
+      "value": 0.075,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Reference accuracy platinum",
@@ -148,7 +161,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 0.055
+      "value": 0.055,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Long term stability 1 year",
@@ -157,7 +171,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 0.1
+      "value": 0.1,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Long term stability 5 years",
@@ -166,7 +181,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 0.2
+      "value": 0.2,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Long term stability 10 years",
@@ -175,7 +191,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 0.25
+      "value": 0.25,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Process temperature standard",
@@ -185,7 +202,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": -40,
-      "high": 125
+      "high": 125,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Process temperature diaphragm seal (table 1)",
@@ -195,7 +213,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": -70,
-      "high": 400
+      "high": 400,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Process temperature diaphragm seal (table 2 - conflicting)",
@@ -205,7 +224,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": -40,
-      "high": 400
+      "high": 400,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Ambient temperature",
@@ -215,7 +235,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": -40,
-      "high": 85
+      "high": 85,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Measuring cell range",
@@ -225,7 +246,8 @@
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
       "low": 0.4,
-      "high": 400
+      "high": 400,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Smallest calibratable span",
@@ -234,7 +256,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Vacuum resistance standard",
@@ -243,7 +266,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Vacuum resistance diaphragm seal",
@@ -252,7 +276,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Maximum turn down",
@@ -261,7 +286,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 100
+      "value": 100,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Max overpressure limit (table 1)",
@@ -270,7 +296,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 600
+      "value": 600,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Max overpressure limit (table 2 - conflicting)",
@@ -279,7 +306,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 700
+      "value": 700,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Max measurement distance",
@@ -288,7 +316,8 @@
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
       },
-      "value": 4000
+      "value": 4000,
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Process connection",
@@ -296,7 +325,8 @@
       "basis": "Endress+Hauser: 'Thread: G1/2...G2, R1/2, MNPT3/4...MNPT2, FNPT1/2; Flange: DN25...DN80, NPS 1\"...3\"'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Wetted materials",
@@ -304,7 +334,8 @@
       "basis": "Endress+Hauser: '316L, AlloyC, Tantal, Monel, PTFE'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Housing material",
@@ -312,7 +343,8 @@
       "basis": "Endress+Hauser: 'Material housing Aluminium'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Fill fluid",
@@ -320,7 +352,8 @@
       "basis": "Endress+Hauser: 'Silicone oil, Inert oil, Vegetable oil, High/ low temperature oil'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Communication",
@@ -328,7 +361,8 @@
       "basis": "Endress+Hauser: '4...20 mA, 4...20 mA HART, PROFINET with Ethernet-APL, Bluetooth wireless technology and app (optional)'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     },
     {
       "metric": "Approvals",
@@ -336,7 +370,8 @@
       "basis": "Endress+Hauser: 'ATEX, IEC Ex, CSA C/US, NEPSI'; 'Safety approvals SIL'; design approvals 'EN10204-3.1, NACE MR0175, NACE MR0103'; drinking water 'NSF'",
       "source": {
         "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
-      }
+      },
+      "source_url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification"
     }
   ],
   "url": "https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",

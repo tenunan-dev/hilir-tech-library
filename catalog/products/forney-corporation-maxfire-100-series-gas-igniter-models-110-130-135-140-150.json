@@ -6,7 +6,7 @@
   "equipment": [
     "boiler-pilot-ignition-system"
   ],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Forney MAXFire Gas Igniter product page with Specifications, HESI and HTSI tables. Class 1/2/3 igniter depending on burner capacity.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Forney MAXFire Gas Igniter product page with Specifications, HESI and HTSI tables. Class 1/2/3 igniter depending on burner capacity. Primary source: https://www.forneycorp.com/products/maxfire-gas-igniter",
   "specifications": [
     {
       "metric": "Nominal capacity range, whole series",
@@ -17,7 +17,8 @@
       },
       "unit": "MBtu/hr",
       "low": "0.3",
-      "high": "50"
+      "high": "50",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Model 110 capacity",
@@ -28,7 +29,8 @@
       },
       "unit": "MBtu/hr",
       "low": "0.3",
-      "high": "1.5"
+      "high": "1.5",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Model 130 capacity",
@@ -39,7 +41,8 @@
       },
       "unit": "MBtu/hr",
       "low": "1.5",
-      "high": "6.0"
+      "high": "6.0",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Model 135 capacity",
@@ -50,7 +53,8 @@
       },
       "unit": "MBtu/hr",
       "low": "5.0",
-      "high": "15"
+      "high": "15",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Model 140 capacity",
@@ -61,7 +65,8 @@
       },
       "unit": "MBtu/hr",
       "low": "5.0",
-      "high": "25"
+      "high": "25",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Model 150 capacity",
@@ -72,7 +77,8 @@
       },
       "unit": "MBtu/hr",
       "low": "10",
-      "high": "50"
+      "high": "50",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Fuel",
@@ -82,7 +88,8 @@
         "source_id": "forneycorp-com-products-maxfire-gas-igniter"
       },
       "unit": "n/a",
-      "value": "Natural gas or propane"
+      "value": "Natural gas or propane",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Minimum length",
@@ -92,7 +99,8 @@
         "source_id": "forneycorp-com-products-maxfire-gas-igniter"
       },
       "unit": "in",
-      "value": "14"
+      "value": "14",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "HESI output energy",
@@ -102,7 +110,8 @@
         "source_id": "forneycorp-com-products-maxfire-gas-igniter"
       },
       "unit": "joules per spark",
-      "value": "12"
+      "value": "12",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "HESI spark rate",
@@ -112,7 +121,8 @@
         "source_id": "forneycorp-com-products-maxfire-gas-igniter"
       },
       "unit": "sparks/s",
-      "value": "3 per second (approximately)"
+      "value": "3 per second (approximately)",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "HESI output voltage",
@@ -122,7 +132,8 @@
         "source_id": "forneycorp-com-products-maxfire-gas-igniter"
       },
       "unit": "VDC",
-      "value": "2000"
+      "value": "2000",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "HTSI output voltage",
@@ -132,7 +143,8 @@
         "source_id": "forneycorp-com-products-maxfire-gas-igniter"
       },
       "unit": "VAC",
-      "value": "6000"
+      "value": "6000",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Typical fuel pressure, models 110/130",
@@ -143,7 +155,8 @@
       },
       "unit": "psig",
       "low": "5",
-      "high": "12"
+      "high": "12",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Typical fuel pressure, models 135/140/150",
@@ -154,7 +167,8 @@
       },
       "unit": "psig",
       "low": "5",
-      "high": "25"
+      "high": "25",
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Capacity range (nominal, all models)",
@@ -164,7 +178,8 @@
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
       },
       "low": 1,
-      "high": 50
+      "high": 50,
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Model 110 capacity",
@@ -174,7 +189,8 @@
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
       },
       "low": 0.3,
-      "high": 1.5
+      "high": 1.5,
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Model 130 capacity",
@@ -184,7 +200,8 @@
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
       },
       "low": 1.5,
-      "high": 6
+      "high": 6,
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Model 135 capacity",
@@ -194,7 +211,8 @@
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
       },
       "low": 5,
-      "high": 15
+      "high": 15,
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Model 140 capacity",
@@ -204,7 +222,8 @@
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
       },
       "low": 5,
-      "high": 25
+      "high": 25,
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Model 150 capacity",
@@ -214,7 +233,8 @@
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
       },
       "low": 10,
-      "high": 50
+      "high": 50,
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Minimum length",
@@ -223,7 +243,8 @@
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
       },
-      "value": 14
+      "value": 14,
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Guide tube OD by model",
@@ -231,7 +252,8 @@
       "basis": "Forney table: 110 = 1 7/8\", 130 = 2 7/8\", 135 = 3 1/2\", 140 = 4\", 150 = 5\"",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Connections NPT (gas / air) by model",
@@ -239,7 +261,8 @@
       "basis": "Forney table: 110 = 1/2\" / 3/4\"; 130 = 3/4\" / 3/4\"; 135 = 1 1/2\" / 1 1/2\"; 140 = 1 1/2\" / 1 1/2\"; 150 = TBD / TBD",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Cooling air requirement by model",
@@ -247,7 +270,8 @@
       "basis": "Forney table: 110 = 23 @ 3; 130 = 45 @ 3; 135 = 50 @ 6; 140 = 80 @ 6; 150 = 120 @ 6; footnote '*scfm@inches w.c. above windbox'",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Typical fuel pressure by model",
@@ -255,7 +279,8 @@
       "basis": "Forney table: 110 = 5-12; 130 = 5-12; 135 = 5-25; 140 = 5-25; 150 = 5-25",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Nozzle type",
@@ -263,7 +288,8 @@
       "basis": "Forney table: 110 = Straight; 130/135/140/150 = Straight or wide",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Fuel",
@@ -271,7 +297,8 @@
       "basis": "Forney: 'Fuel: Natural gas or propane'",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Guide tube material",
@@ -279,7 +306,8 @@
       "basis": "Forney: 'Guide Tube Material: 10 & 30 – Stainless steel; 35, 40 & 50 – Carbon steel with 12” stainless steel at furnace end'",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "HESI input voltage / power",
@@ -287,7 +315,8 @@
       "basis": "Forney HESI Specifications: 'Input Voltage:120 to 240 VAC, 50/60 Hz; Input Power:120 VAC @ 1.5 A (2-A fuse); 240 VAC @ 0.75A (1-A fuse)'",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "HESI output voltage / energy / spark rate",
@@ -295,7 +324,8 @@
       "basis": "Forney HESI: 'Output Voltage:2000 VDC; Output Energy:12 joules per spark; Spark Rate:3 per second (approximately)'",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "HESI duty cycle / ambient",
@@ -305,7 +335,8 @@
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
       },
       "low": 0,
-      "high": 135
+      "high": 135,
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "HTSI specifications",
@@ -313,7 +344,8 @@
       "basis": "Forney HTSI: 'Amperage:20 mA; Input Voltage:120 to 240 VAC 50/60 HZ; Output Voltage:6000 VAC; Duty Cycle:100% at temperature rating'",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     },
     {
       "metric": "Igniter class and ignition rate",
@@ -321,7 +353,8 @@
       "basis": "Forney: 'can be used as a Class 1, Class 2, or Class 3 igniter, depending on burner capacity'; '99% ignition rate in most applications'",
       "source": {
         "url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
-      }
+      },
+      "source_url": "https://www.forneycorp.com/products/maxfire-gas-igniter"
     }
   ],
   "url": "https://www.forneycorp.com/products/maxfire-gas-igniter",

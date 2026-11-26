@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Stabilize and protect pipelines/umbilicals/structures against hydrodynamic loads, scour, dropped objects, trawling and iceberg scour; prepare seabed and correct spans.",
+  "description": "Stabilize and protect pipelines/umbilicals/structures against hydrodynamic loads, scour, dropped objects, trawling and iceberg scour; prepare seabed and correct spans. Primary source: https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
   "specifications": [
     {
       "metric": "T1500+ jet trenching ROV depth",
@@ -19,7 +19,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 500
+      "value": 500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "UT-1 jetting ROV power",
@@ -29,7 +30,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 2.1
+      "value": 2.1,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "AMP1500 plough product handling",
@@ -39,7 +41,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 1500
+      "value": 1500,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     },
     {
       "metric": "ACP2 cable plough capability",
@@ -49,7 +52,8 @@
         "url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
         "source_id": "deepoceangroup-com-what-we-do-assets-seabed-intervention-tools"
       },
-      "value": 300
+      "value": 300,
+      "source_url": "https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools"
     }
   ],
   "vendors": [

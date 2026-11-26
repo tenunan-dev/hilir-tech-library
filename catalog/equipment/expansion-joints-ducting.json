@@ -9,7 +9,7 @@
     "PRC",
     "MAT"
   ],
-  "description": "Accommodate thermal expansion, vibration and directional movement in boiler/flue-gas ducts and steam piping; protect ductwork, equipment and supports from cyclic stress and fatigue (dB Noise Reduction; vendor catalogues search-verified).",
+  "description": "Accommodate thermal expansion, vibration and directional movement in boiler/flue-gas ducts and steam piping; protect ductwork, equipment and supports from cyclic stress and fatigue (dB Noise Reduction; vendor catalogues search-verified). Primary source: https://www.dbnoisereduction.com/flexible-connections-expansion-joints.php",
   "specifications": [
     {
       "metric": "flexible connection function",
@@ -19,7 +19,8 @@
         "url": "https://www.dbnoisereduction.com/flexible-connections-expansion-joints.php",
         "source_id": "dbnoisereduction-com-flexible-connections-expansion-joints-php"
       },
-      "value": "absorbs vibration and cyclic stresses from temperature changes, airflow turbulence and excessive vibration"
+      "value": "absorbs vibration and cyclic stresses from temperature changes, airflow turbulence and excessive vibration",
+      "source_url": "https://www.dbnoisereduction.com/flexible-connections-expansion-joints.php"
     }
   ],
   "vendors": [

@@ -4,7 +4,7 @@
   "manufacturer": "tlv",
   "product_type": "boiler",
   "equipment": [],
-  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us Pressure Reducing Valves for Steam (COSR Series) page.",
+  "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us Pressure Reducing Valves for Steam (COSR Series) page. Primary source: https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",
   "specifications": [
     {
       "metric": "Secondary set pressure accuracy",
@@ -14,7 +14,8 @@
         "source_id": "tlv-com-pilot-operated-steam"
       },
       "unit": "MPa",
-      "value": "within +/- 0.01"
+      "value": "within +/- 0.01",
+      "source_url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
     },
     {
       "metric": "COSR-3 maximum operating pressure",
@@ -24,7 +25,8 @@
         "source_id": "tlv-com-pilot-operated-steam"
       },
       "unit": "psig",
-      "value": "45"
+      "value": "45",
+      "source_url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
     },
     {
       "metric": "COSR-3 primary pressure",
@@ -35,7 +37,8 @@
       },
       "unit": "psig",
       "low": "15",
-      "high": "45"
+      "high": "45",
+      "source_url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
     },
     {
       "metric": "COSR-16 maximum operating pressure",
@@ -45,7 +48,8 @@
         "source_id": "tlv-com-pilot-operated-steam"
       },
       "unit": "psig",
-      "value": "250"
+      "value": "250",
+      "source_url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
     },
     {
       "metric": "COSR-16 max flow capacity",
@@ -55,7 +59,8 @@
         "source_id": "tlv-com-pilot-operated-steam"
       },
       "unit": "lb/h",
-      "value": "47,380"
+      "value": "47,380",
+      "source_url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
     },
     {
       "metric": "COSR-21 maximum operating pressure",
@@ -65,7 +70,8 @@
         "source_id": "tlv-com-pilot-operated-steam"
       },
       "unit": "psig",
-      "value": "300"
+      "value": "300",
+      "source_url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
     },
     {
       "metric": "COSR-16HT maximum operating temperature",
@@ -75,7 +81,8 @@
         "source_id": "tlv-com-pilot-operated-steam"
       },
       "unit": "deg F",
-      "value": "572"
+      "value": "572",
+      "source_url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
     },
     {
       "metric": "Product type",
@@ -84,7 +91,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
       },
-      "value": "Pilot-operated pressure reducing valves for steam"
+      "value": "Pilot-operated pressure reducing valves for steam",
+      "source_url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
     },
     {
       "metric": "Models",
@@ -93,7 +101,8 @@
       "source": {
         "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
       },
-      "value": "COSR-3, COSR-16, COSR-21, COSR-16HT"
+      "value": "COSR-3, COSR-16, COSR-21, COSR-16HT",
+      "source_url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam"
     },
     {
       "metric": "COSR-3 datasheet",
@@ -103,7 +112,8 @@
         "url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-csr3x-hp.pdf",
         "source_id": "catpar-tlv-com-a-csr3x-hp-pdf-773ce66"
       },
-      "value": "A-CSR3X-HP"
+      "value": "A-CSR3X-HP",
+      "source_url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-csr3x-hp.pdf"
     },
     {
       "metric": "COSR-21 datasheet",
@@ -113,7 +123,8 @@
         "url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-csr21-hp.pdf",
         "source_id": "catpar-tlv-com-a-csr21-hp-pdf-7effd17"
       },
-      "value": "A-CSR21-HP"
+      "value": "A-CSR21-HP",
+      "source_url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-csr21-hp.pdf"
     },
     {
       "metric": "COSR-16HT datasheet",
@@ -123,7 +134,8 @@
         "url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-crh16-hp.pdf",
         "source_id": "catpar-tlv-com-a-crh16-hp-pdf-29b6b08"
       },
-      "value": "A-CRH16-HP"
+      "value": "A-CRH16-HP",
+      "source_url": "https://www.tlv.com/sites/default/files/tlv_assets/product_v2/pdf/a-crh16-hp.pdf"
     }
   ],
   "url": "https://www.tlv.com/en-us/products/pressure-reduction/pilot-operated/steam",

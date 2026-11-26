@@ -2,7 +2,7 @@
   "id": "duct-burner-hrsg",
   "name": "HRSG duct burner (supplementary gas firing)",
   "equipment_type": "burner",
-  "description": "Burner installed in the gas-turbine exhaust duct to burn additional natural gas in the remaining oxygen and raise steam output. Two main forms are standard round gas burners and linear grid burners spanning the duct. Installed in the transition duct before the lead tube bank or between superheater stages, with flame holders, pilots, igniters and flame scanners.",
+  "description": "Burner installed in the gas-turbine exhaust duct to burn additional natural gas in the remaining oxygen and raise steam output. Two main forms are standard round gas burners and linear grid burners spanning the duct. Installed in the transition duct before the lead tube bank or between superheater stages, with flame holders, pilots, igniters and flame scanners. Primary source: https://cleaverbrooks.com/product/duct-burner",
   "specifications": [
     {
       "metric": "heat input, Cleaver-Brooks Natcom",
@@ -13,7 +13,8 @@
       },
       "unit": "MMBtu/hr",
       "low": 10,
-      "high": 500
+      "high": 500,
+      "source_url": "https://cleaverbrooks.com/product/duct-burner"
     },
     {
       "metric": "emissions, Cleaver-Brooks Natcom",
@@ -23,7 +24,8 @@
         "source_id": "cb-duct-burner"
       },
       "unit": "ppm",
-      "value": 7
+      "value": 7,
+      "source_url": "https://cleaverbrooks.com/product/duct-burner"
     },
     {
       "metric": "emissions, John Zink ProLine in-line",
@@ -33,7 +35,8 @@
         "source_id": "jz-proline-duct-burner"
       },
       "unit": "lb/MMBtu",
-      "value": 0.03
+      "value": 0.03,
+      "source_url": "https://johnzink.com/products/duct-burner/proline-in-line-duct-burner"
     },
     {
       "metric": "heat release per unit length, ProLine",
@@ -43,7 +46,8 @@
         "source_id": "jz-proline-duct-burner"
       },
       "unit": "MMBtu/hr/ft",
-      "value": 5
+      "value": 5,
+      "source_url": "https://johnzink.com/products/duct-burner/proline-in-line-duct-burner"
     },
     {
       "metric": "turndown, ProLine",
@@ -53,7 +57,8 @@
         "source_id": "jz-proline-duct-burner"
       },
       "unit": ":1",
-      "value": 20
+      "value": 20,
+      "source_url": "https://johnzink.com/products/duct-burner/proline-in-line-duct-burner"
     },
     {
       "metric": "runner sag inspection criterion",
@@ -64,7 +69,8 @@
       },
       "unit": "in",
       "low": 2,
-      "high": 3
+      "high": 3,
+      "source_url": "https://www.tetra-eng.com/whitepaper/duct-burners"
     },
     {
       "metric": "US combined-cycle capacity with duct burners",
@@ -74,7 +80,8 @@
         "source_id": "eia-duct-burners"
       },
       "unit": "GW",
-      "value": 208
+      "value": 208,
+      "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=52778"
     },
     {
       "metric": "capacity factor with versus without duct firing",
@@ -85,7 +92,8 @@
       },
       "unit": "%",
       "low": 47,
-      "high": 59
+      "high": 59,
+      "source_url": "https://www.eia.gov/todayinenergy/detail.php?id=52778"
     },
     {
       "metric": "Flame holder models",
@@ -95,7 +103,8 @@
         "source_id": "johnzink-com-powerburners-duct-burner"
       },
       "unit": "model designations",
-      "value": "LDRW (Low Draft Reverse Wing), VC (V-Cone Tip Wing), Coen Castings"
+      "value": "LDRW (Low Draft Reverse Wing), VC (V-Cone Tip Wing), Coen Castings",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "Application",
@@ -105,7 +114,8 @@
         "source_id": "johnzink-com-powerburners-duct-burner"
       },
       "unit": "application",
-      "value": "HRSG supplementary firing, combined cycle, dual cycle, cogeneration"
+      "value": "HRSG supplementary firing, combined cycle, dual cycle, cogeneration",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "Hydrogen readiness",
@@ -115,7 +125,8 @@
         "source_id": "johnzink-com-powerburners-duct-burner"
       },
       "unit": "fuel capability",
-      "value": "Hydrogen and alternative fuels"
+      "value": "Hydrogen and alternative fuels",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "Integrated equipment",
@@ -125,7 +136,8 @@
         "source_id": "johnzink-com-powerburners-duct-burner"
       },
       "unit": "scope of supply",
-      "value": "Proprietary igniters, flame scanners, optional instrumentation packages"
+      "value": "Proprietary igniters, flame scanners, optional instrumentation packages",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "Support design",
@@ -135,7 +147,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "design feature",
-      "value": "Self-supporting; eliminates internal fixed structural support"
+      "value": "Self-supporting; eliminates internal fixed structural support",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Flame stabilizer",
@@ -145,7 +158,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "design feature",
-      "value": "Optimized drilled wing orifice pattern producing short, compact flame"
+      "value": "Optimized drilled wing orifice pattern producing short, compact flame",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Application",
@@ -155,7 +169,8 @@
         "source_id": "zeeco-com-burners-power-burners-hslang-en"
       },
       "unit": "application",
-      "value": "HRSG and Turbine Exhaust Gas (TEG) supplementary firing"
+      "value": "HRSG and Turbine Exhaust Gas (TEG) supplementary firing",
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Burner design",
@@ -163,7 +178,8 @@
       "basis": "Zeeco: 'TEG+ burners use flame stabilizers featuring an optimized drilled wing orifice pattern to create a short, compact flame. The nozzle design features pilot flame propagation drilling and varying orifice sizes throughout the runner'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Support structure",
@@ -171,7 +187,8 @@
       "basis": "Zeeco: 'Our self-supporting burners eliminate the need for internal fixed structural support, which can cause binding and overall deformation – dramatically reducing installation time and material costs.'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Applications",
@@ -179,7 +196,8 @@
       "basis": "Zeeco: 'supplementary firing for heat recovery steam generators (HRSG), Flue Gas preheat for Selective Catalytic Reduction (SCR), Combined Cycle / Co-Gen, or other air heating applications'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Register-style option",
@@ -187,7 +205,8 @@
       "basis": "Zeeco: 'register-style duct burner ... delivers high efficiency and excellent reliability across a wide range of both gaseous and liquid fuels'",
       "source": {
         "url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
-      }
+      },
+      "source_url": "https://www.zeeco.com/products/burners/power-burners?hsLang=en"
     },
     {
       "metric": "Coen Castings configurations",
@@ -196,7 +215,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/duct-burner"
       },
-      "value": "single and double-wing (PowerPlus)"
+      "value": "single and double-wing (PowerPlus)",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "LDRW design",
@@ -205,7 +225,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/duct-burner"
       },
-      "value": "modular construction; accommodates thermal growth; variable draft conditions"
+      "value": "modular construction; accommodates thermal growth; variable draft conditions",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "VC design",
@@ -214,7 +235,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/duct-burner"
       },
-      "value": "V-cone tip, optimized flow characteristics, enhanced flame shaping and mixing"
+      "value": "V-cone tip, optimized flow characteristics, enhanced flame shaping and mixing",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "HRSG optimisation",
@@ -223,7 +245,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/duct-burner"
       },
-      "value": "purpose-built for HRSG systems in combined cycle and cogeneration"
+      "value": "purpose-built for HRSG systems in combined cycle and cogeneration",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "CFD",
@@ -232,7 +255,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/duct-burner"
       },
-      "value": "Advanced CFD Modeling for flow, flame stability and temperature uniformity"
+      "value": "Advanced CFD Modeling for flow, flame stability and temperature uniformity",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "Integrated options",
@@ -241,7 +265,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/duct-burner"
       },
-      "value": "proprietary igniters, flame scanners, optional instrumentation packages"
+      "value": "proprietary igniters, flame scanners, optional instrumentation packages",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "Installations",
@@ -250,7 +275,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/duct-burner"
       },
-      "value": "more than 1,000 installations worldwide"
+      "value": "more than 1,000 installations worldwide",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "OEM heritage",
@@ -259,7 +285,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/duct-burner"
       },
-      "value": "experience as the OEM behind technologies such as Coen and Hamworthy Combustion"
+      "value": "experience as the OEM behind technologies such as Coen and Hamworthy Combustion",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     },
     {
       "metric": "Emissions compliance",
@@ -268,7 +295,8 @@
       "source": {
         "url": "https://www.johnzink.com/products/powerburners/duct-burner"
       },
-      "value": "Meets strict NOx, CO, and other emissions standards"
+      "value": "Meets strict NOx, CO, and other emissions standards",
+      "source_url": "https://www.johnzink.com/products/powerburners/duct-burner"
     }
   ],
   "vendors": [

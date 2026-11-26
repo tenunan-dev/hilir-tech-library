@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Pig traps launch and receive pigs to clean or inspect flowlines between manifold and platform / along export pipelines. SPEC Oil & Gas lists pig launchers and receivers among its ancillary equipment (page read). Patent US4135949A describes the safety interlock problem: inadvertent opening of a pressurised receiver or admission of fluid while the closure is off is a hazard to personnel and the environment.",
+  "description": "Pig traps launch and receive pigs to clean or inspect flowlines between manifold and platform / along export pipelines. SPEC Oil & Gas lists pig launchers and receivers among its ancillary equipment (page read). Patent US4135949A describes the safety interlock problem: inadvertent opening of a pressurised receiver or admission of fluid while the closure is off is a hazard to personnel and the environment. Primary source: https://patents.google.com/patent/US4135949A/en",
   "aliases": [
     "Pig launcher / receiver for the export pipeline(s)"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US4135949A/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US4135949A/en"
     },
     {
       "metric": "Pig launcher / receiver (pig trap) — Interlock preferred setpoint",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US4135949A/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US4135949A/en"
     },
     {
       "metric": "Pig launcher / receiver (pig trap) — Safe-to-open closure pressure setpoint",
@@ -46,7 +48,8 @@
       "source": {
         "url": "https://patents.google.com/patent/US4135949A/en",
         "source_id": "whp-patents-google-com-en"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/US4135949A/en"
     }
   ],
   "vendor_models": [],

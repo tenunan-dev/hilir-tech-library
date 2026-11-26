@@ -6,7 +6,7 @@
   "equipment": [
     "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
   ],
-  "description": "Vendor product line read 2026-11-24. Catalogue-level confirmation of product families; individual model specifications not retrieved.",
+  "description": "Vendor product line read 2026-11-24. Catalogue-level confirmation of product families; individual model specifications not retrieved. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/",
   "specifications": [
     {
       "metric": "wireless frequency listed",
@@ -16,7 +16,8 @@
         "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
         "source_id": "sys-yokogawa-com"
       },
-      "value": 920
+      "value": 920,
+      "source_url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
     }
   ],
   "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",

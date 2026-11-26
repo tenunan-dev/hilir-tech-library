@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "HVAC system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "HVAC system for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Mechanical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
   "aliases": [
     "HVAC system"
   ],
@@ -29,7 +29,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
         "source_id": "geg-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
-      }
+      },
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Daikin Hybrid AHU DDS series (Daikin R — Model DS-0707 airflow",
@@ -41,7 +42,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
         "source_id": "geg-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
-      }
+      },
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Daikin Hybrid AHU DDS series (Daikin R — Chilled-water outlet temperature, new method",
@@ -52,7 +54,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
         "source_id": "geg-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
-      }
+      },
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Daikin Hybrid AHU DDS series (Daikin R — AHU dimensions (model DS-0707)",
@@ -62,7 +65,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf",
         "source_id": "geg-daikinapplied-co-id-hybrd-ahu-final-r2-pdf-f850dfd"
-      }
+      },
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Dunham-Bush water-cooled chillers, air — Water-cooled chiller model lines",
@@ -72,7 +76,8 @@
       "source": {
         "url": "https://dunham-bush.com/our-products/",
         "source_id": "geg-dunham-bush-com-a2dd740"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Dunham-Bush water-cooled chillers, air — Air-cooled chiller model lines",
@@ -82,7 +87,8 @@
       "source": {
         "url": "https://dunham-bush.com/our-products/",
         "source_id": "geg-dunham-bush-com-a2dd740"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Dunham-Bush water-cooled chillers, air — Airside equipment certification",
@@ -92,7 +98,8 @@
       "source": {
         "url": "https://dunham-bush.com/our-products/",
         "source_id": "geg-dunham-bush-com-a2dd740"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Water-cooled chiller model series",
@@ -100,7 +107,8 @@
       "basis": "Listed DCLC, WCM, WCFX, WCHX, WCS (\"screw, centrifugal and scroll range\")",
       "source": {
         "url": "https://dunham-bush.com/our-products/"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Air-cooled chiller model series",
@@ -108,7 +116,8 @@
       "basis": "Listed ACM, AVX, ACHX, ACDS (\"screw and scroll range\")",
       "source": {
         "url": "https://dunham-bush.com/our-products/"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Heat pump model series",
@@ -116,7 +125,8 @@
       "basis": "Listed WCFXE-HP, ACX-HP, WCS-HP, ACDS-HP",
       "source": {
         "url": "https://dunham-bush.com/our-products/"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Airside products",
@@ -124,7 +134,8 @@
       "basis": "\"Air Handling Unit\" and \"Fan Coil Unit\" listed under Airside; \"comprehensive range of AHRI certified airside equipment\"",
       "source": {
         "url": "https://dunham-bush.com/our-products/"
-      }
+      },
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Company founding year",
@@ -133,7 +144,8 @@
       "source": {
         "url": "https://dunham-bush.com/our-products/"
       },
-      "value": 1894
+      "value": 1894,
+      "source_url": "https://dunham-bush.com/our-products/"
     },
     {
       "metric": "Air flow range",
@@ -143,7 +155,8 @@
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
       "low": 1800,
-      "high": 5900
+      "high": 5900,
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Model DS-0707 airflow variants",
@@ -152,7 +165,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
-      "value": "1838 / 2327 / 2989"
+      "value": "1838 / 2327 / 2989",
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Model DS0709 / DS0810 / DS-0912 airflow",
@@ -161,7 +175,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
-      "value": "3536 / 4443 / 5910"
+      "value": "3536 / 4443 / 5910",
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Second-stage DX cooling air off coil",
@@ -171,7 +186,8 @@
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
       "low": 7,
-      "high": 8
+      "high": 8,
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Traditional CHW entering temperature",
@@ -181,7 +197,8 @@
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
       "low": 5.0,
-      "high": 5.5
+      "high": 5.5,
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "New CHW entering temperature",
@@ -190,7 +207,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
-      "value": 7.0
+      "value": 7.0,
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Room condition RH",
@@ -199,7 +217,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
-      "value": 50
+      "value": 50,
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Room condition temperature",
@@ -208,7 +227,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
-      "value": 18
+      "value": 18,
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Energy savings",
@@ -217,7 +237,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
-      "value": "27%"
+      "value": "27%",
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Potential energy savings",
@@ -227,7 +248,8 @@
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
       "low": 25,
-      "high": 40
+      "high": 40,
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Unit dimensions DS-0912",
@@ -236,7 +258,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
-      "value": "5480 x 2120 x 1440"
+      "value": "5480 x 2120 x 1440",
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     },
     {
       "metric": "Insulation",
@@ -245,7 +268,8 @@
       "source": {
         "url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
       },
-      "value": "ODP=0 PU insulation"
+      "value": "ODP=0 PU insulation",
+      "source_url": "https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf"
     }
   ],
   "vendor_models": [

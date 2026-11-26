@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "Sampling and gauging connections provide fluid property data for allocation, custody transfer and sales-specification compliance. A Christmas tree often provides chemical injection points, monitoring points (pressure, temperature, corrosion, erosion, sand detection, flow rate, flow composition, valve and choke valve position feedback) and connection points for downhole pressure and temperature transducers (Wikipedia, read). Emerson's Roxar 2600 MPFM gives real-time three-phase measurement withou",
+  "description": "Sampling and gauging connections provide fluid property data for allocation, custody transfer and sales-specification compliance. A Christmas tree often provides chemical injection points, monitoring points (pressure, temperature, corrosion, erosion, sand detection, flow rate, flow composition, valve and choke valve position feedback) and connection points for downhole pressure and temperature transducers (Wikipedia, read). Emerson's Roxar 2600 MPFM gives real-time three-phase measurement withou Primary source: https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
   "aliases": [
     "Sampling connections and gauging"
   ],
@@ -26,7 +26,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     },
     {
       "metric": "Multiphase flow meter (Roxar 2600) / met — Meter sizes available",
@@ -36,7 +37,8 @@
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
-      }
+      },
+      "source_url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter"
     }
   ],
   "vendor_models": [],

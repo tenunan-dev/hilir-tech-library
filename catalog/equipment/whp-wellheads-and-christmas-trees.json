@@ -7,7 +7,7 @@
     "UPS",
     "MID"
   ],
-  "description": "The West Desaru WSS carried 28 dry-tree completions using single, dual and triple splitter wellheads, and ISO 10423:2022 states that it supplements API Spec 6A, 21st edition (2018), for wellhead and tree equipment.",
+  "description": "The West Desaru WSS carried 28 dry-tree completions using single, dual and triple splitter wellheads, and ISO 10423:2022 states that it supplements API Spec 6A, 21st edition (2018), for wellhead and tree equipment. Primary source: https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
   "aliases": [
     "Wellheads and Christmas trees (dry trees; single/dual/triple splitter configurations)"
   ],
@@ -25,7 +25,8 @@
       "source": {
         "url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
         "source_id": "sys-drillingformulas-com"
-      }
+      },
+      "source_url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/"
     },
     {
       "metric": "Dry-tree (surface) Christmas tree assemb — pressure rating (subsea tree systems)",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
-      }
+      },
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Dry-tree (surface) Christmas tree assemb — water depth capability",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
-      }
+      },
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Dry-tree (surface) Christmas tree assemb — HPHT flowing temperature",
@@ -55,7 +58,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions",
         "source_id": "bakerhughes-com-subsea-production-systems-well-system-solutions"
-      }
+      },
+      "source_url": "https://www.bakerhughes.com/subsea/subsea-production-systems/well-system-solutions"
     },
     {
       "metric": "Dry-tree (surface) Christmas tree assemb — tree configuration count",
@@ -65,7 +69,8 @@
       "source": {
         "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
         "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
-      }
+      },
+      "source_url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in"
     },
     {
       "metric": "IC conventional wellhead system (SLB/Cam — pressure rating",
@@ -75,7 +80,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
         "source_id": "cat-slb-com-ic-conventional-wellhead-systems"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
     },
     {
       "metric": "IC conventional wellhead system (SLB/Cam — load shoulder angle",
@@ -85,7 +91,8 @@
       "source": {
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems",
         "source_id": "cat-slb-com-ic-conventional-wellhead-systems"
-      }
+      },
+      "source_url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-construction/wellhead-systems/ic-conventional-wellhead-systems"
     },
     {
       "metric": "Reliability — two master valves used for redundancy",
@@ -95,7 +102,8 @@
       "source": {
         "url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/",
         "source_id": "sys-drillingformulas-com"
-      }
+      },
+      "source_url": "https://www.drillingformulas.com/surface-christmas-tree-dry-tree-basic-knowlege/"
     },
     {
       "metric": "Reliability — fail-safe closed hydraulic wing valve",
@@ -105,7 +113,8 @@
       "source": {
         "url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)",
         "source_id": "en-wikipedia-org-wiki-christmas-tree-oil-well"
-      }
+      },
+      "source_url": "https://en.wikipedia.org/wiki/Christmas_tree_(oil_well)"
     }
   ],
   "vendor_models": [],

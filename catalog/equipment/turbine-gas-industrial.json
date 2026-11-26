@@ -15,7 +15,7 @@
     "GAS",
     "REF"
   ],
-  "description": "Gas turbine for power generation and mechanical drive, in two families: aeroderivative units adapted from jet engines (fast start, high simple-cycle efficiency, modular exchange) and heavy-frame machines built for bulky base-load duty behind the grid or as compressor drives on pipelines and gas plants. Sets the exhaust energy that an HRSG converts in combined-cycle and cogeneration service.",
+  "description": "Gas turbine for power generation and mechanical drive, in two families: aeroderivative units adapted from jet engines (fast start, high simple-cycle efficiency, modular exchange) and heavy-frame machines built for bulky base-load duty behind the grid or as compressor drives on pipelines and gas plants. Sets the exhaust energy that an HRSG converts in combined-cycle and cogeneration service. Primary source: https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
   "applications": [
     "grid power generation, simple cycle and combined cycle",
     "mechanical drive for pipeline and gas-plant compression",
@@ -32,7 +32,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
         "note": "Baker Hughes LM6000PF+ product page (read 2026-10-30; citation shared with the pwr-aeroderivative-turbines card)"
-      }
+      },
+      "source_url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf"
     },
     {
       "metric": "aeroderivative simple-cycle efficiency, LM6000PF+",
@@ -43,7 +44,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf",
         "note": "Baker Hughes LM6000PF+ product page (read 2026-10-30; citation shared with the pwr-aeroderivative-turbines card)"
-      }
+      },
+      "source_url": "https://www.bakerhughes.com/gas-turbines/aeroderivative-technology/lm6000pf"
     },
     {
       "metric": "packaged aeroderivative output, LM2500XPRESS+ (50 Hz, ISO, natural gas)",
@@ -54,7 +56,8 @@
       "source": {
         "url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500",
         "note": "GE Vernova LM2500 product page (read 2026-10-30; citation shared with the pwr-aeroderivative-turbines card)"
-      }
+      },
+      "source_url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500"
     },
     {
       "metric": "hydrogen-blend operating experience",
@@ -65,7 +68,8 @@
       "source": {
         "url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500",
         "note": "GE Vernova LM2500 product page (read 2026-10-30; citation shared with the pwr-aeroderivative-turbines card)"
-      }
+      },
+      "source_url": "https://www.gevernova.com/gas-power/products/gas-turbines/lm2500"
     }
   ],
   "vendor_models": [

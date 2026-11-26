@@ -80,6 +80,11 @@
         },
         "source": {
           "$ref": "#/$defs/ref"
+        },
+        "source_url": {
+          "type": "string",
+          "format": "uri",
+          "description": "The original OEM catalogue or datasheet URL this printed figure came from; open and cite this as the primary source."
         }
       }
     },

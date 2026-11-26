@@ -9,7 +9,7 @@
     "INS",
     "ELE"
   ],
-  "description": "Online composition and quality measurement for process and emissions monitoring.",
+  "description": "Online composition and quality measurement for process and emissions monitoring. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/",
   "specifications": [
     {
       "metric": "product families attested by catalogue",
@@ -19,7 +19,8 @@
         "url": "https://www.yokogawa.com/ia/dcs/centum-vp/",
         "source_id": "sys-yokogawa-com"
       },
-      "value": "Gas Analyzers, Liquid Analyzers, Analyzer System; Advanced Analytical Instrument Management System (AMADAS)"
+      "value": "Gas Analyzers, Liquid Analyzers, Analyzer System; Advanced Analytical Instrument Management System (AMADAS)",
+      "source_url": "https://www.yokogawa.com/ia/dcs/centum-vp/"
     }
   ],
   "vendors": [

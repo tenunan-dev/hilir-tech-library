@@ -9,7 +9,7 @@
     "ELE",
     "PRC"
   ],
-  "description": "Bus duct for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts.",
+  "description": "Bus duct for the 7-unit gas-engine generator plant and SESB 132/33/11 kV connection. Procurement / Electrical. BOQ quantities and dimensions are design inputs, not sourced facts. Primary source: https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
   "aliases": [
     "Bus duct"
   ],
@@ -29,7 +29,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-II copper conductor busway — rated short-time withstand current (Icw)",
@@ -41,7 +42,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-II copper conductor busway — rated peak withstand current (Ipk)",
@@ -53,7 +55,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-II copper conductor busway — rated operational voltage (Ue)",
@@ -64,7 +67,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-II copper conductor busway — rated insulation voltage (Ui)",
@@ -75,7 +79,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-II copper conductor busway — rated impulse withstand voltage (Uimp)",
@@ -86,7 +91,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-II copper conductor busway — degree of protection (busway feeder)",
@@ -96,7 +102,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-II copper conductor busway — fire resistance in building penetration",
@@ -107,7 +114,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-II copper conductor busway — integrity test voltage",
@@ -118,7 +126,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-A aluminium conductor busw — rated current (InA)",
@@ -130,7 +139,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-A aluminium conductor busw — rated short-time withstand current (Icw)",
@@ -142,7 +152,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-A aluminium conductor busw — rated operational voltage (Ue)",
@@ -153,7 +164,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-A aluminium conductor busw — degree of protection (busway feeder)",
@@ -163,7 +175,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-A aluminium conductor busw — aluminium conductor conductivity",
@@ -174,7 +187,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-R cast resin busway — rated current (InA)",
@@ -186,7 +200,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-R cast resin busway — rated short-time withstand current (Icw)",
@@ -198,7 +213,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-R cast resin busway — degree of protection",
@@ -208,7 +224,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "ABB WavePro-R cast resin busway — insulation class",
@@ -218,7 +235,8 @@
       "source": {
         "url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf",
         "source_id": "geg-r-jina-ai-wavepro-series-busway-leaflet-en-1-698a287"
-      }
+      },
+      "source_url": "https://r.jina.ai/https://library.e.abb.com/public/3c00a6fc0d83461481ef6d5dafad0ca7/WavePro+Series+Busway_Leaflet_EN_1SXH3432025_REV+A+04-2022.pdf"
     },
     {
       "metric": "Isolated phase bus duct / busbar t — Isolated phase bus current rating, air-cooled",
@@ -231,7 +249,8 @@
       "source": {
         "url": "https://www.nvent.com/en-us/isolated-phase-bus",
         "source_id": "gef-nvent-com-isolated-phase-bus-e506d7c"
-      }
+      },
+      "source_url": "https://www.nvent.com/en-us/isolated-phase-bus"
     },
     {
       "metric": "Isolated phase bus duct / busbar t — Isolated phase bus voltage range",
@@ -242,7 +261,8 @@
       "source": {
         "url": "https://www.nvent.com/en-us/isolated-phase-bus",
         "source_id": "gef-nvent-com-isolated-phase-bus-e506d7c"
-      }
+      },
+      "source_url": "https://www.nvent.com/en-us/isolated-phase-bus"
     }
   ],
   "vendor_models": [],

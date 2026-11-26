@@ -6,7 +6,7 @@
   "equipment": [
     "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
   ],
-  "description": "Integral reverse-flow check valve; stainless steel construction with premium materials available; standard neoprene packing. Page references BOTipod gas lift software for valve placement. No pressure rating printed.",
+  "description": "Integral reverse-flow check valve; stainless steel construction with premium materials available; standard neoprene packing. Page references BOTipod gas lift software for valve placement. No pressure rating printed. Primary source: https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
   "specifications": [
     {
       "metric": "Standard temperature rating",
@@ -16,7 +16,8 @@
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
         "source_id": "cat-bakerhughes-com-gas-lift-valves"
       },
-      "value": "250"
+      "value": "250",
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     },
     {
       "metric": "Standard temperature rating (metric)",
@@ -26,7 +27,8 @@
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",
         "source_id": "cat-bakerhughes-com-gas-lift-valves"
       },
-      "value": "121"
+      "value": "121",
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     },
     {
       "metric": "Temperature rating (standard)",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
       },
-      "value": 250
+      "value": 250,
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     },
     {
       "metric": "Temperature rating (metric)",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
       },
-      "value": 121
+      "value": 121,
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     },
     {
       "metric": "Construction",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
       },
-      "value": "Stainless steel; other premium materials available for extreme downhole conditions"
+      "value": "Stainless steel; other premium materials available for extreme downhole conditions",
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     },
     {
       "metric": "Packing",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
       },
-      "value": "Standard neoprene packing, with other materials available"
+      "value": "Standard neoprene packing, with other materials available",
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     },
     {
       "metric": "Check valve",
@@ -71,7 +77,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
       },
-      "value": "integral reverse flow check valve"
+      "value": "integral reverse flow check valve",
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     },
     {
       "metric": "Valve types",
@@ -80,7 +87,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
       },
-      "value": "Injection pressure and production pressure-operated; tubing retrievable; wireline-retrievable orifice, dummy, circulating, and chemical injection valves"
+      "value": "Injection pressure and production pressure-operated; tubing retrievable; wireline-retrievable orifice, dummy, circulating, and chemical injection valves",
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     },
     {
       "metric": "Mandrel compatibility",
@@ -89,7 +97,8 @@
       "source": {
         "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
       },
-      "value": "Any Baker Hughes side pocket and tubing retrievable mandrel; fully compatible with other manufacturers' mandrels"
+      "value": "Any Baker Hughes side pocket and tubing retrievable mandrel; fully compatible with other manufacturers' mandrels",
+      "source_url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves"
     }
   ],
   "url": "https://www.bakerhughes.com/completions/gas-lift-systems/gas-lift-valves",

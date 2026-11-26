@@ -8,6 +8,17 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.26.2] — 2026-11-26 — Primary source links and product detail pages
+
+Every product and equipment parameter now carries `source_url` (12,768 specs in 963 records), and
+each description ends with `Primary source: <url>`. MCP listings/search hits expose `url` and
+`source_urls`; tool descriptions and `docs/MCP.md` instruct agents to open and cite the OEM catalogue
+as the primary source and to report unsourced parameters as gaps. The web product detail page shows
+every parameter, its printed basis and an original-datasheet link.
+
+`pytest -q tests`: **3,794 passed, 13 skipped**. Code and records changed: Neon reload + container deploy.
+
+
 ## [2026.11.26.1] — 2026-11-26 — Full parameter capture across product catalogues
 
 Owner review: selected engine pages held only a few parameters. Eight agents re-read all 458 product

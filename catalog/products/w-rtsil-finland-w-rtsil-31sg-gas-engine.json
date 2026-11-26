@@ -6,7 +6,7 @@
   "equipment": [
     "gas-engine-prime-mover"
   ],
-  "description": "Vendor product line read 2026-11-24. Used at Moomba 59 MW extension (5 units) per search-verified press release snippet.",
+  "description": "Vendor product line read 2026-11-24. Used at Moomba 59 MW extension (5 units) per search-verified press release snippet. Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
   "specifications": [
     {
       "metric": "Electrical output",
@@ -17,7 +17,8 @@
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
       },
       "low": 11.4,
-      "high": 11.8
+      "high": 11.8,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Electrical efficiency",
@@ -28,7 +29,8 @@
         "source_id": "wartsila-com-flexible-baseload-power-plants-data-center-power-solu"
       },
       "low": 51.5,
-      "high": 51.6
+      "high": 51.6,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "31SG electrical output (data centre page 50/60 Hz)",
@@ -37,7 +39,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
       },
-      "value": "11.8 MW / 11.4 MW"
+      "value": "11.8 MW / 11.4 MW",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "31SG rated electrical power (dedicated page, standard)",
@@ -47,7 +50,8 @@
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine",
         "source_id": "catpar-wartsila-com-wartsila-31sg-gas-engine-39c160d"
       },
-      "value": "11 777 (50 Hz) / 11 377 (60 Hz)"
+      "value": "11 777 (50 Hz) / 11 377 (60 Hz)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
     },
     {
       "metric": "31SG efficiency optimised rated power",
@@ -56,7 +60,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
       },
-      "value": "10 790 (50 Hz) / 10 389 (60 Hz)"
+      "value": "10 790 (50 Hz) / 10 389 (60 Hz)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
     },
     {
       "metric": "31SG power optimised rated power",
@@ -65,7 +70,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
       },
-      "value": "12 762 (50 Hz) / 12 372 (60 Hz)"
+      "value": "12 762 (50 Hz) / 12 372 (60 Hz)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
     },
     {
       "metric": "31SG electrical efficiency standard",
@@ -74,7 +80,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
       },
-      "value": "51.5 (50 Hz) / 51.6 (60 Hz)"
+      "value": "51.5 (50 Hz) / 51.6 (60 Hz)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
     },
     {
       "metric": "31SG electrical efficiency optimised",
@@ -83,7 +90,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
       },
-      "value": "52.0 (50 Hz) / 52.1 (60 Hz)"
+      "value": "52.0 (50 Hz) / 52.1 (60 Hz)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
     },
     {
       "metric": "31SG electrical efficiency power optimised",
@@ -92,7 +100,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
       },
-      "value": "50.2 (50 Hz) / 50.4 (60 Hz)"
+      "value": "50.2 (50 Hz) / 50.4 (60 Hz)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
     },
     {
       "metric": "31SG heat rate standard / optimised / power",
@@ -101,7 +110,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
       },
-      "value": "6 986/6 971; 6 922/6 907; 7 165/7 142"
+      "value": "6 986/6 971; 6 922/6 907; 7 165/7 142",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
     },
     {
       "metric": "31SG bore / stroke / speed",
@@ -110,7 +120,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
       },
-      "value": "310 mm / 430 mm / 750 rpm (50 Hz), 720 rpm (60 Hz)"
+      "value": "310 mm / 430 mm / 750 rpm (50 Hz), 720 rpm (60 Hz)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
     },
     {
       "metric": "31SG power to grid / full load",
@@ -119,7 +130,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
       },
-      "value": "30 sec / < 2 min (fast), < 5 min (regular)"
+      "value": "30 sec / < 2 min (fast), < 5 min (regular)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
     },
     {
       "metric": "31SG full output time (POWER article)",
@@ -128,7 +140,8 @@
       "source": {
         "url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
       },
-      "value": 2.5
+      "value": 2.5,
+      "source_url": "https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/"
     },
     {
       "metric": "31SG minimum load",
@@ -137,7 +150,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
       },
-      "value": "Unit level 10%; Plant level 1%"
+      "value": "Unit level 10%; Plant level 1%",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/engine-power-plant-products/wartsila-31sg-gas-engine"
     },
     {
       "metric": "Data centre plant temperature/altitude envelope",
@@ -146,7 +160,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
       },
-      "value": "-45 C to 50 C; 100% output above 1,200 m (4,000 ft)"
+      "value": "-45 C to 50 C; 100% output above 1,200 m (4,000 ft)",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Data centre plant water consumption",
@@ -155,7 +170,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
       },
-      "value": "less than 5 liters (1.3 gallons) per hour; near-zero process water"
+      "value": "less than 5 liters (1.3 gallons) per hour; near-zero process water",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Data centre plant build time",
@@ -164,7 +180,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
       },
-      "value": 12
+      "value": 12,
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Data centre CAPEX / fuel advantage",
@@ -173,7 +190,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
       },
-      "value": "20-30% lower CAPEX; 20-35% less fuel than gas turbines; efficiency can exceed 50%"
+      "value": "20-30% lower CAPEX; 20-35% less fuel than gas turbines; efficiency can exceed 50%",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     },
     {
       "metric": "Data centre engine size / plant output",
@@ -182,7 +200,8 @@
       "source": {
         "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
       },
-      "value": "10-23 MW engines; over 450 MW plants"
+      "value": "10-23 MW engines; over 450 MW plants",
+      "source_url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions"
     }
   ],
   "url": "https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",

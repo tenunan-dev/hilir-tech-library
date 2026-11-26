@@ -6,7 +6,7 @@
   "equipment": [
     "ammonia-synthesis-converter"
   ],
-  "description": "Vendor product line read 2026-11-24. No numeric tip diameter or exit velocity published.",
+  "description": "Vendor product line read 2026-11-24. No numeric tip diameter or exit velocity published. Primary source: https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
   "specifications": [
     {
       "metric": "Design principle",
@@ -16,7 +16,8 @@
         "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
         "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
       },
-      "value": "restrict exit velocity; increase flare tip barrel diameter; use diffusion apparatuses"
+      "value": "restrict exit velocity; increase flare tip barrel diameter; use diffusion apparatuses",
+      "source_url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     },
     {
       "metric": "Flare types in urea service",
@@ -26,7 +27,8 @@
         "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
         "source_id": "info-zeeco-com-pdf-flaring-up-world-fertilizer-pdf"
       },
-      "value": 4
+      "value": 4,
+      "source_url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     },
     {
       "metric": "Ammonia flare tip - upper tip length",
@@ -35,7 +37,8 @@
       "source": {
         "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
       },
-      "value": 10
+      "value": 10,
+      "source_url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     },
     {
       "metric": "Ammonia flare - exit velocity criterion",
@@ -44,7 +47,8 @@
       "source": {
         "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
       },
-      "value": "Restrict exit velocity of waste gas to ensure adequate residence time for high destruction efficiency; maximum design exit velocity depends on flare tip diameter"
+      "value": "Restrict exit velocity of waste gas to ensure adequate residence time for high destruction efficiency; maximum design exit velocity depends on flare tip diameter",
+      "source_url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     },
     {
       "metric": "Ammonia flare tip - flow distribution",
@@ -53,7 +57,8 @@
       "source": {
         "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
       },
-      "value": "Include flow distribution devices to disperse waste gas, expose stream to ignition sources and increase access to combustion air"
+      "value": "Include flow distribution devices to disperse waste gas, expose stream to ignition sources and increase access to combustion air",
+      "source_url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     },
     {
       "metric": "Ammonia combustion - challenges",
@@ -62,7 +67,8 @@
       "source": {
         "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
       },
-      "value": "Low flame propagation speed, low heating value and low flame temperatures; nitrogen is chemically inactive"
+      "value": "Low flame propagation speed, low heating value and low flame temperatures; nitrogen is chemically inactive",
+      "source_url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en"
     }
   ],
   "url": "https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",

@@ -10,7 +10,7 @@
   "sector_codes": [
     "PCH"
   ],
-  "description": "Tall tower in which molten urea is sprayed from the top and solidifies in falling droplets cooled by rising air, producing small round prills. Tower height and airflow set the prill size and the product's cooling and hardening; prills are smaller and more spherical than fluid-bed granules.",
+  "description": "Tall tower in which molten urea is sprayed from the top and solidifies in falling droplets cooled by rising air, producing small round prills. Tower height and airflow set the prill size and the product's cooling and hardening; prills are smaller and more spherical than fluid-bed granules. Primary source: https://ureaknowhow.com/wp-content/uploads/2021/05/2021-06-Baboo-Prilling-Tower-and-Granulator-Heat-and-Mass-Transfer.pdf",
   "applications": [
     "urea finishing to solid prilled product"
   ],
@@ -24,7 +24,8 @@
       "source": {
         "url": "https://ureaknowhow.com/wp-content/uploads/2021/05/2021-06-Baboo-Prilling-Tower-and-Granulator-Heat-and-Mass-Transfer.pdf",
         "note": "Baboo, Prilling tower and granulator heat and mass transfer, 2021, read 2026-11-17"
-      }
+      },
+      "source_url": "https://ureaknowhow.com/wp-content/uploads/2021/05/2021-06-Baboo-Prilling-Tower-and-Granulator-Heat-and-Mass-Transfer.pdf"
     },
     {
       "metric": "large-unit capacity",
@@ -35,7 +36,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP4545507A1/en",
         "note": "Patent EP4545507A1, read 2026-11-17"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/EP4545507A1/en"
     },
     {
       "metric": "large-unit dimensions",
@@ -45,7 +47,8 @@
       "source": {
         "url": "https://patents.google.com/patent/EP4545507A1/en",
         "note": "Patent EP4545507A1, read 2026-11-17"
-      }
+      },
+      "source_url": "https://patents.google.com/patent/EP4545507A1/en"
     },
     {
       "metric": "prill size",
@@ -55,7 +58,8 @@
       "source": {
         "url": "https://eprints.whiterose.ac.uk/id/eprint/97580/1/Urea%20prilling%20vs%20granulation%202015.pdf",
         "note": "Rahmanian et al., Urea prilling vs granulation, 2015, read 2026-11-17"
-      }
+      },
+      "source_url": "https://eprints.whiterose.ac.uk/id/eprint/97580/1/Urea%20prilling%20vs%20granulation%202015.pdf"
     },
     {
       "metric": "prill size limit",
@@ -65,7 +69,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": 2.1
+      "value": 2.1,
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     },
     {
       "metric": "prill formation mechanism",
@@ -75,7 +80,8 @@
         "url": "https://en.wikipedia.org/wiki/Prill",
         "source_id": "en-wikipedia-org-wiki-prill"
       },
-      "value": "drops of melted material congeal/freeze in mid-air after dripping from top of a tall prilling tower"
+      "value": "drops of melted material congeal/freeze in mid-air after dripping from top of a tall prilling tower",
+      "source_url": "https://en.wikipedia.org/wiki/Prill"
     },
     {
       "metric": "prilling displacement trend",
@@ -85,7 +91,8 @@
         "url": "https://en.wikipedia.org/wiki/Prill",
         "source_id": "en-wikipedia-org-wiki-prill"
       },
-      "value": "prilling of ammonium nitrate and urea replaced in recent years by fluid bed granulation giving stronger, more abrasion-resistant granules"
+      "value": "prilling of ammonium nitrate and urea replaced in recent years by fluid bed granulation giving stronger, more abrasion-resistant granules",
+      "source_url": "https://en.wikipedia.org/wiki/Prill"
     },
     {
       "metric": "formaldehyde additive",
@@ -95,7 +102,8 @@
         "url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27",
         "source_id": "en-wikipedia-org-w-index-php"
       },
-      "value": "added during production of both prills and granules to increase crushing strength and suppress caking"
+      "value": "added during production of both prills and granules to increase crushing strength and suppress caking",
+      "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
     }
   ],
   "vendors": [

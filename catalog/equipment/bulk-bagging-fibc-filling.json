@@ -9,7 +9,7 @@
     "PRC",
     "ROT"
   ],
-  "description": "Bagging machines and big-bag (FIBC) filling",
+  "description": "Bagging machines and big-bag (FIBC) filling Primary source: https://www.iea.org/reports/ammonia-technology-roadmap",
   "specifications": [
     {
       "metric": "function",
@@ -18,7 +18,8 @@
       "basis": "Qualitative function from pages read in this sweep.",
       "source": {
         "url": "https://www.iea.org/reports/ammonia-technology-roadmap"
-      }
+      },
+      "source_url": "https://www.iea.org/reports/ammonia-technology-roadmap"
     }
   ],
   "vendors": [

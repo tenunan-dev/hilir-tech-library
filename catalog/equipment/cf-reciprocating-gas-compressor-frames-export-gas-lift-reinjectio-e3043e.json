@@ -9,7 +9,7 @@
     "PRC",
     "ELE"
   ],
-  "description": "Positive-displacement compression where high pressure ratio, turndown or intermittent duty is required. Ariel frames are separable, engine- or motor-driven, with high-pressure cylinders for gas lift, gas reinjection and CNG; large frames are recommended for pipeline transmission and high-pressure injection.",
+  "description": "Positive-displacement compression where high pressure ratio, turndown or intermittent duty is required. Ariel frames are separable, engine- or motor-driven, with high-pressure cylinders for gas lift, gas reinjection and CNG; large frames are recommended for pipeline transmission and high-pressure injection. Primary source: https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
   "specifications": [
     {
       "metric": "Small-frame rated power (1-throw / 2-throw)",
@@ -20,7 +20,8 @@
         "source_id": "cat-arielcorp-com-jgn-jgq-html"
       },
       "low": 126,
-      "high": 280
+      "high": 280,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html"
     },
     {
       "metric": "Large-frame rated power",
@@ -31,7 +32,8 @@
         "source_id": "cat-arielcorp-com-kbb-kbv-html"
       },
       "low": 6668,
-      "high": 10000
+      "high": 10000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html"
     },
     {
       "metric": "Reciprocating compressor power rating",
@@ -41,7 +43,8 @@
         "url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
         "source_id": "cat-chartindustries-com-compression-reciprocating-and-diaphragm"
       },
-      "value": 20
+      "value": 20,
+      "source_url": "https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor"
     },
     {
       "metric": "Compressors manufactured",
@@ -51,7 +54,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page.html",
         "source_id": "sys-arielcorp-com-compressor-landing-page-html"
       },
-      "value": 70000
+      "value": 70000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page.html"
     },
     {
       "metric": "Downstream rod-load limit",
@@ -61,7 +65,8 @@
         "url": "https://www.arielcorp.com/compressors/compressor-landing-page.html",
         "source_id": "sys-arielcorp-com-compressor-landing-page-html"
       },
-      "value": 10000
+      "value": 10000,
+      "source_url": "https://www.arielcorp.com/compressors/compressor-landing-page.html"
     }
   ],
   "vendors": [
