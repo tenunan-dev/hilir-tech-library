@@ -3,9 +3,7 @@
   "name": "GE (historical Jenbacher gas engine brand, 2003-2018)",
   "manufacturer": "geg-vendor-unidentified",
   "product_type": "gas-engine-chp-product-line-historical-ownership",
-  "equipment": [
-    "geg-gas-engine-generator-units"
-  ],
+  "equipment": [],
   "description": "gas engine / CHP product line (historical ownership) Primary source: https://en.wikipedia.org/wiki/Jenbacher",
   "specifications": [
     {

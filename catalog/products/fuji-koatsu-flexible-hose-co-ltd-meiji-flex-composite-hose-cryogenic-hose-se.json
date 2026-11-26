@@ -3,9 +3,7 @@
   "name": "Meiji Flex Composite Hose - Cryogenic Hose, series 0933 / 0940 / 0957",
   "manufacturer": "fuji-koatsu-flexible-hose-co-ltd",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
-  ],
+  "equipment": [],
   "description": "APAC supplier. Page states pressure varies with fluid and temperature; consult manufacturer. Primary source: https://fujikoatsu.jp/en/pages/79",
   "specifications": [
     {

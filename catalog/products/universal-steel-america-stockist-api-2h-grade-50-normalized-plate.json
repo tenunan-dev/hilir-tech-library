@@ -3,9 +3,7 @@
   "name": "API 2H Grade 50 normalized plate",
   "manufacturer": "universal-steel-america",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Supplements S1-S5 in stock. Primary source: https://www.universalsteelamerica.com/api-2h-steel-plate",
   "specifications": [
     {

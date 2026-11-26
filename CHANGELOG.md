@@ -8,6 +8,44 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.26.4] — 2026-11-26 — A specification belongs to the record that read it; a keyword-only fallback says so
+
+Two findings from the HILIR health check of 2026-11-26, both in the Technology Library.
+
+**F3 (HIGH) — foreign specifications on equipment records.** `get_equipment` on the Risers class
+returned 212 parameters, most of them a solar module's (`STC Pmax`), a genset's (`Quiet Diesel
+series frequency`), a compressor's (`KBH - discharge pressure`) and a HART transceiver's — ~82,000
+characters of another product's evidence, where an agent could quote a PV efficiency as a riser
+limit. Root cause: the 2026-11-26 product-catalogue capture attached each product's printed
+parameters to its linked equipment, and 225 of the 449 product→equipment links were never
+evidenced (they matched an equipment *type*, not a supplier). Both halves are repaired: the 225
+unevidenced links are gone (224 vendor-evidenced links remain, e.g. Cleaver-Brooks → fire-tube
+boiler package), and a specification is kept only where its source is a page the record itself
+cites — **2,028 foreign specifications removed from 83 equipment records**, 790 reader-proxy URLs
+(`r.jina.ai/…`) rewritten to the publisher page, and 22 records now carry `specifications: []` with
+the gap that names what is missing instead of a borrowed figure. `get_equipment` on that Risers
+record returns 21 parameters, all TechnipFMC/Baker Hughes, and `get_product` on the LONGi module
+claims no equipment at all. The rule is decision 44, enforced by `tools/build.py` and
+`tests/test_equipment.py`, applied once by `tools/spec_source_repair.py`.
+
+**F4 (MEDIUM) — `vectors: 0` with no explanation.** The health check read the baked-index fallback
+(Neon unreachable) as "vector search is off": 207 open documents, 11,876 chunks, `vectors: 0`.
+The index is not off — the live Neon layer held 19,729 embeddings at that moment — but the fallback
+was silent. `library_stats` now reports `backend`, `semantic_search`, and on the fallback a `note`
+with `fallback_reason`; `search` marks every row `"search_mode": "keyword-only"` when the backend it
+answered from holds no embeddings. The fallback reason is the Neon error the tool swallowed, so the
+next occurrence is diagnosable from the reply itself.
+
+Verified: `tools/build.py` 2,369 records valid; index rebuilt (253 documents, 13,192 chunks);
+incremental embed 225 embedded / 19,753 reused / 0 missing; Neon reloaded (253 documents, 11,876
+chunks, 18,662 vectors) and read back in SQL — the two Risers records hold 12 and 21
+specifications, the LONGi product claims no equipment, 224 evidenced links remain. `pytest -q
+tests`: **3,798 passed, 13 skipped**. The container image is one generation behind (its baked index
+predates this repair) and the F4 disclosure is container code: **neither is deployed — the ship
+failed because `~/.ssh/agent_dsh` was refused (`Permission denied (publickey)`)**. The F3 data
+correction is live through Neon regardless.
+
+
 ## [2026.11.26.3] — 2026-11-26 — MCP skill brought to the live 32-tool surface
 
 The MCP audit of the nine skills (`hilir-skills/mcp-audit.md`, finding 4) found the `techlib-mcp`

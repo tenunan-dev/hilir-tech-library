@@ -3,9 +3,7 @@
   "name": "ProFire SBR-30 combustion air fan / air housing (integral to burner)",
   "manufacturer": "cleaver-brooks",
   "product_type": "fan",
-  "equipment": [
-    "fd-fan-boiler"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched SBR-30 product page directly. No dedicated forced-draft fan OEM product page with fan curves or static pressure was found; this is fan content embedded in a burner page, not a fan product line. Primary source: https://cleaverbrooks.com/product/sbr30-burner",
   "specifications": [
     {

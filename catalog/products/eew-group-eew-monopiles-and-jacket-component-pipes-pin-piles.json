@@ -3,9 +3,7 @@
   "name": "EEW monopiles and jacket-component pipes / pin piles",
   "manufacturer": "eew-group",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-driven-precast-piles-concrete-steel-h-steel-pipe"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Korea and Malaysia plants serve Asian offshore wind. Primary source: https://eew-group.com/offshore-wind",
   "specifications": [
     {

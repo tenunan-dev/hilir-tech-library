@@ -3,9 +3,7 @@
   "name": "John Zink Flare Gas Recovery system",
   "manufacturer": "john-zink-koch-engineered-solutions",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Deep liquid seals, back-pressure control, H2S sweetening Primary source: https://www.johnzink.com/products/flare-gas-recovery",
   "specifications": [
     {

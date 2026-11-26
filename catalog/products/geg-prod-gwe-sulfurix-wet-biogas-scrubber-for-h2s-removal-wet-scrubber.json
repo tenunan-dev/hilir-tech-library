@@ -3,9 +3,7 @@
   "name": "GWE SULFURIX™ wet biogas scrubber for H2S removal",
   "manufacturer": "geg-vendor-unidentified",
   "product_type": "wet-scrubber-biological-h2s-removal-tower",
-  "equipment": [
-    "geg-gas-treatment-scrubber"
-  ],
+  "equipment": [],
   "description": "wet scrubber / biological H2S removal tower Primary source: https://globalwe.com/en/technologies/biogas-valorization/sulfurix-1",
   "specifications": [
     {

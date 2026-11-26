@@ -3,9 +3,7 @@
   "name": "Subsea umbilical product family (steel tube, thermoplastic hose, power, IWOCS), M Series junction plates, hydraulic flying leads, UTAs, I/J ",
   "manufacturer": "oceaneering-international",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste"
-  ],
+  "equipment": [],
   "description": "HTML index page read; each item links to a separate PDF datasheet (not WebFetch-readable). The page's 'more than 0 km' counter is a rendering artifact and is not reported as a figure. Primary source: https://www.oceaneering.com/subsea-distribution-solutions/products/",
   "specifications": [
     {

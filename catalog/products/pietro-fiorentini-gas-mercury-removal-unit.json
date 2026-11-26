@@ -3,9 +3,7 @@
   "name": "Gas mercury removal unit",
   "manufacturer": "pietro-fiorentini-teg-packages",
   "product_type": "wh-wellhead",
-  "equipment": [
-    "wh-fixed-jacket-wellhead-platform"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Primary source: https://www.fiorentini-iberia.com/en/solutions/systems/gas-treatment/gas-mercury-removal",
   "specifications": [
     {

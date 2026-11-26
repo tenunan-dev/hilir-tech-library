@@ -3,9 +3,7 @@
   "name": "Chemical Composite Hose (standard and heavy duty)",
   "manufacturer": "ewfm-e-w-fuel-management-ltd",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
-  ],
+  "equipment": [],
   "description": "Eight configurations listed; inner helix 316 SS or PP-coated steel, outer helix 316 SS or galvanised steel. Primary source: https://www.ewfm.co.uk/product/chemical-composite-hose",
   "specifications": [
     {

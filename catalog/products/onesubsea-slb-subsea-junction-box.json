@@ -3,9 +3,7 @@
   "name": "Subsea junction box",
   "manufacturer": "onesubsea-slb-aker-solutions-jv",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-subsea-umbilicals-electro-hydraulic-electrical-fibre-optic-ste"
-  ],
+  "equipment": [],
   "description": "Printed figures are callouts on the product page. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box",
   "specifications": [
     {

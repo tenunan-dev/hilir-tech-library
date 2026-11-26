@@ -3,9 +3,7 @@
   "name": "Experion PKS",
   "manufacturer": "honeywell",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. DCS; statistics sourced from Honeywell process automation overview page (also fetched). Primary source: https://process.honeywell.com/us/en/solutions/experion-pks",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "Fosroc Conbextra GP / HF / HES / EP65 Plus",
   "manufacturer": "fosroc",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Page read for GP product page; strengths from search-verified TDS Primary source: https://www.fosroc.com/product/show/conbextra-gp",
   "specifications": [
     {

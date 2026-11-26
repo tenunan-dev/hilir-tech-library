@@ -3,9 +3,7 @@
   "name": "Plug Power 3 GW PEM electrolyser system and BEDP",
   "manufacturer": "plug-power-inc",
   "product_type": "ammonia-converter",
-  "equipment": [
-    "ammonia-synthesis-converter"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Project development stage; not an installed operating plant. Primary source: https://research.csiro.au/hyresource/allied-green-ammonia/",
   "specifications": [
     {

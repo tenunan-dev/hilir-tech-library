@@ -17,19 +17,7 @@
     "offshore Malaysia wellhead platform (WHP)",
     "normally unmanned minimum-facility WHP"
   ],
-  "specifications": [
-    {
-      "metric": "List membership",
-      "value": "Recorded from the Mistral-chat WHP component list",
-      "basis": "Item listed in the source chat; no numeric specification was found in the pages read.",
-      "source": {
-        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
-        "note": "Mistral chat, Wellhead platform components overview (read 2026-11-24)"
-      },
-      "unit": "n/a",
-      "source_url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
-    }
-  ],
+  "specifications": [],
   "vendor_models": [],
   "vendors": [
     "whp-vendor-wikipedia-wikimedia-foundation"
@@ -78,5 +66,5 @@
     }
   ],
   "notes": "From the Mistral-chat WHP component list (6. Structural and Marine Systems). Six structural/marine WHP items were researched from pages actually read with WebFetch. Evidence-first findings: a fixed steel jacket is a pile-founded braced tubular substructure carrying the topside",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

@@ -3,9 +3,7 @@
   "name": "WirelessHART field devices and gateways (generic, standards-based)",
   "manufacturer": "multiple-registered-vendors-fieldcomm-group-registry",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Standards family, not a single purchasable SKU; registry: https://www.fieldcommgroup.org/registered-products?category=WIRELESS Primary source: https://www.fieldcommgroup.org/technologies/wirelesshart",
   "specifications": [
     {

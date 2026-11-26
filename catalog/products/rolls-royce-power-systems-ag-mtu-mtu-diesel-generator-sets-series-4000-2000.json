@@ -3,9 +3,7 @@
   "name": "mtu diesel generator sets - Series 4000, 2000, 1600, 0080-0225",
   "manufacturer": "rolls-royce-power-systems-ag-mtu",
   "product_type": "cf-system",
-  "equipment": [
-    "cf-diesel-engine-generator-sets-offshore-and-onshore"
-  ],
+  "equipment": [],
   "description": "Series 4000 and Series 1600 engines approved for synthetic paraffinic diesel fuels to EN 15940 including HVO; diesel genset container/power modules and components/accessories available. Linked Series 4000 brochure is a PDF (not read). Primary source: https://www.mtu-solutions.com/eu/en/applications/power-generation/power-generation-products/diesel-generator-sets.html",
   "specifications": [
     {

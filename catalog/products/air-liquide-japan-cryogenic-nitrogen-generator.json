@@ -3,9 +3,7 @@
   "name": "Cryogenic nitrogen generator",
   "manufacturer": "air-liquide-japan",
   "product_type": "ammonia-converter",
-  "equipment": [
-    "ammonia-synthesis-converter"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. No capacity published on the read page. Primary source: https://research.csiro.au/hyresource/allied-green-ammonia/",
   "specifications": [
     {

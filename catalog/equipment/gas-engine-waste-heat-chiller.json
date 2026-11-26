@@ -46,52 +46,6 @@
       "source_url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
     },
     {
-      "metric": "Inlet diameter",
-      "unit": "inch",
-      "basis": "Product page Design section",
-      "source": {
-        "url": "https://burgessmanning.com/preset-vent-silencers/",
-        "source_id": "burgessmanning-com-preset-vent-silencers"
-      },
-      "low": 2,
-      "high": 12,
-      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
-    },
-    {
-      "metric": "Casing diameter",
-      "unit": "inch",
-      "basis": "Product page Design section",
-      "source": {
-        "url": "https://burgessmanning.com/preset-vent-silencers/",
-        "source_id": "burgessmanning-com-preset-vent-silencers"
-      },
-      "low": 8,
-      "high": 24,
-      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
-    },
-    {
-      "metric": "Standard design temperature",
-      "unit": "deg C",
-      "basis": "Product page Design section",
-      "source": {
-        "url": "https://burgessmanning.com/preset-vent-silencers/",
-        "source_id": "burgessmanning-com-preset-vent-silencers"
-      },
-      "value": 250,
-      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
-    },
-    {
-      "metric": "Enhanced noise attenuation",
-      "unit": "dB",
-      "basis": "Product page: 'Typical acoustic performance (no guaranteed noise attenuation)'",
-      "source": {
-        "url": "https://burgessmanning.com/preset-vent-silencers/",
-        "source_id": "burgessmanning-com-preset-vent-silencers"
-      },
-      "high": "50+",
-      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
-    },
-    {
       "metric": "Capacity",
       "unit": "TR (table); header states 30-3000 TR",
       "basis": "Value as printed in the cited source; no further qualifier stated.",
@@ -125,51 +79,6 @@
       "low": 250,
       "high": 600,
       "source_url": "https://www.thermaxglobal.com/industrial-products/cooling-and-heating-solutions/absorption-chillers-heaters/exhaust-gas-driven-absorption-chiller-heater"
-    },
-    {
-      "metric": "Construction",
-      "unit": "n/a",
-      "basis": "'Standard primed carbon steel construction'; 'Fully welded construction'; 'Cylindrical design'; 'Self-supported on discharge pipe'",
-      "source": {
-        "url": "https://burgessmanning.com/preset-vent-silencers/"
-      },
-      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
-    },
-    {
-      "metric": "Materials",
-      "unit": "n/a",
-      "basis": "'Materials: Carbon steel ASTM/ASME'",
-      "source": {
-        "url": "https://burgessmanning.com/preset-vent-silencers/"
-      },
-      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
-    },
-    {
-      "metric": "Connections",
-      "unit": "n/a",
-      "basis": "'supplied with either a butt-weld or flanged inlet connection'",
-      "source": {
-        "url": "https://burgessmanning.com/preset-vent-silencers/"
-      },
-      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
-    },
-    {
-      "metric": "Design codes",
-      "unit": "n/a",
-      "basis": "'Design Codes: None'; 'Certifications: None'",
-      "source": {
-        "url": "https://burgessmanning.com/preset-vent-silencers/"
-      },
-      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
-    },
-    {
-      "metric": "Temporary vent down usage",
-      "unit": "n/a",
-      "basis": "'Steam', 'Air'",
-      "source": {
-        "url": "https://burgessmanning.com/preset-vent-silencers/"
-      },
-      "source_url": "https://burgessmanning.com/preset-vent-silencers/"
     },
     {
       "metric": "Chiller-heater - capacity range",

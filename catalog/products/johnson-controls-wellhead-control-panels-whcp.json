@@ -3,9 +3,7 @@
   "name": "Wellhead Control Panels (WHCP)",
   "manufacturer": "johnson-controls-york-silent-aire",
   "product_type": "wh-wellhead",
-  "equipment": [
-    "wh-fixed-jacket-wellhead-platform"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Integrator for API 674 and 675 pump packages. Primary source: https://www.johnsoncontrols.com/oil-and-gas/production-systems",
   "specifications": [
     {
@@ -27,5 +25,5 @@
     }
   ],
   "notes": "Integrator for API 674 and 675 pump packages.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

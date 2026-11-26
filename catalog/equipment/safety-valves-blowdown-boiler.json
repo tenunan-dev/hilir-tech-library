@@ -149,45 +149,6 @@
       "low": 2000,
       "high": 10000,
       "source_url": "https://engineeringtoolbox.com/boiler-blowdown-d_908.html"
-    },
-    {
-      "metric": "Method",
-      "basis": "Blowdown Systems catalog listing: 'Cleaver-Brooks model BDS blowdown separators and model BDT tanks use a safe, proven, economical flash purification process'",
-      "source": {
-        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems",
-        "source_id": "cleaverbrooks-com-boiler-room-equipment-blowdown-systems"
-      },
-      "unit": "process",
-      "value": "Safe, proven, economical flash purification process for blowdown effectiveness and disposal",
-      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
-    },
-    {
-      "metric": "Model designations",
-      "unit": "n/a",
-      "basis": "'Cleaver-Brooks model BDS blowdown separators and model BDT tanks'",
-      "source": {
-        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
-      },
-      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
-    },
-    {
-      "metric": "Process",
-      "unit": "n/a",
-      "basis": "'use a safe, proven, economical flash purification process for facilitating blowdown effectiveness and disposal'",
-      "source": {
-        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
-      },
-      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
-    },
-    {
-      "metric": "Catalog items found",
-      "unit": "items",
-      "basis": "'3 Items Found': Blowdown Heat Recovery; Blowdown Systems; Flash Tank Heat Recovery",
-      "source": {
-        "url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
-      },
-      "value": 3,
-      "source_url": "https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems"
     }
   ],
   "vendors": [

@@ -3,9 +3,7 @@
   "name": "Ariel JGN / JGQ separable reciprocating compressor (1-throw and 2-throw)",
   "manufacturer": "ariel-corporation-with-hoerbiger",
   "product_type": "cf-system",
-  "equipment": [
-    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral-a5a9f5"
-  ],
+  "equipment": [],
   "description": "Materials as printed: gray iron crankcase, forged steel crankshaft, gray iron crosshead guide, tri-metal main bearing, ductile iron crosshead, alloy steel crosshead pin, forged steel connecting rod with bronze pin bushing and grade 8 stress bolts. Linked JGNQ product spec sheet is a PDF (not read). Primary source: https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
   "specifications": [
     {

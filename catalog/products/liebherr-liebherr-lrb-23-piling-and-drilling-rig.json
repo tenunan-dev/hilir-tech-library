@@ -3,9 +3,7 @@
   "name": "Liebherr LRB 23 piling and drilling rig",
   "manufacturer": "liebherr",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Page read Primary source: https://www.liebherr.com/en-us/p/lrb23-4424791",
   "specifications": [
     {

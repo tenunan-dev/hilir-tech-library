@@ -3,9 +3,7 @@
   "name": "Composite hose range (petrol, vapour, hot bitumen, chemical; Codes 1000/901/1003/AVA/VRH/966/951/952/969/ASS/2200)",
   "manufacturer": "plascorp-pty-ltd",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
-  ],
+  "equipment": [],
   "description": "APAC supplier; AS 2683-2000 / AS 2594-1983 / AS 2475 standards as printed. Assembly testing per page: hydrostatic and electrical, AS 2683 / AS 2594 / AS 1180. Primary source: https://www.plascorp.com.au/products/composite-hoses",
   "specifications": [
     {

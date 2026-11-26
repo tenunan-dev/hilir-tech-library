@@ -3,9 +3,7 @@
   "name": "Max-Fire HRSG steam drums",
   "manufacturer": "cleaver-brooks",
   "product_type": "pressure-part",
-  "equipment": [
-    "steam-drum-boiler"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Max-Fire product page directly with WebFetch (markdown). Primary source: https://cleaverbrooks.com/product/max-fire-series",
   "specifications": [
     {

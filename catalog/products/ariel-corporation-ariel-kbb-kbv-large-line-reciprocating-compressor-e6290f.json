@@ -3,9 +3,7 @@
   "name": "Ariel KBB / KBV large-line reciprocating compressor",
   "manufacturer": "ariel-corporation-with-hoerbiger",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru"
-  ],
+  "equipment": [],
   "description": "Full pressure lubrication with frame-driven lube oil pump and divider-block cylinder/packing lubrication. Linked KBBV product spec sheet is a PDF (not read). Primary source: https://www.arielcorp.com/compressors/compressor-landing-page/kbb-kbv.html",
   "specifications": [
     {

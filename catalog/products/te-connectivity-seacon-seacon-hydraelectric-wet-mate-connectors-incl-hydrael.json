@@ -3,9 +3,7 @@
   "name": "SEACON HydraElectric Wet-Mate Connectors (incl. HydraElectric Ethernet Connector)",
   "manufacturer": "te-connectivity-seacon",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246"
-  ],
+  "equipment": [],
   "description": "HTML product-group page read; linked DDE datasheet not separately read. Primary source: https://www.te.com/en/products/connectors/intersection/electrical-wet-mate.html",
   "specifications": [
     {

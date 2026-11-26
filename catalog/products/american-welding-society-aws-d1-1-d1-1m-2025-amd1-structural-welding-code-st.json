@@ -3,9 +3,7 @@
   "name": "AWS D1.1/D1.1M:2025-AMD1 Structural Welding Code—Steel",
   "manufacturer": "american-welding-society",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-structural-steel-fabricated-beams-columns-bracing"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Member price USD 588 / non-member USD 784 (publisher store page, 2026). Primary source: https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
   "specifications": [
     {

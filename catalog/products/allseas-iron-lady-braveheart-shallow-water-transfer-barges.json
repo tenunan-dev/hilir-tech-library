@@ -3,9 +3,7 @@
   "name": "Iron Lady / Braveheart shallow-water transfer barges",
   "manufacturer": "allseas-oem-design",
   "product_type": "sub-platform",
-  "equipment": [
-    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Braveheart due late 2025 with electric ballast system and tidal compensation (Allseas page). Primary source: https://www.allseas.com/en/who-we-are/our-fleet/pioneering-spirit",
   "specifications": [
     {

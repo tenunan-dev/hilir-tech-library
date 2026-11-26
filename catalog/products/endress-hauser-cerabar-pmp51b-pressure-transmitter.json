@@ -3,9 +3,7 @@
   "name": "Cerabar PMP51B pressure transmitter",
   "manufacturer": "endress-hauser",
   "product_type": "ci-system",
-  "equipment": [
-    "ci-field-transmitters-pressure-temperature-flow-level"
-  ],
+  "equipment": [],
   "description": "Page read in full including Specifications tab. Note the page prints two slightly different diaphragm-seal process-temperature ranges (-70...+400 and -40...+400) in its two tables; both are transcribed rather than reconciled. Primary source: https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp51b?t.tabId=product-specification",
   "specifications": [
     {

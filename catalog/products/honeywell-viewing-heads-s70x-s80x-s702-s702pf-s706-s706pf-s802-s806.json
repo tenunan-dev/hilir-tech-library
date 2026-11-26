@@ -3,9 +3,7 @@
   "name": "Viewing Heads S70X/S80X (S702, S702PF, S706, S706PF, S802, S806)",
   "manufacturer": "honeywell",
   "product_type": "ci-system",
-  "equipment": [
-    "ci-field-transmitters-pressure-temperature-flow-level"
-  ],
+  "equipment": [],
   "description": "Page read in full including both Specifications renderings. Single-channel viewing heads used with 700/P531/P532 signal processors. Primary source: https://process.honeywell.com/us/en/products/thermal-solutions/burner-management-systems/industrial-flame-monitoring-ifm/viewing-heads-s70x-s80x",
   "specifications": [
     {

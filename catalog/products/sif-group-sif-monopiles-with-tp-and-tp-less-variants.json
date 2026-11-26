@@ -3,9 +3,7 @@
   "name": "Sif monopiles (with TP and TP-less variants)",
   "manufacturer": "sif-group",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-driven-precast-piles-concrete-steel-h-steel-pipe"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Source page internally inconsistent on max weight; >2,600 produced by end 2024. Primary source: https://sif-group.com/products-services/monopiles",
   "specifications": [
     {

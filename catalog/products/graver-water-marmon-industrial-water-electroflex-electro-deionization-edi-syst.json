@@ -3,9 +3,7 @@
   "name": "ElectroFlex Electro-deionization (EDI) Systems",
   "manufacturer": "graver-water-marmon-industrial-water",
   "product_type": "water-treatment",
-  "equipment": [
-    "boiler-makeup-ro-edi"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver ElectroFlex EDI Systems page. Cost percentages are vendor claims with no dollar year or currency, so no USD figure is recorded. Primary source: https://graver.com/makeup/electroflex/",
   "specifications": [
     {

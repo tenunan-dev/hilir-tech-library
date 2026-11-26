@@ -3,9 +3,7 @@
   "name": "Red Thread IIA Fiberglass Pipe (primary and secondary)",
   "manufacturer": "nov-bondstrand",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru"
-  ],
+  "equipment": [],
   "description": "UL 971 listed. Onshore/terminal piping rather than subsea; included for onshore piping family coverage. Primary source: https://www.nov.com/products/red-thread-iia-fiberglass-pipe",
   "specifications": [
     {

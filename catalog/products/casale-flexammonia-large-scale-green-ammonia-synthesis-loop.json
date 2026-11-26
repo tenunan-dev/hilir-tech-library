@@ -3,9 +3,7 @@
   "name": "FlexAMMONIA (large-scale green ammonia synthesis loop)",
   "manufacturer": "casale",
   "product_type": "ammonia",
-  "equipment": [
-    "ammonia-refrigeration-storage"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Green H2 from electrolysis and pure N2 from air separation unit. Primary source: https://casale.ch/technologies/ammonia/",
   "specifications": [
     {

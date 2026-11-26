@@ -3,9 +3,7 @@
   "name": "TOYO ACES21 urea process",
   "manufacturer": "toyo",
   "product_type": "ammonia-converter",
-  "equipment": [
-    "ammonia-synthesis-converter"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. ACES21 process claimed to improve energy efficiency and reduce capital investment (owner press release). Primary source: https://www.pupuk-indonesia.com/media-info/detail/913/pupuk-indonesia-dan-toyo-kembangkan-kapasitas-produksi-urea-115-juta-ton-per-tahun-di-fakfak-papua-barat?lang=en",
   "specifications": [
     {

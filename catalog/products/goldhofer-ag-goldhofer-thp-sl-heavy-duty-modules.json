@@ -3,9 +3,7 @@
   "name": "Goldhofer THP/SL heavy-duty modules",
   "manufacturer": "goldhofer-ag",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Page read Primary source: https://www.goldhofer.com/en/heavyduty-modules/towed-thp-sl",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "DeepOcean T1500+ jet trenching ROV",
   "manufacturer": "deepocean",
   "product_type": "wh-wellhead",
-  "equipment": [
-    "wh-fixed-jacket-wellhead-platform"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. fetched Primary source: https://www.deepoceangroup.com/what-we-do/assets-seabed-intervention-tools",
   "specifications": [
     {

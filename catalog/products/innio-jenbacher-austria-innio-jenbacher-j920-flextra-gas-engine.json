@@ -3,9 +3,7 @@
   "name": "INNIO Jenbacher J920 FleXtra gas engine",
   "manufacturer": "innio-jenbacher-austria",
   "product_type": "engine",
-  "equipment": [
-    "gas-engine-prime-mover"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Deployed in the 104 MW Greenville, Texas peaking plant with 11 engines (POWER article, page_read:true). Primary source: https://powermag.com/engine-power-plants-surge-as-data-centers-drive-unprecedented-demand/",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "SMA PV and solar inverters - Sunny Central UP, Sunny Highpower PEAK3, Sunny Tripower 125 / X 60 / X 25, Sunny Boy 3-6",
   "manufacturer": "sma-solar-technology-ag",
   "product_type": "cf-system",
-  "equipment": [
-    "cf-diesel-engine-generator-sets-offshore-and-onshore"
-  ],
+  "equipment": [],
   "description": "Page notes 100% grid independence and grid-forming solutions for large scale; SMA ShadeFix MPP tracking; single-phase inverters up to 4.6 kVA under German VDE-AR-N 4105 code. Detailed per-model data sheets linked but not read. Primary source: https://www.sma.de/en/products/solar-inverters",
   "specifications": [
     {

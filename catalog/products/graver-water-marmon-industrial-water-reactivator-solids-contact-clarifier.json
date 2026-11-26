@@ -3,9 +3,7 @@
   "name": "Reactivator Solids Contact Clarifier",
   "manufacturer": "graver-water-marmon-industrial-water",
   "product_type": "feedwater",
-  "equipment": [
-    "boiler-feedwater-pretreatment"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver 'Raw Water Pretreatment' page. Product line named in narrative text; no numeric specification table on this page. Primary source: https://graver.com/pretreatment/",
   "specifications": [
     {

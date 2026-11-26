@@ -3,9 +3,7 @@
   "name": "Wärtsilä 31SG gas engine",
   "manufacturer": "wartsila",
   "product_type": "engine",
-  "equipment": [
-    "gas-engine-prime-mover"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Used at Moomba 59 MW extension (5 units) per search-verified press release snippet. Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
   "specifications": [
     {

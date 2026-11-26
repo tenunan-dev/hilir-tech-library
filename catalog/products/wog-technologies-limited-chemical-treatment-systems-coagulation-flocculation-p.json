@@ -3,9 +3,7 @@
   "name": "Chemical Treatment Systems (coagulation/flocculation, pH neutralisation, oxidation, precipitation, dosing skids)",
   "manufacturer": "wog-technologies-limited",
   "product_type": "service",
-  "equipment": [
-    "boiler-chemical-cleaning-passivation"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full. IMPORTANT MAPPING CAVEAT: this page addresses industrial water/wastewater chemical treatment, not boiler chemical cleaning or passivation. No dedicated OEM boiler chemical cleaning/passivation product or spec sheet was read. GAP recorded. Primary source: https://woggroup.com/chemical-treatment-systems/",
   "specifications": [
     {
@@ -49,5 +47,5 @@
     }
   ],
   "notes": "Read in full. IMPORTANT MAPPING CAVEAT: this page addresses industrial water/wastewater chemical treatment, not boiler chemical cleaning or passivation. No dedicated OEM boiler chemical cleaning/passivation product or spec sheet was read. GAP recorded.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

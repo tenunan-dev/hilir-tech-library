@@ -3,9 +3,7 @@
   "name": "Sika ViscoCrete-1000 / SikaPlast-210 VX / Sika AIR",
   "manufacturer": "sika",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Page read for Sika AIR Primary source: https://usa.sika.com/en/construction-products/concrete/concrete-admixtures/durability-enhancement/air-entrainers/sika-air.html",
   "specifications": [
     {

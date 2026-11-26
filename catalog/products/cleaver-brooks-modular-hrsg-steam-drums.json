@@ -3,9 +3,7 @@
   "name": "Modular HRSG steam drums",
   "manufacturer": "cleaver-brooks",
   "product_type": "pressure-part",
-  "equipment": [
-    "steam-drum-boiler"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Modular HRSG product page directly with WebFetch (markdown). Steam drum is a subsystem; no standalone steam-drum product line found. Primary source: https://cleaverbrooks.com/product/modular-hrsg",
   "specifications": [
     {

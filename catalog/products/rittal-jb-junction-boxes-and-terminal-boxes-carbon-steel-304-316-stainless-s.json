@@ -3,9 +3,7 @@
   "name": "JB Junction Boxes and terminal boxes (carbon steel, 304/316 stainless steel), PK/GA/KX enclosure families",
   "manufacturer": "rittal",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-hoses-hydraulic-chemical-injection-mud-choke-and-kill-loading-c28966"
-  ],
+  "equipment": [],
   "description": "Catalogue page read in full (232 variants listed). The linked JB & WM Specification Guide PDF (with UL/cUL Type 1/3R/12/4/4X and 16 ga/1.5 mm figures) was seen in search results but WebFetch returned 'Unsupported fetched file content type: application/pdf' — those figures are NOT asserted as page-read. Primary source: https://www.rittal.com/us-en_US/products/PG20231215SCH101/PG20231215SCH201",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "Zeeco package burner combustion air fan",
   "manufacturer": "zeeco",
   "product_type": "fan",
-  "equipment": [
-    "fd-fan-boiler"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Industrial Burners page directly with WebFetch (markdown). No standalone fan model or fan curve printed. Primary source: https://www.zeeco.com/products/burners?hsLang=en",
   "specifications": [
     {

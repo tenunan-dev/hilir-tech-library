@@ -3,9 +3,7 @@
   "name": "SSCV Thialf",
   "manufacturer": "heerema-marine-contractors",
   "product_type": "ins-platform",
-  "equipment": [
-    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Built 1985; lifting draft 26.6 m. Primary source: https://www.heerema.com/heerema-marine-contractors/fleet",
   "specifications": [
     {

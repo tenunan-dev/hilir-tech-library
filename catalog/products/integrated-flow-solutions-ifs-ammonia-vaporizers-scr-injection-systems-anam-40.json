@@ -3,9 +3,7 @@
   "name": "Ammonia Vaporizers & SCR Injection Systems (ANAM-400 family, Cold/Hot AFCU)",
   "manufacturer": "integrated-flow-solutions-ifs",
   "product_type": "chemical-dosing",
-  "equipment": [
-    "scr-reagent-system"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: IFS Ammonia Vaporizers & SCR Injection Systems page. Ammonia Flow Control Unit (AFCU) provides injection control upstream of SCR. Storage/module capacities are the only numeric figures printed. Primary source: https://www.ifsolutions.com/products/scr-ammonia-system/",
   "specifications": [
     {

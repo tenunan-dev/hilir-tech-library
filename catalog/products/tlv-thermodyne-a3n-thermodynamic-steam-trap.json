@@ -3,9 +3,7 @@
   "name": "ThermoDyne A3N thermodynamic steam trap",
   "manufacturer": "tlv",
   "product_type": "steam-trap",
-  "equipment": [
-    "steam-traps-condensate-return"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: TLV en-us ThermoDyne A3N page. Primary source: https://www.tlv.com/en-us/products/steam-traps/thermodynamic/thermodyne",
   "specifications": [
     {

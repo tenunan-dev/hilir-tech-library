@@ -3,9 +3,7 @@
   "name": "Air Heaters & Recuperators",
   "manufacturer": "john-zink-koch-engineered-solutions",
   "product_type": "heat-exchanger",
-  "equipment": [
-    "air-preheater-boiler"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched John Zink Products page directly with WebFetch (markdown). This is a process air-heater/recuperator category, NOT a boiler air preheater; no standalone boiler air-preheater spec page was found. See gaps. Primary source: https://www.johnzink.com/products",
   "specifications": [
     {

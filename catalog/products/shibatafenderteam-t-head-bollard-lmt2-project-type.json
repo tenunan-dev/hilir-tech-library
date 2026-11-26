@@ -3,9 +3,7 @@
   "name": "T-head bollard (LMT2 project type)",
   "manufacturer": "shibatafenderteam",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Project-specific 37 units at Lumut LMT2; not a generic product range. Primary source: https://shibata-fender.team/en/news/news-detail/optimizing-the-fender-design-for-lmt2-at-port-of-lumut-malaysia.html",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "ComAp InteliSys 2000",
   "manufacturer": "comap",
   "product_type": "engine",
-  "equipment": [
-    "gas-engine-prime-mover"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Multi-ECU, Modbus master, 3 voltage sensing points Primary source: https://www.comap-control.com/products/controllers/paralleling-gen-set-controllers",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "Sacrificial anode range — zinc / aluminium / magnesium",
   "manufacturer": "cathodic-marine-engineering-pte-ltd",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. ASTM B-6 / B-521 / B-843; supplier-stated class approvals. Primary source: https://cathodicme.com/services/sacrificial-anodes-system",
   "specifications": [
     {

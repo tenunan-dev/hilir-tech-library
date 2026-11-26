@@ -3,9 +3,7 @@
   "name": "GREEN GRANULATION fluidised bed granulation",
   "manufacturer": "casale-sa",
   "product_type": "granulator",
-  "equipment": [
-    "urea-fluid-bed-granulator"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. For urea and ammonium nitrate. Primary source: https://www.casale.ch/technologies/urea/",
   "specifications": [
     {

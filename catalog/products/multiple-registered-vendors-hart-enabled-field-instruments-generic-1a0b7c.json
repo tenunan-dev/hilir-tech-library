@@ -3,9 +3,7 @@
   "name": "HART-enabled field instruments (generic)",
   "manufacturer": "multiple-registered-vendors-fieldcomm-group-registry",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. No specific model asserted. Primary source: https://www.fieldcommgroup.org/technologies/hart",
   "specifications": [
     {

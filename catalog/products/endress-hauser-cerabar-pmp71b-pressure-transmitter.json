@@ -3,9 +3,7 @@
   "name": "Cerabar PMP71B pressure transmitter",
   "manufacturer": "endress-hauser",
   "product_type": "ci-system",
-  "equipment": [
-    "ci-field-transmitters-pressure-temperature-flow-level"
-  ],
+  "equipment": [],
   "description": "Page read in full including Specifications tab. Cerabar PMP71B combines metal process diaphragm with Heartbeat Technology verification. Primary source: https://www.endress.com/en/field-instruments-overview/pressure/pressure-transmitter-cerabar-pmp71b?t.tabId=product-specification",
   "specifications": [
     {

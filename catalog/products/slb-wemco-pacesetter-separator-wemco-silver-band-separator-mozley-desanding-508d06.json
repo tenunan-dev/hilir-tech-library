@@ -3,9 +3,7 @@
   "name": "WEMCO PACESETTER Separator / WEMCO SILVER BAND Separator / MOZLEY Desanding Hydrocyclone Separator",
   "manufacturer": "slb-cameron-pressure-control-equipment",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Names only; no numeric data on the page. Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation",
   "specifications": [
     {
@@ -27,5 +25,5 @@
     }
   ],
   "notes": "Names only; no numeric data on the page.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

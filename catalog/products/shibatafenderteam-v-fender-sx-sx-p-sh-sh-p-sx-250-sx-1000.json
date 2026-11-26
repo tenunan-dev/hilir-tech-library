@@ -3,9 +3,7 @@
   "name": "V Fender SX / SX-P / SH / SH-P (SX 250 - SX 1000)",
   "manufacturer": "shibatafenderteam",
   "product_type": "jetty-civil",
-  "equipment": [
-    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. SX-P and SH-P embed a steel plate for UHMW-PE or steel panel mounting. Primary source: https://www.shibata-fender.team/en/products/rubber-fenders/v-fenders.html",
   "specifications": [
     {

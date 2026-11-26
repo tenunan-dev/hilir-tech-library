@@ -3,9 +3,7 @@
   "name": "CS WIND monopiles / transition pieces / jacket foundations",
   "manufacturer": "cs-wind-offshore",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-driven-precast-piles-concrete-steel-h-steel-pipe"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Also mounts external platforms, static anodes and dynamic ICCP. Primary source: https://www.cswoffshore.com/solutions/monopiles",
   "specifications": [
     {

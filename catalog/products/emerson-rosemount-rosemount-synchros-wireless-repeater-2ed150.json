@@ -3,9 +3,7 @@
   "name": "Rosemount Synchros Wireless Repeater",
   "manufacturer": "emerson-duplex-stainless-steel-option-on-roxar-2600-page-rea",
   "product_type": "ci-system",
-  "equipment": [
-    "ci-wirelesshart-industrial-wireless-mesh-024e52"
-  ],
+  "equipment": [],
   "description": "Page read in full; no numeric electrical or dimensional specification table was printed on this product page. Primary source: https://www.emerson.com/en/measurement-instrumentation/products/rosemount-synchros-wireless-repeater",
   "specifications": [
     {
@@ -38,5 +36,5 @@
     }
   ],
   "notes": "Page read in full; no numeric electrical or dimensional specification table was printed on this product page.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

@@ -3,9 +3,7 @@
   "name": "TEG Dehydration package",
   "manufacturer": "onesubsea-slb-aker-solutions-jv",
   "product_type": "tp-wellhead",
-  "equipment": [
-    "tp-oil-treatment-mechanical-heater-treaters-electrostatic-treater"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Primary source: https://www.specoilandgas.com/equipment/gas-conditioning/glycol-dehydration",
   "specifications": [
     {

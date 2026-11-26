@@ -3,9 +3,7 @@
   "name": "Howden hybrid reciprocating compressor (horizontal/vertical)",
   "manufacturer": "howden-a-chart-industries-company-kk-k-ckd-brands",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
-  ],
+  "equipment": [],
   "description": "Peter Brotherhood reciprocating compressors rated to 20MW and operating between 260 and 1,000 rpm also described on this page (text as printed). Primary source: https://www.chartindustries.com/Products/Compression-Reciprocating-and-Diaphragm-Compressor",
   "specifications": [
     {

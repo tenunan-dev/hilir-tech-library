@@ -22,65 +22,6 @@
       "low": 50,
       "high": 65,
       "source_url": "https://americansteelandaluminum.com/resources/materials/a992-steel"
-    },
-    {
-      "metric": "edition",
-      "unit": "n/a",
-      "basis": "Value as printed in the cited source; no further qualifier stated.",
-      "source": {
-        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
-        "source_id": "aws-org-d1-1"
-      },
-      "value": "25th edition, 2025 with 2026 amendment",
-      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-    },
-    {
-      "metric": "annexes",
-      "unit": "count",
-      "basis": "Value as printed in the cited source; no further qualifier stated.",
-      "source": {
-        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/",
-        "source_id": "aws-org-d1-1"
-      },
-      "value": "8 normative + 11 informative",
-      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-    },
-    {
-      "metric": "Standard designation",
-      "unit": "n/a",
-      "basis": "AWS D1.1/D1.1M:2025-AMD1 - Structural Welding Code-Steel, also called D1.1",
-      "source": {
-        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-      },
-      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-    },
-    {
-      "metric": "Original publication year",
-      "unit": "year",
-      "basis": "AWS D1.1/D1.1M:2025-AMD1 standard landing page, 'originally published in 1928 as the Code for Fusion Welding and Gas Cutting in Building Construction and called Code 1 Part A'",
-      "source": {
-        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-      },
-      "value": 1928,
-      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-    },
-    {
-      "metric": "Available formats",
-      "unit": "n/a",
-      "basis": "'Available in print and digital formats'",
-      "source": {
-        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-      },
-      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-    },
-    {
-      "metric": "Code scope",
-      "unit": "n/a",
-      "basis": "'the premier welding code of the American Welding Society' ... 'worldwide standard for welding structural steel'",
-      "source": {
-        "url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
-      },
-      "source_url": "https://www.aws.org/standards-and-publications/codes-and-standards/d1-1/"
     }
   ],
   "vendors": [

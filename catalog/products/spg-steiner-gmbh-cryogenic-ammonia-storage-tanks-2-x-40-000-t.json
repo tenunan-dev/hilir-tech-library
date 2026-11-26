@@ -3,9 +3,7 @@
   "name": "Cryogenic ammonia storage tanks (2 x 40,000 t)",
   "manufacturer": "spg-steiner-gmbh",
   "product_type": "ammonia-converter",
-  "equipment": [
-    "ammonia-synthesis-converter"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Development-stage contract. Primary source: https://research.csiro.au/hyresource/allied-green-ammonia/",
   "specifications": [
     {

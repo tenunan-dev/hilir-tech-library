@@ -67,50 +67,6 @@
       "source_url": "https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/"
     },
     {
-      "metric": "Umbilical types",
-      "unit": "n/a",
-      "basis": "Products page headings and captions.",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
-        "source_id": "cat-oceaneering-com"
-      },
-      "value": "Steel Tube Umbilicals; Thermoplastic Hose Umbilicals; Power Umbilicals; IWOCS Umbilicals",
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "Flying lead conduit",
-      "unit": "n/a",
-      "basis": "Hydraulic Flying Leads section: 'Combining a primary conduit section—typically steel tubes or thermoplastic hoses...'",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
-        "source_id": "cat-oceaneering-com"
-      },
-      "value": "Steel tubes or thermoplastic hoses; modular hydraulic, electro-hydraulic and hybrid designs",
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "Uta configuration",
-      "unit": "n/a",
-      "basis": "Subsea Umbilical Termination Assemblies section.",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
-        "source_id": "cat-oceaneering-com"
-      },
-      "value": "Modular components; configurable side panels for hydraulic, electrical and fiber optic connectivity",
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "Ancillary hardware",
-      "unit": "n/a",
-      "basis": "Topside Connection Hardware and Ancillary Equipment section.",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/",
-        "source_id": "cat-oceaneering-com"
-      },
-      "value": "Umbilical I- and J-Tube Seals; Pull-In and Hang Off Systems; Subsea Umbilical Termination Interfaces; Tie Back or Tie Down Collars; Subsea Umbilical Weak Links",
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
       "metric": "Power rating per connection",
       "unit": "kV",
       "basis": "Benefits callout: '66kV / Power rating per connection'",
@@ -197,61 +153,6 @@
       },
       "value": "Wet-mate-only cable connections; seabed-resident, reconnection without retrieval",
       "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
-    },
-    {
-      "metric": "Umbilical length delivered (as printed)",
-      "unit": "km",
-      "basis": "'We have delivered more than 0 km of subsea umbilical control systems' - figure printed as 0; retained verbatim as a conflict/likely placeholder",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "value": 0,
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "Product families",
-      "unit": "n/a",
-      "basis": "'Steel Tube umbilical', 'Thermoplastic umbilical', 'Power umbilical', 'IWOCS umbilical'",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "Junction plates",
-      "unit": "n/a",
-      "basis": "'M Series junction plates with fixed, configurable, and removable assemblies'",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "Flying leads",
-      "unit": "n/a",
-      "basis": "'Modular designs for hydraulic, electro-hydraulic, and hybrid applications'; 'primary conduit section—typically steel tubes or thermoplastic hoses'",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "UTA features",
-      "unit": "n/a",
-      "basis": "'Configurable side panels offer hydraulic, electrical, and fiber optic connectivity solutions'",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "Applications",
-      "unit": "n/a",
-      "basis": "'designed to support global deepwater applications'; 'array and export cables for the renewable energy market'",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "Connection type",
@@ -270,61 +171,6 @@
         "url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
       },
       "source_url": "https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-processing-systems/subsea-power-solutions/subsea-junction-box"
-    },
-    {
-      "metric": "Umbilical product types",
-      "unit": "families",
-      "basis": "Steel Tube Umbilicals, Thermoplastic Hose Umbilicals, Power Umbilicals, IWOCS Umbilicals listed",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "value": 4,
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "Steel tube umbilical function",
-      "unit": "n/a",
-      "basis": "\"Inherently strong solutions for hydraulic control and chemical injection\"",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "Power umbilical function",
-      "unit": "n/a",
-      "basis": "\"Integrated solutions providing electric power and communications to subsea infrastructure\"",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "IWOCS umbilical function",
-      "unit": "n/a",
-      "basis": "\"Providing temporary hydraulic connections, electrical power/control, and chemical supply\"",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "M Series junction plates",
-      "unit": "n/a",
-      "basis": "\"fixed, configurable, and removable assemblies ... support chemical injection by preventing well blockage, supply hydraulic power to open and close subsea mounted valves, and facilitate well annulus pressure monitoring\"; \"patented, and pre-threaded latch mating system\"",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-    },
-    {
-      "metric": "Hydraulic flying leads",
-      "unit": "n/a",
-      "basis": "\"Modular designs for hydraulic, electro-hydraulic, and hybrid applications; Bundled or extruded conduit sections; ROV-friendly\"",
-      "source": {
-        "url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
-      },
-      "source_url": "https://www.oceaneering.com/subsea-distribution-solutions/products/"
     },
     {
       "metric": "Configuration",

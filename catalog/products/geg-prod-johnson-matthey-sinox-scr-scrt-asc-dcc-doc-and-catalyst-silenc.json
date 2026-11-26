@@ -3,9 +3,7 @@
   "name": "Johnson Matthey SINOx® SCR, SCRT®, ASC, DCC™/DOC and catalyst-silencer systems",
   "manufacturer": "geg-vendor-unidentified",
   "product_type": "scr-diesel-oxidation-catalyst-package",
-  "equipment": [
-    "geg-diesel-oxidation-catalyst-and-scr-emission-control-system"
-  ],
+  "equipment": [],
   "description": "SCR / diesel oxidation catalyst package Primary source: https://matthey.com/documents/161599/1358970/Johnson+Matthey+solutions+for+power+generation+May+2021.pdf/70214546-a466-cf73-4c96-9faff04671da",
   "specifications": [
     {

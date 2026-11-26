@@ -3,9 +3,7 @@
   "name": "Orca/SeaCamel direct-weld LMU",
   "manufacturer": "orca-offshore-seacamel",
   "product_type": "ins-platform",
-  "equipment": [
-    "ins-float-over-topside-installation-barge-float-over-tidal-float-o"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Developed for LAM-E topside float-over. Primary source: https://www.orca-offshore.com/products/leg-mating-unit/",
   "specifications": [
     {

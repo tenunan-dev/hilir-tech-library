@@ -3,9 +3,7 @@
   "name": "Full-Flow Quick-Connects, QF series (QF4, QF8, QF12, QF16)",
   "manufacturer": "swagelok",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246"
-  ],
+  "equipment": [],
   "description": "Range values and filter facets printed on the HTML catalogue page; full pressure-temperature tables are in the linked PDF (not WebFetch-read). Primary source: https://products.swagelok.com/en/all-products/valves/quick-connects/full-flow-quick-connects/c/241?clp=true",
   "specifications": [
     {

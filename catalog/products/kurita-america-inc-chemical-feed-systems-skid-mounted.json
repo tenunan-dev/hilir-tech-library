@@ -3,9 +3,7 @@
   "name": "Chemical Feed Systems (skid-mounted)",
   "manufacturer": "kurita-america-inc",
   "product_type": "chemical-dosing",
-  "equipment": [
-    "boiler-chemical-dosing"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Kurita America Chemical Feed Systems solution page. Page also lists DReeM Polymer, Cetamine, Kuriverter IK110, PhosZero as related key products, but those pages were not read. Primary source: https://www.kuritaamerica.com/solutions/chemical-feed-systems",
   "specifications": [
     {

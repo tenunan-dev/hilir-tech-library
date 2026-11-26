@@ -3,9 +3,7 @@
   "name": "Bokalift 1",
   "manufacturer": "boskalis-dockwise-heritage",
   "product_type": "ins-platform",
-  "equipment": [
-    "ins-single-lift-topsides-jacket-installation-by-catamaran-ballast"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. DP2; converted 2017; 150 persons. Primary source: https://boskalis.com/about-us/fleet-and-equipment/offshore-vessels/heavy-lift-vessels",
   "specifications": [
     {

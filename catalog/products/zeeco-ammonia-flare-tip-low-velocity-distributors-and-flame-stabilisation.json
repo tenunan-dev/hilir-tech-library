@@ -3,9 +3,7 @@
   "name": "Ammonia flare tip (low-velocity, distributors and flame stabilisation)",
   "manufacturer": "zeeco",
   "product_type": "ammonia-converter",
-  "equipment": [
-    "ammonia-synthesis-converter"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. No numeric tip diameter or exit velocity published. Primary source: https://info.zeeco.com/hubfs/Zeeco-En_June_2020/pdf/Flaring-Up-World-Fertilizer.pdf?hsLang=en",
   "specifications": [
     {

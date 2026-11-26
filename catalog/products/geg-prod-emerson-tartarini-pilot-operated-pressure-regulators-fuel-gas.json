@@ -3,9 +3,7 @@
   "name": "Emerson Tartarini™ pilot-operated pressure regulators / fuel-gas supply station",
   "manufacturer": "geg-vendor-unidentified",
   "product_type": "fuel-gas-pressure-regulating-and-metering-station",
-  "equipment": [
-    "geg-gas-receiving-and-metering-station-with-hot-tap-and-fuel-gas-sup"
-  ],
+  "equipment": [],
   "description": "fuel gas pressure regulating and metering station Primary source: https://emerson.com/is/content/emerson/pt/final-control/pressure-management/common-applications/natural-gas-pressure-regulators/documents/fuel-gas-supply-system-for-gas-power-plants-white-paper-en-10975562.pdf",
   "specifications": [
     {

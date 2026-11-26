@@ -3,9 +3,7 @@
   "name": "Basiia AWWA D100 welded carbon steel water storage tanks (potable / fire water / industrial water)",
   "manufacturer": "geg-vendor-unidentified",
   "product_type": "atmospheric-steel-water-storage-tank-epc-scope",
-  "equipment": [
-    "geg-water-storage-tank-system"
-  ],
+  "equipment": [],
   "description": "atmospheric steel water storage tank, EPC scope Primary source: https://basiia.com/products/api-650-tanks",
   "specifications": [
     {

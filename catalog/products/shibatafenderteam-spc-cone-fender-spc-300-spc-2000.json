@@ -3,9 +3,7 @@
   "name": "SPC Cone Fender (SPC 300 - SPC 2000)",
   "manufacturer": "shibatafenderteam",
   "product_type": "jetty-civil",
-  "equipment": [
-    "jetty-rubber-fenders-cone-cell-element-and-v-arch-types-fixed-jett"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. No energy/reaction performance table on the HTML page; see downloadable Product Information SPC Fenders PDF. Primary source: https://www.shibata-fender.team/en/products/rubber-fenders/spc-cone-fenders.html",
   "specifications": [
     {

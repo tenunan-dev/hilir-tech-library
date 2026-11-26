@@ -3,9 +3,7 @@
   "name": "Senscient ELDS laser open-path ammonia detector",
   "manufacturer": "msa-safety",
   "product_type": "ammonia-converter",
-  "equipment": [
-    "ammonia-synthesis-converter"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Applications listed include fertilizer/chemical manufacturing plants, ammonia production units, green ammonia export hubs. Primary source: https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
   "specifications": [
     {
@@ -51,7 +49,7 @@
       },
       "low": 0,
       "high": 15000,
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Path lengths",
@@ -61,7 +59,7 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "value": "5-40m, 40-120m",
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Detection technology",
@@ -71,7 +69,7 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "value": "Enhanced Laser Diode Spectroscopy (ELDS) - patented, multi-point harmonic verification",
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Specificity",
@@ -81,7 +79,7 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "value": "Very specific to ammonia; immune to cross-interferents",
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Source life",
@@ -91,7 +89,7 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "value": "Long laser source life; non-consuming",
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Calibration",
@@ -101,7 +99,7 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "value": "No need for calibration",
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Weather immunity",
@@ -111,7 +109,7 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "value": "Unaffected by rain, fog, and snow",
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Cons",
@@ -121,7 +119,7 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "value": "Limited use for areas with dense installations; does not measure point concentration",
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Applications",
@@ -131,7 +129,7 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "value": "Large industrial sites incl. fertilizer and chemical manufacturing plants; ammonia production units with downstream storage or bunkering; green ammonia energy export hubs and maritime fuel terminals",
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "MSA product",
@@ -141,7 +139,7 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "value": "Senscient ELDS TM",
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     },
     {
       "metric": "Protection layers",
@@ -151,7 +149,7 @@
         "url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
       },
       "value": "Layer 1 ultrasonic leak detection; Layer 2 gas detection; Layer 3 flame detection",
-      "source_url": "https://r.jina.ai/https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
+      "source_url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf"
     }
   ],
   "url": "https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",

@@ -3,9 +3,7 @@
   "name": "Flowtork/Technip Energies refining & petrochemical loading arm range",
   "manufacturer": "trelleborg-marine-infrastructure",
   "product_type": "jetty-civil",
-  "equipment": [
-    "jetty-marine-shore-to-ship-loading-arms-and-transfer-systems"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. LNG 6-20 in; ATOL 20 in full bore; heat tracing/insulation/EasyDrive/automatic connection options. Primary source: https://flowtork.com/marine-loading-arms",
   "specifications": [
     {

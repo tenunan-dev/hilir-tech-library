@@ -3,9 +3,7 @@
   "name": "John Zink Flare Gas Recovery (FGR) systems",
   "manufacturer": "john-zink-company-llc-koch-engineered-solutions",
   "product_type": "cf-system",
-  "equipment": [
-    "cf-gas-export-reinforcement-centrifugal-compressor-train-integral-a5a9f5"
-  ],
+  "equipment": [],
   "description": "Custom-engineered; includes liquid seals/deep liquid seals for air backflow prevention, compression technology evaluation (ejectors considered), flare gas sweetening for H2S. No numeric capacity printed on the page read. Primary source: https://www.johnzink.com/products/flare-gas-recovery",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "Menck MHU3500S",
   "manufacturer": "menck-acteon-sale-to-cadeler-announced-2026",
   "product_type": "sub-platform",
-  "equipment": [
-    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. O&G and renewables. Primary source: https://acteon.com/solutions/project-lifecycle/offshore-construction/integrated-marine-foundation-installation-services/hydraulic-hammers",
   "specifications": [
     {

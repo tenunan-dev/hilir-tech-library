@@ -3,9 +3,7 @@
   "name": "IQIP Hydrohammer IQ-series / S-series / SW-series",
   "manufacturer": "iqip",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-driven-precast-piles-concrete-steel-h-steel-pipe"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. >5.5 million piles installed; >97% availability stated. Primary source: https://iqip.com/products/pile-driving-equipment/hydrohammer",
   "specifications": [
     {

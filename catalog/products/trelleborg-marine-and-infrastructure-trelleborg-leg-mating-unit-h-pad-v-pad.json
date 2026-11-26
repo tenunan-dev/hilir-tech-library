@@ -3,9 +3,7 @@
   "name": "Trelleborg Leg Mating Unit (H-pad / V-pad)",
   "manufacturer": "trelleborg-marine-and-infrastructure",
   "product_type": "sub-platform",
-  "equipment": [
-    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Steel structure + elastomeric pads; project-specific design and testing. Primary source: https://www.trelleborg.com/en/marine-and-infrastructure/products-solutions-and-services/marine/topside-operations/floatover/leg-mating-units-(lmu)",
   "specifications": [
     {

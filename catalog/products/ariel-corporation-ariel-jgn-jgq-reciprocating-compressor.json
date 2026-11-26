@@ -3,9 +3,7 @@
   "name": "Ariel JGN/JGQ reciprocating compressor",
   "manufacturer": "ariel-corporation-with-hoerbiger",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Gas lift and CNG duty Primary source: https://www.arielcorp.com/compressors/compressor-landing-page/jgn-jgq.html",
   "specifications": [
     {

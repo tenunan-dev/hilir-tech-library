@@ -70,27 +70,6 @@
       },
       "value": "falling-film",
       "source_url": "https://en.wikipedia.org/w/index.php?title=Urea&action=raw&section=27"
-    },
-    {
-      "metric": "outside diameter stocked",
-      "unit": "mm",
-      "basis": "UreaKnowHow news item: one-week delivery for critical heat exchanger needs",
-      "source": {
-        "url": "https://ureaknowhow.com/",
-        "source_id": "ureaknowhow-com-ureaknowhow-com"
-      },
-      "value": "19.05 mm and 25.4 mm",
-      "source_url": "https://ureaknowhow.com/"
-    },
-    {
-      "metric": "Sanicro 35 heat exchanger tube - stocked outside diameters",
-      "unit": "n/a",
-      "basis": "UreaKnowHow.com homepage, Solution Providers News item 'ALLEIMA - One-Week delivery for critical Heat Exchanger needs' (news dated November 2026 on retrieved page)",
-      "source": {
-        "url": "https://ureaknowhow.com/"
-      },
-      "value": "19.05 mm and 25.4 mm OD (Sanicro(R) 35 heat exchanger tubes now stocked)",
-      "source_url": "https://ureaknowhow.com/"
     }
   ],
   "vendors": [

@@ -3,9 +3,7 @@
   "name": "Max-Fire HRSG superheater (optional)",
   "manufacturer": "cleaver-brooks",
   "product_type": "heat-exchanger",
-  "equipment": [
-    "superheater-boiler"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Max-Fire product page directly with WebFetch (markdown). Superheater is listed as an applicable HRSG component, not a standalone product. Primary source: https://cleaverbrooks.com/product/max-fire-series",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "Ariel KBH hydrogen reciprocating compressor",
   "manufacturer": "ariel-corporation-with-hoerbiger",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
-  ],
+  "equipment": [],
   "description": "Vertically oriented, non-lubricated cylinders for gas purity; page claims 500 bar discharge at 250 kg/h means 1 KBH does the work of 5-6 leading diaphragm style compressors. Linked KBH product sheet is a PDF (not read). Primary source: https://www.arielcorp.com/compressors/kbh.html",
   "specifications": [
     {

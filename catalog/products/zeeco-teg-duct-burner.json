@@ -3,9 +3,7 @@
   "name": "teg+ Duct Burner",
   "manufacturer": "zeeco",
   "product_type": "burner",
-  "equipment": [
-    "duct-burner-hrsg"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Zeeco Power Burners page directly with WebFetch (markdown). Same page also describes register-style and PDH air heater duct burners. Primary source: https://www.zeeco.com/products/burners/power-burners?hsLang=en",
   "specifications": [
     {

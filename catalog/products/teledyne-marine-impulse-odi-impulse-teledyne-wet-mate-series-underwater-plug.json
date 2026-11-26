@@ -3,9 +3,7 @@
   "name": "Impulse / Teledyne Wet Mate Series underwater pluggable connectors (IE2-BC, IERD2-BC, IESQ4-BC, IE4-BC, IE6/8 BC, IEB2, IEB6/8, IE31-BC, IE3",
   "manufacturer": "teledyne-marine-impulse-odi",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-connectors-subsea-wet-mate-dry-mate-quick-flange-clamp-electri-a9a246"
-  ],
+  "equipment": [],
   "description": "Table read from HTML page. A separate Teledyne Nautilus WM1.7-60 HTML page returned only the header under WebFetch and is treated as search-verified only. Primary source: https://www.teledynemarine.com/brands/impulse/underwater-pluggable-connectors",
   "specifications": [
     {

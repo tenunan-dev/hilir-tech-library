@@ -3,9 +3,7 @@
   "name": "ROTAMAC fire fighting pumps and complete pre-packaged fire systems (NFPA-20)",
   "manufacturer": "geg-vendor-unidentified",
   "product_type": "diesel-electric-driven-fire-pump-packages-split-ca",
-  "equipment": [
-    "geg-fire-fighting-system"
-  ],
+  "equipment": [],
   "description": "diesel/electric driven fire pump packages, split case, end suction, inline, multistage, vertical turbine, jockey Primary source: https://rotamac.co.th/uploads/7430/files/APPLICATIONS/03%20FIRE%20FIGHTING%20PUMPS.pdf",
   "specifications": [
     {

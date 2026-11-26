@@ -3,9 +3,7 @@
   "name": "Wärtsilä 46TS-SG gas engine",
   "manufacturer": "wartsila",
   "product_type": "engine",
-  "equipment": [
-    "gas-engine-prime-mover"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Selected for the 300 MW / 13-engine Australian plant (press release page_read:true). Primary source: https://www.wartsila.com/energy/engine-power-plant-solutions/flexible-baseload-power-plants/data-center-power-solutions",
   "specifications": [
     {

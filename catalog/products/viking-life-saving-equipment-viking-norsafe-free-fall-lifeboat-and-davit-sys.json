@@ -3,9 +3,7 @@
   "name": "VIKING Norsafe free-fall lifeboat and davit systems",
   "manufacturer": "viking-life-saving-equipment",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Also VNJY 40/52-person compact enclosed lifeboats. Primary source: https://www.viking-life.com/product-insights",
   "specifications": [
     {

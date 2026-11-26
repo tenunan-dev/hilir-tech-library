@@ -3,9 +3,7 @@
   "name": "Compact three-phase separator / high-efficiency phase separation internals",
   "manufacturer": "slb-cameron-pressure-control-equipment",
   "product_type": "tp-wellhead",
-  "equipment": [
-    "tp-flare-and-vent-system-flare-stack-boom-flare-tips-ko-drums-gas"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Internals used in scrubbers, 2-/3-phase separators, FWKO, flare KO drums, contactor towers, slug catchers (brochure search-verified). Primary source: https://www.slb.com/products-and-services/innovating-in-oil-and-gas/well-production/processing-and-separation/gas-treatment/high-efficiency-phase-separation-internals",
   "specifications": [
     {

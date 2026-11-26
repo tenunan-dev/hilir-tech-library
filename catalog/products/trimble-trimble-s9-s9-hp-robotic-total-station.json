@@ -3,9 +3,7 @@
   "name": "Trimble S9 / S9 HP robotic total station",
   "manufacturer": "trimble",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Page read Primary source: https://geospatial.trimble.com/en/products/hardware/trimble-s9",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "DuraFlex composite spoolable pipe, Series 500",
   "manufacturer": "nov-bondstrand",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-pipelines-and-flowlines-rigid-flexible-pipe-in-pipe-heated-tru"
-  ],
+  "equipment": [],
   "description": "API 15S licensed facility per printed page. Sizes 3, 4 and 6 in on this page; a linked 2021 flyer mentions 8 in and 750 psi but that PDF was not WebFetch-verified. Primary source: https://www.nov.com/products/duraflex",
   "specifications": [
     {

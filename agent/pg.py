@@ -859,6 +859,18 @@ def search_vector_count() -> int:
     return _execute(work)
 
 
+def has_vectors() -> bool:
+    """Cheap probe for "is this database able to search semantically at all?" — one existential
+    check on the passages, which carry the bulk of the embeddings. False ⇒ keyword-only ranking
+    (the MCP search says so per row, and library_stats reports it)."""
+
+    def work(cur):
+        cur.execute("SELECT EXISTS (SELECT 1 FROM chunk WHERE embedding IS NOT NULL)")
+        return bool(cur.fetchone()[0])
+
+    return _execute(work)
+
+
 def drift_stamp() -> dict:
     """The data version (R4): row counts, the vector total and the freshest review/verify dates,
     so frontend/backend/data agreement is visible at a glance via /api/version."""

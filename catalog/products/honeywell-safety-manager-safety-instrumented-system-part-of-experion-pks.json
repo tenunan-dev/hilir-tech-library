@@ -3,9 +3,7 @@
   "name": "Safety Manager (Safety Instrumented System, part of Experion PKS)",
   "manufacturer": "honeywell",
   "product_type": "ci-system",
-  "equipment": [
-    "ci-field-transmitters-pressure-temperature-flow-level"
-  ],
+  "equipment": [],
   "description": "Page read in full including Specifications tab and part-number list. Universal Safety I/O allows remote I/O in hazardous locations, reducing marshalling cabinets/home-run cables/junction boxes. Primary source: https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
   "specifications": [
     {

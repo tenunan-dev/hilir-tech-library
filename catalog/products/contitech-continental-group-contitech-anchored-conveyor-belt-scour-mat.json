@@ -3,9 +3,7 @@
   "name": "ContiTech anchored conveyor-belt scour mat",
   "manufacturer": "contitech-continental-group",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Tested at Deltares under simulated extreme storms/streams. Primary source: https://www.offshorewind.biz/2015/03/30/subsea-protection-protection-solutions-against-scouring",
   "specifications": [
     {
@@ -38,5 +36,5 @@
     }
   ],
   "notes": "Tested at Deltares under simulated extreme storms/streams.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

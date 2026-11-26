@@ -3,9 +3,7 @@
   "name": "Mecc Alte ECO43 / ECO46 / ECO47 / ECO49",
   "manufacturer": "mecc-alte",
   "product_type": "engine",
-  "equipment": [
-    "gas-engine-prime-mover"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Brushless synchronous, DER2 digital AVR, class H insulation, IC01 cooling Primary source: https://www.meccalte.com/en/products/alternators/power-products-mvhv",
   "specifications": [
     {

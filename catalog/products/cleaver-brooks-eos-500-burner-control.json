@@ -3,9 +3,7 @@
   "name": "EOS 500 Burner Control",
   "manufacturer": "cleaver-brooks",
   "product_type": "controls",
-  "equipment": [
-    "burner-management-safety-system"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Boiler Controls catalog listing directly with WebFetch (text). No dedicated EOS 500 spec page opened. Primary source: https://cleaverbrooks.com/catalog/controls/boiler-controls",
   "specifications": [
     {
@@ -38,5 +36,5 @@
     }
   ],
   "notes": "Fetched Boiler Controls catalog listing directly with WebFetch (text). No dedicated EOS 500 spec page opened.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

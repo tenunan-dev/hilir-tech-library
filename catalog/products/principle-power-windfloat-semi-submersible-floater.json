@@ -3,9 +3,7 @@
   "name": "WindFloat semi-submersible floater",
   "manufacturer": "principle-power",
   "product_type": "sub-platform",
-  "equipment": [
-    "sub-barge-based-platforms-pontoons-and-floaters"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. page_read=true via Wikipedia; vendor site not fetched Primary source: https://en.wikipedia.org/wiki/Floating_offshore_wind",
   "specifications": [
     {

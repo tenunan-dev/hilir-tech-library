@@ -18,19 +18,7 @@
     "7-unit gas engine generator plant",
     "SESB 132/33/11 kV grid connection"
   ],
-  "specifications": [
-    {
-      "metric": "WBS line item",
-      "value": "Chemical /Urea Storage (reinforced concrete 15x9x7)",
-      "unit": "n/a",
-      "basis": "Line item from the GEG plant WBS/BOQ; no sourced numeric specification found.",
-      "source": {
-        "url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409",
-        "note": "Work package supplied by owner; not a technical source."
-      },
-      "source_url": "https://chat.mistral.ai/work/f3d6e0b2-e4f6-443b-bd20-129433cf8409"
-    }
-  ],
+  "specifications": [],
   "vendor_models": [],
   "vendors": [
     "geg-vendor-unidentified"
@@ -86,5 +74,5 @@
     }
   ],
   "notes": "Analysed core item from the owner-supplied equipment/facilities list for a 7-unit gas-engine power plant. Evidence categories present: sources, specifications, vendors. Checked for prices, projects, standards, patents, drawings and materials; where absent the gaps record says so.",
-  "last_reviewed": "2026-11-25"
+  "last_reviewed": "2026-11-26"
 }

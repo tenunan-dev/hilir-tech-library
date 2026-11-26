@@ -3,9 +3,7 @@
   "name": "Selective Catalytic Reduction (SCR) Systems",
   "manufacturer": "john-zink-koch-engineered-solutions",
   "product_type": "emissions-control",
-  "equipment": [
-    "scr-nox-control-boiler"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched product page directly with WebFetch (markdown). Primary source: https://www.johnzink.com/products/powerburners/selective-catalytic-reduction-scr-systems",
   "specifications": [
     {

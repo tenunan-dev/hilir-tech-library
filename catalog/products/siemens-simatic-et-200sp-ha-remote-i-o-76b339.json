@@ -3,9 +3,7 @@
   "name": "SIMATIC ET 200SP HA remote I/O",
   "manufacturer": "siemens",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Primary source: https://www.siemens.com/global/en/products/automation/process-control/simatic-pcs-7.html",
   "specifications": [
     {

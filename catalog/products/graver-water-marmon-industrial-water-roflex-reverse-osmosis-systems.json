@@ -3,9 +3,7 @@
   "name": "ROFlex Reverse Osmosis Systems",
   "manufacturer": "graver-water-marmon-industrial-water",
   "product_type": "water-treatment",
-  "equipment": [
-    "boiler-makeup-ro-edi"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver ROFlex RO Systems page. Also links a data sheet PDF (Graver_DataSheet_ROFlex_2020.pdf) which was not fetched. Primary source: https://graver.com/makeup/ro/",
   "specifications": [
     {

@@ -25,48 +25,6 @@
       "unit": "qualitative",
       "value": "tubular and regenerative air heaters",
       "source_url": "https://www.babcock.com/home/products/air-heaters"
-    },
-    {
-      "metric": "Function",
-      "basis": "John Zink Products page product card for Air Heaters & Recuperators",
-      "source": {
-        "url": "https://www.johnzink.com/products",
-        "source_id": "johnzink-com-products"
-      },
-      "unit": "qualitative",
-      "value": "Advanced combustion solutions for indirect-fired process gas heating applications",
-      "source_url": "https://www.johnzink.com/products"
-    },
-    {
-      "metric": "Characteristics",
-      "basis": "John Zink Products page product card",
-      "source": {
-        "url": "https://www.johnzink.com/products",
-        "source_id": "johnzink-com-products"
-      },
-      "unit": "qualitative",
-      "value": "Clean air contact with products and high efficiency in heat transfer",
-      "source_url": "https://www.johnzink.com/products"
-    },
-    {
-      "metric": "Product description",
-      "unit": "n/a",
-      "basis": "John Zink's air heaters and recuperators are advanced combustion solutions designed for indirect-fired process gas heating applications, ensuring clean air contact with products and high efficiency in heat transfer.",
-      "source": {
-        "url": "https://www.johnzink.com/products"
-      },
-      "value": "advanced combustion solutions designed for indirect-fired process gas heating applications, ensuring clean air contact with products and high efficiency in heat transfer",
-      "source_url": "https://www.johnzink.com/products"
-    },
-    {
-      "metric": "Related waste gas destruction efficiency",
-      "unit": "%",
-      "basis": "John Zink provides a range of solutions for destroying waste gases, including methane and non-methane organic compounds (NMOCs), with up to 98% destruction efficiencies.",
-      "source": {
-        "url": "https://www.johnzink.com/products"
-      },
-      "high": 98,
-      "source_url": "https://www.johnzink.com/products"
     }
   ],
   "vendors": [

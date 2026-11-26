@@ -3,9 +3,7 @@
   "name": "UREMIUM 29",
   "manufacturer": "casale-sa",
   "product_type": "granulator",
-  "equipment": [
-    "urea-fluid-bed-granulator"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Proprietary metallurgy; composition not disclosed on read page. Primary source: https://www.casale.ch/technologies/urea/",
   "specifications": [
     {
@@ -27,5 +25,5 @@
     }
   ],
   "notes": "Proprietary metallurgy; composition not disclosed on read page.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

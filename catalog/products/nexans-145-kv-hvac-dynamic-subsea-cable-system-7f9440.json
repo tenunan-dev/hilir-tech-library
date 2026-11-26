@@ -3,9 +3,7 @@
   "name": "145 kV HVAC dynamic subsea cable system",
   "manufacturer": "nexans",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing-542b1e"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Power cable for subsea gas compression; not a hydraulic umbilical. Primary source: https://www.nexans.com/news/jansz-io-nexans-aurora-completes-subsea-cable-installation/",
   "specifications": [
     {

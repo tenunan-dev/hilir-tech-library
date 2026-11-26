@@ -3,9 +3,7 @@
   "name": "Carboline Thermo-Lag 3000-P / 3000-SP",
   "manufacturer": "carboline",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Page read; film build 2–4 mm from search-verified PDS Primary source: https://www.carboline.com/products/product-details/Thermo-Lag-3000-P",
   "specifications": [
     {

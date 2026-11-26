@@ -3,9 +3,7 @@
   "name": "Cummins diesel generator sets",
   "manufacturer": "cummins",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. 50/60 Hz; Quiet and Standard ranges Primary source: https://www.cummins.com/en-apac/generators/diesel",
   "specifications": [
     {

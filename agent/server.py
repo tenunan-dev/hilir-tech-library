@@ -128,15 +128,44 @@ def db():
     return _db
 
 
+# The last Neon failure a tool swallowed on its way to the baked index. Reported by
+# library_stats (finding F4, 2026-11-26: a client saw `vectors: 0` with no explanation and read
+# the keyword-only result as "the library has nothing"), never raised.
+_FALLBACK = {"reason": None}
+
+
+def _record_fallback(exc: BaseException | None = None, reason: str | None = None):
+    if reason:
+        _FALLBACK["reason"] = reason
+    elif exc is not None:
+        _FALLBACK["reason"] = f"{type(exc).__name__}: {exc}"[:300]
+
+
+def _semantic_backend() -> bool:
+    """Does the backend serving this call hold embeddings? False ⇒ search is keyword-only."""
+    if pg.configured():
+        try:
+            return pg.has_vectors()
+        except (pg.NotConfigured, pg.DatabaseError) as exc:
+            _record_fallback(exc)
+    try:
+        return bool(db().execute("SELECT 1 FROM vectors LIMIT 1").fetchone())
+    except Exception:
+        return False
+
+
 def _with_neon(pg_call, fallback):
     """Decision #34: Neon is the live data layer — a publish shows up in the tools without a
     deploy. The baked SQLite index is the automatic fallback (no database configured, or the
-    database unreachable)."""
+    database unreachable); the reason is kept for library_stats so a degraded answer is never
+    silent."""
     if pg.configured():
         try:
             return pg_call()
-        except (pg.NotConfigured, pg.DatabaseError):
-            pass
+        except (pg.NotConfigured, pg.DatabaseError) as exc:
+            _record_fallback(exc)
+    else:
+        _record_fallback(reason="DATABASE_URL is not configured")
     return fallback()
 
 
@@ -172,7 +201,11 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
     Rows are lean summaries whose extra fields vary by kind (vendors carry roles, projects carry
     status and capacities; a "gaps" count or "stub": true marks a recorded data gap — see
     get_* / list_gaps); an empty result can mean a wrong code or a real gap — follow the get_*
-    tools for the full record, and do not read one empty page as "nothing exists"."""
+    tools for the full record, and do not read one empty page as "nothing exists". A row carrying
+    `"search_mode": "keyword-only"` means the index serving you holds no embeddings — the ranking
+    is literal keywords for that call, not the usual concept-aware hybrid; library_stats() says
+    which backend answered and why.
+    """
     # Decision #34: with a database configured, search runs on Neon (single source of truth —
     # a publish shows up here without a deploy); the SQLite index is the fallback. All filters
     # are honoured on both paths, and passages of full-text-restricted documents never surface
@@ -182,9 +215,11 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
             import embed as embed_module
             embedder = embed_module.load_embedder(db())
             qvec = list(embedder([query])[0]) if embedder else _query_vector(query)
-            return pg.search_library(query, kind, sector, min(limit, 50), qvec, discipline, region, reuse_level)
-        except (pg.NotConfigured, pg.DatabaseError):
-            pass
+            rows = pg.search_library(query, kind, sector, min(limit, 50), qvec, discipline, region,
+                                     reuse_level)
+            return _mark_search_mode(rows)
+        except (pg.NotConfigured, pg.DatabaseError) as exc:
+            _record_fallback(exc)
     database = db()
     # Local fastembed first (_embedder); the hosted container has none, so it asks the
     # edge /__embed service for the query vector instead (decision #32).
@@ -195,8 +230,18 @@ def search(query: str, kind: str = "all", sector: str | None = None, discipline:
             qvec = embed_client.query_vector(query)
         except Exception:
             qvec = None
-    return library.search(query, kind, sector, discipline, region, reuse_level, min(limit, 50), database,
+    rows = library.search(query, kind, sector, discipline, region, reuse_level, min(limit, 50), database,
                           _embedder or None, EXCLUDE_RESTRICTED, query_vector=qvec)
+    return _mark_search_mode(rows)
+
+
+def _mark_search_mode(rows: list[dict]) -> list[dict]:
+    """Say plainly when the ranking was keyword-only (finding F4, 2026-11-26)."""
+    if not rows or _semantic_backend():
+        return rows
+    for row in rows:
+        row["search_mode"] = "keyword-only"
+    return rows
 
 
 def _query_vector(query: str):
@@ -506,15 +551,37 @@ def library_stats() -> dict:
     and projects — the freshness check: compare against what you expect after a publish. `documents`
     counts distinct source documents (one per source url, so no copies). On a Neon-backed server the
     numbers are live; on the baked-index fallback documents exclude full-text-restricted sources and
-    vectors may be absent."""
+    vectors may be absent. `backend` says which one answered ("neon" or "sqlite-fallback"),
+    `semantic_search` is false when that backend holds no embeddings (search is keyword-only), and on
+    the fallback a `note` and `fallback_reason` say why — a zero `vectors` is never left unexplained.
+    """
     # Neon first (decision #34): the container's baked index is the offline fallback and holds
     # no embeddings, so without this the MCP number disagreed with REST /api/stats.
     if pg.configured():
         try:
-            return pg.library_stats()
-        except (pg.NotConfigured, pg.DatabaseError):
-            pass
-    return library.stats(db())
+            out = pg.library_stats()
+            out["backend"] = "neon"
+            out["semantic_search"] = _semantic_backend()
+            return out
+        except (pg.NotConfigured, pg.DatabaseError) as exc:
+            _record_fallback(exc)
+    else:
+        _record_fallback(reason="DATABASE_URL is not configured")
+    out = library.stats(db())
+    out["backend"] = "sqlite-fallback"
+    out["semantic_search"] = bool(out.get("vectors"))
+    if out["semantic_search"]:
+        out["note"] = ("Neon did not answer, so these counts come from the baked index, which can "
+                       "lag the live catalogue and holds open documents only (full-text-restricted "
+                       "ones are absent). Retry before treating a zero as real.")
+    else:
+        out["note"] = ("Neon did not answer, so these counts come from the baked index: open "
+                       "documents only (full-text-restricted ones are absent) and no embeddings — "
+                       "search is keyword-only. The numbers can lag the live catalogue; retry "
+                       "before treating a zero as real.")
+    if _FALLBACK["reason"]:
+        out["fallback_reason"] = _FALLBACK["reason"]
+    return out
 
 
 @server.tool()

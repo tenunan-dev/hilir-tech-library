@@ -3,9 +3,7 @@
   "name": "Nutshell Filters",
   "manufacturer": "spec-oil-gas-technologies-fabricator",
   "product_type": "wh-wellhead",
-  "equipment": [
-    "wh-fixed-jacket-wellhead-platform"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Primary source: https://www.specoilandgas.com/equipment/produced-water-treatment/nutshell-filters",
   "specifications": [
     {

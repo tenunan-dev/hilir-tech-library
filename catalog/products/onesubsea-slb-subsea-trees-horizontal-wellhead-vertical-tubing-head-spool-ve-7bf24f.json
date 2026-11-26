@@ -3,9 +3,7 @@
   "name": "Subsea trees (horizontal, wellhead vertical, tubing head spool vertical)",
   "manufacturer": "onesubsea-slb-aker-solutions-jv",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-christmas-trees-surface-and-subsea-dual-bore-horizontal-mudlin"
-  ],
+  "equipment": [],
   "description": "A 'Standard Vertical Subsea Trees' brochure URL was found in search but the PDF was not fetched; no figures from that brochure are asserted. Primary source: https://www.onesubsea.slb.com/products-and-services/subsea-field-development/subsea-production-systems/subsea-trees",
   "specifications": [
     {

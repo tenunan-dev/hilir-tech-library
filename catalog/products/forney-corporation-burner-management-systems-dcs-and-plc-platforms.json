@@ -3,9 +3,7 @@
   "name": "Burner Management Systems (DCS and PLC platforms)",
   "manufacturer": "forney-corporation",
   "product_type": "controls",
-  "equipment": [
-    "burner-management-safety-system"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched BMS page directly with WebFetch (markdown). Linked BMS brochure PDF not opened. Primary source: https://www.forneycorp.com/burner-management-systems",
   "specifications": [
     {

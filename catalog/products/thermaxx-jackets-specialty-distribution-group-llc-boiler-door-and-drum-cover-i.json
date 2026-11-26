@@ -3,9 +3,7 @@
   "name": "Boiler Door and Drum Cover Insulation Jackets",
   "manufacturer": "thermaxx-jackets-specialty-distribution-group-llc",
   "product_type": "insulation",
-  "equipment": [
-    "boiler-insulation-heat-loss"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Thermaxx Boiler Door Insulation Covers page. Page explicitly warns not to add insulation to certain Cleaver-Brooks models (CBR, CBLE, CB, CBEX, CBEXDP). Primary source: https://www.thermaxxjackets.com/products/hot-pipe-valve-equipment-insulation/boiler-insulation/",
   "specifications": [
     {

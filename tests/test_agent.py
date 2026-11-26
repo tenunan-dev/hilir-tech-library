@@ -378,11 +378,46 @@ def test_mcp_library_stats_prefers_neon(monkeypatch):
     server = pytest.importorskip("server")
     monkeypatch.setattr(pg, "configured", lambda: True)
     monkeypatch.setattr(pg, "library_stats", lambda: {"sources": 399, "vectors": 12586})
-    assert server.library_stats() == {"sources": 399, "vectors": 12586}
+    monkeypatch.setattr(pg, "has_vectors", lambda: True)
+    assert server.library_stats() == {"sources": 399, "vectors": 12586,
+                                      "backend": "neon", "semantic_search": True}
     monkeypatch.setattr(pg, "configured", lambda: False)
     monkeypatch.setattr(library, "stats", lambda db=None: {"sources": 1})
     monkeypatch.setattr(server, "db", lambda: None)
-    assert server.library_stats() == {"sources": 1}
+    out = server.library_stats()
+    assert (out["sources"], out["backend"], out["semantic_search"]) == (1, "sqlite-fallback", False)
+
+
+def test_mcp_library_stats_explains_a_zero_vector_fallback(monkeypatch):
+    """Finding F4 (2026-11-26): a client saw `vectors: 0` from the baked index and read the
+    keyword-only search as "the library holds nothing". The reply now says which backend answered,
+    that search is keyword-only, and why Neon did not."""
+    import pg
+    server = pytest.importorskip("server")
+    monkeypatch.setattr(pg, "configured", lambda: True)
+
+    def boom():
+        raise pg.DatabaseError("database unreachable (test)")
+    monkeypatch.setattr(pg, "library_stats", boom)
+    monkeypatch.setattr(library, "stats", lambda db=None: {"sources": 2369, "vectors": 0})
+    monkeypatch.setattr(server, "db", lambda: None)
+    out = server.library_stats()
+    assert out["backend"] == "sqlite-fallback"
+    assert out["semantic_search"] is False
+    assert "keyword-only" in out["note"]
+    assert "database unreachable (test)" in out["fallback_reason"]
+
+
+def test_mcp_search_marks_a_keyword_only_index(monkeypatch):
+    """The per-row `search_mode` is only added when the backend holds no embeddings."""
+    server = pytest.importorskip("server")
+    monkeypatch.setattr(server, "_semantic_backend", lambda: False)
+    rows = server._mark_search_mode([{"ref": "a", "kind": "source"}])
+    assert rows[0]["search_mode"] == "keyword-only"
+    monkeypatch.setattr(server, "_semantic_backend", lambda: True)
+    rows = server._mark_search_mode([{"ref": "a", "kind": "source"}])
+    assert "search_mode" not in rows[0]
+    assert server._mark_search_mode([]) == []
 
 
 def test_mcp_get_tools_read_neon_first_and_fall_back(monkeypatch):

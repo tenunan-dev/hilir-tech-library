@@ -143,6 +143,12 @@ the original OEM datasheet/catalogue pages for that class. Open those URLs as pr
 quoting a limit; a parameter's `basis` states the printed qualifier and `source.url` is the page it
 came from.
 
+A class's specifications are **its own** — every one comes from a page that record cites. A figure
+read for a vendor product stays on that product record; a class whose sources printed no parameter
+carries `"specifications": []` and a gap saying what is missing rather than a borrowed number
+(decision 44, after the 2026-11-26 health check found a Risers record quoting a PV module's
+efficiency). `gaps` on such a record is the answer, not a defect.
+
 **`list_projects(status=None, sector=None, country=None, query=None)`** / **`get_project(project_id)`**
 Named plants and projects: `status` (proposed, FID, under-construction, commissioning, operating,
 suspended, decommissioned), `country`, `capacities[]`, `owners[]`, `contractors[]`, `offtakers[]`,
@@ -213,7 +219,12 @@ lives.
 ### Data layer
 
 **`library_stats()`** — counts (sources, documents, chunks, technologies, vendors, equipment,
-projects, vectors), Neon first, baked index as fallback.
+projects, vectors), Neon first, baked index as fallback. It also says **which** backend answered and
+whether that backend can search semantically: `backend` (`"neon"` or `"sqlite-fallback"`),
+`semantic_search` (false ⇒ keyword-only ranking), and on the fallback a `note` plus
+`fallback_reason`. A `vectors: 0` is therefore never left for the reader to interpret — the 2026-11-26
+health check saw exactly that and read the keyword-only result as "the library holds nothing"
+(finding F4). `search` repeats the fact per row as `"search_mode": "keyword-only"` when it applies.
 
 **`sql_query(sql, max_rows=100)`** — one read-only `SELECT`/`WITH` against Postgres schema `og`, for
 questions the tools do not express (joins across `technology`, `technology_figure`, `vendor`,

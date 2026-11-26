@@ -3,9 +3,7 @@
   "name": "LONGi Hi-MO 9 PV modules (LR7-72HYD, LR8-66HYD; LR7-72HYD-635M to 660M)",
   "manufacturer": "longi-green-energy-technology-co-ltd",
   "product_type": "cf-system",
-  "equipment": [
-    "cf-solar-pv-modules-and-inverters-onshore-gas-plant-and-remote-hy"
-  ],
+  "equipment": [],
   "description": "HPBC 2.0 cell technology with Tairay silicon wafers; 0BB front design; split junction box IP68 with 3 diodes; layout 144 (6x24); packaging 36 pcs/pallet, 144 pcs/20GP, 720 pcs/40 HC. Primary source: https://www.longi.com/en/products/modules/hi-mo-9/",
   "specifications": [
     {

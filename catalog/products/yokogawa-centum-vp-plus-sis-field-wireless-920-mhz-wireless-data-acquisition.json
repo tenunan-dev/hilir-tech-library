@@ -3,9 +3,7 @@
   "name": "CENTUM VP plus SIS / Field Wireless / 920 MHz Wireless Data Acquisition",
   "manufacturer": "yokogawa",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-risers-rigid-scr-top-tensioned-flexible-hybrid-free-standing"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Catalogue-level confirmation of product families; individual model specifications not retrieved. Primary source: https://www.yokogawa.com/ia/dcs/centum-vp/",
   "specifications": [
     {
@@ -27,5 +25,5 @@
     }
   ],
   "notes": "Catalogue-level confirmation of product families; individual model specifications not retrieved.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

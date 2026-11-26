@@ -3,9 +3,7 @@
   "name": "Seaastar mini-TLP",
   "manufacturer": "seaastar-deep-oil-technology-name-per-wikipedia",
   "product_type": "sub-platform",
-  "equipment": [
-    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Manufacturer name as stated in Wikipedia; no vendor page fetched Primary source: https://en.wikipedia.org/wiki/Oil_platform",
   "specifications": [
     {

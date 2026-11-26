@@ -3,9 +3,7 @@
   "name": "Safety Manager (SIS/ESD/F&G)",
   "manufacturer": "honeywell",
   "product_type": "wh-wellhead",
-  "equipment": [
-    "wh-fixed-jacket-wellhead-platform"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Primary source: https://process.honeywell.com/us/en/products/process-automation/safety-systems/safety-manager",
   "specifications": [
     {

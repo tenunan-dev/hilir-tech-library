@@ -32,67 +32,6 @@
       },
       "value": ">10,000 t (many topsides now exceed this)",
       "source_url": "https://www.mammoet.com/offshore/topside-load-out/"
-    },
-    {
-      "metric": "Innovation",
-      "unit": "mechanism",
-      "basis": "Value as printed in the cited source; no further qualifier stated.",
-      "source": {
-        "url": "https://www.orca-offshore.com/products/leg-mating-unit/",
-        "source_id": "orca-offshore-com-leg-mating-unit"
-      },
-      "value": "direct welding after set-down; no sand-jack lowering phase",
-      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
-    },
-    {
-      "metric": "Design feature",
-      "unit": "n/a",
-      "basis": "Different from existing designs, this design® allows for direct welding of the topside to the jacket after set down",
-      "source": {
-        "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
-      },
-      "value": "allows direct welding of the topside to the jacket after set down",
-      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
-    },
-    {
-      "metric": "Eliminated operation",
-      "unit": "n/a",
-      "basis": "The phase whereby the topside is lowered by sand-jacks or equivalent equipment has been eliminated saving valuable installation time",
-      "source": {
-        "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
-      },
-      "value": "phase whereby topside is lowered by sand-jacks or equivalent equipment",
-      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
-    },
-    {
-      "metric": "Construction",
-      "unit": "n/a",
-      "basis": "The LMU is built up with standard rubber elements, standard steel pipe and flush steel plates",
-      "source": {
-        "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
-      },
-      "value": "standard rubber elements, standard steel pipe and flush steel plates",
-      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
-    },
-    {
-      "metric": "Commercial features",
-      "unit": "n/a",
-      "basis": "As a result, the LMU has a short lead time and can be supplied at a competitive price",
-      "source": {
-        "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
-      },
-      "value": "short lead time; competitive price",
-      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
-    },
-    {
-      "metric": "Developer",
-      "unit": "n/a",
-      "basis": "Together with SeaCamel, we developed a new type of LMU for the float-over of the LAM-E topside",
-      "source": {
-        "url": "https://www.orca-offshore.com/products/leg-mating-unit/"
-      },
-      "value": "Orca Offshore together with SeaCamel, for the LAM-E topside float-over",
-      "source_url": "https://www.orca-offshore.com/products/leg-mating-unit/"
     }
   ],
   "vendors": [

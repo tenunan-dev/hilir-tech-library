@@ -3,9 +3,7 @@
   "name": "Blowdown Systems (Model BDS separators, Model BDT tanks)",
   "manufacturer": "cleaver-brooks",
   "product_type": "safety",
-  "equipment": [
-    "safety-valves-blowdown-boiler"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Blowdown Systems catalog listing directly with WebFetch (text). No dedicated safety-valve product line found in the pages read; see gaps. Primary source: https://cleaverbrooks.com/catalog/boiler-room-equipment/blowdown-systems",
   "specifications": [
     {

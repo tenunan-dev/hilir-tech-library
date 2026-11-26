@@ -3,9 +3,7 @@
   "name": "DNV-RP-C203 fatigue design recommended practice",
   "manufacturer": "dnv-installjac-software",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Subscription document; scope verified. Primary source: https://www.dnv.com/energy/standards-guidelines/dnv-rp-c203-fatigue-design-of-offshore-steel-structures",
   "specifications": [
     {

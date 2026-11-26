@@ -3,9 +3,7 @@
   "name": "SSCV Sleipnir (2 x 10,000 t Huisman cranes)",
   "manufacturer": "heerema-marine-contractors-huisman-sembcorp-marine",
   "product_type": "ins-platform",
-  "equipment": [
-    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Built by Sembcorp Marine, Singapore (2019); US$1.5 billion build cost stated (dollar year not given). Primary source: https://en.wikipedia.org/wiki/SSCV_Sleipnir",
   "specifications": [
     {

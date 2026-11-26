@@ -3,9 +3,7 @@
   "name": "Observer i ultrasonic gas leak detector",
   "manufacturer": "msa-safety",
   "product_type": "ammonia-converter",
-  "equipment": [
-    "ammonia-synthesis-converter"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Does not indicate gas concentration; used for ammonia synthesis reactors, compressors, exchangers and tank farms. Primary source: https://assetlibrary.msasafety.com/asset/6665051d-29a4-4b6e-8a7a-eafeeb851ede/Technical-Guide-Sensor-Technologies-for-Ammonia-Detection.pdf",
   "specifications": [
     {

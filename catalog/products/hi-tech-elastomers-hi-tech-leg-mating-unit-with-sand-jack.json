@@ -3,9 +3,7 @@
   "name": "Hi-Tech Leg Mating Unit with sand jack",
   "manufacturer": "hi-tech-elastomers",
   "product_type": "sub-platform",
-  "equipment": [
-    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Vertical and horizontal rubber elements; optional stabbing cone. Primary source: https://hitechelastomers.com/products/leg-mating-unit/",
   "specifications": [
     {

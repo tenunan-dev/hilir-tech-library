@@ -3,9 +3,7 @@
   "name": "Basler DECS-2100",
   "manufacturer": "basler-electric",
   "product_type": "engine",
-  "equipment": [
-    "gas-engine-prime-mover"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Synchronous generator/motor excitation, protection and monitoring Primary source: https://www.basler.com/product/decs-2100-digital-excitation-control-system",
   "specifications": [
     {

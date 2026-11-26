@@ -3,9 +3,7 @@
   "name": "IQIP PULSE noise mitigation",
   "manufacturer": "iqip",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Primary source: https://iqip.com/products/pile-driving-equipment/hydrohammer",
   "specifications": [
     {

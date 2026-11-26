@@ -3,9 +3,7 @@
   "name": "Standard pumps and complete pump skid systems (surface production)",
   "manufacturer": "technipfmc-cds-separation-systems",
   "product_type": "fl-system",
-  "equipment": [
-    "fl-injectors-and-injection-systems-water-injection-gas-injection-f8f339"
-  ],
+  "equipment": [],
   "description": "Page states diverse line of pumps customized according to the application and complete skid solutions from design consultation through startup and commissioning. Individual pump model ratings are not printed. Primary source: https://www.technipfmc.com/en/what-we-do/surface/production/",
   "specifications": [
     {
@@ -38,5 +36,5 @@
     }
   ],
   "notes": "Page states diverse line of pumps customized according to the application and complete skid solutions from design consultation through startup and commissioning. Individual pump model ratings are not printed.",
-  "last_reviewed": "2026-11-24"
+  "last_reviewed": "2026-11-26"
 }

@@ -3,9 +3,7 @@
   "name": "TOPSOE ammonia process licence and plant engineering",
   "manufacturer": "topsoe-a-s",
   "product_type": "ammonia-converter",
-  "equipment": [
-    "ammonia-synthesis-converter"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Also selected for Fakfak ammonia plant BED (13 Nov 2026) per Pupuk Indonesia release. Primary source: https://research.csiro.au/hyresource/allied-green-ammonia/",
   "specifications": [
     {

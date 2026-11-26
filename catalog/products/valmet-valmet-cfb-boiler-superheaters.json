@@ -3,9 +3,7 @@
   "name": "Valmet CFB Boiler superheaters",
   "manufacturer": "valmet",
   "product_type": "heat-exchanger",
-  "equipment": [
-    "superheater-boiler"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Fetched Valmet CFB Boiler page directly with WebFetch (markdown). Superheaters are a subsystem of the CFB boiler, not a standalone named product line. Primary source: https://www.valmet.com/energyproduction/cfb-boilers/",
   "specifications": [
     {

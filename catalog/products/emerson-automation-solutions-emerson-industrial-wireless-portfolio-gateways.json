@@ -3,9 +3,7 @@
   "name": "Emerson industrial wireless portfolio (gateways, wireless instrumentation, SmartPower modules)",
   "manufacturer": "emerson-automation-solutions",
   "product_type": "ci-system",
-  "equipment": [
-    "ci-wirelesshart-industrial-wireless-mesh-024e52"
-  ],
+  "equipment": [],
   "description": "Page read in full. Named gateways 1410S1/1410S2 and repeaters are product families; no electrical supply figures were printed on this catalogue page. Primary source: https://www.emerson.com/en/measurement-instrumentation/catalog/industrial-wireless-technology",
   "specifications": [
     {

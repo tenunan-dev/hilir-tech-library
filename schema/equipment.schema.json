@@ -226,10 +226,11 @@
     },
     "specifications": {
       "type": "array",
-      "minItems": 1,
+      "minItems": 0,
       "items": {
         "$ref": "#/$defs/spec"
-      }
+      },
+      "description": "Printed parameters, each from a page this record cites (rule: tools/spec_sources.py). Empty is allowed when no page printed a parameter — the record must then carry at least one gap saying what is missing. A figure read for another record is never copied here."
     },
     "vendor_models": {
       "type": "array",

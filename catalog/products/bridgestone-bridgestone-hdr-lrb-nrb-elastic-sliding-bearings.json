@@ -3,9 +3,7 @@
   "name": "Bridgestone HDR / LRB / NRB / Elastic Sliding Bearings",
   "manufacturer": "bridgestone",
   "product_type": "civ-civil",
-  "equipment": [
-    "civ-shallow-raft-pad-foundations"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Page read; APAC (Japan) Primary source: https://www.bridgestone.com/products/diversified/antiseismic_rubber/product.html",
   "specifications": [
     {

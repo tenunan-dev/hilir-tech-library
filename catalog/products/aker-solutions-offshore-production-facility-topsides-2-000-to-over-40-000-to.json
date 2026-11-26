@@ -3,9 +3,7 @@
   "name": "Offshore production facility topsides (2,000 to over 40,000 tonnes)",
   "manufacturer": "aker-solutions",
   "product_type": "ins-platform",
-  "equipment": [
-    "ins-semi-submersible-crane-vessel-sscv-heavy-lift-crane-installati"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Stord yard: 318,000 m2 facility with 'Storen' gantry crane, 1,050 t capacity, 115 m tall and 153 m wide. Primary source: https://www.akersolutions.com/what-we-do/fixed-and-floating-solutions/design-and-construction-of-offshore-oil-and-gas-production-facilities",
   "specifications": [
     {

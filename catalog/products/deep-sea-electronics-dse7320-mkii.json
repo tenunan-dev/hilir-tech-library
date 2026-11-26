@@ -3,9 +3,7 @@
   "name": "DSE7320 MKII",
   "manufacturer": "deep-sea-electronics",
   "product_type": "engine",
-  "equipment": [
-    "gas-engine-prime-mover"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. AMF, single diesel or gas genset, IP65 front with gasket Primary source: https://www.deepseaelectronics.com/genset/auto-mains-utility-failure-control-modules/dse7320-mkii",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "Preset Vent Silencers",
   "manufacturer": "burgess-manning-ceco-environmental",
   "product_type": "chiller",
-  "equipment": [
-    "gas-engine-waste-heat-chiller"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. Self-supported on discharge pipe; transformative and absorptive acoustic principles. Read in full this session. Primary source: https://burgessmanning.com/preset-vent-silencers/",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "Deep Bed Condensate Polishers (with SepraEight regeneration)",
   "manufacturer": "graver-water-marmon-industrial-water",
   "product_type": "water-treatment",
-  "equipment": [
-    "condensate-polishing-system"
-  ],
+  "equipment": [],
   "description": "Vendor product line listed on the manufacturer's own page read 2026-11-24. Read in full: Graver Deep Bed Condensate Polishers page. Related products Powdex, GRF, AFA, TurboGuard listed on page but not read. Primary source: https://graver.com/condensate-polishers/deepbed/",
   "specifications": [
     {

@@ -3,9 +3,7 @@
   "name": "Qingdao / Tianjin / Zhuhai fabrication yards",
   "manufacturer": "cooec-cnooc-engineering",
   "product_type": "sub-platform",
-  "equipment": [
-    "sub-fixed-steel-jacket-platform-conventional-4-leg-6-leg-8-leg"
-  ],
+  "equipment": [],
   "description": "Vendor product line read 2026-11-24. EPCI contractor controlled by CNOOC. Primary source: https://www.cnoocengineering.com/english/Solutions/Yards",
   "specifications": [
     {

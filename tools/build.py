@@ -23,7 +23,9 @@ import jsonschema
 import yaml
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent / "agent"))
+sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import library  # noqa: E402
+import spec_sources  # noqa: E402
 import technologies  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -240,6 +242,38 @@ def write_indexes(records, taxonomy):
              "| Source | Current reuse level | Finding |", "| --- | --- | --- |"]
     lines += [f"| [{r['name']}]({r['url']}) | {r['reuse_level']} | {r['notes'].split(' Evidence:')[0]} |" for r in pending]
     (INDEX / "needs-manual-check.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+
+
+def spec_provenance_errors(equipment, products):
+    """A specification belongs to the record whose page printed it (finding F3, 2026-11-26).
+
+    The rule and its one-off repair live in tools/spec_sources.py and
+    tools/spec_source_repair.py; this is the gate that keeps the fault out. The second half is
+    the same fault's cause: `product.equipment` claims a supply relationship, so the class must
+    name the manufacturer among its vendors.
+    """
+    index = spec_sources.spec_index()
+    vendors = spec_sources.vendor_records()
+    by_id = {rec["id"]: rec for rec in equipment}
+    errors = []
+    for rec in equipment:
+        for spec in spec_sources.foreign_specs(rec, index):
+            errors.append(
+                f"equipment/{rec['id']}.json: specification '{spec.get('metric')}' is another "
+                f"record's evidence ({spec_sources.host(spec.get('source_url')) or 'no source'}) — "
+                "cite that source on this record or drop the specification")
+        if not rec.get("specifications") and not rec.get("gaps"):
+            errors.append(
+                f"equipment/{rec['id']}.json: no specification and no gap — an empty record hides "
+                "the absence; record the gap instead")
+    for rec in products:
+        for eid in rec.get("equipment") or []:
+            target = by_id.get(eid)
+            if not target or not spec_sources.link_is_evidenced(rec, target, vendors):
+                errors.append(
+                    f"products/{rec['id']}.json: claims to supply {eid} but that class does not "
+                    f"name {rec['manufacturer']} among its vendors — evidence the link or drop it")
+    return errors
 
 
 def load_equipment(vendor_ids, card_ids, source_ids):
@@ -515,6 +549,7 @@ def main():
     products, product_errors = load_products({v["id"] for v in vendors}, {e["id"] for e in equipment},
                                              {r.get("id") for r in records})
     errors += product_errors
+    errors += spec_provenance_errors(equipment, products)
     drawings, drawing_errors = load_drawings({e["id"] for e in equipment}, {c["id"] for c in cards},
                                              {r.get("id") for r in records})
     errors += drawing_errors
