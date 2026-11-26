@@ -1,17 +1,20 @@
 ---
 name: techlib-mcp
-description: Search and read the HILIR Technology Library through its MCP server (techlib-api.hilir.app) — 26 tools over a curated catalogue of public sources on oil, gas, petrochemical and energy technology, holding technology cards, cost and performance figures with their basis, vendor and equipment records, plants and projects, collected source documents, standards and a glossary. Use it when the user asks what technology options exist for X and how mature they are, what X costs or how efficient it is, who supplies X, what an equipment class can do, which plants use X, what a standard or acronym means, or for citable sources on an energy topic. Do NOT use it for drawing generation (JELAS CAD / hilir-cad), process simulation (DWSIM / dwsim-mcp), electrical studies (Thunderbolt / hilir-thunderbolt), Malaysian site facts (mygis-mcp) or man-hour and cost norms (resources-mcp).
+description: Search and read the HILIR Technology Library through its MCP server (techlib-api.hilir.app) — 32 tools over a curated catalogue of public sources on oil, gas, petrochemical and energy technology: technology cards, cost and performance figures with basis, vendors and equipment, product catalogues with printed specs, process drawings, engineering materials, plants/projects, source documents, standards and a glossary. Use it when the user asks what technology options exist for X and how mature they are, what X costs or how efficient it is, who supplies X, what a model line prints for X, whether a PFD/P&ID exists for X, what material properties suit X, what an equipment class can do, which plants use X, what a standard or acronym means, or for citable sources on an energy topic. Do NOT use it for drawing generation (JELAS CAD / hilir-cad), process simulation (DWSIM / dwsim-mcp), electrical studies (Thunderbolt / hilir-thunderbolt), Malaysian site facts (mygis-mcp) or man-hour and cost norms (resources-mcp).
 ---
 
 # HILIR Technology Library — over MCP
 
-`techlib-api.hilir.app` serves the Technology Library over MCP: 26 tools (Streamable
+`techlib-api.hilir.app` serves the Technology Library over MCP: 32 tools (Streamable
 HTTP, stateless; `tools/list` is the live count) and the same functions as a REST API
 under `/api`. The library is a curated catalogue of public sources on oil, gas,
 petrochemical and energy technologies, built for AI agents to find, cite and read —
 catalog sources, collected corpus documents, technology cards, vendors, equipment
-classes and named plants/projects. Layer counts change with every publish;
-`library_stats()` is the live number, never one quoted from memory.
+classes, vendor product catalogues (every parameter printed on the OEM page),
+citable process drawings, engineering materials and named plants/projects. Layer counts
+change with every publish; `library_stats()` is the live number for every layer —
+sources, documents, technologies, vendors, equipment, projects, products, drawings,
+materials — never one quoted from memory.
 
 ## Connect
 
@@ -35,6 +38,10 @@ troubleshooting. Also: `docs/USER_GUIDE.md` (client setup), `docs/AUTH.md` (auth
 | What X costs / how efficient X is | `find_figures(query=…, sector=…)` | `get_technology` for the whole card |
 | Who supplies X / what does vendor Y make | `list_vendors(sector=…, query=…)` | `get_vendor` |
 | Limits of an equipment class | `list_equipment(equipment_type=…)` | `get_equipment` |
+| What model lines supply X, and what their datasheets print | `list_products(product_type=…, manufacturer=…, query=…)` | `get_product` for every parameter, its printed basis and `source_url` |
+| Is there a PFD / P&ID / schematic for X | `list_drawings(diagram_type=…, sector=…, query=…)` | `get_drawing` for what it shows and its recorded reuse terms |
+| What material suits X, and what properties are printed | `list_materials(material_category=…, query=…)` | `get_material` for the value, its basis and source |
+| Which sources do we hold on X (inventory, not text) | `list_by_tag(code=…, region=…)` | `search(q, kind=…)` for the passages |
 | Which plants use X / what is built in Z | `list_projects(sector=…, country=…, query=…)` | `get_project` |
 | What does this acronym mean | `get_glossary_term("CCGT")` | `list_glossary(q)` to browse |
 | Which code/standard applies | `list_standards(org="API")` | `get_standard("API 610")` |
@@ -91,6 +98,19 @@ empty page that reads like "no data" and is not.
 - Vendor ownership lives in `notes` and `aliases`: a brand named on a card may resolve to
   a parent record (acquisitions are common). `get_vendor` on the parent before concluding
   a brand is missing.
+- A product parameter is only usable with its printed `basis` **and** its `source_url` — the
+  OEM catalogue/datasheet page it was read from. Open that URL before reusing the figure.
+  Values printed in two variants (50 Hz and 60 Hz, or two sources that disagree) are stored
+  as separate specs, never reconciled; a parameter with no `source_url` is an unsourced gap,
+  not a fact. `list_products`/`list_materials` with no arguments show the types and
+  categories; a broad `query` returns every matching line, so narrow with `product_type` or
+  `manufacturer` (a vendor id from `list_vendors`).
+- A drawing record (`list_drawings`/`get_drawing`) is a **citation, not a copy**: the diagram
+  itself is not in the repository — open its `url` and respect the recorded licence before
+  showing or reproducing anything.
+- `list_by_tag` is the source inventory — sector/discipline code, region, `reuse_level`,
+  source type, Asia Pacific first. Cheaper than `search` when the question is "what do we
+  hold on X" rather than "what does X say".
 - `list_projects(country=…)` canonicalises mixed spellings ("US", "USA", "United States"
   all match). `compare_technologies(technology_ids=[…])` bypasses the filters and compares
   named cards side by side in the order given.
@@ -105,3 +125,10 @@ Worked chain — "what would it cost to capture CO₂ from a cement plant?":
 relevant cards → `find_figures(technology_id="ccs-amine-post-combustion", kind="cost")` →
 answer with the figure **and** its basis and dollar year → `list_gaps(sector="CCS",
 field="costs")` to state what the card admits it lacks.
+
+Worked chain — "what does a vendor's package boiler actually print?":
+`list_vendors(sector="PWR", query="boiler")` → `list_products(manufacturer="cleaver-brooks",
+product_type="boiler")` → `get_product` on the model → quote each parameter with its printed
+basis and its OEM `source_url` → `list_drawings(diagram_type="PFD", query=…)` for a citable
+diagram of the same duty, and `list_materials(material_category=…, query=…)` where the
+question is a material property rather than a machine.

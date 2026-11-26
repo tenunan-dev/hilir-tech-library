@@ -8,6 +8,29 @@ detail lives in [docs/STATUS.md](docs/STATUS.md), owner decisions in
 [docs/archive/](docs/archive/) (see its README) and never deleted.
 
 
+## [2026.11.26.3] — 2026-11-26 — MCP skill brought to the live 32-tool surface
+
+The MCP audit of the nine skills (`hilir-skills/mcp-audit.md`, finding 4) found the `techlib-mcp`
+skill still describing **26 tools**. The canonical copy in `tenunan-dev/hilir-skills` now names all
+32: `list_products`/`get_product`, `list_drawings`/`get_drawing`, `list_materials`/`get_material` and
+`list_by_tag` were missing, and the route table had no row for a product line, a diagram, a material
+property or a source inventory. It also carries the rules that make those records usable — a product
+parameter is valid only with its printed basis **and** its `source_url`, two-variant values stay
+separate specs, an unsourced parameter is a gap, a drawing record is a citation and not a copy, and
+`list_by_tag` answers "what do we hold" where `search` answers "what does it say". The mirror here
+(`skills/techlib-mcp/SKILL.md` and both symlinks) and the `~/.agents/skills` install were re-synced
+and carry one digest across all five surfaces (`3ee4729c…`). `docs/MCP.md` and
+the server docstrings already described 32 tools; `AGENTS.md` said 30 on one line and 32 on the next
+and now says one thing.
+
+Verified live through the ZCode MCP: `library_stats` 458 products / 345 drawings / 249 materials /
+2,369 sources; `list_products(query="burner")` 18 rows with `url`+`source_urls`,
+`list_materials(query="anode")` 7, `list_drawings(query="amine")` 4 and
+`list_drawings(diagram_type="flowsheet")` exactly the 2 rows the table counts,
+`list_by_tag(code="CCS")` the CCS inventory. `pytest -q tests`: **3,794 passed, 13 skipped**.
+Docs only — no Neon reload, no container deploy.
+
+
 ## [2026.11.26.2] — 2026-11-26 — Primary source links and product detail pages
 
 Every product and equipment parameter now carries `source_url` (12,768 specs in 963 records), and

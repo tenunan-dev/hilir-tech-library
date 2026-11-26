@@ -47,8 +47,8 @@ Verified live 2026-11-25: Neon reloaded (2,090 sources / 1,250 vendors / 401 car
 998 projects / 361 products / 333 drawings / 171 materials / 416 register entries / 253 documents /
 13,192 chunks / 9,388 nodes / 33,573 edges / 19,226 vectors); `pytest -q tests` 3,430 passed, 13 skipped.
 Sourced project capex and installation cost benchmarks are queryable via `find_figures`.
-The MCP surface is 32 tools, adding list/get materials.
-The MCP surface is 30 tools, adding list/get products and drawings. Standing main effort is source discovery
+The MCP surface is 32 tools: the 30 up to `list_products`/`get_product` and
+`list_drawings`/`get_drawing`, plus `list_materials`/`get_material`. Standing main effort is source discovery
 (`docs/SOURCE_DISCOVERY_PLAN.md`, decision #30); the next equipment families wait on the owner
 (decision #33). Open owner items and the session log are in `docs/STATUS.md`.
 
