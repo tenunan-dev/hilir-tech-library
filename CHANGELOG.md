@@ -40,10 +40,21 @@ Verified: `tools/build.py` 2,369 records valid; index rebuilt (253 documents, 13
 incremental embed 225 embedded / 19,753 reused / 0 missing; Neon reloaded (253 documents, 11,876
 chunks, 18,662 vectors) and read back in SQL — the two Risers records hold 12 and 21
 specifications, the LONGi product claims no equipment, 224 evidenced links remain. `pytest -q
-tests`: **3,798 passed, 13 skipped**. The container image is one generation behind (its baked index
-predates this repair) and the F4 disclosure is container code: **neither is deployed — the ship
-failed because `~/.ssh/agent_dsh` was refused (`Permission denied (publickey)`)**. The F3 data
-correction is live through Neon regardless.
+tests`: **3,798 passed, 13 skipped**.
+
+**Deploy: shipped** as image `ee69c914ba5b` at 2026-11-26T13:41Z — proven after the fact rather
+than assumed: `sha256sum` of `agent/server.py` and `agent/pg.py` **inside the deployed image** is
+byte-identical to HEAD, the image's baked Risers record no longer contains a foreign metric, and
+live `library_stats` answers with `backend: "neon"` / `semantic_search: true`. (The first ship
+attempt in the session was refused — the key is accepted for `agent@15.235.248.33`, not `root@` —
+and the deploy followed from the agent account.)
+
+**Reconciled the same day:** the shared Neon was found carrying **restricted full text** — 46
+documents with `text_included: true` and 13,192 chunks, i.e. a load that had passed
+`--include-restricted`, which is for a database nobody else can read. `sql_query` exposes
+`og.document.body`, so that text was readable through a public tool even though `get_document`
+withholds it. Reloaded open-only: 46 restricted documents with `text_included: false` and **0**
+body characters, 207 open documents, 11,876 chunks, none of them for a restricted document.
 
 
 ## [2026.11.26.3] — 2026-11-26 — MCP skill brought to the live 32-tool surface
