@@ -644,15 +644,16 @@ class RequireHilirToken:
             # verify() accepts BOTH credentials: a JWT (local JWKS check) and
             # a person's opaque key (RFC 7662 introspection at Access).
             if hilir_auth is None or hilir_auth.verify(token) is None:
-                # RFC 9728 §5.1 + RFC 6750 §3.1: the 401 names the protected-
-                # resource metadata (so MCP clients can discover Access) and
-                # adds error="invalid_token" only when a bearer was presented.
-                # The public MCP origin is pinned by config, not the Host header
-                # (the tunnel Host is the Caddy upstream name).
+                # A plain realm challenge, with RFC 6750 §3.1's error member
+                # only when a bearer was presented. It deliberately does not
+                # name resource_metadata (RFC 9728 §5.1): access.hilir.app
+                # offers no dynamic client registration and no client-id
+                # metadata documents, so advertising the flow only produces
+                # "Incompatible auth server" in a spec-following MCP client.
+                # The PRM route stays served for clients registered out of band.
                 presented = bool(raw)
                 challenge = ", ".join([
-                    'Bearer resource_metadata="%s/.well-known/oauth-protected-resource"'
-                    % MCP_PUBLIC_ORIGIN.rstrip("/"),
+                    'Bearer realm="techlib"',
                     *(['error="invalid_token"'] if presented else []),
                 ])
                 await send({"type": "http.response.start", "status": 401,

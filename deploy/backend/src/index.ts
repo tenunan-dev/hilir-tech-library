@@ -42,12 +42,21 @@ interface Env {
 }
 
 /**
- * The RFC 9728 §5.1 challenge with the RFC 6750 §3.1 conditional: an
+ * A 401 carries a plain `Bearer realm` challenge, with RFC 6750 §3.1's
  * error="invalid_token" member ONLY when a credential was presented.
+ *
+ * It deliberately does NOT name resource_metadata (RFC 9728 §5.1): that header
+ * advertises an OAuth sign-in a client cannot finish, because access.hilir.app
+ * offers no dynamic client registration and no client-id-metadata documents — a
+ * spec-following MCP client then replaces the 401 with "Incompatible auth
+ * server". The PRM route stays served for out-of-band clients.
+ *
+ * The realm is the host's first label: techlib-api.hilir.app -> "techlib-api".
  */
 export function bearerChallenge(origin: string, presented: boolean): string {
+  const realm = new URL(origin).hostname.split(".")[0] || "techlib-api";
   return [
-    `Bearer resource_metadata="${origin.replace(/\/+$/, "")}${PROTECTED_RESOURCE_METADATA_PATH}"`,
+    `Bearer realm="${realm}"`,
     ...(presented ? ['error="invalid_token"'] : []),
   ].join(", ");
 }

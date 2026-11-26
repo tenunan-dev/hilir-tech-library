@@ -197,14 +197,20 @@ function principalCookies(email: string | null, sub: string | null): string[] {
 }
 
 /**
- * The RFC 9728 §5.1 challenge for the UI host's machine-held endpoints — same
- * shape the backend worker and the container send, so every 401 from this app
- * names the discovery document. The metadata URL points at THIS origin: the
- * request is answered here, and the PRM path is served by the same host.
+ * A 401 carries a plain `Bearer realm` challenge, with RFC 6750 §3.1's
+ * error="invalid_token" only when a credential was presented — the same shape the
+ * backend worker and the container send.
+ *
+ * It deliberately does NOT name resource_metadata (RFC 9728 §5.1): that header
+ * advertises an OAuth sign-in a client cannot finish, because access.hilir.app
+ * offers no dynamic client registration and no client-id-metadata documents — a
+ * spec-following MCP client then replaces the 401 with "Incompatible auth
+ * server". The PRM path is still served by this host for out-of-band clients.
  */
 function bearerChallenge(origin: string, presented: boolean): string {
+  const realm = new URL(origin).hostname.split(".")[0] || "techlib";
   return [
-    `Bearer resource_metadata="${origin.replace(/\/+$/, "")}${PROTECTED_RESOURCE_METADATA_PATH}"`,
+    `Bearer realm="${realm}"`,
     ...(presented ? ['error="invalid_token"'] : []),
   ].join(", ");
 }

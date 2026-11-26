@@ -9,19 +9,25 @@ import assert from "node:assert/strict";
 
 import { bearerChallenge, containerHeaders, parseAudiences } from "../src/index.ts";
 
-const PRM = "/.well-known/oauth-protected-resource";
-
-test("challenge names the metadata; no error member without a credential", () => {
+test("challenge carries the realm; no error member without a credential", () => {
   const c = bearerChallenge("https://techlib-api.hilir.app", false);
-  assert.equal(c, `Bearer resource_metadata="https://techlib-api.hilir.app${PRM}"`);
+  assert.equal(c, 'Bearer realm="techlib-api"');
 });
 
 test("challenge adds error=invalid_token only when a credential was presented", () => {
   const c = bearerChallenge("https://techlib-api.hilir.app/", true);
-  assert.equal(
-    c,
-    `Bearer resource_metadata="https://techlib-api.hilir.app${PRM}", error="invalid_token"`,
-  );
+  assert.equal(c, 'Bearer realm="techlib-api", error="invalid_token"');
+});
+
+test("challenge never advertises resource_metadata the AS cannot honour", () => {
+  for (const origin of ["https://techlib-api.hilir.app", "https://techlib.hilir.app"]) {
+    for (const presented of [false, true]) {
+      assert.ok(
+        !bearerChallenge(origin, presented).includes("resource_metadata"),
+        `${origin} presented=${presented} still points at the dead-end flow`,
+      );
+    }
+  }
 });
 
 test("AUDIENCE parses a comma-separated origin list", () => {
