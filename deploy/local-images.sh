@@ -18,6 +18,13 @@
 #
 # The 4 GB VPS must never build these (both images bake the corpus and warm the fastembed model);
 # arm64 → amd64 emulation here is slow (roughly 15-30 min cold), which is the price of no registry.
+#
+# Rollback: the shared `vps` script records the outgoing image id but never tags it, and the agent
+# cannot `docker tag` on the box (sudo is `vps *` only) — so this script keeps the previous image
+# under a `:rollback` tag here and ships that tag too. After a ship the box holds
+# `:latest` = new and `:rollback` = previous. Revert from the Mac with
+#   docker tag <ref>:rollback <ref>:latest   (both images) then this script with --ship-only
+# or on the box, as the owner: `sudo docker tag <ref>:rollback <ref>:latest && sudo vps up techlib`.
 set -euo pipefail
 
 cd "$(dirname "$0")/.." || exit 1
@@ -81,6 +88,26 @@ if [ "$DRY_RUN" = 0 ]; then
   fi
 fi
 
+# Bank the image currently tagged :latest as the rollback point before the build replaces it.
+# `:rollback` therefore holds the previous ship — the image to revert to if this one is bad.
+ROLLBACK_REFS=()
+if [ "$DO_BUILD" = 1 ]; then
+  say "bank rollback point"
+  for ref in "$UI_IMAGE" "$API_IMAGE"; do
+    rb="${ref%:latest}:rollback"
+    if [ "$DRY_RUN" = 1 ]; then
+      printf 'DRY  docker tag %s %s\n' "$ref" "$rb"
+      ROLLBACK_REFS+=("$rb")
+    elif docker image inspect "$ref" >/dev/null 2>&1; then
+      docker tag "$ref" "$rb"
+      ROLLBACK_REFS+=("$rb")
+      printf 'banked %s\n' "$rb"
+    else
+      echo "warning: $ref not built here yet — no rollback image for it, this ship is one-way" >&2
+    fi
+  done
+fi
+
 if [ "$DO_BUILD" = 1 ]; then
   say "build (platform $PLATFORM, tags the VPS compose expects)"
   # --load keeps a single-platform docker-format image in the local store so `docker save` works.
@@ -92,13 +119,15 @@ if [ "$DO_BUILD" = 1 ]; then
 fi
 
 if [ "$DO_SHIP" = 1 ]; then
-  say "ship both images in one stream, then recreate from local images"
-  # One archive, one gzip, one ssh: both images land before `vps up` runs, so the stack never
-  # starts on a half-updated pair. `vps up` health-gates and rolls back like `vps deploy` does.
+  say "ship both images and the rollback tags in one stream, then recreate from local images"
+  # One archive, one gzip, one ssh: every image and tag lands before `vps up` runs, so the stack
+  # never starts on a half-updated pair. Sending the `:rollback` tag in the same archive costs no
+  # extra transfer when it is the same image (shared layers) and makes the box's revert real.
+  SAVE_REFS=("$UI_IMAGE" "$API_IMAGE" ${ROLLBACK_REFS[@]+"${ROLLBACK_REFS[@]}"})
   if [ "$DRY_RUN" = 1 ]; then
-    printf 'DRY  docker save %s %s | gzip -1 | ssh %s %q\n' "$UI_IMAGE" "$API_IMAGE" "$SSH_HOST" 'gunzip | sudo vps load'
+    printf 'DRY  docker save %s | gzip -1 | ssh %s %q\n' "${SAVE_REFS[*]}" "$SSH_HOST" 'gunzip | sudo vps load'
   else
-    docker save "$UI_IMAGE" "$API_IMAGE" | gzip -1 \
+    docker save "${SAVE_REFS[@]}" | gzip -1 \
       | ssh -i "$SSH_KEY" "$SSH_HOST" 'gunzip | sudo vps load'
   fi
   remote "sudo vps up $STACK"
@@ -113,6 +142,9 @@ if [ "$DO_SHIP" = 1 ]; then
 Report these in the conversation:
   1. digest of what went in (from /var/log/vps-deploy.log above),
   2. the health line — must read: mygis 303, techlib-origin 403, tlea-origin 403,
-  3. the rollback command: re-load the previous image the same way and `sudo vps restart techlib`.
+  3. the rollback command — the box now holds :latest (new) and :rollback (previous):
+       on the box, as the owner: sudo docker tag <ref>:rollback <ref>:latest && sudo vps up techlib
+       from this Mac:             docker tag <ref>:rollback <ref>:latest   (both images)
+                                  ./deploy/local-images.sh --ship-only
 EOF
 fi

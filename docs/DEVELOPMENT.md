@@ -167,6 +167,21 @@ The script builds with the ghcr tags the VPS compose already references, streams
 pulls `:latest` from ghcr and overwrites what was just loaded. `--build-only`, `--ship-only` and
 `--dry-run` are documented in its header.
 
+**Rollback is banked by the script.** Before each build it tags the current `:latest` as
+`:rollback` and includes that tag in the same archive, so after a ship the box holds `:latest` (new)
+and `:rollback` (previous). The shared `vps` verb records the outgoing image id but never tags it,
+and the agent cannot `docker tag` on the box (sudo is `vps *` only), which is why this lives here.
+Revert:
+
+```bash
+# from this Mac
+docker tag ghcr.io/tenunan-dev/hilir-tech-library-api:rollback ghcr.io/tenunan-dev/hilir-tech-library-api:latest
+docker tag ghcr.io/tenunan-dev/hilir-tech-library-ui:rollback  ghcr.io/tenunan-dev/hilir-tech-library-ui:latest
+deploy/local-images.sh --ship-only
+# or on the box, as the owner
+sudo docker tag <ref>:rollback <ref>:latest && sudo vps up techlib
+```
+
 GitHub is repo storage only (decision #39): no workflow builds or ships, so nothing here waits on a
 push. The emulated build is quick — the two Dockerfiles share identical final stages, so the second
 image reuses the first one's layers; expect a few minutes, not tens.

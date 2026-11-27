@@ -20,7 +20,9 @@
   Do not `sudo vps deploy techlib` for a locally built image — it pulls :latest from ghcr over it.
 - **A data publish is not a deploy.** Catalog, card, equipment, vendor and source edits go to Neon
   (`tools/load_postgres.py`, never `--include-restricted` for the shared database) and leave the
-  containers untouched; only code or the baked fallback needs an image (`deploy/local-images.sh`).
+  containers untouched; only code or the baked fallback needs an image (`deploy/local-images.sh`,
+  which banks the outgoing image as `:rollback` and ships that tag too — the shared `vps` verb
+  records the old id but never tags it, and `docker tag` on the box is owner-only).
   There is no rollback for a data publish — the loader truncates and refills, so recovery is a re-run
   from an older checkout. To prove which one happened: `ssh -i ~/.ssh/agent_dsh agent@15.235.248.33
   'sudo vps status; grep techlib /var/log/vps-deploy.log | tail -2'` — container uptimes, and the last
