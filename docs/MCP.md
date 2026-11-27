@@ -149,6 +149,15 @@ carries `"specifications": []` and a gap saying what is missing rather than a bo
 (decision 44, after the 2026-11-26 health check found a Risers record quoting a PV module's
 efficiency). `gaps` on such a record is the answer, not a defect.
 
+The platform-component families added 2026-11-27 are enumerable by type:
+`equipment_type="offshore-structural"` (pile sleeves and grouted connections, launch truss, padeyes,
+barge bumpers, riser guides, heave plates, deck framing, monorails and skid rails, fire divisions,
+derrick, mud module, riser tensioner, thrusters/DP, sea fastening, temporary refuge) and
+`equipment_type="offshore-outfitting"` (ladders and cages, toe boards, safety gates, escape chutes,
+boarding ramps, helideck perimeter net, lighting and markings, windsock, foam monitors, accommodation
+fit-out, immersion suits, AIS and radar reflector). These are class records without printed
+parameters — expect `specifications: []` and a gap: the class is catalogued, the datasheet is not.
+
 **`list_projects(status=None, sector=None, country=None, query=None)`** / **`get_project(project_id)`**
 Named plants and projects: `status` (proposed, FID, under-construction, commissioning, operating,
 suspended, decommissioned), `country`, `capacities[]`, `owners[]`, `contractors[]`, `offtakers[]`,

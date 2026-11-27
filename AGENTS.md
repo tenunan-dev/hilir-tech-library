@@ -18,6 +18,13 @@
   for linux/amd64 → `vps load` → `sudo vps up techlib`). GitHub is repo storage only (2026-11-16):
   its Actions quota is exhausted, so the `images` workflow never runs and ghcr is out of the path.
   Do not `sudo vps deploy techlib` for a locally built image — it pulls :latest from ghcr over it.
+- **A data publish is not a deploy.** Catalog, card, equipment, vendor and source edits go to Neon
+  (`tools/load_postgres.py`, never `--include-restricted` for the shared database) and leave the
+  containers untouched; only code or the baked fallback needs an image (`deploy/local-images.sh`).
+  There is no rollback for a data publish — the loader truncates and refills, so recovery is a re-run
+  from an older checkout. To prove which one happened: `ssh -i ~/.ssh/agent_dsh agent@15.235.248.33
+  'sudo vps status; grep techlib /var/log/vps-deploy.log | tail -2'` — container uptimes, and the last
+  `id=… digest=…` line is the image actually running.
 - VPS: both containers run at `/srv/hilir/techlib` on 15.235.248.33 behind Caddy + tunnel. VPS
   operations follow the owner's playbook (`~/VibeProject/VPS Control/operations/AGENT-PLAYBOOK.md`):
   connect only with the `~/.ssh/agent_dsh` key; sudo is allowlisted to `vps *` only; after every

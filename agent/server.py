@@ -379,11 +379,16 @@ def get_vendor(vendor_id: str) -> dict | None:
 @server.tool()
 def list_equipment(equipment_type: str | None = None, query: str | None = None) -> list[dict]:
     """The equipment catalog: one curated record per equipment class — boilers, compressors, pumps
-    and turbines, data-centre electrical, wastewater treatment, and ammonia/urea plant classes —
-    each with specification ranges, per-vendor model lines, the vendors that supply it and the pages
-    behind every figure. Every row includes source_urls: the original OEM datasheets to open and
-    cite as primary sources. equipment_type: e.g. boiler, compressor, urea-reactor — call with no
-    arguments first to see the classes that exist. query: text."""
+    and turbines, data-centre electrical, wastewater treatment, ammonia/urea plant classes, and the
+    offshore platform components (offshore-structural: pile sleeves, launch truss, padeyes, barge
+    bumpers, riser guides, deck framing, fire divisions, derrick, riser tensioner, thrusters;
+    offshore-outfitting: ladders, toe boards, safety gates, escape chutes, boarding ramps, helideck
+    net/lighting/windsock/foam, accommodation fit-out, immersion suits, AIS) — each with specification
+    ranges, per-vendor model lines, the vendors that supply it and the pages behind every figure.
+    Every row includes source_urls: the original OEM datasheets to open and cite as primary sources.
+    equipment_type: e.g. boiler, compressor, urea-reactor, offshore-outfitting — call with no
+    arguments first to see the classes that exist. A class may carry specifications: [] and a gap
+    instead of a borrowed number. query: text."""
     return _with_neon(lambda: pg.equipment_rows(equipment_type, query),
                       lambda: library.list_equipment(equipment_type, query, db()))
 

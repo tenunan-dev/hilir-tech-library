@@ -116,16 +116,33 @@ From the repository root, with `DATABASE_URL` exported as the **owner (unpooled)
 python tools/build.py
 python agent/library.py build
 python agent/embed.py --incremental          # vectors cached by (kind, ref) + text hash
-python tools/load_postgres.py --embeddings sqlite --include-restricted
+python tools/load_postgres.py --embeddings sqlite
 ```
 
 Expect a few minutes, not a deploy. Both containers read Neon live, so the change is visible on the
 UI and the API as soon as the load commits. This is the normal path and the reason the split
-exists (decision #34). Verify with `/api/version` (drift stamp) and a search on both doors.
+exists (decision #34). Verify with a search on both doors **and a row count** — `/api/version` alone
+does not prove the data landed.
 
-`--incremental` matters: a full embed is ~12 minutes and a full reload is unnecessary. Use
-`--include-restricted` exactly when the owner's reload policy includes restricted text — the
-standing command in STATUS.md does.
+**Never add `--include-restricted` for the shared Neon.** The flag is for a database nobody else can
+read (decision 24); the hosted layer serves open-licence text only. A load with the flag put 46
+restricted documents and 13,192 chunks into the shared database on 2026-11-26.
+
+**A data publish has no rollback artefact.** The loader truncates and refills in one transaction:
+there is no image tag and no snapshot to revert to, and the load is destructive by design. Recovery is
+re-running it from an older checkout — take a `pg_dump` or a Neon branch first when the publish is
+risky.
+
+**Prove whether the runtime actually moved** (a data publish must leave the containers alone):
+
+```bash
+ssh -i ~/.ssh/agent_dsh agent@15.235.248.33 'sudo vps status; grep techlib /var/log/vps-deploy.log | tail -2'
+```
+
+`vps status` gives the container uptimes; the deploy log is world-readable and records `id=… digest=…`
+per ship, so a data publish adds no line and the last line names the image actually running.
+
+`--incremental` matters: a full embed is ~12 minutes and a full reload is unnecessary.
 
 ### 5b. Code only (Python agent, Worker) — deploy the changed piece
 
