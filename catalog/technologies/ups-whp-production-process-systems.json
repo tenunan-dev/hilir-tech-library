@@ -231,6 +231,75 @@
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"
       }
+    },
+    {
+      "metric": "Export — rigid flowline and export pipeline diameter range (TechnipFMC)",
+      "unit": "inch",
+      "basis": "TechnipFMC rigid pipelines: 'range from small diameter 4-inch pipes for oilfield service fluids, to 18-inch infield lines, to larger diameter export trunk lines connecting offshore processing facilities to onshore receiving facilities'",
+      "source": {
+        "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/subsea-infrastructure/rigid-pipelines/",
+        "source_id": "technipfmc-com-rigid-pipelines"
+      },
+      "low": 4,
+      "high": 18
+    },
+    {
+      "metric": "Export — flexible riser diameter, West Desaru WSS pig launcher",
+      "unit": "in (20 cm)",
+      "basis": "West Desaru WSS houses a pig launcher and an 8-in (20-cm) flexible riser",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      },
+      "low": 8,
+      "high": 8
+    },
+    {
+      "metric": "Flare — knock-out drum size range (FlareTech fabricator range)",
+      "unit": "BBL",
+      "basis": "FlareTech Inc. Flare Knockout Drums page: 'designed and manufactured Flare Knockout Drums from small 2 Barrels (BBL) to large 600BBL volumes'",
+      "source": {
+        "url": "https://www.flaretechinc.com/products/flare-knockout-drums",
+        "source_id": "flaretechinc-com-products-flare-knockout-drums"
+      },
+      "low": 2,
+      "high": 600
+    },
+    {
+      "metric": "Design basis — minimum margin between high trip pressure and PSV set pressure (NORSOK P-001 Table 1)",
+      "unit": "bar",
+      "basis": "NORSOK P-001 Ed 5 sec. 4.2.1 Table 1: for a high trip pressure of 0-35 barg the minimum margin is 3.5 bar; above 35 barg it is 10% of PSV set pressure; for systems without a high-pressure trip the margin applies between maximum operating pressure and PSV set pressure",
+      "source": {
+        "url": "https://files.engineering.com/files/a0202012-3c98-4d83-b47c-08dc55d2d885/P-001e5.pdf",
+        "source_id": "norsok-p-001-process-design"
+      }
+    },
+    {
+      "metric": "Design basis — flare and vent line sizing limits (NORSOK P-001 sec. 6.5)",
+      "unit": "kg/ms (rho-V) and Mach",
+      "basis": "NORSOK P-001 Ed 5 sec. 6.5: all flare lines designed to keep rho-V below 200,000 kg/ms; flare headers and sub-headers for a maximum velocity of Mach 0.6",
+      "source": {
+        "url": "https://files.engineering.com/files/a0202012-3c98-4d83-b47c-08dc55d2d885/P-001e5.pdf",
+        "source_id": "norsok-p-001-process-design"
+      }
+    },
+    {
+      "metric": "Design basis — drain header sizes and gravity slopes (NORSOK P-001 sec. 6)",
+      "unit": "DN / slope",
+      "basis": "NORSOK P-001 Ed 5: minimum sewage and open-drain header DN 100 (4 in) with sub-headers DN 80 (3 in); gravity lines minimum downward slope 1:100, and at least 1:50 where mud and/or sand is present; the liquid inlet to a dump caisson should be tangential and sloped downwards",
+      "source": {
+        "url": "https://files.engineering.com/files/a0202012-3c98-4d83-b47c-08dc55d2d885/P-001e5.pdf",
+        "source_id": "norsok-p-001-process-design"
+      }
+    },
+    {
+      "metric": "Export — condensate and gas export line sizes at a minimum facility platform (PTTEP Arthit MFP)",
+      "unit": "in",
+      "basis": "JPT: an 8-in condensate line to a floating storage unit and a 42-in gas export line serve the field; the MFP ties back to the existing wellhead platform by subsea pipeline",
+      "source": {
+        "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+        "source_id": "spe-jpt-designing-efficient-facilities-challenging-locations"
+      }
     }
   ],
   "costs": [],
@@ -351,9 +420,25 @@
       "url": "https://patents.google.com/patent/WO2016067222A1/en",
       "source_id": "whp-patents-google-com-en",
       "note": "Patent WO2016067222A1 Additive management system (OneSubsea IP UK Ltd) — Chemical injection system"
+    },
+    {
+      "url": "https://files.engineering.com/files/a0202012-3c98-4d83-b47c-08dc55d2d885/P-001e5.pdf",
+      "source_id": "norsok-p-001-process-design"
+    },
+    {
+      "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+      "source_id": "spe-jpt-designing-efficient-facilities-challenging-locations"
+    },
+    {
+      "url": "https://library.e.abb.com/public/34d5b70e18f7d6c8c1257be500438ac3/Oil and gas production handbook ed3x0_web.pdf",
+      "source_id": "abb-oil-and-gas-production-handbook"
+    },
+    {
+      "url": "https://thepiping.com/2015/07/what-is-wellhead-platform.html",
+      "source_id": "thepiping-what-is-wellhead-platform"
     }
   ],
-  "notes": "API Spec 6A Wellhead and Christmas tree equipment (listed on the Christmas tree page) — Production manifold / headers with produ | API Spec 17D Subsea wellhead and tree equipment (listed on the Christmas tree page) — Production manifold / headers with produ | ISO 10423:2009 Petroleum and natural gas industries — Drilling and production equipment — Wellhead and Christmas tree equipment — Production manifold / headers with produ | API RP 14C, 8th ed (2017) Analysis, Design, Installation, and Testing of Safety Systems for Offshore Production Facilities — safety flow chart and scope figures — Production manifold / headers with pr | API Spec 6A Wellhead and Christmas tree equipment — examples of manual and actuated tree valve configurations — Chokes and choke manifolds | API Spec 17D Subsea wellhead and tree equipment — Chokes and choke manifolds | ISO 10423:2009 Petroleum and natural gas industries — Wellhead and Christmas tree equipment — Chokes and choke manifolds | Patent US20120273228A",
+  "notes": "API Spec 6A Wellhead and Christmas tree equipment (listed on the Christmas tree page) — Production manifold / headers with produ | API Spec 17D Subsea wellhead and tree equipment (listed on the Christmas tree page) — Production manifold / headers with produ | ISO 10423:2009 Petroleum and natural gas industries — Drilling and production equipment — Wellhead and Christmas tree equipment — Production manifold / headers with produ | API RP 14C, 8th ed (2017) Analysis, Design, Installation, and Testing of Safety Systems for Offshore Production Facilities — safety flow chart and scope figures — Production manifold / headers with pr | API Spec 6A Wellhead and Christmas tree equipment — examples of manual and actuated tree valve configurations — Chokes and choke manifolds | API Spec 17D Subsea wellhead and tree equipment — Chokes and choke manifolds | ISO 10423:2009 Petroleum and natural gas industries — Wellhead and Christmas tree equipment — Chokes and choke manifolds | Patent US20120273228A Process chain as recorded in the sources: well fluid leaves each christmas tree, is gathered in the production manifold (with a separate test header to the test separator or multiphase meter), passes the choke and chemical-injection points, and leaves via the pig launcher and export riser/pipeline to the host; Devold sec. 2.3 is the readable end-to-end description and JPT shows the same chain realised on a minimum facility platform.",
   "last_reviewed": "2026-11-24",
   "gaps": [
     {
@@ -438,14 +523,14 @@
       "field": "performance",
       "item": "Actual riser diameters, wall thicknesses and tensioner ratings for a named WHP/FSO tie-in",
       "reason_code": "not_in_sources_read",
-      "reason": "Only conceptual OEM descriptions read; project-specific riser papers not fetched",
+      "reason": "Diameters are now recorded on this card: rigid flowlines/export pipelines 4-18 in (TechnipFMC) and the West Desaru 8-in flexible riser. Wall thicknesses and tensioner ratings are still not printed on any page read.",
       "where": [
         {
           "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Export risers and subsea pipeline tie-ins to the CPP or FSO",
           "access": "open"
         }
       ],
-      "action": "Fetch project-specific riser paper and record printed dimensions"
+      "action": "Fetch a named WHP/FSO riser design paper or tensioner datasheet and record wall thickness and tensioner rating with basis"
     },
     {
       "field": "performance",
@@ -490,27 +575,27 @@
       "field": "performance",
       "item": "Closed drain system design basis",
       "reason_code": "not_in_sources_read",
-      "reason": "No primary page on closed drain vessel/header design read",
+      "reason": "Drain header sizing and slopes are now recorded from NORSOK P-001 sec. 6 (open-drain header DN 100 / sub-headers DN 80, gravity slope 1:100 or 1:50 with sand). The closed-drain vessel/header design basis (pressure, turndown, routing) is still not printed on any page read.",
       "where": [
         {
           "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Closed drain system and open/slop drain with sump caisson",
           "access": "open"
         }
       ],
-      "action": "Fetch an open design basis or standards preview and record pressure, turndown and routing with basis"
+      "action": "Fetch a closed-drain package datasheet or a WHP drain design basis and record vessel pressure, turndown and routing with basis"
     },
     {
       "field": "performance",
       "item": "Open/slop drain and sump caisson sizing",
       "reason_code": "not_in_sources_read",
-      "reason": "No sump caisson datasheet or design paper read",
+      "reason": "NORSOK P-001 sec. 6/7 gives drain-header sizes and slopes and says the liquid inlet to a dump caisson should be tangential and sloped downwards; sump caisson dimensions are still not printed on any page read.",
       "where": [
         {
           "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Closed drain system and open/slop drain with sump caisson",
           "access": "open"
         }
       ],
-      "action": "Fetch a named design paper and record dimensions/capacity"
+      "action": "Fetch a sump caisson detail drawing or datasheet and record dimensions and capacity with basis"
     },
     {
       "field": "performance",
@@ -529,14 +614,14 @@
       "field": "performance",
       "item": "Flare tip diameter, radiation limit and stack height for a specific WHP",
       "reason_code": "not_in_sources_read",
-      "reason": "No project flare design sheet read",
+      "reason": "Flare KO drum size range (2-600 bbl, FlareTech) is now recorded on this card. Tip diameter, radiation limit and stack height for a specific WHP are still not printed on a page read.",
       "where": [
         {
           "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Vents / flare tip",
           "access": "open"
         }
       ],
-      "action": "Fetch a flare design paper and record printed values"
+      "action": "Fetch a WHP flare design sheet or flare tip datasheet and record tip diameter, radiation limit and stack height with basis"
     },
     {
       "field": "performance",

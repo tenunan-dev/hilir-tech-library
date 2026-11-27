@@ -1,0 +1,31 @@
+{
+  "id": "abb-oil-and-gas-production-handbook",
+  "name": "Oil and Gas Production Handbook: An Introduction to Oil and Gas Production, Transport, Refining and Petrochemical Industry (edition 3.0)",
+  "url": "https://library.e.abb.com/public/34d5b70e18f7d6c8c1257be500438ac3/Oil and gas production handbook ed3x0_web.pdf",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "subtopics": [
+    "Upstream process chain: wellheads, manifolds and gathering, separation, metering/storage/export, utilities"
+  ],
+  "publisher_org": "ABB Oil and Gas (author Havard Devold)",
+  "country": "NO",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "ABB copyright (ISBN 978-82-997886-3-2); electronic copy and one hard copy permitted for non-commercial or personal use within the employing organisation, unmodified and with notices retained",
+  "reuse_level": "full-text-restricted",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "Best free end-to-end description of how the upstream chain fits together: chap. 2.3.1 wellheads, 2.3.2 manifolds and gathering, 2.3.3 separation, 2.3.4 metering/storage/export, 2.3.5 utility systems, then midstream (gas plants, compression, pipelines, LNG), refining and petrochemical. 162 pp, edition 3.0 (August 2013). ABB-hosted PDF downloaded and text-extracted 2026-11-27 (HTTP 200, application/pdf, 3.1 MB); summary written from the preface, contents and chapter 2.",
+  "verification": "verified",
+  "last_verified": "2026-11-27"
+}

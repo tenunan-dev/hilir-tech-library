@@ -331,6 +331,37 @@
       "source": {
         "url": "http://jip33.iogp.org/wp-content/uploads/2022/09/Specification-for-Diesel-Generator-Package-ISOIEC-Offshore-With-Justifications-S-714-1Jv2022-09.pdf"
       }
+    },
+    {
+      "metric": "Reliability — Instrument air pressure dew point margin below the coldest exposed instrument",
+      "unit": "degC",
+      "low": 10,
+      "high": 10,
+      "basis": "Atlas Copco instrument-air quality page, citing ANSI/ISA-7.0.01-1996: the dryer outlet pressure dew point should be 'at least 10°C (18°F) below the lowest temperature' that any part of the instrument system sees",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/wiki/compressed-air-articles/instrument-air-quality",
+        "source_id": "atlascopco-com-compressed-air-articles-instrument-air-quality"
+      }
+    },
+    {
+      "metric": "Reliability — Instrument air pressure dew point limit at line pressure",
+      "unit": "degC",
+      "low": 4,
+      "high": 4,
+      "basis": "Atlas Copco instrument-air quality page, citing ANSI/ISA-7.0.01-1996: pressure dew point 'should not exceed 4°C (39°F) at line pressure'",
+      "source": {
+        "url": "https://www.atlascopco.com/en-us/compressors/wiki/compressed-air-articles/instrument-air-quality",
+        "source_id": "atlascopco-com-compressed-air-articles-instrument-air-quality"
+      }
+    },
+    {
+      "metric": "Power — solar/battery autonomy on an unmanned minimum facility platform (PTTEP Arthit MFP)",
+      "unit": "h",
+      "basis": "JPT: solar power with battery back-up sized for 96 h of process control and 192 h of safety load, with a possible diesel generator for lighting and small loads",
+      "source": {
+        "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+        "source_id": "spe-jpt-designing-efficient-facilities-challenging-locations"
+      }
     }
   ],
   "costs": [
@@ -667,6 +698,14 @@
       "url": "https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf",
       "source_id": "whp-jip33-iogp-org-specification-for-firewater-pump-package-s",
       "note": "IOGP S-721 Specification for Firewater Pump Package — Firewater pumps, deluge/sprinkler system"
+    },
+    {
+      "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+      "source_id": "spe-jpt-designing-efficient-facilities-challenging-locations"
+    },
+    {
+      "url": "https://library.e.abb.com/public/34d5b70e18f7d6c8c1257be500438ac3/Oil and gas production handbook ed3x0_web.pdf",
+      "source_id": "abb-oil-and-gas-production-handbook"
     }
   ],
   "notes": "Patent US20220069575A1 Power supply system for an offshore platform (Equinor Energy AS) — Power generation | BS ISO 8217:2017 Class DMA Petroleum products - Fuels (class F) - Specifications of marine fuels — Diesel storage and transfer | BS 2869 Fuel oils for agricultural, domestic and industrial engines and boilers — Diesel storage and transfer | API 650 Welded Tanks for Oil Storage — Diesel storage and transfer | API 620 Design and Construction of Large, Welded, Low-pressure Storage Tanks — Diesel storage and transfer | BS EN 14015:2004 Specification for the design and manufacture of site built, vertical, cylindrical, flat-bottomed, above ground, welded, steel tanks — Diesel storage and transfer | ASTM D975 Standard Specification for Diesel Fuel — Diesel storage and transfer | NFPA 30 Flammable and Combustible Liquids Code — Diesel storage and transfer | NFPA 37 Standard for the Installation and Use of Stationary Combustion Engines and Gas Turbines — Diesel storage and transfer | Dri",
@@ -723,19 +762,6 @@
         }
       ],
       "action": "Fetch an OEM fuel-transfer-pump datasheet with flow, head and material specs"
-    },
-    {
-      "field": "performance",
-      "item": "Instrument/utility air",
-      "reason_code": "not_in_sources_read",
-      "reason": "No instrument-air dew point class (e.g. ISO 8573) or air-quality standard page was read",
-      "where": [
-        {
-          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Instrument/utility air compressors, receivers and dryers",
-          "access": "open"
-        }
-      ],
-      "action": "Fetch ISO 8573 (or equivalent) publisher page and an OEM dryer datasheet with pressure dew point"
     },
     {
       "field": "performance",

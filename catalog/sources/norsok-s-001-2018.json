@@ -1,0 +1,31 @@
+{
+  "id": "norsok-s-001-2018",
+  "name": "NORSOK S-001:2018 Technical safety",
+  "url": "https://online.standard.no/en/norsok-s-001-2018",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID"
+  ],
+  "disciplines": [
+    "HSE",
+    "PRC"
+  ],
+  "subtopics": [
+    "Technical safety: area classification, fire and gas, ESD, escape, deluge"
+  ],
+  "publisher_org": "Standards Norway",
+  "country": "NO",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "paywalled",
+  "licence": "proprietary",
+  "reuse_level": "catalog-only",
+  "quality_tier": 1,
+  "update_frequency": "irregular",
+  "notes": "The Norwegian technical-safety standard behind many WHP safety-system requirements (area classification, fire and gas detection, ESD philosophy, escape and evacuation, deluge). Standards Norway now sells NORSOK standards: standard.no states access is by subscription, collection or single purchase, and no free official download exists (checked 2026-11-27). Third-party copies circulate (silo.tips, pdfcoffee, kupdf) but are unofficial and are not cited here.",
+  "verification": "verified",
+  "last_verified": "2026-11-27"
+}

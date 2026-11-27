@@ -58,7 +58,7 @@
     {
       "metric": "design pressure",
       "unit": "psi",
-      "basis": "As printed on the manufacturer page/data sheet at the product url; page read with WebFetch",
+      "basis": "Not printed on the cited Emerson product page when re-read 2026-11-27 (that page gives only 'a choice of flange types and pressure ratings' and 'available in 6 sizes', with no numbers); the figure is carried from an earlier sweep and is UNVERIFIED - cite the Roxar 2600 data sheet before use.",
       "source": {
         "url": "https://www.emerson.com/en/measurement-instrumentation/products/roxar-2600-multiphase-flow-meter",
         "source_id": "cat-emerson-com-roxar-2600-multiphase-flow-meter"

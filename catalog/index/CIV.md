@@ -1,6 +1,6 @@
 # CIV: Civil and structural
 
-711 sources. Sub-topics: structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting.
+712 sources. Sub-topics: structural-steel, foundations-piling, pipe-racks, modular-construction, ibs, offshore-structures, floating-structures, concrete, blast-resistance, fireproofing, seismic, temporary-works-lifting.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -542,6 +542,7 @@
 | [China International Marine Containers (Wikipedia)](https://en.wikipedia.org/wiki/China_International_Marine_Containers) | oem-supplier | global, sea | open | summary-only |
 | [COSCO (Wikipedia)](https://en.wikipedia.org/wiki/COSCO) | oem-supplier | global, sea | open | summary-only |
 | [Daily Express - Second 100MW Kimanis power plant to boost grid electricity](https://www.dailyexpress.com.my/news/245913/second-100mw-kimanis-power-plant-to-boost-grid-electricity) | oem-supplier | sea | open | summary-only |
+| [Designing Efficient Facilities in Challenging Locations (JPT)](https://jpt.spe.org/designing-efficient-facilities-challenging-locations) | journal | global, sea, latam, me | open | summary-only |
 | [DIALOG Tarpon — Balai/Bentara/Spaoh/West Acis project page](https://www.tarponsystems.com/wellhead-platforms-for-balai-bentara-spaoh-and-west-acis-fields) | oem-supplier | sea | open | summary-only |
 | [DIALOG Tarpon — What We Do (standards, capability, installations)](https://www.tarponsystems.com/what-we-do) | oem-supplier | global, sea | open | summary-only |
 | [DIALOG Tarpon — Zuhal East EPCIC project page](https://www.tarponsystems.com/epcic-for-zuhal-east-development-project) | oem-supplier | sea | open | summary-only |

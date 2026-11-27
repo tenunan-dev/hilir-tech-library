@@ -10106,7 +10106,7 @@ Vendors: SLB (Cameron pressure control equipment), Emerson (duplex stainless ste
 | TechnipFMC MPM GVF range | 0-100 % GVF | TechnipFMC Production page; page read |
 | GVF / WLR | 0-100% / 0-100% % | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
 | sizes | 6 sizes; 1.5-8 in in | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
-| design pressure | 3,750 psi ANSI / 5,000 psi hub psi | As printed on the manufacturer page/data sheet at the product url; page read with WebFetch |
+| design pressure | 3,750 psi ANSI / 5,000 psi hub psi | Not printed on the cited Emerson product page when re-read 2026-11-27 (that page gives only 'a choice of flange types and pressure ratings' and 'available in 6 sizes', with no numbers); the figure is carried from an earlier sweep and is UNVERIFIED - cite the Roxar 2600 data sheet before use. |
 | Available meter sizes | 6 sizes | "Roxar™ 2600 MPFM is available in 6 sizes" |
 | Gas volume fraction range | 0-100 % GVF | "high accuracy multiphase flow measurement for all phases within the full range of flowing conditions, 0-100% GVF and 0-100% WLR" |
 | Water liquid ratio range | 0-100 % WLR | "0-100% GVF and 0-100% WLR" |

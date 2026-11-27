@@ -448,6 +448,35 @@
         "url": "https://2hoffshore.com/projects/se-asia-minimum-facilities-platform-design",
         "source_id": "2hoffshore-com-projects-se-asia-minimum-facilities-platform-design"
       }
+    },
+    {
+      "metric": "Operation — visit interval for an unmanned minimum facility platform (PTTEP Arthit MFP)",
+      "unit": "weeks (maximum between visits)",
+      "low": 4,
+      "high": 4,
+      "basis": "JPT: 'unmanned operation with visits no more than every 4 weeks and remote control from the processing platform'",
+      "source": {
+        "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+        "source_id": "spe-jpt-designing-efficient-facilities-challenging-locations"
+      }
+    },
+    {
+      "metric": "MFP lower-deck process inventory (PTTEP Arthit MFP)",
+      "unit": "equipment list",
+      "basis": "JPT lists the MFP lower deck as booster compressor, test separator, manifolds, wellhead control panel, pig launcher, provisional space for a future pig receiver, and SCADA; the test separator is integrated with the booster compressor and uses gas and liquid flowmeters plus a water-cut meter on the blowcase outlet",
+      "source": {
+        "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+        "source_id": "spe-jpt-designing-efficient-facilities-challenging-locations"
+      }
+    },
+    {
+      "metric": "MFP deck area and cost effect (PTTEP Arthit MFP)",
+      "unit": "% reduction",
+      "basis": "JPT: estimated 20% decrease in overall platform deck area and up to 30% overall cost reduction, with pipeline sizes dropping from 12/16 in to 10/12 in and ERW pipe replacing seamless carbon steel",
+      "source": {
+        "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+        "source_id": "spe-jpt-designing-efficient-facilities-challenging-locations"
+      }
     }
   ],
   "costs": [
@@ -603,9 +632,17 @@
       "url": "https://patents.google.com/patent/US4932811A/en",
       "source_id": "whp-patents-google-com-en",
       "note": "Patent US4932811A Well head conductor and/or caisson support system (Robert Folding (Individual)) — Minimum-facility WHP logistics: designed"
+    },
+    {
+      "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+      "source_id": "spe-jpt-designing-efficient-facilities-challenging-locations"
+    },
+    {
+      "url": "https://library.e.abb.com/public/34d5b70e18f7d6c8c1257be500438ac3/Oil and gas production handbook ed3x0_web.pdf",
+      "source_id": "abb-oil-and-gas-production-handbook"
     }
   ],
-  "notes": "API RP 2A-WSD Recommended practice for planning, designing and constructing fixed offshore platforms (18th ed. 1989 as cited) — Jacket structure | DNV-RP-C203 Fatigue design of offshore steel structures (Edition 2024-10, amended 2025-10) — Jacket structure | Patent CN103758095A Offshore jacket production platform (China National Offshore Oil Corp CNOOC; CNOOC Research Institute Co Ltd) — Jacket structure | Patent US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks (McDermott International Inc) — Jacket structure | Patent US4932811A Well head conductor and/or caisson support system (Robert Folding (Individual)) — Jacket structure | AISC specification Specification for the design, fabrication and erection of structural steel for buildings (cited as frequently used for topside detail design) — Topside decks | AWS D1.1-90 Structural Welding Code - Steel (cited as the structural offshore welding code) — Topside decks | API RP 2A-WSD Recommend",
+  "notes": "API RP 2A-WSD Recommended practice for planning, designing and constructing fixed offshore platforms (18th ed. 1989 as cited) — Jacket structure | DNV-RP-C203 Fatigue design of offshore steel structures (Edition 2024-10, amended 2025-10) — Jacket structure | Patent CN103758095A Offshore jacket production platform (China National Offshore Oil Corp CNOOC; CNOOC Research Institute Co Ltd) — Jacket structure | Patent US5513929A Fixed offshore platform structures, using small diameter, tensioned, well casing tiebacks (McDermott International Inc) — Jacket structure | Patent US4932811A Well head conductor and/or caisson support system (Robert Folding (Individual)) — Jacket structure | AISC specification Specification for the design, fabrication and erection of structural steel for buildings (cited as frequently used for topside detail design) — Topside decks | AWS D1.1-90 Structural Welding Code - Steel (cited as the structural offshore welding code) — Topside decks | API RP 2A-WSD Recommend The blanket claim that a minimum facility platform carries no separators or compression is not supported: the PTTEP Arthit MFP lower deck carries a booster compressor integrated with a test separator (JPT). What stays on the host is production separation, produced-water treatment and export compression, not the well-test and boosting duty.",
   "last_reviewed": "2026-11-24",
   "gaps": [
     {
@@ -701,19 +738,6 @@
     },
     {
       "field": "performance",
-      "item": "Visit frequency rule for crewed visits",
-      "reason_code": "not_in_sources_read",
-      "reason": "The read pages say \"occasionally\" or \"regular visits\" but give no numeric interval; the fortnightly-visit statement in the source chat was not verified.",
-      "where": [
-        {
-          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Helideck",
-          "access": "open"
-        }
-      ],
-      "action": "Find an operator or regulator page stating the actual visit interval for Malaysian WHPs."
-    },
-    {
-      "field": "performance",
       "item": "MFP cost with dollar year",
       "reason_code": "not_in_sources_read",
       "reason": "2H states the CoSMOS design was lowest cost but gives no USD figure; no dollar-year cost was read.",
@@ -724,45 +748,6 @@
         }
       ],
       "action": "Fetch a project page printing a dated USD cost."
-    },
-    {
-      "field": "performance",
-      "item": "Onboard processing inventory for the SE Asia MFP",
-      "reason_code": "not_in_sources_read",
-      "reason": "The 2H page names a multiphase flow meter and power sources but does not list separators, produced-water treatment or gas compression as absent.",
-      "where": [
-        {
-          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Minimum-facility WHP logistics: designed for jack-up-rig ins",
-          "access": "open"
-        }
-      ],
-      "action": "Fetch a facilities scope page to confirm which processing equipment is omitted."
-    },
-    {
-      "field": "performance",
-      "item": "No separators / produced-water treatment / gas compression onboard",
-      "reason_code": "not_in_sources_read",
-      "reason": "Not stated explicitly on any page read; inference from \"minimum facility and unmanned\" and from processing equipment being on the FPSO is NOT recorded as a fact.",
-      "where": [
-        {
-          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Malaysian WHP operating context: normally unmanned, no separ",
-          "access": "open"
-        }
-      ],
-      "action": "Fetch a PETRONAS/Vestigo WHP facilities-scope page listing equipment excluded from the WHP."
-    },
-    {
-      "field": "performance",
-      "item": "Fortnightly visits",
-      "reason_code": "not_in_sources_read",
-      "reason": "The fortnightly interval appears in the source chat only; read pages say \"occasionally\" or \"regular visits\" without a number.",
-      "where": [
-        {
-          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Malaysian WHP operating context: normally unmanned, no separ",
-          "access": "open"
-        }
-      ],
-      "action": "Verify with an operator or regulator page before recording."
     }
   ]
 }

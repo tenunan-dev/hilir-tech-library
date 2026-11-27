@@ -1,0 +1,31 @@
+{
+  "id": "norsok-p-001-process-design",
+  "name": "NORSOK P-001 Process design (Edition 5, September 2006)",
+  "url": "https://files.engineering.com/files/a0202012-3c98-4d83-b47c-08dc55d2d885/P-001e5.pdf",
+  "source_type": "standards-body",
+  "sectors": [
+    "UPS",
+    "MID",
+    "GAS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "subtopics": [
+    "Design pressure and temperature, secondary pressure protection, line sizing, flare and drain rules"
+  ],
+  "publisher_org": "Standards Norway (mirrored copy on Engineering.com)",
+  "country": "NO",
+  "regions": [
+    "eu",
+    "global"
+  ],
+  "access": "open",
+  "licence": "NORSOK / Standards Norway copyright; this is an unofficial mirrored copy hosted without a licence",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "notes": "Edition 5 (Sep 2006), 26 pp, unofficial mirror verified 2026-11-27 (HTTP 200, application/pdf, 94.5 kB). Content read: sec. 4 design pressure/temperature (Table 1 margin - high trip 0-35 barg at least 3.5 bar below PSV set; above 35 barg 10% of set pressure), sec. 5 safety-instrumented secondary pressure protection, sec. 6 line sizing (gravity drains 1:100, 1:50 with sand; sewage/open drain header DN 100, sub-headers DN 80; flare lines rho-V below 200,000 kg/ms and flare headers Mach 0.6), sec. 7 system/equipment requirements incl. flare, vent and closed-drain connections. Superseded edition - the current P-001 is sold by Standards Norway; cite this only as background, not as the governing issue.",
+  "verification": "verified",
+  "last_verified": "2026-11-27"
+}

@@ -333,6 +333,72 @@
         "url": "https://www.slb.com/products-and-services/innovating-in-oil-and-gas/reservoir-characterization/reservoir-testing/surface-testing/surface-multiphase-flowmetering/vx-spectra-surface-multiphase-flowmeter",
         "source_id": "whp-slb-com-vx-spectra-surface-multiphase-flowmeter"
       }
+    },
+    {
+      "metric": "Reliability — Required SIL - ESD isolation of the production/injection bore of one topside well",
+      "unit": "SIL",
+      "low": 3,
+      "high": 3,
+      "basis": "Offshore Norge guideline No. 070 rev 06, Table A.6.5 (isolation of topside well functions); the same requirement is recorded on the control/safety card",
+      "source": {
+        "url": "https://www.offshorenorge.no/contentassets/adc7e1512f90400cb7fe9f314600bed6/070---recommended-guidelines-for-the-application-of-iec-61508-and-iec-61511-rev.-06.pdf",
+        "source_id": "whp-offshorenorge-no-070-recommended-guidelines-for-the-applic"
+      }
+    },
+    {
+      "metric": "Slot count — conductor slots per platform (Tarpon KMSE/AJK WHP)",
+      "unit": "slots",
+      "basis": "KMSE and AJK WHPs: three 20-inch conductor slots internal to caisson, two utilised and one spare",
+      "source": {
+        "url": "https://www.tarponsystems.com/installation-of-two-wellhead-platforms-for-kayu-manis-south-east-and-anjung-kecil",
+        "source_id": "tarponsystems-com-www-tarponsystems-com-installation-of-two-wellhe"
+      },
+      "low": 3,
+      "high": 3
+    },
+    {
+      "metric": "Well bay — wellhead flowline connections, design growth (West Desaru WSS)",
+      "unit": "connections",
+      "basis": "West Desaru WSS topsides: wellhead flowline connections grew from 18 slots at outset to 28 because of drilling/completion scope growth",
+      "source": {
+        "url": "https://www.offshore-mag.com/subsea/article/16760031/conductor-supported-platform-brings-multiple-benefits-for-malaysia-field-tie-in",
+        "source_id": "offshore-mag-com-16760031-conductor-supported-platform-brings-mult"
+      },
+      "low": 18,
+      "high": 28
+    },
+    {
+      "metric": "Christmas tree / wellhead — API 6A pressure classes",
+      "unit": "psi (class range)",
+      "low": 2000,
+      "high": 20000,
+      "basis": "WellheadNet API 6A explainer prints the classes 2,000 / 3,000 / 5,000 / 10,000 / 15,000 / 20,000 psi (138 / 207 / 345 / 690 / 1,034 / 1,379 bar) plus an extended 20,000 psi class; API 6A governs the design, manufacture, testing and documentation of wellhead and christmas tree equipment, with ISO 10423 technically equivalent (secondary vendor explanation, not the standard text)",
+      "source": {
+        "url": "https://www.wellheadnet.com/news/industry-news/what-is-api-6a-and-why-does-it-matter-for.html",
+        "source_id": "wellheadnet-api-6a"
+      }
+    },
+    {
+      "metric": "Christmas tree / wellhead — API 6A temperature classes",
+      "unit": "degC (class range)",
+      "low": -60,
+      "high": 149,
+      "basis": "WellheadNet API 6A explainer prints K -60 to 82 C (-75 to 180 F), L -46 to 82 C (-50 to 180 F), P -29 to 82 C (-20 to 180 F), R -18 to 121 C (0 to 250 F), S -18 to 149 C (0 to 300 F), T -18 to 121 C (0 to 250 F)",
+      "source": {
+        "url": "https://www.wellheadnet.com/news/industry-news/what-is-api-6a-and-why-does-it-matter-for.html",
+        "source_id": "wellheadnet-api-6a"
+      }
+    },
+    {
+      "metric": "Well bay — well slots on a minimum facility platform versus a conventional platform (PTTEP Arthit MFP)",
+      "unit": "slots",
+      "low": 9,
+      "high": 15,
+      "basis": "JPT: the MFP has 'between 9 and 15 well slots' against 16 on a conventional platform in the same field; it ties back to the existing central wellhead platform by subsea pipeline",
+      "source": {
+        "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+        "source_id": "spe-jpt-designing-efficient-facilities-challenging-locations"
+      }
     }
   ],
   "costs": [],
@@ -453,24 +519,27 @@
       "url": "https://patents.google.com/patent/AU2015261530B2/en",
       "source_id": "whp-patents-google-com-en",
       "note": "Patent AU2015261530B2 Subsea universal Xmas tree hang-off adapter (Aker Solutions AS) — Gas lift manifold and flowlines for arti"
+    },
+    {
+      "url": "https://www.wellheadnet.com/news/industry-news/what-is-api-6a-and-why-does-it-matter-for.html",
+      "source_id": "wellheadnet-api-6a"
+    },
+    {
+      "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+      "source_id": "spe-jpt-designing-efficient-facilities-challenging-locations"
+    },
+    {
+      "url": "https://library.e.abb.com/public/34d5b70e18f7d6c8c1257be500438ac3/Oil and gas production handbook ed3x0_web.pdf",
+      "source_id": "abb-oil-and-gas-production-handbook"
+    },
+    {
+      "url": "https://thepiping.com/2015/07/what-is-wellhead-platform.html",
+      "source_id": "thepiping-what-is-wellhead-platform"
     }
   ],
-  "notes": "ISO 10423:2022 Petroleum and natural gas industries - Drilling and production equipment - Wellhead and tree equipment — Wellheads and Christmas trees | ISO 10423:2009 (withdrawn) Petroleum and natural gas industries - Drilling and production equipment - Wellhead and christmas tree equipment; defines PSL 1, 2, 3, 3G and 4 — Wellheads and Christmas tre | API Spec 6A, 21st edition (2018) Referenced by ISO 10423:2022 as the specification supplemented by that document — Wellheads and Christmas trees | API 6A and API 17D Identify valve configurations of subsea and surface trees — Wellheads and Christmas trees | Patent US6805200B2 Horizontal spool tree wellhead system and method (Dril Quip Inc (original assignee; current assignee Innovex International Inc)) — Wellheads and Christmas trees | Patent AU2015261530B2 Subsea universal Xmas tree hang-off adapter (Aker Solutions AS) — Wellheads and Christmas trees | Patent GB2385347A Concentric tubing completion system (Fmc Technologies) — Wellheads ",
+  "notes": "ISO 10423:2022 Petroleum and natural gas industries - Drilling and production equipment - Wellhead and tree equipment — Wellheads and Christmas trees | ISO 10423:2009 (withdrawn) Petroleum and natural gas industries - Drilling and production equipment - Wellhead and christmas tree equipment; defines PSL 1, 2, 3, 3G and 4 — Wellheads and Christmas tre | API Spec 6A, 21st edition (2018) Referenced by ISO 10423:2022 as the specification supplemented by that document — Wellheads and Christmas trees | API 6A and API 17D Identify valve configurations of subsea and surface trees — Wellheads and Christmas trees | Patent US6805200B2 Horizontal spool tree wellhead system and method (Dril Quip Inc (original assignee; current assignee Innovex International Inc)) — Wellheads and Christmas trees | Patent AU2015261530B2 Subsea universal Xmas tree hang-off adapter (Aker Solutions AS) — Wellheads and Christmas trees | Patent GB2385347A Concentric tubing completion system (Fmc Technologies) — Wellheads  How the systems connect: Devold (ABB handbook) sec. 2.3 lays the upstream chain out as wellheads -> manifolds and gathering -> separation -> metering, storage and export -> utility systems; ThePiping lists the WHP deck inventory as christmas tree, production manifold, lift-gas and water-injection manifolds, test manifold with test separator and measurement, and pig launcher, with subsea lines to the process platform.",
   "last_reviewed": "2026-11-24",
   "gaps": [
-    {
-      "field": "performance",
-      "item": "4-12 slots typical range",
-      "reason_code": "not_in_sources_read",
-      "reason": "The Mistral source states 4-12 slots but no fetched page confirms that range; a Tarpon platform has 3 slots and West Desaru 28 connections",
-      "where": [
-        {
-          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Drilling slots / well bays",
-          "access": "open"
-        }
-      ],
-      "action": "Find a primary page or standard that prints a slot-count range before recording it"
-    },
     {
       "field": "performance",
       "item": "slot spacing and wellbay layout",
@@ -483,19 +552,6 @@
         }
       ],
       "action": "Source a GA drawing with printed slot spacing"
-    },
-    {
-      "field": "performance",
-      "item": "printed pressure class table for API 6A (2,000/3,000/5,000/10,000/15,000/20,000 psi)",
-      "reason_code": "not_in_sources_read",
-      "reason": "No fetched page printed the full API 6A pressure class table",
-      "where": [
-        {
-          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Wellheads and Christmas trees",
-          "access": "open"
-        }
-      ],
-      "action": "Read the standard or an OEM datasheet that prints the class table"
     },
     {
       "field": "performance",
@@ -548,19 +604,6 @@
         }
       ],
       "action": "Find an WHP ESD philosophy or layout drawing"
-    },
-    {
-      "field": "performance",
-      "item": "SIL target for WHP ESD functions",
-      "reason_code": "not_in_sources_read",
-      "reason": "SIL tables are generic; no WHP-specific SIL allocation found",
-      "where": [
-        {
-          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for ESD stations at strategic locations",
-          "access": "open"
-        }
-      ],
-      "action": "Find a project-specific SIL study"
     },
     {
       "field": "performance",

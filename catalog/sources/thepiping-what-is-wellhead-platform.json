@@ -1,0 +1,27 @@
+{
+  "id": "thepiping-what-is-wellhead-platform",
+  "name": "What Is Wellhead Platform",
+  "url": "https://thepiping.com/2015/07/what-is-wellhead-platform.html",
+  "source_type": "trade-media",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC"
+  ],
+  "subtopics": [
+    "Equipment inventory and connections on a wellhead platform"
+  ],
+  "publisher_org": "ThePiping.com",
+  "regions": [
+    "global",
+    "sea"
+  ],
+  "access": "open",
+  "licence": "site terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "notes": "Short practitioner explainer that lists what sits on a wellhead platform and how it connects: christmas tree per well, a production manifold receiving well fluid from all wells, a lift-gas manifold feeding gas-lift wells, a water-injection manifold feeding injection wells, a test manifold with test separator and oil/gas/water measurement, and a pig launcher; fluids leave by subsea lines to a process platform. Useful as the plain-language chain; it names no ratings and no project. Page read 2026-11-27.",
+  "verification": "verified",
+  "last_verified": "2026-11-27"
+}

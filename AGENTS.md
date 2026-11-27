@@ -29,11 +29,11 @@
 - Do not touch auth internals, DNS, or application content without an explicit owner ask.
   Estate record: `hilir-access/docs/STATUS.md`.
 
-### Where the work stands (2026-11-24, after the gas-fired boiler sweep)
+### Where the work stands (2026-11-27, after the WHP gap and literature pass)
 
 | Item | Count (from `python tools/build.py`) |
 | --- | --- |
-| Catalog sources | 2,369 valid, 2,369 unique ids |
+| Catalog sources | 2,375 valid, 2,375 unique ids |
 | Technology cards | 402 (417-entry register) |
 | Vendor records | 1,342 |
 | Equipment classes | 505 (75 Alaska GEG WBS line items; 41 WHP component classes from the Mistral-chat sweep, 58 boiler types/components from the first sweep, plus 23 supporting systems: feedwater pretreatment, RO/EDI, chemical dosing, sampling, blowdown recovery, cleaning, steam traps, condensate pumps/polishing, separators, PRV/desuperheating, expansion joints, silencers, insulation, gas boosters, pilots/ignition, instrument air, SCR reagent, circulation/feedwater pumps, MCC/VFD and HRSG bypass dampers) |

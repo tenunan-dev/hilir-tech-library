@@ -1,6 +1,6 @@
 # ROT: Rotating and static equipment
 
-1263 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
+1267 sources. Sub-topics: compressors, pumps, turbines, heat-exchangers, vessels, valves, packing-internals.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -684,6 +684,7 @@
 | [Cummins Inc. — Cummins diesel generator sets (Quiet Diesel, Standard Diesel, Centum Series)](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins — Cummins diesel genset rating range](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins — Cummins natural-gas genset range](https://www.cummins.com/generators) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Designing Efficient Facilities in Challenging Locations (JPT)](https://jpt.spe.org/designing-efficient-facilities-challenging-locations) | journal | global, sea, latam, me | open | summary-only |
 | [DIALOG Tarpon — Balai/Bentara/Spaoh/West Acis project page](https://www.tarponsystems.com/wellhead-platforms-for-balai-bentara-spaoh-and-west-acis-fields) | oem-supplier | sea | open | summary-only |
 | [DIALOG Tarpon — What We Do (standards, capability, installations)](https://www.tarponsystems.com/what-we-do) | oem-supplier | global, sea | open | summary-only |
 | [DIALOG Tarpon — Zuhal East EPCIC project page](https://www.tarponsystems.com/epcic-for-zuhal-east-development-project) | oem-supplier | sea | open | summary-only |
@@ -1105,6 +1106,7 @@
 | [NFPA 37](https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf) | standards-body | global | open | summary-only |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
 | [OCIMF Books catalogue](https://www.ocimf.org/publications/books) | oem-supplier | global | open | summary-only |
+| [Oil and Gas Production Handbook: An Introduction to Oil and Gas Production, Transport, Refining and Petrochemical Industry (edition 3.0)](https://library.e.abb.com/public/34d5b70e18f7d6c8c1257be500438ac3/Oil and gas production handbook ed3x0_web.pdf) | oem-supplier | global | open | full-text-restricted |
 | [Ovivo (Christ Water Technology / Kennicott)](https://filtsep.com/content/news/ovivo-wins-contracts-in-the-asian-electronics-and-energy-markets) | oem-supplier | global, na | open | summary-only |
 | [PI2015002104 ZEEPod patent (number stated on ZEE Engineering achievements page)](https://zee-eng.com/profile-and-history) | patents | global | open | summary-only |
 | [PLN ultra-low-NOx package burner](https://zeeco.com/resources/brochures/pln-ultra-low-nox-package-burner) | oem-supplier | global, na | open | summary-only |
@@ -1239,6 +1241,7 @@
 | [Linde Engineering](https://www.linde-engineering.com/) | licensor | global | open | full-text-restricted |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
 | [Nel Hydrogen](https://nelhydrogen.com/) | oem-supplier | global | open | full-text-restricted |
+| [NORSOK P-001 Process design (Edition 5, September 2006)](https://files.engineering.com/files/a0202012-3c98-4d83-b47c-08dc55d2d885/P-001e5.pdf) | standards-body | eu, global | open | summary-only |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
 | [Offshore Magazine — Tarpon monotower develops further from 37 field applications (1999)](https://www.offshore-mag.com/equipment-engineering/article/16757693/tarpon-monotower-develops-further-from-37-field-applications) | oem-supplier | global | open | summary-only |
 | [Oil platform (offshore platform)](https://en.wikipedia.org/wiki/Offshore_platform) | oem-supplier | global | open | full-text-open |
@@ -1266,4 +1269,5 @@
 | [Offshore magazine](https://www.offshore-mag.com/) | trade-media | global | open | summary-only (unverified) |
 | [STAL (Chinese refrigeration/pumps)](https://www.stal.com.cn) | oem-supplier | global | open | catalog-only (unverified) |
 | [Turbomachinery International](https://www.turbomachinerymag.com) | trade-media | global | open | catalog-only |
+| [What Is API 6A and Why It Matters for Wellhead and Christmas Tree Equipment](https://www.wellheadnet.com/news/industry-news/what-is-api-6a-and-why-does-it-matter-for.html) | oem-supplier | global | open | summary-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

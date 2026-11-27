@@ -1,0 +1,31 @@
+{
+  "id": "spe-jpt-designing-efficient-facilities-challenging-locations",
+  "name": "Designing Efficient Facilities in Challenging Locations (JPT)",
+  "url": "https://jpt.spe.org/designing-efficient-facilities-challenging-locations",
+  "source_type": "journal",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT",
+    "CIV"
+  ],
+  "subtopics": [
+    "Minimum facility platform layout: lower-deck equipment, well slots, power autonomy, visit interval"
+  ],
+  "publisher_org": "Society of Petroleum Engineers (Journal of Petroleum Technology)",
+  "regions": [
+    "global",
+    "sea",
+    "latam",
+    "me"
+  ],
+  "access": "open",
+  "licence": "SPE copyright, free to read",
+  "reuse_level": "summary-only",
+  "quality_tier": 2,
+  "notes": "Three facility cases; the third is a PTTEP minimum facility platform (MFP) in the Arthit field, Gulf of Thailand: 262.5 ft water depth, 9-15 well slots versus 16 conventional, lower deck carrying a booster compressor, test separator, manifolds, wellhead control panel, pig launcher, provisional pig receiver and SCADA, a mobile pig launcher for subsea pigging, solar power with battery back-up (96 h process control, 192 h safety), an 8-in condensate line to a floating storage unit and a 42-in gas export line, unmanned with visits no more than every 4 weeks, and an estimated 20% deck-area and up to 30% cost reduction. Page read 2026-11-27.",
+  "verification": "verified",
+  "last_verified": "2026-11-27"
+}

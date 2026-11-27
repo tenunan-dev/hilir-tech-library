@@ -1,6 +1,6 @@
 # PRC: Process systems
 
-1916 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
+1922 sources. Sub-topics: simulation, process-design, heat-integration, separation, reaction-engineering, catalysis.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -838,6 +838,7 @@
 | [cummins.com](https://www.cummins.com/en-na/generators/products/gta50e) | oem-supplier | global, sea, apac | open | summary-only |
 | [cummins.com](https://www.cummins.com/en-na/generators/products/hsk78g-gas-generator-series) | oem-supplier | global, sea, apac | open | summary-only |
 | [Daikin Hybrid AHU DDS Series brochure (241105_HA_REV_A)](https://daikinapplied.co.id/wp-content/uploads/2025/05/Hybrd-AHU_Final_R2.pdf) | oem-supplier | global, sea, apac | open | summary-only |
+| [Designing Efficient Facilities in Challenging Locations (JPT)](https://jpt.spe.org/designing-efficient-facilities-challenging-locations) | journal | global, sea, latam, me | open | summary-only |
 | [DGIP Indonesia patent database (PDKI)](https://pdki-indonesia.dgip.go.id/) | patents | sea | open | full-text-open (unverified) |
 | [Dialog acquires Tarpon Platform Systems and Tarpon Systems assets](https://theedgemalaysia.com/node/690126) | oem-supplier | global, sea | open | summary-only |
 | [Dialog Resources allocates US$81 million to the offshore RAJA project](https://inspenet.com/en/news/dialog-resources-81-million-offshore-raja/) | oem-supplier | global, sea | open | summary-only |
@@ -1224,6 +1225,7 @@
 | [Staab change order no. 8 with Quincy/SKF compressed air quotation and brochures](https://www.vil.edgar.wi.us/vertical/sites/%7B2ABCB4E4-5560-4C03-A654-098F846834B6%7D/uploads/240603_memo_Lopez_Strand_Change_Order_8.pdf) | oem-supplier | global, sea, apac | open | summary-only |
 | [The FPSO Cost Discussion](https://www.marinelink.com/news/discussion-fpso-cost396888) | oem-supplier | global, sea | open | summary-only |
 | [Tokyo Gas technology](https://www.tokyo-gas.co.jp/en/) | licensor | apac | open | summary-only (unverified) |
+| [What Is Wellhead Platform](https://thepiping.com/2015/07/what-is-wellhead-platform.html) | trade-media | global, sea | open | summary-only |
 | [Woodside Energy](https://www.woodside.com/) | licensor | apac | open | summary-only (unverified) |
 | [ ZEEPod tripod minimum-facility wellhead platform design](https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development) | patents | global | open | summary-only |
 | [ABB](https://www.abb.com/global/en/areas/electrification/medium-voltage/switchgear/gas-insulated) | oem-supplier | global, na | open | summary-only |
@@ -1491,7 +1493,9 @@
 | [NFPA 30](https://www.pdhonline.com/courses/m332/m332content.pdf) | standards-body | global | open | summary-only |
 | [NFPA 37](https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf) | standards-body | global | open | summary-only |
 | [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
+| [NORSOK S-001:2018 Technical safety](https://online.standard.no/en/norsok-s-001-2018) | standards-body | eu, global | paywalled | catalog-only |
 | [OCIMF Books catalogue](https://www.ocimf.org/publications/books) | oem-supplier | global | open | summary-only |
+| [Oil and Gas Production Handbook: An Introduction to Oil and Gas Production, Transport, Refining and Petrochemical Industry (edition 3.0)](https://library.e.abb.com/public/34d5b70e18f7d6c8c1257be500438ac3/Oil and gas production handbook ed3x0_web.pdf) | oem-supplier | global | open | full-text-restricted |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [OSHA pressure vessels — standards](https://www.osha.gov/pressure-vessels/standards) | agency-data | global, na | open | summary-only |
 | [OSTI.GOV DOE scientific and technical information](https://www.osti.gov/) | agency-data | na, global | open | full-text-restricted |
@@ -1787,6 +1791,7 @@
 | [NFOGM (Norwegian Society for Oil and Gas Measurement)](https://nfogm.no) | association | eu | mixed | full-text-restricted |
 | [NFPA 85 (2023) table of contents at UpCodes](https://up.codes/viewer/nfpa/nfpa-85-2023) | standards-body | global, na | open | summary-only |
 | [Nitrogen (Fixed)—Ammonia, Mineral Commodity Summaries 2026](https://pubs.usgs.gov/periodicals/mcs2026/mcs2026-nitrogen.pdf) | agency-data | global | open | full-text-open |
+| [NORSOK P-001 Process design (Edition 5, September 2006)](https://files.engineering.com/files/a0202012-3c98-4d83-b47c-08dc55d2d885/P-001e5.pdf) | standards-body | eu, global | open | summary-only |
 | [Northern Lights JV news pages](https://norlights.com/newsroom/) | agency-data | eu | open | full-text-restricted |
 | [NREL Annual Technology Baseline (ATB)](https://atb.nrel.gov) | agency-data | na, global | open | full-text-open |
 | [NTT DATA Announces Agreement with Bloom Energy for 900 MW](https://www.bloomenergy.com/news/ntt-data-announces-agreement-with-bloom-energy-for-900-mw-of-onsite-power-generation-across-multiple-data-center-projects/) | oem-supplier | global | open | summary-only |
@@ -1918,5 +1923,6 @@
 | [Universal Industrial Gases (UIG)](https://www.uigi.com) | agency-data | global | open | full-text-restricted |
 | [Veolia (Water Technologies)](https://www.veoliawatertech.com/) | oem-supplier | global | open | summary-only (unverified) |
 | [WesTech Engineering](https://www.westech-inc.com/) | oem-supplier | global | open | summary-only (unverified) |
+| [What Is API 6A and Why It Matters for Wellhead and Christmas Tree Equipment](https://www.wellheadnet.com/news/industry-news/what-is-api-6a-and-why-does-it-matter-for.html) | oem-supplier | global | open | summary-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |
 | [Xylem (water technology incl. Wedeco ozone/UV)](https://www.xylem.com/) | oem-supplier | global | open | summary-only (unverified) |

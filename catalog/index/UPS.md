@@ -1,6 +1,6 @@
 # UPS: Upstream
 
-1127 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
+1133 sources. Sub-topics: reservoir, drilling-completions, subsea, production, eor, offshore-facilities, geoscience.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -536,6 +536,7 @@
 | [Cummins Inc. — Cummins diesel generator sets (Quiet Diesel, Standard Diesel, Centum Series)](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins — Cummins diesel genset rating range](https://www.cummins.com/en-apac/generators/diesel) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
 | [Cummins — Cummins natural-gas genset range](https://www.cummins.com/generators) | oem-supplier | global, apac, sea, na, eu | open | summary-only |
+| [Designing Efficient Facilities in Challenging Locations (JPT)](https://jpt.spe.org/designing-efficient-facilities-challenging-locations) | journal | global, sea, latam, me | open | summary-only |
 | [DGIP Indonesia patent database (PDKI)](https://pdki-indonesia.dgip.go.id/) | patents | sea | open | full-text-open (unverified) |
 | [Dialog acquires Tarpon Platform Systems and Tarpon Systems assets](https://theedgemalaysia.com/node/690126) | oem-supplier | global, sea | open | summary-only |
 | [Dialog Resources allocates US$81 million to the offshore RAJA project](https://inspenet.com/en/news/dialog-resources-81-million-offshore-raja/) | oem-supplier | global, sea | open | summary-only |
@@ -896,6 +897,7 @@
 | [The Edge Malaysia energy coverage](https://theedgemalaysia.com/) | trade-media | sea | mixed | catalog-only (unverified) |
 | [The FPSO Cost Discussion](https://www.marinelink.com/news/discussion-fpso-cost396888) | oem-supplier | global, sea | open | summary-only |
 | [Wellhead Monitoring System Complete Guide (2026)](https://www.merobix.com/blog/wellhead-monitoring-system-guide.html) | oem-supplier | global, sea | open | summary-only |
+| [What Is Wellhead Platform](https://thepiping.com/2015/07/what-is-wellhead-platform.html) | trade-media | global, sea | open | summary-only |
 | [Woodside Energy](https://www.woodside.com/) | licensor | apac | open | summary-only (unverified) |
 | [ ZEEPod tripod minimum-facility wellhead platform design](https://www.offshore-technology.com/projects/tembikai-non-associated-gas-development) | patents | global | open | summary-only |
 | [2H Offshore — Addressing Integrity Issues on Ageing Platform Conductors (webinar, 28 Oct 2020)](https://2hoffshore.com/knowledge/addressing-integrity-issues-on-ageing-platform-conductors) | oem-supplier | global | open | summary-only |
@@ -966,9 +968,11 @@
 | [NFPA 30](https://www.pdhonline.com/courses/m332/m332content.pdf) | standards-body | global | open | summary-only |
 | [NFPA 37](https://jip33.iogp.org/wp-content/uploads/2020/08/Specification-for-Firewater-Pump-Package-S-721v2020-08.pdf) | standards-body | global | open | summary-only |
 | [NORSOK D-010 Well integrity in drilling and well operations (Rev. 4 updates copy)](https://id.scribd.com/document/396965999/2-Norsok-Terje-Lokke-Sorensen) | standards-body | eu, global | mixed | full-text-restricted |
+| [NORSOK S-001:2018 Technical safety](https://online.standard.no/en/norsok-s-001-2018) | standards-body | eu, global | paywalled | catalog-only |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
 | [OCIMF Books catalogue](https://www.ocimf.org/publications/books) | oem-supplier | global | open | summary-only |
 | [Offshore Technology Conference (OTC)](https://www.otcnet.org/) | conference | global | mixed | catalog-only (unverified) |
+| [Oil and Gas Production Handbook: An Introduction to Oil and Gas Production, Transport, Refining and Petrochemical Industry (edition 3.0)](https://library.e.abb.com/public/34d5b70e18f7d6c8c1257be500438ac3/Oil and gas production handbook ed3x0_web.pdf) | oem-supplier | global | open | full-text-restricted |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [OSTI.GOV DOE scientific and technical information](https://www.osti.gov/) | agency-data | na, global | open | full-text-restricted |
 | [Our Heritage — SBM Offshore](https://www.sbmoffshore.com/who-we-are/our-heritage/) | oem-supplier | global | open | summary-only |
@@ -1065,6 +1069,7 @@
 | [MOPUs evolving to meet greater depth, flexibility challenges](https://www.offshore-mag.com/drilling-completion/article/16763365/mopus-evolving-to-meet-greater-depth-flexibility-challenges) | oem-supplier | global | open | summary-only |
 | [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
 | [NFOGM (Norwegian Society for Oil and Gas Measurement)](https://nfogm.no) | association | eu | mixed | full-text-restricted |
+| [NORSOK P-001 Process design (Edition 5, September 2006)](https://files.engineering.com/files/a0202012-3c98-4d83-b47c-08dc55d2d885/P-001e5.pdf) | standards-body | eu, global | open | summary-only |
 | [Norwegian Offshore Directorate (Sokkeldirektoratet)](https://www.sodir.no/en/) | agency-data | eu | open | full-text-open (unverified) |
 | [NOV](https://www.nov.com/) | oem-supplier | global | open | full-text-restricted |
 | [Offshore Magazine - Reservoir monitoring: MPFM replaces test separator](https://www.offshore-mag.com/equipment-engineering/article/16758633/reservoir-monitoring-multiphase-meter-on-unmanned-wellhead-platform-replaces-test-separator) | oem-supplier | global | open | summary-only |
@@ -1130,4 +1135,5 @@
 | [Saipem](https://www.saipem.com/en) | epc-contractor | global | open | summary-only (unverified) |
 | [Subsea7](https://www.subsea7.com/) | epc-contractor | global | open | summary-only (unverified) |
 | [TEMPSC Wikipedia article](https://en.wikipedia.org/wiki/TEMPSC) | standards-body | global | open | summary-only |
+| [What Is API 6A and Why It Matters for Wellhead and Christmas Tree Equipment](https://www.wellheadnet.com/news/industry-news/what-is-api-6a-and-why-does-it-matter-for.html) | oem-supplier | global | open | summary-only |
 | [Wikipedia (English)](https://en.wikipedia.org/) | association | global | open | full-text-open |

@@ -310,6 +310,39 @@
         "url": "https://www.yokogawa.com/library/resources/application-notes/s-sensor-offshore-natural-gas-drilling-platform-remote-pressure-monitoring-wellhead",
         "source_id": "whp-yokogawa-com-s-sensor-offshore-natural-gas-drilling-platfo"
       }
+    },
+    {
+      "metric": "Navigation aids — main/secondary light range (IALA G1162)",
+      "unit": "nautical miles",
+      "basis": "Intensity range 10 nm (main and secondary lights)",
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      },
+      "low": 10,
+      "high": 10
+    },
+    {
+      "metric": "Navigation aids — fog signal main sound range (IALA G1162)",
+      "unit": "nautical miles",
+      "basis": "Sound range 2 nm in any direction (MAIN)",
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      },
+      "low": 2,
+      "high": 2
+    },
+    {
+      "metric": "Navigation aids — independent power source autonomy (IALA G1162)",
+      "unit": "h",
+      "basis": "Autonomy 96h for a power source independent",
+      "source": {
+        "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+        "source_id": "whp-msmoffshore-com"
+      },
+      "low": 96,
+      "high": 96
     }
   ],
   "costs": [

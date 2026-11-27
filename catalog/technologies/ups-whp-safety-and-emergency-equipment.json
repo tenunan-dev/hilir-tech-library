@@ -307,6 +307,50 @@
         "url": "https://www.ecfr.gov/current/title-30/chapter-II/subchapter-B/part-250/subpart-H/subject-group-ECFR081ef9e2fac31ea/section-250.855",
         "source_id": "whp-ecfr-gov-section-250-855"
       }
+    },
+    {
+      "metric": "Reliability — SCBA minimum air supply (46 CFR 77.30-5)",
+      "unit": "min",
+      "basis": "46 CFR 77.30-5(a): each SCBA must be pressure-demand open-circuit type, MSHA and NIOSH approved, with at minimum a 30-minute air supply and a full facepiece",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/section-77.30-5",
+        "source_id": "whp-ecfr-gov-section-77-30-5"
+      },
+      "low": 30,
+      "high": 30
+    },
+    {
+      "metric": "Capacity — TEMPSC offered capacity range (manufacturer)",
+      "unit": "persons",
+      "basis": "Gohi Marine GLB series product table, 'Capacity 16-150 Persons'; 'Max. Capacity of 150 persons lifeboat is also available'",
+      "source": {
+        "url": "https://www.gohimarine.com/sale-37362161-solas-approved-95kg-per-person-totally-enclosed-motor-propelled-survival-craft-tempsc.html",
+        "source_id": "whp-gohimarine-com-sale-37362161-solas-approved-95kg-per-perso"
+      },
+      "low": 16,
+      "high": 150
+    },
+    {
+      "metric": "Capacity — lifeboat aggregate capacity on a manned installation (Canada OGI s.22)",
+      "unit": "% of persons on board",
+      "basis": "Canada OGI Regs s.22(1)(a): two or more totally enclosed survival craft with combined capacity at least 200% of total POB",
+      "source": {
+        "url": "https://laws-lois.justice.gc.ca/eng/regulations/SOR-96-118/section-22.html",
+        "source_id": "whp-laws-lois-justice-gc-ca-section-22-html"
+      },
+      "low": 200,
+      "high": 200
+    },
+    {
+      "metric": "Capacity — lifeboat launch time, all survival craft (46 CFR 133.150)",
+      "unit": "min",
+      "basis": "46 CFR 133.150(a): capable of being launched with full complement within 10 minutes of abandon-ship signal",
+      "source": {
+        "url": "https://www.ecfr.gov/current/title-46/chapter-I/subchapter-L/part-133/subpart-B/section-133.150",
+        "source_id": "whp-ecfr-gov-section-133-150"
+      },
+      "low": 10,
+      "high": 10
     }
   ],
   "costs": [
@@ -577,19 +621,6 @@
         }
       ],
       "action": "Obtain OEM distributor quotations with explicit dollar year"
-    },
-    {
-      "field": "performance",
-      "item": "SCBA cylinder and duration figures from a WebFetch-readable page",
-      "reason_code": "not_in_sources_read",
-      "reason": "NFPA 1981, DHS TechNotes and NAVSEA standard item were PDFs refused by WebFetch; only the 46 CFR 77.30-5 30-minute minimum is page-read verified",
-      "where": [
-        {
-          "hint": "OEM datasheets, operator project pages, API/ISO standards and SPE/OTC papers for Fire extinguishers, hydrant hoses, SCBA sets on manned platf",
-          "access": "open"
-        }
-      ],
-      "action": "Fetch accessible HTML mirrors or read PDFs with a PDF-capable tool"
     },
     {
       "field": "performance",

@@ -1,0 +1,27 @@
+{
+  "id": "wellheadnet-api-6a",
+  "name": "What Is API 6A and Why It Matters for Wellhead and Christmas Tree Equipment",
+  "url": "https://www.wellheadnet.com/news/industry-news/what-is-api-6a-and-why-does-it-matter-for.html",
+  "source_type": "oem-supplier",
+  "sectors": [
+    "UPS"
+  ],
+  "disciplines": [
+    "PRC",
+    "ROT"
+  ],
+  "subtopics": [
+    "API 6A pressure classes 2,000-20,000 psi and temperature classes K/L/P/R/S/T"
+  ],
+  "publisher_org": "WellheadNet",
+  "regions": [
+    "global"
+  ],
+  "access": "open",
+  "licence": "site terms",
+  "reuse_level": "summary-only",
+  "quality_tier": 3,
+  "notes": "Vendor explainer of API 6A, which it calls the specification governing design, manufacturing, testing and documentation of wellhead and christmas tree equipment, with ISO 10423 described as technically equivalent. Prints the pressure-class table (2,000 / 3,000 / 5,000 / 10,000 / 15,000 / 20,000 psi and an extended 20,000 psi, with bar equivalents) and the temperature-class table (K -60 to 82 C, L -46 to 82 C, P -29 to 82 C, R -18 to 121 C, S -18 to 149 C, T -18 to 121 C). Secondary explanation of a standard, not the standard itself - cite API 6A/ISO 10423 for the normative text. Page read 2026-11-27.",
+  "verification": "verified",
+  "last_verified": "2026-11-27"
+}

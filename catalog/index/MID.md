@@ -1,6 +1,6 @@
 # MID: Midstream
 
-866 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
+869 sources. Sub-topics: pipelines, storage-terminals, flow-assurance, metering, leak-detection, shipping.
 
 | Source | Type | Regions | Access | Reuse level |
 | --- | --- | --- | --- | --- |
@@ -811,7 +811,9 @@
 | [Materials (MDPI)](https://www.mdpi.com/journal/materials) | journal | global | open | full-text-open |
 | [NFPA 20 - Standard for the Installation of Stationary Pumps for Fire Protection (2025 edition)](https://www.nfpa.org/codes-and-standards/nfpa-20-standard-development/20) | standards-body | global | open | summary-only |
 | [NFPA 22 - Standard for Water Tanks for Private Fire Protection (2023 edition)](https://www.nfpa.org/codes-and-standards/nfpa-22-standard-development/22) | standards-body | global | open | summary-only |
+| [NORSOK S-001:2018 Technical safety](https://online.standard.no/en/norsok-s-001-2018) | standards-body | eu, global | paywalled | catalog-only |
 | [NORSOK Standards](https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/) | standards-body | eu, global | mixed | catalog-only (unverified) |
+| [Oil and Gas Production Handbook: An Introduction to Oil and Gas Production, Transport, Refining and Petrochemical Industry (edition 3.0)](https://library.e.abb.com/public/34d5b70e18f7d6c8c1257be500438ac3/Oil and gas production handbook ed3x0_web.pdf) | oem-supplier | global | open | full-text-restricted |
 | [OnePetro (SPE, OTC, IPTC, URTeC papers)](https://onepetro.org/) | journal | global | mixed | catalog-only (unverified) |
 | [Pipeline Research Council International (PRCI)](https://www.prci.org/) | research-institute | global | mixed | catalog-only (unverified) |
 | [Southwest Research Institute (SwRI) energy](https://www.swri.org/industries/energy) | research-institute | global | open | summary-only (unverified) |
@@ -840,6 +842,7 @@
 | [KROHNE](https://krohne.com/) | oem-supplier | global | open | summary-only |
 | [MAN Energy Solutions (Everllence)](https://www.everllence.com/) | oem-supplier | global | open | full-text-restricted |
 | [NETL Energy Data eXchange (EDX)](https://edx.netl.doe.gov/) | agency-data | na, global | open | full-text-restricted |
+| [NORSOK P-001 Process design (Edition 5, September 2006)](https://files.engineering.com/files/a0202012-3c98-4d83-b47c-08dc55d2d885/P-001e5.pdf) | standards-body | eu, global | open | summary-only |
 | [OGMP 2.0 Oil and Gas Methane Partnership (UNEP IMEO)](https://www.ogmpartnership.org/) | association | global | open | full-text-restricted (unverified) |
 | [Oil & Gas Journal](https://www.ogj.com/) | trade-media | global | mixed | summary-only (unverified) |
 | [OPEC Annual Statistical Bulletin](https://asb.opec.org/) | agency-data | global, me | open | full-text-restricted |
