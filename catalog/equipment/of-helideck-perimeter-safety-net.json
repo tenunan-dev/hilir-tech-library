@@ -1,0 +1,37 @@
+{
+  "id": "of-helideck-perimeter-safety-net",
+  "name": "Helideck perimeter safety nets",
+  "equipment_type": "offshore-outfitting",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "HSE"
+  ],
+  "description": "The net and support frame around the helideck edge that catches personnel and equipment. Its width, load rating and attachment follow the helideck standard.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "helideck"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-wikipedia-wikimedia-foundation"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Net width, load rating and support spacing",
+      "why": "No page read gives the perimeter net width, rating or support spacing.",
+      "next_action": "Fetch CAP 437 or a fabricator drawing and record net width, rating and spacing"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

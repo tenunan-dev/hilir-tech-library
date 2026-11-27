@@ -1,0 +1,45 @@
+{
+  "id": "os-launch-truss",
+  "name": "Jacket launch truss",
+  "equipment_type": "offshore-structural",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "CIV"
+  ],
+  "description": "Two heavy longitudinal girders on a jacket's launch face that carry the structure as it slides off a launch barge. They are a significant share of jacket steel and are sometimes removed after installation.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "fixed steel jacket platform"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "api"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    },
+    {
+      "url": "https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/",
+      "source_id": "norsok-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Launch truss weight, launch load case and rocker-beam interface",
+      "why": "No page read gives a launch-truss weight fraction or the launch analysis load case.",
+      "next_action": "Fetch a launch analysis or installation paper and record truss weight, launch load case and rocker-beam detail"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

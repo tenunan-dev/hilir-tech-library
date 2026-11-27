@@ -1,0 +1,47 @@
+{
+  "id": "os-lifting-padeyes-and-trunnions",
+  "name": "Lifting padeyes, trunnions and lift points",
+  "equipment_type": "offshore-structural",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "CIV"
+  ],
+  "description": "The welded lifting points by which modules, jackets and packages are lifted. Design is governed by the hook load and rigging arrangement, and every padeye is a fatigue-sensitive welded attachment.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "fixed steel jacket platform",
+    "topside module",
+    "subsea structure"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "api"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    },
+    {
+      "url": "https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/",
+      "source_id": "norsok-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Padeye design load factors, material and NDT class",
+      "why": "No page read gives padeye design factors or the inspection class for the welded attachment.",
+      "next_action": "Fetch the lifting standard or a padeye calculation and record load factors, material and NDT class"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

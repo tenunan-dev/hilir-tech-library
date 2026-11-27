@@ -1,0 +1,42 @@
+{
+  "id": "of-ais-and-radar-reflector",
+  "name": "AIS transponder and radar reflector (aids to navigation)",
+  "equipment_type": "offshore-outfitting",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "INS"
+  ],
+  "description": "An AIS transponder and a passive radar reflector make an unmanned platform visible to shipping. They sit alongside lanterns and fog signals in the aids-to-navigation fit.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "unmanned platform",
+    "wellhead platform"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "mob-vendor-lloyd-s-register-class-4a0da"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://msmoffshore.com/en/marking-oil-gas-structures-iala-g1162/",
+      "source_id": "whp-msmoffshore-com"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "AIS type/power and radar-reflector radar cross-section",
+      "why": "No page read gives the AIS class/power or a reflector RCS for a platform.",
+      "next_action": "Fetch IALA guidance or an AtoN datasheet and record AIS type, power and reflector RCS"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

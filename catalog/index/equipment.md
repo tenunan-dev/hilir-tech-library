@@ -1,6 +1,6 @@
 # Equipment catalog
 
-505 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
+533 equipment records (one per equipment class, schema `schema/equipment.schema.json`).
 Each record carries specification ranges with their sources and the directory vendors that
 supply the class. Start of the equipment layer per the owner: boiler first, next families
 follow the registration queue.
@@ -3877,6 +3877,20 @@ Vendors: Baker Hughes, TechnipFMC (CDS Separation Systems), Subsea7 (Swagelining
 | function | Compliant pipe for connection of floating vessels/subsea equipment; flowlines, jumpers, risers, fluid transfer lines; bundled multiple services in one carrier pipe. | Qualitative function from pages read in this sweep. |
 
 
+### PLET, PLEM and riser bases (ex-plet-and-riser-base)
+
+Primary code: UPS: Upstream
+Pipeline end termination (PLET), pipeline end manifold (PLEM) and riser-base structures tie a flowline or riser to the seabed and provide the connection point, with a mudmat and levelling interface.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- PLET weight, connection size and mudmat bearing requirement — Fetch a PLET datasheet or tie-in report and record weight, connection size and bearing requirement
+
 ### Rigid flowlines, export pipelines and trunklines (ex-rigid-flowlines-export-pipelines-and-trunklines)
 
 Primary code: UPS: Upstream
@@ -7306,6 +7320,391 @@ Vendors: Air Liquide Japan (0 model lines recorded).
 | Nitrogen source for synthesis | air separation process | Hydrogen reacts with nitrogen derived from air separation; relatively pure N2 can be obtained by air separation with additional oxygen removal possibly required |
 | Cryogenic nitrogen generator BEDP contractor | Air Liquide Japan supplier | Allied Green Ammonia project: Air Liquide Japan contracted for BEDP for cryogenic nitrogen generator (July 2024) |
 
+
+## offshore-outfitting
+
+### Accommodation fit-out: cabins, mess, galley, offices, recreation and sick bay (of-accommodation-fitout)
+
+Primary code: UPS: Upstream
+The internal fit-out of a living-quarters module: cabins, mess and galley, offices, recreation and the sick bay. It drives the LQ HVAC, potable-water and food-storage load.
+Vendors: Lloyd's Register (class) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Cabin count, galley capacity and sick-bay requirement per POB — Fetch NORSOK C-002 or an LQ specification and record cabin count, galley capacity and sick-bay requirement
+
+### AIS transponder and radar reflector (aids to navigation) (of-ais-and-radar-reflector)
+
+Primary code: UPS: Upstream
+An AIS transponder and a passive radar reflector make an unmanned platform visible to shipping. They sit alongside lanterns and fog signals in the aids-to-navigation fit.
+Vendors: Lloyd's Register (class) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- AIS type/power and radar-reflector radar cross-section — Fetch IALA guidance or an AtoN datasheet and record AIS type, power and reflector RCS
+
+### Boarding ramps and gangways (of-boarding-ramps)
+
+Primary code: UPS: Upstream
+The ramp or gangway between a supply vessel or crew boat and the boat landing. It is sized for the vessel's relative motion and the personnel and luggage load.
+Vendors: Lloyd's Register (class) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Ramp length, rated load and motion envelope — Fetch a gangway datasheet and record length, rated load and motion envelope
+
+### Escape chutes and controlled-descent devices (of-escape-chutes)
+
+Primary code: UPS: Upstream
+Fabric or spiral chutes give a fast, non-powered descent from a deck or helideck to a lower level or the sea. They are used where stairs are too slow or too exposed.
+Vendors: Lloyd's Register (class) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Chute length, descent rate and certification — Fetch a vendor datasheet or the LSA Code and record length, descent rate and approval
+
+### Fixed ladders, safety cages and fall-arrest rails (of-ladders-and-cages)
+
+Primary code: UPS: Upstream
+Vertical and inclined fixed ladders give access between decks and to structures. Above a threshold height they need a cage or a fall-arrest rail, with a landing gate at every opening.
+Vendors: Lloyd's Register (class) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Ladder geometry, cage dimensions and load class — Fetch ISO 14122-4 or a platform GA and record rung spacing, cage dimensions and load class
+
+### Helideck foam monitors and deck-integrated foam system (DIFFS) (of-helideck-foam-monitor-diffs)
+
+Primary code: UPS: Upstream
+Foam/water monitors and, on larger decks, a deck-integrated foam fire-fighting system covering the landing area. Required where refuelling or high-risk operations take place.
+Vendors: Wikipedia (Wikimedia Foundation) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Foam application rate, monitor capacity and DIFFS coverage — Fetch CAP 437 or NFPA 418 and record application rate, monitor capacity and coverage
+
+### Helideck lighting and deck markings (of-helideck-lighting-and-markings)
+
+Primary code: UPS: Upstream
+Perimeter and flood lighting, the status light, the D-value circle, touchdown/aiming circle and obstacle-free-sector markings. All are defined by the helideck standard for the helicopter the deck is rated for.
+Vendors: Wikipedia (Wikimedia Foundation) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Lighting levels, D-value and marking dimensions — Fetch CAP 437 and record lighting levels, D-value and marking dimensions
+
+### Helideck perimeter safety nets (of-helideck-perimeter-safety-net)
+
+Primary code: UPS: Upstream
+The net and support frame around the helideck edge that catches personnel and equipment. Its width, load rating and attachment follow the helideck standard.
+Vendors: Wikipedia (Wikimedia Foundation) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Net width, load rating and support spacing — Fetch CAP 437 or a fabricator drawing and record net width, rating and spacing
+
+### Helideck windsock and wind-direction indicator (of-windsock)
+
+Primary code: UPS: Upstream
+A lit windsock shows surface wind direction and strength at the deck and is required for helicopter operations.
+Vendors: Wikipedia (Wikimedia Foundation) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Windsock size, illumination and siting — Fetch CAP 437 or a datasheet and record size, illumination and siting
+
+### Immersion suits and survival clothing (of-immersion-suits)
+
+Primary code: UPS: Upstream
+Insulated immersion suits stowed at muster stations and in lifeboats, sized per person on board. Required where water temperature or escape time makes exposure lethal.
+Vendors: IMO text mirrored by SOLAS/LSA Code (Vercel) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Suit approval standard, sizing range and quantity per POB — Fetch the LSA Code or a suit datasheet and record approval, sizing and quantity
+
+### Safety gates and floor-opening protection (of-safety-gates-and-floor-openings)
+
+Primary code: UPS: Upstream
+Self-closing gates at ladder and stair openings, plus covers and barriers for floor openings and hatches. They are a common dropped-object and fall source on platforms.
+Vendors: Lloyd's Register (class) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Gate type, closing force and opening-cover load rating — Fetch an outfitting standard or datasheet and record gate type, closing force and cover rating
+
+### Toe boards, kick plates and edge protection (of-toe-boards-and-kick-plates)
+
+Primary code: UPS: Upstream
+Low upstand plates at the edge of decks and platforms stop tools and material falling. They are part of the dropped-object regime alongside gratings and guardrails.
+Vendors: Lloyd's Register (class) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Toe-board height and fixing detail — Fetch ISO 14122-3 or an outfitting standard and record height and fixing
+
+## offshore-structural
+
+### Barge bumpers and boat landing fenders (os-barge-bumper-and-boat-landing)
+
+Primary code: UPS: Upstream
+The fender frame and landing structure on a jacket leg that absorbs supply-boat and barge impact and gives personnel a ladder access at the waterline. The bumper protects the leg; the boat landing carries the fendering and the access ladder.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+| Boat landing — conductor diameter it clamps to | 26-30 inch | US4679964A description: conductor pipe 'typically in the range of about 26 to about 30 inches in diameter' with wall thickness about one inch; boat landing clamped to it at the water line. |
+| Boat landing — example anchor pile length | 70 ft | US4679964A description: 'the piling is 70 feet in length' with about 52 feet protruding into the seabed. |
+| Boat landing — clamp-base footprint of prior-art Sea Horse system | 40 ft (approximately, square) | US4932811A background: 'The base of the sea horse clamp is approximately forty by forty feet square where piling are driven through the cans'. |
+
+
+Recorded gaps:
+
+- Barge bumper energy rating and fender stiffness — Fetch a barge-bumper/fender datasheet and record energy rating, reaction force and deflection
+
+### Deck beams, stringers and girders (os-deck-beams-and-stringers)
+
+Primary code: UPS: Upstream
+The secondary framing that spans between deck legs and carries deck plate, modules and live load. It is sized by module support points and by blast or accidental load cases as much as by gravity load.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Deck design live load and beam span/depth rules — Fetch NORSOK C-001 or a design basis and record live load, span/depth and deflection limits
+
+### Drilling derrick, drill floor and substructure (os-drilling-derrick-and-substructure)
+
+Primary code: UPS: Upstream
+On a platform that carries a rig, the derrick, drill floor and supporting substructure carry hook load, rotary load and setback, and transfer them into the deck. They are the heaviest single drilling item and set the deck load case.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Derrick hook load, setback capacity and drill-floor rating — Fetch a rig spec sheet and record hook load, setback capacity and drill-floor rating
+
+### Fire walls and fire divisions (A/B/H class) (os-fire-walls-and-fire-divisions)
+
+Primary code: UPS: Upstream
+Rated walls and decks divide the platform into fire zones and protect escape routes, the temporary refuge and safety systems. Fire divisions are distinct from blast walls: one resists fire exposure for a rated time, the other resists overpressure.
+Vendors: Lloyd's Register (class) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Fire-division rating, extent and penetration sealing — Fetch the FTP Code or NORSOK S-001 and record the A/B/H ratings, extent and penetration sealing
+
+### Heave plates, strakes and vortex-induced-motion suppression (os-heave-plates-and-strakes)
+
+Primary code: UPS: Upstream
+Appendages on floating hulls: helical strakes reduce vortex-induced motion on columns, while heave plates add added mass and damping to pontoons or a spar. Their sizing is a motion-performance decision, not a strength one.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Strake pitch/height, heave-plate added-mass coefficient and VIM suppression — Fetch a model-test paper or DNV-RP-C205 and record strake pitch/height and added-mass coefficient with basis
+
+### Jacket launch truss (os-launch-truss)
+
+Primary code: UPS: Upstream
+Two heavy longitudinal girders on a jacket's launch face that carry the structure as it slides off a launch barge. They are a significant share of jacket steel and are sometimes removed after installation.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Launch truss weight, launch load case and rocker-beam interface — Fetch a launch analysis or installation paper and record truss weight, launch load case and rocker-beam detail
+
+### Lifting padeyes, trunnions and lift points (os-lifting-padeyes-and-trunnions)
+
+Primary code: UPS: Upstream
+The welded lifting points by which modules, jackets and packages are lifted. Design is governed by the hook load and rigging arrangement, and every padeye is a fatigue-sensitive welded attachment.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Padeye design load factors, material and NDT class — Fetch the lifting standard or a padeye calculation and record load factors, material and NDT class
+
+### Monorails, skid rails and module skidding systems (os-monorails-and-skid-rails)
+
+Primary code: UPS: Upstream
+Monorails carry chain hoists over laydown and maintenance areas; skid rails let modules be pulled into place and form the installation interface on float-over and integrated decks.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Monorail capacity, skid-rail friction and skidding load case — Fetch an installation procedure or hoist datasheet and record capacity, friction and load case
+
+### Mud circulation module (shakers, pits, pumps, mud/gas separator) (os-mud-circulation-module)
+
+Primary code: UPS: Upstream
+The drilling-fluid system: shale shakers, mud pits, mixing and transfer pumps, and the mud/gas separator that degasses returns before they reach the pits. It sets the mud-handling capacity of the rig.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Mud system capacity and mud/gas separator sizing — Fetch a rig spec or vendor datasheet and record pit volume, pump rating and separator sizing
+
+### Pile sleeves, grout seals and grouted pile connections (os-pile-sleeve-and-grouted-connection)
+
+Primary code: UPS: Upstream
+The pile sleeve is the jacket-leg extension that receives a driven pile; the grout seal, packer and grout lines transfer load from pile to jacket through a grouted connection. Grouted connections are the standard jacket-to-pile interface and are fatigue- and capacity-critical.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Grouted connection capacity, sleeve overlap and grout grade — Fetch the grouted-connection requirements or a fabricator procedure and record overlap length, bond stress and grout grade with basis
+
+### Riser guides, riser clamps and bellmouths (os-riser-guides-and-clamps)
+
+Primary code: UPS: Upstream
+Guides and clamps restrain a riser against the jacket leg and guide it into its I-tube or J-tube. They carry riser wave and current load into the structure while allowing thermal movement.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Riser guide spacing, clamp load rating and allowable deflection — Fetch a riser design report or clamp datasheet and record guide spacing, clamp rating and allowable deflection
+
+### Riser tensioners and motion compensators (os-riser-tensioner)
+
+Primary code: UPS: Upstream
+Hydro-pneumatic tensioners and compensators keep a drilling or production riser under tension and decouple vessel heave from the riser. They are also used on top-tensioned production risers.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Tensioner stroke, tension capacity and redundancy — Fetch a tensioner datasheet or riser analysis and record stroke, capacity and redundancy
+
+### Sea fastening and transport restraints (os-sea-fastening)
+
+Primary code: UPS: Upstream
+Temporary welded or bolted restraints hold modules, jackets and equipment to a transport barge or heavy-lift vessel. They are designed for the transport load case and removed offshore.
+Vendors: API (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Sea-fastening load case and allowable bearing pressure — Fetch a transport procedure or DNV-ST-N001 and record the load case and bearing pressure
+
+### Temporary refuge (TR) and safe haven (os-temporary-refuge)
+
+Primary code: UPS: Upstream
+The space, usually in or near the accommodation, where personnel shelter from fire and blast while mustering. It needs a fire/blast rating, ventilation protection and independent communication.
+Vendors: Lloyd's Register (class) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- TR fire/blast rating, occupancy and independence — Fetch NORSOK S-001 or ISO 13702 and record TR rating, occupancy and independence
+
+### Thrusters and dynamic positioning (DP) systems (os-thrusters-and-dynamic-positioning)
+
+Primary code: UPS: Upstream
+Azimuth or tunnel thrusters and the DP control system hold a floater on station, classed DP1/DP2/DP3 by redundancy. On production units DP supplements or replaces mooring.
+Vendors: Lloyd's Register (class) (0 model lines recorded).
+
+| Specification | Value | Basis |
+| --- | --- | --- |
+
+
+Recorded gaps:
+
+- Thruster rating, DP class and station-keeping capability — Fetch a DP capability plot or thruster datasheet and record rating, DP class and capability
 
 ## oily-water-separator
 

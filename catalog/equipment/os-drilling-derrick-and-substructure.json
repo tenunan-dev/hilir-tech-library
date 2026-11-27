@@ -1,0 +1,43 @@
+{
+  "id": "os-drilling-derrick-and-substructure",
+  "name": "Drilling derrick, drill floor and substructure",
+  "equipment_type": "offshore-structural",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "CIV"
+  ],
+  "description": "On a platform that carries a rig, the derrick, drill floor and supporting substructure carry hook load, rotary load and setback, and transfer them into the deck. They are the heaviest single drilling item and set the deck load case.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "integrated deck with drilling rig",
+    "jack-up",
+    "TLP"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "api"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Derrick hook load, setback capacity and drill-floor rating",
+      "why": "No page read gives a derrick hook load or drill-floor load rating.",
+      "next_action": "Fetch a rig spec sheet and record hook load, setback capacity and drill-floor rating"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

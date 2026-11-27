@@ -1,0 +1,42 @@
+{
+  "id": "os-sea-fastening",
+  "name": "Sea fastening and transport restraints",
+  "equipment_type": "offshore-structural",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "CIV"
+  ],
+  "description": "Temporary welded or bolted restraints hold modules, jackets and equipment to a transport barge or heavy-lift vessel. They are designed for the transport load case and removed offshore.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "topside module",
+    "jacket transport"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "api"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Sea-fastening load case and allowable bearing pressure",
+      "why": "No page read gives the transport load case or the allowable grillage bearing pressure.",
+      "next_action": "Fetch a transport procedure or DNV-ST-N001 and record the load case and bearing pressure"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

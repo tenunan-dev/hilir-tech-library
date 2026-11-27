@@ -1,0 +1,37 @@
+{
+  "id": "of-helideck-lighting-and-markings",
+  "name": "Helideck lighting and deck markings",
+  "equipment_type": "offshore-outfitting",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "HSE"
+  ],
+  "description": "Perimeter and flood lighting, the status light, the D-value circle, touchdown/aiming circle and obstacle-free-sector markings. All are defined by the helideck standard for the helicopter the deck is rated for.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "helideck"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-wikipedia-wikimedia-foundation"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Lighting levels, D-value and marking dimensions",
+      "why": "No page read gives the lighting levels, D-value or marking dimensions for a rated helicopter.",
+      "next_action": "Fetch CAP 437 and record lighting levels, D-value and marking dimensions"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

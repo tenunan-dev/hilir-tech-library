@@ -1,0 +1,42 @@
+{
+  "id": "of-accommodation-fitout",
+  "name": "Accommodation fit-out: cabins, mess, galley, offices, recreation and sick bay",
+  "equipment_type": "offshore-outfitting",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "CIV"
+  ],
+  "description": "The internal fit-out of a living-quarters module: cabins, mess and galley, offices, recreation and the sick bay. It drives the LQ HVAC, potable-water and food-storage load.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "manned offshore platform",
+    "accommodation module"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "mob-vendor-lloyd-s-register-class-4a0da"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/",
+      "source_id": "norsok-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Cabin count, galley capacity and sick-bay requirement per POB",
+      "why": "No page read gives the per-POB cabin, galley or sick-bay requirement.",
+      "next_action": "Fetch NORSOK C-002 or an LQ specification and record cabin count, galley capacity and sick-bay requirement"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

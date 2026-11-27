@@ -1,0 +1,42 @@
+{
+  "id": "os-fire-walls-and-fire-divisions",
+  "name": "Fire walls and fire divisions (A/B/H class)",
+  "equipment_type": "offshore-structural",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "CIV",
+    "HSE"
+  ],
+  "description": "Rated walls and decks divide the platform into fire zones and protect escape routes, the temporary refuge and safety systems. Fire divisions are distinct from blast walls: one resists fire exposure for a rated time, the other resists overpressure.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "all offshore platforms"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "mob-vendor-lloyd-s-register-class-4a0da"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/",
+      "source_id": "norsok-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Fire-division rating, extent and penetration sealing",
+      "why": "No page read gives the fire-division rating or the extent of a rated boundary on an offshore module.",
+      "next_action": "Fetch the FTP Code or NORSOK S-001 and record the A/B/H ratings, extent and penetration sealing"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

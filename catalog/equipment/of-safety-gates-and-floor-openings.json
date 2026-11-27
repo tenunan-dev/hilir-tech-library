@@ -1,0 +1,41 @@
+{
+  "id": "of-safety-gates-and-floor-openings",
+  "name": "Safety gates and floor-opening protection",
+  "equipment_type": "offshore-outfitting",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "HSE"
+  ],
+  "description": "Self-closing gates at ladder and stair openings, plus covers and barriers for floor openings and hatches. They are a common dropped-object and fall source on platforms.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "all offshore platforms"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "mob-vendor-lloyd-s-register-class-4a0da"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/",
+      "source_id": "norsok-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Gate type, closing force and opening-cover load rating",
+      "why": "No page read gives the gate closing force or the load rating of an opening cover.",
+      "next_action": "Fetch an outfitting standard or datasheet and record gate type, closing force and cover rating"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

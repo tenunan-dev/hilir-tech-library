@@ -1,0 +1,41 @@
+{
+  "id": "os-temporary-refuge",
+  "name": "Temporary refuge (TR) and safe haven",
+  "equipment_type": "offshore-structural",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "HSE"
+  ],
+  "description": "The space, usually in or near the accommodation, where personnel shelter from fire and blast while mustering. It needs a fire/blast rating, ventilation protection and independent communication.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "manned offshore platform"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "mob-vendor-lloyd-s-register-class-4a0da"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/",
+      "source_id": "norsok-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "TR fire/blast rating, occupancy and independence",
+      "why": "No page read gives the TR rating or the independence requirement.",
+      "next_action": "Fetch NORSOK S-001 or ISO 13702 and record TR rating, occupancy and independence"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

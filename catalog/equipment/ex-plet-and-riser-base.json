@@ -1,0 +1,42 @@
+{
+  "id": "ex-plet-and-riser-base",
+  "name": "PLET, PLEM and riser bases",
+  "equipment_type": "ex-wellhead",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "MID"
+  ],
+  "description": "Pipeline end termination (PLET), pipeline end manifold (PLEM) and riser-base structures tie a flowline or riser to the seabed and provide the connection point, with a mudmat and levelling interface.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "subsea tieback",
+    "WHP export pipeline"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "api"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    },
+    {
+      "url": "https://www.technipfmc.com/en/what-we-do/subsea/subsea-systems/well-control/manifolds/",
+      "source_id": "technipfmc-com-manifolds"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "PLET weight, connection size and mudmat bearing requirement",
+      "why": "No page read gives a PLET weight, hub size or mudmat bearing value.",
+      "next_action": "Fetch a PLET datasheet or tie-in report and record weight, connection size and bearing requirement"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

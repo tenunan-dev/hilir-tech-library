@@ -1,0 +1,81 @@
+{
+  "id": "os-barge-bumper-and-boat-landing",
+  "name": "Barge bumpers and boat landing fenders",
+  "equipment_type": "offshore-structural",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "CIV"
+  ],
+  "description": "The fender frame and landing structure on a jacket leg that absorbs supply-boat and barge impact and gives personnel a ladder access at the waterline. The bumper protects the leg; the boat landing carries the fendering and the access ladder.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "fixed steel jacket platform",
+    "wellhead caisson"
+  ],
+  "specifications": [
+    {
+      "metric": "Boat landing — conductor diameter it clamps to",
+      "unit": "inch",
+      "low": 26,
+      "high": 30,
+      "basis": "US4679964A description: conductor pipe 'typically in the range of about 26 to about 30 inches in diameter' with wall thickness about one inch; boat landing clamped to it at the water line.",
+      "source": {
+        "url": "https://patents.google.com/patent/US4679964A/en",
+        "source_id": "whp-patents-google-com-en"
+      },
+      "source_url": "https://patents.google.com/patent/US4679964A/en"
+    },
+    {
+      "metric": "Boat landing — example anchor pile length",
+      "unit": "ft",
+      "value": 70,
+      "low": 70,
+      "high": 70,
+      "basis": "US4679964A description: 'the piling is 70 feet in length' with about 52 feet protruding into the seabed.",
+      "source": {
+        "url": "https://patents.google.com/patent/US4679964A/en",
+        "source_id": "whp-patents-google-com-en"
+      },
+      "source_url": "https://patents.google.com/patent/US4679964A/en"
+    },
+    {
+      "metric": "Boat landing — clamp-base footprint of prior-art Sea Horse system",
+      "unit": "ft (approximately, square)",
+      "value": 40,
+      "low": 40,
+      "high": 40,
+      "basis": "US4932811A background: 'The base of the sea horse clamp is approximately forty by forty feet square where piling are driven through the cans'.",
+      "source": {
+        "url": "https://patents.google.com/patent/US4932811A/en",
+        "source_id": "whp-patents-google-com-en"
+      },
+      "source_url": "https://patents.google.com/patent/US4932811A/en"
+    }
+  ],
+  "vendor_models": [],
+  "vendors": [
+    "api"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Barge bumper energy rating and fender stiffness",
+      "why": "The carried figures are geometry only; no page read gives a bumper energy absorption or fender stiffness value.",
+      "next_action": "Fetch a barge-bumper/fender datasheet and record energy rating, reaction force and deflection"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

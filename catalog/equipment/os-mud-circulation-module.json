@@ -1,0 +1,43 @@
+{
+  "id": "os-mud-circulation-module",
+  "name": "Mud circulation module (shakers, pits, pumps, mud/gas separator)",
+  "equipment_type": "offshore-structural",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "CIV"
+  ],
+  "description": "The drilling-fluid system: shale shakers, mud pits, mixing and transfer pumps, and the mud/gas separator that degasses returns before they reach the pits. It sets the mud-handling capacity of the rig.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "integrated deck with drilling rig",
+    "jack-up",
+    "drillship"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "api"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Mud system capacity and mud/gas separator sizing",
+      "why": "No page read gives pit volume, pump rating or a mud/gas separator sizing basis.",
+      "next_action": "Fetch a rig spec or vendor datasheet and record pit volume, pump rating and separator sizing"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

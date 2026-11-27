@@ -1,0 +1,41 @@
+{
+  "id": "of-immersion-suits",
+  "name": "Immersion suits and survival clothing",
+  "equipment_type": "offshore-outfitting",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "HSE"
+  ],
+  "description": "Insulated immersion suits stowed at muster stations and in lifeboats, sized per person on board. Required where water temperature or escape time makes exposure lethal.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "all offshore platforms"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "whp-vendor-imo-text-mirrored-by-solas-lsa-code-vercel-app"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/",
+      "source_id": "norsok-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Suit approval standard, sizing range and quantity per POB",
+      "why": "No page read gives the suit approval standard or quantity per person.",
+      "next_action": "Fetch the LSA Code or a suit datasheet and record approval, sizing and quantity"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

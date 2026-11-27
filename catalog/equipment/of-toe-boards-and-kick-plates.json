@@ -1,0 +1,41 @@
+{
+  "id": "of-toe-boards-and-kick-plates",
+  "name": "Toe boards, kick plates and edge protection",
+  "equipment_type": "offshore-outfitting",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "HSE"
+  ],
+  "description": "Low upstand plates at the edge of decks and platforms stop tools and material falling. They are part of the dropped-object regime alongside gratings and guardrails.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "all offshore platforms"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "mob-vendor-lloyd-s-register-class-4a0da"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.standard.no/en/sectors/energi-og-klima/petroleum/norsok-standards/",
+      "source_id": "norsok-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Toe-board height and fixing detail",
+      "why": "No page read gives a toe-board height or its fixing detail.",
+      "next_action": "Fetch ISO 14122-3 or an outfitting standard and record height and fixing"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}

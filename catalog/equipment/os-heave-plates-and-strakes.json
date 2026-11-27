@@ -1,0 +1,43 @@
+{
+  "id": "os-heave-plates-and-strakes",
+  "name": "Heave plates, strakes and vortex-induced-motion suppression",
+  "equipment_type": "offshore-structural",
+  "sector": "UPS",
+  "sector_codes": [
+    "UPS",
+    "CIV"
+  ],
+  "description": "Appendages on floating hulls: helical strakes reduce vortex-induced motion on columns, while heave plates add added mass and damping to pontoons or a spar. Their sizing is a motion-performance decision, not a strength one.",
+  "aliases": [],
+  "subtypes": [],
+  "applications": [
+    "spar platform",
+    "semi-submersible",
+    "floating wind turbine"
+  ],
+  "specifications": [],
+  "vendor_models": [],
+  "vendors": [
+    "api"
+  ],
+  "technologies": [],
+  "sources": [
+    {
+      "url": "https://www.api.org/products-and-services/standards",
+      "source_id": "api-standards"
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Offshore_platform",
+      "source_id": "whp-en-wikipedia-org-offshore-platform"
+    }
+  ],
+  "gaps": [
+    {
+      "what": "Strake pitch/height, heave-plate added-mass coefficient and VIM suppression",
+      "why": "No page read gives strake geometry or a measured added-mass coefficient.",
+      "next_action": "Fetch a model-test paper or DNV-RP-C205 and record strake pitch/height and added-mass coefficient with basis"
+    }
+  ],
+  "notes": "Created 2026-11-27 in the offshore-platform component sweep (item from the platform structure taxonomy). No page read yet for this class, so the gap names the parameter and where to look; Wikipedia is cited only as secondary context.",
+  "last_reviewed": "2026-11-27"
+}
